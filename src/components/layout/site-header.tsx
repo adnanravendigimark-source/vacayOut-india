@@ -39,7 +39,7 @@ export function SiteHeader() {
             <nav aria-label="Primary" className="hidden items-center gap-5 whitespace-nowrap text-[0.9375rem] font-medium text-ink lg:flex xl:gap-7">
               <Link href={routes.home} className={navLink("/")}>Home</Link>
               <Link href={routes.destinations} className={navLink(routes.destinations)}>Explore India</Link>
-              <Link href="/#trip-types" className={navLink("/#trip-types")}>Things to do</Link>
+              <Link href="/things-to-do" className={navLink("/things-to-do")}>Things to do</Link>
               <Link href="/#guides" className={navLink("/#guides")}>Travel guides</Link>
               <Link href="/#itineraries" className={navLink("/#itineraries")}>Itineraries</Link>
             </nav>
@@ -96,7 +96,7 @@ export function SiteHeader() {
             <nav id="mobile-menu" aria-label="Mobile" className="mb-3 max-h-[75dvh] overflow-y-auto rounded-2xl border border-line bg-white p-3 shadow-card-hover lg:hidden">
               <Link href={routes.home} onClick={() => setMenu(false)} className="block rounded-xl px-3 py-2.5 font-semibold text-ink hover:bg-canvas">Home</Link>
               <Link href={routes.destinations} onClick={() => setMenu(false)} className="block rounded-xl px-3 py-2.5 font-semibold text-ink hover:bg-canvas">Explore India</Link>
-              <Link href="/#trip-types" onClick={() => setMenu(false)} className="block rounded-xl px-3 py-2.5 font-semibold text-ink hover:bg-canvas">Things to do</Link>
+              <Link href="/things-to-do" onClick={() => setMenu(false)} className="block rounded-xl px-3 py-2.5 font-semibold text-ink hover:bg-canvas">Things to do</Link>
               <div className="mt-2 border-t border-line pt-2">
                 <Link href="/#guides" onClick={() => setMenu(false)} className="block rounded-xl px-3 py-2.5 font-semibold text-ink hover:bg-canvas">Travel guides</Link>
                 <Link href="/#itineraries" onClick={() => setMenu(false)} className="block rounded-xl px-3 py-2.5 font-semibold text-ink hover:bg-canvas">Itineraries</Link>

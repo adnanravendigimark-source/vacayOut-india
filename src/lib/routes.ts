@@ -7,6 +7,7 @@ type Placeable = { slug: string; stateSlug: string; level: "state" | "place" };
 export const routes = {
   home: "/",
   destinations: "/india",
+  thingsToDo: "/things-to-do",
   about: "/about",
   destination: (d: Placeable) =>
     d.level === "state" ? `/india/${d.stateSlug}` : `/india/${d.stateSlug}/${d.slug}`,
