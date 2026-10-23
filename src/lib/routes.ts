@@ -8,6 +8,8 @@ export const routes = {
   home: "/",
   destinations: "/india",
   thingsToDo: "/things-to-do",
+  travelGuides: "/travel-guides",
+  itineraries: "/itineraries",
   about: "/about",
   destination: (d: Placeable) =>
     d.level === "state" ? `/india/${d.stateSlug}` : `/india/${d.stateSlug}/${d.slug}`,

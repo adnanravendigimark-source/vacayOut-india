@@ -40,8 +40,8 @@ export function SiteHeader() {
               <Link href={routes.home} className={navLink("/")}>Home</Link>
               <Link href={routes.destinations} className={navLink(routes.destinations)}>Explore India</Link>
               <Link href="/things-to-do" className={navLink("/things-to-do")}>Things to do</Link>
-              <Link href="/#guides" className={navLink("/#guides")}>Travel guides</Link>
-              <Link href="/#itineraries" className={navLink("/#itineraries")}>Itineraries</Link>
+              <Link href="/travel-guides" className={navLink("/travel-guides")}>Travel guides</Link>
+              <Link href="/itineraries" className={navLink("/itineraries")}>Itineraries</Link>
             </nav>
 
             <div className="flex shrink-0 items-center gap-1.5 sm:gap-2 xl:gap-3">
@@ -98,8 +98,8 @@ export function SiteHeader() {
               <Link href={routes.destinations} onClick={() => setMenu(false)} className="block rounded-xl px-3 py-2.5 font-semibold text-ink hover:bg-canvas">Explore India</Link>
               <Link href="/things-to-do" onClick={() => setMenu(false)} className="block rounded-xl px-3 py-2.5 font-semibold text-ink hover:bg-canvas">Things to do</Link>
               <div className="mt-2 border-t border-line pt-2">
-                <Link href="/#guides" onClick={() => setMenu(false)} className="block rounded-xl px-3 py-2.5 font-semibold text-ink hover:bg-canvas">Travel guides</Link>
-                <Link href="/#itineraries" onClick={() => setMenu(false)} className="block rounded-xl px-3 py-2.5 font-semibold text-ink hover:bg-canvas">Itineraries</Link>
+                <Link href="/travel-guides" onClick={() => setMenu(false)} className="block rounded-xl px-3 py-2.5 font-semibold text-ink hover:bg-canvas">Travel guides</Link>
+                <Link href="/itineraries" onClick={() => setMenu(false)} className="block rounded-xl px-3 py-2.5 font-semibold text-ink hover:bg-canvas">Itineraries</Link>
                 <Link href={routes.chat} onClick={(e) => { openPlanner(e); setMenu(false); }} className="block rounded-xl px-3 py-2.5 font-semibold text-ink hover:bg-canvas">Your trips</Link>
               </div>
             </nav>
