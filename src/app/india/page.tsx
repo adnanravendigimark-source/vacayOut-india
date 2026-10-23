@@ -8,6 +8,8 @@ export const metadata: Metadata = {
   alternates: { canonical: "/india" },
 };
 
-export default function Page() {
-  return <ExplorePage />;
+/** `?zone=north|south|east|west|central|northeast` (from the homepage region cards) preselects a region tab. */
+export default async function Page({ searchParams }: { searchParams: Promise<{ zone?: string }> }) {
+  const { zone } = await searchParams;
+  return <ExplorePage key={zone ?? "all"} initialRegion={typeof zone === "string" ? zone : "all"} />;
 }

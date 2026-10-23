@@ -47,7 +47,14 @@ const newestFirst = (a: Row, b: Row) => b.publishedAt.getTime() - a.publishedAt.
  * and guide comes ONLY from published places. Empty lists hide their sections.
  */
 export async function getHomepageData(): Promise<HomepageData> {
-  const groups = await listDirectory();
+  let groups: Awaited<ReturnType<typeof listDirectory>> = [];
+  try {
+    groups = await listDirectory();
+  } catch (err) {
+    // While designing with sample content, a missing or unmigrated database shouldn't break the homepage.
+    if (!sampleContentEnabled()) throw err;
+    console.warn("Homepage: database unavailable, showing sample content only.", err instanceof Error ? err.message : err);
+  }
   const states = groups.map((g) => g.state);
   const placeRows = groups.flatMap((g) => g.places);
   const all = [...states, ...placeRows];

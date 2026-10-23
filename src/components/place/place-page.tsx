@@ -72,6 +72,7 @@ export function PlacePage({
   stateSlug,
   tripTypes = [],
   preview = false,
+  sample = false,
 }: {
   snapshot: PublishedSnapshot;
   items: Child[];
@@ -80,6 +81,8 @@ export function PlacePage({
   stateSlug: string;
   tripTypes?: string[];
   preview?: boolean;
+  /** Design-time sample content: shows a notice; never comes from the database. */
+  sample?: boolean;
 }) {
   const { place, sections } = snapshot;
   const sec = (key: string) => sections.find((s) => s.key === key && ((s.body.items ?? []).length || s.body.text?.trim()));
@@ -212,6 +215,11 @@ export function PlacePage({
       </header>
 
       <SectionTabs tabs={tabs.map(({ id, label }) => ({ id, label }))} />
+      {sample ? (
+        <p className="border-b border-dashed border-line bg-[#F1EEE7] px-4 py-2 text-center text-xs text-muted">
+          <strong className="font-semibold text-ink">Sample content</strong> for design work — this guide hasn’t been researched or reviewed yet.
+        </p>
+      ) : null}
 
       <div className="container-site grid gap-10 py-10 @5xl:grid-cols-[minmax(0,1fr)_21rem] @5xl:gap-12 @5xl:py-12">
         {/* Main column */}

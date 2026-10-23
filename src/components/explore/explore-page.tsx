@@ -416,8 +416,8 @@ const REGION_TABS = [
   { key: "northeast", label: "Northeast (8)" },
 ];
 
-export function ExplorePage() {
-  const [selectedRegion, setSelectedRegion] = useState("all");
+export function ExplorePage({ initialRegion = "all" }: { initialRegion?: string }) {
+  const [selectedRegion, setSelectedRegion] = useState(REGION_TABS.some((t) => t.key === initialRegion) ? initialRegion : "all");
   const [searchQuery, setSearchQuery] = useState("");
   const [currentPage, setCurrentPage] = useState(1);
   const [isModalOpen, setIsModalOpen] = useState(false);
