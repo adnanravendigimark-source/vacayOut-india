@@ -3,7 +3,7 @@ import { cache } from "react";
 import { redirect } from "next/navigation";
 import { eq } from "drizzle-orm";
 import { getDb } from "@/lib/db";
-import { users } from "@/lib/db/schema";
+import { travellers, users } from "@/lib/db/schema";
 import { auth, STAFF_SESSION_SECONDS } from "./index";
 
 export type AdminUser = { id: string; name: string; email: string; role: "admin" | "editor" };
@@ -35,4 +35,27 @@ export async function requireAdmin(): Promise<AdminUser> {
   const u = await requireUser();
   if (u.role !== "admin") redirect("/admin?error=forbidden");
   return u;
+}
+
+export type Traveller = { id: string; name: string; email: string; google: boolean; hasPassword: boolean };
+
+/** The signed-in, still-active traveller — re-read from the database on every request. */
+export const currentTraveller = cache(async (): Promise<Traveller | null> => {
+  const session = await auth();
+  const id = session?.user?.id;
+  if (!id || session.user.kind !== "traveller") return null;
+  const [t] = await getDb()
+    .select({ id: travellers.id, name: travellers.name, email: travellers.email, active: travellers.active, googleSub: travellers.googleSub, passwordHash: travellers.passwordHash })
+    .from(travellers)
+    .where(eq(travellers.id, id))
+    .limit(1);
+  if (!t || !t.active) return null;
+  return { id: t.id, name: t.name, email: t.email, google: Boolean(t.googleSub), hasPassword: Boolean(t.passwordHash) };
+});
+
+/** Use at the top of every traveller-only page and action. Sends visitors to sign in, then back. */
+export async function requireTraveller(next: string): Promise<Traveller> {
+  const t = await currentTraveller();
+  if (!t) redirect(`/login?next=${encodeURIComponent(next)}`);
+  return t;
 }

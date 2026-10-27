@@ -6,7 +6,7 @@ import type { SectionBody } from "@/lib/db/schema";
  * shape its content must have. The same definitions drive the admin editor,
  * validation on save, publish checks and the public page.
  */
-export type SectionShape = "text" | "list" | "faq" | "days" | "budget";
+export type SectionShape = "text" | "list" | "faq" | "days" | "budget" | "pairs";
 
 export const SECTION_DEFS = [
   { key: "overview", label: "Overview", shape: "text", required: true, help: "What this place is and who it suits. 2–4 short paragraphs." },
@@ -19,6 +19,12 @@ export const SECTION_DEFS = [
   { key: "faqs", label: "FAQs", shape: "faq", required: false, help: "Questions travellers actually ask, with short answers." },
   { key: "itinerary", label: "Suggested itinerary", shape: "days", required: false, help: "One entry per day: a short title and the plan. Only real places." },
   { key: "budget", label: "Budget estimate", shape: "budget", required: false, help: "Assumptions first, then one line per cost with the amount and what it’s based on. Estimates only." },
+  { key: "visit_info", label: "Visiting information", shape: "pairs", required: false, help: "Opening hours, entry fees, closed days, booking and the official website — only what an official source states, with the date checked." },
+  { key: "where_to_stay", label: "Where to stay", shape: "text", required: false, help: "Areas to stay in and who each suits. No hotel prices or ratings." },
+  { key: "food", label: "Food and drink", shape: "list", required: false, help: "Local dishes and where to try them. One per line." },
+  { key: "culture_etiquette", label: "Culture and etiquette", shape: "list", required: false, help: "Customs, dress, photography and religious-site etiquette. One per line." },
+  { key: "practical_info", label: "Practical information", shape: "pairs", required: false, help: "Money and payments, connectivity, language, what to wear and pack, permits." },
+  { key: "safety_health", label: "Safety and health", shape: "pairs", required: false, help: "Safety, health precautions, common scams, accessibility and emergency numbers." },
 ] as const satisfies readonly { key: string; label: string; shape: SectionShape; required: boolean; help: string }[];
 
 export type SectionKey = (typeof SECTION_DEFS)[number]["key"];
@@ -39,6 +45,9 @@ const shapes = {
     .strict(),
   days: z
     .object({ items: z.array(z.object({ title: z.string().trim().min(1).max(120), body: z.string().trim().min(1).max(2000) }).strict()).min(1).max(10) })
+    .strict(),
+  pairs: z
+    .object({ items: z.array(z.object({ title: line, body: z.string().trim().min(1).max(2000) }).strict()).min(1).max(20) })
     .strict(),
   budget: z
     .object({
@@ -69,7 +78,7 @@ export function bodyFromForm(key: string, form: FormData): unknown {
       .map((body) => ({ body }));
     return { items };
   }
-  // faq, days and budget all use title/body rows; budget also has assumptions text.
+  // faq, days, pairs and budget all use title/body rows; budget also has assumptions text.
   const qs = form.getAll("q").map(String);
   const as = form.getAll("a").map(String);
   const items = qs

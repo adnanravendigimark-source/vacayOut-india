@@ -15,7 +15,7 @@ export function configChecks() {
     { name: "Database (DATABASE_URL)", ok: has("DATABASE_URL"), required: true },
     { name: "Sign-in secret (AUTH_SECRET)", ok: has("AUTH_SECRET"), required: true },
     { name: "Site URL (NEXT_PUBLIC_SITE_URL)", ok: has("NEXT_PUBLIC_SITE_URL"), required: true },
-    { name: "Image storage (BLOB_READ_WRITE_TOKEN)", ok: has("BLOB_READ_WRITE_TOKEN"), required: true },
+    { name: "Image storage (BLOB_STORE_ID or BLOB_READ_WRITE_TOKEN)", ok: has("BLOB_STORE_ID") || has("BLOB_READ_WRITE_TOKEN"), required: true },
     { name: "Scheduled jobs (CRON_SECRET)", ok: has("CRON_SECRET"), required: true },
     { name: "OpenAI (OPENAI_API_KEY)", ok: has("OPENAI_API_KEY"), required: true },
     { name: "Email (RESEND_API_KEY + EMAIL_FROM)", ok: has("RESEND_API_KEY") && has("EMAIL_FROM"), required: true },

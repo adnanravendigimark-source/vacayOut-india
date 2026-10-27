@@ -151,6 +151,8 @@ export const tripMemorySchema = z.object({
 export type TripMemory = z.infer<typeof tripMemorySchema>;
 
 export const chatRequestSchema = z.object({
+  /** Browser-generated id of the conversation; free chats are counted per id. */
+  chatId: z.string().uuid(),
   messages: z
     .array(
       z.object({

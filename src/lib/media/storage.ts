@@ -10,9 +10,13 @@ import { del, put } from "@vercel/blob";
  */
 const LOCAL_DIR = path.join(process.cwd(), "public", "uploads");
 
+/**
+ * Vercel Blob credentials: a read-write token, or (on Vercel) the store ID with
+ * the platform's OIDC token, which @vercel/blob picks up by itself.
+ */
 function blobConfigured() {
-  if (process.env.BLOB_READ_WRITE_TOKEN) return true;
-  if (process.env.NODE_ENV === "production") throw new Error("BLOB_READ_WRITE_TOKEN is not set");
+  if (process.env.BLOB_READ_WRITE_TOKEN || process.env.BLOB_STORE_ID) return true;
+  if (process.env.NODE_ENV === "production") throw new Error("Vercel Blob isn’t configured (set BLOB_STORE_ID or BLOB_READ_WRITE_TOKEN)");
   return false;
 }
 

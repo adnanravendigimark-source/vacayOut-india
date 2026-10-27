@@ -64,26 +64,46 @@ if (!safe) {
     assert.equal((await hit("k1", 3, 60, { now: t + 60_000 })).ok, true, "next window");
   });
 
-  test("anonymous visitors get 5 messages, then must sign up; travellers continue", async () => {
+  test("anonymous visitors get 5 free chats (follow-ups don't count), then must sign up; travellers continue", async () => {
     const req = new Request("http://x/api/chat", { headers: { "x-forwarded-for": "203.0.113.9", cookie: "vo_anon=11111111-1111-4111-8111-111111111111" } });
     const v = await quota.resolveVisitor(req, null);
     assert.equal(v.kind, "anon");
     assert.equal(v.newCookie, null);
+    const chat = (n: number) => `00000000-0000-4000-8000-${String(n).padStart(12, "0")}`;
+    // Clears the 8-per-minute burst limit so this test can send many messages quickly.
+    const admit = async (who: typeof v, id: string) => {
+      await db.execute(sql`delete from usage_counters where key like 'chat:min:%'`);
+      return quota.admitMessage(who, id);
+    };
     const lefts: (number | null)[] = [];
-    for (let i = 0; i < 5; i++) {
-      const a = await quota.admitMessage(v);
-      assert.ok(a.ok);
+    for (let i = 1; i <= 5; i++) {
+      const a = await admit(v, chat(i));
+      assert.ok(a.ok, `chat ${i}`);
       if (a.ok) lefts.push(a.freeLeft);
+      // A follow-up in the same chat doesn't use another free chat.
+      const f = await admit(v, chat(i));
+      assert.ok(f.ok, `follow-up in chat ${i}`);
+      if (a.ok && f.ok) assert.equal(f.freeLeft, a.freeLeft);
     }
     assert.deepEqual(lefts, [4, 3, 2, 1, 0]);
-    const sixth = await quota.admitMessage(v);
+    // Reopening an earlier chat and continuing it still works.
+    assert.ok((await admit(v, chat(1))).ok);
+    const sixth = await admit(v, chat(6));
     assert.equal(sixth.ok, false);
     if (!sixth.ok) assert.equal(sixth.code, "auth_required");
+    // A refused chat isn't counted, so asking again is refused the same way.
+    assert.equal((await admit(v, chat(6))).ok, false);
+
+    // One free chat can't be used forever. (Chat 1 has used 3 of its messages.)
+    for (let i = 4; i <= quota.LIMITS.freeMessagesPerChat; i++) assert.ok((await admit(v, chat(1))).ok, `message ${i}`);
+    const over = await admit(v, chat(1));
+    assert.equal(over.ok, false);
+    if (!over.ok) assert.equal(over.code, "auth_required");
 
     const [t] = await db.insert(s.travellers).values({ email: "a@b.in", name: "A", emailVerifiedAt: new Date() }).returning();
     const tv = await quota.resolveVisitor(req, { user: { id: t.id, kind: "traveller" } });
     assert.equal(tv.kind, "traveller");
-    assert.ok((await quota.admitMessage(tv)).ok);
+    assert.ok((await admit(tv, chat(7))).ok);
     // A staff session is not a traveller.
     assert.equal((await quota.resolveVisitor(req, { user: { id: staff, kind: "staff" } })).kind, "anon");
     // No cookie → a new anonymous id is issued.

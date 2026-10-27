@@ -13,7 +13,10 @@ export async function sendEmail(msg: { to: string; subject: string; text: string
   const from = process.env.EMAIL_FROM;
   if (!key || !from) {
     if (process.env.NODE_ENV === "production") throw new EmailNotConfigured("RESEND_API_KEY / EMAIL_FROM are not set");
-    console.info(`\n[email:dev] To: ${msg.to}\nSubject: ${msg.subject}\n${msg.text}\n`);
+    const entry = `\n[email:dev] ${new Date().toISOString()} To: ${msg.to}\nSubject: ${msg.subject}\n${msg.text}\n`;
+    console.info(entry);
+    // Also kept in the (git-ignored) build folder so links can be followed when the terminal isn't visible.
+    await import("node:fs/promises").then((fs) => fs.appendFile(".next/dev-mail.log", entry)).catch(() => {});
     return;
   }
   const res = await fetch("https://api.resend.com/emails", {

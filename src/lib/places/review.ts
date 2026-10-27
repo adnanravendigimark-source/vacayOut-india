@@ -168,6 +168,19 @@ export async function approveSectionWithFacts(placeId: string, key: SectionKey, 
   });
 }
 
+/**
+ * For content outside place sections (itineraries): problems with the cited
+ * facts, and the verified pending ones that approving the content approves.
+ * Same rules as approveSectionWithFacts.
+ */
+export async function citedFactsCheck(db: Db | Tx, findingIds: string[]): Promise<{ problems: string[]; toApprove: string[] }> {
+  const facts = await factInfo(db, findingIds);
+  const missing = findingIds.filter((id) => !facts.has(id));
+  const problems = [...facts.values()].map(factProblem).filter((p): p is string => Boolean(p));
+  if (missing.length) problems.push(`${missing.length} cited fact(s) no longer exist — edit the content.`);
+  return { problems, toApprove: [...facts.values()].filter((f) => f.status === "pending" && f.verified).map((f) => f.id) };
+}
+
 /** After a fact is rejected or reopened: every APPROVED section citing it goes back to draft. Returns the section keys. */
 export async function reopenSectionsCiting(tx: Tx, findingId: string) {
   const rows = await tx

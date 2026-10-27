@@ -10,7 +10,6 @@ import { streamAnswer } from "@/lib/chat/client";
 import { FreeMessagesHint } from "./free-hint";
 import { appendMessages, createChat, getChat, updateAssistant, useChats, useHydrated } from "@/lib/chat/store";
 import { routes } from "@/lib/routes";
-import { Logo } from "@/components/layout/logo";
 import { ChatMessageView } from "./chat-message";
 import { ChatSidebar } from "./chat-sidebar";
 import { Composer } from "./composer";
@@ -36,6 +35,13 @@ export function ChatView({
   const pathname = usePathname();
   const activeId = chatId ?? (pathname.startsWith("/chat/") ? pathname.slice("/chat/".length) : null);
   const [busy, setBusy] = useState(false);
+  // Chat history drawer for screens without the sidebar.
+  const [historyOpen, setHistoryOpen] = useState(false);
+  const [lastPath, setLastPath] = useState(pathname);
+  if (pathname !== lastPath) {
+    setLastPath(pathname);
+    setHistoryOpen(false);
+  }
   const controller = useRef<AbortController | null>(null);
   const endRef = useRef<HTMLDivElement>(null);
   const started = useRef(false);
@@ -115,10 +121,24 @@ export function ChatView({
   const empty = !chat || chat.messages.length === 0;
 
   return (
-    <div className="grid min-h-[calc(100dvh-4.5rem)] lg:min-h-[calc(100dvh-5.25rem)] lg:grid-cols-[16.5rem_minmax(0,1fr)]">
+    <div className="grid min-h-dvh lg:grid-cols-[16.5rem_minmax(0,1fr)]">
       <div className="hidden border-r border-line bg-canvas lg:block">
         <ChatSidebar activeId={activeId} />
       </div>
+
+      {historyOpen ? (
+        <div className="fixed inset-0 z-50 lg:hidden" role="dialog" aria-modal="true" aria-label="Chat history">
+          <button type="button" aria-label="Close chat history" onClick={() => setHistoryOpen(false)} className="absolute inset-0 bg-black/40" />
+          <div className="absolute inset-y-0 left-0 w-[min(18rem,85vw)] overflow-y-auto bg-canvas shadow-2xl">
+            <div className="flex items-center justify-end px-3 pt-3">
+              <button type="button" onClick={() => setHistoryOpen(false)} aria-label="Close chat history" className="rounded-md p-1.5 text-muted hover:text-ink">
+                <Icon name="x" size={16} />
+              </button>
+            </div>
+            <ChatSidebar activeId={activeId} onNavigate={() => setHistoryOpen(false)} />
+          </div>
+        </div>
+      ) : null}
 
       <div className="flex min-w-0 flex-col">
         {/* Top navigation as specified in Section 4:
@@ -127,7 +147,17 @@ export function ChatView({
             - New conversation control
             - Close or return-to-home control */}
         <div className="sticky top-0 z-20 flex h-16 items-center justify-between border-b border-line bg-white/95 px-4 sm:px-6 backdrop-blur-md">
-          <div className="flex items-center gap-3">
+          <div className="flex shrink-0 items-center gap-2 sm:gap-3">
+            <button
+              type="button"
+              onClick={() => setHistoryOpen(true)}
+              aria-label="Show chat history"
+              aria-expanded={historyOpen}
+              className="flex items-center gap-1.5 rounded-lg border border-line bg-canvas px-2.5 py-1.5 text-xs font-semibold text-ink transition-colors hover:border-coral hover:text-coral lg:hidden"
+            >
+              <Icon name="menu" size={14} />
+              <span className="hidden sm:inline">History</span>
+            </button>
             {onClose ? (
               <button
                 type="button"
@@ -148,28 +178,26 @@ export function ChatView({
                 <span className="hidden sm:inline">Home</span>
               </Link>
             )}
-            <div className="hidden md:block">
-              <Logo tone="dark" />
-            </div>
           </div>
 
-          <div className="flex flex-col items-center max-w-[200px] sm:max-w-xs md:max-w-md truncate text-center">
-            <span className="text-[0.875rem] font-semibold text-ink truncate">
+          <div className="flex min-w-0 flex-1 flex-col px-2 text-center sm:px-4">
+            <span className="block truncate text-[0.875rem] font-semibold text-ink">
               {chat?.title ?? "AI Travel Planner"}
             </span>
-            <span className="text-[0.6875rem] text-muted flex items-center gap-1">
+            <span className="flex items-center justify-center gap-1 text-[0.6875rem] text-muted">
               <span className="size-1.5 rounded-full bg-emerald-500 animate-pulse" />
               VacayOut AI Active
             </span>
           </div>
 
-          <div className="flex items-center gap-2">
+          <div className="flex shrink-0 items-center gap-2">
             <Link
               href={routes.chat}
-              className="inline-flex items-center gap-1 rounded-lg bg-coral px-3 py-1.5 text-xs font-semibold text-white shadow-coral transition-all hover:bg-coral-hover hover:scale-105 active:scale-95"
+              aria-label="New trip"
+              className="inline-flex items-center gap-1 whitespace-nowrap rounded-lg bg-coral px-3 py-1.5 text-xs font-semibold text-white shadow-coral transition-all hover:bg-coral-hover hover:scale-105 active:scale-95"
             >
               <Icon name="sparkles" size={13} />
-              <span>New trip</span>
+              <span className="hidden sm:inline">New trip</span>
             </Link>
             {onClose ? (
               <button

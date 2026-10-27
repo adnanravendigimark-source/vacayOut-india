@@ -99,6 +99,7 @@ const SCHEMAS = {
   text: { type: "object", additionalProperties: false, required: ["paragraphs", "notes"], properties: { notes: { type: "string" }, paragraphs: { type: "array", items: { type: "object", additionalProperties: false, required: ["text", "facts"], properties: { text: { type: "string" }, facts: refs } } } } },
   list: { type: "object", additionalProperties: false, required: ["items", "notes"], properties: { notes: { type: "string" }, items: { type: "array", items: { type: "object", additionalProperties: false, required: ["text", "facts", "places"], properties: { text: { type: "string" }, facts: refs, places: refs } } } } },
   faq: { type: "object", additionalProperties: false, required: ["items", "notes"], properties: { notes: { type: "string" }, items: { type: "array", items: { type: "object", additionalProperties: false, required: ["question", "answer", "facts"], properties: { question: { type: "string" }, answer: { type: "string" }, facts: refs } } } } },
+  pairs: { type: "object", additionalProperties: false, required: ["items", "notes"], properties: { notes: { type: "string" }, items: { type: "array", items: { type: "object", additionalProperties: false, required: ["label", "detail", "facts"], properties: { label: { type: "string" }, detail: { type: "string" }, facts: refs } } } } },
   days: { type: "object", additionalProperties: false, required: ["days", "notes"], properties: { notes: { type: "string" }, days: { type: "array", items: { type: "object", additionalProperties: false, required: ["title", "plan", "facts", "places"], properties: { title: { type: "string" }, plan: { type: "string" }, facts: refs, places: refs } } } } },
   budget: { type: "object", additionalProperties: false, required: ["assumptions", "lines", "notes"], properties: { notes: { type: "string" }, assumptions: { type: "string" }, lines: { type: "array", items: { type: "object", additionalProperties: false, required: ["item", "amount", "basis", "facts"], properties: { item: { type: "string" }, amount: { type: "string" }, basis: { type: "string" }, facts: refs } } } } },
   details: { type: "object", additionalProperties: false, required: ["summary", "seo_title", "seo_description", "trip_types", "facts", "notes"], properties: { summary: { type: "string" }, seo_title: { type: "string" }, seo_description: { type: "string" }, trip_types: { type: "array", items: { type: "string", enum: TRIP_TYPES.map((t) => t.key) } }, facts: refs, notes: { type: "string" } } },
@@ -108,6 +109,7 @@ const SHAPE_BRIEF: Record<string, string> = {
   text: "Write 1–4 short paragraphs.",
   list: "Write 3–12 list lines, one idea each (a line may name one of the listed places).",
   faq: "Write 3–8 questions travellers really ask, each with a short answer.",
+  pairs: "Write 2–10 labelled entries (label like \"Opening hours\" or \"Money\", then the detail). Hours, fees, rules and numbers only exactly as a fact gives them.",
   days: "Write a realistic day-by-day plan (1–5 days). Each day: a short title like \"Day 1: Old Manali and Hadimba Temple\" and a plan. Only mention places from the PLACES list or the facts. Don't invent travel times.",
   budget: "Write an estimated budget. First the assumptions (who, how many days, travel style). Then one line per cost: item, amount exactly as a price fact gives it, and the basis (e.g. \"per person, entry fee\"). Every line must cite a price fact. If there are no price facts, return no lines.",
 };
@@ -190,6 +192,13 @@ ${factList(ctx, key)}${places}`;
     dropped = g.dropped;
     used = g.kept.flatMap((k) => k.facts);
     body = { items: g.kept.map((k) => ({ title: k.unit.question.trim(), body: k.unit.answer.trim() })) };
+  } else if (def.shape === "pairs") {
+    const p = z.object({ items: z.array(z.object({ label: str, detail: str, facts: ids })) }).safeParse(raw);
+    if (!p.success) return { ok: false, message: "The draft didn’t match the expected format." };
+    const g = groundUnits(p.data.items.map((i) => ({ ...i, text: `${i.label}\n${i.detail}` })), ctx, { allowPlaceOnly: false });
+    dropped = g.dropped;
+    used = g.kept.flatMap((k) => k.facts);
+    body = { items: g.kept.map((k) => ({ title: k.unit.label.trim(), body: k.unit.detail.trim() })) };
   } else if (def.shape === "days") {
     const p = z.object({ days: z.array(z.object({ title: str, plan: str, facts: ids, places: ids })) }).safeParse(raw);
     if (!p.success) return { ok: false, message: "The draft didn’t match the expected format." };

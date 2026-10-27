@@ -7,7 +7,7 @@ import { getChat, latestMemory, updateAssistant, type ChatMessage } from "./stor
 /**
  * The one place the browser talks to /api/chat. Used by the full chat page
  * and the homepage planner, so both behave the same (status lines, trip
- * memory, sign-up prompt after the free messages).
+ * memory, sign-up prompt after the free chats).
  */
 
 const MAX_HISTORY = 20;
@@ -48,7 +48,7 @@ export async function streamAnswer(chatId: string, assistantId: string, signal: 
     const res = await fetch("/api/chat", {
       method: "POST",
       headers: { "content-type": "application/json" },
-      body: JSON.stringify({ messages: turns, memory }),
+      body: JSON.stringify({ chatId, messages: turns, memory }),
       signal,
     });
     if (!res.ok || !res.body) {

@@ -7,7 +7,9 @@ import { hashKey, hit } from "@/lib/limiter";
 
 /**
  * Who is chatting, and how much they may use. Anonymous visitors get a few
- * free messages (tracked by an httpOnly cookie, with a per-network backstop);
+ * free chats — a chat is one conversation ("Udaipur itinerary"), however many
+ * follow-ups it has, up to a per-chat cap. Tracked by an httpOnly cookie, with
+ * a per-network backstop;
  * signed-in travellers get a daily allowance. Live web research has its own,
  * smaller daily quota, and chat has a monthly spending cap.
  */
@@ -17,7 +19,10 @@ const num = (v: string | undefined, d: number) => {
   return Number.isFinite(n) && n >= 0 ? n : d;
 };
 export const LIMITS = {
-  freeMessages: num(process.env.CHAT_FREE_MESSAGES, 5),
+  /** New conversations a visitor may start before signing up. */
+  freeChats: num(process.env.CHAT_FREE_CHATS, 5),
+  /** Messages per free conversation, so one chat can't be used forever. */
+  freeMessagesPerChat: num(process.env.CHAT_FREE_MESSAGES_PER_CHAT, 10),
   anonPerNetworkPerDay: 40,
   travellerPerDay: num(process.env.CHAT_DAILY_MESSAGES, 80),
   perMinute: 8,
@@ -55,7 +60,12 @@ export type Admission =
   | { ok: true; freeLeft: number | null }
   | { ok: false; status: 401 | 429; code: "auth_required" | "rate_limited" | "daily_limit"; message: string; retryAfter: number };
 
-export async function admitMessage(v: Visitor): Promise<Admission> {
+/**
+ * `chatId` is the conversation the message belongs to. Its first message
+ * starts (and counts) a free chat; follow-ups, retries and reopening the same
+ * conversation later never count again.
+ */
+export async function admitMessage(v: Visitor, chatId: string): Promise<Admission> {
   const burst = await hit(`chat:min:${v.key}`, LIMITS.perMinute, 60);
   if (!burst.ok) return { ok: false, status: 429, code: "rate_limited", message: "You’re sending messages quickly — give it a few seconds.", retryAfter: burst.retryAfterSeconds };
 
@@ -65,13 +75,34 @@ export async function admitMessage(v: Visitor): Promise<Admission> {
     return { ok: true, freeLeft: null };
   }
 
-  // Check first (no charge), so a visitor who is out of free messages isn't counted again.
-  const used = await hit(`chat:free:${v.key}`, LIMITS.freeMessages, FOREVER, { consume: false });
-  if (!used.ok) return { ok: false, status: 401, code: "auth_required", message: "You’ve used your free messages. Sign up free to keep planning.", retryAfter: 0 };
+  const chatsKey = `chat:chats:${v.key}`;
+  const convKey = `chat:conv:${hashKey(`${v.key}:${chatId}`)}`;
+  const signUp = (message: string): Admission => ({ ok: false, status: 401, code: "auth_required", message, retryAfter: 0 });
+  const usedUp = `You’ve used your ${LIMITS.freeChats} free chats. Sign up free to keep planning.`;
+
+  // Peek first (no charge), so a visitor who is out of allowance isn't counted again.
+  const conv = await hit(convKey, LIMITS.freeMessagesPerChat, FOREVER, { consume: false });
+  const isNew = conv.count === 0;
+  if (isNew) {
+    if (!(await hit(chatsKey, LIMITS.freeChats, FOREVER, { consume: false })).ok) return signUp(usedUp);
+  } else if (!conv.ok) {
+    return signUp("This free chat has reached its limit. Sign up free to keep planning.");
+  }
   const net = await hit(`chat:net:${v.network}`, LIMITS.anonPerNetworkPerDay, DAY);
-  if (!net.ok) return { ok: false, status: 401, code: "auth_required", message: "Sign up free to keep planning.", retryAfter: 0 };
-  const now = await hit(`chat:free:${v.key}`, LIMITS.freeMessages, FOREVER);
-  return { ok: true, freeLeft: Math.max(0, LIMITS.freeMessages - now.count) };
+  if (!net.ok) return signUp("Sign up free to keep planning.");
+
+  let chatsUsed: number;
+  if (isNew) {
+    // Atomic increment: two chats started at the same moment can't both slip past the limit.
+    const started = await hit(chatsKey, LIMITS.freeChats, FOREVER);
+    if (!started.ok) return signUp(usedUp);
+    chatsUsed = started.count;
+  } else {
+    chatsUsed = (await hit(chatsKey, LIMITS.freeChats, FOREVER, { consume: false })).count;
+  }
+  const msg = await hit(convKey, LIMITS.freeMessagesPerChat, FOREVER);
+  if (!msg.ok) return signUp("This free chat has reached its limit. Sign up free to keep planning.");
+  return { ok: true, freeLeft: Math.max(0, LIMITS.freeChats - chatsUsed) };
 }
 
 /** Consumes one live-research allowance. Cache hits don't call this. */

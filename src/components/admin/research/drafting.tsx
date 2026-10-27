@@ -8,7 +8,7 @@ import { Notice, secondaryButtonClass, buttonClass } from "../ui";
 
 export type SuggestionView = {
   id: string;
-  shape: "text" | "list" | "faq" | "days" | "budget" | "details";
+  shape: "text" | "list" | "faq" | "days" | "budget" | "pairs" | "details";
   body: SectionBody | { summary: string; seoTitle: string; seoDescription: string };
   sources: SectionSource[];
   notes: string | null;

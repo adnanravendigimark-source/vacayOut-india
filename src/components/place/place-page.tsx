@@ -9,7 +9,7 @@ import { kindLabel } from "@/lib/places/kinds";
 import { zoneOf } from "@/lib/places/states";
 import { TRIP_TYPES } from "@/lib/places/trip-types";
 import { PlaceMap } from "@/components/map/place-map";
-import { BudgetTable, CheckList, DaysTimeline, FaqList, HighlightCards, SectionBody, TextBody } from "./section-body";
+import { BudgetTable, CheckList, DaysTimeline, FaqList, HighlightCards, PairsList, SectionBody, TextBody } from "./section-body";
 import { SectionTabs } from "./section-tabs";
 import { PlacesExplorer, type ExplorerPlace } from "./places-explorer";
 
@@ -17,6 +17,7 @@ type Child = { name: string; slug: string; kind: string; summary: string | null;
 type Inline = { slug: string; snapshot: PublishedSnapshot };
 type Related = { name: string; slug: string; kind: string; summary: string | null; type: "nearby" | "day_trip"; stateSlug: string | null; lat?: number | null; lng?: number | null; hero?: SnapshotImage | null };
 type Section = PublishedSnapshot["sections"][number];
+type ItineraryLink = { slug: string; title: string; durationDays: number; summary: string };
 
 const ext = { target: "_blank", rel: "nofollow noopener noreferrer" } as const;
 
@@ -71,6 +72,7 @@ export function PlacePage({
   related = [],
   stateSlug,
   tripTypes = [],
+  itineraries = [],
   preview = false,
   sample = false,
 }: {
@@ -80,6 +82,8 @@ export function PlacePage({
   related?: Related[];
   stateSlug: string;
   tripTypes?: string[];
+  /** Published ready-made itineraries for this destination. */
+  itineraries?: ItineraryLink[];
   preview?: boolean;
   /** Design-time sample content: shows a notice; never comes from the database. */
   sample?: boolean;
@@ -96,6 +100,13 @@ export function PlacePage({
   const faqs = sec("faqs");
   const itinerary = sec("itinerary");
   const budget = sec("budget");
+  const visitInfo = sec("visit_info");
+  const whereToStay = sec("where_to_stay");
+  const food = sec("food");
+  const culture = sec("culture_etiquette");
+  const practical = sec("practical_info");
+  const safety = sec("safety_health");
+  const hasPractical = !!(whereToStay || food || culture || practical || safety);
 
   const isState = place.kind === "state";
   const isDestination = ["state", "region", "city", "town"].includes(place.kind);
@@ -151,11 +162,13 @@ export function PlacePage({
   const tabs = [
     { id: "overview", label: "Overview", show: true },
     { id: "places", label: isState ? `Destinations (${placeCount})` : `Places to visit (${placeCount})`, show: placeCount > 0 },
+    { id: "s-visit_info", label: "Visiting", show: !!visitInfo },
     { id: "s-things_to_do", label: "Things to do", show: !!thingsToDo },
-    { id: "s-itinerary", label: "Itinerary", show: !!itinerary },
+    { id: "s-itinerary", label: "Itinerary", show: !!itinerary || itineraries.length > 0 },
     { id: "s-best_time", label: "Best time", show: !!bestTime },
     { id: "s-how_to_reach", label: howToReach ? "How to reach" : "Getting around", show: !!(howToReach || localTransport) },
     { id: "s-budget", label: "Budget", show: !!budget },
+    { id: "practical", label: "Practical info", show: hasPractical },
     { id: "s-faqs", label: "FAQs", show: !!faqs },
     { id: "sources", label: "Sources", show: sources.length > 0 },
   ].filter((t) => t.show);
@@ -241,7 +254,34 @@ export function PlacePage({
             </section>
           ) : null}
 
+          {visitInfo ? (
+            <Block id="s-visit_info" title="Visiting information">
+              <PairsList s={visitInfo} />
+              <p className="mt-2 text-xs text-muted">Timings, fees and rules change. Check the official website before you go.</p>
+            </Block>
+          ) : null}
+
           {thingsToDo ? <Block id="s-things_to_do" title="Things to do"><CheckList s={thingsToDo} columns /></Block> : null}
+
+          {itineraries.length ? (
+            <Block id={itinerary ? "ready-itineraries" : "s-itinerary"} title={`Ready-made ${place.name} itineraries`}>
+              <ul className="grid gap-3 @xl:grid-cols-2">
+                {itineraries.map((it) => (
+                  <li key={it.slug}>
+                    {preview ? (
+                      <div className="rounded-2xl border border-line bg-white p-5"><p className="font-semibold text-ink">{it.title}</p></div>
+                    ) : (
+                      <Link href={`/itineraries/${it.slug}`} className="group block h-full rounded-2xl border border-line bg-white p-5 hover:border-coral">
+                        <span className="rounded-md bg-coral/10 px-2 py-0.5 text-xs font-semibold text-coral">{it.durationDays} days</span>
+                        <span className="mt-2 block font-semibold text-ink group-hover:text-coral">{it.title}</span>
+                        <span className="mt-1 block text-sm leading-relaxed text-muted">{it.summary}</span>
+                      </Link>
+                    )}
+                  </li>
+                ))}
+              </ul>
+            </Block>
+          ) : null}
 
           {itinerary ? (
             <Block id="s-itinerary" title="Suggested itinerary">
@@ -282,6 +322,16 @@ export function PlacePage({
           ) : null}
 
           {budget ? <Block id="s-budget" title="Budget estimate"><BudgetTable s={budget} /></Block> : null}
+
+          {hasPractical ? (
+            <section id="practical" aria-label="Practical information" className="scroll-mt-20 space-y-10">
+              {whereToStay ? <Block id="s-where_to_stay" title="Where to stay"><div className="rounded-2xl border border-line bg-white p-5 @xl:p-6"><TextBody s={whereToStay} /></div></Block> : null}
+              {food ? <Block id="s-food" title="Food and drink"><CheckList s={food} columns /></Block> : null}
+              {culture ? <Block id="s-culture_etiquette" title="Culture and etiquette"><CheckList s={culture} /></Block> : null}
+              {practical ? <Block id="s-practical_info" title="Practical information"><PairsList s={practical} /></Block> : null}
+              {safety ? <Block id="s-safety_health" title="Safety and health"><PairsList s={safety} /></Block> : null}
+            </section>
+          ) : null}
 
           {inline.length ? (
             <Block id="more-places" title={`More about places in ${place.name}`}>

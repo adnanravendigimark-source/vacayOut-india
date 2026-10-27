@@ -1,5 +1,7 @@
 import type { Metadata } from "next";
 import { ExplorePage } from "@/components/explore/explore-page";
+import { PAGE_HEROES } from "@/lib/data/page-heroes";
+import { exploreIndiaData } from "@/lib/places/public-lists";
 
 export const metadata: Metadata = {
   title: "Explore India — Destinations, States & Union Territories",
@@ -8,8 +10,11 @@ export const metadata: Metadata = {
   alternates: { canonical: "/india" },
 };
 
-/** `?zone=north|south|east|west|central|northeast` (from the homepage region cards) preselects a region tab. */
+// Reads published guides on each request (cheap), so new publishes appear immediately.
+export const dynamic = "force-dynamic";
+
+/** `?zone=north|south|east|west|central|northeast|islands` (from the homepage region cards) preselects a region tab. */
 export default async function Page({ searchParams }: { searchParams: Promise<{ zone?: string }> }) {
-  const { zone } = await searchParams;
-  return <ExplorePage key={zone ?? "all"} initialRegion={typeof zone === "string" ? zone : "all"} />;
+  const [{ zone }, data] = await Promise.all([searchParams, exploreIndiaData()]);
+  return <ExplorePage key={zone ?? "all"} data={data} hero={PAGE_HEROES.exploreIndia} initialRegion={typeof zone === "string" ? zone : "all"} />;
 }

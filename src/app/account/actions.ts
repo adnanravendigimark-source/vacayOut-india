@@ -1,9 +1,12 @@
 "use server";
 
 import { headers } from "next/headers";
+import { redirect } from "next/navigation";
 import { AuthError } from "next-auth";
 import { z } from "zod";
 import { signIn, signOut } from "@/lib/auth";
+import { verifyCaptcha } from "@/lib/auth/captcha";
+import { safeNext } from "@/lib/auth/next-path";
 import { hashPassword, passwordProblem } from "@/lib/auth/password";
 import { findTravellerByEmail, googleConfigured, sendVerification, TRAVELLER_MIN_PASSWORD } from "@/lib/auth/travellers";
 import { getDb } from "@/lib/db";
@@ -14,11 +17,16 @@ import { isUniqueViolation } from "@/lib/admin/action-state";
 
 export type AccountState = { ok: boolean; message?: string; step?: "check_email" | "signed_in"; fields?: Record<string, string> };
 
-async function ipKey() {
+async function clientIp() {
   const h = await headers();
-  const ip = h.get("x-forwarded-for")?.split(",")[0]?.trim() || h.get("x-real-ip") || "unknown";
-  return hashKey(ip);
+  return (h.get("x-forwarded-for")?.split(",")[0]?.trim() || h.get("x-real-ip") || "unknown").slice(0, 64);
 }
+
+async function ipKey() {
+  return hashKey(await clientIp());
+}
+
+const CAPTCHA_FAILED = "Please tick “I’m not a robot” and try again.";
 
 const signUpSchema = z.object({
   name: z.string().trim().min(1, "Tell us your name.").max(80),
@@ -35,6 +43,8 @@ export async function signUpAction(_: AccountState, form: FormData): Promise<Acc
   if (!parsed.success) return { ok: false, message: parsed.error.issues[0]?.message, fields };
   const problem = passwordProblem(parsed.data.password, TRAVELLER_MIN_PASSWORD);
   if (problem) return { ok: false, message: problem, fields };
+
+  if (!(await verifyCaptcha(form.get("g-recaptcha-response"), await clientIp()))) return { ok: false, message: CAPTCHA_FAILED, fields };
 
   const limit = await hit(`signup:${await ipKey()}`, 5, 3600);
   if (!limit.ok) return { ok: false, message: "Too many sign-ups from this network. Try again in an hour.", fields };
@@ -63,9 +73,10 @@ export async function signUpAction(_: AccountState, form: FormData): Promise<Acc
 
 export async function travellerSignInAction(_: AccountState, form: FormData): Promise<AccountState> {
   const fields = { email: String(form.get("email") ?? "").slice(0, 254) };
+  if (!(await verifyCaptcha(form.get("g-recaptcha-response"), await clientIp()))) return { ok: false, message: CAPTCHA_FAILED, fields };
+  const next = safeNext(form.get("next"));
   try {
     await signIn("traveller", { email: String(form.get("email") ?? ""), password: String(form.get("password") ?? ""), redirect: false });
-    return { ok: true, step: "signed_in" };
   } catch (err) {
     if (err instanceof AuthError) {
       const code = (err as AuthError & { code?: string }).code;
@@ -75,16 +86,19 @@ export async function travellerSignInAction(_: AccountState, form: FormData): Pr
     }
     throw err;
   }
+  redirect(next);
 }
 
 export async function googleSignInAction(form: FormData) {
   if (!googleConfigured()) return;
-  const back = String(form.get("back") ?? "/chat");
-  // Only same-site paths, never a full URL (open-redirect guard).
-  const redirectTo = /^\/(?!\/)[\w\-/?=&%.]*$/.test(back) ? back : "/chat";
-  await signIn("google", { redirectTo });
+  await signIn("google", { redirectTo: safeNext(form.get("next")) });
 }
 
 export async function travellerSignOutAction() {
   await signOut({ redirect: false });
+}
+
+/** Sign-out button on the account page: ends the session and returns home. */
+export async function signOutToHomeAction() {
+  await signOut({ redirectTo: "/" });
 }

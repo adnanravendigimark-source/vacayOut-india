@@ -1,0 +1,1461 @@
+{
+  "cluster": "manali",
+  "title": "Manali",
+  "researchedAt": "2026-10-27",
+  "selection": "Himachal Pradesh recorded 18.0 million domestic and 0.083 million foreign tourist visits in 2024, with foreign visits up 32% (India Tourism Data Compendium 2025). Himachal Pradesh and Manali were existing VacayOut records; this file only fills empty fields, adds new sections and suggests changes to existing ones.",
+  "sources": {
+    "II_HP": {
+      "url": "https://www.incredibleindia.gov.in/en/himachal-pradesh",
+      "title": "Himachal Pradesh — Incredible India (Ministry of Tourism)",
+      "authority": "government"
+    },
+    "II_MN": {
+      "url": "https://www.incredibleindia.gov.in/en/himachal-pradesh/manali",
+      "title": "Manali — Incredible India (Ministry of Tourism)",
+      "authority": "government"
+    },
+    "II_HAD": {
+      "url": "https://www.incredibleindia.gov.in/en/himachal-pradesh/manali/hidimba-temple",
+      "title": "Hidimba Temple — Incredible India (Ministry of Tourism)",
+      "authority": "government"
+    },
+    "II_ROH": {
+      "url": "https://www.incredibleindia.gov.in/en/himachal-pradesh/manali/rohtang-pass",
+      "title": "Rohtang Pass — Incredible India (Ministry of Tourism)",
+      "authority": "government"
+    },
+    "II_SOL": {
+      "url": "https://www.incredibleindia.gov.in/en/himachal-pradesh/manali/solang-nullah",
+      "title": "Solang Nullah — Incredible India (Ministry of Tourism)",
+      "authority": "government"
+    },
+    "II_VAS": {
+      "url": "https://www.incredibleindia.gov.in/en/himachal-pradesh/manali/vashisht-temple",
+      "title": "Vashisht — Incredible India (Ministry of Tourism)",
+      "authority": "government"
+    },
+    "II_NAG": {
+      "url": "https://www.incredibleindia.gov.in/en/himachal-pradesh/manali/naggar",
+      "title": "Naggar — Incredible India (Ministry of Tourism)",
+      "authority": "government"
+    },
+    "II_GOM": {
+      "url": "https://www.incredibleindia.gov.in/en/himachal-pradesh/manali/the-manali-gompa",
+      "title": "The Manali Gompa — Incredible India (Ministry of Tourism)",
+      "authority": "government"
+    },
+    "II_EAT": {
+      "url": "https://www.incredibleindia.gov.in/en/himachal-pradesh/manali/the-best-places-to-eat-in-manali",
+      "title": "The best places to eat in Manali — Incredible India (Ministry of Tourism)",
+      "authority": "government"
+    },
+    "II_KUL": {
+      "url": "https://www.incredibleindia.gov.in/en/himachal-pradesh/kullu",
+      "title": "Kullu — Incredible India (Ministry of Tourism)",
+      "authority": "government"
+    },
+    "RP": {
+      "url": "https://rohtangpermits.hp.gov.in/Home/InformatoryScreen",
+      "title": "Rohtang Pass permits — District Administration Kullu (Government of Himachal Pradesh)",
+      "authority": "government"
+    },
+    "W_MN": {
+      "url": "https://en.wikipedia.org/wiki/Manali,_Himachal_Pradesh",
+      "title": "Manali, Himachal Pradesh — Wikipedia",
+      "authority": "reference"
+    },
+    "W_ROH": {
+      "url": "https://en.wikipedia.org/wiki/Rohtang_Pass",
+      "title": "Rohtang Pass — Wikipedia",
+      "authority": "reference"
+    },
+    "W_ATAL": {
+      "url": "https://en.wikipedia.org/wiki/Atal_Tunnel",
+      "title": "Atal Tunnel — Wikipedia",
+      "authority": "reference"
+    },
+    "PIB": {
+      "url": "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2025/sep/doc2025927648801.pdf",
+      "title": "India Tourism Data Compendium 2025 — Ministry of Tourism",
+      "authority": "government"
+    },
+    "EVISA": {
+      "url": "https://indianvisaonline.gov.in/evisa/tvoa.html",
+      "title": "Indian e-Visa — official information (Government of India)",
+      "authority": "government"
+    },
+    "UPI": {
+      "url": "https://www.aap.com.au/aapreleases/cision20240723ae67416/",
+      "title": "NPCI: 'UPI One World' wallet available to inbound international travellers (press release, 24 July 2024)",
+      "authority": "media"
+    },
+    "W_112": {
+      "url": "https://en.wikipedia.org/wiki/112_(emergency_telephone_number)",
+      "title": "112 (emergency telephone number) — Wikipedia",
+      "authority": "reference"
+    }
+  },
+  "facts": {
+    "HP1": {
+      "place": "himachal-pradesh",
+      "topic": "Dev Bhumi",
+      "claim": "Himachal Pradesh is known as 'Dev Bhumi', the land of the gods, for its many stone-and-wood temples.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_HP",
+          "quote": "Himachal is a land known as \"Dev Bhumi,\" revered as the divine abode"
+        }
+      ]
+    },
+    "HP2": {
+      "place": "himachal-pradesh",
+      "topic": "Tourist visits 2024",
+      "claim": "Himachal Pradesh recorded 18.0 million domestic and 0.083 million foreign tourist visits in 2024, up 13% and 32% on 2023.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "PIB",
+          "quote": "Himachal 15.942 0.063 18.042 0.083 13.17 31.78"
+        }
+      ]
+    },
+    "HP3": {
+      "place": "himachal-pradesh",
+      "topic": "Kullu Dussehra",
+      "claim": "Kullu Dussehra, held each October at Dhalpur Maidan, is the state's best-known festival; in Kullu it begins as Dussehra ends elsewhere.",
+      "claimType": "schedule",
+      "evidence": [
+        {
+          "source": "II_HP",
+          "quote": "marked by a magnificent fair held annually in October at the Dhalpur Maidan in the Kullu valley"
+        },
+        {
+          "source": "II_KUL",
+          "quote": "Unlike other parts of India, where Dussehra marks the end of the festivities, in Kullu, it signifies the beginning."
+        }
+      ],
+      "kind": "seasonal"
+    },
+    "HP4": {
+      "place": "himachal-pradesh",
+      "topic": "Himachali food",
+      "claim": "Himachali dishes include siddu, patande pancakes and kali dal, alongside momos and noodles.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_HP",
+          "quote": "Some of the must-try delicacies include Sidu, a delectable wheat-based preparation, Patande, a unique local version of pancakes"
+        }
+      ]
+    },
+    "HP5": {
+      "place": "himachal-pradesh",
+      "topic": "Kalka–Shimla toy train",
+      "claim": "The Kalka–Shimla narrow-gauge railway is part of a UNESCO World Heritage Site.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_HP",
+          "quote": "The toy trains that connect Kalka and Shimla have been added to the UNESCO Heritage site because of the narrow-gauge track."
+        }
+      ]
+    },
+    "HP6": {
+      "place": "himachal-pradesh",
+      "topic": "Key Monastery",
+      "claim": "Key Monastery in Spiti stands at 4,166 m beside the Spiti River.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_HP",
+          "quote": "the Key Monastery , perched alongside the picturesque Spiti River, is a must-visit destination, offering a glimpse into the world of Tibetan Buddhist heritage at an elevation of 4,166 meters above sea level."
+        }
+      ]
+    },
+    "MN1": {
+      "place": "himachal-pradesh/manali",
+      "topic": "Abode of Manu",
+      "claim": "Manali's name is traced to 'Manu-Alaya', the abode of the sage Manu; the town is often called the 'Valley of the Gods'.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_MN",
+          "quote": "the town's name is derived from \"Manu-Alaya,\" which means \"the abode of Manu,\""
+        },
+        {
+          "source": "II_MN",
+          "quote": "Manali is often referred to as the \"Valley of the Gods\""
+        }
+      ]
+    },
+    "MN2": {
+      "place": "himachal-pradesh/manali",
+      "topic": "Elevation and snow",
+      "claim": "Manali sits at about 2,050 m; snow falls mainly from December to early March.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "W_MN",
+          "quote": "Elevation 2,050 m (6,730 ft)"
+        },
+        {
+          "source": "W_MN",
+          "quote": "Manali experiences snowfall predominantly between December and the beginning of March."
+        }
+      ],
+      "kind": "seasonal"
+    },
+    "MN3": {
+      "place": "himachal-pradesh/manali",
+      "topic": "Getting there",
+      "claim": "The nearest airport is Kullu–Manali airport at Bhuntar; Kullu is about 40 km from Manali. Buses are run by HRTC, HPTDC and private operators.",
+      "claimType": "distance",
+      "evidence": [
+        {
+          "source": "W_MN",
+          "quote": "The nearest airport Kullu–Manali Airport (IATA code KUU) is at Bhuntar town in Kullu ."
+        },
+        {
+          "source": "II_KUL",
+          "quote": "Just 40 kilometres from Kullu lies Manali"
+        },
+        {
+          "source": "W_MN",
+          "quote": "Himachal Road Transport Corporation ), HPTDC (Himachal Tourism Development Corporation), and private operators."
+        }
+      ]
+    },
+    "MN4": {
+      "place": "himachal-pradesh/manali",
+      "topic": "Local food",
+      "claim": "Local dishes include kaddu ka khatta, sepu vadi and Kullu trout.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_MN",
+          "quote": "Some of the popular local vegetarian dishes are kaddu ka khatta, guchhi matter, and sepu vadi. On the other hand, popular non-vegetarian dishes include kullu trout, grilled fish, and chicken anardana."
+        }
+      ]
+    },
+    "MN5": {
+      "place": "himachal-pradesh/manali",
+      "topic": "Old Manali cafés",
+      "claim": "Old Manali and Vashisht are known for backpacker cafés; Mall Road for North Indian restaurants.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_EAT",
+          "quote": "Manali's bustling heart, Mall Road, brims with North Indian eateries"
+        },
+        {
+          "source": "II_EAT",
+          "quote": "the tranquil lanes of Vashisht and Old Manali are adorned with hospitable guesthouses and wallet-friendly eateries"
+        }
+      ]
+    },
+    "MN6": {
+      "place": "himachal-pradesh/manali",
+      "topic": "Manu Temple",
+      "claim": "The Manu Temple in Old Manali is dedicated to the sage Manu.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_VAS",
+          "quote": "Manu Temple: Located in Old Manali, the Manu Temple is dedicated to the sage Manu."
+        }
+      ]
+    },
+    "MN7": {
+      "place": "himachal-pradesh/manali",
+      "topic": "Adventure sports",
+      "claim": "Manali is a base for skiing, paragliding, rafting, trekking and mountain biking, including the Hampta Pass trek.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_MN",
+          "quote": "Manali is renowned for adventure sports such as skiing, hiking, mountaineering, paragliding, rafting, trekking, kayaking and mountain biking."
+        },
+        {
+          "source": "II_MN",
+          "quote": "the famous Hampta Pass trek"
+        }
+      ]
+    },
+    "MN8": {
+      "place": "himachal-pradesh/manali",
+      "topic": "Shopping",
+      "claim": "Shop at the Tibetan market, Manu Market, Mall Road and the Himachal Emporium.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_MN",
+          "quote": "Old Manali offers a variety of markets such as the Tibetan market, Manu Market, Mall Road, and the Himachal Emporium"
+        }
+      ]
+    },
+    "MN9": {
+      "place": "himachal-pradesh/manali",
+      "topic": "Museum of Himachal Culture",
+      "claim": "The Museum of Himachal Culture & Folk Art is near the Hadimba Temple.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_VAS",
+          "quote": "Museum of Himachal Culture & Folk Art:  Learn about the rich cultural heritage of Himachal Pradesh at this museum near theHadimba Temple."
+        }
+      ]
+    },
+    "MN_112": {
+      "place": "himachal-pradesh/manali",
+      "topic": "Emergency number 112",
+      "claim": "112 is India's single emergency number for police, fire and ambulance.",
+      "claimType": "contact",
+      "evidence": [
+        {
+          "source": "W_112",
+          "quote": "112 is now the pan-country single emergency number for all emergencies."
+        }
+      ]
+    },
+    "MN_VISA": {
+      "place": "himachal-pradesh/manali",
+      "topic": "e-Visa timing and passport validity",
+      "claim": "e-Tourist visa applications should be made at least 4 days before arrival, with a passport valid for at least six months.",
+      "claimType": "rule",
+      "evidence": [
+        {
+          "source": "EVISA",
+          "quote": "For e-Tourist and e-Business visa, Applicants of the eligible countries/territories may apply online minimum 4 days in advance of the date of arrival."
+        },
+        {
+          "source": "EVISA",
+          "quote": "Applicant's passport should have at least six months validity at the time of making application for grant of e-Visa."
+        }
+      ]
+    },
+    "MN_UPI": {
+      "place": "himachal-pradesh/manali",
+      "topic": "UPI One World for visitors",
+      "claim": "International visitors can pay by QR code using NPCI's UPI One World wallet after a passport-and-visa KYC check.",
+      "claimType": "rule",
+      "evidence": [
+        {
+          "source": "UPI",
+          "quote": "The UPI One World wallet can be availed through authorized PPI issuers at airports, hotels, designated money exchange locations and other touchpoints, following a full KYC process based on a passport and valid visa."
+        }
+      ]
+    },
+    "HD1": {
+      "place": "himachal-pradesh/hadimba-temple",
+      "topic": "Built in 1553",
+      "claim": "The Hadimba Devi Temple was built in 1553 CE by Maharaja Bahadur Singh in the Dhungiri cedar forest.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_HAD",
+          "quote": "tracing back to its construction in 1553 CE by Maharaja Bahadur Singh"
+        },
+        {
+          "source": "II_HAD",
+          "quote": "is surrounded by a cedar forest called Dhungiri Van Vihar at the foot of the Himalayas"
+        }
+      ]
+    },
+    "HD2": {
+      "place": "himachal-pradesh/hadimba-temple",
+      "topic": "Pagoda roof",
+      "claim": "The 24-m temple has three square timber-tiled roofs topped by a brass cone; its door carvings show Durga, Krishna and the Navagrahas.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_HAD",
+          "quote": "It is 24 metres high, with three square roofs covered with timber tiles and a fourth brass cone-shaped roof at the top."
+        },
+        {
+          "source": "II_HAD",
+          "quote": "Goddess Durga forms the theme of the main door carvings."
+        }
+      ]
+    },
+    "HD3": {
+      "place": "himachal-pradesh/hadimba-temple",
+      "topic": "Hidimba of the Mahabharata",
+      "claim": "It honours Hidimba, wife of Bhima in the Mahabharata; inside, a rock bears the goddess's footprints.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_HAD",
+          "quote": "dedicated to Hidimba Devi, the wife of Bhima from the epic Mahabharata"
+        },
+        {
+          "source": "II_HAD",
+          "quote": "An enormous rock occupies the inside of the temple with the imprint of the feet of the Goddess carved on it"
+        }
+      ]
+    },
+    "HD4": {
+      "place": "himachal-pradesh/hadimba-temple",
+      "topic": "Fairs",
+      "claim": "A fair is held each May on Hidimba Devi's birthday, and the Bahadur Singh Re Jatar in Shravan (July–August).",
+      "claimType": "schedule",
+      "evidence": [
+        {
+          "source": "II_HAD",
+          "quote": "There is a fair that is held annually in the month of May falling on the birthday of Hidimba Devi."
+        },
+        {
+          "source": "II_HAD",
+          "quote": "This fair is called as ‘Bahadur Singh Re Jatar’ by the locals."
+        }
+      ],
+      "kind": "seasonal"
+    },
+    "HD5": {
+      "place": "himachal-pradesh/hadimba-temple",
+      "topic": "Navaratri for Hidimba",
+      "claim": "At Navaratri, worship here centres on Hidimba Devi, the valley's protective goddess.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_HAD",
+          "quote": "While Navaratri elsewhere celebrates Goddess Durga, here, the spotlight shifts to Hidimba Devi"
+        }
+      ],
+      "kind": "seasonal"
+    },
+    "SO1": {
+      "place": "himachal-pradesh/solang-valley",
+      "topic": "13 km from Manali",
+      "claim": "Solang Valley is about 13 km from Manali.",
+      "claimType": "distance",
+      "evidence": [
+        {
+          "source": "II_SOL",
+          "quote": "Located roughly 13 km from Manali"
+        }
+      ]
+    },
+    "SO2": {
+      "place": "himachal-pradesh/solang-valley",
+      "topic": "Skiing and paragliding",
+      "claim": "Solang has ski slopes in winter, paragliding and zorbing in summer, and a ropeway with views over the valley.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_SOL",
+          "quote": "from skiing slopes in the winter to the paragliding and zorbing spots in summer"
+        },
+        {
+          "source": "II_SOL",
+          "quote": "The presence of a ropeway adds another dimension, offering breathtaking aerial views of the valley's changing vistas."
+        }
+      ],
+      "kind": "seasonal"
+    },
+    "SO3": {
+      "place": "himachal-pradesh/solang-valley",
+      "topic": "Best time",
+      "claim": "Incredible India suggests April to June and September to January.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_SOL",
+          "quote": "The best time to visit is from April to June and then again from September to January."
+        }
+      ],
+      "kind": "seasonal"
+    },
+    "SO4": {
+      "place": "himachal-pradesh/solang-valley",
+      "topic": "Name",
+      "claim": "Its name joins 'Solang', a nearby village, and 'nullah', a stream.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_SOL",
+          "quote": "The name itself is derived from 'Solang', a nearby village, and 'Nullah', meaning water stream"
+        }
+      ]
+    },
+    "SO5": {
+      "place": "himachal-pradesh/solang-valley",
+      "topic": "More to do",
+      "claim": "ATV rides and cable-car trips are also on offer, and the Atal Tunnel is nearby.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_SOL",
+          "quote": "navigating rough terrains on an ATV"
+        },
+        {
+          "source": "II_SOL",
+          "quote": "the cable car ride offers stunning views"
+        },
+        {
+          "source": "II_SOL",
+          "quote": "including the newly popular Atal Tunnel"
+        }
+      ]
+    },
+    "SO6": {
+      "place": "himachal-pradesh/solang-valley",
+      "topic": "Kothi and Vashisht",
+      "claim": "Kothi village and the Vashisht hot springs are nearby.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_SOL",
+          "quote": "The hot water springs of Vashisht and the scenic beauty of Kothi village offer a holistic Himachal experience"
+        }
+      ]
+    },
+    "RO1": {
+      "place": "himachal-pradesh/rohtang-pass",
+      "topic": "3,978 m, 51 km from Manali",
+      "claim": "Rohtang Pass (3,978 m), about 51 km from Manali on the Pir Panjal range, links the Kullu valley with Lahaul and Spiti.",
+      "claimType": "distance",
+      "evidence": [
+        {
+          "source": "II_ROH",
+          "quote": "located about 51 km from Manali in Himachal Pradesh. At an elevation of 3,978 meters, it forms a crucial link between the Kullu Valley and the desolate landscapes of Lahaul and Spiti"
+        }
+      ]
+    },
+    "RO2": {
+      "place": "himachal-pradesh/rohtang-pass",
+      "topic": "Open May to November",
+      "claim": "Snow closes the road over the pass from about November to May.",
+      "claimType": "schedule",
+      "evidence": [
+        {
+          "source": "W_ROH",
+          "quote": "The pass is open from May to November."
+        },
+        {
+          "source": "W_ROH",
+          "quote": "the road over the pass closes from November to May"
+        }
+      ],
+      "kind": "seasonal"
+    },
+    "RO3": {
+      "place": "himachal-pradesh/rohtang-pass",
+      "topic": "Vehicle permits",
+      "claim": "Tourist vehicles need an online permit, issued against a daily quota set by the National Green Tribunal and the district; it is valid for one day, can be applied for up to two days ahead, and vehicles must be no more than 10 years old.",
+      "claimType": "rule",
+      "evidence": [
+        {
+          "source": "RP",
+          "quote": "daily quota defined by National Green Tribunal(NGT)/District Administration. The tourism permit is valid for one day only (To & Fro)."
+        },
+        {
+          "source": "RP",
+          "quote": "Permits can only be applied for next 2 days from the current date."
+        },
+        {
+          "source": "RP",
+          "quote": "Vehicle Registration Date (Age of vehicle not to be more than 10 yrs)"
+        }
+      ]
+    },
+    "RO4": {
+      "place": "himachal-pradesh/rohtang-pass",
+      "topic": "Atal Tunnel",
+      "claim": "The 9.02-km Atal Tunnel, opened in October 2020, runs under the pass to connect Manali with Keylong.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "W_ATAL",
+          "quote": "is a 9.02-kilometre-long (5.60 mi) road tunnel connecting Manali and Keylong"
+        },
+        {
+          "source": "W_ATAL",
+          "quote": "Opened 4 October 2020"
+        }
+      ]
+    },
+    "RO5": {
+      "place": "himachal-pradesh/rohtang-pass",
+      "topic": "Dangerous weather",
+      "claim": "The pass is notorious for sudden snowstorms and blizzards.",
+      "claimType": "rule",
+      "evidence": [
+        {
+          "source": "W_ROH",
+          "quote": "it has a well-deserved reputation for being dangerous because of unpredictable snowstorms and blizzards."
+        }
+      ]
+    },
+    "RO6": {
+      "place": "himachal-pradesh/rohtang-pass",
+      "topic": "Rahala Falls",
+      "claim": "Rahala Falls is on the road up to Rohtang.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_ROH",
+          "quote": "Rehala Falls: A visit to this stunning waterfall, enroute to Rohtang, is a must-do."
+        }
+      ]
+    },
+    "VA1": {
+      "place": "himachal-pradesh/vashisht",
+      "topic": "Hot springs village",
+      "claim": "Vashisht, about 3 km from Manali across the Beas, is known for its sulphurous hot springs and the Kath Kuni-style temple of Sage Vashisht.",
+      "claimType": "distance",
+      "evidence": [
+        {
+          "source": "II_VAS",
+          "quote": "Perched across the serene Beas River, a mere 3 kms from the heart of Manali, the village of Vashisht"
+        },
+        {
+          "source": "II_VAS",
+          "quote": "Renowned for its sulphurous hot springs and the ancient Vashisht Temple"
+        },
+        {
+          "source": "II_VAS",
+          "quote": "the Vashisht Temple is a masterpiece of Kath Kuni architecture"
+        }
+      ]
+    },
+    "VA2": {
+      "place": "himachal-pradesh/vashisht",
+      "topic": "Bath timings",
+      "claim": "The baths are listed as open 7 am–1 pm and 2 pm–9 pm daily, with separate bathing areas.",
+      "claimType": "opening_hours",
+      "evidence": [
+        {
+          "source": "II_VAS",
+          "quote": "For baths, it is 07:00 AM to 01:00 PM and 02:00 PM to 09:00 PM (on all days)"
+        },
+        {
+          "source": "II_VAS",
+          "quote": "provide segregated bathing spaces"
+        }
+      ]
+    },
+    "VA3": {
+      "place": "himachal-pradesh/vashisht",
+      "topic": "Jogini Waterfall",
+      "claim": "A trail from Vashisht leads to Jogini Waterfall.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_VAS",
+          "quote": "Trek to Jogini Waterfall: Embark on a scenic trek to Jogini Waterfall"
+        }
+      ]
+    },
+    "NG1": {
+      "place": "himachal-pradesh/naggar",
+      "topic": "20 km from Manali",
+      "claim": "Naggar is about 20 km from Manali, above the Beas.",
+      "claimType": "distance",
+      "evidence": [
+        {
+          "source": "II_NAG",
+          "quote": "Just 20 kilometres away from the tourist hub of Manali, lies the charming village of Naggar"
+        }
+      ]
+    },
+    "NG2": {
+      "place": "himachal-pradesh/naggar",
+      "topic": "Naggar Castle",
+      "claim": "Naggar Castle, built around 1460 in the Kath Kuni stone-and-timber style, is now a heritage hotel.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_HP",
+          "quote": "Constructed in 1460 AD using a combination of wood and stone"
+        },
+        {
+          "source": "II_NAG",
+          "quote": "Built using the indigenous Kathkuni technique"
+        },
+        {
+          "source": "II_NAG",
+          "quote": "Today, the castle, transformed into a heritage hotel"
+        }
+      ]
+    },
+    "NG3": {
+      "place": "himachal-pradesh/naggar",
+      "topic": "Roerich Art Gallery",
+      "claim": "The Nicholas Roerich Art Gallery is a 30-minute walk from the castle, with the Urusvati Himalayan Research Institute above it.",
+      "claimType": "distance",
+      "evidence": [
+        {
+          "source": "II_NAG",
+          "quote": "A 30-minute walk from the Naggar Castle takes you to the Nicholas Roerich Art Gallery"
+        },
+        {
+          "source": "II_NAG",
+          "quote": "Further uphill, explore the Urusvati Himalayan Research Institute"
+        }
+      ]
+    },
+    "NG4": {
+      "place": "himachal-pradesh/naggar",
+      "topic": "Temples",
+      "claim": "The Gauri Shankar Temple has 12th-century stone carving; the Tripura Sundari Temple is built of deodar wood.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_NAG",
+          "quote": "The Gauri Shankar Temple, dedicated to Lord Shiva, stands as a sentinel, its intricate stone carvings a masterpiece of 12th-century craftsmanship."
+        },
+        {
+          "source": "II_NAG",
+          "quote": "The Tripura Sundari Temple, constructed entirely of deodar wood, is a visual delight."
+        }
+      ]
+    },
+    "NG5": {
+      "place": "himachal-pradesh/naggar",
+      "topic": "Best time",
+      "claim": "Incredible India suggests September to November for pleasant weather.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_NAG",
+          "quote": "For pleasant weather and lush landscapes, aim for September to November."
+        }
+      ],
+      "kind": "seasonal"
+    },
+    "NG6": {
+      "place": "himachal-pradesh/naggar",
+      "topic": "Jana Falls",
+      "claim": "Jana Falls, a 30-foot waterfall in pine forest, is 12 km away.",
+      "claimType": "distance",
+      "evidence": [
+        {
+          "source": "II_NAG",
+          "quote": "Just 12 kilometres away lies a secret paradise – Jana Falls. A 30-foot waterfall cascades down amidst dense pine forests"
+        }
+      ]
+    },
+    "NG7": {
+      "place": "himachal-pradesh/naggar",
+      "topic": "Tripura Devi fair",
+      "claim": "Each May, the goddess Tripura Devi is carried in a palanquin from Naggar to Malana.",
+      "claimType": "schedule",
+      "evidence": [
+        {
+          "source": "II_NAG",
+          "quote": "Every May, a grand fair takes place, where the Tripura Devi embarks on a journey from Naggar to Malana in a palanquin"
+        }
+      ],
+      "kind": "seasonal"
+    },
+    "GM1": {
+      "place": "himachal-pradesh/manali",
+      "topic": "Built in the 1960s",
+      "claim": "The Gadhan Thekchhokling Gompa was built by Tibetan refugees in the 1960s; visit morning or evening for prayers.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_GOM",
+          "quote": "Built in the 1960s by Tibetan refugees seeking solace in Manali"
+        },
+        {
+          "source": "II_GOM",
+          "quote": "If you wish to observe the rituals and prayers please visit in the morning or evening"
+        }
+      ]
+    }
+  },
+  "places": [
+    {
+      "key": "himachal-pradesh",
+      "kind": "state",
+      "name": "Himachal Pradesh",
+      "summary": "'Dev Bhumi': Himalayan valleys, wooden temples, Manali and Solang, Kullu Dussehra and the Kalka–Shimla toy train.",
+      "seoTitle": "Himachal Pradesh Travel Guide: Manali, Kullu & More",
+      "seoDescription": "Plan a Himachal Pradesh trip: Manali, Solang and Rohtang, Kullu Dussehra, Naggar's castle, the Kalka–Shimla railway, Himachali food and the best seasons.",
+      "lat": 31.1033,
+      "lng": 77.1722,
+      "tripTypes": [
+        "mountains",
+        "adventure",
+        "spiritual"
+      ],
+      "images": [
+        {
+          "commons": "File:Manali to Rohtang Pass 31.jpg",
+          "alt": "Snow-streaked Himalayan peaks above bare slopes on the road from Manali to Rohtang",
+          "caption": "On the road to Rohtang Pass",
+          "hero": true
+        }
+      ],
+      "sections": {
+        "overview": {
+          "text": "Himachal Pradesh is known as 'Dev Bhumi', the land of the gods, for the stone-and-wood temples found in almost every valley. Foreign tourist visits rose 32% in 2024, and the state recorded 18.0 million domestic visits.\n\nIn the Kullu valley, Manali is the base for Solang's slopes, the high road over Rohtang Pass and the Atal Tunnel to Lahaul. Down-valley, Naggar Castle has stood since around 1460, and each October Kullu Dussehra brings the valley's deities together at Dhalpur Maidan. The Kalka–Shimla railway is part of a UNESCO World Heritage Site.",
+          "facts": [
+            "HP1",
+            "HP2",
+            "SO2",
+            "RO1",
+            "RO4",
+            "NG2",
+            "HP3",
+            "HP5"
+          ]
+        },
+        "food": {
+          "items": [
+            {
+              "body": "Siddu, a wheat-based Himachali speciality."
+            },
+            {
+              "body": "Patande, Himachali pancakes."
+            },
+            {
+              "body": "Kali dal, plus momos and noodles from the Tibetan kitchen."
+            }
+          ],
+          "facts": [
+            "HP4"
+          ]
+        },
+        "highlights": {
+          "items": [
+            {
+              "body": "Manali, Solang Valley and the road to Rohtang Pass."
+            },
+            {
+              "body": "Naggar Castle, built around 1460 in stone and timber."
+            },
+            {
+              "body": "Kullu Dussehra each October at Dhalpur Maidan."
+            },
+            {
+              "body": "Key Monastery in Spiti, at 4,166 m."
+            },
+            {
+              "body": "The Kalka–Shimla railway, part of a UNESCO World Heritage Site."
+            }
+          ],
+          "facts": [
+            "SO2",
+            "RO1",
+            "NG2",
+            "HP3",
+            "HP6",
+            "HP5"
+          ]
+        }
+      },
+      "wikidataId": "Q1177"
+    },
+    {
+      "key": "himachal-pradesh/manali",
+      "kind": "town",
+      "name": "Manali",
+      "summary": "The Himalayan base for Solang, Rohtang and the Atal Tunnel, with the Hadimba Temple, Old Manali cafés and Vashisht's hot springs.",
+      "seoTitle": "Manali Travel Guide: Solang, Rohtang & Hadimba Temple",
+      "seoDescription": "Plan a Manali trip: the Hadimba Temple, Old Manali, Vashisht hot springs, Solang Valley, Rohtang Pass permits, the Atal Tunnel, food and the best time to visit.",
+      "lat": 32.245,
+      "lng": 77.1882,
+      "tripTypes": [
+        "mountains",
+        "adventure",
+        "family"
+      ],
+      "images": [
+        {
+          "commons": "File:Beas Valley - Palchan - Kullu 2014-05-10 (edit).jpg",
+          "alt": "The green Beas valley north of Manali with snow peaks under a blue sky",
+          "caption": "The Beas valley near Manali",
+          "hero": true
+        }
+      ],
+      "sections": {
+        "overview": {
+          "text": "Manali, at about 2,050 m in the Beas valley, takes its name from 'Manu-Alaya', the abode of the sage Manu, and is often called the 'Valley of the Gods'. Its best-known shrine is the Hadimba Devi Temple of 1553, in a cedar forest above town; Old Manali has the Manu Temple and relaxed cafés, and Vashisht's hot springs are 3 km away.\n\nManali is also the region's adventure base: skiing and paragliding at Solang Valley, 13 km away; the Hampta Pass trek; and the high road to Rohtang Pass, 51 km away, which needs a permit. The 9.02-km Atal Tunnel, opened in 2020, runs beneath the pass to Lahaul.",
+          "facts": [
+            "MN2",
+            "MN1",
+            "HD1",
+            "MN6",
+            "MN5",
+            "VA1",
+            "MN7",
+            "SO1",
+            "RO1",
+            "RO3",
+            "RO4"
+          ]
+        },
+        "best_time": {
+          "text": "Snow falls mainly from December to early March — the time for snow at Solang. The road over Rohtang Pass is usually open from about May to November. For Solang, Incredible India suggests April to June and September to January.",
+          "facts": [
+            "MN2",
+            "RO2",
+            "SO3"
+          ]
+        },
+        "how_to_reach": {
+          "text": "The nearest airport is Kullu–Manali airport at Bhuntar; Kullu itself is about 40 km down the valley. Buses are run by HRTC, HPTDC and private operators.",
+          "facts": [
+            "MN3"
+          ]
+        },
+        "food": {
+          "items": [
+            {
+              "body": "Kullu trout, grilled or in curry."
+            },
+            {
+              "body": "Kaddu ka khatta (sour pumpkin) and sepu vadi."
+            },
+            {
+              "body": "Café food in Old Manali and Vashisht; North Indian dishes on Mall Road."
+            }
+          ],
+          "facts": [
+            "MN4",
+            "MN5"
+          ]
+        },
+        "things_to_do": {
+          "items": [
+            {
+              "body": "Visit the Hadimba Devi Temple and the nearby Museum of Himachal Culture & Folk Art."
+            },
+            {
+              "body": "Wander Old Manali and the Manu Temple."
+            },
+            {
+              "body": "Bathe in the Vashisht hot springs."
+            },
+            {
+              "body": "Ski or paraglide at Solang Valley."
+            },
+            {
+              "body": "Drive to Rohtang Pass with a permit, or through the Atal Tunnel."
+            },
+            {
+              "body": "Shop at the Tibetan market and Manu Market."
+            },
+            {
+              "body": "Watch evening prayers at the Manali Gompa, built by Tibetan refugees in the 1960s."
+            }
+          ],
+          "facts": [
+            "HD1",
+            "MN9",
+            "MN6",
+            "VA1",
+            "SO2",
+            "RO3",
+            "RO4",
+            "MN8",
+            "GM1"
+          ]
+        },
+        "practical_info": {
+          "items": [
+            {
+              "title": "Visas",
+              "body": "Apply for an e-Tourist visa at least 4 days before arrival; your passport needs at least six months' validity."
+            },
+            {
+              "title": "Payments",
+              "body": "Visitors can pay by QR code with NPCI's UPI One World wallet after a passport-and-visa KYC check. Carry some cash for small purchases."
+            },
+            {
+              "title": "Emergency",
+              "body": "Dial 112 for police, fire or ambulance."
+            },
+            {
+              "title": "Rohtang permits",
+              "body": "Tourist vehicles need an online permit for Rohtang Pass, issued against a daily quota and valid for one day."
+            }
+          ],
+          "facts": [
+            "MN_VISA",
+            "MN_UPI",
+            "MN_112"
+          ]
+        },
+        "travel_tips": {
+          "items": [
+            {
+              "body": "Apply for a Rohtang permit up to two days ahead — they are limited."
+            },
+            {
+              "body": "Carry warm layers even in summer for Solang and Rohtang."
+            }
+          ],
+          "facts": [
+            "RO3",
+            "RO1"
+          ]
+        }
+      },
+      "wikidataId": "Q83443",
+      "parent": "himachal-pradesh",
+      "featured": true,
+      "relations": [
+        {
+          "to": "himachal-pradesh/solang-valley",
+          "type": "day_trip"
+        },
+        {
+          "to": "himachal-pradesh/naggar",
+          "type": "day_trip"
+        }
+      ]
+    },
+    {
+      "key": "himachal-pradesh/hadimba-temple",
+      "kind": "temple",
+      "name": "Hadimba Devi Temple",
+      "summary": "Manali's pagoda-roofed wooden temple of 1553, in a cedar forest.",
+      "seoTitle": "Hadimba Devi Temple, Manali: History & Visiting",
+      "seoDescription": "Visit the Hadimba Devi Temple in Manali: its 1553 pagoda-style architecture, the Mahabharata legend, carvings, festivals and the cedar forest around it.",
+      "lat": 32.248,
+      "lng": 77.1805,
+      "tripTypes": [
+        "spiritual",
+        "heritage"
+      ],
+      "images": [
+        {
+          "commons": "File:Manali-Hidimba-Devi-Tempel-07-2016-gje.jpg",
+          "alt": "The tiered wooden roofs of the Hadimba Devi Temple among tall cedars, Manali",
+          "caption": "Hadimba Devi Temple",
+          "hero": true
+        }
+      ],
+      "sections": {
+        "overview": {
+          "text": "Built in 1553 by Maharaja Bahadur Singh, the Hadimba Devi Temple stands in the Dhungiri cedar forest just above Manali. It honours Hidimba, the wife of Bhima in the Mahabharata, who is worshipped locally as the protector of the valley. The 24-m temple has three square roofs of timber tiles topped by a brass cone. Its carved doorway shows Durga, scenes from Krishna's life and the Navagrahas; inside, a great rock bears the goddess's footprints. A fair is held each May on Hidimba's birthday.",
+          "facts": [
+            "HD1",
+            "HD3",
+            "HD2",
+            "HD4"
+          ]
+        },
+        "highlights": {
+          "items": [
+            {
+              "body": "The carved doorway with Durga, scenes from Krishna's life and the Navagrahas."
+            },
+            {
+              "body": "The rock inside bearing the goddess's footprints."
+            },
+            {
+              "body": "Navaratri, when worship here centres on Hidimba Devi."
+            },
+            {
+              "body": "The Bahadur Singh Re Jatar fair in Shravan (July–August)."
+            },
+            {
+              "body": "The Museum of Himachal Culture & Folk Art nearby."
+            }
+          ],
+          "facts": [
+            "HD2",
+            "HD3",
+            "HD5",
+            "HD4",
+            "MN9"
+          ]
+        }
+      },
+      "wikidataId": "Q15223867",
+      "parent": "himachal-pradesh/manali"
+    },
+    {
+      "key": "himachal-pradesh/solang-valley",
+      "kind": "nature",
+      "name": "Solang Valley",
+      "summary": "Manali's playground: skiing in winter, paragliding and a ropeway in summer.",
+      "seoTitle": "Solang Valley, Manali: Skiing, Paragliding & Best Time",
+      "seoDescription": "Solang Valley near Manali: skiing in winter, paragliding and zorbing in summer, the ropeway, distance from Manali and the best time to visit.",
+      "lat": 32.3151,
+      "lng": 77.1554,
+      "tripTypes": [
+        "adventure",
+        "mountains",
+        "family"
+      ],
+      "images": [
+        {
+          "commons": "File:Solang valley under snow, 2015.jpg",
+          "alt": "Snow-covered slopes and the ropeway station at Solang Valley under snow peaks",
+          "caption": "Solang Valley in winter",
+          "hero": true
+        }
+      ],
+      "sections": {
+        "overview": {
+          "text": "Solang Valley, about 13 km from Manali, takes its name from the nearby village of Solang and 'nullah', a stream. It changes with the seasons: in winter its slopes are Manali's ski area, and in summer the meadows fill with paragliders and zorbing. A ropeway climbs above the valley for wide views of the snow peaks. Incredible India suggests April to June and September to January as the best times to visit; for snow, come between December and early March. Nearby, the Atal Tunnel leads on towards Lahaul, while Kothi village and the hot springs of Vashisht make easy stops on the way back to Manali.",
+          "facts": [
+            "SO1",
+            "SO4",
+            "SO2",
+            "SO3",
+            "MN2",
+            "SO5",
+            "SO6"
+          ]
+        },
+        "things_to_do": {
+          "items": [
+            {
+              "body": "Ski the slopes in winter."
+            },
+            {
+              "body": "Paraglide or go zorbing in summer."
+            },
+            {
+              "body": "Ride the ropeway for views over the valley."
+            },
+            {
+              "body": "Try an ATV ride."
+            },
+            {
+              "body": "Continue to the Atal Tunnel, nearby."
+            }
+          ],
+          "facts": [
+            "SO2",
+            "SO5"
+          ]
+        }
+      },
+      "wikidataId": "Q12069422",
+      "parent": "himachal-pradesh/manali"
+    },
+    {
+      "key": "himachal-pradesh/rohtang-pass",
+      "kind": "viewpoint",
+      "name": "Rohtang Pass",
+      "summary": "The 3,978-m pass between the Kullu valley and Lahaul, open roughly May to November, with the Atal Tunnel beneath it.",
+      "seoTitle": "Rohtang Pass: Permits, Season & Atal Tunnel",
+      "seoDescription": "Plan a Rohtang Pass trip from Manali: the online vehicle permit, when the road is open, altitude and weather, Rahala Falls and the Atal Tunnel.",
+      "lat": 32.3714,
+      "lng": 77.2464,
+      "tripTypes": [
+        "mountains",
+        "adventure"
+      ],
+      "images": [
+        {
+          "commons": "File:Rohtang Pass from Manali vrtmrgmpksk (1237).jpg",
+          "alt": "A road winding across high grassy slopes towards snow peaks near Rohtang Pass",
+          "caption": "Near Rohtang Pass",
+          "hero": true
+        }
+      ],
+      "sections": {
+        "overview": {
+          "text": "Rohtang Pass, at 3,978 m on the Pir Panjal range about 51 km from Manali, links the green Kullu valley with the stark landscapes of Lahaul and Spiti. Snow closes the road from about November to May, and the pass is notorious for sudden snowstorms, so check the weather before you set out. Rahala Falls is on the way up.\n\nSince October 2020, the 9.02-km Atal Tunnel has run beneath the pass, connecting Manali with Keylong.",
+          "facts": [
+            "RO1",
+            "RO2",
+            "RO5",
+            "RO6",
+            "RO4"
+          ]
+        },
+        "visit_info": {
+          "items": [
+            {
+              "title": "Permits",
+              "body": "Tourist vehicles need an online permit, issued against a daily quota set by the National Green Tribunal and the district. Permits are valid for one day, can be applied for up to two days ahead, and vehicles must be no more than 10 years old."
+            },
+            {
+              "title": "Season",
+              "body": "The road over the pass is usually open from about May to November."
+            }
+          ],
+          "facts": [
+            "RO3",
+            "RO2"
+          ]
+        }
+      },
+      "wikidataId": "Q633415",
+      "parent": "himachal-pradesh/manali"
+    },
+    {
+      "key": "himachal-pradesh/vashisht",
+      "kind": "attraction",
+      "name": "Vashisht",
+      "summary": "A village 3 km from Manali with sulphurous hot springs and a Kath Kuni temple.",
+      "seoTitle": "Vashisht Hot Springs, Manali",
+      "seoDescription": "Vashisht near Manali: hot springs, bath timings and the temple of Sage Vashisht.",
+      "lat": 32.2589,
+      "lng": 77.19,
+      "tripTypes": [
+        "spiritual",
+        "nature"
+      ],
+      "images": [],
+      "sections": {
+        "overview": {
+          "text": "Across the Beas, 3 km from Manali, the village of Vashisht is known for its sulphurous hot springs, with separate bathing areas, and its Kath Kuni-style temple of Sage Vashisht. The baths are listed as open 7 am–1 pm and 2 pm–9 pm daily. A trail leads on to Jogini Waterfall.",
+          "facts": [
+            "VA1",
+            "VA2",
+            "VA3"
+          ]
+        }
+      },
+      "wikidataId": "Q24937462",
+      "parent": "himachal-pradesh/manali",
+      "displayMode": "parent_section"
+    },
+    {
+      "key": "himachal-pradesh/naggar",
+      "kind": "town",
+      "name": "Naggar",
+      "summary": "A village above the Beas with a 15th-century castle, old temples and the Roerich gallery.",
+      "seoTitle": "Naggar, Kullu Valley: Castle, Temples & Roerich Gallery",
+      "seoDescription": "Visit Naggar near Manali: Naggar Castle, the Roerich Art Gallery, the Gauri Shankar and Tripura Sundari temples, distance from Manali and the best season.",
+      "lat": 32.112,
+      "lng": 77.165,
+      "tripTypes": [
+        "heritage",
+        "mountains"
+      ],
+      "images": [
+        {
+          "commons": "File:Kullu Valley, Naggar Castle, India.jpg",
+          "alt": "A carved wooden balcony of Naggar Castle overlooking the misty Kullu valley",
+          "caption": "Naggar Castle",
+          "hero": true
+        }
+      ],
+      "sections": {
+        "overview": {
+          "text": "Naggar, about 20 km from Manali, was once the seat of the Kullu kings. Naggar Castle, built around 1460 in the Kath Kuni style of alternating stone and timber, is now a heritage hotel with views over the Beas valley.\n\nThe village's temples include the Gauri Shankar Temple, with 12th-century stone carving, and the Tripura Sundari Temple, built of deodar wood. A 30-minute walk from the castle leads to the Nicholas Roerich Art Gallery, with the Urusvati Himalayan Research Institute above it. Incredible India suggests September to November for pleasant weather.",
+          "facts": [
+            "NG1",
+            "NG2",
+            "NG4",
+            "NG3",
+            "NG5"
+          ]
+        },
+        "highlights": {
+          "items": [
+            {
+              "body": "Naggar Castle and its views over the Beas."
+            },
+            {
+              "body": "The Gauri Shankar and Tripura Sundari temples."
+            },
+            {
+              "body": "The Nicholas Roerich Art Gallery."
+            },
+            {
+              "body": "Jana Falls, a 30-foot waterfall 12 km away."
+            },
+            {
+              "body": "The May fair, when Tripura Devi is carried by palanquin to Malana."
+            }
+          ],
+          "facts": [
+            "NG2",
+            "NG4",
+            "NG3",
+            "NG6",
+            "NG7"
+          ]
+        }
+      },
+      "parent": "himachal-pradesh/manali"
+    }
+  ],
+  "itineraries": [
+    {
+      "place": "himachal-pradesh/manali",
+      "slug": "manali-4-days",
+      "title": "Manali in 4 days",
+      "summary": "The Hadimba Temple and Old Manali, a day at Solang, the high road to Rohtang (with a permit) or the Atal Tunnel, and Naggar and Vashisht's hot springs.",
+      "durationDays": 4,
+      "tripTypes": [
+        "mountains",
+        "adventure",
+        "family"
+      ],
+      "seoTitle": "4-Day Manali Itinerary: Solang, Rohtang & Naggar",
+      "seoDescription": "A realistic 4-day Manali plan: Hadimba Temple and Old Manali, Solang Valley, Rohtang Pass with a permit or the Atal Tunnel, Naggar Castle and Vashisht.",
+      "plan": {
+        "overview": "Manali sits at about 2,050 m, so day 1 stays in town to acclimatise. Rohtang needs a vehicle permit and is only open from about May to November; outside that window, swap day 3 for another day in the valley.",
+        "days": [
+          {
+            "title": "Manali town",
+            "stops": [
+              {
+                "time": "Morning",
+                "name": "Hadimba Devi Temple",
+                "placeSlug": "hadimba-temple",
+                "duration": "1.5 hours"
+              },
+              {
+                "time": "Late morning",
+                "name": "Museum of Himachal Culture & Folk Art",
+                "placeSlug": "manali",
+                "duration": "1 hour"
+              },
+              {
+                "time": "Afternoon",
+                "name": "Old Manali and the Manu Temple",
+                "placeSlug": "manali",
+                "duration": "2–3 hours"
+              },
+              {
+                "time": "Evening",
+                "name": "Manali Gompa and Mall Road",
+                "placeSlug": "manali",
+                "duration": "2 hours"
+              }
+            ],
+            "overnight": "Manali"
+          },
+          {
+            "title": "Solang Valley",
+            "stops": [
+              {
+                "time": "Morning",
+                "name": "Drive to Solang",
+                "duration": "About 13 km (estimate: 40 minutes)"
+              },
+              {
+                "time": "Late morning",
+                "name": "Ropeway, paragliding or skiing (seasonal)",
+                "placeSlug": "solang-valley",
+                "duration": "3–4 hours"
+              },
+              {
+                "time": "Afternoon",
+                "name": "Return and rest",
+                "duration": "2 hours"
+              }
+            ],
+            "overnight": "Manali"
+          },
+          {
+            "title": "Rohtang Pass or the Atal Tunnel",
+            "stops": [
+              {
+                "time": "Early morning",
+                "name": "Drive towards Rohtang",
+                "placeSlug": "rohtang-pass",
+                "duration": "51 km (estimate: 2–3 hours each way)",
+                "note": "Needs an online vehicle permit; open about May–November."
+              },
+              {
+                "time": "On the way",
+                "name": "Rahala Falls",
+                "placeSlug": "rohtang-pass",
+                "duration": "30 minutes"
+              },
+              {
+                "time": "Midday",
+                "name": "Rohtang Pass",
+                "placeSlug": "rohtang-pass",
+                "duration": "1–2 hours",
+                "note": "Weather changes fast; turn back if it closes in."
+              },
+              {
+                "time": "Afternoon",
+                "name": "Return to Manali",
+                "duration": "2–3 hours (estimate)"
+              }
+            ],
+            "overnight": "Manali"
+          },
+          {
+            "title": "Naggar and Vashisht",
+            "stops": [
+              {
+                "time": "Morning",
+                "name": "Naggar Castle and temples",
+                "placeSlug": "naggar",
+                "duration": "2 hours",
+                "note": "About 20 km from Manali."
+              },
+              {
+                "time": "Late morning",
+                "name": "Nicholas Roerich Art Gallery",
+                "placeSlug": "naggar",
+                "duration": "1 hour"
+              },
+              {
+                "time": "Afternoon",
+                "name": "Vashisht hot springs and temple",
+                "placeSlug": "vashisht",
+                "duration": "2 hours",
+                "note": "Baths listed 7 am–1 pm and 2–9 pm."
+              }
+            ],
+            "overnight": "Manali"
+          }
+        ],
+        "budget": {
+          "assumptions": "The Rohtang permit fee, the Solang ropeway and activity prices couldn't be confirmed from an official page during research — check before you go. Transport, hotels and meals are not estimated.",
+          "lines": [
+            {
+              "label": "Rohtang vehicle permit",
+              "amount": "Check the official permit site",
+              "basis": "Not estimated"
+            },
+            {
+              "label": "Solang ropeway and activities",
+              "amount": "Check locally",
+              "basis": "Not estimated"
+            }
+          ]
+        },
+        "booking": [
+          {
+            "item": "Rohtang permit",
+            "detail": "Apply online up to two days ahead; permits are limited by a daily quota and valid for one day."
+          },
+          {
+            "item": "Paragliding and skiing",
+            "detail": "Use registered operators and check the season."
+          }
+        ],
+        "alternatives": [
+          "Outside the Rohtang season, drive through the Atal Tunnel instead (road conditions permitting).",
+          "Swap Solang for the start of the Hampta Pass trek if you have more days."
+        ],
+        "tips": [
+          "Carry warm layers even in summer.",
+          "Snow is most likely from December to early March."
+        ]
+      },
+      "facts": [
+        "HD1",
+        "MN9",
+        "MN6",
+        "GM1",
+        "SO1",
+        "SO2",
+        "RO1",
+        "RO3",
+        "RO2",
+        "RO6",
+        "RO5",
+        "NG1",
+        "NG2",
+        "NG3",
+        "VA2",
+        "MN2",
+        "RO4",
+        "MN7"
+      ],
+      "sources": []
+    }
+  ]
+}

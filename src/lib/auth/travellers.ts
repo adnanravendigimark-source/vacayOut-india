@@ -20,8 +20,15 @@ export function findTravellerByEmail(email: string) {
     .then((r) => r[0] ?? null);
 }
 
+/**
+ * Address used in emailed links. Never taken from the request (a forged Host header
+ * could otherwise send someone's confirmation link to another site).
+ */
 function baseUrl() {
-  return (process.env.NEXT_PUBLIC_SITE_URL || site.url).replace(/\/$/, "");
+  const configured = process.env.NEXT_PUBLIC_SITE_URL;
+  if (configured) return configured.replace(/\/$/, "");
+  if (process.env.NODE_ENV !== "production") return `http://localhost:${process.env.PORT || 3000}`;
+  return site.url.replace(/\/$/, "");
 }
 
 /** Creates a single-use verification link (only its hash is stored) and emails it. */

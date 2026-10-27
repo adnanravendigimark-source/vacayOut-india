@@ -1,0 +1,1816 @@
+{
+  "cluster": "agra",
+  "title": "Agra & Fatehpur Sikri",
+  "researchedAt": "2026-10-26",
+  "selection": "Uttar Pradesh recorded 2.27 million foreign tourist visits in 2024 (India Tourism Data Compendium 2025, Table 4.1.2). Four of the seven ASI monuments most visited by foreign visitors in FY 2024-25 are in or near Agra (Taj Mahal 645,624; Agra Fort 224,924; Fatehpur Sikri 97,441; Itimad-ud-Daulah 90,367 — Table 4.2.2), and the city has three UNESCO World Heritage Sites.",
+  "sources": {
+    "TAJ": {
+      "url": "https://www.tajmahal.gov.in/",
+      "title": "Taj Mahal — official website (Department of Tourism, Government of Uttar Pradesh)",
+      "authority": "government"
+    },
+    "TAJ_DOS": {
+      "url": "https://www.tajmahal.gov.in/dos-and-donts.aspx",
+      "title": "Taj Mahal official website — Do's and Don'ts",
+      "authority": "government"
+    },
+    "TAJ_GETTING": {
+      "url": "https://www.tajmahal.gov.in/getting-around-taj-mahal.aspx",
+      "title": "Taj Mahal official website — Getting around",
+      "authority": "government"
+    },
+    "TAJ_TRAVEL": {
+      "url": "https://www.tajmahal.gov.in/travel-information.aspx",
+      "title": "Taj Mahal official website — Travel information",
+      "authority": "government"
+    },
+    "TAJ_FAQ": {
+      "url": "https://www.tajmahal.gov.in/faqs.aspx",
+      "title": "Taj Mahal official website — FAQs",
+      "authority": "government"
+    },
+    "TAJ_ENTRY": {
+      "url": "https://www.tajmahal.gov.in/entry-to-taj-mahal.aspx",
+      "title": "Taj Mahal official website — Entry to the Taj Mahal",
+      "authority": "government"
+    },
+    "TAJ_FORT": {
+      "url": "https://www.tajmahal.gov.in/agrafort.aspx",
+      "title": "Taj Mahal official website — Agra Fort",
+      "authority": "government"
+    },
+    "TAJ_FS": {
+      "url": "https://www.tajmahal.gov.in/fatehpur-sikri.aspx",
+      "title": "Taj Mahal official website — Fatehpur Sikri",
+      "authority": "government"
+    },
+    "TAJ_MB": {
+      "url": "https://www.tajmahal.gov.in/taj-view-point-mehtab-bagh.aspx",
+      "title": "Taj Mahal official website — Mehtab Bagh viewpoint",
+      "authority": "government"
+    },
+    "PIB": {
+      "url": "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2025/sep/doc2025927648801.pdf",
+      "title": "India Tourism Data Compendium 2025 — Ministry of Tourism",
+      "authority": "government"
+    },
+    "EVISA": {
+      "url": "https://indianvisaonline.gov.in/evisa/tvoa.html",
+      "title": "Indian e-Visa — official information (Government of India)",
+      "authority": "government"
+    },
+    "UPI": {
+      "url": "https://www.aap.com.au/aapreleases/cision20240723ae67416/",
+      "title": "NPCI: 'UPI One World' wallet available to inbound international travellers (press release, 24 July 2024)",
+      "authority": "media"
+    },
+    "W_TAJ": {
+      "url": "https://en.wikipedia.org/wiki/Taj_Mahal",
+      "title": "Taj Mahal — Wikipedia",
+      "authority": "reference"
+    },
+    "W_FORT": {
+      "url": "https://en.wikipedia.org/wiki/Agra_Fort",
+      "title": "Agra Fort — Wikipedia",
+      "authority": "reference"
+    },
+    "W_FS": {
+      "url": "https://en.wikipedia.org/wiki/Fatehpur_Sikri",
+      "title": "Fatehpur Sikri — Wikipedia",
+      "authority": "reference"
+    },
+    "W_ITI": {
+      "url": "https://en.wikipedia.org/wiki/Tomb_of_I%27timad-ud-Daulah",
+      "title": "Tomb of I'timad-ud-Daulah — Wikipedia",
+      "authority": "reference"
+    },
+    "W_MB": {
+      "url": "https://en.wikipedia.org/wiki/Mehtab_Bagh",
+      "title": "Mehtab Bagh — Wikipedia",
+      "authority": "reference"
+    },
+    "W_AGRA": {
+      "url": "https://en.wikipedia.org/wiki/Agra",
+      "title": "Agra — Wikipedia",
+      "authority": "reference"
+    },
+    "W_METRO": {
+      "url": "https://en.wikipedia.org/wiki/Agra_Metro",
+      "title": "Agra Metro — Wikipedia",
+      "authority": "reference"
+    },
+    "W_YEX": {
+      "url": "https://en.wikipedia.org/wiki/Yamuna_Expressway",
+      "title": "Yamuna Expressway — Wikipedia",
+      "authority": "reference"
+    },
+    "W_AIRPORT": {
+      "url": "https://en.wikipedia.org/wiki/Agra_Airport",
+      "title": "Agra Airport — Wikipedia",
+      "authority": "reference"
+    },
+    "W_GATIMAAN": {
+      "url": "https://en.wikipedia.org/wiki/Gatimaan_Express",
+      "title": "Gatimaan Express — Wikipedia",
+      "authority": "reference"
+    }
+  },
+  "facts": {
+    "T1": {
+      "place": "uttar-pradesh/taj-mahal",
+      "topic": "Who built the Taj Mahal and why",
+      "claim": "Shah Jahan commissioned the Taj Mahal in 1631 in memory of his wife Mumtaz Mahal.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "W_TAJ",
+          "quote": "The Taj Mahal was commissioned by Shah Jahan in 1631, to be built in the memory of his wife Mumtaz Mahal"
+        }
+      ]
+    },
+    "T2": {
+      "place": "uttar-pradesh/taj-mahal",
+      "topic": "Construction dates",
+      "claim": "Construction began in 1632; the mausoleum was finished in 1648 and the surrounding buildings and garden five years later.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "W_TAJ",
+          "quote": "Construction started in 1632, and the mausoleum was completed in 1648, while the surrounding buildings and garden were finished five years later."
+        }
+      ]
+    },
+    "T3": {
+      "place": "uttar-pradesh/taj-mahal",
+      "topic": "UNESCO World Heritage Site since 1983",
+      "claim": "The Taj Mahal was designated a UNESCO World Heritage Site in 1983.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "W_TAJ",
+          "quote": "In 1983, the Taj Mahal was designated as a UNESCO World Heritage Site"
+        }
+      ]
+    },
+    "T4": {
+      "place": "uttar-pradesh/taj-mahal",
+      "topic": "White marble mausoleum on the Yamuna",
+      "claim": "The Taj Mahal is a white marble mausoleum on the right bank of the Yamuna in Agra; red sandstone was used for the other buildings in the complex.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "W_TAJ",
+          "quote": "is an ivory-white marble mausoleum on the right bank of the river Yamuna in Agra"
+        },
+        {
+          "source": "W_TAJ",
+          "quote": "red sandstone was used for other buildings in the complex similar to contemporary Mughal-era buildings"
+        }
+      ]
+    },
+    "T5": {
+      "place": "uttar-pradesh/taj-mahal",
+      "topic": "Closed on Fridays",
+      "claim": "The Taj Mahal is closed to visitors on Fridays and open on all other days.",
+      "claimType": "opening_hours",
+      "evidence": [
+        {
+          "source": "TAJ",
+          "quote": "Taj Mahal remains closed only on Fridays, other weekdays it is always open."
+        }
+      ]
+    },
+    "T6": {
+      "place": "uttar-pradesh/taj-mahal",
+      "topic": "Daytime visiting hours",
+      "claim": "Daytime visiting hours run from 30 minutes before sunrise to 30 minutes before sunset.",
+      "claimType": "opening_hours",
+      "evidence": [
+        {
+          "source": "TAJ",
+          "quote": "Visiting hours: 30 Minutes before Sunrise upto 30 Minutes before Sunset."
+        }
+      ]
+    },
+    "T7": {
+      "place": "uttar-pradesh/taj-mahal",
+      "topic": "Entry fee — foreign tourists",
+      "claim": "Entry for foreign tourists is ₹1,100, plus an optional ₹200 to enter the main mausoleum (amounts include ASI and ADA fees).",
+      "claimType": "price",
+      "evidence": [
+        {
+          "source": "TAJ",
+          "quote": "Foreign Tourist Amount (Rs.) (Inclusive of ASI & ADA fees) 1100 + 200 Additional for visiting main mausoleum (Optional)"
+        }
+      ]
+    },
+    "T8": {
+      "place": "uttar-pradesh/taj-mahal",
+      "topic": "Entry fee — Indian visitors",
+      "claim": "Entry for Indian visitors is ₹50, plus an optional ₹200 to enter the main mausoleum.",
+      "claimType": "price",
+      "evidence": [
+        {
+          "source": "TAJ",
+          "quote": "Domestic/Indian Amount (Rs.) (Inclusive of ASI & ADA fees) 50 + 200 Additional for visiting main mausoleum (Optional)"
+        }
+      ]
+    },
+    "T9": {
+      "place": "uttar-pradesh/taj-mahal",
+      "topic": "Entry fee — SAARC and BIMSTEC citizens",
+      "claim": "Entry for citizens of SAARC and BIMSTEC countries is ₹540, plus an optional ₹200 for the main mausoleum.",
+      "claimType": "price",
+      "evidence": [
+        {
+          "source": "TAJ",
+          "quote": "Citizens of SAARC & BIMSTEC Countries Amount (Rs.) (Inclusive of ASI & ADA fees) 540 + 200"
+        }
+      ]
+    },
+    "T10": {
+      "place": "uttar-pradesh/taj-mahal",
+      "topic": "Children under 15 enter free",
+      "claim": "There is no entry fee for children below 15, Indian or foreign.",
+      "claimType": "price",
+      "evidence": [
+        {
+          "source": "TAJ",
+          "quote": "No Entry fee for children below the age of 15 years. (both Domestic and Foreigner)"
+        }
+      ]
+    },
+    "T11": {
+      "place": "uttar-pradesh/taj-mahal",
+      "topic": "Online ticket discount",
+      "claim": "Buying tickets online saves ₹5 per Indian ticket and ₹50 per foreigner ticket.",
+      "claimType": "price",
+      "evidence": [
+        {
+          "source": "TAJ",
+          "quote": "Tourists buying tickets online will get discount of Rs.5/- for per Indian ticket & Rs. 50/- for per Foreigner ticket."
+        }
+      ]
+    },
+    "T12": {
+      "place": "uttar-pradesh/taj-mahal",
+      "topic": "Where to buy day tickets",
+      "claim": "Day tickets are sold at the ticket windows at the gates and online through the Archaeological Survey of India.",
+      "claimType": "rule",
+      "evidence": [
+        {
+          "source": "TAJ",
+          "quote": "Entry tickets can be bought online through the website of Archaeological Survey of India"
+        },
+        {
+          "source": "TAJ_FAQ",
+          "quote": "Day visit tickets can be bought either from ticket window at both the gates or online"
+        }
+      ]
+    },
+    "T13": {
+      "place": "uttar-pradesh/taj-mahal",
+      "topic": "Night viewing dates",
+      "claim": "Night viewing is offered on five nights a month: the full-moon night and the two nights before and after it.",
+      "claimType": "schedule",
+      "evidence": [
+        {
+          "source": "TAJ",
+          "quote": "Night viewing of Taj Mahal is available on five days in a month i.e. on full moon night and two nights before and two after the full moon."
+        }
+      ]
+    },
+    "T14": {
+      "place": "uttar-pradesh/taj-mahal",
+      "topic": "Night viewing times and group size",
+      "claim": "Night viewing runs from 20:00 to 23:59 in eight half-hour batches of up to 50 people.",
+      "claimType": "schedule",
+      "evidence": [
+        {
+          "source": "TAJ",
+          "quote": "Timing: 20:00 hrs. to 23:59 hrs. in 8 batches of max. 50 people each. Time duration for each batch is half an hour (30 minutes)."
+        }
+      ]
+    },
+    "T15": {
+      "place": "uttar-pradesh/taj-mahal",
+      "topic": "Night viewing ticket price",
+      "claim": "Night-viewing tickets cost ₹510 for Indian visitors and ₹750 for foreigners.",
+      "claimType": "price",
+      "evidence": [
+        {
+          "source": "TAJ_FAQ",
+          "quote": "Charges for a domestic Tourist is Rs 510/- and for a foreigner, it is Rs 750/- per person."
+        }
+      ]
+    },
+    "T16": {
+      "place": "uttar-pradesh/taj-mahal",
+      "topic": "How to book night viewing",
+      "claim": "Night-viewing tickets must be bought in advance — online through the ASI, or at the ASI office at 22 Mall Road, Agra.",
+      "claimType": "rule",
+      "conflictNote": "The official FAQ gives two different rules: online booking up to seven days before, and buying at the ASI office on 22 Mall Road a day before. Confirm the current process with the ASI before publishing.",
+      "evidence": [
+        {
+          "source": "TAJ_FAQ",
+          "quote": "Night Viewing tickets can be booked seven days before the date of viewing through website"
+        },
+        {
+          "source": "TAJ_FAQ",
+          "quote": "Tickets are available at Archaeological Survey of India, 22 Mall Road, Agra."
+        }
+      ]
+    },
+    "T17": {
+      "place": "uttar-pradesh/taj-mahal",
+      "topic": "Drones and food not allowed",
+      "claim": "Drones are prohibited in and around the Taj Mahal, and food may not be taken inside.",
+      "claimType": "rule",
+      "evidence": [
+        {
+          "source": "TAJ",
+          "quote": "Drone cameras are strictly prohibited in and around the Taj Mahal."
+        },
+        {
+          "source": "TAJ",
+          "quote": "Eatables are not allowed inside the Taj."
+        }
+      ]
+    },
+    "T18": {
+      "place": "uttar-pradesh/taj-mahal",
+      "topic": "Prohibited items",
+      "claim": "Items not allowed include tobacco and smoking items, liquor, food (including toffees), headphones, knives, chargers, electrical goods other than cameras, and tripods.",
+      "claimType": "rule",
+      "evidence": [
+        {
+          "source": "TAJ_DOS",
+          "quote": "Arms, ammunitions, fire, smoking items, tobacco products, liquor, eatables (Toffees), head phones, knives, wire, mobile charger, electric goods (except camera), Tripods are also prohibited."
+        }
+      ]
+    },
+    "T19": {
+      "place": "uttar-pradesh/taj-mahal",
+      "topic": "No photography inside the mausoleum",
+      "claim": "Photography is not allowed inside the main mausoleum.",
+      "claimType": "rule",
+      "evidence": [
+        {
+          "source": "TAJ_DOS",
+          "quote": "Photography is prohibited inside the main mausoleum."
+        }
+      ]
+    },
+    "T20": {
+      "place": "uttar-pradesh/taj-mahal",
+      "topic": "Vehicle-free zone and parking",
+      "claim": "Polluting vehicles are not allowed within 500 m of the Taj Mahal; parking is at Shilpgram for the east gate and at Amrood ka Teela for the west gate.",
+      "claimType": "rule",
+      "evidence": [
+        {
+          "source": "TAJ_DOS",
+          "quote": "No Polluting vehicles are allowed within 500 mts. radius of Taj Mahal. Parking Facility is available at Shilpgram for east gate entry & at Amrood ka Teela for west gate entry."
+        }
+      ]
+    },
+    "T21": {
+      "place": "uttar-pradesh/taj-mahal",
+      "topic": "Battery buses and golf carts",
+      "claim": "Battery buses and golf carts run from the car parks to the gates; the golf cart is included in the ticket for foreign, SAARC and BIMSTEC visitors, while Indian visitors pay ₹25.",
+      "claimType": "price",
+      "evidence": [
+        {
+          "source": "TAJ_DOS",
+          "quote": "From parking to Taj Mahal gate battery buses & golf carts are available."
+        },
+        {
+          "source": "TAJ_DOS",
+          "quote": "The golf cart fee is included in the ticket price for foreign nationals, as well as citizens of SAARC and BIMSTEC countries, whereas Indian citizens are required to pay ₹25 per person."
+        }
+      ]
+    },
+    "T22": {
+      "place": "uttar-pradesh/taj-mahal",
+      "topic": "Taj Museum",
+      "claim": "The Taj Museum inside the complex is open 10 am to 5 pm and is free.",
+      "claimType": "opening_hours",
+      "evidence": [
+        {
+          "source": "TAJ_DOS",
+          "quote": "Taj Museum inside Taj Mahal Complex opens from 10.00 AM to 5.00 PM, entry free."
+        }
+      ]
+    },
+    "T23": {
+      "place": "uttar-pradesh/taj-mahal",
+      "topic": "Southern gate closed",
+      "claim": "The southern gate is currently closed for entry; visitors use the east and west gates.",
+      "claimType": "rule",
+      "evidence": [
+        {
+          "source": "TAJ_ENTRY",
+          "quote": "The Southern Gate : (Presently Closed for Entry)"
+        }
+      ]
+    },
+    "T24": {
+      "place": "uttar-pradesh/taj-mahal",
+      "topic": "Early morning avoids heat and crowds",
+      "claim": "The official site recommends early-morning visits to avoid summer heat and crowds; sunset is usually busier than sunrise.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "TAJ_FAQ",
+          "quote": "visiting in the early morning you can not only avoid the heat during summer but also the crowds"
+        },
+        {
+          "source": "TAJ_FAQ",
+          "quote": "Usually there are more visitors at sunset than sunrise."
+        }
+      ]
+    },
+    "T25": {
+      "place": "uttar-pradesh/taj-mahal",
+      "topic": "Use approved guides",
+      "claim": "Visitors are advised to hire only approved guides and photographers who show their identity cards.",
+      "claimType": "rule",
+      "evidence": [
+        {
+          "source": "TAJ_DOS",
+          "quote": "Tourists are advised to hire approved guides & photographers who exhibit their identity cards."
+        }
+      ]
+    },
+    "T26": {
+      "place": "uttar-pradesh/taj-mahal",
+      "topic": "Most visited monument",
+      "claim": "The Taj Mahal was India's most visited ticketed ASI monument in 2024–25 for both domestic (6.26 million) and foreign (0.65 million) visitors.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "PIB",
+          "quote": "Taj Mahal, Agra (6.26 million) was the most visited monument in 2024 for domestic visitors"
+        },
+        {
+          "source": "PIB",
+          "quote": "In respect of foreign visitors, Taj Mahal, Agra (0.65 million) was the most visited monument in 2024"
+        }
+      ]
+    },
+    "F1": {
+      "place": "uttar-pradesh/agra-fort",
+      "topic": "Rebuilt by Akbar in red sandstone",
+      "claim": "Akbar rebuilt the fort in red sandstone between 1565 and 1573; it was the main Mughal residence until 1638, when the capital moved to Delhi.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "W_FORT",
+          "quote": "was extensively rebuilt in red sandstone by the Mughal emperor Akbar from 1565 to 1573"
+        },
+        {
+          "source": "W_FORT",
+          "quote": "It served as the main residence of the rulers of the Mughal dynasty until 1638, when the capital was moved from Agra to Shahjahanabad in Delhi"
+        }
+      ]
+    },
+    "F2": {
+      "place": "uttar-pradesh/agra-fort",
+      "topic": "UNESCO and distance from the Taj",
+      "claim": "Agra Fort was inscribed as a UNESCO World Heritage Site in 1983 and lies about 2.5 km north-west of the Taj Mahal.",
+      "claimType": "distance",
+      "evidence": [
+        {
+          "source": "W_FORT",
+          "quote": "In 1983, the fort was inscribed as a UNESCO World Heritage Site for its importance during Mughal rule."
+        },
+        {
+          "source": "W_FORT",
+          "quote": "It is about 2.5 kilometres (1.6 mi) northwest of its sister monument, the Taj Mahal"
+        }
+      ]
+    },
+    "F3": {
+      "place": "uttar-pradesh/agra-fort",
+      "topic": "Shah Jahan's marble buildings",
+      "claim": "Shah Jahan added white marble buildings including the Diwan-i-Am, Diwan-i-Khas, Khas Mahal, Moti Masjid and Musamman Burj.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "W_FORT",
+          "quote": "Within the fort, Shah Jahan added a number of white marble structures, including the Diwan-i-Am, the Diwan-i-Khas, the Khas Mahal , the Moti Masjid , and the Musamman Burj ."
+        }
+      ]
+    },
+    "F4": {
+      "place": "uttar-pradesh/agra-fort",
+      "topic": "Musamman Burj",
+      "claim": "Shah Jahan died in the Musamman Burj in 1666.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "TAJ_GETTING",
+          "quote": "Musamman Burj - where Shahjahan died in 1666 A.D."
+        }
+      ]
+    },
+    "F5": {
+      "place": "uttar-pradesh/agra-fort",
+      "topic": "Entry through Amar Singh Gate; army area closed",
+      "claim": "Visitors enter only through the Amar Singh Gate; part of the fort is used by the Indian Army and is closed to the public.",
+      "claimType": "rule",
+      "evidence": [
+        {
+          "source": "TAJ_FORT",
+          "quote": "The entry to Agra Fort is allowed through the Amar Singh Gate only. Some portion of this fort is used by the Indian Army."
+        }
+      ]
+    },
+    "F6": {
+      "place": "uttar-pradesh/agra-fort",
+      "topic": "Opening hours",
+      "claim": "Agra Fort is open from sunrise to sunset.",
+      "claimType": "opening_hours",
+      "evidence": [
+        {
+          "source": "TAJ_FORT",
+          "quote": "Open : Sunrise to sunset."
+        }
+      ]
+    },
+    "F7": {
+      "place": "uttar-pradesh/agra-fort",
+      "topic": "Entry fees",
+      "claim": "Entry is ₹650 for foreign tourists (₹600 on Fridays) and ₹50 for Indian visitors (₹40 on Fridays); children under 15 are free.",
+      "claimType": "price",
+      "evidence": [
+        {
+          "source": "TAJ_FORT",
+          "quote": "Foreign Tourist Rs. 650/- Friday - Rs. 600/-"
+        },
+        {
+          "source": "TAJ_FORT",
+          "quote": "Domestic/Indian Tourist Rs. 50/- Friday - Rs. 40/-"
+        }
+      ]
+    },
+    "F8": {
+      "place": "uttar-pradesh/agra-fort",
+      "topic": "Distance from Agra Cantt station",
+      "claim": "The fort is about 5.5 km from Agra Cantt railway station.",
+      "claimType": "distance",
+      "evidence": [
+        {
+          "source": "TAJ_FORT",
+          "quote": "Distance about: 5.5 Kms from Agra Cantt Railway Station."
+        }
+      ]
+    },
+    "F9": {
+      "place": "uttar-pradesh/agra-fort",
+      "topic": "Views of the Taj",
+      "claim": "The fort's pavilions have views across the Yamuna to the Taj Mahal.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "TAJ_FORT",
+          "quote": "the breathtaking views of the Yamuna River and Taj Mahal from the balconies of the pavilions"
+        }
+      ]
+    },
+    "P1": {
+      "place": "uttar-pradesh/fatehpur-sikri",
+      "topic": "Akbar's capital 1571–1585",
+      "claim": "Akbar founded Fatehpur Sikri as the Mughal capital in 1571; it served as the capital until 1585.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "W_FS",
+          "quote": "Fatehpur Sikri itself was founded as the capital of the Mughal Empire in 1571 by Emperor Akbar , serving this role from 1571 to 1585"
+        }
+      ]
+    },
+    "P2": {
+      "place": "uttar-pradesh/fatehpur-sikri",
+      "topic": "UNESCO World Heritage Site since 1986",
+      "claim": "Fatehpur Sikri became a UNESCO World Heritage Site in 1986.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "W_FS",
+          "quote": "Fatehpur Sikri was awarded the status of UNESCO World Heritage Site in 1986"
+        }
+      ]
+    },
+    "P3": {
+      "place": "uttar-pradesh/fatehpur-sikri",
+      "topic": "Distance from Agra",
+      "claim": "Fatehpur Sikri is about 37 km from Agra.",
+      "claimType": "distance",
+      "evidence": [
+        {
+          "source": "W_FS",
+          "quote": "Fatehpur Sikri is about 37 kilometres (23 mi) from Agra."
+        },
+        {
+          "source": "TAJ_FS",
+          "quote": "37 kms from Agra is built a city predominantly in Red Sandstone"
+        }
+      ]
+    },
+    "P4": {
+      "place": "uttar-pradesh/fatehpur-sikri",
+      "topic": "Buland Darwaza",
+      "claim": "The Buland Darwaza gateway was built to mark Akbar's successful campaign in Gujarat.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "W_FS",
+          "quote": "The Buland Darwaza was built in honour of his successful campaign in Gujarat"
+        }
+      ]
+    },
+    "P5": {
+      "place": "uttar-pradesh/fatehpur-sikri",
+      "topic": "Tomb of Salim Chishti",
+      "claim": "The white marble tomb of the Sufi saint Salim Chishti stands in the courtyard of the Jama Masjid.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "W_FS",
+          "quote": "A white marble encased tomb of the Sufi saint Salim Chishti (1478–1572), within the Jama Masjid's sahn (courtyard)."
+        }
+      ]
+    },
+    "P6": {
+      "place": "uttar-pradesh/fatehpur-sikri",
+      "topic": "Entry fees",
+      "claim": "The official fee table lists ₹610 for foreign visitors (₹600 on Fridays or after visiting the Taj) and ₹50 for Indian visitors (₹40 on Fridays).",
+      "claimType": "price",
+      "evidence": [
+        {
+          "source": "TAJ",
+          "quote": "Fatehpur Sikri 50/- 40/- 610/- 600/- 600/-"
+        }
+      ]
+    },
+    "P7": {
+      "place": "uttar-pradesh/fatehpur-sikri",
+      "topic": "Diwan-i-Am and Diwan-i-Khas",
+      "claim": "The palace visit begins at the Diwan-i-Am (Hall of Public Audience); the Diwan-i-Khas has a single chamber with a carved central column.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "TAJ_FS",
+          "quote": "The journey to the royal palace begins with Diwan-I-Am or the Hall Of Public Audience."
+        },
+        {
+          "source": "TAJ_FS",
+          "quote": "In the centre stands a profusely carved column supporting a collosal-bracketed capital."
+        }
+      ]
+    },
+    "I1": {
+      "place": "uttar-pradesh/itimad-ud-daulah",
+      "topic": "Built 1622–1628 by Nur Jahan",
+      "claim": "The tomb was built between 1622 and 1628, commissioned by Empress Nur Jahan for her father, Mirza Ghiyas Beg (I'timad-ud-Daulah).",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "W_ITI",
+          "quote": "Built between 1622 and 1628, it was commissioned by the Mughal empress Nur Jahan for her father, Mirza Ghiyas Beg"
+        }
+      ]
+    },
+    "I2": {
+      "place": "uttar-pradesh/itimad-ud-daulah",
+      "topic": "Forerunner of the Taj's inlay work",
+      "claim": "The tomb marks the shift from red sandstone to the white marble and pietra dura inlay later seen at the Taj Mahal.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "W_ITI",
+          "quote": "It marks a development from the red sandstone and marble decoration of monuments such as Humayun's Tomb and Akbar's tomb towards the white marble and pietra dura inlay later exemplified by the Taj Mahal."
+        }
+      ]
+    },
+    "I3": {
+      "place": "uttar-pradesh/itimad-ud-daulah",
+      "topic": "Known as the Baby Taj",
+      "claim": "The tomb is popularly known as the 'Baby Taj'.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "TAJ_FAQ",
+          "quote": "Itimad-ud-daula (baby Taj)"
+        }
+      ]
+    },
+    "I4": {
+      "place": "uttar-pradesh/itimad-ud-daulah",
+      "topic": "Entry fees",
+      "claim": "The official fee table lists ₹310 for foreign visitors (₹300 on Fridays or after visiting the Taj) and ₹30 for Indian visitors (₹25 on Fridays).",
+      "claimType": "price",
+      "evidence": [
+        {
+          "source": "TAJ",
+          "quote": "Itimad-Ud-Daulah 30/- 25/- 310/- 300/- 300/-"
+        }
+      ]
+    },
+    "I5": {
+      "place": "uttar-pradesh/agra",
+      "topic": "Other monuments open daily",
+      "claim": "Apart from the Taj Mahal, Agra's monuments and attractions are open every day from sunrise to sunset.",
+      "claimType": "opening_hours",
+      "evidence": [
+        {
+          "source": "TAJ",
+          "quote": "All other monuments & tourist attractions in the city are open throughout the week from Sunrise to Sunset."
+        }
+      ]
+    },
+    "M1": {
+      "place": "uttar-pradesh/mehtab-bagh",
+      "topic": "Garden opposite the Taj",
+      "claim": "Mehtab Bagh is a square garden on the opposite bank of the Yamuna, aligned with the Taj Mahal.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "W_MB",
+          "quote": "It lies north of the Taj Mahal complex and the Agra Fort on the opposite side of the Yamuna River"
+        },
+        {
+          "source": "W_MB",
+          "quote": "is perfectly aligned with the Taj Mahal on the opposite bank"
+        }
+      ]
+    },
+    "M2": {
+      "place": "uttar-pradesh/mehtab-bagh",
+      "topic": "A view of the Taj on Fridays",
+      "claim": "You can view the Taj Mahal from Mehtab Bagh on Fridays, when the Taj itself is closed.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "TAJ_MB",
+          "quote": "Tourists can see Taj Mahal from this point also on Fridays and full moon nights"
+        }
+      ]
+    },
+    "M3": {
+      "place": "uttar-pradesh/mehtab-bagh",
+      "topic": "Entry fee",
+      "claim": "The entry fee for foreign visitors is listed as ₹300 on the main fee table but ₹200 on the Mehtab Bagh page; Indian visitors pay ₹25–₹50.",
+      "claimType": "price",
+      "conflictNote": "Two official pages disagree (₹300 vs ₹200 for foreigners; ₹25 vs ₹50 for Indians), and the Mehtab Bagh page also mentions a COVID curfew, so it is likely outdated. Confirm with the Agra Development Authority before publishing.",
+      "evidence": [
+        {
+          "source": "TAJ",
+          "quote": "Mehtab Bagh 25/- 25/- 300/- 300/- 300/-"
+        },
+        {
+          "source": "TAJ_MB",
+          "quote": "Foreigner - Rs. 200"
+        }
+      ]
+    },
+    "M4": {
+      "place": "uttar-pradesh/mehtab-bagh",
+      "topic": "Floods in the monsoon",
+      "claim": "The garden is partly flooded during the rainy season.",
+      "claimType": "general",
+      "kind": "seasonal",
+      "evidence": [
+        {
+          "source": "W_MB",
+          "quote": "During the rainy season, the ground becomes partially flooded"
+        }
+      ]
+    },
+    "A1": {
+      "place": "uttar-pradesh/agra",
+      "topic": "Three World Heritage Sites",
+      "claim": "Agra has three World Heritage Sites: the Taj Mahal, Agra Fort and Fatehpur Sikri.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "TAJ_FAQ",
+          "quote": "It has three world heritage sites i.e. Taj Mahal, Agra Fort & Fatehpur Sikri"
+        }
+      ]
+    },
+    "A2": {
+      "place": "uttar-pradesh/agra",
+      "topic": "Best season October to March",
+      "claim": "The official site gives October to March as the best season to visit.",
+      "claimType": "general",
+      "kind": "seasonal",
+      "evidence": [
+        {
+          "source": "TAJ_FAQ",
+          "quote": "Best Season to visit – October to March"
+        }
+      ]
+    },
+    "A3": {
+      "place": "uttar-pradesh/agra",
+      "topic": "Climate",
+      "claim": "Agra has hot, dry summers, a monsoon season and mild winters; winter fog often delays trains.",
+      "claimType": "general",
+      "kind": "seasonal",
+      "evidence": [
+        {
+          "source": "W_AGRA",
+          "quote": "The city features mild winters, hot and dry summers and a monsoon season"
+        },
+        {
+          "source": "W_AGRA",
+          "quote": "This phenomenon often leads to big delays and sometimes cancellation of trains due to poor visibility."
+        }
+      ]
+    },
+    "A4": {
+      "place": "uttar-pradesh/agra",
+      "topic": "Railway stations",
+      "claim": "Agra Cantonment is the main railway station; Raja-ki-Mandi and Agra Fort stations also serve the city.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "TAJ_TRAVEL",
+          "quote": "Apart from the main railway station of Agra Cantonment, there are other two stations also, that of Raja-ki-Mandi and Agra Fort."
+        }
+      ]
+    },
+    "A5": {
+      "place": "uttar-pradesh/agra",
+      "topic": "Trains from Delhi",
+      "claim": "Main trains between Delhi and Agra include the Shatabdi, Rajdhani, Gatimaan and Taj Express.",
+      "claimType": "schedule",
+      "evidence": [
+        {
+          "source": "TAJ_GETTING",
+          "quote": "The main trains connecting Agra with Delhi are Palace on Wheels, Shatabdi, Rajdhani, Gatimaan and Taj Express."
+        }
+      ]
+    },
+    "A6": {
+      "place": "uttar-pradesh/agra",
+      "topic": "Gatimaan Express does not run on Fridays",
+      "claim": "The Gatimaan Express runs six days a week and not on Fridays.",
+      "claimType": "schedule",
+      "evidence": [
+        {
+          "source": "W_GATIMAAN",
+          "quote": "The train runs six days a week, and not on Fridays."
+        }
+      ]
+    },
+    "A7": {
+      "place": "uttar-pradesh/agra",
+      "topic": "Road distances",
+      "claim": "By road Agra is about 204 km from Delhi, 232 km from Jaipur, 56 km from Mathura and 605 km from Varanasi.",
+      "claimType": "distance",
+      "evidence": [
+        {
+          "source": "TAJ_GETTING",
+          "quote": "Delhi - 204 km Gwalior - 119 km Jaipur - 232 km"
+        },
+        {
+          "source": "TAJ_GETTING",
+          "quote": "Mathura - 56 km Varanasi - 605 km"
+        }
+      ]
+    },
+    "A8": {
+      "place": "uttar-pradesh/agra",
+      "topic": "Yamuna Expressway",
+      "claim": "The 165.5 km Yamuna Expressway links Greater Noida (near Delhi) with Agra.",
+      "claimType": "distance",
+      "evidence": [
+        {
+          "source": "W_YEX",
+          "quote": "165.5 km (102.8 mi) long access-controlled expressway in the Indian state of Uttar Pradesh"
+        },
+        {
+          "source": "W_YEX",
+          "quote": "Indian expressway connecting Greater Noida and Agra"
+        }
+      ]
+    },
+    "A9": {
+      "place": "uttar-pradesh/agra",
+      "topic": "Airports",
+      "claim": "Agra Airport (Kheria) is a domestic civil enclave at an Indian Air Force base; Delhi's international airport, about 200 km away, is the main international gateway.",
+      "claimType": "distance",
+      "evidence": [
+        {
+          "source": "W_AIRPORT",
+          "quote": "is a dual use airport with Indian Air Force base and a domestic airport civil enclave serving the Agra city"
+        },
+        {
+          "source": "W_AGRA",
+          "quote": "Located approximately 200 kilometres (120 mi) away, it remains the primary international gateway for Agra via the Yamuna Expressway"
+        }
+      ]
+    },
+    "A10": {
+      "place": "uttar-pradesh/agra",
+      "topic": "Agra Metro",
+      "claim": "The Agra Metro opened on 6 March 2024; its Yellow Line connects Sikandra with the Taj East Gate.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "W_METRO",
+          "quote": "The Agra Metro became operational on 6 March 2024."
+        },
+        {
+          "source": "W_METRO",
+          "quote": "The Yellow Line connects Taj East Gate with Sikandra"
+        }
+      ]
+    },
+    "A11": {
+      "place": "uttar-pradesh/agra",
+      "topic": "Local transport",
+      "claim": "Taxis, auto-rickshaws and cycle-rickshaws are widely available; prepaid taxis can be hired for nearby places.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "TAJ_GETTING",
+          "quote": "You can easily get taxi, tempo, auto-rickshaw and cycle rickshaw in the city that will take you to your destination. Prepaid taxis are also available if you want to visit the various places near the city."
+        }
+      ]
+    },
+    "A12": {
+      "place": "uttar-pradesh/agra",
+      "topic": "Food: petha and Mughlai cuisine",
+      "claim": "Agra is known for Mughlai cuisine and petha, a sweet made from ash gourd; bhalla, bedai with jalebi and tandoori chai are popular street foods.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "W_AGRA",
+          "quote": "Petha , a sweet made using ash gourd , is one of the famous dishes of Agra"
+        },
+        {
+          "source": "W_AGRA",
+          "quote": "bedai with jalebi in the mornings, and tandoori chai in clay cups are popular among locals"
+        }
+      ]
+    },
+    "A13": {
+      "place": "uttar-pradesh/agra",
+      "topic": "Police helpline",
+      "claim": "The Uttar Pradesh Police helpline number is 112.",
+      "claimType": "contact",
+      "evidence": [
+        {
+          "source": "TAJ",
+          "quote": "UP Police Helpline 112"
+        }
+      ]
+    },
+    "A14": {
+      "place": "uttar-pradesh/agra",
+      "topic": "e-Visa timing and passport validity",
+      "claim": "e-Tourist visa applications should be made at least 4 days before arrival, with a passport valid for at least six months.",
+      "claimType": "rule",
+      "evidence": [
+        {
+          "source": "EVISA",
+          "quote": "For e-Tourist and e-Business visa, Applicants of the eligible countries/territories may apply online minimum 4 days in advance of the date of arrival."
+        },
+        {
+          "source": "EVISA",
+          "quote": "Applicant's passport should have at least six months validity at the time of making application for grant of e-Visa."
+        }
+      ]
+    },
+    "A15": {
+      "place": "uttar-pradesh/agra",
+      "topic": "UPI One World for visitors",
+      "claim": "International visitors can use NPCI's UPI One World wallet to pay by scanning QR codes, after a KYC check based on their passport and visa.",
+      "claimType": "rule",
+      "evidence": [
+        {
+          "source": "UPI",
+          "quote": "The UPI One World wallet can be availed through authorized PPI issuers at airports, hotels, designated money exchange locations and other touchpoints, following a full KYC process based on a passport and valid visa."
+        }
+      ]
+    },
+    "A16": {
+      "place": "uttar-pradesh/agra",
+      "topic": "Use approved guides",
+      "claim": "Visitors are advised to hire only approved guides and photographers who show their identity cards.",
+      "claimType": "rule",
+      "evidence": [
+        {
+          "source": "TAJ_DOS",
+          "quote": "Tourists are advised to hire approved guides & photographers who exhibit their identity cards."
+        }
+      ]
+    }
+  },
+  "places": [
+    {
+      "key": "uttar-pradesh/agra",
+      "kind": "city",
+      "name": "Agra",
+      "summary": "The city of the Taj Mahal: three World Heritage Sites, Mughal gardens and tombs, and an easy day trip to Fatehpur Sikri.",
+      "seoTitle": "Agra Travel Guide: Taj Mahal, Agra Fort & Fatehpur Sikri",
+      "seoDescription": "Plan your Agra trip: Taj Mahal timings and Friday closure, Agra Fort, Fatehpur Sikri, getting there from Delhi, where to stay, food and practical tips.",
+      "lat": 27.18,
+      "lng": 78.02,
+      "wikidataId": "Q42941",
+      "tripTypes": [
+        "heritage"
+      ],
+      "featured": true,
+      "images": [
+        {
+          "commons": "File:Agra Fort DistantTaj.JPG",
+          "alt": "The Taj Mahal seen in the distance across the Yamuna from a domed pavilion of Agra Fort",
+          "caption": "The Taj Mahal from Agra Fort",
+          "hero": true
+        }
+      ],
+      "sections": {
+        "overview": {
+          "text": "Agra, on the Yamuna in Uttar Pradesh, is the city of the Taj Mahal — and it holds two more World Heritage Sites besides: the red sandstone Agra Fort and, 37 km away, Akbar's abandoned capital of Fatehpur Sikri. Smaller Mughal monuments fill the gaps, from the inlaid tomb of I'timad-ud-Daulah to the riverside garden of Mehtab Bagh, which looks straight across the water at the Taj.\n\nMost visitors give Agra one or two days. The single most important thing to plan around is Friday: the Taj Mahal is closed that day, while Agra's other monuments open daily from sunrise to sunset. The official tourism site recommends October to March as the best season; summers are hot and dry, and winter fog can delay morning trains.\n\nThe guides below cover each monument's visiting rules, fees and best times, followed by how to get here from Delhi, where to stay, what to eat and a ready-made two-day plan.",
+          "facts": [
+            "A1",
+            "P3",
+            "I5",
+            "A2",
+            "A3"
+          ]
+        },
+        "highlights": {
+          "items": [
+            {
+              "body": "Taj Mahal at sunrise: Arrive for the 30-minutes-before-sunrise opening for softer light and smaller crowds than at sunset."
+            },
+            {
+              "body": "Agra Fort: Akbar's red sandstone fortress with Shah Jahan's marble pavilions and views of the Taj."
+            },
+            {
+              "body": "Fatehpur Sikri: Akbar's capital from 1571 to 1585, a day trip 37 km from the city."
+            },
+            {
+              "body": "The 'Baby Taj': I'timad-ud-Daulah's tomb, a jewel box of marble inlay that predates the Taj."
+            },
+            {
+              "body": "Mehtab Bagh at sunset: The garden across the river, aligned with the Taj — open on Fridays too."
+            }
+          ],
+          "facts": [
+            "T6",
+            "T24",
+            "F1",
+            "F9",
+            "P1",
+            "P3",
+            "I2",
+            "I3",
+            "M1",
+            "M2"
+          ]
+        },
+        "best_time": {
+          "text": "The official Taj Mahal website names October to March as the best season. Agra's summers are hot and dry and the monsoon brings rain; in mid-winter, fog across the plains often delays early trains, so leave slack in your plans if you are arriving by rail in December or January.\n\nWhatever the month, go early: the official site notes that early mornings avoid both the summer heat and the crowds, and that sunset tends to be busier than sunrise. Remember the Taj is closed every Friday — use that day for Fatehpur Sikri or Mehtab Bagh.",
+          "facts": [
+            "A2",
+            "A3",
+            "T24",
+            "T5",
+            "M2"
+          ]
+        },
+        "how_to_reach": {
+          "text": "By road, Agra is about 204 km from Delhi and 232 km from Jaipur. The 165.5 km Yamuna Expressway runs from Greater Noida, on Delhi's edge, to Agra. Delhi's international airport, about 200 km away, is the usual gateway for international visitors; Agra's own airport at Kheria is a small domestic civil enclave on an Air Force base.\n\nBy train, Agra Cantonment is the main station, with Raja-ki-Mandi and Agra Fort stations also serving the city. The main trains from Delhi include the Shatabdi, Rajdhani, Gatimaan and Taj Express; note that the Gatimaan Express does not run on Fridays — the same day the Taj Mahal is closed. Check current timings and fares on IRCTC before you book.",
+          "facts": [
+            "A7",
+            "A8",
+            "A9",
+            "A4",
+            "A5",
+            "A6"
+          ]
+        },
+        "local_transport": {
+          "text": "Taxis, auto-rickshaws and cycle-rickshaws are easy to find, and prepaid taxis can be hired for trips to nearby places such as Fatehpur Sikri. The Agra Metro opened in March 2024; its Yellow Line runs between Sikandra and the Taj East Gate.\n\nPetrol and diesel vehicles cannot go within 500 m of the Taj Mahal. Park at Shilpgram for the east gate or Amrood ka Teela for the west gate, then take a battery bus or golf cart to the entrance.",
+          "facts": [
+            "A11",
+            "A10",
+            "T20",
+            "T21"
+          ]
+        },
+        "where_to_stay": {
+          "text": "Staying close to the Taj Mahal makes the sunrise opening much easier. The lanes around the east and west gates have guesthouses and smaller hotels within walking distance or a short ride; larger hotels are spread further out along the main roads, a short taxi or auto-rickshaw ride away.\n\nWhichever area you choose, check how your hotel will get you to the gate before dawn — vehicles are stopped 500 m from the Taj, so the last stretch is on foot, by battery bus or by golf cart."
+        },
+        "food": {
+          "items": [
+            {
+              "body": "Mughlai dishes — Agra is known for this rich, slow-cooked cuisine."
+            },
+            {
+              "body": "Petha, Agra's best-known sweet, made from ash gourd and sold in many varieties."
+            },
+            {
+              "body": "Bedai with jalebi, a popular local breakfast."
+            },
+            {
+              "body": "Bhalla (dahi aloo tikki) from the Sadar Bazaar area, and tandoori chai served in clay cups."
+            }
+          ],
+          "facts": [
+            "A12"
+          ]
+        },
+        "culture_etiquette": {
+          "items": [
+            {
+              "body": "Inside the Taj Mahal, keep your phone silent and your voice low — the mausoleum is a tomb."
+            },
+            {
+              "body": "Photography is not allowed inside the main mausoleum; take pictures outside instead."
+            },
+            {
+              "body": "At Fatehpur Sikri's Jama Masjid and the tomb of Salim Chishti, dress modestly and follow any requests to remove shoes or cover your head."
+            },
+            {
+              "body": "Don't touch or scratch the marble and inlay — these are fragile heritage surfaces."
+            }
+          ],
+          "facts": [
+            "T19"
+          ]
+        },
+        "practical_info": {
+          "items": [
+            {
+              "title": "Visas",
+              "body": "Apply for an e-Tourist visa at least 4 days before you arrive; your passport needs at least six months' validity."
+            },
+            {
+              "title": "Payments",
+              "body": "International visitors can pay by scanning QR codes using NPCI's UPI One World wallet, set up after a passport-and-visa KYC check at airports, hotels or money changers. Keep some cash for small purchases."
+            },
+            {
+              "title": "Monument tickets",
+              "body": "Buy online through the ASI to save a little and skip the window queue; children under 15 enter free."
+            },
+            {
+              "title": "What to carry",
+              "body": "Travel light for the Taj: food, tripods, chargers, headphones and large bags are refused at security."
+            }
+          ],
+          "facts": [
+            "A14",
+            "A15",
+            "T11",
+            "T10",
+            "T18"
+          ]
+        },
+        "safety_health": {
+          "items": [
+            {
+              "title": "Emergency",
+              "body": "Call 112 for the police and emergency services in Uttar Pradesh."
+            },
+            {
+              "title": "Guides and touts",
+              "body": "Hire only approved guides and photographers who can show their identity cards."
+            },
+            {
+              "title": "Heat",
+              "body": "In summer, sightsee early, carry water and rest indoors in the middle of the day."
+            },
+            {
+              "title": "Getting around safely",
+              "body": "Agree the fare before an auto-rickshaw ride, or use prepaid taxis."
+            }
+          ],
+          "facts": [
+            "A13",
+            "A16"
+          ]
+        },
+        "faqs": {
+          "items": [
+            {
+              "title": "Which day is the Taj Mahal closed?",
+              "body": "Every Friday. All other days it opens from 30 minutes before sunrise to 30 minutes before sunset."
+            },
+            {
+              "title": "How many days do I need in Agra?",
+              "body": "One full day covers the Taj Mahal, Agra Fort and the Baby Taj; add a second day for Fatehpur Sikri and Mehtab Bagh at sunset."
+            },
+            {
+              "title": "Can I see the Taj Mahal on a Friday?",
+              "body": "Not from inside, but Mehtab Bagh across the river gives a full view of it on Fridays."
+            },
+            {
+              "title": "Can I visit the Taj Mahal at night?",
+              "body": "Yes, on five nights around each full moon, in small timed batches. Tickets are sold by the Archaeological Survey of India in advance, not at the gate on the night — check the current booking process with the ASI."
+            }
+          ],
+          "facts": [
+            "T5",
+            "T6",
+            "M2",
+            "T13",
+            "T12"
+          ]
+        },
+        "travel_tips": {
+          "items": [
+            {
+              "body": "Plan your Friday around the Taj Mahal's weekly closure — Fatehpur Sikri and Mehtab Bagh are both open."
+            },
+            {
+              "body": "Buy monument tickets online in advance to avoid queues at the windows."
+            },
+            {
+              "body": "Leave food, tripods and chargers at your hotel before visiting the Taj."
+            }
+          ],
+          "facts": [
+            "T5",
+            "T12",
+            "T18"
+          ]
+        }
+      },
+      "relations": [
+        {
+          "to": "uttar-pradesh/fatehpur-sikri",
+          "type": "day_trip"
+        }
+      ]
+    },
+    {
+      "key": "uttar-pradesh/taj-mahal",
+      "kind": "attraction",
+      "name": "Taj Mahal",
+      "parent": "uttar-pradesh/agra",
+      "summary": "Shah Jahan's white marble mausoleum for Mumtaz Mahal on the Yamuna — closed on Fridays, open from 30 minutes before sunrise.",
+      "seoTitle": "Taj Mahal: Timings, Tickets, Rules & Tips (Agra)",
+      "seoDescription": "Visit the Taj Mahal: Friday closure, sunrise opening hours, entry fees for Indian and foreign visitors, night viewing, prohibited items and how to beat the crowds.",
+      "lat": 27.175,
+      "lng": 78.0419,
+      "wikidataId": "Q9141",
+      "tripTypes": [
+        "heritage",
+        "romantic"
+      ],
+      "featured": true,
+      "images": [
+        {
+          "commons": "File:Taj Mahal (Edited).jpeg",
+          "alt": "The white marble Taj Mahal with its four minarets, reflected in the long garden pool",
+          "caption": "The Taj Mahal from the garden",
+          "hero": true
+        }
+      ],
+      "sections": {
+        "overview": {
+          "text": "The Taj Mahal was commissioned by the Mughal emperor Shah Jahan in 1631 in memory of his wife Mumtaz Mahal. Work began the following year; the white marble mausoleum was finished in 1648 and the surrounding buildings and gardens five years later. It stands on the right bank of the Yamuna in Agra, framed by red sandstone gateways, mosques and a formal garden, and was designated a UNESCO World Heritage Site in 1983.\n\nIt is India's most visited ticketed monument: in 2024–25 it drew 6.26 million domestic and 0.65 million foreign visitors. That popularity shapes the visit. Come at the opening, 30 minutes before sunrise, when the official site says both the heat and the crowds are lighter, and remember the monument is closed every Friday.",
+          "facts": [
+            "T1",
+            "T2",
+            "T4",
+            "T3",
+            "T26",
+            "T6",
+            "T24",
+            "T5"
+          ]
+        },
+        "visit_info": {
+          "items": [
+            {
+              "title": "Opening hours",
+              "body": "30 minutes before sunrise to 30 minutes before sunset. Closed on Fridays."
+            },
+            {
+              "title": "Entry fee (foreign visitors)",
+              "body": "₹1,100, plus ₹200 (optional) to enter the main mausoleum. Includes ASI and ADA fees."
+            },
+            {
+              "title": "Entry fee (Indian visitors)",
+              "body": "₹50, plus ₹200 (optional) for the main mausoleum."
+            },
+            {
+              "title": "SAARC and BIMSTEC citizens",
+              "body": "₹540, plus ₹200 (optional) for the main mausoleum."
+            },
+            {
+              "title": "Children",
+              "body": "Free for children under 15."
+            },
+            {
+              "title": "Tickets",
+              "body": "At the ticket windows at the gates, or online through the Archaeological Survey of India (online tickets are ₹5 cheaper for Indians and ₹50 for foreigners)."
+            },
+            {
+              "title": "Gates",
+              "body": "Enter by the east or west gate; the southern gate is currently closed for entry."
+            },
+            {
+              "title": "Night viewing",
+              "body": "Five nights a month around the full moon, 20:00–23:59, in half-hour batches of up to 50 people. ₹750 for foreigners, ₹510 for Indian visitors. Buy in advance from the ASI."
+            },
+            {
+              "title": "Taj Museum",
+              "body": "Inside the complex; 10 am–5 pm, free."
+            }
+          ],
+          "facts": [
+            "T6",
+            "T5",
+            "T7",
+            "T8",
+            "T9",
+            "T10",
+            "T12",
+            "T11",
+            "T23",
+            "T13",
+            "T14",
+            "T15",
+            "T16",
+            "T22"
+          ]
+        },
+        "travel_tips": {
+          "items": [
+            {
+              "body": "Leave food, tobacco, chargers, headphones and tripods behind — they are refused at security, and drones are banned."
+            },
+            {
+              "body": "Photography is fine in the gardens but not inside the main mausoleum."
+            },
+            {
+              "body": "Vehicles stop 500 m away; battery buses and golf carts run from the car parks to the gates (included for foreign visitors, ₹25 for Indians)."
+            },
+            {
+              "body": "Hire only approved guides who can show an ID card."
+            }
+          ],
+          "facts": [
+            "T17",
+            "T18",
+            "T19",
+            "T20",
+            "T21",
+            "T25"
+          ]
+        }
+      }
+    },
+    {
+      "key": "uttar-pradesh/agra-fort",
+      "kind": "attraction",
+      "name": "Agra Fort",
+      "parent": "uttar-pradesh/agra",
+      "summary": "Akbar's red sandstone fortress, with Shah Jahan's marble pavilions and views across the Yamuna to the Taj Mahal.",
+      "seoTitle": "Agra Fort: Timings, Tickets & What to See",
+      "seoDescription": "Visit Agra Fort, a UNESCO World Heritage Site: opening hours, entry fees, the Amar Singh Gate entrance, Musamman Burj and views of the Taj Mahal.",
+      "lat": 27.1796,
+      "lng": 78.0213,
+      "wikidataId": "Q171857",
+      "tripTypes": [
+        "heritage"
+      ],
+      "images": [
+        {
+          "commons": "File:Amar Singh Gate, Agra Fort, Agra.jpg",
+          "alt": "Red sandstone walls and towers of the Amar Singh Gate at Agra Fort",
+          "caption": "Amar Singh Gate, the visitors' entrance",
+          "hero": true
+        },
+        {
+          "commons": "File:Musamman Burj in Agra Fort, Agra, India.jpg",
+          "alt": "Inlaid white marble interior of the Musamman Burj in Agra Fort",
+          "caption": "Musamman Burj"
+        }
+      ],
+      "sections": {
+        "overview": {
+          "text": "Agra Fort was rebuilt in red sandstone by the emperor Akbar between 1565 and 1573 and remained the main residence of the Mughal rulers until 1638, when the capital moved to Delhi. Akbar's grandson Shah Jahan later added white marble buildings — the Diwan-i-Am, Diwan-i-Khas, Khas Mahal, Moti Masjid and the Musamman Burj, where Shah Jahan died in 1666.\n\nThe fort is a UNESCO World Heritage Site, inscribed in 1983, and lies about 2.5 km north-west of the Taj Mahal. From the balconies of its riverside pavilions you look across the Yamuna to the Taj, which makes it a good pairing on the same day. Plan on about two hours inside; part of the fort is still used by the Indian Army and is closed to visitors.",
+          "facts": [
+            "F1",
+            "F3",
+            "F4",
+            "F2",
+            "F9",
+            "F5"
+          ]
+        },
+        "visit_info": {
+          "items": [
+            {
+              "title": "Opening hours",
+              "body": "Sunrise to sunset, every day."
+            },
+            {
+              "title": "Entry fee",
+              "body": "Foreign visitors ₹650 (₹600 on Fridays); Indian visitors ₹50 (₹40 on Fridays). Children under 15 free."
+            },
+            {
+              "title": "Entrance",
+              "body": "Through the Amar Singh Gate only."
+            },
+            {
+              "title": "Getting there",
+              "body": "About 5.5 km from Agra Cantt railway station and 2.5 km from the Taj Mahal."
+            }
+          ],
+          "facts": [
+            "F6",
+            "F7",
+            "F5",
+            "F8",
+            "F2",
+            "T10"
+          ]
+        },
+        "travel_tips": {
+          "items": [
+            {
+              "body": "Visit after an early Taj Mahal visit, then look back at the Taj from the riverside pavilions."
+            },
+            {
+              "body": "Wear comfortable shoes — the courtyards and ramps are extensive."
+            }
+          ],
+          "facts": []
+        }
+      }
+    },
+    {
+      "key": "uttar-pradesh/fatehpur-sikri",
+      "kind": "attraction",
+      "name": "Fatehpur Sikri",
+      "parent": "uttar-pradesh/agra",
+      "summary": "Akbar's red sandstone capital from 1571 to 1585, now a World Heritage Site and the classic day trip from Agra.",
+      "seoTitle": "Fatehpur Sikri Day Trip from Agra: Guide & Tickets",
+      "seoDescription": "Plan a day trip to Fatehpur Sikri, 37 km from Agra: Akbar's palaces, the Buland Darwaza, the tomb of Salim Chishti, entry fees and tips.",
+      "lat": 27.0911,
+      "lng": 77.6611,
+      "wikidataId": "Q179046",
+      "tripTypes": [
+        "heritage"
+      ],
+      "images": [
+        {
+          "commons": "File:Diwan-i-Khas, Fatehpur-Sikri.jpg",
+          "alt": "The red sandstone Diwan-i-Khas with rooftop kiosks in the palace courtyard of Fatehpur Sikri",
+          "caption": "Diwan-i-Khas, Fatehpur Sikri",
+          "hero": true
+        }
+      ],
+      "sections": {
+        "overview": {
+          "text": "Akbar founded Fatehpur Sikri as the capital of the Mughal Empire in 1571, and it served in that role until 1585. Built in red sandstone about 37 km from Agra, the city was abandoned not long after, which is why its palaces, courtyards and mosque survive so completely. It became a UNESCO World Heritage Site in 1986.\n\nThe visit falls into two parts. The palace complex begins at the Diwan-i-Am, the Hall of Public Audience, and includes the Diwan-i-Khas, whose single chamber is built around a carved central column. Next door, the Jama Masjid is entered through the towering Buland Darwaza, built to mark Akbar's campaign in Gujarat; in its courtyard stands the white marble tomb of the Sufi saint Salim Chishti. Allow two to three hours on site.",
+          "facts": [
+            "P1",
+            "P3",
+            "P2",
+            "P7",
+            "P4",
+            "P5"
+          ]
+        },
+        "visit_info": {
+          "items": [
+            {
+              "title": "Entry fee",
+              "body": "The official fee table lists ₹610 for foreign visitors (₹600 on Fridays or after visiting the Taj) and ₹50 for Indian visitors (₹40 on Fridays). Children under 15 free."
+            },
+            {
+              "title": "Getting there",
+              "body": "About 37 km from Agra by road — hire a prepaid taxi for the round trip."
+            },
+            {
+              "title": "Opening hours",
+              "body": "Check current timings with the Archaeological Survey of India before you go."
+            }
+          ],
+          "facts": [
+            "P6",
+            "P3",
+            "T10",
+            "A11"
+          ]
+        },
+        "travel_tips": {
+          "items": [
+            {
+              "body": "Go on a Friday, when the Taj Mahal is closed."
+            },
+            {
+              "body": "Dress modestly for the Jama Masjid and the saint's tomb, which are active places of worship."
+            }
+          ],
+          "facts": [
+            "T5"
+          ]
+        }
+      }
+    },
+    {
+      "key": "uttar-pradesh/itimad-ud-daulah",
+      "kind": "attraction",
+      "name": "Tomb of I'timad-ud-Daulah",
+      "parent": "uttar-pradesh/agra",
+      "summary": "The 'Baby Taj': a small marble tomb covered in inlay, built by Nur Jahan for her father between 1622 and 1628.",
+      "seoTitle": "Itimad-ud-Daulah (Baby Taj), Agra: Visitor Guide",
+      "seoDescription": "Visit the Tomb of I'timad-ud-Daulah, Agra's 'Baby Taj': history, the marble inlay that inspired the Taj Mahal, entry fees and when to go.",
+      "lat": 27.1925,
+      "lng": 78.0319,
+      "tripTypes": [
+        "heritage"
+      ],
+      "images": [
+        {
+          "commons": "File:Itimad-ud-Daulah’s Tomb.jpg",
+          "alt": "Front view of the marble Tomb of I'timad-ud-Daulah with its four corner towers",
+          "caption": "The 'Baby Taj'",
+          "hero": true
+        },
+        {
+          "commons": "File:Itimad-ud-Daulah Agra 04.jpg",
+          "alt": "Corner tower and inlaid marble walls of the Tomb of I'timad-ud-Daulah",
+          "caption": "Inlaid marble walls"
+        }
+      ],
+      "sections": {
+        "overview": {
+          "text": "Built between 1622 and 1628, this tomb was commissioned by the empress Nur Jahan for her father, Mirza Ghiyas Beg, who held the title I'timad-ud-Daulah. It is popularly called the 'Baby Taj', and the name fits: although small, it marks the turning point in Mughal architecture from red sandstone to the white marble and pietra dura inlay that reached its height at the Taj Mahal.\n\nThe tomb sits on the east bank of the Yamuna, in a quiet walled garden that sees far fewer visitors than the Taj. Look closely at the walls — almost every surface is inlaid with coloured stone patterns of flowers, vessels and geometric designs. An hour is enough, and it combines well with Mehtab Bagh later in the afternoon.",
+          "facts": [
+            "I1",
+            "I3",
+            "I2"
+          ]
+        },
+        "visit_info": {
+          "items": [
+            {
+              "title": "Opening hours",
+              "body": "Sunrise to sunset, every day (like Agra's other monuments apart from the Taj)."
+            },
+            {
+              "title": "Entry fee",
+              "body": "The official fee table lists ₹310 for foreign visitors (₹300 on Fridays or after visiting the Taj) and ₹30 for Indian visitors (₹25 on Fridays). Children under 15 free."
+            }
+          ],
+          "facts": [
+            "I5",
+            "I4",
+            "T10"
+          ]
+        },
+        "travel_tips": {
+          "items": [
+            {
+              "body": "Visit in the late afternoon, when the marble glows and the garden is calm."
+            },
+            {
+              "body": "Combine it with Mehtab Bagh on the same side of the river."
+            }
+          ],
+          "facts": []
+        }
+      }
+    },
+    {
+      "key": "uttar-pradesh/mehtab-bagh",
+      "kind": "attraction",
+      "name": "Mehtab Bagh",
+      "parent": "uttar-pradesh/agra",
+      "summary": "A Mughal garden across the Yamuna, aligned with the Taj Mahal — the place to see the Taj at sunset, and on Fridays.",
+      "seoTitle": "Mehtab Bagh: Taj Mahal Sunset View Point, Agra",
+      "seoDescription": "Visit Mehtab Bagh, the Mughal garden aligned with the Taj Mahal across the Yamuna: the best sunset and Friday view of the Taj, entry and seasonal tips.",
+      "lat": 27.1797,
+      "lng": 78.0419,
+      "wikidataId": "Q12061618",
+      "tripTypes": [
+        "heritage",
+        "romantic"
+      ],
+      "images": [
+        {
+          "commons": "File:View of Taj Mahal from Mehtab Bagh gardens.jpg",
+          "alt": "The Taj Mahal seen at the end of a long lawn and hedges in the Mehtab Bagh garden",
+          "caption": "The Taj Mahal from Mehtab Bagh",
+          "hero": true
+        }
+      ],
+      "sections": {
+        "overview": {
+          "text": "Mehtab Bagh is a square Mughal garden on the north bank of the Yamuna, directly opposite the Taj Mahal and aligned with it. Today it is the best place to see the Taj from across the river — and because it stays open on Fridays, it is also the only way to see the monument when the Taj itself is closed.\n\nThe garden is low-key: lawns, hedges and pathways leading to the riverbank, with the Taj filling the view across the water. Come in the late afternoon and stay for sunset. In the monsoon parts of the garden can flood, so check conditions after heavy rain.",
+          "facts": [
+            "M1",
+            "M2",
+            "M4"
+          ]
+        },
+        "visit_info": {
+          "items": [
+            {
+              "title": "Opening hours",
+              "body": "Sunrise to sunset; confirm evening hours locally, as the official pages differ."
+            },
+            {
+              "title": "Entry fee",
+              "body": "Official pages list ₹200–₹300 for foreign visitors and ₹25–₹50 for Indian visitors; confirm at the ticket window."
+            },
+            {
+              "title": "Fridays",
+              "body": "Open — a good way to see the Taj Mahal on the day it is closed."
+            }
+          ],
+          "facts": [
+            "I5",
+            "M3",
+            "M2"
+          ]
+        },
+        "travel_tips": {
+          "items": [
+            {
+              "body": "Arrive an hour before sunset for the best light on the Taj."
+            },
+            {
+              "body": "In the monsoon, check that the garden isn't waterlogged before heading over."
+            }
+          ],
+          "facts": [
+            "M4"
+          ]
+        }
+      }
+    }
+  ],
+  "itineraries": [
+    {
+      "place": "uttar-pradesh/agra",
+      "slug": "agra-2-days-taj-mahal-fatehpur-sikri",
+      "title": "Two days in Agra: the Taj, Agra Fort and Fatehpur Sikri",
+      "summary": "An unhurried two-day plan: the Taj Mahal at sunrise, Agra Fort and the Baby Taj, then a day trip to Fatehpur Sikri and sunset at Mehtab Bagh.",
+      "durationDays": 2,
+      "tripTypes": [
+        "heritage"
+      ],
+      "seoTitle": "2 Days in Agra Itinerary: Taj Mahal & Fatehpur Sikri",
+      "seoDescription": "A realistic two-day Agra itinerary: Taj Mahal at sunrise, Agra Fort, the Baby Taj, Fatehpur Sikri and Mehtab Bagh, with timings, entry fees and Friday tips.",
+      "plan": {
+        "overview": "Two full days cover Agra's three World Heritage Sites without rushing. The plan starts each day early to beat the heat and the crowds and keeps the hottest hours free for lunch and rest. It assumes you arrive the evening before; if one of your days is a Friday, make that Day 2 — the Taj Mahal is closed on Fridays, but Fatehpur Sikri and Mehtab Bagh are open.",
+        "days": [
+          {
+            "title": "The Taj Mahal and Agra Fort",
+            "summary": "Mughal Agra's two great monuments, with a quiet afternoon at the Baby Taj.",
+            "stops": [
+              {
+                "time": "Sunrise",
+                "name": "Taj Mahal",
+                "placeSlug": "taj-mahal",
+                "duration": "2.5–3 hours",
+                "note": "Gates open 30 minutes before sunrise. Allow time for security; enter the main mausoleum with the optional ₹200 ticket."
+              },
+              {
+                "time": "Mid-morning",
+                "name": "Breakfast and rest",
+                "duration": "1–1.5 hours"
+              },
+              {
+                "time": "Late morning",
+                "name": "Agra Fort",
+                "placeSlug": "agra-fort",
+                "duration": "About 2 hours",
+                "note": "Enter by the Amar Singh Gate; look for the Taj from the riverside pavilions."
+              },
+              {
+                "time": "Afternoon",
+                "name": "Lunch and a break from the heat",
+                "duration": "2 hours"
+              },
+              {
+                "time": "Late afternoon",
+                "name": "Tomb of I'timad-ud-Daulah",
+                "placeSlug": "itimad-ud-daulah",
+                "duration": "About 1 hour"
+              }
+            ],
+            "travel": "Short taxi or auto-rickshaw rides: the fort is about 2.5 km from the Taj, and the Baby Taj is across the river (estimate: 15–30 minutes per hop, depending on traffic).",
+            "meals": "Breakfast after the Taj; lunch near Agra Fort or back at your hotel; try petha or bedai with jalebi.",
+            "overnight": "Agra"
+          },
+          {
+            "title": "Fatehpur Sikri and Mehtab Bagh",
+            "summary": "Akbar's abandoned capital, then the Taj at sunset from across the Yamuna.",
+            "stops": [
+              {
+                "time": "Early morning",
+                "name": "Drive to Fatehpur Sikri",
+                "duration": "About 1–1.5 hours each way (estimate for 37 km)"
+              },
+              {
+                "time": "Morning",
+                "name": "Fatehpur Sikri",
+                "placeSlug": "fatehpur-sikri",
+                "duration": "2.5–3 hours",
+                "note": "Palace complex first, then the Jama Masjid through the Buland Darwaza and the tomb of Salim Chishti."
+              },
+              {
+                "time": "Afternoon",
+                "name": "Lunch and rest in Agra",
+                "duration": "2 hours"
+              },
+              {
+                "time": "Late afternoon",
+                "name": "Mehtab Bagh",
+                "placeSlug": "mehtab-bagh",
+                "duration": "1–1.5 hours",
+                "note": "Stay for sunset over the Taj Mahal."
+              }
+            ],
+            "travel": "A prepaid taxi for the Fatehpur Sikri round trip is the simplest option.",
+            "meals": "Carry water and snacks for the morning; lunch back in Agra.",
+            "overnight": "Agra, or travel on by evening train"
+          }
+        ],
+        "budget": {
+          "assumptions": "Entry fees per adult foreign visitor, from the official Agra monument fee table. Children under 15 enter free. Accommodation, transport and meals vary too widely to estimate here.",
+          "lines": [
+            {
+              "label": "Taj Mahal",
+              "amount": "₹1,100 + ₹200 (optional, main mausoleum)",
+              "basis": "Official fee for foreign tourists"
+            },
+            {
+              "label": "Agra Fort",
+              "amount": "₹650 (₹600 on Fridays)",
+              "basis": "Official fee for foreign tourists"
+            },
+            {
+              "label": "Tomb of I'timad-ud-Daulah",
+              "amount": "₹310",
+              "basis": "Official fee table, foreign tourists"
+            },
+            {
+              "label": "Fatehpur Sikri",
+              "amount": "₹610",
+              "basis": "Official fee table, foreign tourists"
+            },
+            {
+              "label": "Mehtab Bagh",
+              "amount": "Check at the gate",
+              "basis": "Official pages list different fees"
+            }
+          ]
+        },
+        "booking": [
+          {
+            "item": "Monument tickets",
+            "detail": "Buy online through the ASI (cheaper) or at the gates."
+          },
+          {
+            "item": "Night viewing (optional)",
+            "detail": "Only on five nights around the full moon; tickets are sold in advance by the ASI — check the current booking process."
+          },
+          {
+            "item": "Trains",
+            "detail": "Book Delhi–Agra trains on IRCTC; the Gatimaan Express doesn't run on Fridays."
+          }
+        ],
+        "alternatives": [
+          "Short on time? Do Day 1 only, and see Mehtab Bagh at sunset instead of the Baby Taj.",
+          "If your visit falls on a full-moon week, add a night viewing of the Taj on Day 1.",
+          "Prefer to skip the drive? Replace Fatehpur Sikri with a slower morning at Agra Fort and the Taj Museum."
+        ],
+        "tips": [
+          "Leave food, tripods and chargers at the hotel on Taj day.",
+          "Hire only approved guides who can show an ID card."
+        ]
+      },
+      "facts": [
+        "T5",
+        "T6",
+        "T7",
+        "F7",
+        "I4",
+        "P6",
+        "A6",
+        "T11",
+        "P3",
+        "F2",
+        "T13"
+      ],
+      "sources": []
+    }
+  ]
+}

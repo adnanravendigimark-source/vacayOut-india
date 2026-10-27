@@ -106,6 +106,20 @@ export function BudgetTable({ s }: { s: Section }) {
   );
 }
 
+/** Labelled details (visiting information, money, safety…). */
+export function PairsList({ s }: { s: Section }) {
+  return (
+    <dl className="divide-y divide-line rounded-2xl border border-line bg-white">
+      {(s.body.items ?? []).map((it, i) => (
+        <div key={i} className="grid gap-1 px-5 py-3.5 @xl:grid-cols-[11rem_1fr] @xl:gap-4">
+          <dt className="font-semibold text-ink">{it.title}</dt>
+          <dd className="text-[0.9375rem] leading-relaxed text-[#555]">{it.body}</dd>
+        </div>
+      ))}
+    </dl>
+  );
+}
+
 /** Renders any section by its shape (used for places shown inside their parent's page). */
 export function SectionBody({ s }: { s: Section }) {
   const def = sectionDef(s.key);
@@ -114,5 +128,6 @@ export function SectionBody({ s }: { s: Section }) {
   if (def.shape === "days") return <DaysTimeline s={s} />;
   if (def.shape === "budget") return <BudgetTable s={s} />;
   if (def.shape === "faq") return <FaqList s={s} />;
+  if (def.shape === "pairs") return <PairsList s={s} />;
   return <CheckList s={s} />;
 }

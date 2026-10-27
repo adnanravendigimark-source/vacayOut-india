@@ -26,6 +26,9 @@ export function SiteHeader() {
     setMenu(false);
   }
 
+  // The chat is a full-screen app with its own header (Home · title · New trip).
+  if (pathname.startsWith("/chat")) return null;
+
   const navLink = (href: string) =>
     `py-2 transition-colors hover:text-coral ${pathname === href ? "text-coral font-semibold" : ""}`;
 
@@ -55,10 +58,9 @@ export function SiteHeader() {
                 <Icon name="search" size={19} />
               </Link>
               <Link
-                href={routes.chat}
-                onClick={(e) => openPlanner(e)}
-                aria-label="Your account and saved trips"
-                title="Your trips"
+                href="/account"
+                aria-label="Your account — sign in or sign up"
+                title="Your account"
                 className="hidden size-10 items-center justify-center rounded-full text-ink transition-colors hover:bg-black/5 hover:text-coral sm:flex lg:hidden xl:flex"
               >
                 <Icon name="user" size={18} strokeWidth={1.8} />
@@ -100,7 +102,7 @@ export function SiteHeader() {
               <div className="mt-2 border-t border-line pt-2">
                 <Link href="/travel-guides" onClick={() => setMenu(false)} className="block rounded-xl px-3 py-2.5 font-semibold text-ink hover:bg-canvas">Travel guides</Link>
                 <Link href="/itineraries" onClick={() => setMenu(false)} className="block rounded-xl px-3 py-2.5 font-semibold text-ink hover:bg-canvas">Itineraries</Link>
-                <Link href={routes.chat} onClick={(e) => { openPlanner(e); setMenu(false); }} className="block rounded-xl px-3 py-2.5 font-semibold text-ink hover:bg-canvas">Your trips</Link>
+                <Link href="/account" onClick={() => setMenu(false)} className="block rounded-xl px-3 py-2.5 font-semibold text-ink hover:bg-canvas">Your account</Link>
               </div>
             </nav>
           ) : null}

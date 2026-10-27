@@ -54,7 +54,7 @@ export async function POST(req: Request) {
   const visitor = await resolveVisitor(req, await auth());
   const cookieHeader: Record<string, string> = visitor.newCookie ? { "set-cookie": anonCookie(visitor.newCookie) } : {};
 
-  const admission = await admitMessage(visitor);
+  const admission = await admitMessage(visitor, parsed.data.chatId);
   if (!admission.ok) {
     return json(
       admission.status,

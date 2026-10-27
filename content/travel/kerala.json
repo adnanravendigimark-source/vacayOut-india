@@ -1,0 +1,1543 @@
+{
+  "cluster": "kerala",
+  "title": "Kerala (Kochi, Munnar, Alappuzha)",
+  "researchedAt": "2026-10-27",
+  "selection": "Kerala recorded 0.738 million foreign tourist visits in 2024 (India Tourism Data Compendium 2025, Table 4.1.2), up 13.8% on 2023, and is India's best-known backwater and hill-station destination. Kochi is the main international gateway; Munnar and Alappuzha are the most-visited hill and backwater bases.",
+  "sources": {
+    "II_KER": {
+      "url": "https://www.incredibleindia.gov.in/en/kerala",
+      "title": "Kerala — Incredible India (Ministry of Tourism)",
+      "authority": "government"
+    },
+    "II_KOCHI": {
+      "url": "https://www.incredibleindia.gov.in/en/kerala/kochi",
+      "title": "Kochi — Incredible India (Ministry of Tourism)",
+      "authority": "government"
+    },
+    "II_MUN": {
+      "url": "https://www.incredibleindia.gov.in/en/kerala/munnar",
+      "title": "Munnar — Incredible India (Ministry of Tourism)",
+      "authority": "government"
+    },
+    "II_EV": {
+      "url": "https://www.incredibleindia.gov.in/en/kerala/munnar/eravikulam-national-park",
+      "title": "Eravikulam National Park — Incredible India (Ministry of Tourism)",
+      "authority": "government"
+    },
+    "II_ALP": {
+      "url": "https://www.incredibleindia.gov.in/en/kerala/alappuzha",
+      "title": "Alappuzha — Incredible India (Ministry of Tourism)",
+      "authority": "government"
+    },
+    "II_BW": {
+      "url": "https://www.incredibleindia.gov.in/en/kerala/alappuzha/backwaters-of-alappuzha",
+      "title": "Backwaters of Alappuzha — Incredible India (Ministry of Tourism)",
+      "authority": "government"
+    },
+    "KT_KOCHI": {
+      "url": "https://www.keralatourism.org/kochi",
+      "title": "Kochi — Kerala Tourism (Government of Kerala)",
+      "authority": "government"
+    },
+    "KT_MUN": {
+      "url": "https://www.keralatourism.org/munnar",
+      "title": "Munnar — Kerala Tourism (Government of Kerala)",
+      "authority": "government"
+    },
+    "PIB": {
+      "url": "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2025/sep/doc2025927648801.pdf",
+      "title": "India Tourism Data Compendium 2025 — Ministry of Tourism",
+      "authority": "government"
+    },
+    "EVISA": {
+      "url": "https://indianvisaonline.gov.in/evisa/tvoa.html",
+      "title": "Indian e-Visa — official information (Government of India)",
+      "authority": "government"
+    },
+    "UPI": {
+      "url": "https://www.aap.com.au/aapreleases/cision20240723ae67416/",
+      "title": "NPCI: 'UPI One World' wallet available to inbound international travellers (press release, 24 July 2024)",
+      "authority": "media"
+    },
+    "W_112": {
+      "url": "https://en.wikipedia.org/wiki/112_(emergency_telephone_number)",
+      "title": "112 (emergency telephone number) — Wikipedia",
+      "authority": "reference"
+    },
+    "W_WM": {
+      "url": "https://en.wikipedia.org/wiki/Kochi_Water_Metro",
+      "title": "Kochi Water Metro — Wikipedia",
+      "authority": "reference"
+    },
+    "W_CIAL": {
+      "url": "https://en.wikipedia.org/wiki/Cochin_International_Airport",
+      "title": "Cochin International Airport — Wikipedia",
+      "authority": "reference"
+    },
+    "W_STF": {
+      "url": "https://en.wikipedia.org/wiki/St._Francis_Church,_Kochi",
+      "title": "St. Francis Church, Kochi — Wikipedia",
+      "authority": "reference"
+    },
+    "W_MP": {
+      "url": "https://en.wikipedia.org/wiki/Mattancherry_Palace",
+      "title": "Mattancherry Palace — Wikipedia",
+      "authority": "reference"
+    },
+    "W_PS": {
+      "url": "https://en.wikipedia.org/wiki/Paradesi_Synagogue",
+      "title": "Paradesi Synagogue — Wikipedia",
+      "authority": "reference"
+    },
+    "W_EV": {
+      "url": "https://en.wikipedia.org/wiki/Eravikulam_National_Park",
+      "title": "Eravikulam National Park — Wikipedia",
+      "authority": "reference"
+    },
+    "W_ALP": {
+      "url": "https://en.wikipedia.org/wiki/Alappuzha",
+      "title": "Alappuzha — Wikipedia",
+      "authority": "reference"
+    }
+  },
+  "facts": {
+    "K1": {
+      "place": "kerala",
+      "topic": "Tourist visits 2024",
+      "claim": "Kerala recorded 22.25 million domestic and 0.738 million foreign tourist visits in 2024.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "PIB",
+          "quote": "Kerala 21.872 0.649 22.247 0.738 1.72 13.76"
+        }
+      ]
+    },
+    "K2": {
+      "place": "kerala",
+      "topic": "Backwaters",
+      "claim": "Kerala's backwaters run along nearly half the length of the state.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_KER",
+          "quote": "Kerala's enchanting backwaters intricately weave through nearly half of the state's length"
+        }
+      ]
+    },
+    "K3": {
+      "place": "kerala",
+      "topic": "Kerala cuisine and the sadya",
+      "claim": "Kerala food uses plenty of spices, coconut oil and coconut milk; the sadya is a festive banquet served on a banana leaf.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_KER",
+          "quote": "The cuisine is renowned for its aromatic medley of spices, with the generous use of coconut oil and milk"
+        },
+        {
+          "source": "II_KER",
+          "quote": "A quintessential highlight is the Kerala Sadya, a lavish banquet meal prepared during festivals and special occasions"
+        }
+      ]
+    },
+    "K4": {
+      "place": "kerala",
+      "topic": "Kathakali and Kalaripayattu",
+      "claim": "Kathakali, the classical dance-drama, originated in Kerala over three centuries ago; Kalaripayattu is Kerala's martial art.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_KER",
+          "quote": "The classical art form of Kathakali, celebrated globally for its grandeur, was born on Kerala's shores over three centuries ago"
+        },
+        {
+          "source": "II_KER",
+          "quote": "The ancient Indian martial art of Kalaripayattu is deeply rooted in the region's cultural legacy."
+        }
+      ]
+    },
+    "K5": {
+      "place": "kerala",
+      "topic": "Onam",
+      "claim": "Onam, Kerala's 10-day harvest festival, falls in August–September.",
+      "claimType": "schedule",
+      "evidence": [
+        {
+          "source": "II_KER",
+          "quote": "Onam, a vibrant 10-day harvest festival, unfolds during August-September"
+        }
+      ],
+      "kind": "seasonal"
+    },
+    "K6": {
+      "place": "kerala",
+      "topic": "Emergency number 112",
+      "claim": "112 is India's single emergency number for police, fire and ambulance.",
+      "claimType": "contact",
+      "evidence": [
+        {
+          "source": "W_112",
+          "quote": "112 is now the pan-country single emergency number for all emergencies."
+        }
+      ]
+    },
+    "K7": {
+      "place": "kerala",
+      "topic": "e-Visa timing and passport validity",
+      "claim": "e-Tourist visa applications should be made at least 4 days before arrival, with a passport valid for at least six months.",
+      "claimType": "rule",
+      "evidence": [
+        {
+          "source": "EVISA",
+          "quote": "For e-Tourist and e-Business visa, Applicants of the eligible countries/territories may apply online minimum 4 days in advance of the date of arrival."
+        },
+        {
+          "source": "EVISA",
+          "quote": "Applicant's passport should have at least six months validity at the time of making application for grant of e-Visa."
+        }
+      ]
+    },
+    "K8": {
+      "place": "kerala",
+      "topic": "UPI One World for visitors",
+      "claim": "International visitors can pay by QR code using NPCI's UPI One World wallet after a passport-and-visa KYC check.",
+      "claimType": "rule",
+      "evidence": [
+        {
+          "source": "UPI",
+          "quote": "The UPI One World wallet can be availed through authorized PPI issuers at airports, hotels, designated money exchange locations and other touchpoints, following a full KYC process based on a passport and valid visa."
+        }
+      ]
+    },
+    "KC1": {
+      "place": "kerala/kochi",
+      "topic": "Queen of the Arabian Sea",
+      "claim": "Kochi, the 'Queen of the Arabian Sea', has received ships from Asia and Europe since the 14th century.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "KT_KOCHI",
+          "quote": "Since the 14th century, Kochi, known as the Queen of the Arabian Sea, has had ships from Asian and European countries visiting her port."
+        }
+      ]
+    },
+    "KC2": {
+      "place": "kerala/kochi",
+      "topic": "Parts of the city",
+      "claim": "Kochi covers Fort Kochi and Mattancherry on the peninsula, the mainland city of Ernakulam, and islands in Vembanad Lake.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "KT_KOCHI",
+          "quote": "Kochi is usually referred to the area that includes Fort Kochi, Mattanchery, the mainland Ernakulam"
+        }
+      ]
+    },
+    "KC3": {
+      "place": "kerala/kochi",
+      "topic": "Portuguese, Dutch and British",
+      "claim": "Fort Kochi was held in turn by the Portuguese from 1500, the Dutch from 1663 and the British in the 18th century.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "KT_KOCHI",
+          "quote": "the Portuguese in 1500, the Dutch in 1663 and the British in the 18th century"
+        }
+      ]
+    },
+    "KC4": {
+      "place": "kerala/kochi",
+      "topic": "Kochi food",
+      "claim": "Try puttu with kadala curry for breakfast, appam-style idiyappam, and fish molee in coconut gravy.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_KOCHI",
+          "quote": "For a comforting breakfast, savour Puttu Kadala"
+        },
+        {
+          "source": "II_KOCHI",
+          "quote": "Fish Molly (succulent fish cooked in coconut gravy)"
+        }
+      ]
+    },
+    "KC5": {
+      "place": "kerala/kochi",
+      "topic": "Best time: October to March",
+      "claim": "October to March has the most pleasant weather for exploring Kochi.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_KOCHI",
+          "quote": "the winter months, between October and March, offer the most pleasant weather for exploring the city"
+        }
+      ],
+      "kind": "seasonal"
+    },
+    "KC6": {
+      "place": "kerala/kochi",
+      "topic": "Gateway to Kerala",
+      "claim": "Kochi is the usual starting point for Munnar, Alappuzha and Thekkady.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_KOCHI",
+          "quote": "From Kochi, you can easily access popular destinations such as Munnar, Alleppey, and Thekkady."
+        }
+      ]
+    },
+    "KC7": {
+      "place": "kerala/kochi",
+      "topic": "Kochi Water Metro",
+      "claim": "Kochi has India's first water metro.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "W_WM",
+          "quote": "It is the first water metro system in India"
+        }
+      ]
+    },
+    "KC8": {
+      "place": "kerala/kochi",
+      "topic": "Solar-powered airport",
+      "claim": "Cochin International Airport became the world's first fully solar-powered airport in 2015.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "W_CIAL",
+          "quote": "In 2015, the airport became the world's first fully solar powered airport"
+        }
+      ]
+    },
+    "KC9": {
+      "place": "kerala/kochi",
+      "topic": "Kathakali in Fort Kochi",
+      "claim": "Kathakali performances can be seen at the Kerala Kathakali Center in Fort Kochi.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_KOCHI",
+          "quote": "catch a mesmerising Kathakali performance at the Kerala Kathakali Center in Fort Kochi"
+        }
+      ]
+    },
+    "KC10": {
+      "place": "kerala/kochi",
+      "topic": "Biennale and Cochin Carnival",
+      "claim": "Kochi hosts the Kochi-Muziris Biennale of contemporary art, and Fort Kochi holds the ten-day Cochin Carnival every December.",
+      "claimType": "schedule",
+      "evidence": [
+        {
+          "source": "II_KOCHI",
+          "quote": "The Kochi-Muziris Biennale, a prestigious international art exhibition held in Kochi"
+        },
+        {
+          "source": "II_KOCHI",
+          "quote": "Don't miss the vibrant Cochin Carnival, a ten-day extravaganza held in Fort Kochi every December"
+        }
+      ],
+      "kind": "seasonal"
+    },
+    "FK1": {
+      "place": "kerala/fort-kochi",
+      "topic": "Chinese fishing nets",
+      "claim": "Fort Kochi's Chinese fishing nets are huge cantilevered nets on the shore, believed to have been introduced by Chinese traders.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_KOCHI",
+          "quote": "Snap a photo with the iconic Chinese fishing nets, massive cantilevered structures that jut dramatically into the water."
+        },
+        {
+          "source": "II_KOCHI",
+          "quote": "believed to have been introduced by Chinese traders centuries ago"
+        }
+      ]
+    },
+    "FK2": {
+      "place": "kerala/fort-kochi",
+      "topic": "St Francis Church",
+      "claim": "St Francis Church, first built in 1503, is one of the oldest European churches in India; Vasco da Gama died in Kochi in 1524. He was first buried in the church before his remains were moved to Lisbon.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "W_STF",
+          "quote": "originally built in 1503, is one of the oldest European churches in India"
+        },
+        {
+          "source": "W_STF",
+          "quote": "The Portuguese explorer Vasco da Gama died in Kochi in 1524 when he was on his third visit to India."
+        },
+        {
+          "source": "W_STF",
+          "quote": "His body was originally buried in this church, but after fourteen years his remains were moved to Lisbon ."
+        }
+      ]
+    },
+    "FK3": {
+      "place": "kerala/fort-kochi",
+      "topic": "Santa Cruz Basilica",
+      "claim": "The Santa Cruz Basilica is known for its stained glass and murals.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_KOCHI",
+          "quote": "Be captivated by the stained-glass masterpiece depicting the Last Supper and the mesmerising murals adorning the interior."
+        }
+      ]
+    },
+    "FK4": {
+      "place": "kerala/fort-kochi",
+      "topic": "Colonial streets and galleries",
+      "claim": "Fort Kochi is full of colonial buildings, narrow streets and art galleries.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_KOCHI",
+          "quote": "Fort Kochi, in particular, is dotted with charming colonial structures, narrow streets, and vibrant art galleries"
+        }
+      ]
+    },
+    "MP1": {
+      "place": "kerala/mattancherry",
+      "topic": "Mattancherry (Dutch) Palace",
+      "claim": "Mattancherry Palace, known as the Dutch Palace, has Kerala murals of Hindu religious scenes and portraits of the Rajas of Kochi.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "W_MP",
+          "quote": "The Mattancherry Palace is a palace popularly known as the Dutch Palace"
+        },
+        {
+          "source": "W_MP",
+          "quote": "which features Kerala murals depicting portraits and exhibits of the Rajas of Kochi"
+        }
+      ]
+    },
+    "MP2": {
+      "place": "kerala/mattancherry",
+      "topic": "Paradesi Synagogue (1568)",
+      "claim": "The Paradesi Synagogue was built in 1568 for Kochi's Paradesi Jewish community, beside Mattancherry Palace.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "W_PS",
+          "quote": "It was built in 1568 A.D. by Samuel Castiel, David Belila, and Joseph Levi for the flourishing Paradesi Jewish community in Kochi."
+        }
+      ]
+    },
+    "MP3": {
+      "place": "kerala/mattancherry",
+      "topic": "Synagogue closing days",
+      "claim": "The synagogue is closed on Fridays, Saturdays and Sundays and on Jewish holidays.",
+      "claimType": "opening_hours",
+      "evidence": [
+        {
+          "source": "W_PS",
+          "quote": "The synagogue is closed on Fridays, Saturdays and Sundays and also on Jewish holidays."
+        }
+      ]
+    },
+    "MP4": {
+      "place": "kerala/mattancherry",
+      "topic": "Jew Town",
+      "claim": "Jew Town, around the synagogue, is known for antique shops.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_KOCHI",
+          "quote": "Explore Jew Town, a centre of Jewish heritage in India. Visit the famed synagogue and browse the shops for unique antiques"
+        }
+      ]
+    },
+    "MP5": {
+      "place": "kerala/mattancherry",
+      "topic": "Spice-trade centre",
+      "claim": "Mattancherry was once a bustling centre of trade, particularly in spices, and home to many communities.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "KT_KOCHI",
+          "quote": "Mattancherry, the western part of the corporation of Cochin, was once a bustling centre of trade, particularly in spices."
+        }
+      ]
+    },
+    "MN1": {
+      "place": "kerala/munnar",
+      "topic": "Three rivers, 1600 m",
+      "claim": "Munnar ('three rivers') lies at the meeting of three mountain streams, about 1,600 m above sea level, and was a summer resort in the colonial era.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "KT_MUN",
+          "quote": "Munnar is situated at the confluence of three mountain streams – Muthirapuzha, Nallathanni and Kundala – and the word ‘Munnar’ means three rivers in Malayalam."
+        },
+        {
+          "source": "KT_MUN",
+          "quote": "Situated about 1600m above sea level, the hill station had been the summer resort of the British Government during the colonial era."
+        }
+      ]
+    },
+    "MN2": {
+      "place": "kerala/munnar",
+      "topic": "Neelakurinji",
+      "claim": "Neelakurinji, a rare shrub around Munnar, flowers only once every twelve years.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "KT_MUN",
+          "quote": "Munnar is also known for Neelakurinji, a rare plant which flowers only once in twelve years."
+        }
+      ],
+      "kind": "seasonal"
+    },
+    "MN3": {
+      "place": "kerala/munnar",
+      "topic": "Anamudi",
+      "claim": "Anamudi (2,695 m), the highest peak in South India, is near Munnar.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "KT_MUN",
+          "quote": "Anamudi, the highest peak in South India, with a height of 2,695 m is the pride of Munnar."
+        }
+      ]
+    },
+    "MN4": {
+      "place": "kerala/munnar",
+      "topic": "Getting to Munnar",
+      "claim": "The nearest airport is Cochin International, about 119 km away; the nearest railhead is Ernakulam Junction, about 120 km.",
+      "claimType": "distance",
+      "evidence": [
+        {
+          "source": "KT_MUN",
+          "quote": "The nearest airport to Munnar is the Cochin International Airport at a distance of around 119 km."
+        },
+        {
+          "source": "KT_MUN",
+          "quote": "The nearest railhead is Ernakulam Junction, about 120 km away."
+        }
+      ]
+    },
+    "MN5": {
+      "place": "kerala/munnar",
+      "topic": "Climate",
+      "claim": "The monsoon (June–September) brings heavy rain; December to February is cool and pleasant.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_MUN",
+          "quote": "The monsoon season, from June to September, brings heavy rainfall, while the winter months, from December to February, are characterized by cool and pleasant weather."
+        }
+      ],
+      "kind": "seasonal"
+    },
+    "MN6": {
+      "place": "kerala/munnar",
+      "topic": "Tata Tea Museum",
+      "claim": "The Tata Tea Museum at Nallathanni Estate tells Munnar's plantation history and has a tea-tasting unit.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "KT_MUN",
+          "quote": "The Tata Tea Museum in the Nallathanni Estate tells the eventful story of Munnar"
+        },
+        {
+          "source": "KT_MUN",
+          "quote": "the real treat here would be the tea tasting unit"
+        }
+      ]
+    },
+    "MN7": {
+      "place": "kerala/munnar",
+      "topic": "Lakes",
+      "claim": "Kundala, Mattupetty and Devikulam lakes are popular for boating and picnics.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_MUN",
+          "quote": "The tranquil lakes of Munnar, such as Kundala Lake, Mattupetty Lake, and Devikulam Lake, are ideal for boating, picnicking, and enjoying the serenity of nature."
+        }
+      ]
+    },
+    "MN8": {
+      "place": "kerala/munnar",
+      "topic": "Tea estates since the 19th century",
+      "claim": "Munnar's tea estates date back to the late 19th century.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_MUN",
+          "quote": "Munnar's tea estates, dating back to the late 19th century"
+        }
+      ]
+    },
+    "EV1": {
+      "place": "kerala/eravikulam-national-park",
+      "topic": "Kerala's first national park",
+      "claim": "Eravikulam, established in 1978, was Kerala's first national park.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_EV",
+          "quote": "established in 1978 as the first national park in Kerala"
+        }
+      ]
+    },
+    "EV2": {
+      "place": "kerala/eravikulam-national-park",
+      "topic": "Nilgiri tahr",
+      "claim": "The park protects the largest population of the endangered Nilgiri tahr, a mountain goat.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "W_EV",
+          "quote": "including the largest regional population of Nilgiri tahr"
+        },
+        {
+          "source": "II_EV",
+          "quote": "the elusive Lion-tailed Macaques, and the graceful Nilgiri Langurs"
+        }
+      ]
+    },
+    "EV3": {
+      "place": "kerala/eravikulam-national-park",
+      "topic": "Rajamala tourism zone",
+      "claim": "Visitors may enter only the tourism zone at Rajamala, reached by the road from Munnar.",
+      "claimType": "rule",
+      "evidence": [
+        {
+          "source": "II_EV",
+          "quote": "Visitors are only allowed to access the tourism area located in Rajamala"
+        }
+      ]
+    },
+    "EV4": {
+      "place": "kerala/eravikulam-national-park",
+      "topic": "No private vehicles",
+      "claim": "Private vehicles are not allowed inside the park.",
+      "claimType": "rule",
+      "evidence": [
+        {
+          "source": "II_EV",
+          "quote": "Eravikulam National Park prohibits private vehicles inside"
+        }
+      ]
+    },
+    "EV5": {
+      "place": "kerala/eravikulam-national-park",
+      "topic": "Opening hours",
+      "claim": "The Ministry of Tourism lists opening hours of 7 am to 6 pm.",
+      "claimType": "opening_hours",
+      "evidence": [
+        {
+          "source": "II_EV",
+          "quote": "Opening time - 07:00 AM Closing time - 06:00 PM"
+        }
+      ]
+    },
+    "EV6": {
+      "place": "kerala/eravikulam-national-park",
+      "topic": "Neelakurinji and Anamudi",
+      "claim": "The park is known for the twelve-yearly Neelakurinji bloom and views of Anamudi peak.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_EV",
+          "quote": "Every 12 years, visitors are treated to the breathtaking spectacle of purplish-blue Neelakurinji flowers adorning its landscapes."
+        },
+        {
+          "source": "II_EV",
+          "quote": "you'll also see the majestic Anamudi peak"
+        }
+      ]
+    },
+    "AL1": {
+      "place": "kerala/alappuzha",
+      "topic": "62 km from Kochi",
+      "claim": "Alappuzha is about 62 km south of Kochi.",
+      "claimType": "distance",
+      "evidence": [
+        {
+          "source": "W_ALP",
+          "quote": "located about 62 km (39 mi) south of the commercial city of Kochi"
+        }
+      ]
+    },
+    "AL2": {
+      "place": "kerala/alappuzha",
+      "topic": "Venice of the East",
+      "claim": "Lord Curzon called Alleppey the 'Venice of the East'.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_ALP",
+          "quote": "Alleppey, the Venice of the East"
+        }
+      ]
+    },
+    "AL3": {
+      "place": "kerala/alappuzha",
+      "topic": "Five lakes and 38 rivers",
+      "claim": "The Alappuzha backwaters link five lakes and 38 rivers.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_BW",
+          "quote": "As you navigate through the five interconnected lakes and 38 rivers"
+        }
+      ]
+    },
+    "AL4": {
+      "place": "kerala/alappuzha",
+      "topic": "Houseboats",
+      "claim": "Kerala houseboats were once used to carry rice and spices; today they are floating accommodation with bedrooms and bathrooms.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_BW",
+          "quote": "Once used to transport rice and spices through the backwaters, these traditional boats have been transformed into accommodations on the water."
+        }
+      ]
+    },
+    "AL5": {
+      "place": "kerala/alappuzha",
+      "topic": "Nehru Trophy Boat Race",
+      "claim": "The Nehru Trophy snake-boat race on Punnamada Lake is held on the second Saturday of August each year.",
+      "claimType": "schedule",
+      "evidence": [
+        {
+          "source": "II_ALP",
+          "quote": "The event is held on the second Saturday of August every year."
+        }
+      ],
+      "kind": "seasonal"
+    },
+    "AL6": {
+      "place": "kerala/alappuzha",
+      "topic": "Karimeen pollichathu",
+      "claim": "Alappuzha's speciality is karimeen pollichathu, pearl-spot fish cooked in banana leaf.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_ALP",
+          "quote": "Don’t miss the traditional karimeen pollichathu—pearl spot fish wrapped in banana leaves"
+        }
+      ]
+    },
+    "AL7": {
+      "place": "kerala/alappuzha",
+      "topic": "Best time: October to February",
+      "claim": "The ideal time to visit Alappuzha is October to February.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_ALP",
+          "quote": "The ideal time to plan a visit to Alappuzha is during the winter season - between October and February."
+        }
+      ],
+      "kind": "seasonal"
+    },
+    "AL8": {
+      "place": "kerala/alappuzha",
+      "topic": "Beach, pier and lighthouse",
+      "claim": "Alappuzha Beach has a pier over 137 years old and a lighthouse with views.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_ALP",
+          "quote": "Stroll along the historic pier, stretching into the sea for over 137 years, or climb the Alappuzha Lighthouse for breathtaking panoramic views."
+        }
+      ]
+    },
+    "AL9": {
+      "place": "kerala/alappuzha",
+      "topic": "Ambalappuzha temple",
+      "claim": "The Ambalappuzha Sri Krishna Temple is known for its palpayasam, a sweet milk porridge.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_ALP",
+          "quote": "renowned for its ‘Palpayasam’ – a sweet milk porridge offered to the deity"
+        }
+      ]
+    },
+    "AL10": {
+      "place": "kerala/alappuzha",
+      "topic": "Ayurveda",
+      "claim": "Alappuzha has many Ayurvedic centres offering treatments such as abhyanga and shirodhara.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_ALP",
+          "quote": "Alappuzha is a haven for Ayurveda"
+        }
+      ]
+    }
+  },
+  "places": [
+    {
+      "key": "kerala",
+      "kind": "state",
+      "name": "Kerala",
+      "summary": "Backwaters and houseboats, tea hills at Munnar, Kochi's spice-trade history and some of India's best food.",
+      "seoTitle": "Kerala Travel Guide: Kochi, Munnar, Alappuzha & Backwaters",
+      "seoDescription": "Plan a Kerala trip: Kochi's Fort and Mattancherry, Munnar's tea hills and Eravikulam, Alappuzha's backwaters and houseboats, food, festivals and the best season.",
+      "lat": 10.0,
+      "lng": 76.3,
+      "wikidataId": "Q1186",
+      "tripTypes": [
+        "nature",
+        "food",
+        "romantic"
+      ],
+      "images": [
+        {
+          "commons": "File:Kerala backwaters, Canal, Palm trees, India.jpg",
+          "alt": "A quiet backwater canal in Kerala lined with coconut palms and a moored canoe",
+          "caption": "Kerala backwaters",
+          "hero": true
+        }
+      ],
+      "sections": {
+        "overview": {
+          "text": "Kerala, on India's south-west coast, is known for its backwaters — a web of lakes, canals and rivers that runs along nearly half the length of the state — and for the green hills of the Western Ghats behind them. It recorded 22.25 million domestic and 0.738 million foreign tourist visits in 2024.\n\nThe classic first trip links three places. Kochi, the old spice port, is the gateway, with its Chinese fishing nets, colonial churches and the synagogue and palace of Mattancherry. Munnar, about 1,600 m up in the Ghats, is tea country, with Eravikulam National Park and its Nilgiri tahr next door. Alappuzha is the base for a night on a houseboat in the backwaters.\n\nKerala's culture is as much a draw as its landscapes: Kathakali dance-drama, the martial art Kalaripayattu, the sadya feast on a banana leaf, and Onam, the harvest festival, in August–September.",
+          "facts": [
+            "K2",
+            "K1",
+            "KC1",
+            "FK1",
+            "MP2",
+            "MN1",
+            "EV2",
+            "AL4",
+            "K4",
+            "K3",
+            "K5"
+          ]
+        },
+        "travel_tips": {
+          "items": [
+            {
+              "body": "Allow at least five days to combine Kochi, Munnar and the backwaters without rushing."
+            },
+            {
+              "body": "Book houseboats and Munnar hotels early for the October–February peak and Onam."
+            },
+            {
+              "body": "Expect heavy rain in the monsoon — beautiful, but roads to the hills can be slow."
+            }
+          ],
+          "facts": [
+            "MN5",
+            "AL7",
+            "K5"
+          ]
+        },
+        "practical_info": {
+          "items": [
+            {
+              "title": "Visas",
+              "body": "Apply for an e-Tourist visa at least 4 days before arrival; your passport needs at least six months' validity."
+            },
+            {
+              "title": "Payments",
+              "body": "Visitors can pay by QR code with NPCI's UPI One World wallet after a passport-and-visa KYC check."
+            },
+            {
+              "title": "Emergency",
+              "body": "Dial 112 for police, fire or ambulance."
+            }
+          ],
+          "facts": [
+            "K7",
+            "K8",
+            "K6"
+          ]
+        }
+      }
+    },
+    {
+      "key": "kerala/kochi",
+      "kind": "city",
+      "name": "Kochi",
+      "summary": "Kerala's historic spice port and gateway: Chinese fishing nets, colonial Fort Kochi, Mattancherry's palace and synagogue, Kathakali and seafood.",
+      "seoTitle": "Kochi Travel Guide: Fort Kochi, Mattancherry & Backwaters",
+      "seoDescription": "Plan your Kochi trip: Fort Kochi's fishing nets and churches, Mattancherry Palace and the synagogue, Kathakali, food, the water metro and getting to Munnar.",
+      "lat": 9.9667,
+      "lng": 76.2833,
+      "wikidataId": "Q1800",
+      "tripTypes": [
+        "heritage",
+        "food"
+      ],
+      "images": [
+        {
+          "commons": "File:Chinese Fishing Nets - 3.jpg",
+          "alt": "Chinese fishing nets on wooden frames along the shore at Fort Kochi",
+          "caption": "Chinese fishing nets, Fort Kochi",
+          "hero": true
+        }
+      ],
+      "sections": {
+        "overview": {
+          "text": "Kochi has been a port since at least the 14th century, when ships from across Asia and Europe came for its spices; it is still called the 'Queen of the Arabian Sea'. The Portuguese arrived in 1500, the Dutch in 1663 and the British in the 18th century, and each left its mark.\n\nThe city is spread out. Fort Kochi and Mattancherry, on the peninsula, hold the history: Chinese fishing nets on the shore, St Francis Church, colonial streets full of galleries, and the palace and synagogue of Mattancherry. Ernakulam, across the water, is the modern city with the stations and hotels. India's first water metro links the mainland with the islands.\n\nKochi is the usual gateway to Munnar and the backwaters, and October to March is the most pleasant time to visit.",
+          "facts": [
+            "KC1",
+            "KC3",
+            "KC2",
+            "FK1",
+            "FK2",
+            "FK4",
+            "MP1",
+            "MP2",
+            "KC7",
+            "KC6",
+            "KC5"
+          ]
+        },
+        "highlights": {
+          "items": [
+            {
+              "body": "The Chinese fishing nets at sunset in Fort Kochi."
+            },
+            {
+              "body": "St Francis Church, one of India's oldest European churches."
+            },
+            {
+              "body": "Mattancherry Palace's murals and the Paradesi Synagogue."
+            },
+            {
+              "body": "A Kathakali performance at the Kerala Kathakali Center."
+            },
+            {
+              "body": "The Kochi-Muziris Biennale of contemporary art, when it's on."
+            }
+          ],
+          "facts": [
+            "FK1",
+            "FK2",
+            "MP1",
+            "MP2",
+            "KC9",
+            "KC10"
+          ]
+        },
+        "best_time": {
+          "text": "October to March has the most pleasant weather for exploring Kochi. December is busy: the ten-day Cochin Carnival takes over Fort Kochi, and the Kochi-Muziris Biennale of contemporary art runs over the winter in Biennale years.",
+          "facts": [
+            "KC5",
+            "KC10"
+          ]
+        },
+        "how_to_reach": {
+          "text": "Cochin International Airport — the world's first fully solar-powered airport — serves Kochi with domestic and international flights. Ernakulam Junction is the main railway station; book on IRCTC. From Kochi, Munnar and Alappuzha are both easy road trips.",
+          "facts": [
+            "KC8",
+            "MN4",
+            "KC6"
+          ]
+        },
+        "local_transport": {
+          "text": "Fort Kochi and Mattancherry are best explored on foot or by bicycle. To cross between Ernakulam and the islands, use the ferries or the Kochi Water Metro, India's first. Taxis and auto-rickshaws cover the rest.",
+          "facts": [
+            "KC7"
+          ]
+        },
+        "where_to_stay": {
+          "text": "Fort Kochi, with its heritage homestays and small hotels, puts you among the sights and the cafes. Ernakulam on the mainland is more convenient for the station and has more large hotels, but you'll need a ferry or taxi to reach the old town.",
+          "facts": [
+            "KC2"
+          ]
+        },
+        "food": {
+          "items": [
+            {
+              "body": "Puttu with kadala (black chickpea) curry for breakfast."
+            },
+            {
+              "body": "Fish molee — fish in a mild coconut gravy."
+            },
+            {
+              "body": "A sadya, the vegetarian feast served on a banana leaf."
+            },
+            {
+              "body": "Fresh seafood from the stalls beside the fishing nets."
+            }
+          ],
+          "facts": [
+            "KC4",
+            "K3"
+          ]
+        },
+        "faqs": {
+          "items": [
+            {
+              "title": "How many days do I need in Kochi?",
+              "body": "One to two days for Fort Kochi and Mattancherry, plus an evening for Kathakali."
+            },
+            {
+              "title": "When is the synagogue open?",
+              "body": "It is closed on Fridays, Saturdays, Sundays and Jewish holidays — plan around these days."
+            },
+            {
+              "title": "How far is Munnar from Kochi?",
+              "body": "Munnar is about 119 km from Cochin International Airport."
+            }
+          ],
+          "facts": [
+            "MP3",
+            "MN4"
+          ]
+        }
+      }
+    },
+    {
+      "key": "kerala/fort-kochi",
+      "kind": "attraction",
+      "name": "Fort Kochi",
+      "summary": "The old colonial quarter of Kochi: Chinese fishing nets, St Francis Church, Santa Cruz Basilica and streets of galleries and cafes.",
+      "seoTitle": "Fort Kochi Guide: Chinese Fishing Nets & St Francis Church",
+      "seoDescription": "Explore Fort Kochi: the Chinese fishing nets at sunset, St Francis Church where Vasco da Gama was buried, Santa Cruz Basilica, Kathakali and art galleries.",
+      "lat": 9.9658,
+      "lng": 76.2421,
+      "wikidataId": "Q3595166",
+      "tripTypes": [
+        "heritage",
+        "romantic"
+      ],
+      "images": [
+        {
+          "commons": "File:Sunset with Chinese Fishing Nets, Fort Kochi 2.jpg",
+          "alt": "Silhouettes of Chinese fishing nets against the sunset sky at Fort Kochi",
+          "caption": "Fishing nets at sunset",
+          "hero": true
+        }
+      ],
+      "sections": {
+        "overview": {
+          "text": "Fort Kochi is the old heart of Kochi, shaped by Portuguese, Dutch and British rule. Its symbol is the row of Chinese fishing nets on the shore — huge cantilevered nets believed to have been introduced by Chinese traders. Watch them being raised in the late afternoon, then stay for sunset.\n\nBehind the shore lie colonial streets full of art galleries and cafes. St Francis Church, first built in 1503, is one of the oldest European churches in India; Vasco da Gama died in Kochi in 1524 and was first buried here, before his remains were moved to Lisbon. The Santa Cruz Basilica nearby is known for its stained glass and painted interior. In the evening, catch a Kathakali performance at the Kerala Kathakali Center.",
+          "facts": [
+            "KC3",
+            "FK1",
+            "FK4",
+            "FK2",
+            "FK3",
+            "KC9"
+          ]
+        },
+        "travel_tips": {
+          "items": [
+            {
+              "body": "Walk or hire a bicycle — the area is compact."
+            },
+            {
+              "body": "Go to the fishing nets late in the afternoon for the catch and the sunset."
+            },
+            {
+              "body": "Book Kathakali tickets for the evening performance."
+            }
+          ],
+          "facts": [
+            "FK1"
+          ]
+        }
+      },
+      "parent": "kerala/kochi",
+      "featured": true,
+      "relations": [
+        {
+          "to": "kerala/mattancherry",
+          "type": "nearby"
+        }
+      ]
+    },
+    {
+      "key": "kerala/mattancherry",
+      "kind": "attraction",
+      "name": "Mattancherry",
+      "summary": "Kochi's old spice-trade quarter: the Dutch Palace with its murals, the 1568 Paradesi Synagogue and the antique shops of Jew Town.",
+      "seoTitle": "Mattancherry, Kochi: Dutch Palace, Synagogue & Jew Town",
+      "seoDescription": "Visit Mattancherry in Kochi: Mattancherry (Dutch) Palace and its Kerala murals, the Paradesi Synagogue of 1568, Jew Town's antique shops and opening days.",
+      "lat": 9.9583,
+      "lng": 76.2594,
+      "wikidataId": "Q1267941",
+      "tripTypes": [
+        "heritage"
+      ],
+      "images": [
+        {
+          "commons": "File:Mattancherry Palace DSC 0899.JPG",
+          "alt": "The yellow-walled, tile-roofed Mattancherry Palace in Kochi",
+          "caption": "Mattancherry (Dutch) Palace",
+          "hero": true
+        }
+      ],
+      "sections": {
+        "overview": {
+          "text": "Mattancherry, just east of Fort Kochi, was once a busy centre of the spice trade, and many communities — Jews, Konkanis, Gujaratis and others — settled here. Its two great sights are side by side.\n\nMattancherry Palace, popularly called the Dutch Palace, holds fine Kerala murals of Hindu religious scenes along with portraits and possessions of the Rajas of Kochi. Next door, the Paradesi Synagogue was built in 1568 for the city's Paradesi Jewish community; it is closed on Fridays, Saturdays, Sundays and Jewish holidays. The lanes of Jew Town around it are lined with antique and spice shops.",
+          "facts": [
+            "MP5",
+            "MP1",
+            "MP2",
+            "MP3",
+            "MP4"
+          ]
+        },
+        "visit_info": {
+          "items": [
+            {
+              "title": "Paradesi Synagogue",
+              "body": "Closed on Fridays, Saturdays, Sundays and Jewish holidays."
+            },
+            {
+              "title": "Mattancherry Palace",
+              "body": "Check current opening days and fees before you go."
+            }
+          ],
+          "facts": [
+            "MP3"
+          ]
+        },
+        "travel_tips": {
+          "items": [
+            {
+              "body": "Visit on a weekday from Monday to Thursday to see both the palace and the synagogue."
+            },
+            {
+              "body": "Combine with Fort Kochi — it's a short walk or auto-rickshaw ride."
+            }
+          ],
+          "facts": [
+            "MP3"
+          ]
+        }
+      },
+      "parent": "kerala/kochi"
+    },
+    {
+      "key": "kerala/munnar",
+      "kind": "town",
+      "name": "Munnar",
+      "summary": "Kerala's tea-country hill station at about 1,600 m: rolling estates, lakes, Eravikulam National Park and the twelve-yearly Neelakurinji bloom.",
+      "seoTitle": "Munnar Travel Guide: Tea Estates, Eravikulam & Best Time",
+      "seoDescription": "Plan a Munnar trip: tea estates and the Tata Tea Museum, Eravikulam National Park, lakes and viewpoints, how to get there from Kochi and when to go.",
+      "lat": 10.0892,
+      "lng": 77.0597,
+      "wikidataId": "Q1025124",
+      "tripTypes": [
+        "mountains",
+        "nature",
+        "romantic"
+      ],
+      "images": [
+        {
+          "commons": "File:Munnar - Tea Plantations.jpg",
+          "alt": "Terraced tea plantations covering the hills above Munnar town",
+          "caption": "Tea plantations above Munnar",
+          "hero": true
+        },
+        {
+          "commons": "File:Munnar Tea Plantations-WUS07343-Pano.jpg",
+          "alt": "Panorama of green tea estates and distant mountains near Munnar",
+          "caption": "Tea country around Munnar",
+          "hero": false
+        }
+      ],
+      "sections": {
+        "overview": {
+          "text": "Munnar — the name means 'three rivers' — sits where three mountain streams meet, about 1,600 m up in the Western Ghats. In the colonial era it was a summer retreat, and from the late 19th century its slopes were planted with tea; today the estates roll away in every direction.\n\nThe Tata Tea Museum at Nallathanni Estate tells the plantation story and ends with a tasting. Beyond the tea, Munnar has lakes such as Mattupetty and Kundala for boating, and Eravikulam National Park, home of the Nilgiri tahr, just outside town. Anamudi, the highest peak in South India at 2,695 m, rises nearby. Every twelve years the hills turn blue when the Neelakurinji shrub flowers.\n\nMunnar is about 119 km from Cochin International Airport.",
+          "facts": [
+            "MN1",
+            "MN8",
+            "MN6",
+            "MN7",
+            "EV2",
+            "MN3",
+            "MN2",
+            "MN4"
+          ]
+        },
+        "best_time": {
+          "text": "December to February is cool and pleasant. The monsoon, from June to September, brings heavy rain — lush, but with mist and slow mountain roads.",
+          "facts": [
+            "MN5"
+          ]
+        },
+        "how_to_reach": {
+          "text": "The nearest airport is Cochin International, about 119 km away, and the nearest railhead is Ernakulam Junction, about 120 km. From there, the drive up into the hills takes several hours; buses run from most major towns in Kerala.",
+          "facts": [
+            "MN4"
+          ]
+        },
+        "things_to_do": {
+          "items": [
+            {
+              "body": "Visit the Tata Tea Museum and its tasting room."
+            },
+            {
+              "body": "Take the shuttle into Eravikulam National Park to see the Nilgiri tahr."
+            },
+            {
+              "body": "Go boating on Mattupetty or Kundala lake."
+            },
+            {
+              "body": "Walk through the tea estates in the early morning mist."
+            }
+          ],
+          "facts": [
+            "MN6",
+            "EV4",
+            "MN7"
+          ]
+        },
+        "travel_tips": {
+          "items": [
+            {
+              "body": "Bring a warm layer — evenings are cool."
+            },
+            {
+              "body": "Start early: mist often rolls in during the afternoon."
+            },
+            {
+              "body": "Hill roads are slow; don't plan a same-day return to Kochi."
+            }
+          ],
+          "facts": [
+            "MN5"
+          ]
+        }
+      },
+      "parent": "kerala",
+      "featured": true,
+      "relations": [
+        {
+          "to": "kerala/eravikulam-national-park",
+          "type": "nearby"
+        }
+      ]
+    },
+    {
+      "key": "kerala/eravikulam-national-park",
+      "kind": "nature",
+      "name": "Eravikulam National Park",
+      "summary": "Kerala's first national park, above Munnar, home to the largest population of the endangered Nilgiri tahr.",
+      "seoTitle": "Eravikulam National Park: Nilgiri Tahr, Timings & Tips",
+      "seoDescription": "Visit Eravikulam National Park near Munnar: the Nilgiri tahr, the Rajamala tourism zone, shuttle-only entry, opening hours and the Neelakurinji bloom.",
+      "lat": 10.2,
+      "lng": 77.083,
+      "wikidataId": "Q1194252",
+      "tripTypes": [
+        "wildlife",
+        "nature"
+      ],
+      "images": [
+        {
+          "commons": "File:Nilgiri tahr (Nilgiritragus hylocrius) juvenile.jpg",
+          "alt": "A young Nilgiri tahr, a mountain goat, grazing on grass",
+          "caption": "The Nilgiri tahr, the species Eravikulam protects",
+          "hero": true
+        }
+      ],
+      "sections": {
+        "overview": {
+          "text": "Eravikulam, established in 1978, was Kerala's first national park. It was created to protect the endangered Nilgiri tahr, a mountain goat, and today shelters the largest population of the species. Lion-tailed macaques and Nilgiri langurs also live here.\n\nMost of the park is closed to the public; visitors can only enter the tourism zone at Rajamala, on the road from Munnar. Private vehicles aren't allowed inside, so you continue by the park's own transport and on foot. The views take in Anamudi, South India's highest peak, and once every twelve years the slopes turn blue with Neelakurinji flowers.",
+          "facts": [
+            "EV1",
+            "EV2",
+            "EV3",
+            "EV4",
+            "EV6"
+          ]
+        },
+        "visit_info": {
+          "items": [
+            {
+              "title": "Opening hours",
+              "body": "7 am – 6 pm (Ministry of Tourism listing). The park may close for part of the year — check before you go."
+            },
+            {
+              "title": "Access",
+              "body": "Tourism zone at Rajamala only; no private vehicles inside."
+            },
+            {
+              "title": "Tickets",
+              "body": "Check current fees with Kerala's Forest Department before visiting."
+            }
+          ],
+          "facts": [
+            "EV5",
+            "EV3",
+            "EV4"
+          ]
+        }
+      },
+      "parent": "kerala/munnar"
+    },
+    {
+      "key": "kerala/alappuzha",
+      "kind": "town",
+      "name": "Alappuzha (Alleppey)",
+      "summary": "The backwater capital of Kerala: houseboats on lakes and canals, the Nehru Trophy snake-boat race, beaches and Ayurveda.",
+      "seoTitle": "Alappuzha Guide: Backwaters, Houseboats & Boat Race",
+      "seoDescription": "Plan an Alappuzha (Alleppey) trip: houseboat cruises on the backwaters, the Nehru Trophy Boat Race, the beach, local food, Ayurveda and the best time to go.",
+      "lat": 9.4981,
+      "lng": 76.3388,
+      "wikidataId": "Q585026",
+      "tripTypes": [
+        "nature",
+        "romantic",
+        "food"
+      ],
+      "images": [
+        {
+          "commons": "File:Nedumudy - Houseboat.jpg",
+          "alt": "A traditional Kerala houseboat with a curved woven roof on the backwaters near Alappuzha",
+          "caption": "Houseboat on the backwaters",
+          "hero": true
+        }
+      ],
+      "sections": {
+        "overview": {
+          "text": "Alappuzha — Alleppey — sits about 62 km south of Kochi and is the gateway to Kerala's most famous backwaters. Lord Curzon called it the 'Venice of the East'. The waterways here link five lakes and 38 rivers, threading past paddy fields, villages and coconut palms.\n\nThe classic way to see them is from a houseboat. These wooden boats once carried rice and spices; now they are floating rooms with bedrooms, bathrooms and a deck, and an overnight cruise is one of Kerala's defining experiences. On land, Alappuzha has a beach with a pier over 137 years old and a lighthouse, Ayurvedic centres, and the Ambalappuzha Sri Krishna Temple, famous for its sweet palpayasam. On the second Saturday of August, the Nehru Trophy Boat Race brings snake boats with crews of rowers to Punnamada Lake.",
+          "facts": [
+            "AL1",
+            "AL2",
+            "AL3",
+            "AL4",
+            "AL8",
+            "AL10",
+            "AL9",
+            "AL5"
+          ]
+        },
+        "best_time": {
+          "text": "October to February is the ideal time to visit Alappuzha. Come in August for the Nehru Trophy Boat Race, held on the second Saturday of the month.",
+          "facts": [
+            "AL7",
+            "AL5"
+          ]
+        },
+        "food": {
+          "items": [
+            {
+              "body": "Karimeen pollichathu — pearl-spot fish cooked in banana leaf."
+            },
+            {
+              "body": "Puttu, vada and chickpea curry on a banana leaf."
+            },
+            {
+              "body": "Banana chips and pala appam."
+            }
+          ],
+          "facts": [
+            "AL6"
+          ]
+        },
+        "travel_tips": {
+          "items": [
+            {
+              "body": "Book houseboats through operators approved by Kerala Tourism, and confirm what's included (meals, route, cruising hours)."
+            },
+            {
+              "body": "An overnight houseboat stay is the classic experience; a day cruise is the budget alternative."
+            },
+            {
+              "body": "Book well ahead for the Nehru Trophy race and the October–February peak."
+            }
+          ],
+          "facts": [
+            "AL4",
+            "AL5",
+            "AL7"
+          ]
+        }
+      },
+      "parent": "kerala",
+      "featured": true
+    }
+  ],
+  "itineraries": [
+    {
+      "place": "kerala",
+      "slug": "kerala-5-days-kochi-munnar-backwaters",
+      "title": "Kerala in 5 days: Kochi, Munnar and the backwaters",
+      "summary": "Fort Kochi's history, two days in Munnar's tea hills and Eravikulam, and a night on a houseboat in Alappuzha's backwaters.",
+      "durationDays": 5,
+      "tripTypes": [
+        "nature",
+        "food",
+        "romantic"
+      ],
+      "seoTitle": "5-Day Kerala Itinerary: Kochi, Munnar & Alleppey Houseboat",
+      "seoDescription": "A realistic 5-day Kerala itinerary: Fort Kochi and Mattancherry, Munnar's tea estates and Eravikulam, and an overnight houseboat in Alappuzha, with travel times.",
+      "plan": {
+        "overview": "The classic Kerala loop starts and ends at Kochi. Mountain roads are slow, so the plan gives Munnar two nights and keeps driving days light. Visit Mattancherry between Monday and Thursday — the synagogue is closed Friday to Sunday.",
+        "days": [
+          {
+            "title": "Fort Kochi",
+            "stops": [
+              {
+                "time": "Morning",
+                "name": "St Francis Church and Santa Cruz Basilica",
+                "placeSlug": "fort-kochi",
+                "duration": "2 hours"
+              },
+              {
+                "time": "Afternoon",
+                "name": "Rest, then Fort Kochi's galleries",
+                "duration": "3 hours"
+              },
+              {
+                "time": "Late afternoon",
+                "name": "Chinese fishing nets at sunset",
+                "placeSlug": "fort-kochi",
+                "duration": "1 hour"
+              },
+              {
+                "time": "Evening",
+                "name": "Kathakali at the Kerala Kathakali Center",
+                "duration": "2 hours"
+              }
+            ],
+            "overnight": "Kochi"
+          },
+          {
+            "title": "Mattancherry, then up to Munnar",
+            "stops": [
+              {
+                "time": "Morning",
+                "name": "Mattancherry Palace, the synagogue and Jew Town",
+                "placeSlug": "mattancherry",
+                "duration": "2.5 hours",
+                "note": "Synagogue closed Fri–Sun."
+              },
+              {
+                "time": "Afternoon",
+                "name": "Drive to Munnar",
+                "duration": "Several hours by road (estimate)",
+                "note": "Munnar is about 119 km from Cochin airport."
+              }
+            ],
+            "overnight": "Munnar"
+          },
+          {
+            "title": "Munnar's tea country",
+            "stops": [
+              {
+                "time": "Morning",
+                "name": "Eravikulam National Park",
+                "placeSlug": "eravikulam-national-park",
+                "duration": "3 hours",
+                "note": "Opens 7 am; park shuttle only."
+              },
+              {
+                "time": "Afternoon",
+                "name": "Tata Tea Museum",
+                "duration": "1.5 hours",
+                "note": "Ends with a tasting."
+              },
+              {
+                "time": "Late afternoon",
+                "name": "Mattupetty Lake",
+                "duration": "1.5 hours"
+              }
+            ],
+            "overnight": "Munnar"
+          },
+          {
+            "title": "Down to the backwaters",
+            "stops": [
+              {
+                "time": "Morning",
+                "name": "Drive to Alappuzha",
+                "duration": "Most of the morning (estimate)"
+              },
+              {
+                "time": "Midday",
+                "name": "Board a houseboat",
+                "placeSlug": "alappuzha",
+                "duration": "Overnight",
+                "note": "Lunch, cruising and dinner on board."
+              }
+            ],
+            "overnight": "Houseboat, Alappuzha"
+          },
+          {
+            "title": "Alappuzha and back to Kochi",
+            "stops": [
+              {
+                "time": "Morning",
+                "name": "Disembark, then Alappuzha Beach and pier",
+                "placeSlug": "alappuzha",
+                "duration": "1.5 hours"
+              },
+              {
+                "time": "Afternoon",
+                "name": "Drive to Kochi",
+                "duration": "About 62 km",
+                "note": "Allow extra time for the airport."
+              }
+            ],
+            "overnight": "Kochi, or fly out"
+          }
+        ],
+        "budget": {
+          "assumptions": "No official fee or fare sources could be confirmed for these sights, houseboats or transport, so none are estimated. Check current prices with the operators and Kerala Tourism.",
+          "lines": [
+            {
+              "label": "Monuments, park entry, houseboat, transport",
+              "amount": "Check current prices",
+              "basis": "Not estimated"
+            }
+          ]
+        },
+        "booking": [
+          {
+            "item": "Houseboat",
+            "detail": "Book in advance with a Kerala Tourism–approved operator; confirm meals and cruising hours."
+          },
+          {
+            "item": "Eravikulam",
+            "detail": "Check whether the park is open on your dates."
+          },
+          {
+            "item": "Kathakali",
+            "detail": "Reserve seats for the evening show in Fort Kochi."
+          }
+        ],
+        "alternatives": [
+          "Swap Munnar for Thekkady if you want wildlife and spice plantations instead of tea hills.",
+          "Do a day cruise instead of an overnight houseboat to save money.",
+          "Visit in August for the Nehru Trophy Boat Race — book everything early."
+        ],
+        "tips": [
+          "Pack a warm layer for Munnar and light clothes for the coast.",
+          "Carry cash for small shops and tips on the houseboat."
+        ]
+      },
+      "facts": [
+        "FK2",
+        "FK3",
+        "FK1",
+        "KC9",
+        "MP1",
+        "MP2",
+        "MP3",
+        "MN4",
+        "EV5",
+        "EV4",
+        "MN6",
+        "MN7",
+        "AL4",
+        "AL8",
+        "AL1",
+        "AL5",
+        "MN2"
+      ],
+      "sources": []
+    }
+  ]
+}

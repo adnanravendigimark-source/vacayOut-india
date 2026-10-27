@@ -27,7 +27,7 @@ export type Name =
 
 type UiIcon =
   | "arrowLeft" | "chevronDown" | "user" | "calendar" | "clock" | "sun" | "coins" | "bulb"
-  | "utensils" | "help" | "chat" | "image" | "star" | "grid" | "map";
+  | "utensils" | "help" | "chat" | "image" | "star" | "grid" | "map" | "maximize";
 
 const paths: Record<Name, React.ReactNode> = {
   palace: <path d="M3.5 21V10.5l4-3 4.5 3 4.5-3 4 3V21M3.5 21h17M10 21v-4.5a2 2 0 0 1 4 0V21M7.5 7.5V4.5M16.5 7.5V4.5M12 10.5V6" />,
@@ -112,6 +112,7 @@ const paths: Record<Name, React.ReactNode> = {
   star: <path d="m12 3.5 2.6 5.3 5.9.9-4.3 4.1 1 5.8L12 16.9l-5.2 2.7 1-5.8-4.3-4.1 5.9-.9Z" fill="currentColor" />,
   grid: <path d="M4 4h6.5v6.5H4ZM13.5 4H20v6.5h-6.5ZM4 13.5h6.5V20H4ZM13.5 13.5H20V20h-6.5Z" />,
   map: <path d="M9 4.5 3.5 6.5v13l5.5-2 6 2 5.5-2v-13l-5.5 2-6-2ZM9 4.5v13M15 6.5v13" />,
+  maximize: <path d="M14 4h6v6M20 4l-7 7M10 20H4v-6M4 20l7-7" />,
   sparkles: (
     <>
       <path d="M12 3.5 13.9 8.6 19 10.5 13.9 12.4 12 17.5 10.1 12.4 5 10.5 10.1 8.6Z" />

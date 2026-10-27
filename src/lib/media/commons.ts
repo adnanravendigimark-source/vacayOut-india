@@ -126,6 +126,14 @@ export async function searchCommons(query: string, fetchImpl: typeof fetch = fet
   return parseFiles(json);
 }
 
+/** Page id of a Commons file by its title ("File:…"), or null when it doesn't exist. */
+export async function commonsPageId(title: string, fetchImpl: typeof fetch = fetch): Promise<number | null> {
+  const t = title.startsWith("File:") ? title : `File:${title}`;
+  const json = (await api({ titles: t }, fetchImpl)) as { query?: { pages?: { pageid?: number; missing?: boolean }[] } };
+  const page = json.query?.pages?.[0];
+  return page && !page.missing && page.pageid ? page.pageid : null;
+}
+
 /** Re-reads one file (never trusts licence data from the browser) and downloads a 1920px rendition. */
 export async function fetchCommonsImage(pageId: number, fetchImpl: typeof fetch = fetch): Promise<{ file: CommonsFile; bytes: Uint8Array }> {
   const json = await api({ pageids: String(pageId), prop: "imageinfo", iiprop: "url|size|mime|extmetadata", iiurlwidth: "1920", iiextmetadatafilter: META }, fetchImpl);

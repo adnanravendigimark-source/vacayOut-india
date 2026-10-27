@@ -1,0 +1,936 @@
+{
+  "cluster": "golden-triangle",
+  "title": "Golden Triangle (Delhi–Agra–Jaipur)",
+  "researchedAt": "2026-10-26",
+  "selection": "The Delhi–Agra–Jaipur Golden Triangle links the three most-visited destinations in north India: Delhi (an estimated 2.0 million foreign tourist visits in 2024), Uttar Pradesh (2.27 million) and Rajasthan (2.07 million), and includes six UNESCO World Heritage Sites.",
+  "sources": {
+    "TAJ": {
+      "url": "https://www.tajmahal.gov.in/",
+      "title": "Taj Mahal — official website (Department of Tourism, Government of Uttar Pradesh)",
+      "authority": "government"
+    },
+    "W_GATIMAAN": {
+      "url": "https://en.wikipedia.org/wiki/Gatimaan_Express",
+      "title": "Gatimaan Express — Wikipedia",
+      "authority": "reference"
+    },
+    "TAJ_GETTING": {
+      "url": "https://www.tajmahal.gov.in/getting-around-taj-mahal.aspx",
+      "title": "Taj Mahal official website — Getting around",
+      "authority": "government"
+    },
+    "TAJ_FORT": {
+      "url": "https://www.tajmahal.gov.in/agrafort.aspx",
+      "title": "Taj Mahal official website — Agra Fort",
+      "authority": "government"
+    },
+    "W_FS": {
+      "url": "https://en.wikipedia.org/wiki/Fatehpur_Sikri",
+      "title": "Fatehpur Sikri — Wikipedia",
+      "authority": "reference"
+    },
+    "TAJ_FS": {
+      "url": "https://www.tajmahal.gov.in/fatehpur-sikri.aspx",
+      "title": "Taj Mahal official website — Fatehpur Sikri",
+      "authority": "government"
+    },
+    "TAJ_MB": {
+      "url": "https://www.tajmahal.gov.in/taj-view-point-mehtab-bagh.aspx",
+      "title": "Taj Mahal official website — Mehtab Bagh viewpoint",
+      "authority": "government"
+    },
+    "II_REDFORT": {
+      "url": "https://www.incredibleindia.gov.in/en/delhi/delhi/red-fort",
+      "title": "Red Fort — Incredible India (Ministry of Tourism)",
+      "authority": "government"
+    },
+    "II_JAMA": {
+      "url": "https://www.incredibleindia.gov.in/en/delhi/delhi/jama-masjid",
+      "title": "Jama Masjid — Incredible India (Ministry of Tourism)",
+      "authority": "government"
+    },
+    "II_HUMAYUN": {
+      "url": "https://www.incredibleindia.gov.in/en/delhi/delhi/humayuns-tomb",
+      "title": "Humayun's Tomb — Incredible India (Ministry of Tourism)",
+      "authority": "government"
+    },
+    "II_QUTUB": {
+      "url": "https://www.incredibleindia.gov.in/en/delhi/delhi/qutub-minar",
+      "title": "Qutub Minar — Incredible India (Ministry of Tourism)",
+      "authority": "government"
+    },
+    "W_NDLS": {
+      "url": "https://en.wikipedia.org/wiki/New_Delhi_railway_station",
+      "title": "New Delhi railway station — Wikipedia",
+      "authority": "reference"
+    },
+    "W_JAIPUR": {
+      "url": "https://en.wikipedia.org/wiki/Jaipur",
+      "title": "Jaipur — Wikipedia",
+      "authority": "reference"
+    },
+    "II_JAIPUR": {
+      "url": "https://www.incredibleindia.gov.in/en/rajasthan/jaipur",
+      "title": "Jaipur — Incredible India (Ministry of Tourism)",
+      "authority": "government"
+    },
+    "II_AMBER": {
+      "url": "https://www.incredibleindia.gov.in/en/rajasthan/jaipur/amber-fort",
+      "title": "Amber Fort — Incredible India (Ministry of Tourism)",
+      "authority": "government"
+    },
+    "II_HAWA": {
+      "url": "https://www.incredibleindia.gov.in/en/rajasthan/jaipur/hawa-mahal",
+      "title": "Hawa Mahal — Incredible India (Ministry of Tourism)",
+      "authority": "government"
+    },
+    "II_JM": {
+      "url": "https://www.incredibleindia.gov.in/en/rajasthan/jaipur/jantar-mantar",
+      "title": "Jantar Mantar, Jaipur — Incredible India (Ministry of Tourism)",
+      "authority": "government"
+    },
+    "II_CP": {
+      "url": "https://www.incredibleindia.gov.in/en/rajasthan/jaipur/city-palace",
+      "title": "City Palace, Jaipur — Incredible India (Ministry of Tourism)",
+      "authority": "government"
+    },
+    "RT_JAIPUR": {
+      "url": "https://www.tourism.rajasthan.gov.in/content/rajasthan-tourism/en/tourist-destinations/jaipur.html",
+      "title": "Jaipur — Rajasthan Tourism (Government of Rajasthan)",
+      "authority": "government"
+    }
+  },
+  "facts": {
+    "T5": {
+      "place": "uttar-pradesh/taj-mahal",
+      "topic": "Closed on Fridays",
+      "claim": "The Taj Mahal is closed to visitors on Fridays and open on all other days.",
+      "claimType": "opening_hours",
+      "evidence": [
+        {
+          "source": "TAJ",
+          "quote": "Taj Mahal remains closed only on Fridays, other weekdays it is always open."
+        }
+      ]
+    },
+    "T6": {
+      "place": "uttar-pradesh/taj-mahal",
+      "topic": "Daytime visiting hours",
+      "claim": "Daytime visiting hours run from 30 minutes before sunrise to 30 minutes before sunset.",
+      "claimType": "opening_hours",
+      "evidence": [
+        {
+          "source": "TAJ",
+          "quote": "Visiting hours: 30 Minutes before Sunrise upto 30 Minutes before Sunset."
+        }
+      ]
+    },
+    "T7": {
+      "place": "uttar-pradesh/taj-mahal",
+      "topic": "Entry fee — foreign tourists",
+      "claim": "Entry for foreign tourists is ₹1,100, plus an optional ₹200 to enter the main mausoleum (amounts include ASI and ADA fees).",
+      "claimType": "price",
+      "evidence": [
+        {
+          "source": "TAJ",
+          "quote": "Foreign Tourist Amount (Rs.) (Inclusive of ASI & ADA fees) 1100 + 200 Additional for visiting main mausoleum (Optional)"
+        }
+      ]
+    },
+    "A6": {
+      "place": "uttar-pradesh/agra",
+      "topic": "Gatimaan Express does not run on Fridays",
+      "claim": "The Gatimaan Express runs six days a week and not on Fridays.",
+      "claimType": "schedule",
+      "evidence": [
+        {
+          "source": "W_GATIMAAN",
+          "quote": "The train runs six days a week, and not on Fridays."
+        }
+      ]
+    },
+    "A7": {
+      "place": "uttar-pradesh/agra",
+      "topic": "Road distances",
+      "claim": "By road Agra is about 204 km from Delhi, 232 km from Jaipur, 56 km from Mathura and 605 km from Varanasi.",
+      "claimType": "distance",
+      "evidence": [
+        {
+          "source": "TAJ_GETTING",
+          "quote": "Delhi - 204 km Gwalior - 119 km Jaipur - 232 km"
+        },
+        {
+          "source": "TAJ_GETTING",
+          "quote": "Mathura - 56 km Varanasi - 605 km"
+        }
+      ]
+    },
+    "F6": {
+      "place": "uttar-pradesh/agra-fort",
+      "topic": "Opening hours",
+      "claim": "Agra Fort is open from sunrise to sunset.",
+      "claimType": "opening_hours",
+      "evidence": [
+        {
+          "source": "TAJ_FORT",
+          "quote": "Open : Sunrise to sunset."
+        }
+      ]
+    },
+    "F7": {
+      "place": "uttar-pradesh/agra-fort",
+      "topic": "Entry fees",
+      "claim": "Entry is ₹650 for foreign tourists (₹600 on Fridays) and ₹50 for Indian visitors (₹40 on Fridays); children under 15 are free.",
+      "claimType": "price",
+      "evidence": [
+        {
+          "source": "TAJ_FORT",
+          "quote": "Foreign Tourist Rs. 650/- Friday - Rs. 600/-"
+        },
+        {
+          "source": "TAJ_FORT",
+          "quote": "Domestic/Indian Tourist Rs. 50/- Friday - Rs. 40/-"
+        }
+      ]
+    },
+    "P3": {
+      "place": "uttar-pradesh/fatehpur-sikri",
+      "topic": "Distance from Agra",
+      "claim": "Fatehpur Sikri is about 37 km from Agra.",
+      "claimType": "distance",
+      "evidence": [
+        {
+          "source": "W_FS",
+          "quote": "Fatehpur Sikri is about 37 kilometres (23 mi) from Agra."
+        },
+        {
+          "source": "TAJ_FS",
+          "quote": "37 kms from Agra is built a city predominantly in Red Sandstone"
+        }
+      ]
+    },
+    "P6": {
+      "place": "uttar-pradesh/fatehpur-sikri",
+      "topic": "Entry fees",
+      "claim": "The official fee table lists ₹610 for foreign visitors (₹600 on Fridays or after visiting the Taj) and ₹50 for Indian visitors (₹40 on Fridays).",
+      "claimType": "price",
+      "evidence": [
+        {
+          "source": "TAJ",
+          "quote": "Fatehpur Sikri 50/- 40/- 610/- 600/- 600/-"
+        }
+      ]
+    },
+    "I4": {
+      "place": "uttar-pradesh/itimad-ud-daulah",
+      "topic": "Entry fees",
+      "claim": "The official fee table lists ₹310 for foreign visitors (₹300 on Fridays or after visiting the Taj) and ₹30 for Indian visitors (₹25 on Fridays).",
+      "claimType": "price",
+      "evidence": [
+        {
+          "source": "TAJ",
+          "quote": "Itimad-Ud-Daulah 30/- 25/- 310/- 300/- 300/-"
+        }
+      ]
+    },
+    "M2": {
+      "place": "uttar-pradesh/mehtab-bagh",
+      "topic": "A view of the Taj on Fridays",
+      "claim": "You can view the Taj Mahal from Mehtab Bagh on Fridays, when the Taj itself is closed.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "TAJ_MB",
+          "quote": "Tourists can see Taj Mahal from this point also on Fridays and full moon nights"
+        }
+      ]
+    },
+    "A5": {
+      "place": "uttar-pradesh/agra",
+      "topic": "Trains from Delhi",
+      "claim": "Main trains between Delhi and Agra include the Shatabdi, Rajdhani, Gatimaan and Taj Express.",
+      "claimType": "schedule",
+      "evidence": [
+        {
+          "source": "TAJ_GETTING",
+          "quote": "The main trains connecting Agra with Delhi are Palace on Wheels, Shatabdi, Rajdhani, Gatimaan and Taj Express."
+        }
+      ]
+    },
+    "R3": {
+      "place": "delhi/red-fort",
+      "topic": "Opening hours; closed Mondays",
+      "claim": "The Red Fort is open 9:30 am to 4:30 pm and closed on Mondays.",
+      "claimType": "opening_hours",
+      "evidence": [
+        {
+          "source": "II_REDFORT",
+          "quote": "Opening time - 09:30 AM - 04:30 PM (Closed on Mondays)"
+        }
+      ]
+    },
+    "J3": {
+      "place": "delhi/jama-masjid",
+      "topic": "Opening hours",
+      "claim": "The Jama Masjid is open 7 am–12 pm and 1:30 pm–6:30 pm.",
+      "claimType": "opening_hours",
+      "evidence": [
+        {
+          "source": "II_JAMA",
+          "quote": "Opening time - 07:00 AM - 12:00 PM and 01:30 PM - 06:30 PM"
+        }
+      ]
+    },
+    "H6": {
+      "place": "delhi/humayuns-tomb",
+      "topic": "Opening hours",
+      "claim": "Humayun's Tomb is open from sunrise to sunset.",
+      "claimType": "opening_hours",
+      "evidence": [
+        {
+          "source": "II_HUMAYUN",
+          "quote": "Opening time - From sunrise to sunset"
+        }
+      ]
+    },
+    "Q6": {
+      "place": "delhi/qutub-minar",
+      "topic": "Opening hours",
+      "claim": "The Qutub Minar is open from sunrise to sunset; timings may vary with the season.",
+      "claimType": "opening_hours",
+      "evidence": [
+        {
+          "source": "II_QUTUB",
+          "quote": "Opening time - Sunrise to sunset, may vary seasonally."
+        }
+      ]
+    },
+    "D9": {
+      "place": "delhi",
+      "topic": "Main railway stations",
+      "claim": "Delhi's five main railway stations are New Delhi, Old Delhi, Hazrat Nizamuddin, Anand Vihar Terminal and Sarai Rohilla.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "W_NDLS",
+          "quote": "Along with Old Delhi railway station , Hazrat Nizamuddin Railway Station , Anand Vihar Terminal , and Sarai Rohilla Railway Station , it is one of the five primary railway stations catering to Delhi state"
+        }
+      ]
+    },
+    "JP5": {
+      "place": "rajasthan/jaipur",
+      "topic": "Distances from Delhi and Agra",
+      "claim": "Jaipur is about 268 km from New Delhi and 232 km from Agra by road; the Ministry of Tourism puts the drive from Delhi at about 5 hours.",
+      "claimType": "distance",
+      "kind": "estimate",
+      "evidence": [
+        {
+          "source": "W_JAIPUR",
+          "quote": "Located 268 km (167 miles) from the national capital New Delhi"
+        },
+        {
+          "source": "TAJ_GETTING",
+          "quote": "Jaipur - 232 km"
+        },
+        {
+          "source": "II_JAIPUR",
+          "quote": "It is 5 hours from Delhi via the well-maintained NH 8"
+        }
+      ]
+    },
+    "JP6": {
+      "place": "rajasthan/jaipur",
+      "topic": "Trains",
+      "claim": "Jaipur has direct trains to major cities, including the Shatabdi and Rajdhani to Delhi.",
+      "claimType": "schedule",
+      "evidence": [
+        {
+          "source": "II_JAIPUR",
+          "quote": "Jaipur Railway Station offers direct trains to major cities, including Delhi via Shatabdi, Rajdhani, Duronto, and Mandor Express."
+        }
+      ]
+    },
+    "AM4": {
+      "place": "rajasthan/amber-fort",
+      "topic": "Opening hours",
+      "claim": "Amber Fort is open from 9 am to 6 pm.",
+      "claimType": "opening_hours",
+      "evidence": [
+        {
+          "source": "II_AMBER",
+          "quote": "Opening time - 09:00 AM Closing time - 06:00 PM"
+        }
+      ]
+    },
+    "HM4": {
+      "place": "rajasthan/hawa-mahal",
+      "topic": "Opening hours",
+      "claim": "Hawa Mahal is open from 9 am to 4:30 pm.",
+      "claimType": "opening_hours",
+      "evidence": [
+        {
+          "source": "II_HAWA",
+          "quote": "Opening time - 09:00 AM Closing time - 04:30 PM"
+        }
+      ]
+    },
+    "JM5": {
+      "place": "rajasthan/jantar-mantar",
+      "topic": "Opening hours",
+      "claim": "Jantar Mantar is open from 9 am to 5 pm.",
+      "claimType": "opening_hours",
+      "evidence": [
+        {
+          "source": "II_JM",
+          "quote": "Opening time - 09:00 AM Closing time - 05:00 PM"
+        }
+      ]
+    },
+    "CP5": {
+      "place": "rajasthan/city-palace",
+      "topic": "Opening hours",
+      "claim": "The City Palace is open from 9:30 am to 7:30 pm.",
+      "claimType": "opening_hours",
+      "evidence": [
+        {
+          "source": "II_CP",
+          "quote": "Opening time - 9.30 AM Closing time - 7.30 PM"
+        }
+      ]
+    },
+    "JP12": {
+      "place": "rajasthan/jaipur",
+      "topic": "Bazaars",
+      "claim": "Johari Bazaar is known for jewellery and textiles and Bapu Bazaar for mojari shoes and textiles; the markets are generally closed on Sundays.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_JAIPUR",
+          "quote": "Johari Bazaar Road is famous for Rajasthani jewellery, clothing, and textiles. Bapu Bazar is known for Mojari, camel skin shoes, and Rajasthani textiles."
+        },
+        {
+          "source": "RT_JAIPUR",
+          "quote": "The markets are generally closed on Sundays."
+        }
+      ]
+    },
+    "NG2": {
+      "place": "rajasthan/nahargarh-fort",
+      "topic": "Views over Jaipur and Jal Mahal",
+      "claim": "Nahargarh has panoramic views over Jaipur and the Jal Mahal, which is itself no longer open to tourists.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_JAIPUR",
+          "quote": "it provides panoramic views of Jaipur as well as the Jal Mahal, which is no longer open to tourists"
+        }
+      ]
+    }
+  },
+  "places": [],
+  "itineraries": [
+    {
+      "place": "delhi",
+      "slug": "golden-triangle-5-days-delhi-agra-jaipur",
+      "title": "Golden Triangle in 5 days: Delhi, Agra and Jaipur",
+      "summary": "The classic first trip to India at a steady pace: a day in Delhi, the Taj Mahal and Agra Fort, Fatehpur Sikri on the way west, and two days in Jaipur.",
+      "durationDays": 5,
+      "tripTypes": [
+        "heritage"
+      ],
+      "seoTitle": "Golden Triangle 5-Day Itinerary: Delhi, Agra & Jaipur",
+      "seoDescription": "A realistic 5-day Golden Triangle itinerary: Delhi, the Taj Mahal at sunrise, Fatehpur Sikri and Jaipur, with distances, weekly closures and booking tips.",
+      "plan": {
+        "overview": "Delhi, Agra and Jaipur form a triangle of roughly 200–270 km per side, so each leg is a half-day by road or a few hours by train. Plan the days around two weekly closures: the Red Fort is closed on Mondays and the Taj Mahal on Fridays (the Gatimaan Express to Agra doesn't run on Fridays either). Starting on a Friday, Saturday, Sunday or Tuesday keeps both open on the right days.",
+        "days": [
+          {
+            "title": "Delhi in a day",
+            "summary": "Old Delhi in the morning, Mughal tombs in the afternoon.",
+            "stops": [
+              {
+                "time": "9:30 am",
+                "name": "Red Fort",
+                "placeSlug": "red-fort",
+                "duration": "About 2 hours",
+                "note": "Closed on Mondays."
+              },
+              {
+                "time": "Late morning",
+                "name": "Jama Masjid and Chandni Chowk",
+                "placeSlug": "jama-masjid",
+                "duration": "2 hours",
+                "note": "Lunch on Old Delhi street food."
+              },
+              {
+                "time": "Afternoon",
+                "name": "Humayun's Tomb",
+                "placeSlug": "humayuns-tomb",
+                "duration": "1.5 hours",
+                "note": "Open until sunset."
+              },
+              {
+                "time": "Late afternoon",
+                "name": "Qutub Minar",
+                "placeSlug": "qutub-minar",
+                "duration": "1.5 hours",
+                "note": "Open until sunset; allow time for traffic."
+              }
+            ],
+            "travel": "Metro or taxi between areas; Delhi traffic is slow, so keep to this order.",
+            "overnight": "Delhi"
+          },
+          {
+            "title": "To Agra: the fort and a sunset view of the Taj",
+            "stops": [
+              {
+                "time": "Morning",
+                "name": "Train or drive to Agra",
+                "duration": "Half a day",
+                "note": "About 204 km by road; trains are faster — check IRCTC. The Gatimaan Express does not run on Fridays."
+              },
+              {
+                "time": "Afternoon",
+                "name": "Agra Fort",
+                "placeSlug": "uttar-pradesh/agra-fort",
+                "duration": "About 2 hours",
+                "note": "Open sunrise to sunset."
+              },
+              {
+                "time": "Late afternoon",
+                "name": "Mehtab Bagh",
+                "placeSlug": "uttar-pradesh/mehtab-bagh",
+                "duration": "1 hour",
+                "note": "Sunset view of the Taj from across the Yamuna."
+              }
+            ],
+            "overnight": "Agra"
+          },
+          {
+            "title": "Taj Mahal at sunrise, Fatehpur Sikri, on to Jaipur",
+            "stops": [
+              {
+                "time": "Sunrise",
+                "name": "Taj Mahal",
+                "placeSlug": "uttar-pradesh/taj-mahal",
+                "duration": "2.5–3 hours",
+                "note": "Opens 30 minutes before sunrise; closed Fridays."
+              },
+              {
+                "time": "Late morning",
+                "name": "Fatehpur Sikri",
+                "placeSlug": "uttar-pradesh/fatehpur-sikri",
+                "duration": "2.5 hours",
+                "note": "About 37 km from Agra."
+              },
+              {
+                "time": "Afternoon",
+                "name": "Drive to Jaipur",
+                "duration": "Several hours by road (estimate)",
+                "note": "Agra–Jaipur is about 232 km."
+              }
+            ],
+            "overnight": "Jaipur"
+          },
+          {
+            "title": "Jaipur: Amber and the hills",
+            "stops": [
+              {
+                "time": "9 am",
+                "name": "Amber Fort",
+                "placeSlug": "rajasthan/amber-fort",
+                "duration": "2.5–3 hours",
+                "note": "Opens at 9 am."
+              },
+              {
+                "time": "Afternoon",
+                "name": "Lunch and rest",
+                "duration": "2 hours"
+              },
+              {
+                "time": "Late afternoon",
+                "name": "Nahargarh Fort",
+                "placeSlug": "rajasthan/nahargarh-fort",
+                "duration": "2 hours",
+                "note": "Sunset over the city."
+              }
+            ],
+            "overnight": "Jaipur"
+          },
+          {
+            "title": "Jaipur's old city, then back to Delhi",
+            "stops": [
+              {
+                "time": "9 am",
+                "name": "Hawa Mahal",
+                "placeSlug": "rajasthan/hawa-mahal",
+                "duration": "1 hour"
+              },
+              {
+                "time": "10:15 am",
+                "name": "Jantar Mantar",
+                "placeSlug": "rajasthan/jantar-mantar",
+                "duration": "1 hour"
+              },
+              {
+                "time": "11:30 am",
+                "name": "City Palace",
+                "placeSlug": "rajasthan/city-palace",
+                "duration": "2 hours"
+              },
+              {
+                "time": "Afternoon",
+                "name": "Return to Delhi",
+                "duration": "Around 5 hours by road (estimate)",
+                "note": "Or fly out of Jaipur. About 268 km; trains and flights are alternatives."
+              }
+            ],
+            "overnight": "Delhi"
+          }
+        ],
+        "budget": {
+          "assumptions": "Entry fees per adult foreign visitor where an official source lists them (Agra monuments). Delhi and Jaipur monument fees couldn't be confirmed from an official page, so check them before you go. Transport, hotels and meals are not estimated.",
+          "lines": [
+            {
+              "label": "Taj Mahal",
+              "amount": "₹1,100 + ₹200 (optional, main mausoleum)",
+              "basis": "Official fee for foreign tourists"
+            },
+            {
+              "label": "Agra Fort",
+              "amount": "₹650 (₹600 on Fridays)",
+              "basis": "Official fee for foreign tourists"
+            },
+            {
+              "label": "Fatehpur Sikri",
+              "amount": "₹610",
+              "basis": "Official fee table, foreign tourists"
+            },
+            {
+              "label": "Delhi and Jaipur monuments",
+              "amount": "Check current official fees",
+              "basis": "Not estimated"
+            }
+          ]
+        },
+        "booking": [
+          {
+            "item": "Trains",
+            "detail": "Book Delhi–Agra and Jaipur–Delhi trains on IRCTC well ahead in the October–March season."
+          },
+          {
+            "item": "Monument tickets",
+            "detail": "Buy Taj Mahal and ASI tickets online to save time at the gates."
+          },
+          {
+            "item": "Car and driver",
+            "detail": "For the Agra–Fatehpur Sikri–Jaipur leg, a car with driver is the simplest option; agree the price in advance."
+          }
+        ],
+        "alternatives": [
+          "Short of time? Drop Fatehpur Sikri and drive straight from Agra to Jaipur.",
+          "If your dates don't fit, reverse the second half (Delhi, Jaipur, then Agra) so the Taj Mahal doesn't fall on a Friday.",
+          "Add a night in Agra to see the Taj at night on full-moon dates."
+        ],
+        "tips": [
+          "Check the weekly closures before fixing dates: Red Fort (Mondays), Taj Mahal (Fridays).",
+          "Leave food, tripods and chargers in the car on Taj day."
+        ]
+      },
+      "facts": [
+        "A5",
+        "A6",
+        "A7",
+        "AM4",
+        "CP5",
+        "F6",
+        "F7",
+        "H6",
+        "HM4",
+        "JM5",
+        "JP5",
+        "M2",
+        "NG2",
+        "P3",
+        "P6",
+        "Q6",
+        "R3",
+        "T5",
+        "T6",
+        "T7"
+      ],
+      "sources": []
+    },
+    {
+      "place": "delhi",
+      "slug": "golden-triangle-7-days-delhi-agra-jaipur",
+      "title": "Golden Triangle in 7 days: Delhi, Agra and Jaipur at an easy pace",
+      "summary": "Two days each in Delhi, Agra and Jaipur plus a travel day via Fatehpur Sikri — time for the big sights, the bazaars and a rest every afternoon.",
+      "durationDays": 7,
+      "tripTypes": [
+        "heritage"
+      ],
+      "seoTitle": "Golden Triangle 7-Day Itinerary: Delhi, Agra & Jaipur",
+      "seoDescription": "A relaxed 7-day Golden Triangle itinerary: two days in Delhi, the Taj Mahal and Agra, Fatehpur Sikri and two days in Jaipur, with timings and weekly closures.",
+      "plan": {
+        "overview": "Delhi, Agra and Jaipur form a triangle of roughly 200–270 km per side, so each leg is a half-day by road or a few hours by train. Plan the days around two weekly closures: the Red Fort is closed on Mondays and the Taj Mahal on Fridays (the Gatimaan Express to Agra doesn't run on Fridays either). With a week you can absorb a closure by swapping two days — the alternatives below show how.",
+        "days": [
+          {
+            "title": "Old Delhi",
+            "stops": [
+              {
+                "time": "9:30 am",
+                "name": "Red Fort",
+                "placeSlug": "red-fort",
+                "duration": "2 hours",
+                "note": "Closed on Mondays."
+              },
+              {
+                "time": "Late morning",
+                "name": "Jama Masjid",
+                "placeSlug": "jama-masjid",
+                "duration": "1 hour",
+                "note": "Closed to visitors 12–1:30 pm."
+              },
+              {
+                "time": "Afternoon",
+                "name": "Chandni Chowk",
+                "placeSlug": "chandni-chowk",
+                "duration": "2–3 hours"
+              },
+              {
+                "time": "Evening",
+                "name": "Gurudwara Bangla Sahib",
+                "placeSlug": "gurudwara-bangla-sahib",
+                "duration": "1 hour"
+              }
+            ],
+            "overnight": "Delhi"
+          },
+          {
+            "title": "New Delhi and the Qutub Minar",
+            "stops": [
+              {
+                "time": "Morning",
+                "name": "Humayun's Tomb",
+                "placeSlug": "humayuns-tomb",
+                "duration": "2 hours"
+              },
+              {
+                "time": "Late morning",
+                "name": "India Gate",
+                "placeSlug": "india-gate",
+                "duration": "45 minutes"
+              },
+              {
+                "time": "Late afternoon",
+                "name": "Qutub Minar",
+                "placeSlug": "qutub-minar",
+                "duration": "2 hours"
+              }
+            ],
+            "overnight": "Delhi"
+          },
+          {
+            "title": "To Agra",
+            "stops": [
+              {
+                "time": "Morning",
+                "name": "Train or drive to Agra",
+                "duration": "Half a day",
+                "note": "About 204 km by road; trains are faster — check IRCTC. The Gatimaan Express does not run on Fridays."
+              },
+              {
+                "time": "Afternoon",
+                "name": "Agra Fort",
+                "placeSlug": "uttar-pradesh/agra-fort",
+                "duration": "2 hours"
+              },
+              {
+                "time": "Late afternoon",
+                "name": "Mehtab Bagh",
+                "placeSlug": "uttar-pradesh/mehtab-bagh",
+                "duration": "1 hour",
+                "note": "Sunset over the Taj."
+              }
+            ],
+            "overnight": "Agra"
+          },
+          {
+            "title": "The Taj Mahal",
+            "stops": [
+              {
+                "time": "Sunrise",
+                "name": "Taj Mahal",
+                "placeSlug": "uttar-pradesh/taj-mahal",
+                "duration": "3 hours",
+                "note": "Closed Fridays."
+              },
+              {
+                "time": "Midday",
+                "name": "Rest",
+                "duration": "3 hours"
+              },
+              {
+                "time": "Late afternoon",
+                "name": "Tomb of I'timad-ud-Daulah",
+                "placeSlug": "uttar-pradesh/itimad-ud-daulah",
+                "duration": "1 hour"
+              }
+            ],
+            "overnight": "Agra"
+          },
+          {
+            "title": "Fatehpur Sikri and on to Jaipur",
+            "stops": [
+              {
+                "time": "Morning",
+                "name": "Fatehpur Sikri",
+                "placeSlug": "uttar-pradesh/fatehpur-sikri",
+                "duration": "2.5–3 hours",
+                "note": "About 37 km from Agra."
+              },
+              {
+                "time": "Afternoon",
+                "name": "Drive to Jaipur",
+                "duration": "Several hours by road (estimate)",
+                "note": "Agra–Jaipur is about 232 km."
+              }
+            ],
+            "overnight": "Jaipur"
+          },
+          {
+            "title": "Amber and the hill forts",
+            "stops": [
+              {
+                "time": "9 am",
+                "name": "Amber Fort",
+                "placeSlug": "rajasthan/amber-fort",
+                "duration": "3 hours"
+              },
+              {
+                "time": "Midday",
+                "name": "Jaigarh Fort",
+                "placeSlug": "rajasthan/jaigarh-fort",
+                "duration": "1.5 hours"
+              },
+              {
+                "time": "Late afternoon",
+                "name": "Nahargarh Fort",
+                "placeSlug": "rajasthan/nahargarh-fort",
+                "duration": "2 hours",
+                "note": "Stay for sunset."
+              }
+            ],
+            "overnight": "Jaipur"
+          },
+          {
+            "title": "Jaipur's old city and back to Delhi",
+            "stops": [
+              {
+                "time": "9 am",
+                "name": "Hawa Mahal",
+                "placeSlug": "rajasthan/hawa-mahal",
+                "duration": "1 hour"
+              },
+              {
+                "time": "10:15 am",
+                "name": "Jantar Mantar",
+                "placeSlug": "rajasthan/jantar-mantar",
+                "duration": "1 hour"
+              },
+              {
+                "time": "11:30 am",
+                "name": "City Palace",
+                "placeSlug": "rajasthan/city-palace",
+                "duration": "2 hours"
+              },
+              {
+                "time": "Afternoon",
+                "name": "Bazaars, then return to Delhi",
+                "duration": "Around 5 hours by road (estimate)",
+                "note": "Most bazaars close on Sundays. About 268 km; trains and flights are alternatives."
+              }
+            ],
+            "overnight": "Delhi"
+          }
+        ],
+        "budget": {
+          "assumptions": "Entry fees per adult foreign visitor where an official source lists them (Agra monuments). Delhi and Jaipur monument fees couldn't be confirmed from an official page, so check them before you go. Transport, hotels and meals are not estimated.",
+          "lines": [
+            {
+              "label": "Taj Mahal",
+              "amount": "₹1,100 + ₹200 (optional, main mausoleum)",
+              "basis": "Official fee for foreign tourists"
+            },
+            {
+              "label": "Agra Fort",
+              "amount": "₹650 (₹600 on Fridays)",
+              "basis": "Official fee for foreign tourists"
+            },
+            {
+              "label": "Fatehpur Sikri",
+              "amount": "₹610",
+              "basis": "Official fee table, foreign tourists"
+            },
+            {
+              "label": "Delhi and Jaipur monuments",
+              "amount": "Check current official fees",
+              "basis": "Not estimated"
+            }
+          ]
+        },
+        "booking": [
+          {
+            "item": "Trains",
+            "detail": "Book Delhi–Agra and Jaipur–Delhi trains on IRCTC well ahead in the October–March season."
+          },
+          {
+            "item": "Monument tickets",
+            "detail": "Buy Taj Mahal and ASI tickets online to save time at the gates."
+          },
+          {
+            "item": "Car and driver",
+            "detail": "For the Agra–Fatehpur Sikri–Jaipur leg, a car with driver is the simplest option; agree the price in advance."
+          }
+        ],
+        "alternatives": [
+          "If Day 1 is a Monday, swap Days 1 and 2 (the Red Fort is closed on Mondays).",
+          "If Day 4 would be a Friday, start the trip a day earlier or later — the Taj Mahal is closed on Fridays.",
+          "Add a night in Agra for the full-moon night viewing of the Taj."
+        ],
+        "tips": [
+          "Check the weekly closures before fixing dates: Red Fort (Mondays), Taj Mahal (Fridays).",
+          "Leave food, tripods and chargers in the car on Taj day."
+        ]
+      },
+      "facts": [
+        "A5",
+        "A6",
+        "A7",
+        "AM4",
+        "CP5",
+        "D9",
+        "F6",
+        "F7",
+        "H6",
+        "HM4",
+        "I4",
+        "J3",
+        "JM5",
+        "JP12",
+        "JP5",
+        "JP6",
+        "M2",
+        "NG2",
+        "P3",
+        "P6",
+        "Q6",
+        "R3",
+        "T5",
+        "T6",
+        "T7"
+      ],
+      "sources": []
+    }
+  ]
+}

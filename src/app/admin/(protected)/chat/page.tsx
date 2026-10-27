@@ -30,7 +30,7 @@ export default async function ChatAdminPage() {
       <section className="rounded-xl border border-line bg-white p-5 text-sm">
         <h2 className="font-semibold">Settings</h2>
         <p className="mt-1 text-muted">
-          Models: routing <code>{routeModel()}</code>, answers <code>{chatModel()}</code>, web research <code>{chatResearchModel()}</code>. Visitors get {LIMITS.freeMessages} free messages, then must sign up; signed-in travellers get {LIMITS.travellerPerDay} a day. Live web research: {LIMITS.researchAnonPerDay}/day for visitors, {LIMITS.researchTravellerPerDay}/day signed in (cached answers don’t count).
+          Models: routing <code>{routeModel()}</code>, answers <code>{chatModel()}</code>, web research <code>{chatResearchModel()}</code>. Visitors get {LIMITS.freeChats} free chats (up to {LIMITS.freeMessagesPerChat} messages each), then must sign up; signed-in travellers get {LIMITS.travellerPerDay} a day. Live web research: {LIMITS.researchAnonPerDay}/day for visitors, {LIMITS.researchTravellerPerDay}/day signed in (cached answers don’t count).
         </p>
         {user.role === "admin" ? <div className="mt-3"><ChatBudgetForm current={budgetUsd} /></div> : null}
       </section>

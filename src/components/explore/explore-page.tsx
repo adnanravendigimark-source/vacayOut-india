@@ -4,420 +4,25 @@ import { useState, useMemo } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { Icon, type Name } from "@/components/icons/icon";
+import type { ExploreData } from "@/lib/places/public-lists";
 import { AiPlannerModal } from "@/components/chat/ai-planner-modal";
 
-interface StateCardItem {
-  id: string;
-  name: string;
-  slug: string;
-  region: "north" | "south" | "east" | "west" | "central" | "northeast";
-  destinationsCount: number;
-  image: string;
-  prompt: string;
-}
+export type PageHero = { src: string; alt: string; caption: string; credit: string; creditUrl: string; license: string; licenseUrl: string };
 
-const ALL_STATES: StateCardItem[] = [
-  // Row 1
-  {
-    id: "jammu-kashmir",
-    name: "Jammu & Kashmir",
-    slug: "jammu-kashmir",
-    region: "north",
-    destinationsCount: 12,
-    image: "/images/cinematic/hero-india-poster.jpg",
-    prompt: "Plan a trip to Jammu & Kashmir covering Gulmarg, Srinagar, and Pahalgam",
-  },
-  {
-    id: "himachal-pradesh",
-    name: "Himachal Pradesh",
-    slug: "himachal-pradesh",
-    region: "north",
-    destinationsCount: 18,
-    image: "/images/unsplash/manali.jpg",
-    prompt: "Plan a trip to Himachal Pradesh covering Manali, Shimla, and Spiti Valley",
-  },
-  {
-    id: "uttarakhand",
-    name: "Uttarakhand",
-    slug: "uttarakhand",
-    region: "north",
-    destinationsCount: 15,
-    image: "/images/destinations/rishikesh.jpg",
-    prompt: "Plan a trip to Uttarakhand covering Rishikesh, Mussoorie, and Nainital",
-  },
-  {
-    id: "punjab",
-    name: "Punjab",
-    slug: "punjab",
-    region: "north",
-    destinationsCount: 8,
-    image: "/images/states/punjab.jpg",
-    prompt: "Plan a heritage and food trip to Amritsar and Punjab",
-  },
+const REGION_ORDER = ["north", "central", "east", "west", "south", "northeast", "islands"] as const;
 
-  // Row 2
-  {
-    id: "rajasthan",
-    name: "Rajasthan",
-    slug: "rajasthan",
-    region: "west",
-    destinationsCount: 24,
-    image: "/images/cinematic/dest-jaipur.jpg",
-    prompt: "Plan a royal palace tour across Jaipur, Jodhpur, and Udaipur in Rajasthan",
-  },
-  {
-    id: "uttar-pradesh",
-    name: "Uttar Pradesh",
-    slug: "uttar-pradesh",
-    region: "central",
-    destinationsCount: 20,
-    image: "/images/cinematic/dest-varanasi.jpg",
-    prompt: "Plan a spiritual and cultural tour of Varanasi, Agra, and Lucknow in Uttar Pradesh",
-  },
-  {
-    id: "bihar",
-    name: "Bihar",
-    slug: "bihar",
-    region: "east",
-    destinationsCount: 10,
-    image: "/images/states/bihar.jpg",
-    prompt: "Plan a Buddhist circuit pilgrimage to Bodh Gaya, Nalanda, and Rajgir in Bihar",
-  },
-  {
-    id: "jharkhand",
-    name: "Jharkhand",
-    slug: "jharkhand",
-    region: "east",
-    destinationsCount: 7,
-    image: "/images/states/jharkhand.jpg",
-    prompt: "Plan a nature and waterfall exploration of Jharkhand including Betla and Dassam",
-  },
-
-  // Row 3
-  {
-    id: "west-bengal",
-    name: "West Bengal",
-    slug: "west-bengal",
-    region: "east",
-    destinationsCount: 16,
-    image: "/images/states/west-bengal.jpg",
-    prompt: "Plan a trip to Kolkata heritage, Darjeeling tea hills, and Sundarbans in West Bengal",
-  },
-  {
-    id: "sikkim",
-    name: "Sikkim",
-    slug: "sikkim",
-    region: "northeast",
-    destinationsCount: 6,
-    image: "/images/states/sikkim.jpg",
-    prompt: "Plan a mountain holiday in Gangtok, Pelling, and North Sikkim",
-  },
-  {
-    id: "assam",
-    name: "Assam",
-    slug: "assam",
-    region: "northeast",
-    destinationsCount: 9,
-    image: "/images/states/assam.jpg",
-    prompt: "Plan a wildlife safari in Kaziranga and Brahmaputra cruise in Assam",
-  },
-  {
-    id: "meghalaya",
-    name: "Meghalaya",
-    slug: "meghalaya",
-    region: "northeast",
-    destinationsCount: 5,
-    image: "/images/cinematic/dest-meghalaya.jpg",
-    prompt: "Plan a trip to Shillong, Cherrapunji, and Dawki living root bridges in Meghalaya",
-  },
-
-  // Row 4
-  {
-    id: "manipur",
-    name: "Manipur",
-    slug: "manipur",
-    region: "northeast",
-    destinationsCount: 4,
-    image: "/images/states/manipur.jpg",
-    prompt: "Plan a scenic tour to Loktak Lake, Imphal, and Keibul Lamjao in Manipur",
-  },
-  {
-    id: "nagaland",
-    name: "Nagaland",
-    slug: "nagaland",
-    region: "northeast",
-    destinationsCount: 3,
-    image: "/images/states/nagaland.jpg",
-    prompt: "Plan a cultural trip to Kohima, Dzukou Valley, and Hornbill Festival in Nagaland",
-  },
-  {
-    id: "tripura",
-    name: "Tripura",
-    slug: "tripura",
-    region: "northeast",
-    destinationsCount: 3,
-    image: "/images/states/tripura.jpg",
-    prompt: "Plan a heritage tour to Neermahal, Ujjayanta Palace, and Unakoti in Tripura",
-  },
-  {
-    id: "mizoram",
-    name: "Mizoram",
-    slug: "mizoram",
-    region: "northeast",
-    destinationsCount: 2,
-    image: "/images/states/mizoram.jpg",
-    prompt: "Plan a peaceful hill trip to Aizawl, Reiek, and Champhai in Mizoram",
-  },
-
-  // Row 5
-  {
-    id: "andhra-pradesh",
-    name: "Andhra Pradesh",
-    slug: "andhra-pradesh",
-    region: "south",
-    destinationsCount: 8,
-    image: "/images/states/andhra-pradesh.jpg",
-    prompt: "Plan a temple and coastal trip to Tirupati, Visakhapatnam, and Araku in Andhra Pradesh",
-  },
-  {
-    id: "karnataka",
-    name: "Karnataka",
-    slug: "karnataka",
-    region: "south",
-    destinationsCount: 12,
-    image: "/images/states/karnataka.jpg",
-    prompt: "Plan an itinerary for Hampi ruins, Coorg coffee estates, and Mysore Palace in Karnataka",
-  },
-  {
-    id: "kerala",
-    name: "Kerala",
-    slug: "kerala",
-    region: "south",
-    destinationsCount: 14,
-    image: "/images/unsplash/kerala.jpg",
-    prompt: "Plan a backwater and beach vacation in Alleppey, Munnar, and Varkala in Kerala",
-  },
-  {
-    id: "tamil-nadu",
-    name: "Tamil Nadu",
-    slug: "tamil-nadu",
-    region: "south",
-    destinationsCount: 16,
-    image: "/images/states/tamil-nadu.jpg",
-    prompt: "Plan a grand temple tour of Madurai, Thanjavur, and Chennai in Tamil Nadu",
-  },
-
-  // Page 2 & Other States & UTs (making 36 total)
-  {
-    id: "goa",
-    name: "Goa",
-    slug: "goa",
-    region: "west",
-    destinationsCount: 14,
-    image: "/images/cinematic/dest-goa.jpg",
-    prompt: "Plan a relaxed vacation in North and South Goa",
-  },
-  {
-    id: "gujarat",
-    name: "Gujarat",
-    slug: "gujarat",
-    region: "west",
-    destinationsCount: 16,
-    image: "/images/cinematic/dest-udaipur.jpg",
-    prompt: "Plan a trip to Rann of Kutch, Gir National Park, and Somnath in Gujarat",
-  },
-  {
-    id: "maharashtra",
-    name: "Maharashtra",
-    slug: "maharashtra",
-    region: "west",
-    destinationsCount: 22,
-    image: "/images/unsplash/trip-weekend.jpg",
-    prompt: "Plan a tour of Mumbai, Ajanta-Ellora caves, and Western Ghats in Maharashtra",
-  },
-  {
-    id: "madhya-pradesh",
-    name: "Madhya Pradesh",
-    slug: "madhya-pradesh",
-    region: "central",
-    destinationsCount: 18,
-    image: "/images/destinations/wildlife.jpg",
-    prompt: "Plan a wildlife safari in Bandhavgarh and Khajuraho temples in Madhya Pradesh",
-  },
-  {
-    id: "chhattisgarh",
-    name: "Chhattisgarh",
-    slug: "chhattisgarh",
-    region: "central",
-    destinationsCount: 9,
-    image: "/images/destinations/trekking.jpg",
-    prompt: "Plan a nature and tribal tour of Bastar and Chitrakote Falls in Chhattisgarh",
-  },
-  {
-    id: "odisha",
-    name: "Odisha",
-    slug: "odisha",
-    region: "east",
-    destinationsCount: 12,
-    image: "/images/unsplash/trip-heritage.jpg",
-    prompt: "Plan a heritage tour of Puri Jagannath, Konark Sun Temple, and Chilika Lake in Odisha",
-  },
-  {
-    id: "telangana",
-    name: "Telangana",
-    slug: "telangana",
-    region: "south",
-    destinationsCount: 10,
-    image: "/images/states/andhra-pradesh.jpg",
-    prompt: "Plan a cultural and historic visit to Hyderabad, Golconda Fort, and Warangal in Telangana",
-  },
-  {
-    id: "haryana",
-    name: "Haryana",
-    slug: "haryana",
-    region: "north",
-    destinationsCount: 7,
-    image: "/images/unsplash/trip-family.jpg",
-    prompt: "Plan a heritage weekend to Kurukshetra and Sultanpur Bird Sanctuary in Haryana",
-  },
-  {
-    id: "delhi",
-    name: "Delhi",
-    slug: "delhi",
-    region: "north",
-    destinationsCount: 15,
-    image: "/images/cinematic/hero-india-poster.jpg",
-    prompt: "Plan a 3-day exploration of Old Delhi food, monuments, and museums",
-  },
-  {
-    id: "ladakh",
-    name: "Ladakh",
-    slug: "ladakh",
-    region: "north",
-    destinationsCount: 14,
-    image: "/images/destinations/ladakh.jpg",
-    prompt: "Plan an adventure road trip through Leh, Nubra Valley, and Pangong Lake in Ladakh",
-  },
-  {
-    id: "arunachal-pradesh",
-    name: "Arunachal Pradesh",
-    slug: "arunachal-pradesh",
-    region: "northeast",
-    destinationsCount: 6,
-    image: "/images/destinations/spiti.jpg",
-    prompt: "Plan a mountain trek to Tawang Monastery and Ziro Valley in Arunachal Pradesh",
-  },
-  {
-    id: "andaman-nicobar",
-    name: "Andaman & Nicobar",
-    slug: "andaman-nicobar",
-    region: "south",
-    destinationsCount: 8,
-    image: "/images/destinations/andaman.jpg",
-    prompt: "Plan a scuba diving and beach holiday in Havelock and Neil Islands",
-  },
-  {
-    id: "chandigarh",
-    name: "Chandigarh",
-    slug: "chandigarh",
-    region: "north",
-    destinationsCount: 5,
-    image: "/images/states/punjab.jpg",
-    prompt: "Plan a city break to Rock Garden and Sukhna Lake in Chandigarh",
-  },
-  {
-    id: "puducherry",
-    name: "Puducherry",
-    slug: "puducherry",
-    region: "south",
-    destinationsCount: 6,
-    image: "/images/cinematic/dest-goa.jpg",
-    prompt: "Plan a French colonial promenade and Auroville getaway in Puducherry",
-  },
-  {
-    id: "lakshadweep",
-    name: "Lakshadweep",
-    slug: "lakshadweep",
-    region: "south",
-    destinationsCount: 4,
-    image: "/images/destinations/andaman.jpg",
-    prompt: "Plan an island escape to Bangaram and Agatti lagoons in Lakshadweep",
-  },
-  {
-    id: "daman-diu",
-    name: "Daman & Diu",
-    slug: "daman-diu",
-    region: "west",
-    destinationsCount: 4,
-    image: "/images/cinematic/dest-goa.jpg",
-    prompt: "Plan a coastal fort and beach weekend in Daman and Diu",
-  },
-];
-
-interface TravelInterest {
-  title: string;
-  count: string;
-  icon: Name;
-  prompt: string;
-}
-
-const TRAVEL_INTERESTS: TravelInterest[] = [
-  {
-    title: "Mountains",
-    count: "87 destinations",
-    icon: "mountain",
-    prompt: "Suggest the best mountain destinations and Himalayan hill retreats in India",
-  },
-  {
-    title: "Beaches",
-    count: "62 destinations",
-    icon: "waves",
-    prompt: "Suggest the most scenic beach and coastal getaways in India",
-  },
-  {
-    title: "Temples",
-    count: "54 destinations",
-    icon: "temple",
-    prompt: "Suggest ancient temples and sacred spiritual routes across India",
-  },
-  {
-    title: "Wildlife",
-    count: "41 destinations",
-    icon: "paw",
-    prompt: "Suggest the top national parks and tiger reserves for wildlife lovers in India",
-  },
-  {
-    title: "Heritage",
-    count: "38 destinations",
-    icon: "palace",
-    prompt: "Suggest royal palaces, UNESCO forts, and ancient monuments in India",
-  },
-  {
-    title: "Adventure",
-    count: "33 destinations",
-    icon: "route",
-    prompt: "Suggest the best adventure treks, river rafting, and camping spots in India",
-  },
-  {
-    title: "Food & Culture",
-    count: "24 destinations",
-    icon: "utensils",
-    prompt: "Suggest the best culinary and authentic cultural cities to explore in India",
-  },
-];
-
-const REGION_TABS = [
-  { key: "all", label: "All (36)" },
-  { key: "north", label: "North (9)" },
-  { key: "south", label: "South (7)" },
-  { key: "east", label: "East (6)" },
-  { key: "west", label: "West (6)" },
-  { key: "central", label: "Central (4)" },
-  { key: "northeast", label: "Northeast (8)" },
-];
-
-export function ExplorePage({ initialRegion = "all" }: { initialRegion?: string }) {
-  const [selectedRegion, setSelectedRegion] = useState(REGION_TABS.some((t) => t.key === initialRegion) ? initialRegion : "all");
+export function ExplorePage({ data, hero, initialRegion = "all" }: { data: ExploreData; hero: PageHero; initialRegion?: string }) {
+  const tabs = useMemo(
+    () => [
+      { key: "all", label: `All (${data.states.length})` },
+      ...REGION_ORDER.flatMap((k) => {
+        const z = data.zones.find((x) => x.key === k);
+        return z ? [{ key: z.key as string, label: `${z.label} (${z.count})` }] : [];
+      }),
+    ],
+    [data],
+  );
+  const [selectedRegion, setSelectedRegion] = useState(tabs.some((t) => t.key === initialRegion) ? initialRegion : "all");
   const [searchQuery, setSearchQuery] = useState("");
   const [currentPage, setCurrentPage] = useState(1);
   const [isModalOpen, setIsModalOpen] = useState(false);
@@ -436,19 +41,12 @@ export function ExplorePage({ initialRegion = "all" }: { initialRegion?: string 
     }
   };
 
-  // Filter states by region & search query
+  // Filter published states by region & search query
   const filteredStates = useMemo(() => {
-    return ALL_STATES.filter((item) => {
-      const matchesRegion =
-        selectedRegion === "all" || item.region === selectedRegion;
-      const matchesSearch =
-        !searchQuery.trim() ||
-        item.name.toLowerCase().includes(searchQuery.toLowerCase());
-      return matchesRegion && matchesSearch;
-    });
-  }, [selectedRegion, searchQuery]);
+    const q = searchQuery.trim().toLowerCase();
+    return data.states.filter((item) => (selectedRegion === "all" || item.zone === selectedRegion) && (!q || item.name.toLowerCase().includes(q)));
+  }, [data, selectedRegion, searchQuery]);
 
-  // 20 items per page as shown in screenshot
   const ITEMS_PER_PAGE = 20;
   const totalPages = Math.ceil(filteredStates.length / ITEMS_PER_PAGE) || 1;
   const paginatedStates = filteredStates.slice(
@@ -463,8 +61,8 @@ export function ExplorePage({ initialRegion = "all" }: { initialRegion?: string 
         {/* Background Image: Udaipur Lake Pichola & City Palace at Sunset */}
         <div className="absolute inset-0 -z-20">
           <Image
-            src="/images/cinematic/dest-udaipur.jpg"
-            alt="Explore India - Udaipur Lake Pichola and City Palace"
+            src={hero.src}
+            alt={hero.alt}
             fill
             priority
             className="object-cover object-[center_35%]"
@@ -529,10 +127,11 @@ export function ExplorePage({ initialRegion = "all" }: { initialRegion?: string 
         <div className="absolute right-4 bottom-4 sm:right-8 sm:bottom-6 z-10 text-right text-[0.6875rem] text-white/80 drop-shadow-xs">
           <p className="flex items-center gap-1 justify-end font-medium">
             <Icon name="pin" size={11} className="text-coral" />
-            <span>Udaipur, Rajasthan</span>
+            <span>{hero.caption}</span>
           </p>
           <p className="text-white/60 text-[0.625rem]">
-            Photo by Pexels on Unsplash ↗
+            Photo: <a href={hero.creditUrl} target="_blank" rel="nofollow noopener noreferrer" className="underline">{hero.credit}</a> ·{" "}
+            <a href={hero.licenseUrl} target="_blank" rel="license nofollow noopener noreferrer" className="underline">{hero.license}</a>
           </p>
         </div>
       </section>
@@ -549,7 +148,7 @@ export function ExplorePage({ initialRegion = "all" }: { initialRegion?: string 
 
             {/* Region Filter Tabs / Pills matching screenshot */}
             <div className="mt-4 flex items-center gap-2 overflow-x-auto pb-2 scrollbar-none">
-              {REGION_TABS.map((tab) => {
+              {tabs.map((tab) => {
                 const isActive = selectedRegion === tab.key;
                 return (
                   <button
@@ -572,7 +171,19 @@ export function ExplorePage({ initialRegion = "all" }: { initialRegion?: string 
             </div>
 
             {/* 4-Column Grid of State Cards */}
-            {paginatedStates.length === 0 ? (
+            {data.states.length === 0 ? (
+              <div className="mt-6 rounded-2xl border border-dashed border-[#E5E2DC] bg-[#FAF9F5] px-6 py-16 text-center text-[#777777]">
+                <p className="text-base font-semibold text-ink">Our destination guides are being researched and reviewed.</p>
+                <p className="mt-1 text-xs">Each guide is checked against official sources and approved by an editor before it appears here. Meanwhile, our AI planner can help you plan.</p>
+                <button
+                  type="button"
+                  onClick={() => handleOpenAi("Help me plan a trip in India")}
+                  className="mt-4 rounded-full bg-[#234832] text-white px-4 py-1.5 text-xs font-semibold"
+                >
+                  Plan with AI
+                </button>
+              </div>
+            ) : paginatedStates.length === 0 ? (
               <div className="py-16 text-center text-[#777777]">
                 <p className="text-base font-semibold text-ink">No states match your search.</p>
                 <p className="mt-1 text-xs">Try selecting “All” or clearing your search term.</p>
@@ -591,19 +202,24 @@ export function ExplorePage({ initialRegion = "all" }: { initialRegion?: string 
               <div className="mt-6 grid grid-cols-2 sm:grid-cols-2 md:grid-cols-4 gap-3.5 sm:gap-4">
                 {paginatedStates.map((st) => (
                   <Link
-                    key={st.id}
+                    key={st.slug}
                     href={`/india/${st.slug}`}
                     className="group flex flex-col rounded-xl border border-[#ECE9E2] bg-white shadow-xs hover:border-coral hover:shadow-md transition-all overflow-hidden cursor-pointer"
                   >
                     {/* Card Thumbnail */}
                     <div className="relative aspect-[16/10] w-full overflow-hidden bg-[#EFECE6]">
-                      <Image
-                        src={st.image}
-                        alt={`${st.name} tourism and travel guide`}
-                        fill
-                        sizes="(min-width: 1280px) 20vw, (min-width: 768px) 25vw, 50vw"
-                        className="object-cover transition-transform duration-500 ease-out group-hover:scale-106"
-                      />
+                      {st.image ? (
+                        <Image
+                          src={st.image.url}
+                          alt={st.image.alt}
+                          fill
+                          sizes="(min-width: 1280px) 20vw, (min-width: 768px) 25vw, 50vw"
+                          className="object-cover transition-transform duration-500 ease-out group-hover:scale-106"
+                        />
+                      ) : (
+                        <span className="flex size-full items-center justify-center text-[#B9B4AA]"><Icon name="mountain" size={28} /></span>
+                      )}
+                      {st.image?.kind === "ai_generated" ? <span className="absolute left-2 top-2 rounded bg-black/60 px-1.5 py-0.5 text-[0.625rem] font-semibold text-white">AI illustration</span> : null}
                     </div>
 
                     {/* Card Info */}
@@ -613,7 +229,7 @@ export function ExplorePage({ initialRegion = "all" }: { initialRegion?: string 
                       </h3>
                       <p className="mt-0.5 flex items-center gap-1 text-[0.6875rem] sm:text-xs text-[#777777]">
                         <Icon name="pin" size={11} className="text-[#999999] shrink-0" />
-                        <span>{st.destinationsCount} destinations</span>
+                        <span>{st.destinationsCount ? `${st.destinationsCount} guide${st.destinationsCount === 1 ? "" : "s"} inside` : "State guide"}</span>
                       </p>
                     </div>
                   </Link>
@@ -704,10 +320,10 @@ export function ExplorePage({ initialRegion = "all" }: { initialRegion?: string 
 
               <div className="mt-3">
                 <h3 className="text-sm sm:text-base font-bold text-ink">
-                  36 States &amp; Union Territories
+                  {data.states.length} {data.states.length === 1 ? "state" : "states"} with published guides
                 </h3>
                 <p className="mt-1 text-xs text-[#666666] leading-relaxed">
-                  Discover all destinations across India&apos;s incredible regions.
+                  {data.placeCount} reviewed guide{data.placeCount === 1 ? "" : "s"} so far. Every guide is checked against official sources before it goes live.
                 </p>
 
                 <button
@@ -722,42 +338,44 @@ export function ExplorePage({ initialRegion = "all" }: { initialRegion?: string 
               </div>
             </div>
 
-            {/* Widget 2: Popular Travel Interests matching screenshot */}
-            <div className="rounded-2xl border border-[#E5E2DC] bg-white p-5 shadow-xs">
-              <h3 className="text-sm sm:text-base font-bold text-ink mb-3.5">
-                Popular Travel Interests
-              </h3>
+            {/* Widget 2: Popular Travel Interests (counts of published guides) */}
+            {data.interests.length ? (
+              <div className="rounded-2xl border border-[#E5E2DC] bg-white p-5 shadow-xs">
+                <h3 className="text-sm sm:text-base font-bold text-ink mb-3.5">
+                  Popular Travel Interests
+                </h3>
 
-              <div className="space-y-1">
-                {TRAVEL_INTERESTS.map((interest) => (
-                  <button
-                    key={interest.title}
-                    type="button"
-                    onClick={() => handleOpenAi(interest.prompt)}
-                    className="group flex w-full items-center justify-between p-2 rounded-xl hover:bg-[#F7F9F6] transition-colors text-left cursor-pointer"
-                  >
-                    <div className="flex items-center gap-3 min-w-0">
-                      <div className="flex size-7 shrink-0 items-center justify-center rounded-lg bg-[#FAF8F5] text-ink group-hover:text-coral transition-colors">
-                        <Icon name={interest.icon} size={15} />
+                <div className="space-y-1">
+                  {data.interests.map((interest) => (
+                    <button
+                      key={interest.key}
+                      type="button"
+                      onClick={() => handleOpenAi(interest.prompt)}
+                      className="group flex w-full items-center justify-between p-2 rounded-xl hover:bg-[#F7F9F6] transition-colors text-left cursor-pointer"
+                    >
+                      <div className="flex items-center gap-3 min-w-0">
+                        <div className="flex size-7 shrink-0 items-center justify-center rounded-lg bg-[#FAF8F5] text-ink group-hover:text-coral transition-colors">
+                          <Icon name={interest.icon as Name} size={15} />
+                        </div>
+                        <div className="min-w-0">
+                          <p className="text-xs font-bold text-ink group-hover:text-coral transition-colors truncate">
+                            {interest.label}
+                          </p>
+                          <p className="text-[0.6875rem] text-[#777777] truncate">
+                            {interest.count} guide{interest.count === 1 ? "" : "s"}
+                          </p>
+                        </div>
                       </div>
-                      <div className="min-w-0">
-                        <p className="text-xs font-bold text-ink group-hover:text-coral transition-colors truncate">
-                          {interest.title}
-                        </p>
-                        <p className="text-[0.6875rem] text-[#777777] truncate">
-                          {interest.count}
-                        </p>
-                      </div>
-                    </div>
-                    <Icon
-                      name="arrowRight"
-                      size={12}
-                      className="text-[#AAAAAA] group-hover:text-coral group-hover:translate-x-0.5 transition-all shrink-0 ml-1"
-                    />
-                  </button>
-                ))}
+                      <Icon
+                        name="arrowRight"
+                        size={12}
+                        className="text-[#AAAAAA] group-hover:text-coral group-hover:translate-x-0.5 transition-all shrink-0 ml-1"
+                      />
+                    </button>
+                  ))}
+                </div>
               </div>
-            </div>
+            ) : null}
 
             {/* Widget 3: Plan your perfect trip with AI */}
             <div className="relative overflow-hidden rounded-2xl border border-[#D5E5DA] bg-gradient-to-br from-[#EEF5F0] via-[#E8F2EC] to-[#E2EFE7] p-5 shadow-xs">

@@ -1,6 +1,8 @@
 "use client";
 
 import { useState, useRef, useEffect, useCallback, useMemo } from "react";
+import { useRouter } from "next/navigation";
+import { routes } from "@/lib/routes";
 import { Icon } from "@/components/icons/icon";
 import type { ExamplePrompt } from "@/lib/data/types";
 import type { Block } from "@/lib/chat/schema";
@@ -13,6 +15,7 @@ import {
   useChats,
 } from "@/lib/chat/store";
 import { BlockList } from "./blocks/block-list";
+import { FreeMessagesHint } from "./free-hint";
 
 /**
  * Highlight cards are filled ONLY from the answer's own blocks (which come from
@@ -77,6 +80,7 @@ export function AiPlannerModal({
   const hasInitialized = useRef(false);
 
   const chats = useChats();
+  const router = useRouter();
   const currentChat = activeId ? chats.find((c) => c.id === activeId) : chats[0];
 
   const scrollToEnd = useCallback((smooth = true) => {
@@ -114,13 +118,15 @@ export function AiPlannerModal({
     }
   }, []);
 
-  // Send turn
+  // Send turn. Follow-ups go to the conversation on screen; only a new search
+  // (`newChat`) starts a new one — that is what counts as a free chat.
+  const shownId = currentChat?.id ?? null;
   const send = useCallback(
-    (raw: string) => {
+    (raw: string, newChat = false) => {
       const text = raw.trim().slice(0, MAX_MESSAGE_CHARS);
       if (!text || controller.current) return;
 
-      let id = activeId;
+      let id = newChat ? null : shownId;
       if (!id || !getChat(id)) {
         id = crypto.randomUUID();
         createChat(id, text);
@@ -136,10 +142,10 @@ export function AiPlannerModal({
       requestAnimationFrame(() => scrollToEnd());
       void run(id, assistantId);
     },
-    [activeId, run, scrollToEnd],
+    [shownId, run, scrollToEnd],
   );
 
-  // Start initial prompt when opened
+  // Start initial prompt when opened (a new search is a new conversation)
   useEffect(() => {
     if (!isOpen) {
       hasInitialized.current = false;
@@ -147,7 +153,7 @@ export function AiPlannerModal({
     }
     if (initialPrompt && !hasInitialized.current) {
       hasInitialized.current = true;
-      const t = setTimeout(() => send(initialPrompt), 50);
+      const t = setTimeout(() => send(initialPrompt, true), 50);
       return () => clearTimeout(t);
     }
   }, [isOpen, initialPrompt, send]);
@@ -233,7 +239,7 @@ export function AiPlannerModal({
             </div>
           </div>
 
-          {/* Right Action Controls: Share & Close */}
+          {/* Right Action Controls: Share, Full screen & Close */}
           <div className="flex items-center gap-2 shrink-0">
             <button
               type="button"
@@ -243,6 +249,22 @@ export function AiPlannerModal({
             >
               <Icon name="compass" size={13} className="text-coral" />
               <span>{copied ? "Copied!" : "Share"}</span>
+            </button>
+
+            <button
+              type="button"
+              disabled={busy}
+              onClick={() => {
+                // Opens this conversation on the full chat page, with your chat history alongside.
+                const href = currentChat ? routes.chatThread(currentChat.id) : routes.chat;
+                onClose();
+                router.push(href);
+              }}
+              aria-label="Open full screen with chat history"
+              title={busy ? "Available when the reply finishes" : "Full screen with chat history"}
+              className="flex size-8 items-center justify-center rounded-full bg-neutral-100 hover:bg-neutral-200 text-ink transition-colors active:scale-95 disabled:opacity-40"
+            >
+              <Icon name="maximize" size={15} strokeWidth={2.2} />
             </button>
 
             <button
@@ -419,6 +441,7 @@ export function AiPlannerModal({
               <Icon name="arrowRight" size={14} strokeWidth={2.4} />
             </button>
           </form>
+          <FreeMessagesHint />
         </div>
       </div>
     </div>

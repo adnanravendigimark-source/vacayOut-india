@@ -1,6 +1,11 @@
 import type { Metadata } from "next";
 import { ThingsToDoPage } from "@/components/things-to-do/things-to-do-page";
 import { site } from "@/lib/site";
+import { PAGE_HEROES } from "@/lib/data/page-heroes";
+import { thingsToDoData } from "@/lib/places/public-lists";
+
+// Reads published guides on each request, so new publishes appear immediately.
+export const dynamic = "force-dynamic";
 
 export const metadata: Metadata = {
   title: {
@@ -13,11 +18,12 @@ export const metadata: Metadata = {
     title: "Things to Do in India | VacayOut",
     description:
       "From majestic mountains to pristine beaches, sacred temples to thrilling adventures – find curated experiences that match your travel style across India.",
-    images: [{ url: "/images/things-to-do/dal-lake-hero.jpg", alt: "Dal Lake Srinagar - Things to Do in India" }],
+    images: [{ url: PAGE_HEROES.thingsToDo.src, alt: PAGE_HEROES.thingsToDo.alt }],
   },
 };
 
-export default function Page() {
+export default async function Page() {
+  const data = await thingsToDoData();
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "CollectionPage",
@@ -33,7 +39,7 @@ export default function Page() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd).replace(/</g, "\\u003c") }}
       />
-      <ThingsToDoPage />
+      <ThingsToDoPage data={data} hero={PAGE_HEROES.thingsToDo} />
     </>
   );
 }

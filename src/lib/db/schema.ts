@@ -56,6 +56,13 @@ export const sectionKey = pgEnum("section_key", [
   "faqs",
   "itinerary",
   "budget",
+  // Travel-guide sections (migration 0007).
+  "visit_info",
+  "where_to_stay",
+  "food",
+  "culture_etiquette",
+  "practical_info",
+  "safety_health",
 ]);
 
 export const sectionStatus = pgEnum("section_status", ["draft", "approved"]);
@@ -208,6 +215,49 @@ export const media = pgTable(
     createdAt: timestamp("created_at", { withTimezone: true }).notNull().defaultNow(),
   },
   (t) => [index("media_place_idx").on(t.placeId)],
+);
+
+/**
+ * Ready-made trip plans (2–3, 4–5, 7 days…) for a destination. Same rules as
+ * places: drafts stay in the admin; an editor publishes, which freezes a
+ * snapshot. Public pages read ONLY `publishedSnapshot` of published rows.
+ * The plan's shape is validated in src/lib/itineraries/plan.ts.
+ */
+export const itineraries = pgTable(
+  "itineraries",
+  {
+    id: uuid("id").primaryKey().defaultRandom(),
+    slug: text("slug").notNull(),
+    /** Main destination (its guide is linked from the itinerary). */
+    placeId: uuid("place_id")
+      .notNull()
+      .references(() => places.id, { onDelete: "restrict" }),
+    title: text("title").notNull(),
+    summary: text("summary").notNull(),
+    durationDays: integer("duration_days").notNull(),
+    tripTypes: text("trip_types").array().notNull().default(sql`'{}'::text[]`),
+    plan: jsonb("plan").$type<ItineraryPlan>().notNull(),
+    seoTitle: text("seo_title"),
+    seoDescription: text("seo_description"),
+    heroMediaId: uuid("hero_media_id").references((): AnyPgColumn => media.id, { onDelete: "set null" }),
+    sources: jsonb("sources").$type<SectionSource[]>().notNull().default([]),
+    /** Research findings the plan relies on; they must be approved before it can be published. */
+    findingIds: jsonb("finding_ids").$type<string[]>().notNull().default([]),
+    status: placeStatus("status").notNull().default("draft"),
+    /** Set when a person edits the plan, so re-seeding/regeneration never overwrites it. */
+    locked: boolean("locked").notNull().default(false),
+    publishedSnapshot: jsonb("published_snapshot").$type<ItinerarySnapshot>(),
+    publishedAt: timestamp("published_at", { withTimezone: true }),
+    publishedBy: uuid("published_by").references(() => users.id),
+    createdBy: uuid("created_by").references(() => users.id),
+    ...timestamps,
+  },
+  (t) => [
+    uniqueIndex("itineraries_slug_idx").on(t.slug),
+    index("itineraries_place_idx").on(t.placeId),
+    index("itineraries_status_idx").on(t.status),
+    check("itineraries_days_range", sql`${t.durationDays} between 1 and 21`),
+  ],
 );
 
 /** Permanent redirects for URLs that changed after being published. */
@@ -620,6 +670,31 @@ export type SnapshotImage = {
   licenseUrl?: string | null;
   attribution: string | null;
   sourceUrl: string | null;
+};
+
+export type ItineraryStop = { time?: string; name: string; placeSlug?: string; duration?: string; note?: string };
+export type ItineraryDay = { title: string; summary?: string; stops: ItineraryStop[]; travel?: string; meals?: string; overnight?: string };
+export type ItineraryPlan = {
+  /** Who it suits and the pace. */
+  overview: string;
+  days: ItineraryDay[];
+  budget: { assumptions: string; lines: { label: string; amount: string; basis: string }[] };
+  booking: { item: string; detail: string }[];
+  alternatives: string[];
+  tips?: string[];
+};
+export type ItinerarySnapshot = {
+  slug: string;
+  title: string;
+  summary: string;
+  durationDays: number;
+  tripTypes: string[];
+  seoTitle: string;
+  seoDescription: string;
+  plan: ItineraryPlan;
+  sources: SectionSource[];
+  hero: SnapshotImage | null;
+  place: { name: string; slug: string; kind: string; stateSlug: string | null; stateName: string | null; path: string | null };
 };
 
 export type PublishedSnapshot = {
