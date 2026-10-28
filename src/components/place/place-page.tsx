@@ -16,7 +16,6 @@ import { PlacesExplorer, type ExplorerPlace } from "./places-explorer";
 type Child = { name: string; slug: string; kind: string; summary: string | null; lat?: number | null; lng?: number | null; hero?: SnapshotImage | null; tripTypes?: string[] };
 type Inline = { slug: string; snapshot: PublishedSnapshot };
 type Related = { name: string; slug: string; kind: string; summary: string | null; type: "nearby" | "day_trip"; stateSlug: string | null; lat?: number | null; lng?: number | null; hero?: SnapshotImage | null };
-type Section = PublishedSnapshot["sections"][number];
 type ItineraryLink = { slug: string; title: string; durationDays: number; summary: string };
 
 const ext = { target: "_blank", rel: "nofollow noopener noreferrer" } as const;
@@ -34,12 +33,6 @@ function Credit({ img, onDark = false }: { img: SnapshotImage; onDark?: boolean 
       {img.sourceUrl && /^https?:\/\//.test(img.sourceUrl) ? <> · <a href={img.sourceUrl} {...ext} className="underline">source</a></> : null}
     </p>
   );
-}
-
-function sourcesOf(sections: Section[]) {
-  const seen = new Map<string, { url: string; title: string | null; site: string }>();
-  for (const s of sections) for (const src of s.sources ?? []) if (/^https?:\/\//.test(src.url) && !seen.has(src.url)) seen.set(src.url, src);
-  return [...seen.values()];
 }
 
 function Block({ id, title, children, className = "" }: { id: string; title: string; children: React.ReactNode; className?: string }) {
@@ -151,7 +144,6 @@ export function PlacePage({
     ...related.map((r) => ({ name: r.name, lat: r.lat, lng: r.lng, href: preview ? undefined : (relatedHref(r) ?? undefined) })),
   ]);
   const booking = bookingLinksFor({ name: place.name, kind: place.kind, stateName: place.state?.name ?? null });
-  const sources = sourcesOf([...sections, ...inline.flatMap((c) => c.snapshot.sections)]);
 
   const explorer: ExplorerPlace[] = [
     ...items.map((c) => ({ name: c.name, slug: c.slug, kind: c.kind, kindLabel: kindLabel(c.kind), href: link(childHref(c.slug)), hero: c.hero ?? null, tripTypes: c.tripTypes ?? [] })),
@@ -170,7 +162,6 @@ export function PlacePage({
     { id: "s-budget", label: "Budget", show: !!budget },
     { id: "practical", label: "Practical info", show: hasPractical },
     { id: "s-faqs", label: "FAQs", show: !!faqs },
-    { id: "sources", label: "Sources", show: sources.length > 0 },
   ].filter((t) => t.show);
 
   const quickFacts = [
@@ -376,19 +367,6 @@ export function PlacePage({
             </section>
           )}
 
-          {sources.length ? (
-            <Block id="sources" title="Sources">
-              <p className="-mt-3 mb-4 text-sm text-muted">Facts on this page were checked against these pages when we wrote it.</p>
-              <ul className="grid gap-2 @3xl:grid-cols-2">
-                {sources.map((src) => (
-                  <li key={src.url} className="rounded-xl border border-line bg-white px-4 py-3 text-sm">
-                    <a href={src.url} {...ext} className="font-medium text-ink underline-offset-2 hover:underline">{src.title || src.site}</a>
-                    <span className="block text-xs text-muted">{src.site}</span>
-                  </li>
-                ))}
-              </ul>
-            </Block>
-          ) : null}
         </div>
 
         {/* Sidebar */}
@@ -464,12 +442,6 @@ export function PlacePage({
             </SideCard>
           ) : null}
 
-          {sources.length ? (
-            <SideCard title="Sources">
-              <p className="text-sm leading-relaxed text-muted">Facts on this page were checked against {sources.length} source page{sources.length === 1 ? "" : "s"}, and an editor approved each section before publishing.</p>
-              <a href="#sources" className="mt-3 inline-flex items-center gap-1.5 text-sm font-semibold text-coral hover:underline">View all sources <Icon name="arrowRight" size={14} /></a>
-            </SideCard>
-          ) : null}
         </aside>
       </div>
     </article>

@@ -89,16 +89,6 @@ export default async function ItineraryPage({ params }: Params) {
               <Icon name="sparkles" size={14} /> Customise with AI
             </Link>
           </div>
-          {it.sources.length ? (
-            <div className="rounded-2xl border border-line bg-white p-5">
-              <p className="font-semibold text-ink">Sources</p>
-              <ul className="mt-2 space-y-1.5 text-sm">
-                {it.sources.map((s) => (
-                  <li key={s.url}><a href={s.url} target="_blank" rel="nofollow noopener noreferrer" className="underline-offset-2 hover:underline">{s.title || s.site}</a><span className="block text-xs text-muted">{s.site}</span></li>
-                ))}
-              </ul>
-            </div>
-          ) : null}
         </aside>
       </div>
     </article>
