@@ -29,8 +29,12 @@ function Thumb({ item, sizes }: { item: ThingsToDoData["items"][number]; sizes: 
   );
 }
 
-export function ThingsToDoPage({ data, hero }: { data: ThingsToDoData; hero: PageHero }) {
-  const [activeCategory, setActiveCategory] = useState("all");
+export type ThingsToDoFilters = { state?: string; destination?: string; category?: string };
+
+export function ThingsToDoPage({ data, hero, initial = {} }: { data: ThingsToDoData; hero: PageHero; initial?: ThingsToDoFilters }) {
+  const [activeCategory, setActiveCategory] = useState(initial.category && data.categories.some((c) => c.key === initial.category) ? initial.category : "all");
+  const [stateFilter, setStateFilter] = useState(initial.state && data.states.some((s) => s.slug === initial.state) ? initial.state : "");
+  const [destFilter, setDestFilter] = useState(initial.destination && data.destinations.some((d) => d.key === initial.destination) ? initial.destination : "");
   const [searchQuery, setSearchQuery] = useState("");
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [activePrompt, setActivePrompt] = useState<string | undefined>(undefined);
@@ -56,10 +60,13 @@ export function ThingsToDoPage({ data, hero }: { data: ThingsToDoData; hero: Pag
     const q = searchQuery.toLowerCase().trim();
     return data.items.filter(
       (item) =>
-        (activeCategory === "all" || item.tripTypes.includes(activeCategory)) &&
+        (activeCategory === "all" || item.category === activeCategory) &&
+        (!stateFilter || item.stateSlug === stateFilter) &&
+        (!destFilter || (item.destination && `${item.stateSlug}/${item.destination.slug}` === destFilter)) &&
         (!q || item.name.toLowerCase().includes(q) || item.location.toLowerCase().includes(q) || (item.summary ?? "").toLowerCase().includes(q)),
     );
-  }, [activeCategory, searchQuery, data.items]);
+  }, [activeCategory, stateFilter, destFilter, searchQuery, data.items]);
+  const destOptions = data.destinations.filter((d) => !stateFilter || d.stateSlug === stateFilter);
 
   const handleSearchSubmit = (e: React.FormEvent) => {
     e.preventDefault();
@@ -116,9 +123,27 @@ export function ThingsToDoPage({ data, hero }: { data: ThingsToDoData; hero: Pag
       </header>
 
       {/* 2. Filter Pills Navigation Bar */}
-      {pills.length > 1 ? (
+      {pills.length > 1 || data.states.length ? (
         <section className="border-b border-[#ECE9E2] bg-white py-4 sm:py-5">
-          <div className="container-site">
+          <div className="container-site space-y-3">
+            <div className="flex flex-wrap gap-3">
+              <label className="flex items-center gap-2 text-xs font-semibold text-[#555]">
+                State
+                <select value={stateFilter} onChange={(e) => { setStateFilter(e.target.value); setDestFilter(""); }} className="h-10 rounded-full border border-[#E5E2DA] bg-white px-3 text-sm font-medium text-ink">
+                  <option value="">All states</option>
+                  {data.states.map((s) => <option key={s.slug} value={s.slug}>{s.name}</option>)}
+                </select>
+              </label>
+              {destOptions.length ? (
+                <label className="flex items-center gap-2 text-xs font-semibold text-[#555]">
+                  Destination
+                  <select value={destFilter} onChange={(e) => setDestFilter(e.target.value)} className="h-10 rounded-full border border-[#E5E2DA] bg-white px-3 text-sm font-medium text-ink">
+                    <option value="">All destinations</option>
+                    {destOptions.map((d) => <option key={d.key} value={d.key}>{d.name}</option>)}
+                  </select>
+                </label>
+              ) : null}
+            </div>
             <div className="flex items-center gap-2 overflow-x-auto [scrollbar-width:none] pb-1">
               {pills.map((pill) => {
                 const isActive = activeCategory === pill.id;
@@ -126,10 +151,7 @@ export function ThingsToDoPage({ data, hero }: { data: ThingsToDoData; hero: Pag
                   <button
                     key={pill.id}
                     type="button"
-                    onClick={() => {
-                      setActiveCategory(pill.id);
-                      setSearchQuery("");
-                    }}
+                    onClick={() => setActiveCategory(pill.id)}
                     aria-pressed={isActive}
                     className={`shrink-0 rounded-full px-4 py-2 text-xs sm:text-sm font-semibold transition-all ${
                       isActive ? "bg-ink text-white shadow-xs" : "border border-[#E5E2DA] bg-[#FAF9F5] text-[#444444] hover:bg-white hover:text-ink hover:border-[#D0CBC0]"
@@ -151,7 +173,7 @@ export function ThingsToDoPage({ data, hero }: { data: ThingsToDoData; hero: Pag
             <div className="mb-6">
               <h2 className="font-serif text-2xl sm:text-3xl font-bold text-ink">Explore by Interest</h2>
               <p className="mt-1.5 text-xs sm:text-sm text-[#666666]">
-                Attractions and experiences with a reviewed guide — opening hours, entry rules and tips where an official source confirms them.
+                Activities and places with a reviewed guide — season, booking and entry rules only where an official source confirms them.
               </p>
             </div>
 
@@ -177,7 +199,7 @@ export function ThingsToDoPage({ data, hero }: { data: ThingsToDoData; hero: Pag
                     <div className="flex items-center justify-between p-3.5">
                       <div className="min-w-0 pr-2">
                         <h3 className="font-bold text-sm text-ink group-hover:text-coral transition-colors truncate">{item.name}</h3>
-                        <p className="text-[0.6875rem] text-[#777777] mt-0.5 truncate">{item.kindLabel} · {item.location}</p>
+                        <p className="text-[0.6875rem] text-[#666666] mt-0.5 truncate">{data.categories.find((c) => c.key === item.category)?.label ?? item.kindLabel} · {item.location}</p>
                       </div>
                       <span className="text-[#888888] group-hover:text-coral group-hover:translate-x-0.5 transition-all text-sm shrink-0">→</span>
                     </div>
@@ -190,7 +212,7 @@ export function ThingsToDoPage({ data, hero }: { data: ThingsToDoData; hero: Pag
               <div className="rounded-2xl border border-dashed border-[#DCD7CE] p-10 text-center">
                 <p className="text-sm font-semibold text-ink">No experiences matched your search.</p>
                 <div className="mt-3 flex justify-center gap-4">
-                  <button type="button" onClick={() => { setActiveCategory("all"); setSearchQuery(""); }} className="text-xs font-bold text-coral hover:underline">Clear filters</button>
+                  <button type="button" onClick={() => { setActiveCategory("all"); setStateFilter(""); setDestFilter(""); setSearchQuery(""); }} className="text-xs font-bold text-coral hover:underline">Clear filters</button>
                   {searchQuery.trim() ? <button type="button" onClick={() => handleStartPlan(`Things to do in India: ${searchQuery.trim()}`)} className="text-xs font-bold text-coral hover:underline">Ask the AI planner</button> : null}
                 </div>
               </div>

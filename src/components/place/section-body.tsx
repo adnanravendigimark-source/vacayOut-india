@@ -1,6 +1,19 @@
 import { Icon } from "@/components/icons/icon";
-import type { PublishedSnapshot } from "@/lib/db/schema";
-import { sectionDef } from "@/lib/places/sections";
+import type { ItemStatus, PublishedSnapshot } from "@/lib/db/schema";
+import { ITEM_STATUS_LABEL, sectionDef } from "@/lib/places/sections";
+
+const PILL: Record<ItemStatus, string> = {
+  verified: "bg-[#E3EFE6] text-[#24543A]",
+  seasonal: "bg-[#E4ECF7] text-[#234A7A]",
+  estimate: "bg-[#FBEBD3] text-[#7A4A0B]",
+  unconfirmed: "bg-[#ECEAE5] text-[#555]",
+};
+
+/** How sure a line is (Verified / Seasonal / Estimate / Unconfirmed). */
+export function StatusPill({ status, className = "" }: { status?: ItemStatus | null; className?: string }) {
+  if (!status) return null;
+  return <span className={`inline-flex shrink-0 items-center rounded px-1.5 py-0.5 text-[0.6875rem] font-semibold leading-none ${PILL[status]} ${className}`}>{ITEM_STATUS_LABEL[status]}</span>;
+}
 
 type Section = PublishedSnapshot["sections"][number];
 
@@ -9,7 +22,7 @@ const paragraphs = (text: string | undefined) => (text ?? "").split(/\n{2,}/).fi
 /** Text paragraphs. */
 export function TextBody({ s }: { s: Section }) {
   return (
-    <div className="space-y-3 text-[1.0625rem] leading-relaxed text-[#444]">
+    <div className="space-y-3 text-[0.9375rem] leading-[1.7] text-[#444]">
       {paragraphs(s.body.text).map((p, i) => <p key={i}>{p}</p>)}
     </div>
   );
@@ -20,9 +33,9 @@ export function HighlightCards({ s }: { s: Section }) {
   return (
     <ul className="grid gap-3 @xl:grid-cols-2">
       {(s.body.items ?? []).map((it, i) => (
-        <li key={i} className="flex gap-3 rounded-xl border border-line bg-white p-4">
+        <li key={i} className="flex gap-3 rounded-xl border border-line bg-white p-3.5 transition hover:-translate-y-0.5 hover:shadow-card">
           <span className="flex size-9 shrink-0 items-center justify-center rounded-full bg-coral/10 text-coral"><Icon name="star" size={16} /></span>
-          <p className="text-[0.9375rem] leading-relaxed text-[#444]">{it.title ? <strong className="text-ink">{it.title}. </strong> : null}{it.body}</p>
+          <p className="text-sm leading-relaxed text-[#444]">{it.title ? <strong className="text-ink">{it.title}. </strong> : null}{it.body}</p>
         </li>
       ))}
     </ul>
@@ -34,9 +47,9 @@ export function CheckList({ s, columns = false }: { s: Section; columns?: boolea
   return (
     <ul className={`grid gap-x-6 gap-y-2.5 ${columns ? "@xl:grid-cols-2" : ""}`}>
       {(s.body.items ?? []).map((it, i) => (
-        <li key={i} className="flex gap-2.5 text-[0.9375rem] leading-relaxed text-[#444]">
+        <li key={i} className="flex gap-2.5 text-sm leading-relaxed text-[#444]">
           <Icon name="checkCircle" size={18} className="mt-0.5 shrink-0 text-coral" />
-          <span>{it.title ? <strong className="text-ink">{it.title}: </strong> : null}{it.body}</span>
+          <span>{it.title ? <strong className="text-ink">{it.title}: </strong> : null}{it.body}{it.status ? <> <StatusPill status={it.status} className="ml-1 align-middle" /></> : null}</span>
         </li>
       ))}
     </ul>
@@ -56,7 +69,7 @@ export function DaysTimeline({ s }: { s: Section }) {
               <span className="rounded-md bg-coral/10 px-2 py-0.5 text-xs font-semibold text-coral">Day {i + 1}</span>
               <span className="font-semibold text-ink">{(d.title ?? "").replace(/^day\s*\d+\s*[:.–-]\s*/i, "")}</span>
             </p>
-            <p className="mt-1.5 text-[0.9375rem] leading-relaxed text-[#555]">{d.body}</p>
+            <p className="mt-1.5 text-sm leading-relaxed text-[#555]">{d.body}</p>
           </div>
         </li>
       ))}
@@ -70,11 +83,11 @@ export function FaqList({ s }: { s: Section }) {
     <div className="divide-y divide-line rounded-2xl border border-line bg-white">
       {(s.body.items ?? []).map((f, i) => (
         <details key={i} className="group px-5 py-4" open={i === 0}>
-          <summary className="flex cursor-pointer list-none items-center justify-between gap-4 font-semibold text-ink [&::-webkit-details-marker]:hidden">
+          <summary className="flex cursor-pointer list-none items-center justify-between gap-4 text-[0.9375rem] font-semibold text-ink transition-colors hover:text-coral [&::-webkit-details-marker]:hidden">
             {f.title}
             <Icon name="chevronDown" size={18} className="shrink-0 text-muted transition-transform group-open:rotate-180" />
           </summary>
-          <p className="mt-2 text-[0.9375rem] leading-relaxed text-[#555]">{f.body}</p>
+          <p className="mt-2 text-sm leading-relaxed text-[#555]">{f.body}</p>
         </details>
       ))}
     </div>
@@ -111,9 +124,9 @@ export function PairsList({ s }: { s: Section }) {
   return (
     <dl className="divide-y divide-line rounded-2xl border border-line bg-white">
       {(s.body.items ?? []).map((it, i) => (
-        <div key={i} className="grid gap-1 px-5 py-3.5 @xl:grid-cols-[11rem_1fr] @xl:gap-4">
-          <dt className="font-semibold text-ink">{it.title}</dt>
-          <dd className="text-[0.9375rem] leading-relaxed text-[#555]">{it.body}</dd>
+        <div key={i} className="grid gap-1 px-5 py-3 transition-colors hover:bg-[#FBFAF7] @xl:grid-cols-[10rem_1fr] @xl:gap-4">
+          <dt className="flex flex-wrap items-center gap-2 text-sm font-semibold text-ink">{it.title}<StatusPill status={it.status} /></dt>
+          <dd className="text-sm leading-relaxed text-[#555]">{it.body}</dd>
         </div>
       ))}
     </dl>

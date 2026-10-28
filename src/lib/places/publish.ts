@@ -12,6 +12,7 @@ export type PlaceForPublish = {
   seoTitle: string | null;
   seoDescription: string | null;
   displayMode: "page" | "parent_section";
+  category?: string | null;
 };
 
 type SectionForPublish = { key: string; status: "draft" | "approved"; body: SectionBody; sources?: SectionSource[] };
@@ -99,6 +100,7 @@ export function buildSnapshot(
       parent: rel.parent,
       displayMode: place.displayMode,
       hero: rel.hero,
+      ...(place.kind === "activity" ? { category: place.category ?? null } : {}),
     },
     sections: sections
       .filter((s) => s.status === "approved")

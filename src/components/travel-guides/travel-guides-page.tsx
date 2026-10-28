@@ -12,7 +12,8 @@ import { TRIP_TYPES } from "@/lib/places/trip-types";
 const fmt = (d: Date | string) => new Date(d).toLocaleDateString("en-IN", { day: "numeric", month: "short", year: "numeric", timeZone: "Asia/Kolkata" });
 const categoryOf = (tripTypes: string[]) => TRIP_TYPES.find((t) => tripTypes.includes(t.key))?.label ?? null;
 
-export function TravelGuidesPage({ data, hero }: { data: TravelGuidesData; hero: PageHero }) {
+export function TravelGuidesPage({ data, hero, initialTab }: { data: TravelGuidesData; hero: PageHero; initialTab?: "articles" | "destinations" }) {
+  const [tab, setTab] = useState<"articles" | "destinations">(initialTab ?? (data.articles.length ? "articles" : "destinations"));
   const [activeCategory, setActiveCategory] = useState<string | null>(null);
   const [searchQuery, setSearchQuery] = useState("");
   const [isModalOpen, setIsModalOpen] = useState(false);
@@ -35,12 +36,13 @@ export function TravelGuidesPage({ data, hero }: { data: TravelGuidesData; hero:
 
   const filteredGuides = useMemo(() => {
     const q = searchQuery.toLowerCase().trim();
-    return data.guides.filter(
+    return (tab === "articles" ? data.articles : data.guides).filter(
       (g) =>
         (!activeCategory || g.tripTypes.includes(activeCategory)) &&
         (!q || g.title.toLowerCase().includes(q) || g.name.toLowerCase().includes(q) || g.snippet.toLowerCase().includes(q) || g.stateName.toLowerCase().includes(q)),
     );
-  }, [activeCategory, searchQuery, data.guides]);
+  }, [activeCategory, searchQuery, tab, data.guides, data.articles]);
+  const current = tab === "articles" ? data.articles : data.guides;
 
   const handleSearchSubmit = (e: React.FormEvent) => {
     e.preventDefault();
@@ -98,10 +100,24 @@ export function TravelGuidesPage({ data, hero }: { data: TravelGuidesData; hero:
       <main className="container-site py-8 sm:py-12">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-10 items-start">
           <div className="lg:col-span-8">
+            <div role="tablist" aria-label="Guide type" className="mb-6 flex gap-1 border-b border-[#ECE9E2]">
+              {([["articles", "Articles", data.articles.length], ["destinations", "Destination guides", data.guides.length]] as const).map(([key, label, n]) => (
+                <button
+                  key={key}
+                  type="button"
+                  role="tab"
+                  aria-selected={tab === key}
+                  onClick={() => setTab(key)}
+                  className={`-mb-px min-h-11 border-b-2 px-4 text-sm font-semibold transition-colors ${tab === key ? "border-coral text-ink" : "border-transparent text-[#666666] hover:text-ink"}`}
+                >
+                  {label} <span className="text-xs font-medium text-[#888888]">{n}</span>
+                </button>
+              ))}
+            </div>
             <div className="flex items-center justify-between gap-4 mb-6">
               <div>
-                <h2 className="font-serif text-2xl sm:text-3xl font-bold text-ink">Latest Travel Guides</h2>
-                <p className="mt-1 text-xs sm:text-sm text-[#666666]">Guides with practical tips and sources, reviewed by an editor before publishing.</p>
+                <h2 className="font-serif text-2xl sm:text-3xl font-bold text-ink">{tab === "articles" ? "How-to and planning guides" : "Destination guides"}</h2>
+                <p className="mt-1 text-xs sm:text-sm text-[#666666]">{tab === "articles" ? "Answers to real trip questions — permits, routes, seasons and checklists — checked against official sources." : "Full guides to each state and destination, reviewed by an editor before publishing."}</p>
               </div>
               {activeCategory && (
                 <button type="button" onClick={() => setActiveCategory(null)} className="text-xs font-bold text-coral hover:underline shrink-0">
@@ -110,7 +126,7 @@ export function TravelGuidesPage({ data, hero }: { data: TravelGuidesData; hero:
               )}
             </div>
 
-            {data.guides.length === 0 ? (
+            {current.length === 0 ? (
               <div className="rounded-2xl border border-dashed border-[#DCD7CE] bg-[#FAF9F5] p-10 text-center">
                 <p className="text-sm font-semibold text-ink">Our travel guides are being researched and reviewed.</p>
                 <p className="mt-1 text-xs text-[#666666]">Every guide is checked against official sources and approved by an editor before it appears here.</p>
@@ -166,7 +182,7 @@ export function TravelGuidesPage({ data, hero }: { data: TravelGuidesData; hero:
               </div>
             )}
 
-            {data.guides.length > 0 && filteredGuides.length === 0 && (
+            {current.length > 0 && filteredGuides.length === 0 && (
               <div className="rounded-2xl border border-dashed border-[#DCD7CE] p-10 text-center">
                 <p className="text-sm font-semibold text-ink">No travel guides matched your search.</p>
                 <div className="mt-3 flex justify-center gap-4">
@@ -230,7 +246,7 @@ export function TravelGuidesPage({ data, hero }: { data: TravelGuidesData; hero:
                         {guide.image ? <Image src={guide.image.url} alt="" fill sizes="48px" className="object-cover" /> : null}
                       </div>
                       <div className="min-w-0 flex-1">
-                        <p className="text-xs sm:text-[0.8125rem] font-bold text-ink group-hover:text-coral transition-colors truncate">{guide.name} travel guide</p>
+                        <p className="text-xs sm:text-[0.8125rem] font-bold text-ink group-hover:text-coral transition-colors truncate">{guide.title}</p>
                         <p className="text-[0.6875rem] text-[#888888] mt-0.5">{fmt(guide.publishedAt)}</p>
                       </div>
                     </Link>

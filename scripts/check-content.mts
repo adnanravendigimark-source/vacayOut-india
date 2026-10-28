@@ -15,7 +15,7 @@ const files = listContentFiles(path.join(process.cwd(), "content", "travel"));
 // Checked in seed order, so a file may only reference places defined by files before it.
 const known = new Set<string>(PREEXISTING_PLACE_KEYS);
 let failed = 0;
-const totals = { places: 0, facts: 0, itineraries: 0, supports: 0, notFound: 0, unreachable: 0, unchecked: 0 };
+const totals = { places: 0, facts: 0, itineraries: 0, guides: 0, supports: 0, notFound: 0, unreachable: 0, unchecked: 0 };
 
 for (const { name, raw, checksPath } of files) {
   const r = checkContentFile(raw, known);
@@ -40,9 +40,10 @@ for (const { name, raw, checksPath } of files) {
   totals.places += r.file.places.length;
   totals.facts += Object.keys(r.file.facts).length;
   totals.itineraries += r.file.itineraries.length;
+  totals.guides += r.file.guides.length;
   totals.supports += s; totals.notFound += nf; totals.unreachable += un; totals.unchecked += nc;
-  console.log(`✓ ${name}: ${r.file.places.length} places, ${Object.keys(r.file.facts).length} facts, ${r.file.itineraries.length} itineraries · quotes: ${s} found, ${nf} not found, ${un} unreachable, ${nc} unchecked`);
+  console.log(`✓ ${name}: ${r.file.places.length} places, ${Object.keys(r.file.facts).length} facts, ${r.file.itineraries.length} itineraries, ${r.file.guides.length} guides · quotes: ${s} found, ${nf} not found, ${un} unreachable, ${nc} unchecked`);
 }
-console.log(`\n${files.length - failed}/${files.length} files valid · ${totals.places} places · ${totals.facts} facts · ${totals.itineraries} itineraries`);
+console.log(`\n${files.length - failed}/${files.length} files valid · ${totals.places} places · ${totals.facts} facts · ${totals.itineraries} itineraries · ${totals.guides} guides`);
 console.log(`Quotes: ${totals.supports} confirmed on the page, ${totals.notFound} not found, ${totals.unreachable} unreachable, ${totals.unchecked} unchecked.`);
 if (failed) process.exitCode = 1;

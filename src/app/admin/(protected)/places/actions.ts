@@ -1,5 +1,6 @@
 "use server";
 
+import { isCategory } from "@/lib/places/categories";
 import { cleanTripTypes } from "@/lib/places/trip-types";
 import { revalidatePath } from "next/cache";
 import { redirect } from "next/navigation";
@@ -57,6 +58,7 @@ const detailsSchema = z.object({
   seoDescription: optionalText(300),
   displayMode: z.enum(displayMode.enumValues).optional(),
   featured: z.literal("on").optional(),
+  category: z.string().trim().max(40).optional(),
 });
 
 export async function updateDetailsAction(placeId: string, _: ActionState, form: FormData): Promise<ActionState> {
@@ -69,8 +71,13 @@ export async function updateDetailsAction(placeId: string, _: ActionState, form:
   const [place] = await db.select().from(places).where(eq(places.id, placeId)).limit(1);
   if (!place) return { ok: false, message: "Unknown place." };
 
-  const { slug: newSlug, featured, displayMode: mode, ...rest } = parsed.data;
+  const { slug: newSlug, featured, displayMode: mode, category, ...rest } = parsed.data;
   const update: Partial<typeof places.$inferInsert> = { ...rest, featured: featured === "on", updatedAt: new Date() };
+  // Only activities have a category, and only from the fixed list.
+  if (place.kind === "activity" && category !== undefined) {
+    if (category && !isCategory(category)) return { ok: false, message: "Unknown activity category." };
+    update.category = category || null;
+  }
   // Only known trip types are stored; the form always sends the full set of ticked boxes.
   if (form.has("tripTypesShown")) update.tripTypes = cleanTripTypes(form.getAll("tripTypes"));
   if (mode && place.kind !== "state") update.displayMode = mode;

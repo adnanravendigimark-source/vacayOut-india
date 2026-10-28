@@ -1,8 +1,8 @@
 {
   "cluster": "manali",
   "title": "Manali",
-  "researchedAt": "2026-10-27",
-  "selection": "Himachal Pradesh recorded 18.0 million domestic and 0.083 million foreign tourist visits in 2024, with foreign visits up 32% (India Tourism Data Compendium 2025). Himachal Pradesh and Manali were existing VacayOut records; this file only fills empty fields, adds new sections and suggests changes to existing ones.",
+  "researchedAt": "2026-10-28",
+  "selection": "Himachal Pradesh recorded 18.0 million domestic and 0.083 million foreign tourist visits in 2024, with foreign visits up 32% (India Tourism Data Compendium 2025). Himachal Pradesh and Manali were existing VacayOut records; this file only fills empty fields, adds new sections and suggests changes to existing ones. v2 (2026-10-28): shared-template pilot — state regions, best time by region and entry points; Manali's areas, transport, fees from the District Kullu permit site, safety, accessibility, common mistakes, FAQs; things-to-do records; 3-, 4- and 7-day plans; 5 travel guides. Not found in any official source: opening hours and entry fees for Hadimba and Manu temples, prices for paragliding, skiing, ropeway and rafting — shown as unconfirmed. Note for the editor: Incredible India's Hidimba page describes three roofs, while its Manali page and Himachal Tourism describe a four-tier structure; the published overview was left unchanged.",
   "sources": {
     "II_HP": {
       "url": "https://www.incredibleindia.gov.in/en/himachal-pradesh",
@@ -93,6 +93,151 @@
       "url": "https://en.wikipedia.org/wiki/112_(emergency_telephone_number)",
       "title": "112 (emergency telephone number) — Wikipedia",
       "authority": "reference"
+    },
+    "HPT_MN": {
+      "url": "https://himachaltourism.gov.in/destination/manali/",
+      "title": "Manali — Himachal Tourism (Department of Tourism & Civil Aviation, Government of Himachal Pradesh)",
+      "authority": "government"
+    },
+    "HPT_REACH": {
+      "url": "https://himachaltourism.gov.in/how-to-reach/",
+      "title": "How to reach Himachal Pradesh — Himachal Tourism (Government of Himachal Pradesh)",
+      "authority": "government"
+    },
+    "HPT_TIPS": {
+      "url": "https://himachaltourism.gov.in/travel-safety-tips/",
+      "title": "Travel safety tips — Himachal Tourism (Government of Himachal Pradesh)",
+      "authority": "government"
+    },
+    "HPT_FAIRS": {
+      "url": "https://himachaltourism.gov.in/fairs-fests/",
+      "title": "Fairs and festivals — Himachal Tourism (Government of Himachal Pradesh)",
+      "authority": "government"
+    },
+    "HPT_FOOD": {
+      "url": "https://himachaltourism.gov.in/cusine/",
+      "title": "Cuisine — Himachal Tourism (Government of Himachal Pradesh)",
+      "authority": "government"
+    },
+    "HPT_GLANCE": {
+      "url": "https://himachaltourism.gov.in/hp-at-a-glance/",
+      "title": "HP at a glance — Himachal Tourism (Government of Himachal Pradesh)",
+      "authority": "government"
+    },
+    "DK_REACH": {
+      "url": "https://hpkullu.nic.in/how-to-reach/",
+      "title": "How to reach — District Kullu (Government of Himachal Pradesh)",
+      "authority": "government"
+    },
+    "DK_POI": {
+      "url": "https://hpkullu.nic.in/places-of-interest/",
+      "title": "Places of interest — District Kullu (Government of Himachal Pradesh)",
+      "authority": "government"
+    },
+    "DK_DUSS": {
+      "url": "https://hpkullu.nic.in/event/international-kullu-dussehra-2026-21-27-october/",
+      "title": "International Kullu Dussehra 2026 (21–27 October) — District Kullu",
+      "authority": "government"
+    },
+    "RP_HAMTA": {
+      "url": "https://rohtangpermits.hp.gov.in/HamtaPass/InformatoryScreen",
+      "title": "Hamta Pass vehicle passes — District Administration Kullu (Government of Himachal Pradesh)",
+      "authority": "government"
+    },
+    "RP_SPECIAL": {
+      "url": "https://rohtangpermits.hp.gov.in/SpecialPermit/InformatoryScreen",
+      "title": "Special Rohtang Pass permit — District Administration Kullu (Government of Himachal Pradesh)",
+      "authority": "government"
+    },
+    "RP_REFUND": {
+      "url": "https://rohtangpermits.hp.gov.in/Home/RefundPolicy",
+      "title": "Rohtang permits refund policy — District Administration Kullu (Government of Himachal Pradesh)",
+      "authority": "government"
+    },
+    "RP_GREEN": {
+      "url": "https://rohtangpermits.hp.gov.in/ManaliEntry/InformatoryScreen",
+      "title": "Manali entry green tax — District Administration Kullu (Government of Himachal Pradesh)",
+      "authority": "government"
+    },
+    "II_ADV": {
+      "url": "https://www.incredibleindia.gov.in/en/himachal-pradesh/manali/the-best-adventure-experiences-in-manali",
+      "title": "The best adventure experiences in Manali — Incredible India (Ministry of Tourism)",
+      "authority": "government"
+    },
+    "II_11": {
+      "url": "https://www.incredibleindia.gov.in/en/himachal-pradesh/manali/11-unforgettable-things-to-do-in-manali",
+      "title": "11 unforgettable things to do in Manali — Incredible India (Ministry of Tourism)",
+      "authority": "government"
+    },
+    "II_JAG": {
+      "url": "https://www.incredibleindia.gov.in/en/himachal-pradesh/manali/jagatsukh",
+      "title": "Jagatsukh — Incredible India (Ministry of Tourism)",
+      "authority": "government"
+    },
+    "II_NK": {
+      "url": "https://www.incredibleindia.gov.in/en/himachal-pradesh/manali/nehru-kund",
+      "title": "Nehru Kund — Incredible India (Ministry of Tourism)",
+      "authority": "government"
+    },
+    "II_BL": {
+      "url": "https://www.incredibleindia.gov.in/en/himachal-pradesh/manali/brighu-lake",
+      "title": "Bhrigu Lake — Incredible India (Ministry of Tourism)",
+      "authority": "government"
+    },
+    "II_MI": {
+      "url": "https://www.incredibleindia.gov.in/en/himachal-pradesh/manali/mountaineering-institute",
+      "title": "Atal Bihari Vajpayee Institute of Mountaineering and Allied Sports — Incredible India (Ministry of Tourism)",
+      "authority": "government"
+    },
+    "W_HAMPTA": {
+      "url": "https://en.wikipedia.org/wiki/Hampta_Pass",
+      "title": "Hampta Pass — Wikipedia",
+      "authority": "reference"
+    },
+    "W_BHRIGU": {
+      "url": "https://en.wikipedia.org/wiki/Bhrigu_Lake",
+      "title": "Bhrigu Lake — Wikipedia",
+      "authority": "reference"
+    },
+    "W_SANCT": {
+      "url": "https://en.wikipedia.org/wiki/Manali_Sanctuary",
+      "title": "Manali Sanctuary — Wikipedia",
+      "authority": "reference"
+    },
+    "W_DUSS": {
+      "url": "https://en.wikipedia.org/wiki/Kullu_Dussehra",
+      "title": "Kullu Dussehra — Wikipedia",
+      "authority": "reference"
+    },
+    "W_SISSU": {
+      "url": "https://en.wikipedia.org/wiki/Sissu",
+      "title": "Sissu — Wikipedia",
+      "authority": "reference"
+    },
+    "IH_HAMPTA": {
+      "url": "https://indiahikes.com/hampta-pass",
+      "title": "Hampta Pass trek — Indiahikes",
+      "authority": "travel_platform"
+    },
+    "IH_BHRIGU": {
+      "url": "https://indiahikes.com/bhrigu-lake",
+      "title": "Bhrigu Lake trek — Indiahikes",
+      "authority": "travel_platform"
+    },
+    "ETV_BAN": {
+      "url": "https://www.etvbharat.com/en/bharat/adventure-activities-banned-in-kullu-due-to-rain-enn26071504580",
+      "title": "Adventure activities banned in Kullu due to monsoons — ETV Bharat (July 2026)",
+      "authority": "media"
+    },
+    "TTJ_BAN": {
+      "url": "https://traveltradejournal.com/adventure-activities-banned-for-two-months-in-himachal-pradesh/",
+      "title": "Adventure activities banned for two months in Himachal Pradesh — Travel Trade Journal",
+      "authority": "media"
+    },
+    "TRIB_SISSU": {
+      "url": "https://tribuneindia.com/news/sissu-opens-for-tourists-from-today-595924",
+      "title": "Sissu opens for tourists from today — The Tribune",
+      "authority": "media"
     }
   },
   "facts": {
@@ -650,14 +795,19 @@
     "NG1": {
       "place": "himachal-pradesh/naggar",
       "topic": "20 km from Manali",
-      "claim": "Naggar is about 20 km from Manali, above the Beas.",
+      "claim": "Naggar is about 20–22 km from Manali, above the Beas.",
       "claimType": "distance",
       "evidence": [
         {
           "source": "II_NAG",
           "quote": "Just 20 kilometres away from the tourist hub of Manali, lies the charming village of Naggar"
+        },
+        {
+          "source": "HPT_MN",
+          "quote": "Overlooking the valley from high up on the left bank side of the Beas River, Naggar, 22 kms from Manali"
         }
-      ]
+      ],
+      "kind": "estimate"
     },
     "NG2": {
       "place": "himachal-pradesh/naggar",
@@ -764,6 +914,1469 @@
           "quote": "If you wish to observe the rituals and prayers please visit in the morning or evening"
         }
       ]
+    },
+    "HP7": {
+      "place": "himachal-pradesh",
+      "topic": "Area",
+      "claim": "Himachal Pradesh covers 55,673 sq km.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "HPT_GLANCE",
+          "quote": "55673 Sq. km"
+        }
+      ]
+    },
+    "HP8": {
+      "place": "himachal-pradesh",
+      "topic": "Airports",
+      "claim": "Five airports serve Himachal: Chandigarh and Pathankot on its borders, and Gaggal-Kangra, Bhuntar-Kullu and Jubbarhatti-Shimla inside the state.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "HPT_REACH",
+          "quote": "The airports of Chandigarh and Pathankot on the borders of Himachal and the smaller airports of Gaggal-Kangra, Bhuntar-Kullu and Jubbarhatti-Shimla provide air connectivity to the state."
+        }
+      ]
+    },
+    "HP9": {
+      "place": "himachal-pradesh",
+      "topic": "Which airport for which region",
+      "claim": "Gaggal-Kangra and Pathankot serve Kangra, Dharamshala and Chamba; Bhuntar-Kullu serves Kullu-Manali, Mandi and Lahaul-Spiti; Chandigarh and Jubbarhatti serve Shimla, Solan and Kinnaur.",
+      "claimType": "distance",
+      "evidence": [
+        {
+          "source": "HPT_REACH",
+          "quote": "The Pathankot and Gaggal-Kangra airport give easy access to Kangra, Dharamshala, Chamba, Hamirpur and Una, the Bhuntar-Kullu airport to Mandi, Kullu-Manali and Lahaul-Spiti, and the Chandigarh and Jubbarhatti – Shimla airport to Shimla, Solan, Bilaspur, Mandi and Kinnaur regions."
+        }
+      ]
+    },
+    "HP10": {
+      "place": "himachal-pradesh",
+      "topic": "Railheads",
+      "claim": "Kalka and Pathankot are the broad-gauge railheads for Himachal; narrow-gauge lines run from Pathankot to Joginder Nagar and from Kalka to Shimla.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "HPT_REACH",
+          "quote": "broad gauge train stations at Kalka and Pathankot provide easy accessibility to and within Himachal Pradesh"
+        },
+        {
+          "source": "HPT_REACH",
+          "quote": "From Pathankot, a narrow gauge train to Jogindernagar connects up the entire Kangra valley in a joyful journey."
+        }
+      ]
+    },
+    "HP11": {
+      "place": "himachal-pradesh",
+      "topic": "Interstate buses",
+      "claim": "Interstate buses run to Himachal from Delhi, Chandigarh, Jaipur and other nearby cities.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "HPT_REACH",
+          "quote": "Interstate bus services are available from Delhi, Chandigarh, Jaipur and other neighbouring cities."
+        }
+      ]
+    },
+    "HP12": {
+      "place": "himachal-pradesh",
+      "topic": "Climate by region",
+      "claim": "Bilaspur, Una, Solan, Sirmour, Hamirpur and Kangra are warm to hot in summer and mild in winter; Chamba, Kinnaur, Kullu, Shimla and Lahaul-Spiti are mild in summer and cold in winter.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "HPT_TIPS",
+          "quote": "Most areas of Bilaspur, Una, Solan, Sirmour, Hamirpur and Kangra are largely warm to hot in summer and mild to pleasant in winter."
+        },
+        {
+          "source": "HPT_TIPS",
+          "quote": "The district of Chamba, Kinnaur, Kullu, Shimla and Lahaul-Spiti are mild to pleasant in summer and cold in winter."
+        }
+      ],
+      "kind": "seasonal"
+    },
+    "HP13": {
+      "place": "himachal-pradesh",
+      "topic": "Monsoon roads",
+      "claim": "In the monsoon (July–August) roads are slippery and landslides and rock-falls happen; drive with care.",
+      "claimType": "rule",
+      "evidence": [
+        {
+          "source": "HPT_TIPS",
+          "quote": "During the monsoon season (July-August), be careful while driving on the road because of slippery conditions and land-slides/ rock-falls."
+        }
+      ],
+      "kind": "seasonal"
+    },
+    "HP14": {
+      "place": "himachal-pradesh",
+      "topic": "Inner Line Permits for foreigners",
+      "claim": "Foreign tourists need an Inner Line Permit for some inner areas of Kinnaur and Spiti on the Tibet border; permits are issued in New Delhi (Himachal Bhawan), Shimla, Reckong Peo and at SDM offices in Kalpa, Kaza and Manali.",
+      "claimType": "rule",
+      "evidence": [
+        {
+          "source": "HPT_TIPS",
+          "quote": "Foreign tourists require Inner Line Permits to visit certain inner area of Kinnaur district and Spiti of the Lahaul-Spiti district that borders Tibet-China."
+        },
+        {
+          "source": "HPT_TIPS",
+          "quote": "The Permits are issued by Resident Commissioner of Himachal Pradesh, Himachal Bhawan, 27, Sikandra Road, New Delhi and at Deputy Commissioner’s office at Shimla, Kinnaur at Reckong Peo and SDM office at Kalpa, Kaza, Manali."
+        }
+      ]
+    },
+    "HP15": {
+      "place": "himachal-pradesh",
+      "topic": "Ambulance 108",
+      "claim": "Dial 108 for the free 24x7 ambulance service.",
+      "claimType": "contact",
+      "evidence": [
+        {
+          "source": "HPT_TIPS",
+          "quote": "Call 108 free 24X7 ambulance service"
+        }
+      ]
+    },
+    "HP16": {
+      "place": "himachal-pradesh",
+      "topic": "Polythene ban",
+      "claim": "Polythene is banned in Himachal Pradesh.",
+      "claimType": "rule",
+      "evidence": [
+        {
+          "source": "HPT_TIPS",
+          "quote": "The use of polythene is banned in Himachal Pradesh."
+        }
+      ]
+    },
+    "HP17": {
+      "place": "himachal-pradesh",
+      "topic": "Licensed adventure operators",
+      "claim": "Use only government-authorised, licensed agencies for trekking, rafting and paragliding.",
+      "claimType": "rule",
+      "evidence": [
+        {
+          "source": "HPT_TIPS",
+          "quote": "ensure the agencies offering such activities are authorized by the Government for the purpose and have a valid license to operate."
+        }
+      ]
+    },
+    "HP18": {
+      "place": "himachal-pradesh",
+      "topic": "Rafting grade limit",
+      "claim": "Joy-ride rafting in Himachal is not permitted on rapids above Class II.",
+      "claimType": "rule",
+      "evidence": [
+        {
+          "source": "HPT_TIPS",
+          "quote": "River Rafting for joy ride purpose in Himachal Pradesh is not permitted beyond rapid class-II grade."
+        }
+      ]
+    },
+    "HP19": {
+      "place": "himachal-pradesh",
+      "topic": "Tell the authorities before a trek",
+      "claim": "Before a high-altitude trek, inform the local authorities (SDM, police or tourism office) and hire only registered guides and porters.",
+      "claimType": "rule",
+      "evidence": [
+        {
+          "source": "HPT_TIPS",
+          "quote": "make sure to inform the local authorities such as Sub-Divisional Magistrate, Police, Tourism office etc."
+        },
+        {
+          "source": "HPT_TIPS",
+          "quote": "Ensure hiring only Govt. registered guides, porters and from registeredagencies"
+        }
+      ]
+    },
+    "HP20": {
+      "place": "himachal-pradesh",
+      "topic": "Taxis",
+      "claim": "Hire only authorised taxis from registered operators or taxi unions, and ask for the government-approved fare chart.",
+      "claimType": "rule",
+      "evidence": [
+        {
+          "source": "HPT_TIPS",
+          "quote": "Do hire only authorized taxis and from Govt. registered Travel Operators or Taxi Unions. It is advisable to ask for Govt. approved fare chart."
+        }
+      ]
+    },
+    "HP21": {
+      "place": "himachal-pradesh",
+      "topic": "Photography and temples",
+      "claim": "Ask before photographing local people, and don't touch or remove religious objects.",
+      "claimType": "rule",
+      "evidence": [
+        {
+          "source": "HPT_TIPS",
+          "quote": "Do not take photographs of local inhabitants without their permission."
+        },
+        {
+          "source": "HPT_TIPS",
+          "quote": "Observe local traditions and custom especially while visiting religious places. Do not touch or remove religious objects."
+        }
+      ]
+    },
+    "HP22": {
+      "place": "himachal-pradesh",
+      "topic": "Bank hours",
+      "claim": "Banks are normally open 10 am–4 pm, Monday to Saturday.",
+      "claimType": "schedule",
+      "evidence": [
+        {
+          "source": "HPT_TIPS",
+          "quote": "Normal Banking hours are 10:00 am to 4:00 pm from Monday to Saturday."
+        }
+      ]
+    },
+    "HP23": {
+      "place": "himachal-pradesh",
+      "topic": "Electricity",
+      "claim": "Mains electricity is 220 V.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "HPT_TIPS",
+          "quote": "220 V is the standard in the state"
+        }
+      ]
+    },
+    "HP24": {
+      "place": "himachal-pradesh",
+      "topic": "Drugs law",
+      "claim": "Carrying or using drugs such as opium, heroin or marijuana is a crime under the NDPS Act, punishable with imprisonment.",
+      "claimType": "rule",
+      "evidence": [
+        {
+          "source": "HPT_TIPS",
+          "quote": "Do not use or carry any prohibited psychotropic or contraband drugs such as opium, heroin or marijuana, which under Narcotic Drugs and Psychotropic Substances Act is a crime"
+        }
+      ]
+    },
+    "HP25": {
+      "place": "himachal-pradesh",
+      "topic": "Registered stays",
+      "claim": "Stay in hotels, guest houses and homestays registered with the Department of Tourism.",
+      "claimType": "rule",
+      "evidence": [
+        {
+          "source": "HPT_TIPS",
+          "quote": "Stay only in hotel/guest houses/home stays that are registered with the Department of Tourism."
+        }
+      ]
+    },
+    "HP26": {
+      "place": "himachal-pradesh",
+      "topic": "River safety",
+      "claim": "Don't stand on cliff edges or riverside boulders for photos — Himachal's rivers are strong and deceptive.",
+      "claimType": "rule",
+      "evidence": [
+        {
+          "source": "HPT_TIPS",
+          "quote": "Do not stand at the edge of a cliff or on any bolder near a river bank for photographs etc. The water current in rivers of Himachal Pradesh is very strong and highly deceptive."
+        }
+      ]
+    },
+    "HP27": {
+      "place": "himachal-pradesh",
+      "topic": "Kullu Dussehra 2026",
+      "claim": "International Kullu Dussehra 2026 was held at Dhalpur Maidan, Kullu, from 21 to 27 October, with the Rath Yatra of Lord Raghunath and over 250 hill deities.",
+      "claimType": "schedule",
+      "evidence": [
+        {
+          "source": "DK_DUSS",
+          "quote": "held at Dhalpur Maidan from 21st to 27th October"
+        },
+        {
+          "source": "DK_DUSS",
+          "quote": "Witness the historic Rath Yatra of Lord Raghunath, the grand congregation of over 250 hill deities"
+        }
+      ],
+      "kind": "seasonal"
+    },
+    "HP28": {
+      "place": "himachal-pradesh",
+      "topic": "Kullu Dussehra procession",
+      "claim": "Kullu Dussehra starts when the idol of Lord Raghunath, the valley's presiding deity, is pulled on a wooden chariot into Dhalpur ground; the celebration lasts a week.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "HPT_FAIRS",
+          "quote": "is brought out riding in a magnificent wood chariot that is pulled by devotees into Dhalpur ground to get the week long celebration started."
+        }
+      ]
+    },
+    "HP29": {
+      "place": "himachal-pradesh",
+      "topic": "Dussehra dates",
+      "claim": "In Kullu, Dussehra begins on Vijaya Dashami itself and continues for seven days.",
+      "claimType": "schedule",
+      "evidence": [
+        {
+          "source": "W_DUSS",
+          "quote": "Dussehra at Kullu commences on the tenth day of the rising moon, i.e. on ' Vijay Dashmi ' day itself and continues for seven days."
+        }
+      ],
+      "kind": "seasonal"
+    },
+    "HP30": {
+      "place": "himachal-pradesh",
+      "topic": "Siddu, trout and dham",
+      "claim": "Siddu is a steamed, stuffed wheat bun eaten with ghee; trout is a delicacy in the Kullu-Manali valley; community 'dham' feasts are cooked by hereditary Boti chefs.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "HPT_FOOD",
+          "quote": "Siddu, a steamed stuffed burger made of wheat flour base, to which yeast is added and eaten with ghee or butter is one of the most popular dishes of Himachal."
+        },
+        {
+          "source": "HPT_FOOD",
+          "quote": "is a delicacy in Barot, Sangla, Pabbar and Kullu-Manali valleys"
+        },
+        {
+          "source": "HPT_FOOD",
+          "quote": "Community feasts prepared for ‘Dhams’ by hereditary clans of Boti chefs is where the traditional flavours are at their best."
+        }
+      ]
+    },
+    "HPR1": {
+      "place": "himachal-pradesh",
+      "topic": "Kangra and Dharamshala",
+      "claim": "In Kangra, McLeodganj's Namgyal Monastery is a seat of the Dalai Lama, and Kangra Fort was founded by the Katoch dynasty.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_HP",
+          "quote": "the Namgyal Monastery in Mcleodganj , serving as a significant abode for the revered Dalai Lama"
+        },
+        {
+          "source": "II_HP",
+          "quote": "Kangra Fort , originally established by the esteemed Katoch dynasty"
+        }
+      ]
+    },
+    "HPR2": {
+      "place": "himachal-pradesh",
+      "topic": "Shimla",
+      "claim": "Shimla has the Jakhu Temple, linked to the Hanuman legend, and is reached by the UNESCO-listed Kalka–Shimla railway.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_HP",
+          "quote": "The Jakhu Temple , with its mythological significance linked to Lord Hanuman's legendary journey"
+        },
+        {
+          "source": "HPT_REACH",
+          "quote": "The Kalka-Shimla train track is UNESCO World Heritage Site in itself."
+        }
+      ]
+    },
+    "HPR3": {
+      "place": "himachal-pradesh",
+      "topic": "Chamba and Khajjiar",
+      "claim": "Khajjiar in Chamba district is called 'mini-Switzerland'.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_HP",
+          "quote": "Khajjiar is a small town in the Chamba district called the mini-Switzerland due to its similarities in nature."
+        }
+      ]
+    },
+    "HPR4": {
+      "place": "himachal-pradesh",
+      "topic": "Kinnaur",
+      "claim": "Kinnaur keeps the ancient Sazo festival.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_HP",
+          "quote": "the ancient Sazo festival in the valley of Kinnaur"
+        }
+      ]
+    },
+    "HPR5": {
+      "place": "himachal-pradesh",
+      "topic": "Kullu valley",
+      "claim": "The Kullu valley holds Manali, Kasol in the Parvati valley and Manikaran's hot springs (1,829 m, 40 km from Kullu), and the Great Himalayan National Park, a UNESCO World Heritage Site.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_HP",
+          "quote": "you must visit Kasol , also known as the Amsterdam of India"
+        },
+        {
+          "source": "DK_POI",
+          "quote": "Manikaran at an altitude of 1,829 mt. and 40 kms from Kullu has the finest hot water springs."
+        },
+        {
+          "source": "II_11",
+          "quote": "The Great Himalayan National Park, a UNESCO World Heritage site"
+        }
+      ]
+    },
+    "HPR6": {
+      "place": "himachal-pradesh",
+      "topic": "Five rivers",
+      "claim": "Five rivers flow through Himachal: the Ravi, Beas, Chenab, Yamuna and Sutlej.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_HP",
+          "quote": "Himachal Pradesh has five rivers: the Ravi, the Beas, the Chenab, the Yamuna, and the Sutlej ."
+        }
+      ]
+    },
+    "MN10": {
+      "place": "himachal-pradesh/manali",
+      "topic": "Tourist seasons",
+      "claim": "Most visitors come from April to July and from October to December.",
+      "claimType": "schedule",
+      "evidence": [
+        {
+          "source": "HPT_MN",
+          "quote": "has tourists converge on this township in summer from April to July and in autumn to early winter from October to December."
+        }
+      ],
+      "kind": "seasonal"
+    },
+    "MN11": {
+      "place": "himachal-pradesh/manali",
+      "topic": "Temperatures",
+      "claim": "Summer days are around 22–30°C; in December–January it can fall below −5°C.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "HPT_MN",
+          "quote": "The bountiful valley is most pleasant during the summers when temperatures hover around 22°-30°Celsius."
+        },
+        {
+          "source": "HPT_MN",
+          "quote": "Temperature in December-January can fall below minus 5 degree Celsius in Manali."
+        }
+      ],
+      "kind": "seasonal"
+    },
+    "MN12": {
+      "place": "himachal-pradesh/manali",
+      "topic": "Woollens",
+      "claim": "Weather changes abruptly — thunderstorms and sudden snowfall can turn a warm day cold in minutes — so woollens are essential, even light ones in summer.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "HPT_MN",
+          "quote": "Thunderstorms and sudden snowfalls do cause a sharp drop in temperature turning an otherwise warm day into a cold one in a matter of minutes. Woolens are essential when visiting Manali."
+        }
+      ]
+    },
+    "MN13": {
+      "place": "himachal-pradesh/manali",
+      "topic": "Languages",
+      "claim": "Hindi, Punjabi and English are spoken in the tourism trade; locals speak the Kulluvi dialect.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "HPT_MN",
+          "quote": "Hindi, Punjabi, English are understood and spoken by the people engaged in tourism trade. Local usually speak the Kulluvi dialect in their everyday dealings."
+        }
+      ]
+    },
+    "MN14": {
+      "place": "himachal-pradesh/manali",
+      "topic": "Airport",
+      "claim": "Kullu–Manali airport at Bhuntar is 50 km from Manali, with taxis and buses onward; flights connect it with Delhi (about 1.5 hours), Chandigarh and Shimla.",
+      "claimType": "distance",
+      "evidence": [
+        {
+          "source": "HPT_MN",
+          "quote": "The airport at Bhuntar is 50 km from Manali from where taxis and buses are readily available."
+        },
+        {
+          "source": "DK_REACH",
+          "quote": "Flights are available to and from Delhi, Chandigarh and Jubbar-hatti (Shimla). From Delhi, it takes one & half an hour to reach Kullu-Manali Airport."
+        }
+      ]
+    },
+    "MN15": {
+      "place": "himachal-pradesh/manali",
+      "topic": "By train",
+      "claim": "There is no railway to Manali: take a broad-gauge train to Pathankot and the narrow-gauge line to Joginder Nagar, or a train to Kiratpur (about 200 km from Kullu), then continue by road.",
+      "claimType": "distance",
+      "evidence": [
+        {
+          "source": "HPT_MN",
+          "quote": "Broad gauge trains travel up to Pathankot, from where a narrow gauge train takes you to Joginder Nagar. The distance between Joginder Nagar and Manali has to be covered by road transport."
+        },
+        {
+          "source": "DK_REACH",
+          "quote": "Kiratpur is another railway station 200 Km far on Kullu-Chandigarh highway."
+        }
+      ]
+    },
+    "MN16": {
+      "place": "himachal-pradesh/manali",
+      "topic": "By road from Delhi",
+      "claim": "Delhi to Manali is about 550 km by road; deluxe and AC Volvo buses run regularly, and booking ahead is recommended.",
+      "claimType": "distance",
+      "evidence": [
+        {
+          "source": "HPT_MN",
+          "quote": "The road journey from Delhi to Manali is about 550 km, and an advance booking of tickets in the AC/Volvo coaches is recommended"
+        },
+        {
+          "source": "HPT_MN",
+          "quote": "Deluxe, semi-deluxe, AC, Volvo buses ply regularly to these places."
+        },
+        {
+          "source": "HPT_MN",
+          "quote": "Manali is well connected by road with Delhi, Chandigarh, Dehradun, Haridwar, Shimla, Dharamshala and Chamba."
+        }
+      ]
+    },
+    "MN17": {
+      "place": "himachal-pradesh/manali",
+      "topic": "Parking",
+      "claim": "There's a car park near the main market, a short walk from Mall Road.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "HPT_MN",
+          "quote": "Tourists can park their cars at the parking lot near Manali main market. It’s a small walk from the Mall Road."
+        }
+      ]
+    },
+    "MN18": {
+      "place": "himachal-pradesh/manali",
+      "topic": "Mall Road",
+      "claim": "Mall Road is the place to stroll and shop for souvenirs, woollens and Himachali handloom and handicrafts.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "HPT_MN",
+          "quote": "The Mall in Manali is where you can enjoy a leisurely stroll and be on a shopping spree."
+        },
+        {
+          "source": "HPT_MN",
+          "quote": "The bazaar has good outlets for buying travel souvenirs, woolens, Himachali handloom and handicraft products."
+        }
+      ]
+    },
+    "MN19": {
+      "place": "himachal-pradesh/manali",
+      "topic": "Old Manali",
+      "claim": "Old Manali, up a path beyond the town, has narrow streets, many foreign visitors and cafés with mostly Western menus.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "HPT_MN",
+          "quote": "A path that goes past the town takes you to the narrow streets of Old Manali, which has a significant presence of foreign tourists and music playing out of hippie style cafes."
+        },
+        {
+          "source": "HPT_MN",
+          "quote": "Old Manali is a place where most menus are filled with western cuisines."
+        }
+      ]
+    },
+    "MN20": {
+      "place": "himachal-pradesh/manali",
+      "topic": "Vashisht rooftops",
+      "claim": "Vashisht, more compact than Old Manali, is known for rooftop eateries with mountain views.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "HPT_MN",
+          "quote": "Vashisht, more compact than Old Manali, is home to some of the best rooftop eateries that offer great mountain views"
+        }
+      ]
+    },
+    "MN21": {
+      "place": "himachal-pradesh/manali",
+      "topic": "Club House",
+      "claim": "Himachal Tourism's Club House on the Manalsu stream has roller skating, billiards, table tennis, go-karting and river crossing.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "HPT_MN",
+          "quote": "The Club House run by Himachal Tourism is an activity-filled complex on the left bank of Manalsu"
+        },
+        {
+          "source": "HPT_MN",
+          "quote": "The activities of roller skating, billiards, table tennis, go-karting and river crossing can be indulged in at this hub for tourists."
+        }
+      ]
+    },
+    "MN22": {
+      "place": "himachal-pradesh/manali",
+      "topic": "Winter Carnival",
+      "claim": "Manali's week-long Winter Carnival is held in the first week of January, with folk dance, a parade and a ski competition at Solang.",
+      "claimType": "schedule",
+      "evidence": [
+        {
+          "source": "HPT_FAIRS",
+          "quote": "Gaiety and fanfare mark the week-long Winter Carnival festival held in the first week of January at Manali."
+        },
+        {
+          "source": "HPT_FAIRS",
+          "quote": "Nearby in Solang Valley, a skiing competition is also conducted."
+        }
+      ],
+      "kind": "seasonal"
+    },
+    "MN23": {
+      "place": "himachal-pradesh/manali",
+      "topic": "Hospital",
+      "claim": "Manali has a government civil hospital, a private hospital and private clinics.",
+      "claimType": "contact",
+      "evidence": [
+        {
+          "source": "HPT_MN",
+          "quote": "The tourist city has a Government run civil hospital that provides good healthcare facilities. There is also the privately run Hospital in Manali"
+        }
+      ]
+    },
+    "MN24": {
+      "place": "himachal-pradesh/manali",
+      "topic": "Mobile network",
+      "claim": "All national mobile networks cover Manali with 3G/4G.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "HPT_MN",
+          "quote": "All 3G and 4G service providers have fine network coverage in Manali."
+        }
+      ]
+    },
+    "MN25": {
+      "place": "himachal-pradesh/manali",
+      "topic": "Green tax",
+      "claim": "Vehicles not registered in Himachal pay a green tax to enter Manali — ₹100 for a bike, ₹200 for a car (LMV), ₹300 for a passenger vehicle, ₹500 for a goods vehicle — valid seven days, bought online up to nine days ahead, printout required.",
+      "claimType": "price",
+      "evidence": [
+        {
+          "source": "RP_GREEN",
+          "quote": "This tax is paid for every vehicle that is not registered in the State of Himachal Pradesh. The permit is valid for seven days."
+        },
+        {
+          "source": "RP_GREEN",
+          "quote": "Bike 100 2 LMV 200 3 Passenger Vehicle 300 4 Goods Vehicle 500"
+        },
+        {
+          "source": "RP_GREEN",
+          "quote": "Permits can only be applied for next 9 days from the current date."
+        }
+      ]
+    },
+    "MN26": {
+      "place": "himachal-pradesh/manali",
+      "topic": "Buses and taxis",
+      "claim": "HRTC buses run from Manali's bus stand to major cities, and taxis are available from the local taxi stand.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "DK_REACH",
+          "quote": "Frequent buses are available from the HRTC bus stands at Kullu and Manali to all major cities. One can avail Taxis also from the the Local Taxi Stand."
+        }
+      ]
+    },
+    "MN27": {
+      "place": "himachal-pradesh/manali",
+      "topic": "Monsoon adventure ban",
+      "claim": "Every year rafting, river crossing and paragliding stop for the monsoon, from 15 July to 15 September.",
+      "claimType": "rule",
+      "evidence": [
+        {
+          "source": "ETV_BAN",
+          "quote": "various adventure activities such as river rafting, river crossing, and paragliding have been banned from July 15 to September 15."
+        },
+        {
+          "source": "TTJ_BAN",
+          "quote": "Every year, adventure activities are closed for two months during the rainy season"
+        }
+      ],
+      "kind": "seasonal"
+    },
+    "MN28": {
+      "place": "himachal-pradesh/manali",
+      "topic": "Mountaineering institute",
+      "claim": "The Atal Bihari Vajpayee Institute of Mountaineering and Allied Sports, founded in Manali in 1961, runs basic to advanced courses in mountaineering, climbing, trekking, rafting and paragliding.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_MI",
+          "quote": "Established on 16th September, 1961 in Manali by Pandit Jawaharlal Nehru"
+        },
+        {
+          "source": "HPT_MN",
+          "quote": "The institute offers basic to advanced level courses in mountaineering, rock climbing, trekking, river rafting, paragliding and other adventure sport disciplines."
+        }
+      ]
+    },
+    "MN29": {
+      "place": "himachal-pradesh/manali",
+      "topic": "Gompa",
+      "claim": "The colourful Buddhist monastery close to the Mall, with a large Buddha statue and murals of the Buddha's life, was built in the early 1960s.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "HPT_MN",
+          "quote": "Close to the Mall, this Buddhist monastery greets you with its bright colours. A large Buddha statue at the entrance"
+        },
+        {
+          "source": "HPT_MN",
+          "quote": "The monastery was built in the early 1960’s."
+        }
+      ]
+    },
+    "MN30": {
+      "place": "himachal-pradesh/manali",
+      "topic": "Museum of Himachal Culture & Folk Art",
+      "claim": "The small Museum of Himachal Culture & Folk Art near the Hadimba Temple shows traditional artefacts, instruments, clothing and household items.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_11",
+          "quote": "This small but charming museum, situated near Hidimba Devi Temple, offers visitors a glimpse into the rich cultural heritage of Himachal Pradesh."
+        },
+        {
+          "source": "II_11",
+          "quote": "With its fascinating collection of traditional artefacts, musical instruments, clothing, and household items"
+        }
+      ]
+    },
+    "MN31": {
+      "place": "himachal-pradesh/manali",
+      "topic": "Nehru Kund",
+      "claim": "Nehru Kund, a spring fed by Bhrigu Lake, is on the Manali–Leh highway about 5–6 km from Manali.",
+      "claimType": "distance",
+      "evidence": [
+        {
+          "source": "II_NK",
+          "quote": "Situated along the Manali-Leh Highway, about 6 kms from Manali, Nehru Kund is a natural spring named after India’s first Prime Minister"
+        },
+        {
+          "source": "HPT_MN",
+          "quote": "On the way to Rohtang Pass, 5 km beyond of Manali, is a little spring fed by the sacred waters from Brighu Lake."
+        }
+      ]
+    },
+    "MN32": {
+      "place": "himachal-pradesh/manali",
+      "topic": "Wildlife sanctuary",
+      "claim": "Manali Wildlife Sanctuary starts about 2 km from town; a bridle path past the Dhungri temple leads through deodar, kail, walnut and maple forest, home to monal, musk deer and brown bear. It covers about 31.8 sq km.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "HPT_MN",
+          "quote": "The sanctuary starts about 2 km from Manali. A bridle path darkened by the dense forest cover takes you past Dhungri temple to Gallant thatch."
+        },
+        {
+          "source": "HPT_MN",
+          "quote": "The birds and animals and birds that can be sighted include the Monal, Musk deer and Brown bear."
+        },
+        {
+          "source": "W_SANCT",
+          "quote": "The area of the sanctuary is about 31.8 square kilometres."
+        }
+      ]
+    },
+    "MN33": {
+      "place": "himachal-pradesh/manali",
+      "topic": "Shopping for keepsakes",
+      "claim": "Look for Kullu shawls, Himachali caps and handcrafted wooden items; government emporiums have reasonable prices and assured quality.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_11",
+          "quote": "pick up some Kullu shawls, Himachali caps, and handcrafted wooden items"
+        },
+        {
+          "source": "HPT_TIPS",
+          "quote": "Shop at Government emporiums. Prices are reasonable and quality assured."
+        }
+      ]
+    },
+    "MN34": {
+      "place": "himachal-pradesh/manali",
+      "topic": "Paved path to Vashisht",
+      "claim": "Vashisht can be reached by a paved path from Manali market.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "HPT_MN",
+          "quote": "Vashisht is a sacred village that can be easily reached by a paved path from Manali market."
+        }
+      ]
+    },
+    "MN35": {
+      "place": "himachal-pradesh/manali",
+      "topic": "Treks from Manali",
+      "claim": "Popular treks from Manali include Hampta Pass, Bhrigu Lake and Beas Kund.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_ADV",
+          "quote": "Popular trekking routes include the Hampta Pass, Bhrigu Lake Trek, and Beas Kund Trek"
+        }
+      ]
+    },
+    "MN36": {
+      "place": "himachal-pradesh/manali",
+      "topic": "Rahala Falls and Gulaba",
+      "claim": "Rahala Falls (16 km from Manali) and Gulaba are on the Rohtang road.",
+      "claimType": "distance",
+      "evidence": [
+        {
+          "source": "II_NK",
+          "quote": "Rahala Falls: Located 16 km from Manali, these falls are a sight to behold."
+        },
+        {
+          "source": "II_NK",
+          "quote": "Gulaba: Located on the Rotang Pass Road"
+        }
+      ]
+    },
+    "MN37": {
+      "place": "himachal-pradesh/manali",
+      "topic": "Jogini Falls",
+      "claim": "Jogini Waterfall is reached on foot from Vashisht village.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_NK",
+          "quote": "Jogini Waterfall: Located in Vashisht Village, this stunning waterfall offers a refreshing trek and mesmerising views."
+        }
+      ]
+    },
+    "HD6": {
+      "place": "himachal-pradesh/hadimba-temple",
+      "topic": "Dhungri Temple",
+      "claim": "Locally called the Dhungri Temple, it is close to Mall Road; the sanctum is a cave shrine with the goddess's footprints, and Manali may be the only place in India where Hidimba is worshipped as a goddess.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "HPT_MN",
+          "quote": "Known as the Dhungri Temple, this temple with the presiding deity of Manali is in close proximity of the town center Mall Road."
+        },
+        {
+          "source": "HPT_MN",
+          "quote": "The temples sanctum sanctorum is a cave shrine that is believed to have foot imprints of Hidimba Devi."
+        },
+        {
+          "source": "HPT_MN",
+          "quote": "Manali is perhaps the only place in India where she is worshipped as a goddess."
+        }
+      ]
+    },
+    "HD7": {
+      "place": "himachal-pradesh/hadimba-temple",
+      "topic": "Dhungri fair",
+      "claim": "The Dhungri (Hadimba Devi) fair is held in spring, in May, beside the temple.",
+      "claimType": "schedule",
+      "evidence": [
+        {
+          "source": "HPT_MN",
+          "quote": "The Dhungri Devi (Hidimba Devi) fair is an important event that is celebrated in spring beside the deodar shaded temple complex."
+        },
+        {
+          "source": "HPT_FAIRS",
+          "quote": "Manali celebrates the Dhoongri fair in honour of Goddess Hadimba Devi"
+        }
+      ],
+      "kind": "seasonal"
+    },
+    "MT1": {
+      "place": "himachal-pradesh/manu-temple",
+      "topic": "Manu Temple",
+      "claim": "The Manu Temple in Old Manali, a stone-and-wood temple with a slate roof, is dedicated to the sage Manu, said to have codified Hindu law in the Manusmriti; it is the only temple to him in India, and Manali takes its name from it.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "HPT_MN",
+          "quote": "Manu Temple in Old Manali is a fine stone and wood monument roofed with slate tiles. The temple is devoted to Rishi Manu, a sage who codified the Hindu laws in the book Manusmriti."
+        },
+        {
+          "source": "II_MN",
+          "quote": "is the only temple in India in his honour"
+        },
+        {
+          "source": "HPT_MN",
+          "quote": "Manali derives its very name from Manu Alya, sanctified in the temple."
+        }
+      ]
+    },
+    "MT2": {
+      "place": "himachal-pradesh/manu-temple",
+      "topic": "Distance",
+      "claim": "It is about 3 km from the main bazaar, within walking distance of town.",
+      "claimType": "distance",
+      "evidence": [
+        {
+          "source": "II_NK",
+          "quote": "Manu Temple: Explore the Manu Temple in Old Manali, just 3 km from the main bazaar."
+        },
+        {
+          "source": "HPT_MN",
+          "quote": "At a walking distance from Manali town"
+        }
+      ]
+    },
+    "MT3": {
+      "place": "himachal-pradesh/manu-temple",
+      "topic": "Legend",
+      "claim": "Legend says Manu stepped onto the earth here after the great flood and made his home at 'Manu-Alaya'.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "DK_POI",
+          "quote": "There is an interesting legend about Manali which goes to say that Manu, the author of ’Manu Samhita’, after the great deluge first stepped on the earth from the celestial boat at a place in this land."
+        }
+      ]
+    },
+    "JG1": {
+      "place": "himachal-pradesh/jagatsukh",
+      "topic": "Jagatsukh",
+      "claim": "Jagatsukh, about 6 km from Manali, was once Nast, capital of the Kullu rulers for generations before the capital moved to Naggar and then Sultanpur (Kullu).",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_JAG",
+          "quote": "Situated a mere 6 kilometres away from the bustling town of Manali"
+        },
+        {
+          "source": "II_JAG",
+          "quote": "Formerly known as Nast, Jagatsukh served as the capital city for over ten generations"
+        },
+        {
+          "source": "HPT_MN",
+          "quote": "Jagat Sukh served as the capital of Kullu before it was first moved to Naggar and then to Sultanpur."
+        }
+      ]
+    },
+    "JG2": {
+      "place": "himachal-pradesh/jagatsukh",
+      "topic": "Temples and festival",
+      "claim": "Its temples include the Gauri Shankar Temple of Shiva and the Gayatri Temple; the Chacholi Jatra festival is held here.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "HPT_MN",
+          "quote": "The Gauri Shankar Temple dedicated to Lord Shiva and the Gayatri Temple is a testimony of the times when life in the valley centred around this village."
+        },
+        {
+          "source": "II_JAG",
+          "quote": "The renowned Chacholi Jatra Festival is celebrated here with great fervour"
+        }
+      ]
+    },
+    "JG3": {
+      "place": "himachal-pradesh/jagatsukh",
+      "topic": "Visiting",
+      "claim": "The village can be visited at any time of day and is a base for treks towards Deo Tibba.",
+      "claimType": "opening_hours",
+      "evidence": [
+        {
+          "source": "II_JAG",
+          "quote": "You may visit this village at any time of the day."
+        },
+        {
+          "source": "II_JAG",
+          "quote": "Trekking enthusiasts can embark on an adventure to Deo Tibba"
+        }
+      ]
+    },
+    "SO7": {
+      "place": "himachal-pradesh/solang-valley",
+      "topic": "Activities at Solang",
+      "claim": "Solang offers quad-bike rides, zorbing, paragliding, a gondola (ropeway), rock climbing, ballooning, camping and mountaineering; in winter its slopes host state and national ski championships.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "HPT_MN",
+          "quote": "A variety of adventure sporting activities that include quad-bike rides, zorbing, paragliding and gondola (ropeway) ride, rock climbing, ballooning, camping and mountaineering can be indulged in at Solang."
+        },
+        {
+          "source": "HPT_MN",
+          "quote": "In winters, the slopes packed with snow becomes a winter sports arena for skiing where even state and national level ski championship are regularly conducted."
+        }
+      ]
+    },
+    "SO8": {
+      "place": "himachal-pradesh/solang-valley",
+      "topic": "Mountaineering base",
+      "claim": "Solang is a base camp for expeditions to Anjani Mahadev, Hanuman Tibba and Patalsu.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "HPT_MN",
+          "quote": "Solang also serves as a base camp for mountaineering expeditions to Anjani Mahadev, Hanuman Tibba and Patalsu peak."
+        }
+      ]
+    },
+    "SO9": {
+      "place": "himachal-pradesh/solang-valley",
+      "topic": "Zipline",
+      "claim": "Solang has a 1.5-km zipline.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_11",
+          "quote": "Take a thrilling ride on the 1.5 km long zipline at Solang Valley"
+        }
+      ]
+    },
+    "PG1": {
+      "place": "himachal-pradesh/paragliding-in-solang",
+      "topic": "Tandem paragliding at Solang",
+      "claim": "Solang Valley is Manali's main paragliding site; tandem flights with experienced pilots let first-timers fly without steering.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_ADV",
+          "quote": "Paragliding, one of Manali's most sought-after adventures, finds its prime location in the serene Solang Valley"
+        },
+        {
+          "source": "II_ADV",
+          "quote": "Tandem flights, guided by seasoned pilots, provide an opportunity for even novices to partake in the joy of paragliding."
+        }
+      ]
+    },
+    "SK1": {
+      "place": "himachal-pradesh/skiing-in-solang",
+      "topic": "Skiing at Solang",
+      "claim": "Solang's slopes (and Rohtang's) suit beginners as well as advanced skiers, with professional trainers.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_ADV",
+          "quote": "The rolling slopes of Solang Valley and Rohtang Pass provide an ideal landscape for beginners to take their initial strides into skiing"
+        },
+        {
+          "source": "II_ADV",
+          "quote": "entrust yourself to the expertise of professional trainers"
+        }
+      ]
+    },
+    "RF1": {
+      "place": "himachal-pradesh/beas-river-rafting",
+      "topic": "Rafting on the Beas",
+      "claim": "The snow-fed Beas runs from Rohtang through the valley to Kullu, and rafting, rowing and river crossing happen along the Manali–Kullu stretch; the rapids swell in summer as snow melts.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "HPT_MN",
+          "quote": "The glacial water of River Beas after rushing down the slopes of Rohtang Pass allows adventure sport activities of rowing, white water rafting and river crossing as it meanders through the valley from Manali to Kullu."
+        },
+        {
+          "source": "II_ADV",
+          "quote": "During the summer months, as the snow gracefully melts, the Beas River transforms into a dynamic force, swelling with gushing rapids"
+        }
+      ],
+      "kind": "seasonal"
+    },
+    "RF2": {
+      "place": "himachal-pradesh/beas-river-rafting",
+      "topic": "Instructors",
+      "claim": "Each rafter goes with a qualified instructor who briefs them on safety.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_ADV",
+          "quote": "Each participant is paired with a qualified instructor who not only guides them through the rafting procedure but also imparts crucial information for a safe and enjoyable jo"
+        }
+      ]
+    },
+    "VH1": {
+      "place": "himachal-pradesh/vashisht",
+      "topic": "Bathing facilities",
+      "claim": "The Vashisht baths have a walled stone pool and separate shower rooms for women and men with hot and cold water piped in; charges are nominal.",
+      "claimType": "price",
+      "evidence": [
+        {
+          "source": "DK_POI",
+          "quote": "There is a regular walled bathing pool with stone floors. Turkish styled shower fitted bath rooms, separate for ladies and gents have been built closely where the hot/ cold water is separately piped, maintaining the regular temperature for bathing, charges are nominal."
+        }
+      ]
+    },
+    "RO7": {
+      "place": "himachal-pradesh/rohtang-pass",
+      "topic": "Daily permit quota",
+      "claim": "Rohtang permits are capped each day at 800 petrol and 400 diesel vehicles, released online in two batches at 10:00 and 16:00.",
+      "claimType": "rule",
+      "evidence": [
+        {
+          "source": "RP",
+          "quote": "Daily Permit Limit : (i) Petrol Vehicles = 800 (ii) Diesel Vehicles = 400"
+        },
+        {
+          "source": "RP",
+          "quote": "(i) 10:00 hrs (200 Diesel and 400 Petrol) (ii) 16:00 hrs (200 Diesel and 400 Petrol)"
+        }
+      ]
+    },
+    "RO8": {
+      "place": "himachal-pradesh/rohtang-pass",
+      "topic": "Three permits a week",
+      "claim": "Each vehicle can get only three permits a week (Tuesday to Monday).",
+      "claimType": "rule",
+      "evidence": [
+        {
+          "source": "RP",
+          "quote": "In a week (Tuesday to Monday) only 3 permits can be obtained for each vehicle."
+        }
+      ]
+    },
+    "RO9": {
+      "place": "himachal-pradesh/rohtang-pass",
+      "topic": "Permit fee and congestion charge",
+      "claim": "The Rohtang permit fee is ₹500 per vehicle (car, jeep, MUV or bus), plus a congestion charge for crossing Gulaba bridge: ₹50 for cars, jeeps and MUVs, ₹100 for buses.",
+      "claimType": "price",
+      "evidence": [
+        {
+          "source": "RP",
+          "quote": "Car & Jeep 500 50 2 MUV's 500 50 3 Buses & HMV 500 100"
+        },
+        {
+          "source": "RP",
+          "quote": "This is applicable for all vehicles crossing Gulaba Bridge."
+        }
+      ]
+    },
+    "RO10": {
+      "place": "himachal-pradesh/rohtang-pass",
+      "topic": "Documents",
+      "claim": "You need valid ID, a valid PUC (pollution) certificate and the vehicle's registration date (no older than 10 years); a printout of the permit is compulsory.",
+      "claimType": "rule",
+      "evidence": [
+        {
+          "source": "RP",
+          "quote": "Valid ID Proof Valid Pollution Under Check (PUC) Certificate Vehicle Registration Date (Age of vehicle not to be more than 10 yrs)"
+        },
+        {
+          "source": "RP",
+          "quote": "Printout is compulsory for all permissions."
+        }
+      ]
+    },
+    "RO11": {
+      "place": "himachal-pradesh/rohtang-pass",
+      "topic": "No refunds",
+      "claim": "Permit fees are not refundable; only failed payments are refunded.",
+      "claimType": "rule",
+      "evidence": [
+        {
+          "source": "RP_REFUND",
+          "quote": "Fee once paid is not refundable."
+        }
+      ]
+    },
+    "RO12": {
+      "place": "himachal-pradesh/rohtang-pass",
+      "topic": "Season",
+      "claim": "Heavy snow closes the pass in late November and it reopens around May; snow-viewing traffic peaks June–August.",
+      "claimType": "schedule",
+      "evidence": [
+        {
+          "source": "HPT_MN",
+          "quote": "Heavy snow closes the pass in late November which after much effort is again opened six months later by May."
+        },
+        {
+          "source": "HPT_MN",
+          "quote": "tourist vehicles start making a beeline to the Pass to experience snow in the months of June to August"
+        }
+      ],
+      "kind": "seasonal"
+    },
+    "RO13": {
+      "place": "himachal-pradesh/rohtang-pass",
+      "topic": "Special permit",
+      "claim": "A separate 'Special Rohtang Pass' permit is issued only once per vehicle per season, with 60 petrol and 40 diesel vehicles allowed a day.",
+      "claimType": "rule",
+      "evidence": [
+        {
+          "source": "RP_SPECIAL",
+          "quote": "This type of Permit is issued once to one vehilce during entire season."
+        },
+        {
+          "source": "RP_SPECIAL",
+          "quote": "Only 60 petrol vehicles and 40 Diesel Vehicles are permitted to go Rohtang Daily."
+        }
+      ]
+    },
+    "RO14": {
+      "place": "himachal-pradesh/rohtang-pass",
+      "topic": "Hamta vehicle pass",
+      "claim": "Vehicles heading towards Hamta need a one-day online pass: a ₹100 congestion charge for two-wheelers (100 allowed a day) and ₹200 for cars and jeeps (400 a day).",
+      "claimType": "price",
+      "evidence": [
+        {
+          "source": "RP_HAMTA",
+          "quote": "This is applicable for all vehicles Visting Hamta Pass. The tourism permit is valid for one day only (To & Fro)."
+        },
+        {
+          "source": "RP_HAMTA",
+          "quote": "Two Wheeler Not Allowed 100 100 2 Car & Jeep Not Allowed 200 400"
+        }
+      ]
+    },
+    "AT1": {
+      "place": "himachal-pradesh/atal-tunnel",
+      "topic": "Atal Tunnel",
+      "claim": "The 9.02-km Atal Tunnel carries NH3 between Manali and Keylong, bypassing Rohtang Pass; it is the world's longest single-tube highway tunnel above 10,000 ft (3,048 m).",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "W_ATAL",
+          "quote": "is a 9.02-kilometre-long (5.60 mi) road tunnel connecting Manali and Keylong"
+        },
+        {
+          "source": "W_ATAL",
+          "quote": "is the longest highway single-tube tunnel above 10,000 feet (3,048 m) in the world"
+        }
+      ]
+    },
+    "AT2": {
+      "place": "himachal-pradesh/atal-tunnel",
+      "topic": "Shorter route",
+      "claim": "The old route over Rohtang via Gramphu was 116 km and took 5–6 hours; through the tunnel it is 71 km and about 2 hours, avoiding avalanche- and jam-prone stretches.",
+      "claimType": "distance",
+      "evidence": [
+        {
+          "source": "W_ATAL",
+          "quote": "The route, which previously went through Gramphu, was 116 km (72.1 mi) long and took 5 to 6 hours in good conditions."
+        },
+        {
+          "source": "W_ATAL",
+          "quote": "The new route via the tunnel brings down the total distance travelled to 71 km (44.1 mi) which can be covered in about 2 hours"
+        },
+        {
+          "source": "W_ATAL",
+          "quote": "the tunnel bypasses most of the sites that were prone to road blockades, avalanches, and traffic snarls, especially during winters"
+        }
+      ]
+    },
+    "AT3": {
+      "place": "himachal-pradesh/atal-tunnel",
+      "topic": "Opened",
+      "claim": "The tunnel was inaugurated on 3 October 2020.",
+      "claimType": "schedule",
+      "evidence": [
+        {
+          "source": "W_ATAL",
+          "quote": "Prime Minister Narendra Modi inaugurating the Atal Tunnel in Manali, Himachal Pradesh on 3 October 2020."
+        }
+      ]
+    },
+    "LA1": {
+      "place": "himachal-pradesh/lahaul-day-trip-via-atal-tunnel",
+      "topic": "Sissu",
+      "claim": "Sissu, in Lahaul a few kilometres from the tunnel's north portal, is about 40 km (roughly 1.5 hours) from Manali via the Atal Tunnel, and has become a popular stop since the tunnel opened.",
+      "claimType": "distance",
+      "evidence": [
+        {
+          "source": "W_SISSU",
+          "quote": "As Sissu is located a few kilometres from the north portal of the Rohtang Tunnel"
+        },
+        {
+          "source": "W_SISSU",
+          "quote": "Sissu from Manali is approximately 40 km (25 mi) which takes around 1.5 hours via NH3 that passes through Atal tunnel ."
+        },
+        {
+          "source": "TRIB_SISSU",
+          "quote": "After the opening of Atal tunnel on the Manali-Leh highway, Sissu village has emerged as a popular tourist destination in the region."
+        }
+      ],
+      "kind": "estimate"
+    },
+    "LA2": {
+      "place": "himachal-pradesh/lahaul-day-trip-via-atal-tunnel",
+      "topic": "Local restrictions",
+      "claim": "The Sissu panchayat has at times paused tourist activities and stalls by Sissu lake, so check locally before you go.",
+      "claimType": "rule",
+      "evidence": [
+        {
+          "source": "TRIB_SISSU",
+          "quote": "Restrictions imposed by the Sissu gram panchayat in Lahaul and Spiti district on tourists were lifted today to resume tourist activities at Sissu village."
+        }
+      ]
+    },
+    "HT1": {
+      "place": "himachal-pradesh/hampta-pass-trek",
+      "topic": "Hampta Pass",
+      "claim": "Hampta Pass (4,270 m) links the Kullu valley with the Chandra valley of Lahaul; most treks start with a drive from Manali to Jobra (Jobri).",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "W_HAMPTA",
+          "quote": "Hampta Pass is a corridor/pass in the Himalayas , between the Chandra Valley in Lahaul and the Kullu valley of Himachal Pradesh , India ."
+        },
+        {
+          "source": "W_HAMPTA",
+          "quote": "4,270 m (14,010 ft)"
+        },
+        {
+          "source": "W_HAMPTA",
+          "quote": "Most itineraries include transport from Manali to Jobri, from where the trek begins."
+        }
+      ]
+    },
+    "HT2": {
+      "place": "himachal-pradesh/hampta-pass-trek",
+      "topic": "Length and difficulty",
+      "claim": "The trek covers about 25 km over 4 days of moderate trekking and ends in the Lahaul valley.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "IH_HAMPTA",
+          "quote": "spanning 25 km over 4 days of trekking"
+        },
+        {
+          "source": "IH_HAMPTA",
+          "quote": "the sheer variety it offers over 4 days of moderate level trekking is mind-boggling"
+        }
+      ],
+      "kind": "estimate"
+    },
+    "HT3": {
+      "place": "himachal-pradesh/hampta-pass-trek",
+      "topic": "Season",
+      "claim": "June to September is the trekking season.",
+      "claimType": "schedule",
+      "evidence": [
+        {
+          "source": "IH_HAMPTA",
+          "quote": "The very best time would be between June and September ."
+        }
+      ],
+      "kind": "seasonal"
+    },
+    "BL1": {
+      "place": "himachal-pradesh/bhrigu-lake-trek",
+      "topic": "Bhrigu Lake",
+      "claim": "Bhrigu Lake lies at the base of Bhrigu Peak at about 4,235 m (Himachal Tourism; other sources give about 14,000–14,100 ft); sage Bhrigu is said to have meditated here.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "HPT_MN",
+          "quote": "At the base of Bhrigu Peak, this small lake (altitude 4,235 meters) attracts a number of trekkers every year."
+        },
+        {
+          "source": "II_BL",
+          "quote": "set at about 14,100 feet above sea level"
+        },
+        {
+          "source": "II_BL",
+          "quote": "It is believed that sage Bhrigu, chose the serene landscape of the lake for his meditations."
+        }
+      ]
+    },
+    "BL2": {
+      "place": "himachal-pradesh/bhrigu-lake-trek",
+      "topic": "Route",
+      "claim": "It is about 6 km from Gulaba on the Rohtang road; trails start from Gulaba or from Vashisht.",
+      "claimType": "distance",
+      "evidence": [
+        {
+          "source": "W_BHRIGU",
+          "quote": "around 6 kilometres (3.7 mi) from Gulaba village"
+        },
+        {
+          "source": "W_BHRIGU",
+          "quote": "It can be reached by trekking either from Vashisht temple"
+        }
+      ]
+    },
+    "BL3": {
+      "place": "himachal-pradesh/bhrigu-lake-trek",
+      "topic": "Difficulty and season",
+      "claim": "Indiahikes rates it a moderate climb past 14,000 ft in four days, run June to September; Incredible India suggests April–June and September–October.",
+      "claimType": "schedule",
+      "evidence": [
+        {
+          "source": "IH_BHRIGU",
+          "quote": "It climbs past 14,000 ft in just four days"
+        },
+        {
+          "source": "IH_BHRIGU",
+          "quote": "Difficulty: Moderate ascent."
+        },
+        {
+          "source": "IH_BHRIGU",
+          "quote": "The very best time would be between June and September ."
+        },
+        {
+          "source": "II_BL",
+          "quote": "The best time to visit is during the summer months, from April to June as well as from September to October."
+        }
+      ],
+      "kind": "seasonal"
+    },
+    "HP31": {
+      "place": "himachal-pradesh",
+      "topic": "HPTDC coaches and taxis",
+      "claim": "HPTDC (Himachal Tourism) runs its own coaches and taxis for sightseeing.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "HPT_TIPS",
+          "quote": "HPTDC operates its own fleet of coaches and taxis."
+        }
+      ]
+    },
+    "KD1": {
+      "place": "himachal-pradesh/kullu-dussehra",
+      "topic": "Getting to Kullu",
+      "claim": "Kullu is 10 km from Bhuntar airport and 40 km down the valley from Manali.",
+      "claimType": "distance",
+      "evidence": [
+        {
+          "source": "DK_REACH",
+          "quote": "Bhuntar is 10 kms from Kullu and 50 kms from Manali."
+        }
+      ]
+    },
+    "SO10": {
+      "place": "himachal-pradesh/solang-valley",
+      "topic": "Zorbing and quad bikes",
+      "claim": "At Solang you can roll downhill in a zorb ball or ride a quad bike (ATV) with guides.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_ADV",
+          "quote": "Encased in a giant, transparent ball, you roll down gentle slopes"
+        },
+        {
+          "source": "II_ADV",
+          "quote": "This All-Terrain Vehicle (ATV) provides genuine enjoyment for individuals of all ages."
+        }
+      ]
+    },
+    "HP32": {
+      "place": "himachal-pradesh",
+      "topic": "Hill driving",
+      "claim": "On hill roads keep to the left, don't overtake on bends and slow down at corners.",
+      "claimType": "rule",
+      "evidence": [
+        {
+          "source": "HPT_TIPS",
+          "quote": "Hill driving is not as easy as it looks. Always keep to the left to avoid collision with on coming vehicles."
+        },
+        {
+          "source": "HPT_TIPS",
+          "quote": "Avoid overtaking vehicles on bends. Reduce speeds at bends and corners."
+        }
+      ]
+    },
+    "HP33": {
+      "place": "himachal-pradesh",
+      "topic": "Report violations",
+      "claim": "Report safety violations by adventure agencies to the Department of Tourism.",
+      "claimType": "rule",
+      "evidence": [
+        {
+          "source": "HPT_TIPS",
+          "quote": "Please report violation of safety rules by any agency to the Department of Tourism."
+        }
+      ]
     }
   },
   "places": [
@@ -806,17 +2419,24 @@
         "food": {
           "items": [
             {
-              "body": "Siddu, a wheat-based Himachali speciality."
+              "body": "Siddu, a steamed wheat bun with a stuffing, eaten with ghee or butter."
             },
             {
               "body": "Patande, Himachali pancakes."
             },
             {
               "body": "Kali dal, plus momos and noodles from the Tibetan kitchen."
+            },
+            {
+              "body": "Trout — a delicacy in the Kullu-Manali valley."
+            },
+            {
+              "body": "A 'dham', the community feast cooked by hereditary Boti chefs."
             }
           ],
           "facts": [
-            "HP4"
+            "HP4",
+            "HP30"
           ]
         },
         "highlights": {
@@ -844,6 +2464,252 @@
             "HP3",
             "HP6",
             "HP5"
+          ]
+        },
+        "key_facts": {
+          "items": [
+            {
+              "title": "Area",
+              "body": "55,673 sq km",
+              "status": "verified"
+            },
+            {
+              "title": "Getting in",
+              "body": "5 airports; railheads at Kalka and Pathankot",
+              "status": "verified"
+            },
+            {
+              "title": "Best-known festival",
+              "body": "Kullu Dussehra, October",
+              "status": "seasonal"
+            },
+            {
+              "title": "Monsoon",
+              "body": "July–August: landslide risk on roads",
+              "status": "seasonal"
+            }
+          ],
+          "facts": [
+            "HP7",
+            "HP8",
+            "HP10",
+            "HP3",
+            "HP13"
+          ]
+        },
+        "regions": {
+          "items": [
+            {
+              "title": "Kullu valley",
+              "body": "Manali, Solang and the road to Rohtang; Naggar's castle; Kasol in the Parvati valley; Manikaran's hot springs (1,829 m, 40 km from Kullu); the Great Himalayan National Park, a UNESCO site; and Kullu Dussehra each October."
+            },
+            {
+              "title": "Kangra and Dharamshala",
+              "body": "McLeodganj's Namgyal Monastery, a seat of the Dalai Lama, and Kangra Fort, founded by the Katoch dynasty."
+            },
+            {
+              "title": "Shimla",
+              "body": "The Jakhu Temple, linked to the Hanuman legend, reached on the UNESCO-listed Kalka–Shimla railway."
+            },
+            {
+              "title": "Chamba",
+              "body": "Khajjiar, the meadow town called 'mini-Switzerland'."
+            },
+            {
+              "title": "Lahaul and Spiti",
+              "body": "Key Monastery at 4,166 m beside the Spiti River; Lahaul is reached from Manali through the Atal Tunnel. Foreign visitors need an Inner Line Permit for some inner areas of Spiti."
+            },
+            {
+              "title": "Kinnaur",
+              "body": "The ancient Sazo festival; as in Spiti, foreigners need an Inner Line Permit for some inner areas near the Tibet border."
+            },
+            {
+              "title": "Rivers",
+              "body": "Five rivers flow through Himachal: the Ravi, Beas, Chenab, Yamuna and Sutlej."
+            }
+          ],
+          "facts": [
+            "HPR6",
+            "HPR5",
+            "HP3",
+            "NG2",
+            "HPR1",
+            "HPR2",
+            "HPR3",
+            "HP6",
+            "AT1",
+            "HP14",
+            "HPR4"
+          ]
+        },
+        "best_time": {
+          "text": "Himachal's seasons differ by region. The lower districts — Bilaspur, Una, Solan, Sirmour, Hamirpur and Kangra — are warm to hot in summer and mild in winter, while Chamba, Kinnaur, Kullu, Shimla and Lahaul-Spiti are mild in summer and cold in winter.\n\nIn the monsoon, July and August, roads are slippery and landslides and rock-falls happen, and adventure activities such as rafting and paragliding stop from 15 July to 15 September. High passes have short seasons: heavy snow closes Rohtang Pass in late November and it reopens around May. In Manali, most visitors come from April to July and from October to December.",
+          "facts": [
+            "HP12",
+            "HP13",
+            "MN27",
+            "RO12",
+            "MN10"
+          ]
+        },
+        "how_to_reach": {
+          "text": "By air: five airports serve the state — Chandigarh and Pathankot on its borders, and Gaggal-Kangra, Bhuntar-Kullu and Jubbarhatti-Shimla inside it. Gaggal-Kangra and Pathankot are for Kangra, Dharamshala and Chamba; Bhuntar-Kullu for Kullu-Manali, Mandi and Lahaul-Spiti; Chandigarh and Jubbarhatti for Shimla, Solan and Kinnaur.\n\nBy rail: Kalka and Pathankot are the broad-gauge railheads. Narrow-gauge lines climb from Kalka to Shimla — part of a UNESCO World Heritage Site — and from Pathankot through the Kangra valley to Joginder Nagar.\n\nBy road: interstate buses run from Delhi, Chandigarh, Jaipur and other nearby cities, and HPTDC runs its own coaches and taxis for sightseeing.",
+          "facts": [
+            "HP8",
+            "HP9",
+            "HP10",
+            "HP5",
+            "HP11",
+            "HP31"
+          ]
+        },
+        "practical_info": {
+          "items": [
+            {
+              "title": "Visas",
+              "body": "Apply for an e-Tourist visa at least 4 days before arrival; your passport needs at least six months' validity.",
+              "status": "verified"
+            },
+            {
+              "title": "Payments",
+              "body": "Visitors can pay by QR code with NPCI's UPI One World wallet after a passport-and-visa KYC check. Carry some cash for small purchases.",
+              "status": "verified"
+            },
+            {
+              "title": "Permits for foreigners",
+              "body": "Inner Line Permits are needed for some inner areas of Kinnaur and Spiti. They are issued at Himachal Bhawan in New Delhi, in Shimla, Reckong Peo, and at SDM offices in Kalpa, Kaza and Manali.",
+              "status": "verified"
+            },
+            {
+              "title": "Rohtang Pass",
+              "body": "Tourist vehicles need an online permit (₹500 per vehicle plus a congestion charge), issued against a daily quota.",
+              "status": "verified"
+            },
+            {
+              "title": "Banks",
+              "body": "Normally open 10 am–4 pm, Monday to Saturday.",
+              "status": "verified"
+            },
+            {
+              "title": "Electricity",
+              "body": "220 V.",
+              "status": "verified"
+            },
+            {
+              "title": "Plastic",
+              "body": "Polythene is banned in Himachal Pradesh — carry a cloth bag.",
+              "status": "verified"
+            },
+            {
+              "title": "Where to stay",
+              "body": "Choose hotels, guest houses and homestays registered with the Department of Tourism.",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "MN_VISA",
+            "MN_UPI",
+            "HP14",
+            "RO3",
+            "RO9",
+            "HP22",
+            "HP23",
+            "HP16",
+            "HP25"
+          ]
+        },
+        "safety_health": {
+          "items": [
+            {
+              "title": "Emergency",
+              "body": "Dial 112 for police, fire or ambulance, or 108 for the free 24x7 ambulance service.",
+              "status": "verified"
+            },
+            {
+              "title": "Monsoon roads",
+              "body": "In July and August roads are slippery and landslides and rock-falls happen — drive with care and keep to the left on hill roads.",
+              "status": "seasonal"
+            },
+            {
+              "title": "Rivers",
+              "body": "Don't stand on cliff edges or riverside boulders for photos: the rivers are strong and deceptive.",
+              "status": "verified"
+            },
+            {
+              "title": "Adventure sports",
+              "body": "Use only government-authorised, licensed operators. Joy-ride rafting isn't allowed above Class II rapids.",
+              "status": "verified"
+            },
+            {
+              "title": "Treks",
+              "body": "Tell the local authorities (SDM, police or tourism office) before a high-altitude trek and hire registered guides and porters.",
+              "status": "verified"
+            },
+            {
+              "title": "Drugs",
+              "body": "Carrying or using drugs such as opium, heroin or marijuana is a crime under the NDPS Act.",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "MN_112",
+            "HP15",
+            "HP13",
+            "HP26",
+            "HP17",
+            "HP18",
+            "HP19",
+            "HP24"
+          ]
+        },
+        "culture_etiquette": {
+          "items": [
+            {
+              "body": "Ask before you photograph local people."
+            },
+            {
+              "body": "At temples, don't touch or remove religious objects."
+            },
+            {
+              "body": "Carry your rubbish back — polythene is banned and plastic shouldn't be left in the hills or rivers."
+            }
+          ],
+          "facts": [
+            "HP21",
+            "HP16"
+          ]
+        },
+        "faqs": {
+          "items": [
+            {
+              "title": "When is the best time to visit Himachal Pradesh?",
+              "body": "It depends on the region: the lower districts are warm to hot in summer and mild in winter; Kullu, Shimla, Chamba, Kinnaur and Lahaul-Spiti are mild in summer and cold in winter. Avoid relying on mountain roads in July–August, when landslides are common."
+            },
+            {
+              "title": "Which airport is closest to Manali?",
+              "body": "Kullu–Manali airport at Bhuntar, 50 km from Manali, with flights from Delhi, Chandigarh and Shimla."
+            },
+            {
+              "title": "Is there a train to Himachal?",
+              "body": "Broad-gauge trains reach Kalka and Pathankot. From there, narrow-gauge lines go to Shimla and to Joginder Nagar; everywhere else is by road."
+            },
+            {
+              "title": "Do foreigners need a permit for Spiti or Kinnaur?",
+              "body": "Yes, for some inner areas near the Tibet border. Inner Line Permits are issued in New Delhi, Shimla, Reckong Peo and at SDM offices in Kalpa, Kaza and Manali."
+            },
+            {
+              "title": "When is Kullu Dussehra?",
+              "body": "It starts on Vijaya Dashami and runs for seven days at Dhalpur Maidan in Kullu; in 2026 it was held from 21 to 27 October."
+            }
+          ],
+          "facts": [
+            "HP12",
+            "HP13",
+            "MN14",
+            "HP10",
+            "HP14",
+            "HP29",
+            "HP27"
           ]
         }
       },
@@ -889,17 +2755,26 @@
           ]
         },
         "best_time": {
-          "text": "Snow falls mainly from December to early March — the time for snow at Solang. The road over Rohtang Pass is usually open from about May to November. For Solang, Incredible India suggests April to June and September to January.",
+          "text": "Manali has two main visitor seasons: April to July, when summer days are around 22–30°C, and October to December. Snow falls mainly from December to early March, and in December–January it can drop below −5°C — the time for skiing at Solang and the Winter Carnival in the first week of January.\n\nThe road over Rohtang Pass usually reopens around May and closes in late November; June to August is when visitors drive up to see snow. In the monsoon (July–August) roads can be hit by landslides, and paragliding and rafting stop from 15 July to 15 September. For Solang, Incredible India suggests April to June and September to January.",
           "facts": [
+            "MN10",
+            "MN11",
             "MN2",
-            "RO2",
+            "MN22",
+            "RO12",
+            "HP13",
+            "MN27",
             "SO3"
           ]
         },
         "how_to_reach": {
-          "text": "The nearest airport is Kullu–Manali airport at Bhuntar; Kullu itself is about 40 km down the valley. Buses are run by HRTC, HPTDC and private operators.",
+          "text": "By air: Kullu–Manali airport at Bhuntar is 50 km from Manali, with taxis and buses onward. Flights connect it with Delhi (about 1.5 hours), Chandigarh and Shimla.\n\nBy bus: Delhi is about 550 km away. Deluxe and AC Volvo buses run regularly from Delhi, Chandigarh, Shimla, Dharamshala and other cities — book ahead. HRTC, HPTDC and private operators run services.\n\nBy train: there is no railway to Manali. The nearest railheads are Joginder Nagar, on the narrow-gauge line from Pathankot, and Kiratpur, about 200 km from Kullu on the Chandigarh highway; continue by road.\n\nBy car: vehicles not registered in Himachal pay a green tax to enter Manali (₹200 for a car), bought online and valid for seven days.",
           "facts": [
-            "MN3"
+            "MN14",
+            "MN16",
+            "MN3",
+            "MN15",
+            "MN25"
           ]
         },
         "food": {
@@ -908,15 +2783,24 @@
               "body": "Kullu trout, grilled or in curry."
             },
             {
-              "body": "Kaddu ka khatta (sour pumpkin) and sepu vadi."
+              "body": "Kaddu ka khatta (sour pumpkin), sepu vadi and guchhi matar."
             },
             {
-              "body": "Café food in Old Manali and Vashisht; North Indian dishes on Mall Road."
+              "body": "Siddu, the steamed Himachali bun, with ghee."
+            },
+            {
+              "body": "Momos and street snacks on Mall Road; North Indian dishes in Mall Road's restaurants."
+            },
+            {
+              "body": "Western menus in Old Manali's cafés; Italian, Mexican and Israeli dishes on Vashisht's rooftops."
             }
           ],
           "facts": [
             "MN4",
-            "MN5"
+            "HP30",
+            "MN5",
+            "MN19",
+            "MN20"
           ]
         },
         "things_to_do": {
@@ -941,6 +2825,9 @@
             },
             {
               "body": "Watch evening prayers at the Manali Gompa, built by Tibetan refugees in the 1960s."
+            },
+            {
+              "body": "Try go-karting and roller skating at Himachal Tourism's Club House."
             }
           ],
           "facts": [
@@ -952,46 +2839,451 @@
             "RO3",
             "RO4",
             "MN8",
-            "GM1"
+            "GM1",
+            "MN21"
           ]
         },
         "practical_info": {
           "items": [
             {
               "title": "Visas",
-              "body": "Apply for an e-Tourist visa at least 4 days before arrival; your passport needs at least six months' validity."
+              "body": "Apply for an e-Tourist visa at least 4 days before arrival; your passport needs at least six months' validity.",
+              "status": "verified"
             },
             {
               "title": "Payments",
-              "body": "Visitors can pay by QR code with NPCI's UPI One World wallet after a passport-and-visa KYC check. Carry some cash for small purchases."
+              "body": "Visitors can pay by QR code with NPCI's UPI One World wallet after a passport-and-visa KYC check. Carry some cash for small purchases.",
+              "status": "verified"
             },
             {
               "title": "Emergency",
-              "body": "Dial 112 for police, fire or ambulance."
+              "body": "Dial 112 for police, fire or ambulance, or 108 for the free ambulance service.",
+              "status": "verified"
             },
             {
               "title": "Rohtang permits",
-              "body": "Tourist vehicles need an online permit for Rohtang Pass, issued against a daily quota and valid for one day."
+              "body": "₹500 per vehicle plus a ₹50 congestion charge (₹100 for buses), online, up to two days ahead, against a daily quota of 800 petrol and 400 diesel vehicles. Vehicles must be no more than 10 years old; carry a printout.",
+              "status": "verified"
+            },
+            {
+              "title": "Green tax",
+              "body": "Vehicles not registered in Himachal pay ₹100 (bike), ₹200 (car), ₹300 (passenger vehicle) or ₹500 (goods vehicle) to enter Manali; valid seven days.",
+              "status": "verified"
+            },
+            {
+              "title": "Mobile network",
+              "body": "All national networks cover Manali with 3G/4G.",
+              "status": "verified"
+            },
+            {
+              "title": "Languages",
+              "body": "Hindi, Punjabi and English in the tourism trade; locals speak Kulluvi.",
+              "status": "verified"
+            },
+            {
+              "title": "Hospital",
+              "body": "A government civil hospital, a private hospital and private clinics.",
+              "status": "verified"
+            },
+            {
+              "title": "What to pack",
+              "body": "Woollens in every season — thunderstorms and sudden snow can turn a warm day cold in minutes.",
+              "status": "verified"
             }
           ],
           "facts": [
             "MN_VISA",
             "MN_UPI",
-            "MN_112"
+            "MN_112",
+            "HP15",
+            "RO9",
+            "RO3",
+            "RO7",
+            "RO10",
+            "MN25",
+            "MN24",
+            "MN13",
+            "MN23",
+            "MN12"
           ]
         },
         "travel_tips": {
           "items": [
             {
-              "body": "Apply for a Rohtang permit up to two days ahead — they are limited."
+              "body": "Apply for a Rohtang permit when the online quota opens at 10:00 or 16:00, up to two days ahead."
+            },
+            {
+              "body": "Book AC or Volvo buses from Delhi in advance."
             },
             {
               "body": "Carry warm layers even in summer for Solang and Rohtang."
+            },
+            {
+              "body": "Ask taxi drivers for the government-approved fare chart."
+            }
+          ],
+          "facts": [
+            "RO7",
+            "RO3",
+            "MN16",
+            "MN12",
+            "HP20"
+          ]
+        },
+        "key_facts": {
+          "items": [
+            {
+              "title": "Altitude",
+              "body": "About 2,050 m",
+              "status": "verified"
+            },
+            {
+              "title": "Snow season",
+              "body": "December – early March",
+              "status": "seasonal"
+            },
+            {
+              "title": "Nearest airport",
+              "body": "Bhuntar, 50 km",
+              "status": "verified"
+            },
+            {
+              "title": "Rohtang permit",
+              "body": "₹500 per vehicle + ₹50",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "MN2",
+            "MN14",
+            "RO9"
+          ]
+        },
+        "who_its_for": {
+          "items": [
+            {
+              "title": "Families",
+              "body": "The Hadimba Temple's cedar forest, go-karting and roller skating at the Club House, the Solang ropeway, and snow at Solang in winter."
+            },
+            {
+              "title": "Couples",
+              "body": "Cafés in Old Manali and on Vashisht's rooftops, the Vashisht hot springs and a day at Naggar's castle."
+            },
+            {
+              "title": "Adventure",
+              "body": "Paragliding, zorbing and skiing at Solang, rafting on the Beas, the Hampta Pass and Bhrigu Lake treks, and courses at the mountaineering institute."
+            },
+            {
+              "title": "First-time and international visitors",
+              "body": "Hindi, Punjabi and English are spoken in the tourism trade, 3G/4G networks cover the town, and foreign visitors can pay with UPI One World."
+            },
+            {
+              "title": "Temples and monasteries",
+              "body": "The Hadimba, Manu and Vashisht temples, and the Tibetan gompa near the Mall."
+            }
+          ],
+          "facts": [
+            "HD1",
+            "MN21",
+            "SO7",
+            "MN2",
+            "MN19",
+            "MN20",
+            "VA1",
+            "NG2",
+            "PG1",
+            "RF1",
+            "MN35",
+            "MN28",
+            "MN13",
+            "MN24",
+            "MN_UPI",
+            "MT1",
+            "MN29"
+          ]
+        },
+        "neighbourhoods": {
+          "items": [
+            {
+              "title": "Mall Road and the main market",
+              "body": "The town centre: shops for woollens, Himachali handloom and souvenirs, street snacks, the Tibetan gompa, and the public car park near the market."
+            },
+            {
+              "title": "Old Manali",
+              "body": "Up a path beyond the town: narrow lanes, the Manu Temple and cafés with mostly Western menus, popular with foreign travellers."
+            },
+            {
+              "title": "Vashisht",
+              "body": "Across the Beas, about 3 km away and linked to the market by a paved path: hot springs, a stone-and-wood temple and rooftop cafés with mountain views."
+            },
+            {
+              "title": "Dhungri",
+              "body": "The cedar forest above the Mall around the Hadimba Temple, with the folk-art museum nearby and the wildlife-sanctuary path beyond."
+            },
+            {
+              "title": "Down the valley",
+              "body": "Jagatsukh, the old capital, 6 km away, and Naggar, about 20–22 km away, with its castle and art gallery."
+            }
+          ],
+          "facts": [
+            "MN18",
+            "MN29",
+            "MN17",
+            "MN19",
+            "MT1",
+            "VA1",
+            "MN34",
+            "MN20",
+            "HD6",
+            "MN30",
+            "MN32",
+            "JG1",
+            "NG1",
+            "NG3"
+          ]
+        },
+        "local_transport": {
+          "text": "Taxis wait at Manali's local taxi stand. Hire only authorised taxis from registered operators or taxi unions and ask for the government-approved fare chart; HPTDC also runs its own coaches and taxis. HRTC buses leave from the Manali bus stand for major cities.\n\nOn foot, Vashisht is linked to the market by a paved path, and the Manu Temple in Old Manali is within walking distance, about 3 km from the main bazaar.\n\nDriving yourself: vehicles not registered in Himachal pay a green tax on entering Manali, and the road to Rohtang Pass needs a separate online permit. Park at the car park near the main market.",
+          "facts": [
+            "MN26",
+            "HP20",
+            "HP31",
+            "MN34",
+            "MT2",
+            "MN25",
+            "RO3",
+            "MN17"
+          ]
+        },
+        "where_to_stay": {
+          "text": "Mall Road and the main market are the most convenient base: the Mall's shops and restaurants are on your doorstep and there is a public car park near the market. Old Manali, up the hill, has narrow lanes and cafés popular with foreign travellers. Vashisht, across the Beas and more compact than Old Manali, has rooftop cafés with mountain views and the hot springs.\n\nWherever you stay, choose hotels, guest houses or homestays registered with the Department of Tourism.",
+          "facts": [
+            "MN18",
+            "MN17",
+            "MN19",
+            "MN20",
+            "VA1",
+            "HP25"
+          ]
+        },
+        "shopping": {
+          "items": [
+            {
+              "body": "Mall Road and the bazaar: woollens, Himachali handloom and handicrafts, and souvenirs."
+            },
+            {
+              "body": "The Tibetan market, Manu Market and the Himachal Emporium."
+            },
+            {
+              "body": "Kullu shawls, Himachali caps and handcrafted wooden items make good keepsakes."
+            },
+            {
+              "body": "Government emporiums have reasonable prices and assured quality."
+            }
+          ],
+          "facts": [
+            "MN18",
+            "MN8",
+            "MN33"
+          ]
+        },
+        "safety_health": {
+          "items": [
+            {
+              "title": "Emergency numbers",
+              "body": "112 for police, fire or ambulance; 108 for the free 24x7 ambulance.",
+              "status": "verified"
+            },
+            {
+              "title": "Weather and altitude",
+              "body": "Weather changes fast; Rohtang Pass is notorious for sudden snowstorms, so check the forecast and turn back if it closes in.",
+              "status": "verified"
+            },
+            {
+              "title": "Monsoon",
+              "body": "July–August brings landslides and rock-falls; paragliding, rafting and river crossing are closed from 15 July to 15 September.",
+              "status": "seasonal"
+            },
+            {
+              "title": "Rivers",
+              "body": "The Beas is fast and deceptive — don't stand on riverside boulders for photos.",
+              "status": "verified"
+            },
+            {
+              "title": "Adventure operators",
+              "body": "Book only government-authorised, licensed operators; joy-ride rafting is allowed only up to Class II rapids.",
+              "status": "verified"
+            },
+            {
+              "title": "Treks",
+              "body": "Inform the local authorities before a high-altitude trek and hire registered guides and porters.",
+              "status": "verified"
+            },
+            {
+              "title": "Drugs",
+              "body": "Carrying or using cannabis or other drugs is a crime under the NDPS Act, punishable with imprisonment.",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "MN_112",
+            "HP15",
+            "MN12",
+            "RO5",
+            "HP13",
+            "MN27",
+            "HP26",
+            "HP17",
+            "HP18",
+            "HP19",
+            "HP24"
+          ]
+        },
+        "accessibility": {
+          "items": [
+            {
+              "title": "Altitude",
+              "body": "Manali is at about 2,050 m; Rohtang Pass is at 3,978 m, Hampta Pass at 4,270 m and Bhrigu Lake at about 4,235 m. Go slowly if you're not used to height.",
+              "status": "verified"
+            },
+            {
+              "title": "On foot",
+              "body": "Vashisht is linked to the market by a paved path; the Manu Temple is about 3 km from the main bazaar.",
+              "status": "verified"
+            },
+            {
+              "title": "Step-free access",
+              "body": "We couldn't find official accessibility information for the temples, the Solang ropeway or the hot springs. Ask your hotel or the operator before you go.",
+              "status": "unconfirmed"
+            }
+          ],
+          "facts": [
+            "MN2",
+            "RO1",
+            "HT1",
+            "BL1",
+            "MN34",
+            "MT2"
+          ]
+        },
+        "common_mistakes": {
+          "items": [
+            {
+              "body": "Driving towards Rohtang without a permit — tourist vehicles need one, and permits for a day can run out."
+            },
+            {
+              "body": "Assuming Rohtang is open in winter: snow closes it from late November until about May."
+            },
+            {
+              "body": "Planning paragliding or rafting between 15 July and 15 September, when they are closed for the monsoon."
+            },
+            {
+              "body": "Packing only summer clothes — woollens are essential even in summer."
+            },
+            {
+              "body": "Booking adventure activities with unlicensed operators."
+            },
+            {
+              "body": "Climbing onto riverside boulders for photos by the Beas."
+            },
+            {
+              "body": "Forgetting printouts: the Rohtang permit and the green-tax slip must be carried."
+            },
+            {
+              "body": "Leaving plastic behind — polythene is banned in Himachal."
             }
           ],
           "facts": [
             "RO3",
-            "RO1"
+            "RO7",
+            "RO12",
+            "MN27",
+            "MN12",
+            "HP17",
+            "HP26",
+            "RO10",
+            "MN25",
+            "HP16"
+          ]
+        },
+        "budget": {
+          "text": "Only fees published by an official source are listed. Hotels, transport and meals are not estimated, and activity prices could not be confirmed from an official page.",
+          "items": [
+            {
+              "title": "Rohtang Pass permit (car)",
+              "body": "₹500 + ₹50 congestion charge (official, District Kullu)"
+            },
+            {
+              "title": "Green tax for a car not registered in Himachal",
+              "body": "₹200, valid 7 days (₹100 for a bike)"
+            },
+            {
+              "title": "Vehicle pass towards Hamta (car)",
+              "body": "₹200 (₹100 for a two-wheeler)"
+            },
+            {
+              "title": "Vashisht hot-spring baths",
+              "body": "Nominal charge (amount not published)"
+            },
+            {
+              "title": "Paragliding, skiing, ropeway, rafting",
+              "body": "Not confirmed — ask licensed operators for the current rate"
+            }
+          ],
+          "facts": [
+            "RO9",
+            "MN25",
+            "RO14",
+            "VH1"
+          ]
+        },
+        "faqs": {
+          "items": [
+            {
+              "title": "Do I need a permit for Rohtang Pass?",
+              "body": "Yes. Tourist vehicles need an online permit — ₹500 per vehicle plus a ₹50 congestion charge — applied for up to two days ahead against a daily quota. Carry a printout."
+            },
+            {
+              "title": "When does it snow in Manali?",
+              "body": "Mainly from December to early March. In December–January temperatures can drop below −5°C."
+            },
+            {
+              "title": "Is Rohtang Pass open in winter?",
+              "body": "No. Heavy snow closes it in late November and it reopens around May. The Atal Tunnel, which bypasses the pass, connects Manali with Lahaul."
+            },
+            {
+              "title": "How far is the airport?",
+              "body": "Kullu–Manali airport at Bhuntar is 50 km from Manali, with flights from Delhi (about 1.5 hours), Chandigarh and Shimla."
+            },
+            {
+              "title": "Is there a train to Manali?",
+              "body": "No. The nearest railheads are Joginder Nagar (narrow gauge, via Pathankot) and Kiratpur; continue by road."
+            },
+            {
+              "title": "Can I go paragliding in August?",
+              "body": "No — paragliding, rafting and river crossing are closed every monsoon from 15 July to 15 September."
+            },
+            {
+              "title": "Do cars from other states pay a tax?",
+              "body": "Yes. Vehicles not registered in Himachal pay a green tax to enter Manali (₹200 for a car), valid for seven days."
+            },
+            {
+              "title": "How many days do I need?",
+              "body": "Three days covers the town, Solang and one high-road day; four lets you add Naggar; seven adds Vashisht's waterfall walk, Kullu and slower days."
+            }
+          ],
+          "facts": [
+            "RO9",
+            "RO3",
+            "RO10",
+            "MN2",
+            "MN11",
+            "RO12",
+            "AT1",
+            "MN14",
+            "MN15",
+            "MN27",
+            "MN25"
           ]
         }
       },
@@ -1005,6 +3297,18 @@
         },
         {
           "to": "himachal-pradesh/naggar",
+          "type": "day_trip"
+        },
+        {
+          "to": "himachal-pradesh/atal-tunnel",
+          "type": "day_trip"
+        },
+        {
+          "to": "himachal-pradesh/jagatsukh",
+          "type": "nearby"
+        },
+        {
+          "to": "himachal-pradesh/rohtang-pass",
           "type": "day_trip"
         }
       ]
@@ -1065,10 +3369,94 @@
             "HD4",
             "MN9"
           ]
+        },
+        "key_facts": {
+          "items": [
+            {
+              "title": "Built",
+              "body": "1553, by Maharaja Bahadur Singh",
+              "status": "verified"
+            },
+            {
+              "title": "Where",
+              "body": "Dhungri cedar forest, near Mall Road",
+              "status": "verified"
+            },
+            {
+              "title": "Height",
+              "body": "24 m",
+              "status": "verified"
+            },
+            {
+              "title": "Fair",
+              "body": "Dhungri fair, in May",
+              "status": "seasonal"
+            }
+          ],
+          "facts": [
+            "HD1",
+            "HD6",
+            "HD2",
+            "HD7"
+          ]
+        },
+        "visit_info": {
+          "items": [
+            {
+              "title": "Opening hours",
+              "body": "Not confirmed by an official source — ask locally.",
+              "status": "unconfirmed"
+            },
+            {
+              "title": "Entry fee",
+              "body": "Not confirmed by an official source.",
+              "status": "unconfirmed"
+            },
+            {
+              "title": "Getting there",
+              "body": "Close to Mall Road, in the Dhungri cedar forest above town.",
+              "status": "verified"
+            },
+            {
+              "title": "Time needed",
+              "body": "About 1.5 hours, with the folk-art museum next door.",
+              "status": "estimate"
+            },
+            {
+              "title": "Also known as",
+              "body": "The Dhungri Temple. The sanctum is a cave shrine with the goddess's footprints.",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "HD6",
+            "HD1",
+            "MN30"
+          ]
+        },
+        "culture_etiquette": {
+          "items": [
+            {
+              "body": "Hidimba is Manali's presiding deity — this is a working temple, not only a monument."
+            },
+            {
+              "body": "Ask before photographing worshippers, and don't touch religious objects."
+            }
+          ],
+          "facts": [
+            "HD6",
+            "HP21"
+          ]
         }
       },
       "wikidataId": "Q15223867",
-      "parent": "himachal-pradesh/manali"
+      "parent": "himachal-pradesh/manali",
+      "relations": [
+        {
+          "to": "himachal-pradesh/manu-temple",
+          "type": "nearby"
+        }
+      ]
     },
     {
       "key": "himachal-pradesh/solang-valley",
@@ -1108,24 +3496,58 @@
         "things_to_do": {
           "items": [
             {
-              "body": "Ski the slopes in winter."
+              "body": "Ski the slopes in winter — they host state and national championships."
             },
             {
-              "body": "Paraglide or go zorbing in summer."
+              "body": "Paraglide (tandem) in the warmer months, outside the 15 July–15 September closure."
             },
             {
-              "body": "Ride the ropeway for views over the valley."
+              "body": "Ride the gondola (ropeway) or the 1.5-km zipline."
             },
             {
-              "body": "Try an ATV ride."
+              "body": "Roll downhill in a zorb or take a quad bike (ATV)."
             },
             {
               "body": "Continue to the Atal Tunnel, nearby."
             }
           ],
           "facts": [
-            "SO2",
+            "SO7",
+            "PG1",
+            "MN27",
+            "SO9",
+            "SO10",
             "SO5"
+          ]
+        },
+        "visit_info": {
+          "items": [
+            {
+              "title": "Distance",
+              "body": "About 13 km from Manali.",
+              "status": "verified"
+            },
+            {
+              "title": "Season",
+              "body": "Snow from December to early March; Incredible India suggests April–June and September–January.",
+              "status": "seasonal"
+            },
+            {
+              "title": "Mountaineering",
+              "body": "Base camp for Anjani Mahadev, Hanuman Tibba and Patalsu.",
+              "status": "verified"
+            },
+            {
+              "title": "Prices",
+              "body": "Not confirmed from an official source — ask licensed operators.",
+              "status": "unconfirmed"
+            }
+          ],
+          "facts": [
+            "SO1",
+            "MN2",
+            "SO3",
+            "SO8"
           ]
         }
       },
@@ -1167,17 +3589,39 @@
         "visit_info": {
           "items": [
             {
-              "title": "Permits",
-              "body": "Tourist vehicles need an online permit, issued against a daily quota set by the National Green Tribunal and the district. Permits are valid for one day, can be applied for up to two days ahead, and vehicles must be no more than 10 years old."
+              "title": "Permit",
+              "body": "Tourist vehicles need an online permit, valid one day, applied for up to two days ahead; a printout is compulsory.",
+              "status": "verified"
+            },
+            {
+              "title": "Fee",
+              "body": "₹500 per vehicle, plus a ₹50 congestion charge at Gulaba bridge (₹100 for buses). Not refundable.",
+              "status": "verified"
+            },
+            {
+              "title": "Quota",
+              "body": "800 petrol and 400 diesel vehicles a day, released at 10:00 and 16:00; up to 3 permits per vehicle a week.",
+              "status": "verified"
+            },
+            {
+              "title": "Documents",
+              "body": "Valid ID, a valid PUC certificate, and a vehicle no older than 10 years.",
+              "status": "verified"
             },
             {
               "title": "Season",
-              "body": "The road over the pass is usually open from about May to November."
+              "body": "Heavy snow closes the pass in late November; it reopens around May.",
+              "status": "seasonal"
             }
           ],
           "facts": [
             "RO3",
-            "RO2"
+            "RO10",
+            "RO9",
+            "RO11",
+            "RO7",
+            "RO8",
+            "RO12"
           ]
         }
       },
@@ -1200,10 +3644,13 @@
       "images": [],
       "sections": {
         "overview": {
-          "text": "Across the Beas, 3 km from Manali, the village of Vashisht is known for its sulphurous hot springs, with separate bathing areas, and its Kath Kuni-style temple of Sage Vashisht. The baths are listed as open 7 am–1 pm and 2 pm–9 pm daily. A trail leads on to Jogini Waterfall.",
+          "text": "Across the Beas, 3 km from Manali and linked to the market by a paved path, the village of Vashisht is known for its sulphurous hot springs and its Kath Kuni-style temple of Sage Vashisht. The baths have a walled stone pool and separate shower rooms for women and men with hot and cold water piped in; charges are nominal, and they are listed as open 7 am–1 pm and 2 pm–9 pm daily. Vashisht is also known for rooftop cafés with mountain views, and a trail leads on to Jogini Waterfall.",
           "facts": [
             "VA1",
+            "MN34",
+            "VH1",
             "VA2",
+            "MN20",
             "VA3"
           ]
         }
@@ -1272,6 +3719,1176 @@
         }
       },
       "parent": "himachal-pradesh/manali"
+    },
+    {
+      "key": "himachal-pradesh/manu-temple",
+      "kind": "temple",
+      "name": "Manu Temple",
+      "summary": "The stone-and-wood temple in Old Manali dedicated to the sage Manu, from whom Manali takes its name.",
+      "seoTitle": "Manu Temple, Old Manali: History and Visiting",
+      "seoDescription": "Visit the Manu Temple in Old Manali: the only temple to the sage Manu in India, its stone-and-wood architecture, the legend and how to walk there.",
+      "lat": 32.2566,
+      "lng": 77.1789,
+      "tripTypes": [
+        "spiritual",
+        "heritage"
+      ],
+      "images": [
+        {
+          "commons": "File:Birte Fritsch, Manu Temple in Old Manali (45).jpg",
+          "alt": "The stone-and-wood Manu Temple with its slate roof in Old Manali",
+          "caption": "Manu Temple, Old Manali",
+          "hero": true
+        }
+      ],
+      "sections": {
+        "overview": {
+          "text": "At a walking distance from Manali town, the Manu Temple in Old Manali is a stone-and-wood monument roofed with slate tiles. It is dedicated to the sage Manu, said to have codified Hindu law in the Manusmriti, and it is the only temple in India in his honour.\n\nLegend says that after the great flood Manu first stepped onto the earth here from his celestial boat, and made his home at 'Manu-Alaya' — the abode of Manu, from which Manali takes its name. The temple is about 3 km from the main bazaar, at the top of Old Manali's lanes of cafés.",
+          "facts": [
+            "MT1",
+            "MT3",
+            "MN1",
+            "MT2"
+          ]
+        },
+        "visit_info": {
+          "items": [
+            {
+              "title": "Getting there",
+              "body": "About 3 km from the main bazaar, within walking distance of town through Old Manali.",
+              "status": "verified"
+            },
+            {
+              "title": "Opening hours",
+              "body": "Not confirmed by an official source — ask locally.",
+              "status": "unconfirmed"
+            },
+            {
+              "title": "Entry fee",
+              "body": "Not confirmed by an official source.",
+              "status": "unconfirmed"
+            }
+          ],
+          "facts": [
+            "MT2"
+          ]
+        },
+        "highlights": {
+          "items": [
+            {
+              "body": "The only temple in India dedicated to the sage Manu."
+            },
+            {
+              "body": "Stone-and-wood architecture under a slate roof."
+            },
+            {
+              "body": "The legend of 'Manu-Alaya', which gave Manali its name."
+            }
+          ],
+          "facts": [
+            "MT1",
+            "MN1"
+          ]
+        },
+        "culture_etiquette": {
+          "items": [
+            {
+              "body": "Ask before photographing worshippers, and don't touch religious objects."
+            }
+          ],
+          "facts": [
+            "HP21"
+          ]
+        }
+      },
+      "parent": "himachal-pradesh/manali",
+      "relations": [
+        {
+          "to": "himachal-pradesh/hadimba-temple",
+          "type": "nearby"
+        }
+      ]
+    },
+    {
+      "key": "himachal-pradesh/jagatsukh",
+      "kind": "town",
+      "name": "Jagatsukh",
+      "summary": "The old capital of the Kullu rulers, 6 km from Manali, with the Gauri Shankar Temple and the Chacholi Jatra festival.",
+      "seoTitle": "Jagatsukh near Manali: Old Capital and Temples",
+      "seoDescription": "Visit Jagatsukh, 6 km from Manali: the old Kullu capital of Nast, the Gauri Shankar and Gayatri temples, the Chacholi Jatra festival and treks towards Deo Tibba.",
+      "lat": 32.2025,
+      "lng": 77.2056,
+      "tripTypes": [
+        "heritage",
+        "spiritual"
+      ],
+      "images": [
+        {
+          "commons": "File:0042423 Gauri Shankar temple, Jagatsukh Himachal Pradesh 064.jpg",
+          "alt": "The carved stone Gauri Shankar temple at Jagatsukh",
+          "caption": "Gauri Shankar Temple, Jagatsukh",
+          "hero": true
+        }
+      ],
+      "sections": {
+        "overview": {
+          "text": "Jagatsukh, about 6 km from Manali on the left bank of the Beas, was once Nast — the capital of the Kullu rulers for more than ten generations, before the capital moved to Naggar and then to Sultanpur in Kullu. Its old temples include the Gauri Shankar Temple of Shiva and the Gayatri Temple, a reminder of the days when life in the valley centred on the village, and the Chacholi Jatra festival is still celebrated here.\n\nThe village can be visited at any time of day, and it is a starting point for treks towards Deo Tibba. It makes an easy stop on the road between Manali and Naggar.",
+          "facts": [
+            "JG1",
+            "JG2",
+            "JG3",
+            "NG1"
+          ]
+        },
+        "highlights": {
+          "items": [
+            {
+              "body": "The Gauri Shankar Temple of Shiva."
+            },
+            {
+              "body": "The Gayatri Temple."
+            },
+            {
+              "body": "The Chacholi Jatra festival."
+            },
+            {
+              "body": "Treks towards Deo Tibba."
+            }
+          ],
+          "facts": [
+            "JG2",
+            "JG3"
+          ]
+        },
+        "visit_info": {
+          "items": [
+            {
+              "title": "Distance",
+              "body": "About 6 km from Manali.",
+              "status": "verified"
+            },
+            {
+              "title": "Timings",
+              "body": "The village can be visited at any time of day.",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "JG1",
+            "JG3"
+          ]
+        }
+      },
+      "parent": "himachal-pradesh/manali",
+      "relations": [
+        {
+          "to": "himachal-pradesh/naggar",
+          "type": "nearby"
+        }
+      ]
+    },
+    {
+      "key": "himachal-pradesh/atal-tunnel",
+      "kind": "attraction",
+      "name": "Atal Tunnel",
+      "summary": "The 9.02-km highway tunnel under the Rohtang Pass, linking Manali with Lahaul in about 2 hours instead of 5–6.",
+      "seoTitle": "Atal Tunnel, Manali: Route, Facts and Tips",
+      "seoDescription": "The Atal Tunnel under Rohtang Pass: 9.02 km long, opened in 2020, cutting Manali to Keylong to 71 km and about 2 hours. Facts and tips for the drive.",
+      "lat": 32.4013,
+      "lng": 77.1483,
+      "tripTypes": [
+        "mountains",
+        "adventure"
+      ],
+      "images": [
+        {
+          "commons": "File:Atal Tunnel 01 (cropped).jpg",
+          "alt": "The portal of the Atal Tunnel set into a snowy mountainside",
+          "caption": "Atal Tunnel",
+          "hero": true
+        }
+      ],
+      "sections": {
+        "overview": {
+          "text": "The Atal Tunnel carries National Highway 3 for 9.02 km under the Pir Panjal range, linking Manali with Keylong in Lahaul and bypassing Rohtang Pass. Inaugurated on 3 October 2020, it is the world's longest single-tube highway tunnel above 10,000 ft (3,048 m).\n\nThe tunnel changed travel to Lahaul: the old route over Rohtang via Gramphu was 116 km and took 5–6 hours in good conditions; through the tunnel the journey is 71 km and about 2 hours, avoiding stretches prone to avalanches, blockades and traffic jams, especially in winter. Just beyond the north portal, villages such as Sissu have become popular stops.",
+          "facts": [
+            "AT1",
+            "AT3",
+            "AT2",
+            "RO4",
+            "LA1"
+          ]
+        },
+        "highlights": {
+          "items": [
+            {
+              "body": "9.02 km under the Pir Panjal range."
+            },
+            {
+              "body": "World's longest single-tube highway tunnel above 10,000 ft."
+            },
+            {
+              "body": "Manali to Keylong in about 2 hours instead of 5–6."
+            }
+          ],
+          "facts": [
+            "AT1",
+            "AT2"
+          ]
+        },
+        "visit_info": {
+          "items": [
+            {
+              "title": "Opened",
+              "body": "3 October 2020.",
+              "status": "verified"
+            },
+            {
+              "title": "Route",
+              "body": "NH3, Manali to Keylong; 71 km in about 2 hours via the tunnel.",
+              "status": "estimate"
+            },
+            {
+              "title": "Winter",
+              "body": "Road conditions on either side change with snow — check before setting out.",
+              "status": "unconfirmed"
+            }
+          ],
+          "facts": [
+            "AT3",
+            "AT2"
+          ]
+        }
+      },
+      "parent": "himachal-pradesh/manali",
+      "relations": [
+        {
+          "to": "himachal-pradesh/rohtang-pass",
+          "type": "nearby"
+        }
+      ]
+    },
+    {
+      "key": "himachal-pradesh/hampta-pass-trek",
+      "kind": "trek",
+      "name": "Hampta Pass trek",
+      "summary": "A 4-day crossing at 4,270 m from the green Kullu valley into the stark Chandra valley of Lahaul.",
+      "seoTitle": "Hampta Pass Trek from Manali: Season, Route, Rules",
+      "seoDescription": "Plan the Hampta Pass trek from Manali: 25 km over 4 days to 4,270 m, June–September season, the start at Jobra, vehicle passes and safety rules.",
+      "lat": 31.963,
+      "lng": 77.4533,
+      "tripTypes": [
+        "adventure",
+        "mountains"
+      ],
+      "images": [
+        {
+          "commons": "File:Hampta Pass Himachal Pradesh India.jpg",
+          "alt": "Snow-streaked slopes and a high meadow on the Hampta Pass trek",
+          "caption": "Hampta Pass",
+          "hero": true
+        }
+      ],
+      "sections": {
+        "overview": {
+          "text": "Hampta Pass, at 4,270 m, is a corridor between the Kullu valley and the Chandra valley of Lahaul. Most treks begin with a drive from Manali to Jobra (also written Jobri), cover about 25 km in 4 days of moderate trekking, and end on the Lahaul side.\n\nThe season runs from June to September. Vehicles heading towards Hamta need a one-day online pass from the District Kullu permit site. Before you go, tell the local authorities and use only registered guides, porters and licensed agencies.",
+          "facts": [
+            "HT1",
+            "HT2",
+            "HT3",
+            "RO14",
+            "HP19",
+            "HP17"
+          ]
+        },
+        "visit_info": {
+          "items": [
+            {
+              "title": "Altitude",
+              "body": "4,270 m.",
+              "status": "verified"
+            },
+            {
+              "title": "Length",
+              "body": "About 25 km over 4 days.",
+              "status": "estimate"
+            },
+            {
+              "title": "Season",
+              "body": "June to September.",
+              "status": "seasonal"
+            },
+            {
+              "title": "Start",
+              "body": "A drive from Manali to Jobra.",
+              "status": "verified"
+            },
+            {
+              "title": "Vehicle pass",
+              "body": "₹200 for a car or ₹100 for a two-wheeler, one day, online.",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "HT1",
+            "HT2",
+            "HT3",
+            "RO14"
+          ]
+        },
+        "safety_health": {
+          "items": [
+            {
+              "title": "Before you go",
+              "body": "Inform the SDM, police or tourism office and hire registered guides and porters.",
+              "status": "verified"
+            },
+            {
+              "title": "Operators",
+              "body": "Book only government-authorised, licensed agencies.",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "HP19",
+            "HP17"
+          ]
+        }
+      },
+      "parent": "himachal-pradesh/manali"
+    },
+    {
+      "key": "himachal-pradesh/bhrigu-lake-trek",
+      "kind": "trek",
+      "name": "Bhrigu Lake trek",
+      "summary": "A high meadow trek to a sacred glacial lake at about 4,235 m, starting from Gulaba on the Rohtang road.",
+      "seoTitle": "Bhrigu Lake Trek from Manali: Season and Route",
+      "seoDescription": "Plan the Bhrigu Lake trek near Manali: a moderate 4-day climb to about 4,235 m from Gulaba or Vashisht, the June–September season and safety rules.",
+      "lat": 32.2934,
+      "lng": 77.2425,
+      "tripTypes": [
+        "adventure",
+        "mountains"
+      ],
+      "images": [
+        {
+          "commons": "File:Bhrigu lake Kullu.JPG",
+          "alt": "The small glacial Bhrigu Lake below snowy ridges",
+          "caption": "Bhrigu Lake",
+          "hero": true
+        }
+      ],
+      "sections": {
+        "overview": {
+          "text": "Bhrigu Lake lies at the base of Bhrigu Peak at about 4,235 m (Himachal Tourism; other sources give about 14,000–14,100 ft). Locals hold it sacred: the sage Bhrigu is said to have meditated beside it.\n\nThe lake is about 6 km from Gulaba village on the Rohtang road, and trails start from Gulaba or from Vashisht. Indiahikes rates it a moderate climb past 14,000 ft in four days and runs it from June to September; Incredible India suggests April–June and September–October. Tell the local authorities before you go and use only registered guides and licensed agencies.",
+          "facts": [
+            "BL1",
+            "BL2",
+            "BL3",
+            "HP19",
+            "HP17"
+          ]
+        },
+        "visit_info": {
+          "items": [
+            {
+              "title": "Altitude",
+              "body": "About 4,235 m.",
+              "status": "verified"
+            },
+            {
+              "title": "Start",
+              "body": "Gulaba (about 6 km away) or Vashisht.",
+              "status": "verified"
+            },
+            {
+              "title": "Difficulty",
+              "body": "Moderate, about four days.",
+              "status": "estimate"
+            },
+            {
+              "title": "Season",
+              "body": "June–September (Indiahikes); April–June and September–October (Incredible India).",
+              "status": "seasonal"
+            }
+          ],
+          "facts": [
+            "BL1",
+            "BL2",
+            "BL3"
+          ]
+        }
+      },
+      "parent": "himachal-pradesh/manali"
+    },
+    {
+      "key": "himachal-pradesh/paragliding-in-solang",
+      "kind": "activity",
+      "name": "Paragliding in Solang",
+      "summary": "Tandem flights over Solang Valley with licensed pilots — closed every monsoon, 15 July to 15 September.",
+      "seoTitle": "Paragliding in Solang Valley, Manali: Season and Rules",
+      "seoDescription": "Tandem paragliding at Solang Valley near Manali: who can fly, the 15 July–15 September monsoon closure, licensed operators and what to check before you book.",
+      "lat": 32.3166,
+      "lng": 77.1576,
+      "tripTypes": [
+        "adventure"
+      ],
+      "images": [
+        {
+          "commons": "File:Paragliders Floating over Solang Valley.jpg",
+          "alt": "Several paragliders floating above the green Solang Valley",
+          "caption": "Paragliding over Solang Valley",
+          "hero": true
+        }
+      ],
+      "sections": {
+        "overview": {
+          "text": "Solang Valley, about 13 km from Manali, is the area's main paragliding site. Tandem flights with experienced pilots mean first-timers can fly without steering — you simply take off with the pilot and enjoy the view of the valley and snow peaks.\n\nParagliding stops every monsoon, from 15 July to 15 September, along with rafting and river crossing. Book only with government-authorised, licensed operators, and ask them about current prices: we couldn't confirm a rate from an official source.",
+          "facts": [
+            "PG1",
+            "SO1",
+            "MN27",
+            "HP17"
+          ]
+        },
+        "visit_info": {
+          "items": [
+            {
+              "title": "Where",
+              "body": "Solang Valley, about 13 km from Manali.",
+              "status": "verified"
+            },
+            {
+              "title": "Closed",
+              "body": "15 July to 15 September (monsoon).",
+              "status": "seasonal"
+            },
+            {
+              "title": "Operators",
+              "body": "Government-authorised, licensed operators only.",
+              "status": "verified"
+            },
+            {
+              "title": "Price",
+              "body": "Not confirmed — ask the operator.",
+              "status": "unconfirmed"
+            }
+          ],
+          "facts": [
+            "SO1",
+            "MN27",
+            "HP17"
+          ]
+        },
+        "safety_health": {
+          "items": [
+            {
+              "title": "Weather",
+              "body": "Conditions change fast in the valley — thunderstorms and sudden snow can turn a warm day cold in minutes; carry a warm layer.",
+              "status": "verified"
+            },
+            {
+              "title": "Problems",
+              "body": "Report safety violations by any operator to the Department of Tourism.",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "MN12",
+            "HP33"
+          ]
+        }
+      },
+      "parent": "himachal-pradesh/solang-valley",
+      "category": "adventure"
+    },
+    {
+      "key": "himachal-pradesh/skiing-in-solang",
+      "kind": "activity",
+      "name": "Skiing in Solang",
+      "summary": "Winter skiing on Solang's slopes, for beginners and experts, with courses at Manali's mountaineering institute.",
+      "seoTitle": "Skiing in Solang Valley, Manali: When and Where",
+      "seoDescription": "Ski at Solang Valley near Manali: the December–March snow season, slopes for beginners, the Winter Carnival competition and courses at the mountaineering institute.",
+      "lat": 32.3187,
+      "lng": 77.1574,
+      "tripTypes": [
+        "adventure",
+        "mountains"
+      ],
+      "images": [
+        {
+          "commons": "File:Skiing Centre - Atal Bihari Vajpayee Institute of Mountaineering and Allied Sports - Solang Valley - Kullu 2014-05-10 2540.JPG",
+          "alt": "The institute's skiing centre building at Solang Valley",
+          "caption": "Skiing centre at Solang Valley",
+          "hero": true
+        }
+      ],
+      "sections": {
+        "overview": {
+          "text": "In winter, Solang's snow-packed slopes become a winter-sports arena where state and national ski championships are held. The slopes of Solang (and Rohtang) suit beginners taking their first turns as well as experienced skiers, with professional trainers on hand.\n\nSnow falls mainly from December to early March, when temperatures can drop below −5°C. During Manali's Winter Carnival, in the first week of January, a ski competition is held at Solang. For proper training, the Atal Bihari Vajpayee Institute of Mountaineering and Allied Sports in Manali, founded in 1961, runs courses in skiing and other mountain sports. Prices could not be confirmed from an official source.",
+          "facts": [
+            "SO7",
+            "SK1",
+            "MN2",
+            "MN11",
+            "MN22",
+            "MN28"
+          ]
+        },
+        "visit_info": {
+          "items": [
+            {
+              "title": "Season",
+              "body": "December to early March.",
+              "status": "seasonal"
+            },
+            {
+              "title": "Courses",
+              "body": "Atal Bihari Vajpayee Institute of Mountaineering and Allied Sports, Manali.",
+              "status": "verified"
+            },
+            {
+              "title": "Price",
+              "body": "Not confirmed — ask the operator or the institute.",
+              "status": "unconfirmed"
+            }
+          ],
+          "facts": [
+            "MN2",
+            "MN28"
+          ]
+        }
+      },
+      "parent": "himachal-pradesh/solang-valley",
+      "category": "adventure"
+    },
+    {
+      "key": "himachal-pradesh/beas-river-rafting",
+      "kind": "activity",
+      "name": "Rafting on the Beas",
+      "summary": "White-water rafting on the snow-fed Beas between Manali and Kullu — summer only, closed 15 July to 15 September.",
+      "seoTitle": "River Rafting on the Beas near Manali: Season, Rules",
+      "seoDescription": "Raft the Beas between Manali and Kullu: when the river runs, the 15 July–15 September closure, the Class II limit for joy rides and licensed operators.",
+      "lat": 32.15,
+      "lng": 77.17,
+      "tripTypes": [
+        "adventure"
+      ],
+      "images": [
+        {
+          "commons": "File:Tourists Rafting on the Beas River.jpg",
+          "alt": "A raft of tourists in helmets paddling through white water on the Beas",
+          "caption": "Rafting on the Beas",
+          "hero": true
+        }
+      ],
+      "sections": {
+        "overview": {
+          "text": "The Beas, fed by snow and glaciers on the slopes of Rohtang, runs down the valley from Manali to Kullu, and this stretch is used for white-water rafting, rowing and river crossing. In summer, as the snow melts, the river swells with rapids. Each rafter goes with a qualified instructor who briefs them on safety.\n\nRules are strict: joy-ride rafting in Himachal is not permitted on rapids above Class II, and rafting stops every monsoon from 15 July to 15 September. Book only with licensed operators, and never climb onto riverside boulders — the river is strong and deceptive. Prices could not be confirmed from an official source.",
+          "facts": [
+            "RF1",
+            "RF2",
+            "HP18",
+            "MN27",
+            "HP17",
+            "HP26"
+          ]
+        },
+        "visit_info": {
+          "items": [
+            {
+              "title": "Where",
+              "body": "The Beas between Manali and Kullu.",
+              "status": "verified"
+            },
+            {
+              "title": "Season",
+              "body": "Summer; closed 15 July to 15 September.",
+              "status": "seasonal"
+            },
+            {
+              "title": "Rapids",
+              "body": "Joy rides only up to Class II.",
+              "status": "verified"
+            },
+            {
+              "title": "Price",
+              "body": "Not confirmed — ask licensed operators.",
+              "status": "unconfirmed"
+            }
+          ],
+          "facts": [
+            "RF1",
+            "MN27",
+            "HP18"
+          ]
+        }
+      },
+      "parent": "himachal-pradesh/manali",
+      "category": "adventure"
+    },
+    {
+      "key": "himachal-pradesh/rohtang-pass-drive",
+      "kind": "activity",
+      "name": "Drive to Rohtang Pass",
+      "summary": "The permit-only high road from Manali to the 3,978-m pass, open about May to November.",
+      "seoTitle": "Rohtang Pass Drive from Manali: Permit, Fees, Season",
+      "seoDescription": "Drive from Manali to Rohtang Pass: the ₹500 online permit, daily quota and time slots, documents, season, stops at Nehru Kund and Rahala Falls, and safety.",
+      "lat": 32.3714,
+      "lng": 77.2464,
+      "tripTypes": [
+        "mountains",
+        "family"
+      ],
+      "images": [
+        {
+          "commons": "File:Rohtang Pass from Manali vrtmrgmpksk (3).jpg",
+          "alt": "Snow-covered slopes and the winding road towards Rohtang Pass",
+          "caption": "On the road to Rohtang Pass",
+          "hero": true
+        }
+      ],
+      "sections": {
+        "overview": {
+          "text": "Rohtang Pass, at 3,978 m and about 51 km from Manali, is the classic day drive for snow. Tourist vehicles need an online permit: ₹500 per vehicle plus a congestion charge at Gulaba bridge (₹50 for cars, ₹100 for buses). Permits are valid for one day, can be applied for up to two days ahead, and are capped at 800 petrol and 400 diesel vehicles a day, released at 10:00 and 16:00; each vehicle can get only three a week. You'll need valid ID, a PUC certificate and a vehicle no older than 10 years, and a printout is compulsory. Fees are not refundable.\n\nOn the way up you pass Nehru Kund, Rahala Falls and Gulaba. Heavy snow closes the pass in late November until around May, and June to August is the busiest time. The pass is notorious for sudden snowstorms — check the weather and turn back if it closes in.",
+          "facts": [
+            "RO1",
+            "RO3",
+            "RO9",
+            "RO7",
+            "RO8",
+            "RO10",
+            "RO11",
+            "MN31",
+            "MN36",
+            "RO6",
+            "RO12",
+            "RO5"
+          ]
+        },
+        "visit_info": {
+          "items": [
+            {
+              "title": "Permit",
+              "body": "Online, one day, up to two days ahead; printout compulsory.",
+              "status": "verified"
+            },
+            {
+              "title": "Fee",
+              "body": "₹500 + ₹50 congestion charge (car).",
+              "status": "verified"
+            },
+            {
+              "title": "Quota",
+              "body": "800 petrol + 400 diesel vehicles a day; slots at 10:00 and 16:00.",
+              "status": "verified"
+            },
+            {
+              "title": "Season",
+              "body": "About May to late November.",
+              "status": "seasonal"
+            }
+          ],
+          "facts": [
+            "RO3",
+            "RO10",
+            "RO9",
+            "RO7",
+            "RO12"
+          ]
+        }
+      },
+      "parent": "himachal-pradesh/rohtang-pass",
+      "category": "nature"
+    },
+    {
+      "key": "himachal-pradesh/lahaul-day-trip-via-atal-tunnel",
+      "kind": "activity",
+      "name": "Day trip to Lahaul via the Atal Tunnel",
+      "summary": "Through the 9-km tunnel to Sissu and the Chandra valley — about 40 km and 1.5 hours from Manali.",
+      "seoTitle": "Manali to Sissu via Atal Tunnel: Day Trip Guide",
+      "seoDescription": "Drive from Manali through the Atal Tunnel to Sissu in Lahaul: distance and time, what changed with the tunnel, local rules and what to pack.",
+      "lat": 32.4833,
+      "lng": 77.1167,
+      "tripTypes": [
+        "mountains",
+        "family"
+      ],
+      "images": [
+        {
+          "commons": "File:Top View of Sissu , Lahaul.jpg",
+          "alt": "The village of Sissu and its fields beside the Chandra river in Lahaul",
+          "caption": "Sissu, Lahaul",
+          "hero": true
+        }
+      ],
+      "sections": {
+        "overview": {
+          "text": "Since the Atal Tunnel opened in 2020, Lahaul is an easy day out from Manali. Sissu, a few kilometres beyond the tunnel's north portal, is about 40 km and roughly 1.5 hours from Manali via NH3, and has become a popular stop. The tunnel itself is 9.02 km long; the old road over Rohtang to the same valley was 116 km and took 5–6 hours.\n\nThe Sissu panchayat has at times paused tourist activities and stalls by Sissu lake, so check locally before you go. Weather changes fast at this height — carry woollens even in summer.",
+          "facts": [
+            "LA1",
+            "AT3",
+            "AT1",
+            "AT2",
+            "LA2",
+            "MN12"
+          ]
+        },
+        "visit_info": {
+          "items": [
+            {
+              "title": "Distance",
+              "body": "About 40 km, roughly 1.5 hours from Manali.",
+              "status": "estimate"
+            },
+            {
+              "title": "Route",
+              "body": "NH3 through the Atal Tunnel.",
+              "status": "verified"
+            },
+            {
+              "title": "Local rules",
+              "body": "The Sissu panchayat can pause tourist activities — check locally.",
+              "status": "unconfirmed"
+            }
+          ],
+          "facts": [
+            "LA1",
+            "LA2"
+          ]
+        }
+      },
+      "parent": "himachal-pradesh/atal-tunnel",
+      "category": "nature"
+    },
+    {
+      "key": "himachal-pradesh/kullu-dussehra",
+      "kind": "activity",
+      "name": "Kullu Dussehra",
+      "summary": "A week of processions and over 250 village deities at Dhalpur Maidan, Kullu, starting on Vijaya Dashami.",
+      "seoTitle": "Kullu Dussehra: Dates, Rath Yatra and Visiting",
+      "seoDescription": "Kullu Dussehra at Dhalpur Maidan: when it starts, the Rath Yatra of Lord Raghunath, over 250 hill deities, 2026 dates and how to get there from Manali.",
+      "lat": 31.9578,
+      "lng": 77.1095,
+      "tripTypes": [
+        "spiritual",
+        "heritage"
+      ],
+      "images": [
+        {
+          "commons": "File:Kullu Dussehra - main procession.jpg",
+          "alt": "Crowds around a deity's palanquin in the Kullu Dussehra procession",
+          "caption": "Kullu Dussehra procession",
+          "hero": true
+        }
+      ],
+      "sections": {
+        "overview": {
+          "text": "Kullu Dussehra is Himachal's best-known festival and, unlike Dussehra elsewhere, it begins rather than ends on Vijaya Dashami: it starts that day and continues for seven days at Dhalpur Maidan in Kullu. The celebration opens when the idol of Lord Raghunath, the valley's presiding deity, is pulled on a wooden chariot into Dhalpur ground, and hundreds of village deities arrive with their followers.\n\nIn 2026 the International Kullu Dussehra was held from 21 to 27 October, with the Rath Yatra of Lord Raghunath, over 250 hill deities and Nati folk dances. Kullu is 40 km down the valley from Manali and 10 km from Bhuntar airport.",
+          "facts": [
+            "HP3",
+            "HP29",
+            "HP28",
+            "HP27",
+            "MN3",
+            "KD1"
+          ]
+        },
+        "visit_info": {
+          "items": [
+            {
+              "title": "When",
+              "body": "Seven days from Vijaya Dashami (October). 2026: 21–27 October.",
+              "status": "seasonal"
+            },
+            {
+              "title": "Where",
+              "body": "Dhalpur Maidan, Kullu.",
+              "status": "verified"
+            },
+            {
+              "title": "Getting there",
+              "body": "Kullu is 40 km from Manali and 10 km from Bhuntar airport.",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "HP29",
+            "HP27",
+            "MN3",
+            "KD1"
+          ]
+        }
+      },
+      "parent": "himachal-pradesh",
+      "category": "events"
+    },
+    {
+      "key": "himachal-pradesh/solang-ropeway-and-rides",
+      "kind": "activity",
+      "name": "Ropeway, zipline and rides at Solang",
+      "summary": "The gondola, a 1.5-km zipline, zorbing and quad bikes at Solang Valley.",
+      "seoTitle": "Solang Ropeway, Zipline and Rides",
+      "seoDescription": "Solang Valley's gondola ropeway, 1.5-km zipline, zorbing and quad-bike rides near Manali, with seasons and safety notes from official sources.",
+      "lat": 32.317,
+      "lng": 77.157,
+      "tripTypes": [
+        "family",
+        "adventure"
+      ],
+      "images": [
+        {
+          "commons": "File:Solang Ropeway & Ski Centre - Solang Valley - Kullu 2014-05-10 2526.JPG",
+          "alt": "The Solang ropeway station with cable cars on the mountainside",
+          "caption": "Solang ropeway",
+          "hero": false
+        }
+      ],
+      "sections": {
+        "overview": {
+          "text": "Besides paragliding and skiing, Solang has a gondola (ropeway) with wide valley views, a 1.5-km zipline, zorbing — rolling downhill inside a giant transparent ball — and quad-bike (ATV) rides with guides. Use licensed operators; prices could not be confirmed from an official source.",
+          "facts": [
+            "SO7",
+            "SO9",
+            "SO10",
+            "HP17"
+          ]
+        }
+      },
+      "parent": "himachal-pradesh/solang-valley",
+      "displayMode": "parent_section",
+      "category": "adventure"
+    },
+    {
+      "key": "himachal-pradesh/vashisht-hot-springs",
+      "kind": "activity",
+      "name": "Bathe in the Vashisht hot springs",
+      "summary": "Sulphurous hot-spring baths with separate areas for women and men, 3 km from Manali.",
+      "seoTitle": "Vashisht Hot Springs, Manali",
+      "seoDescription": "Bathe in the sulphurous hot springs at Vashisht near Manali: separate baths for women and men, listed timings and how to walk there.",
+      "lat": 32.2662,
+      "lng": 77.1883,
+      "tripTypes": [
+        "family"
+      ],
+      "images": [],
+      "sections": {
+        "overview": {
+          "text": "Vashisht's sulphurous hot springs feed a walled stone pool and separate shower rooms for women and men, with hot and cold water piped in. Charges are nominal, and the baths are listed as open 7 am–1 pm and 2 pm–9 pm daily. Walk there on the paved path from Manali market.",
+          "facts": [
+            "VA1",
+            "VH1",
+            "VA2",
+            "MN34"
+          ]
+        }
+      },
+      "parent": "himachal-pradesh/manali",
+      "displayMode": "parent_section",
+      "category": "wellness"
+    },
+    {
+      "key": "himachal-pradesh/manali-winter-carnival",
+      "kind": "activity",
+      "name": "Manali Winter Carnival",
+      "summary": "A week of folk dance, parades and a ski competition in the first week of January.",
+      "seoTitle": "Manali Winter Carnival",
+      "seoDescription": "Manali's Winter Carnival in the first week of January: folk dance, a parade, competitions and a ski race at Solang Valley.",
+      "lat": 32.2432,
+      "lng": 77.1892,
+      "tripTypes": [
+        "family"
+      ],
+      "images": [],
+      "sections": {
+        "overview": {
+          "text": "Held in the first week of January every year, Manali's week-long Winter Carnival brings folk-dance troupes from several states, a carnival parade, singing and dance competitions and a Winter Queen contest. A ski competition is held nearby at Solang Valley.",
+          "facts": [
+            "MN22"
+          ]
+        }
+      },
+      "parent": "himachal-pradesh/manali",
+      "displayMode": "parent_section",
+      "category": "events"
+    },
+    {
+      "key": "himachal-pradesh/dhungri-fair",
+      "kind": "activity",
+      "name": "Dhungri fair",
+      "summary": "The spring fair in May for Hadimba Devi, Manali's presiding goddess.",
+      "seoTitle": "Dhungri Fair at the Hadimba Temple, Manali",
+      "seoDescription": "The Dhungri (Hadimba Devi) fair held each spring in May beside the Hadimba Temple in Manali, and the goddess's other festivals.",
+      "lat": 32.248,
+      "lng": 77.1805,
+      "tripTypes": [
+        "spiritual"
+      ],
+      "images": [],
+      "sections": {
+        "overview": {
+          "text": "Each spring, in May, the Dhungri (Hadimba Devi) fair is held beside the deodar-shaded temple complex in honour of Manali's presiding goddess; a fair is also held on Hidimba Devi's birthday in May. At Navaratri, worship here centres on Hidimba Devi.",
+          "facts": [
+            "HD7",
+            "HD4",
+            "HD5"
+          ]
+        }
+      },
+      "parent": "himachal-pradesh/hadimba-temple",
+      "displayMode": "parent_section",
+      "category": "events"
+    },
+    {
+      "key": "himachal-pradesh/old-manali-cafes",
+      "kind": "activity",
+      "name": "Old Manali and Vashisht cafés",
+      "summary": "Western menus in Old Manali's lanes and rooftop cafés with views in Vashisht.",
+      "seoTitle": "Old Manali and Vashisht Cafés",
+      "seoDescription": "Where to eat in Manali's café quarters: Old Manali's Western menus and Vashisht's rooftop cafés with mountain views, from Himachal Tourism.",
+      "lat": 32.256,
+      "lng": 77.18,
+      "tripTypes": [
+        "food"
+      ],
+      "images": [
+        {
+          "commons": "File:Old Manali, Manali, India (Unsplash MSK-2kuYJDE).jpg",
+          "alt": "A lane of wooden houses and shops in Old Manali",
+          "caption": "Old Manali",
+          "hero": false
+        }
+      ],
+      "sections": {
+        "overview": {
+          "text": "Old Manali, up a path beyond the town, has narrow streets, many foreign travellers and cafés where most menus are Western. Vashisht, more compact, is known for rooftop eateries with mountain views serving Italian, Mexican and Israeli dishes. For North Indian food, head to Mall Road.",
+          "facts": [
+            "MN19",
+            "MN20",
+            "MN5"
+          ]
+        }
+      },
+      "parent": "himachal-pradesh/manali",
+      "displayMode": "parent_section",
+      "category": "food_shopping"
+    },
+    {
+      "key": "himachal-pradesh/manali-shopping",
+      "kind": "activity",
+      "name": "Shopping on Mall Road",
+      "summary": "Woollens, Kullu shawls, Himachali caps and handicrafts on the Mall and in the markets.",
+      "seoTitle": "Shopping in Manali: Mall Road and Markets",
+      "seoDescription": "Shop in Manali: Mall Road, the Tibetan market, Manu Market and the Himachal Emporium for Kullu shawls, woollens and handicrafts.",
+      "lat": 32.2432,
+      "lng": 77.1892,
+      "tripTypes": [
+        "food"
+      ],
+      "images": [
+        {
+          "commons": "File:Mall Road - Manali 2014-05-10 2240.JPG",
+          "alt": "Shoppers and shopfronts along Manali's Mall Road",
+          "caption": "Mall Road, Manali",
+          "hero": false
+        }
+      ],
+      "sections": {
+        "overview": {
+          "text": "Mall Road and the bazaar have outlets for souvenirs, woollens and Himachali handloom and handicrafts, and the Tibetan market, Manu Market and the Himachal Emporium are well worth exploring. Look for Kullu shawls, Himachali caps and handcrafted wooden items; government emporiums have reasonable prices and assured quality.",
+          "facts": [
+            "MN18",
+            "MN8",
+            "MN33"
+          ]
+        }
+      },
+      "parent": "himachal-pradesh/manali",
+      "displayMode": "parent_section",
+      "category": "food_shopping"
+    },
+    {
+      "key": "himachal-pradesh/mountaineering-courses",
+      "kind": "activity",
+      "name": "Mountaineering and adventure courses",
+      "summary": "Basic to advanced courses at Manali's Atal Bihari Vajpayee Institute of Mountaineering.",
+      "seoTitle": "Mountaineering Courses in Manali (ABVIMAS)",
+      "seoDescription": "Courses at the Atal Bihari Vajpayee Institute of Mountaineering and Allied Sports in Manali: mountaineering, climbing, trekking, rafting, paragliding and skiing.",
+      "lat": 32.236,
+      "lng": 77.19,
+      "tripTypes": [
+        "adventure"
+      ],
+      "images": [],
+      "sections": {
+        "overview": {
+          "text": "The Atal Bihari Vajpayee Institute of Mountaineering and Allied Sports, founded in Manali in 1961, runs basic to advanced courses in mountaineering, rock climbing, trekking, river rafting, paragliding and other adventure sports. Solang Valley is a base camp for expeditions to Anjani Mahadev, Hanuman Tibba and Patalsu.",
+          "facts": [
+            "MN28",
+            "SO8"
+          ]
+        }
+      },
+      "parent": "himachal-pradesh/manali",
+      "displayMode": "parent_section",
+      "category": "adventure"
+    },
+    {
+      "key": "himachal-pradesh/club-house",
+      "kind": "activity",
+      "name": "Himachal Tourism Club House",
+      "summary": "Go-karting, roller skating, billiards and river crossing beside the Manalsu stream.",
+      "seoTitle": "Club House, Manali",
+      "seoDescription": "Himachal Tourism's Club House in Manali: go-karting, roller skating, billiards, table tennis and river crossing beside the Manalsu stream.",
+      "lat": 32.249,
+      "lng": 77.187,
+      "tripTypes": [
+        "family"
+      ],
+      "images": [],
+      "sections": {
+        "overview": {
+          "text": "Run by Himachal Tourism on the left bank of the Manalsu stream, a tributary of the Beas, the Club House is an activity complex with roller skating, billiards, table tennis, go-karting and river crossing — an easy family afternoon in town.",
+          "facts": [
+            "MN21"
+          ]
+        }
+      },
+      "parent": "himachal-pradesh/manali",
+      "displayMode": "parent_section",
+      "category": "adventure"
+    },
+    {
+      "key": "himachal-pradesh/manali-gompa",
+      "kind": "attraction",
+      "name": "Manali Gompa",
+      "summary": "The colourful Tibetan monastery near the Mall, built by refugees in the 1960s.",
+      "seoTitle": "Manali Gompa (Gadhan Thekchhokling)",
+      "seoDescription": "Visit the Manali Gompa near the Mall: the colourful Tibetan monastery built in the early 1960s, its Buddha statue, murals and morning and evening prayers.",
+      "lat": 32.2425,
+      "lng": 77.189,
+      "tripTypes": [
+        "spiritual"
+      ],
+      "images": [],
+      "sections": {
+        "overview": {
+          "text": "Close to the Mall, the Gadhan Thekchhokling Gompa greets you with bright colours: a large Buddha statue at the entrance, freshly painted façades, lawns and murals of the Buddha's life. It was built by Tibetan refugees in the early 1960s; visit in the morning or evening for prayers.",
+          "facts": [
+            "MN29",
+            "GM1"
+          ]
+        }
+      },
+      "parent": "himachal-pradesh/manali",
+      "displayMode": "parent_section"
+    },
+    {
+      "key": "himachal-pradesh/museum-of-himachal-culture",
+      "kind": "museum",
+      "name": "Museum of Himachal Culture & Folk Art",
+      "summary": "A small museum of local artefacts and costume near the Hadimba Temple.",
+      "seoTitle": "Museum of Himachal Culture & Folk Art, Manali",
+      "seoDescription": "The Museum of Himachal Culture & Folk Art near the Hadimba Temple in Manali: traditional artefacts, musical instruments, clothing and household items.",
+      "lat": 32.2478,
+      "lng": 77.1812,
+      "tripTypes": [
+        "heritage"
+      ],
+      "images": [],
+      "sections": {
+        "overview": {
+          "text": "This small museum near the Hadimba Devi Temple offers a glimpse of Himachal's cultural heritage, with traditional artefacts, musical instruments, clothing and household items that show the daily life and customs of the region. Opening hours and fees could not be confirmed from an official source.",
+          "facts": [
+            "MN30"
+          ]
+        }
+      },
+      "parent": "himachal-pradesh/manali",
+      "displayMode": "parent_section"
+    },
+    {
+      "key": "himachal-pradesh/jogini-falls",
+      "kind": "nature",
+      "name": "Jogini Falls",
+      "summary": "A waterfall reached on foot from Vashisht village.",
+      "seoTitle": "Jogini Falls near Vashisht, Manali",
+      "seoDescription": "Walk to Jogini Falls from Vashisht village near Manali: the trail, what to expect and nearby stops such as the hot springs and Nehru Kund.",
+      "lat": 32.273,
+      "lng": 77.19,
+      "tripTypes": [
+        "nature",
+        "family"
+      ],
+      "images": [
+        {
+          "commons": "File:Prateekjain7792, Jogini Waterfall pool.jpg",
+          "alt": "Jogini waterfall dropping into a rocky pool among trees",
+          "caption": "Jogini Falls",
+          "hero": false
+        }
+      ],
+      "sections": {
+        "overview": {
+          "text": "Jogini Waterfall is reached on foot from Vashisht village, on a trail that makes a refreshing short trek with mountain views. Himachal Tourism lists it among the excursions around Manali with Nehru Kund and Kothi. Combine it with a bath in the Vashisht hot springs.",
+          "facts": [
+            "MN37",
+            "VA3",
+            "MN31"
+          ]
+        }
+      },
+      "parent": "himachal-pradesh/manali",
+      "displayMode": "parent_section"
+    },
+    {
+      "key": "himachal-pradesh/nehru-kund",
+      "kind": "nature",
+      "name": "Nehru Kund",
+      "summary": "A clear spring fed by Bhrigu Lake on the Manali–Leh highway, about 5–6 km from Manali.",
+      "seoTitle": "Nehru Kund, Manali",
+      "seoDescription": "Nehru Kund, the spring on the Manali–Leh highway about 5–6 km from Manali, fed by Bhrigu Lake and named after Jawaharlal Nehru.",
+      "lat": 32.284,
+      "lng": 77.17,
+      "tripTypes": [
+        "nature"
+      ],
+      "images": [],
+      "sections": {
+        "overview": {
+          "text": "On the Manali–Leh highway, about 5–6 km from Manali towards Rohtang, Nehru Kund is a natural spring fed by Bhrigu Lake. It is named after India's first Prime Minister, Jawaharlal Nehru, who is said to have drunk only from this spring on his visits to Manali.",
+          "facts": [
+            "MN31"
+          ]
+        }
+      },
+      "parent": "himachal-pradesh/manali",
+      "displayMode": "parent_section"
+    },
+    {
+      "key": "himachal-pradesh/manali-wildlife-sanctuary",
+      "kind": "nature",
+      "name": "Manali Wildlife Sanctuary",
+      "summary": "Deodar and walnut forest above Dhungri, home to monal, musk deer and brown bear.",
+      "seoTitle": "Manali Wildlife Sanctuary",
+      "seoDescription": "Walk into the Manali Wildlife Sanctuary: deodar, kail, walnut and maple forest 2 km from town, with monal, musk deer and brown bear, past the Dhungri temple.",
+      "lat": 32.256,
+      "lng": 77.165,
+      "tripTypes": [
+        "nature",
+        "wildlife"
+      ],
+      "images": [],
+      "sections": {
+        "overview": {
+          "text": "The sanctuary starts about 2 km from Manali. A bridle path past the Dhungri temple leads through dense deodar, kail, walnut and maple forest towards the alpine grassland of Gallant thatch; monal, musk deer and brown bear may be seen. It covers about 31.8 sq km.",
+          "facts": [
+            "MN32"
+          ]
+        }
+      },
+      "parent": "himachal-pradesh/manali",
+      "displayMode": "parent_section"
     }
   ],
   "itineraries": [
@@ -1309,7 +4926,7 @@
               {
                 "time": "Afternoon",
                 "name": "Old Manali and the Manu Temple",
-                "placeSlug": "manali",
+                "placeSlug": "manu-temple",
                 "duration": "2–3 hours"
               },
               {
@@ -1331,9 +4948,10 @@
               },
               {
                 "time": "Late morning",
-                "name": "Ropeway, paragliding or skiing (seasonal)",
-                "placeSlug": "solang-valley",
-                "duration": "3–4 hours"
+                "name": "Paragliding, ropeway or skiing (seasonal)",
+                "placeSlug": "paragliding-in-solang",
+                "duration": "3–4 hours",
+                "note": "Paragliding is closed 15 July–15 September."
               },
               {
                 "time": "Afternoon",
@@ -1349,7 +4967,7 @@
               {
                 "time": "Early morning",
                 "name": "Drive towards Rohtang",
-                "placeSlug": "rohtang-pass",
+                "placeSlug": "rohtang-pass-drive",
                 "duration": "51 km (estimate: 2–3 hours each way)",
                 "note": "Needs an online vehicle permit; open about May–November."
               },
@@ -1378,6 +4996,13 @@
             "title": "Naggar and Vashisht",
             "stops": [
               {
+                "time": "Early morning",
+                "name": "Jagatsukh's old temples",
+                "placeSlug": "jagatsukh",
+                "duration": "45 minutes",
+                "note": "On the way to Naggar, 6 km from Manali."
+              },
+              {
                 "time": "Morning",
                 "name": "Naggar Castle and temples",
                 "placeSlug": "naggar",
@@ -1402,33 +5027,38 @@
           }
         ],
         "budget": {
-          "assumptions": "The Rohtang permit fee, the Solang ropeway and activity prices couldn't be confirmed from an official page during research — check before you go. Transport, hotels and meals are not estimated.",
+          "assumptions": "Only official fees are listed. Hotels, transport, meals and activity prices are not estimated.",
           "lines": [
             {
-              "label": "Rohtang vehicle permit",
-              "amount": "Check the official permit site",
-              "basis": "Not estimated"
+              "label": "Rohtang permit (car)",
+              "amount": "₹500 + ₹50",
+              "basis": "Official fee, District Kullu permit site"
             },
             {
-              "label": "Solang ropeway and activities",
-              "amount": "Check locally",
-              "basis": "Not estimated"
+              "label": "Green tax (car not registered in Himachal)",
+              "amount": "₹200",
+              "basis": "Official fee, valid 7 days"
+            },
+            {
+              "label": "Paragliding, ropeway, skiing",
+              "amount": "Check with licensed operators",
+              "basis": "Not confirmed from an official source"
             }
           ]
         },
         "booking": [
           {
             "item": "Rohtang permit",
-            "detail": "Apply online up to two days ahead; permits are limited by a daily quota and valid for one day."
+            "detail": "Online at 10:00 or 16:00, up to two days ahead; ₹500 + ₹50; carry a printout."
           },
           {
             "item": "Paragliding and skiing",
-            "detail": "Use registered operators and check the season."
+            "detail": "Licensed operators only; no paragliding 15 July–15 September."
           }
         ],
         "alternatives": [
-          "Outside the Rohtang season, drive through the Atal Tunnel instead (road conditions permitting).",
-          "Swap Solang for the start of the Hampta Pass trek if you have more days."
+          "Outside the Rohtang season (late November–May), drive through the Atal Tunnel to Sissu instead, road conditions permitting.",
+          "From 15 July to 15 September, swap paragliding for the Solang ropeway or a walk to Jogini Falls."
         ],
         "tips": [
           "Carry warm layers even in summer.",
@@ -1436,24 +5066,906 @@
         ]
       },
       "facts": [
-        "HD1",
-        "MN9",
-        "MN6",
         "GM1",
-        "SO1",
-        "SO2",
-        "RO1",
-        "RO3",
-        "RO2",
-        "RO6",
-        "RO5",
+        "HD1",
+        "HP17",
+        "JG1",
+        "LA1",
+        "MN2",
+        "MN25",
+        "MN27",
+        "MN6",
+        "MN7",
+        "MN9",
         "NG1",
         "NG2",
         "NG3",
-        "VA2",
-        "MN2",
+        "RO1",
+        "RO10",
+        "RO2",
+        "RO3",
         "RO4",
-        "MN7"
+        "RO5",
+        "RO6",
+        "RO7",
+        "RO9",
+        "SO1",
+        "SO2",
+        "VA2"
+      ],
+      "sources": []
+    },
+    {
+      "place": "himachal-pradesh/manali",
+      "slug": "manali-3-days",
+      "title": "Manali in 3 days",
+      "durationDays": 3,
+      "tripTypes": [
+        "mountains",
+        "family",
+        "weekend"
+      ],
+      "summary": "The Hadimba Temple, Old Manali and the gompa; a day at Solang; and a high-road day through the Atal Tunnel to Sissu or up to Rohtang with a permit.",
+      "seoTitle": "3 Days in Manali: Itinerary with Solang and Sissu",
+      "seoDescription": "A realistic 3-day Manali itinerary: Hadimba Temple and Old Manali, a day at Solang Valley, and the Atal Tunnel to Sissu or Rohtang Pass with a permit.",
+      "plan": {
+        "overview": "A short break for first-timers. Day 1 stays in town while you get used to the altitude (about 2,050 m). Day 3 is either the Atal Tunnel to Sissu (all year, road permitting) or Rohtang Pass (about May–November, permit needed) — not both in one day.",
+        "days": [
+          {
+            "title": "Manali town",
+            "stops": [
+              {
+                "time": "Morning",
+                "name": "Hadimba Devi Temple",
+                "placeSlug": "hadimba-temple",
+                "duration": "1.5 hours"
+              },
+              {
+                "time": "Late morning",
+                "name": "Museum of Himachal Culture & Folk Art",
+                "placeSlug": "museum-of-himachal-culture",
+                "duration": "45 minutes"
+              },
+              {
+                "time": "Afternoon",
+                "name": "Old Manali and the Manu Temple",
+                "placeSlug": "manu-temple",
+                "duration": "2–3 hours"
+              },
+              {
+                "time": "Evening",
+                "name": "Manali Gompa and Mall Road",
+                "placeSlug": "manali-gompa",
+                "duration": "2 hours"
+              }
+            ],
+            "overnight": "Manali"
+          },
+          {
+            "title": "Solang Valley",
+            "stops": [
+              {
+                "time": "Morning",
+                "name": "Drive to Solang",
+                "placeSlug": "solang-valley",
+                "duration": "About 13 km"
+              },
+              {
+                "time": "Late morning",
+                "name": "Paragliding, skiing or the ropeway (seasonal)",
+                "placeSlug": "paragliding-in-solang",
+                "duration": "3–4 hours",
+                "note": "Paragliding is closed 15 July–15 September."
+              },
+              {
+                "time": "Afternoon",
+                "name": "Vashisht hot springs on the way back",
+                "placeSlug": "vashisht",
+                "duration": "1.5 hours"
+              }
+            ],
+            "overnight": "Manali"
+          },
+          {
+            "title": "Atal Tunnel to Sissu, or Rohtang Pass",
+            "stops": [
+              {
+                "time": "Morning",
+                "name": "Through the Atal Tunnel to Sissu",
+                "placeSlug": "lahaul-day-trip-via-atal-tunnel",
+                "duration": "About 1.5 hours each way (estimate)"
+              },
+              {
+                "time": "Alternative",
+                "name": "Rohtang Pass with a permit (May–November)",
+                "placeSlug": "rohtang-pass-drive",
+                "duration": "Full day",
+                "note": "₹500 + ₹50 permit; apply up to two days ahead."
+              },
+              {
+                "time": "Evening",
+                "name": "Shopping on Mall Road",
+                "placeSlug": "manali-shopping",
+                "duration": "1–2 hours"
+              }
+            ],
+            "overnight": "Manali"
+          }
+        ],
+        "budget": {
+          "assumptions": "Only official fees are listed. Hotels, transport, meals and activity prices are not estimated.",
+          "lines": [
+            {
+              "label": "Rohtang permit (car)",
+              "amount": "₹500 + ₹50",
+              "basis": "Official fee, District Kullu permit site"
+            },
+            {
+              "label": "Green tax (car not registered in Himachal)",
+              "amount": "₹200",
+              "basis": "Official fee, valid 7 days"
+            },
+            {
+              "label": "Paragliding, ropeway, skiing",
+              "amount": "Check with licensed operators",
+              "basis": "Not confirmed from an official source"
+            }
+          ]
+        },
+        "booking": [
+          {
+            "item": "Rohtang permit",
+            "detail": "Online at 10:00 or 16:00, up to two days ahead; carry a printout."
+          },
+          {
+            "item": "Volvo bus from Delhi",
+            "detail": "About 550 km; book in advance."
+          }
+        ],
+        "alternatives": [
+          "From 15 July to 15 September, swap paragliding for the Solang ropeway or a walk to Jogini Falls.",
+          "If Sissu's panchayat has paused tourist activities, stay in the valley and visit Jagatsukh and Naggar."
+        ],
+        "tips": [
+          "Carry woollens even in summer.",
+          "Use only licensed adventure operators."
+        ]
+      },
+      "facts": [
+        "MN2",
+        "HD1",
+        "MN30",
+        "MT1",
+        "MN29",
+        "SO1",
+        "MN27",
+        "VA1",
+        "LA1",
+        "LA2",
+        "RO3",
+        "RO9",
+        "RO7",
+        "RO12",
+        "MN16",
+        "MN25",
+        "MN12",
+        "HP17"
+      ],
+      "sources": []
+    },
+    {
+      "place": "himachal-pradesh/manali",
+      "slug": "manali-7-days",
+      "title": "Manali in 7 days",
+      "durationDays": 7,
+      "tripTypes": [
+        "mountains",
+        "adventure",
+        "family"
+      ],
+      "summary": "A slow week: Manali's temples and cafés, Vashisht and Jogini Falls, Solang, a high-road day, Naggar and Jagatsukh, and Kullu on the way out.",
+      "seoTitle": "7 Days in Manali: Itinerary from Old Manali to Kullu",
+      "seoDescription": "A relaxed 7-day Manali itinerary: Old Manali and Hadimba, Vashisht and Jogini Falls, Solang, Rohtang or the Atal Tunnel, Naggar, Jagatsukh and Kullu.",
+      "plan": {
+        "overview": "A week with rest built in. Arrive by air at Bhuntar (50 km) or by bus from Delhi (about 550 km). Keep Rohtang and Lahaul on separate days from Solang, and plan the high-road day with a spare day for weather.",
+        "days": [
+          {
+            "title": "Arrive and settle in",
+            "stops": [
+              {
+                "time": "Afternoon",
+                "name": "Arrive from Bhuntar airport or by bus",
+                "placeSlug": "manali",
+                "duration": "50 km from the airport"
+              },
+              {
+                "time": "Evening",
+                "name": "Mall Road and the gompa",
+                "placeSlug": "manali-gompa",
+                "duration": "1–2 hours"
+              }
+            ],
+            "overnight": "Manali"
+          },
+          {
+            "title": "Hadimba and Old Manali",
+            "stops": [
+              {
+                "time": "Morning",
+                "name": "Hadimba Devi Temple",
+                "placeSlug": "hadimba-temple",
+                "duration": "1.5 hours"
+              },
+              {
+                "time": "Late morning",
+                "name": "Museum of Himachal Culture & Folk Art",
+                "placeSlug": "museum-of-himachal-culture",
+                "duration": "45 minutes"
+              },
+              {
+                "time": "Afternoon",
+                "name": "Old Manali cafés and the Manu Temple",
+                "placeSlug": "manu-temple",
+                "duration": "3 hours"
+              }
+            ],
+            "overnight": "Manali"
+          },
+          {
+            "title": "Vashisht and Jogini Falls",
+            "stops": [
+              {
+                "time": "Morning",
+                "name": "Walk to Vashisht on the paved path",
+                "placeSlug": "vashisht",
+                "duration": "About 3 km"
+              },
+              {
+                "time": "Late morning",
+                "name": "Jogini Falls trail",
+                "placeSlug": "jogini-falls",
+                "duration": "2–3 hours"
+              },
+              {
+                "time": "Afternoon",
+                "name": "Hot-spring baths",
+                "placeSlug": "vashisht-hot-springs",
+                "duration": "1 hour",
+                "note": "Listed 7 am–1 pm and 2–9 pm."
+              }
+            ],
+            "overnight": "Manali"
+          },
+          {
+            "title": "Solang Valley",
+            "stops": [
+              {
+                "time": "Morning",
+                "name": "Paragliding or skiing (seasonal)",
+                "placeSlug": "paragliding-in-solang",
+                "duration": "Half day",
+                "note": "No paragliding 15 July–15 September."
+              },
+              {
+                "time": "Afternoon",
+                "name": "Ropeway, zipline or quad bikes",
+                "placeSlug": "solang-ropeway-and-rides",
+                "duration": "2 hours"
+              }
+            ],
+            "overnight": "Manali"
+          },
+          {
+            "title": "High-road day",
+            "stops": [
+              {
+                "time": "Early morning",
+                "name": "Rohtang Pass with a permit (May–November)",
+                "placeSlug": "rohtang-pass-drive",
+                "duration": "Full day"
+              },
+              {
+                "time": "Or",
+                "name": "Atal Tunnel to Sissu",
+                "placeSlug": "lahaul-day-trip-via-atal-tunnel",
+                "duration": "About 1.5 hours each way (estimate)"
+              }
+            ],
+            "overnight": "Manali"
+          },
+          {
+            "title": "Jagatsukh and Naggar",
+            "stops": [
+              {
+                "time": "Morning",
+                "name": "Jagatsukh's temples",
+                "placeSlug": "jagatsukh",
+                "duration": "1 hour"
+              },
+              {
+                "time": "Late morning",
+                "name": "Naggar Castle and the Roerich gallery",
+                "placeSlug": "naggar",
+                "duration": "3 hours"
+              }
+            ],
+            "overnight": "Manali"
+          },
+          {
+            "title": "Kullu and departure",
+            "stops": [
+              {
+                "time": "Morning",
+                "name": "Rafting on the Beas (summer, outside 15 July–15 September)",
+                "placeSlug": "beas-river-rafting",
+                "duration": "2–3 hours"
+              },
+              {
+                "time": "Afternoon",
+                "name": "Kullu — Dhalpur Maidan, and Dussehra if it's October",
+                "placeSlug": "kullu-dussehra",
+                "duration": "2 hours"
+              },
+              {
+                "time": "Evening",
+                "name": "Fly out from Bhuntar, 10 km from Kullu",
+                "duration": "—"
+              }
+            ]
+          }
+        ],
+        "budget": {
+          "assumptions": "Only official fees are listed. Hotels, transport, meals and activity prices are not estimated.",
+          "lines": [
+            {
+              "label": "Rohtang permit (car)",
+              "amount": "₹500 + ₹50",
+              "basis": "Official fee, District Kullu permit site"
+            },
+            {
+              "label": "Green tax (car not registered in Himachal)",
+              "amount": "₹200",
+              "basis": "Official fee, valid 7 days"
+            },
+            {
+              "label": "Paragliding, ropeway, skiing",
+              "amount": "Check with licensed operators",
+              "basis": "Not confirmed from an official source"
+            }
+          ]
+        },
+        "booking": [
+          {
+            "item": "Rohtang permit",
+            "detail": "Online at 10:00 or 16:00, up to two days ahead; three permits a week per vehicle."
+          },
+          {
+            "item": "Flights",
+            "detail": "Bhuntar has flights from Delhi (about 1.5 hours), Chandigarh and Shimla."
+          }
+        ],
+        "alternatives": [
+          "In July–August, expect landslide delays on roads; keep day 5 flexible.",
+          "Swap day 3 for the Bhrigu Lake trek if you have four extra days and it's June–September."
+        ],
+        "tips": [
+          "Use only licensed operators for adventure activities.",
+          "Don't stand on riverside boulders by the Beas."
+        ]
+      },
+      "facts": [
+        "MN14",
+        "MN16",
+        "MN29",
+        "HD1",
+        "MN30",
+        "MT1",
+        "MN19",
+        "MN34",
+        "MN37",
+        "VA2",
+        "VH1",
+        "PG1",
+        "MN27",
+        "SO7",
+        "SO9",
+        "RO3",
+        "RO7",
+        "RO8",
+        "RO12",
+        "LA1",
+        "JG1",
+        "NG2",
+        "NG3",
+        "RF1",
+        "HP27",
+        "KD1",
+        "HP13",
+        "BL3",
+        "HP17",
+        "HP26"
+      ],
+      "sources": []
+    }
+  ],
+  "guides": [
+    {
+      "place": "himachal-pradesh/rohtang-pass",
+      "places": [
+        "himachal-pradesh/manali",
+        "himachal-pradesh/rohtang-pass-drive",
+        "himachal-pradesh/atal-tunnel"
+      ],
+      "slug": "rohtang-pass-permit",
+      "title": "Rohtang Pass permit: how it works, fees and rules",
+      "summary": "Who needs the Rohtang permit, what it costs, when the daily quota opens, the documents you need — and what to do when you can't get one.",
+      "tripTypes": [
+        "mountains"
+      ],
+      "seoTitle": "Rohtang Pass Permit: Fees, Quota and How to Apply",
+      "seoDescription": "How the Rohtang Pass permit works: ₹500 fee plus congestion charge, 800 petrol and 400 diesel a day, 10:00 and 16:00 slots, documents and the season.",
+      "body": {
+        "intro": "Every tourist vehicle going up to Rohtang Pass needs an online permit from the District Kullu administration. Permits are limited each day, so plan ahead — here is how the system works, using the district's own permit site.",
+        "sections": [
+          {
+            "heading": "Who needs a permit",
+            "text": "All vehicles visiting Rohtang Pass for tourism need a permit. It is issued against a daily quota set by the National Green Tribunal and the district, and it is valid for one day only (there and back)."
+          },
+          {
+            "heading": "What it costs",
+            "items": [
+              {
+                "title": "Permit fee",
+                "body": "₹500 per vehicle — car, jeep, MUV or bus.",
+                "status": "verified"
+              },
+              {
+                "title": "Congestion charge",
+                "body": "₹50 for cars, jeeps and MUVs, ₹100 for buses, for crossing Gulaba bridge.",
+                "status": "verified"
+              },
+              {
+                "title": "Refunds",
+                "body": "Fees are not refundable; only failed payments are refunded.",
+                "status": "verified"
+              }
+            ]
+          },
+          {
+            "heading": "When to apply",
+            "items": [
+              {
+                "title": "How far ahead",
+                "body": "Up to two days from the current date.",
+                "status": "verified"
+              },
+              {
+                "title": "Daily quota",
+                "body": "800 petrol and 400 diesel vehicles a day.",
+                "status": "verified"
+              },
+              {
+                "title": "Time slots",
+                "body": "Released online in two batches: 10:00 and 16:00 (200 diesel and 400 petrol each).",
+                "status": "verified"
+              },
+              {
+                "title": "Weekly limit",
+                "body": "Three permits per vehicle a week (Tuesday to Monday).",
+                "status": "verified"
+              }
+            ]
+          },
+          {
+            "heading": "Documents",
+            "items": [
+              {
+                "body": "Valid ID, a valid PUC (pollution) certificate, and a vehicle registered no more than 10 years ago.",
+                "status": "verified"
+              },
+              {
+                "body": "A printout of the permit is compulsory; details must match your documents at the barrier.",
+                "status": "verified"
+              }
+            ]
+          },
+          {
+            "heading": "Season and weather",
+            "text": "Heavy snow closes the pass in late November and it reopens around May; June to August is the busiest time. Rohtang is notorious for sudden snowstorms — check the forecast and turn back if it closes in."
+          },
+          {
+            "heading": "If you can't get a permit",
+            "text": "Drive through the Atal Tunnel instead: 9.02 km under the pass, it reaches Lahaul in about 2 hours and Sissu is about 40 km from Manali. Or spend the day at Solang Valley, 13 km from Manali."
+          },
+          {
+            "heading": "Other fees to know",
+            "items": [
+              {
+                "title": "Green tax",
+                "body": "Vehicles not registered in Himachal pay a separate green tax to enter Manali — ₹200 for a car, valid seven days.",
+                "status": "verified"
+              },
+              {
+                "title": "Special Rohtang permit",
+                "body": "A separate permit issued only once per vehicle per season (60 petrol and 40 diesel vehicles a day).",
+                "status": "verified"
+              }
+            ]
+          }
+        ],
+        "checklist": [
+          "Apply online at 10:00 or 16:00, up to two days ahead",
+          "Valid ID and PUC certificate",
+          "Vehicle no older than 10 years",
+          "Printed permit and green-tax slip",
+          "Warm layers"
+        ]
+      },
+      "facts": [
+        "RO3",
+        "RO9",
+        "RO11",
+        "RO7",
+        "RO8",
+        "RO10",
+        "RO12",
+        "RO5",
+        "AT1",
+        "AT2",
+        "LA1",
+        "SO1",
+        "MN25",
+        "RO13"
+      ],
+      "sources": []
+    },
+    {
+      "place": "himachal-pradesh/manali",
+      "places": [
+        "himachal-pradesh",
+        "himachal-pradesh/atal-tunnel"
+      ],
+      "slug": "delhi-to-manali",
+      "title": "How to get from Delhi to Manali",
+      "summary": "Flying to Bhuntar, the overnight Volvo, trains to the nearest railheads, or driving — with distances, times and the fees you'll meet on the way.",
+      "tripTypes": [
+        "mountains",
+        "weekend"
+      ],
+      "seoTitle": "Delhi to Manali: Flights, Buses, Trains and Driving",
+      "seoDescription": "How to get from Delhi to Manali: flights to Bhuntar (50 km away), AC Volvo buses (about 550 km), the nearest railheads and driving tips, from official sources.",
+      "body": {
+        "intro": "Manali has no railway and its airport is 50 km away, so most trips from Delhi combine more than one mode. These are the options, with what the Himachal and Kullu district governments say about each.",
+        "sections": [
+          {
+            "heading": "By air",
+            "items": [
+              {
+                "title": "Airport",
+                "body": "Kullu–Manali airport at Bhuntar, 50 km from Manali and 10 km from Kullu.",
+                "status": "verified"
+              },
+              {
+                "title": "Flights",
+                "body": "To and from Delhi (about 1.5 hours), Chandigarh and Shimla.",
+                "status": "verified"
+              },
+              {
+                "title": "Onward",
+                "body": "Taxis and buses are available at Bhuntar.",
+                "status": "verified"
+              }
+            ]
+          },
+          {
+            "heading": "By bus",
+            "text": "Delhi to Manali is about 550 km by road. Deluxe, semi-deluxe and AC Volvo buses run regularly — Himachal Tourism recommends booking ahead. HRTC, HPTDC and private operators run services, and HRTC buses also link Manali with other major cities."
+          },
+          {
+            "heading": "By train",
+            "text": "There is no railway to Manali. Take a broad-gauge train to Pathankot and the narrow-gauge line to Joginder Nagar, or a train to Kiratpur, about 200 km from Kullu on the Chandigarh highway — then continue by road."
+          },
+          {
+            "heading": "By car",
+            "items": [
+              {
+                "title": "Green tax",
+                "body": "Cars not registered in Himachal pay ₹200 to enter Manali, valid seven days; buy online up to nine days ahead and carry a printout.",
+                "status": "verified"
+              },
+              {
+                "title": "Hill driving",
+                "body": "Keep to the left, don't overtake on bends and slow down at corners.",
+                "status": "verified"
+              },
+              {
+                "title": "Monsoon",
+                "body": "In July–August roads are slippery, with landslides and rock-falls.",
+                "status": "seasonal"
+              },
+              {
+                "title": "Parking",
+                "body": "Use the car park near Manali's main market.",
+                "status": "verified"
+              }
+            ]
+          },
+          {
+            "heading": "Which to choose",
+            "text": "Flying is fastest if flights suit your dates; the overnight Volvo is the common budget option; driving gives flexibility for Solang, Rohtang (with a permit) and the Atal Tunnel. Whatever you choose, carry woollens — Manali's weather changes fast."
+          }
+        ],
+        "checklist": [
+          "Book the Volvo or flight ahead",
+          "Green-tax printout if driving a non-Himachal car",
+          "Woollens",
+          "Check road conditions in July–August"
+        ]
+      },
+      "facts": [
+        "MN14",
+        "KD1",
+        "MN16",
+        "MN3",
+        "MN26",
+        "MN15",
+        "MN25",
+        "HP13",
+        "MN17",
+        "MN12",
+        "HP32"
+      ],
+      "sources": []
+    },
+    {
+      "place": "himachal-pradesh/solang-valley",
+      "places": [
+        "himachal-pradesh/manali",
+        "himachal-pradesh/skiing-in-solang",
+        "himachal-pradesh/rohtang-pass",
+        "himachal-pradesh/atal-tunnel"
+      ],
+      "slug": "snow-in-manali",
+      "title": "Snow in Manali: when and where to find it",
+      "summary": "When snow falls in Manali, where to see it in each season — Solang, Rohtang, Lahaul — and what to wear.",
+      "tripTypes": [
+        "mountains",
+        "family"
+      ],
+      "seoTitle": "Snow in Manali: Best Months and Where to Go",
+      "seoDescription": "When does it snow in Manali? December to early March in town and Solang, June–August at Rohtang. Where to go each season, temperatures and what to pack.",
+      "body": {
+        "intro": "Snow is the reason many people come to Manali. Where you find it depends on the month — here is what official sources say, season by season.",
+        "sections": [
+          {
+            "heading": "Winter in town and at Solang",
+            "items": [
+              {
+                "title": "When",
+                "body": "Snow falls mainly from December to early March.",
+                "status": "seasonal"
+              },
+              {
+                "title": "Cold",
+                "body": "In December–January it can drop below −5°C.",
+                "status": "seasonal"
+              },
+              {
+                "title": "Skiing",
+                "body": "Solang's slopes host state and national ski championships; beginners can learn with trainers.",
+                "status": "verified"
+              },
+              {
+                "title": "Winter Carnival",
+                "body": "First week of January, with a ski competition at Solang.",
+                "status": "seasonal"
+              }
+            ]
+          },
+          {
+            "heading": "Summer snow at Rohtang",
+            "text": "Heavy snow closes Rohtang Pass from late November; it reopens around May, and June to August is when visitors drive up to see snow. A permit is needed (₹500 per vehicle plus congestion charge)."
+          },
+          {
+            "heading": "Lahaul through the Atal Tunnel",
+            "text": "The 9.02-km Atal Tunnel bypasses Rohtang and was built to avoid the avalanche- and blockade-prone stretches of the old route, especially in winter. Sissu, just beyond the north portal, is about 40 km from Manali."
+          },
+          {
+            "heading": "What to wear",
+            "text": "Woollens are essential in every season: thunderstorms and sudden snowfall can turn a warm day cold in minutes, and Rohtang is notorious for sudden snowstorms."
+          }
+        ],
+        "checklist": [
+          "Thermals and a warm jacket",
+          "Waterproof shoes",
+          "Rohtang permit if going up (May–November)",
+          "Check the forecast"
+        ]
+      },
+      "facts": [
+        "MN2",
+        "MN11",
+        "SO7",
+        "SK1",
+        "MN22",
+        "RO12",
+        "RO9",
+        "AT1",
+        "AT2",
+        "LA1",
+        "MN12",
+        "RO5"
+      ],
+      "sources": []
+    },
+    {
+      "place": "himachal-pradesh/manali",
+      "places": [
+        "himachal-pradesh",
+        "himachal-pradesh/paragliding-in-solang",
+        "himachal-pradesh/beas-river-rafting"
+      ],
+      "slug": "manali-in-the-monsoon",
+      "title": "Manali in the monsoon: what to know",
+      "summary": "What changes in July and August — closed adventure sports, landslide risk — and what still works.",
+      "tripTypes": [
+        "mountains"
+      ],
+      "seoTitle": "Manali in the Monsoon: Closures, Safety, What to Do",
+      "seoDescription": "Visiting Manali in July–August: paragliding and rafting closed 15 July–15 September, landslide risk on roads, river safety and what you can still do.",
+      "body": {
+        "intro": "The monsoon changes a Manali trip. Some activities stop by order every year and roads become riskier — but the valley is green and the high treks are in season.",
+        "sections": [
+          {
+            "heading": "What closes",
+            "items": [
+              {
+                "title": "Adventure ban",
+                "body": "Paragliding, river rafting and river crossing stop every year from 15 July to 15 September.",
+                "status": "seasonal"
+              }
+            ]
+          },
+          {
+            "heading": "Roads",
+            "text": "During the monsoon (July–August) roads are slippery and landslides and rock-falls happen. Drive carefully, keep to the left on hill roads, and build a spare day into your plans."
+          },
+          {
+            "heading": "Rivers",
+            "text": "The Beas runs high and fast. Don't stand on riverside boulders or cliff edges for photos — Himachal's rivers are strong and highly deceptive."
+          },
+          {
+            "heading": "What still works",
+            "items": [
+              {
+                "body": "The Hadimba, Manu and Vashisht temples, Old Manali's cafés and the hot springs.",
+                "status": "verified"
+              },
+              {
+                "body": "The Solang ropeway and the Club House in town.",
+                "status": "verified"
+              },
+              {
+                "body": "High treks such as Hampta Pass and Bhrigu Lake, which Indiahikes runs from June to September.",
+                "status": "seasonal"
+              }
+            ]
+          },
+          {
+            "heading": "Before a trek",
+            "text": "Tell the local authorities (SDM, police or tourism office), hire registered guides and porters, and use licensed agencies."
+          }
+        ],
+        "checklist": [
+          "Spare day in the plan",
+          "Rain jacket and woollens",
+          "Emergency numbers: 112 and 108"
+        ]
+      },
+      "facts": [
+        "MN27",
+        "HP13",
+        "HP32",
+        "HP26",
+        "HD1",
+        "MT1",
+        "VA1",
+        "MN19",
+        "SO7",
+        "MN21",
+        "HT3",
+        "BL3",
+        "HP19",
+        "HP17",
+        "MN_112",
+        "HP15"
+      ],
+      "sources": []
+    },
+    {
+      "place": "himachal-pradesh/paragliding-in-solang",
+      "places": [
+        "himachal-pradesh/manali",
+        "himachal-pradesh/beas-river-rafting",
+        "himachal-pradesh/skiing-in-solang",
+        "himachal-pradesh/hampta-pass-trek",
+        "himachal-pradesh/bhrigu-lake-trek"
+      ],
+      "slug": "manali-adventure-safety",
+      "title": "Adventure sports in Manali: safety rules and seasons",
+      "summary": "Paragliding, rafting, skiing and treks around Manali: the official rules, when each runs, and how to choose an operator.",
+      "tripTypes": [
+        "adventure"
+      ],
+      "seoTitle": "Manali Adventure Sports: Safety Rules and Seasons",
+      "seoDescription": "Paragliding, rafting, skiing and treks near Manali: licensed operators, the Class II rafting limit, the monsoon closure, trek rules and seasons.",
+      "body": {
+        "intro": "Manali is one of India's adventure bases. The Himachal government sets clear rules for adventure activities — these are the ones that matter, with the season for each.",
+        "sections": [
+          {
+            "heading": "Choose a licensed operator",
+            "text": "Before any trekking, rafting or paragliding, make sure the agency is authorised by the government and holds a valid licence. Report safety violations to the Department of Tourism."
+          },
+          {
+            "heading": "Seasons at a glance",
+            "items": [
+              {
+                "title": "Paragliding",
+                "body": "Solang Valley; closed 15 July–15 September.",
+                "status": "seasonal"
+              },
+              {
+                "title": "Rafting",
+                "body": "The Beas between Manali and Kullu, in summer; closed 15 July–15 September.",
+                "status": "seasonal"
+              },
+              {
+                "title": "Skiing",
+                "body": "Solang, December to early March.",
+                "status": "seasonal"
+              },
+              {
+                "title": "Hampta Pass and Bhrigu Lake",
+                "body": "June to September (Indiahikes).",
+                "status": "seasonal"
+              }
+            ]
+          },
+          {
+            "heading": "Rafting rules",
+            "text": "Joy-ride rafting is not permitted above Class II rapids in Himachal, and each rafter goes with a qualified instructor."
+          },
+          {
+            "heading": "Trek rules",
+            "text": "Tell the SDM, police or tourism office before a high-altitude trek and hire only registered guides and porters. Vehicles heading towards Hamta need a one-day online pass."
+          },
+          {
+            "heading": "Learn properly",
+            "text": "The Atal Bihari Vajpayee Institute of Mountaineering and Allied Sports in Manali, founded in 1961, runs basic to advanced courses in mountaineering, climbing, trekking, rafting and paragliding."
+          }
+        ],
+        "checklist": [
+          "Licensed operator",
+          "Check the season",
+          "Inform the authorities before a trek",
+          "Travel insurance"
+        ]
+      },
+      "facts": [
+        "HP17",
+        "HP33",
+        "PG1",
+        "MN27",
+        "RF1",
+        "MN2",
+        "SK1",
+        "HT3",
+        "BL3",
+        "HP18",
+        "RF2",
+        "HP19",
+        "RO14",
+        "MN28"
       ],
       "sources": []
     }

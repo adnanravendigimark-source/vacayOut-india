@@ -2,6 +2,7 @@
 
 import { useActionState, useState } from "react";
 import { TRIP_TYPES } from "@/lib/places/trip-types";
+import { ACTIVITY_CATEGORIES } from "@/lib/places/categories";
 import { idle } from "@/lib/admin/action-state";
 import { updateDetailsAction } from "@/app/admin/(protected)/places/actions";
 import { CoordinateLookup } from "./coordinate-lookup";
@@ -22,6 +23,7 @@ type Place = {
   featured: boolean;
   tripTypes: string[];
   suggestedTripTypes: string[];
+  category?: string | null;
 };
 
 export function DetailsForm({ place }: { place: Place }) {
@@ -75,6 +77,15 @@ export function DetailsForm({ place }: { place: Place }) {
               <option value="parent_section">A section inside its parent’s page</option>
             </select>
             {published ? <input type="hidden" name="displayMode" value={place.displayMode} /> : null}
+          </div>
+        ) : null}
+        {place.kind === "activity" ? (
+          <div>
+            <label htmlFor="category" className="text-sm font-medium">Things-to-do category</label>
+            <select id="category" name="category" defaultValue={place.category ?? ""} className={inputClass}>
+              <option value="">Not set</option>
+              {ACTIVITY_CATEGORIES.map((c) => <option key={c.key} value={c.key}>{c.label}</option>)}
+            </select>
           </div>
         ) : null}
         <label className="flex items-center gap-2 self-end pb-2 text-sm font-medium">

@@ -3,7 +3,7 @@
 import { useActionState, useState } from "react";
 import { idle } from "@/lib/admin/action-state";
 import type { SectionBody, SectionSource } from "@/lib/db/schema";
-import type { SectionShape } from "@/lib/places/sections";
+import { ITEM_STATUSES, ITEM_STATUS_LABEL, type SectionShape } from "@/lib/places/sections";
 import { reopenSectionAction, saveSectionAction } from "@/app/admin/(protected)/places/actions";
 import { clearSectionSourcesAction } from "@/app/admin/(protected)/research/actions";
 import { buttonClass, Notice, secondaryButtonClass, StatusBadge, textareaClass } from "./ui";
@@ -22,8 +22,10 @@ type Props = {
   children?: React.ReactNode;
 };
 
-function FaqFields({ initial, labels = { title: "Question", body: "Answer", add: "Add question" } }: { initial: { title?: string; body: string }[]; labels?: { title: string; body: string; add: string } }) {
-  const [rows, setRows] = useState(initial.length ? initial : [{ title: "", body: "" }]);
+type Row = { title?: string; body: string; status?: string };
+
+function FaqFields({ initial, labels = { title: "Question", body: "Answer", add: "Add question" }, withStatus = false }: { initial: Row[]; labels?: { title: string; body: string; add: string }; withStatus?: boolean }) {
+  const [rows, setRows] = useState<Row[]>(initial.length ? initial : [{ title: "", body: "" }]);
   return (
     <div className="space-y-3">
       {rows.map((r, i) => (
@@ -32,6 +34,15 @@ function FaqFields({ initial, labels = { title: "Question", body: "Answer", add:
           <input id={`q-${i}`} name="q" defaultValue={r.title} maxLength={500} className="mt-1 h-9 w-full rounded-md border border-line px-2 text-sm" />
           <label className="mt-2 block text-xs font-medium text-muted" htmlFor={`a-${i}`}>{labels.body}</label>
           <textarea id={`a-${i}`} name="a" defaultValue={r.body} rows={2} maxLength={2000} className="mt-1 w-full rounded-md border border-line px-2 py-1.5 text-sm" />
+          {withStatus ? (
+            <>
+              <label className="mt-2 block text-xs font-medium text-muted" htmlFor={`st-${i}`}>Badge</label>
+              <select id={`st-${i}`} name="st" defaultValue={r.status ?? ""} className="mt-1 h-9 rounded-md border border-line px-2 text-sm">
+                <option value="">None (advice or description)</option>
+                {ITEM_STATUSES.map((s) => <option key={s} value={s}>{ITEM_STATUS_LABEL[s]}</option>)}
+              </select>
+            </>
+          ) : null}
         </div>
       ))}
       <button type="button" onClick={() => setRows([...rows, { title: "", body: "" }])} className="text-sm font-semibold underline underline-offset-4">
@@ -59,7 +70,10 @@ export function SectionEditor(p: Props) {
         {p.shape === "text" ? (
           <textarea name="text" rows={6} maxLength={6000} defaultValue={p.body?.text ?? ""} aria-label={p.label} className={textareaClass} />
         ) : p.shape === "list" ? (
-          <textarea name="items" rows={6} defaultValue={items.map((i) => i.body).join("\n")} aria-label={`${p.label}, one per line`} className={textareaClass} />
+          <>
+            <textarea name="items" rows={6} defaultValue={items.map((i) => (i.status ? `[${i.status}] ${i.body}` : i.body)).join("\n")} aria-label={`${p.label}, one per line`} className={textareaClass} />
+            <p className="text-xs text-muted">Start a line with [verified], [seasonal], [estimate] or [unconfirmed] to show a badge.</p>
+          </>
         ) : p.shape === "days" ? (
           <FaqFields initial={items} labels={{ title: "Day", body: "Plan", add: "Add day" }} />
         ) : p.shape === "budget" ? (
@@ -71,7 +85,7 @@ export function SectionEditor(p: Props) {
             <FaqFields initial={items} labels={{ title: "Cost item", body: "Amount and what it’s based on", add: "Add cost line" }} />
           </>
         ) : (
-          <FaqFields initial={items} />
+          <FaqFields initial={items} withStatus={p.shape === "pairs"} labels={p.shape === "pairs" ? { title: "Label", body: "Details", add: "Add row" } : undefined} />
         )}
         <Notice state={state} />
         <div className="flex flex-wrap gap-2">

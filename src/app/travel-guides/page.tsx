@@ -22,7 +22,10 @@ export const metadata: Metadata = {
   },
 };
 
-export default async function Page() {
+type Props = { searchParams: Promise<Record<string, string | string[] | undefined>> };
+
+export default async function Page({ searchParams }: Props) {
+  const { tab } = await searchParams;
   const data = await travelGuidesData();
   const jsonLd = {
     "@context": "https://schema.org",
@@ -39,7 +42,7 @@ export default async function Page() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd).replace(/</g, "\\u003c") }}
       />
-      <TravelGuidesPage data={data} hero={PAGE_HEROES.travelGuides} />
+      <TravelGuidesPage data={data} hero={PAGE_HEROES.travelGuides} initialTab={tab === "articles" || tab === "destinations" ? tab : undefined} />
     </>
   );
 }

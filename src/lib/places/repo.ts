@@ -202,6 +202,8 @@ export async function listDirectory() {
       kind: places.kind,
       slug: places.slug,
       stateId: places.stateId,
+      parentId: places.parentId,
+      category: places.category,
       featured: places.featured,
       tripTypes: places.tripTypes,
       snapshot: placeVersions.snapshot,

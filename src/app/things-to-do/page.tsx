@@ -22,7 +22,11 @@ export const metadata: Metadata = {
   },
 };
 
-export default async function Page() {
+type Props = { searchParams: Promise<Record<string, string | string[] | undefined>> };
+const one = (v: string | string[] | undefined) => (typeof v === "string" && v.length <= 120 ? v : undefined);
+
+export default async function Page({ searchParams }: Props) {
+  const sp = await searchParams;
   const data = await thingsToDoData();
   const jsonLd = {
     "@context": "https://schema.org",
@@ -39,7 +43,7 @@ export default async function Page() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd).replace(/</g, "\\u003c") }}
       />
-      <ThingsToDoPage data={data} hero={PAGE_HEROES.thingsToDo} />
+      <ThingsToDoPage data={data} hero={PAGE_HEROES.thingsToDo} initial={{ state: one(sp.state), destination: one(sp.destination), category: one(sp.category) }} />
     </>
   );
 }

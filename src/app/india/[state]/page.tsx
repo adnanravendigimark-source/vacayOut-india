@@ -3,7 +3,7 @@ import { notFound, permanentRedirect } from "next/navigation";
 import { PlacePage } from "@/components/place/place-page";
 import { SLUG_RE } from "@/lib/places/slug";
 import { findRedirect, getPublishedState, listInlineChildren, listPublishedChildren, listPublishedRelated } from "@/lib/places/repo";
-import { listPublishedItinerariesForPlace } from "@/lib/itineraries/service";
+import { placeRollup } from "@/lib/places/rollup";
 
 // Rendered on first request, cached, and refreshed when an admin publishes.
 export const revalidate = 3600;
@@ -38,6 +38,6 @@ export default async function StatePage({ params }: Params) {
     if (to) permanentRedirect(to);
     notFound();
   }
-  const [items, inline, related, itineraries] = await Promise.all([listPublishedChildren(p.id), listInlineChildren(p.id), listPublishedRelated(p.id), listPublishedItinerariesForPlace(p.id)]);
-  return <PlacePage snapshot={p.snapshot} items={items} inline={inline} related={related} stateSlug={state} tripTypes={p.tripTypes} itineraries={itineraries} />;
+  const [items, inline, related, rollup] = await Promise.all([listPublishedChildren(p.id), listInlineChildren(p.id), listPublishedRelated(p.id), placeRollup({ id: p.id, slug: p.snapshot.place.slug, kind: p.snapshot.place.kind }, state)]);
+  return <PlacePage snapshot={p.snapshot} items={items} inline={inline} related={related} stateSlug={state} tripTypes={p.tripTypes} rollup={rollup} />;
 }

@@ -6,6 +6,9 @@ import { TRIP_TYPES } from "@/lib/places/trip-types";
 import { matchRegion } from "@/lib/places/states";
 import { MIN_WORDS, countWords } from "@/lib/places/publish";
 import { stopRef, validateItinerary } from "@/lib/itineraries/plan";
+import { validateGuide } from "@/lib/guides/body";
+import { ACTIVITY_CATEGORIES } from "@/lib/places/categories";
+import { ITEM_STATUSES } from "@/lib/places/sections";
 
 /**
  * Format of the researched content files in content/travel/*.json, which the
@@ -56,7 +59,7 @@ const fact = z
 const sectionInput = z
   .object({
     text: z.string().optional(),
-    items: z.array(z.object({ title: z.string().optional(), body: z.string() }).strict()).optional(),
+    items: z.array(z.object({ title: z.string().optional(), body: z.string(), status: z.enum(ITEM_STATUSES).optional() }).strict()).optional(),
     facts: z.array(z.string()).default([]),
   })
   .strict();
@@ -86,6 +89,8 @@ const place = z
     wikidataId: z.string().regex(/^Q\d+$/).optional(),
     displayMode: z.enum(["page", "parent_section"]).default("page"),
     featured: z.boolean().default(false),
+    /** Activities only: Things-to-do category. */
+    category: z.enum(ACTIVITY_CATEGORIES.map((c) => c.key) as [string, ...string[]]).optional(),
     tripTypes: z.array(z.enum(TYPE_KEYS)).max(5).default([]),
     images: z.array(image).max(6).default([]),
     sections: z.record(z.string(), sectionInput).default({}),
@@ -109,6 +114,24 @@ const itinerary = z
   })
   .strict();
 
+const guide = z
+  .object({
+    /** Main place: its facts back the guide. */
+    place: placeKey,
+    /** Every place page the guide should appear on (the main place is included automatically). */
+    places: z.array(placeKey).max(30).default([]),
+    slug: z.string(),
+    title: z.string(),
+    summary: z.string(),
+    tripTypes: z.array(z.string()).default([]),
+    seoTitle: z.string(),
+    seoDescription: z.string(),
+    body: z.unknown(),
+    facts: z.array(z.string()).default([]),
+    sources: z.array(z.string()).default([]),
+  })
+  .strict();
+
 export const contentFileSchema = z
   .object({
     cluster: z.string().regex(SLUG_RE),
@@ -121,6 +144,7 @@ export const contentFileSchema = z
     /** Empty for route files (content/travel/routes/), which only hold multi-destination itineraries. */
     places: z.array(place).default([]),
     itineraries: z.array(itinerary).default([]),
+    guides: z.array(guide).default([]),
   })
   .strict();
 
@@ -153,7 +177,7 @@ export function checkContentFile(raw: unknown, knownPlaceKeys: Set<string> = new
   if (!parsed.success) return { ok: false, problems: parsed.error.issues.slice(0, 20).map((i) => `${i.path.join(".")}: ${i.message}`) };
   const f = parsed.data;
   const problems: string[] = [];
-  if (!f.places.length && !f.itineraries.length) problems.push("the file has no places and no itineraries");
+  if (!f.places.length && !f.itineraries.length && !f.guides.length) problems.push("the file has no places and no itineraries");
   const keys = new Set([...knownPlaceKeys, ...f.places.map((p) => p.key)]);
 
   for (const [id, fc] of Object.entries(f.facts)) {
@@ -167,6 +191,7 @@ export function checkContentFile(raw: unknown, knownPlaceKeys: Set<string> = new
     if (seen.has(p.key)) problems.push(`duplicate place ${p.key}`);
     seen.add(p.key);
     const isState = p.kind === "state";
+    if ((p.kind === "activity") !== Boolean(p.category)) problems.push(`${p.key}: activities need a category, other places none`);
     if (isState !== !p.key.includes("/")) problems.push(`${p.key}: states use "<slug>", other places "<state>/<slug>"`);
     if (!SLUG_RE.test(slugOf(p.key))) problems.push(`${p.key}: invalid slug`);
     if (isState && !matchRegion(p.name)) problems.push(`${p.key}: "${p.name}" isn't an Indian state/UT name`);
@@ -212,8 +237,19 @@ export function checkContentFile(raw: unknown, knownPlaceKeys: Set<string> = new
     for (const id of it.facts) if (!f.facts[id]) problems.push(`itinerary ${it.slug}: unknown fact ${id}`);
     for (const id of it.sources) if (!f.sources[id]) problems.push(`itinerary ${it.slug}: unknown source ${id}`);
   }
+  const guideSlugs = new Set<string>();
+  for (const g of f.guides) {
+    if (guideSlugs.has(g.slug)) problems.push(`duplicate guide ${g.slug}`);
+    guideSlugs.add(g.slug);
+    if (!keys.has(g.place)) problems.push(`guide ${g.slug}: unknown place ${g.place}`);
+    for (const k of g.places) if (!keys.has(k)) problems.push(`guide ${g.slug}: unknown linked place ${k}`);
+    const v = validateGuide({ slug: g.slug, title: g.title, summary: g.summary, tripTypes: g.tripTypes, seoTitle: g.seoTitle, seoDescription: g.seoDescription, body: g.body });
+    if (!v.ok) problems.push(`guide ${g.slug}: ${v.error}`);
+    for (const id of g.facts) if (!f.facts[id]) problems.push(`guide ${g.slug}: unknown fact ${id}`);
+    for (const id of g.sources) if (!f.sources[id]) problems.push(`guide ${g.slug}: unknown source ${id}`);
+  }
   // Every fact should be used somewhere, otherwise it's research nobody reviews in context.
-  const used = new Set([...f.places.flatMap((p) => Object.values(p.sections).flatMap((s) => s.facts)), ...f.itineraries.flatMap((i) => i.facts)]);
+  const used = new Set([...f.places.flatMap((p) => Object.values(p.sections).flatMap((s) => s.facts)), ...f.itineraries.flatMap((i) => i.facts), ...f.guides.flatMap((g) => g.facts)]);
   for (const id of Object.keys(f.facts)) if (!used.has(id)) problems.push(`fact ${id} isn't cited by any section or itinerary`);
   return problems.length ? { ok: false, problems } : { ok: true, file: f };
 }

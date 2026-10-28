@@ -63,6 +63,14 @@ export const sectionKey = pgEnum("section_key", [
   "culture_etiquette",
   "practical_info",
   "safety_health",
+  // Shared page template (migration 0008).
+  "key_facts",
+  "regions",
+  "neighbourhoods",
+  "who_its_for",
+  "shopping",
+  "accessibility",
+  "common_mistakes",
 ]);
 
 export const sectionStatus = pgEnum("section_status", ["draft", "approved"]);
@@ -130,6 +138,8 @@ export const places = pgTable(
     status: placeStatus("status").notNull().default("draft"),
     displayMode: displayMode("display_mode").notNull().default("page"),
     featured: boolean("featured").notNull().default(false),
+    /** Activities only: Things-to-do category (see src/lib/places/categories.ts). */
+    category: text("category"),
     /** Editor-confirmed trip types (see src/lib/places/trip-types.ts). */
     tripTypes: text("trip_types").array().notNull().default(sql`'{}'::text[]`),
     /** Types suggested by generation; shown to the editor, never public. */
@@ -258,6 +268,54 @@ export const itineraries = pgTable(
     index("itineraries_status_idx").on(t.status),
     check("itineraries_days_range", sql`${t.durationDays} between 1 and 21`),
   ],
+);
+
+/**
+ * Travel guide articles (how-tos, planning and seasonal guides). Same rules as
+ * itineraries: they cite research findings, drafts stay in the admin, and
+ * public pages read ONLY `publishedSnapshot`. The body shape is validated in
+ * src/lib/guides/body.ts. `placeId` is the main place (its findings back the
+ * guide); travel_guide_places lists every place the guide is about.
+ */
+export const travelGuides = pgTable(
+  "travel_guides",
+  {
+    id: uuid("id").primaryKey().defaultRandom(),
+    slug: text("slug").notNull(),
+    placeId: uuid("place_id")
+      .notNull()
+      .references(() => places.id, { onDelete: "restrict" }),
+    title: text("title").notNull(),
+    summary: text("summary").notNull(),
+    body: jsonb("body").$type<GuideBody>().notNull(),
+    tripTypes: text("trip_types").array().notNull().default(sql`'{}'::text[]`),
+    seoTitle: text("seo_title"),
+    seoDescription: text("seo_description"),
+    heroMediaId: uuid("hero_media_id").references((): AnyPgColumn => media.id, { onDelete: "set null" }),
+    sources: jsonb("sources").$type<SectionSource[]>().notNull().default([]),
+    findingIds: jsonb("finding_ids").$type<string[]>().notNull().default([]),
+    status: placeStatus("status").notNull().default("draft"),
+    locked: boolean("locked").notNull().default(false),
+    publishedSnapshot: jsonb("published_snapshot").$type<GuideSnapshot>(),
+    publishedAt: timestamp("published_at", { withTimezone: true }),
+    publishedBy: uuid("published_by").references(() => users.id),
+    createdBy: uuid("created_by").references(() => users.id),
+    ...timestamps,
+  },
+  (t) => [uniqueIndex("travel_guides_slug_idx").on(t.slug), index("travel_guides_place_idx").on(t.placeId), index("travel_guides_status_idx").on(t.status)],
+);
+
+export const travelGuidePlaces = pgTable(
+  "travel_guide_places",
+  {
+    guideId: uuid("guide_id")
+      .notNull()
+      .references(() => travelGuides.id, { onDelete: "cascade" }),
+    placeId: uuid("place_id")
+      .notNull()
+      .references(() => places.id, { onDelete: "cascade" }),
+  },
+  (t) => [primaryKey({ columns: [t.guideId, t.placeId] }), index("travel_guide_places_place_idx").on(t.placeId)],
 );
 
 /** Permanent redirects for URLs that changed after being published. */
@@ -656,9 +714,36 @@ export type WebFact = { claim: string; claimType: string; sources: SectionSource
 
 // ---------- JSON shapes (validated in src/lib/places/sections.ts) ----------
 
+/** How sure a line is: shown as a badge. Absent = plain advice or description. */
+export type ItemStatus = "verified" | "seasonal" | "estimate" | "unconfirmed";
+
 export type SectionBody = {
   text?: string;
-  items?: { title?: string; body: string }[];
+  items?: { title?: string; body: string; status?: ItemStatus }[];
+};
+
+export type GuideBody = {
+  /** Who the guide is for and what it answers. */
+  intro: string;
+  sections: { heading: string; text?: string; items?: { title?: string; body: string; status?: ItemStatus }[] }[];
+  /** Optional checklist shown at the end. */
+  checklist?: string[];
+};
+
+export type GuideSnapshot = {
+  slug: string;
+  title: string;
+  summary: string;
+  tripTypes: string[];
+  seoTitle: string;
+  seoDescription: string;
+  body: GuideBody;
+  sources: SectionSource[];
+  hero: SnapshotImage | null;
+  /** The place whose findings back the guide. */
+  place: { name: string; slug: string; kind: string; stateSlug: string | null; stateName: string | null; path: string | null };
+  /** Every linked place, frozen at publish (links are resolved again on render). */
+  places: { name: string; slug: string; kind: string; stateSlug: string | null }[];
 };
 
 export type SnapshotImage = {
@@ -712,6 +797,8 @@ export type PublishedSnapshot = {
     parent: { name: string; slug: string; kind: string } | null;
     displayMode: "page" | "parent_section";
     hero: SnapshotImage | null;
+    /** Activities only. */
+    category?: string | null;
   };
   sections: { key: string; body: SectionBody; sources?: SectionSource[] }[];
 };

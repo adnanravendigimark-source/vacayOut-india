@@ -1,5 +1,5 @@
 import { z } from "zod";
-import type { SectionBody } from "@/lib/db/schema";
+import type { ItemStatus, SectionBody } from "@/lib/db/schema";
 
 /**
  * Definition of every destination-page section: how it is edited and what
@@ -25,6 +25,13 @@ export const SECTION_DEFS = [
   { key: "culture_etiquette", label: "Culture and etiquette", shape: "list", required: false, help: "Customs, dress, photography and religious-site etiquette. One per line." },
   { key: "practical_info", label: "Practical information", shape: "pairs", required: false, help: "Money and payments, connectivity, language, what to wear and pack, permits." },
   { key: "safety_health", label: "Safety and health", shape: "pairs", required: false, help: "Safety, health precautions, common scams, accessibility and emergency numbers." },
+  { key: "key_facts", label: "Key facts", shape: "pairs", required: false, help: "Up to 4 short facts for the top of the page: label, then value (e.g. Altitude / About 2,050 m). Mark each verified, seasonal or estimate." },
+  { key: "regions", label: "Regions", shape: "pairs", required: false, help: "States: each region and what it's known for." },
+  { key: "neighbourhoods", label: "Neighbourhoods and areas", shape: "pairs", required: false, help: "Each area of the town and who it suits." },
+  { key: "who_its_for", label: "Who it suits", shape: "pairs", required: false, help: "Families, couples, solo, adventure, first-time or international visitors — one line each." },
+  { key: "shopping", label: "Shopping and markets", shape: "list", required: false, help: "Markets and what to buy. One per line." },
+  { key: "accessibility", label: "Accessibility", shape: "pairs", required: false, help: "Step-free access, terrain, altitude, facilities — only what a source states." },
+  { key: "common_mistakes", label: "Common mistakes", shape: "list", required: false, help: "Mistakes visitors make and how to avoid them. One per line." },
 ] as const satisfies readonly { key: string; label: string; shape: SectionShape; required: boolean; help: string }[];
 
 export type SectionKey = (typeof SECTION_DEFS)[number]["key"];
@@ -37,9 +44,13 @@ export function sectionDef(key: string) {
 const text = z.string().trim().min(1).max(6000);
 const line = z.string().trim().min(1).max(500);
 
+export const ITEM_STATUSES = ["verified", "seasonal", "estimate", "unconfirmed"] as const satisfies readonly ItemStatus[];
+export const ITEM_STATUS_LABEL: Record<ItemStatus, string> = { verified: "Verified", seasonal: "Seasonal", estimate: "Estimate", unconfirmed: "Unconfirmed" };
+const status = z.enum(ITEM_STATUSES).optional();
+
 const shapes = {
   text: z.object({ text }).strict(),
-  list: z.object({ items: z.array(z.object({ body: line }).strict()).min(1).max(30) }).strict(),
+  list: z.object({ items: z.array(z.object({ body: line, status }).strict()).min(1).max(30) }).strict(),
   faq: z
     .object({ items: z.array(z.object({ title: line, body: z.string().trim().min(1).max(2000) }).strict()).min(1).max(20) })
     .strict(),
@@ -47,7 +58,7 @@ const shapes = {
     .object({ items: z.array(z.object({ title: z.string().trim().min(1).max(120), body: z.string().trim().min(1).max(2000) }).strict()).min(1).max(10) })
     .strict(),
   pairs: z
-    .object({ items: z.array(z.object({ title: line, body: z.string().trim().min(1).max(2000) }).strict()).min(1).max(20) })
+    .object({ items: z.array(z.object({ title: line, body: z.string().trim().min(1).max(2000), status }).strict()).min(1).max(20) })
     .strict(),
   budget: z
     .object({
@@ -71,18 +82,26 @@ export function bodyFromForm(key: string, form: FormData): unknown {
   if (!def) return null;
   if (def.shape === "text") return { text: String(form.get("text") ?? "") };
   if (def.shape === "list") {
+    // A line may start with a status tag, e.g. "[seasonal] Snow from December".
     const items = String(form.get("items") ?? "")
       .split(/\r?\n/)
       .map((s) => s.trim())
       .filter(Boolean)
-      .map((body) => ({ body }));
+      .map((line) => {
+        const m = /^\[(verified|seasonal|estimate|unconfirmed)\]\s*(.+)$/i.exec(line);
+        return m ? { body: m[2], status: m[1].toLowerCase() as ItemStatus } : { body: line };
+      });
     return { items };
   }
   // faq, days, pairs and budget all use title/body rows; budget also has assumptions text.
   const qs = form.getAll("q").map(String);
   const as = form.getAll("a").map(String);
+  const ss = form.getAll("st").map(String);
   const items = qs
-    .map((q, i) => ({ title: q.trim(), body: (as[i] ?? "").trim() }))
+    .map((q, i) => {
+      const st = (ITEM_STATUSES as readonly string[]).includes(ss[i] ?? "") ? (ss[i] as ItemStatus) : undefined;
+      return { title: q.trim(), body: (as[i] ?? "").trim(), ...(st && def.shape === "pairs" ? { status: st } : {}) };
+    })
     .filter((it) => it.title || it.body);
   if (def.shape === "budget") return { text: String(form.get("text") ?? ""), items };
   return { items };
