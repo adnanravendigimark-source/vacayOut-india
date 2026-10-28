@@ -12,7 +12,7 @@ import { TRIP_TYPES } from "@/lib/places/trip-types";
 import type { PlaceRollup, RollupPlace } from "@/lib/places/rollup";
 import { PlaceMap } from "@/components/map/place-map";
 import { ActivityGrid, type ActivityCard } from "./activity-grid";
-import { BudgetTable, CheckList, DaysTimeline, FaqList, HighlightCards, PairsList, SectionBody, StatusPill, TextBody } from "./section-body";
+import { CheckList, DaysTimeline, FaqList, HighlightCards, SectionBody, StatusPill, TextBody } from "./section-body";
 import { SectionTabs } from "./section-tabs";
 import { Accordion, AskBox, FilterGrid, HashDialogs, Rail, ReadMore, Tabs } from "./interactive";
 
@@ -132,6 +132,93 @@ function LocalPanel({ s, title, icon, tone, wide = false }: { s: PublishedSnapsh
   );
 }
 
+/** White panel with a heading, used inside the planning tabs. */
+function PlanPanel({ icon, title, children }: { icon: Name; title: string; children: React.ReactNode }) {
+  return (
+    <div className="rounded-2xl border border-line bg-white p-4 @xl:p-6">
+      <h3 className="mb-4 flex items-center gap-2.5 font-serif text-lg font-medium text-ink">
+        <span className="flex size-9 items-center justify-center rounded-xl bg-[#EEF4F0] text-[#2D5A3F]"><Icon name={icon} size={17} /></span>
+        {title}
+      </h3>
+      {children}
+    </div>
+  );
+}
+
+/** Icon for a practical / safety / accessibility heading. */
+function infoIcon(title: string): Name {
+  const t = title.toLowerCase();
+  if (/visa|passport|permit|document/.test(t)) return "fileText";
+  if (/money|cash|pay|atm|upi|currency/.test(t)) return "coins";
+  if (/network|mobile|internet|sim|phone/.test(t)) return "chat";
+  if (/emergenc|police|ambulance|hospital|health|medical/.test(t)) return "shield";
+  if (/monsoon|rain|river|flood/.test(t)) return "waves";
+  if (/weather|snow|season/.test(t)) return "sun";
+  if (/altitude|height|trek|mountain/.test(t)) return "mountain";
+  if (/road|drive|driving|taxi|transport|path|walk/.test(t)) return "car";
+  if (/language/.test(t)) return "chat";
+  if (/law|drug|rule|ban|plastic/.test(t)) return "help";
+  if (/food|water|drink/.test(t)) return "utensils";
+  return "checkCircle";
+}
+
+/** Titled items (practical info, safety, accessibility) as a grid of cards with their status badges. */
+function InfoCards({ s, highlightFirst = false }: { s: PublishedSnapshot["sections"][number]; highlightFirst?: boolean }) {
+  return (
+    <ul className="grid gap-3 @xl:grid-cols-2">
+      {(s.body.items ?? []).map((it, i) => {
+        const hl = highlightFirst && i === 0;
+        return (
+          <li key={i} className={`flex gap-3 rounded-xl border p-4 ${hl ? "border-[#F2C9BD] bg-[#FDF3EF] @xl:col-span-2" : "border-line-subtle bg-[#FBFAF7]"}`}>
+            <span className={`flex size-9 shrink-0 items-center justify-center rounded-lg ${hl ? "bg-[#E8826A] text-white" : "bg-white text-[#2D5A3F] shadow-sm"}`}><Icon name={infoIcon(it.title ?? "")} size={16} /></span>
+            <div className="min-w-0">
+              <p className="flex flex-wrap items-center gap-2 text-sm font-semibold text-ink">{it.title}<StatusPill status={it.status} /></p>
+              <p className="mt-1 text-[0.8125rem] leading-relaxed text-[#555]">{it.body}</p>
+            </div>
+          </li>
+        );
+      })}
+    </ul>
+  );
+}
+
+/** Fees as cards: what it is, the amount as published, and the section's note. */
+function BudgetCards({ s }: { s: PublishedSnapshot["sections"][number] }) {
+  return (
+    <div className="space-y-4">
+      <p className="flex gap-2 rounded-xl bg-[#FBF4E6] px-4 py-3 text-[0.8125rem] leading-relaxed text-[#6B4A12]"><Icon name="bulb" size={16} className="mt-0.5 shrink-0" /><span>{s.body.text ? `${s.body.text} ` : ""}Prices change — check current rates before you travel.</span></p>
+      <ul className="grid gap-3 @xl:grid-cols-2">
+        {(s.body.items ?? []).map((it, i) => {
+          const unknown = /not confirmed|not published|ask /i.test(it.body);
+          return (
+            <li key={i} className="flex flex-col rounded-xl border border-line-subtle bg-[#FBFAF7] p-4">
+              <span className="flex items-start justify-between gap-2 text-[0.8125rem] font-medium text-[#555]">{it.title}<StatusPill status={it.status} /></span>
+              <span className={`mt-1.5 leading-snug ${unknown ? "text-sm text-[#777]" : "text-[0.9375rem] font-semibold text-ink"}`}>{it.body}</span>
+            </li>
+          );
+        })}
+      </ul>
+    </div>
+  );
+}
+
+/** Paragraphs as small cards with an icon picked from their opening words. */
+function ParagraphCards({ text }: { text: string }) {
+  const paras = text.split(/\n{2,}/).map((p) => p.trim()).filter(Boolean);
+  const pick = (p: string): Name => (/^on foot|walk/i.test(p) ? "route" : /bus/i.test(p.slice(0, 40)) ? "bus" : /driv|car|park/i.test(p.slice(0, 40)) ? "car" : /taxi/i.test(p.slice(0, 40)) ? "car" : "compass");
+  if (paras.length < 2) return <div className="space-y-3 text-[0.9375rem] leading-[1.7] text-[#444]">{paras.map((p, i) => <p key={i}>{p}</p>)}</div>;
+  return (
+    <ul className="space-y-3">
+      {paras.map((p, i) => (
+        <li key={i} className="flex gap-3 rounded-xl border border-line-subtle bg-[#FBFAF7] p-4">
+          <span className="flex size-9 shrink-0 items-center justify-center rounded-lg bg-white text-[#2D5A3F] shadow-sm"><Icon name={pick(p)} size={16} /></span>
+          <p className="text-sm leading-relaxed text-[#444]">{p}</p>
+        </li>
+      ))}
+    </ul>
+  );
+}
+
 /** Icon for a key-fact label. */
 function factIcon(label: string): Name {
   const l = label.toLowerCase();
@@ -158,7 +245,7 @@ function RouteCards({ text }: { text: string }) {
   return (
     <ul className="grid gap-3 @xl:grid-cols-2">
       {cards.map((c) => c && (
-        <li key={c.label} className="flex gap-3 rounded-2xl border border-line bg-white p-4 transition hover:-translate-y-0.5 hover:shadow-card">
+        <li key={c.label} className="flex gap-3 rounded-xl border border-line-subtle bg-[#FBFAF7] p-4">
           <span className="flex size-10 shrink-0 items-center justify-center rounded-xl bg-[#EEF4F0] text-[#2D5A3F]"><Icon name={ICONS[c.mode] ?? "route"} size={19} /></span>
           <div className="min-w-0">
             <p className="text-sm font-semibold capitalize text-ink">{c.label}</p>
@@ -171,14 +258,6 @@ function RouteCards({ text }: { text: string }) {
 }
 
 
-function Panel({ icon, children }: { icon: Name; children: React.ReactNode }) {
-  return (
-    <div className="flex gap-4 rounded-2xl border border-line bg-white p-5">
-      <span className="hidden size-10 shrink-0 items-center justify-center rounded-xl bg-coral/10 text-coral @xl:flex"><Icon name={icon} size={19} /></span>
-      <div className="min-w-0 flex-1">{children}</div>
-    </div>
-  );
-}
 
 /** Photo card for a place in the rollup. */
 function PlaceCard({ p, href, meta }: { p: { name: string; summary: string | null; hero: SnapshotImage | null }; href: string | null; meta: string }) {
@@ -350,16 +429,33 @@ export function PlacePage({
   const inlinePlaces = inline.filter((c) => c.snapshot.place.kind !== "activity");
   const placesCount = attractions.length + inlinePlaces.length;
 
+  const stayLink = booking.find((b) => b.icon === "hotel" || /stay/i.test(b.label));
   const planTabs = [
-    bestTime ? { id: "best", label: "Seasons", content: <Panel icon="calendar"><TextBody s={bestTime} /></Panel> } : null,
-    howToReach ? { id: "reach", label: "Getting there", content: <RouteCards text={howToReach.body.text ?? ""} /> } : null,
-    localTransport ? { id: "around", label: "Getting around", content: <Panel icon="car"><TextBody s={localTransport} /></Panel> } : null,
-    whereToStay ? { id: "stay", label: "Where to stay", content: <Panel icon="bed"><TextBody s={whereToStay} /></Panel> } : null,
-    budget ? { id: "budget", label: "Budget", content: <BudgetTable s={budget} /> } : null,
-    practical ? { id: "practical", label: "Practical info", content: <Accordion items={(practical.body.items ?? []).map((it) => ({ title: it.title ?? "", body: it.body, badge: <StatusPill status={it.status} /> }))} /> } : null,
-    safety ? { id: "safety", label: "Safety", content: <Accordion items={(safety.body.items ?? []).map((it) => ({ title: it.title ?? "", body: it.body, badge: <StatusPill status={it.status} /> }))} /> } : null,
-    accessibility ? { id: "access", label: "Accessibility", content: <PairsList s={accessibility} /> } : null,
-    tips || mistakes ? { id: "tips", label: "Tips", content: <div className="grid gap-4 @3xl:grid-cols-2">{tips ? <Panel icon="sparkles"><p className="mb-3 text-sm font-semibold text-ink">Travel tips</p><CheckList s={tips} /></Panel> : null}{mistakes ? <Panel icon="bulb"><p className="mb-3 text-sm font-semibold text-ink">Mistakes to avoid</p><CheckList s={mistakes} /></Panel> : null}</div> } : null,
+    bestTime ? { id: "best", label: "Seasons", hint: "When to go", icon: <Icon name="calendar" size={16} />, content: <PlanPanel icon="calendar" title={`When to visit ${place.name}`}><TextBody s={bestTime} /></PlanPanel> } : null,
+    howToReach ? { id: "reach", label: "Getting there", hint: "Air, bus, train, car", icon: <Icon name="plane" size={16} />, content: <PlanPanel icon="plane" title={`How to reach ${place.name}`}><RouteCards text={howToReach.body.text ?? ""} /></PlanPanel> } : null,
+    localTransport ? { id: "around", label: "Getting around", hint: "Taxis, buses, on foot", icon: <Icon name="car" size={16} />, content: <PlanPanel icon="car" title={`Getting around ${place.name}`}><ParagraphCards text={localTransport.body.text ?? ""} /></PlanPanel> } : null,
+    whereToStay ? {
+      id: "stay", label: "Where to stay", hint: "Best bases", icon: <Icon name="bed" size={16} />,
+      content: (
+        <PlanPanel icon="bed" title={`Where to stay in ${place.name}`}>
+          <TextBody s={whereToStay} />
+          {(() => {
+            const refs = mentions(whereToStay.body.text ?? "");
+            return refs.length || (stayLink && !preview) ? (
+              <div className="mt-4 flex flex-wrap items-center gap-2 border-t border-line-subtle pt-4">
+                {refs.slice(0, 5).map((m) => m.href ? <Link key={m.name} href={m.href} className="inline-flex items-center gap-1 rounded-full border border-line px-3 py-1 text-xs font-medium text-[#2D5A3F] transition hover:border-[#2D5A3F]"><Icon name="pin" size={11} />{m.name}</Link> : null)}
+                {stayLink && !preview ? <a href={stayLink.href} target="_blank" rel="sponsored nofollow noopener noreferrer" className="ml-auto inline-flex items-center gap-1.5 rounded-full bg-[#2D5A3F] px-4 py-1.5 text-xs font-semibold text-white transition hover:bg-[#244A33]">Search stays on {stayLink.provider} ↗</a> : null}
+              </div>
+            ) : null;
+          })()}
+        </PlanPanel>
+      ),
+    } : null,
+    budget ? { id: "budget", label: "Budget", hint: "Official fees", icon: <Icon name="coins" size={16} />, content: <PlanPanel icon="coins" title="Fees and costs"><BudgetCards s={budget} /></PlanPanel> } : null,
+    practical ? { id: "practical", label: "Practical info", hint: "Visas, money, network", icon: <Icon name="fileText" size={16} />, content: <PlanPanel icon="fileText" title="Practical information"><InfoCards s={practical} /></PlanPanel> } : null,
+    safety ? { id: "safety", label: "Safety", hint: "Emergencies, weather", icon: <Icon name="shield" size={16} />, content: <PlanPanel icon="shield" title="Safety and health"><InfoCards s={safety} highlightFirst /></PlanPanel> } : null,
+    accessibility ? { id: "access", label: "Accessibility", hint: "Altitude, paths", icon: <Icon name="user" size={16} />, content: <PlanPanel icon="user" title="Accessibility"><InfoCards s={accessibility} /></PlanPanel> } : null,
+    tips || mistakes ? { id: "tips", label: "Tips", hint: "Do this, avoid that", icon: <Icon name="bulb" size={16} />, content: <div className="grid gap-4 @4xl:grid-cols-2">{tips ? <LocalPanel s={tips} title="Travel tips" icon="sparkles" tone="green" /> : null}{mistakes ? <LocalPanel s={mistakes} title="Mistakes to avoid" icon="bulb" tone="coral" /> : null}</div> } : null,
   ].filter((t) => t !== null);
 
   const localParts = [food ? "Food" : null, shopping ? "shopping" : null, culture ? "culture" : null].filter((x): x is string => !!x);
@@ -848,7 +944,7 @@ export function PlacePage({
           {/* 8. Detailed planning */}
           {planTabs.length ? (
             <Block id="plan" eyebrow="Practical information" title={`Plan your ${place.name} trip`}>
-              <Tabs variant="underline" label="Plan your trip" tabs={planTabs} />
+              <Tabs variant="side" label="Plan your trip" tabs={planTabs} />
             </Block>
           ) : null}
 

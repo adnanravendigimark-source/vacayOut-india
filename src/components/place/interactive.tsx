@@ -52,19 +52,57 @@ export function Rail({ children, label }: { children: ReactNode; label: string }
 }
 
 /** Accessible tabs; all panels stay in the HTML. */
-export function Tabs({ tabs, label, variant = "pills" }: { tabs: { id: string; label: string; content: ReactNode }[]; label: string; variant?: "pills" | "underline" }) {
+export function Tabs({ tabs, label, variant = "pills" }: { tabs: { id: string; label: string; content: ReactNode; icon?: ReactNode; hint?: string }[]; label: string; variant?: "pills" | "underline" | "side" }) {
   const base = useId();
   const [active, setActive] = useState(0);
   const btns = useRef<(HTMLButtonElement | null)[]>([]);
   if (!tabs.length) return null;
   const onKey = (e: KeyboardEvent) => {
-    const n = e.key === "ArrowRight" ? 1 : e.key === "ArrowLeft" ? -1 : 0;
+    const n = e.key === "ArrowRight" || e.key === "ArrowDown" ? 1 : e.key === "ArrowLeft" || e.key === "ArrowUp" ? -1 : 0;
     if (!n) return;
     e.preventDefault();
     const next = (active + n + tabs.length) % tabs.length;
     setActive(next);
     btns.current[next]?.focus();
   };
+  if (variant === "side") {
+    return (
+      <div className="grid gap-4 @3xl:grid-cols-[14rem_minmax(0,1fr)] @3xl:gap-6">
+        <div role="tablist" aria-label={label} aria-orientation="vertical" onKeyDown={onKey} className="-mx-1 flex gap-2 overflow-x-auto px-1 pb-1 [scrollbar-width:none] @3xl:mx-0 @3xl:flex-col @3xl:gap-1 @3xl:self-start @3xl:overflow-visible @3xl:rounded-2xl @3xl:border @3xl:border-line @3xl:bg-white @3xl:p-2 @3xl:pb-2">
+          {tabs.map((t, i) => {
+            const on = i === active;
+            return (
+              <button
+                key={t.id}
+                ref={(el) => { btns.current[i] = el; }}
+                type="button"
+                role="tab"
+                id={`${base}-t-${t.id}`}
+                aria-selected={on}
+                aria-controls={`${base}-p-${t.id}`}
+                tabIndex={on ? 0 : -1}
+                onClick={() => setActive(i)}
+                className={`group flex shrink-0 items-center gap-2.5 rounded-full border px-3.5 py-2 text-left text-[0.8125rem] font-medium transition-all @3xl:rounded-xl @3xl:border-transparent @3xl:px-3 @3xl:py-2.5 ${on ? "border-[#2D5A3F] bg-[#2D5A3F] text-white @3xl:border-transparent @3xl:bg-[#EEF4F0] @3xl:text-[#1F3F2C]" : "border-line bg-white text-ink hover:border-ink @3xl:bg-transparent @3xl:hover:border-transparent @3xl:hover:bg-[#F7F5F0]"}`}
+              >
+                {t.icon ? <span className={`hidden size-8 shrink-0 items-center justify-center rounded-lg transition-colors @3xl:flex ${on ? "bg-[#2D5A3F] text-white" : "bg-[#F3F0EA] text-[#555] group-hover:text-ink"}`}>{t.icon}</span> : null}
+                <span className="min-w-0">
+                  <span className="block leading-tight @3xl:text-sm @3xl:font-semibold">{t.label}</span>
+                  {t.hint ? <span className={`hidden text-xs font-normal @3xl:block ${on ? "text-[#2D5A3F]" : "text-[#888]"}`}>{t.hint}</span> : null}
+                </span>
+              </button>
+            );
+          })}
+        </div>
+        <div className="min-w-0">
+          {tabs.map((t, i) => (
+            <div key={t.id} role="tabpanel" id={`${base}-p-${t.id}`} aria-labelledby={`${base}-t-${t.id}`} hidden={i !== active} className="animate-[fadeIn_.25s_ease-out]">
+              {t.content}
+            </div>
+          ))}
+        </div>
+      </div>
+    );
+  }
   return (
     <div>
       <div role="tablist" aria-label={label} onKeyDown={onKey} className={`flex gap-2 overflow-x-auto pb-1 [scrollbar-width:none] ${variant === "underline" ? "gap-0 border-b border-line" : ""}`}>
