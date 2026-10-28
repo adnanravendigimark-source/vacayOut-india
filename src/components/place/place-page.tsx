@@ -14,7 +14,7 @@ import { PlaceMap } from "@/components/map/place-map";
 import { ActivityGrid, type ActivityCard } from "./activity-grid";
 import { BudgetTable, CheckList, DaysTimeline, FaqList, HighlightCards, PairsList, SectionBody, StatusPill, TextBody } from "./section-body";
 import { SectionTabs } from "./section-tabs";
-import { Accordion, FilterGrid, Rail, ReadMore, Tabs } from "./interactive";
+import { Accordion, AskBox, FilterGrid, HashDialogs, Rail, ReadMore, Tabs } from "./interactive";
 
 type Child = { name: string; slug: string; kind: string; summary: string | null; lat?: number | null; lng?: number | null; hero?: SnapshotImage | null; tripTypes?: string[] };
 type Inline = { slug: string; snapshot: PublishedSnapshot };
@@ -47,13 +47,126 @@ function CardCredit({ img }: { img: SnapshotImage }) {
   );
 }
 
-function Block({ id, title, intro, children, className = "" }: { id: string; title: string; intro?: string; children: React.ReactNode; className?: string }) {
+function Block({ id, title, intro, children, className = "", more, eyebrow }: { id: string; title: string; intro?: string; children: React.ReactNode; className?: string; more?: { href: string; label: string } | null; eyebrow?: string }) {
   return (
-    <section id={id} aria-labelledby={`${id}-h`} className={`scroll-mt-20 ${className}`}>
-      <h2 id={`${id}-h`} className="font-serif text-[1.375rem] font-medium leading-tight text-ink @3xl:text-[1.625rem]">{title}</h2>
-      {intro ? <p className="mt-1 text-sm text-[#666]">{intro}</p> : null}
+    <section id={id} aria-labelledby={`${id}-h`} className={`scroll-mt-36 ${className}`}>
+      <div className="flex flex-wrap items-end justify-between gap-x-4 gap-y-1">
+        <div className="min-w-0">
+          {eyebrow ? <p className="text-[0.6875rem] font-semibold uppercase tracking-[0.14em] text-[#2D5A3F]">{eyebrow}</p> : null}
+          <h2 id={`${id}-h`} className="font-serif text-[1.375rem] font-medium leading-tight text-ink @3xl:text-[1.625rem]">{title}</h2>
+          {intro ? <p className="mt-1 text-sm text-[#666]">{intro}</p> : null}
+        </div>
+        {more ? <Link href={more.href} className="group inline-flex items-center gap-1 text-sm font-semibold text-[#2D5A3F] hover:text-coral">{more.label}<Icon name="arrowRight" size={14} className="transition-transform group-hover:translate-x-0.5" /></Link> : null}
+      </div>
       <div className="mt-4">{children}</div>
     </section>
+  );
+}
+
+/** Sidebar card. */
+function SideCard({ title, children, id }: { title: string; children: React.ReactNode; id?: string }) {
+  return (
+    <section id={id} aria-label={title} className="scroll-mt-36 rounded-2xl border border-line bg-white p-5">
+      <h2 className="font-serif text-[1.0625rem] font-medium text-ink">{title}</h2>
+      <div className="mt-3">{children}</div>
+    </section>
+  );
+}
+
+const AUDIENCE_TONES = ["bg-[#FBEDE8] text-[#B9442B]", "bg-[#EEF4F0] text-[#2D5A3F]", "bg-[#E4ECF7] text-[#234A7A]", "bg-[#FBEBD3] text-[#7A4A0B]", "bg-[#F1ECF6] text-[#5B3A7A]"];
+
+/** Icon for a "who it suits" audience. */
+function audienceIcon(title: string): Name {
+  const t = title.toLowerCase();
+  if (/famil|kid|child/.test(t)) return "family";
+  if (/couple|honeymoon|romance/.test(t)) return "heart";
+  if (/adventure|trek|sport/.test(t)) return "mountain";
+  if (/first|international|foreign/.test(t)) return "plane";
+  if (/temple|monaster|spiritual|pilgrim/.test(t)) return "temple";
+  if (/food|cafe|café/.test(t)) return "utensils";
+  if (/budget|backpack/.test(t)) return "coins";
+  return "user";
+}
+
+const PANEL_TONES = {
+  coral: { head: "from-[#FBEDE8] to-[#FDF6F2]", icon: "bg-white text-[#B9442B]", dot: "bg-[#E8826A]" },
+  green: { head: "from-[#E6F0EA] to-[#F3F8F5]", icon: "bg-white text-[#2D5A3F]", dot: "bg-[#4E8A66]" },
+  blue: { head: "from-[#E4ECF7] to-[#F3F6FB]", icon: "bg-white text-[#234A7A]", dot: "bg-[#5B7FB0]" },
+} as const;
+
+/** Splits "Kullu trout, grilled or in curry." into a short lead ("Kullu trout") and the rest, for scanning. The words are unchanged. */
+function leadOf(text: string): [string, string] {
+  const m = /^([^,;:—]{3,60}?)([,;:—]\s*)([\s\S]+)$/.exec(text);
+  if (!m || m[1].trim().split(/\s+/).length > 6) return ["", text];
+  return [m[1], `${m[2]}${m[3]}`];
+}
+
+/** A card listing one local-life section (food, shopping, etiquette). */
+function LocalPanel({ s, title, icon, tone, wide = false }: { s: PublishedSnapshot["sections"][number]; title: string; icon: Name; tone: keyof typeof PANEL_TONES; wide?: boolean }) {
+  const t = PANEL_TONES[tone];
+  const items = s.body.items ?? [];
+  return (
+    <section aria-label={title} className="flex h-full flex-col overflow-hidden rounded-2xl border border-line bg-white transition duration-300 hover:shadow-card">
+      <header className={`flex items-center gap-3 bg-gradient-to-r px-5 py-4 ${t.head}`}>
+        <span className={`flex size-10 items-center justify-center rounded-xl shadow-sm ${t.icon}`}><Icon name={icon} size={19} /></span>
+        <span className="min-w-0">
+          <span className="block font-serif text-lg font-medium leading-tight text-ink">{title}</span>
+          <span className="text-xs text-[#666]">{items.length} {items.length === 1 ? "tip" : "tips"}</span>
+        </span>
+      </header>
+      <ul className={`grid flex-1 gap-x-8 px-5 py-2 ${wide ? "@3xl:grid-cols-2" : ""}`}>
+        {items.map((it, i) => {
+          const [lead, rest] = it.title ? [it.title, `: ${it.body}`] : leadOf(it.body);
+          return (
+            <li key={i} className="flex gap-3 border-b border-line-subtle py-3 text-sm leading-relaxed text-[#555] last:border-0">
+              <span aria-hidden className={`mt-[0.55rem] size-1.5 shrink-0 rounded-full ${t.dot}`} />
+              <span>
+                {lead ? <strong className="font-semibold text-ink">{lead}</strong> : null}{rest}
+                {it.status ? <StatusPill status={it.status} className="ml-1.5 align-middle" /> : null}
+              </span>
+            </li>
+          );
+        })}
+      </ul>
+    </section>
+  );
+}
+
+/** Icon for a key-fact label. */
+function factIcon(label: string): Name {
+  const l = label.toLowerCase();
+  if (/altitude|height|elevation/.test(l)) return "mountain";
+  if (/snow|season|time|month|open/.test(l)) return "calendar";
+  if (/airport|flight/.test(l)) return "plane";
+  if (/rail|train/.test(l)) return "train";
+  if (/bus/.test(l)) return "bus";
+  if (/permit|fee|ticket|entry|tax/.test(l)) return "ticket";
+  if (/hour|timing/.test(l)) return "clock";
+  if (/state|region|type/.test(l)) return "pin";
+  return "compass";
+}
+
+/** "By air: …" paragraphs as route cards; anything else stays as text. */
+function RouteCards({ text }: { text: string }) {
+  const paras = text.split(/\n{2,}/).map((p) => p.trim()).filter(Boolean);
+  const ICONS: Record<string, Name> = { air: "plane", bus: "bus", train: "train", rail: "train", car: "car", road: "car", taxi: "car" };
+  const cards = paras.map((p) => {
+    const m = /^By ([a-z]+)\s*:\s*/i.exec(p);
+    return m ? { mode: m[1].toLowerCase(), label: `By ${m[1].toLowerCase()}`, body: p.slice(m[0].length) } : null;
+  });
+  if (cards.some((c) => c === null)) return <div className="space-y-3 text-[0.9375rem] leading-[1.7] text-[#444]">{paras.map((p, i) => <p key={i}>{p}</p>)}</div>;
+  return (
+    <ul className="grid gap-3 @xl:grid-cols-2">
+      {cards.map((c) => c && (
+        <li key={c.label} className="flex gap-3 rounded-2xl border border-line bg-white p-4 transition hover:-translate-y-0.5 hover:shadow-card">
+          <span className="flex size-10 shrink-0 items-center justify-center rounded-xl bg-[#EEF4F0] text-[#2D5A3F]"><Icon name={ICONS[c.mode] ?? "route"} size={19} /></span>
+          <div className="min-w-0">
+            <p className="text-sm font-semibold capitalize text-ink">{c.label}</p>
+            <p className="mt-1 text-sm leading-relaxed text-[#555]">{c.body.charAt(0).toUpperCase() + c.body.slice(1)}</p>
+          </div>
+        </li>
+      ))}
+    </ul>
   );
 }
 
@@ -75,7 +188,7 @@ function PlaceCard({ p, href, meta }: { p: { name: string; summary: string | nul
         {p.hero ? <Image src={p.hero.url} alt={p.hero.alt} fill sizes="(min-width: 1024px) 300px, 50vw" className="object-cover transition-transform duration-500 group-hover:scale-105" /> : <span className="flex size-full items-center justify-center text-muted/50"><Icon name="mountain" size={30} /></span>}
         {p.hero ? <CardCredit img={p.hero} /> : null}
       </span>
-      <span className="flex flex-1 flex-col gap-1 p-3.5">
+      <span className="flex flex-1 flex-col gap-1 p-3 @xl:p-3.5">
         <span className="text-[0.6875rem] font-semibold uppercase tracking-wider text-[#777]">{meta}</span>
         <span className="text-[0.9375rem] font-semibold leading-snug text-ink group-hover:text-coral">{p.name}</span>
         {p.summary ? <span className="line-clamp-2 text-[0.8125rem] leading-relaxed text-[#555]">{p.summary}</span> : null}
@@ -174,7 +287,7 @@ export function PlacePage({
 
   // States group destinations by their region; anything else sits under one heading.
   const groups = new Map<string, RollupPlace[]>();
-  for (const d of destinations.filter((d) => d.kind !== "region")) {
+  for (const d of isState ? destinations.filter((d) => d.kind !== "region") : []) {
     const key = d.parentKind === "region" && d.parentName ? d.parentName : "";
     groups.set(key, [...(groups.get(key) ?? []), d]);
   }
@@ -207,35 +320,64 @@ export function PlacePage({
   }
 
   const relatedHref = (r: Related) => (r.kind === "state" ? `/india/${r.slug}` : r.stateSlug ? `/india/${r.stateSlug}/${r.slug}` : null);
+  // On towns and attractions, the towns inside them are short trips: they join "Nearby" instead of a separate block.
+  const nearby: Related[] = [
+    ...related,
+    ...(isState ? [] : destinations.filter((d) => d.kind !== "region" && !related.some((r) => r.slug === d.slug)).map((d) => ({ name: d.name, slug: d.slug, kind: d.kind, summary: d.summary, type: "nearby" as const, stateSlug, lat: d.lat, lng: d.lng, hero: d.hero }))),
+  ];
   const points = mapPoints([
     { name: place.name, lat: place.lat, lng: place.lng, primary: true },
     ...inline.map((c) => ({ name: c.snapshot.place.name, lat: c.snapshot.place.lat, lng: c.snapshot.place.lng, href: preview ? undefined : `#${c.slug}` })),
     ...[...destinations, ...attractions].map((c) => ({ name: c.name, lat: c.lat, lng: c.lng, href: hrefOf(c) ?? undefined })),
     ...related.map((r) => ({ name: r.name, lat: r.lat, lng: r.lng, href: preview ? undefined : (relatedHref(r) ?? undefined) })),
   ]);
+  type Mention = { name: string; href: string | null; hero: SnapshotImage | null };
+  const pool: Mention[] = [
+    ...[...attractions, ...activities, ...destinations].map((p) => ({ name: p.name, href: hrefOf(p), hero: p.hero })),
+    ...inline.map((c) => ({ name: c.snapshot.place.name, href: preview ? null : `#${c.slug}`, hero: c.snapshot.place.hero })),
+    ...nearby.map((r) => ({ name: r.name, href: link(relatedHref(r)), hero: r.hero ?? null })),
+  ].filter((m, i, all) => m.name.length >= 5 && m.name !== place.name && all.findIndex((x) => x.name === m.name) === i);
+  const mentions = (text: string) => {
+    const t = text.toLowerCase();
+    return pool.filter((m) => t.includes(m.name.toLowerCase())).sort((a, b) => t.indexOf(a.name.toLowerCase()) - t.indexOf(b.name.toLowerCase()));
+  };
+  const localSpots = activities.filter((a) => a.category === "food_shopping");
   const booking = bookingLinksFor({ name: place.name, kind: place.kind, stateName: place.state?.name ?? null });
 
   const activityCards: ActivityCard[] = activities.map((a) => ({ slug: a.slug, name: a.name, summary: a.summary, category: a.category, where: a.parentName && a.parentName !== place.name ? a.parentName : null, href: hrefOf(a), hero: a.hero }));
 
-  const planBlocks = [bestTime, howToReach, localTransport, whereToStay, budget, practical, culture, safety, accessibility, mistakes, tips].filter(Boolean);
   // Activities shown as sections of this page belong under "Things to do", not "Places".
   const inlinePlaces = inline.filter((c) => c.snapshot.place.kind !== "activity");
   const placesCount = attractions.length + inlinePlaces.length;
 
+  const planTabs = [
+    bestTime ? { id: "best", label: "Seasons", content: <Panel icon="calendar"><TextBody s={bestTime} /></Panel> } : null,
+    howToReach ? { id: "reach", label: "Getting there", content: <RouteCards text={howToReach.body.text ?? ""} /> } : null,
+    localTransport ? { id: "around", label: "Getting around", content: <Panel icon="car"><TextBody s={localTransport} /></Panel> } : null,
+    whereToStay ? { id: "stay", label: "Where to stay", content: <Panel icon="bed"><TextBody s={whereToStay} /></Panel> } : null,
+    budget ? { id: "budget", label: "Budget", content: <BudgetTable s={budget} /> } : null,
+    practical ? { id: "practical", label: "Practical info", content: <Accordion items={(practical.body.items ?? []).map((it) => ({ title: it.title ?? "", body: it.body, badge: <StatusPill status={it.status} /> }))} /> } : null,
+    safety ? { id: "safety", label: "Safety", content: <Accordion items={(safety.body.items ?? []).map((it) => ({ title: it.title ?? "", body: it.body, badge: <StatusPill status={it.status} /> }))} /> } : null,
+    accessibility ? { id: "access", label: "Accessibility", content: <PairsList s={accessibility} /> } : null,
+    tips || mistakes ? { id: "tips", label: "Tips", content: <div className="grid gap-4 @3xl:grid-cols-2">{tips ? <Panel icon="sparkles"><p className="mb-3 text-sm font-semibold text-ink">Travel tips</p><CheckList s={tips} /></Panel> : null}{mistakes ? <Panel icon="bulb"><p className="mb-3 text-sm font-semibold text-ink">Mistakes to avoid</p><CheckList s={mistakes} /></Panel> : null}</div> } : null,
+  ].filter((t) => t !== null);
+
+  const localParts = [food ? "Food" : null, shopping ? "shopping" : null, culture ? "culture" : null].filter((x): x is string => !!x);
+  const localTitle = (localParts.length > 1 ? `${localParts.slice(0, -1).join(", ")} and ${localParts[localParts.length - 1]}` : (localParts[0] ?? "")).replace(/^./, (c) => c.toUpperCase());
   const tabs = [
     { id: "overview", label: "Overview", show: true },
     { id: "visit", label: "Visiting", show: !!visitInfo && !isDestination },
     { id: "regions", label: "Regions", show: !!regions },
-    { id: "destinations", label: "Destinations", show: destinations.filter((d) => d.kind !== "region").length > 0 },
+    { id: "destinations", label: "Destinations", show: regionGroups.length > 0 },
     { id: "places", label: isState ? "Top places" : "Places to visit", show: placesCount > 0 },
     { id: "areas", label: "Areas", show: !!neighbourhoods },
     { id: "things", label: "Things to do", show: activities.length > 0 || !!thingsToDo },
     { id: "itineraries", label: "Itineraries", show: itineraries.length > 0 || !!itinerary },
     { id: "guides", label: "Travel guides", show: guides.length > 0 },
-    { id: "food", label: "Food & shopping", show: !!(food || shopping) },
-    { id: "plan", label: "Plan your trip", show: planBlocks.length > 0 },
+    { id: "food", label: food && !shopping && !culture ? "Food" : culture && !food && !shopping ? "Culture" : culture ? "Food & culture" : "Food & shopping", show: !!(food || shopping || culture) },
+    { id: "plan", label: "Plan your trip", show: planTabs.length > 0 },
     { id: "faqs", label: "FAQs", show: !!faqs },
-    { id: "nearby", label: "Nearby", show: related.length > 0 },
+    { id: "nearby", label: "Nearby", show: nearby.length > 0 },
   ].filter((t) => t.show);
 
   // Top strip: researched key facts when there are any, otherwise what the page itself knows.
@@ -249,7 +391,7 @@ export function PlacePage({
       ].filter((x): x is { label: string; value: string } => !!x);
 
   const counts = [
-    { label: "Destinations", n: destinations.filter((d) => d.kind !== "region").length, href: "#destinations" },
+    { label: "Destinations", n: isState ? destinations.filter((d) => d.kind !== "region").length : 0, href: "#destinations" },
     { label: "Places to visit", n: placesCount, href: "#places" },
     { label: "Things to do", n: activities.length, href: "#things" },
     { label: "Itineraries", n: itineraries.length, href: "#itineraries" },
@@ -259,19 +401,113 @@ export function PlacePage({
   const plannerPrompt = isState ? `Plan a trip to ${place.name}` : `Plan a trip to ${place.name}, ${stateName}`;
   const parentHref = place.parent ? (place.parent.kind === "state" ? `/india/${place.parent.slug}` : `/india/${stateSlug}/${place.parent.slug}`) : null;
 
+  const tripFacts = keyFacts?.body.items ?? [];
+  const suggestions = [
+    isDestination ? (itineraries.length ? `${Math.min(...itineraries.map((i) => i.durationDays))}-day ${place.name} itinerary` : `Plan 3 days in ${place.name}`) : `How long do I need at ${place.name}?`,
+    bestTime ? `Best time to visit ${place.name}?` : null,
+    howToReach ? `How do I get to ${place.name}?` : null,
+  ].filter((x): x is string => !!x);
+  const thingsMore = preview ? null : isState ? { href: `/things-to-do?state=${place.slug}`, label: "View all" } : isDestination ? { href: `/things-to-do?destination=${stateSlug}/${place.slug}`, label: "View all" } : null;
+  const hasStatus = sections.some((s) => (s.body.items ?? []).some((i) => i.status));
+  const hasSidebar = !!(visitInfo && !isDestination) || !!place.parent || counts.length > 0 || points.length > 0 || booking.length > 0 || !preview;
+
+  const sidebar = (
+    <aside aria-label={`${place.name} trip planner`} className="min-w-0 space-y-4 @5xl:col-start-2 @5xl:row-span-2 @5xl:row-start-1">
+      {visitInfo && !isDestination ? (
+        <section id="visit" aria-labelledby="visit-h" className="scroll-mt-36 rounded-2xl border border-line bg-white p-5 shadow-card">
+          <h2 id="visit-h" className="font-serif text-[1.0625rem] font-medium text-ink">Plan your visit</h2>
+          <dl className="mt-2 divide-y divide-line-subtle text-sm">
+            {(visitInfo.body.items ?? []).map((it, i) => (
+              <div key={i} className="flex flex-col gap-1 py-2.5">
+                <dt className="flex items-center justify-between gap-2 text-[0.6875rem] font-semibold uppercase tracking-wider text-[#666]">{it.title}<StatusPill status={it.status} /></dt>
+                <dd className="leading-relaxed text-ink">{it.body}</dd>
+              </div>
+            ))}
+          </dl>
+        </section>
+      ) : null}
+      {points.length ? (
+        <div className="overflow-hidden rounded-2xl border border-line bg-white shadow-card">
+          <PlaceMap points={points} height={220} label={`Map of ${place.name}${points.length > 1 ? " and places inside it" : ""}`} />
+        </div>
+      ) : null}
+      {place.parent && parentHref ? (
+        <Link href={link(parentHref) ?? "#"} className="flex items-center gap-3 rounded-2xl border border-line bg-white p-4 transition hover:-translate-y-0.5 hover:border-coral hover:shadow-card">
+          <span className="flex size-10 shrink-0 items-center justify-center rounded-xl bg-coral/10 text-coral"><Icon name="map" size={19} /></span>
+          <span className="min-w-0">
+            <span className="block text-[0.6875rem] font-semibold uppercase tracking-wider text-[#666]">Part of</span>
+            <span className="block font-serif text-base font-medium text-ink">{place.parent.name}</span>
+            <span className="text-xs font-semibold text-[#B9442B]">See everything in {place.parent.name} ›</span>
+          </span>
+        </Link>
+      ) : null}
+      {tripFacts.length > 4 || counts.length ? (
+        <div className={tripFacts.length > 4 ? "" : "hidden @5xl:block"}><SideCard title="Trip facts">
+          {tripFacts.length > 4 ? (
+            <dl className="divide-y divide-line-subtle text-sm">
+              {tripFacts.map((f, i) => (
+                <div key={i} className="flex items-start justify-between gap-3 py-2">
+                  <dt className="text-[#666]">{f.title}</dt>
+                  <dd className="text-right font-medium text-ink">{f.body}{f.status ? <span className="mt-0.5 block"><StatusPill status={f.status} /></span> : null}</dd>
+                </div>
+              ))}
+            </dl>
+          ) : null}
+          {counts.length ? (
+            <ul className={`divide-y divide-line-subtle ${tripFacts.length > 4 ? "mt-2 border-t border-line-subtle" : ""}`}>
+              {counts.map((c) => (
+                <li key={c.label}>
+                  <a href={c.href} className="group flex items-center justify-between py-2 text-sm text-ink hover:text-coral">
+                    <span className="flex items-center gap-1.5">{c.label}<Icon name="arrowRight" size={13} className="opacity-0 transition group-hover:translate-x-0.5 group-hover:opacity-100" /></span><span className="rounded-full bg-[#F3F0EA] px-2.5 py-0.5 text-[0.8125rem] font-semibold group-hover:bg-coral group-hover:text-white">{c.n}</span>
+                  </a>
+                </li>
+              ))}
+            </ul>
+          ) : null}
+        </SideCard></div>
+      ) : null}
+      <div className="space-y-4 @5xl:sticky @5xl:top-40">
+      {booking.length && !preview ? (
+        <SideCard title="Plan and book">
+          <ul className="-mx-2 space-y-0.5">
+            {booking.map((b) => (
+              <li key={b.href}>
+                <a href={b.href} target="_blank" rel="sponsored nofollow noopener noreferrer" className="group flex items-center gap-3 rounded-xl px-2 py-2 hover:bg-[#F7F5F0]">
+                  <span className="flex size-8 shrink-0 items-center justify-center rounded-lg bg-[#EEF4F0] text-[#2D5A3F]"><Icon name={b.icon as Name} size={16} /></span>
+                  <span className="min-w-0 flex-1"><span className="block text-sm font-semibold text-ink">{b.label}</span><span className="text-xs text-muted">{b.provider}</span></span>
+                  <span aria-hidden className="text-xs font-semibold text-coral">↗</span>
+                </a>
+              </li>
+            ))}
+          </ul>
+          <p className="mt-2 text-xs leading-relaxed text-muted">Opens each provider’s own search. We don’t check prices or availability.{affiliateActive() ? " VacayOut may earn a commission on some bookings, at no extra cost to you." : ""}</p>
+        </SideCard>
+      ) : null}
+      {preview ? null : (
+        <section aria-label="Ask the AI planner" className="hidden rounded-2xl border border-[#D5E3DA] bg-[#EEF4F0] p-5 @5xl:block">
+          <p className="flex items-center gap-1.5 text-[0.6875rem] font-semibold uppercase tracking-wider text-[#2D5A3F]"><Icon name="sparkles" size={13} /> AI travel planner</p>
+          <p className="mt-1 font-serif text-[1.0625rem] font-medium text-ink">Questions about {place.name}?</p>
+          <div className="mt-3"><AskBox placeName={place.name} suggestions={suggestions} /></div>
+        </section>
+      )}
+      </div>
+    </aside>
+  );
+
   return (
     <article className="@container bg-[#FBFAF7]">
       {preview ? null : <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd).replace(/</g, "\\u003c") }} />}
 
-      {/* Hero */}
-      <header className={`relative overflow-hidden ${hero ? "min-h-[20rem] bg-ink text-white @3xl:min-h-[26rem]" : "bg-[#F1EEE7] text-ink"}`}>
+      {/* 1. Hero */}
+      <header className={`relative overflow-hidden ${hero ? "bg-ink text-white" : "bg-[#F1EEE7] text-ink"}`}>
         {hero ? (
           <>
             <Image src={hero.url} alt={hero.alt} fill priority sizes="100vw" className="animate-[heroZoom_18s_ease-out_forwards] object-cover motion-reduce:animate-none" />
-            <div aria-hidden className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/30 to-black/25" />
+            <div aria-hidden className="absolute inset-0 bg-gradient-to-t from-black/85 via-black/35 to-black/20" />
+            <div aria-hidden className="absolute inset-y-0 left-0 w-2/3 bg-gradient-to-r from-black/45 to-transparent" />
           </>
         ) : null}
-        <div className={`container-site relative flex flex-col justify-end ${hero ? "min-h-[20rem] pb-16 pt-6 @3xl:min-h-[26rem]" : "py-10 pb-16"}`}>
+        <div className={`container-site relative flex flex-col justify-end ${hero ? "min-h-[30rem] pb-20 pt-16 @3xl:min-h-[36rem]" : "pb-16 pt-14"}`}>
           <nav aria-label="Breadcrumb" className={`absolute top-5 text-sm ${hero ? "text-white/90" : "text-muted"}`}>
             <ol className="flex flex-wrap items-center gap-1.5">
               {crumbs.map((c, i) => (
@@ -283,20 +519,27 @@ export function PlacePage({
               <li className="flex items-center gap-1.5" aria-current="page"><span aria-hidden>›</span>{place.name}</li>
             </ol>
           </nav>
-          <div className={hero ? "mt-14" : "mt-8"}>
-            <span className={`inline-flex items-center gap-1.5 rounded px-2.5 py-1 text-xs font-semibold uppercase tracking-wider ${hero ? "bg-white text-ink" : "bg-white text-ink"}`}>
-              {kindLabel(place.kind)}{!isState && place.parent ? ` · ${place.parent.name}` : zone && isState ? ` · ${zone === "Islands" ? "Islands" : `${zone} India`}` : ""}
-            </span>
-            <h1 className="mt-3 font-serif text-[clamp(2rem,5cqi,3.25rem)] font-medium leading-[1.08]">{place.name}</h1>
-            {place.summary ? <p className={`mt-2.5 max-w-2xl text-[0.9375rem] leading-relaxed @3xl:text-base ${hero ? "text-white/90" : "text-muted"}`}>{place.summary}</p> : null}
+          <div className="max-w-3xl">
+            <p className={`flex flex-wrap items-center gap-x-2 gap-y-1 text-[0.8125rem] font-medium ${hero ? "text-white/90" : "text-[#555]"}`}>
+              <span className={`rounded px-2 py-0.5 text-[0.6875rem] font-semibold uppercase tracking-wider ${hero ? "bg-white text-ink" : "bg-white text-ink"}`}>{kindLabel(place.kind)}</span>
+              <span className="inline-flex items-center gap-1"><Icon name="pin" size={13} />{[!isState && place.parent && place.parent.kind !== "state" ? place.parent.name : null, isState ? (zone ? (zone === "Islands" ? "Island territories" : `${zone} India`) : "India") : stateName].filter(Boolean).join(", ")}</span>
+            </p>
+            <h1 className="mt-3 font-serif text-[clamp(2.375rem,6.5cqi,4.25rem)] font-medium leading-[1.02] tracking-[-0.01em] [text-shadow:0_2px_24px_rgba(0,0,0,.25)]">{place.name}</h1>
+            {place.summary ? <p className={`mt-3 max-w-2xl text-base leading-relaxed @3xl:text-[1.0625rem] ${hero ? "text-white/95 [text-shadow:0_1px_12px_rgba(0,0,0,.45)]" : "text-[#555]"}`}>{place.summary}</p> : null}
+            {preview ? null : (
+              <div className="mt-6 flex max-w-2xl flex-col gap-3 @xl:flex-row @xl:items-center">
+                <div className="min-w-0 flex-1"><AskBox placeName={place.name} tone="hero" /></div>
+                {itineraries.length ? <a href="#itineraries" className={`inline-flex shrink-0 items-center justify-center gap-1.5 rounded-full border px-5 py-3 text-sm font-semibold backdrop-blur-sm transition ${hero ? "border-white/60 bg-white/10 text-white hover:bg-white hover:text-ink" : "border-ink text-ink hover:bg-ink hover:text-white"}`}><Icon name="route" size={15} /> See itineraries</a> : null}
+              </div>
+            )}
             {types.length ? (
-              <ul className="mt-4 flex flex-wrap gap-2 text-xs font-medium">
-                {types.map((t) => <li key={t.key} className={`rounded-full border px-3 py-1 backdrop-blur-sm ${hero ? "border-white/50 bg-white/10" : "border-line bg-white"}`}>{t.label}</li>)}
+              <ul className="mt-5 flex flex-wrap gap-2 text-xs font-medium">
+                {types.map((t) => <li key={t.key} className={`rounded-full border px-3 py-1 backdrop-blur-sm ${hero ? "border-white/45 bg-white/10" : "border-line bg-white"}`}>{t.label}</li>)}
               </ul>
             ) : null}
           </div>
           {hero ? (
-            <div className="mt-6 @3xl:absolute @3xl:bottom-4 @3xl:right-6 @3xl:mt-0 @3xl:max-w-lg @3xl:text-right">
+            <div className="mt-6 @3xl:absolute @3xl:bottom-14 @3xl:right-6 @3xl:mt-0 @3xl:max-w-sm @3xl:text-right">
               {hero.kind === "ai_generated" ? <span className="mb-1 inline-block rounded bg-black/60 px-2 py-0.5 text-xs font-semibold text-white">AI-generated illustration</span> : null}
               <Credit img={hero} onDark />
             </div>
@@ -304,33 +547,49 @@ export function PlacePage({
         </div>
       </header>
 
-      {/* Key facts strip */}
+      {/* Essential facts */}
       {strip.length ? (
-        <div className="container-site relative -mt-9">
-          <dl className="grid overflow-hidden rounded-2xl border border-line bg-white shadow-card @xl:grid-cols-2 @4xl:grid-cols-4">
+        <div className="container-site relative -mt-10">
+          <dl className="grid grid-cols-2 overflow-hidden rounded-2xl border border-line bg-white shadow-card @4xl:grid-cols-4">
             {strip.map((f) => (
-              <div key={f.label} className="flex flex-col gap-1 border-b border-line-subtle px-5 py-3.5 transition-colors hover:bg-[#FBFAF7] @4xl:border-b-0 @4xl:border-r">
-                <dt className="text-[0.6875rem] font-semibold uppercase tracking-wider text-[#666]">{f.label}</dt>
-                <dd className="text-[0.9375rem] font-semibold leading-snug text-ink">{f.value}</dd>
-                {f.status ? <dd><StatusPill status={f.status} /></dd> : null}
+              <div key={f.label} className="flex items-start gap-3 border-b border-r border-line-subtle px-4 py-3.5 transition-colors hover:bg-[#FBFAF7] @xl:px-5 @4xl:border-b-0 last:border-r-0">
+                <span aria-hidden className="mt-0.5 hidden size-9 shrink-0 items-center justify-center rounded-full bg-[#EEF4F0] text-[#2D5A3F] @xl:flex"><Icon name={factIcon(f.label)} size={17} /></span>
+                <div className="min-w-0">
+                  <dt className="text-[0.6875rem] font-semibold uppercase tracking-wider text-[#666]">{f.label}</dt>
+                  <dd className="mt-0.5 text-[0.9375rem] font-semibold leading-snug text-ink">{f.value}</dd>
+                  {f.status ? <dd className="mt-1"><StatusPill status={f.status} /></dd> : null}
+                </div>
               </div>
             ))}
           </dl>
+          {hasStatus ? (
+            <p className="mt-2 flex flex-wrap items-center gap-x-3 gap-y-1 text-xs text-[#666]">
+              <span>How sure we are:</span>
+              <span className="inline-flex items-center gap-1"><StatusPill status="verified" /> from an official source</span>
+              <span className="inline-flex items-center gap-1"><StatusPill status="seasonal" /> changes with season</span>
+              <span className="inline-flex items-center gap-1"><StatusPill status="estimate" /> approximate</span>
+              <span className="inline-flex items-center gap-1"><StatusPill status="unconfirmed" /> check before you go</span>
+            </p>
+          ) : null}
         </div>
       ) : null}
 
-      <div className="mt-6"><SectionTabs tabs={tabs.map(({ id, label }) => ({ id, label }))} /></div>
+      <div aria-hidden className="h-6" />
+      <SectionTabs tabs={tabs.map(({ id, label }) => ({ id, label }))} />
       {sample ? (
         <p className="border-b border-dashed border-line bg-[#F1EEE7] px-4 py-2 text-center text-xs text-muted">
           <strong className="font-semibold text-ink">Sample content</strong> for design work — this guide hasn’t been researched or reviewed yet.
         </p>
       ) : null}
 
-      <div className="container-site space-y-12 py-8 @5xl:py-10">
-        {/* Overview + side panel */}
-        <section id="overview" aria-labelledby="overview-h" className="grid scroll-mt-20 gap-10 @5xl:grid-cols-[minmax(0,1fr)_21rem]">
-          <div className="min-w-0 space-y-6">
-            <h2 id="overview-h" className="font-serif text-[1.375rem] font-medium text-ink @3xl:text-[1.625rem]">About {place.name}</h2>
+      <div className={`container-site grid gap-x-10 gap-y-12 py-8 @5xl:py-10 ${hasSidebar ? "@5xl:grid-cols-[minmax(0,1fr)_20rem] @5xl:grid-rows-[auto_1fr]" : ""}`}>
+        {/* 2. About + highlights */}
+        <div className="@container min-w-0 @5xl:col-start-1 @5xl:row-start-1">
+          <section id="overview" aria-labelledby="overview-h" className="scroll-mt-36 space-y-6">
+            <div>
+              <p className="text-[0.6875rem] font-semibold uppercase tracking-[0.14em] text-[#2D5A3F]">Overview</p>
+              <h2 id="overview-h" className="font-serif text-[1.375rem] font-medium text-ink @3xl:text-[1.625rem]">About {place.name}</h2>
+            </div>
             {overview ? <ReadMore lines={9}><TextBody s={overview} /></ReadMore> : place.summary ? <p className="text-[0.9375rem] leading-relaxed text-[#444]">{place.summary}</p> : null}
             {highlights ? (
               <div>
@@ -340,269 +599,311 @@ export function PlacePage({
             ) : null}
             {whoFor ? (
               <div>
-                <h3 className="mb-3 text-xs font-semibold uppercase tracking-wider text-muted">Who it suits</h3>
-                <Tabs label="Who it suits" tabs={(whoFor.body.items ?? []).map((it, i) => ({ id: `w${i}`, label: it.title ?? "", content: <p className="rounded-2xl border border-line bg-white p-4 text-sm leading-relaxed text-[#444]">{it.body}</p> }))} />
-              </div>
-            ) : null}
-          </div>
-          <aside className="min-w-0 space-y-5 @5xl:sticky @5xl:top-20 @5xl:self-start">
-            {visitInfo && !isDestination ? (
-              <section id="visit" aria-labelledby="visit-h" className="scroll-mt-20 rounded-2xl border border-line bg-white p-5 shadow-card">
-                <h2 id="visit-h" className="font-serif text-lg font-medium text-ink">Plan your visit</h2>
-                <dl className="mt-3 divide-y divide-line-subtle text-sm">
-                  {(visitInfo.body.items ?? []).map((it, i) => (
-                    <div key={i} className="flex flex-col gap-1 py-3">
-                      <dt className="flex items-center justify-between gap-2 text-xs font-semibold uppercase tracking-wider text-[#666]">{it.title}<StatusPill status={it.status} /></dt>
-                      <dd className="leading-relaxed text-ink">{it.body}</dd>
-                    </div>
-                  ))}
-                </dl>
-              </section>
-            ) : null}
-            {place.parent && parentHref ? (
-              <Link href={link(parentHref) ?? "#"} className="flex items-center gap-3 rounded-2xl border border-line bg-white p-4 transition hover:-translate-y-0.5 hover:border-coral hover:shadow-card">
-                <span className="flex size-11 shrink-0 items-center justify-center rounded-xl bg-coral/10 text-coral"><Icon name="map" size={20} /></span>
-                <span className="min-w-0">
-                  <span className="block text-xs font-semibold uppercase tracking-wider text-[#666]">Part of</span>
-                  <span className="block font-serif text-base font-medium text-ink">{place.parent.name}</span>
-                  <span className="text-xs font-semibold text-[#B9442B]">See everything in {place.parent.name} ›</span>
-                </span>
-              </Link>
-            ) : null}
-            {counts.length ? (
-              <div className="rounded-2xl border border-line bg-white p-5">
-                <p className="text-xs font-semibold uppercase tracking-wider text-[#666]">In {place.name} on VacayOut</p>
-                <ul className="mt-2 divide-y divide-line-subtle">
-                  {counts.map((c) => (
-                    <li key={c.label}>
-                      <a href={c.href} className="group flex items-center justify-between py-2 text-sm text-ink hover:text-coral">
-                        <span className="flex items-center gap-1.5">{c.label}<Icon name="arrowRight" size={13} className="opacity-0 transition group-hover:translate-x-0.5 group-hover:opacity-100" /></span><span className="rounded-full bg-[#F3F0EA] px-2.5 py-0.5 text-[0.8125rem] font-semibold group-hover:bg-coral group-hover:text-white">{c.n}</span>
-                      </a>
-                    </li>
-                  ))}
+                <h3 className="mb-3 font-serif text-lg font-medium text-ink">Who {place.name} suits</h3>
+                <ul className="grid gap-3 @xl:grid-cols-2 @4xl:grid-cols-3">
+                  {(whoFor.body.items ?? []).map((it, i) => {
+                    const tone = AUDIENCE_TONES[i % AUDIENCE_TONES.length];
+                    const refs = mentions(`${it.title ?? ""} ${it.body}`).slice(0, 3);
+                    return (
+                      <li key={i} className="group flex flex-col rounded-2xl border border-line bg-white p-4 transition duration-300 hover:-translate-y-0.5 hover:shadow-card">
+                        <span className="flex items-center gap-2.5">
+                          <span className={`flex size-10 shrink-0 items-center justify-center rounded-xl ${tone}`}><Icon name={audienceIcon(it.title ?? "")} size={19} /></span>
+                          <span className="text-[0.9375rem] font-semibold leading-snug text-ink">{it.title}</span>
+                          <StatusPill status={it.status} className="ml-auto" />
+                        </span>
+                        <p className="mt-2.5 text-[0.8125rem] leading-relaxed text-[#555]">{it.body}</p>
+                        {refs.length ? (
+                          <span className="mt-auto flex flex-wrap gap-1.5 pt-3">
+                            {refs.map((m) => m.href ? <Link key={m.name} href={m.href} className="rounded-full bg-[#F3F0EA] px-2.5 py-0.5 text-[0.6875rem] font-medium text-[#444] transition hover:bg-[#2D5A3F] hover:text-white">{m.name}</Link> : <span key={m.name} className="rounded-full bg-[#F3F0EA] px-2.5 py-0.5 text-[0.6875rem] font-medium text-[#444]">{m.name}</span>)}
+                          </span>
+                        ) : null}
+                      </li>
+                    );
+                  })}
                 </ul>
               </div>
             ) : null}
-            {points.length ? (
-              <div className="overflow-hidden rounded-2xl border border-line bg-white shadow-card">
-                <PlaceMap points={points} height={240} label={`Map of ${place.name}${points.length > 1 ? " and places inside it" : ""}`} />
-              </div>
-            ) : null}
-          </aside>
-        </section>
-
-        {regions ? <Block id="regions" title={`Regions of ${place.name}`}><Accordion items={(regions.body.items ?? []).map((it) => ({ title: it.title ?? "", body: it.body }))} /></Block> : null}
-
-        {regionGroups.length ? (
-          <Block id="destinations" title="Destinations" intro={isState ? "Towns and bases, grouped by region." : undefined}>
-            <div className="space-y-8">
-              {regionGroups.map(([region, list]) => (
-                <div key={region || "all"}>
-                  {region ? <h3 className="mb-3 text-sm font-semibold uppercase tracking-wider text-[#2D5A3F]">{region}</h3> : regionGroups.length > 1 ? <h3 className="mb-3 text-sm font-semibold uppercase tracking-wider text-[#666]">Other destinations</h3> : null}
-                  <Rail label={region || "Destinations"}>
-                    {list.map((d) => <PlaceCard key={d.slug} p={d} href={childHref(d.slug)} meta={`${kindLabel(d.kind)}${d.parentName && d.parentKind !== "state" && d.parentKind !== "region" ? ` · near ${d.parentName}` : ""}`} />)}
-                  </Rail>
-                </div>
-              ))}
-            </div>
-          </Block>
-        ) : null}
-
-        {placesCount ? (
-          <Block id="places" title={isState ? `Top places in ${place.name}` : `Places to visit in ${place.name}`}>
-            <FilterGrid
-              items={[
-                ...attractions.map((a) => ({ key: a.slug, group: kindLabel(a.kind), node: <PlaceCard p={a} href={hrefOf(a)} meta={`${kindLabel(a.kind)}${a.parentName && a.parentName !== place.name ? ` · ${a.parentName}` : ""}`} /> })),
-                ...inlinePlaces.map((c) => ({ key: c.slug, group: kindLabel(c.snapshot.place.kind), node: <PlaceCard p={{ name: c.snapshot.place.name, summary: c.snapshot.place.summary, hero: c.snapshot.place.hero }} href={preview ? null : `#${c.slug}`} meta={kindLabel(c.snapshot.place.kind)} /> })),
-              ]}
-            />
-          </Block>
-        ) : null}
-
-        {neighbourhoods ? (
-          <Block id="areas" title={`Areas of ${place.name}`}>
-            <Tabs label="Areas" tabs={(neighbourhoods.body.items ?? []).map((it, i) => ({ id: `a${i}`, label: it.title ?? "", content: <div className="flex gap-3 rounded-2xl border border-line bg-white p-5"><span className="flex size-9 shrink-0 items-center justify-center rounded-full bg-coral/10 text-coral"><Icon name="pin" size={16} /></span><p className="text-sm leading-relaxed text-[#444]">{it.body}</p></div> }))} />
-          </Block>
-        ) : null}
-
-        {activities.length || thingsToDo ? (
-          <Block id="things" title={`Things to do${isActivity ? " here" : ` in ${place.name}`}`}>
-            <div className="space-y-6">
-              {activities.length ? <ActivityGrid items={activityCards} /> : null}
-              {thingsToDo && !activities.length ? <CheckList s={thingsToDo} columns /> : null}
-            </div>
-          </Block>
-        ) : null}
-
-        {itineraries.length || itinerary ? (
-          <Block id="itineraries" title="Itineraries" intro={itineraries.length ? `Ready-made plans with a stop in ${place.name}.` : undefined}>
-            <div className="space-y-6">
-              {itineraries.length ? (
-                <Rail label="Itineraries">
-                  {itineraries.map((it) => {
-                    const inner = (
-                      <>
-                        <span className="relative block aspect-[16/9] overflow-hidden bg-sand">
-                          {it.hero ? <Image src={it.hero.url} alt="" fill sizes="360px" className="object-cover transition-transform duration-500 group-hover:scale-105" /> : null}
-                          <span className="absolute left-2.5 top-2.5 rounded-full bg-white px-2.5 py-0.5 text-xs font-bold text-ink shadow-sm">{it.durationDays} day{it.durationDays === 1 ? "" : "s"}</span>
-                        </span>
-                        <span className="flex min-w-0 flex-1 flex-col gap-1 p-4">
-                          <span className="text-[0.6875rem] font-semibold uppercase tracking-wider text-[#777]">Starts in {it.placeName}</span>
-                          <span className="font-serif text-lg font-medium leading-snug text-ink group-hover:text-coral">{it.title}</span>
-                          <span className="line-clamp-2 text-[0.8125rem] leading-relaxed text-[#555]">{it.summary}</span>
-                          {it.stopNames.length ? (
-                            <span className="mt-auto flex flex-wrap gap-1 pt-2">
-                              {it.stopNames.map((n) => <span key={n} className="rounded-full bg-[#EEF4F0] px-2 py-0.5 text-[0.6875rem] font-medium text-[#2D5A3F]">{n}</span>)}
-                            </span>
-                          ) : null}
-                        </span>
-                      </>
-                    );
-                    return preview ? (
-                      <div key={it.slug} className="flex w-full flex-col overflow-hidden rounded-2xl border border-line bg-white">{inner}</div>
-                    ) : (
-                      <Link key={it.slug} href={`/itineraries/${it.slug}`} className="group flex w-full flex-col overflow-hidden rounded-2xl border border-line bg-white transition duration-300 hover:-translate-y-1 hover:shadow-card-hover">{inner}</Link>
-                    );
-                  })}
-                </Rail>
-              ) : null}
-              {itinerary ? (
-                <div className="rounded-2xl border border-line bg-white p-5 @xl:p-6">
-                  <p className="mb-5 flex items-center gap-2 font-semibold text-ink"><Icon name="route" size={18} className="text-coral" /> Suggested plan: {(itinerary.body.items ?? []).length} day{(itinerary.body.items ?? []).length === 1 ? "" : "s"}</p>
-                  <DaysTimeline s={itinerary} />
-                </div>
-              ) : null}
-            </div>
-          </Block>
-        ) : null}
-
-        {guides.length ? (
-          <Block id="guides" title="Travel guides">
-            <Rail label="Travel guides">
-              {guides.map((g) => <PlaceCard key={g.slug} p={{ name: g.title, summary: g.summary, hero: g.hero }} href={link(`/travel-guides/${g.slug}`)} meta={g.placeNames.slice(0, 3).join(" · ") || "Guide"} />)}
-            </Rail>
-          </Block>
-        ) : null}
-
-        {food || shopping ? (
-          <Block id="food" title="Food and shopping">
-            <Tabs
-              label="Food and shopping"
-              tabs={[
-                ...(food ? [{ id: "food", label: "Food to try", content: <div className="rounded-2xl border border-line bg-white p-5"><CheckList s={food} columns /></div> }] : []),
-                ...(shopping ? [{ id: "shop", label: "Shopping and markets", content: <div className="rounded-2xl border border-line bg-white p-5"><CheckList s={shopping} columns /></div> }] : []),
-              ]}
-            />
-          </Block>
-        ) : null}
-
-        {planBlocks.length ? (
-          <Block id="plan" title="Plan your trip">
-            <Tabs
-              variant="underline"
-              label="Plan your trip"
-              tabs={[
-                bestTime ? { id: "best", label: "Best time", content: <Panel icon="calendar"><TextBody s={bestTime} /></Panel> } : null,
-                howToReach ? { id: "reach", label: "Getting there", content: <Panel icon="route"><TextBody s={howToReach} /></Panel> } : null,
-                localTransport ? { id: "around", label: "Getting around", content: <Panel icon="car"><TextBody s={localTransport} /></Panel> } : null,
-                whereToStay ? { id: "stay", label: "Where to stay", content: <Panel icon="pin"><TextBody s={whereToStay} /></Panel> } : null,
-                budget ? { id: "budget", label: "Budget", content: <BudgetTable s={budget} /> } : null,
-                practical ? { id: "practical", label: "Practical info", content: <PairsList s={practical} /> } : null,
-                safety ? { id: "safety", label: "Safety", content: <PairsList s={safety} /> } : null,
-                accessibility ? { id: "access", label: "Accessibility", content: <PairsList s={accessibility} /> } : null,
-                culture ? { id: "culture", label: "Etiquette", content: <Panel icon="heart"><CheckList s={culture} /></Panel> } : null,
-                mistakes ? { id: "mistakes", label: "Mistakes to avoid", content: <Panel icon="bulb"><CheckList s={mistakes} columns /></Panel> } : null,
-                tips ? { id: "tips", label: "Tips", content: <Panel icon="sparkles"><CheckList s={tips} columns /></Panel> } : null,
-              ].filter((t) => t !== null)}
-            />
-            <div className="mt-6 space-y-8">
-              {booking.length && !preview ? (
-                <div className="rounded-2xl border border-line bg-white p-5">
-                  <p className="font-semibold text-ink">Search and book</p>
-                  <ul className="mt-3 grid gap-1 @xl:grid-cols-2">
-                    {booking.map((b) => (
-                      <li key={b.href}>
-                        <a href={b.href} target="_blank" rel="sponsored nofollow noopener noreferrer" className="group flex items-center gap-3 rounded-xl px-2 py-2.5 hover:bg-[#F7F5F0]">
-                          <span className="flex size-9 shrink-0 items-center justify-center rounded-lg bg-coral/10 text-coral"><Icon name={b.icon as Name} size={17} /></span>
-                          <span className="min-w-0 flex-1"><span className="block text-sm font-semibold text-ink">{b.label}</span><span className="text-xs text-muted">{b.provider}</span></span>
-                          <span className="text-xs font-semibold text-coral group-hover:underline">Search ↗</span>
-                        </a>
-                      </li>
-                    ))}
-                  </ul>
-                  <p className="mt-2 text-xs text-muted">Opens each provider’s own search. We don’t check prices or availability.{affiliateActive() ? " VacayOut may earn a commission on some bookings, at no extra cost to you." : ""}</p>
-                </div>
-              ) : null}
-            </div>
-          </Block>
-        ) : null}
-
-        {faqs ? <Block id="faqs" title="Frequently asked questions"><FaqList s={faqs} /></Block> : null}
-
-        {related.length ? (
-          <Block id="nearby" title="Nearby and day trips">
-            <ul className="grid gap-3 @xl:grid-cols-2 @4xl:grid-cols-3">
-              {related.map((r) => {
-                const to = link(relatedHref(r));
-                const inner = (
-                  <>
-                    <span className="relative size-20 shrink-0 overflow-hidden rounded-xl bg-sand">
-                      {r.hero && r.hero.kind === "photo" ? <Image src={r.hero.url} alt="" fill sizes="80px" className="object-cover" /> : <span className="flex size-full items-center justify-center text-muted/50"><Icon name="mountain" size={20} /></span>}
-                    </span>
-                    <span className="min-w-0 flex-1">
-                      <span className="block text-xs font-semibold uppercase tracking-wider text-[#666]">{r.type === "day_trip" ? "Day trip" : "Nearby"} · {kindLabel(r.kind)}</span>
-                      <span className="block truncate font-semibold text-ink">{r.name}</span>
-                      {r.summary ? <span className="line-clamp-2 text-xs text-muted">{r.summary}</span> : null}
-                    </span>
-                  </>
-                );
-                return (
-                  <li key={`${r.slug}-${r.type}`}>
-                    {to ? <Link href={to} className="flex items-center gap-3 rounded-2xl border border-line bg-white p-3 hover:border-coral">{inner}</Link> : <div className="flex items-center gap-3 rounded-2xl border border-line bg-white p-3">{inner}</div>}
-                  </li>
-                );
-              })}
-            </ul>
-          </Block>
-        ) : null}
-
-        {inline.length ? (
-          <Block id="more-places" title={`More about places in ${place.name}`}>
-            <Accordion
-              defaultOpen={-1}
-              items={inline.map((c) => ({
-                title: c.snapshot.place.name,
-                badge: <span className="text-xs font-normal text-[#888]">{kindLabel(c.snapshot.place.kind)}</span>,
-                body: (
-                  <div id={c.slug} className="scroll-mt-24 space-y-3">
-                    {c.snapshot.place.summary ? <p className="text-[#666]">{c.snapshot.place.summary}</p> : null}
-                    {c.snapshot.sections.map((sec) => <SectionBody key={sec.key} s={sec} />)}
-                  </div>
-                ),
-              }))}
-            />
-          </Block>
-        ) : null}
-
-        {preview ? null : (
-          <section aria-labelledby="ask-h" className="overflow-hidden rounded-2xl border border-line bg-[#F1EEE7]">
-            <div className="grid items-center @3xl:grid-cols-[16rem_1fr]">
-              {hero && hero.kind === "photo" ? (
-                <div className="relative hidden h-full min-h-44 @3xl:block">
-                  <Image src={hero.url} alt="" fill sizes="16rem" className="object-cover" />
-                </div>
-              ) : null}
-              <div className={`p-6 @xl:p-8 ${hero && hero.kind === "photo" ? "" : "@3xl:col-span-2"}`}>
-                <p className="text-xs font-semibold uppercase tracking-wider text-[#B9442B]">Plan your {place.name} trip</p>
-                <h2 id="ask-h" className="mt-1 font-serif text-2xl font-medium text-ink">Ask our AI travel assistant</h2>
-                <p className="mt-2 max-w-lg text-[0.9375rem] leading-relaxed text-muted">Get a day-by-day plan, how to get there and what to see. It answers from this guide first and shows the source for anything it looks up.</p>
-                <Link href={routes.chatWithPrompt(plannerPrompt)} className="mt-5 inline-flex items-center gap-2 rounded-full bg-ink px-5 py-2.5 text-sm font-semibold text-white hover:bg-black">
-                  Start chatting <Icon name="arrowRight" size={15} />
-                </Link>
-              </div>
-            </div>
           </section>
-        )}
+        </div>
+
+        {hasSidebar ? sidebar : null}
+
+        <div className="@container min-w-0 space-y-14 @5xl:col-start-1 @5xl:row-start-2">
+          {regions ? <Block id="regions" eyebrow="Explore" title={`Regions of ${place.name}`}><Accordion items={(regions.body.items ?? []).map((it) => ({ title: it.title ?? "", body: it.body }))} /></Block> : null}
+
+          {/* 3. Destinations and attractions */}
+          {regionGroups.length ? (
+            <Block id="destinations" eyebrow="Explore" title="Popular destinations" intro="Towns and bases, grouped by region.">
+              <div className="space-y-8">
+                {regionGroups.map(([region, list]) => (
+                  <div key={region || "all"}>
+                    {region ? <h3 className="mb-3 text-sm font-semibold uppercase tracking-wider text-[#2D5A3F]">{region}</h3> : regionGroups.length > 1 ? <h3 className="mb-3 text-sm font-semibold uppercase tracking-wider text-[#666]">Other destinations</h3> : null}
+                    <Rail label={region || "Destinations"}>
+                      {list.map((d) => <PlaceCard key={d.slug} p={d} href={childHref(d.slug)} meta={`${kindLabel(d.kind)}${d.parentName && d.parentKind !== "state" && d.parentKind !== "region" ? ` · near ${d.parentName}` : ""}`} />)}
+                    </Rail>
+                  </div>
+                ))}
+              </div>
+            </Block>
+          ) : null}
+
+          {placesCount ? (
+            <Block id="places" eyebrow="Explore" title={isState ? `Top places in ${place.name}` : `Places to visit in ${place.name}`} intro="Each card opens the full guide to that place.">
+              <FilterGrid
+                initial={6}
+                items={[
+                  ...attractions.map((a) => ({ key: a.slug, group: kindLabel(a.kind), node: <PlaceCard p={a} href={hrefOf(a)} meta={`${kindLabel(a.kind)}${a.parentName && a.parentName !== place.name ? ` · ${a.parentName}` : ""}`} /> })),
+                  ...inlinePlaces.map((c) => ({ key: c.slug, group: kindLabel(c.snapshot.place.kind), node: <PlaceCard p={{ name: c.snapshot.place.name, summary: c.snapshot.place.summary, hero: c.snapshot.place.hero }} href={preview ? null : `#${c.slug}`} meta={kindLabel(c.snapshot.place.kind)} /> })),
+                ]}
+              />
+            </Block>
+          ) : null}
+
+          {neighbourhoods ? (
+            <Block id="areas" eyebrow="Explore" title={`Areas of ${place.name}`}>
+              <ol className="grid gap-4 @xl:grid-cols-2">
+                {(neighbourhoods.body.items ?? []).map((it, i) => {
+                  const refs = mentions(`${it.title ?? ""} ${it.body}`);
+                  const photo = refs.find((m) => m.hero && m.hero.kind === "photo")?.hero ?? null;
+                  return (
+                    <li key={i} className="flex overflow-hidden rounded-2xl border border-line bg-white transition duration-300 hover:-translate-y-0.5 hover:shadow-card">
+                      <span className="relative w-24 shrink-0 bg-[#EEF4F0] @3xl:w-32">
+                        {photo ? <Image src={photo.url} alt="" fill sizes="128px" className="object-cover" /> : <span className="flex size-full items-center justify-center text-[#2D5A3F]/60"><Icon name="map" size={26} /></span>}
+                        <span className="absolute left-2 top-2 flex size-7 items-center justify-center rounded-full bg-white font-serif text-sm font-semibold text-ink shadow-sm">{i + 1}</span>
+                      </span>
+                      <span className="flex min-w-0 flex-1 flex-col p-4">
+                        <span className="flex items-center gap-2 font-serif text-[1.0625rem] font-medium leading-snug text-ink">{it.title}<StatusPill status={it.status} /></span>
+                        <span className="mt-1 text-[0.8125rem] leading-relaxed text-[#555]">{it.body}</span>
+                        {refs.length ? (
+                          <span className="mt-auto flex flex-wrap gap-1.5 pt-3">
+                            {refs.slice(0, 4).map((m) => m.href ? <Link key={m.name} href={m.href} className="inline-flex items-center gap-1 rounded-full border border-line px-2.5 py-0.5 text-[0.6875rem] font-medium text-[#2D5A3F] transition hover:border-[#2D5A3F]"><Icon name="pin" size={10} />{m.name}</Link> : null)}
+                          </span>
+                        ) : null}
+                      </span>
+                    </li>
+                  );
+                })}
+              </ol>
+            </Block>
+          ) : null}
+
+          {inline.length && !preview ? (
+            <HashDialogs
+              items={inline.map((c) => {
+                const ip = c.snapshot.place;
+                return {
+                  slug: c.slug,
+                  title: ip.name,
+                  body: (
+                    <div>
+                      {ip.hero ? (
+                        <div className="relative aspect-[16/9] bg-sand">
+                          <Image src={ip.hero.url} alt={ip.hero.alt} fill sizes="(min-width: 768px) 672px, 100vw" className="object-cover" />
+                          <CardCredit img={ip.hero} />
+                        </div>
+                      ) : null}
+                      <div className="space-y-3 p-5 @xl:p-6">
+                        <p className="text-[0.6875rem] font-semibold uppercase tracking-wider text-[#B9442B]">{ip.kind === "activity" && ip.category ? (categoryLabel(ip.category) ?? kindLabel(ip.kind)) : kindLabel(ip.kind)} · {place.name}</p>
+                        <h2 className="font-serif text-2xl font-medium leading-tight text-ink">{ip.name}</h2>
+                        {ip.summary ? <p className="text-[0.9375rem] leading-relaxed text-[#444]">{ip.summary}</p> : null}
+                        {c.snapshot.sections.map((sec) => <SectionBody key={sec.key} s={sec} />)}
+                        <a href={routes.chatWithPrompt(`Tell me about ${ip.name} in ${place.name}`)} className="inline-flex items-center gap-1.5 pt-1 text-sm font-semibold text-[#2D5A3F] hover:text-coral"><Icon name="sparkles" size={14} /> Ask AI about {ip.name}</a>
+                      </div>
+                    </div>
+                  ),
+                };
+              })}
+            />
+          ) : null}
+
+          {inline.length && preview ? (
+            <Block id="more-places" title={`Places shown inside ${place.name}`}>
+              <Accordion defaultOpen={-1} items={inline.map((c) => ({ title: c.snapshot.place.name, body: <div className="space-y-3">{c.snapshot.sections.map((sec) => <SectionBody key={sec.key} s={sec} />)}</div> }))} />
+            </Block>
+          ) : null}
+
+          {/* 4. Things to do */}
+          {activities.length || thingsToDo ? (
+            <Block id="things" eyebrow="Experiences" title={`Things to do${isActivity ? " here" : ` in ${place.name}`}`} more={activities.length ? thingsMore : null}>
+              <div className="space-y-6">
+                {activities.length ? <ActivityGrid items={activityCards} /> : null}
+                {thingsToDo && !activities.length ? <CheckList s={thingsToDo} columns /> : null}
+              </div>
+            </Block>
+          ) : null}
+
+          {/* 5. Itineraries */}
+          {itineraries.length || itinerary ? (
+            <Block id="itineraries" eyebrow="Ready-made plans" title="Itineraries" intro={itineraries.length ? `Day-by-day plans with a stop in ${place.name}.` : undefined} more={itineraries.length && !preview ? { href: "/itineraries", label: "All itineraries" } : null}>
+              <div className="space-y-6">
+                {itineraries.length ? (
+                  <Rail label="Itineraries">
+                    {itineraries.map((it) => {
+                      const inner = (
+                        <>
+                          <span className="relative block aspect-[16/10] overflow-hidden bg-sand">
+                            {it.hero ? <Image src={it.hero.url} alt="" fill sizes="360px" className="object-cover transition-transform duration-500 group-hover:scale-105" /> : null}
+                            <span className="absolute left-2.5 top-2.5 rounded-full bg-white px-2.5 py-0.5 text-xs font-bold text-ink shadow-sm">{it.durationDays} day{it.durationDays === 1 ? "" : "s"}</span>
+                            {it.hero ? <CardCredit img={it.hero} /> : null}
+                          </span>
+                          <span className="flex min-w-0 flex-1 flex-col gap-1 p-4">
+                            <span className="text-[0.6875rem] font-semibold uppercase tracking-wider text-[#777]">Starts in {it.placeName}</span>
+                            <span className="font-serif text-lg font-medium leading-snug text-ink group-hover:text-coral">{it.title}</span>
+                            <span className="line-clamp-2 text-[0.8125rem] leading-relaxed text-[#555]">{it.summary}</span>
+                            {it.stopNames.length ? (
+                              <span className="flex flex-wrap gap-1 pt-2">
+                                {it.stopNames.map((n) => <span key={n} className="rounded-full bg-[#EEF4F0] px-2 py-0.5 text-[0.6875rem] font-medium text-[#2D5A3F]">{n}</span>)}
+                              </span>
+                            ) : null}
+                            {preview ? null : <span className="mt-auto inline-flex items-center gap-1 pt-3 text-sm font-semibold text-[#2D5A3F] group-hover:text-coral">View day-by-day plan <Icon name="arrowRight" size={14} className="transition-transform group-hover:translate-x-0.5" /></span>}
+                          </span>
+                        </>
+                      );
+                      return preview ? (
+                        <div key={it.slug} className="flex w-full flex-col overflow-hidden rounded-2xl border border-line bg-white">{inner}</div>
+                      ) : (
+                        <Link key={it.slug} href={`/itineraries/${it.slug}`} className="group flex w-full flex-col overflow-hidden rounded-2xl border border-line bg-white transition duration-300 hover:-translate-y-1 hover:shadow-card-hover">{inner}</Link>
+                      );
+                    })}
+                  </Rail>
+                ) : null}
+                {itinerary ? (
+                  <div className="rounded-2xl border border-line bg-white p-5 @xl:p-6">
+                    <p className="mb-5 flex items-center gap-2 font-semibold text-ink"><Icon name="route" size={18} className="text-coral" /> Suggested plan: {(itinerary.body.items ?? []).length} day{(itinerary.body.items ?? []).length === 1 ? "" : "s"}</p>
+                    <DaysTimeline s={itinerary} />
+                  </div>
+                ) : null}
+              </div>
+            </Block>
+          ) : null}
+
+          {/* 6. Travel guides */}
+          {guides.length ? (
+            <Block id="guides" eyebrow="Read before you go" title="Travel guides" more={preview ? null : { href: "/travel-guides?tab=articles", label: "All guides" }}>
+              <ul className="grid gap-3 @xl:grid-cols-2">
+                {guides.map((g) => {
+                  const to = link(`/travel-guides/${g.slug}`);
+                  const inner = (
+                    <>
+                      <span className="relative size-20 shrink-0 overflow-hidden rounded-xl bg-[#EEF4F0] @3xl:size-24">
+                        {g.hero ? <Image src={g.hero.url} alt="" fill sizes="96px" className="object-cover transition-transform duration-500 group-hover:scale-105" /> : <span className="flex size-full items-center justify-center text-[#2D5A3F]"><Icon name="book" size={24} /></span>}
+                      </span>
+                      <span className="min-w-0 flex-1">
+                        <span className="flex items-center gap-1 text-[0.6875rem] font-semibold uppercase tracking-wider text-[#B9442B]"><Icon name="fileText" size={12} /> Guide{g.placeNames.length ? ` · ${g.placeNames.slice(0, 2).join(", ")}` : ""}</span>
+                        <span className="mt-0.5 block font-serif text-[1.0625rem] font-medium leading-snug text-ink group-hover:text-coral">{g.title}</span>
+                        {g.summary ? <span className="mt-0.5 line-clamp-2 text-[0.8125rem] leading-relaxed text-[#555]">{g.summary}</span> : null}
+                      </span>
+                    </>
+                  );
+                  return (
+                    <li key={g.slug} className="flex">
+                      {to ? <Link href={to} className="group flex w-full items-center gap-4 rounded-2xl border border-line bg-white p-3 transition duration-300 hover:-translate-y-0.5 hover:border-[#D9D4CA] hover:shadow-card">{inner}</Link> : <div className="flex w-full items-center gap-4 rounded-2xl border border-line bg-white p-3">{inner}</div>}
+                    </li>
+                  );
+                })}
+              </ul>
+            </Block>
+          ) : null}
+
+          {/* 7. Food, shopping and local culture */}
+          {food || shopping || culture ? (
+            <Block id="food" eyebrow="Local life" title={`${localTitle} in ${place.name}`} intro={[food ? "what to eat" : null, shopping ? "where to shop" : null, culture ? "how to fit in" : null].filter(Boolean).join(", ").replace(/^./, (c) => c.toUpperCase()).replace(/, ([^,]*)$/, " and $1") + "."}>
+              <div className="space-y-5">
+                <div className={`grid gap-4 ${[food, shopping, culture].filter(Boolean).length > 1 ? "@3xl:grid-cols-2" : ""}`}>
+                  {food ? <LocalPanel s={food} title="Food to try" icon="utensils" tone="coral" /> : null}
+                  {shopping ? <LocalPanel s={shopping} title="Shopping and markets" icon="bag" tone="green" /> : null}
+                  {culture ? <div className={food && shopping ? "@3xl:col-span-2" : ""}><LocalPanel s={culture} title="Local culture and etiquette" icon="heart" tone="blue" wide={!!(food && shopping)} /></div> : null}
+                </div>
+                {localSpots.length ? (
+                  <div>
+                    <p className="mb-2.5 text-[0.6875rem] font-semibold uppercase tracking-wider text-[#666]">Where to go for it</p>
+                    <ul className="grid gap-3 @xl:grid-cols-2 @4xl:grid-cols-3">
+                      {localSpots.map((a) => {
+                        const to = hrefOf(a);
+                        const inner = (
+                          <>
+                            <span className="relative size-14 shrink-0 overflow-hidden rounded-xl bg-[#FBEDE8]">
+                              {a.hero ? <Image src={a.hero.url} alt="" fill sizes="56px" className="object-cover transition-transform duration-500 group-hover:scale-110" /> : <span className="flex size-full items-center justify-center text-coral/70"><Icon name="utensils" size={20} /></span>}
+                            </span>
+                            <span className="min-w-0 flex-1">
+                              <span className="block text-sm font-semibold leading-snug text-ink group-hover:text-coral">{a.name}</span>
+                              {a.summary ? <span className="line-clamp-2 text-xs leading-relaxed text-[#666]">{a.summary}</span> : null}
+                            </span>
+                            <Icon name="arrowRight" size={15} className="shrink-0 text-[#999] transition group-hover:translate-x-0.5 group-hover:text-coral" />
+                          </>
+                        );
+                        return (
+                          <li key={a.slug} className="flex">
+                            {to ? <Link href={to} className="group flex w-full items-center gap-3 rounded-2xl border border-line bg-white p-2.5 pr-3.5 transition hover:-translate-y-0.5 hover:shadow-card">{inner}</Link> : <div className="flex w-full items-center gap-3 rounded-2xl border border-line bg-white p-2.5 pr-3.5">{inner}</div>}
+                          </li>
+                        );
+                      })}
+                    </ul>
+                  </div>
+                ) : null}
+              </div>
+            </Block>
+          ) : null}
+
+          {/* 8. Detailed planning */}
+          {planTabs.length ? (
+            <Block id="plan" eyebrow="Practical information" title={`Plan your ${place.name} trip`}>
+              <Tabs variant="underline" label="Plan your trip" tabs={planTabs} />
+            </Block>
+          ) : null}
+
+          {/* 9. FAQs and nearby */}
+          {faqs || nearby.length ? (
+            <div className={`grid gap-10 ${faqs && nearby.length ? "@4xl:grid-cols-[minmax(0,1.5fr)_minmax(0,1fr)]" : ""}`}>
+              {faqs ? <Block id="faqs" eyebrow="Good to know" title="Frequently asked questions"><FaqList s={faqs} /></Block> : null}
+              {nearby.length ? (
+                <Block id="nearby" eyebrow="Go further" title="Nearby and day trips">
+                  <ul className="grid gap-3 @xl:grid-cols-2">
+                    {nearby.map((r) => {
+                      const to = link(relatedHref(r));
+                      const inner = (
+                        <>
+                          <span className="relative size-16 shrink-0 overflow-hidden rounded-xl bg-sand">
+                            {r.hero && r.hero.kind === "photo" ? <Image src={r.hero.url} alt="" fill sizes="64px" className="object-cover" /> : <span className="flex size-full items-center justify-center text-muted/50"><Icon name="mountain" size={20} /></span>}
+                          </span>
+                          <span className="min-w-0 flex-1">
+                            <span className="block text-[0.6875rem] font-semibold uppercase tracking-wider text-[#666]">{r.type === "day_trip" ? "Day trip" : "Nearby"} · {kindLabel(r.kind)}</span>
+                            <span className="block truncate font-semibold text-ink">{r.name}</span>
+                            {r.summary ? <span className="line-clamp-2 text-xs text-muted">{r.summary}</span> : null}
+                          </span>
+                        </>
+                      );
+                      return (
+                        <li key={`${r.slug}-${r.type}`}>
+                          {to ? <Link href={to} className="flex items-center gap-3 rounded-2xl border border-line bg-white p-3 transition hover:-translate-y-0.5 hover:border-coral">{inner}</Link> : <div className="flex items-center gap-3 rounded-2xl border border-line bg-white p-3">{inner}</div>}
+                        </li>
+                      );
+                    })}
+                  </ul>
+                </Block>
+              ) : null}
+            </div>
+          ) : null}
+
+          {/* 10. AI travel planner */}
+          {preview ? null : (
+            <section id="planner" aria-labelledby="ask-h" className="relative scroll-mt-36 overflow-hidden rounded-3xl bg-[#1F3F2C] text-white">
+              {hero && hero.kind === "photo" ? (
+                <>
+                  <Image src={hero.url} alt="" fill sizes="(min-width: 1024px) 860px, 100vw" className="object-cover opacity-30" />
+                  <div aria-hidden className="absolute inset-0 bg-gradient-to-r from-[#1F3F2C] via-[#1F3F2C]/90 to-[#1F3F2C]/40" />
+                </>
+              ) : null}
+              <div className="relative max-w-xl p-6 @xl:p-9">
+                <p className="flex items-center gap-1.5 text-xs font-semibold uppercase tracking-wider text-[#F3B6A6]"><Icon name="sparkles" size={14} /> AI travel planner</p>
+                <h2 id="ask-h" className="mt-1.5 font-serif text-[1.625rem] font-medium leading-tight @3xl:text-[2rem]">Plan your {place.name} trip in minutes</h2>
+                <p className="mt-2 text-[0.9375rem] leading-relaxed text-white/85">Get a day-by-day plan, how to get there and what to see. It answers from this guide first and shows the source for anything it looks up.</p>
+                <div className="mt-5"><AskBox placeName={place.name} tone="hero" /></div>
+                <Link href={routes.chatWithPrompt(plannerPrompt)} className="mt-3 inline-flex items-center gap-1.5 text-sm font-semibold text-white/90 hover:text-white hover:underline">Or start with “{plannerPrompt}” <Icon name="arrowRight" size={14} /></Link>
+              </div>
+            </section>
+          )}
+        </div>
       </div>
     </article>
   );

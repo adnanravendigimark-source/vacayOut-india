@@ -74,7 +74,7 @@ export default async function ItineraryPage({ params }: Params) {
 
       <div className="container-site grid gap-10 py-10 lg:grid-cols-[minmax(0,1fr)_20rem]">
         <ItineraryPlanView plan={it.plan} placeHref={placeHref} />
-        <aside className="space-y-5 lg:sticky lg:top-20 lg:self-start">
+        <aside className="space-y-5 lg:sticky lg:top-24 lg:self-start">
           {it.place.path ? (
             <Link href={it.place.path} className="block rounded-2xl border border-line bg-white p-5 shadow-card hover:border-coral">
               <p className="text-xs font-semibold uppercase tracking-wider text-coral">Destination guide</p>

@@ -73,7 +73,7 @@ export default async function GuidePage({ params }: Params) {
 
       <div className="container-site grid gap-10 py-10 lg:grid-cols-[minmax(0,1fr)_19rem]">
         <GuideArticle body={g.body} />
-        <aside className="space-y-5 lg:sticky lg:top-20 lg:self-start">
+        <aside className="space-y-5 lg:sticky lg:top-24 lg:self-start">
           <nav aria-label="In this guide" className="rounded-2xl border border-line bg-white p-5">
             <p className="text-xs font-semibold uppercase tracking-wider text-muted">In this guide</p>
             <ol className="mt-3 space-y-2 text-sm">

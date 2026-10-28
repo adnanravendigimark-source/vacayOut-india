@@ -35,7 +35,7 @@ export function ActivityGrid({ items }: { items: ActivityCard[] }) {
           ))}
         </div>
       ) : null}
-      <ul className="grid gap-4 @lg:grid-cols-2 @3xl:grid-cols-3 @5xl:grid-cols-4">
+      <ul className="grid grid-cols-2 gap-3 @3xl:grid-cols-3 @3xl:gap-4 @5xl:grid-cols-4">
         {shown.map((a) => {
           const inner = (
             <>
@@ -43,7 +43,7 @@ export function ActivityGrid({ items }: { items: ActivityCard[] }) {
                 {a.hero ? <Image src={a.hero.url} alt={a.hero.alt} fill sizes="(min-width: 1024px) 360px, 100vw" className="object-cover transition-transform duration-500 group-hover:scale-105" /> : <span className="flex size-full items-center justify-center bg-gradient-to-br from-[#FBEDE8] via-[#F7F2EA] to-[#EEF4F0] text-coral/70 transition-transform duration-500 group-hover:scale-105"><Icon name={ICON[a.category ?? ""] ?? "compass"} size={34} /></span>}
                 {a.hero?.kind === "ai_generated" ? <span className="absolute left-2 top-2 rounded bg-black/65 px-1.5 py-0.5 text-[0.625rem] font-semibold text-white">AI illustration</span> : null}
               </span>
-              <span className="flex flex-1 flex-col gap-1 p-3.5">
+              <span className="flex flex-1 flex-col gap-1 p-3 @xl:p-3.5">
                 <span className="text-[0.6875rem] font-semibold uppercase tracking-wider text-[#B9442B]">{label(a.category)}</span>
                 <span className="text-[0.9375rem] font-semibold leading-snug text-ink group-hover:text-coral">{a.name}</span>
                 {a.summary ? <span className="line-clamp-2 text-[0.8125rem] leading-relaxed text-[#555]">{a.summary}</span> : null}

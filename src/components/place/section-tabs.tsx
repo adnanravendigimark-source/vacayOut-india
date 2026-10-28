@@ -15,7 +15,7 @@ export function SectionTabs({ tabs }: { tabs: { id: string; label: string }[] })
         const visible = entries.filter((e) => e.isIntersecting).sort((a, b) => a.boundingClientRect.top - b.boundingClientRect.top);
         if (visible[0]) setActive(visible[0].target.id);
       },
-      { rootMargin: "-80px 0px -60% 0px" },
+      { rootMargin: "-150px 0px -55% 0px" },
     );
     els.forEach((e) => io.observe(e));
     return () => io.disconnect();
@@ -33,7 +33,7 @@ export function SectionTabs({ tabs }: { tabs: { id: string; label: string }[] })
   }, [active]);
 
   return (
-    <nav aria-label="On this page" className="sticky top-0 z-20 border-b border-line bg-white/95 backdrop-blur-md">
+    <nav aria-label="On this page" className="sticky top-[4.5rem] z-30 lg:top-20 border-b border-line bg-white/95 backdrop-blur-md">
       <div ref={nav} className="container-site relative flex gap-1 overflow-x-auto [scrollbar-width:none]">
         {tabs.map((t) => (
           <a
@@ -41,7 +41,7 @@ export function SectionTabs({ tabs }: { tabs: { id: string; label: string }[] })
             href={`#${t.id}`}
             data-tab={t.id}
             aria-current={active === t.id ? "location" : undefined}
-            className={`shrink-0 border-b-2 px-3 py-4 text-sm font-medium transition-colors sm:px-4 ${active === t.id ? "border-coral text-ink" : "border-transparent text-muted hover:text-ink"}`}
+            className={`shrink-0 border-b-2 px-3 py-3.5 text-sm font-medium transition-colors sm:px-4 ${active === t.id ? "border-coral text-ink" : "border-transparent text-muted hover:text-ink"}`}
           >
             {t.label}
           </a>

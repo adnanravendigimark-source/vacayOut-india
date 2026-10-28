@@ -22,7 +22,7 @@ export function PlacesExplorer({ title, stateName, places }: { title: string; st
 
   return (
     <div>
-      <div ref={top} className="mb-5 flex flex-wrap items-end justify-between gap-3 scroll-mt-20">
+      <div ref={top} className="mb-5 flex flex-wrap items-end justify-between gap-3 scroll-mt-24">
         <h2 className="font-serif text-[1.75rem] font-medium text-ink">{title}</h2>
         {current ? (
           <button type="button" onClick={() => setType(null)} className="inline-flex items-center gap-1.5 rounded-full bg-ink px-3 py-1.5 text-xs font-semibold text-white">

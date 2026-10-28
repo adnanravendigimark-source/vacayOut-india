@@ -98,12 +98,12 @@ export function FaqList({ s }: { s: Section }) {
 export function BudgetTable({ s }: { s: Section }) {
   return (
     <div>
-      <p className="rounded-lg bg-amber-50 px-3 py-2 text-sm text-amber-900">Estimates only — prices change. Check current rates before you travel.</p>
+      <p className="rounded-lg bg-amber-50 px-3 py-2 text-sm text-amber-900">Prices change — check current rates before you travel.</p>
       {s.body.text ? <p className="mt-3 leading-relaxed text-muted">{s.body.text}</p> : null}
       <div className="mt-3 overflow-hidden rounded-xl border border-line bg-white">
         <table className="w-full text-left text-sm">
           <thead className="bg-[#F7F5F0] text-xs uppercase tracking-wide text-muted">
-            <tr><th className="px-4 py-2.5 font-semibold">Cost</th><th className="px-4 py-2.5 font-semibold">Estimate</th></tr>
+            <tr><th className="px-4 py-2.5 font-semibold">Cost</th><th className="px-4 py-2.5 font-semibold">Amount</th></tr>
           </thead>
           <tbody>
             {(s.body.items ?? []).map((it, i) => (

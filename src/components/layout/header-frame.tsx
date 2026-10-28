@@ -23,7 +23,7 @@ export function HeaderFrame({ children }: { children: (props: { isHome: boolean;
   if (pathname.startsWith("/admin")) return null;
 
   const headerClass = !isHome
-    ? "relative z-30 border-b border-line bg-white/95 backdrop-blur-md"
+    ? "sticky top-0 z-40 border-b border-line bg-white/95 backdrop-blur-md"
     : isScrolled
       ? "fixed inset-x-0 top-0 z-40 bg-white/95 backdrop-blur-md border-b border-line shadow-sm transition-all duration-300"
       : // At the top of the homepage the header sits directly on the hero video, with no background of its own.

@@ -1,7 +1,9 @@
 "use client";
 
 import { Children, useCallback, useEffect, useId, useRef, useState, type KeyboardEvent, type ReactNode } from "react";
+import { useRouter } from "next/navigation";
 import { Icon } from "@/components/icons/icon";
+import { routes } from "@/lib/routes";
 
 /**
  * Small interactive pieces for the shared place template. Every panel's
@@ -36,7 +38,7 @@ export function Rail({ children, label }: { children: ReactNode; label: string }
     <div className="relative" role="region" aria-label={label}>
       <ul ref={ref} className="-mx-1 flex snap-x snap-mandatory gap-4 overflow-x-auto scroll-smooth px-1 pb-3 [scrollbar-width:none] [&::-webkit-scrollbar]:hidden">
         {items.map((c, i) => (
-          <li key={i} className="flex w-[80%] shrink-0 snap-start @xl:w-[45%] @4xl:w-[31.5%]">{c}</li>
+          <li key={i} className="flex w-[82%] shrink-0 snap-start @lg:w-[46%] @3xl:w-[31.5%]">{c}</li>
         ))}
       </ul>
       {items.length > 1 ? (
@@ -147,7 +149,7 @@ export function FilterGrid({ items, initial = 8, allLabel = "All" }: { items: { 
           ))}
         </div>
       ) : null}
-      <ul className="grid grid-cols-1 gap-4 @lg:grid-cols-2 @3xl:grid-cols-3 @5xl:grid-cols-4">
+      <ul className="grid grid-cols-2 gap-3 @3xl:grid-cols-3 @3xl:gap-4 @5xl:grid-cols-4">
         {visible.map((i) => <li key={i.key} className="flex">{i.node}</li>)}
       </ul>
       {shown.length > initial ? (
@@ -181,7 +183,7 @@ export function Accordion({ items, defaultOpen = 0 }: { items: { title: string; 
   return (
     <div ref={box} className="divide-y divide-line overflow-hidden rounded-2xl border border-line bg-white">
       {items.map((it, i) => (
-        <details key={i} className="group scroll-mt-24" open={i === defaultOpen}>
+        <details key={i} className="group scroll-mt-36" open={i === defaultOpen}>
           <summary className="flex cursor-pointer list-none items-center justify-between gap-3 px-5 py-3.5 text-[0.9375rem] font-semibold text-ink transition-colors hover:bg-[#F7F5F0] [&::-webkit-details-marker]:hidden">
             <span className="flex flex-wrap items-center gap-2">{it.title}{it.badge}</span>
             <Icon name="chevronDown" size={17} className="shrink-0 text-[#888] transition-transform group-open:rotate-180" />
@@ -190,5 +192,89 @@ export function Accordion({ items, defaultOpen = 0 }: { items: { title: string; 
         </details>
       ))}
     </div>
+  );
+}
+
+/** "Ask AI to plan your trip" box: opens the chat with the visitor's question. */
+export function AskBox({ placeName, suggestions = [], tone = "light" }: { placeName: string; suggestions?: string[]; tone?: "light" | "hero" }) {
+  const router = useRouter();
+  const [q, setQ] = useState("");
+  const go = (text: string) => router.push(routes.chatWithPrompt(text.trim() || `Plan a trip to ${placeName}`));
+  const hero = tone === "hero";
+  return (
+    <div>
+      <form onSubmit={(e) => { e.preventDefault(); go(q); }} role="search" className={`flex items-center gap-2 rounded-full border p-1.5 pl-4 shadow-card ${hero ? "border-white/40 bg-white/95" : "border-line bg-white"}`}>
+        <Icon name="sparkles" size={16} className="shrink-0 text-coral" />
+        <label className="sr-only" htmlFor={`ask-${tone}`}>Ask our AI planner about {placeName}</label>
+        <input id={`ask-${tone}`} value={q} onChange={(e) => setQ(e.target.value)} maxLength={300} placeholder={`Ask AI to plan your ${placeName} trip…`} className="min-w-0 flex-1 bg-transparent text-sm text-ink placeholder:text-[#888] focus:outline-none" />
+        <button type="submit" aria-label="Ask" className="flex size-9 shrink-0 items-center justify-center rounded-full bg-[#2D5A3F] text-white transition hover:scale-105 hover:bg-[#244A33]"><Icon name="arrowRight" size={16} /></button>
+      </form>
+      {suggestions.length ? (
+        <div className="mt-3 flex flex-wrap gap-1.5">
+          {suggestions.map((s) => (
+            <button key={s} type="button" onClick={() => go(s)} className="rounded-full border border-line bg-white px-3 py-1 text-xs text-[#444] transition hover:-translate-y-0.5 hover:border-ink">{s}</button>
+          ))}
+        </div>
+      ) : null}
+    </div>
+  );
+}
+
+/**
+ * Detail pop-ups for places shown inside this page. Each has its own link
+ * (#slug): following it, or clicking a card that points to it, opens the
+ * pop-up. Content stays in the HTML for search engines and no-JS readers.
+ */
+export function HashDialogs({ items }: { items: { slug: string; title: string; body: ReactNode }[] }) {
+  const refs = useRef<Record<string, HTMLDialogElement | null>>({});
+  useEffect(() => {
+    const open = () => {
+      const id = decodeURIComponent(window.location.hash.slice(1));
+      const d = id ? refs.current[id] : null;
+      if (d && !d.open) d.showModal();
+    };
+    // Client-side links (next/link) change the hash without a hashchange event, so catch the click itself.
+    const onClick = (e: MouseEvent) => {
+      if (e.defaultPrevented || e.button !== 0 || e.metaKey || e.ctrlKey || e.shiftKey || e.altKey) return;
+      const a = (e.target as Element | null)?.closest?.("a[href^='#']");
+      const id = a ? decodeURIComponent((a.getAttribute("href") ?? "").slice(1)) : "";
+      const d = id ? refs.current[id] : null;
+      if (!d) return;
+      e.preventDefault();
+      history.pushState(null, "", `#${encodeURIComponent(id)}`);
+      if (!d.open) d.showModal();
+    };
+    open();
+    window.addEventListener("hashchange", open);
+    document.addEventListener("click", onClick, true);
+    return () => {
+      window.removeEventListener("hashchange", open);
+      document.removeEventListener("click", onClick, true);
+    };
+  }, []);
+  const onClose = (slug: string) => {
+    if (window.location.hash === `#${encodeURIComponent(slug)}` || window.location.hash === `#${slug}`) {
+      history.replaceState(null, "", window.location.pathname + window.location.search);
+    }
+  };
+  return (
+    <>
+      {items.map((it) => (
+        <dialog
+          key={it.slug}
+          id={it.slug}
+          ref={(el) => { refs.current[it.slug] = el; }}
+          aria-label={it.title}
+          onClose={() => onClose(it.slug)}
+          onClick={(e) => { if (e.target === e.currentTarget) e.currentTarget.close(); }}
+          className="@container m-auto max-h-[88dvh] w-[calc(100%-2rem)] max-w-2xl overflow-y-auto rounded-2xl bg-[#FBFAF7] p-0 text-ink shadow-2xl backdrop:bg-black/55 backdrop:backdrop-blur-[2px] open:animate-[fadeIn_.2s_ease-out]"
+        >
+          <form method="dialog" className="sticky top-0 z-10 flex justify-end p-2 [height:0]">
+            <button type="submit" aria-label="Close" className="flex size-9 items-center justify-center rounded-full bg-white/95 text-ink shadow-card transition hover:scale-105"><span aria-hidden className="text-xl leading-none">×</span></button>
+          </form>
+          {it.body}
+        </dialog>
+      ))}
+    </>
   );
 }
