@@ -2,9 +2,10 @@
 
 import Image from "next/image";
 import Link from "next/link";
+import { useState } from "react";
 import { Icon, type Name } from "@/components/icons/icon";
 import { SectionHeader } from "./section-header";
-import { routes } from "@/lib/routes";
+import { IndiaRegionalMap } from "./india-regional-map";
 
 interface RegionItem {
   name: string;
@@ -91,13 +92,15 @@ export function ExploreRegionsAndTripTypes({
 }: {
   onPlan: (prompt: string) => void;
 }) {
+  const [hoveredZone, setHoveredZone] = useState<string | null>(null);
+
   return (
     <section id="trip-types" className="py-10 sm:py-14 bg-white border-b border-[#ECE9E2]">
       <div className="container-site">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-10">
           {/* Left Column: Explore by State or Region */}
           <div className="lg:col-span-6 flex flex-col justify-between">
-            <div>
+            <div className="flex flex-col h-full">
               <SectionHeader
                 icon="map"
                 title="Explore by State or Region"
@@ -105,99 +108,65 @@ export function ExploreRegionsAndTripTypes({
                 className="mb-5 sm:mb-6"
               />
 
-              <div className="grid grid-cols-1 sm:grid-cols-12 gap-4 items-center">
-                {/* Visual Stylized India Regional Map with Badges */}
-                <div className="sm:col-span-5 relative flex items-center justify-center p-3 rounded-2xl bg-[#F6F8F5] border border-[#E8EDE6] min-h-[260px] overflow-hidden">
-                  {/* Stylized vector map graphic of India */}
-                  <svg
-                    viewBox="0 0 240 280"
-                    className="w-full h-auto max-h-[250px] opacity-90 drop-shadow-xs"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    {/* Kashmir / North */}
-                    <path
-                      d="M100 20 C105 15, 120 15, 125 25 C130 35, 135 45, 125 55 C115 65, 100 65, 95 55 C90 45, 95 25, 100 20 Z"
-                      fill="#D8E8DC"
-                      stroke="#BED6C4"
-                      strokeWidth="1.5"
-                    />
-                    {/* Northern Plains / Rajasthan / West */}
-                    <path
-                      d="M75 60 C85 55, 125 55, 130 75 C125 95, 115 110, 85 115 C65 110, 55 90, 65 75 C70 65, 75 60, 75 60 Z"
-                      fill="#E2EEE4"
-                      stroke="#BED6C4"
-                      strokeWidth="1.5"
-                    />
-                    {/* Central India */}
-                    <path
-                      d="M85 115 C115 110, 145 115, 150 145 C145 170, 115 175, 90 165 C75 155, 70 130, 85 115 Z"
-                      fill="#CDE2D3"
-                      stroke="#B2D0BA"
-                      strokeWidth="1.5"
-                    />
-                    {/* Northeast India */}
-                    <path
-                      d="M165 75 C185 70, 215 75, 215 95 C215 115, 185 125, 165 110 C155 100, 155 85, 165 75 Z"
-                      fill="#D8E8DC"
-                      stroke="#BED6C4"
-                      strokeWidth="1.5"
-                    />
-                    {/* South India Peninsula */}
-                    <path
-                      d="M90 165 C115 175, 140 170, 130 205 C120 235, 110 260, 105 265 C100 260, 90 235, 80 205 C75 185, 85 170, 90 165 Z"
-                      fill="#C2DDD0"
-                      stroke="#A5C9B7"
-                      strokeWidth="1.5"
-                    />
-                  </svg>
+              <div className="grid grid-cols-1 sm:grid-cols-12 gap-3 sm:gap-4 flex-1 items-stretch">
+                {/* Visual Authentic India Regional Map with Badges */}
+                <IndiaRegionalMap
+                  activeZone={hoveredZone}
+                  onHoverZone={setHoveredZone}
+                  className="sm:col-span-7"
+                />
 
-                  {/* Regional Badges Overlaid Exactly as in Design */}
-                  <div className="absolute top-4 left-1/2 -translate-x-1/2 bg-white/95 backdrop-blur-xs border border-[#BED6C4] rounded-full px-2.5 py-0.5 text-[0.6875rem] font-bold text-ink shadow-xs">
-                    North <span className="text-[#666666] font-normal">(8)</span>
-                  </div>
-                  <div className="absolute top-1/2 left-3 -translate-y-1/2 bg-white/95 backdrop-blur-xs border border-[#BED6C4] rounded-full px-2.5 py-0.5 text-[0.6875rem] font-bold text-ink shadow-xs">
-                    West <span className="text-[#666666] font-normal">(5)</span>
-                  </div>
-                  <div className="absolute top-[42%] left-[45%] -translate-x-1/2 bg-white/95 backdrop-blur-xs border border-[#BED6C4] rounded-full px-2.5 py-0.5 text-[0.6875rem] font-bold text-ink shadow-xs">
-                    Central <span className="text-[#666666] font-normal">(5)</span>
-                  </div>
-                  <div className="absolute top-[32%] right-2 bg-white/95 backdrop-blur-xs border border-[#BED6C4] rounded-full px-2.5 py-0.5 text-[0.6875rem] font-bold text-ink shadow-xs">
-                    Northeast <span className="text-[#666666] font-normal">(8)</span>
-                  </div>
-                  <div className="absolute bottom-5 left-1/2 -translate-x-1/2 bg-white/95 backdrop-blur-xs border border-[#BED6C4] rounded-full px-2.5 py-0.5 text-[0.6875rem] font-bold text-ink shadow-xs">
-                    South <span className="text-[#666666] font-normal">(7)</span>
-                  </div>
-                </div>
-
-                {/* Region Cards Grid */}
-                <div className="sm:col-span-7 grid grid-cols-2 gap-2.5">
-                  {REGIONS.map((region) => (
-                    <Link
-                      key={region.name}
-                      href={`/india?zone=${region.slug}`}
-                      className="group flex items-center justify-between p-2.5 sm:p-3 rounded-xl border border-[#EAE7E0] bg-white hover:border-coral hover:shadow-xs transition-all cursor-pointer"
-                    >
-                      <div className="flex items-center gap-2.5 min-w-0">
-                        <div className="flex size-7 shrink-0 items-center justify-center rounded-lg bg-[#FAF8F5] text-ink group-hover:text-coral transition-colors">
-                          <Icon name={region.icon} size={15} />
+                {/* Region Cards Stack */}
+                <div className="sm:col-span-5 flex flex-col justify-between gap-1.5 sm:gap-2">
+                  {REGIONS.map((region) => {
+                    const isHovered = hoveredZone === region.slug;
+                    return (
+                      <Link
+                        key={region.name}
+                        href={`/india?zone=${region.slug}`}
+                        onMouseEnter={() => setHoveredZone(region.slug)}
+                        onMouseLeave={() => setHoveredZone(null)}
+                        className={`group flex items-center justify-between px-3 py-2.5 sm:px-3.5 sm:py-2.5 rounded-xl border transition-all cursor-pointer ${
+                          isHovered
+                            ? "border-coral bg-[#FAF8F5] shadow-xs translate-x-1"
+                            : "border-[#EAE7E0] bg-white hover:border-coral hover:shadow-xs"
+                        }`}
+                      >
+                        <div className="flex items-center gap-2.5 min-w-0">
+                          <div
+                            className={`flex size-8 shrink-0 items-center justify-center rounded-lg transition-colors ${
+                              isHovered
+                                ? "bg-coral text-white"
+                                : "bg-[#FAF8F5] text-ink group-hover:bg-coral group-hover:text-white"
+                            }`}
+                          >
+                            <Icon name={region.icon} size={16} />
+                          </div>
+                          <div className="min-w-0">
+                            <p
+                              className={`text-xs sm:text-sm font-bold truncate transition-colors ${
+                                isHovered ? "text-coral" : "text-ink group-hover:text-coral"
+                              }`}
+                            >
+                              {region.name}
+                            </p>
+                            <p className="text-[0.6875rem] text-[#777777] truncate">
+                              {region.count}
+                            </p>
+                          </div>
                         </div>
-                        <div className="min-w-0">
-                          <p className="text-xs font-bold text-ink truncate group-hover:text-coral transition-colors">
-                            {region.name}
-                          </p>
-                          <p className="text-[0.6875rem] text-[#777777] truncate">
-                            {region.count}
-                          </p>
-                        </div>
-                      </div>
-                      <Icon
-                        name="arrowRight"
-                        size={12}
-                        className="text-[#AAAAAA] group-hover:text-coral group-hover:translate-x-0.5 transition-all shrink-0 ml-1"
-                      />
-                    </Link>
-                  ))}
+                        <Icon
+                          name="arrowRight"
+                          size={13}
+                          className={`transition-all shrink-0 ml-1.5 ${
+                            isHovered
+                              ? "text-coral translate-x-0.5"
+                              : "text-[#AAAAAA] group-hover:text-coral group-hover:translate-x-0.5"
+                          }`}
+                        />
+                      </Link>
+                    );
+                  })}
                 </div>
               </div>
             </div>
