@@ -1,4 +1,5 @@
 import "server-only";
+import { refreshHubs } from "@/lib/publish/hubs";
 import { revalidatePath } from "next/cache";
 import { and, desc, eq, inArray } from "drizzle-orm";
 import { alias } from "drizzle-orm/pg-core";
@@ -101,6 +102,7 @@ export async function saveItinerary(id: string, input: ItineraryFields, actorId:
 }
 
 function refresh(slug: string) {
+  refreshHubs();
   try {
     revalidatePath("/itineraries");
     revalidatePath(`/itineraries/${slug}`);

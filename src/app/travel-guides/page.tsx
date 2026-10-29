@@ -1,11 +1,12 @@
 import type { Metadata } from "next";
-import { TravelGuidesPage } from "@/components/travel-guides/travel-guides-page";
+import { Suspense } from "react";
+import { TravelGuidesPage, TravelGuidesPageFromUrl } from "@/components/travel-guides/travel-guides-page";
 import { site } from "@/lib/site";
 import { PAGE_HEROES } from "@/lib/data/page-heroes";
 import { travelGuidesData } from "@/lib/places/public-lists";
 
-// Reads published guides on each request, so new publishes appear immediately.
-export const dynamic = "force-dynamic";
+// Served from the CDN cache and rebuilt at most every 5 minutes; publishing in the admin refreshes it at once.
+export const revalidate = 300;
 
 export const metadata: Metadata = {
   title: {
@@ -22,10 +23,8 @@ export const metadata: Metadata = {
   },
 };
 
-type Props = { searchParams: Promise<Record<string, string | string[] | undefined>> };
-
-export default async function Page({ searchParams }: Props) {
-  const { tab } = await searchParams;
+/** `?tab=articles|destinations` picks the tab; it's read in the browser so the page can be cached. */
+export default async function Page() {
   const data = await travelGuidesData();
   const jsonLd = {
     "@context": "https://schema.org",
@@ -42,7 +41,9 @@ export default async function Page({ searchParams }: Props) {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd).replace(/</g, "\\u003c") }}
       />
-      <TravelGuidesPage data={data} hero={PAGE_HEROES.travelGuides} initialTab={tab === "articles" || tab === "destinations" ? tab : undefined} />
+      <Suspense fallback={<TravelGuidesPage data={data} hero={PAGE_HEROES.travelGuides} />}>
+        <TravelGuidesPageFromUrl data={data} hero={PAGE_HEROES.travelGuides} />
+      </Suspense>
     </>
   );
 }

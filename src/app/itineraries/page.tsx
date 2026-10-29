@@ -4,8 +4,8 @@ import { site } from "@/lib/site";
 import { PAGE_HEROES } from "@/lib/data/page-heroes";
 import { listPublishedItineraries } from "@/lib/itineraries/service";
 
-// Reads published itineraries on each request, so new publishes appear immediately.
-export const dynamic = "force-dynamic";
+// Served from the CDN cache and rebuilt at most every 5 minutes; publishing in the admin refreshes it at once.
+export const revalidate = 300;
 
 export const metadata: Metadata = {
   title: {

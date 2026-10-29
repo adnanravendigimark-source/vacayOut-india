@@ -3,9 +3,8 @@ import { site } from "@/lib/site";
 import { HomeShell } from "@/components/home/home-shell";
 
 
-// Destination sections read published data from the database on each request,
-// so a publish/unpublish shows up immediately without a cache refresh.
-export const dynamic = "force-dynamic";
+// Served from the CDN cache and rebuilt at most every 5 minutes; publishing in the admin refreshes it at once.
+export const revalidate = 300;
 
 export default async function HomePage() {
   const data = await getHomepageData();

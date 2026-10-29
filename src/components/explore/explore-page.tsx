@@ -1,6 +1,7 @@
 "use client";
 
 import { useState, useMemo } from "react";
+import { useSearchParams } from "next/navigation";
 import Image from "next/image";
 import Link from "next/link";
 import { Icon, type Name } from "@/components/icons/icon";
@@ -418,4 +419,10 @@ export function ExplorePage({ data, hero, initialRegion = "all" }: { data: Explo
       />
     </div>
   );
+}
+
+/** The explore page with `?zone=` applied (read in the browser, so the server page stays cacheable). */
+export function ExplorePageFromUrl({ data, hero }: { data: ExploreData; hero: PageHero }) {
+  const zone = useSearchParams().get("zone") ?? "all";
+  return <ExplorePage key={zone} data={data} hero={hero} initialRegion={zone} />;
 }

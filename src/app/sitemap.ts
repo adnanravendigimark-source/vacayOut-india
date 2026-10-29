@@ -4,8 +4,8 @@ import { listPublishedForSitemap } from "@/lib/places/repo";
 import { listPublishedItineraries } from "@/lib/itineraries/service";
 import { listPublishedGuides } from "@/lib/guides/service";
 
-// Built from published places only, on each request (cheap: one indexed query).
-export const dynamic = "force-dynamic";
+// Built from published places only; cached for an hour (crawlers don't need it fresher).
+export const revalidate = 3600;
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const base = site.url.replace(/\/$/, "");

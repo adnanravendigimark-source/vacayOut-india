@@ -1,9 +1,22 @@
 "use client";
 
-import { useState, useRef, useCallback } from "react";
+import { useState, useRef, useCallback, useSyncExternalStore } from "react";
 import Image from "next/image";
 import { Icon } from "@/components/icons/icon";
 import type { HomepageData } from "@/lib/data/types";
+
+const WIDE = "(min-width: 768px)";
+function subscribeWide(onChange: () => void) {
+  const m = window.matchMedia(WIDE);
+  m.addEventListener("change", onChange);
+  return () => m.removeEventListener("change", onChange);
+}
+/** Autoplay the hero video only on wider screens, without data saver / slow network / reduced motion. */
+function canPlayVideo() {
+  const conn = (navigator as Navigator & { connection?: { saveData?: boolean; effectiveType?: string } }).connection;
+  const slow = !!conn && (conn.saveData === true || /(^|-)2g$|^3g$/.test(conn.effectiveType ?? ""));
+  return window.matchMedia(WIDE).matches && !window.matchMedia("(prefers-reduced-motion: reduce)").matches && !slow;
+}
 
 interface DestinationScene {
   id: string;
@@ -62,6 +75,8 @@ export function Hero({
   const [activeSceneIndex, setActiveSceneIndex] = useState(0);
   const inputRef = useRef<HTMLInputElement>(null);
   const videoRef = useRef<HTMLVideoElement | null>(null);
+  // The video is decoration: phones, data-saver and reduced-motion users get the poster photo only.
+  const showVideo = useSyncExternalStore(subscribeWide, canPlayVideo, () => false);
 
   const currentScene = DESTINATION_SCENES[activeSceneIndex];
 
@@ -99,28 +114,30 @@ export function Hero({
     >
       {/* Single Continuous Cinematic India Auto Video for All Destinations */}
       <div className="absolute inset-0 -z-20 overflow-hidden">
-        <video
-          ref={videoRef}
-          autoPlay
-          loop
-          muted
-          playsInline
-          poster="/images/cinematic/hero-india-poster.jpg"
-          src="/video/hero-cinematic-india.mp4"
-          onTimeUpdate={handleTimeUpdate}
-          className="h-full w-full object-cover scale-[1.02] transition-transform duration-1000 ease-out"
-        >
-          <source src="/video/hero-cinematic-india.mp4" type="video/mp4" />
-          {/* Fallback image */}
-          <Image
-            src="/images/cinematic/hero-india-poster.jpg"
-            alt="Cinematic India travel hero showing mountains, palaces, and backwaters"
-            fill
-            priority
-            sizes="100vw"
-            className="object-cover"
-          />
-        </video>
+        {/* Poster photo first (optimised, high priority); the video fades in over it when allowed. */}
+        <Image
+          src="/images/cinematic/hero-india-poster.jpg"
+          alt="Cinematic India travel hero showing mountains, palaces, and backwaters"
+          fill
+          priority
+          sizes="100vw"
+          className="object-cover"
+        />
+        {showVideo ? (
+          <video
+            ref={videoRef}
+            autoPlay
+            loop
+            muted
+            playsInline
+            preload="auto"
+            aria-hidden
+            onTimeUpdate={handleTimeUpdate}
+            className="absolute inset-0 h-full w-full animate-[fadeIn_.8s_ease-out] object-cover scale-[1.02] transition-transform duration-1000 ease-out"
+          >
+            <source src="/video/hero-cinematic-india.mp4" type="video/mp4" />
+          </video>
+        ) : null}
       </div>
 
       {/* Light, Balanced Cinematic Overlay */}

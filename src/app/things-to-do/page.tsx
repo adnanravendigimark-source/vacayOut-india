@@ -1,11 +1,12 @@
 import type { Metadata } from "next";
-import { ThingsToDoPage } from "@/components/things-to-do/things-to-do-page";
+import { Suspense } from "react";
+import { ThingsToDoPage, ThingsToDoPageFromUrl } from "@/components/things-to-do/things-to-do-page";
 import { site } from "@/lib/site";
 import { PAGE_HEROES } from "@/lib/data/page-heroes";
 import { thingsToDoData } from "@/lib/places/public-lists";
 
-// Reads published guides on each request, so new publishes appear immediately.
-export const dynamic = "force-dynamic";
+// Served from the CDN cache and rebuilt at most every 5 minutes; publishing in the admin refreshes it at once.
+export const revalidate = 300;
 
 export const metadata: Metadata = {
   title: {
@@ -22,11 +23,8 @@ export const metadata: Metadata = {
   },
 };
 
-type Props = { searchParams: Promise<Record<string, string | string[] | undefined>> };
-const one = (v: string | string[] | undefined) => (typeof v === "string" && v.length <= 120 ? v : undefined);
-
-export default async function Page({ searchParams }: Props) {
-  const sp = await searchParams;
+/** `?state=…&destination=…&category=…` preselect filters; they're read in the browser so the page can be cached. */
+export default async function Page() {
   const data = await thingsToDoData();
   const jsonLd = {
     "@context": "https://schema.org",
@@ -43,7 +41,9 @@ export default async function Page({ searchParams }: Props) {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd).replace(/</g, "\\u003c") }}
       />
-      <ThingsToDoPage data={data} hero={PAGE_HEROES.thingsToDo} initial={{ state: one(sp.state), destination: one(sp.destination), category: one(sp.category) }} />
+      <Suspense fallback={<ThingsToDoPage data={data} hero={PAGE_HEROES.thingsToDo} />}>
+        <ThingsToDoPageFromUrl data={data} hero={PAGE_HEROES.thingsToDo} />
+      </Suspense>
     </>
   );
 }

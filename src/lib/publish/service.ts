@@ -7,6 +7,7 @@ import { media, placeVersions, places, publishJobs, searchDocuments, sections, t
 import { buildSnapshot, publishProblems, snapshotText } from "@/lib/places/publish";
 import { unapprovedCitations } from "@/lib/places/review";
 import { pathsToRefresh, publicLocation } from "./paths";
+import { refreshHubs } from "./hubs";
 
 /**
  * The ONLY way content goes live or comes down.
@@ -118,6 +119,7 @@ export async function runJob(jobId: string) {
   if (!job || job.status === "done") return;
   try {
     for (const path of job.paths) revalidatePath(path);
+    refreshHubs();
     await db.update(publishJobs).set({ status: "done", attempts: job.attempts + 1, lastError: null, updatedAt: new Date() }).where(eq(publishJobs.id, jobId));
   } catch (err) {
     const message = err instanceof Error ? err.message.slice(0, 500) : "Unknown error";

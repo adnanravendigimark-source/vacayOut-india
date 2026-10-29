@@ -3,6 +3,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { useEffect, useState, useMemo } from "react";
+import { useSearchParams } from "next/navigation";
 import { Icon, type Name } from "@/components/icons/icon";
 import { AiPlannerModal } from "@/components/chat/ai-planner-modal";
 import type { PageHero } from "@/components/explore/explore-page";
@@ -314,4 +315,14 @@ export function ThingsToDoPage({ data, hero, initial = {} }: { data: ThingsToDoD
       <AiPlannerModal isOpen={isModalOpen} onClose={() => setIsModalOpen(false)} initialPrompt={activePrompt} />
     </div>
   );
+}
+
+/** The page with `?state=&destination=&category=` applied (read in the browser, so the server page stays cacheable). */
+export function ThingsToDoPageFromUrl({ data, hero }: { data: ThingsToDoData; hero: PageHero }) {
+  const sp = useSearchParams();
+  const one = (k: string) => {
+    const v = sp.get(k);
+    return v && v.length <= 120 ? v : undefined;
+  };
+  return <ThingsToDoPage key={sp.toString()} data={data} hero={hero} initial={{ state: one("state"), destination: one("destination"), category: one("category") }} />;
 }

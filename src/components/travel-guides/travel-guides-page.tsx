@@ -3,6 +3,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { useEffect, useState, useMemo } from "react";
+import { useSearchParams } from "next/navigation";
 import { Icon, type Name } from "@/components/icons/icon";
 import { AiPlannerModal } from "@/components/chat/ai-planner-modal";
 import type { PageHero } from "@/components/explore/explore-page";
@@ -273,4 +274,10 @@ export function TravelGuidesPage({ data, hero, initialTab }: { data: TravelGuide
       <AiPlannerModal isOpen={isModalOpen} onClose={() => setIsModalOpen(false)} initialPrompt={activePrompt} />
     </div>
   );
+}
+
+/** The page with `?tab=` applied (read in the browser, so the server page stays cacheable). */
+export function TravelGuidesPageFromUrl({ data, hero }: { data: TravelGuidesData; hero: PageHero }) {
+  const tab = useSearchParams().get("tab");
+  return <TravelGuidesPage key={tab ?? ""} data={data} hero={hero} initialTab={tab === "articles" || tab === "destinations" ? tab : undefined} />;
 }

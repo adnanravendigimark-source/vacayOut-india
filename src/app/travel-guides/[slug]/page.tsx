@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { cache } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
@@ -11,11 +12,17 @@ import { site } from "@/lib/site";
 
 export const revalidate = 3600;
 
+// Not pre-built: each page is rendered on its first visit, then served from the CDN cache
+// (ISR) until the hour is up or an admin publishes. Without this export Next renders the
+// route on every request.
+export function generateStaticParams() {
+  return [];
+}
+
 type Params = { params: Promise<{ slug: string }> };
 
-async function load(slug: string) {
-  return SLUG_RE.test(slug) ? getPublishedGuide(slug) : null;
-}
+// cache(): generateMetadata and the page share one database read per render.
+const load = cache(async (slug: string) => (SLUG_RE.test(slug) ? getPublishedGuide(slug) : null));
 
 export async function generateMetadata({ params }: Params): Promise<Metadata> {
   const g = await load((await params).slug);

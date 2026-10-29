@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { cache } from "react";
 import { notFound, permanentRedirect } from "next/navigation";
 import { PlacePage } from "@/components/place/place-page";
 import { SLUG_RE } from "@/lib/places/slug";
@@ -8,12 +9,20 @@ import { placeRollup } from "@/lib/places/rollup";
 // Rendered on first request, cached, and refreshed when an admin publishes.
 export const revalidate = 3600;
 
+// Not pre-built: each page is rendered on its first visit, then served from the CDN cache
+// (ISR) until the hour is up or an admin publishes. Without this export Next renders the
+// route on every request.
+export function generateStaticParams() {
+  return [];
+}
+
 type Params = { params: Promise<{ state: string; place: string }> };
 
-async function load(state: string, place: string) {
+// cache(): generateMetadata and the page share one database read per render.
+const load = cache(async (state: string, place: string) => {
   if (!SLUG_RE.test(state) || !SLUG_RE.test(place)) return null;
   return getPublishedPlace(state, place);
-}
+});
 
 export async function generateMetadata({ params }: Params): Promise<Metadata> {
   const { state, place } = await params;
