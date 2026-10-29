@@ -73,6 +73,8 @@ function SideCard({ title, children, id }: { title: string; children: React.Reac
   );
 }
 
+const REGION_TONES = ["from-[#3E6B52] to-[#7FA88E]", "from-[#8A5A3C] to-[#C99A6E]", "from-[#2F5A7A] to-[#7FA3C0]", "from-[#6B4E7A] to-[#A98CB8]", "from-[#7A6A3C] to-[#C2B07A]", "from-[#3C6E72] to-[#86B5B0]"];
+
 const AUDIENCE_TONES = ["bg-[#FBEDE8] text-[#B9442B]", "bg-[#EEF4F0] text-[#2D5A3F]", "bg-[#E4ECF7] text-[#234A7A]", "bg-[#FBEBD3] text-[#7A4A0B]", "bg-[#F1ECF6] text-[#5B3A7A]"];
 
 /** Icon for a "who it suits" audience. */
@@ -420,6 +422,19 @@ export function PlacePage({
     const t = text.toLowerCase();
     return pool.filter((m) => t.includes(m.name.toLowerCase())).sort((a, b) => t.indexOf(a.name.toLowerCase()) - t.indexOf(b.name.toLowerCase()));
   };
+  // Region items about a whole-state theme (rivers, climate…) read better as a short note than as a region card.
+  const NOTE_RE = /^(rivers?|climate|weather|geography|languages?|people|economy|history)$/i;
+  const regionItems = regions?.body.items ?? [];
+  const regionCards = regionItems
+    .filter((it) => !NOTE_RE.test((it.title ?? "").trim()))
+    .map((it) => {
+      const refs = mentions(`${it.title ?? ""} ${it.body}`);
+      // Use a place's photo only when the region text leads with it (not "reached from Manali…" further on).
+      const lead = `${it.title ?? ""} ${it.body}`.toLowerCase().slice(0, (it.title ?? "").length + 50);
+      const photo = refs.find((m) => m.hero && m.hero.kind === "photo" && lead.includes(m.name.toLowerCase()))?.hero ?? null;
+      return { it, refs, photo };
+    });
+  const regionNotes = regionItems.filter((it) => NOTE_RE.test((it.title ?? "").trim()));
   const localSpots = activities.filter((a) => a.category === "food_shopping");
   const booking = bookingLinksFor({ name: place.name, kind: place.kind, stateName: place.state?.name ?? null });
 
@@ -725,7 +740,47 @@ export function PlacePage({
         {hasSidebar ? sidebar : null}
 
         <div className="@container min-w-0 space-y-14 @5xl:col-start-1 @5xl:row-start-2">
-          {regions ? <Block id="regions" eyebrow="Explore" title={`Regions of ${place.name}`}><Accordion items={(regions.body.items ?? []).map((it) => ({ title: it.title ?? "", body: it.body }))} /></Block> : null}
+          {regions ? (
+            <Block id="regions" eyebrow="Explore" title={`Regions of ${place.name}`} intro={`${regionCards.length} areas to know.`}>
+              <div className="space-y-4">
+                <ul className="grid grid-cols-1 gap-3 @3xl:grid-cols-2">
+                  {regionCards.map(({ it, refs, photo }, i) => (
+                    <li key={i} className="group flex gap-3.5 rounded-2xl border border-line bg-white p-3 transition duration-300 hover:-translate-y-0.5 hover:shadow-card">
+                      <span className={`relative size-16 shrink-0 overflow-hidden rounded-xl @xl:size-[4.5rem] ${photo ? "bg-sand" : `bg-gradient-to-br ${REGION_TONES[i % REGION_TONES.length]}`}`}>
+                        {photo ? (
+                          <Image src={photo.url} alt="" fill sizes="72px" className="object-cover transition-transform duration-500 group-hover:scale-110" />
+                        ) : (
+                          <svg aria-hidden viewBox="0 0 72 72" className="absolute inset-0 size-full text-white/35"><path fill="currentColor" d="M0 72V50l16-14 11 9 15-18 14 15 16-12v42z" /></svg>
+                        )}
+                        <span className="absolute left-1 top-1 flex size-5 items-center justify-center rounded-full bg-white/95 text-[0.625rem] font-bold text-ink">{i + 1}</span>
+                      </span>
+                      <div className="min-w-0 flex-1">
+                        <h3 className="flex flex-wrap items-center gap-2 font-serif text-[1.0625rem] font-medium leading-snug text-ink">{it.title}<StatusPill status={it.status} /></h3>
+                        <p className="mt-0.5 text-[0.8125rem] leading-relaxed text-[#555]">{it.body}</p>
+                        {refs.length || !preview ? (
+                          <div className="mt-2 flex flex-wrap items-center gap-1.5">
+                            {refs.slice(0, 4).map((m) => m.href ? <Link key={m.name} href={m.href} className="inline-flex items-center gap-1 rounded-full bg-[#EEF4F0] px-2.5 py-0.5 text-[0.6875rem] font-medium text-[#2D5A3F] transition hover:bg-[#2D5A3F] hover:text-white"><Icon name="pin" size={10} />{m.name}</Link> : null)}
+                            {!refs.length && !preview ? <Link href={routes.chatWithPrompt(`What to see in ${it.title}, ${place.name}`)} className="inline-flex items-center gap-1 text-xs font-semibold text-[#2D5A3F] hover:text-coral"><Icon name="sparkles" size={12} /> Ask AI about {it.title}</Link> : null}
+                          </div>
+                        ) : null}
+                        {photo && photo.kind === "photo" ? <p className="mt-1.5 truncate text-[0.625rem] text-[#999]">Photo: {photo.attribution ?? "—"} · {photo.license}</p> : null}
+                      </div>
+                    </li>
+                  ))}
+                </ul>
+                {regionNotes.length ? (
+                  <ul className="flex flex-col gap-2">
+                    {regionNotes.map((it, i) => (
+                      <li key={i} className="flex items-start gap-3 rounded-2xl border border-[#D5E3DA] bg-[#EEF4F0] px-4 py-3 text-sm leading-relaxed text-[#2F4A3A]">
+                        <span className="flex size-8 shrink-0 items-center justify-center rounded-lg bg-white text-[#2D5A3F]"><Icon name={/river|lake|water/i.test(it.title ?? "") ? "waves" : "compass"} size={16} /></span>
+                        <span><strong className="font-semibold text-ink">{it.title}.</strong> {it.body}{it.status ? <> <StatusPill status={it.status} className="ml-1 align-middle" /></> : null}</span>
+                      </li>
+                    ))}
+                  </ul>
+                ) : null}
+              </div>
+            </Block>
+          ) : null}
 
           {/* 3. Destinations and attractions */}
           {regionGroups.length ? (
