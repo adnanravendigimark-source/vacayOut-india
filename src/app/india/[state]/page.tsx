@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { cache } from "react";
 import { notFound, permanentRedirect } from "next/navigation";
 import { PlacePage } from "@/components/place/place-page";
+import { StatePageView } from "@/components/place/state-page-view";
 import { SLUG_RE } from "@/lib/places/slug";
 import { findRedirect, getPublishedState, listInlineChildren, listPublishedChildren, listPublishedRelated } from "@/lib/places/repo";
 import { placeRollup } from "@/lib/places/rollup";
@@ -26,6 +27,13 @@ const load = cache(async (state: string) => {
 
 export async function generateMetadata({ params }: Params): Promise<Metadata> {
   const { state } = await params;
+  if (state === "himachal-pradesh") {
+    return {
+      title: "Himachal Pradesh Travel Guide — Places to Visit, Valleys & Itineraries | VacayOut",
+      description: "Explore Himachal Pradesh with researched guides to Manali, Shimla, Dharamshala, Spiti Valley, adventure sports, mountain passes, and travel itineraries.",
+      alternates: { canonical: `/india/${state}` },
+    };
+  }
   const p = await load(state);
   if (!p) return {};
   const { place } = p.snapshot;
@@ -41,6 +49,9 @@ export async function generateMetadata({ params }: Params): Promise<Metadata> {
 /** A published state guide. Only published snapshots are shown; anything else is a 404 (or a redirect for moved pages). */
 export default async function StatePage({ params }: Params) {
   const { state } = await params;
+  if (state === "himachal-pradesh") {
+    return <StatePageView />;
+  }
   const p = await load(state);
   if (!p) {
     const to = SLUG_RE.test(state) ? await findRedirect(`/india/${state}`) : null;

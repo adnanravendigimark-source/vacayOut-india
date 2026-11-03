@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { cache } from "react";
 import { notFound, permanentRedirect } from "next/navigation";
 import { PlacePage } from "@/components/place/place-page";
+import { DestinationPageView } from "@/components/place/destination-page-view";
 import { SLUG_RE } from "@/lib/places/slug";
 import { findInlinePlacement, findRedirect, getPublishedPlace, listInlineChildren, listPublishedChildren, listPublishedRelated } from "@/lib/places/repo";
 import { placeRollup } from "@/lib/places/rollup";
@@ -26,6 +27,13 @@ const load = cache(async (state: string, place: string) => {
 
 export async function generateMetadata({ params }: Params): Promise<Metadata> {
   const { state, place } = await params;
+  if (state === "himachal-pradesh" && place === "manali") {
+    return {
+      title: "Manali Travel Guide — Places to Visit, Atal Tunnel, Solang & Itineraries | VacayOut",
+      description: "Complete Manali travel guide covering Hadimba Temple, Solang Valley, Atal Tunnel to Sissu, Rohtang Pass permits, Old Manali cafes, and itineraries.",
+      alternates: { canonical: `/india/${state}/${place}` },
+    };
+  }
   const p = await load(state, place);
   if (!p) return {};
   const s = p.snapshot.place;
@@ -41,6 +49,9 @@ export async function generateMetadata({ params }: Params): Promise<Metadata> {
 /** A published destination guide. Only published snapshots are shown; anything else is a 404 (or a redirect for moved pages). */
 export default async function DestinationPage({ params }: Params) {
   const { state, place } = await params;
+  if (state === "himachal-pradesh" && place === "manali") {
+    return <DestinationPageView />;
+  }
   const p = await load(state, place);
   if (!p) {
     if (SLUG_RE.test(state) && SLUG_RE.test(place)) {

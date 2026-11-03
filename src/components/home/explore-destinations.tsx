@@ -1,10 +1,10 @@
 "use client";
 
 import Image from "next/image";
-import Link from "next/link";
 import { Icon } from "@/components/icons/icon";
 import { SectionHeader } from "./section-header";
 import { routes } from "@/lib/routes";
+import { LiveLink } from "./live-link";
 
 export interface DestinationItem {
   id: string;
@@ -12,6 +12,8 @@ export interface DestinationItem {
   state: string;
   stateSlug: string;
   slug: string;
+  /** Published pages to try, in order; none published → the card opens the AI planner. */
+  hrefs: string[];
   image: string;
   prompt: string;
 }
@@ -23,6 +25,7 @@ export const POPULAR_DESTINATIONS: DestinationItem[] = [
     state: "Himachal Pradesh",
     stateSlug: "himachal-pradesh",
     slug: "manali",
+    hrefs: ["/india/himachal-pradesh/manali", "/india/himachal-pradesh"],
     image: "/images/unsplash/manali.jpg",
     prompt: "Plan a 4-day mountain getaway to Manali and Solang Valley",
   },
@@ -32,6 +35,7 @@ export const POPULAR_DESTINATIONS: DestinationItem[] = [
     state: "Goa",
     stateSlug: "goa",
     slug: "north-goa",
+    hrefs: ["/india/goa"],
     image: "/images/cinematic/dest-goa.jpg",
     prompt: "Plan a 3-day relaxed beach trip to North & South Goa",
   },
@@ -41,6 +45,7 @@ export const POPULAR_DESTINATIONS: DestinationItem[] = [
     state: "Rajasthan",
     stateSlug: "rajasthan",
     slug: "jaipur",
+    hrefs: ["/india/rajasthan/jaipur", "/india/rajasthan"],
     image: "/images/cinematic/dest-jaipur.jpg",
     prompt: "Plan a 3-day royal heritage itinerary for Jaipur forts and bazaars",
   },
@@ -50,6 +55,7 @@ export const POPULAR_DESTINATIONS: DestinationItem[] = [
     state: "Kerala",
     stateSlug: "kerala",
     slug: "alappuzha",
+    hrefs: ["/india/kerala/alappuzha", "/india/kerala"],
     image: "/images/unsplash/kerala.jpg",
     prompt: "Plan a 5-day serene trip to Kerala backwaters and Munnar hills",
   },
@@ -59,6 +65,7 @@ export const POPULAR_DESTINATIONS: DestinationItem[] = [
     state: "Rajasthan",
     stateSlug: "rajasthan",
     slug: "udaipur",
+    hrefs: ["/india/rajasthan/udaipur", "/india/rajasthan"],
     image: "/images/cinematic/dest-udaipur.jpg",
     prompt: "Plan a romantic 3-day stay in Udaipur around Lake Pichola",
   },
@@ -68,6 +75,7 @@ export const POPULAR_DESTINATIONS: DestinationItem[] = [
     state: "Uttarakhand",
     stateSlug: "uttarakhand",
     slug: "rishikesh",
+    hrefs: ["/india/uttarakhand/rishikesh", "/india/uttarakhand"],
     image: "/images/destinations/rishikesh.jpg",
     prompt: "Plan a weekend adventure and spiritual trip to Rishikesh",
   },
@@ -95,14 +103,11 @@ export function ExploreDestinations({
 
         <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-3.5 sm:gap-4">
           {POPULAR_DESTINATIONS.map((dest) => (
-            <Link
+            <LiveLink
               key={dest.id}
-              href={`/india/${dest.stateSlug}/${dest.slug}`}
-              onClick={(e) => {
-                if (onPlan && e.metaKey === false && e.ctrlKey === false) {
-                  // Allow direct click to open AI planner or browse
-                }
-              }}
+              hrefs={dest.hrefs}
+              prompt={dest.prompt}
+              onPlan={onPlan}
               className="group flex flex-col cursor-pointer"
             >
               <div className="relative aspect-[4/3] w-full overflow-hidden rounded-xl bg-[#EFECE6] shadow-xs">
@@ -123,7 +128,7 @@ export function ExploreDestinations({
                   <span>{dest.state}</span>
                 </p>
               </div>
-            </Link>
+            </LiveLink>
           ))}
         </div>
       </div>

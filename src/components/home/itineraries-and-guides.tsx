@@ -1,10 +1,10 @@
 "use client";
 
 import Image from "next/image";
-import Link from "next/link";
 import { Icon } from "@/components/icons/icon";
 import { SectionHeader } from "./section-header";
 import { routes } from "@/lib/routes";
+import { LiveLink } from "./live-link";
 
 interface ItineraryItem {
   id: string;
@@ -12,6 +12,8 @@ interface ItineraryItem {
   tags: string;
   days: string;
   image: string;
+  /** Published itinerary pages to try; none published → opens the AI planner. */
+  hrefs: string[];
   prompt: string;
 }
 
@@ -22,23 +24,26 @@ const ITINERARIES: ItineraryItem[] = [
     tags: "Mountains • Adventure",
     days: "Day 1 • Day 2 • Day 3",
     image: "/images/unsplash/manali.jpg",
+    hrefs: ["/itineraries/manali-3-days"],
     prompt: "Show me a detailed 3-day itinerary for Manali covering Solang, Old Manali, and Rohtang",
   },
   {
-    id: "rajasthan-5d",
-    title: "5 Days in Rajasthan",
+    id: "golden-triangle-5d",
+    title: "5 Days: Delhi, Agra & Jaipur",
     tags: "Heritage • Culture",
     days: "Day 1 • Day 2 • Day 3 +",
     image: "/images/cinematic/dest-jaipur.jpg",
-    prompt: "Show me a detailed 5-day itinerary for Rajasthan covering Jaipur, Jodhpur, and desert forts",
+    hrefs: ["/itineraries/golden-triangle-5-days-delhi-agra-jaipur"],
+    prompt: "Show me a detailed 5-day Golden Triangle itinerary covering Delhi, Agra and Jaipur",
   },
   {
-    id: "kerala-7d",
-    title: "7 Days in Kerala",
-    tags: "Backwaters • Beaches",
+    id: "kerala-5d",
+    title: "5 Days in Kerala",
+    tags: "Backwaters • Tea hills",
     days: "Day 1 • Day 2 • Day 3 +",
     image: "/images/unsplash/kerala.jpg",
-    prompt: "Show me a detailed 7-day itinerary for Kerala backwaters, Munnar tea hills, and Marari beach",
+    hrefs: ["/itineraries/kerala-5-days-kochi-munnar-backwaters"],
+    prompt: "Show me a detailed 5-day itinerary for Kerala covering Kochi, Munnar and the backwaters",
   },
 ];
 
@@ -46,7 +51,8 @@ interface GuideItem {
   id: string;
   title: string;
   image: string;
-  href: string;
+  /** Published pages to try; none published → opens the AI planner. */
+  hrefs: string[];
   prompt: string;
 }
 
@@ -55,21 +61,21 @@ const GUIDES: GuideItem[] = [
     id: "ladakh-best-time",
     title: "Best Time to Visit Ladakh",
     image: "/images/destinations/ladakh.jpg",
-    href: "/india/ladakh",
+    hrefs: ["/india/ladakh"],
     prompt: "When is the best time to visit Ladakh and what are weather conditions like?",
   },
   {
     id: "himachal-trekking",
     title: "Trekking in Himachal Pradesh",
     image: "/images/destinations/trekking.jpg",
-    href: "/india/himachal-pradesh",
+    hrefs: ["/things-to-do?state=himachal-pradesh&category=adventure"],
     prompt: "What are the best beginner and intermediate treks in Himachal Pradesh?",
   },
   {
     id: "first-timers",
     title: "Travel Tips for First-Time Visitors",
     image: "/images/unsplash/varanasi.jpg",
-    href: "/india/uttar-pradesh/varanasi",
+    hrefs: [],
     prompt: "What are essential travel tips, etiquette, and transit advice for first-time India travellers?",
   },
 ];
@@ -90,16 +96,17 @@ export function ItinerariesAndGuides({
                 icon="fileText"
                 title="Ready-made Itineraries"
                 subtitle="Suggested trip plans for every type of traveller."
-                link={{ href: routes.chat, label: "View all itineraries" }}
+                link={{ href: routes.itineraries, label: "View all itineraries" }}
                 className="mb-5 sm:mb-6"
               />
 
               <div className="space-y-3">
                 {ITINERARIES.map((item) => (
-                  <button
+                  <LiveLink
                     key={item.id}
-                    type="button"
-                    onClick={() => onPlan(item.prompt)}
+                    hrefs={item.hrefs}
+                    prompt={item.prompt}
+                    onPlan={onPlan}
                     className="group flex w-full items-center gap-3.5 sm:gap-4 rounded-xl border border-[#EAE7E0] bg-white p-2.5 sm:p-3 hover:border-coral hover:shadow-xs transition-all text-left cursor-pointer"
                   >
                     <div className="relative size-16 sm:size-20 shrink-0 overflow-hidden rounded-lg bg-[#EFECE6]">
@@ -127,7 +134,7 @@ export function ItinerariesAndGuides({
                       size={14}
                       className="text-[#AAAAAA] group-hover:text-coral group-hover:translate-x-0.5 transition-all shrink-0 mr-1"
                     />
-                  </button>
+                  </LiveLink>
                 ))}
               </div>
             </div>
@@ -140,15 +147,17 @@ export function ItinerariesAndGuides({
                 icon="book"
                 title="Travel Guides & Inspiration"
                 subtitle="Useful guides, tips and local insights for your next trip."
-                link={{ href: routes.destinations, label: "View all guides" }}
+                link={{ href: routes.travelGuides, label: "View all guides" }}
                 className="mb-5 sm:mb-6"
               />
 
               <div className="grid grid-cols-3 gap-2.5 sm:gap-3">
                 {GUIDES.map((guide) => (
-                  <Link
+                  <LiveLink
                     key={guide.id}
-                    href={guide.href}
+                    hrefs={guide.hrefs}
+                    prompt={guide.prompt}
+                    onPlan={onPlan}
                     className="group flex flex-col cursor-pointer"
                   >
                     <div className="relative aspect-[16/10] w-full overflow-hidden rounded-xl bg-[#EFECE6] shadow-xs">
@@ -169,7 +178,7 @@ export function ItinerariesAndGuides({
                         <Icon name="arrowRight" size={11} className="transition-transform group-hover:translate-x-0.5" />
                       </p>
                     </div>
-                  </Link>
+                  </LiveLink>
                 ))}
               </div>
             </div>

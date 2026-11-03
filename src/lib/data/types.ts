@@ -98,4 +98,6 @@ export type HomepageData = {
   affiliateLinks: boolean;
   /** Sections currently filled with sample content (see HOMEPAGE_SAMPLE_CONTENT). */
   sampleSections: SampleSection[];
+  /** Paths of every published place, state, itinerary and travel guide (homepage cards link only to these). */
+  livePaths: string[];
 };

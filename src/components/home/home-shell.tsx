@@ -10,6 +10,7 @@ import { FeaturedDestinations } from "./featured-destinations";
 import { ItinerariesAndGuides } from "./itineraries-and-guides";
 import { TravelSmarter } from "./travel-smarter";
 import { AiPlannerModal } from "@/components/chat/ai-planner-modal";
+import { LivePathsProvider } from "./live-link";
 
 /**
  * VacayOut Homepage:
@@ -40,6 +41,7 @@ export function HomeShell({ data }: { data: HomepageData }) {
   }, []);
 
   return (
+    <LivePathsProvider paths={data.livePaths}>
     <div className="relative bg-white">
       {/* 1. Cinematic Hero Section (Preserved exactly as requested) */}
       <Hero
@@ -74,5 +76,6 @@ export function HomeShell({ data }: { data: HomepageData }) {
         examples={data.examplePrompts}
       />
     </div>
+    </LivePathsProvider>
   );
 }

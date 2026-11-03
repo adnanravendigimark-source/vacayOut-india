@@ -1,10 +1,10 @@
 "use client";
 
 import Image from "next/image";
-import Link from "next/link";
 import { Icon } from "@/components/icons/icon";
 import { SectionHeader } from "./section-header";
 import { routes } from "@/lib/routes";
+import { LiveLink } from "./live-link";
 
 export interface FeaturedItem {
   id: string;
@@ -12,6 +12,8 @@ export interface FeaturedItem {
   state: string;
   stateSlug: string;
   slug: string;
+  /** Published pages to try, in order; none published → the card opens the AI planner. */
+  hrefs: string[];
   image: string;
   prompt: string;
 }
@@ -23,6 +25,7 @@ export const FEATURED_DESTINATIONS: FeaturedItem[] = [
     state: "Jammu & Kashmir",
     stateSlug: "jammu-kashmir",
     slug: "srinagar",
+    hrefs: ["/india/jammu-and-kashmir/srinagar", "/india/jammu-and-kashmir"],
     image: "/images/cinematic/hero-india-poster.jpg",
     prompt: "Plan a 6-day scenic holiday to Srinagar, Gulmarg, and Pahalgam in Kashmir",
   },
@@ -32,6 +35,7 @@ export const FEATURED_DESTINATIONS: FeaturedItem[] = [
     state: "Rajasthan",
     stateSlug: "rajasthan",
     slug: "jaipur",
+    hrefs: ["/india/rajasthan", "/india/rajasthan/jaipur"],
     image: "/images/cinematic/dest-jaipur.jpg",
     prompt: "Plan a 7-day royal golden triangle trip across Jaipur, Jodhpur, and Udaipur",
   },
@@ -41,6 +45,7 @@ export const FEATURED_DESTINATIONS: FeaturedItem[] = [
     state: "Ladakh",
     stateSlug: "ladakh",
     slug: "leh",
+    hrefs: ["/india/ladakh/leh", "/india/ladakh"],
     image: "/images/destinations/ladakh.jpg",
     prompt: "Plan an unforgettable 7-day road trip to Leh Ladakh, Nubra Valley, and Pangong Lake",
   },
@@ -50,6 +55,7 @@ export const FEATURED_DESTINATIONS: FeaturedItem[] = [
     state: "Himachal Pradesh",
     stateSlug: "himachal-pradesh",
     slug: "spiti",
+    hrefs: ["/india/himachal-pradesh/spiti", "/india/himachal-pradesh/spiti-valley", "/india/himachal-pradesh"],
     image: "/images/destinations/spiti.jpg",
     prompt: "Plan an adventurous road trip through Spiti Valley, Kaza, and Key Monastery",
   },
@@ -59,6 +65,7 @@ export const FEATURED_DESTINATIONS: FeaturedItem[] = [
     state: "Andaman & Nicobar Islands",
     stateSlug: "andaman-nicobar",
     slug: "havelock",
+    hrefs: ["/india/andaman-and-nicobar-islands", "/india/andaman-and-nicobar-islands/swaraj-dweep"],
     image: "/images/destinations/andaman.jpg",
     prompt: "Plan a tropical 5-day island holiday in Andaman, Havelock, and Neil Island",
   },
@@ -68,6 +75,7 @@ export const FEATURED_DESTINATIONS: FeaturedItem[] = [
     state: "West Bengal",
     stateSlug: "west-bengal",
     slug: "darjeeling",
+    hrefs: ["/india/west-bengal/darjeeling", "/india/west-bengal"],
     image: "/images/destinations/darjeeling.jpg",
     prompt: "Plan a 4-day tea garden retreat and sunrise view in Darjeeling",
   },
@@ -95,9 +103,11 @@ export function FeaturedDestinations({
 
         <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-3.5 sm:gap-4">
           {FEATURED_DESTINATIONS.map((dest) => (
-            <Link
+            <LiveLink
               key={dest.id}
-              href={`/india/${dest.stateSlug}/${dest.slug}`}
+              hrefs={dest.hrefs}
+              prompt={dest.prompt}
+              onPlan={onPlan}
               className="group flex flex-col cursor-pointer"
             >
               <div className="relative aspect-[4/3] w-full overflow-hidden rounded-xl bg-[#EFECE6] shadow-xs">
@@ -118,7 +128,7 @@ export function FeaturedDestinations({
                   <span>{dest.state}</span>
                 </p>
               </div>
-            </Link>
+            </LiveLink>
           ))}
         </div>
       </div>

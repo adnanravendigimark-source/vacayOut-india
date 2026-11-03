@@ -3,7 +3,9 @@ import type { Destination, HomepageData, Itinerary, SampleSection, ZoneGroup } f
 import { sampleContentEnabled, sampleDestinations, sampleGuides, sampleItineraries, sampleZones } from "./sample";
 import { homepageSeed } from "./seed";
 import { affiliateActive } from "@/lib/booking/links";
-import { listDirectory } from "@/lib/places/repo";
+import { listDirectory, listPublishedForSitemap } from "@/lib/places/repo";
+import { listPublishedItineraries } from "@/lib/itineraries/service";
+import { listPublishedGuides } from "@/lib/guides/service";
 import { ZONES, zoneOf } from "@/lib/places/states";
 import { TRIP_TYPES } from "@/lib/places/trip-types";
 import { kindLabel } from "@/lib/places/kinds";
@@ -42,11 +44,26 @@ function itineraryDays(r: Row): string[] {
 
 const newestFirst = (a: Row, b: Row) => b.publishedAt.getTime() - a.publishedAt.getTime();
 
+/** Every published page path. On a database error the list is empty, so cards fall back to the AI planner. */
+async function livePaths(): Promise<string[]> {
+  const settle = <T,>(p: Promise<T[]>) => p.catch((err: unknown) => {
+    console.warn("Homepage: couldn't list published pages.", err instanceof Error ? err.message : err);
+    return [] as T[];
+  });
+  const [rows, its, guides] = await Promise.all([settle(listPublishedForSitemap()), settle(listPublishedItineraries()), settle(listPublishedGuides())]);
+  return [
+    ...rows.flatMap((r) => (r.kind === "state" ? [`/india/${r.slug}`] : r.stateSlug ? [`/india/${r.stateSlug}/${r.slug}`] : [])),
+    ...its.map((i) => `/itineraries/${i.slug}`),
+    ...guides.map((g) => `/travel-guides/${g.slug}`),
+  ];
+}
+
 /**
  * Homepage data. Section copy is static; every destination, state, itinerary
  * and guide comes ONLY from published places. Empty lists hide their sections.
  */
 export async function getHomepageData(): Promise<HomepageData> {
+  const live = livePaths();
   let groups: Awaited<ReturnType<typeof listDirectory>> = [];
   try {
     groups = await listDirectory();
@@ -103,5 +120,6 @@ export async function getHomepageData(): Promise<HomepageData> {
     latestGuides: pick("guides", real.latestGuides, sampleGuides),
     affiliateLinks: affiliateActive(),
     sampleSections,
+    livePaths: await live,
   };
 }

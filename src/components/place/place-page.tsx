@@ -86,6 +86,8 @@ const BLOCK_ORDER = {
   place: ["regions", "destinations", "places", "areas", "dialogs", "previewInline", "things", "itineraries", "guides", "food", "plan", "faqs", "planner"],
 } as const;
 
+/** Category tile columns by count, so no tile sits alone on a row (6 → 3+3, 7 → 4+3). */
+const CATEGORY_COLS: Record<number, string> = { 1: "@xl:grid-cols-2", 2: "@xl:grid-cols-2", 3: "@xl:grid-cols-3", 4: "@xl:grid-cols-4", 5: "@xl:grid-cols-5", 6: "@xl:grid-cols-3 @3xl:grid-cols-6" };
 const CATEGORY_ICONS: Record<string, Name> = { adventure: "route", nature: "mountain", culture: "palace", spiritual: "temple", wellness: "heart", food_shopping: "utensils", events: "calendar" };
 
 /** Small destination card for the state page: photo, name, one line, arrow. */
@@ -408,6 +410,7 @@ export function PlacePage({
   const destinations = rollup?.destinations ?? fallback.filter((c) => DEST_KINDS.includes(c.kind));
   const attractions = (rollup?.attractions ?? fallback.filter((c) => !DEST_KINDS.includes(c.kind) && c.kind !== "activity")).filter(notInline);
   const activities = rollup?.activities ?? fallback.filter((c) => c.kind === "activity");
+  const usedCategories = ACTIVITY_CATEGORIES.map((c) => ({ ...c, n: activities.filter((a) => a.category === c.key).length })).filter((c) => c.n > 0);
   const itineraries = rollup?.itineraries ?? [];
   const guides = rollup?.guides ?? [];
 
@@ -1164,8 +1167,8 @@ export function PlacePage({
                 <div className="space-y-6">
                   {isState && activities.length ? (
                     <>
-                      <ul className="grid grid-cols-2 gap-3 @xl:grid-cols-3 @3xl:grid-cols-5">
-                        {ACTIVITY_CATEGORIES.map((c) => ({ ...c, n: activities.filter((a) => a.category === c.key).length })).filter((c) => c.n > 0).map((c) => (
+                      <ul className={`grid grid-cols-2 gap-3 ${CATEGORY_COLS[usedCategories.length] ?? "@xl:grid-cols-4"}`}>
+                        {usedCategories.map((c) => (
                           <li key={c.key} className="flex">
                             <Link href={preview ? "#" : `/things-to-do?state=${place.slug}&category=${c.key}`} className="group flex w-full flex-col items-center gap-2 rounded-2xl border border-line bg-white px-3 py-5 text-center transition duration-300 hover:-translate-y-0.5 hover:border-[#2D5A3F] hover:shadow-card">
                               <span className="flex size-12 items-center justify-center rounded-full bg-[#EEF4F0] text-[#2D5A3F] transition-colors group-hover:bg-[#2D5A3F] group-hover:text-white"><Icon name={CATEGORY_ICONS[c.key] ?? "compass"} size={22} /></span>
@@ -1177,12 +1180,29 @@ export function PlacePage({
                       </ul>
                       <div>
                         <p className="mb-2 text-[0.6875rem] font-semibold uppercase tracking-wider text-[#666]">Popular experiences</p>
-                        <div className="flex flex-wrap gap-1.5">
-                          {[...activities].sort((a, b) => sightScore(b) - sightScore(a)).slice(0, 10).map((a) => {
-                            const to = hrefOf(a);
-                            return to ? <Link key={a.slug} href={to} className="inline-flex items-center gap-1 rounded-full border border-line bg-white px-3 py-1 text-xs font-medium text-ink transition hover:border-[#2D5A3F] hover:text-[#2D5A3F]">{a.name}{a.parentName && a.parentName !== place.name ? <span className="text-[#999]"> · {a.parentName}</span> : null}</Link> : null;
+                        <ul className="grid grid-cols-1 gap-2.5 @xl:grid-cols-2">
+                          {[...activities].sort((a, b) => sightScore(b) - sightScore(a)).filter((a) => hrefOf(a)).slice(0, 8).map((a) => {
+                            const where = a.parentName && a.parentName !== place.name ? a.parentName : null;
+                            const cat = categoryLabel(a.category);
+                            return (
+                              <li key={a.slug} className="flex">
+                                <Link href={hrefOf(a)!} className="group flex w-full items-center gap-3 rounded-2xl border border-line bg-white p-2 pr-3 transition duration-300 hover:border-[#2D5A3F] hover:shadow-card">
+                                  <span className="relative size-16 shrink-0 overflow-hidden rounded-xl bg-[#EEF4F0]">
+                                    {a.hero ? <Image src={a.hero.url} alt={a.hero.alt} fill sizes="64px" className="object-cover transition-transform duration-500 group-hover:scale-105" /> : <span className="flex size-full items-center justify-center text-[#2D5A3F]"><Icon name={CATEGORY_ICONS[a.category ?? ""] ?? "compass"} size={22} /></span>}
+                                  </span>
+                                  <span className="min-w-0 flex-1">
+                                    <span className="line-clamp-2 text-sm font-semibold leading-snug text-ink group-hover:text-coral">{a.name}</span>
+                                    <span className="mt-1 flex flex-wrap items-center gap-x-2 gap-y-0.5 text-xs text-[#777]">
+                                      {cat ? <span className="inline-flex items-center gap-1 font-medium text-[#2D5A3F]"><Icon name={CATEGORY_ICONS[a.category ?? ""] ?? "compass"} size={12} />{cat}</span> : null}
+                                      {where ? <span className="inline-flex min-w-0 items-center gap-1"><Icon name="pin" size={12} className="shrink-0 text-[#999]" /><span className="truncate">{where}</span></span> : null}
+                                    </span>
+                                  </span>
+                                  <Icon name="arrowRight" size={14} className="shrink-0 text-[#AAA] transition group-hover:translate-x-0.5 group-hover:text-coral" />
+                                </Link>
+                              </li>
+                            );
                           })}
-                        </div>
+                        </ul>
                       </div>
                     </>
                   ) : activities.length ? <ActivityGrid items={activityCards} /> : null}
