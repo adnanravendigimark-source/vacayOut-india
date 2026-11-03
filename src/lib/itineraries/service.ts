@@ -23,6 +23,31 @@ type Result = { ok: true } | { ok: false; message: string; problems?: string[] }
 const imageOf = (m: typeof media.$inferSelect | undefined): SnapshotImage | null =>
   m ? { url: m.url, alt: m.alt, caption: m.caption, kind: m.kind, license: m.license, licenseUrl: m.licenseUrl, attribution: m.attribution, sourceUrl: m.sourceUrl } : null;
 
+type Tx = Parameters<Parameters<ReturnType<typeof getDb>["transaction"]>[0]>[0];
+
+/**
+ * A state-wide plan without its own photo shows a place named in its title, else the place it
+ * visits most (ties: the earliest), so routes in one state don't all repeat the state's photo.
+ */
+async function mainStopHero(tx: Tx, stateId: string, stateSlug: string, title: string, plan: ItineraryFields["plan"]): Promise<string | null> {
+  const count = new Map<string, number>();
+  for (const d of plan.days)
+    for (const st of d.stops) {
+      const ref = st.placeSlug ? stopRef(st.placeSlug, stateSlug) : null;
+      if (ref && ref.state === stateSlug && ref.slug !== stateSlug) count.set(ref.slug, (count.get(ref.slug) ?? 0) + 1);
+    }
+  if (!count.size) return null;
+  const rows = await tx
+    .select({ slug: places.slug, name: places.name, hero: places.heroMediaId })
+    .from(places)
+    .where(and(eq(places.stateId, stateId), inArray(places.slug, [...count.keys()]), eq(places.status, "published")));
+  const order = [...count.keys()];
+  const t = title.toLowerCase();
+  const score = (r: { slug: string; name: string }) => (t.includes(r.name.toLowerCase().split(" ")[0]) ? 1000 : 0) + (count.get(r.slug) ?? 0);
+  const best = rows.filter((r) => r.hero).sort((a, b) => score(b) - score(a) || order.indexOf(a.slug) - order.indexOf(b.slug))[0];
+  return best?.hero ?? null;
+}
+
 export async function publishItinerary(id: string, actorId: string): Promise<Result> {
   const db = getDb();
   const res = await db.transaction(async (tx) => {
@@ -38,7 +63,7 @@ export async function publishItinerary(id: string, actorId: string): Promise<Res
     if (it.findingIds.length) await tx.select({ id: researchFindings.id }).from(researchFindings).where(inArray(researchFindings.id, it.findingIds)).for("update");
     const facts = await citedFactsCheck(tx, it.findingIds);
     problems.push(...facts.problems);
-    const heroId = it.heroMediaId ?? place?.heroMediaId ?? null;
+    const heroId = it.heroMediaId ?? (place?.kind === "state" && v.ok ? await mainStopHero(tx, place.id, place.slug, v.value.title, v.value.plan) : null) ?? place?.heroMediaId ?? null;
     const [heroRow] = heroId ? await tx.select().from(media).where(eq(media.id, heroId)).limit(1) : [];
     if (!heroRow) problems.push("Add a hero image (the destination’s hero is used when the itinerary has none).");
     if (problems.length || !v.ok || !place) return { ok: false as const, message: "This itinerary isn’t ready to publish yet.", problems };

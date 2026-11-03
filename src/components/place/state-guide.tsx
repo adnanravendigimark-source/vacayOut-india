@@ -186,7 +186,10 @@ export function StateGuide({
     .filter((a) => pageOf(a))
     .sort((a, b) => Number(!!b.facts?.visit_info) - Number(!!a.facts?.visit_info) || Number(!!b.hero) - Number(!!a.hero) || a.depth - b.depth);
   const activities = rollup.activities.filter((a) => pageOf(a)).sort((a, b) => Number(!!b.hero) - Number(!!a.hero));
-  const { itineraries, guides } = rollup;
+  const { guides } = rollup;
+  // Only plans made for the whole state; town plans live on their town's page (used here only when the state has none).
+  const statePlans = rollup.itineraries.filter((it) => it.placeName === name);
+  const itineraries = (statePlans.length ? statePlans : rollup.itineraries).sort((a, b) => a.durationDays - b.durationDays);
 
   // Seasonal access, straight from the places' own visiting info.
   const seasonal = [...rollup.attractions, ...rollup.activities]
@@ -197,7 +200,72 @@ export function StateGuide({
   const reachParas = paragraphs(reach?.body.text);
   const reachCols = reachParas.map(labelled);
   const reachSplit = reachCols.length > 1 && reachCols.every(Boolean);
-  const reachIcon = (label: string): Name => (/air|fly|flight/i.test(label) ? "plane" : /rail|train/i.test(label) ? "train" : /road|bus|drive/i.test(label) ? "bus" : "route");
+  type TransportTheme = {
+    icon: Name;
+    badge: string;
+    badgeClass: string;
+    iconBg: string;
+    pills: string[];
+  };
+
+  const transportTheme = (label: string, text: string): TransportTheme => {
+    const l = label.toLowerCase();
+    if (/air|fly|flight/i.test(l)) {
+      const pills: string[] = [];
+      if (/bhuntar/i.test(text)) pills.push("Bhuntar (Kullu)");
+      if (/jubbarhatti/i.test(text)) pills.push("Jubbarhatti (Shimla)");
+      if (/gaggal/i.test(text)) pills.push("Gaggal (Kangra)");
+      if (/chandigarh/i.test(text)) pills.push("Chandigarh Gateway");
+      if (/pathankot/i.test(text)) pills.push("Pathankot Airport");
+      return {
+        icon: "plane",
+        badge: "Airports & Domestic Flights",
+        badgeClass: "bg-sky-50 text-sky-800 border-sky-200",
+        iconBg: "bg-sky-50 text-sky-700 border border-sky-100",
+        pills: pills.length ? pills : ["Regional Airports", "Domestic Flights"],
+      };
+    }
+    if (/rail|train/i.test(l)) {
+      const pills: string[] = [];
+      if (/kalka[–-]shimla/i.test(text)) pills.push("Kalka–Shimla UNESCO Line");
+      if (/pathankot/i.test(text)) pills.push("Pathankot Railhead");
+      if (/kangra valley/i.test(text)) pills.push("Kangra Valley Line");
+      if (/joginder nagar/i.test(text)) pills.push("Joginder Nagar");
+      return {
+        icon: "train",
+        badge: "Railways & Toy Trains",
+        badgeClass: "bg-amber-50 text-amber-800 border-amber-200",
+        iconBg: "bg-amber-50 text-amber-800 border border-amber-100",
+        pills: pills.length ? pills : ["Broad Gauge Railhead", "Heritage Narrow Gauge"],
+      };
+    }
+    if (/road|bus|drive/i.test(l)) {
+      const pills: string[] = [];
+      if (/volvo|luxury|coach/i.test(text)) pills.push("Interstate Volvos");
+      if (/delhi/i.test(text)) pills.push("Delhi (300–495 km)");
+      if (/chandigarh/i.test(text)) pills.push("Chandigarh Highway");
+      if (/jaipur/i.test(text)) pills.push("Jaipur & NCR Buses");
+      return {
+        icon: "bus",
+        badge: "Highways & Express Coaches",
+        badgeClass: "bg-emerald-50 text-emerald-800 border-emerald-200",
+        iconBg: "bg-emerald-50 text-emerald-800 border border-emerald-100",
+        pills: pills.length ? pills : ["National Highways", "State Transport Buses"],
+      };
+    }
+    const pills: string[] = [];
+    if (/nh-22|nh-5|hindustan/i.test(text)) pills.push("Hindustan–Tibet Road");
+    if (/kaza|spiti/i.test(text)) pills.push("Kaza & High Passes");
+    if (/may|july|october/i.test(text)) pills.push("Seasonal Access");
+    if (/taxi|off-road|4x4/i.test(text)) pills.push("Sturdy 4x4 Recommended");
+    return {
+      icon: "mountain",
+      badge: "Trans-Himalayan Routes",
+      badgeClass: "bg-purple-50 text-purple-800 border-purple-200",
+      iconBg: "bg-purple-50 text-purple-800 border border-purple-100",
+      pills: pills.length ? pills : ["Mountain Corridors", "Seasonal Routes"],
+    };
+  };
   const seasonParas = paragraphs(bestTime?.body.text);
   const seasonCards = seasonParas.map(labelled);
   const seasonSplit = seasonCards.length > 1 && seasonCards.every(Boolean);
@@ -221,13 +289,40 @@ export function StateGuide({
     ...attractions.map((a) => ({ name: a.name, lat: a.lat, lng: a.lng, href: pageOf(a) ?? undefined })),
   ]);
 
-  // Each destination is linked under the first region that names it.
+  // Each destination is linked under its best matching region.
+  const regionTowns: RollupPlace[][] = regions.map(() => []);
   const used = new Set<string>();
-  const regionTowns = regions.map((r) => {
-    const text = `${r.title ?? ""} ${r.body}`.toLowerCase();
-    const hit = destinations.filter((d) => !used.has(d.slug) && text.includes(d.name.toLowerCase())).slice(0, 6);
-    hit.forEach((d) => used.add(d.slug));
-    return hit;
+
+  // Pass 1: match by region title first (e.g. "Kinnaur", "Lahaul and Spiti")
+  regions.forEach((r, idx) => {
+    const title = (r.title ?? "").toLowerCase();
+    destinations.forEach((d) => {
+      if (used.has(d.slug)) return;
+      const dName = d.name.toLowerCase();
+      const coreWord = dName.replace(/\s+valley|\s+town/g, "").trim();
+      if (title.includes(dName) || (coreWord.length > 3 && new RegExp(`\\b${coreWord}\\b`, "i").test(title))) {
+        regionTowns[idx].push(d);
+        used.add(d.slug);
+      }
+    });
+  });
+
+  // Pass 2: match remaining destinations in region body (avoiding transit-only mentions like "via Kinnaur")
+  regions.forEach((r, idx) => {
+    const body = r.body.toLowerCase();
+    destinations.forEach((d) => {
+      if (used.has(d.slug)) return;
+      const dName = d.name.toLowerCase();
+      const coreWord = dName.replace(/\s+valley|\s+town/g, "").trim();
+      const transitPattern = new RegExp(`\\bvia\\s+${dName}\\b|\\bvia\\s+${coreWord}\\b`, "i");
+      if (transitPattern.test(body) && !body.replace(transitPattern, "").includes(coreWord)) {
+        return;
+      }
+      if (body.includes(dName) || (coreWord.length > 3 && new RegExp(`\\b${coreWord}\\b`, "i").test(body))) {
+        regionTowns[idx].push(d);
+        used.add(d.slug);
+      }
+    });
   });
 
   const sources = [...new Map(snapshot.sections.flatMap((s) => s.sources ?? []).filter((s: SectionSource) => /^https?:\/\//.test(s.url)).map((s) => [s.url, s])).values()];
@@ -403,21 +498,39 @@ export function StateGuide({
         {regions.length ? (
           <section id="regions" aria-labelledby="regions-h" className="scroll-mt-36">
             <SectionHead id="regions" eyebrow="Plan by region" title={`Regions of ${name}`} intro={`${name} is not one destination. Pick the region that fits your trip — the towns we cover in each are linked.`} />
-            <ul className="grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-3">
+            <ul className="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3">
               {regions.map((r, i) => {
                 const inRegion = regionTowns[i];
+                const regionImg = r.image ?? inRegion[0]?.hero ?? null;
                 return (
-                  <li key={i} className="flex flex-col rounded-xl border border-[#EAE7E0] bg-white p-4 shadow-xs transition-colors hover:border-coral">
-                    <span className="text-[0.6875rem] font-bold text-coral">{String(i + 1).padStart(2, "0")}</span>
-                    {r.title ? <h3 className="mb-1.5 mt-0.5 text-sm font-bold text-ink">{r.title}</h3> : null}
-                    <p className="text-[0.8125rem] leading-relaxed text-[#666]">{r.body}</p>
-                    {inRegion.length ? (
-                      <div className="mt-3 flex flex-wrap gap-1.5 border-t border-[#F0EFEA] pt-3">
-                        {inRegion.map((d) => (
-                          <Link key={d.slug} href={pageOf(d)!} className="rounded-full bg-[#EEF4F0] px-2.5 py-1 text-[0.6875rem] font-semibold text-[#2D5A3F] hover:bg-[#2D5A3F] hover:text-white">{d.name}</Link>
-                        ))}
+                  <li key={i} className="group flex flex-col overflow-hidden rounded-2xl border border-[#EAE7E0] bg-white shadow-xs transition-all hover:border-coral hover:shadow-card">
+                    {regionImg ? (
+                      <Photo img={regionImg} sizes="(min-width: 1024px) 33vw, (min-width: 640px) 50vw, 100vw" aspect="aspect-[16/10]">
+                        <span className="absolute left-3 top-3 rounded-md bg-white/95 px-2.5 py-1 text-xs font-bold text-coral shadow-xs backdrop-blur-xs">
+                          Region {String(i + 1).padStart(2, "0")}
+                        </span>
+                      </Photo>
+                    ) : (
+                      <div className="flex h-12 items-center px-5 pt-4">
+                        <span className="text-xs font-bold text-coral">Region {String(i + 1).padStart(2, "0")}</span>
                       </div>
-                    ) : null}
+                    )}
+                    <div className="flex flex-1 flex-col p-5">
+                      {r.title ? <h3 className="mb-2 text-base font-bold text-ink transition-colors group-hover:text-coral">{r.title}</h3> : null}
+                      <p className="text-[0.8125rem] leading-relaxed text-[#666]">{r.body}</p>
+                      {inRegion.length ? (
+                        <div className="mt-4 flex flex-1 flex-col justify-end border-t border-[#F0EFEA] pt-3.5">
+                          <p className="mb-2 text-[0.6875rem] font-bold uppercase tracking-wider text-[#888]">Covered in this region</p>
+                          <div className="flex flex-wrap gap-1.5">
+                            {inRegion.map((d) => (
+                              <Link key={d.slug} href={pageOf(d)!} className="rounded-full bg-[#EEF4F0] px-3 py-1 text-xs font-semibold text-[#2D5A3F] transition-colors hover:bg-[#2D5A3F] hover:text-white">
+                                {d.name}
+                              </Link>
+                            ))}
+                          </div>
+                        </div>
+                      ) : null}
+                    </div>
                   </li>
                 );
               })}
@@ -598,21 +711,104 @@ export function StateGuide({
 
         {/* How to reach */}
         {reach ? (
-          <section id="reach" aria-labelledby="reach-h" className="scroll-mt-36 rounded-3xl border border-[#E5E2DC] bg-white p-6 shadow-xs sm:p-8">
-            <SectionHead id="reach" eyebrow="Getting there" title={`How to reach ${name}`} />
+          <section id="reach" aria-labelledby="reach-h" className="scroll-mt-36">
+            <SectionHead
+              id="reach"
+              eyebrow="Getting there"
+              title={`How to reach ${name}`}
+              intro="Practical transport routes across mountain airports, broad-gauge railheads, heritage toy trains, and interstate bus corridors."
+            />
             {reachSplit ? (
-              <div className={`grid grid-cols-1 gap-6 md:grid-cols-2 ${reachCols.length === 3 ? "lg:grid-cols-3" : "lg:grid-cols-4"}`}>
-                {reachCols.map((c, i) => (
-                  <div key={i} className="space-y-2">
-                    <p className="flex items-center gap-2 text-sm font-bold text-ink"><Icon name={reachIcon(c!.label)} size={16} className="text-coral" /> {c!.label}</p>
-                    <p className="border-l-2 border-coral/40 pl-3 text-[0.8125rem] leading-relaxed text-[#555]">{c!.text}</p>
+              <div className="space-y-6">
+                <ul className="grid grid-cols-1 gap-5 md:grid-cols-2 lg:grid-cols-4">
+                  {reachCols.map((c, i) => {
+                    const theme = transportTheme(c!.label, c!.text);
+                    return (
+                      <li
+                        key={i}
+                        className="flex flex-col justify-between rounded-2xl border border-[#EAE7E0] bg-white p-5 shadow-xs transition-all duration-200 hover:-translate-y-0.5 hover:border-coral/60 hover:shadow-card sm:p-6"
+                      >
+                        <div>
+                          <div className="flex items-center gap-3">
+                            <div className={`flex size-11 shrink-0 items-center justify-center rounded-xl ${theme.iconBg}`}>
+                              <Icon name={theme.icon} size={20} />
+                            </div>
+                            <div className="min-w-0">
+                              <span className="block text-[0.6875rem] font-bold uppercase tracking-wider text-coral">Mode {String(i + 1).padStart(2, "0")}</span>
+                              <h3 className="truncate text-base font-bold text-ink">{c!.label}</h3>
+                            </div>
+                          </div>
+
+                          <span className={`mt-3.5 inline-flex items-center rounded-md border px-2.5 py-0.5 text-[0.6875rem] font-semibold ${theme.badgeClass}`}>
+                            {theme.badge}
+                          </span>
+
+                          <p className="mt-3.5 text-[0.8125rem] leading-relaxed text-[#4A4A4A]">
+                            {c!.text}
+                          </p>
+                        </div>
+
+                        {theme.pills.length ? (
+                          <div className="mt-5 border-t border-[#F2EFE9] pt-3.5">
+                            <div className="flex flex-wrap gap-1.5">
+                              {theme.pills.map((p, pIdx) => (
+                                <span
+                                  key={pIdx}
+                                  className="rounded-md bg-[#F4F2EC] px-2 py-0.5 text-[0.6875rem] font-semibold text-[#555]"
+                                >
+                                  {p}
+                                </span>
+                              ))}
+                            </div>
+                          </div>
+                        ) : null}
+                      </li>
+                    );
+                  })}
+                </ul>
+
+                {/* Practical Gateway Callout */}
+                <div className="rounded-2xl border border-[#E5E2DC] bg-[#FAF8F5] p-5 shadow-xs sm:p-6">
+                  <div className="flex flex-col gap-4 lg:flex-row lg:items-center lg:justify-between">
+                    <div className="flex items-start gap-3.5">
+                      <div className="flex size-10 shrink-0 items-center justify-center rounded-xl bg-coral/10 text-coral">
+                        <Icon name="compass" size={20} />
+                      </div>
+                      <div>
+                        <h4 className="text-sm font-bold text-ink">Planning your gateway from Delhi or Chandigarh</h4>
+                        <p className="mt-0.5 text-xs text-[#666]">
+                          Pick the direct gateway suited to your destination valley to avoid unnecessary mountain transit hours.
+                        </p>
+                      </div>
+                    </div>
+                    <div className="flex flex-wrap gap-2 text-xs">
+                      <span className="rounded-lg border border-[#EAE7E0] bg-white px-3 py-1.5 font-medium text-ink shadow-2xs">
+                        <strong className="text-coral">To Shimla:</strong> 7–8 hrs (Volvo / Kalka Toy Train)
+                      </span>
+                      <span className="rounded-lg border border-[#EAE7E0] bg-white px-3 py-1.5 font-medium text-ink shadow-2xs">
+                        <strong className="text-coral">To Manali:</strong> 11–13 hrs (Overnight Volvo / Bhuntar air)
+                      </span>
+                      <span className="rounded-lg border border-[#EAE7E0] bg-white px-3 py-1.5 font-medium text-ink shadow-2xs">
+                        <strong className="text-coral">To Dharamshala:</strong> 9–10 hrs (Volvo / Gaggal air)
+                      </span>
+                    </div>
                   </div>
-                ))}
+                </div>
               </div>
             ) : (
-              <div className="space-y-3 text-[0.9375rem] leading-relaxed text-[#444]">{reachParas.map((p, i) => <p key={i}>{p}</p>)}</div>
+              <div className="rounded-2xl border border-[#E5E2DC] bg-white p-6 shadow-xs">
+                <div className="space-y-3 text-[0.9375rem] leading-relaxed text-[#444]">
+                  {reachParas.map((p, i) => (
+                    <p key={i}>{p}</p>
+                  ))}
+                </div>
+              </div>
             )}
-            {reach.body.items?.length ? <div className="mt-5"><FactRows items={reach.body.items} /></div> : null}
+            {reach.body.items?.length ? (
+              <div className="mt-5 rounded-2xl border border-[#E5E2DC] bg-white p-5 shadow-xs">
+                <FactRows items={reach.body.items} />
+              </div>
+            ) : null}
           </section>
         ) : null}
 

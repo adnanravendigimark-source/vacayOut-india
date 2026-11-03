@@ -719,7 +719,7 @@ export type ItemStatus = "verified" | "seasonal" | "estimate" | "unconfirmed";
 
 export type SectionBody = {
   text?: string;
-  items?: { title?: string; body: string; status?: ItemStatus }[];
+  items?: { title?: string; body: string; status?: ItemStatus; image?: SnapshotImage | null }[];
 };
 
 export type GuideBody = {
