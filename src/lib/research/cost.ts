@@ -11,6 +11,8 @@ type Price = { in: number; cached: number; out: number };
 const DEFAULT_PRICES: Record<string, Price> = {
   "gpt-5.5": { in: 5, cached: 0.5, out: 30 },
   "gpt-5.4-mini": { in: 0.75, cached: 0.075, out: 4.5 },
+  // Page assistant (cheapest GPT-6 tier).
+  "gpt-6-luna": { in: 0.1, cached: 0.01, out: 0.5 },
 };
 /** Unknown models are costed at this (deliberately high) rate so the budget errs on the safe side. */
 const FALLBACK: Price = { in: 10, cached: 1, out: 50 };

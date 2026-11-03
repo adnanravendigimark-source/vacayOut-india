@@ -52,10 +52,31 @@ export function Rail({ children, label }: { children: ReactNode; label: string }
 }
 
 /** Accessible tabs; all panels stay in the HTML. */
-export function Tabs({ tabs, label, variant = "pills" }: { tabs: { id: string; label: string; content: ReactNode; icon?: ReactNode; hint?: string }[]; label: string; variant?: "pills" | "underline" | "side" }) {
+export function Tabs({ tabs, label, variant = "pills", hashPrefix }: { tabs: { id: string; label: string; content: ReactNode; icon?: ReactNode; hint?: string }[]; label: string; variant?: "pills" | "underline" | "side"; hashPrefix?: string }) {
   const base = useId();
   const [active, setActive] = useState(0);
   const btns = useRef<(HTMLButtonElement | null)[]>([]);
+  const box = useRef<HTMLDivElement>(null);
+  // "#<hashPrefix>-<tab id>" in the URL (e.g. #plan-reach) opens that tab and scrolls to it.
+  const ids = tabs.map((t) => t.id).join("|");
+  useEffect(() => {
+    if (!hashPrefix) return;
+    const list = ids.split("|");
+    const pick = () => {
+      const h = decodeURIComponent(window.location.hash.slice(1));
+      if (!h.startsWith(`${hashPrefix}-`)) return;
+      const i = list.indexOf(h.slice(hashPrefix.length + 1));
+      if (i < 0) return;
+      setActive(i);
+      requestAnimationFrame(() => box.current?.scrollIntoView({ behavior: "smooth", block: "start" }));
+    };
+    const t = window.setTimeout(pick, 0);
+    window.addEventListener("hashchange", pick);
+    return () => {
+      window.clearTimeout(t);
+      window.removeEventListener("hashchange", pick);
+    };
+  }, [hashPrefix, ids]);
   if (!tabs.length) return null;
   const onKey = (e: KeyboardEvent) => {
     const n = e.key === "ArrowRight" || e.key === "ArrowDown" ? 1 : e.key === "ArrowLeft" || e.key === "ArrowUp" ? -1 : 0;
@@ -67,7 +88,7 @@ export function Tabs({ tabs, label, variant = "pills" }: { tabs: { id: string; l
   };
   if (variant === "side") {
     return (
-      <div className="grid gap-4 @3xl:grid-cols-[14rem_minmax(0,1fr)] @3xl:gap-6">
+      <div ref={box} className="grid scroll-mt-36 gap-4 @3xl:grid-cols-[14rem_minmax(0,1fr)] @3xl:gap-6">
         <div role="tablist" aria-label={label} aria-orientation="vertical" onKeyDown={onKey} className="-mx-1 flex gap-2 overflow-x-auto px-1 pb-1 [scrollbar-width:none] @3xl:mx-0 @3xl:flex-col @3xl:gap-1 @3xl:self-start @3xl:overflow-visible @3xl:rounded-2xl @3xl:border @3xl:border-line @3xl:bg-white @3xl:p-2 @3xl:pb-2">
           {tabs.map((t, i) => {
             const on = i === active;
@@ -104,7 +125,7 @@ export function Tabs({ tabs, label, variant = "pills" }: { tabs: { id: string; l
     );
   }
   return (
-    <div>
+    <div ref={box} className="scroll-mt-36">
       <div role="tablist" aria-label={label} onKeyDown={onKey} className={`flex gap-2 overflow-x-auto pb-1 [scrollbar-width:none] ${variant === "underline" ? "gap-0 border-b border-line" : ""}`}>
         {tabs.map((t, i) => {
           const on = i === active;

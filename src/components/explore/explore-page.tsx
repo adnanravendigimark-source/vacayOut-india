@@ -7,6 +7,7 @@ import Link from "next/link";
 import { Icon, type Name } from "@/components/icons/icon";
 import type { ExploreData } from "@/lib/places/public-lists";
 import { AiPlannerModal } from "@/components/chat/ai-planner-modal";
+import { IndiaRegionalMap } from "@/components/home/india-regional-map";
 
 export type PageHero = { src: string; alt: string; caption: string; credit: string; creditUrl: string; license: string; licenseUrl: string };
 
@@ -278,45 +279,19 @@ export function ExplorePage({ data, hero, initialRegion = "all" }: { data: Explo
           <aside className="lg:col-span-4 xl:col-span-3 space-y-6">
             {/* Widget 1: 36 States & Union Territories Map Card */}
             <div className="rounded-2xl border border-[#E5E2DC] bg-[#F7F9F6] p-5 shadow-xs flex flex-col justify-between">
-              {/* Soft Green India Map Silhouette */}
-              <div className="relative flex items-center justify-center py-2">
-                <svg
-                  viewBox="0 0 200 240"
-                  className="w-full h-auto max-h-[160px] opacity-85 drop-shadow-xs"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="M85 20 C90 15, 105 15, 110 25 C115 35, 120 45, 110 55 C100 65, 85 65, 80 55 C75 45, 80 25, 85 20 Z"
-                    fill="#CDE2D3"
-                    stroke="#A5C9B7"
-                    strokeWidth="1.2"
-                  />
-                  <path
-                    d="M60 60 C70 55, 110 55, 115 75 C110 95, 100 110, 75 115 C55 110, 45 90, 55 75 C60 65, 60 60, 60 60 Z"
-                    fill="#D8E8DC"
-                    stroke="#BED6C4"
-                    strokeWidth="1.2"
-                  />
-                  <path
-                    d="M75 115 C100 110, 130 115, 135 145 C130 170, 100 175, 80 165 C65 155, 60 130, 75 115 Z"
-                    fill="#C2DDD0"
-                    stroke="#A5C9B7"
-                    strokeWidth="1.2"
-                  />
-                  <path
-                    d="M145 75 C165 70, 190 75, 190 95 C190 115, 165 125, 145 110 C135 100, 135 85, 145 75 Z"
-                    fill="#D8E8DC"
-                    stroke="#BED6C4"
-                    strokeWidth="1.2"
-                  />
-                  <path
-                    d="M80 165 C100 175, 125 170, 115 205 C105 235, 95 240, 90 240 C85 240, 75 235, 70 205 C65 185, 75 170, 80 165 Z"
-                    fill="#B5D6C5"
-                    stroke="#98BFAC"
-                    strokeWidth="1.2"
-                  />
-                </svg>
+              {/* Authentic India Regional Map */}
+              <div className="relative flex items-center justify-center py-1">
+                <IndiaRegionalMap
+                  activeZone={selectedRegion === "all" ? null : selectedRegion}
+                  onSelectZone={(zone) => {
+                    setSelectedRegion(zone);
+                    setCurrentPage(1);
+                  }}
+                  showBadges={false}
+                  embed={true}
+                  maxHeight="max-h-[190px] sm:max-h-[220px]"
+                  className="w-full"
+                />
               </div>
 
               <div className="mt-3">
@@ -330,7 +305,7 @@ export function ExplorePage({ data, hero, initialRegion = "all" }: { data: Explo
                 <button
                   type="button"
                   onClick={() => handleOpenAi("Give me a complete regional overview of travel destinations in India by state")}
-                  className="mt-4 inline-flex items-center gap-2 rounded-full border border-[#D5DCD4] bg-white px-3.5 py-1.5 text-xs font-semibold text-ink shadow-xs hover:border-[#234832] hover:text-[#234832] transition-all"
+                  className="mt-4 inline-flex items-center gap-2 rounded-full border border-[#D5DCD4] bg-white px-3.5 py-1.5 text-xs font-semibold text-ink shadow-xs hover:border-[#234832] hover:text-[#234832] transition-all cursor-pointer"
                 >
                   <Icon name="compass" size={14} className="text-[#234832]" />
                   <span>View Indian map</span>
