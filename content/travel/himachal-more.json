@@ -1,0 +1,1446 @@
+{
+  "cluster": "himachal-more",
+  "title": "Himachal Pradesh — Shimla, Kullu, Kasol, Spiti, Kinnaur, Kasauli",
+  "researchedAt": "2026-11-03",
+  "selection": "Major Himachal destinations missing from earlier batches, chosen to cover the state's main circuits (Shimla hills, Kullu–Parvati, Lahaul–Spiti, Kinnaur). Light pass: overview, key facts for cards, how to reach, seasons, permits. Sources: Himachal Tourism destination pages; Wikipedia for elevations. Not found in an official source: a best season for Shimla, Kasol or Kinnaur as a whole — left out.",
+  "sources": {
+    "W_KSL": {
+      "url": "https://en.wikipedia.org/wiki/Kasauli",
+      "title": "Kasauli — Wikipedia",
+      "authority": "reference"
+    },
+    "W_KALPA": {
+      "url": "https://en.wikipedia.org/wiki/Kalpa,_Himachal_Pradesh",
+      "title": "Kalpa, Himachal Pradesh — Wikipedia",
+      "authority": "reference"
+    },
+    "HPT_SHI": {
+      "url": "https://himachaltourism.gov.in/destination/shimla/",
+      "title": "Shimla — Himachal Tourism (Govt of Himachal Pradesh)",
+      "authority": "government"
+    },
+    "W_KAS": {
+      "url": "https://en.wikipedia.org/wiki/Kasol",
+      "title": "Kasol — Wikipedia",
+      "authority": "reference"
+    },
+    "HPT_KUL": {
+      "url": "https://himachaltourism.gov.in/destination/kullu/",
+      "title": "Kullu — Himachal Tourism (Govt of Himachal Pradesh)",
+      "authority": "government"
+    },
+    "HPT_SOL": {
+      "url": "https://himachaltourism.gov.in/destination/solan/",
+      "title": "Solan — Himachal Tourism (Govt of Himachal Pradesh)",
+      "authority": "government"
+    },
+    "HPT_SPI": {
+      "url": "https://himachaltourism.gov.in/destination/spiti-valley/",
+      "title": "Spiti Valley — Himachal Tourism (Govt of Himachal Pradesh)",
+      "authority": "government"
+    },
+    "HPT_KIN": {
+      "url": "https://himachaltourism.gov.in/destination/kinnaur/",
+      "title": "Kinnaur — Himachal Tourism (Govt of Himachal Pradesh)",
+      "authority": "government"
+    },
+    "W_KAZA": {
+      "url": "https://en.wikipedia.org/wiki/Kaza,_Himachal_Pradesh",
+      "title": "Kaza, Himachal Pradesh — Wikipedia",
+      "authority": "reference"
+    },
+    "W_KUL": {
+      "url": "https://en.wikipedia.org/wiki/Kullu",
+      "title": "Kullu — Wikipedia",
+      "authority": "reference"
+    },
+    "HPT_REACH": {
+      "url": "https://himachaltourism.gov.in/how-to-reach/",
+      "title": "How to reach Himachal Pradesh — Himachal Tourism (Government of Himachal Pradesh)",
+      "authority": "government"
+    },
+    "HPT_FAIRS": {
+      "url": "https://himachaltourism.gov.in/fairs-fests/",
+      "title": "Fairs and festivals — Himachal Tourism (Government of Himachal Pradesh)",
+      "authority": "government"
+    },
+    "HPT_TIPS": {
+      "url": "https://himachaltourism.gov.in/travel-safety-tips/",
+      "title": "Travel safety tips — Himachal Tourism (Government of Himachal Pradesh)",
+      "authority": "government"
+    },
+    "W_HP": {
+      "url": "https://en.wikipedia.org/wiki/Himachal_Pradesh",
+      "title": "Himachal Pradesh — Wikipedia",
+      "authority": "reference"
+    },
+    "W_KSR": {
+      "url": "https://en.wikipedia.org/wiki/Kalka%E2%80%93Shimla_railway",
+      "title": "Kalka–Shimla railway — Wikipedia",
+      "authority": "reference"
+    },
+    "W_SHI": {
+      "url": "https://en.wikipedia.org/wiki/Shimla",
+      "title": "Shimla — Wikipedia",
+      "authority": "reference"
+    }
+  },
+  "facts": {
+    "KA1": {
+      "place": "himachal-pradesh/kasauli",
+      "topic": "A colonial cantonment",
+      "claim": "Kasauli is a cantonment hill station set up by the British in 1842.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "W_KSL",
+          "quote": "The cantonment was established by the British Raj in 1842 as a Colonial hill station"
+        }
+      ]
+    },
+    "KN5": {
+      "place": "himachal-pradesh/kinnaur",
+      "topic": "Kalpa's elevation",
+      "claim": "Kalpa stands at about 2,960 m.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "W_KALPA",
+          "quote": "Elevation 2,960 m (9,710 ft)"
+        }
+      ]
+    },
+    "SH6": {
+      "place": "himachal-pradesh/shimla",
+      "topic": "Ice skating",
+      "claim": "Shimla's open-air ice-skating rink runs from November to February, with a carnival around Christmas–New Year.",
+      "claimType": "schedule",
+      "evidence": [
+        {
+          "source": "HPT_SHI",
+          "quote": "The ice skating season lasts upto February and at around the Christmas – New Year festive week, a lively ice skating carnival is held at this open air rink."
+        }
+      ],
+      "kind": "seasonal"
+    },
+    "SH3": {
+      "place": "himachal-pradesh/shimla",
+      "topic": "Viceregal Lodge",
+      "claim": "Viceregal Lodge (1888) now houses the Indian Institute of Advanced Study; parts are open to visitors.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "HPT_SHI",
+          "quote": "When completed in 1888, the Viceregal Lodge was one of the most flamboyant and one of first electric buildings of India."
+        },
+        {
+          "source": "HPT_SHI",
+          "quote": "It now houses the Indian Institute of Advanced Studies. Parts of the Lodge are open to visit for people of all ages."
+        }
+      ]
+    },
+    "KS2": {
+      "place": "himachal-pradesh/kasol",
+      "topic": "A trekking base",
+      "claim": "Kasol is popular with backpackers and is the base for treks to Malana and Kheerganga.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "W_KAS",
+          "quote": "Kasol is a popular Himalayan destination for backpackers and acts as a base for nearby treks to Malana and Kheerganga ."
+        }
+      ]
+    },
+    "KU2": {
+      "place": "himachal-pradesh/kullu",
+      "topic": "Kullu Dussehra",
+      "claim": "In October the week-long Kullu Dussehra brings village deities to town on palanquins.",
+      "claimType": "schedule",
+      "evidence": [
+        {
+          "source": "HPT_KUL",
+          "quote": "In October, the quiet town comes to life when the week-long Kullu Dussehra festival is held."
+        }
+      ],
+      "kind": "seasonal"
+    },
+    "KA5": {
+      "place": "himachal-pradesh/kasauli",
+      "topic": "Getting to the Solan hills",
+      "claim": "Kalka is the nearest broad-gauge station; buses run between Solan and Delhi, Chandigarh and Shimla.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "HPT_SOL",
+          "quote": "Nearest broad gauge railway station is at Kalka."
+        },
+        {
+          "source": "HPT_SOL",
+          "quote": "Luxury, deluxe and ordinary busses regularly ply between Solan – Delhi, Chandigarh and Shimla."
+        }
+      ]
+    },
+    "KU4": {
+      "place": "himachal-pradesh/kullu",
+      "topic": "Manikaran",
+      "claim": "Manikaran, on the Parvati 45 km from Kullu, has a gurdwara with a hot sulphur spring.",
+      "claimType": "distance",
+      "evidence": [
+        {
+          "source": "HPT_KUL",
+          "quote": "The hot sulphur spring in the compound is therapeutic"
+        },
+        {
+          "source": "HPT_KUL",
+          "quote": "Manikaran, 45 km from Kullu can be easily reached by private or public transport."
+        }
+      ]
+    },
+    "SP1": {
+      "place": "himachal-pradesh/spiti-valley",
+      "topic": "The cold desert",
+      "claim": "Spiti — 'the middle land' — is a mountain cold desert of windswept valleys and quiet villages, shaped by Buddhism.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "HPT_SPI",
+          "quote": "A mountainous cold desert freckled with green patches over a dry weather-beaten face, fascinating valleys, windswept landscapes and quiet villages, Spiti, which loosely translates as ‘the middle land’."
+        }
+      ]
+    },
+    "SH7": {
+      "place": "himachal-pradesh/shimla",
+      "topic": "What to wear",
+      "claim": "Light woollens do from April to October; heavy woollens are needed from November to March.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "HPT_SHI",
+          "quote": "Bearing a temperate climate, cotton clothes with light woolens are worn from April to October. Heavy woollends and jackets are required for the winter which starts to set in from November and lasts upto March."
+        }
+      ],
+      "kind": "seasonal"
+    },
+    "KU7": {
+      "place": "himachal-pradesh/kullu",
+      "topic": "GHNP wildlife",
+      "claim": "The park shelters Himalayan tahr, brown bear, snow leopard, blue sheep, western tragopan and monal.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "HPT_KUL",
+          "quote": "Home to the rare and endangered Himalayan Thar, Himalayan Brown Bear, Snow Leopard and Blue Sheep, the park is a refuge to Western Tragopan, Monal and other rare birds also."
+        }
+      ]
+    },
+    "HS22": {
+      "place": "himachal-pradesh",
+      "topic": "Mobile signal in Kinnaur",
+      "claim": "Kinnaur has good mobile signal at Reckong Peo, Kalpa and Sangla, but internet can be weak and many trek routes have none.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "HPT_KIN",
+          "quote": "Good mobile phone connectivity is available at Reckong Peo, Kalpa, Sangla and other destinations. However, internet connectivity may be low in most other areas. Many trek routes and offbeat destinations may not have any mobile phone connectivity at all."
+        }
+      ]
+    },
+    "KA6": {
+      "place": "himachal-pradesh/kasauli",
+      "topic": "Mild climate",
+      "claim": "The Solan hills are a year-round destination: summers rarely pass 32°C and winters seldom drop below 5°C.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "HPT_SOL",
+          "quote": "Solan is a year around destination with mild summer temperatures that rarely rise above 32 degree Celsius and a relatively warm winter where temperature seldom drop below 5 degree Celsius."
+        }
+      ],
+      "kind": "seasonal"
+    },
+    "SP5": {
+      "place": "himachal-pradesh/spiti-valley",
+      "topic": "Kaza's elevation",
+      "claim": "Kaza, the main town, is at about 3,650 m.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "W_KAZA",
+          "quote": "Elevation 3,650 m (11,980 ft)"
+        }
+      ]
+    },
+    "SP4": {
+      "place": "himachal-pradesh/spiti-valley",
+      "topic": "Tabo",
+      "claim": "Tabo's monastery, founded in 996 AD, is the largest monastic complex in Spiti.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "HPT_SPI",
+          "quote": "Founded in 996 AD, Tabo is the largest monastic complex in Spiti"
+        }
+      ]
+    },
+    "KU3": {
+      "place": "himachal-pradesh/kullu",
+      "topic": "Elevation",
+      "claim": "Kullu stands at about 1,279 m.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "W_KUL",
+          "quote": "Elevation 1,279 m (4,196 ft)"
+        }
+      ]
+    },
+    "HS21": {
+      "place": "himachal-pradesh",
+      "topic": "Mobile signal in Spiti",
+      "claim": "In Spiti only BSNL mobile works well and internet is slow.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "HPT_SPI",
+          "quote": "Owing to its remoteness and high altitude only BSNL mobile phone network works fine in Spiti. Internet speed is slow."
+        }
+      ]
+    },
+    "HS20": {
+      "place": "himachal-pradesh",
+      "topic": "Road to Kinnaur",
+      "claim": "Kinnaur is reached on NH-22, the Hindustan–Tibet Road, with buses and taxis from Shimla and Rampur.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "HPT_KIN",
+          "quote": "The route is on NH – 22 (The Hindustan Tibet Road). Buses and Taxis are available at Shimla and Rampur."
+        }
+      ]
+    },
+    "KN1": {
+      "place": "himachal-pradesh/kinnaur",
+      "topic": "Kinnaur's highlights",
+      "claim": "Kinnaur runs from Sangla's orchards to Chitkul, India's last village on the Tibet border, with Kinner Kailash seen from Kalpa and the lake at Nako.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "HPT_KIN",
+          "quote": "From the righteous greens of Sangla valley with well developed orchards of apricots and apples, to the magnificent panorama of Chitkul, India’s last village on Indo-Tibet border, and from the stunning sight of Mt. Kinner Kailash, abode of Lord Shiva from Kalpa, to the pristine lake at Nako village"
+        }
+      ]
+    },
+    "KA4": {
+      "place": "himachal-pradesh/kasauli",
+      "topic": "Monkey Point",
+      "claim": "Monkey Point (Hanuman temple) is in the Air Force Station near the Lower Mall, about 4 km from the town centre.",
+      "claimType": "distance",
+      "evidence": [
+        {
+          "source": "W_KSL",
+          "quote": "Monkey Point is situated in the Air Force Station near the Lower Mall region about 4 km (2.5 mi) from the center of town."
+        }
+      ]
+    },
+    "SH2": {
+      "place": "himachal-pradesh/shimla",
+      "topic": "Colonial landmarks",
+      "claim": "The Ridge and the Mall remain its landmarks, with Viceregal Lodge, Christ Church, Gaiety Theatre and Gorton Castle among its colonial buildings.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "HPT_SHI",
+          "quote": "The Ridge and The Mall are still popular landmarks just as they were in the pre-Independence era."
+        },
+        {
+          "source": "HPT_SHI",
+          "quote": "The imperial Viceregal Lodge, the graceful Christ Church, Gaiety Theatre, Gorton Castle, Barnes Court and several buildings are part of the colonial architectural heritage of the town."
+        }
+      ]
+    },
+    "HS18": {
+      "place": "himachal-pradesh",
+      "topic": "Bhuntar airport and Kullu",
+      "claim": "The Kullu-Manali airport at Bhuntar is about 10 km from Kullu, with flights to Delhi and Chandigarh.",
+      "claimType": "distance",
+      "evidence": [
+        {
+          "source": "HPT_KUL",
+          "quote": "The Kullu-Manali airport is at Bhuntar, about 10 km from the main town. Flights to and from Delhi and Chandigarh are available."
+        }
+      ]
+    },
+    "KU6": {
+      "place": "himachal-pradesh/kullu",
+      "topic": "Camping at Raison",
+      "claim": "North of Kullu, villages around Raison have riverside camping sites on the Beas.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "HPT_KUL",
+          "quote": "Tucked away to the north of Kullu are a cluster of small villages that offer excellent camping sites by the bank of River Beas."
+        }
+      ]
+    },
+    "HS11": {
+      "place": "himachal-pradesh",
+      "topic": "Snow in the Kullu valley",
+      "claim": "December to February is the coldest time in the Kullu valley, with the best chance of snow.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "HPT_KUL",
+          "quote": "December to February is generally the chilliest period when chances of witnessing a snowfall are more."
+        }
+      ],
+      "kind": "seasonal"
+    },
+    "KS4": {
+      "place": "himachal-pradesh/kasol",
+      "topic": "Elevation",
+      "claim": "Kasol stands at about 1,580 m.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "W_KAS",
+          "quote": "Elevation 1,580 m (5,180 ft)"
+        }
+      ]
+    },
+    "HP9": {
+      "place": "himachal-pradesh",
+      "topic": "Which airport for which region",
+      "claim": "Gaggal-Kangra and Pathankot serve Kangra, Dharamshala and Chamba; Bhuntar-Kullu serves Kullu-Manali, Mandi and Lahaul-Spiti; Chandigarh and Jubbarhatti serve Shimla, Solan and Kinnaur.",
+      "claimType": "distance",
+      "evidence": [
+        {
+          "source": "HPT_REACH",
+          "quote": "The Pathankot and Gaggal-Kangra airport give easy access to Kangra, Dharamshala, Chamba, Hamirpur and Una, the Bhuntar-Kullu airport to Mandi, Kullu-Manali and Lahaul-Spiti, and the Chandigarh and Jubbarhatti – Shimla airport to Shimla, Solan, Bilaspur, Mandi and Kinnaur regions."
+        }
+      ]
+    },
+    "SP3": {
+      "place": "himachal-pradesh/spiti-valley",
+      "topic": "Distances from Kaza",
+      "claim": "From Kaza, Key Monastery is 12 km, Kibber 18 km, Tabo 48 km, Kunzum Pass 75 km and Chandratal 98 km.",
+      "claimType": "distance",
+      "evidence": [
+        {
+          "source": "HPT_SPI",
+          "quote": "Kee Monastery 12 Kibber 18"
+        },
+        {
+          "source": "HPT_SPI",
+          "quote": "Kimic 18 Tabo 48"
+        },
+        {
+          "source": "HPT_SPI",
+          "quote": "Kunzum Pass 75 Chandra Taal 98"
+        }
+      ]
+    },
+    "SH9": {
+      "place": "himachal-pradesh/shimla",
+      "topic": "Chadwick Falls",
+      "claim": "Chadwick Falls, near Summer Hill, are best in the July–September rains.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "HPT_SHI",
+          "quote": "At a walkable distance from Summer Hill are the Chadwick Falls, best visited during the rainy season that lasts from July to September."
+        }
+      ],
+      "kind": "seasonal"
+    },
+    "HS31": {
+      "place": "himachal-pradesh",
+      "topic": "Kinnaur Tribal Festival",
+      "claim": "Reckong Peo holds a Tribal Festival from the last week of October into the first week of November.",
+      "claimType": "schedule",
+      "evidence": [
+        {
+          "source": "HPT_KIN",
+          "quote": "the Tribal Festival held every year from the last week of October into the first week of November at Reckong Peo"
+        }
+      ],
+      "kind": "seasonal"
+    },
+    "HS29": {
+      "place": "himachal-pradesh",
+      "topic": "Shimla Summer Festival",
+      "claim": "Shimla holds its Summer Festival in early June.",
+      "claimType": "schedule",
+      "evidence": [
+        {
+          "source": "HPT_FAIRS",
+          "quote": "At the height of summer, in early June, the Shimla hold a Summer Festival"
+        }
+      ],
+      "kind": "seasonal"
+    },
+    "SP7": {
+      "place": "himachal-pradesh/spiti-valley",
+      "topic": "Airports and railheads for Spiti",
+      "claim": "The nearest airports are Bhuntar and Shimla, and the nearest broad-gauge stations Chandigarh and Kalka; the rest is by road.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "HPT_SPI",
+          "quote": "Flights from New Delhi and Chandigarh operate to Bhuntar and Shimla airports, which are the nearest airports to the distant cold desert."
+        },
+        {
+          "source": "HPT_SPI",
+          "quote": "Chandigarh and Kalka are the closest broad gauge train stations for Spiti."
+        }
+      ]
+    },
+    "SP8": {
+      "place": "himachal-pradesh/spiti-valley",
+      "topic": "Permits for foreigners",
+      "claim": "Foreign tourists need an Inner Line Permit for some inner areas of Spiti near the Tibet border.",
+      "claimType": "rule",
+      "evidence": [
+        {
+          "source": "HPT_TIPS",
+          "quote": "Foreign tourists require Inner Line Permits to visit certain inner area of Kinnaur district and Spiti of the Lahaul-Spiti district that borders Tibet-China."
+        }
+      ]
+    },
+    "HS34": {
+      "place": "himachal-pradesh",
+      "topic": "Rafting season near Kullu",
+      "claim": "Rafting on the Beas near Kullu runs March–May and September–November.",
+      "claimType": "schedule",
+      "evidence": [
+        {
+          "source": "HPT_KUL",
+          "quote": "In Kullu the adventure is conducted by experienced rafters, which can be experienced on long river stretches from March and May and from September to November."
+        }
+      ],
+      "kind": "seasonal"
+    },
+    "HS36": {
+      "place": "himachal-pradesh",
+      "topic": "Great Himalayan National Park",
+      "claim": "The Great Himalayan National Park near Kullu is a UNESCO World Heritage Site with no roads inside — only treks and camping.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "HPT_KUL",
+          "quote": "It is a UNESCO World Heritage Site and there are no roads or paved trails in this carefully conserved natural habitat."
+        }
+      ]
+    },
+    "HS13": {
+      "place": "himachal-pradesh",
+      "topic": "Spiti's season",
+      "claim": "Spiti is pleasant from April to October (about 15–20°C in May–June) and can fall to −20°C in winter.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "HPT_SPI",
+          "quote": "Weather in Spiti is pleasant from April to October, with the May-June temperatures hovering at a comfortable 15°C and 20°C make it a good time to visit the valley."
+        },
+        {
+          "source": "HPT_SPI",
+          "quote": "In winters, the temperature falls to as low as minus 20 degree Celsius."
+        }
+      ],
+      "kind": "seasonal"
+    },
+    "KN6": {
+      "place": "himachal-pradesh/kinnaur",
+      "topic": "Fulaich at Sangla",
+      "claim": "In September the Fulaich fair centres on Sangla's Bering Nag temple.",
+      "claimType": "schedule",
+      "evidence": [
+        {
+          "source": "HPT_KIN",
+          "quote": "In September, the Fulaich fair centered around the temple does attract a large number of tourists and devotees."
+        }
+      ],
+      "kind": "seasonal"
+    },
+    "SP6": {
+      "place": "himachal-pradesh/spiti-valley",
+      "topic": "Ladarcha fair",
+      "claim": "Ladarcha, Spiti's best-known fair, is a trade fair held in Kaza every July/August.",
+      "claimType": "schedule",
+      "evidence": [
+        {
+          "source": "HPT_SPI",
+          "quote": "A traditional trade fair that is held every July/August in Kaza"
+        },
+        {
+          "source": "HPT_SPI",
+          "quote": "Ladarcha is probably the most celebrated festival of Spiti."
+        }
+      ],
+      "kind": "seasonal"
+    },
+    "KU1": {
+      "place": "himachal-pradesh/kullu",
+      "topic": "Kullu town",
+      "claim": "Kullu, on the Beas, was founded as a capital in 1660 and is the gateway to Manali and the district headquarters.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "HPT_KUL",
+          "quote": "As a gateway to the popular destination of Manali, it is a cool escapade for tired souls."
+        },
+        {
+          "source": "HPT_KUL",
+          "quote": "Founded as a capital of Kullu in the year 1660, today the sprawling township serves as the administrative headquarter of the valley district."
+        }
+      ]
+    },
+    "KU5": {
+      "place": "himachal-pradesh/kullu",
+      "topic": "Kullu's seasons",
+      "claim": "Kullu's summer (March–June) is 25–35°C; monsoon runs July–September; winter (December–February) is 5–15°C.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "HPT_KUL",
+          "quote": "Summer March – June 25°C – 35°C Monsoon July – September 15°C – 25°C Winter December – February 5°C – 15°C"
+        }
+      ],
+      "kind": "seasonal"
+    },
+    "KS1": {
+      "place": "himachal-pradesh/kasol",
+      "topic": "Kasol",
+      "claim": "Kasol is a hamlet in the Parvati Valley between Bhuntar and Manikaran — 30 km from Bhuntar, 3.5 km from Manikaran and 36 km from Kullu.",
+      "claimType": "distance",
+      "evidence": [
+        {
+          "source": "W_KAS",
+          "quote": "It is situated in Parvati Valley , on the banks of the Parvati River between Bhuntar and Manikaran ."
+        },
+        {
+          "source": "W_KAS",
+          "quote": "It is located 30 km (19 mi) from Bhuntar , 3.5 km from Manikaran and 36 km (22 mi) from Kullu town"
+        }
+      ]
+    },
+    "HS19": {
+      "place": "himachal-pradesh",
+      "topic": "Distances from Kullu",
+      "claim": "Kullu is 40 km from Manali, 210 km from Shimla, 260 km from Chandigarh and 495 km from Delhi.",
+      "claimType": "distance",
+      "evidence": [
+        {
+          "source": "HPT_KUL",
+          "quote": "Distances from Kullu (Km) Manali 40 Shimla 210 Delhi 495 Chandigarh 260"
+        }
+      ]
+    },
+    "KS5": {
+      "place": "himachal-pradesh/kasol",
+      "topic": "By road only",
+      "claim": "Kasol has no rail or air link of its own; it is reached by road.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "W_KAS",
+          "quote": "Kasol is only connected to the rest of India by well-developed roads."
+        }
+      ]
+    },
+    "HS9": {
+      "place": "himachal-pradesh",
+      "topic": "Rain shadow",
+      "claim": "Dharamshala gets very heavy rain, while Lahaul and Spiti are cold and almost rainless.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "W_HP",
+          "quote": "The state's winter capital, Dharamsala receives very heavy rainfall, while areas like Lahaul and Spiti are cold and almost rainless."
+        }
+      ],
+      "kind": "seasonal"
+    },
+    "HS16": {
+      "place": "himachal-pradesh",
+      "topic": "Kalka–Shimla railway",
+      "claim": "The 96.6 km narrow-gauge Kalka–Shimla railway (opened 1903, 102 tunnels) joined the Mountain Railways of India World Heritage Site in 2008.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "W_KSR",
+          "quote": "Length 96.60 km"
+        },
+        {
+          "source": "W_KSR",
+          "quote": "UNESCO added the Kalka–Shimla Railway to the mountain railways of India World Heritage Site"
+        },
+        {
+          "source": "HPT_SHI",
+          "quote": "the Kalka-Shimla railway line with 102 tunnels constructed between 1898 to 1903 has been recognised by UNESCO as World Heritage mountain railway site."
+        }
+      ]
+    },
+    "KN2": {
+      "place": "himachal-pradesh/kinnaur",
+      "topic": "Rivers and trade route",
+      "claim": "It lies on the old India–Tibet trade route, cut by the Sutlej, Spiti and Baspa rivers.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "HPT_KIN",
+          "quote": "Lying on the ancient trade route between India and Tibet"
+        },
+        {
+          "source": "HPT_KIN",
+          "quote": "The gushing rivers – Sutlej, Spiti, Baspa and their tributaries"
+        }
+      ]
+    },
+    "KA3": {
+      "place": "himachal-pradesh/kasauli",
+      "topic": "Elevation",
+      "claim": "Kasauli stands at about 1,800 m.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "W_KSL",
+          "quote": "Elevation 1,800 m (5,900 ft)"
+        }
+      ]
+    },
+    "HS17": {
+      "place": "himachal-pradesh",
+      "topic": "Buses to Shimla",
+      "claim": "Ordinary and luxury coaches run regularly between Delhi, Chandigarh and Shimla.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "HPT_SHI",
+          "quote": "Ordinary and luxury coaches regularly ply between Delhi, Chandigarh and the city."
+        }
+      ]
+    },
+    "HS15": {
+      "place": "himachal-pradesh",
+      "topic": "Shimla airport",
+      "claim": "Daily flights from Delhi land at Jubbarhatti, 23 km from Shimla.",
+      "claimType": "distance",
+      "evidence": [
+        {
+          "source": "HPT_SHI",
+          "quote": "There are daily flights from Delhi to Shimla Airport at Jubbarhatti, at a distance of 23 kms from the city."
+        }
+      ]
+    },
+    "KN3": {
+      "place": "himachal-pradesh/kinnaur",
+      "topic": "Distances from Reckong Peo",
+      "claim": "From Reckong Peo, Kalpa is 13 km, Sangla 38 km, Chitkul 65 km, Nako 102 km and Shimla 230 km.",
+      "claimType": "distance",
+      "evidence": [
+        {
+          "source": "HPT_KIN",
+          "quote": "Kalpa 13 Nako 102 Sangla 38 Chitkul 65 Shimla 230"
+        }
+      ]
+    },
+    "SH4": {
+      "place": "himachal-pradesh/shimla",
+      "topic": "Jakhoo Temple",
+      "claim": "Jakhoo Temple sits on Shimla's highest hill at 2,445 m, a half-hour climb from the Ridge or by ropeway.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "HPT_SHI",
+          "quote": "Overlooking the hill station at 2,445 meters altitude, Jakhoo Hill is Shimla city’s acme and home to Lord Hanuman."
+        },
+        {
+          "source": "HPT_SHI",
+          "quote": "The daunting half-an-hour uphill climb from The Ridge finally ends at Jakhoo Temple. Ropeway service to Jakhoo temple is also available."
+        }
+      ]
+    },
+    "KS3": {
+      "place": "himachal-pradesh/kasol",
+      "topic": "Old and new Kasol",
+      "claim": "A bridge divides Kasol into old and new townships, with a growing number of guesthouses, camps and hotels; buses and taxis are easy to find.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "HPT_KUL",
+          "quote": "Once a quaint village that is now divided by a bridge into old and new townships has only recently expanded to have growing number of guesthouses, camps and hotels"
+        },
+        {
+          "source": "HPT_KUL",
+          "quote": "Buses regularly ply to Kasol and taxis are also easily available for hire."
+        }
+      ]
+    },
+    "SP2": {
+      "place": "himachal-pradesh/spiti-valley",
+      "topic": "Above 3,000 m",
+      "claim": "Spiti lies at well over 3,000 m, with hamlets, trekking trails, ancient monasteries and lakes.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "HPT_SPI",
+          "quote": "Located at well over 3,000 m altitude high up in the mountains, Spiti welcomes travellers to its postcard-perfect hamlets, surreal landscapes, plentiful trekking trails, ancient monasteries and scenic lakes."
+        }
+      ]
+    },
+    "SH1": {
+      "place": "himachal-pradesh/shimla",
+      "topic": "Shimla, the colonial capital",
+      "claim": "Shimla, Himachal's capital, was the British summer capital and keeps its colonial buildings.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "HPT_SHI",
+          "quote": "the state capital of Himachal Pradesh is one of the most popular hill stations of India."
+        },
+        {
+          "source": "HPT_SHI",
+          "quote": "they elevated the small township into the summer capital of an empire sprawling the sub-continent."
+        }
+      ]
+    },
+    "HS32": {
+      "place": "himachal-pradesh",
+      "topic": "Lossar in Spiti",
+      "claim": "Lossar, Spiti's New Year, usually falls in February, with masked chham dances at the monasteries.",
+      "claimType": "schedule",
+      "evidence": [
+        {
+          "source": "HPT_SPI",
+          "quote": "is usually celebrated in February to mark the advent of the New Year."
+        },
+        {
+          "source": "HPT_SPI",
+          "quote": "The prime attraction of the festival at the monasteries is a ritual chham dance by lamas adorning elaborate costumes and masks."
+        }
+      ],
+      "kind": "seasonal"
+    },
+    "SH5": {
+      "place": "himachal-pradesh/shimla",
+      "topic": "Elevation",
+      "claim": "Shimla stands at about 2,376 m.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "W_SHI",
+          "quote": "Elevation 2,376 m (7,795 ft)"
+        }
+      ]
+    },
+    "HS14": {
+      "place": "himachal-pradesh",
+      "topic": "Buses to Spiti",
+      "claim": "Regular buses run Manali–Kaza from July to October and Shimla–Kinnaur–Kaza from May to October; sturdy off-road taxis are recommended.",
+      "claimType": "schedule",
+      "evidence": [
+        {
+          "source": "HPT_SPI",
+          "quote": "From Manali to Kaza, there are regular buses from July to October and from Shimla via Kinnaur, there are regular buses from May to October."
+        },
+        {
+          "source": "HPT_SPI",
+          "quote": "Sturdy vehicles used as off-roading taxis are recommended for a travel tour to Spiti from Manali or Shimla."
+        }
+      ],
+      "kind": "seasonal"
+    },
+    "KN7": {
+      "place": "himachal-pradesh/kinnaur",
+      "topic": "Permits for foreigners",
+      "claim": "Foreign tourists need an Inner Line Permit for some inner areas of Kinnaur near the Tibet border.",
+      "claimType": "rule",
+      "evidence": [
+        {
+          "source": "HPT_TIPS",
+          "quote": "Foreign tourists require Inner Line Permits to visit certain inner area of Kinnaur district and Spiti of the Lahaul-Spiti district that borders Tibet-China."
+        }
+      ]
+    },
+    "KN4": {
+      "place": "himachal-pradesh/kinnaur",
+      "topic": "Railhead and airport",
+      "claim": "The nearest railhead and airport are both at Shimla, 244 km and 267 km away.",
+      "claimType": "distance",
+      "evidence": [
+        {
+          "source": "HPT_KIN",
+          "quote": "Nearest Railhead (244 Km) is Shimla ."
+        },
+        {
+          "source": "HPT_KIN",
+          "quote": "Nearest Airport (267 Km) is Shimla ."
+        }
+      ]
+    },
+    "KA2": {
+      "place": "himachal-pradesh/kasauli",
+      "topic": "Distances",
+      "claim": "Kasauli is about 25–27 km from Solan, 58 km from Chandigarh and 77 km from Shimla.",
+      "claimType": "distance",
+      "evidence": [
+        {
+          "source": "W_KSL",
+          "quote": "25 km (16 mi) from Solan , 77 km (48 mi) from Shimla , 58 km (36 mi) from Chandigarh"
+        },
+        {
+          "source": "HPT_SOL",
+          "quote": "Kasauli 27"
+        }
+      ],
+      "kind": "estimate"
+    }
+  },
+  "places": [
+    {
+      "key": "himachal-pradesh/shimla",
+      "kind": "city",
+      "name": "Shimla",
+      "summary": "Himachal's capital and the old British summer capital: the Ridge and Mall, Viceregal Lodge, Jakhoo hill and the UNESCO-listed toy train from Kalka.",
+      "seoTitle": "Shimla Travel Guide: The Ridge, Toy Train & Jakhoo",
+      "seoDescription": "Plan Shimla: the Ridge and Mall, Viceregal Lodge, Jakhoo Temple, the Kalka–Shimla toy train, winter ice skating and how to get there.",
+      "lat": 31.1048,
+      "lng": 77.1734,
+      "tripTypes": [
+        "heritage",
+        "mountains",
+        "family"
+      ],
+      "images": [
+        {
+          "commons": "File:Christ Church - The Ridge Shimla.jpg",
+          "alt": "Christ Church's yellow facade on the Ridge in Shimla",
+          "caption": "Christ Church on the Ridge, Shimla",
+          "hero": true
+        }
+      ],
+      "sections": {
+        "key_facts": {
+          "items": [
+            {
+              "title": "Altitude",
+              "body": "About 2,376 m",
+              "status": "verified"
+            },
+            {
+              "title": "Known for",
+              "body": "The Ridge, Mall Road and the toy train",
+              "status": "verified"
+            },
+            {
+              "title": "Nearest airport",
+              "body": "Jubbarhatti, 23 km",
+              "status": "verified"
+            },
+            {
+              "title": "Ice skating",
+              "body": "November–February",
+              "status": "seasonal"
+            }
+          ],
+          "facts": [
+            "SH5",
+            "SH2",
+            "HS16",
+            "HS15",
+            "SH6"
+          ]
+        },
+        "overview": {
+          "text": "Shimla, the capital of Himachal Pradesh, grew from a small township into the summer capital of British India, and its colonial core still shows it. The Ridge and the Mall remain the town's landmarks, lined by Christ Church, the Gaiety Theatre and Gorton Castle, and the Viceregal Lodge of 1888 now houses the Indian Institute of Advanced Study, with parts open to visitors.\n\nAbove the town, Jakhoo Temple stands on Shimla's highest hill at 2,445 m — a half-hour climb from the Ridge, or a ropeway ride. The 96 km Kalka–Shimla railway, opened in 1903 with 102 tunnels, is part of a UNESCO World Heritage Site and is the slow, scenic way up. Shimla also makes a base for the drive into Kinnaur along the Hindustan–Tibet Road.",
+          "facts": [
+            "SH1",
+            "SH2",
+            "SH3",
+            "SH4",
+            "HS16",
+            "HS20"
+          ]
+        },
+        "things_to_do": {
+          "items": [
+            {
+              "body": "Walk the Ridge and the Mall, past Christ Church, the Gaiety Theatre and Scandal Point."
+            },
+            {
+              "body": "Visit the Viceregal Lodge (1888), now the Indian Institute of Advanced Study."
+            },
+            {
+              "body": "Climb or take the ropeway to Jakhoo Temple at 2,445 m."
+            },
+            {
+              "body": "Ride the Kalka–Shimla toy train."
+            },
+            {
+              "body": "Skate on the open-air ice rink between November and February."
+            },
+            {
+              "body": "See Chadwick Falls near Summer Hill in the July–September rains."
+            }
+          ],
+          "facts": [
+            "SH2",
+            "SH3",
+            "SH4",
+            "HS16",
+            "SH6",
+            "SH9"
+          ]
+        },
+        "how_to_reach": {
+          "text": "By air: daily flights from Delhi land at Jubbarhatti, 23 km from Shimla; Chandigarh is the other option.\n\nBy rail: take a broad-gauge train to Kalka, then the narrow-gauge Kalka–Shimla line.\n\nBy road: ordinary and luxury coaches run regularly from Delhi and Chandigarh.",
+          "facts": [
+            "HS15",
+            "HP9",
+            "HS16",
+            "HS17"
+          ]
+        },
+        "best_time": {
+          "text": "Light woollens do from April to October; winter sets in from November and lasts until March, when heavy woollens and jackets are needed. The Summer Festival is held in early June, and the ice-skating season runs until February, with a carnival around Christmas and New Year.",
+          "facts": [
+            "SH7",
+            "HS29",
+            "SH6"
+          ]
+        }
+      },
+      "parent": "himachal-pradesh"
+    },
+    {
+      "key": "himachal-pradesh/kullu",
+      "kind": "town",
+      "name": "Kullu",
+      "summary": "The Beas valley's old capital and district town: gateway to Manali, home of the October Dussehra, with rafting, riverside camping and the Great Himalayan National Park nearby.",
+      "seoTitle": "Kullu Travel Guide: Dussehra, Rafting & Valley",
+      "seoDescription": "Plan Kullu: the October Dussehra, rafting on the Beas, camping at Raison, Manikaran's hot spring, the Great Himalayan National Park and getting there.",
+      "lat": 31.9579,
+      "lng": 77.1095,
+      "tripTypes": [
+        "adventure",
+        "spiritual",
+        "nature"
+      ],
+      "images": [
+        {
+          "commons": "File:Kullu Valley with River Beas - Kullu - Himachal Pradesh - 2014-05-09 2181.JPG",
+          "alt": "The Beas river winding through the green Kullu valley below forested hills",
+          "caption": "The Beas in the Kullu valley",
+          "hero": true
+        }
+      ],
+      "sections": {
+        "key_facts": {
+          "items": [
+            {
+              "title": "Altitude",
+              "body": "About 1,279 m",
+              "status": "verified"
+            },
+            {
+              "title": "Known for",
+              "body": "Kullu Dussehra and Beas rafting",
+              "status": "verified"
+            },
+            {
+              "title": "Nearest airport",
+              "body": "Bhuntar, about 10 km",
+              "status": "verified"
+            },
+            {
+              "title": "Rafting season",
+              "body": "March–May, September–November",
+              "status": "seasonal"
+            }
+          ],
+          "facts": [
+            "KU3",
+            "KU2",
+            "HS34",
+            "HS18"
+          ]
+        },
+        "overview": {
+          "text": "Kullu spreads along the Beas river. Founded as a capital in 1660, it is now the district headquarters and the gateway to Manali, 40 km up the valley.\n\nIn October the week-long Kullu Dussehra fills the town as village deities arrive on palanquins. The rest of the year the valley is for the outdoors: rafting on long stretches of the Beas, riverside camping around Raison, and the Great Himalayan National Park — a UNESCO World Heritage Site with no roads inside, home to Himalayan tahr, brown bear, snow leopard and the western tragopan. Manikaran's gurdwara and hot sulphur spring are 45 km away on the Parvati.",
+          "facts": [
+            "KU1",
+            "HS19",
+            "KU2",
+            "HS34",
+            "KU6",
+            "HS36",
+            "KU7",
+            "KU4"
+          ]
+        },
+        "how_to_reach": {
+          "text": "By air: the Kullu–Manali airport at Bhuntar is about 10 km away, with flights to Delhi and Chandigarh.\n\nBy road: Kullu is 260 km from Chandigarh and 495 km from Delhi; luxury and ordinary coaches run from Delhi, Chandigarh, Shimla and Dharamshala.",
+          "facts": [
+            "HS18",
+            "HS19"
+          ]
+        },
+        "best_time": {
+          "text": "Summer (March–June) is 25–35°C in the valley, the monsoon runs from July to September, and winter (December–February) is 5–15°C with the best chance of snow. Come in October for Dussehra; rafting runs March–May and September–November.",
+          "facts": [
+            "KU5",
+            "HS11",
+            "KU2",
+            "HS34"
+          ]
+        }
+      },
+      "parent": "himachal-pradesh"
+    },
+    {
+      "key": "himachal-pradesh/kasol",
+      "kind": "town",
+      "name": "Kasol",
+      "summary": "A riverside hamlet in the Parvati Valley near Manikaran, popular with backpackers as the base for treks to Malana and Kheerganga.",
+      "seoTitle": "Kasol Travel Guide: Parvati Valley Base",
+      "seoDescription": "Plan Kasol in the Parvati Valley: what it's like, the Manikaran hot spring 3.5 km away, treks to Malana and Kheerganga, and how to get there by road.",
+      "lat": 32.01,
+      "lng": 77.315,
+      "tripTypes": [
+        "adventure",
+        "nature"
+      ],
+      "images": [
+        {
+          "commons": "File:Parvati River At Kasol (197732809).jpeg",
+          "alt": "The Parvati river rushing over rocks past pine trees at Kasol",
+          "caption": "The Parvati river at Kasol",
+          "hero": true
+        }
+      ],
+      "sections": {
+        "key_facts": {
+          "items": [
+            {
+              "title": "Altitude",
+              "body": "About 1,580 m",
+              "status": "verified"
+            },
+            {
+              "title": "Known for",
+              "body": "Backpacker base for Malana and Kheerganga treks",
+              "status": "verified"
+            },
+            {
+              "title": "From Bhuntar",
+              "body": "About 30 km",
+              "status": "verified"
+            },
+            {
+              "title": "Manikaran",
+              "body": "3.5 km",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "KS4",
+            "KS2",
+            "KS1"
+          ]
+        },
+        "overview": {
+          "text": "Kasol sits on the banks of the Parvati river between Bhuntar and Manikaran, 36 km from Kullu town. Once a quiet village, it is now split by a bridge into an old and a new township, with a growing number of guesthouses, camps and hotels.\n\nIt is a popular stop for backpackers and the usual base for treks to Malana and Kheerganga. The Manikaran gurdwara, with its hot sulphur spring, is just 3.5 km up the valley. There is no railway or airport here — Kasol is reached by road, with regular buses and easy-to-find taxis.",
+          "facts": [
+            "KS1",
+            "KS3",
+            "KS2",
+            "KU4",
+            "KS5"
+          ]
+        },
+        "how_to_reach": {
+          "text": "By air: Bhuntar (Kullu–Manali airport) is about 30 km away.\n\nBy road: buses run regularly to Kasol and taxis are easy to hire; there is no rail link.",
+          "facts": [
+            "KS1",
+            "KS3",
+            "KS5"
+          ]
+        }
+      },
+      "parent": "himachal-pradesh"
+    },
+    {
+      "key": "himachal-pradesh/spiti-valley",
+      "kind": "region",
+      "name": "Spiti Valley",
+      "summary": "Himachal's high cold desert on the Tibet border: thousand-year-old monasteries, villages above 3,000 m and roads open only part of the year.",
+      "seoTitle": "Spiti Valley Travel Guide: Kaza, Key & Tabo",
+      "seoDescription": "Plan Spiti Valley: Kaza, Key and Tabo monasteries, Kunzum Pass and Chandratal, the April–October season, buses from Manali and Shimla and permits.",
+      "lat": 32.2276,
+      "lng": 78.071,
+      "tripTypes": [
+        "adventure",
+        "spiritual",
+        "nature"
+      ],
+      "images": [
+        {
+          "commons": "File:Key Monastery, SPITI (Himachal Pradesh, INDIA).jpg",
+          "alt": "Key Monastery's white buildings stacked on a dry hill in Spiti",
+          "caption": "Key Monastery, Spiti",
+          "hero": true
+        }
+      ],
+      "sections": {
+        "key_facts": {
+          "items": [
+            {
+              "title": "Altitude",
+              "body": "Kaza about 3,650 m",
+              "status": "verified"
+            },
+            {
+              "title": "Best time",
+              "body": "April–October",
+              "status": "seasonal"
+            },
+            {
+              "title": "Buses",
+              "body": "Manali–Kaza Jul–Oct · via Kinnaur May–Oct",
+              "status": "seasonal"
+            },
+            {
+              "title": "Mobile",
+              "body": "Only BSNL works well",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "SP5",
+            "HS13",
+            "HS14",
+            "HS21"
+          ]
+        },
+        "overview": {
+          "text": "Spiti — 'the middle land' — is a mountain cold desert of windswept valleys and quiet villages on the Tibet border, lying at well over 3,000 m. Buddhism shapes daily life, and its monasteries are the main draw: Key is 12 km from Kaza, and Tabo's, founded in 996 AD, is the largest monastic complex in the valley.\n\nFrom Kaza, the main town at about 3,650 m, roads lead to Kibber (18 km), Tabo (48 km), Kunzum Pass (75 km) and Chandratal (98 km). The valley sits in the rain shadow and is pleasant from April to October; in winter it can fall to −20°C. Plan for limited signal — only BSNL works well — and note that foreigners need an Inner Line Permit for some inner areas.",
+          "facts": [
+            "SP1",
+            "SP2",
+            "SP3",
+            "SP4",
+            "SP5",
+            "HS9",
+            "HS13",
+            "HS21",
+            "SP8"
+          ]
+        },
+        "how_to_reach": {
+          "text": "By road from Manali: regular buses to Kaza run from July to October.\n\nBy road from Shimla: buses via Kinnaur run from May to October; sturdy off-road taxis are recommended on both routes.\n\nBy air and rail: the nearest airports are Bhuntar and Shimla, and the nearest broad-gauge stations Chandigarh and Kalka — the rest is by road.",
+          "facts": [
+            "HS14",
+            "SP7"
+          ]
+        },
+        "best_time": {
+          "text": "Spiti is pleasant from April to October, around 15–20°C in May and June, and stays almost rainless during the monsoon. Winter drops to −20°C. Ladarcha, the big trade fair at Kaza, is held in July/August; Lossar, the New Year, usually falls in February.",
+          "facts": [
+            "HS13",
+            "HS9",
+            "SP6",
+            "HS32"
+          ]
+        },
+        "practical_info": {
+          "items": [
+            {
+              "title": "Permits",
+              "body": "Foreign tourists need an Inner Line Permit for some inner areas near the Tibet border.",
+              "status": "verified"
+            },
+            {
+              "title": "Mobile and internet",
+              "body": "Only BSNL mobile works well; internet is slow.",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "SP8",
+            "HS21"
+          ]
+        }
+      },
+      "parent": "himachal-pradesh"
+    },
+    {
+      "key": "himachal-pradesh/kinnaur",
+      "kind": "region",
+      "name": "Kinnaur",
+      "summary": "The Sutlej valley on the old India–Tibet trade route: Sangla's orchards, Chitkul on the border, Kalpa facing Kinner Kailash and Nako's lake.",
+      "seoTitle": "Kinnaur Travel Guide: Kalpa, Sangla & Chitkul",
+      "seoDescription": "Plan Kinnaur: Kalpa and Kinner Kailash, Sangla and Chitkul, Nako, distances from Reckong Peo, the Hindustan–Tibet Road, festivals and permits.",
+      "lat": 31.5384,
+      "lng": 78.2716,
+      "tripTypes": [
+        "nature",
+        "adventure",
+        "spiritual"
+      ],
+      "images": [
+        {
+          "commons": "File:Shivalingam atop Kinner Kailash- Photo taken from Kalpa.JPG",
+          "alt": "The rock pillar on Kinner Kailash seen from Kalpa",
+          "caption": "Kinner Kailash from Kalpa",
+          "hero": true
+        }
+      ],
+      "sections": {
+        "key_facts": {
+          "items": [
+            {
+              "title": "Altitude",
+              "body": "Kalpa about 2,960 m",
+              "status": "verified"
+            },
+            {
+              "title": "Known for",
+              "body": "Kalpa, Sangla, Chitkul and Nako",
+              "status": "verified"
+            },
+            {
+              "title": "Road",
+              "body": "NH-22, the Hindustan–Tibet Road",
+              "status": "verified"
+            },
+            {
+              "title": "From Shimla",
+              "body": "Reckong Peo 230 km",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "KN5",
+            "KN1",
+            "HS20",
+            "KN3"
+          ]
+        },
+        "overview": {
+          "text": "Kinnaur lies on the ancient trade route between India and Tibet, its valleys cut by the Sutlej, Spiti and Baspa rivers. It runs from the apple and apricot orchards of the Sangla valley to Chitkul, India's last village on the Tibet border, and from Kalpa — at about 2,960 m, facing Kinner Kailash — to the lake at Nako.\n\nReckong Peo is the district town: Kalpa is 13 km away, Sangla 38 km, Chitkul 65 km and Nako 102 km. The road in is NH-22, the Hindustan–Tibet Road, and the September Fulaich fair at Sangla and the Tribal Festival at Reckong Peo in late October are the times to see local culture.",
+          "facts": [
+            "KN2",
+            "KN1",
+            "KN5",
+            "KN3",
+            "HS20",
+            "KN6",
+            "HS31"
+          ]
+        },
+        "how_to_reach": {
+          "text": "By road: Kinnaur is on NH-22, the Hindustan–Tibet Road; buses and taxis leave from Shimla and Rampur. Reckong Peo is 230 km from Shimla.\n\nBy rail and air: the nearest railhead and airport are both at Shimla, 244 km and 267 km away.",
+          "facts": [
+            "HS20",
+            "KN3",
+            "KN4"
+          ]
+        },
+        "practical_info": {
+          "items": [
+            {
+              "title": "Permits",
+              "body": "Foreign tourists need an Inner Line Permit for some inner areas near the Tibet border.",
+              "status": "verified"
+            },
+            {
+              "title": "Mobile and internet",
+              "body": "Good mobile signal at Reckong Peo, Kalpa and Sangla, but internet can be weak and many trek routes have none.",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "KN7",
+            "HS22"
+          ]
+        }
+      },
+      "parent": "himachal-pradesh"
+    },
+    {
+      "key": "himachal-pradesh/kasauli",
+      "kind": "town",
+      "name": "Kasauli",
+      "summary": "A quiet colonial cantonment in the Solan hills, an easy drive from Chandigarh, with a mild climate all year.",
+      "seoTitle": "Kasauli Travel Guide: Cantonment Hill Town",
+      "seoDescription": "Plan Kasauli: the 1842 British cantonment, Monkey Point, distances from Chandigarh and Shimla, the mild Solan-hills climate and how to get there.",
+      "lat": 30.8988,
+      "lng": 76.9653,
+      "tripTypes": [
+        "heritage",
+        "weekend",
+        "family"
+      ],
+      "images": [
+        {
+          "commons": "File:Kasauli, Himachal Pradesh.jpg",
+          "alt": "Pine-covered ridges and houses of Kasauli in the Solan hills",
+          "caption": "Kasauli",
+          "hero": true
+        }
+      ],
+      "sections": {
+        "key_facts": {
+          "items": [
+            {
+              "title": "Altitude",
+              "body": "About 1,800 m",
+              "status": "verified"
+            },
+            {
+              "title": "Known for",
+              "body": "British cantonment and Monkey Point",
+              "status": "verified"
+            },
+            {
+              "title": "From Chandigarh",
+              "body": "About 58 km",
+              "status": "verified"
+            },
+            {
+              "title": "Climate",
+              "body": "Mild all year",
+              "status": "seasonal"
+            }
+          ],
+          "facts": [
+            "KA3",
+            "KA1",
+            "KA4",
+            "KA2",
+            "KA6"
+          ]
+        },
+        "overview": {
+          "text": "Kasauli is a small cantonment town in Solan district, set up by the British in 1842 as a hill station, and it keeps much of that unhurried feel. It is about 25–27 km from Solan, 58 km from Chandigarh and 77 km from Shimla, which makes it one of the easiest hill escapes from the plains.\n\nMonkey Point, the Hanuman temple in the Air Force Station near the Lower Mall, is about 4 km from the town centre. The Solan hills are mild all year — summers rarely pass 32°C and winters seldom drop below 5°C.",
+          "facts": [
+            "KA1",
+            "KA2",
+            "KA4",
+            "KA6"
+          ]
+        },
+        "how_to_reach": {
+          "text": "By rail: Kalka is the nearest broad-gauge station.\n\nBy road: Chandigarh is about 58 km away; buses run between Solan and Delhi, Chandigarh and Shimla.",
+          "facts": [
+            "KA5",
+            "KA2"
+          ]
+        }
+      },
+      "parent": "himachal-pradesh"
+    }
+  ],
+  "itineraries": [],
+  "guides": []
+}

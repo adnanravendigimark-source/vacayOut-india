@@ -1,7 +1,7 @@
 import "server-only";
 import { and, desc, eq, inArray, sql } from "drizzle-orm";
 import { getDb } from "@/lib/db";
-import { itineraries, places, travelGuidePlaces, travelGuides, type GuideSnapshot, type ItinerarySnapshot, type SnapshotImage } from "@/lib/db/schema";
+import { itineraries, places, travelGuidePlaces, travelGuides, type GuideSnapshot, type ItinerarySnapshot, type SectionBody, type SnapshotImage } from "@/lib/db/schema";
 import { stopRef } from "@/lib/itineraries/plan";
 
 /**
@@ -30,7 +30,13 @@ export type RollupPlace = {
   /** "parent_section" places live inside their parent's page (linked as parent#slug). */
   displayMode: "page" | "parent_section";
   depth: number;
+  /** The place's short fact lists (key facts, visiting info), for cards. */
+  facts: Partial<Record<CardSection, SectionBody>> | null;
 };
+
+/** Sections small enough to carry on every card. */
+export const CARD_SECTIONS = ["key_facts", "visit_info"] as const;
+export type CardSection = (typeof CARD_SECTIONS)[number];
 
 export type RollupItinerary = { slug: string; title: string; summary: string; durationDays: number; tripTypes: string[]; hero: SnapshotImage | null; placeName: string; stopNames: string[] };
 export type RollupGuide = { slug: string; title: string; summary: string; hero: SnapshotImage | null; placeNames: string[] };
@@ -52,7 +58,9 @@ export async function listPublishedDescendants(rootId: string): Promise<RollupPl
            v.snapshot->'place'->'parent'->>'name' as "parentName",
            v.snapshot->'place'->'parent'->>'kind' as "parentKind",
            v.snapshot->'place'->'parent'->>'slug' as "parentSlug",
-           p.display_mode::text as "displayMode"
+           p.display_mode::text as "displayMode",
+           (select jsonb_object_agg(s->>'key', s->'body') from jsonb_array_elements(v.snapshot->'sections') s
+             where s->>'key' in ('key_facts', 'visit_info')) as facts
     from tree t
     join places p on p.id = t.id
     join place_versions v on v.id = p.published_version_id

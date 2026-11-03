@@ -402,7 +402,7 @@ export function PlacePage({
       : childHref(p.slug);
 
   // Published rollup on live pages; direct (possibly draft) children in previews.
-  const asRollup = (c: Child): RollupPlace => ({ id: c.slug, parentId: null, slug: c.slug, kind: c.kind, name: c.name, summary: c.summary, lat: c.lat ?? null, lng: c.lng ?? null, hero: c.hero ?? null, tripTypes: c.tripTypes ?? [], category: null, parentName: place.name, parentKind: place.kind, parentSlug: place.slug, displayMode: "page", depth: 1 });
+  const asRollup = (c: Child): RollupPlace => ({ id: c.slug, parentId: null, slug: c.slug, kind: c.kind, name: c.name, summary: c.summary, lat: c.lat ?? null, lng: c.lng ?? null, hero: c.hero ?? null, tripTypes: c.tripTypes ?? [], category: null, parentName: place.name, parentKind: place.kind, parentSlug: place.slug, displayMode: "page", depth: 1, facts: null });
   const fallback = items.map(asRollup);
   // Places shown as sections of THIS page are already listed from `inline`.
   const inlineSlugs = new Set(inline.map((c) => c.slug));
