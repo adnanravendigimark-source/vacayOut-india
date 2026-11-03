@@ -1,6 +1,6 @@
 {
   "cluster": "himachal",
-  "title": "Himachal Pradesh — state-wide itineraries",
+  "title": "Himachal Pradesh — state-wide itineraries and travel guides",
   "researchedAt": "2026-11-03",
   "selection": "Three routes across Himachal: Shimla–Manali 6 days, Spiti circuit 9 days, Dharamshala–Dalhousie 5 days. Distances from Himachal Tourism's tables; no driving times are given where no source states one, and only official fees appear in budgets.",
   "sources": {
@@ -147,6 +147,56 @@
     "HPT_PL": {
       "url": "https://himachaltourism.gov.in/destination/palampur/",
       "title": "Palampur — Himachal Tourism (Government of Himachal Pradesh)",
+      "authority": "government"
+    },
+    "HPT_REACH": {
+      "url": "https://himachaltourism.gov.in/how-to-reach/",
+      "title": "How to reach Himachal Pradesh — Himachal Tourism (Government of Himachal Pradesh)",
+      "authority": "government"
+    },
+    "HPT_SOL": {
+      "url": "https://himachaltourism.gov.in/destination/solan/",
+      "title": "Solan — Himachal Tourism (Govt of Himachal Pradesh)",
+      "authority": "government"
+    },
+    "RP_REFUND": {
+      "url": "https://rohtangpermits.hp.gov.in/Home/RefundPolicy",
+      "title": "Rohtang permits refund policy — District Administration Kullu (Government of Himachal Pradesh)",
+      "authority": "government"
+    },
+    "RP_HAMTA": {
+      "url": "https://rohtangpermits.hp.gov.in/HamtaPass/InformatoryScreen",
+      "title": "Hamta Pass vehicle passes — District Administration Kullu (Government of Himachal Pradesh)",
+      "authority": "government"
+    },
+    "W_HP": {
+      "url": "https://en.wikipedia.org/wiki/Himachal_Pradesh",
+      "title": "Himachal Pradesh — Wikipedia",
+      "authority": "reference"
+    },
+    "HPT_DAL": {
+      "url": "https://himachaltourism.gov.in/destination/dalhousie/",
+      "title": "Dalhousie — Himachal Tourism (Govt of Himachal Pradesh)",
+      "authority": "government"
+    },
+    "W_MN": {
+      "url": "https://en.wikipedia.org/wiki/Manali,_Himachal_Pradesh",
+      "title": "Manali, Himachal Pradesh — Wikipedia",
+      "authority": "reference"
+    },
+    "HPT_DSL": {
+      "url": "https://himachaltourism.gov.in/destination/dharamshala",
+      "title": "Dharamshala — Himachal Tourism (Govt of Himachal Pradesh)",
+      "authority": "government"
+    },
+    "II_ADV": {
+      "url": "https://www.incredibleindia.gov.in/en/himachal-pradesh/manali/the-best-adventure-experiences-in-manali",
+      "title": "The best adventure experiences in Manali — Incredible India (Ministry of Tourism)",
+      "authority": "government"
+    },
+    "HPT_FAIRS": {
+      "url": "https://himachaltourism.gov.in/fairs-fests/",
+      "title": "Fairs and festivals — Himachal Tourism (Government of Himachal Pradesh)",
       "authority": "government"
     }
   },
@@ -1363,6 +1413,608 @@
         {
           "source": "HPT_DS",
           "quote": "It is an 18 km gradual uphill drive from Kangra that gets you to Dharamshala."
+        }
+      ]
+    },
+    "IT6": {
+      "place": "himachal-pradesh/dalhousie",
+      "topic": "Dalhousie distances",
+      "claim": "Dalhousie is 54 km from Chamba, 325 km from Shimla and 562 km from Delhi.",
+      "claimType": "distance",
+      "evidence": [
+        {
+          "source": "HPT_DL",
+          "quote": "Chamba 54 Shimla 325 Delhi 562"
+        }
+      ]
+    },
+    "IT7": {
+      "place": "himachal-pradesh/chamba",
+      "topic": "Chamba distances",
+      "claim": "Chamba is 380 km from Shimla, 600 km from Delhi and 352 km from Chandigarh.",
+      "claimType": "distance",
+      "evidence": [
+        {
+          "source": "HPT_CB",
+          "quote": "Shimla 380 Delhi 600 Chandigarh 352"
+        }
+      ]
+    },
+    "IT8": {
+      "place": "himachal-pradesh",
+      "topic": "Transport within Himachal",
+      "claim": "Within Himachal, public transport and taxis serve all destinations.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "HPT_REACH",
+          "quote": "Within Himachal, a good public transport service and taxi services serve reach all destinations in the state."
+        }
+      ]
+    },
+    "HP8": {
+      "place": "himachal-pradesh",
+      "topic": "Airports",
+      "claim": "Five airports serve Himachal: Chandigarh and Pathankot on its borders, and Gaggal-Kangra, Bhuntar-Kullu and Jubbarhatti-Shimla inside the state.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "HPT_REACH",
+          "quote": "The airports of Chandigarh and Pathankot on the borders of Himachal and the smaller airports of Gaggal-Kangra, Bhuntar-Kullu and Jubbarhatti-Shimla provide air connectivity to the state."
+        }
+      ]
+    },
+    "HP9": {
+      "place": "himachal-pradesh",
+      "topic": "Which airport for which region",
+      "claim": "Gaggal-Kangra and Pathankot serve Kangra, Dharamshala and Chamba; Bhuntar-Kullu serves Kullu-Manali, Mandi and Lahaul-Spiti; Chandigarh and Jubbarhatti serve Shimla, Solan and Kinnaur.",
+      "claimType": "distance",
+      "evidence": [
+        {
+          "source": "HPT_REACH",
+          "quote": "The Pathankot and Gaggal-Kangra airport give easy access to Kangra, Dharamshala, Chamba, Hamirpur and Una, the Bhuntar-Kullu airport to Mandi, Kullu-Manali and Lahaul-Spiti, and the Chandigarh and Jubbarhatti – Shimla airport to Shimla, Solan, Bilaspur, Mandi and Kinnaur regions."
+        }
+      ]
+    },
+    "DS8": {
+      "place": "himachal-pradesh/dharamshala",
+      "topic": "Railheads",
+      "claim": "The nearest broad-gauge station is Pathankot, about 94–95 km away; a narrow-gauge line runs from Pathankot to Kangra station, 20 km from Dharamshala.",
+      "claimType": "distance",
+      "evidence": [
+        {
+          "source": "HPT_DS",
+          "quote": "The nearest broad gauge railway line to Dharamshala is at Pathankot which is then connected by a 94 km narrow gauge line to Kangra."
+        },
+        {
+          "source": "DKG_REACH",
+          "quote": "The nearest railway station is at Kangra, 20 KMs from Dharamshala connected to Pathankot through narrow gauge line."
+        }
+      ],
+      "kind": "estimate"
+    },
+    "CB6": {
+      "place": "himachal-pradesh/chamba",
+      "topic": "Getting there",
+      "claim": "Pathankot airport and railway station are about 120 km away and Gaggal airport 150 km; buses run to Shimla, Chandigarh, Delhi, Dharamshala, Dalhousie and Bharmaur.",
+      "claimType": "distance",
+      "evidence": [
+        {
+          "source": "HPT_CB",
+          "quote": "The nearest airport to Chamba is the Pathankot Airport, at a distance of 120 km. The other closest airport is at Gaggal, Kangra, which is at a distance of 150 km from Chamba."
+        },
+        {
+          "source": "HPT_CB",
+          "quote": "Nearest railway station is Pathankot, about 120 km from Chamba."
+        },
+        {
+          "source": "HPT_CB",
+          "quote": "Private and public transport networks operate services to the major cities of Dharamshala, Shimla, Mandi, Kullu, Chandigarh, Delhi and to nearby stations of Bharmaur and Dalhousie."
+        }
+      ]
+    },
+    "HP10": {
+      "place": "himachal-pradesh",
+      "topic": "Railheads",
+      "claim": "Kalka and Pathankot are the broad-gauge railheads for Himachal; narrow-gauge lines run from Pathankot to Joginder Nagar and from Kalka to Shimla.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "HPT_REACH",
+          "quote": "broad gauge train stations at Kalka and Pathankot provide easy accessibility to and within Himachal Pradesh"
+        },
+        {
+          "source": "HPT_REACH",
+          "quote": "From Pathankot, a narrow gauge train to Jogindernagar connects up the entire Kangra valley in a joyful journey."
+        }
+      ]
+    },
+    "HP11": {
+      "place": "himachal-pradesh",
+      "topic": "Interstate buses",
+      "claim": "Interstate buses run to Himachal from Delhi, Chandigarh, Jaipur and other nearby cities.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "HPT_REACH",
+          "quote": "Interstate bus services are available from Delhi, Chandigarh, Jaipur and other neighbouring cities."
+        }
+      ]
+    },
+    "HS17": {
+      "place": "himachal-pradesh",
+      "topic": "Buses to Shimla",
+      "claim": "Ordinary and luxury coaches run regularly between Delhi, Chandigarh and Shimla.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "HPT_SHI",
+          "quote": "Ordinary and luxury coaches regularly ply between Delhi, Chandigarh and the city."
+        }
+      ]
+    },
+    "MN26": {
+      "place": "himachal-pradesh/manali",
+      "topic": "Buses and taxis",
+      "claim": "HRTC buses run from Manali's bus stand to major cities, and taxis are available from the local taxi stand.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "DK_REACH",
+          "quote": "Frequent buses are available from the HRTC bus stands at Kullu and Manali to all major cities. One can avail Taxis also from the the Local Taxi Stand."
+        }
+      ]
+    },
+    "HS35": {
+      "place": "himachal-pradesh",
+      "topic": "Distances from Delhi",
+      "claim": "By road Solan is about 300 km from Delhi, Kullu 495 km, Reckong Peo 580 km and Kaza about 730 km via Manali.",
+      "claimType": "distance",
+      "evidence": [
+        {
+          "source": "HPT_SOL",
+          "quote": "Shimla 46 Chandigarh 67 Delhi 300"
+        },
+        {
+          "source": "HPT_KUL",
+          "quote": "Delhi 495"
+        },
+        {
+          "source": "HPT_KIN",
+          "quote": "Shimla 230 Chandigarh 350 Delhi 580"
+        },
+        {
+          "source": "HPT_SPI",
+          "quote": "Delhi (via Manali) 730"
+        }
+      ],
+      "kind": "estimate"
+    },
+    "KG5": {
+      "place": "himachal-pradesh/kangra-fort",
+      "topic": "Getting to Kangra",
+      "claim": "Kangra is 10 km from Gaggal airport and on the Pathankot–Joginder Nagar narrow-gauge line; Delhi is 456 km by road.",
+      "claimType": "distance",
+      "evidence": [
+        {
+          "source": "HPT_KG",
+          "quote": "Kangra Airport at Gaggal is just 10 km from Kangra."
+        },
+        {
+          "source": "HPT_KG",
+          "quote": "Kangra is connected by the Pathankot – Jogindernagar narrow gauge rail line."
+        },
+        {
+          "source": "HPT_KG",
+          "quote": "Delhi – Kangra is 456 km"
+        }
+      ]
+    },
+    "HP32": {
+      "place": "himachal-pradesh",
+      "topic": "Hill driving",
+      "claim": "On hill roads keep to the left, don't overtake on bends and slow down at corners.",
+      "claimType": "rule",
+      "evidence": [
+        {
+          "source": "HPT_TIPS",
+          "quote": "Hill driving is not as easy as it looks. Always keep to the left to avoid collision with on coming vehicles."
+        },
+        {
+          "source": "HPT_TIPS",
+          "quote": "Avoid overtaking vehicles on bends. Reduce speeds at bends and corners."
+        }
+      ]
+    },
+    "MN15": {
+      "place": "himachal-pradesh/manali",
+      "topic": "By train",
+      "claim": "There is no railway to Manali: take a broad-gauge train to Pathankot and the narrow-gauge line to Joginder Nagar, or a train to Kiratpur (about 200 km from Kullu), then continue by road.",
+      "claimType": "distance",
+      "evidence": [
+        {
+          "source": "HPT_MN",
+          "quote": "Broad gauge trains travel up to Pathankot, from where a narrow gauge train takes you to Joginder Nagar. The distance between Joginder Nagar and Manali has to be covered by road transport."
+        },
+        {
+          "source": "DK_REACH",
+          "quote": "Kiratpur is another railway station 200 Km far on Kullu-Chandigarh highway."
+        }
+      ]
+    },
+    "RO11": {
+      "place": "himachal-pradesh/rohtang-pass",
+      "topic": "No refunds",
+      "claim": "Permit fees are not refundable; only failed payments are refunded.",
+      "claimType": "rule",
+      "evidence": [
+        {
+          "source": "RP_REFUND",
+          "quote": "Fee once paid is not refundable."
+        }
+      ]
+    },
+    "RO8": {
+      "place": "himachal-pradesh/rohtang-pass",
+      "topic": "Three permits a week",
+      "claim": "Each vehicle can get only three permits a week (Tuesday to Monday).",
+      "claimType": "rule",
+      "evidence": [
+        {
+          "source": "RP",
+          "quote": "In a week (Tuesday to Monday) only 3 permits can be obtained for each vehicle."
+        }
+      ]
+    },
+    "RO10": {
+      "place": "himachal-pradesh/rohtang-pass",
+      "topic": "Documents",
+      "claim": "You need valid ID, a valid PUC (pollution) certificate and the vehicle's registration date (no older than 10 years); a printout of the permit is compulsory.",
+      "claimType": "rule",
+      "evidence": [
+        {
+          "source": "RP",
+          "quote": "Valid ID Proof Valid Pollution Under Check (PUC) Certificate Vehicle Registration Date (Age of vehicle not to be more than 10 yrs)"
+        },
+        {
+          "source": "RP",
+          "quote": "Printout is compulsory for all permissions."
+        }
+      ]
+    },
+    "RO14": {
+      "place": "himachal-pradesh/rohtang-pass",
+      "topic": "Hamta vehicle pass",
+      "claim": "Vehicles heading towards Hamta need a one-day online pass: a ₹100 congestion charge for two-wheelers (100 allowed a day) and ₹200 for cars and jeeps (400 a day).",
+      "claimType": "price",
+      "evidence": [
+        {
+          "source": "RP_HAMTA",
+          "quote": "This is applicable for all vehicles Visting Hamta Pass. The tourism permit is valid for one day only (To & Fro)."
+        },
+        {
+          "source": "RP_HAMTA",
+          "quote": "Two Wheeler Not Allowed 100 100 2 Car & Jeep Not Allowed 200 400"
+        }
+      ]
+    },
+    "AT2": {
+      "place": "himachal-pradesh/atal-tunnel",
+      "topic": "Shorter route",
+      "claim": "The old route over Rohtang via Gramphu was 116 km and took 5–6 hours; through the tunnel it is 71 km and about 2 hours, avoiding avalanche- and jam-prone stretches.",
+      "claimType": "distance",
+      "evidence": [
+        {
+          "source": "W_ATAL",
+          "quote": "The route, which previously went through Gramphu, was 116 km (72.1 mi) long and took 5 to 6 hours in good conditions."
+        },
+        {
+          "source": "W_ATAL",
+          "quote": "The new route via the tunnel brings down the total distance travelled to 71 km (44.1 mi) which can be covered in about 2 hours"
+        },
+        {
+          "source": "W_ATAL",
+          "quote": "the tunnel bypasses most of the sites that were prone to road blockades, avalanches, and traffic snarls, especially during winters"
+        }
+      ]
+    },
+    "HP18": {
+      "place": "himachal-pradesh",
+      "topic": "Rafting grade limit",
+      "claim": "Joy-ride rafting in Himachal is not permitted on rapids above Class II.",
+      "claimType": "rule",
+      "evidence": [
+        {
+          "source": "HPT_TIPS",
+          "quote": "River Rafting for joy ride purpose in Himachal Pradesh is not permitted beyond rapid class-II grade."
+        }
+      ]
+    },
+    "HP33": {
+      "place": "himachal-pradesh",
+      "topic": "Report violations",
+      "claim": "Report safety violations by adventure agencies to the Department of Tourism.",
+      "claimType": "rule",
+      "evidence": [
+        {
+          "source": "HPT_TIPS",
+          "quote": "Please report violation of safety rules by any agency to the Department of Tourism."
+        }
+      ]
+    },
+    "HP20": {
+      "place": "himachal-pradesh",
+      "topic": "Taxis",
+      "claim": "Hire only authorised taxis from registered operators or taxi unions, and ask for the government-approved fare chart.",
+      "claimType": "rule",
+      "evidence": [
+        {
+          "source": "HPT_TIPS",
+          "quote": "Do hire only authorized taxis and from Govt. registered Travel Operators or Taxi Unions. It is advisable to ask for Govt. approved fare chart."
+        }
+      ]
+    },
+    "HP16": {
+      "place": "himachal-pradesh",
+      "topic": "Polythene ban",
+      "claim": "Polythene is banned in Himachal Pradesh.",
+      "claimType": "rule",
+      "evidence": [
+        {
+          "source": "HPT_TIPS",
+          "quote": "The use of polythene is banned in Himachal Pradesh."
+        }
+      ]
+    },
+    "HP24": {
+      "place": "himachal-pradesh",
+      "topic": "Drugs law",
+      "claim": "Carrying or using drugs such as opium, heroin or marijuana is a crime under the NDPS Act, punishable with imprisonment.",
+      "claimType": "rule",
+      "evidence": [
+        {
+          "source": "HPT_TIPS",
+          "quote": "Do not use or carry any prohibited psychotropic or contraband drugs such as opium, heroin or marijuana, which under Narcotic Drugs and Psychotropic Substances Act is a crime"
+        }
+      ]
+    },
+    "HP25": {
+      "place": "himachal-pradesh",
+      "topic": "Registered stays",
+      "claim": "Stay in hotels, guest houses and homestays registered with the Department of Tourism.",
+      "claimType": "rule",
+      "evidence": [
+        {
+          "source": "HPT_TIPS",
+          "quote": "Stay only in hotel/guest houses/home stays that are registered with the Department of Tourism."
+        }
+      ]
+    },
+    "HP26": {
+      "place": "himachal-pradesh",
+      "topic": "River safety",
+      "claim": "Don't stand on cliff edges or riverside boulders for photos — Himachal's rivers are strong and deceptive.",
+      "claimType": "rule",
+      "evidence": [
+        {
+          "source": "HPT_TIPS",
+          "quote": "Do not stand at the edge of a cliff or on any bolder near a river bank for photographs etc. The water current in rivers of Himachal Pradesh is very strong and highly deceptive."
+        }
+      ]
+    },
+    "HS9": {
+      "place": "himachal-pradesh",
+      "topic": "Rain shadow",
+      "claim": "Dharamshala gets very heavy rain, while Lahaul and Spiti are cold and almost rainless.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "W_HP",
+          "quote": "The state's winter capital, Dharamsala receives very heavy rainfall, while areas like Lahaul and Spiti are cold and almost rainless."
+        }
+      ],
+      "kind": "seasonal"
+    },
+    "SP6": {
+      "place": "himachal-pradesh/spiti-valley",
+      "topic": "Ladarcha fair",
+      "claim": "Ladarcha, Spiti's best-known fair, is a trade fair held in Kaza every July/August.",
+      "claimType": "schedule",
+      "evidence": [
+        {
+          "source": "HPT_SPI",
+          "quote": "A traditional trade fair that is held every July/August in Kaza"
+        },
+        {
+          "source": "HPT_SPI",
+          "quote": "Ladarcha is probably the most celebrated festival of Spiti."
+        }
+      ],
+      "kind": "seasonal"
+    },
+    "SH9": {
+      "place": "himachal-pradesh/shimla",
+      "topic": "Chadwick Falls",
+      "claim": "Chadwick Falls, near Summer Hill, are best in the July–September rains.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "HPT_SHI",
+          "quote": "At a walkable distance from Summer Hill are the Chadwick Falls, best visited during the rainy season that lasts from July to September."
+        }
+      ],
+      "kind": "seasonal"
+    },
+    "DL7": {
+      "place": "himachal-pradesh/panjpula",
+      "topic": "Panjpula and Satdhara",
+      "claim": "Panjpula, 6 km out, is a stream confluence crossed by five bridges; the Satdhara falls on the way are best in July–August.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "HPT_DL",
+          "quote": "Scenic Panjpula, 6 km from Dalhousie, is a confluence of mountain streams whose waters are believed to have medicinal properties."
+        },
+        {
+          "source": "HPT_DL",
+          "quote": "Over these streams are five bridges built, giving the place its name."
+        },
+        {
+          "source": "HPT_DL",
+          "quote": "The waterfall is a place to be at during monsoon season in July – August, when the water gushes at its prime."
+        }
+      ],
+      "kind": "seasonal"
+    },
+    "HS30": {
+      "place": "himachal-pradesh",
+      "topic": "Minjar Fair",
+      "claim": "Chamba's week-long Minjar Fair is held on the Chaugan in July/August.",
+      "claimType": "schedule",
+      "evidence": [
+        {
+          "source": "HPT_DAL",
+          "quote": "Minjar Fair, the main festival of Chamba, is held at the sprawling Chaugan ground in July/August."
+        },
+        {
+          "source": "HPT_DAL",
+          "quote": "The celebrations go on for a week."
+        }
+      ],
+      "kind": "seasonal"
+    },
+    "MN2": {
+      "place": "himachal-pradesh/manali",
+      "topic": "Elevation and snow",
+      "claim": "Manali sits at about 2,050 m; snow falls mainly from December to early March.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "W_MN",
+          "quote": "Elevation 2,050 m (6,730 ft)"
+        },
+        {
+          "source": "W_MN",
+          "quote": "Manali experiences snowfall predominantly between December and the beginning of March."
+        }
+      ],
+      "kind": "seasonal"
+    },
+    "MN11": {
+      "place": "himachal-pradesh/manali",
+      "topic": "Temperatures",
+      "claim": "Summer days are around 22–30°C; in December–January it can fall below −5°C.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "HPT_MN",
+          "quote": "The bountiful valley is most pleasant during the summers when temperatures hover around 22°-30°Celsius."
+        },
+        {
+          "source": "HPT_MN",
+          "quote": "Temperature in December-January can fall below minus 5 degree Celsius in Manali."
+        }
+      ],
+      "kind": "seasonal"
+    },
+    "HS11": {
+      "place": "himachal-pradesh",
+      "topic": "Snow in the Kullu valley",
+      "claim": "December to February is the coldest time in the Kullu valley, with the best chance of snow.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "HPT_KUL",
+          "quote": "December to February is generally the chilliest period when chances of witnessing a snowfall are more."
+        }
+      ],
+      "kind": "seasonal"
+    },
+    "HS10": {
+      "place": "himachal-pradesh",
+      "topic": "Dharamshala's best months",
+      "claim": "In Dharamshala the best months are March–June, and December–February for a good chance of snow.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "HPT_DSL",
+          "quote": "Best time to visit Dharamshala is from March through June in the summer and from December through February in winter with there being a good chance of witnessing a snowfall."
+        }
+      ],
+      "kind": "seasonal"
+    },
+    "HS8": {
+      "place": "himachal-pradesh",
+      "topic": "Seasons",
+      "claim": "Summer runs from mid-April to the end of June; winter from late November to mid-March, with snow common in the alpine areas.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "W_HP",
+          "quote": "Summer lasts from mid-April until the end of June"
+        },
+        {
+          "source": "W_HP",
+          "quote": "Winter lasts from late November until mid-March. Snowfall is common in alpine tracts."
+        }
+      ],
+      "kind": "seasonal"
+    },
+    "SK1": {
+      "place": "himachal-pradesh/skiing-in-solang",
+      "topic": "Skiing at Solang",
+      "claim": "Solang's slopes (and Rohtang's) suit beginners as well as advanced skiers, with professional trainers.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_ADV",
+          "quote": "The rolling slopes of Solang Valley and Rohtang Pass provide an ideal landscape for beginners to take their initial strides into skiing"
+        },
+        {
+          "source": "II_ADV",
+          "quote": "entrust yourself to the expertise of professional trainers"
+        }
+      ]
+    },
+    "HS27": {
+      "place": "himachal-pradesh",
+      "topic": "Manali Winter Carnival",
+      "claim": "Manali's week-long Winter Carnival is held in the first week of January.",
+      "claimType": "schedule",
+      "evidence": [
+        {
+          "source": "HPT_FAIRS",
+          "quote": "Gaiety and fanfare mark the week-long Winter Carnival festival held in the first week of January at Manali."
+        }
+      ],
+      "kind": "seasonal"
+    },
+    "SH6": {
+      "place": "himachal-pradesh/shimla",
+      "topic": "Ice skating",
+      "claim": "Shimla's open-air ice-skating rink runs from November to February, with a carnival around Christmas–New Year.",
+      "claimType": "schedule",
+      "evidence": [
+        {
+          "source": "HPT_SHI",
+          "quote": "The ice skating season lasts upto February and at around the Christmas – New Year festive week, a lively ice skating carnival is held at this open air rink."
+        }
+      ],
+      "kind": "seasonal"
+    },
+    "DL18": {
+      "place": "himachal-pradesh/kalatop-sanctuary",
+      "topic": "Kalatop sanctuary",
+      "claim": "Kalatop Wildlife Sanctuary, 13 km from Dalhousie, shelters Himalayan black bear, leopard, goral and monal; winter snow can be over five feet deep.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "HPT_DL",
+          "quote": "Sheltered wildlife found in the sanctuary are the Himalayan black bear, leopard, ghoral deer, monal pheasant and others."
+        },
+        {
+          "source": "HPT_DL",
+          "quote": "winters can pound Kalatop with heavy snow that at times can pile to a heap of over five feet. Kalatop is 13 km from  Dalhousie"
         }
       ]
     }
@@ -2637,5 +3289,572 @@
       "sources": []
     }
   ],
-  "guides": []
+  "guides": [
+    {
+      "place": "himachal-pradesh",
+      "places": [
+        "himachal-pradesh/shimla",
+        "himachal-pradesh/manali",
+        "himachal-pradesh/dharamshala",
+        "himachal-pradesh/dalhousie",
+        "himachal-pradesh/kullu",
+        "himachal-pradesh/spiti-valley",
+        "himachal-pradesh/kinnaur",
+        "himachal-pradesh/chamba"
+      ],
+      "slug": "reach-himachal-from-delhi",
+      "title": "How to reach Himachal Pradesh from Delhi: Shimla, Manali, Dharamshala and Dalhousie",
+      "summary": "Which airport, railhead or bus suits each part of Himachal — Shimla, Kullu–Manali, Dharamshala, Dalhousie and Chamba, and Spiti and Kinnaur — with road distances from Delhi.",
+      "tripTypes": [
+        "mountains",
+        "family"
+      ],
+      "seoTitle": "How to Reach Himachal from Delhi: Air, Train, Bus",
+      "seoDescription": "Getting from Delhi to Shimla, Manali, Dharamshala, Dalhousie, Spiti and Kinnaur: the right airport and railhead for each, Volvo buses and road distances.",
+      "body": {
+        "intro": "Himachal has five airports, two broad-gauge railheads and a dense bus network, but each region is reached a different way. Pick your route by where you are going, not by the fastest-looking option.",
+        "sections": [
+          {
+            "heading": "The quick answer",
+            "items": [
+              {
+                "body": "Fly to Jubbarhatti (23 km), or train to Kalka and the toy train up; coaches from Delhi and Chandigarh.",
+                "title": "Shimla",
+                "status": "verified"
+              },
+              {
+                "body": "Fly to Bhuntar (10 km from Kullu, 50 km from Manali), or take an AC Volvo — Delhi to Manali is about 550 km.",
+                "title": "Kullu and Manali",
+                "status": "verified"
+              },
+              {
+                "body": "Fly to Gaggal (Kangra), 13–14 km away, or train to Pathankot, about 94–95 km.",
+                "title": "Dharamshala and McLeodganj",
+                "status": "verified"
+              },
+              {
+                "body": "Train to Pathankot — 87 km to Dalhousie, about 120 km to Chamba.",
+                "title": "Dalhousie and Chamba",
+                "status": "verified"
+              },
+              {
+                "body": "By road only: from Shimla along NH-22, or from Manali over Kunzum Pass in season.",
+                "title": "Kinnaur and Spiti",
+                "status": "seasonal"
+              }
+            ]
+          },
+          {
+            "heading": "By air",
+            "text": "Five airports serve the state: Chandigarh and Pathankot on its borders, and Gaggal-Kangra, Bhuntar-Kullu and Jubbarhatti-Shimla inside it. Gaggal and Pathankot are for Kangra, Dharamshala and Chamba; Bhuntar for Kullu, Manali, Mandi and Lahaul-Spiti; Chandigarh and Jubbarhatti for Shimla, Solan and Kinnaur. Bhuntar has flights to Delhi and Chandigarh; daily flights from Delhi land at Jubbarhatti; Gaggal has regular flights from Delhi."
+          },
+          {
+            "heading": "By train",
+            "text": "Broad-gauge trains reach Kalka and Pathankot. From Kalka, the 96 km narrow-gauge line to Shimla — opened in 1903 and part of a UNESCO World Heritage Site — is a journey in itself. From Pathankot a narrow-gauge line runs through the Kangra valley to Joginder Nagar, passing Kangra station, 20 km from Dharamshala, and Ahju, 3 km from Bir. There is no railway to Manali."
+          },
+          {
+            "heading": "By bus",
+            "text": "Interstate buses run from Delhi, Chandigarh, Jaipur and other nearby cities. Ordinary and luxury coaches link Delhi and Chandigarh with Shimla and Kullu, and deluxe and AC Volvo buses run to Manali — booking ahead is recommended. Within the state, public transport and taxis serve every destination."
+          },
+          {
+            "heading": "Road distances from Delhi",
+            "items": [
+              {
+                "body": "About 300 km",
+                "title": "Solan",
+                "status": "verified"
+              },
+              {
+                "body": "456 km",
+                "title": "Kangra",
+                "status": "verified"
+              },
+              {
+                "body": "495 km",
+                "title": "Kullu",
+                "status": "verified"
+              },
+              {
+                "body": "About 550 km",
+                "title": "Manali",
+                "status": "verified"
+              },
+              {
+                "body": "562 km",
+                "title": "Dalhousie",
+                "status": "verified"
+              },
+              {
+                "body": "580 km",
+                "title": "Reckong Peo (Kinnaur)",
+                "status": "verified"
+              },
+              {
+                "body": "600 km",
+                "title": "Chamba",
+                "status": "verified"
+              },
+              {
+                "body": "About 730 km",
+                "title": "Kaza (Spiti), via Manali",
+                "status": "estimate"
+              }
+            ]
+          },
+          {
+            "heading": "Spiti and Kinnaur",
+            "text": "Kinnaur is on NH-22, the Hindustan–Tibet Road, with buses and taxis from Shimla and Rampur. Regular buses reach Kaza from Shimla via Kinnaur between May and October and from Manali only between July and October; sturdy off-road taxis are recommended on both routes."
+          },
+          {
+            "heading": "Driving yourself",
+            "text": "Cars not registered in Himachal pay a green tax to enter Manali (₹200 for a car, valid seven days). On hill roads keep to the left, don't overtake on bends and slow down at corners, and in July–August expect slippery roads and landslides."
+          }
+        ],
+        "checklist": [
+          "Choose the airport or railhead for your region",
+          "Book the Volvo or toy train ahead",
+          "Green-tax slip if driving to Manali",
+          "Buffer a day in the monsoon"
+        ]
+      },
+      "facts": [
+        "HP8",
+        "HP9",
+        "HS15",
+        "HS18",
+        "DS7",
+        "MN14",
+        "MN16",
+        "DS8",
+        "DL4",
+        "CB6",
+        "HS20",
+        "HS14",
+        "HP10",
+        "HS16",
+        "BR9",
+        "HP11",
+        "HS17",
+        "MN26",
+        "HS35",
+        "KG5",
+        "HS19",
+        "IT6",
+        "IT7",
+        "IT8",
+        "MN25",
+        "HP32",
+        "HP13",
+        "MN15"
+      ],
+      "sources": []
+    },
+    {
+      "place": "himachal-pradesh",
+      "places": [
+        "himachal-pradesh/manali",
+        "himachal-pradesh/rohtang-pass",
+        "himachal-pradesh/atal-tunnel",
+        "himachal-pradesh/spiti-valley",
+        "himachal-pradesh/kinnaur",
+        "himachal-pradesh/solang-valley"
+      ],
+      "slug": "himachal-permits-fees-road-rules",
+      "title": "Himachal permits, fees and road rules: what you need before you go",
+      "summary": "Every official fee and permit a visitor meets in Himachal — Rohtang, the Hamta road, Manali's green tax, Inner Line Permits — plus the road, trekking and adventure rules.",
+      "tripTypes": [
+        "mountains",
+        "adventure"
+      ],
+      "seoTitle": "Himachal Permits, Fees and Road Rules for Visitors",
+      "seoDescription": "Rohtang permit (₹500 + charge), Hamta pass, Manali green tax, Inner Line Permits for Spiti and Kinnaur, and Himachal's road, trek and adventure-sport rules.",
+      "body": {
+        "intro": "Most of Himachal needs no paperwork, but a few roads and areas do, and some rules catch visitors out. These are the fees and rules set by the state and district administrations — the only fixed costs of a trip.",
+        "sections": [
+          {
+            "heading": "Rohtang Pass permit",
+            "items": [
+              {
+                "body": "Every tourist vehicle going up to Rohtang, against a daily quota.",
+                "title": "Who",
+                "status": "verified"
+              },
+              {
+                "body": "₹500 per vehicle, plus a congestion charge (₹50 for cars) for crossing Gulaba bridge; not refundable.",
+                "title": "Fee",
+                "status": "verified"
+              },
+              {
+                "body": "800 petrol and 400 diesel vehicles a day, released online at 10:00 and 16:00; three permits per vehicle a week.",
+                "title": "Quota",
+                "status": "verified"
+              },
+              {
+                "body": "Valid ID, a valid PUC certificate and a vehicle no older than 10 years; carry a printout.",
+                "title": "Documents",
+                "status": "verified"
+              },
+              {
+                "body": "Heavy snow closes the pass in late November; it reopens around May.",
+                "title": "Season",
+                "status": "seasonal"
+              }
+            ]
+          },
+          {
+            "heading": "Hamta road pass",
+            "items": [
+              {
+                "body": "A one-day online pass: ₹100 congestion charge for two-wheelers and ₹200 for cars and jeeps, with daily limits.",
+                "title": "Fee",
+                "status": "verified"
+              }
+            ]
+          },
+          {
+            "heading": "Manali green tax",
+            "items": [
+              {
+                "body": "Vehicles not registered in Himachal: ₹100 bike, ₹200 car, ₹300 passenger vehicle, ₹500 goods vehicle — valid seven days, bought online, printout required.",
+                "title": "Fee",
+                "status": "verified"
+              }
+            ]
+          },
+          {
+            "heading": "Atal Tunnel instead of Rohtang",
+            "text": "The 9.02 km Atal Tunnel needs no Rohtang permit. The route through it to Lahaul is 71 km and about 2 hours, against 116 km and 5–6 hours over the pass. Sissu's panchayat has at times paused tourist activities, so check locally."
+          },
+          {
+            "heading": "Inner Line Permits (foreign visitors)",
+            "text": "Foreign tourists need an Inner Line Permit for some inner areas of Kinnaur and Spiti near the Tibet border. Permits are issued at Himachal Bhawan in New Delhi, at the Deputy Commissioner's office in Shimla and Reckong Peo, and at SDM offices in Kalpa, Kaza and Manali."
+          },
+          {
+            "heading": "Adventure and trekking rules",
+            "items": [
+              {
+                "body": "Book trekking, rafting and paragliding only with government-authorised, licensed agencies.",
+                "title": "Operators",
+                "status": "verified"
+              },
+              {
+                "body": "Joy-ride rafting is not allowed on rapids above Class II.",
+                "title": "Rafting",
+                "status": "verified"
+              },
+              {
+                "body": "Rafting and paragliding stop every year from 15 July to 15 September.",
+                "title": "Monsoon pause",
+                "status": "seasonal"
+              },
+              {
+                "body": "Tell the SDM, police or tourism office before a high-altitude trek and hire registered guides and porters.",
+                "title": "High treks",
+                "status": "verified"
+              },
+              {
+                "body": "Report safety violations by adventure agencies to the Department of Tourism.",
+                "title": "Complaints",
+                "status": "verified"
+              }
+            ]
+          },
+          {
+            "heading": "On the road and in town",
+            "items": [
+              {
+                "body": "Keep to the left, don't overtake on bends and slow down at corners.",
+                "title": "Hill driving",
+                "status": "verified"
+              },
+              {
+                "body": "Hire authorised taxis from registered operators or unions and ask for the approved fare chart.",
+                "title": "Taxis",
+                "status": "verified"
+              },
+              {
+                "body": "Polythene is banned in Himachal Pradesh.",
+                "title": "Plastic",
+                "status": "verified"
+              },
+              {
+                "body": "Carrying or using drugs is a crime under the NDPS Act, punishable with imprisonment.",
+                "title": "Drugs",
+                "status": "verified"
+              },
+              {
+                "body": "Use hotels, guest houses and homestays registered with the Department of Tourism.",
+                "title": "Stays",
+                "status": "verified"
+              }
+            ]
+          }
+        ],
+        "checklist": [
+          "Rohtang permit printout (if going up)",
+          "Green-tax slip for Manali",
+          "Inner Line Permit for foreign visitors to inner Spiti/Kinnaur",
+          "Licensed operator for any adventure activity",
+          "Cloth bag — no polythene"
+        ]
+      },
+      "facts": [
+        "RO3",
+        "RO9",
+        "RO11",
+        "RO7",
+        "RO8",
+        "RO10",
+        "RO12",
+        "RO14",
+        "MN25",
+        "AT1",
+        "AT2",
+        "LA2",
+        "HP14",
+        "HP17",
+        "HP18",
+        "MN27",
+        "HP19",
+        "HP33",
+        "HP32",
+        "HP20",
+        "HP16",
+        "HP24",
+        "HP25"
+      ],
+      "sources": []
+    },
+    {
+      "place": "himachal-pradesh",
+      "places": [
+        "himachal-pradesh/spiti-valley",
+        "himachal-pradesh/manali",
+        "himachal-pradesh/dharamshala",
+        "himachal-pradesh/shimla",
+        "himachal-pradesh/chamba",
+        "himachal-pradesh/dalhousie"
+      ],
+      "slug": "himachal-in-the-monsoon",
+      "title": "Himachal in the monsoon: where to go in July–September and what to avoid",
+      "summary": "What the July–September rains change in Himachal — landslide-prone roads, closed adventure sports — and where the season shines: dry Spiti and Lahaul, waterfalls and the Minjar fair.",
+      "tripTypes": [
+        "mountains",
+        "nature"
+      ],
+      "seoTitle": "Himachal in the Monsoon: Roads, Spiti and Waterfalls",
+      "seoDescription": "Travelling in Himachal from July to September: landslides and road safety, the 15 July–15 September adventure closure, dry Spiti and Lahaul, waterfalls and monsoon fairs.",
+      "body": {
+        "intro": "The monsoon turns Himachal's lower valleys green and fills its waterfalls, but it also brings the year's worst roads. Plan around it rather than through it: here is what changes and where to go instead.",
+        "sections": [
+          {
+            "heading": "What changes",
+            "items": [
+              {
+                "body": "In July and August roads are slippery and landslides and rock-falls happen — drive with care and keep to the left.",
+                "title": "Roads",
+                "status": "seasonal"
+              },
+              {
+                "body": "Rafting, river crossing and paragliding stop from 15 July to 15 September.",
+                "title": "Adventure sports",
+                "status": "seasonal"
+              },
+              {
+                "body": "Don't stand on cliff edges or riverside boulders — the rivers are strong and deceptive.",
+                "title": "Rivers",
+                "status": "verified"
+              },
+              {
+                "body": "Dharamshala gets very heavy rain.",
+                "title": "Rainfall",
+                "status": "seasonal"
+              }
+            ]
+          },
+          {
+            "heading": "Where it stays dry: Spiti and Lahaul",
+            "text": "Spiti and Lahaul sit in the rain shadow and are cold and almost rainless. This is their season: buses run from Shimla via Kinnaur from May to October and from Manali from July to October, and Kaza's Ladarcha trade fair is held in July/August."
+          },
+          {
+            "heading": "Waterfalls at their best",
+            "items": [
+              {
+                "body": "Best in the July–September rains.",
+                "title": "Chadwick Falls, Shimla",
+                "status": "seasonal"
+              },
+              {
+                "body": "The waterfall above the temple is fullest from July to September.",
+                "title": "Bhagsunag, McLeodganj",
+                "status": "seasonal"
+              },
+              {
+                "body": "Best in July–August, on the way to Panjpula.",
+                "title": "Satdhara, Dalhousie",
+                "status": "seasonal"
+              }
+            ]
+          },
+          {
+            "heading": "Monsoon fairs",
+            "items": [
+              {
+                "body": "A week on the Chaugan in July/August.",
+                "title": "Minjar Fair, Chamba",
+                "status": "seasonal"
+              },
+              {
+                "body": "A trade fair every July/August.",
+                "title": "Ladarcha, Kaza",
+                "status": "seasonal"
+              }
+            ]
+          },
+          {
+            "heading": "How to plan",
+            "text": "Keep a spare day on any long road journey, travel in daylight and avoid planning rafting or paragliding between mid-July and mid-September. If you want the mountains without the rain, go to Spiti and Lahaul."
+          }
+        ],
+        "checklist": [
+          "A spare day for road delays",
+          "Rain gear and quick-dry layers",
+          "No rafting or paragliding plans 15 July–15 September",
+          "Check your route each morning"
+        ]
+      },
+      "facts": [
+        "HP13",
+        "MN27",
+        "HP26",
+        "HS9",
+        "HS14",
+        "SP6",
+        "SH9",
+        "DS15",
+        "DL7",
+        "HS30"
+      ],
+      "sources": []
+    },
+    {
+      "place": "himachal-pradesh",
+      "places": [
+        "himachal-pradesh/manali",
+        "himachal-pradesh/shimla",
+        "himachal-pradesh/solang-valley",
+        "himachal-pradesh/dharamshala",
+        "himachal-pradesh/dalhousie",
+        "himachal-pradesh/spiti-valley",
+        "himachal-pradesh/kullu"
+      ],
+      "slug": "snow-in-himachal",
+      "title": "Snow in Himachal: where and when to see it",
+      "summary": "When and where snow falls in Himachal — Manali and Solang, the Kullu valley, Dharamshala, Dalhousie and Kalatop, Shimla's ice rink — plus winter road closures and how cold it gets.",
+      "tripTypes": [
+        "mountains",
+        "family",
+        "adventure"
+      ],
+      "seoTitle": "Snow in Himachal: Best Places and Months",
+      "seoDescription": "Where to see snow in Himachal and when: Manali and Solang (December–March), Kullu, Dharamshala, Dalhousie, Shimla's ice skating, Rohtang closures and Spiti's −20°C.",
+      "body": {
+        "intro": "Snow is the main reason many people come to Himachal in winter. It falls at different times in different places, and the highest roads close, so match the place to the month.",
+        "sections": [
+          {
+            "heading": "When to go",
+            "items": [
+              {
+                "body": "Snow falls mainly from December to early March; December–January can drop below −5°C.",
+                "title": "Manali",
+                "status": "seasonal"
+              },
+              {
+                "body": "December to February gives the best chance of snow.",
+                "title": "Kullu valley",
+                "status": "seasonal"
+              },
+              {
+                "body": "December to February, with a good chance of snowfall.",
+                "title": "Dharamshala",
+                "status": "seasonal"
+              },
+              {
+                "body": "Winters are cold with heavy snow.",
+                "title": "Dalhousie and Khajjiar",
+                "status": "seasonal"
+              },
+              {
+                "body": "Winter runs from late November to mid-March, and snow is common in the alpine tracts.",
+                "title": "High areas",
+                "status": "seasonal"
+              }
+            ]
+          },
+          {
+            "heading": "Where to play in it",
+            "items": [
+              {
+                "body": "13 km from Manali: ski slopes for beginners and advanced skiers, with trainers.",
+                "title": "Solang Valley",
+                "status": "verified"
+              },
+              {
+                "body": "The first week of January, with a skiing competition at Solang.",
+                "title": "Manali Winter Carnival",
+                "status": "seasonal"
+              },
+              {
+                "body": "An open-air ice-skating rink from November to February, with a carnival around Christmas–New Year.",
+                "title": "Shimla",
+                "status": "seasonal"
+              },
+              {
+                "body": "13 km out; winter snow can be over five feet deep.",
+                "title": "Kalatop, Dalhousie",
+                "status": "seasonal"
+              }
+            ]
+          },
+          {
+            "heading": "Roads in winter",
+            "text": "Heavy snow closes Rohtang Pass in late November and it reopens around May. The Atal Tunnel keeps Lahaul reachable from Manali, and Sissu is about 40 km away — but check locally, as its panchayat has at times paused tourist activities. Spiti can fall to −20°C in winter."
+          },
+          {
+            "heading": "Stay safe",
+            "text": "Mountain weather changes fast, so carry woollens even on a sunny day, drive slowly on hill roads and use only licensed operators for skiing."
+          }
+        ],
+        "checklist": [
+          "Heavy woollens, gloves and waterproof shoes",
+          "Licensed ski operator",
+          "Check road status each morning",
+          "Green-tax slip if driving to Manali"
+        ]
+      },
+      "facts": [
+        "MN2",
+        "MN11",
+        "HS11",
+        "HS10",
+        "DL12",
+        "HS8",
+        "SO1",
+        "SK1",
+        "HS27",
+        "SH6",
+        "DL18",
+        "RO12",
+        "AT1",
+        "LA1",
+        "LA2",
+        "HS13",
+        "MN12",
+        "HP32",
+        "HP17",
+        "MN25"
+      ],
+      "sources": []
+    }
+  ]
 }

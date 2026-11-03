@@ -1,7 +1,7 @@
 import "server-only";
 import { refreshHubs } from "@/lib/publish/hubs";
 import { revalidatePath } from "next/cache";
-import { and, desc, eq, inArray } from "drizzle-orm";
+import { and, desc, eq, inArray, ne } from "drizzle-orm";
 import { alias } from "drizzle-orm/pg-core";
 import { audit } from "@/lib/audit";
 import { getDb } from "@/lib/db";
@@ -29,7 +29,7 @@ type Tx = Parameters<Parameters<ReturnType<typeof getDb>["transaction"]>[0]>[0];
  * A state-wide plan without its own photo shows a place named in its title, else the place it
  * visits most (ties: the earliest), so routes in one state don't all repeat the state's photo.
  */
-async function mainStopHero(tx: Tx, stateId: string, stateSlug: string, title: string, plan: ItineraryFields["plan"]): Promise<string | null> {
+async function mainStopHero(tx: Tx, itineraryId: string, stateId: string, stateSlug: string, title: string, plan: ItineraryFields["plan"]): Promise<string | null> {
   const count = new Map<string, number>();
   for (const d of plan.days)
     for (const st of d.stops) {
@@ -38,13 +38,20 @@ async function mainStopHero(tx: Tx, stateId: string, stateSlug: string, title: s
     }
   if (!count.size) return null;
   const rows = await tx
-    .select({ slug: places.slug, name: places.name, hero: places.heroMediaId })
+    .select({ slug: places.slug, name: places.name, hero: places.heroMediaId, url: media.url })
     .from(places)
+    .innerJoin(media, eq(media.id, places.heroMediaId))
     .where(and(eq(places.stateId, stateId), inArray(places.slug, [...count.keys()]), eq(places.status, "published")));
+  // Photos other published plans of this state already show are used only when nothing else fits.
+  const others = await tx
+    .select({ snap: itineraries.publishedSnapshot })
+    .from(itineraries)
+    .where(and(eq(itineraries.placeId, stateId), eq(itineraries.status, "published"), ne(itineraries.id, itineraryId)));
+  const used = new Set(others.map((o) => (o.snap as ItinerarySnapshot | null)?.hero?.url).filter(Boolean));
   const order = [...count.keys()];
   const t = title.toLowerCase();
-  const score = (r: { slug: string; name: string }) => (t.includes(r.name.toLowerCase().split(" ")[0]) ? 1000 : 0) + (count.get(r.slug) ?? 0);
-  const best = rows.filter((r) => r.hero).sort((a, b) => score(b) - score(a) || order.indexOf(a.slug) - order.indexOf(b.slug))[0];
+  const score = (r: { slug: string; name: string; url: string }) => (used.has(r.url) ? 0 : 10_000) + (t.includes(r.name.toLowerCase().split(" ")[0]) ? 1000 : 0) + (count.get(r.slug) ?? 0);
+  const best = rows.sort((a, b) => score(b) - score(a) || order.indexOf(a.slug) - order.indexOf(b.slug))[0];
   return best?.hero ?? null;
 }
 
@@ -63,7 +70,7 @@ export async function publishItinerary(id: string, actorId: string): Promise<Res
     if (it.findingIds.length) await tx.select({ id: researchFindings.id }).from(researchFindings).where(inArray(researchFindings.id, it.findingIds)).for("update");
     const facts = await citedFactsCheck(tx, it.findingIds);
     problems.push(...facts.problems);
-    const heroId = it.heroMediaId ?? (place?.kind === "state" && v.ok ? await mainStopHero(tx, place.id, place.slug, v.value.title, v.value.plan) : null) ?? place?.heroMediaId ?? null;
+    const heroId = it.heroMediaId ?? (place?.kind === "state" && v.ok ? await mainStopHero(tx, it.id, place.id, place.slug, v.value.title, v.value.plan) : null) ?? place?.heroMediaId ?? null;
     const [heroRow] = heroId ? await tx.select().from(media).where(eq(media.id, heroId)).limit(1) : [];
     if (!heroRow) problems.push("Add a hero image (the destination’s hero is used when the itinerary has none).");
     if (problems.length || !v.ok || !place) return { ok: false as const, message: "This itinerary isn’t ready to publish yet.", problems };

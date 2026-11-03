@@ -15,7 +15,7 @@ import { PageAssistant } from "@/components/assistant/page-assistant";
 import { buildPack } from "@/lib/assistant/pack";
 import { FaqList, SectionBody as SectionBodyView, StatusPill } from "./section-body";
 import { HashDialogs } from "./interactive";
-import { FilterCards, PlanAiButton } from "./state-guide-client";
+import { FilterCards, PlanAiButton, PracticalTabs } from "./state-guide-client";
 
 /**
  * The state guide. Every state page uses this one template, filled only from the
@@ -115,6 +115,58 @@ function FactRows({ items, size = "sm" }: { items: Item[]; size?: "sm" | "xs" })
   );
 }
 
+function formatPoint(body: string) {
+  const clauseMatch = /^([^—;–]+[—;–])\s*(.*)$/s.exec(body);
+  if (clauseMatch && clauseMatch[1].length < 100) {
+    return { lead: clauseMatch[1], rest: clauseMatch[2] };
+  }
+  const firstSentenceMatch = /^([^.!?]+[.!?])\s*(.*)$/s.exec(body);
+  if (firstSentenceMatch && firstSentenceMatch[1].length < 120) {
+    return { lead: firstSentenceMatch[1], rest: firstSentenceMatch[2] };
+  }
+  return { lead: body, rest: "" };
+}
+
+function PracticalPointItem({ it }: { it: Item }) {
+  const { lead, rest } = formatPoint(it.body);
+  const icon = factIcon(it.title);
+  return (
+    <li className="flex items-start gap-3 rounded-xl border border-[#EFECE6] bg-[#FAF9F5]/70 p-3.5 transition-colors hover:border-coral/50 hover:bg-white">
+      <span className="mt-0.5 flex size-7 shrink-0 items-center justify-center rounded-lg border border-[#EAE6DE] bg-white text-emerald-800 shadow-2xs">
+        <Icon name={icon} size={13} />
+      </span>
+      <div className="min-w-0 flex-1 text-[0.8125rem]">
+        <div className="flex flex-wrap items-center gap-1.5 leading-snug">
+          {it.title ? (
+            <span className="rounded bg-coral/10 px-1.5 py-0.5 text-[0.6875rem] font-bold uppercase tracking-wider text-coral">
+              {it.title}
+            </span>
+          ) : null}
+          <strong className="font-semibold text-ink">{lead}</strong>
+          {it.status ? <StatusPill status={it.status} className="ml-1" /> : null}
+        </div>
+        {rest ? <p className="mt-1 text-[0.75rem] leading-relaxed text-[#666]">{rest}</p> : null}
+      </div>
+    </li>
+  );
+}
+
+function PracticalParagraphItem({ text }: { text: string }) {
+  const { lead, rest } = formatPoint(text);
+  const icon = /train|rail/i.test(text) ? "train" : /flight|airport|air/i.test(text) ? "plane" : /bus|volvo|coach/i.test(text) ? "bus" : "car";
+  return (
+    <li className="flex items-start gap-3 rounded-xl border border-[#EFECE6] bg-[#FAF9F5]/70 p-3.5 transition-colors hover:border-coral/50 hover:bg-white">
+      <span className="mt-0.5 flex size-7 shrink-0 items-center justify-center rounded-lg border border-[#EAE6DE] bg-white text-emerald-800 shadow-2xs">
+        <Icon name={icon} size={13} />
+      </span>
+      <div className="min-w-0 flex-1 text-[0.8125rem]">
+        <strong className="font-semibold leading-snug text-ink">{lead}</strong>
+        {rest ? <p className="mt-1 text-[0.75rem] leading-relaxed text-[#666]">{rest}</p> : null}
+      </div>
+    </li>
+  );
+}
+
 const isPermit = (it: Item) => /permit|quota/i.test(it.title ?? "");
 
 /** "Summer (mid-April–June): text" → { label: "Summer", when: "mid-April–June", text }. */
@@ -186,7 +238,9 @@ export function StateGuide({
     .filter((a) => pageOf(a))
     .sort((a, b) => Number(!!b.facts?.visit_info) - Number(!!a.facts?.visit_info) || Number(!!b.hero) - Number(!!a.hero) || a.depth - b.depth);
   const activities = rollup.activities.filter((a) => pageOf(a)).sort((a, b) => Number(!!b.hero) - Number(!!a.hero));
-  const { guides } = rollup;
+  // Guides written for the whole state; town guides stay on their town's page (used here only when the state has none).
+  const stateGuides = rollup.guides.filter((g) => g.placeName === name);
+  const guides = stateGuides.length ? stateGuides : rollup.guides;
   // Only plans made for the whole state; town plans live on their town's page (used here only when the state has none).
   const statePlans = rollup.itineraries.filter((it) => it.placeName === name);
   const itineraries = (statePlans.length ? statePlans : rollup.itineraries).sort((a, b) => a.durationDays - b.durationDays);
@@ -363,7 +417,7 @@ export function StateGuide({
   const hasStatus = [keyFacts, safety, ...practical.map((p) => p.s?.body.items ?? [])].some((list) => list.some((i) => i.status));
 
   return (
-    <div className="min-h-screen bg-[#FAF9F5] font-sans text-ink">
+    <div className="min-h-screen bg-white font-sans text-ink">
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd).replace(/</g, "\\u003c") }} />
 
       {/* A. Hero */}
@@ -498,32 +552,44 @@ export function StateGuide({
         {regions.length ? (
           <section id="regions" aria-labelledby="regions-h" className="scroll-mt-36">
             <SectionHead id="regions" eyebrow="Plan by region" title={`Regions of ${name}`} intro={`${name} is not one destination. Pick the region that fits your trip — the towns we cover in each are linked.`} />
-            <ul className="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3">
+            <ul className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
               {regions.map((r, i) => {
                 const inRegion = regionTowns[i];
                 const regionImg = r.image ?? inRegion[0]?.hero ?? null;
                 return (
-                  <li key={i} className="group flex flex-col overflow-hidden rounded-2xl border border-[#EAE7E0] bg-white shadow-xs transition-all hover:border-coral hover:shadow-card">
+                  <li
+                    key={i}
+                    className="group flex flex-col overflow-hidden rounded-xl border border-[#EAE7E0] bg-white shadow-2xs transition-all duration-200 hover:-translate-y-0.5 hover:border-coral/60 hover:shadow-md"
+                  >
                     {regionImg ? (
-                      <Photo img={regionImg} sizes="(min-width: 1024px) 33vw, (min-width: 640px) 50vw, 100vw" aspect="aspect-[16/10]">
-                        <span className="absolute left-3 top-3 rounded-md bg-white/95 px-2.5 py-1 text-xs font-bold text-coral shadow-xs backdrop-blur-xs">
-                          Region {String(i + 1).padStart(2, "0")}
+                      <Photo img={regionImg} sizes="(min-width: 1024px) 33vw, (min-width: 640px) 50vw, 100vw" aspect="aspect-[2/1]">
+                        <span className="absolute left-2.5 top-2.5 rounded-md bg-white/95 px-2 py-0.5 text-[0.6875rem] font-bold text-coral shadow-2xs backdrop-blur-xs">
+                          {String(i + 1).padStart(2, "0")}
                         </span>
                       </Photo>
                     ) : (
-                      <div className="flex h-12 items-center px-5 pt-4">
-                        <span className="text-xs font-bold text-coral">Region {String(i + 1).padStart(2, "0")}</span>
+                      <div className="flex h-10 items-center px-4 pt-3">
+                        <span className="text-[0.6875rem] font-bold text-coral">Region {String(i + 1).padStart(2, "0")}</span>
                       </div>
                     )}
-                    <div className="flex flex-1 flex-col p-5">
-                      {r.title ? <h3 className="mb-2 text-base font-bold text-ink transition-colors group-hover:text-coral">{r.title}</h3> : null}
-                      <p className="text-[0.8125rem] leading-relaxed text-[#666]">{r.body}</p>
+                    <div className="flex flex-1 flex-col p-4">
+                      {r.title ? (
+                        <h3 className="mb-1 text-sm font-bold text-ink transition-colors group-hover:text-coral">
+                          {r.title}
+                        </h3>
+                      ) : null}
+                      <p className="text-xs leading-relaxed text-[#666]">
+                        {r.body}
+                      </p>
                       {inRegion.length ? (
-                        <div className="mt-4 flex flex-1 flex-col justify-end border-t border-[#F0EFEA] pt-3.5">
-                          <p className="mb-2 text-[0.6875rem] font-bold uppercase tracking-wider text-[#888]">Covered in this region</p>
-                          <div className="flex flex-wrap gap-1.5">
+                        <div className="mt-3 flex flex-1 flex-col justify-end border-t border-[#F0EFEA] pt-2.5">
+                          <div className="flex flex-wrap items-center gap-1.5">
                             {inRegion.map((d) => (
-                              <Link key={d.slug} href={pageOf(d)!} className="rounded-full bg-[#EEF4F0] px-3 py-1 text-xs font-semibold text-[#2D5A3F] transition-colors hover:bg-[#2D5A3F] hover:text-white">
+                              <Link
+                                key={d.slug}
+                                href={pageOf(d)!}
+                                className="rounded-md bg-[#EEF4F0] px-2 py-0.5 text-[0.6875rem] font-semibold text-[#2D5A3F] transition-colors hover:bg-[#2D5A3F] hover:text-white"
+                              >
                                 {d.name}
                               </Link>
                             ))}
@@ -862,17 +928,74 @@ export function StateGuide({
 
         {/* I. Practical planning */}
         {practical.length ? (
-          <section id="plan" aria-labelledby="plan-h" className="scroll-mt-36 rounded-3xl border border-[#E5E2DC] bg-white p-6 shadow-xs sm:p-8">
-            <SectionHead id="plan" eyebrow="On the ground" title={`Practical info for ${name}`} />
-            <div className="grid grid-cols-1 gap-x-8 gap-y-8 md:grid-cols-2 lg:grid-cols-3">
-              {practical.map((p) => (
-                <div key={p.key} className="space-y-2.5">
-                  <h3 className="flex items-center gap-2 text-sm font-bold text-ink"><Icon name={p.icon} size={16} className="text-coral" /> {p.title}</h3>
-                  {p.s!.body.text ? <div className="space-y-2 text-[0.8125rem] leading-relaxed text-[#555]">{paragraphs(p.s!.body.text).map((t, i) => <p key={i}>{t}</p>)}</div> : null}
-                  {p.s!.body.items?.length ? <FactRows items={p.s!.body.items} /> : null}
+          <section id="plan" aria-labelledby="plan-h" className="scroll-mt-36 space-y-6">
+            <SectionHead
+              id="plan"
+              eyebrow="On the ground"
+              title={`Practical info for ${name}`}
+              intro="Key regulations, emergency contacts, mountain road safety, permits, connectivity, and on-ground travel tips organized point-by-point."
+            />
+
+            {/* Quick-Scan Emergency & Essential Rules Bar */}
+            <div className="grid grid-cols-1 gap-4 sm:grid-cols-3">
+              <div className="flex items-start gap-3.5 rounded-2xl border border-rose-200/80 bg-rose-50/60 p-4 shadow-2xs">
+                <div className="flex size-10 shrink-0 items-center justify-center rounded-xl bg-rose-100 text-rose-700">
+                  <Icon name="shield" size={18} />
                 </div>
-              ))}
+                <div>
+                  <span className="text-[0.6875rem] font-bold uppercase tracking-wider text-rose-700">Emergency Contacts</span>
+                  <p className="text-sm font-bold text-ink">Dial 112 or 108</p>
+                  <p className="mt-0.5 text-xs text-[#666]">112 for police, fire & medical; 108 for free 24x7 ambulance.</p>
+                </div>
+              </div>
+
+              <div className="flex items-start gap-3.5 rounded-2xl border border-amber-200/80 bg-amber-50/60 p-4 shadow-2xs">
+                <div className="flex size-10 shrink-0 items-center justify-center rounded-xl bg-amber-100 text-amber-800">
+                  <Icon name="fileText" size={18} />
+                </div>
+                <div>
+                  <span className="text-[0.6875rem] font-bold uppercase tracking-wider text-amber-800">Vehicle Pass</span>
+                  <p className="text-sm font-bold text-ink">Rohtang Pass Permit</p>
+                  <p className="mt-0.5 text-xs text-[#666]">₹500 + ₹50 congestion fee. Daily quota; printed copy mandatory.</p>
+                </div>
+              </div>
+
+              <div className="flex items-start gap-3.5 rounded-2xl border border-emerald-200/80 bg-emerald-50/60 p-4 shadow-2xs">
+                <div className="flex size-10 shrink-0 items-center justify-center rounded-xl bg-emerald-100 text-emerald-800">
+                  <Icon name="checkCircle" size={18} />
+                </div>
+                <div>
+                  <span className="text-[0.6875rem] font-bold uppercase tracking-wider text-emerald-800">Environmental Law</span>
+                  <p className="text-sm font-bold text-ink">Polythene Banned</p>
+                  <p className="mt-0.5 text-xs text-[#666]">Single-use plastic bags strictly prohibited statewide. Carry cloth bags.</p>
+                </div>
+              </div>
             </div>
+
+            {/* Tabbed Category Panels */}
+            <PracticalTabs
+              tabs={practical.map((p) => {
+                const textParas = p.s!.body.text ? paragraphs(p.s!.body.text) : [];
+                const itemsList = p.s!.body.items ?? [];
+                const count = itemsList.length || textParas.length;
+                return {
+                  key: p.key,
+                  title: p.title,
+                  icon: p.icon,
+                  count,
+                  node: (
+                    <ul className="grid grid-cols-1 gap-3 md:grid-cols-2">
+                      {itemsList.map((it, i) => (
+                        <PracticalPointItem key={i} it={it} />
+                      ))}
+                      {textParas.map((t, i) => (
+                        <PracticalParagraphItem key={i} text={t} />
+                      ))}
+                    </ul>
+                  ),
+                };
+              })}
+            />
           </section>
         ) : null}
 

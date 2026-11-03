@@ -1,14 +1,14 @@
 import "server-only";
 import { refreshHubs } from "@/lib/publish/hubs";
 import { revalidatePath } from "next/cache";
-import { and, asc, desc, eq, inArray } from "drizzle-orm";
+import { and, asc, desc, eq, inArray, ne } from "drizzle-orm";
 import { alias } from "drizzle-orm/pg-core";
 import { audit } from "@/lib/audit";
 import { getDb } from "@/lib/db";
 import { media, places, researchFindings, travelGuidePlaces, travelGuides, type GuideSnapshot, type SnapshotImage } from "@/lib/db/schema";
 import { citedFactsCheck } from "@/lib/places/review";
 import { publicLocation } from "@/lib/publish/paths";
-import { validateGuide, type GuideFields } from "./body";
+import { guideText, validateGuide, type GuideFields } from "./body";
 
 /**
  * Travel guide workflow, the same as itineraries: draft → (editor) publish →
@@ -22,6 +22,35 @@ type Result = { ok: true } | { ok: false; message: string; problems?: string[] }
 
 const imageOf = (m: typeof media.$inferSelect | undefined): SnapshotImage | null =>
   m ? { url: m.url, alt: m.alt, caption: m.caption, kind: m.kind, license: m.license, licenseUrl: m.licenseUrl, attribution: m.attribution, sourceUrl: m.sourceUrl } : null;
+
+type Tx = Parameters<Parameters<ReturnType<typeof getDb>["transaction"]>[0]>[0];
+
+/**
+ * A state-wide guide without its own photo shows one of its linked places: one named in the
+ * title, else the one the guide mentions most — skipping photos other guides of the state show.
+ */
+async function linkedPlaceHero(tx: Tx, guideId: string, stateId: string, title: string, text: string): Promise<string | null> {
+  const rows = await tx
+    .select({ name: places.name, url: media.url, hero: places.heroMediaId })
+    .from(travelGuidePlaces)
+    .innerJoin(places, eq(places.id, travelGuidePlaces.placeId))
+    .innerJoin(media, eq(media.id, places.heroMediaId))
+    .where(and(eq(travelGuidePlaces.guideId, guideId), ne(places.id, stateId), eq(places.status, "published")));
+  if (!rows.length) return null;
+  const others = await tx
+    .select({ snap: travelGuides.publishedSnapshot })
+    .from(travelGuides)
+    .where(and(eq(travelGuides.placeId, stateId), eq(travelGuides.status, "published"), ne(travelGuides.id, guideId)));
+  const used = new Set(others.map((o) => (o.snap as GuideSnapshot | null)?.hero?.url).filter(Boolean));
+  const t = title.toLowerCase();
+  const body = text.toLowerCase();
+  const score = (r: { name: string; url: string }) => {
+    const n = r.name.toLowerCase();
+    const at = t.indexOf(n.split(" ")[0]);
+    return (used.has(r.url) ? 0 : 100_000) + (at >= 0 ? 10_000 - at : 0) + body.split(n.split(" ")[0]).length - 1;
+  };
+  return rows.sort((a, b) => score(b) - score(a) || a.name.localeCompare(b.name))[0].hero;
+}
 
 export async function publishGuide(id: string, actorId: string): Promise<Result> {
   const db = getDb();
@@ -38,7 +67,8 @@ export async function publishGuide(id: string, actorId: string): Promise<Result>
     if (g.findingIds.length) await tx.select({ id: researchFindings.id }).from(researchFindings).where(inArray(researchFindings.id, g.findingIds)).for("update");
     const facts = await citedFactsCheck(tx, g.findingIds);
     problems.push(...facts.problems);
-    const heroId = g.heroMediaId ?? place?.heroMediaId ?? null;
+    const heroId =
+      g.heroMediaId ?? (place?.kind === "state" && v.ok ? await linkedPlaceHero(tx, g.id, place.id, v.value.title, guideText(v.value.title, v.value.body)) : null) ?? place?.heroMediaId ?? null;
     const [heroRow] = heroId ? await tx.select().from(media).where(eq(media.id, heroId)).limit(1) : [];
     if (!heroRow) problems.push("Add a hero image (the main place’s hero is used when the guide has none).");
     if (problems.length || !v.ok || !place) return { ok: false as const, message: "This guide isn’t ready to publish yet.", problems };

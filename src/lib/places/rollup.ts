@@ -39,7 +39,7 @@ export const CARD_SECTIONS = ["key_facts", "visit_info"] as const;
 export type CardSection = (typeof CARD_SECTIONS)[number];
 
 export type RollupItinerary = { slug: string; title: string; summary: string; durationDays: number; tripTypes: string[]; hero: SnapshotImage | null; placeName: string; stopNames: string[] };
-export type RollupGuide = { slug: string; title: string; summary: string; hero: SnapshotImage | null; placeNames: string[] };
+export type RollupGuide = { slug: string; title: string; summary: string; hero: SnapshotImage | null; placeName: string; placeNames: string[] };
 
 /** Published places below `rootId` (any depth): own pages, and sections inside a published parent page. */
 export async function listPublishedDescendants(rootId: string): Promise<RollupPlace[]> {
@@ -115,7 +115,7 @@ export async function listGuidesTouching(placeIds: string[]): Promise<RollupGuid
   return rows
     .map((r) => r.snap as GuideSnapshot | null)
     .filter((s): s is GuideSnapshot => !!s)
-    .map((s) => ({ slug: s.slug, title: s.title, summary: s.summary, hero: s.hero, placeNames: s.places.map((p) => p.name) }));
+    .map((s) => ({ slug: s.slug, title: s.title, summary: s.summary, hero: s.hero, placeName: s.place.name, placeNames: s.places.map((p) => p.name) }));
 }
 
 /** The full rollup for one page. */

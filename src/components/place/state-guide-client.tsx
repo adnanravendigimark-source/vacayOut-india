@@ -1,7 +1,7 @@
 "use client";
 
 import { useState, type ReactNode } from "react";
-import { Icon } from "@/components/icons/icon";
+import { Icon, type Name } from "@/components/icons/icon";
 import { AiPlannerModal } from "@/components/chat/ai-planner-modal";
 
 /** Opens the AI planner with a prompt about this page. */
@@ -14,6 +14,92 @@ export function PlanAiButton({ prompt, children, className }: { prompt: string; 
       </button>
       {open ? <AiPlannerModal isOpen onClose={() => setOpen(false)} initialPrompt={prompt} /> : null}
     </>
+  );
+}
+
+export type PracticalTab = {
+  key: string;
+  title: string;
+  icon: Name;
+  count: number;
+  node: ReactNode;
+};
+
+/** Tabbed switcher for practical information categories. */
+export function PracticalTabs({ tabs }: { tabs: PracticalTab[] }) {
+  const [activeKey, setActiveKey] = useState(tabs[0]?.key);
+  const activeTab = tabs.find((t) => t.key === activeKey) ?? tabs[0];
+
+  return (
+    <div className="space-y-6">
+      {/* Tab Navigation Bar */}
+      <div
+        role="tablist"
+        aria-label="Practical info categories"
+        className="-mx-1 flex items-center gap-2 overflow-x-auto px-1 pb-1 [scrollbar-width:none]"
+      >
+        {tabs.map((tab) => {
+          const isActive = tab.key === activeTab?.key;
+          return (
+            <button
+              key={tab.key}
+              role="tab"
+              type="button"
+              id={`tab-${tab.key}`}
+              aria-selected={isActive}
+              aria-controls={`panel-${tab.key}`}
+              onClick={() => setActiveKey(tab.key)}
+              className={`flex shrink-0 cursor-pointer items-center gap-2 rounded-xl px-4 py-2.5 text-xs font-bold transition-all duration-150 sm:text-sm ${
+                isActive
+                  ? "bg-ink text-white shadow-sm"
+                  : "border border-[#E5E2DC] bg-white text-[#555] hover:border-ink hover:text-ink hover:bg-neutral-50"
+              }`}
+            >
+              <Icon
+                name={tab.icon}
+                size={16}
+                className={isActive ? "text-coral" : "text-[#777]"}
+              />
+              <span>{tab.title}</span>
+              <span
+                className={`ml-0.5 rounded-full px-2 py-0.5 text-[0.6875rem] font-semibold ${
+                  isActive ? "bg-white/20 text-white" : "bg-[#F0ECE1] text-[#666]"
+                }`}
+              >
+                {tab.count}
+              </span>
+            </button>
+          );
+        })}
+      </div>
+
+      {/* Active Tab Content Panel */}
+      {activeTab ? (
+        <div
+          role="tabpanel"
+          id={`panel-${activeTab.key}`}
+          aria-labelledby={`tab-${activeTab.key}`}
+          className="rounded-3xl border border-[#E5E2DC] bg-white p-6 shadow-xs sm:p-8"
+        >
+          <div className="mb-6 flex flex-col gap-2 sm:flex-row sm:items-center sm:justify-between border-b border-[#F0ECE1] pb-4">
+            <div className="flex items-center gap-3">
+              <span className="flex size-10 items-center justify-center rounded-xl bg-coral/10 text-coral">
+                <Icon name={activeTab.icon} size={20} />
+              </span>
+              <div>
+                <h3 className="font-serif text-lg font-bold text-ink sm:text-xl">{activeTab.title}</h3>
+                <p className="text-xs text-[#777]">Essential on-ground guidance and verified rules</p>
+              </div>
+            </div>
+            <span className="self-start rounded-full bg-[#FAF8F5] border border-[#EAE6DE] px-3 py-1 text-xs font-semibold text-[#555] sm:self-auto">
+              {activeTab.count} verified points
+            </span>
+          </div>
+
+          {activeTab.node}
+        </div>
+      ) : null}
+    </div>
   );
 }
 
