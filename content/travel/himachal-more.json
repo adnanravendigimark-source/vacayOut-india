@@ -1,8 +1,8 @@
 {
   "cluster": "himachal-more",
-  "title": "Himachal Pradesh — Shimla, Kullu, Kasol, Spiti, Kinnaur, Kasauli",
+  "title": "Himachal Pradesh — Shimla, Kullu, Kasol, Spiti, Kinnaur, Kalpa, Tirthan, Kasauli",
   "researchedAt": "2026-11-03",
-  "selection": "Major Himachal destinations missing from earlier batches, chosen to cover the state's main circuits (Shimla hills, Kullu–Parvati, Lahaul–Spiti, Kinnaur). Light pass: overview, key facts for cards, how to reach, seasons, permits. Sources: Himachal Tourism destination pages; Wikipedia for elevations. Not found in an official source: a best season for Shimla, Kasol or Kinnaur as a whole — left out.",
+  "selection": "Major Himachal destinations missing from earlier batches, chosen to cover the state's main circuits (Shimla hills, Kullu–Parvati, Lahaul–Spiti, Kinnaur). Light pass: overview, key facts for cards, how to reach, seasons, permits. Sources: Himachal Tourism destination pages; Wikipedia for elevations. Not found in an official source: a best season for Shimla, Kasol or Kinnaur as a whole — left out. Tirthan Valley and Kalpa added (2026-11-03) from the Great Himalayan National Park's official site, Himachal Tourism's Kullu and Kinnaur pages, HPTDC and Wikipedia. No official recommended trip length was found for either, so none is given.",
   "sources": {
     "W_KSL": {
       "url": "https://en.wikipedia.org/wiki/Kasauli",
@@ -83,6 +83,66 @@
       "url": "https://en.wikipedia.org/wiki/Shimla",
       "title": "Shimla — Wikipedia",
       "authority": "reference"
+    },
+    "HPT_MN": {
+      "url": "https://himachaltourism.gov.in/destination/manali/",
+      "title": "Manali — Himachal Tourism (Department of Tourism & Civil Aviation, Government of Himachal Pradesh)",
+      "authority": "government"
+    },
+    "DK_REACH": {
+      "url": "https://hpkullu.nic.in/how-to-reach/",
+      "title": "How to reach — District Kullu (Government of Himachal Pradesh)",
+      "authority": "government"
+    },
+    "GHNP_TV": {
+      "url": "https://greathimalayannationalpark.org/destinations/tirthan-valley/",
+      "title": "Tirthan Valley — Great Himalayan National Park (official website)",
+      "authority": "government"
+    },
+    "GHNP_TV2": {
+      "url": "https://greathimalayannationalpark.org/tirthan-valley-ghnp/",
+      "title": "Tirthan Valley sightseeing — Great Himalayan National Park (official website)",
+      "authority": "government"
+    },
+    "GHNP_REACH": {
+      "url": "https://greathimalayannationalpark.org/plan-your-trip/accessing-the-great-himalayan-national-park/",
+      "title": "Accessing the Great Himalayan National Park — GHNP (official website)",
+      "authority": "government"
+    },
+    "GHNP_RULES": {
+      "url": "https://greathimalayannationalpark.org/plan-your-trip/fees-rules-and-guidelines/",
+      "title": "Fees, Rules and Guidelines — GHNP (official website)",
+      "authority": "government"
+    },
+    "GHNP_SEASON": {
+      "url": "https://greathimalayannationalpark.org/activities/season-based-activities-ghnp/",
+      "title": "Season-based activities — GHNP (official website)",
+      "authority": "government"
+    },
+    "GHNP_CLIMATE": {
+      "url": "https://greathimalayannationalpark.org/about-us/climate-conditions-ghnp/",
+      "title": "Climate conditions — GHNP (official website)",
+      "authority": "government"
+    },
+    "GHNP_LARJI": {
+      "url": "https://greathimalayannationalpark.org/larji/",
+      "title": "Larji — GHNP (official website)",
+      "authority": "government"
+    },
+    "HPT_KUL2": {
+      "url": "https://himachaltourism.gov.in/destination/kullu-2/",
+      "title": "Kullu — Himachal Tourism (Govt of Himachal Pradesh)",
+      "authority": "government"
+    },
+    "W_BANJAR": {
+      "url": "https://en.wikipedia.org/wiki/Banjar,_Himachal_Pradesh",
+      "title": "Banjar, India — Wikipedia",
+      "authority": "reference"
+    },
+    "HPTDC_KALPA": {
+      "url": "https://hptdc.hp.gov.in/hotel-detail/30",
+      "title": "The Kinner Kailash, Kalpa — HP Tourism Development Corporation",
+      "authority": "government"
     }
   },
   "facts": {
@@ -894,6 +954,604 @@
         }
       ],
       "kind": "estimate"
+    },
+    "HP14": {
+      "place": "himachal-pradesh",
+      "topic": "Inner Line Permits for foreigners",
+      "claim": "Foreign tourists need an Inner Line Permit for some inner areas of Kinnaur and Spiti on the Tibet border; permits are issued in New Delhi (Himachal Bhawan), Shimla, Reckong Peo and at SDM offices in Kalpa, Kaza and Manali.",
+      "claimType": "rule",
+      "evidence": [
+        {
+          "source": "HPT_TIPS",
+          "quote": "Foreign tourists require Inner Line Permits to visit certain inner area of Kinnaur district and Spiti of the Lahaul-Spiti district that borders Tibet-China."
+        },
+        {
+          "source": "HPT_TIPS",
+          "quote": "The Permits are issued by Resident Commissioner of Himachal Pradesh, Himachal Bhawan, 27, Sikandra Road, New Delhi and at Deputy Commissioner’s office at Shimla, Kinnaur at Reckong Peo and SDM office at Kalpa, Kaza, Manali."
+        }
+      ]
+    },
+    "HP25": {
+      "place": "himachal-pradesh",
+      "topic": "Registered stays",
+      "claim": "Stay in hotels, guest houses and homestays registered with the Department of Tourism.",
+      "claimType": "rule",
+      "evidence": [
+        {
+          "source": "HPT_TIPS",
+          "quote": "Stay only in hotel/guest houses/home stays that are registered with the Department of Tourism."
+        }
+      ]
+    },
+    "TV1": {
+      "place": "himachal-pradesh/tirthan-valley",
+      "topic": "Gateway to the national park",
+      "claim": "Tirthan Valley lies in the eco-zone of the Great Himalayan National Park, about 70 km from Kullu, and is known for its river, pine forests and birdlife.",
+      "claimType": "distance",
+      "evidence": [
+        {
+          "source": "GHNP_TV",
+          "quote": "nestled in the eco-rich buffer zone of the Great Himalayan National Park (GHNP)"
+        },
+        {
+          "source": "GHNP_TV",
+          "quote": "Located about 70 km from Kullu"
+        },
+        {
+          "source": "GHNP_TV",
+          "quote": "Known for its pristine river, lush pine forests, snow-capped peaks, and vibrant biodiversity"
+        }
+      ]
+    },
+    "TV2": {
+      "place": "himachal-pradesh/tirthan-valley",
+      "topic": "The Tirthan river",
+      "claim": "The Tirthan rises at a spring below Hanskund Peak (4,800 m), meets the Palchan stream at Gushaini and joins the Beas at Larji.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "GHNP_TV",
+          "quote": "originates at Hanskund Peak (4800m)"
+        },
+        {
+          "source": "GHNP_TV",
+          "quote": "it joins Palchan Nallah at Gushaini"
+        },
+        {
+          "source": "GHNP_TV",
+          "quote": "continues till Larji, where Tirthan and Sainj streams merge with the Beas River"
+        }
+      ]
+    },
+    "TV3": {
+      "place": "himachal-pradesh/tirthan-valley",
+      "topic": "Protected area",
+      "claim": "The valley covers 754 sq km, forming the Tirthan Wildlife Sanctuary and part of the national park.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "GHNP_TV",
+          "quote": "The valley covers an area of 754 Sq. Kms and the same constitutes Tirthan Wildlife Sanctuary and part of GHNP."
+        }
+      ]
+    },
+    "TV4": {
+      "place": "himachal-pradesh/tirthan-valley",
+      "topic": "Trout",
+      "claim": "The snow-fed Tirthan holds plenty of trout; fishing is allowed in designated eco-zone stretches and is best from April to October.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "HPT_KUL2",
+          "quote": "The clear waters of the snow fed River Tirthan hold a lot of trout fish."
+        },
+        {
+          "source": "GHNP_SEASON",
+          "quote": "an activity permitted in designated eco-zones, is best undertaken from April through October"
+        }
+      ],
+      "kind": "seasonal"
+    },
+    "TV5": {
+      "place": "himachal-pradesh/tirthan-valley",
+      "topic": "Road access",
+      "claim": "Aut, on the Chandigarh–Manali highway, is the turn-off; Gushaini, the trekking roadhead, is about 52 km from Aut on an all-weather road, and buses and taxis run from Kullu, Manali and Mandi.",
+      "claimType": "distance",
+      "evidence": [
+        {
+          "source": "GHNP_REACH",
+          "quote": "The roadhead for trekking in Tirthan Valley is at Gushaini, around 52km from Aut on an all-weather road."
+        },
+        {
+          "source": "GHNP_REACH",
+          "quote": "serves as the main access point for further travel by taxi or bus to villages like Gushaini"
+        },
+        {
+          "source": "GHNP_REACH",
+          "quote": "Regular buses and taxis operate from Kullu"
+        }
+      ]
+    },
+    "TV6": {
+      "place": "himachal-pradesh/tirthan-valley",
+      "topic": "Air and rail",
+      "claim": "The nearest airport is Bhuntar, about 50 km from the park, with regular flights from Delhi; the nearest station is Joginder Nagar on the narrow-gauge line, and the nearest major station is Chandigarh, 296 km away.",
+      "claimType": "distance",
+      "evidence": [
+        {
+          "source": "GHNP_REACH",
+          "quote": "about 50 km away, with regular flights from Delhi"
+        },
+        {
+          "source": "GHNP_REACH",
+          "quote": "The nearest railway station is Joginder Nagar"
+        },
+        {
+          "source": "GHNP_REACH",
+          "quote": "The closest major railway station to GHNP is 296km away, in Chandigarh"
+        }
+      ]
+    },
+    "TV7": {
+      "place": "himachal-pradesh/tirthan-valley",
+      "topic": "Trekking seasons",
+      "claim": "Trekking in the park's core zone is best from April to June and from September to November.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "GHNP_SEASON",
+          "quote": "is best enjoyed from April to June and again from September to November"
+        }
+      ],
+      "kind": "seasonal"
+    },
+    "TV8": {
+      "place": "himachal-pradesh/tirthan-valley",
+      "topic": "Birding",
+      "claim": "Birding is good all year but best from March to June and September to November; for the western tragopan, March–May and October–November.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "GHNP_SEASON",
+          "quote": "the months from March to June and September to November offer the highest chances of spotting a wide variety of Himalayan bird species"
+        },
+        {
+          "source": "GHNP_SEASON",
+          "quote": "is particularly recommended from March to May and October to November"
+        }
+      ],
+      "kind": "seasonal"
+    },
+    "TV9": {
+      "place": "himachal-pradesh/tirthan-valley",
+      "topic": "Park permits",
+      "claim": "Entry to the park is by permit, with extra charges for cameras; core-zone permits are issued at the Shamshi head office and the range office at Shairopa in Tirthan Valley. Check current fees with the park.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "GHNP_RULES",
+          "quote": "Entrance to the park is by permit, with additional charges for still and video cameras."
+        },
+        {
+          "source": "GHNP_RULES",
+          "quote": "Permits for the core zone can be obtained at the head office in Shamshi and the range offices in Shairopa (Tirthan Valley)"
+        },
+        {
+          "source": "GHNP_RULES",
+          "quote": "Please check with the park authorities for latest fees."
+        }
+      ]
+    },
+    "TV10": {
+      "place": "himachal-pradesh/tirthan-valley",
+      "topic": "Trekking rules",
+      "claim": "Trekking routes must be approved by a park range officer, multi-day trekkers must hire certified guides and porters, and all activities inside the park are on foot.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "GHNP_RULES",
+          "quote": "Trekking routes must be discussed with and approved by a GHNP range officer before entering the park."
+        },
+        {
+          "source": "GHNP_RULES",
+          "quote": "Multi-day trekkers must engage certified guides and porters."
+        },
+        {
+          "source": "GHNP_RULES",
+          "quote": "there is no provision for motor safaris"
+        }
+      ]
+    },
+    "TV11": {
+      "place": "himachal-pradesh/tirthan-valley",
+      "topic": "Insurance",
+      "claim": "Visitors staying more than a day in the park are strongly advised to buy travel insurance that covers emergency treatment and evacuation.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "GHNP_RULES",
+          "quote": "Visitors of more than one day to GHNP are strongly advised to buy travel insurance that covers emergency medical treatment and evacuation."
+        }
+      ]
+    },
+    "TV12": {
+      "place": "himachal-pradesh/tirthan-valley",
+      "topic": "Weather",
+      "claim": "The rains fall mainly from mid-June to mid-September; spring (April–June) is one of the best times to visit; winter snow ranges from a few centimetres in the lower valleys to over two metres up high, and the riverside villages get little snow.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "GHNP_CLIMATE",
+          "quote": "especially between mid-June and mid-September"
+        },
+        {
+          "source": "GHNP_CLIMATE",
+          "quote": "Spring is one of the best times to visit"
+        },
+        {
+          "source": "GHNP_CLIMATE",
+          "quote": "Snowfall ranges from a few centimetres in the lower valleys to over two meters in alpine regions."
+        },
+        {
+          "source": "W_BANJAR",
+          "quote": "receive little snowfall once or twice each winter"
+        }
+      ],
+      "kind": "seasonal"
+    },
+    "TV13": {
+      "place": "himachal-pradesh/tirthan-valley",
+      "topic": "Around the valley",
+      "claim": "Banjar is the valley's main market; nearby are Jibhi, Shoja, Jalori Pass, Chehni Kothi (the fort of the deity Shringa Rishi) and the Shairopa forest complex.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "W_BANJAR",
+          "quote": "Banjar town being the main marketplace in Tirthan Valley"
+        },
+        {
+          "source": "W_BANJAR",
+          "quote": "Chehni fort of deity Shringa Rishi"
+        },
+        {
+          "source": "W_BANJAR",
+          "quote": "Jibhi town, Shoja, Jalori Pass"
+        }
+      ]
+    },
+    "TV14": {
+      "place": "himachal-pradesh/tirthan-valley",
+      "topic": "Shoja and Jalori",
+      "claim": "Shoja is the base for easy treks to Jalori Pass, Serolsar Lake, Takrasi and Khanag; Jalori Pass divides the Sutlej and Beas catchments.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "HPT_KUL2",
+          "quote": "Shoja is also the base for easy treks to Jalori Pass, Serolsar Lake, Takrasi and Khanag."
+        },
+        {
+          "source": "HPT_KUL2",
+          "quote": "Jalori demarcates the catchments of River Satluj from Beas."
+        }
+      ]
+    },
+    "TV15": {
+      "place": "himachal-pradesh/tirthan-valley",
+      "topic": "Gushaini",
+      "claim": "Gushaini, where the Tirthan and Palchan meet, is a sacred site for pilgrims and locals.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "GHNP_TV2",
+          "quote": "a picturesque village where the Tirthan and Palchan rivers meet"
+        },
+        {
+          "source": "GHNP_TV2",
+          "quote": "making it a revered site for pilgrims and locals alike"
+        }
+      ]
+    },
+    "TV16": {
+      "place": "himachal-pradesh/tirthan-valley",
+      "topic": "Be prepared",
+      "claim": "Expect limited connectivity and remote villages; carry essentials and travel with a local guide.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "GHNP_REACH",
+          "quote": "be prepared for limited connectivity, remote villages, and high-altitude terrain"
+        },
+        {
+          "source": "GHNP_REACH",
+          "quote": "It’s recommended to carry essentials, travel with a local guide, and check the weather conditions ahead."
+        }
+      ]
+    },
+    "TV17": {
+      "place": "himachal-pradesh/tirthan-valley",
+      "topic": "Ecozone activities",
+      "claim": "Rock climbing, river crossing and abseiling run in the ecozone from March to June and September to November; camping and sightseeing are best from March to November.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "GHNP_SEASON",
+          "quote": "Adventure seekers can indulge in rock climbing, river crossing, and abseiling in the ecozone from March to June and again from September to November."
+        },
+        {
+          "source": "GHNP_SEASON",
+          "quote": "with optimal conditions between March and November"
+        }
+      ],
+      "kind": "seasonal"
+    },
+    "TV18": {
+      "place": "himachal-pradesh/tirthan-valley",
+      "topic": "Via Shimla",
+      "claim": "There is also a route from Shimla over Jalori Pass, past Shoja and cedar forests.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "W_BANJAR",
+          "quote": "where one can travel through the Jalori pass, seeing villages like Shoja and cedar forests along the way to the valley"
+        }
+      ]
+    },
+    "TV19": {
+      "place": "himachal-pradesh/tirthan-valley",
+      "topic": "Larji",
+      "claim": "Larji, where the Sainj, Tirthan and Beas meet on the Aut–Luhari road, is the gateway to the Sainj and Tirthan valleys.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "GHNP_LARJI",
+          "quote": "Larji is situated along the Aut–Luhari road"
+        },
+        {
+          "source": "GHNP_LARJI",
+          "quote": "serves as the gateway to the Great Himalayan National Park (GHNP) and its two major valleys"
+        }
+      ]
+    },
+    "TV20": {
+      "place": "himachal-pradesh/tirthan-valley",
+      "topic": "Park rules",
+      "claim": "Keep noise to a minimum, carry out non-biodegradable litter, and ask before photographing ecozone residents.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "GHNP_RULES",
+          "quote": "Noise whilst trekking in the forest and whilst observing wildlife must be kept to an absolute minimum."
+        },
+        {
+          "source": "GHNP_RULES",
+          "quote": "Non-biodegradable litter must be kept with you and disposed of away from GHNP and the ecozone."
+        },
+        {
+          "source": "GHNP_RULES",
+          "quote": "Permission must be obtained before photographing residents of the ecozone or entering their property."
+        }
+      ]
+    },
+    "KP1": {
+      "place": "himachal-pradesh/kalpa",
+      "topic": "Location and altitude",
+      "claim": "Kalpa sits 13 km above Reckong Peo, at about 2,960 m.",
+      "claimType": "distance",
+      "evidence": [
+        {
+          "source": "HPT_KIN",
+          "quote": "Going past Reckong Peo as you ascend higher (13 km) into the hillside, you reach Kalpa"
+        },
+        {
+          "source": "W_KALPA",
+          "quote": "It has an average elevation of 2,960 metres (9,711 feet)"
+        }
+      ]
+    },
+    "KP2": {
+      "place": "himachal-pradesh/kalpa",
+      "topic": "Kinner Kailash",
+      "claim": "Kalpa faces the Kinner Kailash range; the sacred Shivling rock on Kailash can be seen from here.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "W_KALPA",
+          "quote": "It sits at the base of the snow-capped Kinnaur Kailash ranges."
+        },
+        {
+          "source": "W_KALPA",
+          "quote": "Also visible from here is the sacred Shivling rock on the Kailash mountain"
+        }
+      ]
+    },
+    "KP3": {
+      "place": "himachal-pradesh/kalpa",
+      "topic": "Temple and gompa",
+      "claim": "The Narayan-Nagini temple, with dragons carved round its porch pillars, stands a stone's throw from the Hu-Bu-Lan-Kar gompa, said to be founded by Rinchen Zangpo (950–1055 AD).",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "HPT_KIN",
+          "quote": "The finely decorated Narayan-Nagini temple is exemplary about the local craftsmanship"
+        },
+        {
+          "source": "HPT_KIN",
+          "quote": "The temple features amazingly carved dragons coiled around porch pillars"
+        },
+        {
+          "source": "HPT_KIN",
+          "quote": "A Buddhist temple said to be founded by missionary Rinchen Zangpo (950-1055 AD)"
+        },
+        {
+          "source": "HPT_KIN",
+          "quote": "The Hu-Bu-Lan-Kar gompa is in close proximity of Kalpa."
+        }
+      ]
+    },
+    "KP4": {
+      "place": "himachal-pradesh/kalpa",
+      "topic": "Former headquarters",
+      "claim": "Kalpa was a tehsil headquarters in colonial times and later Kinnaur's district headquarters, before that moved to Reckong Peo.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "W_KALPA",
+          "quote": "It was tehsil headquarter during colonial times and later became district headquarter of Kinnaur before it was shifted to Reckong Peo."
+        }
+      ]
+    },
+    "KP5": {
+      "place": "himachal-pradesh/kalpa",
+      "topic": "Orchards",
+      "claim": "Kalpa is surrounded by deodar, apple orchards and chilgoza (pine-nut) trees.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "W_KALPA",
+          "quote": "Kalpa is surrounded by Deodar, apple, and pinus gerardiana chilghoza trees."
+        }
+      ]
+    },
+    "KP6": {
+      "place": "himachal-pradesh/kalpa",
+      "topic": "Kothi",
+      "claim": "Kothi, between Reckong Peo and Kalpa, is an orchard village whose temple to Chandika Devi looks out on Kinner Kailash.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "HPT_KIN",
+          "quote": "Kothi, also referred to as Koshtampi, is a large village between Reckong Peo, the district headquarter and Kalpa"
+        },
+        {
+          "source": "W_KALPA",
+          "quote": "Kothi has a temple dedicated to the goddess Chandika Devi."
+        }
+      ]
+    },
+    "KP7": {
+      "place": "himachal-pradesh/kalpa",
+      "topic": "Climate",
+      "claim": "Winters are long (October–May) with 1.5–2 m of snow and lows near −20°C; summers (June–September) are short, and warm clothing may be needed even then.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "W_KALPA",
+          "quote": "with long winters from October to May, and short summers from June to September"
+        },
+        {
+          "source": "W_KALPA",
+          "quote": "the temperature can drop to as low as −20 °C"
+        },
+        {
+          "source": "W_KALPA",
+          "quote": "Warm clothing may be necessary even in the summer."
+        }
+      ],
+      "kind": "seasonal"
+    },
+    "KP8": {
+      "place": "himachal-pradesh/kalpa",
+      "topic": "Best time",
+      "claim": "April to October is a good time to visit Kinnaur; from November temperatures fall, dropping well below freezing in December and January.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "HPT_KIN",
+          "quote": "April to October is a good time to visit Kinnaur."
+        },
+        {
+          "source": "HPT_KIN",
+          "quote": "they do drop well below the freezing point in December and January"
+        }
+      ],
+      "kind": "seasonal"
+    },
+    "KP9": {
+      "place": "himachal-pradesh/kalpa",
+      "topic": "HPTDC hotel and drives",
+      "claim": "HPTDC's Kinner Kailash hotel in Kalpa is closed December–March; Shimla to Kalpa is 222 km (about eight hours) and Chandigarh to Kalpa 338 km (about 11 hours).",
+      "claimType": "distance",
+      "evidence": [
+        {
+          "source": "HPTDC_KALPA",
+          "quote": "Closed from December - March due to extreme weather conditions"
+        },
+        {
+          "source": "HPTDC_KALPA",
+          "quote": "Shimla to Kalpa- 222 KM – Eight hours drive"
+        },
+        {
+          "source": "HPTDC_KALPA",
+          "quote": "Chandigarh to Kalpa: 338 KM – 11 hours drive"
+        }
+      ],
+      "kind": "seasonal"
+    },
+    "KP10": {
+      "place": "himachal-pradesh/kalpa",
+      "topic": "Fulaich",
+      "claim": "Kalpa holds the liveliest Fulaich, the mid-September flower festival that marks the end of summer.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "HPT_KIN",
+          "quote": "While Kalpa holds a most vibrant function"
+        },
+        {
+          "source": "HPT_KIN",
+          "quote": "Fulaich fair is held in mid-September."
+        }
+      ],
+      "kind": "seasonal"
+    },
+    "KP11": {
+      "place": "himachal-pradesh/kalpa",
+      "topic": "Health",
+      "claim": "For a serious emergency you need the regional hospital at Reckong Peo, Rampur Bushahr or Shimla.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "HPT_KIN",
+          "quote": "To meet any serious emergency, one has to get to the regional hospital at Reckong Peo, Rampur Bushair or Shimla"
+        }
+      ]
+    },
+    "KP12": {
+      "place": "himachal-pradesh/kalpa",
+      "topic": "Via Spiti",
+      "claim": "Kalpa can also be reached from Manali over Kunzum Pass via Kaza, about 400 km.",
+      "claimType": "distance",
+      "evidence": [
+        {
+          "source": "HPT_KIN",
+          "quote": "One can also reach Kalpa via Manali – Rohtang Pass – Kunzam Pass – Kaza (400 Km)."
+        }
+      ],
+      "kind": "seasonal"
+    },
+    "KP13": {
+      "place": "himachal-pradesh/kalpa",
+      "topic": "Lippa",
+      "claim": "Lippa, with three Buddhist monasteries, is easily reached from Kalpa or Reckong Peo.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "HPT_KIN",
+          "quote": "Lippa is a small village that can be easily reached from Kalpa or Reckong Peo."
+        }
+      ]
+    },
+    "KP14": {
+      "place": "himachal-pradesh/kalpa",
+      "topic": "Clothing",
+      "claim": "Kinnaur is chilly all year: light woollens in summer with heavy woollens for the evenings, and heavy woollens in winter.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "HPT_KIN",
+          "quote": "In summers light woollens would be sufficient to live the days but heavy woollens and jackets need to carried along"
+        }
+      ]
     }
   },
   "places": [
@@ -1435,6 +2093,408 @@
           "facts": [
             "KA5",
             "KA2"
+          ]
+        }
+      },
+      "parent": "himachal-pradesh"
+    },
+    {
+      "key": "himachal-pradesh/tirthan-valley",
+      "kind": "region",
+      "name": "Tirthan Valley",
+      "summary": "A quiet river valley in the eco-zone of the Great Himalayan National Park: trout streams, cedar forest, village homestays and the park's trekking roadhead at Gushaini.",
+      "seoTitle": "Tirthan Valley Travel Guide: GHNP, Trout & Treks",
+      "seoDescription": "Plan Tirthan Valley: the Great Himalayan National Park, trekking seasons and permits, trout fishing, Jibhi, Shoja and Jalori Pass, and how to get there from Aut.",
+      "lat": 31.6177,
+      "lng": 77.4419,
+      "tripTypes": [
+        "nature",
+        "adventure",
+        "wildlife"
+      ],
+      "images": [
+        {
+          "commons": "File:TirthanRiver.jpg",
+          "alt": "The Tirthan river rushing over boulders between steep green hillsides",
+          "caption": "The Tirthan river, Tirthan Valley",
+          "hero": true
+        },
+        {
+          "commons": "File:Tirthan River.jpg",
+          "alt": "Clear green water of the Tirthan pouring past rocks and forest",
+          "caption": "The Tirthan river",
+          "hero": false
+        }
+      ],
+      "sections": {
+        "key_facts": {
+          "items": [
+            {
+              "title": "Where",
+              "body": "Kullu district, about 70 km from Kullu",
+              "status": "verified"
+            },
+            {
+              "title": "Known for",
+              "body": "Great Himalayan National Park, trout and birding",
+              "status": "verified"
+            },
+            {
+              "title": "Trekking",
+              "body": "April–June, September–November",
+              "status": "seasonal"
+            },
+            {
+              "title": "Trout fishing",
+              "body": "April–October, designated stretches",
+              "status": "seasonal"
+            },
+            {
+              "title": "Roadhead",
+              "body": "Gushaini, 52 km from Aut",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "TV1",
+            "TV7",
+            "TV4",
+            "TV5"
+          ]
+        },
+        "overview": {
+          "text": "Tirthan Valley lies in the eco-zone of the Great Himalayan National Park, a UNESCO World Heritage Site, about 70 km from Kullu. The Tirthan rises below Hanskund Peak (4,800 m), meets the Palchan stream at Gushaini and joins the Beas at Larji; its 754 sq km form the Tirthan Wildlife Sanctuary and part of the park.\n\nPeople come for slow days by a trout river, birding and forest walks, and for the park's treks, which start at Gushaini. Banjar is the valley's market town, and Jibhi, Shoja, Jalori Pass and Chehni Kothi are close by. Inside the park there are no roads — everything is on foot, by permit.",
+          "facts": [
+            "TV1",
+            "HS36",
+            "TV2",
+            "TV3",
+            "TV4",
+            "TV5",
+            "TV13",
+            "TV10"
+          ]
+        },
+        "things_to_do": {
+          "items": [
+            {
+              "body": "Trek into the Great Himalayan National Park from Gushaini (April–June, September–November) with a permit and certified guides."
+            },
+            {
+              "body": "Fish for trout in the designated eco-zone stretches of the Tirthan (April–October)."
+            },
+            {
+              "body": "Go birding — best March–June and September–November; for the western tragopan, March–May and October–November."
+            },
+            {
+              "body": "Walk from Shoja to Jalori Pass or Serolsar Lake — easy treks."
+            },
+            {
+              "body": "Visit Chehni Kothi, the fort of the deity Shringa Rishi, and the Shairopa forest complex."
+            },
+            {
+              "body": "Try rock climbing, river crossing and abseiling in the ecozone (March–June, September–November)."
+            },
+            {
+              "body": "Stop at Gushaini, where the Tirthan and Palchan meet — a sacred spot for pilgrims and locals."
+            }
+          ],
+          "facts": [
+            "TV7",
+            "TV10",
+            "TV9",
+            "TV4",
+            "TV8",
+            "TV14",
+            "TV13",
+            "TV17",
+            "TV15"
+          ]
+        },
+        "how_to_reach": {
+          "text": "By road: turn off the Chandigarh–Manali highway at Aut, near Larji. Gushaini, the trekking roadhead, is about 52 km from Aut on an all-weather road, and buses and taxis run from Kullu, Manali and Mandi. From Shimla there is also a route over Jalori Pass, past Shoja.\n\nBy air: Bhuntar is the nearest airport, about 50 km from the park, with regular flights from Delhi.\n\nBy rail: the nearest station is Joginder Nagar, on the narrow-gauge line; the nearest major station is Chandigarh, 296 km away.",
+          "facts": [
+            "TV5",
+            "TV19",
+            "TV18",
+            "TV6"
+          ]
+        },
+        "best_time": {
+          "text": "Spring (April–June) is one of the best times, and trekking is best from April to June and September to November. The rains fall mainly from mid-June to mid-September. In winter the riverside villages get only a little snow, while the high country gets well over a metre.",
+          "facts": [
+            "TV12",
+            "TV7"
+          ]
+        },
+        "practical_info": {
+          "items": [
+            {
+              "title": "Park permits",
+              "body": "Entry is by permit, with extra camera charges. Core-zone permits come from the Shamshi head office or the Shairopa range office in Tirthan. Check current fees with the park.",
+              "status": "verified"
+            },
+            {
+              "title": "Trekking rules",
+              "body": "Routes must be approved by a range officer; multi-day trekkers must hire certified guides and porters.",
+              "status": "verified"
+            },
+            {
+              "title": "Insurance",
+              "body": "For more than a day in the park, buy travel insurance that covers emergency treatment and evacuation.",
+              "status": "verified"
+            },
+            {
+              "title": "Signal",
+              "body": "Expect limited connectivity; carry essentials and travel with a local guide.",
+              "status": "verified"
+            },
+            {
+              "title": "Respect the park",
+              "body": "Keep noise down, carry out non-biodegradable litter, and ask before photographing residents.",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "TV9",
+            "TV10",
+            "TV11",
+            "TV16",
+            "TV20"
+          ]
+        },
+        "faqs": {
+          "items": [
+            {
+              "title": "Is Tirthan Valley part of the Great Himalayan National Park?",
+              "body": "It is in the park's eco-zone, and its 754 sq km form the Tirthan Wildlife Sanctuary and part of the park. Gushaini is the trekking roadhead."
+            },
+            {
+              "title": "How do I get to Tirthan Valley?",
+              "body": "Turn off the Chandigarh–Manali highway at Aut; Gushaini is about 52 km on. Buses and taxis run from Kullu, Manali and Mandi. Bhuntar airport is about 50 km from the park."
+            },
+            {
+              "title": "Do I need a permit?",
+              "body": "Yes, to enter the national park. Core-zone permits are issued at Shamshi and at the Shairopa range office; multi-day trekkers must hire certified guides."
+            },
+            {
+              "title": "When can I fish for trout?",
+              "body": "April to October, in the designated eco-zone stretches."
+            },
+            {
+              "title": "When should I go?",
+              "body": "April to June and September to November for trekking and birding. Avoid mid-June to mid-September, the rainy season."
+            }
+          ],
+          "facts": [
+            "TV1",
+            "TV3",
+            "TV5",
+            "TV6",
+            "TV9",
+            "TV10",
+            "TV4",
+            "TV7",
+            "TV8",
+            "TV12"
+          ]
+        }
+      },
+      "parent": "himachal-pradesh"
+    },
+    {
+      "key": "himachal-pradesh/kalpa",
+      "kind": "town",
+      "name": "Kalpa",
+      "summary": "An orchard village 13 km above Reckong Peo, facing the Kinner Kailash range — carved temples, a thousand-year-old gompa and HPTDC's hotel at about 2,960 m.",
+      "seoTitle": "Kalpa Travel Guide: Kinner Kailash Views, Kinnaur",
+      "seoDescription": "Plan Kalpa in Kinnaur: Kinner Kailash and the Shivling, the Narayan-Nagini temple and Hu-Bu-Lan-Kar gompa, Kothi, season, drive times and permits.",
+      "lat": 31.53,
+      "lng": 78.25,
+      "tripTypes": [
+        "mountains",
+        "nature",
+        "spiritual"
+      ],
+      "images": [
+        {
+          "commons": "File:Kalpa Village.jpg",
+          "alt": "Kalpa's houses below the snow-covered Kinner Kailash range, with bare orchard trees in front",
+          "caption": "Kalpa and the Kinner Kailash range",
+          "hero": true
+        },
+        {
+          "commons": "File:Kalpa-14-Kinnaur Kailash-gje.jpg",
+          "alt": "Snow peaks of the Kinnaur Kailash range seen from Kalpa",
+          "caption": "Kinnaur Kailash from Kalpa",
+          "hero": false
+        }
+      ],
+      "sections": {
+        "key_facts": {
+          "items": [
+            {
+              "title": "Altitude",
+              "body": "About 2,960 m",
+              "status": "verified"
+            },
+            {
+              "title": "Known for",
+              "body": "Views of Kinner Kailash",
+              "status": "verified"
+            },
+            {
+              "title": "From Reckong Peo",
+              "body": "13 km",
+              "status": "verified"
+            },
+            {
+              "title": "From Shimla",
+              "body": "222 km, about 8 hours",
+              "status": "verified"
+            },
+            {
+              "title": "Best time",
+              "body": "April–October",
+              "status": "seasonal"
+            }
+          ],
+          "facts": [
+            "KP1",
+            "KP2",
+            "KP9",
+            "KP8"
+          ]
+        },
+        "overview": {
+          "text": "Kalpa sits 13 km above Reckong Peo at about 2,960 m, facing the Kinner Kailash range — on a clear day you can see the sacred Shivling rock on Kailash. It was a colonial tehsil headquarters and later Kinnaur's district headquarters before that moved to Reckong Peo, and it is still ringed by deodar, apple orchards and chilgoza pines.\n\nIts Narayan-Nagini temple, with dragons carved round the porch pillars, stands a stone's throw from the Hu-Bu-Lan-Kar gompa, said to have been founded by Rinchen Zangpo. Kalpa holds the liveliest Fulaich flower festival in mid-September, and it makes a natural first night on the road from Shimla into Kinnaur and Spiti.",
+          "facts": [
+            "KP1",
+            "KP2",
+            "KP4",
+            "KP5",
+            "KP3",
+            "KP10"
+          ]
+        },
+        "things_to_do": {
+          "items": [
+            {
+              "body": "Watch the light change on Kinner Kailash and the Shivling rock."
+            },
+            {
+              "body": "See the carved Narayan-Nagini temple and the Hu-Bu-Lan-Kar gompa next to it."
+            },
+            {
+              "body": "Walk down to Kothi, an orchard village with a temple to Chandika Devi."
+            },
+            {
+              "body": "Come in mid-September for Fulaich, the flower festival."
+            },
+            {
+              "body": "Day-trip to Sangla (38 km from Reckong Peo) and Chitkul (65 km), India's last village on the Tibet border."
+            },
+            {
+              "body": "Visit Lippa, with three Buddhist monasteries, easily reached from Kalpa."
+            }
+          ],
+          "facts": [
+            "KP2",
+            "KP3",
+            "KP6",
+            "KP10",
+            "KN3",
+            "KP13"
+          ]
+        },
+        "how_to_reach": {
+          "text": "By road from Shimla: 222 km on NH-22, the Hindustan–Tibet Road — about eight hours by HPTDC's count. Buses and taxis run from Shimla and Rampur to Reckong Peo, 13 km below Kalpa. Chandigarh is 338 km, about 11 hours.\n\nFrom Spiti: Kalpa can also be reached from Manali over Kunzum Pass via Kaza, about 400 km, in the open season.\n\nBy air and rail: the nearest airport and railhead are both at Shimla.",
+          "facts": [
+            "KP9",
+            "HS20",
+            "KP1",
+            "KP12",
+            "KN4"
+          ]
+        },
+        "best_time": {
+          "text": "April to October is the season. Winters are long — October to May — with 1.5–2 m of snow and lows near −20°C, and HPTDC's hotel closes December to March. Even in summer evenings are cold, so carry warm layers.",
+          "facts": [
+            "KP8",
+            "KP7",
+            "KP9",
+            "KP14"
+          ]
+        },
+        "practical_info": {
+          "items": [
+            {
+              "title": "Permits",
+              "body": "Foreign tourists need an Inner Line Permit for some inner areas of Kinnaur; Reckong Peo, just below Kalpa, is one of the places that issue it.",
+              "status": "verified"
+            },
+            {
+              "title": "Mobile signal",
+              "body": "Good at Reckong Peo, Kalpa and Sangla, but internet can be weak and many trek routes have none.",
+              "status": "verified"
+            },
+            {
+              "title": "Health",
+              "body": "For a serious emergency you need the regional hospital at Reckong Peo, Rampur Bushahr or Shimla.",
+              "status": "verified"
+            },
+            {
+              "title": "Where to stay",
+              "body": "HPTDC runs The Kinner Kailash (closed December–March); choose other stays registered with the Department of Tourism.",
+              "status": "seasonal"
+            },
+            {
+              "title": "Clothing",
+              "body": "Light woollens by day in summer, heavy woollens and a jacket for evenings; heavy woollens in winter.",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "KN7",
+            "HP14",
+            "HS22",
+            "KP11",
+            "KP9",
+            "HP25",
+            "KP14"
+          ]
+        },
+        "faqs": {
+          "items": [
+            {
+              "title": "How far is Kalpa from Shimla?",
+              "body": "222 km on the Hindustan–Tibet Road, about eight hours by HPTDC's count."
+            },
+            {
+              "title": "What is Kalpa famous for?",
+              "body": "Its view of the Kinner Kailash range and the Shivling rock, its carved Narayan-Nagini temple and the Hu-Bu-Lan-Kar gompa."
+            },
+            {
+              "title": "When is the best time to visit Kalpa?",
+              "body": "April to October. Winters run October to May with heavy snow, and HPTDC's hotel closes December to March."
+            },
+            {
+              "title": "Do I need a permit for Kalpa?",
+              "body": "Foreign tourists need an Inner Line Permit for some inner areas of Kinnaur beyond Kalpa; it can be obtained at Reckong Peo, 13 km below."
+            },
+            {
+              "title": "Is Kalpa a good stop on the way to Spiti?",
+              "body": "Yes — it is the usual first night on the Shimla side, at about 2,960 m."
+            }
+          ],
+          "facts": [
+            "KP9",
+            "KP2",
+            "KP3",
+            "KP8",
+            "KP7",
+            "HP14",
+            "KP1"
           ]
         }
       },

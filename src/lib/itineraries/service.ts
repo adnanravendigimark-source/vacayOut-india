@@ -230,3 +230,29 @@ export async function resolveStopLinks(refs: string[], stateSlug: string | null)
   }
   return out;
 }
+
+export type StopPhoto = { name: string; image: SnapshotImage };
+
+/** Real photos (published places' hero images) for the stops of a plan, in route order, one per place. */
+export async function stopPhotos(refs: string[], stateSlug: string | null): Promise<StopPhoto[]> {
+  const order: string[] = [];
+  for (const r of refs) {
+    const x = stopRef(r, stateSlug);
+    if (x && !order.includes(`${x.state}/${x.slug}`)) order.push(`${x.state}/${x.slug}`);
+  }
+  if (!order.length) return [];
+  const st = alias(places, "st");
+  const rows = await getDb()
+    .select({ slug: places.slug, kind: places.kind, name: places.name, stateSlug: st.slug, m: media })
+    .from(places)
+    .innerJoin(media, eq(media.id, places.heroMediaId))
+    .leftJoin(st, eq(st.id, places.stateId))
+    .where(and(eq(places.status, "published"), inArray(places.slug, [...new Set(order.map((k) => k.split("/")[1]))])));
+  const out: StopPhoto[] = [];
+  for (const key of order) {
+    const r = rows.find((x) => `${x.kind === "state" ? x.slug : x.stateSlug}/${x.slug}` === key);
+    const image = r ? imageOf(r.m) : null;
+    if (r && image && image.kind === "photo" && !out.some((o) => o.image.url === image.url)) out.push({ name: r.name, image });
+  }
+  return out;
+}

@@ -34,20 +34,47 @@ const stop = z
   })
   .strict();
 
+const short = z.string().trim().min(1).max(160).optional();
+const metres = z.number().int().min(0).max(8000).optional();
+
 const day = z
   .object({
     title: z.string().trim().min(1).max(120),
-    summary: z.string().trim().max(600).optional(),
+    summary: z.string().trim().max(1200).optional(),
     stops: z.array(stop).min(1).max(8),
     travel: z.string().trim().max(600).optional(),
     meals: z.string().trim().max(400).optional(),
     overnight: z.string().trim().max(160).optional(),
+    /** Road distance for the day's main move, in km (sourced or a clearly labelled estimate). */
+    distanceKm: z.number().min(0).max(2000).optional(),
+    /** The day's distance as written (e.g. "222 km", "about 115 km (estimate)"). */
+    distance: short,
+    /** Driving / journey time as stated by a source (e.g. "About 8 hours (HPTDC)"). */
+    driveTime: short,
+    transport: short,
+    /** Altitude of the night's stop, in metres. */
+    altitude: metres,
+    /** Highest point crossed that day. */
+    highPoint: z.object({ name: z.string().trim().min(1).max(80), altitude: z.number().int().min(0).max(8000) }).strict().optional(),
+    /** When this day's road or sights are open (e.g. "Kunzum road: about June–October"). */
+    access: short,
+    /** Permits or registrations needed that day. */
+    permits: short,
+    /** Practical warning for the day (fuel, signal, cash, checkpoints). */
+    logistics: z.string().trim().max(500).optional(),
   })
   .strict();
 
 export const planSchema = z
   .object({
     overview: para,
+    /** Trip facts shown at the top. */
+    style: short,
+    start: short,
+    end: short,
+    season: z.string().trim().min(1).max(300).optional(),
+    difficulty: short,
+    transport: z.string().trim().min(1).max(300).optional(),
     days: z.array(day).min(1).max(21),
     budget: z
       .object({
@@ -58,6 +85,9 @@ export const planSchema = z
     booking: z.array(z.object({ item: z.string().trim().min(1).max(120), detail: line }).strict()).max(12),
     alternatives: z.array(line).max(10),
     tips: z.array(line).max(10).optional(),
+    /** Preparation notes: permits, fuel, altitude, packing, money and signal. */
+    prep: z.array(z.object({ title: z.string().trim().min(1).max(80), body: z.string().trim().min(1).max(800) }).strict()).max(8).optional(),
+    faqs: z.array(z.object({ q: z.string().trim().min(1).max(200), a: z.string().trim().min(1).max(1200) }).strict()).max(10).optional(),
   })
   .strict();
 
@@ -91,9 +121,11 @@ export function planText(title: string, p: ItineraryPlan): string {
   for (const d of p.days) {
     parts.push(d.title, d.summary ?? "", d.travel ?? "", d.meals ?? "", d.overnight ?? "");
     for (const s of d.stops) parts.push(s.name, s.duration ?? "", s.note ?? "");
+    parts.push(d.distance ?? "", d.driveTime ?? "", d.transport ?? "", d.access ?? "", d.permits ?? "", d.logistics ?? "");
   }
   parts.push(p.budget.assumptions, ...p.budget.lines.map((l) => `${l.label} ${l.amount} ${l.basis}`));
   parts.push(...p.booking.map((b) => `${b.item} ${b.detail}`), ...p.alternatives, ...(p.tips ?? []));
+  parts.push(p.start ?? "", p.end ?? "", p.season ?? "", p.transport ?? "", ...(p.prep ?? []).map((x) => `${x.title} ${x.body}`), ...(p.faqs ?? []).map((f) => `${f.q} ${f.a}`));
   return parts.filter(Boolean).join("\n");
 }
 

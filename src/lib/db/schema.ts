@@ -758,7 +758,23 @@ export type SnapshotImage = {
 };
 
 export type ItineraryStop = { time?: string; name: string; placeSlug?: string; duration?: string; note?: string };
-export type ItineraryDay = { title: string; summary?: string; stops: ItineraryStop[]; travel?: string; meals?: string; overnight?: string };
+export type ItineraryDay = {
+  title: string;
+  summary?: string;
+  stops: ItineraryStop[];
+  travel?: string;
+  meals?: string;
+  overnight?: string;
+  distanceKm?: number;
+  distance?: string;
+  driveTime?: string;
+  transport?: string;
+  altitude?: number;
+  highPoint?: { name: string; altitude: number };
+  access?: string;
+  permits?: string;
+  logistics?: string;
+};
 export type ItineraryPlan = {
   /** Who it suits and the pace. */
   overview: string;
@@ -767,6 +783,14 @@ export type ItineraryPlan = {
   booking: { item: string; detail: string }[];
   alternatives: string[];
   tips?: string[];
+  style?: string;
+  start?: string;
+  end?: string;
+  season?: string;
+  difficulty?: string;
+  transport?: string;
+  prep?: { title: string; body: string }[];
+  faqs?: { q: string; a: string }[];
 };
 export type ItinerarySnapshot = {
   slug: string;
