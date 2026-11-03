@@ -22,6 +22,105 @@ interface Props {
   relatedItineraries?: RelatedItinerary[];
 }
 
+function escapeXml(str: string): string {
+  return str
+    .replace(/&/g, "&amp;")
+    .replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;")
+    .replace(/"/g, "&quot;")
+    .replace(/'/g, "&apos;");
+}
+
+const SPITI_GPX_POINTS = [
+  { name: "Shimla", lat: 31.1048, lon: 77.1734, ele: 2276, desc: "Expedition starting point; Mall Road & Ridge" },
+  { name: "Narkanda / Hatu Peak", lat: 31.2589, lon: 77.4608, ele: 2708, desc: "Himalayan panoramic viewpoint and apple country" },
+  { name: "Rampur Bushahr", lat: 31.4497, lon: 77.6300, ele: 1005, desc: "Padam Palace on the banks of Sutlej" },
+  { name: "Taranda Dhank Cliff Road", lat: 31.5422, lon: 77.9867, ele: 1520, desc: "Kinnaur Gateway cliff-cut roadway" },
+  { name: "Sangla (Baspa Valley)", lat: 31.4251, lon: 78.2570, ele: 2680, desc: "Baspa river, Kamru Fort & apple orchards" },
+  { name: "Chitkul", lat: 31.3533, lon: 78.4357, ele: 3450, desc: "Last inhabited Indian village near Tibet border" },
+  { name: "Reckong Peo", lat: 31.5398, lon: 78.2748, ele: 2290, desc: "District headquarters of Kinnaur; permit check" },
+  { name: "Kalpa", lat: 31.5367, lon: 78.2562, ele: 2960, desc: "Direct vantage of sacred Kinner Kailash peak" },
+  { name: "Pooh", lat: 31.7645, lon: 78.5878, ele: 2830, desc: "Orchards and apricot groves on NH-505" },
+  { name: "Khab Confluence", lat: 31.8177, lon: 78.6508, ele: 2600, desc: "Confluence of turquoise Spiti & brown Sutlej rivers" },
+  { name: "Nako Lake & Village", lat: 31.8797, lon: 78.6276, ele: 3625, desc: "High alpine lake with 11th-century monastery" },
+  { name: "Chango / Malling Nallah", lat: 31.9542, lon: 78.5821, ele: 3200, desc: "Active scree zone crossing into upper Spiti" },
+  { name: "Gue Mummy Monastery", lat: 31.9892, lon: 78.5284, ele: 3250, desc: "550-year-old preserved monk Sangha Tenzin" },
+  { name: "Tabo Monastery", lat: 32.0953, lon: 78.3814, ele: 3280, desc: "Ajanta of the Himalayas, founded 996 CE" },
+  { name: "Dhankar Monastery & Fort", lat: 32.0232, lon: 78.2144, ele: 3894, desc: "Perched cliff-edge fortress over Pin-Spiti confluence" },
+  { name: "Pin Valley (Mudh Village)", lat: 31.9602, lon: 78.0345, ele: 3750, desc: "Snow leopard territory & ibex habitat" },
+  { name: "Kaza (Sub-district Capital)", lat: 32.2276, lon: 78.0710, ele: 3800, desc: "Central expedition base, fuel station, health centre" },
+  { name: "Key Monastery", lat: 32.2981, lon: 78.0125, ele: 4166, desc: "Fort-like 1,000-year Gelugpa Buddhist monastery" },
+  { name: "Kibber Village", lat: 32.3328, lon: 78.0102, ele: 4270, desc: "High cold-desert village & wildlife reserve" },
+  { name: "Chicham Suspension Bridge", lat: 32.3524, lon: 77.9942, ele: 4145, desc: "Asia's highest suspension gorge bridge (150 m deep)" },
+  { name: "Hikkim Post Office", lat: 32.2536, lon: 78.1158, ele: 4440, desc: "World's highest operational post office" },
+  { name: "Komic Village", lat: 32.2355, lon: 78.1347, ele: 4587, desc: "World's highest motorable village with monastery" },
+  { name: "Langza Buddha Statue", lat: 32.2618, lon: 78.0934, ele: 4400, desc: "Giant golden Buddha facing Chau Chau Kang Nilda" },
+  { name: "Losar Village", lat: 32.4439, lon: 77.7473, ele: 4080, desc: "Last village before ascending Kunzum Pass" },
+  { name: "Kunzum Pass Summit", lat: 32.3968, lon: 77.6369, ele: 4590, desc: "Highest pass on circuit; Kunzum Mata temple" },
+  { name: "Batal (Chacha Chachi)", lat: 32.3611, lon: 77.6183, ele: 3960, desc: "Legendary rescue dhaba at foot of Kunzum Pass" },
+  { name: "Chandratal Moon Lake", lat: 32.4824, lon: 77.6186, ele: 4250, desc: "Turquoise crescent glacial lake" },
+  { name: "Chhatru", lat: 32.3350, lon: 77.3822, ele: 3360, desc: "Chandra river boulder crossing" },
+  { name: "Gramphu Junction", lat: 32.3644, lon: 77.2625, ele: 3200, desc: "Leh-Manali highway junction" },
+  { name: "Atal Tunnel (North Portal)", lat: 32.3942, lon: 77.1648, ele: 3040, desc: "Engineering marvel connecting Lahaul to Kullu" },
+  { name: "Solang Valley", lat: 32.3167, lon: 77.1575, ele: 2560, desc: "Adventure valley in Kullu" },
+  { name: "Manali", lat: 32.2396, lon: 77.1887, ele: 2050, desc: "Expedition endpoint; descent into pine forests" },
+];
+
+const DEFAULT_GPX_POINTS = [
+  { name: "Old Manali", lat: 32.2530, lon: 77.1750, ele: 2080, desc: "Cafes, apple orchards, Manu temple" },
+  { name: "Hadimba Temple", lat: 32.2483, lon: 77.1798, ele: 2060, desc: "1553 CE pagoda temple in cedar forest" },
+  { name: "Solang Valley", lat: 32.3167, lon: 77.1575, ele: 2560, desc: "Adventure valley and mountain views" },
+  { name: "Atal Tunnel South Portal", lat: 32.3129, lon: 77.1420, ele: 2980, desc: "Gateway to Lahaul Valley" },
+  { name: "Sissu Waterfall", lat: 32.4764, lon: 77.1235, ele: 3120, desc: "Glacial cascade in Lahaul" },
+  { name: "Naggar Castle", lat: 32.1382, lon: 77.1697, ele: 1760, desc: "Himalayan wood-and-stone heritage architecture" },
+  { name: "Vashisht Hot Springs", lat: 32.2612, lon: 77.1883, ele: 2100, desc: "Natural sulphur thermal baths" },
+];
+
+function buildGpxXml(itinerary: Props["itinerary"], isSpitiRoute: boolean): string {
+  const points = isSpitiRoute ? SPITI_GPX_POINTS : DEFAULT_GPX_POINTS;
+
+  const wptsXml = points
+    .map(
+      (p) => `  <wpt lat="${p.lat.toFixed(6)}" lon="${p.lon.toFixed(6)}">
+    <ele>${p.ele}</ele>
+    <name>${escapeXml(p.name)}</name>
+    <desc>${escapeXml(p.desc)}</desc>
+    <sym>Waypoint</sym>
+  </wpt>`
+    )
+    .join("\n");
+
+  const trkptsXml = points
+    .map(
+      (p) => `      <trkpt lat="${p.lat.toFixed(6)}" lon="${p.lon.toFixed(6)}">
+        <ele>${p.ele}</ele>
+        <name>${escapeXml(p.name)}</name>
+      </trkpt>`
+    )
+    .join("\n");
+
+  return `<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="VacayOut India (vacayout.in)" xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
+  <metadata>
+    <name>${escapeXml(itinerary.title)}</name>
+    <desc>${escapeXml(itinerary.summary)}</desc>
+    <author>
+      <name>VacayOut India Expeditions</name>
+      <link href="https://vacayout.in"/>
+    </author>
+    <time>${new Date().toISOString()}</time>
+  </metadata>
+${wptsXml}
+  <trk>
+    <name>${escapeXml(itinerary.title)} Route Track</name>
+    <desc>${escapeXml(itinerary.summary)}</desc>
+    <trkseg>
+${trkptsXml}
+    </trkseg>
+  </trk>
+</gpx>`;
+}
+
 export function ItineraryDetailView({ itinerary, stopLinks = {}, relatedItineraries = [] }: Props) {
   const isSpiti = itinerary.slug.includes("spiti");
   const isManali = itinerary.slug.includes("manali");
@@ -37,6 +136,8 @@ export function ItineraryDetailView({ itinerary, stopLinks = {}, relatedItinerar
 
   const [activeElevationDay, setActiveElevationDay] = useState<number | null>(null);
   const [showDownloadModal, setShowDownloadModal] = useState(false);
+  const [gpxDownloaded, setGpxDownloaded] = useState(false);
+  const [isPdfGenerating, setIsPdfGenerating] = useState(false);
 
   const toggleDay = (idx: number) => {
     setExpandedDays((prev) => ({ ...prev, [idx]: !prev[idx] }));
@@ -52,6 +153,45 @@ export function ItineraryDetailView({ itinerary, stopLinks = {}, relatedItinerar
 
   const collapseAll = () => {
     setExpandedDays({});
+  };
+
+  const handleDownloadGpx = () => {
+    try {
+      const gpxData = buildGpxXml(itinerary, isSpiti);
+      const blob = new Blob([gpxData], { type: "application/gpx+xml;charset=utf-8" });
+      const url = URL.createObjectURL(blob);
+      const a = document.createElement("a");
+      a.href = url;
+      a.download = `${itinerary.slug}-route.gpx`;
+      document.body.appendChild(a);
+      a.click();
+      document.body.removeChild(a);
+      setTimeout(() => URL.revokeObjectURL(url), 10000);
+      setGpxDownloaded(true);
+      setTimeout(() => setGpxDownloaded(false), 3500);
+      setShowDownloadModal(false);
+    } catch (e) {
+      console.error("Error exporting GPX track:", e);
+    }
+  };
+
+  const handleDownloadPdf = () => {
+    setIsPdfGenerating(true);
+    setShowDownloadModal(false);
+    expandAll();
+    const prevTitle = typeof document !== "undefined" ? document.title : "";
+    if (typeof document !== "undefined") {
+      document.title = `${itinerary.title} - VacayOut Travel Dossier`;
+    }
+    setTimeout(() => {
+      if (typeof window !== "undefined") {
+        window.print();
+      }
+      if (typeof document !== "undefined") {
+        document.title = prevTitle;
+      }
+      setIsPdfGenerating(false);
+    }, 200);
   };
 
   // Quick stats definitions
@@ -339,6 +479,27 @@ export function ItineraryDetailView({ itinerary, stopLinks = {}, relatedItinerar
 
   return (
     <article className="min-h-screen bg-white text-ink pb-20 selection:bg-coral/20 selection:text-coral">
+      {/* PRINT-ONLY EXPEDITION DOSSIER HEADER */}
+      <div className="hidden print:block p-6 mb-6 border-b-2 border-black">
+        <div className="flex items-center justify-between">
+          <div>
+            <p className="text-xs font-bold tracking-widest uppercase text-gray-600">VacayOut India — Official Expedition Dossier</p>
+            <h1 className="text-2xl font-serif font-bold text-black mt-1">{itinerary.title}</h1>
+          </div>
+          <div className="text-right text-xs text-gray-600">
+            <p className="font-bold text-black text-sm">vacayout.in</p>
+            <p>Verified Offline Route Guide</p>
+          </div>
+        </div>
+        <p className="text-xs text-gray-700 mt-2">{itinerary.summary}</p>
+        <div className="mt-4 grid grid-cols-4 gap-3 text-xs border-t border-gray-300 pt-3">
+          <div><span className="font-bold">Duration:</span> {itinerary.durationDays} Days / {itinerary.durationDays - 1} Nights</div>
+          <div><span className="font-bold">Peak Altitude:</span> {isSpiti ? "4,590 m (Kunzum Pass)" : "High Mountain"}</div>
+          <div><span className="font-bold">Route Length:</span> {isSpiti ? "1,180 km" : `${itinerary.durationDays * 75} km`}</div>
+          <div><span className="font-bold">Region:</span> {itinerary.place.stateName || "Himachal Pradesh"}</div>
+        </div>
+      </div>
+
       {/* 1. HERO HEADER */}
       <section className="border-b border-[#E5E2DC] bg-white pt-8 pb-10">
         <div className="container-site max-w-6xl">
@@ -378,18 +539,35 @@ export function ItineraryDetailView({ itinerary, stopLinks = {}, relatedItinerar
             </div>
 
             {/* CTAs */}
-            <div className="flex flex-wrap items-center gap-3">
+            <div className="flex flex-wrap items-center gap-2.5 no-print">
               <button
                 type="button"
-                onClick={() => setShowDownloadModal(true)}
-                className="inline-flex items-center gap-2 rounded-lg bg-[#BA4A38] px-4 py-2.5 text-sm font-semibold text-white shadow-sm transition hover:bg-[#A33F2F]"
+                onClick={handleDownloadPdf}
+                disabled={isPdfGenerating}
+                className="inline-flex items-center gap-2 rounded-lg bg-[#BA4A38] px-4 py-2.5 text-sm font-semibold text-white shadow-sm transition hover:bg-[#A33F2F] active:scale-[0.98] cursor-pointer"
+                title="Download complete day-by-day itinerary PDF dossier"
               >
                 <svg aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-                  <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" />
-                  <polyline points="7 10 12 15 17 10" />
-                  <line x1="12" y1="15" x2="12" y2="3" />
+                  <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z" />
+                  <polyline points="14 2 14 8 20 8" />
+                  <line x1="16" y1="13" x2="8" y2="13" />
+                  <line x1="16" y1="17" x2="8" y2="17" />
+                  <polyline points="10 9 9 9 8 9" />
                 </svg>
-                Download PDF & Route GPX
+                {isPdfGenerating ? "Preparing Dossier..." : "Download PDF"}
+              </button>
+
+              <button
+                type="button"
+                onClick={handleDownloadGpx}
+                className="inline-flex items-center gap-2 rounded-lg border border-[#D5D1C7] bg-white px-4 py-2.5 text-sm font-semibold text-ink shadow-xs transition hover:bg-[#FAF9F6] hover:border-ink active:scale-[0.98] cursor-pointer"
+                title="Download route GPX for Garmin, Komoot, AllTrails & Google Earth"
+              >
+                <svg aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                  <circle cx="12" cy="12" r="10" />
+                  <polygon points="16.24 7.76 14.12 14.12 7.76 16.24 9.88 9.88 16.24 7.76" fill="currentColor" fillOpacity="0.2" />
+                </svg>
+                {gpxDownloaded ? "GPX Downloaded ✓" : "Route GPX"}
               </button>
 
               <Link
@@ -1053,53 +1231,33 @@ export function ItineraryDetailView({ itinerary, stopLinks = {}, relatedItinerar
       )}
 
       {/* 9. OFFLINE DOSSIER DOWNLOAD CTA BANNER */}
-      <section className="py-14 bg-white">
+      <section className="py-14 bg-white no-print">
         <div className="container-site max-w-6xl">
           <div className="rounded-2xl border border-[#E5E2DC] bg-[#FAF9F6] p-8 sm:p-10 flex flex-col sm:flex-row items-center justify-between gap-6 shadow-xs">
             <div>
               <p className="text-xs font-bold uppercase tracking-wider text-coral">OFFLINE READINESS</p>
-              <h2 className="mt-1 font-serif text-2xl font-medium text-ink">Download Spiti Circuit Offline Dossier</h2>
+              <h2 className="mt-1 font-serif text-2xl font-medium text-ink">Download Offline Expedition Dossier</h2>
               <p className="mt-1 text-sm text-[#555] max-w-xl">
-                Get the printable day-by-day logistics sheet, waypoint GPX coordinates for Garmin/Google Maps, and emergency SOS contacts for Kinnaur and Spiti.
+                Get the printable day-by-day logistics sheet, waypoint GPX track for Garmin/Google Earth, and high-altitude emergency SOS coordinates.
               </p>
             </div>
             <div className="flex flex-wrap items-center gap-3 shrink-0">
               <button
                 type="button"
-                onClick={() => {
-                  window.print();
-                }}
-                className="inline-flex items-center gap-2 rounded-lg bg-ink px-4 py-2.5 text-xs font-semibold text-white hover:bg-black transition shadow-sm"
+                onClick={handleDownloadPdf}
+                disabled={isPdfGenerating}
+                className="inline-flex items-center gap-2 rounded-lg bg-ink px-4 py-2.5 text-xs font-semibold text-white hover:bg-black transition shadow-sm cursor-pointer"
               >
-                <Icon name="fileText" size={14} /> Print / Save PDF
+                <Icon name="fileText" size={14} />
+                {isPdfGenerating ? "Preparing Dossier..." : "Download / Save PDF"}
               </button>
               <button
                 type="button"
-                onClick={() => {
-                  const gpxData = `<?xml version="1.0" encoding="UTF-8"?>
-<gpx version="1.1" creator="VacayOut India">
-  <metadata><name>${itinerary.title}</name></metadata>
-  <wpt lat="31.1048" lon="77.1734"><name>Shimla</name><ele>2276</ele></wpt>
-  <wpt lat="31.4251" lon="78.2570"><name>Sangla</name><ele>2680</ele></wpt>
-  <wpt lat="31.5367" lon="78.2562"><name>Kalpa</name><ele>2960</ele></wpt>
-  <wpt lat="31.8797" lon="78.6276"><name>Nako</name><ele>3625</ele></wpt>
-  <wpt lat="32.0953" lon="78.3814"><name>Tabo</name><ele>3280</ele></wpt>
-  <wpt lat="32.2276" lon="78.0710"><name>Kaza</name><ele>3800</ele></wpt>
-  <wpt lat="32.3968" lon="77.6369"><name>Kunzum Pass</name><ele>4590</ele></wpt>
-  <wpt lat="32.4824" lon="77.6186"><name>Chandratal</name><ele>4250</ele></wpt>
-  <wpt lat="32.2396" lon="77.1887"><name>Manali</name><ele>2050</ele></wpt>
-</gpx>`;
-                  const blob = new Blob([gpxData], { type: "application/gpx+xml" });
-                  const url = URL.createObjectURL(blob);
-                  const a = document.createElement("a");
-                  a.href = url;
-                  a.download = `${itinerary.slug}-route.gpx`;
-                  a.click();
-                  URL.revokeObjectURL(url);
-                }}
-                className="inline-flex items-center gap-2 rounded-lg border border-[#E5E2DC] bg-white px-4 py-2.5 text-xs font-semibold text-ink hover:bg-[#FAF9F6] transition shadow-xs"
+                onClick={handleDownloadGpx}
+                className="inline-flex items-center gap-2 rounded-lg border border-[#E5E2DC] bg-white px-4 py-2.5 text-xs font-semibold text-ink hover:bg-[#FAF9F6] transition shadow-xs cursor-pointer"
               >
-                <Icon name="compass" size={14} /> Download GPX Track
+                <Icon name="compass" size={14} />
+                {gpxDownloaded ? "GPX Downloaded ✓" : "Download GPX Track"}
               </button>
             </div>
           </div>
@@ -1108,14 +1266,14 @@ export function ItineraryDetailView({ itinerary, stopLinks = {}, relatedItinerar
 
       {/* DOWNLOAD MODAL */}
       {showDownloadModal && (
-        <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/50 p-4 backdrop-blur-xs">
+        <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/50 p-4 backdrop-blur-sm no-print">
           <div className="w-full max-w-md rounded-2xl border border-[#E5E2DC] bg-white p-6 shadow-2xl">
             <div className="flex items-center justify-between pb-3 border-b border-[#E5E2DC]">
               <h3 className="font-serif text-lg font-medium text-ink">Download Offline Dossier</h3>
               <button
                 type="button"
                 onClick={() => setShowDownloadModal(false)}
-                className="text-muted hover:text-ink text-sm font-bold p-1"
+                className="text-muted hover:text-ink text-sm font-bold p-1 cursor-pointer"
               >
                 ✕
               </button>
@@ -1128,51 +1286,31 @@ export function ItineraryDetailView({ itinerary, stopLinks = {}, relatedItinerar
             <div className="mt-4 space-y-2.5">
               <button
                 type="button"
-                onClick={() => {
-                  window.print();
-                  setShowDownloadModal(false);
-                }}
-                className="flex w-full items-center justify-between rounded-xl border border-[#E5E2DC] bg-[#FAF9F6] p-3 text-left hover:border-coral transition"
+                onClick={handleDownloadPdf}
+                disabled={isPdfGenerating}
+                className="flex w-full items-center justify-between rounded-xl border border-[#E5E2DC] bg-[#FAF9F6] p-3 text-left hover:border-coral transition cursor-pointer"
               >
                 <div>
                   <p className="text-xs font-bold text-ink">Printable Route Guide (PDF)</p>
-                  <p className="text-[0.6875rem] text-muted">Includes 9-day segment logs, stays, emergency contacts</p>
+                  <p className="text-[0.6875rem] text-muted">Complete segment logs, elevations, stays &amp; SOS contacts</p>
                 </div>
-                <span className="text-coral text-xs font-semibold">Print →</span>
+                <span className="text-coral text-xs font-semibold">
+                  {isPdfGenerating ? "Preparing..." : "Download PDF →"}
+                </span>
               </button>
 
               <button
                 type="button"
-                onClick={() => {
-                  const gpxData = `<?xml version="1.0" encoding="UTF-8"?>
-<gpx version="1.1" creator="VacayOut India">
-  <metadata><name>${itinerary.title}</name></metadata>
-  <wpt lat="31.1048" lon="77.1734"><name>Shimla</name><ele>2276</ele></wpt>
-  <wpt lat="31.4251" lon="78.2570"><name>Sangla</name><ele>2680</ele></wpt>
-  <wpt lat="31.5367" lon="78.2562"><name>Kalpa</name><ele>2960</ele></wpt>
-  <wpt lat="31.8797" lon="78.6276"><name>Nako</name><ele>3625</ele></wpt>
-  <wpt lat="32.0953" lon="78.3814"><name>Tabo</name><ele>3280</ele></wpt>
-  <wpt lat="32.2276" lon="78.0710"><name>Kaza</name><ele>3800</ele></wpt>
-  <wpt lat="32.3968" lon="77.6369"><name>Kunzum Pass</name><ele>4590</ele></wpt>
-  <wpt lat="32.4824" lon="77.6186"><name>Chandratal</name><ele>4250</ele></wpt>
-  <wpt lat="32.2396" lon="77.1887"><name>Manali</name><ele>2050</ele></wpt>
-</gpx>`;
-                  const blob = new Blob([gpxData], { type: "application/gpx+xml" });
-                  const url = URL.createObjectURL(blob);
-                  const a = document.createElement("a");
-                  a.href = url;
-                  a.download = `${itinerary.slug}-route.gpx`;
-                  a.click();
-                  URL.revokeObjectURL(url);
-                  setShowDownloadModal(false);
-                }}
-                className="flex w-full items-center justify-between rounded-xl border border-[#E5E2DC] bg-[#FAF9F6] p-3 text-left hover:border-coral transition"
+                onClick={handleDownloadGpx}
+                className="flex w-full items-center justify-between rounded-xl border border-[#E5E2DC] bg-[#FAF9F6] p-3 text-left hover:border-coral transition cursor-pointer"
               >
                 <div>
-                  <p className="text-xs font-bold text-ink">GPX Track for Garmin & Google Maps</p>
-                  <p className="text-[0.6875rem] text-muted">Waypoints for passes, monasteries, and fuel checkpoints</p>
+                  <p className="text-xs font-bold text-ink">GPX Track for Garmin &amp; Google Earth</p>
+                  <p className="text-[0.6875rem] text-muted">Connected tracks &amp; waypoints for passes, monasteries, and fuel</p>
                 </div>
-                <span className="text-coral text-xs font-semibold">Download →</span>
+                <span className="text-coral text-xs font-semibold">
+                  {gpxDownloaded ? "Downloaded ✓" : "Download GPX →"}
+                </span>
               </button>
             </div>
 
@@ -1180,7 +1318,7 @@ export function ItineraryDetailView({ itinerary, stopLinks = {}, relatedItinerar
               <button
                 type="button"
                 onClick={() => setShowDownloadModal(false)}
-                className="rounded-lg bg-ink px-4 py-2 text-xs font-semibold text-white hover:bg-black"
+                className="rounded-lg bg-ink px-4 py-2 text-xs font-semibold text-white hover:bg-black cursor-pointer"
               >
                 Close
               </button>

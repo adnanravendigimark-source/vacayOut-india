@@ -92,3 +92,74 @@
   from { transform: scale(1.08); }
   to { transform: scale(1); }
 }
+
+/* Print Stylesheet for High-Quality Travel Dossiers & PDFs */
+@media print {
+  @page {
+    size: A4 portrait;
+    margin: 14mm 12mm 14mm 12mm;
+  }
+
+  /* Hide website navigation, chrome, dialogs, and non-content widgets */
+  header,
+  footer,
+  nav,
+  aside,
+  dialog,
+  [role="dialog"],
+  .no-print,
+  button,
+  .site-header,
+  .site-footer {
+    display: none !important;
+  }
+
+  body {
+    background: #ffffff !important;
+    color: #111111 !important;
+    font-size: 10pt !important;
+    line-height: 1.45 !important;
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+  }
+
+  main {
+    margin: 0 !important;
+    padding: 0 !important;
+    max-width: 100% !important;
+    width: 100% !important;
+  }
+
+  .container-site {
+    max-width: 100% !important;
+    padding-inline: 0 !important;
+    margin-inline: 0 !important;
+  }
+
+  /* Avoid breaking itinerary day breakdown cards across pages */
+  .break-inside-avoid,
+  .print-avoid-break,
+  section[data-day-segment] {
+    break-inside: avoid !important;
+    page-break-inside: avoid !important;
+  }
+
+  /* Reset all heavy drop shadows to clean borders */
+  * {
+    box-shadow: none !important;
+    text-shadow: none !important;
+  }
+
+  a {
+    color: inherit !important;
+    text-decoration: none !important;
+  }
+
+  /* Ensure images fit nicely on print */
+  img {
+    max-width: 100% !important;
+    height: auto !important;
+    page-break-inside: avoid !important;
+  }
+}
+
