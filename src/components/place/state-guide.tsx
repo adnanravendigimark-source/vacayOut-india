@@ -58,14 +58,6 @@ function Credit({ img }: { img: SnapshotImage }) {
   );
 }
 
-function CardCredit({ img }: { img: SnapshotImage }) {
-  return (
-    <span className="absolute bottom-1.5 right-1.5 max-w-[90%] truncate rounded bg-black/60 px-1.5 py-0.5 text-[0.625rem] text-white">
-      {img.kind === "ai_generated" ? "AI illustration" : `${img.attribution ?? "Photo"} · ${img.license}`}
-    </span>
-  );
-}
-
 function Photo({ img, sizes, aspect = "aspect-[4/3]", fallback = "mountain", children }: { img: SnapshotImage | null; sizes: string; aspect?: string; fallback?: Name; children?: ReactNode }) {
   return (
     <div className={`relative ${aspect} w-full overflow-hidden bg-[#ECE8E0]`}>
@@ -74,7 +66,6 @@ function Photo({ img, sizes, aspect = "aspect-[4/3]", fallback = "mountain", chi
       ) : (
         <span className="flex size-full items-center justify-center text-[#B8B2A6]"><Icon name={fallback} size={30} /></span>
       )}
-      {img ? <CardCredit img={img} /> : null}
       {children}
     </div>
   );
@@ -386,8 +377,8 @@ export function StateGuide({
   // Menu: only parts that are on the page.
   const nav = [
     { id: "overview", label: "About", on: !!overview },
-    { id: "regions", label: "Regions", on: regions.length > 0 },
     { id: "destinations", label: "Destinations", on: destinations.length > 0 },
+    { id: "regions", label: "Regions", on: regions.length > 0 },
     { id: "places", label: "Places to visit", on: attractions.length > 0 },
     { id: "things", label: "Things to do", on: activities.length > 0 },
     { id: "best-time", label: "Best time", on: !!bestTime },
@@ -548,6 +539,48 @@ export function StateGuide({
           </section>
         ) : null}
 
+        {/* C. Destinations */}
+        {destinations.length ? (
+          <section id="destinations" aria-labelledby="destinations-h" className="scroll-mt-36">
+            <SectionHead id="destinations" eyebrow="Towns, valleys & hill stations" title={`Destinations in ${name}`} intro="Open any destination for its full guide: what to see, where to stay and how to plan it." />
+            <FilterCards
+              label="Filter destinations"
+              allLabel="All destinations"
+              initial={8}
+              gridClass="grid w-full grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-4"
+              items={destinations.map((d) => {
+                const kf = d.facts?.key_facts?.items ?? [];
+                const alt = kf.find((f) => /altitude|elevation/i.test(f.title ?? ""));
+                const rest = kf.filter((f) => f !== alt).slice(0, 3);
+                const where = near(d);
+                return {
+                  key: d.slug,
+                  groups: d.tripTypes.map(tripTypeLabel),
+                  node: (
+                    <Link href={pageOf(d)!} className="group flex w-full flex-col overflow-hidden rounded-2xl border border-[#EAE7E0] bg-white shadow-xs transition-all hover:border-coral hover:shadow-card">
+                      <Photo img={d.hero} sizes="(min-width: 1024px) 25vw, (min-width: 640px) 50vw, 100vw">
+                        <span className="absolute left-2.5 top-2.5 rounded-md bg-white/95 px-2 py-0.5 text-[0.6875rem] font-bold text-ink shadow-xs">
+                          {kindLabel(d.kind)}{d.tripTypes[0] ? ` · ${tripTypeLabel(d.tripTypes[0])}` : ""}
+                        </span>
+                        {alt ? <span className="absolute right-2.5 top-2.5 rounded-md bg-black/60 px-1.5 py-0.5 text-[0.625rem] font-medium text-white">{alt.body}</span> : null}
+                      </Photo>
+                      <div className="flex flex-1 flex-col space-y-2 p-4">
+                        <h3 className="flex items-center justify-between gap-2 font-serif text-lg font-bold text-ink transition-colors group-hover:text-coral">
+                          <span>{d.name}</span>
+                          <Icon name="arrowRight" size={14} className="shrink-0 text-[#AAA] transition-all group-hover:translate-x-1 group-hover:text-coral" />
+                        </h3>
+                        {where ? <p className="-mt-1 flex items-center gap-1 text-[0.6875rem] text-[#888]"><Icon name="pin" size={11} /> Near {where}</p> : null}
+                        {d.summary ? <p className="line-clamp-3 text-xs leading-relaxed text-[#555]">{d.summary}</p> : null}
+                        {rest.length ? <div className="mt-auto border-t border-[#F0EFEA] pt-2.5"><FactRows items={rest} size="xs" /></div> : null}
+                      </div>
+                    </Link>
+                  ),
+                };
+              })}
+            />
+          </section>
+        ) : null}
+
         {/* Regions & circuits */}
         {regions.length ? (
           <section id="regions" aria-labelledby="regions-h" className="scroll-mt-36">
@@ -601,48 +634,6 @@ export function StateGuide({
                 );
               })}
             </ul>
-          </section>
-        ) : null}
-
-        {/* C. Destinations */}
-        {destinations.length ? (
-          <section id="destinations" aria-labelledby="destinations-h" className="scroll-mt-36">
-            <SectionHead id="destinations" eyebrow="Towns, valleys & hill stations" title={`Destinations in ${name}`} intro="Open any destination for its full guide: what to see, where to stay and how to plan it." />
-            <FilterCards
-              label="Filter destinations"
-              allLabel="All destinations"
-              initial={8}
-              gridClass="grid w-full grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-4"
-              items={destinations.map((d) => {
-                const kf = d.facts?.key_facts?.items ?? [];
-                const alt = kf.find((f) => /altitude|elevation/i.test(f.title ?? ""));
-                const rest = kf.filter((f) => f !== alt).slice(0, 3);
-                const where = near(d);
-                return {
-                  key: d.slug,
-                  groups: d.tripTypes.map(tripTypeLabel),
-                  node: (
-                    <Link href={pageOf(d)!} className="group flex w-full flex-col overflow-hidden rounded-2xl border border-[#EAE7E0] bg-white shadow-xs transition-all hover:border-coral hover:shadow-card">
-                      <Photo img={d.hero} sizes="(min-width: 1024px) 25vw, (min-width: 640px) 50vw, 100vw">
-                        <span className="absolute left-2.5 top-2.5 rounded-md bg-white/95 px-2 py-0.5 text-[0.6875rem] font-bold text-ink shadow-xs">
-                          {kindLabel(d.kind)}{d.tripTypes[0] ? ` · ${tripTypeLabel(d.tripTypes[0])}` : ""}
-                        </span>
-                        {alt ? <span className="absolute right-2.5 top-2.5 rounded-md bg-black/60 px-1.5 py-0.5 text-[0.625rem] font-medium text-white">{alt.body}</span> : null}
-                      </Photo>
-                      <div className="flex flex-1 flex-col space-y-2 p-4">
-                        <h3 className="flex items-center justify-between gap-2 font-serif text-lg font-bold text-ink transition-colors group-hover:text-coral">
-                          <span>{d.name}</span>
-                          <Icon name="arrowRight" size={14} className="shrink-0 text-[#AAA] transition-all group-hover:translate-x-1 group-hover:text-coral" />
-                        </h3>
-                        {where ? <p className="-mt-1 flex items-center gap-1 text-[0.6875rem] text-[#888]"><Icon name="pin" size={11} /> Near {where}</p> : null}
-                        {d.summary ? <p className="line-clamp-3 text-xs leading-relaxed text-[#555]">{d.summary}</p> : null}
-                        {rest.length ? <div className="mt-auto border-t border-[#F0EFEA] pt-2.5"><FactRows items={rest} size="xs" /></div> : null}
-                      </div>
-                    </Link>
-                  ),
-                };
-              })}
-            />
           </section>
         ) : null}
 

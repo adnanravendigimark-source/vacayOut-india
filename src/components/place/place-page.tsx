@@ -42,12 +42,8 @@ function Credit({ img, onDark = false }: { img: SnapshotImage; onDark?: boolean 
 }
 
 /** Small credit printed over a card photo. */
-function CardCredit({ img }: { img: SnapshotImage }) {
-  return (
-    <span className="absolute bottom-1.5 right-1.5 max-w-[90%] truncate rounded bg-black/60 px-1.5 py-0.5 text-[0.625rem] text-white">
-      {img.kind === "ai_generated" ? "AI illustration" : `${img.attribution ?? "Photo"} · ${img.license}`}
-    </span>
-  );
+function CardCredit(_props: { img: SnapshotImage }) {
+  return null;
 }
 
 function Block({ id, title, intro, children, className = "", more, eyebrow }: { id: string; title: string; intro?: string; children: React.ReactNode; className?: string; more?: { href: string; label: string } | null; eyebrow?: string }) {
