@@ -30,6 +30,155 @@ type Item = NonNullable<SectionBody["items"]>[number];
 const ext = { target: "_blank", rel: "nofollow noopener noreferrer" } as const;
 const paragraphs = (text: string | undefined) => (text ?? "").split(/\n{2,}/).map((p) => p.trim()).filter(Boolean);
 
+type PracticalHighlight = {
+  emergency: { label?: string; title: string; subtitle: string; icon?: Name };
+  permit: { label: string; title: string; subtitle: string; icon: Name };
+  rule: { label: string; title: string; subtitle: string; icon: Name };
+};
+
+const STATE_PRACTICAL_HIGHLIGHTS: Record<string, PracticalHighlight> = {
+  uttarakhand: {
+    emergency: {
+      label: "Emergency Contacts",
+      title: "Dial 112 or 108",
+      subtitle: "112 for police, fire & medical; 108 for 24x7 emergency mountain ambulance.",
+      icon: "shield",
+    },
+    permit: {
+      label: "Mandatory Registration",
+      title: "Biometric Yatra Registration",
+      subtitle: "Free QR registration at registrationandtouristcare.uk.gov.in mandatory for Char Dham & Hemkund.",
+      icon: "fileText",
+    },
+    rule: {
+      label: "Sacred Valley Law",
+      title: "Strict Dry & Veg Zones",
+      subtitle: "Alcohol and non-vegetarian food strictly banned by law in Rishikesh, Haridwar & holy pilgrimage towns.",
+      icon: "checkCircle",
+    },
+  },
+  "himachal-pradesh": {
+    emergency: {
+      label: "Emergency Contacts",
+      title: "Dial 112 or 108",
+      subtitle: "112 for police, fire & medical; 108 for free 24x7 emergency ambulance.",
+      icon: "shield",
+    },
+    permit: {
+      label: "Vehicle Pass",
+      title: "Rohtang Pass Permit",
+      subtitle: "₹500 + ₹50 congestion fee. Daily quota; printed copy mandatory.",
+      icon: "fileText",
+    },
+    rule: {
+      label: "Environmental Law",
+      title: "Polythene Banned",
+      subtitle: "Single-use plastic bags strictly prohibited statewide. Carry reusable cloth bags.",
+      icon: "checkCircle",
+    },
+  },
+  rajasthan: {
+    emergency: {
+      label: "Emergency Contacts",
+      title: "Dial 112 or 100",
+      subtitle: "112 for unified emergency response; 1363 for national 24x7 multi-lingual tourist assistance.",
+      icon: "shield",
+    },
+    permit: {
+      label: "Wildlife & Safari Permits",
+      title: "Advance Online Safari Booking",
+      subtitle: "Book Ranthambore & Sariska game drives 60–90 days in advance via official SSO/FMDSS portal.",
+      icon: "fileText",
+    },
+    rule: {
+      label: "Heritage Etiquette",
+      title: "Dress Code & Sacred Ghats",
+      subtitle: "Remove footwear; cover shoulders and knees at Pushkar ghats, Brahma temple, and active shrines.",
+      icon: "checkCircle",
+    },
+  },
+  goa: {
+    emergency: {
+      label: "Emergency Contacts",
+      title: "Dial 112 or 108",
+      subtitle: "112 for police emergency; 108 for medical; Drishti Marine lifeguard towers on all active beaches.",
+      icon: "shield",
+    },
+    permit: {
+      label: "Local Commute",
+      title: "GoaMiles App & Rental Taxis",
+      subtitle: "Ola & Uber do not operate. Use government GoaMiles app or self-drive registered black-yellow scooters.",
+      icon: "compass",
+    },
+    rule: {
+      label: "Beach Safety Law",
+      title: "No Drinking on Open Sands",
+      subtitle: "Fines up to ₹2,000 for public drinking on beaches. Strictly obey red flag swimming advisories.",
+      icon: "checkCircle",
+    },
+  },
+};
+
+const DEFAULT_PRACTICAL_HIGHLIGHT: PracticalHighlight = {
+  emergency: {
+    label: "Emergency Contacts",
+    title: "Dial 112 or 108",
+    subtitle: "112 unified emergency helpline across India; 108 for free 24x7 ambulance.",
+    icon: "shield",
+  },
+  permit: {
+    label: "Permits & Passes",
+    title: "Entry & Activity Permits",
+    subtitle: "Check local district portal for national park safaris, monument composite tickets, and camera fees.",
+    icon: "fileText",
+  },
+  rule: {
+    label: "Responsible Travel",
+    title: "Eco & Cultural Etiquette",
+    subtitle: "Respect local dress codes at spiritual sanctuaries and avoid single-use plastics.",
+    icon: "checkCircle",
+  },
+};
+
+const STATE_GATEWAYS: Record<string, { title: string; subtitle: string; badges: { label: string; text: string }[] }> = {
+  "himachal-pradesh": {
+    title: "Planning your gateway from Delhi or Chandigarh",
+    subtitle: "Pick the direct gateway suited to your destination valley to avoid unnecessary mountain transit hours.",
+    badges: [
+      { label: "To Shimla:", text: "7–8 hrs (Volvo / Kalka Toy Train)" },
+      { label: "To Manali:", text: "11–13 hrs (Overnight Volvo / Bhuntar air)" },
+      { label: "To Dharamshala:", text: "9–10 hrs (Volvo / Gaggal air)" },
+    ],
+  },
+  uttarakhand: {
+    title: "Planning your gateway from Delhi, Dehradun or Haridwar",
+    subtitle: "Choose the Garhwal (west) or Kumaon (east) transit corridor to save mountain driving time.",
+    badges: [
+      { label: "To Rishikesh & Haridwar:", text: "4–5 hrs (Vande Bharat / NH 334)" },
+      { label: "To Mussoorie & Dehradun:", text: "5–6 hrs (Flight to DED / Shatabdi)" },
+      { label: "To Nainital & Corbett:", text: "5–6 hrs (Kathgodam Train / NH 9)" },
+    ],
+  },
+  rajasthan: {
+    title: "Planning your gateway from Delhi, Mumbai or Ahmedabad",
+    subtitle: "Use the Delhi-Mumbai Expressway or Western Railway mainline for fastest intercity transit.",
+    badges: [
+      { label: "To Jaipur:", text: "3.5–4 hrs (Vande Bharat / NE-4 Expressway)" },
+      { label: "To Udaipur:", text: "1.5 hrs flight / 6 hrs road from Ahmedabad" },
+      { label: "To Jodhpur & Jaisalmer:", text: "Overnight Superfast / Direct flights" },
+    ],
+  },
+  goa: {
+    title: "Planning your arrival by air, rail or coastal drive",
+    subtitle: "Select between North Goa (Mopa / Thivim) and South Goa (Dabolim / Madgaon) based on your stay.",
+    badges: [
+      { label: "To North Beaches:", text: "30–45 mins from Mopa (GOX) / Thivim rail" },
+      { label: "To South Heritage:", text: "30–45 mins from Dabolim (GOI) / Madgaon" },
+      { label: "Vande Bharat Express:", text: "8 hrs direct from Mumbai CSMT" },
+    ],
+  },
+};
+
 /** Icon for a fact, by its title. */
 function factIcon(title: string | undefined): Name {
   const t = (title ?? "").toLowerCase();
@@ -271,6 +420,8 @@ export function StateGuide({
       if (/kishangarh|ajmer/i.test(text)) pills.push("Kishangarh (Ajmer/Pushkar)");
       if (/mopa|manohar/i.test(text)) pills.push("Manohar Int'l (Mopa / GOX)");
       if (/dabolim/i.test(text)) pills.push("Dabolim Airport (GOI)");
+      if (/jolly grant|dehradun/i.test(text)) pills.push("Jolly Grant (Dehradun / DED)");
+      if (/pantnagar/i.test(text)) pills.push("Pantnagar Airport (PGH)");
       return {
         icon: "plane",
         badge: "Airports & Domestic Flights",
@@ -292,6 +443,10 @@ export function StateGuide({
       if (/thivim/i.test(text)) pills.push("Thivim (North Goa)");
       if (/karmali/i.test(text)) pills.push("Karmali (Old Goa/Panaji)");
       if (/konkan/i.test(text)) pills.push("Konkan Railway");
+      if (/haridwar/i.test(text)) pills.push("Haridwar Junction (HW)");
+      if (/kathgodam/i.test(text)) pills.push("Kathgodam Railhead (KGM)");
+      if (/rishikesh|yog nagari/i.test(text)) pills.push("Yog Nagari Rishikesh (YNRK)");
+      if (/dehradun/i.test(text)) pills.push("Dehradun Terminal (DDN)");
       if (/broad[- ]gauge/i.test(text)) pills.push("Broad Gauge Network");
       return {
         icon: "train",
@@ -308,6 +463,9 @@ export function StateGuide({
       if (/nh-48/i.test(text)) pills.push("NH-48 Corridor");
       if (/nh-66|nh 66/i.test(text)) pills.push("NH-66 Coastal Highway");
       if (/nh-748|nh 748|anmod/i.test(text)) pills.push("NH-748 (Anmod Ghat)");
+      if (/nh-334|delhi.*dehradun/i.test(text)) pills.push("Delhi–Dehradun Expressway");
+      if (/char dham.*all weather|all weather/i.test(text)) pills.push("Char Dham Highway");
+      if (/gmou|kmvn/i.test(text)) pills.push("GMOU & KMVN Buses");
       if (/kadamba|ktc/i.test(text)) pills.push("Kadamba KTC Buses");
       if (/rsrtc/i.test(text)) pills.push("RSRTC Goldline");
       if (/chandigarh/i.test(text)) pills.push("Chandigarh Highway");
@@ -848,32 +1006,32 @@ export function StateGuide({
                 </ul>
 
                 {/* Practical Gateway Callout */}
-                <div className="rounded-2xl border border-[#E5E2DC] bg-[#FAF8F5] p-5 shadow-xs sm:p-6">
-                  <div className="flex flex-col gap-4 lg:flex-row lg:items-center lg:justify-between">
-                    <div className="flex items-start gap-3.5">
-                      <div className="flex size-10 shrink-0 items-center justify-center rounded-xl bg-coral/10 text-coral">
-                        <Icon name="compass" size={20} />
-                      </div>
-                      <div>
-                        <h4 className="text-sm font-bold text-ink">Planning your gateway from Delhi or Chandigarh</h4>
-                        <p className="mt-0.5 text-xs text-[#666]">
-                          Pick the direct gateway suited to your destination valley to avoid unnecessary mountain transit hours.
-                        </p>
+                {(() => {
+                  const gw = STATE_GATEWAYS[stateSlug];
+                  if (!gw) return null;
+                  return (
+                    <div className="rounded-2xl border border-[#E5E2DC] bg-[#FAF8F5] p-5 shadow-xs sm:p-6">
+                      <div className="flex flex-col gap-4 lg:flex-row lg:items-center lg:justify-between">
+                        <div className="flex items-start gap-3.5">
+                          <div className="flex size-10 shrink-0 items-center justify-center rounded-xl bg-coral/10 text-coral">
+                            <Icon name="compass" size={20} />
+                          </div>
+                          <div>
+                            <h4 className="text-sm font-bold text-ink">{gw.title}</h4>
+                            <p className="mt-0.5 text-xs text-[#666]">{gw.subtitle}</p>
+                          </div>
+                        </div>
+                        <div className="flex flex-wrap gap-2 text-xs">
+                          {gw.badges.map((b, bi) => (
+                            <span key={bi} className="rounded-lg border border-[#EAE7E0] bg-white px-3 py-1.5 font-medium text-ink shadow-2xs">
+                              <strong className="text-coral">{b.label}</strong> {b.text}
+                            </span>
+                          ))}
+                        </div>
                       </div>
                     </div>
-                    <div className="flex flex-wrap gap-2 text-xs">
-                      <span className="rounded-lg border border-[#EAE7E0] bg-white px-3 py-1.5 font-medium text-ink shadow-2xs">
-                        <strong className="text-coral">To Shimla:</strong> 7–8 hrs (Volvo / Kalka Toy Train)
-                      </span>
-                      <span className="rounded-lg border border-[#EAE7E0] bg-white px-3 py-1.5 font-medium text-ink shadow-2xs">
-                        <strong className="text-coral">To Manali:</strong> 11–13 hrs (Overnight Volvo / Bhuntar air)
-                      </span>
-                      <span className="rounded-lg border border-[#EAE7E0] bg-white px-3 py-1.5 font-medium text-ink shadow-2xs">
-                        <strong className="text-coral">To Dharamshala:</strong> 9–10 hrs (Volvo / Gaggal air)
-                      </span>
-                    </div>
-                  </div>
-                </div>
+                  );
+                })()}
               </div>
             ) : (
               <div className="rounded-2xl border border-[#E5E2DC] bg-white p-6 shadow-xs">
@@ -947,44 +1105,49 @@ export function StateGuide({
               id="plan"
               eyebrow="On the ground"
               title={`Practical info for ${name}`}
-              intro="Key regulations, emergency contacts, mountain road safety, permits, connectivity, and on-ground travel tips organized point-by-point."
+              intro="Key regulations, emergency contacts, local safety, permits, connectivity, and on-ground travel tips organized point-by-point."
             />
 
             {/* Quick-Scan Emergency & Essential Rules Bar */}
-            <div className="grid grid-cols-1 gap-4 sm:grid-cols-3">
-              <div className="flex items-start gap-3.5 rounded-2xl border border-rose-200/80 bg-rose-50/60 p-4 shadow-2xs">
-                <div className="flex size-10 shrink-0 items-center justify-center rounded-xl bg-rose-100 text-rose-700">
-                  <Icon name="shield" size={18} />
-                </div>
-                <div>
-                  <span className="text-[0.6875rem] font-bold uppercase tracking-wider text-rose-700">Emergency Contacts</span>
-                  <p className="text-sm font-bold text-ink">Dial 112 or 108</p>
-                  <p className="mt-0.5 text-xs text-[#666]">112 for police, fire & medical; 108 for free 24x7 ambulance.</p>
-                </div>
-              </div>
+            {(() => {
+              const highlights = STATE_PRACTICAL_HIGHLIGHTS[stateSlug] ?? DEFAULT_PRACTICAL_HIGHLIGHT;
+              return (
+                <div className="grid grid-cols-1 gap-4 sm:grid-cols-3">
+                  <div className="flex items-start gap-3.5 rounded-2xl border border-rose-200/80 bg-rose-50/60 p-4 shadow-2xs">
+                    <div className="flex size-10 shrink-0 items-center justify-center rounded-xl bg-rose-100 text-rose-700">
+                      <Icon name={highlights.emergency.icon ?? "shield"} size={18} />
+                    </div>
+                    <div>
+                      <span className="text-[0.6875rem] font-bold uppercase tracking-wider text-rose-700">{highlights.emergency.label ?? "Emergency Contacts"}</span>
+                      <p className="text-sm font-bold text-ink">{highlights.emergency.title}</p>
+                      <p className="mt-0.5 text-xs text-[#666]">{highlights.emergency.subtitle}</p>
+                    </div>
+                  </div>
 
-              <div className="flex items-start gap-3.5 rounded-2xl border border-amber-200/80 bg-amber-50/60 p-4 shadow-2xs">
-                <div className="flex size-10 shrink-0 items-center justify-center rounded-xl bg-amber-100 text-amber-800">
-                  <Icon name="fileText" size={18} />
-                </div>
-                <div>
-                  <span className="text-[0.6875rem] font-bold uppercase tracking-wider text-amber-800">Vehicle Pass</span>
-                  <p className="text-sm font-bold text-ink">Rohtang Pass Permit</p>
-                  <p className="mt-0.5 text-xs text-[#666]">₹500 + ₹50 congestion fee. Daily quota; printed copy mandatory.</p>
-                </div>
-              </div>
+                  <div className="flex items-start gap-3.5 rounded-2xl border border-amber-200/80 bg-amber-50/60 p-4 shadow-2xs">
+                    <div className="flex size-10 shrink-0 items-center justify-center rounded-xl bg-amber-100 text-amber-800">
+                      <Icon name={highlights.permit.icon} size={18} />
+                    </div>
+                    <div>
+                      <span className="text-[0.6875rem] font-bold uppercase tracking-wider text-amber-800">{highlights.permit.label}</span>
+                      <p className="text-sm font-bold text-ink">{highlights.permit.title}</p>
+                      <p className="mt-0.5 text-xs text-[#666]">{highlights.permit.subtitle}</p>
+                    </div>
+                  </div>
 
-              <div className="flex items-start gap-3.5 rounded-2xl border border-emerald-200/80 bg-emerald-50/60 p-4 shadow-2xs">
-                <div className="flex size-10 shrink-0 items-center justify-center rounded-xl bg-emerald-100 text-emerald-800">
-                  <Icon name="checkCircle" size={18} />
+                  <div className="flex items-start gap-3.5 rounded-2xl border border-emerald-200/80 bg-emerald-50/60 p-4 shadow-2xs">
+                    <div className="flex size-10 shrink-0 items-center justify-center rounded-xl bg-emerald-100 text-emerald-800">
+                      <Icon name={highlights.rule.icon} size={18} />
+                    </div>
+                    <div>
+                      <span className="text-[0.6875rem] font-bold uppercase tracking-wider text-emerald-800">{highlights.rule.label}</span>
+                      <p className="text-sm font-bold text-ink">{highlights.rule.title}</p>
+                      <p className="mt-0.5 text-xs text-[#666]">{highlights.rule.subtitle}</p>
+                    </div>
+                  </div>
                 </div>
-                <div>
-                  <span className="text-[0.6875rem] font-bold uppercase tracking-wider text-emerald-800">Environmental Law</span>
-                  <p className="text-sm font-bold text-ink">Polythene Banned</p>
-                  <p className="mt-0.5 text-xs text-[#666]">Single-use plastic bags strictly prohibited statewide. Carry cloth bags.</p>
-                </div>
-              </div>
-            </div>
+              );
+            })()}
 
             {/* Tabbed Category Panels */}
             <PracticalTabs
