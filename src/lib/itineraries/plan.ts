@@ -23,6 +23,16 @@ export function stopRef(ref: string, stateSlug: string | null): { state: string;
 const line = z.string().trim().min(1).max(300);
 const para = z.string().trim().min(1).max(1500);
 
+export const planPhotoSchema = z
+  .object({
+    url: z.string().url(),
+    alt: z.string().trim().min(1).max(200),
+    caption: z.string().trim().max(200).optional(),
+    attribution: z.string().trim().max(200).optional(),
+    license: z.string().trim().max(100).optional(),
+  })
+  .strict();
+
 const stop = z
   .object({
     time: z.string().trim().max(40).optional(),
@@ -31,6 +41,7 @@ const stop = z
     placeSlug: z.string().regex(STOP_REF_RE, "Use a place slug or state/slug").optional(),
     duration: z.string().trim().max(60).optional(),
     note: z.string().trim().max(500).optional(),
+    photo: planPhotoSchema.optional(),
   })
   .strict();
 
@@ -62,6 +73,8 @@ const day = z
     permits: short,
     /** Practical warning for the day (fuel, signal, cash, checkpoints). */
     logistics: z.string().trim().max(500).optional(),
+    photo: planPhotoSchema.optional(),
+    photos: z.array(planPhotoSchema).max(6).optional(),
   })
   .strict();
 

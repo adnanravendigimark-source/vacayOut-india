@@ -757,7 +757,22 @@ export type SnapshotImage = {
   sourceUrl: string | null;
 };
 
-export type ItineraryStop = { time?: string; name: string; placeSlug?: string; duration?: string; note?: string };
+export type ItineraryPhoto = {
+  url: string;
+  alt: string;
+  caption?: string | null;
+  attribution?: string | null;
+  license?: string | null;
+};
+
+export type ItineraryStop = {
+  time?: string;
+  name: string;
+  placeSlug?: string;
+  duration?: string;
+  note?: string;
+  photo?: ItineraryPhoto;
+};
 export type ItineraryDay = {
   title: string;
   summary?: string;
@@ -774,6 +789,8 @@ export type ItineraryDay = {
   access?: string;
   permits?: string;
   logistics?: string;
+  photo?: ItineraryPhoto;
+  photos?: ItineraryPhoto[];
 };
 export type ItineraryPlan = {
   /** Who it suits and the pace. */

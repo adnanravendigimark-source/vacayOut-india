@@ -7,6 +7,7 @@ export const ACTIVITY_CATEGORIES = [
   { key: "wellness", label: "Wellness" },
   { key: "food_shopping", label: "Food & shopping" },
   { key: "events", label: "Festivals & events" },
+  { key: "nightlife", label: "Nightlife" },
 ] as const;
 
 export type ActivityCategory = (typeof ACTIVITY_CATEGORIES)[number]["key"];

@@ -22,12 +22,13 @@ export type RelatedItinerary = {
   stateSlug?: string | null;
 };
 
-export type StopPhoto = { name: string; image: SnapshotImage };
+export type StopPhoto = { ref?: string; name: string; image: SnapshotImage };
 
 interface Props {
   itinerary: ItinerarySnapshot & { publishedAt?: Date | null };
   stopLinks?: Record<string, string>;
   photos?: StopPhoto[];
+  photosByRef?: Record<string, StopPhoto>;
   relatedItineraries?: RelatedItinerary[];
 }
 
@@ -53,7 +54,7 @@ function SectionHead({ eyebrow, title, intro }: { eyebrow: string; title: string
   );
 }
 
-export function ItineraryDetailView({ itinerary, stopLinks = {}, photos = [], relatedItineraries = [] }: Props) {
+export function ItineraryDetailView({ itinerary, stopLinks = {}, photos = [], photosByRef = {}, relatedItineraries = [] }: Props) {
   const plan = itinerary.plan;
   const days = plan.days;
   const [expandedDays, setExpandedDays] = useState<Record<number, boolean>>(() => Object.fromEntries(days.map((_, i) => [i, true])));
@@ -313,6 +314,46 @@ export function ItineraryDetailView({ itinerary, stopLinks = {}, photos = [], re
                 day.travel ? { icon: "route" as const, label: "Road and travel", text: day.travel } : null,
                 day.meals ? { icon: "utensils" as const, label: "Meals", text: day.meals } : null,
               ].filter((c): c is { icon: "bed" | "car" | "route" | "utensils"; label: string; text: string } => !!c);
+
+              // Gather photos for this day (from explicit day.photos, day.photo, or matching stops)
+              const dayPhotos: Array<{ url: string; alt: string; caption?: string | null; attribution?: string | null; license?: string | null; href?: string | null }> = [];
+              const seenUrls = new Set<string>();
+
+              if (day.photos) {
+                for (const p of day.photos) {
+                  if (p?.url && !seenUrls.has(p.url)) {
+                    dayPhotos.push({ url: p.url, alt: p.alt, caption: p.caption, attribution: p.attribution, license: p.license });
+                    seenUrls.add(p.url);
+                  }
+                }
+              }
+              if (day.photo?.url && !seenUrls.has(day.photo.url)) {
+                dayPhotos.push({ url: day.photo.url, alt: day.photo.alt, caption: day.photo.caption, attribution: day.photo.attribution, license: day.photo.license });
+                seenUrls.add(day.photo.url);
+              }
+
+              for (const stop of day.stops) {
+                if (stop.photo?.url && !seenUrls.has(stop.photo.url)) {
+                  const href = stop.placeSlug ? stopLinks[stop.placeSlug] ?? null : null;
+                  dayPhotos.push({ url: stop.photo.url, alt: stop.photo.alt, caption: stop.photo.caption ?? stop.name, attribution: stop.photo.attribution, license: stop.photo.license, href });
+                  seenUrls.add(stop.photo.url);
+                }
+                const slugPart = stop.placeSlug ? stop.placeSlug.split("/").pop()! : null;
+                const found = (slugPart ? photosByRef[slugPart] : null) ?? (stop.placeSlug ? photosByRef[stop.placeSlug] : null) ?? photosByRef[stop.name.toLowerCase()];
+                if (found?.image && !seenUrls.has(found.image.url)) {
+                  const href = stop.placeSlug ? stopLinks[stop.placeSlug] ?? null : null;
+                  dayPhotos.push({
+                    url: found.image.url,
+                    alt: found.image.alt || found.name,
+                    caption: found.name,
+                    attribution: found.image.attribution,
+                    license: found.image.license,
+                    href,
+                  });
+                  seenUrls.add(found.image.url);
+                }
+              }
+
               return (
                 <div key={idx} className="overflow-hidden rounded-2xl border border-[#E5E2DC] bg-white shadow-xs transition hover:border-[#D1CDC7]">
                   <button
@@ -337,6 +378,48 @@ export function ItineraryDetailView({ itinerary, stopLinks = {}, photos = [], re
                   {isExpanded ? (
                     <div className="space-y-6 p-5 sm:p-6">
                       {day.summary ? <p className="text-[0.9375rem] leading-relaxed text-[#374151]">{day.summary}</p> : null}
+
+                      {dayPhotos.length > 0 ? (
+                        <div className="space-y-2.5">
+                          <div className="flex items-center justify-between">
+                            <p className="text-xs font-bold uppercase tracking-wider text-[#BA4A38]">What you&apos;ll see on Day {idx + 1}</p>
+                            <span className="text-[0.6875rem] font-medium text-muted">{dayPhotos.length} {dayPhotos.length === 1 ? "sight" : "sights"}</span>
+                          </div>
+                          <div className={`grid gap-3.5 ${dayPhotos.length === 1 ? "grid-cols-1 sm:max-w-md" : dayPhotos.length === 2 ? "grid-cols-1 sm:grid-cols-2" : "grid-cols-1 sm:grid-cols-2 lg:grid-cols-3"}`}>
+                            {dayPhotos.map((p, pIdx) => {
+                              const Card = (
+                                <div className="group relative overflow-hidden rounded-xl border border-[#E5E2DC] bg-[#F7F5F0] transition hover:border-coral/60 hover:shadow-sm">
+                                  <div className="relative aspect-[16/10] w-full overflow-hidden bg-slate-100">
+                                    <Image
+                                      src={p.url}
+                                      alt={p.alt}
+                                      fill
+                                      sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
+                                      className="object-cover transition-transform duration-300 group-hover:scale-105"
+                                    />
+                                    <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-black/70 via-black/10 to-transparent" />
+                                    <div className="absolute bottom-2 left-2.5 right-2.5 flex items-end justify-between gap-1">
+                                      <span className="truncate text-xs font-semibold text-white drop-shadow-sm">{p.caption || p.alt}</span>
+                                      {p.attribution ? (
+                                        <span className="shrink-0 rounded bg-black/60 px-1.5 py-0.5 text-[0.5625rem] text-white/90">
+                                          {p.attribution}
+                                        </span>
+                                      ) : null}
+                                    </div>
+                                  </div>
+                                </div>
+                              );
+                              return p.href ? (
+                                <Link key={pIdx} href={p.href} className="block transition-opacity hover:opacity-95">
+                                  {Card}
+                                </Link>
+                              ) : (
+                                <div key={pIdx}>{Card}</div>
+                              );
+                            })}
+                          </div>
+                        </div>
+                      ) : null}
 
                       <div className="rounded-xl border border-[#E5E2DC] bg-[#FAF9F6]/50 p-4">
                         <p className="mb-3 text-xs font-bold uppercase tracking-wider text-muted">Stops</p>

@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { cache } from "react";
 import { notFound } from "next/navigation";
 import { ItineraryDetailView } from "@/components/itineraries/itinerary-detail-view";
-import { getPublishedItinerary, listPublishedItineraries, resolveStopLinks, stopPhotos } from "@/lib/itineraries/service";
+import { getPublishedItinerary, listPublishedItineraries, resolveStopLinks, stopPhotos, stopPhotosMap } from "@/lib/itineraries/service";
 import { SLUG_RE } from "@/lib/places/slug";
 import { site } from "@/lib/site";
 
@@ -34,7 +34,11 @@ export default async function ItineraryPage({ params }: Params) {
 
   // Stops link only to guides that are published right now.
   const refs = it.plan.days.flatMap((d) => d.stops.flatMap((s) => (s.placeSlug ? [s.placeSlug] : [])));
-  const [stopLinks, photos] = await Promise.all([resolveStopLinks(refs, it.place.stateSlug), stopPhotos(refs, it.place.stateSlug)]);
+  const [stopLinks, photos, photosByRef] = await Promise.all([
+    resolveStopLinks(refs, it.place.stateSlug),
+    stopPhotos(refs, it.place.stateSlug),
+    stopPhotosMap(refs, it.place.stateSlug),
+  ]);
 
   // Load related itineraries
   const allPublished = await listPublishedItineraries();
@@ -75,6 +79,7 @@ export default async function ItineraryPage({ params }: Params) {
         itinerary={it}
         stopLinks={stopLinks}
         photos={photos.filter((p) => p.image.url !== it.hero?.url).slice(0, 2)}
+        photosByRef={photosByRef}
         relatedItineraries={relatedList}
       />
     </>

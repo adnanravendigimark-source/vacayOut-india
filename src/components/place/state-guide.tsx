@@ -223,6 +223,8 @@ export function StateGuide({
   // Cities, then valleys, then towns; within each, the ones with more places inside first.
   const KIND_RANK: Record<string, number> = { city: 0, region: 1, town: 2 };
   const destinations = [...rollup.destinations].sort((a, b) => a.depth - b.depth || (KIND_RANK[a.kind] ?? 3) - (KIND_RANK[b.kind] ?? 3) || inside(b.id) - inside(a.id) || a.name.localeCompare(b.name));
+  // Coastal states read better as beach towns; mountain states keep the original wording.
+  const destEyebrow = destinations.filter((x) => x.tripTypes.includes("beaches")).length * 2 >= destinations.length && destinations.length > 0 ? "Beach towns & cities" : "Towns, valleys & hill stations";
   // Unconfirmed details go last on a card.
   const sure = (list: Item[]) => [...list].sort((a, b) => Number(a.status === "unconfirmed") - Number(b.status === "unconfirmed"));
   const attractions = rollup.attractions
@@ -262,6 +264,13 @@ export function StateGuide({
       if (/gaggal/i.test(text)) pills.push("Gaggal (Kangra)");
       if (/chandigarh/i.test(text)) pills.push("Chandigarh Gateway");
       if (/pathankot/i.test(text)) pills.push("Pathankot Airport");
+      if (/jaipur/i.test(text)) pills.push("Jaipur International");
+      if (/udaipur/i.test(text)) pills.push("Udaipur (Maharana Pratap)");
+      if (/jodhpur/i.test(text)) pills.push("Jodhpur Airport");
+      if (/jaisalmer/i.test(text)) pills.push("Jaisalmer (Seasonal)");
+      if (/kishangarh|ajmer/i.test(text)) pills.push("Kishangarh (Ajmer/Pushkar)");
+      if (/mopa|manohar/i.test(text)) pills.push("Manohar Int'l (Mopa / GOX)");
+      if (/dabolim/i.test(text)) pills.push("Dabolim Airport (GOI)");
       return {
         icon: "plane",
         badge: "Airports & Domestic Flights",
@@ -276,20 +285,33 @@ export function StateGuide({
       if (/pathankot/i.test(text)) pills.push("Pathankot Railhead");
       if (/kangra valley/i.test(text)) pills.push("Kangra Valley Line");
       if (/joginder nagar/i.test(text)) pills.push("Joginder Nagar");
+      if (/vande bharat/i.test(text)) pills.push("Vande Bharat Express");
+      if (/shatabdi/i.test(text)) pills.push("Ajmer Shatabdi");
+      if (/palace on wheels/i.test(text)) pills.push("Palace on Wheels");
+      if (/madgaon|margao/i.test(text)) pills.push("Madgaon Junction (MAO)");
+      if (/thivim/i.test(text)) pills.push("Thivim (North Goa)");
+      if (/karmali/i.test(text)) pills.push("Karmali (Old Goa/Panaji)");
+      if (/konkan/i.test(text)) pills.push("Konkan Railway");
+      if (/broad[- ]gauge/i.test(text)) pills.push("Broad Gauge Network");
       return {
         icon: "train",
-        badge: "Railways & Toy Trains",
+        badge: "Railways & Express Trains",
         badgeClass: "bg-amber-50 text-amber-800 border-amber-200",
         iconBg: "bg-amber-50 text-amber-800 border border-amber-100",
-        pills: pills.length ? pills : ["Broad Gauge Railhead", "Heritage Narrow Gauge"],
+        pills: pills.length ? pills : ["Broad Gauge Railhead", "Heritage Lines"],
       };
     }
     if (/road|bus|drive/i.test(l)) {
       const pills: string[] = [];
       if (/volvo|luxury|coach/i.test(text)) pills.push("Interstate Volvos");
-      if (/delhi/i.test(text)) pills.push("Delhi (300–495 km)");
+      if (/delhi.*mumbai|expressway|ne-4/i.test(text)) pills.push("Delhi–Mumbai Expressway");
+      if (/nh-48/i.test(text)) pills.push("NH-48 Corridor");
+      if (/nh-66|nh 66/i.test(text)) pills.push("NH-66 Coastal Highway");
+      if (/nh-748|nh 748|anmod/i.test(text)) pills.push("NH-748 (Anmod Ghat)");
+      if (/kadamba|ktc/i.test(text)) pills.push("Kadamba KTC Buses");
+      if (/rsrtc/i.test(text)) pills.push("RSRTC Goldline");
       if (/chandigarh/i.test(text)) pills.push("Chandigarh Highway");
-      if (/jaipur/i.test(text)) pills.push("Jaipur & NCR Buses");
+      if (/delhi/i.test(text)) pills.push("Delhi (260–300 km)");
       return {
         icon: "bus",
         badge: "Highways & Express Coaches",
@@ -303,9 +325,10 @@ export function StateGuide({
     if (/kaza|spiti/i.test(text)) pills.push("Kaza & High Passes");
     if (/may|july|october/i.test(text)) pills.push("Seasonal Access");
     if (/taxi|off-road|4x4/i.test(text)) pills.push("Sturdy 4x4 Recommended");
+    if (/thar|desert|dunes/i.test(text)) pills.push("Thar Desert Corridors");
     return {
       icon: "mountain",
-      badge: "Trans-Himalayan Routes",
+      badge: "Regional Corridors",
       badgeClass: "bg-purple-50 text-purple-800 border-purple-200",
       iconBg: "bg-purple-50 text-purple-800 border border-purple-100",
       pills: pills.length ? pills : ["Mountain Corridors", "Seasonal Routes"],
@@ -542,7 +565,7 @@ export function StateGuide({
         {/* C. Destinations */}
         {destinations.length ? (
           <section id="destinations" aria-labelledby="destinations-h" className="scroll-mt-36">
-            <SectionHead id="destinations" eyebrow="Towns, valleys & hill stations" title={`Destinations in ${name}`} intro="Open any destination for its full guide: what to see, where to stay and how to plan it." />
+            <SectionHead id="destinations" eyebrow={destEyebrow} title={`Destinations in ${name}`} intro="Open any destination for its full guide: what to see, where to stay and how to plan it." />
             <FilterCards
               label="Filter destinations"
               allLabel="All destinations"

@@ -86,7 +86,7 @@ export async function listItinerariesTouching(stateSlug: string, slugs: Set<stri
   const out: RollupItinerary[] = [];
   for (const r of rows) {
     const s = r.snap as ItinerarySnapshot | null;
-    if (!s) continue;
+    if (!s || !s.plan?.days) continue;
     const stops = s.plan.days.flatMap((d) => d.stops);
     const own = placeIds.has(r.placeId);
     const viaStop = stops.some((st) => {
@@ -115,7 +115,14 @@ export async function listGuidesTouching(placeIds: string[]): Promise<RollupGuid
   return rows
     .map((r) => r.snap as GuideSnapshot | null)
     .filter((s): s is GuideSnapshot => !!s)
-    .map((s) => ({ slug: s.slug, title: s.title, summary: s.summary, hero: s.hero, placeName: s.place.name, placeNames: s.places.map((p) => p.name) }));
+    .map((s) => ({
+      slug: s.slug,
+      title: s.title,
+      summary: s.summary,
+      hero: s.hero ?? (s as any).heroImage ?? null,
+      placeName: s.place?.name ?? "",
+      placeNames: s.places?.map((p) => p.name) ?? [],
+    }));
 }
 
 /** The full rollup for one page. */

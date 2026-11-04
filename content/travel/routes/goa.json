@@ -1,0 +1,4574 @@
+{
+  "cluster": "goa",
+  "title": "Goa — state itineraries and travel guides",
+  "researchedAt": "2026-11-04",
+  "selection": "Seven Goa itineraries (3–7 days; north, south, both; heritage, adventure, family) and five state guides. Distances and times only where Goa Tourism, GTDC, Incredible India or Wikipedia state them; others are labelled estimates. Budgets list only official fees — hotel, taxi and activity prices are not estimated.",
+  "sources": {
+    "GTDC_AROUND": {
+      "url": "https://goa-tourism.com/getting-around/",
+      "title": "Getting around — Goa Tourism Development Corporation",
+      "authority": "government"
+    },
+    "GTDC_HERE": {
+      "url": "https://goa-tourism.com/getting-here/",
+      "title": "Getting here — Goa Tourism Development Corporation",
+      "authority": "government"
+    },
+    "GTDC_SOUTH": {
+      "url": "https://goa-tourism.com/siteseeing/activities-in-south-goa/",
+      "title": "Activities in South Goa — Goa Tourism Development Corporation",
+      "authority": "government"
+    },
+    "GTDC_SENIORS": {
+      "url": "https://goa-tourism.com/all-inclusive/seniors-tour-plan/",
+      "title": "Seniors tour plan — Goa Tourism Development Corporation",
+      "authority": "government"
+    },
+    "GTDC_BACKPACK": {
+      "url": "https://goa-tourism.com/all-inclusive/backpacker-guide/",
+      "title": "Backpacker guide — Goa Tourism Development Corporation",
+      "authority": "government"
+    },
+    "II_GOA": {
+      "url": "https://www.incredibleindia.gov.in/en/goa",
+      "title": "Goa — Incredible India (Ministry of Tourism)",
+      "authority": "government"
+    },
+    "II_GOAC": {
+      "url": "https://www.incredibleindia.gov.in/en/goa/goa",
+      "title": "Discover Goa — Incredible India (Ministry of Tourism)",
+      "authority": "government"
+    },
+    "GTDC_MIRA": {
+      "url": "https://goa-tourism.com/beach/miramar/",
+      "title": "Miramar — Goa Tourism Development Corporation",
+      "authority": "government"
+    },
+    "W_OLDGOA": {
+      "url": "https://en.wikipedia.org/wiki/Old_Goa",
+      "title": "Old Goa — Wikipedia",
+      "authority": "reference"
+    },
+    "GTDC_CAL": {
+      "url": "https://goa-tourism.com/beach/calangute/",
+      "title": "Calangute — Goa Tourism Development Corporation",
+      "authority": "government"
+    },
+    "W_PANAJI": {
+      "url": "https://en.wikipedia.org/wiki/Panaji",
+      "title": "Panaji — Wikipedia",
+      "authority": "reference"
+    },
+    "GTDC_ASHW": {
+      "url": "https://goa-tourism.com/beach/ashwem-beach/",
+      "title": "Ashwem Beach — Goa Tourism Development Corporation",
+      "authority": "government"
+    },
+    "GT_DOS2": {
+      "url": "https://goatourism.gov.in/wp-content/uploads/2018/12/Tourism-Deparment-Do-and-Dont.pdf",
+      "title": "Do's and Don'ts: advice to tourists — Department of Tourism, Government of Goa",
+      "authority": "government"
+    },
+    "GT_WITHIN": {
+      "url": "https://goatourism.gov.in/within-goa/",
+      "title": "Within Goa — Department of Tourism, Government of Goa",
+      "authority": "government"
+    },
+    "II_BOM": {
+      "url": "https://www.incredibleindia.gov.in/en/goa/goa/basilica-of-bom-jesus",
+      "title": "Basilica of Bom Jesus — Incredible India (Ministry of Tourism)",
+      "authority": "government"
+    },
+    "W_BOM": {
+      "url": "https://en.wikipedia.org/wiki/Basilica_of_Bom_Jesus",
+      "title": "Basilica of Bom Jesus — Wikipedia",
+      "authority": "reference"
+    },
+    "GTDC_AGO": {
+      "url": "https://goa-tourism.com/beach/agonda/",
+      "title": "Agonda — Goa Tourism Development Corporation",
+      "authority": "government"
+    },
+    "W_CAND": {
+      "url": "https://en.wikipedia.org/wiki/Candolim",
+      "title": "Candolim — Wikipedia",
+      "authority": "reference"
+    },
+    "GTDC_CAND": {
+      "url": "https://goa-tourism.com/beach/candolim/",
+      "title": "Candolim — Goa Tourism Development Corporation",
+      "authority": "government"
+    },
+    "W_BAGA": {
+      "url": "https://en.wikipedia.org/wiki/Baga,_Goa",
+      "title": "Baga, Goa — Wikipedia",
+      "authority": "reference"
+    },
+    "II_BAGA": {
+      "url": "https://www.incredibleindia.gov.in/en/goa/goa/baga-beach",
+      "title": "Baga Beach — Incredible India (Ministry of Tourism)",
+      "authority": "government"
+    },
+    "GTDC_NBEACH": {
+      "url": "https://goa-tourism.com/siteseeing/beaches-of-north-goa/",
+      "title": "Beaches of North Goa — Goa Tourism Development Corporation",
+      "authority": "government"
+    },
+    "GT_DOS1": {
+      "url": "https://goatourism.gov.in/wp-content/uploads/2018/12/Goa-Tourism-DOs-and-DONTs.pdf",
+      "title": "Be a responsible tourist: Do's and Don'ts — Department of Tourism, Government of Goa",
+      "authority": "government"
+    },
+    "GT_AIR": {
+      "url": "https://goatourism.gov.in/by-air/",
+      "title": "By air — Department of Tourism, Government of Goa",
+      "authority": "government"
+    },
+    "GT_STAY": {
+      "url": "https://goatourism.gov.in/staying-in-goa/",
+      "title": "Staying in Goa — Department of Tourism, Government of Goa",
+      "authority": "government"
+    },
+    "GTDC_MARKETS": {
+      "url": "https://goa-tourism.com/siteseeing/markets-of-north-goa/",
+      "title": "Markets of North Goa — Goa Tourism Development Corporation",
+      "authority": "government"
+    },
+    "GTDC_WILD": {
+      "url": "https://goa-tourism.com/nature/go-on-a-wildlife-safari-at-goas-wildlife-sanctuaries/",
+      "title": "Wildlife sanctuaries of Goa — Goa Tourism Development Corporation",
+      "authority": "government"
+    },
+    "GTDC_BIRDS": {
+      "url": "https://goa-tourism.com/nature/where-to-go-bird-watching/",
+      "title": "Where to go bird watching — Goa Tourism Development Corporation",
+      "authority": "government"
+    },
+    "GTDC_SHANTA": {
+      "url": "https://goa-tourism.com/temple/shanta-durga-temple/",
+      "title": "Shanta Durga Temple — Goa Tourism Development Corporation",
+      "authority": "government"
+    },
+    "W_GOA": {
+      "url": "https://en.wikipedia.org/wiki/Goa",
+      "title": "Goa — Wikipedia",
+      "authority": "reference"
+    },
+    "W_MOPA": {
+      "url": "https://en.wikipedia.org/wiki/Manohar_International_Airport",
+      "title": "Manohar International Airport — Wikipedia",
+      "authority": "reference"
+    },
+    "W_DABO": {
+      "url": "https://en.wikipedia.org/wiki/Dabolim_Airport",
+      "title": "Dabolim Airport — Wikipedia",
+      "authority": "reference"
+    },
+    "II_REIS": {
+      "url": "https://www.incredibleindia.gov.in/en/goa/goa/reis-magos-fort",
+      "title": "Reis Magos Fort — Incredible India (Ministry of Tourism)",
+      "authority": "government"
+    },
+    "II_ADV": {
+      "url": "https://www.incredibleindia.gov.in/en/goa/goa/a-guide-to-7-unforgettable-adventure-experiences-in-and-around-panjim-goa",
+      "title": "7 adventure experiences in and around Panjim — Incredible India (Ministry of Tourism)",
+      "authority": "government"
+    },
+    "II_ANJ": {
+      "url": "https://www.incredibleindia.gov.in/en/goa/goa/anjuna-beach",
+      "title": "Anjuna Beach — Incredible India (Ministry of Tourism)",
+      "authority": "government"
+    },
+    "W_CHAP": {
+      "url": "https://en.wikipedia.org/wiki/Chapora_Fort",
+      "title": "Chapora Fort — Wikipedia",
+      "authority": "reference"
+    },
+    "II_VAG": {
+      "url": "https://www.incredibleindia.gov.in/en/goa/goa/vagator-beach",
+      "title": "Vagator Beach — Incredible India (Ministry of Tourism)",
+      "authority": "government"
+    },
+    "GTDC_VAG": {
+      "url": "https://goa-tourism.com/beach/vagator/",
+      "title": "Vagator — Goa Tourism Development Corporation",
+      "authority": "government"
+    },
+    "GTDC_ANJ": {
+      "url": "https://goa-tourism.com/beach/anjuna/",
+      "title": "Anjuna — Goa Tourism Development Corporation",
+      "authority": "government"
+    },
+    "W_MAPUSA": {
+      "url": "https://en.wikipedia.org/wiki/Mapusa",
+      "title": "Mapusa — Wikipedia",
+      "authority": "reference"
+    },
+    "W_MORJIM": {
+      "url": "https://en.wikipedia.org/wiki/Morjim",
+      "title": "Morjim — Wikipedia",
+      "authority": "reference"
+    },
+    "GTDC_MORJ": {
+      "url": "https://goa-tourism.com/beach/morjim/",
+      "title": "Morjim — Goa Tourism Development Corporation",
+      "authority": "government"
+    },
+    "W_MANDREM": {
+      "url": "https://en.wikipedia.org/wiki/Mandrem",
+      "title": "Mandrem — Wikipedia",
+      "authority": "reference"
+    },
+    "W_ARAMBOL": {
+      "url": "https://en.wikipedia.org/wiki/Arambol",
+      "title": "Arambol — Wikipedia",
+      "authority": "reference"
+    },
+    "GTDC_ARAM": {
+      "url": "https://goa-tourism.com/beach/arambol-harmal/",
+      "title": "Arambol (Harmal) — Goa Tourism Development Corporation",
+      "authority": "government"
+    },
+    "GTDC_BUNGY": {
+      "url": "https://goa-tourism.com/adventure/bungy-jumping/",
+      "title": "Bungy jumping at Mayem — Goa Tourism Development Corporation",
+      "authority": "government"
+    },
+    "GTDC_GALG": {
+      "url": "https://goa-tourism.com/beach/galgibaga-turtle-beach/",
+      "title": "Galgibaga (Turtle) Beach — Goa Tourism Development Corporation",
+      "authority": "government"
+    },
+    "GTDC_PAL": {
+      "url": "https://goa-tourism.com/beach/palolem/",
+      "title": "Palolem — Goa Tourism Development Corporation",
+      "authority": "government"
+    },
+    "GTDC_COLVA": {
+      "url": "https://goa-tourism.com/beach/colva/",
+      "title": "Colva — Goa Tourism Development Corporation",
+      "authority": "government"
+    },
+    "II_COLVA": {
+      "url": "https://www.incredibleindia.gov.in/en/goa/goa/colva-beach",
+      "title": "Colva Beach — Incredible India (Ministry of Tourism)",
+      "authority": "government"
+    },
+    "W_MARGAO": {
+      "url": "https://en.wikipedia.org/wiki/Margao",
+      "title": "Margao — Wikipedia",
+      "authority": "reference"
+    },
+    "GTDC_BEN": {
+      "url": "https://goa-tourism.com/beach/benaulim/",
+      "title": "Benaulim — Goa Tourism Development Corporation",
+      "authority": "government"
+    },
+    "GTDC_VARCA": {
+      "url": "https://goa-tourism.com/beach/varca-cavelossim-and-mobor/",
+      "title": "Varca, Cavelossim and Mobor — Goa Tourism Development Corporation",
+      "authority": "government"
+    },
+    "II_PAL": {
+      "url": "https://www.incredibleindia.gov.in/en/goa/goa/palolem-beach",
+      "title": "Palolem Beach — Incredible India (Ministry of Tourism)",
+      "authority": "government"
+    },
+    "GTDC_PAT": {
+      "url": "https://goa-tourism.com/beach/patnem-beach/",
+      "title": "Patnem Beach — Goa Tourism Development Corporation",
+      "authority": "government"
+    },
+    "W_CABO": {
+      "url": "https://en.wikipedia.org/wiki/Cabo_de_Rama",
+      "title": "Cabo de Rama Fort — Wikipedia",
+      "authority": "reference"
+    },
+    "W_COT": {
+      "url": "https://en.wikipedia.org/wiki/Cotigao_Wildlife_Sanctuary",
+      "title": "Cotigao Wildlife Sanctuary — Wikipedia",
+      "authority": "reference"
+    },
+    "GTDC_KONKAN": {
+      "url": "https://goa-tourism.com/adventure/konkan-explorers/",
+      "title": "Konkan Explorers boat trips — Goa Tourism Development Corporation",
+      "authority": "government"
+    },
+    "W_CCG": {
+      "url": "https://en.wikipedia.org/wiki/Churches_and_convents_of_Goa",
+      "title": "Churches and convents of Goa — Wikipedia",
+      "authority": "reference"
+    },
+    "W_MANG": {
+      "url": "https://en.wikipedia.org/wiki/Mangueshi_Temple",
+      "title": "Mangueshi Temple — Wikipedia",
+      "authority": "reference"
+    },
+    "GTDC_SCUBA": {
+      "url": "https://goa-tourism.com/adventure/flyingfish-scuba/",
+      "title": "FlyingFish Scuba (Goa Tourism's diving centre) — Goa Tourism Development Corporation",
+      "authority": "government"
+    },
+    "GTDC_FALLS": {
+      "url": "https://goa-tourism.com/nature/witness-goas-best-waterfalls/",
+      "title": "Goa's waterfalls — Goa Tourism Development Corporation",
+      "authority": "government"
+    },
+    "W_REIS": {
+      "url": "https://en.wikipedia.org/wiki/Reis_Magos_Fort",
+      "title": "Reis Magos Fort — Wikipedia",
+      "authority": "reference"
+    },
+    "GTDC_CARN": {
+      "url": "https://goa-tourism.com/festival/goa-carnaval-2023/",
+      "title": "Goa Carnaval — Goa Tourism Development Corporation",
+      "authority": "government"
+    },
+    "GTDC_SHIGMO": {
+      "url": "https://goa-tourism.com/festival/shigmo/",
+      "title": "Shigmo — Goa Tourism Development Corporation",
+      "authority": "government"
+    },
+    "GTDC_SAOJOAO": {
+      "url": "https://goa-tourism.com/festival/sao-joao/",
+      "title": "São João — Goa Tourism Development Corporation",
+      "authority": "government"
+    },
+    "GTDC_BOND": {
+      "url": "https://goa-tourism.com/festival/bonderam/",
+      "title": "Bonderam — Goa Tourism Development Corporation",
+      "authority": "government"
+    },
+    "GTDC_RAFT": {
+      "url": "https://goa-tourism.com/adventure/white-water-rafting/",
+      "title": "White water rafting on the Mhadei — Goa Tourism Development Corporation",
+      "authority": "government"
+    },
+    "FOREST_WL": {
+      "url": "https://forest.goa.gov.in/wild-life-management",
+      "title": "Wildlife management — Forest Department, Government of Goa",
+      "authority": "government"
+    },
+    "W_MOLLEM": {
+      "url": "https://en.wikipedia.org/wiki/Bhagwan_Mahaveer_Sanctuary_and_Mollem_National_Park",
+      "title": "Bhagwan Mahaveer Sanctuary and Mollem National Park — Wikipedia",
+      "authority": "reference"
+    },
+    "II_BOND": {
+      "url": "https://www.incredibleindia.gov.in/en/goa/goa/bondla-wildlife-sanctuary",
+      "title": "Bondla Wildlife Sanctuary — Incredible India (Ministry of Tourism)",
+      "authority": "government"
+    },
+    "II_SALIM": {
+      "url": "https://www.incredibleindia.gov.in/en/goa/goa/dr-salim-ali-bird-sanctuary",
+      "title": "Dr Salim Ali Bird Sanctuary — Incredible India (Ministry of Tourism)",
+      "authority": "government"
+    },
+    "W_BOND": {
+      "url": "https://en.wikipedia.org/wiki/Bondla_Wildlife_Sanctuary",
+      "title": "Bondla Wildlife Sanctuary — Wikipedia",
+      "authority": "reference"
+    },
+    "GT_RAIL": {
+      "url": "https://goatourism.gov.in/by-rail/",
+      "title": "By rail — Department of Tourism, Government of Goa",
+      "authority": "government"
+    },
+    "GT_ROAD": {
+      "url": "https://goatourism.gov.in/by-road/",
+      "title": "By road — Department of Tourism, Government of Goa",
+      "authority": "government"
+    },
+    "GT_SEA": {
+      "url": "https://goatourism.gov.in/by-sea/",
+      "title": "By sea — Department of Tourism, Government of Goa",
+      "authority": "government"
+    },
+    "GTDC_LAWS": {
+      "url": "https://goa-tourism.com/laws/",
+      "title": "Laws — Goa Tourism Development Corporation",
+      "authority": "government"
+    },
+    "W_112": {
+      "url": "https://en.wikipedia.org/wiki/112_(emergency_telephone_number)",
+      "title": "112 (emergency telephone number) — Wikipedia",
+      "authority": "reference"
+    },
+    "GT_MED": {
+      "url": "https://goatourism.gov.in/medical-help/",
+      "title": "Medical help — Department of Tourism, Government of Goa",
+      "authority": "government"
+    },
+    "GT_WEATHER": {
+      "url": "https://goatourism.gov.in/weather/",
+      "title": "Weather — Department of Tourism, Government of Goa",
+      "authority": "government"
+    },
+    "II_SEASON": {
+      "url": "https://www.incredibleindia.gov.in/en/goa/goa/what-is-the-best-season-to-visit-goa",
+      "title": "What is the best season to visit Goa? — Incredible India (Ministry of Tourism)",
+      "authority": "government"
+    },
+    "GT_PLATE": {
+      "url": "https://goatourism.gov.in/goa_monsoon_on_a_plate/",
+      "title": "Goa Monsoon on a Plate — Department of Tourism, Government of Goa",
+      "authority": "government"
+    },
+    "W_CASINO": {
+      "url": "https://en.wikipedia.org/wiki/Casinos_in_Goa",
+      "title": "Casinos in Goa — Wikipedia",
+      "authority": "reference"
+    }
+  },
+  "facts": {
+    "GR1": {
+      "place": "goa",
+      "topic": "GoaMiles",
+      "claim": "GoaMiles, the app-based taxi service promoted by Goa Tourism, books cabs anywhere in the state; an airport shuttle bus also runs from outside the airport.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "GTDC_AROUND",
+          "quote": "You can now book a cab via the Goa Miles App."
+        },
+        {
+          "source": "GTDC_AROUND",
+          "quote": "you can book a cab to any destination across the State"
+        },
+        {
+          "source": "GTDC_AROUND",
+          "quote": "The shuttle bus departs from outside the airport premises."
+        }
+      ]
+    },
+    "GR2": {
+      "place": "goa",
+      "topic": "Ferries are cheap",
+      "claim": "River ferries run from dawn till late evening and are free for pedestrians and two-wheelers.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "GTDC_AROUND",
+          "quote": "they are extremely reasonable and run from dawn till late in the evening"
+        },
+        {
+          "source": "GTDC_AROUND",
+          "quote": "It’s free for pedestrians and two wheelers and minimal charges are applicable to cars."
+        }
+      ]
+    },
+    "GR3": {
+      "place": "goa",
+      "topic": "Local buses",
+      "claim": "Private local buses reach even remote areas and are the cheapest way around; read the route on the board in the front window. State-run KTC buses run the main routes.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "GTDC_AROUND",
+          "quote": "Local private buses in Goa have a wide network even in the remotest areas."
+        },
+        {
+          "source": "GTDC_AROUND",
+          "quote": "You can find out the route from the sign board on the front window."
+        },
+        {
+          "source": "GTDC_AROUND",
+          "quote": "State run services, KTC ply on major routes and cities."
+        }
+      ]
+    },
+    "GR4": {
+      "place": "goa",
+      "topic": "Bike hire rates",
+      "claim": "GTDC lists scooter hire at about ₹200–500 a day and geared bikes ₹400–1,000, depending on bike and season — check current rates.",
+      "claimType": "price",
+      "evidence": [
+        {
+          "source": "GTDC_AROUND",
+          "quote": "The price range is Rs. 200 to Rs. 350 even Rs 500 per day depending on the kind of bike and season. Geared bikes range from Rs. 400 to Rs. 1000 per day."
+        }
+      ],
+      "kind": "estimate"
+    },
+    "GR5": {
+      "place": "goa",
+      "topic": "Pre-paid airport taxis",
+      "claim": "Airport pre-paid taxis charge a standard fare by distance.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "GTDC_AROUND",
+          "quote": "You can avail of the pre-paid taxi service from the airport that follows a standard amount based on number of kilometers."
+        }
+      ]
+    },
+    "GR6": {
+      "place": "goa",
+      "topic": "Four stations",
+      "claim": "Trains stop at Thivim, Karmali, Madgaon and Vasco da Gama; Madgaon is about 38 km from Panaji.",
+      "claimType": "distance",
+      "evidence": [
+        {
+          "source": "GTDC_HERE",
+          "quote": "Trains depart from Thivim, Karmali, Madgaon and Vasco da Gama at regular intervals."
+        },
+        {
+          "source": "GTDC_HERE",
+          "quote": "Madgaon railway station is about 38 km away from Panaji"
+        }
+      ]
+    },
+    "GR7": {
+      "place": "goa",
+      "topic": "Panaji to Margao",
+      "claim": "Panaji to Margao is about 35 km — around an hour in traffic.",
+      "claimType": "distance",
+      "evidence": [
+        {
+          "source": "GTDC_SOUTH",
+          "quote": "From Panaji to Margao city, the commercial capital is around 35kms and can take around an hour to get there if you get traffic along the way."
+        }
+      ],
+      "kind": "estimate"
+    },
+    "GR8": {
+      "place": "goa",
+      "topic": "UNESCO sites are free",
+      "claim": "The UNESCO monuments are free to enter; most museums charge a small fee.",
+      "claimType": "price",
+      "evidence": [
+        {
+          "source": "GTDC_BACKPACK",
+          "quote": "Most of the museums have a small fee, but the UNESCO monuments are free to enter."
+        }
+      ]
+    },
+    "GR9": {
+      "place": "goa",
+      "topic": "Heritage at your own pace",
+      "claim": "Fontainhas and Old Goa's UNESCO sites can be walked at an easy pace, and Ponda's temples are easy to reach from any city.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "GTDC_SENIORS",
+          "quote": "A leisurely  stroll through Fontainhas or a walk to the UNESCO Heritage sites in Old Goa can easily be  enjoyed at your own  pace."
+        },
+        {
+          "source": "GTDC_SENIORS",
+          "quote": "Ponda taluka is a buzzing religious destination with its  famous temples and can be easily accessed from any city."
+        }
+      ]
+    },
+    "PJ2": {
+      "place": "goa/panaji",
+      "topic": "Church of Our Lady of the Immaculate Conception",
+      "claim": "Panaji's landmark church, built in 1619, is known for its double flight of stairs added in 1871.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_GOA",
+          "quote": "The present church, with its Baroque façade framed by twin towers, was built in 1619. Its most striking feature, the double flight of stairs leading up to the church, was added in 1871."
+        }
+      ]
+    },
+    "PJ5": {
+      "place": "goa/panaji",
+      "topic": "Fontainhas",
+      "claim": "The Fontainhas quarter has narrow lanes and colourful houses.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_GOAC",
+          "quote": "Explore the Fontainhas neighbourhood with its narrow lanes and colourful houses"
+        }
+      ]
+    },
+    "PJ7": {
+      "place": "goa/panaji",
+      "topic": "Miramar",
+      "claim": "Miramar, 3 km from Panaji at the mouth of the Mandovi, is a family city beach with a view of Fort Aguada.",
+      "claimType": "distance",
+      "evidence": [
+        {
+          "source": "GTDC_MIRA",
+          "quote": "This beautiful ‘urban’ beach, akin to Chowpatty in Mumbai, is located just 3 kms from Panaji."
+        },
+        {
+          "source": "GTDC_MIRA",
+          "quote": "From the beach across the river is an excellent view of Fort Aguada."
+        }
+      ]
+    },
+    "OG4": {
+      "place": "goa/old-goa",
+      "topic": "From Panaji",
+      "claim": "Old Goa is about 9 km east of Panaji, where the viceroy moved in 1759.",
+      "claimType": "distance",
+      "evidence": [
+        {
+          "source": "W_OLDGOA",
+          "quote": "he removed himself and his government to the future capital, Panjim (then a village about 9 kilometres to the west)"
+        }
+      ]
+    },
+    "CL1": {
+      "place": "goa/calangute",
+      "topic": "Calangute",
+      "claim": "Calangute's 7-km beach, 15 km from Panaji, is Goa's busiest — the 'Queen of Beaches' — with hotels and guesthouses running unbroken to Baga.",
+      "claimType": "distance",
+      "evidence": [
+        {
+          "source": "GTDC_CAL",
+          "quote": "This long, seven-km sweep of sand located 15 kms from Panaji, is called the ‘Queen of Beaches’."
+        },
+        {
+          "source": "GTDC_CAL",
+          "quote": "Hotels and guesthouses stretch uninterrupted from Calangute to Baga."
+        }
+      ]
+    },
+    "PJ6": {
+      "place": "goa/panaji",
+      "topic": "Getting there",
+      "claim": "Dabolim airport is about 30 km from Panaji and Mopa about 40 km; the Kadamba bus stand at Patto is the city's bus hub.",
+      "claimType": "distance",
+      "evidence": [
+        {
+          "source": "W_PANAJI",
+          "quote": "The nearest airport is Dabolim Airport which is 30 kilometres (19 miles) away."
+        },
+        {
+          "source": "W_PANAJI",
+          "quote": "KTC Bus Stand, Patto, Panjim is Panjim's central bus stand"
+        }
+      ]
+    },
+    "GS18": {
+      "place": "goa",
+      "topic": "Tourist season",
+      "claim": "The season runs from October to March, peaking from December to February; in the June–September monsoon the seas are rough with dangerous undercurrents.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "GTDC_ASHW",
+          "quote": "The tourist season in Goa is from October to March and is at its peak from December to February"
+        },
+        {
+          "source": "GTDC_ASHW",
+          "quote": "The monsoon season (June to September) is the least popular due to rough seas and dangerous undercurrents as well as inclement weather."
+        }
+      ],
+      "kind": "seasonal"
+    },
+    "GS23": {
+      "place": "goa",
+      "topic": "Monsoon sea",
+      "claim": "Don't swim in the sea during the monsoon.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "GT_DOS2",
+          "quote": "Do not swim in the monsoon."
+        }
+      ],
+      "kind": "seasonal"
+    },
+    "GS12": {
+      "place": "goa",
+      "topic": "Taxis and pilots",
+      "claim": "Tourist taxis are white; motorcycle taxis ('pilots') have yellow mudguards and number plates and carry one passenger. Agree the fare for the whole trip before you set off.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "GT_WITHIN",
+          "quote": "The private tourist taxis, are completely white in colour"
+        },
+        {
+          "source": "GT_WITHIN",
+          "quote": "The motorcycle taxis are easily recognised by the yellow mudguards and yellow number plates."
+        },
+        {
+          "source": "GT_WITHIN",
+          "quote": "Ensure that you fix a price for the entire journey before you sit in"
+        }
+      ]
+    },
+    "GS13": {
+      "place": "goa",
+      "topic": "Ferries",
+      "claim": "Ferries still cross Goa's rivers: Old Goa–Divar Island, Divar–Narve, Querim–Tiracol, Cavelossim–Assolna, and Panaji–Betim across the Mandovi.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "GT_WITHIN",
+          "quote": "Popular river crossings include: Old Goa to Divar Island, Divar to Narve, Querim to Tiracol, and Cavelossim to Assolna."
+        },
+        {
+          "source": "GT_WITHIN",
+          "quote": "There is a ferry from the capital city of Panaji across the Mandovi river to Betim"
+        }
+      ]
+    },
+    "BJ2": {
+      "place": "goa/basilica-of-bom-jesus",
+      "topic": "Tomb of St Francis Xavier",
+      "claim": "It holds the remains of St Francis Xavier in a silver casket; they are lowered for a public exposition every 10 years.",
+      "claimType": "schedule",
+      "evidence": [
+        {
+          "source": "II_BOM",
+          "quote": "His remains are preserved in a silver casket for members of the faith to pay their respects."
+        },
+        {
+          "source": "II_BOM",
+          "quote": "Every 10 years, the remains are lowered down for an exposition."
+        },
+        {
+          "source": "W_BOM",
+          "quote": "which is brought down once every 10 years."
+        }
+      ]
+    },
+    "GS26": {
+      "place": "goa",
+      "topic": "Dress and conduct",
+      "claim": "Dress modestly at temples, churches and mosques; nudity on beaches and in public places is punishable by law.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "GT_DOS2",
+          "quote": "Observe decency and decorum in dress when visiting religious places"
+        },
+        {
+          "source": "GT_DOS2",
+          "quote": "Nudity on beaches and public places is forbidden and punishable under the law."
+        }
+      ]
+    },
+    "AG1": {
+      "place": "goa/agonda",
+      "topic": "Agonda",
+      "claim": "Agonda, the next beach north of Palolem, is a long, quiet 3-km cove of white sand with few facilities; don't swim out far.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "GTDC_AGO",
+          "quote": "Agonda is a 3 km long beautiful cove of white sand"
+        },
+        {
+          "source": "GTDC_AGO",
+          "quote": "It’s not safe to swim out too far on this beach."
+        },
+        {
+          "source": "GTDC_AGO",
+          "quote": "There are very few facilities available here and you are needed to carry all the essentials."
+        }
+      ]
+    },
+    "AG2": {
+      "place": "goa/agonda",
+      "topic": "Cabo de Rama",
+      "claim": "Cabo de Rama fort, named after Rama of the Ramayana, is close to Agonda.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "GTDC_AGO",
+          "quote": "Not far from Agonda beach is Cabo de Rama"
+        },
+        {
+          "source": "GTDC_AGO",
+          "quote": "The fort is named after Rama, hero of the Hindu epic Ramayana."
+        }
+      ]
+    },
+    "CD1": {
+      "place": "goa/candolim",
+      "topic": "Candolim",
+      "claim": "Candolim, in Bardez just south of Calangute and north of Sinquerim, is the first beach coming from Panaji, known for parasailing and water skiing.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "W_CAND",
+          "quote": "It is situated just south of Calangute Beach and north of Sinquerim ."
+        },
+        {
+          "source": "GTDC_CAND",
+          "quote": "Candolim is the first beach that can be approached from the city of Panaji"
+        },
+        {
+          "source": "GTDC_CAND",
+          "quote": "One highlight of Candolim is the parasailing and water skiing facility"
+        }
+      ]
+    },
+    "BG1": {
+      "place": "goa/baga",
+      "topic": "Baga",
+      "claim": "Baga, 2 km north of Calangute, is named after Baga Creek at the north end of the beach, and is known for water sports, nightlife and a Saturday night market.",
+      "claimType": "distance",
+      "evidence": [
+        {
+          "source": "W_BAGA",
+          "quote": "It falls under the jurisdiction of Calangute , which is 2"
+        },
+        {
+          "source": "W_BAGA",
+          "quote": "The beach is named after the Baga Creek"
+        },
+        {
+          "source": "II_BAGA",
+          "quote": "Every Saturday, the Baga Flea Market comes alive."
+        }
+      ]
+    },
+    "NL1": {
+      "place": "goa/nightlife-in-goa",
+      "topic": "Where to go out",
+      "claim": "Calangute–Baga is the main nightlife strip, with some places in Assagao holding special nights; Baga has the busiest night scene.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "GTDC_BACKPACK",
+          "quote": "Experience nightlife along Calangute-Baga or some places in Assagao like Soro have special nights during the week that you can try."
+        },
+        {
+          "source": "GTDC_NBEACH",
+          "quote": "The party hub with it’s much wanted party haunts has the best night scenes in the area."
+        }
+      ]
+    },
+    "GS20": {
+      "place": "goa",
+      "topic": "Beach safety flags",
+      "claim": "Swim only between the red-and-yellow flags watched by lifesavers, never where red flags fly; stay between the black-and-white chequered flags for water sports.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "GT_DOS1",
+          "quote": "DO SWIM, ONLY IN THE SWIM ZONES MARKED BY DUAL RED AND"
+        },
+        {
+          "source": "GT_DOS1",
+          "quote": "DO NOT ENTER THE WATER IN AREAS MARKED BY RED FLAGS."
+        },
+        {
+          "source": "GT_DOS1",
+          "quote": "DO REMAIN BETWEEN THE BLACK AND WHITE CHEQUERED FLAGS WHILE"
+        }
+      ]
+    },
+    "GS21": {
+      "place": "goa",
+      "topic": "Beach hours",
+      "claim": "Beaches are open from 7 am until sunset; don't swim after sunset.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "GT_DOS1",
+          "quote": "BEACHES ARE OPEN FROM 7 AM TILL SUNSET."
+        },
+        {
+          "source": "GT_DOS1",
+          "quote": "ARE CLOSED FROM SUNSET TO 7 AM THE NEXT MORNING."
+        }
+      ]
+    },
+    "GO6": {
+      "place": "goa",
+      "topic": "Book early in peak season",
+      "claim": "Goa Tourism advises booking well ahead for October to January, when most flights run full.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "GT_AIR",
+          "quote": "It is advisable to book your tickets well in advance, especially during the high peak tourist season of October to January when most flights run full."
+        }
+      ],
+      "kind": "seasonal"
+    },
+    "GS19": {
+      "place": "goa",
+      "topic": "Book ahead for Christmas",
+      "claim": "Rooms are hard to find in December and January unless booked well in advance — Goa is at its busiest from Christmas to New Year.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "GT_STAY",
+          "quote": "come the peak season of December and January, you are likely to experience problems, unless you book your rooms well in advance."
+        },
+        {
+          "source": "GT_STAY",
+          "quote": "Just around Christmas until the dawn of the new year, Goa is in festive mood"
+        }
+      ],
+      "kind": "seasonal"
+    },
+    "MK1": {
+      "place": "goa/flea-and-night-markets",
+      "topic": "Anjuna flea market",
+      "claim": "Anjuna's Wednesday flea market runs along the beach from about 10 am to 4 pm.",
+      "claimType": "schedule",
+      "evidence": [
+        {
+          "source": "GTDC_MARKETS",
+          "quote": "The market opens at around 10 am and goes on till about 4pm"
+        }
+      ],
+      "kind": "seasonal"
+    },
+    "GS39": {
+      "place": "goa",
+      "topic": "Salim Ali Bird Sanctuary",
+      "claim": "The 1.8 sq km Dr Salim Ali Bird Sanctuary, in the mangroves of Chorao island, is reached by ferry from Ribandar and is open all year; go early in the morning.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "GTDC_WILD",
+          "quote": "As the island of Chorao moves closer into view from the ferry (via Ribandar)"
+        },
+        {
+          "source": "GTDC_WILD",
+          "quote": "It’s small 1.8 sq km sanctuary is open all year round."
+        },
+        {
+          "source": "GTDC_BIRDS",
+          "quote": "The best time to visit is early morning so carry your binoculars with you."
+        }
+      ]
+    },
+    "GS41": {
+      "place": "goa",
+      "topic": "Temples of Ponda",
+      "claim": "Ponda's temples include the Shri Manguesh temple to Shiva and the Shanta Durga temple at Kavalem, completed in 1738.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_GOA",
+          "quote": "Explore the grandeur of temples like the Shri Manguesh Temple, devoted to Lord Shiva, and the Shanta Durga Temple"
+        },
+        {
+          "source": "GTDC_SHANTA",
+          "quote": "Shri Shantadurga Temple is situated at the foothill of Kavalem village in Ponda Taluka"
+        },
+        {
+          "source": "GTDC_SHANTA",
+          "quote": "the temple was completed in 1738"
+        }
+      ]
+    },
+    "GS22": {
+      "place": "goa",
+      "topic": "No alcohol on beaches",
+      "claim": "Drinking, drugs and smoking are banned on all beaches and punishable with a fine, jail or both; never swim after drinking.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "GT_DOS1",
+          "quote": "CONSUMPTION OF ALCOHOL/DRUGS AND SMOKING IS STRICTLY PROHIBITED ON ALL BEACHES."
+        },
+        {
+          "source": "GT_DOS1",
+          "quote": "IT IS AN OFFENCE AND PUNISHABLE WITH A FINE, JAIL OR BOTH."
+        },
+        {
+          "source": "GT_DOS2",
+          "quote": "Do not swim after consuming liquor."
+        }
+      ]
+    },
+    "GS14": {
+      "place": "goa",
+      "topic": "Hire bikes",
+      "claim": "Scooters, motorbikes and bicycles can be hired near most beaches; renters usually ask for a deposit.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "GT_WITHIN",
+          "quote": "These are available in the cities as well as near most beach areas."
+        },
+        {
+          "source": "GT_WITHIN",
+          "quote": "Usually, a down payment as security or deposit of your passport is required at most such places which rent out motorbikes."
+        }
+      ]
+    },
+    "GS28": {
+      "place": "goa",
+      "topic": "Smoking and traffic",
+      "claim": "Smoking and spitting are banned in public places; traffic drives on the left — carry your licence and ID.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "GT_DOS2",
+          "quote": "Smoking & spitting is banned at places of public use."
+        },
+        {
+          "source": "GT_DOS2",
+          "quote": "Traffic circulation is on the left."
+        }
+      ]
+    },
+    "GS37": {
+      "place": "goa",
+      "topic": "Fish curry rice",
+      "claim": "Rice with fish curry is the everyday staple.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "W_GOA",
+          "quote": "is the staple diet in Goa"
+        }
+      ]
+    },
+    "GS6": {
+      "place": "goa",
+      "topic": "Two airports",
+      "claim": "Goa has two airports: Manohar International at Mopa in Pernem, North Goa (open since 5 January 2023, about 40 km from Panaji), and Dabolim, a civil enclave at the naval base INS Hansa near Vasco da Gama.",
+      "claimType": "distance",
+      "evidence": [
+        {
+          "source": "W_MOPA",
+          "quote": "an international airport at Mopa in Pernem taluka"
+        },
+        {
+          "source": "W_MOPA",
+          "quote": "operations started on 5 January 2023"
+        },
+        {
+          "source": "W_PANAJI",
+          "quote": "The other recently developed airport near to Panjim is Mopa Airport which is 40 kilometres (25 miles) away."
+        },
+        {
+          "source": "W_DABO",
+          "quote": "as a civil enclave in an Indian Navy naval airbase named INS Hansa"
+        }
+      ]
+    },
+    "BG3": {
+      "place": "goa/baga",
+      "topic": "Baga Creek",
+      "claim": "Boat rides go up Baga Creek through the mangroves.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_BAGA",
+          "quote": "Visitors can take leisurely boat rides along the creek, immersing themselves in the tranquility of nature."
+        }
+      ]
+    },
+    "RM3": {
+      "place": "goa/reis-magos-fort",
+      "topic": "Opening hours",
+      "claim": "Incredible India lists it open 11 am to 5:30 pm, Tuesday to Sunday.",
+      "claimType": "schedule",
+      "evidence": [
+        {
+          "source": "II_REIS",
+          "quote": "Opening time - 11:00 AM"
+        },
+        {
+          "source": "II_REIS",
+          "quote": "Closing time - 05:30 PM"
+        },
+        {
+          "source": "II_REIS",
+          "quote": "(Tuesday to Sunday)"
+        }
+      ]
+    },
+    "RM6": {
+      "place": "goa/reis-magos-fort",
+      "topic": "Near Fort Aguada",
+      "claim": "Fort Aguada is 4 km west of Reis Magos.",
+      "claimType": "distance",
+      "evidence": [
+        {
+          "source": "II_GOA",
+          "quote": "Fort Aguada, 4 km (2.5 miles) west of Reis Magos"
+        }
+      ]
+    },
+    "WS1": {
+      "place": "goa/water-sports-in-goa",
+      "topic": "Parasailing",
+      "claim": "Calangute, Anjuna and Baga are the popular parasailing beaches; jet skis, banana boats and bumper boats run at Baga, and Candolim has water skiing.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_ADV",
+          "quote": "The beaches of Calangute, Anjuna, and Baga are popular spots for parasailing."
+        },
+        {
+          "source": "II_BAGA",
+          "quote": "Climb aboard a bumper boat and engage in friendly collisions with other riders as you navigate the waters."
+        }
+      ]
+    },
+    "AN6": {
+      "place": "goa/anjuna-beach",
+      "topic": "Market and water sports",
+      "claim": "At the flea market, shop for handicrafts, jewellery, clothes, spices and souvenirs; on the water, try parasailing, jet-skiing or banana-boat rides.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_ANJ",
+          "quote": "Shop for handicrafts, jewellery, clothes, spices, and souvenirs."
+        },
+        {
+          "source": "II_ANJ",
+          "quote": "Get your adrenaline pumping with parasailing, jet skiing, or banana boat rides."
+        }
+      ]
+    },
+    "CF1": {
+      "place": "goa/chapora-fort",
+      "topic": "Chapora Fort",
+      "claim": "Chapora Fort, in Bardez, crowns the hill at the north end of Big Vagator beach, high above the Chapora river; an Adil Shahi fort first stood here.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "W_CHAP",
+          "quote": "rises high above the Chapora River"
+        },
+        {
+          "source": "W_CHAP",
+          "quote": "The site is the location of a fort built by Adil Shahi dynasty ruler Adil Shah"
+        },
+        {
+          "source": "II_GOA",
+          "quote": "Big Vagator Beach is dominated by the red laterite Chapora Fort situated on top of a hill at its northern tip."
+        }
+      ]
+    },
+    "VG3": {
+      "place": "goa/vagator",
+      "topic": "Evenings",
+      "claim": "Little Vagator's clifftop bars draw a sunset crowd, and the area is known for parties in season.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_VAG",
+          "quote": "Vagator Cliff at Little Vagator is renowned as a lively party destination"
+        },
+        {
+          "source": "GTDC_VAG",
+          "quote": "During the tourist season, it is a favorite venue for midnight parties."
+        }
+      ],
+      "kind": "seasonal"
+    },
+    "AJ1": {
+      "place": "goa/anjuna",
+      "topic": "Anjuna",
+      "claim": "Anjuna, about 18 km from Panaji, is known for its rocky cove, its Wednesday flea market and its 1960s hippie and later trance-party history.",
+      "claimType": "distance",
+      "evidence": [
+        {
+          "source": "GTDC_ANJ",
+          "quote": "Located about 18 kms from Panaji"
+        },
+        {
+          "source": "GTDC_ANJ",
+          "quote": "made famous by the ‘flower power and peace’ generation of the sixties and early seventies"
+        },
+        {
+          "source": "GTDC_ANJ",
+          "quote": "It is now famous for its weekly Flea Market, which draws legions of visitors every Wednesday"
+        }
+      ]
+    },
+    "VG1": {
+      "place": "goa/vagator",
+      "topic": "Vagator",
+      "claim": "Vagator, about 22 km from Panaji, curves below Chapora Fort; its red cliffs split it into Big and Little Vagator, and it is quieter than Baga and Calangute.",
+      "claimType": "distance",
+      "evidence": [
+        {
+          "source": "GTDC_VAG",
+          "quote": "This beautiful arc of sand is located about 22 kms from Panaji"
+        },
+        {
+          "source": "II_VAG",
+          "quote": "famed for its dramatic and striking red cliffs"
+        },
+        {
+          "source": "II_VAG",
+          "quote": "The beach is divided into two main sections, Big Vagator and Little Vagator"
+        },
+        {
+          "source": "II_VAG",
+          "quote": "This beach is less crowded than other Goan beaches like Baga and Calangute"
+        }
+      ]
+    },
+    "VG2": {
+      "place": "goa/vagator",
+      "topic": "Getting there",
+      "claim": "Buses run to Vagator from Mapusa and Calangute; the nearest interstate bus station is Mapusa.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "GTDC_VAG",
+          "quote": "There are a number of buses that run from Mapusa and Calangute beach to Vagator."
+        },
+        {
+          "source": "GTDC_VAG",
+          "quote": "The nearest interstate bus station is at Mapusa."
+        }
+      ]
+    },
+    "MP3": {
+      "place": "goa/mapusa",
+      "topic": "Base for the beaches",
+      "claim": "Mapusa is close to the northern beaches but has few hotels; it is the hub for buses to the coast.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "W_MAPUSA",
+          "quote": "Mapusa's proximity to many beaches in the north of Goa makes it a suitable base during the tourist season (November to April)"
+        },
+        {
+          "source": "W_MAPUSA",
+          "quote": "Mapusa has only a limited number of hotels and accommodation."
+        },
+        {
+          "source": "W_PANAJI",
+          "quote": "Mapusa is the nearest city, from where you can find ample public transport to the coastal areas"
+        }
+      ]
+    },
+    "MJ1": {
+      "place": "goa/morjim",
+      "topic": "Morjim",
+      "claim": "Morjim, in Pernem on the north bank of the Chapora estuary, is an Olive Ridley turtle nesting beach; with nearby Ashwem it is popular with Russian visitors.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "W_MORJIM",
+          "quote": "It is situated on the northern bank of the Chapora River estuary."
+        },
+        {
+          "source": "W_MORJIM",
+          "quote": "It is home to a variety of birds and is a nesting site for Olive Ridley sea turtles ."
+        },
+        {
+          "source": "GTDC_MORJ",
+          "quote": "A favourite of Russian tourists, along with Ashwem beach close by"
+        }
+      ],
+      "kind": "seasonal"
+    },
+    "GS25": {
+      "place": "goa",
+      "topic": "Rocks and turtles",
+      "claim": "Keep off wet rocky outcrops, don't dive from rocks, and keep away from turtle nesting areas.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "GT_DOS1",
+          "quote": "AVOID ROCKY OUTCROPS WHICH ARE DAMP."
+        },
+        {
+          "source": "GT_DOS1",
+          "quote": "DO NOT JUMP OR DIVE FROM ROCKS INTO THE WATER."
+        },
+        {
+          "source": "GT_DOS1",
+          "quote": "KEEP AWAY FROM TURTLE NESTING AREAS"
+        }
+      ]
+    },
+    "MJ2": {
+      "place": "goa/morjim",
+      "topic": "Ashwem and Mandrem",
+      "claim": "Ashwem, about 30 km from Panaji, is a quiet beach with no water sports; Mandrem, between Morjim and Arambol, is also a turtle nesting site.",
+      "claimType": "distance",
+      "evidence": [
+        {
+          "source": "GTDC_ASHW",
+          "quote": "The beach is about 30km away from the capital city of Panaji"
+        },
+        {
+          "source": "GTDC_ASHW",
+          "quote": "Although there are no water sports and other adventure activities available here"
+        },
+        {
+          "source": "W_MANDREM",
+          "quote": "The beach of Mandrem lies between the twin beaches of Morjim and Arambol."
+        },
+        {
+          "source": "W_MANDREM",
+          "quote": "The beach has been notified as a turtle nesting site"
+        }
+      ]
+    },
+    "AR1": {
+      "place": "goa/arambol",
+      "topic": "Arambol",
+      "claim": "Arambol is a fishing village in Pernem, North Goa, popular with international visitors from November to March, with yoga, meditation and tai chi centres.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "W_ARAMBOL",
+          "quote": "Arambol is a traditional fisherman village in the Pernem administrative region of North Goa"
+        },
+        {
+          "source": "W_ARAMBOL",
+          "quote": "attracts many international tourists, mainly during the winter season between November and March"
+        },
+        {
+          "source": "GTDC_ARAM",
+          "quote": "This is also a foreigners’ haunt with a large number of Tai Chi, non-permanent mehendi or henna, tattoo, yoga and meditation centres."
+        }
+      ],
+      "kind": "seasonal"
+    },
+    "AR2": {
+      "place": "goa/arambol",
+      "topic": "Clay pool and sunsets",
+      "claim": "Black rocks frame the sunsets, and up near the hill is a pool of soft yellow clay said to have healing properties.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "GTDC_ARAM",
+          "quote": "The black rocks on the silvery beach make for some pretty dramatic scenery at sunset."
+        },
+        {
+          "source": "GTDC_ARAM",
+          "quote": "Further up near the hill is a pool with soft yellow clay, which is said to have healing properties."
+        }
+      ]
+    },
+    "WS2": {
+      "place": "goa/water-sports-in-goa",
+      "topic": "Prices",
+      "claim": "Prices vary between operators, so agree the price first and bargain a little.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "GTDC_BACKPACK",
+          "quote": "But the prices vary, so make sure you haggle a little to get a good deal."
+        }
+      ]
+    },
+    "MK2": {
+      "place": "goa/flea-and-night-markets",
+      "topic": "Night markets",
+      "claim": "North Goa has three night markets: Mackie's Saturday Night Bazaar on Baga creek and two at Arpora, with food from around the world.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "GTDC_MARKETS",
+          "quote": "Today there are three night markets in North Goa."
+        },
+        {
+          "source": "GTDC_MARKETS",
+          "quote": "Mackies Saturday Night Bazaar along the Baga creek is a chilled out zone with some spectacular acts."
+        },
+        {
+          "source": "GTDC_MARKETS",
+          "quote": "Arpora has two night markets now"
+        }
+      ],
+      "kind": "seasonal"
+    },
+    "MP1": {
+      "place": "goa/mapusa",
+      "topic": "Mapusa",
+      "claim": "Mapusa, 13 km north of Panaji and headquarters of Bardez, is North Goa's market town; its Friday market sells produce, spices, clothes and plants.",
+      "claimType": "distance",
+      "evidence": [
+        {
+          "source": "W_MAPUSA",
+          "quote": "It is situated 13 km north of the state capital of Panaji ."
+        },
+        {
+          "source": "W_MAPUSA",
+          "quote": "The city is the headquarters of Bardez taluka ."
+        },
+        {
+          "source": "W_MAPUSA",
+          "quote": "Mapusa comes alive on Friday, the traditional market day also known as Mapusa Friday Market ."
+        }
+      ]
+    },
+    "AD1": {
+      "place": "goa/adventure-activities-in-goa",
+      "topic": "Bungee at Mayem",
+      "claim": "Goa's permanent bungee site is at Mayem Lake in North Goa, 35 minutes' drive from Baga: a 55-metre jump run by Jumpin Heights to Australian and New Zealand safety standards.",
+      "claimType": "distance",
+      "evidence": [
+        {
+          "source": "GTDC_BUNGY",
+          "quote": "Goa’s first permanent Bungy site- in Mayem Lake, North Goa, a 35 minute drive from the very popular Baga Beach."
+        },
+        {
+          "source": "II_ADV",
+          "quote": "situated at a staggering height of 55 meters"
+        },
+        {
+          "source": "GTDC_BUNGY",
+          "quote": "adheres to Australia and New Zealand Standards of Safety"
+        }
+      ]
+    },
+    "AD2": {
+      "place": "goa/adventure-activities-in-goa",
+      "topic": "Bungee season and price",
+      "claim": "It runs all year except the monsoon (mid-June to mid-August); GTDC lists ₹4,110 plus GST with video — check the current price.",
+      "claimType": "price",
+      "evidence": [
+        {
+          "source": "GTDC_BUNGY",
+          "quote": "Bungy is operational throughout the year, barring monsoons (mid June to mid August)."
+        },
+        {
+          "source": "GTDC_BUNGY",
+          "quote": "Bungy Jump @ Rs. 4110/- including video (+GST)"
+        }
+      ],
+      "kind": "seasonal"
+    },
+    "GS40": {
+      "place": "goa",
+      "topic": "Turtle beaches",
+      "claim": "Olive Ridley turtles nest at Morjim, Agonda and Galgibaga.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "GTDC_GALG",
+          "quote": "at this beach and at Agonda and Morjim, the two other beaches which are frequented by the Olive Ridley turtles"
+        }
+      ],
+      "kind": "seasonal"
+    },
+    "MK4": {
+      "place": "goa/flea-and-night-markets",
+      "topic": "Market tips",
+      "claim": "Bargain on non-essentials, watch your bags and check purchases for damage before you leave. GTDC notes markets may not run as listed — check locally.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "GTDC_MARKETS",
+          "quote": "Bargain on non-essential items, watch your bags and check purchases for damage once before you leave."
+        },
+        {
+          "source": "GTDC_MARKETS",
+          "quote": "The above places may not be operational due to pandemic."
+        }
+      ]
+    },
+    "PL2": {
+      "place": "goa/palolem",
+      "topic": "Getting there",
+      "claim": "Palolem is 3 km from Canacona station on the Konkan Railway and 40 km from Margao, with regular buses from Margao to Canacona.",
+      "claimType": "distance",
+      "evidence": [
+        {
+          "source": "GTDC_PAL",
+          "quote": "Palolem is just 3 kms away from Canacona Railway station, now on the Konkan Railway route."
+        },
+        {
+          "source": "GTDC_PAL",
+          "quote": "You can hire taxis and auto-rickshaws to reach Palolem beach from Margao, 40 kms away."
+        },
+        {
+          "source": "GTDC_PAL",
+          "quote": "There are regular buses from Margao to Palolem that drop you off at Canacona village."
+        }
+      ]
+    },
+    "CV1": {
+      "place": "goa/colva",
+      "topic": "Colva",
+      "claim": "Colva, 39 km from Panaji and the nearest beach to Margao, is South Goa's main beach — wide and flat, with resorts, guesthouses and shacks but quiet nightlife.",
+      "claimType": "distance",
+      "evidence": [
+        {
+          "source": "GTDC_COLVA",
+          "quote": "Located just 39 kms from the capital Panaji"
+        },
+        {
+          "source": "GTDC_COLVA",
+          "quote": "This is the most important beach in the South circuit"
+        },
+        {
+          "source": "II_COLVA",
+          "quote": "This wide, flat beach is accentuated by swaying palms"
+        },
+        {
+          "source": "II_COLVA",
+          "quote": "the nightlife at Colva remains relatively understated"
+        }
+      ]
+    },
+    "CV2": {
+      "place": "goa/colva",
+      "topic": "Menino Jesus",
+      "claim": "The Church of Our Lady of Mercy in Colva is known for its statue of the Infant Jesus (Menino Jesus).",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "GTDC_COLVA",
+          "quote": "The Church of Our Lady Of Mercy in Colva is famous for its miracle statue of Menino Jesus."
+        }
+      ]
+    },
+    "MG1": {
+      "place": "goa/margao",
+      "topic": "Margao",
+      "claim": "Margao (Madgaon), on the Sal river, is Goa's commercial capital and South Goa's headquarters; its Holy Spirit Church dates from 1675.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "W_MARGAO",
+          "quote": "is the commercial capital of the Indian state of Goa"
+        },
+        {
+          "source": "W_MARGAO",
+          "quote": "It stands on the banks of the river Sal ."
+        },
+        {
+          "source": "W_MARGAO",
+          "quote": "The present church was built in 1675."
+        }
+      ]
+    },
+    "MG3": {
+      "place": "goa/margao",
+      "topic": "Chandor",
+      "claim": "Chandor, 15 km east of Margao, has a 17th-century mansion split into two wings for one family.",
+      "claimType": "distance",
+      "evidence": [
+        {
+          "source": "II_GOA",
+          "quote": "Built on land in Chandor, 15km east of Margao"
+        },
+        {
+          "source": "II_GOA",
+          "quote": "Built in the 17th century"
+        },
+        {
+          "source": "II_GOA",
+          "quote": "the house was divided from the outset into two wings"
+        }
+      ]
+    },
+    "BN1": {
+      "place": "goa/benaulim",
+      "topic": "Benaulim",
+      "claim": "Benaulim, under 2 km south of Colva, is quieter, with fishing boats and rosewood furniture makers; legend says Parashuram's arrow landed here to create Goa.",
+      "claimType": "distance",
+      "evidence": [
+        {
+          "source": "GTDC_BEN",
+          "quote": "Less than 2 kms south of Colva is the more tranquil beach of Benaulim"
+        },
+        {
+          "source": "GTDC_BEN",
+          "quote": "The best of the traditional rosewood furniture is made here."
+        },
+        {
+          "source": "GTDC_BEN",
+          "quote": "mythically Benaulim is famous as the place where the legendary Parashuram’s arrow landed by which Goa was created"
+        }
+      ]
+    },
+    "BN2": {
+      "place": "goa/benaulim",
+      "topic": "South to Cavelossim",
+      "claim": "South of Benaulim, Varca, Cavelossim and Mobor are cleaner and quieter, with luxury resorts and dolphin trips up the Sal river; Cavelossim is 18 km from Margao.",
+      "claimType": "distance",
+      "evidence": [
+        {
+          "source": "GTDC_VARCA",
+          "quote": "These beaches are much cleaner and quieter than most of the other more famous beaches of Goa."
+        },
+        {
+          "source": "GTDC_VARCA",
+          "quote": "There are also facilities for Dolphin watching up the River Sal."
+        },
+        {
+          "source": "GTDC_VARCA",
+          "quote": "From Cavelossim village, Margao is 18 kms away"
+        }
+      ]
+    },
+    "PL1": {
+      "place": "goa/palolem",
+      "topic": "Palolem",
+      "claim": "Palolem, in Canacona more than 70 km from Panaji, is a palm-lined crescent bay with some of Goa's safest swimming, kayaking and paddleboarding, and beach huts in season.",
+      "claimType": "distance",
+      "evidence": [
+        {
+          "source": "GTDC_PAL",
+          "quote": "Panaji, the capital, is more than 70 kms away."
+        },
+        {
+          "source": "II_PAL",
+          "quote": "offering one of Goa's safest swimming environments where activities like kayaking and paddleboarding can be enjoyed for hours"
+        }
+      ]
+    },
+    "PL4": {
+      "place": "goa/palolem",
+      "topic": "Dolphins and Patnem",
+      "claim": "Fishermen take boats out to spot dolphins, best early in the morning; quiet Patnem beach is next door to the south.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "GTDC_PAL",
+          "quote": "They also offer to take you out to spot dolphins."
+        },
+        {
+          "source": "II_PAL",
+          "quote": "Early mornings are the best time for spotting dolphins frolicking in the sea."
+        },
+        {
+          "source": "GTDC_PAT",
+          "quote": "The Patnem Beach is one of the quietest and most secluded beaches of South Goa."
+        }
+      ]
+    },
+    "CR1": {
+      "place": "goa/cabo-de-rama-fort",
+      "topic": "Cabo de Rama",
+      "claim": "Cabo de Rama is a hillfort at Khola on the Canacona coast, near Agonda; its western cliffs drop to the sea and look along Colva beach and the Canacona coast.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "W_CABO",
+          "quote": "is a medieval hillfort located in Khola village, on the coast of Canacona"
+        },
+        {
+          "source": "GTDC_AGO",
+          "quote": "Not far from Agonda beach is Cabo de Rama"
+        },
+        {
+          "source": "W_CABO",
+          "quote": "Cliffs drop steeply to the sea at the western side of the fort, which overlooks the entire length of Colva beach and the Canacona stretch."
+        }
+      ]
+    },
+    "CT2": {
+      "place": "goa/cotigao-wildlife-sanctuary",
+      "topic": "Treetop watchtower",
+      "claim": "A treetop watchtower stands 25 m above a waterhole; go at dawn or dusk, when animals come to drink.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "W_COT",
+          "quote": "A special feature of the sanctuary is a treetop watchtower positioned 25"
+        },
+        {
+          "source": "W_COT",
+          "quote": "The best times to visit the watchtower are dawn and dusk when animals are most likely to be visiting."
+        }
+      ]
+    },
+    "PL3": {
+      "place": "goa/palolem",
+      "topic": "Silent parties",
+      "claim": "Loud music stops at 10 pm, so Palolem is known for headphone 'silent noise' parties.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "GTDC_PAL",
+          "quote": "In recent times, Palolem has become famous for its ‘Silent Noise’ parties."
+        },
+        {
+          "source": "GTDC_PAL",
+          "quote": "A unique concept which does away with loud blaring live music after the 10 pm ban."
+        }
+      ]
+    },
+    "PL5": {
+      "place": "goa/palolem",
+      "topic": "Cotigao nearby",
+      "claim": "Cotigao Wildlife Sanctuary is a short drive away, and Chaudi has a local market.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_PAL",
+          "quote": "A short drive brings you to Cotigao Wildlife Sanctuary"
+        },
+        {
+          "source": "II_PAL",
+          "quote": "The nearby town of Chaudi hosts a colourful market"
+        }
+      ]
+    },
+    "BT1": {
+      "place": "goa/boat-trips-and-dolphin-cruises",
+      "topic": "Konkan Explorers",
+      "claim": "Konkan Explorers, listed by GTDC, runs boat trips from 90 minutes in Panaji; kayaking, stand-up paddling and sailing come with trips of 3 hours or more. Life jackets are compulsory, and non-swimmers can join.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "GTDC_KONKAN",
+          "quote": "Konkan Explorers starts its activities in Panjim with a 90 minutes program."
+        },
+        {
+          "source": "GTDC_KONKAN",
+          "quote": "is available from the 3 hour trip formula"
+        },
+        {
+          "source": "GTDC_KONKAN",
+          "quote": "Life jackets are mandatory for both before the water activities start."
+        },
+        {
+          "source": "GTDC_KONKAN",
+          "quote": "All our activities can be performed by both swimmers and non-swimmers alike."
+        }
+      ]
+    },
+    "OG1": {
+      "place": "goa/old-goa",
+      "topic": "UNESCO World Heritage Site (1986)",
+      "claim": "The Churches and Convents of Old Goa, once the capital of Portuguese India, became a UNESCO World Heritage Site in 1986.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "W_CCG",
+          "quote": "declared a world heritage site by UNESCO in 1986"
+        },
+        {
+          "source": "W_CCG",
+          "quote": "Goa was the capital of Portuguese India and Asia and an evangelization center from the 16th century."
+        }
+      ]
+    },
+    "MT1": {
+      "place": "goa/mangueshi-temple",
+      "topic": "Shri Manguesh",
+      "claim": "The Shri Manguesh temple at Mangueshi in Priol, Ponda, is one of Goa's largest and most visited temples, 21 km from Panaji and 26 km from Margao.",
+      "claimType": "distance",
+      "evidence": [
+        {
+          "source": "W_MANG",
+          "quote": "located at Mangueshi in Priol"
+        },
+        {
+          "source": "W_MANG",
+          "quote": "21 km from Panaji the capital of Goa"
+        },
+        {
+          "source": "W_MANG",
+          "quote": "and 26 km from Margao"
+        },
+        {
+          "source": "W_MANG",
+          "quote": "This temple is one of the largest and most frequently visited temples in Goa"
+        }
+      ]
+    },
+    "MT5": {
+      "place": "goa/mangueshi-temple",
+      "topic": "Dress code",
+      "claim": "The temple has had a dress code since 2011.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "W_MANG",
+          "quote": "From 2011, temple prescribed a dress code, to keep the sanctity of the temple premise."
+        }
+      ]
+    },
+    "SD1": {
+      "place": "goa/shanta-durga-temple",
+      "topic": "Shri Shantadurga",
+      "claim": "The Shri Shantadurga temple stands at the foot of Kavalem village in Ponda; built 1730–38 under the Maratha ruler Shahu, it was renovated in 1966.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "GTDC_SHANTA",
+          "quote": "Shri Shantadurga Temple is situated at the foothill of Kavalem village in Ponda Taluka"
+        },
+        {
+          "source": "GTDC_SHANTA",
+          "quote": "whose foundation stone was laid in 1730 and the temple was completed in 1738 and renovated in 1966"
+        },
+        {
+          "source": "GTDC_SHANTA",
+          "quote": "The current temple was constructed during the reign of Maratha ruler Chattrapati Shahu"
+        }
+      ]
+    },
+    "SB1": {
+      "place": "goa/scuba-diving-grande-island",
+      "topic": "The dive trip",
+      "claim": "Goa Tourism's diving centre runs 8-hour boat trips to Grande Island, looking for dolphins on the way, to dive and snorkel at sites such as Suzy's Wreck, Coral Garden and Shelter Cove.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "GTDC_SCUBA",
+          "quote": "on an 8 hour excursion on the sea"
+        },
+        {
+          "source": "GTDC_SCUBA",
+          "quote": "Sight delightful dolphins on the way to Grandé Island where you get to scuba dive and snorkel in amazing dive sites like Suzy’s Wreck, Coral Garden, Bounty Bay, Lobsters’ Avenue, and Shelter Cove."
+        }
+      ]
+    },
+    "SB3": {
+      "place": "goa/scuba-diving-grande-island",
+      "topic": "Who can dive",
+      "claim": "Divers must be 10 or older; children 5–10 can come on the boat, but under-5s are not allowed. Beginners need no experience; fill in the medical form before booking.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "GTDC_SCUBA",
+          "quote": "Participants must be 10 years or older to undergo the experience."
+        },
+        {
+          "source": "GTDC_SCUBA",
+          "quote": "Children between 5-10 can join the boat trip at no additional cost, but for safety reasons, kids under 5 are not permitted on the boat."
+        },
+        {
+          "source": "GTDC_SCUBA",
+          "quote": "No, you can begin scuba diving as a beginner with no prior experience."
+        },
+        {
+          "source": "GTDC_SCUBA",
+          "quote": "please download and review the medical form"
+        }
+      ]
+    },
+    "AV1": {
+      "place": "goa/arvalem-falls",
+      "topic": "Arvalem falls",
+      "claim": "The Arvalem falls at Sanquelim drop about 50 m into a large pool with picnic banks, a 10-minute drive from the Arvalem caves; the Rudreshwar temple is nearby. They are best in the monsoon.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "GTDC_FALLS",
+          "quote": "It is an ideal time to visit the lesser known Arvalem waterfalls in Sanquelim."
+        },
+        {
+          "source": "GTDC_FALLS",
+          "quote": "Located at a 10-minute drive from the Aravalem caves, the 50 metre drop offers a breath-taking sight."
+        },
+        {
+          "source": "GTDC_FALLS",
+          "quote": "The waters gush down into a sizable lake whose banks offer the perfect picnic spot."
+        },
+        {
+          "source": "GTDC_FALLS",
+          "quote": "You can also visit Rudreshwar temple & caves around."
+        }
+      ],
+      "kind": "seasonal"
+    },
+    "RM1": {
+      "place": "goa/reis-magos-fort",
+      "topic": "Reis Magos Fort",
+      "claim": "Reis Magos Fort stands on the north bank of the Mandovi in Bardez, opposite Panaji, at the narrowest point of the estuary; it was built in 1551 and rebuilt in 1707.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "W_REIS",
+          "quote": "opposite to the capital city of Panjim"
+        },
+        {
+          "source": "W_REIS",
+          "quote": "was erected in 1551 to protect the narrowest point at the mouth of the Mandovi estuary"
+        },
+        {
+          "source": "W_REIS",
+          "quote": "finally re-erected in 1707"
+        }
+      ]
+    },
+    "GS29": {
+      "place": "goa",
+      "topic": "Guides and touts",
+      "claim": "Hire government-approved guides and agents, and don't be pushed into shopping by touts or drivers.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "GT_DOS2",
+          "quote": "In case you need a Guide hire one approved by Government."
+        },
+        {
+          "source": "GT_DOS2",
+          "quote": "Do not be coerced into shopping by touts/guides/taxi drivers or strangers."
+        }
+      ]
+    },
+    "GS31": {
+      "place": "goa",
+      "topic": "Carnival",
+      "claim": "Carnival takes over Goa's towns in the days before Lent, with float parades led by King Momo.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "GTDC_CARN",
+          "quote": "The festival typically takes place in the weeks leading up to Lent"
+        },
+        {
+          "source": "GTDC_CARN",
+          "quote": "The procession is led by King Momo"
+        }
+      ],
+      "kind": "seasonal"
+    },
+    "GS32": {
+      "place": "goa",
+      "topic": "Shigmo",
+      "claim": "Shigmo, the spring festival, falls in March or April, with evening float parades, dhol-tasha drumming and folk dance.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "GTDC_SHIGMO",
+          "quote": "Shigmo is one of the biggest festivals that falls either in March or April."
+        },
+        {
+          "source": "GTDC_SHIGMO",
+          "quote": "A float parade winds its way down the streets once the sun sets and the lights come on."
+        }
+      ],
+      "kind": "seasonal"
+    },
+    "GS33": {
+      "place": "goa",
+      "topic": "São João",
+      "claim": "São João, the feast of St John the Baptist on 24 June, is celebrated by jumping into village wells; Siolim is its centre, with a river float parade.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "GTDC_SAOJOAO",
+          "quote": "24 June is considered as the fest of St John the Baptist."
+        },
+        {
+          "source": "GTDC_SAOJOAO",
+          "quote": "In Siolim, the epicenter of the festival"
+        }
+      ],
+      "kind": "seasonal"
+    },
+    "GS34": {
+      "place": "goa",
+      "topic": "Bonderam",
+      "claim": "Bonderam, the flag festival of Divar Island, is held in the last week of August with a float parade.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "GTDC_BOND",
+          "quote": "While the main festival is held in the last week of August"
+        }
+      ],
+      "kind": "seasonal"
+    },
+    "AD3": {
+      "place": "goa/adventure-activities-in-goa",
+      "topic": "Mhadei rafting",
+      "claim": "White-water rafting on the Mhadei, run by Southern River Adventures with GTDC, happens only from June to October, when it rains.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "GTDC_RAFT",
+          "quote": "Only between the months of June to October, Goa Rafting (A tie up between Southern River Adventures and GTDC) brings you The Mhadei Rafting Trip."
+        },
+        {
+          "source": "GTDC_RAFT",
+          "quote": "In fact we only raft when it rains."
+        }
+      ],
+      "kind": "seasonal"
+    },
+    "BG2": {
+      "place": "goa/baga",
+      "topic": "Water sports and dolphins",
+      "claim": "Jet skis, parasailing and banana-boat rides run here, and boat trips look for dolphins 1–2 km offshore.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_BAGA",
+          "quote": "Hop onto an inflatable banana-shaped boat with friends or family"
+        },
+        {
+          "source": "II_BAGA",
+          "quote": "These intelligent creatures frolic about 1–2 kilometres from the shoreline."
+        }
+      ]
+    },
+    "SB2": {
+      "place": "goa/scuba-diving-grande-island",
+      "topic": "Operator",
+      "claim": "FlyingFish is Goa Tourism's exclusive diving centre, affiliated with PADI and SSI.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "GTDC_SCUBA",
+          "quote": "As Goa Tourism's exclusive Diving Centre"
+        },
+        {
+          "source": "GTDC_SCUBA",
+          "quote": "affiliated with PADI and SSI"
+        }
+      ]
+    },
+    "BM3": {
+      "place": "goa/bhagwan-mahavir-sanctuary",
+      "topic": "What's inside",
+      "claim": "It holds Dudhsagar Falls, the Tambdi Surla temple and Devil's Canyon.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "FOREST_WL",
+          "quote": "it is home to the famous Dudhsagar Falls, Mollem National Park, Tambdi Surla Temple"
+        }
+      ]
+    },
+    "BM5": {
+      "place": "goa/bhagwan-mahavir-sanctuary",
+      "topic": "Getting there",
+      "claim": "It can be reached by road and rail; for Dudhsagar, go to Kulem station, then trek or hire a jeep with driver.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "GTDC_WILD",
+          "quote": "it can be reached by road and rail"
+        },
+        {
+          "source": "GTDC_FALLS",
+          "quote": "One can go by road or rail to Kulem railway station and then trek to the waterfall or hire a jeep with a driver to get closer in"
+        }
+      ]
+    },
+    "BM1": {
+      "place": "goa/bhagwan-mahavir-sanctuary",
+      "topic": "Goa's largest reserve",
+      "claim": "Bhagwan Mahavir Sanctuary, with Mollem National Park at its core, covers 240 sq km on the Karnataka border, 57 km east of Panaji; NH-4A and the railway to Londa pass through it.",
+      "claimType": "distance",
+      "evidence": [
+        {
+          "source": "GTDC_WILD",
+          "quote": "with a total area of 240 sq kms, the Bhagwan Mahavir Wildlife Sanctuary also contains the Mollem National Park"
+        },
+        {
+          "source": "W_MOLLEM",
+          "quote": "57 kilometres (35 mi) east of Panaji"
+        },
+        {
+          "source": "W_MOLLEM",
+          "quote": "National Highway 4A divides it into two parts"
+        }
+      ]
+    },
+    "AD4": {
+      "place": "goa/adventure-activities-in-goa",
+      "topic": "Who can raft",
+      "claim": "You don't need to swim — life jackets are given — but only moderate fitness is needed, nobody over 120 kg is allowed, and pregnant women can't join. Book ahead.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "GTDC_RAFT",
+          "quote": "You can come rafting even if you cannot swim."
+        },
+        {
+          "source": "GTDC_RAFT",
+          "quote": "Only moderate fitness is required for our Mhadei trip. Nobody over 120kg will be permitted for safety reasons."
+        },
+        {
+          "source": "GTDC_RAFT",
+          "quote": "No pregnant ladies or people with severe disabilities."
+        },
+        {
+          "source": "GTDC_RAFT",
+          "quote": "You need to book in advance by way of payment to get a guaranteed place on a trip."
+        }
+      ]
+    },
+    "BT2": {
+      "place": "goa/boat-trips-and-dolphin-cruises",
+      "topic": "Booking",
+      "claim": "These trips run only when booked in advance — there is no on-the-spot booking at the jetty; trips run between 7 am and 9 pm.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "GTDC_KONKAN",
+          "quote": "Coming to the jetty/location for a on spot booking is not possible."
+        },
+        {
+          "source": "GTDC_KONKAN",
+          "quote": "Trips are conducted during the day anywhere from 7am to 9pm."
+        }
+      ]
+    },
+    "AD5": {
+      "place": "goa/adventure-activities-in-goa",
+      "topic": "Hot air balloon",
+      "claim": "Hot-air balloon flights start early in the morning from the Assolda football ground at Chandor.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_ADV",
+          "quote": "starting your day at the Assolda Football Grounds in Chandor during the early morning hours"
+        }
+      ]
+    },
+    "WS3": {
+      "place": "goa/water-sports-in-goa",
+      "topic": "Paragliding",
+      "claim": "Paragliding is offered on beaches in both North and South Goa; Arambol is a hub.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_ADV",
+          "quote": "Numerous renowned destinations and beaches, both in North and South Goa, provide this thrilling activity"
+        },
+        {
+          "source": "II_ADV",
+          "quote": "Arambol, nestled in North Goa, stands out as a tourist hotspot"
+        }
+      ]
+    },
+    "BD2": {
+      "place": "goa/bondla-wildlife-sanctuary",
+      "topic": "Opening hours",
+      "claim": "Incredible India lists it open Tuesday to Sunday, 9 am to 5 pm.",
+      "claimType": "schedule",
+      "evidence": [
+        {
+          "source": "II_BOND",
+          "quote": "Tuesday to Sunday - 09:00 AM - 05:00 PM"
+        }
+      ]
+    },
+    "SA2": {
+      "place": "goa/salim-ali-bird-sanctuary",
+      "topic": "Opening hours",
+      "claim": "Incredible India lists it open 6 am to 6 pm.",
+      "claimType": "schedule",
+      "evidence": [
+        {
+          "source": "II_SALIM",
+          "quote": "Opening time - 06:00AM"
+        },
+        {
+          "source": "II_SALIM",
+          "quote": "Closing time - 06:00 PM"
+        }
+      ]
+    },
+    "BD1": {
+      "place": "goa/bondla-wildlife-sanctuary",
+      "topic": "Bondla",
+      "claim": "Bondla, in Ponda, is Goa's smallest sanctuary (7.98 sq km), 38 km from Margao and 46 km from Panaji; it has Goa's only zoo.",
+      "claimType": "distance",
+      "evidence": [
+        {
+          "source": "W_BOND",
+          "quote": "making it the smallest of the wildlife sanctuaries in Goa"
+        },
+        {
+          "source": "W_BOND",
+          "quote": "as it contains the only zoo in Goa"
+        },
+        {
+          "source": "W_BOND",
+          "quote": "Bondla Wildlife Sanctuary is located 38 km from Madgaon and 46 km from Panaji."
+        }
+      ]
+    },
+    "BD4": {
+      "place": "goa/bondla-wildlife-sanctuary",
+      "topic": "Zoo, deer park and gardens",
+      "claim": "There is a mini zoo, a deer safari park, and botanical and rose gardens — a long-time picnic spot for families and school groups.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "GTDC_WILD",
+          "quote": "the sanctuary houses a mini zoo, sprawling deer park in natural habitat, botanical and rose gardens"
+        },
+        {
+          "source": "II_BOND",
+          "quote": "There is even a Deer Safari Park"
+        },
+        {
+          "source": "GTDC_WILD",
+          "quote": "Bondla has been a favourite picnic spot for years."
+        }
+      ]
+    },
+    "GS7": {
+      "place": "goa",
+      "topic": "Mopa to Dabolim",
+      "claim": "The two airports are about 60 km apart, so pick the one nearer where you will stay.",
+      "claimType": "distance",
+      "evidence": [
+        {
+          "source": "W_DABO",
+          "quote": "It is located approximately 60"
+        }
+      ],
+      "kind": "estimate"
+    },
+    "GO5": {
+      "place": "goa",
+      "topic": "By rail",
+      "claim": "Goa's main railway stations are Margao (Konkan Railway) and Vasco da Gama; Mumbai–Goa trains take about 8–12 hours.",
+      "claimType": "schedule",
+      "evidence": [
+        {
+          "source": "GT_RAIL",
+          "quote": "Goa has two major railway stations — Margao and Vasco-da-Gama"
+        },
+        {
+          "source": "GT_RAIL",
+          "quote": "the high-speed Konkan Railway has a daily train which hardly takes around 8-9 hours for the same journey. Other trains between Mumbai and Panaji take typically around 10-12 hours."
+        }
+      ]
+    },
+    "GS8": {
+      "place": "goa",
+      "topic": "Railway stations",
+      "claim": "Goa's two major railway stations are Margao, the Konkan Railway's terminus, and Vasco da Gama; trains are often full, so reserve well ahead.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "GT_RAIL",
+          "quote": "Goa has two major railway stations"
+        },
+        {
+          "source": "GT_RAIL",
+          "quote": "the Konkan Railway terminus is at Margao"
+        },
+        {
+          "source": "GT_RAIL",
+          "quote": "it is highly advisable to reserve the tickets well in advance"
+        }
+      ]
+    },
+    "GS10": {
+      "place": "goa",
+      "topic": "Highways",
+      "claim": "NH-66 runs along the coast linking Goa with Mumbai and Mangalore, and NH-4A links Panaji with Belagavi.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "W_GOA",
+          "quote": "runs along India's west coast and links Goa to Mumbai in the north and Mangalore to the south"
+        },
+        {
+          "source": "W_GOA",
+          "quote": "connects the capital Panaji to Belgaum in east"
+        }
+      ]
+    },
+    "GS9": {
+      "place": "goa",
+      "topic": "Long-distance buses",
+      "claim": "Interstate buses run by the state's Kadamba Transport Corporation and private operators leave from the Kadamba bus stand at Panaji; Mumbai is about 12–16 hours by bus.",
+      "claimType": "distance",
+      "evidence": [
+        {
+          "source": "GT_ROAD",
+          "quote": "the state owned Kadamba Transport Corporation (white and blue buses)"
+        },
+        {
+          "source": "GT_ROAD",
+          "quote": "The bus services operate from the huge Kadamba bus stand at Panaji"
+        },
+        {
+          "source": "GT_ROAD",
+          "quote": "A journey to Mumbai, takes around 12-16 hours."
+        }
+      ],
+      "kind": "estimate"
+    },
+    "GS11": {
+      "place": "goa",
+      "topic": "No sea route",
+      "claim": "There is no passenger ship between Mumbai and Goa; the last sea service stopped in June 2004.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "GT_SEA",
+          "quote": "the sea route service is no longer available from June 2004 onwards."
+        }
+      ]
+    },
+    "GS15": {
+      "place": "goa",
+      "topic": "Overcharging",
+      "claim": "Report overcharging or misbehaviour by drivers to the nearest Transport Department office.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "GT_WITHIN",
+          "quote": "Any misbehavior or overcharging by the drivers should be reported to the nearest Transport Department office"
+        }
+      ]
+    },
+    "NL3": {
+      "place": "goa/nightlife-in-goa",
+      "topic": "Drug law",
+      "claim": "Drug offences are non-bailable under the NDPS Act, with sentences from 6 months to 30 years.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "GTDC_LAWS",
+          "quote": "Drug related offences are a special category of Cognizable and Non-Bailable offences"
+        },
+        {
+          "source": "GTDC_LAWS",
+          "quote": "The punishment under this Act ranges from 6 months to a maximum of 30 years"
+        }
+      ]
+    },
+    "GS24": {
+      "place": "goa",
+      "topic": "No driving on beaches",
+      "claim": "Driving any vehicle on the beach is prohibited, and so is littering.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "GT_DOS2",
+          "quote": "Do not drive any vehicle on the beach."
+        },
+        {
+          "source": "GT_DOS1",
+          "quote": "DO NOT DRIVE ANY VEHICLE OR LITTER THE BEACH. IT IS AN OFFENCE."
+        }
+      ]
+    },
+    "GO_112": {
+      "place": "goa",
+      "topic": "Emergency number 112",
+      "claim": "112 is India's single emergency number for police, fire and ambulance.",
+      "claimType": "contact",
+      "evidence": [
+        {
+          "source": "W_112",
+          "quote": "112 is now the pan-country single emergency number for all emergencies."
+        }
+      ]
+    },
+    "GS30": {
+      "place": "goa",
+      "topic": "Hospitals",
+      "claim": "Goa's main hospitals are in Panaji, Mapusa, Margao and Vasco da Gama.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "GT_MED",
+          "quote": "The main, well equipped hospitals are in the cities of Panaji, Mapusa, Margao and Vasco-da-Gama."
+        }
+      ]
+    },
+    "GS16": {
+      "place": "goa",
+      "topic": "Temperatures",
+      "claim": "Goa stays warm all year, mostly 24–29°C, with noon temperatures often above 33°C in May; the monsoon lasts from June to September.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "GT_WEATHER",
+          "quote": "hovering between 24°C to 29°C all the year-round"
+        },
+        {
+          "source": "GT_WEATHER",
+          "quote": "noon temperatures often cross 33°C"
+        },
+        {
+          "source": "GT_WEATHER",
+          "quote": "The Goan monsoon which lasts from June to September"
+        }
+      ],
+      "kind": "seasonal"
+    },
+    "GS17": {
+      "place": "goa",
+      "topic": "Rain by month",
+      "claim": "At Panaji, June (about 890 mm) and July (about 955 mm) are the wettest months, then August (572 mm), September (304 mm) and October (156 mm); December to April are almost dry.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "W_PANAJI",
+          "quote": "76.6 (3.02) 890.4 (35.06) 955.2 (37.61) 571.7 (22.51) 304.1 (11.97) 156.4 (6.16) 21.3 (0.84) 2.5 (0.10)"
+        }
+      ],
+      "kind": "seasonal"
+    },
+    "DU3": {
+      "place": "goa/dudhsagar-falls",
+      "topic": "Best in the monsoon",
+      "claim": "The falls are at their fullest during the monsoon.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_SEASON",
+          "quote": "During the monsoons, the white foam, Dudhsagar (sea of milk) falls is at its best."
+        }
+      ],
+      "kind": "seasonal"
+    },
+    "FD4": {
+      "place": "goa/goan-food-and-shopping",
+      "topic": "Monsoon food month",
+      "claim": "Goa Tourism runs a Gastronomy Month during the July–August monsoon.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "GT_PLATE",
+          "quote": "As part of Goa’s monsoon tourism campaign for July and August, the Department of Tourism presents Gastronomy Month"
+        }
+      ],
+      "kind": "seasonal"
+    },
+    "CL3": {
+      "place": "goa/calangute",
+      "topic": "Services",
+      "claim": "Calangute has banks, a post office, foreign exchange, medical facilities and travel agents who book trips to other beaches.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "GTDC_CAL",
+          "quote": "The village of Calangute has all basic facilities like post office, banks, foreign exchange offices"
+        },
+        {
+          "source": "GTDC_CAL",
+          "quote": "All the travel agencies and tour operators have a base here from where bookings are done for most of the other beaches."
+        }
+      ]
+    },
+    "NL2": {
+      "place": "goa/nightlife-in-goa",
+      "topic": "Casinos",
+      "claim": "Casinos are legal in Goa in five-star hotels and on offshore vessels; the floating casinos are moored on the Mandovi at Panaji and reached by feeder boats.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "W_CASINO",
+          "quote": "casinos are allowed to operate within five-star hotels and on offshore vessels"
+        },
+        {
+          "source": "W_CASINO",
+          "quote": "Offshore casinos can be seen in the Mandovi River of Panjim"
+        },
+        {
+          "source": "W_CASINO",
+          "quote": "There are smaller boats, called feeder boats which are used to bring people on board and off board the casinos."
+        }
+      ]
+    }
+  },
+  "places": [],
+  "itineraries": [
+    {
+      "place": "goa",
+      "slug": "goa-3-days",
+      "title": "Goa in 3 days: Panaji, Old Goa and the north coast",
+      "durationDays": 3,
+      "tripTypes": [
+        "heritage",
+        "beaches",
+        "weekend"
+      ],
+      "summary": "A short first trip based in Panaji: the Latin quarter and Miramar, the UNESCO churches of Old Goa with a ferry to Divar, then the beaches from Candolim to Baga with Fort Aguada.",
+      "seoTitle": "Goa in 3 Days: Panaji, Old Goa and North Goa Beaches",
+      "seoDescription": "A 3-day Goa itinerary: Fontainhas and Miramar, Old Goa's UNESCO churches and Divar Island, then Candolim, Calangute, Baga and Fort Aguada — with distances and tips.",
+      "plan": {
+        "overview": "For a long weekend or first visit. Stay in Panaji, which puts Old Goa (about 9 km) and the northern beaches (Calangute is 15 km) within easy reach. Dabolim airport is about 30 km and Mopa about 40 km away. November to February is best; avoid swimming in the June–September monsoon.",
+        "style": "City, heritage and beaches",
+        "start": "Panaji",
+        "end": "Panaji",
+        "season": "November–February (beach season); heritage sites all year",
+        "difficulty": "Easy",
+        "transport": "GoaMiles cabs or white tourist taxis; a scooter for the beach day. River ferries for Divar.",
+        "days": [
+          {
+            "title": "Panaji",
+            "summary": "Arrive and walk the capital: the Immaculate Conception church, the painted lanes of Fontainhas, and sunset at Miramar.",
+            "stops": [
+              {
+                "time": "Afternoon",
+                "name": "Church of Our Lady of the Immaculate Conception",
+                "placeSlug": "panaji",
+                "duration": "45 minutes",
+                "note": "Built 1619; its double staircase was added in 1871."
+              },
+              {
+                "time": "Late afternoon",
+                "name": "Fontainhas Latin quarter",
+                "placeSlug": "panaji",
+                "duration": "1–2 hours"
+              },
+              {
+                "time": "Evening",
+                "name": "Miramar beach at sunset",
+                "placeSlug": "panaji",
+                "duration": "1 hour",
+                "note": "3 km from Panaji."
+              }
+            ],
+            "overnight": "Panaji",
+            "distance": "30 km from Dabolim / 40 km from Mopa",
+            "transport": "Taxi or GoaMiles cab",
+            "meals": "Fish curry rice, Goa's everyday staple."
+          },
+          {
+            "title": "Old Goa and Divar",
+            "summary": "The UNESCO churches of Old Goa, then the ferry to Divar Island and back.",
+            "stops": [
+              {
+                "time": "Morning",
+                "name": "Basilica of Bom Jesus",
+                "placeSlug": "basilica-of-bom-jesus",
+                "duration": "1 hour",
+                "note": "Holds the remains of St Francis Xavier."
+              },
+              {
+                "time": "Late morning",
+                "name": "Se Cathedral and the Church of St Francis of Assisi",
+                "placeSlug": "old-goa",
+                "duration": "1.5 hours"
+              },
+              {
+                "time": "Afternoon",
+                "name": "Ferry from Old Goa to Divar Island",
+                "placeSlug": "old-goa",
+                "duration": "2 hours",
+                "note": "Free on foot or by two-wheeler."
+              },
+              {
+                "time": "Evening",
+                "name": "Back to Panaji",
+                "placeSlug": "panaji"
+              }
+            ],
+            "overnight": "Panaji",
+            "distanceKm": 18,
+            "distance": "About 9 km each way to Old Goa",
+            "transport": "Taxi, bus or scooter; river ferry",
+            "logistics": "Old Goa's UNESCO churches are free to enter. Dress modestly in churches."
+          },
+          {
+            "title": "Candolim to Baga",
+            "summary": "The long northern beach: Fort Aguada above Sinquerim, Candolim, Calangute and Baga.",
+            "stops": [
+              {
+                "time": "Morning",
+                "name": "Fort Aguada",
+                "placeSlug": "fort-aguada",
+                "duration": "1.5 hours",
+                "note": "Built 1612; lighthouse from 1864."
+              },
+              {
+                "time": "Late morning",
+                "name": "Candolim beach — parasailing",
+                "placeSlug": "candolim",
+                "duration": "2 hours"
+              },
+              {
+                "time": "Afternoon",
+                "name": "Calangute, the 'Queen of Beaches'",
+                "placeSlug": "calangute",
+                "duration": "2 hours"
+              },
+              {
+                "time": "Evening",
+                "name": "Baga — dinner and nightlife",
+                "placeSlug": "baga"
+              }
+            ],
+            "overnight": "—",
+            "distance": "Calangute is 15 km from Panaji",
+            "transport": "Scooter or taxi",
+            "logistics": "Swim only between the lifesavers' flags; beaches close at sunset."
+          }
+        ],
+        "budget": {
+          "assumptions": "Only official prices are listed. VacayOut hasn't checked hotel, taxi, meal or activity prices — they change with the season, and Christmas–New Year is the most expensive week.",
+          "lines": [
+            {
+              "label": "UNESCO churches of Old Goa",
+              "amount": "Free",
+              "basis": "GTDC"
+            },
+            {
+              "label": "Scooter hire",
+              "amount": "About ₹200–500 a day (geared bikes ₹400–1,000)",
+              "basis": "GTDC listing, may be dated — check locally"
+            },
+            {
+              "label": "River ferries",
+              "amount": "Free on foot or by two-wheeler",
+              "basis": "GTDC"
+            }
+          ]
+        },
+        "booking": [
+          {
+            "item": "Flights",
+            "detail": "Book early for October to January, when flights run full."
+          },
+          {
+            "item": "Rooms",
+            "detail": "Book well ahead for December and January."
+          }
+        ],
+        "alternatives": [
+          "Wednesday? Swap Day 3's afternoon for the Anjuna flea market (about 10 am–4 pm).",
+          "Prefer birds to beaches? Take the Ribandar ferry to the Salim Ali Bird Sanctuary on Chorao.",
+          "Monsoon trip: skip swimming; see Old Goa, Panaji and the Ponda temples instead."
+        ],
+        "tips": [
+          "Start Old Goa early — there is little shade.",
+          "Agree taxi fares before you set off, or book on GoaMiles.",
+          "Dress modestly in churches and temples."
+        ],
+        "prep": [
+          {
+            "title": "Beach safety",
+            "body": "Swim only between the red-and-yellow flags watched by lifesavers, never after sunset or after drinking, and never in the June–September monsoon. Drinking on beaches is banned."
+          },
+          {
+            "title": "Getting around",
+            "body": "Book cabs on the GoaMiles app or use white tourist taxis (agree the fare first). Local buses are cheapest; scooters are for hire near most beaches — carry your licence; traffic drives on the left."
+          }
+        ],
+        "faqs": [
+          {
+            "q": "Is 3 days enough for Goa?",
+            "a": "For Panaji, Old Goa and the main northern beaches, yes. South Goa and the hinterland need more time — Margao alone is about 35 km from Panaji."
+          },
+          {
+            "q": "Do I need to pay to enter Old Goa's churches?",
+            "a": "No — the UNESCO monuments are free to enter."
+          }
+        ]
+      },
+      "facts": [
+        "PJ2",
+        "PJ5",
+        "PJ7",
+        "OG4",
+        "CL1",
+        "PJ6",
+        "GS18",
+        "GS23",
+        "GR1",
+        "GS12",
+        "GS13",
+        "BJ2",
+        "GR2",
+        "GR8",
+        "GS26",
+        "AG1",
+        "AG2",
+        "CD1",
+        "BG1",
+        "NL1",
+        "GS20",
+        "GS21",
+        "GO6",
+        "GS19",
+        "MK1",
+        "GS39",
+        "GS41",
+        "GR7",
+        "GR4",
+        "GS22",
+        "GS14",
+        "GS28",
+        "GS37"
+      ],
+      "sources": []
+    },
+    {
+      "place": "goa",
+      "slug": "goa-heritage-4-days",
+      "title": "Goa heritage and culture in 4 days",
+      "durationDays": 4,
+      "tripTypes": [
+        "heritage",
+        "spiritual",
+        "family"
+      ],
+      "summary": "Churches, forts, temples and old houses: Old Goa's UNESCO churches, Divar Island, Panaji's Latin quarter, Reis Magos Fort, the temples of Ponda and the mansion at Chandor.",
+      "seoTitle": "Goa Heritage Tour in 4 Days: Churches, Forts, Temples",
+      "seoDescription": "A 4-day Goa culture itinerary: Old Goa's UNESCO churches, Divar, Fontainhas, Reis Magos Fort, Ponda's Mangueshi and Shanta Durga temples, Margao and Chandor.",
+      "plan": {
+        "overview": "For culture over beaches, and good all year — heritage sites stay open in the monsoon. Base in Panaji for three nights and Margao for one. Go at your own pace: Fontainhas and Old Goa are easy walks, and Ponda's temples are easy to reach.",
+        "style": "Heritage · culture · slow travel",
+        "start": "Panaji",
+        "end": "Margao (Madgaon Junction)",
+        "season": "All year; November–February is coolest",
+        "difficulty": "Easy",
+        "transport": "Taxi or GoaMiles cab; ferries to Divar.",
+        "days": [
+          {
+            "title": "Panaji",
+            "summary": "The capital's Portuguese-era core.",
+            "stops": [
+              {
+                "time": "Morning",
+                "name": "Immaculate Conception church",
+                "placeSlug": "panaji",
+                "duration": "45 minutes"
+              },
+              {
+                "time": "Afternoon",
+                "name": "Fontainhas",
+                "placeSlug": "panaji",
+                "duration": "2 hours"
+              },
+              {
+                "time": "Evening",
+                "name": "Reis Magos Fort, across the Mandovi",
+                "placeSlug": "reis-magos-fort",
+                "duration": "1 hour",
+                "note": "Open 11 am–5:30 pm, Tuesday to Sunday."
+              }
+            ],
+            "overnight": "Panaji",
+            "transport": "On foot and taxi"
+          },
+          {
+            "title": "Old Goa and Divar",
+            "summary": "Goa's former capital and the island across the river.",
+            "stops": [
+              {
+                "time": "Morning",
+                "name": "Basilica of Bom Jesus and Se Cathedral",
+                "placeSlug": "old-goa",
+                "duration": "2.5 hours"
+              },
+              {
+                "time": "Afternoon",
+                "name": "Ferry to Divar Island",
+                "placeSlug": "old-goa",
+                "duration": "2 hours"
+              }
+            ],
+            "overnight": "Panaji",
+            "transport": "Taxi and ferry",
+            "logistics": "Old Goa's UNESCO churches are free to enter."
+          },
+          {
+            "title": "Ponda's temples",
+            "summary": "The great temples of the hinterland.",
+            "stops": [
+              {
+                "time": "Morning",
+                "name": "Mangueshi Temple",
+                "placeSlug": "mangueshi-temple",
+                "duration": "1 hour"
+              },
+              {
+                "time": "Late morning",
+                "name": "Shanta Durga Temple, Kavalem",
+                "placeSlug": "shanta-durga-temple",
+                "duration": "1 hour"
+              },
+              {
+                "time": "Afternoon",
+                "name": "Back to Panaji, or the Salim Ali Bird Sanctuary by the Ribandar ferry",
+                "placeSlug": "salim-ali-bird-sanctuary",
+                "duration": "2 hours"
+              }
+            ],
+            "overnight": "Panaji",
+            "transport": "Taxi",
+            "distance": "Mangueshi is 21 km from Panaji"
+          },
+          {
+            "title": "Margao and Chandor",
+            "summary": "South to Goa's commercial capital and an old family mansion.",
+            "stops": [
+              {
+                "time": "Morning",
+                "name": "Margao — Holy Spirit Church",
+                "placeSlug": "margao",
+                "duration": "1.5 hours"
+              },
+              {
+                "time": "Afternoon",
+                "name": "Chandor mansion",
+                "placeSlug": "margao",
+                "duration": "1.5 hours",
+                "note": "15 km east of Margao."
+              }
+            ],
+            "overnight": "—",
+            "transport": "Taxi",
+            "distance": "Panaji to Margao about 35 km"
+          }
+        ],
+        "budget": {
+          "assumptions": "Only official prices are listed. VacayOut hasn't checked hotel, taxi, meal or activity prices — they change with the season, and Christmas–New Year is the most expensive week.",
+          "lines": [
+            {
+              "label": "UNESCO churches of Old Goa",
+              "amount": "Free",
+              "basis": "GTDC"
+            },
+            {
+              "label": "Scooter hire",
+              "amount": "About ₹200–500 a day (geared bikes ₹400–1,000)",
+              "basis": "GTDC listing, may be dated — check locally"
+            },
+            {
+              "label": "River ferries",
+              "amount": "Free on foot or by two-wheeler",
+              "basis": "GTDC"
+            }
+          ]
+        },
+        "booking": [
+          {
+            "item": "Guides",
+            "detail": "Hire government-approved guides at heritage sites."
+          }
+        ],
+        "alternatives": [
+          "Visit during Carnival (before Lent) or Shigmo (March–April) for festival parades.",
+          "Add Cabo de Rama Fort on the way south.",
+          "Bonderam on Divar is in the last week of August."
+        ],
+        "tips": [
+          "Dress modestly at churches and temples.",
+          "Mangueshi has a dress code.",
+          "Reis Magos opens Tuesday to Sunday."
+        ],
+        "prep": [
+          {
+            "title": "Getting around",
+            "body": "Book cabs on the GoaMiles app or use white tourist taxis (agree the fare first). Local buses are cheapest; scooters are for hire near most beaches — carry your licence; traffic drives on the left."
+          },
+          {
+            "title": "Festivals",
+            "body": "Carnival comes before Lent, Shigmo in March or April, São João on 24 June and Bonderam on Divar in the last week of August."
+          }
+        ],
+        "faqs": [
+          {
+            "q": "Can I do this in the monsoon?",
+            "a": "Yes — it is mostly churches, forts and temples. Just avoid swimming."
+          }
+        ]
+      },
+      "facts": [
+        "GR9",
+        "PJ2",
+        "PJ5",
+        "RM1",
+        "RM3",
+        "OG1",
+        "BJ2",
+        "GS13",
+        "GR2",
+        "GR8",
+        "MT1",
+        "MT5",
+        "SD1",
+        "GS39",
+        "MG1",
+        "MG3",
+        "GR7",
+        "GS29",
+        "GS31",
+        "GS32",
+        "GS33",
+        "GS34",
+        "CR1",
+        "GS26",
+        "GS23",
+        "GS12",
+        "GR1"
+      ],
+      "sources": []
+    },
+    {
+      "place": "goa",
+      "slug": "goa-adventure-4-days",
+      "title": "Goa adventure in 4 days: dive, jump and the falls",
+      "durationDays": 4,
+      "tripTypes": [
+        "adventure",
+        "beaches",
+        "nature"
+      ],
+      "summary": "Action Goa: scuba at Grande Island, water sports at Baga, the 55-m bungee at Mayem Lake and a trip into Bhagwan Mahavir Sanctuary for Dudhsagar — or monsoon rafting on the Mhadei.",
+      "seoTitle": "Goa Adventure Itinerary: Scuba, Bungee, Dudhsagar",
+      "seoDescription": "4-day Goa adventure plan: scuba at Grande Island, water sports, the Mayem bungee, Dudhsagar Falls and monsoon rafting — with ages, seasons and safety.",
+      "plan": {
+        "overview": "For active travellers. Base at Baga or Calangute. Season matters: the bungee closes from mid-June to mid-August and sea activities stop in the monsoon, when Mhadei rafting runs instead (June–October). Divers must be at least 10.",
+        "style": "Adventure · water sports",
+        "start": "Mopa or Dabolim airport",
+        "end": "Mopa or Dabolim airport",
+        "season": "October–May for sea and bungee; June–October for rafting",
+        "difficulty": "Moderate",
+        "transport": "Taxi; pre-arranged pickups for the dive trip.",
+        "days": [
+          {
+            "title": "Water sports at Baga",
+            "summary": "Parasailing, jet skis and a dolphin trip.",
+            "stops": [
+              {
+                "time": "Morning",
+                "name": "Parasailing and jet skis",
+                "placeSlug": "water-sports-in-goa",
+                "duration": "3 hours"
+              },
+              {
+                "time": "Afternoon",
+                "name": "Dolphin boat trip",
+                "placeSlug": "boat-trips-and-dolphin-cruises",
+                "duration": "1.5 hours"
+              }
+            ],
+            "overnight": "Calangute–Baga",
+            "transport": "On foot",
+            "logistics": "Stay inside the chequered flags; agree prices first."
+          },
+          {
+            "title": "Scuba at Grande Island",
+            "summary": "A full day at sea with Goa Tourism's diving centre.",
+            "stops": [
+              {
+                "time": "Day",
+                "name": "Dive or snorkel at Grande Island",
+                "placeSlug": "scuba-diving-grande-island",
+                "duration": "About 8 hours"
+              }
+            ],
+            "overnight": "Calangute–Baga",
+            "logistics": "Divers must be 10 or older; fill in the medical form before booking."
+          },
+          {
+            "title": "Bungee at Mayem",
+            "summary": "The 55-m jump, then a quiet evening.",
+            "stops": [
+              {
+                "time": "Morning",
+                "name": "Bungee at Mayem Lake",
+                "placeSlug": "adventure-activities-in-goa",
+                "duration": "2 hours",
+                "note": "35 minutes from Baga."
+              },
+              {
+                "time": "Evening",
+                "name": "Vagator sunset",
+                "placeSlug": "vagator"
+              }
+            ],
+            "overnight": "Calangute–Baga",
+            "transport": "Taxi",
+            "access": "Bungee closed mid-June to mid-August"
+          },
+          {
+            "title": "Dudhsagar and Mollem",
+            "summary": "Into the Western Ghats for Goa's tallest waterfall.",
+            "stops": [
+              {
+                "time": "Day",
+                "name": "Bhagwan Mahavir Sanctuary and Dudhsagar Falls",
+                "placeSlug": "bhagwan-mahavir-sanctuary",
+                "duration": "Full day",
+                "note": "By rail to Kulem, then trek or jeep."
+              }
+            ],
+            "overnight": "—",
+            "transport": "Taxi or train to Kulem",
+            "distance": "Mollem is 57 km east of Panaji"
+          }
+        ],
+        "budget": {
+          "assumptions": "Only official prices are listed. VacayOut hasn't checked hotel, taxi, meal or activity prices — they change with the season, and Christmas–New Year is the most expensive week.",
+          "lines": [
+            {
+              "label": "Bungee jump",
+              "amount": "₹4,110 + GST with video",
+              "basis": "GTDC listing — check the current price"
+            },
+            {
+              "label": "Scooter hire",
+              "amount": "About ₹200–500 a day (geared bikes ₹400–1,000)",
+              "basis": "GTDC listing, may be dated — check locally"
+            }
+          ]
+        },
+        "booking": [
+          {
+            "item": "Scuba",
+            "detail": "Book with Goa Tourism's diving centre; review the medical form."
+          },
+          {
+            "item": "Rafting (monsoon)",
+            "detail": "Book ahead; max 120 kg; not for pregnant women."
+          },
+          {
+            "item": "Boat trips",
+            "detail": "Some operators take only advance bookings."
+          }
+        ],
+        "alternatives": [
+          "June–October: swap the sea days for Mhadei white-water rafting.",
+          "Add a hot-air balloon flight from Chandor at dawn.",
+          "Paraglide at Arambol."
+        ],
+        "tips": [
+          "Never swim or dive after drinking.",
+          "Use licensed operators listed by Goa Tourism.",
+          "Agree prices before you start."
+        ],
+        "prep": [
+          {
+            "title": "Beach safety",
+            "body": "Swim only between the red-and-yellow flags watched by lifesavers, never after sunset or after drinking, and never in the June–September monsoon. Drinking on beaches is banned."
+          },
+          {
+            "title": "Getting around",
+            "body": "Book cabs on the GoaMiles app or use white tourist taxis (agree the fare first). Local buses are cheapest; scooters are for hire near most beaches — carry your licence; traffic drives on the left."
+          }
+        ],
+        "faqs": [
+          {
+            "q": "What is the minimum age for scuba?",
+            "a": "10 to dive with Goa Tourism's diving centre; children 5–10 can ride along, and under-5s aren't allowed on the boat."
+          },
+          {
+            "q": "When can I go rafting in Goa?",
+            "a": "Only June to October, on the Mhadei, and only when it rains."
+          }
+        ]
+      },
+      "facts": [
+        "AD2",
+        "AD3",
+        "SB3",
+        "WS1",
+        "BG2",
+        "GS20",
+        "WS2",
+        "SB1",
+        "SB2",
+        "AD1",
+        "VG3",
+        "BM3",
+        "BM5",
+        "BM1",
+        "AD4",
+        "BT2",
+        "AD5",
+        "WS3",
+        "GS22",
+        "GS18",
+        "GS12",
+        "GR1",
+        "GR4",
+        "BT1"
+      ],
+      "sources": []
+    },
+    {
+      "place": "goa",
+      "slug": "north-goa-5-days",
+      "title": "North Goa in 5 days: Baga to Arambol",
+      "durationDays": 5,
+      "tripTypes": [
+        "beaches",
+        "adventure",
+        "romantic"
+      ],
+      "summary": "Five days up the northern coast: Candolim, Calangute and Baga, Anjuna's market and Chapora Fort, then the quiet Pernem beaches — Morjim, Mandrem and Arambol.",
+      "seoTitle": "North Goa in 5 Days: Baga, Anjuna, Vagator, Arambol",
+      "seoDescription": "A 5-day North Goa itinerary: Baga and Calangute, Fort Aguada and Reis Magos, Anjuna's Wednesday market, Chapora Fort, Morjim's turtle beach and Arambol's sunsets.",
+      "plan": {
+        "overview": "For beach lovers who want both busy and quiet Goa. Fly into Mopa, the nearer airport for the north. Base at Calangute–Baga for three nights, then move to Arambol for the calmer Pernem coast. Time Day 3 for a Wednesday if you want the Anjuna flea market.",
+        "style": "Beaches · water sports · nightlife",
+        "start": "Mopa airport",
+        "end": "Mopa airport",
+        "season": "November–February",
+        "difficulty": "Easy",
+        "transport": "Scooter or taxi; buses run via Mapusa, North Goa's bus hub.",
+        "days": [
+          {
+            "title": "Arrive at Baga",
+            "summary": "Settle in and catch the evening on Baga beach.",
+            "stops": [
+              {
+                "time": "Evening",
+                "name": "Baga beach and Baga Creek",
+                "placeSlug": "baga",
+                "duration": "2 hours"
+              }
+            ],
+            "overnight": "Calangute–Baga",
+            "transport": "Taxi or GoaMiles cab from Mopa",
+            "meals": "Seafood at a beach shack."
+          },
+          {
+            "title": "Forts and water sports",
+            "summary": "Fort Aguada and Reis Magos in the morning, water sports at Candolim in the afternoon.",
+            "stops": [
+              {
+                "time": "Morning",
+                "name": "Reis Magos Fort",
+                "placeSlug": "reis-magos-fort",
+                "duration": "1 hour",
+                "note": "Open 11 am–5:30 pm, Tuesday to Sunday."
+              },
+              {
+                "time": "Late morning",
+                "name": "Fort Aguada, 4 km west",
+                "placeSlug": "fort-aguada",
+                "duration": "1 hour"
+              },
+              {
+                "time": "Afternoon",
+                "name": "Parasailing or water skiing at Candolim",
+                "placeSlug": "water-sports-in-goa",
+                "duration": "2 hours"
+              }
+            ],
+            "overnight": "Calangute–Baga",
+            "transport": "Scooter or taxi",
+            "logistics": "Reis Magos opens Tuesday to Sunday. Stay inside the chequered flags for water sports."
+          },
+          {
+            "title": "Anjuna and Vagator",
+            "summary": "Anjuna's rocky cove and Wednesday market, then Chapora Fort and sunset at Vagator.",
+            "stops": [
+              {
+                "time": "Morning",
+                "name": "Anjuna flea market (Wednesdays)",
+                "placeSlug": "flea-and-night-markets",
+                "duration": "3 hours",
+                "note": "About 10 am–4 pm."
+              },
+              {
+                "time": "Afternoon",
+                "name": "Chapora Fort",
+                "placeSlug": "chapora-fort",
+                "duration": "1 hour"
+              },
+              {
+                "time": "Evening",
+                "name": "Sunset at Little Vagator",
+                "placeSlug": "vagator"
+              }
+            ],
+            "overnight": "Calangute–Baga",
+            "distance": "Anjuna 18 km, Vagator 22 km from Panaji",
+            "transport": "Scooter, taxi or bus via Mapusa"
+          },
+          {
+            "title": "Across the Chapora to Pernem",
+            "summary": "Move north to the quiet beaches: Morjim's turtle beach, Ashwem and Mandrem, ending at Arambol.",
+            "stops": [
+              {
+                "time": "Morning",
+                "name": "Morjim beach",
+                "placeSlug": "morjim",
+                "duration": "2 hours",
+                "note": "Olive Ridley turtles nest here — keep off marked nests."
+              },
+              {
+                "time": "Afternoon",
+                "name": "Ashwem and Mandrem",
+                "placeSlug": "morjim",
+                "duration": "2 hours"
+              },
+              {
+                "time": "Evening",
+                "name": "Arambol at sunset",
+                "placeSlug": "arambol"
+              }
+            ],
+            "overnight": "Arambol",
+            "transport": "Taxi or scooter",
+            "logistics": "Ashwem has no water sports — a quiet beach day."
+          },
+          {
+            "title": "Arambol, then leave",
+            "summary": "A yoga class or a walk to the clay pool, then the short drive to Mopa.",
+            "stops": [
+              {
+                "time": "Morning",
+                "name": "Yoga class or the clay pool",
+                "placeSlug": "arambol",
+                "duration": "2 hours"
+              },
+              {
+                "time": "Afternoon",
+                "name": "To Mopa airport",
+                "note": "Mopa is in Pernem, the same taluka as Arambol."
+              }
+            ],
+            "overnight": "—",
+            "transport": "Taxi"
+          }
+        ],
+        "budget": {
+          "assumptions": "Only official prices are listed. VacayOut hasn't checked hotel, taxi, meal or activity prices — they change with the season, and Christmas–New Year is the most expensive week.",
+          "lines": [
+            {
+              "label": "UNESCO churches of Old Goa",
+              "amount": "Free",
+              "basis": "GTDC"
+            },
+            {
+              "label": "Scooter hire",
+              "amount": "About ₹200–500 a day (geared bikes ₹400–1,000)",
+              "basis": "GTDC listing, may be dated — check locally"
+            },
+            {
+              "label": "River ferries",
+              "amount": "Free on foot or by two-wheeler",
+              "basis": "GTDC"
+            }
+          ]
+        },
+        "booking": [
+          {
+            "item": "Rooms",
+            "detail": "Book well ahead for December and January."
+          },
+          {
+            "item": "Water sports",
+            "detail": "Agree the price before you start; prices vary."
+          }
+        ],
+        "alternatives": [
+          "Saturday? Add Mackie's Saturday Night Bazaar on Baga creek.",
+          "Friday? Stop at Mapusa's Friday market on Day 4.",
+          "Add the 55-m bungee at Mayem Lake, 35 minutes from Baga (not mid-June to mid-August)."
+        ],
+        "tips": [
+          "Drinking on the beach is banned.",
+          "Keep away from turtle nesting areas.",
+          "Watch your bags at markets."
+        ],
+        "prep": [
+          {
+            "title": "Beach safety",
+            "body": "Swim only between the red-and-yellow flags watched by lifesavers, never after sunset or after drinking, and never in the June–September monsoon. Drinking on beaches is banned."
+          },
+          {
+            "title": "Getting around",
+            "body": "Book cabs on the GoaMiles app or use white tourist taxis (agree the fare first). Local buses are cheapest; scooters are for hire near most beaches — carry your licence; traffic drives on the left."
+          }
+        ],
+        "faqs": [
+          {
+            "q": "Which airport for North Goa?",
+            "a": "Mopa (Manohar International) in Pernem — about 40 km from Panaji and closest to the northern beaches."
+          },
+          {
+            "q": "When is the Anjuna flea market?",
+            "a": "Wednesdays, from about 10 am to 4 pm. GTDC notes listings may change — check locally."
+          }
+        ]
+      },
+      "facts": [
+        "GS6",
+        "BG1",
+        "BG3",
+        "GS18",
+        "RM3",
+        "RM6",
+        "WS1",
+        "CD1",
+        "GS20",
+        "MK1",
+        "AN6",
+        "CF1",
+        "VG3",
+        "AJ1",
+        "VG1",
+        "VG2",
+        "MP3",
+        "MJ1",
+        "GS25",
+        "MJ2",
+        "AR1",
+        "AR2",
+        "GS12",
+        "GR1",
+        "GS19",
+        "WS2",
+        "MK2",
+        "MP1",
+        "AD1",
+        "AD2",
+        "GS22",
+        "GS40",
+        "MK4"
+      ],
+      "sources": []
+    },
+    {
+      "place": "goa",
+      "slug": "south-goa-5-days",
+      "title": "South Goa in 5 days: Colva to Palolem",
+      "durationDays": 5,
+      "tripTypes": [
+        "beaches",
+        "romantic",
+        "nature"
+      ],
+      "summary": "A slow trip down the quieter south: Colva and Benaulim near Margao, Chandor's old mansion, a dolphin trip on the Sal river, then Palolem's calm bay, Cabo de Rama and Cotigao.",
+      "seoTitle": "South Goa in 5 Days: Colva, Benaulim, Palolem",
+      "seoDescription": "A 5-day South Goa itinerary: Colva and Benaulim, Margao and Chandor, Sal river dolphins, Palolem's calm bay, Cabo de Rama fort and Cotigao's treetop watchtower.",
+      "plan": {
+        "overview": "For couples and anyone who wants calmer beaches. Fly into Dabolim, the nearer airport for the south. Two nights at Colva or Benaulim, then two at Palolem — 40 km from Margao, with Canacona station 3 km away.",
+        "style": "Quiet beaches · nature",
+        "start": "Dabolim airport",
+        "end": "Dabolim airport or Canacona station",
+        "season": "November–February",
+        "difficulty": "Easy",
+        "transport": "Taxi or scooter; buses and trains via Margao.",
+        "days": [
+          {
+            "title": "Arrive at Colva",
+            "summary": "Settle in on South Goa's main beach.",
+            "stops": [
+              {
+                "time": "Evening",
+                "name": "Colva beach and the Menino Jesus church",
+                "placeSlug": "colva",
+                "duration": "2 hours"
+              }
+            ],
+            "overnight": "Colva or Benaulim",
+            "distance": "Colva is 39 km from Panaji",
+            "transport": "Taxi from Dabolim"
+          },
+          {
+            "title": "Margao and Chandor",
+            "summary": "Goa's commercial capital and the old mansion at Chandor.",
+            "stops": [
+              {
+                "time": "Morning",
+                "name": "Margao — Holy Spirit Church (1675) and market",
+                "placeSlug": "margao",
+                "duration": "2 hours"
+              },
+              {
+                "time": "Afternoon",
+                "name": "Chandor's 17th-century mansion",
+                "placeSlug": "margao",
+                "duration": "1.5 hours",
+                "note": "15 km east of Margao."
+              },
+              {
+                "time": "Evening",
+                "name": "Benaulim beach",
+                "placeSlug": "benaulim"
+              }
+            ],
+            "overnight": "Colva or Benaulim",
+            "transport": "Taxi or bus"
+          },
+          {
+            "title": "Sal river dolphins, south to Palolem",
+            "summary": "A dolphin trip from Cavelossim, then down to Palolem.",
+            "stops": [
+              {
+                "time": "Morning",
+                "name": "Dolphin trip up the Sal river",
+                "placeSlug": "boat-trips-and-dolphin-cruises",
+                "duration": "2 hours",
+                "note": "Cavelossim is 18 km from Margao."
+              },
+              {
+                "time": "Afternoon",
+                "name": "Drive to Palolem",
+                "placeSlug": "palolem",
+                "note": "Palolem is 40 km from Margao."
+              },
+              {
+                "time": "Evening",
+                "name": "Palolem beach",
+                "placeSlug": "palolem"
+              }
+            ],
+            "overnight": "Palolem",
+            "transport": "Taxi"
+          },
+          {
+            "title": "Cabo de Rama and Agonda",
+            "summary": "The clifftop fort and the long quiet beach at Agonda.",
+            "stops": [
+              {
+                "time": "Morning",
+                "name": "Kayak or paddleboard in Palolem bay",
+                "placeSlug": "palolem",
+                "duration": "2 hours"
+              },
+              {
+                "time": "Afternoon",
+                "name": "Cabo de Rama Fort",
+                "placeSlug": "cabo-de-rama-fort",
+                "duration": "1.5 hours"
+              },
+              {
+                "time": "Evening",
+                "name": "Agonda at sunset",
+                "placeSlug": "agonda"
+              }
+            ],
+            "overnight": "Palolem",
+            "transport": "Scooter",
+            "logistics": "Agonda is not safe for swimming far out; carry what you need — facilities are few."
+          },
+          {
+            "title": "Cotigao at dawn, then leave",
+            "summary": "The treetop watchtower at first light, then head home.",
+            "stops": [
+              {
+                "time": "Dawn",
+                "name": "Cotigao Wildlife Sanctuary watchtower",
+                "placeSlug": "cotigao-wildlife-sanctuary",
+                "duration": "3 hours",
+                "note": "Dawn and dusk are best for animals."
+              },
+              {
+                "time": "Afternoon",
+                "name": "Canacona station or Dabolim airport",
+                "placeSlug": "palolem"
+              }
+            ],
+            "overnight": "—",
+            "transport": "Taxi; Canacona station is 3 km from Palolem"
+          }
+        ],
+        "budget": {
+          "assumptions": "Only official prices are listed. VacayOut hasn't checked hotel, taxi, meal or activity prices — they change with the season, and Christmas–New Year is the most expensive week.",
+          "lines": [
+            {
+              "label": "UNESCO churches of Old Goa",
+              "amount": "Free",
+              "basis": "GTDC"
+            },
+            {
+              "label": "Scooter hire",
+              "amount": "About ₹200–500 a day (geared bikes ₹400–1,000)",
+              "basis": "GTDC listing, may be dated — check locally"
+            },
+            {
+              "label": "River ferries",
+              "amount": "Free on foot or by two-wheeler",
+              "basis": "GTDC"
+            }
+          ]
+        },
+        "booking": [
+          {
+            "item": "Rooms in Palolem",
+            "detail": "Beach huts appear in season; book ahead for December and January."
+          },
+          {
+            "item": "Dolphin trips",
+            "detail": "Agree price and duration before boarding."
+          }
+        ],
+        "alternatives": [
+          "Quieter still: stay at Patnem instead of Palolem.",
+          "Turtle season: visit Galgibaga or Agonda, but keep off marked nests.",
+          "Monsoon: swap beach days for Cotigao, Netravali and the waterfalls inland."
+        ],
+        "tips": [
+          "Palolem's music stops at 10 pm — expect quiet nights.",
+          "Go to Cotigao at dawn."
+        ],
+        "prep": [
+          {
+            "title": "Beach safety",
+            "body": "Swim only between the red-and-yellow flags watched by lifesavers, never after sunset or after drinking, and never in the June–September monsoon. Drinking on beaches is banned."
+          },
+          {
+            "title": "Getting around",
+            "body": "Book cabs on the GoaMiles app or use white tourist taxis (agree the fare first). Local buses are cheapest; scooters are for hire near most beaches — carry your licence; traffic drives on the left."
+          }
+        ],
+        "faqs": [
+          {
+            "q": "Is South Goa better for couples?",
+            "a": "It is calmer: Colva and Benaulim have quiet evenings, and Palolem's bay offers some of Goa's safest swimming."
+          },
+          {
+            "q": "How do I reach Palolem by train?",
+            "a": "Canacona station on the Konkan Railway is 3 km from Palolem; buses also run from Margao, 40 km away."
+          }
+        ]
+      },
+      "facts": [
+        "GS6",
+        "PL2",
+        "CV1",
+        "CV2",
+        "MG1",
+        "MG3",
+        "BN1",
+        "BN2",
+        "PL1",
+        "PL4",
+        "CR1",
+        "AG1",
+        "CT2",
+        "PL3",
+        "GS19",
+        "GS40",
+        "GS25",
+        "WS2",
+        "GS12",
+        "GR1",
+        "GS18",
+        "GS22",
+        "PL5"
+      ],
+      "sources": []
+    },
+    {
+      "place": "goa",
+      "slug": "goa-family-5-days",
+      "title": "Goa with family in 5 days",
+      "durationDays": 5,
+      "tripTypes": [
+        "family",
+        "beaches",
+        "nature"
+      ],
+      "summary": "An easy family trip: Candolim and Calangute, a dolphin cruise, the Salim Ali Bird Sanctuary, Old Goa, Bondla's zoo and deer park, and a calm last day at Palolem.",
+      "seoTitle": "Goa Family Trip in 5 Days: Beaches, Zoo, Dolphins",
+      "seoDescription": "A 5-day family itinerary for Goa: safe-swimming beaches, dolphin trips, Bondla's mini zoo and deer park, the bird sanctuary on Chorao, Old Goa and Palolem.",
+      "plan": {
+        "overview": "Gentle days for families with children. Base in Panaji or Candolim for three nights, then Palolem, whose sheltered bay is among Goa's safest for swimming. Bondla opens Tuesday to Sunday.",
+        "style": "Family · easy pace",
+        "start": "Dabolim airport",
+        "end": "Dabolim airport",
+        "season": "October–March",
+        "difficulty": "Easy",
+        "transport": "Taxi or GoaMiles cab; avoid long scooter rides with children.",
+        "days": [
+          {
+            "title": "Candolim beach",
+            "summary": "Arrive and spend the afternoon on the beach.",
+            "stops": [
+              {
+                "time": "Afternoon",
+                "name": "Candolim beach",
+                "placeSlug": "candolim",
+                "duration": "2 hours"
+              },
+              {
+                "time": "Evening",
+                "name": "Fort Aguada",
+                "placeSlug": "fort-aguada",
+                "duration": "1 hour"
+              }
+            ],
+            "overnight": "Candolim or Panaji",
+            "transport": "Taxi from Dabolim",
+            "logistics": "Swim between the red-and-yellow flags; beaches close at sunset."
+          },
+          {
+            "title": "Dolphins and birds",
+            "summary": "A morning dolphin cruise, then the Ribandar ferry to the bird sanctuary.",
+            "stops": [
+              {
+                "time": "Morning",
+                "name": "Dolphin cruise",
+                "placeSlug": "boat-trips-and-dolphin-cruises",
+                "duration": "1.5 hours"
+              },
+              {
+                "time": "Afternoon",
+                "name": "Dr Salim Ali Bird Sanctuary",
+                "placeSlug": "salim-ali-bird-sanctuary",
+                "duration": "2 hours",
+                "note": "Ferry from Ribandar; open 6 am–6 pm."
+              }
+            ],
+            "overnight": "Candolim or Panaji",
+            "transport": "Taxi and ferry"
+          },
+          {
+            "title": "Bondla and Old Goa",
+            "summary": "The zoo and deer park, then Old Goa's churches on the way back.",
+            "stops": [
+              {
+                "time": "Morning",
+                "name": "Bondla Wildlife Sanctuary",
+                "placeSlug": "bondla-wildlife-sanctuary",
+                "duration": "3 hours",
+                "note": "Open Tuesday–Sunday, 9 am–5 pm."
+              },
+              {
+                "time": "Afternoon",
+                "name": "Old Goa",
+                "placeSlug": "old-goa",
+                "duration": "1.5 hours"
+              }
+            ],
+            "overnight": "Candolim or Panaji",
+            "transport": "Taxi",
+            "distance": "Bondla is 46 km from Panaji"
+          },
+          {
+            "title": "South to Palolem",
+            "summary": "Down the coast to the calm bay.",
+            "stops": [
+              {
+                "time": "Afternoon",
+                "name": "Palolem beach",
+                "placeSlug": "palolem",
+                "duration": "3 hours"
+              }
+            ],
+            "overnight": "Palolem",
+            "transport": "Taxi",
+            "distance": "Palolem is 40 km from Margao"
+          },
+          {
+            "title": "Kayaking, then home",
+            "summary": "A gentle paddle in the bay, then Dabolim.",
+            "stops": [
+              {
+                "time": "Morning",
+                "name": "Kayaking or paddleboarding",
+                "placeSlug": "palolem",
+                "duration": "2 hours"
+              },
+              {
+                "time": "Afternoon",
+                "name": "To Dabolim airport"
+              }
+            ],
+            "overnight": "—",
+            "transport": "Taxi"
+          }
+        ],
+        "budget": {
+          "assumptions": "Only official prices are listed. VacayOut hasn't checked hotel, taxi, meal or activity prices — they change with the season, and Christmas–New Year is the most expensive week.",
+          "lines": [
+            {
+              "label": "UNESCO churches of Old Goa",
+              "amount": "Free",
+              "basis": "GTDC"
+            },
+            {
+              "label": "Scooter hire",
+              "amount": "About ₹200–500 a day (geared bikes ₹400–1,000)",
+              "basis": "GTDC listing, may be dated — check locally"
+            },
+            {
+              "label": "River ferries",
+              "amount": "Free on foot or by two-wheeler",
+              "basis": "GTDC"
+            }
+          ]
+        },
+        "booking": [
+          {
+            "item": "Rooms",
+            "detail": "Book family rooms well ahead for December–January."
+          }
+        ],
+        "alternatives": [
+          "Bondla opens Tuesday to Sunday — plan around Mondays.",
+          "Older children (10+) can try scuba at Grande Island.",
+          "Add the Wednesday flea market at Anjuna."
+        ],
+        "tips": [
+          "Keep children close on the beach.",
+          "Go to the bird sanctuary early.",
+          "Swim only between the flags."
+        ],
+        "prep": [
+          {
+            "title": "Beach safety",
+            "body": "Swim only between the red-and-yellow flags watched by lifesavers, never after sunset or after drinking, and never in the June–September monsoon. Drinking on beaches is banned."
+          },
+          {
+            "title": "Getting around",
+            "body": "Book cabs on the GoaMiles app or use white tourist taxis (agree the fare first). Local buses are cheapest; scooters are for hire near most beaches — carry your licence; traffic drives on the left."
+          }
+        ],
+        "faqs": [
+          {
+            "q": "Which Goa beach is safest for children?",
+            "a": "Palolem's sheltered bay is among Goa's safest for swimming; always swim between the lifesavers' flags."
+          },
+          {
+            "q": "Is Bondla open every day?",
+            "a": "Incredible India lists it Tuesday to Sunday, 9 am to 5 pm."
+          }
+        ]
+      },
+      "facts": [
+        "PL1",
+        "BD2",
+        "CD1",
+        "AG1",
+        "GS20",
+        "GS21",
+        "BG2",
+        "SA2",
+        "GS39",
+        "BD1",
+        "BD4",
+        "OG1",
+        "PL2",
+        "GS19",
+        "SB3",
+        "MK1",
+        "GS25",
+        "GS12",
+        "GR1",
+        "GS18",
+        "GS22"
+      ],
+      "sources": []
+    },
+    {
+      "place": "goa",
+      "slug": "goa-north-south-7-days",
+      "title": "Goa in 7 days: north, Old Goa and the south",
+      "durationDays": 7,
+      "tripTypes": [
+        "beaches",
+        "heritage",
+        "family"
+      ],
+      "summary": "A week that sees all of Goa: the northern beaches, Panaji and Old Goa, the temples of Ponda on the way south, then Colva and Palolem.",
+      "seoTitle": "Goa in 7 Days: North and South Goa Itinerary",
+      "seoDescription": "A 7-day North and South Goa itinerary: Baga and Anjuna, Panaji and Old Goa, Ponda's temples, Colva and Palolem — with distances, ferries, seasons and tips.",
+      "plan": {
+        "overview": "The classic first full trip. Arrive at Mopa for the north and leave from Dabolim or Canacona in the south. Three nights in the north, one in Panaji, three in the south. Panaji to Margao is about 35 km — around an hour in traffic.",
+        "style": "Beaches · heritage · culture",
+        "start": "Mopa airport",
+        "end": "Dabolim airport or Canacona station",
+        "season": "November–February",
+        "difficulty": "Easy",
+        "transport": "GoaMiles cabs and taxis between bases; scooters for local days.",
+        "days": [
+          {
+            "title": "Arrive in North Goa",
+            "summary": "Settle in at Calangute or Baga.",
+            "stops": [
+              {
+                "time": "Evening",
+                "name": "Baga beach",
+                "placeSlug": "baga"
+              }
+            ],
+            "overnight": "Calangute–Baga",
+            "transport": "Taxi from Mopa"
+          },
+          {
+            "title": "North Goa beaches",
+            "summary": "Fort Aguada, Candolim's water sports and Calangute.",
+            "stops": [
+              {
+                "time": "Morning",
+                "name": "Fort Aguada",
+                "placeSlug": "fort-aguada",
+                "duration": "1 hour"
+              },
+              {
+                "time": "Afternoon",
+                "name": "Water sports at Candolim or Calangute",
+                "placeSlug": "water-sports-in-goa",
+                "duration": "2 hours"
+              }
+            ],
+            "overnight": "Calangute–Baga",
+            "transport": "Scooter or taxi"
+          },
+          {
+            "title": "Anjuna, Chapora and Vagator",
+            "summary": "Market day (Wednesdays), the fort and sunset.",
+            "stops": [
+              {
+                "time": "Morning",
+                "name": "Anjuna",
+                "placeSlug": "anjuna",
+                "duration": "2 hours"
+              },
+              {
+                "time": "Afternoon",
+                "name": "Chapora Fort",
+                "placeSlug": "chapora-fort",
+                "duration": "1 hour"
+              },
+              {
+                "time": "Evening",
+                "name": "Vagator sunset",
+                "placeSlug": "vagator"
+              }
+            ],
+            "overnight": "Calangute–Baga",
+            "transport": "Scooter or taxi"
+          },
+          {
+            "title": "Panaji and Old Goa",
+            "summary": "Move to the capital via Old Goa's churches.",
+            "stops": [
+              {
+                "time": "Morning",
+                "name": "Old Goa's UNESCO churches",
+                "placeSlug": "old-goa",
+                "duration": "2.5 hours"
+              },
+              {
+                "time": "Afternoon",
+                "name": "Fontainhas and the Immaculate Conception church",
+                "placeSlug": "panaji",
+                "duration": "2 hours"
+              },
+              {
+                "time": "Evening",
+                "name": "Miramar or a Mandovi cruise",
+                "placeSlug": "panaji"
+              }
+            ],
+            "overnight": "Panaji",
+            "transport": "Taxi",
+            "logistics": "Old Goa is about 9 km from Panaji."
+          },
+          {
+            "title": "Ponda's temples, south to Colva",
+            "summary": "The Mangueshi and Shanta Durga temples, then on to the south coast.",
+            "stops": [
+              {
+                "time": "Morning",
+                "name": "Mangueshi Temple",
+                "placeSlug": "mangueshi-temple",
+                "duration": "1 hour",
+                "note": "21 km from Panaji."
+              },
+              {
+                "time": "Late morning",
+                "name": "Shanta Durga Temple, Kavalem",
+                "placeSlug": "shanta-durga-temple",
+                "duration": "1 hour"
+              },
+              {
+                "time": "Evening",
+                "name": "Colva beach",
+                "placeSlug": "colva"
+              }
+            ],
+            "overnight": "Colva",
+            "transport": "Taxi",
+            "logistics": "Mangueshi is 26 km from Margao; there is a temple dress code."
+          },
+          {
+            "title": "To Palolem",
+            "summary": "Down the coast to Palolem's calm bay.",
+            "stops": [
+              {
+                "time": "Morning",
+                "name": "Benaulim beach",
+                "placeSlug": "benaulim",
+                "duration": "1 hour"
+              },
+              {
+                "time": "Afternoon",
+                "name": "Palolem",
+                "placeSlug": "palolem"
+              }
+            ],
+            "overnight": "Palolem",
+            "transport": "Taxi",
+            "distance": "Palolem is 40 km from Margao"
+          },
+          {
+            "title": "Palolem, then leave",
+            "summary": "A last swim, then Canacona station or Dabolim.",
+            "stops": [
+              {
+                "time": "Morning",
+                "name": "Kayaking in Palolem bay",
+                "placeSlug": "palolem",
+                "duration": "2 hours"
+              },
+              {
+                "time": "Afternoon",
+                "name": "Leave via Canacona station or Dabolim",
+                "placeSlug": "palolem"
+              }
+            ],
+            "overnight": "—",
+            "transport": "Taxi"
+          }
+        ],
+        "budget": {
+          "assumptions": "Only official prices are listed. VacayOut hasn't checked hotel, taxi, meal or activity prices — they change with the season, and Christmas–New Year is the most expensive week.",
+          "lines": [
+            {
+              "label": "UNESCO churches of Old Goa",
+              "amount": "Free",
+              "basis": "GTDC"
+            },
+            {
+              "label": "Scooter hire",
+              "amount": "About ₹200–500 a day (geared bikes ₹400–1,000)",
+              "basis": "GTDC listing, may be dated — check locally"
+            },
+            {
+              "label": "River ferries",
+              "amount": "Free on foot or by two-wheeler",
+              "basis": "GTDC"
+            }
+          ]
+        },
+        "booking": [
+          {
+            "item": "Flights",
+            "detail": "Book early for October to January."
+          },
+          {
+            "item": "Rooms",
+            "detail": "Book well ahead for Christmas–New Year."
+          }
+        ],
+        "alternatives": [
+          "Swap a beach day for scuba at Grande Island (8-hour trip; divers 10+).",
+          "Monsoon: swap beaches for Dudhsagar, Arvalem falls and the spice country of Ponda.",
+          "Want quieter north? Stay at Arambol instead of Baga."
+        ],
+        "tips": [
+          "Fly in to Mopa and out of Dabolim to save driving.",
+          "Dress modestly at temples.",
+          "Agree taxi fares first."
+        ],
+        "prep": [
+          {
+            "title": "Beach safety",
+            "body": "Swim only between the red-and-yellow flags watched by lifesavers, never after sunset or after drinking, and never in the June–September monsoon. Drinking on beaches is banned."
+          },
+          {
+            "title": "Getting around",
+            "body": "Book cabs on the GoaMiles app or use white tourist taxis (agree the fare first). Local buses are cheapest; scooters are for hire near most beaches — carry your licence; traffic drives on the left."
+          }
+        ],
+        "faqs": [
+          {
+            "q": "Should I stay in North or South Goa?",
+            "a": "Both, on a week: the north for water sports and nightlife, the south for calmer beaches."
+          },
+          {
+            "q": "How long is the drive from North to South Goa?",
+            "a": "Panaji to Margao is about 35 km, around an hour in traffic; Palolem is another 40 km beyond Margao."
+          }
+        ]
+      },
+      "facts": [
+        "GS6",
+        "GR7",
+        "BT1",
+        "BG1",
+        "AG1",
+        "WS1",
+        "AJ1",
+        "CF1",
+        "VG3",
+        "OG1",
+        "OG4",
+        "PJ5",
+        "PJ2",
+        "MT1",
+        "MT5",
+        "SD1",
+        "CV1",
+        "BN1",
+        "PL1",
+        "PL2",
+        "GO6",
+        "GS19",
+        "SB1",
+        "SB3",
+        "AV1",
+        "GS41",
+        "AR1",
+        "GS26",
+        "GS12",
+        "GR1",
+        "GS18",
+        "GS22"
+      ],
+      "sources": []
+    }
+  ],
+  "guides": [
+    {
+      "place": "goa",
+      "places": [
+        "goa/panaji",
+        "goa/margao",
+        "goa/mapusa",
+        "goa/calangute",
+        "goa/palolem"
+      ],
+      "slug": "how-to-reach-goa",
+      "title": "How to reach Goa: airports, trains, buses and roads",
+      "summary": "Which of Goa's two airports to use, the four main railway stations, interstate buses and the coastal highway — and why there is no sea route.",
+      "tripTypes": [
+        "beaches",
+        "family"
+      ],
+      "seoTitle": "How to Reach Goa: Mopa or Dabolim, Trains, Buses",
+      "seoDescription": "Getting to Goa: Mopa vs Dabolim airport, Margao, Thivim, Karmali and Vasco stations, Kadamba buses from Mumbai, NH-66, and booking tips for peak season.",
+      "body": {
+        "intro": "Goa is small, but it has two airports about 60 km apart and four main railway stations. Pick the one nearest where you will stay — the north and south coasts are an hour or more apart.",
+        "sections": [
+          {
+            "heading": "By air",
+            "items": [
+              {
+                "body": "In Pernem, North Goa, open since January 2023 — about 40 km from Panaji and closest to the northern beaches.",
+                "title": "Mopa (Manohar International)",
+                "status": "verified"
+              },
+              {
+                "body": "A civil enclave at the naval base INS Hansa near Vasco da Gama, about 30 km from Panaji — better for Panaji and the south.",
+                "title": "Dabolim",
+                "status": "verified"
+              },
+              {
+                "body": "Flights run full from October to January.",
+                "title": "Book early",
+                "status": "seasonal"
+              },
+              {
+                "body": "Pre-paid taxis charge a standard fare by distance; an airport shuttle bus leaves from outside the terminal; or book a GoaMiles cab.",
+                "title": "From the airport",
+                "status": "verified"
+              }
+            ]
+          },
+          {
+            "heading": "By train",
+            "items": [
+              {
+                "body": "Trains stop at Thivim, Karmali, Madgaon and Vasco da Gama. Madgaon Junction, on the Konkan Railway, is about 38 km from Panaji.",
+                "title": "Stations",
+                "status": "verified"
+              },
+              {
+                "body": "About 8–12 hours. Trains often run full — reserve well ahead.",
+                "title": "From Mumbai",
+                "status": "estimate"
+              }
+            ]
+          },
+          {
+            "heading": "By road",
+            "items": [
+              {
+                "body": "NH-66 runs along the coast to Mumbai and Mangalore; NH-4A climbs to Belagavi.",
+                "title": "Highways",
+                "status": "verified"
+              },
+              {
+                "body": "Kadamba Transport Corporation and private operators run interstate buses from the Kadamba bus stand in Panaji; Mumbai is about 12–16 hours.",
+                "title": "Buses",
+                "status": "estimate"
+              }
+            ]
+          },
+          {
+            "heading": "By sea",
+            "text": "There is no regular passenger ferry from Mumbai — the last sea service stopped in June 2004."
+          }
+        ],
+        "checklist": [
+          "Pick Mopa for the north, Dabolim for Panaji and the south.",
+          "Book flights and trains early for October to January.",
+          "Use pre-paid taxis or GoaMiles from the airport."
+        ]
+      },
+      "facts": [
+        "GS6",
+        "GS7",
+        "GO6",
+        "GR5",
+        "GR1",
+        "GR6",
+        "GO5",
+        "GS8",
+        "GS10",
+        "GS9",
+        "GS11"
+      ],
+      "sources": []
+    },
+    {
+      "place": "goa",
+      "places": [
+        "goa/panaji",
+        "goa/mapusa",
+        "goa/margao",
+        "goa/calangute",
+        "goa/palolem"
+      ],
+      "slug": "getting-around-goa",
+      "title": "Getting around Goa: taxis, GoaMiles, buses, scooters and ferries",
+      "summary": "How to get around Goa: GoaMiles cabs, white tourist taxis, motorcycle 'pilots', local buses, scooter hire and the river ferries — with fares to agree and rules to follow.",
+      "tripTypes": [
+        "beaches",
+        "family"
+      ],
+      "seoTitle": "Getting Around Goa: Taxis, Scooters, Buses, Ferries",
+      "seoDescription": "Getting around Goa: the GoaMiles taxi app, tourist taxis and pilots, local buses, scooter hire, free river ferries, and North-to-South travel times.",
+      "body": {
+        "intro": "Goa has no metro and few metered taxis, so plan how you'll move. Most travellers mix cabs, local buses and a hired scooter; river ferries are a free bonus.",
+        "sections": [
+          {
+            "heading": "Cabs and taxis",
+            "items": [
+              {
+                "body": "Goa Tourism's app-based taxi service books cabs anywhere in the state.",
+                "title": "GoaMiles",
+                "status": "verified"
+              },
+              {
+                "body": "White cars at airports, stations and hotels. Fix the price for the whole trip before you get in.",
+                "title": "Tourist taxis",
+                "status": "verified"
+              },
+              {
+                "body": "Motorcycle taxis with yellow mudguards and plates carry one passenger — cheap for short hops.",
+                "title": "Pilots",
+                "status": "verified"
+              },
+              {
+                "body": "Report overcharging to the nearest Transport Department office.",
+                "title": "Complaints",
+                "status": "verified"
+              }
+            ]
+          },
+          {
+            "heading": "Buses",
+            "items": [
+              {
+                "body": "Private buses reach even remote villages and are the cheapest option; the route is on a board in the front window. State-run KTC buses cover main routes.",
+                "title": "Local buses",
+                "status": "verified"
+              },
+              {
+                "body": "Mapusa for the northern beaches, Margao for the south, the Kadamba stand in Panaji for everything else.",
+                "title": "Hubs",
+                "status": "verified"
+              }
+            ]
+          },
+          {
+            "heading": "Scooters and bikes",
+            "items": [
+              {
+                "body": "Available near most beaches; GTDC lists about ₹200–500 a day for scooters — check current rates. A deposit is usually asked.",
+                "title": "Hire",
+                "status": "estimate"
+              },
+              {
+                "body": "Traffic drives on the left; carry your licence and ID.",
+                "title": "Rules",
+                "status": "verified"
+              }
+            ]
+          },
+          {
+            "heading": "Ferries",
+            "items": [
+              {
+                "body": "Panaji–Betim, Old Goa–Divar, Divar–Narve, Querim–Tiracol and Cavelossim–Assolna.",
+                "title": "Routes",
+                "status": "verified"
+              },
+              {
+                "body": "Free on foot or by two-wheeler; they run from dawn until late evening.",
+                "title": "Fares",
+                "status": "verified"
+              }
+            ]
+          },
+          {
+            "heading": "How long things take",
+            "text": "Panaji to Margao is about 35 km — around an hour in traffic. Calangute is 15 km from Panaji, Palolem 40 km beyond Margao."
+          }
+        ],
+        "checklist": [
+          "Install GoaMiles before you arrive.",
+          "Agree every taxi fare first.",
+          "Carry your licence if you hire a scooter."
+        ]
+      },
+      "facts": [
+        "GR1",
+        "GS12",
+        "GS15",
+        "GR3",
+        "MP3",
+        "PL2",
+        "GS9",
+        "GR4",
+        "GS14",
+        "GS28",
+        "GS13",
+        "GR2",
+        "GR7",
+        "CL1"
+      ],
+      "sources": []
+    },
+    {
+      "place": "goa",
+      "places": [
+        "goa/calangute",
+        "goa/baga",
+        "goa/anjuna",
+        "goa/palolem",
+        "goa/colva"
+      ],
+      "slug": "goa-beach-safety-and-rules",
+      "title": "Goa beach safety and local rules: flags, alcohol, drugs and dress",
+      "summary": "The rules every Goa visitor should know: swim between the flags, beach hours, no drinking on beaches, the drug laws, dress codes, turtle beaches and scams to avoid.",
+      "tripTypes": [
+        "beaches",
+        "family",
+        "adventure"
+      ],
+      "seoTitle": "Goa Beach Rules & Safety: What Every Visitor Must Know",
+      "seoDescription": "Goa beach safety and law: lifesaver flags, 7 am–sunset beach hours, the alcohol and smoking ban on beaches, NDPS drug penalties, dress codes and monsoon swimming.",
+      "body": {
+        "intro": "Most Goa trips go wrong in the water or with the law. Goa Tourism's own do's and don'ts are short and worth following.",
+        "sections": [
+          {
+            "heading": "In the sea",
+            "items": [
+              {
+                "body": "Swim only between the red-and-yellow flags watched by lifesavers; never where a red flag flies. Water sports stay inside the chequered flags.",
+                "title": "Flags",
+                "status": "verified"
+              },
+              {
+                "body": "Beaches are open 7 am to sunset.",
+                "title": "Hours",
+                "status": "verified"
+              },
+              {
+                "body": "Don't swim from June to September — the sea is rough with dangerous undercurrents.",
+                "title": "Monsoon",
+                "status": "seasonal"
+              },
+              {
+                "body": "Keep off wet rocks and don't dive from them.",
+                "title": "Rocks",
+                "status": "verified"
+              }
+            ]
+          },
+          {
+            "heading": "The law",
+            "items": [
+              {
+                "body": "Banned on all beaches; punishable with a fine, jail or both.",
+                "title": "Alcohol and smoking",
+                "status": "verified"
+              },
+              {
+                "body": "Non-bailable under the NDPS Act, with sentences from 6 months to 30 years.",
+                "title": "Drugs",
+                "status": "verified"
+              },
+              {
+                "body": "Dress modestly at temples, churches and mosques; nudity in public is illegal.",
+                "title": "Dress",
+                "status": "verified"
+              },
+              {
+                "body": "No vehicles on beaches. Traffic drives on the left.",
+                "title": "Driving",
+                "status": "verified"
+              }
+            ]
+          },
+          {
+            "heading": "Nature",
+            "items": [
+              {
+                "body": "Olive Ridley turtles nest at Morjim, Agonda and Galgibaga — keep away from marked nests.",
+                "title": "Turtles",
+                "status": "seasonal"
+              }
+            ]
+          },
+          {
+            "heading": "Avoiding trouble",
+            "items": [
+              {
+                "body": "Don't be pushed into shopping by touts or drivers; hire government-approved guides.",
+                "title": "Touts",
+                "status": "verified"
+              },
+              {
+                "body": "Dial 112. Main hospitals are in Panaji, Mapusa, Margao and Vasco da Gama.",
+                "title": "Emergencies",
+                "status": "verified"
+              }
+            ]
+          }
+        ],
+        "checklist": [
+          "Swim between the flags.",
+          "No alcohol on the beach.",
+          "No swimming in the monsoon.",
+          "Save 112 in your phone."
+        ]
+      },
+      "facts": [
+        "GS20",
+        "GS21",
+        "GS23",
+        "GS18",
+        "GS25",
+        "GS22",
+        "NL3",
+        "GS26",
+        "GS24",
+        "GS28",
+        "GS40",
+        "GS29",
+        "GO_112",
+        "GS30"
+      ],
+      "sources": []
+    },
+    {
+      "place": "goa",
+      "places": [
+        "goa/panaji",
+        "goa/old-goa",
+        "goa/bhagwan-mahavir-sanctuary",
+        "goa/arvalem-falls",
+        "goa/adventure-activities-in-goa"
+      ],
+      "slug": "goa-in-the-monsoon",
+      "title": "Goa in the monsoon: what's open, what to skip, what to see",
+      "summary": "Goa from June to September: rain by month, why you shouldn't swim, rafting and waterfalls, monsoon festivals and food, and which activities stop.",
+      "tripTypes": [
+        "nature",
+        "adventure",
+        "food"
+      ],
+      "seoTitle": "Goa in the Monsoon: Rafting, Waterfalls & Festivals",
+      "seoDescription": "Visiting Goa in the monsoon: June–September rainfall, no swimming, Mhadei rafting, Dudhsagar and Arvalem falls, São João, Bonderam and the Gastronomy Month.",
+      "body": {
+        "intro": "The monsoon turns Goa green and empties the beaches. Come for waterfalls, rafting, festivals and food — not for swimming.",
+        "sections": [
+          {
+            "heading": "The weather",
+            "items": [
+              {
+                "body": "The monsoon lasts from June to September. June and July each bring around 900 mm of rain at Panaji; October tails off.",
+                "title": "When",
+                "status": "seasonal"
+              },
+              {
+                "body": "Rough, with dangerous undercurrents — don't swim.",
+                "title": "The sea",
+                "status": "seasonal"
+              }
+            ]
+          },
+          {
+            "heading": "What to do",
+            "items": [
+              {
+                "body": "White-water rafting on the Mhadei runs only June–October, when it rains.",
+                "title": "Rafting",
+                "status": "seasonal"
+              },
+              {
+                "body": "Dudhsagar and Arvalem falls are at their fullest.",
+                "title": "Waterfalls",
+                "status": "seasonal"
+              },
+              {
+                "body": "Old Goa, Panaji and the Ponda temples are good in any weather.",
+                "title": "Heritage",
+                "status": "verified"
+              },
+              {
+                "body": "Goa Tourism runs a Gastronomy Month in July and August.",
+                "title": "Food",
+                "status": "seasonal"
+              }
+            ]
+          },
+          {
+            "heading": "Festivals",
+            "items": [
+              {
+                "body": "24 June — villagers jump into wells; Siolim has a river float parade.",
+                "title": "São João",
+                "status": "seasonal"
+              },
+              {
+                "body": "Divar Island's flag festival, last week of August.",
+                "title": "Bonderam",
+                "status": "seasonal"
+              }
+            ]
+          },
+          {
+            "heading": "What stops",
+            "items": [
+              {
+                "body": "The Mayem bungee closes mid-June to mid-August.",
+                "title": "Bungee",
+                "status": "seasonal"
+              },
+              {
+                "body": "Water sports stop with the rough seas.",
+                "title": "Beaches",
+                "status": "seasonal"
+              }
+            ]
+          }
+        ],
+        "checklist": [
+          "Pack rain gear.",
+          "No sea swimming.",
+          "Book rafting ahead."
+        ]
+      },
+      "facts": [
+        "GS16",
+        "GS17",
+        "GS18",
+        "GS23",
+        "AD3",
+        "DU3",
+        "AV1",
+        "GR9",
+        "FD4",
+        "GS33",
+        "GS34",
+        "AD2"
+      ],
+      "sources": []
+    },
+    {
+      "place": "goa",
+      "places": [
+        "goa/calangute",
+        "goa/baga",
+        "goa/anjuna",
+        "goa/arambol",
+        "goa/panaji",
+        "goa/colva",
+        "goa/palolem"
+      ],
+      "slug": "where-to-stay-in-goa",
+      "title": "Where to stay in Goa: north, south, Panaji or the quiet beaches",
+      "summary": "Which part of Goa suits you: Calangute–Baga for action, Anjuna–Vagator for markets and sunsets, Pernem for quiet, Panaji for heritage, Colva and Palolem for calm.",
+      "tripTypes": [
+        "beaches",
+        "family",
+        "romantic"
+      ],
+      "seoTitle": "Where to Stay in Goa: Best Areas by Traveller",
+      "seoDescription": "Choosing where to stay in Goa: busy Calangute and Baga, bohemian Anjuna and Vagator, quiet Arambol and Morjim, heritage Panaji, calm Colva, Benaulim and Palolem.",
+      "body": {
+        "intro": "Goa is small, but each stretch of coast has its own mood. Choose your base first — moving between north and south takes an hour or more.",
+        "sections": [
+          {
+            "heading": "By area",
+            "items": [
+              {
+                "body": "The busiest beaches: water sports, shacks, nightlife and every service.",
+                "title": "Calangute and Baga",
+                "status": "verified"
+              },
+              {
+                "body": "The first beach from Panaji, below Fort Aguada; a little calmer.",
+                "title": "Candolim",
+                "status": "verified"
+              },
+              {
+                "body": "Rocky coves, the Wednesday flea market, clifftop sunsets.",
+                "title": "Anjuna and Vagator",
+                "status": "verified"
+              },
+              {
+                "body": "Quiet beaches, turtle nesting, yoga and long stays.",
+                "title": "Pernem: Morjim to Arambol",
+                "status": "seasonal"
+              },
+              {
+                "body": "The capital: Fontainhas, Old Goa nearby, river cruises and casinos.",
+                "title": "Panaji",
+                "status": "verified"
+              },
+              {
+                "body": "Wide South Goa beaches near Margao, with quiet evenings.",
+                "title": "Colva and Benaulim",
+                "status": "verified"
+              },
+              {
+                "body": "The far south: calm bays, beach huts in season, few late nights.",
+                "title": "Palolem and Agonda",
+                "status": "verified"
+              }
+            ]
+          },
+          {
+            "heading": "When to book",
+            "items": [
+              {
+                "body": "December and January — book well ahead; Christmas to New Year is busiest.",
+                "title": "Peak",
+                "status": "seasonal"
+              },
+              {
+                "body": "Book through government-approved agents and guides.",
+                "title": "Agents and guides",
+                "status": "verified"
+              }
+            ]
+          }
+        ],
+        "checklist": [
+          "Choose north for action, south for calm.",
+          "Book December–January early.",
+          "Pick the airport nearest your base."
+        ]
+      },
+      "facts": [
+        "CL1",
+        "CL3",
+        "BG1",
+        "NL1",
+        "CD1",
+        "AJ1",
+        "VG1",
+        "VG3",
+        "MJ1",
+        "AR1",
+        "PJ5",
+        "OG4",
+        "NL2",
+        "CV1",
+        "BN1",
+        "PL1",
+        "PL3",
+        "AG1",
+        "GS19",
+        "GS29",
+        "GS6"
+      ],
+      "sources": []
+    }
+  ]
+}

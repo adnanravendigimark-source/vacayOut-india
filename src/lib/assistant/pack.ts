@@ -29,7 +29,7 @@ type Related = { name: string; slug: string; kind: string; summary: string | nul
 type Inline = { slug: string; snapshot: PublishedSnapshot };
 
 const paragraphs = (t: string | undefined) => (t ?? "").split(/\n{2,}/).map((p) => p.trim()).filter(Boolean);
-const clip = (t: string, n = 600) => (t.length > n ? `${t.slice(0, n - 1).trimEnd()}…` : t);
+const clip = (t: string | undefined | null, n = 600) => (!t ? "" : t.length > n ? `${t.slice(0, n - 1).trimEnd()}…` : t);
 
 /** Notes for one place's sections. */
 function sectionNotes(snap: PublishedSnapshot, add: (n: Omit<Note, "id">) => void, opts: { hrefPrefix?: string; labelPrefix?: string } = {}) {
@@ -56,7 +56,7 @@ export function buildPack(input: {
   const place = snapshot.place;
   const notes: Note[] = [];
   const add = (n: Omit<Note, "id">) => {
-    if (n.text.trim()) notes.push({ id: `n${notes.length}`, ...n });
+    if (n.text?.trim()) notes.push({ id: `n${notes.length}`, ...n });
   };
   const inlineSlugs = new Set((input.inline ?? []).map((c) => c.slug));
   const pageOf = (p: RollupPlace) =>
