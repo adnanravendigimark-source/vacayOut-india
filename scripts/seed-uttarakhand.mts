@@ -520,6 +520,17 @@ async function main() {
       await db.update(places).set({ heroMediaId: childMedia.id }).where(eq(places.id, child.id));
     }
 
+    const heroImgObj = {
+      url: img.url,
+      alt: img.alt,
+      caption: img.caption,
+      kind: img.kind,
+      license: img.license,
+      licenseUrl: img.licenseUrl,
+      attribution: img.attribution,
+      sourceUrl: img.sourceUrl,
+    };
+
     childPlacesData.push({
       id: child.id,
       name: child.name,
@@ -529,17 +540,295 @@ async function main() {
       lat: child.lat,
       lng: child.lng,
       tripTypes: child.tripTypes,
-      heroImage: {
-        url: img.url,
-        alt: img.alt,
-        caption: img.caption,
-        kind: img.kind,
-        license: img.license,
-        licenseUrl: img.licenseUrl,
-        attribution: img.attribution,
-        sourceUrl: img.sourceUrl,
-      },
+      heroImage: heroImgObj,
     });
+
+    // Create published snapshot for the child destination
+    const childSnapshot = {
+      place: {
+        id: child.id,
+        kind: d.kind,
+        name: d.name,
+        slug: d.slug,
+        summary: d.summary,
+        lat: d.lat,
+        lng: d.lng,
+        seoTitle: `${d.name} Travel Guide: Places to Visit, Best Time & Trip Planning`,
+        seoDescription: d.summary,
+        state: { name: uk.name, slug: uk.slug },
+        parent: { name: uk.name, slug: uk.slug, kind: "state" },
+        displayMode: "page" as const,
+        hero: heroImgObj,
+      },
+      sections: [
+        {
+          key: "overview",
+          body: { text: d.summary },
+        },
+      ],
+      childPlaces: [],
+      itineraries: [],
+      guides: [],
+      publishedAt: new Date().toISOString(),
+    };
+
+    const [existingChildPV] = await db
+      .select()
+      .from(placeVersions)
+      .where(and(eq(placeVersions.placeId, child.id), eq(placeVersions.version, 1)))
+      .limit(1);
+
+    let childPvRow;
+    if (existingChildPV) {
+      const [u] = await db
+        .update(placeVersions)
+        .set({ snapshot: childSnapshot as any })
+        .where(eq(placeVersions.id, existingChildPV.id))
+        .returning();
+      childPvRow = u;
+    } else {
+      const [i] = await db
+        .insert(placeVersions)
+        .values({
+          placeId: child.id,
+          version: 1,
+          snapshot: childSnapshot as any,
+        })
+        .returning();
+      childPvRow = i;
+    }
+
+    await db
+      .update(places)
+      .set({
+        status: "published",
+        displayMode: "page",
+        publishedVersionId: childPvRow.id,
+        updatedAt: new Date(),
+      })
+      .where(eq(places.id, child.id));
+
+    const childDoc = {
+      versionId: childPvRow.id,
+      path: `/india/uttarakhand/${d.slug}`,
+      name: d.name,
+      kind: d.kind,
+      stateName: "Uttarakhand",
+      content: `${d.name} Uttarakhand. ${d.summary}`,
+      updatedAt: new Date(),
+    };
+    await db
+      .insert(searchDocuments)
+      .values({ placeId: child.id, ...childDoc })
+      .onConflictDoUpdate({ target: searchDocuments.placeId, set: childDoc });
+
+    console.log(`  ✓ Published destination page for: ${d.name} (id: ${child.id})`);
+  }
+
+  // 4b. Seed top activities & experiences for Uttarakhand (shown in /things-to-do)
+  console.log("\n=== 4b. SEEDING TOP ACTIVITIES & EXPERIENCES FOR UTTARAKHAND ===");
+  const rishikeshPlace = childPlacesData.find((c) => c.slug === "rishikesh");
+  const haridwarPlace = childPlacesData.find((c) => c.slug === "haridwar");
+  const corbettPlace = childPlacesData.find((c) => c.slug === "jim-corbett");
+  const nainitalPlace = childPlacesData.find((c) => c.slug === "nainital");
+
+  const ACTIVITIES = [
+    {
+      name: "White-Water River Rafting in Rishikesh",
+      slug: "river-rafting-rishikesh",
+      kind: "activity" as const,
+      category: "adventure",
+      parent: rishikeshPlace,
+      summary: "Experience exhilarating Grade III and IV white-water rapids along the emerald Ganga from Shivpuri down to Rishikesh with cliff jumping.",
+      lat: "30.1350",
+      lng: "78.3880",
+      tripTypes: ["adventure", "nature"],
+      query: "River Rafting in Ganga Near Rishikesh",
+      alt: "Whitewater rafting raft navigating turbulent turquoise rapids",
+      caption: "White-Water Rafting in Shivpuri Rapids, Rishikesh",
+    },
+    {
+      name: "Har Ki Pauri Evening Ganga Aarti",
+      slug: "har-ki-pauri-ganga-aarti-haridwar",
+      kind: "attraction" as const,
+      category: "spiritual",
+      parent: haridwarPlace,
+      summary: "Attend the iconic twilight Maha Aarti ceremony at Har Ki Pauri with hundreds of floating brass oil lamps and Vedic chanting.",
+      lat: "29.9575",
+      lng: "78.1722",
+      tripTypes: ["spiritual", "cultural"],
+      query: "Har Ki Pauri Haridwar Ganga Aarti",
+      alt: "Evening Ganga Aarti ceremony at Har Ki Pauri with lamps and chanting",
+      caption: "Ganga Aarti at Har Ki Pauri, Haridwar",
+    },
+    {
+      name: "Jim Corbett Open-Jeep Tiger Safari",
+      slug: "jim-corbett-jeep-tiger-safari",
+      kind: "activity" as const,
+      category: "nature",
+      parent: corbettPlace,
+      summary: "Embark on an open 4x4 Gypsy game drive through prime Sal forests and grasslands in Bijrani and Dhikala zones tracking Royal Bengal tigers.",
+      lat: "29.5300",
+      lng: "78.7747",
+      tripTypes: ["nature", "wildlife"],
+      query: "Tiger Corbett National Park",
+      alt: "Royal Bengal Tiger moving through early morning mist in grasslands",
+      caption: "Tiger Safari, Jim Corbett National Park",
+    },
+    {
+      name: "Boating on Emerald Naini Lake",
+      slug: "naini-lake-boating-nainital",
+      kind: "lake" as const,
+      category: "nature",
+      parent: nainitalPlace,
+      summary: "Glide across the serene waters of crescent-shaped Naini Lake on traditional paddle or rowing boats surrounded by lush oak-forested hills.",
+      lat: "29.3919",
+      lng: "79.4542",
+      tripTypes: ["nature", "family"],
+      query: "Nainital Lake boats",
+      alt: "Boats floating on emerald Naini Lake",
+      caption: "Naini Lake Boating, Nainital",
+    },
+  ];
+
+  for (const act of ACTIVITIES) {
+    let [actPlace] = await db
+      .select()
+      .from(places)
+      .where(and(eq(places.slug, act.slug), eq(places.stateId, uk.id)))
+      .limit(1);
+
+    if (!actPlace) {
+      [actPlace] = await db
+        .insert(places)
+        .values({
+          kind: act.kind,
+          category: act.category,
+          name: act.name,
+          slug: act.slug,
+          parentId: act.parent?.id ?? uk.id,
+          stateId: uk.id,
+          summary: act.summary,
+          lat: act.lat,
+          lng: act.lng,
+          seoTitle: `${act.name}: Best Time, Timings, Tickets & Guide`,
+          seoDescription: act.summary,
+          status: "published",
+          tripTypes: act.tripTypes,
+          suggestedTripTypes: act.tripTypes,
+          featured: true,
+          displayMode: "page",
+        })
+        .returning();
+      console.log(`✓ Inserted experience/activity: ${act.name}`);
+    }
+
+    const actImg = await fetchAndStoreImage(act.query, `places/${act.slug}/hero`, act.alt, act.caption);
+    const [actMedia] = await db
+      .insert(media)
+      .values({
+        placeId: actPlace.id,
+        storageKey: actImg.storageKey,
+        url: actImg.url,
+        contentType: actImg.contentType,
+        bytes: actImg.bytes,
+        alt: actImg.alt,
+        caption: actImg.caption,
+        kind: "photo",
+        license: actImg.license,
+        licenseUrl: actImg.licenseUrl,
+        attribution: actImg.attribution,
+        sourceUrl: actImg.sourceUrl,
+        createdAt: new Date(),
+      })
+      .returning();
+
+    await db.update(places).set({ heroMediaId: actMedia.id }).where(eq(places.id, actPlace.id));
+
+    const actSnapshot = {
+      place: {
+        id: actPlace.id,
+        kind: act.kind,
+        name: act.name,
+        slug: act.slug,
+        summary: act.summary,
+        lat: act.lat,
+        lng: act.lng,
+        seoTitle: `${act.name}: Best Time, Timings, Tickets & Guide`,
+        seoDescription: act.summary,
+        state: { name: uk.name, slug: uk.slug },
+        parent: act.parent ? { name: act.parent.name, slug: act.parent.slug, kind: act.parent.kind } : { name: uk.name, slug: uk.slug, kind: "state" },
+        displayMode: "page" as const,
+        hero: {
+          url: actImg.url,
+          alt: actImg.alt,
+          caption: actImg.caption,
+          kind: actImg.kind,
+          license: actImg.license,
+          licenseUrl: actImg.licenseUrl,
+          attribution: actImg.attribution,
+          sourceUrl: actImg.sourceUrl,
+        },
+      },
+      sections: [{ key: "overview", body: { text: act.summary } }],
+      childPlaces: [],
+      itineraries: [],
+      guides: [],
+      publishedAt: new Date().toISOString(),
+    };
+
+    const [existingActPV] = await db
+      .select()
+      .from(placeVersions)
+      .where(and(eq(placeVersions.placeId, actPlace.id), eq(placeVersions.version, 1)))
+      .limit(1);
+
+    let actPvRow;
+    if (existingActPV) {
+      const [u] = await db
+        .update(placeVersions)
+        .set({ snapshot: actSnapshot as any })
+        .where(eq(placeVersions.id, existingActPV.id))
+        .returning();
+      actPvRow = u;
+    } else {
+      const [i] = await db
+        .insert(placeVersions)
+        .values({
+          placeId: actPlace.id,
+          version: 1,
+          snapshot: actSnapshot as any,
+        })
+        .returning();
+      actPvRow = i;
+    }
+
+    await db
+      .update(places)
+      .set({
+        status: "published",
+        displayMode: "page",
+        publishedVersionId: actPvRow.id,
+        updatedAt: new Date(),
+      })
+      .where(eq(places.id, actPlace.id));
+
+    const parentSlug = act.parent ? `${act.parent.slug}/` : "";
+    const actDoc = {
+      versionId: actPvRow.id,
+      path: `/india/uttarakhand/${parentSlug}${act.slug}`,
+      name: act.name,
+      kind: act.kind,
+      stateName: "Uttarakhand",
+      content: `${act.name} Uttarakhand. ${act.summary}`,
+      updatedAt: new Date(),
+    };
+    await db
+      .insert(searchDocuments)
+      .values({ placeId: actPlace.id, ...actDoc })
+      .onConflictDoUpdate({ target: searchDocuments.placeId, set: actDoc });
+
+    console.log(`  ✓ Published activity: ${act.name} (id: ${actPlace.id})`);
   }
 
   // 5. Populate All 16 State Sections for Uttarakhand
