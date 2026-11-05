@@ -10,7 +10,8 @@ import { z } from "zod";
 import { blockSchema, tripMemorySchema, type Block, type ChatTurn, type TripMemory } from "@/lib/chat/schema";
 import { numbersIn, stripRefs } from "@/lib/research/draft";
 import { outputText, type CallModel } from "@/lib/research/openai";
-import type { Classification } from "./classify";
+import { effortFor, type Classification } from "./classify";
+import { isPlanIntent } from "./focus";
 
 export type GuideDoc = {
   ref: string;
@@ -67,7 +68,7 @@ const answerSchema = {
   properties: {
     blocks: { type: "array", items: { anyOf: blockJsonSchemas } },
     summary: { type: "string", description: "One line (under 200 chars) describing what you answered, for conversation context." },
-    follow_ups: { type: "array", items: s, description: "Up to 4 short follow-up questions the traveller might ask next." },
+    follow_ups: { type: "array", items: s, description: "Up to 3 short follow-up questions the traveller might ask next." },
     memory: {
       type: "object",
       additionalProperties: false,
@@ -85,7 +86,8 @@ const answerSchema = {
   },
 } as const;
 
-const STYLE = `Write like a well-travelled friend: warm, specific, plain Indian English, short sentences. No hype words (breathtaking, paradise, hidden gem, must-visit). Use ₹. Choose only the cards this question needs — usually 2 to 4.`;
+const STYLE = `Write like a well-travelled friend: warm, specific, plain Indian English, short sentences. No hype words (breathtaking, paradise, hidden gem, must-visit). Use ₹.
+Be brief: answer exactly what was asked, first. Use only the cards this question needs — usually 1 or 2, at most 4 for a full trip plan. A text card is at most 3 sentences. Lists have at most 5 items; an itinerary day has at most 4 items. Don't repeat the same point in two cards.`;
 
 const RULES = `Rules:
 - Use ONLY the GUIDES and WEB FACTS below. Never add places, prices, times, distances, dates, names or claims from your own knowledge.
@@ -98,14 +100,19 @@ const RULES = `Rules:
 export function contextPrompt(ctx: ComposeContext): string {
   const guides = ctx.guides
     .map((g) => {
-      const kids = g.children.length ? `\nPlaces inside ${g.name}: ${g.children.map((c) => `${c.name} (${c.kind})${c.summary ? ` — ${c.summary}` : ""}`).join("; ")}` : "";
+      // Child places matter for plans and "what to see"; for a focused question they are just noise.
+      const kidsWanted = isPlanIntent(ctx.cls.intent) || ctx.cls.intent === "things_to_do" || ctx.cls.intent === "general";
+      const list = g.children.slice(0, isPlanIntent(ctx.cls.intent) ? 15 : 8);
+      const kids = kidsWanted && list.length ? `\nPlaces inside ${g.name}: ${list.map((c) => `${c.name} (${c.kind})${c.summary ? ` — ${clip(c.summary, 120)}` : ""}`).join("; ")}` : "";
       return `[${g.ref}] VacayOut guide: ${g.name} (${g.kind}${g.stateName && g.kind !== "state" ? `, ${g.stateName}` : ""})\n${g.text}${kids}`;
     })
     .join("\n\n");
   const web = ctx.web.map((w) => `[${w.ref}] (${w.claimType}) ${w.claim}`).join("\n");
-  const convo = ctx.turns.slice(-8).map((t) => `${t.role === "user" ? "Traveller" : "VacayOut (summary)"}: ${t.content}`).join("\n");
+  const convo = ctx.turns.slice(-6).map((t) => `${t.role === "user" ? "Traveller" : "VacayOut (summary)"}: ${clip(t.content, 400)}`).join("\n");
   return `GUIDES (reviewed by VacayOut):\n${guides || "(none)"}\n\nWEB FACTS (from live web research, not yet reviewed):\n${web || "(none)"}\n\nTrip memory: ${ctx.memory ? JSON.stringify(ctx.memory) : "none"}\nRequest: ${ctx.cls.standalone}\n\nConversation:\n${convo}`;
 }
+
+const clip = (t: string, n: number) => (t.length > n ? `${t.slice(0, n - 1).trimEnd()}…` : t);
 
 // ---------- grounding (pure) ----------
 
@@ -129,10 +136,10 @@ function toBlock(b: Record<string, unknown>): Block | null {
   const t = b.type;
   const candidate: unknown =
     t === "text" ? { type: "text", text: b.text }
-    : t === "itinerary" ? { type: "itinerary", title: b.title, days: (b.days as { title: string; items: string[] }[] | undefined)?.slice(0, 14).map((d) => ({ title: d.title, items: d.items.slice(0, 6) })) }
+    : t === "itinerary" ? { type: "itinerary", title: b.title, days: (b.days as { title: string; items: string[] }[] | undefined)?.slice(0, 14).map((d) => ({ title: d.title, items: d.items.slice(0, 5) })) }
     : t === "reach" ? { type: "reach", items: (b.items as unknown[] | undefined)?.slice(0, 5), ...(b.local_transport ? { localTransport: b.local_transport } : {}) }
-    : t === "tips" ? { type: "tips", items: (b.items as unknown[] | undefined)?.slice(0, 8) }
-    : t === "faqs" ? { type: "faqs", items: (b.items as unknown[] | undefined)?.slice(0, 8) }
+    : t === "tips" ? { type: "tips", items: (b.items as unknown[] | undefined)?.slice(0, 5) }
+    : t === "faqs" ? { type: "faqs", items: (b.items as unknown[] | undefined)?.slice(0, 4) }
     : t === "budget" ? { type: "budget", basis: b.basis, tiers: (b.tiers as { label: string; low: number; high: number | null }[] | undefined)?.slice(0, 4).map((x) => ({ label: x.label, low: x.low, ...(x.high ? { high: x.high } : {}) })), note: "Estimate from the sources below — check current prices before you book." }
     : t === "attractions" ? { type: "attractions", title: b.title, items: (b.items as unknown[] | undefined)?.slice(0, 8) }
     : t === "best_time" ? { type: "bestTime", destination: b.destination, months: b.months, summary: b.summary }
@@ -214,8 +221,10 @@ ${contextPrompt(ctx)}`;
   const r = await deps.call({
     model: deps.model,
     input,
-    max_output_tokens: 5000,
-    reasoning: { effort: "low" },
+    // A focused answer is a few hundred tokens of JSON; a full plan needs room for every day.
+    max_output_tokens: isPlanIntent(ctx.cls.intent) ? 4000 : 1500,
+    reasoning: { effort: effortFor(deps.model) },
+    store: false,
     text: { format: { type: "json_schema", name: "answer", strict: true, schema: answerSchema } },
   });
   if (r.status === "incomplete") throw new Error("The answer was cut short.");
@@ -232,7 +241,7 @@ ${contextPrompt(ctx)}`;
   return {
     ...grounded,
     summary: stripRefs(parsed.summary).slice(0, 200),
-    followUps: parsed.follow_ups.map((f) => stripRefs(f).slice(0, 80)).filter((f) => f.length > 2).slice(0, 4),
+    followUps: parsed.follow_ups.map((f) => stripRefs(f).slice(0, 80)).filter((f) => f.length > 2).slice(0, 3),
     memory: mem.success ? mem.data : null,
   };
 }

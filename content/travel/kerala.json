@@ -1,8 +1,8 @@
 {
   "cluster": "kerala",
   "title": "Kerala (Kochi, Munnar, Alappuzha)",
-  "researchedAt": "2026-10-27",
-  "selection": "Kerala recorded 0.738 million foreign tourist visits in 2024 (India Tourism Data Compendium 2025, Table 4.1.2), up 13.8% on 2023, and is India's best-known backwater and hill-station destination. Kochi is the main international gateway; Munnar and Alappuzha are the most-visited hill and backwater bases.",
+  "researchedAt": "2026-11-05",
+  "selection": "Kerala recorded 0.738 million foreign tourist visits in 2024 (India Tourism Data Compendium 2025, Table 4.1.2), up 13.8% on 2023, and is India's best-known backwater and hill-station destination. Kochi is the main international gateway; Munnar and Alappuzha are the most-visited hill and backwater bases. v2 (2026-11-05): state record rebuilt in the Himachal layout and 16 destinations added, from Kerala Tourism (Department of Tourism) FAQ and destination pages, Incredible India, the Kerala district websites (nic.in / gov.in) and Wikipedia. Where official pages disagree on distances (e.g. Kovalam's airport, 10 vs 15 km), a range is given. The Wayanad district how-to-reach page is placeholder text and is not used; the Pathanamthitta site files Sabarimala and Gavi under each other's URLs. No prices are given.",
   "sources": {
     "II_KER": {
       "url": "https://www.incredibleindia.gov.in/en/kerala",
@@ -98,6 +98,451 @@
       "url": "https://en.wikipedia.org/wiki/Alappuzha",
       "title": "Alappuzha — Wikipedia",
       "authority": "reference"
+    },
+    "KT_GLANCE": {
+      "url": "https://www.keralatourism.org/kerala-at-a-glance/",
+      "title": "Kerala at a glance — Kerala Tourism (Department of Tourism, Government of Kerala)",
+      "authority": "government"
+    },
+    "KT_TEN": {
+      "url": "https://www.keralatourism.org/faq/ten-facts-about-kerala",
+      "title": "Facts about Kerala — Kerala Tourism (Department of Tourism, Government of Kerala)",
+      "authority": "government"
+    },
+    "KT_20": {
+      "url": "https://www.keralatourism.org/faq/20-things-to-know-before-you-visit-kerala",
+      "title": "20 things to know before you visit Kerala — Kerala Tourism (Department of Tourism, Government of Kerala)",
+      "authority": "government"
+    },
+    "KT_CLIM": {
+      "url": "https://www.keralatourism.org/faq/what-is-the-climate-of-kerala",
+      "title": "What is the climate of Kerala — Kerala Tourism (Department of Tourism, Government of Kerala)",
+      "authority": "government"
+    },
+    "KT_FEST": {
+      "url": "https://www.keralatourism.org/faq/comprehensive-list-of-festivals-celebrated-in-kerala-throughout-the-year",
+      "title": "Festivals celebrated in Kerala throughout the year — Kerala Tourism (Department of Tourism, Government of Kerala)",
+      "authority": "government"
+    },
+    "KT_MONS": {
+      "url": "https://www.keralatourism.org/faq/when-does-monsoon-start-in-kerala",
+      "title": "When does the monsoon start in Kerala? — Kerala Tourism (Department of Tourism, Government of Kerala)",
+      "authority": "government"
+    },
+    "KT_FLOOD": {
+      "url": "https://www.keralatourism.org/faq/are-floods-frequent-in-kerala",
+      "title": "Are floods frequent in Kerala? — Kerala Tourism (Department of Tourism, Government of Kerala)",
+      "authority": "government"
+    },
+    "KT_FOOD": {
+      "url": "https://www.keralatourism.org/faq/what-kerala-offer-food-enthusiasts-for-information-on-keralas-diverse-cuisine",
+      "title": "Kerala's diverse cuisine — Kerala Tourism (Department of Tourism, Government of Kerala)",
+      "authority": "government"
+    },
+    "KT_NOTMISS": {
+      "url": "https://www.keralatourism.org/faq/what-you-should-not-miss-in-kerala",
+      "title": "What you should not miss in Kerala — Kerala Tourism (Department of Tourism, Government of Kerala)",
+      "authority": "government"
+    },
+    "KT_UNIQ": {
+      "url": "https://www.keralatourism.org/faq/unique-things-to-do-in-kerala",
+      "title": "Unique things to do in Kerala — Kerala Tourism (Department of Tourism, Government of Kerala)",
+      "authority": "government"
+    },
+    "KT_25": {
+      "url": "https://www.keralatourism.org/faq/25-facts-about-kerala-the-land-of-coconuts-and-backwaters",
+      "title": "25 facts about Kerala — Kerala Tourism (Department of Tourism, Government of Kerala)",
+      "authority": "government"
+    },
+    "KT_BOAT": {
+      "url": "https://www.keralatourism.org/faq/various-boating-experiences-including-canoeing-kayaking-boatrides",
+      "title": "Boating experiences in Kerala — Kerala Tourism (Department of Tourism, Government of Kerala)",
+      "authority": "government"
+    },
+    "KT_KOV": {
+      "url": "https://www.keralatourism.org/destination/kovalam-beach/236/",
+      "title": "Kovalam beach — Kerala Tourism (Department of Tourism, Government of Kerala)",
+      "authority": "government"
+    },
+    "KT_VAR": {
+      "url": "https://www.keralatourism.org/varkala",
+      "title": "Varkala — Kerala Tourism (Department of Tourism, Government of Kerala)",
+      "authority": "government"
+    },
+    "KT_PER": {
+      "url": "https://www.keralatourism.org/periyar",
+      "title": "Thekkady and the Periyar Tiger Reserve — Kerala Tourism (Department of Tourism, Government of Kerala)",
+      "authority": "government"
+    },
+    "KT_ROUTE": {
+      "url": "https://www.keralatourism.org/periyar/thekkady-route-map.php",
+      "title": "Getting to Thekkady — Kerala Tourism (Department of Tourism, Government of Kerala)",
+      "authority": "government"
+    },
+    "KT_KUMCLIM": {
+      "url": "https://www.keralatourism.org/kumarakom/climate-kumarakom-kottayam.php",
+      "title": "Kumarakom climate — Kerala Tourism (Department of Tourism, Government of Kerala)",
+      "authority": "government"
+    },
+    "KT_KUMHB": {
+      "url": "https://www.keralatourism.org/kumarakom/houseboat-cruise-kumarakom.php",
+      "title": "Houseboat cruise, Kumarakom — Kerala Tourism (Department of Tourism, Government of Kerala)",
+      "authority": "government"
+    },
+    "W_KER": {
+      "url": "https://en.wikipedia.org/wiki/Kerala",
+      "title": "Kerala — Wikipedia",
+      "authority": "reference"
+    },
+    "W_BW": {
+      "url": "https://en.wikipedia.org/wiki/Kerala_backwaters",
+      "title": "Kerala backwaters — Wikipedia",
+      "authority": "reference"
+    },
+    "W_TVM": {
+      "url": "https://en.wikipedia.org/wiki/Thiruvananthapuram",
+      "title": "Thiruvananthapuram — Wikipedia",
+      "authority": "reference"
+    },
+    "W_VAR": {
+      "url": "https://en.wikipedia.org/wiki/Varkala",
+      "title": "Varkala — Wikipedia",
+      "authority": "reference"
+    },
+    "W_KUM": {
+      "url": "https://en.wikipedia.org/wiki/Kumarakom",
+      "title": "Kumarakom — Wikipedia",
+      "authority": "reference"
+    },
+    "W_THK": {
+      "url": "https://en.wikipedia.org/wiki/Thekkady",
+      "title": "Thekkady — Wikipedia",
+      "authority": "reference"
+    },
+    "W_VAG": {
+      "url": "https://en.wikipedia.org/wiki/Vagamon",
+      "title": "Vagamon — Wikipedia",
+      "authority": "reference"
+    },
+    "W_CHEM": {
+      "url": "https://en.wikipedia.org/wiki/Chembra_Peak",
+      "title": "Chembra Peak — Wikipedia",
+      "authority": "reference"
+    },
+    "W_TSR": {
+      "url": "https://en.wikipedia.org/wiki/Thrissur",
+      "title": "Thrissur — Wikipedia",
+      "authority": "reference"
+    },
+    "W_TP": {
+      "url": "https://en.wikipedia.org/wiki/Thrissur_Pooram",
+      "title": "Thrissur Pooram — Wikipedia",
+      "authority": "reference"
+    },
+    "W_ATH": {
+      "url": "https://en.wikipedia.org/wiki/Athirappilly_Falls",
+      "title": "Athirappilly Falls — Wikipedia",
+      "authority": "reference"
+    },
+    "W_KZ": {
+      "url": "https://en.wikipedia.org/wiki/Kozhikode",
+      "title": "Kozhikode — Wikipedia",
+      "authority": "reference"
+    },
+    "W_KAN": {
+      "url": "https://en.wikipedia.org/wiki/Kannur",
+      "title": "Kannur — Wikipedia",
+      "authority": "reference"
+    },
+    "W_MUZ": {
+      "url": "https://en.wikipedia.org/wiki/Muzhappilangad_Beach",
+      "title": "Muzhappilangad Beach — Wikipedia",
+      "authority": "reference"
+    },
+    "W_BEKF": {
+      "url": "https://en.wikipedia.org/wiki/Bekal_Fort",
+      "title": "Bekal Fort — Wikipedia",
+      "authority": "reference"
+    },
+    "W_MAR": {
+      "url": "https://en.wikipedia.org/wiki/Marari_Beach",
+      "title": "Marari Beach — Wikipedia",
+      "authority": "reference"
+    },
+    "W_POO": {
+      "url": "https://en.wikipedia.org/wiki/Poovar",
+      "title": "Poovar — Wikipedia",
+      "authority": "reference"
+    },
+    "W_NEL": {
+      "url": "https://en.wikipedia.org/wiki/Nelliyampathy",
+      "title": "Nelliyampathy — Wikipedia",
+      "authority": "reference"
+    },
+    "II_TVM": {
+      "url": "https://www.incredibleindia.gov.in/en/kerala/thiruvananthapuram",
+      "title": "Thiruvananthapuram — Incredible India (Ministry of Tourism)",
+      "authority": "government"
+    },
+    "II_KOV": {
+      "url": "https://www.incredibleindia.gov.in/en/kerala/kovalam",
+      "title": "Kovalam — Incredible India (Ministry of Tourism)",
+      "authority": "government"
+    },
+    "II_VAR": {
+      "url": "https://www.incredibleindia.gov.in/en/kerala/varkala",
+      "title": "Varkala — Incredible India (Ministry of Tourism)",
+      "authority": "government"
+    },
+    "II_KOL": {
+      "url": "https://www.incredibleindia.gov.in/en/kerala/kollam",
+      "title": "Kollam — Incredible India (Ministry of Tourism)",
+      "authority": "government"
+    },
+    "II_KUM": {
+      "url": "https://www.incredibleindia.gov.in/en/kerala/kumarakom",
+      "title": "Kumarakom — Incredible India (Ministry of Tourism)",
+      "authority": "government"
+    },
+    "II_WAY": {
+      "url": "https://www.incredibleindia.gov.in/en/kerala/wayanad",
+      "title": "Wayanad — Incredible India (Ministry of Tourism)",
+      "authority": "government"
+    },
+    "II_TSR": {
+      "url": "https://www.incredibleindia.gov.in/en/kerala/thrissur",
+      "title": "Thrissur — Incredible India (Ministry of Tourism)",
+      "authority": "government"
+    },
+    "II_KZ": {
+      "url": "https://www.incredibleindia.gov.in/en/kerala/kozhikode",
+      "title": "Kozhikode — Incredible India (Ministry of Tourism)",
+      "authority": "government"
+    },
+    "II_KAN": {
+      "url": "https://www.incredibleindia.gov.in/en/kerala/kannur",
+      "title": "Kannur — Incredible India (Ministry of Tourism)",
+      "authority": "government"
+    },
+    "II_BEK": {
+      "url": "https://www.incredibleindia.gov.in/en/kerala/bekal",
+      "title": "Bekal — Incredible India (Ministry of Tourism)",
+      "authority": "government"
+    },
+    "II_KSG": {
+      "url": "https://www.incredibleindia.gov.in/en/kerala/kasargod",
+      "title": "Kasargod — Incredible India (Ministry of Tourism)",
+      "authority": "government"
+    },
+    "TVM_HTR": {
+      "url": "https://trivandrum.nic.in/en/how-to-reach/",
+      "title": "How to reach — District Trivandrum, Government of Kerala",
+      "authority": "government"
+    },
+    "TVM_KOV": {
+      "url": "https://trivandrum.nic.in/en/tourist-place/kovalam-beach/",
+      "title": "Kovalam beach — District Trivandrum, Government of Kerala",
+      "authority": "government"
+    },
+    "TVM_MUS": {
+      "url": "https://trivandrum.nic.in/en/tourist-place/museum-and-zoo-in-thiruvananthapuram/",
+      "title": "Museum and zoo — District Trivandrum, Government of Kerala",
+      "authority": "government"
+    },
+    "TVM_SHANG": {
+      "url": "https://trivandrum.nic.in/en/tourist-place/sankhumugham-beach/",
+      "title": "Shankumugham beach — District Trivandrum, Government of Kerala",
+      "authority": "government"
+    },
+    "TVM_NEY": {
+      "url": "https://trivandrum.nic.in/en/tourist-place/neyyar-dam/",
+      "title": "Neyyar dam — District Trivandrum, Government of Kerala",
+      "authority": "government"
+    },
+    "KLM_HTR": {
+      "url": "https://kollam.nic.in/en/how-to-reach/",
+      "title": "How to reach — District Kollam, Government of Kerala",
+      "authority": "government"
+    },
+    "KLM_JAT": {
+      "url": "https://kollam.nic.in/en/tourist-place/jatayu-adventure-center/",
+      "title": "Jatayu Adventure Center — District Kollam, Government of Kerala",
+      "authority": "government"
+    },
+    "KLM_THEN": {
+      "url": "https://kollam.nic.in/en/tourist-place/thenmala/",
+      "title": "Thenmala — District Kollam, Government of Kerala",
+      "authority": "government"
+    },
+    "KLM_PAL": {
+      "url": "https://kollam.nic.in/en/tourist-place/paalaruvi/",
+      "title": "Palaruvi waterfalls — District Kollam, Government of Kerala",
+      "authority": "government"
+    },
+    "KTM_HTR": {
+      "url": "https://kottayam.nic.in/en/how-to-reach/",
+      "title": "How to reach — District Kottayam, Government of Kerala",
+      "authority": "government"
+    },
+    "KTM_KUM": {
+      "url": "https://kottayam.nic.in/en/tourist-place/kumarakom/",
+      "title": "Kumarakom — District Kottayam, Government of Kerala",
+      "authority": "government"
+    },
+    "KTM_BIRD": {
+      "url": "https://kottayam.nic.in/en/tourist-place/bird-sanctuary-kumarakom/",
+      "title": "Kumarakom bird sanctuary — District Kottayam, Government of Kerala",
+      "authority": "government"
+    },
+    "KTM_VEM": {
+      "url": "https://kottayam.nic.in/en/tourist-place/vembanad-lake/",
+      "title": "Vembanad Lake — District Kottayam, Government of Kerala",
+      "authority": "government"
+    },
+    "KTM_VAG": {
+      "url": "https://kottayam.nic.in/en/tourist-place/vagamon/",
+      "title": "Vagamon — District Kottayam, Government of Kerala",
+      "authority": "government"
+    },
+    "KTM_ILA": {
+      "url": "https://kottayam.nic.in/en/tourist-place/ilaveezhapoonchira/",
+      "title": "Ilaveezhapoonchira — District Kottayam, Government of Kerala",
+      "authority": "government"
+    },
+    "IDK_HTR": {
+      "url": "https://idukki.nic.in/en/how-to-reach/",
+      "title": "How to reach — District Idukki, Government of Kerala",
+      "authority": "government"
+    },
+    "IDK_PER": {
+      "url": "https://idukki.nic.in/en/tourist-place/periyar-tiger-reserve-thekkady/",
+      "title": "Periyar Tiger Reserve, Thekkady — District Idukki, Government of Kerala",
+      "authority": "government"
+    },
+    "IDK_MUN": {
+      "url": "https://idukki.nic.in/en/tourist-place/munnar/",
+      "title": "Munnar — District Idukki, Government of Kerala",
+      "authority": "government"
+    },
+    "ERN_HTR": {
+      "url": "https://ernakulam.nic.in/en/how-to-reach/",
+      "title": "How to reach — District Ernakulam, Government of Kerala",
+      "authority": "government"
+    },
+    "ERN_HILL": {
+      "url": "https://ernakulam.nic.in/en/tourist-place/hill-palace/",
+      "title": "Hill Palace — District Ernakulam, Government of Kerala",
+      "authority": "government"
+    },
+    "ERN_CHERAI": {
+      "url": "https://ernakulam.nic.in/en/tourist-place/cherai-beach/",
+      "title": "Cherai beach — District Ernakulam, Government of Kerala",
+      "authority": "government"
+    },
+    "ALP_HTR": {
+      "url": "https://alappuzha.nic.in/en/how-to-reach/",
+      "title": "How to reach — District Alappuzha, Government of Kerala",
+      "authority": "government"
+    },
+    "ALP_PAT": {
+      "url": "https://alappuzha.nic.in/en/tourist-place/pathiramanal/",
+      "title": "Pathiramanal — District Alappuzha, Government of Kerala",
+      "authority": "government"
+    },
+    "ALP_BEACH": {
+      "url": "https://alappuzha.nic.in/en/tourist-place/alappuzha-beach/",
+      "title": "Alappuzha beach — District Alappuzha, Government of Kerala",
+      "authority": "government"
+    },
+    "TSR_HTR": {
+      "url": "https://thrissur.nic.in/en/how-to-reach/",
+      "title": "How to reach — District Thrissur, Government of Kerala",
+      "authority": "government"
+    },
+    "TSR_ATH": {
+      "url": "https://thrissur.nic.in/en/tourist-place/athirappilly-waterfall/",
+      "title": "Athirappilly waterfall — District Thrissur, Government of Kerala",
+      "authority": "government"
+    },
+    "TSR_SAK": {
+      "url": "https://thrissur.nic.in/en/tourist-place/sakthan-palace/",
+      "title": "Sakthan Thampuran Palace — District Thrissur, Government of Kerala",
+      "authority": "government"
+    },
+    "TSR_PUN": {
+      "url": "https://thrissur.nic.in/en/tourist-place/punnathur-kotta/",
+      "title": "Punnathur Kotta — District Thrissur, Government of Kerala",
+      "authority": "government"
+    },
+    "KZ_HTR": {
+      "url": "https://kozhikode.nic.in/en/how-to-reach/",
+      "title": "How to reach — District Kozhikode, Government of Kerala",
+      "authority": "government"
+    },
+    "KZ_BEACH": {
+      "url": "https://kozhikode.nic.in/en/tourist-place/kozhikode-beach/",
+      "title": "Kozhikode beach — District Kozhikode, Government of Kerala",
+      "authority": "government"
+    },
+    "KNR_HTR": {
+      "url": "https://kannur.nic.in/en/how-to-reach/",
+      "title": "How to reach — District Kannur, Government of Kerala",
+      "authority": "government"
+    },
+    "KNR_PAY": {
+      "url": "https://kannur.nic.in/en/tourist-place/payyambalam-beach/",
+      "title": "Payyambalam beach — District Kannur, Government of Kerala",
+      "authority": "government"
+    },
+    "KNR_FORT": {
+      "url": "https://kannur.nic.in/en/tourist-place/kannur-fort/",
+      "title": "Kannur Fort — District Kannur, Government of Kerala",
+      "authority": "government"
+    },
+    "KSD_BEK": {
+      "url": "https://kasargod.nic.in/en/tourist-place/bekal-fort/",
+      "title": "Bekal Fort — District Kasargod, Government of Kerala",
+      "authority": "government"
+    },
+    "KSD_RANI": {
+      "url": "https://kasargod.nic.in/en/tourist-place/ranipuram-hill-station/",
+      "title": "Ranipuram hill station — District Kasargod, Government of Kerala",
+      "authority": "government"
+    },
+    "PKD_NEL": {
+      "url": "https://palakkad.nic.in/en/tourist-place/nelliyampathy/",
+      "title": "Nelliyampathy — District Palakkad, Government of Kerala",
+      "authority": "government"
+    },
+    "PKD_PAR": {
+      "url": "https://palakkad.nic.in/en/tourist-place/parambikulam/",
+      "title": "Parambikulam Wildlife Sanctuary — District Palakkad, Government of Kerala",
+      "authority": "government"
+    },
+    "WAY_EDK": {
+      "url": "https://wayanad.gov.in/en/tourist-place/edakkal-caves/",
+      "title": "Edakkal Caves — District Wayanad, Government of Kerala",
+      "authority": "government"
+    },
+    "WAY_BAN": {
+      "url": "https://wayanad.gov.in/en/tourist-place/banasura-sagar-dam/",
+      "title": "Banasura Sagar Dam — District Wayanad, Government of Kerala",
+      "authority": "government"
+    },
+    "WAY_THOL": {
+      "url": "https://wayanad.gov.in/en/tourist-place/tholpetty-wildlife-sanctuary/",
+      "title": "Tholpetty Wildlife Sanctuary — District Wayanad, Government of Kerala",
+      "authority": "government"
+    },
+    "PTA_SAB": {
+      "url": "https://pathanamthitta.nic.in/en/tourist-place/gavi/",
+      "title": "Tourist places: Sabarimala — District Pathanamthitta, Government of Kerala",
+      "authority": "government"
+    },
+    "PTA_GAVI": {
+      "url": "https://pathanamthitta.nic.in/en/tourist-place/sabarimala/",
+      "title": "Tourist places: Gavi — District Pathanamthitta, Government of Kerala",
+      "authority": "government"
     }
   },
   "facts": {
@@ -775,6 +1220,2560 @@
           "quote": "Alappuzha is a haven for Ayurveda"
         }
       ]
+    },
+    "KS1": {
+      "place": "kerala",
+      "topic": "Where it lies",
+      "claim": "Kerala, 38,863 sq km, lies between the Arabian Sea and the Western Ghats, bordered by Karnataka to the north-east and Tamil Nadu to the east.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "KT_TEN",
+          "quote": "Kerala, located between the Arabian Sea to the west and the Western Ghats (Sahyadris) to the east, spans an area of 38,863 sq. km."
+        },
+        {
+          "source": "W_KER",
+          "quote": "bound by Karnataka to the northeast, Tamil Nadu to the east, and the Lakshadweep islands in the western vicinity"
+        }
+      ]
+    },
+    "KS2": {
+      "place": "kerala",
+      "topic": "Three regions",
+      "claim": "Kerala falls into highlands, midlands and a 580 km coastline of beaches and backwaters, threaded by 44 rivers.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "KT_GLANCE",
+          "quote": "Kerala is divided into three geographical regions: Highlands, which slope down from the Western Ghats onto the Midlands of undulating hills and valleys into an unbroken 580 km long coastline with many picturesque backwaters, interconnected with canals and rivers."
+        },
+        {
+          "source": "KT_GLANCE",
+          "quote": "networked by 44 interconnected rivers"
+        }
+      ]
+    },
+    "KS3": {
+      "place": "kerala",
+      "topic": "Anamudi",
+      "claim": "Anamudi, at 2,695 m, is Kerala's highest peak.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "KT_TEN",
+          "quote": "Anamudi, the highest peak in Kerala, rising to 2,695 meters above sea level"
+        }
+      ]
+    },
+    "KS4": {
+      "place": "kerala",
+      "topic": "Districts and language",
+      "claim": "Thiruvananthapuram is the capital; the state has 14 districts, and Malayalam is the main language, official alongside English.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "W_TVM",
+          "quote": "is the capital city of the Indian state of Kerala"
+        },
+        {
+          "source": "W_KER",
+          "quote": "Kerala consists of 14 districts since 1984."
+        },
+        {
+          "source": "W_KER",
+          "quote": "Malayalam is the most widely spoken language and, alongside English , serves as an official language of the state."
+        }
+      ]
+    },
+    "KS5": {
+      "place": "kerala",
+      "topic": "Spice Coast",
+      "claim": "Kerala's history turned on the spice trade, which brought Greeks, Romans, Arabs, Chinese, Portuguese, Dutch, French and British traders.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "KT_GLANCE",
+          "quote": "Celebrated as the Spice Coast of India, ancient Kerala played host to travellers and traders from across the world including the Greeks, Romans, Arabs, Chinese, Portuguese, Dutch, French and the British."
+        }
+      ]
+    },
+    "KS6": {
+      "place": "kerala",
+      "topic": "Airports",
+      "claim": "Kerala has four international airports: Thiruvananthapuram, Kochi, Kozhikode and Kannur.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "KT_TEN",
+          "quote": "easily accessible through its four international airports in Thiruvananthapuram , Kochi , Kozhikode  and Kannur ."
+        }
+      ]
+    },
+    "KS7": {
+      "place": "kerala",
+      "topic": "Rail and road",
+      "claim": "Trains reach most towns except in the hill districts of Idukki and Wayanad; NH 66 runs the length of the coast.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "W_KER",
+          "quote": "Southern Railway zone of Indian Railways operates all railway lines in the state connecting most major towns and cities except those in the highland districts of Idukki and Wayanad ."
+        },
+        {
+          "source": "W_KER",
+          "quote": "Most of Kerala's west coast is accessible through the NH 66 (previously NH 17 and 47); and the eastern side is accessible through state highways."
+        },
+        {
+          "source": "W_KER",
+          "quote": "Thiruvananthapuram Central (TVC) is the busiest railway station in the state."
+        }
+      ]
+    },
+    "KS8": {
+      "place": "kerala",
+      "topic": "Getting around",
+      "claim": "State and private buses are cheap and run everywhere; taxis are easy to find in cities; self-driving is possible but can be challenging.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "KT_20",
+          "quote": "Buses: State-run and private buses are a convenient and affordable option for traveling within the state."
+        },
+        {
+          "source": "KT_20",
+          "quote": "Taxis: Taxis are readily available, especially in major cities."
+        },
+        {
+          "source": "KT_20",
+          "quote": "Renting a car is a great way to explore Kerala at your own pace but driving in Kerala can be challenging."
+        }
+      ]
+    },
+    "KS9": {
+      "place": "kerala",
+      "topic": "Seasons",
+      "claim": "The south-west monsoon runs June–September and the north-east monsoon October–December; summer is March–May and December–February is mild.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "KT_TEN",
+          "quote": "the southwest monsoon (Edavappathy) from June to September, the northeast monsoon (Thulavarsham) from October to December, and the summer season from March to May"
+        },
+        {
+          "source": "KT_TEN",
+          "quote": "the winter months (December to February) are mild"
+        }
+      ],
+      "kind": "seasonal"
+    },
+    "KS10": {
+      "place": "kerala",
+      "topic": "Temperatures",
+      "claim": "The coast and midlands run about 25–36°C and are humid from March to May; the high ranges are cool, and Munnar has recorded near-freezing nights.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "KT_CLIM",
+          "quote": "the temperature ranges from 25 to 36 degree Celsius in the coastal regions and the midlands"
+        },
+        {
+          "source": "KT_CLIM",
+          "quote": "Places like Munnar in Idukki district have recorded temperature close to freezing and even below."
+        },
+        {
+          "source": "KT_CLIM",
+          "quote": "The summer months from March to May are marked by high humidity"
+        }
+      ],
+      "kind": "seasonal"
+    },
+    "KS11": {
+      "place": "kerala",
+      "topic": "Best time",
+      "claim": "November–February is peak season; October–February is best for houseboats and November–February for the hill stations.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "KT_20",
+          "quote": "Peak Season: November to February offers pleasant weather"
+        },
+        {
+          "source": "KT_20",
+          "quote": "October to February is the best time for houseboat cruises"
+        },
+        {
+          "source": "KT_20",
+          "quote": "November to February offer pleasant weather in hill stations like Munnar and Thekkady."
+        }
+      ],
+      "kind": "seasonal"
+    },
+    "KS12": {
+      "place": "kerala",
+      "topic": "Monsoon travel",
+      "claim": "Bring umbrellas, rain gear and waterproof shoes in the monsoon; since 2015 heavy south-west monsoon rain has caused major floods more than once.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "KT_MONS",
+          "quote": "come prepared with umbrellas, rain coats, water proof shoes"
+        },
+        {
+          "source": "KT_FLOOD",
+          "quote": "the recent years, especially since 2015, have witnessed couple of instances of major flooding, owing to excessive rainfall during the southwest monsoon"
+        }
+      ],
+      "kind": "seasonal"
+    },
+    "KS13": {
+      "place": "kerala",
+      "topic": "Onam and Vishu",
+      "claim": "Onam, the state harvest festival, falls in August/September with floral carpets, feasts and boat races; Vishu falls in April.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "KT_FEST",
+          "quote": "This is a state festival and is usually held in the months of August / September."
+        },
+        {
+          "source": "KT_FEST",
+          "quote": "Highlights of this festival are arranging floral carpets ( pookkalam ) , enjoying sumptuous vegetarian feasts, and conducting boat races"
+        },
+        {
+          "source": "KT_FEST",
+          "quote": "Vishu is yet another widely celebrated festival in Keral that falls in the month of April."
+        }
+      ],
+      "kind": "seasonal"
+    },
+    "KS14": {
+      "place": "kerala",
+      "topic": "Thrissur Pooram",
+      "claim": "Thrissur Pooram, in April/May (the Malayalam month of Medam), is famous for its caparisoned elephants and drums.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "KT_FEST",
+          "quote": "It is held in the months of April / May in the district of Thrissur in central Kerala."
+        },
+        {
+          "source": "KT_FEST",
+          "quote": "The highlight of this festival is spectacular assemblage of caparisoned elephants and the rhythmic beats of traditional drums."
+        },
+        {
+          "source": "W_TP",
+          "quote": "on the Pooram day—the day when the moon rises with the Pooram star in the Malayalam Calendar month of Medam"
+        }
+      ],
+      "kind": "seasonal"
+    },
+    "KS15": {
+      "place": "kerala",
+      "topic": "Attukal Pongala and Theyyam",
+      "claim": "Attukal Pongala in Thiruvananthapuram (February/March) is noted as the world's largest gathering of women; the Theyyam season in the north runs December–March.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "KT_FEST",
+          "quote": "Attukal Pongala , noted for the largest gathering of women in the world for a festival, takes place in Kerala’s capital city of Thiruvananthapuram ."
+        },
+        {
+          "source": "KT_FEST",
+          "quote": "The festival takes place in the month of February / March"
+        },
+        {
+          "source": "KT_FEST",
+          "quote": "Theyyam festival season starts in December and goes up to March."
+        },
+        {
+          "source": "KT_FEST",
+          "quote": "Theyyam is mostly seen in the northern districts of Kerala."
+        }
+      ],
+      "kind": "seasonal"
+    },
+    "KS16": {
+      "place": "kerala",
+      "topic": "Snake-boat races",
+      "claim": "Snake boats of 100–130 ft are rowed to vanchipattu songs; the best-known races are the Nehru Trophy, Champakkulam and Payippad.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "KT_UNIQ",
+          "quote": "These boats, measuring 100 to 130 feet"
+        },
+        {
+          "source": "KT_UNIQ",
+          "quote": "to the regular beat of traditional vanchipattu songs"
+        },
+        {
+          "source": "KT_25",
+          "quote": "Famous snake boat races of Kerala include the Nehru Trophy boat race , Champakkulam and Payippad boat races ."
+        }
+      ],
+      "kind": "seasonal"
+    },
+    "KS17": {
+      "place": "kerala",
+      "topic": "Theyyam and Kathakali",
+      "claim": "Theyyam, northern Kerala's ritual art, has over 400 forms; Kathakali is known for its make-up, costumes and facial expressions.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "KT_UNIQ",
+          "quote": "Theyyam is a vibrant ritual art form of northern Kerala that combines dance, music and mime to narrate ancient tribal legends."
+        },
+        {
+          "source": "KT_UNIQ",
+          "quote": "With over 400 distinct forms"
+        },
+        {
+          "source": "KT_25",
+          "quote": "It is renowned for its elaborate make-up, colourful costumes and dramatic facial expressions."
+        }
+      ]
+    },
+    "KS18": {
+      "place": "kerala",
+      "topic": "Ayurveda",
+      "claim": "Kerala is known for Ayurveda; Kerala Tourism recommends Panchakarma, especially in the monsoon.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "KT_UNIQ",
+          "quote": "Panchakarma , a holistic Ayurvedic therapy, is a rejuvenating experience unique to Kerala."
+        },
+        {
+          "source": "KT_NOTMISS",
+          "quote": "Ayurveda treatment and Panchakarma therapies, especially during the monsoon season, are highly beneficial for one's well-being."
+        }
+      ]
+    },
+    "KS19": {
+      "place": "kerala",
+      "topic": "Homestays",
+      "claim": "Family-run homestays are found on backwater islands, in the hills and on the coast; Kerala Tourism lists government-approved ones.",
+      "claimType": "rule",
+      "evidence": [
+        {
+          "source": "KT_UNIQ",
+          "quote": "Whether nestled in islands surrounded by backwaters, in the high ranges, along the coast, or in tranquil villages, these homestays are often managed by families"
+        },
+        {
+          "source": "KT_UNIQ",
+          "quote": "visitors can explore government-approved options on the Kerala Tourism website."
+        }
+      ]
+    },
+    "KS20": {
+      "place": "kerala",
+      "topic": "Houseboats",
+      "claim": "Houseboats (kettuvallam) are converted rice barges on more than 900 km of waterways; the state grades them platinum, gold and silver, and most visitors stay a night.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "KT_25",
+          "quote": "the world-renowned houseboats of Kerala are converted traditional rice barges"
+        },
+        {
+          "source": "W_BW",
+          "quote": "a labyrinthine system formed by more than 900 km (560 mi) of waterways"
+        },
+        {
+          "source": "W_BW",
+          "quote": "The Kerala government has classified the tourist houseboats as platinum, gold, and silver."
+        },
+        {
+          "source": "W_BW",
+          "quote": "Most tourists spend the night on a houseboat."
+        }
+      ]
+    },
+    "KS21": {
+      "place": "kerala",
+      "topic": "Kollam–Alappuzha cruise",
+      "claim": "Ashtamudi Lake at Kollam is called the gateway to the backwaters, and the Kollam–Alappuzha houseboat cruise is one of the most scenic.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "KT_UNIQ",
+          "quote": "The Ashtamudi Lake in Kollam is often referred to as the gateway to Kerala’s backwaters."
+        },
+        {
+          "source": "KT_UNIQ",
+          "quote": "A houseboat cruise from Kollam to Alappuzha is considered one of the most picturesque and immersive backwater experiences"
+        }
+      ]
+    },
+    "KS22": {
+      "place": "kerala",
+      "topic": "Everyday dishes",
+      "claim": "Classic dishes include appam with stew, puttu with kadala curry, fish curry in coconut milk and pazhampori (banana fritters).",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "KT_FOOD",
+          "quote": "Appam and Stew: A breakfast dish featuring soft, fermented rice pancakes served with a flavourful vegetable stew."
+        },
+        {
+          "source": "KT_FOOD",
+          "quote": "Puttu and Kadala Curry : Steamed cylindrical-shaped cakes made from rice flour and coconut, paired with a spicy chickpea curry."
+        },
+        {
+          "source": "KT_FOOD",
+          "quote": "Fish curry : A staple of Kerala cuisine, fish curry is typically made with coconut milk, spices and fresh fish."
+        },
+        {
+          "source": "KT_FOOD",
+          "quote": "Pazhampori: Deep-fried banana fritters."
+        }
+      ]
+    },
+    "KS23": {
+      "place": "kerala",
+      "topic": "Sadya and regional food",
+      "claim": "The sadya has more than 20 dishes on a banana leaf; Malabar is known for biriyani and snacks, Alappuzha and Kottayam for fish, and toddy is tapped from the coconut palm.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "KT_UNIQ",
+          "quote": "With over 20 dishes, it includes parboiled red rice, a variety of side dishes, pickles, and desserts, each served in a specific order."
+        },
+        {
+          "source": "KT_NOTMISS",
+          "quote": "the spicy biriyani and snacks of Malabar (north Kerala) to the many fish delicacies of Alappuzha and Kottayam (south Kerala)"
+        },
+        {
+          "source": "KT_NOTMISS",
+          "quote": "toddy, tapped from the coconut tree"
+        }
+      ]
+    },
+    "KS24": {
+      "place": "kerala",
+      "topic": "Etiquette",
+      "claim": "Dress modestly at religious sites, ask before photographing people, expect to bargain in markets; tipping is not mandatory.",
+      "claimType": "rule",
+      "evidence": [
+        {
+          "source": "KT_20",
+          "quote": "Dress modestly, especially when visiting religious sites."
+        },
+        {
+          "source": "KT_20",
+          "quote": "Ask permission before taking photos of people, especially in religious sites."
+        },
+        {
+          "source": "KT_20",
+          "quote": "Bargaining is common in local markets and shops."
+        },
+        {
+          "source": "KT_20",
+          "quote": "Tipping is not mandatory but it ensures good service."
+        }
+      ]
+    },
+    "KS25": {
+      "place": "kerala",
+      "topic": "Language and safety",
+      "claim": "English is widely spoken in tourist areas; Kerala is generally safe, healthcare is basic in places, and travel insurance is advised.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "KT_20",
+          "quote": "While English is widely spoken in tourist areas, learning a few basic Malayalam phrases can enhance your experience."
+        },
+        {
+          "source": "KT_20",
+          "quote": "Kerala is generally a safe state for travellers"
+        },
+        {
+          "source": "KT_20",
+          "quote": "Basic healthcare facilities are available but it's advisable to have travel insurance."
+        }
+      ]
+    },
+    "KS26": {
+      "place": "kerala",
+      "topic": "What to pack",
+      "claim": "Pack light clothing, sunscreen, insect repellent and a hat.",
+      "claimType": "rule",
+      "evidence": [
+        {
+          "source": "KT_20",
+          "quote": "Pack comfortable clothing, sunscreen, insect repellent and a hat."
+        }
+      ]
+    },
+    "KS27": {
+      "place": "kerala",
+      "topic": "Crafts and spices",
+      "claim": "Kerala is the 'Spice Garden of India' — cardamom, pepper, cloves and nutmeg — and its crafts include palm-frond weaving and brass-inlay work.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "KT_25",
+          "quote": "Famous for its spices like cardamom , pepper , cloves and nutmeg, Kerala is the 'Spice Garden of India.'"
+        },
+        {
+          "source": "KT_25",
+          "quote": "The weaving of palm fronds, particularly from coconut trees, is a widespread craft in Kerala, creating beautiful mats, baskets, decorative items and thatched roofs."
+        },
+        {
+          "source": "II_KER",
+          "quote": "From exquisite Chinese ceramics and brass-inlay crafts to intricate creations such as caskets, teapots, tin candle stands, bells, and lamps."
+        }
+      ]
+    },
+    "KS28": {
+      "place": "kerala",
+      "topic": "Sabarimala season",
+      "claim": "Sabarimala's main pilgrim seasons are Mandala Pooja (November–December) and Makaravilakku in mid-January; Pamba, about 5 km below, is the road head.",
+      "claimType": "schedule",
+      "evidence": [
+        {
+          "source": "PTA_SAB",
+          "quote": "‘Mandalapooja’, in the months of Vrichikam Dhanu (Nov. – Dec) and ‘Makaravilakku’ in mid January"
+        },
+        {
+          "source": "PTA_SAB",
+          "quote": "Sabarimala is about 5 kms away from Pamba."
+        }
+      ],
+      "kind": "seasonal"
+    },
+    "KS29": {
+      "place": "kerala",
+      "topic": "Kalaripayattu",
+      "claim": "Kalaripayattu, Kerala's martial art, combines body conditioning, weapons training and traditional medicine.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "KT_UNIQ",
+          "quote": "Practitioners also master the use of weapons such as swords, spears and daggers, emphasizing mind-body co-ordination."
+        },
+        {
+          "source": "KT_UNIQ",
+          "quote": "Kalarippayattu integrates a system of medicinal practices"
+        }
+      ]
+    },
+    "TV1": {
+      "place": "kerala/thiruvananthapuram",
+      "topic": "Capital and name",
+      "claim": "Thiruvananthapuram (Trivandrum), Kerala's capital, takes its name — 'City of Lord Anantha' — from the Sree Padmanabhaswamy Temple.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "W_TVM",
+          "quote": "also known as Trivandrum , is the capital city of the Indian state of Kerala"
+        },
+        {
+          "source": "II_TVM",
+          "quote": "The city's name, which means \"City of Lord Anantha\" in Malayalam, is rooted in its ancient connections to the revered Sree Padmanabhaswamy Temple, dedicated to Lord Vishnu."
+        }
+      ]
+    },
+    "TV2": {
+      "place": "kerala/thiruvananthapuram",
+      "topic": "Travancore",
+      "claim": "In the 18th century Marthanda Varma founded Travancore and made Thiruvananthapuram its capital.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "W_TVM",
+          "quote": "In the 18th century, the king Marthanda Varma expanded the territory, founded the princely state of Travancore and made Thiruvananthapuram its capital."
+        }
+      ]
+    },
+    "TV3": {
+      "place": "kerala/thiruvananthapuram",
+      "topic": "Padmanabhaswamy Temple",
+      "claim": "The Padmanabhaswamy Temple blends Kerala and Dravidian styles; its hidden vaults hold immense treasure.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_KER",
+          "quote": "captivates visitors with its unique blend of Keralan and Dravidian architectural styles"
+        },
+        {
+          "source": "KT_25",
+          "quote": "The hidden vaults of this temple hold immense treasure."
+        }
+      ]
+    },
+    "TV4": {
+      "place": "kerala/thiruvananthapuram",
+      "topic": "Museum and zoo",
+      "claim": "The museum opened in 1857; its present building (1880) is by Robert Chisholm, and the zoo and museum complex covers 55 acres in the city centre.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "TVM_MUS",
+          "quote": "This Museum was thrown open to the public in September 1857."
+        },
+        {
+          "source": "TVM_MUS",
+          "quote": "By 1880, a new building designed by Robert Chisholm, Architect to the Governor of Madras, was constructed"
+        },
+        {
+          "source": "TVM_MUS",
+          "quote": "situated in 55 acres of land, right in the heart of Thiruvananthapura City"
+        }
+      ]
+    },
+    "TV5": {
+      "place": "kerala/thiruvananthapuram",
+      "topic": "Shankumugham beach",
+      "claim": "Shankumugham, the city beach, is good for sunsets from the Old Coffee House opposite, but is poorly kept.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "TVM_SHANG",
+          "quote": "Good food can be enjoyed at the Old Coffee House, just across the beach, which is also a vantage point for enjoying the sunset."
+        },
+        {
+          "source": "TVM_SHANG",
+          "quote": "Unfortunately, the beach is not well maintained with garbage littering the entire area."
+        }
+      ]
+    },
+    "TV6": {
+      "place": "kerala/thiruvananthapuram",
+      "topic": "Getting there",
+      "claim": "Trivandrum International Airport is about 7 km from the city; Thiruvananthapuram Central is Kerala's busiest station; Thampanoor and East Fort are the bus stands.",
+      "claimType": "distance",
+      "evidence": [
+        {
+          "source": "TVM_HTR",
+          "quote": "The nearest International airports is Trivandrum International Airport (7Km)"
+        },
+        {
+          "source": "W_KER",
+          "quote": "Thiruvananthapuram Central (TVC) is the busiest railway station in the state."
+        },
+        {
+          "source": "TVM_HTR",
+          "quote": "Two major bus stands are Thampanoor Bus Stand & Eastfort Bus Stand (Local Routes)."
+        }
+      ],
+      "kind": "estimate"
+    },
+    "TV7": {
+      "place": "kerala/thiruvananthapuram",
+      "topic": "Hills and forests",
+      "claim": "Neyyar and Peppara wildlife sanctuaries and the hills of Ponmudi and Agasthyakoodam are within reach; Neyyar Dam is about 30 km away.",
+      "claimType": "distance",
+      "evidence": [
+        {
+          "source": "II_TVM",
+          "quote": "the lush greenery of Neyyar Wildlife Sanctuary and Peppara Wildlife Sanctuary"
+        },
+        {
+          "source": "II_TVM",
+          "quote": "the scenic trails and hidden treasures of Ponmudi and Agasthyakoodam beckon adventurers to explore the emerald hills"
+        },
+        {
+          "source": "TVM_NEY",
+          "quote": "located on the foot of the Western Ghats about 30 km from Thiruvananthapuram"
+        }
+      ],
+      "kind": "estimate"
+    },
+    "TV8": {
+      "place": "kerala/thiruvananthapuram",
+      "topic": "Food",
+      "claim": "Look for Kerala fish curry, appam with stew, puttu and kadala, and banana-leaf meals.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_TVM",
+          "quote": "Popular dishes include Kerala-style fish curry, appam with stew, puttu and kadala curry, and banana leaf meals."
+        }
+      ]
+    },
+    "TV9": {
+      "place": "kerala/thiruvananthapuram",
+      "topic": "Places of worship",
+      "claim": "Besides Padmanabhaswamy, the city's landmarks include the Attukal Bhagavathy Temple, Palayam Juma Masjid and St Joseph's Cathedral.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_TVM",
+          "quote": "The Padmanabhaswamy Temple, the Attukal Bhagavathy Temple, the Palayam Juma Masjid, and the St. Joseph's Cathedral are among the prominent religious landmarks"
+        }
+      ]
+    },
+    "KV1": {
+      "place": "kerala/kovalam",
+      "topic": "Three beaches",
+      "claim": "Kovalam has three adjoining crescent beaches; a rocky headland makes a calm bay for bathing, and it has drawn visitors since the 1930s.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "TVM_KOV",
+          "quote": "Kovalam is an internationally renowned beach with three adjacent crescent beaches."
+        },
+        {
+          "source": "TVM_KOV",
+          "quote": "It has been a favourite haunt of tourists since the 1930s."
+        },
+        {
+          "source": "TVM_KOV",
+          "quote": "A massive rocky promontory on the beach has created a beautiful bay of calm waters ideal for sea bathing."
+        }
+      ]
+    },
+    "KV2": {
+      "place": "kerala/kovalam",
+      "topic": "The beaches",
+      "claim": "Lighthouse Beach, under the Vizhinjam lighthouse, is the liveliest; Hawah (Eve's) Beach is a working fishing beach; Samudra is the quietest.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_KOV",
+          "quote": "Lighthouse Beach is named after the Vizhinjam Lighthouse perched atop the Kurumkal hillock. It is the most vibrant stretch"
+        },
+        {
+          "source": "II_KOV",
+          "quote": "It is a working beach used by local fishermen"
+        },
+        {
+          "source": "II_KOV",
+          "quote": "Samudra Beach is quieter and less crowded."
+        }
+      ]
+    },
+    "KV3": {
+      "place": "kerala/kovalam",
+      "topic": "Around Kovalam",
+      "claim": "Nearby are the Vizhinjam lighthouse, boating on Vellayani Lake, the rock-cut Shiva cave temple at Vizhinjam and the Kerala Arts and Crafts Village.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "KT_KOV",
+          "quote": "Climbing the Vizhinjam Lighthouse rewards visitors with breathtaking views of the coastline"
+        },
+        {
+          "source": "KT_KOV",
+          "quote": "Vellayani Lake, a favorite picnic spot, offers opportunities for boating and fishing"
+        },
+        {
+          "source": "KT_KOV",
+          "quote": "the Vizhinjam Rock Cut Cave Temple, an ancient Hindu shrine dedicated to Lord Shiva"
+        },
+        {
+          "source": "KT_KOV",
+          "quote": "the Kerala Art and Craft Village"
+        }
+      ]
+    },
+    "KV4": {
+      "place": "kerala/kovalam",
+      "topic": "On the beach",
+      "claim": "Swimming, Ayurvedic massage and catamaran rides; the beach stays busy late into the night.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "KT_KOV",
+          "quote": "From sunbathing and swimming to rejuvenating Ayurvedic massages and thrilling catamaran rides"
+        },
+        {
+          "source": "KT_KOV",
+          "quote": "As the day winds down, the beach comes alive, with nightlife continuing well into the early hours."
+        }
+      ]
+    },
+    "KV5": {
+      "place": "kerala/kovalam",
+      "topic": "Getting there",
+      "claim": "Kovalam is about 16 km from Thiruvananthapuram; the airport is 10–15 km away and Thiruvananthapuram Central is the railhead.",
+      "claimType": "distance",
+      "evidence": [
+        {
+          "source": "KT_KOV",
+          "quote": "Conveniently located just 16 km from Thiruvananthapuram"
+        },
+        {
+          "source": "TVM_KOV",
+          "quote": "Nearest airport is Thiruvanathapuram (10 Km)"
+        },
+        {
+          "source": "II_KOV",
+          "quote": "The nearest airport is Thiruvananthapuram International Airport, located approximately 15 kilometres from Kovalam."
+        },
+        {
+          "source": "II_KOV",
+          "quote": "Thiruvananthapuram Central Railway Station is the closest railhead"
+        }
+      ],
+      "kind": "estimate"
+    },
+    "KV6": {
+      "place": "kerala/kovalam",
+      "topic": "Where to stay",
+      "claim": "Stays range from five-star hotels to budget cottages and Ayurvedic resorts.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "KT_KOV",
+          "quote": "Accommodation in Kovalam caters to all preferences, ranging from luxurious five-star hotels to affordable stays."
+        },
+        {
+          "source": "KT_KOV",
+          "quote": "The area features a variety of accommodations, including budget cottages, Ayurvedic resorts, yoga centers, swimming pools, and shopping zones."
+        }
+      ]
+    },
+    "VK1": {
+      "place": "kerala/varkala",
+      "topic": "The cliffs",
+      "claim": "Varkala's sea cliffs, rare on Kerala's flat coast, are a National Geological Monument of the Geological Survey of India.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_VAR",
+          "quote": "What sets Varkala apart from other southern Kerala beaches is its breathtaking stretch of cliffs, a rarity along Kerala's flat coastline."
+        },
+        {
+          "source": "W_VAR",
+          "quote": "has been declared as a National Geological Monument by the Geological Survey of India"
+        }
+      ]
+    },
+    "VK2": {
+      "place": "kerala/varkala",
+      "topic": "Papanasam beach",
+      "claim": "The main beach, Papanasam, is named for a spring believed to wash away sins.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_VAR",
+          "quote": "the Varkala Beach (or Papanasam Beach) which is renowned for its white sands and crystal-clear waters"
+        },
+        {
+          "source": "II_VAR",
+          "quote": "The beach is distinguished by a natural spring believed to possess medicinal and curative properties."
+        }
+      ]
+    },
+    "VK3": {
+      "place": "kerala/varkala",
+      "topic": "Janardhana Swamy Temple",
+      "claim": "The 2,000-year-old Janardhana Swamy Temple on the cliff is a major Vishnu shrine, called the 'Varanasi of the South'.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_VAR",
+          "quote": "the 2,000-year-old Janardhana Swamy Temple which is perched on a cliff, overlooking the vast expanse of Varkala Beach"
+        },
+        {
+          "source": "II_VAR",
+          "quote": "Often called ‘Dakshin Kashi’ (Varanasi of the South)"
+        }
+      ]
+    },
+    "VK4": {
+      "place": "kerala/varkala",
+      "topic": "Sivagiri",
+      "claim": "Sivagiri Mutt holds the samadhi of Sree Narayana Guru.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_VAR",
+          "quote": "pay your respects at the samadhi, the final resting place of Sree Narayana Guru, a revered saint and philosopher"
+        }
+      ]
+    },
+    "VK5": {
+      "place": "kerala/varkala",
+      "topic": "Water sports",
+      "claim": "Jet skis, parasailing, banana boats and surfing are offered, with surf lessons at Kappil, where sea, river and backwater meet.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_VAR",
+          "quote": "it offers the perfect arena for jet skiing, parasailing, banana boat rides, and even surfing"
+        },
+        {
+          "source": "II_VAR",
+          "quote": "Don't miss Kappil, a hidden gem, where the sea, river, and backwaters converge"
+        },
+        {
+          "source": "II_VAR",
+          "quote": "Catch your first wave with surf lessons here!"
+        }
+      ]
+    },
+    "VK6": {
+      "place": "kerala/varkala",
+      "topic": "Day trips",
+      "claim": "Anjengo Fort and its 130-ft lighthouse are 12 km away; the 19th-century Varkala tunnel can be seen by boat.",
+      "claimType": "distance",
+      "evidence": [
+        {
+          "source": "II_VAR",
+          "quote": "the Anjengo Fort, a 12 km journey from Varkala"
+        },
+        {
+          "source": "II_VAR",
+          "quote": "Ascend the 130-foot Anjengo Lighthouse"
+        },
+        {
+          "source": "II_VAR",
+          "quote": "This 19 th -century engineering marvel, built to establish an inland waterway route, can be experienced on a unique boat ride."
+        }
+      ],
+      "kind": "estimate"
+    },
+    "VK7": {
+      "place": "kerala/varkala",
+      "topic": "Location and season",
+      "claim": "Varkala is about 50 km from Thiruvananthapuram and has its own railway station; October–March is the season, and the monsoon is June–August.",
+      "claimType": "distance",
+      "evidence": [
+        {
+          "source": "W_VAR",
+          "quote": "Varkala is located about 50 km (31 mi) from Thiruvananthapuram"
+        },
+        {
+          "source": "W_VAR",
+          "quote": "The town is served by the Varkala railway station ."
+        },
+        {
+          "source": "II_VAR",
+          "quote": "Varkala's magic unfolds best between October and March"
+        },
+        {
+          "source": "W_VAR",
+          "quote": "mostly during the monsoon season that lasts from June to August"
+        }
+      ],
+      "kind": "estimate"
+    },
+    "VK8": {
+      "place": "kerala/varkala",
+      "topic": "Character",
+      "claim": "Varkala is calmer than Kovalam despite its visitors.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "KT_VAR",
+          "quote": "Varkala still harbours a calm ambience and is devoid of the hustle and bustle that is usually associated with Kovalam."
+        }
+      ]
+    },
+    "KL1": {
+      "place": "kerala/kollam",
+      "topic": "Old port",
+      "claim": "Kollam is one of the oldest ports on the Malabar Coast and was a hub of the spice trade.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_KOL",
+          "quote": "As one of the oldest seaports on the Malabar Coast, Kollam served as a crucial hub for the lucrative spice trade between India and the rest of the world."
+        }
+      ]
+    },
+    "KL2": {
+      "place": "kerala/kollam",
+      "topic": "Ashtamudi Lake",
+      "claim": "Ashtamudi Lake, named for its eight arms, is ringed by coconut groves and fishing villages and is known for houseboat cruises.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_KOL",
+          "quote": "The lake, known for its eight arms or channels (hence the name \"Ashtamudi\"), is a picturesque water body surrounded by lush greenery, coconut groves, and traditional fishing villages."
+        },
+        {
+          "source": "II_KOL",
+          "quote": "Houseboat cruises on Ashtamudi Lake are a popular tourist attraction"
+        }
+      ]
+    },
+    "KL3": {
+      "place": "kerala/kollam",
+      "topic": "Beaches",
+      "claim": "Kollam Beach is near the centre; Thirumullavaram and Thangassery, with its old lighthouse, are close by.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_KOL",
+          "quote": "The most famous beach in Kollam is Kollam Beach , located near the city center"
+        },
+        {
+          "source": "II_KOL",
+          "quote": "Other beaches in the vicinity include Thirumullavaram Beach and Thangassery Beach."
+        },
+        {
+          "source": "II_KOL",
+          "quote": "The Thangassery Lighthouse , located on Thangassery Beach, is a historic landmark"
+        }
+      ]
+    },
+    "KL4": {
+      "place": "kerala/kollam",
+      "topic": "Cashews",
+      "claim": "Kollam is the centre of Kerala's cashew industry.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_KOL",
+          "quote": "Kollam is renowned for its cashew industry"
+        }
+      ]
+    },
+    "KL5": {
+      "place": "kerala/kollam",
+      "topic": "Jatayu Earth's Center",
+      "claim": "At Chadayamangalam, 50 km from Thiruvananthapuram, Jatayu Earth's Center has the world's largest bird sculpture — 200 ft long — with adventure activities.",
+      "claimType": "distance",
+      "evidence": [
+        {
+          "source": "KLM_JAT",
+          "quote": "Jatayu Adventure Center , at Chadayamangalam, 50 km from Trivandrum"
+        },
+        {
+          "source": "II_KOL",
+          "quote": "The majestic statue is 200 feet long, 150 feet wide and 70 feet tall."
+        },
+        {
+          "source": "KLM_JAT",
+          "quote": "Kollam Junction railway station – 38.7 km"
+        }
+      ],
+      "kind": "estimate"
+    },
+    "KL6": {
+      "place": "kerala/kollam",
+      "topic": "Thenmala",
+      "claim": "Thenmala, 66 km east of Kollam, is India's first planned eco-tourism destination, with trekking, butterfly safaris and night camping.",
+      "claimType": "distance",
+      "evidence": [
+        {
+          "source": "KLM_THEN",
+          "quote": "Thenmala is India’s first planned eco-tourism destination."
+        },
+        {
+          "source": "KLM_THEN",
+          "quote": "lush green forests, butterfly safaris, musical dancing fountains, and adventure activities such as trekking, hiking and night camping"
+        },
+        {
+          "source": "KLM_THEN",
+          "quote": "is 66 kms east of Kollam"
+        }
+      ],
+      "kind": "estimate"
+    },
+    "KL7": {
+      "place": "kerala/kollam",
+      "topic": "Palaruvi",
+      "claim": "Palaruvi waterfall drops about 300 ft.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "KLM_PAL",
+          "quote": "comes down through rocks from a height of 300 feet"
+        }
+      ]
+    },
+    "KL8": {
+      "place": "kerala/kollam",
+      "topic": "Getting there",
+      "claim": "Trivandrum airport is 51 km and Kochi airport 129 km away; Kollam Junction is the main station.",
+      "claimType": "distance",
+      "evidence": [
+        {
+          "source": "KLM_HTR",
+          "quote": "Kollam- 51 km away – Thiruvananthapuram International Airport (TRV), Thiruvananthapuram, Kerala"
+        },
+        {
+          "source": "KLM_HTR",
+          "quote": "Kollam- 129 km away- Kochi Airport (COK), Ernakulam, Kerala"
+        },
+        {
+          "source": "KLM_HTR",
+          "quote": "City Railway Station(s): Eravipuram (IRP), Kollam Junction (QLN)"
+        }
+      ],
+      "kind": "estimate"
+    },
+    "KL9": {
+      "place": "kerala/kollam",
+      "topic": "Kollam Pooram",
+      "claim": "Kollam Pooram, at Asramam Maidan, is the area's big temple festival.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_KOL",
+          "quote": "The Kollam Pooram, a traditional temple festival held annually at the Asramam Maidan"
+        }
+      ],
+      "kind": "seasonal"
+    },
+    "KM1": {
+      "place": "kerala/kumarakom",
+      "topic": "Setting",
+      "claim": "Kumarakom is a village on Vembanad Lake, 14 km west of Kottayam; Vembanad is Kerala's largest lake.",
+      "claimType": "distance",
+      "evidence": [
+        {
+          "source": "KTM_KUM",
+          "quote": "Kumarakom is a small village 14 km. west of Kottayam."
+        },
+        {
+          "source": "W_KUM",
+          "quote": "It is near the Vembanad Lake , the largest lake in the state of Kerala."
+        }
+      ],
+      "kind": "estimate"
+    },
+    "KM2": {
+      "place": "kerala/kumarakom",
+      "topic": "Bird sanctuary",
+      "claim": "The 14-acre Kumarakom Bird Sanctuary is best for resident birds in June–August and for migrants in November–February.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "KTM_BIRD",
+          "quote": "An attraction of Kumarakom is the Bird sanctuary spreading over 14 acres of land."
+        },
+        {
+          "source": "KTM_BIRD",
+          "quote": "The best time to bird watch is June-August and migratory birds during November-February."
+        },
+        {
+          "source": "II_KUM",
+          "quote": "Visitors can explore the sanctuary on foot or by boat"
+        }
+      ],
+      "kind": "seasonal"
+    },
+    "KM3": {
+      "place": "kerala/kumarakom",
+      "topic": "Climate",
+      "claim": "Temperatures run 22–34°C; backwater cruising is not allowed in the south-west monsoon (June–August); November–March is best.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "KT_KUMCLIM",
+          "quote": "The temperature is relatively moderate and varies from 22 to 34 degree Celsius."
+        },
+        {
+          "source": "KT_KUMCLIM",
+          "quote": "the southwest monsoon (June to August)"
+        },
+        {
+          "source": "KT_KUMCLIM",
+          "quote": "During the southwest monsoon, backwater cruising is not allowed."
+        },
+        {
+          "source": "KT_KUMCLIM",
+          "quote": "The best time to visit is between November and March"
+        }
+      ],
+      "kind": "seasonal"
+    },
+    "KM4": {
+      "place": "kerala/kumarakom",
+      "topic": "On the water",
+      "claim": "The classic trip is a houseboat across Vembanad from Kumarakom to Alappuzha; canoeing and kayaking are offered on the canals.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "KT_KUMHB",
+          "quote": "a houseboat cruise on the Vembanad, from Kumarakom to Alappuzha"
+        },
+        {
+          "source": "KT_BOAT",
+          "quote": "It offers opportunities for canoeing and kayaking."
+        }
+      ]
+    },
+    "KM5": {
+      "place": "kerala/kumarakom",
+      "topic": "Vembanad Lake",
+      "claim": "Vembanad is about 84 km long; Pathiramanal island in the lake is reachable only by boat, and the Vembanad–Kol wetland is a Ramsar site.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "KTM_VEM",
+          "quote": "Vembanad Lake is having 83.72km length and 14.48km width."
+        },
+        {
+          "source": "KTM_VEM",
+          "quote": "This lonely island in the Vemabanad Lake is accessible only by boat."
+        },
+        {
+          "source": "KT_KUMCLIM",
+          "quote": "Vembanadu - Kol Wetland Region: A Ramsar Site"
+        }
+      ]
+    },
+    "KM6": {
+      "place": "kerala/kumarakom",
+      "topic": "The God of Small Things",
+      "claim": "Arundhati Roy's The God of Small Things is set in Aymanam, next to Kumarakom.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "W_KUM",
+          "quote": "Arundhati Roy 's The God of Small Things is set in Ayemenem or Aymanam village, which adjoins Kumarakom."
+        }
+      ]
+    },
+    "KM7": {
+      "place": "kerala/kumarakom",
+      "topic": "Getting there",
+      "claim": "Cochin airport is about 74 km away; Kottayam, 14 km, is the railhead.",
+      "claimType": "distance",
+      "evidence": [
+        {
+          "source": "KTM_KUM",
+          "quote": "Cochin International Airport, Ernakulam District (74.3 Km)"
+        },
+        {
+          "source": "KTM_HTR",
+          "quote": "You can easily get regular trains to Kottayam from other major cities of the country."
+        }
+      ],
+      "kind": "estimate"
+    },
+    "KM8": {
+      "place": "kerala/kumarakom",
+      "topic": "Food and wellness",
+      "claim": "Kumarakom is known for fresh fish, prawns, crab and mussels, and for Ayurvedic resorts.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_KUM",
+          "quote": "Freshly caught fish, prawns, crabs and mussels are prepared in authentic Kerala style"
+        },
+        {
+          "source": "II_KUM",
+          "quote": "Kumarakom is even known for its Ayurvedic wellness centres and spa resorts"
+        }
+      ]
+    },
+    "KM9": {
+      "place": "kerala/kumarakom",
+      "topic": "Boat races",
+      "claim": "In August–September, around Onam, the Kumarakom boat race is held on the Kavanar and Kottathodu rivers.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "KTM_VEM",
+          "quote": "In the festive months of August and September, the rivers in and near Kottayam are turned into festival centres."
+        },
+        {
+          "source": "KTM_VEM",
+          "quote": "In the Kumarakom boat race conducted at Kavanar and Kottathodu rivers"
+        }
+      ],
+      "kind": "seasonal"
+    },
+    "TK1": {
+      "place": "kerala/thekkady",
+      "topic": "Setting",
+      "claim": "Thekkady, at 900–1,800 m in Idukki on the Tamil Nadu border, is the gateway to the Periyar Tiger Reserve; its name comes from thekku, teak.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "KT_PER",
+          "quote": "at an altitude of 900-1800 m above sea level"
+        },
+        {
+          "source": "KT_PER",
+          "quote": "Thekkady, lying on the border of Kerala and Tamil Nadu"
+        },
+        {
+          "source": "KT_PER",
+          "quote": "The name Thekkady is derived from the word thekku which means teak."
+        }
+      ]
+    },
+    "TK2": {
+      "place": "kerala/thekkady",
+      "topic": "Climate and season",
+      "claim": "It drops to about 13°C in December–January and rises to 30°C in April–May; September–March is the best time.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "KT_PER",
+          "quote": "The temperature drops to 13 degree Celsius during December/January and rises to 30 degree Celsius during April/May."
+        },
+        {
+          "source": "KT_ROUTE",
+          "quote": "The best time of the year for a Thekkady trip is from September to March."
+        }
+      ],
+      "kind": "seasonal"
+    },
+    "TK3": {
+      "place": "kerala/thekkady",
+      "topic": "Periyar Tiger Reserve",
+      "claim": "The reserve covers 777 sq km and became a tiger reserve in 1978; the forest is dense, so tiger sightings are highly unlikely.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "KT_PER",
+          "quote": "the Periyar Tiger Reserve sprawls over an area of 777 sq. km of forest land"
+        },
+        {
+          "source": "W_THK",
+          "quote": "The wildlife sanctuary was declared a tiger reserve in 1978."
+        },
+        {
+          "source": "W_THK",
+          "quote": "Due to the density of the forest, sightings of elephants and especially tigers are highly unlikely."
+        }
+      ]
+    },
+    "TK4": {
+      "place": "kerala/thekkady",
+      "topic": "Wildlife",
+      "claim": "More than 60 mammal and 265 bird species live here; otters are often seen from the boats on Periyar Lake.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "IDK_PER",
+          "quote": "Mammals: More than 60 species are found here"
+        },
+        {
+          "source": "IDK_PER",
+          "quote": "Birds: Here we have 265 species including migrants."
+        },
+        {
+          "source": "IDK_PER",
+          "quote": "The Smooth-Coated Otter can be frequently spotted from the boat."
+        }
+      ]
+    },
+    "TK5": {
+      "place": "kerala/thekkady",
+      "topic": "Seeing the park",
+      "claim": "The reserve can be explored by trekking, boating on Periyar Lake or jeep safari; watch-tower stays are booked at the Forest Information Centre.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "W_THK",
+          "quote": "The sanctuary can be accessed by trekking, boating or jeep safari."
+        },
+        {
+          "source": "KT_BOAT",
+          "quote": "a boat ride on Periyar Lake within the national park offers a chance to spot animals"
+        },
+        {
+          "source": "IDK_PER",
+          "quote": "Reservations can be made at the Forest Information Centre, Thekkady."
+        }
+      ]
+    },
+    "TK6": {
+      "place": "kerala/thekkady",
+      "topic": "Kumily",
+      "claim": "Kumily, 4 km away, is the busy plantation and spice-trading town with the bus station and most budget stays.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "KT_ROUTE",
+          "quote": "Thekkady is just four km from the border town of Kumily."
+        },
+        {
+          "source": "KT_PER",
+          "quote": "The spice and tea plantations and the bustling spice trading activities have made Kumily one of the important tourist and commercial centres in Kerala."
+        },
+        {
+          "source": "KT_PER",
+          "quote": "Apart from being the main bus station in the Periyar region, the town also provides decent, affordable accommodation facilities to tourists."
+        }
+      ]
+    },
+    "TK7": {
+      "place": "kerala/thekkady",
+      "topic": "Getting there",
+      "claim": "Kottayam station is about 114 km away; Madurai airport about 136 km and Kochi airport about 190 km. Munnar and Kottayam are each about 4 hours by road.",
+      "claimType": "distance",
+      "evidence": [
+        {
+          "source": "KT_ROUTE",
+          "quote": "The nearest railway station is at Kottayam which is 114 km from Thekkady."
+        },
+        {
+          "source": "KT_ROUTE",
+          "quote": "The nearest airport is at Madurai in Tamil Nadu, about 136 km from Thekkady; the Nedumbassery airport in Kochi is about 190 km away."
+        },
+        {
+          "source": "IDK_HTR",
+          "quote": "Munnar – Kumily 110 km (4 hrs)"
+        },
+        {
+          "source": "IDK_HTR",
+          "quote": "Kottayam – Kumily 110 km (4 hrs)"
+        }
+      ],
+      "kind": "estimate"
+    },
+    "TK8": {
+      "place": "kerala/thekkady",
+      "topic": "Plantations and Gavi",
+      "claim": "Tea, cardamom, pepper and coffee estates surround the reserve; Gavi eco-tourism is 28 km from Kumily.",
+      "claimType": "distance",
+      "evidence": [
+        {
+          "source": "IDK_PER",
+          "quote": "Tea, cardamom, pepper and coffee plantations abound in the areas adjoining the Tiger Reserve."
+        },
+        {
+          "source": "PTA_GAVI",
+          "quote": "Gavi is 14 km south west of Vandiperiyar, 28 km from Kumily, near Thekkady."
+        }
+      ],
+      "kind": "estimate"
+    },
+    "VG1": {
+      "place": "kerala/vagamon",
+      "topic": "Setting",
+      "claim": "Vagamon, a hill station of tea gardens and meadows at 1,100 m on the Kottayam–Idukki border, is 64 km from Kottayam.",
+      "claimType": "distance",
+      "evidence": [
+        {
+          "source": "KTM_VAG",
+          "quote": "Situated 64kms from Kottayam, this enchanting hill station at an elevation of 1100 metres above sea level is a trekker’s paradise."
+        },
+        {
+          "source": "KTM_VAG",
+          "quote": "This enchanting hill station on the Idukki – Kottayam border dotted with tea gardens and meadows"
+        }
+      ],
+      "kind": "estimate"
+    },
+    "VG2": {
+      "place": "kerala/vagamon",
+      "topic": "Glass bridge",
+      "claim": "Vagamon, 25 km east of Erattupetta, has India's longest cantilever glass bridge.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "W_VAG",
+          "quote": "25 kilometres (16 mi) east of Erattupetta on the border of Kottayam-Idukki districts"
+        },
+        {
+          "source": "W_VAG",
+          "quote": "The Vagamon glass bridge is the longest cantilever glass bridge in India."
+        }
+      ]
+    },
+    "VG3": {
+      "place": "kerala/vagamon",
+      "topic": "Tea and climate",
+      "claim": "Tea came in 1926 with Walter Duncan and Company; summer days are about 10–23°C.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "W_VAG",
+          "quote": "it was only in 1926, when Walter Duncan and Company started their tea plantations, that it became well known"
+        },
+        {
+          "source": "W_VAG",
+          "quote": "It has a cool climate with summer temperatures reaching 10–23 °C"
+        }
+      ],
+      "kind": "seasonal"
+    },
+    "VG4": {
+      "place": "kerala/vagamon",
+      "topic": "Activities",
+      "claim": "Hiking to waterfalls, rock climbing and paragliding are the main draws.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "W_VAG",
+          "quote": "The primary economy is ecotourism including hiking to explore the many waterfalls, rock climbing and paragliding ."
+        }
+      ]
+    },
+    "VG5": {
+      "place": "kerala/vagamon",
+      "topic": "Getting there",
+      "claim": "Cochin airport is about 98 km away.",
+      "claimType": "distance",
+      "evidence": [
+        {
+          "source": "KTM_VAG",
+          "quote": "Cochin International Airport, Ernakulam District (98.4 Km)"
+        }
+      ],
+      "kind": "estimate"
+    },
+    "WY1": {
+      "place": "kerala/wayanad",
+      "topic": "Setting",
+      "claim": "Wayanad, part of the Nilgiri Biosphere Reserve, has India's largest earthen dam at Banasura Sagar and the prehistoric Edakkal Caves.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_WAY",
+          "quote": "It is also home to India’s largest earthen dam, Banasura Sagar, and the prehistoric Edakkal Caves"
+        },
+        {
+          "source": "II_WAY",
+          "quote": "The district forms part of the Nilgiri Biosphere Reserve"
+        }
+      ]
+    },
+    "WY2": {
+      "place": "kerala/wayanad",
+      "topic": "Coffee",
+      "claim": "Wayanad grows Robusta coffee under forest shade at 700–2,100 m.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_WAY",
+          "quote": "Wayanad’s long-standing tradition of cultivating Robusta coffee, grown under the shade of evergreen forests at altitudes of 700–2100 meters"
+        }
+      ]
+    },
+    "WY3": {
+      "place": "kerala/wayanad",
+      "topic": "Chembra Peak",
+      "claim": "Chembra (2,100 m), the highest peak in the Wayanad hills, is climbed from Meppadi with forest-department guides, past the heart-shaped lake.",
+      "claimType": "rule",
+      "evidence": [
+        {
+          "source": "W_CHEM",
+          "quote": "with an elevation of 2,100 m (6,890 ft) above sea level"
+        },
+        {
+          "source": "W_CHEM",
+          "quote": "are organized by the Chempra Peak VSS under the control of the South Wayanad Forest Development Agency; guides are provided for trekking."
+        },
+        {
+          "source": "W_CHEM",
+          "quote": "Chembra Peak is accessible by foot from Meppadi."
+        },
+        {
+          "source": "II_WAY",
+          "quote": "the iconic, heart-shaped Hridaya Saras lake along the way"
+        }
+      ]
+    },
+    "WY4": {
+      "place": "kerala/wayanad",
+      "topic": "Edakkal Caves",
+      "claim": "The Edakkal 'caves' are a rock shelter with carvings, discovered in 1895, 26.6 km from Kalpetta.",
+      "claimType": "distance",
+      "evidence": [
+        {
+          "source": "WAY_EDK",
+          "quote": "Despite their name, the Edakkal Caves are not actually caves."
+        },
+        {
+          "source": "WAY_EDK",
+          "quote": "Ever since their discovery in 1895"
+        },
+        {
+          "source": "WAY_EDK",
+          "quote": "From Kalpetta To Edakkal Caves, the distance is 26.6 km"
+        }
+      ],
+      "kind": "estimate"
+    },
+    "WY5": {
+      "place": "kerala/wayanad",
+      "topic": "Banasura Sagar",
+      "claim": "Banasura Sagar Dam, 21 km from Kalpetta, has boat rides.",
+      "claimType": "distance",
+      "evidence": [
+        {
+          "source": "WAY_BAN",
+          "quote": "The Banasura Sagar Dam is located 21 km from Kalpetta."
+        },
+        {
+          "source": "WAY_BAN",
+          "quote": "known for its spectacular views and boating trips"
+        }
+      ],
+      "kind": "estimate"
+    },
+    "WY6": {
+      "place": "kerala/wayanad",
+      "topic": "Safaris",
+      "claim": "Guided jeep safaris run in the Muthanga and Tholpetty ranges of the Wayanad sanctuary — at Tholpetty twice a day, for 1.5–2 hours.",
+      "claimType": "schedule",
+      "evidence": [
+        {
+          "source": "II_WAY",
+          "quote": "Visitors can explore the Muthanga and Tholpetty ranges through guided jeep safaris"
+        },
+        {
+          "source": "WAY_THOL",
+          "quote": "Open to wildlife jeep safari twice a day"
+        },
+        {
+          "source": "WAY_THOL",
+          "quote": "during the 1.5-2 hour journey"
+        }
+      ]
+    },
+    "WY7": {
+      "place": "kerala/wayanad",
+      "topic": "Falls and viewpoints",
+      "claim": "Soochippara is a three-tier waterfall; Lakkidi is the viewpoint at the gateway to Wayanad; Pookode Lake has boating; Thirunelli is a Vishnu temple.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_WAY",
+          "quote": "Soochippara (Sentinel Rock) Falls – A dramatic three-tiered cascade"
+        },
+        {
+          "source": "II_WAY",
+          "quote": "Lakkidi Viewpoint – Known as the Gateway to Wayanad"
+        },
+        {
+          "source": "II_WAY",
+          "quote": "Boating at Pookode Lake"
+        },
+        {
+          "source": "II_WAY",
+          "quote": "the Thirunelli Temple dedicated to Lord Vishnu"
+        }
+      ]
+    },
+    "WY8": {
+      "place": "kerala/wayanad",
+      "topic": "Best time",
+      "claim": "October–May is best; in the June–September monsoon some areas may be closed.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_WAY",
+          "quote": "The best time to visit Wayanad is from October to May"
+        },
+        {
+          "source": "II_WAY",
+          "quote": "although travel may be restricted in some areas due to heavy showers"
+        }
+      ],
+      "kind": "seasonal"
+    },
+    "WY9": {
+      "place": "kerala/wayanad",
+      "topic": "Getting there",
+      "claim": "Wayanad has no railway: Kozhikode station is 90–110 km away and Calicut airport 65–93 km. Kalpetta is about 75 km from Kozhikode, 150 km from Mysuru and 290 km from Bengaluru.",
+      "claimType": "distance",
+      "evidence": [
+        {
+          "source": "II_WAY",
+          "quote": "The nearest railhead is Kozhikode Railway Station, about 90 to 110 kilometers away."
+        },
+        {
+          "source": "II_WAY",
+          "quote": "Calicut International Airport (Kozhikode) which is located approximately 65 to 93 kilometers from Wayanad"
+        },
+        {
+          "source": "WAY_EDK",
+          "quote": "Distance from Kalpetta to Calicut (75 KM), Mysore (150 KM), Bangalore (290 KM)"
+        }
+      ],
+      "kind": "estimate"
+    },
+    "WY10": {
+      "place": "kerala/wayanad",
+      "topic": "Night driving",
+      "claim": "On the forest road to Bengaluru via Sulthan Bathery wild elephants may be on the road — avoid driving late in small vehicles.",
+      "claimType": "rule",
+      "evidence": [
+        {
+          "source": "KZ_HTR",
+          "quote": "the small stretch of jungle you have to pass through may have wild elephants and moving in late hours along in small vehicle is not advised"
+        }
+      ]
+    },
+    "WY11": {
+      "place": "kerala/wayanad",
+      "topic": "Thamarassery ghat",
+      "claim": "The road up from Kozhikode climbs the Thamarassery Churam, a winding ghat road.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_KZ",
+          "quote": "One of the most striking journeys in the region is through Thamarassery Churam , a winding ghat road"
+        }
+      ]
+    },
+    "TS1": {
+      "place": "kerala/thrissur",
+      "topic": "Cultural capital",
+      "claim": "Thrissur, the cultural capital of Kerala, is built around Thekkinkadu Maidanam and the Vadakkumnathan temple; Kerala's arts academies are here.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "W_TSR",
+          "quote": "also called the cultural capital of Kerala"
+        },
+        {
+          "source": "W_TSR",
+          "quote": "The city is built around a 65-acre (26 ha) hillock called Thekkinkadu Maidanam which seats the Vadakkumnathan temple"
+        },
+        {
+          "source": "W_TSR",
+          "quote": "The city centre contains the Kerala Sangeetha Nadaka Academy , Kerala Lalithakala Akademi and Kerala Sahitya Academy ."
+        }
+      ]
+    },
+    "TS2": {
+      "place": "kerala/thrissur",
+      "topic": "Thrissur Pooram",
+      "claim": "Thrissur Pooram, created by Sakthan Thampuran, is the largest pooram in India.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "W_TP",
+          "quote": "Dubbed the mother of all poorams, it is the largest and best known pooram in India."
+        },
+        {
+          "source": "W_TP",
+          "quote": "was the brainchild of Sakthan Thampuran , the Maharaja of Cochin (1790–1805)"
+        }
+      ]
+    },
+    "TS3": {
+      "place": "kerala/thrissur",
+      "topic": "Sakthan Thampuran Palace",
+      "claim": "The Sakthan Thampuran Palace, rebuilt in Kerala-Dutch style in 1795, has been a museum since 2005.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "TSR_SAK",
+          "quote": "reconstructed in Kerala-Dutch style in 1795"
+        },
+        {
+          "source": "TSR_SAK",
+          "quote": "The palace was converted into a museum in 2005 by State."
+        }
+      ]
+    },
+    "TS4": {
+      "place": "kerala/thrissur",
+      "topic": "Guruvayur",
+      "claim": "The Guruvayur Sri Krishna Temple is one of South India's most revered shrines; Punnathur Kotta, 2 km away, houses the temple's elephants.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_TSR",
+          "quote": "The Guruvayur Sri Krishna Temple , one of the most revered pilgrimage sites in South India"
+        },
+        {
+          "source": "TSR_PUN",
+          "quote": "about 2 km from the Guruvayoor Sree Krishna Temple"
+        },
+        {
+          "source": "TSR_PUN",
+          "quote": "the palace grounds are now used to house the elephants belonging to the Guruvayoor temple"
+        }
+      ]
+    },
+    "TS5": {
+      "place": "kerala/thrissur",
+      "topic": "Getting there",
+      "claim": "Cochin airport is about 50 km away; Thrissur station is a major stop; Kochi is about 72 km by road.",
+      "claimType": "distance",
+      "evidence": [
+        {
+          "source": "TSR_HTR",
+          "quote": "There is a distance of 50 km distance from Thrissur to this Airport."
+        },
+        {
+          "source": "TSR_HTR",
+          "quote": "Thrissur Railway Station is one of the major stations in India."
+        },
+        {
+          "source": "ERN_HTR",
+          "quote": "You can visit Thrissur (72 KM)"
+        }
+      ],
+      "kind": "estimate"
+    },
+    "TS6": {
+      "place": "kerala/thrissur",
+      "topic": "Basilica",
+      "claim": "The Basilica of Our Lady of Dolours is the city's great church.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_TSR",
+          "quote": "The Basilica of Our Lady of Dolours, a magnificent Roman Catholic church"
+        }
+      ]
+    },
+    "AT1": {
+      "place": "kerala/athirappilly",
+      "topic": "The falls",
+      "claim": "Athirappilly, on the Chalakudy River, is Kerala's largest waterfall, about 80 ft high, falling in three plumes.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "TSR_ATH",
+          "quote": "It is the largest waterfall in Kerala, which stands tall at 80 feet."
+        },
+        {
+          "source": "TSR_ATH",
+          "quote": "on the Chalakudy River, which originates from the upper reaches of the Western Ghats at the entrance to the Sholayar ranges"
+        },
+        {
+          "source": "W_ATH",
+          "quote": "At Athirappilly Falls, the water surges around big rocks and cascades down in three separate plumes."
+        }
+      ]
+    },
+    "AT2": {
+      "place": "kerala/athirappilly",
+      "topic": "Vazhachal and wildlife",
+      "claim": "Vazhachal Falls is a short drive on; the forests hold elephants, leopards, gaur and lion-tailed macaques.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "TSR_ATH",
+          "quote": "Just a short drive from Athirapally to the Vazhachal falls"
+        },
+        {
+          "source": "W_ATH",
+          "quote": "Forest wildlife in the area includes the Indian elephant , Bengal tiger , Indian leopard , gaur , sambar , and lion-tailed macaque ."
+        }
+      ]
+    },
+    "AT3": {
+      "place": "kerala/athirappilly",
+      "topic": "Forest road rules",
+      "claim": "The road runs through forest and night travel is not allowed: checkpoints close by 6:30 pm.",
+      "claimType": "rule",
+      "evidence": [
+        {
+          "source": "W_ATH",
+          "quote": "in a thick forest and so night travel is not permitted"
+        },
+        {
+          "source": "W_ATH",
+          "quote": "The checkpoints at either end close by 6:30 pm IST prior to which all vehicles have to exit through either checkpoint."
+        }
+      ]
+    },
+    "AT4": {
+      "place": "kerala/athirappilly",
+      "topic": "Getting there",
+      "claim": "The falls are 32 km from Chalakudy, 59 km from Thrissur and 73 km from Kochi; Cochin airport is about 55 km. Buses and taxis run from Chalakudy.",
+      "claimType": "distance",
+      "evidence": [
+        {
+          "source": "TSR_ATH",
+          "quote": "At a distance of 32 km from Chalakudy, 73 km from Kochi, 59 km from Thrissur,"
+        },
+        {
+          "source": "TSR_ATH",
+          "quote": "Nearest Airport: Kochi - Cochin International Airport (55 Kms)"
+        },
+        {
+          "source": "W_ATH",
+          "quote": "Athirappilly is easily reachable from Chalakkudy by taxi or by bus from the Chalakkudy bus terminal."
+        }
+      ],
+      "kind": "estimate"
+    },
+    "KZ1": {
+      "place": "kerala/kozhikode",
+      "topic": "History",
+      "claim": "Kozhikode (Calicut) was one of the world's great medieval ports; Kappad beach marks where Vasco da Gama landed.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "W_KZ",
+          "quote": "It was among the most important ports in the world during medieval times"
+        },
+        {
+          "source": "II_KZ",
+          "quote": "Kappad Beach holds immense global significance as the site where Vasco da Gama first set foot in India."
+        }
+      ]
+    },
+    "KZ2": {
+      "place": "kerala/kozhikode",
+      "topic": "Food",
+      "claim": "Kozhikode is Malabar's food capital — biryani, pathiri, seafood and halwa on SM Street (Mittai Theruvu); try kallummakaya mussels at the beach.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_KZ",
+          "quote": "Signature dishes include Kozhikode Biryani , seafood preparations, Pathiri , and the iconic Kozhikode Halwa ."
+        },
+        {
+          "source": "II_KZ",
+          "quote": "The bustling SM Street, also known as Mittai Theruvu , is a sensory delight filled with sweet shops, spice stores, and traditional eateries"
+        },
+        {
+          "source": "KZ_BEACH",
+          "quote": "such as the famous ‘Kallummakaya’ (mussels)"
+        }
+      ]
+    },
+    "KZ3": {
+      "place": "kerala/kozhikode",
+      "topic": "The beach",
+      "claim": "Kozhikode Beach is the place for sunsets, food stalls, the old lighthouse and piers.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "KZ_BEACH",
+          "quote": "Kozhikode Beach is the favourite spot for all those who enjoy watching the setting sun."
+        },
+        {
+          "source": "KZ_BEACH",
+          "quote": "the old lighthouse, the ancient piers and the Lion’s park for children"
+        }
+      ]
+    },
+    "KZ4": {
+      "place": "kerala/kozhikode",
+      "topic": "Mananchira",
+      "claim": "Mananchira Square, once part of the Zamorins' palace, is now a park at the heart of the city.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_KZ",
+          "quote": "At the heart of the city lies Mananchira Square , once part of the royal palace complex of the Zamorins."
+        }
+      ]
+    },
+    "KZ5": {
+      "place": "kerala/kozhikode",
+      "topic": "Beypore and Kadalundi",
+      "claim": "Beypore has a 1,500-year boatbuilding tradition and hosts a water festival; Kadalundi bird sanctuary has mangroves and migratory birds.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "W_BW",
+          "quote": "Beypore has a 1,500-year tradition of boatbuilding."
+        },
+        {
+          "source": "II_KZ",
+          "quote": "hosting the internationally recognised Beypore International Water Festival"
+        },
+        {
+          "source": "II_KZ",
+          "quote": "Kadalundi Bird Sanctuary , with its mangroves and migratory birds"
+        }
+      ]
+    },
+    "KZ6": {
+      "place": "kerala/kozhikode",
+      "topic": "Kalari and hills",
+      "claim": "Vadakara's Lokanarkavu temple and kalari are tied to Kalaripayattu; Thusharagiri and Arippara waterfalls are in the hills.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_KZ",
+          "quote": "Sites such as Thacholi Manikkoth Kalari and the revered Lokanarkavu Temple attract visitors"
+        },
+        {
+          "source": "II_KZ",
+          "quote": "Destinations such as Thusharagiri and Arippara waterfalls attract trekkers"
+        }
+      ]
+    },
+    "KZ7": {
+      "place": "kerala/kozhikode",
+      "topic": "Getting there",
+      "claim": "Calicut airport at Karipur is about 23 km away; Kozhikode station (CLT) has trains along the coast and to Delhi, Mumbai, Chennai and Bengaluru.",
+      "claimType": "distance",
+      "evidence": [
+        {
+          "source": "KZ_HTR",
+          "quote": "located around 23 km away from the main Kozhikode town"
+        },
+        {
+          "source": "KZ_HTR",
+          "quote": "Kozhikode has its own railway station (code: CLT)."
+        },
+        {
+          "source": "KZ_HTR",
+          "quote": "The railway station connects the city to other important Indian destinations like Mumbai, Delhi, Mangalore, Chennai, Bangalore"
+        }
+      ],
+      "kind": "estimate"
+    },
+    "KN1": {
+      "place": "kerala/kannur",
+      "topic": "Setting",
+      "claim": "Kannur, 280 km north of Kochi, is the heart of North Malabar's culture and best known for Theyyam.",
+      "claimType": "distance",
+      "evidence": [
+        {
+          "source": "W_KAN",
+          "quote": "situated 280 kilometres (170 mi) north of the major port city and commercial hub Kochi"
+        },
+        {
+          "source": "II_KAN",
+          "quote": "Kannur is the cultural heartbeat of North Malabar."
+        },
+        {
+          "source": "II_KAN",
+          "quote": "It is best known for Theyyam"
+        }
+      ],
+      "kind": "estimate"
+    },
+    "KN2": {
+      "place": "kerala/kannur",
+      "topic": "Muzhappilangad",
+      "claim": "Muzhappilangad, beside NH 66 between Kannur and Thalassery, is India's longest drive-in beach, about 4 km.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_KAN",
+          "quote": "Muzhappilangad Beach , India’s longest drive-in beach, stretches for four kilometres"
+        },
+        {
+          "source": "W_MUZ",
+          "quote": "located parallel to National Highway 66 (formerly National Highway 17) between Kannur and Thalassery"
+        }
+      ]
+    },
+    "KN3": {
+      "place": "kerala/kannur",
+      "topic": "Payyambalam",
+      "claim": "Payyambalam, a quiet sunset beach, is 2.7 km from Kannur station.",
+      "claimType": "distance",
+      "evidence": [
+        {
+          "source": "II_KAN",
+          "quote": "Payyambalam Beach offers a quieter setting with golden sands and soothing sunsets"
+        },
+        {
+          "source": "KNR_PAY",
+          "quote": "Nearest Railway station is Kannur Railway Station. Distance travel to reach the destination is 2.7 km"
+        }
+      ],
+      "kind": "estimate"
+    },
+    "KN4": {
+      "place": "kerala/kannur",
+      "topic": "St Angelo Fort",
+      "claim": "St Angelo's Fort was built in 1505 by Francisco de Almeida, the first Portuguese viceroy.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "KNR_FORT",
+          "quote": "Built by the first Portuguese Viceroy in India, Don Francesco de Almeida (1505), St. Angelo’s Fort is among the most historic sites in Kannur."
+        }
+      ]
+    },
+    "KN5": {
+      "place": "kerala/kannur",
+      "topic": "Temples",
+      "claim": "The Parassinikkadavu Muthappan Temple on the Valapattanam River is known for its open rituals and dogs; Kottiyoor holds a monsoon festival.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_KAN",
+          "quote": "The Parassinikkadavu Muthappan Temple , set along the Valapattanam River, is especially unique, known for its open rituals and the sacred presence of dogs within the temple complex."
+        },
+        {
+          "source": "II_KAN",
+          "quote": "The forest-fringed Kottiyoor Temple , located near the Western Ghats, draws thousands during its annual monsoon festival"
+        }
+      ]
+    },
+    "KN6": {
+      "place": "kerala/kannur",
+      "topic": "Thalassery and handloom",
+      "claim": "Nearby Thalassery is the home of Thalassery biryani; Kannur is Kerala's largest handloom district.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_KAN",
+          "quote": "Thalassery is also celebrated as the birthplace of the iconic Thalassery biryani, made with fragrant jeerakasala rice."
+        },
+        {
+          "source": "II_KAN",
+          "quote": "it is the largest handloom-producing district in Kerala"
+        }
+      ]
+    },
+    "KN7": {
+      "place": "kerala/kannur",
+      "topic": "Season and access",
+      "claim": "October–March is best; Kannur airport is about 25 km away and Kannur station (CAN) is on the west-coast line.",
+      "claimType": "distance",
+      "evidence": [
+        {
+          "source": "II_KAN",
+          "quote": "The best time to visit Kannur is from October to March"
+        },
+        {
+          "source": "KNR_HTR",
+          "quote": "Kannur International Airport(25 km)"
+        },
+        {
+          "source": "II_KAN",
+          "quote": "lies on the west coast railway line and connects Kannur to major cities across India"
+        }
+      ],
+      "kind": "estimate"
+    },
+    "BK1": {
+      "place": "kerala/bekal",
+      "topic": "Bekal Fort",
+      "claim": "Bekal Fort, completed by Shivappa Nayaka of Keladi in 1650, is Kerala's largest fort, about 40 acres, three-quarters surrounded by sea.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "W_BEKF",
+          "quote": "is a medieval fort built by Shivappa Nayaka of Keladi in 1650 AD"
+        },
+        {
+          "source": "KSD_BEK",
+          "quote": "Bekal Fort, is the largest fort in Kerala"
+        },
+        {
+          "source": "KSD_BEK",
+          "quote": "spreading over 40 acres"
+        },
+        {
+          "source": "W_BEKF",
+          "quote": "Almost three-quarters of its exterior is in contact with water."
+        }
+      ]
+    },
+    "BK2": {
+      "place": "kerala/bekal",
+      "topic": "Inside the fort",
+      "claim": "Tipu Sultan's observation tower gives views along the coast; the fort is keyhole-shaped, with Bekal Beach beside it.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "W_BEKF",
+          "quote": "the flight of steps leading to an observation tower built by Tipu Sultan"
+        },
+        {
+          "source": "II_BEK",
+          "quote": "Its unique keyhole shape adds to its intrigue"
+        },
+        {
+          "source": "II_BEK",
+          "quote": "Bekal Beach , right next to the Bekal Fort"
+        }
+      ]
+    },
+    "BK3": {
+      "place": "kerala/bekal",
+      "topic": "Valiyaparamba",
+      "claim": "Houseboats cruise the Valiyaparamba backwaters; Valiyaparamba is the largest island in the Kavvayi backwaters.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_BEK",
+          "quote": "Glide through the serene Valiyaparamba Backwaters on a traditional kettuvallam"
+        },
+        {
+          "source": "II_BEK",
+          "quote": "Valiyaparamba Island, the largest in the Kavvayi backwaters"
+        }
+      ]
+    },
+    "BK4": {
+      "place": "kerala/bekal",
+      "topic": "Around Bekal",
+      "claim": "Chandragiri Fort overlooks the Payaswini estuary; the lake temple at Ananthapura is 5 km from Kumbala.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_BEK",
+          "quote": "This 17th-century fort, built by Sivappa Naik, overlooks the confluence of the Payaswini River and Arabian Sea."
+        },
+        {
+          "source": "II_BEK",
+          "quote": "Ananthapura Lake Temple, located 5 km from Kumbala"
+        }
+      ]
+    },
+    "BK5": {
+      "place": "kerala/bekal",
+      "topic": "Ranipuram",
+      "claim": "Ranipuram, a small trekking hill station at 780 m, is about 48–55 km from Kanhangad.",
+      "claimType": "distance",
+      "evidence": [
+        {
+          "source": "KSD_RANI",
+          "quote": "Lying 780 meters above sea level."
+        },
+        {
+          "source": "KSD_RANI",
+          "quote": "About 48 KMs east of Kanhangad."
+        },
+        {
+          "source": "KSD_RANI",
+          "quote": "Ranipuram is at a distance of about 55 Km from Kanhangad."
+        }
+      ],
+      "kind": "estimate"
+    },
+    "BK6": {
+      "place": "kerala/bekal",
+      "topic": "Season and festivals",
+      "claim": "November–February has the best weather; the Bekal International Beach Festival runs 10 days, and Theyyam is performed in shrines and tharavads.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_BEK",
+          "quote": "Plan your trip between November and February for the most pleasant weather"
+        },
+        {
+          "source": "II_BEK",
+          "quote": "the 10-day Bekal International Beach Festival"
+        },
+        {
+          "source": "II_BEK",
+          "quote": "Look for these performances in houses, tharavads (ancestral homes), and shrines."
+        }
+      ],
+      "kind": "seasonal"
+    },
+    "BK7": {
+      "place": "kerala/bekal",
+      "topic": "Getting there",
+      "claim": "Kasaragod and Kanhangad stations are about 12 km away; Mangaluru airport is about 80 km and Kannur airport about 95 km from Kasaragod.",
+      "claimType": "distance",
+      "evidence": [
+        {
+          "source": "KSD_BEK",
+          "quote": "The closest major railway stations are Kasargod and Kanhangad."
+        },
+        {
+          "source": "KSD_BEK",
+          "quote": "It is about 12 km away from Kasaragod."
+        },
+        {
+          "source": "KSD_BEK",
+          "quote": "Located at a distance of 80 Kilometers from Mangalore Airport,"
+        },
+        {
+          "source": "II_KSG",
+          "quote": "Kannur International Airport (CNN) is about 95 km away"
+        }
+      ],
+      "kind": "estimate"
+    },
+    "MR1": {
+      "place": "kerala/marari",
+      "topic": "Setting",
+      "claim": "Marari Beach, at Mararikulam village, is about 11 km from Alappuzha and a quieter alternative to it.",
+      "claimType": "distance",
+      "evidence": [
+        {
+          "source": "W_MAR",
+          "quote": "Marari Beach is a beach at Mararikulam village in Alappuzha District of Kerala"
+        },
+        {
+          "source": "W_MAR",
+          "quote": "11 km from Alappuzha (Alleppey) town"
+        }
+      ],
+      "kind": "estimate"
+    },
+    "MR2": {
+      "place": "kerala/marari",
+      "topic": "Getting there",
+      "claim": "Mararikulam has its own railway station; NH 66 passes 5 km east, and Cochin is the nearest airport.",
+      "claimType": "distance",
+      "evidence": [
+        {
+          "source": "W_MAR",
+          "quote": "Mararikulam is connected by rail and has a railway station by the same name."
+        },
+        {
+          "source": "W_MAR",
+          "quote": "NH 66 passes through S.L.Puram, which is 5 km to the east of Mararikulam."
+        },
+        {
+          "source": "W_MAR",
+          "quote": "Nearest airport is Cochin International Airport ."
+        }
+      ],
+      "kind": "estimate"
+    },
+    "PV1": {
+      "place": "kerala/poovar",
+      "topic": "Setting",
+      "claim": "Poovar is near the southern tip of Kerala, where the Neyyar River meets the sea, close to Vizhinjam harbour.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "W_POO",
+          "quote": "This village is almost at the southern tip of Thiruvananthapuram while the next village, Pozhiyoor , marks the end of Kerala."
+        },
+        {
+          "source": "W_POO",
+          "quote": "The 56 km Neyyar River passes through Neyyattinkara Taluk into the Arabian Sea near Poovar."
+        },
+        {
+          "source": "W_POO",
+          "quote": "Poovar lies very close to Vizhinjam , a natural harbour."
+        }
+      ]
+    },
+    "PV2": {
+      "place": "kerala/poovar",
+      "topic": "Estuary boat trips",
+      "claim": "Poovar's estuary joins river, sea and backwater; boat trips go out to the mangrove islands.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "KT_BOAT",
+          "quote": "Poovar, located near Kovalam, is known for its estuary where the river, sea and backwaters meet."
+        },
+        {
+          "source": "KT_BOAT",
+          "quote": "Boat trips can be booked to explore the place, and mangrove islands are an added attraction here."
+        }
+      ]
+    },
+    "PV3": {
+      "place": "kerala/poovar",
+      "topic": "History and name",
+      "claim": "Poovar was a trading port for timber, sandalwood, ivory and spices; its name — 'flower river' — is credited to Marthanda Varma.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "W_POO",
+          "quote": "Poovar was a trading centre of timber, sandalwood , ivory and spices."
+        },
+        {
+          "source": "W_POO",
+          "quote": "Marthanda Varma commented that this was poo-var , a conjunction of the Malayalam words for \"flower\" and \"river\"."
+        }
+      ]
+    },
+    "NL1": {
+      "place": "kerala/nelliyampathy",
+      "topic": "Setting",
+      "claim": "Nelliyampathy, a hill village at 467–1,572 m in Palakkad district, is 60–65 km from Palakkad via Nemmara.",
+      "claimType": "distance",
+      "evidence": [
+        {
+          "source": "PKD_NEL",
+          "quote": "This fascinating hill station is at a height of 467 to 1,572 m above sea level."
+        },
+        {
+          "source": "PKD_NEL",
+          "quote": "Location: 65 Km from Palakkad"
+        },
+        {
+          "source": "PKD_NEL",
+          "quote": "At a distance of 60 km from Palakkad"
+        },
+        {
+          "source": "PKD_NEL",
+          "quote": "25 Km deviation from Nemmara."
+        }
+      ],
+      "kind": "estimate"
+    },
+    "NL2": {
+      "place": "kerala/nelliyampathy",
+      "topic": "Viewpoints",
+      "claim": "Viewpoints include Seetharkundu, Manpara and Kesavanpara, with Victoria Church hills and Karappara dam.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "PKD_NEL",
+          "quote": "Attractions/Sight Seeing Points: Sitharkundu view point, Manpara view point, Kesavanpara view point, Victoria Church Hills, Karappara Dam site."
+        }
+      ]
+    },
+    "NL3": {
+      "place": "kerala/nelliyampathy",
+      "topic": "Treks",
+      "claim": "Treks such as the 6-km hilltop walk need Forest Division permission.",
+      "claimType": "rule",
+      "evidence": [
+        {
+          "source": "PKD_NEL",
+          "quote": "Trekking Options: Hill top(via Lilli)-6Km"
+        },
+        {
+          "source": "PKD_NEL",
+          "quote": "(Subject to permission from Forest Division)"
+        }
+      ]
+    },
+    "NL4": {
+      "place": "kerala/nelliyampathy",
+      "topic": "Estates and Pothundi",
+      "claim": "The hills are planted with tea, cardamom and coffee, with an orange farm; the 19th-century Pothundi dam is the entrance.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "PKD_NEL",
+          "quote": "Tea/Cardamon/Coffee/Plantations-Orange & Vegitable Farm of Agriculture Department"
+        },
+        {
+          "source": "W_NEL",
+          "quote": "Pothundi Dam , which was constructed in the 19th century, is the entrance to Nelliyampathy."
+        }
+      ]
+    },
+    "NL5": {
+      "place": "kerala/nelliyampathy",
+      "topic": "Getting there",
+      "claim": "Palakkad Junction is about 58 km away; Cochin airport is about 120 km and Coimbatore airport 123 km.",
+      "claimType": "distance",
+      "evidence": [
+        {
+          "source": "PKD_NEL",
+          "quote": "Palakkad Junction (Olavakode) And distance from Station 58 Kms"
+        },
+        {
+          "source": "PKD_NEL",
+          "quote": "Cochin International Airport And the distance from airport 120 Kms,"
+        },
+        {
+          "source": "PKD_NEL",
+          "quote": "Coimbatore International Airport, Avinashi Road, Coimbatore, And the distance from airport 123 Kms"
+        }
+      ],
+      "kind": "estimate"
+    },
+    "NL6": {
+      "place": "kerala/nelliyampathy",
+      "topic": "Parambikulam",
+      "claim": "Parambikulam sanctuary (285 sq km) has the Kannimara teak; its tree house must be booked ahead.",
+      "claimType": "rule",
+      "evidence": [
+        {
+          "source": "PKD_PAR",
+          "quote": "Sprawled across 285 sq.km"
+        },
+        {
+          "source": "PKD_PAR",
+          "quote": "The tree house in the reserve forest area in Thunakkadavu has to be booked in advance."
+        },
+        {
+          "source": "PKD_PAR",
+          "quote": "The Kannimara Teak with a girth of 6.57 m and a height of 48.5m, said to be around 360 years old"
+        }
+      ]
+    },
+    "AP1": {
+      "place": "kerala/alappuzha",
+      "topic": "Getting there",
+      "claim": "Cochin airport is about 83 km (2 hours) and Trivandrum airport 149 km; Kottayam is 50 km and Thekkady 125 km by road. Alappuzha station is under 1 km from the beach.",
+      "claimType": "distance",
+      "evidence": [
+        {
+          "source": "ALP_HTR",
+          "quote": "The nearest International Airport is Cochin International Airport(82.8 Km)  – 2 hrs. by NH 66"
+        },
+        {
+          "source": "ALP_HTR",
+          "quote": "Trivandrum International Airport – (149 Km)"
+        },
+        {
+          "source": "ALP_HTR",
+          "quote": "50 Km. West of Kottayam"
+        },
+        {
+          "source": "ALP_BEACH",
+          "quote": "Alappuzha railway station - Less than 1 km"
+        }
+      ],
+      "kind": "estimate"
+    },
+    "AP2": {
+      "place": "kerala/alappuzha",
+      "topic": "Shikara and Pathiramanal",
+      "claim": "Shikara boats — smaller than houseboats — reach the narrow canals; Pathiramanal island, between Thaneermukkom and Kumarakom, is reached only by boat.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "KT_BOAT",
+          "quote": "Enjoy a traditional Shikara boat ride; a smaller version of the houseboat."
+        },
+        {
+          "source": "ALP_PAT",
+          "quote": "The island lies between Thaneermukkom and Kumarakom, and is accessable only by boat."
+        }
+      ]
+    },
+    "MN9": {
+      "place": "kerala/munnar",
+      "topic": "From Kochi",
+      "claim": "Munnar is about 130 km from Kochi, about 4.5 hours by road; Top Station is 32 km away.",
+      "claimType": "distance",
+      "evidence": [
+        {
+          "source": "IDK_MUN",
+          "quote": "Munnar is located about 130 km from Kochi, along the National Highway 49 and the road trip takes about 4.5 hours."
+        },
+        {
+          "source": "IDK_MUN",
+          "quote": "Top Station, which is about 32 km from Munnar"
+        }
+      ],
+      "kind": "estimate"
+    },
+    "KC11": {
+      "place": "kerala/kochi",
+      "topic": "Getting there",
+      "claim": "Cochin airport is about 27 km north of the city; Ernakulam Junction and Ernakulam Town are the stations, and Vyttila the main bus hub.",
+      "claimType": "distance",
+      "evidence": [
+        {
+          "source": "ERN_HTR",
+          "quote": "Nearest Airport : Cochin International Airport, Ernakulam- 27 km to the north of Kochi."
+        },
+        {
+          "source": "ERN_HTR",
+          "quote": "Railway Station(s): Ernakulam junction (south) (ERS), E rnakulam town (north) (ERN)"
+        },
+        {
+          "source": "ERN_HTR",
+          "quote": "Bus Station(s): E ranakulam, Vyttila"
+        }
+      ],
+      "kind": "estimate"
+    },
+    "KC12": {
+      "place": "kerala/kochi",
+      "topic": "Day trips",
+      "claim": "Hill Palace (1865), Kerala's largest archaeological museum, is at Tripunithura; Cherai beach is on Vypeen island.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "ERN_HILL",
+          "quote": "Hill Palace, built in 1865, is the largest archaeological museum in Kerala"
+        },
+        {
+          "source": "ERN_CHERAI",
+          "quote": "The best way in is the ferry from Cochin to Vypeen Island and then a local bus to Cherai Junction."
+        }
+      ]
+    },
+    "VG6": {
+      "place": "kerala/vagamon",
+      "topic": "Ilaveezhapoonchira",
+      "claim": "Ilaveezhapoonchira, a treeless valley near Melukavu, 60 km from Kottayam, is known for sunrise and sunset views.",
+      "claimType": "distance",
+      "evidence": [
+        {
+          "source": "KTM_ILA",
+          "quote": "Ilaveezha poonchira, a hill station near Melukavu Mattom, 60kms from Kottayam is gaining tourist importance."
+        },
+        {
+          "source": "KTM_ILA",
+          "quote": "This is also one of the best places in Kerala to witness both the sun rise and sunset."
+        }
+      ],
+      "kind": "estimate"
     }
   },
   "places": [
@@ -782,15 +3781,17 @@
       "key": "kerala",
       "kind": "state",
       "name": "Kerala",
-      "summary": "Backwaters and houseboats, tea hills at Munnar, Kochi's spice-trade history and some of India's best food.",
-      "seoTitle": "Kerala Travel Guide: Kochi, Munnar, Alappuzha & Backwaters",
-      "seoDescription": "Plan a Kerala trip: Kochi's Fort and Mattancherry, Munnar's tea hills and Eravikulam, Alappuzha's backwaters and houseboats, food, festivals and the best season.",
+      "summary": "Backwaters and houseboats, tea hills at Munnar, Kochi's spice-trade history, cliff beaches at Varkala, Periyar's forests, Theyyam in the north and some of India's best food.",
+      "seoTitle": "Kerala Travel Guide: Backwaters, Hills, Beaches & Food",
+      "seoDescription": "Plan Kerala: Kochi, Munnar, houseboats at Alappuzha and Kumarakom, Thekkady, Varkala and Kovalam, Wayanad, Theyyam, festivals, getting there and the best time.",
       "lat": 10.0,
       "lng": 76.3,
       "wikidataId": "Q1186",
       "tripTypes": [
         "nature",
+        "beaches",
         "food",
+        "heritage",
         "romantic"
       ],
       "images": [
@@ -802,20 +3803,425 @@
         }
       ],
       "sections": {
-        "overview": {
-          "text": "Kerala, on India's south-west coast, is known for its backwaters — a web of lakes, canals and rivers that runs along nearly half the length of the state — and for the green hills of the Western Ghats behind them. It recorded 22.25 million domestic and 0.738 million foreign tourist visits in 2024.\n\nThe classic first trip links three places. Kochi, the old spice port, is the gateway, with its Chinese fishing nets, colonial churches and the synagogue and palace of Mattancherry. Munnar, about 1,600 m up in the Ghats, is tea country, with Eravikulam National Park and its Nilgiri tahr next door. Alappuzha is the base for a night on a houseboat in the backwaters.\n\nKerala's culture is as much a draw as its landscapes: Kathakali dance-drama, the martial art Kalaripayattu, the sadya feast on a banana leaf, and Onam, the harvest festival, in August–September.",
+        "key_facts": {
+          "items": [
+            {
+              "title": "Best time",
+              "body": "November–February; houseboats October–February",
+              "status": "seasonal"
+            },
+            {
+              "title": "Size",
+              "body": "38,863 sq km; a 580 km coastline",
+              "status": "verified"
+            },
+            {
+              "title": "Capital",
+              "body": "Thiruvananthapuram; 14 districts",
+              "status": "verified"
+            },
+            {
+              "title": "Language",
+              "body": "Malayalam; English widely spoken in tourist areas",
+              "status": "verified"
+            },
+            {
+              "title": "Airports",
+              "body": "Thiruvananthapuram, Kochi, Kozhikode, Kannur",
+              "status": "verified"
+            },
+            {
+              "title": "Monsoons",
+              "body": "South-west June–September, north-east October–December",
+              "status": "seasonal"
+            }
+          ],
           "facts": [
-            "K2",
+            "KS11",
+            "KS1",
+            "KS2",
+            "KS4",
+            "KS25",
+            "KS6",
+            "KS9"
+          ]
+        },
+        "overview": {
+          "text": "Kerala is a narrow state of 38,863 sq km between the Arabian Sea and the Western Ghats, bordered by Karnataka and Tamil Nadu. It falls into three bands: the forested highlands of the Ghats, rising to Anamudi at 2,695 m; the midlands of hills and plantations; and a 580 km coast of beaches and backwaters, fed by 44 rivers. Thiruvananthapuram is the capital, Kochi the main gateway, and Malayalam the language, with English widely spoken where visitors go.\n\nFor centuries this was the Spice Coast, trading pepper and cardamom with Romans, Arabs, Chinese and then the Portuguese, Dutch and British — the reason for Kochi's churches, synagogue and fishing nets. The backwaters, threaded with more than 900 km of waterways, are best seen from a houseboat, a converted rice barge; behind them lie the tea hills of Munnar and the forests of Thekkady and Wayanad.\n\nKerala's culture is a draw in itself: Kathakali dance-drama, Theyyam in the north, the martial art Kalaripayattu, Ayurveda, snake-boat races and festivals such as Onam and Thrissur Pooram. The food — appam and stew, fish curry in coconut milk, the banana-leaf sadya, Malabar biryani — is reason enough to come. Kerala recorded 22.25 million domestic and 0.738 million foreign tourist visits in 2024.",
+          "facts": [
             "K1",
-            "KC1",
+            "K2",
+            "K4",
+            "K5",
+            "KS1",
+            "KS2",
+            "KS3",
+            "KS4",
+            "KS25",
+            "KS5",
+            "KS20",
+            "KS17",
+            "KS29",
+            "KS18",
+            "KS16",
+            "KS13",
+            "KS14",
+            "KS22",
+            "KS23",
+            "KC2",
             "FK1",
             "MP2",
+            "MN1"
+          ]
+        },
+        "highlights": {
+          "items": [
+            {
+              "body": "Attukal Pongala, Thiruvananthapuram — February/March.",
+              "status": "seasonal"
+            },
+            {
+              "body": "Vishu, the Malayalam new year — April.",
+              "status": "seasonal"
+            },
+            {
+              "body": "Thrissur Pooram — April/May (the month of Medam).",
+              "status": "seasonal"
+            },
+            {
+              "body": "Nehru Trophy snake-boat race, Alappuzha — second Saturday of August.",
+              "status": "seasonal"
+            },
+            {
+              "body": "Onam, with boat races and feasts — August/September.",
+              "status": "seasonal"
+            },
+            {
+              "body": "Sabarimala pilgrim season — Mandala Pooja in November–December, Makaravilakku in mid-January.",
+              "status": "seasonal"
+            },
+            {
+              "body": "Theyyam season in the north — December to March.",
+              "status": "seasonal"
+            }
+          ],
+          "facts": [
+            "KS15",
+            "KS13",
+            "KS14",
+            "AL5",
+            "KS28"
+          ]
+        },
+        "regions": {
+          "items": [
+            {
+              "title": "Thiruvananthapuram and the south coast",
+              "body": "The capital and its Padmanabhaswamy Temple, the beaches of Kovalam and Varkala's cliffs, Poovar's estuary, and Ponmudi and Neyyar in the hills.",
+              "status": "verified"
+            },
+            {
+              "title": "Kollam and Ashtamudi",
+              "body": "The old port, Ashtamudi Lake — the gateway to the backwaters — Jatayu Earth's Center and Thenmala's forests.",
+              "status": "verified"
+            },
+            {
+              "title": "The backwaters: Alappuzha and Kumarakom",
+              "body": "Houseboats on Vembanad Lake and the canals of Kuttanad, with Marari beach nearby.",
+              "status": "verified"
+            },
+            {
+              "title": "Kochi",
+              "body": "Fort Kochi and Mattancherry on the peninsula, Ernakulam on the mainland — the main gateway.",
+              "status": "verified"
+            },
+            {
+              "title": "The high ranges: Munnar, Thekkady and Vagamon",
+              "body": "Tea and cardamom hills in Idukki, Eravikulam's Nilgiri tahr and the Periyar Tiger Reserve.",
+              "status": "verified"
+            },
+            {
+              "title": "Central Kerala: Thrissur and Palakkad",
+              "body": "Thrissur's temples and Pooram, Guruvayur, Athirappilly falls, and the Nelliyampathy hills.",
+              "status": "verified"
+            },
+            {
+              "title": "Malabar: Kozhikode, Wayanad, Kannur and Kasaragod",
+              "body": "Kozhikode's food and history, Wayanad's coffee hills and caves, Kannur's Theyyam and drive-in beach, and Bekal Fort.",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "TV3",
+            "KV1",
+            "VK1",
+            "PV2",
+            "TV7",
+            "KL1",
+            "KS21",
+            "KL5",
+            "KL6",
+            "KM1",
+            "AL3",
+            "MR1",
+            "KC2",
             "MN1",
             "EV2",
-            "AL4",
-            "K4",
-            "K3",
-            "K5"
+            "TK3",
+            "VG1",
+            "TS1",
+            "TS4",
+            "AT1",
+            "NL1",
+            "KZ2",
+            "WY1",
+            "KN1",
+            "KN2",
+            "BK1"
+          ]
+        },
+        "how_to_reach": {
+          "text": "By air: Kerala has four international airports — Thiruvananthapuram, Kochi, Kozhikode and Kannur. Kochi is the usual gateway for Munnar, Alappuzha and Thekkady; Thiruvananthapuram for Kovalam and Varkala; Kozhikode for Wayanad; Kannur and Mangaluru for the far north.\n\nBy rail: trains run along the coast and reach most towns, but not the hill districts of Idukki and Wayanad. Thiruvananthapuram Central is the busiest station; Ernakulam Junction serves Kochi. For Munnar and Thekkady you take the train to Ernakulam, Aluva or Kottayam and continue by road.\n\nBy road: NH 66 runs the length of the coast. State and private buses are cheap and go almost everywhere, and taxis are easy to find in the cities; driving yourself is possible but can be challenging. Distances look short but hill roads are slow — Kochi to Munnar takes about 4.5 hours, and Munnar to Thekkady about 4.",
+          "facts": [
+            "KS6",
+            "KC6",
+            "KS7",
+            "KS8",
+            "MN9",
+            "TK7",
+            "WY9",
+            "BK7"
+          ]
+        },
+        "best_time": {
+          "text": "November–February: the peak season, with pleasant weather on the coast and cool days in Munnar and Thekkady. October–February is the best time for a houseboat.\n\nMarch–May: summer. The coast and midlands are hot and humid (up to about 36°C), but the hill stations stay comfortable.\n\nJune–September: the south-west monsoon brings heavy rain and green landscapes. It is a favoured season for Ayurveda, but backwater cruising is suspended at Kumarakom, some Wayanad areas may close, and since 2015 heavy rain has caused major floods more than once. Onam and its boat races fall in August–September.\n\nOctober–December: the north-east monsoon brings lighter rain, and the Theyyam season in the north begins in December.",
+          "facts": [
+            "KS11",
+            "KS10",
+            "KS9",
+            "KS18",
+            "KM3",
+            "WY8",
+            "KS12",
+            "KS13",
+            "KS15"
+          ]
+        },
+        "things_to_do": {
+          "items": [
+            {
+              "body": "Spend a night on a houseboat on Vembanad Lake or Ashtamudi — Kumarakom to Alappuzha, or Kollam to Alappuzha."
+            },
+            {
+              "body": "Watch a snake-boat race — the Nehru Trophy on Punnamada Lake in August."
+            },
+            {
+              "body": "See Kathakali in Kochi, and Theyyam in Kannur between December and March."
+            },
+            {
+              "body": "Take an Ayurvedic treatment — Kerala Tourism recommends the monsoon for Panchakarma."
+            },
+            {
+              "body": "Walk the tea estates of Munnar and see the Nilgiri tahr at Eravikulam."
+            },
+            {
+              "body": "Take a boat on Periyar Lake in Thekkady, or a jeep safari in Wayanad."
+            },
+            {
+              "body": "Trek to Chembra Peak in Wayanad with forest-department guides."
+            },
+            {
+              "body": "Watch the sunset from the cliffs at Varkala, or swim in the bay at Kovalam."
+            },
+            {
+              "body": "Eat a sadya on a banana leaf, and Kozhikode's biryani and halwa."
+            },
+            {
+              "body": "Drive along Muzhappilangad, India's longest drive-in beach, and visit Bekal Fort."
+            }
+          ],
+          "facts": [
+            "KM4",
+            "KS21",
+            "AL5",
+            "KC9",
+            "KS17",
+            "KN1",
+            "KS18",
+            "MN8",
+            "EV2",
+            "TK5",
+            "WY6",
+            "WY3",
+            "VK1",
+            "KV1",
+            "KS23",
+            "KZ2",
+            "KN2",
+            "BK1"
+          ]
+        },
+        "food": {
+          "items": [
+            {
+              "body": "Appam with stew, or puttu with kadala (chickpea) curry, for breakfast."
+            },
+            {
+              "body": "Fish curry in coconut milk, and karimeen pollichathu — pearl-spot in banana leaf — in Alappuzha."
+            },
+            {
+              "body": "The sadya: more than 20 dishes on a banana leaf, served at festivals."
+            },
+            {
+              "body": "Malabar biryani — Kozhikode's, and Thalassery's with jeerakasala rice."
+            },
+            {
+              "body": "Kozhikode halwa from SM Street, and kallummakaya (mussels)."
+            },
+            {
+              "body": "Pazhampori — banana fritters — and toddy from the coconut palm."
+            }
+          ],
+          "facts": [
+            "KS22",
+            "AL6",
+            "KS23",
+            "KZ2",
+            "KN6"
+          ]
+        },
+        "shopping": {
+          "items": [
+            {
+              "body": "Spices — cardamom, pepper, cloves and nutmeg — around Kumily and Munnar."
+            },
+            {
+              "body": "Antiques in Kochi's Jew Town."
+            },
+            {
+              "body": "Halwa and spices on Kozhikode's SM Street."
+            },
+            {
+              "body": "Handloom from Kannur, Kerala's largest handloom district."
+            },
+            {
+              "body": "Palm-frond weaving and brass-inlay crafts."
+            },
+            {
+              "body": "Expect to bargain in markets."
+            }
+          ],
+          "facts": [
+            "KS27",
+            "TK6",
+            "MP4",
+            "KZ2",
+            "KN6",
+            "KS24"
+          ]
+        },
+        "where_to_stay": {
+          "text": "Fort Kochi, with heritage hotels and homestays among its colonial streets, is the easiest first night. In the backwaters, spend a night on a houseboat — the state grades them platinum, gold and silver — or stay by the lake at Kumarakom. In the hills, Munnar has hotels and estate stays, and Kumily, by the Periyar reserve, has affordable rooms. On the south coast, Kovalam has everything from five-star hotels to budget cottages and Ayurvedic resorts, while Varkala, on its cliffs, is quieter. Family-run homestays are found across the state; Kerala Tourism lists the government-approved ones.",
+          "facts": [
+            "FK4",
+            "KS20",
+            "KM1",
+            "TK6",
+            "KV6",
+            "VK8",
+            "KS19"
+          ]
+        },
+        "practical_info": {
+          "items": [
+            {
+              "title": "Visas",
+              "body": "Apply for an e-Tourist visa at least 4 days before arrival; your passport needs at least six months' validity.",
+              "status": "verified"
+            },
+            {
+              "title": "Payments",
+              "body": "Visitors can pay by QR code with NPCI's UPI One World wallet after a passport-and-visa KYC check.",
+              "status": "verified"
+            },
+            {
+              "title": "Language",
+              "body": "Malayalam; English is widely spoken in tourist areas.",
+              "status": "verified"
+            },
+            {
+              "title": "Health",
+              "body": "Basic healthcare is available; travel insurance is advised.",
+              "status": "verified"
+            },
+            {
+              "title": "Tipping",
+              "body": "Not mandatory, but appreciated.",
+              "status": "verified"
+            },
+            {
+              "title": "Emergency",
+              "body": "Dial 112 for police, fire or ambulance.",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "K7",
+            "K8",
+            "KS25",
+            "KS24",
+            "K6"
+          ]
+        },
+        "safety_health": {
+          "items": [
+            {
+              "title": "Monsoon",
+              "body": "Heavy south-west monsoon rain has caused major floods since 2015; check conditions and pack rain gear.",
+              "status": "seasonal"
+            },
+            {
+              "title": "Forest roads",
+              "body": "Night travel is not allowed on the Athirappilly road (checkpoints close by 6:30 pm); on the Wayanad–Bengaluru forest road wild elephants may be about.",
+              "status": "verified"
+            },
+            {
+              "title": "Sun and insects",
+              "body": "Pack sunscreen, insect repellent and a hat.",
+              "status": "verified"
+            },
+            {
+              "title": "General",
+              "body": "Kerala is generally safe, but stay aware of your surroundings.",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "KS12",
+            "AT3",
+            "WY10",
+            "KS26",
+            "KS25"
+          ]
+        },
+        "culture_etiquette": {
+          "items": [
+            {
+              "body": "Dress modestly at temples, churches and mosques."
+            },
+            {
+              "body": "Ask before photographing people, especially at religious sites."
+            },
+            {
+              "body": "Expect to bargain in local markets; tipping is optional."
+            },
+            {
+              "body": "Watch Theyyam respectfully — it is worship, performed in shrines and family homes."
+            }
+          ],
+          "facts": [
+            "KS24",
+            "BK6"
           ]
         },
         "travel_tips": {
@@ -824,40 +4230,72 @@
               "body": "Allow at least five days to combine Kochi, Munnar and the backwaters without rushing."
             },
             {
-              "body": "Book houseboats and Munnar hotels early for the October–February peak and Onam."
+              "body": "Book houseboats and hill hotels early for the November–February peak and for Onam."
             },
             {
-              "body": "Expect heavy rain in the monsoon — beautiful, but roads to the hills can be slow."
+              "body": "Hill roads are slow: budget about 4–4.5 hours for Kochi–Munnar and Munnar–Thekkady."
+            },
+            {
+              "body": "Thekkady is cool in December–January (about 13°C) — bring a layer."
             }
           ],
           "facts": [
             "MN5",
             "AL7",
-            "K5"
+            "KS11",
+            "MN9",
+            "TK7",
+            "TK2"
           ]
         },
-        "practical_info": {
+        "faqs": {
           "items": [
             {
-              "title": "Visas",
-              "body": "Apply for an e-Tourist visa at least 4 days before arrival; your passport needs at least six months' validity."
+              "title": "When is the best time to visit Kerala?",
+              "body": "November to February for most of the state; October to February for houseboats; the hill stations are pleasant from November to February. June to September is the heavy south-west monsoon."
             },
             {
-              "title": "Payments",
-              "body": "Visitors can pay by QR code with NPCI's UPI One World wallet after a passport-and-visa KYC check."
+              "title": "Can I take a houseboat in the monsoon?",
+              "body": "In Kumarakom, backwater cruising is not allowed during the south-west monsoon (June–August). October to February is the best season."
             },
             {
-              "title": "Emergency",
-              "body": "Dial 112 for police, fire or ambulance."
+              "title": "Which airport should I fly into?",
+              "body": "Kochi for Munnar, Alappuzha and Thekkady; Thiruvananthapuram for Kovalam and Varkala; Kozhikode for Wayanad; Kannur for the north."
+            },
+            {
+              "title": "Is there a train to Munnar or Wayanad?",
+              "body": "No. The hill districts of Idukki and Wayanad have no railway; take a train to Ernakulam, Aluva or Kottayam for Munnar and Thekkady, or Kozhikode for Wayanad, and continue by road."
+            },
+            {
+              "title": "Will I see a tiger in Periyar?",
+              "body": "Probably not — the forest is dense and tiger sightings are highly unlikely. The boat on Periyar Lake is the best chance of seeing elephants, bison and otters."
+            },
+            {
+              "title": "When can I see Theyyam?",
+              "body": "The Theyyam season in northern Kerala runs from December to March, mostly in Kannur and Kasaragod."
+            },
+            {
+              "title": "Is English spoken?",
+              "body": "Yes, widely in tourist areas. Malayalam is the state language."
             }
           ],
           "facts": [
-            "K7",
-            "K8",
-            "K6"
+            "KS11",
+            "KS9",
+            "KM3",
+            "KS6",
+            "KC6",
+            "WY9",
+            "KS7",
+            "MN9",
+            "TK3",
+            "TK4",
+            "KS15",
+            "KS25"
           ]
         }
-      }
+      },
+      "featured": true
     },
     {
       "key": "kerala/kochi",
@@ -990,6 +4428,68 @@
           "facts": [
             "MP3",
             "MN4"
+          ]
+        },
+        "key_facts": {
+          "items": [
+            {
+              "title": "Known for",
+              "body": "Fort Kochi, Mattancherry, Chinese nets",
+              "status": "verified"
+            },
+            {
+              "title": "Airport",
+              "body": "Cochin International, about 27 km",
+              "status": "estimate"
+            },
+            {
+              "title": "Stations",
+              "body": "Ernakulam Junction and Town",
+              "status": "verified"
+            },
+            {
+              "title": "Best time",
+              "body": "October–March",
+              "status": "seasonal"
+            }
+          ],
+          "facts": [
+            "FK1",
+            "KC11",
+            "KC5"
+          ]
+        },
+        "things_to_do": {
+          "items": [
+            {
+              "body": "Watch the Chinese fishing nets at Fort Kochi at sunset."
+            },
+            {
+              "body": "Visit St Francis Church and the Santa Cruz Basilica."
+            },
+            {
+              "body": "See the murals in Mattancherry Palace and the Paradesi Synagogue (closed Fri–Sun)."
+            },
+            {
+              "body": "Watch Kathakali at the Kerala Kathakali Center."
+            },
+            {
+              "body": "Ride the Kochi Water Metro."
+            },
+            {
+              "body": "Day-trip to Hill Palace or Cherai beach."
+            }
+          ],
+          "facts": [
+            "FK1",
+            "FK2",
+            "FK3",
+            "MP1",
+            "MP2",
+            "MP3",
+            "KC9",
+            "KC7",
+            "KC12"
           ]
         }
       }
@@ -1208,6 +4708,36 @@
           "facts": [
             "MN5"
           ]
+        },
+        "key_facts": {
+          "items": [
+            {
+              "title": "Altitude",
+              "body": "About 1,600 m",
+              "status": "verified"
+            },
+            {
+              "title": "Best time",
+              "body": "November–February",
+              "status": "seasonal"
+            },
+            {
+              "title": "From Kochi",
+              "body": "About 130 km, 4.5 hours",
+              "status": "estimate"
+            },
+            {
+              "title": "Highest peak",
+              "body": "Anamudi, 2,695 m",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "MN1",
+            "KS11",
+            "MN9",
+            "MN3"
+          ]
         }
       },
       "parent": "kerala",
@@ -1353,10 +4883,1602 @@
             "AL5",
             "AL7"
           ]
+        },
+        "how_to_reach": {
+          "text": "Cochin airport is about 83 km — about 2 hours by NH 66 — and Trivandrum airport 149 km. Alappuzha is about 62 km south of Kochi; Kottayam is 50 km away. The railway station is less than 1 km from the beach.",
+          "facts": [
+            "AP1",
+            "AL1"
+          ]
+        },
+        "things_to_do": {
+          "items": [
+            {
+              "body": "Spend a night on a houseboat."
+            },
+            {
+              "body": "Take a shikara through the narrow canals."
+            },
+            {
+              "body": "Boat out to Pathiramanal island."
+            },
+            {
+              "body": "Watch the Nehru Trophy snake-boat race on the second Saturday of August."
+            },
+            {
+              "body": "Walk the beach and old pier."
+            },
+            {
+              "body": "Try palpayasam at the Ambalappuzha temple."
+            }
+          ],
+          "facts": [
+            "AL4",
+            "AP2",
+            "AL5",
+            "AL8",
+            "AL9"
+          ]
         }
       },
       "parent": "kerala",
       "featured": true
+    },
+    {
+      "key": "kerala/thiruvananthapuram",
+      "kind": "city",
+      "name": "Thiruvananthapuram",
+      "summary": "Kerala's capital: the Padmanabhaswamy Temple, Travancore's museums and palaces, and the base for Kovalam, Varkala, Poovar and the southern hills.",
+      "seoTitle": "Thiruvananthapuram Travel Guide: Temples, Museums & Beaches",
+      "seoDescription": "Plan Thiruvananthapuram (Trivandrum): the Padmanabhaswamy Temple, the Napier museum and zoo, Shankumugham beach, Ponmudi and Neyyar, food and getting there.",
+      "lat": 8.5241,
+      "lng": 76.9366,
+      "tripTypes": [
+        "heritage",
+        "spiritual",
+        "beaches"
+      ],
+      "images": [
+        {
+          "commons": "File:Thiruvananthapuram Padmanabhaswamy temple.jpg",
+          "alt": "The tall carved gopuram of the Padmanabhaswamy Temple reflected in its tank",
+          "caption": "Sree Padmanabhaswamy Temple",
+          "hero": true
+        }
+      ],
+      "sections": {
+        "key_facts": {
+          "items": [
+            {
+              "title": "Known for",
+              "body": "Padmanabhaswamy Temple, Travancore heritage",
+              "status": "verified"
+            },
+            {
+              "title": "Airport",
+              "body": "About 7 km from the city",
+              "status": "estimate"
+            },
+            {
+              "title": "Station",
+              "body": "Thiruvananthapuram Central",
+              "status": "verified"
+            },
+            {
+              "title": "Attukal Pongala",
+              "body": "February/March",
+              "status": "seasonal"
+            }
+          ],
+          "facts": [
+            "TV1",
+            "TV3",
+            "TV6",
+            "KS15"
+          ]
+        },
+        "overview": {
+          "text": "Thiruvananthapuram, or Trivandrum, is Kerala's capital. Its name means 'City of Lord Anantha', after the Sree Padmanabhaswamy Temple, whose mix of Kerala and Dravidian architecture and hidden treasure vaults make it the city's centre. In the 18th century Marthanda Varma founded the kingdom of Travancore and made the city his capital.\n\nTravancore's legacy shows in the museum (opened 1857) and zoo, set in 55 acres in the middle of town, and in the Attukal Bhagavathy Temple, whose Pongala festival in February or March is noted as the largest gathering of women in the world. The Palayam Juma Masjid and St Joseph's Cathedral stand close together.\n\nThe city is the base for the south: Kovalam's beaches, Varkala's cliffs and Poovar's estuary on the coast, and Neyyar, Peppara and the hills of Ponmudi and Agasthyakoodam inland.",
+          "facts": [
+            "TV1",
+            "TV3",
+            "TV2",
+            "TV4",
+            "KS15",
+            "TV9",
+            "TV7"
+          ]
+        },
+        "things_to_do": {
+          "items": [
+            {
+              "body": "Visit the Sree Padmanabhaswamy Temple (dress code applies at temples)."
+            },
+            {
+              "body": "See the museum and zoo in the city-centre gardens."
+            },
+            {
+              "body": "Watch the sunset over Shankumugham beach from the Old Coffee House."
+            },
+            {
+              "body": "Day-trip to Neyyar Dam and wildlife sanctuary, about 30 km away."
+            },
+            {
+              "body": "Eat fish curry, appam with stew and a banana-leaf meal."
+            }
+          ],
+          "facts": [
+            "TV3",
+            "KS24",
+            "TV4",
+            "TV5",
+            "TV7",
+            "TV8"
+          ]
+        },
+        "how_to_reach": {
+          "text": "Trivandrum International Airport is about 7 km from the city. Thiruvananthapuram Central is Kerala's busiest railway station. Long-distance buses use the Thampanoor stand, local buses East Fort. Kovalam is about 16 km south and Varkala about 50 km north.",
+          "facts": [
+            "TV6",
+            "KV5",
+            "VK7"
+          ]
+        }
+      },
+      "parent": "kerala"
+    },
+    {
+      "key": "kerala/kovalam",
+      "kind": "town",
+      "name": "Kovalam",
+      "summary": "Three crescent beaches south of Thiruvananthapuram — the lighthouse, calm bathing bays, Ayurveda and catamaran rides.",
+      "seoTitle": "Kovalam Travel Guide: Beaches, Lighthouse & Ayurveda",
+      "seoDescription": "Plan Kovalam: Lighthouse, Hawah and Samudra beaches, the Vizhinjam lighthouse, Ayurveda, Vellayani Lake, where to stay and getting there from Thiruvananthapuram.",
+      "lat": 8.4004,
+      "lng": 76.9787,
+      "tripTypes": [
+        "beaches",
+        "romantic"
+      ],
+      "images": [
+        {
+          "commons": "File:Kovalam beach trivandrum kerala.jpg",
+          "alt": "Kovalam's curving beach with palm trees and a rocky headland",
+          "caption": "Kovalam beach",
+          "hero": true
+        }
+      ],
+      "sections": {
+        "key_facts": {
+          "items": [
+            {
+              "title": "Beaches",
+              "body": "Lighthouse, Hawah, Samudra",
+              "status": "verified"
+            },
+            {
+              "title": "From Thiruvananthapuram",
+              "body": "About 16 km",
+              "status": "estimate"
+            },
+            {
+              "title": "Airport",
+              "body": "10–15 km",
+              "status": "estimate"
+            },
+            {
+              "title": "Best time",
+              "body": "October–March",
+              "status": "seasonal"
+            }
+          ],
+          "facts": [
+            "KV1",
+            "KV2",
+            "KV5",
+            "VK7"
+          ]
+        },
+        "overview": {
+          "text": "Kovalam is three crescent beaches side by side, about 16 km south of Thiruvananthapuram. A rocky headland shelters a bay of calm water for bathing, and the place has drawn visitors since the 1930s.\n\nLighthouse Beach, under the Vizhinjam lighthouse on Kurumkal hill, is the liveliest, lined with cafés; Hawah, or Eve's, Beach is a working fishing beach; Samudra, to the north, is quieter. Days are for swimming, Ayurvedic massages and catamaran rides, and the beach stays busy well into the night. Stays run from five-star hotels to budget cottages and Ayurvedic resorts.",
+          "facts": [
+            "KV1",
+            "KV2",
+            "KV4",
+            "KV6"
+          ]
+        },
+        "things_to_do": {
+          "items": [
+            {
+              "body": "Climb the Vizhinjam lighthouse for the view down the coast."
+            },
+            {
+              "body": "Swim in the sheltered bay at Lighthouse Beach."
+            },
+            {
+              "body": "Book an Ayurvedic massage or a catamaran ride."
+            },
+            {
+              "body": "Go boating on Vellayani Lake."
+            },
+            {
+              "body": "See the rock-cut Shiva cave temple at Vizhinjam and the Kerala Arts and Crafts Village."
+            }
+          ],
+          "facts": [
+            "KV3",
+            "KV1",
+            "KV4"
+          ]
+        },
+        "how_to_reach": {
+          "text": "Kovalam is about 16 km from Thiruvananthapuram, with buses and taxis from the city. The airport is 10–15 km away and Thiruvananthapuram Central is the nearest station.",
+          "facts": [
+            "KV5"
+          ]
+        }
+      },
+      "parent": "kerala"
+    },
+    {
+      "key": "kerala/varkala",
+      "kind": "town",
+      "name": "Varkala",
+      "summary": "Cliff-top beach town north of Thiruvananthapuram — Papanasam beach, a 2,000-year-old Vishnu temple, Sivagiri and surf at Kappil.",
+      "seoTitle": "Varkala Travel Guide: Cliffs, Beach & Janardhana Temple",
+      "seoDescription": "Plan Varkala: the geological-monument cliffs, Papanasam beach, the Janardhana Swamy Temple, Sivagiri Mutt, surfing, Anjengo Fort and the best season.",
+      "lat": 8.7433,
+      "lng": 76.6968,
+      "tripTypes": [
+        "beaches",
+        "spiritual",
+        "romantic"
+      ],
+      "images": [
+        {
+          "commons": "File:Varkala cliff 06.jpg",
+          "alt": "Red laterite cliffs above a sandy beach at Varkala",
+          "caption": "Varkala cliff",
+          "hero": true
+        }
+      ],
+      "sections": {
+        "key_facts": {
+          "items": [
+            {
+              "title": "Known for",
+              "body": "Sea cliffs, Papanasam beach",
+              "status": "verified"
+            },
+            {
+              "title": "From Thiruvananthapuram",
+              "body": "About 50 km",
+              "status": "estimate"
+            },
+            {
+              "title": "Station",
+              "body": "Varkala",
+              "status": "verified"
+            },
+            {
+              "title": "Best time",
+              "body": "October–March",
+              "status": "seasonal"
+            }
+          ],
+          "facts": [
+            "VK1",
+            "VK2",
+            "VK7"
+          ]
+        },
+        "overview": {
+          "text": "Varkala, about 50 km north of Thiruvananthapuram, stands on sea cliffs — a rarity on Kerala's flat coast, and a National Geological Monument of the Geological Survey of India. Below them is Papanasam beach, named for a spring believed to wash away sins.\n\nIt is also a pilgrim town. The 2,000-year-old Janardhana Swamy Temple on the cliff is called the 'Varanasi of the South', and Sivagiri Mutt holds the samadhi of the reformer Sree Narayana Guru. Kerala Tourism notes that Varkala keeps a calm atmosphere, without Kovalam's bustle. There are jet skis, parasailing and surfing, with surf lessons at Kappil, where sea, river and backwater meet.",
+          "facts": [
+            "VK7",
+            "VK1",
+            "VK2",
+            "VK3",
+            "VK4",
+            "VK8",
+            "VK5"
+          ]
+        },
+        "things_to_do": {
+          "items": [
+            {
+              "body": "Walk the cliff path and watch the sunset."
+            },
+            {
+              "body": "Visit the Janardhana Swamy Temple and Sivagiri Mutt."
+            },
+            {
+              "body": "Take a surf lesson at Kappil."
+            },
+            {
+              "body": "Day-trip 12 km to Anjengo Fort and its lighthouse."
+            },
+            {
+              "body": "Take the boat through the 19th-century Varkala tunnel."
+            }
+          ],
+          "facts": [
+            "VK1",
+            "VK3",
+            "VK4",
+            "VK5",
+            "VK6"
+          ]
+        },
+        "how_to_reach": {
+          "text": "Varkala has its own railway station and is about 50 km from Thiruvananthapuram and its airport. The season is October to March; the monsoon is June to August.",
+          "facts": [
+            "VK7"
+          ]
+        }
+      },
+      "parent": "kerala"
+    },
+    {
+      "key": "kerala/kollam",
+      "kind": "city",
+      "name": "Kollam",
+      "summary": "The ancient spice port at the gateway to the backwaters — Ashtamudi Lake, cashews, Jatayu Earth's Center and the Thenmala forests.",
+      "seoTitle": "Kollam Travel Guide: Ashtamudi Lake & Backwaters",
+      "seoDescription": "Plan Kollam: houseboats on Ashtamudi Lake, the Kollam–Alappuzha cruise, beaches and Thangassery lighthouse, Jatayu Earth's Center, Thenmala and getting there.",
+      "lat": 8.8932,
+      "lng": 76.6141,
+      "tripTypes": [
+        "nature",
+        "heritage"
+      ],
+      "images": [
+        {
+          "commons": "File:Mangrove Arch Boat Ashtamudi Kollam Kerala Mar22 A7C 01490.jpg",
+          "alt": "A country boat passing under an arch of mangroves on Ashtamudi Lake",
+          "caption": "Ashtamudi Lake, Kollam",
+          "hero": true
+        }
+      ],
+      "sections": {
+        "key_facts": {
+          "items": [
+            {
+              "title": "Known for",
+              "body": "Ashtamudi Lake, cashews",
+              "status": "verified"
+            },
+            {
+              "title": "Airport",
+              "body": "Thiruvananthapuram, 51 km",
+              "status": "estimate"
+            },
+            {
+              "title": "Station",
+              "body": "Kollam Junction",
+              "status": "verified"
+            },
+            {
+              "title": "Cruise",
+              "body": "Kollam–Alappuzha houseboat",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "KL2",
+            "KL4",
+            "KL8",
+            "KS21"
+          ]
+        },
+        "overview": {
+          "text": "Kollam, one of the oldest ports on the Malabar Coast, grew rich on the spice trade. Today it is the centre of Kerala's cashew industry and the gateway to the backwaters: Ashtamudi Lake, named for its eight arms, is ringed by coconut groves and fishing villages, and the houseboat cruise from Kollam to Alappuzha is one of the most scenic in the state.\n\nKollam Beach is near the centre, with Thirumullavaram and Thangassery, and its old lighthouse, close by; Kollam Pooram fills Asramam Maidan. Inland are Jatayu Earth's Center at Chadayamangalam, with the world's largest bird sculpture, Thenmala — India's first planned eco-tourism destination — and the 300-ft Palaruvi waterfall.",
+          "facts": [
+            "KL1",
+            "KL4",
+            "KL2",
+            "KS21",
+            "KL3",
+            "KL9",
+            "KL5",
+            "KL6",
+            "KL7"
+          ]
+        },
+        "things_to_do": {
+          "items": [
+            {
+              "body": "Cruise Ashtamudi Lake, or take the houseboat to Alappuzha."
+            },
+            {
+              "body": "Climb to the Thangassery lighthouse."
+            },
+            {
+              "body": "Visit Jatayu Earth's Center and its adventure park."
+            },
+            {
+              "body": "Trek or camp at Thenmala."
+            },
+            {
+              "body": "Buy cashews in town."
+            }
+          ],
+          "facts": [
+            "KL2",
+            "KS21",
+            "KL3",
+            "KL5",
+            "KL6",
+            "KL4"
+          ]
+        },
+        "how_to_reach": {
+          "text": "Thiruvananthapuram airport is 51 km away and Kochi airport 129 km. Kollam Junction is on the main coastal line. Jatayu Earth's Center is 38.7 km from the station; Thenmala is 66 km east.",
+          "facts": [
+            "KL8",
+            "KL5",
+            "KL6"
+          ]
+        }
+      },
+      "parent": "kerala"
+    },
+    {
+      "key": "kerala/kumarakom",
+      "kind": "town",
+      "name": "Kumarakom",
+      "summary": "Backwater village on Vembanad Lake near Kottayam — a bird sanctuary, houseboats to Alappuzha, Ayurveda resorts and the God of Small Things country.",
+      "seoTitle": "Kumarakom Travel Guide: Vembanad Lake & Bird Sanctuary",
+      "seoDescription": "Plan Kumarakom: the bird sanctuary and its seasons, houseboats on Vembanad Lake, canoeing, Pathiramanal, the monsoon cruising ban, food and getting there.",
+      "lat": 9.595,
+      "lng": 76.4303,
+      "tripTypes": [
+        "nature",
+        "romantic",
+        "food"
+      ],
+      "images": [
+        {
+          "commons": "File:Kumarakom backwaters panorama.jpg",
+          "alt": "Wide calm backwater with coconut palms along the shore at Kumarakom",
+          "caption": "Kumarakom backwaters",
+          "hero": true
+        }
+      ],
+      "sections": {
+        "key_facts": {
+          "items": [
+            {
+              "title": "Lake",
+              "body": "Vembanad, Kerala's largest",
+              "status": "verified"
+            },
+            {
+              "title": "From Kottayam",
+              "body": "14 km",
+              "status": "estimate"
+            },
+            {
+              "title": "Best time",
+              "body": "November–March",
+              "status": "seasonal"
+            },
+            {
+              "title": "Monsoon",
+              "body": "No cruising June–August",
+              "status": "seasonal"
+            }
+          ],
+          "facts": [
+            "KM1",
+            "KM3"
+          ]
+        },
+        "overview": {
+          "text": "Kumarakom is a village on the eastern shore of Vembanad, Kerala's largest lake, 14 km west of Kottayam. The classic trip is a houseboat across the lake to Alappuzha; in the canals behind the shore there is canoeing and kayaking.\n\nThe 14-acre Kumarakom Bird Sanctuary is at its best for resident birds in June–August and for migrants in November–February. The wider Vembanad–Kol wetland is a Ramsar site, and Pathiramanal island, out in the lake, is reached only by boat. Arundhati Roy's The God of Small Things is set in Aymanam, next door.\n\nTemperatures stay between 22 and 34°C. November to March is the best time; during the south-west monsoon backwater cruising is not allowed. Kumarakom is known for its fish and crab and its Ayurvedic resorts.",
+          "facts": [
+            "KM1",
+            "KM4",
+            "KM2",
+            "KM5",
+            "KM6",
+            "KM3",
+            "KM8"
+          ]
+        },
+        "things_to_do": {
+          "items": [
+            {
+              "body": "Take a houseboat across Vembanad to Alappuzha."
+            },
+            {
+              "body": "Walk or boat through the bird sanctuary early in the morning."
+            },
+            {
+              "body": "Paddle a canoe through the village canals."
+            },
+            {
+              "body": "Boat out to Pathiramanal island."
+            },
+            {
+              "body": "Watch the Kumarakom boat race in August–September."
+            }
+          ],
+          "facts": [
+            "KM4",
+            "KM2",
+            "KM5",
+            "KM9"
+          ]
+        },
+        "how_to_reach": {
+          "text": "Kottayam, 14 km away, is the railhead, with regular trains. Cochin airport is about 74 km away. Thekkady is about 114 km from Kottayam.",
+          "facts": [
+            "KM7",
+            "KM1",
+            "TK7"
+          ]
+        }
+      },
+      "parent": "kerala"
+    },
+    {
+      "key": "kerala/thekkady",
+      "kind": "town",
+      "name": "Thekkady",
+      "summary": "Gateway to the Periyar Tiger Reserve in the Cardamom Hills — boat rides on Periyar Lake, spice estates and the busy plantation town of Kumily.",
+      "seoTitle": "Thekkady Travel Guide: Periyar Tiger Reserve & Spices",
+      "seoDescription": "Plan Thekkady: the Periyar Tiger Reserve, boating, treks and jeep safaris, Kumily's spice trade, the season, and getting there from Kottayam, Madurai and Kochi.",
+      "lat": 9.533,
+      "lng": 77.2,
+      "tripTypes": [
+        "wildlife",
+        "nature",
+        "mountains"
+      ],
+      "images": [
+        {
+          "commons": "File:Thekkady, Periyar Lake.JPG",
+          "alt": "Dead tree stumps rising from Periyar Lake with forested hills behind",
+          "caption": "Periyar Lake, Thekkady",
+          "hero": true
+        }
+      ],
+      "sections": {
+        "key_facts": {
+          "items": [
+            {
+              "title": "Altitude",
+              "body": "900–1,800 m",
+              "status": "verified"
+            },
+            {
+              "title": "Reserve",
+              "body": "Periyar, 777 sq km",
+              "status": "verified"
+            },
+            {
+              "title": "Best time",
+              "body": "September–March",
+              "status": "seasonal"
+            },
+            {
+              "title": "Railhead",
+              "body": "Kottayam, about 114 km",
+              "status": "estimate"
+            }
+          ],
+          "facts": [
+            "TK1",
+            "TK3",
+            "TK2",
+            "TK7"
+          ]
+        },
+        "overview": {
+          "text": "Thekkady lies at 900–1,800 m in Idukki district, on the Tamil Nadu border, and is the gateway to the Periyar Tiger Reserve — 777 sq km of forest, made a tiger reserve in 1978. More than 60 mammal and 265 bird species live here, but the forest is dense, so tiger sightings are highly unlikely; the boat on Periyar Lake is the best chance of elephants, bison and otters. The reserve can also be explored on treks and jeep safaris.\n\nKumily, 4 km away, is the busy town, with the bus station, spice traders and most budget stays; tea, cardamom, pepper and coffee estates surround the reserve. It drops to about 13°C in December–January and reaches 30°C in April–May; September to March is the best time.",
+          "facts": [
+            "TK1",
+            "TK3",
+            "TK4",
+            "TK5",
+            "TK6",
+            "TK8",
+            "TK2"
+          ]
+        },
+        "things_to_do": {
+          "items": [
+            {
+              "body": "Take a boat on Periyar Lake — look for otters near the landings."
+            },
+            {
+              "body": "Join a guided trek or jeep safari in the reserve."
+            },
+            {
+              "body": "Book a watch-tower stay at the Forest Information Centre."
+            },
+            {
+              "body": "Tour a spice or cardamom estate around Kumily."
+            },
+            {
+              "body": "Day-trip to Gavi, 28 km from Kumily."
+            }
+          ],
+          "facts": [
+            "TK4",
+            "TK5",
+            "TK8",
+            "TK6"
+          ]
+        },
+        "how_to_reach": {
+          "text": "Kottayam station is about 114 km away; Madurai airport is about 136 km and Kochi airport about 190 km. Buses from Kottayam and from Munnar take about 4 hours to Kumily.",
+          "facts": [
+            "TK7"
+          ]
+        }
+      },
+      "parent": "kerala"
+    },
+    {
+      "key": "kerala/vagamon",
+      "kind": "town",
+      "name": "Vagamon",
+      "summary": "A cool hill station of tea gardens, pine woods and meadows at 1,100 m on the Kottayam–Idukki border — paragliding, treks and India's longest cantilever glass bridge.",
+      "seoTitle": "Vagamon Travel Guide: Meadows, Treks & Glass Bridge",
+      "seoDescription": "Plan Vagamon: tea gardens and meadows at 1,100 m, paragliding and rock climbing, the glass bridge, Ilaveezhapoonchira, and getting there from Kottayam and Kochi.",
+      "lat": 9.6878,
+      "lng": 76.9069,
+      "tripTypes": [
+        "mountains",
+        "adventure",
+        "nature"
+      ],
+      "images": [
+        {
+          "commons": "File:Thangalpara at Vagamon (58647).jpg",
+          "alt": "Grassy rolling hills under a cloudy sky at Thangalpara, Vagamon",
+          "caption": "Thangalpara, Vagamon",
+          "hero": true
+        }
+      ],
+      "sections": {
+        "key_facts": {
+          "items": [
+            {
+              "title": "Altitude",
+              "body": "1,100 m",
+              "status": "verified"
+            },
+            {
+              "title": "From Kottayam",
+              "body": "64 km",
+              "status": "estimate"
+            },
+            {
+              "title": "Summer days",
+              "body": "About 10–23°C",
+              "status": "seasonal"
+            },
+            {
+              "title": "Known for",
+              "body": "Meadows, paragliding",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "VG1",
+            "VG3",
+            "VG4"
+          ]
+        },
+        "overview": {
+          "text": "Vagamon is a hill station at 1,100 m on the border of Kottayam and Idukki, 64 km from Kottayam and 25 km east of Erattupetta — tea gardens, meadows and a cool climate, with summer days of about 10–23°C. It became known only in 1926, when Walter Duncan and Company planted tea here.\n\nVisitors come for hikes to waterfalls, rock climbing and paragliding, and for the glass bridge, India's longest cantilever glass bridge. Ilaveezhapoonchira, a treeless valley near Melukavu, 60 km from Kottayam, is known for its sunrises and sunsets.",
+          "facts": [
+            "VG1",
+            "VG2",
+            "VG3",
+            "VG4",
+            "VG6"
+          ]
+        },
+        "things_to_do": {
+          "items": [
+            {
+              "body": "Walk the meadows and tea gardens."
+            },
+            {
+              "body": "Try paragliding or rock climbing."
+            },
+            {
+              "body": "Cross the glass bridge."
+            },
+            {
+              "body": "Watch sunrise or sunset at Ilaveezhapoonchira."
+            }
+          ],
+          "facts": [
+            "VG1",
+            "VG4",
+            "VG2",
+            "VG6"
+          ]
+        },
+        "how_to_reach": {
+          "text": "Kottayam, 64 km away, is the nearest railhead; Cochin airport is about 98 km.",
+          "facts": [
+            "VG1",
+            "VG5"
+          ]
+        }
+      },
+      "parent": "kerala"
+    },
+    {
+      "key": "kerala/wayanad",
+      "kind": "town",
+      "name": "Wayanad",
+      "summary": "Misty coffee hills in the Nilgiri Biosphere Reserve — Chembra Peak, the Edakkal carvings, Banasura Sagar and jeep safaris in Muthanga and Tholpetty.",
+      "seoTitle": "Wayanad Travel Guide: Chembra, Edakkal & Wildlife",
+      "seoDescription": "Plan Wayanad: the Chembra Peak trek, Edakkal Caves, Banasura Sagar, Muthanga and Tholpetty safaris, the best season and getting there from Kozhikode.",
+      "lat": 11.6264,
+      "lng": 76.0889,
+      "tripTypes": [
+        "nature",
+        "wildlife",
+        "mountains",
+        "adventure"
+      ],
+      "images": [
+        {
+          "commons": "File:Chembra Peak Heart Lake.jpg",
+          "alt": "A heart-shaped lake on a grassy ridge below Chembra Peak",
+          "caption": "Heart-shaped lake below Chembra Peak",
+          "hero": true
+        }
+      ],
+      "sections": {
+        "key_facts": {
+          "items": [
+            {
+              "title": "Best time",
+              "body": "October–May",
+              "status": "seasonal"
+            },
+            {
+              "title": "Railhead",
+              "body": "Kozhikode, 90–110 km",
+              "status": "estimate"
+            },
+            {
+              "title": "Highest peak",
+              "body": "Chembra, 2,100 m",
+              "status": "verified"
+            },
+            {
+              "title": "Main town",
+              "body": "Kalpetta",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "WY8",
+            "WY9",
+            "WY3",
+            "WY4"
+          ]
+        },
+        "overview": {
+          "text": "Wayanad is a highland district in the Nilgiri Biosphere Reserve, where Robusta coffee grows under forest shade at 700–2,100 m. Its best-known sights are the Edakkal Caves — a rock shelter, not truly a cave, with carvings discovered in 1895 — and Banasura Sagar, India's largest earthen dam, where boats go out on the reservoir.\n\nChembra Peak (2,100 m), the highest in the Wayanad hills, is climbed from Meppadi with forest-department guides, past a heart-shaped lake. Guided jeep safaris run in the Muthanga and Tholpetty ranges of the wildlife sanctuary, and there are waterfalls such as Soochippara, the Lakkidi viewpoint and the Thirunelli temple.\n\nOctober to May is the best time. In the monsoon some areas may be closed after heavy rain.",
+          "facts": [
+            "WY1",
+            "WY2",
+            "WY4",
+            "WY5",
+            "WY3",
+            "WY6",
+            "WY7",
+            "WY8"
+          ]
+        },
+        "things_to_do": {
+          "items": [
+            {
+              "body": "Trek Chembra Peak from Meppadi with a forest guide."
+            },
+            {
+              "body": "See the carvings in the Edakkal Caves, 26.6 km from Kalpetta."
+            },
+            {
+              "body": "Take a boat on Banasura Sagar."
+            },
+            {
+              "body": "Go on a jeep safari at Tholpetty or Muthanga."
+            },
+            {
+              "body": "Visit Soochippara falls and Pookode Lake."
+            },
+            {
+              "body": "Stop at the Lakkidi viewpoint on the way up the ghat."
+            }
+          ],
+          "facts": [
+            "WY3",
+            "WY4",
+            "WY5",
+            "WY6",
+            "WY7",
+            "WY11"
+          ]
+        },
+        "how_to_reach": {
+          "text": "Wayanad has no railway. Kozhikode station is 90–110 km away and Calicut airport 65–93 km, with the road climbing the Thamarassery ghat. Kalpetta is about 75 km from Kozhikode, 150 km from Mysuru and 290 km from Bengaluru. On the forest road towards Bengaluru wild elephants may be about — avoid driving late.",
+          "facts": [
+            "WY9",
+            "WY11",
+            "WY10"
+          ]
+        }
+      },
+      "parent": "kerala"
+    },
+    {
+      "key": "kerala/thrissur",
+      "kind": "city",
+      "name": "Thrissur",
+      "summary": "Kerala's cultural capital — the Vadakkumnathan temple and Thrissur Pooram, the Sakthan Thampuran Palace, and Guruvayur nearby.",
+      "seoTitle": "Thrissur Travel Guide: Pooram, Temples & Guruvayur",
+      "seoDescription": "Plan Thrissur: Thrissur Pooram in April/May, the Vadakkumnathan temple, Sakthan Thampuran Palace, Guruvayur and its elephants, Athirappilly and getting there.",
+      "lat": 10.5276,
+      "lng": 76.2144,
+      "tripTypes": [
+        "heritage",
+        "spiritual"
+      ],
+      "images": [
+        {
+          "commons": "File:Elephants at Thrissur Puram.jpg",
+          "alt": "Rows of caparisoned elephants with ceremonial umbrellas at Thrissur Pooram",
+          "caption": "Thrissur Pooram",
+          "hero": true
+        }
+      ],
+      "sections": {
+        "key_facts": {
+          "items": [
+            {
+              "title": "Known for",
+              "body": "Thrissur Pooram, temples",
+              "status": "verified"
+            },
+            {
+              "title": "Pooram",
+              "body": "April/May (Medam)",
+              "status": "seasonal"
+            },
+            {
+              "title": "Airport",
+              "body": "Cochin, about 50 km",
+              "status": "estimate"
+            },
+            {
+              "title": "From Kochi",
+              "body": "About 72 km",
+              "status": "estimate"
+            }
+          ],
+          "facts": [
+            "TS1",
+            "KS14",
+            "TS5"
+          ]
+        },
+        "overview": {
+          "text": "Thrissur, the cultural capital of Kerala, is built around Thekkinkadu Maidanam, the hill that holds the Vadakkumnathan temple, and is home to the state's academies of music and drama, fine arts and literature.\n\nIts great event is Thrissur Pooram in April or May, created by Sakthan Thampuran and now the largest pooram in India, with caparisoned elephants and massed drums. His palace, rebuilt in Kerala-Dutch style in 1795, is now a museum. The Basilica of Our Lady of Dolours is the city's great church.\n\nGuruvayur, with one of South India's most revered Krishna temples, is nearby; Punnathur Kotta, 2 km from the temple, houses its elephants. Athirappilly falls are 59 km away.",
+          "facts": [
+            "TS1",
+            "TS2",
+            "KS14",
+            "TS3",
+            "TS6",
+            "TS4",
+            "AT4"
+          ]
+        },
+        "things_to_do": {
+          "items": [
+            {
+              "body": "Walk round the Vadakkumnathan temple on Thekkinkadu Maidanam."
+            },
+            {
+              "body": "Plan a visit for Thrissur Pooram in April/May."
+            },
+            {
+              "body": "See the Sakthan Thampuran Palace museum."
+            },
+            {
+              "body": "Visit Guruvayur and the elephants at Punnathur Kotta."
+            },
+            {
+              "body": "Day-trip to Athirappilly falls."
+            }
+          ],
+          "facts": [
+            "TS1",
+            "KS14",
+            "TS3",
+            "TS4",
+            "AT4"
+          ]
+        },
+        "how_to_reach": {
+          "text": "Cochin airport is about 50 km away. Thrissur station is a major stop on the main line, and Kochi is about 72 km by road, with KSRTC and private buses.",
+          "facts": [
+            "TS5"
+          ]
+        }
+      },
+      "parent": "kerala"
+    },
+    {
+      "key": "kerala/athirappilly",
+      "kind": "nature",
+      "name": "Athirappilly",
+      "summary": "Kerala's largest waterfall, on the Chalakudy River at the edge of the Sholayar forests — with Vazhachal Falls a short drive on.",
+      "seoTitle": "Athirappilly Falls: Visiting Guide & Forest Road Rules",
+      "seoDescription": "Plan Athirappilly: Kerala's largest waterfall, Vazhachal Falls, the forest wildlife, the 6:30 pm checkpoint rule, and getting there from Chalakudy, Thrissur and Kochi.",
+      "lat": 10.2847,
+      "lng": 76.5686,
+      "tripTypes": [
+        "nature",
+        "family"
+      ],
+      "images": [
+        {
+          "commons": "File:Athirappalli Waterfalls, Thrissur, Kerala.jpg",
+          "alt": "A broad waterfall pouring over dark rocks into a forested gorge",
+          "caption": "Athirappilly Falls",
+          "hero": true
+        }
+      ],
+      "sections": {
+        "key_facts": {
+          "items": [
+            {
+              "title": "Height",
+              "body": "About 80 ft",
+              "status": "verified"
+            },
+            {
+              "title": "From Thrissur",
+              "body": "59 km",
+              "status": "estimate"
+            },
+            {
+              "title": "From Kochi",
+              "body": "73 km",
+              "status": "estimate"
+            },
+            {
+              "title": "Road",
+              "body": "Checkpoints close by 6:30 pm",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "AT1",
+            "AT4",
+            "AT3"
+          ]
+        },
+        "overview": {
+          "text": "Athirappilly is Kerala's largest waterfall: the Chalakudy River, coming down from the Western Ghats at the entrance to the Sholayar ranges, pours about 80 ft over rocks in three separate plumes. Vazhachal Falls is a short drive further up the road, and the forests around hold elephants, leopards, gaur, sambar and lion-tailed macaques.\n\nThe road is a forest highway towards Tamil Nadu, so night travel is not allowed — the checkpoints at either end close by 6:30 pm and all vehicles must be out by then. Plan it as a day trip from Thrissur, Kochi or Chalakudy.",
+          "facts": [
+            "AT1",
+            "AT2",
+            "AT3"
+          ]
+        },
+        "things_to_do": {
+          "items": [
+            {
+              "body": "See the falls from the top and walk down to the viewpoint below."
+            },
+            {
+              "body": "Continue to Vazhachal Falls."
+            },
+            {
+              "body": "Leave the forest road before the checkpoints close at 6:30 pm."
+            }
+          ],
+          "facts": [
+            "AT1",
+            "AT2",
+            "AT3"
+          ]
+        },
+        "how_to_reach": {
+          "text": "Athirappilly is 32 km from Chalakudy, 59 km from Thrissur and 73 km from Kochi; Cochin airport is about 55 km. Taxis and buses run from Chalakudy.",
+          "facts": [
+            "AT4"
+          ]
+        }
+      },
+      "parent": "kerala"
+    },
+    {
+      "key": "kerala/kozhikode",
+      "kind": "city",
+      "name": "Kozhikode",
+      "summary": "Calicut, Malabar's old spice port and food capital — biryani and halwa on SM Street, sunsets on the beach, Kappad, Beypore and the road to Wayanad.",
+      "seoTitle": "Kozhikode (Calicut) Travel Guide: Food, Beaches & History",
+      "seoDescription": "Plan Kozhikode: Malabar food on SM Street, Kozhikode beach, Kappad, Mananchira, Beypore's boatbuilders, Kadalundi birds, and getting there by air and rail.",
+      "lat": 11.2489,
+      "lng": 75.7839,
+      "tripTypes": [
+        "food",
+        "heritage",
+        "beaches"
+      ],
+      "images": [
+        {
+          "commons": "File:Kozhikode Beach Coastline.jpg",
+          "alt": "The long sandy beach at Kozhikode with the sea under an evening sky",
+          "caption": "Kozhikode beach",
+          "hero": true
+        }
+      ],
+      "sections": {
+        "key_facts": {
+          "items": [
+            {
+              "title": "Known for",
+              "body": "Malabar food, spice-trade history",
+              "status": "verified"
+            },
+            {
+              "title": "Airport",
+              "body": "Calicut (Karipur), about 23 km",
+              "status": "estimate"
+            },
+            {
+              "title": "Station",
+              "body": "Kozhikode (CLT)",
+              "status": "verified"
+            },
+            {
+              "title": "Gateway to",
+              "body": "Wayanad",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "KZ2",
+            "KZ1",
+            "KZ7",
+            "WY9"
+          ]
+        },
+        "overview": {
+          "text": "Kozhikode, or Calicut, was one of the great ports of the medieval world, and Kappad beach marks where Vasco da Gama landed. Mananchira Square, once part of the Zamorins' palace, is now a park in the city centre.\n\nIt is Malabar's food capital: biryani, pathiri, seafood and the famous halwa, found along SM Street, the 'sweet street', and kallummakaya mussels at the beach, where people gather for sunsets by the old lighthouse and piers.\n\nBeypore has a 1,500-year boatbuilding tradition and hosts an international water festival; Kadalundi bird sanctuary has mangroves and migrants. Vadakara's Lokanarkavu temple is tied to Kalaripayattu, and the hills hold the Thusharagiri and Arippara waterfalls. Kozhikode is also the gateway to Wayanad.",
+          "facts": [
+            "KZ1",
+            "KZ4",
+            "KZ2",
+            "KZ3",
+            "KZ5",
+            "KZ6",
+            "WY9"
+          ]
+        },
+        "things_to_do": {
+          "items": [
+            {
+              "body": "Eat biryani and buy halwa on SM Street."
+            },
+            {
+              "body": "Watch the sunset on Kozhikode beach."
+            },
+            {
+              "body": "Visit Kappad beach."
+            },
+            {
+              "body": "See the boatbuilders at Beypore."
+            },
+            {
+              "body": "Go birding at Kadalundi."
+            },
+            {
+              "body": "Hike to Thusharagiri falls."
+            }
+          ],
+          "facts": [
+            "KZ2",
+            "KZ3",
+            "KZ1",
+            "KZ5",
+            "KZ6"
+          ]
+        },
+        "how_to_reach": {
+          "text": "Calicut International Airport at Karipur is about 23 km from town. Kozhikode station (CLT) has trains along the coast and to Mumbai, Delhi, Chennai and Bengaluru.",
+          "facts": [
+            "KZ7"
+          ]
+        }
+      },
+      "parent": "kerala"
+    },
+    {
+      "key": "kerala/kannur",
+      "kind": "city",
+      "name": "Kannur",
+      "summary": "North Malabar's culture capital — Theyyam season from December to March, Muzhappilangad drive-in beach, St Angelo Fort and Thalassery biryani.",
+      "seoTitle": "Kannur Travel Guide: Theyyam, Beaches & Forts",
+      "seoDescription": "Plan Kannur: the Theyyam season, Muzhappilangad drive-in beach, Payyambalam, St Angelo Fort, Parassinikkadavu, Thalassery and handloom, and getting there.",
+      "lat": 11.8745,
+      "lng": 75.3704,
+      "tripTypes": [
+        "heritage",
+        "beaches",
+        "food"
+      ],
+      "images": [
+        {
+          "commons": "File:Payyambalam beach, Kannur.jpg",
+          "alt": "A quiet golden beach at Payyambalam with palm trees and gentle surf",
+          "caption": "Payyambalam beach, Kannur",
+          "hero": true
+        }
+      ],
+      "sections": {
+        "key_facts": {
+          "items": [
+            {
+              "title": "Known for",
+              "body": "Theyyam, drive-in beach",
+              "status": "verified"
+            },
+            {
+              "title": "Theyyam season",
+              "body": "December–March",
+              "status": "seasonal"
+            },
+            {
+              "title": "Best time",
+              "body": "October–March",
+              "status": "seasonal"
+            },
+            {
+              "title": "Airport",
+              "body": "Kannur, about 25 km",
+              "status": "estimate"
+            }
+          ],
+          "facts": [
+            "KN1",
+            "KS15",
+            "KN7"
+          ]
+        },
+        "overview": {
+          "text": "Kannur, about 280 km north of Kochi, is the cultural heart of North Malabar and best known for Theyyam, the ritual art in which performers become deities; the season runs from December to March.\n\nThe coast is uncrowded. Muzhappilangad, beside NH 66 towards Thalassery, is India's longest drive-in beach, about 4 km; Payyambalam is a quiet sunset beach near the station. St Angelo's Fort was built in 1505 by Francisco de Almeida, the first Portuguese viceroy. The Parassinikkadavu Muthappan Temple, on the Valapattanam River, is known for its open rituals and the dogs in its grounds.\n\nThalassery, nearby, gave its name to a biryani made with jeerakasala rice, and Kannur is Kerala's largest handloom district. October to March is the best time.",
+          "facts": [
+            "KN1",
+            "KS15",
+            "KN2",
+            "KN3",
+            "KN4",
+            "KN5",
+            "KN6",
+            "KN7"
+          ]
+        },
+        "things_to_do": {
+          "items": [
+            {
+              "body": "See a Theyyam performance between December and March."
+            },
+            {
+              "body": "Drive along Muzhappilangad beach."
+            },
+            {
+              "body": "Visit St Angelo's Fort."
+            },
+            {
+              "body": "Visit the Parassinikkadavu Muthappan Temple."
+            },
+            {
+              "body": "Eat Thalassery biryani."
+            },
+            {
+              "body": "Buy Kannur handloom."
+            }
+          ],
+          "facts": [
+            "KS15",
+            "KN1",
+            "KN2",
+            "KN4",
+            "KN5",
+            "KN6"
+          ]
+        },
+        "how_to_reach": {
+          "text": "Kannur International Airport is about 25 km away; Kannur station (CAN) is on the west-coast line.",
+          "facts": [
+            "KN7"
+          ]
+        }
+      },
+      "parent": "kerala"
+    },
+    {
+      "key": "kerala/bekal",
+      "kind": "town",
+      "name": "Bekal",
+      "summary": "Kerala's largest fort, rising from the sea in Kasaragod — with quiet beaches, the Valiyaparamba backwaters and Theyyam country around.",
+      "seoTitle": "Bekal Travel Guide: Bekal Fort, Beaches & Backwaters",
+      "seoDescription": "Plan Bekal: Bekal Fort and Tipu's tower, Bekal beach, Valiyaparamba backwaters, Chandragiri and Ananthapura, Ranipuram, the beach festival and getting there.",
+      "lat": 12.3922,
+      "lng": 75.0325,
+      "tripTypes": [
+        "heritage",
+        "beaches"
+      ],
+      "images": [
+        {
+          "commons": "File:Bakel fort Kasargod wide view.jpg",
+          "alt": "The laterite walls of Bekal Fort on a headland above the sea",
+          "caption": "Bekal Fort",
+          "hero": true
+        }
+      ],
+      "sections": {
+        "key_facts": {
+          "items": [
+            {
+              "title": "Fort",
+              "body": "Kerala's largest, about 40 acres",
+              "status": "verified"
+            },
+            {
+              "title": "Built",
+              "body": "1650, Shivappa Nayaka",
+              "status": "verified"
+            },
+            {
+              "title": "Best time",
+              "body": "November–February",
+              "status": "seasonal"
+            },
+            {
+              "title": "Stations",
+              "body": "Kasaragod and Kanhangad",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "BK1",
+            "BK6",
+            "BK7"
+          ]
+        },
+        "overview": {
+          "text": "Bekal Fort, completed by Shivappa Nayaka of Keladi in 1650, is the largest fort in Kerala — about 40 acres of laterite on a headland, almost three-quarters of it washed by the sea. Tipu Sultan's observation tower gives views along the coast, and Bekal Beach lies right beside the walls.\n\nAround it are the Valiyaparamba backwaters, cruised by houseboat; Chandragiri Fort at the mouth of the Payaswini; the Ananthapura lake temple near Kumbala; and the small hill station of Ranipuram at 780 m. Theyyam is performed in shrines and ancestral homes, and the 10-day Bekal International Beach Festival is held here. November to February has the best weather.",
+          "facts": [
+            "BK1",
+            "BK2",
+            "BK3",
+            "BK4",
+            "BK5",
+            "BK6"
+          ]
+        },
+        "things_to_do": {
+          "items": [
+            {
+              "body": "Walk the ramparts and climb Tipu's observation tower."
+            },
+            {
+              "body": "Cruise the Valiyaparamba backwaters."
+            },
+            {
+              "body": "Visit Chandragiri Fort and the Ananthapura lake temple."
+            },
+            {
+              "body": "Trek at Ranipuram."
+            },
+            {
+              "body": "Look for Theyyam in local shrines in season."
+            }
+          ],
+          "facts": [
+            "BK2",
+            "BK3",
+            "BK4",
+            "BK5",
+            "BK6"
+          ]
+        },
+        "how_to_reach": {
+          "text": "Kasaragod and Kanhangad stations are about 12 km away. Mangaluru airport is about 80 km and Kannur airport about 95 km from Kasaragod.",
+          "facts": [
+            "BK7"
+          ]
+        }
+      },
+      "parent": "kerala"
+    },
+    {
+      "key": "kerala/marari",
+      "kind": "town",
+      "name": "Marari",
+      "summary": "A quiet fishing-village beach at Mararikulam, 11 km north of Alappuzha — an easy pairing with a houseboat.",
+      "seoTitle": "Marari Beach Travel Guide: Quiet Beach near Alappuzha",
+      "seoDescription": "Plan Marari Beach: the village beach at Mararikulam, how it pairs with Alappuzha's backwaters, and getting there by rail, road and air.",
+      "lat": 9.6025,
+      "lng": 76.2999,
+      "tripTypes": [
+        "beaches",
+        "romantic"
+      ],
+      "images": [
+        {
+          "commons": "File:Marari Beach 08.jpg",
+          "alt": "An empty sandy beach at Marari with palms and fishing boats",
+          "caption": "Marari Beach",
+          "hero": true
+        }
+      ],
+      "sections": {
+        "key_facts": {
+          "items": [
+            {
+              "title": "From Alappuzha",
+              "body": "About 11 km",
+              "status": "estimate"
+            },
+            {
+              "title": "Station",
+              "body": "Mararikulam",
+              "status": "verified"
+            },
+            {
+              "title": "Airport",
+              "body": "Cochin",
+              "status": "verified"
+            },
+            {
+              "title": "Best time",
+              "body": "October–March",
+              "status": "seasonal"
+            }
+          ],
+          "facts": [
+            "MR1",
+            "MR2",
+            "AL7"
+          ]
+        },
+        "overview": {
+          "text": "Marari Beach is the beach of Mararikulam, a village about 11 km from Alappuzha town, and many travellers use it as a quieter alternative to Alappuzha's own beach. It pairs well with the backwaters: stay a night or two by the sea before or after a houseboat on the Alappuzha canals.\n\nMararikulam has its own railway station, NH 66 passes 5 km to the east, and Cochin is the nearest airport. As for Alappuzha, October to February is the best time to come.",
+          "facts": [
+            "MR1",
+            "MR2",
+            "AL7"
+          ]
+        },
+        "things_to_do": {
+          "items": [
+            {
+              "body": "Spend slow days on the beach."
+            },
+            {
+              "body": "Combine with a houseboat or shikara on the Alappuzha backwaters."
+            },
+            {
+              "body": "Take the train from Mararikulam station."
+            }
+          ],
+          "facts": [
+            "MR1",
+            "AL4",
+            "AP2",
+            "MR2"
+          ]
+        },
+        "how_to_reach": {
+          "text": "Mararikulam station is on the coastal line; NH 66 passes 5 km east of the village. Alappuzha is about 11 km away and Cochin International the nearest airport.",
+          "facts": [
+            "MR2",
+            "MR1"
+          ]
+        }
+      },
+      "parent": "kerala"
+    },
+    {
+      "key": "kerala/poovar",
+      "kind": "town",
+      "name": "Poovar",
+      "summary": "An estuary village near Kerala's southern tip, where the Neyyar River, backwater and sea meet — boat trips to mangrove islands.",
+      "seoTitle": "Poovar Travel Guide: Estuary Boat Trips near Kovalam",
+      "seoDescription": "Plan Poovar: boat trips where the Neyyar River meets the sea, mangrove islands, the village's trading history, and getting there from Thiruvananthapuram and Kovalam.",
+      "lat": 8.3175,
+      "lng": 77.0714,
+      "tripTypes": [
+        "nature",
+        "romantic",
+        "beaches"
+      ],
+      "images": [
+        {
+          "commons": "File:Peaceful Poovar 01.jpg",
+          "alt": "A calm backwater with palms and a small boat near Poovar",
+          "caption": "Poovar backwaters",
+          "hero": true
+        }
+      ],
+      "sections": {
+        "key_facts": {
+          "items": [
+            {
+              "title": "Known for",
+              "body": "Estuary and mangrove boat trips",
+              "status": "verified"
+            },
+            {
+              "title": "River",
+              "body": "Neyyar",
+              "status": "verified"
+            },
+            {
+              "title": "Near",
+              "body": "Kovalam and Vizhinjam",
+              "status": "verified"
+            },
+            {
+              "title": "Best time",
+              "body": "October–March",
+              "status": "seasonal"
+            }
+          ],
+          "facts": [
+            "PV2",
+            "PV1",
+            "VK7"
+          ]
+        },
+        "overview": {
+          "text": "Poovar lies almost at the southern tip of Kerala, close to the harbour at Vizhinjam, where the Neyyar River runs into the Arabian Sea. Its estuary, where river, sea and backwater meet, is the reason to come: boat trips go out through the channels to the mangrove islands.\n\nPoovar was once a trading port for timber, sandalwood, ivory and spices. Its name, 'flower river', is credited to Marthanda Varma of Travancore, who is said to have seen the Neyyar strewn with blossoms. It makes an easy half-day from Kovalam or Thiruvananthapuram.",
+          "facts": [
+            "PV1",
+            "PV2",
+            "PV3"
+          ]
+        },
+        "things_to_do": {
+          "items": [
+            {
+              "body": "Take a boat through the estuary to the mangrove islands."
+            },
+            {
+              "body": "Watch the river meet the sea at the sandbar."
+            },
+            {
+              "body": "Combine with a day in Kovalam."
+            }
+          ],
+          "facts": [
+            "PV2",
+            "PV1",
+            "KV1"
+          ]
+        },
+        "how_to_reach": {
+          "text": "Reach Poovar by road from Thiruvananthapuram or Kovalam; Thiruvananthapuram has the nearest airport and main station.",
+          "facts": [
+            "PV1",
+            "TV6"
+          ]
+        }
+      },
+      "parent": "kerala"
+    },
+    {
+      "key": "kerala/nelliyampathy",
+      "kind": "town",
+      "name": "Nelliyampathy",
+      "summary": "Palakkad's quiet hill country of tea, coffee and orange estates, with viewpoints over the plains — reached by hairpins from Nemmara.",
+      "seoTitle": "Nelliyampathy Travel Guide: Hills, Viewpoints & Estates",
+      "seoDescription": "Plan Nelliyampathy: Seetharkundu and Kesavanpara viewpoints, estates and the orange farm, treks with forest permission, Parambikulam, and getting there from Palakkad.",
+      "lat": 10.5296,
+      "lng": 76.684,
+      "tripTypes": [
+        "mountains",
+        "nature"
+      ],
+      "images": [
+        {
+          "commons": "File:Nelliampathi Sitharkundu viewpoint.jpg",
+          "alt": "A wind-bent tree on a forested ridge above the hazy plains at Seetharkundu viewpoint",
+          "caption": "Seetharkundu viewpoint, Nelliyampathy",
+          "hero": true
+        }
+      ],
+      "sections": {
+        "key_facts": {
+          "items": [
+            {
+              "title": "Altitude",
+              "body": "467–1,572 m",
+              "status": "verified"
+            },
+            {
+              "title": "From Palakkad",
+              "body": "60–65 km",
+              "status": "estimate"
+            },
+            {
+              "title": "Railhead",
+              "body": "Palakkad Junction, 58 km",
+              "status": "estimate"
+            },
+            {
+              "title": "Treks",
+              "body": "Forest permission needed",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "NL1",
+            "NL5",
+            "NL3"
+          ]
+        },
+        "overview": {
+          "text": "Nelliyampathy is a hill village in Palakkad district, rising from 467 to 1,572 m, 60–65 km from Palakkad via Nemmara. The road enters past the 19th-century Pothundi dam and climbs to tea, cardamom and coffee estates and an orange farm.\n\nThe viewpoints are the draw — Seetharkundu, Manpara and Kesavanpara — with Victoria Church hills and the Karappara dam. Treks such as the 6-km walk to the hilltop need Forest Division permission. Further on, the Parambikulam sanctuary (285 sq km) has the giant Kannimara teak, and its tree house must be booked ahead.",
+          "facts": [
+            "NL1",
+            "NL4",
+            "NL2",
+            "NL3",
+            "NL6"
+          ]
+        },
+        "things_to_do": {
+          "items": [
+            {
+              "body": "Watch the plains from Seetharkundu or Kesavanpara."
+            },
+            {
+              "body": "Visit the estates and the orange farm."
+            },
+            {
+              "body": "Trek to the hilltop with Forest Division permission."
+            },
+            {
+              "body": "See Pothundi dam on the way up."
+            }
+          ],
+          "facts": [
+            "NL2",
+            "NL4",
+            "NL3"
+          ]
+        },
+        "how_to_reach": {
+          "text": "Palakkad Junction is about 58 km away; Cochin airport is about 120 km and Coimbatore airport about 123 km. The road turns off at Nemmara.",
+          "facts": [
+            "NL5",
+            "NL1"
+          ]
+        }
+      },
+      "parent": "kerala"
     }
   ],
   "itineraries": [

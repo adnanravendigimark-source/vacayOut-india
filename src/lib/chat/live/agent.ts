@@ -2,7 +2,8 @@ import "server-only";
 import type { Block, ChatTurn, TripMemory } from "@/lib/chat/schema";
 import { costMicroUsd } from "@/lib/research/cost";
 import { createResponse, type CallModel } from "@/lib/research/openai";
-import { classify, type Classification, type Intent } from "./classify";
+import { classify, quickGreeting, type Classification, type Intent } from "./classify";
+import { isPlanIntent } from "./focus";
 import { compose, type GuideDoc, type WebFactRef } from "./compose";
 import { cacheKeyFor, lookupCache, researchFresh, touchCache, type ResearchResult } from "./research";
 import { findGuides } from "./retrieve";
@@ -10,8 +11,11 @@ import { mapPoints } from "@/lib/map";
 import { bookingsBlock } from "@/lib/booking/links";
 import { GUIDE_HREF_RE } from "@/lib/chat/constants";
 
+/** Day-by-day plans need the stronger model; short answers and routing use the cheapest tier. */
 export const chatModel = () => process.env.OPENAI_CHAT_MODEL || "gpt-5.4-mini";
-export const routeModel = () => process.env.OPENAI_ROUTE_MODEL || "gpt-5.4-mini";
+export const quickChatModel = () => process.env.OPENAI_CHAT_QUICK_MODEL || "gpt-6-luna";
+export const routeModel = () => process.env.OPENAI_ROUTE_MODEL || "gpt-6-luna";
+export const composeModelFor = (intent: Intent) => (isPlanIntent(intent) ? chatModel() : quickChatModel());
 export const chatResearchModel = () => process.env.OPENAI_CHAT_RESEARCH_MODEL || "gpt-5.4-mini";
 
 /** Which guide section answers which kind of question; missing section → research. */
@@ -22,8 +26,8 @@ const COVERAGE: Partial<Record<Intent, string[]>> = {
   things_to_do: ["things_to_do", "highlights"],
   itinerary: ["itinerary", "things_to_do", "highlights"],
   plan_trip: ["things_to_do", "highlights", "itinerary"],
-  food: [],
-  stay: [],
+  food: ["food"],
+  stay: ["where_to_stay", "neighbourhoods"],
 };
 
 const MAP_INTENTS: Intent[] = ["plan_trip", "itinerary", "things_to_do", "modify_plan", "general"];
@@ -72,6 +76,15 @@ export async function answer(
   const meta: AnswerMeta = { outcome: "answered", destination: null, usedGuides: false, researched: false, cacheHit: false, costMicroUsd: 0 };
   const done = (summary: string, memory: TripMemory | null) => ({ summary, memory, meta: { ...meta, costMicroUsd: spent } });
 
+  // A bare "hi" / "thanks" is answered without any model call.
+  const latest = input.turns[input.turns.length - 1]?.content ?? "";
+  if (quickGreeting(latest)) {
+    meta.outcome = "greeting";
+    emit({ type: "block", block: { type: "text", text: input.memory?.destination ? `Happy to help! Ask me anything else about ${input.memory.destination} — or change the plan.` : DECLINE.greeting } });
+    emit({ type: "block", block: { type: "suggestions", items: input.memory?.destination ? [`Best time to visit ${input.memory.destination}`, `How do I reach ${input.memory.destination}?`] : ["Plan 3 days in Udaipur", "Best time to visit Kerala", "Weekend trip from Delhi"] } });
+    return done("Greeted the traveller.", input.memory);
+  }
+
   emit({ type: "status", text: "Reading your question…" });
   const cls: Classification = await classify(input.turns, input.memory, { call, model: routeModel() });
 
@@ -92,7 +105,8 @@ export async function answer(
 
   // Guides and (cached or live) research run side by side.
   emit({ type: "status", text: "Checking VacayOut’s guides…" });
-  const guidesP = (deps.findGuides ?? findGuides)(destinations);
+  // Plans can use several guides; a single question is answered from the best one or two.
+  const guidesP = (deps.findGuides ?? findGuides)(destinations, isPlanIntent(cls.intent) ? 3 : 2, cls.intent);
   const researchP = (async (): Promise<(ResearchResult & { label: "fresh" | "cached" | "stale" }) | { label: "paused" | "none" }> => {
     const guides = await guidesP;
     const wanted = COVERAGE[cls.intent];
@@ -142,7 +156,7 @@ export async function answer(
   }
 
   emit({ type: "status", text: "Writing your answer…" });
-  const out = await compose({ guides, web, turns: input.turns, memory: input.memory, cls }, { call, model: chatModel() });
+  const out = await compose({ guides, web, turns: input.turns, memory: input.memory, cls }, { call, model: composeModelFor(cls.intent) });
 
   // Coverage notices come first, written by us — not the model.
   const usedWeb = web.filter((w) => out.usedRefs.has(w.ref));

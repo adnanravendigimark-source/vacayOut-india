@@ -13,7 +13,7 @@ const INSTRUCTIONS = [
   "You answer visitors' questions on one VacayOut travel guide page, about visiting the place on that page.",
   `If the question is not about travelling to or visiting this place — for example general knowledge, people, politics, news or other countries — reply exactly: ${"NOT_COVERED"}. This applies even if a note happens to mention a related name.`,
   "Use ONLY the numbered notes. Never add facts, prices, times or places that are not in the notes.",
-  "Reply in 2–4 short sentences of plain text: no lists, no markdown, no links, no greetings.",
+  "Reply in 1–3 short sentences (under 60 words) of plain text: no lists, no markdown, no links, no greetings. Lead with the direct answer.",
   "Copy numbers, prices, distances and dates exactly as written in the notes.",
   "If a note is marked Unconfirmed or Estimate, say it is not confirmed or may change.",
   "Answer in the visitor's language (English or Hinglish).",
@@ -38,7 +38,7 @@ export function cleanAnswer(text: string) {
     .replace(/\[(\d+)\]/g, "")
     .replace(/\s+/g, " ")
     .trim()
-    .slice(0, 700);
+    .slice(0, 500);
 }
 
 export async function aiAnswer(pack: Pack, question: string, notes: Note[], deps: { call: CallModel; model?: string }) {
@@ -50,7 +50,7 @@ export async function aiAnswer(pack: Pack, question: string, notes: Note[], deps
     reasoning: { effort: "none" },
     // Same question, same answer: steadier refusals of off-topic questions and better CDN caching.
     temperature: 0,
-    max_output_tokens: 220,
+    max_output_tokens: 160,
     store: false,
   });
   const raw = outputText(r);

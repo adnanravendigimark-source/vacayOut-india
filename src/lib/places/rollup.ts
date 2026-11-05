@@ -86,7 +86,9 @@ export async function listItinerariesTouching(stateSlug: string, slugs: Set<stri
   const out: RollupItinerary[] = [];
   for (const r of rows) {
     const s = r.snap as ItinerarySnapshot | null;
-    if (!s || !s.plan?.days) continue;
+    // A snapshot without a slug or title wasn't written by publishItinerary (e.g. a raw seed insert):
+    // it would link to /itineraries/undefined and break React's list keys, so it isn't listed.
+    if (!s || !s.plan?.days || !s.slug || !s.title || out.some((o) => o.slug === s.slug)) continue;
     const stops = s.plan.days.flatMap((d) => d.stops);
     const own = placeIds.has(r.placeId);
     const viaStop = stops.some((st) => {
@@ -114,7 +116,8 @@ export async function listGuidesTouching(placeIds: string[]): Promise<RollupGuid
     .orderBy(desc(travelGuides.publishedAt));
   return rows
     .map((r) => r.snap as GuideSnapshot | null)
-    .filter((s): s is GuideSnapshot => !!s)
+    // Same rule as itineraries: a snapshot without a slug or title (e.g. a raw seed insert) would link to /travel-guides/undefined.
+    .filter((s): s is GuideSnapshot => !!s && !!s.slug && !!s.title)
     .map((s) => ({
       slug: s.slug,
       title: s.title,

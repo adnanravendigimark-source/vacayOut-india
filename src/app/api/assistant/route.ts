@@ -1,4 +1,5 @@
 import { aiAnswer, quickCall } from "@/lib/assistant/ai";
+import { findGuideNamedIn } from "@/lib/assistant/elsewhere";
 import { loadPack } from "@/lib/assistant/load";
 import { normalize, notesForAi, search } from "@/lib/assistant/search";
 import { chatBudget, recordRequest } from "@/lib/chat/quota";
@@ -57,9 +58,20 @@ export async function GET(req: Request) {
   const pack = await loadPack(state, placeSlug);
   if (!pack) return reply(404, { error: "Unknown page." });
 
-  // Nothing on the page is even close: say so without paying for a model call.
+  // The question names another place we have a guide for ("Kedarnath" on the Rishikesh page):
+  // answer from that guide instead. Same model, same limits; no web search.
+  // If the visitor also names this page's place ("Haridwar to Rishikesh" on Rishikesh), stay here unless this page has nothing.
   const hits = search(pack, question, 6);
-  if (!hits.length || hits[0].score < 1) return reply(200, { notCovered: true }, 604800);
+  const weakHere = !hits.length || hits[0].score < 1;
+  const namesHere = ` ${question} `.includes(` ${normalize(pack.place.name)} `);
+  const other = !namesHere || weakHere ? await findGuideNamedIn(question, { stateSlug: state, placeSlug }).catch(() => null) : null;
+  const otherPack = other ? await loadPack(other.stateSlug, other.placeSlug) : null;
+  const otherHits = otherPack ? search(otherPack, question, 6) : [];
+  const useOther = Boolean(otherPack && otherHits.length && otherHits[0].score >= 1);
+  const source = useOther ? otherPack! : pack;
+
+  // Nothing on this page (or the named guide) is even close: say so without paying for a model call.
+  if (!useOther && weakHere) return reply(200, { notCovered: true }, 604800);
 
   if (!openaiConfigured()) return reply(503, { error: "AI answers are off.", fallback: true });
   const day = await hit("asst:day", DAILY_AI_ANSWERS(), 86_400);
@@ -67,14 +79,15 @@ export async function GET(req: Request) {
   const budget = await chatBudget();
   if (budget.remaining < BUDGET_FLOOR_MICRO) return reply(503, { error: "AI answers are paused.", fallback: true });
 
-  const notes = notesForAi(pack, question, 6);
+  const notes = notesForAi(source, question, 6);
   try {
-    const r = await aiAnswer(pack, question, notes, { call: quickCall });
+    const r = await aiAnswer(source, question, notes, { call: quickCall });
     await recordRequest(
       { kind: "anon", key: network, travellerId: null, network, newCookie: null },
-      { outcome: "page_assistant", destination: pack.place.name, usedGuides: true, costMicroUsd: r.costMicroUsd },
+      { outcome: "page_assistant", destination: source.place.name, usedGuides: true, costMicroUsd: r.costMicroUsd },
     ).catch(() => {});
-    return reply(200, { answer: r.text, notCovered: r.notCovered, sources: notes.slice(0, 3).map((n) => n.id), version: pack.version }, 604800);
+    const from = useOther && other && r.text ? { name: other.name, href: other.path } : undefined;
+    return reply(200, { answer: r.text, notCovered: r.notCovered, sources: from ? [] : notes.slice(0, 3).map((n) => n.id), version: pack.version, ...(from ? { from } : {}) }, 604800);
   } catch (err) {
     await logError("assistant", err, { path: "/api/assistant" });
     return reply(503, { error: "AI answer unavailable.", fallback: true });

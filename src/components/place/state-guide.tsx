@@ -117,6 +117,46 @@ const STATE_PRACTICAL_HIGHLIGHTS: Record<string, PracticalHighlight> = {
       icon: "checkCircle",
     },
   },
+  kerala: {
+    emergency: {
+      label: "Emergency Contacts",
+      title: "Dial 112 or 108",
+      subtitle: "112 for police/fire; 108 for free 24x7 ambulance; 1091 for 24-hr women's helpline.",
+      icon: "shield",
+    },
+    permit: {
+      label: "Houseboat Regulations",
+      title: "DTPC Approved Houseboats",
+      subtitle: "Book official DTPC-certified 'Green Palm' or 'Gold Star' houseboats with mandated life jackets & certified crew.",
+      icon: "fileText",
+    },
+    rule: {
+      label: "Eco & Wildlife Law",
+      title: "Plastic-Free Shola & Sanctuaries",
+      subtitle: "Single-use plastics strictly banned in Eravikulam & Periyar. Strictly respect temple dress codes (dhoti/sari).",
+      icon: "checkCircle",
+    },
+  },
+  "jammu-and-kashmir": {
+    emergency: {
+      label: "Emergency Contacts",
+      title: "Dial 112 or 108",
+      subtitle: "112 for unified police/fire; 108 for 24x7 ambulance; 1800-103-1060 for J&K Tourist Police Helpline.",
+      icon: "shield",
+    },
+    permit: {
+      label: "SIM Card Regulations",
+      title: "Postpaid SIM Only",
+      subtitle: "Prepaid SIM cards from outside J&K do not work. Carry an Indian postpaid connection or buy a local SIM in Srinagar.",
+      icon: "fileText",
+    },
+    rule: {
+      label: "Yatra & Activity Safety",
+      title: "RFID Registration & Gondola Quotas",
+      subtitle: "Mandatory RFID cards for Vaishno Devi & Amarnath yatras. Pre-book Gulmarg Gondola exclusively on official JKCCC portal.",
+      icon: "checkCircle",
+    },
+  },
 };
 
 const DEFAULT_PRACTICAL_HIGHLIGHT: PracticalHighlight = {
@@ -175,6 +215,24 @@ const STATE_GATEWAYS: Record<string, { title: string; subtitle: string; badges: 
       { label: "To North Beaches:", text: "30–45 mins from Mopa (GOX) / Thivim rail" },
       { label: "To South Heritage:", text: "30–45 mins from Dabolim (GOI) / Madgaon" },
       { label: "Vande Bharat Express:", text: "8 hrs direct from Mumbai CSMT" },
+    ],
+  },
+  kerala: {
+    title: "Planning your gateway from Kochi, Trivandrum or Calicut",
+    subtitle: "Select the international airport and broad-gauge railhead closest to your circuit to minimise winding Ghat transit times.",
+    badges: [
+      { label: "To Kochi & Backwaters:", text: "Cochin Int'l Airport (COK) / Ernakulam Jn" },
+      { label: "To Munnar & Hills:", text: "3.5–4 hrs scenic drive from Kochi via NH 85" },
+      { label: "To Varkala & South:", text: "45 mins from Trivandrum (TRV) / Vande Bharat" },
+    ],
+  },
+  "jammu-and-kashmir": {
+    title: "Planning your arrival into Srinagar or Jammu",
+    subtitle: "Choose between Srinagar Airport for the Kashmir Valley or Jammu Tawi railhead for Vaishno Devi and the southern hills.",
+    badges: [
+      { label: "To Srinagar & Valley:", text: "Sheikh ul-Alam Airport (SXR) / 25 mins to Dal Lake" },
+      { label: "To Vaishno Devi & Katra:", text: "Jammu Tawi (JAT) / Shri Mata Vaishno Devi Katra (SVDK)" },
+      { label: "Vande Bharat Express:", text: "8 hrs direct from New Delhi to Katra" },
     ],
   },
 };
@@ -422,6 +480,12 @@ export function StateGuide({
       if (/dabolim/i.test(text)) pills.push("Dabolim Airport (GOI)");
       if (/jolly grant|dehradun/i.test(text)) pills.push("Jolly Grant (Dehradun / DED)");
       if (/pantnagar/i.test(text)) pills.push("Pantnagar Airport (PGH)");
+      if (/cochin|kochi|cial/i.test(text)) pills.push("Cochin Int'l Airport (COK)");
+      if (/trivandrum|thiruvananthapuram/i.test(text)) pills.push("Trivandrum Int'l (TRV)");
+      if (/calicut|kozhikode/i.test(text)) pills.push("Calicut Int'l Airport (CCJ)");
+      if (/kannur/i.test(text)) pills.push("Kannur Int'l Airport (CNN)");
+      if (/srinagar|sheikh ul-alam/i.test(text)) pills.push("Srinagar Airport (SXR)");
+      if (/jammu.*airport|satwari|ixj/i.test(text)) pills.push("Jammu Airport (IXJ)");
       return {
         icon: "plane",
         badge: "Airports & Domestic Flights",
@@ -447,6 +511,13 @@ export function StateGuide({
       if (/kathgodam/i.test(text)) pills.push("Kathgodam Railhead (KGM)");
       if (/rishikesh|yog nagari/i.test(text)) pills.push("Yog Nagari Rishikesh (YNRK)");
       if (/dehradun/i.test(text)) pills.push("Dehradun Terminal (DDN)");
+      if (/ernakulam|cochin/i.test(text)) pills.push("Ernakulam Junction (ERS)");
+      if (/thiruvananthapuram|trivandrum/i.test(text)) pills.push("Trivandrum Central (TVC)");
+      if (/kozhikode|calicut/i.test(text)) pills.push("Kozhikode Railway (CLT)");
+      if (/jammu tawi|jat\b/i.test(text)) pills.push("Jammu Tawi (JAT)");
+      if (/katra|svdk/i.test(text)) pills.push("Shri Mata Vaishno Devi Katra");
+      if (/usbrl|banihal|chenab/i.test(text)) pills.push("USBRL & Chenab Bridge");
+      if (/srinagar rail|baramulla/i.test(text)) pills.push("Kashmir Valley Rail");
       if (/broad[- ]gauge/i.test(text)) pills.push("Broad Gauge Network");
       return {
         icon: "train",
@@ -462,12 +533,20 @@ export function StateGuide({
       if (/delhi.*mumbai|expressway|ne-4/i.test(text)) pills.push("Delhi–Mumbai Expressway");
       if (/nh-48/i.test(text)) pills.push("NH-48 Corridor");
       if (/nh-66|nh 66/i.test(text)) pills.push("NH-66 Coastal Highway");
+      if (/nh-85|nh 85/i.test(text)) pills.push("NH-85 Kochi–Munnar Highway");
+      if (/nh-44|nh 44/i.test(text)) pills.push("NH-44 Jammu–Srinagar Highway");
+      if (/chenani.*nashri|syama prasad/i.test(text)) pills.push("Chenani–Nashri Tunnel");
+      if (/qazigund|banihal tunnel/i.test(text)) pills.push("Navyug (Qazigund) Tunnel");
+      if (/mughal road/i.test(text)) pills.push("Mughal Road Scenic Pass");
       if (/nh-748|nh 748|anmod/i.test(text)) pills.push("NH-748 (Anmod Ghat)");
       if (/nh-334|delhi.*dehradun/i.test(text)) pills.push("Delhi–Dehradun Expressway");
       if (/char dham.*all weather|all weather/i.test(text)) pills.push("Char Dham Highway");
       if (/gmou|kmvn/i.test(text)) pills.push("GMOU & KMVN Buses");
       if (/kadamba|ktc/i.test(text)) pills.push("Kadamba KTC Buses");
       if (/rsrtc/i.test(text)) pills.push("RSRTC Goldline");
+      if (/ksrtc/i.test(text)) pills.push("KSRTC Swift Coaches");
+      if (/water metro/i.test(text)) pills.push("Kochi Water Metro");
+      if (/swtd|ferr/i.test(text)) pills.push("SWTD Backwater Ferries");
       if (/chandigarh/i.test(text)) pills.push("Chandigarh Highway");
       if (/delhi/i.test(text)) pills.push("Delhi (260–300 km)");
       return {
@@ -481,9 +560,13 @@ export function StateGuide({
     const pills: string[] = [];
     if (/nh-22|nh-5|hindustan/i.test(text)) pills.push("Hindustan–Tibet Road");
     if (/kaza|spiti/i.test(text)) pills.push("Kaza & High Passes");
+    if (/zojila|pir panjal/i.test(text)) pills.push("Pir Panjal & Zojila Pass");
     if (/may|july|october/i.test(text)) pills.push("Seasonal Access");
     if (/taxi|off-road|4x4/i.test(text)) pills.push("Sturdy 4x4 Recommended");
     if (/thar|desert|dunes/i.test(text)) pills.push("Thar Desert Corridors");
+    if (/western ghats|ghat/i.test(text)) pills.push("Western Ghats Mountain Pass");
+    if (/backwater|canal|lagoon/i.test(text)) pills.push("Inland Waterway Corridors");
+    if (/shikara|dal lake/i.test(text)) pills.push("Dal Lake Waterways");
     return {
       icon: "mountain",
       badge: "Regional Corridors",
@@ -954,7 +1037,7 @@ export function StateGuide({
               id="reach"
               eyebrow="Getting there"
               title={`How to reach ${name}`}
-              intro="Practical transport routes across mountain airports, broad-gauge railheads, heritage toy trains, and interstate bus corridors."
+              intro="Practical transport routes across international airports, broad-gauge railheads, express highways, and regional transit corridors."
             />
             {reachSplit ? (
               <div className="space-y-6">

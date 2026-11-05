@@ -2,16 +2,18 @@ import "server-only";
 import { sql } from "drizzle-orm";
 import { getDb } from "@/lib/db";
 import type { PublishedSnapshot } from "@/lib/db/schema";
-import { snapshotText } from "@/lib/places/publish";
 import { isLocalImage } from "@/lib/chat/constants";
+import type { Intent } from "./classify";
 import type { GuideDoc } from "./compose";
+import { focusedText } from "./focus";
 
 /**
  * Finds PUBLISHED guides for the places in a request. Every query joins the
  * live place row and requires its current published version, so unpublished
  * or archived content can never be retrieved.
  */
-export async function findGuides(names: string[], max = 3): Promise<Omit<GuideDoc, "ref">[]> {
+/** `intent` picks which sections of each guide are sent to the model (see focus.ts). */
+export async function findGuides(names: string[], max = 3, intent: Intent = "general"): Promise<Omit<GuideDoc, "ref">[]> {
   const db = getDb();
   const found = new Map<string, Omit<GuideDoc, "ref">>();
   // "Hadimba Temple, Manali" → try "Hadimba Temple" then "Manali" (most specific first).
@@ -46,7 +48,7 @@ export async function findGuides(names: string[], max = 3): Promise<Omit<GuideDo
         stateName: r.state_name,
         href: r.path,
         summary: r.snapshot.place.summary,
-        text: snapshotText(r.snapshot).slice(0, 7000),
+        text: focusedText(r.snapshot, intent),
         sectionKeys: r.snapshot.sections.map((s) => s.key),
         hero: hero && isLocalImage(hero.url) ? { url: hero.url, alt: hero.alt, credit: [hero.kind === "ai_generated" ? "AI-generated illustration" : null, hero.attribution, hero.license].filter(Boolean).join(" · ") || null } : null,
         lat: r.snapshot.place.lat,

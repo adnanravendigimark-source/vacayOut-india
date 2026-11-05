@@ -12,7 +12,7 @@ type Msg =
   | { id: number; role: "user"; text: string }
   | { id: number; role: "bot"; kind: "greeting" }
   | { id: number; role: "bot"; kind: "loading" }
-  | { id: number; role: "bot"; kind: "answer"; text: string | null; notes: Note[]; ai: boolean }
+  | { id: number; role: "bot"; kind: "answer"; text: string | null; notes: Note[]; ai: boolean; from?: { name: string; href: string } }
   | { id: number; role: "bot"; kind: "none"; question: string; topics: { label: string; question: string }[] };
 
 let seq = 0;
@@ -46,8 +46,10 @@ export function AssistantPanel({ pack, firstQuestion, onClose }: { pack: Pack; f
         const params = new URLSearchParams({ s: pack.place.stateSlug, q: normalize(q), v: pack.version });
         if (pack.place.kind !== "state") params.set("p", pack.place.slug);
         const res = await fetch(`/api/assistant?${params}`, { headers: { accept: "application/json" } });
-        const data = (await res.json().catch(() => ({}))) as { answer?: string | null; notCovered?: boolean };
-        if (res.ok && data.answer) next = { id: loadingId, role: "bot", kind: "answer", text: data.answer, notes: notesForAi(pack, q, 3), ai: true };
+        const data = (await res.json().catch(() => ({}))) as { answer?: string | null; notCovered?: boolean; from?: { name?: unknown; href?: unknown } };
+        // Answered from another guide (the visitor named a different place): link there instead of this page's notes.
+        const from = typeof data.from?.name === "string" && typeof data.from?.href === "string" && /^\/india\/[a-z0-9/-]+$/.test(data.from.href) ? { name: data.from.name, href: data.from.href } : undefined;
+        if (res.ok && data.answer) next = { id: loadingId, role: "bot", kind: "answer", text: data.answer, notes: from ? [] : notesForAi(pack, q, 3), ai: true, from };
         else if (res.ok && data.notCovered) next = { id: loadingId, role: "bot", kind: "none", question: q, topics: local.topics };
         else throw new Error("fallback");
       } catch {
@@ -162,7 +164,10 @@ export function AssistantPanel({ pack, firstQuestion, onClose }: { pack: Pack; f
                     </ul>
                   </div>
                 ) : null}
-                {m.ai ? <p className="mt-2 text-[0.625rem] text-[#999]">Written by AI from this guide — check the badges for how sure we are.</p> : null}
+                {m.from ? (
+                  <Link href={m.from.href} className="mt-2 inline-flex items-center gap-1 text-xs font-semibold text-[#2D5A3F] hover:text-coral">Open our {m.from.name} guide <Icon name="arrowRight" size={12} /></Link>
+                ) : null}
+                {m.ai ? <p className="mt-2 text-[0.625rem] text-[#999]">{m.from ? `Written by AI from our ${m.from.name} guide.` : "Written by AI from this guide — check the badges for how sure we are."}</p> : null}
               </div>
               {m.id === lastId && more.length ? chips(more) : null}
             </div>

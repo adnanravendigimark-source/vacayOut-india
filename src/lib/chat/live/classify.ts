@@ -56,8 +56,24 @@ const resultZ = z.object({
   standalone: z.string().trim().min(1).max(500),
 });
 
+/** No-reasoning models (the cheap "luna" tier) take effort "none"; the rest "low". */
+export const effortFor = (model: string) => (/luna/.test(model) ? "none" : "low");
+
+const GREETING_RE = /^(hi+|hey+|hello+|hii+|namaste|namaskar|good (morning|afternoon|evening)|thanks?( you)?( so much)?|thank u|thx|ok(ay)?|cool|great|nice)[\s!.,🙏😊👍]*$/iu;
+
+/**
+ * A bare greeting or thanks needs no model call. Anything with a request in it
+ * ("hi, plan Goa") goes to the router as usual.
+ */
+export function quickGreeting(latest: string): boolean {
+  return latest.trim().length <= 40 && GREETING_RE.test(latest.trim());
+}
+
+const clip = (t: string, n: number) => (t.length > n ? `${t.slice(0, n - 1)}…` : t);
+
 export async function classify(messages: ChatTurn[], memory: TripMemory | null, deps: { call: CallModel; model: string }): Promise<Classification> {
-  const recent = messages.slice(-7, -1).map((m) => `${m.role === "user" ? "Traveller" : "VacayOut (summary)"}: ${m.content}`).join("\n");
+  // The last few turns are enough to resolve "there" / "make it cheaper"; older ones cost tokens for nothing.
+  const recent = messages.slice(-5, -1).map((m) => `${m.role === "user" ? "Traveller" : "VacayOut (summary)"}: ${clip(m.content, 300)}`).join("\n");
   const latest = messages[messages.length - 1].content;
   const input = `You route messages for VacayOut, a planner for travel WITHIN India only.
 scope:
@@ -75,8 +91,9 @@ Latest message: """${latest}"""`;
   const r = await deps.call({
     model: deps.model,
     input,
-    max_output_tokens: 1200,
-    reasoning: { effort: "low" },
+    max_output_tokens: effortFor(deps.model) === "none" ? 500 : 1200,
+    reasoning: { effort: effortFor(deps.model) },
+    store: false,
     text: { format: { type: "json_schema", name: "route", strict: true, schema } },
   });
   let parsed: z.infer<typeof resultZ>;
