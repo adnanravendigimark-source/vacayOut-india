@@ -166,12 +166,13 @@ export async function getItineraryForAdmin(id: string) {
 /** Published itineraries (snapshots only) whose destination is still published, newest first. */
 export async function listPublishedItineraries(): Promise<(ItinerarySnapshot & { publishedAt: Date | null })[]> {
   const rows = await getDb()
-    .select({ snap: itineraries.publishedSnapshot, publishedAt: itineraries.publishedAt })
+    .select({ slug: itineraries.slug, snap: itineraries.publishedSnapshot, publishedAt: itineraries.publishedAt })
     .from(itineraries)
     .innerJoin(places, eq(places.id, itineraries.placeId))
     .where(and(eq(itineraries.status, "published"), eq(places.status, "published")))
     .orderBy(desc(itineraries.publishedAt));
-  return rows.filter((r) => r.snap).map((r) => ({ ...(r.snap as ItinerarySnapshot), publishedAt: r.publishedAt }));
+  // The row's slug is the URL key (the detail page looks it up by it); some older snapshots were saved without one.
+  return rows.filter((r) => r.snap).map((r) => ({ ...(r.snap as ItinerarySnapshot), slug: r.slug, publishedAt: r.publishedAt }));
 }
 
 export async function getPublishedItinerary(slug: string) {
@@ -187,12 +188,12 @@ export async function getPublishedItinerary(slug: string) {
 /** Published itineraries for one destination (links on its guide page). */
 export async function listPublishedItinerariesForPlace(placeId: string) {
   const rows = await getDb()
-    .select({ snap: itineraries.publishedSnapshot })
+    .select({ slug: itineraries.slug, snap: itineraries.publishedSnapshot })
     .from(itineraries)
     .where(and(eq(itineraries.placeId, placeId), eq(itineraries.status, "published")))
     .orderBy(itineraries.durationDays);
   return rows
-    .map((r) => r.snap as ItinerarySnapshot | null)
+    .map((r) => (r.snap ? { ...(r.snap as ItinerarySnapshot), slug: r.slug } : null))
     .filter((x): x is ItinerarySnapshot => Boolean(x))
     .map((x) => ({ slug: x.slug, title: x.title, durationDays: x.durationDays, summary: x.summary }));
 }

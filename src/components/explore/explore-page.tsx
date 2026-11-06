@@ -2,7 +2,7 @@
 
 import { useState, useMemo } from "react";
 import { useSearchParams } from "next/navigation";
-import Image from "next/image";
+import Image from "@/components/media/image";
 import Link from "next/link";
 import { Icon, type Name } from "@/components/icons/icon";
 import type { ExploreData } from "@/lib/places/public-lists";

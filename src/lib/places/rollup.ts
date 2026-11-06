@@ -78,16 +78,16 @@ export async function listPublishedDescendants(rootId: string): Promise<RollupPl
  */
 export async function listItinerariesTouching(stateSlug: string, slugs: Set<string>, placeIds: Set<string>): Promise<RollupItinerary[]> {
   const rows = await getDb()
-    .select({ placeId: itineraries.placeId, snap: itineraries.publishedSnapshot })
+    .select({ placeId: itineraries.placeId, slug: itineraries.slug, snap: itineraries.publishedSnapshot })
     .from(itineraries)
     .innerJoin(places, eq(places.id, itineraries.placeId))
     .where(and(eq(itineraries.status, "published"), eq(places.status, "published")))
     .orderBy(itineraries.durationDays);
   const out: RollupItinerary[] = [];
   for (const r of rows) {
-    const s = r.snap as ItinerarySnapshot | null;
-    // A snapshot without a slug or title wasn't written by publishItinerary (e.g. a raw seed insert):
-    // it would link to /itineraries/undefined and break React's list keys, so it isn't listed.
+    // The row's slug is the URL key; some seeded snapshots were saved without one.
+    const s = r.snap ? { ...(r.snap as ItinerarySnapshot), slug: r.slug } : null;
+    // A snapshot without a title wasn't written by publishItinerary (e.g. a raw seed insert), so it isn't listed.
     if (!s || !s.plan?.days || !s.slug || !s.title || out.some((o) => o.slug === s.slug)) continue;
     const stops = s.plan.days.flatMap((d) => d.stops);
     const own = placeIds.has(r.placeId);
@@ -109,14 +109,14 @@ export async function listGuidesTouching(placeIds: string[]): Promise<RollupGuid
   const db = getDb();
   const linked = db.select({ id: travelGuidePlaces.guideId }).from(travelGuidePlaces).where(inArray(travelGuidePlaces.placeId, placeIds));
   const rows = await db
-    .select({ snap: travelGuides.publishedSnapshot })
+    .select({ slug: travelGuides.slug, snap: travelGuides.publishedSnapshot })
     .from(travelGuides)
     .innerJoin(places, eq(places.id, travelGuides.placeId))
     .where(and(eq(travelGuides.status, "published"), eq(places.status, "published"), sql`(${travelGuides.id} in ${linked} or ${inArray(travelGuides.placeId, placeIds)})`))
     .orderBy(desc(travelGuides.publishedAt));
   return rows
-    .map((r) => r.snap as GuideSnapshot | null)
-    // Same rule as itineraries: a snapshot without a slug or title (e.g. a raw seed insert) would link to /travel-guides/undefined.
+    .map((r) => (r.snap ? { ...(r.snap as GuideSnapshot), slug: r.slug } : null))
+    // Same rule as itineraries: the row's slug is the URL key; a snapshot without a title isn't listed.
     .filter((s): s is GuideSnapshot => !!s && !!s.slug && !!s.title)
     .map((s) => ({
       slug: s.slug,

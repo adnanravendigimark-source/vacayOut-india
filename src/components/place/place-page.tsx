@@ -1,5 +1,5 @@
 import { Fragment } from "react";
-import Image from "next/image";
+import Image from "@/components/media/image";
 import Link from "next/link";
 import { Icon, type Name } from "@/components/icons/icon";
 import type { ItemStatus, PublishedSnapshot, SnapshotImage } from "@/lib/db/schema";

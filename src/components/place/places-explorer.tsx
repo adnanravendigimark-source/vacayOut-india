@@ -1,6 +1,6 @@
 "use client";
 
-import Image from "next/image";
+import Image from "@/components/media/image";
 import Link from "next/link";
 import { useMemo, useRef, useState } from "react";
 import { Icon, type Name } from "@/components/icons/icon";

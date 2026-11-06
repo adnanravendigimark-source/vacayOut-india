@@ -1,5 +1,5 @@
-import { timingSafeEqual } from "node:crypto";
 import { logError } from "@/lib/ops/log";
+import { hasBearer } from "@/lib/ops/bearer";
 import { cleanup, sendDigestIfNeeded } from "@/lib/ops/status";
 import { runPendingJobs } from "@/lib/publish/service";
 import { resumeStalledJobs } from "@/lib/generate/start";
@@ -14,11 +14,7 @@ export const maxDuration = 120;
  * if something needs attention.
  */
 export async function GET(req: Request) {
-  const secret = process.env.CRON_SECRET;
-  const given = req.headers.get("authorization") ?? "";
-  const expected = `Bearer ${secret ?? ""}`;
-  const ok = !!secret && given.length === expected.length && timingSafeEqual(Buffer.from(given), Buffer.from(expected));
-  if (!ok) return new Response("Unauthorized", { status: 401 });
+  if (!hasBearer(req, process.env.CRON_SECRET)) return new Response("Unauthorized", { status: 401 });
   const processed = await runPendingJobs({ limit: 100 });
   let resumed = 0;
   try {

@@ -1,4 +1,4 @@
-import Image from "next/image";
+import Image from "@/components/media/image";
 import Link from "next/link";
 import { PageTitle } from "@/components/admin/ui";
 import { requireUser } from "@/lib/auth/guard";

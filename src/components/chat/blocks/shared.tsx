@@ -1,4 +1,4 @@
-import Image from "next/image";
+import Image from "@/components/media/image";
 import { Icon, type Name } from "@/components/icons/icon";
 import { isLocalImage } from "@/lib/chat/constants";
 

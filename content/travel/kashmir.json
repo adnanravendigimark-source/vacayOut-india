@@ -1,8 +1,8 @@
 {
   "cluster": "kashmir",
   "title": "Kashmir",
-  "researchedAt": "2026-10-27",
-  "selection": "Jammu and Kashmir recorded 23.0 million domestic and 0.065 million foreign tourist visits in 2024 (India Tourism Data Compendium 2025). The user asked for Kashmir to be included. Note: as of October 2026 the UK FCDO advises against all travel to the Union Territory, and the 2025 Pahalgam attack killed 26 civilians — every page with its own URL carries this advisory, and editors should re-check it before publishing.",
+  "researchedAt": "2026-11-05",
+  "selection": "Jammu and Kashmir recorded 23.0 million domestic and 0.065 million foreign tourist visits in 2024 (India Tourism Data Compendium 2025). The user asked for Kashmir to be included. Note: as of October 2026 the UK FCDO advises against all travel to the Union Territory, and the 2025 Pahalgam attack killed 26 civilians — every page with its own URL carries this advisory, and editors should re-check it before publishing. v2 (2026-11-05): state record and 15 destinations added, and researched sections for the towns an editor seed created, from the UK FCDO regional-risks page, Jammu and Kashmir district websites (nic.in), Incredible India, the Shri Mata Vaishno Devi Shrine Board and Wikipedia; site closures from The Tribune (Feb 2026) and Brighter Kashmir (Apr 2026). District pages that still name Jammu Tawi as Kashmir's railhead predate the June 2025 Katra–Srinagar line and are not used for rail. No prices are given.",
   "sources": {
     "II_JK": {
       "url": "https://www.incredibleindia.gov.in/en/jammu-and-kashmir",
@@ -113,6 +113,366 @@
       "url": "https://en.wikipedia.org/wiki/112_(emergency_telephone_number)",
       "title": "112 (emergency telephone number) — Wikipedia",
       "authority": "reference"
+    },
+    "FCDO_RR": {
+      "url": "https://gov.uk/foreign-travel-advice/india/regional-risks",
+      "title": "Regional risks — India travel advice, UK Foreign, Commonwealth & Development Office",
+      "authority": "government"
+    },
+    "TRIB_REOPEN": {
+      "url": "https://www.tribuneindia.com/news/j-k/14-tourist-destinations-shut-after-pahalgam-attack-reopened-in-jk/",
+      "title": "14 tourist destinations shut after Pahalgam attack reopened in J&K — The Tribune, 16 February 2026",
+      "authority": "media"
+    },
+    "BK_BAIS": {
+      "url": "https://brighterkashmir.com/baisaran-meadow-still-shut-after-attack",
+      "title": "Baisaran meadow still shut a year after attack — Brighter Kashmir, 22 April 2026",
+      "authority": "media"
+    },
+    "SCROLL_PAH": {
+      "url": "https://scroll.in/article/1092253/one-year-after-terror-attack-pahalgam-remains-off-the-tourist-map",
+      "title": "One year after terror attack, Pahalgam remains off the tourist map — Scroll, 22 April 2026",
+      "authority": "media"
+    },
+    "GK_SIM": {
+      "url": "https://www.greaterkashmir.com/jammu/no-plan-to-remove-ban-on-prepaid-mobile-roaming-for-jk/",
+      "title": "No plan to remove ban on prepaid mobile roaming for J&K — Greater Kashmir, 20 July 2018",
+      "authority": "media"
+    },
+    "SMVDSB": {
+      "url": "https://www.maavaishnodevi.org/",
+      "title": "Shri Mata Vaishno Devi Shrine Board — official website",
+      "authority": "government"
+    },
+    "W_UT": {
+      "url": "https://en.wikipedia.org/wiki/Jammu_and_Kashmir_(union_territory)",
+      "title": "Jammu and Kashmir (union territory) — Wikipedia",
+      "authority": "reference"
+    },
+    "W_JMU": {
+      "url": "https://en.wikipedia.org/wiki/Jammu",
+      "title": "Jammu — Wikipedia",
+      "authority": "reference"
+    },
+    "W_JAP": {
+      "url": "https://en.wikipedia.org/wiki/Jammu_Airport",
+      "title": "Jammu Airport — Wikipedia",
+      "authority": "reference"
+    },
+    "W_SXRAP": {
+      "url": "https://en.wikipedia.org/wiki/Sheikh_ul-Alam_International_Airport",
+      "title": "Sheikh ul-Alam International Airport — Wikipedia",
+      "authority": "reference"
+    },
+    "W_CHEN": {
+      "url": "https://en.wikipedia.org/wiki/Chenab_Rail_Bridge",
+      "title": "Chenab Rail Bridge — Wikipedia",
+      "authority": "reference"
+    },
+    "W_BQT": {
+      "url": "https://en.wikipedia.org/wiki/Banihal_Qazigund_Road_Tunnel",
+      "title": "Banihal Qazigund Road Tunnel — Wikipedia",
+      "authority": "reference"
+    },
+    "W_ZMORH": {
+      "url": "https://en.wikipedia.org/wiki/Z-Morh_Tunnel",
+      "title": "Sonamarg (Z-Morh) Tunnel — Wikipedia",
+      "authority": "reference"
+    },
+    "W_MUGHAL": {
+      "url": "https://en.wikipedia.org/wiki/Mughal_Road",
+      "title": "Mughal Road — Wikipedia",
+      "authority": "reference"
+    },
+    "W_KATRA": {
+      "url": "https://en.wikipedia.org/wiki/Katra,_Jammu_and_Kashmir",
+      "title": "Katra, Jammu and Kashmir — Wikipedia",
+      "authority": "reference"
+    },
+    "W_VD": {
+      "url": "https://en.wikipedia.org/wiki/Vaishno_Devi_Temple",
+      "title": "Vaishno Devi Temple — Wikipedia",
+      "authority": "reference"
+    },
+    "W_AMAR": {
+      "url": "https://en.wikipedia.org/wiki/Amarnath_Temple",
+      "title": "Amarnath Temple — Wikipedia",
+      "authority": "reference"
+    },
+    "W_PATNI": {
+      "url": "https://en.wikipedia.org/wiki/Patnitop",
+      "title": "Patnitop — Wikipedia",
+      "authority": "reference"
+    },
+    "W_SONA": {
+      "url": "https://en.wikipedia.org/wiki/Sonamarg",
+      "title": "Sonamarg — Wikipedia",
+      "authority": "reference"
+    },
+    "W_DOODH": {
+      "url": "https://en.wikipedia.org/wiki/Doodhpathri",
+      "title": "Doodhpathri — Wikipedia",
+      "authority": "reference"
+    },
+    "W_GUREZ": {
+      "url": "https://en.wikipedia.org/wiki/Gurez",
+      "title": "Gurez — Wikipedia",
+      "authority": "reference"
+    },
+    "W_KOK": {
+      "url": "https://en.wikipedia.org/wiki/Kokernag",
+      "title": "Kokernag — Wikipedia",
+      "authority": "reference"
+    },
+    "W_VER": {
+      "url": "https://en.wikipedia.org/wiki/Verinag",
+      "title": "Verinag — Wikipedia",
+      "authority": "reference"
+    },
+    "W_ACH": {
+      "url": "https://en.wikipedia.org/wiki/Achabal",
+      "title": "Achabal — Wikipedia",
+      "authority": "reference"
+    },
+    "W_AHAR": {
+      "url": "https://en.wikipedia.org/wiki/Aharbal",
+      "title": "Aharbal — Wikipedia",
+      "authority": "reference"
+    },
+    "W_DAK": {
+      "url": "https://en.wikipedia.org/wiki/Daksum",
+      "title": "Daksum — Wikipedia",
+      "authority": "reference"
+    },
+    "W_WULAR": {
+      "url": "https://en.wikipedia.org/wiki/Wular_Lake",
+      "title": "Wular Lake — Wikipedia",
+      "authority": "reference"
+    },
+    "W_MANAS": {
+      "url": "https://en.wikipedia.org/wiki/Manasbal_Lake",
+      "title": "Manasbal Lake — Wikipedia",
+      "authority": "reference"
+    },
+    "W_NARA": {
+      "url": "https://en.wikipedia.org/wiki/Naranag",
+      "title": "Naranag — Wikipedia",
+      "authority": "reference"
+    },
+    "W_LOLAB": {
+      "url": "https://en.wikipedia.org/wiki/Lolab_Valley",
+      "title": "Lolab Valley — Wikipedia",
+      "authority": "reference"
+    },
+    "W_BANGUS": {
+      "url": "https://en.wikipedia.org/wiki/Bangus_Valley",
+      "title": "Bangus Valley — Wikipedia",
+      "authority": "reference"
+    },
+    "W_PKG": {
+      "url": "https://en.wikipedia.org/wiki/Peer_Ki_Gali",
+      "title": "Peer Ki Gali — Wikipedia",
+      "authority": "reference"
+    },
+    "W_BHAD": {
+      "url": "https://en.wikipedia.org/wiki/Bhaderwah",
+      "title": "Bhaderwah — Wikipedia",
+      "authority": "reference"
+    },
+    "W_SANA": {
+      "url": "https://en.wikipedia.org/wiki/Sanasar",
+      "title": "Sanasar — Wikipedia",
+      "authority": "reference"
+    },
+    "W_MANSAR": {
+      "url": "https://en.wikipedia.org/wiki/Mansar_Lake",
+      "title": "Mansar Lake — Wikipedia",
+      "authority": "reference"
+    },
+    "W_SURIN": {
+      "url": "https://en.wikipedia.org/wiki/Surinsar_Lake",
+      "title": "Surinsar Lake — Wikipedia",
+      "authority": "reference"
+    },
+    "W_KISH": {
+      "url": "https://en.wikipedia.org/wiki/Kishtwar",
+      "title": "Kishtwar — Wikipedia",
+      "authority": "reference"
+    },
+    "W_KCUI": {
+      "url": "https://en.wikipedia.org/wiki/Kashmiri_cuisine",
+      "title": "Kashmiri cuisine — Wikipedia",
+      "authority": "reference"
+    },
+    "W_PASH": {
+      "url": "https://en.wikipedia.org/wiki/Pashmina",
+      "title": "Pashmina — Wikipedia",
+      "authority": "reference"
+    },
+    "W_SHIK": {
+      "url": "https://en.wikipedia.org/wiki/Shikara",
+      "title": "Shikara — Wikipedia",
+      "authority": "reference"
+    },
+    "II_JMU": {
+      "url": "https://www.incredibleindia.gov.in/en/jammu-and-kashmir/jammu",
+      "title": "Jammu — Incredible India (Ministry of Tourism)",
+      "authority": "government"
+    },
+    "II_PATNI": {
+      "url": "https://www.incredibleindia.gov.in/en/jammu-and-kashmir/patnitop",
+      "title": "Patnitop — Incredible India (Ministry of Tourism)",
+      "authority": "government"
+    },
+    "II_ANT": {
+      "url": "https://www.incredibleindia.gov.in/en/jammu-and-kashmir/anantnag",
+      "title": "Anantnag — Incredible India (Ministry of Tourism)",
+      "authority": "government"
+    },
+    "ANT_ACH": {
+      "url": "https://anantnag.nic.in/tourist-place/achabal/",
+      "title": "Achabal — District Anantnag, Government of Jammu and Kashmir",
+      "authority": "government"
+    },
+    "ANT_KOK": {
+      "url": "https://anantnag.nic.in/tourist-place/kokernag/",
+      "title": "Kokernag — District Anantnag, Government of Jammu and Kashmir",
+      "authority": "government"
+    },
+    "ANT_VER": {
+      "url": "https://anantnag.nic.in/tourist-place/verinag/",
+      "title": "Verinag — District Anantnag, Government of Jammu and Kashmir",
+      "authority": "government"
+    },
+    "ANT_PAH": {
+      "url": "https://anantnag.nic.in/tourist-place/pahalgam/",
+      "title": "Pahalgam — District Anantnag, Government of Jammu and Kashmir",
+      "authority": "government"
+    },
+    "BAR_GUL": {
+      "url": "https://baramulla.nic.in/tourist-place/gulmarg/",
+      "title": "Gulmarg — District Baramulla, Government of Jammu and Kashmir",
+      "authority": "government"
+    },
+    "BAR_WUL": {
+      "url": "https://baramulla.nic.in/tourist-place/wular-lake/",
+      "title": "Wular Lake — District Baramulla, Government of Jammu and Kashmir",
+      "authority": "government"
+    },
+    "BUD_DOODH": {
+      "url": "https://budgam.nic.in/tourist-place/doodhpathri/",
+      "title": "Doodhpathri — District Budgam, Government of Jammu and Kashmir",
+      "authority": "government"
+    },
+    "BUD_YUS": {
+      "url": "https://budgam.nic.in/tourist-place/yusmarg/",
+      "title": "Yusmarg — District Budgam, Government of Jammu and Kashmir",
+      "authority": "government"
+    },
+    "GAN_SONA": {
+      "url": "https://ganderbal.nic.in/tourist-place/sonamarg/",
+      "title": "Sonamarg — District Ganderbal, Government of Jammu and Kashmir",
+      "authority": "government"
+    },
+    "GAN_THAJ": {
+      "url": "https://ganderbal.nic.in/tourist-place/thajiwas-glacier/",
+      "title": "Thajiwas Glacier — District Ganderbal, Government of Jammu and Kashmir",
+      "authority": "government"
+    },
+    "GAN_MANAS": {
+      "url": "https://ganderbal.nic.in/tourist-place/mansbal-lake/",
+      "title": "Manasbal Lake — District Ganderbal, Government of Jammu and Kashmir",
+      "authority": "government"
+    },
+    "KUL_AHAR": {
+      "url": "https://kulgam.nic.in/tourist-place/aharbal/",
+      "title": "Aharbal — District Kulgam, Government of Jammu and Kashmir",
+      "authority": "government"
+    },
+    "KUL_KOUS": {
+      "url": "https://kulgam.nic.in/tourist-place/kousarnag-lake/",
+      "title": "Kousarnag Lake — District Kulgam, Government of Jammu and Kashmir",
+      "authority": "government"
+    },
+    "KUP_LOLAB": {
+      "url": "https://kupwara.nic.in/tourist-place/lolab/",
+      "title": "Lolab — District Kupwara, Government of Jammu and Kashmir",
+      "authority": "government"
+    },
+    "KUP_BANGUS": {
+      "url": "https://kupwara.nic.in/tourist-place/tourist-places-bungusvalley/",
+      "title": "Bangus Valley — District Kupwara, Government of Jammu and Kashmir",
+      "authority": "government"
+    },
+    "SHO_PKG": {
+      "url": "https://shopian.nic.in/tourist-place/peer-kigali/",
+      "title": "Peer Ki Gali — District Shopian, Government of Jammu and Kashmir",
+      "authority": "government"
+    },
+    "POO_MUGHAL": {
+      "url": "https://poonch.nic.in/tourist-place/mughal-road-pir-ki-gali/",
+      "title": "Mughal Road and Pir Ki Gali — District Poonch, Government of Jammu and Kashmir",
+      "authority": "government"
+    },
+    "JMU_BAHU": {
+      "url": "https://jammu.nic.in/tourist-place/bahu-fort-jammu/",
+      "title": "Bahu Fort — District Jammu, Government of Jammu and Kashmir",
+      "authority": "government"
+    },
+    "JMU_AMAR": {
+      "url": "https://jammu.nic.in/tourist-place/amar-mahal-jammu/",
+      "title": "Amar Mahal — District Jammu, Government of Jammu and Kashmir",
+      "authority": "government"
+    },
+    "JMU_MUB": {
+      "url": "https://jammu.nic.in/tourist-place/mubarak-mandi-palace/",
+      "title": "Mubarak Mandi Palace — District Jammu, Government of Jammu and Kashmir",
+      "authority": "government"
+    },
+    "JMU_RAG": {
+      "url": "https://jammu.nic.in/tourist-place/raghunath-temple-jammu/",
+      "title": "Raghunath Temple — District Jammu, Government of Jammu and Kashmir",
+      "authority": "government"
+    },
+    "REA_VD": {
+      "url": "https://reasi.nic.in/tourist-place/shri-mata-vaishno-devi-shrine/",
+      "title": "Shri Mata Vaishno Devi Shrine — District Reasi, Government of Jammu and Kashmir",
+      "authority": "government"
+    },
+    "REA_SHIV": {
+      "url": "https://reasi.nic.in/tourist-place/shiv-khori-ransoo/",
+      "title": "Shiv Khori — District Reasi, Government of Jammu and Kashmir",
+      "authority": "government"
+    },
+    "REA_SIYAD": {
+      "url": "https://reasi.nic.in/tourist-place/siyad-baba/",
+      "title": "Siyad Baba waterfall — District Reasi, Government of Jammu and Kashmir",
+      "authority": "government"
+    },
+    "DOD_JAI": {
+      "url": "https://doda.nic.in/tourist-place/jai-valley/",
+      "title": "Jai Valley — District Doda, Government of Jammu and Kashmir",
+      "authority": "government"
+    },
+    "DOD_PADRI": {
+      "url": "https://doda.nic.in/tourist-place/padri/",
+      "title": "Padri — District Doda, Government of Jammu and Kashmir",
+      "authority": "government"
+    },
+    "KIS_SIN": {
+      "url": "https://kishtwar.nic.in/tourist-place/sinthan-top/",
+      "title": "Sinthan Top — District Kishtwar, Government of Jammu and Kashmir",
+      "authority": "government"
+    },
+    "KIS_MACH": {
+      "url": "https://kishtwar.nic.in/tourist-place/machail-mata/",
+      "title": "Machail Mata — District Kishtwar, Government of Jammu and Kashmir",
+      "authority": "government"
+    },
+    "SXR_TULIP": {
+      "url": "https://srinagar.nic.in/tourist-place/tulip-garden/",
+      "title": "Tulip Garden — District Srinagar, Government of Jammu and Kashmir",
+      "authority": "government"
     }
   },
   "facts": {
@@ -784,9 +1144,1757 @@
           "quote": "in which 26 civilians were killed on 22 April 2025"
         }
       ]
+    },
+    "JS1": {
+      "place": "jammu-and-kashmir",
+      "topic": "Where it lies",
+      "claim": "Jammu and Kashmir, a union territory since 2019, lies north of Himachal Pradesh and Punjab and west of Ladakh; Srinagar and Jammu share the capital, and it has two divisions and 20 districts.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "W_UT",
+          "quote": "It lies to the north of the Indian states of Himachal Pradesh and Punjab and to the west of Ladakh which is administered by India as a union territory."
+        },
+        {
+          "source": "W_UT",
+          "quote": "In 2019, the Jammu and Kashmir Reorganisation Act was passed, reconstituting the former state of Jammu and Kashmir into two union territories: Ladakh in the east and the residuary Jammu and Kashmir in the west."
+        },
+        {
+          "source": "W_UT",
+          "quote": "Srinagar and Jammu jointly serve as the capital of the region, which is divided into two divisions and 20 districts ."
+        }
+      ]
+    },
+    "JS2": {
+      "place": "jammu-and-kashmir",
+      "topic": "Landscape",
+      "claim": "The Pir Panjal range walls the Kashmir Valley (about 1,850 m) off from the plains; the Chenab, Tawi and Ravi flow through the Jammu region.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "W_UT",
+          "quote": "the Pir Panjal range, which encloses the valley from the west and the south, separates it from the Punjab Plain of the Indo-Gangetic Plain"
+        },
+        {
+          "source": "W_UT",
+          "quote": "This valley has an average height of 1,850 metres (6,070 ft) above sea-level"
+        },
+        {
+          "source": "W_UT",
+          "quote": "The Chenab , Tawi and Ravi are important rivers flowing through the Jammu region."
+        }
+      ]
+    },
+    "JS3": {
+      "place": "jammu-and-kashmir",
+      "topic": "Weather pattern",
+      "claim": "The monsoon weakens behind the Pir Panjal, so much of the Kashmir Valley's rain falls in spring; Jammu is hot, with summer highs up to 46°C.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "W_UT",
+          "quote": "The effect of the monsoon diminishes in areas lying to the leeward side of the Pir Panjal , such as the Kashmir valley, and much of the rainfall happens in the spring season due to western disturbances ."
+        },
+        {
+          "source": "W_JMU",
+          "quote": "with extreme summer highs reaching 46 °C (115 °F)"
+        }
+      ],
+      "kind": "seasonal"
+    },
+    "JS4": {
+      "place": "jammu-and-kashmir",
+      "topic": "UK travel advice",
+      "claim": "As of October 2026 the UK FCDO advises against all travel to Jammu and Kashmir — including Pahalgam, Gulmarg, Sonamarg, Srinagar and the Jammu–Srinagar highway — except flying to and travelling within Jammu city; it warns of a continuing terrorist threat to civilians including tourists.",
+      "claimType": "rule",
+      "evidence": [
+        {
+          "source": "FCDO_RR",
+          "quote": "FCDO advises against all travel to the Union Territory of Jammu and Kashmir (including Pahalgam, Gulmarg, Sonamarg, the city of Srinagar and the Jammu-Srinagar national highway), except for:"
+        },
+        {
+          "source": "FCDO_RR",
+          "quote": "travel by air to and from the city of Jammu"
+        },
+        {
+          "source": "FCDO_RR",
+          "quote": "travel within the city of Jammu"
+        },
+        {
+          "source": "FCDO_RR",
+          "quote": "There is a continuing threat, towards Indian government targets and civilians including tourists and foreign nationals."
+        }
+      ]
+    },
+    "JS5": {
+      "place": "jammu-and-kashmir",
+      "topic": "Curfews and consular help",
+      "claim": "The FCDO warns that curfews and restrictions can be imposed quickly and that British consular help in J&K is severely limited.",
+      "claimType": "rule",
+      "evidence": [
+        {
+          "source": "FCDO_RR",
+          "quote": "The authorities can impose and lift curfews and other restrictions frequently and quickly."
+        },
+        {
+          "source": "FCDO_RR",
+          "quote": "The level of consular assistance that the British High Commission in India can provide in Jammu and Kashmir is severely limited."
+        }
+      ]
+    },
+    "JS6": {
+      "place": "jammu-and-kashmir",
+      "topic": "Closures after April 2025",
+      "claim": "After the April 2025 attack many sites closed; on 16 February 2026 the Lt Governor reopened 14 — including Yusmarg, Doodhpathri, Peer Ki Gali, the Tulip Garden, Thajiwas Glacier and Wular — with Gurez, Athwatoo and Bangus to follow once snow cleared.",
+      "claimType": "schedule",
+      "evidence": [
+        {
+          "source": "TRIB_REOPEN",
+          "quote": "Lt Governor Manoj Sinha on Monday ordered reopening of 14 locations in Kashmir and Jammu region."
+        },
+        {
+          "source": "TRIB_REOPEN",
+          "quote": "As many as 11 tourist spots in Kashmir division, including Yousmarg, Doodhpathri in Budgam, Dandipora Park in Kokernag, Peer Ki Gali, Dubjan and Padpawan in Shopian, Astanpora, Tulip Garden in Srinagar, Thajwas Glacier, Hung Park in Ganderbal and Wullar/ Watlab in Baramulla will be reopened immediately."
+        },
+        {
+          "source": "TRIB_REOPEN",
+          "quote": "Three sites in Kashmir division — Gurez, Athwatoo, Bangus and one site in Jammu region —Ramkund in Ramban will be reopened once snow gets cleared."
+        }
+      ],
+      "kind": "seasonal"
+    },
+    "JS7": {
+      "place": "jammu-and-kashmir",
+      "topic": "Baisaran",
+      "claim": "In April 2026 Baisaran meadow above Pahalgam, site of the 2025 attack, was still closed, and so was Chandanwari.",
+      "claimType": "schedule",
+      "evidence": [
+        {
+          "source": "BK_BAIS",
+          "quote": "Baisaran meadow in Pahalgam continues to remain closed to visitors"
+        },
+        {
+          "source": "BK_BAIS",
+          "quote": "Tourism stakeholders attribute the decline mainly to the continued closure of Baisaran and nearby attractions such as Chandanwari."
+        }
+      ],
+      "kind": "seasonal"
+    },
+    "JS8": {
+      "place": "jammu-and-kashmir",
+      "topic": "Prepaid SIMs",
+      "claim": "Prepaid mobile connections from the rest of India do not work in J&K because roaming is barred for security reasons; bring a postpaid connection.",
+      "claimType": "rule",
+      "evidence": [
+        {
+          "source": "GK_SIM",
+          "quote": "Similarly, no prepaid mobile from the rest of the country works in the state due to security restrictions."
+        },
+        {
+          "source": "GK_SIM",
+          "quote": "“The ban on all prepaid mobile services (roaming) is for certain security reasons and there is no plan to revoke this ban,”"
+        }
+      ]
+    },
+    "JS9": {
+      "place": "jammu-and-kashmir",
+      "topic": "Airports",
+      "claim": "Srinagar's airport is about 12 km from the city at Budgam; Jammu's is about 8 km from the city.",
+      "claimType": "distance",
+      "evidence": [
+        {
+          "source": "W_SXRAP",
+          "quote": "The airport is located about 12 km"
+        },
+        {
+          "source": "W_JAP",
+          "quote": "The airport is located 8 km"
+        }
+      ],
+      "kind": "estimate"
+    },
+    "JS10": {
+      "place": "jammu-and-kashmir",
+      "topic": "Train to Kashmir",
+      "claim": "Since 6 June 2025 trains have run from Katra to Srinagar over the Chenab bridge, the highest rail arch bridge, at 359 m above the river.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "W_CHEN",
+          "quote": "on 6 June 2025, with the launch of train services connecting Katra in the Jammu region and Srinagar in the Kashmir valley"
+        },
+        {
+          "source": "W_CHEN",
+          "quote": "With a deck height of 359 m (1,178 ft) from the river bed, the arch bridge is the highest"
+        }
+      ]
+    },
+    "JS11": {
+      "place": "jammu-and-kashmir",
+      "topic": "Road tunnels",
+      "claim": "The 9.28-km Chenani–Nashri tunnel at Patnitop cuts the Jammu–Srinagar road by 30 km; the Banihal–Qazigund tunnel saves 16 km more, and the Z-Morh tunnel gives Sonamarg all-weather access.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_PATNI",
+          "quote": "this 9.28km-long engineering marvel connecting Chenani and Nashri, cuts the distance between Jammu and Srinagar by 30 km"
+        },
+        {
+          "source": "W_BQT",
+          "quote": "The tunnel has reduced the road distance between Banihal and Qazigund by 16 km (10 mile)."
+        },
+        {
+          "source": "W_ZMORH",
+          "quote": "However, now the tunnel provides all-weather connectivity to Sonamarg."
+        }
+      ]
+    },
+    "JS12": {
+      "place": "jammu-and-kashmir",
+      "topic": "Mughal Road",
+      "claim": "The 84-km Mughal Road over Peer Ki Gali links Poonch and Rajouri with Shopian, but snow closes it in winter.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "W_MUGHAL",
+          "quote": "The 84-kilometre road"
+        },
+        {
+          "source": "W_MUGHAL",
+          "quote": "The road connects Poonch and Rajouri to Srinagar in the Kashmir valley"
+        },
+        {
+          "source": "W_MUGHAL",
+          "quote": "snowfall in winter and hence would not serve as an alternate route to the existing Jammu-Srinagar highway."
+        }
+      ],
+      "kind": "seasonal"
+    },
+    "JS13": {
+      "place": "jammu-and-kashmir",
+      "topic": "Amarnath Yatra",
+      "claim": "The Amarnath cave pilgrimage is made in July–August; pilgrims must pre-register months ahead, using the Baltal (north) or Pahalgam–Chandanwari (south) route.",
+      "claimType": "schedule",
+      "evidence": [
+        {
+          "source": "W_AMAR",
+          "quote": "traditionally performed by lakhs of people in July and August during the Hindu holy month of Savan"
+        },
+        {
+          "source": "W_AMAR",
+          "quote": "Pilgrims have to pre-register months in advance and are allotted quotas according to state ."
+        },
+        {
+          "source": "W_AMAR",
+          "quote": "Srinagar railway station for the north pilgrim route through Baltal and Anantnag railway station for the south route via Pahalgam-Chandanwari"
+        }
+      ],
+      "kind": "seasonal"
+    },
+    "JS14": {
+      "place": "jammu-and-kashmir",
+      "topic": "Vaishno Devi",
+      "claim": "Vaishno Devi, on Trikuta hill about 12 km from Katra, is run by the Shrine Board; every pilgrim must register and carry an RFID Yatra Access Card.",
+      "claimType": "rule",
+      "evidence": [
+        {
+          "source": "W_VD",
+          "quote": "is 12 km from Katra on Trikuta hill"
+        },
+        {
+          "source": "SMVDSB",
+          "quote": "A pilgrim has to get registered for the Yatra & collect RFID based Yatra Access Card."
+        },
+        {
+          "source": "REA_VD",
+          "quote": "It is managed by Shri Mata Vaishno Devi Shrine Board since 1986."
+        }
+      ]
+    },
+    "JS15": {
+      "place": "jammu-and-kashmir",
+      "topic": "Tulip Garden",
+      "claim": "Srinagar's Indira Gandhi Memorial Tulip Garden, about 30 hectares on the Zabarwan foothills, is Asia's largest tulip garden.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "SXR_TULIP",
+          "quote": "It is the largest tulip garden in Asia spread over an area of about 30 hectares."
+        },
+        {
+          "source": "SXR_TULIP",
+          "quote": "It is situated on the foothills of Zabarwan Range with an overview of Dal Lake."
+        }
+      ]
+    },
+    "JS16": {
+      "place": "jammu-and-kashmir",
+      "topic": "Kashmiri food",
+      "claim": "Wazwan, served at weddings and festivals such as Eid, is Kashmir's feast; noon chai, a pink salted tea, is the everyday drink.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "W_KCUI",
+          "quote": "The most popular drink is a pinkish coloured salted tea called \" noon chai \"."
+        },
+        {
+          "source": "W_KCUI",
+          "quote": "Wazwan dishes with rice, some vegetables and salad are prepared for weddings and special occasions like Eid."
+        }
+      ]
+    },
+    "JS17": {
+      "place": "jammu-and-kashmir",
+      "topic": "Dogra food",
+      "claim": "Jammu's food includes rajma chawal, kaladi cheese from Ramnagar, khatta meat and kachaloo chaat.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_JMU",
+          "quote": "Jammu’s speciality is in a simple preparation which is famous all-over North India, known as the “Rajma Chawal”."
+        },
+        {
+          "source": "II_JMU",
+          "quote": "Jammu is also renowned for its processed cheese, Kaladi (local Cheese), which is made in the Ramnagar region of the state."
+        },
+        {
+          "source": "II_PATNI",
+          "quote": "Dive into the tangy goodness of Khatta meat"
+        },
+        {
+          "source": "II_PATNI",
+          "quote": "Don't miss the heavenly Kachaloo Chaat"
+        }
+      ]
+    },
+    "JS18": {
+      "place": "jammu-and-kashmir",
+      "topic": "Crafts",
+      "claim": "Look for pashmina, namdas (embroidered felt rugs), carpets, shawls and walnut-wood carving.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "W_PASH",
+          "quote": "in Kashmir , pashm referred to the raw unspun wool of domesticated Changthangi goats"
+        },
+        {
+          "source": "II_PATNI",
+          "quote": "Discover the intricate artistry of Namdas, wool carpets adorned with colourful and masterful embroidery"
+        },
+        {
+          "source": "II_ANT",
+          "quote": "local weavers manufacturing beautiful Kashmiri shawls, carpets, gabbas, namdas and rugs"
+        },
+        {
+          "source": "II_JMU",
+          "quote": "Some of the wooden and walnut wood handicrafts can be a rare collection for you to treasure for long."
+        }
+      ]
+    },
+    "JS19": {
+      "place": "jammu-and-kashmir",
+      "topic": "Shikaras",
+      "claim": "The shikara is the wooden boat of Dal Lake and Srinagar's waters.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "W_SHIK",
+          "quote": "is a type of wooden boat found on Dal Lake and other water bodies of Srinagar"
+        }
+      ]
+    },
+    "JS20": {
+      "place": "jammu-and-kashmir",
+      "topic": "Machail Yatra",
+      "claim": "The Machail Mata yatra in Kishtwar's Paddar begins in August; the shrine is about 30 km on foot beyond the road.",
+      "claimType": "schedule",
+      "evidence": [
+        {
+          "source": "KIS_MACH",
+          "quote": "where from her Chhari (Holy Mace) starts in the month of August every year"
+        },
+        {
+          "source": "KIS_MACH",
+          "quote": "by road and thence on foot to Machail Mata which is bearely 30 kms"
+        }
+      ],
+      "kind": "seasonal"
+    },
+    "JM1": {
+      "place": "jammu-and-kashmir/jammu",
+      "topic": "City of temples",
+      "claim": "Jammu, the winter capital, spreads either side of the Tawi below the Shivaliks and is called the city of temples.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "W_JMU",
+          "quote": "It serves as the winter capital of the union territory of Jammu and Kashmir."
+        },
+        {
+          "source": "II_JMU",
+          "quote": "Jammu - the city of temples is surrounded by the Shivalik range to the north, east, and southeast while the Trikuta Range surrounds it in the northwest."
+        }
+      ]
+    },
+    "JM2": {
+      "place": "jammu-and-kashmir/jammu",
+      "topic": "Raghunath Temple",
+      "claim": "The Raghunath Temple (1853–1860), with seven shikharas, is one of north India's largest temple complexes.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "JMU_RAG",
+          "quote": "is one of the largest temple complexes of north India, located in Jammu city"
+        },
+        {
+          "source": "JMU_RAG",
+          "quote": "Maharaja Gulab Singh and his son Maharaj Ranbir Singh built the temple, during the period of 1853-1860."
+        }
+      ]
+    },
+    "JM3": {
+      "place": "jammu-and-kashmir/jammu",
+      "topic": "Bahu Fort",
+      "claim": "Bahu Fort, 5 km from the centre on the Tawi, holds the Bave Wali Mata temple — busiest on Tuesdays and Sundays — and the Bagh-e-Bahu garden.",
+      "claimType": "distance",
+      "evidence": [
+        {
+          "source": "JMU_BAHU",
+          "quote": "Situated 5 kms away from the city centre, Bahu Fort stands on a rock face on the left bank of the river Tawi."
+        },
+        {
+          "source": "JMU_BAHU",
+          "quote": "Pilgrims flock the temple on Tuesdays and Sundays, regarded auspicious."
+        },
+        {
+          "source": "JMU_BAHU",
+          "quote": "An extensive terraced garden, known as Bagh-e-Bahu, has been developed around the fort."
+        }
+      ],
+      "kind": "estimate"
+    },
+    "JM4": {
+      "place": "jammu-and-kashmir/jammu",
+      "topic": "Palaces and museums",
+      "claim": "Amar Mahal (1862), in French-chateau style, has a 120-kg gold throne; Mubarak Mandi's Pink Hall holds the Dogra Art Museum.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "JMU_AMAR",
+          "quote": "This museum is housed in the Amar Mahal Palace, built in 1862 in a unique, French-chateau style of architecture."
+        },
+        {
+          "source": "JMU_AMAR",
+          "quote": "The star of this museum is the golden throne of Jammu, weighing a whopping 120 kgs, all pure gold."
+        },
+        {
+          "source": "JMU_MUB",
+          "quote": "The Pink Hall houses the Dogra Art Museum"
+        }
+      ]
+    },
+    "JM5": {
+      "place": "jammu-and-kashmir/jammu",
+      "topic": "Climate",
+      "claim": "Summers are very hot (up to 46°C); winter nights occasionally drop below 4°C.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "W_JMU",
+          "quote": "with extreme summer highs reaching 46 °C (115 °F) , and temperatures in the winter months occasionally falling below 4 °C (39 °F)"
+        }
+      ],
+      "kind": "seasonal"
+    },
+    "KT1": {
+      "place": "jammu-and-kashmir/katra",
+      "topic": "Base for Vaishno Devi",
+      "claim": "Katra, 42 km from Jammu, is the base town for the Vaishno Devi trek of about 14 km.",
+      "claimType": "distance",
+      "evidence": [
+        {
+          "source": "W_KATRA",
+          "quote": "42 km (26 mi) from the city of Jammu"
+        },
+        {
+          "source": "W_KATRA",
+          "quote": "Katra is the base camp for pilgrims visiting Vaishno Devi Temple ."
+        },
+        {
+          "source": "W_KATRA",
+          "quote": "while on the trek of 14 km"
+        }
+      ],
+      "kind": "estimate"
+    },
+    "KT2": {
+      "place": "jammu-and-kashmir/katra",
+      "topic": "On the yatra",
+      "claim": "Pilgrims can walk from Katra to the Bhawan or use helicopters or battery cars; a ropeway runs from the Bhawan to Bhairon ji, 9 am–5 pm, and the Board runs free langars.",
+      "claimType": "schedule",
+      "evidence": [
+        {
+          "source": "SMVDSB",
+          "quote": "Pilgrims can travel from Katra to Bhawan or can use facilities of Helicopter or Battery Cars."
+        },
+        {
+          "source": "SMVDSB",
+          "quote": "The aerial ropeway from the Bhawan to Bhairon ji mandir is fully operational. The operating times are 9 am to 5 pm."
+        },
+        {
+          "source": "SMVDSB",
+          "quote": "The Board operates free Langar at Tarakote, Sanjhichhat and Bhairon ji for pilgrims round the clock."
+        }
+      ]
+    },
+    "KT3": {
+      "place": "jammu-and-kashmir/katra",
+      "topic": "Around Katra",
+      "claim": "Shiv Khori cave holds a three-day fair at Shivratri; Siyad Baba waterfall drops over 100 ft.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "REA_SHIV",
+          "quote": "A large fair takes place on shivratri day which continues for three days."
+        },
+        {
+          "source": "REA_SIYAD",
+          "quote": "it descends from over 100 feet making a spectacular view"
+        }
+      ],
+      "kind": "seasonal"
+    },
+    "PT1": {
+      "place": "jammu-and-kashmir/patnitop",
+      "topic": "Setting",
+      "claim": "Patnitop, a hill resort on the national highway amid deodar and pine, is a favourite stop for Vaishno Devi pilgrims; its winter snow used to block the highway.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_PATNI",
+          "quote": "Conveniently located on the National Highway, Patnitop is a popular resort among people visiting the famed Vaishno Devi Temple."
+        },
+        {
+          "source": "W_PATNI",
+          "quote": "Frequent snowfall and avalanches in winter at Patnitop often obstructed the Jammu–Srinagar National Highway"
+        }
+      ]
+    },
+    "PT2": {
+      "place": "jammu-and-kashmir/patnitop",
+      "topic": "Things to do",
+      "claim": "Paragliding in summer, a gondola from Sanget, skiing at Natha Top, and the 600-year-old Naag Mandir.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_PATNI",
+          "quote": "Paragliding bliss follows in summer"
+        },
+        {
+          "source": "II_PATNI",
+          "quote": "hop on a Skyview Gondola ride, soaring through the skies for an exhilarating journey from Sanget to Patnitop"
+        },
+        {
+          "source": "II_PATNI",
+          "quote": "from skiing down gentle slopes at Natha Top"
+        },
+        {
+          "source": "II_PATNI",
+          "quote": "The 600-year-old Naag Mandir in Patnitop"
+        }
+      ]
+    },
+    "SM1": {
+      "place": "jammu-and-kashmir/sonamarg",
+      "topic": "Setting",
+      "claim": "Sonamarg, 'meadow of gold', is at 2,730 m on the Sindh; the Z-Morh tunnel now gives it all-weather road access.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "GAN_SONA",
+          "quote": "Sonamarg, which means ‘meadow of gold’"
+        },
+        {
+          "source": "W_SONA",
+          "quote": "at an altitude of 2,730 metres (8,960 ft)"
+        },
+        {
+          "source": "W_ZMORH",
+          "quote": "However, now the tunnel provides all-weather connectivity to Sonamarg."
+        }
+      ]
+    },
+    "SM2": {
+      "place": "jammu-and-kashmir/sonamarg",
+      "topic": "Thajiwas",
+      "claim": "Private vehicles aren't allowed on the glacier road: hire a taxi or pony to Thajiwas Glacier.",
+      "claimType": "rule",
+      "evidence": [
+        {
+          "source": "GAN_SONA",
+          "quote": "Private vehicles are not allowed. Visitors have to hire taxi. Ponies can be hired for the trip up to Thajiwas glacier a major attraction during the summer months."
+        }
+      ]
+    },
+    "SM3": {
+      "place": "jammu-and-kashmir/sonamarg",
+      "topic": "Glacier safety",
+      "claim": "In May 2024 part of a glacier near Thajiwas collapsed and a tourist died — stay off unstable snow.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "W_SONA",
+          "quote": "On 25 May 2024, a section of a glacier near Thajiwas Glacier collapsed, leading to two tourists falling into a snow cavity created by the break, killing one."
+        }
+      ]
+    },
+    "SM4": {
+      "place": "jammu-and-kashmir/sonamarg",
+      "topic": "Treks and Baltal",
+      "claim": "Treks lead to Vishansar, Krishansar, Gangabal and Gadsar lakes; Baltal, 15 km east, is the Amarnath base camp.",
+      "claimType": "distance",
+      "evidence": [
+        {
+          "source": "GAN_SONA",
+          "quote": "From Sonamarg, trekking routes lead to the Himalayan lakes of Vishansar Lake, Krishansar Lake, Gangabal Lake and Gadsar Lake"
+        },
+        {
+          "source": "GAN_SONA",
+          "quote": "A close by excursion is to Baltal, 15 km east of Sonamarg."
+        }
+      ],
+      "kind": "estimate"
+    },
+    "SM5": {
+      "place": "jammu-and-kashmir/sonamarg",
+      "topic": "Getting there",
+      "claim": "Srinagar airport is about 102 km away.",
+      "claimType": "distance",
+      "evidence": [
+        {
+          "source": "GAN_SONA",
+          "quote": "The nearest airport to Sonamarg is Srinagar Airport (SXR) which is at a distance of about 102 kms."
+        }
+      ],
+      "kind": "estimate"
+    },
+    "DP1": {
+      "place": "jammu-and-kashmir/doodhpathri",
+      "topic": "Setting",
+      "claim": "Doodhpathri, 'valley of milk', is a bowl of meadows at 8,957 ft in Budgam's Pir Panjal, about 42 km from Srinagar.",
+      "claimType": "distance",
+      "evidence": [
+        {
+          "source": "BUD_DOODH",
+          "quote": "Doodhpathri, meaning “Valley of Milk,”"
+        },
+        {
+          "source": "BUD_DOODH",
+          "quote": "Located at an impressive altitude of 8,957 feet above sea level"
+        },
+        {
+          "source": "BUD_DOODH",
+          "quote": "just 42 kilometers from Srinagar"
+        }
+      ],
+      "kind": "estimate"
+    },
+    "DP2": {
+      "place": "jammu-and-kashmir/doodhpathri",
+      "topic": "Season",
+      "claim": "There are no permanent settlements; snow makes it inaccessible in winter, and shepherds graze it in summer.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "W_DOODH",
+          "quote": "Doodhpathri does not have any permanent settlements, and during the winter months, it is inaccessible due to the severe snowfall."
+        },
+        {
+          "source": "BUD_DOODH",
+          "quote": "During the summer, the valley becomes a temporary home for local shepherds who bring their cattle for grazing."
+        }
+      ],
+      "kind": "seasonal"
+    },
+    "YM1": {
+      "place": "jammu-and-kashmir/yusmarg",
+      "topic": "Setting",
+      "claim": "Yusmarg's meadows are 47 km from Srinagar, with treks to Sang-e-Safed and Nilnag Lake and the Charar-e-Sharif shrine on the way.",
+      "claimType": "distance",
+      "evidence": [
+        {
+          "source": "BUD_YUS",
+          "quote": "Located just 47 kilometers from Srinagar"
+        },
+        {
+          "source": "BUD_YUS",
+          "quote": "trekking trails that lead to exotic spots like Sang-e-Safed Valley and Nilnag Lake"
+        },
+        {
+          "source": "BUD_YUS",
+          "quote": "Yusmarg is also home to the revered Charar-e-Sharif shrine"
+        }
+      ],
+      "kind": "estimate"
+    },
+    "GZ1": {
+      "place": "jammu-and-kashmir/gurez-valley",
+      "topic": "Setting",
+      "claim": "Gurez, at about 2,400 m on the Line of Control, is cut off for six months a year when snow closes the Razdan Pass; Dawar is the main town and Habba Khatoon its famous peak.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "W_GUREZ",
+          "quote": "At about 2,400 metres (8,000 ft) above sea level, the valley is surrounded by snow-capped mountains."
+        },
+        {
+          "source": "W_GUREZ",
+          "quote": "Gurez lies near the Line of Control"
+        },
+        {
+          "source": "W_GUREZ",
+          "quote": "Due to heavy snowfall and closure of Razdan Pass in winter, Gurez remains cut off for six months of the year"
+        },
+        {
+          "source": "W_GUREZ",
+          "quote": "Dawar is the central township in the area."
+        }
+      ],
+      "kind": "seasonal"
+    },
+    "GL1": {
+      "place": "jammu-and-kashmir/gulmarg",
+      "topic": "Distance",
+      "claim": "Gulmarg is 60 km from Srinagar, about 1.5 hours by car; the airport is about 54 km.",
+      "claimType": "distance",
+      "evidence": [
+        {
+          "source": "BAR_GUL",
+          "quote": "Gulmarg is located 60 KMs away from Srinagar which is an hour and half journey by car."
+        },
+        {
+          "source": "BAR_GUL",
+          "quote": "Distance is near about 54 KM to visit Gulmarg"
+        }
+      ],
+      "kind": "estimate"
+    },
+    "PH5": {
+      "place": "jammu-and-kashmir/pahalgam",
+      "topic": "Getting there",
+      "claim": "Pahalgam is about 96 km from Srinagar airport; state and private buses run from Jammu, Srinagar and Anantnag.",
+      "claimType": "distance",
+      "evidence": [
+        {
+          "source": "ANT_PAH",
+          "quote": "which is located 96 km from Srinagar airport"
+        },
+        {
+          "source": "ANT_PAH",
+          "quote": "State bus services and private buses are available from Jammu, Srinagar and Anantnag."
+        }
+      ],
+      "kind": "estimate"
+    },
+    "KK1": {
+      "place": "jammu-and-kashmir/kokernag",
+      "topic": "Springs and trout",
+      "claim": "Kokernag, in Anantnag's Breng valley, is known for its botanical garden, springs and trout farm; it is 76 km from Srinagar.",
+      "claimType": "distance",
+      "evidence": [
+        {
+          "source": "W_KOK",
+          "quote": "The place is known for its botanical gardens, pristine freshwater springs, and rainbow trout farm."
+        },
+        {
+          "source": "ANT_KOK",
+          "quote": "Kokernag is 10 Kms from Anantnag, 54 Kms from Pahalgam, 76 Kms from Srinagar, 247 Kms from Jammu."
+        }
+      ],
+      "kind": "estimate"
+    },
+    "VN1": {
+      "place": "jammu-and-kashmir/verinag",
+      "topic": "Source of the Jhelum",
+      "claim": "Verinag's deep-blue spring, enclosed by Jahangir in an octagonal tank, is held to be the source of the Jhelum; Jahangir wished to be buried here.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "W_VER",
+          "quote": "is considered the source of the Jhelum River"
+        },
+        {
+          "source": "ANT_VER",
+          "quote": "An octagonal pavement has been raised around the spring by the Emperor Jehangir."
+        },
+        {
+          "source": "ANT_VER",
+          "quote": "he wished to be buried at Verinag"
+        }
+      ]
+    },
+    "VN2": {
+      "place": "jammu-and-kashmir/verinag",
+      "topic": "Getting there",
+      "claim": "Verinag is about 26 km from Anantnag and 85 km from Srinagar airport.",
+      "claimType": "distance",
+      "evidence": [
+        {
+          "source": "ANT_VER",
+          "quote": "is about 26 Kms away from Anantnag Town"
+        },
+        {
+          "source": "ANT_VER",
+          "quote": "which is located 85 km from Srinagar airport"
+        }
+      ],
+      "kind": "estimate"
+    },
+    "AC1": {
+      "place": "jammu-and-kashmir/achabal",
+      "topic": "Mughal garden",
+      "claim": "Achabal's spring feeds a terraced Mughal garden in three channels with fountains; the upper part was laid out by Nur Jahan in 1616, and there's a trout hatchery nearby.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "ANT_ACH",
+          "quote": "The water of this spring which flows through this garden in three channels, is beautifying and ornamenting this terraced garden beyond imagination."
+        },
+        {
+          "source": "W_ACH",
+          "quote": "developed by Malika Noor Jehan Begum in 1616 AD"
+        },
+        {
+          "source": "W_ACH",
+          "quote": "A trout hatchery is also located nearby."
+        }
+      ]
+    },
+    "AC2": {
+      "place": "jammu-and-kashmir/achabal",
+      "topic": "Getting there",
+      "claim": "Achabal is 9 km from Anantnag and about 67 km from Srinagar airport.",
+      "claimType": "distance",
+      "evidence": [
+        {
+          "source": "ANT_ACH",
+          "quote": "at a distance of 09 Kms from the district headquarter"
+        },
+        {
+          "source": "ANT_ACH",
+          "quote": "The nearest airport to Achabal is Srinagar Airport (SXR) at about 67 kms"
+        }
+      ],
+      "kind": "estimate"
+    },
+    "AH1": {
+      "place": "jammu-and-kashmir/aharbal",
+      "topic": "The falls",
+      "claim": "At Aharbal (2,266 m) the Veshaw drops about 25 m — the 'Niagara of Kashmir'; the fenced terraces are slippery.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "W_AHAR",
+          "quote": "It lies at an altitude of 2266 metres above sea level."
+        },
+        {
+          "source": "KUL_AHAR",
+          "quote": "after the 25 metre fall"
+        },
+        {
+          "source": "W_AHAR",
+          "quote": "The terraces near the falls are fenced, but caution is still required to avoid slipping."
+        }
+      ]
+    },
+    "AH2": {
+      "place": "jammu-and-kashmir/aharbal",
+      "topic": "Kousarnag trek",
+      "claim": "A three-day trek runs from Aharbal to Kousarnag lake, the source of the Veshaw.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "KUL_KOUS",
+          "quote": "Aharbal to Kousarnag, via Kungwattan and Mahinag is a major trek route, spanning 3 days."
+        }
+      ]
+    },
+    "AH3": {
+      "place": "jammu-and-kashmir/aharbal",
+      "topic": "Getting there",
+      "claim": "Kulgam is 68 km from Srinagar; buses run from Srinagar, and taxis go on to Aharbal.",
+      "claimType": "distance",
+      "evidence": [
+        {
+          "source": "KUL_AHAR",
+          "quote": "Kulgam 68km away from srinagar."
+        },
+        {
+          "source": "KUL_AHAR",
+          "quote": "There are regular buses from Srinagar to Kulgam."
+        }
+      ],
+      "kind": "estimate"
+    },
+    "DK1": {
+      "place": "jammu-and-kashmir/daksum",
+      "topic": "Setting",
+      "claim": "Daksum is a forest beauty spot in Anantnag on the road over Sinthan Top to Kishtwar.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "W_DAK",
+          "quote": "Daksum Is a natural scenic spot located in the Larnoo tehsil of Anantnag district"
+        },
+        {
+          "source": "KIS_SIN",
+          "quote": "From Synthen top, the descending road leads to Daksum, a health resort of Anantnag district in the Kashmir valley."
+        }
+      ]
+    },
+    "DK2": {
+      "place": "jammu-and-kashmir/daksum",
+      "topic": "Sinthan Top",
+      "claim": "Sinthan Top, at 3,784 m, is the pass between Daksum and Kishtwar.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "KIS_SIN",
+          "quote": "24 kilometers ahead of Synthen Maidan is the Synthen Top at an altitude of 3784 meters from sea level."
+        }
+      ]
+    },
+    "MB1": {
+      "place": "jammu-and-kashmir/manasbal",
+      "topic": "Lake",
+      "claim": "Manasbal, about 30 km from Srinagar, is one of India's deepest lakes, with July–August lotus blooms, birdlife and Nur Jahan's Jaroka garden.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "GAN_MANAS",
+          "quote": "It is located about 30 km from Srinagar"
+        },
+        {
+          "source": "W_MANAS",
+          "quote": "It's renowned for its lotus blooms ( Nelumbo nucifera ) at the periphery of the lake (blooms during July and August)"
+        },
+        {
+          "source": "W_MANAS",
+          "quote": "The Mughal garden , called the Jaroka Bagh (meaning bay window), built by Nur Jahan , overlooks the lake."
+        },
+        {
+          "source": "W_MANAS",
+          "quote": "The lake is a popular place for birdwatching"
+        }
+      ],
+      "kind": "seasonal"
+    },
+    "WL1": {
+      "place": "jammu-and-kashmir/wular-lake",
+      "topic": "Lake",
+      "claim": "Wular, near Bandipora, is one of the subcontinent's largest freshwater lakes, fed by the Jhelum; it has the island of Zaina Lank and is a sunset spot.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "W_WULAR",
+          "quote": "is one of the largest freshwater lakes in the Indian subcontinent"
+        },
+        {
+          "source": "BAR_WUL",
+          "quote": "Main source of water for Wular Lake is River Jhelum. This lake also has a small island in its centre called the ‘Zaina Lank’."
+        },
+        {
+          "source": "BAR_WUL",
+          "quote": "This island was constructed by King Zainul-Abi-Din."
+        },
+        {
+          "source": "BAR_WUL",
+          "quote": "The premises of this lake also form a popular sunset point."
+        }
+      ]
+    },
+    "WL2": {
+      "place": "jammu-and-kashmir/wular-lake",
+      "topic": "Size and access",
+      "claim": "The lake varies seasonally from 30 to 189 sq km; Srinagar airport is about 62 km, roughly 2 hours.",
+      "claimType": "distance",
+      "evidence": [
+        {
+          "source": "W_WULAR",
+          "quote": "The lake's size varies seasonally from 30 to 189 square kilometres."
+        },
+        {
+          "source": "BAR_WUL",
+          "quote": "It takes 2hrs and 10mins and near about 62.3 kms"
+        }
+      ],
+      "kind": "estimate"
+    },
+    "NN1": {
+      "place": "jammu-and-kashmir/naranag",
+      "topic": "Temples and treks",
+      "claim": "Naranag, 16 km from Kangan, has ancient temple ruins and is the base for treks to Gangabal Lake and Mount Haramukh.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "W_NARA",
+          "quote": "Well known for its ancient temple ruins complex , it is located around 16 km from Kangan"
+        },
+        {
+          "source": "W_NARA",
+          "quote": "it is a base camp for trekking to the Mount Haramukh 16,870 ft (5,142 meters) and Gangabal Lake"
+        }
+      ]
+    },
+    "LB1": {
+      "place": "jammu-and-kashmir/lolab-valley",
+      "topic": "Valley",
+      "claim": "Lolab, an oval valley about 26 km long in Kupwara, is covered with deodar and fruit orchards; it borders the Line of Control.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "W_LOLAB",
+          "quote": "The valley is oval-shaped, 15 miles (26 km) long"
+        },
+        {
+          "source": "W_LOLAB",
+          "quote": "is covered with dense forests of deodar , kair , budul, pine , and fir"
+        },
+        {
+          "source": "W_LOLAB",
+          "quote": "Lolab Valley is adjacent to Kishenganga Valley , and separated by the Line of Control ."
+        }
+      ]
+    },
+    "LB2": {
+      "place": "jammu-and-kashmir/lolab-valley",
+      "topic": "Getting there",
+      "claim": "Baramulla is the railhead, 64 km from Kupwara; buses from Srinagar take about four hours for 114 km.",
+      "claimType": "distance",
+      "evidence": [
+        {
+          "source": "KUP_LOLAB",
+          "quote": "The nearest railhead is at Baramullah for Kupwara which 64 Kms away."
+        },
+        {
+          "source": "KUP_LOLAB",
+          "quote": "The distance of 114 Km is covered in four hours because of the rocky terrain."
+        }
+      ],
+      "kind": "estimate"
+    },
+    "BG1": {
+      "place": "jammu-and-kashmir/bangus-valley",
+      "topic": "Valley",
+      "claim": "Bangus, about 100 km from Srinagar at 10,000 ft in Kupwara, is a 300-sq-km bowl of meadow and conifer forest, reached from Handwara or Kupwara.",
+      "claimType": "distance",
+      "evidence": [
+        {
+          "source": "W_BANGUS",
+          "quote": "Bangus is about 100 kilometres (62 mi) from Srinagar at an altitude of 10,000 feet (3,000 m) ."
+        },
+        {
+          "source": "KUP_BANGUS",
+          "quote": "Occupying an estimated area of 300 sq.kms"
+        },
+        {
+          "source": "W_BANGUS",
+          "quote": "It has got two ways, one from Kupwara side which is 42 kms away from main town Kupwara and other from handwara side which is 29 kms respectively."
+        }
+      ],
+      "kind": "estimate"
+    },
+    "PK1": {
+      "place": "jammu-and-kashmir/peer-ki-gali",
+      "topic": "The pass",
+      "claim": "Peer Ki Gali, at 3,490 m, is the highest point of the Mughal Road between Shopian and Poonch.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "W_PKG",
+          "quote": "It is the highest point on the Mughal road at 3,490 m (11,450 ft)"
+        },
+        {
+          "source": "POO_MUGHAL",
+          "quote": "Mughal road is 84km from Bafiaz to Shopian."
+        }
+      ]
+    },
+    "PK2": {
+      "place": "jammu-and-kashmir/peer-ki-gali",
+      "topic": "Distances",
+      "claim": "It is 41 km from Shopian and 43 km from Buffliaz in Poonch.",
+      "claimType": "distance",
+      "evidence": [
+        {
+          "source": "POO_MUGHAL",
+          "quote": "which is 43km away from Buffliaz Poonch and 41km from Shopian"
+        }
+      ],
+      "kind": "estimate"
+    },
+    "BW1": {
+      "place": "jammu-and-kashmir/bhaderwah",
+      "topic": "Town",
+      "claim": "Bhaderwah (Bhadarkashi) in Doda district is the base for Jai Valley (25 km) and Padri pass (32 km).",
+      "claimType": "distance",
+      "evidence": [
+        {
+          "source": "W_BHAD",
+          "quote": "Bhaderwah (also spelled Bhadarwah , locally also known as Bhadarkashi ) is a town and a tehsil in the Doda district"
+        },
+        {
+          "source": "DOD_JAI",
+          "quote": "By road it is 25 Km away from Bhaderwah"
+        },
+        {
+          "source": "DOD_PADRI",
+          "quote": "By road it is 32 Km away from Bhaderwah"
+        }
+      ],
+      "kind": "estimate"
+    },
+    "BW2": {
+      "place": "jammu-and-kashmir/bhaderwah",
+      "topic": "Jai and Padri",
+      "claim": "Jai Valley has tented and igloo-hut stays; Padri, the highest pass on the Bhaderwah–Chamba road, has skiing in winter and paragliding in summer.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "DOD_JAI",
+          "quote": "The stay facility for the tourists is available as “HOLIDAY VILLAGE” built by way of colorfull tented accomodation and the well designed Igloo Huts."
+        },
+        {
+          "source": "DOD_PADRI",
+          "quote": "is ideal for adventure sports like Snow-skiing in winters and Paragliding in summers"
+        },
+        {
+          "source": "DOD_PADRI",
+          "quote": "The visitor must carry woolens to enjoy the beauty of Padri even in summers."
+        }
+      ]
+    },
+    "SN1": {
+      "place": "jammu-and-kashmir/sanasar",
+      "topic": "Meadows",
+      "claim": "Sanasar, at 2,050 m and 20 km west of Patnitop, is the Jammu region's adventure-sports hub, known for paragliding.",
+      "claimType": "distance",
+      "evidence": [
+        {
+          "source": "W_SANA",
+          "quote": "are located 20 kilometres (12 mi) west of Patnitop"
+        },
+        {
+          "source": "W_SANA",
+          "quote": "At an altitude of 2,050 metres (6,730 ft) , it is the hub for adventure and sport activities in the Jammu region."
+        },
+        {
+          "source": "II_JMU",
+          "quote": "If you want to go paragliding, then Sanasar is the place for you."
+        }
+      ],
+      "kind": "estimate"
+    },
+    "MS1": {
+      "place": "jammu-and-kashmir/mansar-lake",
+      "topic": "Twin lakes",
+      "claim": "Mansar Lake, 62 km from Jammu, and Surinsar, 9 km away, are a Ramsar site; Mansar is sacred, with a Shesha shrine on its east bank.",
+      "claimType": "distance",
+      "evidence": [
+        {
+          "source": "W_MANSAR",
+          "quote": "62 km (39 mi) from the city of Jammu"
+        },
+        {
+          "source": "W_MANSAR",
+          "quote": "Surinsar-Mansar Lakes were designated as Ramsar Convention sites in November 2005."
+        },
+        {
+          "source": "W_SURIN",
+          "quote": "Mansar is located 9 km (5.6 mi) away from it"
+        },
+        {
+          "source": "W_MANSAR",
+          "quote": "On the Eastern Bank of the Lake, there is a shrine to Shesha"
+        }
+      ],
+      "kind": "estimate"
+    },
+    "KW1": {
+      "place": "jammu-and-kashmir/kishtwar",
+      "topic": "Town",
+      "claim": "Kishtwar, about 210 km from both Srinagar and Jammu, centres on its Chowgan ground and is the road head for Paddar and Machail.",
+      "claimType": "distance",
+      "evidence": [
+        {
+          "source": "W_KISH",
+          "quote": "is situated at a distance of 209.5 km (130.2 mi) from the summer capital of Srinagar , and 211.5 km (131.4 mi) from the winter capital of Jammu"
+        },
+        {
+          "source": "W_KISH",
+          "quote": "A large ground locally called as Chowgan ground is located in the heart of the town."
+        }
+      ],
+      "kind": "estimate"
+    },
+    "KW2": {
+      "place": "jammu-and-kashmir/kishtwar",
+      "topic": "Rail",
+      "claim": "Udhampur (166 km) and Jammu Tawi (240 km) are the nearest stations.",
+      "claimType": "distance",
+      "evidence": [
+        {
+          "source": "KIS_SIN",
+          "quote": "The nearest rail head is at Udhampur (166 Kms), and another rail head is at Jammu Tawi (240 Kms)"
+        }
+      ],
+      "kind": "estimate"
+    },
+    "DK3": {
+      "place": "jammu-and-kashmir/daksum",
+      "topic": "Getting there",
+      "claim": "Srinagar airport is about 135 km from Sinthan Top.",
+      "claimType": "distance",
+      "evidence": [
+        {
+          "source": "KIS_SIN",
+          "quote": "The nearest airport to Sinthan Top is at Srinagar (135.5 Kms)"
+        }
+      ],
+      "kind": "estimate"
+    },
+    "SN2": {
+      "place": "jammu-and-kashmir/sanasar",
+      "topic": "Shankh Pal temple",
+      "claim": "The 400-year-old Shankh Pal temple, built without mortar, stands at 2,897 m on the ridge above Sanasar, a few hours' walk away.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "W_SANA",
+          "quote": "The Shank Pal Temple is located at the highest point of the Shank Pal ridge, at an altitude of 2,897 metres (9,505 ft)"
+        },
+        {
+          "source": "W_SANA",
+          "quote": "The 400-year-old temple is dedicated to Nag Shankh Pal. No mortar was used to join the stones of the temple."
+        }
+      ]
+    },
+    "MS2": {
+      "place": "jammu-and-kashmir/mansar-lake",
+      "topic": "Surinsar island",
+      "claim": "Surinsar has a small island in the middle that is home to thousands of bats.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "W_SURIN",
+          "quote": "A small island is at the middle of the lake."
+        },
+        {
+          "source": "W_SURIN",
+          "quote": "This island is home to thousands of bats."
+        }
+      ]
+    },
+    "PT3": {
+      "place": "jammu-and-kashmir/patnitop",
+      "topic": "Old temples and steps",
+      "claim": "Sudh Mahadev temple is believed to be about 2,800 years old; Billo ki Powri is a 270-step stairway cut into the mountain.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_PATNI",
+          "quote": "Sudh Mahadev, an ancient temple in Patnitop, is believed to be around 2,800 years old."
+        },
+        {
+          "source": "II_PATNI",
+          "quote": "Billo ki Powri is a staircase consisting of 270 steps carved out of the mountain in Dawariyai near Patnitop."
+        }
+      ]
+    },
+    "YM2": {
+      "place": "jammu-and-kashmir/yusmarg",
+      "topic": "Peaks and snow",
+      "claim": "Peaks such as Tattakutti (4,725 m) and Sunset Peak (4,746 m) rise above Yusmarg, and its slopes are skied in winter.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "BUD_YUS",
+          "quote": "including Tattakutti (4,725 m) and Sunset Peak (4,746 m)"
+        },
+        {
+          "source": "BUD_YUS",
+          "quote": "In the winter months, the region transforms into a skiing hotspot"
+        }
+      ],
+      "kind": "seasonal"
+    },
+    "BW3": {
+      "place": "jammu-and-kashmir/bhaderwah",
+      "topic": "Jai Valley trout and hostel",
+      "claim": "Jai's stream is known for trout, and a youth hostel takes about 150 trekkers.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "DOD_JAI",
+          "quote": "The Jai nallah is popular for Trout Fish Culture."
+        },
+        {
+          "source": "DOD_JAI",
+          "quote": "a Youth Hostel which accomodates around 150 guests"
+        }
+      ]
     }
   },
   "places": [
+    {
+      "key": "jammu-and-kashmir",
+      "kind": "state",
+      "name": "Jammu and Kashmir",
+      "summary": "Srinagar's Dal Lake and Mughal gardens, Gulmarg and Pahalgam, south Kashmir's springs, Jammu's temples and the Vaishno Devi and Amarnath pilgrimages — check travel advisories first.",
+      "seoTitle": "Jammu and Kashmir Travel Guide: Valleys, Lakes & Advisories",
+      "seoDescription": "Plan Jammu and Kashmir: Srinagar, Gulmarg, Pahalgam and Sonamarg, south Kashmir's springs, Jammu and Katra, the train to Srinagar, current advisories and closures.",
+      "lat": 34.0911,
+      "lng": 74.8061,
+      "wikidataId": "Q66278313",
+      "tripTypes": [
+        "mountains",
+        "nature",
+        "spiritual"
+      ],
+      "images": [
+        {
+          "commons": "File:Dal Lake Hazratbal Srinagar.jpg",
+          "alt": "Boatmen paddling across a still Dal Lake below snow-covered mountains",
+          "caption": "Dal Lake, Srinagar",
+          "hero": true
+        }
+      ],
+      "sections": {
+        "key_facts": {
+          "items": [
+            {
+              "title": "Capitals",
+              "body": "Srinagar (summer) and Jammu (winter)",
+              "status": "verified"
+            },
+            {
+              "title": "Divisions",
+              "body": "Kashmir and Jammu; 20 districts",
+              "status": "verified"
+            },
+            {
+              "title": "Airports",
+              "body": "Srinagar and Jammu",
+              "status": "verified"
+            },
+            {
+              "title": "Rail",
+              "body": "Katra–Srinagar trains since June 2025",
+              "status": "verified"
+            },
+            {
+              "title": "Phones",
+              "body": "Prepaid SIMs from other states don't work",
+              "status": "verified"
+            },
+            {
+              "title": "Advisory",
+              "body": "UK FCDO: against all travel except Jammu city",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "JS1",
+            "SX1",
+            "JM1",
+            "JS9",
+            "JS10",
+            "JS8",
+            "JS4"
+          ]
+        },
+        "overview": {
+          "text": "Jammu and Kashmir is a union territory of two halves, north of Himachal Pradesh and Punjab and west of Ladakh. The Kashmir Valley, about 1,850 m up and walled in by the Pir Panjal, has Srinagar, its summer capital, with Dal Lake, shikaras and Mughal gardens, and the mountain resorts of Gulmarg, Pahalgam and Sonamarg. The Jammu region, on the Chenab, Tawi and Ravi, has Jammu city — the winter capital and the city of temples — and Katra, the base for the Vaishno Devi pilgrimage.\n\nTravel has changed recently. Since June 2025 trains run from Katra to Srinagar over the Chenab bridge, the highest rail arch bridge in the world, and road tunnels at Patnitop, Banihal and Z-Morh shorten the mountain roads. Security has changed too: after the April 2025 attack near Pahalgam many sites closed, and most reopened in 2026. The UK government still advises against all travel outside Jammu city, so check your own government's advice and your insurance before planning.\n\nBeyond the famous resorts are Mughal spring gardens at Achabal, Kokernag and Verinag, the Aharbal falls, lakes such as Manasbal and Wular, and, in the Jammu hills, Patnitop, Sanasar and Bhaderwah.",
+          "facts": [
+            "JS1",
+            "JS2",
+            "SX1",
+            "SX2",
+            "JM1",
+            "KT1",
+            "JS10",
+            "JS11",
+            "SX_ATK",
+            "JS6",
+            "JS4",
+            "AC1",
+            "KK1",
+            "VN1",
+            "AH1",
+            "MB1",
+            "WL1",
+            "PT1",
+            "SN1",
+            "BW1"
+          ]
+        },
+        "safety_health": {
+          "items": [
+            {
+              "title": "UK travel advice (checked Nov 2026)",
+              "body": "The FCDO advises against all travel to Jammu and Kashmir — including Srinagar, Gulmarg, Pahalgam, Sonamarg and the Jammu–Srinagar highway — except flying to and within Jammu city. It warns of a continuing terrorist threat, including to tourists.",
+              "status": "verified"
+            },
+            {
+              "title": "Curfews and help",
+              "body": "Restrictions and curfews can be imposed quickly; British consular help in J&K is severely limited.",
+              "status": "verified"
+            },
+            {
+              "title": "Closures",
+              "body": "Many sites closed after the 22 April 2025 attack. 14 reopened in February 2026, with Gurez and Bangus after snow clearance; Baisaran and Chandanwari were still closed in April 2026.",
+              "status": "seasonal"
+            },
+            {
+              "title": "Glaciers",
+              "body": "Stay off unstable snow — in May 2024 part of a glacier near Thajiwas collapsed and a tourist died.",
+              "status": "verified"
+            },
+            {
+              "title": "Emergency",
+              "body": "Dial 112 for police, fire or ambulance.",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "JS4",
+            "JS5",
+            "SX_ATK",
+            "JS6",
+            "JS7",
+            "SM3",
+            "SX_112"
+          ]
+        },
+        "highlights": {
+          "items": [
+            {
+              "body": "Tulip Garden, Srinagar — Asia's largest, in spring.",
+              "status": "seasonal"
+            },
+            {
+              "body": "Amarnath Yatra — July–August; pre-registration required.",
+              "status": "seasonal"
+            },
+            {
+              "body": "Machail Mata Yatra, Kishtwar — from August.",
+              "status": "seasonal"
+            },
+            {
+              "body": "Manasbal's lotus — July–August.",
+              "status": "seasonal"
+            },
+            {
+              "body": "Skiing at Gulmarg — winter.",
+              "status": "seasonal"
+            },
+            {
+              "body": "Shivratri fair at Shiv Khori — three days.",
+              "status": "seasonal"
+            }
+          ],
+          "facts": [
+            "JS15",
+            "SX7",
+            "JS13",
+            "JS20",
+            "MB1",
+            "GU3",
+            "KT3"
+          ]
+        },
+        "regions": {
+          "items": [
+            {
+              "title": "Srinagar and Dal Lake",
+              "body": "Houseboats, shikaras, the Mughal gardens and the Tulip Garden; Manasbal and Wular lakes to the north.",
+              "status": "verified"
+            },
+            {
+              "title": "North Kashmir",
+              "body": "Gulmarg's gondola and slopes; Lolab and Bangus valleys and Gurez near the Line of Control.",
+              "status": "verified"
+            },
+            {
+              "title": "Sonamarg and the Sindh valley",
+              "body": "Sonamarg, Thajiwas glacier and Naranag, the base for Gangabal.",
+              "status": "verified"
+            },
+            {
+              "title": "South Kashmir",
+              "body": "Pahalgam and the Lidder valley, the springs of Achabal, Kokernag and Verinag, Aharbal falls, Daksum and the Mughal Road over Peer Ki Gali.",
+              "status": "verified"
+            },
+            {
+              "title": "Budgam meadows",
+              "body": "Doodhpathri and Yusmarg, an hour or so from Srinagar.",
+              "status": "verified"
+            },
+            {
+              "title": "Jammu and the Shivaliks",
+              "body": "Jammu's temples and palaces, Katra and Vaishno Devi, the Mansar and Surinsar lakes.",
+              "status": "verified"
+            },
+            {
+              "title": "Chenab hills",
+              "body": "Patnitop and Sanasar, Bhaderwah, and Kishtwar's Paddar valley.",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "SX2",
+            "JS15",
+            "MB1",
+            "WL1",
+            "GU2",
+            "LB1",
+            "BG1",
+            "GZ1",
+            "SM1",
+            "NN1",
+            "PH1",
+            "AC1",
+            "KK1",
+            "VN1",
+            "AH1",
+            "DK1",
+            "PK1",
+            "DP1",
+            "YM1",
+            "JM1",
+            "KT1",
+            "MS1",
+            "PT1",
+            "SN1",
+            "BW1",
+            "KW1"
+          ]
+        },
+        "how_to_reach": {
+          "text": "By air: Srinagar's airport is about 12 km from the city and Jammu's about 8 km.\n\nBy rail: since June 2025 trains run all the way from Katra to Srinagar across the Chenab bridge, and the Jammu–Baramulla line links the Kashmir Valley to the national network. For Amarnath, Srinagar station serves the Baltal route and Anantnag the Pahalgam route.\n\nBy road: the Jammu–Srinagar highway runs through the Patnitop (Chenani–Nashri) and Banihal–Qazigund tunnels. The Mughal Road over Peer Ki Gali links Poonch and Rajouri with Shopian but closes with winter snow. The UK FCDO advises against all travel on the Jammu–Srinagar highway.",
+          "facts": [
+            "JS9",
+            "JS10",
+            "SX6",
+            "JS13",
+            "JS11",
+            "JS12",
+            "JS4"
+          ]
+        },
+        "best_time": {
+          "text": "Spring: the Tulip Garden in Srinagar flowers, and much of the valley's rain falls now, not in the monsoon.\n\nSummer: the high meadows open — Doodhpathri and Gurez are cut off by snow in winter — and July–August is the Amarnath Yatra season, with Manasbal's lotus in bloom. Jammu is very hot, with highs up to 46°C.\n\nWinter: Gulmarg is India's best-known ski resort. Gurez is cut off for about six months when snow closes the Razdan Pass, and the Mughal Road closes with snow.",
+          "facts": [
+            "JS15",
+            "JS3",
+            "DP2",
+            "GZ1",
+            "JS13",
+            "MB1",
+            "JM5",
+            "GU3",
+            "JS12"
+          ]
+        },
+        "things_to_do": {
+          "items": [
+            {
+              "body": "Take a shikara on Dal Lake and stay on a houseboat."
+            },
+            {
+              "body": "Walk the Mughal gardens — Shalimar, Nishat, and the spring gardens of Achabal and Verinag."
+            },
+            {
+              "body": "Ride the Gulmarg gondola, and ski there in winter."
+            },
+            {
+              "body": "See Aharbal falls and trek on to Kousarnag."
+            },
+            {
+              "body": "Make the Vaishno Devi yatra from Katra — register for an RFID card first."
+            },
+            {
+              "body": "Visit Jammu's Raghunath Temple, Bahu Fort and Amar Mahal."
+            },
+            {
+              "body": "Paraglide at Sanasar or Patnitop."
+            },
+            {
+              "body": "Eat a Wazwan feast and drink noon chai."
+            }
+          ],
+          "facts": [
+            "JS19",
+            "DL4",
+            "SX2",
+            "AC1",
+            "VN1",
+            "GU2",
+            "GU3",
+            "AH1",
+            "AH2",
+            "JS14",
+            "JM2",
+            "JM3",
+            "JM4",
+            "SN1",
+            "PT2",
+            "JS16"
+          ]
+        },
+        "food": {
+          "items": [
+            {
+              "body": "Wazwan — Kashmir's feast for weddings and Eid; rogan josh, yakhni and gushtaba."
+            },
+            {
+              "body": "Noon chai, the pink salted tea, and kahwa."
+            },
+            {
+              "body": "Rajma chawal — Jammu's speciality."
+            },
+            {
+              "body": "Kaladi, the local cheese from Ramnagar."
+            },
+            {
+              "body": "Khatta meat and kachaloo chaat in the Jammu hills."
+            }
+          ],
+          "facts": [
+            "JS16",
+            "SX9",
+            "JS17"
+          ]
+        },
+        "shopping": {
+          "items": [
+            {
+              "body": "Pashmina, from the wool of Changthangi goats."
+            },
+            {
+              "body": "Namdas — embroidered felt rugs — and carpets."
+            },
+            {
+              "body": "Kashmiri shawls and embroidered dress fabric."
+            },
+            {
+              "body": "Walnut-wood carving from Jammu's markets."
+            }
+          ],
+          "facts": [
+            "JS18"
+          ]
+        },
+        "practical_info": {
+          "items": [
+            {
+              "title": "Visas",
+              "body": "Apply for an e-Tourist visa at least 4 days before arrival; your passport needs at least six months' validity.",
+              "status": "verified"
+            },
+            {
+              "title": "Phones",
+              "body": "Prepaid SIMs from other Indian states don't work in J&K — bring a postpaid connection.",
+              "status": "verified"
+            },
+            {
+              "title": "Payments",
+              "body": "Visitors can pay by QR code with NPCI's UPI One World wallet after a passport-and-visa KYC check.",
+              "status": "verified"
+            },
+            {
+              "title": "Pilgrimages",
+              "body": "Vaishno Devi needs an RFID Yatra Access Card; Amarnath needs pre-registration months ahead.",
+              "status": "verified"
+            },
+            {
+              "title": "Emergency",
+              "body": "Dial 112 for police, fire or ambulance.",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "SX_VISA",
+            "JS8",
+            "SX_UPI",
+            "JS14",
+            "JS13",
+            "SX_112"
+          ]
+        },
+        "travel_tips": {
+          "items": [
+            {
+              "body": "Check your government's travel advice and your insurance before booking."
+            },
+            {
+              "body": "Bring a postpaid SIM — prepaid ones from other states won't work."
+            },
+            {
+              "body": "Ask locally before heading to a meadow or valley: some sites were still closed in 2026."
+            },
+            {
+              "body": "Take the train to Srinagar from Katra rather than the long highway drive."
+            }
+          ],
+          "facts": [
+            "JS4",
+            "JS8",
+            "JS6",
+            "JS7",
+            "JS10"
+          ]
+        },
+        "faqs": {
+          "items": [
+            {
+              "title": "Is it safe to visit Jammu and Kashmir?",
+              "body": "Many Indian and foreign tourists visit, but the UK FCDO advises against all travel to J&K except flying to and staying within Jammu city, citing a continuing terrorist threat. Check your own government's advice and your insurance."
+            },
+            {
+              "title": "Is Baisaran open?",
+              "body": "It was still closed in April 2026, as was Chandanwari. Ask in Pahalgam before you go."
+            },
+            {
+              "title": "Can I take a train to Srinagar?",
+              "body": "Yes — since June 2025 trains run from Katra to Srinagar over the Chenab bridge."
+            },
+            {
+              "title": "Will my prepaid SIM work?",
+              "body": "No. Prepaid connections from other Indian states don't work in J&K; use a postpaid connection."
+            },
+            {
+              "title": "Do I need to register for Amarnath or Vaishno Devi?",
+              "body": "Yes. Amarnath pilgrims pre-register months in advance; Vaishno Devi pilgrims must register and carry an RFID Yatra Access Card."
+            },
+            {
+              "title": "When is the Tulip Garden open?",
+              "body": "It flowers in spring; Srinagar holds its Tulip Festival then."
+            }
+          ],
+          "facts": [
+            "JS4",
+            "JS7",
+            "JS10",
+            "JS8",
+            "JS13",
+            "JS14",
+            "JS15",
+            "SX7"
+          ]
+        }
+      }
+    },
     {
       "key": "jammu-and-kashmir/srinagar",
       "kind": "city",
@@ -1216,6 +3324,12 @@
             "GU_ADV",
             "GU_ATK"
           ]
+        },
+        "how_to_reach": {
+          "text": "Gulmarg is 60 km from Srinagar, about an hour and a half by car; Srinagar airport is about 54 km away.",
+          "facts": [
+            "GL1"
+          ]
         }
       },
       "wikidataId": "Q1025272",
@@ -1259,20 +3373,2104 @@
           "items": [
             {
               "title": "Travel advisories",
-              "body": "As of October 2026, the UK government advises against all travel to Jammu and Kashmir, including Srinagar, Gulmarg, Pahalgam and Sonamarg (air travel to and within Jammu city excepted). Check your own government's current advice and your insurance before planning a trip."
+              "body": "As of November 2026 the UK FCDO advises against all travel to J&K, including Pahalgam, except flying to and within Jammu city. Check your own government's advice and your insurance.",
+              "status": "verified"
             },
             {
               "title": "Recent violence",
-              "body": "On 22 April 2025, militants killed 26 civilians, most of them tourists, near Pahalgam."
+              "body": "On 22 April 2025, militants killed 26 civilians, most of them tourists, at Baisaran near Pahalgam.",
+              "status": "verified"
+            },
+            {
+              "title": "Closures",
+              "body": "Baisaran and Chandanwari were still closed in April 2026; ask locally before going.",
+              "status": "seasonal"
             }
           ],
           "facts": [
-            "PH_ADV",
-            "PH_ATK"
+            "JS4",
+            "PH_ATK",
+            "JS7"
+          ]
+        },
+        "how_to_reach": {
+          "text": "Pahalgam is about 96 km from Srinagar airport; state and private buses run from Jammu, Srinagar and Anantnag. Anantnag station on the Jammu–Baramulla line is the railhead for the Amarnath southern route.",
+          "facts": [
+            "PH5",
+            "JS13"
           ]
         }
       },
       "wikidataId": "Q2085326",
+      "parent": "jammu-and-kashmir"
+    },
+    {
+      "key": "jammu-and-kashmir/kokernag",
+      "kind": "town",
+      "name": "Kokernag",
+      "summary": "A spring town in Anantnag's Breng valley — botanical gardens, cold springs and a trout farm.",
+      "seoTitle": "Kokernag Travel Guide: Springs, Gardens & Trout",
+      "seoDescription": "Plan Kokernag: the botanical garden and springs, the trout farm, nearby Verinag and Achabal, current advisories and getting there from Srinagar and Anantnag.",
+      "lat": 33.584,
+      "lng": 75.307,
+      "tripTypes": [
+        "nature",
+        "family"
+      ],
+      "images": [
+        {
+          "commons": "File:Botanical garden kokernag 6.jpg",
+          "alt": "Flower beds and lawns below pine-covered hills in the Kokernag botanical garden",
+          "caption": "Botanical garden, Kokernag",
+          "hero": true
+        }
+      ],
+      "sections": {
+        "key_facts": {
+          "items": [
+            {
+              "title": "Known for",
+              "body": "Springs, botanical garden, trout",
+              "status": "verified"
+            },
+            {
+              "title": "From Srinagar",
+              "body": "76 km",
+              "status": "estimate"
+            },
+            {
+              "title": "From Anantnag",
+              "body": "10 km",
+              "status": "estimate"
+            },
+            {
+              "title": "From Pahalgam",
+              "body": "54 km",
+              "status": "estimate"
+            }
+          ],
+          "facts": [
+            "KK1"
+          ]
+        },
+        "overview": {
+          "text": "Kokernag is a small town in the Breng valley of Anantnag district, known for its botanical garden, cold freshwater springs and a rainbow trout farm. It sits 10 km from Anantnag and 76 km from Srinagar, which makes it an easy stop on a south Kashmir loop with Achabal's Mughal garden and Verinag's spring.\n\nIn February 2026 the authorities reopened Dandipora Park at Kokernag, one of the sites closed after the April 2025 attack. The UK FCDO advises against all travel to J&K outside Jammu city; check your own government's advice.",
+          "facts": [
+            "KK1",
+            "AC1",
+            "VN1",
+            "JS6",
+            "JS4"
+          ]
+        },
+        "things_to_do": {
+          "items": [
+            {
+              "body": "Walk the botanical garden and its springs."
+            },
+            {
+              "body": "Visit the trout farm."
+            },
+            {
+              "body": "Combine with Achabal and Verinag."
+            }
+          ],
+          "facts": [
+            "KK1",
+            "AC1",
+            "VN1"
+          ]
+        },
+        "how_to_reach": {
+          "text": "Srinagar airport is the nearest. Kokernag is 76 km from Srinagar, 10 km from Anantnag and 54 km from Pahalgam; trains on the Jammu–Baramulla line stop at Anantnag.",
+          "facts": [
+            "KK1",
+            "JS13"
+          ]
+        },
+        "safety_health": {
+          "items": [
+            {
+              "title": "Travel advice (checked Nov 2026)",
+              "body": "The UK FCDO advises against all travel to Jammu and Kashmir except flying to and staying within Jammu city — this can affect travel insurance. Check your own government's advice.",
+              "status": "verified"
+            },
+            {
+              "title": "Current closures",
+              "body": "Some sites closed after the April 2025 attack; most reopened in 2026, but Baisaran and Chandanwari near Pahalgam were still shut in April 2026. Ask locally before going.",
+              "status": "seasonal"
+            }
+          ],
+          "facts": [
+            "JS4",
+            "JS6",
+            "JS7"
+          ]
+        }
+      },
+      "parent": "jammu-and-kashmir"
+    },
+    {
+      "key": "jammu-and-kashmir/verinag",
+      "kind": "town",
+      "name": "Verinag",
+      "summary": "The deep-blue spring held to be the source of the Jhelum, enclosed by Jahangir's octagonal tank and arcade.",
+      "seoTitle": "Verinag Travel Guide: Jhelum Spring & Mughal Garden",
+      "seoDescription": "Plan Verinag: the octagonal spring Jahangir built at the source of the Jhelum, its Mughal garden, nearby Achabal and Kokernag, and getting there.",
+      "lat": 33.536,
+      "lng": 75.25,
+      "tripTypes": [
+        "heritage",
+        "nature"
+      ],
+      "images": [
+        {
+          "commons": "File:Spring at Verinag and Mughal Arcade.JPG",
+          "alt": "A still turquoise octagonal pool ringed by a Mughal stone arcade under tall trees",
+          "caption": "Verinag spring",
+          "hero": true
+        }
+      ],
+      "sections": {
+        "key_facts": {
+          "items": [
+            {
+              "title": "Known for",
+              "body": "Source of the Jhelum",
+              "status": "verified"
+            },
+            {
+              "title": "Built",
+              "body": "Octagonal tank by Jahangir",
+              "status": "verified"
+            },
+            {
+              "title": "From Anantnag",
+              "body": "About 26 km",
+              "status": "estimate"
+            },
+            {
+              "title": "Airport",
+              "body": "Srinagar, 85 km",
+              "status": "estimate"
+            }
+          ],
+          "facts": [
+            "VN1",
+            "VN2"
+          ]
+        },
+        "overview": {
+          "text": "Verinag's spring rises at the foot of a pine-covered hill and is held to be the source of the Jhelum, the river that runs through the Kashmir Valley. The Mughal emperor Jahangir enclosed it in an octagonal tank and arcade and built a pleasure garden; he loved it so much that, dying near Rajouri, he asked to be buried here.\n\nIt is about 26 km from Anantnag on the road south towards Jammu, and makes a pair with the gardens at Achabal and Kokernag. Check current travel advice before you go.",
+          "facts": [
+            "VN1",
+            "VN2",
+            "AC1",
+            "KK1",
+            "JS4"
+          ]
+        },
+        "things_to_do": {
+          "items": [
+            {
+              "body": "Walk round the octagonal spring and its arcade."
+            },
+            {
+              "body": "See the garden below the spring."
+            },
+            {
+              "body": "Visit Achabal and Kokernag nearby."
+            }
+          ],
+          "facts": [
+            "VN1",
+            "AC1",
+            "KK1"
+          ]
+        },
+        "how_to_reach": {
+          "text": "Verinag is about 26 km from Anantnag and 85 km from Srinagar airport.",
+          "facts": [
+            "VN2"
+          ]
+        },
+        "safety_health": {
+          "items": [
+            {
+              "title": "Travel advice (checked Nov 2026)",
+              "body": "The UK FCDO advises against all travel to Jammu and Kashmir except flying to and staying within Jammu city — this can affect travel insurance. Check your own government's advice.",
+              "status": "verified"
+            },
+            {
+              "title": "Current closures",
+              "body": "Some sites closed after the April 2025 attack; most reopened in 2026, but Baisaran and Chandanwari near Pahalgam were still shut in April 2026. Ask locally before going.",
+              "status": "seasonal"
+            }
+          ],
+          "facts": [
+            "JS4",
+            "JS6",
+            "JS7"
+          ]
+        }
+      },
+      "parent": "jammu-and-kashmir"
+    },
+    {
+      "key": "jammu-and-kashmir/achabal",
+      "kind": "town",
+      "name": "Achabal",
+      "summary": "A terraced Mughal spring garden near Anantnag, laid out under Nur Jahan, with fountains and a trout hatchery nearby.",
+      "seoTitle": "Achabal Travel Guide: Mughal Spring Garden",
+      "seoDescription": "Plan Achabal: the terraced Mughal garden and spring laid out under Nur Jahan, the trout hatchery, nearby Kokernag and Verinag, and getting there.",
+      "lat": 33.68,
+      "lng": 75.22,
+      "tripTypes": [
+        "heritage",
+        "family"
+      ],
+      "images": [
+        {
+          "commons": "File:Achabal Gardens (14573946851).jpg",
+          "alt": "A Mughal pavilion framing fountains in a long pool at Achabal",
+          "caption": "Achabal Gardens",
+          "hero": true
+        }
+      ],
+      "sections": {
+        "key_facts": {
+          "items": [
+            {
+              "title": "Known for",
+              "body": "Mughal spring garden",
+              "status": "verified"
+            },
+            {
+              "title": "From Anantnag",
+              "body": "9 km",
+              "status": "estimate"
+            },
+            {
+              "title": "Airport",
+              "body": "Srinagar, about 67 km",
+              "status": "estimate"
+            },
+            {
+              "title": "Built",
+              "body": "Upper garden 1616",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "AC1",
+            "AC2"
+          ]
+        },
+        "overview": {
+          "text": "At Achabal a strong spring gushes from the hillside and runs through a terraced Mughal garden in three channels, with fountains along the way. The upper garden was laid out by Nur Jahan in 1616, and a trout hatchery is nearby.\n\nIt is 9 km from Anantnag and about 67 km from Srinagar airport, and fits easily into a day with Kokernag and Verinag. Check current travel advice before you go.",
+          "facts": [
+            "AC1",
+            "AC2",
+            "KK1",
+            "VN1",
+            "JS4"
+          ]
+        },
+        "things_to_do": {
+          "items": [
+            {
+              "body": "Walk the terraces from the spring down."
+            },
+            {
+              "body": "See the fountains in the channels."
+            },
+            {
+              "body": "Visit the trout hatchery nearby."
+            }
+          ],
+          "facts": [
+            "AC1"
+          ]
+        },
+        "how_to_reach": {
+          "text": "Achabal is 9 km from Anantnag and about 67 km from Srinagar airport.",
+          "facts": [
+            "AC2"
+          ]
+        },
+        "safety_health": {
+          "items": [
+            {
+              "title": "Travel advice (checked Nov 2026)",
+              "body": "The UK FCDO advises against all travel to Jammu and Kashmir except flying to and staying within Jammu city — this can affect travel insurance. Check your own government's advice.",
+              "status": "verified"
+            },
+            {
+              "title": "Current closures",
+              "body": "Some sites closed after the April 2025 attack; most reopened in 2026, but Baisaran and Chandanwari near Pahalgam were still shut in April 2026. Ask locally before going.",
+              "status": "seasonal"
+            }
+          ],
+          "facts": [
+            "JS4",
+            "JS6",
+            "JS7"
+          ]
+        }
+      },
+      "parent": "jammu-and-kashmir"
+    },
+    {
+      "key": "jammu-and-kashmir/aharbal",
+      "kind": "town",
+      "name": "Aharbal",
+      "summary": "The 'Niagara of Kashmir' — the Veshaw river crashing 25 m through a pine gorge in Kulgam, and the trailhead for Kousarnag.",
+      "seoTitle": "Aharbal Travel Guide: Waterfall & Kousarnag Trek",
+      "seoDescription": "Plan Aharbal: the 25-m waterfall on the Veshaw, safety on the slippery terraces, the three-day Kousarnag trek, and getting there via Kulgam and Shopian.",
+      "lat": 33.646,
+      "lng": 74.783,
+      "tripTypes": [
+        "nature",
+        "adventure"
+      ],
+      "images": [
+        {
+          "commons": "File:Waterfall of Aharbal.JPG",
+          "alt": "White water pouring through a rocky gorge among pine trees at Aharbal",
+          "caption": "Aharbal waterfall",
+          "hero": true
+        }
+      ],
+      "sections": {
+        "key_facts": {
+          "items": [
+            {
+              "title": "Altitude",
+              "body": "2,266 m",
+              "status": "verified"
+            },
+            {
+              "title": "Falls",
+              "body": "About 25 m",
+              "status": "verified"
+            },
+            {
+              "title": "Trek",
+              "body": "Kousarnag, 3 days",
+              "status": "verified"
+            },
+            {
+              "title": "Kulgam from Srinagar",
+              "body": "68 km",
+              "status": "estimate"
+            }
+          ],
+          "facts": [
+            "AH1",
+            "AH2",
+            "AH3"
+          ]
+        },
+        "overview": {
+          "text": "Aharbal, at 2,266 m in Kulgam district, is where the Veshaw river drops about 25 m through a granite gorge — the 'Niagara Falls of Kashmir'. The terraces by the falls are fenced but slippery, so keep well back.\n\nIt is also the start of a three-day trek to Kousarnag, the lake that feeds the river. Buses run from Srinagar to Kulgam, 68 km, and taxis go on to the falls. Check current travel advice before going.",
+          "facts": [
+            "AH1",
+            "AH2",
+            "AH3",
+            "JS4"
+          ]
+        },
+        "things_to_do": {
+          "items": [
+            {
+              "body": "Watch the falls from the fenced terraces."
+            },
+            {
+              "body": "Trek three days to Kousarnag lake."
+            },
+            {
+              "body": "Picnic in the pine forest above the gorge."
+            }
+          ],
+          "facts": [
+            "AH1",
+            "AH2"
+          ]
+        },
+        "how_to_reach": {
+          "text": "Kulgam is 68 km from Srinagar, with regular buses; hire a taxi from there to Aharbal.",
+          "facts": [
+            "AH3"
+          ]
+        },
+        "safety_health": {
+          "items": [
+            {
+              "title": "Falls",
+              "body": "The terraces are fenced but slippery — keep away from the edge.",
+              "status": "verified"
+            },
+            {
+              "title": "Travel advice (checked Nov 2026)",
+              "body": "The UK FCDO advises against all travel to Jammu and Kashmir except flying to and staying within Jammu city — this can affect travel insurance. Check your own government's advice.",
+              "status": "verified"
+            },
+            {
+              "title": "Current closures",
+              "body": "Some sites closed after the April 2025 attack; most reopened in 2026, but Baisaran and Chandanwari near Pahalgam were still shut in April 2026. Ask locally before going.",
+              "status": "seasonal"
+            }
+          ],
+          "facts": [
+            "AH1",
+            "JS4",
+            "JS6",
+            "JS7"
+          ]
+        }
+      },
+      "parent": "jammu-and-kashmir"
+    },
+    {
+      "key": "jammu-and-kashmir/daksum",
+      "kind": "town",
+      "name": "Daksum",
+      "summary": "A quiet forest glade in south Kashmir on the high road over Sinthan Top to Kishtwar.",
+      "seoTitle": "Daksum Travel Guide: Forest Glade & Sinthan Top",
+      "seoDescription": "Plan Daksum: the forest and streams of Anantnag's high country, the drive over 3,784-m Sinthan Top to Kishtwar, and the advisories to check.",
+      "lat": 33.61,
+      "lng": 75.43,
+      "tripTypes": [
+        "nature",
+        "mountains"
+      ],
+      "images": [
+        {
+          "commons": "File:Goat Crossing, Daksum (14387851847).jpg",
+          "alt": "Goats crossing a stony stream among tall conifers at Daksum",
+          "caption": "Daksum",
+          "hero": true
+        }
+      ],
+      "sections": {
+        "key_facts": {
+          "items": [
+            {
+              "title": "District",
+              "body": "Anantnag",
+              "status": "verified"
+            },
+            {
+              "title": "Road",
+              "body": "Over Sinthan Top to Kishtwar",
+              "status": "verified"
+            },
+            {
+              "title": "Sinthan Top",
+              "body": "3,784 m",
+              "status": "verified"
+            },
+            {
+              "title": "Season",
+              "body": "Summer",
+              "status": "seasonal"
+            }
+          ],
+          "facts": [
+            "DK1",
+            "DK2"
+          ]
+        },
+        "overview": {
+          "text": "Daksum is a forest beauty spot in the Larnoo area of Anantnag district, on the road that climbs over Sinthan Top and down to Kishtwar. Sinthan Top, at 3,784 m, has meadows good for horse riding and skiing in season.\n\nIt is a place for walks along streams under the conifers rather than sights. Check current travel advice and road conditions before you go.",
+          "facts": [
+            "DK1",
+            "DK2",
+            "JS4"
+          ]
+        },
+        "things_to_do": {
+          "items": [
+            {
+              "body": "Walk along the streams in the forest."
+            },
+            {
+              "body": "Drive on over Sinthan Top towards Kishtwar."
+            }
+          ],
+          "facts": [
+            "DK1",
+            "DK2"
+          ]
+        },
+        "how_to_reach": {
+          "text": "Daksum is on the Anantnag–Sinthan–Kishtwar road (NH-244); Srinagar airport is about 135 km from Sinthan Top.",
+          "facts": [
+            "DK1",
+            "DK3"
+          ]
+        },
+        "safety_health": {
+          "items": [
+            {
+              "title": "Travel advice (checked Nov 2026)",
+              "body": "The UK FCDO advises against all travel to Jammu and Kashmir except flying to and staying within Jammu city — this can affect travel insurance. Check your own government's advice.",
+              "status": "verified"
+            },
+            {
+              "title": "Current closures",
+              "body": "Some sites closed after the April 2025 attack; most reopened in 2026, but Baisaran and Chandanwari near Pahalgam were still shut in April 2026. Ask locally before going.",
+              "status": "seasonal"
+            }
+          ],
+          "facts": [
+            "JS4",
+            "JS6",
+            "JS7"
+          ]
+        }
+      },
+      "parent": "jammu-and-kashmir"
+    },
+    {
+      "key": "jammu-and-kashmir/manasbal",
+      "kind": "town",
+      "name": "Manasbal",
+      "summary": "One of India's deepest lakes, 30 km from Srinagar — lotus in July and August, birdlife and Nur Jahan's Jaroka garden.",
+      "seoTitle": "Manasbal Lake Travel Guide: Lotus, Birds & Gardens",
+      "seoDescription": "Plan Manasbal: the deep lake 30 km from Srinagar, July–August lotus blooms, birdwatching, Nur Jahan's Jaroka garden and the road on to Wular.",
+      "lat": 34.25,
+      "lng": 74.67,
+      "tripTypes": [
+        "nature",
+        "family"
+      ],
+      "images": [
+        {
+          "commons": "File:Manasbal lake.jpg",
+          "alt": "Flowering shrubs on the bank of Manasbal Lake below wooded hills",
+          "caption": "Manasbal Lake",
+          "hero": true
+        }
+      ],
+      "sections": {
+        "key_facts": {
+          "items": [
+            {
+              "title": "From Srinagar",
+              "body": "About 30 km",
+              "status": "estimate"
+            },
+            {
+              "title": "Lotus",
+              "body": "July–August",
+              "status": "seasonal"
+            },
+            {
+              "title": "Known for",
+              "body": "Birds, Jaroka garden",
+              "status": "verified"
+            },
+            {
+              "title": "District",
+              "body": "Ganderbal",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "MB1"
+          ]
+        },
+        "overview": {
+          "text": "Manasbal, in Ganderbal district about 30 km from Srinagar, is one of the deepest lakes in India and a favourite with birdwatchers. Lotus blooms round its edges in July and August, and Nur Jahan's Jaroka garden looks over the water.\n\nThe road on to Wular Lake passes nearby, so the two make a day out from Srinagar. Check current travel advice before you go.",
+          "facts": [
+            "MB1",
+            "WL1",
+            "JS4"
+          ]
+        },
+        "things_to_do": {
+          "items": [
+            {
+              "body": "See the lotus in July and August."
+            },
+            {
+              "body": "Watch water birds from the shore."
+            },
+            {
+              "body": "Visit the Jaroka garden."
+            },
+            {
+              "body": "Continue to Wular Lake."
+            }
+          ],
+          "facts": [
+            "MB1",
+            "WL1"
+          ]
+        },
+        "how_to_reach": {
+          "text": "Manasbal is about 30 km from Srinagar by road via Ganderbal.",
+          "facts": [
+            "MB1"
+          ]
+        },
+        "safety_health": {
+          "items": [
+            {
+              "title": "Travel advice (checked Nov 2026)",
+              "body": "The UK FCDO advises against all travel to Jammu and Kashmir except flying to and staying within Jammu city — this can affect travel insurance. Check your own government's advice.",
+              "status": "verified"
+            },
+            {
+              "title": "Current closures",
+              "body": "Some sites closed after the April 2025 attack; most reopened in 2026, but Baisaran and Chandanwari near Pahalgam were still shut in April 2026. Ask locally before going.",
+              "status": "seasonal"
+            }
+          ],
+          "facts": [
+            "JS4",
+            "JS6",
+            "JS7"
+          ]
+        }
+      },
+      "parent": "jammu-and-kashmir"
+    },
+    {
+      "key": "jammu-and-kashmir/wular-lake",
+      "kind": "lake",
+      "name": "Wular Lake",
+      "summary": "One of the subcontinent's largest freshwater lakes, near Bandipora, fed by the Jhelum, with Zaina Lank island and wide sunsets.",
+      "seoTitle": "Wular Lake Travel Guide: Sunsets near Bandipora",
+      "seoDescription": "Plan Wular Lake: one of Asia's largest freshwater lakes, Zaina Lank island, Watlab sunsets, seasonal size, and getting there from Srinagar.",
+      "lat": 34.36,
+      "lng": 74.56,
+      "tripTypes": [
+        "nature"
+      ],
+      "images": [
+        {
+          "commons": "File:Wular scenic.jpg",
+          "alt": "A wide calm lake reflecting mountains with a small pavilion on the shore",
+          "caption": "Wular Lake",
+          "hero": true
+        }
+      ],
+      "sections": {
+        "key_facts": {
+          "items": [
+            {
+              "title": "Size",
+              "body": "30–189 sq km by season",
+              "status": "verified"
+            },
+            {
+              "title": "Fed by",
+              "body": "The Jhelum",
+              "status": "verified"
+            },
+            {
+              "title": "Island",
+              "body": "Zaina Lank",
+              "status": "verified"
+            },
+            {
+              "title": "From Srinagar airport",
+              "body": "About 62 km",
+              "status": "estimate"
+            }
+          ],
+          "facts": [
+            "WL2",
+            "WL1"
+          ]
+        },
+        "overview": {
+          "text": "Wular, near Bandipora, is one of the largest freshwater lakes in the Indian subcontinent. The Jhelum feeds it, and its size swings between about 30 and 189 sq km with the seasons. Zaina Lank, an island built by Sultan Zain-ul-Abidin, stands in the lake, and the shore is known for sunsets.\n\nWular/Watlab was among the sites reopened in February 2026. Srinagar airport is about 62 km away — around two hours. Check current travel advice before you go.",
+          "facts": [
+            "WL1",
+            "WL2",
+            "JS6",
+            "JS4"
+          ]
+        },
+        "things_to_do": {
+          "items": [
+            {
+              "body": "Watch the sunset from Watlab."
+            },
+            {
+              "body": "Look out to Zaina Lank island."
+            },
+            {
+              "body": "Combine with Manasbal on the way."
+            }
+          ],
+          "facts": [
+            "WL1",
+            "JS6",
+            "MB1"
+          ]
+        },
+        "how_to_reach": {
+          "text": "Wular is about 62 km from Srinagar airport, a drive of around two hours.",
+          "facts": [
+            "WL2"
+          ]
+        },
+        "safety_health": {
+          "items": [
+            {
+              "title": "Travel advice (checked Nov 2026)",
+              "body": "The UK FCDO advises against all travel to Jammu and Kashmir except flying to and staying within Jammu city — this can affect travel insurance. Check your own government's advice.",
+              "status": "verified"
+            },
+            {
+              "title": "Current closures",
+              "body": "Some sites closed after the April 2025 attack; most reopened in 2026, but Baisaran and Chandanwari near Pahalgam were still shut in April 2026. Ask locally before going.",
+              "status": "seasonal"
+            }
+          ],
+          "facts": [
+            "JS4",
+            "JS6",
+            "JS7"
+          ]
+        }
+      },
+      "parent": "jammu-and-kashmir"
+    },
+    {
+      "key": "jammu-and-kashmir/naranag",
+      "kind": "town",
+      "name": "Naranag",
+      "summary": "Ancient temple ruins in a meadow valley near Kangan, and the trailhead for Gangabal Lake and Haramukh.",
+      "seoTitle": "Naranag Travel Guide: Temple Ruins & Gangabal Trek",
+      "seoDescription": "Plan Naranag: the ancient temple complex, treks to Gangabal Lake and Mount Haramukh, the Sindh valley and Sonamarg, and advisories to check.",
+      "lat": 34.358,
+      "lng": 74.97,
+      "tripTypes": [
+        "heritage",
+        "adventure",
+        "mountains"
+      ],
+      "images": [
+        {
+          "commons": "File:Ancient Temples, Naranag, Jammu and Kashmir.jpg",
+          "alt": "Weathered stone temple doorway at the Naranag ruins",
+          "caption": "Naranag temples",
+          "hero": true
+        }
+      ],
+      "sections": {
+        "key_facts": {
+          "items": [
+            {
+              "title": "Known for",
+              "body": "Temple ruins, Gangabal trek",
+              "status": "verified"
+            },
+            {
+              "title": "From Kangan",
+              "body": "About 16 km",
+              "status": "estimate"
+            },
+            {
+              "title": "Haramukh",
+              "body": "5,142 m",
+              "status": "verified"
+            },
+            {
+              "title": "District",
+              "body": "Ganderbal",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "NN1"
+          ]
+        },
+        "overview": {
+          "text": "Naranag, in Ganderbal district about 16 km from Kangan, is known for its ancient temple ruins set in meadows by the Wangath river. It is also the base camp for treks to Gangabal Lake and Mount Haramukh (5,142 m).\n\nSonamarg is further up the Sindh valley. The treks are high and remote — go with a registered guide, and check current travel advice first.",
+          "facts": [
+            "NN1",
+            "SM4",
+            "JS4"
+          ]
+        },
+        "things_to_do": {
+          "items": [
+            {
+              "body": "Explore the temple ruins."
+            },
+            {
+              "body": "Trek to Gangabal Lake below Haramukh."
+            },
+            {
+              "body": "Continue up the Sindh valley to Sonamarg."
+            }
+          ],
+          "facts": [
+            "NN1",
+            "SM4"
+          ]
+        },
+        "how_to_reach": {
+          "text": "Naranag is about 16 km from Kangan on the Sindh valley road from Srinagar.",
+          "facts": [
+            "NN1"
+          ]
+        },
+        "safety_health": {
+          "items": [
+            {
+              "title": "Travel advice (checked Nov 2026)",
+              "body": "The UK FCDO advises against all travel to Jammu and Kashmir except flying to and staying within Jammu city — this can affect travel insurance. Check your own government's advice.",
+              "status": "verified"
+            },
+            {
+              "title": "Current closures",
+              "body": "Some sites closed after the April 2025 attack; most reopened in 2026, but Baisaran and Chandanwari near Pahalgam were still shut in April 2026. Ask locally before going.",
+              "status": "seasonal"
+            }
+          ],
+          "facts": [
+            "JS4",
+            "JS6",
+            "JS7"
+          ]
+        }
+      },
+      "parent": "jammu-and-kashmir"
+    },
+    {
+      "key": "jammu-and-kashmir/lolab-valley",
+      "kind": "town",
+      "name": "Lolab Valley",
+      "summary": "An oval valley of deodar forest, springs and orchards in Kupwara, near the Line of Control.",
+      "seoTitle": "Lolab Valley Travel Guide: Forests of Kupwara",
+      "seoDescription": "Plan Lolab Valley: the deodar forests, springs and orchards of Kupwara, travel times from Srinagar, the Line of Control, and the advisories to check.",
+      "lat": 34.52,
+      "lng": 74.33,
+      "tripTypes": [
+        "nature"
+      ],
+      "images": [
+        {
+          "commons": "File:Lolab Valley-Kupwara.JPG",
+          "alt": "Green paddy and fields with a lone tree below misty forested hills in Lolab Valley",
+          "caption": "Lolab Valley",
+          "hero": true
+        }
+      ],
+      "sections": {
+        "key_facts": {
+          "items": [
+            {
+              "title": "Length",
+              "body": "About 26 km",
+              "status": "verified"
+            },
+            {
+              "title": "District",
+              "body": "Kupwara",
+              "status": "verified"
+            },
+            {
+              "title": "From Srinagar",
+              "body": "114 km, about 4 hours",
+              "status": "estimate"
+            },
+            {
+              "title": "Railhead",
+              "body": "Baramulla",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "LB1",
+            "LB2"
+          ]
+        },
+        "overview": {
+          "text": "Lolab is an oval sub-valley of Kashmir in Kupwara district, about 26 km long, covered with deodar, pine and fir and dotted with springs and orchards of apple, cherry and walnut.\n\nIt borders the Line of Control and the Kishenganga valley, and has seen armed clashes. The UK FCDO advises against all travel to J&K outside Jammu city; check current advice before going.",
+          "facts": [
+            "LB1",
+            "JS4"
+          ]
+        },
+        "things_to_do": {
+          "items": [
+            {
+              "body": "Walk in the deodar forests."
+            },
+            {
+              "body": "Visit the springs and orchards."
+            }
+          ],
+          "facts": [
+            "LB1"
+          ]
+        },
+        "how_to_reach": {
+          "text": "Kupwara is the access town; buses from Srinagar take about four hours for 114 km. Baramulla, 64 km from Kupwara, is the railhead.",
+          "facts": [
+            "LB2"
+          ]
+        },
+        "safety_health": {
+          "items": [
+            {
+              "title": "Travel advice (checked Nov 2026)",
+              "body": "The UK FCDO advises against all travel to Jammu and Kashmir except flying to and staying within Jammu city — this can affect travel insurance. Check your own government's advice.",
+              "status": "verified"
+            },
+            {
+              "title": "Current closures",
+              "body": "Some sites closed after the April 2025 attack; most reopened in 2026, but Baisaran and Chandanwari near Pahalgam were still shut in April 2026. Ask locally before going.",
+              "status": "seasonal"
+            }
+          ],
+          "facts": [
+            "JS4",
+            "JS6",
+            "JS7"
+          ]
+        }
+      },
+      "parent": "jammu-and-kashmir"
+    },
+    {
+      "key": "jammu-and-kashmir/bangus-valley",
+      "kind": "town",
+      "name": "Bangus Valley",
+      "summary": "A high bowl of meadows and conifer forest at about 10,000 ft in Kupwara — only open after the snow clears.",
+      "seoTitle": "Bangus Valley Travel Guide: High Meadows of Kupwara",
+      "seoDescription": "Plan Bangus Valley: the 10,000-ft meadows in Kupwara, routes from Handwara and Kupwara, the 2026 reopening after snow, and the advisories to check.",
+      "lat": 34.36,
+      "lng": 74.0,
+      "tripTypes": [
+        "nature",
+        "mountains"
+      ],
+      "images": [
+        {
+          "commons": "File:Bangus Valley Kahmir.jpg",
+          "alt": "Tents on a broad green meadow ringed by conifers in Bangus Valley",
+          "caption": "Bangus Valley",
+          "hero": true
+        }
+      ],
+      "sections": {
+        "key_facts": {
+          "items": [
+            {
+              "title": "Altitude",
+              "body": "About 10,000 ft",
+              "status": "verified"
+            },
+            {
+              "title": "From Srinagar",
+              "body": "About 100 km",
+              "status": "estimate"
+            },
+            {
+              "title": "Area",
+              "body": "About 300 sq km",
+              "status": "verified"
+            },
+            {
+              "title": "Status",
+              "body": "Reopens after snow clears",
+              "status": "seasonal"
+            }
+          ],
+          "facts": [
+            "BG1",
+            "JS6"
+          ]
+        },
+        "overview": {
+          "text": "Bangus is a high valley in Kupwara district, about 100 km from Srinagar at around 10,000 ft — a bowl of grassland and conifer forest of about 300 sq km, with a smaller valley, Lokut Bangus, beside it. Roads come in from Handwara (29 km) and Kupwara (42 km).\n\nBangus was among the sites closed after the April 2025 attack; in February 2026 it was due to reopen once snow cleared. Ask locally, and check current travel advice before going.",
+          "facts": [
+            "BG1",
+            "JS6",
+            "JS4"
+          ]
+        },
+        "things_to_do": {
+          "items": [
+            {
+              "body": "Walk or camp on the meadows in summer."
+            },
+            {
+              "body": "Drive in from Handwara."
+            }
+          ],
+          "facts": [
+            "BG1"
+          ]
+        },
+        "how_to_reach": {
+          "text": "Bangus is about 100 km from Srinagar, reached from Handwara (29 km) or Kupwara (42 km).",
+          "facts": [
+            "BG1"
+          ]
+        },
+        "safety_health": {
+          "items": [
+            {
+              "title": "Travel advice (checked Nov 2026)",
+              "body": "The UK FCDO advises against all travel to Jammu and Kashmir except flying to and staying within Jammu city — this can affect travel insurance. Check your own government's advice.",
+              "status": "verified"
+            },
+            {
+              "title": "Current closures",
+              "body": "Some sites closed after the April 2025 attack; most reopened in 2026, but Baisaran and Chandanwari near Pahalgam were still shut in April 2026. Ask locally before going.",
+              "status": "seasonal"
+            }
+          ],
+          "facts": [
+            "JS4",
+            "JS6",
+            "JS7"
+          ]
+        }
+      },
+      "parent": "jammu-and-kashmir"
+    },
+    {
+      "key": "jammu-and-kashmir/peer-ki-gali",
+      "kind": "viewpoint",
+      "name": "Peer Ki Gali",
+      "summary": "The 3,490-m pass at the top of the Mughal Road between Shopian and Poonch, open only outside the snow months.",
+      "seoTitle": "Peer Ki Gali: Mughal Road Pass Travel Guide",
+      "seoDescription": "Plan Peer Ki Gali: the 3,490-m pass on the historic Mughal Road, distances from Shopian and Poonch, winter closures, and the advisories to check.",
+      "lat": 33.627,
+      "lng": 74.53,
+      "tripTypes": [
+        "mountains",
+        "heritage"
+      ],
+      "images": [
+        {
+          "commons": "File:Peer ki Gali, Mughal Road J&K.jpg",
+          "alt": "Green slopes rising into cloud at Peer Ki Gali on the Mughal Road",
+          "caption": "Peer Ki Gali",
+          "hero": true
+        }
+      ],
+      "sections": {
+        "key_facts": {
+          "items": [
+            {
+              "title": "Altitude",
+              "body": "3,490 m",
+              "status": "verified"
+            },
+            {
+              "title": "From Shopian",
+              "body": "41 km",
+              "status": "estimate"
+            },
+            {
+              "title": "Road",
+              "body": "84-km Mughal Road",
+              "status": "verified"
+            },
+            {
+              "title": "Winter",
+              "body": "Closed by snow",
+              "status": "seasonal"
+            }
+          ],
+          "facts": [
+            "PK1",
+            "PK2",
+            "JS12"
+          ]
+        },
+        "overview": {
+          "text": "Peer Ki Gali, at 3,490 m, is the highest point on the Mughal Road, the old route over the Pir Panjal used by the Mughal emperors. The 84-km road runs from Buffliaz in Poonch to Shopian; the pass is 41 km from Shopian and 43 km from Buffliaz.\n\nSnow closes the road in winter. Peer Ki Gali was reopened to tourists in February 2026. Check current travel advice before going.",
+          "facts": [
+            "PK1",
+            "PK2",
+            "JS12",
+            "JS6",
+            "JS4"
+          ]
+        },
+        "things_to_do": {
+          "items": [
+            {
+              "body": "Drive the Mughal Road over the pass in summer."
+            },
+            {
+              "body": "Stop at the top for the views."
+            }
+          ],
+          "facts": [
+            "PK1"
+          ]
+        },
+        "how_to_reach": {
+          "text": "Peer Ki Gali is 41 km from Shopian and 43 km from Buffliaz on the Mughal Road; the road is closed by winter snow.",
+          "facts": [
+            "PK2",
+            "JS12"
+          ]
+        },
+        "safety_health": {
+          "items": [
+            {
+              "title": "Travel advice (checked Nov 2026)",
+              "body": "The UK FCDO advises against all travel to Jammu and Kashmir except flying to and staying within Jammu city — this can affect travel insurance. Check your own government's advice.",
+              "status": "verified"
+            },
+            {
+              "title": "Current closures",
+              "body": "Some sites closed after the April 2025 attack; most reopened in 2026, but Baisaran and Chandanwari near Pahalgam were still shut in April 2026. Ask locally before going.",
+              "status": "seasonal"
+            }
+          ],
+          "facts": [
+            "JS4",
+            "JS6",
+            "JS7"
+          ]
+        }
+      },
+      "parent": "jammu-and-kashmir"
+    },
+    {
+      "key": "jammu-and-kashmir/bhaderwah",
+      "kind": "town",
+      "name": "Bhaderwah",
+      "summary": "'Bhadarkashi' — a hill town in Doda with Jai Valley's tents and igloo huts and Padri pass for snow and paragliding.",
+      "seoTitle": "Bhaderwah Travel Guide: Jai Valley & Padri Pass",
+      "seoDescription": "Plan Bhaderwah: the Doda hill town, Jai Valley's tented and igloo stays, Padri pass for skiing and paragliding, and getting there.",
+      "lat": 32.98,
+      "lng": 75.71,
+      "tripTypes": [
+        "mountains",
+        "adventure"
+      ],
+      "images": [
+        {
+          "commons": "File:Bhadarwah.jpg",
+          "alt": "Bhaderwah town spread across a green valley below forested mountains",
+          "caption": "Bhaderwah",
+          "hero": true
+        }
+      ],
+      "sections": {
+        "key_facts": {
+          "items": [
+            {
+              "title": "District",
+              "body": "Doda",
+              "status": "verified"
+            },
+            {
+              "title": "Jai Valley",
+              "body": "25 km",
+              "status": "estimate"
+            },
+            {
+              "title": "Padri",
+              "body": "32 km",
+              "status": "estimate"
+            },
+            {
+              "title": "Bring",
+              "body": "Woollens, even in summer",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "BW1",
+            "BW2"
+          ]
+        },
+        "overview": {
+          "text": "Bhaderwah, also called Bhadarkashi, is a hill town in Doda district of the Jammu division. It is the base for Jai Valley, 25 km away, where tourists stay in tents and igloo huts, and for Padri, 32 km away — the highest pass on the Bhaderwah–Chamba road, good for skiing in winter and paragliding in summer. Bring woollens even in summer.\n\nJai's stream is known for trout fishing, and the valley's youth hostel takes about 150 trekkers, so it suits groups and walkers as well as families.",
+          "facts": [
+            "BW1",
+            "BW2",
+            "BW3"
+          ]
+        },
+        "things_to_do": {
+          "items": [
+            {
+              "body": "Stay in the Jai Valley holiday village."
+            },
+            {
+              "body": "Ski or paraglide at Padri."
+            },
+            {
+              "body": "Drive the Bhaderwah–Chamba road."
+            }
+          ],
+          "facts": [
+            "BW2",
+            "BW1"
+          ]
+        },
+        "how_to_reach": {
+          "text": "Bhaderwah is in Doda district; Jai Valley is 25 km and Padri 32 km from town.",
+          "facts": [
+            "BW1"
+          ]
+        },
+        "safety_health": {
+          "items": [
+            {
+              "title": "Cold",
+              "body": "Padri is cold even in summer — bring woollens.",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "BW2"
+          ]
+        }
+      },
+      "parent": "jammu-and-kashmir"
+    },
+    {
+      "key": "jammu-and-kashmir/sanasar",
+      "kind": "town",
+      "name": "Sanasar",
+      "summary": "A meadow resort at 2,050 m west of Patnitop — the Jammu region's centre for paragliding and adventure sports.",
+      "seoTitle": "Sanasar Travel Guide: Paragliding near Patnitop",
+      "seoDescription": "Plan Sanasar: meadows at 2,050 m, paragliding and adventure sports, the Shankh Pal temple walk, and getting there from Patnitop and Jammu.",
+      "lat": 33.125,
+      "lng": 75.26,
+      "tripTypes": [
+        "adventure",
+        "mountains"
+      ],
+      "images": [
+        {
+          "commons": "File:Sanasar View.jpg",
+          "alt": "A green meadow ringed by tall conifers under a blue sky at Sanasar",
+          "caption": "Sanasar",
+          "hero": true
+        }
+      ],
+      "sections": {
+        "key_facts": {
+          "items": [
+            {
+              "title": "Altitude",
+              "body": "2,050 m",
+              "status": "verified"
+            },
+            {
+              "title": "From Patnitop",
+              "body": "20 km",
+              "status": "estimate"
+            },
+            {
+              "title": "Known for",
+              "body": "Paragliding",
+              "status": "verified"
+            },
+            {
+              "title": "District",
+              "body": "Ramban",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "SN1"
+          ]
+        },
+        "overview": {
+          "text": "Sanasar is named after two small lakes, Sana and Sar, in Ramban district, 20 km west of Patnitop. At 2,050 m its meadows make it the hub for adventure sports in the Jammu region — above all paragliding — with views to the Brammah peaks.\n\nPatnitop is next door, so the two are usually combined. A few hours' walk up the ridge is the 400-year-old Shankh Pal temple at 2,897 m, built of stone without mortar and dedicated to the serpent deity Nag Shankh Pal.",
+          "facts": [
+            "SN1",
+            "PT1",
+            "SN2"
+          ]
+        },
+        "things_to_do": {
+          "items": [
+            {
+              "body": "Paraglide over the meadows."
+            },
+            {
+              "body": "Walk round the meadow and lakes."
+            },
+            {
+              "body": "Combine with Patnitop."
+            }
+          ],
+          "facts": [
+            "SN1",
+            "PT1"
+          ]
+        },
+        "how_to_reach": {
+          "text": "Sanasar is 20 km west of Patnitop, which is on the Jammu–Srinagar highway.",
+          "facts": [
+            "SN1",
+            "PT1"
+          ]
+        }
+      },
+      "parent": "jammu-and-kashmir"
+    },
+    {
+      "key": "jammu-and-kashmir/mansar-lake",
+      "kind": "lake",
+      "name": "Mansar Lake",
+      "summary": "A sacred forest lake 62 km from Jammu, twin to Surinsar — together a Ramsar wetland.",
+      "seoTitle": "Mansar & Surinsar Lakes: Travel Guide from Jammu",
+      "seoDescription": "Plan Mansar and Surinsar lakes: the Ramsar-listed twin lakes near Jammu, the Shesha shrine, temples and boating, and getting there.",
+      "lat": 32.698,
+      "lng": 75.148,
+      "tripTypes": [
+        "nature",
+        "spiritual",
+        "family"
+      ],
+      "images": [
+        {
+          "commons": "File:Beautiful Mansar Lake (ramsar Wetland) Dr. Harleen Kaur.jpg",
+          "alt": "A calm lake ringed by low forested hills at Mansar",
+          "caption": "Mansar Lake",
+          "hero": true
+        }
+      ],
+      "sections": {
+        "key_facts": {
+          "items": [
+            {
+              "title": "From Jammu",
+              "body": "62 km",
+              "status": "estimate"
+            },
+            {
+              "title": "Twin lake",
+              "body": "Surinsar, 9 km",
+              "status": "estimate"
+            },
+            {
+              "title": "Status",
+              "body": "Ramsar site (2005)",
+              "status": "verified"
+            },
+            {
+              "title": "District",
+              "body": "Samba",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "MS1"
+          ]
+        },
+        "overview": {
+          "text": "Mansar Lake, 62 km from Jammu in Samba district, is a forest-fringed lake that shares the sanctity of Manasarovar. A shrine to Shesha, the serpent, stands on its east bank, and temples to Shiva, Narasimha and Durga are nearby.\n\nSurinsar Lake, 9 km away, is its twin; together they were listed as a Ramsar wetland in November 2005, with a wildlife sanctuary between them. Surinsar has a small island in the middle that is home to thousands of bats.",
+          "facts": [
+            "MS1",
+            "MS2"
+          ]
+        },
+        "things_to_do": {
+          "items": [
+            {
+              "body": "Walk round Mansar and see the Shesha shrine."
+            },
+            {
+              "body": "Visit Surinsar, 9 km away."
+            },
+            {
+              "body": "Make a day trip from Jammu."
+            }
+          ],
+          "facts": [
+            "MS1"
+          ]
+        },
+        "how_to_reach": {
+          "text": "Mansar is 62 km from Jammu by road; Surinsar is 9 km from Mansar.",
+          "facts": [
+            "MS1"
+          ]
+        }
+      },
+      "parent": "jammu-and-kashmir"
+    },
+    {
+      "key": "jammu-and-kashmir/kishtwar",
+      "kind": "town",
+      "name": "Kishtwar",
+      "summary": "Chenab-valley town around its Chowgan ground — the road head for Paddar, the Machail yatra and Sinthan Top.",
+      "seoTitle": "Kishtwar Travel Guide: Chowgan, Machail & Sinthan",
+      "seoDescription": "Plan Kishtwar: the Chowgan ground, the August Machail Mata yatra, Sinthan Top and Daksum, distances from Jammu and Srinagar, and the nearest railheads.",
+      "lat": 33.31,
+      "lng": 75.77,
+      "tripTypes": [
+        "mountains",
+        "spiritual"
+      ],
+      "images": [
+        {
+          "commons": "File:Chowgan ground in Kishtwar, Jammu, India (crop).jpg",
+          "alt": "A snow-covered Chowgan ground below snowy mountains in Kishtwar",
+          "caption": "Chowgan, Kishtwar",
+          "hero": true
+        }
+      ],
+      "sections": {
+        "key_facts": {
+          "items": [
+            {
+              "title": "From Jammu",
+              "body": "About 211 km",
+              "status": "estimate"
+            },
+            {
+              "title": "From Srinagar",
+              "body": "About 210 km",
+              "status": "estimate"
+            },
+            {
+              "title": "Railhead",
+              "body": "Udhampur, 166 km",
+              "status": "estimate"
+            },
+            {
+              "title": "Machail Yatra",
+              "body": "From August",
+              "status": "seasonal"
+            }
+          ],
+          "facts": [
+            "KW1",
+            "KW2",
+            "JS20"
+          ]
+        },
+        "overview": {
+          "text": "Kishtwar, about 210 km from both Srinagar and Jammu, is a Chenab-valley town built round its Chowgan ground. It is the road head for the Paddar valley and the Machail Mata yatra, which sets out in August; the shrine is about 30 km on foot beyond the road.\n\nNorth of town the road climbs over Sinthan Top (3,784 m) to Daksum and the Kashmir Valley.",
+          "facts": [
+            "KW1",
+            "JS20",
+            "DK2"
+          ]
+        },
+        "things_to_do": {
+          "items": [
+            {
+              "body": "See the Chowgan ground."
+            },
+            {
+              "body": "Join the Machail yatra in August."
+            },
+            {
+              "body": "Drive over Sinthan Top to Daksum."
+            }
+          ],
+          "facts": [
+            "KW1",
+            "JS20",
+            "DK2"
+          ]
+        },
+        "how_to_reach": {
+          "text": "Udhampur (166 km) and Jammu Tawi (240 km) are the nearest railheads; Kishtwar is about 211 km from Jammu by road.",
+          "facts": [
+            "KW2",
+            "KW1"
+          ]
+        }
+      },
+      "parent": "jammu-and-kashmir"
+    },
+    {
+      "key": "jammu-and-kashmir/jammu",
+      "kind": "city",
+      "name": "Jammu",
+      "summary": "The winter capital and city of temples on the Tawi — Raghunath Temple, Bahu Fort and the Dogra palaces.",
+      "seoTitle": "Jammu Travel Guide: Temples, Forts & Palaces",
+      "seoDescription": "Plan Jammu: the Raghunath Temple, Bahu Fort and Bagh-e-Bahu, Amar Mahal's gold throne, Mubarak Mandi, Dogra food, and the summer heat.",
+      "lat": 32.7266,
+      "lng": 74.857,
+      "tripTypes": [
+        "heritage",
+        "spiritual"
+      ],
+      "images": [
+        {
+          "commons": "File:Bahu Fort, Jammu, India.jpg",
+          "alt": "Stone ramparts of Bahu Fort above the Tawi valley in Jammu",
+          "caption": "Bahu Fort, Jammu",
+          "hero": true
+        }
+      ],
+      "sections": {
+        "key_facts": {
+          "items": [
+            {
+              "title": "Role",
+              "body": "Winter capital",
+              "status": "verified"
+            },
+            {
+              "title": "Airport",
+              "body": "About 8 km",
+              "status": "estimate"
+            },
+            {
+              "title": "Summer",
+              "body": "Up to 46°C",
+              "status": "seasonal"
+            },
+            {
+              "title": "Known for",
+              "body": "Temples, Dogra palaces",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "JM1",
+            "JS9",
+            "JM5"
+          ]
+        },
+        "overview": {
+          "text": "Jammu, the winter capital, spreads either side of the Tawi below the Shivaliks and is called the city of temples. The Raghunath Temple, built 1853–1860 with seven shikharas, is one of north India's largest temple complexes. Bahu Fort, 5 km from the centre, holds the Bave Wali Mata temple, busiest on Tuesdays and Sundays, above the Bagh-e-Bahu garden.\n\nThe Dogra rulers' Amar Mahal (1862) has a 120-kg gold throne, and the Pink Hall of Mubarak Mandi holds the Dogra Art Museum. Summers are very hot — up to 46°C.",
+          "facts": [
+            "JM1",
+            "JM2",
+            "JM3",
+            "JM4",
+            "JM5"
+          ]
+        },
+        "things_to_do": {
+          "items": [
+            {
+              "body": "Visit the Raghunath Temple."
+            },
+            {
+              "body": "Climb to Bahu Fort and walk Bagh-e-Bahu."
+            },
+            {
+              "body": "See the gold throne at Amar Mahal."
+            },
+            {
+              "body": "Eat rajma chawal and kaladi."
+            }
+          ],
+          "facts": [
+            "JM2",
+            "JM3",
+            "JM4",
+            "JS17"
+          ]
+        }
+      },
+      "parent": "jammu-and-kashmir"
+    },
+    {
+      "key": "jammu-and-kashmir/katra",
+      "kind": "town",
+      "name": "Katra",
+      "summary": "The base town for the Vaishno Devi pilgrimage, and the start of the train line to Srinagar.",
+      "seoTitle": "Katra Travel Guide: Vaishno Devi Yatra Base",
+      "seoDescription": "Plan Katra: Vaishno Devi registration and the RFID card, the 14-km trek, helicopters and the ropeway, Shiv Khori, and the train to Srinagar.",
+      "lat": 32.9916,
+      "lng": 74.9319,
+      "tripTypes": [
+        "spiritual"
+      ],
+      "images": [
+        {
+          "commons": "File:Katra Vaishno Devi temple Seen1.jpg",
+          "alt": "The Vaishno Devi shrine buildings on the Trikuta hillside",
+          "caption": "Vaishno Devi, above Katra",
+          "hero": true
+        }
+      ],
+      "sections": {
+        "key_facts": {
+          "items": [
+            {
+              "title": "From Jammu",
+              "body": "42 km",
+              "status": "estimate"
+            },
+            {
+              "title": "Trek",
+              "body": "About 14 km",
+              "status": "estimate"
+            },
+            {
+              "title": "Registration",
+              "body": "RFID card required",
+              "status": "verified"
+            },
+            {
+              "title": "Train",
+              "body": "Katra–Srinagar since 2025",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "KT1",
+            "JS14",
+            "JS10"
+          ]
+        },
+        "overview": {
+          "text": "Katra, 42 km from Jammu, is the base town for the Vaishno Devi pilgrimage on Trikuta hill. Every pilgrim must register and carry an RFID Yatra Access Card. The trek is about 14 km; helicopters and battery cars are alternatives, a ropeway runs from the Bhawan to Bhairon ji from 9 am to 5 pm, and the Shrine Board runs free langars round the clock.\n\nKatra is also the start of the train line to Srinagar, opened in June 2025. Nearby are the Shiv Khori cave and the Siyad Baba waterfall.",
+          "facts": [
+            "KT1",
+            "JS14",
+            "KT2",
+            "JS10",
+            "KT3"
+          ]
+        },
+        "things_to_do": {
+          "items": [
+            {
+              "body": "Register for the yatra and collect the RFID card."
+            },
+            {
+              "body": "Walk or fly to the Bhawan."
+            },
+            {
+              "body": "Take the ropeway to Bhairon ji."
+            },
+            {
+              "body": "Visit Shiv Khori."
+            }
+          ],
+          "facts": [
+            "JS14",
+            "KT2",
+            "KT3"
+          ]
+        }
+      },
+      "parent": "jammu-and-kashmir"
+    },
+    {
+      "key": "jammu-and-kashmir/patnitop",
+      "kind": "town",
+      "name": "Patnitop",
+      "summary": "A deodar-wooded hill resort on the Jammu–Srinagar highway, with paragliding, a gondola and winter snow.",
+      "seoTitle": "Patnitop Travel Guide: Hills, Gondola & Snow",
+      "seoDescription": "Plan Patnitop: paragliding, the Sanget gondola, skiing at Natha Top, the Naag Mandir, the Chenani–Nashri tunnel and nearby Sanasar.",
+      "lat": 33.0833,
+      "lng": 75.3333,
+      "tripTypes": [
+        "mountains",
+        "family"
+      ],
+      "images": [
+        {
+          "commons": "File:Patnitop hill.jpg",
+          "alt": "Pine and deodar ridges on the slopes at Patnitop",
+          "caption": "Patnitop",
+          "hero": true
+        }
+      ],
+      "sections": {
+        "key_facts": {
+          "items": [
+            {
+              "title": "Known for",
+              "body": "Deodar woods, paragliding",
+              "status": "verified"
+            },
+            {
+              "title": "Tunnel",
+              "body": "Chenani–Nashri, 9.28 km",
+              "status": "verified"
+            },
+            {
+              "title": "Nearby",
+              "body": "Sanasar, 20 km",
+              "status": "estimate"
+            },
+            {
+              "title": "Winter",
+              "body": "Snow",
+              "status": "seasonal"
+            }
+          ],
+          "facts": [
+            "PT1",
+            "PT2",
+            "JS11",
+            "SN1"
+          ]
+        },
+        "overview": {
+          "text": "Patnitop is a hill resort on the Jammu–Srinagar highway amid deodar and pine, and a favourite stop for Vaishno Devi pilgrims. Its winter snow used to block the highway; the 9.28-km Chenani–Nashri tunnel now bypasses it.\n\nThere is paragliding in summer, a gondola from Sanget, skiing at Natha Top in winter and the 600-year-old Naag Mandir. Sanasar's meadows are 20 km west.\n\nOlder still is the Sudh Mahadev temple, believed to be about 2,800 years old, and near Dawariyai the Billo ki Powri stairway climbs 270 steps cut into the mountain.",
+          "facts": [
+            "PT1",
+            "JS11",
+            "PT2",
+            "SN1",
+            "PT3"
+          ]
+        },
+        "things_to_do": {
+          "items": [
+            {
+              "body": "Paraglide in summer."
+            },
+            {
+              "body": "Ride the gondola from Sanget."
+            },
+            {
+              "body": "Ski at Natha Top."
+            },
+            {
+              "body": "Visit the Naag Mandir."
+            }
+          ],
+          "facts": [
+            "PT2"
+          ]
+        }
+      },
+      "parent": "jammu-and-kashmir"
+    },
+    {
+      "key": "jammu-and-kashmir/sonamarg",
+      "kind": "town",
+      "name": "Sonamarg",
+      "summary": "The 'meadow of gold' on the Sindh at 2,730 m — Thajiwas glacier, high-lake treks and Baltal.",
+      "seoTitle": "Sonamarg Travel Guide: Thajiwas & Alpine Lakes",
+      "seoDescription": "Plan Sonamarg: Thajiwas glacier by taxi or pony, glacier safety, treks to Gangabal and Vishansar, Baltal, the Z-Morh tunnel and advisories.",
+      "lat": 34.3,
+      "lng": 75.29,
+      "tripTypes": [
+        "mountains",
+        "nature"
+      ],
+      "images": [
+        {
+          "commons": "File:Thajiwas Park, Sonamarg, Jammu and Kashmir, India.jpg",
+          "alt": "Meadows and snowfields below the peaks at Thajiwas, Sonamarg",
+          "caption": "Thajiwas, Sonamarg",
+          "hero": true
+        }
+      ],
+      "sections": {
+        "key_facts": {
+          "items": [
+            {
+              "title": "Altitude",
+              "body": "2,730 m",
+              "status": "verified"
+            },
+            {
+              "title": "Access",
+              "body": "All-weather via Z-Morh tunnel",
+              "status": "verified"
+            },
+            {
+              "title": "Airport",
+              "body": "Srinagar, about 102 km",
+              "status": "estimate"
+            },
+            {
+              "title": "Baltal",
+              "body": "15 km east",
+              "status": "estimate"
+            }
+          ],
+          "facts": [
+            "SM1",
+            "SM5",
+            "SM4"
+          ]
+        },
+        "overview": {
+          "text": "Sonamarg, 'meadow of gold', lies at 2,730 m on the Sindh, and the Z-Morh tunnel now gives it all-weather road access. Private vehicles aren't allowed on the road to Thajiwas Glacier — hire a taxi or a pony. In May 2024 part of a glacier near Thajiwas collapsed and a tourist died, so stay off unstable snow.\n\nTreks lead to Vishansar, Krishansar, Gangabal and Gadsar lakes, and Baltal, 15 km east, is the base for the Amarnath Yatra's northern route.",
+          "facts": [
+            "SM1",
+            "SM2",
+            "SM3",
+            "SM4",
+            "JS13"
+          ]
+        },
+        "safety_health": {
+          "items": [
+            {
+              "title": "Glacier",
+              "body": "Stay off unstable snow at Thajiwas — part of a glacier collapsed in May 2024, killing a tourist.",
+              "status": "verified"
+            },
+            {
+              "title": "Travel advice (checked Nov 2026)",
+              "body": "The UK FCDO advises against all travel to Jammu and Kashmir except flying to and staying within Jammu city — this can affect travel insurance. Check your own government's advice.",
+              "status": "verified"
+            },
+            {
+              "title": "Current closures",
+              "body": "Some sites closed after the April 2025 attack; most reopened in 2026, but Baisaran and Chandanwari near Pahalgam were still shut in April 2026. Ask locally before going.",
+              "status": "seasonal"
+            }
+          ],
+          "facts": [
+            "SM3",
+            "JS4",
+            "JS6",
+            "JS7"
+          ]
+        }
+      },
+      "parent": "jammu-and-kashmir"
+    },
+    {
+      "key": "jammu-and-kashmir/doodhpathri",
+      "kind": "town",
+      "name": "Doodhpathri",
+      "summary": "A summer bowl of meadows at 8,957 ft in Budgam, 42 km from Srinagar — cut off by winter snow.",
+      "seoTitle": "Doodhpathri Travel Guide: Meadows near Srinagar",
+      "seoDescription": "Plan Doodhpathri: the 'valley of milk' meadows at 8,957 ft, the summer season and winter closure, the 2026 reopening and getting there from Srinagar.",
+      "lat": 33.8714,
+      "lng": 74.5672,
+      "tripTypes": [
+        "nature"
+      ],
+      "images": [
+        {
+          "commons": "File:Meadows and Forests Doodhpathri southwest Jammu Kashmir India.jpg",
+          "alt": "Green meadows and pine woods at Doodhpathri",
+          "caption": "Doodhpathri",
+          "hero": true
+        }
+      ],
+      "sections": {
+        "key_facts": {
+          "items": [
+            {
+              "title": "Altitude",
+              "body": "8,957 ft",
+              "status": "verified"
+            },
+            {
+              "title": "From Srinagar",
+              "body": "About 42 km",
+              "status": "estimate"
+            },
+            {
+              "title": "Winter",
+              "body": "Inaccessible",
+              "status": "seasonal"
+            },
+            {
+              "title": "Status",
+              "body": "Reopened Feb 2026",
+              "status": "seasonal"
+            }
+          ],
+          "facts": [
+            "DP1",
+            "DP2",
+            "JS6"
+          ]
+        },
+        "overview": {
+          "text": "Doodhpathri, 'valley of milk', is a bowl of meadows at 8,957 ft in the Pir Panjal of Budgam district, about 42 km from Srinagar. There are no permanent settlements: snow cuts it off in winter, and in summer shepherds bring their herds up to graze.\n\nIt was among the sites reopened in February 2026 after closures that followed the April 2025 attack.",
+          "facts": [
+            "DP1",
+            "DP2",
+            "JS6"
+          ]
+        },
+        "safety_health": {
+          "items": [
+            {
+              "title": "Travel advice (checked Nov 2026)",
+              "body": "The UK FCDO advises against all travel to Jammu and Kashmir except flying to and staying within Jammu city — this can affect travel insurance. Check your own government's advice.",
+              "status": "verified"
+            },
+            {
+              "title": "Current closures",
+              "body": "Some sites closed after the April 2025 attack; most reopened in 2026, but Baisaran and Chandanwari near Pahalgam were still shut in April 2026. Ask locally before going.",
+              "status": "seasonal"
+            }
+          ],
+          "facts": [
+            "JS4",
+            "JS6",
+            "JS7"
+          ]
+        }
+      },
+      "parent": "jammu-and-kashmir"
+    },
+    {
+      "key": "jammu-and-kashmir/yusmarg",
+      "kind": "town",
+      "name": "Yusmarg",
+      "summary": "Meadows 47 km from Srinagar with treks to Sang-e-Safed and Nilnag Lake.",
+      "seoTitle": "Yusmarg Travel Guide: Meadows & Nilnag Lake",
+      "seoDescription": "Plan Yusmarg: meadows 47 km from Srinagar, treks to Sang-e-Safed and Nilnag Lake, Charar-e-Sharif, the 2026 reopening and advisories.",
+      "lat": 33.8333,
+      "lng": 74.6667,
+      "tripTypes": [
+        "nature"
+      ],
+      "images": [
+        {
+          "commons": "File:Nilnag Lake.jpg",
+          "alt": "Nilnag Lake among forested hills near Yusmarg",
+          "caption": "Nilnag Lake, near Yusmarg",
+          "hero": true
+        }
+      ],
+      "sections": {
+        "key_facts": {
+          "items": [
+            {
+              "title": "From Srinagar",
+              "body": "47 km",
+              "status": "estimate"
+            },
+            {
+              "title": "Treks",
+              "body": "Sang-e-Safed, Nilnag",
+              "status": "verified"
+            },
+            {
+              "title": "Shrine",
+              "body": "Charar-e-Sharif",
+              "status": "verified"
+            },
+            {
+              "title": "Status",
+              "body": "Reopened Feb 2026",
+              "status": "seasonal"
+            }
+          ],
+          "facts": [
+            "YM1",
+            "JS6"
+          ]
+        },
+        "overview": {
+          "text": "Yusmarg's meadows lie 47 km from Srinagar in Budgam district, with treks to the Sang-e-Safed valley and Nilnag Lake and the Charar-e-Sharif shrine in the area. Above the meadows rise Tattakutti (4,725 m) and Sunset Peak (4,746 m), and the slopes are skied in winter. It was among the sites reopened in February 2026.",
+          "facts": [
+            "YM1",
+            "YM2",
+            "JS6"
+          ]
+        },
+        "safety_health": {
+          "items": [
+            {
+              "title": "Travel advice (checked Nov 2026)",
+              "body": "The UK FCDO advises against all travel to Jammu and Kashmir except flying to and staying within Jammu city — this can affect travel insurance. Check your own government's advice.",
+              "status": "verified"
+            },
+            {
+              "title": "Current closures",
+              "body": "Some sites closed after the April 2025 attack; most reopened in 2026, but Baisaran and Chandanwari near Pahalgam were still shut in April 2026. Ask locally before going.",
+              "status": "seasonal"
+            }
+          ],
+          "facts": [
+            "JS4",
+            "JS6",
+            "JS7"
+          ]
+        }
+      },
+      "parent": "jammu-and-kashmir"
+    },
+    {
+      "key": "jammu-and-kashmir/gurez-valley",
+      "kind": "region",
+      "name": "Gurez Valley",
+      "summary": "A remote valley at about 2,400 m on the Line of Control, cut off by snow for half the year.",
+      "seoTitle": "Gurez Valley Travel Guide: Dawar & Habba Khatoon",
+      "seoDescription": "Plan Gurez: the valley at 2,400 m near the Line of Control, Dawar and Habba Khatoon peak, the Razdan Pass winter closure, reopening and advisories.",
+      "lat": 34.6333,
+      "lng": 74.8333,
+      "tripTypes": [
+        "mountains",
+        "nature"
+      ],
+      "images": [
+        {
+          "commons": "File:Dardshin.jpg",
+          "alt": "The Gurez valley below its mountains",
+          "caption": "Gurez Valley",
+          "hero": true
+        }
+      ],
+      "sections": {
+        "key_facts": {
+          "items": [
+            {
+              "title": "Altitude",
+              "body": "About 2,400 m",
+              "status": "verified"
+            },
+            {
+              "title": "Winter",
+              "body": "Cut off about six months",
+              "status": "seasonal"
+            },
+            {
+              "title": "Main town",
+              "body": "Dawar",
+              "status": "verified"
+            },
+            {
+              "title": "Border",
+              "body": "Near the Line of Control",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "GZ1"
+          ]
+        },
+        "overview": {
+          "text": "Gurez, at about 2,400 m in Bandipora district, lies near the Line of Control; Dawar is its main town and the pyramid peak of Habba Khatoon its landmark. Heavy snow closes the Razdan Pass and cuts the valley off for about six months a year.\n\nAfter closures that followed the April 2025 attack, Gurez was due to reopen in 2026 once snow cleared. Check current access and advice before going.",
+          "facts": [
+            "GZ1",
+            "JS6",
+            "JS4"
+          ]
+        },
+        "safety_health": {
+          "items": [
+            {
+              "title": "Travel advice (checked Nov 2026)",
+              "body": "The UK FCDO advises against all travel to Jammu and Kashmir except flying to and staying within Jammu city — this can affect travel insurance. Check your own government's advice.",
+              "status": "verified"
+            },
+            {
+              "title": "Current closures",
+              "body": "Some sites closed after the April 2025 attack; most reopened in 2026, but Baisaran and Chandanwari near Pahalgam were still shut in April 2026. Ask locally before going.",
+              "status": "seasonal"
+            }
+          ],
+          "facts": [
+            "JS4",
+            "JS6",
+            "JS7"
+          ]
+        }
+      },
       "parent": "jammu-and-kashmir"
     }
   ],

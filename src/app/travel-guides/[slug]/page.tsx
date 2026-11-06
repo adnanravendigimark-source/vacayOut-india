@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { cache } from "react";
-import Image from "next/image";
+import Image from "@/components/media/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { GuideArticle, guideAnchor } from "@/components/guides/guide-article";

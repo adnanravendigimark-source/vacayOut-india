@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import Image from "next/image";
+import Image from "@/components/media/image";
 import Link from "next/link";
 import { Icon } from "@/components/icons/icon";
 import { AiPlannerModal } from "@/components/chat/ai-planner-modal";

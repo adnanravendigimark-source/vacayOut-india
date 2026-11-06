@@ -1,4 +1,4 @@
-import Image from "next/image";
+import Image from "@/components/media/image";
 
 /** Small destination thumbnail. AI illustrations carry a visible "AI" mark. */
 export function DestinationThumb({ url, kind, name }: { url: string | null; kind: string | null; name: string }) {

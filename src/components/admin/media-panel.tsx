@@ -1,6 +1,6 @@
 "use client";
 
-import Image from "next/image";
+import Image from "@/components/media/image";
 import { useActionState } from "react";
 import { idle } from "@/lib/admin/action-state";
 import { deleteImageAction, setHeroAction, updateMediaAction, uploadImageAction } from "@/app/admin/(protected)/places/actions";

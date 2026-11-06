@@ -1,6 +1,6 @@
 "use client";
 
-import Image from "next/image";
+import Image from "@/components/media/image";
 import { Icon } from "@/components/icons/icon";
 import { SectionHeader } from "./section-header";
 import { routes } from "@/lib/routes";

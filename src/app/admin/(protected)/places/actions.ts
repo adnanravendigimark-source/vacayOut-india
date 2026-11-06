@@ -264,7 +264,7 @@ export async function uploadImageAction(placeId: string, _: ActionState, form: F
   const stored = await storeImage(`places/${place.slug}/${crypto.randomUUID()}.${EXT[type]}`, bytes, type);
   const [row] = await db
     .insert(media)
-    .values({ placeId, url: stored.url, storageKey: stored.storageKey, contentType: type, bytes: bytes.length, ...parsed.data, createdBy: user.id })
+    .values({ placeId, url: stored.url, storageKey: stored.storageKey, contentType: stored.contentType, bytes: stored.bytes, ...parsed.data, createdBy: user.id })
     .returning({ id: media.id });
   if (!place.heroMediaId) await db.update(places).set({ heroMediaId: row.id, updatedAt: new Date() }).where(eq(places.id, placeId));
   await audit({ actorId: user.id, action: "media.upload", entityType: "place", entityId: placeId, details: { mediaId: row.id, kind: parsed.data.kind } });

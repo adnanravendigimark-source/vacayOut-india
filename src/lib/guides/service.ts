@@ -187,12 +187,13 @@ export async function getGuideForAdmin(id: string) {
 
 export async function listPublishedGuides(): Promise<(GuideSnapshot & { publishedAt: Date | null })[]> {
   const rows = await getDb()
-    .select({ snap: travelGuides.publishedSnapshot, publishedAt: travelGuides.publishedAt })
+    .select({ slug: travelGuides.slug, snap: travelGuides.publishedSnapshot, publishedAt: travelGuides.publishedAt })
     .from(travelGuides)
     .innerJoin(places, eq(places.id, travelGuides.placeId))
     .where(and(eq(travelGuides.status, "published"), eq(places.status, "published")))
     .orderBy(desc(travelGuides.publishedAt));
-  return rows.filter((r) => r.snap).map((r) => ({ ...(r.snap as GuideSnapshot), publishedAt: r.publishedAt }));
+  // The row's slug is the URL key (the detail page looks it up by it); some older snapshots were saved without one.
+  return rows.filter((r) => r.snap).map((r) => ({ ...(r.snap as GuideSnapshot), slug: r.slug, publishedAt: r.publishedAt }));
 }
 
 export async function getPublishedGuide(slug: string) {
