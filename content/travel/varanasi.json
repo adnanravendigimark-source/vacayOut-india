@@ -78,6 +78,21 @@
       "url": "https://en.wikipedia.org/wiki/Sarnath_Museum",
       "title": "Sarnath Museum — Wikipedia",
       "authority": "reference"
+    },
+    "VN_GHAT": {
+      "url": "https://varanasi.nic.in/tourist-place/ganga-ghat/",
+      "title": "Ganga Ghat — District Varanasi, Government of Uttar Pradesh (official site)",
+      "authority": "government"
+    },
+    "II_VN_BHU": {
+      "url": "https://www.incredibleindia.gov.in/en/uttar-pradesh/varanasi/banaras-hindu-university",
+      "title": "Banaras Hindu University — Incredible India (Ministry of Tourism)",
+      "authority": "government"
+    },
+    "II_VN_10": {
+      "url": "https://www.incredibleindia.gov.in/en/uttar-pradesh/varanasi/10-unmissable-travel-and-food-experiences",
+      "title": "10 unmissable travel and food experiences in Varanasi — Incredible India (Ministry of Tourism)",
+      "authority": "government"
     }
   },
   "facts": {
@@ -738,6 +753,112 @@
           "quote": "Assi Ghat comes alive during the Magh Mela, a vibrant fair held in January-February."
         }
       ]
+    },
+    "VN2": {
+      "place": "uttar-pradesh/varanasi",
+      "topic": "88 ghats",
+      "claim": "Varanasi has 88 ghats; two are used only for cremations.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "VN_GHAT",
+          "quote": "The city has 88 ghats. Most of the ghats are bathing and puja ceremony ghats, while two ghats are used exclusively as cremation sites"
+        }
+      ]
+    },
+    "VNA1": {
+      "place": "uttar-pradesh/ganga-aarti-varanasi",
+      "topic": "When",
+      "claim": "The evening Ganga Aarti at Dashashwamedh Ghat lasts about 45 minutes, starting around 6:30 pm in summer and 7 pm in winter.",
+      "claimType": "schedule",
+      "evidence": [
+        {
+          "source": "II_VN_10",
+          "quote": "The evening aarti lasts around 45 minutes and takes place every day after sunset at 6:30 p.m. in the summer and 7:00 p.m. in the winter. The aarti takes place in the Dashashwamedh ghat"
+        }
+      ],
+      "kind": "seasonal"
+    },
+    "VNA2": {
+      "place": "uttar-pradesh/ganga-aarti-varanasi",
+      "topic": "Where to watch",
+      "claim": "Watch from the ghat steps or from a boat, and arrive an hour early for a good spot.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_VN_10",
+          "quote": "The visitors can witness the beauty of the aarti from the steps of the ghats, the boats, or the canopy of the Ganga Sewa Nidhi office. However, it is preferable to be at the venue at least an hour ahead of time"
+        }
+      ]
+    },
+    "VNA3": {
+      "place": "uttar-pradesh/ganga-boat-ride-varanasi",
+      "topic": "Sunrise boat",
+      "claim": "A morning rowing-boat trip gives the best view of the ghats and their dawn rituals.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_VN_10",
+          "quote": "The morning rowing boat trip is one of Varanasi’s must-dos, as it provides the greatest view of the city."
+        },
+        {
+          "source": "II_VN_10",
+          "quote": "With a sunrise boat trip in the Ganges River, you could immerse yourself in Hindu culture and customs by witnessing the vibrant ceremonies on the ghats at daybreak."
+        }
+      ]
+    },
+    "VNA4": {
+      "place": "uttar-pradesh/ganga-boat-ride-varanasi",
+      "topic": "Dev Deepavali",
+      "claim": "On Dev Deepavali, the full moon 15 days after Diwali, the ghats are lit with lamps.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_VN_10",
+          "quote": "On the full moon 15 nights after Diwali, the holy city celebrates Dev Deepavali"
+        }
+      ],
+      "kind": "seasonal"
+    },
+    "VNB1": {
+      "place": "uttar-pradesh/banaras-hindu-university",
+      "topic": "BHU campus",
+      "claim": "Banaras Hindu University, founded in 1916 by Madan Mohan Malviya, has the New Vishwanath Temple and the Bharat Kala Bhavan museum on its 1,300-acre campus.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_VN_BHU",
+          "quote": "Established in 1916 by Pandit Madan Mohan Malviya"
+        },
+        {
+          "source": "II_VN_BHU",
+          "quote": "the campus is home to the New Kashi Vishwanath Temple, the fascinating Bharat Kala Bhavan Museum, an airstrip, and other notable structures, all spread over 1300 acres"
+        }
+      ]
+    },
+    "VNB2": {
+      "place": "uttar-pradesh/banaras-hindu-university",
+      "topic": "Bharat Kala Bhavan",
+      "claim": "Bharat Kala Bhavan holds artefacts, coins, sculptures and paintings.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_VN_BHU",
+          "quote": "the Bharat Kala Bhavan, which houses a treasure trove of artifacts, coins, sculptures, and paintings"
+        }
+      ]
+    },
+    "VNB4": {
+      "place": "uttar-pradesh/varanasi",
+      "topic": "Banarasi saris",
+      "claim": "A Banarasi silk sari can take from fifteen days to six months to weave.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_VN_10",
+          "quote": "A Banarasi Saree can take anything from fifteen days to a month, and occasionally up to six months to produce"
+        }
+      ]
     }
   },
   "places": [
@@ -982,6 +1103,19 @@
           "facts": [
             "KV3",
             "V12"
+          ]
+        },
+        "shopping": {
+          "items": [
+            {
+              "body": "Banarasi silk saris — a single sari can take from fifteen days to six months to weave."
+            },
+            {
+              "body": "Buy from established weavers' shops and ask to see the handwork."
+            }
+          ],
+          "facts": [
+            "VNB4"
           ]
         }
       },
@@ -1340,6 +1474,255 @@
           "facts": []
         }
       }
+    },
+    {
+      "key": "uttar-pradesh/ganga-aarti-varanasi",
+      "kind": "activity",
+      "name": "Evening Ganga Aarti at Dashashwamedh Ghat",
+      "summary": "Varanasi's nightly 45-minute river ceremony of lamps, bells and chants — watch from the ghat steps or a boat.",
+      "seoTitle": "Ganga Aarti Varanasi: Timings, Best Spot & Tips",
+      "seoDescription": "Watch the evening Ganga Aarti at Dashashwamedh Ghat in Varanasi: start time in summer and winter, how long it lasts, where to watch from and when to arrive.",
+      "lat": 25.3072,
+      "lng": 83.0103,
+      "tripTypes": [
+        "spiritual"
+      ],
+      "images": [
+        {
+          "commons": "File:Ganga Aarti at Varanasi in the evening.jpg",
+          "alt": "Priests in saffron performing the Ganga Aarti amid clouds of incense smoke at Dashashwamedh Ghat, Varanasi",
+          "caption": "Ganga Aarti, Dashashwamedh Ghat",
+          "hero": true
+        }
+      ],
+      "sections": {
+        "overview": {
+          "text": "Every evening after sunset, priests at Dashashwamedh Ghat perform the Ganga Aarti — a 45-minute offering to the river with great brass lamps, conch shells, bells and chanting. It starts around 6:30 pm in summer and 7 pm in winter.\n\nYou can watch from the steps of the ghats, from a boat on the river, or from the canopy of the Ganga Sewa Nidhi office. Arrive at least an hour early to get a good spot — the ghat fills up fast.",
+          "facts": [
+            "VNA1",
+            "VNA2"
+          ]
+        },
+        "key_facts": {
+          "items": [
+            {
+              "title": "Where",
+              "body": "Dashashwamedh Ghat",
+              "status": "verified"
+            },
+            {
+              "title": "Starts",
+              "body": "About 6:30 pm in summer, 7 pm in winter",
+              "status": "seasonal"
+            },
+            {
+              "title": "Lasts",
+              "body": "About 45 minutes",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "VNA1"
+          ]
+        },
+        "travel_tips": {
+          "items": [
+            {
+              "body": "Arrive an hour before the start."
+            },
+            {
+              "body": "Watching from a boat avoids the crush on the steps."
+            }
+          ],
+          "facts": [
+            "VNA2"
+          ]
+        },
+        "things_to_do": {
+          "items": [
+            {
+              "body": "Watch from a boat on the river for a different view."
+            },
+            {
+              "body": "Stay on afterwards and walk the ghats as the lamps burn down."
+            }
+          ],
+          "facts": [
+            "VNA2"
+          ]
+        }
+      },
+      "parent": "uttar-pradesh/varanasi",
+      "category": "spiritual",
+      "relations": [
+        {
+          "to": "uttar-pradesh/ganga-boat-ride-varanasi",
+          "type": "nearby"
+        }
+      ]
+    },
+    {
+      "key": "uttar-pradesh/ganga-boat-ride-varanasi",
+      "kind": "activity",
+      "name": "Sunrise boat ride on the Ganga",
+      "summary": "Row past Varanasi's 88 ghats at dawn as the city bathes and prays — the best view of the city.",
+      "seoTitle": "Varanasi Sunrise Boat Ride: Ghats, Timing & Tips",
+      "seoDescription": "Take a sunrise boat ride on the Ganga in Varanasi: what you'll see on the 88 ghats, why dawn is best, Dev Deepavali, and tips for hiring a boat.",
+      "lat": 25.306,
+      "lng": 83.011,
+      "tripTypes": [
+        "spiritual",
+        "romantic"
+      ],
+      "images": [
+        {
+          "commons": "File:Boats at sunrise Ganges River Varanasi Uttar Pradesh Schwiki.jpg",
+          "alt": "Rowing boats moored on the Ganga at sunrise in Varanasi",
+          "caption": "Boats on the Ganga at sunrise",
+          "hero": true
+        }
+      ],
+      "sections": {
+        "overview": {
+          "text": "A morning rowing-boat trip is one of Varanasi's must-dos and gives the best view of the city. At daybreak the 88 ghats come alive with bathers, priests and pujas; two of them are used only for cremations, which you'll pass from a respectful distance.\n\nOn Dev Deepavali — the full moon fifteen days after Diwali — the ghats are lit with lamps, and an evening boat ride becomes unforgettable.",
+          "facts": [
+            "VNA3",
+            "VN2",
+            "VNA4"
+          ]
+        },
+        "travel_tips": {
+          "items": [
+            {
+              "body": "Go at dawn for soft light and the morning rituals."
+            },
+            {
+              "body": "Come back for an evening boat to watch the Ganga Aarti from the river."
+            },
+            {
+              "body": "On Dev Deepavali, book a boat early — every one is taken."
+            }
+          ],
+          "facts": [
+            "VNA3",
+            "VNA4"
+          ]
+        },
+        "key_facts": {
+          "items": [
+            {
+              "title": "Best time",
+              "body": "Sunrise",
+              "status": "verified"
+            },
+            {
+              "title": "You'll pass",
+              "body": "Many of Varanasi's 88 ghats",
+              "status": "verified"
+            },
+            {
+              "title": "Special night",
+              "body": "Dev Deepavali, 15 days after Diwali"
+            }
+          ],
+          "facts": [
+            "VNA3",
+            "VN2",
+            "VNA4"
+          ]
+        }
+      },
+      "parent": "uttar-pradesh/varanasi",
+      "category": "spiritual",
+      "relations": [
+        {
+          "to": "uttar-pradesh/ganga-aarti-varanasi",
+          "type": "nearby"
+        }
+      ]
+    },
+    {
+      "key": "uttar-pradesh/banaras-hindu-university",
+      "kind": "attraction",
+      "name": "Banaras Hindu University",
+      "summary": "BHU's leafy 1,300-acre campus, founded in 1916, with the New Vishwanath Temple and the Bharat Kala Bhavan museum.",
+      "seoTitle": "Banaras Hindu University: Bharat Kala Bhavan & Temple",
+      "seoDescription": "Visit Banaras Hindu University in Varanasi: the campus founded in 1916 by Madan Mohan Malviya, the New Vishwanath Temple and the Bharat Kala Bhavan museum.",
+      "lat": 25.2677,
+      "lng": 82.9891,
+      "tripTypes": [
+        "heritage",
+        "family"
+      ],
+      "images": [
+        {
+          "commons": "File:Bharat Kala Bhavan Museum, Banaras Hindu University, Varanasi.jpg",
+          "alt": "The white and red Bharat Kala Bhavan museum building behind a fountain at Banaras Hindu University",
+          "caption": "Bharat Kala Bhavan, BHU",
+          "hero": true
+        }
+      ],
+      "sections": {
+        "overview": {
+          "text": "Banaras Hindu University was founded in 1916 by Pandit Madan Mohan Malviya and spreads over about 1,300 acres of tree-lined avenues — a calm change from the old city's lanes.\n\nTwo places on campus are worth a visit: the New Vishwanath Temple, and the Bharat Kala Bhavan museum, whose collection of artefacts, coins, sculptures and paintings opens a window on India's past. The campus is a short ride from Assi Ghat.",
+          "facts": [
+            "VNB1",
+            "VNB2"
+          ]
+        },
+        "travel_tips": {
+          "items": [
+            {
+              "body": "Combine BHU with Assi Ghat and the Tulsi Manas Mandir."
+            },
+            {
+              "body": "Allow an hour or two for Bharat Kala Bhavan."
+            }
+          ],
+          "facts": [
+            "VNB1",
+            "VNB2"
+          ]
+        },
+        "things_to_do": {
+          "items": [
+            {
+              "body": "Visit the New Vishwanath Temple on campus."
+            },
+            {
+              "body": "Spend an hour or two among the coins, sculptures and paintings of Bharat Kala Bhavan."
+            }
+          ],
+          "facts": [
+            "VNB1",
+            "VNB2"
+          ]
+        },
+        "key_facts": {
+          "items": [
+            {
+              "title": "Founded",
+              "body": "1916, by Pandit Madan Mohan Malviya",
+              "status": "verified"
+            },
+            {
+              "title": "Campus",
+              "body": "About 1,300 acres",
+              "status": "verified"
+            },
+            {
+              "title": "Don't miss",
+              "body": "Bharat Kala Bhavan museum and the New Vishwanath Temple",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "VNB1",
+            "VNB2"
+          ]
+        }
+      },
+      "parent": "uttar-pradesh/varanasi"
     }
   ],
   "itineraries": [
@@ -1499,6 +1882,69 @@
         "V6",
         "V7",
         "MG1"
+      ],
+      "sources": []
+    }
+  ],
+  "guides": [
+    {
+      "place": "uttar-pradesh/varanasi",
+      "places": [
+        "uttar-pradesh/ganga-aarti-varanasi",
+        "uttar-pradesh/ganga-boat-ride-varanasi"
+      ],
+      "slug": "varanasi-ganga-aarti-and-boat-ride-guide",
+      "title": "Varanasi Ganga Aarti and boat ride guide",
+      "summary": "When the evening Ganga Aarti starts, where to watch it, and how to plan a sunrise boat ride past the 88 ghats.",
+      "tripTypes": [
+        "spiritual"
+      ],
+      "seoTitle": "Ganga Aarti & Boat Ride in Varanasi: Timings & Tips",
+      "seoDescription": "Plan the Ganga Aarti at Dashashwamedh Ghat (start times, best viewpoints) and a sunrise boat ride past Varanasi's 88 ghats, plus Dev Deepavali.",
+      "body": {
+        "intro": "The river is Varanasi's heart. These are the two experiences no visitor should miss.",
+        "sections": [
+          {
+            "heading": "Ganga Aarti",
+            "items": [
+              {
+                "title": "Where",
+                "body": "Dashashwamedh Ghat.",
+                "status": "verified"
+              },
+              {
+                "title": "When",
+                "body": "Every evening after sunset — about 6:30 pm in summer and 7 pm in winter — for around 45 minutes.",
+                "status": "seasonal"
+              },
+              {
+                "title": "Where to watch",
+                "body": "From the ghat steps, a boat, or the canopy of the Ganga Sewa Nidhi office. Arrive an hour early.",
+                "status": "verified"
+              }
+            ]
+          },
+          {
+            "heading": "Sunrise boat ride",
+            "text": "A morning rowing-boat trip gives the best view of the city, as the ghats fill with bathers and prayers at daybreak. Varanasi has 88 ghats; two are used only for cremations — don't photograph them."
+          },
+          {
+            "heading": "Dev Deepavali",
+            "text": "On the full moon fifteen days after Diwali, the ghats are lit with lamps — the most magical night to be on the river."
+          }
+        ],
+        "checklist": [
+          "Arrive an hour early for the aarti",
+          "Agree the boat fare first",
+          "Respect the cremation ghats"
+        ]
+      },
+      "facts": [
+        "VNA1",
+        "VNA2",
+        "VNA3",
+        "VN2",
+        "VNA4"
       ],
       "sources": []
     }

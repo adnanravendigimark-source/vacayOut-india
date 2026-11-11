@@ -14,10 +14,12 @@ export function placePath(r: PlaceRow): string | null {
 
 export const itineraryPath = (slug: string) => `/itineraries/${slug}`;
 export const guidePath = (slug: string) => `/travel-guides/${slug}`;
+export const BLOG_PATH = "/blog";
+export const blogPostPath = (slug: string) => `${BLOG_PATH}/${slug}`;
 
 /** Every public page worth keeping warm, hubs first (they're the most visited and link to the rest). */
-export function publicPaths(input: { places: PlaceRow[]; itineraries: { slug: string }[]; guides: { slug: string }[] }): string[] {
-  const out: string[] = [...HUB_PATHS];
+export function publicPaths(input: { places: PlaceRow[]; itineraries: { slug: string }[]; guides: { slug: string }[]; posts?: { slug: string }[] }): string[] {
+  const out: string[] = [...HUB_PATHS, BLOG_PATH];
   // States before destinations: a state page is the entry point to all of its destinations.
   const sorted = [...input.places].sort((a, b) => Number(b.kind === "state") - Number(a.kind === "state"));
   for (const r of sorted) {
@@ -26,6 +28,7 @@ export function publicPaths(input: { places: PlaceRow[]; itineraries: { slug: st
   }
   for (const it of input.itineraries) if (it.slug) out.push(itineraryPath(it.slug));
   for (const g of input.guides) if (g.slug) out.push(guidePath(g.slug));
+  for (const b of input.posts ?? []) if (b.slug) out.push(blogPostPath(b.slug));
   return [...new Set(out)];
 }
 

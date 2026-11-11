@@ -1,0 +1,428 @@
+{
+  "cluster": "uttar-pradesh-routes",
+  "title": "Uttar Pradesh multi-city routes",
+  "researchedAt": "2026-11-10",
+  "selection": "Multi-city plans across Uttar Pradesh. Facts are copies of those in the Varanasi and Uttar Pradesh clusters (same place, topic and claim, so the seed reuses them).",
+  "sources": {
+    "II_VN_10": {
+      "url": "https://www.incredibleindia.gov.in/en/uttar-pradesh/varanasi/10-unmissable-travel-and-food-experiences",
+      "title": "10 unmissable travel and food experiences in Varanasi — Incredible India (Ministry of Tourism)",
+      "authority": "government"
+    },
+    "VN_REACH": {
+      "url": "https://varanasi.nic.in/how-to-reach/",
+      "title": "How to reach — District Varanasi, Government of Uttar Pradesh (official site)",
+      "authority": "government"
+    },
+    "PR_SANGAM": {
+      "url": "https://prayagraj.nic.in/tourist-place/sangam/",
+      "title": "Kumbh Mela and Sangam — District Prayagraj, Government of Uttar Pradesh (official site)",
+      "authority": "government"
+    },
+    "PR_ANAND": {
+      "url": "https://prayagraj.nic.in/tourist-place/anand-bhawan/",
+      "title": "Anand Bhawan — District Prayagraj, Government of Uttar Pradesh (official site)",
+      "authority": "government"
+    },
+    "AY_REACH": {
+      "url": "https://ayodhya.nic.in/how-to-reach/",
+      "title": "How to reach — District Ayodhya, Government of Uttar Pradesh (official site)",
+      "authority": "government"
+    },
+    "AY_HG": {
+      "url": "https://ayodhya.nic.in/tourist-place/hanuman-garhi/",
+      "title": "Hanuman Garhi — District Ayodhya, Government of Uttar Pradesh (official site)",
+      "authority": "government"
+    },
+    "SRJBT": {
+      "url": "https://srjbtkshetra.org/",
+      "title": "Shri Ram Janmbhoomi Teerth Kshetra — official website of the temple trust",
+      "authority": "other"
+    },
+    "AY_RKP": {
+      "url": "https://ayodhya.nic.in/tourist-place/ram-ki-paidi/",
+      "title": "Ram Ki Paidi — District Ayodhya, Government of Uttar Pradesh (official site)",
+      "authority": "government"
+    },
+    "LK_BI": {
+      "url": "https://lucknow.nic.in/tourist-place/bada-imambara/",
+      "title": "Asafi Imambada (Bara Imambara) — District Lucknow, Government of Uttar Pradesh (official site)",
+      "authority": "government"
+    },
+    "II_LK_BI": {
+      "url": "https://www.incredibleindia.gov.in/en/uttar-pradesh/lucknow/bara-imambara",
+      "title": "Bara Imambara — Incredible India (Ministry of Tourism)",
+      "authority": "government"
+    },
+    "LK_REACH": {
+      "url": "https://lucknow.nic.in/how-to-reach/",
+      "title": "How to reach — District Lucknow, Government of Uttar Pradesh (official site)",
+      "authority": "government"
+    }
+  },
+  "facts": {
+    "VNA1": {
+      "place": "uttar-pradesh/ganga-aarti-varanasi",
+      "topic": "When",
+      "claim": "The evening Ganga Aarti at Dashashwamedh Ghat lasts about 45 minutes, starting around 6:30 pm in summer and 7 pm in winter.",
+      "claimType": "schedule",
+      "evidence": [
+        {
+          "source": "II_VN_10",
+          "quote": "The evening aarti lasts around 45 minutes and takes place every day after sunset at 6:30 p.m. in the summer and 7:00 p.m. in the winter. The aarti takes place in the Dashashwamedh ghat"
+        }
+      ],
+      "kind": "seasonal"
+    },
+    "VNA2": {
+      "place": "uttar-pradesh/ganga-aarti-varanasi",
+      "topic": "Where to watch",
+      "claim": "Watch from the ghat steps or from a boat, and arrive an hour early for a good spot.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_VN_10",
+          "quote": "The visitors can witness the beauty of the aarti from the steps of the ghats, the boats, or the canopy of the Ganga Sewa Nidhi office. However, it is preferable to be at the venue at least an hour ahead of time"
+        }
+      ]
+    },
+    "VNA3": {
+      "place": "uttar-pradesh/ganga-boat-ride-varanasi",
+      "topic": "Sunrise boat",
+      "claim": "A morning rowing-boat trip gives the best view of the ghats and their dawn rituals.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_VN_10",
+          "quote": "The morning rowing boat trip is one of Varanasi’s must-dos, as it provides the greatest view of the city."
+        },
+        {
+          "source": "II_VN_10",
+          "quote": "With a sunrise boat trip in the Ganges River, you could immerse yourself in Hindu culture and customs by witnessing the vibrant ceremonies on the ghats at daybreak."
+        }
+      ]
+    },
+    "VN1": {
+      "place": "uttar-pradesh/varanasi",
+      "topic": "Airport",
+      "claim": "Varanasi's LBS airport at Babatpur is 22 km from the city and 30 km from Sarnath, with domestic and some international flights.",
+      "claimType": "distance",
+      "evidence": [
+        {
+          "source": "VN_REACH",
+          "quote": "Several airlines operates the flights from LBS airport Babatpur which is 22 km. from Varanasi and 30 km. from Sarnath. There is both Domestic and International flights available from Babatpur Airport Varanasi."
+        }
+      ]
+    },
+    "PRS1": {
+      "place": "uttar-pradesh/triveni-sangam",
+      "topic": "Where the rivers meet",
+      "claim": "At the Sangam the brown Ganga meets the green Yamuna, about 7 km from Civil Lines below the ramparts of Akbar's fort.",
+      "claimType": "distance",
+      "evidence": [
+        {
+          "source": "PR_SANGAM",
+          "quote": "This is the point where the brown water of the Ganga meets the green water of the Yamuna, along with the mythical Saraswati, which remains unseen but believed to run underground. It is located about 7 km from Civil Lines, overlooked by the eastern ramparts of the Akbar Fort."
+        }
+      ]
+    },
+    "PRS2": {
+      "place": "uttar-pradesh/triveni-sangam",
+      "topic": "Boats and rituals",
+      "claim": "Boats to the Sangam can be hired at the ghat near the fort; priests on mid-river platforms help pilgrims with their ritual bath.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "PR_SANGAM",
+          "quote": "At the mid-river point priests perch on small platforms to perform puja and assist the devout in their ritual ablutions in the shallow waters."
+        },
+        {
+          "source": "PR_SANGAM",
+          "quote": "Boats to the Sangam can be rented by pilgrims and tourists alike at the ghat near the fort."
+        }
+      ]
+    },
+    "PRS5": {
+      "place": "uttar-pradesh/anand-bhawan",
+      "topic": "Nehru family home",
+      "claim": "Anand Bhawan, built by Motilal Nehru, is a house museum of the Nehru family and has the Jawahar Planetarium.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "PR_ANAND",
+          "quote": "The Anand Bhawan is a historic house museum in Allahabad, which belongs to the Nehru family."
+        },
+        {
+          "source": "PR_ANAND",
+          "quote": "The Bhawan houses the Jawahar Planetarium."
+        }
+      ]
+    },
+    "AY7": {
+      "place": "uttar-pradesh/ayodhya",
+      "topic": "By road",
+      "claim": "UPSRTC buses run 24 hours; Ayodhya is about 130 km from Lucknow, 160 km from Prayagraj, 200 km from Varanasi and 636 km from Delhi.",
+      "claimType": "distance",
+      "evidence": [
+        {
+          "source": "AY_REACH",
+          "quote": "Services of Uttar Pradesh State Road Transport Corporation buses are available 24 hours a day"
+        },
+        {
+          "source": "AY_REACH",
+          "quote": "The city is about 130 k.m. from Lucknow, 200 k.m. from Varanasi, 160 k.m. from Prayagraj , 140 k.m. from Gorakhpur and about 636 k.m. from Delhi."
+        }
+      ]
+    },
+    "AYS2": {
+      "place": "uttar-pradesh/hanuman-garhi",
+      "topic": "Guardian of Ayodhya",
+      "claim": "Tradition holds that Hanuman lived here to guard Ayodhya; the temple is said to have been built by Vikramaditya.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "AY_HG",
+          "quote": "Vikramaditya got a temple constructed which later on came to be known as Hanuman Garhi. It is believed that Lord Hanuman (Pavan Putra) lived here guard Ayodhya."
+        }
+      ]
+    },
+    "RM3": {
+      "place": "uttar-pradesh/shri-ram-janmabhoomi-mandir",
+      "topic": "Free passes",
+      "claim": "The temple trust issues free passes for darshan and aarti and charges no fee for them.",
+      "claimType": "rule",
+      "evidence": [
+        {
+          "source": "SRJBT",
+          "quote": "Trust does not charge any fee for aarti & darshan passes"
+        }
+      ]
+    },
+    "AYS5": {
+      "place": "uttar-pradesh/ram-ki-paidi",
+      "topic": "Ghats on the Saryu",
+      "claim": "Ram ki Paidi is a series of ghats on the Saryu, floodlit at night, where pilgrims bathe.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "AY_RKP",
+          "quote": "Ram ki Paidi is a series of ghats on the bank of River Saryu. The river front brings forth an outstanding Landscape especially in floodlit night."
+        },
+        {
+          "source": "AY_RKP",
+          "quote": "These serve as platforms to devotees who it is said, come to wash away their sins by taking a dip in the river."
+        }
+      ]
+    },
+    "LKS2": {
+      "place": "uttar-pradesh/bara-imambara",
+      "topic": "Vaulted hall",
+      "claim": "Its central hall is the largest vaulted hall in the world, built without wooden or metal supports.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "LK_BI",
+          "quote": "the structure’s design eschewed woodwork, except for the interior galleries, and boasts the world’s largest vaulted hall"
+        },
+        {
+          "source": "II_LK_BI",
+          "quote": "The central hall, a proof of ingenious engineering, boasts the largest arched roof in the world without any wooden or metal support."
+        }
+      ]
+    },
+    "LK7": {
+      "place": "uttar-pradesh/lucknow",
+      "topic": "Airport",
+      "claim": "Chaudhary Charan Singh International Airport is at Amausi, 14 km from the city centre, with direct flights to many Indian cities and the Gulf.",
+      "claimType": "distance",
+      "evidence": [
+        {
+          "source": "LK_REACH",
+          "quote": "Situated in Amausi, 14 kilometers from the city’s nucleus, this airport was formerly known as Amausi Airport."
+        },
+        {
+          "source": "LK_REACH",
+          "quote": "International connections to: Muscat, Dammam, Dubai, Abu Dhabi, Jeddah, Sharjah, Bangkok, Kuala Lumpur, and Ras-al-Khaymah."
+        }
+      ]
+    }
+  },
+  "places": [],
+  "itineraries": [
+    {
+      "place": "uttar-pradesh",
+      "slug": "uttar-pradesh-spiritual-circuit-6-days",
+      "title": "Uttar Pradesh spiritual circuit: Varanasi, Prayagraj, Ayodhya and Lucknow in 6 days",
+      "durationDays": 6,
+      "tripTypes": [
+        "spiritual",
+        "heritage"
+      ],
+      "summary": "Ganga Aarti and a sunrise boat in Varanasi, the Sangam in Prayagraj, the temples of Ayodhya, and Lucknow's Imambaras to finish — with a travel day between each city.",
+      "seoTitle": "Uttar Pradesh Spiritual Tour: 6-Day Itinerary",
+      "seoDescription": "A 6-day UP circuit: Varanasi's Ganga Aarti and boat ride, Prayagraj's Triveni Sangam, Ayodhya's Ram Mandir and Hanuman Garhi, ending in Lucknow.",
+      "facts": [
+        "VNA1",
+        "VNA2",
+        "VNA3",
+        "VN1",
+        "PRS1",
+        "PRS2",
+        "PRS5",
+        "AY7",
+        "AYS2",
+        "RM3",
+        "AYS5",
+        "LKS2",
+        "LK7"
+      ],
+      "sources": [],
+      "plan": {
+        "overview": "Four cities along a natural route from east to west. Distances are long, so the moves happen on the mornings of travel days and each city gets at least one full day. Check current train and road options for each leg.",
+        "start": "Varanasi (LBS airport, 22 km from the city)",
+        "end": "Lucknow (airport 14 km from the centre)",
+        "transport": "Train or cab between cities; Ayodhya is about 160 km from Prayagraj and 130 km from Lucknow by road.",
+        "season": "October to March. Avoid the Magh Mela (mid-January to mid-February) unless you want the crowds.",
+        "days": [
+          {
+            "title": "Day 1: Varanasi — ghats and Ganga Aarti",
+            "summary": "Morning: arrive and settle in.\n\nAfternoon: walk the ghats from Assi northwards.\n\nEvening: the Ganga Aarti at Dashashwamedh — arrive an hour early.",
+            "stops": [
+              {
+                "name": "Ganga Aarti",
+                "time": "Evening",
+                "placeSlug": "uttar-pradesh/ganga-aarti-varanasi",
+                "duration": "1.5 hours"
+              }
+            ],
+            "overnight": "Varanasi"
+          },
+          {
+            "title": "Day 2: Varanasi — sunrise boat and BHU",
+            "summary": "Morning: a sunrise boat ride past the ghats.\n\nAfternoon: Banaras Hindu University and Bharat Kala Bhavan; rest.\n\nEvening: Varanasi street food.",
+            "stops": [
+              {
+                "name": "Sunrise boat ride",
+                "time": "Dawn",
+                "placeSlug": "uttar-pradesh/ganga-boat-ride-varanasi",
+                "duration": "1.5 hours"
+              },
+              {
+                "name": "Banaras Hindu University",
+                "time": "Afternoon",
+                "placeSlug": "uttar-pradesh/banaras-hindu-university",
+                "duration": "2 hours"
+              }
+            ],
+            "overnight": "Varanasi"
+          },
+          {
+            "title": "Day 3: Travel to Prayagraj; Anand Bhawan",
+            "summary": "Morning: travel day to Prayagraj — check current trains and road options.\n\nAfternoon: Anand Bhawan and Swaraj Bhawan.\n\nEvening: rest.",
+            "stops": [
+              {
+                "name": "Anand Bhawan",
+                "time": "Afternoon",
+                "placeSlug": "uttar-pradesh/anand-bhawan",
+                "duration": "1.5 hours"
+              }
+            ],
+            "overnight": "Prayagraj"
+          },
+          {
+            "title": "Day 4: The Sangam, then on to Ayodhya",
+            "summary": "Morning: boat to the Triveni Sangam at sunrise.\n\nAfternoon: travel day to Ayodhya (about 160 km by road).\n\nEvening: Ram ki Paidi's floodlit ghats.",
+            "stops": [
+              {
+                "name": "Triveni Sangam",
+                "time": "Sunrise",
+                "placeSlug": "uttar-pradesh/triveni-sangam",
+                "duration": "2 hours"
+              },
+              {
+                "name": "Ram ki Paidi",
+                "time": "Evening",
+                "placeSlug": "uttar-pradesh/ram-ki-paidi",
+                "duration": "1 hour"
+              }
+            ],
+            "overnight": "Ayodhya"
+          },
+          {
+            "title": "Day 5: Ayodhya's temples",
+            "summary": "Morning: Hanuman Garhi, then the Ram Janmabhoomi Mandir with your free pass.\n\nAfternoon: rest, then Kanak Bhawan.\n\nEvening: quiet evening by the Saryu.",
+            "stops": [
+              {
+                "name": "Hanuman Garhi",
+                "time": "Early morning",
+                "placeSlug": "uttar-pradesh/hanuman-garhi",
+                "duration": "1 hour"
+              },
+              {
+                "name": "Shri Ram Janmabhoomi Mandir",
+                "time": "Morning",
+                "placeSlug": "uttar-pradesh/shri-ram-janmabhoomi-mandir",
+                "duration": "2–3 hours"
+              },
+              {
+                "name": "Kanak Bhawan",
+                "time": "Afternoon",
+                "placeSlug": "uttar-pradesh/kanak-bhawan",
+                "duration": "1 hour"
+              }
+            ],
+            "overnight": "Ayodhya"
+          },
+          {
+            "title": "Day 6: Lucknow",
+            "summary": "Morning: travel to Lucknow (about 130 km).\n\nAfternoon: the Bara Imambara and Bhul Bhulaiya.\n\nEvening: a kebab supper in Chowk before your onward flight or train.",
+            "stops": [
+              {
+                "name": "Bara Imambara",
+                "time": "Afternoon",
+                "placeSlug": "uttar-pradesh/bara-imambara",
+                "duration": "2 hours"
+              },
+              {
+                "name": "Lucknow food walk",
+                "time": "Evening",
+                "placeSlug": "uttar-pradesh/lucknow-food-walk",
+                "duration": "2 hours"
+              }
+            ],
+            "overnight": "Lucknow"
+          }
+        ],
+        "budget": {
+          "assumptions": "VacayOut lists only fees it could check with an official source; hotels, transport and meals are not estimated. Check current prices before you book.",
+          "lines": [
+            {
+              "label": "Ram Mandir passes",
+              "amount": "Free",
+              "basis": "Temple trust"
+            }
+          ]
+        },
+        "booking": [
+          {
+            "item": "Trains or cabs",
+            "detail": "Book the Varanasi–Prayagraj and Prayagraj–Ayodhya legs ahead."
+          },
+          {
+            "item": "Ram Mandir pass",
+            "detail": "Reserve free online."
+          }
+        ],
+        "alternatives": [
+          "Seven days? Add a second day in Lucknow.",
+          "Buddhist interest? Add Sarnath from Varanasi and Kushinagar via Gorakhpur."
+        ],
+        "tips": [
+          "Keep travel to mornings and rest in the afternoon heat.",
+          "Dress modestly for temples and ghats."
+        ]
+      }
+    }
+  ],
+  "guides": []
+}

@@ -44,7 +44,7 @@ export default async function Overview({ searchParams }: { searchParams: Promise
           <h2 className="font-serif text-xl font-medium">Create a destination</h2>
           <p className="mt-1 text-sm text-muted">Pick a state and a place. AI researches it, writes every section with sources, finds a photo and prepares SEO — you review and publish.</p>
         </div>
-        <Link href="/admin/places/new" className="inline-flex h-11 items-center justify-center rounded-lg bg-coral px-5 font-semibold text-white hover:bg-coral-hover">+ Create destination</Link>
+        <Link href="/admin/places/build" className="inline-flex h-11 items-center justify-center rounded-lg bg-coral px-5 font-semibold text-white hover:bg-coral-hover">+ Create destination</Link>
       </section>
 
       <section className="grid grid-cols-3 gap-3">

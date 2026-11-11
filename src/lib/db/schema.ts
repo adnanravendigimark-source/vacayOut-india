@@ -3,6 +3,7 @@ import {
   boolean,
   check,
   customType,
+  date,
   doublePrecision,
   index,
   integer,
@@ -468,6 +469,57 @@ export type GenerationProgress = {
   needsImage?: boolean;
 };
 
+/**
+ * One-click content builds (admin → Destinations): a whole state, more
+ * destinations for a state, or one named destination. Research comes from
+ * free sources and a cheap model writes; progress and the intermediate
+ * content parts live on the row so every workflow step can be retried.
+ */
+export const buildStatus = pgEnum("build_status", ["queued", "running", "done", "failed"]);
+
+export type BuildStep = { key: string; label: string; status: GenerationStepStatus; detail?: string };
+export type BuildProgress = {
+  steps: BuildStep[];
+  /** Destinations chosen by the plan step (Wikivoyage article titles and markers). */
+  candidates?: { name: string; article: string | null; lat: number | null; lng: number | null; wikidata: string | null; image: string | null; description: string }[];
+  /** Short human-readable log: what was skipped and why. */
+  log: string[];
+};
+export type BuildReport = {
+  published: { name: string; path: string | null }[];
+  drafts: { name: string; why: string }[];
+  itineraries: number;
+  guides: number;
+  dropped: string[];
+};
+
+export const buildJobs = pgTable(
+  "build_jobs",
+  {
+    id: uuid("id").primaryKey().defaultRandom(),
+    /** "state" (new state), "more" (more destinations for a state) or "destination" (one named place). */
+    kind: text("kind").notNull(),
+    stateName: text("state_name").notNull(),
+    stateSlug: text("state_slug").notNull(),
+    /** The destination name for kind "destination". */
+    target: text("target"),
+    status: buildStatus("status").notNull().default("queued"),
+    progress: jsonb("progress").$type<BuildProgress>().notNull(),
+    /** Content written so far, keyed by step (see lib/builder/pack.ts Part). */
+    parts: jsonb("parts").$type<Record<string, unknown>>().notNull().default({}),
+    report: jsonb("report").$type<BuildReport>(),
+    costMicroUsd: integer("cost_micro_usd").notNull().default(0),
+    capMicroUsd: integer("cap_micro_usd").notNull(),
+    requestedBy: uuid("requested_by").references(() => users.id, { onDelete: "set null" }),
+    error: text("error"),
+    workflowRunId: text("workflow_run_id"),
+    heartbeatAt: timestamp("heartbeat_at", { withTimezone: true }),
+    finishedAt: timestamp("finished_at", { withTimezone: true }),
+    createdAt: timestamp("created_at", { withTimezone: true }).notNull().defaultNow(),
+  },
+  (t) => [index("build_jobs_state_idx").on(t.stateSlug, t.createdAt), index("build_jobs_status_idx").on(t.status)],
+);
+
 /** A web page used as evidence. One row per normalised URL, reused across runs. */
 export const sources = pgTable("sources", {
   id: uuid("id").primaryKey().defaultRandom(),
@@ -709,6 +761,73 @@ export const appErrors = pgTable(
   },
   (t) => [index("app_errors_at_idx").on(t.at)],
 );
+
+/**
+ * Blog (editorial articles at /blog). Unlike places, a post has no separate snapshot:
+ * the row IS the article, and only rows with status "published" reach public pages.
+ * `content` is HTML written in the admin editor and sanitised on every save (src/lib/blog/html.ts).
+ */
+export const blogStatus = pgEnum("blog_status", ["draft", "published"]);
+
+export const blogPosts = pgTable(
+  "blog_posts",
+  {
+    id: uuid("id").primaryKey().defaultRandom(),
+    slug: text("slug").notNull(),
+    status: blogStatus("status").notNull().default("draft"),
+    title: text("title").notNull(),
+    category: text("category").notNull().default(""),
+    /** Listing-card summary, derived from the article body on save. */
+    excerpt: text("excerpt").notNull().default(""),
+    quickAnswer: text("quick_answer").notNull().default(""),
+    readTime: text("read_time").notNull().default(""),
+    /** "Name / Role" byline. */
+    author: text("author").notNull().default(""),
+    /** Date shown on the article (editable, like a print date). */
+    publishDate: date("publish_date", { mode: "string" }).notNull(),
+    image: text("image").notNull().default(""),
+    imageAlt: text("image_alt").notNull().default(""),
+    /** Credit line shown under the cover (required for licensed photos). */
+    imageCredit: text("image_credit").notNull().default(""),
+    content: text("content").notNull().default(""),
+    /** Optional destination card under the article (the blog's cross-sell). */
+    recommendedPlaceId: uuid("recommended_place_id").references(() => places.id, { onDelete: "set null" }),
+    ctaHeading: text("cta_heading").notNull().default(""),
+    ctaBody: text("cta_body").notNull().default(""),
+    ctaButtonText: text("cta_button_text").notNull().default(""),
+    ctaButtonHref: text("cta_button_href").notNull().default(""),
+    metaTitle: text("meta_title").notNull().default(""),
+    metaDescription: text("meta_description").notNull().default(""),
+    focusKeyword: text("focus_keyword").notNull().default(""),
+    canonicalUrl: text("canonical_url").notNull().default(""),
+    noIndex: boolean("no_index").notNull().default(false),
+    noFollow: boolean("no_follow").notNull().default(false),
+    ogTitle: text("og_title").notNull().default(""),
+    ogDescription: text("og_description").notNull().default(""),
+    ogImage: text("og_image").notNull().default(""),
+    createdBy: uuid("created_by").references(() => users.id),
+    updatedBy: uuid("updated_by").references(() => users.id),
+    ...timestamps,
+  },
+  (t) => [uniqueIndex("blog_posts_slug_idx").on(t.slug), index("blog_posts_status_date_idx").on(t.status, t.publishDate)],
+);
+
+/** Old blog URLs that 301 to a renamed post. */
+export const blogRedirects = pgTable("blog_redirects", {
+  oldSlug: text("old_slug").primaryKey(),
+  postId: uuid("post_id")
+    .notNull()
+    .references(() => blogPosts.id, { onDelete: "cascade" }),
+  createdAt: timestamp("created_at", { withTimezone: true }).notNull().defaultNow(),
+});
+
+/** Copy and SEO for the /blog listing page (one row). Empty fields fall back to defaults in src/lib/blog/settings.ts. */
+export const blogSettings = pgTable("blog_settings", {
+  id: integer("id").primaryKey().default(1),
+  data: jsonb("data").$type<Record<string, unknown>>().notNull().default({}),
+  updatedBy: uuid("updated_by").references(() => users.id),
+  updatedAt: timestamp("updated_at", { withTimezone: true }).notNull().defaultNow(),
+});
 
 export type WebFact = { claim: string; claimType: string; sources: SectionSource[] };
 

@@ -95,6 +95,11 @@ export function SiteFooter() {
                   Travel guides
                 </Link>
               </li>
+              <li>
+                <Link href="/blog" className="hover:text-coral transition-colors">
+                  Blog
+                </Link>
+              </li>
             </ul>
           </div>
 

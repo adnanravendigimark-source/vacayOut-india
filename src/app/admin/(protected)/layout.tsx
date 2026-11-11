@@ -14,7 +14,7 @@ export default async function AdminLayout({ children }: { children: React.ReactN
         <Link href="/admin" className="font-serif text-lg font-medium">
           Vacay<span className="text-coral">Out</span> <span className="text-sm text-muted">admin</span>
         </Link>
-        <Link href="/admin/places/new" className="mt-5 hidden items-center justify-center rounded-lg bg-coral px-3 py-2.5 text-sm font-semibold text-white hover:bg-coral-hover lg:flex">
+        <Link href="/admin/places/build" className="mt-5 hidden items-center justify-center rounded-lg bg-coral px-3 py-2.5 text-sm font-semibold text-white hover:bg-coral-hover lg:flex">
           + Create destination
         </Link>
         <AdminNav />

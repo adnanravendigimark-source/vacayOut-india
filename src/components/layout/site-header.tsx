@@ -44,6 +44,7 @@ export function SiteHeader() {
               <Link href="/things-to-do" className={navLink("/things-to-do")}>Things to do</Link>
               <Link href="/travel-guides" className={navLink("/travel-guides")}>Travel guides</Link>
               <Link href="/itineraries" className={navLink("/itineraries")}>Itineraries</Link>
+              <Link href="/blog" className={`py-2 transition-colors hover:text-coral ${pathname.startsWith("/blog") ? "text-coral font-semibold" : ""}`}>Blog</Link>
             </nav>
 
             <div className="flex shrink-0 items-center gap-1.5 sm:gap-2 xl:gap-3">
@@ -100,6 +101,7 @@ export function SiteHeader() {
               <div className="mt-2 border-t border-line pt-2">
                 <Link href="/travel-guides" onClick={() => setMenu(false)} className="block rounded-xl px-3 py-2.5 font-semibold text-ink hover:bg-canvas">Travel guides</Link>
                 <Link href="/itineraries" onClick={() => setMenu(false)} className="block rounded-xl px-3 py-2.5 font-semibold text-ink hover:bg-canvas">Itineraries</Link>
+                <Link href="/blog" onClick={() => setMenu(false)} className="block rounded-xl px-3 py-2.5 font-semibold text-ink hover:bg-canvas">Blog</Link>
                 <Link href="/account" onClick={() => setMenu(false)} className="block rounded-xl px-3 py-2.5 font-semibold text-ink hover:bg-canvas">Your account</Link>
               </div>
             </nav>

@@ -78,6 +78,56 @@
       "url": "https://en.wikipedia.org/wiki/2025_Pahalgam_attack",
       "title": "2025 Pahalgam attack — Wikipedia",
       "authority": "reference"
+    },
+    "II_UP": {
+      "url": "https://www.incredibleindia.gov.in/en/uttar-pradesh",
+      "title": "Uttar Pradesh — Incredible India (Ministry of Tourism)",
+      "authority": "government"
+    },
+    "W_UPS": {
+      "url": "https://en.wikipedia.org/wiki/Uttar_Pradesh",
+      "title": "Uttar Pradesh — Wikipedia",
+      "authority": "reference"
+    },
+    "W_LKO": {
+      "url": "https://en.wikipedia.org/wiki/Lucknow",
+      "title": "Lucknow — Wikipedia",
+      "authority": "reference"
+    },
+    "II_MT": {
+      "url": "https://www.incredibleindia.gov.in/en/uttar-pradesh/mathura",
+      "title": "Mathura — Incredible India (Ministry of Tourism)",
+      "authority": "government"
+    },
+    "AY_REACH": {
+      "url": "https://ayodhya.nic.in/how-to-reach/",
+      "title": "How to reach — District Ayodhya, Government of Uttar Pradesh (official site)",
+      "authority": "government"
+    },
+    "LK_REACH": {
+      "url": "https://lucknow.nic.in/how-to-reach/",
+      "title": "How to reach — District Lucknow, Government of Uttar Pradesh (official site)",
+      "authority": "government"
+    },
+    "VN_REACH": {
+      "url": "https://varanasi.nic.in/how-to-reach/",
+      "title": "How to reach — District Varanasi, Government of Uttar Pradesh (official site)",
+      "authority": "government"
+    },
+    "II_VN_10": {
+      "url": "https://www.incredibleindia.gov.in/en/uttar-pradesh/varanasi/10-unmissable-travel-and-food-experiences",
+      "title": "10 unmissable travel and food experiences in Varanasi — Incredible India (Ministry of Tourism)",
+      "authority": "government"
+    },
+    "PR_CULT": {
+      "url": "https://prayagraj.nic.in/culture-heritage/",
+      "title": "Culture & Heritage — District Prayagraj, Government of Uttar Pradesh (official site)",
+      "authority": "government"
+    },
+    "II_MT_BAR": {
+      "url": "https://www.incredibleindia.gov.in/en/uttar-pradesh/mathura/barsana",
+      "title": "Barsana — Incredible India (Ministry of Tourism)",
+      "authority": "government"
     }
   },
   "facts": {
@@ -762,6 +812,222 @@
           "quote": "in which 26 civilians were killed on 22 April 2025"
         }
       ]
+    },
+    "UP8": {
+      "place": "uttar-pradesh",
+      "topic": "Awadhi and Mughal food",
+      "claim": "Awadhi and Mughal cuisines lead in Uttar Pradesh — dum biryani, dum gosht and nihari — and Agra is the home of petha.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_UP",
+          "quote": "Uttar Pradesh boasts a rich culinary heritage, with Awadhi and Mughal cuisines taking centre stage, particularly celebrated in Lucknow."
+        },
+        {
+          "source": "II_UP",
+          "quote": "Notable dishes include Dum Biryani, Dum Gosht, and Nihari"
+        },
+        {
+          "source": "II_UP",
+          "quote": "Petha, a renowned sweet delicacy, finds its origin in the city of Agra."
+        }
+      ]
+    },
+    "UP9": {
+      "place": "uttar-pradesh",
+      "topic": "Crafts",
+      "claim": "Uttar Pradesh is known for Lucknow's chikankari, Varanasi zari, Moradabad metalwork, and Khurja and Chunar pottery.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_UP",
+          "quote": "Chikankari, a delicate and traditional hand embroidery craft, represents a vital facet of Uttar Pradesh's artistic heritage, predominantly practiced in Lucknow."
+        },
+        {
+          "source": "II_UP",
+          "quote": "Varanasi's Zari work being renowned globally"
+        },
+        {
+          "source": "II_UP",
+          "quote": "Moradabad stands out for its art metalwork"
+        },
+        {
+          "source": "II_UP",
+          "quote": "In the world of pottery, Khurja, Chunar, and Rampur take the lead"
+        }
+      ]
+    },
+    "UP10": {
+      "place": "uttar-pradesh",
+      "topic": "Spiritual destinations",
+      "claim": "Mathura and Vrindavan, Ayodhya and Varanasi are the state's great pilgrimage centres; Sarnath, Kushinagar, Kapilvastu and Sravasti are sacred to Buddhists.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_UP",
+          "quote": "Visiting Mathura and Vrindavan brings travellers closer to a land adorned with magnificent temples dedicated to Lord Krishna"
+        },
+        {
+          "source": "II_UP",
+          "quote": "Ayodhya, renowned as the birthplace of Lord Ram, stands as another prime spiritual destination in Uttar Pradesh"
+        },
+        {
+          "source": "II_UP",
+          "quote": "These include Sarnath , Vindhyachal, Kushinagar, Kapilvastu, and Sravasti"
+        }
+      ]
+    },
+    "UP11": {
+      "place": "uttar-pradesh",
+      "topic": "Lucknow, city of Nawabs",
+      "claim": "Lucknow, the city of Nawabs, has historic monuments and palaces.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_UP",
+          "quote": "The city of Nawabs, Lucknow, reveals a unique blend of ancient and modern, boasting historic monuments, forts, and palaces"
+        }
+      ]
+    },
+    "UP12": {
+      "place": "uttar-pradesh",
+      "topic": "Festivals",
+      "claim": "Varanasi is known for Bharat Milap and Chhath, and Prayagraj for the Kumbh, Magh and Ardh Kumbh melas.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_UP",
+          "quote": "Varanasi, for instance, is renowned for Bharat Milap and Chhath Pooja"
+        },
+        {
+          "source": "II_UP",
+          "quote": "Prayagraj is particularly famous for Kumbh Mela – world’s largest gathering of humans, Magh Mela, and Ardha Mela"
+        }
+      ],
+      "kind": "seasonal"
+    },
+    "UP13": {
+      "place": "uttar-pradesh",
+      "topic": "Loo winds",
+      "claim": "In summer, hot winds called loo blow across Uttar Pradesh.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "W_UPS",
+          "quote": "In summer, hot winds called loo blow all across Uttar Pradesh."
+        }
+      ],
+      "kind": "seasonal"
+    },
+    "UP14": {
+      "place": "uttar-pradesh",
+      "topic": "Monsoon",
+      "claim": "The south-west monsoon brings most of the state's rain after summer.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "W_UPS",
+          "quote": "After summer it is the southwest monsoon which brings most of the rain here"
+        }
+      ],
+      "kind": "seasonal"
+    },
+    "UP15": {
+      "place": "uttar-pradesh",
+      "topic": "Lucknow climate",
+      "claim": "Lucknow has cool, dry winters from late November to February and hot summers from late March to early June.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "W_LKO",
+          "quote": "Lucknow has a humid subtropical climate ( Köppen Cwa ) with cool, dry winters from late November to February and dry, hot summers with sunshine from late March to early June."
+        }
+      ],
+      "kind": "seasonal"
+    },
+    "UP16": {
+      "place": "uttar-pradesh",
+      "topic": "Best time for Braj",
+      "claim": "October to March is the pleasant season in Mathura.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_MT",
+          "quote": "Plan your visit between October and March, when pleasant weather graces the city."
+        }
+      ],
+      "kind": "seasonal"
+    },
+    "UP17": {
+      "place": "uttar-pradesh",
+      "topic": "Airports",
+      "claim": "The main airports are Lucknow (14 km from the city), Varanasi (22 km) and Ayodhya (about 10 km from Ayodhya Dham).",
+      "claimType": "distance",
+      "evidence": [
+        {
+          "source": "LK_REACH",
+          "quote": "Situated in Amausi, 14 kilometers from the city’s nucleus"
+        },
+        {
+          "source": "VN_REACH",
+          "quote": "LBS airport Babatpur which is 22 km. from Varanasi"
+        },
+        {
+          "source": "AY_REACH",
+          "quote": "Maharishi Valmiki International Airport Ayodhya which is approximately 10km from Ayodhya Dham"
+        }
+      ]
+    },
+    "UP18": {
+      "place": "uttar-pradesh",
+      "topic": "Expressways",
+      "claim": "The Agra and Purvanchal expressways connect Lucknow with Agra and eastern UP.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "LK_REACH",
+          "quote": "The majestic Agra Expressway and Purvanchal Expressway serve as lifelines, bridging Lucknow to the nation’s sprawling urban landscape."
+        }
+      ]
+    },
+    "UP19": {
+      "place": "uttar-pradesh",
+      "topic": "Magh Mela",
+      "claim": "Prayagraj's Magh Mela is held every year from mid-January to mid-February.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "PR_CULT",
+          "quote": "This Mela is held every year during the Hindu month of Magh (corresponding from mid January – mid February)"
+        }
+      ],
+      "kind": "seasonal"
+    },
+    "UP20": {
+      "place": "uttar-pradesh",
+      "topic": "Lathmar Holi",
+      "claim": "Barsana's Lathmar Holi falls in February or March.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_MT_BAR",
+          "quote": "In the months of February or March, the people of Barsana celebrate the renowned Lathmar Holi."
+        }
+      ],
+      "kind": "seasonal"
+    },
+    "UP21": {
+      "place": "uttar-pradesh",
+      "topic": "Varanasi season",
+      "claim": "Autumn is the best season to visit Varanasi.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_VN_10",
+          "quote": "Autumn is the best season to visit Varanasi"
+        }
+      ],
+      "kind": "seasonal"
     }
   },
   "places": [
@@ -811,6 +1077,125 @@
             {
               "body": "In the hotter months, plan outdoor sightseeing for early morning and late afternoon."
             }
+          ]
+        },
+        "regions": {
+          "items": [
+            {
+              "title": "Braj (Mathura, Vrindavan, Barsana)",
+              "body": "Krishna's land: temples, ghats on the Yamuna and the most famous Holi in India."
+            },
+            {
+              "title": "Agra",
+              "body": "Three World Heritage Sites — the Taj Mahal, Agra Fort and Fatehpur Sikri."
+            },
+            {
+              "title": "Awadh (Lucknow, Ayodhya)",
+              "body": "The Nawabs' capital and its monuments and food; Ayodhya, revered as Rama's birthplace."
+            },
+            {
+              "title": "Kashi and the Sangam (Varanasi, Prayagraj)",
+              "body": "The ghats of Varanasi, the Triveni Sangam and the Kumbh and Magh Melas."
+            },
+            {
+              "title": "Buddhist sites",
+              "body": "Sarnath, Kushinagar, Kapilvastu and Sravasti."
+            }
+          ],
+          "facts": [
+            "UP5",
+            "UP10",
+            "UP11",
+            "UP12"
+          ]
+        },
+        "best_time": {
+          "text": "October to March is the most comfortable time to travel: Lucknow's winters are cool and dry from late November to February, Mathura is pleasant from October to March, and autumn is the best season in Varanasi. Summer, from late March, is hot, with dry winds called loo; the south-west monsoon then brings most of the rain.\n\nPlan around the festivals too: Prayagraj's Magh Mela (mid-January to mid-February), Lathmar Holi in Barsana (February or March), and Varanasi's Chhath and Bharat Milap.",
+          "facts": [
+            "UP15",
+            "UP16",
+            "UP21",
+            "UP13",
+            "UP14",
+            "UP19",
+            "UP20",
+            "UP12"
+          ]
+        },
+        "how_to_reach": {
+          "text": "Fly into the airport nearest your first city: Lucknow's is 14 km from the centre, Varanasi's 22 km and Ayodhya's about 10 km from Ayodhya Dham. The Agra and Purvanchal expressways link Lucknow with Agra and eastern Uttar Pradesh, and the state's cities are well connected by train. Each destination guide below has the details.",
+          "facts": [
+            "UP17",
+            "UP18"
+          ]
+        },
+        "food": {
+          "items": [
+            {
+              "body": "Awadhi biryani, kebabs and nihari in Lucknow."
+            },
+            {
+              "body": "Dum gosht and other slow-cooked Mughal dishes."
+            },
+            {
+              "body": "Petha, Agra's famous sweet."
+            },
+            {
+              "body": "Pedas and kachori in Mathura."
+            }
+          ],
+          "facts": [
+            "UP8",
+            "UP10"
+          ]
+        },
+        "shopping": {
+          "items": [
+            {
+              "body": "Chikankari embroidery in Lucknow."
+            },
+            {
+              "body": "Zari and silk in Varanasi."
+            },
+            {
+              "body": "Metalwork from Moradabad."
+            },
+            {
+              "body": "Pottery from Khurja and Chunar."
+            }
+          ],
+          "facts": [
+            "UP9"
+          ]
+        },
+        "faqs": {
+          "items": [
+            {
+              "title": "What are the must-visit places in Uttar Pradesh?",
+              "body": "Agra's Taj Mahal, Agra Fort and Fatehpur Sikri; Varanasi's ghats; Lucknow's Imambaras; Mathura and Vrindavan; Ayodhya; Prayagraj's Sangam; and the Buddhist sites at Sarnath and Kushinagar."
+            },
+            {
+              "title": "When is the best time to visit Uttar Pradesh?",
+              "body": "October to March, when the weather is cooler. Summers are hot, with loo winds."
+            },
+            {
+              "title": "Which festivals are worth planning around?",
+              "body": "The Magh Mela at Prayagraj (mid-January to mid-February) and Lathmar Holi at Barsana (February or March)."
+            },
+            {
+              "title": "Which airports serve the state?",
+              "body": "Lucknow, Varanasi and Ayodhya are the main ones; each destination guide lists the nearest airport."
+            }
+          ],
+          "facts": [
+            "UP5",
+            "UP10",
+            "UP11",
+            "UP16",
+            "UP13",
+            "UP19",
+            "UP20",
+            "UP17"
           ]
         }
       }

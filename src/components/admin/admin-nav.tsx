@@ -8,6 +8,7 @@ const ITEMS = [
   { href: "/admin/places", label: "Destinations", match: (p: string) => p.startsWith("/admin/places") },
   { href: "/admin/itineraries", label: "Itineraries", match: (p: string) => p.startsWith("/admin/itineraries") },
   { href: "/admin/guides", label: "Travel guides", match: (p: string) => p.startsWith("/admin/guides") },
+  { href: "/admin/blog", label: "Blog", match: (p: string) => p.startsWith("/admin/blog") },
   { href: "/admin/research", label: "Research & Review", match: (p: string) => p.startsWith("/admin/research") },
   { href: "/admin/media", label: "Media Library", match: (p: string) => p.startsWith("/admin/media") },
   { href: "/admin/settings", label: "Settings", match: (p: string) => ["/admin/settings", "/admin/chat", "/admin/system", "/admin/users", "/admin/audit"].some((x) => p.startsWith(x)) },
