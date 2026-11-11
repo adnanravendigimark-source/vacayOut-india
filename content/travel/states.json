@@ -128,6 +128,66 @@
       "url": "https://www.incredibleindia.gov.in/en/uttar-pradesh/mathura/barsana",
       "title": "Barsana — Incredible India (Ministry of Tourism)",
       "authority": "government"
+    },
+    "RT_BEST": {
+      "url": "https://www.tourism.rajasthan.gov.in/content/rajasthan-tourism/en/plan/best-time-to-visit.html",
+      "title": "Best time to visit — Rajasthan Tourism (Government of Rajasthan)",
+      "authority": "government"
+    },
+    "RT_HOW": {
+      "url": "https://www.tourism.rajasthan.gov.in/content/rajasthan-tourism/en/plan/how-to-get-there.html",
+      "title": "How to get there — Rajasthan Tourism (Government of Rajasthan)",
+      "authority": "government"
+    },
+    "UNESCO_HILL": {
+      "url": "https://whc.unesco.org/en/list/247/",
+      "title": "Hill Forts of Rajasthan — UNESCO World Heritage Centre",
+      "authority": "other"
+    },
+    "W_HILL": {
+      "url": "https://en.wikipedia.org/wiki/Hill_Forts_of_Rajasthan",
+      "title": "Hill Forts of Rajasthan — Wikipedia",
+      "authority": "reference"
+    },
+    "RT_FEST": {
+      "url": "https://www.tourism.rajasthan.gov.in/content/rajasthan-tourism/en/experience/fairs-and-festivals.html",
+      "title": "Fairs and festivals — Rajasthan Tourism (Government of Rajasthan)",
+      "authority": "government"
+    },
+    "RT_UDR": {
+      "url": "https://www.tourism.rajasthan.gov.in/content/rajasthan-tourism/en/tourist-destinations/udaipur.html",
+      "title": "Udaipur — Rajasthan Tourism (Government of Rajasthan)",
+      "authority": "government"
+    },
+    "RT_JSM": {
+      "url": "https://www.tourism.rajasthan.gov.in/content/rajasthan-tourism/en/tourist-destinations/jaisalmer.html",
+      "title": "Jaisalmer — Rajasthan Tourism (Government of Rajasthan)",
+      "authority": "government"
+    },
+    "RT_PUS": {
+      "url": "https://www.tourism.rajasthan.gov.in/content/rajasthan-tourism/en/tourist-destinations/pushkar.html",
+      "title": "Pushkar — Rajasthan Tourism (Government of Rajasthan)",
+      "authority": "government"
+    },
+    "RT_SWM": {
+      "url": "https://www.tourism.rajasthan.gov.in/content/rajasthan-tourism/en/tourist-destinations/sawaimadhopur.html",
+      "title": "Sawai Madhopur and Ranthambore — Rajasthan Tourism (Government of Rajasthan)",
+      "authority": "government"
+    },
+    "RT_AJM": {
+      "url": "https://www.tourism.rajasthan.gov.in/content/rajasthan-tourism/en/tourist-destinations/ajmer.html",
+      "title": "Ajmer — Rajasthan Tourism (Government of Rajasthan)",
+      "authority": "government"
+    },
+    "RT_ABU": {
+      "url": "https://www.tourism.rajasthan.gov.in/content/rajasthan-tourism/en/tourist-destinations/mount-abu.html",
+      "title": "Mount Abu — Rajasthan Tourism (Government of Rajasthan)",
+      "authority": "government"
+    },
+    "RT_JDH": {
+      "url": "https://www.tourism.rajasthan.gov.in/content/rajasthan-tourism/en/tourist-destinations/jodhpur.html",
+      "title": "Jodhpur — Rajasthan Tourism (Government of Rajasthan)",
+      "authority": "government"
     }
   },
   "facts": {
@@ -1028,6 +1088,280 @@
         }
       ],
       "kind": "seasonal"
+    },
+    "RJS1": {
+      "place": "rajasthan",
+      "topic": "Best season",
+      "claim": "Winter, from about October to January, is the best time to visit Rajasthan, with temperatures of roughly 10–30°C in most parts.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "RT_BEST",
+          "quote": "Winters  – The winters are marked as being the best season to visit Rajasthan."
+        },
+        {
+          "source": "RT_BEST",
+          "quote": "the princely state enjoys a mild weather with temperatures ranging between 10°C – 30°C for most parts"
+        },
+        {
+          "source": "RT_BEST",
+          "quote": "Winters in Rajasthan usually commence around October and extend to January."
+        }
+      ],
+      "kind": "seasonal"
+    },
+    "RJS2": {
+      "place": "rajasthan",
+      "topic": "Winter festivals",
+      "claim": "The Jaipur Literature Festival, Udaipur World Music Festival and Pushkar Fair all fall in the winter season.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "RT_BEST",
+          "quote": "including the Jaipur Literature Festival, Udaipur World Music Festival, Camel Fair, and Pushkar Fair, are observed during the winter season"
+        }
+      ],
+      "kind": "seasonal"
+    },
+    "RJS3": {
+      "place": "rajasthan",
+      "topic": "Summer heat",
+      "claim": "Summers are hot and dry, with temperatures up to 48°C; Mount Abu, Ranakpur and Kumbhalgarh are pleasant in summer.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "RT_BEST",
+          "quote": "Summers in Rajasthan are usually hot and dry, with temperatures rising up to as high as 48 degrees Celsius."
+        },
+        {
+          "source": "RT_BEST",
+          "quote": "summers in places like Mount Abu, Ranakpur, and Kumbhalgarh in Rajasthan, which are the places to which tourists mostly flock to when visiting the state in this season, are rather pleasant"
+        }
+      ],
+      "kind": "seasonal"
+    },
+    "RJS4": {
+      "place": "rajasthan",
+      "topic": "Monsoon",
+      "claim": "In the monsoon, Rajasthan turns green and celebrates the Teej festival.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "RT_BEST",
+          "quote": "Visiting Rajasthan during the monsoon season, you will be welcomed by lush greenery, rainbows, and peacocks dancing around."
+        },
+        {
+          "source": "RT_BEST",
+          "quote": "as various parts of the state ready up for the Teej festival in the monsoon season"
+        }
+      ],
+      "kind": "seasonal"
+    },
+    "RJS5": {
+      "place": "rajasthan",
+      "topic": "Airports",
+      "claim": "Rajasthan's three major airports are Jaipur (domestic and international), Jodhpur and Udaipur (domestic).",
+      "claimType": "distance",
+      "evidence": [
+        {
+          "source": "RT_HOW",
+          "quote": "The three major airports of Rajasthan are Sanganer International Airport in Jaipur, Jodhpur Airport and Dabok Airport in Udaipur."
+        },
+        {
+          "source": "RT_HOW",
+          "quote": "While Sanganer is open to domestic and international air traffic, Jodhpur and Udaipur only serve domestic routes"
+        }
+      ]
+    },
+    "RJS6": {
+      "place": "rajasthan",
+      "topic": "Railways",
+      "claim": "Jaipur and Kota are the main rail hubs; Udaipur, Jodhpur, Ajmer, Bikaner and Abu Road are other major stations.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "RT_HOW",
+          "quote": "The major railway stations of Rajasthan are Jaipur, Kota, Bharatpur, Bikaner, Ajmer, Alwar, Udaipur, Abu Road and Jodhpur."
+        },
+        {
+          "source": "RT_HOW",
+          "quote": "But out of this lot, Jaipur and Kota are major hubs connecting the major cities of India to Rajasthan."
+        }
+      ]
+    },
+    "RJS7": {
+      "place": "rajasthan",
+      "topic": "Roads",
+      "claim": "NH-8 between Delhi and Mumbai runs through Jaipur, Ajmer, Udaipur and Chittorgarh; RSRTC runs state buses.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "RT_HOW",
+          "quote": "The NH-8 which connects Mumbai to Delhi is the busiest national highway in Rajasthan and runs through Ajmer, Jaipur, Udaipur and Chittorgarh."
+        },
+        {
+          "source": "RT_HOW",
+          "quote": "hop onto a bus operated by the Rajasthan State Road Transport Corporation"
+        }
+      ]
+    },
+    "RJS8": {
+      "place": "rajasthan",
+      "topic": "Hill Forts UNESCO",
+      "claim": "The Hill Forts of Rajasthan — Chittorgarh, Kumbhalgarh, Ranthambore (Sawai Madhopur), Gagron (Jhalawar), Amber (Jaipur) and Jaisalmer — became a UNESCO World Heritage Site in 2013.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "UNESCO_HILL",
+          "quote": "The serial site, situated in the state of Rajastahan, includes six majestic forts in Chittorgarh; Kumbhalgarh; Sawai Madhopur; Jhalawar; Jaipur, and Jaisalmer."
+        },
+        {
+          "source": "W_HILL",
+          "quote": "They have been clustered as a series and designated as a UNESCO World Heritage Site in 2013."
+        }
+      ]
+    },
+    "RJS9": {
+      "place": "rajasthan",
+      "topic": "Pushkar Fair",
+      "claim": "The Pushkar Fair is a week-long camel and livestock fair held between October and November, one of the world's largest.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "RT_FEST",
+          "quote": "is an annual weeklong camel and livestock fair held in the town of Pushkar between the months of October and November"
+        },
+        {
+          "source": "RT_FEST",
+          "quote": "It is one of the world's largest camel"
+        }
+      ],
+      "kind": "seasonal"
+    },
+    "RJS10": {
+      "place": "rajasthan",
+      "topic": "Desert Festival",
+      "claim": "The Desert Festival, with camel races, camel polo and folk dances, is held around January–February.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "RT_JSM",
+          "quote": "Organised by the Department of Tourism around January-February, the Desert Festival is the best place to enjoy rich and colourful Rajasthani folk culture."
+        },
+        {
+          "source": "RT_JSM",
+          "quote": "The high points of the festival are puppeteers, acrobats, camel races, camel polo, folk dances, etc."
+        }
+      ],
+      "kind": "seasonal"
+    },
+    "RJS11": {
+      "place": "rajasthan",
+      "topic": "City of lakes",
+      "claim": "Udaipur, the 'Venice of the East', is a city of lakes ringed by the green Aravalli hills; the Lake Palace stands in the middle of Lake Pichola.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "RT_UDR",
+          "quote": "Often referred to as the 'Venice of the East', the city of lakes Udaipur is located around azure water lakes and is hemmed in by lush green hills of Aravallis."
+        },
+        {
+          "source": "RT_UDR",
+          "quote": "The famous Lake Palace, located in the middle of Lake Pichola is one of the most beautiful sights of Udaipur."
+        }
+      ]
+    },
+    "RJS12": {
+      "place": "rajasthan",
+      "topic": "Golden City",
+      "claim": "Jaisalmer, the 'Golden City', sits near the Pakistan border on the edge of the Thar Desert; its landmark is the Sonar Qila.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "RT_JSM",
+          "quote": "This 'Golden City’ is located close to the Pakistan border and in close proximity to the Thar Desert."
+        },
+        {
+          "source": "RT_JSM",
+          "quote": "The city’s most prominent landmark is the Jaisalmer Fort, also called Sonar Qila (Golden Fort)."
+        }
+      ]
+    },
+    "RJS13": {
+      "place": "rajasthan",
+      "topic": "Only Brahma temple",
+      "claim": "Pushkar has the only temple dedicated to Lord Brahma in the world.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "RT_PUS",
+          "quote": "The city of Pushkar is home to the only temple dedicated to Lord Brahma in the whole world."
+        }
+      ]
+    },
+    "RJS14": {
+      "place": "rajasthan",
+      "topic": "National Park",
+      "claim": "Ranthambore National Park, 14 km from Sawai Madhopur, covers 392 sq km between the Aravallis and Vindhyas and is home to tigers and over 300 bird species.",
+      "claimType": "distance",
+      "evidence": [
+        {
+          "source": "RT_SWM",
+          "quote": "Situated 14 km from Sawai Madhopur, the Ranthambore Park gets its name from the Ranthambore Fort situated within its boundaries."
+        },
+        {
+          "source": "RT_SWM",
+          "quote": "The National Park, situated amidst the Aravalis and Vindhya ranges is spreads over an area of 392 sq.km of thick forest punctuated with pleasant waterfalls."
+        },
+        {
+          "source": "RT_SWM",
+          "quote": "It is home to the elusive tiger, other animals found here include chinkara, sambhar, cheetal and over 300 species of birds."
+        }
+      ]
+    },
+    "RJS15": {
+      "place": "rajasthan",
+      "topic": "Pilgrimage city",
+      "claim": "Ajmer is a pilgrimage centre for Hindus and Muslims; the dargah of Khwaja Moinuddin Chishti draws Muslims from around the world.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "RT_AJM",
+          "quote": "Ajmer remains a popular tourist attraction, in addition to being a pilgrimage centre for both Hindus and Muslims."
+        },
+        {
+          "source": "RT_AJM",
+          "quote": "The final resting place of the Sufi Saint, Khwaja Moinuddin Hasan Chisti, is visited by Muslims from all over the world"
+        }
+      ]
+    },
+    "RJS16": {
+      "place": "rajasthan",
+      "topic": "Hill station",
+      "claim": "Mount Abu is Rajasthan's only hill station, at 1,722 metres in the Aravallis.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "RT_ABU",
+          "quote": "Mount Abu, the state’s only hill station stands at a height of 1722 metres above sea level, and is embraced by lush green hills of the Aravalli range."
+        }
+      ]
+    },
+    "RJS17": {
+      "place": "rajasthan",
+      "topic": "Blue City",
+      "claim": "Jodhpur, Rajasthan's second-largest city, is known as the Blue City for its blue-painted buildings.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "RT_JDH",
+          "quote": "Jodhpur, the second largest city in Rajasthan is popularly known as the Blue City."
+        },
+        {
+          "source": "RT_JDH",
+          "quote": "The name is clearly befitting as most of the architecture – forts, palaces, temples, havelis and even houses are built in vivid shades of blue."
+        }
+      ]
     }
   },
   "places": [
@@ -1246,6 +1580,84 @@
             {
               "body": "Many forts involve steep climbs and uneven paths — wear sturdy shoes."
             }
+          ]
+        },
+        "regions": {
+          "items": [
+            {
+              "title": "Dhundhar (Jaipur)",
+              "body": "Jaipur's Amber Fort, and Ranthambore's tigers to the south-east."
+            },
+            {
+              "title": "Mewar (Udaipur, Chittorgarh, Kumbhalgarh)",
+              "body": "Lakes and palaces, and two of the great Hill Forts."
+            },
+            {
+              "title": "Marwar and the Thar (Jodhpur, Jaisalmer, Bikaner)",
+              "body": "The Blue City, the Golden City and the desert dunes."
+            },
+            {
+              "title": "Ajmer and Pushkar",
+              "body": "A great Sufi shrine and a holy lake town 14 km apart."
+            },
+            {
+              "title": "Mount Abu",
+              "body": "Rajasthan's only hill station."
+            }
+          ],
+          "facts": [
+            "RJS11",
+            "RJS12",
+            "RJS13",
+            "RJS8",
+            "RJS14",
+            "RJS15",
+            "RJS16",
+            "RJS17"
+          ]
+        },
+        "best_time": {
+          "text": "Winter — roughly October to January — is the best time for most trips, with mild days of about 10–30°C. It is also festival season: the Jaipur Literature Festival, the Udaipur World Music Festival and the Pushkar Fair all fall in winter, and Jaisalmer's Desert Festival follows around January–February.\n\nSummers are hot and dry, up to 48°C; Mount Abu, Ranakpur and Kumbhalgarh stay pleasant then. The monsoon turns the state green and brings the Teej festival.",
+          "facts": [
+            "RJS1",
+            "RJS2",
+            "RJS10",
+            "RJS3",
+            "RJS4"
+          ]
+        },
+        "how_to_reach": {
+          "text": "Rajasthan's three major airports are Jaipur (international), Jodhpur and Udaipur. Jaipur and Kota are the main rail hubs, with Udaipur, Jodhpur, Ajmer, Bikaner and Abu Road also on the network, and NH-8 between Delhi and Mumbai runs through Jaipur, Ajmer, Udaipur and Chittorgarh. Each destination guide lists its nearest airport and station.",
+          "facts": [
+            "RJS5",
+            "RJS6",
+            "RJS7"
+          ]
+        },
+        "faqs": {
+          "items": [
+            {
+              "title": "What is the best time to visit Rajasthan?",
+              "body": "Winter, roughly October to January, when days are mild and the big festivals take place."
+            },
+            {
+              "title": "Which forts are World Heritage Sites?",
+              "body": "The Hill Forts of Rajasthan: Chittorgarh, Kumbhalgarh, Ranthambore, Gagron, Amber and Jaisalmer, inscribed together in 2013."
+            },
+            {
+              "title": "Which airports serve Rajasthan?",
+              "body": "Jaipur (international), Jodhpur and Udaipur are the main airports."
+            },
+            {
+              "title": "When is the Pushkar camel fair?",
+              "body": "For about a week between October and November."
+            }
+          ],
+          "facts": [
+            "RJS1",
+            "RJS8",
+            "RJS5",
+            "RJS9"
           ]
         }
       }

@@ -24,9 +24,9 @@ export default async function LoginPage({ searchParams }: { searchParams: Promis
     <AuthShell
       title="Welcome back"
       subtitle="Sign in to save trips and keep planning with VacayOut."
-      footer={<>New to VacayOut? <Link href={`/signup?next=${encodeURIComponent(next)}`} className="font-semibold text-[#234832] underline underline-offset-4">Create an account</Link></>}
+      footer={<>New to VacayOut? <Link href={`/signup?next=${encodeURIComponent(next)}`} className="font-semibold text-coral hover:underline underline-offset-4">Create an account</Link></>}
     >
-      {notice ? <p role="status" className="mb-5 rounded-xl bg-[#E6EFE8] px-3.5 py-2.5 text-[0.875rem] text-[#234832]">{notice}</p> : null}
+      {notice ? <p role="status" className="mb-6 rounded-xl bg-[#E9F3EC] px-4 py-3 text-[0.875rem] text-[#1B4332]">{notice}</p> : null}
       {googleConfigured() ? (
         <>
           <GoogleButton next={next} />

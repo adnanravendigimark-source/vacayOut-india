@@ -5,8 +5,31 @@ import { useActionState, useEffect, useRef, useState } from "react";
 import { googleSignInAction, signUpAction, travellerSignInAction, type AccountState } from "@/app/account/actions";
 
 const idle: AccountState = { ok: false };
-const input = "mt-1.5 h-11 w-full rounded-xl border border-[#DCD8CF] bg-white px-3.5 text-[0.9375rem] text-ink outline-none transition-colors placeholder:text-[#9A968D] focus:border-[#234832] focus:ring-2 focus:ring-[#234832]/15";
-const primary = "flex h-11 w-full items-center justify-center rounded-xl bg-[#234832] font-semibold text-white transition-colors hover:bg-[#1A3726] disabled:opacity-60";
+const input = "mt-1 h-11 w-full rounded-xl border border-line bg-[#FBFAF8] px-4 text-[0.9375rem] text-ink outline-none transition-colors placeholder:text-[#9A968D] focus:border-ink focus:bg-white focus:ring-4 focus:ring-ink/5";
+const label = "block text-[0.8125rem] font-semibold text-ink";
+const primary = "flex h-11 w-full items-center justify-center gap-2 rounded-xl bg-ink font-semibold text-white transition-colors hover:bg-coral disabled:opacity-60";
+
+/** Password input with a show/hide button. */
+function PasswordField({ name, autoComplete, minLength, hint }: { name: string; autoComplete: string; minLength?: number; hint?: string }) {
+  const [show, setShow] = useState(false);
+  return (
+    <label className={label}>
+      Password {hint ? <span className="font-normal text-[#8A867D]">({hint})</span> : null}
+      <span className="relative block">
+        <input name={name} type={show ? "text" : "password"} required minLength={minLength} maxLength={200} autoComplete={autoComplete} className={`${input} pr-16`} />
+        <button
+          type="button"
+          onClick={() => setShow((v) => !v)}
+          aria-label={show ? "Hide password" : "Show password"}
+          aria-pressed={show}
+          className="absolute right-2 top-1/2 mt-[2px] -translate-y-1/2 rounded-lg px-2.5 py-1.5 text-xs font-semibold text-muted hover:bg-[#F1EEE8] hover:text-ink"
+        >
+          {show ? "Hide" : "Show"}
+        </button>
+      </span>
+    </label>
+  );
+}
 
 type Grecaptcha = { ready: (cb: () => void) => void; render: (el: HTMLElement, opts: { sitekey: string }) => number; reset: (id?: number) => void };
 declare global {
@@ -68,7 +91,7 @@ function Captcha({ siteKey, resetKey }: { siteKey: string; resetKey: unknown }) 
 function Message({ state }: { state: AccountState }) {
   if (!state.message) return null;
   return (
-    <p role={state.ok ? "status" : "alert"} className={`rounded-xl px-3.5 py-2.5 text-[0.875rem] ${state.ok ? "bg-[#E6EFE8] text-[#234832]" : "bg-red-50 text-red-800"}`}>
+    <p role={state.ok ? "status" : "alert"} className={`rounded-xl px-4 py-3 text-[0.875rem] leading-snug ${state.ok ? "bg-[#E9F3EC] text-[#1B4332]" : "bg-red-50 text-red-800"}`}>
       {state.message}
     </p>
   );
@@ -78,7 +101,7 @@ export function GoogleButton({ next, label = "Continue with Google" }: { next: s
   return (
     <form action={googleSignInAction}>
       <input type="hidden" name="next" value={next} />
-      <button type="submit" className="flex h-11 w-full items-center justify-center gap-2.5 rounded-xl border border-[#DCD8CF] bg-white font-semibold text-ink transition-colors hover:border-[#234832]">
+      <button type="submit" className="flex h-11 w-full items-center justify-center gap-2.5 rounded-xl border border-line bg-white font-semibold text-ink transition-colors hover:border-ink hover:bg-[#FBFAF8]">
         <svg aria-hidden width="18" height="18" viewBox="0 0 48 48">
           <path fill="#FFC107" d="M43.6 20.5H42V20H24v8h11.3C33.7 32.7 29.2 36 24 36c-6.6 0-12-5.4-12-12s5.4-12 12-12c3.1 0 5.8 1.2 7.9 3.1l5.7-5.7C34 6.1 29.3 4 24 4 12.9 4 4 12.9 4 24s8.9 20 20 20 20-8.9 20-20c0-1.3-.1-2.4-.4-3.5z" />
           <path fill="#FF3D00" d="m6.3 14.7 6.6 4.8C14.7 15.1 19 12 24 12c3.1 0 5.8 1.2 7.9 3.1l5.7-5.7C34 6.1 29.3 4 24 4 16.3 4 9.7 8.3 6.3 14.7z" />
@@ -93,10 +116,10 @@ export function GoogleButton({ next, label = "Continue with Google" }: { next: s
 
 export function Divider() {
   return (
-    <div className="my-5 flex items-center gap-3 text-xs font-medium uppercase tracking-wider text-[#8A867D]">
-      <span className="h-px flex-1 bg-[#E5E2DC]" />
-      or
-      <span className="h-px flex-1 bg-[#E5E2DC]" />
+    <div className="my-4 flex items-center gap-3 text-xs text-[#8A867D]">
+      <span className="h-px flex-1 bg-line" />
+      or with email
+      <span className="h-px flex-1 bg-line" />
     </div>
   );
 }
@@ -104,19 +127,16 @@ export function Divider() {
 export function SignInForm({ next, siteKey }: { next: string; siteKey: string | null }) {
   const [state, action, pending] = useActionState(travellerSignInAction, idle);
   return (
-    <form action={action} className="space-y-4">
+    <form action={action} className="space-y-3">
       <input type="hidden" name="next" value={next} />
-      <label className="block text-[0.875rem] font-medium text-ink">
+      <label className={label}>
         Email
         <input name="email" type="email" required maxLength={254} autoComplete="email" placeholder="you@example.com" defaultValue={state.fields?.email} className={input} />
       </label>
-      <label className="block text-[0.875rem] font-medium text-ink">
-        Password
-        <input name="password" type="password" required maxLength={200} autoComplete="current-password" className={input} />
-      </label>
+      <PasswordField name="password" autoComplete="current-password" />
       {siteKey ? <Captcha siteKey={siteKey} resetKey={state} /> : null}
       <Message state={state} />
-      <button type="submit" disabled={pending} className={primary}>{pending ? "Signing in…" : "Sign in"}</button>
+      <button type="submit" disabled={pending} className={primary}>{pending ? "Signing in…" : <>Sign in <span aria-hidden>→</span></>}</button>
     </form>
   );
 }
@@ -125,29 +145,27 @@ export function SignUpForm({ next, siteKey }: { next: string; siteKey: string | 
   const [state, action, pending] = useActionState(signUpAction, idle);
   if (state.step === "check_email") {
     return (
-      <div className="space-y-4 text-center">
+      <div className="space-y-5 text-center">
+        <span aria-hidden className="mx-auto flex size-14 items-center justify-center rounded-full bg-[#E9F3EC] text-2xl">✉️</span>
         <Message state={state} />
         <Link href={`/login?next=${encodeURIComponent(next)}`} className={primary}>Go to sign in</Link>
       </div>
     );
   }
   return (
-    <form action={action} className="space-y-4">
-      <label className="block text-[0.875rem] font-medium text-ink">
+    <form action={action} className="space-y-3">
+      <label className={label}>
         Name
         <input name="name" required maxLength={80} autoComplete="name" placeholder="Your name" defaultValue={state.fields?.name} className={input} />
       </label>
-      <label className="block text-[0.875rem] font-medium text-ink">
+      <label className={label}>
         Email
         <input name="email" type="email" required maxLength={254} autoComplete="email" placeholder="you@example.com" defaultValue={state.fields?.email} className={input} />
       </label>
-      <label className="block text-[0.875rem] font-medium text-ink">
-        Password <span className="font-normal text-[#8A867D]">(at least 10 characters)</span>
-        <input name="password" type="password" required minLength={10} maxLength={200} autoComplete="new-password" className={input} />
-      </label>
+      <PasswordField name="password" autoComplete="new-password" minLength={10} hint="at least 10 characters" />
       {siteKey ? <Captcha siteKey={siteKey} resetKey={state} /> : null}
       <Message state={state} />
-      <button type="submit" disabled={pending} className={primary}>{pending ? "Creating account…" : "Create account"}</button>
+      <button type="submit" disabled={pending} className={primary}>{pending ? "Creating account…" : <>Create account <span aria-hidden>→</span></>}</button>
     </form>
   );
 }

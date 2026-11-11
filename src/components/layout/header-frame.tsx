@@ -2,6 +2,7 @@
 
 import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
+import { isBarePage } from "@/lib/chrome";
 
 /** Overlays the hero video on the homepage; adapts when scrolled. */
 export function HeaderFrame({ children }: { children: (props: { isHome: boolean; isScrolled: boolean }) => React.ReactNode }) {
@@ -19,8 +20,8 @@ export function HeaderFrame({ children }: { children: (props: { isHome: boolean;
     return () => window.removeEventListener("scroll", handleScroll);
   }, [isHome]);
 
-  // The admin has its own shell.
-  if (pathname.startsWith("/admin")) return null;
+  // The admin has its own shell; sign-in and sign-up are full-screen pages.
+  if (pathname.startsWith("/admin") || isBarePage(pathname)) return null;
 
   const headerClass = !isHome
     ? "sticky top-0 z-40 border-b border-line bg-white/95 backdrop-blur-md"

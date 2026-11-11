@@ -9,6 +9,20 @@ import { AiPlannerModal } from "@/components/chat/ai-planner-modal";
 import type { PageHero } from "@/components/explore/explore-page";
 import type { ThingsToDoData } from "@/lib/places/public-lists";
 import { TRIP_TYPES } from "@/lib/places/trip-types";
+import { HubHeader } from "@/components/layout/hub-header";
+
+const CATEGORY_ICONS: Record<string, Name> = {
+  all: "grid",
+  adventure: "route",
+  nature: "mountain",
+  culture: "palace",
+  spiritual: "temple",
+  wellness: "sun",
+  food_shopping: "utensils",
+  events: "calendar",
+  nightlife: "star",
+  sightseeing: "camera",
+};
 
 const WHY = [
   "Every experience links to a full guide reviewed by an editor",
@@ -32,7 +46,8 @@ function Thumb({ item, sizes }: { item: ThingsToDoData["items"][number]; sizes: 
 
 export type ThingsToDoFilters = { state?: string; destination?: string; category?: string };
 
-export function ThingsToDoPage({ data, hero, initial = {} }: { data: ThingsToDoData; hero: PageHero; initial?: ThingsToDoFilters }) {
+// `hero` is kept in the props for the page files; this page no longer shows a photo hero.
+export function ThingsToDoPage({ data, initial = {} }: { data: ThingsToDoData; hero: PageHero; initial?: ThingsToDoFilters }) {
   const [activeCategory, setActiveCategory] = useState(initial.category && data.categories.some((c) => c.key === initial.category) ? initial.category : "all");
   const [stateFilter, setStateFilter] = useState(initial.state && data.states.some((s) => s.slug === initial.state) ? initial.state : "");
   const [destFilter, setDestFilter] = useState(initial.destination && data.destinations.some((d) => d.key === initial.destination) ? initial.destination : "");
@@ -55,8 +70,6 @@ export function ThingsToDoPage({ data, hero, initial = {} }: { data: ThingsToDoD
     return () => window.removeEventListener("vacayout:open-ai", handleOpenAi);
   }, []);
 
-  const pills = [{ id: "all", label: "All" }, ...data.categories.map((c) => ({ id: c.key, label: c.label }))];
-
   const filtered = useMemo(() => {
     const q = searchQuery.toLowerCase().trim();
     return data.items.filter(
@@ -75,242 +88,180 @@ export function ThingsToDoPage({ data, hero, initial = {} }: { data: ThingsToDoD
     if (searchQuery.trim() && filtered.length === 0) handleStartPlan(`Things to do in India: ${searchQuery.trim()}`);
   };
 
-  const popular = data.items.filter((i) => i.image).slice(0, 5);
-  const featured = data.items.filter((i) => i.featured).slice(0, 5);
+  const featured = data.items.filter((i) => i.featured && i.image).slice(0, 4);
+  const filtersOn = activeCategory !== "all" || !!stateFilter || !!destFilter || !!searchQuery.trim();
+  const clearAll = () => {
+    setActiveCategory("all");
+    setStateFilter("");
+    setDestFilter("");
+    setSearchQuery("");
+  };
+  const tiles = [{ key: "all", label: "Everything", count: data.items.length }, ...data.categories];
+  // The AI banner sits between rows, after the first two rows of four.
+  const head = filtered.slice(0, 8);
+  const tail = filtered.slice(8);
+
+  const card = (item: ThingsToDoData["items"][number]) => (
+    <Link key={item.href} href={item.href} className="group block">
+      <div className="relative aspect-[4/3] overflow-hidden rounded-2xl bg-sand">
+        <Thumb item={item} sizes="(min-width: 1024px) 22vw, (min-width: 768px) 30vw, 46vw" />
+      </div>
+      <p className="mt-3 text-[0.6875rem] font-bold uppercase tracking-wider text-coral">
+        {data.categories.find((c) => c.key === item.category)?.label ?? item.kindLabel}
+      </p>
+      <h3 className="mt-1 line-clamp-2 text-[0.9375rem] font-semibold leading-snug text-ink transition-colors group-hover:text-coral">{item.name}</h3>
+      <p className="mt-1 flex items-center gap-1 truncate text-xs text-muted">
+        <Icon name="pin" size={12} className="shrink-0" />
+        <span className="truncate">{item.location}</span>
+      </p>
+    </Link>
+  );
 
   return (
     <div className="min-h-screen bg-white">
-      {/* 1. Panoramic Hero Section */}
-      <header className="relative min-h-[380px] sm:min-h-[460px] lg:min-h-[500px] w-full overflow-hidden bg-ink">
-        <Image src={hero.src} alt={hero.alt} fill priority sizes="100vw" className="object-cover object-center brightness-[0.88]" />
-        <div className="absolute inset-0 bg-gradient-to-t from-black/85 via-black/40 to-black/25" />
-        <div className="absolute inset-0 bg-radial-gradient from-transparent to-black/25" />
+      <HubHeader
+        crumb="Things to do"
+        eyebrow="Explore by interest"
+        title="Things to do in India"
+        intro="Treks, boat rides, temples, food streets and festivals, each with a guide checked against official sources."
+        stats={[
+          { value: data.items.length, label: "experiences" },
+          { value: data.states.length, label: "states" },
+        ]}
+        search={{
+          id: "ttd-search",
+          label: "Search activities, interests or destinations",
+          placeholder: "Search activities, places or destinations…",
+          value: searchQuery,
+          onChange: setSearchQuery,
+          onSubmit: handleSearchSubmit,
+        }}
+      />
 
-        <div className="container-site relative z-10 flex min-h-[380px] sm:min-h-[460px] lg:min-h-[500px] flex-col justify-end pb-8 pt-10 sm:pb-12">
-          <div className="max-w-3xl">
-            <p className="text-xs sm:text-[0.8125rem] font-bold tracking-widest text-white/90 uppercase mb-2">EXPLORE BY INTEREST</p>
-            <h1 className="font-serif text-3xl sm:text-5xl lg:text-6xl font-bold tracking-tight text-white drop-shadow-sm">Things to Do in India</h1>
-            <p className="mt-2.5 max-w-2xl text-sm sm:text-base lg:text-lg text-white/95 leading-relaxed drop-shadow-xs">
-              From majestic mountains to pristine beaches, sacred temples to thrilling adventures – find experiences that match your travel style.
-            </p>
-
-            <form onSubmit={handleSearchSubmit} className="mt-6 max-w-xl" role="search">
-              <div className="relative flex items-center">
-                <Icon name="search" size={18} className="absolute left-4 text-[#777777] pointer-events-none" />
-                <label htmlFor="ttd-search" className="sr-only">Search activities, interests or destinations</label>
-                <input
-                  id="ttd-search"
-                  type="text"
-                  value={searchQuery}
-                  onChange={(e) => setSearchQuery(e.target.value)}
-                  placeholder="Search activities, interests or destinations..."
-                  className="w-full rounded-full border border-white/20 bg-white/95 py-3 pl-11 pr-14 text-xs sm:text-sm text-ink placeholder:text-[#888888] shadow-md backdrop-blur-xs transition-colors focus:bg-white focus:outline-none focus:ring-2 focus:ring-coral"
-                />
-                <button type="submit" aria-label="Search" className="absolute right-2 flex size-8 items-center justify-center rounded-full bg-[#1B4332] text-white hover:bg-[#143325] transition-colors shadow-xs">
-                  <Icon name="arrowRight" size={15} />
-                </button>
-              </div>
-            </form>
-          </div>
-
-          <div className="absolute bottom-4 right-4 sm:right-8 text-right hidden sm:block text-[0.6875rem] text-white/75">
-            <p>{hero.caption}</p>
-            <p>
-              Photo: <a href={hero.creditUrl} target="_blank" rel="nofollow noopener noreferrer" className="underline hover:text-white">{hero.credit}</a> ·{" "}
-              <a href={hero.licenseUrl} target="_blank" rel="license nofollow noopener noreferrer" className="underline hover:text-white">{hero.license}</a>
-            </p>
-          </div>
-        </div>
-      </header>
-
-      {/* 2. Filter Pills Navigation Bar */}
-      {pills.length > 1 || data.states.length ? (
-        <section className="border-b border-[#ECE9E2] bg-white py-4 sm:py-5">
-          <div className="container-site space-y-3">
-            <div className="flex flex-wrap gap-3">
-              <label className="flex items-center gap-2 text-xs font-semibold text-[#555]">
-                State
-                <select value={stateFilter} onChange={(e) => { setStateFilter(e.target.value); setDestFilter(""); }} className="h-10 rounded-full border border-[#E5E2DA] bg-white px-3 text-sm font-medium text-ink">
-                  <option value="">All states</option>
-                  {data.states.map((s) => <option key={s.slug} value={s.slug}>{s.name}</option>)}
-                </select>
-              </label>
-              {destOptions.length ? (
-                <label className="flex items-center gap-2 text-xs font-semibold text-[#555]">
-                  Destination
-                  <select value={destFilter} onChange={(e) => setDestFilter(e.target.value)} className="h-10 rounded-full border border-[#E5E2DA] bg-white px-3 text-sm font-medium text-ink">
-                    <option value="">All destinations</option>
-                    {destOptions.map((d) => <option key={d.key} value={d.key}>{d.name}</option>)}
-                  </select>
-                </label>
-              ) : null}
-            </div>
-            <div className="flex items-center gap-2 overflow-x-auto [scrollbar-width:none] pb-1">
-              {pills.map((pill) => {
-                const isActive = activeCategory === pill.id;
+      <main className="container-site py-8 sm:py-10">
+        {/* Interest tiles: the main way to browse this page */}
+        {data.categories.length ? (
+          <section aria-label="Interests" className="-mx-4 overflow-x-auto px-4 pb-1 [scrollbar-width:none] sm:mx-0 sm:px-0">
+            <div className="grid auto-cols-[8.25rem] grid-flow-col gap-2.5 lg:auto-cols-fr">
+              {tiles.map((t) => {
+                const active = activeCategory === t.key;
                 return (
                   <button
-                    key={pill.id}
+                    key={t.key}
                     type="button"
-                    onClick={() => setActiveCategory(pill.id)}
-                    aria-pressed={isActive}
-                    className={`shrink-0 rounded-full px-4 py-2 text-xs sm:text-sm font-semibold transition-all ${
-                      isActive ? "bg-ink text-white shadow-xs" : "border border-[#E5E2DA] bg-[#FAF9F5] text-[#444444] hover:bg-white hover:text-ink hover:border-[#D0CBC0]"
+                    aria-pressed={active}
+                    onClick={() => setActiveCategory(t.key)}
+                    className={`flex min-h-[6.5rem] flex-col items-start justify-between rounded-2xl border p-3.5 text-left transition-all ${
+                      active ? "border-ink bg-ink text-white shadow-card" : "border-line bg-white text-ink hover:border-[#CFCAC0] hover:shadow-card"
                     }`}
                   >
-                    {pill.label}
+                    <span className={`flex size-9 items-center justify-center rounded-xl ${active ? "bg-white/12 text-white" : "bg-coral-soft text-coral"}`}>
+                      <Icon name={CATEGORY_ICONS[t.key] ?? "compass"} size={18} />
+                    </span>
+                    <span>
+                      <span className="block text-[0.8125rem] font-semibold leading-tight">{t.label}</span>
+                      <span className={`mt-0.5 block text-[0.6875rem] ${active ? "text-white/70" : "text-muted"}`}>{t.count}</span>
+                    </span>
                   </button>
                 );
               })}
             </div>
-          </div>
-        </section>
-      ) : null}
+          </section>
+        ) : null}
 
-      {/* 3. Main 2-Column Content Area */}
-      <main className="container-site py-8 sm:py-12">
-        <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-10 items-start">
-          <div className="lg:col-span-8">
-            <div className="mb-6">
-              <h2 className="font-serif text-2xl sm:text-3xl font-bold text-ink">Explore by Interest</h2>
-              <p className="mt-1.5 text-xs sm:text-sm text-[#666666]">
-                Activities and places with a reviewed guide — season, booking and entry rules only where an official source confirms them.
-              </p>
+        {/* Toolbar: result count and place filters */}
+        {data.items.length ? (
+          <div className="mt-8 flex flex-col gap-3 border-b border-line-subtle pb-4 sm:flex-row sm:items-center sm:justify-between">
+            <p className="text-sm text-[#5F5F5F]">
+              <span className="font-semibold text-ink">{filtered.length}</span> {filtered.length === 1 ? "experience" : "experiences"}
+              {filtersOn ? (
+                <button type="button" onClick={clearAll} className="ml-3 text-xs font-semibold text-coral hover:underline">Clear filters</button>
+              ) : null}
+            </p>
+            <div className="flex flex-wrap gap-2">
+              <label className="sr-only" htmlFor="ttd-state">State</label>
+              <select id="ttd-state" value={stateFilter} onChange={(e) => { setStateFilter(e.target.value); setDestFilter(""); }} className="h-9 rounded-full border border-line bg-white px-3.5 text-[0.8125rem] font-medium text-ink focus:border-ink focus:outline-none">
+                <option value="">All states</option>
+                {data.states.map((s) => <option key={s.slug} value={s.slug}>{s.name}</option>)}
+              </select>
+              {destOptions.length ? (
+                <>
+                  <label className="sr-only" htmlFor="ttd-dest">Destination</label>
+                  <select id="ttd-dest" value={destFilter} onChange={(e) => setDestFilter(e.target.value)} className="h-9 rounded-full border border-line bg-white px-3.5 text-[0.8125rem] font-medium text-ink focus:border-ink focus:outline-none">
+                    <option value="">All destinations</option>
+                    {destOptions.map((d) => <option key={d.key} value={d.key}>{d.name}</option>)}
+                  </select>
+                </>
+              ) : null}
             </div>
+          </div>
+        ) : null}
 
-            {data.items.length === 0 ? (
-              <div className="rounded-2xl border border-dashed border-[#DCD7CE] bg-[#FAF9F5] p-10 text-center">
-                <p className="text-sm font-semibold text-ink">Experiences are being researched and reviewed.</p>
-                <p className="mt-1 text-xs text-[#666666]">Each one is checked against official sources and approved by an editor before it appears here.</p>
-                <button type="button" onClick={() => handleStartPlan("Suggest things to do in India based on my interests")} className="mt-4 rounded-full bg-[#1B4332] px-4 py-2 text-xs font-semibold text-white">
-                  Ask the AI planner
-                </button>
-              </div>
-            ) : (
-              <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 sm:gap-5">
-                {filtered.map((item) => (
-                  <Link key={item.href} href={item.href} className="group flex flex-col overflow-hidden rounded-2xl border border-[#ECE9E2] bg-white shadow-2xs hover:shadow-card transition-all text-left">
-                    <div className="relative aspect-[16/10] w-full overflow-hidden bg-[#ECE9E2]">
-                      <Thumb item={item} sizes="(min-width: 1024px) 25vw, (min-width: 640px) 45vw, 95vw" />
-                      <div className="absolute inset-0 bg-gradient-to-t from-black/45 via-transparent to-transparent opacity-60 group-hover:opacity-40 transition-opacity" />
-                      <div className="absolute bottom-2.5 left-2.5 flex size-7 items-center justify-center rounded-lg bg-white/90 text-ink shadow-xs backdrop-blur-xs">
-                        <Icon name={iconFor(item.tripTypes)} size={15} className="text-coral" />
-                      </div>
-                    </div>
-                    <div className="flex items-center justify-between p-3.5">
-                      <div className="min-w-0 pr-2">
-                        <h3 className="font-bold text-sm text-ink group-hover:text-coral transition-colors truncate">{item.name}</h3>
-                        <p className="text-[0.6875rem] text-[#666666] mt-0.5 truncate">{data.categories.find((c) => c.key === item.category)?.label ?? item.kindLabel} · {item.location}</p>
-                      </div>
-                      <span className="text-[#888888] group-hover:text-coral group-hover:translate-x-0.5 transition-all text-sm shrink-0">→</span>
-                    </div>
-                  </Link>
-                ))}
-              </div>
-            )}
+        {data.items.length === 0 ? (
+          <div className="mt-8 rounded-2xl border border-dashed border-line p-10 text-center">
+            <p className="text-sm font-semibold text-ink">Experiences are being researched and reviewed.</p>
+            <p className="mt-1 text-xs text-muted">Each one is checked against official sources and approved by an editor before it appears here.</p>
+            <button type="button" onClick={() => handleStartPlan("Suggest things to do in India based on my interests")} className="mt-4 rounded-full bg-ink px-4 py-2 text-xs font-semibold text-white">Ask the AI planner</button>
+          </div>
+        ) : filtered.length === 0 ? (
+          <div className="mt-8 rounded-2xl border border-dashed border-line p-10 text-center">
+            <p className="text-sm font-semibold text-ink">No experiences matched your search.</p>
+            <div className="mt-3 flex justify-center gap-4">
+              <button type="button" onClick={clearAll} className="text-xs font-bold text-coral hover:underline">Clear filters</button>
+              {searchQuery.trim() ? <button type="button" onClick={() => handleStartPlan(`Things to do in India: ${searchQuery.trim()}`)} className="text-xs font-bold text-coral hover:underline">Ask the AI planner</button> : null}
+            </div>
+          </div>
+        ) : (
+          <>
+            <div className="mt-6 grid grid-cols-2 gap-x-4 gap-y-8 md:grid-cols-3 lg:grid-cols-4 lg:gap-x-6">{head.map(card)}</div>
 
-            {data.items.length > 0 && filtered.length === 0 && (
-              <div className="rounded-2xl border border-dashed border-[#DCD7CE] p-10 text-center">
-                <p className="text-sm font-semibold text-ink">No experiences matched your search.</p>
-                <div className="mt-3 flex justify-center gap-4">
-                  <button type="button" onClick={() => { setActiveCategory("all"); setStateFilter(""); setDestFilter(""); setSearchQuery(""); }} className="text-xs font-bold text-coral hover:underline">Clear filters</button>
-                  {searchQuery.trim() ? <button type="button" onClick={() => handleStartPlan(`Things to do in India: ${searchQuery.trim()}`)} className="text-xs font-bold text-coral hover:underline">Ask the AI planner</button> : null}
+            <aside className="my-10 flex flex-col items-start gap-4 rounded-3xl bg-[#F4F1EA] px-6 py-6 sm:flex-row sm:items-center sm:justify-between sm:px-8">
+              <div className="flex items-center gap-4">
+                <span className="flex size-11 shrink-0 items-center justify-center rounded-2xl bg-white text-coral shadow-xs"><Icon name="sparkles" size={20} /></span>
+                <div>
+                  <p className="font-serif text-lg font-bold text-ink">Not sure what to choose?</p>
+                  <p className="text-[0.8125rem] text-[#5F5F5F]">Tell the AI planner your interests and dates. It picks from the guides on this page.</p>
                 </div>
               </div>
-            )}
-          </div>
-
-          {/* Right Column: Sidebar Widgets */}
-          <aside className="lg:col-span-4 space-y-6 lg:sticky lg:top-24">
-            <div className="flex flex-col items-center text-center rounded-2xl border border-[#DCE8D8] bg-[#F1F6EE] p-6 shadow-2xs">
-              <div className="flex size-12 items-center justify-center rounded-full bg-white text-[#1B4332] shadow-xs mb-3">
-                <Icon name="compass" size={24} className="text-[#2C6E49]" />
-              </div>
-              <h3 className="font-serif text-lg font-bold text-ink">Not sure what to choose?</h3>
-              <p className="mt-2 text-xs sm:text-[0.8125rem] text-[#555555] leading-relaxed max-w-xs">Let our AI trip planner suggest experiences based on your interests, budget and travel style.</p>
-              <button type="button" onClick={() => handleStartPlan("Help me choose the best destinations and things to do in India based on my travel style")} className="mt-4 inline-flex items-center gap-2 rounded-full bg-[#1B4332] px-5 py-2.5 text-xs sm:text-sm font-semibold text-white shadow-xs hover:bg-[#143325] transition-colors">
-                <span>Plan a trip with AI</span>
-                <span className="text-coral">→</span>
+              <button type="button" onClick={() => handleStartPlan("Help me choose the best destinations and things to do in India based on my travel style")} className="shrink-0 rounded-full bg-ink px-5 py-2.5 text-sm font-semibold text-white transition-colors hover:bg-coral">
+                Plan with AI →
               </button>
-            </div>
+            </aside>
 
-            {popular.length ? (
-              <div className="rounded-2xl border border-[#ECE9E2] bg-white p-5 shadow-2xs">
-                <h3 className="font-serif text-lg font-bold text-ink mb-4">Popular Things to Do</h3>
-                <div className="space-y-3">
-                  {popular.map((act) => (
-                    <Link key={act.href} href={act.href} className="group flex w-full items-center justify-between gap-3 text-left p-1.5 rounded-xl hover:bg-[#FAF9F5] transition-colors">
-                      <div className="flex items-center gap-3 min-w-0">
-                        <div className="relative size-12 shrink-0 rounded-lg overflow-hidden bg-[#ECE9E2]">
-                          {act.image ? <Image src={act.image.url} alt="" fill sizes="48px" className="object-cover" /> : null}
-                        </div>
-                        <div className="min-w-0">
-                          <p className="text-xs sm:text-[0.8125rem] font-bold text-ink group-hover:text-coral transition-colors truncate">{act.name}</p>
-                          <p className="text-[0.6875rem] text-[#777777] mt-0.5 truncate">{act.location}</p>
-                        </div>
-                      </div>
-                      <span className="text-[#AAAAAA] group-hover:text-coral group-hover:translate-x-0.5 transition-all text-sm shrink-0 pr-1">›</span>
-                    </Link>
-                  ))}
-                </div>
-              </div>
-            ) : null}
+            {tail.length ? <div className="grid grid-cols-2 gap-x-4 gap-y-8 md:grid-cols-3 lg:grid-cols-4 lg:gap-x-6">{tail.map(card)}</div> : null}
+          </>
+        )}
 
-            <div className="rounded-2xl border border-[#ECE9E2] bg-[#FAF9F5] p-5 shadow-2xs">
-              <div className="flex items-center gap-2 mb-3.5">
-                <Icon name="compass" size={16} className="text-[#2C6E49]" />
-                <h3 className="font-serif text-sm sm:text-base font-bold text-ink">Why explore with VacayOut?</h3>
-              </div>
-              <ul className="space-y-2 text-xs text-[#555555]">
-                {WHY.map((reason) => (
-                  <li key={reason} className="flex items-start gap-2">
-                    <span className="text-emerald-700 font-bold shrink-0">✓</span>
-                    <span>{reason}</span>
-                  </li>
-                ))}
-              </ul>
-              <div className="mt-3.5 pt-3 border-t border-[#ECE9E2]">
-                <Link href="/about" className="text-xs font-bold text-coral hover:underline inline-flex items-center gap-1">Learn more →</Link>
-              </div>
-            </div>
-          </aside>
-        </div>
-      </main>
-
-      {/* 4. Featured Experiences (editor-featured, published) */}
-      {featured.length ? (
-        <section className="border-t border-[#ECE9E2] bg-[#FAF9F5] py-10 sm:py-14">
-          <div className="container-site">
-            <div className="mb-6">
-              <h2 className="font-serif text-2xl sm:text-3xl font-bold text-ink">Featured Experiences</h2>
-              <p className="mt-1 text-xs sm:text-sm text-[#666666]">Unique experiences and must-do activities across India.</p>
-            </div>
-            <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-3 sm:gap-4">
+        {/* Editor's picks */}
+        {featured.length && !filtersOn ? (
+          <section className="mt-14 border-t border-line-subtle pt-10">
+            <h2 className="font-serif text-2xl font-bold text-ink">Editor&apos;s picks</h2>
+            <p className="mt-1 text-sm text-muted">Experiences our editors recommend first.</p>
+            <div className="mt-6 grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-4">
               {featured.map((exp) => (
-                <Link key={exp.href} href={exp.href} className="group flex flex-col overflow-hidden rounded-xl border border-[#ECE9E2] bg-white shadow-2xs hover:shadow-card transition-all text-left">
-                  <div className="relative aspect-[16/11] w-full overflow-hidden bg-[#ECE9E2]">
-                    <Thumb item={exp} sizes="(min-width: 1024px) 20vw, (min-width: 640px) 33vw, 50vw" />
-                  </div>
-                  <div className="p-3 flex flex-col justify-between flex-1">
-                    <div>
-                      <h3 className="font-bold text-xs sm:text-sm text-ink group-hover:text-coral transition-colors truncate">{exp.name}</h3>
-                      <p className="mt-1 flex items-center gap-1 text-[0.6875rem] text-[#666666] truncate">
-                        <Icon name="pin" size={11} className="text-coral shrink-0" />
-                        <span className="truncate">{exp.location}</span>
-                      </p>
-                    </div>
-                    <div className="mt-3 flex flex-wrap gap-1">
-                      {TRIP_TYPES.filter((t) => exp.tripTypes.includes(t.key)).slice(0, 2).map((t) => (
-                        <span key={t.key} className="rounded-md bg-[#F2EFE9] px-1.5 py-0.5 text-[0.625rem] font-semibold text-[#555555]">{t.label}</span>
-                      ))}
-                    </div>
+                <Link key={exp.href} href={exp.href} className="group relative block aspect-[3/4] overflow-hidden rounded-2xl bg-sand">
+                  <Thumb item={exp} sizes="(min-width: 1024px) 22vw, (min-width: 640px) 45vw, 92vw" />
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/75 via-black/10 to-transparent" />
+                  <div className="absolute inset-x-0 bottom-0 p-4 text-white">
+                    <p className="font-semibold leading-snug">{exp.name}</p>
+                    <p className="mt-0.5 truncate text-xs text-white/80">{exp.location}</p>
                   </div>
                 </Link>
               ))}
             </div>
-          </div>
-        </section>
-      ) : null}
+          </section>
+        ) : null}
+
+        {/* How the guides are made */}
+        <ul className="mt-14 grid gap-3 border-t border-line-subtle pt-8 text-[0.8125rem] text-[#5F5F5F] sm:grid-cols-2 lg:grid-cols-4">
+          {WHY.map((reason) => (
+            <li key={reason} className="flex items-start gap-2">
+              <Icon name="checkCircle" size={16} className="mt-0.5 shrink-0 text-emerald-700" />
+              <span>{reason}</span>
+            </li>
+          ))}
+        </ul>
+      </main>
 
       <AiPlannerModal isOpen={isModalOpen} onClose={() => setIsModalOpen(false)} initialPrompt={activePrompt} />
     </div>

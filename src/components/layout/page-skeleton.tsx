@@ -4,7 +4,33 @@
  */
 const bar = "animate-pulse rounded-lg bg-[#ECE8E0]";
 
-export function PageSkeleton({ variant = "place" }: { variant?: "place" | "hub" | "article" }) {
+export function PageSkeleton({ variant = "place" }: { variant?: "place" | "hub" | "article" | "list" }) {
+  // List pages (Things to do, Travel guides, Itineraries) open with a short white header.
+  if (variant === "list") {
+    return (
+      <div aria-busy="true" aria-live="polite" className="bg-white">
+        <span className="sr-only">Loading…</span>
+        <div className="border-b border-line-subtle">
+          <div className="container-site space-y-3 pb-9 pt-8">
+            <div className={`${bar} h-3 w-32`} />
+            <div className={`${bar} h-4 w-24`} />
+            <div className={`${bar} h-10 w-80 max-w-full`} />
+            <div className={`${bar} h-4 w-full max-w-xl`} />
+            <div className="h-12 w-full max-w-2xl animate-pulse rounded-full bg-[#F1EEE8]" />
+          </div>
+        </div>
+        <div className="container-site grid grid-cols-2 gap-x-4 gap-y-8 py-10 md:grid-cols-3 lg:grid-cols-4">
+          {Array.from({ length: 8 }, (_, i) => (
+            <div key={i} className="space-y-2">
+              <div className="aspect-[4/3] animate-pulse rounded-2xl bg-[#ECE8E0]" />
+              <div className={`${bar} h-3 w-1/3`} />
+              <div className={`${bar} h-4 w-4/5`} />
+            </div>
+          ))}
+        </div>
+      </div>
+    );
+  }
   return (
     <div aria-busy="true" aria-live="polite" className="bg-[#FBFAF7]">
       <span className="sr-only">Loading…</span>

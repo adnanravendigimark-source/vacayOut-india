@@ -17,7 +17,8 @@ export default async function SignupPage({ searchParams }: { searchParams: Promi
     <AuthShell
       title="Create your account"
       subtitle="Free. Save your trips and plan more with AI."
-      footer={<>Already have an account? <Link href={`/login?next=${encodeURIComponent(next)}`} className="font-semibold text-[#234832] underline underline-offset-4">Sign in</Link></>}
+      photo="signup"
+      footer={<>Already have an account? <Link href={`/login?next=${encodeURIComponent(next)}`} className="font-semibold text-coral hover:underline underline-offset-4">Sign in</Link></>}
     >
       {googleConfigured() ? (
         <>

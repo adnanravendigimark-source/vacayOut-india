@@ -89,7 +89,7 @@ export default async function BlogPostPage({ params }: Params) {
   ];
 
   return (
-    <article className="min-h-screen bg-canvas">
+    <article className="min-h-screen bg-white">
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd).replace(/</g, "\\u003c") }} />
       <div className="container-site pt-6">
         <nav aria-label="Breadcrumb" className="text-xs font-medium text-muted">
