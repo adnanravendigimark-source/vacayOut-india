@@ -188,6 +188,56 @@
       "url": "https://www.tourism.rajasthan.gov.in/content/rajasthan-tourism/en/tourist-destinations/jodhpur.html",
       "title": "Jodhpur — Rajasthan Tourism (Government of Rajasthan)",
       "authority": "government"
+    },
+    "TT_HOW": {
+      "url": "https://www.tamilnadutourism.tn.gov.in/plan-your-trip/how-to-reach",
+      "title": "How to reach — Tamil Nadu Tourism (Government of Tamil Nadu)",
+      "authority": "government"
+    },
+    "TT_BRI": {
+      "url": "https://www.tamilnadutourism.tn.gov.in/destinations/brihadeeswara-temple",
+      "title": "Brihadeeswara Temple — Tamil Nadu Tourism (Government of Tamil Nadu)",
+      "authority": "government"
+    },
+    "TT_MDU": {
+      "url": "https://www.tamilnadutourism.tn.gov.in/destinations/madurai",
+      "title": "Madurai — Tamil Nadu Tourism (Government of Tamil Nadu)",
+      "authority": "government"
+    },
+    "TT_TNJ": {
+      "url": "https://www.tamilnadutourism.tn.gov.in/destinations/thanjavur",
+      "title": "Thanjavur — Tamil Nadu Tourism (Government of Tamil Nadu)",
+      "authority": "government"
+    },
+    "TT_KPM": {
+      "url": "https://www.tamilnadutourism.tn.gov.in/destinations/kancheepuram",
+      "title": "Kancheepuram — Tamil Nadu Tourism (Government of Tamil Nadu)",
+      "authority": "government"
+    },
+    "TT_OOTY": {
+      "url": "https://www.tamilnadutourism.tn.gov.in/destinations/ooty",
+      "title": "Ooty — Tamil Nadu Tourism (Government of Tamil Nadu)",
+      "authority": "government"
+    },
+    "TT_KOD": {
+      "url": "https://www.tamilnadutourism.tn.gov.in/destinations/kodaikanal",
+      "title": "Kodaikanal — Tamil Nadu Tourism (Government of Tamil Nadu)",
+      "authority": "government"
+    },
+    "TT_RMM": {
+      "url": "https://www.tamilnadutourism.tn.gov.in/destinations/rameswaram",
+      "title": "Rameswaram — Tamil Nadu Tourism (Government of Tamil Nadu)",
+      "authority": "government"
+    },
+    "TT_KKM": {
+      "url": "https://www.tamilnadutourism.tn.gov.in/destinations/kanyakumari",
+      "title": "Kanniyakumari — Tamil Nadu Tourism (Government of Tamil Nadu)",
+      "authority": "government"
+    },
+    "TT_MEE": {
+      "url": "https://www.tamilnadutourism.tn.gov.in/destinations/meenakshi-amman-temple",
+      "title": "Meenakshi Amman Temple — Tamil Nadu Tourism (Government of Tamil Nadu)",
+      "authority": "government"
     }
   },
   "facts": {
@@ -1362,6 +1412,273 @@
           "quote": "The name is clearly befitting as most of the architecture – forts, palaces, temples, havelis and even houses are built in vivid shades of blue."
         }
       ]
+    },
+    "TNS1": {
+      "place": "tamil-nadu",
+      "topic": "Airports",
+      "claim": "Tamil Nadu has four international airports — Chennai, Coimbatore, Tiruchirappalli and Madurai — and domestic airports at Salem and Tuticorin.",
+      "claimType": "distance",
+      "evidence": [
+        {
+          "source": "TT_HOW",
+          "quote": "The four international airports in Chennai, Coimbatore, Tiruchirapalli and Madurai serve the main four regions of the state."
+        },
+        {
+          "source": "TT_HOW",
+          "quote": "The three domestic airports are in Salem, Tuticorin and Puducherry."
+        }
+      ]
+    },
+    "TNS2": {
+      "place": "tamil-nadu",
+      "topic": "Railways",
+      "claim": "Tamil Nadu is the home of Southern Railway; Chennai Central handles trains to the north and Chennai Egmore trains to the south.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "TT_HOW",
+          "quote": "The headquarters of Southern Railway is in Tamil Nadu."
+        },
+        {
+          "source": "TT_HOW",
+          "quote": "Puratchi Thalaivar Dr M.G. Ramachandran Central Railway Station is the gateway to trains towards the north and Chennai Egmore is the hub of trains towards the south."
+        }
+      ]
+    },
+    "TNS3": {
+      "place": "tamil-nadu",
+      "topic": "State buses",
+      "claim": "The State Express Transport Corporation (SETC) runs long-distance buses between the main cities, tourist and pilgrim towns, with advance booking.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "TT_HOW",
+          "quote": "The State Express Transport Corporation (SETC) runs long-distance express services and links all important cities, tourist destinations, religious places and commercial hubs"
+        },
+        {
+          "source": "TT_HOW",
+          "quote": "The SETC allows advance booking"
+        }
+      ]
+    },
+    "TNS4": {
+      "place": "tamil-nadu",
+      "topic": "Great Living Chola Temples",
+      "claim": "The Brihadeeswara Temple at Thanjavur, Gangaikonda Cholapuram and the Airavatesvara Temple at Darasuram together form the 'Great Living Chola Temples' World Heritage Site.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "TT_BRI",
+          "quote": "Considered as one of the three ‘Great Living Chola Temples’ along with the Gangaikondacholeeswaram Temple and Airavastesvara Temple, the complex is also listed as a part of the UNESCO World Heritage Sites."
+        }
+      ]
+    },
+    "TNS5": {
+      "place": "tamil-nadu",
+      "topic": "Best time",
+      "claim": "Madurai can be visited year-round, but December to February is the most comfortable.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "TT_MDU",
+          "quote": "It is a destination that can be visited any time of the year. However, for the best experience, visit the destination during December to February."
+        }
+      ],
+      "kind": "seasonal"
+    },
+    "TNS6": {
+      "place": "tamil-nadu",
+      "topic": "Best time",
+      "claim": "Thanjavur is visited year-round; December to February avoids the summer heat of 35–40°C.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "TT_TNJ",
+          "quote": "if you wish to avoid hot and humid weather, December to February would be the ideal time for travel and stay in and around Thanjavur."
+        },
+        {
+          "source": "TT_TNJ",
+          "quote": "the temperature ranges from 35° Celsius to 40° Celsius in the region."
+        }
+      ],
+      "kind": "seasonal"
+    },
+    "TNS7": {
+      "place": "tamil-nadu",
+      "topic": "Best time",
+      "claim": "October to February is best; July and August bring heavy rain.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "TT_KPM",
+          "quote": "October to February is the best time to visit Kancheepuram."
+        },
+        {
+          "source": "TT_KPM",
+          "quote": "Usually, during July and August, it experiences heavy rainfall."
+        }
+      ],
+      "kind": "seasonal"
+    },
+    "TNS8": {
+      "place": "tamil-nadu",
+      "topic": "Best time",
+      "claim": "October to March is the best time to visit.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "TT_RMM",
+          "quote": "The best time to explore Rameswaram is from October to March"
+        }
+      ],
+      "kind": "seasonal"
+    },
+    "TNS9": {
+      "place": "tamil-nadu",
+      "topic": "Best time",
+      "claim": "November to March is cool and pleasant; summers are very hot.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "TT_KKM",
+          "quote": "The perfect time to experience Kanyakumari is from November to March as the weather would be cool and pleasant."
+        }
+      ],
+      "kind": "seasonal"
+    },
+    "TNS10": {
+      "place": "tamil-nadu",
+      "topic": "Best time",
+      "claim": "Ooty can be visited any time, but March to June is best.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "TT_OOTY",
+          "quote": "Although Ooty can be visited and explored any time of the year, the best is the summer months between March and June."
+        }
+      ],
+      "kind": "seasonal"
+    },
+    "TNS11": {
+      "place": "tamil-nadu",
+      "topic": "Best time",
+      "claim": "Kodaikanal is cool year-round; April to June is best.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "TT_KOD",
+          "quote": "the best time to visit the hill station is from April to June when the weather is at its best."
+        }
+      ],
+      "kind": "seasonal"
+    },
+    "TNS12": {
+      "place": "tamil-nadu",
+      "topic": "Towers and halls",
+      "claim": "The Meenakshi Amman Temple has 14 towers of 45–50 metres and a thousand-pillared hall with musical pillars.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "TT_MEE",
+          "quote": "It is quite an architectural marvel with 14 temple towers with a height ranging between 45-50 metres."
+        },
+        {
+          "source": "TT_MEE",
+          "quote": "A 1000 pillared hall is another major feature with exquisitely sculpted pillars. There are musical pillars which produce sounds of different scales."
+        }
+      ]
+    },
+    "TNS13": {
+      "place": "tamil-nadu",
+      "topic": "Queen of Hill Stations",
+      "claim": "Udhagamandalam (Ooty), in the Nilgiris, is the 'Queen of Hill Stations' and was a summer resort of the British Raj.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "TT_OOTY",
+          "quote": "she is the Queen of Hill Stations in India. Udhagamandalam, popularly known as Ooty"
+        },
+        {
+          "source": "TT_OOTY",
+          "quote": "An erstwhile summer resort of the British Raj in India"
+        }
+      ]
+    },
+    "TNS14": {
+      "place": "tamil-nadu",
+      "topic": "Princess of Hills",
+      "claim": "Kodaikanal, the 'Princess of Hills', sits at about 7,000 ft and was established as a hill station in 1845.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "TT_KOD",
+          "quote": "Referred to as the “Princess of Hills”"
+        },
+        {
+          "source": "TT_KOD",
+          "quote": "Located at about 7000 ft above the sea-level, Kodaikanal was established as a destination by British bureaucrats and Christian missionaries in the year of 1845."
+        }
+      ]
+    },
+    "TNS15": {
+      "place": "tamil-nadu",
+      "topic": "Rameswaram",
+      "claim": "Rameswaram, on Pamban Island, is one of the four Char Dham pilgrimage sites and the closest point in India to Sri Lanka.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "TT_RMM",
+          "quote": "Though lying separated from the mainland of India in the Pamban Island, Rameswaram is connected to the mainland by the magnificent Pamban Bridge."
+        },
+        {
+          "source": "TT_RMM",
+          "quote": "one among the four Char Dham pilgrimage sites, Rameswaram is also the closest point to Sri Lanka from India."
+        }
+      ]
+    },
+    "TNS16": {
+      "place": "tamil-nadu",
+      "topic": "Land's end",
+      "claim": "Kanniyakumari is the southern tip of mainland India, where the Arabian Sea, Bay of Bengal and Indian Ocean meet.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "TT_KKM",
+          "quote": "It is the southernmost tip of the mainland of India."
+        },
+        {
+          "source": "TT_KKM",
+          "quote": "Three major water bodies – the Arabian Sea, Bay of Bengal and the Indian Ocean – converge right here in Kanniyakumari."
+        }
+      ]
+    },
+    "TNS17": {
+      "place": "tamil-nadu",
+      "topic": "Thousand temples",
+      "claim": "Kanchipuram is the 'Golden City of a Thousand Temples', also famous for its silk sarees.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "TT_KPM",
+          "quote": "Another feather that embellishes the crown of Kancheepuram is its epithet as the ‘Golden City Of A Thousand Temples’."
+        },
+        {
+          "source": "TT_KPM",
+          "quote": "One might have heard of the world-famous Kancheepuram Sarees that have been adorning South Indian brides for decades."
+        }
+      ]
+    },
+    "TNS18": {
+      "place": "tamil-nadu",
+      "topic": "Rail junctions",
+      "claim": "The main rail junctions include Chennai, Coimbatore, Madurai, Salem, Tiruchirappalli and Nagercoil.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "TT_HOW",
+          "quote": "The major railway junctions in the state are Chennai, Coimbatore, Katpadi, Madurai, Salem, Erode, Dindigul, Karur, Nagercoil, Tiruchirapalli and Tirunelveli."
+        }
+      ]
     }
   },
   "places": [
@@ -1755,6 +2072,79 @@
             }
           ],
           "facts": []
+        },
+        "regions": {
+          "items": [
+            {
+              "title": "Chennai and the north coast",
+              "body": "The capital, Pallava Kanchipuram — the 'Golden City of a Thousand Temples' — and Mamallapuram."
+            },
+            {
+              "title": "The Chola heartland (Thanjavur)",
+              "body": "The three Great Living Chola Temples on the UNESCO list."
+            },
+            {
+              "title": "Madurai and the south",
+              "body": "The Meenakshi temple city, the Char Dham island of Rameswaram and Kanyakumari, India's southern tip."
+            },
+            {
+              "title": "The hills",
+              "body": "Ooty, the Queen of Hill Stations, and Kodaikanal, the Princess of Hills."
+            }
+          ],
+          "facts": [
+            "TNS17",
+            "TNS4",
+            "TNS12",
+            "TNS15",
+            "TNS16",
+            "TNS13",
+            "TNS14"
+          ]
+        },
+        "best_time": {
+          "text": "For the temple towns and the coast, the cooler months are best: December to February for Madurai and Thanjavur, October to February for Kanchipuram, October to March for Rameswaram and November to March for Kanyakumari. Head for the hills when the plains heat up — Ooty is best from March to June and Kodaikanal from April to June.",
+          "facts": [
+            "TNS5",
+            "TNS6",
+            "TNS7",
+            "TNS8",
+            "TNS9",
+            "TNS10",
+            "TNS11"
+          ]
+        },
+        "how_to_reach": {
+          "text": "Tamil Nadu has four international airports — Chennai, Coimbatore, Tiruchirappalli and Madurai — plus domestic airports at Salem and Tuticorin. Southern Railway is headquartered here, with Chennai Central for trains north and Chennai Egmore for trains south, and major junctions at Madurai, Coimbatore, Tiruchirappalli and Nagercoil. The state's SETC runs long-distance buses with advance booking.",
+          "facts": [
+            "TNS1",
+            "TNS2",
+            "TNS18",
+            "TNS3"
+          ]
+        },
+        "faqs": {
+          "items": [
+            {
+              "title": "What is the best time to visit Tamil Nadu?",
+              "body": "About October to March for the plains and coast; March to June for Ooty and Kodaikanal."
+            },
+            {
+              "title": "Which international airports serve Tamil Nadu?",
+              "body": "Chennai, Coimbatore, Tiruchirappalli and Madurai."
+            },
+            {
+              "title": "What are the Great Living Chola Temples?",
+              "body": "The Brihadeeswara Temple at Thanjavur, Gangaikonda Cholapuram and the Airavatesvara Temple at Darasuram, listed together by UNESCO."
+            }
+          ],
+          "facts": [
+            "TNS5",
+            "TNS8",
+            "TNS10",
+            "TNS1",
+            "TNS4"
+          ]
         }
       },
       "wikidataId": "Q1445"

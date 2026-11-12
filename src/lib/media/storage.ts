@@ -56,10 +56,11 @@ async function writeOne(key: string, bytes: Uint8Array, contentType: string, exa
 
 async function storeSet(key: string, enc: EncodedImage): Promise<StoredImage> {
   const dir = renditionDir(key, crypto.randomUUID());
-  let url = "";
-  // Smallest first, largest last: the stored URL is only returned once every width exists.
-  for (const f of enc.files) url = (await writeOne(renditionKey(dir, f.width), f.bytes, enc.contentType, true)).url;
+  // Smaller widths concurrently, largest last: the stored URL is only returned once every width exists.
+  const rest = enc.files.slice(0, -1);
+  if (rest.length) await Promise.all(rest.map((f) => writeOne(renditionKey(dir, f.width), f.bytes, enc.contentType, true)));
   const top = enc.files[enc.files.length - 1];
+  const { url } = await writeOne(renditionKey(dir, top.width), top.bytes, enc.contentType, true);
   return { url, storageKey: `${SET_PREFIX}${dir}`, contentType: enc.contentType, bytes: top.bytes.length, width: enc.width, height: enc.height };
 }
 

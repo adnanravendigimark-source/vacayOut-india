@@ -232,11 +232,13 @@ export async function applyContentFile(file: ContentFile, checks: Checks, opts: 
   const placeIds = new Map<string, string>();
   const preexisting = new Set<string>();
   const idx = await buildIndex(db, file);
+  log(`${file.cluster}: places (${file.places.length})...`);
 
   for (const p of ordered(file.places)) placeIds.set(p.key, await upsertPlace(db, idx, p, file.cluster, report, preexisting));
   const idOf = async (key: string) => placeIds.get(key) ?? idOfKey(idx, key);
 
   // Facts and their evidence.
+  log(`${file.cluster}: facts (${Object.keys(file.facts).length})...`);
   const findingIds = new Map<string, string>();
   const srcIds = new Map<string, string>();
   const runs = new Map<string, string>();
@@ -314,6 +316,7 @@ export async function applyContentFile(file: ContentFile, checks: Checks, opts: 
   };
 
   // Sections (draft, or a suggestion when a person has edited/approved the section).
+  log(`${file.cluster}: sections...`);
   for (const p of file.places) {
     const placeId = placeIds.get(p.key)!;
     for (const [key, s] of Object.entries(p.sections)) {
@@ -366,9 +369,12 @@ export async function applyContentFile(file: ContentFile, checks: Checks, opts: 
 
   // Images: hero first — the importer makes the first image the hero only when the place has none.
   if (opts.images) {
+    const totalImgs = file.places.reduce((acc, p) => acc + p.images.length, 0);
+    let imgIdx = 0;
     for (const p of file.places) {
       const placeId = placeIds.get(p.key)!;
       for (const img of [...p.images].sort((a, b) => Number(b.hero) - Number(a.hero))) {
+        imgIdx++;
         // Cheap pre-check (the importer also refuses duplicates, after downloading).
         const fileName = img.commons.replace(/^File:/, "").replace(/ /g, "_");
         const have = idx.mediaSource.has(K(placeId, `https://commons.wikimedia.org/wiki/File:${fileName}`)) || idx.mediaSource.has(K(placeId, `https://commons.wikimedia.org/wiki/File:${encodeURIComponent(fileName)}`));
@@ -376,6 +382,7 @@ export async function applyContentFile(file: ContentFile, checks: Checks, opts: 
           report.images.skipped++;
           continue;
         }
+        log(`${file.cluster}: image ${imgIdx}/${totalImgs} (${p.key}: ${img.commons})...`);
         try {
           const pageId = await commonsPageId(img.commons);
           if (!pageId) throw new Error("not found on Commons");
@@ -391,6 +398,7 @@ export async function applyContentFile(file: ContentFile, checks: Checks, opts: 
   }
 
   // Itineraries.
+  log(`${file.cluster}: itineraries (${file.itineraries.length}) & guides (${file.guides.length})...`);
   for (const it of file.itineraries) {
     const placeId = await idOf(it.place);
     if (!placeId) throw new Error(`itinerary ${it.slug}: place ${it.place} not found`);

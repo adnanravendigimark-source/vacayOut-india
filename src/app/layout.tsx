@@ -9,6 +9,10 @@ import { FooterGate } from "@/components/layout/footer-gate";
 import { Suspense } from "react";
 import { site } from "@/lib/site";
 import { AuthPanel } from "@/components/account/auth-panel";
+import { Geist } from "next/font/google";
+import { cn } from "@/lib/utils";
+
+const geist = Geist({subsets:['latin'],variable:'--font-sans'});
 
 export const metadata: Metadata = {
 
@@ -44,7 +48,7 @@ export const viewport: Viewport = {
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
   return (
-    <html lang="en-IN">
+    <html lang="en-IN" className={cn("font-sans", geist.variable)}>
       <body className="min-h-dvh antialiased bg-canvas text-ink selection:bg-coral/20 selection:text-coral">
         <a
           href="#main"
