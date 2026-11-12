@@ -6,12 +6,14 @@ import { AttractionsBlock } from "./attractions-block";
 import { DestinationBlock } from "./destination-block";
 import { BookingsBlock, BudgetBlock, FoodBlock, ReachBlock, StayBlock, TipsBlock } from "./info-blocks";
 import { ItineraryBlock } from "./itinerary-block";
+import { CompareBlock } from "./compare-block";
+import { PicksBlock } from "./picks-block";
 import { BestTimeBlock, FaqsBlock, NoticeBlock, SourcesBlock, SuggestionsBlock, TextBlock } from "./misc-blocks";
 
 /** Leaflet only loads when an answer actually includes a map. */
-const MapBlock = dynamic(() => import("./map-block"), { ssr: false, loading: () => <div className="h-[260px] rounded-xl bg-sand" /> });
+const MapBlock = dynamic(() => import("./map-block"), { ssr: false, loading: () => <div className="h-10 rounded-xl bg-sand" /> });
 
-const INFO = new Set(["reach", "stay", "food", "budget", "bookings", "tips"]);
+const INFO = new Set(["reach", "stay", "food", "budget", "bookings"]);
 
 function InfoBlock({ block }: { block: Block }) {
   switch (block.type) {
@@ -37,7 +39,7 @@ export function BlockList({ blocks, onAsk, busy }: { blocks: Block[]; onAsk: (q:
   }
 
   return (
-    <div className="space-y-5">
+    <div className="space-y-3.5">
       {groups.map((g, i) => {
         if (Array.isArray(g)) {
           return (
@@ -49,6 +51,9 @@ export function BlockList({ blocks, onAsk, busy }: { blocks: Block[]; onAsk: (q:
         switch (g.type) {
           case "text": return <TextBlock key={i} block={g} />;
           case "destination": return <DestinationBlock key={i} block={g} />;
+          case "tips": return <TipsBlock key={i} block={g} />;
+          case "compare": return <CompareBlock key={i} block={g} />;
+          case "picks": return <PicksBlock key={i} block={g} onAsk={onAsk} disabled={busy} />;
           case "attractions": return <AttractionsBlock key={i} block={g} onAsk={onAsk} disabled={busy} />;
           case "itinerary": return <ItineraryBlock key={i} block={g} />;
           case "bestTime": return <BestTimeBlock key={i} block={g} />;

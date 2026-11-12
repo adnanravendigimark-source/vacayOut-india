@@ -87,7 +87,7 @@ const answerSchema = {
 } as const;
 
 const STYLE = `Write like a well-travelled friend: warm, specific, plain Indian English, short sentences. No hype words (breathtaking, paradise, hidden gem, must-visit). Use ₹.
-Be brief: answer exactly what was asked, first. Use only the cards this question needs — usually 1 or 2, at most 4 for a full trip plan. A text card is at most 3 sentences. Lists have at most 5 items; an itinerary day has at most 4 items. Don't repeat the same point in two cards.`;
+Be brief. Answer exactly what was asked, in the first card. Default: ONE text card of 2–3 sentences. Add another card only when the question asks for it (a plan → itinerary card; "how to reach" → reach card; costs → budget card). Never add tips, FAQs or food/stay cards nobody asked for. At most 3 cards for a full trip plan. Lists have at most 5 items; an itinerary day has at most 3 items. Don't repeat a point.`;
 
 const RULES = `Rules:
 - Use ONLY the GUIDES and WEB FACTS below. Never add places, prices, times, distances, dates, names or claims from your own knowledge.
@@ -222,7 +222,7 @@ ${contextPrompt(ctx)}`;
     model: deps.model,
     input,
     // A focused answer is a few hundred tokens of JSON; a full plan needs room for every day.
-    max_output_tokens: isPlanIntent(ctx.cls.intent) ? 4000 : 1500,
+    max_output_tokens: isPlanIntent(ctx.cls.intent) ? 3000 : 900,
     reasoning: { effort: effortFor(deps.model) },
     store: false,
     text: { format: { type: "json_schema", name: "answer", strict: true, schema: answerSchema } },

@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useMemo } from "react";
+import { useState, useMemo, useEffect, useRef } from "react";
 import { useSearchParams } from "next/navigation";
 import Image from "@/components/media/image";
 import Link from "next/link";
@@ -26,7 +26,6 @@ export function ExplorePage({ data, hero, initialRegion = "all" }: { data: Explo
   );
   const [selectedRegion, setSelectedRegion] = useState(tabs.some((t) => t.key === initialRegion) ? initialRegion : "all");
   const [searchQuery, setSearchQuery] = useState("");
-  const [currentPage, setCurrentPage] = useState(1);
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [activePrompt, setActivePrompt] = useState<string | undefined>(undefined);
 
@@ -49,12 +48,30 @@ export function ExplorePage({ data, hero, initialRegion = "all" }: { data: Explo
     return data.states.filter((item) => (selectedRegion === "all" || item.zone === selectedRegion) && (!q || item.name.toLowerCase().includes(q)));
   }, [data, selectedRegion, searchQuery]);
 
-  const ITEMS_PER_PAGE = 20;
-  const totalPages = Math.ceil(filteredStates.length / ITEMS_PER_PAGE) || 1;
-  const paginatedStates = filteredStates.slice(
-    (currentPage - 1) * ITEMS_PER_PAGE,
-    currentPage * ITEMS_PER_PAGE
-  );
+  // Show the first batch, then load more cards automatically as the visitor scrolls near the end.
+  const BATCH = 20;
+  const [visible, setVisible] = useState(BATCH);
+  const [filterKey, setFilterKey] = useState(`${selectedRegion}|${searchQuery}`);
+  if (filterKey !== `${selectedRegion}|${searchQuery}`) {
+    // New region or search: start again from the first batch.
+    setFilterKey(`${selectedRegion}|${searchQuery}`);
+    setVisible(BATCH);
+  }
+  const shownStates = filteredStates.slice(0, visible);
+  const hasMore = visible < filteredStates.length;
+  const sentinelRef = useRef<HTMLDivElement>(null);
+  useEffect(() => {
+    const el = sentinelRef.current;
+    if (!el || !hasMore) return;
+    const io = new IntersectionObserver(
+      (entries) => {
+        if (entries.some((e) => e.isIntersecting)) setVisible((v) => v + BATCH);
+      },
+      { rootMargin: "400px 0px" },
+    );
+    io.observe(el);
+    return () => io.disconnect();
+  }, [hasMore, visible]);
 
   return (
     <div className="bg-white min-h-screen">
@@ -109,7 +126,6 @@ export function ExplorePage({ data, hero, initialRegion = "all" }: { data: Explo
                 value={searchQuery}
                 onChange={(e) => {
                   setSearchQuery(e.target.value);
-                  setCurrentPage(1);
                 }}
                 placeholder="Search states, cities or destinations..."
                 className="flex-1 min-w-0 bg-transparent text-xs sm:text-sm text-ink outline-none placeholder:text-[#888888] font-medium py-1.5"
@@ -158,7 +174,6 @@ export function ExplorePage({ data, hero, initialRegion = "all" }: { data: Explo
                     type="button"
                     onClick={() => {
                       setSelectedRegion(tab.key);
-                      setCurrentPage(1);
                     }}
                     className={`shrink-0 rounded-full px-3.5 py-1.5 text-xs font-semibold transition-all ${
                       isActive
@@ -185,7 +200,7 @@ export function ExplorePage({ data, hero, initialRegion = "all" }: { data: Explo
                   Plan with AI
                 </button>
               </div>
-            ) : paginatedStates.length === 0 ? (
+            ) : shownStates.length === 0 ? (
               <div className="py-16 text-center text-[#777777]">
                 <p className="text-base font-semibold text-ink">No states match your search.</p>
                 <p className="mt-1 text-xs">Try selecting “All” or clearing your search term.</p>
@@ -202,7 +217,7 @@ export function ExplorePage({ data, hero, initialRegion = "all" }: { data: Explo
               </div>
             ) : (
               <div className="mt-6 grid grid-cols-2 sm:grid-cols-2 md:grid-cols-4 gap-3.5 sm:gap-4">
-                {paginatedStates.map((st) => (
+                {shownStates.map((st) => (
                   <Link
                     key={st.slug}
                     href={`/india/${st.slug}`}
@@ -239,40 +254,8 @@ export function ExplorePage({ data, hero, initialRegion = "all" }: { data: Explo
               </div>
             )}
 
-            {/* Pagination Controls matching screenshot */}
-            {totalPages > 1 && (
-              <div className="mt-10 flex items-center justify-center gap-2">
-                {Array.from({ length: totalPages }).map((_, i) => {
-                  const pNum = i + 1;
-                  const isCurrent = currentPage === pNum;
-                  return (
-                    <button
-                      key={pNum}
-                      type="button"
-                      onClick={() => setCurrentPage(pNum)}
-                      className={`size-8 rounded-full text-xs font-bold transition-all flex items-center justify-center ${
-                        isCurrent
-                          ? "bg-[#234832] text-white shadow-xs"
-                          : "border border-[#E5E2DC] bg-white text-ink hover:border-ink"
-                      }`}
-                    >
-                      {pNum}
-                    </button>
-                  );
-                })}
-
-                {currentPage < totalPages && (
-                  <button
-                    type="button"
-                    onClick={() => setCurrentPage((prev) => Math.min(prev + 1, totalPages))}
-                    aria-label="Next page"
-                    className="size-8 rounded-full border border-[#E5E2DC] bg-white text-ink hover:border-ink flex items-center justify-center transition-all"
-                  >
-                    <Icon name="arrowRight" size={12} />
-                  </button>
-                )}
-              </div>
-            )}
+            {/* More cards load automatically when this comes into view. */}
+            {hasMore ? <div ref={sentinelRef} aria-hidden className="h-px" /> : null}
           </main>
 
           {/* Right Sidebar Column (3 Widgets) */}
@@ -285,7 +268,6 @@ export function ExplorePage({ data, hero, initialRegion = "all" }: { data: Explo
                   activeZone={selectedRegion === "all" ? null : selectedRegion}
                   onSelectZone={(zone) => {
                     setSelectedRegion(zone);
-                    setCurrentPage(1);
                   }}
                   showBadges={false}
                   embed={true}

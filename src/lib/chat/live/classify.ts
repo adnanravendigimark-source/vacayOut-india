@@ -8,12 +8,14 @@ import { z } from "zod";
 import type { ChatTurn, TripMemory } from "@/lib/chat/schema";
 import { outputText, type CallModel } from "@/lib/research/openai";
 
-export const INTENTS = ["plan_trip", "itinerary", "how_to_reach", "best_time", "budget", "things_to_do", "stay", "food", "general", "modify_plan"] as const;
+export const INTENTS = ["plan_trip", "itinerary", "how_to_reach", "best_time", "budget", "things_to_do", "stay", "food", "general", "modify_plan", "discover"] as const;
 export type Intent = (typeof INTENTS)[number];
 
 export type Classification = {
   scope: "india_travel" | "other_travel" | "off_topic" | "greeting";
   destinations: string[];
+  /** Starting city for "trips from Delhi" — never a destination. */
+  origin: string | null;
   intent: Intent;
   days: number | null;
   travellers: string | null;
@@ -28,11 +30,12 @@ const nstr = { type: ["string", "null"] } as const;
 const schema = {
   type: "object",
   additionalProperties: false,
-  required: ["scope", "destinations", "intent", "days", "travellers", "budget", "month", "interests", "needs_live_info", "standalone"],
+  required: ["scope", "destinations", "origin", "intent", "days", "travellers", "budget", "month", "interests", "needs_live_info", "standalone"],
   properties: {
     scope: { type: "string", enum: ["india_travel", "other_travel", "off_topic", "greeting"] },
-    destinations: { type: "array", items: { type: "string" }, description: "Places in India the request is about, one place per item without the state or country (e.g. [\"Hadimba Temple\", \"Manali\"]). Resolve 'there'/'it' from memory. Most specific first." },
-    intent: { type: "string", enum: [...INTENTS] },
+    destinations: { type: "array", items: { type: "string" }, description: "Specific places in India the request is about, one place per item without the state or country (e.g. [\"Hadimba Temple\", \"Manali\"]). Never \"India\" or a broad area like \"South India\" or \"the hills\". Resolve 'there'/'it' from memory. Most specific first." },
+    origin: { type: ["string", "null"], description: "Where the traveller starts from (\"weekend trips from Delhi\" → \"Delhi\"). Not a destination; leave it out of destinations." },
+    intent: { type: "string", enum: [...INTENTS], description: "discover = asking WHERE to go (best places, ideas, recommendations) across India or a broad area, with no single place chosen yet." },
     days: { type: ["integer", "null"] },
     travellers: nstr,
     budget: nstr,
@@ -46,6 +49,7 @@ const schema = {
 const resultZ = z.object({
   scope: z.enum(["india_travel", "other_travel", "off_topic", "greeting"]),
   destinations: z.array(z.string().trim().min(1).max(80)).max(4),
+  origin: z.string().trim().max(80).nullable(),
   intent: z.enum(INTENTS),
   days: z.number().int().nullable(),
   travellers: z.string().max(80).nullable(),
@@ -107,6 +111,7 @@ Latest message: """${latest}"""`;
   return {
     scope: parsed.scope,
     destinations: parsed.destinations,
+    origin: parsed.origin || null,
     intent: parsed.intent,
     days: parsed.days && parsed.days >= 1 && parsed.days <= 30 ? parsed.days : null,
     travellers: parsed.travellers,

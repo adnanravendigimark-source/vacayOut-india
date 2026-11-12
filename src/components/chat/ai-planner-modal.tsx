@@ -119,7 +119,7 @@ export function AiPlannerModal({
   }, []);
 
   // Send turn. Follow-ups go to the conversation on screen; only a new search
-  // (`newChat`) starts a new one — that is what counts as a free chat.
+  // (`newChat`) starts a new one. Every message counts as one free question.
   const shownId = currentChat?.id ?? null;
   const send = useCallback(
     (raw: string, newChat = false) => {

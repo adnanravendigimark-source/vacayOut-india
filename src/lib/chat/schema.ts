@@ -79,6 +79,35 @@ export const blockSchema = z.discriminatedUnion("type", [
     title: shortText,
     items: z.array(z.object({ name: shortText, category: shortText, photo: photoSchema.optional() })).min(1).max(8),
   }),
+  /** Recommended places. Links and photos are added by the server from our published guides; never from the model. */
+  z.object({
+    type: z.literal("picks"),
+    title: shortText,
+    items: z
+      .array(
+        z.object({
+          name: shortText,
+          place: shortText,
+          why: shortText,
+          tags: z.array(z.string().trim().min(1).max(20)).max(2).optional(),
+          /** Our guide, when we have one for this place. */
+          href: z.string().regex(GUIDE_HREF_RE).optional(),
+          photo: photoSchema.optional(),
+          credit: shortText.optional(),
+        }),
+      )
+      .min(1)
+      .max(6),
+    /** True when a comparison table already covers these places (hides the "Compare" chip). */
+    compared: z.boolean().optional(),
+  }),
+  /** Side-by-side comparison of 2-4 places. Cells are short plain text. */
+  z.object({
+    type: z.literal("compare"),
+    title: shortText,
+    columns: z.array(shortText).min(2).max(4),
+    rows: z.array(z.object({ label: shortText, values: z.array(z.string().trim().max(120)).min(2).max(4) })).min(2).max(8),
+  }),
   z.object({
     type: z.literal("itinerary"),
     title: shortText,
@@ -151,7 +180,7 @@ export const tripMemorySchema = z.object({
 export type TripMemory = z.infer<typeof tripMemorySchema>;
 
 export const chatRequestSchema = z.object({
-  /** Browser-generated id of the conversation; free chats are counted per id. */
+  /** Browser-generated id of the conversation. */
   chatId: z.string().uuid(),
   messages: z
     .array(

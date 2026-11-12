@@ -1,0 +1,4380 @@
+{
+  "cluster": "odisha-andhra-telangana",
+  "title": "Odisha, Andhra Pradesh and Telangana",
+  "researchedAt": "2026-11-12",
+  "selection": "VacayOut had no pages for Odisha, Andhra Pradesh or Telangana. This pack adds the three state pages with their main destinations and sights, itineraries and guides, researched from Incredible India (Ministry of Tourism) and Wikipedia.",
+  "sources": {
+    "II_OD": {
+      "url": "https://www.incredibleindia.gov.in/en/odisha",
+      "title": "Odisha — Incredible India (Ministry of Tourism, Government of India)",
+      "authority": "government"
+    },
+    "II_PUR": {
+      "url": "https://www.incredibleindia.gov.in/en/odisha/puri",
+      "title": "Puri — Incredible India (Ministry of Tourism, Government of India)",
+      "authority": "government"
+    },
+    "II_JAG": {
+      "url": "https://www.incredibleindia.gov.in/en/odisha/puri/sri-jagannath-temple",
+      "title": "Sri Jagannath Temple — Incredible India (Ministry of Tourism, Government of India)",
+      "authority": "government"
+    },
+    "II_KON": {
+      "url": "https://www.incredibleindia.gov.in/en/odisha/puri/konark-temple",
+      "title": "Konark Sun Temple — Incredible India (Ministry of Tourism, Government of India)",
+      "authority": "government"
+    },
+    "II_CHI": {
+      "url": "https://www.incredibleindia.gov.in/en/odisha/puri/chilika-wildlife-sanctuary",
+      "title": "Chilika Wildlife Sanctuary — Incredible India (Ministry of Tourism, Government of India)",
+      "authority": "government"
+    },
+    "II_BBS": {
+      "url": "https://www.incredibleindia.gov.in/en/odisha/bhubaneswar",
+      "title": "Bhubaneswar — Incredible India (Ministry of Tourism, Government of India)",
+      "authority": "government"
+    },
+    "II_LIN": {
+      "url": "https://www.incredibleindia.gov.in/en/odisha/bhubaneswar/lingaraj-temple",
+      "title": "Lingaraj Temple — Incredible India (Ministry of Tourism, Government of India)",
+      "authority": "government"
+    },
+    "II_KUC": {
+      "url": "https://www.incredibleindia.gov.in/en/odisha/bhubaneswar/khandagiri-and-udayagiri-caves",
+      "title": "Khandagiri and Udayagiri Caves — Incredible India (Ministry of Tourism, Government of India)",
+      "authority": "government"
+    },
+    "II_DHA": {
+      "url": "https://www.incredibleindia.gov.in/en/odisha/bhubaneswar/dhauligiri-hills",
+      "title": "Dhauligiri Hills — Incredible India (Ministry of Tourism, Government of India)",
+      "authority": "government"
+    },
+    "II_BHK": {
+      "url": "https://www.incredibleindia.gov.in/en/odisha/cuttack/bhitarkanika-national-park",
+      "title": "Bhitarkanika National Park — Incredible India (Ministry of Tourism, Government of India)",
+      "authority": "government"
+    },
+    "II_AP": {
+      "url": "https://www.incredibleindia.gov.in/en/andhra-pradesh",
+      "title": "Andhra Pradesh — Incredible India (Ministry of Tourism, Government of India)",
+      "authority": "government"
+    },
+    "II_TPT": {
+      "url": "https://www.incredibleindia.gov.in/en/andhra-pradesh/tirupati",
+      "title": "Tirupati — Incredible India (Ministry of Tourism, Government of India)",
+      "authority": "government"
+    },
+    "II_SKH": {
+      "url": "https://www.incredibleindia.gov.in/en/andhra-pradesh/tirupati/srikalahasti-temple",
+      "title": "Srikalahasti Temple — Incredible India (Ministry of Tourism, Government of India)",
+      "authority": "government"
+    },
+    "II_VSK": {
+      "url": "https://www.incredibleindia.gov.in/en/andhra-pradesh/visakhapatnam",
+      "title": "Visakhapatnam — Incredible India (Ministry of Tourism, Government of India)",
+      "authority": "government"
+    },
+    "II_BOR": {
+      "url": "https://www.incredibleindia.gov.in/en/andhra-pradesh/visakhapatnam/borra-caves",
+      "title": "Borra Caves — Incredible India (Ministry of Tourism, Government of India)",
+      "authority": "government"
+    },
+    "II_AMR": {
+      "url": "https://www.incredibleindia.gov.in/en/andhra-pradesh/amaravati",
+      "title": "Amaravati — Incredible India (Ministry of Tourism, Government of India)",
+      "authority": "government"
+    },
+    "II_AMC": {
+      "url": "https://www.incredibleindia.gov.in/en/andhra-pradesh/amaravati/amaravati-mahachaitya",
+      "title": "Amaravati Mahachaitya — Incredible India (Ministry of Tourism, Government of India)",
+      "authority": "government"
+    },
+    "II_UND": {
+      "url": "https://www.incredibleindia.gov.in/en/andhra-pradesh/amaravati/undavalli-caves",
+      "title": "Undavalli Caves — Incredible India (Ministry of Tourism, Government of India)",
+      "authority": "government"
+    },
+    "II_TG": {
+      "url": "https://www.incredibleindia.gov.in/en/telangana",
+      "title": "Telangana — Incredible India (Ministry of Tourism, Government of India)",
+      "authority": "government"
+    },
+    "II_HYD": {
+      "url": "https://www.incredibleindia.gov.in/en/telangana/hyderabad",
+      "title": "Hyderabad — Incredible India (Ministry of Tourism, Government of India)",
+      "authority": "government"
+    },
+    "II_CHM": {
+      "url": "https://www.incredibleindia.gov.in/en/telangana/hyderabad/charminar",
+      "title": "Charminar — Incredible India (Ministry of Tourism, Government of India)",
+      "authority": "government"
+    },
+    "II_GOL": {
+      "url": "https://www.incredibleindia.gov.in/en/telangana/hyderabad/golconda-fort",
+      "title": "Golconda Fort — Incredible India (Ministry of Tourism, Government of India)",
+      "authority": "government"
+    },
+    "II_SJM": {
+      "url": "https://www.incredibleindia.gov.in/en/telangana/hyderabad/salar-jung-museum",
+      "title": "Salar Jung Museum — Incredible India (Ministry of Tourism, Government of India)",
+      "authority": "government"
+    },
+    "II_WGL": {
+      "url": "https://www.incredibleindia.gov.in/en/telangana/warangal",
+      "title": "Warangal — Incredible India (Ministry of Tourism, Government of India)",
+      "authority": "government"
+    },
+    "II_RAM": {
+      "url": "https://www.incredibleindia.gov.in/en/telangana/warangal/ramappa-temple",
+      "title": "Ramappa Temple — Incredible India (Ministry of Tourism, Government of India)",
+      "authority": "government"
+    },
+    "II_TPL": {
+      "url": "https://www.incredibleindia.gov.in/en/telangana/warangal/thousand-pillar-temple",
+      "title": "Thousand Pillar Temple — Incredible India (Ministry of Tourism, Government of India)",
+      "authority": "government"
+    },
+    "II_WGF": {
+      "url": "https://www.incredibleindia.gov.in/en/telangana/warangal/warangal-fort",
+      "title": "Warangal Fort — Incredible India (Ministry of Tourism, Government of India)",
+      "authority": "government"
+    },
+    "II_LAK": {
+      "url": "https://www.incredibleindia.gov.in/en/telangana/warangal/laknavaram-lake",
+      "title": "Laknavaram Lake — Incredible India (Ministry of Tourism, Government of India)",
+      "authority": "government"
+    },
+    "W_KON": {
+      "url": "https://en.wikipedia.org/wiki/Konark_Sun_Temple",
+      "title": "Konark Sun Temple — Wikipedia",
+      "authority": "reference"
+    },
+    "W_RAM": {
+      "url": "https://en.wikipedia.org/wiki/Ramappa_Temple",
+      "title": "Ramappa Temple — Wikipedia",
+      "authority": "reference"
+    },
+    "W_BBI": {
+      "url": "https://en.wikipedia.org/wiki/Biju_Patnaik_International_Airport",
+      "title": "Biju Patnaik Airport — Wikipedia",
+      "authority": "reference"
+    },
+    "W_TML": {
+      "url": "https://en.wikipedia.org/wiki/Tirumala_Venkateswara_Temple",
+      "title": "Tirumala Venkateswara Temple — Wikipedia",
+      "authority": "reference"
+    },
+    "W_ARK": {
+      "url": "https://en.wikipedia.org/wiki/Araku_Valley",
+      "title": "Araku Valley — Wikipedia",
+      "authority": "reference"
+    },
+    "PIB": {
+      "url": "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2025/sep/doc2025927648801.pdf",
+      "title": "India Tourism Data Compendium 2025 — Ministry of Tourism",
+      "authority": "government"
+    },
+    "EVISA": {
+      "url": "https://indianvisaonline.gov.in/evisa/tvoa.html",
+      "title": "Indian e-Visa — official information (Government of India)",
+      "authority": "government"
+    },
+    "UPI": {
+      "url": "https://www.aap.com.au/aapreleases/cision20240723ae67416/",
+      "title": "NPCI: 'UPI One World' wallet available to inbound international travellers (press release, 24 July 2024)",
+      "authority": "media"
+    },
+    "W_112": {
+      "url": "https://en.wikipedia.org/wiki/112_(emergency_telephone_number)",
+      "title": "112 (emergency telephone number) — Wikipedia",
+      "authority": "reference"
+    }
+  },
+  "facts": {
+    "OD1": {
+      "place": "odisha",
+      "topic": "Odisha",
+      "claim": "Odisha has a coastline of over 480 km and more than 62 tribal groups; Chilika is Asia's largest coastal lagoon.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_OD",
+          "quote": "Odisha's coastline stretches for over 480 kilometres"
+        },
+        {
+          "source": "II_OD",
+          "quote": "Odisha boasts incredible cultural diversity with over 62 distinct tribal groups"
+        },
+        {
+          "source": "II_OD",
+          "quote": "Chilika Lake, Asia's largest coastal lagoon, is a heritage site teeming with biodiversity."
+        }
+      ]
+    },
+    "OD2": {
+      "place": "odisha",
+      "topic": "Food",
+      "claim": "Odia food to try includes dalma, chhena poda and rasagola.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_OD",
+          "quote": "Don't miss out on the delectable Odia cuisine, which includes mouthwatering dishes like Dalma, Chhena Poda, and Rasagola."
+        }
+      ]
+    },
+    "OD_AIR": {
+      "place": "odisha",
+      "topic": "Getting there",
+      "claim": "Biju Patnaik Airport serves Bhubaneswar, about 4 km south-west of the city.",
+      "claimType": "distance",
+      "evidence": [
+        {
+          "source": "W_BBI",
+          "quote": "is an international airport serving Bhubaneswar , the capital city of Odisha , India . It is situated around 4 kilometres (2.5 mi) south-west of"
+        }
+      ]
+    },
+    "PUR1": {
+      "place": "odisha/puri",
+      "topic": "Puri",
+      "claim": "Puri, home of the Jagannath Temple, is one of the four Char Dhams; the Rath Yatra is held every June or July.",
+      "claimType": "schedule",
+      "evidence": [
+        {
+          "source": "II_PUR",
+          "quote": "a sanctuary so revered that it forms one of the four sacred Char Dhams of Hindu pilgrimage"
+        },
+        {
+          "source": "II_PUR",
+          "quote": "The Rath Yatra, held annually in June or July, is the most significant festival"
+        }
+      ]
+    },
+    "PUR2": {
+      "place": "odisha/puri",
+      "topic": "Best time",
+      "claim": "October to February is the most comfortable time for Puri's beaches and temples.",
+      "claimType": "schedule",
+      "evidence": [
+        {
+          "source": "II_PUR",
+          "quote": "that's Puri from October to February"
+        }
+      ]
+    },
+    "JAG1": {
+      "place": "odisha/jagannath-temple",
+      "topic": "Jagannath Temple",
+      "claim": "The Jagannath Temple was built in the 12th century; its flag is changed every day by a family that climbs the spire barefoot, a tradition of over eight centuries.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_JAG",
+          "quote": "Built in the 12th century AD"
+        },
+        {
+          "source": "II_JAG",
+          "quote": "In a feat that has been ongoing for over eight centuries, members of a specially appointed family climb 165 metres barefoot to replace the flag"
+        }
+      ]
+    },
+    "JAG2": {
+      "place": "odisha/jagannath-temple",
+      "topic": "Mahaprasad",
+      "claim": "The temple's Mahaprasad is cooked in one of India's largest kitchens; the Rath Yatra is its great chariot festival.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_JAG",
+          "quote": "At the heart of this sensory journey is the temple's Mahaprasad, a sacred offering prepared in one of India's l"
+        },
+        {
+          "source": "II_JAG",
+          "quote": "with the Rath Yatra standing out as the crown jewel"
+        }
+      ]
+    },
+    "KON1": {
+      "place": "odisha/konark-sun-temple",
+      "topic": "Konark",
+      "claim": "The 13th-century Konark Sun Temple, about 35 km north-east of Puri, was built as a giant chariot for the Sun God with 24 carved stone wheels; it is a UNESCO World Heritage Site (1984).",
+      "claimType": "distance",
+      "evidence": [
+        {
+          "source": "W_KON",
+          "quote": "Konark Sun Temple is a 13th-century CE Hindu Sun temple at Konark about 35 kilometres (22 mi) northeast from Puri city"
+        },
+        {
+          "source": "II_KON",
+          "quote": "Twenty-four exquisitely carved stone wheels"
+        },
+        {
+          "source": "W_KON",
+          "quote": "Designated 1984 (8th session )"
+        }
+      ]
+    },
+    "KON2": {
+      "place": "odisha/konark-sun-temple",
+      "topic": "Height",
+      "claim": "In its heyday the temple rose to an estimated 227 feet; today the Jagamohana assembly hall survives.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_KON",
+          "quote": "Rising to an estimated height of 227 feet in its heyday"
+        }
+      ]
+    },
+    "KON3": {
+      "place": "odisha/konark-sun-temple",
+      "topic": "Hours",
+      "claim": "Open 6 am to 8 pm; October to March is the most comfortable season.",
+      "claimType": "opening_hours",
+      "evidence": [
+        {
+          "source": "II_KON",
+          "quote": "Opening time - 06:00 AM"
+        },
+        {
+          "source": "II_KON",
+          "quote": "Closing time - 08:00 PM"
+        },
+        {
+          "source": "II_KON",
+          "quote": "The cooler months from October to March provide the most comfortable climate"
+        }
+      ]
+    },
+    "CHI1": {
+      "place": "odisha/chilika-lake",
+      "topic": "Chilika",
+      "claim": "Chilika, a short drive from Puri, is Asia's largest brackish-water lagoon; its sanctuary covers about 1,100 sq km and supports over 150,000 fisher-folk.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_CHI",
+          "quote": "As Asia's largest inland salt water lagoon"
+        },
+        {
+          "source": "II_CHI",
+          "quote": "Spread over an area of approximately 1,100 square kilometers"
+        },
+        {
+          "source": "II_CHI",
+          "quote": "supporting over 150,000 fisher-"
+        }
+      ]
+    },
+    "CHI2": {
+      "place": "odisha/chilika-lake",
+      "topic": "Wildlife",
+      "claim": "Chilika is a winter home for flamingos and pelicans and a habitat of the endangered Irrawaddy dolphin.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_OD",
+          "quote": "This wetland is a sanctuary for migratory birds, including flamingos and pelicans."
+        },
+        {
+          "source": "II_OD",
+          "quote": "It also holds cultural significance as a habitat for the endangered Irrawaddy dolphins."
+        }
+      ]
+    },
+    "CHI3": {
+      "place": "odisha/chilika-lake",
+      "topic": "Hours",
+      "claim": "The sanctuary is open 6 am to 7 pm.",
+      "claimType": "opening_hours",
+      "evidence": [
+        {
+          "source": "II_CHI",
+          "quote": "Opening time - 06:00 AM"
+        },
+        {
+          "source": "II_CHI",
+          "quote": "Closing time - 07:00 PM"
+        }
+      ]
+    },
+    "BBS1": {
+      "place": "odisha/bhubaneswar",
+      "topic": "Bhubaneswar",
+      "claim": "Bhubaneswar, Odisha's capital, takes its name from 'Tribhubaneswar', Lord of the Three Worlds — Shiva; Hirapur nearby has an open-air 64 Yogini temple.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_BBS",
+          "quote": "The city's name is derived from \"Tribhubaneswar,\" meaning \"Lord of the Three Worlds,\""
+        },
+        {
+          "source": "II_BBS",
+          "quote": "Hirapur is a small town known for a hypaethral (open to the sky) temple of 64 Yoginis, called the Yogini Temple ."
+        }
+      ]
+    },
+    "LIN1": {
+      "place": "odisha/lingaraj-temple",
+      "topic": "Lingaraj",
+      "claim": "The 11th-century Lingaraj Temple, built by King Jajati Keshari, rises 180 feet; its 40-acre complex has 150 smaller shrines.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_LIN",
+          "quote": "Commissioned in the 11th century by King Jajati Keshari of the Somvanshi dynasty"
+        },
+        {
+          "source": "II_LIN",
+          "quote": "the imposing Lingaraj Temple towers 180 feet high"
+        },
+        {
+          "source": "II_LIN",
+          "quote": "The courtyard itself is home to 150 smaller shrines"
+        }
+      ]
+    },
+    "LIN2": {
+      "place": "odisha/lingaraj-temple",
+      "topic": "Hours",
+      "claim": "Open 7 am to 7 pm.",
+      "claimType": "opening_hours",
+      "evidence": [
+        {
+          "source": "II_LIN",
+          "quote": "Opening time - 07:00 AM"
+        },
+        {
+          "source": "II_LIN",
+          "quote": "Closing time - 07:00 PM"
+        }
+      ]
+    },
+    "KUC1": {
+      "place": "odisha/khandagiri-udayagiri-caves",
+      "topic": "The caves",
+      "claim": "The Khandagiri and Udayagiri caves are Jain rock-cut monasteries from the 2nd century BCE, under Emperor Kharavela; open 9 am to 9 pm.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_KUC",
+          "quote": "The Khandagiri and Udayagiri Caves date back to the 2nd century BCE, during the reign of Emperor Kharavela of the Kalinga dynasty."
+        },
+        {
+          "source": "II_KUC",
+          "quote": "Opening time - 09:00 AM"
+        },
+        {
+          "source": "II_KUC",
+          "quote": "Closing time - 09:00 PM"
+        }
+      ]
+    },
+    "DHA1": {
+      "place": "odisha/dhauli",
+      "topic": "Dhauli",
+      "claim": "Dhauli, 8 km from Bhubaneswar, has a rock carrying Ashoka's edicts and a carved elephant marking his change of heart after the Kalinga war.",
+      "claimType": "distance",
+      "evidence": [
+        {
+          "source": "II_DHA",
+          "quote": "Located 8 km from Bhubaneswar, the Dhauli Giri Hills have a mass of rock by the side of the road leading to its summit. Engraved on this mass of rock are major Edicts of Ashoka."
+        },
+        {
+          "source": "II_DHA",
+          "quote": "The mass of rock at the Hills also bears carvings of the head and forelegs of an elephant emerging from the rock"
+        }
+      ]
+    },
+    "BHK1": {
+      "place": "odisha/bhitarkanika-national-park",
+      "topic": "Bhitarkanika",
+      "claim": "Bhitarkanika, 672 sq km in Kendrapada district, is India's second-largest mangrove ecosystem, with 215 bird species including eight kingfishers.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_BHK",
+          "quote": "Spanning over a vast area of 672 square kilometers"
+        },
+        {
+          "source": "II_BHK",
+          "quote": "stands as the second-largest mangrove ecosystem in India"
+        },
+        {
+          "source": "II_BHK",
+          "quote": "The sanctuary is home to 215 bird species, including eight varieties of kingfishers"
+        }
+      ]
+    },
+    "BHK2": {
+      "place": "odisha/bhitarkanika-national-park",
+      "topic": "Getting there",
+      "claim": "The nearest airports are Bhubaneswar and Kolkata; boats leave from Chandbali. Open 6 am to 6 pm.",
+      "claimType": "distance",
+      "evidence": [
+        {
+          "source": "II_BHK",
+          "quote": "The nearest airports are located in Bhubaneshwar and Kolkata, while waterways are accessible through Chandabali, Ragnagar, and Gupti."
+        },
+        {
+          "source": "II_BHK",
+          "quote": "Opening time - 06:00 AM"
+        },
+        {
+          "source": "II_BHK",
+          "quote": "Closing time - 06:00 PM"
+        }
+      ]
+    },
+    "AP1": {
+      "place": "andhra-pradesh",
+      "topic": "Andhra Pradesh",
+      "claim": "Andhra Pradesh, on the south-east coast, is India's seventh-largest state and the home of Kuchipudi dance.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_AP",
+          "quote": "Andhra Pradesh is India's seventh-largest state and is situated along its southeastern coastline."
+        },
+        {
+          "source": "II_AP",
+          "quote": "Known for its rich cultural history and traditional dance forms like Kuchipudi and Vilasini Natyam"
+        }
+      ]
+    },
+    "AP2": {
+      "place": "andhra-pradesh",
+      "topic": "Food",
+      "claim": "Andhra is famous for fiery Guntur chillies, and the Tirupati laddu has a Geographical Indication tag.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_AP",
+          "quote": "boasting one of the hottest chili peppers worldwide - Guntur chili is considered among them."
+        },
+        {
+          "source": "II_AP",
+          "quote": "Be sure to try the iconic Tirupati Laddu from Venkateswara Temple Tirumala; its sweet offering holds Geographical Indication status"
+        }
+      ]
+    },
+    "AP3": {
+      "place": "andhra-pradesh",
+      "topic": "Nature",
+      "claim": "Talakona is the state's highest waterfall at 270 feet; Pulicat is a major lagoon for migratory birds.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_AP",
+          "quote": "Talakona Waterfall stands as Andhra Pradesh's highest waterfall at an impressive height of 270 feet"
+        },
+        {
+          "source": "II_AP",
+          "quote": "Pulicat Lake - one of India's two-largest lagoons, known as an important habitat for migrating birds"
+        }
+      ]
+    },
+    "TPT1": {
+      "place": "andhra-pradesh/tirupati",
+      "topic": "Tirupati",
+      "claim": "Tirupati has been a centre of Vaishnavism since the 5th century; the Govindaraja Swamy Temple in town was completed in 1130 CE.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_TPT",
+          "quote": "Tirupati's history as a centre of Vaishnavism (devotion to Lord Vishnu and his avatars) dates back to the 5th century A.D."
+        },
+        {
+          "source": "II_TPT",
+          "quote": "the grandeur of the Govindaraja Swamy Temple, completed in 1130 CE"
+        }
+      ]
+    },
+    "TML1": {
+      "place": "andhra-pradesh/tirumala-venkateswara-temple",
+      "topic": "Tirumala",
+      "claim": "The Sri Venkateswara Temple (Tirupati Balaji) on the Tirumala Hills, about 980 m high, draws around 24 million devotees a year and is run by the TTD.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_TPT",
+          "quote": "The Sri Venkateswara Swami Temple , also known as the Tirupati Balaji Temple, is the crowning jewel of Tirupati's spiritual legacy."
+        },
+        {
+          "source": "W_TML",
+          "quote": "Tirumala Hills, which are part of Seshachalam Hills range, rise to approximately 980 metres (3,220 ft) above sea leve"
+        },
+        {
+          "source": "W_TML",
+          "quote": "attracts around 24 million devotees annually"
+        },
+        {
+          "source": "W_TML",
+          "quote": "The temple is administered by the Tirumala Tirupati Devasthanams (TTD)"
+        }
+      ]
+    },
+    "TML2": {
+      "place": "andhra-pradesh/tirumala-venkateswara-temple",
+      "topic": "Rituals",
+      "claim": "The Tirupati laddu is the temple's famous prasadam; at Vaikunta Ekadasi the 'gates of Vaikunta' are opened.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_TPT",
+          "quote": "One of the most sacred rituals performed at the Tirumala Temple is the offering of \"Tirupati Laddu,\""
+        },
+        {
+          "source": "II_TPT",
+          "quote": "even more fascinating is the annual Vaikunta Ekadasi festival, celebrated with great fervour at the Tirumala Temple!"
+        }
+      ]
+    },
+    "SKH1": {
+      "place": "andhra-pradesh/srikalahasti-temple",
+      "topic": "Srikalahasti",
+      "claim": "The Srikalahasti Shiva temple on the Swarnamukhi river dates to the 5th century; its 120 m Rajagopuram was built by the Vijayanagara Empire.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_SKH",
+          "quote": "Settled on Swarnamukhi River’s bank"
+        },
+        {
+          "source": "II_SKH",
+          "quote": "The origin of Srikalahasti Temple dates back to the 5th century when the inner temple was constructed."
+        },
+        {
+          "source": "II_SKH",
+          "quote": "In the 16th century, the empire constructed the majestic 120m high main gopuram."
+        }
+      ]
+    },
+    "SKH2": {
+      "place": "andhra-pradesh/srikalahasti-temple",
+      "topic": "Hours",
+      "claim": "Open 5:30 am to 9:30 pm.",
+      "claimType": "opening_hours",
+      "evidence": [
+        {
+          "source": "II_SKH",
+          "quote": "Opening time - 05:30 AM"
+        },
+        {
+          "source": "II_SKH",
+          "quote": "Closing time - 09:30 PM"
+        }
+      ]
+    },
+    "VSK1": {
+      "place": "andhra-pradesh/visakhapatnam",
+      "topic": "Vizag",
+      "claim": "Visakhapatnam, on the Bay of Bengal, has the INS Kursura submarine museum and the Bavikonda Buddhist site 15 km away; its airport is close to the centre.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_VSK",
+          "quote": "One of the most notable architectural monuments in Visakhapatnam is the Submarine Museum (INS Kursura)."
+        },
+        {
+          "source": "II_VSK",
+          "quote": "Bavikonda Stupa, located on a hill about 15 km (9.3 mi) northeast of Visakhapatnam city"
+        },
+        {
+          "source": "II_VSK",
+          "quote": "Visakhapatnam airport is located very close to the city centre"
+        }
+      ]
+    },
+    "BOR1": {
+      "place": "andhra-pradesh/borra-caves",
+      "topic": "Borra Caves",
+      "claim": "The Borra Caves, 88 km from Visakhapatnam in the Ananthagiri hills, are limestone caves at about 705 m, among the largest in India and up to 80 m deep.",
+      "claimType": "distance",
+      "evidence": [
+        {
+          "source": "II_BOR",
+          "quote": "Situated 88 kilometres from Visakhapatnam, the Borra Caves grace the crown of Ananthagiri hills in Araku Valley."
+        },
+        {
+          "source": "II_BOR",
+          "quote": "These limestone caves, at an elevation of about 705 m, are the largest in India"
+        },
+        {
+          "source": "II_BOR",
+          "quote": "Reaching depths of up to 80 m"
+        }
+      ]
+    },
+    "BOR2": {
+      "place": "andhra-pradesh/borra-caves",
+      "topic": "Hours",
+      "claim": "Open 10 am to 5 pm.",
+      "claimType": "opening_hours",
+      "evidence": [
+        {
+          "source": "II_BOR",
+          "quote": "Opening time - 10:00 AM"
+        },
+        {
+          "source": "II_BOR",
+          "quote": "Closing time - 05:00 PM"
+        }
+      ]
+    },
+    "ARK1": {
+      "place": "andhra-pradesh/araku-valley",
+      "topic": "Araku",
+      "claim": "Araku Valley is a hill station in the Eastern Ghats about 111 km from Visakhapatnam, known for coffee plantations.",
+      "claimType": "distance",
+      "evidence": [
+        {
+          "source": "W_ARK",
+          "quote": "Araku Valley is a hill station in the Alluri Sitharama Raju district of Andhra Pradesh , India , located 111 km from Visakhapatnam ."
+        },
+        {
+          "source": "W_ARK",
+          "quote": "the Andhra Pradesh Forest Department developed coffee plantations in the valley"
+        }
+      ]
+    },
+    "ARK2": {
+      "place": "andhra-pradesh/araku-valley",
+      "topic": "Around Araku",
+      "claim": "Nearby are the Tyada railway tunnel, Damuku viewpoint and Ananthagiri coffee plantations.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_BOR",
+          "quote": "Cover intriguing attractions such as the Tyada Railway Tunnel, Damuku Viewpoint, Ananthagiri Coffee Plantation, Padmapuram Gardens, and the breathtaking Araku Valley."
+        }
+      ]
+    },
+    "AMR1": {
+      "place": "andhra-pradesh/amaravati",
+      "topic": "Amaravati",
+      "claim": "Amaravati was a centre of Buddhist learning; its Mahachaitya stupa dates to the Mauryan era, and the site is open 8 am–6 pm, closed Fridays.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_AMR",
+          "quote": "It was also the centre of Buddhist learning and art, and Buddhist followers from many Southeast Asian countries visited."
+        },
+        {
+          "source": "II_AMC",
+          "quote": "The history of the Amaravati Mahachaitya dates back to the 3rd century during the Mauryan Empire and flourished during the Satavahana dynasty."
+        },
+        {
+          "source": "II_AMC",
+          "quote": "Opening time - 08:00 AM"
+        },
+        {
+          "source": "II_AMC",
+          "quote": "(Closed on Fridays)"
+        }
+      ]
+    },
+    "AMR2": {
+      "place": "andhra-pradesh/amaravati",
+      "topic": "Nearby",
+      "claim": "Kondapalli Fort is about 20 km away; Guntur's chilli yard, Asia's largest, about 40 km.",
+      "claimType": "distance",
+      "evidence": [
+        {
+          "source": "II_AMR",
+          "quote": "The Kondapalli Fort is around 20 kilometres from Amaravati"
+        },
+        {
+          "source": "II_AMR",
+          "quote": "The largest chilli market in Asia, called “Guntur Mirchi Yard”, is about 40 kilometres from Amaravati."
+        }
+      ]
+    },
+    "UND1": {
+      "place": "andhra-pradesh/undavalli-caves",
+      "topic": "Undavalli",
+      "claim": "The Undavalli caves, cut from sandstone beside the Krishna, hold a 5 m reclining Vishnu; open 9 am to 6 pm.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_UND",
+          "quote": "Situated next to the beautiful Krishna River in Guntur, the Undavalli Caves"
+        },
+        {
+          "source": "II_UND",
+          "quote": "A deity, believed to be Lord Vishnu, rests in peaceful repose—a statue that spans an astonishing 5 meters."
+        },
+        {
+          "source": "II_UND",
+          "quote": "Opening time - 09:00 AM"
+        },
+        {
+          "source": "II_UND",
+          "quote": "Closing time - 06:00 PM"
+        }
+      ]
+    },
+    "TG1": {
+      "place": "telangana",
+      "topic": "Telangana",
+      "claim": "Telangana became India's newest state on 2 June 2014; its history runs through the Satavahanas, Kakatiyas, Qutb Shahis and Asaf Jahis.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_TG",
+          "quote": "On June 2, 2014, Telangana was officially designated as the newest and youngest state within India."
+        },
+        {
+          "source": "II_TG",
+          "quote": "with deep-rooted connections to significant empires such as the Satavahanas, Kakatiyas, Ikshvakus, Qutb Shahis, and Asif Jahis"
+        }
+      ]
+    },
+    "TG2": {
+      "place": "telangana",
+      "topic": "Food",
+      "claim": "Hyderabad's food runs from dum biryani to qubani ka meetha and Irani chai.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_TG",
+          "quote": "Dum Ka Biryani, Qubani Ka Meetha, special Hyderabadi biryani, Irani Chai, Sakinaalu, and Sarva Pindi are some of the delectable specialties."
+        }
+      ]
+    },
+    "TG3": {
+      "place": "telangana",
+      "topic": "Crafts",
+      "claim": "Nirmal paintings and wooden toys have been made since the 14th century.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_TG",
+          "quote": "Nirmal painting and Nirmal toys have been cherished throughout India since the 14th century"
+        }
+      ]
+    },
+    "HYD1": {
+      "place": "telangana/hyderabad",
+      "topic": "Hyderabad",
+      "claim": "Hyderabad, the old capital of the Nizams and the 'City of Pearls', is known for the Laad Bazaar of bangles near Charminar and Hussain Sagar lake, dug in 1562.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_HYD",
+          "quote": "Hyderabad became the capital of the Nizams"
+        },
+        {
+          "source": "II_HYD",
+          "quote": "Also known as the ‘City of Pearls’"
+        },
+        {
+          "source": "II_HYD",
+          "quote": "The beautiful bustling bazaar near Charminar is an extremely popular and thriving market known as Laad Bazaar or Choodi (Bangles) Bazaar."
+        },
+        {
+          "source": "II_HYD",
+          "quote": "it was excavated in 1562 AD during the reign of Ibrahim kuli Qutub Shah"
+        }
+      ]
+    },
+    "CHM1": {
+      "place": "telangana/charminar",
+      "topic": "Charminar",
+      "claim": "The Charminar's four minarets rise 48.7 m; entry closes at 5 pm, and it is lit up from 7 to 9 pm.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_CHM",
+          "quote": "It features a four-sided archway and towering minarets that reach 48.7 meters above ground level."
+        },
+        {
+          "source": "II_CHM",
+          "quote": "Closed for entry after 05:00 PM."
+        },
+        {
+          "source": "II_CHM",
+          "quote": "(The monument looks mesmerising when illuminated from 07:00 PM to 09:00 PM)"
+        }
+      ]
+    },
+    "GOL1": {
+      "place": "telangana/golconda-fort",
+      "topic": "Golconda",
+      "claim": "Golconda Fort, 9 km from Hussain Sagar, dates back to 1143 and passed from the Bahmanis to the Qutb Shahis; a light and sound show runs in the evening.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_GOL",
+          "quote": "only 9 km from Hussain Sagar Lake. It dates back to 1143"
+        },
+        {
+          "source": "II_HYD",
+          "quote": "A Light and Sound show is held in the evenings where the glorious past of Golconda Fort is narrated"
+        }
+      ]
+    },
+    "GOL2": {
+      "place": "telangana/golconda-fort",
+      "topic": "Hours",
+      "claim": "Open 9 am to 5 pm.",
+      "claimType": "opening_hours",
+      "evidence": [
+        {
+          "source": "II_GOL",
+          "quote": "Opening time - 09:00 AM"
+        },
+        {
+          "source": "II_GOL",
+          "quote": "Closing time - 05:00 PM"
+        }
+      ]
+    },
+    "SJM1": {
+      "place": "telangana/salar-jung-museum",
+      "topic": "Salar Jung",
+      "claim": "The Salar Jung Museum, opened by Nehru in 1951 and an Institution of National Importance since 1961, holds Aurangzeb's sword and Tipu Sultan's wardrobe; open 10 am–5 pm.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_SJM",
+          "quote": "The magnificent Salar Jung Museum was inaugurated by the Prime Minister of India, Jawahar Lal Nehru in 1951."
+        },
+        {
+          "source": "II_SJM",
+          "quote": "In 1961, through an ‘Act of Parliament’ the Salar Jung museum along with its library was declared an ‘Institution of National Importance’."
+        },
+        {
+          "source": "II_SJM",
+          "quote": "Aurangzeb's sword, daggers that belonged to Shah Jahan and Jehangir, and the wardrobe of Tipu Sultan"
+        },
+        {
+          "source": "II_SJM",
+          "quote": "Opening time - 10:00 AM"
+        }
+      ]
+    },
+    "WGL1": {
+      "place": "telangana/warangal",
+      "topic": "Warangal",
+      "claim": "Warangal, about 150 km from Hyderabad, was the seat of the Kakatiyas; its Kakatiya Kala Thoranam gateway appears on Telangana's emblem.",
+      "claimType": "distance",
+      "evidence": [
+        {
+          "source": "II_WGL",
+          "quote": "It is about 150 km  from Hyderabad."
+        },
+        {
+          "source": "II_WGL",
+          "quote": "Once the seat of the Kakatiya dynasty"
+        },
+        {
+          "source": "II_WGL",
+          "quote": "It is a symbol of Warangal's rich history and cultural heritage and is depicted on the emblem of Telangana state."
+        }
+      ]
+    },
+    "WGL2": {
+      "place": "telangana/warangal",
+      "topic": "Bathukamma",
+      "claim": "The Bathukamma flower festival is celebrated during Navaratri.",
+      "claimType": "schedule",
+      "evidence": [
+        {
+          "source": "II_WGL",
+          "quote": "The lively Bathukamma festival, observed during Navaratri"
+        }
+      ]
+    },
+    "RAM1": {
+      "place": "telangana/ramappa-temple",
+      "topic": "Ramappa",
+      "claim": "The Ramappa (Rudreshwara) Temple at Palampet, built in 1213, about 200 km from Hyderabad, is a UNESCO World Heritage Site (2021) famed for its 'floating bricks'.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_RAM",
+          "quote": "officially known as the Ramappa Temple, built in 1213 CE"
+        },
+        {
+          "source": "II_RAM",
+          "quote": "around 200 km northeast of Hyderabad in Telangana"
+        },
+        {
+          "source": "II_RAM",
+          "quote": "This tower is made of lightweight porous bricks known as ‘floating bricks’"
+        },
+        {
+          "source": "W_RAM",
+          "quote": "Designated 2021 (44th session )"
+        }
+      ]
+    },
+    "RAM2": {
+      "place": "telangana/ramappa-temple",
+      "topic": "Hours",
+      "claim": "Open 6 am to 6 pm; Ramappa Lake is less than 1 km away.",
+      "claimType": "opening_hours",
+      "evidence": [
+        {
+          "source": "II_RAM",
+          "quote": "Opening time - 06:00 AM"
+        },
+        {
+          "source": "II_RAM",
+          "quote": "Closing time - 06:00 PM"
+        },
+        {
+          "source": "II_RAM",
+          "quote": "Less than 1 km away lies the serene Ramappa Lake"
+        }
+      ]
+    },
+    "TPL1": {
+      "place": "telangana/thousand-pillar-temple",
+      "topic": "Thousand Pillar Temple",
+      "claim": "Built in 1163 by the Kakatiya king Rudra Deva at the foot of Hanamkonda hill, the star-shaped temple honours Shiva, Vishnu and Surya; open 5 am–9 pm.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_TPL",
+          "quote": "built in 1163 AD by Kakatiya ruler Rudra Deva"
+        },
+        {
+          "source": "II_TPL",
+          "quote": "Erected at the foot of the Hanamkonda Hill"
+        },
+        {
+          "source": "II_TPL",
+          "quote": "where three deities are worshipped - Lord Shiva, Lord Vishnu and Surya"
+        },
+        {
+          "source": "II_TPL",
+          "quote": "Opening time - 05:00 AM"
+        }
+      ]
+    },
+    "WGF1": {
+      "place": "telangana/warangal-fort",
+      "topic": "Warangal Fort",
+      "claim": "Warangal Fort, of the Kakatiyas who ruled 1175–1324, has three concentric walls; a 50-minute sound and light show runs at dusk. Open 10 am–7 pm.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_WGF",
+          "quote": "who reigned over the Deccan Plateau from 1175 to 1324 CE"
+        },
+        {
+          "source": "II_WGF",
+          "quote": "Warangal Fort is protected by three concentric circular walls"
+        },
+        {
+          "source": "II_WGF",
+          "quote": "For 50 minutes, the fort becomes a can"
+        },
+        {
+          "source": "II_WGF",
+          "quote": "Opening time - 10:00 AM"
+        }
+      ]
+    },
+    "LAK1": {
+      "place": "telangana/laknavaram-lake",
+      "topic": "Laknavaram",
+      "claim": "Laknavaram Lake, about 70 km from Warangal, was built by the Kakatiyas from three valleys and is ringed by forest.",
+      "claimType": "distance",
+      "evidence": [
+        {
+          "source": "II_LAK",
+          "quote": "situated near the Laknavaram village around 70 kilometres from Warangal"
+        },
+        {
+          "source": "II_LAK",
+          "quote": "This magnificent body of water emerged from the union of three narrow valleys"
+        },
+        {
+          "source": "II_LAK",
+          "quote": "The origin of the lake dates back to the rule of the Kakatiyas."
+        }
+      ]
+    },
+    "OD_112": {
+      "place": "odisha",
+      "topic": "Emergency number 112",
+      "claim": "112 is India's single emergency number for police, fire and ambulance.",
+      "claimType": "contact",
+      "evidence": [
+        {
+          "source": "W_112",
+          "quote": "112 is now the pan-country single emergency number for all emergencies."
+        }
+      ]
+    },
+    "OD_VISA": {
+      "place": "odisha",
+      "topic": "e-Visa timing and passport validity",
+      "claim": "e-Tourist visa applications should be made at least 4 days before arrival, with a passport valid for at least six months.",
+      "claimType": "rule",
+      "evidence": [
+        {
+          "source": "EVISA",
+          "quote": "For e-Tourist and e-Business visa, Applicants of the eligible countries/territories may apply online minimum 4 days in advance of the date of arrival."
+        },
+        {
+          "source": "EVISA",
+          "quote": "Applicant's passport should have at least six months validity at the time of making application for grant of e-Visa."
+        }
+      ]
+    },
+    "OD_UPI": {
+      "place": "odisha",
+      "topic": "UPI One World for visitors",
+      "claim": "International visitors can pay by QR code using NPCI's UPI One World wallet after a passport-and-visa KYC check.",
+      "claimType": "rule",
+      "evidence": [
+        {
+          "source": "UPI",
+          "quote": "The UPI One World wallet can be availed through authorized PPI issuers at airports, hotels, designated money exchange locations and other touchpoints, following a full KYC process based on a passport and valid visa."
+        }
+      ]
+    },
+    "AP_112": {
+      "place": "andhra-pradesh",
+      "topic": "Emergency number 112",
+      "claim": "112 is India's single emergency number for police, fire and ambulance.",
+      "claimType": "contact",
+      "evidence": [
+        {
+          "source": "W_112",
+          "quote": "112 is now the pan-country single emergency number for all emergencies."
+        }
+      ]
+    },
+    "AP_VISA": {
+      "place": "andhra-pradesh",
+      "topic": "e-Visa timing and passport validity",
+      "claim": "e-Tourist visa applications should be made at least 4 days before arrival, with a passport valid for at least six months.",
+      "claimType": "rule",
+      "evidence": [
+        {
+          "source": "EVISA",
+          "quote": "For e-Tourist and e-Business visa, Applicants of the eligible countries/territories may apply online minimum 4 days in advance of the date of arrival."
+        },
+        {
+          "source": "EVISA",
+          "quote": "Applicant's passport should have at least six months validity at the time of making application for grant of e-Visa."
+        }
+      ]
+    },
+    "AP_UPI": {
+      "place": "andhra-pradesh",
+      "topic": "UPI One World for visitors",
+      "claim": "International visitors can pay by QR code using NPCI's UPI One World wallet after a passport-and-visa KYC check.",
+      "claimType": "rule",
+      "evidence": [
+        {
+          "source": "UPI",
+          "quote": "The UPI One World wallet can be availed through authorized PPI issuers at airports, hotels, designated money exchange locations and other touchpoints, following a full KYC process based on a passport and valid visa."
+        }
+      ]
+    },
+    "TG_112": {
+      "place": "telangana",
+      "topic": "Emergency number 112",
+      "claim": "112 is India's single emergency number for police, fire and ambulance.",
+      "claimType": "contact",
+      "evidence": [
+        {
+          "source": "W_112",
+          "quote": "112 is now the pan-country single emergency number for all emergencies."
+        }
+      ]
+    },
+    "TG_VISA": {
+      "place": "telangana",
+      "topic": "e-Visa timing and passport validity",
+      "claim": "e-Tourist visa applications should be made at least 4 days before arrival, with a passport valid for at least six months.",
+      "claimType": "rule",
+      "evidence": [
+        {
+          "source": "EVISA",
+          "quote": "For e-Tourist and e-Business visa, Applicants of the eligible countries/territories may apply online minimum 4 days in advance of the date of arrival."
+        },
+        {
+          "source": "EVISA",
+          "quote": "Applicant's passport should have at least six months validity at the time of making application for grant of e-Visa."
+        }
+      ]
+    },
+    "TG_UPI": {
+      "place": "telangana",
+      "topic": "UPI One World for visitors",
+      "claim": "International visitors can pay by QR code using NPCI's UPI One World wallet after a passport-and-visa KYC check.",
+      "claimType": "rule",
+      "evidence": [
+        {
+          "source": "UPI",
+          "quote": "The UPI One World wallet can be availed through authorized PPI issuers at airports, hotels, designated money exchange locations and other touchpoints, following a full KYC process based on a passport and valid visa."
+        }
+      ]
+    }
+  },
+  "places": [
+    {
+      "key": "odisha",
+      "kind": "state",
+      "name": "Odisha",
+      "summary": "Temple towns and a long coast: Puri's Jagannath, the Konark Sun Temple, Bhubaneswar's temples, Chilika lagoon and the Bhitarkanika mangroves.",
+      "seoTitle": "Odisha Travel Guide: Puri, Konark, Bhubaneswar & Chilika",
+      "seoDescription": "Plan Odisha: Puri's Jagannath Temple and Rath Yatra, the Konark Sun Temple, Bhubaneswar's Lingaraj, Chilika lagoon, Dhauli and Bhitarkanika.",
+      "lat": 20.5,
+      "lng": 84.4,
+      "tripTypes": [
+        "spiritual",
+        "heritage",
+        "beaches"
+      ],
+      "images": [
+        {
+          "commons": "File:Mukteshwar Temple-Bhubaneswar-Odisha-Image003.jpg",
+          "alt": "The carved Mukteshwar Temple in Bhubaneswar, Odisha",
+          "caption": "Mukteshwar Temple, Bhubaneswar",
+          "hero": true
+        }
+      ],
+      "sections": {
+        "overview": {
+          "text": "Odisha has over 480 km of coastline and more than 62 tribal groups. Puri's Jagannath Temple is one of the Char Dhams; the Konark Sun Temple is a UNESCO site; Bhubaneswar is a city of temples; and Chilika is Asia's largest coastal lagoon.",
+          "facts": [
+            "OD1",
+            "PUR1",
+            "KON1",
+            "BBS1"
+          ]
+        },
+        "regions": {
+          "items": [
+            {
+              "title": "The golden triangle",
+              "body": "Bhubaneswar, Puri and Konark."
+            },
+            {
+              "title": "Chilika",
+              "body": "The lagoon south-west of Puri."
+            },
+            {
+              "title": "Bhitarkanika",
+              "body": "Mangroves in Kendrapada district."
+            }
+          ],
+          "facts": [
+            "BBS1",
+            "PUR1",
+            "KON1",
+            "CHI1",
+            "BHK1"
+          ]
+        },
+        "food": {
+          "items": [
+            {
+              "body": "Dalma, chhena poda and rasagola."
+            }
+          ],
+          "facts": [
+            "OD2"
+          ]
+        },
+        "how_to_reach": {
+          "text": "Biju Patnaik Airport serves Bhubaneswar, about 4 km from the city.",
+          "facts": [
+            "OD_AIR"
+          ]
+        },
+        "practical_info": {
+          "items": [
+            {
+              "title": "Visas",
+              "body": "Apply for an e-Tourist visa at least 4 days before arrival; your passport needs at least six months' validity."
+            },
+            {
+              "title": "Payments",
+              "body": "Visitors can pay by QR code with NPCI's UPI One World wallet after a passport-and-visa KYC check. Carry some cash for small purchases."
+            },
+            {
+              "title": "Emergency",
+              "body": "Dial 112 for police, fire or ambulance."
+            }
+          ],
+          "facts": [
+            "OD_VISA",
+            "OD_UPI",
+            "OD_112"
+          ]
+        }
+      },
+      "wikidataId": "Q22048",
+      "featured": true
+    },
+    {
+      "key": "odisha/puri",
+      "kind": "town",
+      "name": "Puri",
+      "summary": "One of the four Char Dhams: the Jagannath Temple, the Rath Yatra in June–July and a long golden beach.",
+      "seoTitle": "Puri Travel Guide: Jagannath Temple, Rath Yatra & Beach",
+      "seoDescription": "Plan Puri: the Jagannath Temple, the Rath Yatra in June or July, Puri beach, and day trips to Konark and Chilika; best time October to February.",
+      "lat": 19.8135,
+      "lng": 85.8312,
+      "tripTypes": [
+        "spiritual",
+        "beaches",
+        "family"
+      ],
+      "images": [
+        {
+          "commons": "File:At Puri beach 05.jpg",
+          "alt": "Visitors on Puri beach by the Bay of Bengal",
+          "caption": "Puri beach",
+          "hero": true
+        }
+      ],
+      "sections": {
+        "overview": {
+          "text": "Puri, home of the Jagannath Temple, is one of the four Char Dhams. The Rath Yatra, held every June or July, is its great festival.",
+          "facts": [
+            "PUR1"
+          ]
+        },
+        "best_time": {
+          "text": "October to February is the most comfortable time.",
+          "facts": [
+            "PUR2"
+          ]
+        },
+        "highlights": {
+          "items": [
+            {
+              "body": "Jagannath Temple: The Jagannath Temple was built in the 12th century; its flag is changed every day by a family that climbs the spire barefoot, a tradition of over eight centuries."
+            }
+          ],
+          "facts": [
+            "JAG1"
+          ]
+        },
+        "practical_info": {
+          "items": [
+            {
+              "title": "Odisha",
+              "body": "Odisha has a coastline of over 480 km and more than 62 tribal groups; Chilika is Asia's largest coastal lagoon."
+            },
+            {
+              "title": "Food",
+              "body": "Odia food to try includes dalma, chhena poda and rasagola."
+            },
+            {
+              "title": "Getting there",
+              "body": "Biju Patnaik Airport serves Bhubaneswar, about 4 km south-west of the city."
+            }
+          ],
+          "facts": [
+            "OD1",
+            "OD2",
+            "OD_AIR"
+          ]
+        },
+        "things_to_do": {
+          "items": [
+            {
+              "body": "Elsewhere in Odisha — Konark Sun Temple: The 13th-century Konark Sun Temple, about 35 km north-east of Puri, was built as a giant chariot for the Sun God with 24 carved stone wheels; it is a UNESCO World Heritage Site (1984)."
+            },
+            {
+              "body": "Elsewhere in Odisha — Chilika Lake: Chilika, a short drive from Puri, is Asia's largest brackish-water lagoon; its sanctuary covers about 1,100 sq km and supports over 150,000 fisher-folk."
+            },
+            {
+              "body": "Elsewhere in Odisha — Bhubaneswar: Bhubaneswar, Odisha's capital, takes its name from 'Tribhubaneswar', Lord of the Three Worlds — Shiva; Hirapur nearby has an open-air 64 Yogini temple."
+            },
+            {
+              "body": "Elsewhere in Odisha — Dhauli: Dhauli, 8 km from Bhubaneswar, has a rock carrying Ashoka's edicts and a carved elephant marking his change of heart after the Kalinga war."
+            }
+          ],
+          "facts": [
+            "KON1",
+            "CHI1",
+            "BBS1",
+            "DHA1"
+          ]
+        }
+      },
+      "wikidataId": "Q425168",
+      "relations": [
+        {
+          "to": "odisha/konark-sun-temple",
+          "type": "day_trip"
+        },
+        {
+          "to": "odisha/chilika-lake",
+          "type": "day_trip"
+        }
+      ]
+    },
+    {
+      "key": "odisha/jagannath-temple",
+      "kind": "temple",
+      "name": "Jagannath Temple",
+      "summary": "Puri's 12th-century temple of Lord Jagannath, whose flag is changed daily by a family that climbs the spire.",
+      "seoTitle": "Jagannath Temple Puri: History, Rituals & Rath Yatra",
+      "seoDescription": "Jagannath Temple, Puri: built in the 12th century, the daily flag-changing ritual, Mahaprasad from one of India's largest kitchens, and the Rath Yatra.",
+      "lat": 19.80472222,
+      "lng": 85.81833333,
+      "tripTypes": [
+        "spiritual",
+        "heritage"
+      ],
+      "images": [
+        {
+          "commons": "File:Shri_Jagannath_temple.jpg",
+          "alt": "The spire of the Jagannath Temple in Puri",
+          "caption": "Jagannath Temple, Puri",
+          "hero": true
+        }
+      ],
+      "sections": {
+        "overview": {
+          "text": "Built in the 12th century, the Jagannath Temple is one of the Char Dhams. Every day, members of one family climb the spire barefoot to change its flag — a tradition of over eight centuries.",
+          "facts": [
+            "JAG1"
+          ]
+        },
+        "highlights": {
+          "items": [
+            {
+              "body": "The Mahaprasad, cooked in one of India's largest kitchens."
+            },
+            {
+              "body": "The Rath Yatra chariot festival."
+            }
+          ],
+          "facts": [
+            "JAG2"
+          ]
+        },
+        "travel_tips": {
+          "items": [
+            {
+              "body": "About Puri: Puri, home of the Jagannath Temple, is one of the four Char Dhams; the Rath Yatra is held every June or July."
+            },
+            {
+              "body": "About Puri: October to February is the most comfortable time for Puri's beaches and temples."
+            }
+          ],
+          "facts": [
+            "PUR1",
+            "PUR2"
+          ]
+        },
+        "practical_info": {
+          "items": [
+            {
+              "title": "Odisha",
+              "body": "Odisha has a coastline of over 480 km and more than 62 tribal groups; Chilika is Asia's largest coastal lagoon."
+            },
+            {
+              "title": "Food",
+              "body": "Odia food to try includes dalma, chhena poda and rasagola."
+            },
+            {
+              "title": "Getting there",
+              "body": "Biju Patnaik Airport serves Bhubaneswar, about 4 km south-west of the city."
+            }
+          ],
+          "facts": [
+            "OD1",
+            "OD2",
+            "OD_AIR"
+          ]
+        },
+        "things_to_do": {
+          "items": [
+            {
+              "body": "Elsewhere in Odisha — Puri: Puri, home of the Jagannath Temple, is one of the four Char Dhams; the Rath Yatra is held every June or July."
+            },
+            {
+              "body": "Elsewhere in Odisha — Konark Sun Temple: The 13th-century Konark Sun Temple, about 35 km north-east of Puri, was built as a giant chariot for the Sun God with 24 carved stone wheels; it is a UNESCO World Heritage Site (1984)."
+            },
+            {
+              "body": "Elsewhere in Odisha — Chilika Lake: Chilika, a short drive from Puri, is Asia's largest brackish-water lagoon; its sanctuary covers about 1,100 sq km and supports over 150,000 fisher-folk."
+            },
+            {
+              "body": "Elsewhere in Odisha — Bhubaneswar: Bhubaneswar, Odisha's capital, takes its name from 'Tribhubaneswar', Lord of the Three Worlds — Shiva; Hirapur nearby has an open-air 64 Yogini temple."
+            }
+          ],
+          "facts": [
+            "PUR1",
+            "KON1",
+            "CHI1",
+            "BBS1"
+          ]
+        }
+      },
+      "wikidataId": "Q1678260",
+      "parent": "odisha/puri"
+    },
+    {
+      "key": "odisha/konark-sun-temple",
+      "kind": "temple",
+      "name": "Konark Sun Temple",
+      "summary": "A 13th-century temple built as the Sun God's chariot, 35 km from Puri — a UNESCO World Heritage Site.",
+      "seoTitle": "Konark Sun Temple: History, Wheels & Visiting Hours",
+      "seoDescription": "Konark Sun Temple: a 13th-century chariot of the Sun God with 24 carved wheels, 35 km from Puri, UNESCO-listed in 1984; open 6 am–8 pm.",
+      "lat": 19.8875,
+      "lng": 86.09472222,
+      "tripTypes": [
+        "heritage",
+        "spiritual"
+      ],
+      "images": [
+        {
+          "commons": "File:Konarka_Temple.jpg",
+          "alt": "The Konark Sun Temple and its carved walls",
+          "caption": "Konark Sun Temple",
+          "hero": true
+        }
+      ],
+      "sections": {
+        "overview": {
+          "text": "The 13th-century Konark Sun Temple, about 35 km north-east of Puri, was built as a giant chariot for the Sun God, with 24 carved stone wheels. It is a UNESCO World Heritage Site (1984). In its heyday it rose to an estimated 227 feet.",
+          "facts": [
+            "KON1",
+            "KON2"
+          ]
+        },
+        "visit_info": {
+          "items": [
+            {
+              "title": "Hours",
+              "body": "6 am to 8 pm; October to March is most comfortable.",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "KON3"
+          ]
+        },
+        "practical_info": {
+          "items": [
+            {
+              "title": "Odisha",
+              "body": "Odisha has a coastline of over 480 km and more than 62 tribal groups; Chilika is Asia's largest coastal lagoon."
+            },
+            {
+              "title": "Food",
+              "body": "Odia food to try includes dalma, chhena poda and rasagola."
+            },
+            {
+              "title": "Getting there",
+              "body": "Biju Patnaik Airport serves Bhubaneswar, about 4 km south-west of the city."
+            }
+          ],
+          "facts": [
+            "OD1",
+            "OD2",
+            "OD_AIR"
+          ]
+        },
+        "things_to_do": {
+          "items": [
+            {
+              "body": "Elsewhere in Odisha — Puri: Puri, home of the Jagannath Temple, is one of the four Char Dhams; the Rath Yatra is held every June or July."
+            },
+            {
+              "body": "Elsewhere in Odisha — Chilika Lake: Chilika, a short drive from Puri, is Asia's largest brackish-water lagoon; its sanctuary covers about 1,100 sq km and supports over 150,000 fisher-folk."
+            },
+            {
+              "body": "Elsewhere in Odisha — Bhubaneswar: Bhubaneswar, Odisha's capital, takes its name from 'Tribhubaneswar', Lord of the Three Worlds — Shiva; Hirapur nearby has an open-air 64 Yogini temple."
+            },
+            {
+              "body": "Elsewhere in Odisha — Dhauli: Dhauli, 8 km from Bhubaneswar, has a rock carrying Ashoka's edicts and a carved elephant marking his change of heart after the Kalinga war."
+            }
+          ],
+          "facts": [
+            "PUR1",
+            "CHI1",
+            "BBS1",
+            "DHA1"
+          ]
+        }
+      },
+      "wikidataId": "Q752091",
+      "relations": [
+        {
+          "to": "odisha/puri",
+          "type": "nearby"
+        }
+      ]
+    },
+    {
+      "key": "odisha/chilika-lake",
+      "kind": "lake",
+      "name": "Chilika Lake",
+      "summary": "Asia's largest brackish-water lagoon, home to Irrawaddy dolphins and winter flamingos.",
+      "seoTitle": "Chilika Lake: Dolphins, Birds & Boat Trips",
+      "seoDescription": "Chilika Lake near Puri: Asia's largest brackish-water lagoon, 1,100 sq km, Irrawaddy dolphins, flamingos and pelicans; sanctuary hours.",
+      "lat": 19.71666667,
+      "lng": 85.31666667,
+      "tripTypes": [
+        "nature",
+        "wildlife",
+        "family"
+      ],
+      "images": [
+        {
+          "commons": "File:Birds_eyeview_of_Chilika_Lake.jpg",
+          "alt": "A bird's-eye view of Chilika Lake",
+          "caption": "Chilika Lake",
+          "hero": true
+        }
+      ],
+      "sections": {
+        "overview": {
+          "text": "Chilika, a short drive from Puri, is Asia's largest brackish-water lagoon, about 1,100 sq km, supporting over 150,000 fisher-folk. It is a winter home for flamingos and pelicans and a habitat of the endangered Irrawaddy dolphin.",
+          "facts": [
+            "CHI1",
+            "CHI2"
+          ]
+        },
+        "visit_info": {
+          "items": [
+            {
+              "title": "Hours",
+              "body": "6 am to 7 pm.",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "CHI3"
+          ]
+        },
+        "practical_info": {
+          "items": [
+            {
+              "title": "Odisha",
+              "body": "Odisha has a coastline of over 480 km and more than 62 tribal groups; Chilika is Asia's largest coastal lagoon."
+            },
+            {
+              "title": "Food",
+              "body": "Odia food to try includes dalma, chhena poda and rasagola."
+            },
+            {
+              "title": "Getting there",
+              "body": "Biju Patnaik Airport serves Bhubaneswar, about 4 km south-west of the city."
+            }
+          ],
+          "facts": [
+            "OD1",
+            "OD2",
+            "OD_AIR"
+          ]
+        },
+        "things_to_do": {
+          "items": [
+            {
+              "body": "Elsewhere in Odisha — Puri: Puri, home of the Jagannath Temple, is one of the four Char Dhams; the Rath Yatra is held every June or July."
+            },
+            {
+              "body": "Elsewhere in Odisha — Konark Sun Temple: The 13th-century Konark Sun Temple, about 35 km north-east of Puri, was built as a giant chariot for the Sun God with 24 carved stone wheels; it is a UNESCO World Heritage Site (1984)."
+            },
+            {
+              "body": "Elsewhere in Odisha — Bhubaneswar: Bhubaneswar, Odisha's capital, takes its name from 'Tribhubaneswar', Lord of the Three Worlds — Shiva; Hirapur nearby has an open-air 64 Yogini temple."
+            },
+            {
+              "body": "Elsewhere in Odisha — Dhauli: Dhauli, 8 km from Bhubaneswar, has a rock carrying Ashoka's edicts and a carved elephant marking his change of heart after the Kalinga war."
+            }
+          ],
+          "facts": [
+            "PUR1",
+            "KON1",
+            "BBS1",
+            "DHA1"
+          ]
+        }
+      },
+      "wikidataId": "Q2047322",
+      "relations": [
+        {
+          "to": "odisha/puri",
+          "type": "nearby"
+        }
+      ]
+    },
+    {
+      "key": "odisha/bhubaneswar",
+      "kind": "city",
+      "name": "Bhubaneswar",
+      "summary": "Odisha's capital and temple city: Lingaraj, Mukteshwar, the Jain caves of Khandagiri and Ashoka's Dhauli.",
+      "seoTitle": "Bhubaneswar Travel Guide: Temples, Caves & Dhauli",
+      "seoDescription": "Plan Bhubaneswar: the Lingaraj Temple, Khandagiri and Udayagiri caves, Dhauli's Ashokan edicts, Hirapur's Yogini temple and the airport.",
+      "lat": 20.27,
+      "lng": 85.84,
+      "tripTypes": [
+        "heritage",
+        "spiritual"
+      ],
+      "images": [
+        {
+          "commons": "File:Mukteswar Temple in Bhubaneswar Old Town.jpg",
+          "alt": "The Mukteswar Temple in Bhubaneswar's old town",
+          "caption": "Mukteswar Temple, Bhubaneswar",
+          "hero": true
+        }
+      ],
+      "sections": {
+        "overview": {
+          "text": "Bhubaneswar takes its name from 'Tribhubaneswar' — Shiva, Lord of the Three Worlds. Hirapur, nearby, has an open-air temple of 64 Yoginis.",
+          "facts": [
+            "BBS1"
+          ]
+        },
+        "how_to_reach": {
+          "text": "Biju Patnaik Airport is about 4 km from the city.",
+          "facts": [
+            "OD_AIR"
+          ]
+        },
+        "highlights": {
+          "items": [
+            {
+              "body": "Lingaraj Temple: The 11th-century Lingaraj Temple, built by King Jajati Keshari, rises 180 feet; its 40-acre complex has 150 smaller shrines."
+            },
+            {
+              "body": "Khandagiri and Udayagiri Caves: The Khandagiri and Udayagiri caves are Jain rock-cut monasteries from the 2nd century BCE, under Emperor Kharavela; open 9 am to 9 pm."
+            }
+          ],
+          "facts": [
+            "LIN1",
+            "KUC1"
+          ]
+        },
+        "practical_info": {
+          "items": [
+            {
+              "title": "Odisha",
+              "body": "Odisha has a coastline of over 480 km and more than 62 tribal groups; Chilika is Asia's largest coastal lagoon."
+            },
+            {
+              "title": "Food",
+              "body": "Odia food to try includes dalma, chhena poda and rasagola."
+            },
+            {
+              "title": "Getting there",
+              "body": "Biju Patnaik Airport serves Bhubaneswar, about 4 km south-west of the city."
+            }
+          ],
+          "facts": [
+            "OD1",
+            "OD2",
+            "OD_AIR"
+          ]
+        },
+        "things_to_do": {
+          "items": [
+            {
+              "body": "Elsewhere in Odisha — Puri: Puri, home of the Jagannath Temple, is one of the four Char Dhams; the Rath Yatra is held every June or July."
+            },
+            {
+              "body": "Elsewhere in Odisha — Konark Sun Temple: The 13th-century Konark Sun Temple, about 35 km north-east of Puri, was built as a giant chariot for the Sun God with 24 carved stone wheels; it is a UNESCO World Heritage Site (1984)."
+            },
+            {
+              "body": "Elsewhere in Odisha — Chilika Lake: Chilika, a short drive from Puri, is Asia's largest brackish-water lagoon; its sanctuary covers about 1,100 sq km and supports over 150,000 fisher-folk."
+            },
+            {
+              "body": "Elsewhere in Odisha — Dhauli: Dhauli, 8 km from Bhubaneswar, has a rock carrying Ashoka's edicts and a carved elephant marking his change of heart after the Kalinga war."
+            }
+          ],
+          "facts": [
+            "PUR1",
+            "KON1",
+            "CHI1",
+            "DHA1"
+          ]
+        }
+      },
+      "wikidataId": "Q171771",
+      "relations": [
+        {
+          "to": "odisha/dhauli",
+          "type": "day_trip"
+        },
+        {
+          "to": "odisha/puri",
+          "type": "day_trip"
+        },
+        {
+          "to": "odisha/konark-sun-temple",
+          "type": "day_trip"
+        }
+      ]
+    },
+    {
+      "key": "odisha/lingaraj-temple",
+      "kind": "temple",
+      "name": "Lingaraj Temple",
+      "summary": "Bhubaneswar's 11th-century Shiva temple, 180 feet high, in a 40-acre complex.",
+      "seoTitle": "Lingaraj Temple Bhubaneswar: History & Timings",
+      "seoDescription": "Lingaraj Temple, Bhubaneswar: 11th century, built by King Jajati Keshari, 180 ft high, 150 shrines in its courtyard; open 7 am–7 pm.",
+      "lat": 20.23833333,
+      "lng": 85.83361111,
+      "tripTypes": [
+        "spiritual",
+        "heritage"
+      ],
+      "images": [
+        {
+          "commons": "File:Lingaraj_Temple_,_Bhubaneswar.jpg",
+          "alt": "The tall spire of the Lingaraj Temple",
+          "caption": "Lingaraj Temple",
+          "hero": true
+        }
+      ],
+      "sections": {
+        "overview": {
+          "text": "Commissioned in the 11th century by King Jajati Keshari, the Lingaraj Temple rises 180 feet; its courtyard holds 150 smaller shrines.",
+          "facts": [
+            "LIN1"
+          ]
+        },
+        "visit_info": {
+          "items": [
+            {
+              "title": "Hours",
+              "body": "7 am to 7 pm.",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "LIN2"
+          ]
+        },
+        "highlights": {
+          "items": [
+            {
+              "body": "Also in Bhubaneswar — Khandagiri and Udayagiri Caves: The Khandagiri and Udayagiri caves are Jain rock-cut monasteries from the 2nd century BCE, under Emperor Kharavela; open 9 am to 9 pm."
+            }
+          ],
+          "facts": [
+            "KUC1"
+          ]
+        },
+        "travel_tips": {
+          "items": [
+            {
+              "body": "About Bhubaneswar: Bhubaneswar, Odisha's capital, takes its name from 'Tribhubaneswar', Lord of the Three Worlds — Shiva; Hirapur nearby has an open-air 64 Yogini temple."
+            },
+            {
+              "body": "About Bhubaneswar: Biju Patnaik Airport serves Bhubaneswar, about 4 km south-west of the city."
+            }
+          ],
+          "facts": [
+            "BBS1",
+            "OD_AIR"
+          ]
+        },
+        "practical_info": {
+          "items": [
+            {
+              "title": "Odisha",
+              "body": "Odisha has a coastline of over 480 km and more than 62 tribal groups; Chilika is Asia's largest coastal lagoon."
+            },
+            {
+              "title": "Food",
+              "body": "Odia food to try includes dalma, chhena poda and rasagola."
+            },
+            {
+              "title": "Getting there",
+              "body": "Biju Patnaik Airport serves Bhubaneswar, about 4 km south-west of the city."
+            }
+          ],
+          "facts": [
+            "OD1",
+            "OD2",
+            "OD_AIR"
+          ]
+        }
+      },
+      "wikidataId": "Q2365530",
+      "parent": "odisha/bhubaneswar"
+    },
+    {
+      "key": "odisha/khandagiri-udayagiri-caves",
+      "kind": "attraction",
+      "name": "Khandagiri and Udayagiri Caves",
+      "summary": "Jain rock-cut monasteries from the 2nd century BCE, on twin hills in Bhubaneswar.",
+      "seoTitle": "Khandagiri & Udayagiri Caves: Jain Caves of Bhubaneswar",
+      "seoDescription": "Khandagiri and Udayagiri caves, Bhubaneswar: Jain rock-cut monasteries from the 2nd century BCE under Emperor Kharavela; open 9 am–9 pm.",
+      "lat": 20.2628312,
+      "lng": 85.7860297,
+      "tripTypes": [
+        "heritage"
+      ],
+      "images": [
+        {
+          "commons": "File:Khandagari_and_Udaygiri_featured_image.jpg",
+          "alt": "Rock-cut caves at Khandagiri and Udayagiri",
+          "caption": "Khandagiri and Udayagiri caves",
+          "hero": true
+        }
+      ],
+      "sections": {
+        "overview": {
+          "text": "The twin hills of Khandagiri and Udayagiri hold Jain rock-cut monasteries from the 2nd century BCE, under Emperor Kharavela. Open 9 am to 9 pm.",
+          "facts": [
+            "KUC1"
+          ]
+        },
+        "highlights": {
+          "items": [
+            {
+              "body": "Also in Bhubaneswar — Lingaraj Temple: The 11th-century Lingaraj Temple, built by King Jajati Keshari, rises 180 feet; its 40-acre complex has 150 smaller shrines."
+            }
+          ],
+          "facts": [
+            "LIN1"
+          ]
+        },
+        "travel_tips": {
+          "items": [
+            {
+              "body": "About Bhubaneswar: Bhubaneswar, Odisha's capital, takes its name from 'Tribhubaneswar', Lord of the Three Worlds — Shiva; Hirapur nearby has an open-air 64 Yogini temple."
+            },
+            {
+              "body": "About Bhubaneswar: Biju Patnaik Airport serves Bhubaneswar, about 4 km south-west of the city."
+            }
+          ],
+          "facts": [
+            "BBS1",
+            "OD_AIR"
+          ]
+        },
+        "practical_info": {
+          "items": [
+            {
+              "title": "Odisha",
+              "body": "Odisha has a coastline of over 480 km and more than 62 tribal groups; Chilika is Asia's largest coastal lagoon."
+            },
+            {
+              "title": "Food",
+              "body": "Odia food to try includes dalma, chhena poda and rasagola."
+            },
+            {
+              "title": "Getting there",
+              "body": "Biju Patnaik Airport serves Bhubaneswar, about 4 km south-west of the city."
+            }
+          ],
+          "facts": [
+            "OD1",
+            "OD2",
+            "OD_AIR"
+          ]
+        }
+      },
+      "wikidataId": "Q3536413",
+      "parent": "odisha/bhubaneswar"
+    },
+    {
+      "key": "odisha/dhauli",
+      "kind": "attraction",
+      "name": "Dhauli",
+      "summary": "The hill 8 km from Bhubaneswar where Ashoka's edicts are carved, near the Kalinga battlefield.",
+      "seoTitle": "Dhauli Bhubaneswar: Ashoka's Edicts & Peace Pagoda",
+      "seoDescription": "Dhauli, 8 km from Bhubaneswar: a rock carved with Ashoka's edicts and an emerging elephant, marking his change of heart after Kalinga.",
+      "lat": 20.19237222,
+      "lng": 85.83948889,
+      "tripTypes": [
+        "heritage",
+        "spiritual"
+      ],
+      "images": [
+        {
+          "commons": "File:ShantiSthupa_Dhauli.jpg",
+          "alt": "The white Shanti Stupa on Dhauli hill",
+          "caption": "Shanti Stupa, Dhauli",
+          "hero": true
+        }
+      ],
+      "sections": {
+        "overview": {
+          "text": "Dhauli, 8 km from Bhubaneswar, has a rock carved with Ashoka's major edicts, and an elephant emerging from the rock marking his change of heart.",
+          "facts": [
+            "DHA1"
+          ]
+        },
+        "practical_info": {
+          "items": [
+            {
+              "title": "Odisha",
+              "body": "Odisha has a coastline of over 480 km and more than 62 tribal groups; Chilika is Asia's largest coastal lagoon."
+            },
+            {
+              "title": "Food",
+              "body": "Odia food to try includes dalma, chhena poda and rasagola."
+            },
+            {
+              "title": "Getting there",
+              "body": "Biju Patnaik Airport serves Bhubaneswar, about 4 km south-west of the city."
+            }
+          ],
+          "facts": [
+            "OD1",
+            "OD2",
+            "OD_AIR"
+          ]
+        },
+        "things_to_do": {
+          "items": [
+            {
+              "body": "Elsewhere in Odisha — Puri: Puri, home of the Jagannath Temple, is one of the four Char Dhams; the Rath Yatra is held every June or July."
+            },
+            {
+              "body": "Elsewhere in Odisha — Konark Sun Temple: The 13th-century Konark Sun Temple, about 35 km north-east of Puri, was built as a giant chariot for the Sun God with 24 carved stone wheels; it is a UNESCO World Heritage Site (1984)."
+            },
+            {
+              "body": "Elsewhere in Odisha — Chilika Lake: Chilika, a short drive from Puri, is Asia's largest brackish-water lagoon; its sanctuary covers about 1,100 sq km and supports over 150,000 fisher-folk."
+            },
+            {
+              "body": "Elsewhere in Odisha — Bhubaneswar: Bhubaneswar, Odisha's capital, takes its name from 'Tribhubaneswar', Lord of the Three Worlds — Shiva; Hirapur nearby has an open-air 64 Yogini temple."
+            }
+          ],
+          "facts": [
+            "PUR1",
+            "KON1",
+            "CHI1",
+            "BBS1"
+          ]
+        }
+      },
+      "wikidataId": "Q3498218",
+      "relations": [
+        {
+          "to": "odisha/bhubaneswar",
+          "type": "nearby"
+        }
+      ]
+    },
+    {
+      "key": "odisha/bhitarkanika-national-park",
+      "kind": "nature",
+      "name": "Bhitarkanika National Park",
+      "summary": "India's second-largest mangrove forest, 672 sq km, with 215 bird species.",
+      "seoTitle": "Bhitarkanika National Park: Mangroves, Birds & Boats",
+      "seoDescription": "Bhitarkanika in Kendrapada district: India's second-largest mangroves, 672 sq km, 215 bird species, boats from Chandbali; open 6 am–6 pm.",
+      "lat": 20.75,
+      "lng": 87,
+      "tripTypes": [
+        "wildlife",
+        "nature"
+      ],
+      "images": [
+        {
+          "commons": "File:Sunrise_at_Bhitarakanika.jpg",
+          "alt": "Sunrise over the mangroves of Bhitarkanika",
+          "caption": "Bhitarkanika",
+          "hero": true
+        }
+      ],
+      "sections": {
+        "overview": {
+          "text": "Bhitarkanika, 672 sq km in Kendrapada district, is India's second-largest mangrove ecosystem, with 215 bird species including eight kingfishers.",
+          "facts": [
+            "BHK1"
+          ]
+        },
+        "how_to_reach": {
+          "text": "The nearest airports are Bhubaneswar and Kolkata; boats leave from Chandbali. Open 6 am to 6 pm.",
+          "facts": [
+            "BHK2"
+          ]
+        },
+        "practical_info": {
+          "items": [
+            {
+              "title": "Odisha",
+              "body": "Odisha has a coastline of over 480 km and more than 62 tribal groups; Chilika is Asia's largest coastal lagoon."
+            },
+            {
+              "title": "Food",
+              "body": "Odia food to try includes dalma, chhena poda and rasagola."
+            },
+            {
+              "title": "Getting there",
+              "body": "Biju Patnaik Airport serves Bhubaneswar, about 4 km south-west of the city."
+            }
+          ],
+          "facts": [
+            "OD1",
+            "OD2",
+            "OD_AIR"
+          ]
+        },
+        "things_to_do": {
+          "items": [
+            {
+              "body": "Elsewhere in Odisha — Puri: Puri, home of the Jagannath Temple, is one of the four Char Dhams; the Rath Yatra is held every June or July."
+            },
+            {
+              "body": "Elsewhere in Odisha — Konark Sun Temple: The 13th-century Konark Sun Temple, about 35 km north-east of Puri, was built as a giant chariot for the Sun God with 24 carved stone wheels; it is a UNESCO World Heritage Site (1984)."
+            },
+            {
+              "body": "Elsewhere in Odisha — Chilika Lake: Chilika, a short drive from Puri, is Asia's largest brackish-water lagoon; its sanctuary covers about 1,100 sq km and supports over 150,000 fisher-folk."
+            },
+            {
+              "body": "Elsewhere in Odisha — Bhubaneswar: Bhubaneswar, Odisha's capital, takes its name from 'Tribhubaneswar', Lord of the Three Worlds — Shiva; Hirapur nearby has an open-air 64 Yogini temple."
+            }
+          ],
+          "facts": [
+            "PUR1",
+            "KON1",
+            "CHI1",
+            "BBS1"
+          ]
+        }
+      },
+      "wikidataId": "Q2580141"
+    },
+    {
+      "key": "andhra-pradesh",
+      "kind": "state",
+      "name": "Andhra Pradesh",
+      "summary": "Tirumala's Venkateswara Temple, Vizag's coast, the Borra Caves and Araku Valley, and Buddhist Amaravati.",
+      "seoTitle": "Andhra Pradesh Travel Guide: Tirupati, Vizag & Araku",
+      "seoDescription": "Plan Andhra Pradesh: Tirumala and Tirupati, Srikalahasti, Visakhapatnam, the Borra Caves and Araku Valley, Amaravati and the Undavalli caves.",
+      "lat": 15.9,
+      "lng": 79.7,
+      "tripTypes": [
+        "spiritual",
+        "nature",
+        "heritage"
+      ],
+      "images": [
+        {
+          "commons": "File:Views of Araku Valley, Araku in Andhra Pradesh 09.jpg",
+          "alt": "Green hills of the Araku Valley, Andhra Pradesh",
+          "caption": "Araku Valley",
+          "hero": true
+        }
+      ],
+      "sections": {
+        "overview": {
+          "text": "Andhra Pradesh, on the south-east coast, is India's seventh-largest state and the home of Kuchipudi. Tirumala's Venkateswara Temple draws around 24 million devotees a year; the Eastern Ghats behind Visakhapatnam hide the Borra Caves and the Araku Valley.",
+          "facts": [
+            "AP1",
+            "TML1",
+            "BOR1",
+            "ARK1"
+          ]
+        },
+        "food": {
+          "items": [
+            {
+              "body": "Fiery Guntur chillies."
+            },
+            {
+              "body": "The Tirupati laddu, with a Geographical Indication tag."
+            }
+          ],
+          "facts": [
+            "AP2"
+          ]
+        },
+        "things_to_do": {
+          "items": [
+            {
+              "body": "Talakona, the state's highest waterfall at 270 feet."
+            },
+            {
+              "body": "Pulicat Lake for migratory birds."
+            }
+          ],
+          "facts": [
+            "AP3"
+          ]
+        },
+        "regions": {
+          "items": [
+            {
+              "title": "Tirupati and the south",
+              "body": "Tirumala's Venkateswara Temple, Tirupati town and Srikalahasti."
+            },
+            {
+              "title": "Visakhapatnam and the Eastern Ghats",
+              "body": "Vizag's coast, the Borra Caves and the Araku Valley coffee hills."
+            },
+            {
+              "title": "The Krishna valley",
+              "body": "Buddhist Amaravati and the Undavalli caves."
+            }
+          ],
+          "facts": [
+            "TML1",
+            "SKH1",
+            "VSK1",
+            "BOR1",
+            "ARK1",
+            "AMR1",
+            "UND1"
+          ]
+        },
+        "practical_info": {
+          "items": [
+            {
+              "title": "Visas",
+              "body": "Apply for an e-Tourist visa at least 4 days before arrival; your passport needs at least six months' validity."
+            },
+            {
+              "title": "Payments",
+              "body": "Visitors can pay by QR code with NPCI's UPI One World wallet after a passport-and-visa KYC check. Carry some cash for small purchases."
+            },
+            {
+              "title": "Emergency",
+              "body": "Dial 112 for police, fire or ambulance."
+            }
+          ],
+          "facts": [
+            "AP_VISA",
+            "AP_UPI",
+            "AP_112"
+          ]
+        }
+      },
+      "wikidataId": "Q1159",
+      "featured": true
+    },
+    {
+      "key": "andhra-pradesh/tirupati",
+      "kind": "city",
+      "name": "Tirupati",
+      "summary": "The temple town below Tirumala, a Vaishnava centre since the 5th century.",
+      "seoTitle": "Tirupati Travel Guide: Tirumala, Temples & Laddu",
+      "seoDescription": "Plan Tirupati: the climb to Tirumala's Venkateswara Temple, the Govindaraja Swamy Temple (1130 CE), Srikalahasti nearby, and the famous laddu.",
+      "lat": 13.6355,
+      "lng": 79.4236,
+      "tripTypes": [
+        "spiritual"
+      ],
+      "images": [
+        {
+          "commons": "File:Gaaligopuram Tirumala walkway Tirupati.JPG",
+          "alt": "The Gaali Gopuram on the walkway up to Tirumala",
+          "caption": "Gaali Gopuram, Tirumala walkway",
+          "hero": true
+        }
+      ],
+      "sections": {
+        "overview": {
+          "text": "Tirupati has been a centre of Vaishnavism since the 5th century. In town, the Govindaraja Swamy Temple was completed in 1130 CE.",
+          "facts": [
+            "TPT1"
+          ]
+        },
+        "highlights": {
+          "items": [
+            {
+              "body": "Tirumala Venkateswara Temple: The Sri Venkateswara Temple (Tirupati Balaji) on the Tirumala Hills, about 980 m high, draws around 24 million devotees a year and is run by the TTD."
+            }
+          ],
+          "facts": [
+            "TML1"
+          ]
+        },
+        "practical_info": {
+          "items": [
+            {
+              "title": "Andhra Pradesh",
+              "body": "Andhra Pradesh, on the south-east coast, is India's seventh-largest state and the home of Kuchipudi dance."
+            },
+            {
+              "title": "Food",
+              "body": "Andhra is famous for fiery Guntur chillies, and the Tirupati laddu has a Geographical Indication tag."
+            },
+            {
+              "title": "Nature",
+              "body": "Talakona is the state's highest waterfall at 270 feet; Pulicat is a major lagoon for migratory birds."
+            }
+          ],
+          "facts": [
+            "AP1",
+            "AP2",
+            "AP3"
+          ]
+        },
+        "things_to_do": {
+          "items": [
+            {
+              "body": "Elsewhere in Andhra Pradesh — Srikalahasti Temple: The Srikalahasti Shiva temple on the Swarnamukhi river dates to the 5th century; its 120 m Rajagopuram was built by the Vijayanagara Empire."
+            },
+            {
+              "body": "Elsewhere in Andhra Pradesh — Visakhapatnam: Visakhapatnam, on the Bay of Bengal, has the INS Kursura submarine museum and the Bavikonda Buddhist site 15 km away; its airport is close to the centre."
+            },
+            {
+              "body": "Elsewhere in Andhra Pradesh — Borra Caves: The Borra Caves, 88 km from Visakhapatnam in the Ananthagiri hills, are limestone caves at about 705 m, among the largest in India and up to 80 m deep."
+            },
+            {
+              "body": "Elsewhere in Andhra Pradesh — Araku Valley: Araku Valley is a hill station in the Eastern Ghats about 111 km from Visakhapatnam, known for coffee plantations."
+            }
+          ],
+          "facts": [
+            "SKH1",
+            "VSK1",
+            "BOR1",
+            "ARK1"
+          ]
+        }
+      },
+      "wikidataId": "Q1436816",
+      "relations": [
+        {
+          "to": "andhra-pradesh/srikalahasti-temple",
+          "type": "day_trip"
+        }
+      ]
+    },
+    {
+      "key": "andhra-pradesh/tirumala-venkateswara-temple",
+      "kind": "temple",
+      "name": "Tirumala Venkateswara Temple",
+      "summary": "Tirupati Balaji on the Tirumala Hills — one of the world's most visited religious sites.",
+      "seoTitle": "Tirumala Venkateswara Temple: Darshan, Laddu & TTD",
+      "seoDescription": "Tirumala Venkateswara Temple (Tirupati Balaji): on the 980 m Tirumala Hills, around 24 million devotees a year, run by TTD, the laddu and Vaikunta Ekadasi.",
+      "lat": 13.68325,
+      "lng": 79.34719444,
+      "tripTypes": [
+        "spiritual"
+      ],
+      "images": [
+        {
+          "commons": "File:Tirumala_090615.jpg",
+          "alt": "The Venkateswara Temple complex at Tirumala",
+          "caption": "Tirumala temple",
+          "hero": true
+        }
+      ],
+      "sections": {
+        "overview": {
+          "text": "The Sri Venkateswara Temple, or Tirupati Balaji, stands on the Tirumala Hills, about 980 m high, and draws around 24 million devotees a year. It is run by the Tirumala Tirupati Devasthanams (TTD).",
+          "facts": [
+            "TML1"
+          ]
+        },
+        "highlights": {
+          "items": [
+            {
+              "body": "The Tirupati laddu prasadam."
+            },
+            {
+              "body": "Vaikunta Ekadasi, when the 'gates of Vaikunta' open."
+            }
+          ],
+          "facts": [
+            "TML2"
+          ]
+        },
+        "travel_tips": {
+          "items": [
+            {
+              "body": "About Tirupati: Tirupati has been a centre of Vaishnavism since the 5th century; the Govindaraja Swamy Temple in town was completed in 1130 CE."
+            },
+            {
+              "body": "About Tirupati: The Sri Venkateswara Temple (Tirupati Balaji) on the Tirumala Hills, about 980 m high, draws around 24 million devotees a year and is run by the TTD."
+            }
+          ],
+          "facts": [
+            "TPT1",
+            "TML1"
+          ]
+        },
+        "practical_info": {
+          "items": [
+            {
+              "title": "Andhra Pradesh",
+              "body": "Andhra Pradesh, on the south-east coast, is India's seventh-largest state and the home of Kuchipudi dance."
+            },
+            {
+              "title": "Food",
+              "body": "Andhra is famous for fiery Guntur chillies, and the Tirupati laddu has a Geographical Indication tag."
+            },
+            {
+              "title": "Nature",
+              "body": "Talakona is the state's highest waterfall at 270 feet; Pulicat is a major lagoon for migratory birds."
+            }
+          ],
+          "facts": [
+            "AP1",
+            "AP2",
+            "AP3"
+          ]
+        }
+      },
+      "wikidataId": "Q9375937",
+      "parent": "andhra-pradesh/tirupati"
+    },
+    {
+      "key": "andhra-pradesh/srikalahasti-temple",
+      "kind": "temple",
+      "name": "Srikalahasti Temple",
+      "summary": "A Shiva temple on the Swarnamukhi river near Tirupati, with a 120 m Vijayanagara gopuram.",
+      "seoTitle": "Srikalahasti Temple: History, Gopuram & Timings",
+      "seoDescription": "Srikalahasti Temple near Tirupati: a Shiva shrine on the Swarnamukhi from the 5th century, a 120 m Vijayanagara gopuram; open 5:30 am–9:30 pm.",
+      "lat": 13.74944444,
+      "lng": 79.69833333,
+      "tripTypes": [
+        "spiritual",
+        "heritage"
+      ],
+      "images": [
+        {
+          "commons": "File:Sri_Kala_Hasti.jpg",
+          "alt": "The gopuram of the Srikalahasti temple",
+          "caption": "Srikalahasti temple",
+          "hero": true
+        }
+      ],
+      "sections": {
+        "overview": {
+          "text": "The Srikalahasti temple, on the Swarnamukhi river, dates to the 5th century; its 120 m Rajagopuram was built by the Vijayanagara Empire.",
+          "facts": [
+            "SKH1"
+          ]
+        },
+        "visit_info": {
+          "items": [
+            {
+              "title": "Hours",
+              "body": "5:30 am to 9:30 pm.",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "SKH2"
+          ]
+        },
+        "practical_info": {
+          "items": [
+            {
+              "title": "Andhra Pradesh",
+              "body": "Andhra Pradesh, on the south-east coast, is India's seventh-largest state and the home of Kuchipudi dance."
+            },
+            {
+              "title": "Food",
+              "body": "Andhra is famous for fiery Guntur chillies, and the Tirupati laddu has a Geographical Indication tag."
+            },
+            {
+              "title": "Nature",
+              "body": "Talakona is the state's highest waterfall at 270 feet; Pulicat is a major lagoon for migratory birds."
+            }
+          ],
+          "facts": [
+            "AP1",
+            "AP2",
+            "AP3"
+          ]
+        },
+        "things_to_do": {
+          "items": [
+            {
+              "body": "Elsewhere in Andhra Pradesh — Tirupati: Tirupati has been a centre of Vaishnavism since the 5th century; the Govindaraja Swamy Temple in town was completed in 1130 CE."
+            },
+            {
+              "body": "Elsewhere in Andhra Pradesh — Visakhapatnam: Visakhapatnam, on the Bay of Bengal, has the INS Kursura submarine museum and the Bavikonda Buddhist site 15 km away; its airport is close to the centre."
+            },
+            {
+              "body": "Elsewhere in Andhra Pradesh — Borra Caves: The Borra Caves, 88 km from Visakhapatnam in the Ananthagiri hills, are limestone caves at about 705 m, among the largest in India and up to 80 m deep."
+            },
+            {
+              "body": "Elsewhere in Andhra Pradesh — Araku Valley: Araku Valley is a hill station in the Eastern Ghats about 111 km from Visakhapatnam, known for coffee plantations."
+            }
+          ],
+          "facts": [
+            "TPT1",
+            "VSK1",
+            "BOR1",
+            "ARK1"
+          ]
+        }
+      },
+      "wikidataId": "Q3766931",
+      "relations": [
+        {
+          "to": "andhra-pradesh/tirupati",
+          "type": "nearby"
+        }
+      ]
+    },
+    {
+      "key": "andhra-pradesh/visakhapatnam",
+      "kind": "city",
+      "name": "Visakhapatnam",
+      "summary": "Vizag on the Bay of Bengal: a submarine museum, the Bavikonda Buddhist site and the gateway to Araku.",
+      "seoTitle": "Visakhapatnam Travel Guide: Beaches, Museums & Araku",
+      "seoDescription": "Plan Visakhapatnam: the INS Kursura submarine museum, Bavikonda stupa, the beaches, the airport, and trips to the Borra Caves and Araku Valley.",
+      "lat": 17.69388889,
+      "lng": 83.29222222,
+      "tripTypes": [
+        "beaches",
+        "family"
+      ],
+      "images": [
+        {
+          "commons": "File:What_is_Shipyard.jpg",
+          "alt": "The Visakhapatnam waterfront and shipyard",
+          "caption": "Visakhapatnam",
+          "hero": true
+        }
+      ],
+      "sections": {
+        "overview": {
+          "text": "Visakhapatnam, on the Bay of Bengal, has the INS Kursura submarine museum and the Bavikonda Buddhist site 15 km away. The airport is close to the centre.",
+          "facts": [
+            "VSK1"
+          ]
+        },
+        "practical_info": {
+          "items": [
+            {
+              "title": "Andhra Pradesh",
+              "body": "Andhra Pradesh, on the south-east coast, is India's seventh-largest state and the home of Kuchipudi dance."
+            },
+            {
+              "title": "Food",
+              "body": "Andhra is famous for fiery Guntur chillies, and the Tirupati laddu has a Geographical Indication tag."
+            },
+            {
+              "title": "Nature",
+              "body": "Talakona is the state's highest waterfall at 270 feet; Pulicat is a major lagoon for migratory birds."
+            }
+          ],
+          "facts": [
+            "AP1",
+            "AP2",
+            "AP3"
+          ]
+        },
+        "things_to_do": {
+          "items": [
+            {
+              "body": "Elsewhere in Andhra Pradesh — Tirupati: Tirupati has been a centre of Vaishnavism since the 5th century; the Govindaraja Swamy Temple in town was completed in 1130 CE."
+            },
+            {
+              "body": "Elsewhere in Andhra Pradesh — Srikalahasti Temple: The Srikalahasti Shiva temple on the Swarnamukhi river dates to the 5th century; its 120 m Rajagopuram was built by the Vijayanagara Empire."
+            },
+            {
+              "body": "Elsewhere in Andhra Pradesh — Borra Caves: The Borra Caves, 88 km from Visakhapatnam in the Ananthagiri hills, are limestone caves at about 705 m, among the largest in India and up to 80 m deep."
+            },
+            {
+              "body": "Elsewhere in Andhra Pradesh — Araku Valley: Araku Valley is a hill station in the Eastern Ghats about 111 km from Visakhapatnam, known for coffee plantations."
+            }
+          ],
+          "facts": [
+            "TPT1",
+            "SKH1",
+            "BOR1",
+            "ARK1"
+          ]
+        }
+      },
+      "wikidataId": "Q200016",
+      "relations": [
+        {
+          "to": "andhra-pradesh/borra-caves",
+          "type": "day_trip"
+        },
+        {
+          "to": "andhra-pradesh/araku-valley",
+          "type": "day_trip"
+        }
+      ]
+    },
+    {
+      "key": "andhra-pradesh/borra-caves",
+      "kind": "nature",
+      "name": "Borra Caves",
+      "summary": "Limestone caves 88 km from Vizag in the Ananthagiri hills — among the largest in India.",
+      "seoTitle": "Borra Caves: Visiting from Vizag & Araku",
+      "seoDescription": "Borra Caves, 88 km from Visakhapatnam: limestone caves at about 705 m, up to 80 m deep, among India's largest; open 10 am–5 pm.",
+      "lat": 18.16666667,
+      "lng": 83,
+      "tripTypes": [
+        "nature",
+        "adventure",
+        "family"
+      ],
+      "images": [
+        {
+          "commons": "File:Borra_caves,_Viskhapatnam.jpg",
+          "alt": "Lit limestone formations inside the Borra Caves",
+          "caption": "Borra Caves",
+          "hero": true
+        }
+      ],
+      "sections": {
+        "overview": {
+          "text": "The Borra Caves, 88 km from Visakhapatnam in the Ananthagiri hills, are limestone caves at about 705 m — among the largest in India and up to 80 m deep.",
+          "facts": [
+            "BOR1"
+          ]
+        },
+        "visit_info": {
+          "items": [
+            {
+              "title": "Hours",
+              "body": "10 am to 5 pm.",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "BOR2"
+          ]
+        },
+        "practical_info": {
+          "items": [
+            {
+              "title": "Andhra Pradesh",
+              "body": "Andhra Pradesh, on the south-east coast, is India's seventh-largest state and the home of Kuchipudi dance."
+            },
+            {
+              "title": "Food",
+              "body": "Andhra is famous for fiery Guntur chillies, and the Tirupati laddu has a Geographical Indication tag."
+            },
+            {
+              "title": "Nature",
+              "body": "Talakona is the state's highest waterfall at 270 feet; Pulicat is a major lagoon for migratory birds."
+            }
+          ],
+          "facts": [
+            "AP1",
+            "AP2",
+            "AP3"
+          ]
+        },
+        "things_to_do": {
+          "items": [
+            {
+              "body": "Elsewhere in Andhra Pradesh — Tirupati: Tirupati has been a centre of Vaishnavism since the 5th century; the Govindaraja Swamy Temple in town was completed in 1130 CE."
+            },
+            {
+              "body": "Elsewhere in Andhra Pradesh — Srikalahasti Temple: The Srikalahasti Shiva temple on the Swarnamukhi river dates to the 5th century; its 120 m Rajagopuram was built by the Vijayanagara Empire."
+            },
+            {
+              "body": "Elsewhere in Andhra Pradesh — Visakhapatnam: Visakhapatnam, on the Bay of Bengal, has the INS Kursura submarine museum and the Bavikonda Buddhist site 15 km away; its airport is close to the centre."
+            },
+            {
+              "body": "Elsewhere in Andhra Pradesh — Araku Valley: Araku Valley is a hill station in the Eastern Ghats about 111 km from Visakhapatnam, known for coffee plantations."
+            }
+          ],
+          "facts": [
+            "TPT1",
+            "SKH1",
+            "VSK1",
+            "ARK1"
+          ]
+        }
+      },
+      "wikidataId": "Q4946548",
+      "relations": [
+        {
+          "to": "andhra-pradesh/araku-valley",
+          "type": "nearby"
+        }
+      ]
+    },
+    {
+      "key": "andhra-pradesh/araku-valley",
+      "kind": "town",
+      "name": "Araku Valley",
+      "summary": "A coffee-growing hill station in the Eastern Ghats, 111 km from Visakhapatnam.",
+      "seoTitle": "Araku Valley Travel Guide: Coffee, Views & Borra",
+      "seoDescription": "Plan Araku Valley: the Eastern Ghats hill station 111 km from Visakhapatnam, coffee plantations, Tyada tunnel, Damuku viewpoint and Borra Caves.",
+      "lat": 18.3333,
+      "lng": 82.8667,
+      "tripTypes": [
+        "nature",
+        "weekend",
+        "romantic"
+      ],
+      "images": [
+        {
+          "commons": "File:Araku Valley coffee plantations in Ananthagiri hills in Andhra Pradesh 21.jpg",
+          "alt": "Coffee plantations in the Araku Valley hills",
+          "caption": "Araku coffee plantations",
+          "hero": true
+        }
+      ],
+      "sections": {
+        "overview": {
+          "text": "Araku Valley is a hill station in the Eastern Ghats about 111 km from Visakhapatnam, known for its coffee plantations.",
+          "facts": [
+            "ARK1"
+          ]
+        },
+        "things_to_do": {
+          "items": [
+            {
+              "body": "The Tyada railway tunnel, Damuku viewpoint and Ananthagiri coffee plantations."
+            }
+          ],
+          "facts": [
+            "ARK2"
+          ]
+        },
+        "practical_info": {
+          "items": [
+            {
+              "title": "Andhra Pradesh",
+              "body": "Andhra Pradesh, on the south-east coast, is India's seventh-largest state and the home of Kuchipudi dance."
+            },
+            {
+              "title": "Food",
+              "body": "Andhra is famous for fiery Guntur chillies, and the Tirupati laddu has a Geographical Indication tag."
+            },
+            {
+              "title": "Nature",
+              "body": "Talakona is the state's highest waterfall at 270 feet; Pulicat is a major lagoon for migratory birds."
+            }
+          ],
+          "facts": [
+            "AP1",
+            "AP2",
+            "AP3"
+          ]
+        },
+        "travel_tips": {
+          "items": [
+            {
+              "body": "In Andhra Pradesh: Andhra Pradesh, on the south-east coast, is India's seventh-largest state and the home of Kuchipudi dance."
+            },
+            {
+              "body": "In Andhra Pradesh: Andhra is famous for fiery Guntur chillies, and the Tirupati laddu has a Geographical Indication tag."
+            },
+            {
+              "body": "In Andhra Pradesh: Talakona is the state's highest waterfall at 270 feet; Pulicat is a major lagoon for migratory birds."
+            }
+          ],
+          "facts": [
+            "AP1",
+            "AP2",
+            "AP3"
+          ]
+        }
+      },
+      "wikidataId": "Q3536505",
+      "relations": [
+        {
+          "to": "andhra-pradesh/borra-caves",
+          "type": "nearby"
+        }
+      ]
+    },
+    {
+      "key": "andhra-pradesh/amaravati",
+      "kind": "town",
+      "name": "Amaravati",
+      "summary": "An ancient Buddhist centre on the Krishna with the Mahachaitya stupa.",
+      "seoTitle": "Amaravati Andhra Pradesh: Mahachaitya Stupa Guide",
+      "seoDescription": "Amaravati on the Krishna: the Mahachaitya stupa from the Mauryan era, a centre of Buddhist learning; hours, Kondapalli Fort and Guntur nearby.",
+      "lat": 16.573,
+      "lng": 80.358,
+      "tripTypes": [
+        "heritage",
+        "spiritual"
+      ],
+      "images": [
+        {
+          "commons": "File:Sri_Amaralingeswara_Swamy_temple_&_Chariot.jpg",
+          "alt": "The Amaralingeswara temple and its chariot at Amaravati",
+          "caption": "Amaravati",
+          "hero": true
+        }
+      ],
+      "sections": {
+        "overview": {
+          "text": "Amaravati was a centre of Buddhist learning; its Mahachaitya stupa dates to the Mauryan era. The site is open 8 am to 6 pm and closed on Fridays.",
+          "facts": [
+            "AMR1"
+          ]
+        },
+        "things_to_do": {
+          "items": [
+            {
+              "body": "Kondapalli Fort, about 20 km away."
+            },
+            {
+              "body": "Guntur's chilli yard, Asia's largest, about 40 km away."
+            }
+          ],
+          "facts": [
+            "AMR2"
+          ]
+        },
+        "practical_info": {
+          "items": [
+            {
+              "title": "Andhra Pradesh",
+              "body": "Andhra Pradesh, on the south-east coast, is India's seventh-largest state and the home of Kuchipudi dance."
+            },
+            {
+              "title": "Food",
+              "body": "Andhra is famous for fiery Guntur chillies, and the Tirupati laddu has a Geographical Indication tag."
+            },
+            {
+              "title": "Nature",
+              "body": "Talakona is the state's highest waterfall at 270 feet; Pulicat is a major lagoon for migratory birds."
+            }
+          ],
+          "facts": [
+            "AP1",
+            "AP2",
+            "AP3"
+          ]
+        },
+        "travel_tips": {
+          "items": [
+            {
+              "body": "In Andhra Pradesh: Andhra Pradesh, on the south-east coast, is India's seventh-largest state and the home of Kuchipudi dance."
+            },
+            {
+              "body": "In Andhra Pradesh: Andhra is famous for fiery Guntur chillies, and the Tirupati laddu has a Geographical Indication tag."
+            },
+            {
+              "body": "In Andhra Pradesh: Talakona is the state's highest waterfall at 270 feet; Pulicat is a major lagoon for migratory birds."
+            }
+          ],
+          "facts": [
+            "AP1",
+            "AP2",
+            "AP3"
+          ]
+        }
+      },
+      "wikidataId": "Q2087762",
+      "relations": [
+        {
+          "to": "andhra-pradesh/undavalli-caves",
+          "type": "nearby"
+        }
+      ]
+    },
+    {
+      "key": "andhra-pradesh/undavalli-caves",
+      "kind": "attraction",
+      "name": "Undavalli Caves",
+      "summary": "Rock-cut sandstone caves on the Krishna with a 5 m reclining Vishnu.",
+      "seoTitle": "Undavalli Caves: Reclining Vishnu & Timings",
+      "seoDescription": "Undavalli Caves near Vijayawada: rock-cut sandstone caves beside the Krishna with a 5 m reclining Vishnu; open 9 am–6 pm.",
+      "lat": 16.49687,
+      "lng": 80.58178,
+      "tripTypes": [
+        "heritage",
+        "spiritual"
+      ],
+      "images": [
+        {
+          "commons": "File:Undavalli_Caves,_Vijayawada,_Guntur,_Andhra_Pradesh,_India_(2018)_1.jpg",
+          "alt": "The rock-cut facade of the Undavalli Caves",
+          "caption": "Undavalli Caves",
+          "hero": true
+        }
+      ],
+      "sections": {
+        "overview": {
+          "text": "Cut from sandstone beside the Krishna, the Undavalli caves hold a 5 m reclining Vishnu. Open 9 am to 6 pm.",
+          "facts": [
+            "UND1"
+          ]
+        },
+        "practical_info": {
+          "items": [
+            {
+              "title": "Andhra Pradesh",
+              "body": "Andhra Pradesh, on the south-east coast, is India's seventh-largest state and the home of Kuchipudi dance."
+            },
+            {
+              "title": "Food",
+              "body": "Andhra is famous for fiery Guntur chillies, and the Tirupati laddu has a Geographical Indication tag."
+            },
+            {
+              "title": "Nature",
+              "body": "Talakona is the state's highest waterfall at 270 feet; Pulicat is a major lagoon for migratory birds."
+            }
+          ],
+          "facts": [
+            "AP1",
+            "AP2",
+            "AP3"
+          ]
+        },
+        "things_to_do": {
+          "items": [
+            {
+              "body": "Elsewhere in Andhra Pradesh — Tirupati: Tirupati has been a centre of Vaishnavism since the 5th century; the Govindaraja Swamy Temple in town was completed in 1130 CE."
+            },
+            {
+              "body": "Elsewhere in Andhra Pradesh — Srikalahasti Temple: The Srikalahasti Shiva temple on the Swarnamukhi river dates to the 5th century; its 120 m Rajagopuram was built by the Vijayanagara Empire."
+            },
+            {
+              "body": "Elsewhere in Andhra Pradesh — Visakhapatnam: Visakhapatnam, on the Bay of Bengal, has the INS Kursura submarine museum and the Bavikonda Buddhist site 15 km away; its airport is close to the centre."
+            },
+            {
+              "body": "Elsewhere in Andhra Pradesh — Borra Caves: The Borra Caves, 88 km from Visakhapatnam in the Ananthagiri hills, are limestone caves at about 705 m, among the largest in India and up to 80 m deep."
+            }
+          ],
+          "facts": [
+            "TPT1",
+            "SKH1",
+            "VSK1",
+            "BOR1"
+          ]
+        }
+      },
+      "wikidataId": "Q3520683",
+      "relations": [
+        {
+          "to": "andhra-pradesh/amaravati",
+          "type": "nearby"
+        }
+      ]
+    },
+    {
+      "key": "telangana",
+      "kind": "state",
+      "name": "Telangana",
+      "summary": "India's newest state: Hyderabad's Charminar and Golconda, biryani, and the Kakatiya temples and fort of Warangal.",
+      "seoTitle": "Telangana Travel Guide: Hyderabad, Warangal & Ramappa",
+      "seoDescription": "Plan Telangana: Hyderabad's Charminar, Golconda Fort and Salar Jung Museum, Warangal Fort, the Thousand Pillar Temple and UNESCO-listed Ramappa.",
+      "lat": 17.9,
+      "lng": 79.3,
+      "tripTypes": [
+        "heritage",
+        "food"
+      ],
+      "images": [
+        {
+          "commons": "File:A_typical_charminar_evening.jpg",
+          "alt": "Charminar on a busy evening, Hyderabad",
+          "caption": "Charminar at dusk",
+          "hero": true
+        }
+      ],
+      "sections": {
+        "overview": {
+          "text": "Telangana became India's newest state on 2 June 2014. Its history runs through the Satavahanas, Kakatiyas, Qutb Shahis and Asaf Jahis — from Hyderabad's Charminar and Golconda to Warangal's Kakatiya fort and the UNESCO-listed Ramappa Temple.",
+          "facts": [
+            "TG1",
+            "CHM1",
+            "GOL1",
+            "RAM1"
+          ]
+        },
+        "food": {
+          "items": [
+            {
+              "body": "Dum biryani, qubani ka meetha and Irani chai."
+            }
+          ],
+          "facts": [
+            "TG2"
+          ]
+        },
+        "shopping": {
+          "items": [
+            {
+              "body": "Nirmal paintings and wooden toys."
+            },
+            {
+              "body": "Bangles in Hyderabad's Laad Bazaar."
+            }
+          ],
+          "facts": [
+            "TG3",
+            "HYD1"
+          ]
+        },
+        "regions": {
+          "items": [
+            {
+              "title": "Hyderabad",
+              "body": "Charminar, Golconda, the Salar Jung Museum and Hussain Sagar."
+            },
+            {
+              "title": "Warangal",
+              "body": "The Kakatiya fort, the Thousand Pillar Temple, Ramappa and Laknavaram Lake, about 150 km from Hyderabad."
+            }
+          ],
+          "facts": [
+            "CHM1",
+            "GOL1",
+            "SJM1",
+            "HYD1",
+            "WGL1",
+            "WGF1",
+            "TPL1",
+            "RAM1",
+            "LAK1"
+          ]
+        },
+        "best_time": {
+          "text": "Bathukamma, the flower festival, is celebrated during Navaratri.",
+          "facts": [
+            "WGL2"
+          ]
+        },
+        "practical_info": {
+          "items": [
+            {
+              "title": "Visas",
+              "body": "Apply for an e-Tourist visa at least 4 days before arrival; your passport needs at least six months' validity."
+            },
+            {
+              "title": "Payments",
+              "body": "Visitors can pay by QR code with NPCI's UPI One World wallet after a passport-and-visa KYC check. Carry some cash for small purchases."
+            },
+            {
+              "title": "Emergency",
+              "body": "Dial 112 for police, fire or ambulance."
+            }
+          ],
+          "facts": [
+            "TG_VISA",
+            "TG_UPI",
+            "TG_112"
+          ]
+        }
+      },
+      "wikidataId": "Q677037",
+      "featured": true
+    },
+    {
+      "key": "telangana/hyderabad",
+      "kind": "city",
+      "name": "Hyderabad",
+      "summary": "The Nizams' capital and 'City of Pearls': Charminar, Golconda, the Salar Jung Museum, biryani and Hussain Sagar.",
+      "seoTitle": "Hyderabad Travel Guide: Charminar, Golconda & Biryani",
+      "seoDescription": "Plan Hyderabad: Charminar and Laad Bazaar, Golconda Fort's light show, the Salar Jung Museum, Hussain Sagar and the city's food.",
+      "lat": 17.36166667,
+      "lng": 78.47472222,
+      "tripTypes": [
+        "heritage",
+        "food"
+      ],
+      "images": [
+        {
+          "commons": "File:Aerial_view_of_Durgam_cheruvu_and_Hitech_CIty.jpg",
+          "alt": "Durgam Cheruvu lake and HITEC City from above",
+          "caption": "Hyderabad",
+          "hero": true
+        }
+      ],
+      "sections": {
+        "overview": {
+          "text": "Hyderabad, the old capital of the Nizams, is the 'City of Pearls'. The Laad Bazaar of bangles lies by Charminar, and Hussain Sagar lake was dug in 1562.",
+          "facts": [
+            "HYD1"
+          ]
+        },
+        "food": {
+          "items": [
+            {
+              "body": "Dum biryani, qubani ka meetha and Irani chai."
+            }
+          ],
+          "facts": [
+            "TG2"
+          ]
+        },
+        "highlights": {
+          "items": [
+            {
+              "body": "Charminar: The Charminar's four minarets rise 48.7 m; entry closes at 5 pm, and it is lit up from 7 to 9 pm."
+            },
+            {
+              "body": "Golconda Fort: Golconda Fort, 9 km from Hussain Sagar, dates back to 1143 and passed from the Bahmanis to the Qutb Shahis; a light and sound show runs in the evening."
+            },
+            {
+              "body": "Salar Jung Museum: The Salar Jung Museum, opened by Nehru in 1951 and an Institution of National Importance since 1961, holds Aurangzeb's sword and Tipu Sultan's wardrobe; open 10 am–5 pm."
+            }
+          ],
+          "facts": [
+            "CHM1",
+            "GOL1",
+            "SJM1"
+          ]
+        },
+        "practical_info": {
+          "items": [
+            {
+              "title": "Telangana",
+              "body": "Telangana became India's newest state on 2 June 2014; its history runs through the Satavahanas, Kakatiyas, Qutb Shahis and Asaf Jahis."
+            },
+            {
+              "title": "Food",
+              "body": "Hyderabad's food runs from dum biryani to qubani ka meetha and Irani chai."
+            },
+            {
+              "title": "Crafts",
+              "body": "Nirmal paintings and wooden toys have been made since the 14th century."
+            }
+          ],
+          "facts": [
+            "TG1",
+            "TG2",
+            "TG3"
+          ]
+        }
+      },
+      "wikidataId": "Q1361",
+      "relations": [
+        {
+          "to": "telangana/warangal",
+          "type": "day_trip"
+        }
+      ]
+    },
+    {
+      "key": "telangana/charminar",
+      "kind": "attraction",
+      "name": "Charminar",
+      "summary": "Hyderabad's four-minaret monument, 48.7 m high, beside the Laad Bazaar.",
+      "seoTitle": "Charminar Hyderabad: History, Hours & Laad Bazaar",
+      "seoDescription": "Charminar, Hyderabad: four minarets 48.7 m high, entry until 5 pm, lit up 7–9 pm, with the Laad Bazaar of bangles beside it.",
+      "lat": 17.36163,
+      "lng": 78.47467,
+      "tripTypes": [
+        "heritage"
+      ],
+      "images": [
+        {
+          "commons": "File:Charminar_Hyderabad_1.jpg",
+          "alt": "The Charminar and its four minarets",
+          "caption": "Charminar",
+          "hero": true
+        }
+      ],
+      "sections": {
+        "overview": {
+          "text": "The Charminar's four minarets rise 48.7 m. Entry closes at 5 pm, and the monument is lit from 7 to 9 pm.",
+          "facts": [
+            "CHM1"
+          ]
+        },
+        "highlights": {
+          "items": [
+            {
+              "body": "Also in Hyderabad — Golconda Fort: Golconda Fort, 9 km from Hussain Sagar, dates back to 1143 and passed from the Bahmanis to the Qutb Shahis; a light and sound show runs in the evening."
+            },
+            {
+              "body": "Also in Hyderabad — Salar Jung Museum: The Salar Jung Museum, opened by Nehru in 1951 and an Institution of National Importance since 1961, holds Aurangzeb's sword and Tipu Sultan's wardrobe; open 10 am–5 pm."
+            }
+          ],
+          "facts": [
+            "GOL1",
+            "SJM1"
+          ]
+        },
+        "travel_tips": {
+          "items": [
+            {
+              "body": "About Hyderabad: Hyderabad, the old capital of the Nizams and the 'City of Pearls', is known for the Laad Bazaar of bangles near Charminar and Hussain Sagar lake, dug in 1562."
+            },
+            {
+              "body": "About Hyderabad: Hyderabad's food runs from dum biryani to qubani ka meetha and Irani chai."
+            }
+          ],
+          "facts": [
+            "HYD1",
+            "TG2"
+          ]
+        }
+      },
+      "wikidataId": "Q1771696",
+      "parent": "telangana/hyderabad"
+    },
+    {
+      "key": "telangana/golconda-fort",
+      "kind": "attraction",
+      "name": "Golconda Fort",
+      "summary": "A hill fort dating to 1143, seat of the Qutb Shahis, with an evening light and sound show.",
+      "seoTitle": "Golconda Fort Hyderabad: History, Light Show & Hours",
+      "seoDescription": "Golconda Fort, 9 km from Hussain Sagar: dating to 1143, seat of the Qutb Shahis, with an evening light and sound show; open 9 am–5 pm.",
+      "lat": 17.38305556,
+      "lng": 78.40111111,
+      "tripTypes": [
+        "heritage",
+        "family"
+      ],
+      "images": [
+        {
+          "commons": "File:Golconda_Fort_005.jpg",
+          "alt": "Ramparts of Golconda Fort",
+          "caption": "Golconda Fort",
+          "hero": true
+        }
+      ],
+      "sections": {
+        "overview": {
+          "text": "Golconda Fort, 9 km from Hussain Sagar, dates back to 1143 and passed from the Bahmanis to the Qutb Shahis. A light and sound show runs in the evening.",
+          "facts": [
+            "GOL1"
+          ]
+        },
+        "visit_info": {
+          "items": [
+            {
+              "title": "Hours",
+              "body": "9 am to 5 pm.",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "GOL2"
+          ]
+        },
+        "highlights": {
+          "items": [
+            {
+              "body": "Also in Hyderabad — Charminar: The Charminar's four minarets rise 48.7 m; entry closes at 5 pm, and it is lit up from 7 to 9 pm."
+            },
+            {
+              "body": "Also in Hyderabad — Salar Jung Museum: The Salar Jung Museum, opened by Nehru in 1951 and an Institution of National Importance since 1961, holds Aurangzeb's sword and Tipu Sultan's wardrobe; open 10 am–5 pm."
+            }
+          ],
+          "facts": [
+            "CHM1",
+            "SJM1"
+          ]
+        },
+        "travel_tips": {
+          "items": [
+            {
+              "body": "About Hyderabad: Hyderabad, the old capital of the Nizams and the 'City of Pearls', is known for the Laad Bazaar of bangles near Charminar and Hussain Sagar lake, dug in 1562."
+            },
+            {
+              "body": "About Hyderabad: Hyderabad's food runs from dum biryani to qubani ka meetha and Irani chai."
+            }
+          ],
+          "facts": [
+            "HYD1",
+            "TG2"
+          ]
+        }
+      },
+      "wikidataId": "Q4141623",
+      "parent": "telangana/hyderabad"
+    },
+    {
+      "key": "telangana/salar-jung-museum",
+      "kind": "museum",
+      "name": "Salar Jung Museum",
+      "summary": "A national museum of Salar Jung III's collection — Aurangzeb's sword, Tipu Sultan's wardrobe and more.",
+      "seoTitle": "Salar Jung Museum Hyderabad: Collection & Hours",
+      "seoDescription": "Salar Jung Museum, Hyderabad: opened in 1951, an Institution of National Importance, with Aurangzeb's sword and Tipu Sultan's wardrobe; open 10 am–5 pm.",
+      "lat": 17.371426,
+      "lng": 78.480347,
+      "tripTypes": [
+        "heritage",
+        "family"
+      ],
+      "images": [
+        {
+          "commons": "File:Salar_Jung_Museum,_Hyderabad,_India.jpg",
+          "alt": "The Salar Jung Museum building",
+          "caption": "Salar Jung Museum",
+          "hero": true
+        }
+      ],
+      "sections": {
+        "overview": {
+          "text": "Opened by Nehru in 1951 and declared an Institution of National Importance in 1961, the museum holds Aurangzeb's sword and Tipu Sultan's wardrobe. Open 10 am to 5 pm.",
+          "facts": [
+            "SJM1"
+          ]
+        },
+        "highlights": {
+          "items": [
+            {
+              "body": "Also in Hyderabad — Charminar: The Charminar's four minarets rise 48.7 m; entry closes at 5 pm, and it is lit up from 7 to 9 pm."
+            },
+            {
+              "body": "Also in Hyderabad — Golconda Fort: Golconda Fort, 9 km from Hussain Sagar, dates back to 1143 and passed from the Bahmanis to the Qutb Shahis; a light and sound show runs in the evening."
+            }
+          ],
+          "facts": [
+            "CHM1",
+            "GOL1"
+          ]
+        },
+        "travel_tips": {
+          "items": [
+            {
+              "body": "About Hyderabad: Hyderabad, the old capital of the Nizams and the 'City of Pearls', is known for the Laad Bazaar of bangles near Charminar and Hussain Sagar lake, dug in 1562."
+            },
+            {
+              "body": "About Hyderabad: Hyderabad's food runs from dum biryani to qubani ka meetha and Irani chai."
+            }
+          ],
+          "facts": [
+            "HYD1",
+            "TG2"
+          ]
+        }
+      },
+      "wikidataId": "Q1864572",
+      "parent": "telangana/hyderabad"
+    },
+    {
+      "key": "telangana/warangal",
+      "kind": "city",
+      "name": "Warangal",
+      "summary": "The Kakatiya capital, 150 km from Hyderabad: the fort, the Thousand Pillar Temple and Ramappa nearby.",
+      "seoTitle": "Warangal Travel Guide: Kakatiya Fort, Temples & Ramappa",
+      "seoDescription": "Plan Warangal: the Kakatiya fort and Kala Thoranam, the Thousand Pillar Temple, Ramappa and Laknavaram Lake, and the Bathukamma festival.",
+      "lat": 17.9689,
+      "lng": 79.5941,
+      "tripTypes": [
+        "heritage",
+        "spiritual"
+      ],
+      "images": [
+        {
+          "commons": "File:Bhadrakali Temple, Warangal.jpg",
+          "alt": "The Bhadrakali Temple in Warangal",
+          "caption": "Bhadrakali Temple, Warangal",
+          "hero": true
+        }
+      ],
+      "sections": {
+        "overview": {
+          "text": "Warangal, about 150 km from Hyderabad, was the seat of the Kakatiyas; its Kakatiya Kala Thoranam gateway is on Telangana's emblem.",
+          "facts": [
+            "WGL1"
+          ]
+        },
+        "best_time": {
+          "text": "Bathukamma, the flower festival, falls during Navaratri.",
+          "facts": [
+            "WGL2"
+          ]
+        },
+        "highlights": {
+          "items": [
+            {
+              "body": "Thousand Pillar Temple: Built in 1163 by the Kakatiya king Rudra Deva at the foot of Hanamkonda hill, the star-shaped temple honours Shiva, Vishnu and Surya; open 5 am–9 pm."
+            },
+            {
+              "body": "Warangal Fort: Warangal Fort, of the Kakatiyas who ruled 1175–1324, has three concentric walls; a 50-minute sound and light show runs at dusk. Open 10 am–7 pm."
+            }
+          ],
+          "facts": [
+            "TPL1",
+            "WGF1"
+          ]
+        },
+        "practical_info": {
+          "items": [
+            {
+              "title": "Telangana",
+              "body": "Telangana became India's newest state on 2 June 2014; its history runs through the Satavahanas, Kakatiyas, Qutb Shahis and Asaf Jahis."
+            },
+            {
+              "title": "Food",
+              "body": "Hyderabad's food runs from dum biryani to qubani ka meetha and Irani chai."
+            },
+            {
+              "title": "Crafts",
+              "body": "Nirmal paintings and wooden toys have been made since the 14th century."
+            }
+          ],
+          "facts": [
+            "TG1",
+            "TG2",
+            "TG3"
+          ]
+        },
+        "things_to_do": {
+          "items": [
+            {
+              "body": "Elsewhere in Telangana — Hyderabad: Hyderabad, the old capital of the Nizams and the 'City of Pearls', is known for the Laad Bazaar of bangles near Charminar and Hussain Sagar lake, dug in 1562."
+            },
+            {
+              "body": "Elsewhere in Telangana — Ramappa Temple: The Ramappa (Rudreshwara) Temple at Palampet, built in 1213, about 200 km from Hyderabad, is a UNESCO World Heritage Site (2021) famed for its 'floating bricks'."
+            },
+            {
+              "body": "Elsewhere in Telangana — Laknavaram Lake: Laknavaram Lake, about 70 km from Warangal, was built by the Kakatiyas from three valleys and is ringed by forest."
+            }
+          ],
+          "facts": [
+            "HYD1",
+            "RAM1",
+            "LAK1"
+          ]
+        }
+      },
+      "wikidataId": "Q25563103",
+      "relations": [
+        {
+          "to": "telangana/ramappa-temple",
+          "type": "day_trip"
+        },
+        {
+          "to": "telangana/laknavaram-lake",
+          "type": "day_trip"
+        }
+      ]
+    },
+    {
+      "key": "telangana/ramappa-temple",
+      "kind": "temple",
+      "name": "Ramappa Temple",
+      "summary": "A Kakatiya temple of 1213 with 'floating bricks' — a UNESCO World Heritage Site since 2021.",
+      "seoTitle": "Ramappa Temple: UNESCO Kakatiya Temple Guide",
+      "seoDescription": "Ramappa (Rudreshwara) Temple at Palampet: built in 1213, 200 km from Hyderabad, famed 'floating bricks', UNESCO-listed in 2021; open 6 am–6 pm.",
+      "lat": 18.25916667,
+      "lng": 79.94333333,
+      "tripTypes": [
+        "heritage",
+        "spiritual"
+      ],
+      "images": [
+        {
+          "commons": "File:Ramappa_Temple_(Human_Scale).jpg",
+          "alt": "The Ramappa Temple with a person for scale",
+          "caption": "Ramappa Temple",
+          "hero": true
+        }
+      ],
+      "sections": {
+        "overview": {
+          "text": "The Ramappa (Rudreshwara) Temple at Palampet, about 200 km from Hyderabad, was built in 1213. Its tower uses light 'floating bricks', and it became a UNESCO World Heritage Site in 2021.",
+          "facts": [
+            "RAM1"
+          ]
+        },
+        "visit_info": {
+          "items": [
+            {
+              "title": "Hours",
+              "body": "6 am to 6 pm; Ramappa Lake is under 1 km away.",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "RAM2"
+          ]
+        },
+        "practical_info": {
+          "items": [
+            {
+              "title": "Telangana",
+              "body": "Telangana became India's newest state on 2 June 2014; its history runs through the Satavahanas, Kakatiyas, Qutb Shahis and Asaf Jahis."
+            },
+            {
+              "title": "Food",
+              "body": "Hyderabad's food runs from dum biryani to qubani ka meetha and Irani chai."
+            },
+            {
+              "title": "Crafts",
+              "body": "Nirmal paintings and wooden toys have been made since the 14th century."
+            }
+          ],
+          "facts": [
+            "TG1",
+            "TG2",
+            "TG3"
+          ]
+        },
+        "things_to_do": {
+          "items": [
+            {
+              "body": "Elsewhere in Telangana — Hyderabad: Hyderabad, the old capital of the Nizams and the 'City of Pearls', is known for the Laad Bazaar of bangles near Charminar and Hussain Sagar lake, dug in 1562."
+            },
+            {
+              "body": "Elsewhere in Telangana — Warangal: Warangal, about 150 km from Hyderabad, was the seat of the Kakatiyas; its Kakatiya Kala Thoranam gateway appears on Telangana's emblem."
+            },
+            {
+              "body": "Elsewhere in Telangana — Laknavaram Lake: Laknavaram Lake, about 70 km from Warangal, was built by the Kakatiyas from three valleys and is ringed by forest."
+            }
+          ],
+          "facts": [
+            "HYD1",
+            "WGL1",
+            "LAK1"
+          ]
+        }
+      },
+      "wikidataId": "Q3380656",
+      "relations": [
+        {
+          "to": "telangana/warangal",
+          "type": "nearby"
+        }
+      ]
+    },
+    {
+      "key": "telangana/thousand-pillar-temple",
+      "kind": "temple",
+      "name": "Thousand Pillar Temple",
+      "summary": "A star-shaped Kakatiya temple of 1163 at Hanamkonda, for Shiva, Vishnu and Surya.",
+      "seoTitle": "Thousand Pillar Temple Hanamkonda: Visit Guide",
+      "seoDescription": "Thousand Pillar Temple, Hanamkonda: built in 1163 by Rudra Deva, star-shaped, for Shiva, Vishnu and Surya; open 5 am–9 pm.",
+      "lat": 18.00372222,
+      "lng": 79.57475,
+      "tripTypes": [
+        "heritage",
+        "spiritual"
+      ],
+      "images": [
+        {
+          "commons": "File:1000pillar_temple_warangal.jpg",
+          "alt": "Pillars of the Thousand Pillar Temple, Hanamkonda",
+          "caption": "Thousand Pillar Temple",
+          "hero": true
+        }
+      ],
+      "sections": {
+        "overview": {
+          "text": "Built in 1163 by the Kakatiya king Rudra Deva at the foot of Hanamkonda hill, the star-shaped temple honours Shiva, Vishnu and Surya. Open 5 am to 9 pm.",
+          "facts": [
+            "TPL1"
+          ]
+        },
+        "highlights": {
+          "items": [
+            {
+              "body": "Also in Warangal — Warangal Fort: Warangal Fort, of the Kakatiyas who ruled 1175–1324, has three concentric walls; a 50-minute sound and light show runs at dusk. Open 10 am–7 pm."
+            }
+          ],
+          "facts": [
+            "WGF1"
+          ]
+        },
+        "travel_tips": {
+          "items": [
+            {
+              "body": "About Warangal: Warangal, about 150 km from Hyderabad, was the seat of the Kakatiyas; its Kakatiya Kala Thoranam gateway appears on Telangana's emblem."
+            },
+            {
+              "body": "About Warangal: The Bathukamma flower festival is celebrated during Navaratri."
+            }
+          ],
+          "facts": [
+            "WGL1",
+            "WGL2"
+          ]
+        },
+        "practical_info": {
+          "items": [
+            {
+              "title": "Telangana",
+              "body": "Telangana became India's newest state on 2 June 2014; its history runs through the Satavahanas, Kakatiyas, Qutb Shahis and Asaf Jahis."
+            },
+            {
+              "title": "Food",
+              "body": "Hyderabad's food runs from dum biryani to qubani ka meetha and Irani chai."
+            },
+            {
+              "title": "Crafts",
+              "body": "Nirmal paintings and wooden toys have been made since the 14th century."
+            }
+          ],
+          "facts": [
+            "TG1",
+            "TG2",
+            "TG3"
+          ]
+        }
+      },
+      "wikidataId": "Q7797068",
+      "parent": "telangana/warangal"
+    },
+    {
+      "key": "telangana/warangal-fort",
+      "kind": "attraction",
+      "name": "Warangal Fort",
+      "summary": "The Kakatiya fort with three rings of walls and the Kala Thoranam gateways.",
+      "seoTitle": "Warangal Fort: Kakatiya Kala Thoranam & Light Show",
+      "seoDescription": "Warangal Fort: the Kakatiya stronghold (1175–1324) with three concentric walls, the Kala Thoranam gateways and a 50-minute sound and light show.",
+      "lat": 17.9572,
+      "lng": 79.6142,
+      "tripTypes": [
+        "heritage"
+      ],
+      "images": [
+        {
+          "commons": "File:Kakatiya Kala Thoranam, Warangal Fort.jpg",
+          "alt": "The Kakatiya Kala Thoranam gateway at Warangal Fort",
+          "caption": "Kakatiya Kala Thoranam",
+          "hero": true
+        }
+      ],
+      "sections": {
+        "overview": {
+          "text": "Warangal Fort belonged to the Kakatiyas, who ruled from 1175 to 1324. It has three concentric walls, and a 50-minute sound and light show runs at dusk. Open 10 am to 7 pm.",
+          "facts": [
+            "WGF1"
+          ]
+        },
+        "highlights": {
+          "items": [
+            {
+              "body": "Also in Warangal — Thousand Pillar Temple: Built in 1163 by the Kakatiya king Rudra Deva at the foot of Hanamkonda hill, the star-shaped temple honours Shiva, Vishnu and Surya; open 5 am–9 pm."
+            }
+          ],
+          "facts": [
+            "TPL1"
+          ]
+        },
+        "travel_tips": {
+          "items": [
+            {
+              "body": "About Warangal: Warangal, about 150 km from Hyderabad, was the seat of the Kakatiyas; its Kakatiya Kala Thoranam gateway appears on Telangana's emblem."
+            },
+            {
+              "body": "About Warangal: The Bathukamma flower festival is celebrated during Navaratri."
+            }
+          ],
+          "facts": [
+            "WGL1",
+            "WGL2"
+          ]
+        },
+        "practical_info": {
+          "items": [
+            {
+              "title": "Telangana",
+              "body": "Telangana became India's newest state on 2 June 2014; its history runs through the Satavahanas, Kakatiyas, Qutb Shahis and Asaf Jahis."
+            },
+            {
+              "title": "Food",
+              "body": "Hyderabad's food runs from dum biryani to qubani ka meetha and Irani chai."
+            },
+            {
+              "title": "Crafts",
+              "body": "Nirmal paintings and wooden toys have been made since the 14th century."
+            }
+          ],
+          "facts": [
+            "TG1",
+            "TG2",
+            "TG3"
+          ]
+        }
+      },
+      "wikidataId": "Q7968796",
+      "parent": "telangana/warangal"
+    },
+    {
+      "key": "telangana/laknavaram-lake",
+      "kind": "lake",
+      "name": "Laknavaram Lake",
+      "summary": "A forest-ringed Kakatiya lake 70 km from Warangal, with a hanging bridge.",
+      "seoTitle": "Laknavaram Lake: Kakatiya Lake near Warangal",
+      "seoDescription": "Laknavaram Lake, about 70 km from Warangal: a Kakatiya-era lake formed from three valleys, ringed by forest, with a hanging bridge.",
+      "lat": 18.1563,
+      "lng": 80.0603,
+      "tripTypes": [
+        "nature",
+        "weekend"
+      ],
+      "images": [
+        {
+          "commons": "File:Laknavaram_Hanging_Bridge_05.jpg",
+          "alt": "The hanging bridge over Laknavaram Lake",
+          "caption": "Laknavaram Lake",
+          "hero": true
+        }
+      ],
+      "sections": {
+        "overview": {
+          "text": "Laknavaram Lake, about 70 km from Warangal, was built by the Kakatiyas from three narrow valleys and is ringed by forest.",
+          "facts": [
+            "LAK1"
+          ]
+        },
+        "practical_info": {
+          "items": [
+            {
+              "title": "Telangana",
+              "body": "Telangana became India's newest state on 2 June 2014; its history runs through the Satavahanas, Kakatiyas, Qutb Shahis and Asaf Jahis."
+            },
+            {
+              "title": "Food",
+              "body": "Hyderabad's food runs from dum biryani to qubani ka meetha and Irani chai."
+            },
+            {
+              "title": "Crafts",
+              "body": "Nirmal paintings and wooden toys have been made since the 14th century."
+            }
+          ],
+          "facts": [
+            "TG1",
+            "TG2",
+            "TG3"
+          ]
+        },
+        "things_to_do": {
+          "items": [
+            {
+              "body": "Elsewhere in Telangana — Hyderabad: Hyderabad, the old capital of the Nizams and the 'City of Pearls', is known for the Laad Bazaar of bangles near Charminar and Hussain Sagar lake, dug in 1562."
+            },
+            {
+              "body": "Elsewhere in Telangana — Warangal: Warangal, about 150 km from Hyderabad, was the seat of the Kakatiyas; its Kakatiya Kala Thoranam gateway appears on Telangana's emblem."
+            },
+            {
+              "body": "Elsewhere in Telangana — Ramappa Temple: The Ramappa (Rudreshwara) Temple at Palampet, built in 1213, about 200 km from Hyderabad, is a UNESCO World Heritage Site (2021) famed for its 'floating bricks'."
+            }
+          ],
+          "facts": [
+            "HYD1",
+            "WGL1",
+            "RAM1"
+          ]
+        }
+      },
+      "wikidataId": "Q25567504",
+      "relations": [
+        {
+          "to": "telangana/ramappa-temple",
+          "type": "nearby"
+        }
+      ]
+    }
+  ],
+  "itineraries": [
+    {
+      "place": "odisha",
+      "slug": "odisha-5-days-bhubaneswar-puri-konark-chilika",
+      "title": "Odisha in 5 days: Bhubaneswar, Puri, Konark and Chilika",
+      "durationDays": 5,
+      "tripTypes": [
+        "spiritual",
+        "heritage",
+        "beaches"
+      ],
+      "summary": "Bhubaneswar's temples and caves, Puri's Jagannath and beach, the Konark Sun Temple and a boat on Chilika.",
+      "seoTitle": "Odisha 5-Day Itinerary: Bhubaneswar, Puri & Konark",
+      "seoDescription": "Five days in Odisha: Lingaraj, Khandagiri caves and Dhauli in Bhubaneswar, Puri's Jagannath Temple and beach, Konark Sun Temple and Chilika Lake.",
+      "facts": [
+        "OD_AIR",
+        "LIN1",
+        "LIN2",
+        "KUC1",
+        "DHA1",
+        "PUR1",
+        "JAG1",
+        "KON1",
+        "KON3",
+        "CHI1",
+        "CHI3"
+      ],
+      "sources": [],
+      "plan": {
+        "overview": "Odisha's golden triangle, with a day on Chilika.",
+        "start": "Bhubaneswar airport",
+        "end": "Bhubaneswar airport",
+        "transport": "Car with driver.",
+        "season": "October to March; Rath Yatra in June or July.",
+        "days": [
+          {
+            "title": "Day 1: Bhubaneswar",
+            "summary": "Lingaraj Temple, then the Khandagiri and Udayagiri caves.",
+            "stops": [
+              {
+                "name": "Lingaraj Temple",
+                "time": "Morning",
+                "placeSlug": "odisha/lingaraj-temple",
+                "duration": "1.5 hours"
+              },
+              {
+                "name": "Khandagiri and Udayagiri Caves",
+                "time": "Afternoon",
+                "placeSlug": "odisha/khandagiri-udayagiri-caves",
+                "duration": "2 hours"
+              }
+            ],
+            "overnight": "Bhubaneswar"
+          },
+          {
+            "title": "Day 2: Dhauli to Puri",
+            "summary": "Dhauli's edicts on the way to Puri; evening on the beach.",
+            "stops": [
+              {
+                "name": "Dhauli",
+                "time": "Morning",
+                "placeSlug": "odisha/dhauli",
+                "duration": "1 hour"
+              },
+              {
+                "name": "Puri",
+                "time": "Evening",
+                "placeSlug": "odisha/puri",
+                "duration": "2 hours"
+              }
+            ],
+            "overnight": "Puri"
+          },
+          {
+            "title": "Day 3: Jagannath",
+            "summary": "The Jagannath Temple; watch the evening flag change.",
+            "stops": [
+              {
+                "name": "Jagannath Temple",
+                "time": "Morning",
+                "placeSlug": "odisha/jagannath-temple",
+                "duration": "3 hours"
+              }
+            ],
+            "overnight": "Puri"
+          },
+          {
+            "title": "Day 4: Konark",
+            "summary": "The Sun Temple (6 am–8 pm), 35 km up the coast.",
+            "stops": [
+              {
+                "name": "Konark Sun Temple",
+                "time": "Morning",
+                "placeSlug": "odisha/konark-sun-temple",
+                "duration": "3 hours"
+              }
+            ],
+            "overnight": "Puri"
+          },
+          {
+            "title": "Day 5: Chilika",
+            "summary": "A morning boat on Chilika, then back to Bhubaneswar.",
+            "stops": [
+              {
+                "name": "Chilika Lake",
+                "time": "Morning",
+                "placeSlug": "odisha/chilika-lake",
+                "duration": "3 hours"
+              }
+            ],
+            "overnight": "Bhubaneswar"
+          }
+        ],
+        "budget": {
+          "assumptions": "VacayOut lists only fees it could check with an official source; hotels, transport and meals are not estimated. Check current prices before you book.",
+          "lines": []
+        },
+        "booking": [
+          {
+            "item": "Jagannath Temple",
+            "detail": "Check the temple's current entry rules for visitors before you go."
+          }
+        ],
+        "alternatives": [
+          "Add Bhitarkanika's mangroves."
+        ],
+        "tips": [
+          "Dress modestly at temples."
+        ]
+      }
+    },
+    {
+      "place": "andhra-pradesh",
+      "slug": "tirupati-3-days-tirumala-srikalahasti",
+      "title": "Tirupati in 3 days: Tirumala and Srikalahasti",
+      "durationDays": 3,
+      "tripTypes": [
+        "spiritual"
+      ],
+      "summary": "Darshan at Tirumala, the temples of Tirupati town and Srikalahasti.",
+      "seoTitle": "Tirupati 3-Day Itinerary: Tirumala & Srikalahasti",
+      "seoDescription": "Three days around Tirupati: Tirumala's Venkateswara Temple, the Govindaraja Swamy Temple in town, and Srikalahasti's Shiva temple.",
+      "facts": [
+        "TML1",
+        "TML2",
+        "TPT1",
+        "SKH1",
+        "SKH2"
+      ],
+      "sources": [],
+      "plan": {
+        "overview": "A pilgrim's circuit from Tirupati.",
+        "start": "Tirupati",
+        "end": "Tirupati",
+        "transport": "Car or TTD buses up the hill.",
+        "season": "Year-round; Vaikunta Ekadasi is the busiest.",
+        "days": [
+          {
+            "title": "Day 1: Tirupati town",
+            "summary": "The Govindaraja Swamy Temple (1130 CE).",
+            "stops": [
+              {
+                "name": "Tirupati",
+                "time": "Afternoon",
+                "placeSlug": "andhra-pradesh/tirupati",
+                "duration": "2 hours"
+              }
+            ],
+            "overnight": "Tirupati"
+          },
+          {
+            "title": "Day 2: Tirumala",
+            "summary": "Darshan at the Venkateswara Temple; collect the laddu.",
+            "stops": [
+              {
+                "name": "Tirumala Venkateswara Temple",
+                "time": "Early morning",
+                "placeSlug": "andhra-pradesh/tirumala-venkateswara-temple",
+                "duration": "6 hours"
+              }
+            ],
+            "overnight": "Tirumala"
+          },
+          {
+            "title": "Day 3: Srikalahasti",
+            "summary": "The Srikalahasti temple (5:30 am–9:30 pm).",
+            "stops": [
+              {
+                "name": "Srikalahasti Temple",
+                "time": "Morning",
+                "placeSlug": "andhra-pradesh/srikalahasti-temple",
+                "duration": "2 hours"
+              }
+            ],
+            "overnight": "Tirupati"
+          }
+        ],
+        "budget": {
+          "assumptions": "VacayOut lists only fees it could check with an official source; hotels, transport and meals are not estimated. Check current prices before you book.",
+          "lines": []
+        },
+        "booking": [
+          {
+            "item": "Darshan",
+            "detail": "Book darshan slots and stays through TTD in advance."
+          }
+        ],
+        "alternatives": [
+          "Add Talakona waterfall."
+        ],
+        "tips": [
+          "Follow the temple dress code."
+        ]
+      }
+    },
+    {
+      "place": "andhra-pradesh",
+      "slug": "vizag-araku-4-days",
+      "title": "Vizag and Araku in 4 days",
+      "durationDays": 4,
+      "tripTypes": [
+        "nature",
+        "beaches",
+        "family"
+      ],
+      "summary": "Visakhapatnam's coast and museums, then the Borra Caves and Araku Valley.",
+      "seoTitle": "Vizag & Araku 4-Day Itinerary: Borra Caves",
+      "seoDescription": "Four days: Visakhapatnam's submarine museum and Bavikonda, the Borra Caves (88 km), and Araku Valley's coffee hills and viewpoints.",
+      "facts": [
+        "VSK1",
+        "BOR1",
+        "BOR2",
+        "ARK1",
+        "ARK2"
+      ],
+      "sources": [],
+      "plan": {
+        "overview": "Coast first, then up into the Eastern Ghats.",
+        "start": "Visakhapatnam",
+        "end": "Visakhapatnam",
+        "transport": "Car with driver.",
+        "season": "October to March.",
+        "days": [
+          {
+            "title": "Day 1: Visakhapatnam",
+            "summary": "INS Kursura submarine museum and the beach.",
+            "stops": [
+              {
+                "name": "Visakhapatnam",
+                "time": "Afternoon",
+                "placeSlug": "andhra-pradesh/visakhapatnam",
+                "duration": "3 hours"
+              }
+            ],
+            "overnight": "Visakhapatnam"
+          },
+          {
+            "title": "Day 2: Bavikonda",
+            "summary": "The Buddhist site 15 km away, then the coast.",
+            "stops": [
+              {
+                "name": "Visakhapatnam",
+                "time": "Morning",
+                "placeSlug": "andhra-pradesh/visakhapatnam",
+                "duration": "3 hours"
+              }
+            ],
+            "overnight": "Visakhapatnam"
+          },
+          {
+            "title": "Day 3: Borra and Araku",
+            "summary": "Borra Caves (10 am–5 pm), then on to Araku.",
+            "stops": [
+              {
+                "name": "Borra Caves",
+                "time": "Late morning",
+                "placeSlug": "andhra-pradesh/borra-caves",
+                "duration": "2 hours"
+              }
+            ],
+            "overnight": "Araku"
+          },
+          {
+            "title": "Day 4: Araku and back",
+            "summary": "Coffee plantations and viewpoints, then down to Vizag.",
+            "stops": [
+              {
+                "name": "Araku Valley",
+                "time": "Morning",
+                "placeSlug": "andhra-pradesh/araku-valley",
+                "duration": "4 hours"
+              }
+            ],
+            "overnight": "Visakhapatnam"
+          }
+        ],
+        "budget": {
+          "assumptions": "VacayOut lists only fees it could check with an official source; hotels, transport and meals are not estimated. Check current prices before you book.",
+          "lines": []
+        },
+        "booking": [
+          {
+            "item": "Transport",
+            "detail": "Book a car with driver for the ghat road up to Borra and Araku."
+          }
+        ],
+        "alternatives": [
+          "Add Amaravati on a longer trip."
+        ],
+        "tips": [
+          "Carry a light jacket for Araku."
+        ]
+      }
+    },
+    {
+      "place": "telangana",
+      "slug": "hyderabad-warangal-4-days",
+      "title": "Hyderabad and Warangal in 4 days",
+      "durationDays": 4,
+      "tripTypes": [
+        "heritage",
+        "food"
+      ],
+      "summary": "Charminar, Golconda and the Salar Jung Museum, then Warangal's Kakatiya fort and the Ramappa Temple.",
+      "seoTitle": "Hyderabad & Warangal 4-Day Itinerary: Ramappa",
+      "seoDescription": "Four days in Telangana: Charminar, Golconda Fort and the Salar Jung Museum in Hyderabad, then Warangal Fort, the Thousand Pillar Temple and Ramappa.",
+      "facts": [
+        "CHM1",
+        "GOL1",
+        "GOL2",
+        "SJM1",
+        "WGL1",
+        "WGF1",
+        "TPL1",
+        "RAM1",
+        "RAM2"
+      ],
+      "sources": [],
+      "plan": {
+        "overview": "Qutb Shahi Hyderabad, then the Kakatiya heartland.",
+        "start": "Hyderabad",
+        "end": "Hyderabad",
+        "transport": "Car with driver.",
+        "season": "October to March.",
+        "days": [
+          {
+            "title": "Day 1: Old Hyderabad",
+            "summary": "Charminar and the Laad Bazaar; Salar Jung Museum (10 am–5 pm).",
+            "stops": [
+              {
+                "name": "Charminar",
+                "time": "Morning",
+                "placeSlug": "telangana/charminar",
+                "duration": "2 hours"
+              },
+              {
+                "name": "Salar Jung Museum",
+                "time": "Afternoon",
+                "placeSlug": "telangana/salar-jung-museum",
+                "duration": "2.5 hours"
+              }
+            ],
+            "overnight": "Hyderabad"
+          },
+          {
+            "title": "Day 2: Golconda",
+            "summary": "Golconda Fort (9 am–5 pm) and the evening light show.",
+            "stops": [
+              {
+                "name": "Golconda Fort",
+                "time": "Afternoon",
+                "placeSlug": "telangana/golconda-fort",
+                "duration": "4 hours"
+              }
+            ],
+            "overnight": "Hyderabad"
+          },
+          {
+            "title": "Day 3: Warangal",
+            "summary": "Drive about 150 km; the fort and the Thousand Pillar Temple.",
+            "stops": [
+              {
+                "name": "Warangal Fort",
+                "time": "Afternoon",
+                "placeSlug": "telangana/warangal-fort",
+                "duration": "2 hours"
+              },
+              {
+                "name": "Thousand Pillar Temple",
+                "time": "Evening",
+                "placeSlug": "telangana/thousand-pillar-temple",
+                "duration": "1 hour"
+              }
+            ],
+            "overnight": "Warangal"
+          },
+          {
+            "title": "Day 4: Ramappa",
+            "summary": "The UNESCO-listed Ramappa Temple, then back to Hyderabad.",
+            "stops": [
+              {
+                "name": "Ramappa Temple",
+                "time": "Morning",
+                "placeSlug": "telangana/ramappa-temple",
+                "duration": "2 hours"
+              }
+            ],
+            "overnight": "Hyderabad"
+          }
+        ],
+        "budget": {
+          "assumptions": "VacayOut lists only fees it could check with an official source; hotels, transport and meals are not estimated. Check current prices before you book.",
+          "lines": []
+        },
+        "booking": [
+          {
+            "item": "Light shows",
+            "detail": "Check show times for Golconda and Warangal Fort locally."
+          }
+        ],
+        "alternatives": [
+          "Add Laknavaram Lake."
+        ],
+        "tips": [
+          "Try biryani and Irani chai in the old city."
+        ]
+      }
+    }
+  ],
+  "guides": [
+    {
+      "place": "odisha/puri",
+      "places": [
+        "odisha/puri",
+        "odisha/konark-sun-temple",
+        "odisha/bhubaneswar",
+        "odisha/chilika-lake"
+      ],
+      "slug": "puri-konark-bhubaneswar-guide",
+      "title": "Odisha's golden triangle: Puri, Konark and Bhubaneswar",
+      "summary": "How to see Odisha's three great temple towns and Chilika.",
+      "tripTypes": [
+        "spiritual",
+        "heritage"
+      ],
+      "seoTitle": "Puri, Konark & Bhubaneswar Guide: Odisha Temples",
+      "seoDescription": "Odisha's golden triangle: Puri's Jagannath and Rath Yatra, the Konark Sun Temple (UNESCO), Bhubaneswar's Lingaraj, Dhauli and Chilika Lake.",
+      "body": {
+        "intro": "Three temple towns, an hour apart — the heart of Odisha.",
+        "sections": [
+          {
+            "heading": "Puri",
+            "text": "One of the four Char Dhams; the Rath Yatra is held in June or July."
+          },
+          {
+            "heading": "Konark",
+            "text": "The 13th-century Sun Temple, 35 km from Puri, built as a chariot with 24 wheels; UNESCO-listed in 1984."
+          },
+          {
+            "heading": "Bhubaneswar",
+            "text": "The 11th-century Lingaraj Temple, 180 ft high; the Jain caves of Khandagiri; Ashoka's edicts at Dhauli, 8 km out."
+          },
+          {
+            "heading": "Chilika",
+            "text": "Asia's largest brackish-water lagoon, with Irrawaddy dolphins and winter flamingos."
+          }
+        ],
+        "checklist": [
+          "Modest dress",
+          "Early starts"
+        ]
+      },
+      "facts": [
+        "PUR1",
+        "KON1",
+        "LIN1",
+        "KUC1",
+        "DHA1",
+        "CHI1",
+        "CHI2"
+      ],
+      "sources": []
+    },
+    {
+      "place": "andhra-pradesh/tirumala-venkateswara-temple",
+      "places": [
+        "andhra-pradesh/tirumala-venkateswara-temple",
+        "andhra-pradesh/tirupati",
+        "andhra-pradesh/srikalahasti-temple"
+      ],
+      "slug": "tirumala-tirupati-guide",
+      "title": "Tirumala and Tirupati guide: darshan, laddu and nearby temples",
+      "summary": "Planning a visit to Tirumala and the temples around Tirupati.",
+      "tripTypes": [
+        "spiritual"
+      ],
+      "seoTitle": "Tirumala & Tirupati Guide: Darshan & Temples",
+      "seoDescription": "Tirumala guide: the Venkateswara Temple on the 980 m hills, around 24 million pilgrims a year, the TTD, the laddu, Vaikunta Ekadasi and Srikalahasti.",
+      "body": {
+        "intro": "Tirumala is one of the world's most visited religious sites — plan your darshan ahead.",
+        "sections": [
+          {
+            "heading": "The temple",
+            "text": "On the Tirumala Hills, about 980 m high, run by the Tirumala Tirupati Devasthanams; around 24 million devotees a year."
+          },
+          {
+            "heading": "Rituals",
+            "text": "The laddu prasadam carries a GI tag; at Vaikunta Ekadasi the 'gates of Vaikunta' open."
+          },
+          {
+            "heading": "Nearby",
+            "text": "Tirupati's Govindaraja Swamy Temple (1130 CE) and the Srikalahasti temple with its 120 m gopuram."
+          }
+        ],
+        "checklist": [
+          "Book darshan via TTD",
+          "Dress code"
+        ]
+      },
+      "facts": [
+        "TML1",
+        "TML2",
+        "AP2",
+        "TPT1",
+        "SKH1"
+      ],
+      "sources": []
+    },
+    {
+      "place": "telangana/hyderabad",
+      "places": [
+        "telangana/hyderabad",
+        "telangana/charminar",
+        "telangana/golconda-fort",
+        "telangana/salar-jung-museum"
+      ],
+      "slug": "hyderabad-heritage-guide",
+      "title": "Hyderabad heritage guide: Charminar, Golconda and the Salar Jung Museum",
+      "summary": "The essential sights of Qutb Shahi and Nizami Hyderabad.",
+      "tripTypes": [
+        "heritage",
+        "food"
+      ],
+      "seoTitle": "Hyderabad Heritage Guide: Charminar & Golconda",
+      "seoDescription": "Hyderabad heritage: Charminar's 48.7 m minarets and Laad Bazaar, Golconda Fort's light show, the Salar Jung Museum and Hussain Sagar.",
+      "body": {
+        "intro": "Hyderabad's old city packs four centuries into a few kilometres.",
+        "sections": [
+          {
+            "heading": "Charminar",
+            "text": "Four minarets 48.7 m high; entry until 5 pm, lit 7–9 pm. The Laad Bazaar of bangles is beside it."
+          },
+          {
+            "heading": "Golconda Fort",
+            "text": "Dating to 1143, seat of the Qutb Shahis; open 9 am–5 pm with an evening light show."
+          },
+          {
+            "heading": "Salar Jung Museum",
+            "text": "Aurangzeb's sword, Tipu Sultan's wardrobe and more; open 10 am–5 pm."
+          },
+          {
+            "heading": "Food",
+            "text": "Dum biryani, qubani ka meetha and Irani chai."
+          }
+        ],
+        "checklist": [
+          "Comfortable shoes",
+          "Cash for bazaars"
+        ]
+      },
+      "facts": [
+        "CHM1",
+        "HYD1",
+        "GOL1",
+        "GOL2",
+        "SJM1",
+        "TG2"
+      ],
+      "sources": []
+    },
+    {
+      "place": "telangana/warangal",
+      "places": [
+        "telangana/warangal",
+        "telangana/warangal-fort",
+        "telangana/thousand-pillar-temple",
+        "telangana/ramappa-temple",
+        "telangana/laknavaram-lake"
+      ],
+      "slug": "warangal-kakatiya-heritage-guide",
+      "title": "Warangal and the Kakatiya heritage: fort, temples and Ramappa",
+      "summary": "Seeing the Kakatiya capital and its UNESCO-listed temple.",
+      "tripTypes": [
+        "heritage"
+      ],
+      "seoTitle": "Warangal Kakatiya Heritage: Fort, Temples, Ramappa",
+      "seoDescription": "Warangal guide: the Kakatiya fort and Kala Thoranam, the 1163 Thousand Pillar Temple, Ramappa (UNESCO 2021) and Laknavaram Lake.",
+      "body": {
+        "intro": "The Kakatiyas built big — and their temples still stand.",
+        "sections": [
+          {
+            "heading": "Warangal Fort",
+            "text": "Three concentric walls; the Kakatiya Kala Thoranam is on Telangana's emblem. Sound and light show at dusk."
+          },
+          {
+            "heading": "Thousand Pillar Temple",
+            "text": "Built in 1163 at Hanamkonda for Shiva, Vishnu and Surya."
+          },
+          {
+            "heading": "Ramappa",
+            "text": "Built in 1213 with 'floating bricks'; UNESCO World Heritage Site since 2021, about 200 km from Hyderabad."
+          },
+          {
+            "heading": "Laknavaram",
+            "text": "A Kakatiya lake about 70 km from Warangal."
+          }
+        ],
+        "checklist": [
+          "Start early",
+          "Water and hat"
+        ]
+      },
+      "facts": [
+        "WGF1",
+        "WGL1",
+        "TPL1",
+        "RAM1",
+        "LAK1"
+      ],
+      "sources": []
+    }
+  ]
+}

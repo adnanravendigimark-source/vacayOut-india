@@ -10,12 +10,49 @@ const STYLE = {
   avoid: "bg-sand text-muted",
 } as const;
 
+/** **bold** → <strong>; everything else stays plain text (no HTML is ever parsed). */
+function Inline({ text }: { text: string }) {
+  const parts = text.split(/(\*\*[^*]+\*\*)/g);
+  return (
+    <>
+      {parts.map((p, i) => (p.startsWith("**") && p.endsWith("**") && p.length > 4 ? <strong key={i} className="font-semibold">{p.slice(2, -2)}</strong> : p))}
+    </>
+  );
+}
+
+/** Short paragraphs, and "- " / "1." lines as a compact list. */
 export function TextBlock({ block }: { block: BlockOf<"text"> }) {
+  const groups: { list: boolean; lines: string[] }[] = [];
+  for (const raw of block.text.split("\n")) {
+    const line = raw.trim();
+    if (!line) {
+      groups.push({ list: false, lines: [] });
+      continue;
+    }
+    const item = line.match(/^(?:[-•*]|\d+[.)])\s+(.*)$/);
+    const last = groups[groups.length - 1];
+    if (item) {
+      if (last?.list) last.lines.push(item[1]);
+      else groups.push({ list: true, lines: [item[1]] });
+    } else if (last && !last.list && last.lines.length) last.lines.push(line);
+    else groups.push({ list: false, lines: [line] });
+  }
   return (
     <div className="space-y-2 text-[0.9375rem] leading-relaxed text-ink">
-      {block.text.split(/\n{2,}/).map((p, i) => (
-        <p key={i}>{p}</p>
-      ))}
+      {groups.filter((g) => g.lines.length).map((g, i) =>
+        g.list ? (
+          <ul key={i} className="space-y-1 pl-1">
+            {g.lines.map((l, j) => (
+              <li key={j} className="flex gap-2">
+                <span aria-hidden className="mt-[0.6rem] size-1.5 shrink-0 rounded-full bg-coral" />
+                <span><Inline text={l} /></span>
+              </li>
+            ))}
+          </ul>
+        ) : (
+          <p key={i}><Inline text={g.lines.join(" ")} /></p>
+        ),
+      )}
     </div>
   );
 }
@@ -94,28 +131,32 @@ export function NoticeBlock({ block }: { block: BlockOf<"notice"> }) {
   );
 }
 
-/** Sources are rendered as plain links: our guide pages, then web pages (nofollow, new tab). */
+/** Sources: one small expandable line. Guides first, then web pages (nofollow, new tab). */
 export function SourcesBlock({ block }: { block: BlockOf<"sources"> }) {
   const safe = (u: string) => /^https?:\/\//.test(u);
+  const web = block.web.filter((w) => safe(w.url));
+  const count = block.guides.length + web.length;
+  if (!count) return null;
   return (
-    <div className="rounded-xl border border-line bg-white px-4 py-3 text-[0.8125rem]">
-      <p className="font-semibold text-ink">Sources</p>
-      <ul className="mt-1.5 space-y-1">
+    <details className="group text-[0.75rem] text-muted">
+      <summary className="inline-flex cursor-pointer list-none items-center gap-1 hover:text-ink [&::-webkit-details-marker]:hidden">
+        <Icon name="book" size={13} />
+        {count} {count === 1 ? "source" : "sources"}
+        <Icon name="chevronDown" size={12} className="transition-transform group-open:rotate-180" />
+      </summary>
+      <ul className="mt-1.5 space-y-1 pl-4">
         {block.guides.map((g) => (
-          <li key={g.href} className="flex gap-2">
-            <span className="rounded bg-forest-soft px-1.5 text-[0.6875rem] font-semibold text-forest">Guide</span>
-            <a href={g.href} className="underline underline-offset-2">VacayOut guide: {g.name}</a>
+          <li key={g.href}>
+            <a href={g.href} className="underline underline-offset-2 hover:text-ink">VacayOut guide: {g.name}</a>
           </li>
         ))}
-        {block.web.filter((w) => safe(w.url)).map((w) => (
-          <li key={w.url} className="flex flex-wrap gap-x-2">
-            <span className="rounded bg-sand px-1.5 text-[0.6875rem] font-semibold text-muted">Web</span>
-            <a href={w.url} target="_blank" rel="nofollow noopener noreferrer" className="underline underline-offset-2">{w.title}</a>
-            <span className="text-muted">{w.site} · retrieved {w.retrieved}</span>
+        {web.map((w) => (
+          <li key={w.url}>
+            <a href={w.url} target="_blank" rel="nofollow noopener noreferrer" className="underline underline-offset-2 hover:text-ink">{w.title}</a> · {w.site} · {w.retrieved}
           </li>
         ))}
       </ul>
-      {block.note ? <p className="mt-1.5 text-[0.75rem] text-muted">{block.note}</p> : null}
-    </div>
+      {block.note ? <p className="mt-1 pl-4">{block.note}</p> : null}
+    </details>
   );
 }

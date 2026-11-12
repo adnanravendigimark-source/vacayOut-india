@@ -7,7 +7,7 @@ import { getChat, latestMemory, updateAssistant, type ChatMessage } from "./stor
 /**
  * The one place the browser talks to /api/chat. Used by the full chat page
  * and the homepage planner, so both behave the same (status lines, trip
- * memory, sign-up prompt after the free chats).
+ * memory, sign-up prompt after the free questions).
  */
 
 const MAX_HISTORY = 20;

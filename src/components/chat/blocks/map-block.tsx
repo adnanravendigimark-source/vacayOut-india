@@ -1,21 +1,29 @@
 "use client";
 
+import { useState } from "react";
+import { Icon } from "@/components/icons/icon";
 import type { BlockOf } from "@/lib/chat/schema";
 import { PlaceMap } from "@/components/map/place-map";
-import { BlockTitle, Card } from "./shared";
 
+/** Folded by default: a small "View on map" button; Leaflet only renders once opened. */
 export default function MapBlock({ block }: { block: BlockOf<"map"> }) {
+  const [open, setOpen] = useState(false);
   return (
-    <Card className="p-4">
-      <BlockTitle icon="map">{block.title}</BlockTitle>
-      <div className="mt-3">
-        <PlaceMap points={block.points} label={`Map: ${block.title}`} height={260} />
-      </div>
-      <ul className="mt-2 flex flex-wrap gap-x-3 gap-y-1 text-[0.75rem] text-muted">
-        {block.points.map((p) => (
-          <li key={p.name}>{p.href ? <a href={p.href} className="underline underline-offset-2">{p.name}</a> : p.name}</li>
-        ))}
-      </ul>
-    </Card>
+    <div>
+      <button
+        type="button"
+        aria-expanded={open}
+        onClick={() => setOpen((o) => !o)}
+        className="inline-flex items-center gap-1.5 rounded-full border border-line bg-white px-3 py-1 text-[0.75rem] font-medium text-ink hover:border-forest"
+      >
+        <Icon name="map" size={14} className="text-forest" />
+        {open ? "Hide map" : `View on map (${block.points.length})`}
+      </button>
+      {open ? (
+        <div className="mt-2 overflow-hidden rounded-xl border border-line">
+          <PlaceMap points={block.points} label={`Map: ${block.title}`} height={220} />
+        </div>
+      ) : null}
+    </div>
   );
 }

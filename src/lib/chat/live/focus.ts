@@ -21,10 +21,11 @@ const SECTIONS: Record<Intent, string[]> = {
   general: ["overview", "key_facts", "faqs", "practical_info", "travel_tips", "safety_health"],
   plan_trip: ["overview", "itinerary", "things_to_do", "highlights", "how_to_reach", "best_time", "where_to_stay", "local_transport", "travel_tips"],
   itinerary: ["itinerary", "things_to_do", "highlights", "how_to_reach", "best_time", "where_to_stay", "local_transport", "travel_tips"],
+  discover: ["best_time", "highlights", "overview"],
   modify_plan: ["itinerary", "things_to_do", "highlights", "where_to_stay", "local_transport", "budget", "travel_tips"],
 };
 
-export const excerptBudget = (intent: Intent) => (isPlanIntent(intent) ? 6000 : 2500);
+export const excerptBudget = (intent: Intent) => (isPlanIntent(intent) ? 5000 : 2000);
 
 function sectionText(s: PublishedSnapshot["sections"][number]): string {
   const parts: string[] = [];

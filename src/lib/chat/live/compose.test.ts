@@ -14,7 +14,7 @@ const ctx: ComposeContext = {
   web: [{ ref: "W1", claim: "A Volvo bus from Delhi to Manali costs ₹1,500 to ₹2,200.", claimType: "price" }],
   turns: [{ role: "user", content: "Plan 3 days in Manali for 2 people" }],
   memory: null,
-  cls: { scope: "india_travel", destinations: ["Manali"], intent: "plan_trip", days: 3, travellers: "2 people", budget: null, month: null, interests: [], needsLiveInfo: false, standalone: "Plan 3 days in Manali" },
+  cls: { scope: "india_travel", destinations: ["Manali"], origin: null, intent: "plan_trip", days: 3, travellers: "2 people", budget: null, month: null, interests: [], needsLiveInfo: false, standalone: "Plan 3 days in Manali" },
 };
 
 test("cards must cite real refs; numbers must come from what they cite or the traveller", () => {

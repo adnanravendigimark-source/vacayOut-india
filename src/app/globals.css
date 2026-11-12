@@ -235,7 +235,7 @@
   --color-accent-foreground: var(--accent-foreground);
   --color-accent: var(--accent);
   --color-muted-foreground: var(--muted-foreground);
-  --color-muted: var(--muted);
+  /* No --color-muted here: it is the app's grey text colour (#777, set in @theme above). shadcn's near-white "muted" surface overrode it and made every text-muted label invisible. */
   --color-secondary-foreground: var(--secondary-foreground);
   --color-secondary: var(--secondary);
   --color-primary-foreground: var(--primary-foreground);

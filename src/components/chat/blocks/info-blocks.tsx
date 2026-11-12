@@ -108,10 +108,21 @@ export function BookingsBlock({ block }: { block: BlockOf<"bookings"> }) {
   );
 }
 
+/** Light inline tips, not a big card. */
 export function TipsBlock({ block }: { block: BlockOf<"tips"> }) {
   return (
-    <InfoCard icon="bulb" title="Travel Tips">
-      <Bullets items={block.items} />
-    </InfoCard>
+    <div className="rounded-xl bg-sand/70 px-3.5 py-2.5 text-[0.8125rem] leading-relaxed text-ink/85">
+      <p className="flex items-center gap-1.5 text-[0.75rem] font-semibold text-ink">
+        <Icon name="bulb" size={14} className="text-forest" /> Good to know
+      </p>
+      <ul className="mt-1 space-y-0.5">
+        {block.items.map((t) => (
+          <li key={t} className="flex gap-2">
+            <span aria-hidden className="mt-[0.55rem] size-1 shrink-0 rounded-full bg-ink/50" />
+            {t}
+          </li>
+        ))}
+      </ul>
+    </div>
   );
 }

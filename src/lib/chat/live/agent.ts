@@ -7,12 +7,15 @@ import { isPlanIntent } from "./focus";
 import { compose, type GuideDoc, type WebFactRef } from "./compose";
 import { cacheKeyFor, lookupCache, researchFresh, touchCache, type ResearchResult } from "./research";
 import { findGuides } from "./retrieve";
+import { discover } from "./discover";
+import { discoveryCandidates, matchGuides, stateCandidates, type GuideMatch } from "./candidates";
+import { fastAnswer, needsWeb, priorityCostFactor, toBlocks } from "./fast";
 import { mapPoints } from "@/lib/map";
 import { bookingsBlock } from "@/lib/booking/links";
 import { GUIDE_HREF_RE } from "@/lib/chat/constants";
 
-/** Day-by-day plans need the stronger model; short answers and routing use the cheapest tier. */
-export const chatModel = () => process.env.OPENAI_CHAT_MODEL || "gpt-5.4-mini";
+/** Every answer uses the cheap no-reasoning "luna" tier by default; override per step with env vars. */
+export const chatModel = () => process.env.OPENAI_CHAT_MODEL || "gpt-6-luna";
 export const quickChatModel = () => process.env.OPENAI_CHAT_QUICK_MODEL || "gpt-6-luna";
 export const routeModel = () => process.env.OPENAI_ROUTE_MODEL || "gpt-6-luna";
 export const composeModelFor = (intent: Intent) => (isPlanIntent(intent) ? chatModel() : quickChatModel());
@@ -30,8 +33,10 @@ const COVERAGE: Partial<Record<Intent, string[]>> = {
   stay: ["where_to_stay", "neighbourhoods"],
 };
 
-const MAP_INTENTS: Intent[] = ["plan_trip", "itinerary", "things_to_do", "modify_plan", "general"];
-const BOOK_INTENTS: Intent[] = ["plan_trip", "itinerary", "stay", "how_to_reach", "budget", "modify_plan"];
+/** Maps and booking links only where they help: a trip plan. */
+const MAP_INTENTS: Intent[] = ["plan_trip", "itinerary", "modify_plan"];
+const BOOK_INTENTS: Intent[] = ["plan_trip", "itinerary", "modify_plan"];
+const BROAD_RE = /^(india|bharat|north|south|east|west|central|north[- ]?east|northeast)(ern)?( india)?$/i;
 
 export type Emit = (e: { type: "status"; text: string } | { type: "block"; block: Block }) => void;
 
@@ -40,6 +45,9 @@ export type AnswerMeta = { outcome: string; destination: string | null; usedGuid
 export type AgentDeps = {
   call?: CallModel;
   findGuides?: typeof findGuides;
+  discoveryCandidates?: typeof discoveryCandidates;
+  stateCandidates?: typeof stateCandidates;
+  matchGuides?: typeof matchGuides;
   lookupCache?: typeof lookupCache;
   researchFresh?: typeof researchFresh;
   /** Consumes the visitor's research allowance; false when used up or the budget is low. */
@@ -58,11 +66,92 @@ const DECLINE: Record<string, string> = {
   greeting: "Hi! Tell me where in India you’d like to go, how many days you have, and who’s travelling — I’ll plan it with you. You can keep asking to change anything.",
 };
 
-export async function answer(
-  input: { turns: ChatTurn[]; memory: TripMemory | null },
-  emit: Emit,
-  deps: AgentDeps,
-): Promise<{ summary: string; memory: TripMemory | null; meta: AnswerMeta }> {
+type AnswerFn = (input: { turns: ChatTurn[]; memory: TripMemory | null }, emit: Emit, deps: AgentDeps) => Promise<{ summary: string; memory: TripMemory | null; meta: AnswerMeta }>;
+
+/**
+ * Default: the model answers from its own knowledge (plus web search for live
+ * questions) and we add our guide links. CHAT_MODE=guides switches back to the
+ * strict guides-only engine below.
+ */
+export const answer: AnswerFn = (input, emit, deps) => (process.env.CHAT_MODE === "guides" ? guidedAnswer(input, emit, deps) : quickAnswer(input, emit, deps));
+
+const SUGGEST = ["Best treks in December", "Plan 3 days in Udaipur", "Weekend trips from Delhi"];
+
+export const quickAnswer: AnswerFn = async (input, emit, deps) => {
+  let spent = 0;
+  const base = deps.call ?? createResponse;
+  const call: CallModel = async (body) => {
+    const r = await base(body);
+    const priority = (r as { service_tier?: string }).service_tier === "fast" || body.service_tier === "priority";
+    const c = Math.round(costMicroUsd(String(body.model), r.usage, r.output.filter((i) => i.type === "web_search_call").length) * (priority ? priorityCostFactor() : 1));
+    spent += c;
+    deps.onCost?.(c);
+    return r;
+  };
+  const now = deps.now?.() ?? new Date();
+  const meta: AnswerMeta = { outcome: "answered", destination: null, usedGuides: false, researched: false, cacheHit: false, costMicroUsd: 0 };
+  const done = (summary: string, memory: TripMemory | null) => ({ summary, memory, meta: { ...meta, costMicroUsd: spent } });
+
+  const latest = input.turns[input.turns.length - 1]?.content ?? "";
+  if (quickGreeting(latest)) {
+    meta.outcome = "greeting";
+    emit({ type: "block", block: { type: "text", text: input.memory?.destination ? `Happy to help! Ask me anything else about ${input.memory.destination}.` : DECLINE.greeting } });
+    emit({ type: "block", block: { type: "suggestions", items: SUGGEST } });
+    return done("Greeted the traveller.", input.memory);
+  }
+
+  // Live questions (prices, timings, this year's dates) get a web search, within the visitor's daily allowance.
+  const web = needsWeb(latest) && (await deps.allowResearch());
+  emit({ type: "status", text: web ? "Checking the latest on the web…" : "Thinking…" });
+  const a = await fastAnswer({ turns: input.turns, memory: input.memory, web, now }, { call, model: quickChatModel() });
+  meta.researched = web;
+
+  if (a.scope !== "india_travel") {
+    meta.outcome = a.scope === "greeting" ? "greeting" : "out_of_scope";
+    emit({ type: "block", block: { type: "text", text: DECLINE[a.scope] } });
+    emit({ type: "block", block: { type: "suggestions", items: SUGGEST } });
+    return done(a.scope === "greeting" ? "Greeted the traveller." : "Declined a request outside India travel.", input.memory);
+  }
+  if (!a.reply && !a.places.length && !a.itinerary && !a.compare) {
+    meta.outcome = "nothing_grounded";
+    emit({ type: "block", block: { type: "text", text: "I couldn’t answer that one. Try asking it another way." } });
+    return done("No answer.", input.memory);
+  }
+
+  // Show the reply at once; cards follow after the guide lookup.
+  if (a.reply) emit({ type: "block", block: { type: "text", text: a.reply } });
+
+  // Our own guide links and photos for the places mentioned (best effort: a DB hiccup never loses the answer).
+  const names = [...a.places.map((p) => p.name), ...a.alternatives.map((p) => p.name), ...(a.memory.destination ? [a.memory.destination] : [])];
+  const guides = await (deps.matchGuides ?? matchGuides)(names).catch(() => new Map<string, GuideMatch>());
+  meta.usedGuides = guides.size > 0;
+  meta.destination = a.memory.destination;
+
+  // A single-destination answer (no list) links to our guide with a small card.
+  const dest = a.memory.destination ? guides.get(a.memory.destination.toLowerCase()) : undefined;
+  if (dest && !a.places.length && !a.compare) {
+    emit({ type: "block", block: { type: "destination", name: dest.name, stateName: "India", tagline: `VacayOut guide to ${dest.name}`.slice(0, 200), ...(dest.photo ? { photo: dest.photo } : {}), href: dest.href } as Block });
+  }
+  for (const b of toBlocks({ ...a, reply: "" }, guides, { showMap: Boolean(a.itinerary) })) emit({ type: "block", block: b });
+  if (a.itinerary) {
+    const bk = bookingsBlock({ name: a.memory.destination ?? a.places[0]?.name ?? "India", kind: "town", stateName: null });
+    if (bk) emit({ type: "block", block: bk });
+  }
+  if (a.followUps.length) emit({ type: "block", block: { type: "suggestions", items: a.followUps } });
+
+  const memory: TripMemory = {
+    destination: a.memory.destination ?? input.memory?.destination ?? null,
+    days: a.memory.days ?? input.memory?.days ?? null,
+    travellers: a.memory.travellers ?? input.memory?.travellers ?? null,
+    budget: a.memory.budget ?? input.memory?.budget ?? null,
+    month: a.memory.month ?? input.memory?.month ?? null,
+    interests: a.memory.interests.length ? a.memory.interests : (input.memory?.interests ?? []),
+    plan: a.itinerary ? a.itinerary.days.map((d) => d.title.slice(0, 120)).slice(0, 10) : (input.memory?.plan ?? []),
+  };
+  return done(a.summary || "Answered a travel question.", memory);
+};
+
+export const guidedAnswer: AnswerFn = async (input, emit, deps) => {
   let spent = 0;
   const base = deps.call ?? createResponse;
   const call: CallModel = async (body) => {
@@ -95,13 +184,39 @@ export async function answer(
     return done(cls.scope === "greeting" ? "Greeted the traveller." : "Declined a request outside India travel.", input.memory);
   }
 
-  const destinations = cls.destinations.length ? cls.destinations : input.memory?.destination ? [input.memory.destination] : [];
-  const primary = destinations[0] ?? null;
-  meta.destination = primary;
-  if (!primary) {
-    emit({ type: "block", block: { type: "text", text: "Which place in India are you thinking of? Tell me a city, state or region and I’ll take it from there." } });
-    return done("Asked which destination the traveller means.", input.memory);
+  // "India" or "South India" is not a destination: the router sometimes returns it anyway.
+  const origin = cls.origin?.trim().toLowerCase() ?? null;
+  const named = cls.destinations.filter((d) => !BROAD_RE.test(d.trim()) && d.trim().toLowerCase() !== origin);
+  if (cls.intent === "discover" || (!named.length && !input.memory?.destination)) {
+    emit({ type: "status", text: "Finding places that fit…" });
+    // "Best places in Kerala" stays inside Kerala; anything broader looks across India.
+    const inState = named.length ? await (deps.stateCandidates ?? stateCandidates)(named[0]) : [];
+    const scope = inState.length >= 3 ? named[0] : null;
+    const cands = scope ? inState : await (deps.discoveryCandidates ?? discoveryCandidates)();
+    const picked = cands.length ? await discover({ cands, cls, turns: input.turns, scope }, { call, model: quickChatModel() }) : null;
+    meta.usedGuides = Boolean(picked?.blocks.length);
+    if (!picked?.blocks.length) {
+      meta.outcome = "nothing_grounded";
+      emit({ type: "block", block: { type: "text", text: "Tell me a bit more — which month, how many days, or what kind of trip (hills, beaches, wildlife, temples)?" } });
+      return done("Asked for more detail to suggest places.", input.memory);
+    }
+    for (const b of picked.blocks) emit({ type: "block", block: b });
+    if (picked.followUps.length) emit({ type: "block", block: { type: "suggestions", items: picked.followUps } });
+    const memory: TripMemory = {
+      destination: input.memory?.destination ?? null,
+      days: cls.days ?? input.memory?.days ?? null,
+      travellers: cls.travellers ?? input.memory?.travellers ?? null,
+      budget: cls.budget ?? input.memory?.budget ?? null,
+      month: cls.month ?? input.memory?.month ?? null,
+      interests: cls.interests.slice(0, 6),
+      plan: input.memory?.plan ?? [],
+    };
+    return done(picked.summary || "Suggested places across India.", memory);
   }
+
+  const destinations = named.length ? named : [input.memory!.destination!];
+  const primary = destinations[0];
+  meta.destination = primary;
 
   // Guides and (cached or live) research run side by side.
   emit({ type: "status", text: "Checking VacayOut’s guides…" });
@@ -229,4 +344,4 @@ export async function answer(
     plan: out.memory?.plan ?? input.memory?.plan ?? [],
   };
   return done(out.summary || `Answered about ${primary}.`, memory);
-}
+};

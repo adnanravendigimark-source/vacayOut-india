@@ -258,7 +258,7 @@ export function ChatView({
               <Composer onSend={send} onStop={() => controller.current?.abort()} busy={busy} autoFocus={!initialPrompt} />
               <FreeMessagesHint />
               <p className="mt-2 text-center text-[0.6875rem] text-muted">
-                Answers come from VacayOut’s guides and live web research, with sources. Check prices and timings before you book.
+                VacayOut AI can make mistakes. Check prices, timings and permits before you book.
               </p>
             </div>
           </div>
