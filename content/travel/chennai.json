@@ -103,6 +103,26 @@
       "url": "https://en.wikipedia.org/wiki/112_(emergency_telephone_number)",
       "title": "112 (emergency telephone number) — Wikipedia",
       "authority": "reference"
+    },
+    "SG_II_PYT": {
+      "url": "https://www.incredibleindia.gov.in/en/puducherry/puducherry",
+      "title": "Puducherry town — Incredible India (Ministry of Tourism, Government of India)",
+      "authority": "government"
+    },
+    "SG_II_FWM": {
+      "url": "https://www.incredibleindia.gov.in/en/puducherry/puducherry/french-war-memorial",
+      "title": "French War Memorial — Incredible India (Ministry of Tourism, Government of India)",
+      "authority": "government"
+    },
+    "SG_II_PYM": {
+      "url": "https://www.incredibleindia.gov.in/en/puducherry/puducherry/puducherry-museum",
+      "title": "Puducherry Museum — Incredible India (Ministry of Tourism, Government of India)",
+      "authority": "government"
+    },
+    "SG_II_CHB": {
+      "url": "https://www.incredibleindia.gov.in/en/puducherry/puducherry/chunnambar-boat-house",
+      "title": "Chunnambar Boat House — Incredible India (Ministry of Tourism, Government of India)",
+      "authority": "government"
     }
   },
   "facts": {
@@ -790,6 +810,102 @@
           "quote": "To visit the Matrimandir Viewing Point and the Inner Chamber please go to this page."
         }
       ]
+    },
+    "SG_PY3": {
+      "place": "puducherry",
+      "topic": "Beaches",
+      "claim": "Promenade Beach has a long seafront walk; Paradise Beach is the other well-known beach.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "SG_II_PYT",
+          "quote": "Promenade Beach, with its long waterfront promenade, and Paradise Beach are some of the more noticeable ones."
+        }
+      ]
+    },
+    "SG_FWM1": {
+      "place": "puducherry",
+      "topic": "French War Memorial",
+      "claim": "The French War Memorial on the seafront was inaugurated on 3 April 1938 and rebuilt in 1970; it honours French Indian soldiers of the World Wars.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "SG_II_FWM",
+          "quote": "Governor Crocicchia inaugurated this memorial on April 3, 1938"
+        },
+        {
+          "source": "SG_II_FWM",
+          "quote": "Reconstructed in 1970"
+        },
+        {
+          "source": "SG_II_FWM",
+          "quote": "A bronze plaque lists the names of those who gave their lives during World War I"
+        }
+      ]
+    },
+    "SG_PY1": {
+      "place": "puducherry",
+      "topic": "Pondicherry",
+      "claim": "Pondicherry, on the south-east coast about 170 km from Chennai, was the capital of French India; Karaikal, Mahe and Yanam joined it as a Union Territory.",
+      "claimType": "distance",
+      "evidence": [
+        {
+          "source": "SG_II_PYT",
+          "quote": "The city sits on the southeastern coast of India, about 170 kms from Chennai."
+        },
+        {
+          "source": "SG_II_PYT",
+          "quote": "Puducherry, formerly known as Pondicherry, gained its significance as"
+        },
+        {
+          "source": "SG_II_PYT",
+          "quote": "Pondicherry, along with Karaikal, Mahe and Yanam, was constituted as a Union Territory in the Indian Union."
+        }
+      ]
+    },
+    "SG_PY2": {
+      "place": "puducherry",
+      "topic": "Sri Aurobindo Ashram",
+      "claim": "Sri Aurobindo Ashram was founded in 1926 by Sri Aurobindo and the Mother.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "SG_II_PYT",
+          "quote": "Sri Aurobindo Ashram, a spiritual community founded in 1926 by Sri Aurobindo and the Mother"
+        }
+      ]
+    },
+    "SG_PYM1": {
+      "place": "puducherry",
+      "topic": "Pondicherry Museum",
+      "claim": "The museum has one of the largest collections of Chola bronzes, Roman-era trade finds and French furniture.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "SG_II_PYM",
+          "quote": "one of the largest collection of Chola bronze sculptures"
+        },
+        {
+          "source": "SG_II_PYM",
+          "quote": "These illustrate the significance of Pondicherry as a port of trade between the first and second centuries AD."
+        }
+      ]
+    },
+    "SG_PAR1": {
+      "place": "puducherry",
+      "topic": "Paradise Beach",
+      "claim": "Paradise Beach is reached by a short boat ride from Chunnambar Boat House, which offers paddle and motor boats.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "SG_II_CHB",
+          "quote": "the pristine Paradise Beach that can be reached via a short and scenic boat ride"
+        },
+        {
+          "source": "SG_II_CHB",
+          "quote": "Boating is the most popular choice, with options ranging from paddle boats to motor boats"
+        }
+      ]
     }
   },
   "places": [
@@ -1254,6 +1370,50 @@
           ],
           "facts": [
             "AU3"
+          ]
+        },
+        "how_to_reach": {
+          "text": "Pondicherry town is about 170 km from Chennai by road.",
+          "facts": [
+            "SG_PY1"
+          ]
+        },
+        "things_to_do": {
+          "items": [
+            {
+              "body": "Walk the Promenade and see the French War Memorial."
+            },
+            {
+              "body": "Visit the Sri Aurobindo Ashram."
+            },
+            {
+              "body": "See the Chola bronzes at the Pondicherry Museum."
+            },
+            {
+              "body": "Take a boat to Paradise Beach."
+            }
+          ],
+          "facts": [
+            "SG_PY3",
+            "SG_FWM1",
+            "SG_PY2",
+            "SG_PYM1",
+            "SG_PAR1"
+          ]
+        },
+        "regions": {
+          "items": [
+            {
+              "title": "Pondicherry",
+              "body": "The main town and former capital of French India."
+            },
+            {
+              "title": "Karaikal, Mahe and Yanam",
+              "body": "The UT's other three districts, separate enclaves along the coast."
+            }
+          ],
+          "facts": [
+            "SG_PY1"
           ]
         }
       },

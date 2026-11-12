@@ -1,0 +1,5249 @@
+{
+  "cluster": "state-gaps",
+  "title": "Maharashtra, West Bengal, Punjab, Bihar and Puducherry — filling the gaps",
+  "researchedAt": "2026-11-12",
+  "selection": "VacayOut's guides for Maharashtra, West Bengal, Punjab, Bihar and Puducherry covered only a few places (no Kolkata, Ajanta, Ellora or Pune; no Pondicherry town page). This pack adds the main cities and sights of each, with itineraries, researched from Incredible India (Ministry of Tourism) and UNESCO.",
+  "sources": {
+    "II_MH": {
+      "url": "https://www.incredibleindia.gov.in/en/maharashtra",
+      "title": "Maharashtra — Incredible India (Ministry of Tourism, Government of India)",
+      "authority": "government"
+    },
+    "II_SN": {
+      "url": "https://www.incredibleindia.gov.in/en/maharashtra/chhatrapati-sambhaji-nagar",
+      "title": "Chhatrapati Sambhaji Nagar — Incredible India (Ministry of Tourism, Government of India)",
+      "authority": "government"
+    },
+    "II_ELL": {
+      "url": "https://www.incredibleindia.gov.in/en/maharashtra/chhatrapati-sambhaji-nagar/ellora-caves",
+      "title": "Ellora Caves — Incredible India (Ministry of Tourism, Government of India)",
+      "authority": "government"
+    },
+    "II_DEO": {
+      "url": "https://www.incredibleindia.gov.in/en/maharashtra/chhatrapati-sambhaji-nagar/deogiri-fort",
+      "title": "Deogiri (Daulatabad) Fort — Incredible India (Ministry of Tourism, Government of India)",
+      "authority": "government"
+    },
+    "II_GRI": {
+      "url": "https://www.incredibleindia.gov.in/en/maharashtra/chhatrapati-sambhaji-nagar/grishneshwar-temple",
+      "title": "Grishneshwar Temple — Incredible India (Ministry of Tourism, Government of India)",
+      "authority": "government"
+    },
+    "U_AJ": {
+      "url": "https://whc.unesco.org/en/list/242",
+      "title": "Ajanta Caves — UNESCO World Heritage Centre",
+      "authority": "reference"
+    },
+    "II_PUN": {
+      "url": "https://www.incredibleindia.gov.in/en/maharashtra/pune",
+      "title": "Pune — Incredible India (Ministry of Tourism, Government of India)",
+      "authority": "government"
+    },
+    "II_SHW": {
+      "url": "https://www.incredibleindia.gov.in/en/maharashtra/pune/shaniwar-wada",
+      "title": "Shaniwar Wada — Incredible India (Ministry of Tourism, Government of India)",
+      "authority": "government"
+    },
+    "II_AGA": {
+      "url": "https://www.incredibleindia.gov.in/en/maharashtra/pune/aga-khan-palace",
+      "title": "Aga Khan Palace — Incredible India (Ministry of Tourism, Government of India)",
+      "authority": "government"
+    },
+    "II_MAB": {
+      "url": "https://www.incredibleindia.gov.in/en/maharashtra/mahabaleshwar",
+      "title": "Mahabaleshwar — Incredible India (Ministry of Tourism, Government of India)",
+      "authority": "government"
+    },
+    "II_PRA": {
+      "url": "https://www.incredibleindia.gov.in/en/maharashtra/mahabaleshwar/pratapgarh-fort",
+      "title": "Pratapgad Fort — Incredible India (Ministry of Tourism, Government of India)",
+      "authority": "government"
+    },
+    "II_NSK": {
+      "url": "https://www.incredibleindia.gov.in/en/maharashtra/nashik",
+      "title": "Nashik — Incredible India (Ministry of Tourism, Government of India)",
+      "authority": "government"
+    },
+    "II_PAN": {
+      "url": "https://www.incredibleindia.gov.in/en/maharashtra/nashik/panchvati",
+      "title": "Panchvati — Incredible India (Ministry of Tourism, Government of India)",
+      "authority": "government"
+    },
+    "II_KLP": {
+      "url": "https://www.incredibleindia.gov.in/en/maharashtra/kolhapur",
+      "title": "Kolhapur — Incredible India (Ministry of Tourism, Government of India)",
+      "authority": "government"
+    },
+    "II_MLX": {
+      "url": "https://www.incredibleindia.gov.in/en/maharashtra/kolhapur/mahalaxmi-temple",
+      "title": "Mahalaxmi Temple, Kolhapur — Incredible India (Ministry of Tourism, Government of India)",
+      "authority": "government"
+    },
+    "II_WB": {
+      "url": "https://www.incredibleindia.gov.in/en/west-bengal",
+      "title": "West Bengal — Incredible India (Ministry of Tourism, Government of India)",
+      "authority": "government"
+    },
+    "II_KOL": {
+      "url": "https://www.incredibleindia.gov.in/en/west-bengal/kolkata",
+      "title": "Kolkata — Incredible India (Ministry of Tourism, Government of India)",
+      "authority": "government"
+    },
+    "II_VIC": {
+      "url": "https://www.incredibleindia.gov.in/en/west-bengal/kolkata/victoria-memorial",
+      "title": "Victoria Memorial — Incredible India (Ministry of Tourism, Government of India)",
+      "authority": "government"
+    },
+    "II_HOW": {
+      "url": "https://www.incredibleindia.gov.in/en/west-bengal/kolkata/howrah-bridge",
+      "title": "Howrah Bridge — Incredible India (Ministry of Tourism, Government of India)",
+      "authority": "government"
+    },
+    "II_DAK": {
+      "url": "https://www.incredibleindia.gov.in/en/west-bengal/kolkata/dakshineswar-kali-temple",
+      "title": "Dakshineswar Kali Temple — Incredible India (Ministry of Tourism, Government of India)",
+      "authority": "government"
+    },
+    "II_BEL": {
+      "url": "https://www.incredibleindia.gov.in/en/west-bengal/kolkata/belur-math",
+      "title": "Belur Math — Incredible India (Ministry of Tourism, Government of India)",
+      "authority": "government"
+    },
+    "II_IM": {
+      "url": "https://www.incredibleindia.gov.in/en/west-bengal/kolkata/indian-museum",
+      "title": "Indian Museum — Incredible India (Ministry of Tourism, Government of India)",
+      "authority": "government"
+    },
+    "II_KGT": {
+      "url": "https://www.incredibleindia.gov.in/en/west-bengal/kolkata/kalighat-temple",
+      "title": "Kalighat Temple — Incredible India (Ministry of Tourism, Government of India)",
+      "authority": "government"
+    },
+    "II_CS": {
+      "url": "https://www.incredibleindia.gov.in/en/west-bengal/kolkata/college-street",
+      "title": "College Street — Incredible India (Ministry of Tourism, Government of India)",
+      "authority": "government"
+    },
+    "II_KLM": {
+      "url": "https://www.incredibleindia.gov.in/en/west-bengal/kalimpong",
+      "title": "Kalimpong — Incredible India (Ministry of Tourism, Government of India)",
+      "authority": "government"
+    },
+    "II_DEOL": {
+      "url": "https://www.incredibleindia.gov.in/en/west-bengal/kalimpong/deolo-hills",
+      "title": "Deolo Hills — Incredible India (Ministry of Tourism, Government of India)",
+      "authority": "government"
+    },
+    "U_SUN": {
+      "url": "https://whc.unesco.org/en/list/452",
+      "title": "Sundarbans National Park — UNESCO World Heritage Centre",
+      "authority": "reference"
+    },
+    "U_SAN": {
+      "url": "https://whc.unesco.org/en/list/1375",
+      "title": "Santiniketan — UNESCO World Heritage Centre",
+      "authority": "reference"
+    },
+    "II_PB": {
+      "url": "https://www.incredibleindia.gov.in/en/punjab",
+      "title": "Punjab — Incredible India (Ministry of Tourism, Government of India)",
+      "authority": "government"
+    },
+    "II_PAT": {
+      "url": "https://www.incredibleindia.gov.in/en/punjab/patiala",
+      "title": "Patiala — Incredible India (Ministry of Tourism, Government of India)",
+      "authority": "government"
+    },
+    "II_SHM": {
+      "url": "https://www.incredibleindia.gov.in/en/punjab/patiala/sheesh-mahal",
+      "title": "Sheesh Mahal, Patiala — Incredible India (Ministry of Tourism, Government of India)",
+      "authority": "government"
+    },
+    "II_KPT": {
+      "url": "https://www.incredibleindia.gov.in/en/punjab/kapurthala",
+      "title": "Kapurthala — Incredible India (Ministry of Tourism, Government of India)",
+      "authority": "government"
+    },
+    "II_FGS": {
+      "url": "https://www.incredibleindia.gov.in/en/punjab/fatehgarh-sahib",
+      "title": "Fatehgarh Sahib — Incredible India (Ministry of Tourism, Government of India)",
+      "authority": "government"
+    },
+    "II_BR": {
+      "url": "https://www.incredibleindia.gov.in/en/bihar",
+      "title": "Bihar — Incredible India (Ministry of Tourism, Government of India)",
+      "authority": "government"
+    },
+    "II_PTN": {
+      "url": "https://www.incredibleindia.gov.in/en/bihar/patna",
+      "title": "Patna — Incredible India (Ministry of Tourism, Government of India)",
+      "authority": "government"
+    },
+    "II_TPS": {
+      "url": "https://www.incredibleindia.gov.in/en/bihar/patna/takht-sri-harmandir-sahib-or-patna-sahib",
+      "title": "Takht Sri Patna Sahib — Incredible India (Ministry of Tourism, Government of India)",
+      "authority": "government"
+    },
+    "II_BMU": {
+      "url": "https://www.incredibleindia.gov.in/en/bihar/patna/bihar-museum",
+      "title": "Bihar Museum — Incredible India (Ministry of Tourism, Government of India)",
+      "authority": "government"
+    },
+    "II_GOL": {
+      "url": "https://www.incredibleindia.gov.in/en/bihar/patna/gol-ghar",
+      "title": "Gol Ghar — Incredible India (Ministry of Tourism, Government of India)",
+      "authority": "government"
+    },
+    "II_KES": {
+      "url": "https://www.incredibleindia.gov.in/en/bihar/patna/kesaria-stupa",
+      "title": "Kesaria Stupa — Incredible India (Ministry of Tourism, Government of India)",
+      "authority": "government"
+    },
+    "II_PYT": {
+      "url": "https://www.incredibleindia.gov.in/en/puducherry/puducherry",
+      "title": "Puducherry town — Incredible India (Ministry of Tourism, Government of India)",
+      "authority": "government"
+    },
+    "II_PYM": {
+      "url": "https://www.incredibleindia.gov.in/en/puducherry/puducherry/puducherry-museum",
+      "title": "Puducherry Museum — Incredible India (Ministry of Tourism, Government of India)",
+      "authority": "government"
+    },
+    "II_CHB": {
+      "url": "https://www.incredibleindia.gov.in/en/puducherry/puducherry/chunnambar-boat-house",
+      "title": "Chunnambar Boat House — Incredible India (Ministry of Tourism, Government of India)",
+      "authority": "government"
+    },
+    "II_NDA": {
+      "url": "https://www.incredibleindia.gov.in/en/puducherry/puducherry/eglise-de-notre-dame-des-anges",
+      "title": "Église de Notre Dame des Anges — Incredible India (Ministry of Tourism, Government of India)",
+      "authority": "government"
+    },
+    "II_FWM": {
+      "url": "https://www.incredibleindia.gov.in/en/puducherry/puducherry/french-war-memorial",
+      "title": "French War Memorial — Incredible India (Ministry of Tourism, Government of India)",
+      "authority": "government"
+    }
+  },
+  "facts": {
+    "MH1": {
+      "place": "maharashtra",
+      "topic": "World Heritage",
+      "claim": "Maharashtra has 5 UNESCO World Heritage Sites, including the Ajanta, Ellora and Elephanta caves.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_MH",
+          "quote": "The state takes pride in its wealth of historical wonders that reflect the grandeur of bygone eras with 5 UNESCO World Heritage Sites."
+        }
+      ]
+    },
+    "MH_FOOD": {
+      "place": "maharashtra",
+      "topic": "Food",
+      "claim": "Eat vada pav on Mumbai's streets and a traditional Maharashtrian thali.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_MH",
+          "quote": "Savor the spicy Vada Pav on the bustling streets of Mumbai, relish the traditional Maharashtrian thali"
+        }
+      ]
+    },
+    "MH_AIR": {
+      "place": "maharashtra",
+      "topic": "Airports",
+      "claim": "Maharashtra's main international airports are Mumbai (BOM) and Nagpur (NAG).",
+      "claimType": "distance",
+      "evidence": [
+        {
+          "source": "II_MH",
+          "quote": "Chhatrapati Shivaji Maharaj International Airport (BOM)"
+        },
+        {
+          "source": "II_MH",
+          "quote": "Babasaheb Ambedkar International Airport (NAG)"
+        }
+      ]
+    },
+    "SN1": {
+      "place": "maharashtra/chhatrapati-sambhaji-nagar",
+      "topic": "Chhatrapati Sambhajinagar",
+      "claim": "Chhatrapati Sambhajinagar, formerly Aurangabad, is the base for Ellora and for Ajanta, about 100 km away.",
+      "claimType": "distance",
+      "evidence": [
+        {
+          "source": "II_SN",
+          "quote": "Once known as Aurangabad, this city has reclaimed its Maratha heritage"
+        },
+        {
+          "source": "II_SN",
+          "quote": "about 100 kilometres from the city lies the marvellous Ajanta Caves"
+        }
+      ]
+    },
+    "SN2": {
+      "place": "maharashtra/chhatrapati-sambhaji-nagar",
+      "topic": "Best time",
+      "claim": "The best time to visit is November to March, when the weather is mild.",
+      "claimType": "schedule",
+      "evidence": [
+        {
+          "source": "II_SN",
+          "quote": "The ideal time to embark on a journey to Chhatrapati Sambhajinagar is between November and March, when the weather is delightfully mild"
+        }
+      ],
+      "kind": "seasonal"
+    },
+    "SN3": {
+      "place": "maharashtra/chhatrapati-sambhaji-nagar",
+      "topic": "Gates and markets",
+      "claim": "The city once had 52 historic gates; shop for Paithani sarees at Gul Mandi and Paithan Gate.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_SN",
+          "quote": "the 52 historic gates that once guarded this majestic city"
+        },
+        {
+          "source": "II_SN",
+          "quote": "Immerse yourself in the kaleidoscope of colours and textures at Gul Mandi and Paithan Gate, where exquisite Paithani sarees"
+        }
+      ]
+    },
+    "ELL1": {
+      "place": "maharashtra/ellora-caves",
+      "topic": "Ellora",
+      "claim": "Ellora's 34 caves are Buddhist, Hindu and Jain temples and monasteries cut into the rock between the 6th and 10th centuries.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_ELL",
+          "quote": "a testament to the brilliance of Buddhist, Hindu, and Jain monks and artisans who dedicated themselves to this endeavour between the 6th and 10th centuries"
+        },
+        {
+          "source": "II_ELL",
+          "quote": "Explore the 34 captivating caves"
+        }
+      ]
+    },
+    "ELL2": {
+      "place": "maharashtra/ellora-caves",
+      "topic": "Kailasa Temple",
+      "claim": "The Kailasa Temple, dedicated to Shiva, took over a century to carve and is the largest rock-cut temple of its kind.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_ELL",
+          "quote": "This colossal rock-cut temple, taking over a century to complete, is the largest of its kind globally."
+        }
+      ]
+    },
+    "ELL3": {
+      "place": "maharashtra/ellora-caves",
+      "topic": "Light show",
+      "claim": "An evening light and sound show runs in English and Hindi.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_ELL",
+          "quote": "attend the mesmerising light and sound show held in the evenings"
+        },
+        {
+          "source": "II_ELL",
+          "quote": "presented in both English and Hindi"
+        }
+      ]
+    },
+    "AJ1": {
+      "place": "maharashtra/ajanta-caves",
+      "topic": "Ajanta",
+      "claim": "Ajanta's first Buddhist caves date from the 2nd and 1st centuries BC; more richly decorated caves were added in the Gupta period.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "U_AJ",
+          "quote": "The first Buddhist cave monuments at Ajanta date from the 2nd and 1st centuries B.C."
+        },
+        {
+          "source": "U_AJ",
+          "quote": "During the Gupta period (5th and 6th centuries A.D.), many more richly decorated caves were added to the original group."
+        }
+      ]
+    },
+    "AJ2": {
+      "place": "maharashtra/ajanta-caves",
+      "topic": "Paintings",
+      "claim": "Ajanta's paintings and sculptures are counted among the masterpieces of Buddhist religious art.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "U_AJ",
+          "quote": "The paintings and sculptures of Ajanta, considered masterpieces of Buddhist religious art, have had a considerable artistic influence."
+        }
+      ]
+    },
+    "DAU1": {
+      "place": "maharashtra/daulatabad-fort",
+      "topic": "Daulatabad Fort",
+      "claim": "Daulatabad (Deogiri) Fort, 15 km from Ellora, dates to the 12th century; about 750 steps lead to the top.",
+      "claimType": "distance",
+      "evidence": [
+        {
+          "source": "II_ELL",
+          "quote": "Located just 15 kilometres from Ellora Caves, Daulatabad Fort is a mediaeval fortress that dates back to the 12th century."
+        },
+        {
+          "source": "II_DEO",
+          "quote": "To reach the summit, adventurers must ascend approximately 750 steps"
+        }
+      ]
+    },
+    "DAU2": {
+      "place": "maharashtra/daulatabad-fort",
+      "topic": "Chand Minar",
+      "claim": "The fort's Chand Minar tower is over 63 m tall, and a 30 m deep moat once guarded it.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_DEO",
+          "quote": "the awe-inspiring Chand Minar, a tower that reaches a staggering height of over 63 meters"
+        },
+        {
+          "source": "II_DEO",
+          "quote": "One of its most striking features is the 30-meter-deep moat"
+        }
+      ]
+    },
+    "GRI1": {
+      "place": "maharashtra/grishneshwar-temple",
+      "topic": "Grishneshwar",
+      "claim": "Grishneshwar, near Ellora, is revered as the 12th Jyotirlinga; men remove their shirts to enter the sanctum.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_GRI",
+          "quote": "revered as the 12th and final Jyotirlinga of India"
+        },
+        {
+          "source": "II_GRI",
+          "quote": "Men are requested to remove their shirts before entering"
+        }
+      ]
+    },
+    "GRI2": {
+      "place": "maharashtra/grishneshwar-temple",
+      "topic": "Aarti",
+      "claim": "Aarti is held at 5:30 am, 12 noon, 7 pm and 9:30 pm.",
+      "claimType": "schedule",
+      "evidence": [
+        {
+          "source": "II_GRI",
+          "quote": "Aarti timings are 5:30 AM, 12:00 PM, 7:00 PM, and 9:30 PM"
+        }
+      ]
+    },
+    "PUN1": {
+      "place": "maharashtra/pune",
+      "topic": "Pune",
+      "claim": "Pune mixes Maratha history and a modern city; Sinhagad Fort above it offers wide views.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_PUN",
+          "quote": "Pune is a city where history and modernity coalesce seamlessly"
+        },
+        {
+          "source": "II_PUN",
+          "quote": "This ancient fortress, perched atop a hill, offers panoramic views of the surrounding landscape"
+        }
+      ]
+    },
+    "PUN2": {
+      "place": "maharashtra/pune",
+      "topic": "Best time",
+      "claim": "The best time to visit Pune is October to February.",
+      "claimType": "schedule",
+      "evidence": [
+        {
+          "source": "II_PUN",
+          "quote": "The best time to visit Pune is between October and February when the weather is pleasantly cool"
+        }
+      ],
+      "kind": "seasonal"
+    },
+    "SHW1": {
+      "place": "maharashtra/shaniwar-wada",
+      "topic": "Shaniwar Wada",
+      "claim": "Shaniwar Wada is an 18th-century palace-fort in the heart of Pune; the rock-cut Pataleshwar Cave Temple is about 2 km away.",
+      "claimType": "distance",
+      "evidence": [
+        {
+          "source": "II_SHW",
+          "quote": "Shaniwar Wada in Pune, India, is an enchanting historical masterpiece constructed during the 18th century"
+        },
+        {
+          "source": "II_SHW",
+          "quote": "Situated approximately two kilometres from Shaniwar Wada"
+        }
+      ]
+    },
+    "AGA1": {
+      "place": "maharashtra/aga-khan-palace",
+      "topic": "Aga Khan Palace",
+      "claim": "Built by Aga Khan III in 1892, the palace held Mahatma Gandhi, Kasturba Gandhi and others prisoner during the Quit India Movement; it is now a museum.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_AGA",
+          "quote": "Constructed by Sultan Muhammed Shah Aga Khan III"
+        },
+        {
+          "source": "II_AGA",
+          "quote": "in 1892, its history draws tourists from around the globe"
+        },
+        {
+          "source": "II_AGA",
+          "quote": "Mahatma Gandhi, Kasturba Gandhi, Mahadev Desai and Sarojini Naidu were all imprisoned within its walls for two years"
+        },
+        {
+          "source": "II_AGA",
+          "quote": "Today, the Aga Khan Palace has been transformed into an unforgettable museum"
+        }
+      ]
+    },
+    "MAB1": {
+      "place": "maharashtra/mahabaleshwar",
+      "topic": "Mahabaleshwar",
+      "claim": "Mahabaleshwar is a hill station at about 4,500 ft in the Sahyadris, with a 500-year-old Shiva temple; Panchgani is 20 km away.",
+      "claimType": "distance",
+      "evidence": [
+        {
+          "source": "II_MAB",
+          "quote": "Perched beautifully at an altitude of 4500 feet"
+        },
+        {
+          "source": "II_MAB",
+          "quote": "the 500-year-old Mahabaleshwar Temple here, a revered sanctuary dedicated to Lord Shiva"
+        },
+        {
+          "source": "II_MAB",
+          "quote": "its twin town just 20 kilometres away"
+        }
+      ]
+    },
+    "MAB2": {
+      "place": "maharashtra/mahabaleshwar",
+      "topic": "Strawberries",
+      "claim": "In strawberry season, stalls sell strawberry shakes, jams and more.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_MAB",
+          "quote": "Strawberry season finds its streets full of vendors selling an array of strawberry products, including strawberry shakes, jams and more."
+        }
+      ]
+    },
+    "PRA1": {
+      "place": "maharashtra/pratapgad-fort",
+      "topic": "Pratapgad",
+      "claim": "Pratapgad Fort near Mahabaleshwar was built under Chhatrapati Shivaji Maharaj; his battle with Afzal Khan took place at its base.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_PRA",
+          "quote": "Welcome to Pratapgad Fort, the majestic citadel near Mahabaleshwar"
+        },
+        {
+          "source": "II_PRA",
+          "quote": "The most renowned tale recounts the epic battle between Chhatrapati Shivaji Maharaj and Afzal Khan at the fort's base."
+        }
+      ]
+    },
+    "NSK1": {
+      "place": "maharashtra/nashik",
+      "topic": "Nashik",
+      "claim": "Nashik, on the Godavari, hosts the Kumbh Mela every 12 years and is linked to Rama's exile.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_NSK",
+          "quote": "renowned for hosting the Kumbh Mela, the largest spiritual gathering on earth, every 12 years"
+        },
+        {
+          "source": "II_NSK",
+          "quote": "Nashik is situated on the banks of the holy Godavari River"
+        }
+      ]
+    },
+    "NSK2": {
+      "place": "maharashtra/nashik",
+      "topic": "Wine and Trimbakeshwar",
+      "claim": "Nashik is known as India's wine capital; Trimbakeshwar Shiva temple is in the hills nearby.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_NSK",
+          "quote": "it is known as the wine capital of India"
+        },
+        {
+          "source": "II_NSK",
+          "quote": "a celestial abode of Lord Shiva nestled amidst the tranquil hills of Nashik"
+        }
+      ]
+    },
+    "PAN1": {
+      "place": "maharashtra/panchavati",
+      "topic": "Panchavati",
+      "claim": "Panchavati is the Ramayana-era site of Nashik, with the Ramkund bathing ghat on the Godavari; visit December to March.",
+      "claimType": "schedule",
+      "evidence": [
+        {
+          "source": "II_NSK",
+          "quote": "known as Panchvati during the period of Ramayana"
+        },
+        {
+          "source": "II_NSK",
+          "quote": "Begin your spiritual quest in the hallowed waters of Ramkund"
+        },
+        {
+          "source": "II_PAN",
+          "quote": "December to March is the best time to visit Panchvati."
+        }
+      ],
+      "kind": "seasonal"
+    },
+    "KLP1": {
+      "place": "maharashtra/kolhapur",
+      "topic": "Kolhapur",
+      "claim": "Kolhapur is famous for Kolhapuri chappals; its 19th-century New Palace mixes European and Indian styles.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_KLP",
+          "quote": "the world-famous Kolhapuri chappals (sandals)"
+        },
+        {
+          "source": "II_KLP",
+          "quote": "erected in the 19th century by Chhatrapati Shahu Maharaj, displays a stunning amalgamation of European and Indian styles"
+        }
+      ]
+    },
+    "MLX1": {
+      "place": "maharashtra/mahalakshmi-temple-kolhapur",
+      "topic": "Mahalakshmi Temple",
+      "claim": "The 7th-century Mahalakshmi (Ambabai) Temple is one of the Shakti Peethas, built in the Hemadpanti style.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_KLP",
+          "quote": "This masterpiece of Deccan design, dating back to the 7th century AD"
+        },
+        {
+          "source": "II_MLX",
+          "quote": "it holds pride of place among 108 Shakti Peethas"
+        },
+        {
+          "source": "II_MLX",
+          "quote": "Embellished with Hemadpanti architecture"
+        }
+      ]
+    },
+    "WB1": {
+      "place": "west-bengal",
+      "topic": "Durga Puja",
+      "claim": "Durga Puja is West Bengal's most loved festival, with elaborate pandals across the state.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_WB",
+          "quote": "Durga Puja reigning as the region's most beloved celebration"
+        },
+        {
+          "source": "II_WB",
+          "quote": "adorning elaborate tents known as \"pandals\" across the state"
+        }
+      ]
+    },
+    "WB2": {
+      "place": "west-bengal",
+      "topic": "Heritage",
+      "claim": "West Bengal's heritage runs from Bishnupur's terracotta temples to the ancient capital of Gour and Kolkata's Victoria Memorial.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_WB",
+          "quote": "From the majestic terracotta temples of Bishnupur, adorned with intricate sculptures, to the iconic Victoria Memorial in Kolkata"
+        },
+        {
+          "source": "II_WB",
+          "quote": "Explore the architectural wonders of the ancient capital, Gour"
+        }
+      ]
+    },
+    "WB3": {
+      "place": "west-bengal",
+      "topic": "Nature",
+      "claim": "The Sundarbans is a UNESCO World Heritage Site; the hills have Darjeeling's tea gardens.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_WB",
+          "quote": "The Sunderbans, a UNESCO World Heritage Site, showcases the unique coexistence of man and nature."
+        },
+        {
+          "source": "II_WB",
+          "quote": "the lush tea gardens of Darjeeling and the dense mangrove forests of the Sundarbans promise breathtaking landscapes"
+        }
+      ]
+    },
+    "KOL1": {
+      "place": "west-bengal/kolkata",
+      "topic": "Kolkata",
+      "claim": "Kolkata's landmarks include the Howrah Bridge, New Market, the Victoria Memorial and the Maidan; Tagore's Rabindra Sangeet is part of its culture.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_KOL",
+          "quote": "From the iconic Howrah Bridge to the vibrant bustle of New Market, Kolkata is home to numerous famous spots"
+        },
+        {
+          "source": "II_KOL",
+          "quote": "the sprawling grounds of the Maidan, where locals gather to relax and unwind"
+        },
+        {
+          "source": "II_KOL",
+          "quote": "Especially the soulful music of Nobel laureate Rabindranath Tagore, known as Rabindra Sangeet."
+        }
+      ]
+    },
+    "KOL2": {
+      "place": "west-bengal",
+      "topic": "Durga Puja",
+      "claim": "Durga Puja is one of India's grandest celebrations.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_WB",
+          "quote": "And no visit is complete without experiencing the festive spirit of Durga Puja, one of the grandest celebrations in the country."
+        }
+      ]
+    },
+    "VIC1": {
+      "place": "west-bengal/victoria-memorial",
+      "topic": "Victoria Memorial",
+      "claim": "The white-marble Victoria Memorial was built 1906–1921 in 64 acres of gardens and has 25 galleries.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_VIC",
+          "quote": "This architectural masterpiece, built between 1906 and 1921, spans an impressive 64 acres of meticulously curated gardens."
+        },
+        {
+          "source": "II_VIC",
+          "quote": "explore its 25 distinct galleries"
+        }
+      ]
+    },
+    "HOW1": {
+      "place": "west-bengal/howrah-bridge",
+      "topic": "Howrah Bridge",
+      "claim": "Howrah Bridge over the Hooghly opened on 3 February 1943 and is the world's busiest cantilever bridge.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_HOW",
+          "quote": "Finally, on February 3rd, 1943, the Howrah Bridge, a testament to human ingenuity, was inaugurated"
+        },
+        {
+          "source": "II_HOW",
+          "quote": "it is the busiest cantilever bridge in the world"
+        }
+      ]
+    },
+    "DAK1": {
+      "place": "west-bengal/dakshineswar-kali-temple",
+      "topic": "Dakshineswar",
+      "claim": "Dakshineswar Kali Temple on the Hooghly was built by Rani Rashmoni; its idols were installed on 31 May 1855.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_DAK",
+          "quote": "It is said that the famed Bengal Queen, Rani Rashmoni sanctioned the building of this temple."
+        },
+        {
+          "source": "II_DAK",
+          "quote": "On 31st May 1855"
+        }
+      ]
+    },
+    "BEL1": {
+      "place": "west-bengal/belur-math",
+      "topic": "Belur Math",
+      "claim": "Belur Math, headquarters of the Ramakrishna movement, was consecrated by Swami Vivekananda in 1898; he spent his last years here.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_BEL",
+          "quote": "consecrated the grounds in 1898 with the sacred relics of his revered guru"
+        },
+        {
+          "source": "II_BEL",
+          "quote": "it was here that Swami Vivekananda, one of the foremost thinkers and religious leaders of the present age, spent the final years of his remarkable life"
+        }
+      ]
+    },
+    "IM1": {
+      "place": "west-bengal/indian-museum",
+      "topic": "Indian Museum",
+      "claim": "The Indian Museum, established in 1814, holds Buddhist sculpture, miniature paintings and even a dinosaur egg.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_IM",
+          "quote": "an iconic institution established in 1814"
+        },
+        {
+          "source": "II_IM",
+          "quote": "view an authentic dinosaur egg"
+        },
+        {
+          "source": "II_IM",
+          "quote": "exquisite ancient Buddhist sculptures, delicate Indian miniature paintings"
+        }
+      ]
+    },
+    "KGT1": {
+      "place": "west-bengal/kalighat-kali-temple",
+      "topic": "Kalighat",
+      "claim": "Kalighat is the temple of the goddess Kali; the present building dates from the 19th century.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_KGT",
+          "quote": "The temple was built as an abode for the Hindu Goddess Kali."
+        },
+        {
+          "source": "II_KGT",
+          "quote": "However, what stands today is said to be as young as the 19th century."
+        }
+      ]
+    },
+    "CS1": {
+      "place": "west-bengal/college-street",
+      "topic": "College Street",
+      "claim": "College Street, or Boi Para, is Kolkata's famous book market, named after Hindu College, founded in 1817.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_CS",
+          "quote": "also known as Boi Para (which translates to"
+        },
+        {
+          "source": "II_CS",
+          "quote": "traces back to the establishment of Hindu College in 1817 by David Hare"
+        }
+      ]
+    },
+    "KLM1": {
+      "place": "west-bengal/kalimpong",
+      "topic": "Kalimpong",
+      "claim": "Kalimpong is a hill station at 1,250 m with the Zang Dhok Palri Phodang monastery and a cactus nursery of over 3,000 varieties.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_KLM",
+          "quote": "Perched at an altitude of 1,250 meters, this beautiful hill station is a great getaway to unwind and relax."
+        },
+        {
+          "source": "II_KLM",
+          "quote": "No visit to Kalimpong would be complete without a visit to the renowned Zang Dhok Palri Phodang monastery."
+        },
+        {
+          "source": "II_KLM",
+          "quote": "an impressive collection of over 3,000 varieties of cacti and succulents"
+        }
+      ]
+    },
+    "DEOL1": {
+      "place": "west-bengal/deolo-hill",
+      "topic": "Deolo Hill",
+      "claim": "Deolo Hill above Kalimpong has views of the Kanchenjunga range and a flower park at the top.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_KLM",
+          "quote": "where you'll be rewarded with panoramic vistas of the majestic Kanchenjunga range"
+        },
+        {
+          "source": "II_DEOL",
+          "quote": "At the summit of the hill, there is a park built for recreational purposes, featuring exotic flowers."
+        }
+      ]
+    },
+    "SUN1": {
+      "place": "west-bengal/sundarbans-national-park",
+      "topic": "Sundarbans",
+      "claim": "The Sundarbans covers 10,000 sq km of the Ganges delta (more than half in India) and has the world's largest mangrove forest, home to tigers.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "U_SUN",
+          "quote": "The Sundarbans covers 10,000 km 2 of land and water (more than half of it in India, the rest in Bangladesh) in the Ganges delta."
+        },
+        {
+          "source": "U_SUN",
+          "quote": "It contains the world's largest area of mangrove forests."
+        },
+        {
+          "source": "U_SUN",
+          "quote": "A number of rare or endangered species live in the park, including tigers, aquatic mammals, birds and reptiles."
+        }
+      ]
+    },
+    "SAN1": {
+      "place": "west-bengal/santiniketan",
+      "topic": "Santiniketan",
+      "claim": "Rabindranath Tagore founded Santiniketan in 1901; the Visva Bharati 'world university' followed in 1921.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "U_SAN",
+          "quote": "Established in rural West Bengal in 1901 by the renowned poet and philosopher Rabindranath Tagore"
+        },
+        {
+          "source": "U_SAN",
+          "quote": "was established at Santiniketan in 1921"
+        }
+      ]
+    },
+    "PB1": {
+      "place": "punjab",
+      "topic": "Food",
+      "claim": "Punjabi food to try: butter chicken, dal makhani, and makki di roti with sarson da saag.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_PB",
+          "quote": "Savour the authentic flavours of Punjab, with dishes like butter chicken, dal makhani, and makki di roti with sarson da saag."
+        }
+      ]
+    },
+    "PB2": {
+      "place": "punjab",
+      "topic": "Harike",
+      "claim": "Harike Wetland, where the Beas and Sutlej meet, is northern India's largest wetland and home to the endangered Indus river dolphin.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_PB",
+          "quote": "Located at the confluence of the Beas and Sutlej rivers, Harike Wetland and Bird Sanctuary is home to a variety of bird species, including the endangered Indus river dolphin."
+        },
+        {
+          "source": "II_PB",
+          "quote": "Birdwatchers will be delighted by the avian diversity at the largest wetland in northern India."
+        }
+      ]
+    },
+    "PB3": {
+      "place": "punjab",
+      "topic": "Amritsar",
+      "claim": "Amritsar is known for its markets, street food and the Wagah Border ceremony.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_PB",
+          "quote": "Amritsar is a bustling city known for its vibrant markets, delectable street food, and the Wagah Border Ceremony"
+        }
+      ]
+    },
+    "PAT1": {
+      "place": "punjab/patiala",
+      "topic": "Patiala",
+      "claim": "Patiala, founded by Baba Ala Singh of the Phulkian state, grew around Qila Mubarak, begun in 1763.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_PAT",
+          "quote": "Founded by Baba Ala Singh, the visionary who established the Phulkian State"
+        },
+        {
+          "source": "II_PAT",
+          "quote": "In 1763, he laid the foundation of the Patiala Fort, known as Qila Mubarak, around which the city developed."
+        }
+      ]
+    },
+    "PAT2": {
+      "place": "punjab/patiala",
+      "topic": "Crafts and gardens",
+      "claim": "Patiala is known for embroidered parandas (hair cords); Baradari Gardens has rare trees and colonial buildings.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_PAT",
+          "quote": "waist cords and Parandas (hair-tying cords)"
+        },
+        {
+          "source": "II_PAT",
+          "quote": "Baradari Gardens , a stunning garden complex that boasts rare trees, colonial buildings"
+        }
+      ]
+    },
+    "QM1": {
+      "place": "punjab/qila-mubarak",
+      "topic": "Qila Mubarak",
+      "claim": "Qila Mubarak, Patiala's fort, was begun in 1763 and shows Sikh palace architecture.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_PAT",
+          "quote": "In 1763, he laid the foundation of the Patiala Fort, known as Qila Mubarak"
+        },
+        {
+          "source": "II_PAT",
+          "quote": "provide you with a rare glimpse into Sikh palace architecture"
+        }
+      ]
+    },
+    "SHM1": {
+      "place": "punjab/sheesh-mahal-patiala",
+      "topic": "Sheesh Mahal",
+      "claim": "Patiala's Sheesh Mahal, the 'Palace of Mirrors', was built 1845–1862 by Maharaja Narinder Singh.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_SHM",
+          "quote": "located in the heart of Patiala, Punjab"
+        },
+        {
+          "source": "II_SHM",
+          "quote": "Constructed between 1845 and 1862 by Maharaja Narinder Singh"
+        }
+      ]
+    },
+    "KPT1": {
+      "place": "punjab/kapurthala",
+      "topic": "Kapurthala",
+      "claim": "Kapurthala is known for the Indo-Saracenic Jagatjit Palace and its Moorish Mosque.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_KPT",
+          "quote": "Kapurthala boasts an eclectic collection of monuments and gardens"
+        },
+        {
+          "source": "II_KPT",
+          "quote": "a captivating example of Indo-Saracenic architecture"
+        },
+        {
+          "source": "II_KPT",
+          "quote": "the Moorish Mosque offers a glimpse into a unique blend of architectural styles"
+        }
+      ]
+    },
+    "FGS1": {
+      "place": "punjab/fatehgarh-sahib",
+      "topic": "Fatehgarh Sahib",
+      "claim": "Fatehgarh Sahib is named after Sahibzada Fateh Singh, younger son of Guru Gobind Singh; its gurdwara remembers him, Zorawar Singh and Mata Gujri.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_FGS",
+          "quote": "the town derives its name from Sahibzada Fateh Singh, the younger son of Guru Gobind Singh Ji"
+        },
+        {
+          "source": "II_FGS",
+          "quote": "built in memory of Sahibzada Fateh Singh, Sahibzada Zorawar Singh, and Mata Gujri Ji"
+        }
+      ]
+    },
+    "BR1": {
+      "place": "bihar",
+      "topic": "Bihar",
+      "claim": "Bihar is the birthplace of Buddhism and Jainism.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_BR",
+          "quote": "This ancient land is the birthplace of two of the world's major religions, Buddhism and Jainism"
+        }
+      ]
+    },
+    "BR2": {
+      "place": "bihar",
+      "topic": "Chhath",
+      "claim": "Chhath, Bihar's best-known festival, falls between late October and mid-November and lasts up to four days.",
+      "claimType": "schedule",
+      "evidence": [
+        {
+          "source": "II_BR",
+          "quote": "typically falling between late October and mid-November, spanning a celebration of up to four days"
+        }
+      ],
+      "kind": "seasonal"
+    },
+    "BR3": {
+      "place": "bihar",
+      "topic": "Madhubani",
+      "claim": "Madhubani painting is Bihar's best-known art.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_BR",
+          "quote": "Among Bihar's artistic traditions, the works of Madhubani artists stand out."
+        }
+      ]
+    },
+    "PTN1": {
+      "place": "bihar/patna",
+      "topic": "Patna",
+      "claim": "Patna, ancient Pataliputra, has roots going back to 600 BC and lies along the Ganges.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_PTN",
+          "quote": "The capital of Bihar is a modern city with ancient roots going back to 600 BC."
+        },
+        {
+          "source": "II_PTN",
+          "quote": "then known as Pataliputra, was renowned as one of the great cities of Asia"
+        }
+      ]
+    },
+    "PTN2": {
+      "place": "bihar/patna",
+      "topic": "Patna Museum",
+      "claim": "The Patna Museum displays a 15 m fossilised tree trunk believed to be 200 million years old.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_PTN",
+          "quote": "The museum also boasts a 15-m (49-ft) long fossilized tree trunk, believed to be 200 million years old."
+        }
+      ]
+    },
+    "TPS1": {
+      "place": "bihar/takht-sri-patna-sahib",
+      "topic": "Patna Sahib",
+      "claim": "Takht Sri Patna Sahib, one of Sikhism's five takhts, marks the birthplace of Guru Gobind Singh; a museum above the sanctum holds relics.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_TPS",
+          "quote": "comprises five Gurudwaras known for their religious significance within Sikhism"
+        },
+        {
+          "source": "II_TPS",
+          "quote": "At the heart of this hallowed sanctuary lies the birthplace of the revered Sri Guru Gobind Singh Ji Maharaj"
+        },
+        {
+          "source": "II_PTN",
+          "quote": "On the floor above the main sanctum is a museum with the guru"
+        }
+      ]
+    },
+    "BMU1": {
+      "place": "bihar/bihar-museum",
+      "topic": "Bihar Museum",
+      "claim": "The Bihar Museum covers 5.6 hectares; its galleries opened between 2015 and 2017 and trace the Maurya and Gupta empires, Buddhism and Jainism.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_BMU",
+          "quote": "Over its total 5.6 hectares of land and 24,000-square-metre built-up area"
+        },
+        {
+          "source": "II_BMU",
+          "quote": "culminating with unveiling of remaining galleries in October 2017"
+        },
+        {
+          "source": "II_BMU",
+          "quote": "Visitors can gain an understanding of Buddhism and Jainism spread as well as that of Gupta Dynasty, Mauryan Dynasty"
+        }
+      ]
+    },
+    "GOL1": {
+      "place": "bihar/gol-ghar",
+      "topic": "Gol Ghar",
+      "claim": "Gol Ghar, a 29 m granary dome, was built in 1786 under Warren Hastings after the famine of 1770.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_GOL",
+          "quote": "Built in 1786 on the orders of the first Governor-General of India, Warren Hastings"
+        },
+        {
+          "source": "II_GOL",
+          "quote": "as a response to the famine of 1770"
+        },
+        {
+          "source": "II_GOL",
+          "quote": "rising at an impressive height of 29 metres"
+        }
+      ]
+    },
+    "KES1": {
+      "place": "bihar/kesaria-stupa",
+      "topic": "Kesaria Stupa",
+      "claim": "Kesaria Stupa was commissioned by Emperor Ashoka to mark the Buddha's visit; Xuanzang described it in the 7th century.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_KES",
+          "quote": "Commissioned by Emperor Ashoka to commemorate Buddha's visit"
+        },
+        {
+          "source": "II_KES",
+          "quote": "7th century diary records his visit to Kesaria Stupa site"
+        }
+      ]
+    },
+    "PY1": {
+      "place": "puducherry/pondicherry",
+      "topic": "Pondicherry",
+      "claim": "Pondicherry, on the south-east coast about 170 km from Chennai, was the capital of French India; Karaikal, Mahe and Yanam joined it as a Union Territory.",
+      "claimType": "distance",
+      "evidence": [
+        {
+          "source": "II_PYT",
+          "quote": "The city sits on the southeastern coast of India, about 170 kms from Chennai."
+        },
+        {
+          "source": "II_PYT",
+          "quote": "Puducherry, formerly known as Pondicherry, gained its significance as"
+        },
+        {
+          "source": "II_PYT",
+          "quote": "Pondicherry, along with Karaikal, Mahe and Yanam, was constituted as a Union Territory in the Indian Union."
+        }
+      ]
+    },
+    "PY2": {
+      "place": "puducherry/sri-aurobindo-ashram",
+      "topic": "Sri Aurobindo Ashram",
+      "claim": "Sri Aurobindo Ashram was founded in 1926 by Sri Aurobindo and the Mother.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_PYT",
+          "quote": "Sri Aurobindo Ashram, a spiritual community founded in 1926 by Sri Aurobindo and the Mother"
+        }
+      ]
+    },
+    "PY3": {
+      "place": "puducherry/promenade-beach",
+      "topic": "Beaches",
+      "claim": "Promenade Beach has a long seafront walk; Paradise Beach is the other well-known beach.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_PYT",
+          "quote": "Promenade Beach, with its long waterfront promenade, and Paradise Beach are some of the more noticeable ones."
+        }
+      ]
+    },
+    "PY4": {
+      "place": "puducherry/pondicherry",
+      "topic": "Food",
+      "claim": "Food ranges from croissants and pizza to dosa and seafood.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_PYT",
+          "quote": "From freshly baked Pizzas and croissants to typical South Indian Dosa and a variety of seafood, Puducherry is a food lover's delight."
+        }
+      ]
+    },
+    "PYM1": {
+      "place": "puducherry/pondicherry-museum",
+      "topic": "Pondicherry Museum",
+      "claim": "The museum has one of the largest collections of Chola bronzes, Roman-era trade finds and French furniture.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_PYM",
+          "quote": "one of the largest collection of Chola bronze sculptures"
+        },
+        {
+          "source": "II_PYM",
+          "quote": "These illustrate the significance of Pondicherry as a port of trade between the first and second centuries AD."
+        }
+      ]
+    },
+    "PAR1": {
+      "place": "puducherry/paradise-beach",
+      "topic": "Paradise Beach",
+      "claim": "Paradise Beach is reached by a short boat ride from Chunnambar Boat House, which offers paddle and motor boats.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_CHB",
+          "quote": "the pristine Paradise Beach that can be reached via a short and scenic boat ride"
+        },
+        {
+          "source": "II_CHB",
+          "quote": "Boating is the most popular choice, with options ranging from paddle boats to motor boats"
+        }
+      ]
+    },
+    "NDA1": {
+      "place": "puducherry/notre-dame-des-anges",
+      "topic": "Notre Dame des Anges",
+      "claim": "Notre Dame des Anges on the Promenade was built in 1855 and holds services in French, Tamil and English.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_NDA",
+          "quote": "Located along the famous Promenade of Pondicherry, this church was crafted by the skilled hands of Louis Guerre in 1855."
+        },
+        {
+          "source": "II_NDA",
+          "quote": "it is the world's only church where prayers resonate in French, Tamil, and English"
+        }
+      ]
+    },
+    "FWM1": {
+      "place": "puducherry/french-war-memorial",
+      "topic": "French War Memorial",
+      "claim": "The French War Memorial on the seafront was inaugurated on 3 April 1938 and rebuilt in 1970; it honours French Indian soldiers of the World Wars.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_FWM",
+          "quote": "Governor Crocicchia inaugurated this memorial on April 3, 1938"
+        },
+        {
+          "source": "II_FWM",
+          "quote": "Reconstructed in 1970"
+        },
+        {
+          "source": "II_FWM",
+          "quote": "A bronze plaque lists the names of those who gave their lives during World War I"
+        }
+      ]
+    }
+  },
+  "places": [
+    {
+      "key": "maharashtra/chhatrapati-sambhaji-nagar",
+      "kind": "city",
+      "name": "Chhatrapati Sambhajinagar (Aurangabad)",
+      "summary": "The base for Ellora and Ajanta: a Deccan city of 52 gates, Paithani sarees and Mughal and Maratha history.",
+      "seoTitle": "Chhatrapati Sambhajinagar (Aurangabad) Travel Guide",
+      "seoDescription": "Plan Chhatrapati Sambhajinagar, formerly Aurangabad: Ellora and Ajanta caves, Daulatabad Fort, Grishneshwar, Paithani shopping and the best time to go.",
+      "lat": 19.88,
+      "lng": 75.32,
+      "tripTypes": [
+        "heritage",
+        "food"
+      ],
+      "images": [
+        {
+          "commons": "File:Bibi_Ka_Maqbara_-_The_Taj_Of_Deccan.jpg",
+          "alt": "Bibi Ka Maqbara, the white marble mausoleum in Chhatrapati Sambhajinagar",
+          "caption": "Bibi Ka Maqbara",
+          "hero": true
+        }
+      ],
+      "sections": {
+        "overview": {
+          "text": "Chhatrapati Sambhajinagar — once Aurangabad — is the base for the Ellora Caves and for Ajanta, about 100 km away. The old city had 52 gates; today its markets at Gul Mandi and Paithan Gate sell Paithani sarees.",
+          "facts": [
+            "SN1",
+            "SN3"
+          ]
+        },
+        "best_time": {
+          "text": "November to March, when the weather is mild.",
+          "facts": [
+            "SN2"
+          ]
+        },
+        "things_to_do": {
+          "items": [
+            {
+              "body": "See the Kailasa Temple at Ellora."
+            },
+            {
+              "body": "Spend a day at the Ajanta Caves."
+            },
+            {
+              "body": "Climb Daulatabad Fort."
+            },
+            {
+              "body": "Visit Grishneshwar, the 12th Jyotirlinga."
+            }
+          ],
+          "facts": [
+            "ELL2",
+            "AJ1",
+            "DAU1",
+            "GRI1"
+          ]
+        },
+        "highlights": {
+          "items": [
+            {
+              "body": "Ellora Caves: Ellora's 34 caves are Buddhist, Hindu and Jain temples and monasteries cut into the rock between the 6th and 10th centuries."
+            },
+            {
+              "body": "Daulatabad (Deogiri) Fort: Daulatabad (Deogiri) Fort, 15 km from Ellora, dates to the 12th century; about 750 steps lead to the top."
+            },
+            {
+              "body": "Grishneshwar Temple: Grishneshwar, near Ellora, is revered as the 12th Jyotirlinga; men remove their shirts to enter the sanctum."
+            }
+          ],
+          "facts": [
+            "ELL1",
+            "DAU1",
+            "GRI1"
+          ]
+        },
+        "practical_info": {
+          "items": [
+            {
+              "title": "World Heritage",
+              "body": "Maharashtra has 5 UNESCO World Heritage Sites, including the Ajanta, Ellora and Elephanta caves."
+            },
+            {
+              "title": "Food",
+              "body": "Eat vada pav on Mumbai's streets and a traditional Maharashtrian thali."
+            },
+            {
+              "title": "Airports",
+              "body": "Maharashtra's main international airports are Mumbai (BOM) and Nagpur (NAG)."
+            }
+          ],
+          "facts": [
+            "MH1",
+            "MH_FOOD",
+            "MH_AIR"
+          ]
+        }
+      },
+      "wikidataId": "Q200713",
+      "featured": true
+    },
+    {
+      "key": "maharashtra/ellora-caves",
+      "kind": "attraction",
+      "name": "Ellora Caves",
+      "summary": "34 Buddhist, Hindu and Jain rock-cut caves, crowned by the Kailasa Temple — a World Heritage Site.",
+      "seoTitle": "Ellora Caves: Kailasa Temple, Cave Guide & Tips",
+      "seoDescription": "Ellora's 34 rock-cut caves from the 6th–10th centuries: the Kailasa Temple, Jain and Buddhist caves, the evening light show and nearby Daulatabad.",
+      "lat": 20.0268,
+      "lng": 75.1771,
+      "tripTypes": [
+        "heritage"
+      ],
+      "images": [
+        {
+          "commons": "File:Ellora Cave 16 Kailasa Temple.jpg",
+          "alt": "The rock-cut Kailasa Temple, Cave 16 at Ellora",
+          "caption": "Kailasa Temple, Ellora",
+          "hero": true
+        }
+      ],
+      "sections": {
+        "overview": {
+          "text": "Ellora's 34 caves are Buddhist, Hindu and Jain temples and monasteries cut into the rock between the 6th and 10th centuries. The Kailasa Temple took over a century to carve.",
+          "facts": [
+            "ELL1",
+            "ELL2"
+          ]
+        },
+        "things_to_do": {
+          "items": [
+            {
+              "body": "See the Kailasa Temple (Cave 16)."
+            },
+            {
+              "body": "Visit the Jain Indra Sabha and the Buddhist Chaitya Hall."
+            },
+            {
+              "body": "Stay for the evening light and sound show (English and Hindi)."
+            }
+          ],
+          "facts": [
+            "ELL2",
+            "ELL1",
+            "ELL3"
+          ]
+        },
+        "highlights": {
+          "items": [
+            {
+              "body": "Also in Chhatrapati Sambhajinagar (Aurangabad) — Daulatabad (Deogiri) Fort: Daulatabad (Deogiri) Fort, 15 km from Ellora, dates to the 12th century; about 750 steps lead to the top."
+            },
+            {
+              "body": "Also in Chhatrapati Sambhajinagar (Aurangabad) — Grishneshwar Temple: Grishneshwar, near Ellora, is revered as the 12th Jyotirlinga; men remove their shirts to enter the sanctum."
+            }
+          ],
+          "facts": [
+            "DAU1",
+            "GRI1"
+          ]
+        },
+        "travel_tips": {
+          "items": [
+            {
+              "body": "About Chhatrapati Sambhajinagar: Chhatrapati Sambhajinagar, formerly Aurangabad, is the base for Ellora and for Ajanta, about 100 km away."
+            },
+            {
+              "body": "About Chhatrapati Sambhajinagar: The best time to visit is November to March, when the weather is mild."
+            }
+          ],
+          "facts": [
+            "SN1",
+            "SN2"
+          ]
+        }
+      },
+      "wikidataId": "Q189616",
+      "parent": "maharashtra/chhatrapati-sambhaji-nagar",
+      "relations": [
+        {
+          "to": "maharashtra/daulatabad-fort",
+          "type": "nearby"
+        },
+        {
+          "to": "maharashtra/grishneshwar-temple",
+          "type": "nearby"
+        }
+      ]
+    },
+    {
+      "key": "maharashtra/ajanta-caves",
+      "kind": "attraction",
+      "name": "Ajanta Caves",
+      "summary": "Buddhist caves from the 2nd century BC with India's most famous ancient paintings — a World Heritage Site.",
+      "seoTitle": "Ajanta Caves: Paintings, History & How to Visit",
+      "seoDescription": "Ajanta Caves: Buddhist caves from the 2nd–1st centuries BC and the Gupta period, with world-famous paintings, about 100 km from Chhatrapati Sambhajinagar.",
+      "lat": 20.55333333,
+      "lng": 75.70027778,
+      "tripTypes": [
+        "heritage"
+      ],
+      "images": [
+        {
+          "commons": "File:Ajanta_(63).jpg",
+          "alt": "Carved Buddhist cave facades at Ajanta",
+          "caption": "Ajanta Caves",
+          "hero": true
+        }
+      ],
+      "sections": {
+        "overview": {
+          "text": "Ajanta's first Buddhist caves date from the 2nd and 1st centuries BC; richly decorated caves were added in the Gupta period. Its paintings and sculptures are masterpieces of Buddhist art.",
+          "facts": [
+            "AJ1",
+            "AJ2"
+          ]
+        },
+        "how_to_reach": {
+          "text": "Ajanta is about 100 km from Chhatrapati Sambhajinagar — a full day trip by road.",
+          "facts": [
+            "SN1"
+          ]
+        },
+        "practical_info": {
+          "items": [
+            {
+              "title": "World Heritage",
+              "body": "Maharashtra has 5 UNESCO World Heritage Sites, including the Ajanta, Ellora and Elephanta caves."
+            },
+            {
+              "title": "Food",
+              "body": "Eat vada pav on Mumbai's streets and a traditional Maharashtrian thali."
+            },
+            {
+              "title": "Airports",
+              "body": "Maharashtra's main international airports are Mumbai (BOM) and Nagpur (NAG)."
+            }
+          ],
+          "facts": [
+            "MH1",
+            "MH_FOOD",
+            "MH_AIR"
+          ]
+        },
+        "things_to_do": {
+          "items": [
+            {
+              "body": "Elsewhere in Maharashtra — Chhatrapati Sambhajinagar (Aurangabad): Chhatrapati Sambhajinagar, formerly Aurangabad, is the base for Ellora and for Ajanta, about 100 km away."
+            },
+            {
+              "body": "Elsewhere in Maharashtra — Pune: Pune mixes Maratha history and a modern city; Sinhagad Fort above it offers wide views."
+            },
+            {
+              "body": "Elsewhere in Maharashtra — Mahabaleshwar: Mahabaleshwar is a hill station at about 4,500 ft in the Sahyadris, with a 500-year-old Shiva temple; Panchgani is 20 km away."
+            },
+            {
+              "body": "Elsewhere in Maharashtra — Nashik: Nashik, on the Godavari, hosts the Kumbh Mela every 12 years and is linked to Rama's exile."
+            }
+          ],
+          "facts": [
+            "SN1",
+            "PUN1",
+            "MAB1",
+            "NSK1"
+          ]
+        }
+      },
+      "wikidataId": "Q184427"
+    },
+    {
+      "key": "maharashtra/daulatabad-fort",
+      "kind": "attraction",
+      "name": "Daulatabad (Deogiri) Fort",
+      "summary": "A 12th-century hill fort with a 63 m tower, deep moat and about 750 steps to the top.",
+      "seoTitle": "Daulatabad Fort (Deogiri): Climb, Chand Minar & Tips",
+      "seoDescription": "Daulatabad (Deogiri) Fort near Ellora: a 12th-century hill fort, the 63 m Chand Minar, a deep moat and about 750 steps to the summit.",
+      "lat": 19.942724,
+      "lng": 75.213164,
+      "tripTypes": [
+        "heritage",
+        "adventure"
+      ],
+      "images": [
+        {
+          "commons": "File:Daulatabad_Fort_a_view.JPG",
+          "alt": "Daulatabad Fort on its rocky hill",
+          "caption": "Daulatabad Fort",
+          "hero": true
+        }
+      ],
+      "sections": {
+        "overview": {
+          "text": "Daulatabad, also called Deogiri, is 15 km from Ellora and dates to the 12th century. The Chand Minar tower is over 63 m tall, and a 30 m moat once guarded the fort.",
+          "facts": [
+            "DAU1",
+            "DAU2"
+          ]
+        },
+        "travel_tips": {
+          "items": [
+            {
+              "body": "About 750 steps lead to the summit — start early and carry water."
+            }
+          ],
+          "facts": [
+            "DAU1"
+          ]
+        },
+        "highlights": {
+          "items": [
+            {
+              "body": "Also in Chhatrapati Sambhajinagar (Aurangabad) — Ellora Caves: Ellora's 34 caves are Buddhist, Hindu and Jain temples and monasteries cut into the rock between the 6th and 10th centuries."
+            },
+            {
+              "body": "Also in Chhatrapati Sambhajinagar (Aurangabad) — Grishneshwar Temple: Grishneshwar, near Ellora, is revered as the 12th Jyotirlinga; men remove their shirts to enter the sanctum."
+            }
+          ],
+          "facts": [
+            "ELL1",
+            "GRI1"
+          ]
+        },
+        "practical_info": {
+          "items": [
+            {
+              "title": "World Heritage",
+              "body": "Maharashtra has 5 UNESCO World Heritage Sites, including the Ajanta, Ellora and Elephanta caves."
+            },
+            {
+              "title": "Food",
+              "body": "Eat vada pav on Mumbai's streets and a traditional Maharashtrian thali."
+            },
+            {
+              "title": "Airports",
+              "body": "Maharashtra's main international airports are Mumbai (BOM) and Nagpur (NAG)."
+            }
+          ],
+          "facts": [
+            "MH1",
+            "MH_FOOD",
+            "MH_AIR"
+          ]
+        }
+      },
+      "wikidataId": "Q88667786",
+      "parent": "maharashtra/chhatrapati-sambhaji-nagar"
+    },
+    {
+      "key": "maharashtra/grishneshwar-temple",
+      "kind": "temple",
+      "name": "Grishneshwar Temple",
+      "summary": "The 12th Jyotirlinga, beside Ellora.",
+      "seoTitle": "Grishneshwar Jyotirlinga Temple: Aarti Times & Rules",
+      "seoDescription": "Grishneshwar near Ellora, the 12th Jyotirlinga: aarti at 5:30 am, noon, 7 pm and 9:30 pm, and the dress rule for the sanctum.",
+      "lat": 20.02497222,
+      "lng": 75.16991667,
+      "tripTypes": [
+        "spiritual",
+        "heritage"
+      ],
+      "images": [
+        {
+          "commons": "File:Grishneshwar_temple_in_Aurangabad_district.jpg",
+          "alt": "The carved stone Grishneshwar Temple near Ellora",
+          "caption": "Grishneshwar Temple",
+          "hero": true
+        }
+      ],
+      "sections": {
+        "overview": {
+          "text": "Grishneshwar is revered as the 12th and last Jyotirlinga. Men remove their shirts to enter the sanctum.",
+          "facts": [
+            "GRI1"
+          ]
+        },
+        "visit_info": {
+          "items": [
+            {
+              "title": "Aarti",
+              "body": "5:30 am, 12 noon, 7 pm and 9:30 pm.",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "GRI2"
+          ]
+        },
+        "highlights": {
+          "items": [
+            {
+              "body": "Also in Chhatrapati Sambhajinagar (Aurangabad) — Ellora Caves: Ellora's 34 caves are Buddhist, Hindu and Jain temples and monasteries cut into the rock between the 6th and 10th centuries."
+            },
+            {
+              "body": "Also in Chhatrapati Sambhajinagar (Aurangabad) — Daulatabad (Deogiri) Fort: Daulatabad (Deogiri) Fort, 15 km from Ellora, dates to the 12th century; about 750 steps lead to the top."
+            }
+          ],
+          "facts": [
+            "ELL1",
+            "DAU1"
+          ]
+        },
+        "travel_tips": {
+          "items": [
+            {
+              "body": "About Chhatrapati Sambhajinagar: Chhatrapati Sambhajinagar, formerly Aurangabad, is the base for Ellora and for Ajanta, about 100 km away."
+            },
+            {
+              "body": "About Chhatrapati Sambhajinagar: The best time to visit is November to March, when the weather is mild."
+            }
+          ],
+          "facts": [
+            "SN1",
+            "SN2"
+          ]
+        },
+        "practical_info": {
+          "items": [
+            {
+              "title": "World Heritage",
+              "body": "Maharashtra has 5 UNESCO World Heritage Sites, including the Ajanta, Ellora and Elephanta caves."
+            },
+            {
+              "title": "Food",
+              "body": "Eat vada pav on Mumbai's streets and a traditional Maharashtrian thali."
+            },
+            {
+              "title": "Airports",
+              "body": "Maharashtra's main international airports are Mumbai (BOM) and Nagpur (NAG)."
+            }
+          ],
+          "facts": [
+            "MH1",
+            "MH_FOOD",
+            "MH_AIR"
+          ]
+        }
+      },
+      "wikidataId": "Q1092799",
+      "parent": "maharashtra/chhatrapati-sambhaji-nagar"
+    },
+    {
+      "key": "maharashtra/pune",
+      "kind": "city",
+      "name": "Pune",
+      "summary": "Maratha history and a lively modern city: Shaniwar Wada, Aga Khan Palace and Sinhagad Fort.",
+      "seoTitle": "Pune Travel Guide: Forts, Palaces & Best Time",
+      "seoDescription": "Plan Pune: Shaniwar Wada, the Aga Khan Palace, Sinhagad Fort's views, and the best time to visit (October to February).",
+      "lat": 18.52111111,
+      "lng": 73.85527778,
+      "tripTypes": [
+        "heritage",
+        "food",
+        "weekend"
+      ],
+      "images": [
+        {
+          "commons": "File:Pune_West_skyline_-_March_2017.jpg",
+          "alt": "Pune's western skyline with hills behind",
+          "caption": "Pune",
+          "hero": true
+        }
+      ],
+      "sections": {
+        "overview": {
+          "text": "Pune mixes Maratha history and a modern city. Sinhagad Fort, on a hill outside town, gives wide views.",
+          "facts": [
+            "PUN1"
+          ]
+        },
+        "best_time": {
+          "text": "October to February, when it is pleasantly cool.",
+          "facts": [
+            "PUN2"
+          ]
+        },
+        "things_to_do": {
+          "items": [
+            {
+              "body": "Shaniwar Wada, the 18th-century palace-fort."
+            },
+            {
+              "body": "The Aga Khan Palace museum."
+            },
+            {
+              "body": "A climb to Sinhagad Fort."
+            }
+          ],
+          "facts": [
+            "SHW1",
+            "AGA1",
+            "PUN1"
+          ]
+        },
+        "highlights": {
+          "items": [
+            {
+              "body": "Shaniwar Wada: Shaniwar Wada is an 18th-century palace-fort in the heart of Pune; the rock-cut Pataleshwar Cave Temple is about 2 km away."
+            },
+            {
+              "body": "Aga Khan Palace: Built by Aga Khan III in 1892, the palace held Mahatma Gandhi, Kasturba Gandhi and others prisoner during the Quit India Movement; it is now a museum."
+            }
+          ],
+          "facts": [
+            "SHW1",
+            "AGA1"
+          ]
+        },
+        "practical_info": {
+          "items": [
+            {
+              "title": "World Heritage",
+              "body": "Maharashtra has 5 UNESCO World Heritage Sites, including the Ajanta, Ellora and Elephanta caves."
+            },
+            {
+              "title": "Food",
+              "body": "Eat vada pav on Mumbai's streets and a traditional Maharashtrian thali."
+            },
+            {
+              "title": "Airports",
+              "body": "Maharashtra's main international airports are Mumbai (BOM) and Nagpur (NAG)."
+            }
+          ],
+          "facts": [
+            "MH1",
+            "MH_FOOD",
+            "MH_AIR"
+          ]
+        },
+        "travel_tips": {
+          "items": [
+            {
+              "body": "In Maharashtra: Maharashtra has 5 UNESCO World Heritage Sites, including the Ajanta, Ellora and Elephanta caves."
+            },
+            {
+              "body": "In Maharashtra: Eat vada pav on Mumbai's streets and a traditional Maharashtrian thali."
+            },
+            {
+              "body": "In Maharashtra: Maharashtra's main international airports are Mumbai (BOM) and Nagpur (NAG)."
+            }
+          ],
+          "facts": [
+            "MH1",
+            "MH_FOOD",
+            "MH_AIR"
+          ]
+        }
+      },
+      "wikidataId": "Q1538",
+      "featured": true
+    },
+    {
+      "key": "maharashtra/shaniwar-wada",
+      "kind": "attraction",
+      "name": "Shaniwar Wada",
+      "summary": "Pune's 18th-century palace-fort.",
+      "seoTitle": "Shaniwar Wada Pune: History & What to See",
+      "seoDescription": "Shaniwar Wada, Pune's 18th-century palace-fort, and the rock-cut Pataleshwar Cave Temple about 2 km away.",
+      "lat": 18.519075,
+      "lng": 73.85545,
+      "tripTypes": [
+        "heritage"
+      ],
+      "images": [
+        {
+          "commons": "File:Front_view_of_Shaniwar_Wada_illuminated.jpg",
+          "alt": "The lit-up gateway of Shaniwar Wada in Pune",
+          "caption": "Shaniwar Wada",
+          "hero": true
+        }
+      ],
+      "sections": {
+        "overview": {
+          "text": "Shaniwar Wada is an 18th-century palace-fort in the heart of Pune. The rock-cut Pataleshwar Cave Temple is about 2 km away.",
+          "facts": [
+            "SHW1"
+          ]
+        },
+        "highlights": {
+          "items": [
+            {
+              "body": "Also in Pune — Aga Khan Palace: Built by Aga Khan III in 1892, the palace held Mahatma Gandhi, Kasturba Gandhi and others prisoner during the Quit India Movement; it is now a museum."
+            }
+          ],
+          "facts": [
+            "AGA1"
+          ]
+        },
+        "travel_tips": {
+          "items": [
+            {
+              "body": "About Pune: Pune mixes Maratha history and a modern city; Sinhagad Fort above it offers wide views."
+            },
+            {
+              "body": "About Pune: The best time to visit Pune is October to February."
+            }
+          ],
+          "facts": [
+            "PUN1",
+            "PUN2"
+          ]
+        },
+        "practical_info": {
+          "items": [
+            {
+              "title": "World Heritage",
+              "body": "Maharashtra has 5 UNESCO World Heritage Sites, including the Ajanta, Ellora and Elephanta caves."
+            },
+            {
+              "title": "Food",
+              "body": "Eat vada pav on Mumbai's streets and a traditional Maharashtrian thali."
+            },
+            {
+              "title": "Airports",
+              "body": "Maharashtra's main international airports are Mumbai (BOM) and Nagpur (NAG)."
+            }
+          ],
+          "facts": [
+            "MH1",
+            "MH_FOOD",
+            "MH_AIR"
+          ]
+        },
+        "things_to_do": {
+          "items": [
+            {
+              "body": "Elsewhere in Maharashtra — Chhatrapati Sambhajinagar (Aurangabad): Chhatrapati Sambhajinagar, formerly Aurangabad, is the base for Ellora and for Ajanta, about 100 km away."
+            },
+            {
+              "body": "Elsewhere in Maharashtra — Ajanta Caves: Ajanta's first Buddhist caves date from the 2nd and 1st centuries BC; more richly decorated caves were added in the Gupta period."
+            },
+            {
+              "body": "Elsewhere in Maharashtra — Pune: Pune mixes Maratha history and a modern city; Sinhagad Fort above it offers wide views."
+            },
+            {
+              "body": "Elsewhere in Maharashtra — Mahabaleshwar: Mahabaleshwar is a hill station at about 4,500 ft in the Sahyadris, with a 500-year-old Shiva temple; Panchgani is 20 km away."
+            }
+          ],
+          "facts": [
+            "SN1",
+            "AJ1",
+            "PUN1",
+            "MAB1"
+          ]
+        }
+      },
+      "wikidataId": "Q1351060",
+      "parent": "maharashtra/pune"
+    },
+    {
+      "key": "maharashtra/aga-khan-palace",
+      "kind": "museum",
+      "name": "Aga Khan Palace",
+      "summary": "The 1892 palace where Gandhi was held in 1942, now a museum of the freedom movement.",
+      "seoTitle": "Aga Khan Palace Pune: Gandhi History & Museum",
+      "seoDescription": "Aga Khan Palace, Pune: built in 1892, where Mahatma and Kasturba Gandhi were imprisoned during the Quit India Movement; now a museum.",
+      "lat": 18.5523,
+      "lng": 73.9015,
+      "tripTypes": [
+        "heritage"
+      ],
+      "images": [
+        {
+          "commons": "File:Pune_Palace.jpg",
+          "alt": "The arcaded Aga Khan Palace in Pune",
+          "caption": "Aga Khan Palace",
+          "hero": true
+        }
+      ],
+      "sections": {
+        "overview": {
+          "text": "Aga Khan III built the palace in 1892. During the Quit India Movement, Mahatma Gandhi, Kasturba Gandhi, Mahadev Desai and Sarojini Naidu were imprisoned here; it is now a museum.",
+          "facts": [
+            "AGA1"
+          ]
+        },
+        "highlights": {
+          "items": [
+            {
+              "body": "Also in Pune — Shaniwar Wada: Shaniwar Wada is an 18th-century palace-fort in the heart of Pune; the rock-cut Pataleshwar Cave Temple is about 2 km away."
+            }
+          ],
+          "facts": [
+            "SHW1"
+          ]
+        },
+        "travel_tips": {
+          "items": [
+            {
+              "body": "About Pune: Pune mixes Maratha history and a modern city; Sinhagad Fort above it offers wide views."
+            },
+            {
+              "body": "About Pune: The best time to visit Pune is October to February."
+            }
+          ],
+          "facts": [
+            "PUN1",
+            "PUN2"
+          ]
+        },
+        "practical_info": {
+          "items": [
+            {
+              "title": "World Heritage",
+              "body": "Maharashtra has 5 UNESCO World Heritage Sites, including the Ajanta, Ellora and Elephanta caves."
+            },
+            {
+              "title": "Food",
+              "body": "Eat vada pav on Mumbai's streets and a traditional Maharashtrian thali."
+            },
+            {
+              "title": "Airports",
+              "body": "Maharashtra's main international airports are Mumbai (BOM) and Nagpur (NAG)."
+            }
+          ],
+          "facts": [
+            "MH1",
+            "MH_FOOD",
+            "MH_AIR"
+          ]
+        },
+        "things_to_do": {
+          "items": [
+            {
+              "body": "Elsewhere in Maharashtra — Chhatrapati Sambhajinagar (Aurangabad): Chhatrapati Sambhajinagar, formerly Aurangabad, is the base for Ellora and for Ajanta, about 100 km away."
+            },
+            {
+              "body": "Elsewhere in Maharashtra — Ajanta Caves: Ajanta's first Buddhist caves date from the 2nd and 1st centuries BC; more richly decorated caves were added in the Gupta period."
+            },
+            {
+              "body": "Elsewhere in Maharashtra — Pune: Pune mixes Maratha history and a modern city; Sinhagad Fort above it offers wide views."
+            },
+            {
+              "body": "Elsewhere in Maharashtra — Mahabaleshwar: Mahabaleshwar is a hill station at about 4,500 ft in the Sahyadris, with a 500-year-old Shiva temple; Panchgani is 20 km away."
+            }
+          ],
+          "facts": [
+            "SN1",
+            "AJ1",
+            "PUN1",
+            "MAB1"
+          ]
+        }
+      },
+      "wikidataId": "Q2344976",
+      "parent": "maharashtra/pune"
+    },
+    {
+      "key": "maharashtra/mahabaleshwar",
+      "kind": "town",
+      "name": "Mahabaleshwar",
+      "summary": "A Sahyadri hill station at about 4,500 ft — strawberries, old temples and Pratapgad Fort.",
+      "seoTitle": "Mahabaleshwar Travel Guide: Temples, Forts & Strawberries",
+      "seoDescription": "Plan Mahabaleshwar: a hill station at 4,500 ft with a 500-year-old Shiva temple, strawberry season, Panchgani 20 km away and Pratapgad Fort.",
+      "lat": 17.925,
+      "lng": 73.6575,
+      "tripTypes": [
+        "mountains",
+        "weekend",
+        "family"
+      ],
+      "images": [
+        {
+          "commons": "File:MAHABALESWAR_LANDSCAPE.jpg",
+          "alt": "Forested hills and valleys around Mahabaleshwar",
+          "caption": "Mahabaleshwar",
+          "hero": true
+        }
+      ],
+      "sections": {
+        "overview": {
+          "text": "Mahabaleshwar sits at about 4,500 ft in the Sahyadris, with a 500-year-old Shiva temple. Panchgani is 20 km away.",
+          "facts": [
+            "MAB1"
+          ]
+        },
+        "food": {
+          "items": [
+            {
+              "body": "In strawberry season, stalls sell strawberry shakes, jams and more."
+            }
+          ],
+          "facts": [
+            "MAB2"
+          ]
+        },
+        "highlights": {
+          "items": [
+            {
+              "body": "Pratapgad Fort: Pratapgad Fort near Mahabaleshwar was built under Chhatrapati Shivaji Maharaj; his battle with Afzal Khan took place at its base."
+            }
+          ],
+          "facts": [
+            "PRA1"
+          ]
+        },
+        "practical_info": {
+          "items": [
+            {
+              "title": "World Heritage",
+              "body": "Maharashtra has 5 UNESCO World Heritage Sites, including the Ajanta, Ellora and Elephanta caves."
+            },
+            {
+              "title": "Food",
+              "body": "Eat vada pav on Mumbai's streets and a traditional Maharashtrian thali."
+            },
+            {
+              "title": "Airports",
+              "body": "Maharashtra's main international airports are Mumbai (BOM) and Nagpur (NAG)."
+            }
+          ],
+          "facts": [
+            "MH1",
+            "MH_FOOD",
+            "MH_AIR"
+          ]
+        },
+        "things_to_do": {
+          "items": [
+            {
+              "body": "Elsewhere in Maharashtra — Chhatrapati Sambhajinagar (Aurangabad): Chhatrapati Sambhajinagar, formerly Aurangabad, is the base for Ellora and for Ajanta, about 100 km away."
+            },
+            {
+              "body": "Elsewhere in Maharashtra — Ajanta Caves: Ajanta's first Buddhist caves date from the 2nd and 1st centuries BC; more richly decorated caves were added in the Gupta period."
+            },
+            {
+              "body": "Elsewhere in Maharashtra — Pune: Pune mixes Maratha history and a modern city; Sinhagad Fort above it offers wide views."
+            },
+            {
+              "body": "Elsewhere in Maharashtra — Nashik: Nashik, on the Godavari, hosts the Kumbh Mela every 12 years and is linked to Rama's exile."
+            }
+          ],
+          "facts": [
+            "SN1",
+            "AJ1",
+            "PUN1",
+            "NSK1"
+          ]
+        }
+      },
+      "wikidataId": "Q463273"
+    },
+    {
+      "key": "maharashtra/pratapgad-fort",
+      "kind": "attraction",
+      "name": "Pratapgad Fort",
+      "summary": "Shivaji Maharaj's hill fort near Mahabaleshwar, site of the battle with Afzal Khan.",
+      "seoTitle": "Pratapgad Fort: History, Views & Visit Tips",
+      "seoDescription": "Pratapgad Fort near Mahabaleshwar: built under Chhatrapati Shivaji Maharaj, where he fought Afzal Khan, with views over the Western Ghats.",
+      "lat": 17.936224,
+      "lng": 73.577607,
+      "tripTypes": [
+        "heritage",
+        "mountains"
+      ],
+      "images": [
+        {
+          "commons": "File:Pratapgad_The_Fort_of_Valour.jpg",
+          "alt": "Pratapgad Fort's ramparts on a Sahyadri hilltop",
+          "caption": "Pratapgad Fort",
+          "hero": true
+        }
+      ],
+      "sections": {
+        "overview": {
+          "text": "Pratapgad Fort near Mahabaleshwar was built under Chhatrapati Shivaji Maharaj. His famous battle with Afzal Khan was fought at its base.",
+          "facts": [
+            "PRA1"
+          ]
+        },
+        "travel_tips": {
+          "items": [
+            {
+              "body": "About Mahabaleshwar: Mahabaleshwar is a hill station at about 4,500 ft in the Sahyadris, with a 500-year-old Shiva temple; Panchgani is 20 km away."
+            },
+            {
+              "body": "About Mahabaleshwar: In strawberry season, stalls sell strawberry shakes, jams and more."
+            }
+          ],
+          "facts": [
+            "MAB1",
+            "MAB2"
+          ]
+        },
+        "practical_info": {
+          "items": [
+            {
+              "title": "World Heritage",
+              "body": "Maharashtra has 5 UNESCO World Heritage Sites, including the Ajanta, Ellora and Elephanta caves."
+            },
+            {
+              "title": "Food",
+              "body": "Eat vada pav on Mumbai's streets and a traditional Maharashtrian thali."
+            },
+            {
+              "title": "Airports",
+              "body": "Maharashtra's main international airports are Mumbai (BOM) and Nagpur (NAG)."
+            }
+          ],
+          "facts": [
+            "MH1",
+            "MH_FOOD",
+            "MH_AIR"
+          ]
+        },
+        "things_to_do": {
+          "items": [
+            {
+              "body": "Elsewhere in Maharashtra — Chhatrapati Sambhajinagar (Aurangabad): Chhatrapati Sambhajinagar, formerly Aurangabad, is the base for Ellora and for Ajanta, about 100 km away."
+            },
+            {
+              "body": "Elsewhere in Maharashtra — Ajanta Caves: Ajanta's first Buddhist caves date from the 2nd and 1st centuries BC; more richly decorated caves were added in the Gupta period."
+            },
+            {
+              "body": "Elsewhere in Maharashtra — Pune: Pune mixes Maratha history and a modern city; Sinhagad Fort above it offers wide views."
+            },
+            {
+              "body": "Elsewhere in Maharashtra — Mahabaleshwar: Mahabaleshwar is a hill station at about 4,500 ft in the Sahyadris, with a 500-year-old Shiva temple; Panchgani is 20 km away."
+            }
+          ],
+          "facts": [
+            "SN1",
+            "AJ1",
+            "PUN1",
+            "MAB1"
+          ]
+        }
+      },
+      "wikidataId": "Q3582929",
+      "parent": "maharashtra/mahabaleshwar"
+    },
+    {
+      "key": "maharashtra/nashik",
+      "kind": "city",
+      "name": "Nashik",
+      "summary": "Kumbh Mela city on the Godavari, Ramayana sites and India's wine capital.",
+      "seoTitle": "Nashik Travel Guide: Temples, Kumbh & Vineyards",
+      "seoDescription": "Plan Nashik: Panchavati and Ramkund on the Godavari, Trimbakeshwar temple, the Kumbh Mela every 12 years and the vineyards of India's wine capital.",
+      "lat": 19.9975,
+      "lng": 73.78980556,
+      "tripTypes": [
+        "spiritual",
+        "food",
+        "weekend"
+      ],
+      "images": [
+        {
+          "commons": "File:NashikViewfromPandavLeni.jpg",
+          "alt": "Nashik city seen from the Pandav Leni hills",
+          "caption": "Nashik",
+          "hero": true
+        }
+      ],
+      "sections": {
+        "overview": {
+          "text": "Nashik, on the Godavari, hosts the Kumbh Mela every 12 years and is tied to Rama's exile. It is also known as India's wine capital.",
+          "facts": [
+            "NSK1",
+            "NSK2"
+          ]
+        },
+        "things_to_do": {
+          "items": [
+            {
+              "body": "Bathe or watch the evening rituals at Ramkund in Panchavati."
+            },
+            {
+              "body": "Visit Trimbakeshwar temple in the hills."
+            },
+            {
+              "body": "Tour a vineyard."
+            }
+          ],
+          "facts": [
+            "PAN1",
+            "NSK2"
+          ]
+        },
+        "highlights": {
+          "items": [
+            {
+              "body": "Panchavati and Ramkund: Panchavati is the Ramayana-era site of Nashik, with the Ramkund bathing ghat on the Godavari; visit December to March."
+            }
+          ],
+          "facts": [
+            "PAN1"
+          ]
+        },
+        "practical_info": {
+          "items": [
+            {
+              "title": "World Heritage",
+              "body": "Maharashtra has 5 UNESCO World Heritage Sites, including the Ajanta, Ellora and Elephanta caves."
+            },
+            {
+              "title": "Food",
+              "body": "Eat vada pav on Mumbai's streets and a traditional Maharashtrian thali."
+            },
+            {
+              "title": "Airports",
+              "body": "Maharashtra's main international airports are Mumbai (BOM) and Nagpur (NAG)."
+            }
+          ],
+          "facts": [
+            "MH1",
+            "MH_FOOD",
+            "MH_AIR"
+          ]
+        },
+        "travel_tips": {
+          "items": [
+            {
+              "body": "In Maharashtra: Maharashtra has 5 UNESCO World Heritage Sites, including the Ajanta, Ellora and Elephanta caves."
+            },
+            {
+              "body": "In Maharashtra: Eat vada pav on Mumbai's streets and a traditional Maharashtrian thali."
+            },
+            {
+              "body": "In Maharashtra: Maharashtra's main international airports are Mumbai (BOM) and Nagpur (NAG)."
+            }
+          ],
+          "facts": [
+            "MH1",
+            "MH_FOOD",
+            "MH_AIR"
+          ]
+        }
+      },
+      "wikidataId": "Q200235"
+    },
+    {
+      "key": "maharashtra/panchavati",
+      "kind": "attraction",
+      "name": "Panchavati and Ramkund",
+      "summary": "Nashik's Ramayana-era quarter and its Ramkund ghat on the Godavari.",
+      "seoTitle": "Panchavati & Ramkund Nashik: What to See",
+      "seoDescription": "Panchavati in Nashik: the Ramayana-era quarter and the Ramkund bathing ghat on the Godavari. Best visited December to March.",
+      "lat": 20.0076,
+      "lng": 73.7924,
+      "tripTypes": [
+        "spiritual"
+      ],
+      "images": [
+        {
+          "commons": "File:Ramkund,nashik (2).jpg",
+          "alt": "The Ramkund bathing tank on the Godavari at Nashik",
+          "caption": "Ramkund, Panchavati",
+          "hero": true
+        }
+      ],
+      "sections": {
+        "overview": {
+          "text": "Panchavati is the Ramayana-era part of Nashik, with the Ramkund bathing ghat on the Godavari. Visit December to March.",
+          "facts": [
+            "PAN1"
+          ]
+        },
+        "travel_tips": {
+          "items": [
+            {
+              "body": "About Nashik: Nashik, on the Godavari, hosts the Kumbh Mela every 12 years and is linked to Rama's exile."
+            },
+            {
+              "body": "About Nashik: Nashik is known as India's wine capital; Trimbakeshwar Shiva temple is in the hills nearby."
+            }
+          ],
+          "facts": [
+            "NSK1",
+            "NSK2"
+          ]
+        },
+        "practical_info": {
+          "items": [
+            {
+              "title": "World Heritage",
+              "body": "Maharashtra has 5 UNESCO World Heritage Sites, including the Ajanta, Ellora and Elephanta caves."
+            },
+            {
+              "title": "Food",
+              "body": "Eat vada pav on Mumbai's streets and a traditional Maharashtrian thali."
+            },
+            {
+              "title": "Airports",
+              "body": "Maharashtra's main international airports are Mumbai (BOM) and Nagpur (NAG)."
+            }
+          ],
+          "facts": [
+            "MH1",
+            "MH_FOOD",
+            "MH_AIR"
+          ]
+        },
+        "things_to_do": {
+          "items": [
+            {
+              "body": "Elsewhere in Maharashtra — Chhatrapati Sambhajinagar (Aurangabad): Chhatrapati Sambhajinagar, formerly Aurangabad, is the base for Ellora and for Ajanta, about 100 km away."
+            },
+            {
+              "body": "Elsewhere in Maharashtra — Ajanta Caves: Ajanta's first Buddhist caves date from the 2nd and 1st centuries BC; more richly decorated caves were added in the Gupta period."
+            },
+            {
+              "body": "Elsewhere in Maharashtra — Pune: Pune mixes Maratha history and a modern city; Sinhagad Fort above it offers wide views."
+            },
+            {
+              "body": "Elsewhere in Maharashtra — Mahabaleshwar: Mahabaleshwar is a hill station at about 4,500 ft in the Sahyadris, with a 500-year-old Shiva temple; Panchgani is 20 km away."
+            }
+          ],
+          "facts": [
+            "SN1",
+            "AJ1",
+            "PUN1",
+            "MAB1"
+          ]
+        }
+      },
+      "parent": "maharashtra/nashik"
+    },
+    {
+      "key": "maharashtra/kolhapur",
+      "kind": "city",
+      "name": "Kolhapur",
+      "summary": "Home of the Mahalakshmi Temple, Kolhapuri chappals and the New Palace.",
+      "seoTitle": "Kolhapur Travel Guide: Temple, Palace & Chappals",
+      "seoDescription": "Plan Kolhapur: the 7th-century Mahalakshmi Temple, the New Palace, and shopping for Kolhapuri chappals.",
+      "lat": 16.69166667,
+      "lng": 74.23333333,
+      "tripTypes": [
+        "spiritual",
+        "heritage",
+        "food"
+      ],
+      "images": [
+        {
+          "commons": "File:Mahalaxmi_Temple,_Kolhapur.jpg",
+          "alt": "The Mahalakshmi Temple in Kolhapur",
+          "caption": "Kolhapur",
+          "hero": true
+        }
+      ],
+      "sections": {
+        "overview": {
+          "text": "Kolhapur is famous for Kolhapuri chappals. Its 19th-century New Palace mixes European and Indian styles.",
+          "facts": [
+            "KLP1"
+          ]
+        },
+        "things_to_do": {
+          "items": [
+            {
+              "body": "Visit the Mahalakshmi Temple, one of the Shakti Peethas."
+            }
+          ],
+          "facts": [
+            "MLX1"
+          ]
+        },
+        "highlights": {
+          "items": [
+            {
+              "body": "Mahalakshmi Temple, Kolhapur: The 7th-century Mahalakshmi (Ambabai) Temple is one of the Shakti Peethas, built in the Hemadpanti style."
+            }
+          ],
+          "facts": [
+            "MLX1"
+          ]
+        },
+        "practical_info": {
+          "items": [
+            {
+              "title": "World Heritage",
+              "body": "Maharashtra has 5 UNESCO World Heritage Sites, including the Ajanta, Ellora and Elephanta caves."
+            },
+            {
+              "title": "Food",
+              "body": "Eat vada pav on Mumbai's streets and a traditional Maharashtrian thali."
+            },
+            {
+              "title": "Airports",
+              "body": "Maharashtra's main international airports are Mumbai (BOM) and Nagpur (NAG)."
+            }
+          ],
+          "facts": [
+            "MH1",
+            "MH_FOOD",
+            "MH_AIR"
+          ]
+        },
+        "travel_tips": {
+          "items": [
+            {
+              "body": "In Maharashtra: Maharashtra has 5 UNESCO World Heritage Sites, including the Ajanta, Ellora and Elephanta caves."
+            },
+            {
+              "body": "In Maharashtra: Eat vada pav on Mumbai's streets and a traditional Maharashtrian thali."
+            },
+            {
+              "body": "In Maharashtra: Maharashtra's main international airports are Mumbai (BOM) and Nagpur (NAG)."
+            }
+          ],
+          "facts": [
+            "MH1",
+            "MH_FOOD",
+            "MH_AIR"
+          ]
+        }
+      },
+      "wikidataId": "Q209698"
+    },
+    {
+      "key": "maharashtra/mahalakshmi-temple-kolhapur",
+      "kind": "temple",
+      "name": "Mahalakshmi Temple, Kolhapur",
+      "summary": "A 7th-century Shakti Peetha of the goddess Ambabai.",
+      "seoTitle": "Mahalakshmi Temple Kolhapur: History & Visit",
+      "seoDescription": "Kolhapur's Mahalakshmi (Ambabai) Temple: a 7th-century Shakti Peetha in the Hemadpanti style.",
+      "lat": 16.7,
+      "lng": 74.23333333,
+      "tripTypes": [
+        "spiritual",
+        "heritage"
+      ],
+      "images": [
+        {
+          "commons": "File:Mahalaxmi_Temple,_Kolhapur.jpg",
+          "alt": "The carved stone Mahalakshmi Temple, Kolhapur",
+          "caption": "Mahalakshmi Temple",
+          "hero": true
+        }
+      ],
+      "sections": {
+        "overview": {
+          "text": "The Mahalakshmi (Ambabai) Temple dates back to the 7th century. It is one of the Shakti Peethas and is built in the Hemadpanti style.",
+          "facts": [
+            "MLX1"
+          ]
+        },
+        "travel_tips": {
+          "items": [
+            {
+              "body": "About Kolhapur: Kolhapur is famous for Kolhapuri chappals; its 19th-century New Palace mixes European and Indian styles."
+            }
+          ],
+          "facts": [
+            "KLP1"
+          ]
+        },
+        "practical_info": {
+          "items": [
+            {
+              "title": "World Heritage",
+              "body": "Maharashtra has 5 UNESCO World Heritage Sites, including the Ajanta, Ellora and Elephanta caves."
+            },
+            {
+              "title": "Food",
+              "body": "Eat vada pav on Mumbai's streets and a traditional Maharashtrian thali."
+            },
+            {
+              "title": "Airports",
+              "body": "Maharashtra's main international airports are Mumbai (BOM) and Nagpur (NAG)."
+            }
+          ],
+          "facts": [
+            "MH1",
+            "MH_FOOD",
+            "MH_AIR"
+          ]
+        },
+        "things_to_do": {
+          "items": [
+            {
+              "body": "Elsewhere in Maharashtra — Chhatrapati Sambhajinagar (Aurangabad): Chhatrapati Sambhajinagar, formerly Aurangabad, is the base for Ellora and for Ajanta, about 100 km away."
+            },
+            {
+              "body": "Elsewhere in Maharashtra — Ajanta Caves: Ajanta's first Buddhist caves date from the 2nd and 1st centuries BC; more richly decorated caves were added in the Gupta period."
+            },
+            {
+              "body": "Elsewhere in Maharashtra — Pune: Pune mixes Maratha history and a modern city; Sinhagad Fort above it offers wide views."
+            },
+            {
+              "body": "Elsewhere in Maharashtra — Mahabaleshwar: Mahabaleshwar is a hill station at about 4,500 ft in the Sahyadris, with a 500-year-old Shiva temple; Panchgani is 20 km away."
+            }
+          ],
+          "facts": [
+            "SN1",
+            "AJ1",
+            "PUN1",
+            "MAB1"
+          ]
+        }
+      },
+      "wikidataId": "Q3595240",
+      "parent": "maharashtra/kolhapur"
+    },
+    {
+      "key": "west-bengal/kolkata",
+      "kind": "city",
+      "name": "Kolkata",
+      "summary": "Bengal's cultural capital: the Victoria Memorial, Howrah Bridge, Kali temples, College Street and Durga Puja.",
+      "seoTitle": "Kolkata Travel Guide: Sights, Food & Durga Puja",
+      "seoDescription": "Plan Kolkata: Victoria Memorial, Howrah Bridge, Dakshineswar and Kalighat, Belur Math, the Indian Museum, College Street and Durga Puja.",
+      "lat": 22.5675,
+      "lng": 88.37,
+      "tripTypes": [
+        "heritage",
+        "food",
+        "spiritual"
+      ],
+      "images": [
+        {
+          "commons": "File:Kolkata_maidan.jpg",
+          "alt": "The Maidan in central Kolkata",
+          "caption": "The Maidan, Kolkata",
+          "hero": true
+        }
+      ],
+      "sections": {
+        "overview": {
+          "text": "Kolkata's landmarks include the Howrah Bridge, New Market, the Victoria Memorial and the Maidan. Tagore's Rabindra Sangeet is part of the city's culture, and Durga Puja is one of India's grandest festivals.",
+          "facts": [
+            "KOL1",
+            "KOL2"
+          ]
+        },
+        "things_to_do": {
+          "items": [
+            {
+              "body": "Walk the gardens and galleries of the Victoria Memorial."
+            },
+            {
+              "body": "Cross the Howrah Bridge."
+            },
+            {
+              "body": "Visit Dakshineswar and Belur Math on the Hooghly."
+            },
+            {
+              "body": "Browse the bookstalls of College Street."
+            }
+          ],
+          "facts": [
+            "VIC1",
+            "HOW1",
+            "DAK1",
+            "BEL1",
+            "CS1"
+          ]
+        },
+        "highlights": {
+          "items": [
+            {
+              "body": "Victoria Memorial: The white-marble Victoria Memorial was built 1906–1921 in 64 acres of gardens and has 25 galleries."
+            },
+            {
+              "body": "Howrah Bridge: Howrah Bridge over the Hooghly opened on 3 February 1943 and is the world's busiest cantilever bridge."
+            },
+            {
+              "body": "Dakshineswar Kali Temple: Dakshineswar Kali Temple on the Hooghly was built by Rani Rashmoni; its idols were installed on 31 May 1855."
+            },
+            {
+              "body": "Belur Math: Belur Math, headquarters of the Ramakrishna movement, was consecrated by Swami Vivekananda in 1898; he spent his last years here."
+            },
+            {
+              "body": "Indian Museum: The Indian Museum, established in 1814, holds Buddhist sculpture, miniature paintings and even a dinosaur egg."
+            }
+          ],
+          "facts": [
+            "VIC1",
+            "HOW1",
+            "DAK1",
+            "BEL1",
+            "IM1"
+          ]
+        }
+      },
+      "wikidataId": "Q1348",
+      "featured": true
+    },
+    {
+      "key": "west-bengal/victoria-memorial",
+      "kind": "museum",
+      "name": "Victoria Memorial",
+      "summary": "Kolkata's white-marble memorial and museum in 64 acres of gardens.",
+      "seoTitle": "Victoria Memorial Kolkata: Galleries & Gardens",
+      "seoDescription": "Victoria Memorial, Kolkata: built 1906–1921 in 64 acres of gardens, with 25 galleries including the Kolkata Gallery.",
+      "lat": 22.5449,
+      "lng": 88.3425,
+      "tripTypes": [
+        "heritage",
+        "family"
+      ],
+      "images": [
+        {
+          "commons": "File:Victoria_Memorial_situated_in_Kolkata.jpg",
+          "alt": "The white marble Victoria Memorial and its gardens",
+          "caption": "Victoria Memorial",
+          "hero": true
+        }
+      ],
+      "sections": {
+        "overview": {
+          "text": "The Victoria Memorial was built between 1906 and 1921 and stands in 64 acres of gardens. Its 25 galleries include royal portraits and the Kolkata Gallery.",
+          "facts": [
+            "VIC1"
+          ]
+        },
+        "highlights": {
+          "items": [
+            {
+              "body": "Also in Kolkata — Howrah Bridge: Howrah Bridge over the Hooghly opened on 3 February 1943 and is the world's busiest cantilever bridge."
+            },
+            {
+              "body": "Also in Kolkata — Dakshineswar Kali Temple: Dakshineswar Kali Temple on the Hooghly was built by Rani Rashmoni; its idols were installed on 31 May 1855."
+            },
+            {
+              "body": "Also in Kolkata — Belur Math: Belur Math, headquarters of the Ramakrishna movement, was consecrated by Swami Vivekananda in 1898; he spent his last years here."
+            },
+            {
+              "body": "Also in Kolkata — Indian Museum: The Indian Museum, established in 1814, holds Buddhist sculpture, miniature paintings and even a dinosaur egg."
+            }
+          ],
+          "facts": [
+            "HOW1",
+            "DAK1",
+            "BEL1",
+            "IM1"
+          ]
+        },
+        "travel_tips": {
+          "items": [
+            {
+              "body": "About Kolkata: Kolkata's landmarks include the Howrah Bridge, New Market, the Victoria Memorial and the Maidan; Tagore's Rabindra Sangeet is part of its culture."
+            },
+            {
+              "body": "About Kolkata: Durga Puja is one of India's grandest celebrations."
+            }
+          ],
+          "facts": [
+            "KOL1",
+            "KOL2"
+          ]
+        }
+      },
+      "wikidataId": "Q1356352",
+      "parent": "west-bengal/kolkata"
+    },
+    {
+      "key": "west-bengal/howrah-bridge",
+      "kind": "attraction",
+      "name": "Howrah Bridge",
+      "summary": "The steel cantilever bridge over the Hooghly, opened in 1943.",
+      "seoTitle": "Howrah Bridge Kolkata: History & Best Views",
+      "seoDescription": "Howrah Bridge over the Hooghly: opened on 3 February 1943, the world's busiest cantilever bridge.",
+      "lat": 22.5851,
+      "lng": 88.3469,
+      "tripTypes": [
+        "heritage"
+      ],
+      "images": [
+        {
+          "commons": "File:Howrah_bridge_at_night.jpg",
+          "alt": "Howrah Bridge lit up over the Hooghly at night",
+          "caption": "Howrah Bridge",
+          "hero": true
+        }
+      ],
+      "sections": {
+        "overview": {
+          "text": "Howrah Bridge opened on 3 February 1943 and is the world's busiest cantilever bridge.",
+          "facts": [
+            "HOW1"
+          ]
+        },
+        "highlights": {
+          "items": [
+            {
+              "body": "Also in Kolkata — Victoria Memorial: The white-marble Victoria Memorial was built 1906–1921 in 64 acres of gardens and has 25 galleries."
+            },
+            {
+              "body": "Also in Kolkata — Dakshineswar Kali Temple: Dakshineswar Kali Temple on the Hooghly was built by Rani Rashmoni; its idols were installed on 31 May 1855."
+            },
+            {
+              "body": "Also in Kolkata — Belur Math: Belur Math, headquarters of the Ramakrishna movement, was consecrated by Swami Vivekananda in 1898; he spent his last years here."
+            },
+            {
+              "body": "Also in Kolkata — Indian Museum: The Indian Museum, established in 1814, holds Buddhist sculpture, miniature paintings and even a dinosaur egg."
+            }
+          ],
+          "facts": [
+            "VIC1",
+            "DAK1",
+            "BEL1",
+            "IM1"
+          ]
+        },
+        "travel_tips": {
+          "items": [
+            {
+              "body": "About Kolkata: Kolkata's landmarks include the Howrah Bridge, New Market, the Victoria Memorial and the Maidan; Tagore's Rabindra Sangeet is part of its culture."
+            },
+            {
+              "body": "About Kolkata: Durga Puja is one of India's grandest celebrations."
+            }
+          ],
+          "facts": [
+            "KOL1",
+            "KOL2"
+          ]
+        }
+      },
+      "wikidataId": "Q739641",
+      "parent": "west-bengal/kolkata"
+    },
+    {
+      "key": "west-bengal/dakshineswar-kali-temple",
+      "kind": "temple",
+      "name": "Dakshineswar Kali Temple",
+      "summary": "Rani Rashmoni's Kali temple on the Hooghly, consecrated in 1855.",
+      "seoTitle": "Dakshineswar Kali Temple: History & Visit",
+      "seoDescription": "Dakshineswar Kali Temple on the Hooghly: built by Rani Rashmoni, with idols installed in 1855, across the river from Belur Math.",
+      "lat": 22.655,
+      "lng": 88.35777778,
+      "tripTypes": [
+        "spiritual",
+        "heritage"
+      ],
+      "images": [
+        {
+          "commons": "File:Dakhineshwar_Temple_beside_the_Hoogly,_West_Bengal.JPG",
+          "alt": "Dakshineswar Kali Temple beside the Hooghly",
+          "caption": "Dakshineswar Kali Temple",
+          "hero": true
+        }
+      ],
+      "sections": {
+        "overview": {
+          "text": "Rani Rashmoni built the Dakshineswar Kali Temple on the Hooghly; its idols were installed on 31 May 1855.",
+          "facts": [
+            "DAK1"
+          ]
+        },
+        "highlights": {
+          "items": [
+            {
+              "body": "Also in Kolkata — Victoria Memorial: The white-marble Victoria Memorial was built 1906–1921 in 64 acres of gardens and has 25 galleries."
+            },
+            {
+              "body": "Also in Kolkata — Howrah Bridge: Howrah Bridge over the Hooghly opened on 3 February 1943 and is the world's busiest cantilever bridge."
+            },
+            {
+              "body": "Also in Kolkata — Belur Math: Belur Math, headquarters of the Ramakrishna movement, was consecrated by Swami Vivekananda in 1898; he spent his last years here."
+            },
+            {
+              "body": "Also in Kolkata — Indian Museum: The Indian Museum, established in 1814, holds Buddhist sculpture, miniature paintings and even a dinosaur egg."
+            }
+          ],
+          "facts": [
+            "VIC1",
+            "HOW1",
+            "BEL1",
+            "IM1"
+          ]
+        },
+        "travel_tips": {
+          "items": [
+            {
+              "body": "About Kolkata: Kolkata's landmarks include the Howrah Bridge, New Market, the Victoria Memorial and the Maidan; Tagore's Rabindra Sangeet is part of its culture."
+            },
+            {
+              "body": "About Kolkata: Durga Puja is one of India's grandest celebrations."
+            }
+          ],
+          "facts": [
+            "KOL1",
+            "KOL2"
+          ]
+        }
+      },
+      "wikidataId": "Q1157765",
+      "parent": "west-bengal/kolkata",
+      "relations": [
+        {
+          "to": "west-bengal/belur-math",
+          "type": "nearby"
+        }
+      ]
+    },
+    {
+      "key": "west-bengal/belur-math",
+      "kind": "temple",
+      "name": "Belur Math",
+      "summary": "Swami Vivekananda's riverside monastery, consecrated in 1898.",
+      "seoTitle": "Belur Math: Ramakrishna Mission Headquarters",
+      "seoDescription": "Belur Math on the Hooghly: consecrated by Swami Vivekananda in 1898 with temples to Sri Ramakrishna, Sarada Devi and Vivekananda.",
+      "lat": 22.6325,
+      "lng": 88.35638889,
+      "tripTypes": [
+        "spiritual"
+      ],
+      "images": [
+        {
+          "commons": "File:Belur_Math,_Howrah.jpg",
+          "alt": "The main temple at Belur Math",
+          "caption": "Belur Math",
+          "hero": true
+        }
+      ],
+      "sections": {
+        "overview": {
+          "text": "Swami Vivekananda consecrated Belur Math in 1898 and spent his last years here.",
+          "facts": [
+            "BEL1"
+          ]
+        },
+        "highlights": {
+          "items": [
+            {
+              "body": "Also in Kolkata — Victoria Memorial: The white-marble Victoria Memorial was built 1906–1921 in 64 acres of gardens and has 25 galleries."
+            },
+            {
+              "body": "Also in Kolkata — Howrah Bridge: Howrah Bridge over the Hooghly opened on 3 February 1943 and is the world's busiest cantilever bridge."
+            },
+            {
+              "body": "Also in Kolkata — Dakshineswar Kali Temple: Dakshineswar Kali Temple on the Hooghly was built by Rani Rashmoni; its idols were installed on 31 May 1855."
+            },
+            {
+              "body": "Also in Kolkata — Indian Museum: The Indian Museum, established in 1814, holds Buddhist sculpture, miniature paintings and even a dinosaur egg."
+            }
+          ],
+          "facts": [
+            "VIC1",
+            "HOW1",
+            "DAK1",
+            "IM1"
+          ]
+        },
+        "travel_tips": {
+          "items": [
+            {
+              "body": "About Kolkata: Kolkata's landmarks include the Howrah Bridge, New Market, the Victoria Memorial and the Maidan; Tagore's Rabindra Sangeet is part of its culture."
+            },
+            {
+              "body": "About Kolkata: Durga Puja is one of India's grandest celebrations."
+            }
+          ],
+          "facts": [
+            "KOL1",
+            "KOL2"
+          ]
+        }
+      },
+      "wikidataId": "Q816234",
+      "parent": "west-bengal/kolkata",
+      "relations": [
+        {
+          "to": "west-bengal/dakshineswar-kali-temple",
+          "type": "nearby"
+        }
+      ]
+    },
+    {
+      "key": "west-bengal/indian-museum",
+      "kind": "museum",
+      "name": "Indian Museum",
+      "summary": "India's oldest museum, founded in 1814.",
+      "seoTitle": "Indian Museum Kolkata: Collections & Tips",
+      "seoDescription": "The Indian Museum, Kolkata, founded in 1814: Buddhist sculpture, miniature paintings, natural history and a dinosaur egg.",
+      "lat": 22.55805556,
+      "lng": 88.35083333,
+      "tripTypes": [
+        "heritage",
+        "family"
+      ],
+      "images": [
+        {
+          "commons": "File:Indian_Museum,_Courtyard,_Kolkata,_India.jpg",
+          "alt": "The colonnaded courtyard of the Indian Museum",
+          "caption": "Indian Museum",
+          "hero": true
+        }
+      ],
+      "sections": {
+        "overview": {
+          "text": "The Indian Museum was established in 1814. Its collections include Buddhist sculpture, miniature paintings and a dinosaur egg.",
+          "facts": [
+            "IM1"
+          ]
+        },
+        "highlights": {
+          "items": [
+            {
+              "body": "Also in Kolkata — Victoria Memorial: The white-marble Victoria Memorial was built 1906–1921 in 64 acres of gardens and has 25 galleries."
+            },
+            {
+              "body": "Also in Kolkata — Howrah Bridge: Howrah Bridge over the Hooghly opened on 3 February 1943 and is the world's busiest cantilever bridge."
+            },
+            {
+              "body": "Also in Kolkata — Dakshineswar Kali Temple: Dakshineswar Kali Temple on the Hooghly was built by Rani Rashmoni; its idols were installed on 31 May 1855."
+            },
+            {
+              "body": "Also in Kolkata — Belur Math: Belur Math, headquarters of the Ramakrishna movement, was consecrated by Swami Vivekananda in 1898; he spent his last years here."
+            }
+          ],
+          "facts": [
+            "VIC1",
+            "HOW1",
+            "DAK1",
+            "BEL1"
+          ]
+        },
+        "travel_tips": {
+          "items": [
+            {
+              "body": "About Kolkata: Kolkata's landmarks include the Howrah Bridge, New Market, the Victoria Memorial and the Maidan; Tagore's Rabindra Sangeet is part of its culture."
+            },
+            {
+              "body": "About Kolkata: Durga Puja is one of India's grandest celebrations."
+            }
+          ],
+          "facts": [
+            "KOL1",
+            "KOL2"
+          ]
+        }
+      },
+      "wikidataId": "Q1364900",
+      "parent": "west-bengal/kolkata"
+    },
+    {
+      "key": "west-bengal/kalighat-kali-temple",
+      "kind": "temple",
+      "name": "Kalighat Kali Temple",
+      "summary": "Kolkata's famous Kali temple.",
+      "seoTitle": "Kalighat Kali Temple Kolkata: Visit Guide",
+      "seoDescription": "Kalighat Kali Temple, Kolkata: the temple of the goddess Kali, whose present building dates from the 19th century.",
+      "lat": 22.52,
+      "lng": 88.34194444,
+      "tripTypes": [
+        "spiritual"
+      ],
+      "images": [
+        {
+          "commons": "File:Kalighat_Kali_Temple_after_renovation.jpg",
+          "alt": "Kalighat Kali Temple after renovation",
+          "caption": "Kalighat Kali Temple",
+          "hero": true
+        }
+      ],
+      "sections": {
+        "overview": {
+          "text": "Kalighat is the temple of the goddess Kali; the present building dates from the 19th century.",
+          "facts": [
+            "KGT1"
+          ]
+        },
+        "highlights": {
+          "items": [
+            {
+              "body": "Also in Kolkata — Victoria Memorial: The white-marble Victoria Memorial was built 1906–1921 in 64 acres of gardens and has 25 galleries."
+            },
+            {
+              "body": "Also in Kolkata — Howrah Bridge: Howrah Bridge over the Hooghly opened on 3 February 1943 and is the world's busiest cantilever bridge."
+            },
+            {
+              "body": "Also in Kolkata — Dakshineswar Kali Temple: Dakshineswar Kali Temple on the Hooghly was built by Rani Rashmoni; its idols were installed on 31 May 1855."
+            },
+            {
+              "body": "Also in Kolkata — Belur Math: Belur Math, headquarters of the Ramakrishna movement, was consecrated by Swami Vivekananda in 1898; he spent his last years here."
+            }
+          ],
+          "facts": [
+            "VIC1",
+            "HOW1",
+            "DAK1",
+            "BEL1"
+          ]
+        },
+        "travel_tips": {
+          "items": [
+            {
+              "body": "About Kolkata: Kolkata's landmarks include the Howrah Bridge, New Market, the Victoria Memorial and the Maidan; Tagore's Rabindra Sangeet is part of its culture."
+            },
+            {
+              "body": "About Kolkata: Durga Puja is one of India's grandest celebrations."
+            }
+          ],
+          "facts": [
+            "KOL1",
+            "KOL2"
+          ]
+        }
+      },
+      "wikidataId": "Q535970",
+      "parent": "west-bengal/kolkata"
+    },
+    {
+      "key": "west-bengal/college-street",
+      "kind": "attraction",
+      "name": "College Street (Boi Para)",
+      "summary": "Kolkata's historic book market.",
+      "seoTitle": "College Street Kolkata: Book Market Guide",
+      "seoDescription": "College Street, Kolkata's 'Boi Para' book market, named after Hindu College, founded in 1817.",
+      "lat": 22.575514,
+      "lng": 88.363354,
+      "tripTypes": [
+        "heritage",
+        "food"
+      ],
+      "images": [
+        {
+          "commons": "File:College_Street_-_Kolkata_7387.JPG",
+          "alt": "Bookstalls along College Street, Kolkata",
+          "caption": "College Street",
+          "hero": true
+        }
+      ],
+      "sections": {
+        "overview": {
+          "text": "College Street, or Boi Para, is Kolkata's book market. It is named after Hindu College, founded in 1817.",
+          "facts": [
+            "CS1"
+          ]
+        },
+        "highlights": {
+          "items": [
+            {
+              "body": "Also in Kolkata — Victoria Memorial: The white-marble Victoria Memorial was built 1906–1921 in 64 acres of gardens and has 25 galleries."
+            },
+            {
+              "body": "Also in Kolkata — Howrah Bridge: Howrah Bridge over the Hooghly opened on 3 February 1943 and is the world's busiest cantilever bridge."
+            },
+            {
+              "body": "Also in Kolkata — Dakshineswar Kali Temple: Dakshineswar Kali Temple on the Hooghly was built by Rani Rashmoni; its idols were installed on 31 May 1855."
+            },
+            {
+              "body": "Also in Kolkata — Belur Math: Belur Math, headquarters of the Ramakrishna movement, was consecrated by Swami Vivekananda in 1898; he spent his last years here."
+            }
+          ],
+          "facts": [
+            "VIC1",
+            "HOW1",
+            "DAK1",
+            "BEL1"
+          ]
+        },
+        "travel_tips": {
+          "items": [
+            {
+              "body": "About Kolkata: Kolkata's landmarks include the Howrah Bridge, New Market, the Victoria Memorial and the Maidan; Tagore's Rabindra Sangeet is part of its culture."
+            },
+            {
+              "body": "About Kolkata: Durga Puja is one of India's grandest celebrations."
+            }
+          ],
+          "facts": [
+            "KOL1",
+            "KOL2"
+          ]
+        }
+      },
+      "wikidataId": "Q5146558",
+      "parent": "west-bengal/kolkata"
+    },
+    {
+      "key": "west-bengal/kalimpong",
+      "kind": "town",
+      "name": "Kalimpong",
+      "summary": "A quiet hill town at 1,250 m with monasteries, nurseries and Kanchenjunga views.",
+      "seoTitle": "Kalimpong Travel Guide: Monasteries & Views",
+      "seoDescription": "Plan Kalimpong: a hill station at 1,250 m with Zang Dhok Palri Phodang monastery, a cactus nursery and Deolo Hill's Kanchenjunga views.",
+      "lat": 27.06,
+      "lng": 88.47,
+      "tripTypes": [
+        "mountains",
+        "nature",
+        "weekend"
+      ],
+      "images": [
+        {
+          "commons": "File:View_of_Kalimpong,_India.jpg",
+          "alt": "Kalimpong town on a ridge among green hills",
+          "caption": "Kalimpong",
+          "hero": true
+        }
+      ],
+      "sections": {
+        "overview": {
+          "text": "Kalimpong is a hill station at 1,250 m. See the Zang Dhok Palri Phodang monastery and a cactus nursery with over 3,000 varieties.",
+          "facts": [
+            "KLM1"
+          ]
+        },
+        "things_to_do": {
+          "items": [
+            {
+              "body": "Go up Deolo Hill for Kanchenjunga views."
+            }
+          ],
+          "facts": [
+            "DEOL1"
+          ]
+        },
+        "highlights": {
+          "items": [
+            {
+              "body": "Deolo Hill: Deolo Hill above Kalimpong has views of the Kanchenjunga range and a flower park at the top."
+            }
+          ],
+          "facts": [
+            "DEOL1"
+          ]
+        },
+        "practical_info": {
+          "items": [
+            {
+              "title": "Durga Puja",
+              "body": "Durga Puja is West Bengal's most loved festival, with elaborate pandals across the state."
+            },
+            {
+              "title": "Heritage",
+              "body": "West Bengal's heritage runs from Bishnupur's terracotta temples to the ancient capital of Gour and Kolkata's Victoria Memorial."
+            },
+            {
+              "title": "Nature",
+              "body": "The Sundarbans is a UNESCO World Heritage Site; the hills have Darjeeling's tea gardens."
+            }
+          ],
+          "facts": [
+            "WB1",
+            "WB2",
+            "WB3"
+          ]
+        },
+        "travel_tips": {
+          "items": [
+            {
+              "body": "In West Bengal: Durga Puja is West Bengal's most loved festival, with elaborate pandals across the state."
+            },
+            {
+              "body": "In West Bengal: West Bengal's heritage runs from Bishnupur's terracotta temples to the ancient capital of Gour and Kolkata's Victoria Memorial."
+            },
+            {
+              "body": "In West Bengal: The Sundarbans is a UNESCO World Heritage Site; the hills have Darjeeling's tea gardens."
+            }
+          ],
+          "facts": [
+            "WB1",
+            "WB2",
+            "WB3"
+          ]
+        }
+      },
+      "wikidataId": "Q500877"
+    },
+    {
+      "key": "west-bengal/deolo-hill",
+      "kind": "viewpoint",
+      "name": "Deolo Hill",
+      "summary": "Kalimpong's highest viewpoint, facing Kanchenjunga.",
+      "seoTitle": "Deolo Hill Kalimpong: Views & Park",
+      "seoDescription": "Deolo Hill above Kalimpong: wide views of the Kanchenjunga range and a flower park at the summit.",
+      "lat": 27.0888,
+      "lng": 88.5026,
+      "tripTypes": [
+        "mountains",
+        "nature"
+      ],
+      "images": [
+        {
+          "commons": "File:Deolo, Kalimpong, West Bengal 734316, India - panoramio (1).jpg",
+          "alt": "Gardens on Deolo Hill above Kalimpong",
+          "caption": "Deolo Hill",
+          "hero": true
+        }
+      ],
+      "sections": {
+        "overview": {
+          "text": "Deolo Hill has wide views of the Kanchenjunga range and a flower park at the top.",
+          "facts": [
+            "DEOL1"
+          ]
+        },
+        "travel_tips": {
+          "items": [
+            {
+              "body": "About Kalimpong: Kalimpong is a hill station at 1,250 m with the Zang Dhok Palri Phodang monastery and a cactus nursery of over 3,000 varieties."
+            }
+          ],
+          "facts": [
+            "KLM1"
+          ]
+        },
+        "practical_info": {
+          "items": [
+            {
+              "title": "Durga Puja",
+              "body": "Durga Puja is West Bengal's most loved festival, with elaborate pandals across the state."
+            },
+            {
+              "title": "Heritage",
+              "body": "West Bengal's heritage runs from Bishnupur's terracotta temples to the ancient capital of Gour and Kolkata's Victoria Memorial."
+            },
+            {
+              "title": "Nature",
+              "body": "The Sundarbans is a UNESCO World Heritage Site; the hills have Darjeeling's tea gardens."
+            }
+          ],
+          "facts": [
+            "WB1",
+            "WB2",
+            "WB3"
+          ]
+        },
+        "things_to_do": {
+          "items": [
+            {
+              "body": "Elsewhere in West Bengal — Kolkata: Kolkata's landmarks include the Howrah Bridge, New Market, the Victoria Memorial and the Maidan; Tagore's Rabindra Sangeet is part of its culture."
+            },
+            {
+              "body": "Elsewhere in West Bengal — Kalimpong: Kalimpong is a hill station at 1,250 m with the Zang Dhok Palri Phodang monastery and a cactus nursery of over 3,000 varieties."
+            },
+            {
+              "body": "Elsewhere in West Bengal — Sundarbans National Park: The Sundarbans covers 10,000 sq km of the Ganges delta (more than half in India) and has the world's largest mangrove forest, home to tigers."
+            },
+            {
+              "body": "Elsewhere in West Bengal — Santiniketan: Rabindranath Tagore founded Santiniketan in 1901; the Visva Bharati 'world university' followed in 1921."
+            }
+          ],
+          "facts": [
+            "KOL1",
+            "KLM1",
+            "SUN1",
+            "SAN1"
+          ]
+        }
+      },
+      "wikidataId": "Q5259990",
+      "parent": "west-bengal/kalimpong"
+    },
+    {
+      "key": "west-bengal/sundarbans-national-park",
+      "kind": "nature",
+      "name": "Sundarbans National Park",
+      "summary": "The world's largest mangrove forest in the Ganges delta, home to tigers — a World Heritage Site.",
+      "seoTitle": "Sundarbans National Park: Mangroves & Tigers",
+      "seoDescription": "The Sundarbans: 10,000 sq km of Ganges delta with the world's largest mangrove forest, tigers and rare wildlife — a UNESCO World Heritage Site.",
+      "lat": 21.838,
+      "lng": 88.8852,
+      "tripTypes": [
+        "wildlife",
+        "nature"
+      ],
+      "images": [
+        {
+          "commons": "File:Sundarban_Tiger.jpg",
+          "alt": "A Bengal tiger in the Sundarbans",
+          "caption": "Sundarbans tiger",
+          "hero": true
+        }
+      ],
+      "sections": {
+        "overview": {
+          "text": "The Sundarbans covers 10,000 sq km of the Ganges delta, more than half in India. It has the world's largest mangrove forest and is home to tigers, aquatic mammals, birds and reptiles.",
+          "facts": [
+            "SUN1"
+          ]
+        },
+        "practical_info": {
+          "items": [
+            {
+              "title": "Durga Puja",
+              "body": "Durga Puja is West Bengal's most loved festival, with elaborate pandals across the state."
+            },
+            {
+              "title": "Heritage",
+              "body": "West Bengal's heritage runs from Bishnupur's terracotta temples to the ancient capital of Gour and Kolkata's Victoria Memorial."
+            },
+            {
+              "title": "Nature",
+              "body": "The Sundarbans is a UNESCO World Heritage Site; the hills have Darjeeling's tea gardens."
+            }
+          ],
+          "facts": [
+            "WB1",
+            "WB2",
+            "WB3"
+          ]
+        },
+        "things_to_do": {
+          "items": [
+            {
+              "body": "Elsewhere in West Bengal — Kolkata: Kolkata's landmarks include the Howrah Bridge, New Market, the Victoria Memorial and the Maidan; Tagore's Rabindra Sangeet is part of its culture."
+            },
+            {
+              "body": "Elsewhere in West Bengal — Kalimpong: Kalimpong is a hill station at 1,250 m with the Zang Dhok Palri Phodang monastery and a cactus nursery of over 3,000 varieties."
+            },
+            {
+              "body": "Elsewhere in West Bengal — Santiniketan: Rabindranath Tagore founded Santiniketan in 1901; the Visva Bharati 'world university' followed in 1921."
+            }
+          ],
+          "facts": [
+            "KOL1",
+            "KLM1",
+            "SAN1"
+          ]
+        }
+      },
+      "wikidataId": "Q532440"
+    },
+    {
+      "key": "west-bengal/santiniketan",
+      "kind": "town",
+      "name": "Santiniketan",
+      "summary": "Tagore's school and Visva Bharati university — a World Heritage Site.",
+      "seoTitle": "Santiniketan: Tagore's Visva Bharati Guide",
+      "seoDescription": "Santiniketan, founded by Rabindranath Tagore in 1901, home of Visva Bharati university (1921) and a UNESCO World Heritage Site.",
+      "lat": 23.68,
+      "lng": 87.68,
+      "tripTypes": [
+        "heritage"
+      ],
+      "images": [
+        {
+          "commons": "File:Shantiniketan_Bari_of_Rabindranath_Tagore.jpg",
+          "alt": "A house of Rabindranath Tagore at Santiniketan",
+          "caption": "Santiniketan",
+          "hero": true
+        }
+      ],
+      "sections": {
+        "overview": {
+          "text": "Rabindranath Tagore founded Santiniketan in 1901; the Visva Bharati university followed in 1921.",
+          "facts": [
+            "SAN1"
+          ]
+        },
+        "practical_info": {
+          "items": [
+            {
+              "title": "Durga Puja",
+              "body": "Durga Puja is West Bengal's most loved festival, with elaborate pandals across the state."
+            },
+            {
+              "title": "Heritage",
+              "body": "West Bengal's heritage runs from Bishnupur's terracotta temples to the ancient capital of Gour and Kolkata's Victoria Memorial."
+            },
+            {
+              "title": "Nature",
+              "body": "The Sundarbans is a UNESCO World Heritage Site; the hills have Darjeeling's tea gardens."
+            }
+          ],
+          "facts": [
+            "WB1",
+            "WB2",
+            "WB3"
+          ]
+        },
+        "things_to_do": {
+          "items": [
+            {
+              "body": "Elsewhere in West Bengal — Kolkata: Kolkata's landmarks include the Howrah Bridge, New Market, the Victoria Memorial and the Maidan; Tagore's Rabindra Sangeet is part of its culture."
+            },
+            {
+              "body": "Elsewhere in West Bengal — Kalimpong: Kalimpong is a hill station at 1,250 m with the Zang Dhok Palri Phodang monastery and a cactus nursery of over 3,000 varieties."
+            },
+            {
+              "body": "Elsewhere in West Bengal — Sundarbans National Park: The Sundarbans covers 10,000 sq km of the Ganges delta (more than half in India) and has the world's largest mangrove forest, home to tigers."
+            }
+          ],
+          "facts": [
+            "KOL1",
+            "KLM1",
+            "SUN1"
+          ]
+        }
+      },
+      "wikidataId": "Q1026431"
+    },
+    {
+      "key": "punjab/patiala",
+      "kind": "city",
+      "name": "Patiala",
+      "summary": "Royal Patiala: Qila Mubarak, the Sheesh Mahal, Baradari Gardens and parandas.",
+      "seoTitle": "Patiala Travel Guide: Forts, Palaces & Shopping",
+      "seoDescription": "Plan Patiala: Qila Mubarak, the Sheesh Mahal, Baradari Gardens, and shopping for embroidered parandas.",
+      "lat": 30.34083333,
+      "lng": 76.40111111,
+      "tripTypes": [
+        "heritage",
+        "food"
+      ],
+      "images": [
+        {
+          "commons": "File:Qila_Mubarak,_Patiala_(Cropped).jpg",
+          "alt": "Qila Mubarak in Patiala",
+          "caption": "Qila Mubarak, Patiala",
+          "hero": true
+        }
+      ],
+      "sections": {
+        "overview": {
+          "text": "Patiala was founded by Baba Ala Singh of the Phulkian state and grew around Qila Mubarak, begun in 1763.",
+          "facts": [
+            "PAT1"
+          ]
+        },
+        "things_to_do": {
+          "items": [
+            {
+              "body": "Explore Qila Mubarak."
+            },
+            {
+              "body": "See the Sheesh Mahal."
+            },
+            {
+              "body": "Walk in Baradari Gardens."
+            },
+            {
+              "body": "Shop for embroidered parandas."
+            }
+          ],
+          "facts": [
+            "QM1",
+            "SHM1",
+            "PAT2"
+          ]
+        },
+        "highlights": {
+          "items": [
+            {
+              "body": "Qila Mubarak: Qila Mubarak, Patiala's fort, was begun in 1763 and shows Sikh palace architecture."
+            },
+            {
+              "body": "Sheesh Mahal, Patiala: Patiala's Sheesh Mahal, the 'Palace of Mirrors', was built 1845–1862 by Maharaja Narinder Singh."
+            }
+          ],
+          "facts": [
+            "QM1",
+            "SHM1"
+          ]
+        },
+        "practical_info": {
+          "items": [
+            {
+              "title": "Food",
+              "body": "Punjabi food to try: butter chicken, dal makhani, and makki di roti with sarson da saag."
+            },
+            {
+              "title": "Amritsar",
+              "body": "Amritsar is known for its markets, street food and the Wagah Border ceremony."
+            },
+            {
+              "title": "Harike",
+              "body": "Harike Wetland, where the Beas and Sutlej meet, is northern India's largest wetland and home to the endangered Indus river dolphin."
+            }
+          ],
+          "facts": [
+            "PB1",
+            "PB3",
+            "PB2"
+          ]
+        },
+        "travel_tips": {
+          "items": [
+            {
+              "body": "In Punjab: Punjabi food to try: butter chicken, dal makhani, and makki di roti with sarson da saag."
+            },
+            {
+              "body": "In Punjab: Amritsar is known for its markets, street food and the Wagah Border ceremony."
+            },
+            {
+              "body": "In Punjab: Harike Wetland, where the Beas and Sutlej meet, is northern India's largest wetland and home to the endangered Indus river dolphin."
+            }
+          ],
+          "facts": [
+            "PB1",
+            "PB3",
+            "PB2"
+          ]
+        }
+      },
+      "wikidataId": "Q208162",
+      "featured": true
+    },
+    {
+      "key": "punjab/qila-mubarak",
+      "kind": "attraction",
+      "name": "Qila Mubarak",
+      "summary": "Patiala's fort, begun in 1763.",
+      "seoTitle": "Qila Mubarak Patiala: History & Visit",
+      "seoDescription": "Qila Mubarak, Patiala's fort begun in 1763, showing Sikh palace architecture in the heart of the old city.",
+      "lat": 30.32427431,
+      "lng": 76.40075781,
+      "tripTypes": [
+        "heritage"
+      ],
+      "images": [
+        {
+          "commons": "File:Qila_Mubarak,_Patiala.jpg",
+          "alt": "Walls and gateway of Qila Mubarak, Patiala",
+          "caption": "Qila Mubarak",
+          "hero": true
+        }
+      ],
+      "sections": {
+        "overview": {
+          "text": "Qila Mubarak was begun in 1763; the city of Patiala grew around it. It shows Sikh palace architecture.",
+          "facts": [
+            "QM1",
+            "PAT1"
+          ]
+        },
+        "highlights": {
+          "items": [
+            {
+              "body": "Also in Patiala — Sheesh Mahal, Patiala: Patiala's Sheesh Mahal, the 'Palace of Mirrors', was built 1845–1862 by Maharaja Narinder Singh."
+            }
+          ],
+          "facts": [
+            "SHM1"
+          ]
+        },
+        "travel_tips": {
+          "items": [
+            {
+              "body": "About Patiala: Patiala, founded by Baba Ala Singh of the Phulkian state, grew around Qila Mubarak, begun in 1763."
+            },
+            {
+              "body": "About Patiala: Patiala is known for embroidered parandas (hair cords); Baradari Gardens has rare trees and colonial buildings."
+            }
+          ],
+          "facts": [
+            "PAT1",
+            "PAT2"
+          ]
+        },
+        "practical_info": {
+          "items": [
+            {
+              "title": "Food",
+              "body": "Punjabi food to try: butter chicken, dal makhani, and makki di roti with sarson da saag."
+            },
+            {
+              "title": "Amritsar",
+              "body": "Amritsar is known for its markets, street food and the Wagah Border ceremony."
+            },
+            {
+              "title": "Harike",
+              "body": "Harike Wetland, where the Beas and Sutlej meet, is northern India's largest wetland and home to the endangered Indus river dolphin."
+            }
+          ],
+          "facts": [
+            "PB1",
+            "PB3",
+            "PB2"
+          ]
+        },
+        "things_to_do": {
+          "items": [
+            {
+              "body": "Elsewhere in Punjab — Patiala: Patiala, founded by Baba Ala Singh of the Phulkian state, grew around Qila Mubarak, begun in 1763."
+            },
+            {
+              "body": "Elsewhere in Punjab — Kapurthala: Kapurthala is known for the Indo-Saracenic Jagatjit Palace and its Moorish Mosque."
+            },
+            {
+              "body": "Elsewhere in Punjab — Fatehgarh Sahib: Fatehgarh Sahib is named after Sahibzada Fateh Singh, younger son of Guru Gobind Singh; its gurdwara remembers him, Zorawar Singh and Mata Gujri."
+            },
+            {
+              "body": "Elsewhere in Punjab — Harike Wetland: Harike Wetland, where the Beas and Sutlej meet, is northern India's largest wetland and home to the endangered Indus river dolphin."
+            }
+          ],
+          "facts": [
+            "PAT1",
+            "KPT1",
+            "FGS1",
+            "PB2"
+          ]
+        }
+      },
+      "wikidataId": "Q7267731",
+      "parent": "punjab/patiala"
+    },
+    {
+      "key": "punjab/sheesh-mahal-patiala",
+      "kind": "attraction",
+      "name": "Sheesh Mahal, Patiala",
+      "summary": "Patiala's 19th-century 'Palace of Mirrors'.",
+      "seoTitle": "Sheesh Mahal Patiala: Palace of Mirrors",
+      "seoDescription": "Patiala's Sheesh Mahal, the Palace of Mirrors, built 1845–1862 by Maharaja Narinder Singh.",
+      "lat": 30.3296,
+      "lng": 76.4268,
+      "tripTypes": [
+        "heritage"
+      ],
+      "images": [
+        {
+          "commons": "File:Sheesh Mahal, Patiala.jpg",
+          "alt": "The Sheesh Mahal palace in Patiala",
+          "caption": "Sheesh Mahal, Patiala",
+          "hero": true
+        }
+      ],
+      "sections": {
+        "overview": {
+          "text": "Patiala's Sheesh Mahal, the 'Palace of Mirrors', was built between 1845 and 1862 by Maharaja Narinder Singh.",
+          "facts": [
+            "SHM1"
+          ]
+        },
+        "highlights": {
+          "items": [
+            {
+              "body": "Also in Patiala — Qila Mubarak: Qila Mubarak, Patiala's fort, was begun in 1763 and shows Sikh palace architecture."
+            }
+          ],
+          "facts": [
+            "QM1"
+          ]
+        },
+        "travel_tips": {
+          "items": [
+            {
+              "body": "About Patiala: Patiala, founded by Baba Ala Singh of the Phulkian state, grew around Qila Mubarak, begun in 1763."
+            },
+            {
+              "body": "About Patiala: Patiala is known for embroidered parandas (hair cords); Baradari Gardens has rare trees and colonial buildings."
+            }
+          ],
+          "facts": [
+            "PAT1",
+            "PAT2"
+          ]
+        },
+        "practical_info": {
+          "items": [
+            {
+              "title": "Food",
+              "body": "Punjabi food to try: butter chicken, dal makhani, and makki di roti with sarson da saag."
+            },
+            {
+              "title": "Amritsar",
+              "body": "Amritsar is known for its markets, street food and the Wagah Border ceremony."
+            },
+            {
+              "title": "Harike",
+              "body": "Harike Wetland, where the Beas and Sutlej meet, is northern India's largest wetland and home to the endangered Indus river dolphin."
+            }
+          ],
+          "facts": [
+            "PB1",
+            "PB3",
+            "PB2"
+          ]
+        },
+        "things_to_do": {
+          "items": [
+            {
+              "body": "Elsewhere in Punjab — Patiala: Patiala, founded by Baba Ala Singh of the Phulkian state, grew around Qila Mubarak, begun in 1763."
+            },
+            {
+              "body": "Elsewhere in Punjab — Kapurthala: Kapurthala is known for the Indo-Saracenic Jagatjit Palace and its Moorish Mosque."
+            },
+            {
+              "body": "Elsewhere in Punjab — Fatehgarh Sahib: Fatehgarh Sahib is named after Sahibzada Fateh Singh, younger son of Guru Gobind Singh; its gurdwara remembers him, Zorawar Singh and Mata Gujri."
+            },
+            {
+              "body": "Elsewhere in Punjab — Harike Wetland: Harike Wetland, where the Beas and Sutlej meet, is northern India's largest wetland and home to the endangered Indus river dolphin."
+            }
+          ],
+          "facts": [
+            "PAT1",
+            "KPT1",
+            "FGS1",
+            "PB2"
+          ]
+        }
+      },
+      "parent": "punjab/patiala"
+    },
+    {
+      "key": "punjab/kapurthala",
+      "kind": "town",
+      "name": "Kapurthala",
+      "summary": "Punjab's 'Paris': the Jagatjit Palace and the Moorish Mosque.",
+      "seoTitle": "Kapurthala Travel Guide: Palaces & Mosque",
+      "seoDescription": "Kapurthala: the Indo-Saracenic Jagatjit Palace, the Moorish Mosque and other monuments of a former princely state.",
+      "lat": 31.38,
+      "lng": 75.38,
+      "tripTypes": [
+        "heritage"
+      ],
+      "images": [
+        {
+          "commons": "File:Jagatjit_Club.JPG",
+          "alt": "The Jagatjit Club building in Kapurthala",
+          "caption": "Kapurthala",
+          "hero": true
+        }
+      ],
+      "sections": {
+        "overview": {
+          "text": "Kapurthala is known for the Indo-Saracenic Jagatjit Palace and its Moorish Mosque.",
+          "facts": [
+            "KPT1"
+          ]
+        },
+        "practical_info": {
+          "items": [
+            {
+              "title": "Food",
+              "body": "Punjabi food to try: butter chicken, dal makhani, and makki di roti with sarson da saag."
+            },
+            {
+              "title": "Amritsar",
+              "body": "Amritsar is known for its markets, street food and the Wagah Border ceremony."
+            },
+            {
+              "title": "Harike",
+              "body": "Harike Wetland, where the Beas and Sutlej meet, is northern India's largest wetland and home to the endangered Indus river dolphin."
+            }
+          ],
+          "facts": [
+            "PB1",
+            "PB3",
+            "PB2"
+          ]
+        },
+        "things_to_do": {
+          "items": [
+            {
+              "body": "Elsewhere in Punjab — Patiala: Patiala, founded by Baba Ala Singh of the Phulkian state, grew around Qila Mubarak, begun in 1763."
+            },
+            {
+              "body": "Elsewhere in Punjab — Fatehgarh Sahib: Fatehgarh Sahib is named after Sahibzada Fateh Singh, younger son of Guru Gobind Singh; its gurdwara remembers him, Zorawar Singh and Mata Gujri."
+            },
+            {
+              "body": "Elsewhere in Punjab — Harike Wetland: Harike Wetland, where the Beas and Sutlej meet, is northern India's largest wetland and home to the endangered Indus river dolphin."
+            }
+          ],
+          "facts": [
+            "PAT1",
+            "FGS1",
+            "PB2"
+          ]
+        }
+      },
+      "wikidataId": "Q781354"
+    },
+    {
+      "key": "punjab/fatehgarh-sahib",
+      "kind": "town",
+      "name": "Fatehgarh Sahib",
+      "summary": "A Sikh pilgrimage town remembering Guru Gobind Singh's younger son.",
+      "seoTitle": "Fatehgarh Sahib: Gurdwara & History",
+      "seoDescription": "Fatehgarh Sahib, named after Sahibzada Fateh Singh: its gurdwara honours him, Sahibzada Zorawar Singh and Mata Gujri.",
+      "lat": 30.64722222,
+      "lng": 76.39305556,
+      "tripTypes": [
+        "spiritual",
+        "heritage"
+      ],
+      "images": [
+        {
+          "commons": "File:Gurdwara_Fatehgarh_Sahib.jpg",
+          "alt": "Gurdwara Fatehgarh Sahib",
+          "caption": "Gurdwara Fatehgarh Sahib",
+          "hero": true
+        }
+      ],
+      "sections": {
+        "overview": {
+          "text": "Fatehgarh Sahib is named after Sahibzada Fateh Singh, younger son of Guru Gobind Singh. Its gurdwara remembers him, Sahibzada Zorawar Singh and Mata Gujri.",
+          "facts": [
+            "FGS1"
+          ]
+        },
+        "practical_info": {
+          "items": [
+            {
+              "title": "Food",
+              "body": "Punjabi food to try: butter chicken, dal makhani, and makki di roti with sarson da saag."
+            },
+            {
+              "title": "Amritsar",
+              "body": "Amritsar is known for its markets, street food and the Wagah Border ceremony."
+            },
+            {
+              "title": "Harike",
+              "body": "Harike Wetland, where the Beas and Sutlej meet, is northern India's largest wetland and home to the endangered Indus river dolphin."
+            }
+          ],
+          "facts": [
+            "PB1",
+            "PB3",
+            "PB2"
+          ]
+        },
+        "things_to_do": {
+          "items": [
+            {
+              "body": "Elsewhere in Punjab — Patiala: Patiala, founded by Baba Ala Singh of the Phulkian state, grew around Qila Mubarak, begun in 1763."
+            },
+            {
+              "body": "Elsewhere in Punjab — Kapurthala: Kapurthala is known for the Indo-Saracenic Jagatjit Palace and its Moorish Mosque."
+            },
+            {
+              "body": "Elsewhere in Punjab — Harike Wetland: Harike Wetland, where the Beas and Sutlej meet, is northern India's largest wetland and home to the endangered Indus river dolphin."
+            }
+          ],
+          "facts": [
+            "PAT1",
+            "KPT1",
+            "PB2"
+          ]
+        }
+      },
+      "wikidataId": "Q2765075"
+    },
+    {
+      "key": "punjab/harike-wetland",
+      "kind": "nature",
+      "name": "Harike Wetland",
+      "summary": "Northern India's largest wetland, where the Beas meets the Sutlej.",
+      "seoTitle": "Harike Wetland: Birds & Indus River Dolphins",
+      "seoDescription": "Harike Wetland and Bird Sanctuary, where the Beas and Sutlej meet: northern India's largest wetland, with many birds and the Indus river dolphin.",
+      "lat": 31.15,
+      "lng": 74.97,
+      "tripTypes": [
+        "wildlife",
+        "nature"
+      ],
+      "images": [
+        {
+          "commons": "File:Harike.jpg",
+          "alt": "Water and reeds at Harike Wetland",
+          "caption": "Harike Wetland",
+          "hero": true
+        }
+      ],
+      "sections": {
+        "overview": {
+          "text": "Harike, where the Beas and Sutlej meet, is northern India's largest wetland and home to many birds and the endangered Indus river dolphin.",
+          "facts": [
+            "PB2"
+          ]
+        },
+        "practical_info": {
+          "items": [
+            {
+              "title": "Food",
+              "body": "Punjabi food to try: butter chicken, dal makhani, and makki di roti with sarson da saag."
+            },
+            {
+              "title": "Amritsar",
+              "body": "Amritsar is known for its markets, street food and the Wagah Border ceremony."
+            },
+            {
+              "title": "Harike",
+              "body": "Harike Wetland, where the Beas and Sutlej meet, is northern India's largest wetland and home to the endangered Indus river dolphin."
+            }
+          ],
+          "facts": [
+            "PB1",
+            "PB3",
+            "PB2"
+          ]
+        },
+        "things_to_do": {
+          "items": [
+            {
+              "body": "Elsewhere in Punjab — Patiala: Patiala, founded by Baba Ala Singh of the Phulkian state, grew around Qila Mubarak, begun in 1763."
+            },
+            {
+              "body": "Elsewhere in Punjab — Kapurthala: Kapurthala is known for the Indo-Saracenic Jagatjit Palace and its Moorish Mosque."
+            },
+            {
+              "body": "Elsewhere in Punjab — Fatehgarh Sahib: Fatehgarh Sahib is named after Sahibzada Fateh Singh, younger son of Guru Gobind Singh; its gurdwara remembers him, Zorawar Singh and Mata Gujri."
+            }
+          ],
+          "facts": [
+            "PAT1",
+            "KPT1",
+            "FGS1"
+          ]
+        }
+      },
+      "wikidataId": "Q5657472"
+    },
+    {
+      "key": "bihar/patna",
+      "kind": "city",
+      "name": "Patna",
+      "summary": "Ancient Pataliputra on the Ganges: Patna Sahib, the Bihar Museum and Gol Ghar.",
+      "seoTitle": "Patna Travel Guide: Patna Sahib, Museums & Gol Ghar",
+      "seoDescription": "Plan Patna, ancient Pataliputra: Takht Sri Patna Sahib, the Bihar Museum, Gol Ghar and the Patna Museum's 200-million-year-old fossil tree.",
+      "lat": 25.59388889,
+      "lng": 85.1375,
+      "tripTypes": [
+        "heritage",
+        "spiritual"
+      ],
+      "images": [
+        {
+          "commons": "File:The Evening View from Ghandhi Ghat Patna 01.jpg",
+          "alt": "Evening on the Ganga at Gandhi Ghat, Patna",
+          "caption": "Gandhi Ghat, Patna",
+          "hero": true
+        }
+      ],
+      "sections": {
+        "overview": {
+          "text": "Patna, the ancient Pataliputra, has roots going back to 600 BC and lies along the Ganges.",
+          "facts": [
+            "PTN1"
+          ]
+        },
+        "things_to_do": {
+          "items": [
+            {
+              "body": "Visit Takht Sri Patna Sahib."
+            },
+            {
+              "body": "Spend a morning at the Bihar Museum."
+            },
+            {
+              "body": "Climb Gol Ghar."
+            },
+            {
+              "body": "See the 200-million-year-old fossil tree in the Patna Museum."
+            }
+          ],
+          "facts": [
+            "TPS1",
+            "BMU1",
+            "GOL1",
+            "PTN2"
+          ]
+        },
+        "highlights": {
+          "items": [
+            {
+              "body": "Takht Sri Patna Sahib: Takht Sri Patna Sahib, one of Sikhism's five takhts, marks the birthplace of Guru Gobind Singh; a museum above the sanctum holds relics."
+            },
+            {
+              "body": "Bihar Museum: The Bihar Museum covers 5.6 hectares; its galleries opened between 2015 and 2017 and trace the Maurya and Gupta empires, Buddhism and Jainism."
+            },
+            {
+              "body": "Gol Ghar: Gol Ghar, a 29 m granary dome, was built in 1786 under Warren Hastings after the famine of 1770."
+            }
+          ],
+          "facts": [
+            "TPS1",
+            "BMU1",
+            "GOL1"
+          ]
+        },
+        "practical_info": {
+          "items": [
+            {
+              "title": "Bihar",
+              "body": "Bihar is the birthplace of Buddhism and Jainism."
+            },
+            {
+              "title": "Chhath",
+              "body": "Chhath, Bihar's best-known festival, falls between late October and mid-November and lasts up to four days."
+            },
+            {
+              "title": "Madhubani",
+              "body": "Madhubani painting is Bihar's best-known art."
+            }
+          ],
+          "facts": [
+            "BR1",
+            "BR2",
+            "BR3"
+          ]
+        }
+      },
+      "wikidataId": "Q80484",
+      "featured": true
+    },
+    {
+      "key": "bihar/takht-sri-patna-sahib",
+      "kind": "temple",
+      "name": "Takht Sri Patna Sahib",
+      "summary": "One of Sikhism's five takhts, at Guru Gobind Singh's birthplace.",
+      "seoTitle": "Takht Sri Patna Sahib: Guru Gobind Singh Birthplace",
+      "seoDescription": "Takht Sri Patna Sahib: one of the five Sikh takhts, marking the birthplace of Guru Gobind Singh, with a relics museum above the sanctum.",
+      "lat": 25.59598256,
+      "lng": 85.23000152,
+      "tripTypes": [
+        "spiritual",
+        "heritage"
+      ],
+      "images": [
+        {
+          "commons": "File:TheJoyof350thAnniversary@IncredibleIndia.jpg",
+          "alt": "Takht Sri Patna Sahib lit up for celebrations",
+          "caption": "Takht Sri Patna Sahib",
+          "hero": true
+        }
+      ],
+      "sections": {
+        "overview": {
+          "text": "Takht Sri Patna Sahib is one of Sikhism's five takhts and marks the birthplace of Guru Gobind Singh. A museum above the sanctum holds relics.",
+          "facts": [
+            "TPS1"
+          ]
+        },
+        "highlights": {
+          "items": [
+            {
+              "body": "Also in Patna — Bihar Museum: The Bihar Museum covers 5.6 hectares; its galleries opened between 2015 and 2017 and trace the Maurya and Gupta empires, Buddhism and Jainism."
+            },
+            {
+              "body": "Also in Patna — Gol Ghar: Gol Ghar, a 29 m granary dome, was built in 1786 under Warren Hastings after the famine of 1770."
+            }
+          ],
+          "facts": [
+            "BMU1",
+            "GOL1"
+          ]
+        },
+        "travel_tips": {
+          "items": [
+            {
+              "body": "About Patna: Patna, ancient Pataliputra, has roots going back to 600 BC and lies along the Ganges."
+            },
+            {
+              "body": "About Patna: The Patna Museum displays a 15 m fossilised tree trunk believed to be 200 million years old."
+            }
+          ],
+          "facts": [
+            "PTN1",
+            "PTN2"
+          ]
+        },
+        "practical_info": {
+          "items": [
+            {
+              "title": "Bihar",
+              "body": "Bihar is the birthplace of Buddhism and Jainism."
+            },
+            {
+              "title": "Chhath",
+              "body": "Chhath, Bihar's best-known festival, falls between late October and mid-November and lasts up to four days."
+            },
+            {
+              "title": "Madhubani",
+              "body": "Madhubani painting is Bihar's best-known art."
+            }
+          ],
+          "facts": [
+            "BR1",
+            "BR2",
+            "BR3"
+          ]
+        }
+      },
+      "wikidataId": "Q30924",
+      "parent": "bihar/patna"
+    },
+    {
+      "key": "bihar/bihar-museum",
+      "kind": "museum",
+      "name": "Bihar Museum",
+      "summary": "A modern museum of Bihar's history, from the Mauryas to the Mughals.",
+      "seoTitle": "Bihar Museum Patna: Galleries & Tips",
+      "seoDescription": "The Bihar Museum, Patna: 5.6 hectares, galleries opened 2015–2017, covering the Maurya and Gupta empires, Buddhism and Jainism.",
+      "lat": 25.6081,
+      "lng": 85.121,
+      "tripTypes": [
+        "heritage",
+        "family"
+      ],
+      "images": [
+        {
+          "commons": "File:Bihar_Museum_Bailey_Road_02.jpg",
+          "alt": "The modern Bihar Museum building in Patna",
+          "caption": "Bihar Museum",
+          "hero": true
+        }
+      ],
+      "sections": {
+        "overview": {
+          "text": "The Bihar Museum covers 5.6 hectares; its galleries opened between 2015 and 2017 and trace the Maurya and Gupta empires, Buddhism and Jainism.",
+          "facts": [
+            "BMU1"
+          ]
+        },
+        "highlights": {
+          "items": [
+            {
+              "body": "Also in Patna — Takht Sri Patna Sahib: Takht Sri Patna Sahib, one of Sikhism's five takhts, marks the birthplace of Guru Gobind Singh; a museum above the sanctum holds relics."
+            },
+            {
+              "body": "Also in Patna — Gol Ghar: Gol Ghar, a 29 m granary dome, was built in 1786 under Warren Hastings after the famine of 1770."
+            }
+          ],
+          "facts": [
+            "TPS1",
+            "GOL1"
+          ]
+        },
+        "travel_tips": {
+          "items": [
+            {
+              "body": "About Patna: Patna, ancient Pataliputra, has roots going back to 600 BC and lies along the Ganges."
+            },
+            {
+              "body": "About Patna: The Patna Museum displays a 15 m fossilised tree trunk believed to be 200 million years old."
+            }
+          ],
+          "facts": [
+            "PTN1",
+            "PTN2"
+          ]
+        },
+        "practical_info": {
+          "items": [
+            {
+              "title": "Bihar",
+              "body": "Bihar is the birthplace of Buddhism and Jainism."
+            },
+            {
+              "title": "Chhath",
+              "body": "Chhath, Bihar's best-known festival, falls between late October and mid-November and lasts up to four days."
+            },
+            {
+              "title": "Madhubani",
+              "body": "Madhubani painting is Bihar's best-known art."
+            }
+          ],
+          "facts": [
+            "BR1",
+            "BR2",
+            "BR3"
+          ]
+        }
+      },
+      "wikidataId": "Q15961638",
+      "parent": "bihar/patna"
+    },
+    {
+      "key": "bihar/gol-ghar",
+      "kind": "attraction",
+      "name": "Gol Ghar",
+      "summary": "Patna's 1786 granary dome — climb it for river views.",
+      "seoTitle": "Gol Ghar Patna: History & Climb",
+      "seoDescription": "Gol Ghar, Patna: a 29 m granary built in 1786 under Warren Hastings after the famine of 1770.",
+      "lat": 25.6203374,
+      "lng": 85.1394483,
+      "tripTypes": [
+        "heritage",
+        "family"
+      ],
+      "images": [
+        {
+          "commons": "File:Golghar_४.jpg",
+          "alt": "The domed Gol Ghar granary in Patna",
+          "caption": "Gol Ghar",
+          "hero": true
+        }
+      ],
+      "sections": {
+        "overview": {
+          "text": "Gol Ghar is a 29 m granary dome built in 1786 under Warren Hastings, after the famine of 1770.",
+          "facts": [
+            "GOL1"
+          ]
+        },
+        "highlights": {
+          "items": [
+            {
+              "body": "Also in Patna — Takht Sri Patna Sahib: Takht Sri Patna Sahib, one of Sikhism's five takhts, marks the birthplace of Guru Gobind Singh; a museum above the sanctum holds relics."
+            },
+            {
+              "body": "Also in Patna — Bihar Museum: The Bihar Museum covers 5.6 hectares; its galleries opened between 2015 and 2017 and trace the Maurya and Gupta empires, Buddhism and Jainism."
+            }
+          ],
+          "facts": [
+            "TPS1",
+            "BMU1"
+          ]
+        },
+        "travel_tips": {
+          "items": [
+            {
+              "body": "About Patna: Patna, ancient Pataliputra, has roots going back to 600 BC and lies along the Ganges."
+            },
+            {
+              "body": "About Patna: The Patna Museum displays a 15 m fossilised tree trunk believed to be 200 million years old."
+            }
+          ],
+          "facts": [
+            "PTN1",
+            "PTN2"
+          ]
+        },
+        "practical_info": {
+          "items": [
+            {
+              "title": "Bihar",
+              "body": "Bihar is the birthplace of Buddhism and Jainism."
+            },
+            {
+              "title": "Chhath",
+              "body": "Chhath, Bihar's best-known festival, falls between late October and mid-November and lasts up to four days."
+            },
+            {
+              "title": "Madhubani",
+              "body": "Madhubani painting is Bihar's best-known art."
+            }
+          ],
+          "facts": [
+            "BR1",
+            "BR2",
+            "BR3"
+          ]
+        }
+      },
+      "wikidataId": "Q3630493",
+      "parent": "bihar/patna"
+    },
+    {
+      "key": "bihar/kesaria-stupa",
+      "kind": "attraction",
+      "name": "Kesaria Stupa",
+      "summary": "An Ashokan Buddhist stupa north of Patna.",
+      "seoTitle": "Kesaria Stupa: Ashoka's Buddhist Monument",
+      "seoDescription": "Kesaria Stupa: commissioned by Emperor Ashoka to mark the Buddha's visit, and described by Xuanzang in the 7th century.",
+      "lat": 26.33414,
+      "lng": 84.854762,
+      "tripTypes": [
+        "heritage",
+        "spiritual"
+      ],
+      "images": [
+        {
+          "commons": "File:Kesariya.jpg",
+          "alt": "The terraced brick mound of Kesaria Stupa",
+          "caption": "Kesaria Stupa",
+          "hero": true
+        }
+      ],
+      "sections": {
+        "overview": {
+          "text": "Kesaria Stupa was commissioned by Emperor Ashoka to mark the Buddha's visit. Xuanzang described it in the 7th century.",
+          "facts": [
+            "KES1"
+          ]
+        },
+        "things_to_do": {
+          "items": [
+            {
+              "body": "Combine it with Patna: Takht Sri Patna Sahib, the birthplace of Guru Gobind Singh."
+            },
+            {
+              "body": "The Bihar Museum, which traces the Maurya and Gupta empires, Buddhism and Jainism."
+            },
+            {
+              "body": "Gol Ghar, the 29 m granary dome of 1786."
+            }
+          ],
+          "facts": [
+            "TPS1",
+            "BMU1",
+            "GOL1"
+          ]
+        },
+        "practical_info": {
+          "items": [
+            {
+              "title": "Bihar",
+              "body": "Bihar is the birthplace of Buddhism and Jainism."
+            },
+            {
+              "title": "Chhath",
+              "body": "Chhath, Bihar's best-known festival, falls between late October and mid-November and lasts up to four days."
+            },
+            {
+              "title": "Madhubani",
+              "body": "Madhubani painting is Bihar's best-known art."
+            }
+          ],
+          "facts": [
+            "BR1",
+            "BR2",
+            "BR3"
+          ]
+        },
+        "travel_tips": {
+          "items": [
+            {
+              "body": "In Bihar: Bihar is the birthplace of Buddhism and Jainism."
+            },
+            {
+              "body": "In Bihar: Chhath, Bihar's best-known festival, falls between late October and mid-November and lasts up to four days."
+            },
+            {
+              "body": "In Bihar: Madhubani painting is Bihar's best-known art."
+            }
+          ],
+          "facts": [
+            "BR1",
+            "BR2",
+            "BR3"
+          ]
+        }
+      },
+      "wikidataId": "Q30587895"
+    },
+    {
+      "key": "puducherry/pondicherry",
+      "kind": "city",
+      "name": "Pondicherry (Puducherry town)",
+      "summary": "The former capital of French India, 170 km from Chennai: White Town, the promenade, the Aurobindo Ashram and seafood.",
+      "seoTitle": "Pondicherry Town Guide: White Town, Beaches & Food",
+      "seoDescription": "Plan Pondicherry: White Town, Promenade Beach, Sri Aurobindo Ashram, the Pondicherry Museum and Paradise Beach, about 170 km from Chennai.",
+      "lat": 11.93401361,
+      "lng": 79.82902833,
+      "tripTypes": [
+        "heritage",
+        "beaches",
+        "food",
+        "weekend"
+      ],
+      "images": [
+        {
+          "commons": "File:Streets of White town, Puducherry.jpg",
+          "alt": "A street of colonial houses in Pondicherry's White Town",
+          "caption": "White Town, Pondicherry",
+          "hero": true
+        }
+      ],
+      "sections": {
+        "overview": {
+          "text": "Pondicherry, on the south-east coast about 170 km from Chennai, was the capital of French India. With Karaikal, Mahe and Yanam it forms the Union Territory of Puducherry.",
+          "facts": [
+            "PY1"
+          ]
+        },
+        "things_to_do": {
+          "items": [
+            {
+              "body": "Walk the Promenade at sunrise."
+            },
+            {
+              "body": "Visit the Sri Aurobindo Ashram."
+            },
+            {
+              "body": "See the Chola bronzes at the Pondicherry Museum."
+            },
+            {
+              "body": "Take the boat to Paradise Beach."
+            }
+          ],
+          "facts": [
+            "PY3",
+            "PY2",
+            "PYM1",
+            "PAR1"
+          ]
+        },
+        "food": {
+          "items": [
+            {
+              "body": "Food here ranges from croissants and pizza to dosa and seafood."
+            }
+          ],
+          "facts": [
+            "PY4"
+          ]
+        },
+        "how_to_reach": {
+          "text": "Pondicherry is about 170 km from Chennai by road.",
+          "facts": [
+            "PY1"
+          ]
+        },
+        "highlights": {
+          "items": [
+            {
+              "body": "Promenade Beach: Promenade Beach has a long seafront walk; Paradise Beach is the other well-known beach."
+            },
+            {
+              "body": "Sri Aurobindo Ashram: Sri Aurobindo Ashram was founded in 1926 by Sri Aurobindo and the Mother."
+            },
+            {
+              "body": "Pondicherry Museum: The museum has one of the largest collections of Chola bronzes, Roman-era trade finds and French furniture."
+            },
+            {
+              "body": "Paradise Beach: Paradise Beach is reached by a short boat ride from Chunnambar Boat House, which offers paddle and motor boats."
+            },
+            {
+              "body": "Notre Dame des Anges: Notre Dame des Anges on the Promenade was built in 1855 and holds services in French, Tamil and English."
+            }
+          ],
+          "facts": [
+            "PY3",
+            "PY2",
+            "PYM1",
+            "PAR1",
+            "NDA1"
+          ]
+        }
+      },
+      "wikidataId": "Q639421",
+      "featured": true
+    },
+    {
+      "key": "puducherry/promenade-beach",
+      "kind": "nature",
+      "name": "Promenade Beach",
+      "summary": "Pondicherry's seafront walk.",
+      "seoTitle": "Promenade Beach Pondicherry: Walks & Sights",
+      "seoDescription": "Promenade Beach, Pondicherry: the long seafront walk past the French War Memorial and Notre Dame des Anges.",
+      "lat": 11.9325,
+      "lng": 79.83583333,
+      "tripTypes": [
+        "beaches",
+        "family"
+      ],
+      "images": [
+        {
+          "commons": "File:Pondicherry-Rock_beach_aerial_view.jpg",
+          "alt": "Aerial view of Pondicherry's seafront promenade",
+          "caption": "Promenade Beach",
+          "hero": true
+        }
+      ],
+      "sections": {
+        "overview": {
+          "text": "Promenade Beach has a long seafront walk; the French War Memorial and Notre Dame des Anges are along it.",
+          "facts": [
+            "PY3",
+            "FWM1",
+            "NDA1"
+          ]
+        },
+        "highlights": {
+          "items": [
+            {
+              "body": "Also in Pondicherry (Puducherry town) — Sri Aurobindo Ashram: Sri Aurobindo Ashram was founded in 1926 by Sri Aurobindo and the Mother."
+            },
+            {
+              "body": "Also in Pondicherry (Puducherry town) — Pondicherry Museum: The museum has one of the largest collections of Chola bronzes, Roman-era trade finds and French furniture."
+            },
+            {
+              "body": "Also in Pondicherry (Puducherry town) — Paradise Beach: Paradise Beach is reached by a short boat ride from Chunnambar Boat House, which offers paddle and motor boats."
+            },
+            {
+              "body": "Also in Pondicherry (Puducherry town) — Notre Dame des Anges: Notre Dame des Anges on the Promenade was built in 1855 and holds services in French, Tamil and English."
+            }
+          ],
+          "facts": [
+            "PY2",
+            "PYM1",
+            "PAR1",
+            "NDA1"
+          ]
+        },
+        "travel_tips": {
+          "items": [
+            {
+              "body": "About Pondicherry: Pondicherry, on the south-east coast about 170 km from Chennai, was the capital of French India; Karaikal, Mahe and Yanam joined it as a Union Territory."
+            },
+            {
+              "body": "About Pondicherry: Food ranges from croissants and pizza to dosa and seafood."
+            }
+          ],
+          "facts": [
+            "PY1",
+            "PY4"
+          ]
+        }
+      },
+      "wikidataId": "Q16898816",
+      "parent": "puducherry/pondicherry"
+    },
+    {
+      "key": "puducherry/sri-aurobindo-ashram",
+      "kind": "attraction",
+      "name": "Sri Aurobindo Ashram",
+      "summary": "The spiritual community founded in 1926.",
+      "seoTitle": "Sri Aurobindo Ashram Pondicherry: Visit Guide",
+      "seoDescription": "Sri Aurobindo Ashram in Pondicherry, founded in 1926 by Sri Aurobindo and the Mother.",
+      "lat": 11.936708,
+      "lng": 79.834039,
+      "tripTypes": [
+        "spiritual"
+      ],
+      "images": [
+        {
+          "commons": "File:Sri Aurobindo Ashram, a spiritual ashram of Sri Aurobindo in Pondicherry 05.jpg",
+          "alt": "The Sri Aurobindo Ashram building in Pondicherry",
+          "caption": "Sri Aurobindo Ashram",
+          "hero": true
+        }
+      ],
+      "sections": {
+        "overview": {
+          "text": "Sri Aurobindo Ashram was founded in 1926 by Sri Aurobindo and the Mother.",
+          "facts": [
+            "PY2"
+          ]
+        },
+        "highlights": {
+          "items": [
+            {
+              "body": "Also in Pondicherry (Puducherry town) — Promenade Beach: Promenade Beach has a long seafront walk; Paradise Beach is the other well-known beach."
+            },
+            {
+              "body": "Also in Pondicherry (Puducherry town) — Pondicherry Museum: The museum has one of the largest collections of Chola bronzes, Roman-era trade finds and French furniture."
+            },
+            {
+              "body": "Also in Pondicherry (Puducherry town) — Paradise Beach: Paradise Beach is reached by a short boat ride from Chunnambar Boat House, which offers paddle and motor boats."
+            },
+            {
+              "body": "Also in Pondicherry (Puducherry town) — Notre Dame des Anges: Notre Dame des Anges on the Promenade was built in 1855 and holds services in French, Tamil and English."
+            }
+          ],
+          "facts": [
+            "PY3",
+            "PYM1",
+            "PAR1",
+            "NDA1"
+          ]
+        },
+        "travel_tips": {
+          "items": [
+            {
+              "body": "About Pondicherry: Pondicherry, on the south-east coast about 170 km from Chennai, was the capital of French India; Karaikal, Mahe and Yanam joined it as a Union Territory."
+            },
+            {
+              "body": "About Pondicherry: Food ranges from croissants and pizza to dosa and seafood."
+            }
+          ],
+          "facts": [
+            "PY1",
+            "PY4"
+          ]
+        }
+      },
+      "wikidataId": "Q303682",
+      "parent": "puducherry/pondicherry"
+    },
+    {
+      "key": "puducherry/pondicherry-museum",
+      "kind": "museum",
+      "name": "Pondicherry Museum",
+      "summary": "Chola bronzes, Roman-era trade finds and French furniture.",
+      "seoTitle": "Pondicherry Museum: Chola Bronzes & History",
+      "seoDescription": "Pondicherry Museum: one of the largest collections of Chola bronzes, Roman-era trade finds and French furniture.",
+      "lat": 11.9348,
+      "lng": 79.834,
+      "tripTypes": [
+        "heritage",
+        "family"
+      ],
+      "images": [
+        {
+          "commons": "File:Durga Devi statue at Pondicherry Museum 15.jpg",
+          "alt": "A stone statue of Durga in the Pondicherry Museum",
+          "caption": "Pondicherry Museum",
+          "hero": true
+        }
+      ],
+      "sections": {
+        "overview": {
+          "text": "The museum has one of the largest collections of Chola bronzes, plus finds from Pondicherry's Roman-era trade and French furniture.",
+          "facts": [
+            "PYM1"
+          ]
+        },
+        "highlights": {
+          "items": [
+            {
+              "body": "Also in Pondicherry (Puducherry town) — Promenade Beach: Promenade Beach has a long seafront walk; Paradise Beach is the other well-known beach."
+            },
+            {
+              "body": "Also in Pondicherry (Puducherry town) — Sri Aurobindo Ashram: Sri Aurobindo Ashram was founded in 1926 by Sri Aurobindo and the Mother."
+            },
+            {
+              "body": "Also in Pondicherry (Puducherry town) — Paradise Beach: Paradise Beach is reached by a short boat ride from Chunnambar Boat House, which offers paddle and motor boats."
+            },
+            {
+              "body": "Also in Pondicherry (Puducherry town) — Notre Dame des Anges: Notre Dame des Anges on the Promenade was built in 1855 and holds services in French, Tamil and English."
+            }
+          ],
+          "facts": [
+            "PY3",
+            "PY2",
+            "PAR1",
+            "NDA1"
+          ]
+        },
+        "travel_tips": {
+          "items": [
+            {
+              "body": "About Pondicherry: Pondicherry, on the south-east coast about 170 km from Chennai, was the capital of French India; Karaikal, Mahe and Yanam joined it as a Union Territory."
+            },
+            {
+              "body": "About Pondicherry: Food ranges from croissants and pizza to dosa and seafood."
+            }
+          ],
+          "facts": [
+            "PY1",
+            "PY4"
+          ]
+        }
+      },
+      "wikidataId": "Q48734612",
+      "parent": "puducherry/pondicherry"
+    },
+    {
+      "key": "puducherry/paradise-beach",
+      "kind": "nature",
+      "name": "Paradise Beach",
+      "summary": "A beach reached by boat from Chunnambar.",
+      "seoTitle": "Paradise Beach Pondicherry: Boat & Tips",
+      "seoDescription": "Paradise Beach near Pondicherry, reached by a short boat ride from Chunnambar Boat House.",
+      "lat": 11.8856,
+      "lng": 79.8241,
+      "tripTypes": [
+        "beaches",
+        "family"
+      ],
+      "images": [
+        {
+          "commons": "File:Paradise beach in pondicherry.jpg",
+          "alt": "Sand and sea at Paradise Beach",
+          "caption": "Paradise Beach",
+          "hero": true
+        }
+      ],
+      "sections": {
+        "overview": {
+          "text": "Paradise Beach is reached by a short boat ride from Chunnambar Boat House, which offers paddle and motor boats.",
+          "facts": [
+            "PAR1"
+          ]
+        },
+        "highlights": {
+          "items": [
+            {
+              "body": "Also in Pondicherry (Puducherry town) — Promenade Beach: Promenade Beach has a long seafront walk; Paradise Beach is the other well-known beach."
+            },
+            {
+              "body": "Also in Pondicherry (Puducherry town) — Sri Aurobindo Ashram: Sri Aurobindo Ashram was founded in 1926 by Sri Aurobindo and the Mother."
+            },
+            {
+              "body": "Also in Pondicherry (Puducherry town) — Pondicherry Museum: The museum has one of the largest collections of Chola bronzes, Roman-era trade finds and French furniture."
+            },
+            {
+              "body": "Also in Pondicherry (Puducherry town) — Notre Dame des Anges: Notre Dame des Anges on the Promenade was built in 1855 and holds services in French, Tamil and English."
+            }
+          ],
+          "facts": [
+            "PY3",
+            "PY2",
+            "PYM1",
+            "NDA1"
+          ]
+        },
+        "travel_tips": {
+          "items": [
+            {
+              "body": "About Pondicherry: Pondicherry, on the south-east coast about 170 km from Chennai, was the capital of French India; Karaikal, Mahe and Yanam joined it as a Union Territory."
+            },
+            {
+              "body": "About Pondicherry: Food ranges from croissants and pizza to dosa and seafood."
+            }
+          ],
+          "facts": [
+            "PY1",
+            "PY4"
+          ]
+        }
+      },
+      "parent": "puducherry/pondicherry"
+    },
+    {
+      "key": "puducherry/notre-dame-des-anges",
+      "kind": "attraction",
+      "name": "Notre Dame des Anges",
+      "summary": "An 1855 church on the Promenade.",
+      "seoTitle": "Notre Dame des Anges Church, Pondicherry",
+      "seoDescription": "Notre Dame des Anges on Pondicherry's Promenade: built in 1855, with services in French, Tamil and English.",
+      "lat": 11.9306,
+      "lng": 79.8353,
+      "tripTypes": [
+        "heritage",
+        "spiritual"
+      ],
+      "images": [
+        {
+          "commons": "File:Eglise de Notre Dame des Anges - our Lady of Holy Angels - Pondicherry.JPG",
+          "alt": "The facade of Notre Dame des Anges church",
+          "caption": "Notre Dame des Anges",
+          "hero": true
+        }
+      ],
+      "sections": {
+        "overview": {
+          "text": "Notre Dame des Anges on the Promenade was built in 1855 and holds services in French, Tamil and English.",
+          "facts": [
+            "NDA1"
+          ]
+        },
+        "highlights": {
+          "items": [
+            {
+              "body": "Also in Pondicherry (Puducherry town) — Promenade Beach: Promenade Beach has a long seafront walk; Paradise Beach is the other well-known beach."
+            },
+            {
+              "body": "Also in Pondicherry (Puducherry town) — Sri Aurobindo Ashram: Sri Aurobindo Ashram was founded in 1926 by Sri Aurobindo and the Mother."
+            },
+            {
+              "body": "Also in Pondicherry (Puducherry town) — Pondicherry Museum: The museum has one of the largest collections of Chola bronzes, Roman-era trade finds and French furniture."
+            },
+            {
+              "body": "Also in Pondicherry (Puducherry town) — Paradise Beach: Paradise Beach is reached by a short boat ride from Chunnambar Boat House, which offers paddle and motor boats."
+            }
+          ],
+          "facts": [
+            "PY3",
+            "PY2",
+            "PYM1",
+            "PAR1"
+          ]
+        },
+        "travel_tips": {
+          "items": [
+            {
+              "body": "About Pondicherry: Pondicherry, on the south-east coast about 170 km from Chennai, was the capital of French India; Karaikal, Mahe and Yanam joined it as a Union Territory."
+            },
+            {
+              "body": "About Pondicherry: Food ranges from croissants and pizza to dosa and seafood."
+            }
+          ],
+          "facts": [
+            "PY1",
+            "PY4"
+          ]
+        }
+      },
+      "parent": "puducherry/pondicherry"
+    },
+    {
+      "key": "puducherry/french-war-memorial",
+      "kind": "attraction",
+      "name": "French War Memorial",
+      "summary": "A 1938 memorial on the seafront.",
+      "seoTitle": "French War Memorial Pondicherry: History",
+      "seoDescription": "Pondicherry's French War Memorial on the seafront: inaugurated in 1938, rebuilt in 1970, honouring French Indian soldiers.",
+      "lat": 11.9336,
+      "lng": 79.8358,
+      "tripTypes": [
+        "heritage"
+      ],
+      "images": [
+        {
+          "commons": "File:French War memorial.JPG",
+          "alt": "The French War Memorial on Goubert Avenue",
+          "caption": "French War Memorial",
+          "hero": true
+        }
+      ],
+      "sections": {
+        "overview": {
+          "text": "The French War Memorial was inaugurated on 3 April 1938 and rebuilt in 1970. It honours French Indian soldiers of the World Wars.",
+          "facts": [
+            "FWM1"
+          ]
+        },
+        "highlights": {
+          "items": [
+            {
+              "body": "Also in Pondicherry (Puducherry town) — Promenade Beach: Promenade Beach has a long seafront walk; Paradise Beach is the other well-known beach."
+            },
+            {
+              "body": "Also in Pondicherry (Puducherry town) — Sri Aurobindo Ashram: Sri Aurobindo Ashram was founded in 1926 by Sri Aurobindo and the Mother."
+            },
+            {
+              "body": "Also in Pondicherry (Puducherry town) — Pondicherry Museum: The museum has one of the largest collections of Chola bronzes, Roman-era trade finds and French furniture."
+            },
+            {
+              "body": "Also in Pondicherry (Puducherry town) — Paradise Beach: Paradise Beach is reached by a short boat ride from Chunnambar Boat House, which offers paddle and motor boats."
+            }
+          ],
+          "facts": [
+            "PY3",
+            "PY2",
+            "PYM1",
+            "PAR1"
+          ]
+        },
+        "travel_tips": {
+          "items": [
+            {
+              "body": "About Pondicherry: Pondicherry, on the south-east coast about 170 km from Chennai, was the capital of French India; Karaikal, Mahe and Yanam joined it as a Union Territory."
+            },
+            {
+              "body": "About Pondicherry: Food ranges from croissants and pizza to dosa and seafood."
+            }
+          ],
+          "facts": [
+            "PY1",
+            "PY4"
+          ]
+        }
+      },
+      "parent": "puducherry/pondicherry"
+    }
+  ],
+  "itineraries": [
+    {
+      "place": "maharashtra/chhatrapati-sambhaji-nagar",
+      "slug": "ajanta-ellora-3-days",
+      "title": "Ajanta and Ellora in 3 days",
+      "durationDays": 3,
+      "tripTypes": [
+        "heritage"
+      ],
+      "summary": "Three days from Chhatrapati Sambhajinagar: Ellora and Grishneshwar, a full day at Ajanta, and Daulatabad Fort.",
+      "seoTitle": "Ajanta & Ellora 3-Day Itinerary from Aurangabad",
+      "seoDescription": "Three days based in Chhatrapati Sambhajinagar (Aurangabad): Ellora's Kailasa Temple and Grishneshwar, a day at Ajanta, and Daulatabad Fort.",
+      "facts": [
+        "ELL1",
+        "ELL2",
+        "ELL3",
+        "GRI1",
+        "AJ1",
+        "SN1",
+        "DAU1",
+        "SN2"
+      ],
+      "sources": [],
+      "plan": {
+        "overview": "Stay in Chhatrapati Sambhajinagar and do day trips.",
+        "start": "Chhatrapati Sambhajinagar",
+        "end": "Chhatrapati Sambhajinagar",
+        "transport": "Car with driver for the day trips.",
+        "season": "November to March.",
+        "days": [
+          {
+            "title": "Day 1: Ellora and Grishneshwar",
+            "summary": "Ellora's caves and the Kailasa Temple, then Grishneshwar; stay for the light show.",
+            "stops": [
+              {
+                "name": "Ellora Caves",
+                "time": "Morning",
+                "placeSlug": "maharashtra/ellora-caves",
+                "duration": "5 hours"
+              },
+              {
+                "name": "Grishneshwar Temple",
+                "time": "Afternoon",
+                "placeSlug": "maharashtra/grishneshwar-temple",
+                "duration": "1 hour"
+              }
+            ],
+            "overnight": "Chhatrapati Sambhajinagar"
+          },
+          {
+            "title": "Day 2: Ajanta",
+            "summary": "A full day trip to the Ajanta Caves, about 100 km away.",
+            "stops": [
+              {
+                "name": "Ajanta Caves",
+                "time": "Morning",
+                "placeSlug": "maharashtra/ajanta-caves",
+                "duration": "5 hours"
+              }
+            ],
+            "overnight": "Chhatrapati Sambhajinagar"
+          },
+          {
+            "title": "Day 3: Daulatabad and the city",
+            "summary": "Climb Daulatabad Fort early, then shop for Paithani at Gul Mandi.",
+            "stops": [
+              {
+                "name": "Daulatabad Fort",
+                "time": "Morning",
+                "placeSlug": "maharashtra/daulatabad-fort",
+                "duration": "3 hours"
+              },
+              {
+                "name": "Chhatrapati Sambhajinagar",
+                "time": "Afternoon",
+                "placeSlug": "maharashtra/chhatrapati-sambhaji-nagar",
+                "duration": "3 hours"
+              }
+            ],
+            "overnight": "Departure"
+          }
+        ],
+        "budget": {
+          "assumptions": "VacayOut lists only fees it could check with an official source; hotels, transport and meals are not estimated. Check current prices before you book.",
+          "lines": []
+        },
+        "booking": [
+          {
+            "item": "Car with driver",
+            "detail": "Ajanta is a long day out; book a car for days 1 and 2."
+          }
+        ],
+        "alternatives": [
+          "Add Pune or Nashik."
+        ],
+        "tips": [
+          "Start early at Daulatabad — about 750 steps."
+        ]
+      }
+    },
+    {
+      "place": "west-bengal/kolkata",
+      "slug": "kolkata-3-days",
+      "title": "Kolkata in 3 days",
+      "durationDays": 3,
+      "tripTypes": [
+        "heritage",
+        "food",
+        "spiritual"
+      ],
+      "summary": "The Victoria Memorial, Howrah Bridge, the Hooghly's temples and College Street.",
+      "seoTitle": "Kolkata 3-Day Itinerary: Sights, Temples & Books",
+      "seoDescription": "Three days in Kolkata: the Victoria Memorial and Indian Museum, Howrah Bridge, Dakshineswar and Belur Math, Kalighat and College Street.",
+      "facts": [
+        "VIC1",
+        "IM1",
+        "HOW1",
+        "DAK1",
+        "BEL1",
+        "KGT1",
+        "CS1",
+        "KOL1"
+      ],
+      "sources": [],
+      "plan": {
+        "overview": "Central Kolkata, the Hooghly and the old book district.",
+        "start": "Kolkata",
+        "end": "Kolkata",
+        "transport": "Metro, taxis and river ferries.",
+        "season": "Cooler months; Durga Puja for festivals.",
+        "days": [
+          {
+            "title": "Day 1: Central Kolkata",
+            "summary": "The Victoria Memorial and the Indian Museum.",
+            "stops": [
+              {
+                "name": "Victoria Memorial",
+                "time": "Morning",
+                "placeSlug": "west-bengal/victoria-memorial",
+                "duration": "3 hours"
+              },
+              {
+                "name": "Indian Museum",
+                "time": "Afternoon",
+                "placeSlug": "west-bengal/indian-museum",
+                "duration": "2.5 hours"
+              }
+            ],
+            "overnight": "Kolkata"
+          },
+          {
+            "title": "Day 2: The Hooghly",
+            "summary": "Dakshineswar and Belur Math, then Howrah Bridge at dusk.",
+            "stops": [
+              {
+                "name": "Dakshineswar Kali Temple",
+                "time": "Morning",
+                "placeSlug": "west-bengal/dakshineswar-kali-temple",
+                "duration": "2 hours"
+              },
+              {
+                "name": "Belur Math",
+                "time": "Midday",
+                "placeSlug": "west-bengal/belur-math",
+                "duration": "2 hours"
+              },
+              {
+                "name": "Howrah Bridge",
+                "time": "Evening",
+                "placeSlug": "west-bengal/howrah-bridge",
+                "duration": "1 hour"
+              }
+            ],
+            "overnight": "Kolkata"
+          },
+          {
+            "title": "Day 3: Kalighat and College Street",
+            "summary": "Kalighat temple, then the bookstalls of College Street.",
+            "stops": [
+              {
+                "name": "Kalighat Kali Temple",
+                "time": "Morning",
+                "placeSlug": "west-bengal/kalighat-kali-temple",
+                "duration": "1.5 hours"
+              },
+              {
+                "name": "College Street",
+                "time": "Afternoon",
+                "placeSlug": "west-bengal/college-street",
+                "duration": "3 hours"
+              }
+            ],
+            "overnight": "Departure"
+          }
+        ],
+        "budget": {
+          "assumptions": "VacayOut lists only fees it could check with an official source; hotels, transport and meals are not estimated. Check current prices before you book.",
+          "lines": []
+        },
+        "booking": [
+          {
+            "item": "Temple visits",
+            "detail": "Dress modestly and expect queues at Kalighat."
+          }
+        ],
+        "alternatives": [
+          "Add the Sundarbans or Santiniketan."
+        ],
+        "tips": [
+          "Use the metro to beat traffic."
+        ]
+      }
+    },
+    {
+      "place": "puducherry/pondicherry",
+      "slug": "pondicherry-2-days",
+      "title": "Pondicherry in 2 days",
+      "durationDays": 2,
+      "tripTypes": [
+        "heritage",
+        "beaches",
+        "food",
+        "weekend"
+      ],
+      "summary": "White Town and the Promenade, the ashram and museum, then a boat to Paradise Beach.",
+      "seoTitle": "Pondicherry 2-Day Itinerary: White Town & Beaches",
+      "seoDescription": "Two days in Pondicherry: the Promenade, French War Memorial and Notre Dame des Anges, the Aurobindo Ashram and museum, and Paradise Beach.",
+      "facts": [
+        "PY1",
+        "PY3",
+        "FWM1",
+        "NDA1",
+        "PY2",
+        "PYM1",
+        "PAR1"
+      ],
+      "sources": [],
+      "plan": {
+        "overview": "Walkable White Town plus a beach day.",
+        "start": "Pondicherry",
+        "end": "Pondicherry",
+        "transport": "Walk or cycle in town; auto to Chunnambar.",
+        "season": "Cooler months are most comfortable.",
+        "days": [
+          {
+            "title": "Day 1: White Town",
+            "summary": "Sunrise on the Promenade, the war memorial and church, then the ashram and museum.",
+            "stops": [
+              {
+                "name": "Promenade Beach",
+                "time": "Early morning",
+                "placeSlug": "puducherry/promenade-beach",
+                "duration": "1.5 hours"
+              },
+              {
+                "name": "Notre Dame des Anges",
+                "time": "Morning",
+                "placeSlug": "puducherry/notre-dame-des-anges",
+                "duration": "45 minutes"
+              },
+              {
+                "name": "Sri Aurobindo Ashram",
+                "time": "Late morning",
+                "placeSlug": "puducherry/sri-aurobindo-ashram",
+                "duration": "1 hour"
+              },
+              {
+                "name": "Pondicherry Museum",
+                "time": "Afternoon",
+                "placeSlug": "puducherry/pondicherry-museum",
+                "duration": "1.5 hours"
+              }
+            ],
+            "overnight": "Pondicherry"
+          },
+          {
+            "title": "Day 2: Paradise Beach",
+            "summary": "Boat from Chunnambar to Paradise Beach.",
+            "stops": [
+              {
+                "name": "Paradise Beach",
+                "time": "Morning",
+                "placeSlug": "puducherry/paradise-beach",
+                "duration": "4 hours"
+              }
+            ],
+            "overnight": "Departure"
+          }
+        ],
+        "budget": {
+          "assumptions": "VacayOut lists only fees it could check with an official source; hotels, transport and meals are not estimated. Check current prices before you book.",
+          "lines": []
+        },
+        "booking": [
+          {
+            "item": "Boat to Paradise Beach",
+            "detail": "Boats leave from Chunnambar Boat House."
+          }
+        ],
+        "alternatives": [
+          "Add Auroville."
+        ],
+        "tips": [
+          "Start early to beat the heat."
+        ]
+      }
+    }
+  ],
+  "guides": []
+}

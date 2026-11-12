@@ -163,6 +163,11 @@
       "url": "https://en.wikipedia.org/wiki/112_(emergency_telephone_number)",
       "title": "112 (emergency telephone number) — Wikipedia",
       "authority": "reference"
+    },
+    "SG2_II_CH": {
+      "url": "https://www.incredibleindia.gov.in/en/chandigarh",
+      "title": "Chandigarh — Incredible India (Ministry of Tourism, Government of India)",
+      "authority": "government"
     }
   },
   "facts": {
@@ -975,6 +980,31 @@
         {
           "source": "UPI",
           "quote": "The UPI One World wallet can be availed through authorized PPI issuers at airports, hotels, designated money exchange locations and other touchpoints, following a full KYC process based on a passport and valid visa."
+        }
+      ]
+    },
+    "SG2_CH_BIRDS": {
+      "place": "chandigarh",
+      "topic": "Winter birds",
+      "claim": "In winter, Sukhna Lake draws migratory birds such as Siberian ducks, storks and cranes.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "SG2_II_CH",
+          "quote": "Sukhna Lake transforms into a haven for birdwatchers during the winter months when you can catch a glimpse of exotic migratory birds like Siberian ducks, storks, and cranes!"
+        }
+      ],
+      "kind": "seasonal"
+    },
+    "SG2_CH_AIR": {
+      "place": "chandigarh",
+      "topic": "Airport",
+      "claim": "Chandigarh's airport is Shaheed Bhagat Singh International Airport (IXC).",
+      "claimType": "distance",
+      "evidence": [
+        {
+          "source": "SG2_II_CH",
+          "quote": "Shaheed Bhagat Singh International Airport (IXC)"
         }
       ]
     }
@@ -2759,6 +2789,18 @@
             "CH_VISA",
             "CH_UPI",
             "CH_112"
+          ]
+        },
+        "how_to_reach": {
+          "text": "Fly into Shaheed Bhagat Singh International Airport (IXC).",
+          "facts": [
+            "SG2_CH_AIR"
+          ]
+        },
+        "best_time": {
+          "text": "Winter is the time for birdwatching at Sukhna Lake, when migratory ducks, storks and cranes arrive.",
+          "facts": [
+            "SG2_CH_BIRDS"
           ]
         }
       },

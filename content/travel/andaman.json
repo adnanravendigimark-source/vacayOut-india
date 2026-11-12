@@ -108,6 +108,26 @@
       "url": "https://en.wikipedia.org/wiki/112_(emergency_telephone_number)",
       "title": "112 (emergency telephone number) — Wikipedia",
       "authority": "reference"
+    },
+    "SG2_II_WAN": {
+      "url": "https://www.incredibleindia.gov.in/en/andaman-and-nicobar-islands/sri-vijaya-puram/wandoor-beach",
+      "title": "Wandoor Beach — Incredible India (Ministry of Tourism, Government of India)",
+      "authority": "government"
+    },
+    "SG2_II_BAR": {
+      "url": "https://www.incredibleindia.gov.in/en/andaman-and-nicobar-islands/sri-vijaya-puram/barren-island",
+      "title": "Barren Island — Incredible India (Ministry of Tourism, Government of India)",
+      "authority": "government"
+    },
+    "SG2_II_MMN": {
+      "url": "https://www.incredibleindia.gov.in/en/andaman-and-nicobar-islands/sri-vijaya-puram/mount-manipur-national-park",
+      "title": "Mount Manipur National Park — Incredible India (Ministry of Tourism, Government of India)",
+      "authority": "government"
+    },
+    "SG2_II_CHT": {
+      "url": "https://www.incredibleindia.gov.in/en/andaman-and-nicobar-islands/sri-vijaya-puram/chidiya-tapu",
+      "title": "Chidiya Tapu — Incredible India (Ministry of Tourism, Government of India)",
+      "authority": "government"
     }
   },
   "facts": {
@@ -829,6 +849,78 @@
           "quote": "divided into two major groups: the Labyrinth Islands and the Twin Islands"
         }
       ]
+    },
+    "SG2_WAN1": {
+      "place": "andaman-and-nicobar-islands",
+      "topic": "Wandoor",
+      "claim": "Wandoor Beach, 25 km south-west of Sri Vijaya Puram, has a jetty for Jolly Buoy, Red Skin and Alexandra islands and glass-bottom boat trips.",
+      "claimType": "distance",
+      "evidence": [
+        {
+          "source": "SG2_II_WAN",
+          "quote": "the Beach is easily accessible at just 25kms southwest of Sri Vijaya Puram"
+        },
+        {
+          "source": "SG2_II_WAN",
+          "quote": "Its convenient jetty provides access to Jolly Buoy Island, Red Skin Island, and Alexandra Island"
+        },
+        {
+          "source": "SG2_II_WAN",
+          "quote": "the area offers glass-bottom boat trips to nearby islands"
+        }
+      ]
+    },
+    "SG2_BAR1": {
+      "place": "andaman-and-nicobar-islands",
+      "topic": "Barren Island",
+      "claim": "Barren Island, 138 km north-east of Sri Vijaya Puram, is South Asia's only active volcano (last eruption 2017); its reefs suit advanced divers.",
+      "claimType": "distance",
+      "evidence": [
+        {
+          "source": "SG2_II_BAR",
+          "quote": "Barren Island is approximately 138 kilometres northeast of Sri Vijaya Puram"
+        },
+        {
+          "source": "SG2_II_BAR",
+          "quote": "It is renowned for being South Asia's only active volcano, which last erupted in 2017."
+        },
+        {
+          "source": "SG2_II_BAR",
+          "quote": "making it a popular spot for advanced divers"
+        }
+      ]
+    },
+    "SG2_MMN1": {
+      "place": "andaman-and-nicobar-islands",
+      "topic": "Mount Manipur",
+      "claim": "Mount Manipur National Park, formerly Mount Harriet, is named for Manipur's role in the 1891 war; its peak is the islands' third highest at 1,257 ft.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "SG2_II_MMN",
+          "quote": "Mount Manipur, the crown jewel of the park, is the Andaman and Nicobar archipelago’s third tallest peak, soaring to a majestic 1,257 feet."
+        },
+        {
+          "source": "SG2_II_MMN",
+          "quote": "Renamed from Mount Harriet National Park to Manipur National Park in the honour of the cultural heritage of Manipur"
+        }
+      ]
+    },
+    "SG2_CHT1": {
+      "place": "andaman-and-nicobar-islands",
+      "topic": "Chidiya Tapu",
+      "claim": "Chidiya Tapu, at the southern tip of South Andaman 28 km from Sri Vijaya Puram, is a birding spot with a horseshoe beach.",
+      "claimType": "distance",
+      "evidence": [
+        {
+          "source": "SG2_II_CHT",
+          "quote": "Nestled on the southernmost tip of South Andaman Island, around 28 kilometres from Sri Vijaya Puram"
+        },
+        {
+          "source": "SG2_II_CHT",
+          "quote": "Imagine a horseshoe-shaped beach"
+        }
+      ]
     }
   },
   "places": [
@@ -911,6 +1003,28 @@
           ],
           "facts": [
             "MG3"
+          ]
+        },
+        "things_to_do": {
+          "items": [
+            {
+              "body": "Take a boat from Wandoor to Jolly Buoy or Red Skin islands for coral."
+            },
+            {
+              "body": "Watch birds and the sunset at Chidiya Tapu."
+            },
+            {
+              "body": "Walk the forest of Mount Manipur (Mount Harriet) National Park."
+            },
+            {
+              "body": "See Barren Island, South Asia's only active volcano, on a dive or boat trip."
+            }
+          ],
+          "facts": [
+            "SG2_WAN1",
+            "SG2_CHT1",
+            "SG2_MMN1",
+            "SG2_BAR1"
           ]
         }
       },

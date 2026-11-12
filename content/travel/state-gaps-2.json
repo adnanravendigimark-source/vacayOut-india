@@ -1,0 +1,2960 @@
+{
+  "cluster": "state-gaps-2",
+  "title": "Haryana, Chandigarh, Tripura, Mizoram, Chhattisgarh and the Andaman Islands — filling the gaps",
+  "researchedAt": "2026-11-12",
+  "selection": "These six states and UTs had only 3–7 places each. This pack adds their next most-visited places (Gurugram and Surajkund; Chandigarh's museum, plaza, zoo and sanctuary; Kamalasagar; Hmuifang, Tamdil and Lunglei; Bilaspur and Bastar's temples; South Andaman's beaches and Barren Island), researched from Incredible India (Ministry of Tourism).",
+  "sources": {
+    "II_HR": {
+      "url": "https://www.incredibleindia.gov.in/en/haryana",
+      "title": "Haryana — Incredible India (Ministry of Tourism, Government of India)",
+      "authority": "government"
+    },
+    "II_GGN": {
+      "url": "https://www.incredibleindia.gov.in/en/haryana/gurugram",
+      "title": "Gurugram — Incredible India (Ministry of Tourism, Government of India)",
+      "authority": "government"
+    },
+    "II_BAO": {
+      "url": "https://www.incredibleindia.gov.in/en/haryana/gurugram/baoli-ghaus-ali-shah",
+      "title": "Baoli Ghaus Ali Shah — Incredible India (Ministry of Tourism, Government of India)",
+      "authority": "government"
+    },
+    "II_HTM": {
+      "url": "https://www.incredibleindia.gov.in/en/haryana/gurugram/heritage-transport-museum",
+      "title": "Heritage Transport Museum — Incredible India (Ministry of Tourism, Government of India)",
+      "authority": "government"
+    },
+    "II_FBD": {
+      "url": "https://www.incredibleindia.gov.in/en/haryana/faridabad",
+      "title": "Faridabad — Incredible India (Ministry of Tourism, Government of India)",
+      "authority": "government"
+    },
+    "II_CH": {
+      "url": "https://www.incredibleindia.gov.in/en/chandigarh",
+      "title": "Chandigarh — Incredible India (Ministry of Tourism, Government of India)",
+      "authority": "government"
+    },
+    "II_GMC": {
+      "url": "https://www.incredibleindia.gov.in/en/chandigarh/chandigarh/government-museum-and-art-gallery",
+      "title": "Government Museum and Art Gallery — Incredible India (Ministry of Tourism, Government of India)",
+      "authority": "government"
+    },
+    "II_S17": {
+      "url": "https://www.incredibleindia.gov.in/en/chandigarh/chandigarh/sector-17",
+      "title": "Sector 17 — Incredible India (Ministry of Tourism, Government of India)",
+      "authority": "government"
+    },
+    "II_ZOO": {
+      "url": "https://www.incredibleindia.gov.in/en/chandigarh/chandigarh/chhatbir-zoo",
+      "title": "Chhatbir Zoo — Incredible India (Ministry of Tourism, Government of India)",
+      "authority": "government"
+    },
+    "II_SWS": {
+      "url": "https://www.incredibleindia.gov.in/en/chandigarh/chandigarh/sukhna-wildlife-sanctuary",
+      "title": "Sukhna Wildlife Sanctuary — Incredible India (Ministry of Tourism, Government of India)",
+      "authority": "government"
+    },
+    "II_TR": {
+      "url": "https://www.incredibleindia.gov.in/en/tripura",
+      "title": "Tripura — Incredible India (Ministry of Tourism, Government of India)",
+      "authority": "government"
+    },
+    "II_KMS": {
+      "url": "https://www.incredibleindia.gov.in/en/tripura/agartala/kamalasagar",
+      "title": "Kamalasagar — Incredible India (Ministry of Tourism, Government of India)",
+      "authority": "government"
+    },
+    "II_HPA": {
+      "url": "https://www.incredibleindia.gov.in/en/tripura/agartala/heritage-park",
+      "title": "Heritage Park, Agartala — Incredible India (Ministry of Tourism, Government of India)",
+      "authority": "government"
+    },
+    "II_GMM": {
+      "url": "https://www.incredibleindia.gov.in/en/tripura/agartala/gedu-mian-masjid",
+      "title": "Gedu Mian Masjid — Incredible India (Ministry of Tourism, Government of India)",
+      "authority": "government"
+    },
+    "II_DTE": {
+      "url": "https://www.incredibleindia.gov.in/en/tripura/agartala/durgabari-tea-estate",
+      "title": "Durgabari Tea Estate — Incredible India (Ministry of Tourism, Government of India)",
+      "authority": "government"
+    },
+    "II_HMF": {
+      "url": "https://www.incredibleindia.gov.in/en/mizoram/aizawl/hmuifang-mountain-peak",
+      "title": "Hmuifang Mountain Peak — Incredible India (Ministry of Tourism, Government of India)",
+      "authority": "government"
+    },
+    "II_TAM": {
+      "url": "https://www.incredibleindia.gov.in/en/mizoram/aizawl/tamdil",
+      "title": "Tamdil — Incredible India (Ministry of Tourism, Government of India)",
+      "authority": "government"
+    },
+    "II_PLK": {
+      "url": "https://www.incredibleindia.gov.in/en/mizoram/aizawl/palak-lake",
+      "title": "Palak Lake — Incredible India (Ministry of Tourism, Government of India)",
+      "authority": "government"
+    },
+    "II_SOL": {
+      "url": "https://www.incredibleindia.gov.in/en/mizoram/aizawl/solomons-temple",
+      "title": "Solomon's Temple — Incredible India (Ministry of Tourism, Government of India)",
+      "authority": "government"
+    },
+    "II_LUN": {
+      "url": "https://www.incredibleindia.gov.in/en/mizoram/lunglei",
+      "title": "Lunglei — Incredible India (Ministry of Tourism, Government of India)",
+      "authority": "government"
+    },
+    "II_BSP": {
+      "url": "https://www.incredibleindia.gov.in/en/chhattisgarh/bilaspur",
+      "title": "Bilaspur — Incredible India (Ministry of Tourism, Government of India)",
+      "authority": "government"
+    },
+    "II_MMT": {
+      "url": "https://www.incredibleindia.gov.in/en/chhattisgarh/bilaspur/mahamaya-devi-temple",
+      "title": "Mahamaya Devi Temple — Incredible India (Ministry of Tourism, Government of India)",
+      "authority": "government"
+    },
+    "II_BPL": {
+      "url": "https://www.incredibleindia.gov.in/en/chhattisgarh/jagdalpur/bastar-palace",
+      "title": "Bastar Palace — Incredible India (Ministry of Tourism, Government of India)",
+      "authority": "government"
+    },
+    "II_DAN": {
+      "url": "https://www.incredibleindia.gov.in/en/chhattisgarh/jagdalpur/danteshwari-temple",
+      "title": "Danteshwari Temple — Incredible India (Ministry of Tourism, Government of India)",
+      "authority": "government"
+    },
+    "II_CHT": {
+      "url": "https://www.incredibleindia.gov.in/en/andaman-and-nicobar-islands/sri-vijaya-puram/chidiya-tapu",
+      "title": "Chidiya Tapu — Incredible India (Ministry of Tourism, Government of India)",
+      "authority": "government"
+    },
+    "II_COR": {
+      "url": "https://www.incredibleindia.gov.in/en/andaman-and-nicobar-islands/sri-vijaya-puram/corbyns-cove",
+      "title": "Corbyn's Cove — Incredible India (Ministry of Tourism, Government of India)",
+      "authority": "government"
+    },
+    "II_WAN": {
+      "url": "https://www.incredibleindia.gov.in/en/andaman-and-nicobar-islands/sri-vijaya-puram/wandoor-beach",
+      "title": "Wandoor Beach — Incredible India (Ministry of Tourism, Government of India)",
+      "authority": "government"
+    },
+    "II_MMN": {
+      "url": "https://www.incredibleindia.gov.in/en/andaman-and-nicobar-islands/sri-vijaya-puram/mount-manipur-national-park",
+      "title": "Mount Manipur National Park — Incredible India (Ministry of Tourism, Government of India)",
+      "authority": "government"
+    },
+    "II_BAR": {
+      "url": "https://www.incredibleindia.gov.in/en/andaman-and-nicobar-islands/sri-vijaya-puram/barren-island",
+      "title": "Barren Island — Incredible India (Ministry of Tourism, Government of India)",
+      "authority": "government"
+    },
+    "II_DHN": {
+      "url": "https://www.incredibleindia.gov.in/en/andaman-and-nicobar-islands/rangat/dhani-nallah-mangrove-nature-walkway",
+      "title": "Dhani Nallah Mangrove Nature Walkway — Incredible India (Ministry of Tourism, Government of India)",
+      "authority": "government"
+    }
+  },
+  "facts": {
+    "HR1": {
+      "place": "haryana",
+      "topic": "Landscapes",
+      "claim": "Haryana runs from the Shivalik Hills in the north-east to the Aravallis in the south.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_HR",
+          "quote": "from the Shivalik Hills in the northeast to the Aravalli Range in the south"
+        }
+      ]
+    },
+    "HR2": {
+      "place": "haryana",
+      "topic": "History",
+      "claim": "Haryana was the setting of the battles of Panipat and the Kurukshetra war.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_HR",
+          "quote": "having been the battleground for famous conflicts like the battles at Panipat and the legendary Kurukshetra war"
+        }
+      ]
+    },
+    "GGN1": {
+      "place": "haryana/gurugram",
+      "topic": "Gurugram",
+      "claim": "Gurugram grew from a farming town into 'Cyber City', a business hub; Cyber Hub is its food and entertainment centre.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_GGN",
+          "quote": "From its humble origins as a sleepy agricultural town to its current status as a thriving business hub"
+        },
+        {
+          "source": "II_GGN",
+          "quote": "earning it the moniker \"Cyber City.\""
+        },
+        {
+          "source": "II_GGN",
+          "quote": "a food and entertainment destination that offers a tantalizing array of dining options"
+        }
+      ]
+    },
+    "GGN2": {
+      "place": "haryana/gurugram",
+      "topic": "Sultanpur",
+      "claim": "Sultanpur National Park near Gurugram is home to over 250 bird species.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_GGN",
+          "quote": "a bird sanctuary that is home to over 250 species of birds"
+        }
+      ]
+    },
+    "BAO1": {
+      "place": "haryana/baoli-ghaus-ali-shah",
+      "topic": "Baoli Ghaus Ali Shah",
+      "claim": "This 18th-century stepwell at Farrukhnagar was built of stone, lime and brick; its shaft goes down more than 100 ft.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_BAO",
+          "quote": "Constructed back in the 18th century AD by Mughal emperor Ghaus Khan"
+        },
+        {
+          "source": "II_BAO",
+          "quote": "Built out of stone, lime plaster and bricks"
+        },
+        {
+          "source": "II_BAO",
+          "quote": "The shaft of the well was sunk to a depth of more than a hundred feet"
+        }
+      ]
+    },
+    "HTM1": {
+      "place": "haryana/heritage-transport-museum",
+      "topic": "Heritage Transport Museum",
+      "claim": "The Heritage Transport Museum shows India's transport history: carriages, steam locomotives, vintage cars and the Ambassador.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_HTM",
+          "quote": "the museum is a living embodiment of Indian transport history"
+        },
+        {
+          "source": "II_HTM",
+          "quote": "the iconic Ambassador car marked the beginning of a new era in the field of Indian transportation"
+        }
+      ]
+    },
+    "SRJ1": {
+      "place": "haryana/surajkund",
+      "topic": "Surajkund",
+      "claim": "Surajkund, near Faridabad, is a reservoir believed to date to the 10th century and hosts the annual Surajkund Mela, one of India's largest craft fairs.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_FBD",
+          "quote": "Surajkund Lake, an ancient reservoir believed to date back to the 10th century"
+        },
+        {
+          "source": "II_FBD",
+          "quote": "making it one of the largest handloom and handicraft fairs in India"
+        }
+      ]
+    },
+    "SRJ2": {
+      "place": "haryana/surajkund",
+      "topic": "Raja Nahar Singh Palace",
+      "claim": "Faridabad's 18th-century Raja Nahar Singh Palace recalls the Jat rulers.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_FBD",
+          "quote": "The Raja Nahar Singh Palace, a beautiful 18th-century structure, gives you a glimpse into the life of the Jat rulers."
+        }
+      ]
+    },
+    "CH1": {
+      "place": "chandigarh",
+      "topic": "Chandigarh",
+      "claim": "Chandigarh was planned by Le Corbusier on a grid, below the Shivalik hills.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_CH",
+          "quote": "Envisioned by the renowned Swiss-French architect Le Corbusier, Chandigarh offers a unique grid-like design"
+        },
+        {
+          "source": "II_CH",
+          "quote": "A city with the breathtaking backdrop of the Shivalik mountain range"
+        }
+      ]
+    },
+    "CH_AIR": {
+      "place": "chandigarh",
+      "topic": "Airport",
+      "claim": "Chandigarh's airport is Shaheed Bhagat Singh International Airport (IXC).",
+      "claimType": "distance",
+      "evidence": [
+        {
+          "source": "II_CH",
+          "quote": "Shaheed Bhagat Singh International Airport (IXC)"
+        }
+      ]
+    },
+    "CH_BIRDS": {
+      "place": "chandigarh",
+      "topic": "Winter birds",
+      "claim": "In winter, Sukhna Lake draws migratory birds such as Siberian ducks, storks and cranes.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_CH",
+          "quote": "Sukhna Lake transforms into a haven for birdwatchers during the winter months when you can catch a glimpse of exotic migratory birds like Siberian ducks, storks, and cranes!"
+        }
+      ],
+      "kind": "seasonal"
+    },
+    "GMC1": {
+      "place": "chandigarh/government-museum-chandigarh",
+      "topic": "Government Museum",
+      "claim": "The Government Museum and Art Gallery holds collections moved from Lahore's Central Museum after Partition, in a Le Corbusier building.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_GMC",
+          "quote": "Formerly housed in Lahore's Central Museum, these precious treasures found sanctuary in Chandigarh's embrace"
+        },
+        {
+          "source": "II_GMC",
+          "quote": "A testament to Le Corbusier's visionary genius, the building boasts a bold use of exposed reinforced concrete"
+        }
+      ]
+    },
+    "S17_1": {
+      "place": "chandigarh/sector-17",
+      "topic": "Sector 17",
+      "claim": "Sector 17 Plaza, designed by Le Corbusier, is Chandigarh's shopping and gathering heart; the Capitol Complex is a UNESCO World Heritage Site.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_S17",
+          "quote": "But Le Corbusier envisioned Sector 17 as more than just a shopping destination."
+        },
+        {
+          "source": "II_S17",
+          "quote": "With tree-lined walkways, fountains, and open spaces"
+        },
+        {
+          "source": "II_S17",
+          "quote": "Chandigarh Capitol Complex: A UNESCO World Heritage Site"
+        }
+      ]
+    },
+    "ZOO1": {
+      "place": "chandigarh/chhatbir-zoo",
+      "topic": "Chhatbir Zoo",
+      "claim": "Chhatbir Zoo (Mahendra Chaudhary Zoological Park), opened in 1977, covers 202 acres and is north-west India's largest zoo.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_ZOO",
+          "quote": "Established in 1977 as part of the Chhatbir protected forest area, this magnificent zoo is officially known as the Mahendra Chaudhary Zoological Park."
+        },
+        {
+          "source": "II_ZOO",
+          "quote": "Spanning an impressive 202 acres of raw scrubland, it stands as the largest zoological park in north-western India"
+        }
+      ]
+    },
+    "SWS1": {
+      "place": "chandigarh/sukhna-wildlife-sanctuary",
+      "topic": "Sukhna Wildlife Sanctuary",
+      "claim": "Sukhna Wildlife Sanctuary has leopards, jungle cats, sambar and chital; guided treks run every month except June and September.",
+      "claimType": "schedule",
+      "evidence": [
+        {
+          "source": "II_SWS",
+          "quote": "such as the leopard and the jungle cat, while the sambhar and the chital roam freely"
+        },
+        {
+          "source": "II_SWS",
+          "quote": "the sanctuary opens its gates every month, except September and June, inviting nature enthusiasts for guided treks"
+        }
+      ]
+    },
+    "TR1": {
+      "place": "tripura",
+      "topic": "Tripura",
+      "claim": "Tripura has 19 tribal communities; the Unakoti rock carvings date to the 7th century.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_TR",
+          "quote": "Among the 19 distinct tribal communities in Tripura"
+        },
+        {
+          "source": "II_TR",
+          "quote": "The ancient Unakoti rock carvings, dating back to the 7th century"
+        }
+      ]
+    },
+    "TR2": {
+      "place": "tripura",
+      "topic": "Food",
+      "claim": "Fish curries — especially boiled hilsa with mustard seeds and green chillies — are central to Tripura's food.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_TR",
+          "quote": "Fish curries, especially the famous boiled 'Hilsa' seasoned with mustard seeds and green chilies, take the spotlight."
+        }
+      ]
+    },
+    "KMS1": {
+      "place": "tripura/kamalasagar",
+      "topic": "Kamalasagar",
+      "claim": "Kamalasagar is a 10-acre lake dug in the 15th century, with the 16th-century Kasba Kali Bari temple on its shore.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_KMS",
+          "quote": "Kamalasagar Lake stretches 10 acres and is a sight to behold."
+        },
+        {
+          "source": "II_KMS",
+          "quote": "It is believed to have been excavated during the reign of Maharaja Dhanya Manikya in the 15th century."
+        },
+        {
+          "source": "II_KMS",
+          "quote": "The lake's shores are home to the renowned Kamalasagar Kali Temple, also known as Kasba Kali Bari"
+        }
+      ]
+    },
+    "HPA1": {
+      "place": "tripura/heritage-park-agartala",
+      "topic": "Heritage Park",
+      "claim": "Agartala's 12-acre Heritage Park showcases Tripura's culture and nature.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_HPA",
+          "quote": "Spread across 12 acres is a haven that seamlessly blends the rich cultural tapestry of Tripura with the pristine beauty of nature."
+        }
+      ]
+    },
+    "GMM1": {
+      "place": "tripura/gedu-mian-masjid",
+      "topic": "Gedu Mian Masjid",
+      "claim": "Gedu Mian Masjid, built in the 17th century, is one of Tripura's oldest and largest mosques.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_GMM",
+          "quote": "Gedu Mian Masjid was built during the 17th century, making it one of Tripura's oldest and largest mosques"
+        }
+      ]
+    },
+    "DTE1": {
+      "place": "tripura/durgabari-tea-estate",
+      "topic": "Durgabari Tea Estate",
+      "claim": "Durgabari Tea Estate dates from the late 19th century and produces black tea.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_DTE",
+          "quote": "The Durgabari Tea Estate's inception dates back to the late 19th century during the British colonial era"
+        },
+        {
+          "source": "II_DTE",
+          "quote": "ensures the production of high-quality black tea"
+        }
+      ]
+    },
+    "HMF1": {
+      "place": "mizoram/hmuifang",
+      "topic": "Hmuifang",
+      "claim": "Hmuifang, 50 km south of Aizawl, rises to 1,619 m; rhododendrons and orchids bloom here, and camping is popular.",
+      "claimType": "distance",
+      "evidence": [
+        {
+          "source": "II_HMF",
+          "quote": "Located 50 kilometres south of Aizawl in Mizoram, Hmuifang Mountain stands at an elevation of 1,619 metres above sea level."
+        },
+        {
+          "source": "II_HMF",
+          "quote": "marked by the vibrant colours of rhododendrons and orchids during blooming seasons"
+        },
+        {
+          "source": "II_HMF",
+          "quote": "Camping is another favoured activity"
+        }
+      ]
+    },
+    "TAM1": {
+      "place": "mizoram/tamdil",
+      "topic": "Tamdil",
+      "claim": "Tamdil, about 85 km from Aizawl, is Mizoram's largest natural lake; its name means 'Lake of Mustard'.",
+      "claimType": "distance",
+      "evidence": [
+        {
+          "source": "II_TAM",
+          "quote": "Situated about 85 kilometres from Aizawl, the capital of Mizoram, Tamdil is a picturesque lake"
+        },
+        {
+          "source": "II_TAM",
+          "quote": "The lake, whose name translates to 'Lake of Mustard' in Mizo"
+        },
+        {
+          "source": "II_TAM",
+          "quote": "It is the largest natural lake in Mizoram"
+        }
+      ]
+    },
+    "PLK1": {
+      "place": "mizoram/palak-lake",
+      "topic": "Palak Lake",
+      "claim": "Palak Dil, near Phura village in the far south, is Mizoram's largest lake and good for birdwatching.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_PLK",
+          "quote": "Palak Dil or Pala Dipo is Mizoram’s largest lake, located near the Phura village which falls under the Saiha district"
+        },
+        {
+          "source": "II_PLK",
+          "quote": "With its multiple avian species, Palak Lake is a gem for bird watchers."
+        }
+      ]
+    },
+    "SOL1": {
+      "place": "mizoram/solomons-temple",
+      "topic": "Solomon's Temple",
+      "claim": "Solomon's Temple, 10 km from Aizawl, is Mizoram's largest church; its foundation stone was laid in 1996.",
+      "claimType": "distance",
+      "evidence": [
+        {
+          "source": "II_SOL",
+          "quote": "Behold Solomon's Temple, the largest church in Mizoram, located in the Kidron Valley, just 10 kilometres from Aizawl."
+        },
+        {
+          "source": "II_SOL",
+          "quote": "in 1996, amidst trials and triumphs, the vision came to life with the laying of the foundation stone"
+        }
+      ]
+    },
+    "LUN1": {
+      "place": "mizoram/lunglei",
+      "topic": "Lunglei",
+      "claim": "Lunglei — 'rock bridge' — is Mizoram's second-largest city, ringed by pine-meadow villages.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_LUN",
+          "quote": "The name 'Lunglei' literally means a rock bridge."
+        },
+        {
+          "source": "II_LUN",
+          "quote": "Charming villages nestled among pine meadows dot the untouched stretch of beautiful countryside surrounding Lunglei, the second-largest city in Mizoram."
+        }
+      ]
+    },
+    "BSP1": {
+      "place": "chhattisgarh/bilaspur",
+      "topic": "Bilaspur",
+      "claim": "Bilaspur is the base for Ratanpur's Mahamaya Temple, the Kalachuri temples of Malhar and Achanakmar Wildlife Sanctuary.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_BSP",
+          "quote": "From the revered Mahamaya Devi temple to the sprawling landscapes of the Achanakmar Wildlife Sanctuary"
+        },
+        {
+          "source": "II_BSP",
+          "quote": "the powerful Kalachuri dynasty dominated the region, leaving behind iconic structures such as the Malhar temples"
+        }
+      ]
+    },
+    "MMT1": {
+      "place": "chhattisgarh/mahamaya-temple-ratanpur",
+      "topic": "Mahamaya Temple",
+      "claim": "Ratanpur's Mahamaya Temple, to Durga and Mahalakshmi, dates from the 12th–13th centuries under the Kalachuris.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_MMT",
+          "quote": "Welcome to the revered Mahamaya Devi Temple, dedicated to Goddess Durga and Mahalakshmi, situated in the historic town of Ratanpur"
+        },
+        {
+          "source": "II_MMT",
+          "quote": "Dating back to the 12th and 13th centuries, the Mahamaya Temple stands as a symbol of devotion, built under the patronage of the Kalachuri dynasty"
+        }
+      ]
+    },
+    "BPL1": {
+      "place": "chhattisgarh/bastar-palace",
+      "topic": "Bastar Palace",
+      "claim": "Bastar Palace in Jagdalpur was the residence of Bastar's royal family, with a central dome and arched entrance.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_BPL",
+          "quote": "It was built by the rulers of Bastar"
+        },
+        {
+          "source": "II_BPL",
+          "quote": "It served as the primary residence of the royal family and a centre for administrative activities."
+        }
+      ]
+    },
+    "DAN1": {
+      "place": "chhattisgarh/danteshwari-temple",
+      "topic": "Danteshwari Temple",
+      "claim": "The 600-year-old Danteshwari Temple at Dantewada is a Shakti Peetha, built by Kakatiya rulers in the 14th century.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_DAN",
+          "quote": "there is a 600-year old temple known as Danteshwari Temple"
+        },
+        {
+          "source": "II_DAN",
+          "quote": "This temple dates back to the 14th century, built by the rulers of the Kakatiya dynasty"
+        }
+      ]
+    },
+    "CHT1": {
+      "place": "andaman-and-nicobar-islands/chidiya-tapu",
+      "topic": "Chidiya Tapu",
+      "claim": "Chidiya Tapu, at the southern tip of South Andaman 28 km from Sri Vijaya Puram, is a birding spot with a horseshoe beach.",
+      "claimType": "distance",
+      "evidence": [
+        {
+          "source": "II_CHT",
+          "quote": "Nestled on the southernmost tip of South Andaman Island, around 28 kilometres from Sri Vijaya Puram"
+        },
+        {
+          "source": "II_CHT",
+          "quote": "Imagine a horseshoe-shaped beach"
+        }
+      ]
+    },
+    "COR1": {
+      "place": "andaman-and-nicobar-islands/corbyns-cove",
+      "topic": "Corbyn's Cove",
+      "claim": "Corbyn's Cove, a few km south of Sri Vijaya Puram, is a clean, family-friendly beach known for sunsets.",
+      "claimType": "distance",
+      "evidence": [
+        {
+          "source": "II_COR",
+          "quote": "located just a few kilometres south of Sri Vijaya Puram"
+        },
+        {
+          "source": "II_COR",
+          "quote": "Corbyn’s Cove Beach is also celebrated for its spectacular sunsets"
+        },
+        {
+          "source": "II_COR",
+          "quote": "which make it a family-friendly destination"
+        }
+      ]
+    },
+    "WAN1": {
+      "place": "andaman-and-nicobar-islands/wandoor-beach",
+      "topic": "Wandoor",
+      "claim": "Wandoor Beach, 25 km south-west of Sri Vijaya Puram, has a jetty for Jolly Buoy, Red Skin and Alexandra islands and glass-bottom boat trips.",
+      "claimType": "distance",
+      "evidence": [
+        {
+          "source": "II_WAN",
+          "quote": "the Beach is easily accessible at just 25kms southwest of Sri Vijaya Puram"
+        },
+        {
+          "source": "II_WAN",
+          "quote": "Its convenient jetty provides access to Jolly Buoy Island, Red Skin Island, and Alexandra Island"
+        },
+        {
+          "source": "II_WAN",
+          "quote": "the area offers glass-bottom boat trips to nearby islands"
+        }
+      ]
+    },
+    "MMN1": {
+      "place": "andaman-and-nicobar-islands/mount-manipur-national-park",
+      "topic": "Mount Manipur",
+      "claim": "Mount Manipur National Park, formerly Mount Harriet, is named for Manipur's role in the 1891 war; its peak is the islands' third highest at 1,257 ft.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_MMN",
+          "quote": "Mount Manipur, the crown jewel of the park, is the Andaman and Nicobar archipelago’s third tallest peak, soaring to a majestic 1,257 feet."
+        },
+        {
+          "source": "II_MMN",
+          "quote": "Renamed from Mount Harriet National Park to Manipur National Park in the honour of the cultural heritage of Manipur"
+        }
+      ]
+    },
+    "BAR1": {
+      "place": "andaman-and-nicobar-islands/barren-island",
+      "topic": "Barren Island",
+      "claim": "Barren Island, 138 km north-east of Sri Vijaya Puram, is South Asia's only active volcano (last eruption 2017); its reefs suit advanced divers.",
+      "claimType": "distance",
+      "evidence": [
+        {
+          "source": "II_BAR",
+          "quote": "Barren Island is approximately 138 kilometres northeast of Sri Vijaya Puram"
+        },
+        {
+          "source": "II_BAR",
+          "quote": "It is renowned for being South Asia's only active volcano, which last erupted in 2017."
+        },
+        {
+          "source": "II_BAR",
+          "quote": "making it a popular spot for advanced divers"
+        }
+      ]
+    },
+    "DHN1": {
+      "place": "andaman-and-nicobar-islands/dhani-nallah",
+      "topic": "Dhani Nallah",
+      "claim": "The Dhani Nallah mangrove walkway near Rangat is India's longest boardwalk of its kind.",
+      "claimType": "distance",
+      "evidence": [
+        {
+          "source": "II_DHN",
+          "quote": "stands as the longest boardwalk of its kind in India"
+        },
+        {
+          "source": "II_DHN",
+          "quote": "Located approximately 20 kilometres from Rangat mainland, adjacent to the Andaman Trunk Road"
+        }
+      ]
+    }
+  },
+  "places": [
+    {
+      "key": "haryana/gurugram",
+      "kind": "city",
+      "name": "Gurugram",
+      "summary": "Delhi's business suburb: Cyber Hub dining, an 18th-century stepwell and Sultanpur's birds nearby.",
+      "seoTitle": "Gurugram Travel Guide: Cyber Hub, Stepwell & Birds",
+      "seoDescription": "Plan Gurugram: Cyber Hub's food scene, Baoli Ghaus Ali Shah stepwell, the Heritage Transport Museum and Sultanpur National Park's 250+ bird species.",
+      "lat": 28.456,
+      "lng": 77.029,
+      "tripTypes": [
+        "food",
+        "weekend",
+        "family"
+      ],
+      "images": [
+        {
+          "commons": "File:Cyber_City_View.jpg",
+          "alt": "Office towers of Cyber City, Gurugram",
+          "caption": "Cyber City, Gurugram",
+          "hero": true
+        }
+      ],
+      "sections": {
+        "overview": {
+          "text": "Gurugram grew from a farming town into 'Cyber City', a business hub. Cyber Hub is its food and entertainment centre, and Sultanpur National Park nearby has over 250 bird species.",
+          "facts": [
+            "GGN1",
+            "GGN2"
+          ]
+        },
+        "things_to_do": {
+          "items": [
+            {
+              "body": "Eat at Cyber Hub."
+            },
+            {
+              "body": "See the stepwell of Baoli Ghaus Ali Shah at Farrukhnagar."
+            },
+            {
+              "body": "Visit the Heritage Transport Museum."
+            },
+            {
+              "body": "Birdwatch at Sultanpur National Park."
+            }
+          ],
+          "facts": [
+            "GGN1",
+            "BAO1",
+            "HTM1",
+            "GGN2"
+          ]
+        },
+        "highlights": {
+          "items": [
+            {
+              "body": "Baoli Ghaus Ali Shah: This 18th-century stepwell at Farrukhnagar was built of stone, lime and brick; its shaft goes down more than 100 ft."
+            },
+            {
+              "body": "Heritage Transport Museum: The Heritage Transport Museum shows India's transport history: carriages, steam locomotives, vintage cars and the Ambassador."
+            }
+          ],
+          "facts": [
+            "BAO1",
+            "HTM1"
+          ]
+        },
+        "practical_info": {
+          "items": [
+            {
+              "title": "Landscapes",
+              "body": "Haryana runs from the Shivalik Hills in the north-east to the Aravallis in the south."
+            },
+            {
+              "title": "History",
+              "body": "Haryana was the setting of the battles of Panipat and the Kurukshetra war."
+            },
+            {
+              "title": "Sultanpur",
+              "body": "Sultanpur National Park near Gurugram is home to over 250 bird species."
+            }
+          ],
+          "facts": [
+            "HR1",
+            "HR2",
+            "GGN2"
+          ]
+        }
+      },
+      "wikidataId": "Q238508"
+    },
+    {
+      "key": "haryana/baoli-ghaus-ali-shah",
+      "kind": "attraction",
+      "name": "Baoli Ghaus Ali Shah",
+      "summary": "An 18th-century stepwell at Farrukhnagar.",
+      "seoTitle": "Baoli Ghaus Ali Shah Stepwell, Farrukhnagar",
+      "seoDescription": "Baoli Ghaus Ali Shah: an 18th-century stone-and-brick stepwell at Farrukhnagar near Gurugram, more than 100 ft deep.",
+      "lat": 28.4501,
+      "lng": 76.8259,
+      "tripTypes": [
+        "heritage"
+      ],
+      "images": [
+        {
+          "commons": "File:Baoli_Ghaus_Ali_Shah,_Farrukhnagar.jpg",
+          "alt": "The octagonal stone stepwell of Baoli Ghaus Ali Shah",
+          "caption": "Baoli Ghaus Ali Shah",
+          "hero": true
+        }
+      ],
+      "sections": {
+        "overview": {
+          "text": "This 18th-century stepwell at Farrukhnagar was built of stone, lime plaster and brick; its shaft goes down more than 100 ft.",
+          "facts": [
+            "BAO1"
+          ]
+        },
+        "highlights": {
+          "items": [
+            {
+              "body": "Also in Gurugram — Heritage Transport Museum: The Heritage Transport Museum shows India's transport history: carriages, steam locomotives, vintage cars and the Ambassador."
+            }
+          ],
+          "facts": [
+            "HTM1"
+          ]
+        },
+        "travel_tips": {
+          "items": [
+            {
+              "body": "About Gurugram: Gurugram grew from a farming town into 'Cyber City', a business hub; Cyber Hub is its food and entertainment centre."
+            },
+            {
+              "body": "About Gurugram: Sultanpur National Park near Gurugram is home to over 250 bird species."
+            }
+          ],
+          "facts": [
+            "GGN1",
+            "GGN2"
+          ]
+        },
+        "practical_info": {
+          "items": [
+            {
+              "title": "Landscapes",
+              "body": "Haryana runs from the Shivalik Hills in the north-east to the Aravallis in the south."
+            },
+            {
+              "title": "History",
+              "body": "Haryana was the setting of the battles of Panipat and the Kurukshetra war."
+            },
+            {
+              "title": "Sultanpur",
+              "body": "Sultanpur National Park near Gurugram is home to over 250 bird species."
+            }
+          ],
+          "facts": [
+            "HR1",
+            "HR2",
+            "GGN2"
+          ]
+        },
+        "things_to_do": {
+          "items": [
+            {
+              "body": "Elsewhere in Haryana — Gurugram: Gurugram grew from a farming town into 'Cyber City', a business hub; Cyber Hub is its food and entertainment centre."
+            },
+            {
+              "body": "Elsewhere in Haryana — Surajkund: Surajkund, near Faridabad, is a reservoir believed to date to the 10th century and hosts the annual Surajkund Mela, one of India's largest craft fairs."
+            }
+          ],
+          "facts": [
+            "GGN1",
+            "SRJ1"
+          ]
+        }
+      },
+      "wikidataId": "Q59633495",
+      "parent": "haryana/gurugram"
+    },
+    {
+      "key": "haryana/heritage-transport-museum",
+      "kind": "museum",
+      "name": "Heritage Transport Museum",
+      "summary": "India's transport history from carriages to the Ambassador.",
+      "seoTitle": "Heritage Transport Museum near Gurugram",
+      "seoDescription": "The Heritage Transport Museum near Gurugram: carriages, steam locomotives, vintage cars and the Ambassador — India's transport history.",
+      "lat": 28.2056,
+      "lng": 76.9447,
+      "tripTypes": [
+        "family",
+        "heritage"
+      ],
+      "images": [],
+      "sections": {
+        "overview": {
+          "text": "The museum tells India's transport history — carriages, steam locomotives, vintage cars and the Ambassador.",
+          "facts": [
+            "HTM1"
+          ]
+        },
+        "highlights": {
+          "items": [
+            {
+              "body": "Also in Gurugram — Baoli Ghaus Ali Shah: This 18th-century stepwell at Farrukhnagar was built of stone, lime and brick; its shaft goes down more than 100 ft."
+            }
+          ],
+          "facts": [
+            "BAO1"
+          ]
+        },
+        "travel_tips": {
+          "items": [
+            {
+              "body": "About Gurugram: Gurugram grew from a farming town into 'Cyber City', a business hub; Cyber Hub is its food and entertainment centre."
+            },
+            {
+              "body": "About Gurugram: Sultanpur National Park near Gurugram is home to over 250 bird species."
+            }
+          ],
+          "facts": [
+            "GGN1",
+            "GGN2"
+          ]
+        },
+        "practical_info": {
+          "items": [
+            {
+              "title": "Landscapes",
+              "body": "Haryana runs from the Shivalik Hills in the north-east to the Aravallis in the south."
+            },
+            {
+              "title": "History",
+              "body": "Haryana was the setting of the battles of Panipat and the Kurukshetra war."
+            },
+            {
+              "title": "Sultanpur",
+              "body": "Sultanpur National Park near Gurugram is home to over 250 bird species."
+            }
+          ],
+          "facts": [
+            "HR1",
+            "HR2",
+            "GGN2"
+          ]
+        },
+        "things_to_do": {
+          "items": [
+            {
+              "body": "Elsewhere in Haryana — Gurugram: Gurugram grew from a farming town into 'Cyber City', a business hub; Cyber Hub is its food and entertainment centre."
+            },
+            {
+              "body": "Elsewhere in Haryana — Surajkund: Surajkund, near Faridabad, is a reservoir believed to date to the 10th century and hosts the annual Surajkund Mela, one of India's largest craft fairs."
+            }
+          ],
+          "facts": [
+            "GGN1",
+            "SRJ1"
+          ]
+        }
+      },
+      "parent": "haryana/gurugram",
+      "displayMode": "parent_section"
+    },
+    {
+      "key": "haryana/surajkund",
+      "kind": "attraction",
+      "name": "Surajkund",
+      "summary": "A 10th-century reservoir near Faridabad and home of the Surajkund craft fair.",
+      "seoTitle": "Surajkund: Lake, Mela & Faridabad Sights",
+      "seoDescription": "Surajkund near Faridabad: a reservoir believed to date to the 10th century, the annual Surajkund Mela craft fair, and Raja Nahar Singh Palace.",
+      "lat": 28.48379,
+      "lng": 77.2827,
+      "tripTypes": [
+        "heritage",
+        "family",
+        "weekend"
+      ],
+      "images": [
+        {
+          "commons": "File:Suraj_Kund.jpg",
+          "alt": "The stepped stone banks of Surajkund",
+          "caption": "Surajkund",
+          "hero": true
+        }
+      ],
+      "sections": {
+        "overview": {
+          "text": "Surajkund is an ancient reservoir believed to date to the 10th century. It hosts the annual Surajkund Mela, one of India's largest handloom and craft fairs.",
+          "facts": [
+            "SRJ1"
+          ]
+        },
+        "things_to_do": {
+          "items": [
+            {
+              "body": "See Faridabad's 18th-century Raja Nahar Singh Palace."
+            }
+          ],
+          "facts": [
+            "SRJ2"
+          ]
+        },
+        "practical_info": {
+          "items": [
+            {
+              "title": "Landscapes",
+              "body": "Haryana runs from the Shivalik Hills in the north-east to the Aravallis in the south."
+            },
+            {
+              "title": "History",
+              "body": "Haryana was the setting of the battles of Panipat and the Kurukshetra war."
+            },
+            {
+              "title": "Sultanpur",
+              "body": "Sultanpur National Park near Gurugram is home to over 250 bird species."
+            }
+          ],
+          "facts": [
+            "HR1",
+            "HR2",
+            "GGN2"
+          ]
+        },
+        "travel_tips": {
+          "items": [
+            {
+              "body": "In Haryana: Haryana runs from the Shivalik Hills in the north-east to the Aravallis in the south."
+            },
+            {
+              "body": "In Haryana: Haryana was the setting of the battles of Panipat and the Kurukshetra war."
+            },
+            {
+              "body": "In Haryana: Sultanpur National Park near Gurugram is home to over 250 bird species."
+            }
+          ],
+          "facts": [
+            "HR1",
+            "HR2",
+            "GGN2"
+          ]
+        }
+      },
+      "wikidataId": "Q7351431"
+    },
+    {
+      "key": "chandigarh/government-museum-chandigarh",
+      "kind": "museum",
+      "name": "Government Museum and Art Gallery",
+      "summary": "Chandigarh's museum of art from Lahore's old collection, in a Le Corbusier building.",
+      "seoTitle": "Government Museum & Art Gallery Chandigarh",
+      "seoDescription": "Chandigarh's Government Museum and Art Gallery: collections from Lahore's Central Museum, housed in a Le Corbusier concrete building.",
+      "lat": 30.74888889,
+      "lng": 76.7875,
+      "tripTypes": [
+        "heritage",
+        "family"
+      ],
+      "images": [
+        {
+          "commons": "File:Chandigarh_Museum_and_Art_Gallery.jpg",
+          "alt": "The concrete Government Museum and Art Gallery in Chandigarh",
+          "caption": "Government Museum and Art Gallery",
+          "hero": true
+        }
+      ],
+      "sections": {
+        "overview": {
+          "text": "Its collections came from Lahore's Central Museum after Partition. The building, by Le Corbusier, is in exposed concrete.",
+          "facts": [
+            "GMC1"
+          ]
+        },
+        "practical_info": {
+          "items": [
+            {
+              "title": "Chandigarh",
+              "body": "Chandigarh was planned by Le Corbusier on a grid, below the Shivalik hills."
+            },
+            {
+              "title": "Winter birds",
+              "body": "In winter, Sukhna Lake draws migratory birds such as Siberian ducks, storks and cranes."
+            },
+            {
+              "title": "Airport",
+              "body": "Chandigarh's airport is Shaheed Bhagat Singh International Airport (IXC)."
+            }
+          ],
+          "facts": [
+            "CH1",
+            "CH_BIRDS",
+            "CH_AIR"
+          ]
+        },
+        "things_to_do": {
+          "items": [
+            {
+              "body": "Elsewhere in Chandigarh — Sector 17 Plaza: Sector 17 Plaza, designed by Le Corbusier, is Chandigarh's shopping and gathering heart; the Capitol Complex is a UNESCO World Heritage Site."
+            },
+            {
+              "body": "Elsewhere in Chandigarh — Chhatbir Zoo: Chhatbir Zoo (Mahendra Chaudhary Zoological Park), opened in 1977, covers 202 acres and is north-west India's largest zoo."
+            },
+            {
+              "body": "Elsewhere in Chandigarh — Sukhna Wildlife Sanctuary: Sukhna Wildlife Sanctuary has leopards, jungle cats, sambar and chital; guided treks run every month except June and September."
+            }
+          ],
+          "facts": [
+            "S17_1",
+            "ZOO1",
+            "SWS1"
+          ]
+        }
+      },
+      "wikidataId": "Q3112812"
+    },
+    {
+      "key": "chandigarh/sector-17",
+      "kind": "attraction",
+      "name": "Sector 17 Plaza",
+      "summary": "Chandigarh's central shopping plaza by Le Corbusier.",
+      "seoTitle": "Sector 17 Chandigarh: Plaza, Shopping & Nearby",
+      "seoDescription": "Sector 17 Plaza: Le Corbusier's pedestrian shopping heart of Chandigarh, with fountains and walkways, near the UNESCO Capitol Complex.",
+      "lat": 30.7398,
+      "lng": 76.7827,
+      "tripTypes": [
+        "food",
+        "family"
+      ],
+      "images": [
+        {
+          "commons": "File:Rooster Fountain, Sector 17 Chandigarh.jpg",
+          "alt": "The Rooster Fountain in Sector 17 Plaza",
+          "caption": "Sector 17 Plaza",
+          "hero": true
+        }
+      ],
+      "sections": {
+        "overview": {
+          "text": "Le Corbusier designed Sector 17 Plaza as more than a shopping street, with tree-lined walkways and fountains. The Capitol Complex is a UNESCO World Heritage Site.",
+          "facts": [
+            "S17_1"
+          ]
+        },
+        "practical_info": {
+          "items": [
+            {
+              "title": "Chandigarh",
+              "body": "Chandigarh was planned by Le Corbusier on a grid, below the Shivalik hills."
+            },
+            {
+              "title": "Winter birds",
+              "body": "In winter, Sukhna Lake draws migratory birds such as Siberian ducks, storks and cranes."
+            },
+            {
+              "title": "Airport",
+              "body": "Chandigarh's airport is Shaheed Bhagat Singh International Airport (IXC)."
+            }
+          ],
+          "facts": [
+            "CH1",
+            "CH_BIRDS",
+            "CH_AIR"
+          ]
+        },
+        "things_to_do": {
+          "items": [
+            {
+              "body": "Elsewhere in Chandigarh — Government Museum and Art Gallery: The Government Museum and Art Gallery holds collections moved from Lahore's Central Museum after Partition, in a Le Corbusier building."
+            },
+            {
+              "body": "Elsewhere in Chandigarh — Chhatbir Zoo: Chhatbir Zoo (Mahendra Chaudhary Zoological Park), opened in 1977, covers 202 acres and is north-west India's largest zoo."
+            },
+            {
+              "body": "Elsewhere in Chandigarh — Sukhna Wildlife Sanctuary: Sukhna Wildlife Sanctuary has leopards, jungle cats, sambar and chital; guided treks run every month except June and September."
+            }
+          ],
+          "facts": [
+            "GMC1",
+            "ZOO1",
+            "SWS1"
+          ]
+        }
+      }
+    },
+    {
+      "key": "chandigarh/chhatbir-zoo",
+      "kind": "nature",
+      "name": "Chhatbir Zoo",
+      "summary": "North-west India's largest zoo, on 202 acres.",
+      "seoTitle": "Chhatbir Zoo Chandigarh: Animals & Visit Tips",
+      "seoDescription": "Chhatbir Zoo (Mahendra Chaudhary Zoological Park), opened in 1977: 202 acres, north-west India's largest zoo.",
+      "lat": 30.6036,
+      "lng": 76.7928,
+      "tripTypes": [
+        "wildlife",
+        "family"
+      ],
+      "images": [
+        {
+          "commons": "File:Chhatbir_Zoo,_Chandigarh.jpeg",
+          "alt": "The entrance of Chhatbir Zoo",
+          "caption": "Chhatbir Zoo",
+          "hero": true
+        }
+      ],
+      "sections": {
+        "overview": {
+          "text": "Chhatbir Zoo, the Mahendra Chaudhary Zoological Park, opened in 1977. It covers 202 acres and is north-west India's largest zoo.",
+          "facts": [
+            "ZOO1"
+          ]
+        },
+        "practical_info": {
+          "items": [
+            {
+              "title": "Chandigarh",
+              "body": "Chandigarh was planned by Le Corbusier on a grid, below the Shivalik hills."
+            },
+            {
+              "title": "Winter birds",
+              "body": "In winter, Sukhna Lake draws migratory birds such as Siberian ducks, storks and cranes."
+            },
+            {
+              "title": "Airport",
+              "body": "Chandigarh's airport is Shaheed Bhagat Singh International Airport (IXC)."
+            }
+          ],
+          "facts": [
+            "CH1",
+            "CH_BIRDS",
+            "CH_AIR"
+          ]
+        },
+        "things_to_do": {
+          "items": [
+            {
+              "body": "Elsewhere in Chandigarh — Government Museum and Art Gallery: The Government Museum and Art Gallery holds collections moved from Lahore's Central Museum after Partition, in a Le Corbusier building."
+            },
+            {
+              "body": "Elsewhere in Chandigarh — Sector 17 Plaza: Sector 17 Plaza, designed by Le Corbusier, is Chandigarh's shopping and gathering heart; the Capitol Complex is a UNESCO World Heritage Site."
+            },
+            {
+              "body": "Elsewhere in Chandigarh — Sukhna Wildlife Sanctuary: Sukhna Wildlife Sanctuary has leopards, jungle cats, sambar and chital; guided treks run every month except June and September."
+            }
+          ],
+          "facts": [
+            "GMC1",
+            "S17_1",
+            "SWS1"
+          ]
+        }
+      },
+      "wikidataId": "Q5087827"
+    },
+    {
+      "key": "chandigarh/sukhna-wildlife-sanctuary",
+      "kind": "nature",
+      "name": "Sukhna Wildlife Sanctuary",
+      "summary": "Forest above Sukhna Lake with leopards, sambar and guided treks.",
+      "seoTitle": "Sukhna Wildlife Sanctuary: Treks & Wildlife",
+      "seoDescription": "Sukhna Wildlife Sanctuary, Chandigarh: leopards, jungle cats, sambar and chital, with guided treks every month except June and September.",
+      "lat": 30.745,
+      "lng": 76.82277778,
+      "tripTypes": [
+        "wildlife",
+        "nature"
+      ],
+      "images": [
+        {
+          "commons": "File:Entrance_of_Sukhna_Wildlife_Sanctuary,Chandigarh,_India.JPG",
+          "alt": "The entrance of Sukhna Wildlife Sanctuary",
+          "caption": "Sukhna Wildlife Sanctuary",
+          "hero": true
+        }
+      ],
+      "sections": {
+        "overview": {
+          "text": "Sukhna Wildlife Sanctuary has leopards, jungle cats, sambar and chital. Guided treks run every month except June and September.",
+          "facts": [
+            "SWS1"
+          ]
+        },
+        "best_time": {
+          "text": "In winter, Sukhna Lake below the sanctuary draws migratory birds.",
+          "facts": [
+            "CH_BIRDS"
+          ]
+        },
+        "practical_info": {
+          "items": [
+            {
+              "title": "Chandigarh",
+              "body": "Chandigarh was planned by Le Corbusier on a grid, below the Shivalik hills."
+            },
+            {
+              "title": "Winter birds",
+              "body": "In winter, Sukhna Lake draws migratory birds such as Siberian ducks, storks and cranes."
+            },
+            {
+              "title": "Airport",
+              "body": "Chandigarh's airport is Shaheed Bhagat Singh International Airport (IXC)."
+            }
+          ],
+          "facts": [
+            "CH1",
+            "CH_BIRDS",
+            "CH_AIR"
+          ]
+        },
+        "things_to_do": {
+          "items": [
+            {
+              "body": "Elsewhere in Chandigarh — Government Museum and Art Gallery: The Government Museum and Art Gallery holds collections moved from Lahore's Central Museum after Partition, in a Le Corbusier building."
+            },
+            {
+              "body": "Elsewhere in Chandigarh — Sector 17 Plaza: Sector 17 Plaza, designed by Le Corbusier, is Chandigarh's shopping and gathering heart; the Capitol Complex is a UNESCO World Heritage Site."
+            },
+            {
+              "body": "Elsewhere in Chandigarh — Chhatbir Zoo: Chhatbir Zoo (Mahendra Chaudhary Zoological Park), opened in 1977, covers 202 acres and is north-west India's largest zoo."
+            }
+          ],
+          "facts": [
+            "GMC1",
+            "S17_1",
+            "ZOO1"
+          ]
+        }
+      },
+      "wikidataId": "Q23995986"
+    },
+    {
+      "key": "tripura/kamalasagar",
+      "kind": "lake",
+      "name": "Kamalasagar",
+      "summary": "A 15th-century lake with the Kasba Kali Bari temple.",
+      "seoTitle": "Kamalasagar Lake & Kali Temple, Tripura",
+      "seoDescription": "Kamalasagar: a 10-acre lake dug in the 15th century near Agartala, with the 16th-century Kasba Kali Bari temple on its shore.",
+      "lat": 23.744,
+      "lng": 91.175,
+      "tripTypes": [
+        "spiritual",
+        "heritage"
+      ],
+      "images": [
+        {
+          "commons": "File:Kamalasagar.jpg",
+          "alt": "Kamalasagar lake with the Kali temple",
+          "caption": "Kamalasagar",
+          "hero": true
+        }
+      ],
+      "sections": {
+        "overview": {
+          "text": "Kamalasagar is a 10-acre lake dug in the 15th century. The Kasba Kali Bari temple stands on its shore.",
+          "facts": [
+            "KMS1"
+          ]
+        },
+        "practical_info": {
+          "items": [
+            {
+              "title": "Tripura",
+              "body": "Tripura has 19 tribal communities; the Unakoti rock carvings date to the 7th century."
+            },
+            {
+              "title": "Food",
+              "body": "Fish curries — especially boiled hilsa with mustard seeds and green chillies — are central to Tripura's food."
+            },
+            {
+              "title": "Kamalasagar",
+              "body": "Kamalasagar is a 10-acre lake dug in the 15th century, with the 16th-century Kasba Kali Bari temple on its shore."
+            }
+          ],
+          "facts": [
+            "TR1",
+            "TR2",
+            "KMS1"
+          ]
+        },
+        "travel_tips": {
+          "items": [
+            {
+              "body": "In Tripura: Tripura has 19 tribal communities; the Unakoti rock carvings date to the 7th century."
+            },
+            {
+              "body": "In Tripura: Fish curries — especially boiled hilsa with mustard seeds and green chillies — are central to Tripura's food."
+            },
+            {
+              "body": "In Tripura: Kamalasagar is a 10-acre lake dug in the 15th century, with the 16th-century Kasba Kali Bari temple on its shore."
+            }
+          ],
+          "facts": [
+            "TR1",
+            "TR2",
+            "KMS1"
+          ]
+        }
+      },
+      "wikidataId": "Q6355686"
+    },
+    {
+      "key": "tripura/heritage-park-agartala",
+      "kind": "attraction",
+      "name": "Heritage Park",
+      "summary": "A 12-acre park of Tripura's culture and nature.",
+      "seoTitle": "Heritage Park Agartala: What to See",
+      "seoDescription": "Agartala's 12-acre Heritage Park showcasing Tripura's culture and nature.",
+      "lat": 23.8394,
+      "lng": 91.2794,
+      "tripTypes": [
+        "family"
+      ],
+      "images": [
+        {
+          "commons": "File:Main gate of the Heritage park.jpg",
+          "alt": "The main gate of Heritage Park, Agartala",
+          "caption": "Heritage Park, Agartala",
+          "hero": true
+        }
+      ],
+      "sections": {
+        "overview": {
+          "text": "Agartala's 12-acre Heritage Park blends Tripura's culture and nature.",
+          "facts": [
+            "HPA1"
+          ]
+        },
+        "highlights": {
+          "items": [
+            {
+              "body": "Also in Agartala — Gedu Mian Masjid: Gedu Mian Masjid, built in the 17th century, is one of Tripura's oldest and largest mosques."
+            },
+            {
+              "body": "Also in Agartala — Durgabari Tea Estate: Durgabari Tea Estate dates from the late 19th century and produces black tea."
+            }
+          ],
+          "facts": [
+            "GMM1",
+            "DTE1"
+          ]
+        },
+        "travel_tips": {
+          "items": [
+            {
+              "body": "About Agartala: Agartala's 12-acre Heritage Park showcases Tripura's culture and nature."
+            },
+            {
+              "body": "About Agartala: Tripura has 19 tribal communities; the Unakoti rock carvings date to the 7th century."
+            }
+          ],
+          "facts": [
+            "HPA1",
+            "TR1"
+          ]
+        },
+        "practical_info": {
+          "items": [
+            {
+              "title": "Tripura",
+              "body": "Tripura has 19 tribal communities; the Unakoti rock carvings date to the 7th century."
+            },
+            {
+              "title": "Food",
+              "body": "Fish curries — especially boiled hilsa with mustard seeds and green chillies — are central to Tripura's food."
+            },
+            {
+              "title": "Kamalasagar",
+              "body": "Kamalasagar is a 10-acre lake dug in the 15th century, with the 16th-century Kasba Kali Bari temple on its shore."
+            }
+          ],
+          "facts": [
+            "TR1",
+            "TR2",
+            "KMS1"
+          ]
+        },
+        "things_to_do": {
+          "items": [
+            {
+              "body": "Elsewhere in Tripura — Kamalasagar: Kamalasagar is a 10-acre lake dug in the 15th century, with the 16th-century Kasba Kali Bari temple on its shore."
+            }
+          ],
+          "facts": [
+            "KMS1"
+          ]
+        }
+      },
+      "parent": "tripura/agartala"
+    },
+    {
+      "key": "tripura/gedu-mian-masjid",
+      "kind": "attraction",
+      "name": "Gedu Mian Masjid",
+      "summary": "A 17th-century mosque in Agartala.",
+      "seoTitle": "Gedu Mian Masjid Agartala",
+      "seoDescription": "Gedu Mian Masjid, built in the 17th century, one of Tripura's oldest and largest mosques.",
+      "lat": 23.8268,
+      "lng": 91.2836,
+      "tripTypes": [
+        "heritage",
+        "spiritual"
+      ],
+      "images": [],
+      "sections": {
+        "overview": {
+          "text": "Gedu Mian Masjid, built in the 17th century, is one of Tripura's oldest and largest mosques.",
+          "facts": [
+            "GMM1"
+          ]
+        },
+        "highlights": {
+          "items": [
+            {
+              "body": "Also in Agartala — Heritage Park: Agartala's 12-acre Heritage Park showcases Tripura's culture and nature."
+            },
+            {
+              "body": "Also in Agartala — Durgabari Tea Estate: Durgabari Tea Estate dates from the late 19th century and produces black tea."
+            }
+          ],
+          "facts": [
+            "HPA1",
+            "DTE1"
+          ]
+        },
+        "travel_tips": {
+          "items": [
+            {
+              "body": "About Agartala: Agartala's 12-acre Heritage Park showcases Tripura's culture and nature."
+            },
+            {
+              "body": "About Agartala: Tripura has 19 tribal communities; the Unakoti rock carvings date to the 7th century."
+            }
+          ],
+          "facts": [
+            "HPA1",
+            "TR1"
+          ]
+        },
+        "practical_info": {
+          "items": [
+            {
+              "title": "Tripura",
+              "body": "Tripura has 19 tribal communities; the Unakoti rock carvings date to the 7th century."
+            },
+            {
+              "title": "Food",
+              "body": "Fish curries — especially boiled hilsa with mustard seeds and green chillies — are central to Tripura's food."
+            },
+            {
+              "title": "Kamalasagar",
+              "body": "Kamalasagar is a 10-acre lake dug in the 15th century, with the 16th-century Kasba Kali Bari temple on its shore."
+            }
+          ],
+          "facts": [
+            "TR1",
+            "TR2",
+            "KMS1"
+          ]
+        },
+        "things_to_do": {
+          "items": [
+            {
+              "body": "Elsewhere in Tripura — Kamalasagar: Kamalasagar is a 10-acre lake dug in the 15th century, with the 16th-century Kasba Kali Bari temple on its shore."
+            }
+          ],
+          "facts": [
+            "KMS1"
+          ]
+        }
+      },
+      "parent": "tripura/agartala",
+      "displayMode": "parent_section"
+    },
+    {
+      "key": "tripura/durgabari-tea-estate",
+      "kind": "attraction",
+      "name": "Durgabari Tea Estate",
+      "summary": "A 19th-century tea estate near Agartala.",
+      "seoTitle": "Durgabari Tea Estate Agartala",
+      "seoDescription": "Durgabari Tea Estate near Agartala: started in the late 19th century, producing black tea.",
+      "lat": 23.865,
+      "lng": 91.33,
+      "tripTypes": [
+        "nature"
+      ],
+      "images": [],
+      "sections": {
+        "overview": {
+          "text": "Durgabari Tea Estate dates from the late 19th century and produces black tea.",
+          "facts": [
+            "DTE1"
+          ]
+        },
+        "highlights": {
+          "items": [
+            {
+              "body": "Also in Agartala — Heritage Park: Agartala's 12-acre Heritage Park showcases Tripura's culture and nature."
+            },
+            {
+              "body": "Also in Agartala — Gedu Mian Masjid: Gedu Mian Masjid, built in the 17th century, is one of Tripura's oldest and largest mosques."
+            }
+          ],
+          "facts": [
+            "HPA1",
+            "GMM1"
+          ]
+        },
+        "travel_tips": {
+          "items": [
+            {
+              "body": "About Agartala: Agartala's 12-acre Heritage Park showcases Tripura's culture and nature."
+            },
+            {
+              "body": "About Agartala: Tripura has 19 tribal communities; the Unakoti rock carvings date to the 7th century."
+            }
+          ],
+          "facts": [
+            "HPA1",
+            "TR1"
+          ]
+        },
+        "practical_info": {
+          "items": [
+            {
+              "title": "Tripura",
+              "body": "Tripura has 19 tribal communities; the Unakoti rock carvings date to the 7th century."
+            },
+            {
+              "title": "Food",
+              "body": "Fish curries — especially boiled hilsa with mustard seeds and green chillies — are central to Tripura's food."
+            },
+            {
+              "title": "Kamalasagar",
+              "body": "Kamalasagar is a 10-acre lake dug in the 15th century, with the 16th-century Kasba Kali Bari temple on its shore."
+            }
+          ],
+          "facts": [
+            "TR1",
+            "TR2",
+            "KMS1"
+          ]
+        },
+        "things_to_do": {
+          "items": [
+            {
+              "body": "Elsewhere in Tripura — Kamalasagar: Kamalasagar is a 10-acre lake dug in the 15th century, with the 16th-century Kasba Kali Bari temple on its shore."
+            }
+          ],
+          "facts": [
+            "KMS1"
+          ]
+        }
+      },
+      "parent": "tripura/agartala",
+      "displayMode": "parent_section"
+    },
+    {
+      "key": "mizoram/hmuifang",
+      "kind": "viewpoint",
+      "name": "Hmuifang",
+      "summary": "A 1,619 m peak 50 km from Aizawl.",
+      "seoTitle": "Hmuifang Mountain: Views & Camping near Aizawl",
+      "seoDescription": "Hmuifang, 50 km south of Aizawl at 1,619 m: hill views, rhododendrons and orchids, and camping.",
+      "lat": 23.44988994,
+      "lng": 92.75768633,
+      "tripTypes": [
+        "mountains",
+        "nature",
+        "adventure"
+      ],
+      "images": [
+        {
+          "commons": "File:Hmuifang_Mountain_Side.jpg",
+          "alt": "Forested slopes of Hmuifang mountain",
+          "caption": "Hmuifang",
+          "hero": true
+        }
+      ],
+      "sections": {
+        "overview": {
+          "text": "Hmuifang, 50 km south of Aizawl, rises to 1,619 m. Rhododendrons and orchids bloom here, and camping is popular.",
+          "facts": [
+            "HMF1"
+          ]
+        },
+        "practical_info": {
+          "items": [
+            {
+              "title": "Hmuifang",
+              "body": "Hmuifang, 50 km south of Aizawl, rises to 1,619 m; rhododendrons and orchids bloom here, and camping is popular."
+            },
+            {
+              "title": "Tamdil",
+              "body": "Tamdil, about 85 km from Aizawl, is Mizoram's largest natural lake; its name means 'Lake of Mustard'."
+            },
+            {
+              "title": "Lunglei",
+              "body": "Lunglei — 'rock bridge' — is Mizoram's second-largest city, ringed by pine-meadow villages."
+            }
+          ],
+          "facts": [
+            "HMF1",
+            "TAM1",
+            "LUN1"
+          ]
+        },
+        "things_to_do": {
+          "items": [
+            {
+              "body": "Elsewhere in Mizoram — Tamdil: Tamdil, about 85 km from Aizawl, is Mizoram's largest natural lake; its name means 'Lake of Mustard'."
+            },
+            {
+              "body": "Elsewhere in Mizoram — Palak Dil: Palak Dil, near Phura village in the far south, is Mizoram's largest lake and good for birdwatching."
+            },
+            {
+              "body": "Elsewhere in Mizoram — Lunglei: Lunglei — 'rock bridge' — is Mizoram's second-largest city, ringed by pine-meadow villages."
+            }
+          ],
+          "facts": [
+            "TAM1",
+            "PLK1",
+            "LUN1"
+          ]
+        },
+        "travel_tips": {
+          "items": [
+            {
+              "body": "In Mizoram: Hmuifang, 50 km south of Aizawl, rises to 1,619 m; rhododendrons and orchids bloom here, and camping is popular."
+            },
+            {
+              "body": "In Mizoram: Tamdil, about 85 km from Aizawl, is Mizoram's largest natural lake; its name means 'Lake of Mustard'."
+            },
+            {
+              "body": "In Mizoram: Lunglei — 'rock bridge' — is Mizoram's second-largest city, ringed by pine-meadow villages."
+            }
+          ],
+          "facts": [
+            "HMF1",
+            "TAM1",
+            "LUN1"
+          ]
+        }
+      },
+      "wikidataId": "Q5873696"
+    },
+    {
+      "key": "mizoram/tamdil",
+      "kind": "lake",
+      "name": "Tamdil",
+      "summary": "Mizoram's largest natural lake, 85 km from Aizawl.",
+      "seoTitle": "Tamdil Lake Mizoram: How to Visit",
+      "seoDescription": "Tamdil, about 85 km from Aizawl: Mizoram's largest natural lake, the 'Lake of Mustard', among forested hills.",
+      "lat": 23.7383,
+      "lng": 92.9558,
+      "tripTypes": [
+        "nature"
+      ],
+      "images": [
+        {
+          "commons": "File:Tam Dil Lake in Saitual.jpg",
+          "alt": "Tamdil lake among forested hills",
+          "caption": "Tamdil",
+          "hero": true
+        }
+      ],
+      "sections": {
+        "overview": {
+          "text": "Tamdil, about 85 km from Aizawl, is Mizoram's largest natural lake. Its name means 'Lake of Mustard'.",
+          "facts": [
+            "TAM1"
+          ]
+        },
+        "practical_info": {
+          "items": [
+            {
+              "title": "Hmuifang",
+              "body": "Hmuifang, 50 km south of Aizawl, rises to 1,619 m; rhododendrons and orchids bloom here, and camping is popular."
+            },
+            {
+              "title": "Tamdil",
+              "body": "Tamdil, about 85 km from Aizawl, is Mizoram's largest natural lake; its name means 'Lake of Mustard'."
+            },
+            {
+              "title": "Lunglei",
+              "body": "Lunglei — 'rock bridge' — is Mizoram's second-largest city, ringed by pine-meadow villages."
+            }
+          ],
+          "facts": [
+            "HMF1",
+            "TAM1",
+            "LUN1"
+          ]
+        },
+        "things_to_do": {
+          "items": [
+            {
+              "body": "Elsewhere in Mizoram — Hmuifang: Hmuifang, 50 km south of Aizawl, rises to 1,619 m; rhododendrons and orchids bloom here, and camping is popular."
+            },
+            {
+              "body": "Elsewhere in Mizoram — Palak Dil: Palak Dil, near Phura village in the far south, is Mizoram's largest lake and good for birdwatching."
+            },
+            {
+              "body": "Elsewhere in Mizoram — Lunglei: Lunglei — 'rock bridge' — is Mizoram's second-largest city, ringed by pine-meadow villages."
+            }
+          ],
+          "facts": [
+            "HMF1",
+            "PLK1",
+            "LUN1"
+          ]
+        },
+        "travel_tips": {
+          "items": [
+            {
+              "body": "In Mizoram: Hmuifang, 50 km south of Aizawl, rises to 1,619 m; rhododendrons and orchids bloom here, and camping is popular."
+            },
+            {
+              "body": "In Mizoram: Tamdil, about 85 km from Aizawl, is Mizoram's largest natural lake; its name means 'Lake of Mustard'."
+            },
+            {
+              "body": "In Mizoram: Lunglei — 'rock bridge' — is Mizoram's second-largest city, ringed by pine-meadow villages."
+            }
+          ],
+          "facts": [
+            "HMF1",
+            "TAM1",
+            "LUN1"
+          ]
+        }
+      }
+    },
+    {
+      "key": "mizoram/palak-lake",
+      "kind": "lake",
+      "name": "Palak Dil",
+      "summary": "Mizoram's largest lake, in the far south.",
+      "seoTitle": "Palak Dil (Palak Lake), Mizoram",
+      "seoDescription": "Palak Dil near Phura village in southern Mizoram: the state's largest lake and a birdwatching spot.",
+      "lat": 22.34027778,
+      "lng": 92.9425,
+      "tripTypes": [
+        "nature",
+        "wildlife"
+      ],
+      "images": [
+        {
+          "commons": "File:Palak_Dil.jpg",
+          "alt": "Palak Dil lake in southern Mizoram",
+          "caption": "Palak Dil",
+          "hero": true
+        }
+      ],
+      "sections": {
+        "overview": {
+          "text": "Palak Dil, near Phura village in the far south, is Mizoram's largest lake and good for birdwatching.",
+          "facts": [
+            "PLK1"
+          ]
+        },
+        "practical_info": {
+          "items": [
+            {
+              "title": "Hmuifang",
+              "body": "Hmuifang, 50 km south of Aizawl, rises to 1,619 m; rhododendrons and orchids bloom here, and camping is popular."
+            },
+            {
+              "title": "Tamdil",
+              "body": "Tamdil, about 85 km from Aizawl, is Mizoram's largest natural lake; its name means 'Lake of Mustard'."
+            },
+            {
+              "title": "Lunglei",
+              "body": "Lunglei — 'rock bridge' — is Mizoram's second-largest city, ringed by pine-meadow villages."
+            }
+          ],
+          "facts": [
+            "HMF1",
+            "TAM1",
+            "LUN1"
+          ]
+        },
+        "things_to_do": {
+          "items": [
+            {
+              "body": "Elsewhere in Mizoram — Hmuifang: Hmuifang, 50 km south of Aizawl, rises to 1,619 m; rhododendrons and orchids bloom here, and camping is popular."
+            },
+            {
+              "body": "Elsewhere in Mizoram — Tamdil: Tamdil, about 85 km from Aizawl, is Mizoram's largest natural lake; its name means 'Lake of Mustard'."
+            },
+            {
+              "body": "Elsewhere in Mizoram — Lunglei: Lunglei — 'rock bridge' — is Mizoram's second-largest city, ringed by pine-meadow villages."
+            }
+          ],
+          "facts": [
+            "HMF1",
+            "TAM1",
+            "LUN1"
+          ]
+        },
+        "travel_tips": {
+          "items": [
+            {
+              "body": "In Mizoram: Hmuifang, 50 km south of Aizawl, rises to 1,619 m; rhododendrons and orchids bloom here, and camping is popular."
+            },
+            {
+              "body": "In Mizoram: Tamdil, about 85 km from Aizawl, is Mizoram's largest natural lake; its name means 'Lake of Mustard'."
+            },
+            {
+              "body": "In Mizoram: Lunglei — 'rock bridge' — is Mizoram's second-largest city, ringed by pine-meadow villages."
+            }
+          ],
+          "facts": [
+            "HMF1",
+            "TAM1",
+            "LUN1"
+          ]
+        }
+      },
+      "wikidataId": "Q7126625"
+    },
+    {
+      "key": "mizoram/solomons-temple",
+      "kind": "attraction",
+      "name": "Solomon's Temple",
+      "summary": "Mizoram's largest church, 10 km from Aizawl.",
+      "seoTitle": "Solomon's Temple Aizawl: Mizoram's Largest Church",
+      "seoDescription": "Solomon's Temple in the Kidron Valley, 10 km from Aizawl: Mizoram's largest church, founded in 1996.",
+      "lat": 23.7479,
+      "lng": 92.6884,
+      "tripTypes": [
+        "spiritual"
+      ],
+      "images": [
+        {
+          "commons": "File:Temple_thlalak.JPG",
+          "alt": "Solomon's Temple church near Aizawl",
+          "caption": "Solomon's Temple",
+          "hero": true
+        }
+      ],
+      "sections": {
+        "overview": {
+          "text": "Solomon's Temple, 10 km from Aizawl, is Mizoram's largest church; its foundation stone was laid in 1996.",
+          "facts": [
+            "SOL1"
+          ]
+        },
+        "travel_tips": {
+          "items": [
+            {
+              "body": "About Aizawl: Solomon's Temple, 10 km from Aizawl, is Mizoram's largest church; its foundation stone was laid in 1996."
+            },
+            {
+              "body": "About Aizawl: Hmuifang, 50 km south of Aizawl, rises to 1,619 m; rhododendrons and orchids bloom here, and camping is popular."
+            }
+          ],
+          "facts": [
+            "SOL1",
+            "HMF1"
+          ]
+        },
+        "practical_info": {
+          "items": [
+            {
+              "title": "Hmuifang",
+              "body": "Hmuifang, 50 km south of Aizawl, rises to 1,619 m; rhododendrons and orchids bloom here, and camping is popular."
+            },
+            {
+              "title": "Tamdil",
+              "body": "Tamdil, about 85 km from Aizawl, is Mizoram's largest natural lake; its name means 'Lake of Mustard'."
+            },
+            {
+              "title": "Lunglei",
+              "body": "Lunglei — 'rock bridge' — is Mizoram's second-largest city, ringed by pine-meadow villages."
+            }
+          ],
+          "facts": [
+            "HMF1",
+            "TAM1",
+            "LUN1"
+          ]
+        },
+        "things_to_do": {
+          "items": [
+            {
+              "body": "Elsewhere in Mizoram — Hmuifang: Hmuifang, 50 km south of Aizawl, rises to 1,619 m; rhododendrons and orchids bloom here, and camping is popular."
+            },
+            {
+              "body": "Elsewhere in Mizoram — Tamdil: Tamdil, about 85 km from Aizawl, is Mizoram's largest natural lake; its name means 'Lake of Mustard'."
+            },
+            {
+              "body": "Elsewhere in Mizoram — Palak Dil: Palak Dil, near Phura village in the far south, is Mizoram's largest lake and good for birdwatching."
+            },
+            {
+              "body": "Elsewhere in Mizoram — Lunglei: Lunglei — 'rock bridge' — is Mizoram's second-largest city, ringed by pine-meadow villages."
+            }
+          ],
+          "facts": [
+            "HMF1",
+            "TAM1",
+            "PLK1",
+            "LUN1"
+          ]
+        }
+      },
+      "wikidataId": "Q16168962",
+      "parent": "mizoram/aizawl"
+    },
+    {
+      "key": "mizoram/lunglei",
+      "kind": "town",
+      "name": "Lunglei",
+      "summary": "Mizoram's second city, 'the rock bridge'.",
+      "seoTitle": "Lunglei Travel Guide: Mizoram's Second City",
+      "seoDescription": "Lunglei, Mizoram's second-largest city: its name means 'rock bridge', amid pine meadows and hill villages.",
+      "lat": 22.88,
+      "lng": 92.73,
+      "tripTypes": [
+        "mountains",
+        "nature"
+      ],
+      "images": [
+        {
+          "commons": "File:View_of_Lunglei_from_Zotlang_area_in_Mizoram_-_panoramio.jpg",
+          "alt": "Lunglei town spread over green hills",
+          "caption": "Lunglei",
+          "hero": true
+        }
+      ],
+      "sections": {
+        "overview": {
+          "text": "Lunglei — the name means 'rock bridge' — is Mizoram's second-largest city, ringed by pine-meadow villages.",
+          "facts": [
+            "LUN1"
+          ]
+        },
+        "practical_info": {
+          "items": [
+            {
+              "title": "Hmuifang",
+              "body": "Hmuifang, 50 km south of Aizawl, rises to 1,619 m; rhododendrons and orchids bloom here, and camping is popular."
+            },
+            {
+              "title": "Tamdil",
+              "body": "Tamdil, about 85 km from Aizawl, is Mizoram's largest natural lake; its name means 'Lake of Mustard'."
+            },
+            {
+              "title": "Lunglei",
+              "body": "Lunglei — 'rock bridge' — is Mizoram's second-largest city, ringed by pine-meadow villages."
+            }
+          ],
+          "facts": [
+            "HMF1",
+            "TAM1",
+            "LUN1"
+          ]
+        },
+        "things_to_do": {
+          "items": [
+            {
+              "body": "Elsewhere in Mizoram — Hmuifang: Hmuifang, 50 km south of Aizawl, rises to 1,619 m; rhododendrons and orchids bloom here, and camping is popular."
+            },
+            {
+              "body": "Elsewhere in Mizoram — Tamdil: Tamdil, about 85 km from Aizawl, is Mizoram's largest natural lake; its name means 'Lake of Mustard'."
+            },
+            {
+              "body": "Elsewhere in Mizoram — Palak Dil: Palak Dil, near Phura village in the far south, is Mizoram's largest lake and good for birdwatching."
+            }
+          ],
+          "facts": [
+            "HMF1",
+            "TAM1",
+            "PLK1"
+          ]
+        }
+      },
+      "wikidataId": "Q2182763"
+    },
+    {
+      "key": "chhattisgarh/bilaspur",
+      "kind": "city",
+      "name": "Bilaspur",
+      "summary": "Base for Ratanpur, Malhar's Kalachuri temples and Achanakmar.",
+      "seoTitle": "Bilaspur Chhattisgarh: Temples & Wildlife",
+      "seoDescription": "Plan Bilaspur: Ratanpur's Mahamaya Temple, the Kalachuri temples of Malhar and Achanakmar Wildlife Sanctuary.",
+      "lat": 22.09,
+      "lng": 82.15,
+      "tripTypes": [
+        "spiritual",
+        "heritage",
+        "wildlife"
+      ],
+      "images": [
+        {
+          "commons": "File:Bilaspur_Junction_Railway_Station_Building_001.jpg",
+          "alt": "Bilaspur Junction railway station",
+          "caption": "Bilaspur",
+          "hero": true
+        }
+      ],
+      "sections": {
+        "overview": {
+          "text": "Bilaspur is the base for Ratanpur's Mahamaya Temple, the Kalachuri temples of Malhar and Achanakmar Wildlife Sanctuary.",
+          "facts": [
+            "BSP1"
+          ]
+        },
+        "highlights": {
+          "items": [
+            {
+              "body": "Mahamaya Temple, Ratanpur: Ratanpur's Mahamaya Temple, to Durga and Mahalakshmi, dates from the 12th–13th centuries under the Kalachuris."
+            }
+          ],
+          "facts": [
+            "MMT1"
+          ]
+        },
+        "practical_info": {
+          "items": [
+            {
+              "title": "Bilaspur",
+              "body": "Bilaspur is the base for Ratanpur's Mahamaya Temple, the Kalachuri temples of Malhar and Achanakmar Wildlife Sanctuary."
+            },
+            {
+              "title": "Danteshwari Temple",
+              "body": "The 600-year-old Danteshwari Temple at Dantewada is a Shakti Peetha, built by Kakatiya rulers in the 14th century."
+            },
+            {
+              "title": "Mahamaya Temple",
+              "body": "Ratanpur's Mahamaya Temple, to Durga and Mahalakshmi, dates from the 12th–13th centuries under the Kalachuris."
+            }
+          ],
+          "facts": [
+            "BSP1",
+            "DAN1",
+            "MMT1"
+          ]
+        },
+        "things_to_do": {
+          "items": [
+            {
+              "body": "Elsewhere in Chhattisgarh — Danteshwari Temple: The 600-year-old Danteshwari Temple at Dantewada is a Shakti Peetha, built by Kakatiya rulers in the 14th century."
+            }
+          ],
+          "facts": [
+            "DAN1"
+          ]
+        },
+        "travel_tips": {
+          "items": [
+            {
+              "body": "In Chhattisgarh: Bilaspur is the base for Ratanpur's Mahamaya Temple, the Kalachuri temples of Malhar and Achanakmar Wildlife Sanctuary."
+            },
+            {
+              "body": "In Chhattisgarh: The 600-year-old Danteshwari Temple at Dantewada is a Shakti Peetha, built by Kakatiya rulers in the 14th century."
+            },
+            {
+              "body": "In Chhattisgarh: Ratanpur's Mahamaya Temple, to Durga and Mahalakshmi, dates from the 12th–13th centuries under the Kalachuris."
+            }
+          ],
+          "facts": [
+            "BSP1",
+            "DAN1",
+            "MMT1"
+          ]
+        }
+      },
+      "wikidataId": "Q860452"
+    },
+    {
+      "key": "chhattisgarh/mahamaya-temple-ratanpur",
+      "kind": "temple",
+      "name": "Mahamaya Temple, Ratanpur",
+      "summary": "A Kalachuri-era temple to Durga and Mahalakshmi.",
+      "seoTitle": "Mahamaya Temple Ratanpur: History & Visit",
+      "seoDescription": "Ratanpur's Mahamaya Temple near Bilaspur: dedicated to Durga and Mahalakshmi, built under the Kalachuris in the 12th–13th centuries.",
+      "lat": 22.2894,
+      "lng": 82.1678,
+      "tripTypes": [
+        "spiritual",
+        "heritage"
+      ],
+      "images": [
+        {
+          "commons": "File:0010722 11th century Ratanpur Mahamaya Temple Chhattisgarh 051.jpg",
+          "alt": "The Mahamaya Temple at Ratanpur",
+          "caption": "Mahamaya Temple, Ratanpur",
+          "hero": true
+        }
+      ],
+      "sections": {
+        "overview": {
+          "text": "Ratanpur's Mahamaya Temple, to Durga and Mahalakshmi, dates from the 12th–13th centuries under the Kalachuri dynasty.",
+          "facts": [
+            "MMT1"
+          ]
+        },
+        "travel_tips": {
+          "items": [
+            {
+              "body": "About Bilaspur: Bilaspur is the base for Ratanpur's Mahamaya Temple, the Kalachuri temples of Malhar and Achanakmar Wildlife Sanctuary."
+            }
+          ],
+          "facts": [
+            "BSP1"
+          ]
+        },
+        "practical_info": {
+          "items": [
+            {
+              "title": "Bilaspur",
+              "body": "Bilaspur is the base for Ratanpur's Mahamaya Temple, the Kalachuri temples of Malhar and Achanakmar Wildlife Sanctuary."
+            },
+            {
+              "title": "Danteshwari Temple",
+              "body": "The 600-year-old Danteshwari Temple at Dantewada is a Shakti Peetha, built by Kakatiya rulers in the 14th century."
+            },
+            {
+              "title": "Mahamaya Temple",
+              "body": "Ratanpur's Mahamaya Temple, to Durga and Mahalakshmi, dates from the 12th–13th centuries under the Kalachuris."
+            }
+          ],
+          "facts": [
+            "BSP1",
+            "DAN1",
+            "MMT1"
+          ]
+        },
+        "things_to_do": {
+          "items": [
+            {
+              "body": "Elsewhere in Chhattisgarh — Bilaspur: Bilaspur is the base for Ratanpur's Mahamaya Temple, the Kalachuri temples of Malhar and Achanakmar Wildlife Sanctuary."
+            },
+            {
+              "body": "Elsewhere in Chhattisgarh — Danteshwari Temple: The 600-year-old Danteshwari Temple at Dantewada is a Shakti Peetha, built by Kakatiya rulers in the 14th century."
+            }
+          ],
+          "facts": [
+            "BSP1",
+            "DAN1"
+          ]
+        }
+      },
+      "parent": "chhattisgarh/bilaspur"
+    },
+    {
+      "key": "chhattisgarh/bastar-palace",
+      "kind": "attraction",
+      "name": "Bastar Palace",
+      "summary": "The royal palace of Bastar in Jagdalpur.",
+      "seoTitle": "Bastar Palace Jagdalpur",
+      "seoDescription": "Bastar Palace in Jagdalpur: residence of Bastar's royal family.",
+      "lat": 19.0757,
+      "lng": 82.0231,
+      "tripTypes": [
+        "heritage"
+      ],
+      "images": [],
+      "sections": {
+        "overview": {
+          "text": "Bastar Palace was the residence of Bastar's royal family and a centre of administration.",
+          "facts": [
+            "BPL1"
+          ]
+        },
+        "travel_tips": {
+          "items": [
+            {
+              "body": "About Bastar: The 600-year-old Danteshwari Temple at Dantewada is a Shakti Peetha, built by Kakatiya rulers in the 14th century."
+            }
+          ],
+          "facts": [
+            "DAN1"
+          ]
+        },
+        "practical_info": {
+          "items": [
+            {
+              "title": "Bilaspur",
+              "body": "Bilaspur is the base for Ratanpur's Mahamaya Temple, the Kalachuri temples of Malhar and Achanakmar Wildlife Sanctuary."
+            },
+            {
+              "title": "Danteshwari Temple",
+              "body": "The 600-year-old Danteshwari Temple at Dantewada is a Shakti Peetha, built by Kakatiya rulers in the 14th century."
+            },
+            {
+              "title": "Mahamaya Temple",
+              "body": "Ratanpur's Mahamaya Temple, to Durga and Mahalakshmi, dates from the 12th–13th centuries under the Kalachuris."
+            }
+          ],
+          "facts": [
+            "BSP1",
+            "DAN1",
+            "MMT1"
+          ]
+        },
+        "things_to_do": {
+          "items": [
+            {
+              "body": "Elsewhere in Chhattisgarh — Bilaspur: Bilaspur is the base for Ratanpur's Mahamaya Temple, the Kalachuri temples of Malhar and Achanakmar Wildlife Sanctuary."
+            },
+            {
+              "body": "Elsewhere in Chhattisgarh — Danteshwari Temple: The 600-year-old Danteshwari Temple at Dantewada is a Shakti Peetha, built by Kakatiya rulers in the 14th century."
+            }
+          ],
+          "facts": [
+            "BSP1",
+            "DAN1"
+          ]
+        }
+      },
+      "parent": "chhattisgarh/jagdalpur",
+      "displayMode": "parent_section"
+    },
+    {
+      "key": "chhattisgarh/danteshwari-temple",
+      "kind": "temple",
+      "name": "Danteshwari Temple",
+      "summary": "A 600-year-old Shakti Peetha at Dantewada.",
+      "seoTitle": "Danteshwari Temple Dantewada: History & Visit",
+      "seoDescription": "Danteshwari Temple at Dantewada: a 600-year-old Shakti Peetha built by Kakatiya rulers in the 14th century.",
+      "lat": 18.8966,
+      "lng": 81.345,
+      "tripTypes": [
+        "spiritual",
+        "heritage"
+      ],
+      "images": [
+        {
+          "commons": "File:Danteswari_Temple_0034.jpg",
+          "alt": "The Danteshwari Temple at Dantewada",
+          "caption": "Danteshwari Temple",
+          "hero": true
+        }
+      ],
+      "sections": {
+        "overview": {
+          "text": "The 600-year-old Danteshwari Temple at Dantewada was built by Kakatiya rulers in the 14th century.",
+          "facts": [
+            "DAN1"
+          ]
+        },
+        "practical_info": {
+          "items": [
+            {
+              "title": "Bilaspur",
+              "body": "Bilaspur is the base for Ratanpur's Mahamaya Temple, the Kalachuri temples of Malhar and Achanakmar Wildlife Sanctuary."
+            },
+            {
+              "title": "Danteshwari Temple",
+              "body": "The 600-year-old Danteshwari Temple at Dantewada is a Shakti Peetha, built by Kakatiya rulers in the 14th century."
+            },
+            {
+              "title": "Mahamaya Temple",
+              "body": "Ratanpur's Mahamaya Temple, to Durga and Mahalakshmi, dates from the 12th–13th centuries under the Kalachuris."
+            }
+          ],
+          "facts": [
+            "BSP1",
+            "DAN1",
+            "MMT1"
+          ]
+        },
+        "things_to_do": {
+          "items": [
+            {
+              "body": "Elsewhere in Chhattisgarh — Bilaspur: Bilaspur is the base for Ratanpur's Mahamaya Temple, the Kalachuri temples of Malhar and Achanakmar Wildlife Sanctuary."
+            }
+          ],
+          "facts": [
+            "BSP1"
+          ]
+        },
+        "travel_tips": {
+          "items": [
+            {
+              "body": "In Chhattisgarh: Bilaspur is the base for Ratanpur's Mahamaya Temple, the Kalachuri temples of Malhar and Achanakmar Wildlife Sanctuary."
+            },
+            {
+              "body": "In Chhattisgarh: The 600-year-old Danteshwari Temple at Dantewada is a Shakti Peetha, built by Kakatiya rulers in the 14th century."
+            },
+            {
+              "body": "In Chhattisgarh: Ratanpur's Mahamaya Temple, to Durga and Mahalakshmi, dates from the 12th–13th centuries under the Kalachuris."
+            }
+          ],
+          "facts": [
+            "BSP1",
+            "DAN1",
+            "MMT1"
+          ]
+        }
+      },
+      "wikidataId": "Q5221212"
+    },
+    {
+      "key": "andaman-and-nicobar-islands/chidiya-tapu",
+      "kind": "nature",
+      "name": "Chidiya Tapu",
+      "summary": "A birding spot and horseshoe beach at South Andaman's tip.",
+      "seoTitle": "Chidiya Tapu: Birds, Beach & Sunset",
+      "seoDescription": "Chidiya Tapu, 28 km from Sri Vijaya Puram at the southern tip of South Andaman: birdwatching and a horseshoe beach.",
+      "lat": 11.4917,
+      "lng": 92.7092,
+      "tripTypes": [
+        "beaches",
+        "wildlife",
+        "nature"
+      ],
+      "images": [
+        {
+          "commons": "File:Chidiya Tapu 4180135.JPG",
+          "alt": "The beach and forest at Chidiya Tapu",
+          "caption": "Chidiya Tapu",
+          "hero": true
+        }
+      ],
+      "sections": {
+        "overview": {
+          "text": "Chidiya Tapu, at the southern tip of South Andaman 28 km from Sri Vijaya Puram, is a birding spot with a horseshoe beach.",
+          "facts": [
+            "CHT1"
+          ]
+        },
+        "highlights": {
+          "items": [
+            {
+              "body": "Also in Sri Vijaya Puram — Corbyn's Cove: Corbyn's Cove, a few km south of Sri Vijaya Puram, is a clean, family-friendly beach known for sunsets."
+            },
+            {
+              "body": "Also in Sri Vijaya Puram — Wandoor Beach: Wandoor Beach, 25 km south-west of Sri Vijaya Puram, has a jetty for Jolly Buoy, Red Skin and Alexandra islands and glass-bottom boat trips."
+            },
+            {
+              "body": "Also in Sri Vijaya Puram — Mount Manipur National Park: Mount Manipur National Park, formerly Mount Harriet, is named for Manipur's role in the 1891 war; its peak is the islands' third highest at 1,257 ft."
+            }
+          ],
+          "facts": [
+            "COR1",
+            "WAN1",
+            "MMN1"
+          ]
+        },
+        "travel_tips": {
+          "items": [
+            {
+              "body": "About Sri Vijaya Puram: Chidiya Tapu, at the southern tip of South Andaman 28 km from Sri Vijaya Puram, is a birding spot with a horseshoe beach."
+            },
+            {
+              "body": "About Sri Vijaya Puram: Corbyn's Cove, a few km south of Sri Vijaya Puram, is a clean, family-friendly beach known for sunsets."
+            },
+            {
+              "body": "About Sri Vijaya Puram: Wandoor Beach, 25 km south-west of Sri Vijaya Puram, has a jetty for Jolly Buoy, Red Skin and Alexandra islands and glass-bottom boat trips."
+            }
+          ],
+          "facts": [
+            "CHT1",
+            "COR1",
+            "WAN1"
+          ]
+        }
+      },
+      "parent": "andaman-and-nicobar-islands/sri-vijaya-puram"
+    },
+    {
+      "key": "andaman-and-nicobar-islands/corbyns-cove",
+      "kind": "nature",
+      "name": "Corbyn's Cove",
+      "summary": "Sri Vijaya Puram's family beach.",
+      "seoTitle": "Corbyn's Cove Beach, Sri Vijaya Puram",
+      "seoDescription": "Corbyn's Cove, a few km south of Sri Vijaya Puram: a clean, family-friendly beach known for its sunsets.",
+      "lat": 11.6439,
+      "lng": 92.7472,
+      "tripTypes": [
+        "beaches",
+        "family"
+      ],
+      "images": [
+        {
+          "commons": "File:Corbyns cove beach-3-port blair-andaman-India.jpg",
+          "alt": "Palms and sand at Corbyn's Cove",
+          "caption": "Corbyn's Cove",
+          "hero": true
+        }
+      ],
+      "sections": {
+        "overview": {
+          "text": "Corbyn's Cove, a few km south of Sri Vijaya Puram, is a clean, family-friendly beach known for sunsets.",
+          "facts": [
+            "COR1"
+          ]
+        },
+        "highlights": {
+          "items": [
+            {
+              "body": "Also in Sri Vijaya Puram — Chidiya Tapu: Chidiya Tapu, at the southern tip of South Andaman 28 km from Sri Vijaya Puram, is a birding spot with a horseshoe beach."
+            },
+            {
+              "body": "Also in Sri Vijaya Puram — Wandoor Beach: Wandoor Beach, 25 km south-west of Sri Vijaya Puram, has a jetty for Jolly Buoy, Red Skin and Alexandra islands and glass-bottom boat trips."
+            },
+            {
+              "body": "Also in Sri Vijaya Puram — Mount Manipur National Park: Mount Manipur National Park, formerly Mount Harriet, is named for Manipur's role in the 1891 war; its peak is the islands' third highest at 1,257 ft."
+            }
+          ],
+          "facts": [
+            "CHT1",
+            "WAN1",
+            "MMN1"
+          ]
+        },
+        "travel_tips": {
+          "items": [
+            {
+              "body": "About Sri Vijaya Puram: Chidiya Tapu, at the southern tip of South Andaman 28 km from Sri Vijaya Puram, is a birding spot with a horseshoe beach."
+            },
+            {
+              "body": "About Sri Vijaya Puram: Corbyn's Cove, a few km south of Sri Vijaya Puram, is a clean, family-friendly beach known for sunsets."
+            },
+            {
+              "body": "About Sri Vijaya Puram: Wandoor Beach, 25 km south-west of Sri Vijaya Puram, has a jetty for Jolly Buoy, Red Skin and Alexandra islands and glass-bottom boat trips."
+            }
+          ],
+          "facts": [
+            "CHT1",
+            "COR1",
+            "WAN1"
+          ]
+        }
+      },
+      "parent": "andaman-and-nicobar-islands/sri-vijaya-puram"
+    },
+    {
+      "key": "andaman-and-nicobar-islands/wandoor-beach",
+      "kind": "nature",
+      "name": "Wandoor Beach",
+      "summary": "The jetty for Jolly Buoy and Red Skin islands.",
+      "seoTitle": "Wandoor Beach: Jetty to Jolly Buoy & Red Skin",
+      "seoDescription": "Wandoor Beach, 25 km south-west of Sri Vijaya Puram: the jetty for Jolly Buoy, Red Skin and Alexandra islands and glass-bottom boats.",
+      "lat": 11.5942,
+      "lng": 92.6111,
+      "tripTypes": [
+        "beaches",
+        "adventure"
+      ],
+      "images": [
+        {
+          "commons": "File:Wandoor Beach, Andaman & Nicobar Islands.jpg",
+          "alt": "Wandoor Beach on South Andaman",
+          "caption": "Wandoor Beach",
+          "hero": true
+        }
+      ],
+      "sections": {
+        "overview": {
+          "text": "Wandoor Beach, 25 km south-west of Sri Vijaya Puram, has the jetty for Jolly Buoy, Red Skin and Alexandra islands, and glass-bottom boat trips.",
+          "facts": [
+            "WAN1"
+          ]
+        },
+        "highlights": {
+          "items": [
+            {
+              "body": "Also in Sri Vijaya Puram — Chidiya Tapu: Chidiya Tapu, at the southern tip of South Andaman 28 km from Sri Vijaya Puram, is a birding spot with a horseshoe beach."
+            },
+            {
+              "body": "Also in Sri Vijaya Puram — Corbyn's Cove: Corbyn's Cove, a few km south of Sri Vijaya Puram, is a clean, family-friendly beach known for sunsets."
+            },
+            {
+              "body": "Also in Sri Vijaya Puram — Mount Manipur National Park: Mount Manipur National Park, formerly Mount Harriet, is named for Manipur's role in the 1891 war; its peak is the islands' third highest at 1,257 ft."
+            }
+          ],
+          "facts": [
+            "CHT1",
+            "COR1",
+            "MMN1"
+          ]
+        },
+        "travel_tips": {
+          "items": [
+            {
+              "body": "About Sri Vijaya Puram: Chidiya Tapu, at the southern tip of South Andaman 28 km from Sri Vijaya Puram, is a birding spot with a horseshoe beach."
+            },
+            {
+              "body": "About Sri Vijaya Puram: Corbyn's Cove, a few km south of Sri Vijaya Puram, is a clean, family-friendly beach known for sunsets."
+            },
+            {
+              "body": "About Sri Vijaya Puram: Wandoor Beach, 25 km south-west of Sri Vijaya Puram, has a jetty for Jolly Buoy, Red Skin and Alexandra islands and glass-bottom boat trips."
+            }
+          ],
+          "facts": [
+            "CHT1",
+            "COR1",
+            "WAN1"
+          ]
+        }
+      },
+      "parent": "andaman-and-nicobar-islands/sri-vijaya-puram",
+      "relations": [
+        {
+          "to": "andaman-and-nicobar-islands/mahatma-gandhi-marine-national-park",
+          "type": "nearby"
+        }
+      ]
+    },
+    {
+      "key": "andaman-and-nicobar-islands/mount-manipur-national-park",
+      "kind": "nature",
+      "name": "Mount Manipur National Park",
+      "summary": "Formerly Mount Harriet: forest and the islands' third-highest peak.",
+      "seoTitle": "Mount Manipur (Mount Harriet) National Park",
+      "seoDescription": "Mount Manipur National Park, formerly Mount Harriet: the islands' third-highest peak at 1,257 ft, renamed for Manipur's role in 1891.",
+      "lat": 11.71638889,
+      "lng": 92.73388889,
+      "tripTypes": [
+        "nature",
+        "adventure"
+      ],
+      "images": [
+        {
+          "commons": "File:Centaur_Oakblue_andamans_at_Mt_Harriet_National_Park.jpg",
+          "alt": "A Centaur Oakblue butterfly in Mount Manipur National Park",
+          "caption": "Mount Manipur National Park",
+          "hero": true
+        }
+      ],
+      "sections": {
+        "overview": {
+          "text": "Mount Manipur National Park, formerly Mount Harriet, was renamed to honour Manipur's role in the 1891 war. Its peak, at 1,257 ft, is the islands' third highest.",
+          "facts": [
+            "MMN1"
+          ]
+        },
+        "highlights": {
+          "items": [
+            {
+              "body": "Also in Sri Vijaya Puram — Chidiya Tapu: Chidiya Tapu, at the southern tip of South Andaman 28 km from Sri Vijaya Puram, is a birding spot with a horseshoe beach."
+            },
+            {
+              "body": "Also in Sri Vijaya Puram — Corbyn's Cove: Corbyn's Cove, a few km south of Sri Vijaya Puram, is a clean, family-friendly beach known for sunsets."
+            },
+            {
+              "body": "Also in Sri Vijaya Puram — Wandoor Beach: Wandoor Beach, 25 km south-west of Sri Vijaya Puram, has a jetty for Jolly Buoy, Red Skin and Alexandra islands and glass-bottom boat trips."
+            }
+          ],
+          "facts": [
+            "CHT1",
+            "COR1",
+            "WAN1"
+          ]
+        },
+        "travel_tips": {
+          "items": [
+            {
+              "body": "About Sri Vijaya Puram: Chidiya Tapu, at the southern tip of South Andaman 28 km from Sri Vijaya Puram, is a birding spot with a horseshoe beach."
+            },
+            {
+              "body": "About Sri Vijaya Puram: Corbyn's Cove, a few km south of Sri Vijaya Puram, is a clean, family-friendly beach known for sunsets."
+            },
+            {
+              "body": "About Sri Vijaya Puram: Wandoor Beach, 25 km south-west of Sri Vijaya Puram, has a jetty for Jolly Buoy, Red Skin and Alexandra islands and glass-bottom boat trips."
+            }
+          ],
+          "facts": [
+            "CHT1",
+            "COR1",
+            "WAN1"
+          ]
+        }
+      },
+      "wikidataId": "Q3091762",
+      "parent": "andaman-and-nicobar-islands/sri-vijaya-puram"
+    },
+    {
+      "key": "andaman-and-nicobar-islands/barren-island",
+      "kind": "nature",
+      "name": "Barren Island",
+      "summary": "South Asia's only active volcano.",
+      "seoTitle": "Barren Island: India's Active Volcano",
+      "seoDescription": "Barren Island, 138 km north-east of Sri Vijaya Puram: South Asia's only active volcano, last erupting in 2017, with reefs for advanced divers.",
+      "lat": 12.28,
+      "lng": 93.86,
+      "tripTypes": [
+        "adventure",
+        "nature"
+      ],
+      "images": [
+        {
+          "commons": "File:Barren_Island_Active_Volcano.jpg",
+          "alt": "The volcanic cone of Barren Island",
+          "caption": "Barren Island",
+          "hero": true
+        }
+      ],
+      "sections": {
+        "overview": {
+          "text": "Barren Island, 138 km north-east of Sri Vijaya Puram, is South Asia's only active volcano; it last erupted in 2017. Its reefs suit advanced divers.",
+          "facts": [
+            "BAR1"
+          ]
+        },
+        "practical_info": {
+          "items": [
+            {
+              "title": "Barren Island",
+              "body": "Barren Island, 138 km north-east of Sri Vijaya Puram, is South Asia's only active volcano (last eruption 2017); its reefs suit advanced divers."
+            },
+            {
+              "title": "Wandoor",
+              "body": "Wandoor Beach, 25 km south-west of Sri Vijaya Puram, has a jetty for Jolly Buoy, Red Skin and Alexandra islands and glass-bottom boat trips."
+            },
+            {
+              "title": "Mount Manipur",
+              "body": "Mount Manipur National Park, formerly Mount Harriet, is named for Manipur's role in the 1891 war; its peak is the islands' third highest at 1,257 ft."
+            }
+          ],
+          "facts": [
+            "BAR1",
+            "WAN1",
+            "MMN1"
+          ]
+        },
+        "things_to_do": {
+          "items": [
+            {
+              "body": "Elsewhere in the Andaman Islands — Dhani Nallah Mangrove Walkway: The Dhani Nallah mangrove walkway near Rangat is India's longest boardwalk of its kind."
+            }
+          ],
+          "facts": [
+            "DHN1"
+          ]
+        },
+        "travel_tips": {
+          "items": [
+            {
+              "body": "In the Andaman Islands: Barren Island, 138 km north-east of Sri Vijaya Puram, is South Asia's only active volcano (last eruption 2017); its reefs suit advanced divers."
+            },
+            {
+              "body": "In the Andaman Islands: Wandoor Beach, 25 km south-west of Sri Vijaya Puram, has a jetty for Jolly Buoy, Red Skin and Alexandra islands and glass-bottom boat trips."
+            },
+            {
+              "body": "In the Andaman Islands: Mount Manipur National Park, formerly Mount Harriet, is named for Manipur's role in the 1891 war; its peak is the islands' third highest at 1,257 ft."
+            }
+          ],
+          "facts": [
+            "BAR1",
+            "WAN1",
+            "MMN1"
+          ]
+        }
+      },
+      "wikidataId": "Q248212"
+    },
+    {
+      "key": "andaman-and-nicobar-islands/dhani-nallah",
+      "kind": "nature",
+      "name": "Dhani Nallah Mangrove Walkway",
+      "summary": "India's longest mangrove boardwalk, near Rangat.",
+      "seoTitle": "Dhani Nallah Mangrove Walkway, Rangat",
+      "seoDescription": "Dhani Nallah near Rangat on the Andaman Trunk Road: India's longest mangrove boardwalk of its kind.",
+      "lat": 12.53,
+      "lng": 92.95,
+      "tripTypes": [
+        "nature"
+      ],
+      "images": [
+        {
+          "commons": "File:Entry Point to Dhani Nallah.jpg",
+          "alt": "The entry to the Dhani Nallah mangrove boardwalk",
+          "caption": "Dhani Nallah",
+          "hero": true
+        }
+      ],
+      "sections": {
+        "overview": {
+          "text": "The Dhani Nallah mangrove walkway near Rangat is India's longest boardwalk of its kind.",
+          "facts": [
+            "DHN1"
+          ]
+        },
+        "practical_info": {
+          "items": [
+            {
+              "title": "Barren Island",
+              "body": "Barren Island, 138 km north-east of Sri Vijaya Puram, is South Asia's only active volcano (last eruption 2017); its reefs suit advanced divers."
+            },
+            {
+              "title": "Wandoor",
+              "body": "Wandoor Beach, 25 km south-west of Sri Vijaya Puram, has a jetty for Jolly Buoy, Red Skin and Alexandra islands and glass-bottom boat trips."
+            },
+            {
+              "title": "Mount Manipur",
+              "body": "Mount Manipur National Park, formerly Mount Harriet, is named for Manipur's role in the 1891 war; its peak is the islands' third highest at 1,257 ft."
+            }
+          ],
+          "facts": [
+            "BAR1",
+            "WAN1",
+            "MMN1"
+          ]
+        },
+        "things_to_do": {
+          "items": [
+            {
+              "body": "Elsewhere in the Andaman Islands — Barren Island: Barren Island, 138 km north-east of Sri Vijaya Puram, is South Asia's only active volcano (last eruption 2017); its reefs suit advanced divers."
+            }
+          ],
+          "facts": [
+            "BAR1"
+          ]
+        },
+        "travel_tips": {
+          "items": [
+            {
+              "body": "In the Andaman Islands: Barren Island, 138 km north-east of Sri Vijaya Puram, is South Asia's only active volcano (last eruption 2017); its reefs suit advanced divers."
+            },
+            {
+              "body": "In the Andaman Islands: Wandoor Beach, 25 km south-west of Sri Vijaya Puram, has a jetty for Jolly Buoy, Red Skin and Alexandra islands and glass-bottom boat trips."
+            },
+            {
+              "body": "In the Andaman Islands: Mount Manipur National Park, formerly Mount Harriet, is named for Manipur's role in the 1891 war; its peak is the islands' third highest at 1,257 ft."
+            }
+          ],
+          "facts": [
+            "BAR1",
+            "WAN1",
+            "MMN1"
+          ]
+        }
+      }
+    }
+  ],
+  "itineraries": [
+    {
+      "place": "andaman-and-nicobar-islands/sri-vijaya-puram",
+      "slug": "south-andaman-beaches-3-days",
+      "title": "South Andaman beaches and islands in 3 days",
+      "durationDays": 3,
+      "tripTypes": [
+        "beaches",
+        "nature",
+        "family"
+      ],
+      "summary": "Beaches, a boat to Jolly Buoy or Red Skin from Wandoor, and Chidiya Tapu's sunset — all from Sri Vijaya Puram.",
+      "seoTitle": "South Andaman 3-Day Itinerary: Beaches & Islands",
+      "seoDescription": "Three days from Sri Vijaya Puram: Corbyn's Cove, a boat from Wandoor to Jolly Buoy or Red Skin, Mount Manipur's forest and sunset at Chidiya Tapu.",
+      "facts": [
+        "COR1",
+        "WAN1",
+        "MMN1",
+        "CHT1"
+      ],
+      "sources": [],
+      "plan": {
+        "overview": "Day trips from Sri Vijaya Puram.",
+        "start": "Sri Vijaya Puram",
+        "end": "Sri Vijaya Puram",
+        "transport": "Taxi or scooter; boats from Wandoor jetty.",
+        "season": "Calm seas outside the monsoon.",
+        "days": [
+          {
+            "title": "Day 1: Corbyn's Cove",
+            "summary": "An easy beach afternoon and sunset close to town.",
+            "stops": [
+              {
+                "name": "Corbyn's Cove",
+                "time": "Afternoon",
+                "placeSlug": "andaman-and-nicobar-islands/corbyns-cove",
+                "duration": "3 hours"
+              }
+            ],
+            "overnight": "Sri Vijaya Puram"
+          },
+          {
+            "title": "Day 2: Wandoor and the islands",
+            "summary": "Boat from Wandoor jetty to Jolly Buoy or Red Skin; glass-bottom boats over the coral.",
+            "stops": [
+              {
+                "name": "Wandoor Beach",
+                "time": "Morning",
+                "placeSlug": "andaman-and-nicobar-islands/wandoor-beach",
+                "duration": "6 hours"
+              }
+            ],
+            "overnight": "Sri Vijaya Puram"
+          },
+          {
+            "title": "Day 3: Mount Manipur and Chidiya Tapu",
+            "summary": "Forest walks at Mount Manipur, then birds and sunset at Chidiya Tapu.",
+            "stops": [
+              {
+                "name": "Mount Manipur National Park",
+                "time": "Morning",
+                "placeSlug": "andaman-and-nicobar-islands/mount-manipur-national-park",
+                "duration": "3 hours"
+              },
+              {
+                "name": "Chidiya Tapu",
+                "time": "Evening",
+                "placeSlug": "andaman-and-nicobar-islands/chidiya-tapu",
+                "duration": "2 hours"
+              }
+            ],
+            "overnight": "Departure"
+          }
+        ],
+        "budget": {
+          "assumptions": "VacayOut lists only fees it could check with an official source; hotels, transport and meals are not estimated. Check current prices before you book.",
+          "lines": []
+        },
+        "booking": [
+          {
+            "item": "Island boat",
+            "detail": "Boats to Jolly Buoy and Red Skin leave from Wandoor jetty."
+          }
+        ],
+        "alternatives": [
+          "Add Swaraj Dweep (Havelock)."
+        ],
+        "tips": [
+          "Carry reef-safe sunscreen and water."
+        ]
+      }
+    }
+  ],
+  "guides": []
+}
