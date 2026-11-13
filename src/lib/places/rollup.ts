@@ -3,6 +3,7 @@ import { and, desc, eq, inArray, sql } from "drizzle-orm";
 import { getDb } from "@/lib/db";
 import { itineraries, places, travelGuidePlaces, travelGuides, type GuideSnapshot, type ItinerarySnapshot, type SectionBody, type SnapshotImage } from "@/lib/db/schema";
 import { stopRef } from "@/lib/itineraries/plan";
+import { toSnapshot } from "@/lib/itineraries/service";
 
 /**
  * Everything a shared place page links to, rolled up from the whole subtree
@@ -86,9 +87,9 @@ export async function listItinerariesTouching(stateSlug: string, slugs: Set<stri
   const out: RollupItinerary[] = [];
   for (const r of rows) {
     // The row's slug is the URL key; some seeded snapshots were saved without one.
-    const s = r.snap ? { ...(r.snap as ItinerarySnapshot), slug: r.slug } : null;
+    const s = r.snap ? toSnapshot(r.snap, r.slug) : null;
     // A snapshot without a title wasn't written by publishItinerary (e.g. a raw seed insert), so it isn't listed.
-    if (!s || !s.plan?.days || !s.slug || !s.title || out.some((o) => o.slug === s.slug)) continue;
+    if (!s || !s.plan.days.length || !(r.snap as Partial<ItinerarySnapshot>).title || out.some((o) => o.slug === s.slug)) continue;
     const stops = s.plan.days.flatMap((d) => d.stops);
     const own = placeIds.has(r.placeId);
     const viaStop = stops.some((st) => {
@@ -122,7 +123,7 @@ export async function listGuidesTouching(placeIds: string[]): Promise<RollupGuid
       slug: s.slug,
       title: s.title,
       summary: s.summary,
-      hero: s.hero ?? (s as any).heroImage ?? null,
+      hero: s.hero ?? (s as GuideSnapshot & { heroImage?: GuideSnapshot["hero"] }).heroImage ?? null,
       placeName: s.place?.name ?? "",
       placeNames: s.places?.map((p) => p.name) ?? [],
     }));

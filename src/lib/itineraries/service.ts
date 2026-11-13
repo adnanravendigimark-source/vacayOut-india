@@ -163,6 +163,33 @@ export async function getItineraryForAdmin(id: string) {
   return row ?? null;
 }
 
+/**
+ * Published snapshots are read defensively: a few older rows were written straight to the
+ * database by seed scripts and miss fields the pages expect (sources, slug, hero, plan lists).
+ * Missing lists become empty so one malformed row can't crash its page.
+ */
+export function toSnapshot(raw: unknown, slug: string): ItinerarySnapshot {
+  const s = (raw ?? {}) as Partial<ItinerarySnapshot> & { heroImage?: SnapshotImage | null };
+  const plan = (s.plan ?? {}) as Partial<ItinerarySnapshot["plan"]>;
+  const arr = <T,>(v: T[] | undefined | null): T[] => (Array.isArray(v) ? v : []);
+  return {
+    ...(s as ItinerarySnapshot),
+    slug,
+    title: s.title ?? slug,
+    summary: s.summary ?? "",
+    tripTypes: arr(s.tripTypes),
+    sources: arr(s.sources),
+    hero: s.hero ?? s.heroImage ?? null,
+    plan: {
+      ...(plan as ItinerarySnapshot["plan"]),
+      days: arr(plan.days).map((d) => ({ ...d, stops: arr(d?.stops) })),
+      booking: arr(plan.booking),
+      alternatives: arr(plan.alternatives),
+      budget: { assumptions: plan.budget?.assumptions ?? "", lines: arr(plan.budget?.lines) },
+    },
+  };
+}
+
 /** Published itineraries (snapshots only) whose destination is still published, newest first. */
 export async function listPublishedItineraries(): Promise<(ItinerarySnapshot & { publishedAt: Date | null })[]> {
   const rows = await getDb()
@@ -172,7 +199,7 @@ export async function listPublishedItineraries(): Promise<(ItinerarySnapshot & {
     .where(and(eq(itineraries.status, "published"), eq(places.status, "published")))
     .orderBy(desc(itineraries.publishedAt));
   // The row's slug is the URL key (the detail page looks it up by it); some older snapshots were saved without one.
-  return rows.filter((r) => r.snap).map((r) => ({ ...(r.snap as ItinerarySnapshot), slug: r.slug, publishedAt: r.publishedAt }));
+  return rows.filter((r) => r.snap).map((r) => ({ ...toSnapshot(r.snap, r.slug), publishedAt: r.publishedAt }));
 }
 
 export async function getPublishedItinerary(slug: string) {
@@ -182,7 +209,7 @@ export async function getPublishedItinerary(slug: string) {
     .innerJoin(places, eq(places.id, itineraries.placeId))
     .where(and(eq(itineraries.slug, slug), eq(itineraries.status, "published"), eq(places.status, "published")))
     .limit(1);
-  return row?.snap ? { ...(row.snap as ItinerarySnapshot), publishedAt: row.publishedAt } : null;
+  return row?.snap ? { ...toSnapshot(row.snap, slug), publishedAt: row.publishedAt } : null;
 }
 
 /** Published itineraries for one destination (links on its guide page). */
@@ -193,7 +220,7 @@ export async function listPublishedItinerariesForPlace(placeId: string) {
     .where(and(eq(itineraries.placeId, placeId), eq(itineraries.status, "published")))
     .orderBy(itineraries.durationDays);
   return rows
-    .map((r) => (r.snap ? { ...(r.snap as ItinerarySnapshot), slug: r.slug } : null))
+    .map((r) => (r.snap ? toSnapshot(r.snap, r.slug) : null))
     .filter((x): x is ItinerarySnapshot => Boolean(x))
     .map((x) => ({ slug: x.slug, title: x.title, durationDays: x.durationDays, summary: x.summary }));
 }

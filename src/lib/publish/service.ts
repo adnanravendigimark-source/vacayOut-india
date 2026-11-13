@@ -112,7 +112,16 @@ export async function unpublishPlace(placeId: string, actorId: string, opts: { a
   return { ok: true };
 }
 
-/** Refreshes the cached pages listed in a job; records failure for retry. */
+/** True when `revalidatePath` was called outside a Next.js request (seed and publish scripts). */
+function outsideRequest(err: unknown) {
+  return err instanceof Error && /static generation store missing|outside a request scope/i.test(err.message);
+}
+
+/**
+ * Refreshes the cached pages listed in a job; records failure for retry.
+ * Outside a Next.js request (scripts) the job stays "pending" without using up an attempt:
+ * the next run inside the app (daily cron, POST /api/cache/refresh, admin "Retry") does it.
+ */
 export async function runJob(jobId: string) {
   const db = getDb();
   const [job] = await db.select().from(publishJobs).where(eq(publishJobs.id, jobId)).limit(1);
@@ -122,27 +131,51 @@ export async function runJob(jobId: string) {
     refreshHubs();
     await db.update(publishJobs).set({ status: "done", attempts: job.attempts + 1, lastError: null, updatedAt: new Date() }).where(eq(publishJobs.id, jobId));
   } catch (err) {
+    if (outsideRequest(err)) return;
     const message = err instanceof Error ? err.message.slice(0, 500) : "Unknown error";
     console.error("[publish] page refresh failed", jobId, message);
     await db.update(publishJobs).set({ status: "failed", attempts: job.attempts + 1, lastError: message, updatedAt: new Date() }).where(eq(publishJobs.id, jobId));
   }
 }
 
-/** Retries pending/failed jobs (cron and the admin "Retry" button). */
+/**
+ * Retries pending/failed jobs (cron, cache-refresh route and the admin "Retry" button), oldest first.
+ * Paths shared by several jobs are refreshed once. Jobs whose earlier failure was only
+ * "called outside a request" are retried regardless of their attempt count.
+ */
 export async function runPendingJobs(opts: { placeId?: string; limit?: number } = {}) {
   const db = getDb();
   const rows = await db
-    .select({ id: publishJobs.id })
+    .select({ id: publishJobs.id, paths: publishJobs.paths, attempts: publishJobs.attempts })
     .from(publishJobs)
     .where(
       and(
         inArray(publishJobs.status, ["pending", "failed"]),
-        lt(publishJobs.attempts, MAX_ATTEMPTS),
+        or(lt(publishJobs.attempts, MAX_ATTEMPTS), sql`${publishJobs.lastError} ilike '%static generation store missing%'`),
         opts.placeId ? eq(publishJobs.placeId, opts.placeId) : undefined,
       ),
     )
+    .orderBy(publishJobs.createdAt)
     .limit(opts.limit ?? 50);
-  for (const r of rows) await runJob(r.id);
+  if (!rows.length) return 0;
+  const paths = [...new Set(rows.flatMap((r) => r.paths))];
+  try {
+    for (const p of paths) revalidatePath(p);
+    refreshHubs();
+  } catch (err) {
+    if (outsideRequest(err)) return 0;
+    const message = err instanceof Error ? err.message.slice(0, 500) : "Unknown error";
+    console.error("[publish] page refresh failed", message);
+    await db
+      .update(publishJobs)
+      .set({ status: "failed", attempts: sql`${publishJobs.attempts} + 1`, lastError: message, updatedAt: new Date() })
+      .where(inArray(publishJobs.id, rows.map((r) => r.id)));
+    return 0;
+  }
+  await db
+    .update(publishJobs)
+    .set({ status: "done", attempts: sql`${publishJobs.attempts} + 1`, lastError: null, updatedAt: new Date() })
+    .where(inArray(publishJobs.id, rows.map((r) => r.id)));
   return rows.length;
 }
 

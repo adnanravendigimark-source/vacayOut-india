@@ -33,7 +33,7 @@ export async function POST(req: Request) {
 
   for (const p of paths) revalidatePath(p);
   refreshHubs();
-  const jobs = await runPendingJobs({ limit: 100 });
+  const jobs = await runPendingJobs({ limit: 1000 });
 
   const targets = [...new Set([...HUB_PATHS, ...paths])];
   if (parsed.data.warm) {

@@ -348,6 +348,86 @@
       "url": "https://en.wikipedia.org/wiki/112_(emergency_telephone_number)",
       "title": "112 (emergency telephone number) — Wikipedia",
       "authority": "reference"
+    },
+    "SKM_AM_9dbcbf": {
+      "url": "https://en.wikipedia.org/wiki/Sikkim",
+      "title": "Sikkim — Wikipedia",
+      "authority": "reference"
+    },
+    "SKM_AM_533e0b": {
+      "url": "https://www.incredibleindia.gov.in/en/sikkim",
+      "title": "Sikkim — Incredible India (Ministry of Tourism, Government of India)",
+      "authority": "government"
+    },
+    "SKM_AM_c5f100": {
+      "url": "https://www.incredibleindia.gov.in/en/sikkim/gangtok",
+      "title": "Gangtok — Incredible India (Ministry of Tourism, Government of India)",
+      "authority": "government"
+    },
+    "SKM_AM_31824b": {
+      "url": "https://www.incredibleindia.gov.in/en/sikkim/gangtok/gangtok-a-paradise-for-adventure",
+      "title": "Gangtok A Paradise For Adventure — Incredible India (Ministry of Tourism, Government of India)",
+      "authority": "government"
+    },
+    "SKM_AM_d036a4": {
+      "url": "https://www.incredibleindia.gov.in/en/sikkim/gangtok/postcards-from-sikkim-where-nature-smiles",
+      "title": "Postcards From Sikkim Where Nature Smiles — Incredible India (Ministry of Tourism, Government of India)",
+      "authority": "government"
+    },
+    "SKM_AM_e6ac57": {
+      "url": "https://en.wikipedia.org/wiki/Zuluk",
+      "title": "Zuluk — Wikipedia",
+      "authority": "reference"
+    },
+    "SKM_AM_85f967": {
+      "url": "https://en.wikipedia.org/wiki/Namchi",
+      "title": "Namchi — Wikipedia",
+      "authority": "reference"
+    },
+    "SKM_AM_bbe840": {
+      "url": "https://en.wikipedia.org/wiki/Buddha_Park_of_Ravangla",
+      "title": "Buddha Park of Ravangla — Wikipedia",
+      "authority": "reference"
+    },
+    "SKM_AM_ce4809": {
+      "url": "https://en.wikipedia.org/wiki/Yuksom",
+      "title": "Yuksom — Wikipedia",
+      "authority": "reference"
+    },
+    "SKM_AM_9748ef": {
+      "url": "https://en.wikipedia.org/wiki/Goecha_La",
+      "title": "Goecha La — Wikipedia",
+      "authority": "reference"
+    },
+    "SKM_AM_240930": {
+      "url": "https://en.wikipedia.org/wiki/Lachen,_Sikkim",
+      "title": "Lachen, Sikkim — Wikipedia",
+      "authority": "reference"
+    },
+    "SKM_AM_fa25c7": {
+      "url": "https://en.wikipedia.org/wiki/Chungthang",
+      "title": "Chungthang — Wikipedia",
+      "authority": "reference"
+    },
+    "SKM_AM_770bf6": {
+      "url": "https://en.wikipedia.org/wiki/Dubdi_Monastery",
+      "title": "Dubdi Monastery — Wikipedia",
+      "authority": "reference"
+    },
+    "SKM_AM_1b7bde": {
+      "url": "https://en.wikipedia.org/wiki/Enchey_Monastery",
+      "title": "Enchey Monastery — Wikipedia",
+      "authority": "reference"
+    },
+    "SKM_AM_af55a2": {
+      "url": "https://en.wikipedia.org/wiki/Do-drul_Chorten",
+      "title": "Do-drul Chorten — Wikipedia",
+      "authority": "reference"
+    },
+    "SKM_AM_65cdec": {
+      "url": "https://en.wikipedia.org/wiki/Temi_Tea_Garden",
+      "title": "Temi Tea Garden — Wikipedia",
+      "authority": "reference"
     }
   },
   "facts": {
@@ -1745,6 +1825,356 @@
           "quote": "The UPI One World wallet can be availed through authorized PPI issuers at airports, hotels, designated money exchange locations and other touchpoints, following a full KYC process based on a passport and valid visa."
         }
       ]
+    },
+    "SKM_ST_SMALL": {
+      "place": "sikkim",
+      "topic": "Sikkim",
+      "claim": "Sikkim is India's least populous and second-smallest state; it joined India as the 22nd state on 16 May 1975.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "SKM_AM_9dbcbf",
+          "quote": "Sikkim is the least populous and second-smallest among the Indian states."
+        },
+        {
+          "source": "SKM_AM_9dbcbf",
+          "quote": "On 16 May 1975, Sikkim became the 22nd state of the Indian Union."
+        }
+      ]
+    },
+    "SKM_ST_LANG": {
+      "place": "sikkim",
+      "topic": "Languages",
+      "claim": "Nepali is the common language; Sikkimese (Bhutia), Lepcha and Limbu are spoken in parts, and English is widely understood.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "SKM_AM_9dbcbf",
+          "quote": "Nepali is the lingua franca of Sikkim, while Sikkimese (Bhutia), Lepcha, Limbu, and others are spoken in certain areas of the state."
+        },
+        {
+          "source": "SKM_AM_9dbcbf",
+          "quote": "English is also spoken and understood in most of Sikkim."
+        }
+      ]
+    },
+    "SKM_ST_PERMIT": {
+      "place": "sikkim",
+      "topic": "Permits",
+      "claim": "Many areas of Sikkim are restricted and need permits.",
+      "claimType": "rule",
+      "evidence": [
+        {
+          "source": "SKM_AM_9dbcbf",
+          "quote": "Many areas are restricted, and permits are needed to visit them."
+        }
+      ]
+    },
+    "SKM_ST_MONSOON": {
+      "place": "sikkim",
+      "topic": "Monsoon",
+      "claim": "Sikkim has five seasons; monsoon rains raise the risk of landslides, which can cut off towns.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "SKM_AM_9dbcbf",
+          "quote": "The state has five seasons: winter, summer, spring, autumn, and monsoon season."
+        },
+        {
+          "source": "SKM_AM_9dbcbf",
+          "quote": "During the monsoon, heavy rains increase the risk of landslides ."
+        },
+        {
+          "source": "SKM_AM_9dbcbf",
+          "quote": "landslides are frequent, often isolating rural towns and villages from the major urban centres"
+        }
+      ],
+      "kind": "seasonal"
+    },
+    "SKM_ST_FEST": {
+      "place": "sikkim",
+      "topic": "Festivals",
+      "claim": "Festivals include Losar (Tibetan New Year), Saga Dawa, Pang Lhabsol for Sikkim's guardian deities, and the Sakewa festival.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "SKM_AM_533e0b",
+          "quote": "Losar, the Tibetan New Year, paints the state in vibrant hues."
+        },
+        {
+          "source": "SKM_AM_533e0b",
+          "quote": "Pang Lhabsol pays homage to Sikkim's guardian deities."
+        },
+        {
+          "source": "SKM_AM_533e0b",
+          "quote": "the Sakewa festival worships Mother Earth"
+        }
+      ]
+    },
+    "SKM_ST_FLORA": {
+      "place": "sikkim",
+      "topic": "Flowers",
+      "claim": "The noble dendrobium orchid is the state flower and the rhododendron the state tree; spring brings rhododendron and primrose blooms.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "SKM_AM_9dbcbf",
+          "quote": "The Noble Dendrobium is the official flower of Sikkim, while the rhododendron is the state tree ."
+        },
+        {
+          "source": "SKM_AM_d036a4",
+          "quote": "If you are here during spring, you will be blessed with a massive stretch of rhododendron blooms and delicate primroses."
+        }
+      ],
+      "kind": "seasonal"
+    },
+    "SKM_ST_CARD": {
+      "place": "sikkim",
+      "topic": "Cardamom",
+      "claim": "Cardamom is Sikkim's chief cash crop.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "SKM_AM_9dbcbf",
+          "quote": "Elaichi , or cardamom , is the chief cash crop of Sikkim."
+        }
+      ]
+    },
+    "SKM_MGM1": {
+      "place": "sikkim",
+      "topic": "MG Marg",
+      "claim": "MG Marg, Gangtok's main promenade, is lined with shops selling handicrafts and fashion, and cafés.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "SKM_AM_c5f100",
+          "quote": "Take a stroll through MG Marg, the city's main promenade, and lose yourself in a sea of shops selling everything from traditional handicrafts to contemporary fashion"
+        }
+      ]
+    },
+    "SKM_ZUL1": {
+      "place": "sikkim",
+      "topic": "Zuluk",
+      "claim": "Zuluk, at about 9,400 ft, was a stop on the old trade route between Kalimpong and Tibet and now draws visitors for its Himalayan views.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "SKM_AM_e6ac57",
+          "quote": "Dzuluk is at an altitude of about 9,400 feet."
+        },
+        {
+          "source": "SKM_AM_e6ac57",
+          "quote": "Dzuluk was once a transit point to the trade route between Kalimpong and Tibet."
+        },
+        {
+          "source": "SKM_AM_e6ac57",
+          "quote": "Today it is a tourist destination for the view of the eastern Himalayan mountain range including the Kanchenjunga ."
+        }
+      ]
+    },
+    "SKM_NAM1": {
+      "place": "sikkim",
+      "topic": "Namchi",
+      "claim": "Namchi has a 135 ft statue of Guru Padmasambhava; Siddhesvara Dham is about 5 km away on Solophok hill.",
+      "claimType": "distance",
+      "evidence": [
+        {
+          "source": "SKM_AM_85f967",
+          "quote": "standing at 135 ft (41 m) tall"
+        },
+        {
+          "source": "SKM_AM_85f967",
+          "quote": "Siddhesvara Dham is located atop Solophok hilltop, about 5 km (3.1 mi) from Namchi."
+        }
+      ]
+    },
+    "SKM_BUD1": {
+      "place": "sikkim",
+      "topic": "Buddha Park",
+      "claim": "Buddha Park (Tathagata Tsal) near Ravangla has a 130 ft copper statue of the Buddha, consecrated by the Dalai Lama in 2013.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "SKM_AM_bbe840",
+          "quote": "The Buddha Park of Ravangla , also known as Tathagata Tsal"
+        },
+        {
+          "source": "SKM_AM_bbe840",
+          "quote": "features a 130-foot-high (40 m) statue of the Buddha"
+        },
+        {
+          "source": "SKM_AM_bbe840",
+          "quote": "The statue, built of 60 tonnes of copper"
+        },
+        {
+          "source": "SKM_AM_bbe840",
+          "quote": "the statue was consecrated on 25 March 2013 by the 14th Dalai Lama"
+        }
+      ]
+    },
+    "SKM_YUK1": {
+      "place": "sikkim",
+      "topic": "Yuksom",
+      "claim": "Yuksom was Sikkim's first capital, founded in 1642; the first Chogyal was crowned at Norbugang Chorten. It is the base for Kanchenjunga treks.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "SKM_AM_ce4809",
+          "quote": "It was the first capital of the Kingdom of Sikkim , established in 1642 by Phuntsog Namgyal , the first Chogyal of Sikkim."
+        },
+        {
+          "source": "SKM_AM_ce4809",
+          "quote": "Yuksom is home to the Norbugang Chorten , the stupa where Namgyal was crowned."
+        },
+        {
+          "source": "SKM_AM_ce4809",
+          "quote": "it attracts mountaineers and trekkers from around the world"
+        }
+      ]
+    },
+    "SKM_GOE1": {
+      "place": "sikkim",
+      "topic": "Goecha La",
+      "claim": "Goecha La pass faces Kanchenjunga's south-east face; the trek is demanding and acclimatisation matters.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "SKM_AM_9748ef",
+          "quote": "The southeast face of Kanchenjunga , the world's third highest mountain, can be viewed from the pass"
+        },
+        {
+          "source": "SKM_AM_9748ef",
+          "quote": "The trek itself can be challenging in terms of distances to be covered in a day."
+        },
+        {
+          "source": "SKM_AM_9748ef",
+          "quote": "Acclimatization is important due to the huge changes in altitude over a small time during this trek."
+        }
+      ]
+    },
+    "SKM_LCH1": {
+      "place": "sikkim",
+      "topic": "Lachen",
+      "claim": "Lachen, at about 9,600 ft and 129 km from Gangtok, is the base for Gurudongmar Lake; the village is run by its traditional Dzumsa council.",
+      "claimType": "distance",
+      "evidence": [
+        {
+          "source": "SKM_AM_240930",
+          "quote": "129 km from Gangtok , Lachen sits at an elevation of about 9,600 feet"
+        },
+        {
+          "source": "SKM_AM_240930",
+          "quote": "Lachen is notable for its traditional self-governing system known as Dzumsa"
+        },
+        {
+          "source": "SKM_AM_240930",
+          "quote": "Lachen is the base for visits to: Gurudongmar Lake"
+        }
+      ]
+    },
+    "SKM_CHU1": {
+      "place": "sikkim",
+      "topic": "Chungthang",
+      "claim": "Chungthang, 95 km from Gangtok, is where the Lachen and Lachung rivers meet to form the Teesta.",
+      "claimType": "distance",
+      "evidence": [
+        {
+          "source": "SKM_AM_fa25c7",
+          "quote": "It is situated at the confluence of the Lachen and Lachung rivers, which combine to form the Teesta River ."
+        },
+        {
+          "source": "SKM_AM_fa25c7",
+          "quote": "Located at a distance of 95 kilometres"
+        }
+      ]
+    },
+    "SKM_DUB1": {
+      "place": "sikkim",
+      "topic": "Dubdi Monastery",
+      "claim": "Dubdi, 'the retreat', near Yuksom, was Sikkim's first monastery (1701), at 2,100 m; tell the resident monk before you visit.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "SKM_AM_ce4809",
+          "quote": "The Chogyal established Sikkim's first monastery at Yuksom, known as the Dubdi Monastery , in 1701."
+        },
+        {
+          "source": "SKM_AM_770bf6",
+          "quote": "Dubdi stands at an altitude of 2,100 metres"
+        },
+        {
+          "source": "SKM_AM_770bf6",
+          "quote": "the only monk who stays in the monastery has to be informed in advance"
+        }
+      ]
+    },
+    "SKM_ENC1": {
+      "place": "sikkim",
+      "topic": "Enchey Monastery",
+      "claim": "Enchey, 'the Solitary Monastery', sits on a ridge above Gangtok with views of the Kanchenjunga range.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "SKM_AM_1b7bde",
+          "quote": "The literal meaning of Enchey Monastery is the \"Solitary Monastery\"."
+        },
+        {
+          "source": "SKM_AM_1b7bde",
+          "quote": "The monastery is built on a stunning ridge of a hill above the Gangtok city to its northeast from where the Kanchendzonga range is visible."
+        }
+      ]
+    },
+    "SKM_RAF1": {
+      "place": "sikkim",
+      "topic": "Teesta rafting",
+      "claim": "Teesta rafting suits beginners and experienced rafters, through forests, villages and gorges.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "SKM_AM_31824b",
+          "quote": "The turbulent waters of the Teesta offer various levels of difficulty, making it suitable for both beginners and seasoned rafters."
+        },
+        {
+          "source": "SKM_AM_31824b",
+          "quote": "The Teesta River Rafting experience takes you through dense forests, quaint villages, and awe-inspiring gorges"
+        }
+      ]
+    },
+    "SKM_DOD1": {
+      "place": "sikkim",
+      "topic": "Do-drul Chorten",
+      "claim": "The Do-drul Chorten stupa in Gangtok was built in 1945–46; its gilded top crowns a white base ringed by prayer wheels.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "SKM_AM_af55a2",
+          "quote": "Construction began in 1945 and was completed the following year."
+        },
+        {
+          "source": "SKM_AM_af55a2",
+          "quote": "the exterior is topped by a gilded metal cap, while the base is painted white, symbolizing purity"
+        },
+        {
+          "source": "SKM_AM_af55a2",
+          "quote": "Devotees spin these wheels in a clockwise direction while circumambulating"
+        }
+      ]
+    },
+    "SKM_TEM1": {
+      "place": "sikkim",
+      "topic": "Temi Tea Garden",
+      "claim": "Temi Tea Garden, set up in 1969 on 177 hectares, grows organic tea sold as 'Temi Tea'.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "SKM_AM_65cdec",
+          "quote": "The Temi Tea estate was established in 1969 covering an area of 177 hectares"
+        },
+        {
+          "source": "SKM_AM_65cdec",
+          "quote": "The tea produced in this garden is also partly marketed under the trade name \"Temi Tea\"."
+        }
+      ]
     }
   },
   "places": [
@@ -1866,6 +2296,238 @@
           "facts": [
             "SK2",
             "GTN3"
+          ]
+        },
+        "highlights": {
+          "items": [
+            {
+              "body": "Kanchenjunga — the world's third-highest mountain — from Pelling, Yuksom and Goecha La."
+            },
+            {
+              "body": "Tsomgo Lake at 12,313 ft and Nathu La on the China border."
+            },
+            {
+              "body": "Gurudongmar Lake, one of the world's highest lakes, and the flowers of Yumthang."
+            },
+            {
+              "body": "Rumtek, Pemayangtse and Dubdi, Sikkim's first monastery."
+            },
+            {
+              "body": "The Old Silk Route at Zuluk."
+            },
+            {
+              "body": "Namchi's giant Guru Padmasambhava and Ravangla's 130 ft Buddha."
+            }
+          ],
+          "facts": [
+            "SK1",
+            "GTT1",
+            "GTN2",
+            "NSG1",
+            "NSY1",
+            "GTR1",
+            "PLP1",
+            "SKM_DUB1",
+            "SKM_ZUL1",
+            "SKM_NAM1",
+            "SKM_BUD1"
+          ]
+        },
+        "key_facts": {
+          "items": [
+            {
+              "title": "Capital",
+              "body": "Gangtok, at 1,650 m",
+              "status": "verified"
+            },
+            {
+              "title": "Statehood",
+              "body": "22nd state of India, 16 May 1975",
+              "status": "verified"
+            },
+            {
+              "title": "Highest mountain",
+              "body": "Kanchenjunga, the world's third highest",
+              "status": "verified"
+            },
+            {
+              "title": "Languages",
+              "body": "Nepali; Bhutia, Lepcha and Limbu; English widely understood",
+              "status": "verified"
+            },
+            {
+              "title": "Gateway airport",
+              "body": "Bagdogra, about 124 km from Gangtok",
+              "status": "verified"
+            },
+            {
+              "title": "Permits",
+              "body": "Needed for many border areas",
+              "status": "verified"
+            },
+            {
+              "title": "State flower",
+              "body": "Noble dendrobium orchid; the rhododendron is the state tree",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "GT1",
+            "SKM_ST_SMALL",
+            "SK1",
+            "SKM_ST_LANG",
+            "SK5",
+            "GT2",
+            "SKM_ST_PERMIT",
+            "SKM_ST_FLORA"
+          ]
+        },
+        "best_time": {
+          "text": "Spring brings rhododendrons across the state, and Yumthang's flowers bloom from late February to mid June. Avoid the monsoon, when heavy rain raises the risk of landslides. Yumthang is closed from December to March because of snow.",
+          "facts": [
+            "SKM_ST_FLORA",
+            "NSY1",
+            "SKM_ST_MONSOON",
+            "NSY2"
+          ]
+        },
+        "things_to_do": {
+          "items": [
+            {
+              "body": "Walk MG Marg and visit Enchey Monastery in Gangtok."
+            },
+            {
+              "body": "Drive up to Tsomgo Lake and Baba Mandir."
+            },
+            {
+              "body": "See Gurudongmar Lake from Lachen and Yumthang from Lachung."
+            },
+            {
+              "body": "Trek to Goecha La from Yuksom."
+            },
+            {
+              "body": "Raft the Teesta."
+            },
+            {
+              "body": "Take the Old Silk Route to Zuluk."
+            }
+          ],
+          "facts": [
+            "SKM_MGM1",
+            "SKM_ENC1",
+            "GTT1",
+            "NSG1",
+            "SKM_LCH1",
+            "NSY1",
+            "SKM_GOE1",
+            "SKM_RAF1",
+            "SKM_ZUL1"
+          ]
+        },
+        "local_transport": {
+          "text": "Sikkim is reached by road from Bagdogra or New Jalpaiguri; Gangtok is about five hours from Bagdogra. Shared and hired taxis are the way to get around. In North Sikkim the road forks at Chungthang, towards Lachen or Lachung. Monsoon landslides can block roads.",
+          "facts": [
+            "SK5",
+            "GT2",
+            "SKM_CHU1",
+            "SKM_ST_MONSOON"
+          ]
+        },
+        "culture_etiquette": {
+          "items": [
+            {
+              "body": "Walk clockwise around stupas and spin prayer wheels clockwise."
+            },
+            {
+              "body": "Festivals include Losar, Saga Dawa, Pang Lhabsol and the Sakewa festival."
+            },
+            {
+              "body": "Plastic water bottles are banned — carry a refillable bottle."
+            },
+            {
+              "body": "Nepali is the common language; English is widely understood."
+            }
+          ],
+          "facts": [
+            "SKM_ST_FEST",
+            "SK2",
+            "SKM_ST_LANG",
+            "SKM_DOD1"
+          ]
+        },
+        "safety_health": {
+          "items": [
+            {
+              "title": "Altitude",
+              "body": "Tsomgo Lake is at 12,313 ft and Gurudongmar at 5,430 m; acclimatise and go up gradually."
+            },
+            {
+              "title": "Landslides",
+              "body": "Monsoon rain often blocks roads; keep spare days."
+            },
+            {
+              "title": "Emergency",
+              "body": "Dial 112 for police, fire or ambulance."
+            }
+          ],
+          "facts": [
+            "GTT1",
+            "NSG1",
+            "SKM_GOE1",
+            "SKM_ST_MONSOON",
+            "SK_112"
+          ]
+        },
+        "faqs": {
+          "items": [
+            {
+              "title": "Can foreigners visit Nathu La?",
+              "body": "No — only Indian citizens may visit, Thursday to Sunday, with permits obtained a day ahead in Gangtok."
+            },
+            {
+              "title": "Which airport is nearest?",
+              "body": "Bagdogra near Siliguri, about 124 km (five hours) from Gangtok. Pakyong has no operating flights at present."
+            },
+            {
+              "title": "When is Yumthang open?",
+              "body": "It closes December to March for snow; flowers bloom from late February to mid June."
+            },
+            {
+              "title": "Do I need a permit?",
+              "body": "Many border areas are restricted and need permits, arranged through operators in Gangtok."
+            },
+            {
+              "title": "Where do Kanchenjunga treks start?",
+              "body": "In Yuksom, Sikkim's first capital."
+            }
+          ],
+          "facts": [
+            "GTN3",
+            "SK5",
+            "GT2",
+            "NSY2",
+            "NSY1",
+            "SKM_ST_PERMIT",
+            "SK4",
+            "SKM_YUK1"
+          ]
+        },
+        "shopping": {
+          "items": [
+            {
+              "body": "MG Marg for handicrafts and souvenirs."
+            },
+            {
+              "body": "Cardamom, Sikkim's chief cash crop."
+            },
+            {
+              "body": "Organic tea from the Temi estate."
+            }
+          ],
+          "facts": [
+            "SKM_MGM1",
+            "SKM_ST_CARD",
+            "SKM_TEM1"
           ]
         }
       },

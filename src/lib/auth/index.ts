@@ -19,7 +19,10 @@ import { findTravellerByEmail, googleConfigured, upsertGoogleTraveller } from ".
  */
 
 const WINDOW_MS = 15 * 60 * 1000;
-const MAX_PER_EMAIL = 5;
+/** Failures for one email from one network: stops guessing without letting a stranger lock the owner out. */
+const MAX_PER_EMAIL_IP = 5;
+/** Failures for one email from anywhere: a slower, distributed guessing attempt. */
+const MAX_PER_EMAIL = 50;
 const MAX_PER_IP = 20;
 
 class TooManyAttempts extends CredentialsSignin {
@@ -46,10 +49,11 @@ async function throttle(key: string, ip: string) {
     .select({
       byEmail: sql<number>`count(*) filter (where ${authFailures.email} = ${key})`.mapWith(Number),
       byIp: sql<number>`count(*) filter (where ${authFailures.ip} = ${ip})`.mapWith(Number),
+      byEmailIp: sql<number>`count(*) filter (where ${authFailures.email} = ${key} and ${authFailures.ip} = ${ip})`.mapWith(Number),
     })
     .from(authFailures)
     .where(and(gt(authFailures.at, since), or(eq(authFailures.email, key), eq(authFailures.ip, ip))));
-  if ((recent?.byEmail ?? 0) >= MAX_PER_EMAIL || (recent?.byIp ?? 0) >= MAX_PER_IP) throw new TooManyAttempts();
+  if ((recent?.byEmailIp ?? 0) >= MAX_PER_EMAIL_IP || (recent?.byEmail ?? 0) >= MAX_PER_EMAIL || (recent?.byIp ?? 0) >= MAX_PER_IP) throw new TooManyAttempts();
 }
 
 async function recordFailure(key: string, ip: string) {
@@ -89,10 +93,11 @@ async function authorize(raw: unknown, request: Request | undefined) {
     .select({
       byEmail: sql<number>`count(*) filter (where ${authFailures.email} = ${email})`.mapWith(Number),
       byIp: sql<number>`count(*) filter (where ${authFailures.ip} = ${ip})`.mapWith(Number),
+      byEmailIp: sql<number>`count(*) filter (where ${authFailures.email} = ${email} and ${authFailures.ip} = ${ip})`.mapWith(Number),
     })
     .from(authFailures)
     .where(and(gt(authFailures.at, since), or(eq(authFailures.email, email), eq(authFailures.ip, ip))));
-  if ((recent?.byEmail ?? 0) >= MAX_PER_EMAIL || (recent?.byIp ?? 0) >= MAX_PER_IP) throw new TooManyAttempts();
+  if ((recent?.byEmailIp ?? 0) >= MAX_PER_EMAIL_IP || (recent?.byEmail ?? 0) >= MAX_PER_EMAIL || (recent?.byIp ?? 0) >= MAX_PER_IP) throw new TooManyAttempts();
 
   const [user] = await db.select().from(users).where(sql`lower(${users.email}) = ${email}`).limit(1);
   const valid = await verifyPassword(password, user?.passwordHash ?? (await dummyHash()));

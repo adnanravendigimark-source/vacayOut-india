@@ -3,8 +3,10 @@
 import { headers } from "next/headers";
 import { redirect } from "next/navigation";
 import { AuthError } from "next-auth";
+import { eq } from "drizzle-orm";
 import { z } from "zod";
 import { signIn, signOut } from "@/lib/auth";
+import { requireTraveller } from "@/lib/auth/guard";
 import { verifyCaptcha } from "@/lib/auth/captcha";
 import { safeNext } from "@/lib/auth/next-path";
 import { hashPassword, passwordProblem } from "@/lib/auth/password";
@@ -101,4 +103,16 @@ export async function travellerSignOutAction() {
 /** Sign-out button on the account page: ends the session and returns home. */
 export async function signOutToHomeAction() {
   await signOut({ redirectTo: "/" });
+}
+
+/**
+ * "Delete my account": removes the traveller row for the signed-in traveller only (the id comes
+ * from the session, never the form). Email tokens go with it (cascade); chat usage rows keep
+ * only anonymous counts (traveller id set to null). The visitor must type DELETE to confirm.
+ */
+export async function deleteAccountAction(form: FormData) {
+  const t = await requireTraveller("/account");
+  if (String(form.get("confirm") ?? "").trim().toUpperCase() !== "DELETE") redirect("/account?delete=confirm");
+  await getDb().delete(travellers).where(eq(travellers.id, t.id));
+  await signOut({ redirectTo: "/?account=deleted" });
 }

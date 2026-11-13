@@ -15,7 +15,7 @@ export const maxDuration = 120;
  */
 export async function GET(req: Request) {
   if (!hasBearer(req, process.env.CRON_SECRET)) return new Response("Unauthorized", { status: 401 });
-  const processed = await runPendingJobs({ limit: 100 });
+  const processed = await runPendingJobs({ limit: 1000 });
   let resumed = 0;
   try {
     resumed = await resumeStalledJobs();

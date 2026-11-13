@@ -1,6 +1,9 @@
 import { getHomepageData } from "@/lib/data/homepage";
 import { site } from "@/lib/site";
+import type { Metadata } from "next";
 import { HomeShell } from "@/components/home/home-shell";
+
+export const metadata: Metadata = { alternates: { canonical: "/" } };
 
 
 // Served from the CDN cache and rebuilt at most every 5 minutes; publishing in the admin refreshes it at once.

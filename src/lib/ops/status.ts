@@ -69,6 +69,8 @@ export async function cleanup() {
   await db.delete(emailTokens).where(lt(emailTokens.expiresAt, new Date(now.getTime() - 7 * 86_400_000)));
   await db.delete(authFailures).where(lt(authFailures.at, new Date(now.getTime() - 86_400_000)));
   await db.delete(appErrors).where(lt(appErrors.at, new Date(now.getTime() - 30 * 86_400_000)));
+  // Chat usage rows (hashed visitor, outcome, cost) are kept for a year of statistics, as the privacy policy says.
+  await db.delete(chatRequests).where(lt(chatRequests.at, new Date(now.getTime() - 365 * 86_400_000)));
 }
 
 /** Emails active admins only when something needs attention, and at most once a day (driven by the daily cron). */

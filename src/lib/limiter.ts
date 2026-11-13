@@ -15,7 +15,9 @@ export type HitResult = { ok: boolean; count: number; limit: number; retryAfterS
 
 /** Keys never contain raw IPs, emails or cookie values. */
 export function hashKey(value: string): string {
-  const salt = process.env.AUTH_SECRET || "vacayout-dev-salt";
+  const salt = process.env.AUTH_SECRET || (process.env.NODE_ENV === "production" ? "" : "vacayout-dev-salt");
+  // A fixed public salt would make hashed IPs reversible; refuse to run production without the secret.
+  if (!salt) throw new Error("AUTH_SECRET is not set");
   return createHmac("sha256", salt).update(value).digest("base64url").slice(0, 32);
 }
 

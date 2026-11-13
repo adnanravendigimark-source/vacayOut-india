@@ -47,6 +47,8 @@ function Thumb({ item, sizes }: { item: ThingsToDoData["items"][number]; sizes: 
 export type ThingsToDoFilters = { state?: string; destination?: string; category?: string };
 
 // `hero` is kept in the props for the page files; this page no longer shows a photo hero.
+const PAGE_SIZE = 48;
+
 export function ThingsToDoPage({ data, initial = {} }: { data: ThingsToDoData; hero: PageHero; initial?: ThingsToDoFilters }) {
   const [activeCategory, setActiveCategory] = useState(initial.category && data.categories.some((c) => c.key === initial.category) ? initial.category : "all");
   const [stateFilter, setStateFilter] = useState(initial.state && data.states.some((s) => s.slug === initial.state) ? initial.state : "");
@@ -54,6 +56,11 @@ export function ThingsToDoPage({ data, initial = {} }: { data: ThingsToDoData; h
   const [searchQuery, setSearchQuery] = useState("");
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [activePrompt, setActivePrompt] = useState<string | undefined>(undefined);
+  // Render cards in pages: all ~500 at once made a 1.8 MB page with 5,800 elements.
+  // Paging is tied to the current filters, so changing a filter starts again from the first page.
+  const filterKey = `${activeCategory}|${stateFilter}|${destFilter}|${searchQuery}`;
+  const [page, setPage] = useState({ key: filterKey, n: PAGE_SIZE });
+  const shown = page.key === filterKey ? page.n : PAGE_SIZE;
 
   const handleStartPlan = (prompt: string) => {
     setActivePrompt(prompt);
@@ -99,7 +106,8 @@ export function ThingsToDoPage({ data, initial = {} }: { data: ThingsToDoData; h
   const tiles = [{ key: "all", label: "Everything", count: data.items.length }, ...data.categories];
   // The AI banner sits between rows, after the first two rows of four.
   const head = filtered.slice(0, 8);
-  const tail = filtered.slice(8);
+  const tail = filtered.slice(8, shown);
+  const remaining = filtered.length - Math.min(shown, filtered.length);
 
   const card = (item: ThingsToDoData["items"][number]) => (
     <Link key={item.href} href={item.href} className="group block">
@@ -229,6 +237,14 @@ export function ThingsToDoPage({ data, initial = {} }: { data: ThingsToDoData; h
             </aside>
 
             {tail.length ? <div className="grid grid-cols-2 gap-x-4 gap-y-8 md:grid-cols-3 lg:grid-cols-4 lg:gap-x-6">{tail.map(card)}</div> : null}
+            {remaining > 0 ? (
+              <div className="mt-10 flex flex-col items-center gap-2">
+                <button type="button" onClick={() => setPage({ key: filterKey, n: shown + PAGE_SIZE })} className="rounded-full border border-ink px-6 py-2.5 text-sm font-semibold text-ink transition-colors hover:bg-ink hover:text-white">
+                  Show more
+                </button>
+                <p className="text-xs text-muted" aria-live="polite">Showing {Math.min(shown, filtered.length)} of {filtered.length}</p>
+              </div>
+            ) : null}
           </>
         )}
 

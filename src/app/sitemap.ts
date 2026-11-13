@@ -6,8 +6,9 @@ import { listPublishedGuides } from "@/lib/guides/service";
 import { listPostsForSitemap } from "@/lib/blog/service";
 import { BLOG_PATH, blogPostPath, guidePath, itineraryPath, placePath } from "@/lib/cache/paths";
 
-// Built from published places only; cached for an hour (crawlers don't need it fresher).
-export const revalidate = 3600;
+// Built from published places on every request: the hourly ISR copy stopped regenerating in
+// production (stuck on an old build), and four indexed queries per crawler visit are cheap.
+export const dynamic = "force-dynamic";
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const base = site.url.replace(/\/$/, "");
@@ -19,7 +20,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   }
   for (const it of its) entries.push({ url: `${base}${itineraryPath(it.slug)}`, lastModified: it.publishedAt ?? undefined, changeFrequency: "monthly", priority: 0.6 });
   for (const g of guides) entries.push({ url: `${base}${guidePath(g.slug)}`, lastModified: g.publishedAt ?? undefined, changeFrequency: "monthly", priority: 0.6 });
-  entries.push({ url: `${base}${BLOG_PATH}`, lastModified: posts[0]?.updatedAt, changeFrequency: "weekly", priority: 0.7 });
+  if (posts.length) entries.push({ url: `${base}${BLOG_PATH}`, lastModified: posts[0].updatedAt, changeFrequency: "weekly", priority: 0.7 });
   for (const p of posts) entries.push({ url: `${base}${blogPostPath(p.slug)}`, lastModified: p.updatedAt, changeFrequency: "monthly", priority: 0.6 });
   return entries;
 }

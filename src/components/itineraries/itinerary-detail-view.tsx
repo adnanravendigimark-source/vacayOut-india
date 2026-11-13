@@ -114,7 +114,7 @@ export function ItineraryDetailView({ itinerary, stopLinks = {}, photos = [], ph
       {/* Print header */}
       <div className="mb-6 hidden border-b-2 border-black p-6 print:block">
         <p className="text-xs font-bold uppercase tracking-widest text-gray-600">VacayOut India — itinerary</p>
-        <h1 className="mt-1 font-serif text-2xl font-bold text-black">{itinerary.title}</h1>
+        <p className="mt-1 font-serif text-2xl font-bold text-black">{itinerary.title}</p>
         <p className="mt-2 text-xs text-gray-700">{itinerary.summary}</p>
         <div className="mt-3 grid grid-cols-3 gap-3 border-t border-gray-300 pt-3 text-xs">
           {quickStats.slice(0, 6).map((s) => (

@@ -11,6 +11,8 @@ import { site } from "@/lib/site";
 import { AuthPanel } from "@/components/account/auth-panel";
 import { Geist } from "next/font/google";
 import { cn } from "@/lib/utils";
+import { Analytics } from "@vercel/analytics/next";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 
 const geist = Geist({subsets:['latin'],variable:'--font-sans'});
 
@@ -27,7 +29,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "VacayOut — Cinematic AI Travel Planning for India",
     description: "Discover places, plan unforgettable trips, and figure out every detail with AI.",
-    url: "https://vacayout.in",
+    url: site.url,
     siteName: "VacayOut",
     locale: "en_IN",
     type: "website",
@@ -65,6 +67,14 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
         <Suspense fallback={null}>
           <AuthPanel />
         </Suspense>
+        {/* Cookieless visitor and Core Web Vitals stats. Turn on Analytics and Speed Insights in the
+            Vercel project, then set NEXT_PUBLIC_VERCEL_INSIGHTS=1 (otherwise their scripts 404). */}
+        {process.env.NEXT_PUBLIC_VERCEL_INSIGHTS === "1" ? (
+          <>
+            <Analytics />
+            <SpeedInsights />
+          </>
+        ) : null}
       </body>
     </html>
   );

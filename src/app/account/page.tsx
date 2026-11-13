@@ -1,13 +1,14 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { signOutToHomeAction } from "./actions";
+import { deleteAccountAction, signOutToHomeAction } from "./actions";
 import { requireTraveller } from "@/lib/auth/guard";
 
 export const metadata: Metadata = { title: "Your account", robots: { index: false } };
 export const dynamic = "force-dynamic";
 
-export default async function AccountPage() {
+export default async function AccountPage({ searchParams }: { searchParams: Promise<{ delete?: string }> }) {
   const t = await requireTraveller("/account");
+  const { delete: del } = await searchParams;
   const method = [t.hasPassword ? "Email and password" : null, t.google ? "Google" : null].filter(Boolean).join(" · ");
   return (
     <div className="min-h-[calc(100dvh-5rem)] bg-[#F7F5F0] px-4 py-10 sm:py-16">
@@ -24,6 +25,20 @@ export default async function AccountPage() {
             <button type="submit" className="inline-flex h-11 items-center rounded-xl border border-[#DCD8CF] px-5 font-semibold text-ink hover:border-ink">Sign out</button>
           </form>
         </div>
+        <section className="mt-10 border-t border-[#EEEBE4] pt-6" aria-labelledby="delete-heading">
+          <h2 id="delete-heading" className="font-semibold text-ink">Delete my account</h2>
+          <p className="mt-1 text-sm leading-relaxed text-[#6B675F]">
+            This permanently removes your name, email and sign-in details. Trips saved in this browser stay on this device. This can’t be undone.
+          </p>
+          <form action={deleteAccountAction} className="mt-4 flex flex-wrap items-end gap-3">
+            <label className="text-sm text-ink">
+              Type <strong>DELETE</strong> to confirm
+              <input name="confirm" required autoComplete="off" aria-invalid={del === "confirm" || undefined} className="mt-1 block h-11 w-44 rounded-xl border border-[#DCD8CF] px-3 text-ink" />
+            </label>
+            <button type="submit" className="inline-flex h-11 items-center rounded-xl border border-[#B42318] px-5 font-semibold text-[#B42318] hover:bg-[#FEF3F2]">Delete account</button>
+          </form>
+          {del === "confirm" ? <p role="alert" className="mt-2 text-sm text-[#B42318]">Type DELETE exactly to confirm.</p> : null}
+        </section>
       </div>
     </div>
   );
