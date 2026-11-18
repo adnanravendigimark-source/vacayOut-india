@@ -954,6 +954,18 @@
         }
       ]
     },
+    "ODR_RAIL": {
+      "place": "odisha",
+      "topic": "Rail",
+      "claim": "Odisha's major cities have direct daily and weekly trains to all major Indian cities.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WP_OD",
+          "quote": "Major cities of Odisha are well connected to all the major cities of India by direct daily trains and weekly trains."
+        }
+      ]
+    },
     "TGF_CAP": {
       "place": "telangana",
       "topic": "Capital",
@@ -1286,6 +1298,38 @@
         {
           "source": "RG_ETIQ",
           "quote": "Hindus are very superstitious about taking photographs of images of deities and inside temples; if in doubt, desist."
+        }
+      ]
+    },
+    "UPR_RAIL": {
+      "place": "uttar-pradesh",
+      "topic": "Rail",
+      "claim": "Shatabdi trains link New Delhi with Lucknow and Kanpur; Agra Cantt, Varanasi, Prayagraj, Lucknow and Mathura are among India's 50 world-class stations.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WP_UP",
+          "quote": "The Lucknow Swarna Shatabdi Express, the second fastest Shatabdi Express train, connects the Indian capital of New Delhi to Lucknow while Kanpur Shatabdi Express, connects New Delhi to Kanpur Central."
+        },
+        {
+          "source": "WP_UP",
+          "quote": "The railway stations of Prayagraj Junction, Agra Cantonment, Lucknow Charbagh, Gorakhpur Junction, Kanpur Central, Mathura Junction and Varanasi Junction are included in the Indian Railways list of 50 world-class railway stations."
+        }
+      ]
+    },
+    "UPR_ROAD": {
+      "place": "uttar-pradesh",
+      "topic": "Road",
+      "claim": "The largest road network in India, with 42 national highways.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WP_UP",
+          "quote": "The state has a large, multimodal transportation system with the largest road network in the country."
+        },
+        {
+          "source": "WP_UP",
+          "quote": "It has 42 national highways, with a total length of 4,942 km (3,071 miles) comprising 8.9 per cent of the total national highways length in India."
         }
       ]
     }
@@ -1757,6 +1801,12 @@
               "body": "Photos — don't photograph deities or temple interiors unless it's clearly allowed."
             }
           ]
+        },
+        "how_to_reach": {
+          "text": "By air: Biju Patnaik Airport serves Bhubaneswar, about 4 km from the city.\n\nBy rail: Odisha's major cities have direct daily and weekly trains to all the major cities of India.",
+          "facts": [
+            "ODR_RAIL"
+          ]
         }
       }
     },
@@ -1963,6 +2013,13 @@
             {
               "body": "Photos — don't photograph deities or temple interiors unless it's clearly allowed."
             }
+          ]
+        },
+        "how_to_reach": {
+          "text": "By air: fly into the airport nearest your first city: Lucknow's is 14 km from the centre, Varanasi's 22 km and Ayodhya's about 10 km from Ayodhya Dham.\n\nBy rail: the state's cities are well connected by train — Shatabdi expresses run from New Delhi to Lucknow and Kanpur, and Agra Cantt, Varanasi, Prayagraj, Lucknow and Mathura are among India's 50 world-class stations.\n\nBy road: India's largest road network, with 42 national highways; the Agra and Purvanchal expressways link Lucknow with Agra and eastern Uttar Pradesh.\n\nEach destination guide below has the details.",
+          "facts": [
+            "UPR_RAIL",
+            "UPR_ROAD"
           ]
         }
       }

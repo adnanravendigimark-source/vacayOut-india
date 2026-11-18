@@ -1,0 +1,137 @@
+{
+  "cluster": "state-fill-5",
+  "title": "State gaps: state-fill-5",
+  "researchedAt": "2026-11-18",
+  "selection": "Assam: how to reach, with rail and road added. Sikkim: how to reach, with rail and road added.",
+  "sources": {
+    "WP_AS": {
+      "url": "https://en.wikipedia.org/wiki/Assam",
+      "title": "Assam — Wikipedia",
+      "authority": "reference"
+    },
+    "WP_GHY": {
+      "url": "https://en.wikipedia.org/wiki/Guwahati",
+      "title": "Guwahati — Wikipedia",
+      "authority": "reference"
+    },
+    "WP_SK": {
+      "url": "https://en.wikipedia.org/wiki/Sikkim",
+      "title": "Sikkim — Wikipedia",
+      "authority": "reference"
+    }
+  },
+  "facts": {
+    "ASR_LINKS": {
+      "place": "assam",
+      "topic": "Connections",
+      "claim": "Guwahati in the west and Dibrugarh in the east have good rail, road and air links.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WP_AS",
+          "quote": "The cities of Guwahati in the west and Dibrugarh in the east with good rail, road and air connectivity are the two important nerve centres of Assam"
+        }
+      ]
+    },
+    "ASR_AIR": {
+      "place": "assam",
+      "topic": "Guwahati airport",
+      "claim": "Guwahati's airport is India's 10th busiest and the busiest in the Northeast.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WP_GHY",
+          "quote": "The Lokpriya Gopinath Bordoloi International Airport is the 10th busiest in India, and the busiest in the Assam and North-East of the country."
+        }
+      ]
+    },
+    "SKR_RAIL": {
+      "place": "sikkim",
+      "topic": "Rail",
+      "claim": "The nearest major stations are Siliguri Junction and New Jalpaiguri in West Bengal.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WP_SK",
+          "quote": "The closest major railway stations are Siliguri Junction and New Jalpaiguri in neighbouring West Bengal."
+        }
+      ]
+    },
+    "SKR_ROAD": {
+      "place": "sikkim",
+      "topic": "Road",
+      "claim": "NH 10 links Siliguri to Gangtok.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WP_SK",
+          "quote": "National Highway 10 (NH 10; formerly NH 31A) links Siliguri to Gangtok."
+        }
+      ]
+    }
+  },
+  "places": [
+    {
+      "key": "assam",
+      "kind": "state",
+      "name": "Assam",
+      "summary": "Rhinos at Kaziranga, the river island of Majuli, Ahom monuments at Sivasagar, the Kamakhya Temple — and half of India's tea.",
+      "seoTitle": "Assam Travel Guide: Kaziranga, Majuli & Guwahati",
+      "seoDescription": "Plan Assam: Guwahati and Kamakhya, Kaziranga's rhinos, Majuli's satras, Sivasagar's Ahom monuments, Manas, getting there and when to go.",
+      "lat": 26.2,
+      "lng": 92.937,
+      "images": [
+        {
+          "commons": "File:Beauty_of_Kaziranga_National_Park.jpg",
+          "alt": "Grasslands of Kaziranga National Park",
+          "caption": "Kaziranga, Assam",
+          "hero": true
+        }
+      ],
+      "sections": {
+        "overview": {
+          "text": "Assam grows nearly half of India's tea. Kaziranga, a UNESCO site, shelters two-thirds of the world's one-horned rhinos; Manas, on the Bhutan border, is another UNESCO park.\n\nGuwahati, with the Kamakhya Temple, is the gateway; up the Brahmaputra lie Majuli, the world's largest inland river island and the home of the satras, and Sivasagar, the old Ahom capital."
+        },
+        "how_to_reach": {
+          "text": "By air: Guwahati's Lokpriya Gopinath Bordoloi airport, about 28 km from the city, is the main airport of the Northeast — the busiest in the region and India's 10th busiest, with flights from across the country.\n\nBy rail: Guwahati in the west and Dibrugarh in the east are the state's two well-connected hubs.\n\nBy road: the same two cities, Guwahati and Dibrugarh, are the main road hubs.",
+          "facts": [
+            "ASR_LINKS",
+            "ASR_AIR"
+          ]
+        }
+      }
+    },
+    {
+      "key": "sikkim",
+      "kind": "state",
+      "name": "Sikkim",
+      "summary": "A small Himalayan state under Kanchenjunga: monasteries, high lakes, the Nathu La border pass and plastic-free green rules.",
+      "seoTitle": "Sikkim Travel Guide: Gangtok, Pelling & North Sikkim",
+      "seoDescription": "Plan Sikkim: Gangtok, Tsomgo Lake and Nathu La, Pelling and Pemayangtse, Yumthang and Gurudongmar, permits, getting there and the best time.",
+      "lat": 27.533,
+      "lng": 88.512,
+      "images": [
+        {
+          "commons": "File:Kanchenjunga_Peak_as_viewed_from_Pelling,_Sikkim.jpg",
+          "alt": "Kanchenjunga rising above the hills of Sikkim",
+          "caption": "Kanchenjunga from Pelling",
+          "hero": true
+        }
+      ],
+      "sections": {
+        "overview": {
+          "text": "Sikkim sits in the Eastern Himalayas beneath Kanchenjunga, the world's third-highest mountain and India's highest, and is home to the UNESCO-listed Khangchendzonga National Park. It is a green state too — plastic water bottles are banned.\n\nGangtok, the capital, is the base for Rumtek Monastery, Tsomgo Lake and Nathu La. West Sikkim's Pelling has close views of the Kanchenjunga range and the Pemayangtse Monastery; North Sikkim rises to the Yumthang Valley and Gurudongmar Lake, one of the highest lakes in the world."
+        },
+        "how_to_reach": {
+          "text": "By air: Bagdogra airport near Siliguri is the gateway to Gangtok. Sikkim's Pakyong airport has no operating flights at present.\n\nBy rail: the nearest major stations are Siliguri Junction and New Jalpaiguri in West Bengal.\n\nBy road: NH 10 runs from Siliguri to Gangtok, about 124 km — some five hours by road.",
+          "facts": [
+            "SKR_RAIL",
+            "SKR_ROAD"
+          ]
+        }
+      }
+    }
+  ],
+  "itineraries": [],
+  "guides": []
+}

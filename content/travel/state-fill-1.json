@@ -716,6 +716,38 @@
         }
       ]
     },
+    "MHR_RAIL": {
+      "place": "maharashtra",
+      "topic": "Rail",
+      "claim": "Mumbai CSMT and Thane are among India's busiest stations; the Mumbai Rajdhani links New Delhi.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WP_MH",
+          "quote": "Thane and CSMT are among the busiest railway stations in India, the latter serving as a terminal for both long-distance trains and commuter trains of the Mumbai Suburban Railway."
+        },
+        {
+          "source": "WP_MH",
+          "quote": "The Mumbai Rajdhani Express, the fastest Rajdhani train, connects the Indian capital of New Delhi to Mumbai."
+        }
+      ]
+    },
+    "MHR_ROAD": {
+      "place": "maharashtra",
+      "topic": "Road",
+      "claim": "India's largest road network; ST (State Transport) buses are the main way people travel.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WP_MH",
+          "quote": "The state has a large, multi-modal transportation system with the largest road network in India."
+        },
+        {
+          "source": "WP_MH",
+          "quote": "These buses, popularly called ST (State Transport), are the preferred mode of transport for much of the populace."
+        }
+      ]
+    },
     "PBF_CAP": {
       "place": "punjab",
       "topic": "Capital",
@@ -1798,6 +1830,13 @@
             "MHF_VIDARBHA",
             "MHF_KHANDESH",
             "MHF_CAP"
+          ]
+        },
+        "how_to_reach": {
+          "text": "By air: fly into Mumbai (BOM) or Nagpur (NAG); Pune and Chhatrapati Sambhajinagar are the bases for the Western Ghats and the cave sites.\n\nBy rail: Mumbai's CSMT and Thane are among India's busiest stations, and the Mumbai Rajdhani is the fastest train from New Delhi.\n\nBy road: India's largest road network, with State Transport (ST) buses reaching most towns.",
+          "facts": [
+            "MHR_RAIL",
+            "MHR_ROAD"
           ]
         }
       },

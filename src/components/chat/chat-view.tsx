@@ -123,15 +123,15 @@ export function ChatView({
   const empty = !chat || chat.messages.length === 0;
 
   return (
-    <div className="grid min-h-dvh lg:grid-cols-[16.5rem_minmax(0,1fr)]">
-      <div className="hidden border-r border-[#EFECE6] bg-[#FBFAF7] lg:block">
+    <div className="grid min-h-dvh bg-white lg:grid-cols-[16.5rem_minmax(0,1fr)]">
+      <div className="hidden border-r border-[#EFECE6] bg-white lg:block">
         <ChatSidebar activeId={activeId} />
       </div>
 
       {historyOpen ? (
         <div className="fixed inset-0 z-50 lg:hidden" role="dialog" aria-modal="true" aria-label="Chat history">
           <button type="button" aria-label="Close chat history" onClick={() => setHistoryOpen(false)} className="absolute inset-0 bg-black/40" />
-          <div className="cx-in absolute inset-y-0 left-0 w-[min(18rem,85vw)] overflow-y-auto bg-[#FBFAF7] shadow-2xl">
+          <div className="cx-in absolute inset-y-0 left-0 w-[min(18rem,85vw)] overflow-y-auto bg-white shadow-2xl">
             <div className="flex items-center justify-end px-3 pt-3">
               <button type="button" onClick={() => setHistoryOpen(false)} aria-label="Close chat history" className="rounded-md p-1.5 text-muted hover:text-ink">
                 <Icon name="x" size={16} />

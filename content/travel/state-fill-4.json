@@ -9,6 +9,11 @@
       "title": "Arunachal Pradesh — Incredible India (Ministry of Tourism)",
       "authority": "government"
     },
+    "WP_AR": {
+      "url": "https://en.wikipedia.org/wiki/Arunachal_Pradesh",
+      "title": "Arunachal Pradesh — Wikipedia",
+      "authority": "reference"
+    },
     "II_manipur": {
       "url": "https://www.incredibleindia.gov.in/en/manipur",
       "title": "Manipur — Incredible India (Ministry of Tourism)",
@@ -59,6 +64,11 @@
       "title": "Hornbill Festival — Wikipedia",
       "authority": "reference"
     },
+    "WP_DMP": {
+      "url": "https://en.wikipedia.org/wiki/Dimapur",
+      "title": "Dimapur — Wikipedia",
+      "authority": "reference"
+    },
     "II_tripura": {
       "url": "https://www.incredibleindia.gov.in/en/tripura",
       "title": "Tripura — Incredible India (Ministry of Tourism)",
@@ -88,6 +98,34 @@
         {
           "source": "II_arunachal-pradesh",
           "quote": "You must taste Momos and Thukpa during your visit and the Boiled rice cakes are a delightful snack, savoured throughout Arunachal Pradesh, offering a taste of tradition."
+        }
+      ]
+    },
+    "ARR_RAIL": {
+      "place": "arunachal-pradesh",
+      "topic": "Rail",
+      "claim": "Naharlagun, 10 km from Itanagar, has been on the rail map since 2014; through trains run from New Delhi since 2015.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WP_AR",
+          "quote": "when a train from Dekargaon in Assam reached Naharlagun railway station, 10 kilometres from the centre of It"
+        },
+        {
+          "source": "WP_AR",
+          "quote": "On 20 February 2015, the first through train was run from New Delhi to Naharlagun"
+        }
+      ]
+    },
+    "ARR_ROAD": {
+      "place": "arunachal-pradesh",
+      "topic": "Road",
+      "claim": "The Trans-Arunachal Highway, NH 13, runs 1,293 km.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WP_AR",
+          "quote": "The main highway of Arunachal Pradesh is the Trans-Arunachal Highway, National Highway 13 (1,293 km (803 mi); formerly NH-229 and NH-52)."
         }
       ]
     },
@@ -251,6 +289,34 @@
         }
       ]
     },
+    "MNR_RAIL": {
+      "place": "manipur",
+      "topic": "Rail",
+      "claim": "Jiribam is the only operational station in Manipur; Silchar in Assam is 269 km from Imphal by NH 53.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WP_MN",
+          "quote": "Manipur has one operational railway station, Jiribam."
+        },
+        {
+          "source": "WP_MN",
+          "quote": "National Highway 53 (India) connects Manipur with another railway station at Silchar in Assam, which is 269 km (167 mi) away from Imphal."
+        }
+      ]
+    },
+    "MNR_ROAD": {
+      "place": "manipur",
+      "topic": "Road",
+      "claim": "NH 39 links Imphal with the railhead at Dimapur, 215 km away.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WP_MN",
+          "quote": "National Highway NH-39 links Manipur with the rest of the country through the railway stations at Dimapur in Nagaland at a distance of 215 km (134 mi) from Imphal."
+        }
+      ]
+    },
     "MLF_LANG": {
       "place": "meghalaya",
       "topic": "Languages",
@@ -350,6 +416,34 @@
         {
           "source": "RG_ETIQ",
           "quote": "Women are expected to dress modestly, with legs and shoulders covered."
+        }
+      ]
+    },
+    "MLR_RAIL": {
+      "place": "meghalaya",
+      "topic": "Rail",
+      "claim": "Guwahati, 103 km from Shillong, is the nearest major station; Meghalaya's own railhead is Mendipathar.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WP_ML",
+          "quote": "Guwahati (103 kilometres (64 mi) from Shillong) is the nearest major railway station connecting the north-east region with the rest of the country through a broad gauge track network."
+        },
+        {
+          "source": "WP_ML",
+          "quote": "Meghalaya has a railhead at Mendipathar and regular train service connecting Mendipathar in Meghalaya and Guwahati in Assam, has started on 30 November 2014."
+        }
+      ]
+    },
+    "MLR_ROAD": {
+      "place": "meghalaya",
+      "topic": "Road",
+      "claim": "About 1,170 km of national highways.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WP_ML",
+          "quote": "The state has about 1,170 km (730 mi) of national highways."
         }
       ]
     },
@@ -560,6 +654,30 @@
       ],
       "kind": "seasonal"
     },
+    "NLR_RAIL": {
+      "place": "nagaland",
+      "topic": "Rail",
+      "claim": "Dimapur's station is the second busiest in Northeast India.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WP_DMP",
+          "quote": "Its main railway station is the second busiest station in Northeast India."
+        }
+      ]
+    },
+    "NLR_KOHIMA": {
+      "place": "nagaland",
+      "topic": "Kohima",
+      "claim": "Kohima is about 77 km from Dimapur.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WP_DMP",
+          "quote": "The Battle of Kohima about 77 km from Dimapur is considered the turning point for the Japanese retreat from Southeast Asia."
+        }
+      ]
+    },
     "TRF_CAP": {
       "place": "tripura",
       "topic": "Capital",
@@ -735,6 +853,13 @@
               "body": "Everyday meals — rice with fish, meat and plenty of vegetables, gently flavoured with local herbs and organic produce."
             }
           ]
+        },
+        "how_to_reach": {
+          "text": "By air: for the Tawang route, Tezpur airport is about 160 km from Bomdila.\n\nBy rail: Rangapara North station is about 95 km from Bomdila. Naharlagun, 10 km from Itanagar, has had trains since 2014, including through trains from New Delhi.\n\nBy road: Bomdila is about 340 km from Guwahati. The Trans-Arunachal Highway (NH 13) runs 1,293 km across the state.",
+          "facts": [
+            "ARR_RAIL",
+            "ARR_ROAD"
+          ]
         }
       }
     },
@@ -844,6 +969,13 @@
               "body": "Photos — don't photograph deities or temple interiors unless it's clearly allowed."
             }
           ]
+        },
+        "how_to_reach": {
+          "text": "By air: Imphal's Bir Tikendrajit International Airport has flights from Kolkata, Guwahati, Delhi and Bangalore.\n\nBy rail: the nearest railway station is at Dimapur, about 215 km away; Jiribam is Manipur's only operational station, and Silchar in Assam is 269 km from Imphal.\n\nBy road: NH 39 links Imphal with Dimapur, and NH 53 with Silchar.",
+          "facts": [
+            "MNR_RAIL",
+            "MNR_ROAD"
+          ]
         }
       }
     },
@@ -925,6 +1057,13 @@
             {
               "body": "Dress — cover your legs and shoulders, especially at places of worship."
             }
+          ]
+        },
+        "how_to_reach": {
+          "text": "By air: Guwahati airport, the main airport of the Northeast, is the usual gateway; Shillong also has an airport at Umroi.\n\nBy rail: Guwahati, 103 km from Shillong, is the nearest major station; Meghalaya's own railhead is at Mendipathar.\n\nBy road: about 1,170 km of national highways, including the road up from Guwahati to Shillong.",
+          "facts": [
+            "MLR_RAIL",
+            "MLR_ROAD"
           ]
         }
       }
@@ -1100,6 +1239,13 @@
               "body": "Hornbill Festival — 1–10 December at Kisama Heritage Village, 12 km from Kohima.",
               "status": "seasonal"
             }
+          ]
+        },
+        "how_to_reach": {
+          "text": "By air: Dimapur Airport serves both Dimapur and Kohima.\n\nBy rail: Dimapur's railway station is the state's rail hub, and the second busiest in Northeast India.\n\nBy road: Kohima is about 77 km uphill from Dimapur.",
+          "facts": [
+            "NLR_RAIL",
+            "NLR_KOHIMA"
           ]
         }
       }

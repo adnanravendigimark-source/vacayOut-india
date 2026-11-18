@@ -225,6 +225,34 @@
         }
       ]
     },
+    "CHR_RAIL": {
+      "place": "chandigarh",
+      "topic": "Rail",
+      "claim": "Chandigarh Junction connects to most of India and also serves Panchkula.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WP_CH",
+          "quote": "Chandigarh Junction railway station lies in the Northern Railway zone of the Indian Railways network and provides connectivity to most of the regions of India."
+        },
+        {
+          "source": "WP_CH",
+          "quote": "The railway station also serves the neighbouring town of Panchkula."
+        }
+      ]
+    },
+    "CHR_BUS": {
+      "place": "chandigarh",
+      "topic": "Buses",
+      "claim": "CTU buses run to Punjab, Haryana, Himachal Pradesh and Delhi.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WP_CH",
+          "quote": "CTU also operates frequent bus services to the neighbouring states of Punjab, Haryana, Himachal Pradesh, and to Delhi."
+        }
+      ]
+    },
     "CGF_CAP": {
       "place": "chhattisgarh",
       "topic": "Capital",
@@ -416,6 +444,22 @@
         {
           "source": "RG_ETIQ",
           "quote": "Hindus are very superstitious about taking photographs of images of deities and inside temples; if in doubt, desist."
+        }
+      ]
+    },
+    "CGR_RAIL": {
+      "place": "chhattisgarh",
+      "topic": "Rail",
+      "claim": "Bilaspur, Durg and Raipur are the main junctions, with long-distance trains across India.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WP_CG",
+          "quote": "The main railway junctions are Bilaspur Junction, Durg Junction, and Raipur, which is also a starting point of many long-distance trains."
+        },
+        {
+          "source": "WP_CG",
+          "quote": "These three junctions are well-connected to the major cities of India"
         }
       ]
     },
@@ -916,6 +960,30 @@
         }
       ]
     },
+    "JHR_RAIL": {
+      "place": "jharkhand",
+      "topic": "Rail",
+      "claim": "Dhanbad Junction is the largest station, connected to almost all big cities.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WP_JH",
+          "quote": "Dhanbad Junction is the largest railway station in the state which is connected to almost all big cities of India."
+        }
+      ]
+    },
+    "JHR_ROAD": {
+      "place": "jharkhand",
+      "topic": "Road",
+      "claim": "About 2,662 km of national highways.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WP_JH",
+          "quote": "There is 2,661.83 km (1,653 mi 1,733 yd) of paved National Highways in the state as of 2016."
+        }
+      ]
+    },
     "LAF_DIST": {
       "place": "ladakh",
       "topic": "Districts",
@@ -1362,6 +1430,13 @@
               "body": "Photos — don't photograph deities or temple interiors unless it's clearly allowed."
             }
           ]
+        },
+        "how_to_reach": {
+          "text": "By air: fly into Shaheed Bhagat Singh International Airport (IXC).\n\nBy rail: Chandigarh Junction has trains to most of India and also serves Panchkula.\n\nBy road: frequent CTU buses run to Punjab, Haryana, Himachal Pradesh and Delhi.",
+          "facts": [
+            "CHR_RAIL",
+            "CHR_BUS"
+          ]
         }
       }
     },
@@ -1487,6 +1562,12 @@
             {
               "body": "Photos — don't photograph deities or temple interiors unless it's clearly allowed."
             }
+          ]
+        },
+        "how_to_reach": {
+          "text": "By air: Swami Vivekananda Airport is about 15 km from Raipur.\n\nBy rail: Raipur, Bilaspur and Durg are the main junctions, linked to India's major cities; many long-distance trains start at Raipur.\n\nBy road: Jagdalpur is about 270 km (six hours) from Raipur, or 320 km from Visakhapatnam airport.",
+          "facts": [
+            "CGR_RAIL"
           ]
         }
       }
@@ -1846,6 +1927,13 @@
               "body": "Photos — don't photograph deities or temple interiors unless it's clearly allowed."
             }
           ]
+        },
+        "how_to_reach": {
+          "text": "By air: Ranchi's Birsa Munda Airport is about 7 km from the city.\n\nBy rail: Dhanbad Junction, the state's largest station, connects to almost every big city in India.\n\nBy road: about 2,662 km of national highways cross the state.",
+          "facts": [
+            "JHR_RAIL",
+            "JHR_ROAD"
+          ]
         }
       }
     },
@@ -2038,6 +2126,10 @@
               "body": "Maas podichathu — dried tuna cooked with coconut, turmeric, onion and garlic."
             }
           ]
+        },
+        "how_to_reach": {
+          "text": "By air: fly to Agatti — the islands' only airstrip.\n\nBy sea: sail from Kochi.",
+          "facts": []
         }
       }
     },

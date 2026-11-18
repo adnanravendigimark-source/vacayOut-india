@@ -60,7 +60,7 @@ export function ChatSidebar({ activeId, onNavigate }: { activeId: string | null;
                 {g.items.map((c) => {
                   const on = c.id === activeId;
                   return (
-                    <li key={c.id} className={`group relative flex items-center rounded-xl transition-colors ${on ? "bg-white shadow-[0_6px_18px_-12px_rgba(25,25,25,0.35)]" : "hover:bg-white/70"}`}>
+                    <li key={c.id} className={`group relative flex items-center rounded-xl transition-colors ${on ? "bg-[#F5F3EE]" : "hover:bg-[#FAF8F4]"}`}>
                       {on ? <span aria-hidden className="absolute inset-y-2 left-0 w-[3px] rounded-full bg-coral" /> : null}
                       <Link
                         href={routes.chatThread(c.id)}
@@ -81,7 +81,7 @@ export function ChatSidebar({ activeId, onNavigate }: { activeId: string | null;
                             router.push(routes.chat);
                           }
                         }}
-                        className="mr-1 rounded-full p-1.5 text-[#999999] opacity-100 hover:bg-[#F5F3EE] hover:text-ink focus-visible:opacity-100 lg:opacity-0 lg:group-hover:opacity-100"
+                        className="mr-1 rounded-full p-1.5 text-[#999999] opacity-100 hover:bg-white hover:text-ink focus-visible:opacity-100 lg:opacity-0 lg:group-hover:opacity-100"
                       >
                         <Icon name="x" size={13} strokeWidth={2} />
                       </button>
