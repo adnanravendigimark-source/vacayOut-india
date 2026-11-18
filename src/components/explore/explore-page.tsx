@@ -2,13 +2,12 @@
 
 import { useState, useMemo, useEffect, useRef } from "react";
 import { useSearchParams } from "next/navigation";
-import Image from "@/components/media/image";
-import Link from "next/link";
 import { Icon, type Name } from "@/components/icons/icon";
 import type { ExploreData } from "@/lib/places/public-lists";
 import { AiPlannerModal } from "@/components/chat/ai-planner-modal";
 import { ExploreHero } from "./explore-hero";
 import { ExploreMap } from "./explore-map";
+import { StateCard } from "./state-card";
 import "./explore.css";
 
 export type PageHero = { src: string; alt: string; caption: string; credit: string; creditUrl: string; license: string; licenseUrl: string };
@@ -151,31 +150,9 @@ export function ExplorePage({ data, initialRegion = "all" }: { data: ExploreData
                 </div>
               </div>
             ) : (
-              <ul key={filterKey} className="grid grid-cols-2 gap-3.5 sm:grid-cols-3 sm:gap-4">
+              <ul key={filterKey} className="grid grid-cols-2 gap-3 sm:grid-cols-3 sm:gap-4">
                 {shown.map((st, i) => (
-                  <li key={st.slug} className="explore-card" style={{ ["--i" as string]: Math.min(i, 12) }}>
-                    <Link href={`/india/${st.slug}`} className="group block h-full overflow-hidden rounded-2xl border border-[#ECE9E2] bg-white transition-all duration-300 hover:-translate-y-1 hover:border-transparent hover:shadow-[0_18px_40px_-20px_rgba(25,25,25,0.35)]">
-                      <div className="relative aspect-[4/3] overflow-hidden bg-[#EFECE6]">
-                        {st.image ? (
-                          <Image src={st.image.url} alt={st.image.alt} fill sizes="(min-width: 1024px) 22vw, (min-width: 640px) 30vw, 50vw" className="object-cover transition-transform duration-700 ease-out group-hover:scale-105" />
-                        ) : (
-                          <span className="flex size-full items-center justify-center text-[#B9B4AA]"><Icon name="mountain" size={28} /></span>
-                        )}
-                        {st.image?.kind === "ai_generated" ? <span className="absolute left-2 top-2 rounded bg-black/60 px-1.5 py-0.5 text-[0.625rem] font-semibold text-white">AI illustration</span> : null}
-                        {st.zone ? (
-                          <span className="absolute right-2 top-2 rounded-full bg-white/90 px-2 py-0.5 text-[0.625rem] font-semibold uppercase tracking-wide text-ink">{REGION_LABEL(st.zone)}</span>
-                        ) : null}
-                      </div>
-                      <div className="p-3 sm:p-3.5">
-                        <h3 className="truncate text-sm font-bold text-ink transition-colors group-hover:text-coral sm:text-base">{st.name}</h3>
-                        {st.summary ? <p className="mt-1 line-clamp-2 text-xs leading-relaxed text-[#666666]">{st.summary}</p> : null}
-                        <p className="mt-2 inline-flex items-center gap-1 text-xs font-semibold text-coral">
-                          {st.destinationsCount ? `${st.destinationsCount} ${st.destinationsCount === 1 ? "guide" : "guides"}` : "State guide"}
-                          <Icon name="arrowRight" size={12} className="transition-transform group-hover:translate-x-0.5" />
-                        </p>
-                      </div>
-                    </Link>
-                  </li>
+                  <StateCard key={st.slug} st={st} index={i} region={st.zone ? REGION_LABEL(st.zone) : null} />
                 ))}
               </ul>
             )}

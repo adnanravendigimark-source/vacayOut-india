@@ -63,7 +63,7 @@ export function ThingsToDoHero({
     : [];
 
   return (
-    <section className="ex-hero relative isolate overflow-hidden bg-white">
+    <section className="ex-hero relative isolate z-30 bg-white">
       <div aria-hidden className="ex-hero__bg">
         <span className="ex-hero__blob ex-hero__blob--a" />
         <span className="ex-hero__blob ex-hero__blob--b" />
@@ -71,19 +71,19 @@ export function ThingsToDoHero({
         <span className="ex-hero__grid" />
       </div>
 
-      <div className="container-site relative flex min-h-[440px] flex-col items-center justify-center py-16 text-center sm:min-h-[500px]">
+      <div className="container-site relative flex flex-col items-center justify-center pb-8 pt-10 text-center sm:pb-10 sm:pt-12">
         <p className="explore-in inline-flex items-center gap-2 rounded-full border border-[#EEE7E0] bg-white/80 px-3.5 py-1 text-xs font-semibold text-[#666666] backdrop-blur-sm" style={{ ["--d" as string]: "0ms" }}>
           <span className="size-1.5 rounded-full bg-coral" />
           {data.items.length} experiences · {data.states.length} {data.states.length === 1 ? "state" : "states"}
         </p>
-        <h1 className="explore-in mt-4 font-serif text-[clamp(2.4rem,5.6vw,4.2rem)] font-normal leading-[1.04] tracking-[-0.03em] text-ink" style={{ ["--d" as string]: "80ms" }}>
+        <h1 className="explore-in mt-3 font-serif text-[clamp(2.2rem,4.6vw,3.4rem)] font-normal leading-[1.02] tracking-[-0.03em] text-ink" style={{ ["--d" as string]: "80ms" }}>
           Things to do in <em className="italic text-coral">India</em>
         </h1>
-        <p className="explore-in mt-3 max-w-lg text-base text-[#555555]" style={{ ["--d" as string]: "160ms" }}>
-          Treks, boat rides, temples, food streets and festivals. Each one has a guide checked against official sources.
+        <p className="explore-in mt-2 max-w-md text-sm text-[#555555] sm:text-base" style={{ ["--d" as string]: "160ms" }}>
+          Pick an interest, then open its guide.
         </p>
 
-        <div className="explore-in relative mt-8 w-full max-w-xl" style={{ ["--d" as string]: "240ms" }} data-focus={focused} data-typing={query.length > 0}>
+        <div className="explore-in relative z-30 mt-5 w-full max-w-xl" style={{ ["--d" as string]: "240ms" }} data-focus={focused} data-typing={query.length > 0}>
           <form
             className="ex-search"
             role="search"
@@ -100,7 +100,8 @@ export function ThingsToDoHero({
               <input
                 ref={input}
                 id="ttd-search"
-                type="search"
+                type="text"
+                enterKeyHint="search"
                 value={query}
                 onChange={(e) => onQuery(e.target.value)}
                 onFocus={() => setFocused(true)}
@@ -145,10 +146,6 @@ export function ThingsToDoHero({
           ) : null}
         </div>
 
-        <a href="#experiences" className="explore-in mt-10 inline-flex flex-col items-center gap-1 text-xs font-semibold text-[#999999] transition-colors hover:text-ink" style={{ ["--d" as string]: "360ms" }}>
-          Or browse by interest
-          <Icon name="chevronDown" size={16} className="ex-hero__nudge" />
-        </a>
       </div>
     </section>
   );

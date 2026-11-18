@@ -1,0 +1,36 @@
+/* Site header: light motion only. Height stays 4.5rem / 5rem: sticky bars on other pages sit right under it. */
+
+/* Slides down once on first load */
+.sh-in { animation: sh-down 0.6s cubic-bezier(.16, 1, .3, 1) both; }
+@keyframes sh-down { from { opacity: 0; transform: translateY(-10px); } to { opacity: 1; transform: none; } }
+
+/* Nav pill with a highlight that slides to the hovered link and rests on the current page */
+.sh-nav { position: relative; display: flex; align-items: center; gap: 0.125rem; padding: 0.3rem; border-radius: 999px; border: 1px solid #ECE8E1; background: rgba(247, 245, 240, 0.75); transition: background 0.4s, border-color 0.4s; }
+.sh-nav[data-film="true"] { border-color: rgba(255, 255, 255, 0.22); background: rgba(255, 255, 255, 0.1); backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px); }
+.sh-thumb { position: absolute; top: 0.3rem; bottom: 0.3rem; left: 0; width: var(--w, 0px); transform: translateX(var(--x, 0px)); opacity: var(--o, 0); border-radius: 999px; background: #fff; box-shadow: 0 1px 2px rgba(25, 25, 25, 0.06), 0 6px 16px -8px rgba(25, 25, 25, 0.25); transition: transform 0.45s cubic-bezier(.16, 1, .3, 1), width 0.45s cubic-bezier(.16, 1, .3, 1), opacity 0.3s; pointer-events: none; }
+.sh-nav[data-film="true"] .sh-thumb { background: rgba(255, 255, 255, 0.2); box-shadow: none; }
+.sh-link { position: relative; z-index: 1; padding: 0.45rem 0.95rem; border-radius: 999px; font-size: 0.9rem; font-weight: 500; color: rgba(25, 25, 25, 0.72); transition: color 0.25s; white-space: nowrap; }
+.sh-link:hover, .sh-link[aria-current="page"] { color: #191919; }
+.sh-link[aria-current="page"] { font-weight: 600; }
+.sh-link[aria-current="page"]::after { content: ""; position: absolute; left: 50%; bottom: 0.2rem; width: 4px; height: 4px; margin-left: -2px; border-radius: 50%; background: #ec6242; }
+.sh-nav[data-film="true"] .sh-link { color: rgba(255, 255, 255, 0.85); text-shadow: 0 1px 8px rgba(0, 0, 0, 0.35); }
+.sh-nav[data-film="true"] .sh-link:hover, .sh-nav[data-film="true"] .sh-link[aria-current="page"] { color: #fff; }
+
+/* "Plan a trip with AI": a slow glow travels round the button */
+@property --sh-a { syntax: "<angle>"; initial-value: 0deg; inherits: false; }
+.sh-cta { position: relative; isolation: isolate; }
+.sh-cta::before { content: ""; position: absolute; inset: -2px; z-index: -1; border-radius: inherit; padding: 2px; background: conic-gradient(from var(--sh-a), transparent 0deg, #ec6242 80deg, #8fa8ff 150deg, transparent 220deg); -webkit-mask: linear-gradient(#000 0 0) content-box, linear-gradient(#000 0 0); -webkit-mask-composite: xor; mask-composite: exclude; animation: sh-spin 5s linear infinite; }
+.sh-cta:hover::before { animation-duration: 1.8s; }
+@keyframes sh-spin { to { --sh-a: 360deg; } }
+.sh-cta__spark { transition: transform 0.5s cubic-bezier(.16, 1, .3, 1); }
+.sh-cta:hover .sh-cta__spark { transform: rotate(18deg) scale(1.15); }
+
+/* Mobile menu opens with a short fade; links follow one after another */
+.sh-menu { animation: sh-drop 0.3s cubic-bezier(.16, 1, .3, 1) both; transform-origin: top; }
+@keyframes sh-drop { from { opacity: 0; transform: translateY(-6px) scale(0.98); } to { opacity: 1; transform: none; } }
+.sh-menu a { opacity: 0; animation: sh-drop 0.35s cubic-bezier(.16, 1, .3, 1) forwards; animation-delay: calc(var(--i, 0) * 35ms + 60ms); }
+
+@media (prefers-reduced-motion: reduce) {
+  .sh-in, .sh-menu, .sh-menu a, .sh-cta::before { animation: none; opacity: 1; }
+  .sh-thumb { transition: opacity 0.2s; }
+}

@@ -15,7 +15,8 @@ import { PageAssistant } from "@/components/assistant/page-assistant";
 import { buildPack } from "@/lib/assistant/pack";
 import { FaqList, SectionBody as SectionBodyView, StatusPill } from "./section-body";
 import { HashDialogs } from "./interactive";
-import { FilterCards, PlanAiButton, PracticalTabs } from "./state-guide-client";
+import { FilterCards, PlanAiButton, PracticalTabs, SectionNav } from "./state-guide-client";
+import "./state-guide.css";
 
 /**
  * The state guide. Every state page uses this one template, filled only from the
@@ -254,11 +255,13 @@ function factIcon(title: string | undefined): Name {
 }
 
 /** Photo credit (author · licence · source) or the AI-illustration notice. */
-function Credit({ img }: { img: SnapshotImage }) {
-  if (img.kind === "ai_generated") return <p className="text-[0.6875rem] text-white/80">AI-generated illustration — not a photograph of the place.</p>;
+function Credit({ img, tone = "light", compact = false }: { img: SnapshotImage; tone?: "light" | "dark"; compact?: boolean }) {
+  const color = tone === "dark" ? "text-[#888888]" : "text-white/80";
+  const by = img.attribution && compact && img.attribution.length > 60 ? `${img.attribution.slice(0, 57).trimEnd()}…` : img.attribution;
+  if (img.kind === "ai_generated") return <p className={`text-[0.6875rem] ${color}`}>AI-generated illustration — not a photograph of the place.</p>;
   return (
-    <p className="text-[0.6875rem] text-white/80">
-      {img.attribution ? <>Photo: {img.attribution} · </> : null}
+    <p className={`text-[0.6875rem] ${color}`}>
+      {by ? <><span title={img.attribution ?? undefined}>Photo: {by}</span> · </> : null}
       {img.licenseUrl && /^https?:\/\//.test(img.licenseUrl) ? <a href={img.licenseUrl} {...ext} rel="license nofollow noopener noreferrer" className="underline">{img.license}</a> : img.license}
       {img.sourceUrl && /^https?:\/\//.test(img.sourceUrl) ? <> · <a href={img.sourceUrl} {...ext} className="underline">source</a></> : null}
     </p>
@@ -296,6 +299,43 @@ function SectionHead({ id, eyebrow, title, intro, more }: { id: string; eyebrow:
 }
 
 /** "Title: body" rows with a sure-or-not badge. */
+/** "Siddu, a steamed bun…" → bold "Siddu" and the rest in grey. Uses the item title when there is one. */
+function splitHead(it: Item): { head: string; rest: string } {
+  if (it.title) return { head: it.title, rest: it.body };
+  const m = /^(.{2,45}?)(?:\s[—–]\s|,\s)(.+)$/s.exec(it.body);
+  return m ? { head: m[1], rest: m[2].replace(/\.$/, "") } : { head: "", rest: it.body };
+}
+
+function AboutRow({ it }: { it: Item }) {
+  const { head, rest } = splitHead(it);
+  return (
+    <li className="py-2.5 text-sm leading-relaxed">
+      {head ? <span className="font-medium text-ink">{head}</span> : null}
+      {head ? <span className="text-[#CCCCCC]"> · </span> : null}
+      <span className="text-[#666666]">{rest}</span>
+    </li>
+  );
+}
+
+/** First four items, the rest folded under "+N more" (no script needed). */
+function AboutList({ items }: { items: Item[] }) {
+  const first = items.slice(0, 4);
+  const more = items.slice(4);
+  return (
+    <div className="mt-2">
+      <ul className="divide-y divide-[#F2EEE8]">{first.map((it, i) => <AboutRow key={i} it={it} />)}</ul>
+      {more.length ? (
+        <details className="group">
+          <summary className="mt-2 inline-flex group-open:mb-1 cursor-pointer list-none items-center gap-1 text-xs font-semibold text-[#777777] hover:text-coral [&::-webkit-details-marker]:hidden">
+            <span className="group-open:hidden">+{more.length} more</span><span className="hidden group-open:inline">Show less</span>
+          </summary>
+          <ul className="divide-y divide-[#F2EEE8] border-t border-[#F2EEE8]">{more.map((it, i) => <AboutRow key={i} it={it} />)}</ul>
+        </details>
+      ) : null}
+    </div>
+  );
+}
+
 function FactRows({ items, size = "sm" }: { items: Item[]; size?: "sm" | "xs" }) {
   return (
     <ul className={`space-y-1.5 ${size === "xs" ? "text-[0.75rem]" : "text-[0.8125rem]"} leading-snug text-[#555]`}>
@@ -423,7 +463,6 @@ export function StateGuide({
   const reach = sec("how_to_reach");
   const bestTime = sec("best_time");
   const faqs = sec("faqs");
-  const safety = items("safety_health");
 
   const all = [...rollup.destinations, ...rollup.attractions, ...rollup.activities];
   const inside = (id: string) => all.filter((x) => x.parentId === id).length;
@@ -669,137 +708,149 @@ export function StateGuide({
   }
 
   const planPrompt = `Plan a trip to ${name}`;
-  const hasStatus = [keyFacts, safety, ...practical.map((p) => p.s?.body.items ?? [])].some((list) => list.some((i) => i.status));
 
   return (
     <div className="min-h-screen bg-white font-sans text-ink">
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd).replace(/</g, "\\u003c") }} />
 
-      {/* A. Hero */}
-      <section className="relative isolate flex min-h-[480px] w-full items-end overflow-hidden pb-10 sm:min-h-[540px] sm:pb-14 lg:min-h-[600px]">
-        <div className="absolute inset-0 -z-20 bg-[#1F3F2C]">
-          {place.hero ? <Image src={place.hero.url} alt={place.hero.alt} fill priority sizes="100vw" className="object-cover object-center" /> : null}
-          <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/45 to-black/25" />
-        </div>
-        <div className="container-site w-full text-white">
-          <nav aria-label="Breadcrumb" className="mb-4 flex items-center gap-2 text-xs text-white/80">
-            <Link href="/" className="transition-colors hover:text-white">Home</Link>
-            <span className="text-white/50">/</span>
-            <Link href="/india" className="transition-colors hover:text-white">Explore India</Link>
-            <span className="text-white/50">/</span>
-            <span className="font-medium text-white" aria-current="page">{name}</span>
+      {/* A. Hero: clean and white. Title and summary, a one-row facts bar, then a wide photo. */}
+      <section className="sg-hero bg-white">
+        <div className="container-site pb-10 pt-6 sm:pt-8 lg:pb-14">
+          <nav aria-label="Breadcrumb" className="sg-in flex flex-wrap items-center gap-2 text-xs text-[#888888]">
+            <Link href="/" className="transition-colors hover:text-ink">Home</Link>
+            <span className="text-[#CCCCCC]">/</span>
+            <Link href="/india" className="transition-colors hover:text-ink">Explore India</Link>
+            <span className="text-[#CCCCCC]">/</span>
+            <span className="font-medium text-ink" aria-current="page">{name}</span>
           </nav>
-          <div className="max-w-3xl">
-            <span className="mb-3 inline-flex items-center gap-1.5 rounded-full border border-white/25 bg-white/20 px-3 py-1 text-xs font-semibold text-white backdrop-blur-md">
-              <Icon name="map" size={13} className="text-coral" />
-              {zone ? `${zone} India · ` : ""}State guide
-            </span>
-            <h1 className="font-serif text-3xl font-bold leading-tight tracking-tight text-white sm:text-4xl lg:text-5xl">{name}</h1>
-            {place.summary ? <p className="mt-3 text-sm font-light leading-relaxed text-white/90 sm:text-base">{place.summary}</p> : null}
-            {keyFacts.length ? (
-              <ul className="mt-5 flex flex-wrap gap-2 text-xs">
-                {keyFacts.slice(0, 4).map((f, i) => (
-                  <li key={i} className="flex items-center gap-1.5 rounded-lg border border-white/15 bg-black/40 px-3 py-1.5 text-white/90 backdrop-blur-md">
-                    <Icon name={factIcon(f.title)} size={14} className="text-coral" />
-                    <span>{f.title ? <strong>{f.title}: </strong> : null}{f.body}</span>
-                  </li>
-                ))}
-              </ul>
-            ) : null}
-            <div className="mt-6 flex flex-wrap items-center gap-3">
-              {destinations.length ? (
-                <a href="#destinations" className="inline-flex items-center gap-2 rounded-xl bg-coral px-5 py-2.5 text-sm font-semibold text-white shadow-md transition-all hover:bg-coral-dark">
-                  Explore destinations <Icon name="arrowRight" size={14} />
-                </a>
-              ) : null}
-              <PlanAiButton prompt={planPrompt} className="inline-flex cursor-pointer items-center gap-2 rounded-xl border border-white/30 bg-white/20 px-5 py-2.5 text-sm font-semibold text-white backdrop-blur-md transition-all hover:bg-white/30">
-                <Icon name="sparkles" size={15} className="text-amber-300" /> Plan {name} with AI
-              </PlanAiButton>
+
+          <div className="mt-5 grid gap-5 lg:grid-cols-12 lg:items-end lg:gap-10">
+            <div className="sg-in lg:col-span-7" style={{ ["--d" as string]: "60ms" }}>
+              <p className="text-xs font-semibold uppercase tracking-[0.14em] text-coral">{zone ? `${zone} India · ` : ""}State guide</p>
+              <h1 className="mt-2 font-serif text-[clamp(2.4rem,5.2vw,4.25rem)] font-normal leading-[1.02] tracking-[-0.025em] text-ink">{name}</h1>
+            </div>
+            <div className="sg-in lg:col-span-5" style={{ ["--d" as string]: "120ms" }}>
+              {place.summary ? <p className="text-[0.975rem] leading-relaxed text-[#555555]">{place.summary}</p> : null}
+              <div className="mt-4 flex flex-wrap items-center gap-2.5">
+                {destinations.length ? (
+                  <a href="#destinations" className="inline-flex items-center gap-2 rounded-full bg-ink px-4.5 py-2.5 text-sm font-semibold text-white transition-colors hover:bg-coral">
+                    Explore destinations <Icon name="arrowRight" size={14} />
+                  </a>
+                ) : null}
+                <PlanAiButton prompt={planPrompt} className="inline-flex cursor-pointer items-center gap-2 rounded-full border border-[#E5E2DC] bg-white px-4.5 py-2.5 text-sm font-semibold text-ink transition-colors hover:border-coral hover:text-coral">
+                  <Icon name="sparkles" size={15} className="text-coral" /> Plan with AI
+                </PlanAiButton>
+              </div>
             </div>
           </div>
-          {place.hero ? <div className="mt-6 flex justify-end"><Credit img={place.hero} /></div> : null}
+
+          {keyFacts.length ? (
+            <dl className="sg-in mt-8 grid grid-cols-2 overflow-hidden rounded-2xl border border-[#ECE8E2] bg-[#FBFAF8] lg:grid-cols-4" style={{ ["--d" as string]: "180ms" }}>
+              {keyFacts.slice(0, 4).map((f, i) => (
+                <div key={i} className="flex items-start gap-3 border-[#ECE8E2] p-4 max-lg:[&:nth-child(-n+2)]:border-b max-lg:[&:nth-child(odd)]:border-r lg:[&:not(:last-child)]:border-r">
+                  <Icon name={factIcon(f.title)} size={16} className="mt-0.5 shrink-0 text-coral" />
+                  <div className="min-w-0">
+                    {f.title ? <dt className="text-[0.6875rem] font-semibold uppercase tracking-wide text-[#999999]">{f.title}</dt> : null}
+                    <dd className="mt-0.5 line-clamp-2 text-sm font-medium leading-snug text-ink" title={f.body}>{f.body}</dd>
+                  </div>
+                </div>
+              ))}
+            </dl>
+          ) : null}
+
+          <figure className="sg-in mt-4" style={{ ["--d" as string]: "240ms" }}>
+            <div className="relative aspect-[4/3] overflow-hidden rounded-2xl bg-[#ECE8E0] sm:aspect-[16/8] lg:aspect-[12/5]">
+              {place.hero ? <Image src={place.hero.url} alt={place.hero.alt} fill priority sizes="(min-width: 1280px) 1200px, 100vw" className="sg-hero__img object-cover" /> : <span className="flex size-full items-center justify-center text-[#B8B2A6]"><Icon name="mountain" size={40} /></span>}
+              <span className="absolute bottom-3 left-3 inline-flex items-center gap-1.5 rounded-md bg-white/90 px-2.5 py-1 text-xs font-semibold text-ink backdrop-blur-sm">
+                <Icon name="pin" size={12} className="text-coral" /> {name}
+              </span>
+              {destinations.length || attractions.length || activities.length ? (
+                <span className="absolute bottom-3 right-3 hidden items-center gap-3 rounded-md bg-white/90 px-3 py-1 text-xs text-[#555555] backdrop-blur-sm sm:inline-flex">
+                  {[
+                    { n: destinations.length, l: "destinations" },
+                    { n: attractions.length, l: "places" },
+                    { n: activities.length, l: "things to do" },
+                  ].filter((x) => x.n > 0).map((x) => (
+                    <span key={x.l}><b className="font-semibold text-ink">{x.n}</b> {x.l}</span>
+                  ))}
+                </span>
+              ) : null}
+            </div>
+            {place.hero ? <figcaption className="mt-2 text-right"><Credit img={place.hero} tone="dark" compact /></figcaption> : null}
+          </figure>
         </div>
       </section>
 
       {/* Section menu */}
       {nav.length > 1 ? (
-        <nav aria-label="On this page" className="sticky top-[4.5rem] z-30 border-b border-[#E5E2DC] bg-white/95 shadow-xs backdrop-blur-md lg:top-20">
-          <div className="container-site flex items-center justify-between gap-4 py-3">
-            <ul className="-mx-1 flex min-w-0 items-center gap-5 overflow-x-auto px-1 text-xs font-semibold text-[#555] [scrollbar-width:none]">
-              {nav.map((n) => (
-                <li key={n.id} className="shrink-0"><a href={`#${n.id}`} className="transition-colors hover:text-coral">{n.label}</a></li>
-              ))}
-            </ul>
-            <PlanAiButton prompt={planPrompt} className="hidden shrink-0 items-center gap-1.5 rounded-lg border border-[#E0DCD4] bg-[#FAF8F5] px-3 py-1 text-xs font-bold text-ink transition-all hover:border-coral hover:text-coral sm:inline-flex">
-              <Icon name="sparkles" size={12} className="text-coral" /> AI plan
-            </PlanAiButton>
-          </div>
-        </nav>
+        <SectionNav items={nav.map(({ id, label }) => ({ id, label }))}>
+          <PlanAiButton prompt={planPrompt} className="hidden shrink-0 cursor-pointer items-center gap-1.5 rounded-full bg-ink px-3.5 py-1.5 text-xs font-semibold text-white transition-colors hover:bg-coral sm:inline-flex">
+            <Icon name="sparkles" size={12} /> Plan with AI
+          </PlanAiButton>
+        </SectionNav>
       ) : null}
 
       <main className="container-site space-y-16 py-10 sm:space-y-20 sm:py-14">
-        {/* B. About */}
-        {overview || keyFacts.length || food.length ? (
+        {/* B. About: a short read, the facts not already in the hero, then food, festivals and etiquette in three short lists */}
+        {overview || keyFacts.length > 4 || food.length || highlights.length || culture.length ? (
           <section id="overview" aria-labelledby="overview-h" className="scroll-mt-36">
-            <div className="grid grid-cols-1 items-start gap-8 lg:grid-cols-12 lg:gap-12">
-              <div className="space-y-6 lg:col-span-8">
-                <div>
-                  <p className="text-xs font-bold uppercase tracking-wider text-coral">State overview</p>
-                  <h2 id="overview-h" className="mt-1 font-serif text-2xl font-bold text-ink sm:text-3xl">About {name}</h2>
-                </div>
-                {overview ? (
-                  <div className="space-y-4 text-[0.9375rem] leading-relaxed text-[#444] sm:text-base">
-                    {paragraphs(overview.body.text).map((p, i) => <p key={i}>{p}</p>)}
-                  </div>
-                ) : null}
-                {highlights.length ? (
-                  <ul className="grid gap-2.5 sm:grid-cols-2">
-                    {highlights.map((h, i) => (
-                      <li key={i} className="flex gap-2.5 rounded-xl border border-[#EAE7E0] bg-white p-3 text-sm leading-relaxed text-[#444]">
-                        <Icon name="star" size={15} className="mt-0.5 shrink-0 text-coral" />
-                        <span>{h.title ? <strong className="text-ink">{h.title}. </strong> : null}{h.body}</span>
-                      </li>
-                    ))}
-                  </ul>
-                ) : null}
-                {food.length || culture.length ? (
-                  <div id="food" className="scroll-mt-36 rounded-2xl border border-[#E8EDE6] bg-white p-6 shadow-xs">
-                    <h3 className="flex items-center gap-2 text-base font-bold text-ink"><Icon name="utensils" size={18} className="text-coral" /> Food, culture & etiquette</h3>
-                    <div className="mt-3 grid gap-6 md:grid-cols-2">
-                      {food.length ? (
-                        <div>
-                          <p className="mb-2 text-xs font-bold uppercase tracking-wider text-[#888]">What to eat</p>
-                          <FactRows items={food} />
-                        </div>
-                      ) : null}
-                      {culture.length ? (
-                        <div>
-                          <p className="mb-2 text-xs font-bold uppercase tracking-wider text-[#888]">Good to know</p>
-                          <FactRows items={culture} />
-                        </div>
+            <div className="grid grid-cols-1 gap-10 lg:grid-cols-12 lg:gap-14">
+              <div className={keyFacts.length > 4 ? "lg:col-span-7" : "lg:col-span-9"}>
+                <p className="text-xs font-semibold uppercase tracking-[0.14em] text-coral">State overview</p>
+                <h2 id="overview-h" className="mt-2 font-serif text-[clamp(1.75rem,3vw,2.4rem)] font-normal leading-tight tracking-[-0.015em] text-ink">About {name}</h2>
+                {overview ? (() => {
+                  const ps = paragraphs(overview.body.text);
+                  return (
+                    <div className="mt-5 space-y-4 text-[1rem] leading-[1.75] text-[#4A4A4A]">
+                      {ps.slice(0, 2).map((p, i) => <p key={i} className={i === 0 ? "text-[1.0625rem] text-[#333333]" : undefined}>{p}</p>)}
+                      {ps.length > 2 ? (
+                        <details className="sg-more group">
+                          <summary className="inline-flex cursor-pointer list-none items-center gap-1 text-sm font-semibold text-ink underline decoration-[#D9D4CC] underline-offset-4 hover:decoration-coral [&::-webkit-details-marker]:hidden">
+                            <span className="group-open:hidden">Read more</span><span className="hidden group-open:inline">Show less</span>
+                            <Icon name="chevronDown" size={14} className="transition-transform group-open:rotate-180" />
+                          </summary>
+                          <div className="mt-4 space-y-4">{ps.slice(2).map((p, i) => <p key={i}>{p}</p>)}</div>
+                        </details>
                       ) : null}
                     </div>
-                  </div>
-                ) : null}
+                  );
+                })() : null}
               </div>
 
-              <aside className="space-y-4 lg:col-span-4">
-                {keyFacts.length ? (
-                  <div className="rounded-2xl border border-[#E5E2DC] bg-white p-5 shadow-xs">
-                    <h3 className="mb-3 flex items-center gap-2 font-serif text-base font-bold text-ink"><Icon name="fileText" size={16} className="text-coral" /> Quick facts</h3>
-                    <FactRows items={keyFacts} />
-                  </div>
-                ) : null}
-                {safety.length ? (
-                  <div className="rounded-2xl border border-[#E5E2DC] bg-[#FAF8F5] p-5 shadow-xs">
-                    <h3 className="mb-3 flex items-center gap-2 font-serif text-base font-bold text-ink"><Icon name="shield" size={16} className="text-coral" /> Before you go</h3>
-                    <FactRows items={safety.slice(0, 3)} />
-                    {practical.length ? <a href="#plan" className="mt-3 inline-flex items-center gap-1 text-xs font-bold text-coral hover:underline">All practical info <Icon name="arrowRight" size={12} /></a> : null}
-                  </div>
-                ) : null}
-                {hasStatus ? <p className="px-1 text-[0.6875rem] leading-relaxed text-[#888]">Badges show how sure we are: Verified (official source), Seasonal, Estimate, Unconfirmed.</p> : null}
-              </aside>
+              {keyFacts.length > 4 ? (
+                <aside className="lg:col-span-5 lg:border-l lg:border-[#ECE8E2] lg:pl-10">
+                  <h3 className="text-xs font-semibold uppercase tracking-[0.14em] text-[#999999]">At a glance</h3>
+                  <dl className="mt-3 divide-y divide-[#F0ECE6]">
+                    {keyFacts.slice(4).map((f, i) => (
+                      <div key={i} className="grid grid-cols-[7.5rem_1fr] gap-4 py-3 text-sm">
+                        <dt className="text-[#888888]">{f.title}</dt>
+                        <dd className="font-medium leading-snug text-ink">{f.body}</dd>
+                      </div>
+                    ))}
+                  </dl>
+                </aside>
+              ) : null}
             </div>
+
+            {(() => {
+              const cols = [
+                { id: "food", title: "What to eat", icon: "utensils" as Name, list: food },
+                { id: "festivals", title: "Festivals", icon: "calendar" as Name, list: highlights },
+                { id: "etiquette", title: "Respect local ways", icon: "heart" as Name, list: culture },
+              ].filter((c) => c.list.length);
+              if (!cols.length) return null;
+              const grid = cols.length === 3 ? "md:grid-cols-3" : cols.length === 2 ? "md:grid-cols-2" : "";
+              return (
+                <div className={`mt-12 grid gap-x-10 gap-y-10 border-t border-[#ECE8E2] pt-10 ${grid}`}>
+                  {cols.map((c) => (
+                    <div key={c.id} id={c.id} className="scroll-mt-36">
+                      <h3 className="flex items-center gap-2 text-sm font-semibold text-ink"><Icon name={c.icon} size={16} className="text-coral" /> {c.title}</h3>
+                      <AboutList items={c.list} />
+                    </div>
+                  ))}
+                </div>
+              );
+            })()}
           </section>
         ) : null}
 

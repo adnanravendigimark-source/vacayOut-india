@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, type ReactNode } from "react";
+import { useEffect, useRef, useState, type ReactNode } from "react";
 import { Icon, type Name } from "@/components/icons/icon";
 import { AiPlannerModal } from "@/components/chat/ai-planner-modal";
 
@@ -158,5 +158,77 @@ export function FilterCards({
         </button>
       ) : null}
     </div>
+  );
+}
+
+/**
+ * The sticky "on this page" bar. The tab for the section being read is marked as you scroll
+ * (a pill slides to it and it scrolls into view on small screens), and a thin line under the
+ * bar shows how far down the page you are.
+ */
+export function SectionNav({ items, children }: { items: { id: string; label: string }[]; children?: ReactNode }) {
+  const [active, setActive] = useState(items[0]?.id ?? "");
+  const list = useRef<HTMLUListElement>(null);
+  const pill = useRef<HTMLLIElement>(null);
+  const bar = useRef<HTMLSpanElement>(null);
+
+  // Work out the current section and the read progress from the scroll position.
+  useEffect(() => {
+    let frame = 0;
+    const update = () => {
+      frame = 0;
+      const line = 170; // a little below the sticky header and this bar
+      let current = items[0]?.id ?? "";
+      for (const it of items) {
+        const el = document.getElementById(it.id);
+        if (el && el.getBoundingClientRect().top <= line) current = it.id;
+      }
+      setActive(current);
+      const max = document.documentElement.scrollHeight - window.innerHeight;
+      if (bar.current) bar.current.style.transform = `scaleX(${max > 0 ? Math.min(1, window.scrollY / max) : 0})`;
+    };
+    const onScroll = () => { if (!frame) frame = requestAnimationFrame(update); };
+    frame = requestAnimationFrame(update);
+    window.addEventListener("scroll", onScroll, { passive: true });
+    window.addEventListener("resize", onScroll);
+    return () => {
+      cancelAnimationFrame(frame);
+      window.removeEventListener("scroll", onScroll);
+      window.removeEventListener("resize", onScroll);
+    };
+  }, [items]);
+
+  // Slide the pill under the active tab and keep that tab in view.
+  useEffect(() => {
+    const ul = list.current;
+    const a = ul?.querySelector<HTMLAnchorElement>(`a[href="#${CSS.escape(active)}"]`);
+    if (!ul || !a || !pill.current) return;
+    pill.current.style.width = `${a.offsetWidth}px`;
+    pill.current.style.transform = `translateX(${a.offsetLeft}px)`;
+    pill.current.style.opacity = "1";
+    const left = a.offsetLeft - ul.clientWidth / 2 + a.offsetWidth / 2;
+    ul.scrollTo({ left, behavior: "smooth" });
+  }, [active]);
+
+  return (
+    <nav aria-label="On this page" className="sg-nav sticky top-[4.5rem] z-30 border-b border-[#ECE8E2] bg-white/90 backdrop-blur-md lg:top-20">
+      <div className="container-site flex items-center gap-4 py-2.5">
+        <ul ref={list} className="sg-nav__list relative flex min-w-0 flex-1 items-center gap-1 overflow-x-auto text-[0.8125rem] font-medium [scrollbar-width:none]">
+          <li ref={pill} aria-hidden className="sg-nav__pill pointer-events-none absolute left-0 top-0 h-full rounded-full bg-[#F3EFEA] opacity-0" />
+          {items.map((n) => {
+            const on = n.id === active;
+            return (
+              <li key={n.id} className="shrink-0">
+                <a href={`#${n.id}`} aria-current={on ? "location" : undefined} onClick={() => setActive(n.id)} className={`relative block rounded-full px-3.5 py-1.5 transition-colors ${on ? "text-ink" : "text-[#777777] hover:text-ink"}`}>
+                  {n.label}
+                </a>
+              </li>
+            );
+          })}
+        </ul>
+        {children}
+      </div>
+      <span ref={bar} aria-hidden className="sg-nav__bar absolute bottom-[-1px] left-0 h-[2px] w-full origin-left bg-coral" style={{ transform: "scaleX(0)" }} />
+    </nav>
   );
 }

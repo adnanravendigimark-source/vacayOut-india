@@ -59,3 +59,16 @@
 .exmap__tip { animation: explore-fade 0.18s ease both; }
 .exmap__back { animation: explore-fade 0.3s ease both; }
 @media (prefers-reduced-motion: reduce) { .exmap__zoom, .exmap__state { transition: none; } .exmap__zone { animation: none; opacity: 1; } }
+
+/* State cards: gentle tilt + glare on hover (mouse), summary slides up */
+.scard { transform: rotateX(var(--rx, 0deg)) rotateY(var(--ry, 0deg)); transform-style: preserve-3d; transition: transform 0.25s ease-out, box-shadow 0.4s; box-shadow: 0 10px 28px -18px rgba(25, 25, 25, 0.45); will-change: transform; }
+.scard:hover { box-shadow: 0 26px 50px -24px rgba(25, 25, 25, 0.6); }
+.scard__img { transition: transform 0.9s cubic-bezier(.16, 1, .3, 1); }
+.scard:hover .scard__img { transform: scale(1.07); }
+.scard__glare { position: absolute; inset: 0; opacity: 0; background: radial-gradient(circle at var(--gx, 50%) var(--gy, 50%), rgba(255, 255, 255, 0.28), transparent 45%); transition: opacity 0.35s; pointer-events: none; }
+.scard:hover .scard__glare { opacity: 1; }
+@media (hover: hover) and (min-width: 640px) {
+  .scard__sum { max-height: 0; opacity: 0; overflow: hidden; transition: max-height 0.45s ease, opacity 0.35s ease, margin 0.45s; margin-top: 0; }
+  .scard:hover .scard__sum, .scard:focus-visible .scard__sum { max-height: 4.8em; opacity: 1; margin-top: 0.375rem; }
+}
+@media (prefers-reduced-motion: reduce) { .scard { transform: none !important; transition: box-shadow 0.4s; } .scard:hover .scard__img { transform: none; } }
