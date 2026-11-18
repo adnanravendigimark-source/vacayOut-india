@@ -23,11 +23,16 @@ const FIX: Record<string, { name: string; slug: string }[]> = {
 };
 const slugify = (s: string) => s.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/(^-|-$)/g, "");
 
+/** The VacayOut states a map shape stands for (usually one; J&K's shape also covers Ladakh). */
+export function shapeStates(id: string, name: string): { name: string; slug: string }[] {
+  return FIX[id] ?? [{ name, slug: slugify(name) }];
+}
+
 function build(): Record<Zone, RegionState[]> {
   const out: Record<Zone, RegionState[]> = { north: [], south: [], east: [], west: [], central: [], northeast: [] };
   const seen = new Set<string>();
   for (const p of INDIA_MAP_PATHS) {
-    for (const s of FIX[p.id] ?? [{ name: p.name, slug: slugify(p.name) }]) {
+    for (const s of shapeStates(p.id, p.name)) {
       if (seen.has(s.slug)) continue;
       seen.add(s.slug);
       out[zoneOf(p.zone)].push({ id: p.id, ...s });

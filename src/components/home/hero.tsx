@@ -98,8 +98,8 @@ export function Hero({
         ) : null}
       </div>
       {/* Veil: dark enough for white text on any shot, lighter in the middle so the places show */}
-      <div aria-hidden className="absolute inset-0 -z-10 bg-[linear-gradient(180deg,rgba(10,8,6,0.55)_0%,rgba(10,8,6,0.25)_32%,rgba(10,8,6,0.35)_58%,rgba(10,8,6,0.82)_100%)]" />
-      <div aria-hidden className="absolute inset-0 -z-10 bg-[radial-gradient(70%_55%_at_50%_45%,rgba(10,8,6,0.45),transparent_72%)]" />
+      <div aria-hidden className="absolute inset-0 -z-10 bg-[linear-gradient(180deg,rgba(10,8,6,0.35)_0%,rgba(10,8,6,0.08)_30%,rgba(10,8,6,0.12)_60%,rgba(10,8,6,0.55)_100%)]" />
+      <div aria-hidden className="absolute inset-0 -z-10 bg-[radial-gradient(55%_40%_at_50%_42%,rgba(10,8,6,0.32),transparent_75%)]" />
 
       <div className="container-site relative z-10 flex flex-1 flex-col items-center justify-center px-4 pb-6 pt-28 text-center sm:pt-32">
         <div className="mx-auto w-full max-w-3xl">
@@ -113,7 +113,7 @@ export function Hero({
             <span className="italic font-light text-[#FFD9C7]">Where will you go?</span>
           </h1>
 
-          <p style={{ ["--d" as string]: "160ms" }} className="hero-in mx-auto mt-4 max-w-md text-base text-white/85 sm:text-lg">
+          <p style={{ ["--d" as string]: "160ms" }} className="hero-in mx-auto mt-4 max-w-md text-base font-medium text-white [text-shadow:0_1px_14px_rgba(0,0,0,0.55)] sm:text-lg">
             Plan your India trip, day by day.
           </p>
 

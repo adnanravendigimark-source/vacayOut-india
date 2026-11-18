@@ -4,9 +4,9 @@ import { useEffect } from "react";
 import Image from "@/components/media/image";
 import "./intro.css";
 
-// Runs while the HTML is parsed, before the intro paints: play it on the first visit of a
-// browser session only (add ?intro to the URL to see it again). No JS, or motion turned off → no intro at all (see hero.css).
-const DECIDE = `try{var d=document.documentElement,k="vo-intro";if(sessionStorage.getItem(k)&&!/[?&]intro(=|&|$)/.test(location.search)){d.dataset.intro="seen"}else{sessionStorage.setItem(k,"1");d.dataset.intro="play"}}catch(e){document.documentElement.dataset.intro="seen"}`;
+// Runs while the HTML is parsed, before the intro paints: the intro plays on every full page load
+// (first visit and refresh), not when coming back to "/" from another page. No JS, or motion turned off → no intro.
+const DECIDE = `document.documentElement.dataset.intro="play"`;
 
 /**
  * Opening reveal for the homepage, after the /landingpage hero: "IN ◯ DIA" — a hairline between
