@@ -87,7 +87,7 @@ export function HomeShell({ data }: { data: HomepageData }) {
       <PlanWithAi onPlan={handleStart} examples={data.examplePrompts} readyRoutes={data.readyRoutes} />
 
       {/* 5. Featured Destinations (6 cards: Kashmir, Rajasthan, Ladakh, Spiti Valley, Andaman & Nicobar, Darjeeling) */}
-      <FeaturedDestinations onPlan={handleStart} />
+      <FeaturedDestinations onPlan={handleStart} items={data.featured} />
 
       {/* 6. Side-by-side: Ready-made Itineraries (3 horizontal cards) & Travel Guides & Inspiration (3 vertical cards) */}
       <ItinerariesAndGuides onPlan={handleStart} readyRoutes={data.readyRoutes} guideCards={data.guideCards} />

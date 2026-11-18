@@ -51,6 +51,31 @@ const TRIP_TYPE_ALIASES: Record<string, string[]> = {
   food: ["culture", "cultural"],
 };
 
+/** Up to eight featured places: one per state first, then at most a second per state (photos before illustrations), so one state can't fill the row. */
+function pickFeatured<T extends { snapshot: { place: { state?: { slug: string } | null; hero?: { kind: string } | null } }; slug: string }>(rows: T[]): T[] {
+  const ordered = [...rows.filter((r) => r.snapshot.place.hero?.kind === "photo"), ...rows.filter((r) => r.snapshot.place.hero?.kind !== "photo")];
+  const out: T[] = [];
+  const seen = new Set<string>();
+  for (const r of ordered) {
+    const st = r.snapshot.place.state?.slug ?? r.slug;
+    if (seen.has(st)) continue;
+    seen.add(st);
+    out.push(r);
+    if (out.length >= 8) return out;
+  }
+  // Then a second place per state at most, so a state with many featured places can't fill the row.
+  const perState = new Map<string, number>();
+  for (const r of out) perState.set(r.snapshot.place.state?.slug ?? r.slug, 1);
+  for (const r of ordered) {
+    if (out.length >= 7) break;
+    const st = r.snapshot.place.state?.slug ?? r.slug;
+    if (out.includes(r) || (perState.get(st) ?? 0) >= 2) continue;
+    perState.set(st, (perState.get(st) ?? 0) + 1);
+    out.push(r);
+  }
+  return out;
+}
+
 const newestFirst = (a: Row, b: Row) => b.publishedAt.getTime() - a.publishedAt.getTime();
 
 /** Every published page path. On a database error the list is empty, so cards fall back to the AI planner. */
@@ -166,7 +191,7 @@ export async function getHomepageData(): Promise<HomepageData> {
   const real = {
     destinations: [...placeRows].sort(newestFirst).slice(0, 48).map(toDestination),
     zones,
-    featured: all.filter((r) => r.featured).sort(newestFirst).slice(0, 6).map(toDestination),
+    featured: pickFeatured(all.filter((r) => r.featured && r.kind !== "activity").sort(newestFirst)).map(toDestination),
     itineraries,
     latestGuides: [...all].sort(newestFirst).slice(0, 3).map(toDestination),
     tagged: all.filter((r) => r.tripTypes.length).map(toDestination),
