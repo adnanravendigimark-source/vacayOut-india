@@ -6,6 +6,7 @@ import { Icon, type Name } from "@/components/icons/icon";
 import type { ExploreData } from "@/lib/places/public-lists";
 import { AiPlannerModal } from "@/components/chat/ai-planner-modal";
 import { ExploreHero } from "./explore-hero";
+import { AiBanner } from "@/components/ai-planner/ai-banner";
 import { ExploreMap } from "./explore-map";
 import { StateCard } from "./state-card";
 import "./explore.css";
@@ -161,27 +162,24 @@ export function ExplorePage({ data, initialRegion = "all" }: { data: ExploreData
         </div>
 
         {/* 3. One clear next step */}
-        <section className="explore-ai relative mt-14 overflow-hidden rounded-3xl border border-[#F3DED4] p-6 sm:p-8">
-          <div className="flex flex-col gap-5 lg:flex-row lg:items-center lg:justify-between">
-            <div className="max-w-xl">
-              <h2 className="font-serif text-2xl font-normal text-ink sm:text-3xl">Not sure where to start?</h2>
-              <p className="mt-1.5 text-sm text-[#555555]">Tell the AI planner what you like and how long you have. It suggests a state and plans the days.</p>
-              {data.interests.length ? (
-                <div className="mt-4 flex flex-wrap gap-2">
-                  {data.interests.slice(0, 6).map((it) => (
-                    <button key={it.key} type="button" onClick={() => openAi(it.prompt)} className="inline-flex items-center gap-1.5 rounded-full border border-[#EEDCD2] bg-white px-3 py-1.5 text-xs font-medium text-ink transition-colors hover:border-coral hover:text-coral">
-                      <Icon name={it.icon as Name} size={13} className="text-coral" />
-                      {it.label}
-                    </button>
-                  ))}
-                </div>
-              ) : null}
-            </div>
-            <button type="button" onClick={() => openAi("Help me choose where to go in India")} className="inline-flex shrink-0 items-center gap-2 self-start rounded-full bg-coral px-5 py-3 text-sm font-semibold text-white shadow-sm transition-colors hover:bg-coral-hover lg:self-center">
-              <Icon name="sparkles" size={16} /> Plan with AI
-            </button>
-          </div>
-        </section>
+        <AiBanner
+          className="mt-14"
+          title="Not sure where to start?"
+          accent="start"
+          text="Tell the AI planner what you like and how long you have. It suggests a state and plans the days."
+          chips={data.interests.slice(0, 6).map((it) => ({ key: it.key, label: it.label, icon: it.icon as Name, prompt: it.prompt }))}
+          cta={{ label: "Plan with AI", prompt: "Help me choose where to go in India" }}
+          question={region === "all" ? "Where should I go in India? I have a week." : `Where should I go in ${REGION_LABEL(region)} India? I have a week.`}
+          answer="Here are 3 states with guides on this page:"
+          picks={filtered.filter((st) => st.image).slice(0, 3).map((st) => ({
+            href: `/india/${st.slug}`,
+            name: st.name,
+            meta: st.destinationsCount ? `${st.destinationsCount} ${st.destinationsCount === 1 ? "guide" : "guides"}` : "State guide",
+            image: st.image,
+          }))}
+          replayKey={`${region}|${q}`}
+          onAsk={openAi}
+        />
       </div>
 
       <AiPlannerModal

@@ -2,6 +2,7 @@
  * After `seed:content` and a clean quote check, approves the DRAFT sections that a content file
  * wrote (through the same approveSectionWithFacts the admin uses — facts with a conflict note or
  * unsupported quotes are refused) and publishes each place through publishPlace.
+ * Then publishes the file's itineraries (publishItinerary re-checks their cited facts) unless edited by a person.
  * Locked (person-edited) sections are never touched. SEO title/description are taken from the
  * file only when the stored ones are empty or fail the publish length limits.
  *
@@ -13,6 +14,8 @@ const { getDb } = await import("@/lib/db");
 const { places, sections, users } = await import("@/lib/db/schema");
 const { approveSectionWithFacts } = await import("@/lib/places/review");
 const { publishPlace } = await import("@/lib/publish/service");
+const { publishItinerary } = await import("@/lib/itineraries/service");
+const { itineraries } = await import("@/lib/db/schema");
 type SK = Parameters<typeof approveSectionWithFacts>[1];
 
 const file = JSON.parse(readFileSync(process.argv[2], "utf8"));
@@ -46,5 +49,12 @@ for (const p of [...file.places].sort((a: { key: string }, b: { key: string }) =
   }
   console.log(`${p.key}: approved ${approved}${Object.keys(fix).length ? `, fixed ${Object.keys(fix).join("+")}` : ""}, ${pub}`);
   for (const x of refused) console.log(`   refused ${x}`);
+}
+for (const it of file.itineraries ?? []) {
+  const [row] = await db.select({ id: itineraries.id, status: itineraries.status, locked: itineraries.locked }).from(itineraries).where(eq(itineraries.slug, it.slug)).limit(1);
+  if (!row) { console.log(`✗ itinerary ${it.slug}: not in DB`); continue; }
+  if (row.status === "published" || row.locked || dry) { console.log(`itinerary ${it.slug}: ${row.status}${row.locked ? " (edited by a person)" : ""}, left alone`); continue; }
+  const r = await publishItinerary(row.id, admin.id);
+  console.log(`itinerary ${it.slug}: ${r.ok ? "published" : `NOT published — ${"problems" in r && r.problems ? r.problems.join("; ") : r.message}`}`);
 }
 process.exit(0);

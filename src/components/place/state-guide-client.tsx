@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useRef, useState, type ReactNode } from "react";
+import Link from "next/link";
 import { Icon, type Name } from "@/components/icons/icon";
 import { AiPlannerModal } from "@/components/chat/ai-planner-modal";
 
@@ -128,7 +129,7 @@ export function FilterCards({
   return (
     <div className="space-y-5">
       {groups.length > 1 ? (
-        <div role="group" aria-label={label} className="-mx-1 flex gap-1.5 overflow-x-auto px-1 pb-1 [scrollbar-width:none]">
+        <div role="group" aria-label={label} className="-mx-1 flex gap-1 overflow-x-auto px-1 pb-1 [scrollbar-width:none]">
           {[{ g: null as string | null, n: items.length }, ...groups].map(({ g, n }) => (
             <button
               key={g ?? "all"}
@@ -138,9 +139,9 @@ export function FilterCards({
                 setGroup(g);
                 setAll(false);
               }}
-              className={`shrink-0 rounded-full px-3.5 py-1.5 text-xs font-bold transition-all ${group === g ? "bg-ink text-white" : "border border-[#E5E2DC] bg-white text-[#666] hover:border-ink hover:text-ink"}`}
+              className={`shrink-0 rounded-full px-3.5 py-1.5 text-[0.8125rem] font-medium transition-colors ${group === g ? "bg-[#F3EFEA] text-ink" : "text-[#777777] hover:text-ink"}`}
             >
-              {g ?? allLabel} <span className={group === g ? "font-medium text-white/70" : "font-medium text-[#999]"}>{n}</span>
+              {g ?? allLabel} <span className="ml-0.5 text-[#AAAAAA]">{n}</span>
             </button>
           ))}
         </div>
@@ -153,7 +154,7 @@ export function FilterCards({
         ))}
       </ul>
       {shown.length > initial ? (
-        <button type="button" onClick={() => setAll((a) => !a)} className="mx-auto flex items-center gap-1.5 rounded-full border border-[#E5E2DC] bg-white px-5 py-2 text-sm font-semibold text-ink transition hover:border-ink">
+        <button type="button" onClick={() => setAll((a) => !a)} className="mx-auto mt-4 flex items-center gap-1.5 rounded-full border border-[#E5E2DC] bg-white px-5 py-2.5 text-sm font-medium text-ink transition-colors hover:border-ink">
           {all ? "Show fewer" : `Show all ${shown.length}`} <Icon name="chevronDown" size={15} className={`transition-transform ${all ? "rotate-180" : ""}`} />
         </button>
       ) : null}
@@ -230,5 +231,161 @@ export function SectionNav({ items, children }: { items: { id: string; label: st
       </div>
       <span ref={bar} aria-hidden className="sg-nav__bar absolute bottom-[-1px] left-0 h-[2px] w-full origin-left bg-coral" style={{ transform: "scaleX(0)" }} />
     </nav>
+  );
+}
+
+
+export type MapDot = { name: string; x: number; y: number; href?: string };
+export type RegionGeo = { view: [number, number, number, number]; state: string; context: string[]; all: MapDot[] };
+export type RegionItem = {
+  title: string;
+  body: string;
+  image: { url: string; alt: string; ai?: boolean } | null;
+  towns: { name: string; href: string; dot: MapDot | null; lat: number | null; lng: number | null }[];
+};
+
+const fmtCoord = (lat: number, lng: number) => `${Math.abs(lat).toFixed(2)}° ${lat >= 0 ? "N" : "S"}, ${Math.abs(lng).toFixed(2)}° ${lng >= 0 ? "E" : "W"}`;
+
+/**
+ * A line-drawn map of the state (neighbouring states in faint lines). Every destination is a
+ * small dot; the open region's towns are coral dots with labels, and the area around them is
+ * filled with the region's photo.
+ */
+function RegionMap({ geo, region, index }: { geo: RegionGeo; region: RegionItem | undefined; index: number }) {
+  const [vx, vy, vw, vh] = geo.view;
+  const u = Math.max(vw, vh) / 100; // one "unit" = 1% of the view, so sizes look the same on any state
+  const dots = (region?.towns ?? []).map((t) => t.dot).filter(Boolean) as MapDot[];
+  const clip = `rgn-clip-${index}`;
+  const r = u * 10;
+  const xs = dots.map((d) => d.x), ys = dots.map((d) => d.y);
+  const bx = Math.min(...xs) - r, by = Math.min(...ys) - r, bw = Math.max(...xs) - Math.min(...xs) + r * 2, bh = Math.max(...ys) - Math.min(...ys) + r * 2;
+  const geoPts = (region?.towns ?? []).filter((t) => t.lat != null && t.lng != null);
+  const coord = geoPts.length ? fmtCoord(geoPts.reduce((a, t) => a + t.lat!, 0) / geoPts.length, geoPts.reduce((a, t) => a + t.lng!, 0) / geoPts.length) : null;
+  // Stack labels so close towns don't print on top of each other.
+  const fs = u * 2.6;
+  const labels = new Map<string, { x: number; y: number }>();
+  const placed: { x: number; y: number; w: number }[] = [];
+  for (const d of [...dots].sort((a, b) => a.y - b.y)) {
+    const w = d.name.length * fs * 0.68;
+    const x = d.x + u * 2;
+    let y = d.y - u * 1.6;
+    for (let k = 0; k < 8 && placed.some((p) => Math.abs(p.y - y) < fs * 1.3 && x < p.x + p.w && p.x < x + w); k++) y += fs * 1.4;
+    placed.push({ x, y, w });
+    labels.set(d.name, { x, y });
+  }
+  const img = region?.image ? `/_next/image?url=${encodeURIComponent(region.image.url)}&w=640&q=70` : null;
+
+  return (
+    <div className="rgn-map relative size-full">
+      <svg viewBox={`${vx} ${vy} ${vw} ${vh}`} className="size-full" role="img" aria-label={region ? `Map: ${region.title}` : "Map of the regions"}>
+        <defs>
+          {dots.length ? (
+            <clipPath id={clip}>
+              {dots.map((d) => <circle key={d.name} cx={d.x} cy={d.y} r={r} />)}
+              {dots.length > 1 ? <polyline points={dots.map((d) => `${d.x},${d.y}`).join(" ")} fill="none" stroke="#000" strokeWidth={r * 1.2} strokeLinecap="round" strokeLinejoin="round" /> : null}
+            </clipPath>
+          ) : null}
+        </defs>
+        {geo.context.map((d, i) => <path key={i} d={d} fill="none" stroke="#CFC6BA" strokeWidth={u * 0.18} />)}
+        <path d={geo.state} fill="#FFFFFF" fillOpacity={0.55} stroke="#2B2722" strokeWidth={u * 0.32} strokeLinejoin="round" />
+
+        {/* the open region: photo inside a soft shape around its towns */}
+        {dots.length ? (
+          <g key={`blob-${index}`} className="rgn-blob" style={{ transformOrigin: `${bx + bw / 2}px ${by + bh / 2}px` }}>
+            {img ? (
+              <image href={img} x={bx} y={by} width={bw} height={bh} preserveAspectRatio="xMidYMid slice" clipPath={`url(#${clip})`} />
+            ) : (
+              <rect x={bx} y={by} width={bw} height={bh} fill="#E8553E" fillOpacity={0.15} clipPath={`url(#${clip})`} />
+            )}
+          </g>
+        ) : null}
+
+        {geo.all.map((d) => <circle key={d.name} cx={d.x} cy={d.y} r={u * 0.75} fill="#B5AA9C" />)}
+
+        {dots.map((d, i) => (
+          <g key={`${index}-${d.name}`} className="rgn-dot" style={{ ["--i" as string]: i }}>
+            <circle cx={d.x} cy={d.y} r={u * 2.2} fill="#E8553E" fillOpacity={0.18} className="rgn-dot__pulse" style={{ transformOrigin: `${d.x}px ${d.y}px` }} />
+            <circle cx={d.x} cy={d.y} r={u * 1.15} fill="#E8553E" stroke="#FFFFFF" strokeWidth={u * 0.35} />
+            <text x={labels.get(d.name)?.x} y={labels.get(d.name)?.y} fontSize={fs} className="rgn-dot__label">{d.name}</text>
+          </g>
+        ))}
+      </svg>
+
+      <p className="pointer-events-none absolute left-4 top-3.5 font-mono text-[0.625rem] uppercase tracking-[0.18em] text-[#8A8178]">Plan by region</p>
+      {coord ? <p key={coord} className="rgn__cap pointer-events-none absolute right-4 top-3.5 font-mono text-[0.625rem] tracking-[0.12em] text-[#8A8178]">{coord}</p> : null}
+      {region ? (
+        <p key={`t-${index}`} className="rgn__cap pointer-events-none absolute bottom-3.5 left-4 text-sm">
+          <span className="font-semibold text-coral">{String(index + 1).padStart(2, "0")}</span>
+          <span className="ml-2 font-serif text-ink">{region.title}</span>
+        </p>
+      ) : null}
+      {region?.image?.ai && dots.length ? <span className="absolute bottom-3.5 right-4 rounded bg-black/55 px-1.5 py-0.5 text-[0.625rem] font-semibold text-white">Photo area: AI illustration</span> : null}
+    </div>
+  );
+}
+
+/**
+ * Regions as a numbered accordion beside a line-drawn map: open a region and its towns light
+ * up on the map with the region's photo around them. One region is open at a time.
+ */
+export function RegionAccordion({ regions, geo }: { regions: RegionItem[]; geo: RegionGeo | null }) {
+  const [open, setOpen] = useState(0);
+  const cur = regions[open];
+
+  return (
+    <div className={`grid gap-6 ${geo ? "lg:grid-cols-12 lg:gap-10" : ""}`}>
+      {geo ? (
+        <div className="lg:col-span-6">
+          <div className="overflow-hidden rounded-2xl border border-[#ECE4D9] bg-[#F6F1EA] lg:sticky lg:top-[9.5rem]">
+            <div className="h-[300px] sm:h-[340px] lg:h-[380px]">
+              <RegionMap geo={geo} region={open >= 0 ? cur : undefined} index={open} />
+            </div>
+          </div>
+        </div>
+      ) : null}
+
+      <ol className={`border-t border-[#ECE8E2] ${geo ? "lg:col-span-6" : ""}`}>
+        {regions.map((r, i) => {
+          const on = i === open;
+          const pid = `rgn-panel-${i}`;
+          return (
+            <li key={i} className="border-b border-[#ECE8E2]">
+              <h3>
+                <button
+                  type="button"
+                  aria-expanded={on}
+                  aria-controls={pid}
+                  onClick={() => setOpen(on ? -1 : i)}
+                  className="group flex w-full items-center gap-4 py-3.5 text-left"
+                >
+                  <span className={`w-6 shrink-0 font-serif text-xs tabular-nums transition-colors ${on ? "text-coral" : "text-[#BBBBBB]"}`}>{String(i + 1).padStart(2, "0")}</span>
+                  <span className={`min-w-0 flex-1 font-serif text-[1.125rem] leading-snug transition-colors ${on ? "text-ink" : "text-[#777777] group-hover:text-ink"}`}>{r.title}</span>
+                  {r.towns.length ? <span className="hidden shrink-0 text-[0.6875rem] text-[#AAAAAA] sm:block">{r.towns.length} {r.towns.length === 1 ? "place" : "places"}</span> : null}
+                  <span className={`grid size-7 shrink-0 place-items-center rounded-full border transition-all duration-300 ${on ? "rotate-180 border-ink bg-ink text-white" : "border-[#E2DED7] text-[#777777] group-hover:border-ink"}`}>
+                    <Icon name="chevronDown" size={13} />
+                  </span>
+                </button>
+              </h3>
+              <div id={pid} role="region" className={`grid transition-[grid-template-rows] duration-500 ease-[cubic-bezier(.16,1,.3,1)] ${on ? "grid-rows-[1fr]" : "grid-rows-[0fr]"}`}>
+                <div className="overflow-hidden">
+                  <div className="pb-4 pl-10 pr-2">
+                    <p className="text-sm leading-relaxed text-[#555555]">{r.body}</p>
+                    {r.towns.length ? (
+                      <div className="mt-3 flex flex-wrap gap-1.5">
+                        {r.towns.map((t) => (
+                          <Link key={t.href} href={t.href} tabIndex={on ? 0 : -1} className="inline-flex items-center gap-1 rounded-full border border-[#E5E2DC] px-2.5 py-0.5 text-xs font-medium text-ink transition-colors hover:border-coral hover:text-coral">
+                            {t.name} <Icon name="arrowRight" size={10} className="text-[#BBBBBB]" />
+                          </Link>
+                        ))}
+                      </div>
+                    ) : null}
+                  </div>
+                </div>
+              </div>
+            </li>
+          );
+        })}
+      </ol>
+    </div>
   );
 }

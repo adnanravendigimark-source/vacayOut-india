@@ -10,6 +10,8 @@ import type { PageHero } from "@/components/explore/explore-page";
 import type { ThingsToDoData } from "@/lib/places/public-lists";
 import { TRIP_TYPES } from "@/lib/places/trip-types";
 import { ThingsToDoHero } from "./things-to-do-hero";
+import { ExperienceCard } from "./experience-card";
+import { AiBanner } from "@/components/ai-planner/ai-banner";
 import "@/components/explore/explore.css";
 
 const CATEGORY_ICONS: Record<string, Name> = {
@@ -113,27 +115,17 @@ export function ThingsToDoPage({ data, initial = {} }: { data: ThingsToDoData; h
 
   const labelOf = (key: string) => data.categories.find((c) => c.key === key)?.label;
   const card = (item: Item, i: number) => (
-    <li key={item.href} className="explore-card" style={{ ["--i" as string]: Math.min(i, 12) }}>
-      <Link href={item.href} className="group flex h-full flex-col overflow-hidden rounded-2xl border border-[#ECE9E2] bg-white transition-all duration-300 hover:-translate-y-1 hover:border-transparent hover:shadow-[0_18px_40px_-20px_rgba(25,25,25,0.35)]">
-        <div className="relative aspect-[4/3] overflow-hidden bg-[#EFECE6]">
-          <Thumb item={item} sizes="(min-width: 1024px) 22vw, (min-width: 768px) 30vw, 46vw" />
-          <span className="absolute left-2 top-2 inline-flex items-center gap-1 rounded-full bg-white/92 px-2 py-0.5 text-[0.625rem] font-semibold uppercase tracking-wide text-ink backdrop-blur-sm">
-            <Icon name={CATEGORY_ICONS[item.category] ?? "compass"} size={11} className="text-coral" />
-            {labelOf(item.category) ?? item.kindLabel}
-          </span>
-        </div>
-        <div className="flex flex-1 flex-col p-3 sm:p-3.5">
-          <h3 className="line-clamp-2 text-sm font-bold leading-snug text-ink transition-colors group-hover:text-coral sm:text-[0.9375rem]">{item.name}</h3>
-          {item.summary ? <p className="mt-1 line-clamp-2 text-xs leading-relaxed text-[#666666]">{item.summary}</p> : null}
-          <p className="mt-auto flex items-center gap-1 pt-2.5 text-xs text-[#888888]">
-            <Icon name="pin" size={12} className="shrink-0 text-coral" />
-            <span className="truncate">{item.location}</span>
-            <Icon name="arrowRight" size={12} className="ml-auto shrink-0 text-[#BBBBBB] transition-all group-hover:translate-x-0.5 group-hover:text-coral" />
-          </p>
-        </div>
-      </Link>
-    </li>
+    <ExperienceCard
+      key={item.href}
+      item={item}
+      index={i}
+      label={labelOf(item.category) ?? item.kindLabel}
+      icon={CATEGORY_ICONS[item.category] ?? "compass"}
+      fallbackIcon={iconFor(item.tripTypes)}
+    />
   );
+  const activeLabel = activeCategory === "all" ? undefined : labelOf(activeCategory);
+  const where = data.destinations.find((d) => d.key === destFilter)?.name ?? data.states.find((st) => st.slug === stateFilter)?.name ?? "India";
   const grid = "grid grid-cols-2 gap-3.5 sm:gap-4 md:grid-cols-3 lg:grid-cols-4";
   const heading = searchQuery.trim()
     ? `Results for “${searchQuery.trim()}”`
@@ -230,17 +222,29 @@ export function ThingsToDoPage({ data, initial = {} }: { data: ThingsToDoData; h
             <ul key={`h-${filterKey}`} className={grid}>{head.map(card)}</ul>
 
             {/* One clear next step, between rows */}
-            <section className="explore-ai relative my-10 overflow-hidden rounded-3xl border border-[#F3DED4] p-6 sm:p-8">
-              <div className="flex flex-col gap-5 lg:flex-row lg:items-center lg:justify-between">
-                <div className="max-w-xl">
-                  <h2 className="font-serif text-2xl font-normal text-ink sm:text-3xl">Not sure what to choose?</h2>
-                  <p className="mt-1.5 text-sm text-[#555555]">Tell the AI planner your interests and dates. It picks from the guides on this page and plans the days.</p>
-                </div>
-                <button type="button" onClick={() => handleStartPlan("Help me choose the best destinations and things to do in India based on my travel style")} className="inline-flex shrink-0 items-center gap-2 self-start rounded-full bg-coral px-5 py-3 text-sm font-semibold text-white shadow-sm transition-colors hover:bg-coral-hover lg:self-center">
-                  <Icon name="sparkles" size={16} /> Plan with AI
-                </button>
-              </div>
-            </section>
+            <AiBanner
+              className="my-10"
+              title="Not sure what to choose?"
+              accent="choose"
+              text="Tell the AI planner your interests and dates. It picks from the guides on this page and plans the days."
+              chips={[...data.categories].sort((x, y) => y.count - x.count).slice(0, 5).map((c) => ({
+                key: c.key,
+                label: c.label,
+                icon: CATEGORY_ICONS[c.key] ?? "compass",
+                prompt: `Plan a trip in ${where} for someone who loves ${c.label.toLowerCase()}. Suggest things to do and plan the days.`,
+              }))}
+              cta={{
+                label: "Plan with AI",
+                prompt: activeLabel
+                  ? `Help me choose ${activeLabel.toLowerCase()} experiences in ${where} and plan the days`
+                  : `Help me choose the best things to do in ${where} based on my travel style`,
+              }}
+              question={activeLabel ? `I love ${activeLabel.toLowerCase()}. What should I do in ${where}?` : `What should I do in ${where}? I have a few days.`}
+              answer="Here are 3 picks from the guides on this page:"
+              picks={filtered.filter((i) => i.image).slice(0, 3).map((i) => ({ href: i.href, name: i.name, meta: i.location, image: i.image }))}
+              replayKey={filterKey}
+              onAsk={handleStartPlan}
+            />
 
             {tail.length ? <ul key={`t-${filterKey}`} className={grid}>{tail.map(card)}</ul> : null}
             {remaining > 0 ? (

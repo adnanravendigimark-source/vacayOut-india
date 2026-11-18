@@ -15,7 +15,10 @@ import { PageAssistant } from "@/components/assistant/page-assistant";
 import { buildPack } from "@/lib/assistant/pack";
 import { FaqList, SectionBody as SectionBodyView, StatusPill } from "./section-body";
 import { HashDialogs } from "./interactive";
-import { FilterCards, PlanAiButton, PracticalTabs, SectionNav } from "./state-guide-client";
+import { FilterCards, PlanAiButton, PracticalTabs, RegionAccordion, SectionNav, type RegionGeo } from "./state-guide-client";
+import { INDIA_MAP_PATHS } from "@/components/home/india-map-data";
+import { shapeStates } from "@/components/home/regions";
+import { pathBBox, projectIndia } from "@/lib/india-svg-geo";
 import "./state-guide.css";
 
 /**
@@ -283,14 +286,14 @@ function Photo({ img, sizes, aspect = "aspect-[4/3]", fallback = "mountain", chi
 
 function SectionHead({ id, eyebrow, title, intro, more }: { id: string; eyebrow: string; title: string; intro?: string; more?: { href: string; label: string } | null }) {
   return (
-    <div className="mb-6 flex flex-col gap-3 sm:flex-row sm:items-end sm:justify-between">
+    <div className="mb-8 flex flex-col gap-3 sm:flex-row sm:items-end sm:justify-between">
       <div className="min-w-0">
-        <p className="text-xs font-bold uppercase tracking-wider text-coral">{eyebrow}</p>
-        <h2 id={`${id}-h`} className="mt-1 font-serif text-2xl font-bold text-ink sm:text-3xl">{title}</h2>
-        {intro ? <p className="mt-1 max-w-2xl text-sm text-[#666]">{intro}</p> : null}
+        <p className="text-xs font-semibold uppercase tracking-[0.14em] text-coral">{eyebrow}</p>
+        <h2 id={`${id}-h`} className="mt-2 font-serif text-[clamp(1.75rem,3vw,2.4rem)] font-normal leading-tight tracking-[-0.015em] text-ink">{title}</h2>
+        {intro ? <p className="mt-2 max-w-2xl text-[0.9375rem] leading-relaxed text-[#666666]">{intro}</p> : null}
       </div>
       {more ? (
-        <Link href={more.href} className="inline-flex shrink-0 items-center gap-1 text-sm font-bold text-coral hover:underline">
+        <Link href={more.href} className="inline-flex shrink-0 items-center gap-1 text-sm font-semibold text-ink underline decoration-[#D9D4CC] underline-offset-4 hover:decoration-coral">
           {more.label} <Icon name="arrowRight" size={14} />
         </Link>
       ) : null}
@@ -333,6 +336,31 @@ function AboutList({ items }: { items: Item[] }) {
         </details>
       ) : null}
     </div>
+  );
+}
+
+/** The two facts that help decide on a place: when it is open, what it costs, or when to go. */
+const VISIT_KEYS: { label: string; re: RegExp }[] = [
+  { label: "Open", re: /^(opening )?hours|timings?$|^opening hours and/i },
+  { label: "Entry", re: /fee|ticket|price|^entry|entrance/i },
+  { label: "Best time", re: /best (time|season)|^season|^when$/i },
+];
+
+function VisitFacts({ items }: { items: Item[] }) {
+  const rows = VISIT_KEYS.map((k) => {
+    const it = items.find((x) => k.re.test(x.title ?? "") && x.status !== "unconfirmed" && !/not (yet )?confirmed|unconfirmed|no official|unknown/i.test(x.body));
+    return it ? { label: k.label, value: it.body } : null;
+  }).filter(Boolean).slice(0, 2) as { label: string; value: string }[];
+  if (!rows.length) return null;
+  return (
+    <dl className="mt-3 space-y-1 border-t border-[#F0ECE6] pt-3 text-[0.8125rem]">
+      {rows.map((r) => (
+        <div key={r.label} className="flex gap-3">
+          <dt className="w-[4.5rem] shrink-0 text-[#999999]">{r.label}</dt>
+          <dd className="line-clamp-1 min-w-0 text-ink" title={r.value}>{r.value}</dd>
+        </div>
+      ))}
+    </dl>
   );
 }
 
@@ -678,6 +706,23 @@ export function StateGuide({
   const nearbyStates = related.filter((r) => r.kind === "state");
 
   // Menu: only parts that are on the page.
+  // Line-drawn map for the regions block: this state's outline, neighbours in faint lines, every destination as a dot.
+  const regionGeo: RegionGeo | null = (() => {
+    if (!regions.length) return null;
+    const shape = INDIA_MAP_PATHS.find((p) => shapeStates(p.id, p.name).some((x) => x.slug === stateSlug));
+    if (!shape) return null;
+    const [x0, y0, x1, y1] = pathBBox(shape.path);
+    if (![x0, y0, x1, y1].every(Number.isFinite)) return null;
+    const pad = Math.max(x1 - x0, y1 - y0) * 0.1;
+    const view: [number, number, number, number] = [x0 - pad, y0 - pad, x1 - x0 + pad * 2, y1 - y0 + pad * 2];
+    const context = INDIA_MAP_PATHS.filter((p) => p !== shape).filter((p) => {
+      const [a, b, c, d] = pathBBox(p.path);
+      return c >= view[0] && a <= view[0] + view[2] && d >= view[1] && b <= view[1] + view[3];
+    }).map((p) => p.path);
+    const all = destinations.filter((d) => d.lat != null && d.lng != null).map((d) => ({ name: d.name, ...projectIndia(d.lat!, d.lng!) }));
+    return { view, state: shape.path, context, all };
+  })();
+
   const nav = [
     { id: "overview", label: "About", on: !!overview },
     { id: "destinations", label: "Destinations", on: destinations.length > 0 },
@@ -862,31 +907,37 @@ export function StateGuide({
               label="Filter destinations"
               allLabel="All destinations"
               initial={8}
-              gridClass="grid w-full grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-4"
+              gridClass="grid w-full grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-4"
               items={destinations.map((d) => {
                 const kf = d.facts?.key_facts?.items ?? [];
-                const alt = kf.find((f) => /altitude|elevation/i.test(f.title ?? ""));
-                const rest = kf.filter((f) => f !== alt).slice(0, 3);
+                const fact = kf.find((f) => /best time|season|when to go/i.test(f.title ?? "")) ?? kf.find((f) => /altitude|elevation/i.test(f.title ?? ""));
                 const where = near(d);
                 return {
                   key: d.slug,
                   groups: d.tripTypes.map(tripTypeLabel),
                   node: (
-                    <Link href={pageOf(d)!} className="group flex w-full flex-col overflow-hidden rounded-2xl border border-[#EAE7E0] bg-white shadow-xs transition-all hover:border-coral hover:shadow-card">
-                      <Photo img={d.hero} sizes="(min-width: 1024px) 25vw, (min-width: 640px) 50vw, 100vw">
-                        <span className="absolute left-2.5 top-2.5 rounded-md bg-white/95 px-2 py-0.5 text-[0.6875rem] font-bold text-ink shadow-xs">
-                          {kindLabel(d.kind)}{d.tripTypes[0] ? ` · ${tripTypeLabel(d.tripTypes[0])}` : ""}
-                        </span>
-                        {alt ? <span className="absolute right-2.5 top-2.5 rounded-md bg-black/60 px-1.5 py-0.5 text-[0.625rem] font-medium text-white">{alt.body}</span> : null}
-                      </Photo>
-                      <div className="flex flex-1 flex-col space-y-2 p-4">
-                        <h3 className="flex items-center justify-between gap-2 font-serif text-lg font-bold text-ink transition-colors group-hover:text-coral">
+                    <Link href={pageOf(d)!} className="group block w-full">
+                      <div className="relative aspect-[4/3] overflow-hidden rounded-2xl bg-[#ECE8E0]">
+                        {d.hero ? (
+                          <Image src={d.hero.url} alt={d.hero.alt} fill sizes="(min-width: 1024px) 25vw, (min-width: 640px) 50vw, 100vw" className="object-cover transition-transform duration-700 ease-out group-hover:scale-[1.04]" />
+                        ) : (
+                          <span className="flex size-full items-center justify-center text-[#B8B2A6]"><Icon name="mountain" size={30} /></span>
+                        )}
+                        <span className="absolute left-3 top-3 rounded-md bg-white/90 px-2 py-0.5 text-[0.6875rem] font-semibold text-ink backdrop-blur-sm">{kindLabel(d.kind)}</span>
+                      </div>
+                      <div className="mt-3.5 px-0.5">
+                        {where ? <p className="text-[0.6875rem] font-medium uppercase tracking-[0.12em] text-[#999999]">Near {where}</p> : null}
+                        <h3 className="mt-1 flex items-center justify-between gap-2 font-serif text-[1.3rem] leading-tight text-ink">
                           <span>{d.name}</span>
-                          <Icon name="arrowRight" size={14} className="shrink-0 text-[#AAA] transition-all group-hover:translate-x-1 group-hover:text-coral" />
+                          <Icon name="arrowRight" size={15} className="shrink-0 -translate-x-1 text-coral opacity-0 transition-all duration-300 group-hover:translate-x-0 group-hover:opacity-100" />
                         </h3>
-                        {where ? <p className="-mt-1 flex items-center gap-1 text-[0.6875rem] text-[#888]"><Icon name="pin" size={11} /> Near {where}</p> : null}
-                        {d.summary ? <p className="line-clamp-3 text-xs leading-relaxed text-[#555]">{d.summary}</p> : null}
-                        {rest.length ? <div className="mt-auto border-t border-[#F0EFEA] pt-2.5"><FactRows items={rest} size="xs" /></div> : null}
+                        {d.summary ? <p className="mt-1.5 line-clamp-2 text-sm leading-relaxed text-[#666666]">{d.summary}</p> : null}
+                        {fact ? (
+                          <p className="mt-2.5 flex items-start gap-1.5 text-xs text-[#777777]">
+                            <Icon name={factIcon(fact.title)} size={13} className="mt-px shrink-0 text-coral" />
+                            <span className="line-clamp-1"><span className="text-[#999999]">{fact.title}:</span> {fact.body}</span>
+                          </p>
+                        ) : null}
                       </div>
                     </Link>
                   ),
@@ -900,101 +951,64 @@ export function StateGuide({
         {regions.length ? (
           <section id="regions" aria-labelledby="regions-h" className="scroll-mt-36">
             <SectionHead id="regions" eyebrow="Plan by region" title={`Regions of ${name}`} intro={`${name} is not one destination. Pick the region that fits your trip — the towns we cover in each are linked.`} />
-            <ul className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
-              {regions.map((r, i) => {
-                const inRegion = regionTowns[i];
-                const regionImg = r.image ?? inRegion[0]?.hero ?? null;
-                return (
-                  <li
-                    key={i}
-                    className="group flex flex-col overflow-hidden rounded-xl border border-[#EAE7E0] bg-white shadow-2xs transition-all duration-200 hover:-translate-y-0.5 hover:border-coral/60 hover:shadow-md"
-                  >
-                    {regionImg ? (
-                      <Photo img={regionImg} sizes="(min-width: 1024px) 33vw, (min-width: 640px) 50vw, 100vw" aspect="aspect-[2/1]">
-                        <span className="absolute left-2.5 top-2.5 rounded-md bg-white/95 px-2 py-0.5 text-[0.6875rem] font-bold text-coral shadow-2xs backdrop-blur-xs">
-                          {String(i + 1).padStart(2, "0")}
-                        </span>
-                      </Photo>
-                    ) : (
-                      <div className="flex h-10 items-center px-4 pt-3">
-                        <span className="text-[0.6875rem] font-bold text-coral">Region {String(i + 1).padStart(2, "0")}</span>
-                      </div>
-                    )}
-                    <div className="flex flex-1 flex-col p-4">
-                      {r.title ? (
-                        <h3 className="mb-1 text-sm font-bold text-ink transition-colors group-hover:text-coral">
-                          {r.title}
-                        </h3>
-                      ) : null}
-                      <p className="text-xs leading-relaxed text-[#666]">
-                        {r.body}
-                      </p>
-                      {inRegion.length ? (
-                        <div className="mt-3 flex flex-1 flex-col justify-end border-t border-[#F0EFEA] pt-2.5">
-                          <div className="flex flex-wrap items-center gap-1.5">
-                            {inRegion.map((d) => (
-                              <Link
-                                key={d.slug}
-                                href={pageOf(d)!}
-                                className="rounded-md bg-[#EEF4F0] px-2 py-0.5 text-[0.6875rem] font-semibold text-[#2D5A3F] transition-colors hover:bg-[#2D5A3F] hover:text-white"
-                              >
-                                {d.name}
-                              </Link>
-                            ))}
-                          </div>
-                        </div>
-                      ) : null}
-                    </div>
-                  </li>
-                );
+            <RegionAccordion
+              geo={regionGeo}
+              regions={regions.map((r, i) => {
+                const img = r.image ?? regionTowns[i][0]?.hero ?? null;
+                return {
+                  title: r.title ?? `Region ${i + 1}`,
+                  body: r.body,
+                  image: img ? { url: img.url, alt: img.alt, ai: img.kind === "ai_generated" } : null,
+                  towns: regionTowns[i].map((d) => ({ name: d.name, href: pageOf(d)!, lat: d.lat, lng: d.lng, dot: regionGeo && d.lat != null && d.lng != null ? { name: d.name, ...projectIndia(d.lat, d.lng) } : null })),
+                };
               })}
-            </ul>
+            />
           </section>
         ) : null}
 
         {/* D. Places to visit */}
         {attractions.length ? (
           <section id="places" aria-labelledby="places-h" className="scroll-mt-36">
-            <SectionHead id="places" eyebrow="Monuments, nature & viewpoints" title={`Places to visit in ${name}`} intro="Each place shows the visiting details we could confirm — fees, hours, seasons and permits — and links to its own guide." />
+            <SectionHead id="places" eyebrow="Monuments, nature & viewpoints" title={`Places to visit in ${name}`} intro="Opening hours, entry and permits at a glance. Open a place for its full guide." />
             <FilterCards
               label="Filter places"
               allLabel="All places"
               initial={6}
-              gridClass="grid w-full grid-cols-1 gap-5 md:grid-cols-2 lg:grid-cols-3"
+              gridClass="grid w-full grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-3"
               items={attractions.map((a) => {
                 const vi = sure(a.facts?.visit_info?.items ?? a.facts?.key_facts?.items ?? []);
                 const permit = vi.find(isPermit);
-                const rows = vi.filter((x) => x !== permit).slice(0, 4);
                 const href = pageOf(a)!;
                 const where = near(a);
                 return {
                   key: a.slug,
                   groups: [kindLabel(a.kind)],
                   node: (
-                    <article className="group flex w-full flex-col overflow-hidden rounded-2xl border border-[#E5E2DC] bg-white shadow-xs transition-all hover:border-coral hover:shadow-card">
-                      <Link href={href} tabIndex={-1} aria-hidden>
-                        <Photo img={a.hero} aspect="aspect-[16/10]" sizes="(min-width: 1024px) 33vw, (min-width: 768px) 50vw, 100vw" fallback="compass">
-                          <span className="absolute left-2.5 top-2.5 rounded-md bg-white/95 px-2 py-0.5 text-[0.6875rem] font-bold text-ink shadow-xs">{kindLabel(a.kind)}</span>
-                        </Photo>
-                      </Link>
-                      <div className="flex flex-1 flex-col space-y-3 p-4">
-                        <div>
-                          <h3 className="font-serif text-base font-bold text-ink"><Link href={href} className="hover:text-coral">{a.name}</Link></h3>
-                          {where ? <p className="mt-0.5 flex items-center gap-1 text-xs text-[#777]"><Icon name="pin" size={11} /> {where}</p> : null}
-                        </div>
-                        {a.summary ? <p className="line-clamp-3 text-xs leading-relaxed text-[#555]">{a.summary}</p> : null}
-                        {rows.length ? <div className="rounded-lg border border-[#EFECE6] bg-[#FAF8F5] p-2.5"><FactRows items={rows} size="xs" /></div> : null}
+                    <Link href={href} className="group block w-full">
+                      <div className="relative aspect-[16/10] overflow-hidden rounded-2xl bg-[#ECE8E0]">
+                        {a.hero ? (
+                          <Image src={a.hero.url} alt={a.hero.alt} fill sizes="(min-width: 1024px) 33vw, (min-width: 640px) 50vw, 100vw" className="object-cover transition-transform duration-700 ease-out group-hover:scale-[1.04]" />
+                        ) : (
+                          <span className="flex size-full items-center justify-center text-[#B8B2A6]"><Icon name="compass" size={30} /></span>
+                        )}
+                        <span className="absolute left-3 top-3 rounded-md bg-white/90 px-2 py-0.5 text-[0.6875rem] font-semibold text-ink backdrop-blur-sm">{kindLabel(a.kind)}</span>
+                      </div>
+                      <div className="mt-3.5 px-0.5">
+                        {where ? <p className="text-[0.6875rem] font-medium uppercase tracking-[0.12em] text-[#999999]">{where}</p> : null}
+                        <h3 className="mt-1 flex items-center justify-between gap-2 font-serif text-[1.2rem] leading-tight text-ink">
+                          <span>{a.name}</span>
+                          <Icon name="arrowRight" size={15} className="shrink-0 -translate-x-1 text-coral opacity-0 transition-all duration-300 group-hover:translate-x-0 group-hover:opacity-100" />
+                        </h3>
+                        {a.summary ? <p className="mt-1.5 line-clamp-2 text-sm leading-relaxed text-[#666666]">{a.summary}</p> : null}
+                        <VisitFacts items={vi} />
                         {permit ? (
-                          <p className="flex gap-1.5 rounded-md border border-amber-200 bg-amber-50 p-2 text-[0.6875rem] font-medium text-amber-900">
+                          <p className="mt-2 flex items-start gap-1.5 text-xs text-[#9A5B14]">
                             <Icon name="shield" size={13} className="mt-px shrink-0" />
-                            <span><strong>{permit.title}:</strong> {permit.body}</span>
+                            <span className="line-clamp-1">Permit needed · {permit.body}</span>
                           </p>
                         ) : null}
                       </div>
-                      <Link href={href} className="border-t border-[#EAE7E0] bg-[#FAF8F5] p-3 text-center text-xs font-bold text-coral transition-colors hover:bg-coral hover:text-white">
-                        {href.includes("#") && where ? `Read more in the ${where} guide` : `Open ${a.name} guide`} →
-                      </Link>
-                    </article>
+                    </Link>
                   ),
                 };
               })}
@@ -1005,30 +1019,55 @@ export function StateGuide({
         {/* E. Things to do */}
         {activities.length ? (
           <section id="things" aria-labelledby="things-h" className="scroll-mt-36">
-            <SectionHead id="things" eyebrow="Adventure, culture & food" title={`Things to do in ${name}`} intro="Experiences, not sights: where each one happens, its season and what to check before you book." more={{ href: `/things-to-do?state=${stateSlug}`, label: "All things to do" }} />
+            <SectionHead id="things" eyebrow="Adventure, culture & food" title={`Things to do in ${name}`} intro="Activities, festivals, food and shopping — with when to go and any permit you need." more={{ href: `/things-to-do?state=${stateSlug}`, label: "All things to do" }} />
             <FilterCards
               label="Filter experiences"
-              allLabel="All experiences"
+              allLabel="All"
               initial={8}
-              gridClass="grid w-full grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-4"
+              gridClass="sg-rows grid w-full grid-cols-1 gap-x-10 border-t border-[#ECE8E2] lg:grid-cols-2"
               items={activities.map((a) => {
-                const vi = sure(a.facts?.visit_info?.items ?? []).slice(0, 3);
+                const vi = (a.facts?.visit_info?.items ?? []).filter((x) => x.status !== "unconfirmed" && !/not (yet )?confirmed|unconfirmed/i.test(x.body));
+                const whenIt = vi.find((x) => /^(season|when|closed|best time|dates?|open)\b/i.test(x.title ?? ""));
+                const when = whenIt ? `${/^closed/i.test(whenIt.title ?? "") ? "Closed " : ""}${whenIt.body.replace(/\.$/, "")}` : null;
+                const permit = vi.find(isPermit);
                 const cat = categoryLabel(a.category);
                 const where = near(a);
                 return {
                   key: a.slug,
                   groups: cat ? [cat] : [],
                   node: (
-                    <Link href={pageOf(a)!} className="group flex w-full flex-col overflow-hidden rounded-2xl border border-[#E5E2DC] bg-white shadow-xs transition-all hover:border-coral hover:shadow-card">
-                      <Photo img={a.hero} sizes="(min-width: 1024px) 25vw, (min-width: 640px) 50vw, 100vw" fallback="route">
-                        {cat ? <span className="absolute left-2.5 top-2.5 rounded-md bg-black/60 px-2 py-0.5 text-[0.6875rem] font-bold text-white">{cat}</span> : null}
-                      </Photo>
-                      <div className="flex flex-1 flex-col space-y-2 p-4">
-                        <h3 className="font-serif text-[0.9375rem] font-bold text-ink group-hover:text-coral">{a.name}</h3>
-                        {where ? <p className="-mt-1 flex items-center gap-1 text-[0.6875rem] text-[#888]"><Icon name="pin" size={11} /> {where}</p> : null}
-                        {a.summary ? <p className="line-clamp-3 text-xs leading-relaxed text-[#555]">{a.summary}</p> : null}
-                        {vi.length ? <div className="mt-auto border-t border-[#F0EFEA] pt-2"><FactRows items={vi} size="xs" /></div> : null}
-                      </div>
+                    <Link href={pageOf(a)!} className="group flex w-full items-start gap-4 border-b border-[#ECE8E2] py-4">
+                      <span className="relative size-20 shrink-0 overflow-hidden rounded-xl bg-[#ECE8E0] sm:size-24">
+                        {a.hero ? (
+                          <Image src={a.hero.url} alt={a.hero.alt} fill sizes="96px" className="object-cover transition-transform duration-500 ease-out group-hover:scale-[1.08]" />
+                        ) : (
+                          <span className="flex size-full items-center justify-center text-[#B8B2A6]"><Icon name="route" size={22} /></span>
+                        )}
+                      </span>
+                      <span className="min-w-0 flex-1">
+                        <span className="block text-[0.6875rem] font-medium uppercase tracking-[0.12em] text-[#999999]">
+                          {cat}{cat && where ? " · " : ""}{where}
+                        </span>
+                        <span className="mt-0.5 flex items-start justify-between gap-2">
+                          <span className="font-serif text-[1.1rem] leading-snug text-ink transition-colors group-hover:text-coral">{a.name}</span>
+                          <Icon name="arrowRight" size={14} className="mt-1.5 shrink-0 -translate-x-1 text-coral opacity-0 transition-all duration-300 group-hover:translate-x-0 group-hover:opacity-100" />
+                        </span>
+                        {a.summary ? <span className="mt-1 line-clamp-2 block text-sm leading-relaxed text-[#666666]">{a.summary}</span> : null}
+                        {when || permit ? (
+                          <span className="mt-2 flex flex-wrap gap-1.5">
+                            {when ? (
+                              <span className="inline-flex max-w-full items-center gap-1 rounded-full bg-[#F3EFEA] px-2.5 py-0.5 text-xs text-ink">
+                                <Icon name="calendar" size={11} className="shrink-0 text-coral" /> <span className="truncate">{when}</span>
+                              </span>
+                            ) : null}
+                            {permit ? (
+                              <span className="inline-flex items-center gap-1 rounded-full bg-[#FDF3E3] px-2.5 py-0.5 text-xs text-[#9A5B14]">
+                                <Icon name="shield" size={11} /> Permit needed
+                              </span>
+                            ) : null}
+                          </span>
+                        ) : null}
+                      </span>
                     </Link>
                   ),
                 };

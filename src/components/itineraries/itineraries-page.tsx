@@ -9,6 +9,7 @@ import type { PageHero } from "@/components/explore/explore-page";
 import type { CardImage } from "@/lib/places/public-lists";
 import { TRIP_TYPES } from "@/lib/places/trip-types";
 import { HubHeader } from "@/components/layout/hub-header";
+import { AiBanner } from "@/components/ai-planner/ai-banner";
 
 export type ItineraryCard = {
   slug: string;
@@ -217,15 +218,30 @@ export function ItinerariesPage({ itineraries }: { itineraries: ItineraryCard[];
         )}
 
         {/* Build your own */}
-        <section className="mt-14 flex flex-col items-start gap-5 rounded-3xl bg-[#1B4332] px-6 py-8 text-white sm:flex-row sm:items-center sm:justify-between sm:px-10">
-          <div>
-            <h2 className="font-serif text-2xl font-bold">No plan fits your dates?</h2>
-            <p className="mt-1.5 max-w-xl text-sm text-white/80">Tell the AI planner where, how many days and your budget. It builds a day-by-day plan from our reviewed guides.</p>
-          </div>
-          <button type="button" onClick={() => handleStartPlan("Create a custom day-by-day travel itinerary for my trip to India")} className="shrink-0 rounded-full bg-white px-5 py-2.5 text-sm font-semibold text-ink transition-colors hover:bg-coral hover:text-white">
-            Build my itinerary →
-          </button>
-        </section>
+        <AiBanner
+          className="mt-14"
+          title="No plan fits your dates?"
+          accent="dates"
+          text="Tell the AI planner where, how many days and your budget. It builds a day-by-day plan from our reviewed guides."
+          chipsLabel="Start with a trip length"
+          chips={[
+            { key: "3", label: "3 days", icon: "clock", prompt: "Create a 3-day itinerary in India for me" },
+            { key: "5", label: "5 days", icon: "clock", prompt: "Create a 5-day itinerary in India for me" },
+            { key: "7", label: "A week", icon: "calendar", prompt: "Create a 7-day itinerary in India for me" },
+            { key: "10", label: "10 days", icon: "calendar", prompt: "Create a 10-day itinerary in India for me" },
+          ]}
+          cta={{ label: "Build my itinerary", prompt: "Create a custom day-by-day travel itinerary for my trip to India" }}
+          question="I have 5 days. Can you plan my trip?"
+          answer="Here are plans from this page to start from:"
+          picks={filtered.filter((i) => i.image).slice(0, 3).map((i) => ({
+            href: `/itineraries/${i.slug}`,
+            name: i.title,
+            meta: `${i.durationDays} ${i.durationDays === 1 ? "day" : "days"} · ${i.placeName}`,
+            image: i.image,
+          }))}
+          replayKey={`${duration}|${tripType}|${destination}|${q}`}
+          onAsk={handleStartPlan}
+        />
 
         <ul className="mt-10 grid gap-4 text-[0.8125rem] text-[#5F5F5F] sm:grid-cols-3">
           <li className="flex items-start gap-2.5"><Icon name="map" size={17} className="mt-0.5 shrink-0 text-coral" /><span><b className="text-ink">Real places.</b> Every stop links to a reviewed guide.</span></li>

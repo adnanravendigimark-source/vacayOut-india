@@ -1,0 +1,47 @@
+/* "Not sure what to choose?" — plays once when scrolled into view; replays when the interest changes. */
+.aip { background: linear-gradient(135deg, #fff6f1 0%, #fffdfb 50%, #f3f6ff 100%); }
+.aip__blob { position: absolute; border-radius: 50%; filter: blur(60px); opacity: 0.55; pointer-events: none; }
+.aip__blob--a { width: 22rem; height: 22rem; left: -6rem; bottom: -10rem; background: radial-gradient(circle, #ffd5c2, transparent 68%); animation: aip-drift-a 16s ease-in-out infinite alternate; }
+.aip__blob--b { width: 20rem; height: 20rem; right: -5rem; top: -8rem; background: radial-gradient(circle, #d9e3ff, transparent 68%); animation: aip-drift-b 19s ease-in-out infinite alternate; }
+@keyframes aip-drift-a { to { transform: translate(6rem, -3rem) scale(1.1); } }
+@keyframes aip-drift-b { to { transform: translate(-5rem, 4rem) scale(1.12); } }
+
+.aip__live { position: relative; }
+.aip__live::after { content: ""; position: absolute; inset: -3px; border-radius: 50%; background: #ec6242; opacity: 0.4; animation: aip-ping 1.8s ease-out infinite; }
+@keyframes aip-ping { to { transform: scale(2.4); opacity: 0; } }
+
+/* Left column fades up when in view */
+.aip-up { opacity: 0; transform: translateY(12px); }
+[data-seen="true"] .aip-up { animation: aip-up 0.6s cubic-bezier(.16, 1, .3, 1) forwards; animation-delay: var(--d, 0ms); }
+@keyframes aip-up { to { opacity: 1; transform: none; } }
+
+.aip-chip { transition: transform 0.3s cubic-bezier(.16, 1, .3, 1), border-color 0.25s, color 0.25s, background 0.25s; }
+.aip-chip:hover { transform: translateY(-2px); }
+
+/* Main button: a light sweep crosses it every few seconds */
+.aip-go { position: relative; overflow: hidden; }
+.aip-go::after { content: ""; position: absolute; inset: 0; background: linear-gradient(110deg, transparent 30%, rgba(255, 255, 255, 0.45) 50%, transparent 70%); transform: translateX(-120%); animation: aip-sweep 3.6s ease-in-out 1.2s infinite; }
+@keyframes aip-sweep { 0% { transform: translateX(-120%); } 45%, 100% { transform: translateX(120%); } }
+.aip-go:hover .aip-go__arrow { transform: translateX(3px); }
+.aip-go__arrow { transition: transform 0.3s; }
+
+/* Chat preview: the question, a typing pause, then the answer and picks one by one */
+.aip-chat { transition: transform 0.6s cubic-bezier(.16, 1, .3, 1), box-shadow 0.6s; }
+.aip-chat:hover { transform: translateY(-3px) rotate(-0.4deg); box-shadow: 0 30px 60px -28px rgba(25, 25, 25, 0.4); }
+.aip-step { opacity: 0; transform: translateY(8px) scale(0.98); }
+[data-seen="true"] .aip-step { animation: aip-pop 0.45s cubic-bezier(.16, 1, .3, 1) forwards; animation-delay: var(--d, 0ms); }
+@keyframes aip-pop { to { opacity: 1; transform: none; } }
+.aip-typing { opacity: 0; }
+[data-seen="true"] .aip-typing { animation: aip-typing 1s ease both; animation-delay: 650ms; }
+@keyframes aip-typing { 0%, 100% { opacity: 0; } 15%, 85% { opacity: 1; } }
+.aip-typing i { display: inline-block; width: 5px; height: 5px; margin: 0 1.5px; border-radius: 50%; background: #c9c3b9; animation: aip-dot 0.9s ease-in-out infinite; }
+.aip-typing i:nth-child(2) { animation-delay: 0.15s; }
+.aip-typing i:nth-child(3) { animation-delay: 0.3s; }
+@keyframes aip-dot { 0%, 100% { transform: translateY(0); opacity: 0.5; } 50% { transform: translateY(-3px); opacity: 1; } }
+
+@media (prefers-reduced-motion: reduce) {
+  .aip__blob, .aip__live::after, .aip-go::after, .aip-typing i { animation: none; }
+  .aip-up, .aip-step, [data-seen="true"] .aip-up, [data-seen="true"] .aip-step { opacity: 1; transform: none; animation: none; }
+  .aip-typing, [data-seen="true"] .aip-typing { display: none; }
+  .aip-chat:hover { transform: none; }
+}

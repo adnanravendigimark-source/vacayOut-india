@@ -1,0 +1,1353 @@
+{
+ "cluster": "uttarakhand2-rishikesh",
+ "title": "Rishikesh",
+ "researchedAt": "2026-11-18",
+ "selection": "Batch 1. Rishikesh had 4 sections, one activity and no itineraries. Sources: Uttarakhand Tourism's Rishikesh page (government), Wikipedia, The Tribune (rafting season), the 2004 Supreme Court ruling reported by Hinduism Today (meat/egg ban), India TV and Devdiscourse/PTI (Lakshman Jhula closure; Bajrang Setu still under construction in April 2026). Not found in official sources: Beatles Ashram fees (blogs disagree: 150–300 INR Indian, 600–1200 foreign) — left unconfirmed; Bajrang Setu opening date — editors should check before each refresh. Uttarakhand Tourism still describes Lakshman Jhula as walkable; we follow the closure reports.",
+ "sources": {
+  "UT_RIS": {
+   "url": "https://uttarakhandtourism.gov.in/destination/rishikesh",
+   "title": "Rishikesh — Uttarakhand Tourism Development Board",
+   "authority": "government"
+  },
+  "W_RIS": {
+   "url": "https://en.wikipedia.org/wiki/Rishikesh",
+   "title": "Rishikesh — Wikipedia",
+   "authority": "reference"
+  },
+  "TRIB_RAFT": {
+   "url": "https://www.tribuneindia.com/news/uttarakhand/river-rafting-suspended-in-rishikesh-as-ganga-nears-warning-level",
+   "title": "River rafting suspended in Rishikesh as Ganga nears warning level — The Tribune",
+   "authority": "media"
+  },
+  "HT_EGGS": {
+   "url": "https://www.hinduismtoday.com/hpi/?p=4040",
+   "title": "Supreme Court upholds ban on sale of eggs in Rishikesh (2004) — Hinduism Today",
+   "authority": "media"
+  },
+  "DD_BAJ": {
+   "url": "https://www.devdiscourse.com/article/science-environment/3869946-vandalism-strikes-indias-first-glass-footbridge-at-laxman-jhula",
+   "title": "Vandalism strikes India's first glass footbridge at Laxman Jhula — Devdiscourse (PTI)",
+   "authority": "media"
+  },
+  "ITV_LJ": {
+   "url": "https://www.indiatvnews.com/news/india/rishikesh-prepares-for-bajrang-setu-new-glass-bridge-to-replace-iconic-lakshman-jhula-check-photos-2025-10-30-1015016",
+   "title": "Rishikesh prepares for Bajrang Setu — India TV",
+   "authority": "media"
+  }
+ },
+ "facts": {
+  "RK1": {
+   "place": "uttarakhand/rishikesh",
+   "topic": "Yoga capital",
+   "claim": "Rishikesh is known as the yoga capital of the world, with many ashrams teaching yoga, meditation and philosophy.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "UT_RIS",
+     "quote": "Rishikesh has numerous ashrams, some of which are internationally recognised as centres of philosophical studies, yoga and other ancient Indian traditions of wellness."
+    }
+   ]
+  },
+  "RK2": {
+   "place": "uttarakhand/rishikesh",
+   "topic": "International Yoga Festival",
+   "claim": "The International Yoga Festival is held every year in the first week of March.",
+   "claimType": "schedule",
+   "kind": "seasonal",
+   "evidence": [
+    {
+     "source": "W_RIS",
+     "quote": "on the first week of March since 1999, giving it the nickname of Yoga Capital of the World"
+    },
+    {
+     "source": "UT_RIS",
+     "quote": "The Uttarakhand Tourism Development Board organises the annual International Yog Festival (IYF) here"
+    }
+   ]
+  },
+  "RK3": {
+   "place": "uttarakhand/rishikesh",
+   "topic": "Vegetarian and alcohol-free",
+   "claim": "Rishikesh is a vegetarian-only, alcohol-free city.",
+   "claimType": "rule",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "W_RIS",
+     "quote": "Rishikesh is a vegetarian-only and alcohol-free city."
+    }
+   ]
+  },
+  "RK4": {
+   "place": "uttarakhand/rishikesh",
+   "topic": "Meat, fish and egg ban",
+   "claim": "Public dealing in meat, fish and eggs has been banned in Rishikesh since 1956 (extended to Muni ki Reti in 1976); the Supreme Court upheld the egg ban in 2004.",
+   "claimType": "rule",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "HT_EGGS",
+     "quote": "The public dealing in meat, fish and eggs was banned by notification as far back as July 23, 1956 and the same was extended to Muni ki Reti in 1976.",
+     "sourceDate": "March 11, 2004"
+    }
+   ]
+  },
+  "RK5": {
+   "place": "uttarakhand/rishikesh",
+   "topic": "Beatles in Rishikesh",
+   "claim": "The Beatles stayed at Maharishi Mahesh Yogi's ashram in February 1968 to learn transcendental meditation.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "UT_RIS",
+     "quote": "In February 1968, members of the legendary English rock band visited Maharishi Mahesh Yogi's ashram (now popularly known as the Beatles Ashram) to learn transcendental meditation."
+    }
+   ]
+  },
+  "RK6": {
+   "place": "uttarakhand/rishikesh",
+   "topic": "Airport",
+   "claim": "Jolly Grant airport is 21 km away, with daily flights from Delhi and taxis to Rishikesh.",
+   "claimType": "distance",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "UT_RIS",
+     "quote": "Jolly Grant Airport is the nearest Airport to Rishikesh situated at a distance of 21kms. Taxis are easily available from Jolly Grant Airport to Rishikesh. Jolly Grant Airport is well connected to Delhi with daily flights."
+    }
+   ]
+  },
+  "RK7": {
+   "place": "uttarakhand/rishikesh",
+   "topic": "Trains and local links",
+   "claim": "Trains to Rishikesh station are frequent; taxis and buses link it to Muni-ki-Reti and Swargashram.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "UT_RIS",
+     "quote": "Trains to Rishikesh Railway station are frequent. Taxis and buses are easily available from Rishikesh to Muni-ki-Reti and Swargashram."
+    }
+   ]
+  },
+  "RK8": {
+   "place": "uttarakhand/rishikesh",
+   "topic": "Buses",
+   "claim": "Normal and luxury buses run from Delhi's Kashmiri Gate ISBT and Meerut, and from Dehradun, Haridwar, Tehri and Uttarkashi.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "UT_RIS",
+     "quote": "Luxury and normal Buses to Rishikesh are easily available from Delhi ISBT Kashmiri Gate and Meerut."
+    }
+   ]
+  },
+  "RK9": {
+   "place": "uttarakhand/rishikesh",
+   "topic": "Road to Badrinath",
+   "claim": "Rishikesh is on National Highway 58, the road to Badrinath, and is the starting point for the Char Dham.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "UT_RIS",
+     "quote": "Rishikesh is situated on National Highway 58 which connects Badrinath."
+    },
+    {
+     "source": "W_RIS",
+     "quote": "Rishikesh is the starting point for travelling to the four Char Dham pilgrimage places"
+    }
+   ]
+  },
+  "RK10": {
+   "place": "uttarakhand/rishikesh",
+   "topic": "Rafting season",
+   "claim": "The best months for rafting are September to June; rafting is suspended in July–August during the monsoon.",
+   "claimType": "schedule",
+   "kind": "seasonal",
+   "evidence": [
+    {
+     "source": "UT_RIS",
+     "quote": "September to June are the best months to experience rafting."
+    },
+    {
+     "source": "TRIB_RAFT",
+     "quote": "Rafting in the Ganga goes on for nearly 10 months, except in July-August when it remains suspended due to monsoon."
+    }
+   ]
+  },
+  "RK11": {
+   "place": "uttarakhand/shivpuri",
+   "topic": "Shivpuri rafting",
+   "claim": "Shivpuri, 19 km from Rishikesh, is the start of the most common rafting stretch, about 11 km to Lakshman Jhula.",
+   "claimType": "distance",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "UT_RIS",
+     "quote": "Located at a distance of 19 km from Rishikesh, Shivpuri has emerged as a popular tourist destination due to the thrilling white water rafting experience it offers. The commonest rafting stretch (around 11 km) is from Shivpuri to Lakshman Jhula."
+    }
+   ]
+  },
+  "RK12": {
+   "place": "uttarakhand/bungee-jumping-rishikesh",
+   "topic": "Bungee at Mohanchatti",
+   "claim": "Mohanchatti offers bungee jumps of up to 83 m, plus flying fox, giant swings and paragliding.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "UT_RIS",
+     "quote": "Visit this place to jump from a height of 83 m (maximum) and for other adventures like flying fox, mountain swings and paragliding."
+    }
+   ]
+  },
+  "RK13": {
+   "place": "uttarakhand/rishikesh",
+   "topic": "Zipline",
+   "claim": "Rishikesh has a zipline that drops to about 7 m above the river at speeds up to 160 km/h.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "UT_RIS",
+     "quote": "you slide down the wire upto 7 m above the river level and then go up, accelerating to speeds upto 160 kmph."
+    }
+   ]
+  },
+  "RK14": {
+   "place": "uttarakhand/rishikesh",
+   "topic": "Treks",
+   "claim": "The Waterfall Trek is a popular, well-marked route; the Kunjapuri trek offers views of snow peaks.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "UT_RIS",
+     "quote": "The Waterfall Trek is one such route that is extremely popular and has well-marked paths and offers stunning natural views. The Kunjapuri trek is another trail that offers mesmeric views of snow-covered peaks."
+    }
+   ]
+  },
+  "RK15": {
+   "place": "uttarakhand/triveni-ghat",
+   "topic": "Triveni Ghat",
+   "claim": "Triveni is the town's best-known bathing ghat, with a lamp-lit evening aarti of drums and chanting.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "UT_RIS",
+     "quote": "Located at the heart of town, Triveni is the most well-known bathing ghat (stepped banks of a river), where most pilgrims take a holy dip before they visit the temples of Rishikesh. An amazing sight here is the evening aarti, a ceremony accompanied by lights, drums and chanting, with the entire ghat lit with flickering lamps."
+    }
+   ]
+  },
+  "RK16": {
+   "place": "uttarakhand/beatles-ashram",
+   "topic": "Beatles Ashram",
+   "claim": "The former Maharishi Mahesh Yogi ashram (Chaurasi Kutia) in Swargashram's forest has ruins with Beatles graffiti.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "UT_RIS",
+     "quote": "In the Swargashram area, nestled in a forest patch, is the former ashram of Guru Maharishi Mahesh Yogi, also known as Chaurasi Kutia and Beatles Ashram, where the legendary musicians had stayed and learnt transcendental meditation."
+    }
+   ]
+  },
+  "RK17": {
+   "place": "uttarakhand/rishikesh",
+   "topic": "Beatles songs",
+   "claim": "The band composed nearly 48 songs at the ashram, many on the White Album.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "UT_RIS",
+     "quote": "The band composed nearly 48 songs during their time at the Maharishi's ashram, many of which appear on the White Album (and a few from Abbey Road)."
+    }
+   ]
+  },
+  "RK18": {
+   "place": "uttarakhand/swargashram",
+   "topic": "Swargashram",
+   "claim": "Swargashram is a cluster of ashrams on the east bank of the Ganga, most offering yoga and spiritual courses.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "UT_RIS",
+     "quote": "A cluster of ashrams on the eastern bank of the Ganga is popularly known as Swargashram. Most of these ashrams offer courses on yoga and spiritual studies, and are well-known among tourists."
+    }
+   ]
+  },
+  "RK19": {
+   "place": "uttarakhand/parmarth-niketan",
+   "topic": "Parmarth Niketan",
+   "claim": "Parmarth Niketan, founded in 1942 on the Ganga, is one of the largest ashrams and hosts an annual yoga festival.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "UT_RIS",
+     "quote": "This is one of the largest ashrams in Rishikesh and one of the most popular too, specially for the annual yoga festival that it hosts. Established in 1942 by Swami Sukhdevanand Ji Maharaj, the ashram is located at the bank of River Ganga and is a serene site for yoga and meditation."
+    }
+   ]
+  },
+  "RK20": {
+   "place": "uttarakhand/bharat-mandir",
+   "topic": "Bharat Mandir",
+   "claim": "Bharat Mandir near Triveni Ghat, among the oldest shrines, is dedicated to Vishnu with an idol carved from a single black saligram stone.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "UT_RIS",
+     "quote": "Near the Triveni Ghat, stands one of the oldest shrines in Rishikesh, Bharat Mandir, said to have been built by sage Adi Shankaracharya. This ancient temple is dedicated to Lord Vishnu, whose idol is carved out of a single black stone, popularly known as Saligram."
+    }
+   ]
+  },
+  "RK21": {
+   "place": "uttarakhand/narendranagar",
+   "topic": "Narendranagar",
+   "claim": "Narendranagar, the former capital of Tehri state, is 20 km from Rishikesh at 1,326 m, with views of the Ganga and Doon valley.",
+   "claimType": "distance",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "UT_RIS",
+     "quote": "This small but picturesque hamlet is situated in the Tehri Garhwal district (it was the capital of the erstwhile Tehri state) and is just 20 km from Rishikesh. Perched at a height of 1,326 m, its salubrious climate attracts tourists throughout the year."
+    }
+   ]
+  },
+  "RK22": {
+   "place": "uttarakhand/rishikesh",
+   "topic": "Byasi",
+   "claim": "Byasi, 30 km up the Ganga, is a rafting and water-sports hub.",
+   "claimType": "distance",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "UT_RIS",
+     "quote": "This small village located at the banks of River Ganga is a rafting and water sports adventure hub, just 30 km from Rishikesh."
+    }
+   ]
+  },
+  "RK23": {
+   "place": "uttarakhand/gita-bhawan",
+   "topic": "Gita Bhawan",
+   "claim": "Gita Bhawan near Lakshman Jhula runs a free Ayurvedic dispensary and a Gita Press branch, with epics painted on its walls.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "UT_RIS",
+     "quote": "Near the Lakshman Jhula, is the newly constructed building of Gita Bhawan. It runs a free Ayurvedic dispensary and also has a branch of the Gita Press."
+    }
+   ]
+  },
+  "RK24": {
+   "place": "uttarakhand/lakshman-jhula",
+   "topic": "Lakshman Jhula closed",
+   "claim": "The old Lakshman Jhula suspension bridge was closed to traffic after it became unsafe.",
+   "claimType": "rule",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "ITV_LJ",
+     "quote": "The old bridge, built in 1929, reportedly grew weak over time and was closed to traffic due to safety concerns."
+    }
+   ]
+  },
+  "RK25": {
+   "place": "uttarakhand/lakshman-jhula",
+   "topic": "Bajrang Setu",
+   "claim": "The Bajrang Setu glass footbridge replacing it was still under construction in April 2026.",
+   "claimType": "general",
+   "kind": "seasonal",
+   "evidence": [
+    {
+     "source": "DD_BAJ",
+     "quote": "The bridge, under construction since 2022, experienced its second incident this year.",
+     "sourceDate": "11-04-2026"
+    }
+   ]
+  },
+  "RK26": {
+   "place": "uttarakhand/rishikesh",
+   "topic": "Ram Jhula",
+   "claim": "Ram Jhula suspension bridge was built in 1986 at Sivananda Nagar.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "W_RIS",
+     "quote": "A noted suspension bridge named Ram Jhula was built in 1986 at the nearby Sivananda Nagar."
+    }
+   ]
+  },
+  "RK27": {
+   "place": "uttarakhand/rishikesh",
+   "topic": "Neelkanth Mahadev",
+   "claim": "Neelkanth Mahadev Temple is in the forest 28 km from Rishikesh.",
+   "claimType": "distance",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "W_RIS",
+     "quote": "Neelkanth Mahadev Temple is located in the forest, 28 km (17 mi) from Rishikesh"
+    }
+   ]
+  },
+  "RK28": {
+   "place": "uttarakhand/rishikesh",
+   "topic": "Rafting operators",
+   "claim": "Many certified operators run all grades of rafting, and kayaking is also offered.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "UT_RIS",
+     "quote": "Rafting is an extremely popular adventure sports in Rishikesh and one can find many certified and authorised operators and instructors here for every grade of rafting."
+    }
+   ]
+  },
+  "RK29": {
+   "place": "uttarakhand/rishikesh",
+   "topic": "Weather",
+   "claim": "Rishikesh has pleasant weather through the year.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "UT_RIS",
+     "quote": "Holy town with pleasant weather throughout the year"
+    }
+   ]
+  },
+  "RK30": {
+   "place": "uttarakhand/rishikesh",
+   "topic": "Rock climbing",
+   "claim": "Private operators offer rock climbing on the crags in the foothills.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "UT_RIS",
+     "quote": "There are several private vendors who offer rock climbing experience."
+    }
+   ]
+  }
+ },
+ "places": [
+  {
+   "key": "uttarakhand/rishikesh",
+   "kind": "town",
+   "name": "Rishikesh",
+   "parent": "uttarakhand",
+   "summary": "Yoga capital on the Ganga at the foot of the Himalaya: ashrams, the Triveni Ghat aarti, the Beatles Ashram and white-water rafting from Shivpuri.",
+   "seoTitle": "Rishikesh Travel Guide: Yoga, Rafting & Ganga Aarti",
+   "seoDescription": "Plan a Rishikesh trip: ashrams and yoga, the Triveni Ghat aarti, Beatles Ashram, rafting from Shivpuri (Sept–June), where to stay and how to get there.",
+   "lat": 30.0869,
+   "lng": 78.2676,
+   "tripTypes": [
+    "spiritual",
+    "adventure",
+    "weekend"
+   ],
+   "images": [
+    {
+     "commons": "File:Ganga River , Rishikesh, March 2019.jpg",
+     "alt": "Ganga flowing past the temples and ghats of Rishikesh",
+     "hero": true
+    }
+   ],
+   "relations": [
+    {
+     "to": "uttarakhand/haridwar",
+     "type": "nearby"
+    },
+    {
+     "to": "uttarakhand/dehradun",
+     "type": "nearby"
+    },
+    {
+     "to": "uttarakhand/shivpuri",
+     "type": "day_trip"
+    },
+    {
+     "to": "uttarakhand/narendranagar",
+     "type": "day_trip"
+    }
+   ],
+   "sections": {
+    "overview": {
+     "text": "Rishikesh sits where the Ganga leaves the Himalaya, with the river flowing through the town and the hills rising behind it. It is one of north India's great pilgrimage and tourist centres, and it is widely called the yoga capital of the world. Ashrams line both banks, many teaching yoga, meditation and philosophy, and Uttarakhand Tourism holds the International Yoga Festival here every March.\n\nThe town also has a famous musical past. In February 1968 the Beatles came to Maharishi Mahesh Yogi's ashram to learn transcendental meditation, and they wrote many White Album songs there. Today that ashram's forest ruins are one of the most-visited sights.\n\nRishikesh is also an adventure hub: white-water rafting from Shivpuri, bungee jumping, ziplines and treks. It is the gateway to the Garhwal Himalaya and the start of the Char Dham route. The city is vegetarian-only and alcohol-free.",
+     "facts": [
+      "RK1",
+      "RK2",
+      "RK5",
+      "RK17",
+      "RK11",
+      "RK12",
+      "RK13",
+      "RK9",
+      "RK3"
+     ]
+    },
+    "best_time": {
+     "text": "Rishikesh is pleasant to visit for most of the year. For rafting, come between September and June: the river is closed to rafting in July and August, when the monsoon swells the Ganga.\n\nThe first week of March brings the International Yoga Festival, run by Uttarakhand Tourism with Parmarth Niketan. Ashrams and yoga schools fill up then. The monsoon months are green and quiet, but expect rain, no rafting and possible landslides on the hill roads beyond town.",
+     "facts": [
+      "RK29",
+      "RK10",
+      "RK2",
+      "RK19"
+     ]
+    },
+    "local_transport": {
+     "text": "Rishikesh is spread along both banks of the Ganga. Taxis and shared buses link the railway station and town with Muni-ki-Reti and Swargashram. Across the river, the ashram area around Ram Jhula is mostly explored on foot.\n\nThe old Lakshman Jhula bridge is closed for safety. Its glass replacement, Bajrang Setu, was still under construction in April 2026, so cross at Ram Jhula and check locally whether Bajrang Setu has opened. For Shivpuri, Neelkanth, Narendranagar or Byasi, hire a taxi or join a rafting operator's transfer.",
+     "facts": [
+      "RK7",
+      "RK26",
+      "RK24",
+      "RK25",
+      "RK11",
+      "RK27",
+      "RK21",
+      "RK22"
+     ]
+    },
+    "neighbourhoods": {
+     "items": [
+      {
+       "title": "Rishikesh town and Triveni Ghat",
+       "body": "The pilgrim centre, with the bathing ghat, the evening aarti and Bharat Mandir. Closest to the railway and bus stations.",
+       "status": "verified"
+      },
+      {
+       "title": "Swargashram (east bank)",
+       "body": "A cluster of ashrams offering yoga courses, including Parmarth Niketan, with the Beatles Ashram in the forest nearby. Car-light and walkable.",
+       "status": "verified"
+      },
+      {
+       "title": "Muni-ki-Reti",
+       "body": "The west bank by Ram Jhula, linked to town by taxis and buses, with ashrams and guesthouses.",
+       "status": "verified"
+      },
+      {
+       "title": "Lakshman Jhula area",
+       "body": "Upstream, around the closed old bridge and the new Bajrang Setu, with Gita Bhawan and shops. Rafting from Shivpuri ends here.",
+       "status": "verified"
+      },
+      {
+       "title": "Shivpuri and beyond",
+       "body": "19–30 km upstream: riverside camps and rafting starts at Shivpuri and Byasi.",
+       "status": "verified"
+      }
+     ],
+     "facts": [
+      "RK15",
+      "RK20",
+      "RK18",
+      "RK19",
+      "RK16",
+      "RK7",
+      "RK26",
+      "RK24",
+      "RK25",
+      "RK23",
+      "RK11",
+      "RK22"
+     ]
+    },
+    "where_to_stay": {
+     "text": "Stay in Swargashram or Muni-ki-Reti if you're here for yoga. Many ashrams in Swargashram take residents for courses, and the area is quiet and walkable.\n\nRishikesh town near Triveni Ghat is most convenient for the railway and buses, and for the evening aarti. For rafting, riverside camps upstream around Shivpuri and Byasi put you on the water first thing. Remember that the whole town is vegetarian and alcohol-free, and that includes hotels.",
+     "facts": [
+      "RK18",
+      "RK1",
+      "RK7",
+      "RK15",
+      "RK11",
+      "RK22",
+      "RK3"
+     ]
+    },
+    "who_its_for": {
+     "items": [
+      {
+       "title": "Yoga and meditation seekers",
+       "body": "Ashram courses all year, and the International Yoga Festival in early March."
+      },
+      {
+       "title": "Adventure lovers",
+       "body": "Rafting from Shivpuri (September–June), bungee and swings at Mohanchatti, ziplining and rock climbing."
+      },
+      {
+       "title": "Pilgrims",
+       "body": "The Triveni Ghat aarti, Bharat Mandir and Neelkanth Mahadev. Rishikesh is also the start of the Char Dham route."
+      },
+      {
+       "title": "Music fans",
+       "body": "The Beatles Ashram, where the band wrote much of the White Album in 1968."
+      }
+     ],
+     "facts": [
+      "RK1",
+      "RK2",
+      "RK10",
+      "RK11",
+      "RK12",
+      "RK13",
+      "RK30",
+      "RK15",
+      "RK20",
+      "RK27",
+      "RK9",
+      "RK16",
+      "RK17"
+     ]
+    },
+    "culture_etiquette": {
+     "items": [
+      {
+       "body": "Rishikesh is a vegetarian-only, alcohol-free city. Don't bring meat or drink into town or your hotel.",
+       "status": "verified"
+      },
+      {
+       "body": "The sale of meat, fish and eggs has been banned here since 1956. The ban extends to Muni-ki-Reti, and the Supreme Court upheld the egg ban in 2004.",
+       "status": "verified"
+      },
+      {
+       "body": "Dress modestly and remove shoes at temples and ghats. Join the aarti quietly.",
+       "status": "verified"
+      },
+      {
+       "body": "Ashrams have their own rules on timings, silence and dress. Read them when you check in.",
+       "status": "verified"
+      }
+     ],
+     "facts": [
+      "RK3",
+      "RK4",
+      "RK15"
+     ]
+    },
+    "practical_info": {
+     "items": [
+      {
+       "title": "Getting in",
+       "body": "Jolly Grant airport (21 km), with daily Delhi flights. Frequent trains to Rishikesh. Buses from Delhi ISBT Kashmiri Gate.",
+       "status": "verified"
+      },
+      {
+       "title": "Rafting",
+       "body": "Use certified operators. The season runs September to June, with no rafting in July and August.",
+       "status": "seasonal"
+      },
+      {
+       "title": "Food",
+       "body": "Vegetarian only. No alcohol is served anywhere in the city.",
+       "status": "verified"
+      },
+      {
+       "title": "Crossing the river",
+       "body": "Use Ram Jhula. The old Lakshman Jhula is closed, and you should check locally whether Bajrang Setu has opened.",
+       "status": "seasonal"
+      }
+     ],
+     "facts": [
+      "RK6",
+      "RK7",
+      "RK8",
+      "RK28",
+      "RK10",
+      "RK3",
+      "RK26",
+      "RK24",
+      "RK25"
+     ]
+    },
+    "travel_tips": {
+     "items": [
+      {
+       "body": "Arrive at Triveni Ghat early for the evening aarti and find a spot on the steps."
+      },
+      {
+       "body": "Book rafting with a certified operator and choose the grade that suits you. Shivpuri to Lakshman Jhula (about 11 km) is the classic run."
+      },
+      {
+       "body": "Plan a March visit around the International Yoga Festival, or avoid that week if you want quiet ashrams."
+      },
+      {
+       "body": "Leave half a day for Neelkanth Mahadev, 28 km away through the forest."
+      }
+     ],
+     "facts": [
+      "RK15",
+      "RK28",
+      "RK11",
+      "RK2",
+      "RK27"
+     ]
+    },
+    "common_mistakes": {
+     "items": [
+      {
+       "body": "Planning to raft in July or August, when rafting on the Ganga is suspended."
+      },
+      {
+       "body": "Expecting to walk across Lakshman Jhula: the old bridge is closed. Use Ram Jhula."
+      },
+      {
+       "body": "Packing a bottle or a meat picnic. Rishikesh is vegetarian-only and alcohol-free."
+      },
+      {
+       "body": "Treating the Beatles Ashram as a quick stop. It's a walk into the forest; give it two hours."
+      }
+     ],
+     "facts": [
+      "RK10",
+      "RK24",
+      "RK26",
+      "RK3",
+      "RK16"
+     ]
+    },
+    "faqs": {
+     "items": [
+      {
+       "title": "Is rafting open all year in Rishikesh?",
+       "body": "No. The season is September to June, and rafting is suspended in July and August for the monsoon."
+      },
+      {
+       "title": "Is Lakshman Jhula open?",
+       "body": "The old Lakshman Jhula is closed for safety. Its replacement, the Bajrang Setu glass bridge, was still under construction in April 2026. Use Ram Jhula and check locally."
+      },
+      {
+       "title": "Can I get alcohol or meat in Rishikesh?",
+       "body": "No. Rishikesh is a vegetarian-only, alcohol-free city, and the sale of meat, fish and eggs is banned."
+      },
+      {
+       "title": "How do I get to Rishikesh from Delhi?",
+       "body": "Fly to Jolly Grant (21 km away), take a train to Rishikesh station, or take a bus from Delhi's ISBT Kashmiri Gate."
+      },
+      {
+       "title": "When is the International Yoga Festival?",
+       "body": "In the first week of March each year."
+      }
+     ],
+     "facts": [
+      "RK10",
+      "RK24",
+      "RK25",
+      "RK26",
+      "RK3",
+      "RK4",
+      "RK6",
+      "RK7",
+      "RK8",
+      "RK2"
+     ]
+    }
+   }
+  },
+  {
+   "key": "uttarakhand/triveni-ghat",
+   "kind": "attraction",
+   "name": "Triveni Ghat",
+   "parent": "uttarakhand/rishikesh",
+   "summary": "Rishikesh's main bathing ghat on the Ganga, known for its lamp-lit evening aarti.",
+   "seoTitle": "Triveni Ghat Rishikesh: Evening Ganga Aarti",
+   "seoDescription": "Triveni Ghat is Rishikesh's best-known bathing ghat, with a lamp-lit evening Ganga aarti. What to expect and nearby Bharat Mandir.",
+   "lat": 30.1037,
+   "lng": 78.2985,
+   "tripTypes": [
+    "spiritual"
+   ],
+   "images": [
+    {
+     "commons": "File:Triveni Ghat Rishikesh 02.jpg",
+     "alt": "Statue of Krishna's chariot beside the Ganga at Triveni Ghat, Rishikesh",
+     "hero": true
+    }
+   ],
+   "sections": {
+    "overview": {
+     "text": "Triveni Ghat, in the heart of Rishikesh town, is the most famous of its bathing ghats: stone steps leading down into the Ganga. Most pilgrims take a holy dip here before visiting the town's temples.\n\nThe highlight is the evening aarti. Lamps are lit across the ghat to the sound of drums and chanting, and the whole riverside flickers with light. One of Rishikesh's oldest shrines, Bharat Mandir, stands nearby, so the two make an easy late-afternoon pairing. Come early to find a place on the steps, dress modestly and leave your shoes at a stall.",
+     "facts": [
+      "RK15",
+      "RK20"
+     ]
+    },
+    "travel_tips": {
+     "items": [
+      {
+       "body": "Arrive before dusk to find space on the steps for the aarti."
+      },
+      {
+       "body": "Leave shoes at a stall and dress modestly."
+      },
+      {
+       "body": "Visit Bharat Mandir nearby beforehand."
+      }
+     ],
+     "facts": [
+      "RK15",
+      "RK20"
+     ]
+    }
+   }
+  },
+  {
+   "key": "uttarakhand/beatles-ashram",
+   "kind": "attraction",
+   "name": "Beatles Ashram (Chaurasi Kutia)",
+   "parent": "uttarakhand/rishikesh",
+   "summary": "The forest ruins of Maharishi Mahesh Yogi's ashram, where the Beatles stayed in 1968, now covered in murals.",
+   "seoTitle": "Beatles Ashram Rishikesh: History & Visiting Tips",
+   "seoDescription": "Visit the Beatles Ashram (Chaurasi Kutia) in Rishikesh, where the band stayed in 1968 and wrote much of the White Album, with meditation huts and murals.",
+   "lat": 30.117,
+   "lng": 78.315,
+   "tripTypes": [
+    "heritage"
+   ],
+   "images": [
+    {
+     "commons": "File:Meditation chambers at the old Maharishi Mahesh Yogi Ashram, now in ruins, Muni Ki Reti DSCN9893.jpg",
+     "alt": "Domed stone meditation huts at the Beatles Ashram in the forest near Rishikesh",
+     "hero": true
+    }
+   ],
+   "sections": {
+    "overview": {
+     "text": "In February 1968 the Beatles came to Maharishi Mahesh Yogi's ashram in Rishikesh to learn transcendental meditation. They composed nearly 48 songs here, many of which appear on the White Album. The ashram, also called Chaurasi Kutia, lies in a forest patch in the Swargashram area.\n\nToday you can wander the ruins: domed stone meditation huts, halls and walls covered in striking murals of the band members. It's peaceful and shaded, a good contrast to the busy ghats.",
+     "facts": [
+      "RK5",
+      "RK17",
+      "RK16"
+     ]
+    },
+    "visit_info": {
+     "items": [
+      {
+       "title": "Location",
+       "body": "In the forest of the Swargashram area, on the east bank of the Ganga.",
+       "status": "verified"
+      },
+      {
+       "title": "Entry fee and hours",
+       "body": "Charged by the forest department. Published figures vary between sources, so check at the gate.",
+       "status": "unconfirmed"
+      },
+      {
+       "title": "Time needed",
+       "body": "Allow about two hours to walk the grounds.",
+       "status": "estimate"
+      }
+     ],
+     "facts": [
+      "RK16"
+     ]
+    }
+   }
+  },
+  {
+   "key": "uttarakhand/swargashram",
+   "kind": "attraction",
+   "name": "Swargashram",
+   "parent": "uttarakhand/rishikesh",
+   "summary": "A cluster of ashrams on the Ganga's east bank, the centre of Rishikesh's yoga courses.",
+   "seoTitle": "Swargashram Rishikesh: Ashrams & Yoga Courses",
+   "seoDescription": "Swargashram is the cluster of ashrams on Rishikesh's east bank, home to yoga and spiritual courses, Parmarth Niketan and the Beatles Ashram nearby.",
+   "lat": 30.1215,
+   "lng": 78.3135,
+   "tripTypes": [
+    "spiritual"
+   ],
+   "images": [
+    {
+     "commons": "File:Temples across the Ganges near Swargashram, Muni Ki Reti, Rishikesh.jpg",
+     "alt": "Temples and ashrams on the Ganga bank at Swargashram, Rishikesh",
+     "hero": true
+    }
+   ],
+   "sections": {
+    "overview": {
+     "text": "Swargashram is the name for the cluster of ashrams on the eastern bank of the Ganga. Most of them offer courses in yoga and spiritual studies and are well known among visitors. Parmarth Niketan, one of the largest ashrams, is here, and the Beatles Ashram lies in the forest just beyond.\n\nIt is linked to the west bank by Ram Jhula. Taxis and buses run between Rishikesh town and Swargashram, but the area itself is best explored on foot, along the riverside paths between ashrams, temples and cafés. Many visitors base themselves here for a week or more of classes, joining morning yoga and evening satsangs.",
+     "facts": [
+      "RK18",
+      "RK19",
+      "RK16",
+      "RK26",
+      "RK7"
+     ]
+    },
+    "who_its_for": {
+     "items": [
+      {
+       "title": "Yoga students",
+       "body": "Ashram courses in yoga and spiritual studies."
+      },
+      {
+       "title": "Walkers",
+       "body": "A riverside area that is best explored on foot."
+      }
+     ],
+     "facts": [
+      "RK18"
+     ]
+    }
+   }
+  },
+  {
+   "key": "uttarakhand/parmarth-niketan",
+   "kind": "attraction",
+   "name": "Parmarth Niketan",
+   "parent": "uttarakhand/rishikesh",
+   "summary": "One of Rishikesh's largest ashrams, on the Ganga since 1942, host of an annual yoga festival.",
+   "seoTitle": "Parmarth Niketan Rishikesh: Ashram & Yoga Festival",
+   "seoDescription": "Parmarth Niketan, founded in 1942 on the Ganga in Swargashram, is one of Rishikesh's largest ashrams and hosts the annual International Yoga Festival.",
+   "lat": 30.1191,
+   "lng": 78.3133,
+   "tripTypes": [
+    "spiritual"
+   ],
+   "images": [
+    {
+     "commons": "File:Parmarth Niketan, Rishikesh 5.jpg",
+     "alt": "Entrance gate and riverside walkway of Parmarth Niketan ashram, Rishikesh",
+     "hero": true
+    }
+   ],
+   "sections": {
+    "overview": {
+     "text": "Parmarth Niketan was established in 1942 by Swami Sukhdevanand Ji Maharaj on the bank of the Ganga in Swargashram. It is one of the largest and most popular ashrams in Rishikesh, a calm setting for yoga and meditation.\n\nIt is best known for the annual yoga festival it hosts. The International Yoga Festival takes place each year in the first week of March and draws yoga students from around the world, so book well ahead if you want to stay then. At other times the riverside grounds are a peaceful place for a morning class.",
+     "facts": [
+      "RK19",
+      "RK2"
+     ]
+    },
+    "travel_tips": {
+     "items": [
+      {
+       "body": "Book early for the first week of March, during the International Yoga Festival."
+      },
+      {
+       "body": "Combine with a walk to the Beatles Ashram, in the forest nearby."
+      }
+     ],
+     "facts": [
+      "RK2",
+      "RK16"
+     ]
+    }
+   }
+  },
+  {
+   "key": "uttarakhand/bharat-mandir",
+   "kind": "temple",
+   "name": "Bharat Mandir",
+   "parent": "uttarakhand/rishikesh",
+   "summary": "One of Rishikesh's oldest shrines, near Triveni Ghat, dedicated to Vishnu.",
+   "seoTitle": "Bharat Mandir Rishikesh: Ancient Vishnu Temple",
+   "seoDescription": "Bharat Mandir near Triveni Ghat is one of Rishikesh's oldest shrines, said to have been founded by Adi Shankaracharya, with a saligram idol of Vishnu.",
+   "lat": 30.1046,
+   "lng": 78.2972,
+   "tripTypes": [
+    "spiritual",
+    "heritage"
+   ],
+   "images": [
+    {
+     "commons": "File:Shri Bharat Mandir and Museum - Rishikesh Narayan Sri Bharat Bhagwan - during LGFC - VOF 2019 (42).jpg",
+     "alt": "White shikhara and carved panels of Bharat Mandir, Rishikesh",
+     "hero": true
+    }
+   ],
+   "sections": {
+    "overview": {
+     "text": "Bharat Mandir stands near Triveni Ghat and is one of the oldest shrines in Rishikesh. Tradition says the sage Adi Shankaracharya built it. The temple is dedicated to Lord Vishnu, whose idol is carved from a single black stone known as a saligram.\n\nThe temple is especially lively at Basant Panchami, the spring festival. It is a short walk from the ghat, so visit it before the evening aarti. The temple is in the busy old part of town, close to the bus stand and the main bazaar, and easy to combine with a walk along the river and an evening at Triveni Ghat.",
+     "facts": [
+      "RK20",
+      "RK15"
+     ]
+    },
+    "how_to_reach": {
+     "text": "In Rishikesh town, a short walk from Triveni Ghat. Taxis and buses reach the town centre from the railway station.",
+     "facts": [
+      "RK20",
+      "RK7"
+     ]
+    }
+   }
+  },
+  {
+   "key": "uttarakhand/shivpuri",
+   "kind": "town",
+   "name": "Shivpuri",
+   "parent": "uttarakhand/rishikesh",
+   "summary": "Riverside village 19 km upstream, the start of Rishikesh's classic 11 km rafting run.",
+   "seoTitle": "Shivpuri, Rishikesh: Rafting Base & River Camps",
+   "seoDescription": "Shivpuri, 19 km upstream of Rishikesh, is the start of the classic 11 km rafting run to Lakshman Jhula. Season, getting there and nearby Byasi.",
+   "lat": 30.1408,
+   "lng": 78.3878,
+   "tripTypes": [
+    "adventure"
+   ],
+   "images": [
+    {
+     "commons": "File:River ganga at Shivpuri.jpg",
+     "alt": "The Ganga flowing between forested hills at Shivpuri near Rishikesh",
+     "hero": true
+    }
+   ],
+   "sections": {
+    "overview": {
+     "text": "Shivpuri lies 19 km upstream of Rishikesh and is the main base for white-water rafting on the Ganga. The most common stretch, about 11 km, runs from Shivpuri down to Lakshman Jhula. Certified operators run trips for every grade.\n\nThe rafting season is September to June; rafting is suspended in July and August for the monsoon. Further upstream, Byasi (30 km from Rishikesh) is another rafting and water-sports hub on a scenic road. Riverside camps line this stretch of the Ganga, and many rafters spend a night here to be on the water early. Always raft with a certified operator and wear the life jacket and helmet you are given.",
+     "facts": [
+      "RK11",
+      "RK28",
+      "RK10",
+      "RK22"
+     ]
+    },
+    "how_to_reach": {
+     "text": "Shivpuri is 19 km from Rishikesh by road. Most rafting operators include transfers, or hire a taxi.",
+     "facts": [
+      "RK11"
+     ]
+    }
+   }
+  },
+  {
+   "key": "uttarakhand/narendranagar",
+   "kind": "town",
+   "name": "Narendranagar",
+   "parent": "uttarakhand/rishikesh",
+   "summary": "Former capital of Tehri state, 20 km from Rishikesh at 1,326 m, with valley views and quiet.",
+   "seoTitle": "Narendranagar near Rishikesh: Views & Old Tehri Capital",
+   "seoDescription": "Narendranagar, the old capital of Tehri state, sits at 1,326 m just 20 km from Rishikesh, with views over the Ganga and the Doon valley.",
+   "lat": 30.164,
+   "lng": 78.287,
+   "tripTypes": [
+    "mountains"
+   ],
+   "images": [
+    {
+     "commons": "File:Infront of the Royal Palace of Narendra Nagar WTK20150913-IMG 2659.jpg",
+     "alt": "Lawns and gateway of the royal palace estate at Narendranagar",
+     "hero": true
+    }
+   ],
+   "sections": {
+    "overview": {
+     "text": "Narendranagar is a small, picturesque town in Tehri Garhwal district. It was once the capital of the princely state of Tehri. At 1,326 m and just 20 km above Rishikesh, it has a mild climate that draws visitors all year.\n\nThe town is far less visited than Rishikesh, so expect peace and quiet, and wide views over the Ganga and the Doon valley. The old royal palace estate is a reminder of its past. It makes an easy half day out of Rishikesh, especially in the monsoon when rafting is closed, and the cooler air is a welcome change from the riverside in summer.",
+     "facts": [
+      "RK21"
+     ]
+    },
+    "how_to_reach": {
+     "text": "Narendranagar is a 20 km drive uphill from Rishikesh. Take a taxi, or a bus heading towards Tehri.",
+     "facts": [
+      "RK21"
+     ]
+    }
+   }
+  },
+  {
+   "key": "uttarakhand/bungee-jumping-rishikesh",
+   "kind": "activity",
+   "category": "adventure",
+   "name": "Bungee jumping at Mohanchatti",
+   "parent": "uttarakhand/rishikesh",
+   "displayMode": "parent_section",
+   "summary": "Bungee jumps of up to 83 m, plus flying fox, giant swings and paragliding, near Rishikesh.",
+   "seoTitle": "Bungee Jumping in Rishikesh at Mohanchatti",
+   "seoDescription": "Bungee jump up to 83 m at Mohanchatti near Rishikesh, with flying fox, giant swings and paragliding at the same adventure site.",
+   "lat": 30.159,
+   "lng": 78.388,
+   "tripTypes": [
+    "adventure"
+   ],
+   "sections": {
+    "overview": {
+     "text": "Mohanchatti, near Rishikesh, is the place for bungee jumping, with jumps of up to 83 m. The same site offers a flying fox, giant mountain swings and paragliding. Rishikesh also has a zipline that drops to about 7 m above the river at speeds of up to 160 km/h.",
+     "facts": [
+      "RK12",
+      "RK13"
+     ]
+    }
+   }
+  },
+  {
+   "key": "uttarakhand/lakshman-jhula",
+   "kind": "attraction",
+   "name": "Lakshman Jhula and Bajrang Setu",
+   "parent": "uttarakhand/rishikesh",
+   "displayMode": "parent_section",
+   "summary": "The famous old suspension bridge, now closed, and its glass replacement under construction.",
+   "seoTitle": "Lakshman Jhula Rishikesh: Closed & Bajrang Setu",
+   "seoDescription": "Rishikesh's old Lakshman Jhula bridge is closed for safety; the Bajrang Setu glass footbridge replacing it was under construction in April 2026.",
+   "lat": 30.126,
+   "lng": 78.329,
+   "tripTypes": [
+    "heritage"
+   ],
+   "sections": {
+    "overview": {
+     "text": "The old Lakshman Jhula suspension bridge, long Rishikesh's most famous landmark, was closed to traffic after it grew unsafe. Bajrang Setu, a glass footbridge at the same spot, has been under construction since 2022 and was not yet open in April 2026. Until it is, cross the river at Ram Jhula and check the bridge's status locally.",
+     "facts": [
+      "RK24",
+      "RK25",
+      "RK26"
+     ]
+    }
+   }
+  },
+  {
+   "key": "uttarakhand/gita-bhawan",
+   "kind": "attraction",
+   "name": "Gita Bhawan",
+   "parent": "uttarakhand/rishikesh",
+   "displayMode": "parent_section",
+   "summary": "Ashram complex near Lakshman Jhula with a free Ayurvedic dispensary and painted walls.",
+   "seoTitle": "Gita Bhawan Rishikesh",
+   "seoDescription": "Gita Bhawan near Lakshman Jhula in Rishikesh runs a free Ayurvedic dispensary and a Gita Press branch, with scenes from the epics painted on its walls.",
+   "lat": 30.125,
+   "lng": 78.324,
+   "tripTypes": [
+    "spiritual"
+   ],
+   "sections": {
+    "overview": {
+     "text": "Gita Bhawan, near Lakshman Jhula, runs a free Ayurvedic dispensary and a branch of the Gita Press bookshop. Its walls are painted with scenes from the Ramayana and the Mahabharata, which makes it worth a short stop on a walk along the east bank.",
+     "facts": [
+      "RK23"
+     ]
+    }
+   }
+  }
+ ],
+ "itineraries": [
+  {
+   "place": "uttarakhand/rishikesh",
+   "slug": "rishikesh-2-days",
+   "title": "Rishikesh in 2 days",
+   "summary": "Swargashram's ashrams, the Beatles Ashram and the Triveni Ghat aarti, then a morning rafting from Shivpuri.",
+   "durationDays": 2,
+   "tripTypes": [
+    "spiritual",
+    "adventure",
+    "weekend"
+   ],
+   "seoTitle": "2-Day Rishikesh Itinerary: Ashrams, Aarti & Rafting",
+   "seoDescription": "Two days in Rishikesh: Swargashram, Parmarth Niketan and the Beatles Ashram, the Triveni Ghat aarti, and rafting from Shivpuri in season (Sept–June).",
+   "facts": [
+    "RK18",
+    "RK19",
+    "RK16",
+    "RK15",
+    "RK20",
+    "RK11",
+    "RK10",
+    "RK28",
+    "RK26",
+    "RK21"
+   ],
+   "plan": {
+    "overview": "A classic weekend: the spiritual east bank on day 1, and the river on day 2. Rafting runs only from September to June; in July–August, swap day 2 for Narendranagar.",
+    "start": "Rishikesh",
+    "end": "Rishikesh",
+    "transport": "On foot in Swargashram; taxi or operator transfer to Shivpuri",
+    "difficulty": "Easy (rafting optional)",
+    "days": [
+     {
+      "title": "Ashrams, the Beatles and the aarti",
+      "stops": [
+       {
+        "time": "Morning",
+        "name": "Yoga class at a Swargashram ashram",
+        "placeSlug": "swargashram",
+        "duration": "1.5 hours"
+       },
+       {
+        "time": "Late morning",
+        "name": "Parmarth Niketan",
+        "placeSlug": "parmarth-niketan",
+        "duration": "1 hour"
+       },
+       {
+        "time": "Afternoon",
+        "name": "Beatles Ashram",
+        "placeSlug": "beatles-ashram",
+        "duration": "2 hours"
+       },
+       {
+        "time": "Late afternoon",
+        "name": "Cross Ram Jhula; Bharat Mandir",
+        "placeSlug": "bharat-mandir",
+        "duration": "1 hour"
+       },
+       {
+        "time": "Evening",
+        "name": "Triveni Ghat aarti",
+        "placeSlug": "triveni-ghat",
+        "duration": "1.5 hours"
+       }
+      ],
+      "meals": "Vegetarian only. The city is alcohol-free.",
+      "overnight": "Rishikesh"
+     },
+     {
+      "title": "Rafting from Shivpuri",
+      "distance": "19 km to Shivpuri; about 11 km on the river",
+      "stops": [
+       {
+        "time": "Morning",
+        "name": "Rafting, Shivpuri to Lakshman Jhula",
+        "placeSlug": "shivpuri",
+        "duration": "Half day",
+        "note": "September–June only; use a certified operator."
+       },
+       {
+        "time": "Afternoon",
+        "name": "Rest, or a café walk on the east bank",
+        "duration": "2–3 hours"
+       }
+      ],
+      "overnight": "Rishikesh",
+      "access": "Rafting suspended in July–August."
+     }
+    ],
+    "alternatives": [
+     "July–August: replace rafting with a drive up to Narendranagar (20 km) for valley views."
+    ],
+    "booking": [
+     {
+      "item": "Rafting",
+      "detail": "Book with a certified operator. Ask what's included (transfer, gear, guide)."
+     }
+    ],
+    "tips": [
+     "Cross at Ram Jhula. The old Lakshman Jhula is closed."
+    ],
+    "budget": {
+     "assumptions": "VacayOut has no verified current prices for Rishikesh hotels, transport or activities. Budget for your own choices and confirm fees with operators on the spot.",
+     "lines": []
+    }
+   },
+   "sources": []
+  },
+  {
+   "place": "uttarakhand/rishikesh",
+   "slug": "rishikesh-3-days",
+   "title": "Rishikesh in 3 days with Neelkanth",
+   "summary": "Ashrams and the aarti, a rafting morning, and a trip to Neelkanth Mahadev or Narendranagar in the hills.",
+   "durationDays": 3,
+   "tripTypes": [
+    "spiritual",
+    "adventure"
+   ],
+   "seoTitle": "3-Day Rishikesh Itinerary with Neelkanth & Rafting",
+   "seoDescription": "Three days in Rishikesh: ashrams, the Beatles Ashram and Triveni Ghat aarti, rafting from Shivpuri, then Neelkanth Mahadev or Narendranagar.",
+   "facts": [
+    "RK18",
+    "RK16",
+    "RK15",
+    "RK11",
+    "RK10",
+    "RK27",
+    "RK21",
+    "RK12",
+    "RK14"
+   ],
+   "plan": {
+    "overview": "The 2-day plan plus a day in the hills. Neelkanth Mahadev is 28 km through the forest; Narendranagar is 20 km uphill.",
+    "start": "Rishikesh",
+    "end": "Rishikesh",
+    "transport": "On foot and taxi",
+    "difficulty": "Easy to moderate",
+    "days": [
+     {
+      "title": "East bank ashrams and aarti",
+      "stops": [
+       {
+        "time": "Morning",
+        "name": "Swargashram",
+        "placeSlug": "swargashram",
+        "duration": "2 hours"
+       },
+       {
+        "time": "Afternoon",
+        "name": "Beatles Ashram",
+        "placeSlug": "beatles-ashram",
+        "duration": "2 hours"
+       },
+       {
+        "time": "Evening",
+        "name": "Triveni Ghat aarti",
+        "placeSlug": "triveni-ghat",
+        "duration": "1.5 hours"
+       }
+      ],
+      "overnight": "Rishikesh"
+     },
+     {
+      "title": "River day",
+      "stops": [
+       {
+        "time": "Morning",
+        "name": "Rafting from Shivpuri",
+        "placeSlug": "shivpuri",
+        "duration": "Half day",
+        "note": "September–June."
+       },
+       {
+        "time": "Afternoon",
+        "name": "Bungee or giant swing at Mohanchatti (optional)",
+        "placeSlug": "bungee-jumping-rishikesh",
+        "duration": "2–3 hours"
+       }
+      ],
+      "overnight": "Rishikesh"
+     },
+     {
+      "title": "Neelkanth or Narendranagar",
+      "distance": "28 km to Neelkanth; 20 km to Narendranagar",
+      "stops": [
+       {
+        "time": "Morning",
+        "name": "Neelkanth Mahadev Temple",
+        "duration": "Half day (estimate, including the drive)"
+       },
+       {
+        "time": "Afternoon",
+        "name": "Narendranagar viewpoints",
+        "placeSlug": "narendranagar",
+        "duration": "2 hours"
+       }
+      ],
+      "overnight": "Rishikesh"
+     }
+    ],
+    "alternatives": [
+     "Fit walkers: do the Kunjapuri trek for snow-peak views instead of day 3's drive.",
+     "July–August: skip day 2's rafting; spend it on yoga or the Waterfall Trek."
+    ],
+    "booking": [
+     {
+      "item": "Rafting and bungee",
+      "detail": "Book with certified operators in advance on weekends."
+     }
+    ],
+    "budget": {
+     "assumptions": "VacayOut has no verified current prices for Rishikesh hotels, transport or activities. Budget for your own choices and confirm fees with operators on the spot.",
+     "lines": []
+    }
+   },
+   "sources": []
+  }
+ ]
+}
