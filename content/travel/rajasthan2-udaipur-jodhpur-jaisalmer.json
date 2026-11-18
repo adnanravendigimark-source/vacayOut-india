@@ -1,0 +1,1511 @@
+{
+ "cluster": "rajasthan2-udaipur-jodhpur-jaisalmer",
+ "title": "Udaipur, Jodhpur and Jaisalmer",
+ "researchedAt": "2026-11-18",
+ "selection": "Batch 2. These three already had good overviews, attractions and itineraries; this fills food, shopping, who-it's-for, mistakes, key facts and Jodhpur's missing things to do, and adds 8 attractions. Sources: Rajasthan Tourism and Incredible India pages. Rajasthan Tourism lists Udaipur flights on Jet Airways (defunct), so airline details are omitted. The new overviews will appear as suggestions beside the approved ones.",
+ "sources": {
+  "RJ_UDR": {
+   "url": "https://www.tourism.rajasthan.gov.in/udaipur.html",
+   "title": "Udaipur — Rajasthan Tourism",
+   "authority": "government"
+  },
+  "RJ_JDH": {
+   "url": "https://www.tourism.rajasthan.gov.in/jodhpur.html",
+   "title": "Jodhpur — Rajasthan Tourism",
+   "authority": "government"
+  },
+  "RJ_JSM": {
+   "url": "https://www.tourism.rajasthan.gov.in/jaisalmer.html",
+   "title": "Jaisalmer — Rajasthan Tourism",
+   "authority": "government"
+  },
+  "II_UDR": {
+   "url": "https://www.incredibleindia.gov.in/en/rajasthan/udaipur",
+   "title": "Udaipur — Incredible India",
+   "authority": "government"
+  },
+  "II_JDH": {
+   "url": "https://www.incredibleindia.gov.in/en/rajasthan/jodhpur",
+   "title": "Jodhpur — Incredible India",
+   "authority": "government"
+  },
+  "II_JSM": {
+   "url": "https://www.incredibleindia.gov.in/en/rajasthan/jaisalmer",
+   "title": "Jaisalmer — Incredible India",
+   "authority": "government"
+  }
+ },
+ "facts": {
+  "UD1": {
+   "place": "rajasthan/udaipur",
+   "topic": "Founding",
+   "claim": "Udaipur was founded in 1553 by Maharana Udai Singh II as the new capital of Mewar.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "RJ_UDR",
+     "quote": "Udaipur was founded in 1553 by Maharana Udai Singh II as the new capital of Mewar Kingdom."
+    }
+   ]
+  },
+  "UD2": {
+   "place": "rajasthan/udaipur",
+   "topic": "Shilpgram Festival",
+   "claim": "The ten-day Shilpgram crafts festival runs from 21 to 30 December.",
+   "claimType": "schedule",
+   "kind": "seasonal",
+   "evidence": [
+    {
+     "source": "RJ_UDR",
+     "quote": "The ten-day Shilpgram Festival which starts from 21 Dec to 30 Dec pulls in a large number of people interested in arts and crafts."
+    }
+   ]
+  },
+  "UD3": {
+   "place": "rajasthan/sajjangarh-monsoon-palace",
+   "topic": "Sajjangarh",
+   "claim": "Sajjangarh, a 19th-century monsoon palace and hunting lodge on the Bansdara hills, was planned by Maharana Sajjan Singh as an astronomical centre.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "RJ_UDR",
+     "quote": "Situated just outside Udaipur, this 19th-century palace is built on top of Bansdara hills. Used as a monsoon palace and hunting lodge, its builder, Maharana Sajjan Singh, originally planned to make it an astronomical center."
+    }
+   ]
+  },
+  "UD4": {
+   "place": "rajasthan/shilpgram-udaipur",
+   "topic": "Shilpgram",
+   "claim": "Shilpgram, a 70-acre rural arts and crafts complex, is a living museum of the folk and tribal life of western India.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "RJ_UDR",
+     "quote": "Spread over 70 acres, and surrounded by the Aravallis, the Rural Arts and Crafts Complex has been conceived as a living museum to depict the lifestyles of the folk and tribal people of the west zone."
+    },
+    {
+     "source": "II_UDR",
+     "quote": "Watch skilled artisans at work, learn about different techniques like miniature painting and textile weaving"
+    }
+   ]
+  },
+  "UD5": {
+   "place": "rajasthan/eklingji-temple",
+   "topic": "Eklingji",
+   "claim": "Eklingji Temple, 22 km north of Udaipur, is a Shiva temple with architecture dating to 734 AD and a four-faced black marble idol.",
+   "claimType": "distance",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "II_UDR",
+     "quote": "Located 22 km north of Udaipur, the revered Eklingji Temple, dedicated to Lord Shiva, showcases exquisite architecture dating back to 734 AD."
+    },
+    {
+     "source": "II_UDR",
+     "quote": "Famous for its four-faced black marble Lord Shiva idol and ornate silver Nandi"
+    }
+   ]
+  },
+  "UD6": {
+   "place": "rajasthan/udaipur",
+   "topic": "Street food",
+   "claim": "Udaipur's street food includes kachori, pyaaz ki kachori, mawa kachori and ghevar.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "II_UDR",
+     "quote": "Savour specialities like Kachori (crispy fried pastries with savoury fillings), Pyaaz ki Kachori (flaky pastries with a delicious onion filling) or Mawa Kachori (a sweet twist on kachori)."
+    }
+   ]
+  },
+  "UD7": {
+   "place": "rajasthan/udaipur",
+   "topic": "Mewar dishes",
+   "claim": "Traditional dishes include dal baati churma and gatte ki sabzi.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "II_UDR",
+     "quote": "Indulge in the region's must-try traditional dishes like Dal Baati Churma (a hearty combination of lentils, pan-fried wheat balls, and crumbled sweet-fried bread), Gatte ki Sabzi (savoury chickpea flour dumplings in a flavorful gravy)"
+    }
+   ]
+  },
+  "UD8": {
+   "place": "rajasthan/udaipur",
+   "topic": "Hathi Pol Bazaar",
+   "claim": "Hathi Pol Bazaar is known for Rajasthani handicrafts, miniature paintings and phad scrolls.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "II_UDR",
+     "quote": "Start your shopping adventure at Hathi Pol Bazaar, a crowded marketplace renowned for its authentic Rajasthani handicrafts, miniature paintings, and phad scrolls, perfect for art enthusiasts."
+    }
+   ]
+  },
+  "UD9": {
+   "place": "rajasthan/udaipur",
+   "topic": "Bada and Bapu Bazar",
+   "claim": "Bada Bazar sells clothing, footwear, silver jewellery and textiles; Bapu Bazar is cheaper for textiles, pottery and brassware.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "II_UDR",
+     "quote": "Bada Bazar provides a lively atmosphere where you can find everything from traditional clothing and footwear to exquisite silver jewellery and colourful textiles."
+    },
+    {
+     "source": "II_UDR",
+     "quote": "head to Bapu Bazar, known for its affordable prices and wide range of goods including textiles, pottery, and brassware."
+    }
+   ]
+  },
+  "UD10": {
+   "place": "rajasthan/udaipur",
+   "topic": "Ambrai Ghat",
+   "claim": "Ambrai (Manjhi) Ghat is popular for quiet mornings and lively evenings, with views of the Lake Palace and Jag Mandir.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "II_UDR",
+     "quote": "the Ambrai Ghat, also known as Manjhi Ghat, is popular for its serene mornings and lively evenings."
+    }
+   ]
+  },
+  "UD11": {
+   "place": "rajasthan/udaipur",
+   "topic": "Karni Mata ropeway",
+   "claim": "An aerial tramway runs from Doodh Talai up to the Karni Mata Temple.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "II_UDR",
+     "quote": "is connected to the Karni Mata Temple by an aerial tramway, offering expansive city vistas."
+    }
+   ]
+  },
+  "UD12": {
+   "place": "rajasthan/udaipur",
+   "topic": "Airport",
+   "claim": "Dabok (Maharana Pratap) airport is about 25 km north-east of the city centre.",
+   "claimType": "distance",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "RJ_UDR",
+     "quote": "Dabok Airport, also known as Maharana Pratap Airport is the closest at about 25 km northeast of the city centre."
+    }
+   ]
+  },
+  "UD13": {
+   "place": "rajasthan/udaipur",
+   "topic": "Haldighati",
+   "claim": "Haldighati, 44 km from Udaipur, is the pass where Maharana Pratap fought in 1576, with a cenotaph to his horse Chetak.",
+   "claimType": "distance",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "II_UDR",
+     "quote": "is a historic site in the Aravalli range, 44 kilometres from Udaipur."
+    },
+    {
+     "source": "II_UDR",
+     "quote": "This mountain pass, celebrated for the valiant battle led by Maharana Pratap in 1576 AD, symbolises the bravery that defended the Mewar dynasty."
+    },
+    {
+     "source": "II_UDR",
+     "quote": "The area also features a marble cenotaph honouring Pratap's loyal horse, Chetak."
+    }
+   ]
+  },
+  "UD14": {
+   "place": "rajasthan/udaipur",
+   "topic": "Octopussy",
+   "claim": "Udaipur featured in the James Bond film Octopussy.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "II_UDR",
+     "quote": "the James Bond film Octopussy famously showcasing its ethereal beauty to the world."
+    }
+   ]
+  },
+  "UD15": {
+   "place": "rajasthan/udaipur",
+   "topic": "Jaisamand",
+   "claim": "Jaisamand Lake is claimed to be Asia's second-largest man-made freshwater lake.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "RJ_UDR",
+     "quote": "Jaisamand Lake is known for being the second largest man-made sweet water lake in Asia."
+    }
+   ]
+  },
+  "UD16": {
+   "place": "rajasthan/udaipur",
+   "topic": "Mewar Festival",
+   "claim": "The Mewar Festival welcomes spring.",
+   "claimType": "schedule",
+   "kind": "seasonal",
+   "evidence": [
+    {
+     "source": "RJ_UDR",
+     "quote": "The festival is observed to welcome the arrival of spring."
+    }
+   ]
+  },
+  "UD18": {
+   "place": "rajasthan/udaipur",
+   "topic": "Nagda",
+   "claim": "Nagda, 22 km from Udaipur, has the carved Sas-Bahu temples of the 9th–10th century.",
+   "claimType": "distance",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "RJ_UDR",
+     "quote": "Nagda is 22kms from Udaipur, an ancient site located at the foothills of the Aravali range and has traces of 6th century A.D."
+    }
+   ]
+  },
+  "UD17": {
+   "place": "rajasthan/udaipur",
+   "topic": "Puppet shows",
+   "claim": "Bharatiya Lok Kala Mandal stages Kathputli puppet shows and has a folk-art museum.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "RJ_UDR",
+     "quote": "Enjoy the traditional art form of puppetry (Kathputli) at Bharatiya Lok Kala Mandal."
+    }
+   ]
+  },
+  "JD1": {
+   "place": "rajasthan/jodhpur",
+   "topic": "Blue City",
+   "claim": "Jodhpur, Rajasthan's second-largest city, is called the Blue City.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "RJ_JDH",
+     "quote": "Jodhpur, the second largest city in Rajasthan is popularly known as the Blue City."
+    }
+   ]
+  },
+  "JD2": {
+   "place": "rajasthan/jodhpur",
+   "topic": "Founding",
+   "claim": "Jodhpur was founded in 1459 by Rao Jodha of the Rathore clan.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "RJ_JDH",
+     "quote": "Jodhpur marks its origin back to the year of 1459 AD."
+    }
+   ]
+  },
+  "JD3": {
+   "place": "rajasthan/mandore-gardens",
+   "topic": "Mandore Gardens",
+   "claim": "Mandore Gardens, at the old Marwar capital, have cenotaphs, temples, gardens and the Hall of Heroes.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "II_JDH",
+     "quote": "Mandore Gardens are adorned with cenotaphs, temples, and lush greenery, making it a serene spot for picnics and leisurely strolls. The gardens also house the Hall of Heroes"
+    }
+   ]
+  },
+  "JD4": {
+   "place": "rajasthan/rao-jodha-desert-rock-park",
+   "topic": "Rao Jodha Desert Rock Park",
+   "claim": "The 72-hectare Rao Jodha Desert Rock Park below Mehrangarh restores native Thar Desert plants, with walking trails.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "II_JDH",
+     "quote": "Spread over 72 hectares at the foot of Mehrangarh Fort, this ecological restoration project showcases the native flora and fauna of the Thar Desert."
+    }
+   ]
+  },
+  "JD5": {
+   "place": "rajasthan/jodhpur",
+   "topic": "Markets",
+   "claim": "Sardar Market and the Clock Tower market sell textiles, jewellery, spices and local food.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "II_JDH",
+     "quote": "From the bustling lanes of Sardar Market to the colourful stalls of Clock Tower Market, visitors can immerse themselves in the city's vibrant street life, haggling for treasures ranging from handcrafted textiles and jewellery to aromatic spices and local delicacies."
+    }
+   ]
+  },
+  "JD6": {
+   "place": "rajasthan/jodhpur",
+   "topic": "Marwar Festival",
+   "claim": "The two-day Marwar Festival is held in Ashwin (September–October).",
+   "claimType": "schedule",
+   "kind": "seasonal",
+   "evidence": [
+    {
+     "source": "RJ_JDH",
+     "quote": "The two-day festival is held every year in the month of Ashwin (between September and October)"
+    }
+   ]
+  },
+  "JD7": {
+   "place": "rajasthan/jodhpur",
+   "topic": "Bishnoi villages",
+   "claim": "Bishnoi village safaris visit communities who revere nature and all living things.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "RJ_JDH",
+     "quote": "The Bishnoi villagers are worshippers of nature and believe in the sanctity of all living things."
+    }
+   ]
+  },
+  "JD8": {
+   "place": "rajasthan/jodhpur",
+   "topic": "Airport",
+   "claim": "Jodhpur airport, about 5 km from the centre, has flights to Delhi and Mumbai.",
+   "claimType": "distance",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "RJ_JDH",
+     "quote": "Jodhpur is connected to Delhi and Mumbai and the airport is about 5 kilometres from the city centre."
+    }
+   ]
+  },
+  "JD9": {
+   "place": "rajasthan/jodhpur",
+   "topic": "Balsamand Lake",
+   "claim": "Balsamand Lake (1159) is about 5 km out on the Mandore road.",
+   "claimType": "distance",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "RJ_JDH",
+     "quote": "Balsamand Lake is about 5 kilometres from Jodhpur on the Jodhpur-Mandore Road."
+    }
+   ]
+  },
+  "JD10": {
+   "place": "rajasthan/jodhpur",
+   "topic": "Why blue",
+   "claim": "Legend says Brahmins painted their houses blue to mark caste and stay cool.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "II_JDH",
+     "quote": "Legend has it that the Brahmins, the priestly class of Jodhpur, began painting their houses blue to denote their caste and to keep them cool during the scorching summer months."
+    }
+   ]
+  },
+  "JD12": {
+   "place": "rajasthan/jodhpur",
+   "topic": "Mehrangarh height",
+   "claim": "Mehrangarh rises from a hill 125 m above Jodhpur's skyline.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "RJ_JDH",
+     "quote": "Rising perpendicular and impregnable from a hill which is 125 metres above Jodhpur’s skyline is the Mehrangarh Fort."
+    }
+   ]
+  },
+  "JD11": {
+   "place": "rajasthan/jodhpur",
+   "topic": "Marwari horses",
+   "claim": "Jodhpur is known for the rare Marwari (Malani) horse breed.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "RJ_JDH",
+     "quote": "Jodhpur is also known for the rare breed of horses known as Marwari or Malani, which are only found here."
+    }
+   ]
+  },
+  "JS1": {
+   "place": "rajasthan/jaisalmer",
+   "topic": "Living fort",
+   "claim": "Jaisalmer Fort is Rajasthan's only 'living fort', with nearly 3,000 residents, temples, shops and restaurants.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "II_JSM",
+     "quote": "it has nearly 3000 residents within its walls, along with temples, shops and restaurants."
+    }
+   ]
+  },
+  "JS2": {
+   "place": "rajasthan/jaisalmer",
+   "topic": "Best time",
+   "claim": "November to March is the best time, with mild temperatures.",
+   "claimType": "general",
+   "kind": "seasonal",
+   "evidence": [
+    {
+     "source": "II_JSM",
+     "quote": "the best time to visit spanning from November to March, when temperatures are mild and outdoor excursions are at their peak"
+    }
+   ]
+  },
+  "JS3": {
+   "place": "rajasthan/jaisalmer",
+   "topic": "Desert Festival",
+   "claim": "The Desert Festival is held around January–February.",
+   "claimType": "schedule",
+   "kind": "seasonal",
+   "evidence": [
+    {
+     "source": "RJ_JSM",
+     "quote": "Organised by the Department of Tourism around January-February, the Desert Festival is the best place to enjoy rich and colourful Rajasthani folk culture."
+    }
+   ]
+  },
+  "JS4": {
+   "place": "rajasthan/jaisalmer",
+   "topic": "Dune safaris",
+   "claim": "Camel and camel-cart safaris run at Sam and Khuri dunes; jeep safaris and dune bashing at Lakhmna and near Sam and Khuri.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "RJ_JSM",
+     "quote": "Tourists can enjoy camel/camel cart safari at Sam sand dunes as well as at Khuri sand dunes."
+    },
+    {
+     "source": "RJ_JSM",
+     "quote": "tourists can enjoy jeep safari/ dunes bashing at Lakhmna sand dunes as well as at some other isolated sand dune tracks near Sam and Khuri."
+    }
+   ]
+  },
+  "JS5": {
+   "place": "rajasthan/desert-national-park",
+   "topic": "Desert National Park",
+   "claim": "Desert National Park protects blackbuck, chinkara, desert fox and the endangered Great Indian Bustard.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "RJ_JSM",
+     "quote": "Various species of animals such as black buck, chinkara and desert fox inhabit the Park. The highly endangered Great Indian Bustard, one of the world's heaviest flying birds, can also be seen here."
+    },
+    {
+     "source": "II_JSM",
+     "quote": "Less than a hundred Great Indian Bustard remain in the wild"
+    }
+   ]
+  },
+  "JS6": {
+   "place": "rajasthan/jaisalmer",
+   "topic": "Wood Fossil Park",
+   "claim": "Akal Wood Fossil Park, 17 km towards Barmer, preserves 180-million-year-old fossil trees.",
+   "claimType": "distance",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "RJ_JSM",
+     "quote": "The Akal Wood Fossil Park is a 21-hectare preserved area that lies about 17 km from Jaisalmer, towards Barmer."
+    }
+   ]
+  },
+  "JS7": {
+   "place": "rajasthan/jaisalmer",
+   "topic": "Amar Sagar",
+   "claim": "Amar Sagar lake and Amar Singh Palace are 7 km west of town.",
+   "claimType": "distance",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "RJ_JSM",
+     "quote": "Amar Sagar Lake, located about 7 km towards the western outskirts of Jaisalmer, is a lake cum oasis lying adjacent to the Amar Singh Palace."
+    }
+   ]
+  },
+  "JS8": {
+   "place": "rajasthan/jaisalmer",
+   "topic": "Food",
+   "claim": "Jaisalmer street food includes mirchi bhajiya and pyaz ki kachori, with kesariya thandai and makhania lassi.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "II_JSM",
+     "quote": "Succumb to the temptation of its mouth-watering street foods like Mirchi Bhajiya and Pyaz ki kachori, along with its local coolers like Kesariya Thandai and Makhania Lassi"
+    }
+   ]
+  },
+  "JS9": {
+   "place": "rajasthan/jaisalmer",
+   "topic": "Textiles",
+   "claim": "Bazaars sell applique, mirror and gota work on batik, tie-dye and block prints.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "II_JSM",
+     "quote": "Discover exquisite applique work, mirror work and gota work on traditional batik, tie & dye and block prints."
+    }
+   ]
+  },
+  "JS10": {
+   "place": "rajasthan/tanot-mata-temple",
+   "topic": "Tanot Mata",
+   "claim": "Tanot Mata temple near the Longewala border is famed because bombs that fell around it in 1965 and 1971 did not explode.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "II_JSM",
+     "quote": "gained nationwide fame during the India-Pakistan wars of 1965 and 1971, as despite heavy shelling in the area, none of the bombs that fell around the temple exploded."
+    }
+   ]
+  },
+  "JS11": {
+   "place": "rajasthan/nathmal-ki-haveli",
+   "topic": "Nathmal ki Haveli",
+   "claim": "Nathmal ki Haveli was built by two brothers working from opposite ends, giving two similar but asymmetrical halves.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "II_JSM",
+     "quote": "was built by two architect brothers who began the construction of the haveli simultaneously from opposite ends, creating two similar but asymmetrical halves."
+    }
+   ]
+  },
+  "JS12": {
+   "place": "rajasthan/jaisalmer",
+   "topic": "Jain temples",
+   "claim": "Seven carved Jain temples stand inside Jaisalmer Fort.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "II_JSM",
+     "quote": "Explore the intricately carved group of seven Jain temples within Jaisalmer Fort"
+    }
+   ]
+  },
+  "JS13": {
+   "place": "rajasthan/jaisalmer",
+   "topic": "War museum",
+   "claim": "The Indian Army's war museum at the Jaisalmer military base honours fallen soldiers.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "RJ_JSM",
+     "quote": "the Indian Army has commemorated the sacrifices of their soldiers in a beautiful display at this war museum, situated at the Jaisalmer military base"
+    }
+   ]
+  },
+  "JS14": {
+   "place": "rajasthan/jaisalmer",
+   "topic": "Evening shows",
+   "claim": "Hotels and venues stage folk music and dance every evening.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "II_JSM",
+     "quote": "The city offers a variety of music and dance performances every evening"
+    }
+   ]
+  }
+ },
+ "places": [
+  {
+   "key": "rajasthan/udaipur",
+   "kind": "city",
+   "name": "Udaipur",
+   "parent": "rajasthan",
+   "summary": "Mewar's 'City of Lakes': the City Palace on Lake Pichola, island palaces, ghats, bazaars and the Aravalli hills.",
+   "seoTitle": "Udaipur Travel Guide: Lakes, Palaces, Food & Markets",
+   "seoDescription": "Plan an Udaipur trip: City Palace and Lake Pichola, Ambrai Ghat, Sajjangarh, Eklingji, Shilpgram, Mewar food, the best bazaars and how to get there.",
+   "lat": 24.5854,
+   "lng": 73.7125,
+   "tripTypes": [
+    "heritage",
+    "romantic"
+   ],
+   "images": [
+    {
+     "commons": "File:City Palace Udaipur Rajasthan India.JPG",
+     "alt": "City Palace of Udaipur rising above Lake Pichola",
+     "hero": true
+    }
+   ],
+   "sections": {
+    "overview": {
+     "text": "Udaipur, the 'City of Lakes', was founded in 1553 by Maharana Udai Singh II as the new capital of Mewar. It lies among the green Aravalli hills around Lake Pichola, Fateh Sagar and their sister lakes. The City Palace rises above Pichola, and the Lake Palace and Jag Mandir float on its islands, a setting that famously featured in the Bond film Octopussy.\n\nBeyond the palaces are ghats such as Ambrai, the Sajjangarh monsoon palace on its hilltop, the Shilpgram crafts village and lively bazaars. Day trips run to Eklingji, Haldighati and the great fort at Kumbhalgarh. It suits couples, families and anyone drawn to Rajput history.",
+     "facts": [
+      "UD1",
+      "UD14",
+      "UD10",
+      "UD3",
+      "UD4",
+      "UD5",
+      "UD13"
+     ]
+    },
+    "key_facts": {
+     "items": [
+      {
+       "title": "Founded",
+       "body": "1553, by Maharana Udai Singh II",
+       "status": "verified"
+      },
+      {
+       "title": "Airport",
+       "body": "Dabok (Maharana Pratap), about 25 km",
+       "status": "verified"
+      },
+      {
+       "title": "Crafts festival",
+       "body": "Shilpgram, 21–30 December",
+       "status": "seasonal"
+      },
+      {
+       "title": "Known for",
+       "body": "Lakes, palaces and Mewar heritage",
+       "status": "verified"
+      }
+     ],
+     "facts": [
+      "UD1",
+      "UD12",
+      "UD2"
+     ]
+    },
+    "food": {
+     "items": [
+      {
+       "body": "Dal baati churma and gatte ki sabzi, Mewar's classic dishes.",
+       "status": "verified"
+      },
+      {
+       "body": "Kachori, pyaaz ki kachori and the sweet mawa kachori.",
+       "status": "verified"
+      },
+      {
+       "body": "Ghevar, the syrupy local sweet.",
+       "status": "verified"
+      }
+     ],
+     "facts": [
+      "UD7",
+      "UD6"
+     ]
+    },
+    "shopping": {
+     "items": [
+      {
+       "body": "Hathi Pol Bazaar: handicrafts, miniature paintings and phad scrolls.",
+       "status": "verified"
+      },
+      {
+       "body": "Bada Bazar: clothing, footwear, silver jewellery and textiles.",
+       "status": "verified"
+      },
+      {
+       "body": "Bapu Bazar: budget textiles, pottery and brassware.",
+       "status": "verified"
+      },
+      {
+       "body": "Shilpgram: watch artisans and buy rural crafts.",
+       "status": "verified"
+      }
+     ],
+     "facts": [
+      "UD8",
+      "UD9",
+      "UD4"
+     ]
+    },
+    "who_its_for": {
+     "items": [
+      {
+       "title": "Couples",
+       "body": "Lake sunsets from Ambrai Ghat and the Sajjangarh hilltop."
+      },
+      {
+       "title": "History lovers",
+       "body": "The City Palace, Eklingji and Haldighati, the 1576 battlefield of Maharana Pratap."
+      },
+      {
+       "title": "Families",
+       "body": "The Karni Mata ropeway, puppet shows at Bharatiya Lok Kala Mandal, and Shilpgram."
+      },
+      {
+       "title": "Craft buyers",
+       "body": "Hathi Pol, Bada Bazar and the December Shilpgram Festival."
+      },
+      {
+       "title": "Festival-goers",
+       "body": "The spring Mewar Festival."
+      },
+      {
+       "title": "Lake lovers",
+       "body": "Day trips to Jaisamand, claimed to be Asia's second-largest man-made freshwater lake."
+      }
+     ],
+     "facts": [
+      "UD10",
+      "UD3",
+      "UD5",
+      "UD13",
+      "UD11",
+      "UD17",
+      "UD4",
+      "UD8",
+      "UD2",
+      "UD16",
+      "UD15"
+     ]
+    },
+    "common_mistakes": {
+     "items": [
+      {
+       "body": "Skipping the lakeside at dusk: Ambrai Ghat is liveliest in the evening."
+      },
+      {
+       "body": "Trying Eklingji, Haldighati and Kumbhalgarh in one rushed day; they are in different directions."
+      },
+      {
+       "body": "Missing Shilpgram's crafts festival if you're in town from 21 to 30 December."
+      }
+     ],
+     "facts": [
+      "UD10",
+      "UD5",
+      "UD13",
+      "UD2"
+     ]
+    }
+   }
+  },
+  {
+   "key": "rajasthan/sajjangarh-monsoon-palace",
+   "kind": "attraction",
+   "name": "Sajjangarh (Monsoon Palace)",
+   "parent": "rajasthan/udaipur",
+   "summary": "Hilltop 19th-century monsoon palace on the Bansdara hills with views over Udaipur's lakes.",
+   "seoTitle": "Sajjangarh Monsoon Palace, Udaipur: Views & History",
+   "seoDescription": "Sajjangarh, Udaipur's 19th-century Monsoon Palace on the Bansdara hills, has sweeping views over the lakes and the Aravallis, best at sunset.",
+   "lat": 24.5932,
+   "lng": 73.673,
+   "tripTypes": [
+    "heritage",
+    "romantic"
+   ],
+   "images": [
+    {
+     "commons": "File:Sajjangarh - Rajasthan - 20170701141432 IMG 4939-01.jpg",
+     "alt": "Sajjangarh Monsoon Palace on its hilltop above Udaipur",
+     "hero": true
+    }
+   ],
+   "sections": {
+    "overview": {
+     "text": "Sajjangarh is a 19th-century palace on the Bansdara hills just outside Udaipur. It was used as a monsoon palace and hunting lodge. Its builder, Maharana Sajjan Singh, first planned it as an astronomical centre, but the plan was dropped after his early death.\n\nIt is still a striking sight on the skyline, often wrapped in mist in the monsoon. The terraces give sweeping views over Fateh Sagar, the city and the Aravalli hills, and sunset is the favourite time to come up.",
+     "facts": [
+      "UD3"
+     ]
+    },
+    "travel_tips": {
+     "items": [
+      {
+       "body": "Time your visit for sunset and bring a light jacket for the breezy terrace."
+      },
+      {
+       "body": "Take a taxi up; the road climbs steeply through the hills."
+      },
+      {
+       "body": "Combine with an evening on Fateh Sagar's lakefront."
+      },
+      {
+       "body": "Check closing time locally before heading up late in the day."
+      }
+     ],
+     "facts": []
+    }
+   }
+  },
+  {
+   "key": "rajasthan/shilpgram-udaipur",
+   "kind": "attraction",
+   "name": "Shilpgram",
+   "parent": "rajasthan/udaipur",
+   "summary": "70-acre rural arts and crafts village outside Udaipur, home to the December Shilpgram Festival.",
+   "seoTitle": "Shilpgram Udaipur: Crafts Village & Festival",
+   "seoDescription": "Shilpgram is a 70-acre living museum of western India's rural crafts near Udaipur, with artisans at work and the Shilpgram Festival from 21 to 30 December.",
+   "lat": 24.604,
+   "lng": 73.663,
+   "tripTypes": [
+    "heritage",
+    "family"
+   ],
+   "images": [
+    {
+     "commons": "File:Shilpgram Udaipur 4.jpg",
+     "alt": "Folk dancers performing for visitors at Shilpgram, Udaipur",
+     "hero": true
+    }
+   ],
+   "sections": {
+    "overview": {
+     "text": "Shilpgram, the Rural Arts and Crafts Complex, spreads over 70 acres among the Aravalli hills near Fateh Sagar. It was created as a living museum of the lifestyles of the folk and tribal people of western India, with traditional houses from different regions.\n\nArtisans work on site, so you can watch techniques such as miniature painting and weaving and buy directly. The highlight of the year is the ten-day Shilpgram Festival, from 21 to 30 December, which draws crafts lovers from all over India.",
+     "facts": [
+      "UD4",
+      "UD2"
+     ]
+    },
+    "travel_tips": {
+     "items": [
+      {
+       "body": "Visit in the morning or late afternoon; much of the complex is open-air."
+      },
+      {
+       "body": "Bring cash for small craft purchases."
+      },
+      {
+       "body": "Look for live folk dance and music performances in the open-air amphitheatre."
+      },
+      {
+       "body": "Ask artisans before photographing them at work."
+      },
+      {
+       "body": "Combine with an evening on the Fateh Sagar lakefront nearby."
+      }
+     ],
+     "facts": []
+    }
+   }
+  },
+  {
+   "key": "rajasthan/eklingji-temple",
+   "kind": "temple",
+   "name": "Eklingji Temple",
+   "parent": "rajasthan/udaipur",
+   "summary": "Shiva temple 22 km north of Udaipur, the Mewar rulers' family shrine, dating to 734 AD.",
+   "seoTitle": "Eklingji Temple near Udaipur: History & Visit",
+   "seoDescription": "Eklingji, 22 km north of Udaipur, is a Shiva temple dating to 734 AD with a four-faced black marble idol and a silver Nandi, central to Mewar heritage.",
+   "lat": 24.748,
+   "lng": 73.724,
+   "tripTypes": [
+    "spiritual",
+    "heritage"
+   ],
+   "images": [
+    {
+     "commons": "File:EklingJi Temple.jpg",
+     "alt": "The walled Eklingji temple complex in the hills north of Udaipur",
+     "hero": true
+    }
+   ],
+   "sections": {
+    "overview": {
+     "text": "Eklingji Temple lies 22 km north of Udaipur and is dedicated to Lord Shiva. Its architecture dates back to 734 AD. It is famous for its four-faced black marble image of Shiva and an ornate silver Nandi, and it remains a cornerstone of Mewar's spiritual and royal heritage.\n\nIt is easy to combine with the carved 10th-century Sas-Bahu temples at Nagda on the same road, as a half-day trip from Udaipur.",
+     "facts": [
+      "UD5",
+      "UD18"
+     ]
+    },
+    "travel_tips": {
+     "items": [
+      {
+       "body": "Dress modestly. Photography is usually not allowed inside, so check at the gate."
+      },
+      {
+       "body": "Go early morning to avoid the crowds and heat."
+      },
+      {
+       "body": "Temple timings include breaks in the middle of the day, so confirm locally before you set out."
+      },
+      {
+       "body": "Hire a taxi for the half day so you can add Nagda on the way back."
+      },
+      {
+       "body": "Leave bags and phones at the counter if asked."
+      }
+     ],
+     "facts": []
+    }
+   }
+  },
+  {
+   "key": "rajasthan/jodhpur",
+   "kind": "city",
+   "name": "Jodhpur",
+   "parent": "rajasthan",
+   "summary": "Rajasthan's Blue City below Mehrangarh Fort: the old city, Clock Tower bazaars, Umaid Bhawan and Mandore.",
+   "seoTitle": "Jodhpur Travel Guide: Blue City, Markets & Day Trips",
+   "seoDescription": "Plan a Jodhpur trip: Mehrangarh and the blue old city, Clock Tower and Sardar Market, Mandore Gardens, Rao Jodha Park, Bishnoi villages and the Marwar Festival.",
+   "lat": 26.2389,
+   "lng": 73.0243,
+   "tripTypes": [
+    "heritage"
+   ],
+   "images": [
+    {
+     "commons": "File:20191210 Mehrangarh Fort, Jodhpur 1016 7834.jpg",
+     "alt": "Mehrangarh Fort above Jodhpur's blue old city",
+     "hero": true
+    }
+   ],
+   "sections": {
+    "overview": {
+     "text": "Jodhpur, Rajasthan's second-largest city, was founded in 1459 by Rao Jodha, chief of the Rathore clan, as the capital of Marwar. Its old city is famous for its blue houses. Legend says Brahmins first painted their homes blue to mark their caste and keep cool. Above it all rises Mehrangarh Fort, on a rocky ridge 125 m above the skyline.\n\nBelow the fort are the Clock Tower and Sardar Market. Further out are the cenotaphs of Mandore, the Rao Jodha Desert Rock Park and the Bishnoi villages. It suits history lovers, photographers and shoppers.",
+     "facts": [
+      "JD1",
+      "JD2",
+      "JD10",
+      "JD12",
+      "JD5",
+      "JD3",
+      "JD4",
+      "JD7"
+     ]
+    },
+    "things_to_do": {
+     "items": [
+      {
+       "body": "Walk the blue lanes of the old city below Mehrangarh.",
+       "status": "verified"
+      },
+      {
+       "body": "Shop and eat around the Clock Tower and Sardar Market.",
+       "status": "verified"
+      },
+      {
+       "body": "Explore Mandore Gardens and the Hall of Heroes.",
+       "status": "verified"
+      },
+      {
+       "body": "Walk the trails of Rao Jodha Desert Rock Park.",
+       "status": "verified"
+      },
+      {
+       "body": "Take a Bishnoi village safari.",
+       "status": "verified"
+      },
+      {
+       "body": "Visit Balsamand Lake on the Mandore road.",
+       "status": "verified"
+      }
+     ],
+     "facts": [
+      "JD10",
+      "JD5",
+      "JD3",
+      "JD4",
+      "JD7",
+      "JD9"
+     ]
+    },
+    "shopping": {
+     "items": [
+      {
+       "body": "Sardar Market and the Clock Tower for textiles, jewellery and spices.",
+       "status": "verified"
+      }
+     ],
+     "facts": [
+      "JD5"
+     ]
+    },
+    "who_its_for": {
+     "items": [
+      {
+       "title": "History lovers",
+       "body": "Mehrangarh, Jaswant Thada and Mandore's cenotaphs."
+      },
+      {
+       "title": "Photographers",
+       "body": "The blue old city."
+      },
+      {
+       "title": "Nature lovers",
+       "body": "The Rao Jodha Desert Rock Park and Bishnoi villages."
+      },
+      {
+       "title": "Festival-goers",
+       "body": "The Marwar Festival in Ashwin (September–October)."
+      },
+      {
+       "title": "Horse lovers",
+       "body": "Jodhpur is home of the rare Marwari (Malani) breed."
+      },
+      {
+       "title": "Short-break travellers",
+       "body": "The airport is only about 5 km from the centre, with flights to Delhi and Mumbai."
+      }
+     ],
+     "facts": [
+      "JD3",
+      "JD10",
+      "JD4",
+      "JD7",
+      "JD6",
+      "JD11",
+      "JD8"
+     ]
+    },
+    "common_mistakes": {
+     "items": [
+      {
+       "body": "Visiting the fort in the midday heat. Go early, then shelter in the bazaar."
+      },
+      {
+       "body": "Missing the Rao Jodha park trails, right at the foot of the fort."
+      },
+      {
+       "body": "Booking Bishnoi safaris through touts. Use your hotel or a registered operator."
+      }
+     ],
+     "facts": [
+      "JD4",
+      "JD7"
+     ]
+    }
+   }
+  },
+  {
+   "key": "rajasthan/mandore-gardens",
+   "kind": "attraction",
+   "name": "Mandore Gardens",
+   "parent": "rajasthan/jodhpur",
+   "summary": "Gardens at the old Marwar capital with royal cenotaphs, temples and the Hall of Heroes.",
+   "seoTitle": "Mandore Gardens Jodhpur: Cenotaphs & Hall of Heroes",
+   "seoDescription": "Mandore Gardens, at the old Marwar capital near Jodhpur, have red sandstone royal cenotaphs, temples and the Hall of Heroes, ideal for an evening stroll.",
+   "lat": 26.35,
+   "lng": 73.035,
+   "tripTypes": [
+    "heritage",
+    "family"
+   ],
+   "images": [
+    {
+     "commons": "File:Chhatris cenotaph Mandore gardens Jodhpur Rajasthan India.jpg",
+     "alt": "Red sandstone chhatris at Mandore Gardens, Jodhpur",
+     "hero": true
+    }
+   ],
+   "sections": {
+    "overview": {
+     "text": "Mandore was the capital of Marwar before Jodhpur was founded, and relics of the old city survive in Mandore Gardens. The gardens are lined with cenotaphs of the rulers and temples among lush greenery. They make a serene spot for picnics and strolls.\n\nThe Hall of Heroes houses statues of Rajput heroes and deities. Balsamand Lake lies on the same road, so the two make an easy half day out of Jodhpur.",
+     "facts": [
+      "JD3",
+      "JD2",
+      "JD9"
+     ]
+    },
+    "travel_tips": {
+     "items": [
+      {
+       "body": "Go late afternoon, when the light warms the sandstone."
+      },
+      {
+       "body": "Watch your food: the gardens are home to many monkeys."
+      },
+      {
+       "body": "Allow two hours to see the cenotaphs, temples and the Hall of Heroes without rushing."
+      },
+      {
+       "body": "Carry water: it gets hot in the open gardens."
+      },
+      {
+       "body": "Taxis and autos from the old city reach Mandore easily."
+      }
+     ],
+     "facts": []
+    }
+   }
+  },
+  {
+   "key": "rajasthan/rao-jodha-desert-rock-park",
+   "kind": "nature",
+   "name": "Rao Jodha Desert Rock Park",
+   "parent": "rajasthan/jodhpur",
+   "summary": "72-hectare ecological park below Mehrangarh restoring the Thar Desert's native plants.",
+   "seoTitle": "Rao Jodha Desert Rock Park, Jodhpur: Trails",
+   "seoDescription": "Walk the trails of Rao Jodha Desert Rock Park, a 72-hectare restoration of native Thar Desert plants at the foot of Mehrangarh Fort in Jodhpur.",
+   "lat": 26.301,
+   "lng": 73.02,
+   "tripTypes": [
+    "nature"
+   ],
+   "images": [
+    {
+     "commons": "File:Mehrangarh RaoJodhaDNP DSC0158.jpg",
+     "alt": "Mehrangarh Fort above the scrub of Rao Jodha Desert Rock Park",
+     "hero": true
+    }
+   ],
+   "sections": {
+    "overview": {
+     "text": "The Rao Jodha Desert Rock Park covers 72 hectares at the foot of Mehrangarh Fort. It is an ecological restoration project showing the native plants and wildlife of the Thar Desert. Visitors can follow walking trails over the rocky ground, with big views of the fort above, and learn how the desert is being restored.\n\nIt's a quiet counterpoint to the fort, and the two are easy to combine in a morning.",
+     "facts": [
+      "JD4"
+     ]
+    },
+    "travel_tips": {
+     "items": [
+      {
+       "body": "Walk early in the morning; there is little shade."
+      },
+      {
+       "body": "Wear sturdy shoes for the rocky trails and carry water."
+      },
+      {
+       "body": "Combine it with your Mehrangarh visit."
+      },
+      {
+       "body": "Pick up a trail map at the entrance."
+      },
+      {
+       "body": "Look out for desert birds and lizards among the rocks."
+      },
+      {
+       "body": "The visitor centre explains the restoration work, so start there."
+      }
+     ],
+     "facts": []
+    }
+   }
+  },
+  {
+   "key": "rajasthan/jaisalmer",
+   "kind": "town",
+   "name": "Jaisalmer",
+   "parent": "rajasthan",
+   "summary": "The Golden City of the Thar: a living fort, carved havelis, Jain temples, and dune safaris at Sam and Khuri.",
+   "seoTitle": "Jaisalmer Travel Guide: Fort, Dunes, Food & Shopping",
+   "seoDescription": "Plan a Jaisalmer trip: the living fort, havelis and Jain temples, Sam and Khuri dune safaris, Desert National Park, Tanot Mata, Desert Festival dates and local food.",
+   "lat": 26.9157,
+   "lng": 70.9083,
+   "tripTypes": [
+    "heritage",
+    "adventure"
+   ],
+   "images": [
+    {
+     "commons": "File:Jaisalmer Fort, India.jpg",
+     "alt": "Golden sandstone walls of Jaisalmer Fort",
+     "hero": true
+    }
+   ],
+   "sections": {
+    "overview": {
+     "text": "Jaisalmer, the 'Golden City', rises out of the Thar Desert near the Pakistan border. Its fort is a UNESCO World Heritage Site and Rajasthan's only 'living fort', home to nearly 3,000 people along with temples, shops and restaurants. Inside are seven carved Jain temples, and below are havelis such as Nathmal ki Haveli and Patwon ki Haveli.\n\nBeyond town are the dunes of Sam and Khuri for camel and jeep safaris, Desert National Park, the Akal fossil park and the border shrine of Tanot Mata. Come between November and March, when it's mild.",
+     "facts": [
+      "JS1",
+      "JS12",
+      "JS11",
+      "JS4",
+      "JS5",
+      "JS6",
+      "JS10",
+      "JS2"
+     ]
+    },
+    "key_facts": {
+     "items": [
+      {
+       "title": "Best time",
+       "body": "November–March",
+       "status": "seasonal"
+      },
+      {
+       "title": "Desert Festival",
+       "body": "Around January–February",
+       "status": "seasonal"
+      },
+      {
+       "title": "Fort",
+       "body": "A living fort with nearly 3,000 residents",
+       "status": "verified"
+      },
+      {
+       "title": "Dunes",
+       "body": "Sam and Khuri for camel safaris",
+       "status": "verified"
+      }
+     ],
+     "facts": [
+      "JS2",
+      "JS3",
+      "JS1",
+      "JS4"
+     ]
+    },
+    "food": {
+     "items": [
+      {
+       "body": "Mirchi bhajiya and pyaz ki kachori.",
+       "status": "verified"
+      },
+      {
+       "body": "Kesariya thandai and makhania lassi to beat the heat.",
+       "status": "verified"
+      }
+     ],
+     "facts": [
+      "JS8"
+     ]
+    },
+    "shopping": {
+     "items": [
+      {
+       "body": "Ethnic wear with applique, mirror and gota work.",
+       "status": "verified"
+      },
+      {
+       "body": "Batik, tie-dye and block-printed textiles.",
+       "status": "verified"
+      }
+     ],
+     "facts": [
+      "JS9"
+     ]
+    },
+    "who_its_for": {
+     "items": [
+      {
+       "title": "Adventure seekers",
+       "body": "Camel and jeep safaris and dune bashing at Sam, Khuri and Lakhmna."
+      },
+      {
+       "title": "History lovers",
+       "body": "The living fort, Jain temples and havelis."
+      },
+      {
+       "title": "Wildlife watchers",
+       "body": "Desert National Park, home of the Great Indian Bustard."
+      },
+      {
+       "title": "Culture lovers",
+       "body": "Folk music and dance every evening, and the Desert Festival."
+      },
+      {
+       "title": "Military history buffs",
+       "body": "The Indian Army war museum at the Jaisalmer military base."
+      },
+      {
+       "title": "Easy outings",
+       "body": "Amar Sagar lake and palace, 7 km west of town."
+      }
+     ],
+     "facts": [
+      "JS4",
+      "JS1",
+      "JS12",
+      "JS11",
+      "JS5",
+      "JS14",
+      "JS3",
+      "JS13",
+      "JS7"
+     ]
+    },
+    "common_mistakes": {
+     "items": [
+      {
+       "body": "Visiting in peak summer. November to March is the comfortable season."
+      },
+      {
+       "body": "Leaving the dunes until midday. Go for sunrise or sunset."
+      },
+      {
+       "body": "Treating the fort as a museum only: people live there, so respect homes and temples."
+      }
+     ],
+     "facts": [
+      "JS2",
+      "JS4",
+      "JS1"
+     ]
+    }
+   }
+  },
+  {
+   "key": "rajasthan/desert-national-park",
+   "kind": "nature",
+   "name": "Desert National Park",
+   "parent": "rajasthan/jaisalmer",
+   "summary": "Thar Desert reserve of dunes and scrub, home to blackbuck, chinkara and the Great Indian Bustard.",
+   "seoTitle": "Desert National Park, Jaisalmer: Wildlife & Bustard",
+   "seoDescription": "Desert National Park near Jaisalmer protects the Thar's dunes and wildlife, including blackbuck, chinkara, desert fox and the endangered Great Indian Bustard.",
+   "lat": 26.45,
+   "lng": 70.6,
+   "tripTypes": [
+    "wildlife",
+    "nature"
+   ],
+   "images": [
+    {
+     "commons": "File:Chinkara Desert NP Jaisalmer.jpg",
+     "alt": "A chinkara bounding through scrub in Desert National Park, Jaisalmer",
+     "hero": true
+    }
+   ],
+   "sections": {
+    "overview": {
+     "text": "Desert National Park shows off the best of the Thar Desert's ecosystem: rolling dunes, jagged rocks, salt-lake beds and grassland. Blackbuck, chinkara and desert fox live here.\n\nIt is also one of the last homes of the highly endangered Great Indian Bustard, one of the world's heaviest flying birds; fewer than a hundred survive in the wild.",
+     "facts": [
+      "JS5"
+     ]
+    },
+    "travel_tips": {
+     "items": [
+      {
+       "body": "Go with a licensed guide and keep to permitted tracks."
+      },
+      {
+       "body": "Early morning gives the best wildlife sightings and cooler air."
+      },
+      {
+       "body": "Bring binoculars, a hat and plenty of water."
+      },
+      {
+       "body": "Winter mornings are the most comfortable time to visit; summer days are extremely hot."
+      },
+      {
+       "body": "Keep noise down and stay in the vehicle near wildlife."
+      },
+      {
+       "body": "Combine the park with a night at the Sam dunes."
+      },
+      {
+       "body": "Follow the park's rules and your guide's instructions at all times."
+      }
+     ],
+     "facts": []
+    }
+   }
+  },
+  {
+   "key": "rajasthan/tanot-mata-temple",
+   "kind": "temple",
+   "name": "Tanot Mata Temple",
+   "parent": "rajasthan/jaisalmer",
+   "summary": "Border shrine near Longewala, famed because shells that fell around it in 1965 and 1971 did not explode.",
+   "seoTitle": "Tanot Mata Temple, Jaisalmer: Border Shrine",
+   "seoDescription": "Tanot Mata Temple near the Longewala border is revered by soldiers; shells that fell around it in the 1965 and 1971 wars famously failed to explode.",
+   "lat": 27.76,
+   "lng": 70.36,
+   "tripTypes": [
+    "spiritual"
+   ],
+   "images": [
+    {
+     "commons": "File:Mateshwari Tanot Rai -(Suresh Godara).JPG",
+     "alt": "Victory pillar at Tanot Mata temple near the India–Pakistan border",
+     "hero": true
+    }
+   ],
+   "sections": {
+    "overview": {
+     "text": "Tanot Mata Temple stands in the desert near the Longewala border and is said to offer divine protection to India's soldiers. It became famous across the country during the India–Pakistan wars of 1965 and 1971: despite heavy shelling, none of the bombs that fell around the temple exploded.\n\nIt is a long day trip from Jaisalmer through the open desert, close to the international border, so set out early and travel with a driver who knows the route.",
+     "facts": [
+      "JS10"
+     ]
+    },
+    "travel_tips": {
+     "items": [
+      {
+       "body": "Start early and carry water and food; services on the route are sparse."
+      },
+      {
+       "body": "Carry photo ID; this is a border area."
+      },
+      {
+       "body": "Ask your driver about stopping near Longewala, close to the border, on the same trip."
+      },
+      {
+       "body": "Dress modestly and remove shoes at the shrine."
+      },
+      {
+       "body": "Fuel up in Jaisalmer before you leave town."
+      }
+     ],
+     "facts": []
+    }
+   }
+  },
+  {
+   "key": "rajasthan/nathmal-ki-haveli",
+   "kind": "attraction",
+   "name": "Nathmal ki Haveli",
+   "parent": "rajasthan/jaisalmer",
+   "summary": "19th-century haveli built by two brothers from opposite ends, with two similar but asymmetrical halves.",
+   "seoTitle": "Nathmal ki Haveli, Jaisalmer: Carved Mansion",
+   "seoDescription": "Nathmal ki Haveli in Jaisalmer was built by two architect brothers working from opposite ends, creating two similar but asymmetrical carved halves.",
+   "lat": 26.915,
+   "lng": 70.913,
+   "tripTypes": [
+    "heritage"
+   ],
+   "images": [
+    {
+     "commons": "File:Nathmal ki Haveli upper floors.jpg",
+     "alt": "Carved yellow sandstone facade of Nathmal ki Haveli, Jaisalmer",
+     "hero": true
+    }
+   ],
+   "sections": {
+    "overview": {
+     "text": "Nathmal ki Haveli is one of Jaisalmer's finest merchant mansions, carved from the town's golden sandstone. It was built by two architect brothers who started at opposite ends at the same time. The result is two halves that are similar but not quite matching, which visitors enjoy comparing.\n\nIt sits in the old town below the fort and is easy to combine with Patwon ki Haveli on a walk through the lanes.",
+     "facts": [
+      "JS11"
+     ]
+    },
+    "travel_tips": {
+     "items": [
+      {
+       "body": "Look closely at the two halves to spot the differences."
+      },
+      {
+       "body": "Morning light shows the carving best."
+      },
+      {
+       "body": "Parts are still lived in, so be respectful."
+      },
+      {
+       "body": "Allow about an hour, and pair it with Patwon ki Haveli nearby in the old town lanes."
+      },
+      {
+       "body": "Some rooms may charge a small entry fee; carry change."
+      }
+     ],
+     "facts": []
+    }
+   }
+  }
+ ],
+ "itineraries": []
+}

@@ -1,0 +1,436 @@
+{
+ "cluster": "sikkim2-gangtok",
+ "title": "Gangtok",
+ "researchedAt": "2026-11-18",
+ "selection": "Batch 1. Gangtok already had 8 attraction pages and itineraries but a thin town page. This adds seasons, getting around, food, shopping, permits, safety and FAQs from Incredible India and Wikipedia (Gangtok, Sikkim, Nathu La). Sikkim Tourism's site wasn't reachable during research. Permit rules should be re-checked with Sikkim Tourism before each refresh.",
+ "sources": {
+  "II_GTK": {
+   "url": "https://www.incredibleindia.gov.in/en/sikkim/gangtok",
+   "title": "Gangtok — Incredible India (Ministry of Tourism)",
+   "authority": "government"
+  },
+  "W_GTK": {
+   "url": "https://en.wikipedia.org/wiki/Gangtok",
+   "title": "Gangtok — Wikipedia",
+   "authority": "reference"
+  },
+  "W_SIK": {
+   "url": "https://en.wikipedia.org/wiki/Sikkim",
+   "title": "Sikkim — Wikipedia",
+   "authority": "reference"
+  },
+  "W_NAT": {
+   "url": "https://en.wikipedia.org/wiki/Nathu_La",
+   "title": "Nathu La — Wikipedia",
+   "authority": "reference"
+  }
+ },
+ "facts": {
+  "GK1": {
+   "place": "sikkim/gangtok",
+   "topic": "Climate",
+   "claim": "Summer highs average about 22 °C and winter lows about 5 °C; late April–May is mild.",
+   "claimType": "general",
+   "kind": "seasonal",
+   "evidence": [
+    {
+     "source": "W_GTK",
+     "quote": "Temperatures range from an average maximum of 22 °C (72 °F) in summertime to an average minimum of 5 °C (41 °F) in winter."
+    }
+   ]
+  },
+  "GK2": {
+   "place": "sikkim/gangtok",
+   "topic": "Monsoon",
+   "claim": "The June–September monsoon brings torrential rain and landslides that can cut road access.",
+   "claimType": "general",
+   "kind": "seasonal",
+   "evidence": [
+    {
+     "source": "W_GTK",
+     "quote": "The monsoon season from June to September is characterised by intense torrential rains, often causing landslides that block Gangtok's land access to the rest of the country."
+    }
+   ]
+  },
+  "GK3": {
+   "place": "sikkim/gangtok",
+   "topic": "Tourist seasons",
+   "claim": "Spring and summer are the most popular tourist seasons.",
+   "claimType": "general",
+   "kind": "seasonal",
+   "evidence": [
+    {
+     "source": "W_GTK",
+     "quote": "Summer and spring seasons are the most popular tourist seasons."
+    }
+   ]
+  },
+  "GK4": {
+   "place": "sikkim/gangtok",
+   "topic": "Getting around",
+   "claim": "Taxis are the main public transport; longer trips use shared jeeps.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "W_GTK",
+     "quote": "Taxis are the most widely available public transport within Gangtok."
+    },
+    {
+     "source": "W_GTK",
+     "quote": "Those travelling longer distances generally make use of share-jeeps, a kind of public taxis."
+    }
+   ]
+  },
+  "GK5": {
+   "place": "sikkim/gangtok",
+   "topic": "Cable car",
+   "claim": "A 1 km cable car with three stops links lower Gangtok with the Legislative Assembly in the centre.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "W_GTK",
+     "quote": "The 1 km (0.6 mi) long cable car with three stops connects lower Gangtok suburbs with Sikkim Legislative assembly in central Gangtok"
+    }
+   ]
+  },
+  "GK6": {
+   "place": "sikkim/gangtok",
+   "topic": "Shopping streets",
+   "claim": "MG Marg and Lal Market are the main business and tourist areas.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "W_GTK",
+     "quote": "Mahatma Gandhi Marg and Lal Market are prominent business areas and tourist spots in Gangtok."
+    }
+   ]
+  },
+  "GK7": {
+   "place": "sikkim/gangtok",
+   "topic": "Food",
+   "claim": "Sikkimese food to try includes momos, thukpa and gundruk.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "II_GTK",
+     "quote": "don't miss the opportunity to sample traditional delicacies like momos, thukpa, and gundruk at one of the many local eateries dotting the city."
+    }
+   ]
+  },
+  "GK8": {
+   "place": "sikkim/gangtok",
+   "topic": "Plastic ban",
+   "claim": "Sikkim bans polythene bags.",
+   "claimType": "rule",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "W_GTK",
+     "quote": "The city is under a statewide ban on the use of polythene bags."
+    }
+   ]
+  },
+  "GK9": {
+   "place": "sikkim/gangtok",
+   "topic": "Kanchenjunga view",
+   "claim": "Kanchenjunga, the world's third-highest peak, is visible west of the city.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "W_GTK",
+     "quote": "Mount Kanchenjunga (8,598 m or 28,209 ft)—the world's third-highest peak—is visible to the west of the city."
+    }
+   ]
+  },
+  "GK10": {
+   "place": "sikkim/gangtok",
+   "topic": "Festivals",
+   "claim": "Tibetans celebrate Losar with the Devil Dance in January–February; Pang Lhabsol has masked dances.",
+   "claimType": "schedule",
+   "kind": "seasonal",
+   "evidence": [
+    {
+     "source": "W_GTK",
+     "quote": "Tibetans celebrate the new year (Losar) with"
+    },
+    {
+     "source": "II_GTK",
+     "quote": "witness the centuries-old tradition of mask dancing at the annual Pang Lhabsol festival"
+    }
+   ]
+  },
+  "GK11": {
+   "place": "sikkim/gangtok",
+   "topic": "Restricted areas",
+   "claim": "Many areas of Sikkim are restricted to foreigners and need official permits.",
+   "claimType": "rule",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "W_SIK",
+     "quote": "Many areas are restricted to foreigners, and official permits are needed to visit them."
+    }
+   ]
+  },
+  "GK12": {
+   "place": "sikkim/gangtok",
+   "topic": "Nathu La rules",
+   "claim": "Only Indian citizens may visit Nathu La, Thursday to Sunday, with permits obtained a day ahead in Gangtok.",
+   "claimType": "rule",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "W_NAT",
+     "quote": "On the Indian side, only citizens of India can visit the pass on Thursdays to Sundays, after obtaining permits one day in advance in Gangtok."
+    }
+   ]
+  },
+  "GK13": {
+   "place": "sikkim/gangtok",
+   "topic": "Fog",
+   "claim": "Gangtok is often in fog during the monsoon and winter.",
+   "claimType": "general",
+   "kind": "seasonal",
+   "evidence": [
+    {
+     "source": "W_GTK",
+     "quote": "Gangtok is often enveloped in fog during the monsoon and winter months."
+    }
+   ]
+  },
+  "GK14": {
+   "place": "sikkim/gangtok",
+   "topic": "Rail link",
+   "claim": "Siliguri is the nearest major rail hub; a broad-gauge line from Sevoke to Rangpo is being built.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "W_GTK",
+     "quote": "Work has begun on a broad-gauge railway link from Sevoke in West Bengal to Rangpo in Sikkim"
+    }
+   ]
+  },
+  "GK15": {
+   "place": "sikkim/gangtok",
+   "topic": "Monasteries",
+   "claim": "Rumtek overlooks the city; Enchey lies amid forest.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "II_GTK",
+     "quote": "Visit the iconic Rumtek Monastery, perched atop a hill overlooking the city"
+    }
+   ]
+  }
+ },
+ "places": [
+  {
+   "key": "sikkim/gangtok",
+   "kind": "city",
+   "name": "Gangtok",
+   "parent": "sikkim",
+   "summary": "Sikkim's hill capital at 1,650 m: MG Marg, monasteries, Kanchenjunga views and the base for Tsomgo Lake and Nathu La.",
+   "seoTitle": "Gangtok Travel Guide: MG Marg, Permits & Getting Around",
+   "seoDescription": "Plan a Gangtok trip: MG Marg and Lal Market, monasteries, the cable car, taxis and shared jeeps, permits for Nathu La, monsoon landslides and Sikkimese food.",
+   "lat": 27.3389,
+   "lng": 88.6065,
+   "tripTypes": [
+    "mountains",
+    "spiritual",
+    "family"
+   ],
+   "images": [
+    {
+     "commons": "File:M.G. Marg, Gangtok 01.jpg",
+     "alt": "MG Marg promenade in Gangtok",
+     "hero": true
+    }
+   ],
+   "sections": {
+    "overview": {
+     "text": "Gangtok, Sikkim's capital, spreads across a ridge at about 1,650 m with views west to Kanchenjunga, the world's third-highest peak. Life centres on MG Marg, the pedestrian promenade, and on Lal Market. Monasteries such as Rumtek and Enchey look down on the town.\n\nIt is the base for Tsomgo Lake and Nathu La, and for journeys on to North Sikkim and Pelling. Spring and summer are the main seasons. The monsoon (June–September) brings heavy rain and landslides that can cut the roads.",
+     "facts": [
+      "GK9",
+      "GK6",
+      "GK15",
+      "GK3",
+      "GK2"
+     ]
+    },
+    "best_time": {
+     "text": "Spring and summer are the most popular seasons. Late April and May are mild, with highs rarely above 25 °C. Winter nights fall to about 5 °C, and Gangtok is often in fog in winter and the monsoon. The monsoon, June to September, brings torrential rain and landslides that can block the roads, so leave slack in your plans. Losar, the Tibetan new year, is celebrated with the Devil Dance in January–February.",
+     "facts": [
+      "GK3",
+      "GK1",
+      "GK13",
+      "GK2",
+      "GK10"
+     ]
+    },
+    "local_transport": {
+     "text": "Taxis are the main public transport within Gangtok. Shared jeeps run longer routes around Sikkim. A 1 km cable car with three stops links lower Gangtok with the Legislative Assembly in the centre and is also a good way to see the town. MG Marg itself is best on foot.",
+     "facts": [
+      "GK4",
+      "GK5",
+      "GK6"
+     ]
+    },
+    "food": {
+     "items": [
+      {
+       "body": "Momos and thukpa from local eateries.",
+       "status": "verified"
+      },
+      {
+       "body": "Gundruk, fermented leafy greens, a Sikkimese staple.",
+       "status": "verified"
+      }
+     ],
+     "facts": [
+      "GK7"
+     ]
+    },
+    "shopping": {
+     "items": [
+      {
+       "body": "MG Marg for handicrafts and fashion.",
+       "status": "verified"
+      },
+      {
+       "body": "Lal Market, the busy local bazaar.",
+       "status": "verified"
+      },
+      {
+       "body": "Bring a cloth bag: Sikkim bans polythene bags.",
+       "status": "verified"
+      }
+     ],
+     "facts": [
+      "GK6",
+      "GK8"
+     ]
+    },
+    "practical_info": {
+     "items": [
+      {
+       "title": "Permits",
+       "body": "Many areas of Sikkim are restricted to foreigners and need official permits. Arrange them through your operator in Gangtok.",
+       "status": "verified"
+      },
+      {
+       "title": "Nathu La",
+       "body": "Indian citizens only, Thursday to Sunday, with a permit obtained a day ahead in Gangtok.",
+       "status": "verified"
+      },
+      {
+       "title": "Plastic",
+       "body": "Polythene bags are banned statewide.",
+       "status": "verified"
+      },
+      {
+       "title": "Getting there",
+       "body": "Via Siliguri. A rail link from Sevoke to Rangpo is under construction.",
+       "status": "verified"
+      }
+     ],
+     "facts": [
+      "GK11",
+      "GK12",
+      "GK8",
+      "GK14"
+     ]
+    },
+    "safety_health": {
+     "items": [
+      {
+       "title": "Monsoon",
+       "body": "June–September landslides can block roads to and from Gangtok. Build in buffer days and avoid travelling after heavy rain.",
+       "status": "seasonal"
+      },
+      {
+       "title": "Fog",
+       "body": "Mountain roads are often foggy in winter and the monsoon. Start drives early.",
+       "status": "seasonal"
+      }
+     ],
+     "facts": [
+      "GK2",
+      "GK13"
+     ]
+    },
+    "travel_tips": {
+     "items": [
+      {
+       "body": "Apply for Tsomgo and Nathu La permits through an operator a day ahead."
+      },
+      {
+       "body": "Catch Kanchenjunga early in the morning before cloud builds."
+      },
+      {
+       "body": "Ride the cable car for an easy overview of the town."
+      }
+     ],
+     "facts": [
+      "GK12",
+      "GK9",
+      "GK5"
+     ]
+    },
+    "common_mistakes": {
+     "items": [
+      {
+       "body": "Turning up for Nathu La without a permit, or on a Monday–Wednesday."
+      },
+      {
+       "body": "Planning tight connections in the monsoon, when landslides often block roads."
+      },
+      {
+       "body": "Foreign visitors heading into restricted areas without the right permits."
+      }
+     ],
+     "facts": [
+      "GK12",
+      "GK2",
+      "GK11"
+     ]
+    },
+    "faqs": {
+     "items": [
+      {
+       "title": "Can foreigners visit Nathu La?",
+       "body": "No. Only Indian citizens may visit, Thursday to Sunday, with a permit obtained a day ahead in Gangtok."
+      },
+      {
+       "title": "Do I need a permit for Sikkim?",
+       "body": "Many areas are restricted to foreigners and need official permits. Arrange them before heading out of Gangtok."
+      },
+      {
+       "title": "When is the best time to visit Gangtok?",
+       "body": "Spring and summer. Avoid June–September if you can, since monsoon landslides often block the roads."
+      },
+      {
+       "title": "How do I get around Gangtok?",
+       "body": "By taxi within town, shared jeep for longer trips, and the cable car for a scenic hop."
+      }
+     ],
+     "facts": [
+      "GK12",
+      "GK11",
+      "GK3",
+      "GK2",
+      "GK4",
+      "GK5"
+     ]
+    }
+   }
+  }
+ ],
+ "itineraries": []
+}

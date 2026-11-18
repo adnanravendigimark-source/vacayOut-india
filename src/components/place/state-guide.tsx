@@ -15,7 +15,7 @@ import { PageAssistant } from "@/components/assistant/page-assistant";
 import { buildPack } from "@/lib/assistant/pack";
 import { FaqList, SectionBody as SectionBodyView, StatusPill } from "./section-body";
 import { HashDialogs } from "./interactive";
-import { FilterCards, PlanAiButton, PracticalTabs, RegionAccordion, SectionNav, type RegionGeo } from "./state-guide-client";
+import { FilterCards, PlanAiButton, PracticalTabs, RegionAccordion, SeasonPanels, SectionNav, type RegionGeo, type SeasonPanel } from "./state-guide-client";
 import { INDIA_MAP_PATHS } from "@/components/home/india-map-data";
 import { shapeStates } from "@/components/home/regions";
 import { pathBBox, projectIndia } from "@/lib/india-svg-geo";
@@ -445,13 +445,6 @@ function labelled(p: string) {
   return { label: when ? head.slice(0, when.index).trim() : head, when: when ? when[1] : null, text: text.charAt(0).toUpperCase() + text.slice(1) };
 }
 
-const SEASON_TONE: { re: RegExp; card: string; tag: string }[] = [
-  { re: /monsoon|rain/i, card: "border-amber-200 bg-amber-50/60", tag: "text-amber-800" },
-  { re: /winter|snow/i, card: "border-sky-200 bg-sky-50/60", tag: "text-sky-800" },
-  { re: /summer|spring/i, card: "border-emerald-200 bg-emerald-50/50", tag: "text-emerald-800" },
-];
-const seasonTone = (label: string) => SEASON_TONE.find((t) => t.re.test(label)) ?? { card: "border-[#EAE7E0] bg-[#FAF8F5]", tag: "text-coral" };
-
 export function StateGuide({
   snapshot,
   stateSlug,
@@ -645,6 +638,49 @@ export function StateGuide({
   const seasonParas = paragraphs(bestTime?.body.text);
   const seasonCards = seasonParas.map(labelled);
   const seasonSplit = seasonCards.length > 1 && seasonCards.every(Boolean);
+
+  // Seasons that name a time of year become photo panels; other labelled notes (a region, the roads) go below.
+  const MONTHS = ["jan", "feb", "mar", "apr", "may", "jun", "jul", "aug", "sep", "oct", "nov", "dec"];
+  const monthsOf = (when: string | null) => {
+    const found = [...(when ?? "").toLowerCase().matchAll(/jan|feb|mar|apr|may|jun|jul|aug|sep|oct|nov|dec/g)].map((m) => MONTHS.indexOf(m[0]));
+    if (!found.length) return [];
+    const [a, b] = [found[0], found[found.length - 1]];
+    const out: number[] = [];
+    for (let m = a; ; m = (m + 1) % 12) { out.push(m); if (m === b || out.length > 12) break; }
+    return out;
+  };
+  const SNOWY = /snow|ski|winter|frozen|ice|frost|glacier/i;
+  const SEASON_IMG: { re: RegExp; pick: RegExp; avoid?: RegExp }[] = [
+    { re: /winter|snow/i, pick: SNOWY },
+    { re: /autumn|post-monsoon|festive|october/i, pick: /festival|dussehra|autumn|orchard|apple|fair|monastery|gompa/i, avoid: SNOWY },
+    { re: /monsoon|rain/i, pick: /monsoon|rain|waterfall|mist|cloud|river|forest|tea/i, avoid: SNOWY },
+    { re: /summer|spring/i, pick: /meadow|lake|summer|trek|paraglid|blossom|flower|camp/i, avoid: SNOWY },
+  ];
+  // "November–February: …" labels are seasons too: name them from their months, keep the months as "when".
+  const seasonName = (ms: number[]) =>
+    ms.includes(0) || ms.includes(11) ? "Winter" : ms.some((m) => m >= 6 && m <= 8) ? "Monsoon" : ms.some((m) => m >= 3 && m <= 5) ? "Summer" : ms.some((m) => m === 9 || m === 10) ? "Autumn" : "Spring";
+  const seasonCardsOk = (seasonSplit ? (seasonCards as NonNullable<(typeof seasonCards)[number]>[]) : []).map((c) => {
+    const ms = monthsOf(c.label);
+    return ms.length && !SEASON_IMG.some((x) => x.re.test(c.label)) && !c.when ? { ...c, label: seasonName(ms), when: c.label } : c;
+  });
+  const isSeason = (label: string) => SEASON_IMG.some((x) => x.re.test(label));
+  const imgPool = [...destinations, ...attractions, ...activities].filter((x) => x.hero);
+  const usedImg = new Set<string>();
+  const imgText = (x: (typeof imgPool)[number]) => `${x.hero!.alt} ${x.name}`;
+  // Pick photos rule by rule (most specific first), then lay the panels out in the text's order.
+  const picked = new Map<string, (typeof imgPool)[number]>();
+  for (const rule of SEASON_IMG) {
+    for (const c of seasonCardsOk.filter((c) => rule.re.test(c.label) && !picked.has(c.label))) {
+      const ok = (x: (typeof imgPool)[number]) => !usedImg.has(x.hero!.url) && !(rule.avoid && rule.avoid.test(imgText(x)));
+      const hit = imgPool.find((x) => ok(x) && rule.pick.test(imgText(x))) ?? imgPool.find(ok);
+      if (hit) { usedImg.add(hit.hero!.url); picked.set(c.label, hit); }
+    }
+  }
+  const seasonPanels: SeasonPanel[] = seasonCardsOk.filter((c) => isSeason(c.label)).map((c) => {
+    const hit = picked.get(c.label);
+    return { label: c.label, when: c.when, text: c.text, months: monthsOf(c.when ?? c.label), image: hit ? { url: hit.hero!.url, alt: hit.hero!.alt, ai: hit.hero!.kind === "ai_generated" } : null };
+  });
+  const seasonNotes = seasonPanels.length > 1 ? seasonCardsOk.filter((c) => !isSeason(c.label)) : [];
 
   // Practical sections not shown elsewhere, in a traveller's order.
   const PRACTICAL: { key: string; title: string; icon: Name }[] = [
@@ -1076,47 +1112,59 @@ export function StateGuide({
           </section>
         ) : null}
 
-        {/* F. Best time */}
+        {/* F. Best time: the seasons as photo panels, then short notes and seasonal access */}
         {bestTime ? (
-          <section id="best-time" aria-labelledby="best-time-h" className="scroll-mt-36 rounded-3xl border border-[#E5E2DC] bg-white p-6 shadow-xs sm:p-8">
-            <SectionHead id="best-time" eyebrow="Seasons & road access" title={`Best time to visit ${name}`} />
-            {seasonSplit ? (
-              <ul className="mb-8 grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
-                {seasonCards.map((c, i) => {
-                  const tone = seasonTone(c!.label);
-                  return (
-                    <li key={i} className={`rounded-xl border p-4 ${tone.card}`}>
-                      {c!.when ? <p className={`text-xs font-bold ${tone.tag}`}>{c!.when}</p> : null}
-                      <h3 className="mt-0.5 text-sm font-bold text-ink">{c!.label}</h3>
-                      <p className="mt-1.5 text-[0.8125rem] leading-relaxed text-[#555]">{c!.text}</p>
-                    </li>
-                  );
-                })}
-              </ul>
+          <section id="best-time" aria-labelledby="best-time-h" className="scroll-mt-36">
+            <SectionHead id="best-time" eyebrow="When to go" title={`Best time to visit ${name}`} intro={seasonPanels.length > 1 ? "Each season suits a different trip. Point at one to see what to expect." : undefined} />
+            {seasonPanels.length > 1 ? (
+              <SeasonPanels seasons={seasonPanels} />
+            ) : (
+              <div className="flex gap-4 rounded-2xl bg-[#F6F1EA] p-6 sm:p-8">
+                <span className="grid size-10 shrink-0 place-items-center rounded-full bg-white text-coral"><Icon name="calendar" size={18} /></span>
+                <div className="max-w-3xl space-y-3 text-[1rem] leading-relaxed text-[#444]">
+                  {seasonParas.map((p, i) => <p key={i} className={i === 0 ? "text-ink" : undefined}>{p}</p>)}
+                </div>
+              </div>
+            )}
+
+            {seasonNotes.length || bestTime.body.items?.length || seasonal.length ? (
+              <div className="mt-10 grid gap-10 border-t border-[#ECE8E2] pt-8 lg:grid-cols-2">
+                {seasonNotes.length || bestTime.body.items?.length ? (
+                  <div>
+                    <h3 className="text-xs font-semibold uppercase tracking-[0.14em] text-[#999999]">Good to know</h3>
+                    <ul className="mt-2 divide-y divide-[#F2EEE8]">
+                      {seasonNotes.map((n, i) => (
+                        <li key={i} className="py-3 text-sm leading-relaxed">
+                          <span className="font-medium text-ink">{n.label}</span>
+                          {n.when ? <span className="text-[#999999]"> ({n.when})</span> : null}
+                          <span className="text-[#CCCCCC]"> · </span>
+                          <span className="text-[#666666]">{n.text}</span>
+                        </li>
+                      ))}
+                      {(bestTime.body.items ?? []).map((it, i) => (
+                        <li key={`i${i}`} className="py-3 text-sm leading-relaxed">
+                          {it.title ? <><span className="font-medium text-ink">{it.title}</span><span className="text-[#CCCCCC]"> · </span></> : null}
+                          <span className="text-[#666666]">{it.body}</span>
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+                ) : null}
+                {seasonal.length ? (
+                  <div>
+                    <h3 className="text-xs font-semibold uppercase tracking-[0.14em] text-[#999999]">When places open</h3>
+                    <ul className="mt-2 divide-y divide-[#F2EEE8]">
+                      {seasonal.map(({ p, it }) => (
+                        <li key={p.slug} className="flex gap-4 py-3 text-sm">
+                          <Link href={pageOf(p)!} className="w-40 shrink-0 font-medium text-ink hover:text-coral">{p.name}</Link>
+                          <span className="min-w-0 text-[#666666]">{/^closed/i.test(it.title ?? "") ? "Closed " : ""}{it.body}</span>
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+                ) : null}
+              </div>
             ) : null}
-            <div className={`grid gap-8 ${seasonal.length && !seasonSplit ? "lg:grid-cols-12" : ""}`}>
-              {!seasonSplit || bestTime.body.items?.length ? (
-                <div className={`space-y-3 text-[0.9375rem] leading-relaxed text-[#444] ${seasonal.length && !seasonSplit ? "lg:col-span-7" : ""}`}>
-                  {seasonSplit ? null : seasonParas.map((p, i) => <p key={i}>{p}</p>)}
-                  {bestTime.body.items?.length ? <FactRows items={bestTime.body.items} /> : null}
-                </div>
-              ) : null}
-              {seasonal.length ? (
-                <div className={seasonSplit ? "" : "lg:col-span-5"}>
-                  <p className="mb-3 text-xs font-bold uppercase tracking-wider text-[#888]">Seasonal access to places</p>
-                  <ul className={seasonSplit ? "grid gap-2.5 sm:grid-cols-2 lg:grid-cols-3" : "space-y-2.5"}>
-                    {seasonal.map(({ p, it }) => (
-                      <li key={p.slug} className="rounded-xl border border-[#EAE7E0] bg-[#FAF8F5] p-3 text-[0.8125rem] leading-snug text-[#555]">
-                        <Link href={pageOf(p)!} className="font-semibold text-ink hover:text-coral">{p.name}</Link>
-                        <span className="text-[#888]"> · {it.title}</span>
-                        {it.status ? <StatusPill status={it.status} className="ml-1.5 align-middle" /> : null}
-                        <p className="mt-1">{it.body}</p>
-                      </li>
-                    ))}
-                  </ul>
-                </div>
-              ) : null}
-            </div>
           </section>
         ) : null}
 

@@ -1,0 +1,522 @@
+{
+ "cluster": "ladakh2-leh",
+ "title": "Leh",
+ "researchedAt": "2026-11-18",
+ "selection": "Batch 1. Leh already had 13 attraction pages and 2 itineraries but only 5 thin sections on the town page. This adds practical, safety, area, stay, shopping and etiquette sections from the Leh district permit portal (government), the district tourism page and Incredible India. The permit portal also lists medication doses; we deliberately don't publish those and point to a doctor instead.",
+ "sources": {
+  "II_LEH": {
+   "url": "https://www.incredibleindia.gov.in/en/ladakh/leh",
+   "title": "Leh — Incredible India (Ministry of Tourism)",
+   "authority": "government"
+  },
+  "LDTMS": {
+   "url": "https://www.lahdclehpermit.in/",
+   "title": "Leh District Tourists Management System — District Administration Leh",
+   "authority": "government"
+  },
+  "LEH_NIC": {
+   "url": "https://leh.nic.in/tourism/",
+   "title": "Tourism — District Leh (UT Ladakh)",
+   "authority": "government"
+  }
+ },
+ "facts": {
+  "LE1": {
+   "place": "ladakh/leh",
+   "topic": "Acclimatisation",
+   "claim": "Visitors must acclimatise for at least 48 hours in Leh before going higher, avoiding exertion for the first two days; road travel does not help acclimatisation.",
+   "claimType": "rule",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "LDTMS",
+     "quote": "All tourist/visitors arriving in Leh must undergo at least 48 hrs of acclimatization before initiating their journey to high altitude areas"
+    },
+    {
+     "source": "LDTMS",
+     "quote": "Road travel does not help at all in acclimatization."
+    },
+    {
+     "source": "LDTMS",
+     "quote": "There should be no active physical exertion on the first two days of arrival in Leh."
+    }
+   ]
+  },
+  "LE2": {
+   "place": "ladakh/leh",
+   "topic": "Altitude symptoms",
+   "claim": "Most visitors get mild headaches and breathlessness at first; take it easy to avoid Acute Mountain Sickness.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "II_LEH",
+     "quote": "The altitude means that most visitors initially suffer mild headaches and breathlessness."
+    }
+   ]
+  },
+  "LE3": {
+   "place": "ladakh/leh",
+   "topic": "Environment fee",
+   "claim": "Tourists pay a fee that covers the environmental (green) fee, Red Cross fund and wildlife fee, online through the Leh District Tourists Management System.",
+   "claimType": "price",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "LDTMS",
+     "quote": "The fee includes the environmental fee (green fee), Red Cross Fund and wildlife fee."
+    },
+    {
+     "source": "LDTMS",
+     "quote": "The fee can be paid online from the portal Leh District Tourists Management System"
+    }
+   ]
+  },
+  "LE4": {
+   "place": "ladakh/leh",
+   "topic": "Fake slips",
+   "claim": "The district has warned about fake environment-fee slips.",
+   "claimType": "rule",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "LDTMS",
+     "quote": "Important Notice regarding Fake/Fraud Environment Slips"
+    }
+   ]
+  },
+  "LE5": {
+   "place": "ladakh/leh",
+   "topic": "Main Bazaar",
+   "claim": "The Main Bazaar and Nowshar are the heart of town, with eateries and curio shops selling stones and ritual objects such as prayer wheels.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "II_LEH",
+     "quote": "In the heart of town are the Main Bazaar and Nowshar, with their eateries and curio shops selling precious stones and ritual religious objects such as prayer wheels."
+    }
+   ]
+  },
+  "LE6": {
+   "place": "ladakh/leh",
+   "topic": "Old Town",
+   "claim": "The Old Town of stupas and mud-brick houses lies below the palace ridge; beyond the bazaar, lanes lead to irrigated barley fields.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "II_LEH",
+     "quote": "Dotted with stupas and crumbling mud-brick houses, the Old Town is dominated by a dagger of steep rocky ridge topped by an imposing Tibetan - style palace and fort."
+    }
+   ]
+  },
+  "LE7": {
+   "place": "ladakh/leh",
+   "topic": "Caravan town",
+   "claim": "From the 17th century until 1949 Leh was a hub of caravan trade between Punjab, Central Asia, Kashmir and Tibet; the wide Main Bazaar was built for pack animals.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "II_LEH",
+     "quote": "From the 17th century right until 1949, Ladakh’s principal town, Leh, was the hub of the bustling caravan trade between Punjab and Central Asia, and between Kashmir and Tibet."
+    }
+   ]
+  },
+  "LE8": {
+   "place": "ladakh/tsemo-fort",
+   "topic": "Tsemo Fort",
+   "claim": "The 16th-century Tsemo (Victory) Fort crowns Palace Ridge and is visible from almost everywhere in Leh.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "II_LEH",
+     "quote": "Visible from virtually everywhere in Leh, the 16th-century Tsemo (Victory) Fort is a defining landmark that crowns the top of Palace Ridge."
+    }
+   ]
+  },
+  "LE9": {
+   "place": "ladakh/shey-palace",
+   "topic": "Shey",
+   "claim": "Shey, Ladakh's ancient capital, has a palace temple with a large late-17th-century Buddha and 11th-century rock carvings below.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "II_LEH",
+     "quote": "Shey was the ancient capital of Ladakh. Its abandoned palace contains a temple with a gigantic, late 17th - century Buddha image"
+    }
+   ]
+  },
+  "LE10": {
+   "place": "ladakh/leh",
+   "topic": "Monastery etiquette",
+   "claim": "Ladakh's monasteries are active places of worship; approach them respectfully.",
+   "claimType": "rule",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "II_LEH",
+     "quote": "The monasteries are still active centres of worship, so approach them respectfully."
+    }
+   ]
+  },
+  "LE11": {
+   "place": "ladakh/leh",
+   "topic": "Festival dates",
+   "claim": "Monastery festival dates follow the Tibetan lunar calendar and change every year.",
+   "claimType": "schedule",
+   "kind": "seasonal",
+   "evidence": [
+    {
+     "source": "II_LEH",
+     "quote": "The precise dates of monastery festivals are fixed according to the Tibetan lunar calendar and vary every year."
+    }
+   ]
+  },
+  "LE12": {
+   "place": "ladakh/leh",
+   "topic": "Lakes access",
+   "claim": "Pangong Tso and Tso Moriri are reached by road, with no scheduled buses.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "II_LEH",
+     "quote": "are accessible by road, although there are no scheduled bus services."
+    }
+   ]
+  },
+  "LE13": {
+   "place": "ladakh/leh",
+   "topic": "Palace visits",
+   "claim": "Leh Palace is largely unoccupied and partly collapsed inside; carry a torch and watch the uneven floors.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "II_LEH",
+     "quote": "Carry a flashlight and watch out for uneven floor."
+    }
+   ]
+  },
+  "LE14": {
+   "place": "ladakh/leh",
+   "topic": "Accommodation",
+   "claim": "Leh district has about 317 hotels, 691 guest houses, 1,055 homestays and 105 camps.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "LEH_NIC",
+     "quote": "There are about 317 Hotels, 691 Guest Houses, 1055 Homestays and 105 Camps in Leh district."
+    }
+   ]
+  },
+  "LE15": {
+   "place": "ladakh/leh",
+   "topic": "Responsible waste",
+   "claim": "Tourists are asked to bring their rubbish to the Tsangda project for segregation.",
+   "claimType": "rule",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "LDTMS",
+     "quote": "The tourists shall bring their Garbages and Dump the same at Tsangda project for segregation on their way"
+    }
+   ]
+  },
+  "LE16": {
+   "place": "ladakh/leh",
+   "topic": "Pashmina",
+   "claim": "Changthang's pashmina goats supply pashm, the raw fibre of Kashmir's shawl industry.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "II_LEH",
+     "quote": "This fibre, known as pashm, is the raw material for Kashmir’s renowned shawl industry and is, in fact, the unprocessed form of the world-famous cashmere wool."
+    }
+   ]
+  }
+ },
+ "places": [
+  {
+   "key": "ladakh/leh",
+   "kind": "town",
+   "name": "Leh",
+   "parent": "ladakh",
+   "summary": "Ladakh's capital at about 3,500 m: the old caravan town below Leh Palace, base for the Indus monasteries, Nubra and Pangong.",
+   "seoTitle": "Leh Travel Guide: Acclimatisation, Permits & Monasteries",
+   "seoDescription": "Plan a Leh trip: 48-hour acclimatisation, the online environment fee, Main Bazaar and the Old Town, monastery etiquette, where to stay and day trips to Shey.",
+   "lat": 34.1526,
+   "lng": 77.5771,
+   "tripTypes": [
+    "mountains",
+    "adventure",
+    "spiritual"
+   ],
+   "images": [
+    {
+     "commons": "File:Leh City seen from Shanti Stupa.JPG",
+     "alt": "Leh town and the palace ridge seen from Shanti Stupa",
+     "hero": true
+    }
+   ],
+   "relations": [
+    {
+     "to": "ladakh/nubra-valley",
+     "type": "nearby"
+    },
+    {
+     "to": "ladakh/pangong-tso",
+     "type": "nearby"
+    }
+   ],
+   "sections": {
+    "overview": {
+     "text": "Leh, Ladakh's main town, sits at about 3,500 m in a high-altitude desert on the Indus. From the 17th century until 1949 it was a hub of the caravan trade between Punjab and Central Asia and between Kashmir and Tibet, and its broad Main Bazaar was built for horses, donkeys and camels. Above the Old Town of stupas and mud-brick houses rise Leh Palace and the 16th-century Tsemo Fort.\n\nLeh is the base for the great Indus valley monasteries (Thiksey, Hemis, Shey and Stok), and for road trips to Nubra, Pangong Tso and Tso Moriri. Everyone arriving should rest for at least 48 hours before going higher.",
+     "facts": [
+      "LE7",
+      "LE6",
+      "LE8",
+      "LE9",
+      "LE12",
+      "LE1"
+     ]
+    },
+    "practical_info": {
+     "items": [
+      {
+       "title": "Acclimatise first",
+       "body": "At least 48 hours in Leh before higher trips, with no exertion for the first two days. Driving in does not acclimatise you.",
+       "status": "verified"
+      },
+      {
+       "title": "Environment fee",
+       "body": "Pay the green fee (with the Red Cross fund and wildlife fee) online on the Leh District Tourists Management System portal. Beware of fake fee slips.",
+       "status": "verified"
+      },
+      {
+       "title": "Lakes",
+       "body": "Pangong Tso and Tso Moriri are reached by road only. There are no scheduled buses, so hire a taxi or drive.",
+       "status": "verified"
+      },
+      {
+       "title": "Medication",
+       "body": "Talk to a doctor before the trip about altitude sickness and whether medication suits you.",
+       "status": "verified"
+      }
+     ],
+     "facts": [
+      "LE1",
+      "LE3",
+      "LE4",
+      "LE12"
+     ]
+    },
+    "safety_health": {
+     "items": [
+      {
+       "title": "Altitude",
+       "body": "Mild headaches and breathlessness are common at first. Rest, drink plenty of fluids and avoid exertion. Go down and get help if symptoms get worse.",
+       "status": "verified"
+      },
+      {
+       "title": "No shortcuts",
+       "body": "Arriving by road does not prevent altitude sickness; it builds up the effect. Still take the 48-hour rest.",
+       "status": "verified"
+      }
+     ],
+     "facts": [
+      "LE2",
+      "LE1"
+     ]
+    },
+    "neighbourhoods": {
+     "items": [
+      {
+       "title": "Main Bazaar and Nowshar",
+       "body": "The heart of town: eateries, curio shops and village women selling vegetables along the wide kerb.",
+       "status": "verified"
+      },
+      {
+       "title": "Old Town",
+       "body": "Stupas and mud-brick houses below the palace ridge, the way up to Leh Palace and Tsemo Fort.",
+       "status": "verified"
+      },
+      {
+       "title": "Field suburbs",
+       "body": "Lanes fanning out from the bazaar into irrigated barley fields: quieter guesthouse areas.",
+       "status": "verified"
+      }
+     ],
+     "facts": [
+      "LE5",
+      "LE6",
+      "LE8"
+     ]
+    },
+    "where_to_stay": {
+     "text": "Leh district has around 317 hotels, 691 guest houses, more than 1,000 homestays and about 105 camps, so there is plenty of choice. Stay near the Main Bazaar for walking access to restaurants and shops. The guesthouse lanes that fan out into the barley fields are quieter. Village homestays give the most local experience, but book only once you've spent your first acclimatisation days in Leh.",
+     "facts": [
+      "LE14",
+      "LE5",
+      "LE6",
+      "LE1"
+     ]
+    },
+    "shopping": {
+     "items": [
+      {
+       "body": "Curio shops in the Main Bazaar and Nowshar sell precious stones and ritual objects such as prayer wheels.",
+       "status": "verified"
+      },
+      {
+       "body": "Pashmina: Ladakh's high pastures supply the raw pashm fibre for Kashmir's shawls.",
+       "status": "verified"
+      }
+     ],
+     "facts": [
+      "LE5",
+      "LE16"
+     ]
+    },
+    "culture_etiquette": {
+     "items": [
+      {
+       "body": "Monasteries are active places of worship. Approach respectfully, walk clockwise around stupas and ask before photographing monks.",
+       "status": "verified"
+      },
+      {
+       "body": "Festival dates follow the Tibetan lunar calendar and change every year, so check before planning around one.",
+       "status": "verified"
+      },
+      {
+       "body": "Bring your rubbish back to the Tsangda waste project for segregation.",
+       "status": "verified"
+      }
+     ],
+     "facts": [
+      "LE10",
+      "LE11",
+      "LE15"
+     ]
+    },
+    "travel_tips": {
+     "items": [
+      {
+       "body": "Plan your first two days around easy sights in town: the bazaar, the Old Town and Shanti Stupa at a gentle pace."
+      },
+      {
+       "body": "Carry a torch for Leh Palace's dark, uneven interior."
+      },
+      {
+       "body": "Pay the environment fee online before your trip, and keep the receipt."
+      }
+     ],
+     "facts": [
+      "LE1",
+      "LE13",
+      "LE3"
+     ]
+    },
+    "common_mistakes": {
+     "items": [
+      {
+       "body": "Heading to Khardung La, Nubra or Pangong on day one or two. Acclimatise for 48 hours first."
+      },
+      {
+       "body": "Assuming the drive from Manali or Srinagar acclimatises you. It doesn't."
+      },
+      {
+       "body": "Buying environment-fee slips from touts. Use the official portal."
+      }
+     ],
+     "facts": [
+      "LE1",
+      "LE4",
+      "LE3"
+     ]
+    },
+    "faqs": {
+     "items": [
+      {
+       "title": "How long should I rest in Leh?",
+       "body": "At least 48 hours before going higher, with no exertion for the first two days, even if you came by road."
+      },
+      {
+       "title": "Do I need to pay a fee to visit?",
+       "body": "Yes. The environment fee (with the Red Cross fund and wildlife fee) is paid online through the Leh District Tourists Management System."
+      },
+      {
+       "title": "Can I take a bus to Pangong Tso?",
+       "body": "No. There are no scheduled buses to Pangong Tso or Tso Moriri, so go by taxi or self-drive."
+      },
+      {
+       "title": "When are the monastery festivals?",
+       "body": "Dates follow the Tibetan lunar calendar and change every year."
+      }
+     ],
+     "facts": [
+      "LE1",
+      "LE3",
+      "LE12",
+      "LE11"
+     ]
+    }
+   }
+  },
+  {
+   "key": "ladakh/tsemo-fort",
+   "kind": "attraction",
+   "name": "Tsemo Fort",
+   "parent": "ladakh/leh",
+   "displayMode": "parent_section",
+   "summary": "16th-century Victory Fort crowning Leh's Palace Ridge.",
+   "seoTitle": "Tsemo Fort, Leh",
+   "seoDescription": "Tsemo (Victory) Fort, built in the 16th century, crowns Leh's Palace Ridge above Leh Palace and is visible from almost everywhere in town.",
+   "lat": 34.169,
+   "lng": 77.587,
+   "tripTypes": [
+    "heritage"
+   ],
+   "sections": {
+    "overview": {
+     "text": "The 16th-century Tsemo (Victory) Fort crowns Palace Ridge and is visible from almost everywhere in Leh. It is surprisingly small: shattered walls with prayer flags flapping. Go gently on the steep climb if you've just arrived, and go at sunset for views over the town.",
+     "facts": [
+      "LE8",
+      "LE1"
+     ]
+    }
+   }
+  },
+  {
+   "key": "ladakh/shey-palace",
+   "kind": "attraction",
+   "name": "Shey Palace",
+   "parent": "ladakh/leh",
+   "displayMode": "parent_section",
+   "summary": "Ancient capital of Ladakh, with a giant Buddha in its palace temple and old rock carvings.",
+   "seoTitle": "Shey Palace, Ladakh",
+   "seoDescription": "Shey, Ladakh's ancient capital near Leh, has a palace temple with a giant late-17th-century Buddha and 11th-century rock carvings below.",
+   "lat": 34.073,
+   "lng": 77.637,
+   "tripTypes": [
+    "heritage",
+    "spiritual"
+   ],
+   "sections": {
+    "overview": {
+     "text": "Shey was the ancient capital of Ladakh. Its abandoned palace holds a temple with a gigantic late-17th-century Buddha surrounded by murals, and there are huge 11th-century rock carvings below. It is an easy stop on the Indus road towards Thiksey.",
+     "facts": [
+      "LE9"
+     ]
+    }
+   }
+  }
+ ],
+ "itineraries": []
+}

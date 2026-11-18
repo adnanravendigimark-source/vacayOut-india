@@ -1,6 +1,7 @@
 "use client";
 
-import { useEffect, useRef, useState, type ReactNode } from "react";
+import { useEffect, useRef, useState, useSyncExternalStore, type ReactNode } from "react";
+import Image from "@/components/media/image";
 import Link from "next/link";
 import { Icon, type Name } from "@/components/icons/icon";
 import { AiPlannerModal } from "@/components/chat/ai-planner-modal";
@@ -387,5 +388,57 @@ export function RegionAccordion({ regions, geo }: { regions: RegionItem[]; geo: 
         })}
       </ol>
     </div>
+  );
+}
+
+export type SeasonPanel = {
+  label: string;
+  when: string | null;
+  text: string;
+  months: number[]; // 0 = January
+  image: { url: string; alt: string; ai?: boolean } | null;
+};
+
+const noop = () => () => {};
+
+/**
+ * Seasons as tall photo panels. The one you point at (or tap) opens wide with its months and
+ * what that season is like; the season we are in now opens first and is marked "Now".
+ */
+export function SeasonPanels({ seasons }: { seasons: SeasonPanel[] }) {
+  const month = useSyncExternalStore(noop, () => new Date().getMonth(), () => -1);
+  const nowIdx = seasons.findIndex((s) => s.months.includes(month));
+  const [picked, setPicked] = useState<number | null>(null);
+  const active = picked ?? (nowIdx >= 0 ? nowIdx : 0);
+
+  return (
+    <ul className="flex flex-col gap-3 lg:h-[440px] lg:flex-row">
+      {seasons.map((s, i) => {
+        const on = i === active;
+        return (
+          <li
+            key={s.label}
+            className={`season relative overflow-hidden rounded-2xl bg-[#1a1714] text-white lg:min-w-0 ${on ? "lg:flex-[3.2]" : "lg:flex-1"}`}
+            onPointerEnter={(e) => { if (e.pointerType === "mouse") setPicked(i); }}
+          >
+            <button type="button" onClick={() => setPicked(i)} aria-expanded={on} className="absolute inset-0 z-10 hidden cursor-pointer lg:block" aria-label={`${s.label}${s.when ? `, ${s.when}` : ""}`} />
+            <div className="relative h-44 lg:absolute lg:inset-0 lg:h-auto">
+              {s.image ? <Image src={s.image.url} alt={s.image.alt} fill sizes="(min-width: 1024px) 50vw, 100vw" className={`season__img object-cover ${on ? "scale-100" : "lg:scale-110"}`} /> : null}
+              <span aria-hidden className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/25 to-black/5" />
+              {s.image?.ai ? <span className="absolute right-3 top-3 rounded bg-black/55 px-1.5 py-0.5 text-[0.625rem] font-semibold">AI illustration</span> : null}
+            </div>
+
+            <div className="relative p-5 lg:absolute lg:inset-x-0 lg:bottom-0 lg:p-6">
+              <div className="flex flex-wrap items-center gap-2">
+                {i === nowIdx ? <span className="rounded-full bg-coral px-2 py-0.5 text-[0.625rem] font-bold uppercase tracking-wider">Now</span> : null}
+                {s.when ? <span className="text-[0.6875rem] font-semibold uppercase tracking-[0.14em] text-white/75">{s.when}</span> : null}
+              </div>
+              <h3 className={`mt-1.5 font-serif leading-tight transition-[font-size] duration-500 ${on ? "text-[1.9rem]" : "text-[1.35rem]"}`}>{s.label}</h3>
+              <p className={`season__text mt-2 max-w-xl text-sm leading-relaxed text-white/85 ${on ? "lg:opacity-100" : "lg:pointer-events-none lg:h-0 lg:opacity-0"}`}>{s.text}</p>
+            </div>
+          </li>
+        );
+      })}
+    </ul>
   );
 }
