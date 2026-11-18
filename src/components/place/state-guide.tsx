@@ -196,8 +196,47 @@ function factIcon(title: string | undefined): Name {
   if (/permit|quota|pass\b|documents|rule/.test(t)) return "shield";
   if (/where|location|distance|from|route|start|getting/.test(t)) return "pin";
   if (/festival|fair/.test(t)) return "star";
+  if (/capital/.test(t)) return "palace";
+  if (/area|size|land\b/.test(t)) return "map";
+  if (/language/.test(t)) return "chat";
+  if (/climate|weather|rain|summer/.test(t)) return "sun";
   if (/difficulty|grade/.test(t)) return "route";
   return "checkCircle";
+}
+
+/** Hero facts bar: best time, trip length, capital and area when the state has them, then other short facts. */
+const HERO_FACTS = [/best time|winter/i, /trip length/i, /capital/i, /\barea\b|size|land\b/i];
+const HERO_MORE = [/language/i, /getting in|airport/i, /festival|chhath|hornbill/i, /climate|weather|monsoon|rain|summer/i, /./];
+const HERO_SKIP = /emergency|visa|payment|money|phone|advisory|good to know|seasons/i;
+const MONTH_SHORT: Record<string, string> = { January: "Jan", February: "Feb", March: "Mar", April: "Apr", June: "Jun", July: "Jul", August: "Aug", September: "Sep", Sept: "Sep", October: "Oct", November: "Nov", December: "Dec" };
+/** "Mar–Jun in the hill towns · Dec–Feb for snow" → "Mar–Jun in the hill towns": the first clause, short enough for one line. */
+function shortFact(body: string): string {
+  let f = body.replace(/\s*\([^)]*\)/g, "").split(/\s[—–-]\s|;\s|:\s|\s·\s|\.\s/)[0].trim().replace(/[.,]$/, "");
+  const area = f.match(/^((?:about\s+)?[\d,.]+\s*sq\s*km)\b/i);
+  if (area) return area[1];
+  if (f.length > 24 && /(January|February|March|April|June|July|August|Sept?(ember)?|October|November|December)[–-]/.test(f))
+    f = f.replace(new RegExp(`\\b(${Object.keys(MONTH_SHORT).join("|")})\\b`, "g"), (m) => MONTH_SHORT[m] ?? m).replace(/ and /g, " & ");
+  // "Panaji, situated along…" / "Jaipur, 260 km…" → the name; a list ("Bengali, Hindi, …") stays whole.
+  const comma = f.match(/^([^,]{4,}),\s+[a-z\d]/);
+  if (comma && (f.length > 30 || /,\s+the\s/.test(f))) f = comma[1];
+  if (f.length > 30) {
+    const clause = f.match(/^(.{4,}?)(?:\s+for\s|\s+with\s|\s+along\s|\s+in\s+the\s)/);
+    if (clause && clause[1].length <= 30) f = clause[1];
+  }
+  return f.length <= 30 ? f : `${f.slice(0, 29).replace(/\s+\S*$/, "")}…`;
+}
+function pickHeroFacts(facts: Item[]): Item[] {
+  const out: Item[] = [];
+  const title = (f: Item) => f.title ?? "";
+  for (const re of HERO_FACTS) {
+    const hit = facts.find((f) => !out.includes(f) && re.test(title(f)) && !HERO_SKIP.test(title(f)) && f.body.length <= 110);
+    if (hit) out.push(hit);
+  }
+  // Fill up with facts that read as a fact, not a sentence.
+  for (const re of HERO_MORE)
+    for (const f of facts)
+      if (out.length < 4 && !out.includes(f) && f.title && re.test(f.title) && !HERO_SKIP.test(f.title) && f.body.length <= 70 && !shortFact(f.body).endsWith("…")) out.push(f);
+  return out.slice(0, 4);
 }
 
 /** Photo credit (author · licence · source) or the AI-illustration notice. */
@@ -449,6 +488,8 @@ export function StateGuide({
 
   // ---- Data for each part ----
   const keyFacts = items("key_facts");
+  const heroFacts = pickHeroFacts(keyFacts);
+  const glanceFacts = keyFacts.filter((f) => !heroFacts.includes(f));
   const overview = sec("overview");
   const highlights = items("highlights");
   const regions = items("regions");
@@ -661,76 +702,75 @@ export function StateGuide({
   }
 
   const planPrompt = `Plan a trip to ${name}`;
+  // Two-tone title: the last word in the accent colour ("Himachal / Pradesh", "Goa").
+  const titleWords = name.split(" ");
+  const titleTail = titleWords.pop() ?? name;
+  const titleHead = titleWords.join(" ");
 
   return (
     <div className="min-h-screen bg-white font-sans text-ink">
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd).replace(/</g, "\\u003c") }} />
 
-      {/* A. Hero: clean and white. Title and summary, a one-row facts bar, then a wide photo. */}
-      <section className="sg-hero bg-white">
-        <div className="container-site pb-10 pt-6 sm:pt-8 lg:pb-14">
-          <nav aria-label="Breadcrumb" className="sg-in flex flex-wrap items-center gap-2 text-xs text-[#888888]">
+      {/* A. Hero: the state's photo full width, a white haze on the left for the title, and a glass facts bar. */}
+      <section className="sg-hero relative isolate overflow-hidden bg-[#EEF1F3]">
+        {place.hero ? (
+          <Image src={place.hero.url} alt={place.hero.alt} fill priority sizes="100vw" className="sg-hero__img -z-20 object-cover object-[65%_center]" />
+        ) : null}
+        <div aria-hidden className="sg-hero__veil absolute inset-0 -z-10" />
+
+        <div className="container-site relative flex min-h-[620px] flex-col pb-6 pt-6 sm:min-h-[640px] lg:min-h-[680px]">
+          <nav aria-label="Breadcrumb" className="sg-in flex flex-wrap items-center gap-2 text-xs text-[#666666]">
             <Link href="/" className="transition-colors hover:text-ink">Home</Link>
-            <span className="text-[#CCCCCC]">/</span>
+            <span className="text-[#BBBBBB]">/</span>
             <Link href="/india" className="transition-colors hover:text-ink">Explore India</Link>
-            <span className="text-[#CCCCCC]">/</span>
+            <span className="text-[#BBBBBB]">/</span>
             <span className="font-medium text-ink" aria-current="page">{name}</span>
           </nav>
 
-          <div className="mt-5 grid gap-5 lg:grid-cols-12 lg:items-end lg:gap-10">
-            <div className="sg-in lg:col-span-7" style={{ ["--d" as string]: "60ms" }}>
-              <p className="text-xs font-semibold uppercase tracking-[0.14em] text-coral">{zone ? `${zone} India · ` : ""}State guide</p>
-              <h1 className="mt-2 font-serif text-[clamp(2.4rem,5.2vw,4.25rem)] font-normal leading-[1.02] tracking-[-0.025em] text-ink">{name}</h1>
-            </div>
-            <div className="sg-in lg:col-span-5" style={{ ["--d" as string]: "120ms" }}>
-              {place.summary ? <p className="text-[0.975rem] leading-relaxed text-[#555555]">{place.summary}</p> : null}
-              <div className="mt-4 flex flex-wrap items-center gap-2.5">
-                {destinations.length ? (
-                  <a href="#destinations" className="inline-flex items-center gap-2 rounded-full bg-ink px-4.5 py-2.5 text-sm font-semibold text-white transition-colors hover:bg-coral">
-                    Explore destinations <Icon name="arrowRight" size={14} />
-                  </a>
-                ) : null}
-                <PlanAiButton prompt={planPrompt} className="inline-flex cursor-pointer items-center gap-2 rounded-full border border-[#E5E2DC] bg-white px-4.5 py-2.5 text-sm font-semibold text-ink transition-colors hover:border-coral hover:text-coral">
-                  <Icon name="sparkles" size={15} className="text-coral" /> Plan with AI
-                </PlanAiButton>
-              </div>
+          <div className="mt-8 max-w-xl sm:mt-12 lg:mt-14">
+            <p className="sg-in inline-flex items-center gap-2 rounded-full bg-white/80 py-1.5 pl-1.5 pr-3.5 text-[0.6875rem] font-semibold uppercase tracking-[0.12em] text-ink shadow-sm backdrop-blur" style={{ ["--d" as string]: "40ms" }}>
+              <span className="flex size-6 items-center justify-center rounded-full bg-coral/10 text-coral"><Icon name="pin" size={13} /></span>
+              {zone ? <>{zone} India <span className="text-[#BBBBBB]">•</span> </> : null}State guide
+            </p>
+            <h1 className={`sg-in mt-5 font-serif font-normal leading-[0.98] tracking-[-0.03em] text-ink ${name.length > 22 ? "text-[clamp(2.1rem,3.6vw,3rem)]" : "text-[clamp(2.9rem,7vw,5.5rem)]"}`} style={{ ["--d" as string]: "90ms" }}>
+              {titleHead ? <span className="block">{titleHead}</span> : null}
+              <span className="block text-coral">{titleTail}</span>
+            </h1>
+            {place.summary ? <p className="sg-in mt-5 max-w-md text-[1.0625rem] leading-relaxed text-[#3F3F3F]" style={{ ["--d" as string]: "140ms" }}>{place.summary}</p> : null}
+            <div className="sg-in mt-7 flex flex-wrap items-center gap-x-5 gap-y-3" style={{ ["--d" as string]: "190ms" }}>
+              {destinations.length ? (
+                <a href="#destinations" className="inline-flex items-center gap-2 rounded-full bg-coral px-6 py-3.5 text-sm font-semibold text-white shadow-[0_8px_24px_-8px_rgba(236,98,66,0.6)] transition-transform hover:-translate-y-0.5">
+                  Explore destinations <Icon name="arrowRight" size={15} />
+                </a>
+              ) : null}
+              <PlanAiButton prompt={planPrompt} className="group inline-flex cursor-pointer items-center gap-3 text-sm font-semibold text-ink">
+                <span className="flex size-12 items-center justify-center rounded-full bg-white text-coral shadow-md transition-transform group-hover:scale-105"><Icon name="sparkles" size={18} /></span>
+                Plan with AI
+              </PlanAiButton>
             </div>
           </div>
 
-          {keyFacts.length ? (
-            <dl className="sg-in mt-8 grid grid-cols-2 overflow-hidden rounded-2xl border border-[#ECE8E2] bg-[#FBFAF8] lg:grid-cols-4" style={{ ["--d" as string]: "180ms" }}>
-              {keyFacts.slice(0, 4).map((f, i) => (
-                <div key={i} className="flex items-start gap-3 border-[#ECE8E2] p-4 max-lg:[&:nth-child(-n+2)]:border-b max-lg:[&:nth-child(odd)]:border-r lg:[&:not(:last-child)]:border-r">
-                  <Icon name={factIcon(f.title)} size={16} className="mt-0.5 shrink-0 text-coral" />
-                  <div className="min-w-0">
-                    {f.title ? <dt className="text-[0.6875rem] font-semibold uppercase tracking-wide text-[#999999]">{f.title}</dt> : null}
-                    <dd className="mt-0.5 line-clamp-2 text-sm font-medium leading-snug text-ink" title={f.body}>{f.body}</dd>
+          <div className="mt-auto flex items-end gap-4 pt-10">
+            {heroFacts.length ? (
+              <dl className={`sg-in grid min-w-0 flex-1 grid-cols-2 rounded-2xl border border-white/70 bg-white/80 px-2 py-2 shadow-[0_12px_40px_-16px_rgba(30,40,60,0.35)] backdrop-blur-md ${["", "lg:max-w-xs lg:grid-cols-1", "lg:max-w-xl", "lg:max-w-3xl lg:grid-cols-3", "lg:max-w-5xl lg:grid-cols-4"][heroFacts.length]}`} style={{ ["--d" as string]: "260ms" }}>
+                {heroFacts.map((f, i) => (
+                  <div key={i} className="flex items-center gap-3 px-3 py-3 lg:[&:not(:last-child)]:border-r lg:[&:not(:last-child)]:border-[#E6E3DE]">
+                    <Icon name={factIcon(f.title)} size={22} className="shrink-0 text-ink" />
+                    <div className="min-w-0">
+                      {f.title ? <dt className="text-[0.8125rem] font-semibold text-ink">{f.title}</dt> : null}
+                      <dd className="line-clamp-2 text-[0.8125rem] leading-snug text-[#555555] lg:line-clamp-1" title={f.body}>{shortFact(f.body)}</dd>
+                    </div>
                   </div>
-                </div>
-              ))}
-            </dl>
-          ) : null}
-
-          <figure className="sg-in mt-4" style={{ ["--d" as string]: "240ms" }}>
-            <div className="relative aspect-[4/3] overflow-hidden rounded-2xl bg-[#ECE8E0] sm:aspect-[16/8] lg:aspect-[12/5]">
-              {place.hero ? <Image src={place.hero.url} alt={place.hero.alt} fill priority sizes="(min-width: 1280px) 1200px, 100vw" className="sg-hero__img object-cover" /> : <span className="flex size-full items-center justify-center text-[#B8B2A6]"><Icon name="mountain" size={40} /></span>}
-              <span className="absolute bottom-3 left-3 inline-flex items-center gap-1.5 rounded-md bg-white/90 px-2.5 py-1 text-xs font-semibold text-ink backdrop-blur-sm">
-                <Icon name="pin" size={12} className="text-coral" /> {name}
-              </span>
-              {destinations.length || attractions.length || activities.length ? (
-                <span className="absolute bottom-3 right-3 hidden items-center gap-3 rounded-md bg-white/90 px-3 py-1 text-xs text-[#555555] backdrop-blur-sm sm:inline-flex">
-                  {[
-                    { n: destinations.length, l: "destinations" },
-                    { n: attractions.length, l: "places" },
-                    { n: activities.length, l: "things to do" },
-                  ].filter((x) => x.n > 0).map((x) => (
-                    <span key={x.l}><b className="font-semibold text-ink">{x.n}</b> {x.l}</span>
-                  ))}
-                </span>
-              ) : null}
-            </div>
-            {place.hero ? <figcaption className="mt-2 text-right"><Credit img={place.hero} tone="dark" compact /></figcaption> : null}
-          </figure>
+                ))}
+              </dl>
+            ) : <span className="flex-1" />}
+            {nav[0] ? (
+              <a href={`#${nav[0].id}`} aria-label="Scroll to the guide" className="hidden size-12 shrink-0 items-center justify-center rounded-full bg-ink/55 text-white backdrop-blur transition-colors hover:bg-ink sm:flex">
+                <Icon name="chevronDown" size={20} />
+              </a>
+            ) : null}
+          </div>
+          {place.hero ? <div className="mt-3 flex justify-end"><Credit img={place.hero} tone="dark" compact /></div> : null}
         </div>
       </section>
 
@@ -745,10 +785,10 @@ export function StateGuide({
 
       <main className="container-site space-y-16 py-10 sm:space-y-20 sm:py-14">
         {/* B. About: a short read, the facts not already in the hero, then food, festivals and etiquette in three short lists */}
-        {overview || keyFacts.length > 4 || food.length || highlights.length || culture.length ? (
+        {overview || glanceFacts.length || food.length || highlights.length || culture.length ? (
           <section id="overview" aria-labelledby="overview-h" className="scroll-mt-36">
             <div className="grid grid-cols-1 gap-10 lg:grid-cols-12 lg:gap-14">
-              <div className={keyFacts.length > 4 ? "lg:col-span-7" : "lg:col-span-9"}>
+              <div className={glanceFacts.length ? "lg:col-span-7" : "lg:col-span-9"}>
                 <p className="text-xs font-semibold uppercase tracking-[0.14em] text-coral">State overview</p>
                 <h2 id="overview-h" className="mt-2 font-serif text-[clamp(1.75rem,3vw,2.4rem)] font-normal leading-tight tracking-[-0.015em] text-ink">About {name}</h2>
                 {overview ? (() => {
@@ -770,11 +810,11 @@ export function StateGuide({
                 })() : null}
               </div>
 
-              {keyFacts.length > 4 ? (
+              {glanceFacts.length ? (
                 <aside className="lg:col-span-5 lg:border-l lg:border-[#ECE8E2] lg:pl-10">
                   <h3 className="text-xs font-semibold uppercase tracking-[0.14em] text-[#999999]">At a glance</h3>
                   <dl className="mt-3 divide-y divide-[#F0ECE6]">
-                    {keyFacts.slice(4).map((f, i) => (
+                    {glanceFacts.map((f, i) => (
                       <div key={i} className="grid grid-cols-[7.5rem_1fr] gap-4 py-3 text-sm">
                         <dt className="text-[#888888]">{f.title}</dt>
                         <dd className="font-medium leading-snug text-ink">{f.body}</dd>
