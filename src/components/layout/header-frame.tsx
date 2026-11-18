@@ -27,7 +27,7 @@ export function HeaderFrame({ children }: { children: (props: { isHome: boolean;
     ? "sticky top-0 z-40 border-b border-line bg-white/95 backdrop-blur-md"
     : isScrolled
       ? "fixed inset-x-0 top-0 z-40 bg-white/95 backdrop-blur-md border-b border-line shadow-sm transition-all duration-300"
-      : // At the top of the homepage the header sits directly on the hero video, with no background of its own.
+      : // At the top of the homepage the header sits on the hero film (light text, see site-header) and turns white once scrolled.
         "fixed inset-x-0 top-0 z-40 bg-transparent transition-all duration-300";
 
   return (

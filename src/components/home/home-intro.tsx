@@ -29,7 +29,7 @@ export function HomeIntro() {
       <script dangerouslySetInnerHTML={{ __html: DECIDE }} />
       <div className="home-intro" aria-hidden>
         <div className="home-intro__window">
-          <Image src="/images/cinematic/hero-india-poster.jpg" alt="" fill priority sizes="100vw" className="object-cover" />
+          <Image src="/video/hero-india-film.jpg" alt="" fill priority sizes="100vw" className="object-cover" />
           <span className="home-intro__line" />
         </div>
         <div className="home-intro__word">

@@ -35,12 +35,16 @@ export function SiteHeader() {
 
   return (
     <HeaderFrame>
-      {() => (
+      {({ isHome, isScrolled }) => {
+        // At the top of the homepage the header sits on the dark hero film: light text, no bar.
+        const onFilm = isHome && !isScrolled && !menu;
+        const iconBtn = onFilm ? "text-white hover:bg-white/15" : "text-ink hover:bg-black/5 hover:text-coral";
+        return (
         <div className="container-site">
           <div className="flex h-[4.5rem] items-center justify-between gap-4 lg:h-20">
-            <Logo tone="dark" />
+            <Logo tone={onFilm ? "light" : "dark"} />
 
-            <nav aria-label="Primary" className="hidden items-center gap-5 whitespace-nowrap text-[0.9375rem] font-medium text-ink lg:flex xl:gap-7">
+            <nav aria-label="Primary" className={`hidden items-center gap-5 whitespace-nowrap text-[0.9375rem] font-medium transition-colors lg:flex xl:gap-7 ${onFilm ? "text-white [text-shadow:0_1px_8px_rgba(0,0,0,0.35)]" : "text-ink"}`}>
               <Link href={routes.destinations} className={navLink(routes.destinations)}>Explore India</Link>
               <Link href="/things-to-do" className={navLink("/things-to-do")}>Things to do</Link>
               <Link href="/travel-guides" className={navLink("/travel-guides")}>Travel guides</Link>
@@ -54,7 +58,7 @@ export function SiteHeader() {
                 onClick={(e) => openPlanner(e)}
                 aria-label="Search or ask the AI planner"
                 title="Search or ask"
-                className="flex size-10 items-center justify-center rounded-full text-ink transition-colors hover:bg-black/5 hover:text-coral"
+                className={`flex size-10 items-center justify-center rounded-full transition-colors ${iconBtn}`}
               >
                 <Icon name="search" size={19} />
               </Link>
@@ -62,14 +66,14 @@ export function SiteHeader() {
                 href="/account"
                 aria-label="Your account — sign in or sign up"
                 title="Your account"
-                className="hidden size-10 items-center justify-center rounded-full text-ink transition-colors hover:bg-black/5 hover:text-coral sm:flex lg:hidden xl:flex"
+                className={`hidden size-10 items-center justify-center rounded-full transition-colors sm:flex lg:hidden xl:flex ${iconBtn}`}
               >
                 <Icon name="user" size={18} strokeWidth={1.8} />
               </Link>
               <Link
                 href={routes.chat}
                 onClick={(e) => openPlanner(e)}
-                className="hidden h-11 items-center gap-2 whitespace-nowrap rounded-full bg-ink px-4 text-sm font-semibold text-white shadow-sm transition-colors hover:bg-black sm:inline-flex xl:px-5"
+                className={`hidden h-11 items-center gap-2 whitespace-nowrap rounded-full px-4 text-sm font-semibold shadow-sm transition-colors sm:inline-flex xl:px-5 ${onFilm ? "bg-white text-ink hover:bg-white/90" : "bg-ink text-white hover:bg-black"}`}
               >
                 <Icon name="sparkles" size={16} className="text-coral" />
                 Plan a trip with AI
@@ -78,7 +82,7 @@ export function SiteHeader() {
                 href={routes.chat}
                 onClick={(e) => openPlanner(e)}
                 aria-label="Plan a trip with AI"
-                className="flex size-10 items-center justify-center rounded-full bg-ink text-white sm:hidden"
+                className={`flex size-10 items-center justify-center rounded-full sm:hidden ${onFilm ? "bg-white text-ink" : "bg-ink text-white"}`}
               >
                 <Icon name="sparkles" size={17} className="text-coral" />
               </Link>
@@ -88,7 +92,7 @@ export function SiteHeader() {
                 aria-controls="mobile-menu"
                 aria-label={menu ? "Close menu" : "Open menu"}
                 onClick={() => setMenu((m) => !m)}
-                className="flex size-10 items-center justify-center rounded-full text-ink hover:bg-black/5 lg:hidden"
+                className={`flex size-10 items-center justify-center rounded-full lg:hidden ${onFilm ? "text-white hover:bg-white/15" : "text-ink hover:bg-black/5"}`}
               >
                 <Icon name={menu ? "x" : "menu"} size={20} />
               </button>
@@ -108,7 +112,8 @@ export function SiteHeader() {
             </nav>
           ) : null}
         </div>
-      )}
+        );
+      }}
     </HeaderFrame>
   );
 }
