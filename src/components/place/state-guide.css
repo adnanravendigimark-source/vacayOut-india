@@ -46,3 +46,13 @@
   .reach__card { animation: sg-up linear both; animation-timeline: view(); animation-range: entry 0% entry 60%; animation-delay: 0ms; }
 }
 @media (prefers-reduced-motion: reduce) { .reach__line, .reach__card { animation: none; clip-path: none; } }
+
+/* Itineraries: cards rise in; on hover the route draws stop by stop */
+.trip { animation: sg-up 0.55s cubic-bezier(.16, 1, .3, 1) both; animation-delay: calc(var(--i) * 70ms); }
+@supports (animation-timeline: view()) { .trip { animation: sg-up linear both; animation-timeline: view(); animation-range: entry 0% entry 55%; animation-delay: 0ms; } }
+.trip__fill { transform: scaleX(0); transition: transform 0.35s ease; transition-delay: calc(var(--j) * 120ms); }
+.trip__stop { transition: background-color 0.3s ease; transition-delay: calc(var(--j) * 120ms); }
+.group:hover .trip__fill, .group:focus-visible .trip__fill { transform: scaleX(1); }
+.group:hover .trip__stop, .group:focus-visible .trip__stop { background-color: #E8553E; }
+@media (hover: none) { .trip__fill { transform: scaleX(1); } }
+@media (prefers-reduced-motion: reduce) { .trip { animation: none; } .trip__fill, .trip__stop { transition: none; } }

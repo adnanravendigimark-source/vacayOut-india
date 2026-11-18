@@ -1,0 +1,915 @@
+{
+ "cluster": "punjab2-amritsar",
+ "title": "Amritsar (Batch 3)",
+ "researchedAt": "2026-11-18",
+ "selection": "Batch 3. Amritsar had 7 sections. Adds who it's for, shopping, etiquette, common mistakes and FAQs, a refreshed overview (pending review), and adds meals, prep and FAQs to amritsar-2-days (moved here from amritsar.json). Facts prefixed B are copied from amritsar.json.",
+ "sources": {
+  "FCDO_IN": {
+   "url": "https://www.gov.uk/foreign-travel-advice/india",
+   "title": "India travel advice — UK Foreign, Commonwealth & Development Office",
+   "authority": "government"
+  },
+  "II_ASR": {
+   "url": "https://www.incredibleindia.gov.in/en/punjab/amritsar",
+   "title": "Amritsar — Incredible India",
+   "authority": "government"
+  },
+  "II_AM": {
+   "url": "https://www.incredibleindia.gov.in/en/punjab/amritsar",
+   "title": "Amritsar — Incredible India (Ministry of Tourism)",
+   "authority": "government"
+  },
+  "W_AM": {
+   "url": "https://en.wikipedia.org/wiki/Amritsar",
+   "title": "Amritsar — Wikipedia",
+   "authority": "reference"
+  },
+  "PT": {
+   "url": "https://punjabtourism.punjab.gov.in/en/our-destination/amritsar-the-city-of-divinity/",
+   "title": "Amritsar: the City of Divinity — Punjab Tourism (Government of Punjab)",
+   "authority": "government"
+  },
+  "ICH": {
+   "url": "https://indiacinehub.gov.in/location/waghaattari-border-amritsar",
+   "title": "Wagha/Attari Border, Amritsar — India Cine Hub (Ministry of Information & Broadcasting)",
+   "authority": "government"
+  },
+  "W_WAG": {
+   "url": "https://en.wikipedia.org/wiki/Wagah-Attari_border_ceremony",
+   "title": "Attari–Wagah border ceremony — Wikipedia",
+   "authority": "reference"
+  },
+  "II_GT": {
+   "url": "https://www.incredibleindia.gov.in/en/punjab/amritsar/sri-harmandir-sahib-golden-temple",
+   "title": "The Golden Temple — Incredible India (Ministry of Tourism)",
+   "authority": "government"
+  },
+  "W_GT": {
+   "url": "https://en.wikipedia.org/wiki/Golden_Temple",
+   "title": "Golden Temple — Wikipedia",
+   "authority": "reference"
+  },
+  "SW": {
+   "url": "https://www.sikhiwiki.org/index.php/Visiting_a_Gurdwara",
+   "title": "Visiting a Gurdwara — SikhiWiki",
+   "authority": "reference"
+  },
+  "PMO": {
+   "url": "https://www.partitionmuseum.org/",
+   "title": "Partition Museum — official website",
+   "authority": "other"
+  },
+  "FCDO": {
+   "url": "https://www.gov.uk/foreign-travel-advice/india",
+   "title": "India travel advice — UK Foreign, Commonwealth & Development Office",
+   "authority": "government"
+  }
+ },
+ "facts": {
+  "BAM3": {
+   "place": "punjab/amritsar",
+   "topic": "Best time: October to March",
+   "claim": "October to March is the most pleasant time to visit, though the city welcomes visitors all year.",
+   "claimType": "general",
+   "evidence": [
+    {
+     "source": "II_AM",
+     "quote": "While October to March offers the most pleasant weather for exploring Amritsar"
+    }
+   ],
+   "kind": "seasonal"
+  },
+  "BAM4": {
+   "place": "punjab/amritsar",
+   "topic": "Seasons",
+   "claim": "Summers (April to June) can reach 45 °C; the monsoon runs from July to September; winters (December to March) are cold.",
+   "claimType": "general",
+   "evidence": [
+    {
+     "source": "W_AM",
+     "quote": "summer (April to June), when temperatures can reach 45 °C"
+    },
+    {
+     "source": "W_AM",
+     "quote": "monsoon (July to September)"
+    }
+   ],
+   "kind": "seasonal"
+  },
+  "BAM5": {
+   "place": "punjab/amritsar",
+   "topic": "Amritsari food",
+   "claim": "Amritsar is known for Amritsari kulcha, chhole bhature, tandoori chicken, Amritsari fish and lassi.",
+   "claimType": "general",
+   "evidence": [
+    {
+     "source": "PT",
+     "quote": "The traditional delicacies of Amritsar including Amritsari Kulchas, Chhole Bhature, Tandoori Chicken, Amritsari Fish, and Peda-Lassi are delights for gastronomes."
+    },
+    {
+     "source": "II_AM",
+     "quote": "a leavened bread stuffed with spiced potatoes and cauliflower"
+    }
+   ]
+  },
+  "BAM12": {
+   "place": "punjab/amritsar",
+   "topic": "Langar: free community kitchen",
+   "claim": "The Golden Temple's langar serves free vegetarian meals to everyone, day and night.",
+   "claimType": "general",
+   "evidence": [
+    {
+     "source": "PT",
+     "quote": "The Langar Sewa at Sri Harmandir Sahib serves tens of thousands of people every day regardless of faith, caste, or background, without interruption throughout the day and night."
+    }
+   ]
+  },
+  "BWG1": {
+   "place": "punjab/attari-wagah-border",
+   "topic": "About 28–30 km from Amritsar",
+   "claim": "The Attari–Wagah border is about 28–30 km from Amritsar on the Grand Trunk Road.",
+   "claimType": "distance",
+   "evidence": [
+    {
+     "source": "PT",
+     "quote": "Attari, approximately 28 km from Amritsar"
+    },
+    {
+     "source": "ICH",
+     "quote": "lies roughly 30 kms from the Amritsar at Attari on the grand trunk road to Lahore"
+    }
+   ]
+  },
+  "BWG4": {
+   "place": "punjab/attari-wagah-border",
+   "topic": "Arrive early",
+   "claim": "Punjab Tourism recommends reaching the gallery at least 45 minutes before the ceremony.",
+   "claimType": "general",
+   "evidence": [
+    {
+     "source": "PT",
+     "quote": "Visitors are recommended to reach the gallery at least 45 minutes prior to the ceremony"
+    }
+   ]
+  },
+  "BWG5": {
+   "place": "punjab/attari-wagah-border",
+   "topic": "Before sunset",
+   "claim": "The flag-lowering ceremony is held each evening just before sunset.",
+   "claimType": "schedule",
+   "evidence": [
+    {
+     "source": "W_WAG",
+     "quote": "The flag lowering ceremony at the village of Wagah is held each evening immediately before sunset."
+    }
+   ]
+  },
+  "BGT5": {
+   "place": "punjab/golden-temple",
+   "topic": "100,000 meals a day",
+   "claim": "The langar serves about 100,000 vegetarian meals a day, prepared and served by volunteers.",
+   "claimType": "general",
+   "evidence": [
+    {
+     "source": "II_GT",
+     "quote": "serving 100,000 vegetarian meals a day."
+    },
+    {
+     "source": "W_GT",
+     "quote": "Over 100,000 vegetarian meals are served at the langar every day."
+    }
+   ]
+  },
+  "BGT7": {
+   "place": "punjab/golden-temple",
+   "topic": "Best time for the inner sanctum",
+   "claim": "The queue for the inner sanctum is long; late afternoon and early evening are suggested.",
+   "claimType": "general",
+   "evidence": [
+    {
+     "source": "II_GT",
+     "quote": "visits are best scheduled for the late afternoon and early evening"
+    }
+   ]
+  },
+  "BGT8": {
+   "place": "punjab/golden-temple",
+   "topic": "Gurdwara etiquette",
+   "claim": "As in any gurdwara, visitors cover their heads, remove their shoes, and don't bring tobacco, alcohol or drugs.",
+   "claimType": "rule",
+   "evidence": [
+    {
+     "source": "SW",
+     "quote": "All visitors MUST cover their heads while in the main Gurdwara areas"
+    },
+    {
+     "source": "SW",
+     "quote": "will have to remove their shoes and place them in the shoe racks provided."
+    },
+    {
+     "source": "SW",
+     "quote": "Visitors cannot enter the Gurdwara while under the influence of Alcohol or Drugs"
+    }
+   ]
+  },
+  "BGT10": {
+   "place": "punjab/golden-temple",
+   "topic": "Gurudwara Baba Atal Sahib",
+   "claim": "The nine-storey Baba Atal Sahib tower nearby has a terrace with views over the city and the Golden Temple.",
+   "claimType": "general",
+   "evidence": [
+    {
+     "source": "PT",
+     "quote": "Gurudwara Baba Atal Sahib is a nine-storeyed tower built in memory of Atal Rai"
+    },
+    {
+     "source": "PT",
+     "quote": "Its open terrace offers a panoramic view of the city and the Golden Temple complex"
+    }
+   ]
+  },
+  "BGT11": {
+   "place": "punjab/golden-temple",
+   "topic": "Festivals",
+   "claim": "Vaisakhi, Guru Nanak's birthday and Diwali, when the temple is lit with lamps, are the most vibrant times.",
+   "claimType": "general",
+   "evidence": [
+    {
+     "source": "II_GT",
+     "quote": "During Diwali, the Golden Temple illuminates with earthen lamps or diyas"
+    },
+    {
+     "source": "II_GT",
+     "quote": "Festivals like Vaisakhi, Guru Nanak’s birthday"
+    }
+   ],
+   "kind": "seasonal"
+  },
+  "BJB4": {
+   "place": "punjab/jallianwala-bagh",
+   "topic": "Opening hours",
+   "claim": "Punjab Tourism lists 6:30 am–7 pm (April–September) and 7 am–6 pm (October–March).",
+   "claimType": "opening_hours",
+   "evidence": [
+    {
+     "source": "PT",
+     "quote": "6:30 am to 7 pm (April to September) and 7 am to 6 pm (October to March)"
+    }
+   ],
+   "kind": "seasonal"
+  },
+  "BPM2": {
+   "place": "punjab/partition-museum",
+   "topic": "Opening hours",
+   "claim": "Open 10 am–6 pm, Tuesday to Sunday; closed Mondays.",
+   "claimType": "opening_hours",
+   "evidence": [
+    {
+     "source": "PMO",
+     "quote": "Amritsar: 10:00 AM to 6:00 PM"
+    },
+    {
+     "source": "PMO",
+     "quote": "(Tues to Sun - Closed on Mondays)"
+    }
+   ]
+  },
+  "BAM7": {
+   "place": "punjab/amritsar",
+   "topic": "Heritage Street and heritage walk",
+   "claim": "Heritage Street runs about 1 km from the Town Hall to the Golden Temple; the Amritsar Heritage Walk follows the old lanes from the Town Hall in about 45 minutes.",
+   "claimType": "general",
+   "evidence": [
+    {
+     "source": "PT",
+     "quote": "dot the one-kilometre stretch from Town Hall to Sri Harmandir Sahib known as Heritage Street."
+    },
+    {
+     "source": "PT",
+     "quote": "The Amritsar Heritage Walk tour starts from the historic Town Hall and ends at the Galleria at Sri Harmandir Sahib. It is about a 45-minute walk"
+    }
+   ]
+  },
+  "BAM8": {
+   "place": "punjab/amritsar",
+   "topic": "Durgiana Temple",
+   "claim": "The Durgiana Temple, about 1.5 km from the Golden Temple, was rebuilt in 1921 in the Golden Temple's style.",
+   "claimType": "general",
+   "evidence": [
+    {
+     "source": "PT",
+     "quote": "Located roughly at a distance of about one and a half kilometres from the Golden Temple, Durgiana Temple is dedicated to the Hindu Goddess"
+    },
+    {
+     "source": "PT",
+     "quote": "the temple was rebuilt in 1921 by Guru Harsai Mal Kapoor in the architectural style of the Golden Temple."
+    }
+   ]
+  },
+  "BGF2": {
+   "place": "punjab/gobindgarh-fort",
+   "topic": "Hours and tickets",
+   "claim": "Punjab Tourism lists 10 am–10 pm daily, with tickets from Rs 180–649 for Indians and Rs 250–1,000 for foreigners (subject to change).",
+   "claimType": "price",
+   "evidence": [
+    {
+     "source": "PT",
+     "quote": "Monday to Sunday, 10 am to 10 pm"
+    },
+    {
+     "source": "PT",
+     "quote": "Rs. 180 to Rs. 649 for Indians, Rs. 250 to Rs. 1,000 for foreigners (rates at time of visit may differ)"
+    }
+   ]
+  },
+  "BPM4": {
+   "place": "punjab/partition-museum",
+   "topic": "Entry fee",
+   "claim": "Punjab Tourism lists entry at Rs 10 for Indians and Rs 250 for foreign visitors.",
+   "claimType": "price",
+   "evidence": [
+    {
+     "source": "PT",
+     "quote": "Rs. 10 for Indians, Rs. 250 for foreigners"
+    }
+   ]
+  },
+  "BAM11": {
+   "place": "punjab/amritsar",
+   "topic": "Sadda Pind village museum",
+   "claim": "Sadda Pind, a 12-acre living village museum about 8 km from the Golden Temple, shows rural Punjabi life; Punjab Tourism lists entry at Rs 720 for adults and Rs 570 for children (subject to change).",
+   "claimType": "price",
+   "evidence": [
+    {
+     "source": "PT",
+     "quote": "Sadda Pind, meaning Our Village, is a living village museum of Punjabi culture spread across 12 acres of land"
+    },
+    {
+     "source": "PT",
+     "quote": "Adults Rs. 720, Children Rs. 570 (rates at time of visit may differ)"
+    }
+   ]
+  },
+  "BAM10": {
+   "place": "punjab/amritsar",
+   "topic": "Ram Tirath",
+   "claim": "Sri Ram Tirath, 11 km from the Golden Temple, is revered as the ashram of Valmiki and birthplace of Luv and Kush.",
+   "claimType": "distance",
+   "evidence": [
+    {
+     "source": "PT",
+     "quote": "Sri Ram Tirath Sthal is located 11 km away from the Golden Temple."
+    }
+   ]
+  },
+  "AN1": {
+   "place": "punjab/amritsar",
+   "topic": "Gold leaf",
+   "claim": "The Golden Temple's upper storey is covered in almost 400 kg of pure gold leaf.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "II_ASR",
+     "quote": "with its top half covered in almost 400 kg of pure gold leaf"
+    }
+   ]
+  },
+  "AN2": {
+   "place": "punjab/amritsar",
+   "topic": "Founding",
+   "claim": "Guru Ram Das founded the city in 1574 and invited traders to settle; the Batisi Hatta (32 shops) street still thrives.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "II_ASR",
+     "quote": "Amritsar's story started in 1574 when Guru Ramdas ji, the fourth Sikh guru"
+    },
+    {
+     "source": "II_ASR",
+     "quote": "laying the foundation for the iconic Batisi Hatta (32 shops) street that still thrives today."
+    }
+   ]
+  },
+  "AN3": {
+   "place": "punjab/amritsar",
+   "topic": "Gurdwara trail",
+   "claim": "Other historic gurdwaras within walking distance include Baba Deep Singh, Chheharta Sahib, Guru Ke Mahal, Bibeksar Sahib and Mata Kaulan.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "II_ASR",
+     "quote": "Explore other historic gurudwaras within walking distance of the Golden Temple."
+    }
+   ]
+  },
+  "AN4": {
+   "place": "punjab/amritsar",
+   "topic": "Gobindgarh",
+   "claim": "Gobindgarh Fort (1760) has shows, museums and a replica of the Kohinoor.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "II_ASR",
+     "quote": "History buffs can delve into the past at Gobindgarh Fort, a 1760 structure"
+    },
+    {
+     "source": "II_ASR",
+     "quote": "you can even catch a glimpse of a Kohinoor diamond replica!"
+    }
+   ]
+  },
+  "AN5": {
+   "place": "punjab/amritsar",
+   "topic": "Durgiana",
+   "claim": "The Durgiana Temple has a gold-covered dome and a marble walkway around its sacred tank.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "II_ASR",
+     "quote": "marvel at its shimmering gold-covered dome and pristine white marble pathway"
+    }
+   ]
+  },
+  "AN6": {
+   "place": "punjab/amritsar",
+   "topic": "Ram Tirath",
+   "claim": "Ram Tirath is believed to be the birthplace of Luv and Kush and where Valmiki wrote the Ramayana.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "II_ASR",
+     "quote": "believed to be the birthplace of Luv and Kush"
+    }
+   ]
+  },
+  "AN7": {
+   "place": "punjab/amritsar",
+   "topic": "Breakfast",
+   "claim": "Breakfast staples include satpura, poori chholey and Amritsari kulcha.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "II_ASR",
+     "quote": "Savour the crispy satpura (a deep-fried snack), indulge in the classic poori chholey"
+    }
+   ]
+  },
+  "AN8": {
+   "place": "punjab/amritsar",
+   "topic": "Dhabas",
+   "claim": "Dhabas serve kali daal, sarson ka saag, kadhi and tandoori roti, with lassi and kulfa.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "II_ASR",
+     "quote": "kali daal (black lentil stew)"
+    },
+    {
+     "source": "II_ASR",
+     "quote": "satisfy your sweet tooth with kulfa"
+    }
+   ]
+  },
+  "AN9": {
+   "place": "punjab/amritsar",
+   "topic": "Kada prasad",
+   "claim": "Langar ends with kada prasad, a semolina pudding of ghee, sugar and wheat.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "II_ASR",
+     "quote": "a semolina pudding made with ghee, sugar, and coarsely ground wheat"
+    }
+   ]
+  },
+  "AN10": {
+   "place": "punjab/amritsar",
+   "topic": "Shopping",
+   "claim": "Buy phulkari embroidery, colourful juttis, papad, wadiyan and spice blends.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "II_ASR",
+     "quote": "From the intricate embroidery of phulkari fabrics to the colourful juttis (footwear)"
+    },
+    {
+     "source": "II_ASR",
+     "quote": "Locally-made papad (thin, crispy lentil wafers), wadiyan (sun-dried lentil dumplings)"
+    }
+   ]
+  },
+  "AN11": {
+   "place": "punjab/amritsar",
+   "topic": "Festivals",
+   "claim": "Baisakhi, Diwali, Basant Panchami and the Ram Tirath fair are the big festivals; Gatka martial arts are performed at religious festivals.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "II_ASR",
+     "quote": "Baisakhi, the harvest festival, fills the air with joyous abandon."
+    },
+    {
+     "source": "II_ASR",
+     "quote": "During religious festivals, witness the dynamic Gatka, a martial art performance steeped in tradition."
+    }
+   ]
+  },
+  "AN12": {
+   "place": "punjab/amritsar",
+   "topic": "Non-vegetarian",
+   "claim": "Mutton chaap, ajwaini fish tikka and tandoori chicken show the influence of Peshawar and Lahore.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "II_ASR",
+     "quote": "Non-vegetarian delights like mutton chaap, ajwaini fish tikka, and tandoori chicken"
+    }
+   ]
+  },
+  "AN13": {
+   "place": "punjab/amritsar",
+   "topic": "UK travel advice at Wagah",
+   "claim": "The UK government advises against all travel within 10 km of the India–Pakistan border except the Wagah–Attari crossing; the crossing itself is closed, but visitors can still attend the daily retreat ceremony (advice still current on 18 November 2026).",
+   "claimType": "general",
+   "kind": "seasonal",
+   "evidence": [
+    {
+     "source": "FCDO_IN",
+     "quote": "FCDO advises against all travel within 10km of the India-Pakistan border, except for Wagah-Attari border crossing.",
+     "sourceDate": "2026-11-18"
+    },
+    {
+     "source": "FCDO_IN",
+     "quote": "while the Wagah-Attari border crossing is currently closed",
+     "sourceDate": "2026-11-18"
+    },
+    {
+     "source": "FCDO_IN",
+     "quote": "visitors can still access and attend the daily border retreat ceremony",
+     "sourceDate": "2026-11-18"
+    }
+   ]
+  }
+ },
+ "places": [
+  {
+   "key": "punjab/amritsar",
+   "kind": "city",
+   "name": "Amritsar",
+   "parent": "punjab",
+   "summary": "The spiritual heart of Sikhism: the Golden Temple and its langar, Jallianwala Bagh, the Partition Museum and the Wagah border ceremony.",
+   "seoTitle": "Amritsar Travel Guide: Golden Temple, Wagah & Food",
+   "seoDescription": "Plan an Amritsar trip: the Golden Temple and langar, Jallianwala Bagh, the Partition Museum, the Attari–Wagah ceremony, Amritsari food and the best time to visit.",
+   "lat": 31.6269,
+   "lng": 74.877,
+   "tripTypes": [
+    "spiritual",
+    "heritage",
+    "food"
+   ],
+   "images": [
+    {
+     "commons": "File:Golden Temple or Harmandir Sahib - AMRITSAR.JPG",
+     "alt": "The Golden Temple reflected in the Amrit Sarovar",
+     "hero": true
+    }
+   ],
+   "sections": {
+    "overview": {
+     "text": "Amritsar grew from the settlement Guru Ram Das, the fourth Sikh Guru, founded in 1574 around the Amrit Sarovar, the pool of nectar that gives the city its name. At its centre is the Golden Temple, the holiest site of Sikhism, its upper storey covered in almost 400 kg of gold leaf. Its langar serves about 100,000 free vegetarian meals a day to anyone who comes.\n\nA short walk away are Jallianwala Bagh and the Partition Museum, and more historic gurdwaras, Gobindgarh Fort and the gold-domed Durgiana Temple are close by. Every evening before sunset, the Beating Retreat ceremony is held at the Attari–Wagah border, about 28–30 km west. Food is a reason to come in itself: Amritsari kulcha, poori chholey, dhaba dal and lassi. October to March is the most pleasant time to visit.",
+     "facts": [
+      "AN2",
+      "AN1",
+      "BGT5",
+      "AN3",
+      "AN4",
+      "AN5",
+      "BWG1",
+      "BWG5",
+      "AN7",
+      "AN8",
+      "BAM3"
+     ]
+    },
+    "who_its_for": {
+     "items": [
+      {
+       "title": "Pilgrims",
+       "body": "The Golden Temple, the gurdwara trail, the view from Baba Atal Sahib's tower terrace, and Ram Tirath."
+      },
+      {
+       "title": "History lovers",
+       "body": "Jallianwala Bagh, the Partition Museum and Gobindgarh Fort."
+      },
+      {
+       "title": "Food lovers",
+       "body": "Kulcha, poori chholey, dhaba thalis, Amritsari fish and lassi."
+      },
+      {
+       "title": "Festival-goers",
+       "body": "Baisakhi, Guru Nanak's birthday and Diwali, when the temple is lit with lamps."
+      }
+     ],
+     "facts": [
+      "AN3",
+      "BGT10",
+      "AN6",
+      "AN4",
+      "AN7",
+      "AN8",
+      "AN12",
+      "BGT11",
+      "AN11"
+     ]
+    },
+    "shopping": {
+     "items": [
+      {
+       "body": "Phulkari embroidery.",
+       "status": "verified"
+      },
+      {
+       "body": "Colourful juttis (embroidered shoes).",
+       "status": "verified"
+      },
+      {
+       "body": "Papad, wadiyan and spice blends to take home.",
+       "status": "verified"
+      }
+     ],
+     "facts": [
+      "AN10"
+     ]
+    },
+    "culture_etiquette": {
+     "items": [
+      {
+       "body": "Cover your head and remove your shoes at every gurdwara; no tobacco, alcohol or drugs."
+      },
+      {
+       "body": "Eat langar sitting in rows on the floor, and accept kada prasad with cupped hands."
+      },
+      {
+       "body": "Volunteering in the langar kitchen is welcomed."
+      }
+     ],
+     "facts": [
+      "BGT8",
+      "BAM12",
+      "AN9",
+      "BGT5"
+     ]
+    },
+    "common_mistakes": {
+     "items": [
+      {
+       "body": "Arriving late at Wagah. Reach the gallery at least 45 minutes before the ceremony."
+      },
+      {
+       "body": "Visiting the temple only by day. Come back at night, when it is lit up."
+      },
+      {
+       "body": "Joining the sanctum queue at peak time. Late afternoon and early evening are suggested."
+      },
+      {
+       "body": "Visiting in May–June. Summer can reach 45 °C."
+      }
+     ],
+     "facts": [
+      "BWG4",
+      "BGT7",
+      "BAM4"
+     ]
+    },
+    "faqs": {
+     "items": [
+      {
+       "title": "How far is the Wagah border from Amritsar?",
+       "body": "About 28–30 km west, on the Grand Trunk Road."
+      },
+      {
+       "title": "Is the langar really free?",
+       "body": "Yes. It serves free vegetarian meals to everyone, day and night."
+      },
+      {
+       "title": "When is the best time to visit?",
+       "body": "October to March. Summers can reach 45 °C."
+      },
+      {
+       "title": "Can I attend the Wagah ceremony?",
+       "body": "Yes. The UK government advises against travel within 10 km of the border except at the Wagah–Attari crossing, and says visitors can still attend the daily retreat ceremony, though the crossing itself is closed. Check your own government's current advice."
+      }
+     ],
+     "facts": [
+      "BWG1",
+      "BAM12",
+      "BAM3",
+      "BAM4",
+      "AN13"
+     ]
+    }
+   }
+  }
+ ],
+ "itineraries": [
+  {
+   "place": "punjab/amritsar",
+   "slug": "amritsar-2-days",
+   "title": "Amritsar in 2 days",
+   "summary": "The Golden Temple by day and by night, Jallianwala Bagh, the Partition Museum, Gobindgarh Fort and the Wagah border ceremony.",
+   "durationDays": 2,
+   "tripTypes": [
+    "spiritual",
+    "heritage",
+    "food"
+   ],
+   "seoTitle": "2-Day Amritsar Itinerary: Golden Temple & Wagah",
+   "seoDescription": "A realistic 2-day Amritsar plan: the Golden Temple and langar, Jallianwala Bagh, the Partition Museum, the Attari–Wagah ceremony and Gobindgarh Fort.",
+   "plan": {
+    "overview": "The Golden Temple, Jallianwala Bagh and the Partition Museum are all within a short walk, so day 1 is on foot. Keep one afternoon for the Wagah border ceremony, about 28–30 km away, and check its timing for the season.",
+    "days": [
+     {
+      "title": "The old city",
+      "stops": [
+       {
+        "time": "Early morning",
+        "name": "Golden Temple",
+        "placeSlug": "golden-temple",
+        "duration": "2–3 hours",
+        "note": "Cover your head and leave shoes at the racks."
+       },
+       {
+        "time": "Late morning",
+        "name": "Langar at the Golden Temple",
+        "placeSlug": "golden-temple",
+        "duration": "1 hour"
+       },
+       {
+        "time": "Midday",
+        "name": "Jallianwala Bagh",
+        "placeSlug": "jallianwala-bagh",
+        "duration": "1 hour"
+       },
+       {
+        "time": "Afternoon",
+        "name": "Partition Museum",
+        "placeSlug": "partition-museum",
+        "duration": "2 hours",
+        "note": "Closed Mondays."
+       },
+       {
+        "time": "Late afternoon",
+        "name": "Rest at the hotel",
+        "duration": "1–2 hours"
+       },
+       {
+        "time": "Evening",
+        "name": "Heritage Street and the Golden Temple lit up",
+        "placeSlug": "golden-temple",
+        "duration": "2 hours"
+       }
+      ],
+      "overnight": "Amritsar",
+      "meals": "Langar at the Golden Temple; kulcha or poori chholey and lassi."
+     },
+     {
+      "title": "Fort, food and the border",
+      "stops": [
+       {
+        "time": "Morning",
+        "name": "Kulcha breakfast, then the Durgiana Temple",
+        "placeSlug": "amritsar",
+        "duration": "2 hours"
+       },
+       {
+        "time": "Midday",
+        "name": "Lunch and rest",
+        "duration": "2 hours"
+       },
+       {
+        "time": "Afternoon",
+        "name": "Attari–Wagah border ceremony",
+        "placeSlug": "attari-wagah-border",
+        "duration": "Half day including travel",
+        "note": "About 28–30 km each way. Arrive at least 45 minutes early. UK advice excludes the Wagah–Attari crossing from its border warning; check your own advisory."
+       },
+       {
+        "time": "Evening",
+        "name": "Gobindgarh Fort shows",
+        "placeSlug": "gobindgarh-fort",
+        "duration": "2 hours",
+        "note": "Listed as open until 10 pm."
+       }
+      ],
+      "overnight": "Amritsar",
+      "meals": "Kulcha breakfast; a dhaba lunch of kali daal and sarson ka saag.",
+      "distance": "Attari–Wagah about 28–30 km each way"
+     }
+    ],
+    "budget": {
+     "assumptions": "Fees below are as listed by Punjab Tourism, which notes that rates may change. Transport, hotels and meals are not estimated.",
+     "lines": [
+      {
+       "label": "Golden Temple, langar, Jallianwala Bagh, Wagah ceremony",
+       "amount": "Free",
+       "basis": "Langar is free to all; check others locally"
+      },
+      {
+       "label": "Partition Museum",
+       "amount": "Rs 10 (Indians) / Rs 250 (foreigners)",
+       "basis": "Punjab Tourism listing"
+      },
+      {
+       "label": "Gobindgarh Fort",
+       "amount": "Rs 180–649 (Indians) / Rs 250–1,000 (foreigners)",
+       "basis": "Punjab Tourism listing"
+      }
+     ]
+    },
+    "booking": [
+     {
+      "item": "Transport to Wagah",
+      "detail": "Arrange a taxi or shared transport for the round trip; agree the return time in advance."
+     }
+    ],
+    "alternatives": [
+     "Swap Gobindgarh Fort for Sadda Pind, the village museum about 8 km away.",
+     "Visit Sri Ram Tirath, 11 km from the Golden Temple, on the morning of day 2."
+    ],
+    "tips": [
+     "Carry a scarf or bandana for the gurdwaras.",
+     "The Partition Museum is closed on Mondays — plan around it."
+    ],
+    "style": "Spiritual and food city break",
+    "start": "Amritsar",
+    "end": "Amritsar",
+    "season": "October to March is most pleasant; summer can reach 45 °C.",
+    "difficulty": "Easy",
+    "transport": "Walk in the old city; taxi to Wagah",
+    "prep": [
+     {
+      "title": "At the gurdwaras",
+      "body": "Cover your head (carry a scarf) and leave shoes at the racks. No tobacco, alcohol or drugs."
+     },
+     {
+      "title": "Wagah",
+      "body": "Arrive at least 45 minutes before the ceremony. UK advice (18 November 2026) excludes the Wagah–Attari crossing from its border warning, and visitors can attend the ceremony; the crossing itself is closed. Check your own advisory."
+     },
+     {
+      "title": "Weather",
+      "body": "October to March is most pleasant; summers can reach 45 °C."
+     }
+    ],
+    "faqs": [
+     {
+      "q": "When is the Golden Temple best?",
+      "a": "Early morning for calm, and at night when it is lit up. For the sanctum queue, late afternoon and early evening are suggested."
+     },
+     {
+      "q": "How long does the Wagah trip take?",
+      "a": "Half a day including about 28–30 km each way."
+     },
+     {
+      "q": "Do I need to pay for langar?",
+      "a": "No, it is free to all."
+     }
+    ]
+   },
+   "facts": [
+    "BGT8",
+    "BAM12",
+    "BJB4",
+    "BPM2",
+    "BAM7",
+    "BAM5",
+    "BAM8",
+    "BWG1",
+    "BWG4",
+    "BWG5",
+    "BGF2",
+    "BPM4",
+    "BAM11",
+    "BAM10",
+    "AN13",
+    "AN7",
+    "AN8",
+    "BGT7",
+    "BAM3",
+    "BAM4"
+   ],
+   "sources": []
+  }
+ ]
+}

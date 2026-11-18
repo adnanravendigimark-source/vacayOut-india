@@ -39,7 +39,7 @@ export type RollupPlace = {
 export const CARD_SECTIONS = ["key_facts", "visit_info"] as const;
 export type CardSection = (typeof CARD_SECTIONS)[number];
 
-export type RollupItinerary = { slug: string; title: string; summary: string; durationDays: number; tripTypes: string[]; hero: SnapshotImage | null; placeName: string; stopNames: string[] };
+export type RollupItinerary = { slug: string; title: string; summary: string; durationDays: number; tripTypes: string[]; hero: SnapshotImage | null; placeName: string; stopNames: string[]; stopSlugs: string[] };
 export type RollupGuide = { slug: string; title: string; summary: string; hero: SnapshotImage | null; placeName: string; placeNames: string[] };
 
 /** Published places below `rootId` (any depth): own pages, and sections inside a published parent page. */
@@ -99,7 +99,9 @@ export async function listItinerariesTouching(stateSlug: string, slugs: Set<stri
     });
     if (!own && !viaStop) continue;
     const stopNames = [...new Set(stops.filter((st) => st.placeSlug).map((st) => st.name))].slice(0, 4);
-    out.push({ slug: s.slug, title: s.title, summary: s.summary, durationDays: s.durationDays, tripTypes: s.tripTypes, hero: s.hero, placeName: s.place.name, stopNames });
+    // In visiting order: the places (in this state) the stops link to, for drawing the route by town.
+    const stopSlugs = stops.map((st) => (st.placeSlug ? stopRef(st.placeSlug, s.place.stateSlug) : null)).filter((r): r is NonNullable<typeof r> => !!r && r.state === stateSlug).map((r) => r.slug);
+    out.push({ slug: s.slug, title: s.title, summary: s.summary, durationDays: s.durationDays, tripTypes: s.tripTypes, hero: s.hero, placeName: s.place.name, stopNames, stopSlugs });
   }
   return out;
 }

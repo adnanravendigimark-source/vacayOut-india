@@ -442,3 +442,82 @@ export function SeasonPanels({ seasons }: { seasons: SeasonPanel[] }) {
     </ul>
   );
 }
+
+export type TripCard = { slug: string; title: string; summary: string; days: number; type: string | null; stops: string[]; image: { url: string; alt: string; ai?: boolean } | null };
+
+const LENGTHS = [
+  { key: "short", label: "1–3 days", test: (d: number) => d <= 3 },
+  { key: "mid", label: "4–6 days", test: (d: number) => d >= 4 && d <= 6 },
+  { key: "long", label: "A week or more", test: (d: number) => d >= 7 },
+] as const;
+
+/**
+ * Ready-made plans as trip cards: a big day count, the route as a line of stops that draws in
+ * on hover, and a trip-length filter when there are enough plans to choose from.
+ */
+export function TripCards({ trips, initial = 6 }: { trips: TripCard[]; initial?: number }) {
+  const [len, setLen] = useState<string | null>(null);
+  const [all, setAll] = useState(false);
+  const groups = LENGTHS.map((l) => ({ ...l, n: trips.filter((t) => l.test(t.days)).length })).filter((g) => g.n > 0);
+  const shown = len ? trips.filter((t) => LENGTHS.find((l) => l.key === len)!.test(t.days)) : trips;
+  const visible = all ? shown : shown.slice(0, initial);
+
+  return (
+    <div>
+      {trips.length > 3 && groups.length > 1 ? (
+        <div role="group" aria-label="Trip length" className="-mx-1 mb-6 flex gap-1 overflow-x-auto px-1 pb-1 [scrollbar-width:none]">
+          {[{ key: null as string | null, label: "All trips", n: trips.length }, ...groups.map((g) => ({ key: g.key as string | null, label: g.label, n: g.n }))].map((g) => (
+            <button key={g.key ?? "all"} type="button" aria-pressed={len === g.key} onClick={() => { setLen(g.key); setAll(false); }}
+              className={`shrink-0 rounded-full px-3.5 py-1.5 text-[0.8125rem] font-medium transition-colors ${len === g.key ? "bg-[#F3EFEA] text-ink" : "text-[#777777] hover:text-ink"}`}>
+              {g.label} <span className="ml-0.5 text-[#AAAAAA]">{g.n}</span>
+            </button>
+          ))}
+        </div>
+      ) : null}
+
+      <ul className="grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-3">
+        {visible.map((t, i) => (
+          <li key={t.slug} className="trip" style={{ ["--i" as string]: i }}>
+            <Link href={`/itineraries/${t.slug}`} className="group block">
+              <div className="relative aspect-[16/10] overflow-hidden rounded-2xl bg-[#ECE8E0]">
+                {t.image ? <Image src={t.image.url} alt={t.image.alt} fill sizes="(min-width: 1024px) 33vw, (min-width: 640px) 50vw, 100vw" className="object-cover transition-transform duration-700 ease-out group-hover:scale-[1.04]" /> : <span className="flex size-full items-center justify-center text-[#B8B2A6]"><Icon name="route" size={30} /></span>}
+                <span aria-hidden className="absolute inset-0 bg-gradient-to-t from-black/45 via-transparent to-transparent" />
+                <span className="absolute left-3 top-3 flex items-baseline gap-1 rounded-xl bg-white px-3 py-1.5 text-ink shadow-sm">
+                  <span className="font-serif text-2xl leading-none">{t.days}</span>
+                  <span className="text-[0.6875rem] font-semibold uppercase tracking-wider text-[#777777]">{t.days === 1 ? "day" : "days"}</span>
+                </span>
+                {t.type ? <span className="absolute bottom-3 left-3 rounded-full bg-white/20 px-2.5 py-0.5 text-[0.6875rem] font-semibold text-white backdrop-blur-md">{t.type}</span> : null}
+                {t.image?.ai ? <span className="absolute right-3 top-3 rounded bg-black/55 px-1.5 py-0.5 text-[0.625rem] font-semibold text-white">AI illustration</span> : null}
+              </div>
+              <div className="mt-3.5 px-0.5">
+                <h3 className="font-serif text-[1.2rem] leading-snug text-ink transition-colors group-hover:text-coral">{t.title}</h3>
+                {t.stops.length > 1 ? (
+                  <ol className="trip__route mt-3 flex items-start" aria-label={`Route: ${t.stops.join(", ")}`}>
+                    {t.stops.map((s, j) => (
+                      <li key={s} className="relative min-w-0 flex-1 pr-1" style={{ ["--j" as string]: j }}>
+                        {j < t.stops.length - 1 ? <span aria-hidden className="trip__seg absolute left-2 right-0 top-[5px] h-px bg-[#E2DCD3]"><span className="trip__fill block h-full origin-left bg-coral" /></span> : null}
+                        <span aria-hidden className="trip__stop relative block size-[11px] rounded-full border-2 border-coral bg-white" />
+                        <span className="mt-1.5 block truncate text-[0.6875rem] text-[#777777]" title={s}>{s}</span>
+                      </li>
+                    ))}
+                  </ol>
+                ) : t.stops.length === 1 ? (
+                  <p className="mt-2 flex items-center gap-1 text-xs text-[#777777]"><Icon name="pin" size={12} className="text-coral" /> Based in {t.stops[0]}</p>
+                ) : null}
+                {t.summary ? <p className="mt-2.5 line-clamp-2 text-sm leading-relaxed text-[#666666]">{t.summary}</p> : null}
+                <span className="mt-3 inline-flex items-center gap-1 text-sm font-semibold text-ink">
+                  Day-by-day plan <Icon name="arrowRight" size={14} className="transition-transform group-hover:translate-x-1" />
+                </span>
+              </div>
+            </Link>
+          </li>
+        ))}
+      </ul>
+      {shown.length > initial ? (
+        <button type="button" onClick={() => setAll((a) => !a)} className="mx-auto mt-10 flex items-center gap-1.5 rounded-full border border-[#E5E2DC] bg-white px-5 py-2.5 text-sm font-medium text-ink transition-colors hover:border-ink">
+          {all ? "Show fewer" : `Show all ${shown.length} trips`} <Icon name="chevronDown" size={15} className={`transition-transform ${all ? "rotate-180" : ""}`} />
+        </button>
+      ) : null}
+    </div>
+  );
+}

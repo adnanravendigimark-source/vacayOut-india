@@ -763,16 +763,23 @@
     "WG9": {
       "place": "punjab/attari-wagah-border",
       "topic": "UK advice on the border zone",
-      "claim": "As of October 2026, the UK government advises against all travel within 10 km of the India–Pakistan border, which includes the ceremony site; the crossing itself is closed except for the daily ceremony.",
+      "claim": "The UK government advises against all travel within 10 km of the India–Pakistan border except the Wagah–Attari crossing; the crossing is closed, but visitors can still attend the daily retreat ceremony (advice still current on 18 November 2026).",
       "claimType": "rule",
       "evidence": [
         {
           "source": "FCDO",
-          "quote": "FCDO advises against all travel within 10km of the India-Pakistan border. The Wagah-Attari border crossing is closed except for the daily border retreat ceremony."
+          "quote": "FCDO advises against all travel within 10km of the India-Pakistan border, except for Wagah-Attari border crossing.",
+          "sourceDate": "2026-11-18"
         },
         {
           "source": "FCDO",
-          "quote": "Still current at: 27 October 2026"
+          "quote": "while the Wagah-Attari border crossing is currently closed",
+          "sourceDate": "2026-11-18"
+        },
+        {
+          "source": "FCDO",
+          "quote": "visitors can still access and attend the daily border retreat ceremony",
+          "sourceDate": "2026-11-18"
         }
       ]
     },
@@ -1222,7 +1229,7 @@
           "items": [
             {
               "title": "Travel advisories",
-              "body": "As of October 2026, the UK government advises against all travel within 10 km of the India–Pakistan border — this includes the ceremony site. The border crossing is closed except for the daily ceremony. Check your own government's advice and your insurance before you go."
+              "body": "The UK government advises against all travel within 10 km of the India–Pakistan border, except at the Wagah–Attari crossing. The crossing itself is currently closed, but visitors can still attend the daily retreat ceremony (UK advice still current on 18 November 2026). Check your own government's advice and your insurance before you go."
             }
           ],
           "facts": [
@@ -1279,151 +1286,5 @@
       "displayMode": "parent_section"
     }
   ],
-  "itineraries": [
-    {
-      "place": "punjab/amritsar",
-      "slug": "amritsar-2-days",
-      "title": "Amritsar in 2 days",
-      "summary": "The Golden Temple by day and by night, Jallianwala Bagh, the Partition Museum, Gobindgarh Fort and the Wagah border ceremony.",
-      "durationDays": 2,
-      "tripTypes": [
-        "spiritual",
-        "heritage",
-        "food"
-      ],
-      "seoTitle": "2-Day Amritsar Itinerary: Golden Temple & Wagah",
-      "seoDescription": "A realistic 2-day Amritsar plan: the Golden Temple and langar, Jallianwala Bagh, the Partition Museum, the Attari–Wagah ceremony and Gobindgarh Fort.",
-      "plan": {
-        "overview": "The Golden Temple, Jallianwala Bagh and the Partition Museum are all within a short walk, so day 1 is on foot. Keep one afternoon for the Wagah border ceremony, about 28–30 km away, and check its timing for the season.",
-        "days": [
-          {
-            "title": "The old city",
-            "stops": [
-              {
-                "time": "Early morning",
-                "name": "Golden Temple",
-                "placeSlug": "golden-temple",
-                "duration": "2–3 hours",
-                "note": "Cover your head and leave shoes at the racks."
-              },
-              {
-                "time": "Late morning",
-                "name": "Langar at the Golden Temple",
-                "placeSlug": "golden-temple",
-                "duration": "1 hour"
-              },
-              {
-                "time": "Midday",
-                "name": "Jallianwala Bagh",
-                "placeSlug": "jallianwala-bagh",
-                "duration": "1 hour"
-              },
-              {
-                "time": "Afternoon",
-                "name": "Partition Museum",
-                "placeSlug": "partition-museum",
-                "duration": "2 hours",
-                "note": "Closed Mondays."
-              },
-              {
-                "time": "Late afternoon",
-                "name": "Rest at the hotel",
-                "duration": "1–2 hours"
-              },
-              {
-                "time": "Evening",
-                "name": "Heritage Street and the Golden Temple lit up",
-                "placeSlug": "golden-temple",
-                "duration": "2 hours"
-              }
-            ],
-            "overnight": "Amritsar"
-          },
-          {
-            "title": "Fort, food and the border",
-            "stops": [
-              {
-                "time": "Morning",
-                "name": "Kulcha breakfast, then the Durgiana Temple",
-                "placeSlug": "amritsar",
-                "duration": "2 hours"
-              },
-              {
-                "time": "Midday",
-                "name": "Lunch and rest",
-                "duration": "2 hours"
-              },
-              {
-                "time": "Afternoon",
-                "name": "Attari–Wagah border ceremony",
-                "placeSlug": "attari-wagah-border",
-                "duration": "Half day including travel",
-                "note": "About 28–30 km each way. Arrive at least 45 minutes early. The UK government currently advises against travel within 10 km of the border — check your own advisory."
-              },
-              {
-                "time": "Evening",
-                "name": "Gobindgarh Fort shows",
-                "placeSlug": "gobindgarh-fort",
-                "duration": "2 hours",
-                "note": "Listed as open until 10 pm."
-              }
-            ],
-            "overnight": "Amritsar"
-          }
-        ],
-        "budget": {
-          "assumptions": "Fees below are as listed by Punjab Tourism, which notes that rates may change. Transport, hotels and meals are not estimated.",
-          "lines": [
-            {
-              "label": "Golden Temple, langar, Jallianwala Bagh, Wagah ceremony",
-              "amount": "Free",
-              "basis": "Langar is free to all; check others locally"
-            },
-            {
-              "label": "Partition Museum",
-              "amount": "Rs 10 (Indians) / Rs 250 (foreigners)",
-              "basis": "Punjab Tourism listing"
-            },
-            {
-              "label": "Gobindgarh Fort",
-              "amount": "Rs 180–649 (Indians) / Rs 250–1,000 (foreigners)",
-              "basis": "Punjab Tourism listing"
-            }
-          ]
-        },
-        "booking": [
-          {
-            "item": "Transport to Wagah",
-            "detail": "Arrange a taxi or shared transport for the round trip; agree the return time in advance."
-          }
-        ],
-        "alternatives": [
-          "Swap Gobindgarh Fort for Sadda Pind, the village museum about 8 km away.",
-          "Visit Sri Ram Tirath, 11 km from the Golden Temple, on the morning of day 2."
-        ],
-        "tips": [
-          "Carry a scarf or bandana for the gurdwaras.",
-          "The Partition Museum is closed on Mondays — plan around it."
-        ]
-      },
-      "facts": [
-        "GT8",
-        "AM12",
-        "JB4",
-        "PM2",
-        "AM7",
-        "AM5",
-        "AM8",
-        "WG1",
-        "WG4",
-        "WG5",
-        "WG9",
-        "GF2",
-        "PM4",
-        "AM11",
-        "AM10"
-      ],
-      "sources": []
-    }
-  ]
+  "itineraries": []
 }

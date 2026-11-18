@@ -9,13 +9,13 @@ import { kindLabel } from "@/lib/places/kinds";
 import { categoryLabel } from "@/lib/places/categories";
 import { zoneOf } from "@/lib/places/states";
 import { tripTypeLabel } from "@/lib/places/trip-types";
-import type { PlaceRollup, RollupPlace } from "@/lib/places/rollup";
+import { DESTINATION_KINDS, type PlaceRollup, type RollupPlace } from "@/lib/places/rollup";
 import { PlaceMap } from "@/components/map/place-map";
 import { PageAssistant } from "@/components/assistant/page-assistant";
 import { buildPack } from "@/lib/assistant/pack";
 import { FaqList, SectionBody as SectionBodyView, StatusPill } from "./section-body";
 import { HashDialogs } from "./interactive";
-import { FilterCards, PlanAiButton, PracticalTabs, RegionAccordion, SeasonPanels, SectionNav, type RegionGeo, type SeasonPanel } from "./state-guide-client";
+import { FilterCards, PlanAiButton, PracticalTabs, RegionAccordion, SeasonPanels, SectionNav, TripCards, type RegionGeo, type SeasonPanel } from "./state-guide-client";
 import { INDIA_MAP_PATHS } from "@/components/home/india-map-data";
 import { shapeStates } from "@/components/home/regions";
 import { pathBBox, projectIndia } from "@/lib/india-svg-geo";
@@ -475,8 +475,24 @@ export function StateGuide({
   const stateGuides = rollup.guides.filter((g) => g.placeName === name);
   const guides = stateGuides.length ? stateGuides : rollup.guides;
   // Only plans made for the whole state; town plans live on their town's page (used here only when the state has none).
-  const statePlans = rollup.itineraries.filter((it) => it.placeName === name);
-  const itineraries = (statePlans.length ? statePlans : rollup.itineraries).sort((a, b) => a.durationDays - b.durationDays);
+  // Every plan that touches the state, shortest first (the length filter on the page narrows them).
+  const itineraries = [...rollup.itineraries].sort((a, b) => a.durationDays - b.durationDays);
+  // A plan's route by town: each stop's place, or the destination it sits in; repeats collapsed; at most five.
+  const bySlug = new Map(all.map((x) => [x.slug, x]));
+  const byId = new Map(all.map((x) => [x.id, x]));
+  const townOf = (slug: string): string | null => {
+    let p = bySlug.get(slug);
+    for (let i = 0; p && i < 4; i++) {
+      if ((DESTINATION_KINDS as readonly string[]).includes(p.kind)) return p.name;
+      p = p.parentId ? byId.get(p.parentId) : undefined;
+    }
+    return null;
+  };
+  const routeTowns = (slugs: string[]) => {
+    const out: string[] = [];
+    for (const s of slugs) { const t = townOf(s); if (t && !out.includes(t)) out.push(t); }
+    return out.slice(0, 5);
+  };
 
   // Seasonal access, straight from the places' own visiting info.
   const seasonal = [...rollup.attractions, ...rollup.activities]
@@ -1066,27 +1082,21 @@ export function StateGuide({
         {/* G. Itineraries */}
         {itineraries.length ? (
           <section id="itineraries" aria-labelledby="itineraries-h" className="scroll-mt-36">
-            <SectionHead id="itineraries" eyebrow="Ready-made plans" title={`Itineraries for ${name}`} intro="Day-by-day plans with realistic travel times. Open one for the full route, stays and costs." more={{ href: routes.itineraries, label: "All itineraries" }} />
-            <ul className="grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-3">
-              {itineraries.map((it) => (
-                <li key={it.slug} className="flex">
-                  <Link href={`/itineraries/${it.slug}`} className="group flex w-full flex-col overflow-hidden rounded-2xl border border-[#E5E2DC] bg-white shadow-xs transition-all hover:border-coral hover:shadow-card">
-                    <Photo img={it.hero} aspect="aspect-[16/9]" sizes="(min-width: 1024px) 33vw, (min-width: 640px) 50vw, 100vw" fallback="route">
-                      <span className="absolute left-2.5 top-2.5 rounded-md bg-coral px-2 py-0.5 text-[0.6875rem] font-bold text-white">{it.durationDays} {it.durationDays === 1 ? "day" : "days"}</span>
-                    </Photo>
-                    <div className="flex flex-1 flex-col space-y-2 p-4">
-                      <h3 className="font-serif text-base font-bold text-ink group-hover:text-coral">{it.title}</h3>
-                      <p className="line-clamp-2 text-xs leading-relaxed text-[#555]">{it.summary}</p>
-                      {it.stopNames.length ? (
-                        <p className="mt-auto flex flex-wrap items-center gap-1 pt-2 text-[0.6875rem] text-[#777]">
-                          <Icon name="route" size={12} className="text-[#2D5A3F]" /> {it.stopNames.join(" → ")}
-                        </p>
-                      ) : null}
-                    </div>
-                  </Link>
-                </li>
-              ))}
-            </ul>
+            <SectionHead id="itineraries" eyebrow="Ready-made plans" title={`Itineraries for ${name}`} intro="Pick a trip length, then open a plan for the day-by-day route, stays and costs." more={{ href: routes.itineraries, label: "All itineraries" }} />
+            <TripCards
+              trips={itineraries.map((it) => ({
+                slug: it.slug,
+                title: it.title,
+                summary: it.summary,
+                days: it.durationDays,
+                type: it.tripTypes[0] ? tripTypeLabel(it.tripTypes[0]) : null,
+                stops: routeTowns(it.stopSlugs),
+                image: (() => {
+                  const img = it.hero ?? it.stopSlugs.map((sl) => bySlug.get(sl)?.hero).find(Boolean) ?? null;
+                  return img ? { url: img.url, alt: img.alt, ai: img.kind === "ai_generated" } : null;
+                })(),
+              }))}
+            />
           </section>
         ) : null}
 

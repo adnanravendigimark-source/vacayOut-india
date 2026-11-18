@@ -278,6 +278,11 @@
       "url": "https://trawell.in/rajasthan/jaipur/anokhi-museum-of-hand-printing",
       "title": "Anokhi Museum of Hand Printing — Trawell",
       "authority": "travel_platform"
+    },
+    "TRV_JBH": {
+      "url": "https://www.trivenicabs.in/jaipur-beyond-hawa-mahal",
+      "title": "Jaipur beyond Hawa Mahal — Triveni Cabs",
+      "authority": "travel_platform"
     }
   },
   "facts": {
@@ -2023,6 +2028,19 @@
         {
           "source": "TRW_ANK",
           "quote": "The Museum is closed to the public every summer from May 1 to July 15"
+        }
+      ]
+    },
+    "RJD_JPAB": {
+      "place": "rajasthan/chand-baori",
+      "topic": "Road from Jaipur",
+      "claimType": "distance",
+      "kind": "estimate",
+      "claim": "Abhaneri's Chand Baori is about 95 km from Jaipur, about 2 hours by road.",
+      "evidence": [
+        {
+          "source": "TRV_JBH",
+          "quote": "It is 95 km from Jaipur (about 2 hours)."
         }
       ]
     }
@@ -4177,117 +4195,167 @@
       "place": "rajasthan/jaipur",
       "slug": "jaipur-1-day-highlights",
       "title": "Jaipur in one day: Amber, the old city and the lit-up museum",
+      "summary": "One full day for Jaipur's essentials: Amber Fort at opening, the Jal Mahal on the way back, then Hawa Mahal, City Palace and Jantar Mantar in the walled city, and the Albert Hall lit up at night.",
       "durationDays": 1,
       "tripTypes": [
-        "heritage"
+        "heritage",
+        "weekend"
       ],
-      "summary": "Amber Fort at opening time, a photo stop at Jal Mahal, then City Palace, Jantar Mantar and Hawa Mahal, ending at the illuminated Albert Hall and Masala Chowk.",
-      "seoTitle": "Jaipur in 1 Day: Amber Fort, Hawa Mahal & More",
-      "seoDescription": "A realistic one-day Jaipur plan in the right order: Amber Fort at 9 am, Jal Mahal, City Palace, Jantar Mantar, Hawa Mahal before 4:30, and Albert Hall at night.",
+      "seoTitle": "Jaipur 1-Day Itinerary: Amber Fort, City Palace & Hawa Mahal",
+      "seoDescription": "A realistic one-day Jaipur plan timed to real opening hours: Amber Fort at 9 am, Hawa Mahal, City Palace and Jantar Mantar, and the Albert Hall at night.",
       "facts": [
         "AM1",
+        "AM3",
         "AM4",
         "AMX1",
         "JL3",
-        "CP5",
-        "JM5",
+        "JL2",
+        "HM2",
+        "HM3",
         "HM4",
+        "CPV1",
+        "CPV2",
+        "JM4",
+        "JM5",
+        "JM6",
         "AH3",
+        "AH5",
         "JP11",
-        "JP12"
+        "RJF1",
+        "RJF2",
+        "JP7",
+        "JP9"
       ],
-      "sources": [],
       "plan": {
-        "overview": "One day is tight but workable if you follow opening hours: Amber first, then the old-city sights before Hawa Mahal closes at 4:30, and the Albert Hall Museum after dark.",
-        "start": "Jaipur",
+        "overview": "Jaipur's big sights are in two clusters: Amber on the hill road 11 km north, and the walled city around the City Palace. Start at Amber when it opens, before the heat and the coach groups. Back in the old city, see Hawa Mahal before it closes at 4:30 pm, then the City Palace and Jantar Mantar next door. The Albert Hall Museum reopens from 7 pm and is lit up at night.",
+        "style": "Fast-paced highlights day by car or rickshaw",
+        "start": "Your hotel in Jaipur (the airport is at Sanganer, about 10 km south of the centre)",
         "end": "Jaipur",
-        "transport": "Rickshaw, taxi or app cab; the metro for the old city",
-        "season": "October to March is most comfortable; summers are long and very hot.",
-        "days": [
-          {
-            "title": "Forts, palace and the old city",
-            "summary": "Amber in the cool of the morning, the walled city in the afternoon, museum lights at night.",
-            "stops": [
-              {
-                "name": "Amber Fort",
-                "time": "9 am",
-                "placeSlug": "amber-fort",
-                "duration": "2.5 hours",
-                "note": "Opens at 9 am; rickshaw about 20–25 minutes from the city."
-              },
-              {
-                "name": "Jal Mahal (from the promenade)",
-                "time": "11:45 am",
-                "placeSlug": "jal-mahal",
-                "duration": "15 minutes",
-                "note": "On the way back from Amber."
-              },
-              {
-                "name": "Lunch in the old city",
-                "time": "12:30 pm",
-                "duration": "1 hour"
-              },
-              {
-                "name": "City Palace",
-                "time": "1:30 pm",
-                "placeSlug": "city-palace",
-                "duration": "1.5 hours",
-                "note": "Open 9:30 am – 7:30 pm."
-              },
-              {
-                "name": "Jantar Mantar",
-                "time": "3 pm",
-                "placeSlug": "jantar-mantar",
-                "duration": "45 minutes",
-                "note": "Next to the City Palace; closes at 5 pm."
-              },
-              {
-                "name": "Hawa Mahal",
-                "time": "4 pm",
-                "placeSlug": "hawa-mahal",
-                "duration": "30 minutes",
-                "note": "Closes at 4:30 pm — enter from the rear."
-              },
-              {
-                "name": "Albert Hall Museum (lit up)",
-                "time": "7 pm",
-                "placeSlug": "albert-hall-museum",
-                "duration": "1 hour",
-                "note": "Evening opening 7 – 9:30 pm."
-              },
-              {
-                "name": "Dinner at Masala Chowk",
-                "time": "8 pm",
-                "duration": "1 hour",
-                "note": "Street food in Ram Niwas Bagh."
-              }
-            ],
-            "overnight": "Jaipur",
-            "travel": "About 11 km each way to Amber; the old-city sights are within walking distance of each other.",
-            "meals": "Breakfast early; lunch in the old city; street-food dinner at Masala Chowk."
-          }
-        ],
+        "season": "October to March is best: winter days of roughly 10–30°C. April–June is extremely hot; July–August brings most of the rain.",
+        "difficulty": "Easy to moderate — a lot of walking and some ramps at Amber",
+        "transport": "Car with driver or app taxi for the day; rickshaws work for the old city.",
         "budget": {
-          "assumptions": "Only costs with a published source are listed, dated 13 November 2026. Monument tickets in Jaipur were revised in 2026 — check current prices at the ticket office. Hotels and meals vary too widely to estimate.",
+          "assumptions": "Per adult, entry fees only. The state's two-day composite ticket (about ₹550 Indian / ₹1,700 foreign) is worth it if you see Amber plus two other state monuments.",
           "lines": [
             {
-              "label": "Rickshaw, Jaipur to Amer (one way)",
-              "amount": "₹200–250",
-              "basis": "Incredible India, about 20–25 minutes"
+              "label": "Amber Fort",
+              "amount": "₹200 (Indian) / ₹1,000 (foreign)",
+              "basis": "State fee from 1 January 2026"
+            },
+            {
+              "label": "Hawa Mahal, Jantar Mantar, Albert Hall",
+              "amount": "₹100 / ₹600 each",
+              "basis": "State fee from 1 January 2026"
+            },
+            {
+              "label": "City Palace Museum ticket",
+              "amount": "₹400 (adult)",
+              "basis": "Official City Palace site"
             }
           ]
         },
         "booking": [
           {
-            "item": "Tickets",
-            "detail": "Buy monument tickets at the gate; the City Palace's upper floors need the separate Royal Splendour ticket."
+            "item": "Car for the day",
+            "detail": "Book a car and driver for about 8–9 hours, or use app taxis between the two clusters."
+          },
+          {
+            "item": "Composite ticket",
+            "detail": "Buy the state composite ticket at the first monument (usually Amber); it also covers Hawa Mahal, Jantar Mantar and Albert Hall."
           }
         ],
         "alternatives": [
-          "On a Sunday, skip the bazaars — most are closed."
+          "Short on energy? Drop Jantar Mantar and spend longer in the City Palace.",
+          "Have a second day? Add Jaigarh and Nahargarh — see the two- and three-day Jaipur plans."
         ],
         "tips": [
-          "Start at Amber by 9 am to beat the heat and the crowds."
+          "Be at Amber at 9 am; it gets crowded and hot by late morning.",
+          "Hawa Mahal closes at 4:30 pm — go inside before the City Palace, not after.",
+          "The Jal Mahal is a roadside view only; the palace is not open to visitors."
+        ],
+        "prep": [
+          {
+            "title": "Dress and heat",
+            "body": "Wear comfortable shoes for the ramps at Amber and Hawa Mahal; carry water and sun protection even in winter."
+          }
+        ],
+        "faqs": [
+          {
+            "q": "Can you see Jaipur in one day?",
+            "a": "You can see the highlights — Amber, Hawa Mahal, City Palace and Jantar Mantar — but the hill forts of Jaigarh and Nahargarh need a second day."
+          },
+          {
+            "q": "What time does the City Palace close?",
+            "a": "The museum is open 9:30 am–6:30 pm, with last tickets at 6 pm."
+          }
+        ],
+        "days": [
+          {
+            "title": "Amber, the walled city and the Albert Hall at night",
+            "summary": "Amber at opening, the old city in the afternoon, and the museum's evening session.",
+            "stops": [
+              {
+                "time": "9 am",
+                "name": "Amber Fort",
+                "placeSlug": "amber-fort",
+                "duration": "2.5 hours",
+                "note": "Suraj Pol, Jaleb Chowk, Diwan-e-Aam and the Sheesh Mahal."
+              },
+              {
+                "time": "11:45 am",
+                "name": "Jal Mahal (roadside view)",
+                "placeSlug": "jal-mahal",
+                "duration": "15 minutes",
+                "note": "Seen from the promenade on the lake's west side."
+              },
+              {
+                "time": "12:30 pm",
+                "name": "Lunch in the old city",
+                "duration": "1 hour"
+              },
+              {
+                "time": "1:30 pm",
+                "name": "Hawa Mahal",
+                "placeSlug": "hawa-mahal",
+                "duration": "45 minutes",
+                "note": "Enter from the rear; ramps, not stairs, lead to the upper floors. Closes 4:30 pm."
+              },
+              {
+                "time": "2:30 pm",
+                "name": "City Palace",
+                "placeSlug": "city-palace",
+                "duration": "1.5 hours",
+                "note": "Museum ticket ₹400; last tickets 6 pm."
+              },
+              {
+                "time": "4 pm",
+                "name": "Jantar Mantar",
+                "placeSlug": "jantar-mantar",
+                "duration": "1 hour",
+                "note": "Next to the City Palace; see the 27 m Samrat Yantra sundial."
+              },
+              {
+                "time": "7 pm",
+                "name": "Albert Hall Museum",
+                "placeSlug": "albert-hall-museum",
+                "duration": "1 hour",
+                "note": "Evening session 7–9:30 pm; the building is lit up in colour."
+              },
+              {
+                "time": "8:15 pm",
+                "name": "Dinner at Masala Chowk",
+                "duration": "1 hour",
+                "note": "Jaipur's street food gathered at Ram Niwas Bagh."
+              }
+            ],
+            "travel": "City → Amber about 11 km (20–25 minutes by rickshaw); Amber → old city back down the same road; the old-city sights are a short walk or drive apart.",
+            "distanceKm": 30,
+            "distance": "About 30 km across the day (estimate)",
+            "driveTime": "About 1–1.5 hours in total (estimate)",
+            "transport": "Car with driver or rickshaw",
+            "meals": "Lunch in the old city; dinner at Masala Chowk.",
+            "overnight": "Jaipur"
+          }
         ]
       }
     },
@@ -4295,141 +4363,208 @@
       "place": "rajasthan/jaipur",
       "slug": "jaipur-2-days-family",
       "title": "Jaipur in two days with family",
+      "summary": "An unhurried two-day Jaipur plan for families: Amber and its stepwell with a midday rest, the sound and light show, then the City Palace, the giant sundial, the museum and the Birla temple.",
       "durationDays": 2,
       "tripTypes": [
         "family",
         "heritage"
       ],
-      "summary": "An easy-paced plan for families: Amber with its stepwell and the evening light show on day one; the City Palace, Jantar Mantar, Albert Hall and a temple at dusk on day two.",
-      "seoTitle": "Jaipur 2-Day Family Itinerary: Forts, Museums & Shows",
-      "seoDescription": "Two relaxed days in Jaipur with children: Amber Fort, a stepwell and the light show, then the City Palace, Jantar Mantar, Albert Hall and Birla Mandir.",
+      "seoTitle": "Jaipur 2-Day Family Itinerary: Forts, Museums and Shows",
+      "seoDescription": "A family-paced two-day Jaipur plan with afternoon rests: Amber Fort and stepwell, the Amber sound and light show, City Palace, Jantar Mantar and Albert Hall.",
       "facts": [
+        "AM3",
         "AM4",
         "AM5",
+        "AM7",
         "PK1",
         "AN1",
-        "CP5",
-        "JM5",
+        "ANK_H",
+        "SL1",
+        "CPV1",
+        "CPV2",
+        "CP3",
+        "JM4",
+        "JMX2",
+        "AH2",
         "AH3",
+        "BM1",
         "BM2",
+        "BM4",
         "JP11",
-        "SL1"
+        "RJF1",
+        "RJF2",
+        "JP9"
       ],
-      "sources": [],
       "plan": {
-        "overview": "Two short days with long lunch breaks. Day one stays around Amber and returns for the evening light show; day two keeps to the city.",
+        "overview": "Built around children's energy: sightseeing in the morning, a rest through the hottest hours, and one outing in the evening. Day 1 stays in Amber — the fort, the Panna Meena stepwell and the Anokhi block-printing museum — and returns at dusk for the sound and light show. Day 2 covers the City Palace, the walk-in instruments of Jantar Mantar, the Albert Hall's galleries and the marble Birla temple at its evening opening.",
+        "style": "Relaxed family pace with an afternoon break each day",
         "start": "Jaipur",
         "end": "Jaipur",
-        "transport": "Rickshaw, taxi or app cab; the metro for the old city",
-        "season": "October to March is most comfortable; summers are long and very hot.",
-        "days": [
-          {
-            "title": "Amber and its stepwell",
-            "summary": "The fort, a stepwell and a museum in Amer town; back to Amber for the light show.",
-            "stops": [
-              {
-                "name": "Amber Fort",
-                "time": "9 am",
-                "placeSlug": "amber-fort",
-                "duration": "2.5 hours"
-              },
-              {
-                "name": "Panna Meena ka Kund",
-                "time": "11:45 am",
-                "placeSlug": "panna-meena-ka-kund",
-                "duration": "30 minutes"
-              },
-              {
-                "name": "Anokhi Museum of Hand Printing",
-                "time": "12:30 pm",
-                "placeSlug": "anokhi-museum",
-                "duration": "45 minutes"
-              },
-              {
-                "name": "Lunch and rest at the hotel",
-                "time": "1:30 pm",
-                "duration": "3 hours"
-              },
-              {
-                "name": "Amber Fort sound and light show",
-                "time": "6:30 pm",
-                "placeSlug": "amber-sound-and-light-show",
-                "duration": "1 hour",
-                "note": "Times change with the season; check on the day."
-              }
-            ],
-            "overnight": "Jaipur",
-            "travel": "About 11 km to Amer and back, twice.",
-            "meals": "Lunch near Amer or back in the city; dinner after the show."
-          },
-          {
-            "title": "Palaces, stars and a marble temple",
-            "summary": "The City Palace and Jantar Mantar in the morning, museum and temple later.",
-            "stops": [
-              {
-                "name": "City Palace",
-                "time": "9:30 am",
-                "placeSlug": "city-palace",
-                "duration": "1.5 hours"
-              },
-              {
-                "name": "Jantar Mantar",
-                "time": "11:15 am",
-                "placeSlug": "jantar-mantar",
-                "duration": "45 minutes",
-                "note": "A guide explains the instruments."
-              },
-              {
-                "name": "Lunch and rest",
-                "time": "12:30 pm",
-                "duration": "2.5 hours"
-              },
-              {
-                "name": "Albert Hall Museum",
-                "time": "3:30 pm",
-                "placeSlug": "albert-hall-museum",
-                "duration": "1 hour",
-                "note": "Egyptian mummy and 16 galleries."
-              },
-              {
-                "name": "Birla Mandir",
-                "time": "5 pm",
-                "placeSlug": "birla-mandir",
-                "duration": "45 minutes",
-                "note": "Opens again at 4 pm."
-              },
-              {
-                "name": "Dinner at Masala Chowk",
-                "time": "7 pm",
-                "duration": "1 hour"
-              }
-            ],
-            "overnight": "Jaipur",
-            "travel": "All within the city, 15–20 minutes apart by cab.",
-            "meals": "Street-food dinner at Masala Chowk in Ram Niwas Bagh."
-          }
-        ],
+        "season": "October to March is best: winter days of roughly 10–30°C. April–June is extremely hot; July–August brings most of the rain.",
+        "difficulty": "Easy",
+        "transport": "Car with driver both days (the Amber trip is easier with your own car).",
         "budget": {
-          "assumptions": "Only costs with a published source are listed, dated 13 November 2026. Monument tickets in Jaipur were revised in 2026 — check current prices at the ticket office. Hotels and meals vary too widely to estimate.",
+          "assumptions": "Per adult, entry fees only; children's rates vary by monument. The two-day state composite ticket covers Amber, Hawa Mahal, Jantar Mantar, Nahargarh and Albert Hall.",
           "lines": [
             {
-              "label": "Rickshaw, Jaipur to Amer (one way)",
-              "amount": "₹200–250",
-              "basis": "Incredible India, about 20–25 minutes"
+              "label": "Amber Fort",
+              "amount": "₹200 (Indian) / ₹1,000 (foreign)",
+              "basis": "State fee from 1 January 2026"
+            },
+            {
+              "label": "Hawa Mahal, Jantar Mantar, Albert Hall",
+              "amount": "₹100 / ₹600 each",
+              "basis": "State fee from 1 January 2026"
+            },
+            {
+              "label": "City Palace Museum ticket",
+              "amount": "₹400 (adult)",
+              "basis": "Official City Palace site"
+            },
+            {
+              "label": "State composite ticket (2 days)",
+              "amount": "About ₹550 (Indian) / ₹1,700 (foreign)",
+              "basis": "Reported price"
             }
           ]
         },
         "booking": [
           {
-            "item": "Show time",
-            "detail": "Check the season's show time with Rajasthan Tourism before you go."
+            "item": "Car and driver",
+            "detail": "Two days with a driver; on Day 1 you go out to Amber twice."
+          },
+          {
+            "item": "Sound and light show",
+            "detail": "Check the season's show time (6:30 pm English in October–February) and book at the Amber show counter or online."
+          },
+          {
+            "item": "Anokhi Museum",
+            "detail": "Closed on Mondays — don't plan Day 1 for a Monday."
           }
         ],
         "alternatives": [
-          "Swap the light show for the lit-up Albert Hall if the children tire."
+          "Children keen on animals? Swap the Birla temple for a leopard safari in Jhalana (book ahead).",
+          "Too much for one morning? Skip the Anokhi Museum and return to the hotel earlier."
         ],
         "tips": [
-          "Keep the hottest hours for rest, especially from April to June."
+          "Arrive at Amber at 9 am opening for cooler air and shorter queues.",
+          "At Jantar Mantar a guided tour explains how each instrument works — it keeps children interested.",
+          "Keep the hottest hours (1–4 pm) for the hotel pool or a rest."
+        ],
+        "prep": [
+          {
+            "title": "For children",
+            "body": "Carry water, hats and snacks; Amber involves uneven stone ramps, so a carrier is easier than a pushchair."
+          }
+        ],
+        "faqs": [
+          {
+            "q": "Is Jaipur good for children?",
+            "a": "Yes — forts with ramps and tunnels, giant instruments at Jantar Mantar and a light-and-sound show keep children interested, but plan rests in the heat."
+          },
+          {
+            "q": "When is the Amber sound and light show?",
+            "a": "Times are seasonal: 6:30 pm (English) and 7:30 pm (Hindi) from October to February, later in summer."
+          }
+        ],
+        "days": [
+          {
+            "title": "Amber, its stepwell and the evening show",
+            "summary": "The fort in the cool of the morning, a rest, then back for the show at dusk.",
+            "stops": [
+              {
+                "time": "9 am",
+                "name": "Amber Fort",
+                "placeSlug": "amber-fort",
+                "duration": "2.5 hours",
+                "note": "The Sheesh Mahal mirror hall is the highlight for children."
+              },
+              {
+                "time": "11:45 am",
+                "name": "Panna Meena ka Kund",
+                "placeSlug": "panna-meena-ka-kund",
+                "duration": "20 minutes",
+                "note": "A centuries-old stepwell in Amer town."
+              },
+              {
+                "time": "12:15 pm",
+                "name": "Anokhi Museum of Hand Printing",
+                "placeSlug": "anokhi-museum",
+                "duration": "45 minutes",
+                "note": "Closed Mondays; open Tue–Sat 10:30 am–5 pm."
+              },
+              {
+                "time": "1:30 pm",
+                "name": "Lunch and rest at the hotel",
+                "duration": "3 hours"
+              },
+              {
+                "time": "6:30 pm",
+                "name": "Amber sound and light show",
+                "placeSlug": "amber-sound-and-light-show",
+                "duration": "1 hour",
+                "note": "English show at 6:30 pm in October–February."
+              }
+            ],
+            "travel": "Two return trips between the city and Amber, about 11 km each way.",
+            "distanceKm": 45,
+            "distance": "About 45 km (estimate)",
+            "driveTime": "About 1.5–2 hours across the day (estimate)",
+            "transport": "Car with driver",
+            "meals": "Lunch near the hotel; dinner after the show.",
+            "overnight": "Jaipur"
+          },
+          {
+            "title": "Palace, sundial, museum and a marble temple",
+            "summary": "The old city in the morning, the museum and temple later in the day.",
+            "stops": [
+              {
+                "time": "9:30 am",
+                "name": "City Palace",
+                "placeSlug": "city-palace",
+                "duration": "1.5 hours",
+                "note": "Mubarak Mahal and the courtyards; Museum ticket ₹400."
+              },
+              {
+                "time": "11:15 am",
+                "name": "Jantar Mantar",
+                "placeSlug": "jantar-mantar",
+                "duration": "1 hour",
+                "note": "Take the guided tour; the giant sundial is 27 m high."
+              },
+              {
+                "time": "12:30 pm",
+                "name": "Lunch and rest",
+                "duration": "3 hours"
+              },
+              {
+                "time": "3:30 pm",
+                "name": "Albert Hall Museum",
+                "placeSlug": "albert-hall-museum",
+                "duration": "1 hour",
+                "note": "16 galleries including miniatures and arms; closes 5 pm for the afternoon."
+              },
+              {
+                "time": "4:45 pm",
+                "name": "Birla Mandir",
+                "placeSlug": "birla-mandir",
+                "duration": "45 minutes",
+                "note": "Reopens at 4 pm; the marble is lit up after dark."
+              },
+              {
+                "time": "7 pm",
+                "name": "Dinner at Masala Chowk",
+                "duration": "1 hour"
+              }
+            ],
+            "travel": "Short drives within the city.",
+            "distanceKm": 15,
+            "distance": "About 15 km (estimate)",
+            "driveTime": "Under 1 hour in total (estimate)",
+            "transport": "Car with driver",
+            "meals": "Lunch near the old city; dinner at Masala Chowk.",
+            "overnight": "Jaipur"
+          }
         ]
       }
     },
@@ -4437,193 +4572,285 @@
       "place": "rajasthan/jaipur",
       "slug": "jaipur-4-days-with-day-trips",
       "title": "Jaipur in four days, with Bagru and Sambhar",
+      "summary": "Four days in and around Jaipur: the walled city, the three hill forts on the ridge, a day out to Bagru's block printers and Sambhar salt lake, and Galtaji's temples and the bazaars to finish.",
       "durationDays": 4,
       "tripTypes": [
         "heritage",
         "nature",
         "food"
       ],
-      "summary": "The old city, the three hill forts, a day trip west to the block printers of Bagru and the salt lake at Sambhar, and a last day for Galtaji and the bazaars.",
-      "seoTitle": "Jaipur 4-Day Itinerary with Day Trips (Bagru, Sambhar)",
-      "seoDescription": "Four days in and around Jaipur: the walled city, Amber, Jaigarh and Nahargarh, a day trip to Bagru and Sambhar Lake, then Galtaji and the bazaars.",
+      "seoTitle": "Jaipur 4-Day Itinerary with Bagru and Sambhar Lake",
+      "seoDescription": "Four days in Jaipur at an easy pace: the walled city, Amber, Jaigarh and Nahargarh, a day trip to Bagru block printers and Sambhar salt lake, then Galtaji.",
       "facts": [
-        "CP5",
+        "CPV1",
+        "CPV2",
+        "JM4",
         "JM5",
+        "HM2",
         "HM4",
+        "IS1",
+        "AH3",
+        "AH5",
+        "AM3",
         "AM4",
+        "JGD1",
+        "JG2",
         "JG3",
+        "NG2",
+        "NGD1",
         "NGX1",
         "BG1",
+        "BG2",
         "SM1",
+        "SM2",
         "GT1",
+        "GT2",
+        "GT4",
         "JP12",
-        "IS1"
+        "JB2",
+        "JP10",
+        "JP11",
+        "RJF1",
+        "RJF2",
+        "CB1",
+        "RJD_JPAB",
+        "JH1",
+        "JP7"
       ],
-      "sources": [],
       "plan": {
-        "overview": "Four days let you see Jaipur without rushing and get out into the countryside. Make the bazaar day a weekday.",
+        "overview": "Four days let you see Jaipur without rushing and get out of the city once. Day 1 is the walled city on foot and by rickshaw. Day 2 follows the ridge road from Amber up to Jaigarh and along to Nahargarh for the view at dusk. Day 3 heads south-west to Bagru, where cloth is still hand block-printed with natural dyes, and on to Sambhar, India's largest inland salt lake, with flamingos in winter. Day 4 is the Galtaji temple complex in the eastern hills and a last round of the bazaars.",
+        "style": "Unhurried city stay with one rural day trip",
         "start": "Jaipur",
-        "end": "Jaipur",
-        "transport": "Rickshaw, taxi or app cab; the metro for the old city",
-        "season": "October to March is most comfortable; summers are long and very hot.",
-        "days": [
-          {
-            "title": "The walled city",
-            "summary": "Palace, observatory, the Palace of Winds and a tower view.",
-            "stops": [
-              {
-                "name": "City Palace",
-                "time": "9:30 am",
-                "placeSlug": "city-palace",
-                "duration": "2 hours"
-              },
-              {
-                "name": "Jantar Mantar",
-                "time": "11:45 am",
-                "placeSlug": "jantar-mantar",
-                "duration": "45 minutes"
-              },
-              {
-                "name": "Lunch",
-                "time": "12:45 pm",
-                "duration": "1 hour"
-              },
-              {
-                "name": "Hawa Mahal",
-                "time": "2 pm",
-                "placeSlug": "hawa-mahal",
-                "duration": "45 minutes"
-              },
-              {
-                "name": "Isarlat (Swarg Suli)",
-                "time": "3 pm",
-                "placeSlug": "isarlat",
-                "duration": "45 minutes",
-                "note": "60-ft tower near Tripolia Gate."
-              },
-              {
-                "name": "Albert Hall Museum (lit up)",
-                "time": "7 pm",
-                "placeSlug": "albert-hall-museum",
-                "duration": "1 hour"
-              }
-            ],
-            "overnight": "Jaipur",
-            "travel": "On foot in the old city.",
-            "meals": "Lunch in the old city; dinner at Masala Chowk."
-          },
-          {
-            "title": "The three hill forts",
-            "summary": "Amber, Jaigarh above it, and sunset at Nahargarh.",
-            "stops": [
-              {
-                "name": "Amber Fort",
-                "time": "9 am",
-                "placeSlug": "amber-fort",
-                "duration": "2.5 hours"
-              },
-              {
-                "name": "Jaigarh Fort",
-                "time": "11:45 am",
-                "placeSlug": "jaigarh-fort",
-                "duration": "1.5 hours",
-                "note": "Open until 5 pm."
-              },
-              {
-                "name": "Lunch and rest",
-                "time": "1:30 pm",
-                "duration": "2 hours"
-              },
-              {
-                "name": "Nahargarh Fort",
-                "time": "4:30 pm",
-                "placeSlug": "nahargarh-fort",
-                "duration": "2 hours",
-                "note": "The steps are free; the interior needs a ticket."
-              }
-            ],
-            "overnight": "Jaipur",
-            "travel": "Amber about 11 km from the city; Jaigarh about 15 km.",
-            "meals": "Lunch near Amer."
-          },
-          {
-            "title": "Day trip: Bagru and Sambhar Lake",
-            "summary": "Block printers on the Ajmer road, then salt flats and (in winter) flamingos.",
-            "stops": [
-              {
-                "name": "Bagru",
-                "time": "9 am",
-                "placeSlug": "bagru",
-                "duration": "2 hours",
-                "note": "About 32 km southwest of Jaipur."
-              },
-              {
-                "name": "Lunch",
-                "time": "12 pm",
-                "duration": "1 hour"
-              },
-              {
-                "name": "Sambhar Lake",
-                "time": "2 pm",
-                "placeSlug": "sambhar-lake",
-                "duration": "2.5 hours",
-                "note": "About 70 km from Jaipur; flamingos in winter."
-              }
-            ],
-            "overnight": "Jaipur",
-            "travel": "About 32 km to Bagru, on to Sambhar, and back to Jaipur — a full day by car.",
-            "meals": "Carry water and snacks; lunch on the way."
-          },
-          {
-            "title": "Galtaji and the bazaars",
-            "summary": "A spring-fed temple in the hills, then shopping.",
-            "stops": [
-              {
-                "name": "Galtaji",
-                "time": "8:30 am",
-                "placeSlug": "galtaji",
-                "duration": "2 hours",
-                "note": "About 10 km east of Jaipur."
-              },
-              {
-                "name": "Lunch",
-                "time": "12 pm",
-                "duration": "1 hour"
-              },
-              {
-                "name": "Johari Bazaar and Bapu Bazaar",
-                "time": "2 pm",
-                "placeSlug": "johari-bazaar",
-                "duration": "3 hours",
-                "note": "Closed on most Sundays."
-              }
-            ],
-            "overnight": "Departure",
-            "travel": "About 10 km to Galtaji and back.",
-            "meals": "Lunch in the old city."
-          }
-        ],
+        "end": "Jaipur (the airport is about 10 km south of the centre)",
+        "season": "October to March is best; Sambhar's flamingos and migratory birds come in winter. Summer reaches the mid-40s °C, and Sambhar's salt pans touch 45°C.",
+        "difficulty": "Easy to moderate",
+        "transport": "Car with driver for Days 2 and 3; rickshaws or app taxis in the old city.",
         "budget": {
-          "assumptions": "Only costs with a published source are listed, dated 13 November 2026. Monument tickets in Jaipur were revised in 2026 — check current prices at the ticket office. Hotels and meals vary too widely to estimate.",
+          "assumptions": "Per adult, entry fees only. The two-day state composite ticket covers Amber, Hawa Mahal, Jantar Mantar, Nahargarh and Albert Hall; the City Palace Composite ticket adds Jaigarh.",
           "lines": [
             {
-              "label": "Rickshaw, Jaipur to Amer (one way)",
-              "amount": "₹200–250",
-              "basis": "Incredible India, about 20–25 minutes"
+              "label": "Amber Fort",
+              "amount": "₹200 (Indian) / ₹1,000 (foreign)",
+              "basis": "State fee from 1 January 2026"
+            },
+            {
+              "label": "Hawa Mahal, Jantar Mantar, Albert Hall",
+              "amount": "₹100 / ₹600 each",
+              "basis": "State fee from 1 January 2026"
+            },
+            {
+              "label": "City Palace Museum ticket",
+              "amount": "₹400 (adult)",
+              "basis": "Official City Palace site"
+            },
+            {
+              "label": "City Palace Composite (adds Jaigarh)",
+              "amount": "₹500 (adult)",
+              "basis": "Official City Palace site"
+            },
+            {
+              "label": "State composite ticket (2 days)",
+              "amount": "About ₹550 (Indian) / ₹1,700 (foreign)",
+              "basis": "Reported price"
             }
           ]
         },
         "booking": [
           {
-            "item": "Day-trip car",
-            "detail": "Hire a car and driver for day three; agree the route (Bagru, Sambhar, back) before you start."
+            "item": "Car and driver",
+            "detail": "Hire for Day 2 (forts) and Day 3 (Bagru and Sambhar, a long rural day)."
+          },
+          {
+            "item": "Block-printing workshop",
+            "detail": "Ask your hotel to arrange a hands-on session with a Bagru printing family in advance."
           }
         ],
         "alternatives": [
-          "Replace day three with Chand Baori at Abhaneri if you prefer architecture to salt flats."
+          "Prefer architecture to salt flats? Swap Day 3 for Abhaneri's Chand Baori stepwell, about 95 km (2 hours) away.",
+          "Want wildlife? Add a morning leopard safari in Jhalana on Jaipur's south-eastern edge."
         ],
         "tips": [
-          "Sambhar is best in winter; in summer it reaches 45 °C."
+          "Buy the City Palace Composite ticket on Day 1 — it also covers Jaigarh on Day 2.",
+          "Hawa Mahal closes at 4:30 pm; go before the City Palace if you're late.",
+          "Start Day 3 early: Sambhar is about 70 km from Jaipur and has little shade."
+        ],
+        "prep": [
+          {
+            "title": "Sambhar",
+            "body": "Carry water, hats and binoculars; there are few facilities on the lake edge and the light off the salt is harsh."
+          },
+          {
+            "title": "Galtaji",
+            "body": "The complex is known for its monkeys — keep food out of sight."
+          }
+        ],
+        "faqs": [
+          {
+            "q": "Is four days too long for Jaipur?",
+            "a": "Not if you add a day trip. Three days covers the city; the fourth lets you see Bagru and Sambhar or Abhaneri."
+          },
+          {
+            "q": "When are the flamingos at Sambhar?",
+            "a": "In winter, when the lake fills with flamingos and migratory birds."
+          }
+        ],
+        "days": [
+          {
+            "title": "The walled city",
+            "summary": "Palace, observatory and the Palace of Winds, then the museum lit up at night.",
+            "stops": [
+              {
+                "time": "9:30 am",
+                "name": "City Palace",
+                "placeSlug": "city-palace",
+                "duration": "2 hours",
+                "note": "Buy the Composite ticket (₹500) if you're seeing Jaigarh tomorrow."
+              },
+              {
+                "time": "11:45 am",
+                "name": "Jantar Mantar",
+                "placeSlug": "jantar-mantar",
+                "duration": "1 hour",
+                "note": "Next to the City Palace."
+              },
+              {
+                "time": "1 pm",
+                "name": "Lunch",
+                "duration": "1 hour"
+              },
+              {
+                "time": "2 pm",
+                "name": "Hawa Mahal",
+                "placeSlug": "hawa-mahal",
+                "duration": "45 minutes",
+                "note": "Closes 4:30 pm."
+              },
+              {
+                "time": "3:15 pm",
+                "name": "Isarlat (Swarg Suli)",
+                "placeSlug": "isarlat",
+                "duration": "45 minutes",
+                "note": "A 60-ft minaret near Tripolia Gate with views over the old city."
+              },
+              {
+                "time": "7 pm",
+                "name": "Albert Hall Museum",
+                "placeSlug": "albert-hall-museum",
+                "duration": "1 hour",
+                "note": "Evening session 7–9:30 pm."
+              }
+            ],
+            "travel": "All within the walled city and Ram Niwas Garden.",
+            "distanceKm": 8,
+            "distance": "About 8 km (estimate)",
+            "driveTime": "Short rickshaw hops",
+            "transport": "Walking and rickshaw",
+            "meals": "Try dal baati churma or kachori in the old city.",
+            "overnight": "Jaipur"
+          },
+          {
+            "title": "The three hill forts",
+            "summary": "Amber at opening, Jaigarh above it, and Nahargarh for the evening view.",
+            "stops": [
+              {
+                "time": "9 am",
+                "name": "Amber Fort",
+                "placeSlug": "amber-fort",
+                "duration": "2.5 hours",
+                "note": "Suraj Pol, Jaleb Chowk and the Sheesh Mahal."
+              },
+              {
+                "time": "11:45 am",
+                "name": "Jaigarh Fort",
+                "placeSlug": "jaigarh-fort",
+                "duration": "1.5 hours",
+                "note": "About 2.5 km by road above Amber; the Jaivana cannon. Open until 5 pm."
+              },
+              {
+                "time": "1:30 pm",
+                "name": "Lunch and rest",
+                "duration": "2.5 hours"
+              },
+              {
+                "time": "4:30 pm",
+                "name": "Nahargarh Fort",
+                "placeSlug": "nahargarh-fort",
+                "duration": "2 hours",
+                "note": "Views over Jaipur and the Jal Mahal at dusk."
+              }
+            ],
+            "travel": "City → Amber about 11 km; Amber → Jaigarh 2.5 km uphill; Nahargarh is about 6 km from the city by the winding fort road.",
+            "distanceKm": 40,
+            "distance": "About 40 km across the day (estimate)",
+            "driveTime": "About 2 hours in total (estimate)",
+            "transport": "Car with driver",
+            "meals": "Lunch in Amer or back in town.",
+            "overnight": "Jaipur"
+          },
+          {
+            "title": "Day trip: Bagru and Sambhar Lake",
+            "summary": "Block printers in the morning, the salt lake in the afternoon.",
+            "stops": [
+              {
+                "time": "9 am",
+                "name": "Bagru",
+                "placeSlug": "bagru",
+                "duration": "2.5 hours",
+                "note": "Watch block printing with indigo, madder and turmeric dyes."
+              },
+              {
+                "time": "12 pm",
+                "name": "Lunch",
+                "duration": "1 hour"
+              },
+              {
+                "time": "2 pm",
+                "name": "Sambhar Lake",
+                "placeSlug": "sambhar-lake",
+                "duration": "2.5 hours",
+                "note": "Salt pans, and flamingos in winter."
+              }
+            ],
+            "travel": "Jaipur → Bagru about 32 km on the Ajmer road; Sambhar lies about 70 km from Jaipur.",
+            "distanceKm": 170,
+            "distance": "About 170 km round trip (estimate)",
+            "driveTime": "About 4 hours of driving (estimate)",
+            "transport": "Car with driver",
+            "meals": "Lunch on the road; carry snacks and water.",
+            "overnight": "Jaipur"
+          },
+          {
+            "title": "Galtaji and the bazaars",
+            "summary": "Temples and springs in the hills, then shopping before you leave.",
+            "stops": [
+              {
+                "time": "8:30 am",
+                "name": "Galtaji",
+                "placeSlug": "galtaji",
+                "duration": "2 hours",
+                "note": "Seven holy kunds fed by springs, about 10 km east of the city."
+              },
+              {
+                "time": "11:30 am",
+                "name": "Lunch",
+                "duration": "1 hour"
+              },
+              {
+                "time": "1 pm",
+                "name": "Johari Bazaar and Bapu Bazaar",
+                "placeSlug": "johari-bazaar",
+                "duration": "2.5 hours",
+                "note": "Jewellery and textiles at Johari; mojaris at Bapu; lac bangles."
+              }
+            ],
+            "travel": "City → Galtaji about 10 km; back to the old city for the bazaars.",
+            "distanceKm": 25,
+            "distance": "About 25 km (estimate)",
+            "driveTime": "About 1 hour in total (estimate)",
+            "transport": "Car or taxi",
+            "meals": "Lunch in the old city.",
+            "overnight": "Departure"
+          }
         ]
       }
     },

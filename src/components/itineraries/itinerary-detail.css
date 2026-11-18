@@ -1,0 +1,48 @@
+/* Itinerary detail page: quiet motion, all of it optional. */
+
+/* Reading progress under the sticky day nav */
+.it-progress { transform-origin: left; transform: scaleX(0); }
+@supports (animation-timeline: scroll()) {
+  .it-progress { animation: it-grow linear both; animation-timeline: scroll(root); }
+}
+@keyframes it-grow { to { transform: scaleX(1); } }
+
+/* Day nav pills */
+.it-pill { transition: background-color .25s, color .25s, border-color .25s, box-shadow .25s; }
+.it-pill[data-active="true"] { background: #191919; color: #fff; border-color: #191919; box-shadow: 0 6px 16px -10px rgba(25,25,25,.6); }
+
+/* Timeline: the line draws itself and each stop fades in as it scrolls into view */
+.it-line { transform-origin: top; }
+@supports (animation-timeline: view()) {
+  .it-line { animation: it-draw linear both; animation-timeline: view(); animation-range: entry 10% cover 55%; }
+  .it-stop { animation: it-stop linear both; animation-timeline: view(); animation-range: entry 0% entry 40%; }
+  .it-reveal { animation: it-stop linear both; animation-timeline: view(); animation-range: entry 0% entry 30%; }
+}
+@keyframes it-draw { from { transform: scaleY(0); } to { transform: scaleY(1); } }
+@keyframes it-stop { from { opacity: 0; transform: translateY(16px); } to { opacity: 1; transform: none; } }
+
+.it-dot { position: relative; }
+.it-dot::after { content: ""; position: absolute; inset: -5px; border-radius: 999px; border: 1px solid rgba(236, 98, 66, .45); opacity: 0; }
+.it-stop:hover .it-dot::after { animation: it-ping 1.2s ease-out infinite; }
+@keyframes it-ping { 0% { opacity: .9; transform: scale(.7); } 100% { opacity: 0; transform: scale(1.5); } }
+
+/* Big outlined day number */
+.it-num { -webkit-text-stroke: 1.25px #EC6242; color: transparent; }
+
+/* FAQ accordion */
+.it-faq summary::-webkit-details-marker { display: none; }
+.it-faq[open] .it-faq__chev { transform: rotate(180deg); }
+.it-faq__body { animation: it-open .35s cubic-bezier(.16, 1, .3, 1); }
+@keyframes it-open { from { opacity: 0; transform: translateY(-4px); } to { opacity: 1; transform: none; } }
+
+@media (prefers-reduced-motion: reduce) {
+  .it-progress { display: none; }
+  .it-line, .it-stop, .it-reveal, .it-faq__body { animation: none !important; opacity: 1; transform: none; }
+  .it-line { transform: none; }
+  .it-stop:hover .it-dot::after { animation: none; }
+}
+
+@media print {
+  .it-num { -webkit-text-stroke: 0; color: #000; }
+  .it-line { transform: none; }
+}

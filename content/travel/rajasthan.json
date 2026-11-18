@@ -273,6 +273,36 @@
       "url": "https://www.tripoto.com/rajasthan/trips/jodhpur-to-jaisalmer-by-road-distance-itinerary-851483",
       "title": "Jodhpur to Jaisalmer by road — Tripoto",
       "authority": "other"
+    },
+    "BCI_RTB": {
+      "url": "https://bigcatsindia.com/ranthambore-safari-timings/",
+      "title": "Ranthambore Tiger Safari Timings — Big Cats India",
+      "authority": "travel_platform"
+    },
+    "GOASIA_RTB": {
+      "url": "https://goasia.cc/en/article/ranthambore-national-park",
+      "title": "Ranthambore National Park — GoAsia",
+      "authority": "travel_platform"
+    },
+    "PCP_WED": {
+      "url": "https://www.pinkcitypost.com/ranthambore-sariska-tiger-reserves-to-remain-closed-on-wednesdays/",
+      "title": "Ranthambore, Sariska Tiger Reserves to remain closed on Wednesdays — Pink City Post",
+      "authority": "media"
+    },
+    "RJCABS_EXC": {
+      "url": "https://rajputanacabs.in/jaipur-tourism/excursions-from-jaipur/",
+      "title": "Excursions from Jaipur — Rajputana Cabs",
+      "authority": "travel_platform"
+    },
+    "TRV_CHT": {
+      "url": "https://www.trivenicabs.in/blog/chittorgarh-fort-complete-guide-2026",
+      "title": "Chittorgarh Fort complete guide 2026 — Triveni Cabs",
+      "authority": "travel_platform"
+    },
+    "RJDRV_CHT": {
+      "url": "https://www.rajasthandriver.com/tourist-attractions/chittorgarh-fort",
+      "title": "Chittorgarh Fort — Rajasthan Driver",
+      "authority": "travel_platform"
     }
   },
   "facts": {
@@ -2336,6 +2366,113 @@
         {
           "source": "TPT_OSN",
           "quote": "located at a distance of 65 Kms on way to Jaisalmer"
+        }
+      ]
+    },
+    "RTB_SEAS": {
+      "place": "rajasthan/ranthambore",
+      "topic": "Park season",
+      "claimType": "schedule",
+      "kind": "seasonal",
+      "claim": "Ranthambore National Park is open to visitors from 1 October to 30 June; the core zones close for the monsoon from July to September.",
+      "evidence": [
+        {
+          "source": "BCI_RTB",
+          "quote": "Ranthambore National Park opens its gates to visitors from October 1st to June 30th every year."
+        },
+        {
+          "source": "BCI_RTB",
+          "quote": "Core zones are closed from July to September."
+        }
+      ]
+    },
+    "RTB_TIME": {
+      "place": "rajasthan/ranthambore-safari",
+      "topic": "Safari timings",
+      "claimType": "schedule",
+      "kind": "seasonal",
+      "claim": "Ranthambore runs a morning and an afternoon safari; in December and January they run 7–10:30 am and 2–5:30 pm, and from April to June the morning slot starts around 6 am.",
+      "evidence": [
+        {
+          "source": "BCI_RTB",
+          "quote": "In December and January, safaris run 7:00 AM–10:30 AM (morning) and 2:00 PM–5:30 PM (evening)"
+        },
+        {
+          "source": "BCI_RTB",
+          "quote": "From April to June, morning safaris start around 6:00 AM and run to 9:30 AM"
+        }
+      ]
+    },
+    "RTB_WED": {
+      "place": "rajasthan/ranthambore-safari",
+      "topic": "Weekly closure",
+      "claimType": "rule",
+      "kind": "seasonal",
+      "claim": "Rajasthan's tiger reserves, Ranthambore included, have closed to tourists on Wednesdays under an order effective from 1 July 2023.",
+      "conflictNote": "Some operators report the weekly closure is now split by zone (some zones on Tuesday, others on Wednesday). Confirm on the booking site.",
+      "evidence": [
+        {
+          "source": "BCI_RTB",
+          "quote": "Ranthambore remains closed for visitors every Wednesday and during the monsoon season (usually July to September)."
+        },
+        {
+          "source": "PCP_WED",
+          "quote": "mandating the closure of tiger reserves in the state every Wednesday, effective July 1",
+          "sourceDate": "2023-06-17"
+        }
+      ]
+    },
+    "RTB_TATK": {
+      "place": "rajasthan/ranthambore-safari",
+      "topic": "Last-minute (Tatkal) booking",
+      "claimType": "rule",
+      "claim": "Last-minute Tatkal safari seats, for the coming seven days, open for booking daily at 11 am.",
+      "evidence": [
+        {
+          "source": "GOASIA_RTB",
+          "quote": "Tatkal safaris for seven days ahead open daily at 11:00 AM."
+        }
+      ]
+    },
+    "RJD_JPRB": {
+      "place": "rajasthan/ranthambore",
+      "topic": "Road from Jaipur",
+      "claimType": "distance",
+      "kind": "estimate",
+      "claim": "Ranthambore is about 175 km from Jaipur, roughly a three-hour drive.",
+      "evidence": [
+        {
+          "source": "RJCABS_EXC",
+          "quote": "Distance from Jaipur – 175 km and thre hour ride."
+        }
+      ]
+    },
+    "RJD_UDCH": {
+      "place": "rajasthan/chittorgarh",
+      "topic": "Road from Udaipur",
+      "claimType": "distance",
+      "kind": "estimate",
+      "claim": "Chittorgarh is about 112 km from Udaipur, about 2.5 hours by car.",
+      "evidence": [
+        {
+          "source": "TRV_CHT",
+          "quote": "Udaipur, located 112 km away (approximately 2.5 hours by car via NH58)"
+        }
+      ]
+    },
+    "CHT_F": {
+      "place": "rajasthan/chittorgarh-fort",
+      "topic": "Hours and entry fee",
+      "claimType": "price",
+      "claim": "Chittorgarh Fort is open daily 9 am–6 pm; entry is ₹40 for Indian visitors and ₹600 for foreign visitors.",
+      "evidence": [
+        {
+          "source": "RJDRV_CHT",
+          "quote": "The Chittorgarh Fort is open every day from 9:00 am to 6:00 pm."
+        },
+        {
+          "source": "RJDRV_CHT",
+          "quote": "Indians have to purchase entry tickets that cost ₹40 while foreigners have to pay ₹600 as an entry fee."
         }
       ]
     }
@@ -6036,110 +6173,195 @@
       "place": "rajasthan/udaipur",
       "slug": "udaipur-2-days-palaces-and-lakes",
       "title": "Udaipur in 2 days: palaces and lakes",
+      "summary": "Two days in the lake city: the Jagdish temple and City Palace, a sunset boat on Lake Pichola, then Saheliyon-ki-Bari, Fateh Sagar and Moti Magri, the ropeway view and the Dharohar folk show.",
       "durationDays": 2,
       "tripTypes": [
         "heritage",
         "romantic",
         "weekend"
       ],
-      "summary": "The City Palace, Jagdish Temple and a sunset boat on Lake Pichola on day one; Saheliyon-ki-Bari, Fateh Sagar, the ropeway and the Dharohar show on day two.",
-      "seoTitle": "Udaipur 2-Day Itinerary: City Palace, Pichola & More",
-      "seoDescription": "Two days in Udaipur: the City Palace, Jagdish Temple, a sunset boat ride on Lake Pichola, Saheliyon-ki-Bari, Fateh Sagar and the Bagore-ki-Haveli dance show.",
+      "seoTitle": "Udaipur 2-Day Itinerary: City Palace, Lake Pichola & Fateh Sagar",
+      "seoDescription": "A realistic two-day Udaipur plan: City Palace at opening, a sunset boat on Lake Pichola, Fateh Sagar and Moti Magri, the Karni Mata ropeway and Dharohar show.",
       "facts": [
+        "UD1",
+        "UD4",
+        "UD7",
+        "UD8",
+        "UDT1",
         "UDC1",
         "UDC2",
-        "UDT1",
+        "UDC3",
+        "UDCP_F",
         "UDL1",
+        "UDL2",
         "UDJ1",
         "UDS1",
         "UDF1",
         "UDF2",
-        "UD7",
+        "UDB1",
         "UDB2",
-        "UD4"
+        "RJW1",
+        "RJW3",
+        "UD3"
       ],
-      "sources": [],
       "plan": {
-        "overview": "Udaipur's main sights cluster around Lake Pichola, so the first day is on foot in the old city; the second goes north to Fateh Sagar and ends with folk dance on the ghats.",
-        "start": "Maharana Pratap Airport (Dabok) or Udaipur station",
+        "overview": "Udaipur's sights cluster around two lakes. Day 1 stays by Lake Pichola: the Jagdish temple at the top of the old city, the City Palace from its 9:30 am opening, and a boat at sunset past the Lake Palace and Jag Mandir islands. Day 2 moves north to Saheliyon-ki-Bari and Fateh Sagar with the Maharana Pratap statue on Moti Magri, back to Gangaur Ghat for Bagore-ki-Haveli, the ropeway at sunset and the Dharohar dance show in the evening.",
+        "style": "Easy-paced city break",
+        "start": "Udaipur (Maharana Pratap Airport at Dabok is about 25 km north-east of the city)",
         "end": "Udaipur",
-        "transport": "Walk in the old city; autos and cabs to Fateh Sagar and the ropeway.",
-        "season": "October to January is the most comfortable season.",
-        "days": [
-          {
-            "title": "Day 1: City Palace and Lake Pichola",
-            "summary": "Morning: Jagdish Temple, then the City Palace — Mor Chowk and the Crystal Gallery.\n\nAfternoon: rest out of the sun.\n\nEvening: a sunset boat ride on Lake Pichola past the Lake Palace and Jag Mandir.",
-            "stops": [
-              {
-                "name": "Jagdish Temple",
-                "time": "Early morning",
-                "placeSlug": "rajasthan/jagdish-temple",
-                "duration": "45 minutes"
-              },
-              {
-                "name": "City Palace",
-                "time": "Morning",
-                "placeSlug": "rajasthan/city-palace-udaipur",
-                "duration": "3 hours"
-              },
-              {
-                "name": "Lake Pichola boat ride",
-                "time": "Sunset",
-                "placeSlug": "rajasthan/pichola-boat-ride",
-                "duration": "1 hour"
-              }
-            ],
-            "overnight": "Udaipur"
-          },
-          {
-            "title": "Day 2: Fateh Sagar and the ghats",
-            "summary": "Morning: Saheliyon-ki-Bari, then Fateh Sagar and the Maharana Pratap statue on Moti Magri.\n\nAfternoon: ride the ropeway to the Karni Mata Temple for views over the city.\n\nEvening: the Dharohar folk dance show at Bagore-ki-Haveli.",
-            "stops": [
-              {
-                "name": "Saheliyon-ki-Bari",
-                "time": "Morning",
-                "placeSlug": "rajasthan/saheliyon-ki-bari",
-                "duration": "1 hour"
-              },
-              {
-                "name": "Fateh Sagar Lake",
-                "time": "Late morning",
-                "placeSlug": "rajasthan/fateh-sagar-lake",
-                "duration": "1.5 hours"
-              },
-              {
-                "name": "Karni Mata ropeway",
-                "time": "Late afternoon",
-                "placeSlug": "rajasthan/udaipur",
-                "duration": "1 hour"
-              },
-              {
-                "name": "Dharohar dance show",
-                "time": "Evening",
-                "placeSlug": "rajasthan/dharohar-dance-show",
-                "duration": "1 hour"
-              }
-            ],
-            "overnight": "Udaipur"
-          }
-        ],
+        "season": "October to March is best (roughly 10–30°C). April–June is very hot, up to 48°C; the monsoon (July–September) turns the hills green.",
+        "difficulty": "Easy",
+        "transport": "Walk the old city around Lake Pichola; auto-rickshaw or taxi to Fateh Sagar and Saheliyon-ki-Bari.",
         "budget": {
-          "assumptions": "VacayOut lists only fees it could check with an official source; hotels, transport and meals are not estimated. Check current prices before you book.",
-          "lines": []
+          "assumptions": "Per adult, entry fees only; hotel, meals and boat tickets vary by season and operator.",
+          "lines": [
+            {
+              "label": "City Palace Museum",
+              "amount": "About ₹300 (adult)",
+              "basis": "Secondary sources; confirm at the ticket office"
+            },
+            {
+              "label": "Lake Pichola boat, ropeway, Dharohar show",
+              "amount": "Not estimated",
+              "basis": "Prices change by operator and season; check on the day"
+            }
+          ]
         },
         "booking": [
           {
-            "item": "Hotel",
-            "detail": "Stay near Lake Pichola to walk to the City Palace and ghats."
+            "item": "Sunset boat",
+            "detail": "Buy the sunset boat ticket at the City Palace jetty early in the day so you get a sunset departure."
+          },
+          {
+            "item": "Hotels",
+            "detail": "Book lake-view rooms early for October–March weekends."
           }
         ],
         "alternatives": [
-          "Add a day trip to Kumbhalgarh (84 km) or Chittorgarh.",
-          "Come in late December for the Shilpgram crafts festival."
+          "Prefer a fort view to the ropeway? Drive up to Sajjangarh, the Monsoon Palace, for sunset.",
+          "Visiting in late December? The Shilpgram crafts fair runs 21–30 December."
         ],
         "tips": [
-          "Book your boat for around sunset.",
-          "Start sightseeing early in the warmer months."
+          "Be at the City Palace for its 9:30 am opening, before the tour groups.",
+          "Save the boat for the last hour of light.",
+          "Wear comfortable shoes — the old city lanes are steep and cobbled."
+        ],
+        "prep": [
+          {
+            "title": "Dress",
+            "body": "Cover shoulders and knees at the Jagdish temple; shoes come off at the door."
+          }
+        ],
+        "faqs": [
+          {
+            "q": "Is two days enough for Udaipur?",
+            "a": "Yes for the city itself. Add a day for Kumbhalgarh or Chittorgarh — see the four-day Mewar plan."
+          },
+          {
+            "q": "Can you go inside the Lake Palace?",
+            "a": "The Lake Palace (Jagniwas) is a hotel. A sunset boat ride on Lake Pichola gives the best views of it and of Jag Mandir, where Prince Khurram (later Shah Jahan) once sheltered."
+          }
+        ],
+        "days": [
+          {
+            "title": "City Palace and Lake Pichola",
+            "summary": "The temple and palace in the morning, the lake at sunset.",
+            "stops": [
+              {
+                "time": "8:30 am",
+                "name": "Jagdish Temple",
+                "duration": "45 minutes",
+                "placeSlug": "jagdish-temple",
+                "note": "Three-storey Vishnu temple of 1651, just above the palace."
+              },
+              {
+                "time": "9:30 am",
+                "name": "City Palace",
+                "duration": "3 hours",
+                "placeSlug": "city-palace-udaipur",
+                "note": "Enter by the Tripolia gate; Mor Chowk's peacock mosaics and the Crystal Gallery's Osler glass. Open 9:30 am–5:30 pm."
+              },
+              {
+                "time": "1 pm",
+                "name": "Lunch by the lake",
+                "duration": "1.5 hours"
+              },
+              {
+                "time": "5 pm",
+                "name": "Lake Pichola boat ride",
+                "duration": "1 hour",
+                "placeSlug": "pichola-boat-ride",
+                "note": "Past the Lake Palace and Jag Mandir at sunset."
+              },
+              {
+                "time": "7 pm",
+                "name": "City Palace sound and light show (optional)",
+                "duration": "1 hour",
+                "placeSlug": "city-palace-udaipur",
+                "note": "Runs every evening at Manak Chowk."
+              }
+            ],
+            "travel": "All on foot in the old city around Lake Pichola.",
+            "distanceKm": 3,
+            "distance": "About 3 km on foot (estimate)",
+            "driveTime": "None — walking day",
+            "transport": "Walking",
+            "meals": "Lunch and dinner at the lakeside cafés around Gangaur Ghat.",
+            "overnight": "Udaipur"
+          },
+          {
+            "title": "Fateh Sagar, the ghats and the ropeway",
+            "summary": "Gardens and the northern lake, then sunset and folk dance.",
+            "stops": [
+              {
+                "time": "9 am",
+                "name": "Saheliyon-ki-Bari",
+                "duration": "1 hour",
+                "placeSlug": "saheliyon-ki-bari",
+                "note": "Fountains, marble elephants and a lotus pool."
+              },
+              {
+                "time": "10:15 am",
+                "name": "Fateh Sagar Lake and Moti Magri",
+                "duration": "2 hours",
+                "placeSlug": "fateh-sagar-lake",
+                "note": "The bronze Maharana Pratap statue on Moti Magri above the lake."
+              },
+              {
+                "time": "12:30 pm",
+                "name": "Lunch and rest",
+                "duration": "2.5 hours"
+              },
+              {
+                "time": "3:30 pm",
+                "name": "Bagore-ki-Haveli",
+                "duration": "1 hour",
+                "placeSlug": "bagore-ki-haveli",
+                "note": "18th-century haveli at Gangaur Ghat with over a hundred rooms."
+              },
+              {
+                "time": "5 pm",
+                "name": "Karni Mata ropeway",
+                "duration": "1 hour",
+                "placeSlug": "udaipur",
+                "note": "From Deen Dayal Upadhyay Park; views over the city at sunset."
+              },
+              {
+                "time": "7 pm",
+                "name": "Dharohar dance show",
+                "duration": "1 hour",
+                "placeSlug": "dharohar-dance-show",
+                "note": "Folk dance at Bagore-ki-Haveli's Neem Chowk."
+              }
+            ],
+            "travel": "Old city → Saheliyon-ki-Bari and Fateh Sagar by auto-rickshaw, then back to Gangaur Ghat.",
+            "distanceKm": 15,
+            "distance": "About 15 km (estimate)",
+            "driveTime": "About 1 hour in total (estimate)",
+            "transport": "Auto-rickshaw or taxi",
+            "meals": "Lunch near Fateh Sagar; dinner after the show.",
+            "overnight": "Udaipur"
+          }
         ]
       }
     },
@@ -6147,108 +6369,174 @@
       "place": "rajasthan/jaisalmer",
       "slug": "jaisalmer-2-days-fort-and-dunes",
       "title": "Jaisalmer in 2 days: the fort and the dunes",
+      "summary": "The living Golden Fort and its Jain temples, Patwon ki Haveli and sunset at Bada Bagh, then Gadisar Lake, the abandoned village of Kuldhara and a night in the Sam dunes.",
       "durationDays": 2,
       "tripTypes": [
         "heritage",
         "adventure",
         "romantic"
       ],
-      "summary": "The living fort, its Jain temples and the havelis on day one; Kuldhara, a camel safari at Sam and a night in a desert camp on day two.",
-      "seoTitle": "Jaisalmer 2-Day Itinerary: Fort, Havelis & Desert Camp",
-      "seoDescription": "Two days in Jaisalmer: the living Sonar Qila and Jain temples, Patwon ki Haveli, Gadisar Lake, Kuldhara, a Sam camel safari and a desert camp.",
+      "seoTitle": "Jaisalmer 2-Day Itinerary: Golden Fort, Kuldhara & Sam Dunes",
+      "seoDescription": "Two days in Jaisalmer: the living fort and Jain temples, Patwon ki Haveli, Bada Bagh at sunset, Kuldhara and a camel ride and desert camp in the Sam dunes.",
       "facts": [
+        "JS1",
+        "JS2",
+        "JS3",
+        "JS4",
+        "JS5",
         "JSF1",
         "JSF2",
         "JSP1",
-        "JSG1",
         "JSB1",
+        "JSG1",
         "JSK1",
+        "SAM_D",
         "JSS1",
         "JSS2",
-        "JS5",
-        "JS4"
+        "RJW1",
+        "RJW3"
       ],
-      "sources": [],
       "plan": {
-        "overview": "Jaisalmer rewards one day in town and one in the desert. See the fort early, then head out to the dunes for sunset and a night under the stars.",
-        "start": "Jaisalmer airport or station",
-        "end": "Jaisalmer",
-        "transport": "Walk in the fort and old town; a jeep or cab to Kuldhara and Sam.",
-        "season": "October to March is the desert season.",
-        "days": [
-          {
-            "title": "Day 1: The Golden Fort and havelis",
-            "summary": "Morning: the lanes and Jain temples of Jaisalmer Fort.\n\nAfternoon: Patwon ki Haveli; rest in the heat of the day.\n\nEvening: sunset at Bada Bagh, then the laser show at Gadisar Lake.",
-            "stops": [
-              {
-                "name": "Jaisalmer Fort",
-                "time": "Morning",
-                "placeSlug": "rajasthan/jaisalmer-fort",
-                "duration": "3 hours"
-              },
-              {
-                "name": "Patwon ki Haveli",
-                "time": "Afternoon",
-                "placeSlug": "rajasthan/patwon-ki-haveli",
-                "duration": "1 hour"
-              },
-              {
-                "name": "Bada Bagh",
-                "time": "Sunset",
-                "placeSlug": "rajasthan/jaisalmer",
-                "duration": "1 hour"
-              },
-              {
-                "name": "Gadisar Lake",
-                "time": "Evening",
-                "placeSlug": "rajasthan/gadisar-lake",
-                "duration": "1 hour"
-              }
-            ],
-            "overnight": "Jaisalmer"
-          },
-          {
-            "title": "Day 2: Kuldhara and the Sam dunes",
-            "summary": "Afternoon: drive out to the abandoned village of Kuldhara.\n\nEvening: a camel or jeep safari at Sam for sunset, then a night in a desert camp.",
-            "stops": [
-              {
-                "name": "Kuldhara",
-                "time": "Afternoon",
-                "placeSlug": "rajasthan/kuldhara",
-                "duration": "1 hour"
-              },
-              {
-                "name": "Camel safari at Sam",
-                "time": "Late afternoon",
-                "placeSlug": "rajasthan/camel-safari-jaisalmer",
-                "duration": "2 hours"
-              },
-              {
-                "name": "Sam sand dunes",
-                "time": "Evening",
-                "placeSlug": "rajasthan/sam-sand-dunes"
-              }
-            ],
-            "overnight": "Desert camp near Sam"
-          }
-        ],
+        "overview": "Jaisalmer is small enough to see in two days. Day 1 is the town: inside the fort, where families still live among shops, hotels and havelis, its carved Jain temples, the five-storey Patwon ki Haveli, and the royal cenotaphs at Bada Bagh for sunset. Day 2 starts at Gadisar Lake, then heads into the desert — the 19th-century ghost village of Kuldhara and the Sam dunes, about 40 km west, for a camel ride at sunset and a night at a desert camp.",
+        "style": "Heritage town and a desert night",
+        "start": "Jaisalmer (airport, trains from Delhi and buses)",
+        "end": "Desert camp at Sam (back to Jaisalmer, about 40 km, next morning)",
+        "season": "October to March is the desert camping season. The Desert Festival is around January–February. April–June is extremely hot.",
+        "difficulty": "Easy — sandy walking on the dunes",
+        "transport": "Walk inside the fort; a car with driver for Bada Bagh and the desert day.",
         "budget": {
-          "assumptions": "VacayOut lists only fees it could check with an official source; hotels, transport and meals are not estimated. Check current prices before you book.",
-          "lines": []
+          "assumptions": "Entry fees for the havelis and Jain temples, camel rides and camps vary widely; we don't estimate them.",
+          "lines": [
+            {
+              "label": "Desert camp (one night)",
+              "amount": "Not estimated",
+              "basis": "Prices vary by camp and season; confirm what dinner, show and camel ride include"
+            }
+          ]
         },
         "booking": [
           {
             "item": "Desert camp",
-            "detail": "Book ahead, especially around the Desert Festival in January–February."
+            "detail": "Book a licensed camp near Sam; confirm whether the camel ride, dinner and pick-up are included."
+          },
+          {
+            "item": "Car and driver",
+            "detail": "Hire for Day 1 afternoon (Bada Bagh) and Day 2 (Kuldhara, Sam and the return next morning)."
           }
         ],
         "alternatives": [
-          "Visiting in January–February? Time your trip for the Desert Festival.",
-          "Continue to Jodhpur or Bikaner by road or train."
+          "Want quieter dunes? Ask for Khuri instead of Sam — camel and camel-cart safaris run at both.",
+          "Prefer motor sport? Jeep safaris and dune bashing run at Lakhmana and other tracks near Sam and Khuri."
         ],
         "tips": [
-          "Carry warm layers — desert nights are cold in winter.",
-          "Agree the safari route and price in advance."
+          "Go into the fort early, before the lanes fill with visitors.",
+          "Carry a warm layer for the desert night in winter.",
+          "Carry cash for camel rides and small shops."
+        ],
+        "prep": [
+          {
+            "title": "Sun and sand",
+            "body": "Bring sunglasses, a scarf against blowing sand and plenty of water for Day 2."
+          }
+        ],
+        "faqs": [
+          {
+            "q": "Is it worth staying a night in the desert?",
+            "a": "Yes — sunset on the Sam dunes and a camp night are the point of coming to Jaisalmer. Camps operate from October to March."
+          },
+          {
+            "q": "How far are the Sam dunes from Jaisalmer?",
+            "a": "About 40 km west of the town, at the edge of the Desert National Park."
+          }
+        ],
+        "days": [
+          {
+            "title": "The Golden Fort and havelis",
+            "summary": "A living fort, carved havelis and a sunset among royal cenotaphs.",
+            "stops": [
+              {
+                "time": "8:30 am",
+                "name": "Jaisalmer Fort",
+                "duration": "3 hours",
+                "placeSlug": "jaisalmer-fort",
+                "note": "A living fort; see the carved 12th–15th-century Jain temples inside."
+              },
+              {
+                "time": "12 pm",
+                "name": "Lunch in the fort",
+                "duration": "1 hour"
+              },
+              {
+                "time": "2:30 pm",
+                "name": "Patwon ki Haveli",
+                "duration": "1.5 hours",
+                "placeSlug": "patwon-ki-haveli",
+                "note": "Five storeys of carved sandstone on a narrow lane."
+              },
+              {
+                "time": "5 pm",
+                "name": "Bada Bagh",
+                "duration": "1 hour",
+                "placeSlug": "jaisalmer",
+                "note": "Royal cenotaphs about 6 km north; best at sunset."
+              }
+            ],
+            "travel": "Fort and havelis on foot; Bada Bagh about 6 km by car.",
+            "distanceKm": 15,
+            "distance": "About 15 km (estimate)",
+            "driveTime": "About 30 minutes in total (estimate)",
+            "transport": "Walking, then car",
+            "meals": "Lunch and dinner on a fort rooftop.",
+            "overnight": "Jaisalmer"
+          },
+          {
+            "title": "Gadisar, Kuldhara and the Sam dunes",
+            "summary": "The lake in the morning, then into the desert for a dune sunset.",
+            "stops": [
+              {
+                "time": "8 am",
+                "name": "Gadisar Lake",
+                "duration": "1 hour",
+                "placeSlug": "gadisar-lake",
+                "note": "Quiet in the morning; a laser and water-screen show runs here in the evening."
+              },
+              {
+                "time": "9:30 am",
+                "name": "Free morning in town",
+                "duration": "3 hours",
+                "placeSlug": "jaisalmer",
+                "note": "Shopping, or rest before the desert."
+              },
+              {
+                "time": "1:30 pm",
+                "name": "Kuldhara",
+                "duration": "1 hour",
+                "placeSlug": "kuldhara",
+                "note": "Village abandoned in the 1800s, about 18 km from Jaisalmer."
+              },
+              {
+                "time": "4 pm",
+                "name": "Camel safari at Sam",
+                "duration": "1.5 hours",
+                "placeSlug": "camel-safari-jaisalmer",
+                "note": "Camel or camel-cart rides into the dunes."
+              },
+              {
+                "time": "6 pm",
+                "name": "Sam sand dunes",
+                "duration": "Evening",
+                "placeSlug": "sam-sand-dunes",
+                "note": "Sunset, then dinner and folk music at camp."
+              }
+            ],
+            "travel": "Jaisalmer → Kuldhara about 18 km; the Sam dunes are about 40 km west of Jaisalmer.",
+            "distanceKm": 60,
+            "distance": "About 60 km (estimate)",
+            "driveTime": "About 1.5 hours in total (estimate)",
+            "transport": "Car with driver; camel on the dunes",
+            "meals": "Lunch in town; dinner at the camp.",
+            "overnight": "Desert camp near Sam"
+          }
         ]
       }
     },
@@ -6256,94 +6544,169 @@
       "place": "rajasthan/jodhpur",
       "slug": "jodhpur-2-days-blue-city",
       "title": "Jodhpur in 2 days: Mehrangarh and the Blue City",
+      "summary": "Mehrangarh at opening, Jaswant Thada and the blue lanes below the fort, the clock-tower market at dusk, then Umaid Bhawan Palace and the royal cenotaphs at Mandore.",
       "durationDays": 2,
       "tripTypes": [
         "heritage",
         "weekend"
       ],
-      "summary": "Mehrangarh Fort, Jaswant Thada and the clock-tower market on day one; Umaid Bhawan and Mandore on day two.",
-      "seoTitle": "Jodhpur 2-Day Itinerary: Mehrangarh & Blue City",
-      "seoDescription": "Two days in Jodhpur: Mehrangarh Fort, Jaswant Thada, Sardar Market and the clock tower, Umaid Bhawan Palace and the Mandore cenotaphs.",
+      "seoTitle": "Jodhpur 2-Day Itinerary: Mehrangarh, Blue City & Mandore",
+      "seoDescription": "A two-day Jodhpur plan with real hours and fees: Mehrangarh Fort at 9 am, Jaswant Thada, the blue lanes, Sardar Market, Umaid Bhawan and Mandore's cenotaphs.",
       "facts": [
+        "JD1",
+        "JD2",
+        "JD3",
+        "JD4",
+        "JD5",
         "JDM1",
         "JDM2",
         "JDM3",
+        "JDM4",
+        "MEH_F",
         "JDJ1",
         "JDG1",
         "JDU1",
-        "JD5",
-        "JD3"
+        "OSN_D",
+        "RJW1",
+        "RJW3"
       ],
-      "sources": [],
       "plan": {
-        "overview": "Spend the first day in the old city under Mehrangarh, and the second on the grand 20th-century palace and the ancient capital at Mandore.",
-        "start": "Jodhpur airport or station",
+        "overview": "Jodhpur's old city sits beneath Mehrangarh, which rises 125 m above it. Day 1 is the fort from its 9 am opening — the palaces, the Chamunda temple and the cannonball-scarred gates — then Jaswant Thada next door and the blue-painted lanes down to the Ghanta Ghar clock tower and Sardar Market. Day 2 crosses town to Umaid Bhawan Palace, begun in 1929 and still one of the world's largest private homes, and ends at Mandore, the old Marwar capital, with its temple-like royal cenotaphs.",
+        "style": "Easy-paced city break",
+        "start": "Jodhpur (the airport is about 5 km from the centre)",
         "end": "Jodhpur",
-        "transport": "Autos and cabs; walk in the old city.",
-        "season": "October to January is the most comfortable season.",
-        "days": [
-          {
-            "title": "Day 1: Mehrangarh and the old city",
-            "summary": "Morning: Mehrangarh Fort — the gates, the Sheesh Mahal and Phool Mahal.\n\nAfternoon: walk down to Jaswant Thada.\n\nEvening: the market around the clock tower.",
-            "stops": [
-              {
-                "name": "Mehrangarh Fort",
-                "time": "Morning",
-                "placeSlug": "rajasthan/mehrangarh-fort",
-                "duration": "3 hours"
-              },
-              {
-                "name": "Jaswant Thada",
-                "time": "Afternoon",
-                "placeSlug": "rajasthan/jaswant-thada",
-                "duration": "1 hour"
-              },
-              {
-                "name": "Ghanta Ghar and Sardar Market",
-                "time": "Evening",
-                "placeSlug": "rajasthan/ghanta-ghar-sardar-market",
-                "duration": "2 hours"
-              }
-            ],
-            "overnight": "Jodhpur"
-          },
-          {
-            "title": "Day 2: Umaid Bhawan and Mandore",
-            "summary": "Morning: Umaid Bhawan Palace.\n\nAfternoon: the cenotaphs and gardens of Mandore, Marwar's ancient capital.",
-            "stops": [
-              {
-                "name": "Umaid Bhawan Palace",
-                "time": "Morning",
-                "placeSlug": "rajasthan/umaid-bhawan-palace",
-                "duration": "1.5 hours"
-              },
-              {
-                "name": "Mandore",
-                "time": "Afternoon",
-                "placeSlug": "rajasthan/jodhpur",
-                "duration": "2 hours"
-              }
-            ],
-            "overnight": "Jodhpur"
-          }
-        ],
+        "season": "October to March is best (roughly 10–30°C). April–June is very hot, up to 48°C; the monsoon (July–September) turns the hills green. The Marwar Festival is in September–October.",
+        "difficulty": "Easy to moderate — the fort ramps are steep",
+        "transport": "Auto-rickshaw or taxi; walk the old city lanes.",
         "budget": {
-          "assumptions": "VacayOut lists only fees it could check with an official source; hotels, transport and meals are not estimated. Check current prices before you book.",
-          "lines": []
+          "assumptions": "Per adult, entry fees only.",
+          "lines": [
+            {
+              "label": "Mehrangarh Fort",
+              "amount": "₹100 (Indian) / ₹600 (foreign, with audio guide)",
+              "basis": "Secondary source; confirm on mehrangarh.org"
+            },
+            {
+              "label": "Jaswant Thada, Umaid Bhawan, Mandore",
+              "amount": "Not estimated",
+              "basis": "Check at the gate"
+            }
+          ]
         },
         "booking": [
           {
-            "item": "Hotel",
-            "detail": "Stay in the old city for views of Mehrangarh."
+            "item": "Mehrangarh",
+            "detail": "Tickets at the fort or on the official Mehrangarh website."
+          },
+          {
+            "item": "Hotels",
+            "detail": "Stay in the old city below the fort for walkable evenings."
           }
         ],
         "alternatives": [
-          "Continue west to Jaisalmer.",
-          "Come in September–October for the Marwar Festival."
+          "Have a spare half-day? Osian's ruined temples are about 65 km from Jodhpur, on the alternative road towards Jaisalmer.",
+          "Heading on to Udaipur? Break the drive at the Ranakpur temple — see the seven-day Rajasthan plan."
         ],
         "tips": [
-          "Visit Mehrangarh early, before the heat.",
-          "Wear good shoes for the fort ramps."
+          "Be at Mehrangarh for its 9 am opening; the climb is hot by noon.",
+          "Use the audio guide included with the foreign ticket.",
+          "Sardar Market is liveliest in the late afternoon."
+        ],
+        "prep": [
+          {
+            "title": "Shoes and heat",
+            "body": "Wear grippy shoes for the fort ramps and old-city steps, and carry water."
+          }
+        ],
+        "faqs": [
+          {
+            "q": "Why is Jodhpur called the Blue City?",
+            "a": "For the blue-painted houses of its old city, best seen from Mehrangarh's ramparts."
+          },
+          {
+            "q": "What time does Mehrangarh open?",
+            "a": "Every day, 9 am–5 pm."
+          }
+        ],
+        "days": [
+          {
+            "title": "Mehrangarh and the old city",
+            "summary": "The fort, its memorial and the blue lanes, ending at the clock tower.",
+            "stops": [
+              {
+                "time": "9 am",
+                "name": "Mehrangarh Fort",
+                "duration": "3 hours",
+                "placeSlug": "mehrangarh-fort",
+                "note": "Moti Mahal, Sheesh Mahal, Phool Mahal and the Chamunda Mataji temple."
+              },
+              {
+                "time": "12:15 pm",
+                "name": "Jaswant Thada",
+                "duration": "1 hour",
+                "placeSlug": "jaswant-thada",
+                "note": "White marble memorial with a portrait museum, next to the fort."
+              },
+              {
+                "time": "1:30 pm",
+                "name": "Lunch and rest",
+                "duration": "2.5 hours"
+              },
+              {
+                "time": "4:30 pm",
+                "name": "Blue City lanes",
+                "duration": "1 hour",
+                "placeSlug": "jodhpur",
+                "note": "Walk down from the fort through the blue-painted houses."
+              },
+              {
+                "time": "5:30 pm",
+                "name": "Ghanta Ghar and Sardar Market",
+                "duration": "1.5 hours",
+                "placeSlug": "ghanta-ghar-sardar-market",
+                "note": "Spices, textiles and handicrafts around the clock tower."
+              }
+            ],
+            "travel": "Fort and Jaswant Thada are next to each other; walk down to the old city.",
+            "distanceKm": 6,
+            "distance": "About 6 km (estimate)",
+            "driveTime": "Short rickshaw rides",
+            "transport": "Rickshaw and walking",
+            "meals": "Lunch in the old city; try a rooftop dinner facing the fort.",
+            "overnight": "Jodhpur"
+          },
+          {
+            "title": "Umaid Bhawan and Mandore",
+            "summary": "The last great palace, then the old capital's cenotaphs.",
+            "stops": [
+              {
+                "time": "9:30 am",
+                "name": "Umaid Bhawan Palace",
+                "duration": "1.5 hours",
+                "placeSlug": "umaid-bhawan-palace",
+                "note": "Begun in 1929 to H. V. Lanchester's designs; still one of the world's largest private homes. Ask locally which parts are open to visitors."
+              },
+              {
+                "time": "11:30 am",
+                "name": "Lunch",
+                "duration": "1 hour"
+              },
+              {
+                "time": "3 pm",
+                "name": "Mandore",
+                "duration": "2 hours",
+                "placeSlug": "jodhpur",
+                "note": "The old Marwar capital north of the city, with temple-style cenotaphs."
+              }
+            ],
+            "travel": "Across town to Umaid Bhawan, then north to Mandore.",
+            "distanceKm": 25,
+            "distance": "About 25 km (estimate)",
+            "driveTime": "About 1 hour in total (estimate)",
+            "transport": "Taxi",
+            "meals": "Lunch in town.",
+            "overnight": "Jodhpur"
+          }
         ]
       }
     },
@@ -6351,112 +6714,183 @@
       "place": "rajasthan/pushkar",
       "slug": "pushkar-ajmer-2-days",
       "title": "Pushkar and Ajmer in 2 days",
+      "summary": "Ajmer's Sufi dargah, the Adhai Din Ka Jhonpra and Ana Sagar lake, then Pushkar's 52 ghats, the Brahma temple, the ropeway to Savitri Mata and the lake at dusk.",
       "durationDays": 2,
       "tripTypes": [
         "spiritual",
         "food",
         "weekend"
       ],
-      "summary": "Ajmer's dargah and Ana Sagar on day one; Pushkar's ghats, Brahma temple and the Savitri ropeway on day two.",
-      "seoTitle": "Pushkar & Ajmer 2-Day Itinerary: Dargah, Lake & Temples",
-      "seoDescription": "Two days in Ajmer and Pushkar: the Ajmer Sharif Dargah, Ana Sagar's Baradari, Pushkar Lake's ghats, the Brahma Temple and the Savitri Mata ropeway.",
+      "seoTitle": "Pushkar and Ajmer 2-Day Itinerary: Dargah, Ghats & Brahma Temple",
+      "seoDescription": "Two days between Ajmer and Pushkar, 14 km apart: the Ajmer Sharif dargah, Adhai Din Ka Jhonpra, Ana Sagar, Pushkar Lake, the Brahma temple and Savitri Mata.",
       "facts": [
+        "AJ1",
+        "AJ3",
+        "AJ4",
         "AJD1",
         "AJD2",
         "AJA1",
-        "AJ4",
+        "PK1",
+        "PK2",
+        "PK3",
         "PK4",
+        "PK5",
         "PKL1",
         "PKB1",
         "PKS1",
-        "PK3",
-        "PK5",
-        "AJ3"
+        "PKF1",
+        "PKF3",
+        "RJD_JPPK",
+        "RJW1"
       ],
-      "sources": [],
       "plan": {
-        "overview": "Ajmer and Pushkar are just 14 km apart, so they pair perfectly: the Sufi shrine one day, the Hindu pilgrim town the next.",
-        "start": "Ajmer station or Kishangarh airport",
+        "overview": "Two pilgrim towns 14 km apart. Day 1 is Ajmer, revered by Hindus and Muslims alike: the dargah of Khwaja Moinuddin Chishti, the Adhai Din Ka Jhonpra beside it, and Ana Sagar's marble pavilions in the afternoon, before crossing the hill to Pushkar for the night. Day 2 is Pushkar: the ghats of the holy lake in the morning, the world's only Brahma temple, the ropeway to Savitri Mata for the view, and the ghats again at dusk.",
+        "style": "Spiritual towns at a gentle pace",
+        "start": "Ajmer (on the Delhi–Jaipur–Ahmedabad railway; Kishangarh airport is about 30 km away; Jaipur is about 145 km from Pushkar)",
         "end": "Pushkar",
-        "transport": "Cabs and buses between Ajmer and Pushkar; walk in both towns.",
-        "season": "October to March; the Pushkar camel fair is in October–November.",
-        "days": [
-          {
-            "title": "Day 1: Ajmer",
-            "summary": "Morning: the Ajmer Sharif Dargah (cover your head).\n\nAfternoon: the Adhai Din Ka Jhonpra.\n\nEvening: the marble Baradari on Ana Sagar, then on to Pushkar.",
-            "stops": [
-              {
-                "name": "Ajmer Sharif Dargah",
-                "time": "Morning",
-                "placeSlug": "rajasthan/ajmer-sharif-dargah",
-                "duration": "2 hours"
-              },
-              {
-                "name": "Adhai Din Ka Jhonpra",
-                "time": "Afternoon",
-                "placeSlug": "rajasthan/ajmer",
-                "duration": "45 minutes"
-              },
-              {
-                "name": "Ana Sagar Lake",
-                "time": "Evening",
-                "placeSlug": "rajasthan/ana-sagar-lake",
-                "duration": "1 hour"
-              }
-            ],
-            "overnight": "Pushkar",
-            "travel": "Ajmer to Pushkar: 14 km by road."
-          },
-          {
-            "title": "Day 2: Pushkar",
-            "summary": "Morning: walk the ghats of Pushkar Lake, then the Brahma Temple.\n\nAfternoon: the ropeway to the Savitri Mata temple; shop in Sadar Bazar.\n\nEvening: aarti at the ghats.",
-            "stops": [
-              {
-                "name": "Pushkar Lake",
-                "time": "Morning",
-                "placeSlug": "rajasthan/pushkar-lake",
-                "duration": "1.5 hours"
-              },
-              {
-                "name": "Brahma Temple",
-                "time": "Late morning",
-                "placeSlug": "rajasthan/brahma-temple-pushkar",
-                "duration": "45 minutes"
-              },
-              {
-                "name": "Savitri Mata ropeway",
-                "time": "Afternoon",
-                "placeSlug": "rajasthan/savitri-mata-temple",
-                "duration": "1.5 hours"
-              },
-              {
-                "name": "Evening aarti",
-                "time": "Evening",
-                "placeSlug": "rajasthan/pushkar-lake",
-                "duration": "1 hour"
-              }
-            ],
-            "overnight": "Pushkar",
-            "meals": "Pushkar is vegetarian — try malpua and lassi."
-          }
-        ],
+        "season": "October to March is best (roughly 10–30°C). April–June is very hot, up to 48°C; the monsoon (July–September) turns the hills green. The Pushkar camel fair is held in October–November.",
+        "difficulty": "Easy",
+        "transport": "Taxi between Ajmer and Pushkar; walk around Pushkar Lake.",
         "budget": {
-          "assumptions": "VacayOut lists only fees it could check with an official source; hotels, transport and meals are not estimated. Check current prices before you book.",
-          "lines": []
+          "assumptions": "There are no entry fees at the dargah, ghats or Brahma temple; the ropeway is ticketed.",
+          "lines": [
+            {
+              "label": "Savitri Mata ropeway",
+              "amount": "Not estimated",
+              "basis": "Check at the ropeway"
+            }
+          ]
         },
         "booking": [
           {
-            "item": "Hotel",
-            "detail": "Book months ahead if your dates fall during the camel fair."
+            "item": "Pushkar Fair",
+            "detail": "If your dates fall in the October–November fair, book camps or hotels months ahead."
+          },
+          {
+            "item": "Transfer",
+            "detail": "Book a taxi Ajmer → Pushkar for the evening of Day 1."
           }
         ],
         "alternatives": [
-          "Visit during the Pushkar camel fair in October–November.",
-          "Continue to Jaipur or Jodhpur by bus from Ajmer."
+          "Coming from Jaipur? Drive straight to Ajmer (Pushkar is about 145 km, 2.5 hours, from Jaipur) and return the same way.",
+          "Visiting at fair time? Add a night to see the competitions and the camel trading."
         ],
         "tips": [
-          "Dress modestly at both the dargah and the ghats.",
-          "Pushkar's food is entirely vegetarian."
+          "Pushkar serves only vegetarian food; try kachori, malpua and lassi.",
+          "Dress modestly at the dargah and the temples; carry a scarf.",
+          "Go to the dargah early — it can draw up to 20,000 pilgrims a day."
+        ],
+        "prep": [
+          {
+            "title": "Dress",
+            "body": "Carry a scarf for the dargah, and wear slip-on shoes — you'll take them off often."
+          }
+        ],
+        "faqs": [
+          {
+            "q": "How far is Pushkar from Ajmer?",
+            "a": "About 14 km; taxis and buses run between them."
+          },
+          {
+            "q": "Is the Brahma temple in Pushkar unique?",
+            "a": "It's the only temple dedicated to Lord Brahma in the world."
+          }
+        ],
+        "days": [
+          {
+            "title": "Ajmer",
+            "summary": "The dargah, a 12th-century mosque and the lake, then on to Pushkar.",
+            "stops": [
+              {
+                "time": "8 am",
+                "name": "Ajmer Sharif Dargah",
+                "duration": "2 hours",
+                "placeSlug": "ajmer-sharif-dargah",
+                "note": "Can draw up to 20,000 pilgrims a day; go early."
+              },
+              {
+                "time": "10:30 am",
+                "name": "Adhai Din Ka Jhonpra",
+                "duration": "45 minutes",
+                "placeSlug": "ajmer",
+                "note": "A Sanskrit college turned into a mosque in 1198."
+              },
+              {
+                "time": "12 pm",
+                "name": "Lunch",
+                "duration": "1.5 hours"
+              },
+              {
+                "time": "3:30 pm",
+                "name": "Ana Sagar Lake",
+                "duration": "1.5 hours",
+                "placeSlug": "ana-sagar-lake",
+                "note": "Daulat Bagh gardens and Shah Jahan's marble Baradari."
+              },
+              {
+                "time": "6 pm",
+                "name": "Drive to Pushkar",
+                "duration": "30 minutes",
+                "placeSlug": "pushkar",
+                "note": "About 14 km."
+              }
+            ],
+            "travel": "Ajmer city sights are close together; Ajmer → Pushkar about 14 km.",
+            "distanceKm": 20,
+            "distance": "About 20 km (estimate)",
+            "driveTime": "About 1 hour in total (estimate)",
+            "transport": "Taxi",
+            "meals": "Lunch in Ajmer; vegetarian dinner in Pushkar.",
+            "overnight": "Pushkar"
+          },
+          {
+            "title": "Pushkar",
+            "summary": "Ghats, the Brahma temple, the hilltop view and the lake at dusk.",
+            "stops": [
+              {
+                "time": "7 am",
+                "name": "Pushkar Lake ghats",
+                "duration": "1.5 hours",
+                "placeSlug": "pushkar-lake",
+                "note": "52 bathing ghats and over 400 temples."
+              },
+              {
+                "time": "9 am",
+                "name": "Brahma Temple",
+                "duration": "45 minutes",
+                "placeSlug": "brahma-temple-pushkar",
+                "note": "Red spire, swan emblem and a four-faced Brahma."
+              },
+              {
+                "time": "10 am",
+                "name": "Savitri Mata ropeway",
+                "duration": "1.5 hours",
+                "placeSlug": "savitri-mata-temple",
+                "note": "Views of the whole town from the hill behind the Brahma temple."
+              },
+              {
+                "time": "12 pm",
+                "name": "Lunch and Sadar Bazar",
+                "duration": "3 hours",
+                "placeSlug": "pushkar",
+                "note": "Silver jewellery, embroidered clothes and leather goods."
+              },
+              {
+                "time": "5:30 pm",
+                "name": "Evening at the lake",
+                "duration": "1 hour",
+                "placeSlug": "pushkar-lake",
+                "note": "Sit on the ghats as the lake town lights up."
+              }
+            ],
+            "travel": "On foot around the lake; the ropeway base is behind the Brahma temple.",
+            "distanceKm": 3,
+            "distance": "About 3 km on foot (estimate)",
+            "driveTime": "None — walking day",
+            "transport": "Walking",
+            "meals": "Kachori, malpua and lassi in the bazaar.",
+            "overnight": "Pushkar"
+          }
         ]
       }
     },
@@ -6464,84 +6898,156 @@
       "place": "rajasthan/ranthambore",
       "slug": "ranthambore-2-days-safari",
       "title": "Ranthambore in 2 days: safaris and the fort",
+      "summary": "Two tiger safaris — an afternoon drive on arrival and a morning drive the next day — then the 10th-century Ranthambore Fort and its Trinetra Ganesh temple inside the reserve.",
       "durationDays": 2,
       "tripTypes": [
         "wildlife",
         "adventure",
         "family"
       ],
-      "summary": "Two park safaris for the best chance of a tiger, and a morning at Ranthambore Fort and its Ganesh temple.",
-      "seoTitle": "Ranthambore 2-Day Itinerary: Tiger Safaris & Fort",
-      "seoDescription": "Two days in Ranthambore: two safaris in the national park, Ranthambore Fort and the Trinetra Ganesh temple, and how to book.",
+      "seoTitle": "Ranthambore 2-Day Itinerary: Two Tiger Safaris and the Fort",
+      "seoDescription": "Two days at Ranthambore from Jaipur (about 175 km): an afternoon and a morning safari with seasonal timings, the Wednesday closure, and the fort.",
       "facts": [
         "RB1",
         "RB2",
         "RB3",
         "RBF1",
-        "RBF2"
+        "RBF2",
+        "RTB_SEAS",
+        "RTB_TIME",
+        "RTB_WED",
+        "RTB_TATK",
+        "RJD_JPRB",
+        "RJW8"
       ],
-      "sources": [],
       "plan": {
-        "overview": "Plan two safaris — one each day — and fit Ranthambore Fort between them. Sawai Madhopur is the base.",
-        "start": "Sawai Madhopur station",
-        "end": "Sawai Madhopur",
-        "transport": "Safari vehicles inside the park; cabs to the fort.",
-        "season": "October to January is the most comfortable season.",
-        "days": [
-          {
-            "title": "Day 1: Arrive and first safari",
-            "summary": "Arrive in Sawai Madhopur.\n\nAfternoon: your first safari in the national park.",
-            "stops": [
-              {
-                "name": "Ranthambore safari",
-                "time": "Afternoon",
-                "placeSlug": "rajasthan/ranthambore-safari",
-                "duration": "3 hours",
-                "note": "Book online in advance."
-              }
-            ],
-            "overnight": "Sawai Madhopur"
-          },
-          {
-            "title": "Day 2: Safari and fort",
-            "summary": "Morning: a second safari.\n\nAfternoon: Ranthambore Fort and the Trinetra Ganesh temple.",
-            "stops": [
-              {
-                "name": "Ranthambore safari",
-                "time": "Morning",
-                "placeSlug": "rajasthan/ranthambore-safari",
-                "duration": "3 hours"
-              },
-              {
-                "name": "Ranthambore Fort",
-                "time": "Afternoon",
-                "placeSlug": "rajasthan/ranthambore-fort",
-                "duration": "2 hours"
-              }
-            ],
-            "overnight": "Sawai Madhopur"
-          }
-        ],
+        "overview": "Two safaris give you two chances at a tiger in a 392 sq km reserve between the Aravallis and the Vindhyas. Drive from Jaipur (about 175 km, roughly three hours) in the morning and go out on the afternoon safari. The next morning's drive starts at first light; afterwards visit Ranthambore Fort, built by the Chauhans in the 10th century and a UNESCO-listed hill fort, before heading back. The park is open from October to June and closed on Wednesdays.",
+        "style": "Wildlife break, early starts",
+        "start": "Jaipur (Jaipur airport, 150–170 km away, is the nearest; Sawai Madhopur also has regular trains)",
+        "end": "Sawai Madhopur, or back to Jaipur",
+        "season": "The park is open 1 October–30 June; core zones close July–September. Winter (October–March) is comfortable; April–June is very hot. Closed on Wednesdays.",
+        "difficulty": "Easy, but two early starts",
+        "transport": "Car Jaipur ↔ Sawai Madhopur; safaris in authorised park vehicles.",
         "budget": {
-          "assumptions": "VacayOut lists only fees it could check with an official source; hotels, transport and meals are not estimated. Check current prices before you book.",
-          "lines": []
+          "assumptions": "Safari permits, vehicle and guide fees change each season and differ by vehicle type; we don't estimate them.",
+          "lines": [
+            {
+              "label": "Safari permits (2 drives)",
+              "amount": "Not estimated",
+              "basis": "Book and pay on the Rajasthan forest department's official website"
+            }
+          ]
         },
         "booking": [
           {
-            "item": "Safari",
-            "detail": "Book on the official Rajasthan wildlife website as early as you can."
+            "item": "Safari permits",
+            "detail": "Book both drives on the official Rajasthan wildlife website as early as you can."
           },
           {
-            "item": "Train",
-            "detail": "Regular trains run to Sawai Madhopur."
+            "item": "Last-minute seats",
+            "detail": "Tatkal seats for the next seven days open daily at 11 am."
+          },
+          {
+            "item": "Avoid Wednesdays",
+            "detail": "Don't plan either day for a Wednesday — the reserve is closed to tourists."
           }
         ],
         "alternatives": [
-          "Jaipur airport is 150–170 km away — combine with a Jaipur stay."
+          "Want better odds? Stay a third night and do four safaris.",
+          "Coming by train? Sawai Madhopur station has regular services; hotels can collect you."
         ],
         "tips": [
-          "Sightings are never guaranteed; two safaris help.",
-          "Carry layers for cold winter mornings."
+          "Carry the photo ID you booked the safari with.",
+          "Dress in muted colours and carry a scarf against the dust.",
+          "Winter mornings in an open vehicle are cold: bring a warm layer."
+        ],
+        "prep": [
+          {
+            "title": "On safari",
+            "body": "Keep quiet near animals, stay in the vehicle and don't ask the driver to leave the track."
+          }
+        ],
+        "faqs": [
+          {
+            "q": "What are the safari timings?",
+            "a": "Two slots a day. In December and January they run 7–10:30 am and 2–5:30 pm; from April to June the morning slot starts around 6 am. Check the slot for your month when booking."
+          },
+          {
+            "q": "Is Ranthambore closed on Wednesdays?",
+            "a": "Yes — Rajasthan's tiger reserves have closed to tourists on Wednesdays under an order effective from July 2023. Some operators report a split by zone, so check when booking."
+          }
+        ],
+        "days": [
+          {
+            "title": "Drive from Jaipur and the afternoon safari",
+            "summary": "Arrive by lunchtime and head into the park in the afternoon.",
+            "stops": [
+              {
+                "time": "8:30 am",
+                "name": "Drive Jaipur → Sawai Madhopur",
+                "duration": "3 hours",
+                "placeSlug": "ranthambore",
+                "note": "About 175 km."
+              },
+              {
+                "time": "12 pm",
+                "name": "Check in and lunch",
+                "duration": "1.5 hours"
+              },
+              {
+                "time": "2 pm",
+                "name": "Afternoon safari",
+                "duration": "3.5 hours",
+                "placeSlug": "ranthambore-safari",
+                "note": "December–January slot 2–5:30 pm; it starts later in other months."
+              }
+            ],
+            "travel": "Jaipur → Sawai Madhopur about 175 km; the park gate is about 14 km from Sawai Madhopur.",
+            "distanceKm": 190,
+            "distance": "About 190 km including the drive to the gate (estimate)",
+            "driveTime": "About 3 hours to Sawai Madhopur",
+            "transport": "Car, then safari vehicle",
+            "meals": "Lunch and dinner at your hotel.",
+            "overnight": "Sawai Madhopur"
+          },
+          {
+            "title": "Morning safari and Ranthambore Fort",
+            "summary": "First light in the park, then the fort, then back.",
+            "stops": [
+              {
+                "time": "7 am",
+                "name": "Morning safari",
+                "duration": "3.5 hours",
+                "placeSlug": "ranthambore-safari",
+                "note": "December–January slot 7–10:30 am; around 6 am from April to June."
+              },
+              {
+                "time": "11 am",
+                "name": "Breakfast at the hotel",
+                "duration": "1 hour"
+              },
+              {
+                "time": "12:30 pm",
+                "name": "Ranthambore Fort",
+                "duration": "2 hours",
+                "placeSlug": "ranthambore-fort",
+                "note": "Temples, tanks and great gates; the Trinetra Ganesh temple is inside."
+              },
+              {
+                "time": "3 pm",
+                "name": "Drive back to Jaipur",
+                "duration": "3 hours",
+                "note": "Or take a train from Sawai Madhopur."
+              }
+            ],
+            "travel": "Hotel ↔ park gate; then Sawai Madhopur → Jaipur about 175 km.",
+            "distanceKm": 210,
+            "distance": "About 210 km (estimate)",
+            "driveTime": "About 3.5 hours in total (estimate)",
+            "transport": "Safari vehicle, then car",
+            "meals": "Breakfast after the safari; lunch near the fort or on the road.",
+            "overnight": "Departure"
+          }
         ]
       }
     },
@@ -6549,127 +7055,279 @@
       "place": "rajasthan/udaipur",
       "slug": "mewar-4-days-udaipur-kumbhalgarh-chittorgarh",
       "title": "Mewar in 4 days: Udaipur, Kumbhalgarh and Chittorgarh",
+      "summary": "Two days in Udaipur's palaces and lakes, a day trip to Kumbhalgarh's 36 km wall, and a last day at Chittorgarh, the great fort of Mewar, with its Tower of Victory.",
       "durationDays": 4,
       "tripTypes": [
         "heritage",
         "nature"
       ],
-      "summary": "Two days in Udaipur, a day at Kumbhalgarh's great wall and a day at Chittorgarh's fort — the heart of Mewar.",
-      "seoTitle": "Mewar Itinerary: Udaipur, Kumbhalgarh & Chittorgarh in 4 Days",
-      "seoDescription": "Four days in Mewar: Udaipur's City Palace and lakes, the 36 km wall of Kumbhalgarh and Chittorgarh's 700-acre fort with Vijay Stambh.",
+      "seoTitle": "Mewar 4-Day Itinerary: Udaipur, Kumbhalgarh & Chittorgarh",
+      "seoDescription": "Four days in Mewar: Udaipur's City Palace and Lake Pichola, a Kumbhalgarh day trip (84 km), and Chittorgarh Fort (112 km) with the Vijay Stambh.",
       "facts": [
+        "UD1",
+        "UD2",
+        "UD4",
+        "UDT1",
         "UDC1",
+        "UDC2",
+        "UDCP_F",
         "UDL1",
-        "UDB2",
+        "UDJ1",
+        "UDS1",
         "UDF1",
+        "UDF2",
+        "UDB1",
+        "UDB2",
         "KM1",
         "KM2",
         "KM3",
-        "KM5",
+        "KM4",
+        "KM6",
+        "RJW8",
+        "RJD_UDCH",
         "CH1",
         "CH2",
-        "CHV1",
         "CH3",
         "CH4",
-        "RJW8"
+        "CHT_F",
+        "CHV1",
+        "CHV2",
+        "CHM1",
+        "RJW1",
+        "RJW3",
+        "RNK_H",
+        "UD5"
       ],
-      "sources": [],
       "plan": {
-        "overview": "Base yourself in Udaipur and add two of the Hill Forts of Rajasthan: Kumbhalgarh to the north and Chittorgarh to the east.",
-        "start": "Udaipur",
-        "end": "Chittorgarh or back to Udaipur",
-        "transport": "A hired car is easiest for Kumbhalgarh and Chittorgarh.",
-        "season": "October to January; Kumbhalgarh is also pleasant in summer.",
-        "days": [
-          {
-            "title": "Day 1: Udaipur's City Palace and Pichola",
-            "summary": "City Palace in the morning, sunset boat on Lake Pichola in the evening.",
-            "stops": [
-              {
-                "name": "City Palace",
-                "time": "Morning",
-                "placeSlug": "rajasthan/city-palace-udaipur",
-                "duration": "3 hours"
-              },
-              {
-                "name": "Lake Pichola boat ride",
-                "time": "Sunset",
-                "placeSlug": "rajasthan/pichola-boat-ride",
-                "duration": "1 hour"
-              }
-            ],
-            "overnight": "Udaipur"
-          },
-          {
-            "title": "Day 2: Fateh Sagar and Bagore-ki-Haveli",
-            "summary": "Fateh Sagar and Moti Magri by day; the Dharohar show at night.",
-            "stops": [
-              {
-                "name": "Fateh Sagar Lake",
-                "time": "Morning",
-                "placeSlug": "rajasthan/fateh-sagar-lake",
-                "duration": "2 hours"
-              },
-              {
-                "name": "Dharohar dance show",
-                "time": "Evening",
-                "placeSlug": "rajasthan/dharohar-dance-show",
-                "duration": "1 hour"
-              }
-            ],
-            "overnight": "Udaipur"
-          },
-          {
-            "title": "Day 3: Kumbhalgarh",
-            "summary": "Drive 84 km north to Kumbhalgarh; walk the ramparts and see the Neelkanth Mahadev temple.",
-            "stops": [
-              {
-                "name": "Kumbhalgarh Fort",
-                "time": "Late morning",
-                "placeSlug": "rajasthan/kumbhalgarh-fort",
-                "duration": "3 hours"
-              }
-            ],
-            "overnight": "Kumbhalgarh or Udaipur",
-            "travel": "Udaipur to Kumbhalgarh: 84 km by road."
-          },
-          {
-            "title": "Day 4: Chittorgarh",
-            "summary": "A full day in Chittorgarh Fort: Vijay Stambh, Kirti Stambh, the Meera temple, and the light and sound show after sunset.",
-            "stops": [
-              {
-                "name": "Chittorgarh Fort",
-                "time": "Morning",
-                "placeSlug": "rajasthan/chittorgarh-fort",
-                "duration": "5 hours"
-              },
-              {
-                "name": "Vijay Stambh",
-                "time": "Afternoon",
-                "placeSlug": "rajasthan/vijay-stambh",
-                "duration": "45 minutes"
-              }
-            ],
-            "overnight": "Chittorgarh"
-          }
-        ],
+        "overview": "Mewar's three great sites in four days, all from an Udaipur base until the last night. Days 1 and 2 cover Udaipur — the City Palace and a sunset boat on Lake Pichola, then Fateh Sagar, the gardens and the Dharohar show. Day 3 is a day trip 84 km north to Kumbhalgarh, Rana Kumbha's fort, birthplace of Maharana Pratap, whose wall runs for 36 km. Day 4 drives 112 km to Chittorgarh, the 700-acre fort besieged three times, for the Vijay Stambh, the Kirti Stambh and the Meera temple, with the light and sound show after sunset.",
+        "style": "Forts and lakes at a steady pace",
+        "start": "Udaipur (Maharana Pratap Airport is about 25 km from the city)",
+        "end": "Chittorgarh (Udaipur airport is about 90 km away; Chittorgarh has rail links)",
+        "season": "October to March is best (roughly 10–30°C). April–June is very hot, up to 48°C; the monsoon (July–September) turns the hills green. Kumbhalgarh's hills are pleasant even in summer.",
+        "difficulty": "Moderate — a lot of walking on uneven fort paths",
+        "transport": "Walk and auto-rickshaw in Udaipur; car with driver for Days 3 and 4.",
         "budget": {
-          "assumptions": "VacayOut lists only fees it could check with an official source; hotels, transport and meals are not estimated. Check current prices before you book.",
-          "lines": []
+          "assumptions": "Per adult, entry fees only.",
+          "lines": [
+            {
+              "label": "Udaipur City Palace Museum",
+              "amount": "About ₹300 (adult)",
+              "basis": "Secondary sources; confirm at the ticket office"
+            },
+            {
+              "label": "Chittorgarh Fort",
+              "amount": "₹40 (Indian) / ₹600 (foreign)",
+              "basis": "Secondary source; confirm at the gate"
+            },
+            {
+              "label": "Kumbhalgarh Fort",
+              "amount": "Not estimated",
+              "basis": "Check at the gate"
+            }
+          ]
         },
         "booking": [
           {
             "item": "Car and driver",
-            "detail": "Book for the Kumbhalgarh and Chittorgarh days."
+            "detail": "Book Day 3 as a return trip to Kumbhalgarh and Day 4 one-way Udaipur → Chittorgarh (or return if you fly out of Udaipur)."
+          },
+          {
+            "item": "Lake Pichola boat",
+            "detail": "Buy the sunset boat ticket at the City Palace jetty earlier on Day 1."
           }
         ],
         "alternatives": [
-          "Short on time? Do Kumbhalgarh as a day trip and skip the overnight.",
-          "Add Ranthambore, another Hill Fort, further east."
+          "Flying out of Udaipur? Return the 112 km from Chittorgarh on the evening of Day 4 and skip the light and sound show.",
+          "Want Ranakpur too? Combine it with Kumbhalgarh on Day 3 — non-Jains are admitted to the temple only from noon to 5 pm."
         ],
         "tips": [
-          "Start early on fort days.",
-          "Wear good shoes for the ramparts."
+          "Start Day 3 early so you have time to walk part of Kumbhalgarh's wall.",
+          "Chittorgarh Fort is huge — use the car between the sites inside.",
+          "Climb the Vijay Stambh's narrow steps only if you're comfortable in tight spaces."
+        ],
+        "prep": [
+          {
+            "title": "Fort walking",
+            "body": "Wear sturdy shoes and carry water and a hat; there is little shade on the ramparts."
+          }
+        ],
+        "faqs": [
+          {
+            "q": "Can you do Kumbhalgarh as a day trip from Udaipur?",
+            "a": "Yes — it's about 84 km north of Udaipur, so plan a full day."
+          },
+          {
+            "q": "How far is Chittorgarh from Udaipur?",
+            "a": "About 112 km, roughly 2.5 hours by car."
+          }
+        ],
+        "days": [
+          {
+            "title": "Udaipur: City Palace and Lake Pichola",
+            "summary": "Temple and palace in the morning, the lake at sunset.",
+            "stops": [
+              {
+                "time": "8:30 am",
+                "name": "Jagdish Temple",
+                "duration": "45 minutes",
+                "placeSlug": "jagdish-temple"
+              },
+              {
+                "time": "9:30 am",
+                "name": "City Palace",
+                "duration": "3 hours",
+                "placeSlug": "city-palace-udaipur",
+                "note": "Open 9:30 am–5:30 pm; Mor Chowk's peacock mosaics."
+              },
+              {
+                "time": "1 pm",
+                "name": "Lunch and rest",
+                "duration": "3 hours"
+              },
+              {
+                "time": "5 pm",
+                "name": "Lake Pichola boat ride",
+                "duration": "1 hour",
+                "placeSlug": "pichola-boat-ride",
+                "note": "Past the Lake Palace and Jag Mandir at sunset."
+              }
+            ],
+            "travel": "On foot around Lake Pichola.",
+            "distanceKm": 3,
+            "distance": "About 3 km on foot (estimate)",
+            "driveTime": "None — walking day",
+            "transport": "Walking",
+            "meals": "Lakeside cafés around Gangaur Ghat.",
+            "overnight": "Udaipur"
+          },
+          {
+            "title": "Udaipur: Fateh Sagar and Bagore-ki-Haveli",
+            "summary": "The northern lake and gardens, then the haveli and its folk show.",
+            "stops": [
+              {
+                "time": "9 am",
+                "name": "Saheliyon-ki-Bari",
+                "duration": "1 hour",
+                "placeSlug": "saheliyon-ki-bari"
+              },
+              {
+                "time": "10:15 am",
+                "name": "Fateh Sagar Lake and Moti Magri",
+                "duration": "2 hours",
+                "placeSlug": "fateh-sagar-lake",
+                "note": "The Maharana Pratap statue above the lake."
+              },
+              {
+                "time": "12:30 pm",
+                "name": "Lunch and rest",
+                "duration": "3 hours"
+              },
+              {
+                "time": "4 pm",
+                "name": "Bagore-ki-Haveli",
+                "duration": "1 hour",
+                "placeSlug": "bagore-ki-haveli"
+              },
+              {
+                "time": "7 pm",
+                "name": "Dharohar dance show",
+                "duration": "1 hour",
+                "placeSlug": "dharohar-dance-show",
+                "note": "At the haveli's Neem Chowk."
+              }
+            ],
+            "travel": "Auto-rickshaw to Fateh Sagar and back to Gangaur Ghat.",
+            "distanceKm": 12,
+            "distance": "About 12 km (estimate)",
+            "driveTime": "Under 1 hour in total (estimate)",
+            "transport": "Auto-rickshaw",
+            "meals": "Lunch near Fateh Sagar.",
+            "overnight": "Udaipur"
+          },
+          {
+            "title": "Day trip to Kumbhalgarh",
+            "summary": "Rana Kumbha's hill fort and its 36 km wall.",
+            "stops": [
+              {
+                "time": "8 am",
+                "name": "Drive Udaipur → Kumbhalgarh",
+                "duration": "2 hours",
+                "placeSlug": "kumbhalgarh",
+                "note": "About 84 km north."
+              },
+              {
+                "time": "10 am",
+                "name": "Kumbhalgarh Fort",
+                "duration": "3.5 hours",
+                "placeSlug": "kumbhalgarh-fort",
+                "note": "The palace, the wall walk, the Neelkanth Mahadev temple of 1458 and the Golerao Jain temples."
+              },
+              {
+                "time": "1:30 pm",
+                "name": "Lunch near the fort",
+                "duration": "1 hour"
+              },
+              {
+                "time": "3 pm",
+                "name": "Drive back to Udaipur",
+                "duration": "2 hours",
+                "placeSlug": "udaipur"
+              }
+            ],
+            "travel": "Udaipur ↔ Kumbhalgarh about 84 km each way through the Aravallis.",
+            "distanceKm": 170,
+            "distance": "About 170 km return (estimate)",
+            "driveTime": "About 4–5 hours in total (estimate)",
+            "transport": "Car with driver",
+            "meals": "Lunch near the fort.",
+            "overnight": "Udaipur"
+          },
+          {
+            "title": "Chittorgarh",
+            "summary": "Mewar's great fort, its towers and the light and sound show.",
+            "stops": [
+              {
+                "time": "8 am",
+                "name": "Drive Udaipur → Chittorgarh",
+                "duration": "2.5 hours",
+                "placeSlug": "chittorgarh",
+                "note": "About 112 km."
+              },
+              {
+                "time": "10:30 am",
+                "name": "Chittorgarh Fort",
+                "duration": "3 hours",
+                "placeSlug": "chittorgarh-fort",
+                "note": "700 acres on a 180 m hill; open 9 am–6 pm."
+              },
+              {
+                "time": "1:30 pm",
+                "name": "Lunch",
+                "duration": "1 hour"
+              },
+              {
+                "time": "2:30 pm",
+                "name": "Vijay Stambh and Kirti Stambh",
+                "duration": "1.5 hours",
+                "placeSlug": "vijay-stambh",
+                "note": "Kumbha's nine-storey Tower of Victory and the Jain Tower of Fame; the Meera temple is nearby."
+              },
+              {
+                "time": "After sunset",
+                "name": "Light and sound show",
+                "duration": "1 hour",
+                "placeSlug": "chittorgarh-fort",
+                "note": "The fort's history, told after dark."
+              }
+            ],
+            "travel": "Udaipur → Chittorgarh about 112 km (about 2.5 hours); drive between the sites inside the fort.",
+            "distanceKm": 130,
+            "distance": "About 130 km (estimate)",
+            "driveTime": "About 3 hours in total (estimate)",
+            "transport": "Car with driver",
+            "meals": "Lunch in Chittorgarh town.",
+            "overnight": "Chittorgarh"
+          }
         ]
       }
     },
@@ -6677,251 +7335,567 @@
       "place": "rajasthan",
       "slug": "rajasthan-10-days-grand-circuit",
       "title": "Rajasthan in 10 days: Jaipur, Pushkar, Jodhpur, Jaisalmer and Udaipur",
+      "summary": "Jaipur's forts, Ajmer and Pushkar, Mehrangarh, two days in Jaisalmer with a night in the Sam dunes, then back through Jodhpur and the Ranakpur temple to Udaipur's lakes.",
       "durationDays": 10,
       "tripTypes": [
         "heritage",
         "adventure",
         "romantic"
       ],
-      "summary": "The classic loop: Jaipur's forts, holy Pushkar, Jodhpur's Blue City, a night in the Thar at Jaisalmer, and the lakes of Udaipur.",
-      "seoTitle": "Rajasthan 10-Day Itinerary: Jaipur to Udaipur",
-      "seoDescription": "A 10-day Rajasthan itinerary: Jaipur, Ajmer and Pushkar, Jodhpur's Mehrangarh, Jaisalmer's fort and dunes, and Udaipur's palaces and lakes.",
+      "seoTitle": "Rajasthan 10-Day Itinerary: Jaipur, Jodhpur, Jaisalmer, Udaipur",
+      "seoDescription": "A one-way 10-day Rajasthan route with real distances: Jaipur, Ajmer and Pushkar, Jodhpur, Jaisalmer with a Sam dunes camp, Ranakpur and Udaipur.",
       "facts": [
         "RJW1",
+        "RJW3",
         "RJW5",
-        "RJW6",
+        "HM2",
+        "HM3",
+        "JM4",
+        "JM6",
+        "CPV1",
+        "CPV2",
+        "AM3",
+        "AM4",
+        "JG2",
+        "JGD1",
+        "NG2",
+        "NGD1",
+        "RJF1",
+        "RJF2",
+        "JL3",
+        "JP11",
+        "RJD_JPPK",
         "PK4",
+        "AJD1",
+        "AJD2",
         "PKL1",
         "PKB1",
         "PKS1",
-        "AJD1",
+        "PK3",
+        "RJD_PKJD",
         "JDM1",
+        "JDM2",
+        "MEH_F",
         "JDJ1",
         "JDG1",
         "JS4",
         "JSF1",
+        "JSF2",
         "JSP1",
         "JSB1",
+        "JSK1",
+        "SAM_D",
         "JSS1",
         "JS5",
+        "RJD_JSJD",
+        "RJD_JDUD",
+        "RNK_H",
+        "UD4",
         "UDC1",
+        "UDC2",
+        "UDCP_F",
+        "UDT1",
         "UDL1",
-        "UDF1",
         "UDS1",
-        "UD4"
+        "UDF1",
+        "UDB2",
+        "UD7"
       ],
-      "sources": [],
       "plan": {
-        "overview": "This loop links Rajasthan's best-known cities in a sensible order, finishing in Udaipur, which has its own airport. Distances are long — use trains and a driver, and keep a rest afternoon in each city.",
-        "start": "Jaipur",
-        "end": "Udaipur",
-        "transport": "Trains and a hired car with driver between cities.",
-        "season": "October to March; avoid the summer heat.",
-        "days": [
-          {
-            "title": "Day 1: Jaipur — Amber Fort",
-            "summary": "Arrive in Jaipur, which has the state's international airport. Morning: Amber Fort.\n\nEvening: the old city bazaars.",
-            "stops": [
-              {
-                "name": "Amber Fort",
-                "time": "Morning",
-                "placeSlug": "rajasthan/amber-fort",
-                "duration": "3 hours"
-              }
-            ],
-            "overnight": "Jaipur"
-          },
-          {
-            "title": "Day 2: Jaipur — Hawa Mahal and City Palace",
-            "summary": "Hawa Mahal in the morning light, then the City Palace.",
-            "stops": [
-              {
-                "name": "Hawa Mahal",
-                "time": "Morning",
-                "placeSlug": "rajasthan/hawa-mahal",
-                "duration": "45 minutes"
-              },
-              {
-                "name": "City Palace, Jaipur",
-                "time": "Late morning",
-                "placeSlug": "rajasthan/city-palace",
-                "duration": "2 hours"
-              }
-            ],
-            "overnight": "Jaipur"
-          },
-          {
-            "title": "Day 3: Ajmer and Pushkar",
-            "summary": "The Ajmer Sharif Dargah, then on to Pushkar for the ghats and evening aarti.",
-            "stops": [
-              {
-                "name": "Ajmer Sharif Dargah",
-                "time": "Morning",
-                "placeSlug": "rajasthan/ajmer-sharif-dargah",
-                "duration": "2 hours"
-              },
-              {
-                "name": "Pushkar Lake",
-                "time": "Evening",
-                "placeSlug": "rajasthan/pushkar-lake",
-                "duration": "1.5 hours"
-              }
-            ],
-            "overnight": "Pushkar",
-            "travel": "Ajmer to Pushkar: 14 km by road."
-          },
-          {
-            "title": "Day 4: Pushkar, then to Jodhpur",
-            "summary": "The Brahma Temple and the Savitri Mata ropeway; on to Jodhpur late in the day.",
-            "stops": [
-              {
-                "name": "Brahma Temple",
-                "time": "Morning",
-                "placeSlug": "rajasthan/brahma-temple-pushkar",
-                "duration": "45 minutes"
-              },
-              {
-                "name": "Savitri Mata ropeway",
-                "time": "Late morning",
-                "placeSlug": "rajasthan/savitri-mata-temple",
-                "duration": "1.5 hours"
-              }
-            ],
-            "overnight": "Jodhpur"
-          },
-          {
-            "title": "Day 5: Jodhpur",
-            "summary": "Mehrangarh Fort, Jaswant Thada and the clock-tower market.",
-            "stops": [
-              {
-                "name": "Mehrangarh Fort",
-                "time": "Morning",
-                "placeSlug": "rajasthan/mehrangarh-fort",
-                "duration": "3 hours"
-              },
-              {
-                "name": "Jaswant Thada",
-                "time": "Afternoon",
-                "placeSlug": "rajasthan/jaswant-thada",
-                "duration": "1 hour"
-              },
-              {
-                "name": "Ghanta Ghar and Sardar Market",
-                "time": "Evening",
-                "placeSlug": "rajasthan/ghanta-ghar-sardar-market"
-              }
-            ],
-            "overnight": "Jodhpur"
-          },
-          {
-            "title": "Day 6: To Jaisalmer",
-            "summary": "Travel west to Jaisalmer; sunset at Bada Bagh.",
-            "stops": [
-              {
-                "name": "Bada Bagh",
-                "time": "Sunset",
-                "placeSlug": "rajasthan/jaisalmer",
-                "duration": "1 hour"
-              }
-            ],
-            "overnight": "Jaisalmer"
-          },
-          {
-            "title": "Day 7: Jaisalmer fort and desert camp",
-            "summary": "The living fort and Patwon ki Haveli in the morning, then a camel safari at Sam and a night in a desert camp.",
-            "stops": [
-              {
-                "name": "Jaisalmer Fort",
-                "time": "Morning",
-                "placeSlug": "rajasthan/jaisalmer-fort",
-                "duration": "3 hours"
-              },
-              {
-                "name": "Patwon ki Haveli",
-                "time": "Late morning",
-                "placeSlug": "rajasthan/patwon-ki-haveli",
-                "duration": "1 hour"
-              },
-              {
-                "name": "Camel safari at Sam",
-                "time": "Evening",
-                "placeSlug": "rajasthan/camel-safari-jaisalmer"
-              }
-            ],
-            "overnight": "Desert camp"
-          },
-          {
-            "title": "Day 8: To Udaipur",
-            "summary": "A long travel day back east to Udaipur.",
-            "stops": [
-              {
-                "name": "Udaipur",
-                "time": "Evening",
-                "placeSlug": "rajasthan/udaipur"
-              }
-            ],
-            "overnight": "Udaipur"
-          },
-          {
-            "title": "Day 9: Udaipur — City Palace and Lake Pichola",
-            "summary": "The City Palace, then a sunset boat on Lake Pichola.",
-            "stops": [
-              {
-                "name": "City Palace",
-                "time": "Morning",
-                "placeSlug": "rajasthan/city-palace-udaipur",
-                "duration": "3 hours"
-              },
-              {
-                "name": "Lake Pichola boat ride",
-                "time": "Sunset",
-                "placeSlug": "rajasthan/pichola-boat-ride",
-                "duration": "1 hour"
-              }
-            ],
-            "overnight": "Udaipur"
-          },
-          {
-            "title": "Day 10: Udaipur — Fateh Sagar, then fly out",
-            "summary": "Fateh Sagar and Saheliyon-ki-Bari, then fly out from Maharana Pratap Airport (about 25 km from the city).",
-            "stops": [
-              {
-                "name": "Fateh Sagar Lake",
-                "time": "Morning",
-                "placeSlug": "rajasthan/fateh-sagar-lake",
-                "duration": "1.5 hours"
-              },
-              {
-                "name": "Saheliyon-ki-Bari",
-                "time": "Late morning",
-                "placeSlug": "rajasthan/saheliyon-ki-bari",
-                "duration": "1 hour"
-              }
-            ],
-            "overnight": "Departure"
-          }
-        ],
+        "overview": "A one-way route: fly into Jaipur and out of Udaipur. After two days of Jaipur's walled city and hill forts, Day 3 stops at Ajmer's dargah on the way to Pushkar. Day 4 drives to Jodhpur for Mehrangarh in the afternoon, and Day 5 crosses the desert to Jaisalmer. Day 6 is the living fort and a night in the Sam dunes. Day 7 is the long drive back to Jodhpur, and Day 8 breaks the road to Udaipur at the Ranakpur temple, which non-Jains can enter only from noon. Days 9–10 are by the lakes. Compared with our northern 10-day desert route (Shekhawati and Bikaner), this one adds Pushkar, Ranakpur and Udaipur.",
+        "style": "Grand heritage circuit; several long road days",
+        "start": "Jaipur International Airport",
+        "end": "Udaipur's Maharana Pratap Airport (about 25 km from the city)",
+        "season": "October to March is best (roughly 10–30°C) and is the desert camping season. April–June is very hot, up to 48°C. Pushkar's camel fair is in October–November.",
+        "difficulty": "Moderate to demanding — four long driving days",
+        "transport": "Private car with driver Jaipur → Udaipur for all 10 days (about 1,400 km including local runs, estimate).",
         "budget": {
-          "assumptions": "VacayOut lists only fees it could check with an official source; hotels, transport and meals are not estimated. Check current prices before you book.",
-          "lines": []
+          "assumptions": "Per adult, entry fees only; hotels, car and driver, desert camp and meals vary too much to estimate honestly.",
+          "lines": [
+            {
+              "label": "Jaipur two-day composite",
+              "amount": "About ₹550 (Indian) / ₹1,700 (foreign)",
+              "basis": "Amber, Hawa Mahal, Jantar Mantar, Nahargarh, Albert Hall; reported price"
+            },
+            {
+              "label": "Jaipur City Palace Composite",
+              "amount": "₹500",
+              "basis": "Official City Palace site; adds Jaigarh"
+            },
+            {
+              "label": "Mehrangarh Fort",
+              "amount": "₹100 (Indian) / ₹600 (foreign)",
+              "basis": "Secondary source; confirm on mehrangarh.org"
+            },
+            {
+              "label": "Udaipur City Palace Museum",
+              "amount": "About ₹300 (adult)",
+              "basis": "Secondary sources; confirm at the ticket office"
+            },
+            {
+              "label": "Desert camp, Jaisalmer havelis, Ranakpur",
+              "amount": "Not estimated",
+              "basis": "Varies by operator; camera charges may apply"
+            }
+          ]
         },
         "booking": [
           {
-            "item": "Trains",
-            "detail": "Book the long legs early in the October–March season."
+            "item": "Car and driver",
+            "detail": "One car Jaipur → Udaipur for ten days; agree the Day 5 and Day 7 desert drives and the driver's allowance in advance."
+          },
+          {
+            "item": "Flights",
+            "detail": "Open-jaw ticket: into Jaipur, out of Udaipur."
           },
           {
             "item": "Desert camp",
-            "detail": "Book ahead for Jaisalmer."
+            "detail": "Book a licensed camp near Sam for Day 6; confirm the camel ride and dinner are included."
+          },
+          {
+            "item": "Hotels",
+            "detail": "Book Udaipur lake-view rooms and Jaisalmer fort hotels early for October–March."
           }
         ],
         "alternatives": [
-          "Short on time? Drop Jaisalmer and do Jaipur–Pushkar–Jodhpur–Udaipur in 7 days.",
-          "Add Ranthambore after Jaipur for tigers."
+          "Short of time? Drop Jaisalmer (Days 5–7) and follow our seven-day classic route.",
+          "Prefer the northern desert? Our 10-day grand desert route goes via Shekhawati and Bikaner instead of Pushkar and Udaipur.",
+          "Fewer long drives? Fly Jaisalmer → Jaipur or Delhi and skip Udaipur."
         ],
         "tips": [
-          "Keep afternoons light — sightseeing is best in the morning and evening.",
-          "Carry layers: desert nights are cold in winter."
+          "Time Ranakpur for after noon — non-Jains are turned away in the morning.",
+          "Start the desert drives (Days 5 and 7) early to arrive in daylight.",
+          "Carry a warm layer for the desert night in winter."
+        ],
+        "prep": [
+          {
+            "title": "Heat",
+            "body": "From April to June temperatures reach the mid-40s °C; drink plenty of water and avoid midday sightseeing."
+          },
+          {
+            "title": "Dress",
+            "body": "Cover shoulders and knees at the dargah and temples (Pushkar, Ranakpur, Jagdish); no leather inside Ranakpur."
+          }
+        ],
+        "faqs": [
+          {
+            "q": "Is 10 days enough for Rajasthan?",
+            "a": "Enough for the five big names — Jaipur, Pushkar, Jodhpur, Jaisalmer and Udaipur — with one desert night. It involves four long drives."
+          },
+          {
+            "q": "How long is the drive from Jaisalmer to Jodhpur?",
+            "a": "About 285 km via Pokaran, 4–5 hours; from the Sam dunes add about 40 km."
+          }
+        ],
+        "days": [
+          {
+            "title": "Jaipur: the walled city",
+            "summary": "Palace, observatory and the Palace of Winds.",
+            "stops": [
+              {
+                "time": "9:30 am",
+                "name": "City Palace",
+                "duration": "2 hours",
+                "placeSlug": "city-palace",
+                "note": "Composite ticket (₹500) also covers Jaigarh tomorrow."
+              },
+              {
+                "time": "11:45 am",
+                "name": "Jantar Mantar",
+                "duration": "1 hour",
+                "placeSlug": "jantar-mantar",
+                "note": "Next to the City Palace."
+              },
+              {
+                "time": "1 pm",
+                "name": "Lunch",
+                "duration": "1 hour"
+              },
+              {
+                "time": "2:15 pm",
+                "name": "Hawa Mahal",
+                "duration": "45 minutes",
+                "placeSlug": "hawa-mahal",
+                "note": "Enter from the rear; closes 4:30 pm."
+              },
+              {
+                "time": "7 pm",
+                "name": "Dinner at Masala Chowk",
+                "duration": "1 hour"
+              }
+            ],
+            "travel": "Airport → old city about 10 km; sights are close together.",
+            "distanceKm": 15,
+            "distance": "About 15 km (estimate)",
+            "driveTime": "Short city drives",
+            "transport": "Car or rickshaw",
+            "meals": "Street food at Masala Chowk.",
+            "overnight": "Jaipur"
+          },
+          {
+            "title": "Jaipur: Amber, Jaigarh and Nahargarh",
+            "summary": "The hill forts along the ridge, ending above the city.",
+            "stops": [
+              {
+                "time": "8:45 am",
+                "name": "Jal Mahal (roadside view)",
+                "duration": "10 minutes",
+                "placeSlug": "jal-mahal"
+              },
+              {
+                "time": "9 am",
+                "name": "Amber Fort",
+                "duration": "2.5 hours",
+                "placeSlug": "amber-fort",
+                "note": "Suraj Pol, Jaleb Chowk and the Sheesh Mahal."
+              },
+              {
+                "time": "12 pm",
+                "name": "Jaigarh Fort",
+                "duration": "1.5 hours",
+                "placeSlug": "jaigarh-fort",
+                "note": "The Jaivana cannon; 2.5 km uphill from Amber."
+              },
+              {
+                "time": "4 pm",
+                "name": "Nahargarh Fort",
+                "duration": "2 hours",
+                "placeSlug": "nahargarh-fort",
+                "note": "Views over the city at dusk."
+              }
+            ],
+            "travel": "City → Amber about 11 km; Nahargarh about 6 km from the city by the fort road.",
+            "distanceKm": 35,
+            "distance": "About 35 km (estimate)",
+            "driveTime": "About 1.5–2 hours in total (estimate)",
+            "transport": "Car with driver",
+            "meals": "Lunch in Amer town.",
+            "overnight": "Jaipur"
+          },
+          {
+            "title": "Jaipur → Ajmer → Pushkar",
+            "summary": "The Sufi dargah on the way, then Pushkar's lake and temple.",
+            "stops": [
+              {
+                "time": "8 am",
+                "name": "Drive to Ajmer",
+                "duration": "2 hours"
+              },
+              {
+                "time": "10 am",
+                "name": "Ajmer Sharif Dargah",
+                "duration": "1.5 hours",
+                "placeSlug": "ajmer-sharif-dargah",
+                "note": "Revered by Hindus and Muslims; can draw up to 20,000 pilgrims a day."
+              },
+              {
+                "time": "12:30 pm",
+                "name": "Drive to Pushkar and lunch",
+                "duration": "1.5 hours",
+                "placeSlug": "pushkar",
+                "note": "Ajmer → Pushkar about 14 km; vegetarian town."
+              },
+              {
+                "time": "3 pm",
+                "name": "Brahma Temple",
+                "duration": "45 minutes",
+                "placeSlug": "brahma-temple-pushkar"
+              },
+              {
+                "time": "4 pm",
+                "name": "Savitri Mata ropeway",
+                "duration": "1.5 hours",
+                "placeSlug": "savitri-mata-temple",
+                "note": "Views of the whole town."
+              },
+              {
+                "time": "6 pm",
+                "name": "Pushkar Lake ghats",
+                "duration": "1 hour",
+                "placeSlug": "pushkar-lake",
+                "note": "52 ghats and over 400 temples."
+              }
+            ],
+            "travel": "Jaipur → Pushkar about 145 km (2.5 hours) via Ajmer, 14 km before Pushkar.",
+            "distanceKm": 150,
+            "distance": "About 150 km (estimate)",
+            "driveTime": "About 3 hours (estimate)",
+            "transport": "Car with driver",
+            "meals": "Kachori and malpua in Pushkar.",
+            "overnight": "Pushkar"
+          },
+          {
+            "title": "Pushkar → Jodhpur: Mehrangarh",
+            "summary": "A morning drive, then the fort in the afternoon.",
+            "stops": [
+              {
+                "time": "8 am",
+                "name": "Drive to Jodhpur",
+                "duration": "4 hours",
+                "placeSlug": "jodhpur",
+                "note": "About 187 km."
+              },
+              {
+                "time": "12:30 pm",
+                "name": "Lunch",
+                "duration": "1 hour"
+              },
+              {
+                "time": "1:45 pm",
+                "name": "Mehrangarh Fort",
+                "duration": "2.5 hours",
+                "placeSlug": "mehrangarh-fort",
+                "note": "Open until 5 pm; Moti Mahal, Sheesh Mahal, Phool Mahal."
+              },
+              {
+                "time": "4:30 pm",
+                "name": "Jaswant Thada",
+                "duration": "45 minutes",
+                "placeSlug": "jaswant-thada"
+              },
+              {
+                "time": "6 pm",
+                "name": "Ghanta Ghar and Sardar Market",
+                "duration": "1.5 hours",
+                "placeSlug": "ghanta-ghar-sardar-market"
+              }
+            ],
+            "travel": "Pushkar → Jodhpur about 187 km (about 4 hours).",
+            "distanceKm": 195,
+            "distance": "About 195 km (estimate)",
+            "driveTime": "About 4 hours",
+            "transport": "Car with driver",
+            "meals": "Rooftop dinner facing the fort.",
+            "overnight": "Jodhpur"
+          },
+          {
+            "title": "Jodhpur → Jaisalmer",
+            "summary": "Across the Thar to the Golden City, with sunset at Bada Bagh.",
+            "stops": [
+              {
+                "time": "8 am",
+                "name": "Drive to Jaisalmer",
+                "duration": "5 hours",
+                "placeSlug": "jaisalmer",
+                "note": "About 285 km via Pokaran."
+              },
+              {
+                "time": "1:30 pm",
+                "name": "Lunch and rest",
+                "duration": "2.5 hours"
+              },
+              {
+                "time": "5 pm",
+                "name": "Bada Bagh",
+                "duration": "1 hour",
+                "placeSlug": "jaisalmer",
+                "note": "Royal cenotaphs about 6 km north, at sunset."
+              }
+            ],
+            "travel": "Jodhpur → Jaisalmer about 285 km via Pokaran (4–5 hours).",
+            "distanceKm": 300,
+            "distance": "About 300 km (estimate)",
+            "driveTime": "4–5 hours",
+            "transport": "Car with driver",
+            "meals": "Lunch on arrival; dinner in town.",
+            "overnight": "Jaisalmer"
+          },
+          {
+            "title": "Jaisalmer fort and a night in the dunes",
+            "summary": "The living fort and havelis, then Kuldhara and Sam.",
+            "stops": [
+              {
+                "time": "8:30 am",
+                "name": "Jaisalmer Fort",
+                "duration": "2.5 hours",
+                "placeSlug": "jaisalmer-fort",
+                "note": "Families still live inside; carved Jain temples."
+              },
+              {
+                "time": "11:15 am",
+                "name": "Patwon ki Haveli",
+                "duration": "1 hour",
+                "placeSlug": "patwon-ki-haveli"
+              },
+              {
+                "time": "12:30 pm",
+                "name": "Lunch",
+                "duration": "1 hour"
+              },
+              {
+                "time": "2:30 pm",
+                "name": "Kuldhara",
+                "duration": "1 hour",
+                "placeSlug": "kuldhara",
+                "note": "Abandoned village about 18 km from Jaisalmer."
+              },
+              {
+                "time": "4:30 pm",
+                "name": "Camel safari at Sam",
+                "duration": "1.5 hours",
+                "placeSlug": "camel-safari-jaisalmer",
+                "note": "Sunset on the dunes."
+              },
+              {
+                "time": "7 pm",
+                "name": "Sam sand dunes camp",
+                "duration": "Overnight",
+                "placeSlug": "sam-sand-dunes"
+              }
+            ],
+            "travel": "Jaisalmer → Kuldhara about 18 km; the Sam dunes are about 40 km west of Jaisalmer.",
+            "distanceKm": 60,
+            "distance": "About 60 km (estimate)",
+            "driveTime": "About 1.5 hours in total (estimate)",
+            "transport": "Car; camel on the dunes",
+            "meals": "Dinner at the camp.",
+            "overnight": "Desert camp near Sam"
+          },
+          {
+            "title": "Sam → Jodhpur",
+            "summary": "The long drive back east.",
+            "stops": [
+              {
+                "time": "8 am",
+                "name": "Drive to Jodhpur",
+                "duration": "6 hours",
+                "placeSlug": "jodhpur",
+                "note": "About 40 km to Jaisalmer, then about 285 km via Pokaran."
+              },
+              {
+                "time": "3 pm",
+                "name": "Rest, or the blue lanes below Mehrangarh",
+                "duration": "2 hours",
+                "placeSlug": "jodhpur"
+              }
+            ],
+            "travel": "Sam → Jaisalmer about 40 km, then Jaisalmer → Jodhpur about 285 km.",
+            "distanceKm": 325,
+            "distance": "About 325 km (estimate)",
+            "driveTime": "About 5–6 hours (estimate)",
+            "transport": "Car with driver",
+            "meals": "Lunch on the road.",
+            "overnight": "Jodhpur"
+          },
+          {
+            "title": "Jodhpur → Ranakpur → Udaipur",
+            "summary": "The marble Jain temple at noon, then on to the lakes.",
+            "stops": [
+              {
+                "time": "8:30 am",
+                "name": "Drive towards Ranakpur",
+                "duration": "3 hours",
+                "placeSlug": "kumbhalgarh",
+                "note": "Ranakpur is roughly 150–185 km from Jodhpur via Pali."
+              },
+              {
+                "time": "12 pm",
+                "name": "Ranakpur Jain temple",
+                "duration": "1.5 hours",
+                "placeSlug": "kumbhalgarh",
+                "note": "Non-Jains admitted 12 noon–5 pm; no leather inside."
+              },
+              {
+                "time": "1:45 pm",
+                "name": "Lunch",
+                "duration": "1 hour"
+              },
+              {
+                "time": "3 pm",
+                "name": "Drive to Udaipur",
+                "duration": "2 hours",
+                "placeSlug": "udaipur"
+              }
+            ],
+            "travel": "Jodhpur → Udaipur about 260 km via Pali and Ranakpur (4–5 hours of driving).",
+            "distanceKm": 260,
+            "distance": "About 260 km",
+            "driveTime": "4–5 hours of driving",
+            "transport": "Car with driver",
+            "meals": "Lunch near Ranakpur.",
+            "overnight": "Udaipur"
+          },
+          {
+            "title": "Udaipur: City Palace and Lake Pichola",
+            "summary": "Temple and palace in the morning, the lake at sunset.",
+            "stops": [
+              {
+                "time": "8:30 am",
+                "name": "Jagdish Temple",
+                "duration": "45 minutes",
+                "placeSlug": "jagdish-temple"
+              },
+              {
+                "time": "9:30 am",
+                "name": "City Palace",
+                "duration": "3 hours",
+                "placeSlug": "city-palace-udaipur",
+                "note": "Open 9:30 am–5:30 pm; Mor Chowk's peacock mosaics."
+              },
+              {
+                "time": "1 pm",
+                "name": "Lunch and rest",
+                "duration": "3 hours"
+              },
+              {
+                "time": "5 pm",
+                "name": "Lake Pichola boat ride",
+                "duration": "1 hour",
+                "placeSlug": "pichola-boat-ride",
+                "note": "Past the island palaces at sunset."
+              },
+              {
+                "time": "7 pm",
+                "name": "Dharohar dance show",
+                "duration": "1 hour",
+                "placeSlug": "dharohar-dance-show"
+              }
+            ],
+            "travel": "On foot around Lake Pichola.",
+            "distanceKm": 3,
+            "distance": "About 3 km on foot (estimate)",
+            "driveTime": "None — walking day",
+            "transport": "Walking",
+            "meals": "Lakeside cafés.",
+            "overnight": "Udaipur"
+          },
+          {
+            "title": "Udaipur: Fateh Sagar, then fly out",
+            "summary": "Gardens and the northern lake before the airport.",
+            "stops": [
+              {
+                "time": "9 am",
+                "name": "Saheliyon-ki-Bari",
+                "duration": "1 hour",
+                "placeSlug": "saheliyon-ki-bari"
+              },
+              {
+                "time": "10:15 am",
+                "name": "Fateh Sagar Lake",
+                "duration": "1.5 hours",
+                "placeSlug": "fateh-sagar-lake"
+              },
+              {
+                "time": "12 pm",
+                "name": "Lunch",
+                "duration": "1 hour"
+              },
+              {
+                "time": "1:30 pm",
+                "name": "Karni Mata ropeway (if time allows)",
+                "duration": "1 hour",
+                "placeSlug": "udaipur",
+                "note": "City views before the airport."
+              }
+            ],
+            "travel": "City → Maharana Pratap Airport about 25 km.",
+            "distanceKm": 40,
+            "distance": "About 40 km (estimate)",
+            "driveTime": "About 1.5 hours in total (estimate)",
+            "transport": "Taxi",
+            "meals": "Lunch near Fateh Sagar.",
+            "overnight": "Departure"
+          }
         ]
       }
     },

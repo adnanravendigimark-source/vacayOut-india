@@ -1,0 +1,695 @@
+{
+ "cluster": "state-gaps2-pondicherry",
+ "title": "Pondicherry (Batch 3)",
+ "researchedAt": "2026-11-18",
+ "selection": "Batch 3. Pondicherry had 5 sections and 182 words. Adds who it's for, practical info, neighbourhoods, etiquette and common mistakes, a fuller overview (pending review) and rewrites the draft pondicherry-2-days itinerary (moved here from state-gaps.json). The Puducherry Tourism site returned no content. Not covered: boat fares, hotel prices.",
+ "sources": {
+  "II_PDY": {
+   "url": "https://www.incredibleindia.gov.in/en/puducherry/puducherry",
+   "title": "Puducherry — Incredible India",
+   "authority": "government"
+  },
+  "W_PDY": {
+   "url": "https://en.wikipedia.org/wiki/Pondicherry",
+   "title": "Pondicherry — Wikipedia",
+   "authority": "reference"
+  },
+  "W_AUR": {
+   "url": "https://en.wikipedia.org/wiki/Auroville",
+   "title": "Auroville — Wikipedia",
+   "authority": "reference"
+  },
+  "II_PYT": {
+   "url": "https://www.incredibleindia.gov.in/en/puducherry/puducherry",
+   "title": "Puducherry town — Incredible India (Ministry of Tourism, Government of India)",
+   "authority": "government"
+  },
+  "II_PYM": {
+   "url": "https://www.incredibleindia.gov.in/en/puducherry/puducherry/puducherry-museum",
+   "title": "Puducherry Museum — Incredible India (Ministry of Tourism, Government of India)",
+   "authority": "government"
+  },
+  "II_CHB": {
+   "url": "https://www.incredibleindia.gov.in/en/puducherry/puducherry/chunnambar-boat-house",
+   "title": "Chunnambar Boat House — Incredible India (Ministry of Tourism, Government of India)",
+   "authority": "government"
+  },
+  "II_FWM": {
+   "url": "https://www.incredibleindia.gov.in/en/puducherry/puducherry/french-war-memorial",
+   "title": "French War Memorial — Incredible India (Ministry of Tourism, Government of India)",
+   "authority": "government"
+  },
+  "II_NDA": {
+   "url": "https://www.incredibleindia.gov.in/en/puducherry/puducherry/eglise-de-notre-dame-des-anges",
+   "title": "Église de Notre Dame des Anges — Incredible India (Ministry of Tourism, Government of India)",
+   "authority": "government"
+  }
+ },
+ "facts": {
+  "BPY1": {
+   "place": "puducherry/pondicherry",
+   "topic": "Pondicherry",
+   "claim": "Pondicherry, on the south-east coast about 170 km from Chennai, was the capital of French India; Karaikal, Mahe and Yanam joined it as a Union Territory.",
+   "claimType": "distance",
+   "evidence": [
+    {
+     "source": "II_PYT",
+     "quote": "The city sits on the southeastern coast of India, about 170 kms from Chennai."
+    },
+    {
+     "source": "II_PYT",
+     "quote": "Puducherry, formerly known as Pondicherry, gained its significance as"
+    },
+    {
+     "source": "II_PYT",
+     "quote": "Pondicherry, along with Karaikal, Mahe and Yanam, was constituted as a Union Territory in the Indian Union."
+    }
+   ]
+  },
+  "BPY2": {
+   "place": "puducherry/sri-aurobindo-ashram",
+   "topic": "Sri Aurobindo Ashram",
+   "claim": "Sri Aurobindo Ashram was founded in 1926 by Sri Aurobindo and the Mother.",
+   "claimType": "general",
+   "evidence": [
+    {
+     "source": "II_PYT",
+     "quote": "Sri Aurobindo Ashram, a spiritual community founded in 1926 by Sri Aurobindo and the Mother"
+    }
+   ]
+  },
+  "BPY3": {
+   "place": "puducherry/promenade-beach",
+   "topic": "Beaches",
+   "claim": "Promenade Beach has a long seafront walk; Paradise Beach is the other well-known beach.",
+   "claimType": "general",
+   "evidence": [
+    {
+     "source": "II_PYT",
+     "quote": "Promenade Beach, with its long waterfront promenade, and Paradise Beach are some of the more noticeable ones."
+    }
+   ]
+  },
+  "BPY4": {
+   "place": "puducherry/pondicherry",
+   "topic": "Food",
+   "claim": "Food ranges from croissants and pizza to dosa and seafood.",
+   "claimType": "general",
+   "evidence": [
+    {
+     "source": "II_PYT",
+     "quote": "From freshly baked Pizzas and croissants to typical South Indian Dosa and a variety of seafood, Puducherry is a food lover's delight."
+    }
+   ]
+  },
+  "BPYM1": {
+   "place": "puducherry/pondicherry-museum",
+   "topic": "Pondicherry Museum",
+   "claim": "The museum has one of the largest collections of Chola bronzes, Roman-era trade finds and French furniture.",
+   "claimType": "general",
+   "evidence": [
+    {
+     "source": "II_PYM",
+     "quote": "one of the largest collection of Chola bronze sculptures"
+    },
+    {
+     "source": "II_PYM",
+     "quote": "These illustrate the significance of Pondicherry as a port of trade between the first and second centuries AD."
+    }
+   ]
+  },
+  "BPAR1": {
+   "place": "puducherry/paradise-beach",
+   "topic": "Paradise Beach",
+   "claim": "Paradise Beach is reached by a short boat ride from Chunnambar Boat House, which offers paddle and motor boats.",
+   "claimType": "general",
+   "evidence": [
+    {
+     "source": "II_CHB",
+     "quote": "the pristine Paradise Beach that can be reached via a short and scenic boat ride"
+    },
+    {
+     "source": "II_CHB",
+     "quote": "Boating is the most popular choice, with options ranging from paddle boats to motor boats"
+    }
+   ]
+  },
+  "BFWM1": {
+   "place": "puducherry/french-war-memorial",
+   "topic": "French War Memorial",
+   "claim": "The French War Memorial on the seafront was inaugurated on 3 April 1938 and rebuilt in 1970; it honours French Indian soldiers of the World Wars.",
+   "claimType": "general",
+   "evidence": [
+    {
+     "source": "II_FWM",
+     "quote": "Governor Crocicchia inaugurated this memorial on April 3, 1938"
+    },
+    {
+     "source": "II_FWM",
+     "quote": "Reconstructed in 1970"
+    },
+    {
+     "source": "II_FWM",
+     "quote": "A bronze plaque lists the names of those who gave their lives during World War I"
+    }
+   ]
+  },
+  "BNDA1": {
+   "place": "puducherry/notre-dame-des-anges",
+   "topic": "Notre Dame des Anges",
+   "claim": "Notre Dame des Anges on the Promenade was built in 1855 and holds services in French, Tamil and English.",
+   "claimType": "general",
+   "evidence": [
+    {
+     "source": "II_NDA",
+     "quote": "Located along the famous Promenade of Pondicherry, this church was crafted by the skilled hands of Louis Guerre in 1855."
+    },
+    {
+     "source": "II_NDA",
+     "quote": "it is the world's only church where prayers resonate in French, Tamil, and English"
+    }
+   ]
+  },
+  "PD1": {
+   "place": "puducherry/pondicherry",
+   "topic": "Name",
+   "claim": "The French called it Pondichéry; the name was officially changed to Puducherry in 2006. Incredible India calls it the 'French Riviera of the East'.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "II_PDY",
+     "quote": "which it was called until its name was officially changed to Puducherry in 2006."
+    }
+   ]
+  },
+  "PD2": {
+   "place": "puducherry/pondicherry",
+   "topic": "Union",
+   "claim": "French India legally joined the Indian Union in 1963.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "II_PDY",
+     "quote": "the de jure union of French India with the Indian Union took place in the year 1963"
+    }
+   ]
+  },
+  "PD3": {
+   "place": "puducherry/pondicherry",
+   "topic": "White Town",
+   "claim": "White Town, the old French quarter, has cobbled streets, yellow houses and French street names such as Rue Dumas and Rue Suffren; many houses are now heritage hotels, cafes and galleries.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "II_PDY",
+     "quote": "Flaunting cobblestone streets and yellow houses, this old French residential area retains its old world charm"
+    },
+    {
+     "source": "II_PDY",
+     "quote": "you will read names like Rue Dumas, Rue Romain Rolland, Rue Suffren and Rue La Bourbonnais."
+    },
+    {
+     "source": "II_PDY",
+     "quote": "most of these got converted into heritage hotels, restaurants, quirky cafes and art galleries."
+    }
+   ]
+  },
+  "PD4": {
+   "place": "puducherry/pondicherry",
+   "topic": "Auroville",
+   "claim": "Auroville, the experimental township founded in 1968 around the Matrimandir, is about 8 km north-west of Pondicherry; silence is kept inside the Matrimandir.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "W_PDY",
+     "quote": "township located 8 km (5.0 mi) northwest of Pondicherry."
+    },
+    {
+     "source": "W_AUR",
+     "quote": "It was founded in 1968 by Mirra Alfassa"
+    },
+    {
+     "source": "W_AUR",
+     "quote": "Silence is maintained inside the Matrimandir"
+    }
+   ]
+  },
+  "PD5": {
+   "place": "puducherry/pondicherry",
+   "topic": "Languages",
+   "claim": "Tamil, French, English and Telugu are widely spoken.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "II_PDY",
+     "quote": "is a multilingual city where Tamil, French, English, and Telugu are widely spoken."
+    }
+   ]
+  },
+  "PD6": {
+   "place": "puducherry/pondicherry",
+   "topic": "Evenings",
+   "claim": "The seafront fills with evening strollers and sunset-watchers.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "II_PDY",
+     "quote": "There is a lot of evening activity, and tourists come here for leisurely evening strolls and amazing sunsets."
+    }
+   ]
+  },
+  "PD7": {
+   "place": "puducherry/pondicherry",
+   "topic": "Rain",
+   "claim": "Most rain falls in the north-east monsoon, October–December; summer runs from March to early June.",
+   "claimType": "general",
+   "kind": "seasonal",
+   "evidence": [
+    {
+     "source": "W_PDY",
+     "quote": "Pondicherry gets the bulk of its annual rainfall during the period from October to December."
+    },
+    {
+     "source": "W_PDY",
+     "quote": "Summer lasts from March to early June"
+    }
+   ]
+  },
+  "PD8": {
+   "place": "puducherry/pondicherry",
+   "topic": "Trains",
+   "claim": "Pondicherry has trains to major cities; Villupuram Junction, about 39 km away, has more connections.",
+   "claimType": "distance",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "W_PDY",
+     "quote": "Pondicherry is connected by train to all major Indian cities"
+    },
+    {
+     "source": "W_PDY",
+     "quote": "Villupuram Junction, which is at a distance of around 24 miles (39 km)"
+    }
+   ]
+  },
+  "PD9": {
+   "place": "puducherry/pondicherry",
+   "topic": "Airport",
+   "claim": "Pondicherry's small airport at Lawspet has a few domestic flights.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "W_PDY",
+     "quote": "Pondicherry Airport is located at Lawspet"
+    }
+   ]
+  },
+  "PD10": {
+   "place": "puducherry/pondicherry",
+   "topic": "Roman trade",
+   "claim": "Arikamedu, about 3 km from the city, was probably the Roman-era port of Poduke.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "W_PDY",
+     "quote": "Poduke or Poduca (marketplace) was a Roman trading destination from the third century BCE."
+    },
+    {
+     "source": "W_PDY",
+     "quote": "located about 2 miles (3.2 km) from the modern city of Pondicherry"
+    }
+   ]
+  },
+  "PD11": {
+   "place": "puducherry/pondicherry",
+   "topic": "Sea wall",
+   "claim": "A 1989 breakwater led to heavy erosion; the city's seafront is now protected by rocks rather than sand.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "W_PDY",
+     "quote": "Pondicherry experiences extreme coastal erosion as a result of a breakwater constructed in 1989"
+    },
+    {
+     "source": "W_PDY",
+     "quote": "Where there was once a broad, sandy beach"
+    }
+   ]
+  },
+  "PD12": {
+   "place": "puducherry/pondicherry",
+   "topic": "Aurocard",
+   "claim": "Auroville asks visitors to use a temporary account and an Aurocard instead of cash.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "W_AUR",
+     "quote": "Visitors are requested to get a temporary account and an Aurocard"
+    }
+   ]
+  },
+  "PD13": {
+   "place": "puducherry/pondicherry",
+   "topic": "Ashram location",
+   "claim": "The Sri Aurobindo Ashram is on Rue de la Marine.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "W_PDY",
+     "quote": "The Sri Aurobindo Ashram, located on Rue de la Marine"
+    }
+   ]
+  }
+ },
+ "places": [
+  {
+   "key": "puducherry/pondicherry",
+   "kind": "city",
+   "name": "Pondicherry (Puducherry)",
+   "parent": "puducherry",
+   "summary": "The former capital of French India, 170 km from Chennai: White Town, the promenade, the Aurobindo Ashram, Auroville and seafood.",
+   "seoTitle": "Pondicherry Town Guide: White Town, Beaches & Food",
+   "seoDescription": "Plan Pondicherry: White Town, Promenade Beach, Sri Aurobindo Ashram, the Pondicherry Museum and Paradise Beach, about 170 km from Chennai.",
+   "lat": 11.93401361,
+   "lng": 79.82902833,
+   "tripTypes": [
+    "heritage",
+    "beaches",
+    "food",
+    "weekend"
+   ],
+   "images": [
+    {
+     "commons": "File:Pondicherry Beach view.jpg",
+     "alt": "The seafront promenade at Pondicherry",
+     "hero": true
+    }
+   ],
+   "sections": {
+    "overview": {
+     "text": "Pondicherry, officially Puducherry since 2006, sits on the south-east coast about 170 km from Chennai. It was the capital of French India and only legally joined India in 1963, and with Karaikal, Mahe and Yanam it now forms a Union Territory. Incredible India calls it the French Riviera of the East.\n\nThe French past is clearest in White Town, where cobbled streets with names like Rue Dumas and Rue Suffren are lined with yellow houses, heritage hotels and cafes. The seafront promenade fills at sunrise and sunset, past the French War Memorial and the 1855 church of Notre Dame des Anges. The Sri Aurobindo Ashram, founded in 1926, draws visitors from around the world, and Auroville's experimental township is about 8 km away. Food mixes croissants and dosa, French cafes and fresh seafood.",
+     "facts": [
+      "PD1",
+      "BPY1",
+      "PD2",
+      "PD3",
+      "BPY3",
+      "PD6",
+      "BFWM1",
+      "BNDA1",
+      "BPY2",
+      "PD4",
+      "BPY4"
+     ]
+    },
+    "who_its_for": {
+     "items": [
+      {
+       "title": "Couples",
+       "body": "Heritage hotels in White Town, sunset on the promenade and quiet cafes."
+      },
+      {
+       "title": "Spiritual seekers",
+       "body": "The Sri Aurobindo Ashram on Rue de la Marine, and Auroville's Matrimandir."
+      },
+      {
+       "title": "Food lovers",
+       "body": "French bakeries, South Indian breakfasts and seafood."
+      },
+      {
+       "title": "Beach lovers",
+       "body": "A boat from Chunnambar to Paradise Beach."
+      }
+     ],
+     "facts": [
+      "PD3",
+      "PD6",
+      "BPY2",
+      "PD13",
+      "PD4",
+      "BPY4",
+      "BPAR1"
+     ]
+    },
+    "practical_info": {
+     "items": [
+      {
+       "title": "Getting there",
+       "body": "About 170 km from Chennai by road. Pondicherry has trains to major cities, and Villupuram Junction, about 39 km away, has more. The small airport at Lawspet has a few domestic flights; check current routes.",
+       "status": "verified"
+      },
+      {
+       "title": "Languages",
+       "body": "Tamil, French, English and Telugu are widely spoken.",
+       "status": "verified"
+      },
+      {
+       "title": "Rain",
+       "body": "Most rain falls from October to December; summer runs from March to early June.",
+       "status": "seasonal"
+      },
+      {
+       "title": "Auroville",
+       "body": "About 8 km north-west. Visitors use a temporary account and an Aurocard rather than cash inside the township.",
+       "status": "verified"
+      }
+     ],
+     "facts": [
+      "BPY1",
+      "PD8",
+      "PD9",
+      "PD5",
+      "PD7",
+      "PD4",
+      "PD12"
+     ]
+    },
+    "neighbourhoods": {
+     "items": [
+      {
+       "title": "White Town (French Quarter)",
+       "body": "Cobbled streets, yellow houses, French street names, heritage hotels and cafes by the sea."
+      },
+      {
+       "title": "The Promenade",
+       "body": "The seafront walk with the French War Memorial and Notre Dame des Anges."
+      },
+      {
+       "title": "Auroville",
+       "body": "The experimental township about 8 km north-west, around the Matrimandir."
+      },
+      {
+       "title": "Arikamedu",
+       "body": "The probable Roman-era port, about 3 km from the city."
+      }
+     ],
+     "facts": [
+      "PD3",
+      "BFWM1",
+      "BNDA1",
+      "PD4",
+      "PD10"
+     ]
+    },
+    "culture_etiquette": {
+     "items": [
+      {
+       "body": "Keep silent inside the Matrimandir and around the ashram."
+      },
+      {
+       "body": "Notre Dame des Anges holds services in French, Tamil and English; visit quietly outside service times."
+      },
+      {
+       "body": "White Town is residential: keep noise down at night."
+      }
+     ],
+     "facts": [
+      "PD4",
+      "BNDA1",
+      "BPY2"
+     ]
+    },
+    "common_mistakes": {
+     "items": [
+      {
+       "body": "Expecting to swim off the promenade. Erosion means the city seafront is mostly rocks; go to Paradise Beach by boat instead."
+      },
+      {
+       "body": "Coming in October–December without rain gear. That's when most rain falls."
+      },
+      {
+       "body": "Skipping the museum. Its Chola bronzes and Roman-era trade finds explain the town's long history."
+      }
+     ],
+     "facts": [
+      "PD11",
+      "BPAR1",
+      "PD7",
+      "BPYM1",
+      "PD10"
+     ]
+    }
+   }
+  }
+ ],
+ "itineraries": [
+  {
+   "place": "puducherry/pondicherry",
+   "slug": "pondicherry-2-days",
+   "title": "Pondicherry in 2 days",
+   "durationDays": 2,
+   "tripTypes": [
+    "heritage",
+    "beaches",
+    "food",
+    "weekend"
+   ],
+   "summary": "White Town, the promenade, the ashram and the museum on day one; Paradise Beach by boat and Auroville on day two.",
+   "seoTitle": "Pondicherry 2-Day Itinerary: White Town, Beaches & Auroville",
+   "seoDescription": "Two days in Pondicherry: sunrise on the promenade, White Town, Notre Dame des Anges, the Aurobindo Ashram and museum, then Paradise Beach by boat and Auroville.",
+   "facts": [
+    "BPY1",
+    "BPY3",
+    "BFWM1",
+    "BNDA1",
+    "PD3",
+    "BPY2",
+    "BPYM1",
+    "BPAR1",
+    "PD4",
+    "PD12",
+    "BPY4",
+    "PD7",
+    "PD8",
+    "PD11"
+   ],
+   "plan": {
+    "overview": "A weekend from Chennai (about 170 km): one day walking White Town and the seafront, one day for the beach and Auroville.",
+    "style": "Weekend: heritage, beach and food",
+    "start": "Chennai (about 170 km)",
+    "end": "Pondicherry",
+    "season": "January–February is dry and pleasant; most rain falls October–December; summer is March to early June.",
+    "difficulty": "Easy",
+    "transport": "Walk or cycle in White Town; autos and taxis beyond",
+    "days": [
+     {
+      "title": "White Town and the seafront",
+      "stops": [
+       {
+        "time": "Sunrise",
+        "name": "Promenade Beach",
+        "placeSlug": "promenade-beach",
+        "duration": "1.5 hours"
+       },
+       {
+        "time": "Morning",
+        "name": "French War Memorial and Notre Dame des Anges",
+        "placeSlug": "notre-dame-des-anges",
+        "duration": "1 hour"
+       },
+       {
+        "time": "Late morning",
+        "name": "Sri Aurobindo Ashram",
+        "placeSlug": "sri-aurobindo-ashram",
+        "duration": "1 hour"
+       },
+       {
+        "time": "Afternoon",
+        "name": "Pondicherry Museum",
+        "placeSlug": "pondicherry-museum",
+        "duration": "1.5 hours"
+       },
+       {
+        "time": "Evening",
+        "name": "White Town heritage walk",
+        "duration": "2 hours",
+        "note": "Rue Dumas, Rue Romain Rolland and Rue Suffren."
+       }
+      ],
+      "travel": "Drive or bus from Chennai, about 170 km.",
+      "meals": "Croissants for breakfast; seafood or a French cafe for dinner.",
+      "overnight": "Pondicherry"
+     },
+     {
+      "title": "Paradise Beach and Auroville",
+      "stops": [
+       {
+        "time": "Morning",
+        "name": "Boat to Paradise Beach from Chunnambar",
+        "placeSlug": "paradise-beach",
+        "duration": "3–4 hours"
+       },
+       {
+        "time": "Afternoon",
+        "name": "Auroville and the Matrimandir",
+        "duration": "2.5 hours",
+        "note": "About 8 km north-west; silence inside the Matrimandir."
+       }
+      ],
+      "travel": "Auto or taxi to Chunnambar and Auroville.",
+      "meals": "Lunch in Auroville; dosa or seafood back in town.",
+      "overnight": "Departure"
+     }
+    ],
+    "budget": {
+     "assumptions": "VacayOut has no verified current prices for Pondicherry hotels, boats or transport. Budget for your own choices and check fees on the spot.",
+     "lines": []
+    },
+    "booking": [
+     {
+      "item": "Paradise Beach boats",
+      "detail": "From Chunnambar Boat House; paddle and motor boats."
+     },
+     {
+      "item": "Auroville",
+      "detail": "Ask at the visitor centre about the Matrimandir and the Aurocard."
+     }
+    ],
+    "alternatives": [
+     "By train: Villupuram Junction (about 39 km) has the most connections.",
+     "Slower pace: spend day 2 entirely at Paradise Beach and skip Auroville."
+    ],
+    "tips": [
+     "Rent a bicycle for White Town.",
+     "Carry rain gear from October to December."
+    ],
+    "prep": [
+     {
+      "title": "Getting there",
+      "body": "About 170 km from Chennai by road; trains run to Pondicherry and to Villupuram Junction, about 39 km away."
+     },
+     {
+      "title": "Weather",
+      "body": "Most rain falls October–December; summer runs March to early June."
+     }
+    ],
+    "faqs": [
+     {
+      "q": "Can I swim at the Promenade?",
+      "a": "Not really: erosion means the city seafront is mostly rocks. Take the boat to Paradise Beach."
+     },
+     {
+      "q": "How far is Auroville?",
+      "a": "About 8 km north-west of Pondicherry."
+     },
+     {
+      "q": "When was the ashram founded?",
+      "a": "In 1926, by Sri Aurobindo and the Mother."
+     }
+    ]
+   },
+   "sources": []
+  }
+ ]
+}

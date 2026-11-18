@@ -1,0 +1,775 @@
+{
+ "cluster": "tamil-nadu2-madurai",
+ "title": "Madurai (Batch 3)",
+ "researchedAt": "2026-11-18",
+ "selection": "Batch 3. Madurai had 7 sections but no food, practical info or etiquette. Adds who it's for, food, shopping, practical info, etiquette and common mistakes, a fuller overview (pending review) and rewrites madurai-2-days-temple-city (moved here from tamil-nadu.json). Facts prefixed B are copied from tamil-nadu.json. Not covered: entry fees and light-show prices.",
+ "sources": {
+  "TN_MDU": {
+   "url": "https://www.tamilnadutourism.tn.gov.in/destinations/madurai",
+   "title": "Madurai — Tamil Nadu Tourism",
+   "authority": "government"
+  },
+  "II_MDU": {
+   "url": "https://www.incredibleindia.gov.in/en/tamil-nadu/madurai",
+   "title": "Madurai — Incredible India",
+   "authority": "government"
+  },
+  "W_MDU": {
+   "url": "https://en.wikipedia.org/wiki/Madurai",
+   "title": "Madurai — Wikipedia",
+   "authority": "reference"
+  },
+  "TT_MEE": {
+   "url": "https://www.tamilnadutourism.tn.gov.in/destinations/meenakshi-amman-temple",
+   "title": "Meenakshi Amman Temple — Tamil Nadu Tourism (Government of Tamil Nadu)",
+   "authority": "government"
+  },
+  "TT_TNM": {
+   "url": "https://www.tamilnadutourism.tn.gov.in/destinations/thirumalai-nayakar-mahal",
+   "title": "Thirumalai Nayakar Mahal — Tamil Nadu Tourism (Government of Tamil Nadu)",
+   "authority": "government"
+  },
+  "TT_GMM": {
+   "url": "https://www.tamilnadutourism.tn.gov.in/destinations/gandhi-memorial-museum",
+   "title": "Gandhi Memorial Museum, Madurai — Tamil Nadu Tourism (Government of Tamil Nadu)",
+   "authority": "government"
+  },
+  "TT_TEP": {
+   "url": "https://www.tamilnadutourism.tn.gov.in/destinations/vandiyur-mariamman-teppakulam",
+   "title": "Vandiyur Mariamman Teppakulam — Tamil Nadu Tourism (Government of Tamil Nadu)",
+   "authority": "government"
+  },
+  "TT_MDU": {
+   "url": "https://www.tamilnadutourism.tn.gov.in/destinations/madurai",
+   "title": "Madurai — Tamil Nadu Tourism (Government of Tamil Nadu)",
+   "authority": "government"
+  }
+ },
+ "facts": {
+  "BMDM1": {
+   "place": "tamil-nadu/meenakshi-amman-temple",
+   "topic": "Towers and halls",
+   "claim": "The Meenakshi Amman Temple has 14 towers of 45–50 metres and a thousand-pillared hall with musical pillars.",
+   "claimType": "general",
+   "evidence": [
+    {
+     "source": "TT_MEE",
+     "quote": "It is quite an architectural marvel with 14 temple towers with a height ranging between 45-50 metres."
+    },
+    {
+     "source": "TT_MEE",
+     "quote": "A 1000 pillared hall is another major feature with exquisitely sculpted pillars. There are musical pillars which produce sounds of different scales."
+    }
+   ]
+  },
+  "BMDM4": {
+   "place": "tamil-nadu/meenakshi-amman-temple",
+   "topic": "Darshan timings",
+   "claim": "Darshan hours are 6:00 am to 12:30 pm and 4:00 pm to 9:00 pm; early morning is the best time to visit.",
+   "claimType": "opening_hours",
+   "evidence": [
+    {
+     "source": "TT_MEE",
+     "quote": "Morning Hours: 6:00 am to 12:30 pm; Evening Hours: 4:00 pm to 9:00 pm."
+    },
+    {
+     "source": "TT_MEE",
+     "quote": "The best time to visit the temple is early morning"
+    }
+   ]
+  },
+  "BMDN1": {
+   "place": "tamil-nadu/thirumalai-nayakar-mahal",
+   "topic": "Nayakar Mahal",
+   "claim": "King Thirumalai Nayak built the palace in 1635, blending Dravidian and foreign styles; it is protected by the Archaeological department.",
+   "claimType": "general",
+   "evidence": [
+    {
+     "source": "TT_TNM",
+     "quote": "Built in 1635 by the King Thirumalai Nayak, it is a master piece combining Dravidian and foreign architectural styles with elan."
+    },
+    {
+     "source": "TT_TNM",
+     "quote": "This is now being protected by the Archaeological department."
+    }
+   ]
+  },
+  "BMDN2": {
+   "place": "tamil-nadu/thirumalai-nayakar-mahal",
+   "topic": "Inside",
+   "claim": "The palace has two sections, Swarga Vilasam and Ranga Vilasam, a vast central courtyard, painted ceilings and an evening light and sound show.",
+   "claimType": "general",
+   "evidence": [
+    {
+     "source": "TT_TNM",
+     "quote": "The palace has two sections; Swarga vilasam and Ranga vilasam."
+    },
+    {
+     "source": "TT_TNM",
+     "quote": "Majestic pillars, the massive central courtyard and dancing hall are sure to leave you spell bound."
+    },
+    {
+     "source": "TT_TNM",
+     "quote": "The light and sound shows held in the evening make for a doubly alluring experience."
+    }
+   ]
+  },
+  "BMDG1": {
+   "place": "tamil-nadu/gandhi-memorial-museum-madurai",
+   "topic": "Gandhi Museum",
+   "claim": "The Gandhi Memorial Museum is in Rani Mangammal's palace of 1670, with a replica of a Sevagram hut in front.",
+   "claimType": "general",
+   "evidence": [
+    {
+     "source": "TT_GMM",
+     "quote": "Gandhi Memorial museum is housed in the splendid old palace of Rani Mangammal."
+    },
+    {
+     "source": "TT_GMM",
+     "quote": "The palace which now houses the museum was built during the Naick reign in 1670 AD."
+    },
+    {
+     "source": "TT_GMM",
+     "quote": "A replica of a hut in Sevagram sits in front of the main building of the museum."
+    }
+   ]
+  },
+  "BMDG2": {
+   "place": "tamil-nadu/gandhi-memorial-museum-madurai",
+   "topic": "Relics",
+   "claim": "About 100 objects used by Gandhi are on show, including the blood-stained cloth he wore on the day he was assassinated.",
+   "claimType": "general",
+   "evidence": [
+    {
+     "source": "TT_GMM",
+     "quote": "The third section displays around 100 artifacts which were used by Mahatma Gandhi."
+    },
+    {
+     "source": "TT_GMM",
+     "quote": "a blood stained cloth worn by Gandhi on the day he was assassinated are included among these artifacts."
+    }
+   ]
+  },
+  "BMDT1": {
+   "place": "tamil-nadu/vandiyur-mariamman-teppakulam",
+   "topic": "Teppakulam",
+   "claim": "Vandiyur Mariamman Teppakulam, 2 km from the Meenakshi temple, is a vast temple tank of 1645 with a shrine on an island in the middle.",
+   "claimType": "general",
+   "evidence": [
+    {
+     "source": "TT_TEP",
+     "quote": "the place is just 2 kms away from the Meenakshi Sundareswara temple."
+    },
+    {
+     "source": "TT_TEP",
+     "quote": "Surrounded by granite steps on four sides, the temple is in the middle of the pond."
+    },
+    {
+     "source": "TT_TEP",
+     "quote": "This stunning pond was created in 1645 AD during the reign of Thirumalai Nayak."
+    }
+   ]
+  },
+  "BMDT2": {
+   "place": "tamil-nadu/vandiyur-mariamman-teppakulam",
+   "topic": "Float festival",
+   "claim": "The tank is the venue of Madurai's float festival in January/February, when the deities are carried on a lit float.",
+   "claimType": "general",
+   "evidence": [
+    {
+     "source": "TT_TEP",
+     "quote": "This pond is the main venue of the famous float festival held in January / February."
+    },
+    {
+     "source": "TT_TEP",
+     "quote": "The deities of Meenakshi and Sundareswarar are carried to the pond in a float called Teppam."
+    }
+   ],
+   "kind": "seasonal"
+  },
+  "BMD3": {
+   "place": "tamil-nadu/madurai",
+   "topic": "Getting there",
+   "claim": "Madurai airport has flights to Colombo, Dubai and Singapore and to Chennai, Bengaluru, Hyderabad, Mumbai and Delhi; Madurai Junction is the main station.",
+   "claimType": "distance",
+   "evidence": [
+    {
+     "source": "TT_MDU",
+     "quote": "The airport has direct connectivity with international destinations like Colombo, Dubai and Singapore."
+    },
+    {
+     "source": "TT_MDU",
+     "quote": "It is also well connected with popular domestic destinations like Chennai, Bengaluru, Hyderabad, Mumbai and New Delhi."
+    },
+    {
+     "source": "TT_MDU",
+     "quote": "Madurai Junction is the major railway station serving the city."
+    }
+   ]
+  },
+  "BMD4": {
+   "place": "tamil-nadu/madurai",
+   "topic": "Bus stands",
+   "claim": "Madurai has three bus terminals: Mattuthavani (M.G.R.), Arappalayam for intercity buses, and Periyar for city buses.",
+   "claimType": "general",
+   "evidence": [
+    {
+     "source": "TT_MDU",
+     "quote": "Madurai has three bus terminals - M.G.R. Bus Stand (Mattuthavani), Arappalayam (for inter city buses) and Periyar Bus Stand (for intra city buses)."
+    }
+   ]
+  },
+  "BMD5": {
+   "place": "tamil-nadu/madurai",
+   "topic": "Best time",
+   "claim": "Madurai can be visited year-round, but December to February is the most comfortable.",
+   "claimType": "general",
+   "evidence": [
+    {
+     "source": "TT_MDU",
+     "quote": "It is a destination that can be visited any time of the year. However, for the best experience, visit the destination during December to February."
+    }
+   ],
+   "kind": "seasonal"
+  },
+  "BMD6": {
+   "place": "tamil-nadu/madurai",
+   "topic": "Samanar Hills",
+   "claim": "The Samanar hills near Keelakuyilkudi have Jain and Hindu monuments across a stretch of rocky hillocks.",
+   "claimType": "general",
+   "evidence": [
+    {
+     "source": "TT_MDU",
+     "quote": "History, culture, and nature come together at Samanar hills, a rocky stretch of hillocks, known for its many Jain and Hindu monuments dotted across its landscape."
+    }
+   ]
+  },
+  "DU1": {
+   "place": "tamil-nadu/madurai",
+   "topic": "Thoonga Nagaram",
+   "claim": "Madurai is called Thoonga Nagaram, 'the city that never sleeps', and Incredible India calls it the Athens of the East.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "TN_MDU",
+     "quote": "is what Madurai is popularly called in Tamil Nadu."
+    },
+    {
+     "source": "II_MDU",
+     "quote": "It is often referred to as the Athens of the East for its architectural grandeur and cultural richness."
+    }
+   ]
+  },
+  "DU2": {
+   "place": "tamil-nadu/madurai",
+   "topic": "Sangam",
+   "claim": "Madurai was the seat of the Tamil Sangam, the assemblies of Tamil poets and scholars.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "TN_MDU",
+     "quote": "Sangam, the confluence of Tamil scholars and critics, used to regularly convene in the city"
+    },
+    {
+     "source": "TN_MDU",
+     "quote": "The earliest references of Madurai can be traced back to the 3rd century BC."
+    }
+   ]
+  },
+  "DU3": {
+   "place": "tamil-nadu/madurai",
+   "topic": "Nayak palace pillars",
+   "claim": "Thirumalai Nayak Palace blends Dravidian and Islamic styles and has 248 pillars.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "II_MDU",
+     "quote": "where Dravidian and Islamic styles converge seamlessly."
+    },
+    {
+     "source": "II_MDU",
+     "quote": "to 248 majestic pillars, the palace exhibits sheer magnificence."
+    }
+   ]
+  },
+  "DU4": {
+   "place": "tamil-nadu/madurai",
+   "topic": "Teppakulam",
+   "claim": "The Teppakulam is the largest temple tank in Tamil Nadu.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "II_MDU",
+     "quote": "a sacred oasis with the largest temple tank in the state."
+    }
+   ]
+  },
+  "DU5": {
+   "place": "tamil-nadu/madurai",
+   "topic": "Pongal and Jallikattu",
+   "claim": "In January the three-day Pongal harvest festival includes Jallikattu, the bull-taming sport, in villages around Madurai.",
+   "claimType": "schedule",
+   "kind": "seasonal",
+   "evidence": [
+    {
+     "source": "II_MDU",
+     "quote": "The year begins with Pongal, a 3-day Harvest Festival"
+    },
+    {
+     "source": "II_MDU",
+     "quote": "The Jallikattu festival, a spellbinding bull-taming sport is part of the Pongal festival celebrations."
+    }
+   ]
+  },
+  "DU6": {
+   "place": "tamil-nadu/madurai",
+   "topic": "Chithirai",
+   "claim": "The ten-day Chithirai festival in April–May celebrates the wedding of Meenakshi and Sundareswarar and draws about a million visitors.",
+   "claimType": "schedule",
+   "kind": "seasonal",
+   "evidence": [
+    {
+     "source": "W_MDU",
+     "quote": "celebrated during April–May every year, attracts 1 million visitors."
+    }
+   ]
+  },
+  "DU7": {
+   "place": "tamil-nadu/madurai",
+   "topic": "Food",
+   "claim": "Madurai's food includes jigarthanda, paruthipal, kothu parotta, kari dosai (dosa topped with spiced mutton) and appam.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "II_MDU",
+     "quote": "From the exclusive drink of Madurai, Paruthipal, made from cotton seeds and jaggery, to the beloved street-side dish, Kuthuparotta"
+    },
+    {
+     "source": "II_MDU",
+     "quote": "Dive into the unique fusion of Indian and pizza-like elements with Kari Dosai"
+    },
+    {
+     "source": "II_MDU",
+     "quote": "Cool off with the refreshing flavours of Jigarthanda, Madurai's famous cold beverage"
+    }
+   ]
+  },
+  "DU8": {
+   "place": "tamil-nadu/madurai",
+   "topic": "Flower market",
+   "claim": "Madurai's flower market is famous for malligai jasmine.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "II_MDU",
+     "quote": "Delight your senses at the amazing flower market in Madurai, where you'll find the world-famous Malligai Jasmine flower."
+    }
+   ]
+  },
+  "DU9": {
+   "place": "tamil-nadu/madurai",
+   "topic": "Airport distance",
+   "claim": "Madurai airport is about 12 km from the city.",
+   "claimType": "distance",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "W_MDU",
+     "quote": "is located 12 kilometres from the city."
+    }
+   ]
+  },
+  "DU10": {
+   "place": "tamil-nadu/madurai",
+   "topic": "Nearby temples",
+   "claim": "Nearby are Tirupparankundram's rock-cut Murugan shrine, Azhagar Kovil at the foot of the Alagar Hills, and Koodal Azhagar in the city.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "II_MDU",
+     "quote": "Journey to Tirupparankundram, the auspicious abode of Lord Murugan, carved out of rock"
+    },
+    {
+     "source": "II_MDU",
+     "quote": "a sacred abode dedicated to Lord Vishnu at the foothills of the majestic Alagar Hills."
+    },
+    {
+     "source": "TN_MDU",
+     "quote": "Located in Madurai city, Koodal Azhagar temple is known for its brilliant architecture and design"
+    }
+   ]
+  },
+  "DU11": {
+   "place": "tamil-nadu/madurai",
+   "topic": "Chettinad",
+   "claim": "Karaikudi and Kanadukathan, in Chettinad, are nearby for mansions and food.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "II_MDU",
+     "quote": "Journey to Kaanadukathan and Karaikudi nearby to discover the enchanting heritage of the Chettinads"
+    }
+   ]
+  },
+  "DU12": {
+   "place": "tamil-nadu/madurai",
+   "topic": "Climate",
+   "claim": "Madurai has a hot tropical climate.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "TN_MDU",
+     "quote": "Madurai has a hot tropical climate."
+    }
+   ]
+  }
+ },
+ "places": [
+  {
+   "key": "tamil-nadu/madurai",
+   "kind": "city",
+   "name": "Madurai",
+   "parent": "tamil-nadu",
+   "summary": "The temple city of the south: the towering Meenakshi Amman Temple, a Nayak palace, a great temple tank and 2,000 years of Tamil history.",
+   "seoTitle": "Madurai Travel Guide: Meenakshi Temple, Palace & More",
+   "seoDescription": "Plan a trip to Madurai: the Meenakshi Amman Temple, Thirumalai Nayakar Mahal, the Gandhi Museum, the Teppakulam float festival and how to get there.",
+   "lat": 9.9197,
+   "lng": 78.1194,
+   "tripTypes": [
+    "spiritual",
+    "heritage",
+    "food"
+   ],
+   "images": [
+    {
+     "commons": "File:Meenakshi Amman West Tower.jpg",
+     "alt": "The west gopuram of the Meenakshi Amman Temple",
+     "hero": true
+    }
+   ],
+   "sections": {
+    "who_its_for": {
+     "items": [
+      {
+       "title": "Pilgrims",
+       "body": "The Meenakshi Amman Temple, Tirupparankundram, Azhagar Kovil and Koodal Azhagar."
+      },
+      {
+       "title": "History lovers",
+       "body": "Thirumalai Nayak Palace, the Gandhi Memorial Museum and the Samanar hills."
+      },
+      {
+       "title": "Food lovers",
+       "body": "Jigarthanda, kari dosai, kothu parotta and the 'city that never sleeps' late-night eating."
+      },
+      {
+       "title": "Festival-goers",
+       "body": "Chithirai in April–May, Pongal and Jallikattu in January, and the float festival in January–February."
+      }
+     ],
+     "facts": [
+      "BMDM1",
+      "DU10",
+      "DU3",
+      "BMDG2",
+      "BMD6",
+      "DU7",
+      "DU1",
+      "DU6",
+      "DU5",
+      "BMDT2"
+     ]
+    },
+    "food": {
+     "items": [
+      {
+       "body": "Jigarthanda, Madurai's famous cold drink.",
+       "status": "verified"
+      },
+      {
+       "body": "Kari dosai, a dosa topped with spiced mutton.",
+       "status": "verified"
+      },
+      {
+       "body": "Kothu parotta from a street stall.",
+       "status": "verified"
+      },
+      {
+       "body": "Paruthipal, made from cotton seeds and jaggery.",
+       "status": "verified"
+      },
+      {
+       "body": "Appam with curry.",
+       "status": "verified"
+      }
+     ],
+     "facts": [
+      "DU7"
+     ]
+    },
+    "shopping": {
+     "items": [
+      {
+       "body": "Malligai jasmine at the flower market.",
+       "status": "verified"
+      },
+      {
+       "body": "Flowers and offerings around the Meenakshi temple.",
+       "status": "verified"
+      }
+     ],
+     "facts": [
+      "DU8",
+      "BMDM1"
+     ]
+    },
+    "practical_info": {
+     "items": [
+      {
+       "title": "Getting there",
+       "body": "Madurai airport, about 12 km from the city, has flights to Chennai, Bengaluru, Hyderabad, Mumbai and Delhi, and to Colombo, Dubai and Singapore. Madurai Junction is the main station.",
+       "status": "verified"
+      },
+      {
+       "title": "Buses",
+       "body": "Mattuthavani (M.G.R.) and Arappalayam handle intercity buses; Periyar bus stand serves the city.",
+       "status": "verified"
+      },
+      {
+       "title": "Temple hours",
+       "body": "Meenakshi temple darshan is 6 am–12:30 pm and 4–9 pm.",
+       "status": "verified"
+      },
+      {
+       "title": "Climate",
+       "body": "Hot all year; December to February is the most comfortable.",
+       "status": "seasonal"
+      }
+     ],
+     "facts": [
+      "DU9",
+      "BMD3",
+      "BMD4",
+      "BMDM4",
+      "DU12",
+      "BMD5"
+     ]
+    },
+    "culture_etiquette": {
+     "items": [
+      {
+       "body": "Dress modestly for temple visits."
+      },
+      {
+       "body": "Leave footwear at the counters before entering."
+      },
+      {
+       "body": "Follow the staff and posted rules; some inner areas may be closed to visitors."
+      }
+     ],
+     "facts": []
+    },
+    "common_mistakes": {
+     "items": [
+      {
+       "body": "Visiting the Meenakshi temple at midday. It closes from 12:30 to 4 pm; go at 6 am or in the evening."
+      },
+      {
+       "body": "Sightseeing in the afternoon heat. Madurai is hot all year."
+      },
+      {
+       "body": "Missing the Nayak palace's evening light and sound show."
+      },
+      {
+       "body": "Leaving without jigarthanda."
+      }
+     ],
+     "facts": [
+      "BMDM4",
+      "DU12",
+      "BMDN2",
+      "DU7"
+     ]
+    },
+    "overview": {
+     "text": "Madurai is called Thoonga Nagaram, 'the city that never sleeps', and it is one of the oldest cities in India, with references going back to the 3rd century BC. It was the seat of the Tamil Sangam, the assemblies of Tamil poets, and Incredible India calls it the Athens of the East.\n\nThe city grew around the Meenakshi Amman Temple, whose 14 towers of 45–50 m and thousand-pillared hall still dominate the old centre. Nearby are Thirumalai Nayak's palace of 1635, with 248 pillars and an evening light and sound show, the Gandhi Memorial Museum, and the Vandiyur Teppakulam, the state's largest temple tank. Festivals fill the calendar, from Pongal and Jallikattu in January to the Chithirai wedding festival in April–May. Come for the food too: jigarthanda, kari dosai and late-night kothu parotta. December to February is the most comfortable time.",
+     "facts": [
+      "DU1",
+      "DU2",
+      "BMDM1",
+      "BMDN1",
+      "DU3",
+      "BMDN2",
+      "BMDG1",
+      "DU4",
+      "DU5",
+      "DU6",
+      "DU7",
+      "BMD5"
+     ]
+    }
+   }
+  }
+ ],
+ "itineraries": [
+  {
+   "place": "tamil-nadu/madurai",
+   "slug": "madurai-2-days-temple-city",
+   "title": "Madurai in 2 days: the temple city",
+   "durationDays": 2,
+   "tripTypes": [
+    "spiritual",
+    "heritage",
+    "weekend"
+   ],
+   "summary": "The Meenakshi temple at dawn and Nayakar Mahal's light show on day one; the Gandhi Museum, Teppakulam and the temple at night on day two.",
+   "seoTitle": "Madurai 2-Day Itinerary: Meenakshi Temple & More",
+   "seoDescription": "Two days in Madurai: the Meenakshi Amman Temple at opening time, Thirumalai Nayakar Mahal's light show, the Gandhi Memorial Museum and Vandiyur Teppakulam.",
+   "facts": [
+    "BMDM1",
+    "BMDM4",
+    "BMDN1",
+    "BMDN2",
+    "BMDG1",
+    "BMDG2",
+    "BMDT1",
+    "BMD3",
+    "BMD5",
+    "DU9",
+    "DU7",
+    "DU8",
+    "DU10",
+    "DU12",
+    "DU6",
+    "BMDT2",
+    "DU11"
+   ],
+   "plan": {
+    "overview": "Madurai's sights sit close together around the Meenakshi temple, so two unhurried days cover the essentials, with the temple seen both early and late and the hot middle of the day kept free.",
+    "style": "Temple city",
+    "start": "Madurai airport (about 12 km) or Madurai Junction",
+    "end": "Madurai",
+    "season": "December to February is the most comfortable; Madurai is hot all year.",
+    "difficulty": "Easy",
+    "transport": "Walk in the old city; autos to the Gandhi Museum and Teppakulam",
+    "days": [
+     {
+      "title": "Meenakshi temple and the Nayak palace",
+      "stops": [
+       {
+        "time": "6:00 am",
+        "name": "Meenakshi Amman Temple",
+        "placeSlug": "meenakshi-amman-temple",
+        "duration": "3 hours",
+        "note": "The towers, the thousand-pillared hall and the musical pillars."
+       },
+       {
+        "time": "Late morning",
+        "name": "Flower market",
+        "duration": "45 minutes",
+        "note": "Malligai jasmine."
+       },
+       {
+        "time": "Evening",
+        "name": "Thirumalai Nayakar Mahal",
+        "placeSlug": "thirumalai-nayakar-mahal",
+        "duration": "2 hours",
+        "note": "Stay for the light and sound show."
+       }
+      ],
+      "travel": "Walk within the old city.",
+      "meals": "Breakfast after the temple; jigarthanda in the afternoon; kari dosai or kothu parotta for dinner.",
+      "logistics": "The temple closes 12:30–4 pm; rest through the heat.",
+      "overnight": "Madurai"
+     },
+     {
+      "title": "Gandhi Museum, Teppakulam and the temple at night",
+      "stops": [
+       {
+        "time": "Morning",
+        "name": "Gandhi Memorial Museum",
+        "placeSlug": "gandhi-memorial-museum-madurai",
+        "duration": "2 hours"
+       },
+       {
+        "time": "Afternoon",
+        "name": "Vandiyur Mariamman Teppakulam",
+        "placeSlug": "vandiyur-mariamman-teppakulam",
+        "duration": "1 hour",
+        "note": "About 2 km from the Meenakshi temple."
+       },
+       {
+        "time": "Evening",
+        "name": "Meenakshi Amman Temple",
+        "placeSlug": "meenakshi-amman-temple",
+        "duration": "1.5 hours",
+        "note": "Open until 9 pm."
+       }
+      ],
+      "travel": "Autos between sights.",
+      "distance": "Teppakulam is about 2 km from the Meenakshi temple",
+      "meals": "Appam for lunch; paruthipal from a street stall.",
+      "overnight": "Madurai"
+     }
+    ],
+    "budget": {
+     "assumptions": "VacayOut has no verified current prices for Madurai hotels, transport or entry fees. Budget for your own choices and check fees at each site.",
+     "lines": []
+    },
+    "booking": [
+     {
+      "item": "Hotel",
+      "detail": "Stay near the Meenakshi temple to walk there at dawn."
+     },
+     {
+      "item": "Festivals",
+      "detail": "Book early for Chithirai (April–May) and the float festival (January–February)."
+     }
+    ],
+    "alternatives": [
+     "Pilgrims: add Tirupparankundram and Azhagar Kovil.",
+     "Heritage and food: add a day in Chettinad (Karaikudi and Kanadukathan).",
+     "Next stop: Rameswaram or Kodaikanal."
+    ],
+    "tips": [
+     "Dress modestly and leave shoes at the temple counters.",
+     "Keep middays light: Madurai is hot."
+    ],
+    "prep": [
+     {
+      "title": "Getting there",
+      "body": "Madurai airport is about 12 km from the city; Madurai Junction is the main station."
+     },
+     {
+      "title": "Temple hours",
+      "body": "Darshan 6 am–12:30 pm and 4–9 pm; early morning is best."
+     }
+    ],
+    "faqs": [
+     {
+      "q": "What are the Meenakshi temple timings?",
+      "a": "6 am–12:30 pm and 4–9 pm."
+     },
+     {
+      "q": "When is the float festival?",
+      "a": "January–February, at the Vandiyur Teppakulam."
+     },
+     {
+      "q": "What should I eat in Madurai?",
+      "a": "Jigarthanda, kari dosai, kothu parotta and paruthipal."
+     }
+    ]
+   },
+   "sources": []
+  }
+ ]
+}
