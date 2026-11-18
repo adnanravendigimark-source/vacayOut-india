@@ -1,0 +1,634 @@
+{
+ "cluster": "telangana2-hyderabad",
+ "title": "Hyderabad (Batch 2)",
+ "researchedAt": "2026-11-18",
+ "selection": "Batch 2. Hyderabad had overview, food, highlights and practical info. Adds how to reach, local transport, best time, who it's for, shopping, common mistakes and FAQs, a fuller overview (pending review) and a new 2-day city itinerary. hyderabad-warangal-4-days is left for the itinerary-audit batch. Not covered: entry fees, opening hours and the Golconda show timetable. Note: Charminar's minaret height differs between the existing fact (48.7 m) and Wikipedia (56 m).",
+ "sources": {
+  "II_HYD": {
+   "url": "https://www.incredibleindia.gov.in/en/telangana/hyderabad",
+   "title": "Hyderabad — Incredible India",
+   "authority": "government"
+  },
+  "W_HYD": {
+   "url": "https://en.wikipedia.org/wiki/Hyderabad",
+   "title": "Hyderabad — Wikipedia",
+   "authority": "reference"
+  }
+ },
+ "facts": {
+  "HB1": {
+   "place": "telangana/hyderabad",
+   "topic": "Founding",
+   "claim": "Muhammad Quli Qutb Shah founded Hyderabad on the Musi River in 1591; the Nizams later ruled from here.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "W_HYD",
+     "quote": "established Hyderabad on the banks of the Musi River in 1591"
+    },
+    {
+     "source": "II_HYD",
+     "quote": "Hyderabad became the capital of the Nizams"
+    }
+   ]
+  },
+  "HB2": {
+   "place": "telangana/hyderabad",
+   "topic": "Old City",
+   "claim": "The Old City (Purana Shahar), south of the Musi, holds Charminar, Mecca Masjid, the Salar Jung Museum, Chowmahalla and Falaknuma palaces and the Laad Bazaar and Pearl Market.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "W_HYD",
+     "quote": "forms the heritage region of Hyderabad called the Purana Shahar (Old City)"
+    },
+    {
+     "source": "W_HYD",
+     "quote": "Many historic and heritage sites lie in south central Hyderabad, such as the Charminar, Mecca Masjid, Salar Jung Museum"
+    }
+   ]
+  },
+  "HB3": {
+   "place": "telangana/hyderabad",
+   "topic": "Chowmahalla",
+   "claim": "Chowmahalla Palace, the Nizams' seat of power, is one of the oldest surviving examples of Nizam architecture.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "W_HYD",
+     "quote": "is the Chowmahalla Palace, which was the seat of royal power."
+    }
+   ]
+  },
+  "HB4": {
+   "place": "telangana/hyderabad",
+   "topic": "Laad Bazaar",
+   "claim": "Laad Bazaar by Charminar is famous for bangles, and busiest and brightest during Ramadan; explore it on foot.",
+   "claimType": "general",
+   "kind": "seasonal",
+   "evidence": [
+    {
+     "source": "II_HYD",
+     "quote": "The market is best explored on foot."
+    },
+    {
+     "source": "II_HYD",
+     "quote": "The market is at its loveliest and busiest during Ramadan"
+    }
+   ]
+  },
+  "HB5": {
+   "place": "telangana/hyderabad",
+   "topic": "Hussain Sagar",
+   "claim": "Hussain Sagar, dug in 1562, links Hyderabad and Secunderabad; a 16 m monolithic Buddha stands in the middle.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "II_HYD",
+     "quote": "it was excavated in 1562 AD during the reign of Ibrahim kuli Qutub Shah."
+    },
+    {
+     "source": "II_HYD",
+     "quote": "A monolithic Buddha statue which is 16 m tall and weighs about 350 ton was installed in the middle of the Hussain Sagar Lake."
+    }
+   ]
+  },
+  "HB6": {
+   "place": "telangana/hyderabad",
+   "topic": "Necklace Road",
+   "claim": "The lit road around Hussain Sagar is called the 'Queen's necklace'; cruises run on the lake and street-food stalls line it in the evening.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "II_HYD",
+     "quote": "The lighted road around the lake, looks like a necklace in the evenings"
+    },
+    {
+     "source": "II_HYD",
+     "quote": "The area around the lake is full of street food stalls"
+    }
+   ]
+  },
+  "HB7": {
+   "place": "telangana/hyderabad",
+   "topic": "Golconda show",
+   "claim": "A light and sound show is held at Golconda Fort in the evenings.",
+   "claimType": "schedule",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "II_HYD",
+     "quote": "A Light and Sound show is held in the evenings"
+    }
+   ]
+  },
+  "HB8": {
+   "place": "telangana/hyderabad",
+   "topic": "Salar Jung",
+   "claim": "The Salar Jung Museum holds the world's largest one-man collection of antiques.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "II_HYD",
+     "quote": "houses the largest one-man collection of antiques in the world."
+    }
+   ]
+  },
+  "HB9": {
+   "place": "telangana/hyderabad",
+   "topic": "Ramoji",
+   "claim": "Ramoji Film City, a working film studio with entertainment parks, is near Hyderabad.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "II_HYD",
+     "quote": "Ramoji Film City, spread across thousands of acres near Hyderabad, is a prominent tourist destination"
+    }
+   ]
+  },
+  "HB10": {
+   "place": "telangana/hyderabad",
+   "topic": "UNESCO gastronomy",
+   "claim": "UNESCO lists Hyderabad as a Creative City of Gastronomy; Hyderabadi biryani and haleem carry GI tags.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "W_HYD",
+     "quote": "For its cuisine, the city is listed as a creative city of gastronomy by UNESCO."
+    },
+    {
+     "source": "W_HYD",
+     "quote": "Hyderabadi biryani and Hyderabadi haleem, with their blend of Mughlai and Arab cuisines"
+    },
+    {
+     "source": "W_HYD",
+     "quote": "carry the national Geographical Indications tag."
+    }
+   ]
+  },
+  "HB11": {
+   "place": "telangana/hyderabad",
+   "topic": "Dishes",
+   "claim": "Try biryani, haleem, mirchi ka salan, nihari, baghara baingan, double ka meetha and qubani ka meetha, plus Telugu pesarattu and dosa.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "II_HYD",
+     "quote": "Hyderabadi Haleem Khorma, Shorba, Mirchi Ka Saalan along with the local telugu fare of Pesarattus"
+    },
+    {
+     "source": "W_HYD",
+     "quote": "Popular native dishes include nihari, chakna, baghara baingan and the desserts qubani ka meetha, double ka meetha"
+    }
+   ]
+  },
+  "HB12": {
+   "place": "telangana/hyderabad",
+   "topic": "Pearls",
+   "claim": "Hyderabad is the City of Pearls; Chandanpet near the city is a pearl-drilling hub.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "II_HYD",
+     "quote": "Chandanpet near Hyderabad is a hub for pearl businesses."
+    }
+   ]
+  },
+  "HB13": {
+   "place": "telangana/hyderabad",
+   "topic": "Summer",
+   "claim": "Summers (March–June) are hot and dry; April–June often tops 40 °C.",
+   "claimType": "general",
+   "kind": "seasonal",
+   "evidence": [
+    {
+     "source": "W_HYD",
+     "quote": "Summers (March–June) are hot and dry, with average highs in the mid-to-high 30s Celsius"
+    }
+   ]
+  },
+  "HB14": {
+   "place": "telangana/hyderabad",
+   "topic": "Winter",
+   "claim": "December and January are coolest, occasionally dipping to about 10 °C.",
+   "claimType": "general",
+   "kind": "seasonal",
+   "evidence": [
+    {
+     "source": "W_HYD",
+     "quote": "The coolest temperatures occur in December and January when the lowest temperature occasionally dips to 10 °C (50 °F)."
+    }
+   ]
+  },
+  "HB15": {
+   "place": "telangana/hyderabad",
+   "topic": "Monsoon",
+   "claim": "Heavy monsoon rain falls between June and October.",
+   "claimType": "general",
+   "kind": "seasonal",
+   "evidence": [
+    {
+     "source": "W_HYD",
+     "quote": "Heavy rain from the south-west summer monsoon falls between June and October"
+    }
+   ]
+  },
+  "HB16": {
+   "place": "telangana/hyderabad",
+   "topic": "Airport",
+   "claim": "Flights use Rajiv Gandhi International Airport (HYD), which replaced Begumpet in 2008.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "W_HYD",
+     "quote": "replaced by Rajiv Gandhi International Airport"
+    }
+   ]
+  },
+  "HB17": {
+   "place": "telangana/hyderabad",
+   "topic": "Railway",
+   "claim": "Secunderabad is the main railway station; others include Hyderabad Deccan (Nampally), Kacheguda and Lingampalli.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "W_HYD",
+     "quote": "The main, and largest, station is Secunderabad railway station"
+    },
+    {
+     "source": "W_HYD",
+     "quote": "Other major railway stations in Hyderabad are Hyderabad Deccan, Kacheguda"
+    }
+   ]
+  },
+  "HB18": {
+   "place": "telangana/hyderabad",
+   "topic": "Metro",
+   "claim": "The Hyderabad Metro opened in November 2017.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "W_HYD",
+     "quote": "Hyderabad Metro, a light-rail rapid transit system, was inaugurated in November 2017."
+    }
+   ]
+  },
+  "HB19": {
+   "place": "telangana/hyderabad",
+   "topic": "Distances",
+   "claim": "By road Hyderabad is 570 km from Bengaluru, 699 km from Mumbai and 1,566 km from Delhi.",
+   "claimType": "distance",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "W_HYD",
+     "quote": "Hyderabad is 1,566 km (973 mi) south of Delhi, 699 km (434 mi) southeast of Mumbai, and 570 km (350 mi) north of Bangalore by road."
+    }
+   ]
+  },
+  "HB20": {
+   "place": "telangana/hyderabad",
+   "topic": "Festivals",
+   "claim": "Eid, Diwali, Ugadi and Bonalu are celebrated with enthusiasm.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "II_HYD",
+     "quote": "Festivals such as Eid, Diwali, Ugadi, and Bonalu are celebrated with great enthusiasm"
+    }
+   ]
+  },
+  "HB21": {
+   "place": "telangana/hyderabad",
+   "topic": "Twin city",
+   "claim": "Hyderabad's twin city, Secunderabad, is joined to it by Hussain Sagar.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "W_HYD",
+     "quote": "Hyderabad is twinned with neighbouring Secunderabad, to which it is connected by Hussain Sagar."
+    }
+   ]
+  }
+ },
+ "places": [
+  {
+   "key": "telangana/hyderabad",
+   "kind": "city",
+   "name": "Hyderabad",
+   "parent": "telangana",
+   "summary": "The Nizams' capital and 'City of Pearls': Charminar, Golconda, the Salar Jung Museum, biryani and Hussain Sagar.",
+   "seoTitle": "Hyderabad Travel Guide: Charminar, Golconda & Biryani",
+   "seoDescription": "Plan Hyderabad: Charminar and Laad Bazaar, Golconda Fort's light show, the Salar Jung Museum, Hussain Sagar and the city's food.",
+   "lat": 17.36166667,
+   "lng": 78.47472222,
+   "tripTypes": [
+    "heritage",
+    "food"
+   ],
+   "images": [
+    {
+     "commons": "File:Aerial view of Durgam cheruvu and Hitech CIty.jpg",
+     "alt": "Durgam Cheruvu lake and HITEC City from above",
+     "hero": true
+    }
+   ],
+   "sections": {
+    "overview": {
+     "text": "Hyderabad, the capital of Telangana, was founded on the Musi River in 1591 by Muhammad Quli Qutb Shah and later became the capital of the Nizams. Their legacy fills the Old City south of the river: Charminar and the bangle stalls of Laad Bazaar, Mecca Masjid, Chowmahalla Palace and the Salar Jung Museum, with the world's largest one-man collection of antiques. On the city's western edge, Golconda Fort tells the older story with an evening light and sound show.\n\nNorth of the river, Hussain Sagar, dug in 1562, joins Hyderabad to its twin city Secunderabad, with a 16 m monolithic Buddha in the middle. Food is the other great draw: UNESCO lists Hyderabad as a Creative City of Gastronomy, and its biryani and haleem carry GI tags. Visit between October and February to avoid the summer heat.",
+     "facts": [
+      "HB1",
+      "HB2",
+      "HB4",
+      "HB3",
+      "HB8",
+      "HB7",
+      "HB5",
+      "HB21",
+      "HB10",
+      "HB13",
+      "HB14"
+     ]
+    },
+    "how_to_reach": {
+     "text": "By air: Rajiv Gandhi International Airport (HYD) handles domestic and international flights.\n\nBy train: Secunderabad is the main station, with Hyderabad Deccan (Nampally), Kacheguda and Lingampalli for some trains.\n\nBy road: Hyderabad is about 570 km from Bengaluru, 699 km from Mumbai and 1,566 km from Delhi.",
+     "facts": [
+      "HB16",
+      "HB17",
+      "HB19"
+     ]
+    },
+    "local_transport": {
+     "text": "The Hyderabad Metro, open since November 2017, links Secunderabad, the centre and the HITEC City area. For the Old City and Golconda, use autos, app cabs or a hired car. Laad Bazaar and the lanes around Charminar are best explored on foot.",
+     "facts": [
+      "HB18",
+      "HB4"
+     ]
+    },
+    "best_time": {
+     "text": "October to February is the most comfortable time, with December–January lows occasionally near 10 °C. Summer (March–June) is hot and dry, often above 40 °C from April to June. The monsoon brings heavy rain from June to October. During Ramadan, the Old City's bazaars are at their liveliest in the evenings, and Eid, Diwali, Ugadi and Bonalu are all celebrated with enthusiasm.",
+     "facts": [
+      "HB14",
+      "HB13",
+      "HB15",
+      "HB4",
+      "HB20"
+     ]
+    },
+    "who_its_for": {
+     "items": [
+      {
+       "title": "Food lovers",
+       "body": "Biryani, haleem and Old City sweets in a UNESCO city of gastronomy."
+      },
+      {
+       "title": "History lovers",
+       "body": "Charminar, Golconda, Chowmahalla Palace and the Salar Jung Museum."
+      },
+      {
+       "title": "Shoppers",
+       "body": "Bangles in Laad Bazaar and pearls from the City of Pearls."
+      },
+      {
+       "title": "Families",
+       "body": "Hussain Sagar's boats and Buddha statue, and Ramoji Film City."
+      }
+     ],
+     "facts": [
+      "HB10",
+      "HB3",
+      "HB8",
+      "HB4",
+      "HB12",
+      "HB5",
+      "HB9"
+     ]
+    },
+    "shopping": {
+     "items": [
+      {
+       "body": "Bangles, jewellery and fabrics in Laad Bazaar by Charminar.",
+       "status": "verified"
+      },
+      {
+       "body": "Pearls: Hyderabad is the City of Pearls, with drilling centred on Chandanpet.",
+       "status": "verified"
+      },
+      {
+       "body": "The Pearl Market and Madina Circle in the Old City.",
+       "status": "verified"
+      }
+     ],
+     "facts": [
+      "HB4",
+      "HB12",
+      "HB2"
+     ]
+    },
+    "common_mistakes": {
+     "items": [
+      {
+       "body": "Visiting in April–June without planning for heat above 40 °C. Do sights early and late."
+      },
+      {
+       "body": "Driving into the Old City lanes. Park and walk around Charminar and Laad Bazaar."
+      },
+      {
+       "body": "Seeing Golconda at midday and leaving before the evening light and sound show."
+      },
+      {
+       "body": "Eating only biryani. Try haleem, mirchi ka salan and double ka meetha too."
+      }
+     ],
+     "facts": [
+      "HB13",
+      "HB4",
+      "HB7",
+      "HB11"
+     ]
+    },
+    "faqs": {
+     "items": [
+      {
+       "title": "What is Hyderabad famous for?",
+       "body": "Charminar, Golconda Fort, the Nizams' palaces, pearls, and its food: biryani and haleem carry GI tags."
+      },
+      {
+       "title": "When is the best time to visit?",
+       "body": "October to February. Summers are very hot and June–October is the monsoon."
+      },
+      {
+       "title": "Which railway station should I use?",
+       "body": "Secunderabad is the main station; check whether your train stops at Hyderabad Deccan or Kacheguda instead."
+      },
+      {
+       "title": "How many days do I need?",
+       "body": "Two days covers the Old City, Golconda and Hussain Sagar."
+      }
+     ],
+     "facts": [
+      "HB10",
+      "HB14",
+      "HB13",
+      "HB15",
+      "HB17"
+     ]
+    }
+   }
+  }
+ ],
+ "itineraries": [
+  {
+   "place": "telangana/hyderabad",
+   "slug": "hyderabad-2-days-old-city-golconda",
+   "title": "Hyderabad in 2 days: the Old City and Golconda",
+   "durationDays": 2,
+   "tripTypes": [
+    "heritage",
+    "food"
+   ],
+   "summary": "Charminar, Laad Bazaar, Chowmahalla Palace and the Salar Jung Museum, then Hussain Sagar and Golconda Fort's evening light and sound show.",
+   "seoTitle": "2-Day Hyderabad Itinerary: Charminar, Golconda & Biryani",
+   "seoDescription": "Two days in Hyderabad: Charminar and Laad Bazaar, Chowmahalla Palace, the Salar Jung Museum, Hussain Sagar's Buddha and Golconda's light and sound show.",
+   "facts": [
+    "HB2",
+    "HB4",
+    "HB3",
+    "HB8",
+    "HB5",
+    "HB6",
+    "HB7",
+    "HB10",
+    "HB11",
+    "HB13",
+    "HB14",
+    "HB15",
+    "HB16",
+    "HB18"
+   ],
+   "plan": {
+    "overview": "A first look at the Nizams' city: a day on foot in the Old City, then the lake and the fort, with the city's food at every meal.",
+    "style": "City break: heritage and food",
+    "start": "Hyderabad",
+    "end": "Hyderabad",
+    "season": "October–February is most comfortable. April–June often tops 40 °C; June–October is the monsoon.",
+    "difficulty": "Easy; hot walking in summer",
+    "transport": "Metro, autos and app cabs; walking in the Old City",
+    "days": [
+     {
+      "title": "The Old City",
+      "stops": [
+       {
+        "time": "Morning",
+        "name": "Charminar",
+        "placeSlug": "charminar",
+        "duration": "1 hour"
+       },
+       {
+        "time": "Late morning",
+        "name": "Laad Bazaar",
+        "duration": "1.5 hours",
+        "note": "Best on foot."
+       },
+       {
+        "time": "Afternoon",
+        "name": "Chowmahalla Palace",
+        "duration": "1.5 hours"
+       },
+       {
+        "time": "Late afternoon",
+        "name": "Salar Jung Museum",
+        "placeSlug": "salar-jung-museum",
+        "duration": "2 hours",
+        "note": "Check opening hours before you go."
+       }
+      ],
+      "travel": "Walk around Charminar; short auto rides to Chowmahalla and the museum.",
+      "meals": "Biryani or haleem for lunch; double ka meetha or qubani ka meetha later.",
+      "logistics": "Leave the car outside the Old City lanes.",
+      "overnight": "Hyderabad"
+     },
+     {
+      "title": "Hussain Sagar and Golconda",
+      "stops": [
+       {
+        "time": "Late morning",
+        "name": "Hussain Sagar and the Buddha statue",
+        "duration": "2 hours",
+        "note": "Boats and cruises run on the lake."
+       },
+       {
+        "time": "Afternoon",
+        "name": "Golconda Fort",
+        "placeSlug": "golconda-fort",
+        "duration": "3 hours",
+        "note": "Stay on for the evening light and sound show."
+       }
+      ],
+      "travel": "Metro or cab to Hussain Sagar, then a cab to Golconda.",
+      "meals": "Mirchi ka salan and pesarattu at lunch; street food by the lake if you return in the evening.",
+      "overnight": "Hyderabad"
+     }
+    ],
+    "budget": {
+     "assumptions": "VacayOut has no verified current prices for Hyderabad hotels, transport, entry fees or the Golconda show. Budget for your own choices and check fees at each site.",
+     "lines": []
+    },
+    "booking": [
+     {
+      "item": "Golconda light and sound show",
+      "detail": "Check the day's show times and language at the fort."
+     }
+    ],
+    "alternatives": [
+     "Families: swap day 2's lake visit for Ramoji Film City.",
+     "In Ramadan: return to Laad Bazaar in the evening, when it is at its busiest."
+    ],
+    "tips": [
+     "Start sightseeing early in the hot months.",
+     "Use the metro to cross the city quickly."
+    ],
+    "prep": [
+     {
+      "title": "Weather",
+      "body": "Summers are hot and dry, often above 40 °C from April to June; December–January lows can dip to about 10 °C."
+     },
+     {
+      "title": "Arriving",
+      "body": "Flights use Rajiv Gandhi International Airport (HYD); the metro has run since November 2017."
+     }
+    ],
+    "faqs": [
+     {
+      "q": "Can I see Golconda and Charminar on the same day?",
+      "a": "It's possible but rushed. Golconda is best in the late afternoon, with the evening show."
+     },
+     {
+      "q": "What should I eat?",
+      "a": "Biryani and haleem (both GI-tagged), mirchi ka salan, double ka meetha and qubani ka meetha."
+     },
+     {
+      "q": "Is Laad Bazaar safe to walk?",
+      "a": "It's busy and best explored on foot. Keep valuables secure in the crowds."
+     }
+    ]
+   },
+   "sources": []
+  }
+ ]
+}

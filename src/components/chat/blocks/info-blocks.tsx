@@ -6,12 +6,12 @@ import { BlockImage, Bullets, Card } from "./shared";
 function InfoCard({ icon, title, children, photo }: { icon: Name; title: string; children: React.ReactNode; photo?: BlockOf<"stay">["photo"] }) {
   return (
     <Card className="flex h-full gap-3.5 p-4">
-      <Icon name={icon} size={22} className="mt-0.5 shrink-0 text-forest" />
+      <span className="flex size-10 shrink-0 items-center justify-center rounded-xl bg-[#FDF0EB] text-coral"><Icon name={icon} size={18} /></span>
       <div className="min-w-0 flex-1">
-        <h3 className="font-serif text-[1rem] font-medium text-ink">{title}</h3>
-        <div className="mt-1.5 text-[0.8125rem] leading-relaxed text-muted">{children}</div>
+        <h3 className="font-serif text-[1.0625rem] font-normal text-ink">{title}</h3>
+        <div className="mt-1.5 text-[0.8125rem] leading-relaxed text-[#666666]">{children}</div>
       </div>
-      {photo ? <BlockImage photo={photo} sizes="96px" className="relative hidden h-20 w-24 shrink-0 self-start rounded-lg sm:block" /> : null}
+      {photo ? <BlockImage photo={photo} sizes="96px" className="relative hidden h-20 w-24 shrink-0 self-start rounded-xl sm:block" /> : null}
     </Card>
   );
 }
@@ -93,7 +93,7 @@ export function BookingsBlock({ block }: { block: BlockOf<"bookings"> }) {
         {items.map((b) => (
           <li key={b.label}>
             <a href={b.href} target="_blank" rel="sponsored nofollow noopener noreferrer" className="group flex items-center gap-2">
-              <Icon name={b.icon} size={22} className="text-forest" />
+              <span className="flex size-8 items-center justify-center rounded-lg bg-[#F5F3EE] text-ink"><Icon name={b.icon} size={16} /></span>
               <span className="leading-tight">
                 <span className="block text-[0.8125rem] font-medium text-ink group-hover:underline">{b.label}</span>
                 <span className="block text-[0.6875rem]">({b.provider})</span>
@@ -111,14 +111,14 @@ export function BookingsBlock({ block }: { block: BlockOf<"bookings"> }) {
 /** Light inline tips, not a big card. */
 export function TipsBlock({ block }: { block: BlockOf<"tips"> }) {
   return (
-    <div className="rounded-xl bg-sand/70 px-3.5 py-2.5 text-[0.8125rem] leading-relaxed text-ink/85">
+    <div className="rounded-2xl border border-[#EFE6D8] bg-[#FBF8F3] px-4 py-3 text-[0.8125rem] leading-relaxed text-ink/85">
       <p className="flex items-center gap-1.5 text-[0.75rem] font-semibold text-ink">
-        <Icon name="bulb" size={14} className="text-forest" /> Good to know
+        <Icon name="bulb" size={14} className="text-coral" /> Good to know
       </p>
       <ul className="mt-1 space-y-0.5">
         {block.items.map((t) => (
           <li key={t} className="flex gap-2">
-            <span aria-hidden className="mt-[0.55rem] size-1 shrink-0 rounded-full bg-ink/50" />
+            <span aria-hidden className="mt-[0.55rem] size-1.5 shrink-0 rounded-full bg-coral" />
             {t}
           </li>
         ))}

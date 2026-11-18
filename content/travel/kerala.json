@@ -543,6 +543,66 @@
       "url": "https://pathanamthitta.nic.in/en/tourist-place/sabarimala/",
       "title": "Tourist places: Gavi — District Pathanamthitta, Government of Kerala",
       "authority": "government"
+    },
+    "ONM_ERV": {
+      "url": "https://www.onmanorama.com/travel/kerala/2025/03/25/munnar-eravikulam-national-park-reopening-date.amp.html",
+      "title": "Eravikulam National Park is all set to reopen — Onmanorama (25 Mar 2025)",
+      "authority": "media"
+    },
+    "IH_THEK": {
+      "url": "https://www.indianholiday.com/kerala/thekkady/how-to-reach-thekkady.html",
+      "title": "How to reach Thekkady — Indian Holiday",
+      "authority": "travel_platform"
+    },
+    "TRW_MATT": {
+      "url": "https://www.trawell.in/kerala/kochi/dutch-palace",
+      "title": "Dutch Palace, Kochi — Trawell",
+      "authority": "travel_platform"
+    },
+    "HOL_SYN": {
+      "url": "https://holidify.com/places/kochi/jewish-synagogue-sightseeing-2371.html",
+      "title": "Jewish Synagogue, Kochi — Holidify",
+      "authority": "travel_platform"
+    },
+    "OTS_PTR": {
+      "url": "https://site.outlookindia.com/traveller/ot-getaway-guides/periyar-tiger-reserve/",
+      "title": "Periyar Tiger Reserve — Outlook Traveller",
+      "authority": "media"
+    },
+    "BNB_HB": {
+      "url": "https://boatsnbeds.com/?p=11455",
+      "title": "Alleppey houseboat timings — BoatsnBeds",
+      "authority": "travel_platform"
+    },
+    "CT_KK": {
+      "url": "https://curlytales.com/for-the-culture-traveller-witness-the-marvel-of-keralas-art-forms-in-fort-kochi/amp/",
+      "title": "Kerala Kathakali Centre, Fort Kochi — Curly Tales",
+      "authority": "media"
+    },
+    "MCOM_ERV": {
+      "url": "https://munnar.com/eravikulam-national-park-munnar-safari-guide-2026",
+      "title": "Eravikulam National Park guide 2026 — munnar.com",
+      "authority": "travel_platform"
+    },
+    "GT_SPST": {
+      "url": "https://gotirupati.com/?p=57339",
+      "title": "Anantha Padmanabha Swamy temple timings — GoTirupati",
+      "authority": "other"
+    },
+    "CTK_AV": {
+      "url": "https://www.confirmtkt.com/trains/alappuzha-to-varkala-train-tickets",
+      "title": "Alappuzha to Varkala trains — ConfirmTkt",
+      "authority": "travel_platform"
+    },
+    "TRW_KUTH": {
+      "url": "https://trawell.in/kerala/trivandrum/palace-museum-kuthira-malika",
+      "title": "Palace Museum / Kuthira Malika — Trawell",
+      "authority": "travel_platform"
+    },
+    "BB_SPST": {
+      "url": "https://www.bhaktibharat.com/en/mandir/padmanabhaswamy-temple",
+      "title": "Padmanabhaswamy Temple — Bhakti Bharat",
+      "authority": "other"
     }
   },
   "facts": {
@@ -3774,6 +3834,184 @@
         }
       ],
       "kind": "estimate"
+    },
+    "ERV_C": {
+      "place": "kerala/eravikulam-national-park",
+      "topic": "Annual calving-season closure",
+      "claimType": "schedule",
+      "kind": "seasonal",
+      "claim": "Eravikulam's Rajamala tourism zone closes every February–March for the Nilgiri tahr calving season, reopening around 1 April.",
+      "evidence": [
+        {
+          "source": "ONM_ERV",
+          "quote": "February - March is the calving season for the animals",
+          "sourceDate": "25 March 2025"
+        }
+      ]
+    },
+    "ERV_F": {
+      "place": "kerala/eravikulam-national-park",
+      "topic": "Entry fee",
+      "claimType": "price",
+      "claim": "Eravikulam entry costs ₹200 for Indian visitors and ₹500 for foreign nationals; e-tickets are shown at the gate.",
+      "evidence": [
+        {
+          "source": "ONM_ERV",
+          "quote": "The Indian ticket charge is Rs 200, and foreign nationals are charged Rs 500.",
+          "sourceDate": "25 March 2025"
+        }
+      ]
+    },
+    "ERV_H": {
+      "place": "kerala/eravikulam-national-park",
+      "topic": "Opening hours",
+      "claimType": "opening_hours",
+      "claim": "Eravikulam National Park is open daily from about 7:30 am to 4 pm outside the closure season; entry is by time slot.",
+      "conflictNote": "Other sites give 8 am or 8:30 am openings; confirm the slot when booking.",
+      "evidence": [
+        {
+          "source": "MCOM_ERV",
+          "quote": "operating hours: 7:30 AM to 4:00 PM"
+        }
+      ]
+    },
+    "PTR_B": {
+      "place": "kerala/thekkady",
+      "topic": "Periyar Lake boat departures",
+      "claimType": "schedule",
+      "claim": "Boats on Periyar Lake leave five times a day — 7:30 am, 9:30 am, 11:15 am, 1:45 pm and 3:30 pm — run by the Forest Department and KTDC.",
+      "evidence": [
+        {
+          "source": "OTS_PTR",
+          "quote": "7.30am, 9.30am, 11.15am, 1.45pm & 3.30pm"
+        }
+      ]
+    },
+    "THK_D": {
+      "place": "kerala/thekkady",
+      "topic": "Road distance from Munnar",
+      "claimType": "distance",
+      "kind": "estimate",
+      "claim": "Munnar to Thekkady is roughly 90–100 km through the plantation hills, about 3–4 hours by road.",
+      "evidence": [
+        {
+          "source": "IH_THEK",
+          "quote": "allow around 3–4 hours for roughly 90–100 km"
+        }
+      ]
+    },
+    "HB_T": {
+      "place": "kerala/alappuzha",
+      "topic": "Overnight houseboat timings",
+      "claimType": "schedule",
+      "kind": "estimate",
+      "claim": "Overnight houseboats usually board at 12 noon and finish at 9 am the next day; under Kerala Tourism rules they anchor for the night by 5:30 pm.",
+      "evidence": [
+        {
+          "source": "BNB_HB",
+          "quote": "Check-in: 12:00 PM (Noon)"
+        },
+        {
+          "source": "BNB_HB",
+          "quote": "all houseboats anchor by 5:30 PM"
+        }
+      ]
+    },
+    "KKC_T": {
+      "place": "kerala/fort-kochi",
+      "topic": "Kerala Kathakali Centre show times",
+      "claimType": "schedule",
+      "claim": "At the Kerala Kathakali Centre in Fort Kochi, a make-up demonstration starts at 5 pm and the performance at 6 pm.",
+      "evidence": [
+        {
+          "source": "CT_KK",
+          "quote": "An engaging performance begins at 6 p.m. with a demo at 5 p.m."
+        }
+      ]
+    },
+    "MAT_H": {
+      "place": "kerala/mattancherry",
+      "topic": "Mattancherry Palace weekly closure",
+      "claimType": "opening_hours",
+      "claim": "Mattancherry (Dutch) Palace is closed on Fridays and national holidays.",
+      "conflictNote": "Some listings also show Saturday closure; check before a Saturday visit.",
+      "evidence": [
+        {
+          "source": "TRW_MATT",
+          "quote": "Closed on Fridays & National Holidays."
+        }
+      ]
+    },
+    "SYN_H": {
+      "place": "kerala/mattancherry",
+      "topic": "Paradesi Synagogue weekly closure",
+      "claimType": "opening_hours",
+      "claim": "The Paradesi Synagogue is closed on Fridays, Saturdays and Jewish holidays.",
+      "conflictNote": "Other listings show a short Friday-morning opening; Saturday closure is consistent.",
+      "evidence": [
+        {
+          "source": "HOL_SYN",
+          "quote": "Closed on Friday, Saturday and other Jewish holidays."
+        }
+      ]
+    },
+    "KUTH_H": {
+      "place": "kerala/thiruvananthapuram",
+      "topic": "Kuthiramalika Palace Museum hours",
+      "claimType": "opening_hours",
+      "claim": "Kuthiramalika (Puthenmalika) Palace Museum, beside the Padmanabhaswamy Temple at East Fort, opens mornings and afternoons with a midday break and is closed on Mondays.",
+      "evidence": [
+        {
+          "source": "TRW_KUTH",
+          "quote": "Closed on Mondays."
+        }
+      ],
+      "conflictNote": "Listed hours differ between sources (8:30–9 am to 12:30–1 pm, and 3–3:30 pm to 5:30 pm); Monday closure is consistent."
+    },
+    "SPST_E": {
+      "place": "kerala/thiruvananthapuram",
+      "topic": "Padmanabhaswamy Temple entry and darshan",
+      "claimType": "rule",
+      "claim": "Entry to the Sree Padmanabhaswamy Temple is restricted to Hindus; evening darshan runs 5–6:15 pm and 6:45–7:20 pm, changing on festival days.",
+      "evidence": [
+        {
+          "source": "GT_SPST",
+          "quote": "Entry is restricted to Hindus only."
+        },
+        {
+          "source": "GT_SPST",
+          "quote": "Darshan: 5:00 pm to 6:15 pm"
+        }
+      ]
+    },
+    "SPST_D": {
+      "place": "kerala/thiruvananthapuram",
+      "topic": "Padmanabhaswamy Temple dress code",
+      "claimType": "rule",
+      "claim": "The temple enforces a strict dress code: men wear a dhoti without a shirt, and women wear a sari or half-sari; photography is prohibited inside.",
+      "evidence": [
+        {
+          "source": "BB_SPST",
+          "quote": "Men can wear Dhoti and Uttaran but cannot wear shirt."
+        },
+        {
+          "source": "BB_SPST",
+          "quote": "Photography is prohibited in the temple premises."
+        }
+      ]
+    },
+    "AV_TR": {
+      "place": "kerala/varkala",
+      "topic": "Train from Alappuzha",
+      "claimType": "distance",
+      "kind": "estimate",
+      "claim": "Alappuzha to Varkala is about 108 km; the fastest trains take about 1 hour 40 minutes.",
+      "evidence": [
+        {
+          "source": "CTK_AV",
+          "quote": "The fastest train between these cities takes approximately 1:38 hours"
+        }
+      ]
     }
   },
   "places": [
@@ -6660,6 +6898,676 @@
         "MN2"
       ],
       "sources": []
+    },
+    {
+      "place": "kerala",
+      "slug": "kerala-backwaters-tea-hills-6-days",
+      "title": "Kerala in 6 days: Kochi, Munnar, Thekkady and the backwaters",
+      "summary": "Fort Kochi's old port, two nights among Munnar's tea estates, Periyar Lake at Thekkady and a night on an Alappuzha houseboat — a classic Kerala loop from Kochi airport.",
+      "durationDays": 6,
+      "tripTypes": [
+        "nature",
+        "wildlife",
+        "romantic",
+        "food"
+      ],
+      "seoTitle": "Kerala 6-Day Itinerary: Kochi, Munnar, Thekkady & Houseboat",
+      "seoDescription": "A realistic 6-day Kerala loop with drive times and timings: Fort Kochi, Munnar tea hills and Eravikulam, Periyar Lake at Thekkady, and an Alappuzha houseboat night.",
+      "facts": [
+        "KC5",
+        "KC9",
+        "KKC_T",
+        "FK1",
+        "FK2",
+        "MP1",
+        "MP2",
+        "MAT_H",
+        "SYN_H",
+        "MN9",
+        "MN6",
+        "MN7",
+        "EV1",
+        "EV3",
+        "ERV_C",
+        "ERV_F",
+        "ERV_H",
+        "TK1",
+        "TK3",
+        "TK4",
+        "TK5",
+        "PTR_B",
+        "THK_D",
+        "AP1",
+        "AL4",
+        "AL6",
+        "HB_T",
+        "KS11",
+        "KS20",
+        "KM4",
+        "MR1"
+      ],
+      "sources": [],
+      "plan": {
+        "overview": "This is the loop most first-time visitors to Kerala take, in an order that keeps drives to about 3–4.5 hours a day. Start in Fort Kochi's colonial quarter, climb to Munnar for two nights in the tea hills, cross the Cardamom Hills to Thekkady for Periyar Lake, then come down to Alappuzha for a night on a houseboat before returning to Kochi airport. It needs a car and driver; the hill roads are slow and winding.",
+        "style": "Classic first visit — hills, wildlife and backwaters, moderate pace",
+        "start": "Cochin International Airport or Ernakulam Junction",
+        "end": "Cochin International Airport (about 2 hours from Alappuzha)",
+        "season": "October to March is best; November–February is peak season, so book houseboats and Munnar stays early. Eravikulam (Rajamala) is closed every February–March for the Nilgiri tahr calving season. June–September is monsoon: lush but wet, with slower hill roads.",
+        "difficulty": "Easy — mostly driving and short walks",
+        "transport": "Private car with driver for the whole loop (about 450 km in total); boats at Periyar and Alappuzha.",
+        "days": [
+          {
+            "title": "Day 1 — Arrive in Kochi: Fort Kochi and Mattancherry",
+            "summary": "Settle into Fort Kochi, walk the old waterfront, and see a Kathakali performance in the evening.",
+            "stops": [
+              {
+                "time": "Afternoon",
+                "name": "Mattancherry Palace and Paradesi Synagogue",
+                "placeSlug": "mattancherry",
+                "duration": "1.5–2 hours",
+                "note": "Kerala murals at the Dutch Palace; the 1568 synagogue next door. The palace closes on Fridays and the synagogue on Fridays and Saturdays — swap with Day 6 if needed."
+              },
+              {
+                "time": "4 pm",
+                "name": "St Francis Church and the Chinese fishing nets",
+                "placeSlug": "fort-kochi",
+                "duration": "1 hour",
+                "note": "Vasco da Gama was first buried in St Francis Church; the cantilevered nets are along the beach road."
+              },
+              {
+                "time": "5 pm",
+                "name": "Kerala Kathakali Centre",
+                "placeSlug": "fort-kochi",
+                "duration": "2 hours",
+                "note": "Come at 5 pm for the make-up; the show starts at 6 pm."
+              }
+            ],
+            "travel": "Cochin airport is north of the city at Nedumbassery; allow 1–1.5 hours to Fort Kochi depending on traffic (estimate).",
+            "transport": "Car from the airport; walking in Fort Kochi",
+            "meals": "Seafood or fish molee in Fort Kochi for dinner.",
+            "overnight": "Fort Kochi",
+            "logistics": "If you land late in the day, keep only the waterfront and Kathakali and move Mattancherry to Day 6 morning."
+          },
+          {
+            "title": "Day 2 — Kochi to Munnar",
+            "summary": "Climb from the coast into the Western Ghats and spend the afternoon in the tea country.",
+            "stops": [
+              {
+                "time": "8 am",
+                "name": "Drive to Munnar",
+                "placeSlug": "munnar",
+                "duration": "About 4.5 hours with stops",
+                "note": "The last stretch winds up through cardamom and tea; stop at roadside waterfalls on the way."
+              },
+              {
+                "time": "2 pm",
+                "name": "Lunch and check-in",
+                "duration": "1.5 hours"
+              },
+              {
+                "time": "4 pm",
+                "name": "Tata Tea Museum or a tea-estate walk",
+                "placeSlug": "munnar",
+                "duration": "1.5 hours",
+                "note": "Plantation history and a tasting at Nallathanni Estate; check the day's hours before going."
+              }
+            ],
+            "travel": "Kochi → Munnar about 130 km, about 4.5 hours by road.",
+            "distanceKm": 130,
+            "distance": "130 km",
+            "driveTime": "About 4.5 hours",
+            "transport": "Car with driver",
+            "altitude": 1600,
+            "meals": "Breakfast in Kochi; lunch in Munnar.",
+            "overnight": "Munnar",
+            "logistics": "Munnar nights are cool year-round; bring a warm layer."
+          },
+          {
+            "title": "Day 3 — Munnar: Eravikulam, Mattupetty and Top Station",
+            "summary": "Nilgiri tahr on the Rajamala grasslands in the morning, then the lakes and the Top Station viewpoint.",
+            "stops": [
+              {
+                "time": "8 am",
+                "name": "Eravikulam National Park (Rajamala)",
+                "placeSlug": "eravikulam-national-park",
+                "duration": "2.5–3 hours",
+                "note": "Forest Department buses take visitors up into the tourism zone. Book a time slot online; closed February–March."
+              },
+              {
+                "time": "12:30 pm",
+                "name": "Lunch in Munnar town",
+                "duration": "1 hour"
+              },
+              {
+                "time": "1:45 pm",
+                "name": "Mattupetty Dam and Kundala Lake",
+                "placeSlug": "munnar",
+                "duration": "1 hour",
+                "note": "On the road to Top Station; boating is possible."
+              },
+              {
+                "time": "3:30 pm",
+                "name": "Top Station",
+                "placeSlug": "munnar",
+                "duration": "1.5 hours",
+                "note": "Viewpoint on the Kerala–Tamil Nadu border; mist often rolls in after midday."
+              }
+            ],
+            "travel": "Top Station is 32 km from Munnar; the round trip and the Eravikulam run add up to about 80 km on hill roads (estimate).",
+            "distance": "About 80 km on hill roads (estimate)",
+            "driveTime": "About 3 hours of driving across the day (estimate)",
+            "transport": "Car with driver",
+            "meals": "Breakfast before 7:30 am; lunch in Munnar.",
+            "overnight": "Munnar",
+            "access": "Eravikulam: closed every February–March"
+          },
+          {
+            "title": "Day 4 — Munnar to Thekkady: Periyar Lake",
+            "summary": "Cross the Cardamom Hills and take the afternoon boat on Periyar Lake.",
+            "stops": [
+              {
+                "time": "8 am",
+                "name": "Drive to Thekkady",
+                "placeSlug": "thekkady",
+                "duration": "About 3 hours",
+                "note": "Through cardamom estates via Rajakkad and Nedumkandam."
+              },
+              {
+                "time": "11:30 am",
+                "name": "Spice-garden walk in Kumily",
+                "placeSlug": "thekkady",
+                "duration": "1.5 hours",
+                "note": "Cardamom, pepper and clove plantations around Kumily."
+              },
+              {
+                "time": "3 pm",
+                "name": "Periyar Lake boat (3:30 pm departure)",
+                "placeSlug": "thekkady",
+                "duration": "2 hours including reporting time",
+                "note": "Report about 30 minutes early at the boat landing. Otters, elephants and birds are often seen; tigers are very rarely seen."
+              }
+            ],
+            "travel": "Munnar → Thekkady roughly 90–100 km, about 3–4 hours through the plantation hills.",
+            "distanceKm": 95,
+            "distance": "About 90–100 km",
+            "driveTime": "About 3–4 hours",
+            "transport": "Car with driver",
+            "meals": "Lunch in Kumily; Kerala thali or Kumily's spice-shop snacks.",
+            "overnight": "Thekkady / Kumily",
+            "logistics": "Book the Forest Department boat on periyartigerreserve.org in advance. If you miss the 3:30 pm boat, take the 7:30 am boat next morning only if you can leave for Alappuzha by 9:30 am."
+          },
+          {
+            "title": "Day 5 — Thekkady to Alappuzha: houseboat night",
+            "summary": "Drive down to the coast and board a kettuvallam for an afternoon on the backwaters and a night anchored by the paddy fields.",
+            "stops": [
+              {
+                "time": "7:30 am",
+                "name": "Drive to Alappuzha",
+                "placeSlug": "alappuzha",
+                "duration": "About 4 hours",
+                "note": "Leave early: houseboats board around noon."
+              },
+              {
+                "time": "12 noon",
+                "name": "Board the houseboat",
+                "placeSlug": "alappuzha",
+                "duration": "Overnight",
+                "note": "Lunch, tea and dinner are served on board."
+              },
+              {
+                "time": "12:30–5:30 pm",
+                "name": "Backwater cruise",
+                "placeSlug": "alappuzha",
+                "duration": "About 5 hours",
+                "note": "Lakes, canals and village life; boats anchor for the night around 5:30 pm."
+              }
+            ],
+            "travel": "Thekkady → Alappuzha about 125 km, about 4 hours (estimate).",
+            "distanceKm": 125,
+            "distance": "About 125 km",
+            "driveTime": "About 4 hours (estimate)",
+            "transport": "Car with driver, then houseboat",
+            "meals": "Lunch, evening tea and dinner on the houseboat — ask for karimeen (pearl-spot fish).",
+            "overnight": "Houseboat on the Alappuzha backwaters",
+            "logistics": "Confirm the jetty and boarding time with the operator the day before. Air-conditioning on many boats runs only at night."
+          },
+          {
+            "title": "Day 6 — Backwaters to Kochi airport",
+            "summary": "A short morning cruise, then the drive back to Kochi.",
+            "stops": [
+              {
+                "time": "8 am",
+                "name": "Morning cruise and breakfast on board",
+                "placeSlug": "alappuzha",
+                "duration": "1 hour",
+                "note": "Disembark around 9 am."
+              },
+              {
+                "time": "9:30 am",
+                "name": "Alappuzha Beach and pier (optional)",
+                "placeSlug": "alappuzha",
+                "duration": "45 minutes",
+                "note": "The old pier stretches into the sea from the beach."
+              },
+              {
+                "time": "11 am",
+                "name": "Drive to Cochin airport",
+                "duration": "About 2 hours"
+              }
+            ],
+            "travel": "Alappuzha → Cochin airport about 83 km, about 2 hours.",
+            "distanceKm": 83,
+            "distance": "About 83 km",
+            "driveTime": "About 2 hours",
+            "transport": "Car with driver",
+            "meals": "Breakfast on the houseboat.",
+            "overnight": "Departure (book an afternoon or evening flight)"
+          }
+        ],
+        "budget": {
+          "assumptions": "Per adult, sourced entry fees only. The car with driver, hotels and the houseboat depend on season and category and are not estimated here — get two or three quotes.",
+          "lines": [
+            {
+              "label": "Eravikulam National Park entry",
+              "amount": "₹200 (Indian) / ₹500 (foreign)",
+              "basis": "Reported 2025 rate; confirm when booking online"
+            },
+            {
+              "label": "Periyar Lake boat",
+              "amount": "Not estimated",
+              "basis": "Check the current fare on periyartigerreserve.org"
+            },
+            {
+              "label": "Houseboat, one night with meals",
+              "amount": "Not estimated",
+              "basis": "Varies with boat category and season"
+            }
+          ]
+        },
+        "booking": [
+          {
+            "item": "Eravikulam (Rajamala)",
+            "detail": "Book a time slot on the park's official online booking system a few days ahead in peak season."
+          },
+          {
+            "item": "Periyar Lake boat",
+            "detail": "Book the Forest Department boat on periyartigerreserve.org; report 30 minutes before departure."
+          },
+          {
+            "item": "Houseboat",
+            "detail": "Book a Kerala Tourism-graded boat early for November–February; confirm boarding jetty, meals and AC hours."
+          },
+          {
+            "item": "Car and driver",
+            "detail": "One car for all six days is simplest; agree on fuel, tolls, driver's stay and daily km in writing."
+          }
+        ],
+        "alternatives": [
+          "Travelling in February or March? Eravikulam is closed — spend Day 3 on a tea-factory tour and Kolukkumalai or Chinnakanal instead.",
+          "Prefer quieter water? Board at Kumarakom on Vembanad Lake instead of Alappuzha.",
+          "Add a beach night at Marari, about 11 km from Alappuzha, before flying out.",
+          "Short on time? Drop Thekkady: Kochi → Munnar (2 nights) → Alappuzha houseboat in 5 days.",
+          "Families with young children may prefer a day cruise and a hotel night over an overnight houseboat."
+        ],
+        "tips": [
+          "Fridays are a poor day for Mattancherry — the palace and synagogue are both shut.",
+          "Book the earliest Eravikulam slot: mist and queues build through the morning.",
+          "Hill roads are slow; allow more time than map apps suggest, especially in monsoon.",
+          "Carry cash for small spice-shop and roadside purchases; UPI works widely."
+        ],
+        "prep": [
+          {
+            "title": "Weather",
+            "body": "The coast is hot and humid, especially March–May; Munnar is cool year-round. Pack light cottons, a warm layer and a rain jacket."
+          },
+          {
+            "title": "Monsoon",
+            "body": "June–September brings heavy rain and occasional landslides on hill roads; build in slack and check road status before driving to Munnar or Thekkady."
+          },
+          {
+            "title": "Dress",
+            "body": "Cover shoulders and knees for churches, the synagogue and temples."
+          }
+        ],
+        "faqs": [
+          {
+            "q": "Is 6 days enough for Kerala?",
+            "a": "It covers the classic loop — Kochi, Munnar, Thekkady and the backwaters — at a comfortable pace. Add 2–3 days for Varkala or Kovalam beaches."
+          },
+          {
+            "q": "When is Eravikulam closed?",
+            "a": "Every February and March for the Nilgiri tahr calving season. It usually reopens around 1 April."
+          },
+          {
+            "q": "Will I see tigers at Periyar?",
+            "a": "Very unlikely — the forest is dense. Elephants, gaur, otters and birds are more commonly seen from the boat."
+          },
+          {
+            "q": "What time do houseboats board?",
+            "a": "Usually around noon, and they finish around 9 am the next morning. That's why this plan leaves Thekkady early."
+          }
+        ]
+      }
+    },
+    {
+      "place": "kerala",
+      "slug": "kerala-coastal-cliffs-heritage-5-days",
+      "title": "Kerala coast in 5 days: Kochi, Alappuzha, Varkala and Trivandrum",
+      "summary": "A south-bound coastal trip from Kochi to Trivandrum: Fort Kochi's heritage, the Alappuzha canals, Varkala's cliffs by train, and the temple city and Kovalam's beaches.",
+      "durationDays": 5,
+      "tripTypes": [
+        "beaches",
+        "heritage",
+        "romantic"
+      ],
+      "seoTitle": "Kerala Coast 5-Day Itinerary: Kochi to Varkala & Trivandrum",
+      "seoDescription": "A realistic one-way Kerala coastal route with times: Fort Kochi, Alappuzha canals, the train to Varkala's cliffs, Trivandrum's palace and temple, and Kovalam.",
+      "facts": [
+        "FK1",
+        "FK2",
+        "MP1",
+        "MP2",
+        "MAT_H",
+        "SYN_H",
+        "KKC_T",
+        "AL1",
+        "AP2",
+        "AL4",
+        "AL6",
+        "MR1",
+        "AV_TR",
+        "VK1",
+        "VK2",
+        "VK3",
+        "VK7",
+        "VK8",
+        "TV1",
+        "TV3",
+        "TV4",
+        "SPST_E",
+        "SPST_D",
+        "KUTH_H",
+        "KV1",
+        "KV2",
+        "KV3",
+        "KV5",
+        "KS11"
+      ],
+      "sources": [],
+      "plan": {
+        "overview": "A one-way route down Kerala's coast that needs no hill driving. It flies into Kochi and out of Trivandrum, with only short transfers: about an hour and a half to Alappuzha, a scenic train to Varkala, and under two hours on to the capital and Kovalam. It suits travellers who want heritage, backwaters and beaches without the long Munnar–Thekkady drives.",
+        "style": "Coast, heritage and beaches, relaxed pace",
+        "start": "Cochin International Airport",
+        "end": "Trivandrum International Airport (10–15 km from Kovalam)",
+        "season": "October to March. Varkala's season is October–March and its monsoon June–August, when many cliff cafés close and the sea is rough.",
+        "difficulty": "Easy",
+        "transport": "Taxi Kochi → Alappuzha, train Alappuzha → Varkala, taxi Varkala → Trivandrum → Kovalam → airport.",
+        "days": [
+          {
+            "title": "Day 1 — Fort Kochi and Mattancherry",
+            "summary": "The Dutch Palace and Jew Town, the old waterfront at sunset, and Kathakali.",
+            "stops": [
+              {
+                "time": "11 am",
+                "name": "Mattancherry Palace",
+                "placeSlug": "mattancherry",
+                "duration": "1 hour",
+                "note": "Kerala murals and portraits of the Rajas of Kochi. Closed on Fridays."
+              },
+              {
+                "time": "12:15 pm",
+                "name": "Paradesi Synagogue and Jew Town",
+                "placeSlug": "mattancherry",
+                "duration": "1–1.5 hours",
+                "note": "Built in 1568. Closed on Fridays, Saturdays and Jewish holidays."
+              },
+              {
+                "time": "3:30 pm",
+                "name": "St Francis Church and the Chinese fishing nets",
+                "placeSlug": "fort-kochi",
+                "duration": "1.5 hours",
+                "note": "Stay along the beach road for sunset."
+              },
+              {
+                "time": "5 pm",
+                "name": "Kerala Kathakali Centre",
+                "placeSlug": "fort-kochi",
+                "duration": "2 hours",
+                "note": "Make-up demonstration at 5 pm, performance at 6 pm."
+              }
+            ],
+            "travel": "Cochin airport to Fort Kochi takes about 1–1.5 hours by taxi (estimate); then walking or auto-rickshaw.",
+            "transport": "Taxi, walking, auto-rickshaw",
+            "meals": "Lunch in Mattancherry; seafood in Fort Kochi for dinner.",
+            "overnight": "Fort Kochi",
+            "logistics": "Arriving on a Friday or Saturday? Swap the Mattancherry stops for a Fort Kochi heritage walk and the art galleries."
+          },
+          {
+            "title": "Day 2 — Kochi to Alappuzha: the canals",
+            "summary": "A shikara boat through the narrow canals the big houseboats cannot reach, then the beach and pier.",
+            "stops": [
+              {
+                "time": "9 am",
+                "name": "Drive to Alappuzha",
+                "placeSlug": "alappuzha",
+                "duration": "About 1.5 hours",
+                "note": "About 62 km south along the coast."
+              },
+              {
+                "time": "11 am",
+                "name": "Shikara canal cruise",
+                "placeSlug": "alappuzha",
+                "duration": "3–4 hours",
+                "note": "Smaller than a houseboat; reaches village canals and paddy fields. Agree the route and duration before boarding."
+              },
+              {
+                "time": "4:30 pm",
+                "name": "Alappuzha Beach and the old pier",
+                "placeSlug": "alappuzha",
+                "duration": "1.5 hours",
+                "note": "Sunset by the lighthouse and the 137-year-old pier."
+              }
+            ],
+            "travel": "Kochi → Alappuzha about 62 km (estimate: 1.5 hours by road).",
+            "distanceKm": 62,
+            "distance": "About 62 km",
+            "driveTime": "About 1.5 hours (estimate)",
+            "transport": "Taxi, then shikara",
+            "meals": "Karimeen pollichathu (pearl-spot fish in banana leaf) for lunch.",
+            "overnight": "Alappuzha, or Marari Beach about 11 km north"
+          },
+          {
+            "title": "Day 3 — Train to Varkala: the cliffs",
+            "summary": "A morning train down the coast, then Papanasam beach and sunset from the North Cliff.",
+            "stops": [
+              {
+                "time": "Morning",
+                "name": "Train Alappuzha → Varkala Sivagiri",
+                "placeSlug": "varkala",
+                "duration": "About 1 hr 40 min – 2 hrs",
+                "note": "Book a reserved seat on IRCTC; Varkala station is about 2–3 km from the cliff (estimate)."
+              },
+              {
+                "time": "2 pm",
+                "name": "Janardhana Swamy Temple",
+                "placeSlug": "varkala",
+                "duration": "45 minutes",
+                "note": "The 2,000-year-old Vishnu temple above the beach."
+              },
+              {
+                "time": "3 pm",
+                "name": "Papanasam Beach",
+                "placeSlug": "varkala",
+                "duration": "2 hours",
+                "note": "The main beach below the cliffs; swim only between the lifeguard flags."
+              },
+              {
+                "time": "5:30 pm",
+                "name": "North Cliff walk and sunset",
+                "placeSlug": "varkala",
+                "duration": "1.5 hours",
+                "note": "Cafés line the cliff path; the laterite cliffs are a National Geological Monument."
+              }
+            ],
+            "travel": "Alappuzha → Varkala about 108 km; fastest trains about 1 hour 40 minutes.",
+            "distanceKm": 108,
+            "distance": "About 108 km",
+            "driveTime": "About 1 hr 40 min by train",
+            "transport": "Train",
+            "meals": "Lunch and dinner at the North Cliff cafés.",
+            "overnight": "Varkala (North Cliff)"
+          },
+          {
+            "title": "Day 4 — Trivandrum and Kovalam",
+            "summary": "The Travancore palace museum and the temple quarter at East Fort, then on to Kovalam's beaches.",
+            "stops": [
+              {
+                "time": "9 am",
+                "name": "Drive to Thiruvananthapuram",
+                "placeSlug": "thiruvananthapuram",
+                "duration": "About 1.5 hours",
+                "note": "Varkala is about 50 km north of the city."
+              },
+              {
+                "time": "10:30 am",
+                "name": "Kuthiramalika Palace Museum",
+                "placeSlug": "thiruvananthapuram",
+                "duration": "1 hour",
+                "note": "Travancore palace beside the temple, with 122 carved horses. Closed on Mondays."
+              },
+              {
+                "time": "11:45 am",
+                "name": "Sree Padmanabhaswamy Temple (outside, or darshan for Hindus)",
+                "placeSlug": "thiruvananthapuram",
+                "duration": "30 min – 1.5 hours",
+                "note": "Only Hindus may enter, in a dhoti or sari; non-Hindus can view the gopuram and tank from outside."
+              },
+              {
+                "time": "2:30 pm",
+                "name": "Napier Museum and zoo complex",
+                "placeSlug": "thiruvananthapuram",
+                "duration": "1.5 hours",
+                "note": "The 1880 Indo-Saracenic building by Robert Chisholm."
+              },
+              {
+                "time": "5 pm",
+                "name": "Kovalam Lighthouse Beach at sunset",
+                "placeSlug": "kovalam",
+                "duration": "2 hours",
+                "note": "About 16 km south of the city."
+              }
+            ],
+            "travel": "Varkala → Thiruvananthapuram about 50 km; Thiruvananthapuram → Kovalam about 16 km.",
+            "distanceKm": 66,
+            "distance": "About 66 km",
+            "driveTime": "About 2–2.5 hours of driving (estimate)",
+            "transport": "Taxi",
+            "meals": "Banana-leaf meals near East Fort for lunch; seafood on Kovalam's beach front.",
+            "overnight": "Kovalam",
+            "logistics": "Monday? The palace museum and Napier Museum are both closed — spend the day at Kovalam and Vizhinjam instead."
+          },
+          {
+            "title": "Day 5 — Kovalam morning and departure",
+            "summary": "A swim in the calm bay, the Vizhinjam lighthouse, then the short ride to the airport.",
+            "stops": [
+              {
+                "time": "7 am",
+                "name": "Kovalam beaches",
+                "placeSlug": "kovalam",
+                "duration": "2 hours",
+                "note": "Lighthouse, Hawah and Samudra beaches; the headland makes a calm bathing bay."
+              },
+              {
+                "time": "10 am",
+                "name": "Vizhinjam lighthouse and rock-cut cave temple",
+                "placeSlug": "kovalam",
+                "duration": "1 hour"
+              },
+              {
+                "time": "Midday",
+                "name": "Transfer to Trivandrum airport",
+                "duration": "About 30 minutes",
+                "note": "The airport is 10–15 km from Kovalam."
+              }
+            ],
+            "travel": "Kovalam → Trivandrum airport 10–15 km.",
+            "distanceKm": 15,
+            "distance": "10–15 km",
+            "driveTime": "About 30 minutes (estimate)",
+            "transport": "Taxi",
+            "meals": "Breakfast at the hotel.",
+            "overnight": "Departure"
+          }
+        ],
+        "budget": {
+          "assumptions": "Sourced entry rules only. Hotels, taxis, the shikara and the train vary with season and class and are not estimated here.",
+          "lines": [
+            {
+              "label": "Train Alappuzha → Varkala",
+              "amount": "Not estimated",
+              "basis": "Depends on train and class; check IRCTC"
+            },
+            {
+              "label": "Shikara canal cruise",
+              "amount": "Not estimated",
+              "basis": "Hourly rates vary; agree the price before boarding"
+            }
+          ]
+        },
+        "booking": [
+          {
+            "item": "Train",
+            "detail": "Reserve Alappuzha → Varkala on IRCTC; several daily trains, fastest about 1 hr 40 min."
+          },
+          {
+            "item": "Shikara",
+            "detail": "Book with a Kerala Tourism-registered operator at the Alappuzha boat jetty; fix route, hours and price first."
+          },
+          {
+            "item": "Hotels",
+            "detail": "Book Varkala's North Cliff and Kovalam stays early for December–January."
+          },
+          {
+            "item": "Flights",
+            "detail": "Book an open-jaw ticket: into Kochi, out of Trivandrum."
+          }
+        ],
+        "alternatives": [
+          "Want a night on the water? Replace the shikara and hotel with an overnight houseboat (boards around noon, returns 9 am) and take the train to Varkala the next morning.",
+          "Prefer quiet? Stay at Marari instead of Alappuzha town, and Samudra instead of Lighthouse Beach.",
+          "Short on time? Skip Trivandrum's museums and go straight from Varkala to Kovalam.",
+          "Add Poovar's estuary and mangroves as a half-day trip from Kovalam."
+        ],
+        "tips": [
+          "Plan around weekly closures: Mattancherry (Friday), the synagogue (Friday–Saturday), Trivandrum's palace museum (Monday).",
+          "Swim only at lifeguard-patrolled stretches; currents are strong, especially off Varkala.",
+          "Carry a dhoti or sari if you plan darshan at Padmanabhaswamy; shirts, trousers and salwar are not allowed inside."
+        ],
+        "prep": [
+          {
+            "title": "Weather",
+            "body": "Coastal Kerala is hot and humid, especially March–May. Light cotton, sunscreen and a hat."
+          },
+          {
+            "title": "Dress",
+            "body": "Beachwear only on the beach; cover up in towns, churches and temples."
+          }
+        ],
+        "faqs": [
+          {
+            "q": "Can non-Hindus visit the Padmanabhaswamy Temple?",
+            "a": "No — entry is restricted to Hindus. Non-Hindus can see the temple tower and tank from outside, and visit Kuthiramalika Palace next door."
+          },
+          {
+            "q": "Is the train from Alappuzha to Varkala worth it?",
+            "a": "Yes — it is quicker than many road transfers (about 1 hr 40 min on the fastest trains) and runs along the coast."
+          },
+          {
+            "q": "Varkala or Kovalam?",
+            "a": "Varkala is calmer, with cliff-top cafés; Kovalam is busier, with three adjoining beaches. This route gives you a night in each."
+          }
+        ]
+      }
     }
   ]
 }

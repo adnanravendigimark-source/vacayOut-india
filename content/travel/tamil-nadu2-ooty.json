@@ -1,0 +1,720 @@
+{
+ "cluster": "tamil-nadu2-ooty",
+ "title": "Ooty (Batch 2)",
+ "researchedAt": "2026-11-18",
+ "selection": "Batch 2. Ooty had 6 sections; this adds who it's for, practical info (including the Nilgiris vehicle e-pass), food, shopping, festivals and common mistakes, a fuller overview (pending review) and rewrites the thin ooty-3-days itinerary (moved here from tamil-nadu.json). Not covered: entry fees and toy-train fares. Note: Botanical Garden date (1897 vs 1842) and Doddabetta height (2,637 vs 2,623 m) differ between sources; neither number is used here.",
+ "sources": {
+  "TN_OOTY": {
+   "url": "https://www.tamilnadutourism.tn.gov.in/destinations/ooty",
+   "title": "Ooty — Tamil Nadu Tourism",
+   "authority": "government"
+  },
+  "II_OOTY": {
+   "url": "https://www.incredibleindia.gov.in/en/tamil-nadu/ooty",
+   "title": "Ooty — Incredible India",
+   "authority": "government"
+  },
+  "W_OOTY": {
+   "url": "https://en.wikipedia.org/wiki/Ooty",
+   "title": "Ooty — Wikipedia",
+   "authority": "reference"
+  },
+  "OT_EPASS": {
+   "url": "https://outlooktraveller.com/travelnews/whats-new/kodaikanal-and-ooty-e-pass-extended-heres-all-you-need-to-know-about-it",
+   "title": "Explained: E-Pass System in Nilgiris and Kodaikanal — Outlook Traveller",
+   "authority": "media"
+  }
+ },
+ "facts": {
+  "OO1": {
+   "place": "tamil-nadu/ooty",
+   "topic": "Altitude",
+   "claim": "Ooty is at about 2,240 m in the Nilgiri Mountains of the Western Ghats.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "W_OOTY",
+     "quote": "It is located at an altitude of 2,240 m (7,350 ft), in the Nilgiri Mountains"
+    }
+   ]
+  },
+  "OO2": {
+   "place": "tamil-nadu/ooty",
+   "topic": "Climate",
+   "claim": "Summer temperatures average about 10–25 °C and winter about 0–21 °C.",
+   "claimType": "general",
+   "kind": "seasonal",
+   "evidence": [
+    {
+     "source": "W_OOTY",
+     "quote": "the average between 10–25 °C (50–77 °F) during summer and 0–21 °C (32–70 °F) during winter"
+    }
+   ]
+  },
+  "OO3": {
+   "place": "tamil-nadu/ooty",
+   "topic": "Rain",
+   "claim": "Ooty gets heavy rain in both the south-west and north-east monsoons.",
+   "claimType": "general",
+   "kind": "seasonal",
+   "evidence": [
+    {
+     "source": "W_OOTY",
+     "quote": "The town gets heavy rainfall during both south-west and north-east monsoons"
+    }
+   ]
+  },
+  "OO4": {
+   "place": "tamil-nadu/ooty",
+   "topic": "Best time",
+   "claim": "Tamil Nadu Tourism names March–June as the best months; Incredible India calls October–March the peak tourist season.",
+   "claimType": "schedule",
+   "kind": "seasonal",
+   "evidence": [
+    {
+     "source": "TN_OOTY",
+     "quote": "the best is the summer months between March and June"
+    },
+    {
+     "source": "II_OOTY",
+     "quote": "While October to March is peak season for tourists"
+    }
+   ]
+  },
+  "OO5": {
+   "place": "tamil-nadu/ooty",
+   "topic": "Getting there",
+   "claim": "Coimbatore airport and Coimbatore railway station are each about 87–88 km away; the toy train runs up from Mettupalayam via Coonoor.",
+   "claimType": "distance",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "TN_OOTY",
+     "quote": "Coimbatore International Airport, about 88 km away."
+    },
+    {
+     "source": "TN_OOTY",
+     "quote": "Coimbatore Railway Station, about 87 km away."
+    }
+   ]
+  },
+  "OO6": {
+   "place": "tamil-nadu/nilgiri-mountain-railway",
+   "topic": "Toy train",
+   "claim": "The Nilgiri Mountain Railway, a UNESCO World Heritage site built in 1908, takes nearly five hours from Mettupalayam to Ooty.",
+   "claimType": "schedule",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "II_OOTY",
+     "quote": "the easy-paced train ride takes nearly five hours from Mettupalayam to Ooty"
+    }
+   ]
+  },
+  "OO7": {
+   "place": "tamil-nadu/ooty",
+   "topic": "Roads and buses",
+   "claim": "Ooty is reached by the Nilgiri ghat roads (NH 181); state buses from Tamil Nadu, Karnataka and Kerala use the Ooty bus stand.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "W_OOTY",
+     "quote": "Ooty is connected by roads known as the Nilgiri Ghat Roads and is situated on National Highway 181."
+    }
+   ]
+  },
+  "OO8": {
+   "place": "tamil-nadu/ooty",
+   "topic": "E-pass",
+   "claim": "Tourist vehicles not registered in the Nilgiris need an e-pass (epass.tnega.org) to enter the district; the scheme began in May 2024 and has had daily caps in peak months.",
+   "claimType": "general",
+   "kind": "seasonal",
+   "evidence": [
+    {
+     "source": "OT_EPASS",
+     "quote": "All tourists driving to the Nilgiri hills must ensure their vehicles are registered in the Nilgiris District or obtain an e-pass"
+    },
+    {
+     "source": "OT_EPASS",
+     "quote": "To apply for an e-pass to Kodaikanal or the Nilgiris, visit https://epass.tnega.org."
+    }
+   ]
+  },
+  "OO9": {
+   "place": "tamil-nadu/doddabetta",
+   "topic": "Doddabetta distance",
+   "claim": "Doddabetta, the highest peak in the Nilgiris, is about 10 km from Ooty.",
+   "claimType": "distance",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "W_OOTY",
+     "quote": "in the Nilgiris, about 10 km (6.2 mi) from Ooty"
+    }
+   ]
+  },
+  "OO10": {
+   "place": "tamil-nadu/pykara",
+   "topic": "Pykara distance",
+   "claim": "The Pykara river is about 19 km from Ooty; its last two cascades, of 55 m and 61 m, are the Pykara Falls.",
+   "claimType": "distance",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "W_OOTY",
+     "quote": "The Pykara, a river located 19 km (12 mi) from Ooty"
+    }
+   ]
+  },
+  "OO11": {
+   "place": "tamil-nadu/ooty",
+   "topic": "Coonoor",
+   "claim": "Coonoor is 21 km from Ooty.",
+   "claimType": "distance",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "II_OOTY",
+     "quote": "Unveil the enchanting beauty of Coonoor, just 21 km from Ooty"
+    }
+   ]
+  },
+  "OO12": {
+   "place": "tamil-nadu/ooty",
+   "topic": "Mudumalai",
+   "claim": "Mudumalai National Park and tiger reserve is about 31 km north-west of Ooty.",
+   "claimType": "distance",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "W_OOTY",
+     "quote": "Mudumalai National Park and tiger reserve lies on the north-western side, about 31 km (19 mi) from Ooty"
+    }
+   ]
+  },
+  "OO13": {
+   "place": "tamil-nadu/ooty",
+   "topic": "Flower Show",
+   "claim": "The Botanical Garden hosts the annual flower show in May.",
+   "claimType": "schedule",
+   "kind": "seasonal",
+   "evidence": [
+    {
+     "source": "W_OOTY",
+     "quote": "and hosts an annual flower show in May."
+    }
+   ]
+  },
+  "OO14": {
+   "place": "tamil-nadu/ooty",
+   "topic": "Rose Garden",
+   "claim": "The Government Rose Garden on Elk Hill is India's largest rose garden.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "W_OOTY",
+     "quote": "is the largest rose garden in India."
+    }
+   ]
+  },
+  "OO15": {
+   "place": "tamil-nadu/ooty",
+   "topic": "Tribal heritage",
+   "claim": "The Toda village and the Government Tribal Museum show the culture of the Nilgiris' indigenous communities; the museum is about 10 km from town.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "II_OOTY",
+     "quote": "Immerse yourself in the authentic experience of The Toda Village"
+    },
+    {
+     "source": "W_OOTY",
+     "quote": "A Tribal Museum was opened in 1995 as a part of the Tribal Research Center."
+    }
+   ]
+  },
+  "OO16": {
+   "place": "tamil-nadu/ooty",
+   "topic": "Churches and temples",
+   "claim": "St Stephen's Church (1829) is one of the oldest in the Nilgiris; Elk Hill Murugan Temple is 300 steps up.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "W_OOTY",
+     "quote": "St Stephen's Church, built in 1829, is one of the oldest churches in the Nilgiris district."
+    },
+    {
+     "source": "II_OOTY",
+     "quote": "Climb up 300 steps to find solace amidst natural beauty at Elk Hill Murugan Temple"
+    }
+   ]
+  },
+  "OO17": {
+   "place": "tamil-nadu/ooty",
+   "topic": "Shopping",
+   "claim": "Shop at Charring Cross, the Tibetan Market near the Botanical Garden, Upper Bazaar Road and the Municipal Market (over 1,500 shops) for chocolates, woollens, tea, spices and eucalyptus oil.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "II_OOTY",
+     "quote": "Begin your shopping adventure at Charring Cross"
+    },
+    {
+     "source": "II_OOTY",
+     "quote": "visit the Ooty Municipal Market, boasting over 1,500 shops"
+    }
+   ]
+  },
+  "OO18": {
+   "place": "tamil-nadu/ooty",
+   "topic": "Food",
+   "claim": "Try homemade chocolates, pastries with Nilgiri tea, dosas and idli-vada; Ooty varkey biscuits have a GI tag.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "II_OOTY",
+     "quote": "A must-do for foodies in Ooty is indulging in heavenly pastries with tea."
+    },
+    {
+     "source": "W_OOTY",
+     "quote": "Ooty varkey is a crispy and crusty cookie snack popular in Ooty."
+    }
+   ]
+  },
+  "OO19": {
+   "place": "tamil-nadu/ooty",
+   "topic": "Festivals",
+   "claim": "January brings the Tea and Tourism Festival, April the Mariamman Temple Festival and May the Flower Show.",
+   "claimType": "schedule",
+   "kind": "seasonal",
+   "evidence": [
+    {
+     "source": "II_OOTY",
+     "quote": "Kickstart your festival adventure in January with the Tea and Tourism Festival"
+    },
+    {
+     "source": "II_OOTY",
+     "quote": "As April arrives, dive into the heart of tradition at the Ooty Mariamman Temple Festival."
+    }
+   ]
+  },
+  "OO20": {
+   "place": "tamil-nadu/ooty",
+   "topic": "Lakes and falls",
+   "claim": "Beyond Ooty Lake: Avalanche Lake, and the 100-ft Kalhatti Falls reached by a two-mile trek.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "II_OOTY",
+     "quote": "where a two-mile trek through dense foliage leads you to the majestic 100-ft-high waterfall"
+    }
+   ]
+  },
+  "OO21": {
+   "place": "tamil-nadu/ooty",
+   "topic": "Pine Forest",
+   "claim": "The Pine Forest is about 15 minutes from the town centre.",
+   "claimType": "distance",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "TN_OOTY",
+     "quote": "A journey of just 15 minutes from Ooty town centre will take you to the famed Pine Tree Forests of Ooty."
+    }
+   ]
+  },
+  "OO22": {
+   "place": "tamil-nadu/ooty",
+   "topic": "Biosphere",
+   "claim": "Ooty is part of the Nilgiri Biosphere Reserve, the largest protected forest area in India.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "W_OOTY",
+     "quote": "Ooty forms part of the Nilgiri Biosphere Reserve, the largest protected forest area in India."
+    }
+   ]
+  }
+ },
+ "places": [
+  {
+   "key": "tamil-nadu/ooty",
+   "kind": "town",
+   "name": "Ooty (Udhagamandalam)",
+   "parent": "tamil-nadu",
+   "summary": "The Queen of Hill Stations in the Nilgiris: the toy train, a botanical garden, lakes, tea estates and Tamil Nadu's highest peak.",
+   "seoTitle": "Ooty Travel Guide: Toy Train, Lakes & Doddabetta",
+   "seoDescription": "Plan a trip to Ooty: the Nilgiri Mountain Railway, Botanical Garden, Ooty Lake, Doddabetta peak, Pykara, tea factory and the best time to visit.",
+   "lat": 11.4086,
+   "lng": 76.6939,
+   "tripTypes": [
+    "nature",
+    "family",
+    "romantic"
+   ],
+   "images": [
+    {
+     "commons": "File:Ooty lake.jpg",
+     "alt": "Ooty Lake among the Nilgiri hills",
+     "hero": true
+    }
+   ],
+   "relations": [],
+   "sections": {
+    "overview": {
+     "text": "Udhagamandalam, better known as Ooty, sits at about 2,240 m in the Nilgiri Mountains of the Western Ghats. Tamil Nadu Tourism calls it the Queen of Hill Stations. The British turned it into a summer retreat, and the town is still cool all year, with summer days of about 10–25 °C and winter nights that can touch freezing.\n\nThe best-known way up is the Nilgiri Mountain Railway, a UNESCO-listed toy train that takes nearly five hours from Mettupalayam. In town are the Botanical Garden, which holds the Flower Show each May, Ooty Lake and India's largest rose garden. Doddabetta, the highest peak in the Nilgiris, is about 10 km away, Pykara's falls about 19 km and Coonoor 21 km. Ooty lies inside the Nilgiri Biosphere Reserve, and tea estates, Toda villages and pine forests are all close. It suits families, couples and anyone escaping the heat of the plains.",
+     "facts": [
+      "OO1",
+      "OO2",
+      "OO6",
+      "OO13",
+      "OO14",
+      "OO9",
+      "OO10",
+      "OO11",
+      "OO22",
+      "OO15"
+     ]
+    },
+    "who_its_for": {
+     "items": [
+      {
+       "title": "Families",
+       "body": "Boating on Ooty Lake, the Botanical Garden and the toy train."
+      },
+      {
+       "title": "Couples",
+       "body": "Misty viewpoints, the Rose Garden and quiet lakes such as Avalanche."
+      },
+      {
+       "title": "Walkers",
+       "body": "The Kalhatti Falls trek, Doddabetta and the pine forests."
+      },
+      {
+       "title": "Culture seekers",
+       "body": "Toda villages, the Tribal Museum, St Stephen's Church and Elk Hill Murugan Temple."
+      },
+      {
+       "title": "Festival-goers",
+       "body": "The Tea and Tourism Festival in January, the Mariamman Temple Festival in April and the Flower Show in May."
+      }
+     ],
+     "facts": [
+      "OO6",
+      "OO14",
+      "OO20",
+      "OO9",
+      "OO21",
+      "OO15",
+      "OO16",
+      "OO19",
+      "OO13"
+     ]
+    },
+    "practical_info": {
+     "items": [
+      {
+       "title": "Getting there",
+       "body": "Coimbatore airport (about 88 km) and Coimbatore railway station (about 87 km), then by road up the ghats or the toy train from Mettupalayam via Coonoor.",
+       "status": "verified"
+      },
+      {
+       "title": "Driving in: e-pass",
+       "body": "Tourist vehicles not registered in the Nilgiris need an e-pass from epass.tnega.org before reaching the checkpost. Daily caps have applied in peak months, so apply as soon as your dates are fixed and check the current rules.",
+       "status": "seasonal"
+      },
+      {
+       "title": "Buses",
+       "body": "Tamil Nadu, Karnataka and Kerala state buses run to the Ooty bus stand.",
+       "status": "verified"
+      },
+      {
+       "title": "Weather",
+       "body": "Summer averages about 10–25 °C and winter about 0–21 °C. Both monsoons bring heavy rain.",
+       "status": "seasonal"
+      }
+     ],
+     "facts": [
+      "OO5",
+      "OO8",
+      "OO7",
+      "OO2",
+      "OO3"
+     ]
+    },
+    "food": {
+     "items": [
+      {
+       "body": "Homemade chocolates, a long-standing Ooty speciality.",
+       "status": "verified"
+      },
+      {
+       "body": "Pastries with a pot of Nilgiri tea at an old bakery.",
+       "status": "verified"
+      },
+      {
+       "body": "Ooty varkey, a crisp biscuit with a GI tag.",
+       "status": "verified"
+      },
+      {
+       "body": "South Indian breakfasts of dosa, idli and vada with sambar.",
+       "status": "verified"
+      }
+     ],
+     "facts": [
+      "OO18"
+     ]
+    },
+    "shopping": {
+     "items": [
+      {
+       "body": "Chocolates, woollens and gifts at Charring Cross.",
+       "status": "verified"
+      },
+      {
+       "body": "Shawls and woollens at the Tibetan Market near the Botanical Garden.",
+       "status": "verified"
+      },
+      {
+       "body": "Spices and Nilgiri tea on Upper Bazaar Road.",
+       "status": "verified"
+      },
+      {
+       "body": "The Municipal Market, with over 1,500 shops.",
+       "status": "verified"
+      }
+     ],
+     "facts": [
+      "OO17"
+     ]
+    },
+    "key_facts": {
+     "items": [
+      {
+       "title": "Altitude",
+       "body": "About 2,240 m",
+       "status": "verified"
+      },
+      {
+       "title": "Climate",
+       "body": "Summer about 10–25 °C; winter about 0–21 °C",
+       "status": "seasonal"
+      },
+      {
+       "title": "Nearest airport",
+       "body": "Coimbatore, about 88 km",
+       "status": "verified"
+      },
+      {
+       "title": "Toy train",
+       "body": "Nearly 5 hours up from Mettupalayam",
+       "status": "verified"
+      }
+     ],
+     "facts": [
+      "OO1",
+      "OO2",
+      "OO5",
+      "OO6"
+     ]
+    },
+    "common_mistakes": {
+     "items": [
+      {
+       "body": "Driving up without an e-pass. Apply online before you reach the Nilgiris checkpost."
+      },
+      {
+       "body": "Packing for the plains. Ooty nights can drop to near freezing in winter."
+      },
+      {
+       "body": "Trying Doddabetta, Pykara and Coonoor on one day. They lie in different directions on slow ghat roads."
+      },
+      {
+       "body": "Arriving in May without a booking. The Flower Show weekend is one of the busiest of the year."
+      }
+     ],
+     "facts": [
+      "OO8",
+      "OO2",
+      "OO9",
+      "OO10",
+      "OO11",
+      "OO13"
+     ]
+    }
+   }
+  }
+ ],
+ "itineraries": [
+  {
+   "place": "tamil-nadu/ooty",
+   "slug": "ooty-3-days-toy-train-and-nilgiris",
+   "title": "Ooty in 3 days: the toy train and the Nilgiris",
+   "durationDays": 3,
+   "tripTypes": [
+    "nature",
+    "family",
+    "romantic"
+   ],
+   "summary": "Ride the toy train up from Mettupalayam, then two days of gardens, lakes, tea and Tamil Nadu's highest peak.",
+   "seoTitle": "Ooty 3-Day Itinerary: Toy Train, Lakes & Doddabetta",
+   "seoDescription": "Three days in Ooty: the Nilgiri Mountain Railway from Mettupalayam, the Botanical Garden, Ooty Lake, Doddabetta, the tea factory and Pykara.",
+   "facts": [
+    "OO5",
+    "OO6",
+    "OO9",
+    "OO10",
+    "OO8",
+    "OO4",
+    "OO2",
+    "OO18",
+    "OO13",
+    "OO11",
+    "OO12"
+   ],
+   "plan": {
+    "overview": "The classic way into the Nilgiris: up on the toy train, a day in town, and a day out to Doddabetta and Pykara. It suits families and first-timers, and needs no car.",
+    "style": "Easy hill-station break",
+    "start": "Coimbatore (airport or station)",
+    "end": "Ooty",
+    "season": "Any time. Tamil Nadu Tourism names March–June as best; October–March is peak season. Both monsoons bring heavy rain.",
+    "difficulty": "Easy",
+    "transport": "Toy train up; taxis or buses in and around Ooty",
+    "days": [
+     {
+      "title": "Up the Nilgiris on the toy train",
+      "summary": "Get to Mettupalayam early, then ride the Nilgiri Mountain Railway up through Coonoor. Spend the evening walking in town.",
+      "stops": [
+       {
+        "time": "Early morning",
+        "name": "Nilgiri Mountain Railway, Mettupalayam to Ooty",
+        "placeSlug": "nilgiri-mountain-railway",
+        "duration": "Nearly 5 hours",
+        "note": "Book seats well ahead."
+       },
+       {
+        "time": "Evening",
+        "name": "Charring Cross and the bazaar",
+        "duration": "2 hours"
+       }
+      ],
+      "travel": "Coimbatore to Mettupalayam by road or train, then the toy train.",
+      "distance": "Coimbatore–Ooty about 87–88 km",
+      "driveTime": "Toy train: nearly 5 hours (Incredible India)",
+      "meals": "Breakfast before boarding; dinner in town, with homemade chocolates to finish.",
+      "overnight": "Ooty",
+      "altitude": 2240
+     },
+     {
+      "title": "Garden, tea and the lake",
+      "summary": "A day in and around town, all within easy taxi range.",
+      "stops": [
+       {
+        "time": "Morning",
+        "name": "Government Botanical Garden",
+        "placeSlug": "ooty-botanical-garden",
+        "duration": "2 hours"
+       },
+       {
+        "time": "Afternoon",
+        "name": "Tea factory and museum",
+        "placeSlug": "ooty-tea-factory",
+        "duration": "1.5 hours"
+       },
+       {
+        "time": "Late afternoon",
+        "name": "Boating on Ooty Lake",
+        "placeSlug": "ooty-lake",
+        "duration": "1.5 hours"
+       }
+      ],
+      "travel": "Short taxi or auto hops in town.",
+      "meals": "Lunch near the garden; tea and pastries at an old bakery.",
+      "overnight": "Ooty",
+      "altitude": 2240
+     },
+     {
+      "title": "Doddabetta and Pykara",
+      "summary": "Go up Doddabetta early before the clouds build, then drive out to Pykara's falls and lake.",
+      "stops": [
+       {
+        "time": "Early morning",
+        "name": "Doddabetta Peak",
+        "placeSlug": "doddabetta",
+        "duration": "1.5 hours"
+       },
+       {
+        "time": "Afternoon",
+        "name": "Pykara Falls and Lake",
+        "placeSlug": "pykara",
+        "duration": "3 hours"
+       }
+      ],
+      "travel": "Hire a taxi for the day.",
+      "distance": "Doddabetta about 10 km; Pykara about 19 km from Ooty",
+      "meals": "Pack snacks for Pykara; dinner back in Ooty.",
+      "overnight": "Ooty",
+      "altitude": 2240
+     }
+    ],
+    "budget": {
+     "assumptions": "VacayOut has no verified current prices for Ooty hotels, taxis, toy-train tickets or entry fees. Budget for your own choices and check fees at each site.",
+     "lines": []
+    },
+    "booking": [
+     {
+      "item": "Toy train",
+      "detail": "Book on Indian Railways as early as you can; seats sell out in season."
+     },
+     {
+      "item": "E-pass",
+      "detail": "Only if you drive in: apply at epass.tnega.org before reaching the Nilgiris."
+     }
+    ],
+    "alternatives": [
+     "Driving instead of the train: apply for the e-pass, and use day 1 for Coonoor (21 km) on the way up.",
+     "With a spare day: Mudumalai National Park, about 31 km away.",
+     "In May: time day 2 for the Flower Show at the Botanical Garden."
+    ],
+    "tips": [
+     "Carry layers: winter nights can drop to near freezing.",
+     "Visit viewpoints in the morning before cloud rolls in."
+    ],
+    "prep": [
+     {
+      "title": "Weather",
+      "body": "Summer averages about 10–25 °C, winter about 0–21 °C. Bring a warm layer and rain gear."
+     },
+     {
+      "title": "Getting to Coimbatore",
+      "body": "Coimbatore airport and station are each about 87–88 km from Ooty."
+     }
+    ],
+    "faqs": [
+     {
+      "q": "How long is the toy train ride?",
+      "a": "Nearly five hours from Mettupalayam to Ooty."
+     },
+     {
+      "q": "Do I need an e-pass?",
+      "a": "Only if you drive in a vehicle not registered in the Nilgiris. Apply at epass.tnega.org and check the current rules."
+     },
+     {
+      "q": "How far is Doddabetta?",
+      "a": "About 10 km from Ooty."
+     }
+    ]
+   },
+   "sources": []
+  }
+ ]
+}

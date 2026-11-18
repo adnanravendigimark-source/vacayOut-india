@@ -1,61 +1,41 @@
 import type { BlockOf } from "@/lib/chat/schema";
 import { BlockImage } from "./shared";
 
+/** Day-by-day plan as a timeline: a numbered dot per day on one line, each day in its own card. */
 export function ItineraryBlock({ block }: { block: BlockOf<"itinerary"> }) {
   return (
-    <div className="space-y-3.5">
-      <div className="flex items-center justify-between">
-        <h3 className="font-serif text-base sm:text-lg font-bold text-ink">
-          {block.title || "Day-by-Day Journey"}
-        </h3>
-        <span className="text-xs font-semibold text-coral">
-          {block.days.length} {block.days.length === 1 ? "Day Plan" : "Days Plan"}
+    <section aria-label={block.title || "Day-by-day plan"}>
+      <div className="flex items-baseline justify-between gap-3">
+        <h3 className="font-serif text-lg font-normal text-ink sm:text-xl">{block.title || "Day-by-day plan"}</h3>
+        <span className="shrink-0 rounded-full bg-[#FDF0EB] px-2.5 py-0.5 text-[0.6875rem] font-semibold text-coral">
+          {block.days.length} {block.days.length === 1 ? "day" : "days"}
         </span>
       </div>
 
-      <div className="space-y-3">
-        {block.days.map((day, i) => {
-          return (
-            <div
-              key={`${i}-${day.title}`}
-              className="rounded-2xl border border-[#EBE8E1] bg-white overflow-hidden shadow-xs hover:border-coral/30 transition-all"
-            >
-              {/* Day Header matching user screenshot */}
-              <div className="flex flex-wrap items-center justify-between gap-2.5 border-b border-[#F0ECE1] bg-white px-4 sm:px-5 py-3 sm:py-3.5">
-                <div className="flex items-center gap-2.5 sm:gap-3">
-                  <span className="rounded-md bg-coral px-2.5 py-1 text-xs font-bold tracking-wider text-white uppercase shadow-xs">
-                    DAY {i + 1}
-                  </span>
-                  <h4 className="font-serif text-[0.9375rem] sm:text-base font-bold text-ink">
-                    {day.title}
-                  </h4>
+      <ol className="relative mt-3 space-y-3 before:absolute before:bottom-4 before:left-[15px] before:top-4 before:w-px before:bg-[#E8E2D8]">
+        {block.days.map((day, i) => (
+          <li key={`${i}-${day.title}`} className="relative flex gap-3">
+            <span aria-hidden className="relative z-10 mt-3 flex size-8 shrink-0 items-center justify-center rounded-full bg-ink font-serif text-sm text-white ring-4 ring-white">{i + 1}</span>
+            <div className="min-w-0 flex-1 rounded-2xl border border-[#ECE9E2] bg-white p-4 transition-shadow hover:shadow-[0_14px_32px_-22px_rgba(25,25,25,0.4)]">
+              <div className="flex items-start gap-4">
+                <div className="min-w-0 flex-1">
+                  <p className="text-[0.6875rem] font-semibold uppercase tracking-wider text-coral">Day {i + 1}</p>
+                  <h4 className="mt-0.5 font-serif text-base font-normal leading-snug text-ink">{day.title}</h4>
+                  <ul className="mt-2 space-y-1.5 text-[0.8125rem] leading-relaxed text-[#444444] sm:text-sm">
+                    {day.items.map((item, idx) => (
+                      <li key={idx} className="flex items-start gap-2.5">
+                        <span aria-hidden className="mt-[0.55rem] size-1.5 shrink-0 rounded-full bg-coral" />
+                        <span>{item}</span>
+                      </li>
+                    ))}
+                  </ul>
                 </div>
-              </div>
-
-              {/* Day Content */}
-              <div className="p-4 sm:p-5 flex flex-col sm:flex-row gap-4 items-start justify-between">
-                <ul className="space-y-2 text-xs sm:text-sm text-[#3a3a3a] flex-1">
-                  {day.items.map((item, idx) => (
-                    <li key={idx} className="flex items-start gap-2.5 leading-relaxed">
-                      <span className="mt-1.5 size-1.5 shrink-0 rounded-full bg-coral" />
-                      <span>{item}</span>
-                    </li>
-                  ))}
-                </ul>
-                {day.photo ? (
-                  <div className="relative h-20 w-28 shrink-0 rounded-xl overflow-hidden self-start">
-                    <BlockImage
-                      photo={day.photo}
-                      sizes="120px"
-                      className="h-full w-full object-cover"
-                    />
-                  </div>
-                ) : null}
+                {day.photo ? <BlockImage photo={day.photo} sizes="112px" className="relative hidden h-20 w-28 shrink-0 rounded-xl sm:block" /> : null}
               </div>
             </div>
-          );
-        })}
-      </div>
-    </div>
+          </li>
+        ))}
+      </ol>
+    </section>
   );
 }

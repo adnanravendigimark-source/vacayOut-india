@@ -7,15 +7,25 @@ import type { ChatMessage } from "@/lib/chat/store";
 import { openAuth } from "@/lib/chat/client";
 import { BlockList } from "./blocks/block-list";
 
-function Thinking({ text }: { text?: string }) {
+function Thinking({ text, first }: { text?: string; first: boolean }) {
   return (
-    <div className="flex items-center gap-2.5 text-[0.875rem] text-muted py-2" role="status">
-      <span className="flex gap-1.5" aria-hidden>
-        <span className="size-2 animate-bounce rounded-full bg-coral [animation-delay:-0.3s]" />
-        <span className="size-2 animate-bounce rounded-full bg-coral [animation-delay:-0.15s]" />
-        <span className="size-2 animate-bounce rounded-full bg-coral" />
-      </span>
-      <span className="font-medium text-ink/75">{text ?? "Planning your trip…"}</span>
+    <div role="status" className="cx-in space-y-2.5 py-1">
+      <p className="flex items-center gap-2 text-[0.875rem] font-medium text-ink/75">
+        <span className="flex gap-1" aria-hidden>
+          <span className="size-1.5 animate-bounce rounded-full bg-coral [animation-delay:-0.3s]" />
+          <span className="size-1.5 animate-bounce rounded-full bg-coral [animation-delay:-0.15s]" />
+          <span className="size-1.5 animate-bounce rounded-full bg-coral" />
+        </span>
+        {text ?? "Planning your trip…"}
+      </p>
+      {/* Placeholder lines only before the first part of the answer arrives */}
+      {first ? (
+        <div aria-hidden className="space-y-2">
+          <span className="cx-shimmer block h-3 w-[88%] rounded-full" />
+          <span className="cx-shimmer block h-3 w-[72%] rounded-full" />
+          <span className="cx-shimmer block h-3 w-[54%] rounded-full" />
+        </div>
+      ) : null}
     </div>
   );
 }
@@ -49,7 +59,7 @@ function CopyButton({ blocks }: { blocks: Block[] }) {
           setTimeout(() => setCopied(false), 1500);
         }, () => {});
       }}
-      className="inline-flex items-center gap-1 text-[0.75rem] text-muted hover:text-ink"
+      className="inline-flex items-center gap-1.5 rounded-full border border-[#ECE9E2] bg-white px-3 py-1 text-[0.75rem] font-medium text-[#777777] transition-colors hover:border-ink hover:text-ink"
     >
       <Icon name={copied ? "checkCircle" : "fileText"} size={13} />
       {copied ? "Copied" : "Copy"}
@@ -70,8 +80,8 @@ export function ChatMessageView({
 }) {
   if (message.role === "user") {
     return (
-      <div className="flex justify-end animate-fade-in">
-        <div className="max-w-[85%] whitespace-pre-wrap rounded-2xl rounded-tr-sm bg-ink px-4.5 py-3 text-[0.9375rem] leading-relaxed text-white shadow-sm sm:max-w-[75%]">
+      <div className="cx-in flex justify-end">
+        <div className="max-w-[85%] whitespace-pre-wrap rounded-3xl rounded-br-md bg-ink px-4.5 py-3 text-[0.9375rem] leading-relaxed text-white shadow-[0_10px_24px_-16px_rgba(25,25,25,0.6)] sm:max-w-[75%]">
           <span className="sr-only">You: </span>
           {message.text}
         </div>
@@ -80,20 +90,20 @@ export function ChatMessageView({
   }
 
   return (
-    <div className="flex gap-3 sm:gap-4 animate-fade-in">
+    <div className="cx-in flex gap-3 sm:gap-4">
       <span
         aria-hidden
-        className="mt-1 flex size-8 shrink-0 items-center justify-center rounded-full bg-coral/10 border border-coral/20 text-coral shadow-xs"
+        className={`mt-0.5 flex size-8 shrink-0 items-center justify-center rounded-full bg-gradient-to-br from-[#F27A5E] to-coral text-white shadow-[0_6px_14px_-8px_rgba(236,98,66,0.8)] ${message.status === "streaming" ? "cx-live" : ""}`}
       >
-        <Icon name="sparkles" size={16} />
+        <Icon name="sparkles" size={15} />
       </span>
       <div className="min-w-0 flex-1 space-y-3" aria-live={message.status === "streaming" ? "polite" : undefined}>
         <span className="sr-only">VacayOut: </span>
         {message.blocks.length > 0 ? <BlockList blocks={message.blocks} onAsk={onAsk} busy={busy} /> : null}
-        {message.status === "streaming" && (message.blocks.length === 0 || message.statusText) ? <Thinking text={message.statusText} /> : null}
+        {message.status === "streaming" && (message.blocks.length === 0 || message.statusText) ? <Thinking text={message.statusText} first={message.blocks.length === 0} /> : null}
         {message.status === "done" && message.blocks.length ? <CopyButton blocks={message.blocks} /> : null}
         {message.status === "error" ? (
-          <div className="flex flex-wrap items-center gap-3 rounded-xl border border-coral/30 bg-coral/5 px-4 py-3 text-[0.875rem] text-ink">
+          <div className="cx-in flex flex-wrap items-center gap-3 rounded-2xl border border-[#F3D0C4] bg-[#FFF6F2] px-4 py-3 text-[0.875rem] text-ink">
             <span>{message.error ?? "Something went wrong."}</span>
             {message.needsAuth ? (
               <button type="button" onClick={() => openAuth({ mode: "signup" })} className="font-semibold text-coral underline underline-offset-4 hover:text-coral-hover">

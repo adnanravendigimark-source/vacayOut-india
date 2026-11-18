@@ -9,9 +9,10 @@ import { ItineraryBlock } from "./itinerary-block";
 import { CompareBlock } from "./compare-block";
 import { PicksBlock } from "./picks-block";
 import { BestTimeBlock, FaqsBlock, NoticeBlock, SourcesBlock, SuggestionsBlock, TextBlock } from "./misc-blocks";
+import "../chat.css";
 
 /** Leaflet only loads when an answer actually includes a map. */
-const MapBlock = dynamic(() => import("./map-block"), { ssr: false, loading: () => <div className="h-10 rounded-xl bg-sand" /> });
+const MapBlock = dynamic(() => import("./map-block"), { ssr: false, loading: () => <div className="cx-shimmer h-10 rounded-full" /> });
 
 const INFO = new Set(["reach", "stay", "food", "budget", "bookings"]);
 
@@ -40,31 +41,36 @@ export function BlockList({ blocks, onAsk, busy }: { blocks: Block[]; onAsk: (q:
 
   return (
     <div className="space-y-3.5">
-      {groups.map((g, i) => {
+      {groups.map((g, i) => (
+        // Each part fades in as it streams.
+        <div key={i} className="cx-in">{part(g)}</div>
+      ))}
+    </div>
+  );
+
+  function part(g: Block | Block[]) {
         if (Array.isArray(g)) {
           return (
-            <div key={i} className={`grid gap-3 ${g.length > 1 ? "md:grid-cols-2" : ""}`}>
+            <div className={`grid gap-3 ${g.length > 1 ? "md:grid-cols-2" : ""}`}>
               {g.map((b, j) => <InfoBlock key={j} block={b} />)}
             </div>
           );
         }
         switch (g.type) {
-          case "text": return <TextBlock key={i} block={g} />;
-          case "destination": return <DestinationBlock key={i} block={g} />;
-          case "tips": return <TipsBlock key={i} block={g} />;
-          case "compare": return <CompareBlock key={i} block={g} />;
-          case "picks": return <PicksBlock key={i} block={g} onAsk={onAsk} disabled={busy} />;
-          case "attractions": return <AttractionsBlock key={i} block={g} onAsk={onAsk} disabled={busy} />;
-          case "itinerary": return <ItineraryBlock key={i} block={g} />;
-          case "bestTime": return <BestTimeBlock key={i} block={g} />;
-          case "faqs": return <FaqsBlock key={i} block={g} />;
-          case "suggestions": return <SuggestionsBlock key={i} block={g} onAsk={onAsk} disabled={busy} />;
-          case "notice": return <NoticeBlock key={i} block={g} />;
-          case "sources": return <SourcesBlock key={i} block={g} />;
-          case "map": return <MapBlock key={i} block={g} />;
+          case "text": return <TextBlock block={g} />;
+          case "destination": return <DestinationBlock block={g} />;
+          case "tips": return <TipsBlock block={g} />;
+          case "compare": return <CompareBlock block={g} />;
+          case "picks": return <PicksBlock block={g} onAsk={onAsk} disabled={busy} />;
+          case "attractions": return <AttractionsBlock block={g} onAsk={onAsk} disabled={busy} />;
+          case "itinerary": return <ItineraryBlock block={g} />;
+          case "bestTime": return <BestTimeBlock block={g} />;
+          case "faqs": return <FaqsBlock block={g} />;
+          case "suggestions": return <SuggestionsBlock block={g} onAsk={onAsk} disabled={busy} />;
+          case "notice": return <NoticeBlock block={g} />;
+          case "sources": return <SourcesBlock block={g} />;
+          case "map": return <MapBlock block={g} />;
           default: return null;
         }
-      })}
-    </div>
-  );
+  }
 }

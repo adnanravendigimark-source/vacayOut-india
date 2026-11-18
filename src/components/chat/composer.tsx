@@ -41,10 +41,10 @@ export function Composer({
         e.preventDefault();
         submit();
       }}
-      className="rounded-2xl border border-line bg-white/95 p-2 sm:p-2.5 shadow-[var(--shadow-float)] backdrop-blur-md transition-all focus-within:ring-2 focus-within:ring-coral/40 focus-within:border-coral"
+      className="cx-box rounded-[1.75rem] border border-[#E8E3DB] bg-white p-2 shadow-[0_18px_44px_-24px_rgba(40,30,20,0.35)] transition-[transform,box-shadow] duration-300 focus-within:-translate-y-0.5 focus-within:border-transparent focus-within:shadow-[0_24px_56px_-24px_rgba(236,98,66,0.4)] sm:p-2.5"
     >
       <div className="flex items-end gap-2">
-        <Icon name="sparkles" size={20} className="mb-3 ml-2 shrink-0 text-coral" />
+        <Icon name="sparkles" size={20} className="mb-3 ml-2.5 shrink-0 text-coral" />
         <label htmlFor="chat-input" className="sr-only">
           Message VacayOut
         </label>
@@ -70,7 +70,7 @@ export function Composer({
             type="button"
             onClick={onStop}
             aria-label="Stop the reply"
-            className="mb-0.5 flex size-11 shrink-0 items-center justify-center rounded-full border border-line text-ink hover:border-ink transition-colors"
+            className="mb-0.5 flex size-11 shrink-0 items-center justify-center rounded-full border border-[#E5E2DC] text-ink transition-colors hover:border-ink"
           >
             <span aria-hidden className="size-3.5 rounded-sm bg-ink" />
           </button>
@@ -79,9 +79,9 @@ export function Composer({
             type="submit"
             aria-label="Send"
             disabled={!value.trim()}
-            className="mb-0.5 flex size-11 shrink-0 items-center justify-center rounded-full bg-coral text-white shadow-coral transition-all duration-200 hover:bg-coral-hover hover:scale-105 active:scale-95 disabled:bg-line disabled:text-muted disabled:shadow-none disabled:scale-100"
+            className="group mb-0.5 flex size-11 shrink-0 items-center justify-center rounded-full bg-ink text-white transition-all duration-200 hover:bg-coral active:scale-95 disabled:bg-[#EFECE6] disabled:text-[#AAAAAA]"
           >
-            <Icon name="arrowRight" size={19} strokeWidth={2.2} />
+            <Icon name="arrowRight" size={19} strokeWidth={2.2} className="transition-transform group-enabled:group-hover:translate-x-0.5" />
           </button>
         )}
       </div>

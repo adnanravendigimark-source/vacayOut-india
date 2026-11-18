@@ -20,6 +20,8 @@ type SK = Parameters<typeof approveSectionWithFacts>[1];
 
 const file = JSON.parse(readFileSync(process.argv[2], "utf8"));
 const dry = process.argv.includes("--dry");
+// --republish=slug,slug: re-publish these already-published itineraries (never locked ones) after a content update.
+const republish = new Set((process.argv.find((a) => a.startsWith("--republish="))?.slice(12) ?? "").split(",").filter(Boolean));
 const db = getDb();
 const [admin] = await db.select({ id: users.id }).from(users).where(eq(users.role, "admin")).limit(1);
 const order = (k: string) => (k.includes("/") ? 1 : 0); // states first, then destinations, then children by file order
@@ -53,7 +55,7 @@ for (const p of [...file.places].sort((a: { key: string }, b: { key: string }) =
 for (const it of file.itineraries ?? []) {
   const [row] = await db.select({ id: itineraries.id, status: itineraries.status, locked: itineraries.locked }).from(itineraries).where(eq(itineraries.slug, it.slug)).limit(1);
   if (!row) { console.log(`✗ itinerary ${it.slug}: not in DB`); continue; }
-  if (row.status === "published" || row.locked || dry) { console.log(`itinerary ${it.slug}: ${row.status}${row.locked ? " (edited by a person)" : ""}, left alone`); continue; }
+  if ((row.status === "published" && !republish.has(it.slug)) || row.locked || dry) { console.log(`itinerary ${it.slug}: ${row.status}${row.locked ? " (edited by a person)" : ""}, left alone`); continue; }
   const r = await publishItinerary(row.id, admin.id);
   console.log(`itinerary ${it.slug}: ${r.ok ? "published" : `NOT published — ${"problems" in r && r.problems ? r.problems.join("; ") : r.message}`}`);
 }

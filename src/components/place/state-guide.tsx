@@ -184,63 +184,6 @@ const DEFAULT_PRACTICAL_HIGHLIGHT: PracticalHighlight = {
   },
 };
 
-const STATE_GATEWAYS: Record<string, { title: string; subtitle: string; badges: { label: string; text: string }[] }> = {
-  "himachal-pradesh": {
-    title: "Planning your gateway from Delhi or Chandigarh",
-    subtitle: "Pick the direct gateway suited to your destination valley to avoid unnecessary mountain transit hours.",
-    badges: [
-      { label: "To Shimla:", text: "7–8 hrs (Volvo / Kalka Toy Train)" },
-      { label: "To Manali:", text: "11–13 hrs (Overnight Volvo / Bhuntar air)" },
-      { label: "To Dharamshala:", text: "9–10 hrs (Volvo / Gaggal air)" },
-    ],
-  },
-  uttarakhand: {
-    title: "Planning your gateway from Delhi, Dehradun or Haridwar",
-    subtitle: "Choose the Garhwal (west) or Kumaon (east) transit corridor to save mountain driving time.",
-    badges: [
-      { label: "To Rishikesh & Haridwar:", text: "4–5 hrs (Vande Bharat / NH 334)" },
-      { label: "To Mussoorie & Dehradun:", text: "5–6 hrs (Flight to DED / Shatabdi)" },
-      { label: "To Nainital & Corbett:", text: "5–6 hrs (Kathgodam Train / NH 9)" },
-    ],
-  },
-  rajasthan: {
-    title: "Planning your gateway from Delhi, Mumbai or Ahmedabad",
-    subtitle: "Use the Delhi-Mumbai Expressway or Western Railway mainline for fastest intercity transit.",
-    badges: [
-      { label: "To Jaipur:", text: "3.5–4 hrs (Vande Bharat / NE-4 Expressway)" },
-      { label: "To Udaipur:", text: "1.5 hrs flight / 6 hrs road from Ahmedabad" },
-      { label: "To Jodhpur & Jaisalmer:", text: "Overnight Superfast / Direct flights" },
-    ],
-  },
-  goa: {
-    title: "Planning your arrival by air, rail or coastal drive",
-    subtitle: "Select between North Goa (Mopa / Thivim) and South Goa (Dabolim / Madgaon) based on your stay.",
-    badges: [
-      { label: "To North Beaches:", text: "30–45 mins from Mopa (GOX) / Thivim rail" },
-      { label: "To South Heritage:", text: "30–45 mins from Dabolim (GOI) / Madgaon" },
-      { label: "Vande Bharat Express:", text: "8 hrs direct from Mumbai CSMT" },
-    ],
-  },
-  kerala: {
-    title: "Planning your gateway from Kochi, Trivandrum or Calicut",
-    subtitle: "Select the international airport and broad-gauge railhead closest to your circuit to minimise winding Ghat transit times.",
-    badges: [
-      { label: "To Kochi & Backwaters:", text: "Cochin Int'l Airport (COK) / Ernakulam Jn" },
-      { label: "To Munnar & Hills:", text: "3.5–4 hrs scenic drive from Kochi via NH 85" },
-      { label: "To Varkala & South:", text: "45 mins from Trivandrum (TRV) / Vande Bharat" },
-    ],
-  },
-  "jammu-and-kashmir": {
-    title: "Planning your arrival into Srinagar or Jammu",
-    subtitle: "Choose between Srinagar Airport for the Kashmir Valley or Jammu Tawi railhead for Vaishno Devi and the southern hills.",
-    badges: [
-      { label: "To Srinagar & Valley:", text: "Sheikh ul-Alam Airport (SXR) / 25 mins to Dal Lake" },
-      { label: "To Vaishno Devi & Katra:", text: "Jammu Tawi (JAT) / Shri Mata Vaishno Devi Katra (SVDK)" },
-      { label: "Vande Bharat Express:", text: "8 hrs direct from New Delhi to Katra" },
-    ],
-  },
-};
-
 /** Icon for a fact, by its title. */
 function factIcon(title: string | undefined): Name {
   const t = (title ?? "").toLowerCase();
@@ -364,21 +307,51 @@ function VisitFacts({ items }: { items: Item[] }) {
   );
 }
 
-function FactRows({ items, size = "sm" }: { items: Item[]; size?: "sm" | "xs" }) {
-  return (
-    <ul className={`space-y-1.5 ${size === "xs" ? "text-[0.75rem]" : "text-[0.8125rem]"} leading-snug text-[#555]`}>
-      {items.map((it, i) => (
-        <li key={i} className="flex gap-2">
-          <Icon name={factIcon(it.title)} size={13} className="mt-0.5 shrink-0 text-[#2D5A3F]" />
-          <span className="min-w-0">
-            {it.title ? <strong className="font-semibold text-ink">{it.title}: </strong> : null}
-            {it.body}
-            {it.status ? <StatusPill status={it.status} className="ml-1.5 align-middle" /> : null}
-          </span>
-        </li>
-      ))}
-    </ul>
-  );
+// How to reach: a stock photo per way in. Licences: CC0 or CC BY-SA, credited under the cards.
+const REACH_MODE: Record<"air" | "rail" | "road" | "sea", { title: string; icon: Name; img: string; alt: string; credit: string; src: string }> = {
+  air: { title: "By air", icon: "plane", img: "/transport/air.webp", alt: "The terminal of Kempegowda International Airport, Bengaluru", credit: "Bengaluru airport, sarangib (CC0)", src: "https://commons.wikimedia.org/wiki/File:Kempegowda-international-airport.jpg" },
+  rail: { title: "By rail", icon: "train", img: "/transport/rail.webp", alt: "Electric trains crossing green farmland in rural India", credit: "Trains in rural India, Saishna96 (CC BY-SA 4.0)", src: "https://commons.wikimedia.org/wiki/File:Electric_Trains_in_Rural_India_Landscape.jpg" },
+  road: { title: "By road", icon: "car", img: "/transport/road.webp", alt: "The lit Ahmedabad–Vadodara Expressway at night", credit: "Ahmedabad–Vadodara Expressway, Ridham Nagralawala (CC0)", src: "https://commons.wikimedia.org/wiki/File:Ahmedabad%E2%80%93Vadodara_Expressway,_India_(2015).jpg" },
+  sea: { title: "By sea", icon: "waves", img: "/transport/sea.webp", alt: "A Kochi Water Metro boat crossing the harbour", credit: "Kochi Water Metro, Tarunsamanta (CC BY-SA 4.0)", src: "https://commons.wikimedia.org/wiki/File:Water_metro_boat_at_Vypin_in_kochi_07.jpg" },
+};
+const REACH_RE: [keyof typeof REACH_MODE, RegExp][] = [
+  ["air", /\b(air(ports?|strips?|ways?)?|fly|flights?|flying)\b|\bby air\b/i],
+  ["rail", /\b(rail(way|head)?s?|trains?|stations?|metro)\b/i],
+  ["sea", /\b(ferr(y|ies)|ships?|sail|boats?|cruises?|jett(y|ies)|harbour|sea)\b/i],
+  ["road", /\b(road|bus(es)?|drive|driving|highways?|expressways?|taxis?|cars?|NH\s?\d+)\b/i],
+];
+/** Which way in a sentence is about: the mode whose keyword appears first. */
+function modeOf(text: string): keyof typeof REACH_MODE | null {
+  let best: { m: keyof typeof REACH_MODE; at: number } | null = null;
+  for (const [m, re] of REACH_RE) {
+    const hit = re.exec(text);
+    if (hit && (!best || hit.index < best.at)) best = { m, at: hit.index };
+  }
+  return best?.m ?? null;
+}
+/**
+ * Sorts the how-to-reach text into ways in. "By air: …" paragraphs are used as written; plain
+ * paragraphs are split into sentences and sorted by their first transport word. Anything else
+ * (permits, tips) becomes a note.
+ */
+function splitReach(text: string, items: Item[]) {
+  const buckets = new Map<keyof typeof REACH_MODE, string[]>();
+  const notes: string[] = [];
+  const add = (m: keyof typeof REACH_MODE | null, line: string) => (m ? buckets.set(m, [...(buckets.get(m) ?? []), line]) : notes.push(line));
+  for (const para of paragraphs(text)) {
+    const lab = labelled(para);
+    const labMode = lab ? modeOf(lab.label) : null;
+    if (lab && labMode) { add(labMode, lab.text); continue; }
+    for (const sent of para.split(/(?<=[.!?])\s+(?=[A-Z])/)) add(modeOf(sent), sent.trim());
+  }
+  for (const it of items) add(modeOf(`${it.title ?? ""} ${it.body}`), it.title ? `${it.title}: ${it.body}` : it.body);
+  const order: (keyof typeof REACH_MODE)[] = ["air", "rail", "road", "sea"];
+  return { modes: order.filter((m) => buckets.has(m)).map((m) => ({ mode: m, lines: buckets.get(m)! })), notes };
+}
+/** Picks out distances and times (e.g. "35 km", "5 hours", "1,190 km") in bold. */
+function highlightTrip(text: string): ReactNode[] {
+  const re = /(\b(?:about |around |some )?\d[\d,.]*(?:–\d[\d,.]*)?\s?(?:km|kilometres|hours?|hrs?|minutes?|mins?)\b)/gi;
+  return text.split(re).map((part, i) => (i % 2 ? <strong key={i} className="font-semibold text-ink">{part}</strong> : part));
 }
 
 function formatPoint(body: string) {
@@ -511,130 +484,8 @@ export function StateGuide({
     .slice(0, 6);
 
   // How to reach and best time: paragraphs written as "Label: text" become cards.
-  const reachParas = paragraphs(reach?.body.text);
-  const reachCols = reachParas.map(labelled);
-  const reachSplit = reachCols.length > 1 && reachCols.every(Boolean);
-  type TransportTheme = {
-    icon: Name;
-    badge: string;
-    badgeClass: string;
-    iconBg: string;
-    pills: string[];
-  };
+  const reachModes = reach ? splitReach(reach.body.text ?? "", reach.body.items ?? []) : null;
 
-  const transportTheme = (label: string, text: string): TransportTheme => {
-    const l = label.toLowerCase();
-    if (/air|fly|flight/i.test(l)) {
-      const pills: string[] = [];
-      if (/bhuntar/i.test(text)) pills.push("Bhuntar (Kullu)");
-      if (/jubbarhatti/i.test(text)) pills.push("Jubbarhatti (Shimla)");
-      if (/gaggal/i.test(text)) pills.push("Gaggal (Kangra)");
-      if (/chandigarh/i.test(text)) pills.push("Chandigarh Gateway");
-      if (/pathankot/i.test(text)) pills.push("Pathankot Airport");
-      if (/jaipur/i.test(text)) pills.push("Jaipur International");
-      if (/udaipur/i.test(text)) pills.push("Udaipur (Maharana Pratap)");
-      if (/jodhpur/i.test(text)) pills.push("Jodhpur Airport");
-      if (/jaisalmer/i.test(text)) pills.push("Jaisalmer (Seasonal)");
-      if (/kishangarh|ajmer/i.test(text)) pills.push("Kishangarh (Ajmer/Pushkar)");
-      if (/mopa|manohar/i.test(text)) pills.push("Manohar Int'l (Mopa / GOX)");
-      if (/dabolim/i.test(text)) pills.push("Dabolim Airport (GOI)");
-      if (/jolly grant|dehradun/i.test(text)) pills.push("Jolly Grant (Dehradun / DED)");
-      if (/pantnagar/i.test(text)) pills.push("Pantnagar Airport (PGH)");
-      if (/cochin|kochi|cial/i.test(text)) pills.push("Cochin Int'l Airport (COK)");
-      if (/trivandrum|thiruvananthapuram/i.test(text)) pills.push("Trivandrum Int'l (TRV)");
-      if (/calicut|kozhikode/i.test(text)) pills.push("Calicut Int'l Airport (CCJ)");
-      if (/kannur/i.test(text)) pills.push("Kannur Int'l Airport (CNN)");
-      if (/srinagar|sheikh ul-alam/i.test(text)) pills.push("Srinagar Airport (SXR)");
-      if (/jammu.*airport|satwari|ixj/i.test(text)) pills.push("Jammu Airport (IXJ)");
-      return {
-        icon: "plane",
-        badge: "Airports & Domestic Flights",
-        badgeClass: "bg-sky-50 text-sky-800 border-sky-200",
-        iconBg: "bg-sky-50 text-sky-700 border border-sky-100",
-        pills: pills.length ? pills : ["Regional Airports", "Domestic Flights"],
-      };
-    }
-    if (/rail|train/i.test(l)) {
-      const pills: string[] = [];
-      if (/kalka[–-]shimla/i.test(text)) pills.push("Kalka–Shimla UNESCO Line");
-      if (/pathankot/i.test(text)) pills.push("Pathankot Railhead");
-      if (/kangra valley/i.test(text)) pills.push("Kangra Valley Line");
-      if (/joginder nagar/i.test(text)) pills.push("Joginder Nagar");
-      if (/vande bharat/i.test(text)) pills.push("Vande Bharat Express");
-      if (/shatabdi/i.test(text)) pills.push("Ajmer Shatabdi");
-      if (/palace on wheels/i.test(text)) pills.push("Palace on Wheels");
-      if (/madgaon|margao/i.test(text)) pills.push("Madgaon Junction (MAO)");
-      if (/thivim/i.test(text)) pills.push("Thivim (North Goa)");
-      if (/karmali/i.test(text)) pills.push("Karmali (Old Goa/Panaji)");
-      if (/konkan/i.test(text)) pills.push("Konkan Railway");
-      if (/haridwar/i.test(text)) pills.push("Haridwar Junction (HW)");
-      if (/kathgodam/i.test(text)) pills.push("Kathgodam Railhead (KGM)");
-      if (/rishikesh|yog nagari/i.test(text)) pills.push("Yog Nagari Rishikesh (YNRK)");
-      if (/dehradun/i.test(text)) pills.push("Dehradun Terminal (DDN)");
-      if (/ernakulam|cochin/i.test(text)) pills.push("Ernakulam Junction (ERS)");
-      if (/thiruvananthapuram|trivandrum/i.test(text)) pills.push("Trivandrum Central (TVC)");
-      if (/kozhikode|calicut/i.test(text)) pills.push("Kozhikode Railway (CLT)");
-      if (/jammu tawi|jat\b/i.test(text)) pills.push("Jammu Tawi (JAT)");
-      if (/katra|svdk/i.test(text)) pills.push("Shri Mata Vaishno Devi Katra");
-      if (/usbrl|banihal|chenab/i.test(text)) pills.push("USBRL & Chenab Bridge");
-      if (/srinagar rail|baramulla/i.test(text)) pills.push("Kashmir Valley Rail");
-      if (/broad[- ]gauge/i.test(text)) pills.push("Broad Gauge Network");
-      return {
-        icon: "train",
-        badge: "Railways & Express Trains",
-        badgeClass: "bg-amber-50 text-amber-800 border-amber-200",
-        iconBg: "bg-amber-50 text-amber-800 border border-amber-100",
-        pills: pills.length ? pills : ["Broad Gauge Railhead", "Heritage Lines"],
-      };
-    }
-    if (/road|bus|drive/i.test(l)) {
-      const pills: string[] = [];
-      if (/volvo|luxury|coach/i.test(text)) pills.push("Interstate Volvos");
-      if (/delhi.*mumbai|expressway|ne-4/i.test(text)) pills.push("Delhi–Mumbai Expressway");
-      if (/nh-48/i.test(text)) pills.push("NH-48 Corridor");
-      if (/nh-66|nh 66/i.test(text)) pills.push("NH-66 Coastal Highway");
-      if (/nh-85|nh 85/i.test(text)) pills.push("NH-85 Kochi–Munnar Highway");
-      if (/nh-44|nh 44/i.test(text)) pills.push("NH-44 Jammu–Srinagar Highway");
-      if (/chenani.*nashri|syama prasad/i.test(text)) pills.push("Chenani–Nashri Tunnel");
-      if (/qazigund|banihal tunnel/i.test(text)) pills.push("Navyug (Qazigund) Tunnel");
-      if (/mughal road/i.test(text)) pills.push("Mughal Road Scenic Pass");
-      if (/nh-748|nh 748|anmod/i.test(text)) pills.push("NH-748 (Anmod Ghat)");
-      if (/nh-334|delhi.*dehradun/i.test(text)) pills.push("Delhi–Dehradun Expressway");
-      if (/char dham.*all weather|all weather/i.test(text)) pills.push("Char Dham Highway");
-      if (/gmou|kmvn/i.test(text)) pills.push("GMOU & KMVN Buses");
-      if (/kadamba|ktc/i.test(text)) pills.push("Kadamba KTC Buses");
-      if (/rsrtc/i.test(text)) pills.push("RSRTC Goldline");
-      if (/ksrtc/i.test(text)) pills.push("KSRTC Swift Coaches");
-      if (/water metro/i.test(text)) pills.push("Kochi Water Metro");
-      if (/swtd|ferr/i.test(text)) pills.push("SWTD Backwater Ferries");
-      if (/chandigarh/i.test(text)) pills.push("Chandigarh Highway");
-      if (/delhi/i.test(text)) pills.push("Delhi (260–300 km)");
-      return {
-        icon: "bus",
-        badge: "Highways & Express Coaches",
-        badgeClass: "bg-emerald-50 text-emerald-800 border-emerald-200",
-        iconBg: "bg-emerald-50 text-emerald-800 border border-emerald-100",
-        pills: pills.length ? pills : ["National Highways", "State Transport Buses"],
-      };
-    }
-    const pills: string[] = [];
-    if (/nh-22|nh-5|hindustan/i.test(text)) pills.push("Hindustan–Tibet Road");
-    if (/kaza|spiti/i.test(text)) pills.push("Kaza & High Passes");
-    if (/zojila|pir panjal/i.test(text)) pills.push("Pir Panjal & Zojila Pass");
-    if (/may|july|october/i.test(text)) pills.push("Seasonal Access");
-    if (/taxi|off-road|4x4/i.test(text)) pills.push("Sturdy 4x4 Recommended");
-    if (/thar|desert|dunes/i.test(text)) pills.push("Thar Desert Corridors");
-    if (/western ghats|ghat/i.test(text)) pills.push("Western Ghats Mountain Pass");
-    if (/backwater|canal|lagoon/i.test(text)) pills.push("Inland Waterway Corridors");
-    if (/shikara|dal lake/i.test(text)) pills.push("Dal Lake Waterways");
-    return {
-      icon: "mountain",
-      badge: "Regional Corridors",
-      badgeClass: "bg-purple-50 text-purple-800 border-purple-200",
-      iconBg: "bg-purple-50 text-purple-800 border border-purple-100",
-      pills: pills.length ? pills : ["Mountain Corridors", "Seasonal Routes"],
-    };
-  };
   const seasonParas = paragraphs(bestTime?.body.text);
   const seasonCards = seasonParas.map(labelled);
   const seasonSplit = seasonCards.length > 1 && seasonCards.every(Boolean);
@@ -1168,105 +1019,46 @@ export function StateGuide({
           </section>
         ) : null}
 
-        {/* How to reach */}
-        {reach ? (
+        {/* How to reach: one card per way in (air, rail, road, sea), distances and times picked out */}
+        {reach && reachModes && (reachModes.modes.length || reachModes.notes.length) ? (
           <section id="reach" aria-labelledby="reach-h" className="scroll-mt-36">
-            <SectionHead
-              id="reach"
-              eyebrow="Getting there"
-              title={`How to reach ${name}`}
-              intro="Practical transport routes across international airports, broad-gauge railheads, express highways, and regional transit corridors."
-            />
-            {reachSplit ? (
-              <div className="space-y-6">
-                <ul className="grid grid-cols-1 gap-5 md:grid-cols-2 lg:grid-cols-4">
-                  {reachCols.map((c, i) => {
-                    const theme = transportTheme(c!.label, c!.text);
-                    return (
-                      <li
-                        key={i}
-                        className="flex flex-col justify-between rounded-2xl border border-[#EAE7E0] bg-white p-5 shadow-xs transition-all duration-200 hover:-translate-y-0.5 hover:border-coral/60 hover:shadow-card sm:p-6"
-                      >
-                        <div>
-                          <div className="flex items-center gap-3">
-                            <div className={`flex size-11 shrink-0 items-center justify-center rounded-xl ${theme.iconBg}`}>
-                              <Icon name={theme.icon} size={20} />
-                            </div>
-                            <div className="min-w-0">
-                              <span className="block text-[0.6875rem] font-bold uppercase tracking-wider text-coral">Mode {String(i + 1).padStart(2, "0")}</span>
-                              <h3 className="truncate text-base font-bold text-ink">{c!.label}</h3>
-                            </div>
-                          </div>
-
-                          <span className={`mt-3.5 inline-flex items-center rounded-md border px-2.5 py-0.5 text-[0.6875rem] font-semibold ${theme.badgeClass}`}>
-                            {theme.badge}
-                          </span>
-
-                          <p className="mt-3.5 text-[0.8125rem] leading-relaxed text-[#4A4A4A]">
-                            {c!.text}
-                          </p>
-                        </div>
-
-                        {theme.pills.length ? (
-                          <div className="mt-5 border-t border-[#F2EFE9] pt-3.5">
-                            <div className="flex flex-wrap gap-1.5">
-                              {theme.pills.map((p, pIdx) => (
-                                <span
-                                  key={pIdx}
-                                  className="rounded-md bg-[#F4F2EC] px-2 py-0.5 text-[0.6875rem] font-semibold text-[#555]"
-                                >
-                                  {p}
-                                </span>
-                              ))}
-                            </div>
-                          </div>
-                        ) : null}
-                      </li>
-                    );
-                  })}
-                </ul>
-
-                {/* Practical Gateway Callout */}
-                {(() => {
-                  const gw = STATE_GATEWAYS[stateSlug];
-                  if (!gw) return null;
-                  return (
-                    <div className="rounded-2xl border border-[#E5E2DC] bg-[#FAF8F5] p-5 shadow-xs sm:p-6">
-                      <div className="flex flex-col gap-4 lg:flex-row lg:items-center lg:justify-between">
-                        <div className="flex items-start gap-3.5">
-                          <div className="flex size-10 shrink-0 items-center justify-center rounded-xl bg-coral/10 text-coral">
-                            <Icon name="compass" size={20} />
-                          </div>
-                          <div>
-                            <h4 className="text-sm font-bold text-ink">{gw.title}</h4>
-                            <p className="mt-0.5 text-xs text-[#666]">{gw.subtitle}</p>
-                          </div>
-                        </div>
-                        <div className="flex flex-wrap gap-2 text-xs">
-                          {gw.badges.map((b, bi) => (
-                            <span key={bi} className="rounded-lg border border-[#EAE7E0] bg-white px-3 py-1.5 font-medium text-ink shadow-2xs">
-                              <strong className="text-coral">{b.label}</strong> {b.text}
-                            </span>
-                          ))}
-                        </div>
+            <SectionHead id="reach" eyebrow="Getting there" title={`How to reach ${name}`} intro={reachModes.modes.length > 1 ? "The main ways in, with the distances and times that matter." : undefined} />
+            {reachModes.modes.length ? (
+              <div className="reach relative">
+                <svg aria-hidden className={`reach__route pointer-events-none absolute inset-x-0 top-0 hidden h-6 w-full ${reachModes.modes.length > 1 ? "lg:block" : ""}`} viewBox="0 0 100 6" preserveAspectRatio="none">
+                  <path d="M2 3 H98" className="reach__line" fill="none" stroke="#E8553E" strokeWidth="2" strokeDasharray="2 7" strokeLinecap="round" vectorEffect="non-scaling-stroke" />
+                </svg>
+                <ol className={`relative grid gap-5 ${reachModes.modes.length === 1 ? "" : "sm:grid-cols-2 lg:pt-10"} ${reachModes.modes.length >= 4 ? "lg:grid-cols-4" : reachModes.modes.length === 3 ? "lg:grid-cols-3" : reachModes.modes.length === 2 ? "lg:grid-cols-2" : ""}`}>
+                  {reachModes.modes.map((m, i) => (
+                    <li key={m.mode} className={`reach__card group flex flex-col overflow-hidden rounded-2xl bg-white ring-1 ring-[#ECE8E2] ${reachModes.modes.length === 1 ? "sm:flex-row" : ""}`} style={{ ["--i" as string]: i }}>
+                      <div className={`relative aspect-[16/10] overflow-hidden bg-[#ECE8E0] ${reachModes.modes.length === 1 ? "sm:aspect-auto sm:min-h-[15rem] sm:w-[45%] sm:shrink-0" : ""}`}>
+                        <Image src={REACH_MODE[m.mode].img} alt={REACH_MODE[m.mode].alt} fill sizes="(min-width: 1024px) 25vw, (min-width: 640px) 50vw, 100vw" className="object-cover transition-transform duration-700 ease-out group-hover:scale-[1.05]" />
+                        <span aria-hidden className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/10 to-transparent" />
+                        <span className="absolute left-3 top-3 grid size-9 place-items-center rounded-full bg-white/90 text-coral backdrop-blur-sm"><Icon name={REACH_MODE[m.mode].icon} size={16} /></span>
+                        <h3 className="absolute bottom-3 left-4 font-serif text-2xl leading-none text-white">{REACH_MODE[m.mode].title}</h3>
                       </div>
-                    </div>
-                  );
-                })()}
-              </div>
-            ) : (
-              <div className="rounded-2xl border border-[#E5E2DC] bg-white p-6 shadow-xs">
-                <div className="space-y-3 text-[0.9375rem] leading-relaxed text-[#444]">
-                  {reachParas.map((p, i) => (
-                    <p key={i}>{p}</p>
+                      <div className={`flex-1 space-y-2 text-sm leading-relaxed text-[#555555] ${reachModes.modes.length === 1 ? "p-5 sm:self-center sm:p-8 sm:text-[0.9375rem]" : "p-4"}`}>
+                        {m.lines.map((l, j) => <p key={j}>{highlightTrip(l)}</p>)}
+                      </div>
+                    </li>
                   ))}
-                </div>
+                </ol>
               </div>
-            )}
-            {reach.body.items?.length ? (
-              <div className="mt-5 rounded-2xl border border-[#E5E2DC] bg-white p-5 shadow-xs">
-                <FactRows items={reach.body.items} />
-              </div>
+            ) : null}
+            {reachModes.notes.length ? (
+              <ul className="mt-6 space-y-2 rounded-2xl bg-[#F6F1EA] p-5 text-sm leading-relaxed text-[#555555]">
+                {reachModes.notes.map((n, i) => (
+                  <li key={i} className="flex gap-2.5"><Icon name="bulb" size={15} className="mt-0.5 shrink-0 text-coral" /><span>{highlightTrip(n)}</span></li>
+                ))}
+              </ul>
+            ) : null}
+            {reachModes.modes.length ? (
+              <p className="mt-3 text-[0.6875rem] text-[#999999]">
+                Photos:{" "}
+                {reachModes.modes.map((m, i) => (
+                  <span key={m.mode}>{i ? " · " : ""}<a href={REACH_MODE[m.mode].src} {...ext} className="underline">{REACH_MODE[m.mode].credit}</a></span>
+                ))}
+              </p>
             ) : null}
           </section>
         ) : null}

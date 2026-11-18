@@ -14,13 +14,13 @@ export default function MapBlock({ block }: { block: BlockOf<"map"> }) {
         type="button"
         aria-expanded={open}
         onClick={() => setOpen((o) => !o)}
-        className="inline-flex items-center gap-1.5 rounded-full border border-line bg-white px-3 py-1 text-[0.75rem] font-medium text-ink hover:border-forest"
+        className="inline-flex items-center gap-1.5 rounded-full border border-[#E5E2DC] bg-white px-3.5 py-1.5 text-[0.75rem] font-semibold text-ink transition-colors hover:border-ink"
       >
-        <Icon name="map" size={14} className="text-forest" />
+        <Icon name="map" size={14} className="text-coral" />
         {open ? "Hide map" : `View on map (${block.points.length})`}
       </button>
       {open ? (
-        <div className="mt-2 overflow-hidden rounded-xl border border-line">
+        <div className="cx-in mt-2 overflow-hidden rounded-2xl border border-[#ECE9E2]">
           <PlaceMap points={block.points} label={`Map: ${block.title}`} height={220} />
         </div>
       ) : null}

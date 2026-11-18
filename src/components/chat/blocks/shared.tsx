@@ -11,7 +11,7 @@ type BlockPhoto = { src: string; alt: string; position?: string };
 export function BlockImage({ photo, sizes, className = "" }: { photo?: BlockPhoto; sizes: string; className?: string }) {
   if (!photo || !isLocalImage(photo.src)) {
     return (
-      <div className={`flex items-center justify-center overflow-hidden bg-sand text-forest/50 ${className}`}>
+      <div className={`flex items-center justify-center overflow-hidden bg-[#EFECE6] text-[#B9B4AA] ${className}`}>
         <Icon name="image" size={22} />
       </div>
     );
@@ -25,15 +25,15 @@ export function BlockImage({ photo, sizes, className = "" }: { photo?: BlockPhot
 
 export function BlockTitle({ icon, children }: { icon: Name; children: React.ReactNode }) {
   return (
-    <h3 className="flex items-center gap-2.5 font-serif text-[1.125rem] font-medium text-ink">
-      <Icon name={icon} size={20} className="text-forest" />
+    <h3 className="flex items-center gap-2.5 font-serif text-[1.125rem] font-normal text-ink">
+      <span className="flex size-8 items-center justify-center rounded-xl bg-[#FDF0EB] text-coral"><Icon name={icon} size={16} /></span>
       {children}
     </h3>
   );
 }
 
 export function Card({ children, className = "" }: { children: React.ReactNode; className?: string }) {
-  return <div className={`rounded-xl border border-line bg-white shadow-[var(--shadow-card)] ${className}`}>{children}</div>;
+  return <div className={`rounded-2xl border border-[#ECE9E2] bg-white ${className}`}>{children}</div>;
 }
 
 export function Bullets({ items }: { items: string[] }) {
@@ -41,7 +41,7 @@ export function Bullets({ items }: { items: string[] }) {
     <ul className="mt-2 space-y-1">
       {items.map((t) => (
         <li key={t} className="flex gap-2">
-          <span aria-hidden className="mt-[0.5rem] size-1 shrink-0 rounded-full bg-ink/60" />
+          <span aria-hidden className="mt-[0.5rem] size-1.5 shrink-0 rounded-full bg-coral" />
           {t}
         </li>
       ))}

@@ -66,7 +66,7 @@ export function BlogSettingsForm({ stored, defaults }: { stored: Partial<BlogSet
         <p className="mt-0.5 text-xs text-muted">Leave a field blank to use the default shown in grey.</p>
         <div className="mt-4 space-y-5">
           {COPY.map(text)}
-          <ImageField label="Hero background image (optional)" value={s.heroImage} onChange={(url) => set({ heroImage: url })} hint="Shown faded behind the hero text." />
+          <ImageField label="Share image fallback (optional)" value={s.heroImage} onChange={(url) => set({ heroImage: url })} hint="Used as the blog’s social share image when no OG image is set below." />
           <div>
             <label className={fieldLabel} htmlFor="bs-heroImageAlt">Hero image alt text</label>
             <input id="bs-heroImageAlt" value={s.heroImageAlt} onChange={(e) => set({ heroImageAlt: e.target.value })} className={fieldInput} />

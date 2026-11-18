@@ -428,6 +428,71 @@
       "url": "https://pithoragarh.nic.in/how-to-reach/",
       "title": "How to reach — District Pithoragarh, Government of Uttarakhand",
       "authority": "government"
+    },
+    "UT_RIS": {
+      "url": "https://uttarakhandtourism.gov.in/destination/rishikesh",
+      "title": "Rishikesh — Uttarakhand Tourism Development Board",
+      "authority": "government"
+    },
+    "TRIB_RAFT": {
+      "url": "https://www.tribuneindia.com/news/uttarakhand/river-rafting-suspended-in-rishikesh-as-ganga-nears-warning-level",
+      "title": "River rafting suspended in Rishikesh as Ganga nears warning level — The Tribune",
+      "authority": "media"
+    },
+    "W_RIS": {
+      "url": "https://en.wikipedia.org/wiki/Rishikesh",
+      "title": "Rishikesh — Wikipedia",
+      "authority": "reference"
+    },
+    "SY_HKP": {
+      "url": "https://www.sacredyatra.com/ganga-aarti-in-haridwar.html",
+      "title": "Ganga Aarti in Haridwar — Sacred Yatra",
+      "authority": "travel_platform"
+    },
+    "TRW_KUN": {
+      "url": "https://trawell.in/uttarakhand/rishikesh/kunjapuri-devi-mandir",
+      "title": "Kunjapuri Devi Mandir — Trawell",
+      "authority": "travel_platform"
+    },
+    "AIR_BEA": {
+      "url": "https://airial.travel/attractions/india/rishikesh/beatles-ashram-UPXoK5Lo",
+      "title": "Beatles Ashram — Airial",
+      "authority": "travel_platform"
+    },
+    "HOL_BEA": {
+      "url": "https://www.holidify.com/places/rishikesh/the-beatles-ashram-sightseeing-123918.html",
+      "title": "The Beatles Ashram — Holidify",
+      "authority": "travel_platform"
+    },
+    "CB_MUSCOR": {
+      "url": "https://cabbazar.com/taxi/cab/jim-corbett-to-mussoorie",
+      "title": "Jim Corbett to Mussoorie by road — CabBazar",
+      "authority": "travel_platform"
+    },
+    "WTI_COR": {
+      "url": "https://www.waytoindia.com/travel-guide/uttarakhand/jim-corbett",
+      "title": "Jim Corbett travel guide — WayToIndia",
+      "authority": "travel_platform"
+    },
+    "TRV_GK": {
+      "url": "https://www.trivenicabs.in/uttarakhand-hills-circuit-by-car",
+      "title": "Uttarakhand hills circuit by car — Triveni Cabs",
+      "authority": "travel_platform"
+    },
+    "WL_MUSCOR": {
+      "url": "https://Wanderlog.com/drive/between/1635/687/jim-corbett-national-park-to-mussoorie-drive",
+      "title": "Jim Corbett to Mussoorie drive — Wanderlog",
+      "authority": "travel_platform"
+    },
+    "TVY_RAM": {
+      "url": "https://www.travanya.com/tourism/india/uttarakhand/hill-stations/nainital/distance/from-ramnagar",
+      "title": "Ramnagar to Nainital distance — Travanya",
+      "authority": "travel_platform"
+    },
+    "CB_RAM": {
+      "url": "https://cabbazar.com/taxi/cab/nainital-to-ramnagar",
+      "title": "Nainital to Ramnagar by road — CabBazar",
+      "authority": "travel_platform"
     }
   },
   "facts": {
@@ -3308,6 +3373,67 @@
         }
       ],
       "kind": "seasonal"
+    },
+    "MUS_COR": {
+      "place": "uttarakhand/jim-corbett",
+      "topic": "Road from Mussoorie to Corbett",
+      "claimType": "distance",
+      "kind": "estimate",
+      "claim": "Mussoorie to Corbett (Ramnagar) is roughly 215–250 km by road via Dehradun, Haridwar, Najibabad and Kashipur — about 5.5–7 hours.",
+      "conflictNote": "Sources give 215 km / 5.5 hours to about 250 km / 7 hours depending on route and traffic.",
+      "evidence": [
+        {
+          "source": "CB_MUSCOR",
+          "quote": "Jim Corbett to Mussoorie distance is 215 Km and is 5.5 hours journey."
+        },
+        {
+          "source": "WL_MUSCOR",
+          "quote": "The direct drive from Jim Corbett National Park to Mussoorie is 155 mi (249 km)"
+        }
+      ]
+    },
+    "GAR_KUM": {
+      "place": "uttarakhand",
+      "topic": "Garhwal–Kumaon crossing",
+      "claimType": "distance",
+      "kind": "estimate",
+      "claim": "Garhwal (Mussoorie, Rishikesh) and Kumaon (Nainital, Corbett) are separated by the Ganga plain; the road drops to Haridwar and climbs again at Kathgodam, so crossing between them is a full day's drive.",
+      "evidence": [
+        {
+          "source": "TRV_GK",
+          "quote": "are 300 km and seven hours apart"
+        }
+      ]
+    },
+    "COR_Z": {
+      "place": "uttarakhand/jim-corbett",
+      "topic": "Safari zone seasons",
+      "claimType": "schedule",
+      "kind": "seasonal",
+      "claim": "Dhikala opens about 15 November–15 June and Bijrani about 15 October–30 June; only the Jhirna and Dhela zones stay open through the monsoon.",
+      "evidence": [
+        {
+          "source": "WTI_COR",
+          "quote": "Only Jhirna and Dhela stay open through the year"
+        }
+      ]
+    },
+    "RAM_NT": {
+      "place": "uttarakhand/nainital",
+      "topic": "Road from Ramnagar",
+      "claimType": "distance",
+      "kind": "estimate",
+      "claim": "Ramnagar to Nainital is about 63–65 km, about 2 hours by road via Kaladhungi.",
+      "evidence": [
+        {
+          "source": "TVY_RAM",
+          "quote": "Ramnagar to Nainital Road Distance 63 KM"
+        },
+        {
+          "source": "CB_RAM",
+          "quote": "Nainital to Ramnagar distance: 65 km"
+        }
+      ]
     }
   },
   "places": [
@@ -5746,5 +5872,361 @@
       "parent": "uttarakhand"
     }
   ],
-  "itineraries": []
+  "itineraries": [
+    {
+      "place": "uttarakhand",
+      "slug": "uttarakhand-himalayan-lakes-peaks-7-days",
+      "title": "Uttarakhand in 7 days: Dehradun, Mussoorie, Corbett and Nainital",
+      "summary": "Two hill stations and a tiger reserve across Garhwal and Kumaon: Dehradun and Mussoorie, one long honest crossing to Corbett for safaris, then Nainital and its lakes.",
+      "durationDays": 7,
+      "tripTypes": [
+        "mountains",
+        "wildlife",
+        "nature",
+        "family"
+      ],
+      "seoTitle": "Uttarakhand 7-Day Itinerary: Mussoorie, Corbett & Nainital",
+      "seoDescription": "A realistic 7-day Uttarakhand loop with real drive times: Dehradun, Mussoorie, the long crossing to Corbett, safari zone seasons, and Nainital's lakes.",
+      "facts": [
+        "DD1",
+        "DD2",
+        "DD3",
+        "DD4",
+        "DD6",
+        "MS1",
+        "MS2",
+        "MS3",
+        "MS5",
+        "MS6",
+        "GAR_KUM",
+        "MUS_COR",
+        "JC1",
+        "JC4",
+        "JC5",
+        "COR_Z",
+        "RAM_NT",
+        "NT1",
+        "NT3",
+        "NT5",
+        "NT9",
+        "NT6",
+        "BT1",
+        "BT3",
+        "BT4",
+        "NT7",
+        "MS4",
+        "MS6"
+      ],
+      "sources": [],
+      "plan": {
+        "overview": "This route covers both halves of Uttarakhand — Garhwal's Doon Valley and Mussoorie, and Kumaon's Corbett and Nainital lakes. The two halves are separated by the Ganga plain, so one day (Day 4) is a long drive; every other transfer is under two hours. Ordering it Mussoorie → Corbett → Nainital avoids driving back on yourself and ends near Kathgodam station for the train to Delhi.",
+        "style": "Hill stations and wildlife, moderate pace",
+        "start": "Dehradun (Jolly Grant airport about 20 km; railway station in the city)",
+        "end": "Kathgodam station (about 22 km from Bhimtal) or Pantnagar airport",
+        "season": "October–June. Corbett's main zones close for the monsoon (Bijrani about mid-October to June; Dhikala mid-November to mid-June); July–September only Jhirna and Dhela open and hill roads see landslides. October–January brings Mussoorie's winterline sunsets.",
+        "difficulty": "Easy to moderate — one long driving day",
+        "transport": "Private car with driver for the whole route (about 600 km).",
+        "days": [
+          {
+            "title": "Day 1 — Dehradun",
+            "summary": "The Forest Research Institute's grand campus, Mindrolling Monastery, and Robber's Cave.",
+            "stops": [
+              {
+                "time": "10 am",
+                "name": "Forest Research Institute",
+                "placeSlug": "dehradun",
+                "duration": "2 hours",
+                "note": "A Greco-Roman colonial building with six forest museums."
+              },
+              {
+                "time": "1:30 pm",
+                "name": "Mindrolling Monastery",
+                "placeSlug": "dehradun",
+                "duration": "1 hour",
+                "note": "A major Buddhist learning centre with a 35-metre Buddha statue."
+              },
+              {
+                "time": "3:30 pm",
+                "name": "Robber's Cave (Guchhupani)",
+                "placeSlug": "dehradun",
+                "duration": "1.5 hours",
+                "note": "About 8 km from the city; wear sandals — you walk through the stream."
+              }
+            ],
+            "travel": "Jolly Grant airport is about 20 km from the centre; sights are a short drive apart.",
+            "transport": "Car",
+            "meals": "Paltan Bazaar for snacks; Rajpur Road for dinner.",
+            "overnight": "Dehradun"
+          },
+          {
+            "title": "Day 2 — Up to Mussoorie",
+            "summary": "Climb to the ridge, ride the Gun Hill ropeway, and walk the Mall at sunset.",
+            "stops": [
+              {
+                "time": "10 am",
+                "name": "Drive to Mussoorie",
+                "placeSlug": "mussoorie",
+                "duration": "About 1.5 hours",
+                "note": "About 26–35 km of hairpins up from the Doon Valley."
+              },
+              {
+                "time": "1 pm",
+                "name": "Gun Hill ropeway",
+                "placeSlug": "mussoorie",
+                "duration": "1 hour",
+                "note": "Up to 2,122 m from the Mall."
+              },
+              {
+                "time": "4 pm",
+                "name": "The Mall and Christ Church",
+                "placeSlug": "mussoorie",
+                "duration": "2.5 hours",
+                "note": "From October to January, watch for the 'winterline' false horizon at sunset."
+              }
+            ],
+            "travel": "Dehradun → Mussoorie roughly 26–35 km uphill.",
+            "distance": "About 30 km",
+            "driveTime": "About 1.5 hours (estimate)",
+            "transport": "Car",
+            "altitude": 2000,
+            "meals": "Lunch and dinner on the Mall.",
+            "overnight": "Mussoorie"
+          },
+          {
+            "title": "Day 3 — Landour and Kempty Falls",
+            "summary": "The quiet old cantonment of Landour and its viewpoints in the morning, a waterfall in the afternoon.",
+            "stops": [
+              {
+                "time": "8:30 am",
+                "name": "Landour and Lal Tibba",
+                "placeSlug": "mussoorie",
+                "duration": "3 hours",
+                "note": "Walk the old British cantonment at the east end of town; Lal Tibba is the highest point, with views of Badrinath, Kedarnath and Bandarpunch on clear mornings."
+              },
+              {
+                "time": "12:30 pm",
+                "name": "Lunch at Char Dukan, Landour",
+                "placeSlug": "mussoorie",
+                "duration": "1 hour"
+              },
+              {
+                "time": "2:30 pm",
+                "name": "Kempty Falls",
+                "placeSlug": "mussoorie",
+                "duration": "2 hours",
+                "note": "The biggest waterfall near Mussoorie, on the Yamunotri road; very crowded at weekends."
+              }
+            ],
+            "travel": "Landour is walkable from the Mall; Kempty Falls is a short drive out on the Yamunotri road.",
+            "distance": "About 30–35 km in total (estimate)",
+            "transport": "Walking and car",
+            "meals": "Breakfast early; dinner on the Mall.",
+            "overnight": "Mussoorie",
+            "logistics": "Weekend traffic on the Kempty road can be heavy; go on a weekday or swap for Sir George Everest's House."
+          },
+          {
+            "title": "Day 4 — The long crossing to Corbett",
+            "summary": "Down to the plains and across to Ramnagar — the one long day of the trip.",
+            "stops": [
+              {
+                "time": "6:30 am",
+                "name": "Drive Mussoorie → Ramnagar",
+                "placeSlug": "jim-corbett",
+                "duration": "5.5–7 hours plus stops",
+                "note": "Via Dehradun, Haridwar, Najibabad and Kashipur. Break for lunch around Najibabad or Kashipur."
+              },
+              {
+                "time": "Evening",
+                "name": "Rest at your Corbett lodge",
+                "placeSlug": "jim-corbett",
+                "duration": "Evening"
+              }
+            ],
+            "travel": "Mussoorie → Ramnagar roughly 215–250 km, about 5.5–7 hours.",
+            "distanceKm": 230,
+            "distance": "About 215–250 km",
+            "driveTime": "About 5.5–7 hours",
+            "transport": "Car with driver",
+            "meals": "Packed breakfast; lunch on the highway.",
+            "overnight": "Ramnagar / Corbett (lodges along the Kosi river)",
+            "logistics": "Leave early to clear Dehradun and Haridwar before traffic. Book Day 5's safari before this drive — online booking closes early."
+          },
+          {
+            "title": "Day 5 — Corbett safaris",
+            "summary": "A morning jeep safari in the best zone open that season, and a second safari or a lazy afternoon.",
+            "stops": [
+              {
+                "time": "6–6:30 am",
+                "name": "Morning jeep safari",
+                "placeSlug": "jim-corbett",
+                "duration": "About 3.5 hours",
+                "note": "Bijrani (mid-October to June) is the usual day zone; in the monsoon only Jhirna and Dhela run."
+              },
+              {
+                "time": "Midday",
+                "name": "Rest at the lodge",
+                "duration": "4 hours"
+              },
+              {
+                "time": "Afternoon",
+                "name": "Second safari (optional)",
+                "placeSlug": "jim-corbett",
+                "duration": "About 3.5 hours",
+                "note": "A different zone gives a different landscape; tigers are most often seen April to mid-June."
+              }
+            ],
+            "travel": "Safari gates are a short drive from Ramnagar.",
+            "transport": "Licensed safari jeep",
+            "meals": "Breakfast after the morning safari; dinner at the lodge.",
+            "overnight": "Ramnagar / Corbett",
+            "access": "Bijrani about 15 Oct–30 Jun; Jhirna and Dhela all year",
+            "permits": "Safari permits only through the official Corbett booking site"
+          },
+          {
+            "title": "Day 6 — Corbett to Nainital",
+            "summary": "A short climb into the Kumaon hills and an afternoon on Naini Lake.",
+            "stops": [
+              {
+                "time": "9 am",
+                "name": "Drive to Nainital via Kaladhungi",
+                "placeSlug": "nainital",
+                "duration": "About 2 hours"
+              },
+              {
+                "time": "12 noon",
+                "name": "Naina Devi Temple",
+                "placeSlug": "nainital",
+                "duration": "45 minutes",
+                "note": "At the northern end of the lake."
+              },
+              {
+                "time": "2:30 pm",
+                "name": "Boating on Naini Lake",
+                "placeSlug": "nainital",
+                "duration": "1 hour",
+                "note": "Row with a local oarsman or take a paddle boat."
+              },
+              {
+                "time": "4 pm",
+                "name": "Mall Road",
+                "placeSlug": "nainital",
+                "duration": "2 hours",
+                "note": "Candles, woollens and wooden crafts."
+              }
+            ],
+            "travel": "Ramnagar → Nainital about 63 km via Kaladhungi.",
+            "distanceKm": 63,
+            "distance": "About 63 km",
+            "driveTime": "About 2 hours (estimate)",
+            "transport": "Car",
+            "altitude": 1938,
+            "meals": "Lunch in Mallital.",
+            "overnight": "Nainital",
+            "logistics": "Nainital's town centre has parking limits and peak-season traffic restrictions; ask your hotel where to leave the car."
+          },
+          {
+            "title": "Day 7 — Bhimtal, Naukuchiatal and departure",
+            "summary": "The bigger, quieter lakes below Nainital on the way down to Kathgodam.",
+            "stops": [
+              {
+                "time": "9 am",
+                "name": "Bhimtal",
+                "placeSlug": "bhimtal",
+                "duration": "1.5 hours",
+                "note": "Kumaon's largest lake by area; boat out to the island aquarium."
+              },
+              {
+                "time": "11 am",
+                "name": "Naukuchiatal",
+                "placeSlug": "bhimtal",
+                "duration": "1 hour",
+                "note": "The nine-cornered lake, 4 km beyond Bhimtal."
+              },
+              {
+                "time": "1 pm",
+                "name": "Drive to Kathgodam station or Pantnagar airport",
+                "duration": "45 minutes – 1.5 hours",
+                "note": "Kathgodam is about 22 km from Bhimtal; Pantnagar about 58 km."
+              }
+            ],
+            "travel": "Nainital → Bhimtal 22 km; Bhimtal → Naukuchiatal 4 km; then 22 km to Kathgodam.",
+            "distanceKm": 55,
+            "distance": "About 50–55 km",
+            "driveTime": "About 2 hours in total (estimate)",
+            "transport": "Car",
+            "meals": "Lunch by the lake at Bhimtal or Naukuchiatal.",
+            "overnight": "Departure (evening train to Delhi or flight)"
+          }
+        ],
+        "budget": {
+          "assumptions": "Hotels, the car with driver (about 600 km plus local runs) and safari jeeps vary by season and category, so they are not estimated here. Get the safari tariff from the official Corbett booking site.",
+          "lines": [
+            {
+              "label": "Corbett jeep safari",
+              "amount": "Not estimated",
+              "basis": "Official tariff by zone, plus jeep and guide hire"
+            },
+            {
+              "label": "Gun Hill ropeway, boating and sights",
+              "amount": "Not estimated",
+              "basis": "Small local fees, paid on the spot"
+            }
+          ]
+        },
+        "booking": [
+          {
+            "item": "Corbett safari",
+            "detail": "Book permits only on the official Corbett booking site, weeks ahead for October–June weekends; same-day booking closes at 6:30 am (morning) and 4 pm (afternoon)."
+          },
+          {
+            "item": "Car and driver",
+            "detail": "Hire one car for all seven days; confirm the Day 4 route and driver's overnight costs."
+          },
+          {
+            "item": "Trains",
+            "detail": "Book Kathgodam–Delhi trains on IRCTC; Delhi–Dehradun trains or flights to Jolly Grant for arrival."
+          },
+          {
+            "item": "Hotels",
+            "detail": "Mussoorie and Nainital fill up on summer weekends and around Christmas–New Year."
+          }
+        ],
+        "alternatives": [
+          "Don't want the long Day 4 drive? Split into two trips: Dehradun–Mussoorie (3 days) and Corbett–Nainital (4 days), each from Delhi.",
+          "Travelling July–September? Corbett's main zones are closed — swap Corbett for a third night in Nainital and a day at Mukteshwar.",
+          "Families with young children may prefer one safari and an afternoon at the lodge.",
+          "Add Kaichi Dham (17 km from Nainital on the Almora road) on Day 7 morning."
+        ],
+        "tips": [
+          "Corbett safaris need ID for every passenger; carry the same document used for booking.",
+          "Hill roads are slow — don't plan sightseeing on Day 4.",
+          "Summer weekends bring heavy traffic to Mussoorie and Nainital; start early."
+        ],
+        "prep": [
+          {
+            "title": "Weather",
+            "body": "Mussoorie and Nainital are cool year-round and cold in winter (snow is possible December–February). Corbett is hot from April. Pack layers."
+          },
+          {
+            "title": "Monsoon",
+            "body": "July–September brings landslides on hill roads and closes Corbett's main zones; keep buffer time."
+          }
+        ],
+        "faqs": [
+          {
+            "q": "How far is Mussoorie from Nainital?",
+            "a": "They are in different regions separated by the plains — about 300 km and seven hours. This plan breaks the crossing with two nights at Corbett."
+          },
+          {
+            "q": "Which Corbett zone is open when?",
+            "a": "Dhikala about mid-November to mid-June, Bijrani about mid-October to end-June; Jhirna and Dhela stay open all year."
+          },
+          {
+            "q": "Where does the trip end?",
+            "a": "Near Kathgodam station (about 22 km from Bhimtal), which has trains to Delhi, or Pantnagar airport."
+          }
+        ]
+      }
+    }
+  ]
 }

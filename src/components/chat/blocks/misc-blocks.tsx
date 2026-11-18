@@ -59,11 +59,11 @@ export function TextBlock({ block }: { block: BlockOf<"text"> }) {
 
 export function BestTimeBlock({ block }: { block: BlockOf<"bestTime"> }) {
   return (
-    <div className="rounded-xl border border-line bg-white p-4 shadow-[var(--shadow-card)]">
+    <div className="rounded-2xl border border-[#ECE9E2] bg-white p-4">
       <BlockTitle icon="calendar">When to visit {block.destination}</BlockTitle>
       <ol className="mt-3 grid grid-cols-6 gap-1.5 sm:grid-cols-12">
         {block.months.map((r, i) => (
-          <li key={MONTHS[i]} className={`rounded-md py-2 text-center text-[0.75rem] font-semibold ${STYLE[r]}`}>
+          <li key={MONTHS[i]} className={`rounded-lg py-2 text-center text-[0.75rem] font-semibold ${STYLE[r]}`}>
             {MONTHS[i]}
             <span className="sr-only">: {LABEL[r]}</span>
           </li>
@@ -84,11 +84,11 @@ export function BestTimeBlock({ block }: { block: BlockOf<"bestTime"> }) {
 
 export function FaqsBlock({ block }: { block: BlockOf<"faqs"> }) {
   return (
-    <div className="rounded-2xl bg-sand p-4">
+    <div className="rounded-2xl bg-[#FBF8F3] p-4">
       <BlockTitle icon="chat">Good to know</BlockTitle>
       <div className="mt-3 grid items-start gap-2.5 md:grid-cols-2">
         {block.items.map((f) => (
-          <details key={f.question} className="group rounded-lg border border-line bg-white">
+          <details key={f.question} className="group rounded-xl border border-[#ECE9E2] bg-white transition-shadow open:shadow-[0_10px_24px_-18px_rgba(25,25,25,0.35)]">
             <summary className="flex cursor-pointer list-none items-center justify-between gap-3 px-4 py-3 text-[0.8125rem] font-medium text-ink [&::-webkit-details-marker]:hidden">
               {f.question}
               <Icon name="chevronDown" size={15} className="shrink-0 transition-transform group-open:rotate-180" />
@@ -103,16 +103,16 @@ export function FaqsBlock({ block }: { block: BlockOf<"faqs"> }) {
 
 export function SuggestionsBlock({ block, onAsk, disabled }: { block: BlockOf<"suggestions">; onAsk: (q: string) => void; disabled: boolean }) {
   return (
-    <ul aria-label="Suggested follow-ups" className="flex flex-wrap gap-2">
-      {block.items.map((s) => (
-        <li key={s}>
+    <ul aria-label="Suggested follow-ups" className="cx-stagger flex flex-wrap gap-2">
+      {block.items.map((s, i) => (
+        <li key={s} style={{ ["--i" as string]: i }}>
           <button
             type="button"
             disabled={disabled}
             onClick={() => onAsk(s)}
-            className="inline-flex items-center gap-1.5 rounded-full border border-forest/25 bg-white px-3.5 py-1.5 text-[0.8125rem] font-medium text-forest transition-colors hover:border-forest hover:bg-forest-soft disabled:cursor-not-allowed disabled:opacity-60"
+            className="inline-flex items-center gap-1.5 rounded-full border border-[#F0DDD3] bg-white px-3.5 py-1.5 text-[0.8125rem] font-medium text-ink transition-all hover:-translate-y-0.5 hover:border-coral hover:text-coral disabled:cursor-not-allowed disabled:opacity-60"
           >
-            <Icon name="sparkles" size={13} />
+            <Icon name="sparkles" size={13} className="text-coral" />
             {s}
           </button>
         </li>
@@ -124,7 +124,7 @@ export function SuggestionsBlock({ block, onAsk, disabled }: { block: BlockOf<"s
 export function NoticeBlock({ block }: { block: BlockOf<"notice"> }) {
   const warn = block.tone === "warning";
   return (
-    <p role="note" className={`flex gap-2 rounded-xl px-4 py-3 text-[0.875rem] leading-relaxed ${warn ? "bg-amber-50 text-amber-950" : "bg-forest-soft text-forest"}`}>
+    <p role="note" className={`flex gap-2 rounded-2xl px-4 py-3 text-[0.875rem] leading-relaxed ${warn ? "bg-amber-50 text-amber-950" : "bg-forest-soft text-forest"}`}>
       <Icon name={warn ? "shield" : "checkCircle"} size={17} className="mt-0.5 shrink-0" />
       <span>{block.text}</span>
     </p>

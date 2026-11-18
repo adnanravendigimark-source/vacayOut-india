@@ -1,0 +1,1122 @@
+{
+ "cluster": "kerala2-munnar-alappuzha",
+ "title": "Munnar and Alappuzha",
+ "researchedAt": "2026-11-18",
+ "selection": "Batch 2. Munnar (6 sections, 2 children) and Alappuzha (6 sections, 1 activity) had no itineraries. Kerala Tourism's destination pages were unavailable (moved), so sources are Incredible India and Wikipedia. Not covered: houseboat licensing rules and prices, Eravikulam ticketing (no official source fetched).",
+ "sources": {
+  "II_MUN": {
+   "url": "https://www.incredibleindia.gov.in/en/kerala/munnar",
+   "title": "Munnar — Incredible India",
+   "authority": "government"
+  },
+  "II_ALP": {
+   "url": "https://www.incredibleindia.gov.in/en/kerala/alappuzha",
+   "title": "Alappuzha — Incredible India",
+   "authority": "government"
+  },
+  "W_MUN": {
+   "url": "https://en.wikipedia.org/wiki/Munnar",
+   "title": "Munnar — Wikipedia",
+   "authority": "reference"
+  },
+  "W_ALP": {
+   "url": "https://en.wikipedia.org/wiki/Alappuzha",
+   "title": "Alappuzha — Wikipedia",
+   "authority": "reference"
+  }
+ },
+ "facts": {
+  "MN1": {
+   "place": "kerala/munnar",
+   "topic": "Altitude",
+   "claim": "Munnar sits at around 1,600 m in the Western Ghats.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "W_MUN",
+     "quote": "situated at around 1,600 metres (5,200 ft) above mean sea level"
+    }
+   ]
+  },
+  "MN2": {
+   "place": "kerala/munnar",
+   "topic": "Climate",
+   "claim": "Temperatures range from about 5 °C to 25 °C; the June–September monsoon brings heavy rain.",
+   "claimType": "general",
+   "kind": "seasonal",
+   "evidence": [
+    {
+     "source": "II_MUN",
+     "quote": "Munnar experiences a cool and temperate climate throughout the year, with temperatures ranging from 5°C to 25°C. The monsoon season, from June to September, brings heavy r"
+    }
+   ]
+  },
+  "MN3": {
+   "place": "kerala/munnar",
+   "topic": "Distance from Kochi",
+   "claim": "Munnar is on the Kochi–Dhanushkodi highway (NH 49), about 130 km from Kochi.",
+   "claimType": "distance",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "W_MUN",
+     "quote": "The town lies in the Kochi - Dhanushkodi National highway (N.H 49), about 130 km (81 mi) from Cochin"
+    }
+   ]
+  },
+  "MN4": {
+   "place": "kerala/munnar",
+   "topic": "Railway",
+   "claim": "The nearest major railway stations in Kerala are Ernakulam (126 km) and Aluva (110 km); KSRTC buses for Munnar leave from near Aluva station.",
+   "claimType": "distance",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "W_MUN",
+     "quote": "nearest major railway stations in Kerala are at Ernakulam (126 km) and Aluva (110 km)."
+    }
+   ]
+  },
+  "MN5": {
+   "place": "kerala/munnar",
+   "topic": "Viewpoints",
+   "claim": "Popular viewpoints include Mattupetty, Top Station and Echo Point.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "II_MUN",
+     "quote": "Visitors can enjoy panoramic views of the surrounding hills and valleys from popular viewpoints such as Mattupetty, Top Station, and Echo Point."
+    }
+   ]
+  },
+  "MN6": {
+   "place": "kerala/munnar",
+   "topic": "Tea estates",
+   "claim": "Munnar's tea estates date to the late 19th century; tea factories and plantations offer guided tours.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "II_MUN",
+     "quote": "Munnar's tea estates, dating back to the late 19th century, produce some of the finest varieties of tea in the world."
+    }
+   ]
+  },
+  "MN7": {
+   "place": "kerala/tata-tea-museum",
+   "topic": "Tea Museum",
+   "claim": "The Tata Tea Museum shows the history of tea cultivation with antique processing equipment.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "II_MUN",
+     "quote": "The Tata Tea Museum offers insights into the history and evolution of tea cultivation in the region, showcasing antique tea-processing equipment and exhibits on the tea industry."
+    }
+   ]
+  },
+  "MN8": {
+   "place": "kerala/munnar",
+   "topic": "Eravikulam",
+   "claim": "Eravikulam National Park (97 sq km) is known for the endangered Nilgiri tahr and Neelakurinji, which blooms once every 12 years.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "II_MUN",
+     "quote": "spread over an area of 97 square kilometers, is famous for its population of endangered Nilgiri Tahr (mountain goat) and the blooming of Neelakurinji flowers, which occurs once every twelve years."
+    }
+   ]
+  },
+  "MN9": {
+   "place": "kerala/munnar",
+   "topic": "Lakes and falls",
+   "claim": "Kundala, Mattupetty and Devikulam lakes are good for boating; Attukal, Lakkam and Chinnakanal are scenic waterfalls.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "II_MUN",
+     "quote": "The tranquil lakes of Munnar, such as Kundala Lake, Mattupetty Lake, and Devikulam Lake, are ideal for boating, picnicking, and enjoying the serenity of nature."
+    },
+    {
+     "source": "II_MUN",
+     "quote": "Attukal Waterfalls, Lakkam Waterfalls, and Chinnakanal Waterfalls are among the most picturesque cascades in the area"
+    }
+   ]
+  },
+  "MN10": {
+   "place": "kerala/munnar",
+   "topic": "Treks",
+   "claim": "Treks include Anamudi, South India's highest peak, and Meesapulimala.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "II_MUN",
+     "quote": "Popular trekking destinations include the Anamudi Peak, the highest peak in South India, and the Meesapulimala Trek, which offers stunning views of the Western Ghats."
+    }
+   ]
+  },
+  "MN11": {
+   "place": "kerala/kolukkumalai",
+   "topic": "Kolukkumalai",
+   "claim": "Kolukkumalai near Munnar is one of the world's highest tea plantations, with century-old bushes.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "II_MUN",
+     "quote": "Situated near Munnar, the Kolukkumalai Tea Estate is one of the highest tea plantations in the world, with some tea bushes dating back over a century."
+    }
+   ]
+  },
+  "MN12": {
+   "place": "kerala/munnar",
+   "topic": "Sanctuaries",
+   "claim": "Chinnar Wildlife Sanctuary and the Salim Ali Bird Sanctuary are also in the area.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "II_MUN",
+     "quote": "Other wildlife sanctuaries in the area include the Chinnar Wildlife Sanctuary, home to a variety of flora and fauna, and the Salim Ali Bird Sanctuary, a paradise for birdwatchers."
+    }
+   ]
+  },
+  "MN13": {
+   "place": "kerala/munnar",
+   "topic": "Kunda Valley Railway",
+   "claim": "Munnar's old Kunda Valley Railway was destroyed by a flood in 1924.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "W_MUN",
+     "quote": "The former Kunda Valley Railway in Munnar was destroyed by a flood in 1924"
+    }
+   ]
+  },
+  "AL1": {
+   "place": "kerala/alappuzha",
+   "topic": "Location",
+   "claim": "Alappuzha is about 62 km south of Kochi and 152 km north-west of Thiruvananthapuram.",
+   "claimType": "distance",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "W_ALP",
+     "quote": "located about 62 km (39 mi) south of the commercial city of Kochi and 152 km (94.4 mi) northwest of the state capital Thiruvananthapuram."
+    }
+   ]
+  },
+  "AL2": {
+   "place": "kerala/alappuzha",
+   "topic": "Railway",
+   "claim": "Alappuzha station, on the Ernakulam–Kayamkulam coastal line, is about 4 km from the centre.",
+   "claimType": "distance",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "W_ALP",
+     "quote": "The railway station is about 4 kilometres (2.5 mi) from the heart of the city."
+    }
+   ]
+  },
+  "AL3": {
+   "place": "kerala/nehru-trophy-boat-race",
+   "topic": "Nehru Trophy",
+   "claim": "The Nehru Trophy Boat Race on Punnamada Lake, with 100-foot snake boats, is held on the second Saturday of August.",
+   "claimType": "schedule",
+   "kind": "seasonal",
+   "evidence": [
+    {
+     "source": "II_ALP",
+     "quote": "as 100-foot-long chundan vallams (snake boats) slice through the water, propelled by hundreds of rowers moving in perfect sync."
+    },
+    {
+     "source": "II_ALP",
+     "quote": "The event is held on the second Saturday of August every year."
+    }
+   ]
+  },
+  "AL4": {
+   "place": "kerala/alappuzha-beach",
+   "topic": "Beach and pier",
+   "claim": "Alappuzha Beach is the city's favourite picnic spot, with a pier stretching into the sea for over 137 years.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "II_ALP",
+     "quote": "the city's most popular spot for picnics and relaxation. Stroll along the historic pier, stretching into the sea for over 137 years"
+    }
+   ]
+  },
+  "AL5": {
+   "place": "kerala/alappuzha",
+   "topic": "Food",
+   "claim": "Try puttu, vada and chickpea curry on a banana leaf, seafood, and karimeen pollichathu.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "II_ALP",
+     "quote": "head to a cosy Uduppi hotel to savour puttu, vada, and chickpea curry served on a fresh banana leaf."
+    },
+    {
+     "source": "II_ALP",
+     "quote": "Don’t miss the traditional karimeen pollichathu—pearl spot fish wrapped in banana leaves"
+    }
+   ]
+  },
+  "AL6": {
+   "place": "kerala/ambalapuzha-temple",
+   "topic": "Ambalapuzha temple",
+   "claim": "The Ambalapuzha Krishna temple dates to 790 AD and is known for its palpayasam (sweet milk porridge).",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "II_ALP",
+     "quote": "Palpayasam’ – a sweet milk porridge offered to the deity."
+    }
+   ]
+  },
+  "AL7": {
+   "place": "kerala/alappuzha",
+   "topic": "Coir",
+   "claim": "Alappuzha is a coir-making hub; the Revi Karunakaran Memorial Museum honours a pioneer of the industry.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "W_ALP",
+     "quote": "Alappuzha is also a hub for coir manufacturing, and has a thriving coir industry."
+    },
+    {
+     "source": "II_ALP",
+     "quote": "It is a haven established in honour of a man who championed Kerala's coir industry."
+    }
+   ]
+  },
+  "AL8": {
+   "place": "kerala/alappuzha",
+   "topic": "Venice of the East",
+   "claim": "Lord Curzon called Alleppey the 'Venice of the East'.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "II_ALP",
+     "quote": "Alleppey, the Venice of the East”. - Lord Curzon, former Viceroy of India."
+    }
+   ]
+  },
+  "AL9": {
+   "place": "kerala/alappuzha",
+   "topic": "Adoor Gajamela",
+   "claim": "In January the 10-day Adoor Gajamela, with over 100 decorated elephants, is held about 70 km away.",
+   "claimType": "schedule",
+   "kind": "seasonal",
+   "evidence": [
+    {
+     "source": "II_ALP",
+     "quote": "If you plan to visit in January, do not miss the 10-day Adoor Gajamela festival at the Parthasarathy temple, around 70 km from Alappuzha."
+    }
+   ]
+  },
+  "AL10": {
+   "place": "kerala/alappuzha",
+   "topic": "Houseboats",
+   "claim": "A houseboat cruise through the backwaters passes villages, palms and paddy fields.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "II_ALP",
+     "quote": "Embark on a traditional houseboat cruise and let the gentle current guide you past verdant villages, where life unfolds at a languid pace."
+    }
+   ]
+  }
+ },
+ "places": [
+  {
+   "key": "kerala/munnar",
+   "kind": "town",
+   "name": "Munnar",
+   "parent": "kerala",
+   "summary": "Kerala's tea country at around 1,600 m: rolling estates, Eravikulam's Nilgiri tahr, lakes, viewpoints and treks.",
+   "seoTitle": "Munnar Travel Guide: Tea Estates, Viewpoints & Treks",
+   "seoDescription": "Plan a Munnar trip: tea estates and the Tea Museum, Eravikulam, Mattupetty, Top Station and Kolukkumalai, treks, the monsoon and how to get there from Kochi.",
+   "lat": 10.0889,
+   "lng": 77.0595,
+   "tripTypes": [
+    "mountains",
+    "nature",
+    "romantic"
+   ],
+   "images": [
+    {
+     "commons": "File:Munnar - Tea Plantations.jpg",
+     "alt": "Rolling tea plantations on the hills of Munnar",
+     "hero": true
+    }
+   ],
+   "relations": [
+    {
+     "to": "kerala/eravikulam-national-park",
+     "type": "nearby"
+    },
+    {
+     "to": "kerala/thekkady",
+     "type": "nearby"
+    }
+   ],
+   "sections": {
+    "overview": {
+     "text": "Munnar sits at around 1,600 m in the Western Ghats of Idukki district, where three rivers meet. Its hills are carpeted with tea estates that date back to the late 19th century, when the British turned the area into a planting district.\n\nThe cool climate, with temperatures of about 5–25 °C, draws visitors all year. Eravikulam National Park, home of the endangered Nilgiri tahr and the Neelakurinji flower that blooms once every 12 years, is next door. Viewpoints such as Mattupetty and Top Station, the lakes and waterfalls, and treks to Anamudi, South India's highest peak, fill the days. It suits couples, families and walkers.",
+     "facts": [
+      "MN1",
+      "MN6",
+      "MN2",
+      "MN8",
+      "MN5",
+      "MN10"
+     ]
+    },
+    "practical_info": {
+     "items": [
+      {
+       "title": "Getting there",
+       "body": "About 130 km from Kochi on NH 49. The nearest major railway stations are Aluva (110 km) and Ernakulam (126 km), with KSRTC buses to Munnar from near Aluva.",
+       "status": "verified"
+      },
+      {
+       "title": "Climate",
+       "body": "Cool all year (about 5–25 °C). Pack layers.",
+       "status": "seasonal"
+      },
+      {
+       "title": "Monsoon",
+       "body": "June–September brings heavy rain. Allow extra time on the ghat roads.",
+       "status": "seasonal"
+      }
+     ],
+     "facts": [
+      "MN3",
+      "MN4",
+      "MN2"
+     ]
+    },
+    "who_its_for": {
+     "items": [
+      {
+       "title": "Couples",
+       "body": "Misty viewpoints, tea-estate walks and lakeside picnics."
+      },
+      {
+       "title": "Families",
+       "body": "Boating at Mattupetty and Kundala, and the Tea Museum."
+      },
+      {
+       "title": "Trekkers",
+       "body": "Anamudi, Meesapulimala and the Kolukkumalai estate."
+      },
+      {
+       "title": "Wildlife lovers",
+       "body": "The Nilgiri tahr at Eravikulam, Chinnar and the Salim Ali Bird Sanctuary."
+      }
+     ],
+     "facts": [
+      "MN5",
+      "MN6",
+      "MN9",
+      "MN7",
+      "MN10",
+      "MN11",
+      "MN8",
+      "MN12"
+     ]
+    },
+    "common_mistakes": {
+     "items": [
+      {
+       "body": "Trying Top Station, Kolukkumalai and Eravikulam in one day. They lie in different directions on slow hill roads."
+      },
+      {
+       "body": "Packing only for the tropics. Munnar can drop to about 5 °C."
+      },
+      {
+       "body": "Expecting the Neelakurinji every year. It blooms only once every 12 years."
+      }
+     ],
+     "facts": [
+      "MN5",
+      "MN11",
+      "MN8",
+      "MN2"
+     ]
+    },
+    "faqs": {
+     "items": [
+      {
+       "title": "How far is Munnar from Kochi?",
+       "body": "About 130 km, on the Kochi–Dhanushkodi highway (NH 49)."
+      },
+      {
+       "title": "Is there a train to Munnar?",
+       "body": "No. The old Kunda Valley Railway was destroyed by a flood in 1924. Take a train to Aluva or Ernakulam and continue by road."
+      },
+      {
+       "title": "When does the Neelakurinji bloom?",
+       "body": "Once every 12 years, on the slopes of Eravikulam."
+      },
+      {
+       "title": "Is Munnar good in the monsoon?",
+       "body": "It's green but very wet from June to September, with slow roads. Allow extra time."
+      }
+     ],
+     "facts": [
+      "MN3",
+      "MN13",
+      "MN4",
+      "MN8",
+      "MN2"
+     ]
+    }
+   }
+  },
+  {
+   "key": "kerala/tata-tea-museum",
+   "kind": "museum",
+   "name": "Tata Tea Museum",
+   "parent": "kerala/munnar",
+   "summary": "Museum of Munnar's tea history with antique processing machinery.",
+   "seoTitle": "Tata Tea Museum, Munnar: Tea History",
+   "seoDescription": "Munnar's Tata Tea Museum traces the history of tea in the High Ranges, with antique tea-processing machinery and exhibits on how tea is made.",
+   "lat": 10.095,
+   "lng": 77.057,
+   "tripTypes": [
+    "family",
+    "heritage"
+   ],
+   "images": [
+    {
+     "commons": "File:Le musée du thé (Munnar, Inde) (13694719014).jpg",
+     "alt": "Entrance of the Tea Museum in Munnar with gardens",
+     "hero": true
+    }
+   ],
+   "sections": {
+    "overview": {
+     "text": "The Tata Tea Museum tells the story of tea cultivation in Munnar, from the late 19th-century estates to today. It displays antique tea-processing equipment and exhibits on the tea industry, and it is a good introduction before walking the estates themselves.\n\nCombine it with a guided tea-factory or plantation tour to see how the leaf you saw on the hillside becomes the tea in your cup. It is a short trip from the town centre and a good rainy-day option.",
+     "facts": [
+      "MN7",
+      "MN6"
+     ]
+    },
+    "travel_tips": {
+     "items": [
+      {
+       "body": "Visit early in your trip to make sense of the estates you'll see."
+      },
+      {
+       "body": "Buy tea to take home from the museum's shop or local estate outlets."
+      },
+      {
+       "body": "Allow about an hour."
+      },
+      {
+       "body": "Ask whether a short film or demonstration is running when you arrive."
+      },
+      {
+       "body": "Combine with a tea-factory tour on an estate nearby."
+      }
+     ],
+     "facts": []
+    }
+   }
+  },
+  {
+   "key": "kerala/kolukkumalai",
+   "kind": "nature",
+   "name": "Kolukkumalai",
+   "parent": "kerala/munnar",
+   "summary": "One of the world's highest tea estates, famed for sunrise above the clouds.",
+   "seoTitle": "Kolukkumalai, Munnar: High Tea Estate & Sunrise",
+   "seoDescription": "Kolukkumalai near Munnar is one of the highest tea plantations in the world, with century-old tea bushes and dramatic sunrise views over the ranges.",
+   "lat": 10.07,
+   "lng": 77.23,
+   "tripTypes": [
+    "nature",
+    "adventure"
+   ],
+   "images": [
+    {
+     "commons": "File:Kolukkumalai sunrise view point 11.jpg",
+     "alt": "Tea slopes and peaks at Kolukkumalai near Munnar",
+     "hero": true
+    }
+   ],
+   "sections": {
+    "overview": {
+     "text": "Kolukkumalai, near Munnar, is one of the highest tea plantations in the world, and some of its tea bushes are more than a century old. It is best known for sunrise: arrive before dawn and watch the light break over the ranges and the clouds below.\n\nThe estate sits high above the valleys, so plan transport up the night before and set off in the dark. It's a magical start to a Munnar day, and the century-old tea bushes are a sight in themselves once the sun is up.",
+     "facts": [
+      "MN11"
+     ]
+    },
+    "travel_tips": {
+     "items": [
+      {
+       "body": "Book a jeep the night before and set off well before dawn."
+      },
+      {
+       "body": "Bring warm layers and a torch; it is cold before sunrise."
+      },
+      {
+       "body": "Ask your hotel to arrange transport; the estate road is steep and narrow."
+      }
+     ],
+     "facts": []
+    }
+   }
+  },
+  {
+   "key": "kerala/mattupetty-dam",
+   "kind": "lake",
+   "name": "Mattupetty Dam and Lake",
+   "parent": "kerala/munnar",
+   "displayMode": "parent_section",
+   "summary": "Reservoir and viewpoint near Munnar, popular for boating and picnics.",
+   "seoTitle": "Mattupetty Dam, Munnar",
+   "seoDescription": "Mattupetty, near Munnar, is one of its best-known viewpoints, with a lake popular for boating and picnics among the hills.",
+   "lat": 10.106,
+   "lng": 77.124,
+   "tripTypes": [
+    "family",
+    "nature"
+   ],
+   "images": [
+    {
+     "commons": "File:Mattupetty Dam - മാട്ടുപ്പെട്ടി അണക്കെട്ട് -6.jpg",
+     "alt": "Mattupetty lake between forested hills near Munnar",
+     "hero": true
+    }
+   ],
+   "sections": {
+    "overview": {
+     "text": "Mattupetty is one of Munnar's best-known viewpoints, and its lake is one of the area's favourites for boating and picnics, along with Kundala and Devikulam. It is usually combined with Echo Point and Kundala on the road towards Top Station.",
+     "facts": [
+      "MN5",
+      "MN9"
+     ]
+    }
+   }
+  },
+  {
+   "key": "kerala/top-station",
+   "kind": "viewpoint",
+   "name": "Top Station",
+   "parent": "kerala/munnar",
+   "displayMode": "parent_section",
+   "summary": "High viewpoint near Munnar with sweeping views over the Western Ghats.",
+   "seoTitle": "Top Station, Munnar",
+   "seoDescription": "Top Station is one of Munnar's popular viewpoints, with sweeping views over the hills and valleys of the Western Ghats on clear mornings.",
+   "lat": 10.127,
+   "lng": 77.245,
+   "tripTypes": [
+    "mountains"
+   ],
+   "images": [
+    {
+     "commons": "File:Top Station, Munnar (213529647).jpg",
+     "alt": "Ridges and valleys seen from Top Station near Munnar",
+     "hero": true
+    }
+   ],
+   "sections": {
+    "overview": {
+     "text": "Top Station is one of Munnar's popular viewpoints, with panoramic views over the hills and valleys of the Western Ghats. Go early: mist and cloud often roll in later in the day. It's at the end of the scenic road past Mattupetty and Echo Point.",
+     "facts": [
+      "MN5"
+     ]
+    }
+   }
+  },
+  {
+   "key": "kerala/alappuzha",
+   "kind": "town",
+   "name": "Alappuzha (Alleppey)",
+   "parent": "kerala",
+   "summary": "The 'Venice of the East': backwater houseboats, canals and paddy fields, the beach pier and the Nehru Trophy Boat Race.",
+   "seoTitle": "Alleppey (Alappuzha) Guide: Houseboats, Beach & Boat Race",
+   "seoDescription": "Plan an Alleppey trip: backwater houseboats, Alappuzha Beach and pier, the Nehru Trophy Boat Race (second Saturday of August), Kerala food and getting there.",
+   "lat": 9.4981,
+   "lng": 76.3388,
+   "tripTypes": [
+    "romantic",
+    "nature",
+    "beaches"
+   ],
+   "images": [
+    {
+     "commons": "File:Nedumudy - Houseboat.jpg",
+     "alt": "A kettuvallam houseboat on the backwaters near Alappuzha",
+     "hero": true
+    }
+   ],
+   "relations": [
+    {
+     "to": "kerala/kumarakom",
+     "type": "nearby"
+    },
+    {
+     "to": "kerala/marari",
+     "type": "nearby"
+    },
+    {
+     "to": "kerala/kochi",
+     "type": "day_trip"
+    }
+   ],
+   "sections": {
+    "overview": {
+     "text": "Alappuzha, better known as Alleppey, lies about 62 km south of Kochi on Kerala's coast. Lord Curzon called it the 'Venice of the East'. Its heart is the backwaters: a maze of canals, lakes and lagoons through coconut groves and paddy fields, best seen from a traditional houseboat.\n\nThe town also has a long beach with a pier more than 137 years old, a coir-making heritage and temples such as Ambalapuzha, known for its palpayasam. In August, the Nehru Trophy Boat Race fills Punnamada Lake with 100-foot snake boats. It suits couples, families and anyone who wants to slow down.",
+     "facts": [
+      "AL1",
+      "AL8",
+      "AL10",
+      "AL4",
+      "AL7",
+      "AL6",
+      "AL3"
+     ]
+    },
+    "who_its_for": {
+     "items": [
+      {
+       "title": "Couples",
+       "body": "An overnight houseboat through the backwaters, and sunset at the beach pier."
+      },
+      {
+       "title": "Festival-goers",
+       "body": "The Nehru Trophy Boat Race in August, and the Adoor Gajamela elephant festival in January."
+      },
+      {
+       "title": "Food lovers",
+       "body": "Karimeen pollichathu, seafood and banana-leaf breakfasts."
+      },
+      {
+       "title": "Culture seekers",
+       "body": "Ambalapuzha temple and the coir heritage."
+      }
+     ],
+     "facts": [
+      "AL10",
+      "AL4",
+      "AL3",
+      "AL9",
+      "AL5",
+      "AL6",
+      "AL7"
+     ]
+    },
+    "shopping": {
+     "items": [
+      {
+       "body": "Coir products, from the town's long-standing coir industry.",
+       "status": "verified"
+      },
+      {
+       "body": "Banana chips and fried banana snacks to take home.",
+       "status": "verified"
+      }
+     ],
+     "facts": [
+      "AL7",
+      "AL5"
+     ]
+    },
+    "practical_info": {
+     "items": [
+      {
+       "title": "Getting there",
+       "body": "About 62 km south of Kochi. Alappuzha station, on the coastal line, is about 4 km from the centre.",
+       "status": "verified"
+      },
+      {
+       "title": "Boat race",
+       "body": "The Nehru Trophy is on the second Saturday of August. Book rooms early.",
+       "status": "seasonal"
+      }
+     ],
+     "facts": [
+      "AL1",
+      "AL2",
+      "AL3"
+     ]
+    },
+    "common_mistakes": {
+     "items": [
+      {
+       "body": "Booking the cheapest houseboat without checking licences and reviews. Use registered operators."
+      },
+      {
+       "body": "Spending only a few hours on the water. An overnight cruise shows the backwaters at their best."
+      },
+      {
+       "body": "Arriving on race weekend without a booking."
+      }
+     ],
+     "facts": [
+      "AL10",
+      "AL3"
+     ]
+    },
+    "faqs": {
+     "items": [
+      {
+       "title": "How far is Alleppey from Kochi?",
+       "body": "About 62 km south."
+      },
+      {
+       "title": "When is the Nehru Trophy Boat Race?",
+       "body": "The second Saturday of August each year, on Punnamada Lake."
+      },
+      {
+       "title": "Is there a railway station?",
+       "body": "Yes, on the Ernakulam–Kayamkulam coastal line, about 4 km from the centre."
+      },
+      {
+       "title": "What should I eat?",
+       "body": "Karimeen pollichathu (pearl spot fish in banana leaf), fresh seafood, and puttu with chickpea curry."
+      }
+     ],
+     "facts": [
+      "AL1",
+      "AL3",
+      "AL2",
+      "AL5"
+     ]
+    }
+   }
+  },
+  {
+   "key": "kerala/alappuzha-beach",
+   "kind": "nature",
+   "name": "Alappuzha Beach",
+   "parent": "kerala/alappuzha",
+   "summary": "Alleppey's favourite picnic beach, with a pier stretching into the sea for over 137 years.",
+   "seoTitle": "Alappuzha Beach & Pier: Sunsets in Alleppey",
+   "seoDescription": "Alappuzha Beach is the city's favourite picnic spot, with a historic pier stretching into the Arabian Sea for over 137 years and fine sunsets.",
+   "lat": 9.493,
+   "lng": 76.317,
+   "tripTypes": [
+    "beaches",
+    "family"
+   ],
+   "images": [
+    {
+     "commons": "File:Alleppey beach.jpg",
+     "alt": "The old pier at Alappuzha Beach silhouetted at sunset",
+     "hero": true
+    }
+   ],
+   "sections": {
+    "overview": {
+     "text": "Alappuzha Beach is the city's most popular spot for picnics and relaxing. Its historic pier has stretched into the sea for more than 137 years, a reminder of the port Alleppey once was. Evenings are the time to come, when families gather on the sand and the sun sets over the Arabian Sea behind the pier.\n\nIt is close to the town centre and easy to combine with a backwater cruise earlier in the day. Weekday evenings are calmer than weekends.",
+     "facts": [
+      "AL4"
+     ]
+    },
+    "travel_tips": {
+     "items": [
+      {
+       "body": "Come for sunset and stay for snacks from the beach stalls."
+      },
+      {
+       "body": "The sea can be rough, so swim only where it is safe and lifeguards are present."
+      },
+      {
+       "body": "Keep off the old pier structure where it is fenced."
+      },
+      {
+       "body": "Bring water and sun protection for daytime visits."
+      }
+     ],
+     "facts": []
+    }
+   }
+  },
+  {
+   "key": "kerala/nehru-trophy-boat-race",
+   "kind": "activity",
+   "category": "events",
+   "name": "Nehru Trophy Boat Race",
+   "parent": "kerala/alappuzha",
+   "summary": "Kerala's most famous snake-boat race on Punnamada Lake, held the second Saturday of August.",
+   "seoTitle": "Nehru Trophy Boat Race, Alleppey: Date & Tips",
+   "seoDescription": "Watch 100-foot snake boats race on Punnamada Lake in the Nehru Trophy Boat Race, held in Alappuzha on the second Saturday of August every year.",
+   "lat": 9.51,
+   "lng": 76.34,
+   "tripTypes": [
+    "family"
+   ],
+   "images": [
+    {
+     "commons": "File:Nehru Trophy Boat Race 2012 7791.JPG",
+     "alt": "A long snake boat with dozens of rowers racing at the Nehru Trophy, Alappuzha",
+     "hero": true
+    }
+   ],
+   "sections": {
+    "overview": {
+     "text": "The Nehru Trophy Boat Race is Alappuzha's great event. On Punnamada Lake, 100-foot-long chundan vallams (snake boats) race each other, each driven by hundreds of rowers pulling in perfect time. The air is electric with cheering and the drumming that sets the rowers' rhythm.\n\nIt is held on the second Saturday of August every year. Plan well ahead: it is the busiest weekend of the year in Alappuzha, and the lakeside gets packed with spectators from early in the day.",
+     "facts": [
+      "AL3"
+     ]
+    },
+    "travel_tips": {
+     "items": [
+      {
+       "body": "Book race-day tickets and rooms weeks ahead."
+      },
+      {
+       "body": "Arrive early to get a good spot by the water."
+      },
+      {
+       "body": "Carry an umbrella: August is the monsoon."
+      },
+      {
+       "body": "Watch the practice runs on the days before if you can't get race-day seats."
+      },
+      {
+       "body": "Keep valuables secure in the crowds."
+      }
+     ],
+     "facts": []
+    }
+   }
+  },
+  {
+   "key": "kerala/ambalapuzha-temple",
+   "kind": "temple",
+   "name": "Ambalapuzha Sri Krishna Temple",
+   "parent": "kerala/alappuzha",
+   "summary": "Krishna temple near Alappuzha known for its palpayasam, sweet milk porridge offered to the deity.",
+   "seoTitle": "Ambalapuzha Sri Krishna Temple & Palpayasam",
+   "seoDescription": "Ambalapuzha Sri Krishna Temple near Alappuzha is famous for its palpayasam, a sweet milk porridge offered to the deity, and its Kerala temple architecture.",
+   "lat": 9.383,
+   "lng": 76.358,
+   "tripTypes": [
+    "spiritual"
+   ],
+   "images": [
+    {
+     "commons": "File:Ambalappuzha Sri Krishna Temple Kerala Hinduism India.jpg",
+     "alt": "Ambalapuzha Sri Krishna Temple with its pond and Kerala-style roofs",
+     "hero": true
+    }
+   ],
+   "sections": {
+    "overview": {
+     "text": "The Sri Krishna temple at Ambalapuzha, south of Alappuzha, is one of Kerala's best-known temples, in the classic Kerala style of tiled roofs and wooden halls. It is famous for its palpayasam, a sweet milk porridge offered to the deity, which devotees take home as prasadam.\n\nIt is an easy drive from Alappuzha and can be combined with a beach evening or a backwater trip. Mornings are usually the calmest time to visit, before the day's heat.",
+     "facts": [
+      "AL6"
+     ]
+    },
+    "travel_tips": {
+     "items": [
+      {
+       "body": "Kerala temples often have dress codes, and some inner areas may be closed to visitors. Follow the notices and staff at the gate."
+      },
+      {
+       "body": "Leave footwear outside and keep phones away inside the shrine."
+      },
+      {
+       "body": "Ask at the counter about buying palpayasam."
+      },
+      {
+       "body": "Dress modestly and cover your shoulders and knees."
+      }
+     ],
+     "facts": []
+    }
+   }
+  }
+ ],
+ "itineraries": [
+  {
+   "place": "kerala/munnar",
+   "slug": "munnar-2-days",
+   "title": "Munnar in 2 days",
+   "summary": "Tea estates and the Tea Museum with Mattupetty and Top Station on day one; Eravikulam's Nilgiri tahr and a lake on day two.",
+   "durationDays": 2,
+   "tripTypes": [
+    "mountains",
+    "nature"
+   ],
+   "seoTitle": "2-Day Munnar Itinerary: Tea Estates, Top Station & Eravikulam",
+   "seoDescription": "A two-day Munnar plan: the Tea Museum and estates, Mattupetty, Echo Point and Top Station, then Eravikulam's Nilgiri tahr. Getting there from Kochi.",
+   "facts": [
+    "MN7",
+    "MN6",
+    "MN5",
+    "MN9",
+    "MN8",
+    "MN3"
+   ],
+   "plan": {
+    "overview": "From Kochi (about 130 km). Day 1 follows the Top Station road; day 2 is Eravikulam and a quieter afternoon. Monsoon (June–September) roads are slow.",
+    "start": "Kochi",
+    "end": "Munnar",
+    "transport": "Taxi or hired car",
+    "difficulty": "Easy",
+    "days": [
+     {
+      "title": "Tea and the Top Station road",
+      "stops": [
+       {
+        "time": "Morning",
+        "name": "Tata Tea Museum",
+        "placeSlug": "tata-tea-museum",
+        "duration": "1 hour"
+       },
+       {
+        "time": "Late morning",
+        "name": "Mattupetty Dam and Lake",
+        "placeSlug": "mattupetty-dam",
+        "duration": "1.5 hours"
+       },
+       {
+        "time": "Afternoon",
+        "name": "Top Station",
+        "placeSlug": "top-station",
+        "duration": "1.5 hours",
+        "note": "Go before the afternoon mist."
+       }
+      ],
+      "overnight": "Munnar"
+     },
+     {
+      "title": "Eravikulam and the estates",
+      "stops": [
+       {
+        "time": "Morning",
+        "name": "Eravikulam National Park",
+        "placeSlug": "eravikulam-national-park",
+        "duration": "3 hours"
+       },
+       {
+        "time": "Afternoon",
+        "name": "Tea-estate walk",
+        "duration": "2 hours"
+       }
+      ],
+      "overnight": "Munnar"
+     }
+    ],
+    "alternatives": [
+     "Fit early risers: swap day 2's morning for sunrise at Kolukkumalai."
+    ],
+    "booking": [
+     {
+      "item": "Eravikulam",
+      "detail": "Tickets are often booked online in season; check before you go."
+     }
+    ],
+    "budget": {
+     "assumptions": "VacayOut has no verified current prices for Munnar hotels, transport or activities. Budget for your own choices and confirm fees with operators on the spot.",
+     "lines": []
+    }
+   },
+   "sources": []
+  },
+  {
+   "place": "kerala/alappuzha",
+   "slug": "alleppey-2-days",
+   "title": "Alleppey in 2 days",
+   "summary": "An overnight houseboat through the backwaters, then the beach pier, Ambalapuzha temple and a Kerala lunch.",
+   "durationDays": 2,
+   "tripTypes": [
+    "romantic",
+    "nature"
+   ],
+   "seoTitle": "2-Day Alleppey Itinerary: Houseboat, Beach & Temple",
+   "seoDescription": "Two days in Alleppey: an overnight backwater houseboat, Alappuzha Beach and pier at sunset, Ambalapuzha temple and its palpayasam, and karimeen for lunch.",
+   "facts": [
+    "AL10",
+    "AL4",
+    "AL6",
+    "AL5",
+    "AL1"
+   ],
+   "plan": {
+    "overview": "About 62 km from Kochi. Day 1 is spent on the water overnight; day 2 on land.",
+    "start": "Kochi",
+    "end": "Alappuzha",
+    "transport": "Road or rail from Kochi; houseboat",
+    "difficulty": "Easy",
+    "days": [
+     {
+      "title": "Backwaters by houseboat",
+      "stops": [
+       {
+        "time": "Midday",
+        "name": "Board a houseboat",
+        "duration": "Overnight",
+        "note": "Choose a registered operator."
+       },
+       {
+        "time": "Afternoon",
+        "name": "Cruise past villages and paddy fields",
+        "duration": "4 hours"
+       }
+      ],
+      "overnight": "On the houseboat"
+     },
+     {
+      "title": "Temple, food and the beach",
+      "stops": [
+       {
+        "time": "Morning",
+        "name": "Disembark; Ambalapuzha Sri Krishna Temple",
+        "placeSlug": "ambalapuzha-temple",
+        "duration": "1.5 hours"
+       },
+       {
+        "time": "Lunch",
+        "name": "Karimeen pollichathu",
+        "duration": "1 hour"
+       },
+       {
+        "time": "Evening",
+        "name": "Alappuzha Beach and pier",
+        "placeSlug": "alappuzha-beach",
+        "duration": "2 hours"
+       }
+      ],
+      "overnight": "Alappuzha"
+     }
+    ],
+    "alternatives": [
+     "In the second week of August, time the trip for the Nehru Trophy Boat Race."
+    ],
+    "booking": [
+     {
+      "item": "Houseboat",
+      "detail": "Book with a registered operator and confirm what's included."
+     }
+    ],
+    "budget": {
+     "assumptions": "VacayOut has no verified current prices for Alleppey hotels, transport or activities. Budget for your own choices and confirm fees with operators on the spot.",
+     "lines": []
+    }
+   },
+   "sources": []
+  }
+ ]
+}

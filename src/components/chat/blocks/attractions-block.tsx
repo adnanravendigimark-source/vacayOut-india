@@ -13,11 +13,11 @@ export function AttractionsBlock({ block, onAsk, disabled }: { block: BlockOf<"a
               type="button"
               disabled={disabled}
               onClick={() => onAsk(`Tell me more about ${a.name}`)}
-              className="group block w-full overflow-hidden rounded-xl border border-line bg-white text-left shadow-[var(--shadow-card)] transition-shadow hover:shadow-[var(--shadow-float)] disabled:cursor-not-allowed"
+              className="group block w-full overflow-hidden rounded-2xl border border-[#ECE9E2] bg-white text-left transition-all duration-300 hover:-translate-y-0.5 hover:border-transparent hover:shadow-[0_14px_32px_-22px_rgba(25,25,25,0.4)] disabled:cursor-not-allowed"
             >
               {a.photo ? <BlockImage photo={a.photo} sizes="(min-width:768px) 13rem, 50vw" className="relative aspect-[16/10]" /> : null}
               <span className="block px-3 py-2.5">
-                <span className="block text-[0.8125rem] font-semibold text-ink group-hover:text-forest">{a.name}</span>
+                <span className="block text-[0.8125rem] font-semibold text-ink group-hover:text-coral">{a.name}</span>
                 <span className="mt-0.5 block text-[0.75rem] text-muted">{a.category}</span>
               </span>
             </button>

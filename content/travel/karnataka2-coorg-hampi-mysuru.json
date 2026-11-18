@@ -1,0 +1,1946 @@
+{
+ "cluster": "karnataka2-coorg-hampi-mysuru",
+ "title": "Coorg, Hampi and Mysuru (Batch 3)",
+ "researchedAt": "2026-11-18",
+ "selection": "Batch 3. Coorg (5 sections), Hampi (6) and Mysuru (6) were thin. Adds who it's for, practical info, food, shopping, culture, local transport, tips and common mistakes, fuller overviews (pending review) and rewrites the three itineraries (moved here from karnataka.json). Facts prefixed B are copied from karnataka.json with their verified quotes. Not covered: entry fees and ticket prices.",
+ "sources": {
+  "KT_COORG": {
+   "url": "https://karnatakatourism.org/destinations/coorg/",
+   "title": "Coorg (Kodagu) — Karnataka Tourism",
+   "authority": "government"
+  },
+  "II_COORG": {
+   "url": "https://www.incredibleindia.gov.in/en/karnataka/coorg",
+   "title": "Coorg — Incredible India",
+   "authority": "government"
+  },
+  "W_KOD": {
+   "url": "https://en.wikipedia.org/wiki/Kodagu_district",
+   "title": "Kodagu district — Wikipedia",
+   "authority": "reference"
+  },
+  "W_MDK": {
+   "url": "https://en.wikipedia.org/wiki/Madikeri",
+   "title": "Madikeri — Wikipedia",
+   "authority": "reference"
+  },
+  "KT_HAMPI": {
+   "url": "https://karnatakatourism.org/destinations/hampi/",
+   "title": "Hampi — Karnataka Tourism",
+   "authority": "government"
+  },
+  "II_HAMPI": {
+   "url": "https://www.incredibleindia.gov.in/en/karnataka/hampi",
+   "title": "Hampi — Incredible India",
+   "authority": "government"
+  },
+  "KT_MYSU": {
+   "url": "https://karnatakatourism.org/destinations/mysuru/",
+   "title": "Mysuru — Karnataka Tourism",
+   "authority": "government"
+  },
+  "II_MYS": {
+   "url": "https://www.incredibleindia.gov.in/en/karnataka/mysuru",
+   "title": "Mysuru — Incredible India",
+   "authority": "government"
+  },
+  "W_MYS": {
+   "url": "https://en.wikipedia.org/wiki/Mysore",
+   "title": "Mysore — Wikipedia",
+   "authority": "reference"
+  },
+  "KT_ABB": {
+   "url": "https://karnatakatourism.org/en/attractions/abbey-falls/",
+   "title": "Abbey Falls — Karnataka Tourism (Government of Karnataka)",
+   "authority": "government"
+  },
+  "KT_TAD": {
+   "url": "https://karnatakatourism.org/en/experiences/tadiandamol-hill-experience/",
+   "title": "Tadiandamol — Karnataka Tourism (Government of Karnataka)",
+   "authority": "government"
+  },
+  "KT_COO": {
+   "url": "https://karnatakatourism.org/en/destinations/coorg/",
+   "title": "Coorg (Kodagu) — Karnataka Tourism (Government of Karnataka)",
+   "authority": "government"
+  },
+  "KT_HAM": {
+   "url": "https://karnatakatourism.org/en/destinations/hampi/",
+   "title": "Hampi — Karnataka Tourism (Government of Karnataka)",
+   "authority": "government"
+  },
+  "KT_VIR": {
+   "url": "https://karnatakatourism.org/en/attractions/virupaksha-temple/",
+   "title": "Virupaksha Temple — Karnataka Tourism (Government of Karnataka)",
+   "authority": "government"
+  },
+  "KT_COR": {
+   "url": "https://karnatakatourism.org/en/experiences/coracle-rides-hampi/",
+   "title": "Coracle rides, Hampi — Karnataka Tourism (Government of Karnataka)",
+   "authority": "government"
+  },
+  "KT_MPL": {
+   "url": "https://karnatakatourism.org/en/attractions/mysuru-palace/",
+   "title": "Mysuru Palace — Karnataka Tourism (Government of Karnataka)",
+   "authority": "government"
+  },
+  "KT_MYS": {
+   "url": "https://karnatakatourism.org/en/destinations/mysuru/",
+   "title": "Mysuru — Karnataka Tourism (Government of Karnataka)",
+   "authority": "government"
+  },
+  "W_CHM": {
+   "url": "https://en.wikipedia.org/wiki/Chamundi_Hills",
+   "title": "Chamundi Hills — Wikipedia",
+   "authority": "reference"
+  },
+  "KT_SRI": {
+   "url": "https://karnatakatourism.org/en/destinations/srirangapatna/",
+   "title": "Srirangapatna — Karnataka Tourism (Government of Karnataka)",
+   "authority": "government"
+  }
+ },
+ "facts": {
+  "BCG3": {
+   "place": "karnataka/coorg",
+   "topic": "Getting there",
+   "claim": "Madikeri is about 250 km from Bengaluru; Kannur airport (90 km) is closest, and buses run from Bengaluru, Mysuru and Mangaluru.",
+   "claimType": "distance",
+   "evidence": [
+    {
+     "source": "KT_ABB",
+     "quote": "Madikeri is 250 kms from Bengaluru city and 140 kms from Mangaluru. Kannur International Airport in Kerala is the closest to Madikeri (90 kms from Madikeri)."
+    },
+    {
+     "source": "KT_ABB",
+     "quote": "Madikeri has excellent bus connectivity from Bengaluru, Mysuru and Mangaluru."
+    }
+   ]
+  },
+  "BCG4": {
+   "place": "karnataka/coorg",
+   "topic": "Best time",
+   "claim": "October to February brings cool, clear weather; the monsoon brings mist.",
+   "claimType": "general",
+   "evidence": [
+    {
+     "source": "KT_TAD",
+     "quote": "October to February is the ideal season for visiting, with cool temperatures, clear skies, and vibrant greenery."
+    }
+   ],
+   "kind": "seasonal"
+  },
+  "BCG5": {
+   "place": "karnataka/coorg",
+   "topic": "Dubare and Bylakuppe",
+   "claim": "At Dubare you can watch elephants bathe in the Cauvery; Bylakuppe, one of India's largest Tibetan settlements, has the Namdroling Monastery with 40-foot gilded Buddhas.",
+   "claimType": "general",
+   "evidence": [
+    {
+     "source": "KT_COO",
+     "quote": "Observe Asian elephants up close during bathing and feeding sessions"
+    },
+    {
+     "source": "KT_COO",
+     "quote": "Visit Bylakuppe, one of the largest Tibetan settlements in India. Explore the serene Namdroling Monastery to marvel at its 40-foot gilded Buddha statues"
+    }
+   ]
+  },
+  "BCG6": {
+   "place": "karnataka/coorg",
+   "topic": "Raja's Seat",
+   "claim": "Raja's Seat in Madikeri is a historic garden favoured by the Kings of Coorg, known for sunset views.",
+   "claimType": "general",
+   "evidence": [
+    {
+     "source": "KT_COO",
+     "quote": "Head into Madikeri town to relax at Raja's Seat, a historic garden favored by the Kings of Coorg."
+    }
+   ]
+  },
+  "BCGA1": {
+   "place": "karnataka/abbey-falls",
+   "topic": "Abbey Falls",
+   "claim": "Abbey Falls, 6 km from Madikeri, drops about 70 ft; open 9 am to 5 pm, with a hanging bridge view and no swimming.",
+   "claimType": "opening_hours",
+   "evidence": [
+    {
+     "source": "KT_ABB",
+     "quote": "River Kaveri drops for about 70 ft over wide rocks creating a spectacular view."
+    },
+    {
+     "source": "KT_ABB",
+     "quote": "Entry to Abbey Falls is open from 9 AM to 5 PM."
+    },
+    {
+     "source": "KT_ABB",
+     "quote": "Bathing or swimming in Abbey Falls is not allowed."
+    },
+    {
+     "source": "KT_ABB",
+     "quote": "Abbey Falls is just 6 kms from Madikeri town."
+    }
+   ]
+  },
+  "BHM3": {
+   "place": "karnataka/hampi",
+   "topic": "Best time and length",
+   "claim": "October to February is best; allow about three days. The Hampi Utsav brings dance and music to the ruins.",
+   "claimType": "general",
+   "evidence": [
+    {
+     "source": "KT_HAM",
+     "quote": "October to February is the recommended time to visit, with about three days suggested to do the site justice."
+    },
+    {
+     "source": "KT_HAM",
+     "quote": "The annual Hampi Utsav brings the Vijayanagara era to life with classical dance, music and processions amid the ruins."
+    }
+   ],
+   "kind": "seasonal"
+  },
+  "BHM4": {
+   "place": "karnataka/hampi",
+   "topic": "Getting there",
+   "claim": "Hampi is about 340 km from Bengaluru; Hosapete Junction is about 13 km away and Vidyanagar airport about 40 km.",
+   "claimType": "distance",
+   "evidence": [
+    {
+     "source": "KT_HAM",
+     "quote": "It lies about 340 km from Bengaluru."
+    },
+    {
+     "source": "KT_HAM",
+     "quote": "Nearest station: Hosapete Junction (13km) via Hampi Main Road"
+    },
+    {
+     "source": "KT_VIR",
+     "quote": "Vidyanagar airport is the closest airport (40 kms from Hampi) and has daily flights from Bengaluru and Hyderabad."
+    }
+   ]
+  },
+  "BHM5": {
+   "place": "karnataka/hampi",
+   "topic": "Monolithic Ganeshas",
+   "claim": "On Hemakuta Hill are two monolithic Ganeshas, Kadalekalu (15 ft) and Sasivekalu (8 ft); nearby is the 22-ft Lakshmi Narasimha.",
+   "claimType": "general",
+   "evidence": [
+    {
+     "source": "KT_HAM",
+     "quote": "Kadalekalu (15 ft) and Sasivekalu (8 ft), carved directly from living bedrock."
+    },
+    {
+     "source": "KT_HAM",
+     "quote": "Stop at the fierce 22-foot monolithic Lakshmi Narasimha statue"
+    }
+   ]
+  },
+  "BHMC1": {
+   "place": "karnataka/hampi-coracle-ride",
+   "topic": "Coracle rides",
+   "claim": "Round bamboo coracles take you across the Tungabhadra from ghats near the Virupaksha and Kodandarama temples; life jackets are mandatory.",
+   "claimType": "general",
+   "evidence": [
+    {
+     "source": "KT_COR",
+     "quote": "Near Virupaksha Temple, Kodandarama Temple, and Sanapur Lake"
+    },
+    {
+     "source": "KT_COR",
+     "quote": "Life jackets are standard issue and mandatory for all passengers."
+    },
+    {
+     "source": "KT_COR",
+     "quote": "Rides do not require advance booking"
+    }
+   ]
+  },
+  "BMY4": {
+   "place": "karnataka/mysuru",
+   "topic": "Getting there",
+   "claim": "Most visitors fly into Bengaluru and drive about 3.5 hours; Mysuru Junction has daily trains from Bengaluru and Chennai.",
+   "claimType": "distance",
+   "evidence": [
+    {
+     "source": "KT_MPL",
+     "quote": "most travellers fly into Kempegowda International Airport in Bengaluru and continue by road, a roughly three-and-a-half-hour journey."
+    },
+    {
+     "source": "KT_MPL",
+     "quote": "Mysuru Junction connects well with Bengaluru, Chennai and other major South Indian cities, with several trains running each day."
+    }
+   ]
+  },
+  "BMY5": {
+   "place": "karnataka/mysuru",
+   "topic": "Best time",
+   "claim": "October brings Dasara; November to February is quieter and pleasant.",
+   "claimType": "general",
+   "evidence": [
+    {
+     "source": "KT_MPL",
+     "quote": "October usually brings the Mysuru Dasara festival, making it the most rewarding month to visit despite the larger crowds."
+    },
+    {
+     "source": "KT_MPL",
+     "quote": "For a quieter experience with pleasant weather, aim for the cooler months between November and February."
+    }
+   ],
+   "kind": "seasonal"
+  },
+  "BMY6": {
+   "place": "karnataka/mysuru",
+   "topic": "Devaraja Market",
+   "claim": "Devaraja Market is known for flowers, incense, sandalwood products and spices.",
+   "claimType": "general",
+   "evidence": [
+    {
+     "source": "KT_MYS",
+     "quote": "Stroll through the vibrant Devaraja Market, famous for fresh local flowers, traditional incense sticks, sandalwood products, and spices."
+    }
+   ]
+  },
+  "BMYP2": {
+   "place": "karnataka/mysuru-palace",
+   "topic": "Hours and rules",
+   "claim": "Open daily 10 am to 5:30 pm (last entry 5 pm); shoes off, and no photography inside.",
+   "claimType": "opening_hours",
+   "evidence": [
+    {
+     "source": "KT_MPL",
+     "quote": "The palace opens daily from 10:00 AM to 5:30 PM, with the last entry allowed at 5:00 PM."
+    },
+    {
+     "source": "KT_MPL",
+     "quote": "No, photography and videography are not allowed inside the palace."
+    }
+   ]
+  },
+  "BMYP3": {
+   "place": "karnataka/mysuru-palace",
+   "topic": "Illumination",
+   "claim": "About 97,000 bulbs light the palace from 7 to 8 pm on Sundays and public holidays, and for two hours nightly during Dasara.",
+   "claimType": "opening_hours",
+   "evidence": [
+    {
+     "source": "KT_MPL",
+     "quote": "97,000 electric  bulbs light up the palace between 7:00 PM and 8:00 PM on Sundays and public holidays. During Dasara, the illumination extends to two hours each night."
+    }
+   ]
+  },
+  "BMYP5": {
+   "place": "karnataka/mysuru-palace",
+   "topic": "Station",
+   "claim": "Mysuru Junction station is about 2 km from the palace.",
+   "claimType": "distance",
+   "evidence": [
+    {
+     "source": "KT_MPL",
+     "quote": "Mysuru Junction railway station lies about two kilometres away"
+    }
+   ]
+  },
+  "BMYC1": {
+   "place": "karnataka/chamundi-hills",
+   "topic": "Chamundi Hills",
+   "claim": "The Chamundi Hills, 13 km from Mysore, are topped by the Chamundeshwari Temple; a stairway of over 1,008 steps passes a giant monolithic Nandi.",
+   "claimType": "general",
+   "evidence": [
+    {
+     "source": "W_CHM",
+     "quote": "The Chamundi Hill is located 13 km east of Mysore"
+    },
+    {
+     "source": "W_CHM",
+     "quote": "The main hill itself features an ancient stone stairway of 1,008+ steps leading to its summit"
+    },
+    {
+     "source": "W_CHM",
+     "quote": "which is 4.9 m tall and 7.6 m long and carved out of a single piece of black granite."
+    }
+   ]
+  },
+  "BMYR2": {
+   "place": "karnataka/srirangapatna",
+   "topic": "Sights",
+   "claim": "See the Sri Ranganathaswamy Temple (c. 984 CE), the Gumbaz mausoleum and Tipu's teak Summer Palace, Daria Daulat Bagh.",
+   "claimType": "general",
+   "evidence": [
+    {
+     "source": "KT_SRI",
+     "quote": "Srirangapatna takes its name from the Sri Ranganathaswamy Temple , which was consecrated around 984 CE ."
+    },
+    {
+     "source": "KT_SRI",
+     "quote": "Just outside the fort is the Gumbaz, the mausoleum of Hyder Ali, Tipu Sultan, and Tipu’s mother."
+    },
+    {
+     "source": "KT_SRI",
+     "quote": "This teak-wood palace, built between 1778 and 1784, has painted frescoes showing Tipu’s battles and court life."
+    }
+   ]
+  },
+  "CO1": {
+   "place": "karnataka/coorg",
+   "topic": "Scotland of India",
+   "claim": "Coorg, officially Kodagu, is a Western Ghats hill region often called the 'Scotland of India' for its mist.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "KT_COORG",
+     "quote": "because of its misty surroundings and scenic beauty."
+    }
+   ]
+  },
+  "CO2": {
+   "place": "karnataka/coorg",
+   "topic": "Kodava firearms",
+   "claim": "Under the 1861 Indian Arms Act, Kodavas are the only group in India exempt from needing a gun licence; guns are worshipped at the Kailpodh festival.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "KT_COORG",
+     "quote": "Under the 1861 Indian Arms Act, Kodavas remain the only group in India exempted from needing a gun license to possess specified firearms."
+    },
+    {
+     "source": "KT_COORG",
+     "quote": "where a gun is worshipped alongside ancestral spirits during the annual Kailpodh festival."
+    }
+   ]
+  },
+  "CO3": {
+   "place": "karnataka/coorg",
+   "topic": "Military heritage",
+   "claim": "Coorg produced India's first Commander-in-Chief, Field Marshal K. M. Cariappa, and General K. S. Thimayya.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "KT_COORG",
+     "quote": "The region produced India's first Commander-in-Chief (later Field Marshal) K.M. Cariappa"
+    }
+   ]
+  },
+  "CO4": {
+   "place": "karnataka/coorg",
+   "topic": "Coffee",
+   "claim": "Kodagu is India's largest coffee- and pepper-producing district.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "W_KOD",
+     "quote": "Kodagu is the largest coffee and pepper producing district in India."
+    }
+   ]
+  },
+  "CO5": {
+   "place": "karnataka/coorg",
+   "topic": "Shopping",
+   "claim": "Plantation stores and markets sell roasted coffee, pepper, cardamom, honey, homemade chocolates and local wines.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "II_COORG",
+     "quote": "Visitors can explore plantation stores and local markets to purchase freshly roasted coffee, premium pepper, cardamom, honey, homemade chocolates, and artisanal wines"
+    }
+   ]
+  },
+  "CO6": {
+   "place": "karnataka/coorg",
+   "topic": "Food",
+   "claim": "Kodava cooking includes bamboo-shoot dishes and curries made with local spices.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "II_COORG",
+     "quote": "bamboo shoot delicacies, and traditional curries infused with locally grown spices"
+    }
+   ]
+  },
+  "CO7": {
+   "place": "karnataka/coorg",
+   "topic": "Talakaveri",
+   "claim": "Talakaveri is the source of the Kaveri; Kaveri Sankramana celebrates the river's birth.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "II_COORG",
+     "quote": "At Talakaveri, devotees visit the source of the Kaveri River"
+    },
+    {
+     "source": "KT_COORG",
+     "quote": "Kaveri Sankramana: Celebrating the divine birth of the sacred Cauvery"
+    }
+   ]
+  },
+  "CO8": {
+   "place": "karnataka/coorg",
+   "topic": "Kodava dress",
+   "claim": "Kodava women drape the sari with the pleats at the back.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "KT_COORG",
+     "quote": "Kodava women drape the Chira (saree) with pleats folded at the back"
+    }
+   ]
+  },
+  "CO9": {
+   "place": "karnataka/coorg",
+   "topic": "Tadiandamol",
+   "claim": "Tadiandamol (1,748 m) is Kodagu's highest peak and Karnataka's third-highest.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "KT_COORG",
+     "quote": "At 1,748 m, Tadiandamol is the highest peak in Kodagu and the third-highest in Karnataka."
+    },
+    {
+     "source": "KT_COORG",
+     "quote": "The trek from Nalaknad Palace"
+    }
+   ]
+  },
+  "CO17": {
+   "place": "karnataka/coorg",
+   "topic": "Dubare mornings",
+   "claim": "Elephant bathing sessions at Dubare are held in the morning.",
+   "claimType": "schedule",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "KT_COORG",
+     "quote": "Participate in morning elephant bathing sessions along the river bank"
+    }
+   ]
+  },
+  "CO10": {
+   "place": "karnataka/coorg",
+   "topic": "Brahmagiri",
+   "claim": "The 181 sq km Brahmagiri Wildlife Sanctuary protects evergreen forest and shola grassland, with elephants, tigers, gaur and wild dogs.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "KT_COORG",
+     "quote": "this 181 sq km wildlife sanctuary in Kodagu protects evergreen forest, shola grassland and streams."
+    }
+   ]
+  },
+  "CO11": {
+   "place": "karnataka/coorg",
+   "topic": "Iruppu Falls",
+   "claim": "Iruppu Falls in the Brahmagiri Hills plunges about 170 feet.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "KT_COORG",
+     "quote": "the waterfall plunges about 170 feet through lush evergreen forest"
+    }
+   ]
+  },
+  "CO12": {
+   "place": "karnataka/coorg",
+   "topic": "Monsoon",
+   "claim": "Kodagu gets most of its rain from the south-west monsoon, when the waterfalls are at their fullest.",
+   "claimType": "general",
+   "kind": "seasonal",
+   "evidence": [
+    {
+     "source": "W_KOD",
+     "quote": "Kodagu district receives majority of its rainfall from Southwest Monsoon winds."
+    },
+    {
+     "source": "II_COORG",
+     "quote": "The region is also home to spectacular waterfalls that come alive during the monsoon."
+    }
+   ]
+  },
+  "CO13": {
+   "place": "karnataka/coorg",
+   "topic": "Mercara",
+   "claim": "Madikeri was called Mercara under British rule.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "W_MDK",
+     "quote": "From 1834, during the British Raj, it was called Mercara."
+    }
+   ]
+  },
+  "CO14": {
+   "place": "karnataka/coorg",
+   "topic": "Omkareshwara",
+   "claim": "Madikeri's Omkareshwara Temple dates from 1820.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "KT_COORG",
+     "quote": "the Omkareshwara Temple, built-in 1820"
+    }
+   ]
+  },
+  "CO15": {
+   "place": "karnataka/coorg",
+   "topic": "Plantation walks",
+   "claim": "Guided plantation walks explain how coffee is grown.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "II_COORG",
+     "quote": "Guided plantation walks offer visitors an opportunity to learn about coffee cultivation"
+    }
+   ]
+  },
+  "CO16": {
+   "place": "karnataka/coorg",
+   "topic": "Nearest railway",
+   "claim": "The nearest major railway station is Mysuru Junction, about 120 km from Madikeri by the Mangaluru–Mysuru highway.",
+   "claimType": "distance",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "KT_COORG",
+     "quote": "Mysuru Junction (120km) via Mangaluru - Mysore Highway"
+    }
+   ]
+  },
+  "HA1": {
+   "place": "karnataka/hampi",
+   "topic": "Scale",
+   "claim": "Hampi's UNESCO site covers over 4,100 hectares with more than 1,600 surviving monuments; it was listed in 1986.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "KT_HAMPI",
+     "quote": "Spanning over 4,100 hectares, this landscape preserves more than 1,600 surviving monuments"
+    },
+    {
+     "source": "KT_HAMPI",
+     "quote": "In 1986, the monuments of Hampi were declared a UNESCO World Heritage Site"
+    }
+   ]
+  },
+  "HA2": {
+   "place": "karnataka/hampi",
+   "topic": "Second-largest city",
+   "claim": "Karnataka Tourism says that around 1500 CE Hampi-Vijayanagara was the world's second-largest city, a trading hub for diamonds, pearls and silk; the empire fell after the Battle of Talikota.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "KT_HAMPI",
+     "quote": "At its zenith around 1500 CE, Hampi-Vijayanagara was the second-largest city in the world"
+    },
+    {
+     "source": "KT_HAMPI",
+     "quote": "eventual tragic fall of a golden empire after the Battle of Talikota"
+    }
+   ]
+  },
+  "HA3": {
+   "place": "karnataka/hampi",
+   "topic": "Vittala Temple",
+   "claim": "The Vittala Temple's 56 musical pillars ring when struck, and its Stone Chariot appears on the ₹50 note.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "KT_HAMPI",
+     "quote": "the 56 musical pillars of the Ranga Mantapa ring with musical notes when struck"
+    },
+    {
+     "source": "KT_HAMPI",
+     "quote": "so iconic that it appears on the"
+    }
+   ]
+  },
+  "HA4": {
+   "place": "karnataka/hampi",
+   "topic": "Virupaksha",
+   "claim": "Worship continues at the Virupaksha Temple under its nine-tiered gopuram; inside, a pinhole effect projects the gopuram's inverted shadow.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "KT_HAMPI",
+     "quote": "a nine-tiered gopuram rises above the ruins and worship continues to this day"
+    },
+    {
+     "source": "KT_HAMPI",
+     "quote": "Witness the inverted pinhole camera shadow of the main gopuram inside the temple"
+    }
+   ]
+  },
+  "HA5": {
+   "place": "karnataka/hampi",
+   "topic": "Viewpoints",
+   "claim": "Matanga Hill is the highest viewpoint in central Hampi; Hemakuta Hill is another sunset spot.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "KT_HAMPI",
+     "quote": "the highest vantage point in central Hampi"
+    },
+    {
+     "source": "KT_HAMPI",
+     "quote": "watch the sunset from Hemakuta Hill"
+    }
+   ]
+  },
+  "HA6": {
+   "place": "karnataka/hampi",
+   "topic": "Tungabhadra Dam",
+   "claim": "The Tungabhadra Dam at Hosapete is 2,449 m long.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "KT_HAMPI",
+     "quote": "It stretches across a total length of 2,449 metres"
+    }
+   ]
+  },
+  "HA7": {
+   "place": "karnataka/hampi",
+   "topic": "Museum",
+   "claim": "The Archaeological Museum displays Vijayanagara coins and finds.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "II_HAMPI",
+     "quote": "Step into the hallowed halls of the Archaeological Museum"
+    }
+   ]
+  },
+  "HA8": {
+   "place": "karnataka/hampi",
+   "topic": "Bouldering",
+   "claim": "Hampi's granite boulders draw rock climbers.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "II_HAMPI",
+     "quote": "For rock climbers and nature enthusiasts alike, Hampi's boulders hold boundless adventures"
+    }
+   ]
+  },
+  "HA9": {
+   "place": "karnataka/hampi",
+   "topic": "Kishkinda",
+   "claim": "Hampi is linked with Kishkinda, the monkey kingdom of the Ramayana.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "II_HAMPI",
+     "quote": "Once hailed as Kishkinda, the fabled kingdom of monkeys"
+    }
+   ]
+  },
+  "HA10": {
+   "place": "karnataka/hampi",
+   "topic": "Royal Enclosure style",
+   "claim": "The Elephant Stables and Lotus Mahal blend Indo-Islamic design.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "KT_HAMPI",
+     "quote": "Islamic design blend seen in the royal Elephant Stables and Lotus Mahal"
+    }
+   ]
+  },
+  "HA11": {
+   "place": "karnataka/hampi",
+   "topic": "Hampi Bazaar",
+   "claim": "Hampi Bazaar was the empire's street market.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "II_HAMPI",
+     "quote": "was a street market that served as a 'mall' for the Vijayanagar empire."
+    }
+   ]
+  },
+  "MS1": {
+   "place": "karnataka/mysuru",
+   "topic": "Location",
+   "claim": "Mysuru lies at the foot of the Chamundi Hills, about 140 km south-west of Bengaluru, at about 770 m.",
+   "claimType": "distance",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "KT_MYSU",
+     "quote": "Situated at the foothills of the Chamundi Hills, it is about 140 km southwest of Bengaluru."
+    },
+    {
+     "source": "KT_MYSU",
+     "quote": "(~770 meters above sea level)"
+    }
+   ]
+  },
+  "MS2": {
+   "place": "karnataka/mysuru",
+   "topic": "Capital",
+   "claim": "Mysuru was capital of the Kingdom of Mysore for almost six centuries (1399–1947).",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "II_MYS",
+     "quote": "the city functioned as the capital of the Kingdom of Mysore for almost six centuries (1399 to 1947)"
+    }
+   ]
+  },
+  "MS3": {
+   "place": "karnataka/mysuru",
+   "topic": "Palace visitors",
+   "claim": "Mysuru Palace draws over six million visitors a year; arrive around the 10 am opening to beat the crowds.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "KT_MYSU",
+     "quote": "The palace draws over six million people annually."
+    },
+    {
+     "source": "KT_MYSU",
+     "quote": "Arrive around opening time (10:00 AM) to avoid peak afternoon crowds"
+    }
+   ]
+  },
+  "MS4": {
+   "place": "karnataka/mysuru",
+   "topic": "Jaganmohan",
+   "claim": "Jaganmohan Palace (1861) is now an art gallery of Mysuru-style paintings.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "KT_MYSU",
+     "quote": "Head over to the Jaganmohan Palace, constructed in 1861."
+    }
+   ]
+  },
+  "MS5": {
+   "place": "karnataka/mysuru",
+   "topic": "Dasara",
+   "claim": "Mysuru Dasara is a ten-day festival of processions, music, dance and folk arts.",
+   "claimType": "schedule",
+   "kind": "seasonal",
+   "evidence": [
+    {
+     "source": "II_MYS",
+     "quote": "the world-famous Mysore Dasara, a ten-day extravaganza"
+    },
+    {
+     "source": "II_MYS",
+     "quote": "Other forms of popular traditional dances include Dollu Kunitha"
+    }
+   ]
+  },
+  "MS6": {
+   "place": "karnataka/mysuru",
+   "topic": "Food",
+   "claim": "Try Mysore pak, Mysuru masala dosa, bisi bele bath, chitranna, ragi mudde and obbattu.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "II_MYS",
+     "quote": "The unending list of culinary delights of Mysuru includes Chitranna, Mysuru Masala Dosa, Bisi Bele Bath, Ragi Mudde, Shavige Bath and Obbattu."
+    },
+    {
+     "source": "KT_MYSU",
+     "quote": "Mysuru Pak is a popular sweet from Karnataka made primarily from ghee and gram flour."
+    }
+   ]
+  },
+  "MS7": {
+   "place": "karnataka/mysuru",
+   "topic": "Silk",
+   "claim": "Mysuru gives its name to the Mysore silk sari, of pure silk and gold zari.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "W_MYS",
+     "quote": "The city lends its name to the Mysore silk sari, a women's garment made with pure silk and gold zari (thread)."
+    }
+   ]
+  },
+  "MS8": {
+   "place": "karnataka/mysuru",
+   "topic": "Crafts",
+   "claim": "Traditional crafts include sandalwood carving, bronze work, rosewood inlay and gold-foil Mysore painting.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "W_MYS",
+     "quote": "Mysore has traditionally been home to industries such as weaving, sandalwood carving, bronze work"
+    },
+    {
+     "source": "W_MYS",
+     "quote": "Mysore is known for rosewood inlay work"
+    },
+    {
+     "source": "KT_MYSU",
+     "quote": "Mysore painting is a traditional South Indian art form known for its refined lines, muted elegance, and the use of pure gold foil detailing."
+    }
+   ]
+  },
+  "MS9": {
+   "place": "karnataka/mysuru",
+   "topic": "Airport",
+   "claim": "Mysore Airport, a small domestic airport, is about 10 km south of the centre.",
+   "claimType": "distance",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "W_MYS",
+     "quote": "Mysore Airport is a domestic airport and is located near the village of Mandakalli, 10 kilometres south of the centre of the city."
+    }
+   ]
+  },
+  "MS10": {
+   "place": "karnataka/mysuru",
+   "topic": "Seasons",
+   "claim": "Summer is March–May, the monsoon June–October and winter November–February.",
+   "claimType": "general",
+   "kind": "seasonal",
+   "evidence": [
+    {
+     "source": "W_MYS",
+     "quote": "The main seasons are Summer from March to May, the monsoon season from June to October and winter from November to February."
+    }
+   ]
+  },
+  "MS11": {
+   "place": "karnataka/mysuru",
+   "topic": "Brindavan Gardens",
+   "claim": "Near the city, the Brindavan Gardens beside the Krishnarajasagar Dam have an evening musical fountain show.",
+   "claimType": "general",
+   "kind": "seasonal",
+   "evidence": [
+    {
+     "source": "W_MYS",
+     "quote": "where a musical fountain show is held every evening."
+    }
+   ]
+  },
+  "MS12": {
+   "place": "karnataka/mysuru",
+   "topic": "Zoo and lakes",
+   "claim": "The Mysore Zoo (1892), Karanji and Kukkarahalli lakes are popular.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "W_MYS",
+     "quote": "The Mysore Zoo, established in 1892"
+    },
+    {
+     "source": "W_MYS",
+     "quote": "the Karanji, Kukkarahalli and the Blue Lagoon Lake are popular recreational destinations."
+    }
+   ]
+  },
+  "MS13": {
+   "place": "karnataka/mysuru",
+   "topic": "St Philomena's",
+   "claim": "St Philomena's Cathedral is one of India's largest cathedrals, in Gothic style.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "KT_MYSU",
+     "quote": "is a remarkable example of Gothic architecture."
+    }
+   ]
+  }
+ },
+ "places": [
+  {
+   "key": "karnataka/coorg",
+   "kind": "region",
+   "name": "Coorg (Kodagu)",
+   "parent": "karnataka",
+   "summary": "Misty Western Ghats hills of coffee estates, waterfalls, Kodava culture and Tibetan monasteries, based around Madikeri.",
+   "seoTitle": "Coorg Travel Guide: Coffee, Waterfalls & Kodava Culture",
+   "seoDescription": "Plan Coorg: Madikeri, Abbey Falls, Raja's Seat, Dubare elephants, Namdroling Monastery, Tadiandamol, coffee estates, Kodava food and the best time to visit.",
+   "lat": 12.4244,
+   "lng": 75.7382,
+   "tripTypes": [
+    "mountains",
+    "nature",
+    "romantic"
+   ],
+   "images": [
+    {
+     "commons": "File:Tadiandamol Valley, Western Ghats.jpg",
+     "alt": "Misty valley below Tadiandamol in the Western Ghats of Coorg",
+     "hero": true
+    }
+   ],
+   "sections": {
+    "overview": {
+     "text": "Coorg, officially Kodagu, is a hill district in the Western Ghats that people often call the 'Scotland of India' for its mist and green hills. It is India's biggest coffee- and pepper-growing district, and estates cover the slopes around Madikeri, the old British Mercara and the usual base.\n\nThe Kodava people give Coorg its character. Their warrior tradition produced Field Marshal K. M. Cariappa, they are the only community in India allowed to own certain firearms without a licence, and they have their own dress, food and festivals. Around Madikeri are Abbey Falls, Raja's Seat and the 1820 Omkareshwara Temple. Further out are Dubare's elephants, the Tibetan settlement at Bylakuppe, Talakaveri at the source of the Kaveri, and treks up Tadiandamol, the district's highest peak at 1,748 m. Visit from October to February for clear weather, or in the monsoon for full waterfalls.",
+     "facts": [
+      "CO1",
+      "CO4",
+      "CO13",
+      "CO3",
+      "CO2",
+      "BCGA1",
+      "BCG6",
+      "CO14",
+      "BCG5",
+      "CO7",
+      "CO9",
+      "BCG4",
+      "CO12"
+     ]
+    },
+    "who_its_for": {
+     "items": [
+      {
+       "title": "Couples",
+       "body": "Plantation stays, misty viewpoints and sunset at Raja's Seat."
+      },
+      {
+       "title": "Families",
+       "body": "Elephants at Dubare, Abbey Falls and the Namdroling Monastery."
+      },
+      {
+       "title": "Trekkers",
+       "body": "Tadiandamol, Brahmagiri and the walk to Iruppu Falls."
+      },
+      {
+       "title": "Coffee lovers",
+       "body": "Guided plantation walks in India's biggest coffee district."
+      }
+     ],
+     "facts": [
+      "BCG6",
+      "BCG5",
+      "BCGA1",
+      "CO9",
+      "CO10",
+      "CO11",
+      "CO15",
+      "CO4"
+     ]
+    },
+    "practical_info": {
+     "items": [
+      {
+       "title": "Getting there",
+       "body": "Madikeri is about 250 km from Bengaluru and 140 km from Mangaluru. Kannur airport in Kerala, about 90 km away, is the closest. The nearest major railway station is Mysuru Junction, about 120 km away.",
+       "status": "verified"
+      },
+      {
+       "title": "Buses",
+       "body": "Regular buses run to Madikeri from Bengaluru, Mysuru and Mangaluru.",
+       "status": "verified"
+      },
+      {
+       "title": "Abbey Falls",
+       "body": "About 6 km from Madikeri; open 9 am to 5 pm. Swimming is not allowed.",
+       "status": "verified"
+      },
+      {
+       "title": "Weather",
+       "body": "October to February is cool and clear. Most rain falls in the south-west monsoon.",
+       "status": "seasonal"
+      }
+     ],
+     "facts": [
+      "BCG3",
+      "CO16",
+      "BCGA1",
+      "BCG4",
+      "CO12"
+     ]
+    },
+    "food": {
+     "items": [
+      {
+       "body": "Kodava curries made with local spices.",
+       "status": "verified"
+      },
+      {
+       "body": "Bamboo-shoot dishes, a Kodava speciality.",
+       "status": "verified"
+      },
+      {
+       "body": "Freshly roasted Coorg coffee on the estate where it grows.",
+       "status": "verified"
+      }
+     ],
+     "facts": [
+      "CO6",
+      "CO4"
+     ]
+    },
+    "shopping": {
+     "items": [
+      {
+       "body": "Roasted coffee from plantation stores.",
+       "status": "verified"
+      },
+      {
+       "body": "Pepper, cardamom and honey.",
+       "status": "verified"
+      },
+      {
+       "body": "Homemade chocolates and local wines.",
+       "status": "verified"
+      }
+     ],
+     "facts": [
+      "CO5"
+     ]
+    },
+    "culture_etiquette": {
+     "items": [
+      {
+       "body": "The Kodavas are a proud warrior community. Ask before photographing people or family shrines."
+      },
+      {
+       "body": "Kodava women wear the sari with the pleats at the back."
+      },
+      {
+       "body": "Kailpodh, the festival at which guns are worshipped, and Kaveri Sankramana, at Talakaveri, are major Kodava festivals."
+      }
+     ],
+     "facts": [
+      "CO3",
+      "CO8",
+      "CO2",
+      "CO7"
+     ]
+    },
+    "common_mistakes": {
+     "items": [
+      {
+       "body": "Trying Dubare, Bylakuppe, Talakaveri and Tadiandamol in one day. They are in different corners of the district."
+      },
+      {
+       "body": "Planning to swim at Abbey Falls. It isn't allowed."
+      },
+      {
+       "body": "Skipping the monsoon. It's wet, but the waterfalls are at their best."
+      },
+      {
+       "body": "Expecting a railway station in Coorg. The nearest major one is Mysuru, about 120 km away."
+      }
+     ],
+     "facts": [
+      "BCG5",
+      "CO7",
+      "CO9",
+      "BCGA1",
+      "CO12",
+      "CO16"
+     ]
+    }
+   }
+  },
+  {
+   "key": "karnataka/hampi",
+   "kind": "town",
+   "name": "Hampi",
+   "parent": "karnataka",
+   "summary": "The boulder-strewn ruins of the Vijayanagara capital: Virupaksha and Vittala temples, the Stone Chariot, the Royal Enclosure and coracles on the Tungabhadra.",
+   "seoTitle": "Hampi Travel Guide: Temples, Ruins & How to Visit",
+   "seoDescription": "Plan Hampi: Virupaksha and Vittala temples, the Stone Chariot, Royal Enclosure, Matanga Hill sunsets, coracles, getting there from Hosapete and the best time to go.",
+   "lat": 15.335,
+   "lng": 76.46,
+   "tripTypes": [
+    "heritage",
+    "adventure"
+   ],
+   "images": [
+    {
+     "commons": "File:Wide angle of Galigopuram of Virupaksha Temple, Hampi (04) (cropped).jpg",
+     "alt": "The gopuram of Virupaksha Temple rising over Hampi",
+     "hero": true
+    }
+   ],
+   "sections": {
+    "overview": {
+     "text": "Hampi was the capital of the Vijayanagara Empire, and around 1500 CE, Karnataka Tourism says, the world's second-largest city, a market for diamonds, pearls and silk. It fell after the Battle of Talikota. Today more than 1,600 surviving monuments are scattered across 4,100 hectares of granite boulders beside the Tungabhadra, a UNESCO World Heritage Site since 1986.\n\nWorship still continues at the Virupaksha Temple under its nine-tiered gopuram. At the Vittala Temple, the 56 musical pillars ring when struck, and the Stone Chariot is on the ₹50 note. The Royal Enclosure's Lotus Mahal and Elephant Stables blend Indo-Islamic design. Climb Matanga Hill or Hemakuta Hill for sunset, cross the river by coracle, or try the bouldering. Allow about three days, and come between October and February.",
+     "facts": [
+      "HA2",
+      "HA1",
+      "HA4",
+      "HA3",
+      "HA10",
+      "HA5",
+      "BHMC1",
+      "HA8",
+      "BHM3"
+     ]
+    },
+    "who_its_for": {
+     "items": [
+      {
+       "title": "History lovers",
+       "body": "The world's largest open-air museum, with the Archaeological Museum to tie it together."
+      },
+      {
+       "title": "Photographers",
+       "body": "Sunrise and sunset from Matanga and Hemakuta hills."
+      },
+      {
+       "title": "Climbers",
+       "body": "Hampi's granite boulders are a bouldering hotspot."
+      },
+      {
+       "title": "Pilgrims",
+       "body": "The Virupaksha Temple is still in worship; Hampi is linked with Kishkinda of the Ramayana."
+      }
+     ],
+     "facts": [
+      "HA1",
+      "HA7",
+      "HA5",
+      "HA8",
+      "HA4",
+      "HA9"
+     ]
+    },
+    "practical_info": {
+     "items": [
+      {
+       "title": "Getting there",
+       "body": "About 340 km from Bengaluru. The nearest station is Hosapete Junction, about 13 km away. Vidyanagar airport, about 40 km away, has daily flights from Bengaluru and Hyderabad.",
+       "status": "verified"
+      },
+      {
+       "title": "Coracles",
+       "body": "Ghats near the Virupaksha and Kodandarama temples; life jackets are mandatory and no advance booking is needed.",
+       "status": "verified"
+      },
+      {
+       "title": "When to go",
+       "body": "October to February; allow about three days.",
+       "status": "seasonal"
+      },
+      {
+       "title": "Hampi Utsav",
+       "body": "The annual festival brings classical dance, music and processions to the ruins.",
+       "status": "seasonal"
+      }
+     ],
+     "facts": [
+      "BHM4",
+      "BHMC1",
+      "BHM3"
+     ]
+    },
+    "travel_tips": {
+     "items": [
+      {
+       "body": "Hire a bicycle, e-bike or auto for the day: the monuments are spread over a large area."
+      },
+      {
+       "body": "Start at dawn and rest at midday. There is little shade among the boulders."
+      },
+      {
+       "body": "Carry water and wear sturdy shoes for the hill climbs."
+      },
+      {
+       "body": "Visit the Archaeological Museum early to make sense of the site."
+      },
+      {
+       "body": "Look for the inverted shadow of the gopuram inside the Virupaksha Temple."
+      },
+      {
+       "body": "If you stay in Hosapete, see the 2,449 m-long Tungabhadra Dam."
+      }
+     ],
+     "facts": [
+      "HA7",
+      "HA4",
+      "HA6"
+     ]
+    },
+    "common_mistakes": {
+     "items": [
+      {
+       "body": "Trying to see Hampi in a day. Karnataka Tourism suggests about three."
+      },
+      {
+       "body": "Visiting in the midday heat. Explore early and late."
+      },
+      {
+       "body": "Missing the Royal Enclosure. The Lotus Mahal and Elephant Stables are some of Hampi's finest buildings."
+      }
+     ],
+     "facts": [
+      "BHM3",
+      "HA10"
+     ]
+    }
+   }
+  },
+  {
+   "key": "karnataka/mysuru",
+   "kind": "city",
+   "name": "Mysuru (Mysore)",
+   "parent": "karnataka",
+   "summary": "The city of palaces: Mysuru Palace and its illuminations, Dasara, Chamundi Hills, silk, sandalwood and Mysore pak.",
+   "seoTitle": "Mysuru Travel Guide: Palace, Dasara & Chamundi Hills",
+   "seoDescription": "Plan Mysuru: the palace and its Sunday illumination, Dasara, Chamundi Hills, Jaganmohan Palace, Devaraja Market, Srirangapatna, silk, food and getting there.",
+   "lat": 12.2958,
+   "lng": 76.6394,
+   "tripTypes": [
+    "heritage",
+    "family",
+    "food"
+   ],
+   "images": [
+    {
+     "commons": "File:Illuminated Mysore palace at night.JPG",
+     "alt": "Mysuru Palace lit up at night",
+     "hero": true
+    }
+   ],
+   "sections": {
+    "overview": {
+     "text": "Mysuru lies at the foot of the Chamundi Hills, about 140 km south-west of Bengaluru, at around 770 m. It was capital of the Kingdom of Mysore for almost six centuries, from 1399 to 1947, and the Wodeyar kings left a city of palaces, gardens and wide roads. Mysuru Palace alone draws over six million visitors a year, and on Sunday evenings about 97,000 bulbs light it up.\n\nThe city's ten-day Dasara is one of India's great festivals. Mysuru also gives its name to silk saris, sandalwood, gold-leaf painting and Mysore pak. Beyond the palace are the Jaganmohan Palace art gallery, the Gothic St Philomena's Cathedral, Devaraja Market, the Chamundi Hills and, a short drive away, Tipu Sultan's island capital at Srirangapatna and the Brindavan Gardens. It makes a good base for Coorg and Nagarhole too.",
+     "facts": [
+      "MS1",
+      "MS2",
+      "MS3",
+      "BMYP3",
+      "MS5",
+      "MS7",
+      "MS8",
+      "MS6",
+      "MS4",
+      "MS13",
+      "BMY6",
+      "BMYC1",
+      "BMYR2",
+      "MS11"
+     ]
+    },
+    "who_its_for": {
+     "items": [
+      {
+       "title": "Families",
+       "body": "The palace, the zoo, Karanji Lake and the Brindavan Gardens' fountain show."
+      },
+      {
+       "title": "Culture lovers",
+       "body": "Dasara, Mysore painting at Jaganmohan Palace and the folk dances of the festival."
+      },
+      {
+       "title": "Shoppers",
+       "body": "Silk saris, sandalwood, rosewood inlay and Devaraja Market."
+      },
+      {
+       "title": "Food lovers",
+       "body": "Mysore pak, masala dosa and bisi bele bath."
+      }
+     ],
+     "facts": [
+      "MS12",
+      "MS11",
+      "MS5",
+      "MS4",
+      "MS8",
+      "MS7",
+      "BMY6",
+      "MS6"
+     ]
+    },
+    "local_transport": {
+     "text": "The centre is compact: the palace, Devaraja Market and St Philomena's are close together, and Mysuru Junction is about 2 km from the palace. Use autos or cabs for the Chamundi Hills (about 13 km), Srirangapatna and the Brindavan Gardens.",
+     "facts": [
+      "BMYP5",
+      "BMYC1"
+     ]
+    },
+    "food": {
+     "items": [
+      {
+       "body": "Mysore pak, made from ghee and gram flour.",
+       "status": "verified"
+      },
+      {
+       "body": "Mysuru masala dosa.",
+       "status": "verified"
+      },
+      {
+       "body": "Bisi bele bath, chitranna and shavige bath.",
+       "status": "verified"
+      },
+      {
+       "body": "Ragi mudde and obbattu.",
+       "status": "verified"
+      }
+     ],
+     "facts": [
+      "MS6"
+     ]
+    },
+    "shopping": {
+     "items": [
+      {
+       "body": "Mysore silk saris, of pure silk and gold zari.",
+       "status": "verified"
+      },
+      {
+       "body": "Sandalwood carvings and incense, at Devaraja Market and craft shops.",
+       "status": "verified"
+      },
+      {
+       "body": "Rosewood inlay and bronze work.",
+       "status": "verified"
+      },
+      {
+       "body": "Mysore paintings with gold-foil detail.",
+       "status": "verified"
+      }
+     ],
+     "facts": [
+      "MS7",
+      "MS8",
+      "BMY6"
+     ]
+    },
+    "practical_info": {
+     "items": [
+      {
+       "title": "Getting there",
+       "body": "Most visitors fly into Bengaluru and drive about 3.5 hours. Mysuru Junction has several daily trains from Bengaluru and Chennai. Mysore Airport, about 10 km south, has a few domestic flights.",
+       "status": "verified"
+      },
+      {
+       "title": "Palace hours",
+       "body": "Daily 10 am to 5:30 pm (last entry 5 pm). No photography inside.",
+       "status": "verified"
+      },
+      {
+       "title": "Illumination",
+       "body": "7 to 8 pm on Sundays and public holidays, and two hours nightly during Dasara.",
+       "status": "verified"
+      },
+      {
+       "title": "Seasons",
+       "body": "Summer March–May, monsoon June–October, winter November–February.",
+       "status": "seasonal"
+      }
+     ],
+     "facts": [
+      "BMY4",
+      "MS9",
+      "BMYP2",
+      "BMYP3",
+      "MS10"
+     ]
+    },
+    "common_mistakes": {
+     "items": [
+      {
+       "body": "Arriving at the palace mid-afternoon. Come at the 10 am opening."
+      },
+      {
+       "body": "Missing the illumination. Plan a Sunday or public-holiday evening, or come during Dasara."
+      },
+      {
+       "body": "Booking late for Dasara. October is the busiest month of the year."
+      }
+     ],
+     "facts": [
+      "MS3",
+      "BMYP3",
+      "BMY5"
+     ]
+    }
+   }
+  }
+ ],
+ "itineraries": [
+  {
+   "place": "karnataka/coorg",
+   "slug": "coorg-3-days-falls-coffee-and-monastery",
+   "title": "Coorg in 3 days: falls, coffee and a monastery",
+   "durationDays": 3,
+   "tripTypes": [
+    "nature",
+    "mountains",
+    "family"
+   ],
+   "summary": "Madikeri's falls, temple and sunset point; Dubare's elephants and Bylakuppe's golden Buddhas; then a trek up Tadiandamol.",
+   "seoTitle": "Coorg 3-Day Itinerary: Abbey Falls, Dubare & Tadiandamol",
+   "seoDescription": "Three days in Coorg: Abbey Falls, Omkareshwara Temple and Raja's Seat; Dubare elephant camp and Namdroling Monastery; then the Tadiandamol trek.",
+   "facts": [
+    "BCG3",
+    "CO16",
+    "BCGA1",
+    "CO14",
+    "BCG6",
+    "BCG5",
+    "CO9",
+    "BCG4",
+    "CO12",
+    "CO15",
+    "CO6",
+    "CO17"
+   ],
+   "plan": {
+    "overview": "Based in Madikeri for three nights. Day 1 stays close to town, day 2 heads east to the Cauvery and the Tibetan settlement, and day 3 is for the hills.",
+    "style": "Hills, coffee and culture",
+    "start": "Bengaluru or Mangaluru",
+    "end": "Madikeri",
+    "season": "October–February is cool and clear; the monsoon brings full waterfalls and heavy rain.",
+    "difficulty": "Easy, with a moderate trek on day 3",
+    "transport": "Hired car or taxi from Madikeri",
+    "days": [
+     {
+      "title": "Madikeri: falls, temple and sunset",
+      "stops": [
+       {
+        "time": "Morning",
+        "name": "Abbey Falls",
+        "placeSlug": "abbey-falls",
+        "duration": "1.5 hours",
+        "note": "Open 9 am–5 pm; no swimming."
+       },
+       {
+        "time": "Midday",
+        "name": "Omkareshwara Temple",
+        "placeSlug": "omkareshwara-temple-madikeri",
+        "duration": "45 minutes"
+       },
+       {
+        "time": "Afternoon",
+        "name": "Coffee plantation walk",
+        "duration": "2 hours"
+       },
+       {
+        "time": "Evening",
+        "name": "Raja's Seat",
+        "placeSlug": "rajas-seat",
+        "duration": "1 hour",
+        "note": "Sunset views."
+       }
+      ],
+      "travel": "Arrive from Bengaluru (about 250 km) or Mangaluru (about 140 km).",
+      "distance": "Abbey Falls is about 6 km from Madikeri",
+      "meals": "Kodava curries for dinner in Madikeri.",
+      "overnight": "Madikeri"
+     },
+     {
+      "title": "Dubare and Bylakuppe",
+      "stops": [
+       {
+        "time": "Morning",
+        "name": "Dubare Elephant Camp",
+        "placeSlug": "dubare-elephant-camp",
+        "duration": "2 hours",
+        "note": "Elephant bathing and feeding sessions are in the morning."
+       },
+       {
+        "time": "Afternoon",
+        "name": "Namdroling Monastery, Bylakuppe",
+        "placeSlug": "namdroling-monastery",
+        "duration": "2 hours"
+       }
+      ],
+      "travel": "Drive east from Madikeri towards Kushalnagar.",
+      "meals": "Lunch at Bylakuppe.",
+      "overnight": "Madikeri"
+     },
+     {
+      "title": "Tadiandamol",
+      "stops": [
+       {
+        "time": "Early morning",
+        "name": "Tadiandamol trek",
+        "placeSlug": "tadiandamol",
+        "duration": "Most of the day",
+        "note": "Kodagu's highest peak, 1,748 m."
+       }
+      ],
+      "travel": "Drive to the trailhead near Nalaknad Palace.",
+      "meals": "Pack lunch and plenty of water.",
+      "altitude": 1748,
+      "overnight": "Madikeri"
+     }
+    ],
+    "budget": {
+     "assumptions": "VacayOut has no verified current prices for Coorg homestays, taxis or entry fees. Budget for your own choices and check fees at each site.",
+     "lines": []
+    },
+    "booking": [
+     {
+      "item": "Homestay or plantation stay",
+      "detail": "Book ahead for weekends and the October–February season."
+     },
+     {
+      "item": "Dubare",
+      "detail": "Arrive in the morning for the elephant sessions."
+     }
+    ],
+    "alternatives": [
+     "In the monsoon: swap the trek for Iruppu Falls and the waterfalls near Madikeri.",
+     "Pilgrims: add Talakaveri, the source of the Kaveri."
+    ],
+    "tips": [
+     "Carry rain gear outside the dry season.",
+     "Buy coffee and spices from plantation stores."
+    ],
+    "prep": [
+     {
+      "title": "Getting there",
+      "body": "Kannur airport (about 90 km) is closest; Mysuru Junction (about 120 km) is the nearest major railway station; buses run from Bengaluru, Mysuru and Mangaluru."
+     },
+     {
+      "title": "Trek",
+      "body": "Wear trekking shoes and start early; carry water and snacks."
+     }
+    ],
+    "faqs": [
+     {
+      "q": "Where should I stay?",
+      "a": "Madikeri is the usual base; plantation stays are scattered around it."
+     },
+     {
+      "q": "Can I swim at Abbey Falls?",
+      "a": "No, bathing and swimming are not allowed."
+     },
+     {
+      "q": "What is the best season?",
+      "a": "October to February for clear weather; the monsoon for waterfalls."
+     }
+    ]
+   },
+   "sources": []
+  },
+  {
+   "place": "karnataka/hampi",
+   "slug": "hampi-3-days-ruins-temples-and-coracles",
+   "title": "Hampi in 3 days: ruins, temples and coracles",
+   "durationDays": 3,
+   "tripTypes": [
+    "heritage",
+    "adventure"
+   ],
+   "summary": "The sacred centre and a Matanga Hill sunset, the Vittala Temple and a coracle crossing, then the Royal Enclosure and the museum.",
+   "seoTitle": "Hampi 3-Day Itinerary: Virupaksha, Vittala & Royal Enclosure",
+   "seoDescription": "Three days in Hampi: Virupaksha Temple, Hemakuta Hill and Matanga Hill sunset; the Vittala Temple and coracle ride; the Royal Enclosure, Lotus Mahal and museum.",
+   "facts": [
+    "BHM4",
+    "BHM3",
+    "HA4",
+    "BHM5",
+    "HA5",
+    "HA3",
+    "BHMC1",
+    "HA10",
+    "HA7",
+    "HA11",
+    "HA1"
+   ],
+   "plan": {
+    "overview": "Karnataka Tourism suggests about three days to do Hampi justice. This plan takes one zone a day, sightseeing early and late to avoid the midday heat.",
+    "style": "Heritage and landscape",
+    "start": "Hosapete (about 13 km)",
+    "end": "Hampi",
+    "season": "October–February is the recommended time; the Hampi Utsav adds dance and music.",
+    "difficulty": "Moderate: lots of walking and two short hill climbs",
+    "transport": "Bicycle, e-bike or auto; walking",
+    "days": [
+     {
+      "title": "The sacred centre and Matanga Hill",
+      "stops": [
+       {
+        "time": "Morning",
+        "name": "Virupaksha Temple",
+        "placeSlug": "virupaksha-temple-hampi",
+        "duration": "1.5 hours",
+        "note": "Look for the inverted shadow of the gopuram."
+       },
+       {
+        "time": "Late morning",
+        "name": "Hemakuta Hill and the monolithic Ganeshas",
+        "duration": "1.5 hours"
+       },
+       {
+        "time": "Evening",
+        "name": "Matanga Hill",
+        "placeSlug": "matanga-hill",
+        "duration": "2 hours",
+        "note": "Highest viewpoint in central Hampi."
+       }
+      ],
+      "travel": "From Hosapete Junction, about 13 km by road.",
+      "meals": "Breakfast and dinner near Hampi Bazaar.",
+      "overnight": "Hampi or Hosapete"
+     },
+     {
+      "title": "Vittala Temple and the river",
+      "stops": [
+       {
+        "time": "Morning",
+        "name": "Vittala Temple and the Stone Chariot",
+        "placeSlug": "vittala-temple",
+        "duration": "2.5 hours"
+       },
+       {
+        "time": "Afternoon",
+        "name": "Coracle ride on the Tungabhadra",
+        "placeSlug": "hampi-coracle-ride",
+        "duration": "1 hour",
+        "note": "Life jackets are mandatory."
+       }
+      ],
+      "travel": "Cycle or walk along the river path, or take an auto.",
+      "meals": "Rest through the midday heat.",
+      "overnight": "Hampi or Hosapete"
+     },
+     {
+      "title": "Royal Enclosure and the museum",
+      "stops": [
+       {
+        "time": "Morning",
+        "name": "Hampi Bazaar and the Royal Enclosure",
+        "placeSlug": "hampi-bazaar-royal-enclosure",
+        "duration": "2.5 hours"
+       },
+       {
+        "time": "Midday",
+        "name": "Lotus Mahal and Elephant Stables",
+        "placeSlug": "lotus-mahal",
+        "duration": "1.5 hours"
+       },
+       {
+        "time": "Afternoon",
+        "name": "Archaeological Museum",
+        "duration": "1 hour"
+       }
+      ],
+      "travel": "Auto or bicycle between zones.",
+      "meals": "Lunch in Kamalapura.",
+      "overnight": "Departure"
+     }
+    ],
+    "budget": {
+     "assumptions": "VacayOut has no verified current prices for Hampi stays, autos, coracles or monument tickets. Budget for your own choices and check fees at each site.",
+     "lines": []
+    },
+    "booking": [
+     {
+      "item": "Monument tickets",
+      "detail": "Buy at the ticketed monuments; check whether one ticket covers several sites."
+     },
+     {
+      "item": "Coracles",
+      "detail": "No advance booking needed."
+     }
+    ],
+    "alternatives": [
+     "Climbers: give one morning to bouldering.",
+     "With a fourth day: Badami, Pattadakal and Aihole."
+    ],
+    "tips": [
+     "Carry water and a hat; there is little shade.",
+     "Wear sturdy shoes for the hills."
+    ],
+    "prep": [
+     {
+      "title": "Getting there",
+      "body": "Hosapete Junction is about 13 km away; Vidyanagar airport, about 40 km away, has daily flights from Bengaluru and Hyderabad. Bengaluru is about 340 km away."
+     },
+     {
+      "title": "Heat",
+      "body": "Even in winter, middays are hot. Plan sightseeing for early morning and late afternoon."
+     }
+    ],
+    "faqs": [
+     {
+      "q": "How many days do I need in Hampi?",
+      "a": "About three, according to Karnataka Tourism."
+     },
+     {
+      "q": "Where does the coracle ride start?",
+      "a": "From ghats near the Virupaksha and Kodandarama temples."
+     },
+     {
+      "q": "Is Hampi a UNESCO site?",
+      "a": "Yes, since 1986."
+     }
+    ]
+   },
+   "sources": []
+  },
+  {
+   "place": "karnataka/mysuru",
+   "slug": "mysuru-2-days-palace-chamundi-srirangapatna",
+   "title": "Mysuru in 2 days: palace, Chamundi Hills and Srirangapatna",
+   "durationDays": 2,
+   "tripTypes": [
+    "heritage",
+    "family"
+   ],
+   "summary": "The palace, Jaganmohan gallery and Devaraja Market with a Sunday illumination, then Chamundi Hills, Srirangapatna and the Brindavan Gardens.",
+   "seoTitle": "Mysuru 2-Day Itinerary: Palace, Chamundi Hills & Srirangapatna",
+   "seoDescription": "Two days in Mysuru: the palace at opening time, Jaganmohan Palace, Devaraja Market and the illumination; then Chamundi Hills, Srirangapatna and Brindavan Gardens.",
+   "facts": [
+    "MS3",
+    "BMYP2",
+    "BMYP3",
+    "MS4",
+    "BMY6",
+    "BMYC1",
+    "BMYR2",
+    "MS11",
+    "BMY4",
+    "BMY5",
+    "MS6"
+   ],
+   "plan": {
+    "overview": "Time day 1 for a Sunday or public holiday so you see the palace lit up. Day 2 climbs the Chamundi Hills and heads out to Srirangapatna and the dam.",
+    "style": "Royal heritage",
+    "start": "Bengaluru (about 3.5 hours by road)",
+    "end": "Mysuru",
+    "season": "October for Dasara; November–February for quieter, pleasant weather.",
+    "difficulty": "Easy; the Chamundi Hills steps are optional",
+    "transport": "Autos and cabs; train or road from Bengaluru",
+    "days": [
+     {
+      "title": "Palace, gallery and market",
+      "stops": [
+       {
+        "time": "10 am",
+        "name": "Mysuru Palace",
+        "placeSlug": "mysuru-palace",
+        "duration": "2 hours",
+        "note": "Arrive at opening; no photography inside."
+       },
+       {
+        "time": "Afternoon",
+        "name": "Jaganmohan Palace art gallery",
+        "placeSlug": "jaganmohan-palace",
+        "duration": "1.5 hours"
+       },
+       {
+        "time": "Late afternoon",
+        "name": "Devaraja Market",
+        "duration": "1 hour"
+       },
+       {
+        "time": "7 pm",
+        "name": "Palace illumination",
+        "placeSlug": "mysuru-palace",
+        "duration": "1 hour",
+        "note": "Sundays and public holidays."
+       }
+      ],
+      "travel": "Train or road from Bengaluru; Mysuru Junction is about 2 km from the palace.",
+      "meals": "Masala dosa for breakfast; Mysore pak from a sweet shop.",
+      "overnight": "Mysuru"
+     },
+     {
+      "title": "Chamundi Hills and Srirangapatna",
+      "stops": [
+       {
+        "time": "Early morning",
+        "name": "Chamundi Hills and the Nandi",
+        "placeSlug": "chamundi-hills",
+        "duration": "2 hours",
+        "note": "Over 1,008 steps, or drive up."
+       },
+       {
+        "time": "Afternoon",
+        "name": "Srirangapatna",
+        "placeSlug": "srirangapatna",
+        "duration": "3 hours"
+       },
+       {
+        "time": "Evening",
+        "name": "Brindavan Gardens",
+        "duration": "2 hours",
+        "note": "Check the fountain-show timing on the day."
+       }
+      ],
+      "travel": "Cab for the day.",
+      "distance": "Chamundi Hills about 13 km from the city",
+      "meals": "Bisi bele bath for lunch.",
+      "overnight": "Mysuru"
+     }
+    ],
+    "budget": {
+     "assumptions": "VacayOut has no verified current prices for Mysuru hotels, transport or entry fees. Budget for your own choices and check fees at each site.",
+     "lines": []
+    },
+    "booking": [
+     {
+      "item": "Dasara",
+      "detail": "Book hotels early for October."
+     },
+     {
+      "item": "Palace",
+      "detail": "Tickets at the gate; open daily 10 am–5:30 pm, last entry 5 pm."
+     }
+    ],
+    "alternatives": [
+     "Wildlife: add a day for Nagarhole.",
+     "Hills: continue to Coorg."
+    ],
+    "tips": [
+     "Keep shoes and cameras for outside the palace."
+    ],
+    "prep": [
+     {
+      "title": "Getting there",
+      "body": "Fly into Bengaluru and drive about 3.5 hours, or take one of the daily trains to Mysuru Junction. Mysore Airport (about 10 km south) has a few domestic flights."
+     },
+     {
+      "title": "Weather",
+      "body": "Summer is March–May and the monsoon June–October; November–February is most pleasant."
+     }
+    ],
+    "faqs": [
+     {
+      "q": "When is the palace lit up?",
+      "a": "7 to 8 pm on Sundays and public holidays, and two hours nightly during Dasara."
+     },
+     {
+      "q": "Can I take photos inside the palace?",
+      "a": "No, photography is allowed only outside."
+     },
+     {
+      "q": "Is the Brindavan fountain show every evening?",
+      "a": "Wikipedia says so, but check timings locally before you go."
+     }
+    ]
+   },
+   "sources": []
+  }
+ ]
+}

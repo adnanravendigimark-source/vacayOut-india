@@ -1,0 +1,32 @@
+/* AI chat: light motion only. */
+
+/* Answer parts and messages fade up as they arrive */
+.cx-in { animation: cx-up 0.45s cubic-bezier(.16, 1, .3, 1) both; }
+@keyframes cx-up { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: none; } }
+/* Start screen: items follow one after another */
+.cx-stagger > * { opacity: 0; animation: cx-up 0.5s cubic-bezier(.16, 1, .3, 1) forwards; animation-delay: calc(var(--i, 0) * 60ms + 240ms); }
+
+/* Message box: a soft glow travels round it while you type */
+@property --cx-a { syntax: "<angle>"; initial-value: 0deg; inherits: false; }
+.cx-box { position: relative; isolation: isolate; }
+.cx-box::before { content: ""; position: absolute; inset: -2px; z-index: -1; border-radius: inherit; padding: 2px; background: conic-gradient(from var(--cx-a), rgba(236, 98, 66, 0.12) 0deg, #ec6242 70deg, #8fa8ff 140deg, rgba(236, 98, 66, 0.12) 210deg, rgba(236, 98, 66, 0.12) 360deg); -webkit-mask: linear-gradient(#000 0 0) content-box, linear-gradient(#000 0 0); -webkit-mask-composite: xor; mask-composite: exclude; opacity: 0; transition: opacity 0.35s; animation: cx-spin 4s linear infinite; }
+.cx-box:focus-within::before { opacity: 1; }
+@keyframes cx-spin { to { --cx-a: 360deg; } }
+
+/* "Planning your trip…": a shimmer on placeholder lines */
+.cx-shimmer { background: linear-gradient(90deg, #EFEBE4 0%, #F9F6F1 45%, #EFEBE4 90%); background-size: 220% 100%; animation: cx-sh 1.5s linear infinite; }
+@keyframes cx-sh { from { background-position: 120% 0; } to { background-position: -120% 0; } }
+
+/* The assistant's avatar breathes while it answers */
+.cx-live { animation: cx-breathe 1.6s ease-in-out infinite; }
+@keyframes cx-breathe { 0%, 100% { box-shadow: 0 0 0 0 rgba(236, 98, 66, 0.35); } 50% { box-shadow: 0 0 0 6px rgba(236, 98, 66, 0); } }
+
+/* Status dot in the top bar */
+.cx-dot { position: relative; }
+.cx-dot::after { content: ""; position: absolute; inset: -3px; border-radius: 50%; background: #ec6242; opacity: 0.35; animation: cx-ping 1.8s ease-out infinite; }
+@keyframes cx-ping { to { transform: scale(2.4); opacity: 0; } }
+
+@media (prefers-reduced-motion: reduce) {
+  .cx-in, .cx-stagger > * { animation: none; opacity: 1; transform: none; }
+  .cx-box::before, .cx-shimmer, .cx-live, .cx-dot::after { animation: none; }
+}

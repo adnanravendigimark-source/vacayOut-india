@@ -9,7 +9,7 @@ export function DestinationBlock({ block }: { block: BlockOf<"destination"> }) {
   const href = block.href && GUIDE_HREF_RE.test(block.href) ? block.href : null;
   const body = (
     <>
-      <BlockImage photo={block.photo} sizes="64px" className="relative size-14 shrink-0 rounded-lg" />
+      <BlockImage photo={block.photo} sizes="64px" className="relative size-14 shrink-0 rounded-xl" />
       <span className="min-w-0 flex-1">
         <span className="flex items-baseline gap-1.5">
           <span className="truncate text-[0.9375rem] font-semibold text-ink">{block.name}</span>
@@ -17,12 +17,12 @@ export function DestinationBlock({ block }: { block: BlockOf<"destination"> }) {
         </span>
         <span className="mt-0.5 line-clamp-1 block text-[0.8125rem] text-muted">{block.tagline}</span>
       </span>
-      {href ? <Icon name="arrowRight" size={16} className="shrink-0 text-forest" /> : null}
+      {href ? <Icon name="arrowRight" size={16} className="shrink-0 text-[#BBBBBB] transition-all group-hover:translate-x-0.5 group-hover:text-coral" /> : null}
     </>
   );
-  const cls = "flex items-center gap-3 rounded-xl border border-line bg-white p-2 pr-3.5 shadow-[var(--shadow-card)]";
+  const cls = "group flex items-center gap-3 rounded-2xl border border-[#ECE9E2] bg-white p-2 pr-3.5";
   return href ? (
-    <Link href={href} className={`${cls} transition-colors hover:border-forest`} title={block.credit ? `Photo: ${block.credit}` : undefined}>
+    <Link href={href} className={`${cls} transition-all duration-300 hover:-translate-y-0.5 hover:border-transparent hover:shadow-[0_14px_32px_-22px_rgba(25,25,25,0.4)]`} title={block.credit ? `Photo: ${block.credit}` : undefined}>
       {body}
     </Link>
   ) : (
