@@ -56,6 +56,31 @@ export type TripTypeGroup = {
   places: Destination[];
 };
 
+/** A published ready-made itinerary, as shown on the homepage. */
+export type ReadyRoute = {
+  slug: string;
+  title: string;
+  days: number;
+  /** State (or place) it covers. */
+  place: string;
+  tags: string[];
+  photo: { src: string; alt: string } | null;
+  aiImage: boolean;
+  /** Day titles, "Day N:" prefixes removed. */
+  dayTitles: string[];
+};
+
+/** A published travel guide, as shown on the homepage. */
+export type GuideCard = {
+  slug: string;
+  title: string;
+  summary: string;
+  /** State (or place) it covers. */
+  place: string;
+  photo: { src: string; alt: string } | null;
+  aiImage: boolean;
+};
+
 export type Itinerary = {
   destination: Destination;
   days: string[];
@@ -86,6 +111,10 @@ export type HomepageData = {
   zones: ZoneGroup[];
   /** Section 4 — every trip type, with the published places an editor tagged. */
   tripTypes: TripTypeGroup[];
+  /** Published ready-made itineraries for the homepage (varied states, longer trips first). */
+  readyRoutes?: ReadyRoute[];
+  /** Published travel guides for the homepage (varied states, real photos first). */
+  guideCards?: GuideCard[];
   /** Section 6 — destinations an admin marked as featured. */
   featured: Destination[];
   /** Section 7 — published places with an approved itinerary. */

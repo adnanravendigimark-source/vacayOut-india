@@ -50,7 +50,7 @@ export const viewport: Viewport = {
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
   return (
-    <html lang="en-IN" className={cn("font-sans", geist.variable)}>
+    <html lang="en-IN" className={cn("font-sans", geist.variable)} suppressHydrationWarning>
       <body className="min-h-dvh antialiased bg-canvas text-ink selection:bg-coral/20 selection:text-coral">
         <a
           href="#main"

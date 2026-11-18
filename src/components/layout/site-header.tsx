@@ -28,6 +28,7 @@ export function SiteHeader() {
 
   // The chat is a full-screen app with its own header (Home · title · New trip).
   if (pathname.startsWith("/chat")) return null;
+  if (pathname.startsWith("/landingpage")) return null;
 
   const navLink = (href: string) =>
     `py-2 transition-colors hover:text-coral ${pathname === href ? "text-coral font-semibold" : ""}`;

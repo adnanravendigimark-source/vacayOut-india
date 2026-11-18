@@ -9,7 +9,7 @@ export function SiteFooter() {
   return (
     <footer className="border-t border-[#ECE9E2] bg-white text-ink">
       <div className="container-site py-12 lg:py-16">
-        <div className="grid grid-cols-2 gap-8 sm:grid-cols-3 lg:grid-cols-6 lg:gap-8">
+        <div className="grid grid-cols-2 gap-8 sm:grid-cols-3 lg:grid-cols-[repeat(5,minmax(0,1fr))_minmax(15rem,1.4fr)] lg:gap-8">
           {/* Brand Column (spans 2 on desktop) */}
           <div className="col-span-2 space-y-3">
             <Logo tone="dark" />
@@ -158,7 +158,7 @@ export function SiteFooter() {
           </div>
 
           {/* Newsletter Column (spans 2 on desktop) */}
-          <div className="col-span-2 sm:col-span-3 lg:col-span-1 lg:min-w-[15rem] space-y-3">
+          <div className="col-span-2 sm:col-span-3 lg:col-span-1 space-y-3">
             <p className="text-xs font-bold text-ink">Get travel inspiration</p>
             <p className="text-xs text-[#777777] leading-relaxed">
               Join our newsletter for the latest destinations, travel tips and special deals.

@@ -1,5 +1,5 @@
 import "server-only";
-import type { Destination, HomepageData, Itinerary, SampleSection, ZoneGroup } from "./types";
+import type { Destination, GuideCard, HomepageData, Itinerary, ReadyRoute, SampleSection, ZoneGroup } from "./types";
 import { sampleContentEnabled, sampleDestinations, sampleGuides, sampleItineraries, sampleZones } from "./sample";
 import { homepageSeed } from "./seed";
 import { affiliateActive } from "@/lib/booking/links";
@@ -7,7 +7,7 @@ import { listDirectory, listPublishedForSitemap } from "@/lib/places/repo";
 import { listPublishedItineraries } from "@/lib/itineraries/service";
 import { listPublishedGuides } from "@/lib/guides/service";
 import { ZONES, zoneOf } from "@/lib/places/states";
-import { TRIP_TYPES } from "@/lib/places/trip-types";
+import { TRIP_TYPES, tripTypeLabel } from "@/lib/places/trip-types";
 import { kindLabel } from "@/lib/places/kinds";
 
 
@@ -42,6 +42,15 @@ function itineraryDays(r: Row): string[] {
     .slice(0, 10);
 }
 
+// Older research drafts saved a few non-canonical tags; count them under the matching trip type.
+const TRIP_TYPE_ALIASES: Record<string, string[]> = {
+  beaches: ["beach"],
+  heritage: ["history"],
+  romantic: ["romance"],
+  adventure: ["trekking"],
+  food: ["culture", "cultural"],
+};
+
 const newestFirst = (a: Row, b: Row) => b.publishedAt.getTime() - a.publishedAt.getTime();
 
 /** Every published page path. On a database error the list is empty, so cards fall back to the AI planner. */
@@ -58,12 +67,76 @@ async function livePaths(): Promise<string[]> {
   ];
 }
 
+/** Up to three published itineraries from different states, preferring trips of 3+ days. */
+async function readyRoutes(): Promise<ReadyRoute[]> {
+  let its: Awaited<ReturnType<typeof listPublishedItineraries>> = [];
+  try {
+    its = await listPublishedItineraries();
+  } catch (err) {
+    console.warn("Homepage: couldn't list itineraries.", err instanceof Error ? err.message : err);
+    return [];
+  }
+  const usable = its.filter((i) => i.plan.days.length > 0);
+  const picked: typeof usable = [];
+  const states = new Set<string>();
+  const stateOf = (i: (typeof usable)[number]) => i.place?.stateSlug ?? i.place?.slug ?? i.slug;
+  for (const pass of [(i: (typeof usable)[number]) => (i.durationDays || i.plan.days.length) >= 3, () => true]) {
+    for (const i of usable) {
+      if (picked.length >= 3) break;
+      if (picked.includes(i) || states.has(stateOf(i)) || !pass(i)) continue;
+      picked.push(i);
+      states.add(stateOf(i));
+    }
+  }
+  return picked.map((i) => ({
+    slug: i.slug,
+    title: i.title,
+    days: i.durationDays || i.plan.days.length,
+    place: i.place?.stateName ?? i.place?.name ?? "",
+    tags: i.tripTypes.slice(0, 2).map((t) => tripTypeLabel(t)),
+    photo: i.hero ? { src: i.hero.url, alt: i.hero.alt } : null,
+    aiImage: i.hero?.kind === "ai_generated",
+    dayTitles: i.plan.days.map((d, n) => (d.title?.trim() || `Day ${n + 1}`).replace(/^day\s*\d+\s*[:.–-]\s*/i, "")).slice(0, 10),
+  }));
+}
+
+/** Up to five published guides, one per state, real photos before AI illustrations. */
+async function guideCards(): Promise<GuideCard[]> {
+  let gs: Awaited<ReturnType<typeof listPublishedGuides>> = [];
+  try {
+    gs = await listPublishedGuides();
+  } catch (err) {
+    console.warn("Homepage: couldn't list guides.", err instanceof Error ? err.message : err);
+    return [];
+  }
+  const ordered = [...gs.filter((g) => g.hero?.kind === "photo"), ...gs.filter((g) => g.hero?.kind !== "photo")];
+  const picked: typeof gs = [];
+  const states = new Set<string>();
+  for (const g of ordered) {
+    if (picked.length >= 5) break;
+    const key = g.place?.stateSlug ?? g.place?.slug ?? g.slug;
+    if (states.has(key)) continue;
+    states.add(key);
+    picked.push(g);
+  }
+  return picked.map((g) => ({
+    slug: g.slug,
+    title: g.title,
+    summary: g.summary ?? "",
+    place: g.place?.stateName ?? g.place?.name ?? "",
+    photo: g.hero ? { src: g.hero.url, alt: g.hero.alt } : null,
+    aiImage: g.hero?.kind === "ai_generated",
+  }));
+}
+
 /**
  * Homepage data. Section copy is static; every destination, state, itinerary
  * and guide comes ONLY from published places. Empty lists hide their sections.
  */
 export async function getHomepageData(): Promise<HomepageData> {
   const live = livePaths();
+  const ready = readyRoutes();
+  const guides = guideCards();
   let groups: Awaited<ReturnType<typeof listDirectory>> = [];
   try {
     groups = await listDirectory();
@@ -114,12 +187,17 @@ export async function getHomepageData(): Promise<HomepageData> {
     ...homepageSeed,
     destinations,
     zones: pick("zones", real.zones, sampleZones(ZONES)),
-    tripTypes: TRIP_TYPES.map((t) => ({ key: t.key, label: t.label, icon: t.icon, prompt: t.prompt, places: tagged.filter((x) => x.tripTypes.includes(t.key)) })),
+    tripTypes: TRIP_TYPES.map((t) => {
+      const keys = [t.key, ...(TRIP_TYPE_ALIASES[t.key] ?? [])];
+      return { key: t.key, label: t.label, icon: t.icon, prompt: t.prompt, places: tagged.filter((x) => x.tripTypes.some((k) => keys.includes(k))) };
+    }),
     featured: pick("featured", real.featured, sampleDestinations.filter((x) => x.featured)),
     itineraries: pick("itineraries", real.itineraries, sampleItineraries),
     latestGuides: pick("guides", real.latestGuides, sampleGuides),
     affiliateLinks: affiliateActive(),
     sampleSections,
     livePaths: await live,
+    readyRoutes: await ready,
+    guideCards: await guides,
   };
 }

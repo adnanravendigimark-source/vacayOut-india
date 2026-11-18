@@ -2,6 +2,8 @@ import type { NextConfig } from "next";
 import { withWorkflow } from "workflow/next";
 
 const nextConfig: NextConfig = {
+  // Dev only: let the dev server hydrate when opened as 127.0.0.1 as well as localhost.
+  allowedDevOrigins: ["127.0.0.1"],
   poweredByHeader: false,
   images: {
     // Vercel Blob store, Unsplash and Wikimedia Commons for curated photography.

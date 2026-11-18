@@ -7,6 +7,7 @@ import {
   INDIA_MAP_PATHS,
   MAP_BADGES,
 } from "./india-map-data";
+import { zoneCount, type Zone } from "./regions";
 
 const ZONE_COLORS: Record<
   string,
@@ -58,6 +59,8 @@ const ZONE_COLORS: Record<
 
 export interface IndiaRegionalMapProps {
   activeZone?: string | null;
+  /** Map shape id to highlight on its own (e.g. while a state chip is hovered). */
+  activeState?: string | null;
   onHoverZone?: (zone: string | null) => void;
   onSelectZone?: (zone: string) => void;
   showBadges?: boolean;
@@ -68,6 +71,7 @@ export interface IndiaRegionalMapProps {
 
 export function IndiaRegionalMap({
   activeZone: controlledZone,
+  activeState = null,
   onHoverZone,
   onSelectZone,
   showBadges = true,
@@ -105,9 +109,9 @@ export function IndiaRegionalMap({
       {/* States grouped by region */}
       <g id="india-states">
         {INDIA_MAP_PATHS.map((item) => {
-          const isZoneActive = currentZone === item.zone;
+          const isZoneActive = currentZone === (item.zone === "islands" ? "south" : item.zone);
           const colors = ZONE_COLORS[item.zone] || ZONE_COLORS.central;
-          const fill = isZoneActive ? colors.active : colors.base;
+          const fill = activeState === item.id ? "#EC6242" : isZoneActive ? colors.active : colors.base;
 
           return (
             <path
@@ -119,7 +123,7 @@ export function IndiaRegionalMap({
               strokeWidth={isZoneActive ? "1.4" : "1.1"}
               strokeLinejoin="round"
               strokeLinecap="round"
-              className="transition-colors duration-200 cursor-pointer"
+              className="transition-[fill,stroke] duration-500 ease-out cursor-pointer"
               onMouseEnter={() => handleZoneHover(item.zone === "islands" ? "south" : item.zone)}
               onMouseLeave={() => handleZoneHover(null)}
               onClick={() => handleZoneClick(item.zone === "islands" ? "south" : item.zone)}
@@ -135,9 +139,9 @@ export function IndiaRegionalMap({
         <g id="map-badges">
           {MAP_BADGES.map((badge) => {
             const isActive = currentZone === badge.zone;
-            const badgeWidth = 92;
-            const badgeHeight = 27;
-            const rx = 13.5;
+            const badgeWidth = 118;
+            const badgeHeight = 34;
+            const rx = 17;
 
             const badgeInner = (
               <g
@@ -160,9 +164,9 @@ export function IndiaRegionalMap({
                 {/* Badge Label text */}
                 <text
                   x={badgeWidth / 2}
-                  y={17.5}
+                  y={22.5}
                   textAnchor="middle"
-                  fontSize="12"
+                  fontSize="15.5"
                   fontFamily="inherit"
                   fontWeight="700"
                   fill={isActive ? "#E8553E" : "#1C201D"}
@@ -170,7 +174,7 @@ export function IndiaRegionalMap({
                 >
                   {badge.label}{" "}
                   <tspan fontWeight="400" fill="#666666">
-                    ({badge.count})
+                    ({zoneCount(badge.zone as Zone)})
                   </tspan>
                 </text>
               </g>

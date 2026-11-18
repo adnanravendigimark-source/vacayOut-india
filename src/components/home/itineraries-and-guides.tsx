@@ -5,6 +5,9 @@ import { Icon } from "@/components/icons/icon";
 import { SectionHeader } from "./section-header";
 import { routes } from "@/lib/routes";
 import { LiveLink } from "./live-link";
+import { ReadyRoutes } from "./ready-routes";
+import type { GuideCard, ReadyRoute } from "@/lib/data/types";
+import { GuideStories } from "./guide-stories";
 
 interface ItineraryItem {
   id: string;
@@ -82,16 +85,22 @@ const GUIDES: GuideItem[] = [
 
 export function ItinerariesAndGuides({
   onPlan,
+  readyRoutes = [],
+  guideCards = [],
 }: {
   onPlan: (prompt: string) => void;
+  /** Published itineraries; when there are none, the static picks below are shown instead. */
+  readyRoutes?: ReadyRoute[];
+  /** Published guides; when there are none, the static picks below are shown instead. */
+  guideCards?: GuideCard[];
 }) {
   return (
     <section id="itineraries" className="py-10 sm:py-14 bg-white border-b border-[#ECE9E2]">
       <div className="container-site">
-        <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-10">
+        <div className="grid grid-cols-1 items-start gap-8 lg:grid-cols-12 lg:gap-10">
           {/* Left Column: Ready-made Itineraries */}
           <div className="lg:col-span-6 flex flex-col justify-between">
-            <div>
+            {readyRoutes.length ? <ReadyRoutes items={readyRoutes} onPlan={onPlan} /> : <div>
               <SectionHeader
                 icon="fileText"
                 title="Ready-made Itineraries"
@@ -137,12 +146,12 @@ export function ItinerariesAndGuides({
                   </LiveLink>
                 ))}
               </div>
-            </div>
+            </div>}
           </div>
 
           {/* Right Column: Travel Guides & Inspiration */}
           <div id="guides" className="lg:col-span-6 flex flex-col justify-between">
-            <div>
+            {guideCards.length ? <GuideStories items={guideCards} /> : <div>
               <SectionHeader
                 icon="book"
                 title="Travel Guides & Inspiration"
@@ -181,7 +190,7 @@ export function ItinerariesAndGuides({
                   </LiveLink>
                 ))}
               </div>
-            </div>
+            </div>}
           </div>
         </div>
       </div>

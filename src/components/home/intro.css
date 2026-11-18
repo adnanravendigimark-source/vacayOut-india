@@ -1,0 +1,49 @@
+
+/* Homepage opening reveal: IN ◯ DIA (from /landingpage), then the pill fills the screen. */
+@property --iw { syntax: "<length>"; inherits: true; initial-value: 0px; }
+@property --ih { syntax: "<length>"; inherits: true; initial-value: 0px; }
+@property --ir { syntax: "<length>"; inherits: true; initial-value: 999px; }
+
+.home-intro { display: none; }
+html[data-intro="play"] .home-intro {
+  --fs: min(17vh, 11vw);
+  display: block; position: fixed; inset: 0; z-index: 200; pointer-events: none;
+  background: #fff; font-size: var(--fs);
+  animation: home-intro-size 3.2s cubic-bezier(.45, 0, .2, 1) 0.15s both, home-intro-out 0.55s ease 3.2s forwards;
+}
+@keyframes home-intro-size {
+  0% { --iw: 0.012em; --ih: 0em; --ir: 999px; }
+  9% { --iw: 0.012em; --ih: 1.81em; }
+  22% { --iw: 0.16em; }
+  42% { --iw: 1.81em; }
+  64% { --iw: 3.62em; --ih: 1.81em; --ir: 999px; }
+  76% { --iw: 3.62em; --ih: 1.81em; --ir: 999px; }
+  100% { --iw: 140vmax; --ih: 140vmax; --ir: 0px; }
+}
+@keyframes home-intro-out { to { opacity: 0; visibility: hidden; } }
+
+/* the photo, seen only through a pill-shaped window in the middle of the screen */
+.home-intro__window { position: absolute; inset: 0; clip-path: inset(calc(50% - var(--ih) / 2) calc(50% - var(--iw) / 2) round var(--ir)); }
+.home-intro__window img { transform: scale(1.12); animation: home-intro-zoom 3.4s ease-out 0.15s both; }
+@keyframes home-intro-zoom { to { transform: scale(1); } }
+.home-intro__line { position: absolute; inset: 0; background: #b9b9b9; animation: home-intro-line 3.2s 0.15s both; }
+@keyframes home-intro-line { 0%, 9% { opacity: 1; } 22%, 100% { opacity: 0; } }
+
+/* the word: the gap between IN and DIA is the window, so the letters are pushed apart */
+.home-intro__word { position: absolute; inset: 0; display: grid; grid-template-columns: 1fr auto 1fr; align-items: center; font-family: var(--font-serif); font-weight: 500; line-height: 0.8; letter-spacing: -0.04em; color: #191919; white-space: nowrap; animation: home-intro-word 3.2s 0.15s both; }
+.home-intro__word > span:first-child { justify-self: end; }
+.home-intro__word > span:last-child { justify-self: start; }
+.home-intro__gap { display: block; flex-shrink: 0; width: calc(var(--iw) + 0.17em); }
+@keyframes home-intro-word { 0%, 74% { opacity: 1; } 90%, 100% { opacity: 0; } }
+.home-intro__tag { position: absolute; left: 0; right: 0; top: calc(50% + var(--fs) * 1.05); text-align: center; font-family: var(--font-serif); font-style: italic; font-size: clamp(1rem, 1.8vw, 1.4rem); color: #444; animation: home-intro-tag 3.2s 0.15s both; }
+@keyframes home-intro-tag { 0%, 40% { opacity: 0; transform: translateY(10px); } 52%, 72% { opacity: 1; transform: none; } 82%, 100% { opacity: 0; } }
+
+@media (max-width: 720px) { html[data-intro="play"] .home-intro { --fs: min(13vw, 11vh); } }
+
+/* hold the hero's own entrance until the intro has opened onto it */
+html[data-intro="play"] .hero-in { animation-delay: calc(var(--d, 0ms) + 3.1s); }
+
+@media (prefers-reduced-motion: reduce) {
+  html[data-intro="play"] .home-intro { display: none; }
+  html[data-intro="play"] .hero-in { animation-delay: 0ms; }
+}
