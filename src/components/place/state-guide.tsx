@@ -488,10 +488,15 @@ export function StateGuide({
     }
     return null;
   };
+  // Route by town when a plan moves between towns; for a plan inside one town (or one whose stops
+  // aren't under a town), by the places it visits instead.
   const routeTowns = (slugs: string[]) => {
-    const out: string[] = [];
-    for (const s of slugs) { const t = townOf(s); if (t && !out.includes(t)) out.push(t); }
-    return out.slice(0, 5);
+    const towns: string[] = [];
+    for (const s of slugs) { const t = townOf(s); if (t && !towns.includes(t)) towns.push(t); }
+    if (towns.length >= 2) return towns.slice(0, 5);
+    const stops: string[] = [];
+    for (const s of slugs) { const n = bySlug.get(s)?.name; if (n && !stops.includes(n)) stops.push(n); }
+    return stops.length >= 2 ? stops.slice(0, 5) : towns;
   };
 
   // Seasonal access, straight from the places' own visiting info.

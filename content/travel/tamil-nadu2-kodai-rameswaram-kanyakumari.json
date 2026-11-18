@@ -1,0 +1,1798 @@
+{
+ "cluster": "tamil-nadu2-kodai-rameswaram-kanyakumari",
+ "title": "Kodaikanal, Rameswaram and Kanyakumari (Batch 4)",
+ "researchedAt": "2026-11-18",
+ "selection": "Batch 4. Kodaikanal (6 sections), Rameswaram (5) and Kanyakumari (5) were thin. Adds who it's for, practical info (including the Kodaikanal e-pass and the Kanyakumari glass bridge), food, shopping, etiquette, tips and common mistakes, fuller overviews (pending review); rewrites kodaikanal-2-days (moved from tamil-nadu.json) and adds new Rameswaram and Kanyakumari itineraries. madurai-rameswaram-kanyakumari-4-days is left for the itinerary audit. Not covered: ferry, bridge and temple fees.",
+ "sources": {
+  "TN_KOD": {
+   "url": "https://www.tamilnadutourism.tn.gov.in/destinations/kodaikanal",
+   "title": "Kodaikanal — Tamil Nadu Tourism",
+   "authority": "government"
+  },
+  "W_KOD": {
+   "url": "https://en.wikipedia.org/wiki/Kodaikanal",
+   "title": "Kodaikanal — Wikipedia",
+   "authority": "reference"
+  },
+  "OT_EPASS": {
+   "url": "https://outlooktraveller.com/travelnews/whats-new/kodaikanal-and-ooty-e-pass-extended-heres-all-you-need-to-know-about-it",
+   "title": "Explained: E-Pass System in Nilgiris and Kodaikanal — Outlook Traveller",
+   "authority": "media"
+  },
+  "TN_RMM": {
+   "url": "https://www.tamilnadutourism.tn.gov.in/destinations/rameswaram",
+   "title": "Rameswaram — Tamil Nadu Tourism",
+   "authority": "government"
+  },
+  "II_RMM": {
+   "url": "https://www.incredibleindia.gov.in/en/tamil-nadu/rameswaram",
+   "title": "Rameswaram — Incredible India",
+   "authority": "government"
+  },
+  "W_DHK": {
+   "url": "https://en.wikipedia.org/wiki/Dhanushkodi",
+   "title": "Dhanushkodi — Wikipedia",
+   "authority": "reference"
+  },
+  "W_NPB": {
+   "url": "https://en.wikipedia.org/wiki/New_Pamban_Bridge",
+   "title": "New Pamban Bridge — Wikipedia",
+   "authority": "reference"
+  },
+  "TN_KKM": {
+   "url": "https://www.tamilnadutourism.tn.gov.in/destinations/kanyakumari",
+   "title": "Kanniyakumari — Tamil Nadu Tourism",
+   "authority": "government"
+  },
+  "W_KKM": {
+   "url": "https://en.wikipedia.org/wiki/Kanyakumari",
+   "title": "Kanyakumari — Wikipedia",
+   "authority": "reference"
+  },
+  "KKD_GB": {
+   "url": "https://kanniyakumari.nic.in/glass-bridge/",
+   "title": "Glass Bridge — Kanniyakumari District Administration",
+   "authority": "government"
+  },
+  "TT_KOD": {
+   "url": "https://www.tamilnadutourism.tn.gov.in/destinations/kodaikanal",
+   "title": "Kodaikanal — Tamil Nadu Tourism (Government of Tamil Nadu)",
+   "authority": "government"
+  },
+  "TT_RMM": {
+   "url": "https://www.tamilnadutourism.tn.gov.in/destinations/rameswaram",
+   "title": "Rameswaram — Tamil Nadu Tourism (Government of Tamil Nadu)",
+   "authority": "government"
+  },
+  "W_PAM": {
+   "url": "https://en.wikipedia.org/wiki/Pamban_Bridge",
+   "title": "Pamban Bridge — Wikipedia",
+   "authority": "reference"
+  },
+  "TT_DHA": {
+   "url": "https://www.tamilnadutourism.tn.gov.in/destinations/dhanuskodi-beach",
+   "title": "Dhanushkodi Beach — Tamil Nadu Tourism (Government of Tamil Nadu)",
+   "authority": "government"
+  },
+  "TT_KKM": {
+   "url": "https://www.tamilnadutourism.tn.gov.in/destinations/kanyakumari",
+   "title": "Kanniyakumari — Tamil Nadu Tourism (Government of Tamil Nadu)",
+   "authority": "government"
+  },
+  "TT_VRM": {
+   "url": "https://www.tamilnadutourism.tn.gov.in/destinations/vivekananda-rock-memorial",
+   "title": "Vivekananda Rock Memorial — Tamil Nadu Tourism (Government of Tamil Nadu)",
+   "authority": "government"
+  },
+  "TT_KLK": {
+   "url": "https://www.tamilnadutourism.tn.gov.in/destinations/kodaikanal-lake",
+   "title": "Kodaikanal Lake — Tamil Nadu Tourism (Government of Tamil Nadu)",
+   "authority": "government"
+  },
+  "TT_BRY": {
+   "url": "https://www.tamilnadutourism.tn.gov.in/destinations/bryant-park",
+   "title": "Bryant Park — Tamil Nadu Tourism (Government of Tamil Nadu)",
+   "authority": "government"
+  },
+  "TT_COA": {
+   "url": "https://www.tamilnadutourism.tn.gov.in/destinations/coakers-walk",
+   "title": "Coaker's Walk — Tamil Nadu Tourism (Government of Tamil Nadu)",
+   "authority": "government"
+  },
+  "TT_PIL": {
+   "url": "https://www.tamilnadutourism.tn.gov.in/destinations/pillar-rocks",
+   "title": "Pillar Rocks — Tamil Nadu Tourism (Government of Tamil Nadu)",
+   "authority": "government"
+  },
+  "TT_GUN": {
+   "url": "https://www.tamilnadutourism.tn.gov.in/destinations/guna-caves",
+   "title": "Guna Caves — Tamil Nadu Tourism (Government of Tamil Nadu)",
+   "authority": "government"
+  }
+ },
+ "facts": {
+  "BKD1": {
+   "place": "tamil-nadu/kodaikanal",
+   "topic": "Princess of Hills",
+   "claim": "Kodaikanal, the 'Princess of Hills', sits at about 7,000 ft and was established as a hill station in 1845.",
+   "claimType": "general",
+   "evidence": [
+    {
+     "source": "TT_KOD",
+     "quote": "Referred to as the “Princess of Hills”"
+    },
+    {
+     "source": "TT_KOD",
+     "quote": "Located at about 7000 ft above the sea-level, Kodaikanal was established as a destination by British bureaucrats and Christian missionaries in the year of 1845."
+    }
+   ]
+  },
+  "BKD2": {
+   "place": "tamil-nadu/kodaikanal",
+   "topic": "Activities and Kurinji",
+   "claim": "Boating, cycling, horse riding and trekking are popular, and the Kurinji flower blooms once in 12 years.",
+   "claimType": "general",
+   "evidence": [
+    {
+     "source": "TT_KOD",
+     "quote": "Boating, cycling, horse riding and trekking are some of the most common among them."
+    },
+    {
+     "source": "TT_KOD",
+     "quote": "the Kurinji flower that blooms only once in 12 years"
+    }
+   ]
+  },
+  "BKD3": {
+   "place": "tamil-nadu/kodaikanal",
+   "topic": "Getting there",
+   "claim": "Madurai airport is about 115 km away; buses run from Madurai, Palani, Kodai Road and Dindigul.",
+   "claimType": "distance",
+   "evidence": [
+    {
+     "source": "TT_KOD",
+     "quote": "Madurai International Airport, about 115 km away."
+    },
+    {
+     "source": "TT_KOD",
+     "quote": "Frequent bus services are available from Madurai Aarappalayam, Batlagundu, Palani, Oddanchatram, Kodai Road, and Dindigul."
+    }
+   ]
+  },
+  "BKD4": {
+   "place": "tamil-nadu/kodaikanal",
+   "topic": "Best time",
+   "claim": "Kodaikanal is cool year-round; April to June is best.",
+   "claimType": "general",
+   "evidence": [
+    {
+     "source": "TT_KOD",
+     "quote": "the best time to visit the hill station is from April to June when the weather is at its best."
+    }
+   ],
+   "kind": "seasonal"
+  },
+  "BRM1": {
+   "place": "tamil-nadu/rameswaram",
+   "topic": "Rameswaram",
+   "claim": "Rameswaram, on Pamban Island, is one of the four Char Dham pilgrimage sites and the closest point in India to Sri Lanka.",
+   "claimType": "general",
+   "evidence": [
+    {
+     "source": "TT_RMM",
+     "quote": "Though lying separated from the mainland of India in the Pamban Island, Rameswaram is connected to the mainland by the magnificent Pamban Bridge."
+    },
+    {
+     "source": "TT_RMM",
+     "quote": "one among the four Char Dham pilgrimage sites, Rameswaram is also the closest point to Sri Lanka from India."
+    }
+   ]
+  },
+  "BRM2": {
+   "place": "tamil-nadu/rameswaram",
+   "topic": "Getting there",
+   "claim": "Madurai airport is about 180 km away; Rameswaram station has trains from Chennai, Coimbatore and Bengaluru, and buses come from Chennai, Madurai and Trichy.",
+   "claimType": "distance",
+   "evidence": [
+    {
+     "source": "TT_RMM",
+     "quote": "Madurai International Airport, about 180 km away."
+    },
+    {
+     "source": "TT_RMM",
+     "quote": "Rameswaram Railway Station is well connected to Chennai, Coimbatore, Pondicherry and Bengaluru."
+    },
+    {
+     "source": "TT_RMM",
+     "quote": "Bus services are available to Rameswaram Bus Stand on a regular basis from Chennai, Madurai, Puducherry, Trichy and Coimbatore."
+    }
+   ]
+  },
+  "BRM3": {
+   "place": "tamil-nadu/rameswaram",
+   "topic": "Best time",
+   "claim": "October to March is the best time to visit.",
+   "claimType": "general",
+   "evidence": [
+    {
+     "source": "TT_RMM",
+     "quote": "The best time to explore Rameswaram is from October to March"
+    }
+   ],
+   "kind": "seasonal"
+  },
+  "BRMP1": {
+   "place": "tamil-nadu/pamban-bridge",
+   "topic": "Pamban Bridge",
+   "claim": "The Pamban Bridge, opened in 1914, was India's first sea bridge; the New Pamban Bridge replaced it for trains in April 2025.",
+   "claimType": "general",
+   "evidence": [
+    {
+     "source": "W_PAM",
+     "quote": "Opened on 24 February 1914, it was India's first sea bridge"
+    },
+    {
+     "source": "W_PAM",
+     "quote": "The New Pamban Bridge was completed in 2024 and was opened for traffic in April 2025."
+    }
+   ]
+  },
+  "BRMP2": {
+   "place": "tamil-nadu/pamban-bridge",
+   "topic": "Road bridge",
+   "claim": "A road bridge built alongside in 1988 carries cars and buses to the island.",
+   "claimType": "general",
+   "evidence": [
+    {
+     "source": "W_PAM",
+     "quote": "The adjacent road bridge was opened in 1988."
+    }
+   ]
+  },
+  "BRMD1": {
+   "place": "tamil-nadu/dhanushkodi",
+   "topic": "Dhanushkodi",
+   "claim": "Dhanushkodi, 'tip of the bow', has a 15 km beach between the Gulf of Mannar and the Bay of Bengal, with views to Arichal Munai.",
+   "claimType": "general",
+   "evidence": [
+    {
+     "source": "TT_DHA",
+     "quote": "This pristine beach is surrounded by the Gulf of Mannar on one side and the Bay of Bengal on the other."
+    },
+    {
+     "source": "TT_DHA",
+     "quote": "The word Dhanushkodi means ‘Tip of the bow’."
+    },
+    {
+     "source": "TT_DHA",
+     "quote": "Extending up to 15 km in length, the Dhanushkodi Beach is one that often witnesses high tides."
+    }
+   ]
+  },
+  "BRMD2": {
+   "place": "tamil-nadu/dhanushkodi",
+   "topic": "Cyclone",
+   "claim": "The railway line to Dhanushkodi was destroyed by the 1964 cyclone.",
+   "claimType": "general",
+   "evidence": [
+    {
+     "source": "W_PAM",
+     "quote": "The railway line to Dhanushkodi was destroyed during 1964 Dhanushkodi cyclone"
+    }
+   ]
+  },
+  "BKK1": {
+   "place": "tamil-nadu/kanyakumari",
+   "topic": "Land's end",
+   "claim": "Kanniyakumari is the southern tip of mainland India, where the Arabian Sea, Bay of Bengal and Indian Ocean meet.",
+   "claimType": "general",
+   "evidence": [
+    {
+     "source": "TT_KKM",
+     "quote": "It is the southernmost tip of the mainland of India."
+    },
+    {
+     "source": "TT_KKM",
+     "quote": "Three major water bodies – the Arabian Sea, Bay of Bengal and the Indian Ocean – converge right here in Kanniyakumari."
+    }
+   ]
+  },
+  "BKK2": {
+   "place": "tamil-nadu/kanyakumari",
+   "topic": "Sunset and moonrise",
+   "claim": "On full-moon days you can watch sunset and moonrise at the same time; on Chithra Pournami the sun and moon face each other.",
+   "claimType": "general",
+   "evidence": [
+    {
+     "source": "TT_KKM",
+     "quote": "Kanniyakumari is the only spot in India from where you can watch the spectacle of the sunset and the moonrise happening simultaneously on Full Moon days."
+    },
+    {
+     "source": "TT_KKM",
+     "quote": "It’s even grander during the day of ‘Chithra Pournami’ when the Sun and the Moon will appear facing each other in the same horizon."
+    }
+   ],
+   "kind": "seasonal"
+  },
+  "BKK3": {
+   "place": "tamil-nadu/kanyakumari",
+   "topic": "Getting there",
+   "claim": "Thiruvananthapuram airport is 76 km away and Nagercoil Junction 17 km; buses run from Madurai, Chennai and Thiruvananthapuram.",
+   "claimType": "distance",
+   "evidence": [
+    {
+     "source": "TT_KKM",
+     "quote": "The nearest International airport is Thiruvananthapuram International Airport which is 76 km from Kanyakumari."
+    },
+    {
+     "source": "TT_KKM",
+     "quote": "Nagercoil Junction Railway Station, 17 km away."
+    },
+    {
+     "source": "TT_KKM",
+     "quote": "Buses ply from major cities like Thiruvananthapuram, Madurai, Coimbatore, Puducherry and Chennai to Kanyakumari Bus Stand, Puthugramam."
+    }
+   ]
+  },
+  "BKK4": {
+   "place": "tamil-nadu/kanyakumari",
+   "topic": "Best time",
+   "claim": "November to March is cool and pleasant; summers are very hot.",
+   "claimType": "general",
+   "evidence": [
+    {
+     "source": "TT_KKM",
+     "quote": "The perfect time to experience Kanyakumari is from November to March as the weather would be cool and pleasant."
+    }
+   ],
+   "kind": "seasonal"
+  },
+  "BKKV1": {
+   "place": "tamil-nadu/vivekananda-rock-memorial",
+   "topic": "Rock memorial",
+   "claim": "The Vivekananda Rock Memorial, built in 1970, stands on a rock about 500 m offshore where Vivekananda is said to have attained enlightenment.",
+   "claimType": "general",
+   "evidence": [
+    {
+     "source": "TT_VRM",
+     "quote": "the Vivekananda Rock Memorial is located on a rock in the sea, about 500 metres from the mainland."
+    },
+    {
+     "source": "TT_VRM",
+     "quote": "It was in honour of the great monk that the memorial was erected in 1970."
+    },
+    {
+     "source": "TT_VRM",
+     "quote": "The rock on which the memorial is built is said to be where Vivekananda attained enlightenment."
+    }
+   ]
+  },
+  "BKKV2": {
+   "place": "tamil-nadu/vivekananda-rock-memorial",
+   "topic": "Mandapams",
+   "claim": "It has the Sripada Mandapam, said to hold the goddess's footprint, the Vivekananda Mandapam and a bronze statue of the monk.",
+   "claimType": "general",
+   "evidence": [
+    {
+     "source": "TT_VRM",
+     "quote": "The Sripada Mandapam and Vivekananda Mandapam are two structures to be explored in the memorial."
+    },
+    {
+     "source": "TT_VRM",
+     "quote": "There is also a life-sized bronze statue of Swami Vivekananda in the premises."
+    }
+   ]
+  },
+  "BKDL1": {
+   "place": "tamil-nadu/kodaikanal-lake",
+   "topic": "Kodai Lake",
+   "claim": "The star-shaped Kodai Lake was built in 1863 under Sir Vere Henry Levinge; you can row, pedal, cycle or ride around it.",
+   "claimType": "general",
+   "evidence": [
+    {
+     "source": "TT_KLK",
+     "quote": "The star-shaped artificial lake, with a depth of 3 meters, was built in 1863 under the stewardship of the Collector of Madurai, Sir Vere Henry Levinge."
+    },
+    {
+     "source": "TT_KLK",
+     "quote": "There are also rowing and pedalling boats."
+    },
+    {
+     "source": "TT_KLK",
+     "quote": "People cycle or go on horse rides around the lake."
+    }
+   ]
+  },
+  "BKDB1": {
+   "place": "tamil-nadu/bryant-park-kodaikanal",
+   "topic": "Bryant Park",
+   "claim": "Bryant Park, on the east side of Kodai Lake, is a 20-acre botanical garden started in 1908; its flower show is held in May.",
+   "claimType": "general",
+   "evidence": [
+    {
+     "source": "TT_BRY",
+     "quote": "In 1908, H. D. Bryant, a forest officer from Madhurai, set up a small park near Kodai Lake."
+    },
+    {
+     "source": "TT_BRY",
+     "quote": "has now developed into a botanical garden spanning over 20 acres."
+    },
+    {
+     "source": "TT_BRY",
+     "quote": "The annual flower show, conducted in the month of May, is the best time to visit the park"
+    }
+   ],
+   "kind": "seasonal"
+  },
+  "BKDC1": {
+   "place": "tamil-nadu/coakers-walk",
+   "topic": "Coaker's Walk",
+   "claim": "Coaker's Walk is a kilometre-long path cut in 1872 near Kodai Lake, open 7 am to 7 pm, with views to Madurai on clear days.",
+   "claimType": "opening_hours",
+   "evidence": [
+    {
+     "source": "TT_COA",
+     "quote": "A kilometre-long stretch or pathway is an ideal destination for sightseeing and a stroll."
+    },
+    {
+     "source": "TT_COA",
+     "quote": "This walkway was constructed in 1872 by Lieutenant Coaker on the steep mountain slope."
+    },
+    {
+     "source": "TT_COA",
+     "quote": "Open from 7 am to 7 pm"
+    },
+    {
+     "source": "TT_COA",
+     "quote": "If the day is clear, tourists can see the Dolphin's nose point in the south and also Periyakulam town and Madurai city from the viewpoint."
+    }
+   ]
+  },
+  "BKDC2": {
+   "place": "tamil-nadu/coakers-walk",
+   "topic": "Before the mist",
+   "claim": "Go before about 2.30 pm for a clear view before the mist sets in.",
+   "claimType": "general",
+   "evidence": [
+    {
+     "source": "TT_COA",
+     "quote": "It is better to visit the place before 2.30 pm for a clear view before the mist sets in."
+    }
+   ]
+  },
+  "BKDP1": {
+   "place": "tamil-nadu/pillar-rocks-kodaikanal",
+   "topic": "Pillar Rocks",
+   "claim": "Pillar Rocks are three 400-ft granite pillars, open 9 am to 4 pm; keep children away from the edge.",
+   "claimType": "opening_hours",
+   "evidence": [
+    {
+     "source": "TT_PIL",
+     "quote": "The 400-feet towering granite rock formations are a natural beauty to explore."
+    },
+    {
+     "source": "TT_PIL",
+     "quote": "These three rocks stand shoulder to shoulder."
+    },
+    {
+     "source": "TT_PIL",
+     "quote": "The entry timing to the Pillar rocks is between 9 am and 4 pm, including Sundays."
+    },
+    {
+     "source": "TT_PIL",
+     "quote": "be extra careful to keep them away from the edge of the rocks."
+    }
+   ]
+  },
+  "BKDG1": {
+   "place": "tamil-nadu/guna-caves",
+   "topic": "Guna Caves",
+   "claim": "The Guna Caves, once 'Devil's Kitchen', are 10 km from Kodaikanal on Moir Point road; they are barricaded and viewed from outside.",
+   "claimType": "general",
+   "evidence": [
+    {
+     "source": "TT_GUN",
+     "quote": "Known earlier as 'Devil’s Kitchen', the place got its name 'Guna' after the 1992 Tamil blockbuster movie “Guna'' was shot here."
+    },
+    {
+     "source": "TT_GUN",
+     "quote": "Located on the Moir Point road, the caves are situated 10 kilometres from Kodaikanal."
+    },
+    {
+     "source": "TT_GUN",
+     "quote": "Whilst you may not be able to enter them for safety reasons, you can always view the caves from a safe distance."
+    }
+   ]
+  },
+  "KO1": {
+   "place": "tamil-nadu/kodaikanal",
+   "topic": "Altitude",
+   "claim": "Kodaikanal sits at about 2,225 m on a plateau in the Palani Hills of the Western Ghats.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "W_KOD",
+     "quote": "It is situated at an altitude of 2,225 m (7,300 ft) in the Palani Hills of the Western Ghats."
+    }
+   ]
+  },
+  "KO2": {
+   "place": "tamil-nadu/kodaikanal",
+   "topic": "Lake",
+   "claim": "Kodai Lake is a star-shaped 45-hectare artificial lake built in 1863; rowboats and pedalos are hired at the Kodaikanal Boat Club.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "W_KOD",
+     "quote": "Kodaikanal Lake is an artificial, roughly star-shaped 45-hectare (110-acre) lake built in 1863"
+    },
+    {
+     "source": "W_KOD",
+     "quote": "with rowboats and pedalos that can be hired at the Kodaikanal Boat Club"
+    }
+   ]
+  },
+  "KO3": {
+   "place": "tamil-nadu/kodaikanal",
+   "topic": "Rail",
+   "claim": "The nearest stations are Palani (64 km) and Kodaikanal Road (80 km); the nearest major railhead is Madurai Junction (114 km).",
+   "claimType": "distance",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "W_KOD",
+     "quote": "The nearest railway stations are Palani (64 kilometres or 40 miles) and Kodaikanal Road (80 kilometres or 50 miles)."
+    },
+    {
+     "source": "W_KOD",
+     "quote": "The nearest major rail-head is Madurai Junction (114 kilometres or 71 miles) in the east."
+    }
+   ]
+  },
+  "KO4": {
+   "place": "tamil-nadu/kodaikanal",
+   "topic": "Viewpoints",
+   "claim": "Pillar Rocks are two 122 m rock pillars; Green Valley View, 5 km from the lake, looks down to the Vaigai dam; Berijam Lake is 22 km away.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "W_KOD",
+     "quote": "Pillar rocks are two 122 m (400 ft) high rock-formations"
+    },
+    {
+     "source": "W_KOD",
+     "quote": "Green valley view is located 5 km (3.1 mi) from the Kodaikanal lake"
+    },
+    {
+     "source": "W_KOD",
+     "quote": "Berijam Lake is an artificial lake located 22 km (14 mi) from Kodaikanal."
+    }
+   ]
+  },
+  "KO5": {
+   "place": "tamil-nadu/kodaikanal",
+   "topic": "Pine forests",
+   "claim": "The pine forests were planted from 1906 by H. D. Bryant.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "W_KOD",
+     "quote": "H.D. Bryant started the Kodaikanal pine plantations in the south-west of Kodaikanal"
+    }
+   ]
+  },
+  "KO6": {
+   "place": "tamil-nadu/kodaikanal",
+   "topic": "Observatory",
+   "claim": "The Kodaikanal Solar Observatory (2,343 m), 6 km from the bus stand, has observed the sun since 1901.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "W_KOD",
+     "quote": "Kodaikanal Solar Observatory, 6 kilometres (3.7 mi) from the bus-stand on Observatory Road"
+    },
+    {
+     "source": "W_KOD",
+     "quote": "The first observations were commenced here in 1901."
+    }
+   ]
+  },
+  "KO7": {
+   "place": "tamil-nadu/kodaikanal",
+   "topic": "Coaker's Walk hours",
+   "claim": "Coaker's Walk, near the lake, is open 7 am to 7 pm.",
+   "claimType": "schedule",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "TN_KOD",
+     "quote": "Open from 7 am to 7 pm, the walkway is very near the Kodaikanal Lake."
+    }
+   ]
+  },
+  "KO8": {
+   "place": "tamil-nadu/kodaikanal",
+   "topic": "Guna Caves",
+   "claim": "The Guna Caves, at about 2,200 m, were called the Devil's Kitchen until the 1992 film Guna.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "TN_KOD",
+     "quote": "Situated at an altitude of 2,200 metres, the Guna Caves are a thing of mystery"
+    }
+   ]
+  },
+  "KO9": {
+   "place": "tamil-nadu/kodaikanal",
+   "topic": "Peak traffic",
+   "claim": "In the summer peak, main roads become one-way to manage traffic.",
+   "claimType": "general",
+   "kind": "seasonal",
+   "evidence": [
+    {
+     "source": "W_KOD",
+     "quote": "major roads converted into one-way lanes to regulate the constant inflow of traffic"
+    }
+   ]
+  },
+  "KO10": {
+   "place": "tamil-nadu/kodaikanal",
+   "topic": "E-pass",
+   "claim": "Tourist vehicles going to Kodaikanal need an e-pass from epass.tnega.org, with daily caps in peak months.",
+   "claimType": "general",
+   "kind": "seasonal",
+   "evidence": [
+    {
+     "source": "OT_EPASS",
+     "quote": "To apply for an e-pass to Kodaikanal or the Nilgiris, visit https://epass.tnega.org."
+    },
+    {
+     "source": "OT_EPASS",
+     "quote": "4,000 on weekdays and 6,000 on weekends for Kodaikanal"
+    }
+   ]
+  },
+  "KO11": {
+   "place": "tamil-nadu/kodaikanal",
+   "topic": "Buses",
+   "claim": "Frequent buses run from Madurai (Arappalayam), Batlagundu, Palani, Oddanchatram, Kodai Road and Dindigul.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "TN_KOD",
+     "quote": "Frequent bus services are available from Madurai Aarappalayam, Batlagundu, Palani, Oddanchatram, Kodai Road, and Dindigul."
+    }
+   ]
+  },
+  "RA1": {
+   "place": "tamil-nadu/rameswaram",
+   "topic": "Corridor",
+   "claim": "The Ramanathaswamy Temple has India's longest temple corridor, about 1,200 m with 1,212 carved pillars, and 22 sacred wells.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "II_RMM",
+     "quote": "This majestic place boasts the longest corridor among all Hindu temples in India."
+    },
+    {
+     "source": "II_RMM",
+     "quote": "Imagine walking through a vast hallway stretching about 1,200 meters, lined with 1,212 intricately sculpted pillars."
+    },
+    {
+     "source": "II_RMM",
+     "quote": "Look out for the 22 wells scattered along the corridor"
+    }
+   ]
+  },
+  "RA2": {
+   "place": "tamil-nadu/rameswaram",
+   "topic": "Jyotirlinga",
+   "claim": "The temple is one of the twelve jyotirlingas.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "TN_RMM",
+     "quote": "The shrine is dedicated to Lord Shiva and is one of the twelve jyotirlinga temples in India."
+    }
+   ]
+  },
+  "RA3": {
+   "place": "tamil-nadu/rameswaram",
+   "topic": "Agni Theertham",
+   "claim": "Pilgrims bathe at Agni Theertham beach, beside the temple, before entering.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "II_RMM",
+     "quote": "Located next to the Ramanathaswamy Temple, this beach is a ritual bathing spot for pilgrims before entering the temple."
+    }
+   ]
+  },
+  "RA4": {
+   "place": "tamil-nadu/rameswaram",
+   "topic": "Panchmukhi Hanuman",
+   "claim": "The five-faced Hanuman temple, 2 km away, displays 'floating stones' said to come from Ram Setu.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "II_RMM",
+     "quote": "Just 2 km away lies the five-faced Hanuman Temple, also known as Panchmukhi Hanuman Temple."
+    }
+   ]
+  },
+  "RA5": {
+   "place": "tamil-nadu/rameswaram",
+   "topic": "Gandamadana Parvatham",
+   "claim": "Gandamadana Parvatham, 3 km from the temple, is the island's highest point, with Rama's footprints and sunrise and sunset views.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "II_RMM",
+     "quote": "There's another hidden gem, just 3 km away from Ramanathaswamy Temple, located on a beautiful hillock."
+    },
+    {
+     "source": "II_RMM",
+     "quote": "It is also the highest point in Rameswaram"
+    }
+   ]
+  },
+  "RA6": {
+   "place": "tamil-nadu/rameswaram",
+   "topic": "Shopping",
+   "claim": "Markets sell conches, seashell crafts and silk saris (best on Varthakan Street) and quartz Spatika lingams.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "II_RMM",
+     "quote": "For the best quality silk merchandise, visit Varthakan Street."
+    },
+    {
+     "source": "II_RMM",
+     "quote": "Rameshwaram is known for its Spatika Lingam"
+    }
+   ]
+  },
+  "RA7": {
+   "place": "tamil-nadu/rameswaram",
+   "topic": "Food",
+   "claim": "Try filter coffee, vegetarian meals with sambar, rasam and puli kuzhambu, payasam, and parotta and mutton curries from street stalls.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "II_RMM",
+     "quote": "Rameswaram is well-known for its filtered coffee."
+    },
+    {
+     "source": "II_RMM",
+     "quote": "Rameswaram is also renowned for its non-vegetarian cuisine like the classic biryani and parotta."
+    }
+   ]
+  },
+  "RA8": {
+   "place": "tamil-nadu/rameswaram",
+   "topic": "Dhanushkodi road",
+   "claim": "A road to Dhanushkodi was completed in 2016: 9.5 km from Mukundarayar Chathiram, then 4.5 km on to Arichal Munai.",
+   "claimType": "distance",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "W_DHK",
+     "quote": "The National Highway completed the 9.5 km long (5.9 mi) road from Mukuntharayar Chathiram to Dhanushkodi and 4.5 km (2.8 mi) from Dhanushkodi to Arichal Munai."
+    }
+   ]
+  },
+  "RA9": {
+   "place": "tamil-nadu/rameswaram",
+   "topic": "Ghost town",
+   "claim": "Dhanushkodi was destroyed by the 1964 cyclone and remains uninhabited.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "W_DHK",
+     "quote": "The town was destroyed during the 1964 Rameswaram cyclone and remains uninhabited in the aftermath."
+    }
+   ]
+  },
+  "RA10": {
+   "place": "tamil-nadu/rameswaram",
+   "topic": "New Pamban Bridge",
+   "claim": "The New Pamban Bridge, India's first vertical-lift sea bridge, opened to traffic in April 2025.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "W_NPB",
+     "quote": "is the first vertical lift sea bridge in India."
+    },
+    {
+     "source": "W_NPB",
+     "quote": "the bridge was opened for traffic in April 2025."
+    }
+   ]
+  },
+  "RA11": {
+   "place": "tamil-nadu/rameswaram",
+   "topic": "Beaches",
+   "claim": "Other beaches include Kunthukal, Sangumal and Ariyaman.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "II_RMM",
+     "quote": "Kunthukal Beach, renowned as one of the cleanest beaches in India"
+    }
+   ]
+  },
+  "RA12": {
+   "place": "tamil-nadu/rameswaram",
+   "topic": "Buses",
+   "claim": "Buses run to Rameswaram from Chennai, Madurai, Puducherry, Trichy and Coimbatore.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "TN_RMM",
+     "quote": "Bus services are available to Rameswaram Bus Stand on a regular basis from Chennai, Madurai, Puducherry, Trichy and Coimbatore."
+    }
+   ]
+  },
+  "KA1": {
+   "place": "tamil-nadu/kanyakumari",
+   "topic": "Glass bridge",
+   "claim": "India's first glass bridge over the sea, 77 m long and opened on 30 December 2024, links the Vivekananda Rock Memorial and the Thiruvalluvar Statue; it is open 8 am to 4 pm.",
+   "claimType": "schedule",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "KKD_GB",
+     "quote": "inaugurated on December 30, 2024, is India's first-ever glass bridge built over the sea."
+    },
+    {
+     "source": "KKD_GB",
+     "quote": "The bridge spans 77 meters in length and 10 meters in width."
+    },
+    {
+     "source": "KKD_GB",
+     "quote": "8:00 a.m. to 4:00 p.m."
+    }
+   ]
+  },
+  "KA2": {
+   "place": "tamil-nadu/kanyakumari",
+   "topic": "Ferry",
+   "claim": "Poompuhar Shipping Corporation ferries run from the town to the Vivekananda Rock and Thiruvalluvar Statue; boat rides can be booked online.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "W_KKM",
+     "quote": "The state-owned Poompuhar Shipping Corporation runs ferry services between the town and the Vivekananda Rock Memorial and Thiruvalluvar Statue"
+    },
+    {
+     "source": "KKD_GB",
+     "quote": "Book your boat ride online to visit Thiruvalluvar Statue, Glass Bridge and Vivekananda Rock Memorial."
+    }
+   ]
+  },
+  "KA3": {
+   "place": "tamil-nadu/kanyakumari",
+   "topic": "Name",
+   "claim": "The town is named after the goddess Devi Kanniyakumari; under the British it was Cape Comorin.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "TN_KKM",
+     "quote": "The place gets its name from the Hindu goddess Devi Kanniyakumari"
+    },
+    {
+     "source": "TN_KKM",
+     "quote": "the destination began to be called Cape Comorin."
+    }
+   ]
+  },
+  "KA4": {
+   "place": "tamil-nadu/kanyakumari",
+   "topic": "Rail",
+   "claim": "Kanyakumari and Nagercoil stations have direct trains to most major Indian cities.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "W_KKM",
+     "quote": "The Kanyakumari railway station and nearby Nagercoil railway station offer direct connection by Indian railways to almost all metropolitan cities in India."
+    }
+   ]
+  },
+  "KA5": {
+   "place": "tamil-nadu/kanyakumari",
+   "topic": "Nearby",
+   "claim": "Nearby are Vattakottai Fort, Sothavilai and Sanguthurai beaches, and the Mathoor hanging bridge.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "TN_KKM",
+     "quote": "Vattakottai Fort is not just a remnant of an empire"
+    },
+    {
+     "source": "TN_KKM",
+     "quote": "Mathoor Hanging Bridge is a delightful place to visit and explore."
+    }
+   ]
+  },
+  "KA6": {
+   "place": "tamil-nadu/kanyakumari",
+   "topic": "NH 44",
+   "claim": "National Highway 44 starts in Kanyakumari and runs 3,745 km to Srinagar.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "W_KKM",
+     "quote": "One is the National Highway 44 which connects Kanniyakumari with Srinagar of Jammu & Kashmir."
+    },
+    {
+     "source": "W_KKM",
+     "quote": "It covers 3745 kilometres."
+    }
+   ]
+  },
+  "KA7": {
+   "place": "tamil-nadu/kanyakumari",
+   "topic": "Buses",
+   "claim": "Buses run from Thiruvananthapuram, Madurai, Coimbatore, Puducherry and Chennai to Kanyakumari bus stand.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "TN_KKM",
+     "quote": "Buses ply from major cities like Thiruvananthapuram, Madurai, Coimbatore, Puducherry and Chennai to Kanyakumari Bus Stand, Puthugramam."
+    }
+   ]
+  }
+ },
+ "places": [
+  {
+   "key": "tamil-nadu/kodaikanal",
+   "kind": "town",
+   "name": "Kodaikanal",
+   "parent": "tamil-nadu",
+   "summary": "The 'Princess of Hills' in the Palani range: a star-shaped lake, cliff walks, pine forests and misty viewpoints.",
+   "seoTitle": "Kodaikanal Travel Guide: Lake, Viewpoints & Getting There",
+   "seoDescription": "Plan Kodaikanal: Kodai Lake, Coaker's Walk, Pillar Rocks, Guna Caves, pine forests, the e-pass for cars, how to get there and the best time to visit.",
+   "lat": 10.2381,
+   "lng": 77.4892,
+   "tripTypes": [
+    "nature",
+    "romantic",
+    "weekend"
+   ],
+   "images": [
+    {
+     "commons": "File:Boating in Kodaikanal Lake with Mist.jpg",
+     "alt": "Boats on misty Kodai Lake",
+     "hero": true
+    }
+   ],
+   "sections": {
+    "overview": {
+     "text": "Kodaikanal, Tamil Nadu Tourism's 'Princess of Hills', sits at about 2,225 m on a plateau in the Palani Hills. British officials and missionaries set it up as a summer refuge in 1845, and it still feels like an old hill station, cool all year and often wrapped in mist.\n\nThe town centres on Kodai Lake, a star-shaped artificial lake of 1863 where you can hire rowboats and pedalos. Coaker's Walk runs along the cliff edge nearby, Bryant Park borders the lake, and the road out to Moir Point passes the pine forests, the Guna Caves and the 122 m Pillar Rocks. Further out are Berijam Lake and the solar observatory, watching the sun since 1901. The Kurinji flower blooms here only once in 12 years. April to June is the classic season; if you drive, you need an e-pass.",
+     "facts": [
+      "BKD1",
+      "KO1",
+      "KO2",
+      "KO7",
+      "KO5",
+      "KO8",
+      "KO4",
+      "KO6",
+      "BKD2",
+      "BKD4",
+      "KO10"
+     ]
+    },
+    "who_its_for": {
+     "items": [
+      {
+       "title": "Couples",
+       "body": "Boating on Kodai Lake and misty walks on Coaker's Walk."
+      },
+      {
+       "title": "Families",
+       "body": "Bryant Park, cycling and horse riding round the lake."
+      },
+      {
+       "title": "Nature lovers",
+       "body": "Pine forests, Berijam Lake and the Pillar Rocks viewpoint."
+      },
+      {
+       "title": "Science buffs",
+       "body": "The solar observatory, the highest point near town."
+      }
+     ],
+     "facts": [
+      "KO2",
+      "KO7",
+      "BKD2",
+      "KO5",
+      "KO4",
+      "KO6"
+     ]
+    },
+    "practical_info": {
+     "items": [
+      {
+       "title": "Getting there",
+       "body": "Madurai airport is about 115 km away. The nearest stations are Palani (64 km) and Kodaikanal Road (80 km); Madurai Junction (114 km) is the main railhead. Frequent buses run from Madurai, Palani, Batlagundu, Kodai Road and Dindigul.",
+       "status": "verified"
+      },
+      {
+       "title": "E-pass for cars",
+       "body": "Tourist vehicles need an e-pass from epass.tnega.org; daily caps have applied in peak months. Check the current rules before you drive.",
+       "status": "seasonal"
+      },
+      {
+       "title": "Summer traffic",
+       "body": "In the peak season main roads become one-way.",
+       "status": "seasonal"
+      },
+      {
+       "title": "Coaker's Walk",
+       "body": "Open 7 am to 7 pm.",
+       "status": "verified"
+      }
+     ],
+     "facts": [
+      "BKD3",
+      "KO3",
+      "KO11",
+      "KO10",
+      "KO9",
+      "KO7"
+     ]
+    },
+    "travel_tips": {
+     "items": [
+      {
+       "body": "Do viewpoints in the morning: mist often rolls in by the afternoon."
+      },
+      {
+       "body": "Carry a warm layer; Kodaikanal is cool all year."
+      },
+      {
+       "body": "Walk or cycle the lake loop instead of driving in peak season."
+      },
+      {
+       "body": "Apply for the e-pass before you set out if you are driving."
+      }
+     ],
+     "facts": [
+      "BKD4",
+      "KO10"
+     ]
+    },
+    "common_mistakes": {
+     "items": [
+      {
+       "body": "Driving up without an e-pass."
+      },
+      {
+       "body": "Going to Pillar Rocks or Green Valley View in the afternoon mist."
+      },
+      {
+       "body": "Expecting the Kurinji bloom every year. It flowers once in 12 years."
+      },
+      {
+       "body": "Taking a train to 'Kodaikanal Road' expecting to be in town. It is about 80 km away."
+      }
+     ],
+     "facts": [
+      "KO10",
+      "KO4",
+      "BKD2",
+      "KO3"
+     ]
+    }
+   }
+  },
+  {
+   "key": "tamil-nadu/rameswaram",
+   "kind": "town",
+   "name": "Rameswaram",
+   "parent": "tamil-nadu",
+   "summary": "Island temple town: the Ramanathaswamy jyotirlinga, its 1,200 m corridor and 22 wells, the Pamban bridges and ghostly Dhanushkodi.",
+   "seoTitle": "Rameswaram Travel Guide: Temple, Dhanushkodi & Pamban",
+   "seoDescription": "Plan Rameswaram: the Ramanathaswamy Temple's corridor and 22 wells, Agni Theertham, Dhanushkodi and Arichal Munai, the Pamban bridges, food and getting there.",
+   "lat": 9.2881,
+   "lng": 79.3129,
+   "tripTypes": [
+    "spiritual",
+    "heritage",
+    "beaches"
+   ],
+   "images": [
+    {
+     "commons": "File:Rameswaram Morning.jpg",
+     "alt": "Morning light over the sea at Rameswaram",
+     "hero": true
+    }
+   ],
+   "sections": {
+    "overview": {
+     "text": "Rameswaram lies on Pamban Island, the closest point in India to Sri Lanka, and is one of the four Char Dham pilgrimage sites. Its Ramanathaswamy Temple, one of the twelve jyotirlingas, has the longest corridor of any Hindu temple in India, about 1,200 m and lined with 1,212 carved pillars, and 22 sacred wells where pilgrims bathe. Most first bathe in the sea at Agni Theertham beside the temple.\n\nThe island is reached across the Pamban bridges: the old rail bridge of 1914 and, since April 2025, India's first vertical-lift sea bridge, beside the 1988 road bridge. At the island's tip, a road built in 2016 runs to Dhanushkodi, a town destroyed by the 1964 cyclone, and on to Arichal Munai, where two seas meet. Visit from October to March.",
+     "facts": [
+      "BRM1",
+      "RA2",
+      "RA1",
+      "RA3",
+      "BRMP1",
+      "RA10",
+      "BRMP2",
+      "RA8",
+      "RA9",
+      "BRMD1",
+      "BRM3"
+     ]
+    },
+    "who_its_for": {
+     "items": [
+      {
+       "title": "Pilgrims",
+       "body": "The jyotirlinga, the 22 wells, Agni Theertham and the Panchmukhi Hanuman temple."
+      },
+      {
+       "title": "History and engineering buffs",
+       "body": "The Pamban bridges and the ruins of Dhanushkodi."
+      },
+      {
+       "title": "Beach lovers",
+       "body": "Dhanushkodi, Kunthukal, Sangumal and Ariyaman beaches."
+      },
+      {
+       "title": "Families",
+       "body": "The Dr A P J Abdul Kalam memorial."
+      }
+     ],
+     "facts": [
+      "RA2",
+      "RA1",
+      "RA3",
+      "RA4",
+      "BRMP1",
+      "RA10",
+      "RA9",
+      "RA11"
+     ]
+    },
+    "practical_info": {
+     "items": [
+      {
+       "title": "Getting there",
+       "body": "Madurai airport is about 180 km away. Rameswaram station has trains from Chennai, Coimbatore, Pondicherry and Bengaluru; buses come from Chennai, Madurai, Puducherry, Trichy and Coimbatore.",
+       "status": "verified"
+      },
+      {
+       "title": "Dhanushkodi",
+       "body": "Reached by road since 2016: 9.5 km from Mukundarayar Chathiram, then 4.5 km to Arichal Munai.",
+       "status": "verified"
+      },
+      {
+       "title": "When to go",
+       "body": "October to March.",
+       "status": "seasonal"
+      }
+     ],
+     "facts": [
+      "BRM2",
+      "RA12",
+      "RA8",
+      "BRM3"
+     ]
+    },
+    "food": {
+     "items": [
+      {
+       "body": "Filter coffee.",
+       "status": "verified"
+      },
+      {
+       "body": "Vegetarian meals with sambar, rasam and puli kuzhambu, finished with payasam.",
+       "status": "verified"
+      },
+      {
+       "body": "Parotta, biryani and mutton curries from street stalls.",
+       "status": "verified"
+      }
+     ],
+     "facts": [
+      "RA7"
+     ]
+    },
+    "shopping": {
+     "items": [
+      {
+       "body": "Conches and seashell crafts.",
+       "status": "verified"
+      },
+      {
+       "body": "Silk saris on Varthakan Street.",
+       "status": "verified"
+      },
+      {
+       "body": "Quartz Spatika lingams.",
+       "status": "verified"
+      }
+     ],
+     "facts": [
+      "RA6"
+     ]
+    },
+    "culture_etiquette": {
+     "items": [
+      {
+       "body": "Pilgrims bathe at Agni Theertham and in the temple wells before darshan; bring a change of clothes if you plan to join in."
+      },
+      {
+       "body": "Dress modestly and follow the temple staff's instructions."
+      }
+     ],
+     "facts": [
+      "RA3",
+      "RA1"
+     ]
+    },
+    "common_mistakes": {
+     "items": [
+      {
+       "body": "Going outside the October–March season recommended by Tamil Nadu Tourism."
+      },
+      {
+       "body": "Thinking Dhanushkodi still needs a jeep. A road has run there since 2016."
+      },
+      {
+       "body": "Rushing the temple. The corridor alone is about 1,200 m."
+      }
+     ],
+     "facts": [
+      "BRM3",
+      "RA8",
+      "RA1"
+     ]
+    }
+   }
+  },
+  {
+   "key": "tamil-nadu/kanyakumari",
+   "kind": "town",
+   "name": "Kanyakumari",
+   "parent": "tamil-nadu",
+   "summary": "The southern tip of mainland India: three seas, sunrise and sunset, the Vivekananda Rock, the Thiruvalluvar Statue and a glass bridge between them.",
+   "seoTitle": "Kanyakumari Travel Guide: Rock Memorial, Glass Bridge & Sunsets",
+   "seoDescription": "Plan Kanyakumari: the Vivekananda Rock Memorial, Thiruvalluvar Statue and new glass bridge, sunrise and sunset at the tip of India, ferries and getting there.",
+   "lat": 8.0883,
+   "lng": 77.5385,
+   "tripTypes": [
+    "spiritual",
+    "beaches",
+    "heritage"
+   ],
+   "images": [
+    {
+     "commons": "File:Vivekananda Rock Memorial, Kanyakumari.jpg",
+     "alt": "The Vivekananda Rock Memorial off Kanyakumari",
+     "hero": true
+    }
+   ],
+   "sections": {
+    "overview": {
+     "text": "Kanyakumari, the old Cape Comorin, is the southern tip of mainland India, where the Arabian Sea, the Bay of Bengal and the Indian Ocean meet. It takes its name from the goddess Devi Kanniyakumari, and people come to watch the sun rise and set over the sea. On full-moon days you can see sunset and moonrise at the same time.\n\nJust offshore, ferries cross to the Vivekananda Rock Memorial and the 133-ft Thiruvalluvar Statue. Since December 2024 a 77 m glass bridge, India's first over the sea, has linked the two rocks. On shore are the Gandhi Mandapam and the beach; nearby are Vattakottai Fort and quieter beaches. National Highway 44 begins here and runs 3,745 km to Srinagar. November to March is cool and pleasant.",
+     "facts": [
+      "BKK1",
+      "KA3",
+      "BKK2",
+      "KA2",
+      "BKKV1",
+      "KA1",
+      "KA5",
+      "KA6",
+      "BKK4"
+     ]
+    },
+    "who_its_for": {
+     "items": [
+      {
+       "title": "Pilgrims",
+       "body": "The Vivekananda Rock Memorial and the Kanyakumari temple."
+      },
+      {
+       "title": "Photographers",
+       "body": "Sunrise, sunset and full-moon moonrise over three seas."
+      },
+      {
+       "title": "Families",
+       "body": "The ferry, the glass bridge and the beach."
+      },
+      {
+       "title": "Road-trippers",
+       "body": "Mile zero of NH 44 to Srinagar."
+      }
+     ],
+     "facts": [
+      "BKKV1",
+      "BKK2",
+      "KA2",
+      "KA1",
+      "KA6"
+     ]
+    },
+    "practical_info": {
+     "items": [
+      {
+       "title": "Getting there",
+       "body": "Thiruvananthapuram airport is 76 km away. Kanyakumari and Nagercoil (17 km) stations have direct trains to most big cities. Buses run from Thiruvananthapuram, Madurai, Coimbatore, Puducherry and Chennai.",
+       "status": "verified"
+      },
+      {
+       "title": "Ferry and glass bridge",
+       "body": "Poompuhar Shipping Corporation ferries go to the Vivekananda Rock; the glass bridge to the Thiruvalluvar Statue is open 8 am–4 pm. Boat rides can be booked online.",
+       "status": "verified"
+      },
+      {
+       "title": "When to go",
+       "body": "November to March; summers are very hot.",
+       "status": "seasonal"
+      }
+     ],
+     "facts": [
+      "BKK3",
+      "KA4",
+      "KA7",
+      "KA2",
+      "KA1",
+      "BKK4"
+     ]
+    },
+    "common_mistakes": {
+     "items": [
+      {
+       "body": "Arriving at the jetty late. The glass bridge closes at 4 pm, and peak-season queues are long; book the boat online."
+      },
+      {
+       "body": "Missing sunset because you only planned sunrise. Kanyakumari has both over the sea."
+      },
+      {
+       "body": "Visiting in the summer heat instead of November–March."
+      }
+     ],
+     "facts": [
+      "KA1",
+      "KA2",
+      "BKK2",
+      "BKK4"
+     ]
+    }
+   }
+  }
+ ],
+ "itineraries": [
+  {
+   "place": "tamil-nadu/kodaikanal",
+   "slug": "kodaikanal-2-days-lake-and-viewpoints",
+   "title": "Kodaikanal in 2 days: the lake and the viewpoints",
+   "durationDays": 2,
+   "tripTypes": [
+    "nature",
+    "romantic",
+    "weekend"
+   ],
+   "summary": "Kodai Lake, Bryant Park and Coaker's Walk on day one; Pillar Rocks and the Guna Caves on day two.",
+   "seoTitle": "Kodaikanal 2-Day Itinerary: Lake, Walks & Viewpoints",
+   "seoDescription": "Two days in Kodaikanal: boating on Kodai Lake, Bryant Park, Coaker's Walk, Pillar Rocks and the Guna Caves, with timings.",
+   "facts": [
+    "BKDL1",
+    "BKDB1",
+    "BKDC1",
+    "BKDC2",
+    "BKDP1",
+    "BKDG1",
+    "BKD3",
+    "BKD4",
+    "KO7",
+    "KO5",
+    "KO10",
+    "KO3",
+    "KO11",
+    "KO1"
+   ],
+   "sources": [],
+   "plan": {
+    "overview": "Kodaikanal is compact: a day around the lake and a day out on the Moir Point road to the viewpoints.",
+    "start": "Madurai airport (about 115 km)",
+    "end": "Kodaikanal",
+    "transport": "Walk or cycle around the lake; a cab for the viewpoints. Cars need an e-pass.",
+    "season": "April to June is the classic season; Kodaikanal is cool all year.",
+    "days": [
+     {
+      "title": "Day 1: Kodai Lake and Coaker's Walk",
+      "summary": "Morning: Coaker's Walk, before the mist (go before about 2.30 pm).\n\nAfternoon: Bryant Park.\n\nEvening: a boat on Kodai Lake.",
+      "stops": [
+       {
+        "name": "Coaker's Walk",
+        "time": "Morning",
+        "placeSlug": "tamil-nadu/coakers-walk",
+        "duration": "1 hour",
+        "note": "Open 7 am–7 pm; best in the morning before the mist."
+       },
+       {
+        "name": "Bryant Park",
+        "time": "Afternoon",
+        "placeSlug": "tamil-nadu/bryant-park-kodaikanal",
+        "duration": "1 hour"
+       },
+       {
+        "name": "Boating on Kodai Lake",
+        "time": "Late afternoon",
+        "placeSlug": "tamil-nadu/kodai-lake-boating",
+        "duration": "1 hour"
+       }
+      ],
+      "overnight": "Kodaikanal",
+      "travel": "Madurai to Kodaikanal: about 115 km by road.",
+      "meals": "Lunch in town; tea by the lake.",
+      "distance": "Madurai to Kodaikanal about 115 km"
+     },
+     {
+      "title": "Day 2: Pillar Rocks and Guna Caves",
+      "summary": "Morning: Pillar Rocks (open 9 am to 4 pm).\n\nAfternoon: the Guna Caves on Moir Point road, viewed from outside.",
+      "stops": [
+       {
+        "name": "Pillar Rocks",
+        "time": "Morning",
+        "placeSlug": "tamil-nadu/pillar-rocks-kodaikanal",
+        "duration": "1 hour"
+       },
+       {
+        "name": "Guna Caves",
+        "time": "Late morning",
+        "placeSlug": "tamil-nadu/guna-caves",
+        "duration": "1 hour"
+       },
+       {
+        "time": "Afternoon",
+        "name": "Pine forests",
+        "duration": "1 hour"
+       }
+      ],
+      "overnight": "Kodaikanal",
+      "meals": "Pack snacks for the viewpoints road."
+     }
+    ],
+    "budget": {
+     "assumptions": "VacayOut lists only fees it could check with an official source; hotels, transport and meals are not estimated. Check current prices before you book.",
+     "lines": []
+    },
+    "booking": [
+     {
+      "item": "Hotel",
+      "detail": "Book early for April–June, the busy season."
+     }
+    ],
+    "alternatives": [
+     "Pair with Madurai, the gateway city.",
+     "Come in May for Bryant Park's flower show."
+    ],
+    "tips": [
+     "Keep children well back from the edge at Pillar Rocks.",
+     "Mornings are clearest — the mist rolls in by afternoon."
+    ],
+    "style": "Hill-station weekend",
+    "difficulty": "Easy",
+    "prep": [
+     {
+      "title": "Getting there",
+      "body": "Madurai airport is about 115 km away; Palani (64 km) and Kodaikanal Road (80 km) are the nearest stations; buses run from Madurai, Palani and Dindigul."
+     },
+     {
+      "title": "E-pass",
+      "body": "If you drive, apply at epass.tnega.org before you set out."
+     },
+     {
+      "title": "Clothing",
+      "body": "Bring a warm layer and rain gear."
+     }
+    ],
+    "faqs": [
+     {
+      "q": "Do I need an e-pass for Kodaikanal?",
+      "a": "Yes, for tourist vehicles. Apply at epass.tnega.org and check the current rules."
+     },
+     {
+      "q": "When is Coaker's Walk open?",
+      "a": "7 am to 7 pm."
+     },
+     {
+      "q": "How high is Kodaikanal?",
+      "a": "About 2,225 m."
+     }
+    ]
+   }
+  },
+  {
+   "place": "tamil-nadu/rameswaram",
+   "slug": "rameswaram-2-days-temple-and-dhanushkodi",
+   "title": "Rameswaram in 2 days: the temple and Dhanushkodi",
+   "durationDays": 2,
+   "tripTypes": [
+    "spiritual",
+    "heritage",
+    "beaches"
+   ],
+   "summary": "Agni Theertham and the Ramanathaswamy Temple's corridor and wells, Hanuman's floating stones and a hilltop sunset; then Dhanushkodi, Arichal Munai and the Pamban bridges.",
+   "seoTitle": "Rameswaram 2-Day Itinerary: Temple, Dhanushkodi & Pamban",
+   "seoDescription": "Two days in Rameswaram: Agni Theertham and the Ramanathaswamy Temple, Hanuman's floating stones, then Dhanushkodi, Arichal Munai and the Pamban bridges.",
+   "facts": [
+    "RA3",
+    "RA1",
+    "RA2",
+    "RA4",
+    "RA5",
+    "RA8",
+    "RA9",
+    "BRMD1",
+    "BRMD2",
+    "BRMP1",
+    "RA10",
+    "BRMP2",
+    "BRM2",
+    "BRM3",
+    "RA7",
+    "RA6"
+   ],
+   "sources": [],
+   "plan": {
+    "overview": "A pilgrim's day in town and a day out to the island's tip and its bridges.",
+    "style": "Pilgrimage and coast",
+    "start": "Madurai (about 180 km) or Rameswaram station",
+    "end": "Rameswaram",
+    "season": "October to March.",
+    "difficulty": "Easy",
+    "transport": "Walking and autos in town; taxi to Dhanushkodi",
+    "days": [
+     {
+      "title": "Agni Theertham and the temple",
+      "stops": [
+       {
+        "time": "Early morning",
+        "name": "Agni Theertham",
+        "duration": "45 minutes",
+        "note": "Ritual bath before the temple."
+       },
+       {
+        "time": "Morning",
+        "name": "Ramanathaswamy Temple",
+        "placeSlug": "ramanathaswamy-temple",
+        "duration": "3 hours",
+        "note": "The corridor and the 22 wells."
+       },
+       {
+        "time": "Afternoon",
+        "name": "Panchmukhi Hanuman Temple",
+        "duration": "45 minutes",
+        "note": "About 2 km away; the 'floating stones'."
+       },
+       {
+        "time": "Evening",
+        "name": "Gandamadana Parvatham",
+        "duration": "1 hour",
+        "note": "About 3 km; the island's highest point, for sunset."
+       }
+      ],
+      "travel": "Walk and autos.",
+      "distance": "Hanuman temple 2 km and Gandamadana Parvatham 3 km from the main temple",
+      "meals": "Filter coffee and a vegetarian meal near the temple.",
+      "overnight": "Rameswaram"
+     },
+     {
+      "title": "Dhanushkodi and the Pamban bridges",
+      "stops": [
+       {
+        "time": "Early morning",
+        "name": "Dhanushkodi",
+        "placeSlug": "dhanushkodi",
+        "duration": "2.5 hours",
+        "note": "The town destroyed by the 1964 cyclone."
+       },
+       {
+        "time": "Late morning",
+        "name": "Arichal Munai",
+        "duration": "1 hour"
+       },
+       {
+        "time": "Afternoon",
+        "name": "Dr A P J Abdul Kalam Memorial",
+        "placeSlug": "abdul-kalam-memorial",
+        "duration": "1 hour"
+       },
+       {
+        "time": "Late afternoon",
+        "name": "Pamban bridges view from the road bridge",
+        "placeSlug": "pamban-bridge",
+        "duration": "1 hour"
+       }
+      ],
+      "travel": "Taxi on the 2016 road.",
+      "distance": "Mukundarayar Chathiram–Dhanushkodi 9.5 km, then 4.5 km to Arichal Munai",
+      "meals": "Parotta or a seafood meal back in town.",
+      "overnight": "Departure"
+     }
+    ],
+    "budget": {
+     "assumptions": "VacayOut has no verified current prices for Rameswaram hotels, taxis or temple services. Budget for your own choices and check fees at the temple.",
+     "lines": []
+    },
+    "booking": [
+     {
+      "item": "Hotel",
+      "detail": "Stay near the temple for the early start."
+     }
+    ],
+    "alternatives": [
+     "Combine with Madurai (about 180 km) or continue to Kanyakumari."
+    ],
+    "tips": [
+     "Bring a change of clothes for the temple bath.",
+     "Go to Dhanushkodi early, before the heat and wind."
+    ],
+    "prep": [
+     {
+      "title": "Getting there",
+      "body": "Madurai airport is about 180 km away; Rameswaram station has trains from Chennai, Coimbatore, Pondicherry and Bengaluru."
+     },
+     {
+      "title": "Season",
+      "body": "October to March is the best time."
+     }
+    ],
+    "faqs": [
+     {
+      "q": "Can I drive to Dhanushkodi?",
+      "a": "Yes, a road has run there since 2016, continuing 4.5 km to Arichal Munai."
+     },
+     {
+      "q": "Do trains cross the Pamban bridge?",
+      "a": "Trains use the New Pamban Bridge, opened in April 2025."
+     },
+     {
+      "q": "What should I buy?",
+      "a": "Conches, shell crafts, silk saris on Varthakan Street, and Spatika lingams."
+     }
+    ]
+   }
+  },
+  {
+   "place": "tamil-nadu/kanyakumari",
+   "slug": "kanyakumari-1-day-sunrise-rock-and-glass-bridge",
+   "title": "Kanyakumari in a day: sunrise, the rock and the glass bridge",
+   "durationDays": 1,
+   "tripTypes": [
+    "spiritual",
+    "beaches"
+   ],
+   "summary": "Sunrise at the tip of India, the ferry to the Vivekananda Rock, the glass bridge to the Thiruvalluvar Statue, the Gandhi Mandapam and sunset.",
+   "seoTitle": "Kanyakumari in a Day: Sunrise, Vivekananda Rock & Glass Bridge",
+   "seoDescription": "A one-day Kanyakumari plan: sunrise, the ferry to the Vivekananda Rock Memorial, the glass bridge to the Thiruvalluvar Statue (8 am–4 pm), Gandhi Mandapam and sunset.",
+   "facts": [
+    "BKK1",
+    "BKK2",
+    "KA2",
+    "KA1",
+    "BKKV1",
+    "BKKV2",
+    "BKK3",
+    "KA4",
+    "BKK4"
+   ],
+   "sources": [],
+   "plan": {
+    "overview": "One full day at the southern tip of mainland India, timed around the ferry and the glass bridge's 8 am–4 pm hours.",
+    "style": "Day at land's end",
+    "start": "Kanyakumari",
+    "end": "Kanyakumari",
+    "season": "November to March.",
+    "difficulty": "Easy",
+    "transport": "Walking and the Poompuhar ferry",
+    "days": [
+     {
+      "title": "Sea, rock and sky",
+      "stops": [
+       {
+        "time": "Sunrise",
+        "name": "Kanyakumari beach",
+        "placeSlug": "kanyakumari-beach",
+        "duration": "1 hour"
+       },
+       {
+        "time": "Morning",
+        "name": "Ferry to the Vivekananda Rock Memorial",
+        "placeSlug": "vivekananda-rock-memorial",
+        "duration": "1.5 hours",
+        "note": "Book the boat online in peak season."
+       },
+       {
+        "time": "Late morning",
+        "name": "Glass bridge and the Thiruvalluvar Statue",
+        "placeSlug": "thiruvalluvar-statue",
+        "duration": "1 hour",
+        "note": "Bridge open 8 am–4 pm."
+       },
+       {
+        "time": "Afternoon",
+        "name": "Gandhi Mandapam",
+        "placeSlug": "gandhi-memorial-kanyakumari",
+        "duration": "45 minutes"
+       },
+       {
+        "time": "Sunset",
+        "name": "Sunset over the sea",
+        "placeSlug": "kanyakumari-beach",
+        "duration": "1 hour",
+        "note": "On full-moon days, watch moonrise too."
+       }
+      ],
+      "travel": "Walk to the jetty; ferry to the rocks.",
+      "meals": "Breakfast after sunrise; seafood or a South Indian meal for lunch.",
+      "overnight": "Kanyakumari"
+     }
+    ],
+    "budget": {
+     "assumptions": "VacayOut has no verified current ferry or bridge fees. Check prices when you book.",
+     "lines": []
+    },
+    "booking": [
+     {
+      "item": "Ferry",
+      "detail": "Book the boat ride online to the Vivekananda Rock, Thiruvalluvar Statue and glass bridge."
+     }
+    ],
+    "alternatives": [
+     "Add Vattakottai Fort or the Mathoor hanging bridge with a second day."
+    ],
+    "tips": [
+     "Arrive at the jetty early: the bridge closes at 4 pm."
+    ],
+    "prep": [
+     {
+      "title": "Getting there",
+      "body": "Thiruvananthapuram airport is 76 km away; Kanyakumari and Nagercoil stations have direct trains to most big cities."
+     }
+    ],
+    "faqs": [
+     {
+      "q": "What are the glass bridge timings?",
+      "a": "8 am to 4 pm, per the district administration."
+     },
+     {
+      "q": "Can I see sunset and moonrise together?",
+      "a": "Yes, on full-moon days."
+     }
+    ]
+   }
+  }
+ ]
+}

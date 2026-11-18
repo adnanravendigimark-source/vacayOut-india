@@ -21,7 +21,7 @@
 @keyframes it-draw { from { transform: scaleY(0); } to { transform: scaleY(1); } }
 @keyframes it-stop { from { opacity: 0; transform: translateY(16px); } to { opacity: 1; transform: none; } }
 
-.it-dot { position: relative; }
+/* .it-dot is absolutely placed by its utilities; the ring below sits on it. */
 .it-dot::after { content: ""; position: absolute; inset: -5px; border-radius: 999px; border: 1px solid rgba(236, 98, 66, .45); opacity: 0; }
 .it-stop:hover .it-dot::after { animation: it-ping 1.2s ease-out infinite; }
 @keyframes it-ping { 0% { opacity: .9; transform: scale(.7); } 100% { opacity: 0; transform: scale(1.5); } }

@@ -1,0 +1,888 @@
+{
+ "cluster": "karnataka2-gokarna",
+ "title": "Gokarna (Batch 4)",
+ "researchedAt": "2026-11-18",
+ "selection": "Batch 4. Gokarna had 6 sections and 202 words. Adds who it's for, practical info, safety, etiquette, tips and common mistakes, a fuller overview (pending review) and enriches gokarna-3-days (moved from karnataka.json). Karnataka Tourism also lists Manohar (Mopa) airport at about 175 km; the existing page uses Dabolim (149 km), which is kept. Facts prefixed B are copied from karnataka.json.",
+ "sources": {
+  "KT_GOK": {
+   "url": "https://karnatakatourism.org/destinations/gokarna/",
+   "title": "Gokarna — Karnataka Tourism",
+   "authority": "government"
+  },
+  "II_GOK": {
+   "url": "https://www.incredibleindia.gov.in/en/karnataka/gokarna",
+   "title": "Gokarna — Incredible India",
+   "authority": "government"
+  },
+  "KT_YAN": {
+   "url": "https://karnatakatourism.org/en/attractions/yana-caves/",
+   "title": "Yana Caves — Karnataka Tourism (Government of Karnataka)",
+   "authority": "government"
+  },
+  "W_MUR": {
+   "url": "https://en.wikipedia.org/wiki/Murudeshwar",
+   "title": "Murudeshwar — Wikipedia",
+   "authority": "reference"
+  }
+ },
+ "facts": {
+  "BGK2": {
+   "place": "karnataka/gokarna",
+   "topic": "Five beaches",
+   "claim": "Its five main beaches are Gokarna Main, Kudle, Om, Half Moon and Paradise.",
+   "claimType": "general",
+   "evidence": [
+    {
+     "source": "KT_GOK",
+     "quote": "its five famous beaches – Gokarna Main, Kudle, Om, Half Moon, and Paradise"
+    }
+   ]
+  },
+  "BGK3": {
+   "place": "karnataka/gokarna",
+   "topic": "Getting there",
+   "claim": "Goa (Dabolim) airport is about 149 km away; Gokarna Road station is 10 km out, with more trains at Ankola and Kumta; overnight buses run from Bengaluru.",
+   "claimType": "distance",
+   "evidence": [
+    {
+     "source": "KT_GOK",
+     "quote": "The nearest airport is Dabolim International Airport (Goa Airport), approximately 149 km from Gokarna."
+    },
+    {
+     "source": "KT_GOK",
+     "quote": "The Gokarna Road Station (GOK) on the Konkan Railway lies about 10 km from town"
+    },
+    {
+     "source": "KT_GOK",
+     "quote": "Multiple KSRTC and private operators run overnight sleeper buses from Bangalore"
+    }
+   ]
+  },
+  "BGK4": {
+   "place": "karnataka/gokarna",
+   "topic": "Best time",
+   "claim": "October to March (20–30°C, calm seas) is best; in the monsoon the beaches close for swimming.",
+   "claimType": "general",
+   "evidence": [
+    {
+     "source": "KT_GOK",
+     "quote": "The best time to visit Gokarna is from October to March."
+    },
+    {
+     "source": "KT_GOK",
+     "quote": "Beaches are closed for swimming and water sports due to rough seas"
+    }
+   ],
+   "kind": "seasonal"
+  },
+  "BGK5": {
+   "place": "karnataka/gokarna",
+   "topic": "Main Beach",
+   "claim": "Main Beach, by the temple, is for sunsets and ritual dips — not swimming, due to strong currents.",
+   "claimType": "general",
+   "evidence": [
+    {
+     "source": "KT_GOK",
+     "quote": "Not ideal for swimming due to strong currents."
+    }
+   ]
+  },
+  "BGKM1": {
+   "place": "karnataka/mahabaleshwar-temple-gokarna",
+   "topic": "Atmalinga",
+   "claim": "The Mahabaleshwar Temple houses Shiva's Atmalinga and is one of Karnataka's seven Mukti Kshetras; Maha Shivaratri is its peak festival.",
+   "claimType": "general",
+   "evidence": [
+    {
+     "source": "KT_GOK",
+     "quote": "Revered as one of the seven Mukti Kshetras of Karnataka, the temple is famous for housing the legendary Lord Shiva Athmalinga."
+    },
+    {
+     "source": "KT_GOK",
+     "quote": "Maha Shivaratri is the peak festival celebrated here, drawing massive pilgrim crowds during February and March."
+    }
+   ],
+   "kind": "seasonal"
+  },
+  "BGKM2": {
+   "place": "karnataka/mahabaleshwar-temple-gokarna",
+   "topic": "Hours and dress",
+   "claim": "Open 6 am–12:30 pm and 5–8 pm, free; men must wear a dhoti (bare-chested) and women a saree or salwar — no jeans or shorts.",
+   "claimType": "opening_hours",
+   "evidence": [
+    {
+     "source": "KT_GOK",
+     "quote": "The Mahabaleshwar Temple in Gokarna is open from 6:00 AM to 12:30 PM and again from 5:00 PM to 8:00 PM, every day of the week. There is no entry fee."
+    },
+    {
+     "source": "KT_GOK",
+     "quote": "Men must wear a Dhoti/Pancha (bare-chested), and women must wear a Saree or Salwar Suit (Churidar). Jeans and shorts are completely prohibited."
+    }
+   ]
+  },
+  "BGKO1": {
+   "place": "karnataka/om-beach",
+   "topic": "Om Beach",
+   "claim": "Om Beach, about 6 km from town, curves into the shape of the 'Om' symbol and is the hub for water sports.",
+   "claimType": "general",
+   "evidence": [
+    {
+     "source": "KT_GOK",
+     "quote": "The most iconic of Gokarna’s beaches, shaped naturally into the sacred ‘Om’ (ॐ) symbol"
+    },
+    {
+     "source": "KT_GOK",
+     "quote": "About 6 km from town, Gokarna Om Beach is the hub for water sports, dolphin-spotting boat rides, and vibrant beach shacks."
+    }
+   ]
+  },
+  "BGKT1": {
+   "place": "karnataka/gokarna-beach-trek",
+   "topic": "Beach trek",
+   "claim": "The Kudle–Om–Half Moon–Paradise trek is a 2–4 hour coastal hike over headlands; wear sturdy shoes and carry water.",
+   "claimType": "general",
+   "evidence": [
+    {
+     "source": "KT_GOK",
+     "quote": "is an iconic 2–4 hour coastal hike over rocky headlands and through cashew groves."
+    },
+    {
+     "source": "KT_GOK",
+     "quote": "Wear sturdy footwear and carry sufficient water."
+    }
+   ]
+  },
+  "BGKY1": {
+   "place": "karnataka/yana-caves",
+   "topic": "Yana",
+   "claim": "Yana, about 52 km from Gokarna, has two towering black rock monoliths with a cave shrine to Shiva; the GSI declared it a Geoheritage Site in April 2026.",
+   "claimType": "general",
+   "evidence": [
+    {
+     "source": "KT_GOK",
+     "quote": "About 52 km east of Gokarna, the Yana Caves are a geological wonder set deep in the Western Ghats"
+    },
+    {
+     "source": "KT_YAN",
+     "quote": "Recognising its geological importance, the Geological Survey of India declared Yana a Geoheritage Site of National Importance on 17 April 2026"
+    }
+   ]
+  },
+  "BGKF1": {
+   "place": "karnataka/mirjan-fort",
+   "topic": "Mirjan Fort",
+   "claim": "Mirjan Fort, about 22 km from Gokarna, is a 16th-century laterite fort linked to the 'Pepper Queen' Chennabhairadevi; entry is free.",
+   "claimType": "general",
+   "evidence": [
+    {
+     "source": "KT_GOK",
+     "quote": "Located approximately 21–22 km north of Gokarna on NH 66, Mirjan Fort is a 16th-century laterite fortress"
+    },
+    {
+     "source": "KT_GOK",
+     "quote": "the legendary ‘ Pepper Queen ‘ of the Konkan coast"
+    },
+    {
+     "source": "KT_GOK",
+     "quote": "Entry is free."
+    }
+   ]
+  },
+  "BGKD1": {
+   "place": "karnataka/murudeshwar",
+   "topic": "Murudeshwar",
+   "claim": "Murudeshwar has a 123-ft Shiva statue and a 20-storey Raja Gopura on a headland above the sea.",
+   "claimType": "general",
+   "evidence": [
+    {
+     "source": "W_MUR",
+     "quote": "The statue is 123 feet (37 m) in height and took about two years to build."
+    },
+    {
+     "source": "W_MUR",
+     "quote": "A 20-storied Raja Gopura was constructed at the temple in 2008."
+    }
+   ]
+  },
+  "BGKK1": {
+   "place": "karnataka/kudle-beach",
+   "topic": "Kudle Beach",
+   "claim": "Kudle is the largest beach, a 10-minute walk south of town, known for sunsets and cafes.",
+   "claimType": "general",
+   "evidence": [
+    {
+     "source": "KT_GOK",
+     "quote": "The largest of Gokarna’s beaches and a favourite with backpackers and yoga seekers."
+    },
+    {
+     "source": "KT_GOK",
+     "quote": "About a 10-minute walk south of town."
+    }
+   ]
+  },
+  "BGKT2": {
+   "place": "karnataka/gokarna-beach-trek",
+   "topic": "Paradise Beach",
+   "claim": "Paradise Beach, the most remote, is reached on foot or by boat from Om Beach and is popular for camping.",
+   "claimType": "general",
+   "evidence": [
+    {
+     "source": "KT_GOK",
+     "quote": "The most remote and untouched of Gokarna’s beaches, reachable by trekking past Half Moon Beach or by hiring a boat from Om Beach."
+    }
+   ]
+  },
+  "GN1": {
+   "place": "karnataka/gokarna",
+   "topic": "Atmalinga legend",
+   "claim": "The Mahabaleshwar Temple, believed to date to the 4th century, houses Shiva's Atmalinga, which legend says Ganesha tricked Ravana into setting down here; it is one of Karnataka's seven Mukti Kshetras.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "KT_GOK",
+     "quote": "believed to date back to the 4th century and later expanded by the Vijayanagara rulers and Keladi Nayakas."
+    },
+    {
+     "source": "KT_GOK",
+     "quote": "Revered as one of the seven Mukti Kshetras of Karnataka"
+    }
+   ]
+  },
+  "GN2": {
+   "place": "karnataka/gokarna",
+   "topic": "Temple dress code",
+   "claim": "At the Mahabaleshwar Temple women wear a sari or salwar suit; jeans and shorts are prohibited. Entry is free; donations are accepted.",
+   "claimType": "rule",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "KT_GOK",
+     "quote": "wear a Saree or Salwar Suit (Churidar). Jeans and shorts are completely prohibited."
+    },
+    {
+     "source": "KT_GOK",
+     "quote": "Free (no entry fee for Mahabaleshwar Temple; donations accepted)"
+    }
+   ]
+  },
+  "GN3": {
+   "place": "karnataka/gokarna",
+   "topic": "Pilgrim order",
+   "claim": "Pilgrims start at the Maha Ganapati Temple and bathe in Kotiteertha tank or at Main Beach before darshan.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "KT_GOK",
+     "quote": "this shrine dedicated to Lord Ganesha is traditionally the first stop for pilgrims visiting Gokarna."
+    },
+    {
+     "source": "KT_GOK",
+     "quote": "Hindus believe that bathing in its waters before temple darshan cleanses accumulated sins."
+    },
+    {
+     "source": "KT_GOK",
+     "quote": "Pilgrims traditionally take a ritual dip here before temple darshan."
+    }
+   ]
+  },
+  "GN4": {
+   "place": "karnataka/gokarna",
+   "topic": "Beaches",
+   "claim": "Kudle is a 10-minute walk south of town; Om Beach is about 6 km away and its curve gives calmer water; Half Moon and Paradise are reached only on foot or by boat.",
+   "claimType": "distance",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "KT_GOK",
+     "quote": "About a 10-minute walk south of town."
+    },
+    {
+     "source": "KT_GOK",
+     "quote": "About 6 km from town, Gokarna"
+    },
+    {
+     "source": "KT_GOK",
+     "quote": "The semi-enclosed pool formed by the Om’s curve offers calmer waters, even for non-swimmers."
+    },
+    {
+     "source": "KT_GOK",
+     "quote": "Accessible only via a cliffside trek from Om Beach or by boat"
+    }
+   ]
+  },
+  "GN5": {
+   "place": "karnataka/gokarna",
+   "topic": "Beach trek",
+   "claim": "The Kudle–Om–Half Moon–Paradise trek takes 2–4 hours over headlands and cashew groves; wear sturdy shoes and carry water.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "KT_GOK",
+     "quote": "is an iconic 2–4 hour coastal hike over rocky headlands and through cashew groves."
+    },
+    {
+     "source": "KT_GOK",
+     "quote": "Wear sturdy footwear and carry sufficient water."
+    }
+   ]
+  },
+  "GN6": {
+   "place": "karnataka/gokarna",
+   "topic": "Water sports",
+   "claim": "Om Beach is the water-sports hub: kayaking, speedboats, banana boats, parasailing and dolphin-spotting rides, best October–March when the sea is calm.",
+   "claimType": "general",
+   "kind": "seasonal",
+   "evidence": [
+    {
+     "source": "KT_GOK",
+     "quote": "is the hub for water sports, dolphin-spotting boat rides, and vibrant beach shacks."
+    },
+    {
+     "source": "KT_GOK",
+     "quote": "especially between October and March when the seas are calm."
+    }
+   ]
+  },
+  "GN7": {
+   "place": "karnataka/gokarna",
+   "topic": "Netrani diving",
+   "claim": "Scuba trips go to Netrani (Pigeon) Island, a Navy-restricted island where landing is prohibited; dives are from the boat, best October–May. Karnataka Tourism quotes beginner dives from about ₹3,500–4,500.",
+   "claimType": "general",
+   "kind": "estimate",
+   "evidence": [
+    {
+     "source": "KT_GOK",
+     "quote": "It is vital to note that Netrani is a restricted Navy area; landing on the island is strictly prohibited."
+    },
+    {
+     "source": "KT_GOK",
+     "quote": "Best diving season: October to May."
+    },
+    {
+     "source": "KT_GOK",
+     "quote": "Scuba Diving for beginners at Netrani starts around ₹3,500–₹4,500."
+    }
+   ]
+  },
+  "GN8": {
+   "place": "karnataka/gokarna",
+   "topic": "Seasons",
+   "claim": "October–March is 20–30 °C with calm seas; April–May reaches 35–38 °C; in the monsoon beaches close for swimming and the trek gets slippery.",
+   "claimType": "general",
+   "kind": "seasonal",
+   "evidence": [
+    {
+     "source": "KT_GOK",
+     "quote": "Temperatures hover between 20°C and 30°C, skies are clear"
+    },
+    {
+     "source": "KT_GOK",
+     "quote": "Temperatures can climb to 35–38°C with high humidity"
+    },
+    {
+     "source": "KT_GOK",
+     "quote": "Beaches are closed for swimming and water sports due to rough seas; beach treks become slippery and risky."
+    }
+   ]
+  },
+  "GN9": {
+   "place": "karnataka/gokarna",
+   "topic": "Maha Shivaratri",
+   "claim": "Maha Shivaratri (February/March) draws the year's largest crowds, with a chariot procession along Car Street; book well ahead.",
+   "claimType": "schedule",
+   "kind": "seasonal",
+   "evidence": [
+    {
+     "source": "KT_GOK",
+     "quote": "The Maha Shivaratri festival, which falls in February/March, draws the year’s largest pilgrimage crowds."
+    },
+    {
+     "source": "II_GOK",
+     "quote": "should book accommodations well in advance, as the town fills up quickly during the festival season."
+    }
+   ]
+  },
+  "GN10": {
+   "place": "karnataka/gokarna",
+   "topic": "Buses",
+   "claim": "Overnight buses run from Bengaluru (485 km, 9–12 hours), Mangaluru (238 km), Hubballi (140 km) and Goa (145 km, about 3 hours).",
+   "claimType": "distance",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "KT_GOK",
+     "quote": "Multiple KSRTC and private operators run overnight sleeper buses from Bangalore (485 km, 9–12 hrs), Mangalore (238 km, ~5 hrs), Hubli (140 km), and Goa (145 km, ~3 hrs)."
+    }
+   ]
+  },
+  "GN11": {
+   "place": "karnataka/gokarna",
+   "topic": "Trains",
+   "claim": "Gokarna Road station is 10 km from town; Ankola (20 km) and Kumta (31 km) have more trains.",
+   "claimType": "distance",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "KT_GOK",
+     "quote": "lies about 10 km from town; autos and taxis connect from there."
+    }
+   ]
+  },
+  "GN12": {
+   "place": "karnataka/gokarna",
+   "topic": "Plastic-free",
+   "claim": "Gokarna is plastic-free; carry eco-friendly bags.",
+   "claimType": "rule",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "KT_GOK",
+     "quote": "is plastic-free and has been recognized for its cleanliness; visitors should carry eco-friendly bags."
+    }
+   ]
+  },
+  "GN13": {
+   "place": "karnataka/gokarna",
+   "topic": "Yoga and surf",
+   "claim": "Om and Kudle have yoga centres and surf schools for beginners.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "KT_GOK",
+     "quote": "Om Beach and Kudle Beach have a growing community of yoga centres and surf schools."
+    }
+   ]
+  },
+  "GN14": {
+   "place": "karnataka/gokarna",
+   "topic": "Shiva cave",
+   "claim": "The Shiva Cave (Govina Kivi) near Kudle Beach has a natural lingam.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "KT_GOK",
+     "quote": "Near Kudle Beach, the Shiva Cave, locally known as"
+    }
+   ]
+  },
+  "GN15": {
+   "place": "karnataka/gokarna",
+   "topic": "Monsoon falls",
+   "claim": "In and after the monsoon, Vibhuti Falls (about 50 km) and Yana's forest walks are at their best; Jog Falls is about 140 km away.",
+   "claimType": "general",
+   "kind": "seasonal",
+   "evidence": [
+    {
+     "source": "KT_GOK",
+     "quote": "Vibhuti Falls, about 50 km from Gokarna near Sirsi, is one of the most visited"
+    },
+    {
+     "source": "KT_GOK",
+     "quote": "approx. 140 km from Gokarna"
+    }
+   ]
+  },
+  "GN16": {
+   "place": "karnataka/gokarna",
+   "topic": "Mirjan distance",
+   "claim": "Mirjan Fort, a 16th-century laterite fort, is about 21–22 km north on NH 66; entry is free.",
+   "claimType": "distance",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "KT_GOK",
+     "quote": "Located approximately 21–22 km north of Gokarna on NH 66,"
+    },
+    {
+     "source": "KT_GOK",
+     "quote": "It is a haunting, beautiful ruin perfect for history enthusiasts and photographers. Entry is free."
+    }
+   ]
+  },
+  "GN17": {
+   "place": "karnataka/gokarna",
+   "topic": "Karwar",
+   "claim": "Karwar, 60 km north, has a beach, Sadashivgad Fort and a warship museum.",
+   "claimType": "distance",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "II_GOK",
+     "quote": "a seaside town 60 km (37 miles) to the north."
+    },
+    {
+     "source": "KT_GOK",
+     "quote": "the Sadashivgad Fort (overlooking the Kali River estuary), and the INS Chapal Warship Museum."
+    }
+   ]
+  }
+ },
+ "places": [
+  {
+   "key": "karnataka/gokarna",
+   "kind": "town",
+   "name": "Gokarna",
+   "parent": "karnataka",
+   "summary": "A temple town with quiet beaches: the Mahabaleshwar Temple, Om Beach and a cliff-top beach trek.",
+   "seoTitle": "Gokarna Travel Guide: Beaches, Temple & Trek",
+   "seoDescription": "Plan Gokarna: Mahabaleshwar Temple, Om and Kudle beaches, the beach trek, Yana, Mirjan Fort, Murudeshwar, Jog Falls and the best time to go.",
+   "lat": 14.55,
+   "lng": 74.3167,
+   "tripTypes": [
+    "beaches",
+    "spiritual",
+    "adventure"
+   ],
+   "images": [
+    {
+     "commons": "File:Gokarna picture near Om Beach.jpg",
+     "alt": "The coastline near Om Beach, Gokarna",
+     "hero": true
+    }
+   ],
+   "sections": {
+    "overview": {
+     "text": "Gokarna, on the Konkan coast of Uttara Kannada, is both a pilgrim town and a beach escape, slower and quieter than Goa to the north. The Mahabaleshwar Temple, believed to date to the 4th century, holds the Atmalinga of Shiva that legend says Ganesha tricked Ravana into setting down here. It is one of Karnataka's seven Mukti Kshetras, and pilgrims first visit the Maha Ganapati Temple and bathe in Kotiteertha or the sea.\n\nSouth of town, five beaches are linked by a 2–4 hour cliff-top trek: Gokarna Main, palm-fringed Kudle, Om Beach with its water sports, and Half Moon and Paradise, reached only on foot or by boat. Yoga, surfing and diving trips to Netrani Island fill longer stays, and Mirjan Fort, the Yana rocks and Murudeshwar make good day trips. Come October–March, when the seas are calm.",
+     "facts": [
+      "GN1",
+      "GN3",
+      "BGK2",
+      "GN5",
+      "GN4",
+      "GN6",
+      "GN13",
+      "GN7",
+      "GN16",
+      "BGKY1",
+      "BGKD1",
+      "GN8"
+     ]
+    },
+    "who_its_for": {
+     "items": [
+      {
+       "title": "Pilgrims",
+       "body": "The Atmalinga at the Mahabaleshwar Temple, Maha Ganapati and Kotiteertha."
+      },
+      {
+       "title": "Beach lovers",
+       "body": "Kudle's cafes, Om's calmer water and remote Paradise Beach."
+      },
+      {
+       "title": "Trekkers",
+       "body": "The 2–4 hour coastal trek, and Yana's forest walk."
+      },
+      {
+       "title": "Adventure seekers",
+       "body": "Kayaking, parasailing and diving at Netrani Island."
+      },
+      {
+       "title": "Festival-goers",
+       "body": "Maha Shivaratri in February/March, the year's biggest pilgrimage."
+      }
+     ],
+     "facts": [
+      "GN1",
+      "GN3",
+      "GN4",
+      "GN5",
+      "BGKY1",
+      "GN6",
+      "GN7",
+      "GN9"
+     ]
+    },
+    "practical_info": {
+     "items": [
+      {
+       "title": "Getting there",
+       "body": "Goa (Dabolim) airport is about 149 km away. Gokarna Road station is 10 km from town; Ankola (20 km) and Kumta (31 km) have more trains. Overnight buses run from Bengaluru (485 km, 9–12 hours), Mangaluru and Goa (about 3 hours).",
+       "status": "verified"
+      },
+      {
+       "title": "Temple",
+       "body": "Entry is free. Women wear a sari or salwar suit; jeans and shorts are prohibited.",
+       "status": "verified"
+      },
+      {
+       "title": "Plastic-free",
+       "body": "Gokarna is plastic-free: bring cloth bags.",
+       "status": "verified"
+      },
+      {
+       "title": "Diving",
+       "body": "Netrani dives are from the boat only (landing is prohibited), October–May; Karnataka Tourism quotes about ₹3,500–4,500 for beginners. Check current prices with operators.",
+       "status": "estimate"
+      }
+     ],
+     "facts": [
+      "BGK3",
+      "GN11",
+      "GN10",
+      "GN2",
+      "GN12",
+      "GN7"
+     ]
+    },
+    "safety_health": {
+     "items": [
+      {
+       "title": "Strong currents",
+       "body": "Gokarna Main Beach is not for swimming. Om Beach's curve gives calmer water.",
+       "status": "verified"
+      },
+      {
+       "title": "Monsoon",
+       "body": "In the monsoon, beaches close for swimming and water sports, and the beach trek becomes slippery and risky.",
+       "status": "seasonal"
+      },
+      {
+       "title": "Heat",
+       "body": "April–May reaches 35–38 °C with high humidity; trek early.",
+       "status": "seasonal"
+      }
+     ],
+     "facts": [
+      "BGK5",
+      "GN4",
+      "GN8"
+     ]
+    },
+    "culture_etiquette": {
+     "items": [
+      {
+       "body": "Follow the temple dress code: no jeans or shorts."
+      },
+      {
+       "body": "Visit the Maha Ganapati Temple before the Mahabaleshwar Temple, as pilgrims do."
+      },
+      {
+       "body": "Keep beachwear to the beaches; Gokarna is a working pilgrim town."
+      }
+     ],
+     "facts": [
+      "GN2",
+      "GN3"
+     ]
+    },
+    "common_mistakes": {
+     "items": [
+      {
+       "body": "Swimming at Main Beach. The currents are strong."
+      },
+      {
+       "body": "Trekking in flip-flops or without water."
+      },
+      {
+       "body": "Arriving at Maha Shivaratri or New Year without a room."
+      },
+      {
+       "body": "Trying to land on Netrani Island. It's a Navy area; dives are from the boat."
+      }
+     ],
+     "facts": [
+      "BGK5",
+      "GN5",
+      "GN9",
+      "GN7"
+     ]
+    },
+    "things_to_do": {
+     "items": [
+      {
+       "body": "See the Shiva Cave (Govina Kivi) near Kudle Beach, with its natural lingam."
+      },
+      {
+       "body": "In or just after the monsoon, visit Vibhuti Falls (about 50 km) or Jog Falls (about 140 km)."
+      },
+      {
+       "body": "Karwar, 60 km north, makes a quiet half-day trip with its fort and warship museum."
+      },
+      {
+       "body": "Try sunrise kayaking at Om Beach."
+      }
+     ],
+     "facts": [
+      "GN14",
+      "GN15",
+      "GN17",
+      "GN6"
+     ]
+    }
+   }
+  }
+ ],
+ "itineraries": [
+  {
+   "place": "karnataka/gokarna",
+   "slug": "gokarna-3-days-temple-beaches-and-day-trips",
+   "title": "Gokarna in 3 days: temple, beaches and day trips",
+   "durationDays": 3,
+   "tripTypes": [
+    "beaches",
+    "spiritual",
+    "adventure"
+   ],
+   "summary": "The Mahabaleshwar Temple and Main Beach, the beach trek to Paradise, then Mirjan Fort and Murudeshwar.",
+   "seoTitle": "Gokarna 3-Day Itinerary: Temple, Beach Trek & More",
+   "seoDescription": "Three days in Gokarna: Mahabaleshwar Temple, Kudle and Om beaches, the trek to Paradise Beach, Mirjan Fort and Murudeshwar.",
+   "facts": [
+    "BGKM1",
+    "BGKM2",
+    "BGK5",
+    "BGKK1",
+    "BGKO1",
+    "BGKT1",
+    "BGKT2",
+    "BGKF1",
+    "BGKD1",
+    "BGK3",
+    "BGK4",
+    "GN2",
+    "GN3",
+    "GN4",
+    "GN5",
+    "GN8",
+    "GN10",
+    "GN11",
+    "GN12",
+    "GN16",
+    "GN7"
+   ],
+   "sources": [],
+   "plan": {
+    "overview": "Temple first, beaches second, day trip third — a classic Gokarna pattern.",
+    "start": "Gokarna (Goa airport about 149 km)",
+    "end": "Gokarna",
+    "transport": "Walk and boats between beaches; a taxi for day trips.",
+    "season": "October to March, when seas are calm; monsoon closes the beaches for swimming.",
+    "days": [
+     {
+      "title": "Day 1: Temple and town",
+      "summary": "Early darshan at the Mahabaleshwar Temple (from 6 am), then Kudle Beach; sunset on Main Beach.",
+      "stops": [
+       {
+        "time": "5:30 am",
+        "name": "Maha Ganapati Temple and Kotiteertha",
+        "duration": "45 minutes",
+        "note": "Pilgrims start here."
+       },
+       {
+        "name": "Mahabaleshwar Temple",
+        "time": "6:00 am",
+        "placeSlug": "karnataka/mahabaleshwar-temple-gokarna",
+        "duration": "1.5 hours"
+       },
+       {
+        "name": "Kudle Beach",
+        "time": "Afternoon",
+        "placeSlug": "karnataka/kudle-beach",
+        "duration": "3 hours"
+       }
+      ],
+      "overnight": "Gokarna",
+      "travel": "Overnight bus from Bengaluru, or train to Gokarna Road, Ankola or Kumta.",
+      "meals": "Breakfast in the town bazaar; dinner at a Kudle cafe.",
+      "distance": "Kudle Beach is a 10-minute walk south of town"
+     },
+     {
+      "title": "Day 2: Beach trek",
+      "summary": "Om Beach in the morning, then trek over the headlands to Half Moon and Paradise; return by boat.",
+      "stops": [
+       {
+        "name": "Om Beach",
+        "time": "Morning",
+        "placeSlug": "karnataka/om-beach",
+        "duration": "2 hours"
+       },
+       {
+        "name": "Beach trek to Paradise",
+        "time": "Late morning",
+        "placeSlug": "karnataka/gokarna-beach-trek",
+        "duration": "2–4 hours",
+        "note": "Sturdy shoes and water; return by boat if tired."
+       }
+      ],
+      "overnight": "Gokarna",
+      "meals": "Carry water and snacks; lunch at an Om Beach shack.",
+      "distance": "Om Beach about 6 km from town"
+     },
+     {
+      "title": "Day 3: Mirjan Fort and Murudeshwar",
+      "summary": "Mirjan Fort in the morning, then Murudeshwar's Shiva statue and gopura.",
+      "stops": [
+       {
+        "name": "Mirjan Fort",
+        "time": "9:00 am",
+        "placeSlug": "karnataka/mirjan-fort",
+        "duration": "1.5 hours"
+       },
+       {
+        "name": "Murudeshwar",
+        "time": "Afternoon",
+        "placeSlug": "karnataka/murudeshwar",
+        "duration": "3 hours"
+       }
+      ],
+      "overnight": "Gokarna",
+      "meals": "Lunch in Murudeshwar.",
+      "distance": "Mirjan Fort about 21–22 km north on NH 66"
+     }
+    ],
+    "budget": {
+     "assumptions": "VacayOut lists only fees it could check with an official source; hotels, transport and meals are not estimated. Check current prices before you book.",
+     "lines": []
+    },
+    "booking": [
+     {
+      "item": "Rooms",
+      "detail": "October to March books out fast — reserve ahead."
+     }
+    ],
+    "alternatives": [
+     "Swap day three for the Yana rocks.",
+     "Add a Netrani dive from Murudeshwar (October to May)."
+    ],
+    "tips": [
+     "Follow the temple dress code.",
+     "Don't swim at Main Beach — strong currents."
+    ],
+    "style": "Temple, beaches and coast",
+    "difficulty": "Moderate: the beach trek is 2–4 hours",
+    "prep": [
+     {
+      "title": "Getting there",
+      "body": "Goa (Dabolim) airport is about 149 km; Gokarna Road station 10 km, Ankola 20 km, Kumta 31 km; overnight buses from Bengaluru take 9–12 hours."
+     },
+     {
+      "title": "Temple dress",
+      "body": "No jeans or shorts; women in a sari or salwar suit."
+     },
+     {
+      "title": "Plastic-free",
+      "body": "Carry a cloth bag and a refillable bottle."
+     }
+    ],
+    "faqs": [
+     {
+      "q": "How long is the beach trek?",
+      "a": "About 2–4 hours from Kudle to Paradise."
+     },
+     {
+      "q": "Can I swim at Main Beach?",
+      "a": "No: currents are strong. Om Beach has calmer water."
+     },
+     {
+      "q": "Can I land on Netrani Island?",
+      "a": "No. It is a Navy-restricted island; dives are from the boat."
+     }
+    ]
+   }
+  }
+ ]
+}

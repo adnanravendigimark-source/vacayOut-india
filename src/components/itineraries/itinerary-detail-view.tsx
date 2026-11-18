@@ -422,7 +422,7 @@ export function ItineraryDetailView({ itinerary, stopLinks = {}, photos = [], ph
       ) : null}
 
       {/* 4. Day by day */}
-      <section aria-label="Day-by-day plan" className="border-t border-[#EFECE6] bg-[#FCFBF8]">
+      <section aria-label="Day-by-day plan" className="border-t border-[#EFECE6] bg-white">
         <div className="container-site max-w-6xl pt-14 sm:pt-16">
           <SectionHead eyebrow="Day-by-day itinerary" title={`The ${itinerary.durationDays}-day plan`} intro="Times are a guide. Keep the hottest hours light and check opening times on the day." />
         </div>
@@ -603,7 +603,7 @@ export function ItineraryDetailView({ itinerary, stopLinks = {}, photos = [], ph
       {/* 7. Budget */}
       <section id="budget" className="scroll-mt-32 border-t border-[#EFECE6] py-14">
         <div className="container-site max-w-6xl">
-          <div className="it-reveal grid gap-8 lg:grid-cols-[1fr_1.2fr] lg:items-start">
+          <div className={`it-reveal grid gap-8 lg:items-start ${plan.budget.lines.length ? "lg:grid-cols-[1fr_1.2fr]" : ""}`}>
             <div>
               <SectionHead eyebrow="Costs" title="Budget" intro={plan.budget.assumptions} />
               <Link href={routes.chatWithPrompt(`Estimate a budget for ${itinerary.title} for my group and travel style`)} className="no-print group mt-6 inline-flex items-center gap-2 rounded-full bg-ink px-4 py-2.5 text-sm font-semibold text-white transition hover:bg-black">
@@ -623,12 +623,7 @@ export function ItineraryDetailView({ itinerary, stopLinks = {}, photos = [], ph
                   </li>
                 ))}
               </ul>
-            ) : (
-              <div className="flex gap-4 rounded-[1.25rem] border border-dashed border-[#E3DED6] bg-[#FBF8F3] p-5">
-                <span className="grid size-10 shrink-0 place-items-center rounded-full bg-white text-coral"><Icon name="coins" size={18} /></span>
-                <p className="text-sm leading-relaxed text-[#555]"><strong className="block text-ink">No price list yet</strong>We only show prices we have checked. Ask the AI planner for an estimate based on your dates and style, and confirm fees at each site.</p>
-              </div>
-            )}
+            ) : null}
           </div>
         </div>
       </section>
@@ -696,7 +691,8 @@ export function ItineraryDetailView({ itinerary, stopLinks = {}, photos = [], ph
             ]}
             cta={{ label: "Customize with AI", prompt: `Customize this ${itinerary.title} itinerary for my trip dates, budget and group` }}
             question={`Can you fit ${itinerary.title} to my dates?`}
-            answer="Yes. Tell me when you travel and who is coming, and I'll adjust each day."
+            answer={relatedItineraries.length ? "Yes. Tell me when you travel and who is coming. These routes nearby could fit too:" : "Yes. Tell me when you travel and who is coming, and I'll adjust each day."}
+            picks={relatedItineraries.slice(0, 3).map((r) => ({ href: `/itineraries/${r.slug}`, name: r.title, meta: `${r.durationDays} ${r.durationDays === 1 ? "day" : "days"}`, image: r.heroUrl ? { url: r.heroUrl, alt: "", kind: "photo" as const, attribution: null, license: "" } : null }))}
             onAsk={(p) => router.push(routes.chatWithPrompt(p))}
           />
         </div>
