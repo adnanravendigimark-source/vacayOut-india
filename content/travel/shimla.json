@@ -23,6 +23,16 @@
       "url": "https://en.wikipedia.org/wiki/Kalka%E2%80%93Shimla_railway",
       "title": "Kalka–Shimla railway — Wikipedia",
       "authority": "reference"
+    },
+    "HPSH_KUF": {
+      "url": "https://hpshimla.nic.in/tourist-place/kufri-shimla/",
+      "title": "Kufri — District Shimla",
+      "authority": "government"
+    },
+    "HPT_TIPS": {
+      "url": "https://himachaltourism.gov.in/travel-safety-tips/",
+      "title": "Travel Safety Tips — Himachal Tourism",
+      "authority": "government"
     }
   },
   "facts": {
@@ -732,6 +742,122 @@
           "quote": "Lunch break timings will be either from 1 to 1:30 or 1:30 to 2 PM."
         }
       ]
+    },
+    "H1S1": {
+      "place": "himachal-pradesh",
+      "topic": "H1S1",
+      "claim": "Dial 100 for police and 108 for an ambulance.",
+      "claimType": "contact",
+      "evidence": [
+        {
+          "source": "HPT_TIPS",
+          "quote": "Police Station: 100 Ambulance: 108"
+        }
+      ]
+    },
+    "H3F2": {
+      "place": "himachal-pradesh/kufri",
+      "topic": "H3F2",
+      "claim": "Take a cab from Shimla's old bus stand or ISBT, or an HRTC bus from Lakkar Bazar, 1.5 km from the old bus stand.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "HPSH_KUF",
+          "quote": "You may take a cab from old bus stand or ISBT, Shimla or you can take Himachal Transport’s bus from Lakkar Bazar bus stand which is frequent. Lakkar bazar bus stand is around 1.5 km from Old bus stand."
+        }
+      ]
+    },
+    "H1S2": {
+      "place": "himachal-pradesh",
+      "topic": "H1S2",
+      "claim": "Monsoon (July–August) brings slippery roads, landslides and rock-falls.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "HPT_TIPS",
+          "quote": "During the monsoon season (July-August), be careful while driving on the road because of slippery conditions and land-slides/ rock-falls."
+        }
+      ]
+    },
+    "H3F5": {
+      "place": "himachal-pradesh/kufri",
+      "topic": "H3F5",
+      "claim": "The name comes from kufr, 'lake' in the local language.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "HPSH_KUF",
+          "quote": "The name Kufri is derived from the word kufr meaning “lake” in the local language."
+        }
+      ]
+    },
+    "H3F3": {
+      "place": "himachal-pradesh/kufri",
+      "topic": "H3F3",
+      "claim": "Kufri is a starting point for treks to Fagu, Shimla, Manali and Rewalsar; with Chail and Shimla it forms Himachal's Golden Triangle.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "HPSH_KUF",
+          "quote": "It is the starting point of treks to Fagu, Shimla, Manali and Rewalsar."
+        },
+        {
+          "source": "HPSH_KUF",
+          "quote": "Kufri, along with Chail and Shimla forms the famous Golden Triangle of Himachal Pradesh."
+        }
+      ]
+    },
+    "H1S3": {
+      "place": "himachal-pradesh",
+      "topic": "H1S3",
+      "claim": "Don't stand on cliff edges or riverside boulders; river currents are strong and deceptive.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "HPT_TIPS",
+          "quote": "Do not stand at the edge of a cliff or on any bolder near a river bank for photographs etc. The water current in rivers of Himachal Pradesh is very strong and highly deceptive."
+        }
+      ]
+    },
+    "H3F1": {
+      "place": "himachal-pradesh/kufri",
+      "topic": "H3F1",
+      "claim": "A winter sports festival is held at Kufri every February.",
+      "claimType": "schedule",
+      "evidence": [
+        {
+          "source": "HPSH_KUF",
+          "quote": "Yearly winter sports festival is held here in February"
+        }
+      ]
+    },
+    "H1S7": {
+      "place": "himachal-pradesh",
+      "topic": "H1S7",
+      "claim": "Avoid night driving in the hills.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "HPT_TIPS",
+          "quote": "Avoid night driving in the hills."
+        }
+      ]
+    },
+    "H3F4": {
+      "place": "himachal-pradesh/kufri",
+      "topic": "H3F4",
+      "claim": "Kufri Fun World has rides for children and a canteen.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "HPSH_KUF",
+          "quote": "It is an amusement park having a number of enjoyable rides for the kids."
+        },
+        {
+          "source": "HPSH_KUF",
+          "quote": "A canteen is situated within a park to provide snacks for the tourists."
+        }
+      ]
     }
   },
   "places": [
@@ -1318,6 +1444,137 @@
             "SM19",
             "SM20",
             "SM21"
+          ]
+        },
+        "key_facts": {
+          "items": [
+            {
+              "title": "From Shimla",
+              "body": "16–19 km",
+              "status": "verified"
+            },
+            {
+              "title": "Known for",
+              "body": "Himalayan Nature Park, Fun World and winter snow",
+              "status": "verified"
+            },
+            {
+              "title": "Winter sports festival",
+              "body": "Every February",
+              "status": "seasonal"
+            }
+          ],
+          "facts": [
+            "SM19",
+            "SM20",
+            "SM21",
+            "H3F1"
+          ]
+        },
+        "best_time": {
+          "text": "Kufri works year-round as a half-day trip from Shimla. Come in winter for snow and skiing — the winter sports festival is held every February — but check the road first, as heavy snow can close it.",
+          "facts": [
+            "SM21",
+            "H3F1",
+            "SM19"
+          ]
+        },
+        "local_transport": {
+          "text": "From Shimla, take a taxi from the old bus stand or the ISBT, or a frequent HRTC bus from Lakkar Bazar bus stand, about 1.5 km from the old bus stand. Buses towards Fagu and Narkanda also pass through.",
+          "facts": [
+            "H3F2",
+            "SM19"
+          ]
+        },
+        "who_its_for": {
+          "items": [
+            {
+              "title": "Families",
+              "body": "Fun World's rides for children and the Himalayan Nature Park's animals."
+            },
+            {
+              "title": "Snow seekers",
+              "body": "Shimla's ski area, with a winter sports festival in February."
+            },
+            {
+              "title": "Walkers",
+              "body": "A starting point for treks to Fagu and beyond."
+            }
+          ],
+          "facts": [
+            "H3F4",
+            "SM19",
+            "SM21",
+            "H3F1",
+            "H3F3"
+          ]
+        },
+        "food": {
+          "items": [
+            {
+              "body": "Snacks at the canteen inside Kufri Fun World; Shimla, 16–19 km away, for proper meals."
+            }
+          ],
+          "facts": [
+            "H3F4",
+            "SM19"
+          ]
+        },
+        "faqs": {
+          "items": [
+            {
+              "title": "How do I get to Kufri from Shimla?",
+              "body": "Taxi from the old bus stand or ISBT, or an HRTC bus from Lakkar Bazar."
+            },
+            {
+              "title": "When can I see snow?",
+              "body": "In winter; the winter sports festival is held every February."
+            },
+            {
+              "title": "What does Kufri mean?",
+              "body": "It comes from kufr, 'lake' in the local language."
+            },
+            {
+              "title": "Is Kufri good with children?",
+              "body": "Yes — Fun World has rides for children and the Nature Park has Himalayan animals."
+            }
+          ],
+          "facts": [
+            "H3F2",
+            "H3F1",
+            "H3F5",
+            "H3F4",
+            "SM19"
+          ]
+        },
+        "safety_health": {
+          "items": [
+            {
+              "title": "Snow",
+              "body": "Heavy snow can close the road from Shimla; check before setting out in winter.",
+              "status": "seasonal"
+            },
+            {
+              "title": "Emergency numbers",
+              "body": "100 for police, 108 for the free ambulance.",
+              "status": "verified"
+            },
+            {
+              "title": "Hill roads",
+              "body": "Avoid night driving; July–August brings landslides and slippery roads.",
+              "status": "seasonal"
+            },
+            {
+              "title": "Rivers and cliffs",
+              "body": "Don't stand on cliff edges or riverside boulders for photos.",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "H1S1",
+            "H1S7",
+            "H1S2",
+            "H1S3"
           ]
         }
       }

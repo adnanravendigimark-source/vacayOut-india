@@ -52,6 +52,9 @@ export async function POST(req: Request) {
   }
   if (!parsed.success) return json(400, { error: "Invalid conversation" });
 
+  // The monthly budget check doesn't depend on who is asking: start it now, use it later.
+  const budgetP = chatBudget();
+  budgetP.catch(() => {});
   const visitor = await resolveVisitor(req, await auth());
   const cookieHeader: Record<string, string> = visitor.newCookie ? { "set-cookie": anonCookie(visitor.newCookie) } : {};
 
@@ -95,7 +98,7 @@ export async function POST(req: Request) {
           await notice("The AI planner isn’t switched on yet. You can still browse our destination guides.", "not_configured");
           return;
         }
-        const budget = await chatBudget();
+        const budget = await budgetP;
         if (budget.remaining < ANSWER_RESERVE_MICRO) {
           await notice("The AI planner has reached its limit for this month. Our destination guides are still open — browse them from Explore India.", "budget");
           return;
@@ -150,7 +153,10 @@ export async function POST(req: Request) {
  */
 export async function GET(req: Request) {
   try {
-    const visitor = await resolveVisitor(req, await auth());
+    // The monthly budget check doesn't depend on who is asking: start it now, use it later.
+  const budgetP = chatBudget();
+  budgetP.catch(() => {});
+  const visitor = await resolveVisitor(req, await auth());
     // No cookie yet: a brand-new visitor with every free question left.
     if (visitor.newCookie) return json(200, { signedIn: false, limit: LIMITS.freeQuestions, left: LIMITS.freeQuestions, chatId: null });
     return json(200, await quotaState(visitor));

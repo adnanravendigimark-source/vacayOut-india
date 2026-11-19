@@ -40,7 +40,7 @@ export function PicksBlock({ block, onAsk, disabled }: { block: BlockOf<"picks">
               <span aria-hidden className="mt-0.5 flex size-6 shrink-0 items-center justify-center rounded-full bg-sand text-[0.75rem] font-semibold tabular-nums text-ink">{i + 1}</span>
               <div className="min-w-0 flex-1">
                 <p className="leading-snug">
-                  <span className="font-serif text-[1.0625rem] text-ink">{p.name}</span>
+                  <span className="font-serif text-[1.125rem] text-ink">{p.name}</span>
                   {p.place !== "India" && p.place !== p.name ? <span className="text-[0.8125rem] text-[#666666]">, {p.place}</span> : null}
                 </p>
                 <p className="mt-0.5 text-[0.9375rem] leading-relaxed text-[#444444]">{p.why}</p>

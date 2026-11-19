@@ -93,6 +93,51 @@
       "url": "https://en.wikipedia.org/wiki/McLeod_Ganj",
       "title": "McLeod Ganj — Wikipedia",
       "authority": "reference"
+    },
+    "HPT_PAL": {
+      "url": "https://himachaltourism.gov.in/destination/palampur/",
+      "title": "Palampur — Himachal Tourism (Govt of HP)",
+      "authority": "government"
+    },
+    "WP_BIRX": {
+      "url": "https://en.wikipedia.org/wiki/Bir,_Himachal_Pradesh",
+      "title": "Bir, Himachal Pradesh — Wikipedia",
+      "authority": "reference"
+    },
+    "HPT_CHA": {
+      "url": "https://himachaltourism.gov.in/destination/chamba/",
+      "title": "Chamba — Himachal Tourism (Govt of HP)",
+      "authority": "government"
+    },
+    "HPT_DAL": {
+      "url": "https://himachaltourism.gov.in/destination/dalhousie/",
+      "title": "Dalhousie — Himachal Tourism (Govt of HP)",
+      "authority": "government"
+    },
+    "DTC_DEVDAR": {
+      "url": "https://hptdc.hp.gov.in/hotel-detail/21",
+      "title": "Hotel Devdar, Khajjiar — HPTDC",
+      "authority": "government"
+    },
+    "HPCH_POI": {
+      "url": "https://hpchamba.nic.in/places-of-interest/",
+      "title": "Places of Interest — District Chamba",
+      "authority": "government"
+    },
+    "DTC_GAURI": {
+      "url": "https://hptdc.hp.gov.in/hotel-detail/8",
+      "title": "Hotel Gaurikund, Bharmour — HPTDC",
+      "authority": "government"
+    },
+    "WP_BHAR": {
+      "url": "https://en.wikipedia.org/wiki/Bharmour",
+      "title": "Bharmour — Wikipedia",
+      "authority": "reference"
+    },
+    "HPCH_MANI": {
+      "url": "https://hpchamba.nic.in/tourist-place/manimahesh-lake/",
+      "title": "Manimahesh Lake — District Chamba",
+      "authority": "government"
     }
   },
   "facts": {
@@ -2003,6 +2048,622 @@
           "quote": "It offers a panoramic view of the Kangra Valley stretching out into the horizon."
         }
       ]
+    },
+    "H2P3": {
+      "place": "himachal-pradesh/palampur",
+      "topic": "H2P3",
+      "claim": "Buses from Dharamshala, Kangra, Kullu and Shimla; the narrow-gauge Pathankot–Jogindernagar line; Gaggal airport 40 km; local buses and taxis.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "HPT_PAL",
+          "quote": "Buses from Dharamsala, Kangra, Kullu and Shimla."
+        },
+        {
+          "source": "HPT_PAL",
+          "quote": "Pathankot-Jogindernagar narrow gauge railway line."
+        },
+        {
+          "source": "HPT_PAL",
+          "quote": "Gaggal Airport at 40 Km."
+        },
+        {
+          "source": "HPT_PAL",
+          "quote": "Local buses operate regularly. Taxis are also available"
+        }
+      ]
+    },
+    "H2P6": {
+      "place": "himachal-pradesh/palampur",
+      "topic": "H2P6",
+      "claim": "Nearby: Andretta (13 km), Baijnath (16 km), Dhauladhar Nature Park (15 km), Bir (35 km).",
+      "claimType": "distance",
+      "evidence": [
+        {
+          "source": "HPT_PAL",
+          "quote": "Andretta, a charming village which is 13km from Palampur"
+        },
+        {
+          "source": "HPT_PAL",
+          "quote": "Visit ancient Shiva Temple at Baijnath, 16Km from Palampur."
+        },
+        {
+          "source": "HPT_PAL",
+          "quote": "Visit Dhauladhar Nature Park at Gopalpur, 15km from Palampur Town."
+        },
+        {
+          "source": "HPT_PAL",
+          "quote": "paragliding at Bir-Billing 35 km away"
+        }
+      ]
+    },
+    "H2P4": {
+      "place": "himachal-pradesh/palampur",
+      "topic": "H2P4",
+      "claim": "Hindi, Punjabi and English in tourism; cotton in summer, heavy woollens in winter.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "HPT_PAL",
+          "quote": "Hindi, Punjabi, English are understood and spoken by the people engaged in tourism trade."
+        },
+        {
+          "source": "HPT_PAL",
+          "quote": "Cotton clothes in Summer and heavy woolens in winter."
+        }
+      ]
+    },
+    "H2P5": {
+      "place": "himachal-pradesh/palampur",
+      "topic": "H2P5",
+      "claim": "SDM Palampur: 01894-230595.",
+      "claimType": "contact",
+      "evidence": [
+        {
+          "source": "HPT_PAL",
+          "quote": "SDM Palampur 01894-230595"
+        }
+      ]
+    },
+    "H1S3": {
+      "place": "himachal-pradesh",
+      "topic": "H1S3",
+      "claim": "Don't stand on cliff edges or riverside boulders; river currents are strong and deceptive.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "HPT_TIPS",
+          "quote": "Do not stand at the edge of a cliff or on any bolder near a river bank for photographs etc. The water current in rivers of Himachal Pradesh is very strong and highly deceptive."
+        }
+      ]
+    },
+    "H2P8": {
+      "place": "himachal-pradesh/palampur",
+      "topic": "H2P8",
+      "claim": "Holi fair at Palampur in February/March; Shivratri fair at Baijnath.",
+      "claimType": "schedule",
+      "evidence": [
+        {
+          "source": "HPT_PAL",
+          "quote": "Every year in Februry/March, Holi Fair is organized at Palampur"
+        },
+        {
+          "source": "HPT_PAL",
+          "quote": "Every year thousands of pilgrims descend on Baijnath to enjoy the colorful fair and festivities."
+        }
+      ]
+    },
+    "H2P1": {
+      "place": "himachal-pradesh/palampur",
+      "topic": "H2P1",
+      "claim": "Palampur is 35 km from Kangra, on a plateau with tea estates and pine and deodar forests.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "HPT_PAL",
+          "quote": "Palampur is 35 km from Kangra, is a quiet town situated on a plateau"
+        },
+        {
+          "source": "HPT_PAL",
+          "quote": "Surrounded by green tea estates and forests of pine and deodar"
+        }
+      ]
+    },
+    "H2P2": {
+      "place": "himachal-pradesh/palampur",
+      "topic": "H2P2",
+      "claim": "Known as the tea capital of North India; you can learn about tea making in the gardens.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "HPT_PAL",
+          "quote": "Known as the tea capital of North India, Palampur owes its tourism to these tea gardens where one can even catch up with the finer nuances of the tea making and brewing processes."
+        }
+      ]
+    },
+    "H2P7": {
+      "place": "himachal-pradesh/palampur",
+      "topic": "H2P7",
+      "claim": "Trails into the hills are used by Gaddi shepherds; the Aadi Himani Chamunda trek (2,900 m) is demanding.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "HPT_PAL",
+          "quote": "Some of these paths leading to the hills are often used by Gaddis – the nomadic shepherds of the area."
+        },
+        {
+          "source": "HPT_PAL",
+          "quote": "At 2900 meters, a pilgrimage to the temple is only for the die-hards."
+        }
+      ]
+    },
+    "H2P9": {
+      "place": "himachal-pradesh/palampur",
+      "topic": "H2P9",
+      "claim": "Angling in the Bundla and the Neugal chasm nearby.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "HPT_PAL",
+          "quote": "angling in the river Bundla"
+        },
+        {
+          "source": "HPT_PAL",
+          "quote": "with the backdrop of the dramatic Neugal chasm"
+        }
+      ]
+    },
+    "H2B4": {
+      "place": "himachal-pradesh/bir-billing",
+      "topic": "H2B4",
+      "claim": "Billing is 14 km from Bir; Bir is known for monasteries and Tibetan handicrafts.",
+      "claimType": "distance",
+      "evidence": [
+        {
+          "source": "HPT_PAL",
+          "quote": "Billing is 14 km from Bir."
+        },
+        {
+          "source": "HPT_PAL",
+          "quote": "is well known for its Buddhist monasteries and Tibetan handicrafts"
+        }
+      ]
+    },
+    "H2B3": {
+      "place": "himachal-pradesh/bir-billing",
+      "topic": "H2B3",
+      "claim": "Deer Park Institute, a centre for classical Indian wisdom traditions, hosts lectures and workshops.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WP_BIRX",
+          "quote": "The Deer Park Institute is a \"centre for the study of classical Indian wisdom traditions\""
+        },
+        {
+          "source": "WP_BIRX",
+          "quote": "The institute hosts frequent guest lectures and workshops"
+        }
+      ]
+    },
+    "H2B2": {
+      "place": "himachal-pradesh/bir-billing",
+      "topic": "H2B2",
+      "claim": "Visitors come for ecotourism, spiritual studies, treks to tribal villages, mountain biking, paragliding and meditation.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WP_BIRX",
+          "quote": "ecotourism, spiritual studies, trekking to tribal villages, mountain biking, paragliding, and meditation draws visitors"
+        }
+      ]
+    },
+    "H1S4": {
+      "place": "himachal-pradesh",
+      "topic": "H1S4",
+      "claim": "Use only government-authorised adventure operators with a valid licence.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "HPT_TIPS",
+          "quote": "ensure the agencies offering such activities are authorized by the Government for the purpose and have a valid license to operate."
+        }
+      ]
+    },
+    "H2B1": {
+      "place": "himachal-pradesh/bir-billing",
+      "topic": "H2B1",
+      "claim": "The Tibetan Colony is at the west end of Chowgan, a 20-minute walk or 5-minute taxi below Upper Bir; Sherab Ling is a 15-minute taxi.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WP_BIRX",
+          "quote": "The Bir Tibetan Colony (often simply called the \"Colony\" by locals) is at the west end of the village of Chowgan, about a 20-minute walk (or five-minute taxi) below Upper Bir."
+        },
+        {
+          "source": "WP_BIRX",
+          "quote": "Sherab Ling Monastery is a 50-to-70-minute walk (or 15-minute taxi) from Chowgan"
+        }
+      ]
+    },
+    "H2H1": {
+      "place": "himachal-pradesh/chamba",
+      "topic": "H2H1",
+      "claim": "Buses and taxis run to Dharamshala, Shimla, Mandi, Kullu, Chandigarh, Delhi, Bharmaur and Dalhousie.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "HPT_CHA",
+          "quote": "Private and public transport networks operate services to the major cities of Dharamshala, Shimla, Mandi, Kullu, Chandigarh, Delhi and to nearby stations of Bharmaur and Dalhousie. Luxury coaches, public carrier buses and taxis are readily available for all destinations."
+        }
+      ]
+    },
+    "H2H5": {
+      "place": "himachal-pradesh/chamba",
+      "topic": "H2H5",
+      "claim": "The Chaugan hosts the annual Minjar Mela; Saho holds a fair in September.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "HPT_CHA",
+          "quote": "The Chaugan plays host to the annual Minjar Mela."
+        },
+        {
+          "source": "HPT_CHA",
+          "quote": "In September an annual fair is held at the temple"
+        }
+      ]
+    },
+    "H2H2": {
+      "place": "himachal-pradesh/chamba",
+      "topic": "H2H2",
+      "claim": "The Chamunda Devi temple is reached by stairs from the old bus stand or by car.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "HPT_CHA",
+          "quote": "It can be reached by a stairway from the old bus stand as well as by a car from an alternate route."
+        }
+      ]
+    },
+    "H2H4": {
+      "place": "himachal-pradesh/chamba",
+      "topic": "H2H4",
+      "claim": "Chamba's heritage: temples and palaces, miniature paintings and the embroidered Chamba Rumal; the Bhuri Singh Museum.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "HPT_CHA",
+          "quote": "A splendid artistic heritage includes fine temple architecture, beautiful miniature paintings and the exquisite embroidered Chamba Rumal."
+        },
+        {
+          "source": "HPT_CHA",
+          "quote": "Raja Bhuri Singh, a former ruler of Chamba in his lifetime (1908 AD) did set up this museum"
+        }
+      ]
+    },
+    "H2H3": {
+      "place": "himachal-pradesh/chamba",
+      "topic": "H2H3",
+      "claim": "Distances from Chamba: Khajjiar 26, Dalhousie 54, Bharmaur 65 km.",
+      "claimType": "distance",
+      "evidence": [
+        {
+          "source": "HPT_CHA",
+          "quote": "Dalhousie 54 Khajjiar 26 Bharmaur 65"
+        }
+      ]
+    },
+    "H2H6": {
+      "place": "himachal-pradesh/chamba",
+      "topic": "H2H6",
+      "claim": "Chamba is a year-round destination.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "HPT_CHA",
+          "quote": "Chamba for its moderate climate is a year around destination."
+        }
+      ]
+    },
+    "H2D4": {
+      "place": "himachal-pradesh/dalhousie",
+      "topic": "H2D4",
+      "claim": "Summer is the best time; winter brings snow and bonfire evenings.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "HPT_DAL",
+          "quote": "Summer is the best time to be in Dalhousie and Khajjiar."
+        },
+        {
+          "source": "HPT_DAL",
+          "quote": "Experiencing a snowfall or enjoying a quiet evening by the warmth of a bonfire"
+        }
+      ]
+    },
+    "H2D3": {
+      "place": "himachal-pradesh/dalhousie",
+      "topic": "H2D3",
+      "claim": "The Mall Road is the place for shawls, Chamba rumals and Tibetan handicrafts.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "HPT_DAL",
+          "quote": "The Mall Road is a good place to shop for woollen Himachali shawls, Chamba rumals, traditional jewellery, Tibetan handicrafts and other items."
+        }
+      ]
+    },
+    "H2D1": {
+      "place": "himachal-pradesh/dalhousie",
+      "topic": "H2D1",
+      "claim": "Dalhousie, founded in 1850 over five hills, keeps colonial churches; Subhash Chandra Bose stayed in 1937.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "HPT_DAL",
+          "quote": "Spread out over the five hills of Kathlog, Potreyn, Terah, Bakrota and Bhangora, Dalhousie is popular hill station that was founded by Lord Dalhousie in 1850 as a summer retreat."
+        },
+        {
+          "source": "HPT_DAL",
+          "quote": "Rich in colonial architecture, the town preserves some beautiful churches."
+        }
+      ]
+    },
+    "H2D2": {
+      "place": "himachal-pradesh/dalhousie",
+      "topic": "H2D2",
+      "claim": "Forest trails overlook wooded hills and waterfalls; the Bakrota walk is 5 km uphill.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "HPT_DAL",
+          "quote": "Marvelous forest trails overlook vistas of wooded hills, water falls, springs and rivulets."
+        },
+        {
+          "source": "HPT_DAL",
+          "quote": "The 5 km uphill walk to Bakrota Hill"
+        }
+      ]
+    },
+    "H3K5": {
+      "place": "himachal-pradesh/khajjiar",
+      "topic": "H3K5",
+      "claim": "HPTDC's Hotel Devdar has 35 rooms, many with views of the lake and valley, and a multi-cuisine restaurant.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "DTC_DEVDAR",
+          "quote": "The hotel has 35 rooms and suites, with many overlooking the valley"
+        },
+        {
+          "source": "DTC_DEVDAR",
+          "quote": "Restaurant serving multi cuisines."
+        },
+        {
+          "source": "DTC_DEVDAR",
+          "quote": "Wide view of Khajjiar Lake from the rooms/ balconies"
+        }
+      ]
+    },
+    "H3K6": {
+      "place": "himachal-pradesh/khajjiar",
+      "topic": "H3K6",
+      "claim": "Summer is the best time for Dalhousie and Khajjiar; winters are cold with snowfall.",
+      "claimType": "schedule",
+      "evidence": [
+        {
+          "source": "HPT_DAL",
+          "quote": "Summer is the best time to be in Dalhousie and Khajjiar."
+        },
+        {
+          "source": "HPT_DAL",
+          "quote": "Experiencing a snowfall or enjoying a quiet evening by the warmth of a bonfire"
+        }
+      ]
+    },
+    "H3K1": {
+      "place": "himachal-pradesh/khajjiar",
+      "topic": "H3K1",
+      "claim": "Khajjiar is a saucer-shaped plateau at about 6,500 ft ringed by pine and deodar forest; it was 'baptised' Mini Switzerland by the Swiss Ambassador on 7 July 1992.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "HPCH_POI",
+          "quote": "A small picturesque saucer-shaped plateau surrounded by dense pine and deodar forests"
+        },
+        {
+          "source": "HPCH_POI",
+          "quote": "at an altitude of 6,500 ft. above sea level"
+        },
+        {
+          "source": "HPCH_POI",
+          "quote": "Khajjiar was officially baptized by the Swiss Ambassador on July 7, 1992"
+        }
+      ]
+    },
+    "H1S7": {
+      "place": "himachal-pradesh",
+      "topic": "H1S7",
+      "claim": "Avoid night driving in the hills.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "HPT_TIPS",
+          "quote": "Avoid night driving in the hills."
+        }
+      ]
+    },
+    "H3K7": {
+      "place": "himachal-pradesh/khajjiar",
+      "topic": "H3K7",
+      "claim": "Average temperatures: summer 18–27°C, monsoon 9–18°C, winter 3–11°C (Dalhousie area).",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "HPT_DAL",
+          "quote": "Summer March – June 18°C – 27°C Monsoon July – September 9°C – 18°C Winter December – February 3°C – 11°C"
+        }
+      ]
+    },
+    "H3K4": {
+      "place": "himachal-pradesh/khajjiar",
+      "topic": "H3K4",
+      "claim": "Kalatop, midway between Dalhousie and Khajjiar, is a forest wildlife sanctuary with pheasants and monal.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "HPCH_POI",
+          "quote": "Located almost midway between Dalhousie and Khajjiar, Kalatope is a beautiful forested area."
+        },
+        {
+          "source": "HPCH_POI",
+          "quote": "The place has already been declared a wild life sanctuary by the government. Pheasants and Monal and various other birds can be frequently seen in the place."
+        }
+      ]
+    },
+    "H3K3": {
+      "place": "himachal-pradesh/khajjiar",
+      "topic": "H3K3",
+      "claim": "The Khajji Naga shrine to the serpent god has carved wooden ceilings and posts mixing Hindu and Mughal styles; Shiva and Hadimba shrines adjoin it.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "HPCH_POI",
+          "quote": "Khajjiar is famous for the popular Khajji Naga shrine dedicated to the serpent god"
+        },
+        {
+          "source": "HPCH_POI",
+          "quote": "A curious blend of Hindu and Mughal styles of architecture is reflected in the wooden carvings on the ceilings and wooden posts."
+        },
+        {
+          "source": "HPCH_POI",
+          "quote": "Adjoining are other shrines of Shiva and Hadimba goddess also."
+        }
+      ]
+    },
+    "H3K2": {
+      "place": "himachal-pradesh/khajjiar",
+      "topic": "H3K2",
+      "claim": "HPTDC buses run from Chamba and Dalhousie; Pathankot station is about 95 km and Gaggal airport 130 km.",
+      "claimType": "distance",
+      "evidence": [
+        {
+          "source": "HPCH_POI",
+          "quote": "may be undertaken either by buses run by the HP Tourism Development Corporation or by one’s own vehicle"
+        },
+        {
+          "source": "HPCH_POI",
+          "quote": "Khajjiar is about 95kms from Pathankot Railway Station and 130 kms from the Gaggal Airport"
+        }
+      ]
+    },
+    "H3B5": {
+      "place": "himachal-pradesh/bharmaur",
+      "topic": "H3B5",
+      "claim": "Bharmaur was Brahmapura, the capital of Chamba State until 920 CE.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WP_BHAR",
+          "quote": "Bharmour is associated with the historical Brahampura, the capital of Chamba State."
+        },
+        {
+          "source": "WP_BHAR",
+          "quote": "In 920 CE, Raja Sahil Varman shifted the capital of the Chamba State to Chamba."
+        }
+      ]
+    },
+    "H3B3": {
+      "place": "himachal-pradesh/bharmaur",
+      "topic": "H3B3",
+      "claim": "The Manimahesh fair falls on the eighth day of the bright half of Bhadon.",
+      "claimType": "schedule",
+      "evidence": [
+        {
+          "source": "HPCH_MANI",
+          "quote": "on the eighth day of the light half of the moon in the month of Bhadon, a fair is held at this lake"
+        }
+      ]
+    },
+    "H3B2": {
+      "place": "himachal-pradesh/bharmaur",
+      "topic": "H3B2",
+      "claim": "Manimahesh Lake is 26 km from Bharmaur at 13,000 ft below Kailash; buses run to Hadsar, then a 13 km trek with a halt at Dhancho.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "HPCH_MANI",
+          "quote": "The Manimahesh Lake is situated Twenty-six kilometers from Bharmour in the Budhil valley"
+        },
+        {
+          "source": "HPCH_MANI",
+          "quote": "The lake is situated at an altitude of 13,000 feet at the foot of the Kailash peak"
+        },
+        {
+          "source": "HPCH_MANI",
+          "quote": "At present buses ply upto Hadsar via Bharmour. Beyond Hadsar, the pilgrims have to trek for 13 kms to reach Manimahesh."
+        },
+        {
+          "source": "HPCH_MANI",
+          "quote": "Between Hadsar and Manimahesh is an important halting place known as Dhanchho where pilgrims usually spend a night."
+        }
+      ]
+    },
+    "H3B6": {
+      "place": "himachal-pradesh/bharmaur",
+      "topic": "H3B6",
+      "claim": "Chamba has a hospital attached to a medical college; Bharmaur has a government civil hospital.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "HPT_CHA",
+          "quote": "good medical care facilities are available at Chamba and government run civil hospitals at Bharmaur and Dalhousie"
+        },
+        {
+          "source": "HPT_CHA",
+          "quote": "At Chamba, the government runs a good hospital that is attached to a medical college."
+        }
+      ]
+    },
+    "H3B4": {
+      "place": "himachal-pradesh/bharmaur",
+      "topic": "H3B4",
+      "claim": "HPTDC's Hotel Gaurikund in Bharmaur has a restaurant, room service and wifi.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "DTC_GAURI",
+          "quote": "Hotel Gaurikund, Bharmour (H.P.), District Chamba"
+        },
+        {
+          "source": "DTC_GAURI",
+          "quote": "Restaurant, Room Service, WiFi."
+        }
+      ]
+    },
+    "H3B1": {
+      "place": "himachal-pradesh/bharmaur",
+      "topic": "H3B1",
+      "claim": "The Chaurasi complex in the centre of town has 84 shrines and dates to about the 7th century; Lakshana Devi is the oldest temple and Manimahesh the main one.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WP_BHAR",
+          "quote": "Chaurasi Temple is located in the centre of Bharmour town. There are 84 shrines built in the periphery of Chaurasi Temple."
+        },
+        {
+          "source": "WP_BHAR",
+          "quote": "The temple complex was built approximately the 7th century."
+        },
+        {
+          "source": "WP_BHAR",
+          "quote": "The temple of Lakshana Devi is the oldest temple at Chaurasi Temple, Bharmour."
+        },
+        {
+          "source": "WP_BHAR",
+          "quote": "the Manimahesh Temple which stands in the centre of the Chaurasi Temple, is the main temple, enshrining a huge Shiva linga."
+        }
+      ]
     }
   },
   "places": [
@@ -3268,6 +3929,68 @@
             "BR1",
             "BR10"
           ]
+        },
+        "who_its_for": {
+          "items": [
+            {
+              "title": "Paragliders",
+              "body": "Tandem and cross-country flying from the Billing take-off, 14 km above Bir."
+            },
+            {
+              "title": "Spiritual seekers",
+              "body": "Monasteries, meditation and courses at the Deer Park Institute."
+            },
+            {
+              "title": "Active travellers",
+              "body": "Mountain biking and treks to tribal villages."
+            },
+            {
+              "title": "Shoppers",
+              "body": "Tibetan handicrafts around the colony."
+            }
+          ],
+          "facts": [
+            "H2B4",
+            "H2B2",
+            "H2B3"
+          ]
+        },
+        "local_transport": {
+          "text": "Bir is small and walkable: the Tibetan Colony at Chowgan is about 20 minutes on foot (5 minutes by taxi) below Upper Bir, and Sherab Ling monastery is a 15-minute taxi ride or an hour's walk. Taxis take you up the 14 km road to the Billing take-off.",
+          "facts": [
+            "H2B1",
+            "H2B4"
+          ]
+        },
+        "practical_info": {
+          "items": [
+            {
+              "title": "Layout",
+              "body": "Upper Bir is the old centre; most stays and cafés are at Chowgan around the Tibetan Colony.",
+              "status": "verified"
+            },
+            {
+              "title": "Language",
+              "body": "Hindi, Punjabi and English in tourism.",
+              "status": "verified"
+            },
+            {
+              "title": "Adventure operators",
+              "body": "Fly only with government-authorised, licensed operators.",
+              "status": "verified"
+            },
+            {
+              "title": "Banks",
+              "body": "10 am–4 pm, Monday to Saturday.",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "H2B1",
+            "H2P4",
+            "H1S4",
+            "H1S10"
+          ]
         }
       },
       "wikidataId": "Q4086963",
@@ -3527,6 +4250,143 @@
             "PL11",
             "PL7"
           ]
+        },
+        "key_facts": {
+          "items": [
+            {
+              "title": "Known for",
+              "body": "Tea gardens — the tea capital of North India",
+              "status": "verified"
+            },
+            {
+              "title": "From Kangra",
+              "body": "35 km",
+              "status": "verified"
+            },
+            {
+              "title": "Nearest airport",
+              "body": "Gaggal, 40 km",
+              "status": "verified"
+            },
+            {
+              "title": "Rail",
+              "body": "Narrow-gauge Pathankot–Jogindernagar line",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "H2P2",
+            "H2P1",
+            "H2P3"
+          ]
+        },
+        "food": {
+          "items": [
+            {
+              "body": "Fresh Kangra tea in the tea gardens, where you can see how it is made and brewed."
+            }
+          ],
+          "facts": [
+            "H2P2"
+          ]
+        },
+        "who_its_for": {
+          "items": [
+            {
+              "title": "Slow travellers",
+              "body": "A quiet plateau town of tea estates and pine and deodar forest."
+            },
+            {
+              "title": "Walkers and trekkers",
+              "body": "Gaddi shepherd trails, and the demanding Aadi Himani Chamunda trek to 2,900 m."
+            },
+            {
+              "title": "Art and heritage",
+              "body": "Andretta's art gallery and pottery (13 km) and Baijnath's Shiva temple (16 km)."
+            },
+            {
+              "title": "Adventure",
+              "body": "Paragliding at Bir-Billing, 35 km away, and angling in the Bundla."
+            }
+          ],
+          "facts": [
+            "H2P1",
+            "H2P7",
+            "H2P6",
+            "H2P9"
+          ]
+        },
+        "local_transport": {
+          "text": "Local buses run regularly and taxis are available for day trips to Andretta, Baijnath and Bir. Buses connect Palampur with Dharamshala, Kangra, Kullu and Shimla, and the narrow-gauge Pathankot–Jogindernagar railway passes through. Gaggal airport is 40 km away.",
+          "facts": [
+            "H2P3",
+            "H2P6"
+          ]
+        },
+        "practical_info": {
+          "items": [
+            {
+              "title": "Language",
+              "body": "Hindi, Punjabi and English in tourism.",
+              "status": "verified"
+            },
+            {
+              "title": "Clothing",
+              "body": "Cotton in summer, heavy woollens in winter.",
+              "status": "verified"
+            },
+            {
+              "title": "Local office",
+              "body": "SDM Palampur: 01894-230595.",
+              "status": "verified"
+            },
+            {
+              "title": "Festivals",
+              "body": "Holi fair in February/March; Shivratri fair at Baijnath.",
+              "status": "seasonal"
+            },
+            {
+              "title": "Banks",
+              "body": "10 am–4 pm, Monday to Saturday.",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "H2P4",
+            "H2P5",
+            "H2P8",
+            "H1S10"
+          ]
+        },
+        "safety_health": {
+          "items": [
+            {
+              "title": "Treks",
+              "body": "Tell local authorities before high treks and hire registered guides.",
+              "status": "verified"
+            },
+            {
+              "title": "Rivers",
+              "body": "Keep off riverside boulders; currents are strong.",
+              "status": "verified"
+            },
+            {
+              "title": "Monsoon",
+              "body": "July–August brings landslides and slippery roads.",
+              "status": "seasonal"
+            },
+            {
+              "title": "Emergency numbers",
+              "body": "100 for police, 108 for ambulance.",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "H1S8",
+            "H1S3",
+            "H1S2",
+            "H1S1"
+          ]
         }
       },
       "relations": [
@@ -3633,6 +4493,49 @@
           "facts": [
             "PL3",
             "PL2"
+          ]
+        },
+        "key_facts": {
+          "items": [
+            {
+              "title": "From Palampur",
+              "body": "13 km",
+              "status": "verified"
+            },
+            {
+              "title": "Known for",
+              "body": "Sobha Singh art gallery and Norah Richards' pottery",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "H2P6",
+            "PL3"
+          ]
+        },
+        "how_to_reach": {
+          "text": "Andretta is 13 km from Palampur. Local buses run regularly from Palampur and taxis are available; Gaggal airport is about 40 km from Palampur and the narrow-gauge Kangra line passes through the area.",
+          "facts": [
+            "H2P6",
+            "H2P3"
+          ]
+        },
+        "things_to_do": {
+          "items": [
+            {
+              "body": "See the Sardar Sobha Singh art gallery."
+            },
+            {
+              "body": "Visit the pottery started by Norah Richards."
+            },
+            {
+              "body": "Combine it with Palampur's tea gardens and Baijnath's Shiva temple (16 km from Palampur)."
+            }
+          ],
+          "facts": [
+            "PL3",
+            "H2P2",
+            "H2P6"
           ]
         }
       },
@@ -3886,6 +4789,36 @@
             "DL12",
             "DL3"
           ]
+        },
+        "who_its_for": {
+          "items": [
+            {
+              "title": "Families escaping the heat",
+              "body": "A cool summer hill station spread over five hills."
+            },
+            {
+              "title": "Walkers",
+              "body": "Forest trails, the 5 km climb to Bakrota and the walk to Subhash Baoli."
+            },
+            {
+              "title": "History buffs",
+              "body": "Colonial churches and the town's links with Subhash Chandra Bose."
+            },
+            {
+              "title": "Shoppers",
+              "body": "Shawls, Chamba rumals and Tibetan handicrafts on the Mall Road."
+            },
+            {
+              "title": "Snow lovers",
+              "body": "Winter snowfall and quiet bonfire evenings."
+            }
+          ],
+          "facts": [
+            "H2D1",
+            "H2D2",
+            "H2D3",
+            "H2D4"
+          ]
         }
       },
       "wikidataId": "Q1925180",
@@ -3958,6 +4891,120 @@
           ],
           "facts": [
             "DL17"
+          ]
+        },
+        "key_facts": {
+          "items": [
+            {
+              "title": "Altitude",
+              "body": "About 6,500 ft",
+              "status": "verified"
+            },
+            {
+              "title": "Best time",
+              "body": "Summer, March–June",
+              "status": "seasonal"
+            },
+            {
+              "title": "Known as",
+              "body": "India's 'Mini Switzerland'",
+              "status": "verified"
+            },
+            {
+              "title": "Nearest station",
+              "body": "Pathankot, about 95 km",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "H3K1",
+            "H3K6",
+            "H3K2"
+          ]
+        },
+        "best_time": {
+          "text": "Summer, March to June, is the best time: clear skies and averages of 18–27°C around Dalhousie and Khajjiar. The monsoon (July–September) brings mist and rain, and winter (December–February) is cold, 3–11°C, with snow on the meadow.",
+          "facts": [
+            "H3K6",
+            "H3K7"
+          ]
+        },
+        "things_to_do": {
+          "items": [
+            {
+              "body": "Walk around the saucer-shaped meadow and its small lake, ringed by pine and deodar."
+            },
+            {
+              "body": "See the Khajji Naga shrine, whose carved wooden ceilings and posts mix Hindu and Mughal styles, with Shiva and Hadimba shrines beside it."
+            },
+            {
+              "body": "Look for pheasants and monal in the Kalatop Wildlife Sanctuary, midway to Dalhousie."
+            },
+            {
+              "body": "Find the yellow 'Mini Switzerland' hiking sign, put up after the Swiss Ambassador's 1992 visit."
+            }
+          ],
+          "facts": [
+            "H3K1",
+            "H3K3",
+            "H3K4"
+          ]
+        },
+        "where_to_stay": {
+          "text": "HPTDC's Hotel Devdar sits on the plateau with 35 rooms, many looking over the lake and valley, and a multi-cuisine restaurant. Most visitors stay in Dalhousie or Chamba and come for the day. Choose stays registered with the Department of Tourism.",
+          "facts": [
+            "H3K5",
+            "H1S6"
+          ]
+        },
+        "faqs": {
+          "items": [
+            {
+              "title": "Why is Khajjiar called Mini Switzerland?",
+              "body": "It was officially named so by the Swiss Ambassador on 7 July 1992, and a stone from Khajjiar is part of a sculpture in Bern."
+            },
+            {
+              "title": "How do I get to Khajjiar?",
+              "body": "By road from Dalhousie or Chamba — by HPTDC bus, taxi or your own car."
+            },
+            {
+              "title": "What is the nearest railway station?",
+              "body": "Pathankot, about 95 km away; Gaggal airport is about 130 km."
+            },
+            {
+              "title": "Can I stay overnight?",
+              "body": "Yes — HPTDC's Hotel Devdar is on the meadow."
+            }
+          ],
+          "facts": [
+            "H3K1",
+            "H3K2",
+            "H3K5"
+          ]
+        },
+        "safety_health": {
+          "items": [
+            {
+              "title": "Emergency numbers",
+              "body": "100 for police, 108 for the free ambulance.",
+              "status": "verified"
+            },
+            {
+              "title": "Hill roads",
+              "body": "Avoid night driving; July–August brings landslides and slippery roads.",
+              "status": "seasonal"
+            },
+            {
+              "title": "Rivers and cliffs",
+              "body": "Don't stand on cliff edges or riverside boulders for photos.",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "H1S1",
+            "H1S7",
+            "H1S2",
+            "H1S3"
           ]
         }
       },
@@ -4359,6 +5406,40 @@
             "CB6",
             "CB16"
           ]
+        },
+        "who_its_for": {
+          "items": [
+            {
+              "title": "Heritage lovers",
+              "body": "Temple architecture, the Bhuri Singh Museum, miniature paintings and Chamba Rumal embroidery."
+            },
+            {
+              "title": "Festival-goers",
+              "body": "The Minjar Mela on the Chaugan, and Saho's fair in September."
+            },
+            {
+              "title": "Base for the valley",
+              "body": "Khajjiar (26 km), Dalhousie (54 km) and Bharmaur (65 km)."
+            },
+            {
+              "title": "Any season",
+              "body": "A moderate climate makes Chamba a year-round destination."
+            }
+          ],
+          "facts": [
+            "H2H4",
+            "H2H5",
+            "H2H3",
+            "H2H6"
+          ]
+        },
+        "local_transport": {
+          "text": "Buses and taxis are readily available for every destination: Khajjiar (26 km), Dalhousie (54 km) and Bharmaur (65 km), and further to Dharamshala, Shimla, Mandi, Kullu, Chandigarh and Delhi. In town, walk — the Chaugan is the centre, and the Chamunda Devi temple is reached by a stairway from the old bus stand (or by car on another road).",
+          "facts": [
+            "H2H1",
+            "H2H3",
+            "H2H2"
+          ]
         }
       },
       "wikidataId": "Q1949346",
@@ -4581,6 +5662,116 @@
             "CB17",
             "KC_TREK",
             "KC_ROADS"
+          ]
+        },
+        "key_facts": {
+          "items": [
+            {
+              "title": "From Chamba",
+              "body": "65 km",
+              "status": "verified"
+            },
+            {
+              "title": "Known for",
+              "body": "The 84 Chaurasi temples; base for Manimahesh",
+              "status": "verified"
+            },
+            {
+              "title": "Manimahesh Lake",
+              "body": "26 km; 13 km trek from Hadsar",
+              "status": "verified"
+            },
+            {
+              "title": "Yatra",
+              "body": "August–September",
+              "status": "seasonal"
+            }
+          ],
+          "facts": [
+            "CB16",
+            "H3B1",
+            "H3B2",
+            "CB17"
+          ]
+        },
+        "things_to_do": {
+          "items": [
+            {
+              "body": "Walk through the Chaurasi complex: 84 shrines around the Manimahesh Shiva temple, with Lakshana Devi the oldest."
+            },
+            {
+              "body": "Join the Manimahesh Yatra: bus to Hadsar, then 13 km on foot to the lake below Kailash, with a night at Dhancho."
+            },
+            {
+              "body": "Come for the Manimahesh fair, on the eighth day of the bright half of Bhadon."
+            },
+            {
+              "body": "Take a climbing, mountaineering or skiing course at the mountaineering institute's centre."
+            }
+          ],
+          "facts": [
+            "H3B1",
+            "H3B2",
+            "H3B3",
+            "CB19"
+          ]
+        },
+        "where_to_stay": {
+          "text": "HPTDC runs Hotel Gaurikund in Bharmaur, with a restaurant, room service and wifi. During the yatra pilgrims also halt at Dhancho on the trail between Hadsar and the lake. Choose stays registered with the Department of Tourism.",
+          "facts": [
+            "H3B4",
+            "H3B2",
+            "H1S6"
+          ]
+        },
+        "practical_info": {
+          "items": [
+            {
+              "title": "Medical care",
+              "body": "A government civil hospital in Bharmaur; Chamba's medical college hospital for anything serious.",
+              "status": "verified"
+            },
+            {
+              "title": "Trekking",
+              "body": "Inform the local authorities before the Manimahesh trek and hire registered guides and porters.",
+              "status": "verified"
+            },
+            {
+              "title": "Banks",
+              "body": "10 am–4 pm, Monday to Saturday.",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "H3B6",
+            "H1S8",
+            "H1S10"
+          ]
+        },
+        "faqs": {
+          "items": [
+            {
+              "title": "How far is Manimahesh Lake from Bharmaur?",
+              "body": "26 km: buses run to Hadsar, then it is a 13 km trek."
+            },
+            {
+              "title": "What is the Chaurasi temple?",
+              "body": "A 7th-century complex of 84 shrines in the centre of town, around the Manimahesh Shiva temple."
+            },
+            {
+              "title": "Why is Bharmaur historic?",
+              "body": "As Brahmapura it was the capital of Chamba State until 920 CE."
+            },
+            {
+              "title": "Where can I stay?",
+              "body": "HPTDC's Hotel Gaurikund is in town."
+            }
+          ],
+          "facts": [
+            "H3B2",
+            "H3B1",
+            "H3B5",
+            "H3B4"
           ]
         }
       },

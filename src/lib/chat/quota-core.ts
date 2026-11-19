@@ -65,31 +65,40 @@ export function quotaRules(limits: Limits, store: QuotaStore) {
   /** Checks limits and, for anonymous visitors, reserves one free question. */
   async function admit(v: QuotaVisitor, chatId: string): Promise<Admission> {
     const t = now();
-    const burst = await store.hit(`chat:min:${v.key}`, limits.perMinute, 60, { now: t });
-    if (!burst.ok) return { ok: false, status: 429, code: "rate_limited", message: "You’re sending messages quickly — give it a few seconds.", retryAfter: burst.retryAfterSeconds };
+    const key = freeKey(v);
+    const rateLimited = (r: HitResult): Admission => ({ ok: false, status: 429, code: "rate_limited", message: "You’re sending messages quickly — give it a few seconds.", retryAfter: r.retryAfterSeconds });
 
     if (v.kind === "traveller") {
+      // Signed-in limits are unchanged: a rate-limited message doesn't count towards the day.
+      const burst = await store.hit(`chat:min:${v.key}`, limits.perMinute, 60, { now: t });
+      if (!burst.ok) return rateLimited(burst);
       const day = await store.hit(`chat:day:${v.key}`, limits.travellerPerDay, DAY, { now: t });
       if (!day.ok) return { ok: false, status: 429, code: "daily_limit", message: "You’ve reached today’s message limit. It resets tomorrow.", retryAfter: day.retryAfterSeconds };
       return { ok: true, freeLeft: null, reservation: null };
     }
 
-    const bound = await boundThread(v);
+    // Round 1 (reads, plus the per-minute counter): run together to keep the first words fast.
+    const [burst, bound, peek] = await Promise.all([
+      store.hit(`chat:min:${v.key}`, limits.perMinute, 60, { now: t }),
+      boundThread(v),
+      // Peek (no charge), so a visitor who is out of allowance isn't counted again.
+      store.hit(key, limits.freeQuestions, FOREVER, { consume: false, now: t }),
+    ]);
+    if (!burst.ok) return rateLimited(burst);
     if (bound && bound !== chatId) {
       return { ok: false, status: 401, code: "one_conversation", message: "Free planning includes one conversation. Sign up free to start a new trip — it takes a minute.", retryAfter: 0 };
     }
+    if (!peek.ok) return signUp();
 
-    const key = freeKey(v);
-    // Peek first (no charge), so a visitor who is out of allowance isn't counted again.
-    if (!(await store.hit(key, limits.freeQuestions, FOREVER, { consume: false, now: t })).ok) return signUp();
-    // Abuse backstop per network: counts attempts, not answers.
-    const net = await store.hit(`chat:net:${v.network}`, limits.anonPerNetworkPerDay, DAY, { now: t });
-    if (!net.ok) return signUp("Sign up free to keep planning.");
-    // Atomic reservation: two messages sent at the same moment can't both pass the limit.
-    const used = await store.hit(key, limits.freeQuestions, FOREVER, { now: t });
-    if (!used.ok) {
+    // Round 2: the network backstop (counts attempts, not answers) and the atomic reservation,
+    // so two messages sent at the same moment can't both pass the limit.
+    const [net, used] = await Promise.all([
+      store.hit(`chat:net:${v.network}`, limits.anonPerNetworkPerDay, DAY, { now: t }),
+      store.hit(key, limits.freeQuestions, FOREVER, { now: t }),
+    ]);
+    if (!net.ok || !used.ok) {
       await store.release(key, FOREVER, { now: t });
-      return signUp();
+      return signUp(net.ok ? undefined : "Sign up free to keep planning.");
     }
     return { ok: true, freeLeft: Math.max(0, limits.freeQuestions - used.count), reservation: { key, window: FOREVER, at: t } };
   }

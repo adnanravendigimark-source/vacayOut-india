@@ -1,0 +1,621 @@
+{
+  "cluster": "hp-fill-2",
+  "title": "Himachal Pradesh fill 2: top places in Kinnaur and Tirthan",
+  "researchedAt": "2026-11-19",
+  "selection": "Chitkul, Kamru Fort, Nako Lake, Great Himalayan National Park, Jalori Pass.",
+  "sources": {
+    "HPT_KIN": {
+      "url": "https://himachaltourism.gov.in/destination/kinnaur/",
+      "title": "Kinnaur — Himachal Tourism (Govt of HP)",
+      "authority": "government"
+    },
+    "WP_CHIT": {
+      "url": "https://en.wikipedia.org/wiki/Chitkul",
+      "title": "Chitkul — Wikipedia",
+      "authority": "reference"
+    },
+    "WP_GHNP": {
+      "url": "https://en.wikipedia.org/wiki/Great_Himalayan_National_Park",
+      "title": "Great Himalayan National Park — Wikipedia",
+      "authority": "reference"
+    },
+    "GHNP_RULESX": {
+      "url": "https://greathimalayannationalpark.org/plan-your-trip/fees-rules-and-guidelines/",
+      "title": "Fees, rules and guidelines — GHNP",
+      "authority": "government"
+    },
+    "GHNP_REACHX": {
+      "url": "https://greathimalayannationalpark.org/plan-your-trip/accessing-the-great-himalayan-national-park/",
+      "title": "Accessing GHNP — Great Himalayan National Park",
+      "authority": "government"
+    },
+    "HPT_KUL": {
+      "url": "https://himachaltourism.gov.in/destination/kullu-2/",
+      "title": "Kullu — Himachal Tourism (Govt of HP)",
+      "authority": "government"
+    },
+    "WP_NAKO": {
+      "url": "https://en.wikipedia.org/wiki/Nako,_Himachal_Pradesh",
+      "title": "Nako, Himachal Pradesh — Wikipedia",
+      "authority": "reference"
+    }
+  },
+  "facts": {
+    "H2C4": {
+      "place": "himachal-pradesh/chitkul",
+      "topic": "H2C4",
+      "claim": "Chitkul's houses have slate or wooden roofs in Kath Kuni style.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WP_CHIT",
+          "quote": "Of particular interest at Chitkul are its houses with either slate or wooden plank roofs, a Buddhist temple and a small tower."
+        }
+      ]
+    },
+    "H2C1": {
+      "place": "himachal-pradesh/chitkul",
+      "topic": "H2C1",
+      "claim": "Chitkul, 25 km from Sangla, is the last inhabited village on the Indo-Tibet border; the road ends here.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "HPT_KIN",
+          "quote": "Last inhabited village on the Indo-Tibet border, Chitkul in Baspa valley is 25 km from Sangla. The motorable road ends at this village and any further journey has to be done on foot."
+        }
+      ]
+    },
+    "H2C3": {
+      "place": "himachal-pradesh/chitkul",
+      "topic": "H2C3",
+      "claim": "In winter Chitkul is mostly under snow and people move lower down.",
+      "claimType": "schedule",
+      "evidence": [
+        {
+          "source": "WP_CHIT",
+          "quote": "During winters, the place mostly remains covered with snow and the inhabitants move to lower regions of Himachal."
+        }
+      ]
+    },
+    "H2C2": {
+      "place": "himachal-pradesh/chitkul",
+      "topic": "H2C2",
+      "claim": "Terraced fields, the clear Baspa and a temple to goddess Mathi; camping by the river.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "HPT_KIN",
+          "quote": "slopes of the highlands around the village sliced into terraced fields, a crystal clear River Baspa flowing through bestows immense beauty"
+        },
+        {
+          "source": "HPT_KIN",
+          "quote": "The village has nice small temple dedicated to goddess Mathi"
+        },
+        {
+          "source": "HPT_KIN",
+          "quote": "Camping by the river can evoke spirituality."
+        }
+      ]
+    },
+    "H2N1": {
+      "place": "himachal-pradesh/kinnaur",
+      "topic": "H2N1",
+      "claim": "April to October is the time to visit; from November it gets colder, well below freezing in December–January.",
+      "claimType": "schedule",
+      "evidence": [
+        {
+          "source": "HPT_KIN",
+          "quote": "April to October is a good time to visit Kinnaur. In winters, starting from November, the temperature starts to fall and they do drop well below the freezing point in December and January."
+        }
+      ]
+    },
+    "H2G3": {
+      "place": "himachal-pradesh/great-himalayan-national-park",
+      "topic": "H2G3",
+      "claim": "Trek routes start from Gushaini (Tirthan) via Aut, Larji and Shai Ropa.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "GHNP_REACHX",
+          "quote": "Tirthan Valley trek Route Aut > Larji Dam > Shai Ropa > Gushaini"
+        }
+      ]
+    },
+    "H2T6": {
+      "place": "himachal-pradesh/tirthan-valley",
+      "topic": "H2T6",
+      "claim": "Inside GHNP: no open fires; find your campsite before sunset; don't exceed your limits; dress modestly.",
+      "claimType": "rule",
+      "evidence": [
+        {
+          "source": "GHNP_RULESX",
+          "quote": "Open fires are forbidden within GHNP."
+        },
+        {
+          "source": "GHNP_RULESX",
+          "quote": "Always find your next campsite well before sunset."
+        },
+        {
+          "source": "GHNP_RULESX",
+          "quote": "Don’t exceed your physical limits."
+        },
+        {
+          "source": "GHNP_RULESX",
+          "quote": "Modest attire must be worn at all times within GHNP and the ecozone."
+        }
+      ]
+    },
+    "H2G1": {
+      "place": "himachal-pradesh/great-himalayan-national-park",
+      "topic": "H2G1",
+      "claim": "Established 1984, 1,171 sq km, 1,500–6,000 m; UNESCO World Heritage Site since 2014.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WP_GHNP",
+          "quote": "The park was established in 1984 and is spread over an area of 1171 km2; elevations within the park range between 1500 and 6000 m."
+        },
+        {
+          "source": "WP_GHNP",
+          "quote": "In June 2014, the Great Himalayan National Park was added to the UNESCO list of World Heritage Sites"
+        }
+      ]
+    },
+    "H2G2": {
+      "place": "himachal-pradesh/great-himalayan-national-park",
+      "topic": "H2G2",
+      "claim": "Home to Himalayan tahr, brown bear, snow leopard, blue sheep, western tragopan and monal; no roads inside.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "HPT_KUL",
+          "quote": "Home to the rare and endangered Himalayan Thar, Himalayan Brown Bear, Snow Leopard and Blue Sheep, the park is a refuge to Western Tragopan, Monal and other rare birds also."
+        },
+        {
+          "source": "HPT_KUL",
+          "quote": "there are no roads or paved trails in this carefully conserved natural habitat"
+        }
+      ]
+    },
+    "H2J2": {
+      "place": "himachal-pradesh/jalori-pass",
+      "topic": "H2J2",
+      "claim": "Buses cross in summer; snow closes the pass from December to March.",
+      "claimType": "schedule",
+      "evidence": [
+        {
+          "source": "HPT_KUL",
+          "quote": "Several buses cross the pass regularly during the summer months. In winters the pass receives a lot of snow and remains closed for traffic from December to March."
+        }
+      ]
+    },
+    "H2J1": {
+      "place": "himachal-pradesh/jalori-pass",
+      "topic": "H2J1",
+      "claim": "Jalori divides the Satluj and Beas catchments, with views of the Himalaya and GHNP; a day hike leads to Serolsar Lake.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "HPT_KUL",
+          "quote": "A wind swept commanding pass, Jalori demarcates the catchments of River Satluj from Beas."
+        },
+        {
+          "source": "HPT_KUL",
+          "quote": "The panoramic view captures snow clad Himalayan ranges in the distance, deep forests of the Great Himalayan National Park"
+        },
+        {
+          "source": "HPT_KUL",
+          "quote": "A day hike to Serolsar Lake is a memorable trail to tread upon."
+        }
+      ]
+    },
+    "H2J3": {
+      "place": "himachal-pradesh/jalori-pass",
+      "topic": "H2J3",
+      "claim": "Shoja, just off the road, is a base for easy treks to Jalori, Serolsar, Takrasi and Khanag.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "HPT_KUL",
+          "quote": "Shoja is also the base for easy treks to Jalori Pass, Serolsar Lake, Takrasi and Khanag."
+        }
+      ]
+    },
+    "H2K1": {
+      "place": "himachal-pradesh/kamru-fort",
+      "topic": "H2K1",
+      "claim": "Kamru's five-storey wood-and-stone fort above Sangla was the seat of Kinnaur's rulers; it enshrines Kamakhya Devi.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "HPT_KIN",
+          "quote": "Overlooking Sangla village stands the towering hill fort of Kamru. This wood and stone structure was the original seat of power of the rulers of Kinnaur."
+        },
+        {
+          "source": "HPT_KIN",
+          "quote": "A series of low gates in the hamlet lead to the fort that rises five stories high."
+        },
+        {
+          "source": "HPT_KIN",
+          "quote": "The stronghold has an idol of Hindu goddess Kamakhya Devi (Kamakshi) enshrined in the upper storey."
+        }
+      ]
+    },
+    "H2K3": {
+      "place": "himachal-pradesh/kamru-fort",
+      "topic": "H2K3",
+      "claim": "Sangla is on the Baspa, 18 km from Karcham and 38 km from Reckong Peo.",
+      "claimType": "distance",
+      "evidence": [
+        {
+          "source": "HPT_KIN",
+          "quote": "Sangla is situated on the right bank of Baspa river 18 Km from Karcham and 38 km from Reckongpeo."
+        }
+      ]
+    },
+    "H2K2": {
+      "place": "himachal-pradesh/kamru-fort",
+      "topic": "H2K2",
+      "claim": "Kamru's main gate bears the Buddha; the village grows some of Himachal's finest apples and has a Badrinath temple.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "HPT_KIN",
+          "quote": "The main wooden gate of the fort has the Buddha cast on it, whose blessings are sought before entering the village."
+        },
+        {
+          "source": "HPT_KIN",
+          "quote": "surrounded by fields and orchards producing some of the finest apples of Himachal"
+        },
+        {
+          "source": "HPT_KIN",
+          "quote": "The village also has a Badrinath temple."
+        }
+      ]
+    },
+    "H2L2": {
+      "place": "himachal-pradesh/nako-lake",
+      "topic": "H2L2",
+      "claim": "Nako Monastery dates to 1025 AD; Nako is the largest village in the Hangrang valley.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WP_NAKO",
+          "quote": "Nako Monastery, dated to 1025 AD, is located in the village as well as several other Buddhist chortens."
+        },
+        {
+          "source": "WP_NAKO",
+          "quote": "Nako is the largest village in the Hangrang Valley"
+        }
+      ]
+    },
+    "H2L1": {
+      "place": "himachal-pradesh/nako-lake",
+      "topic": "H2L1",
+      "claim": "Nako, at 3,662 m, has a small lake and a revered monastery; a rock footprint is ascribed to Padmasambhava; base for Tashigang and Reo Pargial.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "HPT_KIN",
+          "quote": "At the commanding altitude of 3,662 meters, Nako village with a small lake and a highly revered Buddhist monastery has become very popular with tourists."
+        },
+        {
+          "source": "HPT_KIN",
+          "quote": "A footprint-like impression cast on a rock is ascribed to Guru Padmasambhava"
+        },
+        {
+          "source": "HPT_KIN",
+          "quote": "Nako is also the base to reach Tashigang monastery and is the starting point for mountaineers setting out to scale Reo Pargial Peak."
+        }
+      ]
+    },
+    "H2L3": {
+      "place": "himachal-pradesh/nako-lake",
+      "topic": "H2L3",
+      "claim": "Nako is 115 km from Powari.",
+      "claimType": "distance",
+      "evidence": [
+        {
+          "source": "HPT_KIN",
+          "quote": "Nako is 115 km from Powari."
+        }
+      ]
+    }
+  },
+  "places": [
+    {
+      "key": "himachal-pradesh/chitkul",
+      "kind": "town",
+      "name": "Chitkul",
+      "summary": "The last inhabited village on the old Hindustan–Tibet road, 25 km beyond Sangla, where the Baspa valley road ends.",
+      "seoTitle": "Chitkul, Kinnaur: India's Last Village on the Baspa",
+      "seoDescription": "Chitkul in the Baspa valley: the last village on the Indo-Tibet border, 25 km from Sangla, its Mathi temple, wooden houses, riverside camping and winter snow.",
+      "lat": 31.3518,
+      "lng": 78.4368,
+      "tripTypes": [
+        "mountains",
+        "nature"
+      ],
+      "images": [
+        {
+          "commons": "File:Chitkul Village Kinnaur DSC08337.jpg",
+          "alt": "Wooden houses of Chitkul with snow peaks rising above the Baspa valley",
+          "caption": "Chitkul",
+          "hero": true
+        }
+      ],
+      "parent": "himachal-pradesh/kinnaur",
+      "sections": {
+        "overview": {
+          "text": "Chitkul, in the Baspa valley 25 km beyond Sangla, is the last inhabited village on the Indo-Tibet border. The road ends here; anything further is on foot.\n\nThe village is a cluster of slate- and wood-roofed houses in the old Kath Kuni style, with a Buddhist temple, a small tower and a temple to the local goddess Mathi at its centre. Around it, terraced fields climb the slopes and the clear Baspa runs through — camping by the river is one of the best ways to see it.\n\nCome between April and October: in winter Chitkul is mostly under snow and many villagers move lower down.",
+          "facts": [
+            "H2C1",
+            "H2C4",
+            "H2C2",
+            "H2C3",
+            "H2N1"
+          ]
+        },
+        "visit_info": {
+          "items": [
+            {
+              "title": "From Sangla",
+              "body": "25 km",
+              "status": "verified"
+            },
+            {
+              "title": "Road",
+              "body": "Ends at the village",
+              "status": "verified"
+            },
+            {
+              "title": "Winter",
+              "body": "Mostly snowbound; many villagers move down",
+              "status": "seasonal"
+            }
+          ],
+          "facts": [
+            "H2C1",
+            "H2C3"
+          ]
+        }
+      }
+    },
+    {
+      "key": "himachal-pradesh/great-himalayan-national-park",
+      "kind": "nature",
+      "name": "Great Himalayan National Park",
+      "summary": "A UNESCO-listed wilderness of 1,171 sq km above the Tirthan and Sainj valleys, with no roads inside — for trekkers and campers only.",
+      "seoTitle": "Great Himalayan National Park (GHNP): Treks & Permits",
+      "seoDescription": "Great Himalayan National Park in Kullu: UNESCO World Heritage since 2014, tahr, brown bear, snow leopard and tragopan, trekking from Gushaini and the park rules.",
+      "lat": 31.7333,
+      "lng": 77.55,
+      "tripTypes": [
+        "nature",
+        "wildlife",
+        "adventure"
+      ],
+      "images": [
+        {
+          "commons": "File:Great Himalayan National Park Mountain View.jpg",
+          "alt": "Forested ridges and snow mountains of the Great Himalayan National Park",
+          "caption": "Great Himalayan National Park",
+          "hero": true
+        }
+      ],
+      "parent": "himachal-pradesh/tirthan-valley",
+      "sections": {
+        "overview": {
+          "text": "The Great Himalayan National Park covers 1,171 sq km of the Kullu district, rising from 1,500 m to 6,000 m. It was set up in 1984 and became a UNESCO World Heritage Site in 2014.\n\nIt is home to rare and endangered animals — Himalayan tahr, brown bear, snow leopard and blue sheep — and birds such as the western tragopan and monal. There are no roads or paved trails inside, so the park is only for trekkers and campers. The usual way in is from the Tirthan valley: Aut, Larji, Shai Ropa, then Gushaini, where treks begin.\n\nInside, open fires are banned and you should reach camp well before sunset.",
+          "facts": [
+            "H2G1",
+            "H2G2",
+            "H2G3",
+            "H2T6"
+          ]
+        },
+        "visit_info": {
+          "items": [
+            {
+              "title": "Area",
+              "body": "1,171 sq km",
+              "status": "verified"
+            },
+            {
+              "title": "Altitude",
+              "body": "1,500–6,000 m",
+              "status": "verified"
+            },
+            {
+              "title": "Trek roadhead",
+              "body": "Gushaini, via Aut",
+              "status": "verified"
+            },
+            {
+              "title": "Roads inside",
+              "body": "None",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "H2G1",
+            "H2G3",
+            "H2G2"
+          ]
+        }
+      }
+    },
+    {
+      "key": "himachal-pradesh/jalori-pass",
+      "kind": "viewpoint",
+      "name": "Jalori Pass",
+      "summary": "A windswept pass above Shoja between the Beas and Satluj valleys, with views over the GHNP and a day hike to Serolsar Lake; closed December–March.",
+      "seoTitle": "Jalori Pass & Serolsar Lake Hike",
+      "seoDescription": "Jalori Pass above Shoja: views of the Himalaya and the GHNP forests, the day hike to Serolsar Lake, buses in summer and the December–March closure.",
+      "lat": 31.535,
+      "lng": 77.373,
+      "tripTypes": [
+        "mountains",
+        "nature"
+      ],
+      "images": [
+        {
+          "commons": "File:Himalayan range from Jalori Pass.jpg",
+          "alt": "Snow-capped Himalayan ranges seen across forested ridges from Jalori Pass",
+          "caption": "View from Jalori Pass",
+          "hero": true
+        }
+      ],
+      "parent": "himachal-pradesh/tirthan-valley",
+      "sections": {
+        "overview": {
+          "text": "Jalori is a windswept pass on the road from the Tirthan valley towards Ani and Shimla, and it marks the divide between the Satluj and Beas catchments. From the top the view takes in snow-capped ranges in the distance, the deep forests of the Great Himalayan National Park and the river valleys on both sides.\n\nThe cold air makes it fine trekking country. The classic outing is the day hike to Serolsar Lake; Shoja, a quiet hamlet of orchards just below, is the base for easy walks to Jalori, Serolsar, Takrasi and Khanag. Buses cross regularly in summer, but heavy snow closes the pass from December to March.",
+          "facts": [
+            "H2J1",
+            "H2J3",
+            "H2J2"
+          ]
+        },
+        "visit_info": {
+          "items": [
+            {
+              "title": "Snow closure",
+              "body": "December to March",
+              "status": "seasonal"
+            },
+            {
+              "title": "Hike",
+              "body": "Day walk to Serolsar Lake",
+              "status": "verified"
+            },
+            {
+              "title": "Base",
+              "body": "Shoja",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "H2J2",
+            "H2J1",
+            "H2J3"
+          ]
+        }
+      }
+    },
+    {
+      "key": "himachal-pradesh/kamru-fort",
+      "kind": "attraction",
+      "name": "Kamru Fort",
+      "summary": "A five-storey wood-and-stone fort above Sangla, the old seat of Kinnaur's rulers, reached through Kamru's apple orchards.",
+      "seoTitle": "Kamru Fort, Sangla Valley (Kinnaur)",
+      "seoDescription": "Kamru Fort above Sangla: the old seat of Kinnaur's rulers, five storeys of wood and stone, the Buddha gate, Kamakhya Devi and Kamru's apple orchards.",
+      "lat": 31.4368,
+      "lng": 78.2581,
+      "tripTypes": [
+        "heritage",
+        "mountains"
+      ],
+      "images": [
+        {
+          "commons": "File:Kamru Fort, Kamru village, Sangla Valley, Himachal Pradesh 02.jpg",
+          "alt": "The tall wooden tower of Kamru Fort rising above village roofs near Sangla",
+          "caption": "Kamru Fort",
+          "hero": true
+        }
+      ],
+      "parent": "himachal-pradesh/kinnaur",
+      "sections": {
+        "overview": {
+          "text": "The hill fort of Kamru towers over Sangla village. Built of wood and stone, it was the original seat of power of the rulers of Kinnaur, and it still rises five storeys above a dense cluster of houses, fields and orchards that grow some of Himachal's finest apples.\n\nThe village's main wooden gate carries an image of the Buddha, whose blessing is sought before entering; a series of low gates then lead up to the fort. Its upper storey enshrines the goddess Kamakhya Devi, whose idol is said to have come from Assam centuries ago. The village also has a Badrinath temple. Sangla itself is 38 km from Reckong Peo.",
+          "facts": [
+            "H2K1",
+            "H2K2",
+            "H2K3"
+          ]
+        },
+        "visit_info": {
+          "items": [
+            {
+              "title": "Storeys",
+              "body": "Five",
+              "status": "verified"
+            },
+            {
+              "title": "Above",
+              "body": "Sangla village, Baspa valley",
+              "status": "verified"
+            },
+            {
+              "title": "Sangla from Reckong Peo",
+              "body": "38 km",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "H2K1",
+            "H2K3"
+          ]
+        }
+      }
+    },
+    {
+      "key": "himachal-pradesh/nako-lake",
+      "kind": "lake",
+      "name": "Nako Lake",
+      "summary": "A small lake in Nako village at 3,662 m in upper Kinnaur, beside a monastery from 1025 AD, on the road to Spiti.",
+      "seoTitle": "Nako Lake & Monastery, Kinnaur",
+      "seoDescription": "Nako in upper Kinnaur: the village lake at 3,662 m, Nako Monastery from 1025 AD, Padmasambhava's footprint and the road on to Spiti.",
+      "lat": 31.8815,
+      "lng": 78.6275,
+      "tripTypes": [
+        "nature",
+        "spiritual"
+      ],
+      "images": [
+        {
+          "commons": "File:Nako Lake and Nako Village, Himachal Pradesh.jpg",
+          "alt": "Nako lake fringed by trees with the stone houses of Nako village behind",
+          "caption": "Nako Lake and village",
+          "hero": true
+        }
+      ],
+      "parent": "himachal-pradesh/kinnaur",
+      "sections": {
+        "overview": {
+          "text": "Nako, at about 3,662 m, is the largest village in the Hangrang valley of upper Kinnaur and one of its most picturesque. A small lake lies at its edge, ringed by willows and poplars, and above it stands Nako Monastery, dated to 1025 AD, with several chortens around it.\n\nA footprint-like mark on a rock is said to be Guru Padmasambhava's, who is believed to have carried Buddhism to Kinnaur, Lahaul, Spiti and Tibet. Nako is also the base for Tashigang monastery and for climbers heading for Reo Pargial. It is 115 km from Powari on the highway to Spiti — a natural overnight stop between Kalpa and Tabo.",
+          "facts": [
+            "H2L2",
+            "H2L1",
+            "H2L3"
+          ]
+        },
+        "visit_info": {
+          "items": [
+            {
+              "title": "Altitude",
+              "body": "About 3,662 m",
+              "status": "verified"
+            },
+            {
+              "title": "Monastery",
+              "body": "Dated 1025 AD",
+              "status": "verified"
+            },
+            {
+              "title": "From Powari",
+              "body": "115 km",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "H2L1",
+            "H2L2",
+            "H2L3"
+          ]
+        }
+      }
+    }
+  ],
+  "itineraries": [],
+  "guides": []
+}

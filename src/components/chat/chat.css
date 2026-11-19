@@ -5,7 +5,7 @@
 @keyframes cx-up { from { opacity: 0.001; transform: translateY(4px); } to { opacity: 1; transform: none; } }
 
 /* Typing caret at the end of streaming text */
-.cx-caret { display: inline-block; width: 2px; height: 1.05em; margin-left: 2px; vertical-align: -0.15em; border-radius: 1px; background: currentColor; animation: cx-blink 1s steps(1) infinite; }
+.cx-caret { display: inline-block; width: 2px; height: 1.05em; margin-left: 2px; vertical-align: -0.15em; background: currentColor; animation: cx-blink 1s steps(1) infinite; }
 @keyframes cx-blink { 50% { opacity: 0; } }
 
 /* Card placeholder while the answer's cards are being written */

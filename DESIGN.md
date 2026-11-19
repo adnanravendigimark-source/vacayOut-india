@@ -40,6 +40,21 @@ typography:
     fontSize: "0.9375rem"
     fontWeight: 400
     lineHeight: 1.6
+  ui:
+    fontFamily: "Inter Variable, ui-sans-serif, system-ui, sans-serif"
+    fontSize: "0.8125rem"
+    fontWeight: 500
+    lineHeight: 1.4
+  caption:
+    fontFamily: "Inter Variable, ui-sans-serif, system-ui, sans-serif"
+    fontSize: "0.75rem"
+    fontWeight: 400
+    lineHeight: 1.4
+  card-title:
+    fontFamily: "Lora Variable, ui-serif, Georgia, serif"
+    fontSize: "1.125rem"
+    fontWeight: 400
+    lineHeight: 1.3
   label:
     fontFamily: "Inter Variable, ui-sans-serif, system-ui, sans-serif"
     fontSize: "0.6875rem"
@@ -135,6 +150,7 @@ A warm neutral world with one confident coral accent.
 - **Title** (400, ~1.25rem serif): card titles (place names).
 - **Body** (400, 0.9375rem, 1.6): paragraphs, max ~65ch.
 - **Label** (600, 0.6875rem, 0.14em tracking, uppercase): eyebrows, kinds/categories, fact labels.
+- **Compact UI steps (tool surfaces such as the AI chat):** card title 1.125rem serif; UI 0.8125rem (buttons, chips, meta rows, table labels); caption 0.75rem (hints, legends). Body stays 0.9375rem.
 
 ### Named Rules
 **The Serif-for-Places Rule.** Names of places and section titles are serif; numbers, facts, buttons and UI are sans.
@@ -176,6 +192,12 @@ Gently rounded: 16px for cards, panels and photos; 12px for small media; full pi
 
 ### Navigation
 - Sticky section menu: rounded pills, active pill slides; progress bar in coral.
+
+### AI chat (a calm tool)
+- No avatar, no glow, no sparkles. Answers start at the left edge; the traveller's message is a sand bubble on the right.
+- One moving thing at a time: a single status line while waiting, then a caret while text streams; card placeholders are flat sand shapes.
+- Coral only for "you are here" and hover. Bullets are warm grey (#B5AFA5); small coral text uses coral-text (#B8432A).
+- Comparison: verdict in the answer text, then the table (sticky first column, scrolls sideways on phones). Itinerary: one card per day — base · travel · rough cost, then Morning / Afternoon / Evening rows.
 
 ### Facts bar (signature)
 - Frosted white bar (80% white, blur) over the hero photo; up to four icon + label + short value cells with hairline dividers.

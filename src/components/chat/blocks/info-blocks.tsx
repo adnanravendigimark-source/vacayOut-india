@@ -70,7 +70,7 @@ export function BudgetBlock({ block }: { block: BlockOf<"budget"> }) {
           <div key={t.label} className="rounded-xl bg-[#FBFAF8] px-3 py-2.5">
             <dt className="text-[0.8125rem] font-semibold text-[#555555]">{t.label}</dt>
             <dd className="mt-0.5">
-              <span className="block text-[1rem] font-semibold tabular-nums text-ink">
+              <span className="block text-[0.9375rem] font-semibold tabular-nums text-ink">
                 {t.high ? `${inr(t.low)}–${t.high.toLocaleString("en-IN")}` : `${inr(t.low)}+`}
               </span>
               {t.includes ? <span className="mt-0.5 block text-[0.8125rem] leading-snug text-[#666666]">{t.includes}</span> : null}

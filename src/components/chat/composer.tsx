@@ -79,10 +79,11 @@ export function Composer({
           enterKeyHint="send"
           onChange={(e) => setValue(e.target.value)}
           onKeyDown={(e) => {
-            if (e.key === "Enter" && !e.shiftKey && !e.nativeEvent.isComposing) {
-              e.preventDefault();
-              submit();
-            }
+            if (e.key !== "Enter" || e.shiftKey || e.ctrlKey || e.metaKey || e.altKey) return;
+            // Enter confirms Hindi/Japanese/Chinese input-method text instead of sending; held Enter sends once.
+            if (e.nativeEvent.isComposing || e.keyCode === 229) return;
+            e.preventDefault();
+            if (!e.repeat) submit();
           }}
           placeholder={placeholder}
           className="max-h-42 min-h-11 flex-1 resize-none bg-transparent px-3 py-2.5 text-[0.9375rem] leading-relaxed text-ink outline-none placeholder:text-[#767676]"

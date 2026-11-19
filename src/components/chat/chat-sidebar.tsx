@@ -53,7 +53,7 @@ export function ChatSidebar({ activeId, onNavigate }: { activeId: string | null;
           }
           onNavigate?.();
         }}
-        className="flex h-10 items-center justify-center gap-2 rounded-full bg-ink px-4 text-[0.875rem] font-semibold text-white transition-colors hover:bg-black focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-ink"
+        className="flex h-10 shrink-0 items-center justify-center gap-2 rounded-full bg-ink px-4 text-[0.8125rem] font-semibold text-white transition-colors hover:bg-black focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-ink"
       >
         <Icon name="arrowRight" size={15} className="-rotate-45" />
         New trip
@@ -77,7 +77,7 @@ export function ChatSidebar({ activeId, onNavigate }: { activeId: string | null;
                         title={c.title}
                         className="min-w-0 flex-1 px-2.5 py-2"
                       >
-                        <span className={`block truncate text-[0.875rem] ${on ? "font-semibold text-ink" : "text-[#333333]"}`}>{c.title}</span>
+                        <span className={`block truncate text-[0.8125rem] ${on ? "font-semibold text-ink" : "text-[#333333]"}`}>{c.title}</span>
                       </Link>
                       <button
                         type="button"
@@ -116,7 +116,7 @@ function AccountBox() {
   if (!me) return <div className="mt-auto" />;
   if (me.traveller) {
     return (
-      <div className="mt-auto rounded-2xl border border-line bg-white px-3.5 py-2.5 text-[0.8125rem]">
+      <div className="mt-auto shrink-0 rounded-2xl border border-line bg-white px-3.5 py-2.5 text-[0.8125rem]">
         <p className="truncate font-semibold text-ink">{me.traveller.name || me.traveller.email}</p>
         <form
           action={async () => {
@@ -130,7 +130,7 @@ function AccountBox() {
     );
   }
   return (
-    <button type="button" onClick={() => openAuth({ mode: "signin" })} className="mt-auto flex min-h-11 items-center gap-2 rounded-2xl border border-line bg-white px-3.5 py-2.5 text-left text-[0.8125rem] font-semibold text-ink transition-colors hover:border-ink">
+    <button type="button" onClick={() => openAuth({ mode: "signin" })} className="mt-auto flex min-h-11 shrink-0 items-center gap-2 rounded-2xl border border-line bg-white px-3.5 py-2.5 text-left text-[0.8125rem] font-semibold text-ink transition-colors hover:border-ink">
       <Icon name="user" size={14} className="shrink-0 text-[#666666]" />
       Sign in or create a free account
     </button>

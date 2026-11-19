@@ -106,7 +106,7 @@
     },
     "HPT_TIPS": {
       "url": "https://himachaltourism.gov.in/travel-safety-tips/",
-      "title": "Travel safety tips — Himachal Tourism (Government of Himachal Pradesh)",
+      "title": "Travel Safety Tips — Himachal Tourism",
       "authority": "government"
     },
     "HPT_FAIRS": {
@@ -332,6 +332,11 @@
     "HPT_CHA": {
       "url": "https://himachaltourism.gov.in/destination/chamba/",
       "title": "Chamba — Himachal Tourism",
+      "authority": "government"
+    },
+    "DK_POI_F": {
+      "url": "https://hpkullu.nic.in/tourism/places-of-interest/",
+      "title": "Places of Interest — District Kullu",
       "authority": "government"
     }
   },
@@ -3248,6 +3253,166 @@
           "quote": "Relatively untouched this valley is a nature trekkers haven."
         }
       ]
+    },
+    "H3G2": {
+      "place": "himachal-pradesh/naggar",
+      "topic": "H3G2",
+      "claim": "Naggar was Kullu's capital after Jagatsukh until Raja Jagat Singh moved it to Kullu.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "DK_POI_F",
+          "quote": "Naggar succeeded Nast (Jagatsukh) as the capital of Kullu."
+        },
+        {
+          "source": "DK_POI_F",
+          "quote": "continued as the headquarter of the state until the capital was transferred to Kullu (Sultanpur) by Raja Jagat Singh"
+        }
+      ]
+    },
+    "H3G3": {
+      "place": "himachal-pradesh/naggar",
+      "topic": "H3G3",
+      "claim": "The castle, now a tourist lodge, stands on a steep rise over the valley.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "DK_POI_F",
+          "quote": "The castle now is converted into a tourist lodge is built on a steep eminence overlooking the valley"
+        }
+      ]
+    },
+    "H3G5": {
+      "place": "himachal-pradesh/naggar",
+      "topic": "H3G5",
+      "claim": "Nicholas Roerich made Naggar his home from 1929.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "DK_POI_F",
+          "quote": "had selected Naggar as his residence when he came to India in 1929"
+        }
+      ]
+    },
+    "H1S1": {
+      "place": "himachal-pradesh",
+      "topic": "H1S1",
+      "claim": "Dial 100 for police and 108 for an ambulance.",
+      "claimType": "contact",
+      "evidence": [
+        {
+          "source": "HPT_TIPS",
+          "quote": "Police Station: 100 Ambulance: 108"
+        }
+      ]
+    },
+    "H1S2": {
+      "place": "himachal-pradesh",
+      "topic": "H1S2",
+      "claim": "Monsoon (July–August) brings slippery roads, landslides and rock-falls.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "HPT_TIPS",
+          "quote": "During the monsoon season (July-August), be careful while driving on the road because of slippery conditions and land-slides/ rock-falls."
+        }
+      ]
+    },
+    "H3G1": {
+      "place": "himachal-pradesh/naggar",
+      "topic": "H3G1",
+      "claim": "Naggar sits about 300 m above the left bank of the Beas, 27 km from Kullu and 5 km from Patli Kuhl, linked by a bridge.",
+      "claimType": "distance",
+      "evidence": [
+        {
+          "source": "DK_POI_F",
+          "quote": "Naggar, on the left bank of the Beas and about 300 mts above the river"
+        },
+        {
+          "source": "DK_POI_F",
+          "quote": "It is 27 kms from Kullu and 5 kms from Patli Kulh. There is a bridge across the river Beas connecting Naggar and Patli Kulh."
+        }
+      ]
+    },
+    "H3G4": {
+      "place": "himachal-pradesh/naggar",
+      "topic": "H3G4",
+      "claim": "Temples: Gauri-Shankar (protected, about 800 years old), Vishnu Chaturbhuj, pagoda-style Tripura Sundari and Murli Dhar on the ridge.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "DK_POI_F",
+          "quote": "Gauri-Shankar Temple of Lord Shiva, a charming example of the architecture and carving. It is presumed that the temple which is a protected monument is eight hundred years old."
+        },
+        {
+          "source": "DK_POI_F",
+          "quote": "A little higher is the Vishnu temple of Chatturbhuj"
+        },
+        {
+          "source": "DK_POI_F",
+          "quote": "Pagoda shaped temple of Tripura Sundri Devi"
+        },
+        {
+          "source": "DK_POI_F",
+          "quote": "Highest of all on a small ridge above Naggar, is theKrishna temple of Murli Dhar."
+        }
+      ]
+    },
+    "H1S3": {
+      "place": "himachal-pradesh",
+      "topic": "H1S3",
+      "claim": "Don't stand on cliff edges or riverside boulders; river currents are strong and deceptive.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "HPT_TIPS",
+          "quote": "Do not stand at the edge of a cliff or on any bolder near a river bank for photographs etc. The water current in rivers of Himachal Pradesh is very strong and highly deceptive."
+        }
+      ]
+    },
+    "H1S7": {
+      "place": "himachal-pradesh",
+      "topic": "H1S7",
+      "claim": "Avoid night driving in the hills.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "HPT_TIPS",
+          "quote": "Avoid night driving in the hills."
+        }
+      ]
+    },
+    "H3J2": {
+      "place": "himachal-pradesh/jagatsukh",
+      "topic": "H3J2",
+      "claim": "Its chief temple is a Shikhara-style Shiva temple with fine carving, next to the Gayatri Devi temple; Devi Sarvali's temple is at Shooru near the Hamta Nullah.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "DK_POI_F",
+          "quote": "The most important being the Shiva Temple in the Shikhra style. It has a very chaste sculptured decoration. The temple of Gayatri Devi is also located near this temple."
+        },
+        {
+          "source": "DK_POI_F",
+          "quote": "Before reaching Jagatsukh a place Shooru, near the entrance to Hamta Nullah, is passed at which is located teh ancient and historical temple of Devi Sarvali."
+        }
+      ]
+    },
+    "H3J1": {
+      "place": "himachal-pradesh/jagatsukh",
+      "topic": "H3J1",
+      "claim": "Jagatsukh, once Nast, was Kullu's capital for twelve generations; it is 12 km from Naggar and 6 km from Manali on the left bank road.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "DK_POI_F",
+          "quote": "Here the earliest Rajas ruled for twelve generations till, in the reign of Visudh Pal, the capital was transferred to Naggar."
+        },
+        {
+          "source": "DK_POI_F",
+          "quote": "It lies on the left bank of the Beas and the road from Naggar to Manali runs through the village. It is about twelve km from Naggar and six km from Manali."
+        }
+      ]
     }
   },
   "places": [
@@ -4738,6 +4903,138 @@
             "NG6",
             "NG7"
           ]
+        },
+        "key_facts": {
+          "items": [
+            {
+              "title": "From Kullu",
+              "body": "27 km",
+              "status": "verified"
+            },
+            {
+              "title": "From Manali",
+              "body": "About 20 km",
+              "status": "verified"
+            },
+            {
+              "title": "Best time",
+              "body": "September–November",
+              "status": "seasonal"
+            },
+            {
+              "title": "Known for",
+              "body": "Naggar Castle and the Roerich gallery",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "H3G1",
+            "NG1",
+            "NG5",
+            "NG3"
+          ]
+        },
+        "things_to_do": {
+          "items": [
+            {
+              "body": "Naggar Castle: the old royal seat, now a tourist lodge, with wide views over the valley."
+            },
+            {
+              "body": "Gauri Shankar Temple at the foot of the bazaar, a protected stone temple about 800 years old."
+            },
+            {
+              "body": "Walk up past the Chaturbhuj Vishnu temple to the pagoda-roofed Tripura Sundari temple."
+            },
+            {
+              "body": "Climb to Murli Dhar, the Krishna temple on the ridge above the village."
+            },
+            {
+              "body": "The Nicholas Roerich Art Gallery, in the house Roerich chose as his home in 1929."
+            },
+            {
+              "body": "Jana Falls, 12 km away."
+            }
+          ],
+          "facts": [
+            "H3G3",
+            "H3G4",
+            "H3G5",
+            "NG3",
+            "NG6"
+          ]
+        },
+        "who_its_for": {
+          "items": [
+            {
+              "title": "History and art",
+              "body": "The castle of the Kullu kings and the Roerich estate."
+            },
+            {
+              "title": "Slow travellers",
+              "body": "A quiet base above the Beas, away from Manali's crowds."
+            },
+            {
+              "title": "Temple walkers",
+              "body": "Four old temples within a short climb of each other."
+            }
+          ],
+          "facts": [
+            "H3G2",
+            "H3G5",
+            "H3G4"
+          ]
+        },
+        "faqs": {
+          "items": [
+            {
+              "title": "How far is Naggar from Manali and Kullu?",
+              "body": "About 20 km from Manali and 27 km from Kullu."
+            },
+            {
+              "title": "Can I stay in Naggar Castle?",
+              "body": "Yes — the castle has been converted into a tourist lodge."
+            },
+            {
+              "title": "Why was Naggar important?",
+              "body": "It was the capital of Kullu after Jagatsukh, until Raja Jagat Singh moved the capital to Kullu."
+            },
+            {
+              "title": "When should I go?",
+              "body": "September to November is the most pleasant."
+            }
+          ],
+          "facts": [
+            "NG1",
+            "H3G1",
+            "H3G3",
+            "H3G2",
+            "NG5"
+          ]
+        },
+        "safety_health": {
+          "items": [
+            {
+              "title": "Emergency numbers",
+              "body": "100 for police, 108 for the free ambulance.",
+              "status": "verified"
+            },
+            {
+              "title": "Hill roads",
+              "body": "Avoid night driving; July–August brings landslides and slippery roads.",
+              "status": "seasonal"
+            },
+            {
+              "title": "Rivers and cliffs",
+              "body": "Don't stand on cliff edges or riverside boulders for photos.",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "H1S1",
+            "H1S7",
+            "H1S2",
+            "H1S3"
+          ]
         }
       },
       "parent": "himachal-pradesh/manali"
@@ -4898,6 +5195,107 @@
           "facts": [
             "JG1",
             "JG3"
+          ]
+        },
+        "key_facts": {
+          "items": [
+            {
+              "title": "From Manali",
+              "body": "6 km",
+              "status": "verified"
+            },
+            {
+              "title": "From Naggar",
+              "body": "12 km",
+              "status": "verified"
+            },
+            {
+              "title": "Known for",
+              "body": "Kullu's first capital and its stone Shiva temple",
+              "status": "verified"
+            },
+            {
+              "title": "Timings",
+              "body": "The village can be visited at any time of day",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "H3J1",
+            "JG3"
+          ]
+        },
+        "things_to_do": {
+          "items": [
+            {
+              "body": "See the Shikhara-style Shiva temple with its fine carving, and the Gayatri Devi temple beside it."
+            },
+            {
+              "body": "Stop at Shooru, at the mouth of the Hamta Nullah, for the old Devi Sarvali temple."
+            },
+            {
+              "body": "Time a visit for the Chacholi Jatra festival."
+            },
+            {
+              "body": "Use the village as a start for treks towards Deo Tibba."
+            }
+          ],
+          "facts": [
+            "H3J2",
+            "JG2",
+            "JG3"
+          ]
+        },
+        "how_to_reach": {
+          "text": "Jagatsukh is on the left-bank road between Manali (6 km) and Naggar (12 km), which runs right through the village. Taxis from Manali make it an easy half-hour stop, and you can visit at any time of day.",
+          "facts": [
+            "H3J1",
+            "JG3"
+          ]
+        },
+        "faqs": {
+          "items": [
+            {
+              "title": "How far is Jagatsukh from Manali?",
+              "body": "6 km, on the road to Naggar."
+            },
+            {
+              "title": "Why is Jagatsukh historic?",
+              "body": "As Nast, it was the capital of the Kullu rulers for twelve generations before the capital moved to Naggar."
+            },
+            {
+              "title": "What should I see?",
+              "body": "The carved Shikhara-style Shiva temple and the Gayatri Devi temple, and Devi Sarvali at Shooru on the way."
+            }
+          ],
+          "facts": [
+            "H3J1",
+            "H3J2"
+          ]
+        },
+        "safety_health": {
+          "items": [
+            {
+              "title": "Emergency numbers",
+              "body": "100 for police, 108 for the free ambulance.",
+              "status": "verified"
+            },
+            {
+              "title": "Hill roads",
+              "body": "Avoid night driving; July–August brings landslides and slippery roads.",
+              "status": "seasonal"
+            },
+            {
+              "title": "Rivers and cliffs",
+              "body": "Don't stand on cliff edges or riverside boulders for photos.",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "H1S1",
+            "H1S7",
+            "H1S2",
+            "H1S3"
           ]
         }
       },

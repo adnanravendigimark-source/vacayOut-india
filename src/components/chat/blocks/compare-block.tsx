@@ -18,7 +18,7 @@ export function CompareBlock({ block }: { block: BlockOf<"compare"> }) {
                 <span className="sr-only">Aspect</span>
               </th>
               {block.columns.map((c) => (
-                <th key={c} scope="col" className="bg-[#FBFAF8] px-3 py-3 font-serif text-[1.0625rem] font-normal text-ink sm:px-4">{c}</th>
+                <th key={c} scope="col" className="bg-[#FBFAF8] px-3 py-3 font-serif text-[1.125rem] font-normal text-ink sm:px-4">{c}</th>
               ))}
             </tr>
           </thead>

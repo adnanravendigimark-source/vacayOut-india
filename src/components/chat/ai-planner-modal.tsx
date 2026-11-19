@@ -334,6 +334,12 @@ export function AiPlannerModal({
                       <div className="rounded-2xl border border-[#EBE8E1] bg-white p-4 sm:p-5 shadow-xs text-sm sm:text-[0.9375rem] text-[#222222] leading-relaxed font-normal">
                         {textBlock.text}
                       </div>
+                    ) : m.draft ? (
+                      // The reply as it streams in.
+                      <div className="whitespace-pre-line rounded-2xl border border-[#EBE8E1] bg-white p-4 sm:p-5 shadow-xs text-sm sm:text-[0.9375rem] text-[#222222] leading-relaxed font-normal">
+                        {m.draft}
+                        <span aria-hidden className="cx-caret text-ink/70" />
+                      </div>
                     ) : m.status === "streaming" && m.blocks.length === 0 ? (
                       <div className="flex items-center gap-2.5 rounded-2xl border border-[#EBE8E1] bg-white p-4 shadow-xs text-xs sm:text-sm text-[#777777]">
                         <span className="flex gap-1.5">

@@ -41,7 +41,7 @@
     },
     "HPT_KIN": {
       "url": "https://himachaltourism.gov.in/destination/kinnaur/",
-      "title": "Kinnaur — Himachal Tourism (Govt of Himachal Pradesh)",
+      "title": "Kinnaur — Himachal Tourism (Govt of HP)",
       "authority": "government"
     },
     "W_KAZA": {
@@ -202,6 +202,41 @@
     "DTC_SPITI": {
       "url": "https://hptdc.hp.gov.in/hotel-detail/10",
       "title": "Hotel Spiti, Kaza — HPTDC",
+      "authority": "government"
+    },
+    "DTC_KALPA": {
+      "url": "https://hptdc.hp.gov.in/hotel-detail/30",
+      "title": "The Kinner Kailash, Kalpa — HPTDC",
+      "authority": "government"
+    },
+    "GHNP_RULESX": {
+      "url": "https://greathimalayannationalpark.org/plan-your-trip/fees-rules-and-guidelines/",
+      "title": "Fees, rules and guidelines — GHNP",
+      "authority": "government"
+    },
+    "GHNP_TVX": {
+      "url": "https://greathimalayannationalpark.org/destinations/tirthan-valley/",
+      "title": "Tirthan Valley — Great Himalayan National Park",
+      "authority": "government"
+    },
+    "GHNP_REACHX": {
+      "url": "https://greathimalayannationalpark.org/plan-your-trip/accessing-the-great-himalayan-national-park/",
+      "title": "Accessing GHNP — Great Himalayan National Park",
+      "authority": "government"
+    },
+    "DTC_ROS": {
+      "url": "https://hptdc.hp.gov.in/hotel-detail/58",
+      "title": "Hotel Ros Common, Kasauli — HPTDC",
+      "authority": "government"
+    },
+    "HPSO_KAS": {
+      "url": "https://hpsolan.nic.in/tourist-place/kasauli/",
+      "title": "Kasauli — District Solan",
+      "authority": "government"
+    },
+    "II_KAS": {
+      "url": "https://incredibleindia.gov.in/en/himachal-pradesh/kasauli",
+      "title": "Kasauli — Incredible India (Ministry of Tourism)",
       "authority": "government"
     }
   },
@@ -2553,6 +2588,558 @@
           "quote": "but a better approach is to undertake a 2 hour level walk from Kunzum Pass."
         }
       ]
+    },
+    "H2N13": {
+      "place": "himachal-pradesh/kinnaur",
+      "topic": "H2N13",
+      "claim": "English and Hindi in tourism; locals speak Kinnauri.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "HPT_KIN",
+          "quote": "English and Hindi is understood and spoken by people associated with tourism. However, the locals communicate in Kinnauri"
+        }
+      ]
+    },
+    "H2N15": {
+      "place": "himachal-pradesh/kinnaur",
+      "topic": "H2N15",
+      "claim": "Ribba is known for local brews and chilgoza pine nuts; Pooh has vineyards and apricots.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "HPT_KIN",
+          "quote": "Famous for its local brews and edible pine nuts (Chilgoza) Ribba is 16 km from Powari."
+        },
+        {
+          "source": "HPT_KIN",
+          "quote": "the countryside around this settlement has vineyards, almond and apricot trees"
+        }
+      ]
+    },
+    "H2N3": {
+      "place": "himachal-pradesh/kinnaur",
+      "topic": "H2N3",
+      "claim": "Local buses run regularly and taxis are available; state buses connect any two places in the district.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "HPT_KIN",
+          "quote": "How To Get Around: Local buses operate regularly. Taxis are also available"
+        },
+        {
+          "source": "HPT_KIN",
+          "quote": "State run public transport buses are conveniently available between any two destinations of the district."
+        }
+      ]
+    },
+    "H2N1": {
+      "place": "himachal-pradesh/kinnaur",
+      "topic": "H2N1",
+      "claim": "April to October is the time to visit; from November it gets colder, well below freezing in December–January.",
+      "claimType": "schedule",
+      "evidence": [
+        {
+          "source": "HPT_KIN",
+          "quote": "April to October is a good time to visit Kinnaur. In winters, starting from November, the temperature starts to fall and they do drop well below the freezing point in December and January."
+        }
+      ]
+    },
+    "H2N2": {
+      "place": "himachal-pradesh/kinnaur",
+      "topic": "H2N2",
+      "claim": "Summers need light woollens plus heavy layers for evenings; winters need heavy woollens.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "HPT_KIN",
+          "quote": "In summers light woollens would be sufficient to live the days but heavy woollens and jackets need to carried along as it can get cold and chilly as the evening draws in. For winters, heavy woollens are essential."
+        }
+      ]
+    },
+    "H2N5": {
+      "place": "himachal-pradesh/kinnaur",
+      "topic": "H2N5",
+      "claim": "Health centres are basic; serious emergencies go to Reckong Peo, Rampur or Shimla.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "HPT_KIN",
+          "quote": "To meet any serious emergency, one has to get to the regional hospital at Reckong Peo, Rampur Bushair or Shimla"
+        }
+      ]
+    },
+    "H2K1": {
+      "place": "himachal-pradesh/kinnaur",
+      "topic": "H2K1",
+      "claim": "Kamru's five-storey wood-and-stone fort above Sangla was the seat of Kinnaur's rulers; it enshrines Kamakhya Devi.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "HPT_KIN",
+          "quote": "Overlooking Sangla village stands the towering hill fort of Kamru. This wood and stone structure was the original seat of power of the rulers of Kinnaur."
+        },
+        {
+          "source": "HPT_KIN",
+          "quote": "A series of low gates in the hamlet lead to the fort that rises five stories high."
+        },
+        {
+          "source": "HPT_KIN",
+          "quote": "The stronghold has an idol of Hindu goddess Kamakhya Devi (Kamakshi) enshrined in the upper storey."
+        }
+      ]
+    },
+    "H2N4": {
+      "place": "himachal-pradesh/kinnaur",
+      "topic": "H2N4",
+      "claim": "Food is simple: wheat, barley and peas; dhabas serve North Indian and Tibetan-influenced dishes; thupa and butter tea (thang).",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "HPT_KIN",
+          "quote": "Kinnauri cuisine is largely basic and frugal comprising of wheat, barley, peas and other similar food items."
+        },
+        {
+          "source": "HPT_KIN",
+          "quote": "the best places are dhabas and snack shops where north Indian cuisine with Tibetan influenced dishes made out of coarse grains of buckwheat, millet, and barley are served."
+        },
+        {
+          "source": "HPT_KIN",
+          "quote": "Thupa, with meat chunks or vegetables and noodles, dipped in a fiery curry is a popular dish."
+        },
+        {
+          "source": "HPT_KIN",
+          "quote": "Butter tea (Salty tea), known as Thang"
+        }
+      ]
+    },
+    "H2N10": {
+      "place": "himachal-pradesh/kinnaur",
+      "topic": "H2N10",
+      "claim": "Kothi village, between Reckong Peo and Kalpa, has orchards, a temple and a view of Kinner Kailash.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "HPT_KIN",
+          "quote": "Kothi, also referred to as Koshtampi, is a large village between Reckong Peo, the district headquarter and Kalpa"
+        },
+        {
+          "source": "HPT_KIN",
+          "quote": "an awe inspiring view of Mount Kinner Kailash"
+        }
+      ]
+    },
+    "H2N6": {
+      "place": "himachal-pradesh/kinnaur",
+      "topic": "H2N6",
+      "claim": "Mobile works at Reckong Peo, Kalpa and Sangla; many trek routes have no signal.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "HPT_KIN",
+          "quote": "Good mobile phone connectivity is available at Reckong Peo, Kalpa, Sangla and other destinations."
+        },
+        {
+          "source": "HPT_KIN",
+          "quote": "Many trek routes and offbeat destinations may not have any mobile phone connectivity at all."
+        }
+      ]
+    },
+    "H2N12": {
+      "place": "himachal-pradesh/kinnaur",
+      "topic": "H2N12",
+      "claim": "Kinnauris wear a cylindrical cap with a band of green, maroon or purple felt; lower Kinnaur is mainly Hindu, the higher reaches Buddhist.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "HPT_KIN",
+          "quote": "striking cylindrical cap that features a half band of green, maroon or purple felt"
+        },
+        {
+          "source": "HPT_KIN",
+          "quote": "Where lower Kinnaur has large influences of Hinduism with traces of Buddhism in their belief systems, in the higher reaches it is Buddhism that dominates."
+        }
+      ]
+    },
+    "H2C1": {
+      "place": "himachal-pradesh/kinnaur",
+      "topic": "H2C1",
+      "claim": "Chitkul, 25 km from Sangla, is the last inhabited village on the Indo-Tibet border; the road ends here.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "HPT_KIN",
+          "quote": "Last inhabited village on the Indo-Tibet border, Chitkul in Baspa valley is 25 km from Sangla. The motorable road ends at this village and any further journey has to be done on foot."
+        }
+      ]
+    },
+    "H2N9": {
+      "place": "himachal-pradesh/kinnaur",
+      "topic": "H2N9",
+      "claim": "Distances from Reckong Peo: Kalpa 13, Sangla 38, Chitkul 65, Nako 102 km.",
+      "claimType": "distance",
+      "evidence": [
+        {
+          "source": "HPT_KIN",
+          "quote": "Kalpa 13 Nako 102 Sangla 38 Chitkul 65"
+        }
+      ]
+    },
+    "H2N11": {
+      "place": "himachal-pradesh/kinnaur",
+      "topic": "H2N11",
+      "claim": "The Kinner Kailash parikrama is an eight-day trek.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "HPT_KIN",
+          "quote": "Where a ‘Parikrama’ (circumambulation) around the holy mountain base is an arduous eight-day trek"
+        }
+      ]
+    },
+    "H2O1": {
+      "place": "himachal-pradesh/kalpa",
+      "topic": "H2O1",
+      "claim": "Kalpa has the carved Narayan-Nagini temple and the Hu-Bu-Lan-Kar gompa with a white chorten and prayer wheels.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "HPT_KIN",
+          "quote": "The finely decorated Narayan-Nagini temple is exemplary about the local craftsmanship, the Buddhist Hu-Bu-Lan-Kar gompa greets you with a white chorten and prayer wheels."
+        }
+      ]
+    },
+    "H2N7": {
+      "place": "himachal-pradesh/kinnaur",
+      "topic": "H2N7",
+      "claim": "Festivals: Fulaich in mid-September, Beesh on 13–14 April, and the Tribal Festival at Reckong Peo in late October–early November.",
+      "claimType": "schedule",
+      "evidence": [
+        {
+          "source": "HPT_KIN",
+          "quote": "Fulaich fair is held in mid-September."
+        },
+        {
+          "source": "HPT_KIN",
+          "quote": "Beesh falling on 13-14 April is celebrated with much fanfare all over Kinnaur."
+        },
+        {
+          "source": "HPT_KIN",
+          "quote": "the Tribal Festival held every year from the last week of October into the first week of November at Reckong Peo"
+        }
+      ]
+    },
+    "H2N8": {
+      "place": "himachal-pradesh/kinnaur",
+      "topic": "H2N8",
+      "claim": "HPTDC runs Hotel Kinner Kailash at Kalpa.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "HPT_KIN",
+          "quote": "Himachal Tourism here operates Hotel Kinner Kailash at the hill station."
+        }
+      ]
+    },
+    "H2A3": {
+      "place": "himachal-pradesh/kalpa",
+      "topic": "H2A3",
+      "claim": "The Kinner Kailash hotel, built in traditional style, closes December–March.",
+      "claimType": "schedule",
+      "evidence": [
+        {
+          "source": "DTC_KALPA",
+          "quote": "The design of the hotel has been inspired by the traditional architecture of the area."
+        },
+        {
+          "source": "DTC_KALPA",
+          "quote": "Closed from December - March due to extreme weather conditions"
+        }
+      ]
+    },
+    "H2A2": {
+      "place": "himachal-pradesh/kalpa",
+      "topic": "H2A2",
+      "claim": "The Kinner Kailash hotel's restaurant serves Indian, continental, Chinese and Himachali food.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "DTC_KALPA",
+          "quote": "Restaurant serving Indian, Continental, Chinese and Himachali cuisine"
+        }
+      ]
+    },
+    "H2A5": {
+      "place": "himachal-pradesh/kalpa",
+      "topic": "H2A5",
+      "claim": "Kalpa's Fulaich celebration is the most vibrant.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "HPT_KIN",
+          "quote": "While Kalpa holds a most vibrant function"
+        }
+      ]
+    },
+    "H2A4": {
+      "place": "himachal-pradesh/kalpa",
+      "topic": "H2A4",
+      "claim": "Shimla to Kalpa is 222 km, about eight hours by road.",
+      "claimType": "distance",
+      "evidence": [
+        {
+          "source": "DTC_KALPA",
+          "quote": "Shimla to Kalpa- 222 KM – Eight hours drive"
+        }
+      ]
+    },
+    "H2A1": {
+      "place": "himachal-pradesh/kalpa",
+      "topic": "H2A1",
+      "claim": "Kalpa is 13 km above Reckong Peo, with views of the snow peaks and a traditional feel.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "HPT_KIN",
+          "quote": "Going past Reckong Peo as you ascend higher (13 km) into the hillside, you reach Kalpa, a beautiful hill station with some breathtaking views of snow peaks to soak in. The small township retains a traditional ambience."
+        }
+      ]
+    },
+    "H2T2": {
+      "place": "himachal-pradesh/tirthan-valley",
+      "topic": "H2T2",
+      "claim": "Visitors hike, fish the Tirthan and stay in traditional homestays.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "GHNP_TVX",
+          "quote": "Whether you’re hiking through the GHNP trails, fishing in the icy-cold Tirthan River, or simply enjoying the sounds of nature from a traditional homestay"
+        }
+      ]
+    },
+    "H2T5": {
+      "place": "himachal-pradesh/tirthan-valley",
+      "topic": "H2T5",
+      "claim": "Manali to Aut is about 70 km, 2–3 hours.",
+      "claimType": "distance",
+      "evidence": [
+        {
+          "source": "GHNP_REACHX",
+          "quote": "From Manali: Approximately 70km, 2- 3hrs journey"
+        }
+      ]
+    },
+    "H2T6": {
+      "place": "himachal-pradesh/tirthan-valley",
+      "topic": "H2T6",
+      "claim": "Inside GHNP: no open fires; find your campsite before sunset; don't exceed your limits; dress modestly.",
+      "claimType": "rule",
+      "evidence": [
+        {
+          "source": "GHNP_RULESX",
+          "quote": "Open fires are forbidden within GHNP."
+        },
+        {
+          "source": "GHNP_RULESX",
+          "quote": "Always find your next campsite well before sunset."
+        },
+        {
+          "source": "GHNP_RULESX",
+          "quote": "Don’t exceed your physical limits."
+        },
+        {
+          "source": "GHNP_RULESX",
+          "quote": "Modest attire must be worn at all times within GHNP and the ecozone."
+        }
+      ]
+    },
+    "H2T3": {
+      "place": "himachal-pradesh/tirthan-valley",
+      "topic": "H2T3",
+      "claim": "Aut on the Chandigarh–Manali highway is the access point; taxis and buses go on to Gushaini; buses and taxis from Kullu, Manali and Mandi.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "GHNP_REACHX",
+          "quote": "The town of Aut , on the Chandigarh-Manali highway, serves as the main access point for further travel by taxi or bus to villages like Gushaini (Tirthan)"
+        },
+        {
+          "source": "GHNP_REACHX",
+          "quote": "Regular buses and taxis operate from Kullu , Manali , and Mandi ."
+        }
+      ]
+    },
+    "H2T4": {
+      "place": "himachal-pradesh/tirthan-valley",
+      "topic": "H2T4",
+      "claim": "HRTC Banjar bus stand: 01903-221243.",
+      "claimType": "contact",
+      "evidence": [
+        {
+          "source": "GHNP_REACHX",
+          "quote": "Himachal Road Transport Corporation, Bus stand, Banjar 01903-221243"
+        }
+      ]
+    },
+    "H2T1": {
+      "place": "himachal-pradesh/tirthan-valley",
+      "topic": "H2T1",
+      "claim": "Tirthan suits nature lovers, trekkers, birdwatchers and slow travellers.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "GHNP_TVX",
+          "quote": "Tirthan Valley is a paradise for nature lovers, trekkers, bird watchers, and those seeking a slow, offbeat Himalayan escape."
+        }
+      ]
+    },
+    "H3C1": {
+      "place": "himachal-pradesh/kasauli",
+      "topic": "H3C1",
+      "claim": "Christ Church, in the heart of Kasauli, is a 19th-century Anglican church, one of Himachal's oldest, with stained-glass windows of Bible scenes.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_KAS",
+          "quote": "The Christ Church is a highlight in Kasauli - a charming Anglican church located in the heart of the town. Built in the 19th century during the British Raj, this church is one of the oldest churches in Himachal Pradesh."
+        },
+        {
+          "source": "II_KAS",
+          "quote": "its beautiful stained-glass windows, which depict scenes from the Bible"
+        }
+      ]
+    },
+    "H3S7": {
+      "place": "himachal-pradesh/kasauli",
+      "topic": "H3S7",
+      "claim": "At dusk the plains below light up; sights include Monkey Point, Baba Balak Nath, Shirdi Sai Baba temple, Christ Church and Lawrence School; regular buses; Dharampur is the nearest station.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "HPSO_KAS",
+          "quote": "Directly below is the spread of vast plains of Punjab and Haryana which as darkness falls, unroll a gorgeous carpet of twinkling lights."
+        },
+        {
+          "source": "HPSO_KAS",
+          "quote": "Places to visit in Kasauli are The Monkey Point,Baba Balak Nath Temple, Shirdi Sai Baba Temple,Chirst and Baptist church and Lawrence School."
+        },
+        {
+          "source": "HPSO_KAS",
+          "quote": "You can easily get regular buses to Kasauli from other major cities."
+        },
+        {
+          "source": "HPSO_KAS",
+          "quote": "Nearest Railway Station Dharmpur, Solan"
+        }
+      ]
+    },
+    "H3S1": {
+      "place": "himachal-pradesh/kasauli",
+      "topic": "H3S1",
+      "claim": "Kasauli suits slow travellers; it has the Mall, cottages among pine and oak, old bazaars and colonial churches.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_KAS",
+          "quote": "it is a haven for slow travelers’ who want to peacefully soak in the beauty of an era gone by"
+        },
+        {
+          "source": "II_KAS",
+          "quote": "The mall road with its quirky shops, quaint cottages tucked amidst towering pine and oak trees, sprawling bungalows, winding roads, old bazaars with cute little shops, majestic colonial churches"
+        }
+      ]
+    },
+    "H3S6": {
+      "place": "himachal-pradesh/kasauli",
+      "topic": "H3S6",
+      "claim": "HPTDC's Hotel Ros Common is a colonial bungalow; Kalka station is 25 km, about 40 minutes.",
+      "claimType": "distance",
+      "evidence": [
+        {
+          "source": "DTC_ROS",
+          "quote": "This colonial bungalow provides an old world atmosphere to truly savour Kasauli."
+        },
+        {
+          "source": "DTC_ROS",
+          "quote": "Kalka Railway Station to Kasauli – 25 KM – 40 minutes drive"
+        }
+      ]
+    },
+    "H3S2": {
+      "place": "himachal-pradesh/kasauli",
+      "topic": "H3S2",
+      "claim": "Music festivals every spring; live music in cafés on the Mall.",
+      "claimType": "schedule",
+      "evidence": [
+        {
+          "source": "II_KAS",
+          "quote": "The Kasauli Rhythm and Blues Festival and the Kasauli Music Festival held annually every spring."
+        },
+        {
+          "source": "II_KAS",
+          "quote": "Live performances liven up local cafes and one can catch a tune or two while café hopping on the mall."
+        }
+      ]
+    },
+    "H3S5": {
+      "place": "himachal-pradesh/kasauli",
+      "topic": "H3S5",
+      "claim": "Heritage hotels and homestays.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_KAS",
+          "quote": "staying at one of the many heritage hotels and qaint homestays"
+        }
+      ]
+    },
+    "H3S3": {
+      "place": "himachal-pradesh/kasauli",
+      "topic": "H3S3",
+      "claim": "The Gilbert Trail runs through pine forest with valley views.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_KAS",
+          "quote": "is a popular trekking route that takes you through thick pine forests and offers panoramic views of the surrounding valleys"
+        }
+      ]
+    },
+    "H3S4": {
+      "place": "himachal-pradesh/kasauli",
+      "topic": "H3S4",
+      "claim": "Gorkha (Nahar Singh) Fort, the Kasauli Art Gallery with painting and pottery workshops, and the toy train.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_KAS",
+          "quote": "The Gorkha Fort in Kasauli also known as the Nahar Singh Fort is a historic landmark"
+        },
+        {
+          "source": "II_KAS",
+          "quote": "Art lovers can visit the Kasauli Art Gallery which exhibits the works of local artists and also conducts workshops"
+        },
+        {
+          "source": "II_KAS",
+          "quote": "The Kasauli Toy train can awaken the child in you"
+        }
+      ]
+    },
+    "H3S8": {
+      "place": "himachal-pradesh/kasauli",
+      "topic": "H3S8",
+      "claim": "Manki Point, a Hanuman temple at 6,500 ft, is where legend says Hanuman set foot while seeking the Sanjeevani herb.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_KAS",
+          "quote": "Perched atop a hill at 6500 feet, Manki Point overlooks scenic mountains and valleys."
+        },
+        {
+          "source": "II_KAS",
+          "quote": "Legend has it that this is the place where Lord Hanuman placed his foot while searching for the Sanjeevani herb"
+        }
+      ]
     }
   },
   "places": [
@@ -3434,6 +4021,180 @@
             "KN7",
             "HS22"
           ]
+        },
+        "best_time": {
+          "text": "April to October is the season. From November it gets steadily colder, and in December and January temperatures fall well below freezing. Even in summer, evenings are cold: pack heavy woollens and a jacket alongside light layers.\n\nPlan around the festivals if you can: Beesh on 13–14 April, Fulaich, the flower festival that sends off summer, in mid-September, and the Tribal Festival at Reckong Peo from the last week of October.",
+          "facts": [
+            "H2N1",
+            "H2N2",
+            "H2N7"
+          ]
+        },
+        "things_to_do": {
+          "items": [
+            {
+              "body": "Drive the Baspa valley through Sangla to Chitkul, the last village on the old Hindustan–Tibet road."
+            },
+            {
+              "body": "Climb through Kamru village to its five-storey wooden fort above Sangla."
+            },
+            {
+              "body": "Watch the light change on Kinner Kailash from Kalpa, and see the Narayan-Nagini temple and Hu-Bu-Lan-Kar gompa."
+            },
+            {
+              "body": "Walk through Kothi's orchards between Reckong Peo and Kalpa."
+            },
+            {
+              "body": "Go up to Nako's lake and monastery on the road to Spiti."
+            },
+            {
+              "body": "Join Fulaich in mid-September, when villages gather wild flowers to see off the summer."
+            },
+            {
+              "body": "For serious trekkers: the eight-day parikrama around Kinner Kailash."
+            }
+          ],
+          "facts": [
+            "H2C1",
+            "H2K1",
+            "H2N10",
+            "H2O1",
+            "H2N7",
+            "H2N11"
+          ]
+        },
+        "food": {
+          "items": [
+            {
+              "body": "Simple Kinnauri food of wheat, barley and peas; non-vegetarians eat goat and ram."
+            },
+            {
+              "body": "Dhabas serve North Indian food and Tibetan-influenced dishes of buckwheat, millet and barley."
+            },
+            {
+              "body": "Thupa — noodles with meat or vegetables in a fiery broth."
+            },
+            {
+              "body": "Thang, salty butter tea, against the cold."
+            },
+            {
+              "body": "Chilgoza pine nuts and local brews from Ribba; apricots and grapes around Pooh."
+            }
+          ],
+          "facts": [
+            "H2N4",
+            "H2N15"
+          ]
+        },
+        "who_its_for": {
+          "items": [
+            {
+              "title": "Road-trippers",
+              "body": "The Hindustan–Tibet Road from Shimla, on to Spiti via Nako."
+            },
+            {
+              "title": "Culture",
+              "body": "Hindu and Buddhist villages side by side, Kinnauri caps, wooden temples and forts."
+            },
+            {
+              "title": "Trekkers",
+              "body": "The Kinner Kailash circuit and high passes from Chitkul and the Baspa valley."
+            },
+            {
+              "title": "Not for",
+              "body": "Anyone needing fast medical care or steady internet away from Reckong Peo, Kalpa and Sangla."
+            }
+          ],
+          "facts": [
+            "H2N12",
+            "H2N11",
+            "H2N5",
+            "H2N6"
+          ]
+        },
+        "local_transport": {
+          "text": "Kinnaur is reached and toured by road. State buses run between almost any two places in the district, and taxis are available — a hired taxi is the easiest way to do a round trip. From Reckong Peo it is 13 km to Kalpa, 38 km to Sangla, 65 km to Chitkul and 102 km to Nako.",
+          "facts": [
+            "H2N3",
+            "H2N9"
+          ]
+        },
+        "where_to_stay": {
+          "text": "Kalpa, 13 km above Reckong Peo, has the best views of Kinner Kailash; HPTDC's Kinner Kailash hotel is there, closed December to March. Sangla is the base for the Baspa valley and Chitkul, and Reckong Peo, the district headquarters, has the most services. Choose stays registered with the Department of Tourism.",
+          "facts": [
+            "H2N8",
+            "H2A3",
+            "H2N9",
+            "H1S6"
+          ]
+        },
+        "safety_health": {
+          "items": [
+            {
+              "title": "Medical care",
+              "body": "Basic health centres only; for emergencies go to Reckong Peo, Rampur or Shimla.",
+              "status": "verified"
+            },
+            {
+              "title": "Signal",
+              "body": "Mobile works at Reckong Peo, Kalpa and Sangla, not on many trek routes.",
+              "status": "verified"
+            },
+            {
+              "title": "Cold",
+              "body": "Evenings are cold all year; winters fall well below freezing.",
+              "status": "seasonal"
+            },
+            {
+              "title": "Roads",
+              "body": "Avoid night driving; in July–August watch for landslides and rock-falls.",
+              "status": "seasonal"
+            },
+            {
+              "title": "Emergency numbers",
+              "body": "100 for police, 108 for ambulance.",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "H2N5",
+            "H2N6",
+            "H2N1",
+            "H1S7",
+            "H1S2",
+            "H1S1"
+          ]
+        },
+        "faqs": {
+          "items": [
+            {
+              "title": "When should I visit Kinnaur?",
+              "body": "April to October. Winters drop well below freezing in December and January."
+            },
+            {
+              "title": "How far is Chitkul from Reckong Peo?",
+              "body": "65 km; Sangla is 38 km and Kalpa 13 km."
+            },
+            {
+              "title": "Is there mobile signal?",
+              "body": "Yes at Reckong Peo, Kalpa and Sangla, but many trek routes have none."
+            },
+            {
+              "title": "What language is spoken?",
+              "body": "Locals speak Kinnauri; Hindi and English are understood in tourism."
+            },
+            {
+              "title": "When is Fulaich?",
+              "body": "Mid-September; Kalpa holds the liveliest celebration."
+            }
+          ],
+          "facts": [
+            "H2N1",
+            "H2N9",
+            "H2N6",
+            "H2N13",
+            "H2N7"
+          ]
         }
       },
       "parent": "himachal-pradesh"
@@ -3506,6 +4267,144 @@
           "facts": [
             "KA5",
             "KA2"
+          ]
+        },
+        "things_to_do": {
+          "items": [
+            {
+              "body": "Walk the Mall and old bazaars past colonial bungalows and churches."
+            },
+            {
+              "body": "Christ Church, one of the oldest churches in Himachal, with stained-glass windows."
+            },
+            {
+              "body": "Monkey Point, the Hanuman temple where legend says Hanuman stopped while searching for the Sanjeevani herb."
+            },
+            {
+              "body": "Hike the Gilbert Trail through pine forest."
+            },
+            {
+              "body": "Watch the lights of the Punjab and Haryana plains come on at dusk."
+            },
+            {
+              "body": "Gorkha (Nahar Singh) Fort, the Kasauli Art Gallery's painting and pottery workshops, and a toy-train ride."
+            }
+          ],
+          "facts": [
+            "H3S1",
+            "H3C1",
+            "H3S8",
+            "H3S3",
+            "H3S7",
+            "H3S4"
+          ]
+        },
+        "who_its_for": {
+          "items": [
+            {
+              "title": "Slow travellers",
+              "body": "An unhurried old cantonment made for walks."
+            },
+            {
+              "title": "Music and art lovers",
+              "body": "Spring music festivals, live music in the Mall's cafés and art workshops."
+            },
+            {
+              "title": "Weekenders from the plains",
+              "body": "One of the closest hill towns to Chandigarh and Kalka."
+            }
+          ],
+          "facts": [
+            "H3S1",
+            "H3S2",
+            "H3S4",
+            "KA2",
+            "H3S6"
+          ]
+        },
+        "food": {
+          "items": [
+            {
+              "body": "Café-hopping on the Mall, with live music in spring."
+            }
+          ],
+          "facts": [
+            "H3S2"
+          ]
+        },
+        "where_to_stay": {
+          "text": "Kasauli has many heritage hotels and homestays. HPTDC's Hotel Ros Common is a colonial bungalow with an old-world atmosphere. Choose stays registered with the Department of Tourism.",
+          "facts": [
+            "H3S5",
+            "H3S6",
+            "H1S6"
+          ]
+        },
+        "local_transport": {
+          "text": "Regular buses run to Kasauli from the major cities. Kalka railway station is 25 km away, about 40 minutes by taxi; the nearest station is Dharampur, on the Kalka–Shimla line. In town, walk — the Mall, churches and Monkey Point are all close.",
+          "facts": [
+            "H3S7",
+            "H3S6"
+          ]
+        },
+        "best_time": {
+          "text": "The Solan hills are mild all year, so any season works. Spring brings the Kasauli Rhythm and Blues Festival and the Kasauli Music Festival, with live music in the Mall's cafés.",
+          "facts": [
+            "KA6",
+            "H3S2"
+          ]
+        },
+        "faqs": {
+          "items": [
+            {
+              "title": "What is the nearest railway station?",
+              "body": "Dharampur on the Kalka–Shimla line; Kalka is 25 km away."
+            },
+            {
+              "title": "What are the main sights?",
+              "body": "Monkey Point, Christ Church, the Mall, Lawrence School, the Gilbert Trail and Gorkha Fort."
+            },
+            {
+              "title": "When are the music festivals?",
+              "body": "Every spring."
+            },
+            {
+              "title": "Where can I stay?",
+              "body": "Heritage hotels, homestays and HPTDC's Hotel Ros Common, a colonial bungalow."
+            }
+          ],
+          "facts": [
+            "H3S7",
+            "H3S6",
+            "H3S3",
+            "H3S4",
+            "H3S2",
+            "H3S5"
+          ]
+        },
+        "safety_health": {
+          "items": [
+            {
+              "title": "Emergency numbers",
+              "body": "100 for police, 108 for the free ambulance.",
+              "status": "verified"
+            },
+            {
+              "title": "Hill roads",
+              "body": "Avoid night driving; July–August brings landslides and slippery roads.",
+              "status": "seasonal"
+            },
+            {
+              "title": "Rivers and cliffs",
+              "body": "Don't stand on cliff edges or riverside boulders for photos.",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "H1S1",
+            "H1S7",
+            "H1S2",
+            "H1S3"
           ]
         }
       },
@@ -3711,6 +4610,76 @@
             "TV8",
             "TV12"
           ]
+        },
+        "who_its_for": {
+          "items": [
+            {
+              "title": "Nature lovers and birders",
+              "body": "Pine forests, waterfalls and the birdlife of the GHNP buffer zone."
+            },
+            {
+              "title": "Trekkers",
+              "body": "Trails into the Great Himalayan National Park from Gushaini."
+            },
+            {
+              "title": "Anglers",
+              "body": "Trout in the snow-fed Tirthan around Banjar."
+            },
+            {
+              "title": "Slow travellers",
+              "body": "Traditional homestays in quiet riverside hamlets."
+            }
+          ],
+          "facts": [
+            "H2T1",
+            "H2T2",
+            "H1K1"
+          ]
+        },
+        "local_transport": {
+          "text": "Aut, on the Chandigarh–Manali highway, is the gateway: from there taxis and buses run on to Gushaini, the roadhead for treks. Regular buses and taxis also come from Kullu, Manali (about 70 km to Aut, 2–3 hours) and Mandi. HRTC's Banjar bus stand is on 01903-221243.",
+          "facts": [
+            "H2T3",
+            "H2T5",
+            "H2T4"
+          ]
+        },
+        "where_to_stay": {
+          "text": "Most travellers stay in traditional homestays in the riverside villages. Inside the park, the forest department's rest houses and camping are booked through GHNP. Choose homestays registered with the Department of Tourism.",
+          "facts": [
+            "H2T2",
+            "H1S6"
+          ]
+        },
+        "safety_health": {
+          "items": [
+            {
+              "title": "Park rules",
+              "body": "No open fires inside GHNP; dress modestly; reach your campsite well before sunset.",
+              "status": "verified"
+            },
+            {
+              "title": "Your limits",
+              "body": "Don't push past your fitness; trek with registered guides and tell the authorities your route.",
+              "status": "verified"
+            },
+            {
+              "title": "River",
+              "body": "The Tirthan is fast and cold — keep off riverside boulders.",
+              "status": "verified"
+            },
+            {
+              "title": "Emergency numbers",
+              "body": "100 for police, 108 for ambulance.",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "H2T6",
+            "H1S8",
+            "H1S3",
+            "H1S1"
+          ]
         }
       },
       "parent": "himachal-pradesh"
@@ -3908,6 +4877,87 @@
             "KP7",
             "HP14",
             "KP1"
+          ]
+        },
+        "food": {
+          "items": [
+            {
+              "body": "Simple Kinnauri meals and Tibetan-influenced dishes at dhabas."
+            },
+            {
+              "body": "Thupa noodle soup and thang, salty butter tea."
+            },
+            {
+              "body": "Indian, continental, Chinese and Himachali food at HPTDC's Kinner Kailash restaurant."
+            }
+          ],
+          "facts": [
+            "H2N4",
+            "H2A2"
+          ]
+        },
+        "who_its_for": {
+          "items": [
+            {
+              "title": "Mountain views",
+              "body": "Kalpa faces Kinner Kailash across the Sutlej valley."
+            },
+            {
+              "title": "Culture",
+              "body": "A traditional township with the carved Narayan-Nagini temple and Hu-Bu-Lan-Kar gompa; the liveliest Fulaich in September."
+            },
+            {
+              "title": "Road-trippers",
+              "body": "A night's stop between Shimla (222 km) and Spiti."
+            }
+          ],
+          "facts": [
+            "H2A1",
+            "H2O1",
+            "H2A5",
+            "H2A4"
+          ]
+        },
+        "local_transport": {
+          "text": "Kalpa is 13 km up the hill from Reckong Peo, where buses from Shimla and Rampur arrive. Local buses run regularly and taxis are available for Reckong Peo, Kothi, Sangla and Chitkul. Avoid driving the mountain roads at night.",
+          "facts": [
+            "H2A1",
+            "H2N3",
+            "H1S7"
+          ]
+        },
+        "where_to_stay": {
+          "text": "HPTDC's The Kinner Kailash is built in the local style with views of the peak and a restaurant; it closes December to March. Reckong Peo, 13 km below, has more services. Choose stays registered with the Department of Tourism.",
+          "facts": [
+            "H2A3",
+            "H2A2",
+            "H2A1",
+            "H1S6"
+          ]
+        },
+        "safety_health": {
+          "items": [
+            {
+              "title": "Medical care",
+              "body": "Basic locally; the regional hospital is at Reckong Peo, 13 km away.",
+              "status": "verified"
+            },
+            {
+              "title": "Cold",
+              "body": "Pack heavy woollens: evenings are cold even in summer.",
+              "status": "seasonal"
+            },
+            {
+              "title": "Emergency numbers",
+              "body": "100 for police, 108 for ambulance.",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "H2N5",
+            "H2A1",
+            "H2N2",
+            "H1S1"
           ]
         }
       },
