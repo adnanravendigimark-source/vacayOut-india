@@ -493,6 +493,46 @@
       "url": "https://www.theweek.in/news/india/2025/08/25/delhi-metro-fare-hike-minimum-ticket-price-now-is-11-check-full-details-here.html",
       "title": "Delhi Metro fare hike: minimum ticket price is now ₹11 (25 August 2025) — The Week",
       "authority": "media"
+    },
+    "AIF_DEL": {
+      "url": "https://aifly.one/2026/04/delhi-india-city-guide/",
+      "title": "Delhi city guide — aifly",
+      "authority": "travel_platform"
+    },
+    "TRV_QUT": {
+      "url": "https://www.trivenicabs.in/qutub-minar-guide",
+      "title": "Qutub Minar guide — Triveni Cabs",
+      "authority": "travel_platform"
+    },
+    "RMT_GTM": {
+      "url": "https://www.railmitra.com/blog/gatimaan-express-guide-timings-fares",
+      "title": "Gatimaan Express: timings and fares — RailMitra",
+      "authority": "travel_platform"
+    },
+    "CTK_12049": {
+      "url": "https://www.confirmtkt.com/train-schedule/12049-gatimaan-exp",
+      "title": "12049 Gatimaan Exp timetable — ConfirmTkt",
+      "authority": "travel_platform"
+    },
+    "TRV_DLAG": {
+      "url": "https://www.trivenicabs.in/distance/delhi-to-agra",
+      "title": "Delhi to Agra distance guide — Triveni Cabs",
+      "authority": "travel_platform"
+    },
+    "TAJ_DOS": {
+      "url": "https://www.tajmahal.gov.in/dos-and-donts.aspx",
+      "title": "Taj Mahal official website — Do's and Don'ts",
+      "authority": "government"
+    },
+    "TAJ_ENTRY": {
+      "url": "https://www.tajmahal.gov.in/entry-to-taj-mahal.aspx",
+      "title": "Taj Mahal official website — Entry to the Taj Mahal",
+      "authority": "government"
+    },
+    "TAJ_FORT": {
+      "url": "https://www.tajmahal.gov.in/agrafort.aspx",
+      "title": "Taj Mahal official website — Agra Fort",
+      "authority": "government"
     }
   },
   "facts": {
@@ -3552,6 +3592,136 @@
         {
           "source": "WV_DEL",
           "quote": "The best way to travel is via metro, where there are separate cabins for women (which prove to be very useful during rush hour)."
+        }
+      ]
+    },
+    "DLF_ASI": {
+      "place": "delhi",
+      "topic": "ASI monument fees",
+      "claimType": "price",
+      "claim": "The Red Fort, Qutub Minar and Humayun's Tomb each charge about ₹35 for Indian visitors and ₹550 for foreign visitors.",
+      "conflictNote": "Some guides quote ₹40 (Indian) and ₹600 (foreign); check the current fee when booking on the ASI site.",
+      "evidence": [
+        {
+          "source": "AIF_DEL",
+          "quote": "Red Fort ₹35 / ₹550"
+        },
+        {
+          "source": "AIF_DEL",
+          "quote": "Humayun’s Tomb ₹35 / ₹550"
+        },
+        {
+          "source": "TRV_QUT",
+          "quote": "Entry to the monument is ₹35 for an Indian visitor and ₹550 for a foreign one, paid separately at the gate."
+        }
+      ]
+    },
+    "DLF_GTM": {
+      "place": "delhi",
+      "topic": "Gatimaan Express to Agra",
+      "claimType": "schedule",
+      "claim": "The Gatimaan Express leaves Hazrat Nizamuddin at 8:10 am and reaches Agra Cantt about 9:50 am; the return leaves Agra Cantt at 5:35 pm and reaches Nizamuddin at 7:30 pm.",
+      "evidence": [
+        {
+          "source": "RMT_GTM",
+          "quote": "Passengers can leave Hazrat Nizamuddin at 08:10, reach Agra Cantt around 09:50."
+        },
+        {
+          "source": "CTK_12049",
+          "quote": "Train 12049 arrives at Agra Cantt at 17:30 and departs at 17:35."
+        },
+        {
+          "source": "CTK_12049",
+          "quote": "Arrival 19:30 at H Nizamuddin"
+        }
+      ]
+    },
+    "DLF_DLAG": {
+      "place": "delhi",
+      "topic": "Road to Agra",
+      "claimType": "distance",
+      "kind": "estimate",
+      "claim": "Delhi to Agra is about 230 km by road via the Yamuna Expressway, about 3–4 hours.",
+      "evidence": [
+        {
+          "source": "TRV_DLAG",
+          "quote": "The distance from Delhi to Agra is 230 km by road via Yamuna Expressway, and the drive takes about 3-4 hours."
+        }
+      ]
+    },
+    "T7": {
+      "place": "uttar-pradesh/taj-mahal",
+      "topic": "Entry fee — foreign tourists",
+      "claim": "Entry for foreign tourists is ₹1,100, plus an optional ₹200 to enter the main mausoleum (amounts include ASI and ADA fees).",
+      "claimType": "price",
+      "evidence": [
+        {
+          "source": "TAJ",
+          "quote": "Foreign Tourist Amount (Rs.) (Inclusive of ASI & ADA fees) 1100 + 200 Additional for visiting main mausoleum (Optional)"
+        }
+      ]
+    },
+    "T8": {
+      "place": "uttar-pradesh/taj-mahal",
+      "topic": "Entry fee — Indian visitors",
+      "claim": "Entry for Indian visitors is ₹50, plus an optional ₹200 to enter the main mausoleum.",
+      "claimType": "price",
+      "evidence": [
+        {
+          "source": "TAJ",
+          "quote": "Domestic/Indian Amount (Rs.) (Inclusive of ASI & ADA fees) 50 + 200 Additional for visiting main mausoleum (Optional)"
+        }
+      ]
+    },
+    "T18": {
+      "place": "uttar-pradesh/taj-mahal",
+      "topic": "Prohibited items",
+      "claim": "Items not allowed include tobacco and smoking items, liquor, food (including toffees), headphones, knives, chargers, electrical goods other than cameras, and tripods.",
+      "claimType": "rule",
+      "evidence": [
+        {
+          "source": "TAJ_DOS",
+          "quote": "Arms, ammunitions, fire, smoking items, tobacco products, liquor, eatables (Toffees), head phones, knives, wire, mobile charger, electric goods (except camera), Tripods are also prohibited."
+        }
+      ]
+    },
+    "T23": {
+      "place": "uttar-pradesh/taj-mahal",
+      "topic": "Southern gate closed",
+      "claim": "The southern gate is currently closed for entry; visitors use the east and west gates.",
+      "claimType": "rule",
+      "evidence": [
+        {
+          "source": "TAJ_ENTRY",
+          "quote": "The Southern Gate : (Presently Closed for Entry)"
+        }
+      ]
+    },
+    "F7": {
+      "place": "uttar-pradesh/agra-fort",
+      "topic": "Entry fees",
+      "claim": "Entry is ₹650 for foreign tourists (₹600 on Fridays) and ₹50 for Indian visitors (₹40 on Fridays); children under 15 are free.",
+      "claimType": "price",
+      "evidence": [
+        {
+          "source": "TAJ_FORT",
+          "quote": "Foreign Tourist Rs. 650/- Friday - Rs. 600/-"
+        },
+        {
+          "source": "TAJ_FORT",
+          "quote": "Domestic/Indian Tourist Rs. 50/- Friday - Rs. 40/-"
+        }
+      ]
+    },
+    "F9": {
+      "place": "uttar-pradesh/agra-fort",
+      "topic": "Views of the Taj",
+      "claim": "The fort's pavilions have views across the Yamuna to the Taj Mahal.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "TAJ_FORT",
+          "quote": "the breathtaking views of the Yamuna River and Taj Mahal from the balconies of the pavilions"
         }
       ]
     }
@@ -7136,229 +7306,73 @@
     {
       "place": "delhi",
       "slug": "delhi-2-days-old-and-new-delhi",
-      "title": "Two days in Delhi: Old Delhi and the Mughal monuments",
-      "summary": "Day one in Old Delhi — the Red Fort, Jama Masjid and Chandni Chowk; day two from Humayun's Tomb to India Gate and the Qutub Minar.",
+      "title": "Delhi in two days: Old Delhi and New Delhi",
+      "summary": "Day 1 in Shah Jahan's Old Delhi — the Red Fort, Jama Masjid and Chandni Chowk by rickshaw — and Day 2 in the south: Humayun's Tomb, Lodhi Garden, the Qutub Minar and India Gate at dusk.",
       "durationDays": 2,
       "tripTypes": [
         "heritage",
         "food"
       ],
-      "seoTitle": "2 Days in Delhi Itinerary: Old Delhi to Qutub Minar",
-      "seoDescription": "A realistic two-day Delhi itinerary: the Red Fort, Jama Masjid and Chandni Chowk, then Humayun's Tomb, India Gate and the Qutub Minar, with metro tips and timings.",
+      "seoTitle": "Delhi 2-Day Itinerary: Old Delhi, Humayun's Tomb and the Qutub",
+      "seoDescription": "Two days in Delhi with real hours: the Red Fort, Jama Masjid and a Chandni Chowk food stop, then Humayun's Tomb, Lodhi Garden, Qutub Minar and India Gate.",
+      "facts": [
+        "D2",
+        "D3",
+        "DS2",
+        "R1",
+        "R3",
+        "R4",
+        "R5",
+        "J1",
+        "J3",
+        "J4",
+        "C1",
+        "C2",
+        "C3",
+        "RK1",
+        "FW1",
+        "FW2",
+        "B1",
+        "B2",
+        "B3",
+        "H1",
+        "H2",
+        "H6",
+        "LG1",
+        "LG3",
+        "Q1",
+        "Q6",
+        "WM4",
+        "WM5",
+        "G1",
+        "DLF_ASI",
+        "TR6",
+        "TR8",
+        "TR9",
+        "SA6",
+        "SA1",
+        "FW3"
+      ],
       "plan": {
-        "overview": "Delhi is spread out and its traffic is slow, so this plan groups sights by area and uses the metro between them. Day 1 covers Old Delhi; Day 2 covers the Mughal and colonial monuments of New Delhi and the south. Don't start on a Monday: the Red Fort is closed that day — swap the days if you need to.",
-        "days": [
-          {
-            "title": "Old Delhi",
-            "summary": "Shah Jahan's city: the fort, the great mosque and the market lanes between them.",
-            "stops": [
-              {
-                "time": "9:30 am",
-                "name": "Red Fort",
-                "placeSlug": "red-fort",
-                "duration": "About 2 hours",
-                "note": "Opens at 9:30 am; closed Mondays. Enter by the Lahori Gate."
-              },
-              {
-                "time": "Late morning",
-                "name": "Jama Masjid",
-                "placeSlug": "jama-masjid",
-                "duration": "About 1 hour",
-                "note": "Closed to visitors 12–1:30 pm; climb the southern minaret for the view."
-              },
-              {
-                "time": "Lunch",
-                "name": "Chandni Chowk",
-                "placeSlug": "chandni-chowk",
-                "duration": "2–3 hours",
-                "note": "Lunch on Old Delhi food, then walk or take a cycle rickshaw to Khari Baoli and Dariba Kalan."
-              },
-              {
-                "time": "Evening",
-                "name": "Gurudwara Bangla Sahib",
-                "placeSlug": "gurudwara-bangla-sahib",
-                "duration": "About 1 hour",
-                "note": "Open 24 hours; join the langar if you like."
-              }
-            ],
-            "travel": "The Red Fort, Jama Masjid and Chandni Chowk are within walking distance of each other. Take a metro or taxi to Bangla Sahib in central Delhi.",
-            "meals": "Street food or a Mughlai lunch in Chandni Chowk; langar at Bangla Sahib.",
-            "overnight": "Delhi"
-          },
-          {
-            "title": "New Delhi and the Qutub Minar",
-            "summary": "From the first Mughal garden tomb to the Delhi Sultanate's victory tower.",
-            "stops": [
-              {
-                "time": "Morning",
-                "name": "Humayun's Tomb",
-                "placeSlug": "humayuns-tomb",
-                "duration": "1.5–2 hours",
-                "note": "Opens at sunrise; mornings are quietest."
-              },
-              {
-                "time": "Late morning",
-                "name": "India Gate",
-                "placeSlug": "india-gate",
-                "duration": "About 45 minutes",
-                "note": "Walk the lawns; the National War Memorial is close by."
-              },
-              {
-                "time": "Afternoon",
-                "name": "Lunch and a break",
-                "duration": "1.5 hours"
-              },
-              {
-                "time": "Late afternoon",
-                "name": "Qutub Minar",
-                "placeSlug": "qutub-minar",
-                "duration": "1.5–2 hours",
-                "note": "Stay until closing for warm light on the sandstone."
-              }
-            ],
-            "travel": "Taxi or auto-rickshaw between stops, or the metro to the Qutub Minar (road times depend heavily on traffic — allow 30–60 minutes per leg as an estimate).",
-            "meals": "Lunch in Connaught Place or Khan Market; try butter chicken or dal makhani for dinner.",
-            "overnight": "Delhi"
-          }
-        ],
+        "overview": "Delhi splits neatly in two. Day 1 is Shahjahanabad: the Red Fort from its 9:30 am opening, the Jama Masjid, and a cycle-rickshaw through Chandni Chowk's lanes for lunch, ending at Gurudwara Bangla Sahib's community kitchen. Day 2 is the south: Humayun's Tomb at sunrise, Lodhi Garden's 15th-century tombs, the Qutub Minar after lunch, and the War Memorial and India Gate at dusk.",
+        "style": "Classic city break",
+        "start": "Red Fort (Chandni Chowk / Lal Quila metro)",
+        "end": "India Gate",
+        "season": "October to March is the most comfortable (mild days, but dense winter fog and often poor air from October to February). Late May–June is very hot; the monsoon runs late June to mid-September.",
+        "difficulty": "Easy — a lot of walking",
+        "transport": "Metro and app cabs; cycle-rickshaw in Old Delhi.",
         "budget": {
-          "assumptions": "Entry fees for the ASI monuments (Red Fort, Humayun's Tomb, Qutub Minar) change, so check them on the Archaeological Survey of India's official site. Jama Masjid, Chandni Chowk, India Gate and Bangla Sahib have no entry ticket. Accommodation, transport and meals vary too widely to estimate here.",
+          "assumptions": "Per adult, entry fees and transport only.",
           "lines": [
             {
-              "label": "Red Fort, Humayun's Tomb, Qutub Minar",
-              "amount": "Check current ASI fees",
-              "basis": "Not estimated — official fee pages couldn't be confirmed"
+              "label": "Red Fort, Qutub Minar, Humayun's Tomb",
+              "amount": "About ₹35 (Indian) / ₹550 (foreign) each",
+              "basis": "Reported ASI fees; book online through ONDC apps for a small discount"
             },
             {
-              "label": "India Gate, Chandni Chowk, Bangla Sahib",
-              "amount": "No ticket",
-              "basis": "Open public spaces and places of worship"
-            }
-          ]
-        },
-        "booking": [
-          {
-            "item": "Monument tickets",
-            "detail": "Buy online on the ASI's official site to skip the ticket queue."
-          },
-          {
-            "item": "Trains onward",
-            "detail": "Book on IRCTC and check which of Delhi's five main stations your train uses."
-          }
-        ],
-        "alternatives": [
-          "On a Monday, swap the days — the Red Fort is closed.",
-          "Replace the Qutub Minar with the Lotus Temple (closes earlier in winter) or Akshardham (closed Mondays, no phones).",
-          "Smoggy day? Spend more time indoors at the Red Fort museums or the National Museum."
-        ],
-        "tips": [
-          "Use the metro between areas to avoid traffic.",
-          "Carry a scarf for the mosque and the gurdwara."
-        ]
-      },
-      "facts": [
-        "R3",
-        "J3",
-        "B3",
-        "B2",
-        "H6",
-        "Q6",
-        "G3",
-        "D9",
-        "D11",
-        "D5",
-        "K1",
-        "K2",
-        "L3"
-      ],
-      "sources": []
-    },
-    {
-      "place": "delhi",
-      "slug": "delhi-1-day-highlights",
-      "title": "One day in Delhi: the essential highlights",
-      "durationDays": 1,
-      "tripTypes": [
-        "heritage",
-        "weekend"
-      ],
-      "summary": "Humayun's Tomb and Sunder Nursery at opening, the Qutub Minar after lunch, and India Gate with the War Memorial's Retreat at dusk.",
-      "seoTitle": "1 Day in Delhi Itinerary: The Best of Delhi in a Day",
-      "seoDescription": "A realistic one-day Delhi plan: Humayun's Tomb and Sunder Nursery, Qutub Minar and Mehrauli, then India Gate and the National War Memorial's evening Retreat.",
-      "facts": [
-        "H6",
-        "SN1",
-        "Q6",
-        "MP4",
-        "WM5",
-        "TR9",
-        "TR6"
-      ],
-      "sources": [],
-      "plan": {
-        "overview": "With one day, stick to the south and centre of the city, where the great tombs are, and save Old Delhi for another trip. Use the metro and app cabs between stops — Delhi traffic is slow.",
-        "days": [
-          {
-            "title": "Tombs, the Qutub and India Gate",
-            "summary": "Mughal gardens in the morning, the Sultanate's tower in the afternoon, the nation's memorials at dusk.",
-            "stops": [
-              {
-                "name": "Humayun's Tomb",
-                "time": "Sunrise",
-                "placeSlug": "humayuns-tomb",
-                "duration": "1.5 hours",
-                "note": "Opens at sunrise; the light and the quiet are best early."
-              },
-              {
-                "name": "Sunder Nursery",
-                "time": "Mid-morning",
-                "placeSlug": "sunder-nursery",
-                "duration": "1 hour",
-                "note": "Next door: a 90-acre Mughal garden with 15 monuments."
-              },
-              {
-                "name": "Qutub Minar",
-                "time": "Afternoon",
-                "placeSlug": "qutub-minar",
-                "duration": "1.5 hours",
-                "note": "On the Yellow Line. Open sunrise to sunset."
-              },
-              {
-                "name": "Mehrauli Archaeological Park",
-                "time": "Late afternoon",
-                "placeSlug": "mehrauli-archaeological-park",
-                "duration": "1 hour",
-                "note": "A short walk from the Qutub: Balban's tomb and Jamali Kamali."
-              },
-              {
-                "name": "National War Memorial",
-                "time": "Evening",
-                "placeSlug": "national-war-memorial",
-                "duration": "1 hour",
-                "note": "Free. The Retreat ceremony is held every evening — best on Sundays."
-              },
-              {
-                "name": "India Gate",
-                "time": "After dark",
-                "placeSlug": "india-gate",
-                "duration": "30 minutes",
-                "note": "Next to the War Memorial."
-              }
-            ],
-            "overnight": "Delhi",
-            "travel": "Cab from Nizamuddin to the Qutub (south); metro or cab back north to India Gate. Metro trains run about 5 am to midnight.",
-            "meals": "Lunch near the Qutub Minar or in Mehrauli; dinner at Khan Market or Connaught Place."
-          }
-        ],
-        "start": "Humayun's Tomb",
-        "end": "India Gate",
-        "budget": {
-          "assumptions": "Only fees we could check are listed. Booking ASI tickets online through ONDC apps saves ₹5 (Indian visitors) or ₹50 (foreign visitors). Cabs, meals and the metro vary with your route.",
-          "lines": [
-            {
-              "label": "ASI monuments (Red Fort, Humayun's Tomb, Qutub Minar, Purana Qila…)",
-              "amount": "Check current fee",
-              "basis": "Book online for the discount"
+              "label": "Jama Masjid minaret, cameras",
+              "amount": "Not estimated",
+              "basis": "Check at the gate"
             },
             {
               "label": "National War Memorial, India Gate",
@@ -7375,606 +7389,703 @@
         "booking": [
           {
             "item": "Monument tickets",
-            "detail": "Book ASI tickets online through ONDC apps to skip queues."
+            "detail": "Book the Red Fort, Humayun's Tomb and Qutub Minar online through an ONDC app, or pay at the gate."
+          },
+          {
+            "item": "Day choice",
+            "detail": "Don't put Day 1 on a Monday — the Red Fort is closed."
           }
         ],
         "alternatives": [
-          "Monday works for this plan — none of these sights closes on Mondays.",
-          "On a smoggy day, swap the Qutub for the National Museum (closed Mondays)."
+          "Food-focused? Add a guided Old Delhi food walk on Day 1 afternoon.",
+          "With a third day, add Lutyens' Delhi — see the three-day plan."
         ],
         "tips": [
-          "Start at sunrise; Delhi traffic builds fast.",
-          "Sunday evenings add a Change of Guard before the War Memorial Retreat."
+          "Visit the Jama Masjid outside prayer times; it closes from noon to 1:30 pm.",
+          "Dress modestly at the mosque and the gurdwara.",
+          "Agree the rickshaw fare before you set off."
+        ],
+        "prep": [
+          {
+            "title": "Air quality",
+            "body": "From October to February the air is often poor to hazardous; check the AQI each morning and carry a mask if you're sensitive."
+          },
+          {
+            "title": "Scams",
+            "body": "Ignore touts near stations who claim your train or ticket office has moved; buy monument tickets only at the official counters or online, and count your change."
+          }
+        ],
+        "faqs": [
+          {
+            "q": "Is the Red Fort open on Mondays?",
+            "a": "No. It's open 9:30 am–4:30 pm, Tuesday to Sunday."
+          },
+          {
+            "q": "Can visitors eat at Bangla Sahib's langar?",
+            "a": "Yes — volunteers serve free meals to everyone, regardless of caste, creed or status."
+          }
+        ],
+        "days": [
+          {
+            "title": "Old Delhi",
+            "summary": "Mughal fort, great mosque and the bazaars by rickshaw.",
+            "stops": [
+              {
+                "time": "9:30 am",
+                "name": "Red Fort",
+                "duration": "2 hours",
+                "placeSlug": "red-fort",
+                "note": "Enter by the Lahori Gate and the covered Meena Bazaar; museums in the Mumtaz Mahal. Closed Mondays."
+              },
+              {
+                "time": "11:45 am",
+                "name": "Jama Masjid",
+                "duration": "45 minutes",
+                "placeSlug": "jama-masjid",
+                "note": "Closes 12–1:30 pm; climb the southern minaret for the view."
+              },
+              {
+                "time": "12:45 pm",
+                "name": "Cycle-rickshaw through Chandni Chowk",
+                "duration": "1 hour",
+                "placeSlug": "chandni-chowk-rickshaw-ride",
+                "note": "Khari Baoli spice market and Dariba Kalan."
+              },
+              {
+                "time": "1:45 pm",
+                "name": "Lunch in Chandni Chowk",
+                "duration": "1.5 hours",
+                "placeSlug": "chandni-chowk",
+                "note": "Parathas, chaat and kebabs; Al Jawahar near the mosque is known for biryani."
+              },
+              {
+                "time": "5 pm",
+                "name": "Gurudwara Bangla Sahib",
+                "duration": "1 hour",
+                "placeSlug": "gurudwara-bangla-sahib",
+                "note": "Open 24 hours; free langar."
+              }
+            ],
+            "travel": "Red Fort, Jama Masjid and Chandni Chowk are within walking or rickshaw distance; metro or cab to Bangla Sahib near Connaught Place.",
+            "distanceKm": 12,
+            "distance": "About 12 km (estimate)",
+            "driveTime": "Under 1 hour in total (estimate)",
+            "transport": "Walking, cycle-rickshaw and metro",
+            "meals": "Street-food lunch in Chandni Chowk; dinner at Connaught Place.",
+            "overnight": "Delhi"
+          },
+          {
+            "title": "New Delhi and the Qutub Minar",
+            "summary": "Mughal and Lodi tombs, the Qutub, and the memorials at dusk.",
+            "stops": [
+              {
+                "time": "Sunrise",
+                "name": "Humayun's Tomb",
+                "duration": "1.5 hours",
+                "placeSlug": "humayuns-tomb",
+                "note": "Open sunrise to sunset."
+              },
+              {
+                "time": "9:30 am",
+                "name": "Lodhi Garden",
+                "duration": "1.5 hours",
+                "placeSlug": "lodhi-garden",
+                "note": "15th–16th-century Sayyid and Lodi tombs."
+              },
+              {
+                "time": "11:30 am",
+                "name": "Lunch at Khan Market",
+                "duration": "1.5 hours"
+              },
+              {
+                "time": "2 pm",
+                "name": "Qutub Minar",
+                "duration": "1.5 hours",
+                "placeSlug": "qutub-minar",
+                "note": "On the Yellow Line metro."
+              },
+              {
+                "time": "5:30 pm",
+                "name": "National War Memorial and India Gate",
+                "duration": "1.5 hours",
+                "placeSlug": "national-war-memorial",
+                "note": "Free; evening Retreat ceremony."
+              }
+            ],
+            "travel": "Nizamuddin → Lodhi Garden → Khan Market are close together; cab or metro south to the Qutub, then back north to India Gate.",
+            "distanceKm": 40,
+            "distance": "About 40 km (estimate)",
+            "driveTime": "About 2 hours in total (estimate)",
+            "transport": "App cab and metro",
+            "meals": "Lunch at Khan Market; dinner near India Gate or Connaught Place.",
+            "overnight": "Delhi"
+          }
+        ]
+      }
+    },
+    {
+      "place": "delhi",
+      "slug": "delhi-1-day-highlights",
+      "title": "One day in Delhi: tombs, the Qutub and India Gate",
+      "summary": "Humayun's Tomb and Sunder Nursery in the morning, the Qutub Minar and Mehrauli's ruins after lunch, and the National War Memorial and India Gate at dusk.",
+      "durationDays": 1,
+      "tripTypes": [
+        "heritage",
+        "weekend"
+      ],
+      "seoTitle": "1 Day in Delhi Itinerary: Humayun's Tomb, Qutub Minar, India Gate",
+      "seoDescription": "A realistic one-day Delhi plan: Humayun's Tomb at sunrise, Sunder Nursery, the Qutub Minar and Mehrauli, then the War Memorial and India Gate at dusk.",
+      "facts": [
+        "D2",
+        "D3",
+        "DS2",
+        "H1",
+        "H2",
+        "H5",
+        "H6",
+        "SN1",
+        "SN2",
+        "Q1",
+        "Q4",
+        "Q5",
+        "Q6",
+        "MP2",
+        "MP3",
+        "MP4",
+        "WM1",
+        "WM4",
+        "WM5",
+        "G1",
+        "G4",
+        "DLF_ASI",
+        "TR6",
+        "TR8",
+        "TR9",
+        "TR10",
+        "SA6",
+        "FW3"
+      ],
+      "plan": {
+        "overview": "With one day, stay in the south and centre, where three of Delhi's great sights sit in a line, and leave Old Delhi for another visit. Start at Humayun's Tomb at sunrise — the garden tomb that inspired the Taj — and walk next door into Sunder Nursery. After lunch the Qutub Minar, a 72.5 m tower from the 12th century, and Mehrauli's park of ruins. End at the National War Memorial for the evening Retreat, and India Gate beside it.",
+        "style": "Full sightseeing day by metro and cab",
+        "start": "Humayun's Tomb (Nizamuddin)",
+        "end": "India Gate",
+        "season": "October to March is the most comfortable (mild days, but dense winter fog and often poor air from October to February). Late May–June is very hot; the monsoon runs late June to mid-September.",
+        "difficulty": "Easy — a lot of walking",
+        "transport": "App cabs (Uber, Ola, Rapido) between areas; the Yellow Line metro reaches the Qutub Minar.",
+        "budget": {
+          "assumptions": "Per adult, entry fees and transport only.",
+          "lines": [
+            {
+              "label": "Red Fort, Qutub Minar, Humayun's Tomb",
+              "amount": "About ₹35 (Indian) / ₹550 (foreign) each",
+              "basis": "Reported ASI fees; book online through ONDC apps for a small discount"
+            },
+            {
+              "label": "National War Memorial, India Gate",
+              "amount": "Free",
+              "basis": "No ticket"
+            },
+            {
+              "label": "Metro rides",
+              "amount": "₹11–64 each",
+              "basis": "DMRC fares since 25 August 2025"
+            }
+          ]
+        },
+        "booking": [
+          {
+            "item": "Monument tickets",
+            "detail": "Book Humayun's Tomb and Qutub Minar tickets online through an ONDC app, or pay at the gate."
+          }
+        ],
+        "alternatives": [
+          "Prefer Old Delhi? Swap the afternoon for the Red Fort (not Mondays) and Chandni Chowk — see the two-day plan.",
+          "Hot day? Spend the midday break in Lodhi Garden on the way south."
+        ],
+        "tips": [
+          "Be at Humayun's Tomb at sunrise for soft light and few people.",
+          "The War Memorial's Retreat is held every evening; on Sundays it follows a Change of Guard.",
+          "Mehrauli Archaeological Park is free and a short walk from the Qutub."
+        ],
+        "prep": [
+          {
+            "title": "Air quality",
+            "body": "From October to February the air is often poor to hazardous; check the AQI each morning and carry a mask if you're sensitive."
+          },
+          {
+            "title": "Scams",
+            "body": "Ignore touts near stations who claim your train or ticket office has moved; buy monument tickets only at the official counters or online, and count your change."
+          }
+        ],
+        "faqs": [
+          {
+            "q": "Can you see Delhi in one day?",
+            "a": "You can see the south and centre — Humayun's Tomb, the Qutub Minar and India Gate. Old Delhi needs a second day."
+          },
+          {
+            "q": "What time does Humayun's Tomb open?",
+            "a": "From sunrise to sunset."
+          }
+        ],
+        "days": [
+          {
+            "title": "Tombs, the Qutub and India Gate",
+            "summary": "Mughal gardens in the morning, the Sultanate's tower in the afternoon, the memorials at dusk.",
+            "stops": [
+              {
+                "time": "Sunrise",
+                "name": "Humayun's Tomb",
+                "duration": "1.5 hours",
+                "placeSlug": "humayuns-tomb",
+                "note": "First garden tomb in the subcontinent; over 100 Mughal graves in the complex."
+              },
+              {
+                "time": "8:30 am",
+                "name": "Sunder Nursery",
+                "duration": "1 hour",
+                "placeSlug": "sunder-nursery",
+                "note": "A 90-acre Mughal-era heritage park next door, with 15 monuments."
+              },
+              {
+                "time": "10:30 am",
+                "name": "Breakfast and rest (Khan Market or Lodhi Road)",
+                "duration": "2 hours"
+              },
+              {
+                "time": "1 pm",
+                "name": "Qutub Minar",
+                "duration": "1.5 hours",
+                "placeSlug": "qutub-minar",
+                "note": "See the Iron Pillar and the Alai Darwaza in the complex."
+              },
+              {
+                "time": "2:45 pm",
+                "name": "Mehrauli Archaeological Park",
+                "duration": "1.5 hours",
+                "placeSlug": "mehrauli-archaeological-park",
+                "note": "Balban's tomb, Jamali Kamali and Rajon ki Baoli."
+              },
+              {
+                "time": "5:30 pm",
+                "name": "National War Memorial",
+                "duration": "1 hour",
+                "placeSlug": "national-war-memorial",
+                "note": "Free; open until 7:30 pm from November to March. Evening Retreat ceremony."
+              },
+              {
+                "time": "6:45 pm",
+                "name": "India Gate",
+                "duration": "30 minutes",
+                "placeSlug": "india-gate",
+                "note": "The 42 m Lutyens arch, next to the memorial."
+              }
+            ],
+            "travel": "Nizamuddin → Qutub Minar by cab; Qutub → India Gate by Yellow Line metro or cab.",
+            "distanceKm": 35,
+            "distance": "About 35 km across the day (estimate)",
+            "driveTime": "About 2 hours in total in traffic (estimate)",
+            "transport": "App cab and metro",
+            "meals": "Breakfast at Khan Market; dinner at Connaught Place or Khan Market.",
+            "overnight": "Delhi"
+          }
         ]
       }
     },
     {
       "place": "delhi",
       "slug": "delhi-3-days-complete",
-      "title": "Three days in Delhi: Old Delhi, New Delhi and the south",
+      "title": "Delhi in three days: Old Delhi, Lutyens' Delhi and the south",
+      "summary": "Three themed days: Shah Jahan's Old Delhi with a food walk and the Red Fort show, Lutyens' Raisina Hill and the National Museum, then the Mughal and Lodi tombs, the Qutub Minar and qawwali at Nizamuddin.",
       "durationDays": 3,
       "tripTypes": [
         "heritage",
         "food"
       ],
-      "summary": "Day 1 in Old Delhi with a rickshaw and a food walk, Day 2 on Raisina Hill and Lutyens' Delhi, Day 3 among the tombs and ruins of south Delhi.",
-      "seoTitle": "3 Days in Delhi Itinerary: Day-by-Day Plan",
-      "seoDescription": "A three-day Delhi itinerary grouped by area: Old Delhi's fort, mosque and food; Rashtrapati Bhavan, museums and India Gate; Humayun's Tomb, Lodhi Garden and the Qutub.",
+      "seoTitle": "Delhi 3-Day Itinerary: Old Delhi, Lutyens' Delhi & the Qutub",
+      "seoDescription": "Three days in Delhi with real hours and fees: the Red Fort and a food walk, Rashtrapati Bhavan and the National Museum, Humayun's Tomb, the Qutub and qawwali.",
       "facts": [
+        "D2",
+        "D3",
+        "DS2",
+        "R1",
         "R3",
+        "R4",
+        "SL1",
         "J3",
+        "J4",
         "RK1",
         "FW1",
+        "FW2",
+        "RG1",
+        "RG4",
         "RB2",
         "RB3",
+        "RB7",
+        "NM2",
         "NM3",
+        "AG1",
+        "JM1",
         "WM5",
+        "H1",
         "H6",
+        "SN1",
         "LG1",
-        "SF4",
-        "Q6",
-        "MP4",
-        "QW1"
+        "Q1",
+        "MP2",
+        "MP3",
+        "QW1",
+        "NZ1",
+        "DLF_ASI",
+        "SA6",
+        "TR6",
+        "TR8",
+        "TR10",
+        "FW3",
+        "SA1"
       ],
-      "sources": [],
       "plan": {
-        "overview": "Each day covers one part of the city so you spend your time seeing things, not sitting in traffic. Plan around closures: the Red Fort and the National Museum are shut on Mondays, and Rashtrapati Bhavan tours run Tuesday to Sunday and must be booked online.",
-        "days": [
-          {
-            "title": "Old Delhi",
-            "summary": "Shah Jahan's city: the fort, the great mosque, the bazaars and the food.",
-            "stops": [
-              {
-                "name": "Red Fort",
-                "time": "9:30 am",
-                "placeSlug": "red-fort",
-                "duration": "2 hours",
-                "note": "Opens 9:30 am; closed Mondays."
-              },
-              {
-                "name": "Jama Masjid",
-                "time": "Late morning",
-                "placeSlug": "jama-masjid",
-                "duration": "1 hour",
-                "note": "Closed to visitors 12–1:30 pm — go before noon."
-              },
-              {
-                "name": "Cycle-rickshaw ride",
-                "time": "Midday",
-                "placeSlug": "chandni-chowk-rickshaw-ride",
-                "duration": "1 hour",
-                "note": "Through Khari Baoli and Dariba Kalan."
-              },
-              {
-                "name": "Old Delhi food walk",
-                "time": "Lunch",
-                "placeSlug": "old-delhi-food-walk",
-                "duration": "2 hours",
-                "note": "Parathas, chaat, kebabs."
-              },
-              {
-                "name": "Raj Ghat",
-                "time": "Late afternoon",
-                "placeSlug": "raj-ghat",
-                "duration": "45 minutes",
-                "note": "Open until 6 pm."
-              },
-              {
-                "name": "Red Fort sound and light show",
-                "time": "Evening",
-                "placeSlug": "red-fort-sound-and-light-show",
-                "duration": "1 hour",
-                "note": "Not on Mondays."
-              }
-            ],
-            "overnight": "Delhi",
-            "travel": "Everything except Raj Ghat is walkable; take an auto to Raj Ghat. Metro: Lal Qila, Jama Masjid or Chandni Chowk.",
-            "meals": "Lunch in Chandni Chowk's lanes; drink bottled water only."
-          },
-          {
-            "title": "Raisina Hill and Lutyens' Delhi",
-            "summary": "The President's palace, the national collections and the memorials of New Delhi.",
-            "stops": [
-              {
-                "name": "Rashtrapati Bhavan",
-                "time": "9:30 am",
-                "placeSlug": "rashtrapati-bhavan",
-                "duration": "1.5 hours",
-                "note": "Book the main building tour online; enter by Gate 38. Tuesday–Sunday."
-              },
-              {
-                "name": "National Museum",
-                "time": "Midday",
-                "placeSlug": "national-museum",
-                "duration": "2 hours",
-                "note": "Closed Mondays; 10 am–6 pm."
-              },
-              {
-                "name": "Agrasen ki Baoli",
-                "time": "Afternoon",
-                "placeSlug": "agrasen-ki-baoli",
-                "duration": "45 minutes",
-                "note": "A short walk from Connaught Place."
-              },
-              {
-                "name": "Jantar Mantar",
-                "time": "Afternoon",
-                "placeSlug": "jantar-mantar",
-                "duration": "45 minutes",
-                "note": "Go while the sun casts shadows."
-              },
-              {
-                "name": "National War Memorial",
-                "time": "Evening",
-                "placeSlug": "national-war-memorial",
-                "duration": "1 hour",
-                "note": "Retreat ceremony every evening."
-              },
-              {
-                "name": "India Gate",
-                "time": "Evening",
-                "placeSlug": "india-gate",
-                "duration": "30 minutes"
-              }
-            ],
-            "overnight": "Delhi",
-            "travel": "Metro to Central Secretariat (about 1 km to Gate 38); short cab or auto hops between the rest.",
-            "meals": "Lunch at Connaught Place."
-          },
-          {
-            "title": "South Delhi: tombs, gardens and the Qutub",
-            "summary": "Mughal and Sultanate monuments in green surroundings, ending with Sufi music.",
-            "stops": [
-              {
-                "name": "Humayun's Tomb",
-                "time": "Sunrise",
-                "placeSlug": "humayuns-tomb",
-                "duration": "1.5 hours"
-              },
-              {
-                "name": "Sunder Nursery",
-                "time": "Morning",
-                "placeSlug": "sunder-nursery",
-                "duration": "1 hour"
-              },
-              {
-                "name": "Lodhi Garden",
-                "time": "Late morning",
-                "placeSlug": "lodhi-garden",
-                "duration": "1 hour",
-                "note": "Lunch at Khan Market nearby."
-              },
-              {
-                "name": "Safdarjung's Tomb",
-                "time": "After lunch",
-                "placeSlug": "safdarjung-tomb",
-                "duration": "45 minutes",
-                "note": "Near Jor Bagh metro."
-              },
-              {
-                "name": "Qutub Minar and Mehrauli Archaeological Park",
-                "time": "Afternoon",
-                "placeSlug": "qutub-minar",
-                "duration": "2.5 hours",
-                "note": "Yellow Line to Qutub Minar."
-              },
-              {
-                "name": "Qawwali at Nizamuddin Dargah",
-                "time": "Evening",
-                "placeSlug": "qawwali-at-nizamuddin-dargah",
-                "duration": "1.5 hours",
-                "note": "After the sunset prayer; Thursdays are biggest."
-              }
-            ],
-            "overnight": "Delhi",
-            "travel": "Cab between the Nizamuddin–Lodhi cluster and the Qutub (the longest leg); metro where it fits.",
-            "meals": "Lunch at Khan Market; dinner in Nizamuddin Basti."
-          }
-        ],
+        "overview": "Three days, one Delhi each. Day 1 is Shahjahanabad: the Red Fort, the Jama Masjid, a rickshaw and food walk through the lanes, Raj Ghat, and the fort's sound and light show. Day 2 is Lutyens' capital: a booked tour of Rashtrapati Bhavan, the National Museum, the Agrasen ki Baoli stepwell and Jantar Mantar, ending at the War Memorial's Retreat. Day 3 is the south: Humayun's Tomb at sunrise, Sunder Nursery and Lodhi Garden, the Qutub and Mehrauli, and qawwali at the Nizamuddin dargah.",
+        "style": "Thorough city stay",
         "start": "Red Fort",
         "end": "Nizamuddin Dargah",
+        "season": "October to March is the most comfortable (mild days, but dense winter fog and often poor air from October to February). Late May–June is very hot; the monsoon runs late June to mid-September.",
+        "difficulty": "Easy to moderate — long walking days",
+        "transport": "Metro and app cabs; cycle-rickshaw in Old Delhi.",
         "budget": {
-          "assumptions": "Fees we could verify are listed; hotels, cabs and meals are not estimated.",
+          "assumptions": "Per adult, entry fees and transport only.",
           "lines": [
             {
-              "label": "ASI monuments (Red Fort, Humayun's Tomb, Qutub Minar, Purana Qila…)",
-              "amount": "Check current fee",
-              "basis": "₹5 / ₹50 off online via ONDC apps"
+              "label": "Red Fort, Qutub Minar, Humayun's Tomb",
+              "amount": "About ₹35 (Indian) / ₹550 (foreign) each",
+              "basis": "Reported ASI fees; book online through ONDC apps for a small discount"
             },
             {
-              "label": "Rashtrapati Bhavan tour",
-              "amount": "Book online",
-              "basis": "Fee not checked by VacayOut"
+              "label": "Rashtrapati Bhavan tour, National Museum, sound and light show",
+              "amount": "Not estimated",
+              "basis": "Check when booking"
             },
             {
-              "label": "National Museum",
-              "amount": "Check current fee",
-              "basis": "Not checked"
+              "label": "National War Memorial, India Gate",
+              "amount": "Free",
+              "basis": "No ticket"
             },
             {
               "label": "Metro rides",
               "amount": "₹11–64 each",
               "basis": "DMRC fares since 25 August 2025"
-            },
-            {
-              "label": "Bangla Sahib, War Memorial, Raj Ghat, qawwali",
-              "amount": "Free",
-              "basis": "No ticket"
             }
           ]
         },
         "booking": [
           {
             "item": "Rashtrapati Bhavan",
-            "detail": "Book the main building tour online; Tuesday–Sunday, enter by Gate 38."
+            "detail": "Reserve the Circuit One tour (Tuesday–Sunday) on the official visit site before you go."
           },
           {
-            "item": "Monument tickets",
-            "detail": "Book ASI tickets online through ONDC apps."
+            "item": "Day order",
+            "detail": "Days 1 and 2 must not fall on a Monday (Red Fort, National Museum and Rashtrapati Bhavan are closed)."
           }
         ],
         "alternatives": [
-          "Monday? Swap Day 1 and Day 3 — the Red Fort and National Museum are closed.",
-          "Smoggy day? Spend longer in the National Museum and Pradhanmantri Sangrahalaya."
+          "Saturday in Delhi? Rashtrapati Bhavan's Change of Guard runs 8–9 am on Saturdays (online registration ₹50).",
+          "Add Agra as a day trip by the Gatimaan Express — see the five-day plan."
         ],
         "tips": [
-          "Use the metro between areas.",
-          "Dress modestly for the mosque, gurdwara and dargah, and carry a scarf."
+          "Red Fort, the National Museum and Akshardham are closed on Mondays — plan around it.",
+          "Use the metro for long hops (about 5 am–midnight); Old Delhi's lanes are best by cycle-rickshaw or on foot.",
+          "Drink bottled water and eat freshly cooked food."
+        ],
+        "prep": [
+          {
+            "title": "Air quality",
+            "body": "From October to February the air is often poor to hazardous; check the AQI each morning and carry a mask if you're sensitive."
+          },
+          {
+            "title": "Scams",
+            "body": "Ignore touts near stations who claim your train or ticket office has moved; buy monument tickets only at the official counters or online, and count your change."
+          }
+        ],
+        "faqs": [
+          {
+            "q": "Is three days enough for Delhi?",
+            "a": "Yes for the main sights of Old Delhi, New Delhi and the south. Add a day for Akshardham or Agra."
+          },
+          {
+            "q": "When is the qawwali at Nizamuddin?",
+            "a": "Every evening after the Maghrib prayer; Thursday night is the biggest session."
+          }
+        ],
+        "days": [
+          {
+            "title": "Old Delhi",
+            "summary": "The Red Fort, the great mosque, a rickshaw and food walk, Gandhi's memorial and the fort's evening show.",
+            "stops": [
+              {
+                "time": "9:30 am",
+                "name": "Red Fort",
+                "duration": "2 hours",
+                "placeSlug": "red-fort",
+                "note": "Lahori Gate, Meena Bazaar, Diwan-i-Am; closed Mondays."
+              },
+              {
+                "time": "11:45 am",
+                "name": "Jama Masjid",
+                "duration": "45 minutes",
+                "placeSlug": "jama-masjid",
+                "note": "Closes 12–1:30 pm; climb the southern minaret."
+              },
+              {
+                "time": "12:45 pm",
+                "name": "Cycle-rickshaw ride",
+                "duration": "45 minutes",
+                "placeSlug": "chandni-chowk-rickshaw-ride",
+                "note": "Through the lanes to Khari Baoli's spice market."
+              },
+              {
+                "time": "1:30 pm",
+                "name": "Old Delhi food walk",
+                "duration": "1.5 hours",
+                "placeSlug": "old-delhi-food-walk",
+                "note": "Paranthe Wali Gali, chaat and kebabs."
+              },
+              {
+                "time": "4 pm",
+                "name": "Raj Ghat",
+                "duration": "45 minutes",
+                "placeSlug": "raj-ghat",
+                "note": "Gandhi's memorial by the Yamuna; open 7 am–6 pm."
+              },
+              {
+                "time": "After sunset",
+                "name": "Red Fort sound and light show",
+                "duration": "1 hour",
+                "placeSlug": "red-fort-sound-and-light-show",
+                "note": "Every evening except Mondays."
+              }
+            ],
+            "travel": "All in and around Shahjahanabad: walk and rickshaw, cab to Raj Ghat and back to the fort.",
+            "distanceKm": 12,
+            "distance": "About 12 km (estimate)",
+            "driveTime": "Under 1 hour in total (estimate)",
+            "transport": "Walking, cycle-rickshaw and cab",
+            "meals": "Street food on the walk; dinner in Old Delhi before the show.",
+            "overnight": "Delhi"
+          },
+          {
+            "title": "Raisina Hill and Lutyens' Delhi",
+            "summary": "The President's house, the national collection, a stepwell and the memorials.",
+            "stops": [
+              {
+                "time": "9:30 am",
+                "name": "Rashtrapati Bhavan (Circuit One tour)",
+                "duration": "1.5 hours",
+                "placeSlug": "rashtrapati-bhavan",
+                "note": "Tuesday–Sunday, 9:30 am–4:30 pm (last entry 4 pm). Enter by Gate 38, Church Road."
+              },
+              {
+                "time": "11:30 am",
+                "name": "National Museum",
+                "duration": "2 hours",
+                "placeSlug": "national-museum",
+                "note": "Opens 10 am, closed Mondays; the Dancing Girl of Harappa."
+              },
+              {
+                "time": "1:45 pm",
+                "name": "Lunch at Connaught Place",
+                "duration": "1 hour",
+                "placeSlug": "connaught-place"
+              },
+              {
+                "time": "3 pm",
+                "name": "Agrasen ki Baoli",
+                "duration": "45 minutes",
+                "placeSlug": "agrasen-ki-baoli",
+                "note": "A 60 m stepwell with 108 steps, off Hailey Road."
+              },
+              {
+                "time": "4 pm",
+                "name": "Jantar Mantar",
+                "duration": "45 minutes",
+                "placeSlug": "jantar-mantar",
+                "note": "Jai Singh II's 1724 observatory."
+              },
+              {
+                "time": "5:30 pm",
+                "name": "National War Memorial and India Gate",
+                "duration": "1.5 hours",
+                "placeSlug": "national-war-memorial",
+                "note": "Evening Retreat; free."
+              }
+            ],
+            "travel": "Short cab hops around central New Delhi; Central Secretariat metro is about 1 km from Rashtrapati Bhavan.",
+            "distanceKm": 15,
+            "distance": "About 15 km (estimate)",
+            "driveTime": "About 1 hour in total (estimate)",
+            "transport": "Cab and walking",
+            "meals": "Lunch at Connaught Place.",
+            "overnight": "Delhi"
+          },
+          {
+            "title": "South Delhi: tombs, gardens and the Qutub",
+            "summary": "Mughal and Lodi gardens, the Qutub complex, and qawwali at the dargah.",
+            "stops": [
+              {
+                "time": "Sunrise",
+                "name": "Humayun's Tomb",
+                "duration": "1.5 hours",
+                "placeSlug": "humayuns-tomb"
+              },
+              {
+                "time": "8:30 am",
+                "name": "Sunder Nursery",
+                "duration": "1 hour",
+                "placeSlug": "sunder-nursery"
+              },
+              {
+                "time": "10:30 am",
+                "name": "Lodhi Garden",
+                "duration": "1 hour",
+                "placeSlug": "lodhi-garden"
+              },
+              {
+                "time": "12 pm",
+                "name": "Lunch and rest at Khan Market",
+                "duration": "2 hours"
+              },
+              {
+                "time": "2:30 pm",
+                "name": "Qutub Minar and Mehrauli Archaeological Park",
+                "duration": "2.5 hours",
+                "placeSlug": "qutub-minar",
+                "note": "Balban's tomb and Jamali Kamali are a short walk away."
+              },
+              {
+                "time": "After Maghrib prayer",
+                "name": "Qawwali at Nizamuddin Dargah",
+                "duration": "1 hour",
+                "placeSlug": "qawwali-at-nizamuddin-dargah",
+                "note": "Every evening; Thursday's session is the biggest."
+              }
+            ],
+            "travel": "Nizamuddin → Lodhi Road → Khan Market are close; cab south to the Qutub and back to Nizamuddin in the evening.",
+            "distanceKm": 40,
+            "distance": "About 40 km (estimate)",
+            "driveTime": "About 2 hours in total (estimate)",
+            "transport": "App cab and walking",
+            "meals": "Lunch at Khan Market; kebabs around Nizamuddin after the qawwali.",
+            "overnight": "Delhi"
+          }
         ]
       }
     },
     {
       "place": "delhi",
       "slug": "delhi-5-days-with-agra",
-      "title": "Five days: Delhi in depth plus a day trip to the Taj Mahal",
+      "title": "Delhi in five days, with a day trip to Agra",
+      "summary": "Three days across Old Delhi, Lutyens' Delhi and the south, a day trip to the Taj Mahal and Agra Fort by the Gatimaan Express, and a last day at Purana Qila, Dilli Haat and Akshardham's water show.",
       "durationDays": 5,
       "tripTypes": [
         "heritage",
         "food",
         "family"
       ],
-      "summary": "Three days across Delhi, a train day trip to Agra for the Taj Mahal (not on a Friday), and a last day at Akshardham and Dilli Haat.",
-      "seoTitle": "5 Days in Delhi & Agra: Itinerary With Taj Day Trip",
-      "seoDescription": "A five-day plan: Old Delhi, New Delhi and south Delhi, a train day trip to the Taj Mahal and Agra Fort (avoid Fridays), then Akshardham's water show and Dilli Haat.",
+      "seoTitle": "Delhi 5-Day Itinerary with an Agra Day Trip by Gatimaan",
+      "seoDescription": "Five days from Delhi: Old Delhi, Lutyens' Delhi and the Qutub, a Gatimaan Express day trip to the Taj Mahal and Agra Fort, then Akshardham's water show.",
       "facts": [
+        "D2",
+        "D3",
+        "DS2",
+        "R1",
         "R3",
+        "R4",
+        "SL1",
+        "J3",
+        "J4",
+        "RK1",
+        "FW1",
+        "FW2",
+        "RG1",
+        "RG4",
         "RB2",
+        "RB3",
+        "NM2",
+        "NM3",
+        "AG1",
+        "JM1",
+        "WM5",
+        "H1",
         "H6",
-        "Q6",
+        "SN1",
+        "LG1",
+        "Q1",
+        "MP2",
+        "MP3",
+        "QW1",
+        "NZ1",
+        "DLF_ASI",
+        "DLF_GTM",
+        "DLF_DLAG",
         "TR11",
         "TR12",
-        "K1",
-        "AK9",
+        "T7",
+        "T8",
+        "T18",
+        "T23",
+        "F7",
+        "F9",
+        "RB7",
+        "PQ1",
+        "PQ3",
+        "PQ4",
+        "PQ6",
         "DH3",
-        "PQ6"
-      ],
-      "sources": [],
-      "plan": {
-        "overview": "Days 1–3 follow our three-day Delhi plan. Day 4 is a train day trip to Agra — the Taj Mahal is closed on Fridays, and the Gatimaan Express doesn't run that day either. Day 5 slows down with Purana Qila, Dilli Haat and Akshardham's evening water show (closed Mondays).",
-        "days": [
-          {
-            "title": "Old Delhi",
-            "summary": "The Red Fort, Jama Masjid, a rickshaw ride and a food walk.",
-            "stops": [
-              {
-                "name": "Red Fort",
-                "time": "9:30 am",
-                "placeSlug": "red-fort",
-                "duration": "2 hours",
-                "note": "Closed Mondays."
-              },
-              {
-                "name": "Jama Masjid",
-                "time": "Late morning",
-                "placeSlug": "jama-masjid",
-                "duration": "1 hour"
-              },
-              {
-                "name": "Old Delhi food walk",
-                "time": "Lunch",
-                "placeSlug": "old-delhi-food-walk",
-                "duration": "2 hours"
-              },
-              {
-                "name": "Raj Ghat",
-                "time": "Afternoon",
-                "placeSlug": "raj-ghat",
-                "duration": "45 minutes"
-              }
-            ],
-            "overnight": "Delhi"
-          },
-          {
-            "title": "Lutyens' Delhi",
-            "summary": "Rashtrapati Bhavan, the National Museum and India Gate.",
-            "stops": [
-              {
-                "name": "Rashtrapati Bhavan",
-                "time": "9:30 am",
-                "placeSlug": "rashtrapati-bhavan",
-                "duration": "1.5 hours",
-                "note": "Book online; Tuesday–Sunday."
-              },
-              {
-                "name": "National Museum",
-                "time": "Midday",
-                "placeSlug": "national-museum",
-                "duration": "2 hours"
-              },
-              {
-                "name": "Jantar Mantar",
-                "time": "Afternoon",
-                "placeSlug": "jantar-mantar",
-                "duration": "45 minutes"
-              },
-              {
-                "name": "National War Memorial",
-                "time": "Evening",
-                "placeSlug": "national-war-memorial",
-                "duration": "1 hour"
-              }
-            ],
-            "overnight": "Delhi"
-          },
-          {
-            "title": "South Delhi",
-            "summary": "Humayun's Tomb, Lodhi Garden and the Qutub.",
-            "stops": [
-              {
-                "name": "Humayun's Tomb",
-                "time": "Sunrise",
-                "placeSlug": "humayuns-tomb",
-                "duration": "1.5 hours"
-              },
-              {
-                "name": "Lodhi Garden",
-                "time": "Late morning",
-                "placeSlug": "lodhi-garden",
-                "duration": "1 hour"
-              },
-              {
-                "name": "Qutub Minar",
-                "time": "Afternoon",
-                "placeSlug": "qutub-minar",
-                "duration": "1.5 hours"
-              },
-              {
-                "name": "Mehrauli Archaeological Park",
-                "time": "Late afternoon",
-                "placeSlug": "mehrauli-archaeological-park",
-                "duration": "1 hour"
-              }
-            ],
-            "overnight": "Delhi"
-          },
-          {
-            "title": "Day trip to Agra",
-            "summary": "The Taj Mahal at opening and Agra Fort, by train from Delhi.",
-            "stops": [
-              {
-                "name": "Train to Agra",
-                "time": "Early morning",
-                "duration": "About 2 hours",
-                "note": "Shatabdi, Gatimaan (not Fridays) or other express trains."
-              },
-              {
-                "name": "Taj Mahal",
-                "time": "Morning",
-                "placeSlug": "uttar-pradesh/taj-mahal",
-                "duration": "2–3 hours",
-                "note": "Opens 30 minutes before sunrise; closed Fridays."
-              },
-              {
-                "name": "Agra Fort",
-                "time": "Afternoon",
-                "placeSlug": "uttar-pradesh/agra-fort",
-                "duration": "1.5 hours"
-              },
-              {
-                "name": "Train back to Delhi",
-                "time": "Evening",
-                "duration": "About 2 hours"
-              }
-            ],
-            "overnight": "Delhi",
-            "travel": "Agra is about 204 km from Delhi; the train is the least tiring way. Book seats in advance.",
-            "meals": "Lunch in Agra.",
-            "distance": "About 204 km by road",
-            "transport": "Train"
-          },
-          {
-            "title": "Purana Qila, Dilli Haat and Akshardham",
-            "summary": "An easier last day, ending with the water show.",
-            "stops": [
-              {
-                "name": "Purana Qila",
-                "time": "Morning",
-                "placeSlug": "purana-qila",
-                "duration": "1.5 hours",
-                "note": "Open 7 am–6 pm."
-              },
-              {
-                "name": "Dilli Haat",
-                "time": "Lunch",
-                "placeSlug": "dilli-haat",
-                "duration": "2 hours",
-                "note": "Crafts and regional food; opens 11 am."
-              },
-              {
-                "name": "Akshardham",
-                "time": "Afternoon",
-                "placeSlug": "akshardham",
-                "duration": "3 hours",
-                "note": "Closed Mondays; leave phones at the cloakroom."
-              },
-              {
-                "name": "Akshardham water show",
-                "time": "After sunset",
-                "placeSlug": "akshardham-water-show",
-                "duration": "24 minutes"
-              }
-            ],
-            "overnight": "Delhi",
-            "travel": "Metro to INA for Dilli Haat and to Akshardham station (about 500 m walk)."
-          }
-        ],
-        "start": "Red Fort",
-        "end": "Akshardham",
-        "budget": {
-          "assumptions": "Fees we could verify are listed; hotels, trains, cabs and meals are not estimated.",
-          "lines": [
-            {
-              "label": "Akshardham water show",
-              "amount": "₹110 adult, ₹80 child (4–11)",
-              "basis": "Akshardham's official site"
-            },
-            {
-              "label": "Delhi–Agra train",
-              "amount": "Check current fare",
-              "basis": "Book in advance"
-            },
-            {
-              "label": "ASI monuments (Red Fort, Humayun's Tomb, Qutub Minar, Purana Qila…)",
-              "amount": "Check current fee",
-              "basis": "₹5 / ₹50 off online"
-            },
-            {
-              "label": "Metro rides",
-              "amount": "₹11–64 each",
-              "basis": "DMRC fares since 25 August 2025"
-            }
-          ]
-        },
-        "booking": [
-          {
-            "item": "Agra train",
-            "detail": "Book a morning train out and an evening train back; avoid Fridays."
-          },
-          {
-            "item": "Rashtrapati Bhavan",
-            "detail": "Book online; Tuesday–Sunday."
-          }
-        ],
-        "alternatives": [
-          "If Day 4 falls on a Friday, swap it with Day 5 — the Taj Mahal is closed on Fridays.",
-          "Akshardham is closed on Mondays; move Day 5 if needed."
-        ],
-        "tips": [
-          "Winter fog can delay morning trains — leave slack.",
-          "No phones or cameras inside Akshardham."
-        ]
-      }
-    },
-    {
-      "place": "delhi",
-      "slug": "delhi-2-days-with-kids",
-      "title": "Two days in Delhi with children",
-      "durationDays": 2,
-      "tripTypes": [
-        "family"
-      ],
-      "summary": "Trains, a boat ride and a water show: the National Rail Museum, the National Museum, India Gate's lawns, Akshardham and Dilli Haat.",
-      "seoTitle": "Delhi With Kids: 2-Day Family Itinerary",
-      "seoDescription": "A two-day family plan for Delhi: the National Rail Museum's toy train, the National Museum, India Gate and the War Memorial, then Akshardham's boat ride and water show.",
-      "facts": [
-        "NR2",
-        "NR3",
-        "NM4",
-        "NM3",
-        "WM5",
+        "DH4",
+        "K1",
+        "K2",
         "AK7",
+        "AK8",
         "AK9",
         "AK10",
-        "K1",
-        "DH3"
+        "SA6",
+        "TR6",
+        "TR8",
+        "FW3",
+        "SA1"
       ],
-      "sources": [],
       "plan": {
-        "overview": "Short hops, plenty of space to run and two big evening shows. Avoid Mondays: the rail museum, the National Museum and Akshardham are all closed.",
-        "days": [
-          {
-            "title": "Trains, treasures and India Gate",
-            "summary": "A morning of locomotives, an afternoon in the National Museum, an evening on the lawns.",
-            "stops": [
-              {
-                "name": "National Rail Museum",
-                "time": "10 am",
-                "placeSlug": "national-rail-museum",
-                "duration": "2.5 hours",
-                "note": "Ride the mini-train and try the simulators. ₹10 adults, ₹3 children."
-              },
-              {
-                "name": "National Museum",
-                "time": "Afternoon",
-                "placeSlug": "national-museum",
-                "duration": "1.5 hours",
-                "note": "The audio-visual galleries suit children."
-              },
-              {
-                "name": "National War Memorial",
-                "time": "Evening",
-                "placeSlug": "national-war-memorial",
-                "duration": "1 hour",
-                "note": "Free; the Retreat ceremony at dusk."
-              },
-              {
-                "name": "India Gate",
-                "time": "Evening",
-                "placeSlug": "india-gate",
-                "duration": "45 minutes",
-                "note": "Lawns to run around on."
-              }
-            ],
-            "overnight": "Delhi",
-            "travel": "Cab between the rail museum and the National Museum; walk from the museum to India Gate if the children are up for it."
-          },
-          {
-            "title": "Dilli Haat and Akshardham",
-            "summary": "Lunch from the state food stalls, then a boat ride and the water show.",
-            "stops": [
-              {
-                "name": "Dilli Haat",
-                "time": "11 am",
-                "placeSlug": "dilli-haat",
-                "duration": "2 hours",
-                "note": "Food from different states; opens 11 am."
-              },
-              {
-                "name": "Akshardham",
-                "time": "Afternoon",
-                "placeSlug": "akshardham",
-                "duration": "3 hours",
-                "note": "Take the 15-minute boat ride through ancient India."
-              },
-              {
-                "name": "Akshardham water show",
-                "time": "After sunset",
-                "placeSlug": "akshardham-water-show",
-                "duration": "24 minutes",
-                "note": "₹110 adults, ₹80 children 4–11, under-4s free."
-              }
-            ],
-            "overnight": "Delhi",
-            "travel": "Metro to INA, then to Akshardham station."
-          }
-        ],
-        "start": "National Rail Museum",
-        "end": "Akshardham",
+        "overview": "A five-day stay based in one hotel. Days 1–3 cover Delhi's three cities: Shahjahanabad, Lutyens' Raisina Hill and the Mughal and Sultanate south. Day 4 is Agra by the Gatimaan Express — out at 8:10 am, back by 7:30 pm — for the Taj Mahal and Agra Fort. Day 5 is Humayun's Dinpanah at Purana Qila, lunch at Dilli Haat and Akshardham, staying for the water show. Mind the closures: Agra's Taj and the Gatimaan don't run on Fridays, and the Red Fort, National Museum and Akshardham are closed on Mondays.",
+        "style": "Thorough city stay with one day trip",
+        "start": "Delhi",
+        "end": "Delhi",
+        "season": "October to March is the most comfortable (mild days, but dense winter fog and often poor air from October to February). Late May–June is very hot; the monsoon runs late June to mid-September. Winter fog can delay Agra trains.",
+        "difficulty": "Moderate — one long day trip",
+        "transport": "Metro and app cabs in Delhi; Gatimaan Express to Agra (or a car, about 230 km and 3–4 hours each way).",
         "budget": {
-          "assumptions": "Fees we could verify are listed; cabs and meals are not estimated.",
+          "assumptions": "Per adult, entry fees only; train fares vary by class and date.",
           "lines": [
             {
-              "label": "National Rail Museum",
-              "amount": "₹10 adult, ₹3 child",
-              "basis": "Incredible India"
+              "label": "Red Fort, Qutub Minar, Humayun's Tomb",
+              "amount": "About ₹35 (Indian) / ₹550 (foreign) each",
+              "basis": "Reported ASI fees; book online through ONDC apps for a small discount"
+            },
+            {
+              "label": "Taj Mahal",
+              "amount": "₹50 (Indian) / ₹1,100 (foreign); +₹200 for the main mausoleum",
+              "basis": "Official Taj Mahal fees"
+            },
+            {
+              "label": "Agra Fort",
+              "amount": "₹50 (Indian) / ₹650 (foreign)",
+              "basis": "Official fees"
             },
             {
               "label": "Akshardham water show",
-              "amount": "₹110 adult, ₹80 child",
-              "basis": "Akshardham official site"
+              "amount": "₹110 (adult) / ₹80 (child)",
+              "basis": "Published ticket price"
             },
             {
-              "label": "National War Memorial",
+              "label": "National War Memorial, India Gate",
               "amount": "Free",
               "basis": "No ticket"
             }
@@ -7982,17 +8093,494 @@
         },
         "booking": [
           {
-            "item": "Water show",
-            "detail": "Buy tickets at Akshardham on the day; first show soon after sunset."
+            "item": "Gatimaan Express",
+            "detail": "Book Nizamuddin → Agra Cantt (8:10 am) and the 5:35 pm return on IRCTC well ahead; it doesn't run on Fridays."
+          },
+          {
+            "item": "Taj Mahal tickets",
+            "detail": "Buy online through the ASI to save time and a little money."
+          },
+          {
+            "item": "Rashtrapati Bhavan",
+            "detail": "Reserve the Circuit One tour (Tuesday–Sunday) on the official visit site."
           }
         ],
         "alternatives": [
-          "Swap the National Museum for the Pradhanmantri Sangrahalaya with older children.",
-          "Not on a Monday — the museums and Akshardham are closed."
+          "Prefer the road? A car to Agra on the Yamuna Expressway is about 230 km and 3–4 hours each way.",
+          "Want Jaipur too? Follow the Golden Triangle plans instead."
         ],
         "tips": [
-          "Carry water and snacks — outside food isn't allowed inside Akshardham.",
-          "The rail museum is mostly outdoors; go on a cool morning."
+          "Red Fort, the National Museum and Akshardham are closed on Mondays — plan around it.",
+          "Use the metro for long hops (about 5 am–midnight); Old Delhi's lanes are best by cycle-rickshaw or on foot.",
+          "Drink bottled water and eat freshly cooked food.",
+          "Put the Agra day on a Saturday–Thursday: the Taj Mahal and the Gatimaan are closed/not running on Fridays."
+        ],
+        "prep": [
+          {
+            "title": "Air quality",
+            "body": "From October to February the air is often poor to hazardous; check the AQI each morning and carry a mask if you're sensitive."
+          },
+          {
+            "title": "Scams",
+            "body": "Ignore touts near stations who claim your train or ticket office has moved; buy monument tickets only at the official counters or online, and count your change."
+          },
+          {
+            "title": "Taj Mahal rules",
+            "body": "Food, tobacco, chargers and many electronics aren't allowed inside; carry little and use the cloakroom."
+          }
+        ],
+        "faqs": [
+          {
+            "q": "Can you do Agra as a day trip from Delhi?",
+            "a": "Yes. The Gatimaan Express leaves Hazrat Nizamuddin at 8:10 am, reaches Agra Cantt about 9:50 am, and the return arrives back at 7:30 pm. It doesn't run on Fridays."
+          },
+          {
+            "q": "Which days are bad for this plan?",
+            "a": "Mondays (Red Fort, National Museum, Akshardham closed) and Fridays (Taj Mahal closed)."
+          }
+        ],
+        "days": [
+          {
+            "title": "Old Delhi",
+            "summary": "The Red Fort, the great mosque, a rickshaw and food walk, Gandhi's memorial and the fort's evening show.",
+            "stops": [
+              {
+                "time": "9:30 am",
+                "name": "Red Fort",
+                "duration": "2 hours",
+                "placeSlug": "red-fort",
+                "note": "Lahori Gate, Meena Bazaar, Diwan-i-Am; closed Mondays."
+              },
+              {
+                "time": "11:45 am",
+                "name": "Jama Masjid",
+                "duration": "45 minutes",
+                "placeSlug": "jama-masjid",
+                "note": "Closes 12–1:30 pm; climb the southern minaret."
+              },
+              {
+                "time": "12:45 pm",
+                "name": "Cycle-rickshaw ride",
+                "duration": "45 minutes",
+                "placeSlug": "chandni-chowk-rickshaw-ride",
+                "note": "Through the lanes to Khari Baoli's spice market."
+              },
+              {
+                "time": "1:30 pm",
+                "name": "Old Delhi food walk",
+                "duration": "1.5 hours",
+                "placeSlug": "old-delhi-food-walk",
+                "note": "Paranthe Wali Gali, chaat and kebabs."
+              },
+              {
+                "time": "4 pm",
+                "name": "Raj Ghat",
+                "duration": "45 minutes",
+                "placeSlug": "raj-ghat",
+                "note": "Gandhi's memorial by the Yamuna; open 7 am–6 pm."
+              },
+              {
+                "time": "After sunset",
+                "name": "Red Fort sound and light show",
+                "duration": "1 hour",
+                "placeSlug": "red-fort-sound-and-light-show",
+                "note": "Every evening except Mondays."
+              }
+            ],
+            "travel": "All in and around Shahjahanabad: walk and rickshaw, cab to Raj Ghat and back to the fort.",
+            "distanceKm": 12,
+            "distance": "About 12 km (estimate)",
+            "driveTime": "Under 1 hour in total (estimate)",
+            "transport": "Walking, cycle-rickshaw and cab",
+            "meals": "Street food on the walk; dinner in Old Delhi before the show.",
+            "overnight": "Delhi"
+          },
+          {
+            "title": "Raisina Hill and Lutyens' Delhi",
+            "summary": "The President's house, the national collection, a stepwell and the memorials.",
+            "stops": [
+              {
+                "time": "9:30 am",
+                "name": "Rashtrapati Bhavan (Circuit One tour)",
+                "duration": "1.5 hours",
+                "placeSlug": "rashtrapati-bhavan",
+                "note": "Tuesday–Sunday, 9:30 am–4:30 pm (last entry 4 pm). Enter by Gate 38, Church Road."
+              },
+              {
+                "time": "11:30 am",
+                "name": "National Museum",
+                "duration": "2 hours",
+                "placeSlug": "national-museum",
+                "note": "Opens 10 am, closed Mondays; the Dancing Girl of Harappa."
+              },
+              {
+                "time": "1:45 pm",
+                "name": "Lunch at Connaught Place",
+                "duration": "1 hour",
+                "placeSlug": "connaught-place"
+              },
+              {
+                "time": "3 pm",
+                "name": "Agrasen ki Baoli",
+                "duration": "45 minutes",
+                "placeSlug": "agrasen-ki-baoli",
+                "note": "A 60 m stepwell with 108 steps, off Hailey Road."
+              },
+              {
+                "time": "4 pm",
+                "name": "Jantar Mantar",
+                "duration": "45 minutes",
+                "placeSlug": "jantar-mantar",
+                "note": "Jai Singh II's 1724 observatory."
+              },
+              {
+                "time": "5:30 pm",
+                "name": "National War Memorial and India Gate",
+                "duration": "1.5 hours",
+                "placeSlug": "national-war-memorial",
+                "note": "Evening Retreat; free."
+              }
+            ],
+            "travel": "Short cab hops around central New Delhi; Central Secretariat metro is about 1 km from Rashtrapati Bhavan.",
+            "distanceKm": 15,
+            "distance": "About 15 km (estimate)",
+            "driveTime": "About 1 hour in total (estimate)",
+            "transport": "Cab and walking",
+            "meals": "Lunch at Connaught Place.",
+            "overnight": "Delhi"
+          },
+          {
+            "title": "South Delhi: tombs, gardens and the Qutub",
+            "summary": "Mughal and Lodi gardens, the Qutub complex, and qawwali at the dargah.",
+            "stops": [
+              {
+                "time": "Sunrise",
+                "name": "Humayun's Tomb",
+                "duration": "1.5 hours",
+                "placeSlug": "humayuns-tomb"
+              },
+              {
+                "time": "8:30 am",
+                "name": "Sunder Nursery",
+                "duration": "1 hour",
+                "placeSlug": "sunder-nursery"
+              },
+              {
+                "time": "10:30 am",
+                "name": "Lodhi Garden",
+                "duration": "1 hour",
+                "placeSlug": "lodhi-garden"
+              },
+              {
+                "time": "12 pm",
+                "name": "Lunch and rest at Khan Market",
+                "duration": "2 hours"
+              },
+              {
+                "time": "2:30 pm",
+                "name": "Qutub Minar and Mehrauli Archaeological Park",
+                "duration": "2.5 hours",
+                "placeSlug": "qutub-minar",
+                "note": "Balban's tomb and Jamali Kamali are a short walk away."
+              },
+              {
+                "time": "After Maghrib prayer",
+                "name": "Qawwali at Nizamuddin Dargah",
+                "duration": "1 hour",
+                "placeSlug": "qawwali-at-nizamuddin-dargah",
+                "note": "Every evening; Thursday's session is the biggest."
+              }
+            ],
+            "travel": "Nizamuddin → Lodhi Road → Khan Market are close; cab south to the Qutub and back to Nizamuddin in the evening.",
+            "distanceKm": 40,
+            "distance": "About 40 km (estimate)",
+            "driveTime": "About 2 hours in total (estimate)",
+            "transport": "App cab and walking",
+            "meals": "Lunch at Khan Market; kebabs around Nizamuddin after the qawwali.",
+            "overnight": "Delhi"
+          },
+          {
+            "title": "Day trip to Agra",
+            "summary": "The Taj Mahal and Agra Fort by fast train.",
+            "stops": [
+              {
+                "time": "8:10 am",
+                "name": "Gatimaan Express to Agra Cantt",
+                "duration": "1 hour 40 minutes",
+                "note": "From Hazrat Nizamuddin; arrives about 9:50 am. Not on Fridays."
+              },
+              {
+                "time": "10:30 am",
+                "name": "Taj Mahal",
+                "duration": "2.5 hours",
+                "placeSlug": "uttar-pradesh/taj-mahal",
+                "note": "Closed Fridays. Enter by the east or west gate; the southern gate is closed."
+              },
+              {
+                "time": "1:15 pm",
+                "name": "Lunch",
+                "duration": "1 hour"
+              },
+              {
+                "time": "2:30 pm",
+                "name": "Agra Fort",
+                "duration": "2 hours",
+                "placeSlug": "uttar-pradesh/agra-fort",
+                "note": "Enter by the Amar Singh Gate; views across the Yamuna to the Taj."
+              },
+              {
+                "time": "5:35 pm",
+                "name": "Gatimaan Express back to Delhi",
+                "duration": "2 hours",
+                "note": "Arrives Hazrat Nizamuddin about 7:30 pm."
+              }
+            ],
+            "travel": "Nizamuddin → Agra Cantt by train (about 1 hour 40 minutes); cab between the station, the Taj and the fort.",
+            "distanceKm": 400,
+            "distance": "About 400 km round trip (estimate)",
+            "driveTime": "About 4 hours on trains",
+            "transport": "Gatimaan Express and cab",
+            "meals": "Lunch in Agra.",
+            "overnight": "Delhi"
+          },
+          {
+            "title": "Purana Qila, Dilli Haat and Akshardham",
+            "summary": "The old citadel, a crafts market and the temple's water show.",
+            "stops": [
+              {
+                "time": "9 am",
+                "name": "Purana Qila",
+                "duration": "1.5 hours",
+                "placeSlug": "purana-qila",
+                "note": "Open 7 am–6 pm; enter by the Bara Darwaza; Sher Mandal and Qila-i-Kuhna mosque."
+              },
+              {
+                "time": "11:30 am",
+                "name": "Dilli Haat (INA)",
+                "duration": "2 hours",
+                "placeSlug": "dilli-haat",
+                "note": "Opens 11 am; regional food stalls for lunch."
+              },
+              {
+                "time": "2:30 pm",
+                "name": "Akshardham",
+                "duration": "3 hours",
+                "placeSlug": "akshardham",
+                "note": "Closed Mondays; no phones or outside food."
+              },
+              {
+                "time": "After sunset",
+                "name": "Akshardham water show",
+                "duration": "24 minutes",
+                "placeSlug": "akshardham-water-show"
+              }
+            ],
+            "travel": "Mathura Road → INA → Akshardham by cab or metro.",
+            "distanceKm": 25,
+            "distance": "About 25 km (estimate)",
+            "driveTime": "About 1.5 hours in total (estimate)",
+            "transport": "App cab and metro",
+            "meals": "Lunch at Dilli Haat.",
+            "overnight": "Delhi"
+          }
+        ]
+      }
+    },
+    {
+      "place": "delhi",
+      "slug": "delhi-2-days-with-kids",
+      "title": "Delhi in two days with kids",
+      "summary": "Steam engines and a toy train at the National Rail Museum, the Harappan Dancing Girl at the National Museum and India Gate at dusk, then Dilli Haat's crafts and Akshardham's boat ride and water show.",
+      "durationDays": 2,
+      "tripTypes": [
+        "family"
+      ],
+      "seoTitle": "Delhi with Kids: 2-Day Family Itinerary",
+      "seoDescription": "Two family days in Delhi: the National Rail Museum's toy train, the National Museum, India Gate, Dilli Haat and Akshardham's boat ride and water show.",
+      "facts": [
+        "NR1",
+        "NR2",
+        "NR3",
+        "NR4",
+        "NR5",
+        "NM1",
+        "NM2",
+        "NM3",
+        "NM4",
+        "WM1",
+        "WM3",
+        "WM5",
+        "G1",
+        "DH1",
+        "DH2",
+        "DH3",
+        "DH4",
+        "K1",
+        "K2",
+        "K3",
+        "K4",
+        "AK7",
+        "AK8",
+        "AK9",
+        "AK10",
+        "AK11",
+        "TR8",
+        "FW3",
+        "D2"
+      ],
+      "plan": {
+        "overview": "Two days built around things children enjoy. Day 1 starts at the National Rail Museum — 11 acres of locomotives, the Fairy Queen steam engine and a mini-train — then the National Museum's galleries and the War Memorial and India Gate at dusk. Day 2 is Dilli Haat's craft and food stalls, then Swaminarayan Akshardham, with its boat ride through dioramas and the Sahaj Anand water show after sunset. Avoid Mondays: the rail museum, National Museum and Akshardham are all closed.",
+        "style": "Family pace with one big sight each half-day",
+        "start": "National Rail Museum, Chanakyapuri",
+        "end": "Akshardham",
+        "season": "October to March is the most comfortable (mild days, but dense winter fog and often poor air from October to February). Late May–June is very hot; the monsoon runs late June to mid-September.",
+        "difficulty": "Easy",
+        "transport": "App cabs between sights; metro to Akshardham (about half a kilometre from the station).",
+        "budget": {
+          "assumptions": "Entry fees only; check Akshardham's exhibition and boat-ride tickets at the complex.",
+          "lines": [
+            {
+              "label": "National Rail Museum",
+              "amount": "₹10 (adult) / ₹3 (child)",
+              "basis": "Published entry fee"
+            },
+            {
+              "label": "Akshardham water show",
+              "amount": "₹110 (adult) / ₹80 (child 4–11)",
+              "basis": "Published ticket price; under-4s free"
+            },
+            {
+              "label": "National War Memorial, India Gate",
+              "amount": "Free",
+              "basis": "No ticket"
+            }
+          ]
+        },
+        "booking": [
+          {
+            "item": "Day choice",
+            "detail": "Avoid Mondays — the rail museum, National Museum and Akshardham are closed."
+          },
+          {
+            "item": "Akshardham",
+            "detail": "Buy water-show tickets at the complex early in the afternoon."
+          }
+        ],
+        "alternatives": [
+          "Older children? Swap Dilli Haat for the Red Fort and a rickshaw ride in Old Delhi.",
+          "Young children? Skip the National Museum and spend longer at the rail museum."
+        ],
+        "tips": [
+          "Akshardham doesn't allow phones, cameras or outside food — leave them at the cloakroom.",
+          "A modest dress code is enforced at Akshardham.",
+          "Dilli Haat opens at 11 am."
+        ],
+        "prep": [
+          {
+            "title": "For children",
+            "body": "Carry water, snacks for outside the temple, hats, and a change of clothes — the water show can splash the front rows on windy evenings."
+          },
+          {
+            "title": "Air quality",
+            "body": "From October to February the air is often poor to hazardous; check the AQI each morning and carry a mask if you're sensitive."
+          }
+        ],
+        "faqs": [
+          {
+            "q": "Is Akshardham good for children?",
+            "a": "Yes — the 15-minute boat ride through dioramas and the evening water show are the highlights. Remember phones aren't allowed inside."
+          },
+          {
+            "q": "How much is the National Rail Museum?",
+            "a": "₹10 for adults and ₹3 for children; it's open 10 am–5 pm, closed Mondays."
+          }
+        ],
+        "days": [
+          {
+            "title": "Trains, treasures and India Gate",
+            "summary": "Engines in the morning, a museum after lunch, the memorials at dusk.",
+            "stops": [
+              {
+                "time": "10 am",
+                "name": "National Rail Museum",
+                "duration": "2.5 hours",
+                "placeSlug": "national-rail-museum",
+                "note": "The Fairy Queen, the 1907 Patiala monorail and a mini-train ride."
+              },
+              {
+                "time": "12:45 pm",
+                "name": "Lunch",
+                "duration": "1 hour"
+              },
+              {
+                "time": "2 pm",
+                "name": "National Museum",
+                "duration": "2 hours",
+                "placeSlug": "national-museum",
+                "note": "The 4,500-year-old Dancing Girl of Harappa; audio-visual displays suit children."
+              },
+              {
+                "time": "5 pm",
+                "name": "National War Memorial",
+                "duration": "1 hour",
+                "placeSlug": "national-war-memorial",
+                "note": "Bronze statues of the 21 Param Vir Chakra recipients; evening Retreat."
+              },
+              {
+                "time": "6:15 pm",
+                "name": "India Gate",
+                "duration": "30 minutes",
+                "placeSlug": "india-gate"
+              }
+            ],
+            "travel": "Chanakyapuri → National Museum (Janpath) → India Gate, all in central Delhi.",
+            "distanceKm": 15,
+            "distance": "About 15 km (estimate)",
+            "driveTime": "About 1 hour in total (estimate)",
+            "transport": "App cab",
+            "meals": "Lunch near Chanakyapuri or Janpath.",
+            "overnight": "Delhi"
+          },
+          {
+            "title": "Dilli Haat and Akshardham",
+            "summary": "Crafts and food, then the temple complex and its water show.",
+            "stops": [
+              {
+                "time": "11 am",
+                "name": "Dilli Haat (INA)",
+                "duration": "2 hours",
+                "placeSlug": "dilli-haat",
+                "note": "Craft stalls and regional food from across India."
+              },
+              {
+                "time": "1 pm",
+                "name": "Lunch at Dilli Haat",
+                "duration": "1 hour",
+                "placeSlug": "dilli-haat"
+              },
+              {
+                "time": "2:30 pm",
+                "name": "Akshardham",
+                "duration": "3 hours",
+                "placeSlug": "akshardham",
+                "note": "Temple, exhibitions and the Sanskriti Vihar boat ride. Phones and outside food not allowed."
+              },
+              {
+                "time": "After sunset",
+                "name": "Akshardham water show",
+                "duration": "24 minutes",
+                "placeSlug": "akshardham-water-show",
+                "note": "Lasers, fountains and live actors."
+              }
+            ],
+            "travel": "INA → Akshardham across the Yamuna by cab or metro.",
+            "distanceKm": 20,
+            "distance": "About 20 km (estimate)",
+            "driveTime": "About 1 hour in total (estimate)",
+            "transport": "App cab or metro",
+            "meals": "Lunch at Dilli Haat's food stalls; snacks at Akshardham's food court.",
+            "overnight": "Delhi"
+          }
         ]
       }
     }

@@ -1,0 +1,3966 @@
+{
+  "cluster": "things-1",
+  "title": "State gaps: things-1",
+  "researchedAt": "2026-11-19",
+  "selection": "Train ride to Araku Valley (andhra-pradesh). Ziro Festival of Music (arunachal-pradesh). Kaziranga jeep and elephant safari (assam). Rajgir's Peace Pagoda and Vulture Peak (bihar). Boating on Sukhna Lake (chandigarh). Bastar Dussehra (chhattisgarh). Diu fort and Portuguese heritage walk (dadra-and-nagar-haveli-and-daman-and-diu). Rann Utsav in the white desert (gujarat). Surajkund International Crafts Mela (haryana). Shravani Mela pilgrimage to Deoghar (jharkhand). Chadar Trek on the frozen Zanskar (ladakh). Scuba diving and snorkelling (lakshadweep). Khajuraho Dance Festival (madhya-pradesh). Ganeshotsav in Mumbai (maharashtra). Sangai Festival (manipur). Living root bridges trek (meghalaya). Chapchar Kut festival (mizoram). Hornbill Festival (nagaland). Rath Yatra in Puri (odisha). Promenade and French Quarter walk (puducherry). Hola Mohalla at Anandpur Sahib (punjab). Bathukamma flower festival (telangana). Kharchi Puja at the Fourteen Gods temple (tripura). Durga Puja pandal-hopping in Kolkata (west-bengal).",
+  "sources": {
+    "WP_KK": {
+      "url": "https://en.wikipedia.org/wiki/Kothavalasa–Kirandul_line",
+      "title": "Kothavalasa–Kirandul line — Wikipedia",
+      "authority": "reference"
+    },
+    "WP_ARK": {
+      "url": "https://en.wikipedia.org/wiki/Araku_Valley",
+      "title": "Araku Valley — Wikipedia",
+      "authority": "reference"
+    },
+    "WP_ZFM": {
+      "url": "https://en.wikipedia.org/wiki/Ziro_Festival_of_Music",
+      "title": "Ziro Festival of Music — Wikipedia",
+      "authority": "reference"
+    },
+    "WP_ZIRO": {
+      "url": "https://en.wikipedia.org/wiki/Ziro",
+      "title": "Ziro — Wikipedia",
+      "authority": "reference"
+    },
+    "WP_KZ": {
+      "url": "https://en.wikipedia.org/wiki/Kaziranga_National_Park",
+      "title": "Kaziranga National Park — Wikipedia",
+      "authority": "reference"
+    },
+    "WP_RJ": {
+      "url": "https://en.wikipedia.org/wiki/Rajgir",
+      "title": "Rajgir — Wikipedia",
+      "authority": "reference"
+    },
+    "WP_VSS": {
+      "url": "https://en.wikipedia.org/wiki/Vishwa_Shanti_Stupa",
+      "title": "Vishwa Shanti Stupa — Wikipedia",
+      "authority": "reference"
+    },
+    "WP_VP": {
+      "url": "https://en.wikipedia.org/wiki/Vulture_Peak",
+      "title": "Vulture Peak — Wikipedia",
+      "authority": "reference"
+    },
+    "WP_SUK": {
+      "url": "https://en.wikipedia.org/wiki/Sukhna_Lake",
+      "title": "Sukhna Lake — Wikipedia",
+      "authority": "reference"
+    },
+    "WP_BD": {
+      "url": "https://en.wikipedia.org/wiki/Bastar_Dussehra",
+      "title": "Bastar Dussehra — Wikipedia",
+      "authority": "reference"
+    },
+    "WP_VJD": {
+      "url": "https://en.wikipedia.org/wiki/Vijayadashami",
+      "title": "Vijayadashami — Wikipedia",
+      "authority": "reference"
+    },
+    "WP_JDP": {
+      "url": "https://en.wikipedia.org/wiki/Jagdalpur",
+      "title": "Jagdalpur — Wikipedia",
+      "authority": "reference"
+    },
+    "WP_DIU": {
+      "url": "https://en.wikipedia.org/wiki/Diu,_India",
+      "title": "Diu, India — Wikipedia",
+      "authority": "reference"
+    },
+    "WP_NAG": {
+      "url": "https://en.wikipedia.org/wiki/Nagoa_Beach",
+      "title": "Nagoa Beach — Wikipedia",
+      "authority": "reference"
+    },
+    "WP_RANN": {
+      "url": "https://en.wikipedia.org/wiki/Great_Rann_of_Kutch",
+      "title": "Great Rann of Kutch — Wikipedia",
+      "authority": "reference"
+    },
+    "WP_SKD": {
+      "url": "https://en.wikipedia.org/wiki/Surajkund",
+      "title": "Surajkund — Wikipedia",
+      "authority": "reference"
+    },
+    "WP_SHM": {
+      "url": "https://en.wikipedia.org/wiki/Shravani_Mela",
+      "title": "Shravani Mela — Wikipedia",
+      "authority": "reference"
+    },
+    "WP_CHA": {
+      "url": "https://en.wikipedia.org/wiki/Chadar_Trek",
+      "title": "Chadar Trek — Wikipedia",
+      "authority": "reference"
+    },
+    "WP_LKD": {
+      "url": "https://en.wikipedia.org/wiki/Lakshadweep",
+      "title": "Lakshadweep — Wikipedia",
+      "authority": "reference"
+    },
+    "WP_KDF": {
+      "url": "https://en.wikipedia.org/wiki/Khajuraho_Dance_Festival",
+      "title": "Khajuraho Dance Festival — Wikipedia",
+      "authority": "reference"
+    },
+    "WP_GC": {
+      "url": "https://en.wikipedia.org/wiki/Ganesh_Chaturthi",
+      "title": "Ganesh Chaturthi — Wikipedia",
+      "authority": "reference"
+    },
+    "WP_LBR": {
+      "url": "https://en.wikipedia.org/wiki/Lalbaugcha_Raja",
+      "title": "Lalbaugcha Raja — Wikipedia",
+      "authority": "reference"
+    },
+    "WP_SGF": {
+      "url": "https://en.wikipedia.org/wiki/Sangai_Festival",
+      "title": "Sangai Festival — Wikipedia",
+      "authority": "reference"
+    },
+    "WP_LRB": {
+      "url": "https://en.wikipedia.org/wiki/Living_root_bridge",
+      "title": "Living root bridge — Wikipedia",
+      "authority": "reference"
+    },
+    "WP_CCK": {
+      "url": "https://en.wikipedia.org/wiki/Chapchar_Kut",
+      "title": "Chapchar Kut — Wikipedia",
+      "authority": "reference"
+    },
+    "WP_HBF": {
+      "url": "https://en.wikipedia.org/wiki/Hornbill_Festival",
+      "title": "Hornbill Festival — Wikipedia",
+      "authority": "reference"
+    },
+    "WP_RY": {
+      "url": "https://en.wikipedia.org/wiki/Ratha_Yatra_(Puri)",
+      "title": "Ratha Yatra (Puri) — Wikipedia",
+      "authority": "reference"
+    },
+    "WP_PDY": {
+      "url": "https://en.wikipedia.org/wiki/Puducherry_(city)",
+      "title": "Puducherry (city) — Wikipedia",
+      "authority": "reference"
+    },
+    "WP_HOLA": {
+      "url": "https://en.wikipedia.org/wiki/Hola_Mohalla",
+      "title": "Hola Mohalla — Wikipedia",
+      "authority": "reference"
+    },
+    "WP_BTK": {
+      "url": "https://en.wikipedia.org/wiki/Bathukamma",
+      "title": "Bathukamma — Wikipedia",
+      "authority": "reference"
+    },
+    "WP_KHP": {
+      "url": "https://en.wikipedia.org/wiki/Kharchi_puja",
+      "title": "Kharchi puja — Wikipedia",
+      "authority": "reference"
+    },
+    "WP_DPK": {
+      "url": "https://en.wikipedia.org/wiki/Durga_Puja_in_Kolkata",
+      "title": "Durga Puja in Kolkata — Wikipedia",
+      "authority": "reference"
+    },
+    "WP_VJW": {
+      "url": "https://en.wikipedia.org/wiki/Vijayadashami",
+      "title": "Vijayadashami — Wikipedia",
+      "authority": "reference"
+    }
+  },
+  "facts": {
+    "AK_LINE": {
+      "place": "andhra-pradesh/araku-valley-train",
+      "topic": "Route",
+      "claim": "The line climbs the Eastern Ghats through Araku Valley with 58 tunnels and 84 major bridges.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WP_KK",
+          "quote": "This line passes hill sections of Eastern Ghats through Araku Valley."
+        },
+        {
+          "source": "WP_KK",
+          "quote": "The line has a total of 58 tunnels and 84 major bridges"
+        }
+      ]
+    },
+    "AK_FREIGHT": {
+      "place": "andhra-pradesh/araku-valley-train",
+      "topic": "History",
+      "claim": "Opened in 1966–67 for iron ore, it is mainly a freight line.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WP_KK",
+          "quote": "The Kothavalasa–Kirandaul line was opened in 1966–67"
+        },
+        {
+          "source": "WP_KK",
+          "quote": "This line is mainly used for freight purposes"
+        }
+      ]
+    },
+    "AK_TOWN": {
+      "place": "andhra-pradesh/araku-valley-train",
+      "topic": "Araku",
+      "claim": "Araku is a hill station 111 km from Visakhapatnam, linked by rail and road.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WP_ARK",
+          "quote": "Araku Valley is a hill station in the Alluri Sitharama Raju district of Andhra Pradesh, India, located 111 km from Visakhapatnam."
+        },
+        {
+          "source": "WP_ARK",
+          "quote": "Araku is linked through both rail and road to Visakhapatnam."
+        }
+      ]
+    },
+    "AK_COFFEE": {
+      "place": "andhra-pradesh/araku-valley-train",
+      "topic": "Coffee",
+      "claim": "Coffee plantations were developed in the valley after independence, later with tribal farmers.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WP_ARK",
+          "quote": "After independence, the Andhra Pradesh Forest Department developed coffee plantations in the valley."
+        },
+        {
+          "source": "WP_ARK",
+          "quote": "In 1956, Coffee Board appointed Andhra Pradesh Girijan Cooperative Corporation Limited (GCC) for promoting coffee plantations in the valley through local tribal farmers."
+        }
+      ]
+    },
+    "ZF_WHAT": {
+      "place": "arunachal-pradesh/ziro-festival-of-music",
+      "topic": "Festival",
+      "claim": "An outdoor music festival in Ziro, founded in 2012.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WP_ZFM",
+          "quote": "Ziro Festival of Music is an outdoor music festival held in Ziro, Arunachal Pradesh, India."
+        },
+        {
+          "source": "WP_ZFM",
+          "quote": "It was founded in 2012"
+        }
+      ]
+    },
+    "ZF_DAYS": {
+      "place": "arunachal-pradesh/ziro-festival-of-music",
+      "topic": "Format",
+      "claim": "Four days, hosted by the Apatani people, with emerging acts from Northeast India.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WP_ZFM",
+          "quote": "The festival is spread over four days and is hosted by members of the Apatani people in Ziro, with an emphasis on emerging acts from Northeast India."
+        }
+      ]
+    },
+    "ZF_APA": {
+      "place": "arunachal-pradesh/ziro-festival-of-music",
+      "topic": "Apatani valley",
+      "claim": "Ziro is home to the Apatani; their cultural landscape is on UNESCO's tentative list.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WP_ZIRO",
+          "quote": "Ziro is home to the Apatani tribe."
+        },
+        {
+          "source": "WP_ZIRO",
+          "quote": "Apatani cultural landscape in Ziro Valley in Lower Subansiri district and Thembang Dzong in West Kameng district have been included in the Tentative List for UNESCO's World Heritage Site."
+        }
+      ]
+    },
+    "ZF_PADDY": {
+      "place": "arunachal-pradesh/ziro-festival-of-music",
+      "topic": "Paddy",
+      "claim": "The Apatanis practise permanent wet paddy cultivation.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WP_ZIRO",
+          "quote": "Apatanis practice permanent wet paddy cultivation whereas other tribes practice shifting cultivation called Jhom cultivation."
+        }
+      ]
+    },
+    "KZ_TOURS": {
+      "place": "assam/kaziranga-safari",
+      "topic": "Safaris",
+      "claim": "Wildlife watching is the main activity; guided tours by elephant or jeep are available.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WP_KZ",
+          "quote": "Observing the wildlife, including birding, is the main visitor activity in and around the park."
+        },
+        {
+          "source": "WP_KZ",
+          "quote": "Guided tours by elephant or Jeep are available."
+        }
+      ]
+    },
+    "KZ_BIG5": {
+      "place": "assam/kaziranga-safari",
+      "topic": "Big Five",
+      "claim": "Rhino, tiger, elephant, wild water buffalo and swamp deer are Kaziranga's 'Big Five'.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WP_KZ",
+          "quote": "The Indian rhinoceros, royal Bengal tiger, Asian elephant, wild water buffalo and swamp deer are collectively known as 'Big Five' of Kaziranga."
+        }
+      ]
+    },
+    "KZ_RHINO": {
+      "place": "assam/kaziranga-safari",
+      "topic": "Rhinos",
+      "claim": "80% of surveyed visitors enjoyed rhino sightings most.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WP_KZ",
+          "quote": "A survey of tourists notes that 80 percent found rhino sightings most enjoyable"
+        }
+      ]
+    },
+    "KZ_RANGES": {
+      "place": "assam/kaziranga-safari",
+      "topic": "Ranges",
+      "claim": "Five ranges: Burapahar, Western (Baguri), Central (Kohora), Eastern (Agaratoli) and Northern.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WP_KZ",
+          "quote": "The five ranges are the Burapahar (HQ: Ghorakati), Western (HQ: Baguri), Central (HQ: Kohora), Eastern (HQ: Agaratoli) and Northern (HQ: Biswanath)."
+        }
+      ]
+    },
+    "KZ_CENTRE": {
+      "place": "assam/kaziranga-safari",
+      "topic": "Interpretation centre",
+      "claim": "An interpretation centre is at Bagori range.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WP_KZ",
+          "quote": "An interpretation centre is at the Bagori range of Kaziranga to help visitors learn more about the park."
+        }
+      ]
+    },
+    "KZ_SEASON": {
+      "place": "assam/kaziranga-safari",
+      "topic": "Seasons",
+      "claim": "The monsoon runs June–September; after it, rhinos come out to graze; migratory birds arrive in winter.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WP_KZ",
+          "quote": "The rainy monsoon season lasts from June to September"
+        },
+        {
+          "source": "WP_KZ",
+          "quote": "With the end of the monsoon season, herbivorous animals, especially the rhinoceros, rush into these areas for grazing."
+        },
+        {
+          "source": "WP_KZ",
+          "quote": "migrate from Central Asia to the park during winter."
+        }
+      ]
+    },
+    "KZ_STAY": {
+      "place": "assam/kaziranga-safari",
+      "topic": "Homestays",
+      "claim": "Families just outside the park offer homestays and guided drives.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WP_KZ",
+          "quote": "Some families also offer home stay facilities just outside the park so that the tourists may get a taste of the local life and host can drive and guide visitors into the park."
+        }
+      ]
+    },
+    "RJ_STUPA": {
+      "place": "bihar/rajgir-peace-pagoda",
+      "topic": "Peace pagoda",
+      "claim": "The Vishwa Shanti Stupa was built in 1969, one of 80 peace pagodas in the world.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WP_RJ",
+          "quote": "Another major attraction is the peace pagoda, Vishwa Shanti Stupa, built-in 1969, one of the 80 peace pagodas in the world, to spread the message of peace and non-violence."
+        }
+      ]
+    },
+    "RJ_SIZE": {
+      "place": "bihar/rajgir-peace-pagoda",
+      "topic": "The stupa",
+      "claim": "On top of the 400 m Rajgir Hills, the stupa is 120 ft tall and 103 ft across.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WP_VSS",
+          "quote": "Located on about the top of the 400 m high Rajgir Hills in the lush-green valley of Rajgir, the white stupa stands 120 ft tall with a total diameter of 103 ft."
+        }
+      ]
+    },
+    "RJ_ANNIV": {
+      "place": "bihar/rajgir-peace-pagoda",
+      "topic": "Anniversary",
+      "claim": "Inaugurated on 25 October 1969; the anniversary is celebrated every year.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WP_RJ",
+          "quote": "which was inaugurated on 25 October 1969."
+        },
+        {
+          "source": "WP_RJ",
+          "quote": "the anniversary of its establishment is celebrated every year."
+        }
+      ]
+    },
+    "RJ_BUDDHA": {
+      "place": "bihar/rajgir-peace-pagoda",
+      "topic": "Vulture Peak",
+      "claim": "The Buddha spent months meditating and preaching at Gridhra-kuta, the Hill of the Vultures.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WP_RJ",
+          "quote": "It was here that Gautama Buddha spent several months meditating, and preaching at Gridhra-kuta, ('Hill of the Vultures')"
+        }
+      ]
+    },
+    "RJ_SUTRA": {
+      "place": "bihar/rajgir-peace-pagoda",
+      "topic": "Sermons",
+      "claim": "The Heart Sutra and Lotus Sutra are among the sermons placed at Vulture Peak.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WP_VP",
+          "quote": "Among the sermons are the Heart Sutra, the Lotus Sutra and the Śūraṅgama Samādhi Sūtra as well as many prajnaparamita sutras."
+        }
+      ]
+    },
+    "RJ_SPRINGS": {
+      "place": "bihar/rajgir-peace-pagoda",
+      "topic": "Hot springs",
+      "claim": "Rajgir is known for its hot springs, sacred since ancient times.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WP_RJ",
+          "quote": "Rajgir is known for its hot springs, which have held religious significance since ancient times."
+        }
+      ]
+    },
+    "RJ_CLIMATE": {
+      "place": "bihar/rajgir-peace-pagoda",
+      "topic": "Climate",
+      "claim": "Winters are 6–28 °C; summers reach 44 °C; rain mid-June to mid-September.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WP_RJ",
+          "quote": "Summer temperature: maximum 44 °C"
+        },
+        {
+          "source": "WP_RJ",
+          "quote": "Winter temperature: maximum 28 °C (82.4 °F), minimum 6 °C (42.8 °F)"
+        },
+        {
+          "source": "WP_RJ",
+          "quote": "Rainfall: 1,860 mm (mid-June to mid-September)"
+        }
+      ]
+    },
+    "SU_BOAT": {
+      "place": "chandigarh/sukhna-lake-boating",
+      "topic": "Water sports",
+      "claim": "Boating, rowing, sculling, sailing, kayaking and water-skiing run all year.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WP_SUK",
+          "quote": "Boating, rowing, sculling, sailing, kayaking, and water-skiing can be undertaken throughout the year."
+        }
+      ]
+    },
+    "SU_QUIET": {
+      "place": "chandigarh/sukhna-lake-boating",
+      "topic": "No motorboats",
+      "claim": "Le Corbusier banned motorboats and traffic on the dam promenade.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WP_SUK",
+          "quote": "To preserve its tranquility, Corbusier insisted on two things: that it be forbidden for motorboats to circulate in the water, and for vehicular traffic to be prohibited on top of the dam (promenade)."
+        }
+      ]
+    },
+    "SU_BIRDS": {
+      "place": "chandigarh/sukhna-lake-boating",
+      "topic": "Birds",
+      "claim": "Migratory birds such as Siberian ducks, storks and cranes come in winter.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WP_SUK",
+          "quote": "Sukhna is a sanctuary for many migratory birds like the Siberian duck, storks and cranes, during the winter months."
+        }
+      ]
+    },
+    "SU_MANGO": {
+      "place": "chandigarh/sukhna-lake-boating",
+      "topic": "Mango Festival",
+      "claim": "The Mango Festival is held at the lake during the monsoon.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WP_SUK",
+          "quote": "The Mango Festival is held at Sukhna Lake during the monsoon season."
+        }
+      ]
+    },
+    "SU_CLUB": {
+      "place": "chandigarh/sukhna-lake-boating",
+      "topic": "Lake Club",
+      "claim": "A membership Lake Club has pools, a gym and tennis courts.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WP_SUK",
+          "quote": "Sukhna has a membership-based Lake Club with lawns, a gym, indoor games, swimming pools, and both grass and synthetic tennis courts."
+        }
+      ]
+    },
+    "BD_WHAT": {
+      "place": "chhattisgarh/bastar-dussehra",
+      "topic": "Festival",
+      "claim": "Bastar Dussehra celebrates the goddess Danteswari.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WP_BD",
+          "quote": "Bastar Dussehra is a festival in Chhattisgarh, India. It celebrates the goddess Danteswari."
+        }
+      ]
+    },
+    "BD_RATH": {
+      "place": "chhattisgarh/bastar-dussehra",
+      "topic": "Chariot",
+      "claim": "Worship is held at the Danteswari temple in Jagdalpur, and a chariot is made for the goddess.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WP_BD",
+          "quote": "During Dussehra, Bastar inhabitants organize worship ceremonies at the Danteswari temple in Jagadalpur."
+        },
+        {
+          "source": "WP_BD",
+          "quote": "On this occasion, a rath is made in which goddess sits."
+        }
+      ]
+    },
+    "BD_OLD": {
+      "place": "chhattisgarh/bastar-dussehra",
+      "topic": "History",
+      "claim": "Started by Maharaja Purushottam Deo in the early 15th century.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WP_BD",
+          "quote": "Maharaja Purushaottam Deo initiated the festival of Dussehra in the early 15th century."
+        }
+      ]
+    },
+    "BD_DAYS": {
+      "place": "chhattisgarh/bastar-dussehra",
+      "topic": "Ceremonies",
+      "claim": "On day nine the goddess arrives in a palanquin; on day ten the Raja holds a darbar.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WP_BD",
+          "quote": "On the ninth day, the Raja of Bastar welcomes the goddess Danteswari, who comes to the entrance of the city as a doli, a type of palanquin."
+        },
+        {
+          "source": "WP_BD",
+          "quote": "The tenth day is Dussehra, when the Raja organizes a darbar where people present their requests."
+        }
+      ]
+    },
+    "BD_UNIQUE": {
+      "place": "chhattisgarh/bastar-dussehra",
+      "topic": "Unique",
+      "claim": "It is distinct from Dussehra elsewhere in India.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WP_BD",
+          "quote": "The Dussehra of Bastar is distinct from Dussehra festivals elsewhere in India."
+        }
+      ]
+    },
+    "BD_MONTH": {
+      "place": "chhattisgarh/bastar-dussehra",
+      "topic": "Timing",
+      "claim": "Dussehra falls in September or October.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WP_VJD",
+          "quote": "falls in the Gregorian calendar months of September or October."
+        }
+      ]
+    },
+    "BD_FALLS": {
+      "place": "chhattisgarh/bastar-dussehra",
+      "topic": "Nearby",
+      "claim": "Chitrakote Falls, Teerathgarh Falls and Kotumsar Cave are near Jagdalpur.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WP_JDP",
+          "quote": "Important landmarks in Jagdalpur include Chitrakote Falls, Teerathgarh Falls, Kotumsar Cave"
+        }
+      ]
+    },
+    "DI_TOWN": {
+      "place": "dadra-and-nagar-haveli-and-daman-and-diu/diu-heritage-walk",
+      "topic": "Town",
+      "claim": "Diu is known for its fortress and old Portuguese cathedral.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WP_DIU",
+          "quote": "The town of Diu lies at the eastern end of Diu Island and is known for its fortress and old Portuguese cathedral."
+        }
+      ]
+    },
+    "DI_FORT": {
+      "place": "dadra-and-nagar-haveli-and-daman-and-diu/diu-heritage-walk",
+      "topic": "Diu Fort",
+      "claim": "Built in 1535 on a hillock by the sea, garrisoned until 1960, and the district's most visited landmark.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WP_DIU",
+          "quote": "Diu Fort was built in 1535 and maintained an active garrison until 1960."
+        },
+        {
+          "source": "WP_DIU",
+          "quote": "The fort is built on a hillock next to the sea."
+        },
+        {
+          "source": "WP_DIU",
+          "quote": "The Diu fort is the most visited landmark in the district."
+        }
+      ]
+    },
+    "DI_SEAFORT": {
+      "place": "dadra-and-nagar-haveli-and-daman-and-diu/diu-heritage-walk",
+      "topic": "Fortim do Mar",
+      "claim": "A sea fort in the channel between Diu and the Gogolá peninsula.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WP_DIU",
+          "quote": "Fortim do Mar is a sea fort in the Diu channel between the island of Diu and the Gogolá peninsula."
+        }
+      ]
+    },
+    "DI_SKYLINE": {
+      "place": "dadra-and-nagar-haveli-and-daman-and-diu/diu-heritage-walk",
+      "topic": "Old town",
+      "claim": "A low skyline and Portuguese architecture.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WP_DIU",
+          "quote": "With no tall buildings except the fort, the town of Diu has a characteristically low skyline and is known for its Portuguese architecture."
+        }
+      ]
+    },
+    "DI_CHAPELS": {
+      "place": "dadra-and-nagar-haveli-and-daman-and-diu/diu-heritage-walk",
+      "topic": "Chapels",
+      "claim": "Mother of God Chapel, Our Lady of Rosary Chapel and the bastion chapels.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WP_DIU",
+          "quote": "Some of the prominent ones are: Mother of God Chapel, Our Lady of Rosary Chapel and the Bastion Chapels of the city wall and fort."
+        }
+      ]
+    },
+    "DI_BRIDGE": {
+      "place": "dadra-and-nagar-haveli-and-daman-and-diu/diu-heritage-walk",
+      "topic": "Getting there",
+      "claim": "A bridge links Diu to mainland Gujarat; road transport from Una, Rajula and Mahuva.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WP_DIU",
+          "quote": "Diu is linked to the mainland Gujarat by a bridge."
+        },
+        {
+          "source": "WP_DIU",
+          "quote": "Local transport is available by road from Una, Rajula and Mahuva in Gujarat."
+        }
+      ]
+    },
+    "DI_NAGOA": {
+      "place": "dadra-and-nagar-haveli-and-daman-and-diu/diu-heritage-walk",
+      "topic": "Nagoa Beach",
+      "claim": "A horseshoe-shaped beach about 8 km from Diu, its main tourist beach.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WP_NAG",
+          "quote": "It is located approximately 8 km from Diu."
+        },
+        {
+          "source": "WP_NAG",
+          "quote": "It's a horseshoe shaped beach"
+        },
+        {
+          "source": "WP_NAG",
+          "quote": "It is also the main tourist beach for Diu."
+        }
+      ]
+    },
+    "RU_WHEN": {
+      "place": "gujarat/rann-utsav",
+      "topic": "Festival",
+      "claim": "A three-month Rann Utsav runs December–February near Dhordo, on 500 km² of white salt desert.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WP_RANN",
+          "quote": "The Government of Gujarat hosts an annual 3-month long Rann Utsav festival from December to February every year near Dhordo village in a 500 km2 white salt desert."
+        }
+      ]
+    },
+    "RU_WHAT": {
+      "place": "gujarat/rann-utsav",
+      "topic": "Programme",
+      "claim": "BSF camel show, hot-air ballooning, handicrafts and food.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WP_RANN",
+          "quote": "Rann Utsav has cultural programs such as the BSF camel show, adventure activities like hot-air ballooning, handicrafts, food, etc."
+        }
+      ]
+    },
+    "RU_FOLK": {
+      "place": "gujarat/rann-utsav",
+      "topic": "Folk music",
+      "claim": "Folk dance and music events with bonfires under the moon; Banni shows folk arts and crafts.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WP_RANN",
+          "quote": "semi-arid grasslands of the Banni reserve exhibits folk architecture, arts and crafts of the area, and folk dance and dance music events are held at several locations with a bonfire under the moon."
+        }
+      ]
+    },
+    "RU_SIZE": {
+      "place": "gujarat/rann-utsav",
+      "topic": "The Rann",
+      "claim": "About 7,500 km², one of the largest salt deserts in the world.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WP_RANN",
+          "quote": "It is about 7500 km2 (2900 sq miles) in area and is reputed to be one of the largest salt deserts in the world."
+        }
+      ]
+    },
+    "RU_COLD": {
+      "place": "gujarat/rann-utsav",
+      "topic": "Cold",
+      "claim": "Winter temperatures can drop below 0 °C.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WP_RANN",
+          "quote": "Winter temperatures diminish dramatically and can drop to below 0 °C (32 °F)."
+        }
+      ]
+    },
+    "RU_WET": {
+      "place": "gujarat/rann-utsav",
+      "topic": "Monsoon",
+      "claim": "In the monsoon the flats fill with standing water.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WP_RANN",
+          "quote": "In India's summer monsoon, the flat semi-desert of salty clay and mudflats, which average 15 meters above sea level, fills with standing water."
+        }
+      ]
+    },
+    "SJ_SITE": {
+      "place": "haryana/surajkund-crafts-mela",
+      "topic": "Where",
+      "claim": "Surajkund is a 10th-century reservoir in Faridabad, about 8 km from South Delhi.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WP_SKD",
+          "quote": "Surajkund is an ancient reservoir of the 10th century located on Southern Delhi Ridge of Aravalli range in Faridabad city of Haryana state about 8 km (5 mi) from South Delhi."
+        }
+      ]
+    },
+    "SJ_WHEN": {
+      "place": "haryana/surajkund-crafts-mela",
+      "topic": "When",
+      "claim": "Held every year in spring, 1–15 February (dates vary).",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WP_SKD",
+          "quote": "during the spring season, every year from 1–15 February, (in 2018, it is from 2–18 February)"
+        }
+      ]
+    },
+    "SJ_START": {
+      "place": "haryana/surajkund-crafts-mela",
+      "topic": "History",
+      "claim": "First held in 1987; craftspeople come from all over India.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WP_SKD",
+          "quote": "This fair was first started in 1987."
+        },
+        {
+          "source": "WP_SKD",
+          "quote": "Traditional craftsmen (artists, painters, weavers and sculptors) from all parts of the country participate in this annual celebration"
+        }
+      ]
+    },
+    "SJ_THEME": {
+      "place": "haryana/surajkund-crafts-mela",
+      "topic": "Theme state",
+      "claim": "Each year a theme state shapes the entrance and its 400 craft stalls.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WP_SKD",
+          "quote": "The theme, specific to a state of India, is depicted at the entrance to the Mela grounds"
+        },
+        {
+          "source": "WP_SKD",
+          "quote": "The crafts on display in the stalls (400) is of particular crafts of that state."
+        }
+      ]
+    },
+    "SJ_FOOD": {
+      "place": "haryana/surajkund-crafts-mela",
+      "topic": "Food",
+      "claim": "A food festival covers cuisines from across India.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WP_SKD",
+          "quote": "The Mela also includes a food festival covering some of the popular cuisines from different parts of the country."
+        }
+      ]
+    },
+    "SJ_CROWD": {
+      "place": "haryana/surajkund-crafts-mela",
+      "topic": "Crowds",
+      "claim": "The 2015 fair drew 1.2 million visitors.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WP_SKD",
+          "quote": "2015 edition of fair was visited by 1.2 million visitors including 160,000 foreigners."
+        }
+      ]
+    },
+    "SJ_DIWALI": {
+      "place": "haryana/surajkund-crafts-mela",
+      "topic": "Diwali Utsav",
+      "claim": "A week-long Diwali Utsav runs around October–November.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WP_SKD",
+          "quote": "Surajkund Diwali Utsav, week long festival is held every year on Hindu festival of lights Diwali around October–November"
+        }
+      ]
+    },
+    "SM_WHAT": {
+      "place": "jharkhand/shravani-mela",
+      "topic": "Festival",
+      "claim": "A month-long festival in Shravan (July–August) at Baba Baidyanath Dham, Deoghar.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WP_SHM",
+          "quote": "Shravani Mela is a month-long Hindu festival observed in the month of Shravan (July–August) at the Baba Baidyanath Dham temple in Deoghar, Jharkhand, India."
+        }
+      ]
+    },
+    "SM_BIG": {
+      "place": "jharkhand/shravani-mela",
+      "topic": "Scale",
+      "claim": "One of India's largest religious gatherings.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WP_SHM",
+          "quote": "This festival is one of the largest religious gatherings in India"
+        }
+      ]
+    },
+    "SM_WALK": {
+      "place": "jharkhand/shravani-mela",
+      "topic": "The walk",
+      "claim": "Pilgrims carry Ganges water about 105 km on foot from Sultanganj to Deoghar.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WP_SHM",
+          "quote": "devotees collecting water from the Ganges at Ajgaibinath Dham, Sultanganj and carrying it on foot over a distance of approximately 105 km to the Baba Baidyanath temple in Deoghar."
+        }
+      ]
+    },
+    "SM_KANWAR": {
+      "place": "jharkhand/shravani-mela",
+      "topic": "Kanwariyas",
+      "claim": "Kanwariyas wear saffron, carry a kanwar and walk barefoot without setting it down.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WP_SHM",
+          "quote": "Devotees, known as Kanwariyas, wear saffron-colored clothes and carry the holy water in pots balanced on a decorated bamboo structure called a Kanwar."
+        },
+        {
+          "source": "WP_SHM",
+          "quote": "The devotees walk barefoot and are not allowed to place the Kanwar on the ground during the journey."
+        }
+      ]
+    },
+    "SM_SITES": {
+      "place": "jharkhand/shravani-mela",
+      "topic": "Sites",
+      "claim": "Baidyanath is one of the twelve Jyotirlingas; Shivganga Lake and Basukinath follow.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WP_SHM",
+          "quote": "Baba Baidyanath Temple – One of the twelve Jyotirlingas of Lord Shiva."
+        },
+        {
+          "source": "WP_SHM",
+          "quote": "Shivganga Lake – A sacred pond near the temple where devotees take a dip before offering prayers."
+        },
+        {
+          "source": "WP_SHM",
+          "quote": "Basukinath Temple – A significant temple visited by pilgrims after offering prayers at Baidyanath Dham."
+        }
+      ]
+    },
+    "CT_WHAT": {
+      "place": "ladakh/chadar-trek",
+      "topic": "Trek",
+      "claim": "A winter trail over the frozen Zanskar, traditionally the only way through in winter.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WP_CHA",
+          "quote": "The Chadar Trek or the Zanskar Gorge trek is a winter trail over the frozen Zanskar River"
+        },
+        {
+          "source": "WP_CHA",
+          "quote": "It is traditionally the only means of travel in the area during the harsh winter months."
+        }
+      ]
+    },
+    "CT_GORGE": {
+      "place": "ladakh/chadar-trek",
+      "topic": "Gorge",
+      "claim": "Cliffs up to 600 m; the gorge narrows to 5 m in places.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WP_CHA",
+          "quote": "The walls are near vertical cliffs up to 600 m high and the Zanskar River (a tributary of the Indus) flows in a narrow gorge that is only 5 metres (16 ft) wide in places."
+        }
+      ]
+    },
+    "CT_DIST": {
+      "place": "ladakh/chadar-trek",
+      "topic": "Distance",
+      "claim": "About 105 km; around 16 km a day.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WP_CHA",
+          "quote": "The overall distance is approximately 105 kilometres (65 mi) – an average trekker walks 16 kilometres (10 mi) per day."
+        }
+      ]
+    },
+    "CT_WHEN": {
+      "place": "ladakh/chadar-trek",
+      "topic": "When",
+      "claim": "January–February, when it can drop to −30 to −35 °C.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WP_CHA",
+          "quote": "The best time to do the Chadar trek is January to February, when the temperature during the winters drops sometimes to -30 to -35 degrees."
+        }
+      ]
+    },
+    "CT_ROUTE": {
+      "place": "ladakh/chadar-trek",
+      "topic": "Route",
+      "claim": "Starts from Chilling; Nerak's frozen waterfall is the turnaround.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WP_CHA",
+          "quote": "Chadar trek starts from Chilling"
+        },
+        {
+          "source": "WP_CHA",
+          "quote": "Nerak is the frozen waterfall and the return point of the trek"
+        }
+      ]
+    },
+    "CT_LONG": {
+      "place": "ladakh/chadar-trek",
+      "topic": "Longer routes",
+      "claim": "Variants go to Lingshed or, over about 14 days, Padum.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WP_CHA",
+          "quote": "There are other variations of the trek which go until Lingshed, while a bigger version goes to Padum over almost 14 days."
+        }
+      ]
+    },
+    "LK_SPORTS": {
+      "place": "lakshadweep/scuba-diving-snorkelling",
+      "topic": "Water sports",
+      "claim": "Scuba diving, snorkelling, surfing, kayaking, canoeing and more are offered.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WP_LKD",
+          "quote": "To promote tourism, activities such as scuba diving, wind surfing, snorkelling, surfing, kayaking, canoeing, water skiing, sportfishing, yachting and night sea voyages have been established."
+        }
+      ]
+    },
+    "LK_REEF": {
+      "place": "lakshadweep/scuba-diving-snorkelling",
+      "topic": "Reefs",
+      "claim": "Over 600 fish species and 78 coral species; one of India's four coral reef regions.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WP_LKD",
+          "quote": "There are over 600 recorded species of marine fishes, 78 species of corals"
+        },
+        {
+          "source": "WP_LKD",
+          "quote": "It is one of the four coral reef regions in India."
+        }
+      ]
+    },
+    "LK_LAGOON": {
+      "place": "lakshadweep/scuba-diving-snorkelling",
+      "topic": "Lagoons",
+      "claim": "A 132 km coastline with 4,200 km² of lagoons.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WP_LKD",
+          "quote": "There is a 132 km (82 mi) long coastline with a lagoon area of 4,200 km2"
+        }
+      ]
+    },
+    "LK_PERMIT": {
+      "place": "lakshadweep/scuba-diving-snorkelling",
+      "topic": "Permit",
+      "claim": "Visitors need permission; foreigners can't visit some islands.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WP_LKD",
+          "quote": "Tourists require permission to visit Lakshadweep and foreign nationals are not permitted to visit certain islands."
+        }
+      ]
+    },
+    "LK_ISLES": {
+      "place": "lakshadweep/scuba-diving-snorkelling",
+      "topic": "Islands",
+      "claim": "Bangaram opened to tourism in 1974; Bangaram and Kadmat are being promoted.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WP_LKD",
+          "quote": "Tourism in Lakshadweep began in 1974, when the Bangaram atoll was opened for international tourism."
+        },
+        {
+          "source": "WP_LKD",
+          "quote": "with Bangaram and Kadmat islands being promoted as potential tourist destinations."
+        }
+      ]
+    },
+    "LK_DRY": {
+      "place": "lakshadweep/scuba-diving-snorkelling",
+      "topic": "Alcohol",
+      "claim": "Alcohol is not allowed except on Bangaram.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WP_LKD",
+          "quote": "alcoholic beverage consumption is not permitted on the islands, except on Bangaram."
+        }
+      ]
+    },
+    "KD_WHAT": {
+      "place": "madhya-pradesh/khajuraho-dance-festival",
+      "topic": "Festival",
+      "claim": "A one-week classical dance festival beside the Khajuraho temples, run by the MP Kala Parishad.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WP_KDF",
+          "quote": "with performances of some of the best exponents in the field"
+        },
+        {
+          "source": "WP_KDF",
+          "quote": "organised by the Madhya Pradesh Kala Parishad, is a one-week festival of classical dances held annually beside the Khajuraho temples"
+        }
+      ]
+    },
+    "KD_WHEN": {
+      "place": "madhya-pradesh/khajuraho-dance-festival",
+      "topic": "When",
+      "claim": "20 to 26 February.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WP_KDF",
+          "quote": "The festival is conducted in February from the 20th to the 26th."
+        }
+      ]
+    },
+    "KD_STYLES": {
+      "place": "madhya-pradesh/khajuraho-dance-festival",
+      "topic": "Styles",
+      "claim": "Kathak, Bharatanatyam, Odissi, Kuchipudi, Manipuri, Gaudiya Nritya and Kathakali.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WP_KDF",
+          "quote": "This festival highlights the richness of the Indian classical dance styles such as Kathak, Bharathanatyam, Odissi, Kuchipudi, Manipuri, Gaudiya Nritya, and Kathakali"
+        }
+      ]
+    },
+    "KD_STAGE": {
+      "place": "madhya-pradesh/khajuraho-dance-festival",
+      "topic": "Stage",
+      "claim": "An open-air stage, usually before the Chitragupta and Vishvanatha temples.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WP_KDF",
+          "quote": "The dances are performed in an open-air auditorium, usually in front of the Chitragupta Temple dedicated to Surya (the Sun God) and the Vishvanatha Temple dedicated to Lord Shiva, belonging to the western group."
+        }
+      ]
+    },
+    "KD_MORE": {
+      "place": "madhya-pradesh/khajuraho-dance-festival",
+      "topic": "More",
+      "claim": "First held in 1975; also film screenings and handicraft shows.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WP_KDF",
+          "quote": "The first edition of the festival began in 1975."
+        },
+        {
+          "source": "WP_KDF",
+          "quote": "Apart from dance, other events include film screenings and handicraft expositions."
+        }
+      ]
+    },
+    "GC_STATE": {
+      "place": "maharashtra/ganeshotsav-mumbai",
+      "topic": "Festival",
+      "claim": "Known as Ganeshotsav in Maharashtra, where it is a state festival.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WP_GC",
+          "quote": "In Maharashtra, Ganesh Chaturthi is known as Ganeshotsav."
+        },
+        {
+          "source": "WP_GC",
+          "quote": "It is a state festival of Indian state Maharashtra."
+        }
+      ]
+    },
+    "GC_WHEN": {
+      "place": "maharashtra/ganeshotsav-mumbai",
+      "topic": "When",
+      "claim": "Falls between 22 August and 20 September.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WP_GC",
+          "quote": "In the Gregorian calendar, Ganesh Chaturthi falls between 22 August and 20 September every year."
+        }
+      ]
+    },
+    "GC_END": {
+      "place": "maharashtra/ganeshotsav-mumbai",
+      "topic": "Visarjan",
+      "claim": "On the tenth day idols are taken in procession and immersed, on Ananta Chaturdashi.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WP_GC",
+          "quote": "The festival ends on the tenth day after its start, when the murti is carried in a public procession with music and group chanting, and then immersed in a nearby body of water such as a river or sea, called visarjana on the day of Ananta Chaturdashi."
+        }
+      ]
+    },
+    "GC_COUNT": {
+      "place": "maharashtra/ganeshotsav-mumbai",
+      "topic": "Scale",
+      "claim": "Around 150,000 idols are immersed in Mumbai each year.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WP_GC",
+          "quote": "In Mumbai alone, around 150,000 murtis are immersed annually."
+        }
+      ]
+    },
+    "GC_TILAK": {
+      "place": "maharashtra/ganeshotsav-mumbai",
+      "topic": "History",
+      "claim": "Tilak started the public festival in Pune and Girgaon, Mumbai.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WP_GC",
+          "quote": "Lokmanya Tilak started the festival in Pune and Girgaon, Mumbai."
+        }
+      ]
+    },
+    "GC_MODAK": {
+      "place": "maharashtra/ganeshotsav-mumbai",
+      "topic": "Modak",
+      "claim": "Sweets such as modak are shared from the pandals.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WP_GC",
+          "quote": "Offerings and prasada from the daily prayers, which are distributed from the pandal to the community, include sweets such as modak"
+        }
+      ]
+    },
+    "LB_SEA": {
+      "place": "maharashtra/ganeshotsav-mumbai",
+      "topic": "Lalbaugcha Raja",
+      "claim": "Lalbaug's idol is on view 11 days, then immersed at Girgaon Chowpatty.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WP_LBR",
+          "quote": "The idol gives darshan to the devotees for 11 days and thereafter it is immersed in the Arabian Sea at Girgaon Chowpatty on the day of Anant Chaturdashi (Ganapati Visarjan)."
+        }
+      ]
+    },
+    "LB_QUEUE": {
+      "place": "maharashtra/ganeshotsav-mumbai",
+      "topic": "Queues",
+      "claim": "The wish queue can take 25–40 hours; the view-only queue 3–4 hours or more.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WP_LBR",
+          "quote": "The two queues for taking blessings of Lalbaugcha Raja are the Navsachi Line and the Mukh Darshanachi Line."
+        },
+        {
+          "source": "WP_LBR",
+          "quote": "It takes around 25–30 hours and sometimes up to 40 hours (nearly 2 days) to get darshan in this line."
+        },
+        {
+          "source": "WP_LBR",
+          "quote": "It can take 3–4 hours or longer to get darshan in this line, especially on weekends."
+        }
+      ]
+    },
+    "SG_WHEN": {
+      "place": "manipur/sangai-festival",
+      "topic": "Festival",
+      "claim": "Run by Manipur Tourism every year from 21 to 30 November.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WP_SGF",
+          "quote": "Sangai Festival (Meitei: Sangai Kumhei) is an annual cultural festival organised by Manipur Tourism Department every year from 21 to 30 November."
+        }
+      ]
+    },
+    "SG_NAME": {
+      "place": "manipur/sangai-festival",
+      "topic": "Name",
+      "claim": "Named since 2010 after the sangai, Manipur's brow-antlered deer.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WP_SGF",
+          "quote": "since 2010 this has been renamed as the Sangai Festival to stage the uniqueness of the shy and gentle brow-antlered deer popularly known as the Sangai"
+        }
+      ]
+    },
+    "SG_WHAT": {
+      "place": "manipur/sangai-festival",
+      "topic": "Programme",
+      "claim": "Art, handloom, crafts, indigenous sports, cuisine, music and adventure sports.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WP_SGF",
+          "quote": "it showcases the states contributions to art and culture, handloom, handicrafts, fine arts, indigenous sports, cuisine, music and adventure sports, as well as the natural environment."
+        }
+      ]
+    },
+    "SG_VENUE": {
+      "place": "manipur/sangai-festival",
+      "topic": "Venues",
+      "claim": "Held at Hapta Kangjeibung and BOAT since 2010.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WP_SGF",
+          "quote": "the festival has been held annually at Hapta Kangjeibung and Bhagyachandra Open Air Theatre (BOAT) since 2010"
+        }
+      ]
+    },
+    "SG_LOKTAK": {
+      "place": "manipur/sangai-festival",
+      "topic": "Loktak Lake",
+      "claim": "Loktak, 48 km from Imphal, is the Northeast's largest freshwater lake.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WP_SGF",
+          "quote": "The principal attraction of the state is the Loktak Lake in Bishnupur District which is 48 km from Imphal City and it is the largest fresh water lake in the North–East India."
+        }
+      ]
+    },
+    "SG_PARK": {
+      "place": "manipur/sangai-festival",
+      "topic": "Keibul Lamjao",
+      "claim": "The floating Keibul Lamjao park on Loktak is the sangai's last natural habitat.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WP_SGF",
+          "quote": "The only floating National Park in the world, the Keibul Lamjao National Park located on the Loktak Lake is the last natural habitat of the"
+        }
+      ]
+    },
+    "LB_WHAT": {
+      "place": "meghalaya/living-root-bridges-trek",
+      "topic": "What they are",
+      "claim": "Bridges grown from the aerial roots of rubber fig trees by the Khasi and Jaintia peoples.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WP_LRB",
+          "quote": "The structures are handmade from the aerial roots of rubber fig trees (Ficus elastica) by the Khasi and Jaiñtia peoples of the mountainous terrain along the southern part of the Shillong Plateau."
+        }
+      ]
+    },
+    "LB_STRONG": {
+      "place": "meghalaya/living-root-bridges-trek",
+      "topic": "Strength",
+      "claim": "Mature bridges can carry 50 or more people and last centuries.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WP_LRB",
+          "quote": "Once mature, some bridges can have as many as 50 or more people crossing, and have a lifespan of several hundred years."
+        }
+      ]
+    },
+    "LB_DOUBLE": {
+      "place": "meghalaya/living-root-bridges-trek",
+      "topic": "Double Decker",
+      "claim": "Nongriat's Double Decker is the most famous, about 200 years old.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WP_LRB",
+          "quote": "There are three known examples of double-decker bridges with two parallel or nearly parallel spans."
+        },
+        {
+          "source": "WP_LRB",
+          "quote": "There are several examples of double living-root bridges, the most famous being the \"Double Decker\" root bridge of Nongriat which is estimated to be 200 years old."
+        }
+      ]
+    },
+    "LB_WHERE": {
+      "place": "meghalaya/living-root-bridges-trek",
+      "topic": "Villages",
+      "claim": "Near Cherrapunji: Tynrong, Mynteng, Nongriat, Nongthymmai and Laitkynsew.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WP_LRB",
+          "quote": "In the East Khasi Hills, living root bridges nearby Cherrapunji are known to exist in and around the villages of Tynrong, Mynteng, Nongriat, Nongthymmai, and Laitkynsew."
+        }
+      ]
+    },
+    "LB_PYN": {
+      "place": "meghalaya/living-root-bridges-trek",
+      "topic": "Pynursla",
+      "claim": "More near Pynursla, including Mawlynnong.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WP_LRB",
+          "quote": "Many more can be found near the town of Pynursla, including in the villages of Mawkyrnot and Rangthylliangand Mawlynnong."
+        }
+      ]
+    },
+    "LB_OLD": {
+      "place": "meghalaya/living-root-bridges-trek",
+      "topic": "History",
+      "claim": "Henry Yule recorded Sohra's root bridges in 1844.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WP_LRB",
+          "quote": "the earliest written record of Sohra's (Cherrapunji's) living root bridges is by Henry Yule, who expressed astonishment about them in the 1844 Journal of the Asiatic Society of Bengal."
+        }
+      ]
+    },
+    "CK_WHY": {
+      "place": "mizoram/chapchar-kut",
+      "topic": "Origin",
+      "claim": "Held when forest is cleared for jhum farming, to give thanks.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WP_CCK",
+          "quote": "Chapchar Kut was originally celebrated to thank the gods for saving the people from harm during the clearing of forest on hill slopes for jhum cultivation at the beginning of a year."
+        }
+      ]
+    },
+    "CK_WHEN": {
+      "place": "mizoram/chapchar-kut",
+      "topic": "When",
+      "claim": "Late February or early March, while the felled jhum is left to dry.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WP_CCK",
+          "quote": "Today, the festival is observed in the last part of February or the early part of March when the trees and bamboos felled for jhum are left to dry"
+        }
+      ]
+    },
+    "CK_AIZ": {
+      "place": "mizoram/chapchar-kut",
+      "topic": "Aizawl",
+      "claim": "Revived on a grand scale in Aizawl in 1962.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WP_CCK",
+          "quote": "Chapchar Kut was first revived in 1962 on a grand scale in Aizawl"
+        }
+      ]
+    },
+    "CK_DANCE": {
+      "place": "mizoram/chapchar-kut",
+      "topic": "Dances",
+      "claim": "Cheraw is the main dance, with Khuallam, Chheihlam, Chai and Sarlamkai.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WP_CCK",
+          "quote": "Cheraw dance is the Main dance but other dances performed during the festival are Khuallam, Chheihlam, Chai and Sarlamkai"
+        }
+      ]
+    },
+    "CK_EGG": {
+      "place": "mizoram/chapchar-kut",
+      "topic": "Chhawnghnawh",
+      "claim": "People playfully stuff boiled eggs into each other's mouths.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WP_CCK",
+          "quote": "Chhawnghnawh – The Mizo custom of playfully stuffing a boiled eggs into each other's mouths."
+        }
+      ]
+    },
+    "CK_FUN": {
+      "place": "mizoram/chapchar-kut",
+      "topic": "Programme",
+      "claim": "Traditional games, costume parade, art exhibitions and ethnic food stalls.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WP_CCK",
+          "quote": "Arts, craft and Photo Exhibition."
+        },
+        {
+          "source": "WP_CCK",
+          "quote": "Mizo Traditional Games and costume parade."
+        },
+        {
+          "source": "WP_CCK",
+          "quote": "Stalls with Etnnic cuisine."
+        }
+      ]
+    },
+    "HB_WHEN": {
+      "place": "nagaland/hornbill-festival",
+      "topic": "When",
+      "claim": "1–10 December; all Nagaland's ethnic groups take part — the 'Festival of Festivals'.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WP_HBF",
+          "quote": "Hornbill Festival is an annual festival celebrated from 1 to 10 of December in the Northeastern Indian state of Nagaland."
+        },
+        {
+          "source": "WP_HBF",
+          "quote": "The festival represents all ethnic groups of Nagaland for which it is also called the Festival of Festivals."
+        }
+      ]
+    },
+    "HB_VENUE": {
+      "place": "nagaland/hornbill-festival",
+      "topic": "Venue",
+      "claim": "Kisama Heritage Village, about 12 km from Kohima.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WP_HBF",
+          "quote": "The main venue of the Hornbill Festival is held at the Kisama Heritage Village located in the Southern Angami region of Kohima District which is about 12 km from Kohima."
+        }
+      ]
+    },
+    "HB_START": {
+      "place": "nagaland/hornbill-festival",
+      "topic": "History",
+      "claim": "First held in December 2000.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WP_HBF",
+          "quote": "The first festival was held in December 2000."
+        }
+      ]
+    },
+    "HB_WHAT": {
+      "place": "nagaland/hornbill-festival",
+      "topic": "Highlights",
+      "claim": "Morungs, crafts, food and herbal stalls, songs and dances, archery, Naga wrestling, games and concerts.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WP_HBF",
+          "quote": "Festival highlights include the traditional Naga Morungs exhibition and the sale of arts and crafts, food stalls, herbal medicine stalls, flower shows and sales, cultural medley - songs and dances, fashion shows, the Miss Nagaland beauty contest, traditional archery, Naga wrestling, indigenous games and musical concerts."
+        }
+      ]
+    },
+    "HB_ROCK": {
+      "place": "nagaland/hornbill-festival",
+      "topic": "Rock festival",
+      "claim": "The Hornbill International Rock Festival is at Indira Gandhi Stadium.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WP_HBF",
+          "quote": "One of the major highlights of this festival is the Hornbill International Rock Festival, which is held at Indira Gandhi Stadium; local and international rock bands perform."
+        }
+      ]
+    },
+    "HB_NAME": {
+      "place": "nagaland/hornbill-festival",
+      "topic": "Name",
+      "claim": "Named after the hornbill, found in most Naga folklore.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WP_HBF",
+          "quote": "The festival is named after the hornbill, the large and colourful forest bird which is displayed in the folklore of most of the state's ethnic groups."
+        }
+      ]
+    },
+    "RY_WHAT": {
+      "place": "odisha/rath-yatra",
+      "topic": "Festival",
+      "claim": "The oldest and largest Hindu chariot festival, in Ashadha (June–July).",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WP_RY",
+          "quote": "is considered the oldest and largest Hindu chariot festival celebrated annually, on the bright half of the lunar month of Ashadha (June–July)."
+        }
+      ]
+    },
+    "RY_PULL": {
+      "place": "odisha/rath-yatra",
+      "topic": "Chariots",
+      "claim": "Devotees pull Jagannath, Balabhadra and Subhadra in three wooden chariots along the Bada Danda.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WP_RY",
+          "quote": "During the festival, three deities (Jagannath, his brother Balabhadra and sister Subhadra) are drawn by a multitude of devotees in three massive, wooden chariots on bada danda"
+        }
+      ]
+    },
+    "RY_GUNDICHA": {
+      "place": "odisha/rath-yatra",
+      "topic": "Gundicha",
+      "claim": "The deities stay a week at Gundicha Temple, then return (Bahuda Yatra).",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WP_RY",
+          "quote": "to Gundicha Temple, whereby they reside there for a week and then return to the Jagnannath Temple."
+        },
+        {
+          "source": "WP_RY",
+          "quote": "This return trip is referred to as the Bahuda Ratha Yatra."
+        }
+      ]
+    },
+    "RY_NEW": {
+      "place": "odisha/rath-yatra",
+      "topic": "Built new",
+      "claim": "The chariots are built new every year from specified woods.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WP_RY",
+          "quote": "The three chariots of Jagannath, Balabhadra and Subhadra are newly constructed every year with wood of specified trees like phassi, dhausa, etc."
+        }
+      ]
+    },
+    "RY_BUILD": {
+      "place": "odisha/rath-yatra",
+      "topic": "Building",
+      "claim": "Work starts on Akshaya Tritiya with fire worship.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WP_RY",
+          "quote": "The construction of the chariots starts on Akshaya Tritiya, the third day of the bright fortnight of Vaisakha, with ritual fire worship."
+        }
+      ]
+    },
+    "RY_SUNA": {
+      "place": "odisha/rath-yatra",
+      "topic": "Suna Besha",
+      "claim": "On return the deities are dressed in gold on the chariots; 900,000 watched in 2014.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WP_RY",
+          "quote": "After the chariots of the deities return to the main temple from the Gundicha temple, the deities are attired in gold ornaments and worshipped on the chariots."
+        },
+        {
+          "source": "WP_RY",
+          "quote": "In 2014 nearly nine hundred thousand devotees witnessed this event held on 9 July."
+        }
+      ]
+    },
+    "PD_RIV": {
+      "place": "puducherry/promenade-french-quarter-walk",
+      "topic": "French Riviera",
+      "claim": "Puducherry became known as 'the French Riviera of the East'.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WP_PDY",
+          "quote": "gained its significance as \"the French Riviera of the East\" after the advent of French colonialisation in India."
+        }
+      ]
+    },
+    "PD_QTR": {
+      "place": "puducherry/promenade-french-quarter-walk",
+      "topic": "Quarters",
+      "claim": "A canal divided the French Quarter from the Indian Quarter.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WP_PDY",
+          "quote": "The city was separated by a canal into the French Quarter and the Indian Quarter."
+        }
+      ]
+    },
+    "PD_FEEL": {
+      "place": "puducherry/promenade-french-quarter-walk",
+      "topic": "Old town",
+      "claim": "Colonial buildings, churches, temples and French-style avenues keep the colonial feel.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WP_PDY",
+          "quote": "The city has many colonial buildings, churches, temples, and statues which, combined with the town planning and French-style avenues in the old districts, still preserve much of the colonial ambiance."
+        }
+      ]
+    },
+    "PD_SIGHTS": {
+      "place": "puducherry/promenade-french-quarter-walk",
+      "topic": "Promenade sights",
+      "claim": "Dupleix and Gandhi statues, the French War Memorial, old lighthouse, Bharathi Park, Governor's Palace and museum.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WP_PDY",
+          "quote": "A number of heritage buildings and monuments are present around Promenade Beach, such as the Children's Park and Dupleix Statue, Gandhi statue, Nehru statue, Le Café, French War Memorial, 19th Century Light House, Bharathi Park, Governors Palace, Romain Rolland Library, Legislative Assembly, Pondicherry Museum, and the French Institute of Pondicherry at Saint Louis Street."
+        }
+      ]
+    },
+    "PD_WALL": {
+      "place": "puducherry/promenade-french-quarter-walk",
+      "topic": "Seawall",
+      "claim": "A 2-km seawall replaced the old sandy beach; the sea is reached at Goubert Avenue.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WP_PDY",
+          "quote": "Where there was once a broad, sandy beach, now the city is protected against the sea by a 2-km-long seawall that sits at a height of 8.5 m above sea level."
+        },
+        {
+          "source": "WP_PDY",
+          "quote": "The sea is accessible by a small patch of land at Promenade Beach (Goubert Avenue)."
+        }
+      ]
+    },
+    "PD_FR": {
+      "place": "puducherry/promenade-french-quarter-walk",
+      "topic": "French institutions",
+      "claim": "A French consulate, the French Institute and the Alliance française.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WP_PDY",
+          "quote": "There is a community of French people and a number of French institutions, such as a French consulate, the French Institute of Pondicherry, and L'Alliance française."
+        }
+      ]
+    },
+    "PD_TEMPLE": {
+      "place": "puducherry/promenade-french-quarter-walk",
+      "topic": "Manakula Vinayagar",
+      "claim": "Sri Manakula Vinayagar Temple predates the French.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WP_PDY",
+          "quote": "Sri Manakula Vinayagar Temple was in existence before the French came and settled in Pondicherry in 1666."
+        }
+      ]
+    },
+    "HM_WHAT": {
+      "place": "punjab/hola-mohalla",
+      "topic": "Festival",
+      "claim": "A three-day Sikh festival, normally in March.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WP_HOLA",
+          "quote": "is a three-day long Sikh festival which normally falls in March."
+        }
+      ]
+    },
+    "HM_DATE": {
+      "place": "punjab/hola-mohalla",
+      "topic": "Date",
+      "claim": "On the second day of Chett, usually the day after Holi.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WP_HOLA",
+          "quote": "It takes place on the second day of the lunar month of Chett, usually a day after the Hindu spring festival of Holi, but sometimes coincides with it."
+        }
+      ]
+    },
+    "HM_FAIR": {
+      "place": "punjab/hola-mohalla",
+      "topic": "At Anandpur",
+      "claim": "Pilgrims camp for a week to watch martial displays and hear kirtan, music and poetry.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WP_HOLA",
+          "quote": "The fair held during Holi and Hola at Anandpur Sahib is traditionally a three-day event but pilgrims visit Anandpur Sahib for a week, camping out and enjoying various displays of fighting prowess and bravery, and listening to kirtan, music and poetry."
+        }
+      ]
+    },
+    "HM_MARTIAL": {
+      "place": "punjab/hola-mohalla",
+      "topic": "Martial skills",
+      "claim": "Guru Gobind Singh made it a time to show martial skills in mock battles.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WP_HOLA",
+          "quote": "The Guru made Hola Mahalla an occasion for the Sikhs to demonstrate their martial skills in simulated battles."
+        }
+      ]
+    },
+    "HM_LANGAR": {
+      "place": "punjab/hola-mohalla",
+      "topic": "Langar",
+      "claim": "Visitors sit in rows and eat vegetarian langar.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WP_HOLA",
+          "quote": "For meals, which is an integral part of the Sikh institution (Gurdwara), visitors sit together in Pangats (queues) and eat lacto-vegetarian food of the Langars."
+        }
+      ]
+    },
+    "HM_PROC": {
+      "place": "punjab/hola-mohalla",
+      "topic": "Procession",
+      "claim": "It ends with a military-style procession near Takht Kesgarh Sahib.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WP_HOLA",
+          "quote": "The event concludes on the day of Hola Mohalla with a long, \"military-style\" procession near Takht Kesgarh Sahib, one of the five seats of temporal authority"
+        }
+      ]
+    },
+    "HM_BIG": {
+      "place": "punjab/hola-mohalla",
+      "topic": "Biggest",
+      "claim": "Anandpur's biggest festival.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WP_HOLA",
+          "quote": "Hola Mahalla is presently the biggest festival at Anandpur."
+        }
+      ]
+    },
+    "BK_WHAT": {
+      "place": "telangana/bathukamma",
+      "topic": "Festival",
+      "claim": "A flower festival by Telugu Hindu women for Goddess Gauramma.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WP_BTK",
+          "quote": "Bathukamma is a flower-festival celebrated by Telugu Hindu women to worship Goddess Gauramma in Telangana and some parts of Andhra Pradesh."
+        }
+      ]
+    },
+    "BK_WHEN": {
+      "place": "telangana/bathukamma",
+      "topic": "When",
+      "claim": "Nine days from Pitru Amavasya, usually September–October.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WP_BTK",
+          "quote": "Every year this festival is celebrated as per the Sathavahana calendar for nine days starting on Pitru Amavasya, which usually coincides with the months September–October of the Gregorian calendar."
+        }
+      ]
+    },
+    "BK_STACK": {
+      "place": "telangana/bathukamma",
+      "topic": "Flower stack",
+      "claim": "Seasonal flowers in seven layers shaped like a temple gopuram.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WP_BTK",
+          "quote": "Bathukamma is a beautiful flower stack, arranged with different unique seasonal flowers most of them with medicinal values, in seven concentric layers in the shape of a temple gopuram."
+        }
+      ]
+    },
+    "BK_FINAL": {
+      "place": "telangana/bathukamma",
+      "topic": "Finale",
+      "claim": "The last day is Saddula Bathukamma, with immersion in water to drumbeats.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WP_BTK",
+          "quote": "The last day of the festival is called Saddula Bathukamma."
+        },
+        {
+          "source": "WP_BTK",
+          "quote": "On this day, immersion of Bathukamma (Bathukamma Visarjan) in water bodies is customary along with drum beats throughout Telangana."
+        }
+      ]
+    },
+    "BK_DRESS": {
+      "place": "telangana/bathukamma",
+      "topic": "Dress",
+      "claim": "Women dress in traditional saris and jewellery.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WP_BTK",
+          "quote": "It also marks the celebration of femininity in the Deccan region, during which women of Telangana dress up in traditional saris, with jewels and other accessories."
+        }
+      ]
+    },
+    "BK_FOOD": {
+      "place": "telangana/bathukamma",
+      "topic": "Food",
+      "claim": "On the last day: five rice dishes — curd, tamarind, lemon, coconut and sesame rice.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WP_BTK",
+          "quote": "Five types of cooked rice dishes: perugannam saddi (curd rice), chinthapandu pulihora saddi (tamarind rice), nimmakaya saddi (lemon rice), kobbara saddi (coconut rice) and nuvvula saddi (sesame rice)"
+        }
+      ]
+    },
+    "KP_WHAT": {
+      "place": "tripura/kharchi-puja",
+      "topic": "Festival",
+      "claim": "Held in Agartala in July or August to worship the Tripuri dynasty's fourteen gods.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WP_KHP",
+          "quote": "Performed in Agartala in July or August, the festival involves the worship of the fourteen gods forming the dynasty deity of the Tripuri people."
+        }
+      ]
+    },
+    "KP_POP": {
+      "place": "tripura/kharchi-puja",
+      "topic": "Popular",
+      "claim": "One of Tripura's most popular festivals.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WP_KHP",
+          "quote": "Kharchi Puja is one of the most popular festivals in Tripura."
+        }
+      ]
+    },
+    "KP_WHERE": {
+      "place": "tripura/kharchi-puja",
+      "topic": "Where",
+      "claim": "At the temple of the fourteen gods, Old Agartala.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WP_KHP",
+          "quote": "The festival is held at the temple of fourteen gods at Old Agartala."
+        }
+      ]
+    },
+    "KP_DAYS": {
+      "place": "tripura/kharchi-puja",
+      "topic": "Length",
+      "claim": "Seven consecutive days.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WP_KHP",
+          "quote": "Kharchi puja lasts for seven consecutive days."
+        }
+      ]
+    },
+    "KP_RIVER": {
+      "place": "tripura/kharchi-puja",
+      "topic": "River ritual",
+      "claim": "The gods are carried to the river Saidra, bathed and returned.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WP_KHP",
+          "quote": "On the day of puja, the fourteen deities are carried by chanting members and taken to the river Saidra, bathed in the holy water, and then returned to the temple."
+        }
+      ]
+    },
+    "KP_FAIR": {
+      "place": "tripura/kharchi-puja",
+      "topic": "Evenings",
+      "claim": "Cultural programmes each evening and a large fair.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WP_KHP",
+          "quote": "Various cultural programmes are performed each evening and a large fair is organised to mark the occasion."
+        }
+      ]
+    },
+    "KP_EARTH": {
+      "place": "tripura/kharchi-puja",
+      "topic": "Meaning",
+      "claim": "It is a worship of the earth.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WP_KHP",
+          "quote": "Kharchi Puja is basically done to worship the earth."
+        }
+      ]
+    },
+    "KP_SAC": {
+      "place": "tripura/kharchi-puja",
+      "topic": "Sacrifice",
+      "claim": "Animal sacrifice of goats and pigeons is part of the festival.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WP_KHP",
+          "quote": "Animal sacrifice is also an important part of this festival and includes sacrificing of Goats and Pigeons."
+        }
+      ]
+    },
+    "DP_UNESCO": {
+      "place": "west-bengal/durga-puja-kolkata",
+      "topic": "UNESCO",
+      "claim": "Inscribed as UNESCO intangible cultural heritage in December 2021.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WP_DPK",
+          "quote": "Durga Puja in Kolkata has been inscribed on the list of UNESCO Intangible Cultural Heritage Lists in December 2021."
+        }
+      ]
+    },
+    "DP_DAYS": {
+      "place": "west-bengal/durga-puja-kolkata",
+      "topic": "Main days",
+      "claim": "Five main days: Shashti, Saptami, Ashtami, Navami and Vijaya Dashami.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WP_DPK",
+          "quote": "Durga Puja is mainly celebrated for 5 days – Shashti, Saptami, Ashtami, Navami and Vijaya Dashami."
+        }
+      ]
+    },
+    "DP_HOP": {
+      "place": "west-bengal/durga-puja-kolkata",
+      "topic": "Pandal-hopping",
+      "claim": "Pandals, pandal-hopping, themes and lights.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WP_DPK",
+          "quote": "Considered a symbol of homecoming centered around the deity, the Puja features pandals, pandal hopping, various themes, and displays of lights."
+        }
+      ]
+    },
+    "DP_THEMES": {
+      "place": "west-bengal/durga-puja-kolkata",
+      "topic": "Themes",
+      "claim": "Themes range from art and traditions to world monuments.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WP_DPK",
+          "quote": "The themes range from various artistic ideas, cultural traditions, famous monuments around the world and even biographies of famous persons."
+        }
+      ]
+    },
+    "DP_EARLY": {
+      "place": "west-bengal/durga-puja-kolkata",
+      "topic": "Crowds",
+      "claim": "To ease crowding, pandals open from Mahalaya, well before Shashti.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WP_DPK",
+          "quote": "Due to ginormous number of people visiting pandals every year has led to overcrowding on the main five days, pandals are inaugurated from Mahalaya, much before Shashti."
+        }
+      ]
+    },
+    "DP_RAJBARI": {
+      "place": "west-bengal/durga-puja-kolkata",
+      "topic": "Rajbari pujas",
+      "claim": "Centuries-old family pujas in old mansions remain popular.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WP_DPK",
+          "quote": "Although centuries-old Rajbari pujas, with their Sobeki Protima and traditional established customs remain popular"
+        }
+      ]
+    },
+    "DP_MONTH": {
+      "place": "west-bengal/durga-puja-kolkata",
+      "topic": "Month",
+      "claim": "Vijaya Dashami falls in September or October.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WP_VJW",
+          "quote": "falls in the Gregorian calendar months of September or October."
+        }
+      ]
+    }
+  },
+  "places": [
+    {
+      "key": "andhra-pradesh/araku-valley-train",
+      "kind": "activity",
+      "name": "Train ride to Araku Valley",
+      "summary": "A rail journey up the Eastern Ghats through 58 tunnels to Araku's coffee hills.",
+      "seoTitle": "Araku Valley Train Ride from Visakhapatnam",
+      "seoDescription": "Ride the Kothavalasa–Kirandul line up the Eastern Ghats to Araku Valley: 58 tunnels, 84 major bridges and coffee plantations.",
+      "lat": 18.33,
+      "lng": 82.87,
+      "tripTypes": [
+        "mountains",
+        "nature"
+      ],
+      "images": [
+        {
+          "commons": "File:Train on a Bridge near Araku.jpg",
+          "alt": "A passenger train crossing a bridge in the hills near Araku",
+          "caption": "Train on a bridge near Araku",
+          "hero": true
+        }
+      ],
+      "sections": {
+        "overview": {
+          "text": "The railway from the coast up to Araku Valley climbs the hill sections of the Eastern Ghats, threading 58 tunnels and crossing 84 major bridges on the way. Araku is a hill station 111 km from Visakhapatnam, linked to the city by both rail and road, so many people take the train up and come back by road. The line opened in 1966–67 to carry iron ore and is still mainly a freight route.",
+          "facts": [
+            "AK_LINE",
+            "AK_TOWN",
+            "AK_FREIGHT"
+          ]
+        },
+        "things_to_do": {
+          "items": [
+            {
+              "body": "Ride the line through its 58 tunnels and over its 84 major bridges."
+            },
+            {
+              "body": "Take the train up and the road back — Araku is linked to Visakhapatnam by both."
+            },
+            {
+              "body": "See the valley's coffee plantations, grown since 1956 with local tribal farmers."
+            }
+          ],
+          "facts": [
+            "AK_LINE",
+            "AK_TOWN",
+            "AK_COFFEE"
+          ]
+        },
+        "visit_info": {
+          "items": [
+            {
+              "title": "Distance",
+              "body": "Araku is 111 km from Visakhapatnam.",
+              "status": "verified"
+            },
+            {
+              "title": "Good to know",
+              "body": "The line is mainly a freight route, so check passenger train times before you plan the day.",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "AK_TOWN",
+            "AK_FREIGHT"
+          ]
+        }
+      },
+      "category": "nature",
+      "parent": "andhra-pradesh/araku-valley"
+    },
+    {
+      "key": "arunachal-pradesh/ziro-festival-of-music",
+      "kind": "activity",
+      "name": "Ziro Festival of Music",
+      "summary": "Four days of outdoor music in the Apatani valley of Ziro.",
+      "seoTitle": "Ziro Festival of Music, Arunachal Pradesh",
+      "seoDescription": "The Ziro Festival of Music: a four-day outdoor festival hosted by the Apatani people in Ziro, with emerging acts from Northeast India.",
+      "lat": 27.54,
+      "lng": 93.83,
+      "tripTypes": [
+        "mountains",
+        "food"
+      ],
+      "images": [
+        {
+          "commons": "File:Ziro Festival of Music - 2019 (Arunachal Pradesh) (48868248663).jpg",
+          "alt": "The crowd and stage at the Ziro Festival of Music",
+          "caption": "Ziro Festival of Music, 2019",
+          "hero": true
+        }
+      ],
+      "sections": {
+        "overview": {
+          "text": "The Ziro Festival of Music is an outdoor festival in Ziro, the valley home of the Apatani people. Founded in 2012, it runs over four days, is hosted by members of the Apatani community and puts the spotlight on emerging acts from Northeast India. The valley itself is part of the reason to come: the Apatani cultural landscape, with its permanent wet paddy fields, is on UNESCO's tentative World Heritage list.",
+          "facts": [
+            "ZF_WHAT",
+            "ZF_DAYS",
+            "ZF_APA",
+            "ZF_PADDY"
+          ]
+        },
+        "things_to_do": {
+          "items": [
+            {
+              "body": "Spend four days at an outdoor festival in the hills."
+            },
+            {
+              "body": "Hear emerging bands from across Northeast India."
+            },
+            {
+              "body": "Walk the Apatani valley's wet paddy fields between sets."
+            }
+          ],
+          "facts": [
+            "ZF_DAYS",
+            "ZF_PADDY"
+          ]
+        },
+        "visit_info": {
+          "items": [
+            {
+              "title": "Length",
+              "body": "Four days, all outdoors.",
+              "status": "verified"
+            },
+            {
+              "title": "Hosts",
+              "body": "Members of the Apatani people in Ziro.",
+              "status": "verified"
+            },
+            {
+              "title": "Setting",
+              "body": "The Apatani valley, on UNESCO's tentative World Heritage list.",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "ZF_DAYS",
+            "ZF_WHAT",
+            "ZF_APA"
+          ]
+        }
+      },
+      "category": "events",
+      "parent": "arunachal-pradesh/ziro"
+    },
+    {
+      "key": "assam/kaziranga-safari",
+      "kind": "activity",
+      "name": "Kaziranga jeep and elephant safari",
+      "summary": "Guided jeep or elephant rides to see the one-horned rhino and Kaziranga's 'Big Five'.",
+      "seoTitle": "Kaziranga Safari: Jeep and Elephant Rides",
+      "seoDescription": "Kaziranga National Park safaris: guided jeep and elephant rides, the 'Big Five' including the one-horned rhino, ranges and when to go.",
+      "lat": 26.58,
+      "lng": 93.17,
+      "tripTypes": [
+        "wildlife",
+        "nature"
+      ],
+      "images": [
+        {
+          "commons": "File:Jeep Safari Kaziranga, Central Zone (Kohara).jpg",
+          "alt": "Safari jeeps on a track through tall grass in Kaziranga's central zone",
+          "caption": "Jeep safari, Kohora (central) range",
+          "hero": true
+        }
+      ],
+      "sections": {
+        "overview": {
+          "text": "Watching wildlife is the main thing to do in Kaziranga, and guided tours by jeep or elephant are how you see it. The park's 'Big Five' are the Indian rhinoceros, Bengal tiger, Asian elephant, wild water buffalo and swamp deer, and rhinos are the highlight for most visitors — 80% in one survey. The park is split into five ranges, with Kohora (Central), Bagori (Western) and Agaratoli (Eastern) among them.",
+          "facts": [
+            "KZ_TOURS",
+            "KZ_BIG5",
+            "KZ_RHINO",
+            "KZ_RANGES"
+          ]
+        },
+        "things_to_do": {
+          "items": [
+            {
+              "body": "Take a guided jeep or elephant safari to look for one-horned rhinos."
+            },
+            {
+              "body": "Stop at the interpretation centre at Bagori range."
+            },
+            {
+              "body": "Stay with a family just outside the park — some hosts drive and guide you in."
+            },
+            {
+              "body": "Look for migratory birds from Central Asia in winter."
+            }
+          ],
+          "facts": [
+            "KZ_TOURS",
+            "KZ_CENTRE",
+            "KZ_STAY",
+            "KZ_SEASON"
+          ]
+        },
+        "visit_info": {
+          "items": [
+            {
+              "title": "When",
+              "body": "After the June–September monsoon, when rhinos come out to graze; winter brings migratory birds.",
+              "status": "verified"
+            },
+            {
+              "title": "Ranges",
+              "body": "Central (Kohora), Western (Bagori), Eastern (Agaratoli), Burapahar and Northern.",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "KZ_SEASON",
+            "KZ_RANGES"
+          ]
+        }
+      },
+      "category": "nature"
+    },
+    {
+      "key": "bihar/rajgir-peace-pagoda",
+      "kind": "activity",
+      "name": "Rajgir's Peace Pagoda and Vulture Peak",
+      "summary": "Climb Ratnagiri hill to the white Vishwa Shanti Stupa, near the Buddha's Vulture Peak.",
+      "seoTitle": "Vishwa Shanti Stupa & Vulture Peak, Rajgir",
+      "seoDescription": "Visit Rajgir's Vishwa Shanti Stupa (Peace Pagoda) on Ratnagiri hill and Vulture Peak, where the Buddha preached, plus Rajgir's hot springs.",
+      "lat": 25.0,
+      "lng": 85.44,
+      "tripTypes": [
+        "spiritual",
+        "heritage"
+      ],
+      "images": [
+        {
+          "commons": "File:Vishwa Shanti Stupa, Rajgir 2.jpg",
+          "alt": "The white Vishwa Shanti Stupa on a hilltop in Rajgir",
+          "caption": "Vishwa Shanti Stupa, Rajgir",
+          "hero": true
+        }
+      ],
+      "sections": {
+        "overview": {
+          "text": "The white Vishwa Shanti Stupa, built in 1969 as one of 80 peace pagodas worldwide, stands 120 ft tall on top of the 400 m Rajgir Hills. Nearby is Gridhra-kuta, the Hill of the Vultures, where the Buddha spent several months meditating and preaching; the Heart Sutra and the Lotus Sutra are among the sermons placed here.",
+          "facts": [
+            "RJ_STUPA",
+            "RJ_SIZE",
+            "RJ_BUDDHA",
+            "RJ_SUTRA"
+          ]
+        },
+        "things_to_do": {
+          "items": [
+            {
+              "body": "Go up to the Peace Pagoda on top of the Rajgir Hills."
+            },
+            {
+              "body": "Visit Vulture Peak, the Buddha's retreat."
+            },
+            {
+              "body": "Bathe at Rajgir's hot springs, sacred since ancient times."
+            },
+            {
+              "body": "Join the stupa's anniversary celebrations on 25 October."
+            }
+          ],
+          "facts": [
+            "RJ_SIZE",
+            "RJ_BUDDHA",
+            "RJ_SPRINGS",
+            "RJ_ANNIV"
+          ]
+        },
+        "visit_info": {
+          "items": [
+            {
+              "title": "When",
+              "body": "Winter is mild (6–28 °C); summer reaches 44 °C, and the rains run mid-June to mid-September.",
+              "status": "verified"
+            },
+            {
+              "title": "Event",
+              "body": "The stupa's anniversary is celebrated every year on 25 October.",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "RJ_CLIMATE",
+            "RJ_ANNIV"
+          ]
+        }
+      },
+      "category": "spiritual",
+      "parent": "bihar/rajgir"
+    },
+    {
+      "key": "chandigarh/sukhna-lake-boating",
+      "kind": "activity",
+      "name": "Boating on Sukhna Lake",
+      "summary": "Rowing, kayaking and sailing on Le Corbusier's motorboat-free lake.",
+      "seoTitle": "Boating on Sukhna Lake, Chandigarh",
+      "seoDescription": "Boating, rowing, kayaking and sailing on Sukhna Lake in Chandigarh, plus winter birds and the monsoon Mango Festival.",
+      "lat": 30.742,
+      "lng": 76.818,
+      "tripTypes": [
+        "nature",
+        "family"
+      ],
+      "images": [
+        {
+          "commons": "File:On Sukhna Lake 01.jpg",
+          "alt": "Boats out on Sukhna Lake in Chandigarh",
+          "caption": "Sukhna Lake, Chandigarh",
+          "hero": true
+        }
+      ],
+      "sections": {
+        "overview": {
+          "text": "Getting out on the water is the way to enjoy Sukhna Lake. Boating, rowing, sculling, sailing, kayaking and water-skiing go on all year. Le Corbusier wanted it calm, so motorboats are banned on the water and vehicles on the dam-top promenade, which makes a quiet paddle or a walk along the dam easy.",
+          "facts": [
+            "SU_BOAT",
+            "SU_QUIET"
+          ]
+        },
+        "things_to_do": {
+          "items": [
+            {
+              "body": "Row, kayak or sail — all available year-round."
+            },
+            {
+              "body": "Walk the car-free promenade on top of the dam."
+            },
+            {
+              "body": "Watch Siberian ducks, storks and cranes in winter."
+            },
+            {
+              "body": "Come in the monsoon for the Mango Festival."
+            }
+          ],
+          "facts": [
+            "SU_BOAT",
+            "SU_QUIET",
+            "SU_BIRDS",
+            "SU_MANGO"
+          ]
+        },
+        "visit_info": {
+          "items": [
+            {
+              "title": "When",
+              "body": "All year; winter for migratory birds, the monsoon for the Mango Festival.",
+              "status": "verified"
+            },
+            {
+              "title": "Rules",
+              "body": "No motorboats on the lake and no vehicles on the dam promenade.",
+              "status": "verified"
+            },
+            {
+              "title": "Lake Club",
+              "body": "A membership club with lawns, pools, a gym and tennis courts.",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "SU_BOAT",
+            "SU_BIRDS",
+            "SU_MANGO",
+            "SU_QUIET",
+            "SU_CLUB"
+          ]
+        }
+      },
+      "category": "nature"
+    },
+    {
+      "key": "chhattisgarh/bastar-dussehra",
+      "kind": "activity",
+      "name": "Bastar Dussehra",
+      "summary": "Jagdalpur's Dussehra for the goddess Danteswari, unlike any other in India.",
+      "seoTitle": "Bastar Dussehra in Jagdalpur, Chhattisgarh",
+      "seoDescription": "Bastar Dussehra in Jagdalpur: the festival of goddess Danteswari, her chariot and palanquin, the royal darbar, and nearby Chitrakote Falls.",
+      "lat": 19.08,
+      "lng": 82.03,
+      "tripTypes": [
+        "heritage",
+        "spiritual"
+      ],
+      "images": [
+        {
+          "commons": "File:Bastar Dusshera Unexplored Bastar.jpg",
+          "alt": "Crowds around the festival chariot during Bastar Dussehra",
+          "caption": "Bastar Dussehra, Jagdalpur",
+          "hero": true
+        }
+      ],
+      "sections": {
+        "overview": {
+          "text": "Bastar Dussehra is Jagdalpur's own Dussehra, and it is distinct from the festival anywhere else in India. It celebrates the goddess Danteswari: worship ceremonies are held at her temple in Jagdalpur and a chariot is built for her to ride in. The festival was started by Maharaja Purushottam Deo in the early 15th century, and the Raja of Bastar still welcomes the goddess and holds a darbar on the last day.",
+          "facts": [
+            "BD_UNIQUE",
+            "BD_WHAT",
+            "BD_RATH",
+            "BD_OLD",
+            "BD_DAYS"
+          ]
+        },
+        "things_to_do": {
+          "items": [
+            {
+              "body": "Watch the goddess ride through Jagdalpur in her chariot."
+            },
+            {
+              "body": "See her arrive at the city gate in a palanquin on the ninth day."
+            },
+            {
+              "body": "Pair the festival with Chitrakote Falls, Teerathgarh Falls or Kotumsar Cave."
+            }
+          ],
+          "facts": [
+            "BD_RATH",
+            "BD_DAYS",
+            "BD_FALLS"
+          ]
+        },
+        "visit_info": {
+          "items": [
+            {
+              "title": "When",
+              "body": "Dussehra falls in September or October.",
+              "status": "verified"
+            },
+            {
+              "title": "Where",
+              "body": "The Danteswari temple and the streets of Jagdalpur.",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "BD_MONTH",
+            "BD_RATH"
+          ]
+        }
+      },
+      "category": "events",
+      "parent": "chhattisgarh/jagdalpur"
+    },
+    {
+      "key": "dadra-and-nagar-haveli-and-daman-and-diu/diu-heritage-walk",
+      "kind": "activity",
+      "name": "Diu fort and Portuguese heritage walk",
+      "summary": "Walk Diu's sea-facing fort, chapels and low Portuguese old town, then the Nagoa beach.",
+      "seoTitle": "Diu Fort & Portuguese Heritage Walk",
+      "seoDescription": "A walk through Diu's Portuguese heritage: the 1535 sea fort, Fortim do Mar, old chapels and the low-rise town, with Nagoa Beach nearby.",
+      "lat": 20.714,
+      "lng": 70.99,
+      "tripTypes": [
+        "heritage",
+        "beaches"
+      ],
+      "images": [
+        {
+          "commons": "File:Diu Fort Sea View.JPG",
+          "alt": "Diu Fort's walls above the sea",
+          "caption": "Diu Fort from the sea side",
+          "hero": true
+        }
+      ],
+      "sections": {
+        "overview": {
+          "text": "Diu's Portuguese past is best seen on foot. The fort, built in 1535 on a hillock by the sea and garrisoned until 1960, is the district's most visited landmark; out in the channel stands a second sea fort, Fortim do Mar. With no tall buildings except the fort, the old town keeps a low skyline of Portuguese houses, churches and chapels.",
+          "facts": [
+            "DI_FORT",
+            "DI_SEAFORT",
+            "DI_SKYLINE",
+            "DI_TOWN"
+          ]
+        },
+        "things_to_do": {
+          "items": [
+            {
+              "body": "Walk the walls of Diu Fort above the sea."
+            },
+            {
+              "body": "Look out to Fortim do Mar in the channel."
+            },
+            {
+              "body": "Visit the Mother of God and Our Lady of Rosary chapels."
+            },
+            {
+              "body": "End the day at horseshoe-shaped Nagoa Beach, 8 km away."
+            }
+          ],
+          "facts": [
+            "DI_FORT",
+            "DI_SEAFORT",
+            "DI_CHAPELS",
+            "DI_NAGOA"
+          ]
+        },
+        "visit_info": {
+          "items": [
+            {
+              "title": "Getting there",
+              "body": "A bridge links Diu to mainland Gujarat; road transport runs from Una, Rajula and Mahuva.",
+              "status": "verified"
+            },
+            {
+              "title": "Beach",
+              "body": "Nagoa, Diu's main tourist beach, is about 8 km from town.",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "DI_BRIDGE",
+            "DI_NAGOA"
+          ]
+        }
+      },
+      "category": "culture"
+    },
+    {
+      "key": "gujarat/rann-utsav",
+      "kind": "activity",
+      "name": "Rann Utsav in the white desert",
+      "summary": "Three winter months of tents, folk music and moonlit salt flats near Dhordo.",
+      "seoTitle": "Rann Utsav, Great Rann of Kutch",
+      "seoDescription": "Rann Utsav in the Great Rann of Kutch: a December–February festival near Dhordo with camel shows, hot-air balloons, crafts and folk music on the white salt desert.",
+      "lat": 23.83,
+      "lng": 69.66,
+      "tripTypes": [
+        "nature",
+        "food"
+      ],
+      "images": [
+        {
+          "commons": "File:'WHITE DESERT' at Dhordo in Great Rann of Kutch.JPG",
+          "alt": "The flat white salt desert at Dhordo stretching to the horizon",
+          "caption": "White desert at Dhordo, Great Rann of Kutch",
+          "hero": true
+        }
+      ],
+      "sections": {
+        "overview": {
+          "text": "Each winter Gujarat turns the Great Rann of Kutch — one of the largest salt deserts in the world — into a festival ground. The Rann Utsav runs for three months, December to February, near Dhordo village on 500 km² of white salt desert. Expect the BSF camel show, hot-air ballooning, craft stalls and food, with folk music and dance around bonfires under the moon.",
+          "facts": [
+            "RU_SIZE",
+            "RU_WHEN",
+            "RU_WHAT",
+            "RU_FOLK"
+          ]
+        },
+        "things_to_do": {
+          "items": [
+            {
+              "body": "Walk out onto the white salt flats near Dhordo."
+            },
+            {
+              "body": "Watch the BSF camel show or go up in a hot-air balloon."
+            },
+            {
+              "body": "Browse Kutch's crafts and folk architecture in the Banni grasslands."
+            },
+            {
+              "body": "Stay for folk music around a bonfire under the moon."
+            }
+          ],
+          "facts": [
+            "RU_WHEN",
+            "RU_WHAT",
+            "RU_FOLK"
+          ]
+        },
+        "visit_info": {
+          "items": [
+            {
+              "title": "When",
+              "body": "December to February.",
+              "status": "verified"
+            },
+            {
+              "title": "Weather",
+              "body": "Winter nights can drop below 0 °C — pack warm layers.",
+              "status": "verified"
+            },
+            {
+              "title": "Avoid",
+              "body": "In the monsoon the salt flats fill with standing water.",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "RU_WHEN",
+            "RU_COLD",
+            "RU_WET"
+          ]
+        }
+      },
+      "category": "events"
+    },
+    {
+      "key": "haryana/surajkund-crafts-mela",
+      "kind": "activity",
+      "name": "Surajkund International Crafts Mela",
+      "summary": "India's big February crafts fair by a 10th-century reservoir near Delhi.",
+      "seoTitle": "Surajkund International Crafts Mela, Faridabad",
+      "seoDescription": "The Surajkund International Crafts Mela near Delhi: a February crafts fair with a theme state each year, 400 craft stalls and a food festival.",
+      "lat": 28.48,
+      "lng": 77.28,
+      "tripTypes": [
+        "food",
+        "heritage"
+      ],
+      "images": [
+        {
+          "commons": "File:Surajkund International Craft fair.jpg",
+          "alt": "Crowds and colourful stalls at the Surajkund crafts fair",
+          "caption": "Surajkund International Crafts Mela",
+          "hero": true
+        }
+      ],
+      "sections": {
+        "overview": {
+          "text": "Every February the grounds around Surajkund, a 10th-century reservoir in Faridabad about 8 km from South Delhi, fill with traditional craftspeople from all parts of the country. The Surajkund International Crafts Mela has run since 1987, and each year a different theme state shapes the entrance and the crafts on show. It is huge: the 2015 edition drew 1.2 million visitors.",
+          "facts": [
+            "SJ_SITE",
+            "SJ_START",
+            "SJ_THEME",
+            "SJ_CROWD"
+          ]
+        },
+        "things_to_do": {
+          "items": [
+            {
+              "body": "Shop handmade crafts from the year's theme state and beyond."
+            },
+            {
+              "body": "Eat your way through the food festival's regional cuisines."
+            },
+            {
+              "body": "Come back around Diwali for the week-long Surajkund Diwali Utsav."
+            }
+          ],
+          "facts": [
+            "SJ_THEME",
+            "SJ_FOOD",
+            "SJ_DIWALI"
+          ]
+        },
+        "visit_info": {
+          "items": [
+            {
+              "title": "When",
+              "body": "Every year in early February, roughly 1–15 February.",
+              "status": "verified"
+            },
+            {
+              "title": "Distance",
+              "body": "About 8 km from South Delhi.",
+              "status": "verified"
+            },
+            {
+              "title": "Crowds",
+              "body": "Very busy — the 2015 fair drew 1.2 million visitors, 160,000 of them from abroad.",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "SJ_WHEN",
+            "SJ_SITE",
+            "SJ_CROWD"
+          ]
+        }
+      },
+      "category": "events"
+    },
+    {
+      "key": "jharkhand/shravani-mela",
+      "kind": "activity",
+      "name": "Shravani Mela pilgrimage to Deoghar",
+      "summary": "A month of saffron-clad pilgrims walking 105 km with Ganges water to Baba Baidyanath.",
+      "seoTitle": "Shravani Mela, Deoghar: Kanwar Pilgrimage",
+      "seoDescription": "Shravani Mela at Deoghar: the July–August Kanwar pilgrimage from Sultanganj to Baba Baidyanath Dham, one of the twelve Jyotirlingas.",
+      "lat": 24.49,
+      "lng": 86.7,
+      "tripTypes": [
+        "spiritual"
+      ],
+      "images": [
+        {
+          "commons": "File:Basukinath Dhaam, Jharkhand 27072010011.jpg",
+          "alt": "Saffron-clad pilgrims at Basukinath Dham during Shravan",
+          "caption": "Pilgrims at Basukinath Dham in Shravan",
+          "hero": true
+        }
+      ],
+      "sections": {
+        "overview": {
+          "text": "For a month every Shravan (July–August), Deoghar becomes one of India's largest religious gatherings. Pilgrims called Kanwariyas collect Ganges water at Sultanganj and carry it on foot about 105 km to Baba Baidyanath Dham, one of the twelve Jyotirlingas of Shiva. Dressed in saffron, they walk barefoot with the water balanced on a decorated bamboo kanwar, which must never touch the ground.",
+          "facts": [
+            "SM_WHAT",
+            "SM_BIG",
+            "SM_WALK",
+            "SM_KANWAR",
+            "SM_SITES"
+          ]
+        },
+        "things_to_do": {
+          "items": [
+            {
+              "body": "Watch the saffron-clad Kanwariyas arrive in Deoghar."
+            },
+            {
+              "body": "See pilgrims dip in Shivganga Lake before offering water at Baidyanath."
+            },
+            {
+              "body": "Follow the route on to Basukinath Temple."
+            },
+            {
+              "body": "Watch pilgrims walk barefoot, never setting the kanwar down."
+            }
+          ],
+          "facts": [
+            "SM_KANWAR",
+            "SM_SITES"
+          ]
+        },
+        "visit_info": {
+          "items": [
+            {
+              "title": "When",
+              "body": "The month of Shravan, July–August.",
+              "status": "verified"
+            },
+            {
+              "title": "Route",
+              "body": "About 105 km on foot from Ajgaibinath Dham, Sultanganj, to Deoghar.",
+              "status": "verified"
+            },
+            {
+              "title": "Crowds",
+              "body": "One of India's largest religious gatherings — expect very busy temples.",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "SM_WHAT",
+            "SM_WALK",
+            "SM_BIG"
+          ]
+        }
+      },
+      "category": "spiritual",
+      "parent": "jharkhand/deoghar"
+    },
+    {
+      "key": "ladakh/chadar-trek",
+      "kind": "activity",
+      "name": "Chadar Trek on the frozen Zanskar",
+      "summary": "A winter trek on the frozen Zanskar River through a gorge of 600 m cliffs.",
+      "seoTitle": "Chadar Trek, Ladakh: Frozen Zanskar River",
+      "seoDescription": "The Chadar Trek in Ladakh: a January–February walk on the frozen Zanskar River from Chilling to the frozen waterfall at Nerak, about 105 km.",
+      "lat": 33.95,
+      "lng": 77.15,
+      "tripTypes": [
+        "adventure",
+        "mountains"
+      ],
+      "images": [
+        {
+          "commons": "File:Chadar trek 10.jpg",
+          "alt": "Trekkers walking on the frozen Zanskar River between cliffs",
+          "caption": "Chadar Trek on the frozen Zanskar",
+          "hero": true
+        }
+      ],
+      "sections": {
+        "overview": {
+          "text": "In winter the frozen Zanskar River becomes a trail, and it is traditionally the only way to travel in the area in those months. Today trekkers follow it through a gorge whose near-vertical cliffs rise up to 600 m and close in to just 5 m wide. The classic route is about 105 km, walked at roughly 16 km a day from Chilling to the frozen waterfall at Nerak and back.",
+          "facts": [
+            "CT_WHAT",
+            "CT_GORGE",
+            "CT_DIST",
+            "CT_ROUTE"
+          ]
+        },
+        "things_to_do": {
+          "items": [
+            {
+              "body": "Walk the ice of the frozen Zanskar between 600 m cliffs."
+            },
+            {
+              "body": "Reach the frozen waterfall at Nerak, the turnaround point."
+            },
+            {
+              "body": "Go further to Lingshed, or about 14 days to Padum."
+            }
+          ],
+          "facts": [
+            "CT_GORGE",
+            "CT_ROUTE",
+            "CT_LONG"
+          ]
+        },
+        "visit_info": {
+          "items": [
+            {
+              "title": "When",
+              "body": "January to February.",
+              "status": "verified"
+            },
+            {
+              "title": "Cold",
+              "body": "Temperatures can drop to −30 to −35 °C.",
+              "status": "verified"
+            },
+            {
+              "title": "Distance",
+              "body": "About 105 km, around 16 km a day.",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "CT_WHEN",
+            "CT_DIST"
+          ]
+        }
+      },
+      "category": "adventure"
+    },
+    {
+      "key": "lakshadweep/scuba-diving-snorkelling",
+      "kind": "activity",
+      "name": "Scuba diving and snorkelling",
+      "summary": "Dive and snorkel coral lagoons with 600 kinds of fish — permit required.",
+      "seoTitle": "Scuba Diving & Snorkelling in Lakshadweep",
+      "seoDescription": "Scuba diving, snorkelling and water sports in Lakshadweep's coral lagoons: what's on offer, Bangaram and Kadmat, and the permit you need.",
+      "lat": 10.9,
+      "lng": 72.3,
+      "tripTypes": [
+        "beaches",
+        "adventure"
+      ],
+      "images": [
+        {
+          "commons": "File:Bangaram Island, Lakshadweep 20160325- DSC1780.jpg",
+          "alt": "Clear turquoise lagoon water off Bangaram Island",
+          "caption": "Bangaram Island, Lakshadweep",
+          "hero": true
+        }
+      ],
+      "sections": {
+        "overview": {
+          "text": "Lakshadweep is one of only four coral reef regions in India, with over 600 species of fish and 78 of coral in some 4,200 km² of lagoons. Scuba diving and snorkelling are the main draw, alongside windsurfing, kayaking, canoeing and other water sports. Bangaram, the first island opened to tourism in 1974, and Kadmat are the islands being promoted for visitors.",
+          "facts": [
+            "LK_REEF",
+            "LK_LAGOON",
+            "LK_SPORTS",
+            "LK_ISLES"
+          ]
+        },
+        "things_to_do": {
+          "items": [
+            {
+              "body": "Snorkel or dive the coral lagoons."
+            },
+            {
+              "body": "Try windsurfing, kayaking or canoeing on the calm lagoon water."
+            },
+            {
+              "body": "Base yourself on Bangaram or Kadmat, the islands open for tourism."
+            }
+          ],
+          "facts": [
+            "LK_SPORTS",
+            "LK_ISLES"
+          ]
+        },
+        "visit_info": {
+          "items": [
+            {
+              "title": "Permit",
+              "body": "Everyone needs permission to visit; foreign nationals can't visit some islands.",
+              "status": "verified"
+            },
+            {
+              "title": "Alcohol",
+              "body": "Not allowed on the islands except Bangaram.",
+              "status": "verified"
+            },
+            {
+              "title": "Reefs",
+              "body": "One of India's four coral reef regions, with 78 species of coral.",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "LK_PERMIT",
+            "LK_DRY",
+            "LK_REEF"
+          ]
+        }
+      },
+      "category": "adventure"
+    },
+    {
+      "key": "madhya-pradesh/khajuraho-dance-festival",
+      "kind": "activity",
+      "name": "Khajuraho Dance Festival",
+      "summary": "A week of classical dance in the open air before the Khajuraho temples.",
+      "seoTitle": "Khajuraho Dance Festival, Madhya Pradesh",
+      "seoDescription": "The Khajuraho Dance Festival: a week of classical dance (20–26 February) in front of the Chitragupta and Vishvanatha temples.",
+      "lat": 24.852,
+      "lng": 79.92,
+      "tripTypes": [
+        "heritage"
+      ],
+      "images": [
+        {
+          "commons": "File:Odissi dancer at Khajuraho Dance Festival 2026 002.jpg",
+          "alt": "An Odissi dancer performing on stage at the Khajuraho Dance Festival",
+          "caption": "Odissi at the Khajuraho Dance Festival, 2026",
+          "hero": true
+        }
+      ],
+      "sections": {
+        "overview": {
+          "text": "For one week each February, some of the best classical dancers in India perform against the temples of Khajuraho. The Khajuraho Dance Festival, run by the Madhya Pradesh Kala Parishad since 1975, uses an open-air stage, usually in front of the Chitragupta Temple to the Sun God and the Vishvanatha Temple to Shiva in the western group. Kathak, Bharatanatyam, Odissi, Kuchipudi, Manipuri, Gaudiya Nritya and Kathakali are all on the programme.",
+          "facts": [
+            "KD_WHAT",
+            "KD_MORE",
+            "KD_STAGE",
+            "KD_STYLES"
+          ]
+        },
+        "things_to_do": {
+          "items": [
+            {
+              "body": "Watch classical dance at night in front of the western group of temples."
+            },
+            {
+              "body": "See the temples by day and the performances after dark."
+            },
+            {
+              "body": "Catch the film screenings and handicraft shows alongside."
+            },
+            {
+              "body": "Look out for Odissi, Kathakali and Manipuri as well as Kathak."
+            }
+          ],
+          "facts": [
+            "KD_STAGE",
+            "KD_MORE",
+            "KD_STYLES"
+          ]
+        },
+        "visit_info": {
+          "items": [
+            {
+              "title": "When",
+              "body": "20–26 February every year.",
+              "status": "verified"
+            },
+            {
+              "title": "Where",
+              "body": "An open-air stage by the western group of temples.",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "KD_WHEN",
+            "KD_STAGE"
+          ]
+        }
+      },
+      "category": "events",
+      "parent": "madhya-pradesh/khajuraho"
+    },
+    {
+      "key": "maharashtra/ganeshotsav-mumbai",
+      "kind": "activity",
+      "name": "Ganeshotsav in Mumbai",
+      "summary": "Ten days of pandals, modak and the great immersion processions to the sea.",
+      "seoTitle": "Ganesh Chaturthi in Mumbai: Ganeshotsav Guide",
+      "seoDescription": "Ganeshotsav in Mumbai: pandals, Lalbaugcha Raja and its queues, and the visarjan processions to Girgaon Chowpatty on Anant Chaturdashi.",
+      "lat": 18.99,
+      "lng": 72.83,
+      "tripTypes": [
+        "spiritual",
+        "food"
+      ],
+      "images": [
+        {
+          "commons": "File:Mumabi Ganesh Visarjan 2026 - 1.jpg",
+          "alt": "A large Ganesha idol carried through Mumbai's streets for immersion",
+          "caption": "Ganesh visarjan in Mumbai, 2026",
+          "hero": true
+        }
+      ],
+      "sections": {
+        "overview": {
+          "text": "Ganeshotsav is Maharashtra's state festival, and Mumbai's Girgaon is one of the two places where Lokmanya Tilak started the public celebration. For ten days neighbourhoods set up pandals for Ganesha, hand out sweets like modak, and then carry the idols in processions with music and chanting to be immersed in the sea on Anant Chaturdashi — around 150,000 of them in Mumbai alone.",
+          "facts": [
+            "GC_STATE",
+            "GC_TILAK",
+            "GC_MODAK",
+            "GC_END",
+            "GC_COUNT"
+          ]
+        },
+        "things_to_do": {
+          "items": [
+            {
+              "body": "Go pandal-hopping and try the modak handed out from them."
+            },
+            {
+              "body": "Join the Mukh Darshan line at Lalbaugcha Raja to see the idol without going on stage."
+            },
+            {
+              "body": "Watch the final immersion at Girgaon Chowpatty on Anant Chaturdashi."
+            }
+          ],
+          "facts": [
+            "GC_MODAK",
+            "LB_QUEUE",
+            "LB_SEA"
+          ]
+        },
+        "visit_info": {
+          "items": [
+            {
+              "title": "When",
+              "body": "Starts between 22 August and 20 September; lasts ten days.",
+              "status": "verified"
+            },
+            {
+              "title": "Queues",
+              "body": "At Lalbaugcha Raja, the view-only line takes 3–4 hours or more; the wish line 25–40 hours.",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "GC_WHEN",
+            "GC_END",
+            "LB_QUEUE"
+          ]
+        }
+      },
+      "category": "events",
+      "parent": "maharashtra/mumbai"
+    },
+    {
+      "key": "manipur/sangai-festival",
+      "kind": "activity",
+      "name": "Sangai Festival",
+      "summary": "Manipur's ten-day showcase of dance, crafts, sport and food each November.",
+      "seoTitle": "Sangai Festival, Imphal, Manipur",
+      "seoDescription": "The Sangai Festival in Manipur (21–30 November): art, handloom, indigenous sports and cuisine at Hapta Kangjeibung and BOAT in Imphal, plus Loktak Lake.",
+      "lat": 24.8,
+      "lng": 93.94,
+      "tripTypes": [
+        "food",
+        "nature"
+      ],
+      "images": [
+        {
+          "commons": "File:Sangai festival Manipur.jpg",
+          "alt": "Performers at the Sangai Festival in Manipur",
+          "caption": "Sangai Festival, Manipur",
+          "hero": true
+        }
+      ],
+      "sections": {
+        "overview": {
+          "text": "Every year from 21 to 30 November, Manipur puts its culture on show at the Sangai Festival, named since 2010 after the shy brow-antlered deer found only here. Organised by Manipur Tourism, it brings together art, handloom and handicrafts, indigenous sports, music, adventure sports and Manipuri food, mainly at Hapta Kangjeibung and the Bhagyachandra Open Air Theatre in Imphal.",
+          "facts": [
+            "SG_WHEN",
+            "SG_NAME",
+            "SG_WHAT",
+            "SG_VENUE"
+          ]
+        },
+        "things_to_do": {
+          "items": [
+            {
+              "body": "Watch indigenous sports and dance at Hapta Kangjeibung."
+            },
+            {
+              "body": "Shop Manipuri handloom and crafts."
+            },
+            {
+              "body": "Take a day trip to Loktak Lake, 48 km from Imphal."
+            },
+            {
+              "body": "Look for the sangai at Keibul Lamjao, the floating national park."
+            }
+          ],
+          "facts": [
+            "SG_WHAT",
+            "SG_VENUE",
+            "SG_LOKTAK",
+            "SG_PARK"
+          ]
+        },
+        "visit_info": {
+          "items": [
+            {
+              "title": "When",
+              "body": "21–30 November every year.",
+              "status": "verified"
+            },
+            {
+              "title": "Where",
+              "body": "Hapta Kangjeibung and the Bhagyachandra Open Air Theatre, Imphal.",
+              "status": "verified"
+            },
+            {
+              "title": "Name",
+              "body": "After the sangai, the brow-antlered deer found at Keibul Lamjao.",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "SG_WHEN",
+            "SG_VENUE",
+            "SG_NAME"
+          ]
+        }
+      },
+      "category": "events",
+      "parent": "manipur/imphal"
+    },
+    {
+      "key": "meghalaya/living-root-bridges-trek",
+      "kind": "activity",
+      "name": "Living root bridges trek",
+      "summary": "Hike to Khasi bridges grown from living fig roots, including Nongriat's Double Decker.",
+      "seoTitle": "Living Root Bridges Trek, Meghalaya",
+      "seoDescription": "Trek to Meghalaya's living root bridges near Cherrapunji: Nongriat's 200-year-old Double Decker and other bridges grown from rubber fig roots.",
+      "lat": 25.25,
+      "lng": 91.67,
+      "tripTypes": [
+        "adventure",
+        "nature"
+      ],
+      "images": [
+        {
+          "commons": "File:Living root bridges, Nongriat village, Meghalaya2.jpg",
+          "alt": "A bridge of living tree roots over a stream at Nongriat",
+          "caption": "Living root bridge, Nongriat",
+          "hero": true
+        }
+      ],
+      "sections": {
+        "overview": {
+          "text": "In the East Khasi Hills, the Khasi and Jaintia peoples grow bridges instead of building them, training the aerial roots of rubber fig trees across rivers. Once mature, a bridge can carry 50 or more people and last several hundred years. The most famous is the Double Decker at Nongriat near Cherrapunji, two spans stacked one above the other and about 200 years old.",
+          "facts": [
+            "LB_WHAT",
+            "LB_STRONG",
+            "LB_DOUBLE"
+          ]
+        },
+        "things_to_do": {
+          "items": [
+            {
+              "body": "Hike down to Nongriat to cross the Double Decker bridge."
+            },
+            {
+              "body": "Find more root bridges around Tynrong, Mynteng and Laitkynsew near Cherrapunji."
+            },
+            {
+              "body": "See another near Mawlynnong, by Pynursla."
+            },
+            {
+              "body": "Cross a mature bridge — some carry 50 or more people at once."
+            }
+          ],
+          "facts": [
+            "LB_DOUBLE",
+            "LB_WHERE",
+            "LB_PYN",
+            "LB_STRONG"
+          ]
+        },
+        "visit_info": {
+          "items": [
+            {
+              "title": "Where",
+              "body": "Villages around Cherrapunji (Sohra), and near Pynursla.",
+              "status": "verified"
+            },
+            {
+              "title": "History",
+              "body": "First written about by Henry Yule in 1844.",
+              "status": "verified"
+            },
+            {
+              "title": "Lifespan",
+              "body": "Several hundred years once mature.",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "LB_WHERE",
+            "LB_PYN",
+            "LB_OLD",
+            "LB_STRONG"
+          ]
+        }
+      },
+      "category": "adventure",
+      "parent": "meghalaya/cherrapunji"
+    },
+    {
+      "key": "mizoram/chapchar-kut",
+      "kind": "activity",
+      "name": "Chapchar Kut festival",
+      "summary": "Mizoram's spring festival of bamboo dance, games and food in Aizawl.",
+      "seoTitle": "Chapchar Kut Festival, Mizoram",
+      "seoDescription": "Chapchar Kut, Mizoram's spring festival (late February–early March): Cheraw bamboo dance, Mizo games, costume parades and food stalls in Aizawl.",
+      "lat": 23.73,
+      "lng": 92.72,
+      "tripTypes": [
+        "food",
+        "heritage"
+      ],
+      "images": [
+        {
+          "commons": "File:Cheraw.jpg",
+          "alt": "Dancers stepping between clapping bamboo poles in the Cheraw dance",
+          "caption": "Cheraw, the bamboo dance of Chapchar Kut",
+          "hero": true
+        }
+      ],
+      "sections": {
+        "overview": {
+          "text": "Chapchar Kut is Mizoram's spring festival, held in late February or early March while the trees and bamboo cleared for jhum farming are left to dry. It began as a thanksgiving for a safe clearing season and was revived on a grand scale in Aizawl in 1962. Today it is a celebration of Mizo culture, led by the Cheraw bamboo dance, with Khuallam, Chheihlam, Chai and Sarlamkai dances too.",
+          "facts": [
+            "CK_WHEN",
+            "CK_WHY",
+            "CK_AIZ",
+            "CK_DANCE"
+          ]
+        },
+        "things_to_do": {
+          "items": [
+            {
+              "body": "Watch the Cheraw, danced between clapping bamboo poles."
+            },
+            {
+              "body": "See Mizo traditional games and the costume parade."
+            },
+            {
+              "body": "Eat at the stalls of Mizo food."
+            },
+            {
+              "body": "Join in Chhawnghnawh, the playful boiled-egg custom."
+            },
+            {
+              "body": "See the arts, crafts and photo exhibitions."
+            }
+          ],
+          "facts": [
+            "CK_DANCE",
+            "CK_FUN",
+            "CK_EGG"
+          ]
+        },
+        "visit_info": {
+          "items": [
+            {
+              "title": "When",
+              "body": "Late February or early March.",
+              "status": "verified"
+            },
+            {
+              "title": "Where",
+              "body": "Aizawl, where the festival was revived in 1962.",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "CK_WHEN",
+            "CK_AIZ"
+          ]
+        }
+      },
+      "category": "events",
+      "parent": "mizoram/aizawl"
+    },
+    {
+      "key": "nagaland/hornbill-festival",
+      "kind": "activity",
+      "name": "Hornbill Festival",
+      "summary": "Ten December days when all of Nagaland's peoples gather at Kisama.",
+      "seoTitle": "Hornbill Festival, Kisama, Nagaland",
+      "seoDescription": "The Hornbill Festival (1–10 December) at Kisama Heritage Village near Kohima: Naga morungs, dances, crafts, food, archery, wrestling and the rock festival.",
+      "lat": 25.61,
+      "lng": 94.1,
+      "tripTypes": [
+        "food",
+        "heritage"
+      ],
+      "images": [
+        {
+          "commons": "File:Kisama main arena Hornbill Festival 2019.jpg",
+          "alt": "Performers in the main arena of Kisama Heritage Village at the Hornbill Festival",
+          "caption": "Kisama main arena, Hornbill Festival 2019",
+          "hero": true
+        }
+      ],
+      "sections": {
+        "overview": {
+          "text": "Every year from 1 to 10 December, all of Nagaland's ethnic groups come together at the Hornbill Festival — which is why it is called the Festival of Festivals. Named after the forest bird found in most Naga folklore and first held in 2000, it takes place mainly at Kisama Heritage Village, about 12 km from Kohima, where each group shows its songs, dances, crafts and food.",
+          "facts": [
+            "HB_WHEN",
+            "HB_NAME",
+            "HB_START",
+            "HB_VENUE"
+          ]
+        },
+        "things_to_do": {
+          "items": [
+            {
+              "body": "Walk through the traditional Naga morungs at Kisama."
+            },
+            {
+              "body": "Watch traditional archery, Naga wrestling and indigenous games."
+            },
+            {
+              "body": "Eat at the food stalls and browse the crafts."
+            },
+            {
+              "body": "Stay for the Hornbill International Rock Festival in the evenings."
+            },
+            {
+              "body": "Visit the herbal medicine and flower stalls."
+            }
+          ],
+          "facts": [
+            "HB_WHAT",
+            "HB_ROCK"
+          ]
+        },
+        "visit_info": {
+          "items": [
+            {
+              "title": "When",
+              "body": "1–10 December every year.",
+              "status": "verified"
+            },
+            {
+              "title": "Where",
+              "body": "Kisama Heritage Village, about 12 km from Kohima.",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "HB_WHEN",
+            "HB_VENUE"
+          ]
+        }
+      },
+      "category": "events",
+      "parent": "nagaland/kohima"
+    },
+    {
+      "key": "odisha/rath-yatra",
+      "kind": "activity",
+      "name": "Rath Yatra in Puri",
+      "summary": "Jagannath's great chariot festival down Puri's Grand Avenue each June–July.",
+      "seoTitle": "Rath Yatra, Puri: Jagannath Chariot Festival",
+      "seoDescription": "Rath Yatra in Puri (June–July): Jagannath, Balabhadra and Subhadra pulled in three new wooden chariots down the Grand Avenue to Gundicha Temple.",
+      "lat": 19.805,
+      "lng": 85.818,
+      "tripTypes": [
+        "spiritual",
+        "heritage"
+      ],
+      "images": [
+        {
+          "commons": "File:Annual chariot festival 'Jagannath Yatra', Puri Odisha.jpg",
+          "alt": "Crowds around a giant wooden chariot on Puri's Grand Avenue",
+          "caption": "Rath Yatra, Puri",
+          "hero": true
+        }
+      ],
+      "sections": {
+        "overview": {
+          "text": "Puri's Rath Yatra is considered the oldest and largest Hindu chariot festival. Each June–July, crowds of devotees pull Jagannath, his brother Balabhadra and sister Subhadra in three huge wooden chariots along the Bada Danda, the Grand Avenue, to Gundicha Temple. The deities stay there a week before the return journey, the Bahuda Yatra. The chariots are built new every year.",
+          "facts": [
+            "RY_WHAT",
+            "RY_PULL",
+            "RY_GUNDICHA",
+            "RY_NEW"
+          ]
+        },
+        "things_to_do": {
+          "items": [
+            {
+              "body": "Watch the three chariots pulled down the Grand Avenue."
+            },
+            {
+              "body": "Come back a week later for the Bahuda Yatra return."
+            },
+            {
+              "body": "See Suna Besha, when the deities are dressed in gold on their chariots."
+            },
+            {
+              "body": "Visit earlier to see the chariots being built, from Akshaya Tritiya."
+            },
+            {
+              "body": "See the newly built chariots lined up on the Bada Danda."
+            }
+          ],
+          "facts": [
+            "RY_PULL",
+            "RY_GUNDICHA",
+            "RY_SUNA",
+            "RY_BUILD",
+            "RY_NEW"
+          ]
+        },
+        "visit_info": {
+          "items": [
+            {
+              "title": "When",
+              "body": "Ashadha, around June–July.",
+              "status": "verified"
+            },
+            {
+              "title": "Crowds",
+              "body": "Very large — nearly 900,000 people watched Suna Besha in 2014.",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "RY_WHAT",
+            "RY_SUNA"
+          ]
+        }
+      },
+      "category": "spiritual",
+      "parent": "odisha/puri"
+    },
+    {
+      "key": "puducherry/promenade-french-quarter-walk",
+      "kind": "activity",
+      "name": "Promenade and French Quarter walk",
+      "summary": "Stroll the seafront Promenade and the French-style streets of old Pondicherry.",
+      "seoTitle": "Promenade & French Quarter Walk, Pondicherry",
+      "seoDescription": "Walk Pondicherry's seafront Promenade and French Quarter: Dupleix Statue, the old lighthouse, Bharathi Park, French institutions and colonial streets.",
+      "lat": 11.933,
+      "lng": 79.835,
+      "tripTypes": [
+        "heritage",
+        "beaches"
+      ],
+      "images": [
+        {
+          "commons": "File:Pondicherry, Promenade Beach, Rock Beach, India.jpg",
+          "alt": "The seafront promenade and rocks along Pondicherry's Promenade Beach",
+          "caption": "Promenade Beach, Pondicherry",
+          "hero": true
+        }
+      ],
+      "sections": {
+        "overview": {
+          "text": "Pondicherry earned its name as 'the French Riviera of the East' in the old French Quarter, once divided from the Indian Quarter by a canal. Its colonial buildings, churches, temples and French-style avenues still keep that feel, and the seafront Promenade along Goubert Avenue links many of the sights. Note that the old sandy beach has gone: a 2-km seawall now protects the city, with only a small patch of sea access.",
+          "facts": [
+            "PD_RIV",
+            "PD_QTR",
+            "PD_FEEL",
+            "PD_WALL"
+          ]
+        },
+        "things_to_do": {
+          "items": [
+            {
+              "body": "Walk the Promenade past the Dupleix and Gandhi statues and the French War Memorial."
+            },
+            {
+              "body": "See the 19th-century lighthouse, Bharathi Park and the Governor's Palace."
+            },
+            {
+              "body": "Visit Sri Manakula Vinayagar Temple, older than French Pondicherry."
+            },
+            {
+              "body": "Look in at the French Institute and the Alliance française."
+            }
+          ],
+          "facts": [
+            "PD_SIGHTS",
+            "PD_TEMPLE",
+            "PD_FR"
+          ]
+        },
+        "visit_info": {
+          "items": [
+            {
+              "title": "Where",
+              "body": "Goubert Avenue (the Promenade) and the old French Quarter streets.",
+              "status": "verified"
+            },
+            {
+              "title": "Beach",
+              "body": "The sandy beach is gone; the sea is reached at a small patch along the Promenade.",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "PD_WALL"
+          ]
+        }
+      },
+      "category": "culture",
+      "parent": "puducherry/pondicherry"
+    },
+    {
+      "key": "punjab/hola-mohalla",
+      "kind": "activity",
+      "name": "Hola Mohalla at Anandpur Sahib",
+      "summary": "Three days of Sikh martial displays, kirtan and langar the day after Holi.",
+      "seoTitle": "Hola Mohalla, Anandpur Sahib, Punjab",
+      "seoDescription": "Hola Mohalla at Anandpur Sahib: the three-day Sikh festival in March with mock battles, kirtan, poetry, langar and a procession near Takht Kesgarh Sahib.",
+      "lat": 31.235,
+      "lng": 76.5,
+      "tripTypes": [
+        "spiritual",
+        "heritage"
+      ],
+      "images": [
+        {
+          "commons": "File:Hola mohalla 2026 DSCF3002.jpg",
+          "alt": "Nihang Sikhs on horseback during Hola Mohalla",
+          "caption": "Hola Mohalla, 2026",
+          "hero": true
+        }
+      ],
+      "sections": {
+        "overview": {
+          "text": "Hola Mohalla is the biggest festival at Anandpur Sahib: three days of Sikh celebration, normally in March, on the day after Holi. Guru Gobind Singh made it a time for the Sikhs to show their martial skills in mock battles, and that is still the heart of it — displays of fighting prowess and bravery, along with kirtan, music and poetry. Many pilgrims camp out for a week.",
+          "facts": [
+            "HM_BIG",
+            "HM_WHAT",
+            "HM_DATE",
+            "HM_MARTIAL",
+            "HM_FAIR"
+          ]
+        },
+        "things_to_do": {
+          "items": [
+            {
+              "body": "Watch displays of Sikh martial skill and horsemanship."
+            },
+            {
+              "body": "Listen to kirtan, music and poetry."
+            },
+            {
+              "body": "Sit down in the pangat for langar."
+            },
+            {
+              "body": "See the closing military-style procession near Takht Kesgarh Sahib."
+            }
+          ],
+          "facts": [
+            "HM_FAIR",
+            "HM_LANGAR",
+            "HM_PROC"
+          ]
+        },
+        "visit_info": {
+          "items": [
+            {
+              "title": "When",
+              "body": "Three days, normally in March, starting the day after Holi.",
+              "status": "verified"
+            },
+            {
+              "title": "Where",
+              "body": "Anandpur Sahib, around Takht Kesgarh Sahib.",
+              "status": "verified"
+            },
+            {
+              "title": "Stay",
+              "body": "Many pilgrims camp at Anandpur Sahib for a week.",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "HM_WHAT",
+            "HM_DATE",
+            "HM_PROC",
+            "HM_FAIR"
+          ]
+        }
+      },
+      "category": "events"
+    },
+    {
+      "key": "telangana/bathukamma",
+      "kind": "activity",
+      "name": "Bathukamma flower festival",
+      "summary": "Nine days of towering flower stacks, songs and lakeside immersions each autumn.",
+      "seoTitle": "Bathukamma Flower Festival, Telangana",
+      "seoDescription": "Bathukamma, Telangana's nine-day flower festival (September–October): flower stacks, songs, the Saddula Bathukamma finale and immersion in lakes.",
+      "lat": 17.385,
+      "lng": 78.487,
+      "tripTypes": [
+        "food",
+        "heritage"
+      ],
+      "images": [
+        {
+          "commons": "File:Bathukamma 2.jpg",
+          "alt": "A tall Bathukamma stack of colourful seasonal flowers",
+          "caption": "A Bathukamma flower stack",
+          "hero": true
+        }
+      ],
+      "sections": {
+        "overview": {
+          "text": "Bathukamma is Telangana's flower festival, celebrated by women for nine days each September–October in honour of the goddess Gauramma. The centrepiece is the bathukamma itself: seasonal flowers stacked in seven concentric layers in the shape of a temple gopuram. Women in traditional saris and jewellery gather around the stacks to sing, and on the last day, Saddula Bathukamma, the stacks are carried to lakes and tanks and immersed to drumbeats.",
+          "facts": [
+            "BK_WHAT",
+            "BK_WHEN",
+            "BK_STACK",
+            "BK_DRESS",
+            "BK_FINAL"
+          ]
+        },
+        "things_to_do": {
+          "items": [
+            {
+              "body": "See women build the gopuram-shaped flower stacks."
+            },
+            {
+              "body": "Join the singing around the bathukammas in the evening."
+            },
+            {
+              "body": "Watch the Saddula Bathukamma immersion at a lake to drumbeats."
+            },
+            {
+              "body": "Try the five rice dishes made for the last day."
+            }
+          ],
+          "facts": [
+            "BK_STACK",
+            "BK_FINAL",
+            "BK_FOOD"
+          ]
+        },
+        "visit_info": {
+          "items": [
+            {
+              "title": "When",
+              "body": "Nine days from Pitru Amavasya, usually September–October.",
+              "status": "verified"
+            },
+            {
+              "title": "Finale",
+              "body": "Saddula Bathukamma, the last day, with immersions in lakes and tanks.",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "BK_WHEN",
+            "BK_FINAL"
+          ]
+        }
+      },
+      "category": "events"
+    },
+    {
+      "key": "tripura/kharchi-puja",
+      "kind": "activity",
+      "name": "Kharchi Puja at the Fourteen Gods temple",
+      "summary": "A week of Tripuri rituals, evening performances and a big fair in Old Agartala.",
+      "seoTitle": "Kharchi Puja, Agartala, Tripura",
+      "seoDescription": "Kharchi Puja in Old Agartala (July–August): seven days of worship of the fourteen gods, the river Saidra bathing ritual, cultural evenings and a large fair.",
+      "lat": 23.83,
+      "lng": 91.4,
+      "tripTypes": [
+        "spiritual",
+        "heritage"
+      ],
+      "images": [
+        {
+          "commons": "File:Temple of 14 gods-Tripura.jpg",
+          "alt": "The Temple of Fourteen Gods in Old Agartala",
+          "caption": "Temple of the Fourteen Gods, Old Agartala",
+          "hero": true
+        }
+      ],
+      "sections": {
+        "overview": {
+          "text": "Kharchi Puja is one of Tripura's most popular festivals: seven days of worship, in July or August, of the fourteen gods who are the dynasty deity of the Tripuri people. It is held at the Temple of the Fourteen Gods in Old Agartala and is at heart a worship of the earth. On the day of the puja the deities are carried to the river Saidra, bathed and brought back to the temple.",
+          "facts": [
+            "KP_POP",
+            "KP_DAYS",
+            "KP_WHAT",
+            "KP_WHERE",
+            "KP_EARTH",
+            "KP_RIVER"
+          ]
+        },
+        "things_to_do": {
+          "items": [
+            {
+              "body": "Watch the fourteen gods carried to the river Saidra and back."
+            },
+            {
+              "body": "Catch the cultural programmes held every evening."
+            },
+            {
+              "body": "Wander the large fair around the temple."
+            }
+          ],
+          "facts": [
+            "KP_RIVER",
+            "KP_FAIR"
+          ]
+        },
+        "visit_info": {
+          "items": [
+            {
+              "title": "When",
+              "body": "July or August, for seven days.",
+              "status": "verified"
+            },
+            {
+              "title": "Where",
+              "body": "Temple of the Fourteen Gods, Old Agartala.",
+              "status": "verified"
+            },
+            {
+              "title": "Note",
+              "body": "Animal sacrifice of goats and pigeons is part of the rituals.",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "KP_WHAT",
+            "KP_DAYS",
+            "KP_WHERE",
+            "KP_SAC"
+          ]
+        }
+      },
+      "category": "spiritual",
+      "parent": "tripura/agartala"
+    },
+    {
+      "key": "west-bengal/durga-puja-kolkata",
+      "kind": "activity",
+      "name": "Durga Puja pandal-hopping in Kolkata",
+      "summary": "Kolkata's UNESCO-listed festival of themed pandals, lights and crowds.",
+      "seoTitle": "Durga Puja in Kolkata: Pandal-Hopping Guide",
+      "seoDescription": "Durga Puja in Kolkata, UNESCO intangible heritage: themed pandals, lights, Rajbari pujas, the five main days and when to go to beat the crowds.",
+      "lat": 22.57,
+      "lng": 88.36,
+      "tripTypes": [
+        "food",
+        "heritage"
+      ],
+      "images": [
+        {
+          "commons": "File:Durga Puja Pandal in Kolkata, 2023 02.jpg",
+          "alt": "An elaborately decorated Durga Puja pandal in Kolkata",
+          "caption": "Durga Puja pandal, Kolkata, 2023",
+          "hero": true
+        }
+      ],
+      "sections": {
+        "overview": {
+          "text": "Durga Puja in Kolkata, inscribed as UNESCO intangible cultural heritage in 2021, turns the city into a gallery of pandals for the goddess. Themes range from art and cultural traditions to famous world monuments, and lights cover whole neighbourhoods. Pandal-hopping is the way to see it: the five main days run from Shashti to Vijaya Dashami, and the crowds are huge.",
+          "facts": [
+            "DP_UNESCO",
+            "DP_THEMES",
+            "DP_HOP",
+            "DP_DAYS",
+            "DP_EARLY"
+          ]
+        },
+        "things_to_do": {
+          "items": [
+            {
+              "body": "Go pandal-hopping between the themed pandals."
+            },
+            {
+              "body": "Visit a centuries-old Rajbari puja for the traditional style."
+            },
+            {
+              "body": "Go early, from Mahalaya, before the main five days get crowded."
+            },
+            {
+              "body": "Look out for theme pandals modelled on famous world monuments."
+            }
+          ],
+          "facts": [
+            "DP_HOP",
+            "DP_RAJBARI",
+            "DP_EARLY",
+            "DP_THEMES"
+          ]
+        },
+        "visit_info": {
+          "items": [
+            {
+              "title": "When",
+              "body": "September or October; the main days are Shashti to Vijaya Dashami.",
+              "status": "verified"
+            },
+            {
+              "title": "Tip",
+              "body": "Pandals open from Mahalaya — go before Shashti to beat the crowds.",
+              "status": "verified"
+            },
+            {
+              "title": "Heritage",
+              "body": "UNESCO intangible cultural heritage since December 2021.",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "DP_MONTH",
+            "DP_DAYS",
+            "DP_EARLY",
+            "DP_UNESCO"
+          ]
+        }
+      },
+      "category": "events",
+      "parent": "west-bengal/kolkata"
+    }
+  ],
+  "itineraries": [],
+  "guides": []
+}

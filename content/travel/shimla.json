@@ -1,1725 +1,1911 @@
 {
- "cluster": "shimla",
- "title": "Shimla",
- "researchedAt": "2026-11-18",
- "selection": "Batch 1 (most-visited thin destinations). Shimla had 5 sections and no attractions, itineraries or local guidance. Sources: Himachal Tourism's Shimla page (government), the IIAS 'For Tourists' page for Viceregal Lodge hours and tours, and Wikipedia for the Kalka–Shimla line and city geography. Not found in any official source: Viceregal Lodge ticket prices, Jakhoo ropeway fares and hours, toy-train timetables — left unconfirmed or omitted. Existing approved Shimla sections (overview, best time, how to reach, things to do, key facts) are not touched.",
- "sources": {
-  "HPT_SHI": {
-   "url": "https://himachaltourism.gov.in/destination/shimla/",
-   "title": "Shimla — Himachal Tourism Official Website",
-   "authority": "government"
-  },
-  "IIAS_T": {
-   "url": "https://iias.ac.in/for-tourists/",
-   "title": "For Tourists — Indian Institute of Advanced Study, Shimla",
-   "authority": "government"
-  },
-  "W_SHI": {
-   "url": "https://en.wikipedia.org/wiki/Shimla",
-   "title": "Shimla — Wikipedia",
-   "authority": "reference"
-  },
-  "W_KSR": {
-   "url": "https://en.wikipedia.org/wiki/Kalka%E2%80%93Shimla_railway",
-   "title": "Kalka–Shimla railway — Wikipedia",
-   "authority": "reference"
-  }
- },
- "facts": {
-  "SM1": {
-   "place": "himachal-pradesh/shimla",
-   "topic": "Parking in Shimla",
-   "claim": "Main parking areas are at ISBT Shimla, Tutikandi crossing, Lift Parking, the railway station, the Old Bus Stand, Chhota Shimla and Sanjauli.",
-   "claimType": "general",
-   "kind": "verified",
-   "evidence": [
-    {
-     "source": "HPT_SHI",
-     "quote": "ISBT Shimla, Tutikandi crossing, Lift Parking, Railway Station, Old Bus stand parking, Chhota Shimla Parking, Sanjauli Parking."
-    }
-   ]
-  },
-  "SM2": {
-   "place": "himachal-pradesh/shimla",
-   "topic": "Taxis",
-   "claim": "Taxis are available on demand in the city.",
-   "claimType": "general",
-   "kind": "verified",
-   "evidence": [
-    {
-     "source": "HPT_SHI",
-     "quote": "Taxi services in the city is available on demand."
-    }
-   ]
-  },
-  "SM3": {
-   "place": "himachal-pradesh/shimla",
-   "topic": "Buses within Himachal",
-   "claim": "Public and private buses link Shimla with Kullu-Manali, Dharamshala and other towns in the state.",
-   "claimType": "general",
-   "kind": "verified",
-   "evidence": [
-    {
-     "source": "HPT_SHI",
-     "quote": "Within the state, private and public transport services are available for Kullu-Manali, Dharamshala and all other small and big towns of the state."
-    }
-   ]
-  },
-  "SM4": {
-   "place": "himachal-pradesh/shimla",
-   "topic": "Train via Kalka",
-   "claim": "Regular trains run between Delhi and Kalka, where you change to the Kalka–Shimla mountain railway.",
-   "claimType": "general",
-   "kind": "verified",
-   "evidence": [
-    {
-     "source": "HPT_SHI",
-     "quote": "Regular trains ply between Delhi and Kalka from where you can board the Kalka-Shimla train on this UNESCO heritage mountain rail track."
-    }
-   ]
-  },
-  "SM5": {
-   "place": "himachal-pradesh/shimla",
-   "topic": "Airport shuttle",
-   "claim": "HRTC runs an Aero Connect tempo-traveller service to and from Jubbarhatti airport.",
-   "claimType": "general",
-   "kind": "verified",
-   "evidence": [
-    {
-     "source": "HPT_SHI",
-     "quote": "AERO CONNECT Tempo Traveller Service to and from Jubbarhatti Airport, Shimla."
-    }
-   ]
-  },
-  "SM6": {
-   "place": "himachal-pradesh/shimla",
-   "topic": "Helicopter flights",
-   "claim": "RCS–UDAN helicopter flights connect Chandigarh–Shimla, Shimla–Kullu and Shimla–Reckong Peo.",
-   "claimType": "schedule",
-   "kind": "verified",
-   "evidence": [
-    {
-     "source": "HPT_SHI",
-     "quote": "RCS–UDAN Helicopter Flights are Now Available: For Chandigarh–Shimla–Chandigarh flight booking"
-    }
-   ]
-  },
-  "SM7": {
-   "place": "himachal-pradesh/ridge-and-mall",
-   "topic": "The Ridge",
-   "claim": "The Ridge is the open space alongside the Mall and the town's cultural hub, with views of snow peaks to the north on clear days.",
-   "claimType": "general",
-   "kind": "verified",
-   "evidence": [
-    {
-     "source": "HPT_SHI",
-     "quote": "The large open space that runs east to west alongside The Mall Road is the cultural hub of the city. On a clear day or after a light rain, the views of snow peaks of Himalayan ranges to the north are spectacular."
-    }
-   ]
-  },
-  "SM8": {
-   "place": "himachal-pradesh/ridge-and-mall",
-   "topic": "The Mall and Scandal Point",
-   "claim": "Himachal Emporium at the west end of the Mall sells local handicrafts and handloom; Scandal Point is where the Ridge and the Mall meet.",
-   "claimType": "general",
-   "kind": "verified",
-   "evidence": [
-    {
-     "source": "HPT_SHI",
-     "quote": "Himachal Emporium at the west end of the arcade sells locally made handicrafts and handloom products. Scandal Point, the place where The Ridge and The Mall converge, is a good place to catch up with the day’s news and gossip."
-    }
-   ]
-  },
-  "SM9": {
-   "place": "himachal-pradesh/viceregal-lodge",
-   "topic": "Viceregal Lodge building",
-   "claim": "Completed in 1888 to Henry Irwin's design, the Viceregal Lodge looks like a Scottish castle and was one of India's first buildings with electricity.",
-   "claimType": "general",
-   "kind": "verified",
-   "evidence": [
-    {
-     "source": "HPT_SHI",
-     "quote": "When completed in 1888, the Viceregal Lodge was one of the most flamboyant and one of first electric buildings of India. Build by architect Henry Irwin, the overall appearance of the imposing structure is that of a Scottish castle."
-    }
-   ]
-  },
-  "SM10": {
-   "place": "himachal-pradesh/viceregal-lodge",
-   "topic": "Partition table",
-   "claim": "One room still keeps the table at which the boundaries of Pakistan were drawn.",
-   "claimType": "general",
-   "kind": "verified",
-   "evidence": [
-    {
-     "source": "HPT_SHI",
-     "quote": "one room still retains the table where the boundaries of Pakistan was cut out from India."
-    }
-   ]
-  },
-  "SM11": {
-   "place": "himachal-pradesh/viceregal-lodge",
-   "topic": "Opening hours",
-   "claim": "The institute is open to tourists from 9:30 am to 5 pm.",
-   "claimType": "opening_hours",
-   "kind": "verified",
-   "evidence": [
-    {
-     "source": "IIAS_T",
-     "quote": "The Institute remains open for the tourists from 9:30 am to 5:00 pm"
-    }
-   ]
-  },
-  "SM12": {
-   "place": "himachal-pradesh/viceregal-lodge",
-   "topic": "Guided tours",
-   "claim": "Guided tours inside run from about 10:30 am to 4:30 pm, last 30 minutes, and are given in Hindi and English; tickets are first come, first served.",
-   "claimType": "schedule",
-   "kind": "verified",
-   "evidence": [
-    {
-     "source": "IIAS_T",
-     "quote": "The first tour usually begins around 10:30 AM and the last tour at 4:30 PM."
+  "cluster": "shimla",
+  "title": "Shimla",
+  "researchedAt": "2026-11-18",
+  "selection": "Batch 1 (most-visited thin destinations). Shimla had 5 sections and no attractions, itineraries or local guidance. Sources: Himachal Tourism's Shimla page (government), the IIAS 'For Tourists' page for Viceregal Lodge hours and tours, and Wikipedia for the Kalka–Shimla line and city geography. Not found in any official source: Viceregal Lodge ticket prices, Jakhoo ropeway fares and hours, toy-train timetables — left unconfirmed or omitted. Existing approved Shimla sections (overview, best time, how to reach, things to do, key facts) are not touched.",
+  "sources": {
+    "HPT_SHI": {
+      "url": "https://himachaltourism.gov.in/destination/shimla/",
+      "title": "Shimla — Himachal Tourism Official Website",
+      "authority": "government"
     },
-    {
-     "source": "IIAS_T",
-     "quote": "Duration of the guided tour is 30 minutes."
+    "IIAS_T": {
+      "url": "https://iias.ac.in/for-tourists/",
+      "title": "For Tourists — Indian Institute of Advanced Study, Shimla",
+      "authority": "government"
     },
-    {
-     "source": "IIAS_T",
-     "quote": "All tours are conducted in both the languages – Hindi and English."
+    "W_SHI": {
+      "url": "https://en.wikipedia.org/wiki/Shimla",
+      "title": "Shimla — Wikipedia",
+      "authority": "reference"
     },
-    {
-     "source": "IIAS_T",
-     "quote": "will be issued on a first come first serve basis."
+    "W_KSR": {
+      "url": "https://en.wikipedia.org/wiki/Kalka%E2%80%93Shimla_railway",
+      "title": "Kalka–Shimla railway — Wikipedia",
+      "authority": "reference"
     }
-   ]
   },
-  "SM13": {
-   "place": "himachal-pradesh/viceregal-lodge",
-   "topic": "Location and access",
-   "claim": "The building is at the western end of the Ridge, 3.5 km from the main square, with a climb of nearly 300 m from the main gate.",
-   "claimType": "distance",
-   "kind": "verified",
-   "evidence": [
-    {
-     "source": "IIAS_T",
-     "quote": "The building is located at the Western end of the ridge, Shimla that is 3.5 kilometers from the main square."
-    }
-   ]
-  },
-  "SM14": {
-   "place": "himachal-pradesh/viceregal-lodge",
-   "topic": "Vehicles and golf carts",
-   "claim": "Vehicles can drive up for a Rs 10 fee per round but cannot park at the building; battery golf carts run between the main gate and the ticket booth.",
-   "claimType": "price",
-   "kind": "verified",
-   "evidence": [
-    {
-     "source": "IIAS_T",
-     "quote": "by paying a nominal fee of Rs. 10/- per vehicle per round."
+  "facts": {
+    "SM1": {
+      "place": "himachal-pradesh/shimla",
+      "topic": "Parking in Shimla",
+      "claim": "Main parking areas are at ISBT Shimla, Tutikandi crossing, Lift Parking, the railway station, the Old Bus Stand, Chhota Shimla and Sanjauli.",
+      "claimType": "general",
+      "kind": "verified",
+      "evidence": [
+        {
+          "source": "HPT_SHI",
+          "quote": "ISBT Shimla, Tutikandi crossing, Lift Parking, Railway Station, Old Bus stand parking, Chhota Shimla Parking, Sanjauli Parking."
+        }
+      ]
     },
-    {
-     "source": "IIAS_T",
-     "quote": "has introduced an eco-friendly Golf Cart Facility for tourists."
-    }
-   ]
-  },
-  "SM15": {
-   "place": "himachal-pradesh/viceregal-lodge",
-   "topic": "History",
-   "claim": "The Shimla Conference of 1945 and the Cabinet Mission of 1946 met in the building.",
-   "claimType": "general",
-   "kind": "verified",
-   "evidence": [
-    {
-     "source": "IIAS_T",
-     "quote": "Shimla Conference in 1945 and Shimla Cabinet Mission in 1946 were the landmark meetings held in this house."
-    }
-   ]
-  },
-  "SM16": {
-   "place": "himachal-pradesh/jakhoo-temple",
-   "topic": "Jakhoo Hill and temple",
-   "claim": "Jakhoo Hill (2,445 m) is Shimla's highest point and home to a Hanuman temple, a steep half-hour climb from the Ridge or a ropeway ride.",
-   "claimType": "general",
-   "kind": "verified",
-   "evidence": [
-    {
-     "source": "HPT_SHI",
-     "quote": "Overlooking the hill station at 2,445 meters altitude, Jakhoo Hill is Shimla city’s acme and home to Lord Hanuman. The daunting half-an-hour uphill climb from The Ridge finally ends at Jakhoo Temple. Ropeway service to Jakhoo temple is also available."
-    }
-   ]
-  },
-  "SM17": {
-   "place": "himachal-pradesh/tara-devi-temple",
-   "topic": "Reaching Tara Devi",
-   "claim": "Tara Devi temple is reached by a winding road up from the highway at Shoghi, or on foot from Tara Devi railway station.",
-   "claimType": "general",
-   "kind": "verified",
-   "evidence": [
-    {
-     "source": "HPT_SHI",
-     "quote": "A curling uphill drive from the highway at Shoghi takes you to this temple that houses goddess Tara Devi. In addition one can visit Tara Devi Temple through a trek starting from Tara Devi station."
-    }
-   ]
-  },
-  "SM18": {
-   "place": "himachal-pradesh/tara-devi-temple",
-   "topic": "Tara Devi views and langar",
-   "claim": "The wood-and-stone temple has 360-degree views and serves a free community lunch on auspicious days.",
-   "claimType": "general",
-   "kind": "verified",
-   "evidence": [
-    {
-     "source": "HPT_SHI",
-     "quote": "The 360 degree panoramic views from here are a commanding sight. On auspicious days, the temple offers a free community lunch hosted by devotees."
-    }
-   ]
-  },
-  "SM19": {
-   "place": "himachal-pradesh/kufri",
-   "topic": "Himalayan Nature Park, Kufri",
-   "claim": "The Himalayan Nature Park at Kufri, 16 km from Shimla, has more than 180 species of Himalayan birds and animals.",
-   "claimType": "distance",
-   "kind": "verified",
-   "evidence": [
-    {
-     "source": "HPT_SHI",
-     "quote": "Home to more than 180 species of birds and animals, this nature park is a reflection of the wildlife found in the Himalayas. The nature park at kufri is 16 Km from Shimla."
-    }
-   ]
-  },
-  "SM20": {
-   "place": "himachal-pradesh/kufri",
-   "topic": "Kufri Fun World",
-   "claim": "Fun World at Kufri (2,800 m), 18 km from Shimla on the Shimla–Fagu road, claims the highest go-kart track.",
-   "claimType": "distance",
-   "kind": "verified",
-   "evidence": [
-    {
-     "source": "HPT_SHI",
-     "quote": "At an altitude of 2,800 meters, Fun World in Kufri takes pride in having the highest go-kart track"
+    "SM2": {
+      "place": "himachal-pradesh/shimla",
+      "topic": "Taxis",
+      "claim": "Taxis are available on demand in the city.",
+      "claimType": "general",
+      "kind": "verified",
+      "evidence": [
+        {
+          "source": "HPT_SHI",
+          "quote": "Taxi services in the city is available on demand."
+        }
+      ]
     },
-    {
-     "source": "HPT_SHI",
-     "quote": "Kufri Fun World is adjacent to the NH 05 on Shimla-Fagu road at a distance of just 18 km from the main city."
-    }
-   ]
-  },
-  "SM21": {
-   "place": "himachal-pradesh/kufri",
-   "topic": "Kufri skiing",
-   "claim": "Kufri is a winter-only ski area 19 km from Shimla.",
-   "claimType": "distance",
-   "kind": "seasonal",
-   "evidence": [
-    {
-     "source": "W_SHI",
-     "quote": "Kufri is a ski resort (winter only) located 19 kilometres (11.8 mi) from the main city."
-    }
-   ]
-  },
-  "SM22": {
-   "place": "himachal-pradesh/naldehra",
-   "topic": "Naldehra",
-   "claim": "Naldehra is a meadow ringed by deodar forest with an 18-hole golf course, 23 km from Shimla; Lord Curzon named his daughter after it.",
-   "claimType": "distance",
-   "kind": "verified",
-   "evidence": [
-    {
-     "source": "HPT_SHI",
-     "quote": "Lord Curzon, the viceroy of India from 1898 to 1905, even named his daughter Naldehra after this scenic spot. The place has a 18-hole golf course."
+    "SM3": {
+      "place": "himachal-pradesh/shimla",
+      "topic": "Buses within Himachal",
+      "claim": "Public and private buses link Shimla with Kullu-Manali, Dharamshala and other towns in the state.",
+      "claimType": "general",
+      "kind": "verified",
+      "evidence": [
+        {
+          "source": "HPT_SHI",
+          "quote": "Within the state, private and public transport services are available for Kullu-Manali, Dharamshala and all other small and big towns of the state."
+        }
+      ]
     },
-    {
-     "source": "HPT_SHI",
-     "quote": "From the city Naldehra is 23 kms away."
-    }
-   ]
-  },
-  "SM23": {
-   "place": "himachal-pradesh/naldehra",
-   "topic": "Getting to Naldehra",
-   "claim": "Frequent local buses run to Naldehra, and taxis can be hired.",
-   "claimType": "general",
-   "kind": "verified",
-   "evidence": [
-    {
-     "source": "HPT_SHI",
-     "quote": "There is a frequent local bus service to Naldehra and taxis can also be hired."
-    }
-   ]
-  },
-  "SM24": {
-   "place": "himachal-pradesh/shimla",
-   "topic": "Indian Coffee House",
-   "claim": "The Indian Coffee House near Scandal Point on the Mall is a long-standing café known for South Indian food and filter coffee.",
-   "claimType": "general",
-   "kind": "verified",
-   "evidence": [
-    {
-     "source": "HPT_SHI",
-     "quote": "A stone throw from Scandal Point on The Mall Road, the Indian Coffee House is a much frequented eatery that has been patronized by many political leaders, writers and artists."
-    }
-   ]
-  },
-  "SM25": {
-   "place": "himachal-pradesh/shimla",
-   "topic": "Where to eat",
-   "claim": "Most restaurants and eateries are along the Mall Road.",
-   "claimType": "general",
-   "kind": "verified",
-   "evidence": [
-    {
-     "source": "HPT_SHI",
-     "quote": "Most of the restaurants, eateries and food joints are located along the Mall Road."
-    }
-   ]
-  },
-  "SM26": {
-   "place": "himachal-pradesh/shimla",
-   "topic": "Hospital",
-   "claim": "Indira Gandhi Medical Hospital, the state's main hospital, is within walking distance of the Mall.",
-   "claimType": "contact",
-   "kind": "verified",
-   "evidence": [
-    {
-     "source": "HPT_SHI",
-     "quote": "Indira Gandhi Medical Hospital provides state-of-the-art healthcare services and is only a walking distance from The Mall Road."
-    }
-   ]
-  },
-  "SM27": {
-   "place": "himachal-pradesh/shimla",
-   "topic": "Connectivity",
-   "claim": "Internet and phone coverage is good in Shimla but can lag in higher, remote areas.",
-   "claimType": "general",
-   "kind": "verified",
-   "evidence": [
-    {
-     "source": "HPT_SHI",
-     "quote": "Shimla being the state capital has good internet and telephone connectivity. In the higher and remote locations the networks may suffer some lag."
-    }
-   ]
-  },
-  "SM28": {
-   "place": "himachal-pradesh/shimla",
-   "topic": "Languages",
-   "claim": "A sizeable minority speaks Punjabi, and several Pahari dialects are spoken locally.",
-   "claimType": "general",
-   "kind": "verified",
-   "evidence": [
-    {
-     "source": "HPT_SHI",
-     "quote": "A sizeable minority does speak Punjabi. In addition to these several native dialects of Pahari language are also spoken by the residents of the area."
-    }
-   ]
-  },
-  "SM29": {
-   "place": "himachal-pradesh/shimla",
-   "topic": "Seasons",
-   "claim": "Shimla is visited all year: December–February for snow, April–June for cool weather, with mist in the July–August rains.",
-   "claimType": "general",
-   "kind": "seasonal",
-   "evidence": [
-    {
-     "source": "HPT_SHI",
-     "quote": "The hill station is a year round destination with many visiting the place in winters from December-February to experience magical snowfalls and in summer from April to June for its cool climes."
+    "SM4": {
+      "place": "himachal-pradesh/shimla",
+      "topic": "Train via Kalka",
+      "claim": "Regular trains run between Delhi and Kalka, where you change to the Kalka–Shimla mountain railway.",
+      "claimType": "general",
+      "kind": "verified",
+      "evidence": [
+        {
+          "source": "HPT_SHI",
+          "quote": "Regular trains ply between Delhi and Kalka from where you can board the Kalka-Shimla train on this UNESCO heritage mountain rail track."
+        }
+      ]
     },
-    {
-     "source": "HPT_SHI",
-     "quote": "The rising of curling mists during the rainy season of July and August give the hills a very romantic setting."
-    }
-   ]
-  },
-  "SM30": {
-   "place": "himachal-pradesh/shimla",
-   "topic": "Snowfall timing",
-   "claim": "Snowfall, once mainly in December, now tends to come in January or early February.",
-   "claimType": "general",
-   "kind": "seasonal",
-   "evidence": [
-    {
-     "source": "W_SHI",
-     "quote": "Snowfall in the region, which historically has taken place in December, has lately (over the last fifteen years) been happening in January or early February every year."
-    }
-   ]
-  },
-  "SM31": {
-   "place": "himachal-pradesh/shimla",
-   "topic": "Craignano Nature Park",
-   "claim": "Craignano Nature Park, 16 km away off the Shimla–Naldehra road, has a tulip garden that blooms around March–April.",
-   "claimType": "distance",
-   "kind": "verified",
-   "evidence": [
-    {
-     "source": "HPT_SHI",
-     "quote": "The quiet get away prides in having a tulip garden which in bloom around March-April turns the place blissful."
+    "SM5": {
+      "place": "himachal-pradesh/shimla",
+      "topic": "Airport shuttle",
+      "claim": "HRTC runs an Aero Connect tempo-traveller service to and from Jubbarhatti airport.",
+      "claimType": "general",
+      "kind": "verified",
+      "evidence": [
+        {
+          "source": "HPT_SHI",
+          "quote": "AERO CONNECT Tempo Traveller Service to and from Jubbarhatti Airport, Shimla."
+        }
+      ]
     },
-    {
-     "source": "HPT_SHI",
-     "quote": "The nature park at a distance of 16 Km from the city is on a diversion road for Mashobra from the Shimla-Naldehra road."
-    }
-   ]
-  },
-  "SM32": {
-   "place": "himachal-pradesh/shimla",
-   "topic": "Hatu Peak",
-   "claim": "Hatu Peak (3,400 m) is reached via Narkanda, 64 km from Shimla, then by taxi or an 8 km forest trek.",
-   "claimType": "distance",
-   "kind": "verified",
-   "evidence": [
-    {
-     "source": "HPT_SHI",
-     "quote": "Towering over Sutlej valley, Hatu Peak at 3400 meters altitude is one of the highest peaks among the hills near Shimla."
+    "SM6": {
+      "place": "himachal-pradesh/shimla",
+      "topic": "Helicopter flights",
+      "claim": "RCS–UDAN helicopter flights connect Chandigarh–Shimla, Shimla–Kullu and Shimla–Reckong Peo.",
+      "claimType": "schedule",
+      "kind": "verified",
+      "evidence": [
+        {
+          "source": "HPT_SHI",
+          "quote": "RCS–UDAN Helicopter Flights are Now Available: For Chandigarh–Shimla–Chandigarh flight booking"
+        }
+      ]
     },
-    {
-     "source": "HPT_SHI",
-     "quote": "To reach Hatu, one has to do a road journey to Narkanda, a distance of 64 km from Shimla. From Narkanda one needs to take a taxi or do a 8 km trek through forest country to the mountain top destination."
-    }
-   ]
-  },
-  "SM33": {
-   "place": "himachal-pradesh/shimla",
-   "topic": "River and cliff safety",
-   "claim": "Himachal Tourism warns visitors not to stand at cliff edges or on boulders by rivers for photos, as currents are strong and deceptive.",
-   "claimType": "rule",
-   "kind": "verified",
-   "evidence": [
-    {
-     "source": "HPT_SHI",
-     "quote": "Do not stand at the edge of a cliff or on any bolder near a river bank for photographs etc. The water current in rivers of Himachal Pradesh is very strong and highly deceptive."
-    }
-   ]
-  },
-  "SM34": {
-   "place": "himachal-pradesh/ridge-and-mall",
-   "topic": "Lakkar Bazaar",
-   "claim": "Lakkar Bazaar, off the Ridge, sells wooden crafts and souvenirs.",
-   "claimType": "general",
-   "kind": "verified",
-   "evidence": [
-    {
-     "source": "W_SHI",
-     "quote": "Lakkar Bazaar, a market extending off the Ridge, sells souvenirs and crafts made of wood."
-    }
-   ]
-  },
-  "SM35": {
-   "place": "himachal-pradesh/shimla",
-   "topic": "Sanjauli",
-   "claim": "Sanjauli is Shimla's main suburb.",
-   "claimType": "general",
-   "kind": "verified",
-   "evidence": [
-    {
-     "source": "W_SHI",
-     "quote": "Sanjauli is the main suburb of Shimla."
-    }
-   ]
-  },
-  "SM36": {
-   "place": "himachal-pradesh/kalka-shimla-toy-train",
-   "topic": "Toy train speed",
-   "claim": "The toy train averages 25–30 km/h; trains and the railcar have vistadome coaches.",
-   "claimType": "general",
-   "kind": "verified",
-   "evidence": [
-    {
-     "source": "W_KSR",
-     "quote": "The train has an average speed of 25–30 km/h"
+    "SM7": {
+      "place": "himachal-pradesh/ridge-and-mall",
+      "topic": "The Ridge",
+      "claim": "The Ridge is the open space alongside the Mall and the town's cultural hub, with views of snow peaks to the north on clear days.",
+      "claimType": "general",
+      "kind": "verified",
+      "evidence": [
+        {
+          "source": "HPT_SHI",
+          "quote": "The large open space that runs east to west alongside The Mall Road is the cultural hub of the city. On a clear day or after a light rain, the views of snow peaks of Himalayan ranges to the north are spectacular."
+        }
+      ]
     },
-    {
-     "source": "W_KSR",
-     "quote": "Both the train and railcar are equipped with vistadomes."
+    "SM8": {
+      "place": "himachal-pradesh/ridge-and-mall",
+      "topic": "The Mall and Scandal Point",
+      "claim": "Himachal Emporium at the west end of the Mall sells local handicrafts and handloom; Scandal Point is where the Ridge and the Mall meet.",
+      "claimType": "general",
+      "kind": "verified",
+      "evidence": [
+        {
+          "source": "HPT_SHI",
+          "quote": "Himachal Emporium at the west end of the arcade sells locally made handicrafts and handloom products. Scandal Point, the place where The Ridge and The Mall converge, is a good place to catch up with the day’s news and gossip."
+        }
+      ]
+    },
+    "SM9": {
+      "place": "himachal-pradesh/viceregal-lodge",
+      "topic": "Viceregal Lodge building",
+      "claim": "Completed in 1888 to Henry Irwin's design, the Viceregal Lodge looks like a Scottish castle and was one of India's first buildings with electricity.",
+      "claimType": "general",
+      "kind": "verified",
+      "evidence": [
+        {
+          "source": "HPT_SHI",
+          "quote": "When completed in 1888, the Viceregal Lodge was one of the most flamboyant and one of first electric buildings of India. Build by architect Henry Irwin, the overall appearance of the imposing structure is that of a Scottish castle."
+        }
+      ]
+    },
+    "SM10": {
+      "place": "himachal-pradesh/viceregal-lodge",
+      "topic": "Partition table",
+      "claim": "One room still keeps the table at which the boundaries of Pakistan were drawn.",
+      "claimType": "general",
+      "kind": "verified",
+      "evidence": [
+        {
+          "source": "HPT_SHI",
+          "quote": "one room still retains the table where the boundaries of Pakistan was cut out from India."
+        }
+      ]
+    },
+    "SM11": {
+      "place": "himachal-pradesh/viceregal-lodge",
+      "topic": "Opening hours",
+      "claim": "The institute is open to tourists from 9:30 am to 5 pm.",
+      "claimType": "opening_hours",
+      "kind": "verified",
+      "evidence": [
+        {
+          "source": "IIAS_T",
+          "quote": "The Institute remains open for the tourists from 9:30 am to 5:00 pm"
+        }
+      ]
+    },
+    "SM12": {
+      "place": "himachal-pradesh/viceregal-lodge",
+      "topic": "Guided tours",
+      "claim": "Guided tours inside run from about 10:30 am to 4:30 pm, last 30 minutes, and are given in Hindi and English; tickets are first come, first served.",
+      "claimType": "schedule",
+      "kind": "verified",
+      "evidence": [
+        {
+          "source": "IIAS_T",
+          "quote": "The first tour usually begins around 10:30 AM and the last tour at 4:30 PM."
+        },
+        {
+          "source": "IIAS_T",
+          "quote": "Duration of the guided tour is 30 minutes."
+        },
+        {
+          "source": "IIAS_T",
+          "quote": "All tours are conducted in both the languages – Hindi and English."
+        },
+        {
+          "source": "IIAS_T",
+          "quote": "will be issued on a first come first serve basis."
+        }
+      ]
+    },
+    "SM13": {
+      "place": "himachal-pradesh/viceregal-lodge",
+      "topic": "Location and access",
+      "claim": "The building is at the western end of the Ridge, 3.5 km from the main square, with a climb of nearly 300 m from the main gate.",
+      "claimType": "distance",
+      "kind": "verified",
+      "evidence": [
+        {
+          "source": "IIAS_T",
+          "quote": "The building is located at the Western end of the ridge, Shimla that is 3.5 kilometers from the main square."
+        }
+      ]
+    },
+    "SM14": {
+      "place": "himachal-pradesh/viceregal-lodge",
+      "topic": "Vehicles and golf carts",
+      "claim": "Vehicles can drive up for a Rs 10 fee per round but cannot park at the building; battery golf carts run between the main gate and the ticket booth.",
+      "claimType": "price",
+      "kind": "verified",
+      "evidence": [
+        {
+          "source": "IIAS_T",
+          "quote": "by paying a nominal fee of Rs. 10/- per vehicle per round."
+        },
+        {
+          "source": "IIAS_T",
+          "quote": "has introduced an eco-friendly Golf Cart Facility for tourists."
+        }
+      ]
+    },
+    "SM15": {
+      "place": "himachal-pradesh/viceregal-lodge",
+      "topic": "History",
+      "claim": "The Shimla Conference of 1945 and the Cabinet Mission of 1946 met in the building.",
+      "claimType": "general",
+      "kind": "verified",
+      "evidence": [
+        {
+          "source": "IIAS_T",
+          "quote": "Shimla Conference in 1945 and Shimla Cabinet Mission in 1946 were the landmark meetings held in this house."
+        }
+      ]
+    },
+    "SM16": {
+      "place": "himachal-pradesh/jakhoo-temple",
+      "topic": "Jakhoo Hill and temple",
+      "claim": "Jakhoo Hill (2,445 m) is Shimla's highest point and home to a Hanuman temple, a steep half-hour climb from the Ridge or a ropeway ride.",
+      "claimType": "general",
+      "kind": "verified",
+      "evidence": [
+        {
+          "source": "HPT_SHI",
+          "quote": "Overlooking the hill station at 2,445 meters altitude, Jakhoo Hill is Shimla city’s acme and home to Lord Hanuman. The daunting half-an-hour uphill climb from The Ridge finally ends at Jakhoo Temple. Ropeway service to Jakhoo temple is also available."
+        }
+      ]
+    },
+    "SM17": {
+      "place": "himachal-pradesh/tara-devi-temple",
+      "topic": "Reaching Tara Devi",
+      "claim": "Tara Devi temple is reached by a winding road up from the highway at Shoghi, or on foot from Tara Devi railway station.",
+      "claimType": "general",
+      "kind": "verified",
+      "evidence": [
+        {
+          "source": "HPT_SHI",
+          "quote": "A curling uphill drive from the highway at Shoghi takes you to this temple that houses goddess Tara Devi. In addition one can visit Tara Devi Temple through a trek starting from Tara Devi station."
+        }
+      ]
+    },
+    "SM18": {
+      "place": "himachal-pradesh/tara-devi-temple",
+      "topic": "Tara Devi views and langar",
+      "claim": "The wood-and-stone temple has 360-degree views and serves a free community lunch on auspicious days.",
+      "claimType": "general",
+      "kind": "verified",
+      "evidence": [
+        {
+          "source": "HPT_SHI",
+          "quote": "The 360 degree panoramic views from here are a commanding sight. On auspicious days, the temple offers a free community lunch hosted by devotees."
+        }
+      ]
+    },
+    "SM19": {
+      "place": "himachal-pradesh/kufri",
+      "topic": "Himalayan Nature Park, Kufri",
+      "claim": "The Himalayan Nature Park at Kufri, 16 km from Shimla, has more than 180 species of Himalayan birds and animals.",
+      "claimType": "distance",
+      "kind": "verified",
+      "evidence": [
+        {
+          "source": "HPT_SHI",
+          "quote": "Home to more than 180 species of birds and animals, this nature park is a reflection of the wildlife found in the Himalayas. The nature park at kufri is 16 Km from Shimla."
+        }
+      ]
+    },
+    "SM20": {
+      "place": "himachal-pradesh/kufri",
+      "topic": "Kufri Fun World",
+      "claim": "Fun World at Kufri (2,800 m), 18 km from Shimla on the Shimla–Fagu road, claims the highest go-kart track.",
+      "claimType": "distance",
+      "kind": "verified",
+      "evidence": [
+        {
+          "source": "HPT_SHI",
+          "quote": "At an altitude of 2,800 meters, Fun World in Kufri takes pride in having the highest go-kart track"
+        },
+        {
+          "source": "HPT_SHI",
+          "quote": "Kufri Fun World is adjacent to the NH 05 on Shimla-Fagu road at a distance of just 18 km from the main city."
+        }
+      ]
+    },
+    "SM21": {
+      "place": "himachal-pradesh/kufri",
+      "topic": "Kufri skiing",
+      "claim": "Kufri is a winter-only ski area 19 km from Shimla.",
+      "claimType": "distance",
+      "kind": "seasonal",
+      "evidence": [
+        {
+          "source": "W_SHI",
+          "quote": "Kufri is a ski resort (winter only) located 19 kilometres (11.8 mi) from the main city."
+        }
+      ]
+    },
+    "SM22": {
+      "place": "himachal-pradesh/naldehra",
+      "topic": "Naldehra",
+      "claim": "Naldehra is a meadow ringed by deodar forest with an 18-hole golf course, 23 km from Shimla; Lord Curzon named his daughter after it.",
+      "claimType": "distance",
+      "kind": "verified",
+      "evidence": [
+        {
+          "source": "HPT_SHI",
+          "quote": "Lord Curzon, the viceroy of India from 1898 to 1905, even named his daughter Naldehra after this scenic spot. The place has a 18-hole golf course."
+        },
+        {
+          "source": "HPT_SHI",
+          "quote": "From the city Naldehra is 23 kms away."
+        }
+      ]
+    },
+    "SM23": {
+      "place": "himachal-pradesh/naldehra",
+      "topic": "Getting to Naldehra",
+      "claim": "Frequent local buses run to Naldehra, and taxis can be hired.",
+      "claimType": "general",
+      "kind": "verified",
+      "evidence": [
+        {
+          "source": "HPT_SHI",
+          "quote": "There is a frequent local bus service to Naldehra and taxis can also be hired."
+        }
+      ]
+    },
+    "SM24": {
+      "place": "himachal-pradesh/shimla",
+      "topic": "Indian Coffee House",
+      "claim": "The Indian Coffee House near Scandal Point on the Mall is a long-standing café known for South Indian food and filter coffee.",
+      "claimType": "general",
+      "kind": "verified",
+      "evidence": [
+        {
+          "source": "HPT_SHI",
+          "quote": "A stone throw from Scandal Point on The Mall Road, the Indian Coffee House is a much frequented eatery that has been patronized by many political leaders, writers and artists."
+        }
+      ]
+    },
+    "SM25": {
+      "place": "himachal-pradesh/shimla",
+      "topic": "Where to eat",
+      "claim": "Most restaurants and eateries are along the Mall Road.",
+      "claimType": "general",
+      "kind": "verified",
+      "evidence": [
+        {
+          "source": "HPT_SHI",
+          "quote": "Most of the restaurants, eateries and food joints are located along the Mall Road."
+        }
+      ]
+    },
+    "SM26": {
+      "place": "himachal-pradesh/shimla",
+      "topic": "Hospital",
+      "claim": "Indira Gandhi Medical Hospital, the state's main hospital, is within walking distance of the Mall.",
+      "claimType": "contact",
+      "kind": "verified",
+      "evidence": [
+        {
+          "source": "HPT_SHI",
+          "quote": "Indira Gandhi Medical Hospital provides state-of-the-art healthcare services and is only a walking distance from The Mall Road."
+        }
+      ]
+    },
+    "SM27": {
+      "place": "himachal-pradesh/shimla",
+      "topic": "Connectivity",
+      "claim": "Internet and phone coverage is good in Shimla but can lag in higher, remote areas.",
+      "claimType": "general",
+      "kind": "verified",
+      "evidence": [
+        {
+          "source": "HPT_SHI",
+          "quote": "Shimla being the state capital has good internet and telephone connectivity. In the higher and remote locations the networks may suffer some lag."
+        }
+      ]
+    },
+    "SM28": {
+      "place": "himachal-pradesh/shimla",
+      "topic": "Languages",
+      "claim": "A sizeable minority speaks Punjabi, and several Pahari dialects are spoken locally.",
+      "claimType": "general",
+      "kind": "verified",
+      "evidence": [
+        {
+          "source": "HPT_SHI",
+          "quote": "A sizeable minority does speak Punjabi. In addition to these several native dialects of Pahari language are also spoken by the residents of the area."
+        }
+      ]
+    },
+    "SM29": {
+      "place": "himachal-pradesh/shimla",
+      "topic": "Seasons",
+      "claim": "Shimla is visited all year: December–February for snow, April–June for cool weather, with mist in the July–August rains.",
+      "claimType": "general",
+      "kind": "seasonal",
+      "evidence": [
+        {
+          "source": "HPT_SHI",
+          "quote": "The hill station is a year round destination with many visiting the place in winters from December-February to experience magical snowfalls and in summer from April to June for its cool climes."
+        },
+        {
+          "source": "HPT_SHI",
+          "quote": "The rising of curling mists during the rainy season of July and August give the hills a very romantic setting."
+        }
+      ]
+    },
+    "SM30": {
+      "place": "himachal-pradesh/shimla",
+      "topic": "Snowfall timing",
+      "claim": "Snowfall, once mainly in December, now tends to come in January or early February.",
+      "claimType": "general",
+      "kind": "seasonal",
+      "evidence": [
+        {
+          "source": "W_SHI",
+          "quote": "Snowfall in the region, which historically has taken place in December, has lately (over the last fifteen years) been happening in January or early February every year."
+        }
+      ]
+    },
+    "SM31": {
+      "place": "himachal-pradesh/shimla",
+      "topic": "Craignano Nature Park",
+      "claim": "Craignano Nature Park, 16 km away off the Shimla–Naldehra road, has a tulip garden that blooms around March–April.",
+      "claimType": "distance",
+      "kind": "verified",
+      "evidence": [
+        {
+          "source": "HPT_SHI",
+          "quote": "The quiet get away prides in having a tulip garden which in bloom around March-April turns the place blissful."
+        },
+        {
+          "source": "HPT_SHI",
+          "quote": "The nature park at a distance of 16 Km from the city is on a diversion road for Mashobra from the Shimla-Naldehra road."
+        }
+      ]
+    },
+    "SM32": {
+      "place": "himachal-pradesh/shimla",
+      "topic": "Hatu Peak",
+      "claim": "Hatu Peak (3,400 m) is reached via Narkanda, 64 km from Shimla, then by taxi or an 8 km forest trek.",
+      "claimType": "distance",
+      "kind": "verified",
+      "evidence": [
+        {
+          "source": "HPT_SHI",
+          "quote": "Towering over Sutlej valley, Hatu Peak at 3400 meters altitude is one of the highest peaks among the hills near Shimla."
+        },
+        {
+          "source": "HPT_SHI",
+          "quote": "To reach Hatu, one has to do a road journey to Narkanda, a distance of 64 km from Shimla. From Narkanda one needs to take a taxi or do a 8 km trek through forest country to the mountain top destination."
+        }
+      ]
+    },
+    "SM33": {
+      "place": "himachal-pradesh/shimla",
+      "topic": "River and cliff safety",
+      "claim": "Himachal Tourism warns visitors not to stand at cliff edges or on boulders by rivers for photos, as currents are strong and deceptive.",
+      "claimType": "rule",
+      "kind": "verified",
+      "evidence": [
+        {
+          "source": "HPT_SHI",
+          "quote": "Do not stand at the edge of a cliff or on any bolder near a river bank for photographs etc. The water current in rivers of Himachal Pradesh is very strong and highly deceptive."
+        }
+      ]
+    },
+    "SM34": {
+      "place": "himachal-pradesh/ridge-and-mall",
+      "topic": "Lakkar Bazaar",
+      "claim": "Lakkar Bazaar, off the Ridge, sells wooden crafts and souvenirs.",
+      "claimType": "general",
+      "kind": "verified",
+      "evidence": [
+        {
+          "source": "W_SHI",
+          "quote": "Lakkar Bazaar, a market extending off the Ridge, sells souvenirs and crafts made of wood."
+        }
+      ]
+    },
+    "SM35": {
+      "place": "himachal-pradesh/shimla",
+      "topic": "Sanjauli",
+      "claim": "Sanjauli is Shimla's main suburb.",
+      "claimType": "general",
+      "kind": "verified",
+      "evidence": [
+        {
+          "source": "W_SHI",
+          "quote": "Sanjauli is the main suburb of Shimla."
+        }
+      ]
+    },
+    "SM36": {
+      "place": "himachal-pradesh/kalka-shimla-toy-train",
+      "topic": "Toy train speed",
+      "claim": "The toy train averages 25–30 km/h; trains and the railcar have vistadome coaches.",
+      "claimType": "general",
+      "kind": "verified",
+      "evidence": [
+        {
+          "source": "W_KSR",
+          "quote": "The train has an average speed of 25–30 km/h"
+        },
+        {
+          "source": "W_KSR",
+          "quote": "Both the train and railcar are equipped with vistadomes."
+        }
+      ]
+    },
+    "SM37": {
+      "place": "himachal-pradesh/kalka-shimla-toy-train",
+      "topic": "The line",
+      "claim": "The line has 20 stations, 102 working tunnels, 912 curves and 969 bridges, climbing from 656 m at Kalka to 2,075 m at Shimla.",
+      "claimType": "general",
+      "kind": "verified",
+      "evidence": [
+        {
+          "source": "W_KSR",
+          "quote": "The track has 20 picturesque stations, 103 tunnels (102 currently active), 912 curves, 969 bridges and 3% slope (1:80 gradient)."
+        }
+      ]
+    },
+    "SM38": {
+      "place": "himachal-pradesh/kalka-shimla-toy-train",
+      "topic": "Trains on the line",
+      "claim": "Services include the Shivalik Deluxe Express (chair cars with meals), the Kalka Shimla Express, the Himalayan Queen and a rail motor car.",
+      "claimType": "schedule",
+      "kind": "verified",
+      "evidence": [
+        {
+          "source": "W_KSR",
+          "quote": "Shivalik Deluxe Express: Ten coaches, with chair cars and meal service."
+        }
+      ]
+    },
+    "SM39": {
+      "place": "himachal-pradesh/kalka-shimla-toy-train",
+      "topic": "UNESCO railway",
+      "claim": "The Kalka–Shimla line, built 1898–1903 with 102 tunnels, is recognised by UNESCO as a World Heritage mountain railway.",
+      "claimType": "general",
+      "kind": "verified",
+      "evidence": [
+        {
+          "source": "HPT_SHI",
+          "quote": "An engineering marvel, the Kalka-Shimla railway line with 102 tunnels constructed between 1898 to 1903 has been recognised by UNESCO as World Heritage mountain railway site."
+        }
+      ]
+    },
+    "SM40": {
+      "place": "himachal-pradesh/shimla-ice-skating",
+      "topic": "Ice-skating season",
+      "claim": "Shimla's open-air rink below the Ridge freezes from November; skating lasts until February, with a carnival around Christmas–New Year.",
+      "claimType": "schedule",
+      "kind": "seasonal",
+      "evidence": [
+        {
+          "source": "HPT_SHI",
+          "quote": "With the onset of winter in November, water begins to freeze at the ice skating ground located at a lower elevation on the northern slope from The Ridge."
+        },
+        {
+          "source": "HPT_SHI",
+          "quote": "The ice skating season lasts upto February and at around the Christmas – New Year festive week, a lively ice skating carnival is held at this open air rink."
+        }
+      ]
+    },
+    "SM41": {
+      "place": "himachal-pradesh/shimla",
+      "topic": "Summer Festival",
+      "claim": "The Summer Festival in May/June has music, dance, flower shows and exhibitions.",
+      "claimType": "schedule",
+      "kind": "seasonal",
+      "evidence": [
+        {
+          "source": "HPT_SHI",
+          "quote": "Summer Festival held in the month of May/June invites tourists and locals to have a jolly good time with dance, music and other activities of interest."
+        }
+      ]
+    },
+    "SM42": {
+      "place": "himachal-pradesh/ridge-and-mall",
+      "topic": "Landmarks on the Ridge",
+      "claim": "Christ Church, the state library, the Gandhi statue, the Gaiety Theatre and the Town Hall stand on the Ridge.",
+      "claimType": "general",
+      "kind": "verified",
+      "evidence": [
+        {
+          "source": "HPT_SHI",
+          "quote": "The neo-gothic towering architecture of the Christ Church, the state library in the vicinity, the statue of Mahatma Gandhi, the slate roofline of Gaiety Theater and the Town Hall are important landmarks on The Ridge."
+        }
+      ]
+    },
+    "SM43": {
+      "place": "himachal-pradesh/shimla",
+      "topic": "Annandale",
+      "claim": "Annandale has a golf course and the Army Heritage Museum.",
+      "claimType": "general",
+      "kind": "verified",
+      "evidence": [
+        {
+          "source": "HPT_SHI",
+          "quote": "there is a golf course and an Army Heritage Museum at Annandale that is worth a visit."
+        }
+      ]
+    },
+    "SM44": {
+      "place": "himachal-pradesh/shimla",
+      "topic": "Chadwick Falls",
+      "claim": "Chadwick Falls, walkable from Summer Hill, are best in the July–September rains.",
+      "claimType": "general",
+      "kind": "seasonal",
+      "evidence": [
+        {
+          "source": "HPT_SHI",
+          "quote": "At a walkable distance from Summer Hill are the Chadwick Falls, best visited during the rainy season that lasts from July to September."
+        }
+      ]
+    },
+    "SM45": {
+      "place": "himachal-pradesh/shimla",
+      "topic": "Sankat Mochan temple",
+      "claim": "Sankat Mochan Hanuman temple, 5 km from the centre, serves a free community lunch on Tuesdays and Sundays.",
+      "claimType": "distance",
+      "kind": "verified",
+      "evidence": [
+        {
+          "source": "HPT_SHI",
+          "quote": "From the city center, the temple is at a distance of 5 kms. On Tuesdays and Sundays, round the year, there is a free community lunch open to all at the temple that is hosted by the devotees."
+        }
+      ]
+    },
+    "SM46": {
+      "place": "himachal-pradesh/shimla",
+      "topic": "Kali Bari",
+      "claim": "Kali Bari temple (1845) is a short walk from the Mall.",
+      "claimType": "general",
+      "kind": "verified",
+      "evidence": [
+        {
+          "source": "HPT_SHI",
+          "quote": "Built by a Bengali brahmin in 1845, Kali Bari temple dedicated to the evil slaying goddess Kali is at a walking distance from The Mall Road."
+        }
+      ]
+    },
+    "SM47": {
+      "place": "himachal-pradesh/shimla",
+      "topic": "Flights",
+      "claim": "There are daily flights from Delhi to Shimla airport at Jubbarhatti, 23 km from the city.",
+      "claimType": "distance",
+      "kind": "verified",
+      "evidence": [
+        {
+          "source": "HPT_SHI",
+          "quote": "There are daily flights from Delhi to Shimla Airport at Jubbarhatti, at a distance of 23 kms from the city."
+        }
+      ]
+    },
+    "SM48": {
+      "place": "himachal-pradesh/shimla",
+      "topic": "Coaches",
+      "claim": "Ordinary and luxury coaches run regularly between Delhi, Chandigarh and Shimla.",
+      "claimType": "general",
+      "kind": "verified",
+      "evidence": [
+        {
+          "source": "HPT_SHI",
+          "quote": "Ordinary and luxury coaches regularly ply between Delhi, Chandigarh and the city."
+        }
+      ]
+    },
+    "SM49": {
+      "place": "himachal-pradesh/shimla",
+      "topic": "Clothing",
+      "claim": "Cotton with light woollens suits April–October; heavy woollens and jackets are needed from November to March.",
+      "claimType": "general",
+      "kind": "seasonal",
+      "evidence": [
+        {
+          "source": "HPT_SHI",
+          "quote": "Bearing a temperate climate, cotton clothes with light woolens are worn from April to October."
+        }
+      ]
+    },
+    "SM50": {
+      "place": "himachal-pradesh/shimla",
+      "topic": "City extent",
+      "claim": "The centre runs from Jakhoo in the north to Annadale in the south, Sanjauli in the east and Chotta Shimla in the west.",
+      "claimType": "general",
+      "kind": "verified",
+      "evidence": [
+        {
+          "source": "W_SHI",
+          "quote": "The city centre's northernmost point is Jakhoo and the southernmost location is Annadale, the easternmost point is Sanjauli and the western point is Chotta Shimla."
+        }
+      ]
+    },
+    "SM51": {
+      "place": "himachal-pradesh/viceregal-lodge",
+      "topic": "Lunch break",
+      "claim": "Tours stop for a lunch break of half an hour between 1 and 2 pm.",
+      "claimType": "schedule",
+      "kind": "verified",
+      "evidence": [
+        {
+          "source": "IIAS_T",
+          "quote": "Lunch break timings will be either from 1 to 1:30 or 1:30 to 2 PM."
+        }
+      ]
     }
-   ]
   },
-  "SM37": {
-   "place": "himachal-pradesh/kalka-shimla-toy-train",
-   "topic": "The line",
-   "claim": "The line has 20 stations, 102 working tunnels, 912 curves and 969 bridges, climbing from 656 m at Kalka to 2,075 m at Shimla.",
-   "claimType": "general",
-   "kind": "verified",
-   "evidence": [
+  "places": [
     {
-     "source": "W_KSR",
-     "quote": "The track has 20 picturesque stations, 103 tunnels (102 currently active), 912 curves, 969 bridges and 3% slope (1:80 gradient)."
-    }
-   ]
-  },
-  "SM38": {
-   "place": "himachal-pradesh/kalka-shimla-toy-train",
-   "topic": "Trains on the line",
-   "claim": "Services include the Shivalik Deluxe Express (chair cars with meals), the Kalka Shimla Express, the Himalayan Queen and a rail motor car.",
-   "claimType": "schedule",
-   "kind": "verified",
-   "evidence": [
-    {
-     "source": "W_KSR",
-     "quote": "Shivalik Deluxe Express: Ten coaches, with chair cars and meal service."
-    }
-   ]
-  },
-  "SM39": {
-   "place": "himachal-pradesh/kalka-shimla-toy-train",
-   "topic": "UNESCO railway",
-   "claim": "The Kalka–Shimla line, built 1898–1903 with 102 tunnels, is recognised by UNESCO as a World Heritage mountain railway.",
-   "claimType": "general",
-   "kind": "verified",
-   "evidence": [
-    {
-     "source": "HPT_SHI",
-     "quote": "An engineering marvel, the Kalka-Shimla railway line with 102 tunnels constructed between 1898 to 1903 has been recognised by UNESCO as World Heritage mountain railway site."
-    }
-   ]
-  },
-  "SM40": {
-   "place": "himachal-pradesh/shimla-ice-skating",
-   "topic": "Ice-skating season",
-   "claim": "Shimla's open-air rink below the Ridge freezes from November; skating lasts until February, with a carnival around Christmas–New Year.",
-   "claimType": "schedule",
-   "kind": "seasonal",
-   "evidence": [
-    {
-     "source": "HPT_SHI",
-     "quote": "With the onset of winter in November, water begins to freeze at the ice skating ground located at a lower elevation on the northern slope from The Ridge."
-    },
-    {
-     "source": "HPT_SHI",
-     "quote": "The ice skating season lasts upto February and at around the Christmas – New Year festive week, a lively ice skating carnival is held at this open air rink."
-    }
-   ]
-  },
-  "SM41": {
-   "place": "himachal-pradesh/shimla",
-   "topic": "Summer Festival",
-   "claim": "The Summer Festival in May/June has music, dance, flower shows and exhibitions.",
-   "claimType": "schedule",
-   "kind": "seasonal",
-   "evidence": [
-    {
-     "source": "HPT_SHI",
-     "quote": "Summer Festival held in the month of May/June invites tourists and locals to have a jolly good time with dance, music and other activities of interest."
-    }
-   ]
-  },
-  "SM42": {
-   "place": "himachal-pradesh/ridge-and-mall",
-   "topic": "Landmarks on the Ridge",
-   "claim": "Christ Church, the state library, the Gandhi statue, the Gaiety Theatre and the Town Hall stand on the Ridge.",
-   "claimType": "general",
-   "kind": "verified",
-   "evidence": [
-    {
-     "source": "HPT_SHI",
-     "quote": "The neo-gothic towering architecture of the Christ Church, the state library in the vicinity, the statue of Mahatma Gandhi, the slate roofline of Gaiety Theater and the Town Hall are important landmarks on The Ridge."
-    }
-   ]
-  },
-  "SM43": {
-   "place": "himachal-pradesh/shimla",
-   "topic": "Annandale",
-   "claim": "Annandale has a golf course and the Army Heritage Museum.",
-   "claimType": "general",
-   "kind": "verified",
-   "evidence": [
-    {
-     "source": "HPT_SHI",
-     "quote": "there is a golf course and an Army Heritage Museum at Annandale that is worth a visit."
-    }
-   ]
-  },
-  "SM44": {
-   "place": "himachal-pradesh/shimla",
-   "topic": "Chadwick Falls",
-   "claim": "Chadwick Falls, walkable from Summer Hill, are best in the July–September rains.",
-   "claimType": "general",
-   "kind": "seasonal",
-   "evidence": [
-    {
-     "source": "HPT_SHI",
-     "quote": "At a walkable distance from Summer Hill are the Chadwick Falls, best visited during the rainy season that lasts from July to September."
-    }
-   ]
-  },
-  "SM45": {
-   "place": "himachal-pradesh/shimla",
-   "topic": "Sankat Mochan temple",
-   "claim": "Sankat Mochan Hanuman temple, 5 km from the centre, serves a free community lunch on Tuesdays and Sundays.",
-   "claimType": "distance",
-   "kind": "verified",
-   "evidence": [
-    {
-     "source": "HPT_SHI",
-     "quote": "From the city center, the temple is at a distance of 5 kms. On Tuesdays and Sundays, round the year, there is a free community lunch open to all at the temple that is hosted by the devotees."
-    }
-   ]
-  },
-  "SM46": {
-   "place": "himachal-pradesh/shimla",
-   "topic": "Kali Bari",
-   "claim": "Kali Bari temple (1845) is a short walk from the Mall.",
-   "claimType": "general",
-   "kind": "verified",
-   "evidence": [
-    {
-     "source": "HPT_SHI",
-     "quote": "Built by a Bengali brahmin in 1845, Kali Bari temple dedicated to the evil slaying goddess Kali is at a walking distance from The Mall Road."
-    }
-   ]
-  },
-  "SM47": {
-   "place": "himachal-pradesh/shimla",
-   "topic": "Flights",
-   "claim": "There are daily flights from Delhi to Shimla airport at Jubbarhatti, 23 km from the city.",
-   "claimType": "distance",
-   "kind": "verified",
-   "evidence": [
-    {
-     "source": "HPT_SHI",
-     "quote": "There are daily flights from Delhi to Shimla Airport at Jubbarhatti, at a distance of 23 kms from the city."
-    }
-   ]
-  },
-  "SM48": {
-   "place": "himachal-pradesh/shimla",
-   "topic": "Coaches",
-   "claim": "Ordinary and luxury coaches run regularly between Delhi, Chandigarh and Shimla.",
-   "claimType": "general",
-   "kind": "verified",
-   "evidence": [
-    {
-     "source": "HPT_SHI",
-     "quote": "Ordinary and luxury coaches regularly ply between Delhi, Chandigarh and the city."
-    }
-   ]
-  },
-  "SM49": {
-   "place": "himachal-pradesh/shimla",
-   "topic": "Clothing",
-   "claim": "Cotton with light woollens suits April–October; heavy woollens and jackets are needed from November to March.",
-   "claimType": "general",
-   "kind": "seasonal",
-   "evidence": [
-    {
-     "source": "HPT_SHI",
-     "quote": "Bearing a temperate climate, cotton clothes with light woolens are worn from April to October."
-    }
-   ]
-  },
-  "SM50": {
-   "place": "himachal-pradesh/shimla",
-   "topic": "City extent",
-   "claim": "The centre runs from Jakhoo in the north to Annadale in the south, Sanjauli in the east and Chotta Shimla in the west.",
-   "claimType": "general",
-   "kind": "verified",
-   "evidence": [
-    {
-     "source": "W_SHI",
-     "quote": "The city centre's northernmost point is Jakhoo and the southernmost location is Annadale, the easternmost point is Sanjauli and the western point is Chotta Shimla."
-    }
-   ]
-  },
-  "SM51": {
-   "place": "himachal-pradesh/viceregal-lodge",
-   "topic": "Lunch break",
-   "claim": "Tours stop for a lunch break of half an hour between 1 and 2 pm.",
-   "claimType": "schedule",
-   "kind": "verified",
-   "evidence": [
-    {
-     "source": "IIAS_T",
-     "quote": "Lunch break timings will be either from 1 to 1:30 or 1:30 to 2 PM."
-    }
-   ]
-  }
- },
- "places": [
-  {
-   "key": "himachal-pradesh/shimla",
-   "kind": "city",
-   "name": "Shimla",
-   "parent": "himachal-pradesh",
-   "summary": "Himachal's capital and the old British summer capital: the Ridge and Mall, the Viceregal Lodge, Jakhoo Hill and the UNESCO-listed Kalka–Shimla toy train.",
-   "seoTitle": "Shimla Travel Guide: Ridge, Mall Road & Toy Train",
-   "seoDescription": "Plan a Shimla trip: the Ridge and Mall, Viceregal Lodge tours, Jakhoo Temple, Kufri and Naldehra, the Kalka–Shimla toy train, where to stay and how to get around.",
-   "lat": 31.1048,
-   "lng": 77.1734,
-   "tripTypes": [
-    "mountains",
-    "family",
-    "heritage"
-   ],
-   "relations": [
-    {
-     "to": "himachal-pradesh/kufri",
-     "type": "day_trip"
-    },
-    {
-     "to": "himachal-pradesh/naldehra",
-     "type": "day_trip"
-    },
-    {
-     "to": "himachal-pradesh/kasauli",
-     "type": "nearby"
-    },
-    {
-     "to": "himachal-pradesh/kinnaur",
-     "type": "nearby"
-    }
-   ],
-   "sections": {
-    "local_transport": {
-     "text": "Central Shimla is built along a ridge, and the Ridge and the Mall are best explored on foot. Taxis are available on demand for longer hops, such as to Jakhoo's ropeway, the Viceregal Lodge (3.5 km from the main square), Tara Devi or Sankat Mochan.\n\nIf you drive, use the public car parks: ISBT Shimla, Tutikandi crossing, Lift Parking, the railway station, the Old Bus Stand, Chhota Shimla and Sanjauli. Then walk into the centre.\n\nFor day trips, local buses run frequently to Naldehra, and buses and taxis go out to Kufri, Mashobra and Narkanda. From Jubbarhatti airport, HRTC runs an Aero Connect tempo-traveller service into town.",
-     "facts": [
-      "SM1",
-      "SM2",
-      "SM13",
-      "SM23",
-      "SM5",
-      "SM3"
-     ]
-    },
-    "neighbourhoods": {
-     "items": [
-      {
-       "title": "The Ridge and the Mall",
-       "body": "The historic centre, with Christ Church, the Gaiety Theatre, Scandal Point and most restaurants. Best for first-time visitors who want to walk everywhere. Kali Bari temple (1845) is a short walk away.",
-       "status": "verified"
-      },
-      {
-       "title": "Lakkar Bazaar and Jakhoo",
-       "body": "Just above the Ridge: wooden-craft shops and the path or ropeway up to Jakhoo Temple.",
-       "status": "verified"
-      },
-      {
-       "title": "Chhota Shimla",
-       "body": "The western end of the centre, with public parking. Quieter but still close to the Mall.",
-       "status": "verified"
-      },
-      {
-       "title": "Sanjauli",
-       "body": "Shimla's main suburb at the eastern end, with its own parking. More local life, a longer walk to the Ridge.",
-       "status": "verified"
-      },
-      {
-       "title": "Summer Hill and Annandale",
-       "body": "Leafy areas to the west and south: Chadwick Falls near Summer Hill; a golf course and the Army Heritage Museum at Annandale.",
-       "status": "verified"
-      }
-     ],
-     "facts": [
-      "SM25",
-      "SM42",
-      "SM34",
-      "SM16",
-      "SM1",
-      "SM35",
-      "SM50",
-      "SM44",
-      "SM43",
-      "SM46"
-     ]
-    },
-    "where_to_stay": {
-     "text": "Stay near the Mall and the Ridge if you want to walk to restaurants, the shops and Jakhoo. It is the most convenient base for a first visit. Remember that the centre is pedestrian, so check how far a hotel is from the nearest road and car park.\n\nChhota Shimla and Sanjauli, at either end of the centre, have their own car parks and suit drivers and longer stays. For quiet among the forests, travellers often choose the outskirts towards Mashobra, Naldehra and Kufri, and drive or bus into town.",
-     "facts": [
-      "SM25",
-      "SM1",
-      "SM35",
-      "SM50"
-     ]
-    },
-    "who_its_for": {
-     "items": [
-      {
-       "title": "Families",
-       "body": "Easy walks on the Ridge, the toy train and Kufri's nature park and go-karts."
-      },
-      {
-       "title": "History lovers",
-       "body": "The Viceregal Lodge, where the 1945 Shimla Conference was held, plus Christ Church and the Gaiety Theatre."
-      },
-      {
-       "title": "Couples",
-       "body": "Mall evenings, Naldehra's meadow and quiet forest walks around Mashobra."
-      },
-      {
-       "title": "First-time visitors to the Himalaya",
-       "body": "Good road, rail and air links, a major hospital in town and good phone coverage."
-      }
-     ],
-     "facts": [
-      "SM19",
-      "SM20",
-      "SM15",
-      "SM42",
-      "SM22",
-      "SM26",
-      "SM27"
-     ]
-    },
-    "food": {
-     "items": [
-      {
-       "body": "Most restaurants and cafés line the Mall Road, so evenings centre on the Mall.",
-       "status": "verified"
-      },
-      {
-       "body": "The Indian Coffee House, steps from Scandal Point, is a Shimla institution for South Indian food and filter coffee.",
-       "status": "verified"
-      },
-      {
-       "body": "Sankat Mochan (Tuesdays and Sundays) and Tara Devi (on auspicious days) serve free community lunches to all visitors.",
-       "status": "verified"
-      }
-     ],
-     "facts": [
-      "SM25",
-      "SM24",
-      "SM45",
-      "SM18"
-     ]
-    },
-    "shopping": {
-     "items": [
-      {
-       "body": "Himachal Emporium, at the west end of the Mall, for local handicrafts and handloom.",
-       "status": "verified"
-      },
-      {
-       "body": "Lakkar Bazaar, off the Ridge, for wooden crafts and souvenirs.",
-       "status": "verified"
-      },
-      {
-       "body": "The Mall for everyday shopping, showrooms and department stores.",
-       "status": "verified"
-      }
-     ],
-     "facts": [
-      "SM8",
-      "SM34"
-     ]
-    },
-    "practical_info": {
-     "items": [
-      {
-       "title": "Clothing",
-       "body": "Cotton with light woollens from April to October. Heavy woollens and a jacket from November to March.",
-       "status": "seasonal"
-      },
-      {
-       "title": "Connectivity",
-       "body": "Good mobile and internet coverage in town, weaker in remote higher areas.",
-       "status": "verified"
-      },
-      {
-       "title": "Languages",
-       "body": "Hindi and Pahari are widely spoken, and many people also speak Punjabi.",
-       "status": "verified"
-      },
-      {
-       "title": "Medical",
-       "body": "Indira Gandhi Medical Hospital is a short walk from the Mall.",
-       "status": "verified"
-      }
-     ],
-     "facts": [
-      "SM49",
-      "SM27",
-      "SM28",
-      "SM26"
-     ]
-    },
-    "safety_health": {
-     "items": [
-      {
-       "title": "Rivers and cliffs",
-       "body": "Don't stand on cliff edges or riverside boulders for photos. Himachal's rivers are fast and deceptive.",
-       "status": "verified"
-      },
-      {
-       "title": "Winter roads",
-       "body": "Snow usually comes in January or early February and can close roads around Kufri and Narkanda. Allow spare time.",
-       "status": "seasonal"
-      },
-      {
-       "title": "Hospital",
-       "body": "Indira Gandhi Medical Hospital is the state's premier hospital, in the city centre.",
-       "status": "verified"
-      }
-     ],
-     "facts": [
-      "SM33",
-      "SM30",
-      "SM26"
-     ]
-    },
-    "travel_tips": {
-     "items": [
-      {
-       "body": "Book Viceregal Lodge tour slots early in the day: tickets are first come, first served and the last tour is around 4:30 pm."
-      },
-      {
-       "body": "Take the ropeway to Jakhoo if the steep 30-minute climb from the Ridge is too much."
-      },
-      {
-       "body": "Ride the toy train at least one way. It is slow (25–30 km/h), so budget most of a day for the full Kalka–Shimla run."
-      },
-      {
-       "body": "Come in March–April for Craignano's tulips, or from November to February for ice skating."
-      },
-      {
-       "body": "For snow, aim for January–early February rather than December."
-      },
-      {
-       "body": "Time a summer trip for Shimla's Summer Festival in May/June: music, dance, flower shows and exhibitions."
-      }
-     ],
-     "facts": [
-      "SM12",
-      "SM16",
-      "SM36",
-      "SM31",
-      "SM40",
-      "SM30",
-      "SM41"
-     ]
-    },
-    "common_mistakes": {
-     "items": [
-      {
-       "body": "Driving into the centre: use the car parks and walk, because the Ridge and the Mall are pedestrian areas."
-      },
-      {
-       "body": "Expecting guaranteed snow in December. Recent snowfall has mostly come in January or early February."
-      },
-      {
-       "body": "Arriving at the Viceregal Lodge late in the afternoon and missing the last guided tour."
-      },
-      {
-       "body": "Trying Kufri, Naldehra and Hatu Peak in one day. Hatu alone is 64 km each way via Narkanda."
-      }
-     ],
-     "facts": [
-      "SM1",
-      "SM30",
-      "SM12",
-      "SM32"
-     ]
-    },
-    "faqs": {
-     "items": [
-      {
-       "title": "How many days do I need in Shimla?",
-       "body": "Two days covers the Ridge, the Mall, Jakhoo and the Viceregal Lodge. A third day adds Kufri, Naldehra or Craignano."
-      },
-      {
-       "title": "How do I get to Shimla by train?",
-       "body": "Take a train from Delhi to Kalka, then the Kalka–Shimla toy train up the UNESCO-listed mountain line."
-      },
-      {
-       "title": "Is there an airport in Shimla?",
-       "body": "Yes. Jubbarhatti airport is 23 km from the city, with daily flights from Delhi and an HRTC shuttle into town. RCS–UDAN helicopter flights also link Shimla with Chandigarh, Kullu and Reckong Peo. Ordinary and luxury coaches run from Delhi and Chandigarh."
-      },
-      {
-       "title": "When does it snow in Shimla?",
-       "body": "Snowfall now mostly comes in January or early February. December–February is the winter season."
-      },
-      {
-       "title": "What are the Viceregal Lodge timings?",
-       "body": "The institute is open to visitors 9:30 am–5 pm. Guided 30-minute tours run from about 10:30 am to 4:30 pm."
-      }
-     ],
-     "facts": [
-      "SM12",
-      "SM11",
-      "SM4",
-      "SM39",
-      "SM47",
-      "SM5",
-      "SM30",
-      "SM29",
-      "SM6",
-      "SM48"
-     ]
-    },
-    "overview": {
-     "text": "Shimla, the capital of Himachal Pradesh, is one of India's best-known hill stations, wrapped in cedar, rhododendron, fir and oak forest. The British turned the small township into the summer capital of their empire, and its colonial core still shows it. The Ridge and the Mall are the town's living centre, lined by Christ Church, the Gaiety Theatre and the Town Hall. The Viceregal Lodge, where the 1945 Shimla Conference and 1946 Cabinet Mission met, is now the Indian Institute of Advanced Study and open for guided tours.\n\nAbove the town, Jakhoo Temple crowns Shimla's highest hill at 2,445 m. The UNESCO-listed Kalka–Shimla railway, with 102 tunnels, is the slow, scenic way up. Kufri, Naldehra, Craignano and Tara Devi make easy half-day trips.\n\nShimla is a year-round destination: snow from December to February, cool summers from April to June, and misty monsoon hills in July and August. It suits families, first-time Himalayan visitors and history lovers.",
-     "facts": [
-      "SM42",
-      "SM9",
-      "SM15",
-      "SM16",
-      "SM39",
-      "SM19",
-      "SM22",
-      "SM31",
-      "SM17",
-      "SM29"
-     ]
-    }
-   },
-   "images": [
-    {
-     "commons": "File:Municipal Corporation Building - Mall Road - Shimla 2014-05-07 1116-1127 Compress.JPG",
-     "alt": "Shimla Municipal Corporation building on the Mall Road and Ridge",
-     "hero": true
-    }
-   ]
-  },
-  {
-   "key": "himachal-pradesh/viceregal-lodge",
-   "kind": "museum",
-   "name": "Viceregal Lodge (Indian Institute of Advanced Study)",
-   "parent": "himachal-pradesh/shimla",
-   "summary": "The 1888 Scottish-baronial seat of British India's summer government, now the Indian Institute of Advanced Study, with guided tours.",
-   "seoTitle": "Viceregal Lodge Shimla: Tour Timings, History & Access",
-   "seoDescription": "Visit Shimla's Viceregal Lodge (IIAS): 9:30 am–5 pm, 30-minute guided tours in Hindi and English, golf carts from the gate, and the history of 1945–47.",
-   "lat": 31.1043,
-   "lng": 77.1418,
-   "tripTypes": [
-    "heritage"
-   ],
-   "images": [
-    {
-     "commons": "File:Rashtrapati Niwas - Shimla - IMG 20160816 145621 HDR-01.jpg",
-     "alt": "The grey stone Viceregal Lodge in Shimla with its lawns under a blue sky",
-     "hero": true
-    }
-   ],
-   "sections": {
-    "overview": {
-     "text": "The Viceregal Lodge was completed in 1888 to Henry Irwin's design. It looks like a Scottish castle and was one of the first buildings in India with electricity. From 1888 to 1947 it was the seat of the imperial government in summer. The Shimla Conference of 1945 and the Cabinet Mission of 1946 met here, and one room still keeps the table at which the boundaries of Pakistan were drawn.\n\nAfter Independence it became a presidential residence. Since 1965 it has housed the Indian Institute of Advanced Study, and parts of the building are open to visitors on guided tours.",
-     "facts": [
-      "SM9",
-      "SM15",
-      "SM10"
-     ]
-    },
-    "visit_info": {
-     "items": [
-      {
-       "title": "Hours",
-       "body": "Open to tourists 9:30 am–5 pm.",
-       "status": "verified"
-      },
-      {
-       "title": "Guided tours",
-       "body": "30-minute tours from about 10:30 am to 4:30 pm, in Hindi and English. Tickets by slot, first come, first served. A missed slot is not moved to the next tour.",
-       "status": "verified"
-      },
-      {
-       "title": "Lunch break",
-       "body": "Tours pause for half an hour between 1 and 2 pm.",
-       "status": "verified"
-      },
-      {
-       "title": "Entry fee",
-       "body": "Ticket prices aren't listed on the institute's site. Check at the ticket booth.",
-       "status": "unconfirmed"
-      },
-      {
-       "title": "Official site",
-       "body": "iias.ac.in/for-tourists",
-       "status": "verified"
-      }
-     ],
-     "facts": [
-      "SM11",
-      "SM12",
-      "SM51"
-     ]
-    },
-    "how_to_reach": {
-     "text": "The lodge is on Observatory Hill at the western end of the Ridge, 3.5 km from the main square: a long walk or a short taxi ride. From the main gate it is a gradual climb of nearly 300 m to the building. Cars may drive up to drop visitors for a Rs 10 fee per round, but must return to the main car park.",
-     "facts": [
-      "SM13",
-      "SM14"
-     ]
-    },
-    "accessibility": {
-     "items": [
-      {
-       "title": "Golf carts",
-       "body": "Battery golf carts run between the main gate and the ticket booth, for older visitors, families and anyone who finds the climb hard.",
-       "status": "verified"
-      },
-      {
-       "title": "Terrain",
-       "body": "A gradual uphill walk of about 300 m from the gate.",
-       "status": "verified"
-      }
-     ],
-     "facts": [
-      "SM14",
-      "SM13"
-     ]
-    }
-   }
-  },
-  {
-   "key": "himachal-pradesh/jakhoo-temple",
-   "kind": "temple",
-   "name": "Jakhoo Temple",
-   "parent": "himachal-pradesh/shimla",
-   "summary": "Hanuman temple on Jakhoo Hill, Shimla's highest point at 2,445 m, reached by a steep walk from the Ridge or by ropeway.",
-   "seoTitle": "Jakhoo Temple Shimla: Climb, Ropeway & Views",
-   "seoDescription": "Jakhoo Temple sits on Shimla's highest hill at 2,445 m. How to get there from the Ridge on foot or by ropeway, and what to expect at the top.",
-   "lat": 31.1016,
-   "lng": 77.1846,
-   "tripTypes": [
-    "spiritual"
-   ],
-   "images": [
-    {
-     "commons": "File:Jakhoo temple,shimla.jpg",
-     "alt": "Red-roofed Jakhoo Temple among deodar trees on Jakhoo Hill, Shimla",
-     "hero": true
-    }
-   ],
-   "sections": {
-    "overview": {
-     "text": "Jakhoo Hill overlooks Shimla at 2,445 m, the highest point in the city, and is home to a temple to Lord Hanuman. It marks the northern end of central Shimla and is visible from much of the town.\n\nThe climb up from the Ridge is short but steep: about half an hour on foot, through deodar forest. A ropeway also runs to the temple for anyone who prefers to ride. Most visitors combine it with a walk on the Ridge and in Lakkar Bazaar, which lies on the way up. Go early in the morning or late afternoon for softer light over the town and the snow peaks to the north.",
-     "facts": [
-      "SM16",
-      "SM50",
-      "SM34"
-     ]
-    },
-    "how_to_reach": {
-     "text": "Walk up from the Ridge, a steep climb of about 30 minutes, or take the ropeway to the temple. Lakkar Bazaar is on the way from the Ridge.",
-     "facts": [
-      "SM16",
-      "SM34"
-     ]
-    }
-   }
-  },
-  {
-   "key": "himachal-pradesh/ridge-and-mall",
-   "kind": "attraction",
-   "name": "The Ridge and Mall Road",
-   "parent": "himachal-pradesh/shimla",
-   "summary": "Shimla's pedestrian heart: the open Ridge with Christ Church and Himalayan views, and the Mall below it with shops, cafés and Scandal Point.",
-   "seoTitle": "The Ridge & Mall Road, Shimla: What to See",
-   "seoDescription": "Walk Shimla's Ridge and Mall Road: Christ Church, Gaiety Theatre, Scandal Point, Himachal Emporium, Lakkar Bazaar and the best views of the snow peaks.",
-   "lat": 31.1043,
-   "lng": 77.1745,
-   "tripTypes": [
-    "heritage",
-    "family"
-   ],
-   "images": [
-    {
-     "commons": "File:Ridge - Shimla 2014-05-08 1492.JPG",
-     "alt": "Visitors walking on the Ridge in Shimla with heritage buildings under a blue sky",
-     "hero": true
-    }
-   ],
-   "sections": {
-    "overview": {
-     "text": "The Ridge is the large open space running east to west above the Mall Road, and it is Shimla's cultural hub. Christ Church, the state library, the statue of Mahatma Gandhi, the Gaiety Theatre and the Town Hall all stand around it. On a clear day, or just after light rain, you can see the snow peaks to the north.\n\nThe Mall runs just below and parallel to the Ridge. It is the main shopping street, with showrooms, department stores and restaurants. Scandal Point is where the two meet. Himachal Emporium at the west end sells local handicrafts and handloom, and Lakkar Bazaar leads off the Ridge with its wooden crafts.",
-     "facts": [
-      "SM7",
-      "SM42",
-      "SM8",
-      "SM34",
-      "SM25"
-     ]
-    },
-    "highlights": {
-     "items": [
-      {
-       "body": "Christ Church and the Gaiety Theatre on the Ridge",
-       "status": "verified"
-      },
-      {
-       "body": "Snow-peak views to the north on clear days",
-       "status": "verified"
-      },
-      {
-       "body": "Scandal Point, where the Ridge and the Mall meet",
-       "status": "verified"
-      },
-      {
-       "body": "Himachal Emporium and Lakkar Bazaar for crafts",
-       "status": "verified"
-      },
-      {
-       "body": "The Indian Coffee House near Scandal Point",
-       "status": "verified"
-      }
-     ],
-     "facts": [
-      "SM42",
-      "SM7",
-      "SM8",
-      "SM34",
-      "SM24"
-     ]
-    }
-   }
-  },
-  {
-   "key": "himachal-pradesh/kufri",
-   "kind": "town",
-   "name": "Kufri",
-   "parent": "himachal-pradesh/shimla",
-   "summary": "Hill resort 16–19 km from Shimla with the Himalayan Nature Park, a go-kart park at 2,800 m and winter skiing.",
-   "seoTitle": "Kufri from Shimla: Nature Park, Fun World & Snow",
-   "seoDescription": "Plan a Kufri day trip from Shimla: the Himalayan Nature Park, Fun World's high go-kart track, winter skiing and how far it is from town.",
-   "lat": 31.0979,
-   "lng": 77.2678,
-   "tripTypes": [
-    "family",
-    "mountains"
-   ],
-   "images": [
-    {
-     "commons": "File:Road to Kufri, Shimla.jpg",
-     "alt": "A yak in the snow at Kufri near Shimla",
-     "hero": true
-    }
-   ],
-   "sections": {
-    "overview": {
-     "text": "Kufri lies on the highway east of Shimla and is the most popular half-day trip from the city. The Himalayan Nature Park, 16 km from Shimla, has more than 180 species of Himalayan birds and animals. Fun World, at about 2,800 m on the Shimla–Fagu road 18 km from town, claims the highest go-kart track. In winter, Kufri is Shimla's ski area.\n\nIt suits families and anyone who wants snow close to Shimla. Combine it with Craignano Nature Park or carry on towards Narkanda.",
-     "facts": [
-      "SM19",
-      "SM20",
-      "SM21"
-     ]
-    },
-    "things_to_do": {
-     "items": [
-      {
-       "body": "See Himalayan wildlife at the Himalayan Nature Park.",
-       "status": "verified"
-      },
-      {
-       "body": "Ride the go-karts at Kufri Fun World.",
-       "status": "verified"
-      },
-      {
-       "body": "Ski or play in the snow in winter.",
-       "status": "seasonal"
-      }
-     ],
-     "facts": [
-      "SM19",
-      "SM20",
-      "SM21"
-     ]
-    },
-    "how_to_reach": {
-     "text": "Kufri is 16–19 km from Shimla on NH 05 (the Shimla–Fagu road). Take a taxi or a bus heading towards Fagu and Narkanda. In heavy snow the road can close, so check before setting out in winter.",
-     "facts": [
-      "SM19",
-      "SM20",
-      "SM21"
-     ]
-    }
-   }
-  },
-  {
-   "key": "himachal-pradesh/naldehra",
-   "kind": "nature",
-   "name": "Naldehra",
-   "parent": "himachal-pradesh/shimla",
-   "summary": "Deodar-ringed meadow 23 km from Shimla with an 18-hole golf course and forest walks.",
-   "seoTitle": "Naldehra near Shimla: Golf Course & Forest Walks",
-   "seoDescription": "Naldehra is a deodar-ringed meadow 23 km from Shimla with an 18-hole golf course and forest walks. How to get there by bus or taxi.",
-   "lat": 31.2084,
-   "lng": 77.1847,
-   "tripTypes": [
-    "nature",
-    "family"
-   ],
-   "images": [
-    {
-     "commons": "File:Naldehra Golf course.jpg",
-     "alt": "Green fairways of the Naldehra golf course among deodar trees",
-     "hero": true
-    }
-   ],
-   "sections": {
-    "overview": {
-     "text": "Naldehra is a wide meadow ringed by dark deodar forest, 23 km north of Shimla. Lord Curzon, viceroy of India from 1898 to 1905, liked it so much that he named his daughter after it. Today the meadow holds an 18-hole golf course, one of the most scenic in the hills.\n\nA nature walk climbs uphill through the woods, with wide views over the surrounding ridges, the smell of deodar and plenty of birdsong. It makes an easy half day from Shimla, and it is quieter than Kufri. Combine it with Craignano Nature Park, which is off the same road towards Mashobra and has a tulip garden that blooms around March–April.",
-     "facts": [
-      "SM22",
-      "SM31"
-     ]
-    },
-    "how_to_reach": {
-     "text": "Frequent local buses run from Shimla to Naldehra, 23 km away, and taxis can be hired.",
-     "facts": [
-      "SM23",
-      "SM22"
-     ]
-    }
-   }
-  },
-  {
-   "key": "himachal-pradesh/tara-devi-temple",
-   "kind": "temple",
-   "name": "Tara Devi Temple",
-   "parent": "himachal-pradesh/shimla",
-   "summary": "Hilltop wood-and-stone temple to goddess Tara Devi on Shimla's southern approach, with 360-degree views.",
-   "seoTitle": "Tara Devi Temple Shimla: Views, Trek & Road",
-   "seoDescription": "Tara Devi temple above Shimla: 360-degree views, a free community lunch on auspicious days, and how to get there by road from Shoghi or on foot.",
-   "lat": 31.0786,
-   "lng": 77.1308,
-   "tripTypes": [
-    "spiritual"
-   ],
-   "images": [
-    {
-     "commons": "File:Tara Devi temple Shimla.jpg",
-     "alt": "Wood-and-stone Tara Devi temple with slate roofs on its hilltop near Shimla",
-     "hero": true
-    }
-   ],
-   "sections": {
-    "overview": {
-     "text": "Tara Devi temple sits on the ridge at the eastern edge of Tara Devi hill, on the southern approach to Shimla. It is a newly built wood-and-stone temple with slate roofs in the traditional hill style, dedicated to the goddess Tara Devi, and the 360-degree views over the ranges are the main reason to come.\n\nOn auspicious days, devotees host a free community lunch open to all visitors. Reach it by road from the highway at Shoghi, or walk up the trail from Tara Devi station on the Kalka–Shimla railway. That makes it an easy add-on for anyone riding the toy train, or a stop on the way in or out of Shimla.",
-     "facts": [
-      "SM18",
-      "SM17",
-      "SM39"
-     ]
-    },
-    "how_to_reach": {
-     "text": "Drive up the winding road from the highway at Shoghi, or walk up on the trail from Tara Devi station on the Kalka–Shimla railway.",
-     "facts": [
-      "SM17"
-     ]
-    }
-   }
-  },
-  {
-   "key": "himachal-pradesh/kalka-shimla-toy-train",
-   "kind": "activity",
-   "category": "culture",
-   "name": "Kalka–Shimla toy train",
-   "parent": "himachal-pradesh/shimla",
-   "summary": "Ride the UNESCO-listed narrow-gauge line from Kalka to Shimla through 102 tunnels and 969 bridges.",
-   "seoTitle": "Kalka–Shimla Toy Train: Route, Trains & Tips",
-   "seoDescription": "Ride the UNESCO-listed Kalka–Shimla toy train: 102 tunnels, 969 bridges, vistadome coaches, which trains run and how long to allow.",
-   "lat": 31.1035,
-   "lng": 77.1566,
-   "tripTypes": [
-    "heritage",
-    "family"
-   ],
-   "images": [
-    {
-     "commons": "File:Kalka-Shimla Railway at Solan station, 2011-12-26 - 3.JPG",
-     "alt": "Blue toy train at a tunnel mouth on the Kalka–Shimla railway near Solan",
-     "hero": true
-    }
-   ],
-   "sections": {
-    "overview": {
-     "text": "The Kalka–Shimla railway was built between 1898 and 1903. UNESCO recognises it as a World Heritage mountain railway. The narrow-gauge line climbs from 656 m at Kalka to about 2,075 m at Shimla, through 102 working tunnels, 912 curves and 969 bridges, with 20 stations on the way.\n\nTrains average just 25–30 km/h, so the ride is about the views rather than speed. Trains and the railcar have vistadome coaches. Services include the Shivalik Deluxe Express (chair cars with meals), the Kalka Shimla Express, the Himalayan Queen and a rail motor car. Regular trains from Delhi connect at Kalka.",
-     "facts": [
-      "SM39",
-      "SM37",
-      "SM36",
-      "SM38",
-      "SM4"
-     ]
-    },
-    "travel_tips": {
-     "items": [
-      {
-       "body": "Ride uphill to Shimla in the morning, and go by road if you're short of time."
-      },
-      {
-       "body": "Book a vistadome or the Shivalik Deluxe for the best views and meals."
-      },
-      {
-       "body": "Get off at Tara Devi station to walk up to Tara Devi temple."
-      }
-     ],
-     "facts": [
-      "SM36",
-      "SM38",
-      "SM17"
-     ]
-    }
-   }
-  },
-  {
-   "key": "himachal-pradesh/shimla-ice-skating",
-   "kind": "activity",
-   "category": "events",
-   "name": "Ice skating in Shimla",
-   "parent": "himachal-pradesh/shimla",
-   "displayMode": "parent_section",
-   "summary": "Skate on Shimla's open-air natural ice rink below the Ridge from November to February.",
-   "seoTitle": "Ice Skating in Shimla: Season & Carnival",
-   "seoDescription": "Shimla's open-air ice rink below the Ridge freezes from November and stays open until February, with a skating carnival around Christmas and New Year.",
-   "lat": 31.105,
-   "lng": 77.173,
-   "tripTypes": [
-    "family"
-   ],
-   "sections": {
-    "overview": {
-     "text": "Shimla's open-air natural rink sits just below the Ridge on its northern slope. Water starts to freeze there in November, and the skating season runs until February. A lively ice-skating carnival is held at the rink around the Christmas–New Year week, a highlight of winter in town.",
-     "facts": [
-      "SM40"
-     ]
-    }
-   }
-  }
- ],
- "itineraries": [
-  {
-   "place": "himachal-pradesh/shimla",
-   "slug": "shimla-2-days",
-   "title": "Shimla in 2 days",
-   "summary": "The Ridge, Mall and Jakhoo on day one; the Viceregal Lodge, Tara Devi and the toy train on day two.",
-   "durationDays": 2,
-   "tripTypes": [
-    "heritage",
-    "family"
-   ],
-   "seoTitle": "2-Day Shimla Itinerary: Ridge, Jakhoo & Viceregal Lodge",
-   "seoDescription": "A realistic two-day Shimla plan: the Ridge and Mall, Jakhoo Temple, Viceregal Lodge tours, Tara Devi and a ride on the Kalka–Shimla toy train.",
-   "facts": [
-    "SM16",
-    "SM42",
-    "SM8",
-    "SM34",
-    "SM24",
-    "SM11",
-    "SM12",
-    "SM13",
-    "SM17",
-    "SM36",
-    "SM1"
-   ],
-   "plan": {
-    "overview": "Two easy days on foot and by taxi, based near the Mall. Day 2 is timed around the Viceregal Lodge guided tours (about 10:30 am–4:30 pm).",
-    "start": "Shimla",
-    "end": "Shimla",
-    "transport": "On foot in the centre; taxi to the Viceregal Lodge and Tara Devi",
-    "difficulty": "Easy, with steep short climbs",
-    "days": [
-     {
-      "title": "The Ridge, the Mall and Jakhoo",
-      "stops": [
-       {
-        "time": "Morning",
-        "name": "Jakhoo Temple",
-        "placeSlug": "jakhoo-temple",
-        "duration": "2 hours",
-        "note": "Steep 30-minute walk from the Ridge, or the ropeway."
-       },
-       {
-        "time": "Late morning",
-        "name": "Lakkar Bazaar",
-        "placeSlug": "ridge-and-mall",
-        "duration": "1 hour"
-       },
-       {
-        "time": "Afternoon",
-        "name": "The Ridge: Christ Church and Gaiety Theatre",
-        "placeSlug": "ridge-and-mall",
-        "duration": "2 hours"
-       },
-       {
-        "time": "Evening",
-        "name": "Mall Road and Scandal Point",
-        "placeSlug": "ridge-and-mall",
-        "duration": "2 hours",
-        "note": "Coffee at the Indian Coffee House."
-       }
+      "key": "himachal-pradesh/shimla",
+      "kind": "city",
+      "name": "Shimla",
+      "parent": "himachal-pradesh",
+      "summary": "Himachal's capital and the old British summer capital: the Ridge and Mall, the Viceregal Lodge, Jakhoo Hill and the UNESCO-listed Kalka–Shimla toy train.",
+      "seoTitle": "Shimla Travel Guide: Ridge, Mall Road & Toy Train",
+      "seoDescription": "Plan a Shimla trip: the Ridge and Mall, Viceregal Lodge tours, Jakhoo Temple, Kufri and Naldehra, the Kalka–Shimla toy train, where to stay and how to get around.",
+      "lat": 31.1048,
+      "lng": 77.1734,
+      "tripTypes": [
+        "mountains",
+        "family",
+        "heritage"
       ],
-      "meals": "Lunch and dinner on the Mall.",
-      "overnight": "Shimla"
-     },
-     {
-      "title": "Viceregal Lodge and Tara Devi",
-      "stops": [
-       {
-        "time": "Morning",
-        "name": "Viceregal Lodge guided tour",
-        "placeSlug": "viceregal-lodge",
-        "duration": "2 hours",
-        "note": "Opens 9:30 am; tours from about 10:30 am, first come, first served."
-       },
-       {
-        "time": "Afternoon",
-        "name": "Tara Devi Temple",
-        "placeSlug": "tara-devi-temple",
-        "duration": "2 hours",
-        "note": "Drive up from Shoghi."
-       },
-       {
-        "time": "Late afternoon",
-        "name": "Short toy-train ride (Tara Devi ↔ Shimla)",
-        "placeSlug": "kalka-shimla-toy-train",
-        "duration": "Estimate: under an hour",
-        "note": "Check the day's timetable first."
-       }
+      "relations": [
+        {
+          "to": "himachal-pradesh/kufri",
+          "type": "day_trip"
+        },
+        {
+          "to": "himachal-pradesh/naldehra",
+          "type": "day_trip"
+        },
+        {
+          "to": "himachal-pradesh/kasauli",
+          "type": "nearby"
+        },
+        {
+          "to": "himachal-pradesh/kinnaur",
+          "type": "nearby"
+        }
       ],
-      "overnight": "Shimla"
-     }
-    ],
-    "alternatives": [
-     "In the July–September rains, swap Tara Devi for Chadwick Falls near Summer Hill.",
-     "November–February: add an evening at the ice-skating rink below the Ridge."
-    ],
-    "booking": [
-     {
-      "item": "Viceregal Lodge",
-      "detail": "Tour tickets by slot at the booth, first come, first served."
-     },
-     {
-      "item": "Toy train",
-      "detail": "Book on Indian Railways for the vistadome or Shivalik Deluxe."
-     }
-    ],
-    "tips": [
-     "Park at a public car park (Lift Parking or the Old Bus Stand) and walk."
-    ],
-    "budget": {
-     "assumptions": "VacayOut has no verified current prices for Shimla hotels, taxis or tickets. Budget for your own hotel and transport choices, and check fees on the spot.",
-     "lines": []
+      "sections": {
+        "local_transport": {
+          "text": "Central Shimla is built along a ridge, and the Ridge and the Mall are best explored on foot. Taxis are available on demand for longer hops, such as to Jakhoo's ropeway, the Viceregal Lodge (3.5 km from the main square), Tara Devi or Sankat Mochan.\n\nIf you drive, use the public car parks: ISBT Shimla, Tutikandi crossing, Lift Parking, the railway station, the Old Bus Stand, Chhota Shimla and Sanjauli. Then walk into the centre.\n\nFor day trips, local buses run frequently to Naldehra, and buses and taxis go out to Kufri, Mashobra and Narkanda. From Jubbarhatti airport, HRTC runs an Aero Connect tempo-traveller service into town.",
+          "facts": [
+            "SM1",
+            "SM2",
+            "SM13",
+            "SM23",
+            "SM5",
+            "SM3"
+          ]
+        },
+        "neighbourhoods": {
+          "items": [
+            {
+              "title": "The Ridge and the Mall",
+              "body": "The historic centre, with Christ Church, the Gaiety Theatre, Scandal Point and most restaurants. Best for first-time visitors who want to walk everywhere. Kali Bari temple (1845) is a short walk away.",
+              "status": "verified"
+            },
+            {
+              "title": "Lakkar Bazaar and Jakhoo",
+              "body": "Just above the Ridge: wooden-craft shops and the path or ropeway up to Jakhoo Temple.",
+              "status": "verified"
+            },
+            {
+              "title": "Chhota Shimla",
+              "body": "The western end of the centre, with public parking. Quieter but still close to the Mall.",
+              "status": "verified"
+            },
+            {
+              "title": "Sanjauli",
+              "body": "Shimla's main suburb at the eastern end, with its own parking. More local life, a longer walk to the Ridge.",
+              "status": "verified"
+            },
+            {
+              "title": "Summer Hill and Annandale",
+              "body": "Leafy areas to the west and south: Chadwick Falls near Summer Hill; a golf course and the Army Heritage Museum at Annandale.",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "SM25",
+            "SM42",
+            "SM34",
+            "SM16",
+            "SM1",
+            "SM35",
+            "SM50",
+            "SM44",
+            "SM43",
+            "SM46"
+          ]
+        },
+        "where_to_stay": {
+          "text": "Stay near the Mall and the Ridge if you want to walk to restaurants, the shops and Jakhoo. It is the most convenient base for a first visit. Remember that the centre is pedestrian, so check how far a hotel is from the nearest road and car park.\n\nChhota Shimla and Sanjauli, at either end of the centre, have their own car parks and suit drivers and longer stays. For quiet among the forests, travellers often choose the outskirts towards Mashobra, Naldehra and Kufri, and drive or bus into town.",
+          "facts": [
+            "SM25",
+            "SM1",
+            "SM35",
+            "SM50"
+          ]
+        },
+        "who_its_for": {
+          "items": [
+            {
+              "title": "Families",
+              "body": "Easy walks on the Ridge, the toy train and Kufri's nature park and go-karts."
+            },
+            {
+              "title": "History lovers",
+              "body": "The Viceregal Lodge, where the 1945 Shimla Conference was held, plus Christ Church and the Gaiety Theatre."
+            },
+            {
+              "title": "Couples",
+              "body": "Mall evenings, Naldehra's meadow and quiet forest walks around Mashobra."
+            },
+            {
+              "title": "First-time visitors to the Himalaya",
+              "body": "Good road, rail and air links, a major hospital in town and good phone coverage."
+            }
+          ],
+          "facts": [
+            "SM19",
+            "SM20",
+            "SM15",
+            "SM42",
+            "SM22",
+            "SM26",
+            "SM27"
+          ]
+        },
+        "food": {
+          "items": [
+            {
+              "body": "Most restaurants and cafés line the Mall Road, so evenings centre on the Mall.",
+              "status": "verified"
+            },
+            {
+              "body": "The Indian Coffee House, steps from Scandal Point, is a Shimla institution for South Indian food and filter coffee.",
+              "status": "verified"
+            },
+            {
+              "body": "Sankat Mochan (Tuesdays and Sundays) and Tara Devi (on auspicious days) serve free community lunches to all visitors.",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "SM25",
+            "SM24",
+            "SM45",
+            "SM18"
+          ]
+        },
+        "shopping": {
+          "items": [
+            {
+              "body": "Himachal Emporium, at the west end of the Mall, for local handicrafts and handloom.",
+              "status": "verified"
+            },
+            {
+              "body": "Lakkar Bazaar, off the Ridge, for wooden crafts and souvenirs.",
+              "status": "verified"
+            },
+            {
+              "body": "The Mall for everyday shopping, showrooms and department stores.",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "SM8",
+            "SM34"
+          ]
+        },
+        "practical_info": {
+          "items": [
+            {
+              "title": "Clothing",
+              "body": "Cotton with light woollens from April to October. Heavy woollens and a jacket from November to March.",
+              "status": "seasonal"
+            },
+            {
+              "title": "Connectivity",
+              "body": "Good mobile and internet coverage in town, weaker in remote higher areas.",
+              "status": "verified"
+            },
+            {
+              "title": "Languages",
+              "body": "Hindi and Pahari are widely spoken, and many people also speak Punjabi.",
+              "status": "verified"
+            },
+            {
+              "title": "Medical",
+              "body": "Indira Gandhi Medical Hospital is a short walk from the Mall.",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "SM49",
+            "SM27",
+            "SM28",
+            "SM26"
+          ]
+        },
+        "safety_health": {
+          "items": [
+            {
+              "title": "Rivers and cliffs",
+              "body": "Don't stand on cliff edges or riverside boulders for photos. Himachal's rivers are fast and deceptive.",
+              "status": "verified"
+            },
+            {
+              "title": "Winter roads",
+              "body": "Snow usually comes in January or early February and can close roads around Kufri and Narkanda. Allow spare time.",
+              "status": "seasonal"
+            },
+            {
+              "title": "Hospital",
+              "body": "Indira Gandhi Medical Hospital is the state's premier hospital, in the city centre.",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "SM33",
+            "SM30",
+            "SM26"
+          ]
+        },
+        "travel_tips": {
+          "items": [
+            {
+              "body": "Book Viceregal Lodge tour slots early in the day: tickets are first come, first served and the last tour is around 4:30 pm."
+            },
+            {
+              "body": "Take the ropeway to Jakhoo if the steep 30-minute climb from the Ridge is too much."
+            },
+            {
+              "body": "Ride the toy train at least one way. It is slow (25–30 km/h), so budget most of a day for the full Kalka–Shimla run."
+            },
+            {
+              "body": "Come in March–April for Craignano's tulips, or from November to February for ice skating."
+            },
+            {
+              "body": "For snow, aim for January–early February rather than December."
+            },
+            {
+              "body": "Time a summer trip for Shimla's Summer Festival in May/June: music, dance, flower shows and exhibitions."
+            }
+          ],
+          "facts": [
+            "SM12",
+            "SM16",
+            "SM36",
+            "SM31",
+            "SM40",
+            "SM30",
+            "SM41"
+          ]
+        },
+        "common_mistakes": {
+          "items": [
+            {
+              "body": "Driving into the centre: use the car parks and walk, because the Ridge and the Mall are pedestrian areas."
+            },
+            {
+              "body": "Expecting guaranteed snow in December. Recent snowfall has mostly come in January or early February."
+            },
+            {
+              "body": "Arriving at the Viceregal Lodge late in the afternoon and missing the last guided tour."
+            },
+            {
+              "body": "Trying Kufri, Naldehra and Hatu Peak in one day. Hatu alone is 64 km each way via Narkanda."
+            }
+          ],
+          "facts": [
+            "SM1",
+            "SM30",
+            "SM12",
+            "SM32"
+          ]
+        },
+        "faqs": {
+          "items": [
+            {
+              "title": "How many days do I need in Shimla?",
+              "body": "Two days covers the Ridge, the Mall, Jakhoo and the Viceregal Lodge. A third day adds Kufri, Naldehra or Craignano."
+            },
+            {
+              "title": "How do I get to Shimla by train?",
+              "body": "Take a train from Delhi to Kalka, then the Kalka–Shimla toy train up the UNESCO-listed mountain line."
+            },
+            {
+              "title": "Is there an airport in Shimla?",
+              "body": "Yes. Jubbarhatti airport is 23 km from the city, with daily flights from Delhi and an HRTC shuttle into town. RCS–UDAN helicopter flights also link Shimla with Chandigarh, Kullu and Reckong Peo. Ordinary and luxury coaches run from Delhi and Chandigarh."
+            },
+            {
+              "title": "When does it snow in Shimla?",
+              "body": "Snowfall now mostly comes in January or early February. December–February is the winter season."
+            },
+            {
+              "title": "What are the Viceregal Lodge timings?",
+              "body": "The institute is open to visitors 9:30 am–5 pm. Guided 30-minute tours run from about 10:30 am to 4:30 pm."
+            }
+          ],
+          "facts": [
+            "SM12",
+            "SM11",
+            "SM4",
+            "SM39",
+            "SM47",
+            "SM5",
+            "SM30",
+            "SM29",
+            "SM6",
+            "SM48"
+          ]
+        },
+        "overview": {
+          "text": "Shimla, the capital of Himachal Pradesh, is one of India's best-known hill stations, wrapped in cedar, rhododendron, fir and oak forest. The British turned the small township into the summer capital of their empire, and its colonial core still shows it. The Ridge and the Mall are the town's living centre, lined by Christ Church, the Gaiety Theatre and the Town Hall. The Viceregal Lodge, where the 1945 Shimla Conference and 1946 Cabinet Mission met, is now the Indian Institute of Advanced Study and open for guided tours.\n\nAbove the town, Jakhoo Temple crowns Shimla's highest hill at 2,445 m. The UNESCO-listed Kalka–Shimla railway, with 102 tunnels, is the slow, scenic way up. Kufri, Naldehra, Craignano and Tara Devi make easy half-day trips.\n\nShimla is a year-round destination: snow from December to February, cool summers from April to June, and misty monsoon hills in July and August. It suits families, first-time Himalayan visitors and history lovers.",
+          "facts": [
+            "SM42",
+            "SM9",
+            "SM15",
+            "SM16",
+            "SM39",
+            "SM19",
+            "SM22",
+            "SM31",
+            "SM17",
+            "SM29"
+          ]
+        }
+      },
+      "images": [
+        {
+          "commons": "File:Municipal Corporation Building - Mall Road - Shimla 2014-05-07 1116-1127 Compress.JPG",
+          "alt": "Shimla Municipal Corporation building on the Mall Road and Ridge",
+          "hero": true
+        }
+      ]
+    },
+    {
+      "key": "himachal-pradesh/viceregal-lodge",
+      "kind": "museum",
+      "name": "Viceregal Lodge (Indian Institute of Advanced Study)",
+      "parent": "himachal-pradesh/shimla",
+      "summary": "The 1888 Scottish-baronial seat of British India's summer government, now the Indian Institute of Advanced Study, with guided tours.",
+      "seoTitle": "Viceregal Lodge Shimla: Tour Timings, History & Access",
+      "seoDescription": "Visit Shimla's Viceregal Lodge (IIAS): 9:30 am–5 pm, 30-minute guided tours in Hindi and English, golf carts from the gate, and the history of 1945–47.",
+      "lat": 31.1043,
+      "lng": 77.1418,
+      "tripTypes": [
+        "heritage"
+      ],
+      "images": [
+        {
+          "commons": "File:Rashtrapati Niwas - Shimla - IMG 20160816 145621 HDR-01.jpg",
+          "alt": "The grey stone Viceregal Lodge in Shimla with its lawns under a blue sky",
+          "hero": true
+        }
+      ],
+      "sections": {
+        "overview": {
+          "text": "The Viceregal Lodge was completed in 1888 to Henry Irwin's design. It looks like a Scottish castle and was one of the first buildings in India with electricity. From 1888 to 1947 it was the seat of the imperial government in summer. The Shimla Conference of 1945 and the Cabinet Mission of 1946 met here, and one room still keeps the table at which the boundaries of Pakistan were drawn.\n\nAfter Independence it became a presidential residence. Since 1965 it has housed the Indian Institute of Advanced Study, and parts of the building are open to visitors on guided tours.",
+          "facts": [
+            "SM9",
+            "SM15",
+            "SM10"
+          ]
+        },
+        "visit_info": {
+          "items": [
+            {
+              "title": "Hours",
+              "body": "Open to tourists 9:30 am–5 pm.",
+              "status": "verified"
+            },
+            {
+              "title": "Guided tours",
+              "body": "30-minute tours from about 10:30 am to 4:30 pm, in Hindi and English. Tickets by slot, first come, first served. A missed slot is not moved to the next tour.",
+              "status": "verified"
+            },
+            {
+              "title": "Lunch break",
+              "body": "Tours pause for half an hour between 1 and 2 pm.",
+              "status": "verified"
+            },
+            {
+              "title": "Entry fee",
+              "body": "Ticket prices aren't listed on the institute's site. Check at the ticket booth.",
+              "status": "unconfirmed"
+            },
+            {
+              "title": "Official site",
+              "body": "iias.ac.in/for-tourists",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "SM11",
+            "SM12",
+            "SM51"
+          ]
+        },
+        "how_to_reach": {
+          "text": "The lodge is on Observatory Hill at the western end of the Ridge, 3.5 km from the main square: a long walk or a short taxi ride. From the main gate it is a gradual climb of nearly 300 m to the building. Cars may drive up to drop visitors for a Rs 10 fee per round, but must return to the main car park.",
+          "facts": [
+            "SM13",
+            "SM14"
+          ]
+        },
+        "accessibility": {
+          "items": [
+            {
+              "title": "Golf carts",
+              "body": "Battery golf carts run between the main gate and the ticket booth, for older visitors, families and anyone who finds the climb hard.",
+              "status": "verified"
+            },
+            {
+              "title": "Terrain",
+              "body": "A gradual uphill walk of about 300 m from the gate.",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "SM14",
+            "SM13"
+          ]
+        }
+      }
+    },
+    {
+      "key": "himachal-pradesh/jakhoo-temple",
+      "kind": "temple",
+      "name": "Jakhoo Temple",
+      "parent": "himachal-pradesh/shimla",
+      "summary": "Hanuman temple on Jakhoo Hill, Shimla's highest point at 2,445 m, reached by a steep walk from the Ridge or by ropeway.",
+      "seoTitle": "Jakhoo Temple Shimla: Climb, Ropeway & Views",
+      "seoDescription": "Jakhoo Temple sits on Shimla's highest hill at 2,445 m. How to get there from the Ridge on foot or by ropeway, and what to expect at the top.",
+      "lat": 31.1016,
+      "lng": 77.1846,
+      "tripTypes": [
+        "spiritual"
+      ],
+      "images": [
+        {
+          "commons": "File:Jakhoo temple,shimla.jpg",
+          "alt": "Red-roofed Jakhoo Temple among deodar trees on Jakhoo Hill, Shimla",
+          "hero": true
+        }
+      ],
+      "sections": {
+        "overview": {
+          "text": "Jakhoo Hill overlooks Shimla at 2,445 m, the highest point in the city, and is home to a temple to Lord Hanuman. It marks the northern end of central Shimla and is visible from much of the town.\n\nThe climb up from the Ridge is short but steep: about half an hour on foot, through deodar forest. A ropeway also runs to the temple for anyone who prefers to ride. Most visitors combine it with a walk on the Ridge and in Lakkar Bazaar, which lies on the way up. Go early in the morning or late afternoon for softer light over the town and the snow peaks to the north.",
+          "facts": [
+            "SM16",
+            "SM50",
+            "SM34"
+          ]
+        },
+        "how_to_reach": {
+          "text": "Walk up from the Ridge, a steep climb of about 30 minutes, or take the ropeway to the temple. Lakkar Bazaar is on the way from the Ridge.",
+          "facts": [
+            "SM16",
+            "SM34"
+          ]
+        }
+      }
+    },
+    {
+      "key": "himachal-pradesh/ridge-and-mall",
+      "kind": "attraction",
+      "name": "The Ridge and Mall Road",
+      "parent": "himachal-pradesh/shimla",
+      "summary": "Shimla's pedestrian heart: the open Ridge with Christ Church and Himalayan views, and the Mall below it with shops, cafés and Scandal Point.",
+      "seoTitle": "The Ridge & Mall Road, Shimla: What to See",
+      "seoDescription": "Walk Shimla's Ridge and Mall Road: Christ Church, Gaiety Theatre, Scandal Point, Himachal Emporium, Lakkar Bazaar and the best views of the snow peaks.",
+      "lat": 31.1043,
+      "lng": 77.1745,
+      "tripTypes": [
+        "heritage",
+        "family"
+      ],
+      "images": [
+        {
+          "commons": "File:Ridge - Shimla 2014-05-08 1492.JPG",
+          "alt": "Visitors walking on the Ridge in Shimla with heritage buildings under a blue sky",
+          "hero": true
+        }
+      ],
+      "sections": {
+        "overview": {
+          "text": "The Ridge is the large open space running east to west above the Mall Road, and it is Shimla's cultural hub. Christ Church, the state library, the statue of Mahatma Gandhi, the Gaiety Theatre and the Town Hall all stand around it. On a clear day, or just after light rain, you can see the snow peaks to the north.\n\nThe Mall runs just below and parallel to the Ridge. It is the main shopping street, with showrooms, department stores and restaurants. Scandal Point is where the two meet. Himachal Emporium at the west end sells local handicrafts and handloom, and Lakkar Bazaar leads off the Ridge with its wooden crafts.",
+          "facts": [
+            "SM7",
+            "SM42",
+            "SM8",
+            "SM34",
+            "SM25"
+          ]
+        },
+        "highlights": {
+          "items": [
+            {
+              "body": "Christ Church and the Gaiety Theatre on the Ridge",
+              "status": "verified"
+            },
+            {
+              "body": "Snow-peak views to the north on clear days",
+              "status": "verified"
+            },
+            {
+              "body": "Scandal Point, where the Ridge and the Mall meet",
+              "status": "verified"
+            },
+            {
+              "body": "Himachal Emporium and Lakkar Bazaar for crafts",
+              "status": "verified"
+            },
+            {
+              "body": "The Indian Coffee House near Scandal Point",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "SM42",
+            "SM7",
+            "SM8",
+            "SM34",
+            "SM24"
+          ]
+        }
+      }
+    },
+    {
+      "key": "himachal-pradesh/kufri",
+      "kind": "town",
+      "name": "Kufri",
+      "parent": "himachal-pradesh/shimla",
+      "summary": "Hill resort 16–19 km from Shimla with the Himalayan Nature Park, a go-kart park at 2,800 m and winter skiing.",
+      "seoTitle": "Kufri from Shimla: Nature Park, Fun World & Snow",
+      "seoDescription": "Plan a Kufri day trip from Shimla: the Himalayan Nature Park, Fun World's high go-kart track, winter skiing and how far it is from town.",
+      "lat": 31.0979,
+      "lng": 77.2678,
+      "tripTypes": [
+        "family",
+        "mountains"
+      ],
+      "images": [
+        {
+          "commons": "File:Road to Kufri, Shimla.jpg",
+          "alt": "A yak in the snow at Kufri near Shimla",
+          "hero": true
+        }
+      ],
+      "sections": {
+        "overview": {
+          "text": "Kufri lies on the highway east of Shimla and is the most popular half-day trip from the city. The Himalayan Nature Park, 16 km from Shimla, has more than 180 species of Himalayan birds and animals. Fun World, at about 2,800 m on the Shimla–Fagu road 18 km from town, claims the highest go-kart track. In winter, Kufri is Shimla's ski area.\n\nIt suits families and anyone who wants snow close to Shimla. Combine it with Craignano Nature Park or carry on towards Narkanda.",
+          "facts": [
+            "SM19",
+            "SM20",
+            "SM21"
+          ]
+        },
+        "things_to_do": {
+          "items": [
+            {
+              "body": "See Himalayan wildlife at the Himalayan Nature Park.",
+              "status": "verified"
+            },
+            {
+              "body": "Ride the go-karts at Kufri Fun World.",
+              "status": "verified"
+            },
+            {
+              "body": "Ski or play in the snow in winter.",
+              "status": "seasonal"
+            }
+          ],
+          "facts": [
+            "SM19",
+            "SM20",
+            "SM21"
+          ]
+        },
+        "how_to_reach": {
+          "text": "Kufri is 16–19 km from Shimla on NH 05 (the Shimla–Fagu road). Take a taxi or a bus heading towards Fagu and Narkanda. In heavy snow the road can close, so check before setting out in winter.",
+          "facts": [
+            "SM19",
+            "SM20",
+            "SM21"
+          ]
+        }
+      }
+    },
+    {
+      "key": "himachal-pradesh/naldehra",
+      "kind": "nature",
+      "name": "Naldehra",
+      "parent": "himachal-pradesh/shimla",
+      "summary": "Deodar-ringed meadow 23 km from Shimla with an 18-hole golf course and forest walks.",
+      "seoTitle": "Naldehra near Shimla: Golf Course & Forest Walks",
+      "seoDescription": "Naldehra is a deodar-ringed meadow 23 km from Shimla with an 18-hole golf course and forest walks. How to get there by bus or taxi.",
+      "lat": 31.2084,
+      "lng": 77.1847,
+      "tripTypes": [
+        "nature",
+        "family"
+      ],
+      "images": [
+        {
+          "commons": "File:Naldehra Golf course.jpg",
+          "alt": "Green fairways of the Naldehra golf course among deodar trees",
+          "hero": true
+        }
+      ],
+      "sections": {
+        "overview": {
+          "text": "Naldehra is a wide meadow ringed by dark deodar forest, 23 km north of Shimla. Lord Curzon, viceroy of India from 1898 to 1905, liked it so much that he named his daughter after it. Today the meadow holds an 18-hole golf course, one of the most scenic in the hills.\n\nA nature walk climbs uphill through the woods, with wide views over the surrounding ridges, the smell of deodar and plenty of birdsong. It makes an easy half day from Shimla, and it is quieter than Kufri. Combine it with Craignano Nature Park, which is off the same road towards Mashobra and has a tulip garden that blooms around March–April.",
+          "facts": [
+            "SM22",
+            "SM31"
+          ]
+        },
+        "how_to_reach": {
+          "text": "Frequent local buses run from Shimla to Naldehra, 23 km away, and taxis can be hired.",
+          "facts": [
+            "SM23",
+            "SM22"
+          ]
+        }
+      }
+    },
+    {
+      "key": "himachal-pradesh/tara-devi-temple",
+      "kind": "temple",
+      "name": "Tara Devi Temple",
+      "parent": "himachal-pradesh/shimla",
+      "summary": "Hilltop wood-and-stone temple to goddess Tara Devi on Shimla's southern approach, with 360-degree views.",
+      "seoTitle": "Tara Devi Temple Shimla: Views, Trek & Road",
+      "seoDescription": "Tara Devi temple above Shimla: 360-degree views, a free community lunch on auspicious days, and how to get there by road from Shoghi or on foot.",
+      "lat": 31.0786,
+      "lng": 77.1308,
+      "tripTypes": [
+        "spiritual"
+      ],
+      "images": [
+        {
+          "commons": "File:Tara Devi temple Shimla.jpg",
+          "alt": "Wood-and-stone Tara Devi temple with slate roofs on its hilltop near Shimla",
+          "hero": true
+        }
+      ],
+      "sections": {
+        "overview": {
+          "text": "Tara Devi temple sits on the ridge at the eastern edge of Tara Devi hill, on the southern approach to Shimla. It is a newly built wood-and-stone temple with slate roofs in the traditional hill style, dedicated to the goddess Tara Devi, and the 360-degree views over the ranges are the main reason to come.\n\nOn auspicious days, devotees host a free community lunch open to all visitors. Reach it by road from the highway at Shoghi, or walk up the trail from Tara Devi station on the Kalka–Shimla railway. That makes it an easy add-on for anyone riding the toy train, or a stop on the way in or out of Shimla.",
+          "facts": [
+            "SM18",
+            "SM17",
+            "SM39"
+          ]
+        },
+        "how_to_reach": {
+          "text": "Drive up the winding road from the highway at Shoghi, or walk up on the trail from Tara Devi station on the Kalka–Shimla railway.",
+          "facts": [
+            "SM17"
+          ]
+        }
+      }
+    },
+    {
+      "key": "himachal-pradesh/kalka-shimla-toy-train",
+      "kind": "activity",
+      "category": "culture",
+      "name": "Kalka–Shimla toy train",
+      "parent": "himachal-pradesh/shimla",
+      "summary": "Ride the UNESCO-listed narrow-gauge line from Kalka to Shimla through 102 tunnels and 969 bridges.",
+      "seoTitle": "Kalka–Shimla Toy Train: Route, Trains & Tips",
+      "seoDescription": "Ride the UNESCO-listed Kalka–Shimla toy train: 102 tunnels, 969 bridges, vistadome coaches, which trains run and how long to allow.",
+      "lat": 31.1035,
+      "lng": 77.1566,
+      "tripTypes": [
+        "heritage",
+        "family"
+      ],
+      "images": [
+        {
+          "commons": "File:Kalka-Shimla Railway at Solan station, 2011-12-26 - 3.JPG",
+          "alt": "Blue toy train at a tunnel mouth on the Kalka–Shimla railway near Solan",
+          "hero": true
+        }
+      ],
+      "sections": {
+        "overview": {
+          "text": "The Kalka–Shimla railway was built between 1898 and 1903. UNESCO recognises it as a World Heritage mountain railway. The narrow-gauge line climbs from 656 m at Kalka to about 2,075 m at Shimla, through 102 working tunnels, 912 curves and 969 bridges, with 20 stations on the way.\n\nTrains average just 25–30 km/h, so the ride is about the views rather than speed. Trains and the railcar have vistadome coaches. Services include the Shivalik Deluxe Express (chair cars with meals), the Kalka Shimla Express, the Himalayan Queen and a rail motor car. Regular trains from Delhi connect at Kalka.",
+          "facts": [
+            "SM39",
+            "SM37",
+            "SM36",
+            "SM38",
+            "SM4"
+          ]
+        },
+        "travel_tips": {
+          "items": [
+            {
+              "body": "Ride uphill to Shimla in the morning, and go by road if you're short of time."
+            },
+            {
+              "body": "Book a vistadome or the Shivalik Deluxe for the best views and meals."
+            },
+            {
+              "body": "Get off at Tara Devi station to walk up to Tara Devi temple."
+            }
+          ],
+          "facts": [
+            "SM36",
+            "SM38",
+            "SM17"
+          ]
+        }
+      }
+    },
+    {
+      "key": "himachal-pradesh/shimla-ice-skating",
+      "kind": "activity",
+      "category": "events",
+      "name": "Ice skating in Shimla",
+      "parent": "himachal-pradesh/shimla",
+      "displayMode": "parent_section",
+      "summary": "Skate on Shimla's open-air natural ice rink below the Ridge from November to February.",
+      "seoTitle": "Ice Skating in Shimla: Season & Carnival",
+      "seoDescription": "Shimla's open-air ice rink below the Ridge freezes from November and stays open until February, with a skating carnival around Christmas and New Year.",
+      "lat": 31.105,
+      "lng": 77.173,
+      "tripTypes": [
+        "family"
+      ],
+      "sections": {
+        "overview": {
+          "text": "Shimla's open-air natural rink sits just below the Ridge on its northern slope. Water starts to freeze there in November, and the skating season runs until February. A lively ice-skating carnival is held at the rink around the Christmas–New Year week, a highlight of winter in town.",
+          "facts": [
+            "SM40"
+          ]
+        }
+      }
     }
-   },
-   "sources": []
-  },
-  {
-   "place": "himachal-pradesh/shimla",
-   "slug": "shimla-3-days",
-   "title": "Shimla in 3 days with Kufri and Naldehra",
-   "summary": "Shimla's centre and the Viceregal Lodge, then a day out to Kufri's nature park and the meadow and golf course at Naldehra.",
-   "durationDays": 3,
-   "tripTypes": [
-    "family",
-    "mountains",
-    "heritage"
-   ],
-   "seoTitle": "3-Day Shimla Itinerary with Kufri & Naldehra",
-   "seoDescription": "Three days in Shimla: the Ridge, Jakhoo and Viceregal Lodge, then day trips to Kufri's Himalayan Nature Park and Fun World and the Naldehra meadow.",
-   "facts": [
-    "SM16",
-    "SM42",
-    "SM11",
-    "SM12",
-    "SM19",
-    "SM20",
-    "SM22",
-    "SM23",
-    "SM31",
-    "SM21"
-   ],
-   "plan": {
-    "overview": "Two days in town and one out on the hill roads. Kufri is 16–19 km east and Naldehra 23 km north, so do them on separate half days with a taxi, or take buses.",
-    "start": "Shimla",
-    "end": "Shimla",
-    "transport": "On foot in town; taxi or local bus for Kufri and Naldehra",
-    "difficulty": "Easy",
-    "days": [
-     {
-      "title": "The Ridge, the Mall and Jakhoo",
-      "stops": [
-       {
-        "time": "Morning",
-        "name": "Jakhoo Temple",
-        "placeSlug": "jakhoo-temple",
-        "duration": "2 hours"
-       },
-       {
-        "time": "Afternoon",
-        "name": "The Ridge and Lakkar Bazaar",
-        "placeSlug": "ridge-and-mall",
-        "duration": "3 hours"
-       },
-       {
-        "time": "Evening",
-        "name": "Mall Road",
-        "placeSlug": "ridge-and-mall",
-        "duration": "2 hours"
-       }
+  ],
+  "itineraries": [
+    {
+      "place": "himachal-pradesh/shimla",
+      "slug": "shimla-2-days",
+      "title": "Shimla in 2 days: the Ridge, Jakhoo and the Viceregal Lodge",
+      "summary": "Jakhoo Hill's Hanuman temple, the Ridge and the Mall on Day 1; the Viceregal Lodge, the hilltop Tara Devi temple and a short ride on the UNESCO-listed toy train on Day 2.",
+      "durationDays": 2,
+      "tripTypes": [
+        "heritage",
+        "family"
       ],
-      "overnight": "Shimla"
-     },
-     {
-      "title": "Kufri",
-      "distance": "16–19 km each way",
-      "stops": [
-       {
-        "time": "Morning",
-        "name": "Himalayan Nature Park, Kufri",
-        "placeSlug": "kufri",
-        "duration": "2 hours"
-       },
-       {
-        "time": "Late morning",
-        "name": "Kufri Fun World",
-        "placeSlug": "kufri",
-        "duration": "1–2 hours"
-       },
-       {
-        "time": "Afternoon",
-        "name": "Return to Shimla; rest",
-        "duration": "Estimate: 45 minutes' drive"
-       }
+      "seoTitle": "Shimla 2-Day Itinerary: Ridge, Jakhoo, Viceregal Lodge & Toy Train",
+      "seoDescription": "Two days in Shimla: Jakhoo Temple, the Ridge and Mall Road, the Viceregal Lodge's guided tour (9:30 am–5 pm), Tara Devi and a stretch of the Kalka–Shimla railway.",
+      "facts": [
+        "SM4",
+        "SM7",
+        "SM8",
+        "SM9",
+        "SM10",
+        "SM11",
+        "SM12",
+        "SM13",
+        "SM14",
+        "SM15",
+        "SM16",
+        "SM17",
+        "SM18",
+        "SM24",
+        "SM25",
+        "SM29",
+        "SM30",
+        "SM34",
+        "SM36",
+        "SM37",
+        "SM38",
+        "SM39",
+        "SM42",
+        "SM47",
+        "SM49",
+        "SM51",
+        "SM33",
+        "SM40"
       ],
-      "overnight": "Shimla",
-      "access": "Snow can close the Kufri road in winter."
-     },
-     {
-      "title": "Viceregal Lodge and Naldehra",
-      "distance": "23 km each way to Naldehra",
-      "stops": [
-       {
-        "time": "Morning",
-        "name": "Viceregal Lodge guided tour",
-        "placeSlug": "viceregal-lodge",
-        "duration": "2 hours"
-       },
-       {
-        "time": "Afternoon",
-        "name": "Naldehra meadow and golf course",
-        "placeSlug": "naldehra",
-        "duration": "3 hours",
-        "note": "Frequent local buses, or a taxi."
-       },
-       {
-        "time": "On the way back",
-        "name": "Craignano Nature Park",
-        "duration": "1 hour",
-        "note": "Tulips around March–April."
-       }
+      "plan": {
+        "overview": "Shimla's sights are mostly on foot around the Ridge. Day 1 climbs Jakhoo Hill, Shimla's highest point, then walks Lakkar Bazaar, the Ridge with Christ Church and the Gaiety Theatre, and the Mall. Day 2 is the Viceregal Lodge (1888), where Partition's boundaries were drawn, then the Tara Devi temple above Shoghi, and a short ride on the Kalka–Shimla railway, a UNESCO World Heritage line of 102 tunnels.",
+        "style": "Heritage hill-station break",
+        "start": "Shimla (Jubbarhatti airport 23 km; Kalka for the toy train)",
+        "end": "Shimla",
+        "season": "Shimla is visited all year: December–February for snow (now mostly January–early February), April–June for cool weather, with mist in the monsoon.",
+        "difficulty": "Easy to moderate — steep walks",
+        "transport": "On foot in the centre; taxis for the Viceregal Lodge (3.5 km) and Tara Devi.",
+        "budget": {
+          "assumptions": "Hotels, taxis and toy-train fares vary by season and class; only small official charges are listed.",
+          "lines": [
+            {
+              "label": "Vehicle fee up to the Viceregal Lodge",
+              "amount": "₹10 per round",
+              "basis": "Published fee"
+            },
+            {
+              "label": "Viceregal Lodge tour, toy train",
+              "amount": "Not estimated",
+              "basis": "Check when booking"
+            }
+          ]
+        },
+        "booking": [
+          {
+            "item": "Viceregal Lodge",
+            "detail": "Tour tickets are first come, first served; arrive early, and note the 1–2 pm lunch break."
+          },
+          {
+            "item": "Kalka–Shimla toy train (optional)",
+            "detail": "Book the Shivalik Deluxe, Kalka Shimla Express, Himalayan Queen or the rail motor car on IRCTC well ahead."
+          }
+        ],
+        "alternatives": [
+          "Winter visit? Add the open-air ice rink below the Ridge (November–February).",
+          "Want countryside? Add Kufri and Naldehra — see the three-day plan."
+        ],
+        "tips": [
+          "Walk up to Jakhoo early; the climb is steep.",
+          "The Indian Coffee House near Scandal Point is a Shimla institution."
+        ],
+        "prep": [
+          {
+            "title": "Clothing",
+            "body": "Cotton with light woollens suits April–October; bring heavy woollens and a jacket from November."
+          },
+          {
+            "title": "Safety",
+            "body": "Don't stand on cliff edges or riverside boulders for photos."
+          }
+        ],
+        "faqs": [
+          {
+            "q": "What are the Viceregal Lodge timings?",
+            "a": "Open 9:30 am–5 pm; guided tours run from about 10:30 am to 4:30 pm, with a lunch break from 1 to 2 pm."
+          },
+          {
+            "q": "Is the toy train worth it?",
+            "a": "Yes — the Kalka–Shimla line climbs from 656 m to 2,075 m through 102 tunnels; even a short stretch shows its character."
+          }
+        ],
+        "days": [
+          {
+            "title": "The Ridge, the Mall and Jakhoo",
+            "summary": "Shimla's highest hill, the Ridge's landmarks and the Mall.",
+            "stops": [
+              {
+                "time": "9 am",
+                "name": "Jakhoo Temple",
+                "duration": "1.5 hours",
+                "placeSlug": "jakhoo-temple",
+                "note": "2,445 m; a steep half-hour climb from the Ridge, or the ropeway."
+              },
+              {
+                "time": "11 am",
+                "name": "Lakkar Bazaar",
+                "duration": "45 minutes",
+                "placeSlug": "ridge-and-mall",
+                "note": "Wooden crafts and souvenirs."
+              },
+              {
+                "time": "12 pm",
+                "name": "The Ridge",
+                "duration": "1.5 hours",
+                "placeSlug": "ridge-and-mall",
+                "note": "Christ Church, the Gaiety Theatre and the Town Hall; snow-peak views."
+              },
+              {
+                "time": "1:30 pm",
+                "name": "Lunch at the Indian Coffee House",
+                "duration": "1 hour",
+                "placeSlug": "ridge-and-mall",
+                "note": "Near Scandal Point."
+              },
+              {
+                "time": "4 pm",
+                "name": "Mall Road and Scandal Point",
+                "duration": "2 hours",
+                "placeSlug": "ridge-and-mall",
+                "note": "Himachal Emporium for handicrafts."
+              }
+            ],
+            "travel": "All on foot around the Ridge and the Mall.",
+            "distanceKm": 5,
+            "distance": "About 5 km on foot (estimate)",
+            "driveTime": "None — walking day",
+            "transport": "Walking and ropeway",
+            "meals": "Coffee House lunch; dinner on the Mall.",
+            "overnight": "Shimla"
+          },
+          {
+            "title": "Viceregal Lodge, Tara Devi and the toy train",
+            "summary": "The Raj's summer seat, a hilltop temple and a stretch of mountain railway.",
+            "stops": [
+              {
+                "time": "9:30 am",
+                "name": "Viceregal Lodge guided tour",
+                "duration": "2 hours",
+                "placeSlug": "viceregal-lodge",
+                "note": "Open 9:30 am–5 pm; tours from about 10:30 am, 30 minutes, lunch break 1–2 pm."
+              },
+              {
+                "time": "12 pm",
+                "name": "Lunch",
+                "duration": "1 hour"
+              },
+              {
+                "time": "1:30 pm",
+                "name": "Tara Devi Temple",
+                "duration": "1.5 hours",
+                "placeSlug": "tara-devi-temple",
+                "note": "Road up from Shoghi, or on foot from Tara Devi station; 360-degree views."
+              },
+              {
+                "time": "4 pm",
+                "name": "Short toy-train ride",
+                "duration": "1.5 hours",
+                "placeSlug": "kalka-shimla-toy-train",
+                "note": "Ride a stretch of the UNESCO-listed line back towards Shimla."
+              }
+            ],
+            "travel": "Ridge → Viceregal Lodge 3.5 km; Shimla → Shoghi and Tara Devi by taxi.",
+            "distanceKm": 35,
+            "distance": "About 35 km (estimate)",
+            "driveTime": "About 1.5 hours in total (estimate)",
+            "transport": "Taxi and toy train",
+            "meals": "Lunch near the Lodge or on the Mall.",
+            "overnight": "Shimla"
+          }
+        ]
+      }
+    },
+    {
+      "place": "himachal-pradesh/shimla",
+      "slug": "shimla-3-days",
+      "title": "Shimla in 3 days with Kufri and Naldehra",
+      "summary": "The Ridge, the Mall and Jakhoo on Day 1; Kufri's Himalayan Nature Park and Fun World on Day 2; the Viceregal Lodge, Craignano and the Naldehra meadow on Day 3.",
+      "durationDays": 3,
+      "tripTypes": [
+        "family",
+        "mountains",
+        "heritage"
       ],
-      "overnight": "Shimla"
-     }
-    ],
-    "alternatives": [
-     "In winter, Kufri is the place for snow and skiing. Allow for road closures.",
-     "With a car and an extra day, go on to Narkanda for the walk up Hatu Peak (64 km from Shimla)."
-    ],
-    "booking": [
-     {
-      "item": "Viceregal Lodge",
-      "detail": "Tour tickets on arrival, first come, first served."
-     }
-    ],
-    "tips": [
-     "Hire a taxi for the whole Kufri half day; buses are cheaper but less frequent."
-    ],
-    "budget": {
-     "assumptions": "VacayOut has no verified current prices for Shimla hotels, taxis or tickets. Budget for your own hotel and transport choices, and check fees on the spot.",
-     "lines": []
+      "seoTitle": "Shimla 3-Day Itinerary: Ridge, Kufri, Viceregal Lodge & Naldehra",
+      "seoDescription": "Three days around Shimla: Jakhoo and the Ridge, Kufri's nature park (16 km) and Fun World, the Viceregal Lodge, Craignano and the Naldehra golf meadow (23 km).",
+      "facts": [
+        "SM4",
+        "SM7",
+        "SM8",
+        "SM9",
+        "SM10",
+        "SM11",
+        "SM12",
+        "SM13",
+        "SM14",
+        "SM16",
+        "SM19",
+        "SM20",
+        "SM21",
+        "SM22",
+        "SM23",
+        "SM24",
+        "SM29",
+        "SM30",
+        "SM31",
+        "SM34",
+        "SM42",
+        "SM47",
+        "SM49",
+        "SM51",
+        "SM33"
+      ],
+      "plan": {
+        "overview": "Three days mixing Shimla town with the hills around it. Day 1 is Jakhoo Hill, the Ridge and the Mall. Day 2 drives 16 km to Kufri for the Himalayan Nature Park and Fun World (and skiing in winter). Day 3 is the Viceregal Lodge's guided tour, then out along the Naldehra road to Craignano Nature Park and the deodar-ringed Naldehra meadow and golf course, 23 km from Shimla.",
+        "style": "Family hill-station break",
+        "start": "Shimla (Jubbarhatti airport 23 km)",
+        "end": "Shimla",
+        "season": "Shimla is visited all year: December–February for snow (now mostly January–early February), April–June for cool weather, with mist in the monsoon. Kufri skiing is winter-only.",
+        "difficulty": "Easy",
+        "transport": "On foot in the centre; taxi for Kufri, the Viceregal Lodge and Naldehra.",
+        "budget": {
+          "assumptions": "Hotels, taxis and attractions vary by season; only small official charges are listed.",
+          "lines": [
+            {
+              "label": "Vehicle fee up to the Viceregal Lodge",
+              "amount": "₹10 per round",
+              "basis": "Published fee"
+            },
+            {
+              "label": "Kufri park, Fun World, Lodge tour",
+              "amount": "Not estimated",
+              "basis": "Check on the day"
+            }
+          ]
+        },
+        "booking": [
+          {
+            "item": "Viceregal Lodge",
+            "detail": "Tour tickets are first come, first served; arrive early, and note the 1–2 pm lunch break."
+          },
+          {
+            "item": "Taxi",
+            "detail": "Hire a taxi for Day 2 (Kufri) and Day 3 (Viceregal Lodge and Naldehra)."
+          }
+        ],
+        "alternatives": [
+          "Snow in January–February? Add skiing at Kufri on Day 2.",
+          "Spring visit? Look in at Craignano's tulip garden."
+        ],
+        "tips": [
+          "Start for Kufri early.",
+          "Carry woollens for Kufri even in summer.",
+          "The Indian Coffee House near Scandal Point is a Shimla institution."
+        ],
+        "prep": [
+          {
+            "title": "Clothing",
+            "body": "Cotton with light woollens suits April–October; bring heavy woollens and a jacket from November."
+          },
+          {
+            "title": "Safety",
+            "body": "Don't stand on cliff edges or riverside boulders for photos."
+          }
+        ],
+        "faqs": [
+          {
+            "q": "How far is Kufri from Shimla?",
+            "a": "The Himalayan Nature Park is about 16 km and Fun World about 18 km from Shimla."
+          },
+          {
+            "q": "How far is Naldehra?",
+            "a": "About 23 km from Shimla, with frequent local buses and taxis."
+          }
+        ],
+        "days": [
+          {
+            "title": "The Ridge, the Mall and Jakhoo",
+            "summary": "Shimla's highest hill, the Ridge's landmarks and the Mall.",
+            "stops": [
+              {
+                "time": "9 am",
+                "name": "Jakhoo Temple",
+                "duration": "1.5 hours",
+                "placeSlug": "jakhoo-temple",
+                "note": "2,445 m; a steep half-hour climb from the Ridge, or the ropeway."
+              },
+              {
+                "time": "11 am",
+                "name": "Lakkar Bazaar",
+                "duration": "45 minutes",
+                "placeSlug": "ridge-and-mall",
+                "note": "Wooden crafts and souvenirs."
+              },
+              {
+                "time": "12 pm",
+                "name": "The Ridge",
+                "duration": "1.5 hours",
+                "placeSlug": "ridge-and-mall",
+                "note": "Christ Church, the Gaiety Theatre and the Town Hall; snow-peak views."
+              },
+              {
+                "time": "1:30 pm",
+                "name": "Lunch at the Indian Coffee House",
+                "duration": "1 hour",
+                "placeSlug": "ridge-and-mall",
+                "note": "Near Scandal Point."
+              },
+              {
+                "time": "4 pm",
+                "name": "Mall Road and Scandal Point",
+                "duration": "2 hours",
+                "placeSlug": "ridge-and-mall",
+                "note": "Himachal Emporium for handicrafts."
+              }
+            ],
+            "travel": "All on foot around the Ridge and the Mall.",
+            "distanceKm": 5,
+            "distance": "About 5 km on foot (estimate)",
+            "driveTime": "None — walking day",
+            "transport": "Walking and ropeway",
+            "meals": "Coffee House lunch; dinner on the Mall.",
+            "overnight": "Shimla"
+          },
+          {
+            "title": "Kufri",
+            "summary": "The nature park and Fun World above Shimla.",
+            "stops": [
+              {
+                "time": "9 am",
+                "name": "Drive to Kufri",
+                "duration": "45 minutes",
+                "placeSlug": "kufri",
+                "note": "About 16 km."
+              },
+              {
+                "time": "10 am",
+                "name": "Himalayan Nature Park",
+                "duration": "2 hours",
+                "placeSlug": "kufri",
+                "note": "More than 180 species of Himalayan birds and animals."
+              },
+              {
+                "time": "12:15 pm",
+                "name": "Lunch",
+                "duration": "1 hour"
+              },
+              {
+                "time": "1:30 pm",
+                "name": "Kufri Fun World",
+                "duration": "2 hours",
+                "placeSlug": "kufri",
+                "note": "18 km from Shimla on the Fagu road; skiing in winter."
+              },
+              {
+                "time": "4 pm",
+                "name": "Return to Shimla",
+                "duration": "45 minutes"
+              }
+            ],
+            "travel": "Shimla ↔ Kufri about 16–18 km each way.",
+            "distanceKm": 40,
+            "distance": "About 40 km (estimate)",
+            "driveTime": "About 1.5 hours in total (estimate)",
+            "transport": "Taxi",
+            "meals": "Lunch at Kufri.",
+            "overnight": "Shimla"
+          },
+          {
+            "title": "Viceregal Lodge and Naldehra",
+            "summary": "The Raj's summer seat, a tulip park and the deodar meadow.",
+            "stops": [
+              {
+                "time": "9:30 am",
+                "name": "Viceregal Lodge guided tour",
+                "duration": "2 hours",
+                "placeSlug": "viceregal-lodge",
+                "note": "Open 9:30 am–5 pm; tours from about 10:30 am, 30 minutes, lunch break 1–2 pm."
+              },
+              {
+                "time": "12 pm",
+                "name": "Lunch",
+                "duration": "1 hour"
+              },
+              {
+                "time": "1:30 pm",
+                "name": "Craignano Nature Park",
+                "duration": "1 hour",
+                "placeSlug": "naldehra",
+                "note": "About 16 km out, off the Naldehra road; it has a tulip garden."
+              },
+              {
+                "time": "3 pm",
+                "name": "Naldehra meadow and golf course",
+                "duration": "1.5 hours",
+                "placeSlug": "naldehra",
+                "note": "23 km from Shimla, ringed by deodar."
+              }
+            ],
+            "travel": "Ridge → Viceregal Lodge 3.5 km; Shimla → Craignano about 16 km → Naldehra 23 km.",
+            "distanceKm": 55,
+            "distance": "About 55 km (estimate)",
+            "driveTime": "About 2 hours in total (estimate)",
+            "transport": "Taxi",
+            "meals": "Lunch near the Lodge.",
+            "overnight": "Shimla"
+          }
+        ]
+      }
     }
-   },
-   "sources": []
-  }
- ]
+  ]
 }

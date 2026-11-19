@@ -1458,220 +1458,422 @@
     {
       "place": "uttarakhand/rishikesh",
       "slug": "rishikesh-2-days",
-      "title": "Rishikesh in 2 days",
-      "summary": "Swargashram's ashrams, the Beatles Ashram and the Triveni Ghat aarti, then a morning rafting from Shivpuri.",
+      "title": "Rishikesh in 2 days: ashrams, the Beatles Ashram and a rafting run",
+      "summary": "Yoga, Parmarth Niketan, the Beatles Ashram and the Triveni Ghat aarti on Day 1; the Shivpuri rafting run down to Lakshman Jhula on Day 2.",
       "durationDays": 2,
       "tripTypes": [
         "spiritual",
         "adventure",
         "weekend"
       ],
-      "seoTitle": "2-Day Rishikesh Itinerary: Ashrams, Aarti & Rafting",
-      "seoDescription": "Two days in Rishikesh: Swargashram, Parmarth Niketan and the Beatles Ashram, the Triveni Ghat aarti, and rafting from Shivpuri in season (Sept–June).",
+      "seoTitle": "Rishikesh 2-Day Itinerary: Yoga, Beatles Ashram, Aarti & Rafting",
+      "seoDescription": "Two days in Rishikesh: a yoga class, Parmarth Niketan, the Beatles Ashram (10 am–4 pm), the Triveni Ghat aarti, and rafting the 11 km run from Shivpuri.",
       "facts": [
+        "RK1",
+        "RK3",
+        "RK5",
+        "RK6",
+        "RK7",
+        "RK16",
+        "RK10",
+        "RK11",
+        "RK15",
         "RK18",
         "RK19",
-        "RK16",
-        "RK15",
         "RK20",
-        "RK11",
-        "RK10",
-        "RK28",
         "RK26",
-        "RK21"
+        "RK28",
+        "BEA_F",
+        "UTTARA_RK5",
+        "UTTARA_RK7",
+        "UTTARA_RK8"
       ],
       "plan": {
-        "overview": "A classic weekend: the spiritual east bank on day 1, and the river on day 2. Rafting runs only from September to June; in July–August, swap day 2 for Narendranagar.",
-        "start": "Rishikesh",
+        "overview": "Two days covering both sides of Rishikesh. Day 1 is spiritual: a morning yoga class in Swargashram, Parmarth Niketan on the Ganga, the Beatles Ashram in the forest (open 10 am–4 pm), Ram Jhula and Bharat Mandir, and the lamp-lit aarti at Triveni Ghat at dusk. Day 2 is the river: the classic rafting run from Shivpuri, about 11 km down to Lakshman Jhula, with an easy afternoon in the cafés.",
+        "style": "Spiritual and adventure weekend",
+        "start": "Rishikesh (Jolly Grant airport 21 km; Haridwar railhead about 25 km)",
         "end": "Rishikesh",
-        "transport": "On foot in Swargashram; taxi or operator transfer to Shivpuri",
-        "difficulty": "Easy (rafting optional)",
+        "season": "September–November and February–April are the best months. Rafting runs September to June and stops in July–August for the monsoon.",
+        "difficulty": "Easy to moderate — rafting is physical",
+        "transport": "Walk and shared autos in town; the rafting operator handles transport to Shivpuri.",
+        "budget": {
+          "assumptions": "Yoga classes, rafting and hotels vary by operator and season; only the Beatles Ashram fee is reported.",
+          "lines": [
+            {
+              "label": "Beatles Ashram",
+              "amount": "About ₹200 (Indian); more for foreign visitors",
+              "basis": "Reported forest-department fee"
+            },
+            {
+              "label": "Rafting, yoga class",
+              "amount": "Not estimated",
+              "basis": "Compare certified operators"
+            }
+          ]
+        },
+        "booking": [
+          {
+            "item": "Rafting",
+            "detail": "Book with a certified operator; the common run starts at Shivpuri, 19 km upstream, and covers about 11 km to Lakshman Jhula."
+          },
+          {
+            "item": "Yoga",
+            "detail": "Drop-in classes run at many Swargashram ashrams; check times the day before."
+          }
+        ],
+        "alternatives": [
+          "Monsoon visit (July–August)? Rafting is suspended — swap Day 2 for the Neelkanth Mahadev temple (28 km).",
+          "Not a rafter? Take the Waterfall Trek on Day 2."
+        ],
+        "tips": [
+          "Reach Triveni Ghat early for a good spot at the aarti.",
+          "The Beatles Ashram is inside Rajaji Tiger Reserve and closes at 4 pm.",
+          "The old Lakshman Jhula is closed; cross by Ram Jhula."
+        ],
+        "prep": [
+          {
+            "title": "Town rules",
+            "body": "Rishikesh is a vegetarian, alcohol-free town. Dress modestly at the ashrams and ghats."
+          },
+          {
+            "title": "Rafting",
+            "body": "Carry a change of clothes and sunscreen; leave phones with the operator or in a dry bag."
+          }
+        ],
+        "faqs": [
+          {
+            "q": "When is rafting possible in Rishikesh?",
+            "a": "September to June; it's suspended in July–August during the monsoon."
+          },
+          {
+            "q": "What are the Beatles Ashram timings?",
+            "a": "10 am to 4 pm."
+          }
+        ],
         "days": [
           {
             "title": "Ashrams, the Beatles and the aarti",
+            "summary": "Yoga, two ashrams, the bridge and the evening aarti.",
             "stops": [
               {
-                "time": "Morning",
-                "name": "Yoga class at a Swargashram ashram",
+                "time": "7 am",
+                "name": "Yoga class in Swargashram",
+                "duration": "1.5 hours",
                 "placeSlug": "swargashram",
-                "duration": "1.5 hours"
+                "note": "East-bank ashrams with drop-in classes."
               },
               {
-                "time": "Late morning",
+                "time": "9:30 am",
                 "name": "Parmarth Niketan",
+                "duration": "1 hour",
                 "placeSlug": "parmarth-niketan",
-                "duration": "1 hour"
+                "note": "One of the largest ashrams, founded 1942."
               },
               {
-                "time": "Afternoon",
-                "name": "Beatles Ashram",
+                "time": "11 am",
+                "name": "Beatles Ashram (Chaurasi Kutia)",
+                "duration": "2 hours",
                 "placeSlug": "beatles-ashram",
-                "duration": "2 hours"
+                "note": "Open 10 am–4 pm; ruins with Beatles graffiti in the forest."
               },
               {
-                "time": "Late afternoon",
-                "name": "Cross Ram Jhula; Bharat Mandir",
-                "placeSlug": "bharat-mandir",
-                "duration": "1 hour"
-              },
-              {
-                "time": "Evening",
-                "name": "Triveni Ghat aarti",
-                "placeSlug": "triveni-ghat",
+                "time": "1:30 pm",
+                "name": "Lunch",
                 "duration": "1.5 hours"
+              },
+              {
+                "time": "3:30 pm",
+                "name": "Ram Jhula and Bharat Mandir",
+                "duration": "1.5 hours",
+                "placeSlug": "bharat-mandir",
+                "note": "Cross Ram Jhula (1986); Bharat Mandir is among the oldest shrines."
+              },
+              {
+                "time": "Dusk",
+                "name": "Ganga aarti at Triveni Ghat",
+                "duration": "1 hour",
+                "placeSlug": "triveni-ghat",
+                "note": "Lamps, drums and chanting."
               }
             ],
-            "meals": "Vegetarian only. The city is alcohol-free.",
+            "travel": "East bank on foot; shared auto across town to Triveni Ghat.",
+            "distanceKm": 8,
+            "distance": "About 8 km (estimate)",
+            "driveTime": "Short auto rides",
+            "transport": "Walking and shared auto",
+            "meals": "Vegetarian cafés in Swargashram.",
             "overnight": "Rishikesh"
           },
           {
             "title": "Rafting from Shivpuri",
-            "distance": "19 km to Shivpuri; about 11 km on the river",
+            "summary": "The Ganga's classic run, then an easy afternoon.",
             "stops": [
               {
-                "time": "Morning",
-                "name": "Rafting, Shivpuri to Lakshman Jhula",
+                "time": "8:30 am",
+                "name": "Drive to Shivpuri",
+                "duration": "45 minutes",
                 "placeSlug": "shivpuri",
-                "duration": "Half day",
-                "note": "September–June only; use a certified operator."
+                "note": "19 km upstream."
               },
               {
-                "time": "Afternoon",
-                "name": "Rest, or a café walk on the east bank",
-                "duration": "2–3 hours"
+                "time": "9:30 am",
+                "name": "Rafting, Shivpuri → Lakshman Jhula",
+                "duration": "3 hours",
+                "placeSlug": "shivpuri",
+                "note": "About 11 km; graded rapids."
+              },
+              {
+                "time": "1 pm",
+                "name": "Lunch",
+                "duration": "1.5 hours"
+              },
+              {
+                "time": "3 pm",
+                "name": "Café walk on the east bank",
+                "duration": "2 hours",
+                "placeSlug": "rishikesh"
               }
             ],
-            "overnight": "Rishikesh",
-            "access": "Rafting suspended in July–August."
+            "travel": "Rishikesh → Shivpuri 19 km by road; back down by raft.",
+            "distanceKm": 30,
+            "distance": "About 30 km (estimate)",
+            "driveTime": "About 45 minutes by road",
+            "transport": "Operator's vehicle and raft",
+            "meals": "Lunch in a riverside café.",
+            "overnight": "Rishikesh"
           }
-        ],
-        "alternatives": [
-          "July–August: replace rafting with a drive up to Narendranagar (20 km) for valley views."
-        ],
-        "booking": [
-          {
-            "item": "Rafting",
-            "detail": "Book with a certified operator. Ask what's included (transfer, gear, guide)."
-          }
-        ],
-        "tips": [
-          "Cross at Ram Jhula. The old Lakshman Jhula is closed."
-        ],
-        "budget": {
-          "assumptions": "VacayOut has no verified current prices for Rishikesh hotels, transport or activities. Budget for your own choices and confirm fees with operators on the spot.",
-          "lines": []
-        }
-      },
-      "sources": []
+        ]
+      }
     },
     {
       "place": "uttarakhand/rishikesh",
       "slug": "rishikesh-3-days",
-      "title": "Rishikesh in 3 days with Neelkanth",
-      "summary": "Ashrams and the aarti, a rafting morning, and a trip to Neelkanth Mahadev or Narendranagar in the hills.",
+      "title": "Rishikesh in 3 days with Neelkanth and Kunjapuri",
+      "summary": "The ashrams, Beatles Ashram and Triveni Ghat aarti on Day 1; rafting from Shivpuri and an optional bungee jump on Day 2; the Neelkanth Mahadev temple and sunset at Kunjapuri on Day 3.",
       "durationDays": 3,
       "tripTypes": [
         "spiritual",
         "adventure"
       ],
-      "seoTitle": "3-Day Rishikesh Itinerary with Neelkanth & Rafting",
-      "seoDescription": "Three days in Rishikesh: ashrams, the Beatles Ashram and Triveni Ghat aarti, rafting from Shivpuri, then Neelkanth Mahadev or Narendranagar.",
+      "seoTitle": "Rishikesh 3-Day Itinerary: Ashrams, Rafting, Neelkanth & Kunjapuri",
+      "seoDescription": "Three days in Rishikesh: ashrams, the Beatles Ashram and Triveni aarti, rafting from Shivpuri and an 83 m bungee, then Neelkanth Mahadev (28 km) and Kunjapuri.",
       "facts": [
-        "RK18",
-        "RK16",
-        "RK15",
-        "RK11",
+        "RK1",
+        "RK3",
+        "RK5",
+        "RK6",
         "RK10",
-        "RK27",
-        "RK21",
+        "RK11",
         "RK12",
-        "RK14"
+        "RK15",
+        "RK18",
+        "RK19",
+        "RK21",
+        "RK26",
+        "RK27",
+        "RK28",
+        "BEA_F",
+        "KUN_D",
+        "UTTARA_RK3",
+        "UTTARA_RK5",
+        "UTTARA_RK7",
+        "UTTARA_RK8"
       ],
       "plan": {
-        "overview": "The 2-day plan plus a day in the hills. Neelkanth Mahadev is 28 km through the forest; Narendranagar is 20 km uphill.",
-        "start": "Rishikesh",
+        "overview": "Three days to see Rishikesh's ashrams, its river and its hills. Day 1 is the east bank's ashrams, the Beatles Ashram and the Triveni Ghat aarti. Day 2 rafts the 11 km run from Shivpuri, with an optional 83 m bungee jump at Mohanchatti. Day 3 drives 28 km into the forest to the Neelkanth Mahadev temple, then climbs to Kunjapuri Devi (1,676 m), about 27.5 km from Rishikesh, for the evening view of the snow peaks.",
+        "style": "Spiritual and adventure",
+        "start": "Rishikesh (Jolly Grant airport 21 km)",
         "end": "Rishikesh",
-        "transport": "On foot and taxi",
-        "difficulty": "Easy to moderate",
+        "season": "September–November and February–April are the best months. Rafting runs September to June and stops in July–August for the monsoon.",
+        "difficulty": "Moderate — rafting and hill drives",
+        "transport": "Walk and shared autos in town; taxi for Day 3; operators run transfers for rafting and bungee.",
+        "budget": {
+          "assumptions": "Rafting, bungee and hotel prices vary by operator; only the Beatles Ashram fee is reported.",
+          "lines": [
+            {
+              "label": "Beatles Ashram",
+              "amount": "About ₹200 (Indian); more for foreign visitors",
+              "basis": "Reported forest-department fee"
+            },
+            {
+              "label": "Rafting, bungee",
+              "amount": "Not estimated",
+              "basis": "Compare certified operators"
+            }
+          ]
+        },
+        "booking": [
+          {
+            "item": "Rafting",
+            "detail": "Book with a certified operator; the common run starts at Shivpuri, 19 km upstream, and covers about 11 km to Lakshman Jhula."
+          },
+          {
+            "item": "Bungee (optional)",
+            "detail": "Book Mohanchatti's bungee in advance and check the operator's rules."
+          },
+          {
+            "item": "Taxi",
+            "detail": "Hire a taxi for Day 3 (Neelkanth and Kunjapuri)."
+          }
+        ],
+        "alternatives": [
+          "Monsoon (July–August)? Rafting stops — do the Waterfall Trek or Narendranagar instead on Day 2.",
+          "Early riser? Do Kunjapuri at sunrise on Day 3 and Neelkanth after."
+        ],
+        "tips": [
+          "The Beatles Ashram closes at 4 pm.",
+          "Rishikesh is vegetarian and alcohol-free.",
+          "Start the Neelkanth drive early to beat the queues."
+        ],
+        "prep": [
+          {
+            "title": "Town rules",
+            "body": "Rishikesh is a vegetarian, alcohol-free town. Dress modestly at the ashrams and ghats."
+          },
+          {
+            "title": "Rafting",
+            "body": "Carry a change of clothes and sunscreen; listen to the guide's safety briefing."
+          }
+        ],
+        "faqs": [
+          {
+            "q": "How far is Neelkanth Mahadev from Rishikesh?",
+            "a": "About 28 km, in the forest."
+          },
+          {
+            "q": "Is Kunjapuri good for sunrise or sunset?",
+            "a": "It's best known as a sunrise point, but the views of the snow peaks work at sunset too."
+          }
+        ],
         "days": [
           {
-            "title": "East bank ashrams and aarti",
+            "title": "East-bank ashrams and the aarti",
+            "summary": "Yoga, the Beatles Ashram, Parmarth and Triveni Ghat.",
             "stops": [
               {
-                "time": "Morning",
-                "name": "Swargashram",
-                "placeSlug": "swargashram",
-                "duration": "2 hours"
+                "time": "7 am",
+                "name": "Yoga class in Swargashram",
+                "duration": "1.5 hours",
+                "placeSlug": "swargashram"
               },
               {
-                "time": "Afternoon",
-                "name": "Beatles Ashram",
+                "time": "10 am",
+                "name": "Beatles Ashram (Chaurasi Kutia)",
+                "duration": "2 hours",
                 "placeSlug": "beatles-ashram",
-                "duration": "2 hours"
+                "note": "Open 10 am–4 pm."
               },
               {
-                "time": "Evening",
-                "name": "Triveni Ghat aarti",
-                "placeSlug": "triveni-ghat",
+                "time": "12:30 pm",
+                "name": "Lunch",
                 "duration": "1.5 hours"
+              },
+              {
+                "time": "2:30 pm",
+                "name": "Parmarth Niketan",
+                "duration": "1 hour",
+                "placeSlug": "parmarth-niketan"
+              },
+              {
+                "time": "4 pm",
+                "name": "Cross Ram Jhula",
+                "duration": "1 hour",
+                "placeSlug": "rishikesh"
+              },
+              {
+                "time": "Dusk",
+                "name": "Ganga aarti at Triveni Ghat",
+                "duration": "1 hour",
+                "placeSlug": "triveni-ghat"
               }
             ],
+            "travel": "On foot on the east bank; shared auto to Triveni Ghat.",
+            "distanceKm": 8,
+            "distance": "About 8 km (estimate)",
+            "driveTime": "Short auto rides",
+            "transport": "Walking and shared auto",
+            "meals": "Vegetarian cafés.",
             "overnight": "Rishikesh"
           },
           {
             "title": "River day",
+            "summary": "Rafting from Shivpuri, then an optional bungee.",
             "stops": [
               {
-                "time": "Morning",
-                "name": "Rafting from Shivpuri",
+                "time": "8:30 am",
+                "name": "Rafting, Shivpuri → Lakshman Jhula",
+                "duration": "3.5 hours",
                 "placeSlug": "shivpuri",
-                "duration": "Half day",
-                "note": "September–June."
+                "note": "19 km upstream; about 11 km of river."
               },
               {
-                "time": "Afternoon",
+                "time": "12:30 pm",
+                "name": "Lunch",
+                "duration": "1.5 hours"
+              },
+              {
+                "time": "2:30 pm",
                 "name": "Bungee or giant swing at Mohanchatti (optional)",
+                "duration": "3 hours",
                 "placeSlug": "bungee-jumping-rishikesh",
-                "duration": "2–3 hours"
+                "note": "Jumps of up to 83 m."
               }
             ],
+            "travel": "Rishikesh ↔ Shivpuri 19 km; operator transfers to Mohanchatti.",
+            "distanceKm": 60,
+            "distance": "About 60 km (estimate)",
+            "driveTime": "About 2 hours in total (estimate)",
+            "transport": "Operator vehicles and raft",
+            "meals": "Lunch on the east bank.",
             "overnight": "Rishikesh"
           },
           {
-            "title": "Neelkanth or Narendranagar",
-            "distance": "28 km to Neelkanth; 20 km to Narendranagar",
+            "title": "Neelkanth Mahadev and Kunjapuri",
+            "summary": "A forest temple, then the hilltop goddess and her view.",
             "stops": [
               {
-                "time": "Morning",
-                "name": "Neelkanth Mahadev Temple",
-                "duration": "Half day (estimate, including the drive)"
+                "time": "7 am",
+                "name": "Drive to Neelkanth Mahadev",
+                "duration": "1.5 hours",
+                "placeSlug": "rishikesh",
+                "note": "About 28 km."
               },
               {
-                "time": "Afternoon",
-                "name": "Narendranagar viewpoints",
+                "time": "8:30 am",
+                "name": "Neelkanth Mahadev Temple",
+                "duration": "1.5 hours",
+                "placeSlug": "rishikesh"
+              },
+              {
+                "time": "10:30 am",
+                "name": "Back to Rishikesh and lunch",
+                "duration": "3 hours"
+              },
+              {
+                "time": "2:30 pm",
+                "name": "Drive to Kunjapuri Devi via Narendranagar",
+                "duration": "1.5 hours",
                 "placeSlug": "narendranagar",
-                "duration": "2 hours"
+                "note": "Narendranagar, the old Tehri capital, is 20 km out."
+              },
+              {
+                "time": "4:30 pm",
+                "name": "Kunjapuri Devi Temple",
+                "duration": "1.5 hours",
+                "placeSlug": "rishikesh",
+                "note": "1,676 m, about 27.5 km from Rishikesh; snow-peak views."
               }
             ],
+            "travel": "Rishikesh ↔ Neelkanth about 28 km each way; Rishikesh ↔ Kunjapuri about 27.5 km each way.",
+            "distanceKm": 112,
+            "distance": "About 112 km (estimate)",
+            "driveTime": "About 4 hours in total (estimate)",
+            "transport": "Taxi",
+            "meals": "Lunch in Rishikesh.",
             "overnight": "Rishikesh"
           }
-        ],
-        "alternatives": [
-          "Fit walkers: do the Kunjapuri trek for snow-peak views instead of day 3's drive.",
-          "July–August: skip day 2's rafting; spend it on yoga or the Waterfall Trek."
-        ],
-        "booking": [
-          {
-            "item": "Rafting and bungee",
-            "detail": "Book with certified operators in advance on weekends."
-          }
-        ],
-        "budget": {
-          "assumptions": "VacayOut has no verified current prices for Rishikesh hotels, transport or activities. Budget for your own choices and confirm fees with operators on the spot.",
-          "lines": []
-        }
-      },
-      "sources": []
+        ]
+      }
     },
     {
       "place": "uttarakhand",

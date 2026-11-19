@@ -31,7 +31,7 @@ elif cmd == "import":
             elif t["sources"][sid]["url"] != s["sources"][sid]["url"]: raise SystemExit(f"source id clash {sid}")
         t["facts"][nid] = fc; out.append(nid)
         # carry the quote checks too
-        sc = f"{D}/checks/{fn}.json"; tc = f"{D}/checks/{os.path.basename(tp)}"
+        sc = f"{D}/checks/{fn}.json"; tc = os.path.join(os.path.dirname(tp), "checks", os.path.basename(tp))
         if os.path.exists(sc):
             a = load(sc); b = load(tc) if os.path.exists(tc) else {}
             for i in range(len(fc["evidence"])):
@@ -40,7 +40,7 @@ elif cmd == "import":
     save(tp, t); print(" ".join(out))
 elif cmd == "verify":
     src = open("research/tools/verify.py").read(); ns = {}; exec(src.split("path = sys.argv[1]")[0], ns)
-    p = sys.argv[2]; d = load(p); cp = f"{D}/checks/{os.path.basename(p)}"; c = load(cp) if os.path.exists(cp) else {}
+    p = sys.argv[2]; d = load(p); cp = os.path.join(os.path.dirname(p), "checks", os.path.basename(p)); c = load(cp) if os.path.exists(cp) else {}
     pages = {}; now = datetime.datetime.now(datetime.timezone.utc).isoformat(); bad = 0
     for fid in sys.argv[3:]:
         for i, ev in enumerate(d["facts"][fid]["evidence"]):

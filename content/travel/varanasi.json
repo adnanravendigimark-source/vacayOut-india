@@ -93,6 +93,21 @@
       "url": "https://www.incredibleindia.gov.in/en/uttar-pradesh/varanasi/10-unmissable-travel-and-food-experiences",
       "title": "10 unmissable travel and food experiences in Varanasi — Incredible India (Ministry of Tourism)",
       "authority": "government"
+    },
+    "II_SRM": {
+      "url": "https://www.incredibleindia.gov.in/en/uttar-pradesh/varanasi/sarnath-museum",
+      "title": "Sarnath Museum — Incredible India",
+      "authority": "government"
+    },
+    "TRW_SRM": {
+      "url": "https://www.trawell.in/uttar-pradesh/sarnath/archaeological-museum-sarnath-museum",
+      "title": "Sarnath Museum — Trawell",
+      "authority": "travel_platform"
+    },
+    "TRV_KVT": {
+      "url": "https://www.trivenicabs.in/blog/kashi-vishwanath-darshan-first-time-visitor-sequence-gates-car",
+      "title": "Kashi Vishwanath darshan for first-time visitors — Triveni Cabs",
+      "authority": "travel_platform"
     }
   },
   "facts": {
@@ -857,6 +872,34 @@
         {
           "source": "II_VN_10",
           "quote": "A Banarasi Saree can take anything from fifteen days to a month, and occasionally up to six months to produce"
+        }
+      ]
+    },
+    "VN_SRM": {
+      "place": "uttar-pradesh/sarnath",
+      "topic": "Sarnath Museum hours",
+      "claimType": "opening_hours",
+      "claim": "The Sarnath Museum is closed on Fridays; it is open from about 9 or 10 am to 5 pm on other days.",
+      "evidence": [
+        {
+          "source": "II_SRM",
+          "quote": "Closed: Fridays"
+        },
+        {
+          "source": "TRW_SRM",
+          "quote": "Timings: 9 AM - 5 PM, Closed on Friday"
+        }
+      ]
+    },
+    "VN_KVT": {
+      "place": "uttar-pradesh/kashi-vishwanath-temple",
+      "topic": "Phones and bags",
+      "claimType": "rule",
+      "claim": "Phones, cameras and bags are not allowed into Kashi Vishwanath; leave them at the lockers outside the entrance.",
+      "evidence": [
+        {
+          "source": "TRV_KVT",
+          "quote": "Phones, cameras and bags do not go in; the desks and lockers outside the entrance hold them, and the shops in the lane will hold them too for a small charge."
         }
       ]
     }
@@ -1729,161 +1772,247 @@
     {
       "place": "uttar-pradesh/varanasi",
       "slug": "varanasi-3-days-ghats-and-sarnath",
-      "title": "Three days in Varanasi: the ghats, the old city and Sarnath",
-      "summary": "Evening aarti on arrival, a sunrise boat ride and the old city's temples and lanes, then a morning at Sarnath where the Buddha first taught.",
+      "title": "Varanasi in 3 days: the ghats, Kashi Vishwanath and Sarnath",
+      "summary": "The ghats and the evening Ganga Aarti on arrival, a sunrise boat, Kashi Vishwanath and Ramnagar Fort on Day 2, and Sarnath — where the Buddha gave his first sermon — on Day 3.",
       "durationDays": 3,
       "tripTypes": [
         "spiritual",
         "heritage"
       ],
-      "seoTitle": "3 Days in Varanasi Itinerary: Ghats, Aarti & Sarnath",
-      "seoDescription": "A realistic three-day Varanasi itinerary: the Ganga Aarti, a dawn boat ride, Subah-e-Banaras, Kashi Vishwanath, Ramnagar Fort and a half day at Sarnath.",
+      "seoTitle": "Varanasi 3-Day Itinerary: Ghats, Ganga Aarti, Vishwanath, Sarnath",
+      "seoDescription": "Three days in Varanasi with real timings: the evening Ganga Aarti, a sunrise boat, Kashi Vishwanath (no phones), Ramnagar Fort and Sarnath (museum shut Fridays).",
+      "facts": [
+        "V1",
+        "V2",
+        "V3",
+        "V4",
+        "V5",
+        "V6",
+        "V8",
+        "V9",
+        "V11",
+        "V12",
+        "V13",
+        "DG1",
+        "DG2",
+        "DG3",
+        "AG1",
+        "AG2",
+        "AG3",
+        "MG1",
+        "MG2",
+        "KV1",
+        "KV2",
+        "KV3",
+        "VN_KVT",
+        "RN1",
+        "RN2",
+        "RN3",
+        "RN4",
+        "S1",
+        "S2",
+        "S3",
+        "S5",
+        "S6",
+        "S7",
+        "S8",
+        "S9",
+        "VN_SRM",
+        "VNA1",
+        "VNA2",
+        "VNA3",
+        "VNB1",
+        "VNB2"
+      ],
       "plan": {
-        "overview": "Varanasi runs to the river's timetable: up before dawn, a slow middle of the day, and the aarti at dusk. This plan keeps mornings and evenings for the ghats and uses the hot middle hours for the old city, museums and rest. Most of it is on foot.",
-        "days": [
-          {
-            "title": "Arrive and the evening aarti",
-            "stops": [
-              {
-                "time": "Afternoon",
-                "name": "Check in near the ghats and rest",
-                "duration": "2 hours"
-              },
-              {
-                "time": "Late afternoon",
-                "name": "Walk the riverfront north from Assi Ghat",
-                "placeSlug": "assi-ghat",
-                "duration": "1.5 hours"
-              },
-              {
-                "time": "Dusk",
-                "name": "Ganga Aarti at Dashashwamedh Ghat",
-                "placeSlug": "dashashwamedh-ghat",
-                "duration": "About 45 minutes",
-                "note": "Arrive early for a spot, or watch from a boat."
-              }
-            ],
-            "meals": "Dinner near the ghats.",
-            "overnight": "Varanasi"
-          },
-          {
-            "title": "Sunrise on the river and the old city",
-            "stops": [
-              {
-                "time": "Sunrise",
-                "name": "Boat ride along the ghats",
-                "duration": "1–1.5 hours",
-                "note": "Agree the price first."
-              },
-              {
-                "time": "Early morning",
-                "name": "Subah-e-Banaras at Assi Ghat",
-                "placeSlug": "assi-ghat",
-                "duration": "1 hour"
-              },
-              {
-                "time": "Mid-morning",
-                "name": "Kashi Vishwanath Temple and the old-city lanes",
-                "placeSlug": "kashi-vishwanath-temple",
-                "duration": "2–3 hours",
-                "note": "Book Sugam Darshan to skip the queue. Phones and bags may need to go in a locker."
-              },
-              {
-                "time": "Afternoon",
-                "name": "Rest",
-                "duration": "2 hours"
-              },
-              {
-                "time": "Late afternoon",
-                "name": "Ramnagar Fort",
-                "placeSlug": "ramnagar-fort",
-                "duration": "1.5 hours",
-                "note": "Open until 5 pm; go by road or a 30-minute boat ride."
-              }
-            ],
-            "meals": "Kachori sabzi for breakfast; lassi in the lanes.",
-            "overnight": "Varanasi"
-          },
-          {
-            "title": "Sarnath",
-            "stops": [
-              {
-                "time": "Morning",
-                "name": "Sarnath: Chaukhandi Stupa, the Deer Park and the Dhamekh Stupa",
-                "placeSlug": "sarnath",
-                "duration": "3–4 hours",
-                "note": "About 8 km from Varanasi. Visit the museum too."
-              },
-              {
-                "time": "Afternoon",
-                "name": "Silk shopping or onward travel",
-                "duration": "2 hours",
-                "note": "Look for the GI tag on Banarasi silk."
-              }
-            ],
-            "travel": "Auto-rickshaw or taxi to Sarnath, about 8 km each way.",
-            "overnight": "Varanasi, or onward by train or flight"
-          }
-        ],
+        "overview": "Three days are enough to see Varanasi's two sides: the river city of ghats and temples, and Sarnath, 8 km away, where the Buddha gave his first sermon. Day 1 walks the ghats from Assi and ends at Dashashwamedh for the evening Ganga Aarti. Day 2 starts on a rowing boat at sunrise, then Kashi Vishwanath through the new corridor, and Ramnagar Fort across the river in the afternoon. Day 3 is Sarnath's stupas and museum — closed on Fridays — before you leave.",
+        "style": "Spiritual city stay",
+        "start": "Varanasi (LBS airport about 25 km from the centre; Varanasi Junction and Banaras stations)",
+        "end": "Varanasi",
+        "season": "October to March is the most pleasant; winter mornings often bring fog over the river. April–June is hot and dry; the monsoon runs July–October. Dev Deepawali, 15 days after Diwali, lights the ghats with lamps.",
+        "difficulty": "Easy — steep ghat steps and crowded lanes",
+        "transport": "Walk the ghats and lanes; rowing boats on the river; autos or cabs to Ramnagar and Sarnath.",
         "budget": {
-          "assumptions": "Monument fees (Sarnath, Ramnagar Fort) couldn't be confirmed from an official page during research, so check them before you go. The ghats and the aarti are free. Accommodation, boats, transport and meals are not estimated.",
+          "assumptions": "Boat rides, guides and Sugam Darshan are priced on the day or by the temple trust; we don't estimate them.",
           "lines": [
             {
-              "label": "Ghats and Ganga Aarti",
-              "amount": "Free",
-              "basis": "Public riverfront"
-            },
-            {
-              "label": "Sarnath site, museum and Ramnagar Fort",
-              "amount": "Check current official fees",
-              "basis": "Not estimated"
+              "label": "Boat rides, Ramnagar Fort, Sarnath museum",
+              "amount": "Not estimated",
+              "basis": "Check on the day"
             }
           ]
         },
         "booking": [
           {
-            "item": "Kashi Vishwanath Sugam Darshan",
-            "detail": "Book through the temple trust's official website."
+            "item": "Kashi Vishwanath",
+            "detail": "Book 'Sugam Darshan' through the temple trust if you want a queue-less visit with an escort and locker."
           },
           {
-            "item": "Rooms at festival time",
-            "detail": "Book well ahead for Dev Deepawali."
+            "item": "Sunrise boat",
+            "detail": "Agree a rowing boat at the ghat the evening before."
           },
           {
-            "item": "Trains",
-            "detail": "Check which Varanasi station your train uses before booking on IRCTC."
+            "item": "Hotel",
+            "detail": "Stay near the ghats; the temple trust also runs guest houses near the temple."
           }
         ],
         "alternatives": [
-          "Two days only? Do Sarnath on the morning of Day 2 and the old city in the afternoon.",
-          "Swap Ramnagar Fort for the Bharat Mata Temple or the Sankat Mochan Temple.",
-          "Add a day trip to Bodh Gaya, where the Buddha attained enlightenment (several hours by road)."
+          "Visiting on a Friday? Swap Days 2 and 3 so you're not at Sarnath when the museum is closed.",
+          "With more time, follow the six-day spiritual circuit to Prayagraj, Ayodhya and Lucknow."
         ],
         "tips": [
-          "Never photograph cremations at Manikarnika or Harishchandra ghats.",
-          "Carry small change for boats and rickshaws."
+          "Manikarnika is one of Hinduism's holiest cremation ghats — be quiet and respectful there.",
+          "The old-city lanes — Vishwanath Gali, Kachauri Gali — are best on foot.",
+          "Banarasi silk saris carry a GI tag; buy from established shops."
+        ],
+        "prep": [
+          {
+            "title": "Temple rules",
+            "body": "Leave phones, cameras and bags at the lockers outside Kashi Vishwanath; carry ID and your offering only."
+          }
+        ],
+        "faqs": [
+          {
+            "q": "What time is the Ganga Aarti?",
+            "a": "Around 7 pm in winter and 6:30 pm in summer at Dashashwamedh Ghat; it lasts about 45 minutes. Arrive an hour early."
+          },
+          {
+            "q": "How far is Sarnath from Varanasi?",
+            "a": "About 8 km north-east of the city; allow half a day."
+          }
+        ],
+        "days": [
+          {
+            "title": "Arrive, walk the ghats, evening aarti",
+            "summary": "An afternoon along the river and the Ganga Aarti at dusk.",
+            "stops": [
+              {
+                "time": "2 pm",
+                "name": "Check in near the ghats",
+                "duration": "1.5 hours"
+              },
+              {
+                "time": "4 pm",
+                "name": "Walk the ghats north from Assi",
+                "duration": "2 hours",
+                "placeSlug": "assi-ghat",
+                "note": "Assi is the southernmost ghat; walk towards Dashashwamedh."
+              },
+              {
+                "time": "6 pm",
+                "name": "Ganga Aarti at Dashashwamedh Ghat",
+                "duration": "1.5 hours",
+                "placeSlug": "dashashwamedh-ghat",
+                "note": "Starts around 7 pm in winter (6:30 pm in summer) and lasts about 45 minutes; arrive an hour early, or watch from a boat."
+              }
+            ],
+            "travel": "Riverside walk along the ghats.",
+            "distanceKm": 4,
+            "distance": "About 4 km on foot (estimate)",
+            "driveTime": "None — walking",
+            "transport": "Walking",
+            "meals": "Kachori sabzi, tamatar chaat and Banarasi lassi.",
+            "overnight": "Varanasi"
+          },
+          {
+            "title": "Sunrise boat, Kashi Vishwanath and Ramnagar",
+            "summary": "Dawn on the river, the Golden Temple, and the Maharaja's fort across the water.",
+            "stops": [
+              {
+                "time": "Sunrise",
+                "name": "Rowing boat along the ghats",
+                "duration": "1.5 hours",
+                "placeSlug": "ganga-boat-ride-varanasi",
+                "note": "The ghats at their liveliest, with dawn prayers and bathing."
+              },
+              {
+                "time": "7:30 am",
+                "name": "Subah-e-Banaras at Assi Ghat",
+                "duration": "1 hour",
+                "placeSlug": "assi-ghat",
+                "note": "Vedic chants and prayers, then yoga."
+              },
+              {
+                "time": "9:30 am",
+                "name": "Kashi Vishwanath Temple",
+                "duration": "2 hours",
+                "placeSlug": "kashi-vishwanath-temple",
+                "note": "Phones, cameras and bags aren't allowed — use the lockers outside. Sugam Darshan is a booked, queue-less option."
+              },
+              {
+                "time": "12 pm",
+                "name": "Lunch in the old city",
+                "duration": "1.5 hours"
+              },
+              {
+                "time": "1:30 pm",
+                "name": "Rest",
+                "duration": "1.5 hours"
+              },
+              {
+                "time": "3:30 pm",
+                "name": "Ramnagar Fort",
+                "duration": "1.5 hours",
+                "placeSlug": "ramnagar-fort",
+                "note": "Open 10 am–5 pm; vintage cars, palanquins and an astronomical clock. About 30 minutes by boat."
+              }
+            ],
+            "travel": "On foot and by boat along the ghats; boat or road across the river to Ramnagar.",
+            "distanceKm": 15,
+            "distance": "About 15 km (estimate)",
+            "driveTime": "About 1.5 hours in total by boat and road (estimate)",
+            "transport": "Rowing boat, walking, auto",
+            "meals": "Lunch in Kachauri Gali; Banarasi paan after dinner.",
+            "overnight": "Varanasi"
+          },
+          {
+            "title": "Sarnath",
+            "summary": "The deer park of the first sermon, then onward.",
+            "stops": [
+              {
+                "time": "8 am",
+                "name": "Drive to Sarnath",
+                "duration": "30 minutes",
+                "placeSlug": "sarnath",
+                "note": "About 8 km."
+              },
+              {
+                "time": "8:30 am",
+                "name": "Dhamekh Stupa and the excavated site",
+                "duration": "1.5 hours",
+                "placeSlug": "sarnath",
+                "note": "The 42 m Dhamekh Stupa; site open 8 am–6 pm."
+              },
+              {
+                "time": "10:15 am",
+                "name": "Sarnath Museum",
+                "duration": "1 hour",
+                "placeSlug": "sarnath",
+                "note": "The Ashokan Lion Capital. Closed Fridays."
+              },
+              {
+                "time": "11:30 am",
+                "name": "Mulagandha Kuti Vihara and Chaukhandi Stupa",
+                "duration": "1 hour",
+                "placeSlug": "sarnath",
+                "note": "Chaukhandi marks where the Buddha met his first five disciples."
+              },
+              {
+                "time": "1 pm",
+                "name": "Lunch, then silk shopping or onward travel",
+                "duration": "2 hours"
+              }
+            ],
+            "travel": "Varanasi → Sarnath about 8 km.",
+            "distanceKm": 25,
+            "distance": "About 25 km (estimate)",
+            "driveTime": "About 1 hour in total (estimate)",
+            "transport": "Auto or cab",
+            "meals": "Lunch back in the city.",
+            "overnight": "Departure"
+          }
         ]
-      },
-      "facts": [
-        "DG1",
-        "DG2",
-        "DG3",
-        "AG2",
-        "V13",
-        "KV3",
-        "RN3",
-        "RN4",
-        "S5",
-        "S9",
-        "S6",
-        "V8",
-        "V9",
-        "V12",
-        "V6",
-        "V7",
-        "MG1"
-      ],
-      "sources": []
+      }
     }
   ],
   "guides": [

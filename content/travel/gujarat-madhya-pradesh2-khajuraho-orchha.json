@@ -1,0 +1,705 @@
+{
+ "cluster": "gujarat-madhya-pradesh2-khajuraho-orchha",
+ "title": "Khajuraho and Orchha (Batch 5)",
+ "researchedAt": "2026-11-18",
+ "selection": "Batch 5. Khajuraho (6 sections, two of them state filler) and Orchha (5, two filler). Adds who it's for, practical info, things to do, how to reach, shopping, food, common mistakes and FAQs, plus fuller overviews (pending review). Source conflicts noted: Khajuraho surviving temples 20 vs 25 (both on MP Tourism's page); Orchha founding 15th century (existing ORC1) vs early 16th century (Wikipedia, MP Tourism); cenotaphs 14 (Incredible India) vs 15 (MP Tourism); Laxmi Narayan temple 1622 vs 1662. khajuraho-orchha-gwalior-5-days is left for the audit.",
+ "sources": {
+  "MPT_KHA": {
+   "url": "https://www.mptourism.com/destination-khajuraho.php",
+   "title": "Khajuraho — MP Tourism",
+   "authority": "government"
+  },
+  "II_KHA": {
+   "url": "https://www.incredibleindia.gov.in/en/madhya-pradesh/khajuraho",
+   "title": "Khajuraho — Incredible India",
+   "authority": "government"
+  },
+  "MPT_ORC": {
+   "url": "https://www.mptourism.com/destination-orchha.php",
+   "title": "Orchha — MP Tourism",
+   "authority": "government"
+  },
+  "II_ORC": {
+   "url": "https://www.incredibleindia.gov.in/en/madhya-pradesh/orchha",
+   "title": "Orchha — Incredible India",
+   "authority": "government"
+  },
+  "W_ORC": {
+   "url": "https://en.wikipedia.org/wiki/Orchha",
+   "title": "Orchha — Wikipedia",
+   "authority": "reference"
+  },
+  "II_KMT": {
+   "url": "https://www.incredibleindia.gov.in/en/madhya-pradesh/khajuraho/kandariya-mahadev-temple",
+   "title": "Kandariya Mahadev Temple — Incredible India (Ministry of Tourism, Government of India)",
+   "authority": "government"
+  },
+  "II_ORF": {
+   "url": "https://www.incredibleindia.gov.in/en/madhya-pradesh/orchha/orchha-fort",
+   "title": "Orchha Fort — Incredible India (Ministry of Tourism, Government of India)",
+   "authority": "government"
+  },
+  "II_RRM": {
+   "url": "https://www.incredibleindia.gov.in/en/madhya-pradesh/orchha/ram-raja-mandir",
+   "title": "Ram Raja Mandir — Incredible India (Ministry of Tourism, Government of India)",
+   "authority": "government"
+  },
+  "II_MP": {
+   "url": "https://www.incredibleindia.gov.in/en/madhya-pradesh",
+   "title": "Madhya Pradesh — Incredible India (Ministry of Tourism, Government of India)",
+   "authority": "government"
+  }
+ },
+ "facts": {
+  "BKHA1": {
+   "place": "madhya-pradesh/khajuraho",
+   "topic": "Khajuraho",
+   "claim": "Khajuraho was the Chandela capital from the 9th to the 12th century; of 85 temples said to have been built, 20 survive, now a UNESCO World Heritage Site.",
+   "claimType": "general",
+   "evidence": [
+    {
+     "source": "II_KHA",
+     "quote": "From the 9th to the 12th century AD, Khajuraho flourished as the capital of the powerful Chandela dynasty"
+    },
+    {
+     "source": "II_KHA",
+     "quote": "Local legends say that the Chandelas built a staggering 85 temples in Khajuraho"
+    },
+    {
+     "source": "II_KHA",
+     "quote": "This UNESCO World Heritage Site is a must-see destination for history enthusiasts and art lovers alike."
+    }
+   ]
+  },
+  "BKHA3": {
+   "place": "madhya-pradesh/khajuraho",
+   "topic": "Dance festival",
+   "claim": "The Khajuraho Dance Festival is held from the last week of February into March.",
+   "claimType": "schedule",
+   "evidence": [
+    {
+     "source": "II_KMT",
+     "quote": "Every year in the last week of February to March, the temple celebrates the Khajuraho dance festival."
+    }
+   ]
+  },
+  "BKMT1": {
+   "place": "madhya-pradesh/kandariya-mahadev-temple",
+   "topic": "Kandariya Mahadev",
+   "claim": "The Kandariya Mahadev Temple, built by King Vidyadhar about 1025–1050 AD, is the largest temple at Khajuraho, over 31 m high with more than 870 sculptures.",
+   "claimType": "general",
+   "evidence": [
+    {
+     "source": "II_KMT",
+     "quote": "King Vidyadhar from the Chandel Dynasty constructed this beautiful Mahadev Temple between 1025- 1050 AD."
+    },
+    {
+     "source": "II_KMT",
+     "quote": "this is also the largest temple in that vicinity"
+    },
+    {
+     "source": "II_KHA",
+     "quote": "with its multiple towers reaching over 31 meters high! Over 870 sculptures adorn"
+    }
+   ]
+  },
+  "BORC3": {
+   "place": "madhya-pradesh/orchha",
+   "topic": "Fort hours",
+   "claim": "Orchha Fort is open daily from sunrise to sunset; a light-and-sound show follows in the evening.",
+   "claimType": "opening_hours",
+   "evidence": [
+    {
+     "source": "II_ORF",
+     "quote": "Opening time - The Orchha Fort is open daily from sunrise to sunset."
+    },
+    {
+     "source": "II_ORF",
+     "quote": "After the fort closes its gates, the nightly light and sound spectacle c"
+    }
+   ]
+  },
+  "BRRM1": {
+   "place": "madhya-pradesh/ram-raja-mandir",
+   "topic": "Ram Raja",
+   "claim": "At the Ram Raja Mandir, built by Madhukar Shah Bundela in the 16th century, Rama is worshipped as a king; it is open from sunrise to sunset.",
+   "claimType": "general",
+   "evidence": [
+    {
+     "source": "II_RRM",
+     "quote": "Established by Madhukar Shah Bundela of Bundela kingdom in 16th century India"
+    },
+    {
+     "source": "II_RRM",
+     "quote": "Opening time - Ram Raja Mandir in Orchha is open for visitors from sunrise to sunset, every day of the week."
+    }
+   ]
+  },
+  "BMP1": {
+   "place": "madhya-pradesh",
+   "topic": "Tiger State",
+   "claim": "Madhya Pradesh is called the 'Tiger State of India', with Kanha, Bandhavgarh, Panna, Pench and Satpura.",
+   "claimType": "general",
+   "evidence": [
+    {
+     "source": "II_MP",
+     "quote": "Madhya Pradesh is also called the ‘Tiger State of India,’"
+    },
+    {
+     "source": "II_MP",
+     "quote": "sanctuaries like Panna National Park, Bandhavgarh National Park, Kanha National Park, and Pench National Park"
+    }
+   ]
+  },
+  "KJ1": {
+   "place": "madhya-pradesh/khajuraho",
+   "topic": "Name and dates",
+   "claim": "Khajuraho is named after the khajura (date palm); its temples were built by the Chandelas around 950–1050 AD and rediscovered in the 1850s.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "MPT_KHA",
+     "quote": "The common date palm - khajura - has given Khajuraho its name"
+    },
+    {
+     "source": "MPT_KHA",
+     "quote": "Built between 950-1050 AD by the Chandela Dynasty"
+    },
+    {
+     "source": "MPT_KHA",
+     "quote": "Khajuraho temples were rediscovered in the 1850s after being neglected for centuries"
+    }
+   ]
+  },
+  "KJ2": {
+   "place": "madhya-pradesh/khajuraho",
+   "topic": "Erotic art",
+   "claim": "The famous erotic sculptures make up only about 10% of the carvings; the temples are both Hindu and Jain.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "MPT_KHA",
+     "quote": "The famous erotic sculptures of khajuraho account for only 10% of all sculptures"
+    },
+    {
+     "source": "MPT_KHA",
+     "quote": "The Khajuraho temples belong to the hindu as well as the jain religion"
+    }
+   ]
+  },
+  "KJ3": {
+   "place": "madhya-pradesh/khajuraho",
+   "topic": "Groups",
+   "claim": "The temples fall into Western, Eastern and Southern groups; the Western group, by the archaeological museum, includes Lakshmana, Kandariya Mahadev, Chitragupta and Vishwanatha.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "MPT_KHA",
+     "quote": "These temples are divided into three groups: Eastern, Western and Southern."
+    },
+    {
+     "source": "MPT_KHA",
+     "quote": "The Western group is very close to the archaeological museum and it includes the temples of Lakshmana, Matangeshwara, Varaha, Kandariya Mahadev, Chitragupta, Parvati, Vishwanatha and Nandi."
+    }
+   ]
+  },
+  "KJ4": {
+   "place": "madhya-pradesh/khajuraho",
+   "topic": "Chausath Yogini",
+   "claim": "The Chausath Yogini, probably India's oldest Yogini temple and Khajuraho's oldest, dates from the 9th century.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "MPT_KHA",
+     "quote": "Probably the oldest Yogini temple of India and the oldest temple in Khajuraho, this temple was built in the 9th century."
+    }
+   ]
+  },
+  "KJ5": {
+   "place": "madhya-pradesh/khajuraho",
+   "topic": "Getting there",
+   "claim": "Khajuraho airport (about 2 km from the temples) has flights to Delhi, Mumbai, Bhopal and Varanasi; Khajuraho station is 5 km out, and Mahoba (78 km) is the main railhead.",
+   "claimType": "distance",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "MPT_KHA",
+     "quote": "Khajuraho has its own domestic airport at a distance of two km from the temple sites."
+    },
+    {
+     "source": "MPT_KHA",
+     "quote": "Khajuraho railway station is five km away from the main town"
+    },
+    {
+     "source": "MPT_KHA",
+     "quote": "Mahoba is the closest major railhead from Khajuraho which is around 78 km away."
+    }
+   ]
+  },
+  "KJ6": {
+   "place": "madhya-pradesh/khajuraho",
+   "topic": "Nearby falls",
+   "claim": "Raneh Falls, 21 km away, cuts a 30-ft canyon; Pandav Falls, 34 km away on the Panna road, is near Panna National Park.",
+   "claimType": "distance",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "MPT_KHA",
+     "quote": "is a beautiful tourist attraction situated 21 kilometres from the Khajuraho bus stop."
+    },
+    {
+     "source": "MPT_KHA",
+     "quote": "Pandav Fall is situated on the route that runs through Khajuraho and Panna, 34 kilometres from the Khajuraho bus stop."
+    }
+   ]
+  },
+  "KJ7": {
+   "place": "madhya-pradesh/khajuraho",
+   "topic": "Museums",
+   "claim": "The Jain Museum is 1 km from the bus station; the Adivart Tribal & Folk Art Museum has 12 traditional houses of the state's tribal communities.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "MPT_KHA",
+     "quote": "is situated at a distance of one kilometre from the Khajuraho bus station."
+    },
+    {
+     "source": "MPT_KHA",
+     "quote": "With 12 traditional houses representing major tribal communities"
+    }
+   ]
+  },
+  "KJ8": {
+   "place": "madhya-pradesh/khajuraho",
+   "topic": "Shopping",
+   "claim": "Mrignayanee Emporium sells Chanderi, Maheshwari and other state handlooms.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "MPT_KHA",
+     "quote": "Mrigynaynee Emporium is the best place to buy a wide variety of state originated handlooms such as Chanderi, Maheshwari and hand textiles."
+    }
+   ]
+  },
+  "KJ9": {
+   "place": "madhya-pradesh/khajuraho",
+   "topic": "Duladeo and Chaturbhuj",
+   "claim": "Duladeo (c. 1100–1150) has striking flying celestials; Chaturbhuj is the only temple without an erotic sculpture.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "MPT_KHA",
+     "quote": "This temple is the only temple in Khajuraho that does not have a single erotic sculpture."
+    }
+   ]
+  },
+  "OH1": {
+   "place": "madhya-pradesh/orchha",
+   "topic": "Founding",
+   "claim": "Orchha was founded on the Betwa by the Bundela chief Rudra Pratap Singh some time after 1501.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "W_ORC",
+     "quote": "The city was established by a Bundela Rajput ruler Rudra Pratap Singh some time after 1501"
+    }
+   ]
+  },
+  "OH2": {
+   "place": "madhya-pradesh/orchha",
+   "topic": "Ram Raja",
+   "claim": "Orchha is the only place apart from Ayodhya where Rama is worshipped as king; the evening aarti at the Ram Raja Temple is a highlight.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "W_ORC",
+     "quote": "Other than Ayodhya, Orchha is the only place in India where lord Rama is the King of the town."
+    },
+    {
+     "source": "II_ORC",
+     "quote": "The evening aarti at the temple is a spectacular display of devotion, music, and incense."
+    }
+   ]
+  },
+  "OH3": {
+   "place": "madhya-pradesh/orchha",
+   "topic": "Jahangir Mahal",
+   "claim": "Veer Singh Deo built the Jahangir Mahal for Emperor Jahangir's first visit; it is a showpiece of Indo-Islamic architecture with turquoise tiles.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "MPT_ORC",
+     "quote": "It was constructed to honour the first visit of Emperor Jahangir to Orchha."
+    },
+    {
+     "source": "MPT_ORC",
+     "quote": "The east-facing front wall of the palace is covered with turquoise tiles."
+    }
+   ]
+  },
+  "OH4": {
+   "place": "madhya-pradesh/orchha",
+   "topic": "Sheesh Mahal",
+   "claim": "Part of the palace is the Sheesh Mahal heritage hotel.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "MPT_ORC",
+     "quote": "There are parts of the palace which have been converted into a Heritage Hotel called Sheesh Mahal"
+    }
+   ]
+  },
+  "OH5": {
+   "place": "madhya-pradesh/orchha",
+   "topic": "Laxmi Narayan murals",
+   "claim": "The Laxmi Narayan temple is famous for its murals, including the giant 'Chungi Chirya' bird carrying an elephant, and has a climbable roof.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "MPT_ORC",
+     "quote": "There is an outstanding painting of the 'Chungi Chirya', the giant bird that could fly high with an elephant in its claws."
+    },
+    {
+     "source": "II_ORC",
+     "quote": "It features well-preserved murals inside and offers fantastic views from the climbable roof."
+    }
+   ]
+  },
+  "OH6": {
+   "place": "madhya-pradesh/orchha",
+   "topic": "Getting there",
+   "claim": "Orchha station is about 6 km from the Ram Raja Temple; Jhansi Junction, about 17 km away, is the main railhead; Gwalior airport is 142 km.",
+   "claimType": "distance",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "MPT_ORC",
+     "quote": "The station is located around 6 km from the iconic Ram Raja Temple"
+    },
+    {
+     "source": "MPT_ORC",
+     "quote": "Jhansi Junction, about 17 km away, remains the nearest major railway hub."
+    },
+    {
+     "source": "MPT_ORC",
+     "quote": "The nearest airport is the Gwalior airport situated at a distance of 142 km from Orchha."
+    }
+   ]
+  },
+  "OH7": {
+   "place": "madhya-pradesh/orchha",
+   "topic": "Rafting and birds",
+   "claim": "MPSTDC runs rafting on the Betwa from Kanchan Ghat to Shiva Ghat; a 46 sq km sanctuary protects the riverside wildlife.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "MPT_ORC",
+     "quote": "The rafting starts from the beautiful Kanchan Ghat and ends at Shiva Ghat."
+    },
+    {
+     "source": "MPT_ORC",
+     "quote": "Spread over an area of 46 sq. km, the Bird Sanctuary has its significance due to its rich fauna"
+    }
+   ]
+  },
+  "OH8": {
+   "place": "madhya-pradesh/orchha",
+   "topic": "Cenotaphs",
+   "claim": "The Bundela cenotaphs (chhatris) line the Betwa; the first holds a marble statue of Madhukar Shah and his wife.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "MPT_ORC",
+     "quote": "A marble statue of Madhukar Shah and his wife with a painted canopy can be found in the first chhatri."
+    }
+   ]
+  },
+  "OH9": {
+   "place": "madhya-pradesh/orchha",
+   "topic": "Homestays",
+   "claim": "Homestays serve Bundelkhandi food.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "MPT_ORC",
+     "quote": "Enjoy the authentic taste of Bundelkhandi cuisines at the Orchaa Homestays."
+    }
+   ]
+  }
+ },
+ "places": [
+  {
+   "key": "madhya-pradesh/khajuraho",
+   "kind": "town",
+   "name": "Khajuraho",
+   "parent": "madhya-pradesh",
+   "summary": "The Chandela capital's temples — 20 of a legendary 85 survive, a UNESCO World Heritage Site.",
+   "seoTitle": "Khajuraho Travel Guide: Temples, Dance Festival & Panna",
+   "seoDescription": "Plan Khajuraho: the UNESCO Chandela temples, Kandariya Mahadev, the Khajuraho Dance Festival (late Feb–Mar), the airport and Panna nearby.",
+   "lat": 24.85,
+   "lng": 79.925,
+   "tripTypes": [
+    "heritage",
+    "romantic"
+   ],
+   "images": [
+    {
+     "commons": "File:1_Khajuraho.jpg",
+     "alt": "Khajuraho temples",
+     "hero": true
+    }
+   ],
+   "sections": {
+    "overview": {
+     "text": "Khajuraho, named after the khajura or date palm, was a capital of the Chandela kings, who built its temples around 950–1050 AD. Of a legendary 85 temples, a group survives as a UNESCO World Heritage Site, famous for Nagara-style spires and sculptures of deities, celestial women and daily life. The erotic carvings that made it famous are only about a tenth of the whole, and both Hindu and Jain temples stand here.\n\nThe Western group, beside the archaeological museum, holds the finest: Lakshmana, Kandariya Mahadev with more than 870 sculptures, Chitragupta and Vishwanatha. The Eastern group has the Jain temples, and the 9th-century Chausath Yogini is the oldest. The town has its own airport, Raneh and Pandav falls and Panna National Park are close, and the Khajuraho Dance Festival runs from late February into March.",
+     "facts": [
+      "KJ1",
+      "BKHA1",
+      "KJ2",
+      "KJ3",
+      "BKMT1",
+      "KJ4",
+      "KJ5",
+      "KJ6",
+      "BKHA3"
+     ]
+    },
+    "who_its_for": {
+     "items": [
+      {
+       "title": "Art and history lovers",
+       "body": "The UNESCO temples and the archaeological, Jain and tribal museums."
+      },
+      {
+       "title": "Dance lovers",
+       "body": "The Khajuraho Dance Festival, late February–March."
+      },
+      {
+       "title": "Nature lovers",
+       "body": "Raneh and Pandav falls and Panna National Park."
+      }
+     ],
+     "facts": [
+      "KJ3",
+      "KJ7",
+      "BKHA3",
+      "KJ6",
+      "BMP1"
+     ]
+    },
+    "practical_info": {
+     "items": [
+      {
+       "title": "Getting there",
+       "body": "Khajuraho airport, about 2 km from the temples, has flights to Delhi, Mumbai, Bhopal and Varanasi. Khajuraho station is 5 km out; Mahoba (78 km) is the main railhead.",
+       "status": "verified"
+      },
+      {
+       "title": "Temple groups",
+       "body": "Western (main, by the museum), Eastern (Jain) and Southern.",
+       "status": "verified"
+      }
+     ],
+     "facts": [
+      "KJ5",
+      "KJ3"
+     ]
+    },
+    "things_to_do": {
+     "items": [
+      {
+       "body": "Walk the Western group early, from Lakshmana to Kandariya Mahadev."
+      },
+      {
+       "body": "See the Jain temples of the Eastern group."
+      },
+      {
+       "body": "Visit the 9th-century Chausath Yogini."
+      },
+      {
+       "body": "Explore the Adivart Tribal & Folk Art Museum."
+      },
+      {
+       "body": "See Raneh Falls' canyon, 21 km away."
+      }
+     ],
+     "facts": [
+      "KJ3",
+      "BKMT1",
+      "KJ4",
+      "KJ7",
+      "KJ6"
+     ]
+    },
+    "shopping": {
+     "items": [
+      {
+       "body": "Chanderi and Maheshwari handlooms at the Mrignayanee Emporium.",
+       "status": "verified"
+      }
+     ],
+     "facts": [
+      "KJ8"
+     ]
+    },
+    "common_mistakes": {
+     "items": [
+      {
+       "body": "Thinking it's all erotic art. Those carvings are only about 10% of the sculptures."
+      },
+      {
+       "body": "Seeing only the Western group. The Eastern Jain temples and Chausath Yogini are worth an afternoon."
+      },
+      {
+       "body": "Missing Chaturbhuj, the one temple without an erotic sculpture, with a fine Vishnu."
+      }
+     ],
+     "facts": [
+      "KJ2",
+      "KJ3",
+      "KJ4",
+      "KJ9"
+     ]
+    }
+   }
+  },
+  {
+   "key": "madhya-pradesh/orchha",
+   "kind": "town",
+   "name": "Orchha",
+   "parent": "madhya-pradesh",
+   "summary": "A Bundela capital on the Betwa: palaces, the Ram Raja temple and riverside cenotaphs.",
+   "seoTitle": "Orchha Travel Guide: Fort, Ram Raja & Cenotaphs",
+   "seoDescription": "Plan Orchha: the fort's Raj Mahal and Jahangir Mahal, the Ram Raja Mandir, the Laxmi Narayan murals and the Betwa cenotaphs; fort hours.",
+   "lat": 25.35,
+   "lng": 78.64,
+   "tripTypes": [
+    "heritage",
+    "spiritual"
+   ],
+   "images": [
+    {
+     "commons": "File:Chaturbhuj_Temple,_Orchha.jpg",
+     "alt": "Chaturbhuj Temple, Orchha",
+     "hero": true
+    }
+   ],
+   "sections": {
+    "overview": {
+     "text": "Orchha, on the Betwa river, was founded by the Bundela chief Rudra Pratap Singh in the early 16th century, and its palaces, temples and cenotaphs still stand almost untouched. The fort complex holds the Raj Mahal, the Sheesh Mahal, now a heritage hotel, and the Jahangir Mahal, built to welcome the Mughal emperor and tiled in turquoise.\n\nOrchha is the only place outside Ayodhya where Rama is worshipped as a king, at the Ram Raja Temple, whose evening aarti draws crowds. The Laxmi Narayan temple is covered in murals and has a climbable roof, and the Bundela cenotaphs line the river. Rafting on the Betwa and a riverside sanctuary add to a slow stay. Jhansi, about 17 km away, is the railhead.",
+     "facts": [
+      "OH1",
+      "OH3",
+      "OH4",
+      "OH2",
+      "OH5",
+      "OH8",
+      "OH7",
+      "OH6"
+     ]
+    },
+    "who_its_for": {
+     "items": [
+      {
+       "title": "History lovers",
+       "body": "The Raj Mahal, Jahangir Mahal and the cenotaphs."
+      },
+      {
+       "title": "Pilgrims",
+       "body": "The Ram Raja Temple, open sunrise to sunset, and its evening aarti."
+      },
+      {
+       "title": "Slow travellers",
+       "body": "Homestays with Bundelkhandi food and river walks."
+      },
+      {
+       "title": "Adventure seekers",
+       "body": "Rafting on the Betwa."
+      }
+     ],
+     "facts": [
+      "OH3",
+      "OH8",
+      "OH2",
+      "BRRM1",
+      "OH9",
+      "OH7"
+     ]
+    },
+    "how_to_reach": {
+     "text": "By train: Jhansi Junction, about 17 km away, is the main railhead; Orchha's own station is about 6 km from the Ram Raja Temple.\n\nBy air: Gwalior airport is 142 km away.\n\nBy road: buses and taxis run from Jhansi.",
+     "facts": [
+      "OH6"
+     ]
+    },
+    "food": {
+     "items": [
+      {
+       "body": "Bundelkhandi home cooking at local homestays.",
+       "status": "verified"
+      }
+     ],
+     "facts": [
+      "OH9"
+     ]
+    },
+    "common_mistakes": {
+     "items": [
+      {
+       "body": "Visiting as a quick stop from Jhansi. Stay a night for the aarti and the evening light and sound show."
+      },
+      {
+       "body": "Skipping the Laxmi Narayan temple's murals and roof views."
+      },
+      {
+       "body": "Missing the cenotaphs on the riverbank."
+      }
+     ],
+     "facts": [
+      "OH2",
+      "BORC3",
+      "OH5",
+      "OH8"
+     ]
+    },
+    "faqs": {
+     "items": [
+      {
+       "title": "How far is Orchha from Jhansi?",
+       "body": "About 17 km."
+      },
+      {
+       "title": "Why is Rama called a king here?",
+       "body": "Orchha is the only place apart from Ayodhya where Rama is worshipped as king, at the Ram Raja Temple."
+      },
+      {
+       "title": "Can I go rafting?",
+       "body": "Yes, MPSTDC runs rafting on the Betwa from Kanchan Ghat to Shiva Ghat."
+      }
+     ],
+     "facts": [
+      "OH6",
+      "OH2",
+      "OH7"
+     ]
+    }
+   }
+  }
+ ],
+ "itineraries": []
+}

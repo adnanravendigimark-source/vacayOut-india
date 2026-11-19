@@ -1,0 +1,683 @@
+{
+ "cluster": "odisha-andhra-telangana2-puri-konark",
+ "title": "Puri and Konark (Batch 5)",
+ "researchedAt": "2026-11-18",
+ "selection": "Batch 5. Puri (5 sections, two of them state filler) and Konark (4, two filler). Adds who it's for, practical info, things to do, food, shopping, etiquette (temple entry is for Hindus only), travel tips and FAQs, plus fuller overviews (pending review). Filler practical_info and things_to_do on Puri get replacement suggestions; Konark's filler practical_info and things_to_do are not replaced here. odisha-5-days itinerary left for the audit.",
+ "sources": {
+  "II_PURI": {
+   "url": "https://www.incredibleindia.gov.in/en/odisha/puri",
+   "title": "Puri — Incredible India",
+   "authority": "government"
+  },
+  "W_JAG": {
+   "url": "https://en.wikipedia.org/wiki/Jagannath_Temple,_Puri",
+   "title": "Jagannath Temple, Puri — Wikipedia",
+   "authority": "reference"
+  },
+  "W_KON": {
+   "url": "https://en.wikipedia.org/wiki/Konark_Sun_Temple",
+   "title": "Konark Sun Temple — Wikipedia",
+   "authority": "reference"
+  },
+  "II_OD": {
+   "url": "https://www.incredibleindia.gov.in/en/odisha",
+   "title": "Odisha — Incredible India (Ministry of Tourism, Government of India)",
+   "authority": "government"
+  },
+  "W_BBI": {
+   "url": "https://en.wikipedia.org/wiki/Biju_Patnaik_International_Airport",
+   "title": "Biju Patnaik Airport — Wikipedia",
+   "authority": "reference"
+  },
+  "II_PUR": {
+   "url": "https://www.incredibleindia.gov.in/en/odisha/puri",
+   "title": "Puri — Incredible India (Ministry of Tourism, Government of India)",
+   "authority": "government"
+  },
+  "II_JAG": {
+   "url": "https://www.incredibleindia.gov.in/en/odisha/puri/sri-jagannath-temple",
+   "title": "Sri Jagannath Temple — Incredible India (Ministry of Tourism, Government of India)",
+   "authority": "government"
+  },
+  "II_KON": {
+   "url": "https://www.incredibleindia.gov.in/en/odisha/puri/konark-temple",
+   "title": "Konark Sun Temple — Incredible India (Ministry of Tourism, Government of India)",
+   "authority": "government"
+  }
+ },
+ "facts": {
+  "BOD1": {
+   "place": "odisha",
+   "topic": "Odisha",
+   "claim": "Odisha has a coastline of over 480 km and more than 62 tribal groups; Chilika is Asia's largest coastal lagoon.",
+   "claimType": "general",
+   "evidence": [
+    {
+     "source": "II_OD",
+     "quote": "Odisha's coastline stretches for over 480 kilometres"
+    },
+    {
+     "source": "II_OD",
+     "quote": "Odisha boasts incredible cultural diversity with over 62 distinct tribal groups"
+    },
+    {
+     "source": "II_OD",
+     "quote": "Chilika Lake, Asia's largest coastal lagoon, is a heritage site teeming with biodiversity."
+    }
+   ]
+  },
+  "BOD2": {
+   "place": "odisha",
+   "topic": "Food",
+   "claim": "Odia food to try includes dalma, chhena poda and rasagola.",
+   "claimType": "general",
+   "evidence": [
+    {
+     "source": "II_OD",
+     "quote": "Don't miss out on the delectable Odia cuisine, which includes mouthwatering dishes like Dalma, Chhena Poda, and Rasagola."
+    }
+   ]
+  },
+  "BOD_AIR": {
+   "place": "odisha",
+   "topic": "Getting there",
+   "claim": "Biju Patnaik Airport serves Bhubaneswar, about 4 km south-west of the city.",
+   "claimType": "distance",
+   "evidence": [
+    {
+     "source": "W_BBI",
+     "quote": "is an international airport serving Bhubaneswar , the capital city of Odisha , India . It is situated around 4 kilometres (2.5 mi) south-west of"
+    }
+   ]
+  },
+  "BPUR1": {
+   "place": "odisha/puri",
+   "topic": "Puri",
+   "claim": "Puri, home of the Jagannath Temple, is one of the four Char Dhams; the Rath Yatra is held every June or July.",
+   "claimType": "schedule",
+   "evidence": [
+    {
+     "source": "II_PUR",
+     "quote": "a sanctuary so revered that it forms one of the four sacred Char Dhams of Hindu pilgrimage"
+    },
+    {
+     "source": "II_PUR",
+     "quote": "The Rath Yatra, held annually in June or July, is the most significant festival"
+    }
+   ]
+  },
+  "BPUR2": {
+   "place": "odisha/puri",
+   "topic": "Best time",
+   "claim": "October to February is the most comfortable time for Puri's beaches and temples.",
+   "claimType": "schedule",
+   "evidence": [
+    {
+     "source": "II_PUR",
+     "quote": "that's Puri from October to February"
+    }
+   ]
+  },
+  "BJAG1": {
+   "place": "odisha/jagannath-temple",
+   "topic": "Jagannath Temple",
+   "claim": "The Jagannath Temple was built in the 12th century; its flag is changed every day by a family that climbs the spire barefoot, a tradition of over eight centuries.",
+   "claimType": "general",
+   "evidence": [
+    {
+     "source": "II_JAG",
+     "quote": "Built in the 12th century AD"
+    },
+    {
+     "source": "II_JAG",
+     "quote": "In a feat that has been ongoing for over eight centuries, members of a specially appointed family climb 165 metres barefoot to replace the flag"
+    }
+   ]
+  },
+  "BKON1": {
+   "place": "odisha/konark-sun-temple",
+   "topic": "Konark",
+   "claim": "The 13th-century Konark Sun Temple, about 35 km north-east of Puri, was built as a giant chariot for the Sun God with 24 carved stone wheels; it is a UNESCO World Heritage Site (1984).",
+   "claimType": "distance",
+   "evidence": [
+    {
+     "source": "W_KON",
+     "quote": "Konark Sun Temple is a 13th-century CE Hindu Sun temple at Konark about 35 kilometres (22 mi) northeast from Puri city"
+    },
+    {
+     "source": "II_KON",
+     "quote": "Twenty-four exquisitely carved stone wheels"
+    },
+    {
+     "source": "W_KON",
+     "quote": "Designated 1984 (8th session )"
+    }
+   ]
+  },
+  "BKON2": {
+   "place": "odisha/konark-sun-temple",
+   "topic": "Height",
+   "claim": "In its heyday the temple rose to an estimated 227 feet; today the Jagamohana assembly hall survives.",
+   "claimType": "general",
+   "evidence": [
+    {
+     "source": "II_KON",
+     "quote": "Rising to an estimated height of 227 feet in its heyday"
+    }
+   ]
+  },
+  "BKON3": {
+   "place": "odisha/konark-sun-temple",
+   "topic": "Hours",
+   "claim": "Open 6 am to 8 pm; October to March is the most comfortable season.",
+   "claimType": "opening_hours",
+   "evidence": [
+    {
+     "source": "II_KON",
+     "quote": "Opening time - 06:00 AM"
+    },
+    {
+     "source": "II_KON",
+     "quote": "Closing time - 08:00 PM"
+    },
+    {
+     "source": "II_KON",
+     "quote": "The cooler months from October to March provide the most comfortable climate"
+    }
+   ]
+  },
+  "PO1": {
+   "place": "odisha/puri",
+   "topic": "Purushottama Kshetra",
+   "claim": "Puri appears in ancient texts as Purushottama Kshetra, the abode of Vishnu; it is known for Odissi dance and sand sculpture.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "II_PURI",
+     "quote": "finding mention in ancient texts as 'Purushottama Kshetra', the abode of Lord Vishnu himself."
+    },
+    {
+     "source": "II_PURI",
+     "quote": "its streets echoing with the beats of traditional Odissi dance and the artistry of intricate sand sculptures."
+    }
+   ]
+  },
+  "PO2": {
+   "place": "odisha/puri",
+   "topic": "Festivals",
+   "claim": "Besides the Rath Yatra (June or July), Puri celebrates Chandan Yatra, Snana Yatra and Kartik Purnima.",
+   "claimType": "general",
+   "kind": "seasonal",
+   "evidence": [
+    {
+     "source": "II_PURI",
+     "quote": "Other festivals celebrated with great enthusiasm in Puri include the Chandan Yatra, Snana Yatra, and Kartik Purnima."
+    }
+   ]
+  },
+  "PO3": {
+   "place": "odisha/puri",
+   "topic": "Crafts",
+   "claim": "Puri is known for Pattachitra painting, wood carving, palm-leaf engraving and appliqué textiles.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "II_PURI",
+     "quote": "The city is famous for its Pattachitra paintings, a traditional art form depicting scenes from Hindu mythology on cloth or palm leaves."
+    },
+    {
+     "source": "II_PURI",
+     "quote": "where they can purchase intricately carved woodwork, palm leaf engravings and colourful applique work textiles."
+    }
+   ]
+  },
+  "PO4": {
+   "place": "odisha/puri",
+   "topic": "Food",
+   "claim": "Try machha besara (fish in mustard), chingudi tarkari (prawn curry) and chhena poda.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "II_PURI",
+     "quote": "Visitors can savour traditional Odia delicacies such as machha besara (fish cooked in mustard gravy), chingudi tarkari (prawn curry) and chenna poda (a sweet made from cottage cheese)."
+    }
+   ]
+  },
+  "PO5": {
+   "place": "odisha/puri",
+   "topic": "Temple entry",
+   "claim": "Entry to the Jagannath Temple is restricted to Hindus; non-Hindus are not permitted inside.",
+   "claimType": "rule",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "W_JAG",
+     "quote": "Entry to the temple is restricted to Hindus, and non-Hindus are not permitted inside the premises."
+    }
+   ]
+  },
+  "PO6": {
+   "place": "odisha/puri",
+   "topic": "Gates",
+   "claim": "The Lion Gate (Singhadwara) is the main entrance; three other gates face north, south and west.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "W_JAG",
+     "quote": "The Singhadwara (Sanskrit for \"Lion Gate\") is one of the four gates of the temple, and serves as the main entrance."
+    }
+   ]
+  },
+  "PO7": {
+   "place": "odisha/puri",
+   "topic": "Kitchen",
+   "claim": "The temple kitchen is said to be the second largest in the world; food becomes Mahaprasad once offered to Goddess Vimala.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "W_JAG",
+     "quote": "The temple's kitchen is the second largest in the world."
+    },
+    {
+     "source": "W_JAG",
+     "quote": "The food offered to Jagannath is not considered Mahaprasad until it is offered to Goddess Vimala."
+    }
+   ]
+  },
+  "PO8": {
+   "place": "odisha/puri",
+   "topic": "Winter",
+   "claim": "December to February is cooler, good for beach evenings.",
+   "claimType": "general",
+   "kind": "seasonal",
+   "evidence": [
+    {
+     "source": "II_PURI",
+     "quote": "Winter months, from December to February, add a subtle nip to the air"
+    }
+   ]
+  },
+  "KN1": {
+   "place": "odisha/konark-sun-temple",
+   "topic": "Black Pagoda",
+   "claim": "Built about 1250 CE by Narasimhadeva I, Konark was the 'Black Pagoda' to European sailors; it stood at the mouth of the Chandrabhaga, though the sea has since receded.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "W_KON",
+     "quote": "The temple is attributed to king Narasingha Deva I of the Eastern Ganga dynasty about 1250 CE."
+    },
+    {
+     "source": "W_KON",
+     "quote": "in European sailor accounts as early as 1676"
+    },
+    {
+     "source": "W_KON",
+     "quote": "was originally constructed at the mouth of the river Chandrabhaga, but the waterline has receded since then."
+    }
+   ]
+  },
+  "KN2": {
+   "place": "odisha/konark-sun-temple",
+   "topic": "Jagamohana",
+   "claim": "The surviving jagamohana (audience hall), about 39 m tall, is the main structure in the ruins.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "W_KON",
+     "quote": "which is about 39 metres (128 ft) tall, still stands and is the principal structure in the surviving ruins."
+    }
+   ]
+  },
+  "KN3": {
+   "place": "odisha/konark-sun-temple",
+   "topic": "Museum",
+   "claim": "Fallen sculptures are displayed at the ASI's Konark Archaeological Museum.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "W_KON",
+     "quote": "A collection of fallen sculptures can be viewed at the Konark Archaeological Museum, which is maintained by the Archaeological Survey of India."
+    }
+   ]
+  },
+  "KN4": {
+   "place": "odisha/konark-sun-temple",
+   "topic": "₹10 note",
+   "claim": "The temple appears on the back of the ₹10 note.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "W_KON",
+     "quote": "Konark Sun Temple is depicted on the reverse side of the Indian currency note of 10 rupees"
+    }
+   ]
+  },
+  "KN5": {
+   "place": "odisha/konark-sun-temple",
+   "topic": "Chandrabhaga Mela",
+   "claim": "Pilgrims gather every year for the Chandrabhaga Mela around February.",
+   "claimType": "schedule",
+   "kind": "seasonal",
+   "evidence": [
+    {
+     "source": "W_KON",
+     "quote": "who gather here every year for the Chandrabhaga Mela around the month of February."
+    }
+   ]
+  }
+ },
+ "places": [
+  {
+   "key": "odisha/puri",
+   "kind": "town",
+   "name": "Puri",
+   "parent": "odisha",
+   "summary": "One of the four Char Dhams: the Jagannath Temple, the Rath Yatra in June–July and a long golden beach.",
+   "seoTitle": "Puri Travel Guide: Jagannath Temple, Rath Yatra & Beach",
+   "seoDescription": "Plan Puri: the Jagannath Temple, the Rath Yatra in June or July, Puri beach, and day trips to Konark and Chilika; best time October to February.",
+   "lat": 19.8135,
+   "lng": 85.8312,
+   "tripTypes": [
+    "spiritual",
+    "beaches",
+    "family"
+   ],
+   "images": [
+    {
+     "commons": "File:At Puri beach 05.jpg",
+     "alt": "Puri beach on the Bay of Bengal",
+     "hero": true
+    }
+   ],
+   "sections": {
+    "overview": {
+     "text": "Puri, on the Bay of Bengal, is one of the four Char Dhams of Hindu pilgrimage and appears in ancient texts as Purushottama Kshetra. Its heart is the 12th-century Jagannath Temple, where a family has climbed the spire barefoot to change the flag every day for over eight centuries, and where the kitchen, said to be the second largest in the world, cooks the Mahaprasad. Entry to the temple is for Hindus only.\n\nThe great festival is the Rath Yatra each June or July, when the deities ride huge chariots through town; Snana Yatra, Chandan Yatra and Kartik Purnima are celebrated too. Beyond the temple are a long beach, Odissi dance, sand sculptures, Pattachitra paintings and seafood. The Konark Sun Temple is about 35 km away. October to February is the most comfortable time.",
+     "facts": [
+      "BPUR1",
+      "PO1",
+      "BJAG1",
+      "PO7",
+      "PO5",
+      "PO2",
+      "PO3",
+      "PO4",
+      "BKON1",
+      "BPUR2"
+     ]
+    },
+    "who_its_for": {
+     "items": [
+      {
+       "title": "Pilgrims",
+       "body": "Darshan at the Jagannath Temple and the Rath Yatra."
+      },
+      {
+       "title": "Beach lovers",
+       "body": "A long beach on the Bay of Bengal, best October–February."
+      },
+      {
+       "title": "Craft lovers",
+       "body": "Pattachitra, palm-leaf engraving and appliqué work."
+      },
+      {
+       "title": "Food lovers",
+       "body": "Mahaprasad, seafood and chhena poda."
+      }
+     ],
+     "facts": [
+      "BPUR1",
+      "PO5",
+      "BPUR2",
+      "PO3",
+      "PO7",
+      "PO4"
+     ]
+    },
+    "practical_info": {
+     "items": [
+      {
+       "title": "Getting there",
+       "body": "Fly to Bhubaneswar's Biju Patnaik Airport, about 4 km south-west of that city, then continue to Puri by road or rail.",
+       "status": "verified"
+      },
+      {
+       "title": "Temple entry",
+       "body": "Only Hindus may enter the Jagannath Temple; others can see the spire and the Lion Gate from outside.",
+       "status": "verified"
+      },
+      {
+       "title": "Rath Yatra",
+       "body": "Held every June or July; book rooms well ahead.",
+       "status": "seasonal"
+      },
+      {
+       "title": "Weather",
+       "body": "October to February is most comfortable; December to February is cooler.",
+       "status": "seasonal"
+      }
+     ],
+     "facts": [
+      "BOD_AIR",
+      "PO5",
+      "PO6",
+      "BPUR1",
+      "BPUR2",
+      "PO8"
+     ]
+    },
+    "things_to_do": {
+     "items": [
+      {
+       "body": "Have darshan at the Jagannath Temple and eat Mahaprasad."
+      },
+      {
+       "body": "Walk the beach at sunrise and see the sand sculptures."
+      },
+      {
+       "body": "Shop for Pattachitra, palm-leaf engravings and appliqué."
+      },
+      {
+       "body": "Day-trip to the Konark Sun Temple, about 35 km away."
+      },
+      {
+       "body": "Visit Chilika, Asia's largest coastal lagoon."
+      }
+     ],
+     "facts": [
+      "PO7",
+      "PO1",
+      "PO3",
+      "BKON1",
+      "BOD1"
+     ]
+    },
+    "food": {
+     "items": [
+      {
+       "body": "Mahaprasad from the temple kitchen.",
+       "status": "verified"
+      },
+      {
+       "body": "Machha besara, fish in mustard gravy.",
+       "status": "verified"
+      },
+      {
+       "body": "Chingudi tarkari, prawn curry.",
+       "status": "verified"
+      },
+      {
+       "body": "Chhena poda, dalma and rasagola.",
+       "status": "verified"
+      }
+     ],
+     "facts": [
+      "PO7",
+      "PO4",
+      "BOD2"
+     ]
+    },
+    "shopping": {
+     "items": [
+      {
+       "body": "Pattachitra paintings on cloth or palm leaf.",
+       "status": "verified"
+      },
+      {
+       "body": "Wood carvings and palm-leaf engravings.",
+       "status": "verified"
+      },
+      {
+       "body": "Appliqué textiles.",
+       "status": "verified"
+      }
+     ],
+     "facts": [
+      "PO3"
+     ]
+    },
+    "culture_etiquette": {
+     "items": [
+      {
+       "body": "Non-Hindus are not permitted inside the Jagannath Temple."
+      },
+      {
+       "body": "Dress modestly and follow temple staff instructions."
+      },
+      {
+       "body": "Mahaprasad is sacred food; eat it respectfully."
+      }
+     ],
+     "facts": [
+      "PO5",
+      "PO7"
+     ]
+    },
+    "common_mistakes": {
+     "items": [
+      {
+       "body": "Planning to enter the Jagannath Temple as a non-Hindu."
+      },
+      {
+       "body": "Arriving for the Rath Yatra without a booking."
+      },
+      {
+       "body": "Missing Konark, about 35 km away."
+      }
+     ],
+     "facts": [
+      "PO5",
+      "BPUR1",
+      "BKON1"
+     ]
+    }
+   }
+  },
+  {
+   "key": "odisha/konark-sun-temple",
+   "kind": "temple",
+   "name": "Konark Sun Temple",
+   "parent": "odisha",
+   "summary": "A 13th-century temple built as the Sun God's chariot, 35 km from Puri — a UNESCO World Heritage Site.",
+   "seoTitle": "Konark Sun Temple: History, Wheels & Visiting Hours",
+   "seoDescription": "Konark Sun Temple: a 13th-century chariot of the Sun God with 24 carved wheels, 35 km from Puri, UNESCO-listed in 1984; open 6 am–8 pm.",
+   "lat": 19.8875,
+   "lng": 86.09472222,
+   "tripTypes": [
+    "heritage",
+    "spiritual"
+   ],
+   "images": [
+    {
+     "commons": "File:Konarka_Temple.jpg",
+     "alt": "The Konark Sun Temple",
+     "hero": true
+    }
+   ],
+   "sections": {
+    "overview": {
+     "text": "The Konark Sun Temple, about 35 km north-east of Puri, was built around 1250 CE by Narasimhadeva I of the Eastern Ganga dynasty as a giant stone chariot for the Sun God, with 24 carved wheels. European sailors called it the Black Pagoda, and it once stood at the mouth of the Chandrabhaga river before the sea receded.\n\nThe main tower, once an estimated 227 ft, has fallen; the jagamohana (audience hall), about 39 m tall, is the principal surviving structure. It became a UNESCO World Heritage Site in 1984 and appears on the ₹10 note. Fallen sculptures are in the ASI museum next door. The temple is open from 6 am to 8 pm.",
+     "facts": [
+      "BKON1",
+      "KN1",
+      "BKON2",
+      "KN2",
+      "KN4",
+      "KN3",
+      "BKON3"
+     ]
+    },
+    "who_its_for": {
+     "items": [
+      {
+       "title": "Heritage lovers",
+       "body": "A UNESCO-listed masterpiece of Kalinga architecture."
+      },
+      {
+       "title": "Photographers",
+       "body": "The carved wheels and the jagamohana."
+      },
+      {
+       "title": "Pilgrims",
+       "body": "The Chandrabhaga Mela around February."
+      }
+     ],
+     "facts": [
+      "BKON1",
+      "KN2",
+      "KN5"
+     ]
+    },
+    "travel_tips": {
+     "items": [
+      {
+       "body": "Visit early or late in the day to avoid the heat; October to March is most comfortable."
+      },
+      {
+       "body": "See the ASI museum's fallen sculptures after the temple."
+      },
+      {
+       "body": "Combine with Puri, about 35 km away."
+      }
+     ],
+     "facts": [
+      "BKON3",
+      "KN3",
+      "BKON1"
+     ]
+    },
+    "faqs": {
+     "items": [
+      {
+       "title": "What are Konark's timings?",
+       "body": "6 am to 8 pm."
+      },
+      {
+       "title": "How far is Konark from Puri?",
+       "body": "About 35 km north-east."
+      },
+      {
+       "title": "Why is it called the Black Pagoda?",
+       "body": "European sailors named it for its dark tiered tower."
+      }
+     ],
+     "facts": [
+      "BKON3",
+      "BKON1",
+      "KN1"
+     ]
+    }
+   }
+  }
+ ],
+ "itineraries": []
+}

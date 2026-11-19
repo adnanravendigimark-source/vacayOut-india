@@ -378,6 +378,31 @@
       "url": "https://himachaltourism.gov.in/fairs-fests/",
       "title": "Fairs and festivals — Himachal Tourism (Government of Himachal Pradesh)",
       "authority": "government"
+    },
+    "DWD_KSC": {
+      "url": "https://discoverwithdheeraj.com/kinnaur-spiti-circuit-itinerary-2026/",
+      "title": "Kinnaur–Spiti circuit itinerary 2026 — Discover with Dheeraj",
+      "authority": "travel_platform"
+    },
+    "VK_NKTB": {
+      "url": "https://vargiskhan.com/log/?p=24400",
+      "title": "Nako to Kaza — Vargis Khan",
+      "authority": "travel_platform"
+    },
+    "TRV_MNDS": {
+      "url": "https://www.trivenicabs.in/travel-by-car/manali-to-dharamshala",
+      "title": "Drive Manali to Dharamshala — Triveni Cabs",
+      "authority": "travel_platform"
+    },
+    "CBZ_BHKS": {
+      "url": "https://cabbazar.com/taxi/cab/bhuntar-to-kasol",
+      "title": "Bhuntar to Kasol cab — CabBazar",
+      "authority": "travel_platform"
+    },
+    "TRV_KSMN": {
+      "url": "https://www.trivenicabs.in/travel-by-car/kasol-to-manali",
+      "title": "Drive Kasol to Manali — Triveni Cabs",
+      "authority": "travel_platform"
     }
   },
   "facts": {
@@ -3195,6 +3220,167 @@
           "quote": "winters can pound Kalatop with heavy snow that at times can pile to a heap of over five feet. Kalatop is 13 km from  Dalhousie"
         }
       ]
+    },
+    "HPR_KLNK": {
+      "place": "himachal-pradesh",
+      "topic": "Kalpa to Nako by road",
+      "claimType": "distance",
+      "kind": "estimate",
+      "claim": "Kalpa to Nako is about 115 km, 4–5 hours; Tabo to Kaza is about 47 km, 1.5–2 hours.",
+      "evidence": [
+        {
+          "source": "DWD_KSC",
+          "quote": "Kalpa to Nako ~115 km 4-5 hrs"
+        },
+        {
+          "source": "DWD_KSC",
+          "quote": "Tabo to Kaza ~47 km 1.5-2 hrs"
+        }
+      ]
+    },
+    "HPR_NKTB": {
+      "place": "himachal-pradesh",
+      "topic": "Nako to Tabo by road",
+      "claimType": "distance",
+      "kind": "estimate",
+      "claim": "Nako to Tabo is about 65–70 km; estimates range from about 2 hours to 3–4 hours through the Malling Nala area.",
+      "conflictNote": "Drive-time estimates differ between sources and depend on the Malling Nala section's condition.",
+      "evidence": [
+        {
+          "source": "VK_NKTB",
+          "quote": "Tabo is at a distance of 65 kilometers from Nako and will take about 2 hours in total."
+        },
+        {
+          "source": "DWD_KSC",
+          "quote": "Nako to Tabo ~70 km 3-4 hrs"
+        }
+      ]
+    },
+    "HPR_MNDS": {
+      "place": "himachal-pradesh",
+      "topic": "Manali to Dharamshala by road",
+      "claimType": "distance",
+      "kind": "estimate",
+      "claim": "Dharamshala is about 235 km from Manali by road via Mandi, Baijnath and Palampur, about 6–7 hours.",
+      "evidence": [
+        {
+          "source": "TRV_MNDS",
+          "quote": "Dharamshala is approximately 235 km from Manali by road, a drive of about 6-7 hours depending on traffic and stops."
+        }
+      ]
+    },
+    "HPR_BHKS": {
+      "place": "himachal-pradesh",
+      "topic": "Bhuntar to Kasol by road",
+      "claimType": "distance",
+      "kind": "estimate",
+      "claim": "Kasol is about 30 km from Bhuntar, roughly 1.3 hours by road.",
+      "evidence": [
+        {
+          "source": "CBZ_BHKS",
+          "quote": "Bhuntar to Kasol distance is 30 Km and is 1.3 hours journey."
+        }
+      ]
+    },
+    "HPR_KSMN": {
+      "place": "himachal-pradesh",
+      "topic": "Kasol to Manali by road",
+      "claimType": "distance",
+      "kind": "estimate",
+      "claim": "Manali is about 75 km from Kasol via Bhuntar and Kullu, about 2.5–3 hours.",
+      "evidence": [
+        {
+          "source": "TRV_KSMN",
+          "quote": "Manali is approximately 75 km from Kasol by road, a drive of about 2.5-3 hours depending on traffic and stops."
+        }
+      ]
+    },
+    "HP4": {
+      "place": "himachal-pradesh",
+      "topic": "Himachali food",
+      "claim": "Himachali dishes include siddu, patande pancakes and kali dal, alongside momos and noodles.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_HP",
+          "quote": "Some of the must-try delicacies include Sidu, a delectable wheat-based preparation, Patande, a unique local version of pancakes"
+        }
+      ]
+    },
+    "HS24": {
+      "place": "himachal-pradesh",
+      "topic": "Food of the highlands",
+      "claim": "In Lahaul, Spiti and Kinnaur food is Tibetan-influenced: buckwheat, millet and barley dishes, thupa and salty butter tea.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "HPT_FOOD",
+          "quote": "In the highlands of Lahaul, Spiti and Kinnaur, food has marked Tibetan influence with most dishes made out of coarse grains of buckwheat, millet and barley that are locally grown."
+        },
+        {
+          "source": "HPT_FOOD",
+          "quote": "Butter tea (Salty tea), known as Thang in Kinnaur/Spiti is made by vigorous churning of butter, salt and special tea leaves."
+        }
+      ]
+    },
+    "HS26": {
+      "place": "himachal-pradesh",
+      "topic": "Regional dishes",
+      "claim": "Khamod meat is a Chamba speciality; Kangra has khatta meat, Mandi sepu vadi, and Shimla babru.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "HPT_FOOD",
+          "quote": "Khamod Meat, a Chamba speciality of mutton cooked in ghee with curd, spices and garnished with cashew nuts, dry dates and raisins."
+        },
+        {
+          "source": "HPT_FOOD",
+          "quote": "Other locally popular dishes include Khatta Karai meat of Kangra, and parts of Mandi and Sepu Vadi of Mandi, Patande of Sirmaur, Babru and Nasastha of Shimla."
+        }
+      ]
+    },
+    "SM24": {
+      "place": "himachal-pradesh/shimla",
+      "topic": "Indian Coffee House",
+      "claim": "The Indian Coffee House near Scandal Point on the Mall is a long-standing café known for South Indian food and filter coffee.",
+      "claimType": "general",
+      "kind": "verified",
+      "evidence": [
+        {
+          "source": "HPT_SHI",
+          "quote": "A stone throw from Scandal Point on The Mall Road, the Indian Coffee House is a much frequented eatery that has been patronized by many political leaders, writers and artists."
+        }
+      ]
+    },
+    "SM25": {
+      "place": "himachal-pradesh/shimla",
+      "topic": "Where to eat",
+      "claim": "Most restaurants and eateries are along the Mall Road.",
+      "claimType": "general",
+      "kind": "verified",
+      "evidence": [
+        {
+          "source": "HPT_SHI",
+          "quote": "Most of the restaurants, eateries and food joints are located along the Mall Road."
+        }
+      ]
+    },
+    "SM36": {
+      "place": "himachal-pradesh/kalka-shimla-toy-train",
+      "topic": "Toy train speed",
+      "claim": "The toy train averages 25–30 km/h; trains and the railcar have vistadome coaches.",
+      "claimType": "general",
+      "kind": "verified",
+      "evidence": [
+        {
+          "source": "W_KSR",
+          "quote": "The train has an average speed of 25–30 km/h"
+        },
+        {
+          "source": "W_KSR",
+          "quote": "Both the train and railcar are equipped with vistadomes."
+        }
+      ]
     }
   },
   "places": [],
@@ -3287,7 +3473,8 @@
             "distance": "About 75 km with the stops (estimate)",
             "driveTime": "Dharamshala–Palampur about 70 minutes (HPTDC)",
             "transport": "Taxi",
-            "altitude": 1525
+            "altitude": 1525,
+            "meals": "Meals at your guesthouse, or Chokling Gompa's restaurant."
           },
           {
             "title": "Bir Billing",
@@ -3326,7 +3513,8 @@
               "altitude": 2400
             },
             "access": "Main flying season September–October",
-            "logistics": "Fly only with government-authorised, licensed operators. Flying depends on the weather — keep a spare half-day."
+            "logistics": "Fly only with government-authorised, licensed operators. Flying depends on the weather — keep a spare half-day.",
+            "meals": "Meals at your guesthouse, or Chokling Gompa's restaurant."
           },
           {
             "title": "Leave Bir",
@@ -3349,7 +3537,8 @@
             "summary": "A last morning in the Tibetan colony before the drive back to Gaggal.",
             "distanceKm": 67,
             "distance": "67 km to Gaggal airport",
-            "transport": "Taxi, or narrow-gauge train from Ahju"
+            "transport": "Taxi, or narrow-gauge train from Ahju",
+            "meals": "Breakfast before you leave."
           }
         ],
         "budget": {
@@ -3505,7 +3694,9 @@
             "distance": "30 km from Bhuntar",
             "transport": "Taxi or bus",
             "altitude": 1580,
-            "logistics": "Kasol has no rail or air link of its own — Bhuntar is the nearest airport."
+            "logistics": "Kasol has no rail or air link of its own — Bhuntar is the nearest airport.",
+            "meals": "Try Himachali siddu with ghee and kali dal.",
+            "driveTime": "About 1.3 hours (30 km)"
           },
           {
             "title": "Manikaran and the Parvati",
@@ -3530,7 +3721,8 @@
             "distance": "3.5 km each way to Manikaran",
             "transport": "Taxi, bus or on foot",
             "altitude": 1580,
-            "logistics": "For any trek, hire registered guides and tell the local authorities first. Drugs are a crime under the NDPS Act."
+            "logistics": "For any trek, hire registered guides and tell the local authorities first. Drugs are a crime under the NDPS Act.",
+            "meals": "Try Himachali siddu with ghee and kali dal."
           },
           {
             "title": "Kasol to Manali via Kullu",
@@ -3562,7 +3754,9 @@
             "distance": "76 km (36 + 40 km)",
             "transport": "Taxi or bus",
             "altitude": 2050,
-            "logistics": "Cars not registered in Himachal pay a ₹200 green tax to enter Manali, valid 7 days."
+            "logistics": "Cars not registered in Himachal pay a ₹200 green tax to enter Manali, valid 7 days.",
+            "meals": "Cafés in Old Manali and Vashisht, North Indian food on Mall Road; try Kullu trout.",
+            "driveTime": "About 2.5–3 hours (about 75 km)"
           },
           {
             "title": "Manali town",
@@ -3616,7 +3810,8 @@
             "distanceKm": 75,
             "distance": "13 km to Solang, then 49 km to Bhuntar",
             "driveTime": "About 1 hour Manali–Bhuntar (HPTDC)",
-            "transport": "Taxi, or Volvo bus to Delhi"
+            "transport": "Taxi, or Volvo bus to Delhi",
+            "meals": "Breakfast before you leave."
           }
         ],
         "budget": {
@@ -3724,7 +3919,11 @@
         "HP17",
         "HP20",
         "HP26",
-        "HS18"
+        "HS18",
+        "HP4",
+        "HP30",
+        "HPR_BHKS",
+        "HPR_KSMN"
       ],
       "sources": []
     },
@@ -3809,7 +4008,8 @@
               "name": "Triund",
               "altitude": 2875
             },
-            "logistics": "Start early — the last stretch is steep. Go with a registered guide if you're new to trekking."
+            "logistics": "Start early — the last stretch is steep. Go with a registered guide if you're new to trekking.",
+            "meals": "Tibetan food on McLeodganj's main street, where most of the area's best eateries are."
           },
           {
             "title": "Norbulingka, then to Dalhousie",
@@ -3867,7 +4067,8 @@
             "highPoint": {
               "name": "Dainkund",
               "altitude": 2755
-            }
+            },
+            "meals": "Restaurants on Thandi Sadak and Garam Sadak."
           },
           {
             "title": "Chamba, then leave",
@@ -4075,7 +4276,9 @@
             "distance": "96 km (Kalka–Shimla rail)",
             "transport": "Toy train, or taxi from Chandigarh",
             "altitude": 2376,
-            "logistics": "Daily flights from Delhi also land at Jubbarhatti, 23 km from Shimla."
+            "logistics": "Daily flights from Delhi also land at Jubbarhatti, 23 km from Shimla.",
+            "meals": "The Indian Coffee House near Scandal Point, or the eateries along the Mall.",
+            "driveTime": "About 3.5–4 hours by toy train (96 km at the train's 25–30 km/h average; estimate)"
           },
           {
             "title": "Shimla",
@@ -4142,7 +4345,8 @@
             "driveTime": "About 7½ hours (HPTDC)",
             "transport": "Taxi, own vehicle or bus",
             "altitude": 2050,
-            "logistics": "Vehicles not registered in Himachal pay a green tax to enter Manali (₹200 for a car, valid 7 days). In July–August expect slow, slippery roads."
+            "logistics": "Vehicles not registered in Himachal pay a green tax to enter Manali (₹200 for a car, valid 7 days). In July–August expect slow, slippery roads.",
+            "meals": "Cafés in Old Manali and Vashisht, North Indian food on Mall Road; try Kullu trout."
           },
           {
             "title": "Manali town",
@@ -4215,7 +4419,8 @@
             },
             "access": "Rohtang: about May–November",
             "permits": "Rohtang permit, if you go there",
-            "logistics": "Weather changes fast up here — carry woollens even in summer."
+            "logistics": "Weather changes fast up here — carry woollens even in summer.",
+            "meals": "Lunch in Manali or at Solang; dinner in Old Manali or on Mall Road."
           },
           {
             "title": "Leave Manali",
@@ -4239,7 +4444,8 @@
             "distanceKm": 49,
             "distance": "49 km to Bhuntar airport",
             "driveTime": "About 1 hour (HPTDC)",
-            "transport": "Taxi, or Volvo bus to Delhi"
+            "transport": "Taxi, or Volvo bus to Delhi",
+            "meals": "Breakfast before you leave."
           }
         ],
         "budget": {
@@ -4378,7 +4584,10 @@
         "HP20",
         "HP16",
         "NG1",
-        "NG2"
+        "NG2",
+        "SM24",
+        "SM25",
+        "SM36"
       ],
       "sources": []
     },
@@ -4427,7 +4636,9 @@
             "distanceKm": 96,
             "distance": "96 km (Kalka–Shimla rail)",
             "transport": "Toy train, or flight to Jubbarhatti",
-            "altitude": 2376
+            "altitude": 2376,
+            "meals": "The Indian Coffee House near Scandal Point, or the eateries along the Mall.",
+            "driveTime": "About 3.5–4 hours by toy train (96 km at the train's 25–30 km/h average; estimate)"
           },
           {
             "title": "Shimla to Kalpa",
@@ -4458,7 +4669,8 @@
             "transport": "Taxi or own vehicle",
             "altitude": 2960,
             "access": "HPTDC's Kalpa hotel shuts Dec–Mar",
-            "logistics": "Foreign visitors: Reckong Peo, 13 km below Kalpa, is one of the places that issue Inner Line Permits."
+            "logistics": "Foreign visitors: Reckong Peo, 13 km below Kalpa, is one of the places that issue Inner Line Permits.",
+            "meals": "Tibetan-influenced food: thupa, buckwheat and barley dishes, salty butter tea."
           },
           {
             "title": "Sangla valley and Chitkul",
@@ -4492,7 +4704,8 @@
               "name": "Chitkul",
               "altitude": 3450
             },
-            "logistics": "Mobile signal is good at Reckong Peo, Kalpa and Sangla, but weak or absent on many side roads."
+            "logistics": "Mobile signal is good at Reckong Peo, Kalpa and Sangla, but weak or absent on many side roads.",
+            "meals": "Tibetan-influenced food: thupa, buckwheat and barley dishes, salty butter tea."
           },
           {
             "title": "Kalpa to Nako",
@@ -4517,7 +4730,9 @@
             "transport": "Taxi or own vehicle",
             "altitude": 3625,
             "permits": "Inner Line Permit for foreign visitors",
-            "logistics": "First night above 3,500 m: rest on arrival and drink plenty of water."
+            "logistics": "First night above 3,500 m: rest on arrival and drink plenty of water.",
+            "meals": "Tibetan-influenced food: thupa, buckwheat and barley dishes, salty butter tea.",
+            "driveTime": "About 4–5 hours (about 115 km)"
           },
           {
             "title": "Nako to Tabo via Gue",
@@ -4539,11 +4754,13 @@
             "overnight": "Tabo",
             "travel": "Into Spiti proper.",
             "summary": "Cross into Spiti, stopping at Gue to see the naturally mummified monk Sangha Tenzin, then on to Tabo, whose thousand-year-old monastery is the valley's largest.",
-            "distanceKm": 50,
-            "distance": "About 50 km (estimate)",
+            "distanceKm": 70,
+            "distance": "About 65–70 km Nako–Tabo, plus the Gue detour (estimate)",
             "transport": "Taxi or own vehicle",
             "altitude": 3280,
-            "permits": "Inner Line Permit for foreign visitors"
+            "permits": "Inner Line Permit for foreign visitors",
+            "meals": "Tibetan-influenced food: thupa, buckwheat and barley dishes, salty butter tea.",
+            "driveTime": "Nako–Tabo about 2–4 hours (sources differ), plus the Gue detour"
           },
           {
             "title": "Tabo to Kaza via Dhankar",
@@ -4570,7 +4787,9 @@
             "transport": "Taxi or own vehicle",
             "altitude": 3650,
             "access": "HPTDC's Kaza hotel open May–Oct",
-            "logistics": "Kaza has a bank, an ATM, a post office and a petrol–diesel pump; only BSNL mobile works well in Spiti."
+            "logistics": "Kaza has a bank, an ATM, a post office and a petrol–diesel pump; only BSNL mobile works well in Spiti.",
+            "meals": "Tibetan-influenced food: thupa, buckwheat and barley dishes, salty butter tea.",
+            "driveTime": "Tabo–Kaza about 1.5–2 hours, plus the Dhankar detour"
           },
           {
             "title": "Key, Kibber, Langza and Hikkim",
@@ -4611,7 +4830,8 @@
             "highPoint": {
               "name": "Hikkim",
               "altitude": 4440
-            }
+            },
+            "meals": "Tibetan-influenced food: thupa, buckwheat and barley dishes, salty butter tea."
           },
           {
             "title": "Kaza to Manali over Kunzum",
@@ -4649,7 +4869,8 @@
               "altitude": 4551
             },
             "access": "Manali–Kaza road: about June–October",
-            "logistics": "This road is shut for about seven winter months. Drive in daylight."
+            "logistics": "This road is shut for about seven winter months. Drive in daylight.",
+            "meals": "Cafés in Old Manali and Vashisht, North Indian food on Mall Road; try Kullu trout."
           },
           {
             "title": "Leave Manali",
@@ -4671,7 +4892,8 @@
             "summary": "A slow morning in Manali before heading home.",
             "distanceKm": 50,
             "distance": "50 km to Bhuntar airport",
-            "transport": "Taxi, or Volvo bus to Delhi"
+            "transport": "Taxi, or Volvo bus to Delhi",
+            "meals": "Breakfast before you leave."
           }
         ],
         "budget": {
@@ -4827,7 +5049,15 @@
         "HP20",
         "SC21",
         "SP8",
-        "IT2"
+        "IT2",
+        "SM24",
+        "SM25",
+        "SM36",
+        "HS24",
+        "HPR_KLNK",
+        "HPR_NKTB",
+        "MN5",
+        "MN4"
       ],
       "sources": []
     },
@@ -4876,7 +5106,9 @@
             "distanceKm": 96,
             "distance": "96 km (Kalka–Shimla rail)",
             "transport": "Toy train, or flight to Jubbarhatti",
-            "altitude": 2376
+            "altitude": 2376,
+            "meals": "The Indian Coffee House near Scandal Point, or the eateries along the Mall.",
+            "driveTime": "About 3.5–4 hours by toy train (96 km at the train's 25–30 km/h average; estimate)"
           },
           {
             "title": "Shimla",
@@ -4903,7 +5135,8 @@
             "highPoint": {
               "name": "Jakhoo",
               "altitude": 2445
-            }
+            },
+            "meals": "The Indian Coffee House near Scandal Point, or the eateries along the Mall."
           },
           {
             "title": "Shimla to Kalpa",
@@ -4935,7 +5168,8 @@
             "transport": "Taxi or own vehicle",
             "altitude": 2960,
             "access": "HPTDC's Kalpa hotel shuts Dec–Mar",
-            "logistics": "Foreign visitors: Reckong Peo issues Inner Line Permits."
+            "logistics": "Foreign visitors: Reckong Peo issues Inner Line Permits.",
+            "meals": "Tibetan-influenced food: thupa, buckwheat and barley dishes, salty butter tea."
           },
           {
             "title": "Sangla valley and Chitkul",
@@ -4969,7 +5203,8 @@
               "name": "Chitkul",
               "altitude": 3450
             },
-            "logistics": "Signal is good at Reckong Peo, Kalpa and Sangla, weak on side roads."
+            "logistics": "Signal is good at Reckong Peo, Kalpa and Sangla, weak on side roads.",
+            "meals": "Tibetan-influenced food: thupa, buckwheat and barley dishes, salty butter tea."
           },
           {
             "title": "Kalpa to Nako",
@@ -4989,7 +5224,9 @@
             "transport": "Taxi or own vehicle",
             "altitude": 3625,
             "permits": "Inner Line Permit for foreign visitors",
-            "logistics": "First night above 3,500 m: rest on arrival and drink plenty of water."
+            "logistics": "First night above 3,500 m: rest on arrival and drink plenty of water.",
+            "meals": "Tibetan-influenced food: thupa, buckwheat and barley dishes, salty butter tea.",
+            "driveTime": "About 4–5 hours (about 115 km)"
           },
           {
             "title": "Nako to Tabo via Gue",
@@ -5011,11 +5248,13 @@
             "overnight": "Tabo",
             "travel": "Into Spiti proper.",
             "summary": "Into Spiti: the mummy at Gue and the thousand-year-old monastery at Tabo.",
-            "distanceKm": 50,
-            "distance": "About 50 km (estimate)",
+            "distanceKm": 70,
+            "distance": "About 65–70 km Nako–Tabo, plus the Gue detour (estimate)",
             "transport": "Taxi or own vehicle",
             "altitude": 3280,
-            "permits": "Inner Line Permit for foreign visitors"
+            "permits": "Inner Line Permit for foreign visitors",
+            "meals": "Tibetan-influenced food: thupa, buckwheat and barley dishes, salty butter tea.",
+            "driveTime": "Nako–Tabo about 2–4 hours (sources differ), plus the Gue detour"
           },
           {
             "title": "Tabo to Kaza via Dhankar",
@@ -5041,7 +5280,9 @@
             "transport": "Taxi or own vehicle",
             "altitude": 3650,
             "access": "HPTDC's Kaza hotel open May–Oct",
-            "logistics": "Kaza has a bank, an ATM, a post office and fuel; only BSNL works well in Spiti."
+            "logistics": "Kaza has a bank, an ATM, a post office and fuel; only BSNL works well in Spiti.",
+            "meals": "Tibetan-influenced food: thupa, buckwheat and barley dishes, salty butter tea.",
+            "driveTime": "Tabo–Kaza about 1.5–2 hours, plus the Dhankar detour"
           },
           {
             "title": "Key, Kibber, Langza and Hikkim",
@@ -5077,7 +5318,8 @@
             "highPoint": {
               "name": "Hikkim",
               "altitude": 4440
-            }
+            },
+            "meals": "Tibetan-influenced food: thupa, buckwheat and barley dishes, salty butter tea."
           },
           {
             "title": "Kaza to Manali over Kunzum",
@@ -5115,7 +5357,8 @@
               "altitude": 4551
             },
             "access": "Manali–Kaza road: about June–October",
-            "logistics": "Shut for about seven winter months. Cars not registered in Himachal pay a ₹200 green tax at Manali."
+            "logistics": "Shut for about seven winter months. Cars not registered in Himachal pay a ₹200 green tax at Manali.",
+            "meals": "Cafés in Old Manali and Vashisht, North Indian food on Mall Road; try Kullu trout."
           },
           {
             "title": "Rest day in Manali",
@@ -5169,7 +5412,8 @@
             "distanceKm": 26,
             "distance": "About 13 km each way",
             "transport": "Taxi",
-            "altitude": 2050
+            "altitude": 2050,
+            "meals": "Lunch in Manali or at Solang; dinner in Old Manali or on Mall Road."
           },
           {
             "title": "Manali to Dharamshala",
@@ -5193,7 +5437,9 @@
             "distance": "About 265 km (240 km to Kangra + 25 km)",
             "transport": "Taxi or own vehicle",
             "altitude": 2082,
-            "logistics": "No official drive time is published for this road — allow the whole day."
+            "logistics": "No official drive time is published for this road — allow the whole day.",
+            "meals": "Lunch on the road; dinner in McLeodganj's Tibetan eateries.",
+            "driveTime": "About 6–7 hours Manali–Dharamshala, plus the run up to McLeodganj"
           },
           {
             "title": "McLeodganj",
@@ -5251,7 +5497,8 @@
             "highPoint": {
               "name": "Triund",
               "altitude": 2875
-            }
+            },
+            "meals": "Breakfast before you leave."
           }
         ],
         "budget": {
@@ -5414,7 +5661,14 @@
         "HP20",
         "HP25",
         "SP8",
-        "HX1"
+        "HX1",
+        "SM24",
+        "SM25",
+        "SM36",
+        "HS24",
+        "HPR_KLNK",
+        "HPR_NKTB",
+        "HPR_MNDS"
       ],
       "sources": []
     }

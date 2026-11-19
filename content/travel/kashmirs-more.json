@@ -408,6 +408,46 @@
       "url": "https://travelcoffee.in/places-to-visit/thajiwas-glacier-sonamarg",
       "title": "Thajiwas Glacier, Sonamarg — TravelCoffee",
       "authority": "travel_platform"
+    },
+    "VK_PHG": {
+      "url": "https://vargiskhan.com/log/?p=37475",
+      "title": "Pahalgam travel guide — Vargis Khan",
+      "authority": "travel_platform"
+    },
+    "SAV_PHG": {
+      "url": "https://www.savaari.com/blog/?p=27684",
+      "title": "Srinagar to Pahalgam by road — Savaari",
+      "authority": "travel_platform"
+    },
+    "ANT_ACH": {
+      "url": "https://anantnag.nic.in/tourist-place/achabal/",
+      "title": "Achabal — District Anantnag, Government of Jammu and Kashmir",
+      "authority": "government"
+    },
+    "W_ACH": {
+      "url": "https://en.wikipedia.org/wiki/Achabal",
+      "title": "Achabal — Wikipedia",
+      "authority": "reference"
+    },
+    "W_JMU": {
+      "url": "https://en.wikipedia.org/wiki/Jammu",
+      "title": "Jammu — Wikipedia",
+      "authority": "reference"
+    },
+    "ANT_VER": {
+      "url": "https://anantnag.nic.in/tourist-place/verinag/",
+      "title": "Verinag — District Anantnag, Government of Jammu and Kashmir",
+      "authority": "government"
+    },
+    "W_KOK": {
+      "url": "https://en.wikipedia.org/wiki/Kokernag",
+      "title": "Kokernag — Wikipedia",
+      "authority": "reference"
+    },
+    "ANT_KOK": {
+      "url": "https://anantnag.nic.in/tourist-place/kokernag/",
+      "title": "Kokernag — District Anantnag, Government of Jammu and Kashmir",
+      "authority": "government"
     }
   },
   "facts": {
@@ -1793,6 +1833,111 @@
           "quote": "A real glacier about 3 km from Sonamarg town"
         }
       ]
+    },
+    "KSH_SRPH": {
+      "place": "jammu-and-kashmir/pahalgam",
+      "topic": "Road from Srinagar",
+      "claimType": "distance",
+      "kind": "estimate",
+      "claim": "Pahalgam is about 90–100 km from Srinagar, about 3 hours by car; the usual road runs via Awantipora and Anantnag.",
+      "evidence": [
+        {
+          "source": "VK_PHG",
+          "quote": "The travel time from Srinagar to Pahalgam is 3 hours by car and bike and 5-6 hours by Bus."
+        },
+        {
+          "source": "VK_PHG",
+          "quote": "is about 90-100 kilometers"
+        },
+        {
+          "source": "SAV_PHG",
+          "quote": "Srinagar - Awantipora - Anantnag - Hassan Noor - Pahalgam"
+        }
+      ]
+    },
+    "AC1": {
+      "place": "jammu-and-kashmir/achabal",
+      "topic": "Mughal garden",
+      "claim": "Achabal's spring feeds a terraced Mughal garden in three channels with fountains; the upper part was laid out by Nur Jahan in 1616, and there's a trout hatchery nearby.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "ANT_ACH",
+          "quote": "The water of this spring which flows through this garden in three channels, is beautifying and ornamenting this terraced garden beyond imagination."
+        },
+        {
+          "source": "W_ACH",
+          "quote": "developed by Malika Noor Jehan Begum in 1616 AD"
+        },
+        {
+          "source": "W_ACH",
+          "quote": "A trout hatchery is also located nearby."
+        }
+      ]
+    },
+    "AC2": {
+      "place": "jammu-and-kashmir/achabal",
+      "topic": "Getting there",
+      "claim": "Achabal is 9 km from Anantnag and about 67 km from Srinagar airport.",
+      "claimType": "distance",
+      "evidence": [
+        {
+          "source": "ANT_ACH",
+          "quote": "at a distance of 09 Kms from the district headquarter"
+        },
+        {
+          "source": "ANT_ACH",
+          "quote": "The nearest airport to Achabal is Srinagar Airport (SXR) at about 67 kms"
+        }
+      ],
+      "kind": "estimate"
+    },
+    "JM5": {
+      "place": "jammu-and-kashmir/jammu",
+      "topic": "Climate",
+      "claim": "Summers are very hot (up to 46°C); winter nights occasionally drop below 4°C.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "W_JMU",
+          "quote": "with extreme summer highs reaching 46 °C (115 °F) , and temperatures in the winter months occasionally falling below 4 °C (39 °F)"
+        }
+      ],
+      "kind": "seasonal"
+    },
+    "VN2": {
+      "place": "jammu-and-kashmir/verinag",
+      "topic": "Getting there",
+      "claim": "Verinag is about 26 km from Anantnag and 85 km from Srinagar airport.",
+      "claimType": "distance",
+      "evidence": [
+        {
+          "source": "ANT_VER",
+          "quote": "is about 26 Kms away from Anantnag Town"
+        },
+        {
+          "source": "ANT_VER",
+          "quote": "which is located 85 km from Srinagar airport"
+        }
+      ],
+      "kind": "estimate"
+    },
+    "KK1": {
+      "place": "jammu-and-kashmir/kokernag",
+      "topic": "Springs and trout",
+      "claim": "Kokernag, in Anantnag's Breng valley, is known for its botanical garden, springs and trout farm; it is 76 km from Srinagar.",
+      "claimType": "distance",
+      "evidence": [
+        {
+          "source": "W_KOK",
+          "quote": "The place is known for its botanical gardens, pristine freshwater springs, and rainbow trout farm."
+        },
+        {
+          "source": "ANT_KOK",
+          "quote": "Kokernag is 10 Kms from Anantnag, 54 Kms from Pahalgam, 76 Kms from Srinagar, 247 Kms from Jammu."
+        }
+      ],
+      "kind": "estimate"
     }
   },
   "places": [
@@ -3347,120 +3492,234 @@
     {
       "place": "jammu-and-kashmir",
       "slug": "srinagar-3-days",
-      "title": "Srinagar in 3 days",
+      "title": "Srinagar in 3 days: Dal Lake, the Mughal gardens and the old city",
+      "summary": "A shikara on Dal Lake and the white-marble Hazratbal shrine, a day of Mughal gardens and Pari Mahal, then the old city's wooden mosques, Hari Parbat and the Shankaracharya Temple.",
       "durationDays": 3,
       "tripTypes": [
         "heritage",
         "spiritual",
         "romantic"
       ],
-      "summary": "Dal Lake by shikara, the Mughal gardens, Hazratbal and the old city, the Shankaracharya Temple and Hari Parbat.",
-      "seoTitle": "Srinagar 3-Day Itinerary: Dal Lake, Gardens & Shrines",
-      "seoDescription": "Three days in Srinagar: a shikara on Dal Lake, Shalimar, Nishat and Chashme Shahi, Hazratbal, Jamia Masjid, Hari Parbat and the Shankaracharya Temple.",
+      "seoTitle": "Srinagar 3-Day Itinerary: Dal Lake, Mughal Gardens, Old City",
+      "seoDescription": "Three days in Srinagar: a Dal Lake shikara, Hazratbal, Shalimar, Nishat, Chashme Shahi and Pari Mahal, then Jamia Masjid, Hari Parbat and Shankaracharya.",
       "facts": [
+        "K_SX1",
+        "K_SX2",
+        "K_SX5",
+        "K_SX7",
+        "K_SX9",
         "K_DL4",
+        "DL2",
+        "DL3",
         "K_SB1",
+        "K_SB2",
+        "SB3",
         "K_NB1",
+        "NB2",
+        "PM1",
+        "PM2",
+        "PM3",
         "CHS1",
         "HAZ1",
+        "SX3",
         "JAM1",
         "HAR1",
         "SHA1",
-        "K_JS4"
+        "TUL1",
+        "BAD1",
+        "K_JS4",
+        "K_JS5",
+        "K_JS8",
+        "K_JS9",
+        "SX6",
+        "SX_ADV"
       ],
-      "sources": [],
       "plan": {
-        "overview": "Lake, gardens and the old city.",
-        "start": "Srinagar",
+        "overview": "Srinagar at the pace it deserves. Day 1 is the lake: settle onto a houseboat, take a shikara, and visit Hazratbal on the north shore. Day 2 follows the Mughal gardens — Shalimar, Nishat, Chashme Shahi — up to Pari Mahal's terraces above the lake. Day 3 is the old city: the deodar-pillared Jamia Masjid and the Khanqah-e-Moula, Hari Parbat's fort, and the Shankaracharya Temple on its hill. In March–April, add the tulip garden.",
+        "style": "Unhurried city and lake stay",
+        "start": "Srinagar International Airport (about 12 km)",
         "end": "Srinagar",
-        "transport": "Shikaras on the lake; taxis between sights.",
-        "season": "April–October; March–April for tulips.",
-        "days": [
-          {
-            "title": "Day 1: Dal Lake",
-            "summary": "A shikara ride, then the Hazratbal shrine.",
-            "stops": [
-              {
-                "name": "Dal Lake",
-                "time": "Morning",
-                "placeSlug": "jammu-and-kashmir/dal-lake",
-                "duration": "3 hours"
-              },
-              {
-                "name": "Hazratbal Shrine",
-                "time": "Afternoon",
-                "placeSlug": "jammu-and-kashmir/hazratbal-shrine",
-                "duration": "1 hour"
-              }
-            ],
-            "overnight": "Srinagar"
-          },
-          {
-            "title": "Day 2: Mughal gardens",
-            "summary": "Shalimar, Nishat and Chashme Shahi.",
-            "stops": [
-              {
-                "name": "Shalimar Bagh",
-                "time": "Morning",
-                "placeSlug": "jammu-and-kashmir/shalimar-bagh",
-                "duration": "1.5 hours"
-              },
-              {
-                "name": "Nishat Bagh",
-                "time": "Late morning",
-                "placeSlug": "jammu-and-kashmir/nishat-bagh",
-                "duration": "1.5 hours"
-              },
-              {
-                "name": "Chashme Shahi",
-                "time": "Afternoon",
-                "placeSlug": "jammu-and-kashmir/chashme-shahi",
-                "duration": "1 hour"
-              }
-            ],
-            "overnight": "Srinagar"
-          },
-          {
-            "title": "Day 3: Old city and hilltops",
-            "summary": "Jamia Masjid, Hari Parbat, then the Shankaracharya Temple.",
-            "stops": [
-              {
-                "name": "Jamia Masjid",
-                "time": "Morning",
-                "placeSlug": "jammu-and-kashmir/jamia-masjid-srinagar",
-                "duration": "1 hour"
-              },
-              {
-                "name": "Hari Parbat",
-                "time": "Late morning",
-                "placeSlug": "jammu-and-kashmir/hari-parbat",
-                "duration": "1.5 hours"
-              },
-              {
-                "name": "Shankaracharya Temple",
-                "time": "Afternoon",
-                "placeSlug": "jammu-and-kashmir/shankaracharya-temple",
-                "duration": "1.5 hours"
-              }
-            ],
-            "overnight": "Departure"
-          }
-        ],
+        "season": "April–October for green valleys and gardens (tulips in March–April); December–March for snow and skiing at Gulmarg. Much of the Valley's rain falls in spring.",
+        "difficulty": "Easy",
+        "transport": "Shikaras on the lake; taxis or autos on land.",
         "budget": {
-          "assumptions": "VacayOut lists only fees it could check with an official source; hotels, transport and meals are not estimated. Check current prices before you book.",
-          "lines": []
+          "assumptions": "Hotels, houseboats, shikaras and taxis vary by season; garden tickets are small and change, so we don't list them.",
+          "lines": [
+            {
+              "label": "Shikara, gardens, taxis",
+              "amount": "Not estimated",
+              "basis": "Agree prices on the spot"
+            }
+          ]
         },
         "booking": [
           {
-            "item": "Advisory",
-            "detail": "Check current travel advisories and local restrictions before booking."
+            "item": "Houseboat",
+            "detail": "Book a registered houseboat for at least one night."
+          },
+          {
+            "item": "Taxi",
+            "detail": "Hire a taxi for Day 2 (the gardens) and Day 3 (Shankaracharya's 5.5 km road)."
           }
         ],
         "alternatives": [
-          "Add the Tulip Garden in spring."
+          "Spring visit? Add the Indira Gandhi Memorial Tulip Garden (March–April) and Badamwari's almond blossom (March).",
+          "Want mountains? Add Gulmarg as a day trip — see the five-day plan."
         ],
         "tips": [
-          "Dress modestly at shrines and mosques."
+          "Don't walk up to the Shankaracharya Temple — Incredible India advises against it because of bears; drive the 5.5 km road from Nehru Park.",
+          "Dress modestly at Hazratbal and the old-city mosques.",
+          "Go to the floating vegetable market at dawn."
+        ],
+        "prep": [
+          {
+            "title": "Travel advice and safety",
+            "body": "As of October 2026 the UK government advises against all travel to Jammu and Kashmir (except flying to and within Jammu city), citing a continuing terrorist threat to civilians including tourists; curfews can be imposed at short notice. Check your own government's advice and your insurance before booking."
+          },
+          {
+            "title": "Phones",
+            "body": "Prepaid SIMs from the rest of India don't work in J&K because roaming is barred; bring a postpaid connection."
+          }
+        ],
+        "faqs": [
+          {
+            "q": "Is three days enough for Srinagar?",
+            "a": "Yes for the lake, the gardens and the old city. Add days for Gulmarg, Sonamarg or Pahalgam."
+          },
+          {
+            "q": "When are the tulips out?",
+            "a": "March–April, when the Tulip Festival is held at Asia's largest tulip garden above Dal Lake."
+          }
+        ],
+        "days": [
+          {
+            "title": "Dal Lake and Hazratbal",
+            "summary": "The lake by shikara and the white-marble shrine on its north shore.",
+            "stops": [
+              {
+                "time": "6 am",
+                "name": "Floating vegetable market",
+                "duration": "1 hour",
+                "placeSlug": "jammu-and-kashmir/dal-lake",
+                "note": "Near Nehru Park."
+              },
+              {
+                "time": "10 am",
+                "name": "Shikara ride on Dal Lake",
+                "duration": "2 hours",
+                "placeSlug": "jammu-and-kashmir/dal-lake"
+              },
+              {
+                "time": "12:30 pm",
+                "name": "Lunch",
+                "duration": "1 hour"
+              },
+              {
+                "time": "3 pm",
+                "name": "Hazratbal Shrine",
+                "duration": "1 hour",
+                "placeSlug": "jammu-and-kashmir/hazratbal-shrine",
+                "note": "Holds a relic believed to be a hair of the Prophet."
+              }
+            ],
+            "travel": "Shikara across the lake; taxi to Hazratbal.",
+            "distanceKm": 20,
+            "distance": "About 20 km (estimate)",
+            "driveTime": "Under 1 hour in total (estimate)",
+            "transport": "Shikara and taxi",
+            "meals": "Kahwa and Kashmiri lunch.",
+            "overnight": "Srinagar"
+          },
+          {
+            "title": "The Mughal gardens",
+            "summary": "Shalimar, Nishat, Chashme Shahi and Pari Mahal.",
+            "stops": [
+              {
+                "time": "9:30 am",
+                "name": "Shalimar Bagh",
+                "duration": "1.5 hours",
+                "placeSlug": "jammu-and-kashmir/shalimar-bagh"
+              },
+              {
+                "time": "11:15 am",
+                "name": "Nishat Bagh",
+                "duration": "1 hour",
+                "placeSlug": "jammu-and-kashmir/nishat-bagh"
+              },
+              {
+                "time": "12:30 pm",
+                "name": "Lunch",
+                "duration": "1 hour"
+              },
+              {
+                "time": "2 pm",
+                "name": "Chashme Shahi",
+                "duration": "45 minutes",
+                "placeSlug": "jammu-and-kashmir/chashme-shahi",
+                "note": "The smallest Mughal garden, built around a spring in 1632."
+              },
+              {
+                "time": "3 pm",
+                "name": "Pari Mahal",
+                "duration": "1.5 hours",
+                "placeSlug": "jammu-and-kashmir/pari-mahal",
+                "note": "Open 9:30 am–7:30 pm; terraces above the lake."
+              }
+            ],
+            "travel": "Along the Zabarwan foothills on the east shore.",
+            "distanceKm": 25,
+            "distance": "About 25 km (estimate)",
+            "driveTime": "About 1 hour in total (estimate)",
+            "transport": "Taxi",
+            "meals": "Wazwan dinner.",
+            "overnight": "Srinagar"
+          },
+          {
+            "title": "Old city and hilltops",
+            "summary": "Wooden mosques, a hill fort and the hilltop temple.",
+            "stops": [
+              {
+                "time": "9 am",
+                "name": "Jamia Masjid",
+                "duration": "1 hour",
+                "placeSlug": "jammu-and-kashmir/jamia-masjid-srinagar",
+                "note": "Hundreds of deodar-wood columns."
+              },
+              {
+                "time": "10:30 am",
+                "name": "Khanqah-e-Moula and the old bazaars",
+                "duration": "1 hour",
+                "placeSlug": "srinagar",
+                "note": "Papier-mâché decoration."
+              },
+              {
+                "time": "12 pm",
+                "name": "Hari Parbat",
+                "duration": "1.5 hours",
+                "placeSlug": "jammu-and-kashmir/hari-parbat",
+                "note": "Fort of 1808 with a temple, mosques and a gurdwara."
+              },
+              {
+                "time": "1:30 pm",
+                "name": "Lunch",
+                "duration": "1 hour"
+              },
+              {
+                "time": "3:30 pm",
+                "name": "Shankaracharya Temple",
+                "duration": "1.5 hours",
+                "placeSlug": "jammu-and-kashmir/shankaracharya-temple",
+                "note": "5.5 km road from Nehru Park; don't walk up."
+              }
+            ],
+            "travel": "Old city by taxi or auto; drive up to Shankaracharya.",
+            "distanceKm": 25,
+            "distance": "About 25 km (estimate)",
+            "driveTime": "About 1.5 hours in total (estimate)",
+            "transport": "Taxi",
+            "meals": "Lunch in the old city.",
+            "overnight": "Departure (airport about 12 km)"
+          }
         ]
       }
     },
@@ -3468,188 +3727,402 @@
       "place": "jammu-and-kashmir",
       "slug": "jammu-vaishno-devi-3-days",
       "title": "Jammu and Vaishno Devi in 3 days",
+      "summary": "Jammu's temples and Dogra palaces on Day 1, Amar Mahal and the drive to Katra to register on Day 2, and the trek to the Vaishno Devi cave shrine on Trikuta hill on Day 3.",
       "durationDays": 3,
       "tripTypes": [
         "spiritual",
         "heritage"
       ],
-      "summary": "Jammu's temples and palaces, then Katra and the Vaishno Devi pilgrimage.",
-      "seoTitle": "Jammu & Vaishno Devi 3-Day Itinerary",
-      "seoDescription": "Three days: Raghunath Temple, Bahu Fort, Amar Mahal and Mubarak Mandi in Jammu, then Katra and the 12 km climb to Vaishno Devi.",
+      "seoTitle": "Jammu & Vaishno Devi 3-Day Itinerary: Temples, Katra and the Trek",
+      "seoDescription": "Three days: Jammu's Raghunath Temple, Bahu Fort and Amar Mahal, then Katra (42 km) and the 14 km Vaishno Devi trek, with RFID card, helicopter and ropeway options.",
       "facts": [
+        "K_JM1",
+        "K_JM2",
+        "K_JM3",
         "RAG1",
         "BAH1",
         "AMA1",
+        "AMA2",
         "MUB1",
+        "PKH1",
         "K_KT1",
+        "KT2",
         "VAI1",
-        "K_JS14"
+        "K_JS14",
+        "K_JS10",
+        "VB_KS",
+        "K_JS17",
+        "K_JS9",
+        "JM5",
+        "K_JS4",
+        "K_JS8"
       ],
-      "sources": [],
       "plan": {
-        "overview": "City of temples, then the pilgrimage.",
-        "start": "Jammu",
-        "end": "Katra",
-        "transport": "Taxis in Jammu; road or train to Katra; on foot or pony to the shrine.",
-        "season": "Year-round; very hot in summer.",
-        "days": [
-          {
-            "title": "Day 1: Jammu",
-            "summary": "Raghunath Temple and Mubarak Mandi; sunset at Bahu Fort.",
-            "stops": [
-              {
-                "name": "Raghunath Temple",
-                "time": "Morning",
-                "placeSlug": "jammu-and-kashmir/raghunath-temple",
-                "duration": "1.5 hours"
-              },
-              {
-                "name": "Mubarak Mandi Palace",
-                "time": "Late morning",
-                "placeSlug": "jammu-and-kashmir/mubarak-mandi-palace",
-                "duration": "1 hour"
-              },
-              {
-                "name": "Bahu Fort",
-                "time": "Evening",
-                "placeSlug": "jammu-and-kashmir/bahu-fort",
-                "duration": "1.5 hours"
-              }
-            ],
-            "overnight": "Jammu"
-          },
-          {
-            "title": "Day 2: Amar Mahal and Katra",
-            "summary": "Amar Mahal's miniatures, then on to Katra and register for the yatra.",
-            "stops": [
-              {
-                "name": "Amar Mahal Palace",
-                "time": "Morning",
-                "placeSlug": "jammu-and-kashmir/amar-mahal-palace",
-                "duration": "1.5 hours"
-              },
-              {
-                "name": "Katra",
-                "time": "Afternoon",
-                "placeSlug": "jammu-and-kashmir/katra",
-                "duration": "2 hours"
-              }
-            ],
-            "overnight": "Katra"
-          },
-          {
-            "title": "Day 3: Vaishno Devi",
-            "summary": "The 12 km climb to the shrine and back.",
-            "stops": [
-              {
-                "name": "Vaishno Devi Temple",
-                "time": "Early morning",
-                "placeSlug": "jammu-and-kashmir/vaishno-devi-temple",
-                "duration": "10 hours"
-              }
-            ],
-            "overnight": "Departure"
-          }
-        ],
+        "overview": "A pilgrimage with a day of Dogra heritage first. Day 1 in Jammu covers the Raghunath Temple, the Mubarak Mandi palace on its cliff above the Tawi, the Peer Kho cave shrine and Bahu Fort at dusk. Day 2 visits Amar Mahal's Pahari miniatures, then drives 42 km to Katra to register and collect the RFID Yatra Access Card. Day 3 is the trek of about 14 km to the cave shrine at 1,585 m — on foot, by battery car or helicopter for part of the way — with the ropeway on to Bhairon ji. The UK advice against travel to J&K excludes travel within Jammu city, but not Katra; check your own government's advice.",
+        "style": "Pilgrimage with a heritage day",
+        "start": "Jammu (airport about 8 km from the city)",
+        "end": "Katra (Vande Bharat to Srinagar about 3 hours)",
+        "season": "October to March is cooler for the trek; Jammu's summers reach 46°C.",
+        "difficulty": "Moderate to demanding — a long uphill trek",
+        "transport": "Taxi in Jammu and to Katra (42 km); trek, battery car, helicopter or pony on Trikuta hill.",
         "budget": {
-          "assumptions": "VacayOut lists only fees it could check with an official source; hotels, transport and meals are not estimated. Check current prices before you book.",
-          "lines": []
+          "assumptions": "Helicopter, pony, battery-car and hotel prices vary; we don't estimate them.",
+          "lines": [
+            {
+              "label": "Amar Mahal",
+              "amount": "₹10 (adult) / ₹50 (foreign)",
+              "basis": "Incredible India"
+            },
+            {
+              "label": "Helicopter, battery car, ropeway",
+              "amount": "Not estimated",
+              "basis": "Check current charges when booking"
+            }
+          ]
         },
         "booking": [
           {
-            "item": "Registration",
-            "detail": "Every Vaishno Devi pilgrim must register with the Shrine Board."
+            "item": "Yatra registration",
+            "detail": "Every pilgrim must register with the Shrine Board and carry an RFID Yatra Access Card; do it before you start the trek."
+          },
+          {
+            "item": "Helicopter (optional)",
+            "detail": "If you plan to fly part of the way, book helicopter seats well ahead in peak season."
           }
         ],
         "alternatives": [
-          "Add Patnitop and Sudh Mahadev."
+          "Heading to Kashmir next? Take the Vande Bharat from Katra to Srinagar (about 3 hours).",
+          "Easier on the knees? Use the battery car or helicopter for part of the way and the ropeway to Bhairon ji."
         ],
         "tips": [
-          "Start the climb early."
+          "Start the trek early to avoid midday heat and queues.",
+          "The Shrine Board runs free langars along the route.",
+          "Bahu Fort's Bave Wali Mata temple is busiest on Tuesdays and Sundays."
+        ],
+        "prep": [
+          {
+            "title": "For the trek",
+            "body": "Wear broken-in walking shoes, carry water and a light rain layer, and keep valuables minimal."
+          },
+          {
+            "title": "Phones",
+            "body": "Prepaid SIMs from the rest of India don't work in J&K because roaming is barred; bring a postpaid connection."
+          }
+        ],
+        "faqs": [
+          {
+            "q": "How long is the Vaishno Devi trek?",
+            "a": "About 14 km from Katra to the Bhawan; helicopters, battery cars and ponies cover parts of it."
+          },
+          {
+            "q": "Do I need to register?",
+            "a": "Yes — every pilgrim must register and carry an RFID Yatra Access Card."
+          }
+        ],
+        "days": [
+          {
+            "title": "Jammu: temples and palaces",
+            "summary": "The city of temples, the Dogra palace and the fort at dusk.",
+            "stops": [
+              {
+                "time": "8:30 am",
+                "name": "Raghunath Temple",
+                "duration": "1 hour",
+                "placeSlug": "jammu-and-kashmir/raghunath-temple",
+                "note": "Seven shrines; one of north India's largest temple complexes."
+              },
+              {
+                "time": "10 am",
+                "name": "Mubarak Mandi Palace",
+                "duration": "1.5 hours",
+                "placeSlug": "jammu-and-kashmir/mubarak-mandi-palace",
+                "note": "On a cliff above the Tawi."
+              },
+              {
+                "time": "12 pm",
+                "name": "Lunch",
+                "duration": "1 hour"
+              },
+              {
+                "time": "2 pm",
+                "name": "Peer Kho Cave Temple",
+                "duration": "45 minutes",
+                "placeSlug": "jammu-and-kashmir/peer-kho-cave-temple"
+              },
+              {
+                "time": "4:30 pm",
+                "name": "Bahu Fort",
+                "duration": "1.5 hours",
+                "placeSlug": "jammu-and-kashmir/bahu-fort",
+                "note": "5 km from the centre; Bave Wali Mata temple."
+              }
+            ],
+            "travel": "Short city drives; Bahu Fort is about 5 km from the centre.",
+            "distanceKm": 20,
+            "distance": "About 20 km (estimate)",
+            "driveTime": "About 1 hour in total (estimate)",
+            "transport": "Taxi or auto",
+            "meals": "Rajma chawal and kachaloo chaat.",
+            "overnight": "Jammu"
+          },
+          {
+            "title": "Amar Mahal, then Katra",
+            "summary": "Pahari miniatures, then the drive to the base town.",
+            "stops": [
+              {
+                "time": "10 am",
+                "name": "Amar Mahal Palace",
+                "duration": "1.5 hours",
+                "placeSlug": "jammu-and-kashmir/amar-mahal-palace",
+                "note": "Museum of Pahari miniatures; ₹10 (₹50 foreign)."
+              },
+              {
+                "time": "12 pm",
+                "name": "Lunch",
+                "duration": "1 hour"
+              },
+              {
+                "time": "1:30 pm",
+                "name": "Drive to Katra",
+                "duration": "1.5 hours",
+                "placeSlug": "jammu-and-kashmir/katra",
+                "note": "About 42 km."
+              },
+              {
+                "time": "3:30 pm",
+                "name": "Registration and RFID card",
+                "duration": "1 hour",
+                "placeSlug": "jammu-and-kashmir/katra"
+              },
+              {
+                "time": "5 pm",
+                "name": "Rest",
+                "duration": ""
+              }
+            ],
+            "travel": "Jammu → Katra about 42 km.",
+            "distanceKm": 50,
+            "distance": "About 50 km (estimate)",
+            "driveTime": "About 1.5 hours (estimate)",
+            "transport": "Taxi",
+            "meals": "Vegetarian dinner in Katra.",
+            "overnight": "Katra"
+          },
+          {
+            "title": "Vaishno Devi",
+            "summary": "The trek to the cave shrine and the ropeway to Bhairon ji.",
+            "stops": [
+              {
+                "time": "5 am",
+                "name": "Trek from Katra to the Bhawan",
+                "duration": "About 5–6 hours (estimate)",
+                "placeSlug": "jammu-and-kashmir/vaishno-devi-temple",
+                "note": "About 14 km; battery cars or helicopters cover parts."
+              },
+              {
+                "time": "11 am",
+                "name": "Darshan at the cave shrine",
+                "duration": "2 hours",
+                "placeSlug": "jammu-and-kashmir/vaishno-devi-temple",
+                "note": "1,585 m on Trikuta hill."
+              },
+              {
+                "time": "1:30 pm",
+                "name": "Ropeway to Bhairon ji",
+                "duration": "1 hour",
+                "placeSlug": "jammu-and-kashmir/vaishno-devi-temple",
+                "note": "Runs 9 am–5 pm."
+              },
+              {
+                "time": "3 pm",
+                "name": "Descent to Katra",
+                "duration": "About 4 hours (estimate)",
+                "placeSlug": "jammu-and-kashmir/katra"
+              }
+            ],
+            "travel": "Katra ↔ Bhawan about 14 km each way on foot (or partly by battery car or helicopter).",
+            "distanceKm": 28,
+            "distance": "About 28 km on foot round trip",
+            "driveTime": "Not a driving day",
+            "transport": "On foot, battery car, helicopter or pony",
+            "meals": "Free Shrine Board langars on the route.",
+            "overnight": "Katra or onward"
+          }
         ]
       }
     },
     {
       "place": "jammu-and-kashmir",
       "slug": "south-kashmir-heritage-2-days",
-      "title": "South Kashmir heritage in 2 days",
+      "title": "South Kashmir heritage in 2 days: saffron, temple ruins and the Lidder valley",
+      "summary": "Pampore's saffron fields, the 9th-century Avantipora temples, the Martand Sun Temple and Achabal's Mughal garden on the road south, then Pahalgam's Betaab and Aru valleys before returning to Srinagar.",
       "durationDays": 2,
       "tripTypes": [
         "heritage",
         "food"
       ],
-      "summary": "Pampore's saffron, the Avantipora and Martand ruins, then Pahalgam on the Lidder.",
-      "seoTitle": "South Kashmir 2-Day Itinerary: Saffron & Ruins",
-      "seoDescription": "Two days from Srinagar: Pampore's saffron fields, the Avantipora temple ruins, the Martand Sun Temple and Pahalgam.",
+      "seoTitle": "South Kashmir 2-Day Itinerary: Pampore, Avantipora, Martand, Pahalgam",
+      "seoDescription": "Two days south of Srinagar: Pampore saffron, the Avantipora and Martand temple ruins, Achabal's Mughal garden, then Betaab and Aru valleys at Pahalgam.",
       "facts": [
         "PAM1",
         "AVA1",
         "MAR1",
+        "AC1",
+        "AC2",
+        "KSH_SRPH",
         "K_PH1",
-        "K_JS4"
+        "K_PH2",
+        "PH6",
+        "PAH_CL",
+        "PAH_OP",
+        "K_JS4",
+        "K_JS7",
+        "K_JS8",
+        "K_SX9",
+        "VN2",
+        "KK1"
       ],
-      "sources": [],
       "plan": {
-        "overview": "The road south from Srinagar.",
+        "overview": "Kashmir's older history lies along the road south from Srinagar. Day 1 stops at Pampore, the saffron town (Kashmir saffron has a GI tag), the 9th-century Avantipora temples of King Avantivarman, the 8th-century Martand Sun Temple of Lalitaditya, and Nur Jahan's spring garden at Achabal, ending in Pahalgam. Day 2 explores the open Betaab and Aru valleys before the drive back (about 3 hours). Baisaran, Chandanwari and Tulian Lake are on the District Anantnag closure list until 31 December 2026; Betaab and Aru valleys are open.",
+        "style": "Heritage road trip",
         "start": "Srinagar",
-        "end": "Pahalgam",
-        "transport": "Car with driver.",
-        "season": "Saffron flowers in autumn; check advisories first.",
-        "days": [
-          {
-            "title": "Day 1: Saffron and Avantipora",
-            "summary": "Pampore's saffron, then the Avantipora ruins.",
-            "stops": [
-              {
-                "name": "Pampore",
-                "time": "Morning",
-                "placeSlug": "jammu-and-kashmir/pampore",
-                "duration": "2 hours"
-              },
-              {
-                "name": "Avantipora Temple Ruins",
-                "time": "Afternoon",
-                "placeSlug": "jammu-and-kashmir/avantiswami-temple",
-                "duration": "1.5 hours"
-              }
-            ],
-            "overnight": "Srinagar"
-          },
-          {
-            "title": "Day 2: Martand and Pahalgam",
-            "summary": "The Martand Sun Temple ruins, then on to Pahalgam.",
-            "stops": [
-              {
-                "name": "Martand Sun Temple",
-                "time": "Morning",
-                "placeSlug": "jammu-and-kashmir/martand-sun-temple",
-                "duration": "1.5 hours"
-              },
-              {
-                "name": "Pahalgam",
-                "time": "Afternoon",
-                "placeSlug": "jammu-and-kashmir/pahalgam",
-                "duration": "3 hours"
-              }
-            ],
-            "overnight": "Pahalgam"
-          }
-        ],
+        "end": "Srinagar",
+        "season": "April–October is best; winter brings snow to the higher valleys.",
+        "difficulty": "Easy",
+        "transport": "Taxi with driver for both days.",
         "budget": {
-          "assumptions": "VacayOut lists only fees it could check with an official source; hotels, transport and meals are not estimated. Check current prices before you book.",
-          "lines": []
+          "assumptions": "Taxi, hotel and site fees vary; the ASI sites charge small fees at the gate.",
+          "lines": [
+            {
+              "label": "Taxi, site entries",
+              "amount": "Not estimated",
+              "basis": "Agree the taxi in advance; pay entries at the gate"
+            }
+          ]
         },
         "booking": [
           {
-            "item": "Advisory",
-            "detail": "Some sites near Pahalgam were still closed in 2026; check before travelling."
+            "item": "Taxi",
+            "detail": "Book a taxi Srinagar → Pahalgam → Srinagar with the Day 1 heritage stops agreed."
           }
         ],
         "alternatives": [
-          "Continue to Aru and Betaab valleys on foot."
+          "One day only? Do Pampore, Avantipora and Martand and return to Srinagar.",
+          "More time? Add Kokernag and Verinag's Mughal spring (about 85 km from the airport)."
         ],
         "tips": [
-          "Carry ID for checkpoints."
+          "Buy saffron from established Pampore shops and ask about the GI tag.",
+          "Achabal has a trout hatchery nearby.",
+          "Start early on Day 1 to fit in four stops."
+        ],
+        "prep": [
+          {
+            "title": "Travel advice and safety",
+            "body": "As of October 2026 the UK government advises against all travel to Jammu and Kashmir (except flying to and within Jammu city), citing a continuing terrorist threat to civilians including tourists; curfews can be imposed at short notice. Check your own government's advice and your insurance before booking."
+          },
+          {
+            "title": "Phones",
+            "body": "Prepaid SIMs from the rest of India don't work in J&K because roaming is barred; bring a postpaid connection."
+          }
+        ],
+        "faqs": [
+          {
+            "q": "What is the Martand Sun Temple?",
+            "a": "An 8th-century temple to the Sun built by Lalitaditya Muktapida, later destroyed by Sikandar Shah Miri; its ruins stand near Anantnag."
+          },
+          {
+            "q": "Which Pahalgam valleys are open?",
+            "a": "Betaab and Aru reopened in 2025. Baisaran, Chandanwari and Tulian Lake are closed until 31 December 2026."
+          }
+        ],
+        "days": [
+          {
+            "title": "Saffron, temple ruins and Achabal",
+            "summary": "Four stops on the road south to Pahalgam.",
+            "stops": [
+              {
+                "time": "8:30 am",
+                "name": "Pampore saffron fields",
+                "duration": "45 minutes",
+                "placeSlug": "jammu-and-kashmir/pampore",
+                "note": "About 11 km from Srinagar."
+              },
+              {
+                "time": "9:45 am",
+                "name": "Avantipora temple ruins",
+                "duration": "1 hour",
+                "placeSlug": "jammu-and-kashmir/avantiswami-temple",
+                "note": "Two 9th-century temples to Shiva and Vishnu."
+              },
+              {
+                "time": "11:30 am",
+                "name": "Martand Sun Temple",
+                "duration": "1 hour",
+                "placeSlug": "jammu-and-kashmir/martand-sun-temple"
+              },
+              {
+                "time": "1 pm",
+                "name": "Lunch in Anantnag",
+                "duration": "1 hour"
+              },
+              {
+                "time": "2:15 pm",
+                "name": "Achabal Mughal garden",
+                "duration": "1 hour",
+                "placeSlug": "jammu-and-kashmir/achabal",
+                "note": "9 km from Anantnag; Nur Jahan's spring garden."
+              },
+              {
+                "time": "4 pm",
+                "name": "Drive to Pahalgam",
+                "duration": "1.5 hours",
+                "placeSlug": "jammu-and-kashmir/pahalgam"
+              }
+            ],
+            "travel": "Srinagar → Pampore → Avantipora → Anantnag area → Pahalgam (about 100 km plus detours).",
+            "distanceKm": 120,
+            "distance": "About 120 km (estimate)",
+            "driveTime": "About 4 hours of driving (estimate)",
+            "transport": "Taxi",
+            "meals": "Lunch in Anantnag.",
+            "overnight": "Pahalgam"
+          },
+          {
+            "title": "Betaab and Aru, then Srinagar",
+            "summary": "The Lidder valley's open meadows, then back.",
+            "stops": [
+              {
+                "time": "8:30 am",
+                "name": "Betaab Valley",
+                "duration": "2 hours",
+                "placeSlug": "jammu-and-kashmir/pahalgam"
+              },
+              {
+                "time": "11 am",
+                "name": "Aru Valley",
+                "duration": "2 hours",
+                "placeSlug": "jammu-and-kashmir/pahalgam"
+              },
+              {
+                "time": "1:30 pm",
+                "name": "Lunch",
+                "duration": "1 hour"
+              },
+              {
+                "time": "3 pm",
+                "name": "Drive to Srinagar",
+                "duration": "3 hours",
+                "note": "About 90–100 km."
+              }
+            ],
+            "travel": "Local taxis to Betaab and Aru; Pahalgam → Srinagar about 3 hours.",
+            "distanceKm": 140,
+            "distance": "About 140 km (estimate)",
+            "driveTime": "About 4 hours in total (estimate)",
+            "transport": "Local taxi, then taxi",
+            "meals": "Kashmiri lunch in Pahalgam.",
+            "overnight": "Srinagar"
+          }
         ]
       }
     },

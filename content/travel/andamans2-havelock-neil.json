@@ -1,0 +1,789 @@
+{
+ "cluster": "andamans2-havelock-neil",
+ "title": "Swaraj Dweep and Shaheed Dweep (Batch 5)",
+ "researchedAt": "2026-11-18",
+ "selection": "Batch 5. Swaraj Dweep (126 words) and Shaheed Dweep (136 words) get who it's for, practical info, things to do, safety (saltwater crocodiles), common mistakes and FAQs, plus fuller overviews (pending review). Named to sort after andamans-more.json, which defines the beach child pages. The havelock-neil-4-days itinerary is left for the itinerary audit. Not covered: ferry fares and timetables, dive prices.",
+ "sources": {
+  "W_SWA": {
+   "url": "https://en.wikipedia.org/wiki/Swaraj_Dweep",
+   "title": "Swaraj Dweep — Wikipedia",
+   "authority": "reference"
+  },
+  "W_SHA": {
+   "url": "https://en.wikipedia.org/wiki/Shaheed_Dweep",
+   "title": "Shaheed Dweep — Wikipedia",
+   "authority": "reference"
+  },
+  "II_NEIL2": {
+   "url": "https://www.incredibleindia.gov.in/en/andaman-and-nicobar-islands/sri-vijaya-puram/neil-island-shaheed-dweep",
+   "title": "Shaheed Dweep (Neil Island) — Incredible India",
+   "authority": "government"
+  },
+  "II_TODO": {
+   "url": "https://www.incredibleindia.gov.in/en/andaman-and-nicobar-islands/sri-vijaya-puram/10-best-things-to-do-in-the-andamans",
+   "title": "10 best things to do in the Andamans — Incredible India",
+   "authority": "government"
+  },
+  "II_ADV": {
+   "url": "https://www.incredibleindia.gov.in/en/andaman-and-nicobar-islands/sri-vijaya-puram/adventure-sports-in-and-around-sri-vijaya-puram-thrills-amidst-natures-beauty",
+   "title": "Adventure sports in and around Sri Vijaya Puram — Incredible India",
+   "authority": "government"
+  },
+  "WAVE": {
+   "url": "https://thewaveandaman.com/how-port-blairs-pristine-beaches-have-lost-their-mojo/",
+   "title": "How Port Blair's pristine beaches have lost their mojo — The Wave Andaman",
+   "authority": "media"
+  },
+  "II_AN": {
+   "url": "https://www.incredibleindia.gov.in/en/andaman-and-nicobar-islands",
+   "title": "Andaman and Nicobar Islands — Incredible India (Ministry of Tourism)",
+   "authority": "government"
+  },
+  "II_NEIL": {
+   "url": "https://www.incredibleindia.gov.in/en/andaman-and-nicobar-islands/sri-vijaya-puram/neil-island-shaheed-dweep",
+   "title": "Neil Island (Shaheed Dweep) — Incredible India (Ministry of Tourism)",
+   "authority": "government"
+  },
+  "II_SVP": {
+   "url": "https://www.incredibleindia.gov.in/en/andaman-and-nicobar-islands/sri-vijaya-puram",
+   "title": "Sri Vijaya Puram — Incredible India (Ministry of Tourism)",
+   "authority": "government"
+  },
+  "RAP": {
+   "url": "https://tourism.andamannicobar.gov.in/userpages/admin/whatsnewfile/2026030570Restricted%20Area%20Permit.pdf",
+   "title": "Restricted Area Permit (RAP) notice — Andaman & Nicobar Tourism (Andaman & Nicobar Administration)",
+   "authority": "government"
+  },
+  "W_AN": {
+   "url": "https://en.wikipedia.org/wiki/Andaman_and_Nicobar_Islands",
+   "title": "Andaman and Nicobar Islands — Wikipedia",
+   "authority": "reference"
+  },
+  "II_MON": {
+   "url": "https://www.incredibleindia.gov.in/en/andaman-and-nicobar-islands/sri-vijaya-puram/5-compelling-reasons-to-visit-the-andamans-this-monsoon",
+   "title": "5 reasons to visit the Andamans this monsoon — Incredible India (Ministry of Tourism)",
+   "authority": "government"
+  },
+  "AM_15df9f": {
+   "url": "https://www.incredibleindia.gov.in/en/andaman-and-nicobar-islands/sri-vijaya-puram/explore-the-fascinating-colonial-heritage-of-andamans",
+   "title": "Explore The Fascinating Colonial Heritage Of Andamans — Incredible India (Ministry of Tourism, Government of India)",
+   "authority": "government"
+  }
+ },
+ "facts": {
+  "BNE1": {
+   "place": "andaman-and-nicobar-islands/shaheed-dweep",
+   "topic": "Quiet beaches",
+   "claim": "Shaheed Dweep (Neil Island) is quieter, with Bharatpur, Sitapur and Laxmanpur beaches and a natural rock arch.",
+   "claimType": "general",
+   "evidence": [
+    {
+     "source": "II_AN",
+     "quote": "Shaheed Dweep (formerly Neil Island)"
+    },
+    {
+     "source": "II_NEIL",
+     "quote": "You can stroll on the beautiful beaches at Bharatpur and Sitapur"
+    },
+    {
+     "source": "II_NEIL",
+     "quote": "the natural rock formation locally known as the Howrah Bridge on the Lakshmanpur Beach is simply stunning"
+    }
+   ]
+  },
+  "BNE2": {
+   "place": "andaman-and-nicobar-islands/shaheed-dweep",
+   "topic": "By bicycle",
+   "claim": "The island is easily explored by bicycle.",
+   "claimType": "general",
+   "evidence": [
+    {
+     "source": "II_SVP",
+     "quote": "Explore the island by bicycle, traversing scenic pathways"
+    }
+   ]
+  },
+  "BNE3": {
+   "place": "andaman-and-nicobar-islands/shaheed-dweep",
+   "topic": "Reefs",
+   "claim": "Coral reefs just offshore make for good snorkelling and diving.",
+   "claimType": "general",
+   "evidence": [
+    {
+     "source": "II_NEIL",
+     "quote": "Snorkelling or scuba diving in these waters is an experience like no other"
+    }
+   ]
+  },
+  "BNE4": {
+   "place": "andaman-and-nicobar-islands/shaheed-dweep",
+   "topic": "Food and forest walks",
+   "claim": "Fresh seafood blends Indian and South-East Asian flavours, and forest trails cross the interior.",
+   "claimType": "general",
+   "evidence": [
+    {
+     "source": "II_NEIL",
+     "quote": "The dishes here are a fusion of Indian and Southeast Asian flavours"
+    },
+    {
+     "source": "II_NEIL",
+     "quote": "the island offers plenty of opportunities for hiking and trekking"
+    }
+   ]
+  },
+  "BNE5": {
+   "place": "andaman-and-nicobar-islands/shaheed-dweep",
+   "topic": "Daily catch",
+   "claim": "Fish, prawns and crabs are caught daily by local fishermen.",
+   "claimType": "general",
+   "evidence": [
+    {
+     "source": "II_NEIL",
+     "quote": "The island is known for its fresh seafood, with a variety of fish, prawns, and crabs caught daily by the local fishermen."
+    }
+   ]
+  },
+  "BAN2": {
+   "place": "andaman-and-nicobar-islands",
+   "topic": "Foreign visitors and permits",
+   "claim": "Most foreign visitors no longer need a Restricted Area Permit for the 29 islands removed from the RAP regime; 11 more are RAP-free for day visits until 31 December 2027. Citizens of Afghanistan, China and Pakistan, and people of those origins, still need a RAP approved in advance.",
+   "claimType": "rule",
+   "evidence": [
+    {
+     "source": "RAP",
+     "quote": "The foreign nationals are not required to obtain a Restricted Area Permit (RAP) for visiting the 29 islands in the Andaman & Nicobar Islands that have been excluded from the RAP regime."
+    },
+    {
+     "source": "RAP",
+     "quote": "Additionally, 11 islands have been exempted from the RAP requirement for day visits only, and this exemption is valid up to 31/12/2027."
+    },
+    {
+     "source": "RAP",
+     "quote": "However, this relaxation is not applicable to nationals belonging to the Prior Reference Category (PRC) countries, namely Afghanistan, China (including Hong Kong and Macau), and Pakistan."
+    }
+   ]
+  },
+  "BAN5": {
+   "place": "andaman-and-nicobar-islands",
+   "topic": "Climate",
+   "claim": "Temperatures stay around 23–31 °C all year; rain comes with the monsoons, and tropical cyclones are common in late summer.",
+   "claimType": "general",
+   "evidence": [
+    {
+     "source": "W_AN",
+     "quote": "the average ranging from 23 to 31 °C (73 to 88 °F)"
+    },
+    {
+     "source": "W_AN",
+     "quote": "The rainfall is dependent on the monsoons and tropical cyclones are common in late summer."
+    }
+   ],
+   "kind": "seasonal"
+  },
+  "BAN6": {
+   "place": "andaman-and-nicobar-islands",
+   "topic": "Monsoon travel",
+   "claim": "Incredible India makes the case for the monsoon (late May to end July): greener landscapes, fewer visitors and hotel discounts.",
+   "claimType": "general",
+   "evidence": [
+    {
+     "source": "II_MON",
+     "quote": "Come monsoons (between late May to end July)"
+    },
+    {
+     "source": "II_MON",
+     "quote": "the lush green vegetation and scenic beauty come alive, the tourist rush is over and hoteliers offer attractive discounts"
+    }
+   ],
+   "kind": "seasonal"
+  },
+  "BAM_ST_FERRY": {
+   "place": "andaman-and-nicobar-islands",
+   "topic": "Ferry timing",
+   "claim": "Most mainland flights land too late for the same-day fast ferries to Havelock and Neil, so plan a night in the capital.",
+   "claimType": "general",
+   "evidence": [
+    {
+     "source": "AM_15df9f",
+     "quote": "practically all flights from the Indian mainland arrive too late to connect to the hi-speed Makruzz ferries"
+    }
+   ]
+  },
+  "SD1": {
+   "place": "andaman-and-nicobar-islands/swaraj-dweep",
+   "topic": "Location and name",
+   "claim": "Swaraj Dweep, 41 km north-east of Sri Vijaya Puram in Ritchie's Archipelago, was renamed from Havelock in December 2018.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "W_SWA",
+     "quote": "The island is 41 km (25 mi) northeast of the capital city, Port Blair."
+    },
+    {
+     "source": "W_SWA",
+     "quote": "In December 2018, the Indian Prime Minister, Narendra Modi renamed it as 'Swaraj Dweep' as a tribute to Subhas Chandra Bose."
+    }
+   ]
+  },
+  "SD2": {
+   "place": "andaman-and-nicobar-islands/swaraj-dweep",
+   "topic": "Radhanagar",
+   "claim": "Radhanagar (Beach No. 7) on the west coast was named Best Beach in Asia by Time in 2004 and has Blue Flag certification since 2020.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "W_SWA",
+     "quote": "was named \"Best Beach in Asia\" by Time in 2004."
+    },
+    {
+     "source": "W_SWA",
+     "quote": "Radhanagar beach also bagged the prestigious blue flag certification in 2020."
+    }
+   ]
+  },
+  "SD3": {
+   "place": "andaman-and-nicobar-islands/swaraj-dweep",
+   "topic": "Diving",
+   "claim": "The island has many PADI and SSI dive schools and well-known sites such as Dixon's Pinnacle.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "W_SWA",
+     "quote": "featuring numerous certified PADI and SSI scuba diving schools that utilize prominent dive sites like Dixon's Pinnacle."
+    }
+   ]
+  },
+  "SD4": {
+   "place": "andaman-and-nicobar-islands/swaraj-dweep",
+   "topic": "Other beaches",
+   "claim": "Other beaches include Elephant Beach on the north-west coast and Vijay Nagar (No. 5), No. 3 and No. 1 on the east coast.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "W_SWA",
+     "quote": "Other notable beaches include Elephant Beach on the northwest coast and Vijay Nagar Beach (No. 5), Beach No. 3 and Beach No. 1 on the east c"
+    }
+   ]
+  },
+  "SD5": {
+   "place": "andaman-and-nicobar-islands/swaraj-dweep",
+   "topic": "Getting around",
+   "claim": "Private ferries (Makruzz, Green Ocean, Nautika, ITT Majestic) and 2–3 government ferries a day run from Sri Vijaya Puram; on the island there are autos and an hourly local bus.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "W_SWA",
+     "quote": "Private ferries that sail to Havelock Island are Makruzz, Green Ocean, Nautika, Nautika Lite and ITT Majestic"
+    },
+    {
+     "source": "W_SWA",
+     "quote": "There are 2-3 government operating ferries in a day."
+    },
+    {
+     "source": "W_SWA",
+     "quote": "A local bus connects the jetty and villages on an hourly circuit."
+    }
+   ]
+  },
+  "SD6": {
+   "place": "andaman-and-nicobar-islands/swaraj-dweep",
+   "topic": "Bioluminescent kayaking",
+   "claim": "Kayaks paddle the mangrove creeks, and in season night trips show bioluminescence.",
+   "claimType": "general",
+   "kind": "seasonal",
+   "evidence": [
+    {
+     "source": "II_ADV",
+     "quote": "bio-luminescent kayaking at night presents an ethereal experience."
+    }
+   ]
+  },
+  "SD7": {
+   "place": "andaman-and-nicobar-islands/swaraj-dweep",
+   "topic": "Sea walk",
+   "claim": "Helmet sea walks, which need no swimming skills, run at North Bay and Havelock.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "II_TODO",
+     "quote": "One of the biggest attractions in Andaman is the underwater walk at North Bay Island and Havelock Island."
+    }
+   ]
+  },
+  "SD8": {
+   "place": "andaman-and-nicobar-islands/swaraj-dweep",
+   "topic": "Crocodiles",
+   "claim": "Saltwater crocodiles are present in the islands: a tourist was killed at Havelock in 2010. Authorities use patrols, warning signs and restricted swimming zones.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "WAVE",
+     "quote": "a tourist was killed by a crocodile at New Cove Beach of Havelock Island."
+    },
+    {
+     "source": "WAVE",
+     "quote": "Measures such as increased patrolling, installation of warning signs, and setting up restricted zones for swimming have been implemented."
+    }
+   ]
+  },
+  "SD9": {
+   "place": "andaman-and-nicobar-islands/swaraj-dweep",
+   "topic": "Snorkelling spots",
+   "claim": "Elephant Beach and Radhanagar are good for snorkelling.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "II_ADV",
+     "quote": "Places like Elephant Beach and Radhanagar Beach are ideal for snorkeling."
+    }
+   ]
+  },
+  "SD10": {
+   "place": "andaman-and-nicobar-islands/swaraj-dweep",
+   "topic": "Lighthouse",
+   "claim": "A lighthouse at the island's northern tip near Govinda Nagar dates from 2005.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "W_SWA",
+     "quote": "There is a lighthouse at the northern point of the island, near Govinda Nagar, established in the year 2005."
+    }
+   ]
+  },
+  "ND1": {
+   "place": "andaman-and-nicobar-islands/shaheed-dweep",
+   "topic": "Location and name",
+   "claim": "Shaheed Dweep, about 36 km north-east of Sri Vijaya Puram, was renamed from Neil Island in December 2018.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "W_SHA",
+     "quote": "The island is located 36 km (22 mi) northeast from Port Blair."
+    },
+    {
+     "source": "W_SHA",
+     "quote": "In December 2018, it was renamed as Shaheed Dweep as a tribute to Netaji Subhas Chandra Bose."
+    }
+   ]
+  },
+  "ND2": {
+   "place": "andaman-and-nicobar-islands/shaheed-dweep",
+   "topic": "Farming",
+   "claim": "Neil is a flat, farming island that supplies vegetables and organic produce to the rest of the Andamans; it is a degree or two warmer than Havelock.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "W_SHA",
+     "quote": "Agriculture is the primary occupation of the villagers, and the island supplies vegetables to the rest of Andaman."
+    },
+    {
+     "source": "W_SHA",
+     "quote": "Shaheed Dweep tends to remain a degree or two warmer than Havelock as a result of the lack of forest cover."
+    }
+   ]
+  },
+  "ND3": {
+   "place": "andaman-and-nicobar-islands/shaheed-dweep",
+   "topic": "Reef walks",
+   "claim": "Low-tide reef walks show live coral, sea cucumbers and marine life without diving.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "W_SHA",
+     "quote": "The island is highly popular for low-tide reef walking"
+    }
+   ]
+  },
+  "ND4": {
+   "place": "andaman-and-nicobar-islands/shaheed-dweep",
+   "topic": "Natural Bridge",
+   "claim": "The limestone Natural Bridge (locally 'Howrah Bridge') is on Laxmanpur beach; Laxmanpur faces the sunset and Bharatpur has shallow, swimmable water.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "II_NEIL2",
+     "quote": "the natural rock formation locally known as the Howrah Bridge on the Lakshmanpur Beach is simply stunning."
+    },
+    {
+     "source": "W_SHA",
+     "quote": "the shallow, swimming-friendly waters of Bharatpur Beach"
+    }
+   ]
+  },
+  "ND5": {
+   "place": "andaman-and-nicobar-islands/shaheed-dweep",
+   "topic": "Access",
+   "claim": "The jetty at Neil Kendra is the only access point; daily ferries come from Sri Vijaya Puram and Swaraj Dweep, and a Pawan Hans helicopter takes about 15–20 minutes from the capital.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "W_SHA",
+     "quote": "There is a jetty at Neil Kendra, which serves as the only access point of the island."
+    },
+    {
+     "source": "W_SHA",
+     "quote": "Flight duration is about 15–20 minutes"
+    }
+   ]
+  },
+  "ND6": {
+   "place": "andaman-and-nicobar-islands/shaheed-dweep",
+   "topic": "Villages",
+   "claim": "About 3,000 people live in five villages: Sitapur, Bharatpur, Neil Kendra, Laxmanpur and Ram Nagar.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "W_SHA",
+     "quote": "The population of 3040 lives in five villages"
+    }
+   ]
+  },
+  "ND7": {
+   "place": "andaman-and-nicobar-islands/shaheed-dweep",
+   "topic": "Settlement",
+   "claim": "The island was uninhabited until settlers arrived in the late 1960s.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "W_SHA",
+     "quote": "was uninhabited until the arrival of settlers in the late 1960s."
+    }
+   ]
+  }
+ },
+ "places": [
+  {
+   "key": "andaman-and-nicobar-islands/swaraj-dweep",
+   "kind": "town",
+   "name": "Swaraj Dweep (Havelock Island)",
+   "parent": "andaman-and-nicobar-islands",
+   "summary": "Home of Radhanagar Beach and the islands' best diving and snorkelling.",
+   "seoTitle": "Swaraj Dweep (Havelock): Radhanagar Beach & Diving",
+   "seoDescription": "Plan a trip to Swaraj Dweep (Havelock Island): Radhanagar Beach, Elephant Beach snorkelling, diving, kayaking, sea walks and ferries from Sri Vijaya Puram.",
+   "lat": 11.9667,
+   "lng": 93.0,
+   "tripTypes": [
+    "beaches",
+    "adventure",
+    "romantic"
+   ],
+   "images": [
+    {
+     "commons": "File:Havelock Island, Radhanagar Beach before sunset, Andaman Islands.jpg",
+     "alt": "Radhanagar Beach on Havelock before sunset",
+     "hero": true
+    }
+   ],
+   "sections": {
+    "overview": {
+     "text": "Swaraj Dweep, called Havelock Island until December 2018, lies 41 km north-east of Sri Vijaya Puram in Ritchie's Archipelago and is the Andamans' main beach island. Its star is Radhanagar, Beach No. 7, on the west coast: Time called it the best beach in Asia in 2004, and it has held a Blue Flag for clean, safe and well-run beaches since 2020.\n\nThe island is also India's busiest dive centre, with many PADI and SSI schools and sites such as Dixon's Pinnacle. Snorkellers head to Elephant Beach, and there are kayaking trips through the mangroves, some at night to see bioluminescence, and helmet sea walks. Ferries, both government boats and private catamarans, link it to the capital and to Neil. Saltwater crocodiles live in these waters, so swim only where it's allowed.",
+     "facts": [
+      "SD1",
+      "SD2",
+      "SD3",
+      "SD9",
+      "SD6",
+      "SD7",
+      "SD5",
+      "SD8"
+     ]
+    },
+    "who_its_for": {
+     "items": [
+      {
+       "title": "Beach lovers",
+       "body": "Radhanagar's sunsets and the quieter east-coast beaches."
+      },
+      {
+       "title": "Divers",
+       "body": "PADI and SSI schools and sites such as Dixon's Pinnacle."
+      },
+      {
+       "title": "Couples",
+       "body": "Sunset at Beach No. 7 and night kayaking in the mangroves."
+      },
+      {
+       "title": "Families",
+       "body": "Helmet sea walks need no swimming skills."
+      },
+      {
+       "title": "Explorers",
+       "body": "The quiet north around the 2005 lighthouse near Govinda Nagar."
+      }
+     ],
+     "facts": [
+      "SD2",
+      "SD4",
+      "SD3",
+      "SD6",
+      "SD7",
+      "SD10"
+     ]
+    },
+    "practical_info": {
+     "items": [
+      {
+       "title": "Getting there",
+       "body": "Private catamarans (Makruzz, Green Ocean, Nautika, ITT Majestic) and 2–3 government ferries a day run from Sri Vijaya Puram. Most mainland flights land too late for the same-day fast ferries, so plan a night in the capital.",
+       "status": "verified"
+      },
+      {
+       "title": "Getting around",
+       "body": "Autos and an hourly local bus between the jetty and villages.",
+       "status": "verified"
+      },
+      {
+       "title": "Permits",
+       "body": "Most foreign visitors no longer need a Restricted Area Permit for the main tourist islands; nationals of Afghanistan, China and Pakistan still do.",
+       "status": "verified"
+      },
+      {
+       "title": "Weather",
+       "body": "About 23–31 °C all year; rain comes with the monsoons.",
+       "status": "seasonal"
+      }
+     ],
+     "facts": [
+      "SD5",
+      "BAM_ST_FERRY",
+      "BAN2",
+      "BAN5"
+     ]
+    },
+    "safety_health": {
+     "items": [
+      {
+       "title": "Saltwater crocodiles",
+       "body": "A tourist was killed by a crocodile at Havelock in 2010. Swim only in designated areas and follow lifeguards and warning signs.",
+       "status": "verified"
+      },
+      {
+       "title": "Sea conditions",
+       "body": "Ferry crossings can be rough in the monsoon; build in a spare day.",
+       "status": "seasonal"
+      }
+     ],
+     "facts": [
+      "SD8",
+      "BAN6"
+     ]
+    },
+    "common_mistakes": {
+     "items": [
+      {
+       "body": "Booking a same-day ferry after a mainland flight. Plan a night in Sri Vijaya Puram first."
+      },
+      {
+       "body": "Swimming outside designated areas."
+      },
+      {
+       "body": "Only seeing Radhanagar. Elephant Beach, the east-coast beaches and the reefs are worth a day."
+      }
+     ],
+     "facts": [
+      "BAM_ST_FERRY",
+      "SD8",
+      "SD4",
+      "SD9"
+     ]
+    },
+    "faqs": {
+     "items": [
+      {
+       "title": "Is Havelock the same as Swaraj Dweep?",
+       "body": "Yes. It was renamed in December 2018."
+      },
+      {
+       "title": "How far is it from Sri Vijaya Puram?",
+       "body": "About 41 km north-east, by ferry."
+      },
+      {
+       "title": "Is Radhanagar Beach safe for swimming?",
+       "body": "It is a Blue Flag beach; swim in the designated area and follow lifeguards, as saltwater crocodiles occur in the islands."
+      },
+      {
+       "title": "Can I dive without experience?",
+       "body": "Yes: PADI and SSI schools run beginner dives and courses."
+      }
+     ],
+     "facts": [
+      "SD1",
+      "SD2",
+      "SD8",
+      "SD3"
+     ]
+    }
+   }
+  },
+  {
+   "key": "andaman-and-nicobar-islands/shaheed-dweep",
+   "kind": "town",
+   "name": "Shaheed Dweep (Neil Island)",
+   "parent": "andaman-and-nicobar-islands",
+   "summary": "A slower, quieter island of beaches, reefs and a natural rock arch.",
+   "seoTitle": "Shaheed Dweep (Neil Island): Beaches & Natural Bridge",
+   "seoDescription": "Visit Shaheed Dweep (Neil Island): Bharatpur, Sitapur and Laxmanpur beaches, the natural rock arch, snorkelling and exploring by bicycle.",
+   "lat": 11.8231,
+   "lng": 93.0583,
+   "tripTypes": [
+    "beaches",
+    "nature"
+   ],
+   "images": [
+    {
+     "commons": "File:Natural Bridge Neil Island India.jpg",
+     "alt": "The natural rock bridge on Neil Island",
+     "hero": true
+    }
+   ],
+   "sections": {
+    "who_its_for": {
+     "items": [
+      {
+       "title": "Slow travellers",
+       "body": "Five small villages, quiet roads and a bicycle."
+      },
+      {
+       "title": "Snorkellers",
+       "body": "Reefs just offshore and low-tide reef walks."
+      },
+      {
+       "title": "Photographers",
+       "body": "The Natural Bridge and sunsets at Laxmanpur."
+      },
+      {
+       "title": "Food lovers",
+       "body": "Seafood caught that morning, cooked with Indian and South-East Asian flavours."
+      }
+     ],
+     "facts": [
+      "ND6",
+      "BNE2",
+      "BNE3",
+      "ND3",
+      "ND4",
+      "BNE5",
+      "BNE4"
+     ]
+    },
+    "practical_info": {
+     "items": [
+      {
+       "title": "Getting there",
+       "body": "Daily ferries from Sri Vijaya Puram and Swaraj Dweep dock at Neil Kendra, the only jetty; a Pawan Hans helicopter takes about 15–20 minutes from the capital.",
+       "status": "verified"
+      },
+      {
+       "title": "Getting around",
+       "body": "Bicycles are the easiest way round; the island is flat and small.",
+       "status": "verified"
+      },
+      {
+       "title": "Climate",
+       "body": "A degree or two warmer than Havelock, as there is little forest cover.",
+       "status": "verified"
+      }
+     ],
+     "facts": [
+      "ND5",
+      "BNE2",
+      "ND2"
+     ]
+    },
+    "things_to_do": {
+     "items": [
+      {
+       "body": "Walk to the Natural Bridge at low tide on Laxmanpur beach."
+      },
+      {
+       "body": "Swim at Bharatpur's shallow beach."
+      },
+      {
+       "body": "Watch the sunset from Laxmanpur, or swim and watch it from Sitapur."
+      },
+      {
+       "body": "Take a low-tide reef walk."
+      },
+      {
+       "body": "Cycle between the villages and farms."
+      }
+     ],
+     "facts": [
+      "ND4",
+      "ND3",
+      "BNE1",
+      "BNE2"
+     ]
+    },
+    "safety_health": {
+     "items": [
+      {
+       "title": "Saltwater crocodiles",
+       "body": "Crocodiles occur in Andaman waters; swim only where it's allowed and follow local warnings.",
+       "status": "verified"
+      },
+      {
+       "title": "Reef care",
+       "body": "On reef walks, step only where guides show you and don't touch the coral.",
+       "status": "verified"
+      }
+     ],
+     "facts": [
+      "SD8",
+      "ND3"
+     ]
+    },
+    "common_mistakes": {
+     "items": [
+      {
+       "body": "Treating Neil as a half-day stop. It is best for a slow night or two."
+      },
+      {
+       "body": "Visiting the Natural Bridge at high tide, when the rocks are covered."
+      },
+      {
+       "body": "Expecting nightlife; this is a farming island of five villages."
+      }
+     ],
+     "facts": [
+      "ND6",
+      "ND4",
+      "ND2"
+     ]
+    },
+    "overview": {
+     "text": "Shaheed Dweep, called Neil Island until December 2018, lies about 36 km north-east of Sri Vijaya Puram, between Havelock and Rose Island. It was uninhabited until settlers arrived in the late 1960s, and today about 3,000 people live in five villages. It's a flat farming island that grows vegetables and organic produce for the rest of the Andamans, with very little traffic and a slow pace.\n\nEach beach has its own character: shallow Bharatpur and Sitapur for swimming and sunsets, and Laxmanpur, which faces the sunset, and the limestone Natural Bridge, best seen at low tide. Reefs lie just offshore for snorkelling and low-tide reef walks. Seafood is caught daily by local fishermen. Ferries stop at Neil Kendra jetty from the capital and Havelock, so it slots easily between the two.",
+     "facts": [
+      "ND1",
+      "ND7",
+      "ND6",
+      "ND2",
+      "ND4",
+      "BNE1",
+      "BNE3",
+      "ND3",
+      "BNE5",
+      "ND5"
+     ]
+    }
+   }
+  }
+ ],
+ "itineraries": []
+}

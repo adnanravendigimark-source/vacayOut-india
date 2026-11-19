@@ -1,0 +1,1399 @@
+{
+ "cluster": "state-gaps2-mahabaleshwar-lonavala",
+ "title": "Mahabaleshwar and Lonavala (Batch 4)",
+ "researchedAt": "2026-11-18",
+ "selection": "Batch 4. Mahabaleshwar had 200 words, partly state-level filler; this adds real how to reach, best time, things to do, practical info and more (the filler sections get replacement suggestions for an editor). Lonavala and Khandala were missing entirely: new town page plus Karla Caves, Bhaja Caves and Lohagad. Maharashtra Tourism's site redirected to images from this network, so sources are Incredible India, Wikipedia and news for monsoon safety. Not covered: entry fees, current monsoon orders.",
+ "sources": {
+  "II_MBL": {
+   "url": "https://www.incredibleindia.gov.in/en/maharashtra/mahabaleshwar",
+   "title": "Mahabaleshwar — Incredible India",
+   "authority": "government"
+  },
+  "W_MBL": {
+   "url": "https://en.wikipedia.org/wiki/Mahabaleshwar",
+   "title": "Mahabaleshwar — Wikipedia",
+   "authority": "reference"
+  },
+  "II_LON": {
+   "url": "https://www.incredibleindia.gov.in/en/maharashtra/mumbai/lonavala-and-khandala",
+   "title": "Lonavala and Khandala — Incredible India",
+   "authority": "government"
+  },
+  "W_LON": {
+   "url": "https://en.wikipedia.org/wiki/Lonavala",
+   "title": "Lonavala — Wikipedia",
+   "authority": "reference"
+  },
+  "W_KAR": {
+   "url": "https://en.wikipedia.org/wiki/Karla_Caves",
+   "title": "Karla Caves — Wikipedia",
+   "authority": "reference"
+  },
+  "W_BHA": {
+   "url": "https://en.wikipedia.org/wiki/Bhaja_Caves",
+   "title": "Bhaja Caves — Wikipedia",
+   "authority": "reference"
+  },
+  "W_LOH": {
+   "url": "https://en.wikipedia.org/wiki/Lohagad",
+   "title": "Lohagad — Wikipedia",
+   "authority": "reference"
+  },
+  "BS_PUNE": {
+   "url": "https://www.business-standard.com/india-news/post-waterfall-tragedy-prohibitory-orders-enforced-at-picnic-spots-in-pune-124070300065_1.html",
+   "title": "Post waterfall tragedy, prohibitory orders enforced at picnic spots in Pune — Business Standard (PTI)",
+   "authority": "media"
+  },
+  "PKN": {
+   "url": "https://www.punekarnews.in/?p=240248",
+   "title": "Lonavala Monsoon Travel: Restrictions Lifted at Tiger Point, Lohagad, Pawna Dam — Punekar News",
+   "authority": "media"
+  },
+  "II_MAB": {
+   "url": "https://www.incredibleindia.gov.in/en/maharashtra/mahabaleshwar",
+   "title": "Mahabaleshwar — Incredible India (Ministry of Tourism, Government of India)",
+   "authority": "government"
+  },
+  "II_PRA": {
+   "url": "https://www.incredibleindia.gov.in/en/maharashtra/mahabaleshwar/pratapgarh-fort",
+   "title": "Pratapgad Fort — Incredible India (Ministry of Tourism, Government of India)",
+   "authority": "government"
+  }
+ },
+ "facts": {
+  "BMAB1": {
+   "place": "maharashtra/mahabaleshwar",
+   "topic": "Mahabaleshwar",
+   "claim": "Mahabaleshwar is a hill station at about 4,500 ft in the Sahyadris, with a 500-year-old Shiva temple; Panchgani is 20 km away.",
+   "claimType": "distance",
+   "evidence": [
+    {
+     "source": "II_MAB",
+     "quote": "Perched beautifully at an altitude of 4500 feet"
+    },
+    {
+     "source": "II_MAB",
+     "quote": "the 500-year-old Mahabaleshwar Temple here, a revered sanctuary dedicated to Lord Shiva"
+    },
+    {
+     "source": "II_MAB",
+     "quote": "its twin town just 20 kilometres away"
+    }
+   ]
+  },
+  "BMAB2": {
+   "place": "maharashtra/mahabaleshwar",
+   "topic": "Strawberries",
+   "claim": "In strawberry season, stalls sell strawberry shakes, jams and more.",
+   "claimType": "general",
+   "evidence": [
+    {
+     "source": "II_MAB",
+     "quote": "Strawberry season finds its streets full of vendors selling an array of strawberry products, including strawberry shakes, jams and more."
+    }
+   ]
+  },
+  "BPRA1": {
+   "place": "maharashtra/pratapgad-fort",
+   "topic": "Pratapgad",
+   "claim": "Pratapgad Fort near Mahabaleshwar was built under Chhatrapati Shivaji Maharaj; his battle with Afzal Khan took place at its base.",
+   "claimType": "general",
+   "evidence": [
+    {
+     "source": "II_PRA",
+     "quote": "Welcome to Pratapgad Fort, the majestic citadel near Mahabaleshwar"
+    },
+    {
+     "source": "II_PRA",
+     "quote": "The most renowned tale recounts the epic battle between Chhatrapati Shivaji Maharaj and Afzal Khan at the fort's base."
+    }
+   ]
+  },
+  "MB1": {
+   "place": "maharashtra/mahabaleshwar",
+   "topic": "Krishna source",
+   "claim": "Mahabaleshwar is a pilgrimage place: the Krishna and five tributaries rise here; at the Panchganga temple, water flows from a carved cow's mouth.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "W_MBL",
+     "quote": "It is a place of pilgrimage because the Krishna River, which considered sacred by Hindus, has its origin here along with five of its tributaries."
+    },
+    {
+     "source": "II_MBL",
+     "quote": "Witness the stone-carved cow, from whose mouth flows the sacred waters believed to birth the Krishna River."
+    }
+   ]
+  },
+  "MB2": {
+   "place": "maharashtra/mahabaleshwar",
+   "topic": "Old temple",
+   "claim": "The Mahabaleshwar temple has a self-originated lingam and a gold platform donated by Shivaji.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "II_MBL",
+     "quote": "This 500-year-old divine abode boasts a self-originated lingam and a history steeped in legend."
+    },
+    {
+     "source": "II_MBL",
+     "quote": "including a gold platform donated by the great Maratha king Shivaji himself"
+    }
+   ]
+  },
+  "MB3": {
+   "place": "maharashtra/mahabaleshwar",
+   "topic": "Summer capital",
+   "claim": "Under the British, New Mahabaleshwar became the summer capital of the Bombay Presidency.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "II_MBL",
+     "quote": "which became the summer capital of the Bombay Presidency."
+    }
+   ]
+  },
+  "MB4": {
+   "place": "maharashtra/mahabaleshwar",
+   "topic": "Viewpoints",
+   "claim": "Arthur's Seat looks over the Deccan and Konkan; Elephant's Head and Babington points overlook the Solshi and Koyna valleys.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "II_MBL",
+     "quote": "Venture to Arthur's Seat, where you'll be treated to panoramic views of the Deccan and Konkan regions"
+    },
+    {
+     "source": "II_MBL",
+     "quote": "take in the awe-inspiring views of the Solshi Valley and Koyna Valley."
+    }
+   ]
+  },
+  "MB5": {
+   "place": "maharashtra/mahabaleshwar",
+   "topic": "Venna Lake",
+   "claim": "Venna Lake, a 28-acre lake built in 1842, is popular for boating.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "II_MBL",
+     "quote": "such as boating at the sprawling 28-acre picturesque Venna Lake"
+    },
+    {
+     "source": "W_MBL",
+     "quote": "Venna Lake was constructed in 1842 to collect water from perennial springs"
+    },
+    {
+     "source": "W_MBL",
+     "quote": "the Venna River flows from this lake."
+    }
+   ]
+  },
+  "MB6": {
+   "place": "maharashtra/mahabaleshwar",
+   "topic": "Strawberries",
+   "claim": "Strawberries are the region's signature; the Strawberry Fair is held at Mapro Gardens over the Easter weekend.",
+   "claimType": "schedule",
+   "kind": "seasonal",
+   "evidence": [
+    {
+     "source": "II_MBL",
+     "quote": "Kickstart your festivities at the annual Strawberry Fair, a delightful extravaganza held at Mapro Gardens during the Easter weekend."
+    }
+   ]
+  },
+  "MB7": {
+   "place": "maharashtra/mahabaleshwar",
+   "topic": "Honey village",
+   "claim": "Manghar is India's first 'Village of Honey'.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "II_MBL",
+     "quote": "Venture further into the heart of the hills to Manghar Honey Village, India's first 'Village of Honey'"
+    }
+   ]
+  },
+  "MB8": {
+   "place": "maharashtra/mahabaleshwar",
+   "topic": "Getting there",
+   "claim": "The nearest railway station is Satara (60 km); Pune station and airport are about 120 km away, and Mumbai airport 270 km.",
+   "claimType": "distance",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "W_MBL",
+     "quote": "Nearest railway station to Mahabaleshwar is Satara, 60 km."
+    },
+    {
+     "source": "W_MBL",
+     "quote": "The nearest airport is Pune International Airport, serving the city of Pune, 120 km from Mahabaleshwar."
+    },
+    {
+     "source": "W_MBL",
+     "quote": "Chhatrapati Shivaji Maharaj International Airport of Mumbai is 270 km."
+    }
+   ]
+  },
+  "MB9": {
+   "place": "maharashtra/mahabaleshwar",
+   "topic": "Monsoon",
+   "claim": "The monsoon is very heavy: in July there are typically 10–12 days of continuous rain.",
+   "claimType": "general",
+   "kind": "seasonal",
+   "evidence": [
+    {
+     "source": "W_MBL",
+     "quote": "Very heavy rainfall is a normal occurrence during the monsoons."
+    },
+    {
+     "source": "W_MBL",
+     "quote": "During July, 10–12 days of continuous rains"
+    }
+   ]
+  },
+  "MB10": {
+   "place": "maharashtra/mahabaleshwar",
+   "topic": "Kaas Plateau",
+   "claim": "Kaas Pathar, the 'Plateau of a Million Flowers', is within reach for its wildflower bloom.",
+   "claimType": "general",
+   "kind": "seasonal",
+   "evidence": [
+    {
+     "source": "II_MBL",
+     "quote": "Take a trip to Kaas Pathar, a UNESCO World Heritage Site known as the Plateau of a Million Flowers."
+    }
+   ]
+  },
+  "MB11": {
+   "place": "maharashtra/mahabaleshwar",
+   "topic": "Shopping",
+   "claim": "The town bazaar sells jams, preserves, carved walking sticks, wooden crafts and leather goods.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "II_MBL",
+     "quote": "Admire the intricate designs of locally made wood products and beautifully carved walking sticks"
+    }
+   ]
+  },
+  "MB12": {
+   "place": "maharashtra/mahabaleshwar",
+   "topic": "Pratapgad",
+   "claim": "Pratapgad Fort was built by Shivaji Maharaj in 1665; its Hanuman temple was built under Swami Ramdas.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "II_MBL",
+     "quote": "Built in 1665 by the legendary Chhatrapati Shivaji Maharaj"
+    },
+    {
+     "source": "II_MBL",
+     "quote": "Built over 350 years ago under the guidance of Shivaji Maharaj's revered guru, Swami Ramdas"
+    }
+   ]
+  },
+  "MB13": {
+   "place": "maharashtra/mahabaleshwar",
+   "topic": "Panchgani adventure",
+   "claim": "Panchgani has paragliding, go-karting and amusement parks.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "II_MBL",
+     "quote": "paragliding in Panchgani offers a unique opportunity to experience the thrill of flight amidst breath-taking scenery."
+    },
+    {
+     "source": "II_MBL",
+     "quote": "From the historic Pratapgarh Fort Trek to the scenic Tapola Trek"
+    }
+   ]
+  },
+  "MB14": {
+   "place": "maharashtra/mahabaleshwar",
+   "topic": "Wax museum",
+   "claim": "The wax museum at Moleshwar shows sculptures made by visually impaired artisans.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "II_MBL",
+     "quote": "showcases a diverse collection of wax sculptures crafted by visually impaired artisans"
+    }
+   ]
+  },
+  "MB15": {
+   "place": "maharashtra/mahabaleshwar",
+   "topic": "Panchganga temple",
+   "claim": "The Panchganga temple, at the confluence of five holy rivers, was built in the 13th century by the Yadava king Singhan.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "II_MBL",
+     "quote": "Built in the 13th century by Yadava King Raja Singha Deo, this black stone marvel enchants pilgrims"
+    }
+   ]
+  },
+  "LN1": {
+   "place": "maharashtra/lonavala",
+   "topic": "Twin towns",
+   "claim": "Lonavala and Khandala are twin hill stations about 5 km apart in Pune district, on the Mumbai–Pune Expressway.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "II_LON",
+     "quote": "Lonavala and Khandala are twin hill stations that sit approximately five kilometres apart."
+    },
+    {
+     "source": "II_LON",
+     "quote": "Their strategic location on the Mumbai-Pune Expressway makes them a popular weekend getaway for city dwellers."
+    }
+   ]
+  },
+  "LN2": {
+   "place": "maharashtra/lonavala",
+   "topic": "Distances",
+   "claim": "Lonavala is about 64 km from Pune and 96 km from Mumbai.",
+   "claimType": "distance",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "W_LON",
+     "quote": "It is about 64 km (40 miles) west of Pune and 96 km (60 miles) to the east of Mumbai."
+    }
+   ]
+  },
+  "LN3": {
+   "place": "maharashtra/lonavala",
+   "topic": "Altitude",
+   "claim": "The towns are about 622 m above sea level, between the Deccan Plateau and the Konkan coast.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "W_LON",
+     "quote": "Lonavala and the adjacent Khandala are twin hill stations 622 metres (2,041 ft) above sea level"
+    }
+   ]
+  },
+  "LN4": {
+   "place": "maharashtra/lonavala",
+   "topic": "History",
+   "claim": "The hill stations were established in 1871 by Lord Elphinstone, Governor of Bombay.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "W_LON",
+     "quote": "In 1871, the Lonavala and Khandala hill stations were established by Lord Elphinstone"
+    }
+   ]
+  },
+  "LN5": {
+   "place": "maharashtra/lonavala",
+   "topic": "Chikki",
+   "claim": "Lonavala is famous for chikki, a hard candy of jaggery and groundnuts.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "II_LON",
+     "quote": "This hard candy made from jaggery and groundnuts is a must-try for anyone visiting the town."
+    }
+   ]
+  },
+  "LN6": {
+   "place": "maharashtra/lonavala",
+   "topic": "Viewpoints",
+   "claim": "Tiger's Leap and Duke's Nose give views over the valleys; Rajmachi Point is about 6.5 km from town.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "II_LON",
+     "quote": "The view from points like Tiger’s Leap or Duke’s Nose offers spectacular perspectives of the valley and the Western Ghats."
+    },
+    {
+     "source": "W_LON",
+     "quote": "Rajmachi Point is located about 6.5 km from Lonavala."
+    }
+   ]
+  },
+  "LN7": {
+   "place": "maharashtra/lonavala",
+   "topic": "Seasons",
+   "claim": "Tourism peaks in the monsoon, when the hills turn green; it is very wet June–September and dry from mid-October to May.",
+   "claimType": "general",
+   "kind": "seasonal",
+   "evidence": [
+    {
+     "source": "W_LON",
+     "quote": "Tourism peaks during the monsoon season."
+    },
+    {
+     "source": "W_LON",
+     "quote": "while it's extremely wet from June to September."
+    }
+   ]
+  },
+  "LN8": {
+   "place": "maharashtra/lonavala",
+   "topic": "Trains",
+   "claim": "Lonavala is a major stop between Mumbai and Pune; local trains run from Pune every two hours, and Mumbai is about 2.5 hours by train.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "W_LON",
+     "quote": "is also a major stop on the railway line connecting Mumbai and Pune."
+    },
+    {
+     "source": "W_LON",
+     "quote": "Local trains run from Pune at 2-hour intervals."
+    },
+    {
+     "source": "W_LON",
+     "quote": "It takes 2.5 hours by train from Mumbai"
+    }
+   ]
+  },
+  "LN9": {
+   "place": "maharashtra/lonavala",
+   "topic": "Airports",
+   "claim": "The nearest airports are Pune (64 km), Navi Mumbai (65 km) and Mumbai (104 km).",
+   "claimType": "distance",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "W_LON",
+     "quote": "The nearest commercial airports are Pune International Airport at 64 km"
+    },
+    {
+     "source": "W_LON",
+     "quote": "Chhatrapati Shivaji Maharaj International Airport at 104 km."
+    }
+   ]
+  },
+  "LN10": {
+   "place": "maharashtra/lonavala",
+   "topic": "Forts",
+   "claim": "Nearby forts include Lohagad, Visapur and Rajmachi, a monsoon trek known for its fireflies.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "II_LON",
+     "quote": "The historical forts nearby, like Lohagad and Visapur, narrate stories of the Maratha and Mughal empires"
+    },
+    {
+     "source": "W_LON",
+     "quote": "Rajmachi Fort is a historic fort close to Lonavala and attracts a lot of trekkers during the monsoon season."
+    }
+   ]
+  },
+  "LN11": {
+   "place": "maharashtra/lonavala",
+   "topic": "Lakes and parks",
+   "claim": "Tungarli Lake is a picnic spot, Pawna Lake is popular for camping, and Della Adventure Park has adventure activities.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "II_LON",
+     "quote": "The serene Tungarli Lake provides a perfect picnic spot, while the thrill-seekers can head to Della Adventure Park"
+    },
+    {
+     "source": "II_LON",
+     "quote": "is ideal for camping and offers a panoramic view of the Sahyadri hills."
+    }
+   ]
+  },
+  "LN12": {
+   "place": "maharashtra/lonavala",
+   "topic": "Bhimashankar",
+   "claim": "Bhimashankar, one of the twelve jyotirlingas, is a longer side trip.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "II_LON",
+     "quote": "the hill station of Bhimashankar, home to one of the twelve Jyotirlingas"
+    }
+   ]
+  },
+  "LN13": {
+   "place": "maharashtra/lonavala",
+   "topic": "Monsoon water danger",
+   "claim": "In 2024 a woman and four children were swept away at a waterfall near Bhushi Dam, and Pune district imposed prohibitory orders at picnic spots; similar monsoon orders at Tiger Point, Lohagad, Pawna Dam and other spots were imposed on 6 July 2026 and revoked on 16 July 2026.",
+   "claimType": "general",
+   "kind": "seasonal",
+   "evidence": [
+    {
+     "source": "BS_PUNE",
+     "quote": "a woman and four children were swept away at a waterfall near the Bhushi Dam"
+    },
+    {
+     "source": "PKN",
+     "quote": "The restrictions were imposed on July 6 and were scheduled to remain in force until August 31, 2026"
+    },
+    {
+     "source": "PKN",
+     "quote": "has revoked the order issued under Section 163"
+    }
+   ]
+  },
+  "LN14": {
+   "place": "maharashtra/lonavala",
+   "topic": "Khopoli",
+   "claim": "Mumbai local trains end at Khopoli, about 15 km away, with buses on to Lonavala.",
+   "claimType": "distance",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "W_LON",
+     "quote": "Buses are available at regular intervals to complete the remaining 15 km of the journey to Lonavla from Khopoli bus station."
+    }
+   ]
+  },
+  "KC1": {
+   "place": "maharashtra/karla-caves",
+   "topic": "Karla Caves",
+   "claim": "The Karla Caves, about 10.9 km from Lonavala, are Buddhist rock-cut shrines from the 2nd century BCE to the 5th century CE; the Grand Chaitya is the largest and most completely preserved chaitya hall of its period.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "W_KAR",
+     "quote": "It is just 10.9 Kilometers away from Lonavala."
+    },
+    {
+     "source": "W_KAR",
+     "quote": "The shrines were developed over the period from the 2nd century BCE to the 5th century CE."
+    },
+    {
+     "source": "W_KAR",
+     "quote": "the largest and most completely preserved chaitya hall of the period"
+    }
+   ]
+  },
+  "KC2": {
+   "place": "maharashtra/karla-caves",
+   "topic": "Setting",
+   "claim": "The caves stood near an ancient trade route from the Arabian Sea into the Deccan, with large windows cut to light the interiors.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "W_KAR",
+     "quote": "having arisen near a major ancient trade route, running eastward from the Arabian Sea into the Deccan."
+    },
+    {
+     "source": "W_KAR",
+     "quote": "with large windows cut into the rock to light the cave interiors."
+    }
+   ]
+  },
+  "BC1": {
+   "place": "maharashtra/bhaja-caves",
+   "topic": "Bhaja Caves",
+   "claim": "The Bhaja Caves are 22 rock-cut caves from the 2nd century BC, 400 ft above Bhaja village.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "W_BHA",
+     "quote": "Bhaja Caves are a group of 22"
+    },
+    {
+     "source": "W_BHA",
+     "quote": "rock-cut caves dating back to the 2nd century BC"
+    },
+    {
+     "source": "W_BHA",
+     "quote": "The caves are 400 feet above the village of Bhaja"
+    }
+   ]
+  },
+  "LH1": {
+   "place": "maharashtra/lohagad-fort",
+   "topic": "Lohagad",
+   "claim": "Lohagad Fort rises to 1,033 m, about 20 km from Lonavala, beside the larger Visapur fort; Bhaja Caves are 2 km from Malavli.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "W_LOH",
+     "quote": "rises to an elevation of 1,033 m (3,389 ft) above sea level, and is located to the southwest of the larger Visapur fort."
+    },
+    {
+     "source": "W_LOH",
+     "quote": "Lonavala - 20 km (12 mi), a famous and scenic hill station."
+    },
+    {
+     "source": "W_LOH",
+     "quote": "Bhaja Caves - 2 km (1.2 mi) from Malavli"
+    }
+   ]
+  }
+ },
+ "places": [
+  {
+   "key": "maharashtra/mahabaleshwar",
+   "kind": "town",
+   "name": "Mahabaleshwar",
+   "parent": "maharashtra",
+   "summary": "A Sahyadri hill station at about 4,500 ft — strawberries, old temples and Pratapgad Fort.",
+   "seoTitle": "Mahabaleshwar Travel Guide: Temples, Forts & Strawberries",
+   "seoDescription": "Plan Mahabaleshwar: a hill station at 4,500 ft with a 500-year-old Shiva temple, strawberry season, Panchgani 20 km away and Pratapgad Fort.",
+   "lat": 17.925,
+   "lng": 73.6575,
+   "tripTypes": [
+    "mountains",
+    "weekend",
+    "family"
+   ],
+   "images": [
+    {
+     "commons": "File:MAHABALESWAR_LANDSCAPE.jpg",
+     "alt": "Forested hills and valleys around Mahabaleshwar",
+     "hero": true
+    }
+   ],
+   "sections": {
+    "overview": {
+     "text": "Mahabaleshwar sits at about 4,500 ft on a plateau in the Sahyadris and is two places in one. Old Mahabaleshwar is a pilgrimage centre: the Krishna and five tributaries rise here, and the 500-year-old Mahabaleshwar temple has a self-originated lingam and a gold platform given by Shivaji. Under the British, New Mahabaleshwar became the summer capital of the Bombay Presidency.\n\nToday it is Maharashtra's favourite hill retreat. Viewpoints such as Arthur's Seat look over the Deccan and Konkan, Venna Lake has boating, and strawberry season fills the streets with shakes and jams. Pratapgad Fort, built by Shivaji in 1665, is close by, Panchgani is 20 km away, and Kaas Pathar's wildflower plateau is within reach. The monsoon is very wet.",
+     "facts": [
+      "BMAB1",
+      "MB1",
+      "MB2",
+      "MB3",
+      "MB4",
+      "MB5",
+      "BMAB2",
+      "MB12",
+      "MB10",
+      "MB9"
+     ]
+    },
+    "how_to_reach": {
+     "text": "By air: Pune airport is about 120 km away; Mumbai airport is 270 km.\n\nBy train: the nearest railway station is Satara, 60 km away; Pune station is about 120 km.\n\nBy road: state buses run from Satara and Pune.",
+     "facts": [
+      "MB8"
+     ]
+    },
+    "best_time": {
+     "text": "The monsoon is very heavy, with 10–12 days of continuous rain in July most years, so plan for wet roads and misty viewpoints then. Strawberry season brings fruit stalls everywhere, and the Strawberry Fair at Mapro Gardens falls on the Easter weekend.",
+     "facts": [
+      "MB9",
+      "MB6",
+      "BMAB2"
+     ]
+    },
+    "who_its_for": {
+     "items": [
+      {
+       "title": "Families",
+       "body": "Boating on Venna Lake, the strawberry farms and Panchgani's parks."
+      },
+      {
+       "title": "Pilgrims",
+       "body": "Old Mahabaleshwar's temple and the Panchganga temple at the Krishna's source."
+      },
+      {
+       "title": "History lovers",
+       "body": "Pratapgad Fort, built by Shivaji in 1665."
+      },
+      {
+       "title": "Adventure seekers",
+       "body": "Paragliding in Panchgani and treks such as Pratapgad and Tapola."
+      }
+     ],
+     "facts": [
+      "MB5",
+      "MB6",
+      "MB13",
+      "MB1",
+      "MB15",
+      "MB12"
+     ]
+    },
+    "things_to_do": {
+     "items": [
+      {
+       "body": "Watch the view from Arthur's Seat over the Deccan and Konkan."
+      },
+      {
+       "body": "Go boating on Venna Lake."
+      },
+      {
+       "body": "Visit the Mahabaleshwar and Panchganga temples in Old Mahabaleshwar."
+      },
+      {
+       "body": "Climb Pratapgad Fort, where Shivaji fought Afzal Khan."
+      },
+      {
+       "body": "Pick strawberries and try a shake at Mapro Gardens."
+      },
+      {
+       "body": "Visit Manghar, India's first honey village."
+      },
+      {
+       "body": "See the wax museum at Moleshwar, made by visually impaired artisans."
+      }
+     ],
+     "facts": [
+      "MB4",
+      "MB5",
+      "MB2",
+      "MB15",
+      "MB12",
+      "BPRA1",
+      "MB6",
+      "MB7",
+      "MB14"
+     ]
+    },
+    "practical_info": {
+     "items": [
+      {
+       "title": "Getting there",
+       "body": "Satara station is 60 km away; Pune (station and airport) about 120 km; Mumbai airport 270 km.",
+       "status": "verified"
+      },
+      {
+       "title": "Monsoon",
+       "body": "Very heavy rain, especially in July.",
+       "status": "seasonal"
+      },
+      {
+       "title": "Strawberry Fair",
+       "body": "At Mapro Gardens over the Easter weekend.",
+       "status": "seasonal"
+      }
+     ],
+     "facts": [
+      "MB8",
+      "MB9",
+      "MB6"
+     ]
+    },
+    "shopping": {
+     "items": [
+      {
+       "body": "Strawberry jams, preserves and fresh fruit.",
+       "status": "verified"
+      },
+      {
+       "body": "Honey from Manghar.",
+       "status": "verified"
+      },
+      {
+       "body": "Carved walking sticks and wooden crafts from the town bazaar.",
+       "status": "verified"
+      }
+     ],
+     "facts": [
+      "BMAB2",
+      "MB11",
+      "MB7"
+     ]
+    },
+    "common_mistakes": {
+     "items": [
+      {
+       "body": "Planning viewpoint hopping in July. Continuous rain often hides the views."
+      },
+      {
+       "body": "Missing Old Mahabaleshwar, the pilgrimage heart of the town."
+      },
+      {
+       "body": "Underestimating Pratapgad's climb; wear good shoes."
+      }
+     ],
+     "facts": [
+      "MB9",
+      "MB1",
+      "MB12"
+     ]
+    }
+   }
+  },
+  {
+   "key": "maharashtra/venna-lake",
+   "kind": "lake",
+   "name": "Venna Lake",
+   "parent": "maharashtra/mahabaleshwar",
+   "displayMode": "parent_section",
+   "summary": "Mahabaleshwar's 28-acre boating lake, built in 1842.",
+   "seoTitle": "Venna Lake, Mahabaleshwar",
+   "seoDescription": "Venna Lake in Mahabaleshwar is a 28-acre lake built in 1842 to collect spring water, now the hill station's most popular boating spot.",
+   "lat": 17.9339,
+   "lng": 73.6697,
+   "tripTypes": [
+    "family"
+   ],
+   "images": [],
+   "sections": {
+    "overview": {
+     "text": "Venna Lake is a 28-acre lake built in 1842 to collect water from perennial springs, and it is the source of the Venna River. Today it is Mahabaleshwar's most popular spot for boating, a short drive from the bazaar, and busy with families in the evenings and at weekends.",
+     "facts": [
+      "MB5"
+     ]
+    }
+   }
+  },
+  {
+   "key": "maharashtra/lonavala",
+   "kind": "town",
+   "name": "Lonavala and Khandala",
+   "parent": "maharashtra",
+   "summary": "Twin Sahyadri hill stations on the Mumbai–Pune Expressway: monsoon waterfalls, viewpoints, Buddhist caves, forts and chikki.",
+   "seoTitle": "Lonavala & Khandala Guide: Viewpoints, Caves, Forts & Chikki",
+   "seoDescription": "Plan Lonavala and Khandala: Tiger's Leap and Duke's Nose, the Karla and Bhaja caves, Lohagad and Rajmachi forts, monsoon safety, chikki and getting there.",
+   "lat": 18.7481,
+   "lng": 73.4072,
+   "tripTypes": [
+    "mountains",
+    "weekend",
+    "adventure"
+   ],
+   "images": [
+    {
+     "commons": "File:View of Western ghats, from Rajmachi point Khandala, on the Mumbai-Pune expressway.jpg",
+     "alt": "Green valleys of the Western Ghats seen from Rajmachi Point, Khandala",
+     "hero": true
+    }
+   ],
+   "relations": [
+    {
+     "to": "maharashtra/pune",
+     "type": "nearby"
+    }
+   ],
+   "sections": {
+    "overview": {
+     "text": "Lonavala and Khandala are twin hill stations about 5 km apart in the Sahyadri range, at around 622 m, on the Mumbai–Pune Expressway. Lord Elphinstone, Governor of Bombay, set them up as hill stations in 1871. Today they are the weekend escape for both cities: about 64 km from Pune and 96 km from Mumbai.\n\nThe monsoon is peak season, when the hills turn green and waterfalls run off every slope; viewpoints such as Tiger's Leap and Duke's Nose drop away to the valleys below. History is close too: the 2nd-century BCE Buddhist caves of Karla and Bhaja, and the Maratha forts of Lohagad, Visapur and Rajmachi. Take home chikki, the jaggery-and-peanut candy the town is famous for. In the rains, stay well away from fast water at the dams and falls.",
+     "facts": [
+      "LN1",
+      "LN3",
+      "LN4",
+      "LN2",
+      "LN7",
+      "LN6",
+      "KC1",
+      "BC1",
+      "LN10",
+      "LN5",
+      "LN13"
+     ]
+    },
+    "how_to_reach": {
+     "text": "By train: Lonavala is a major stop between Mumbai and Pune. Local trains run from Pune every two hours, and Mumbai is about 2.5 hours by train; Mumbai suburban trains end at Khopoli, 15 km away, with buses on.\n\nBy road: about 64 km from Pune and 96 km from Mumbai on the Mumbai–Pune Expressway.\n\nBy air: Pune (64 km), Navi Mumbai (65 km) or Mumbai (104 km).",
+     "facts": [
+      "LN8",
+      "LN14",
+      "LN2",
+      "LN1",
+      "LN9"
+     ]
+    },
+    "best_time": {
+     "text": "The monsoon, June to September, is the peak season: very wet, intensely green and full of waterfalls, but crowded and slippery. Mid-October to May is dry, better for trekking the forts and visiting the caves in comfort.",
+     "facts": [
+      "LN7"
+     ]
+    },
+    "things_to_do": {
+     "items": [
+      {
+       "body": "Watch the valleys from Tiger's Leap, Duke's Nose and Rajmachi Point."
+      },
+      {
+       "body": "See the Grand Chaitya at the Karla Caves and the Bhaja Caves."
+      },
+      {
+       "body": "Trek up Lohagad, or to Rajmachi in the monsoon for the fireflies."
+      },
+      {
+       "body": "Camp by Pawna Lake or picnic at Tungarli Lake."
+      },
+      {
+       "body": "Buy chikki."
+      }
+     ],
+     "facts": [
+      "LN6",
+      "KC1",
+      "BC1",
+      "LN10",
+      "LN11",
+      "LN5"
+     ]
+    },
+    "who_its_for": {
+     "items": [
+      {
+       "title": "Weekenders",
+       "body": "Easy from Mumbai and Pune by train or the Expressway."
+      },
+      {
+       "title": "Trekkers",
+       "body": "Lohagad, Visapur and Rajmachi."
+      },
+      {
+       "title": "History lovers",
+       "body": "The Karla and Bhaja Buddhist caves."
+      },
+      {
+       "title": "Pilgrims",
+       "body": "A longer side trip to the Bhimashankar jyotirlinga."
+      }
+     ],
+     "facts": [
+      "LN2",
+      "LN8",
+      "LN10",
+      "KC1",
+      "BC1",
+      "LN12"
+     ]
+    },
+    "safety_health": {
+     "items": [
+      {
+       "title": "Monsoon water danger",
+       "body": "In 2024 a woman and four children were swept away at a waterfall near Bhushi Dam. Pune district has since imposed monsoon restrictions at picnic spots in some years (in 2026, from 6 July until they were revoked on 16 July). Stay out of fast-flowing water and check current orders.",
+       "status": "seasonal"
+      },
+      {
+       "title": "Slippery treks",
+       "body": "Fort trails and viewpoints get slippery in the rain; wear good shoes.",
+       "status": "seasonal"
+      }
+     ],
+     "facts": [
+      "LN13",
+      "LN7"
+     ]
+    },
+    "common_mistakes": {
+     "items": [
+      {
+       "body": "Wading into dam overflows and waterfalls in the monsoon."
+      },
+      {
+       "body": "Driving out on a monsoon weekend without expecting heavy traffic and crowds."
+      },
+      {
+       "body": "Leaving without chikki."
+      }
+     ],
+     "facts": [
+      "LN13",
+      "LN7",
+      "LN5"
+     ]
+    },
+    "faqs": {
+     "items": [
+      {
+       "title": "How far is Lonavala from Mumbai and Pune?",
+       "body": "About 96 km from Mumbai and 64 km from Pune."
+      },
+      {
+       "title": "Is there a train to Lonavala?",
+       "body": "Yes: it is a major stop between Mumbai and Pune, with local trains from Pune every two hours."
+      },
+      {
+       "title": "When is the best time to go?",
+       "body": "The monsoon (June–September) is peak season for greenery; mid-October to May is dry."
+      },
+      {
+       "title": "What is Lonavala famous for?",
+       "body": "Chikki, monsoon waterfalls, viewpoints, and nearby caves and forts."
+      }
+     ],
+     "facts": [
+      "LN2",
+      "LN8",
+      "LN7",
+      "LN5"
+     ]
+    }
+   }
+  },
+  {
+   "key": "maharashtra/karla-caves",
+   "kind": "attraction",
+   "name": "Karla Caves",
+   "parent": "maharashtra/lonavala",
+   "summary": "Buddhist rock-cut caves near Lonavala, with the largest and best-preserved chaitya hall of its period.",
+   "seoTitle": "Karla Caves near Lonavala: The Grand Chaitya",
+   "seoDescription": "The Karla Caves, about 11 km from Lonavala, are Buddhist rock-cut shrines from the 2nd century BCE, with the largest and best-preserved chaitya hall of its era.",
+   "lat": 18.7833,
+   "lng": 73.4706,
+   "tripTypes": [
+    "heritage"
+   ],
+   "images": [
+    {
+     "commons": "File:Beautifully carved Chaitya Griha of Karla Caves.jpg",
+     "alt": "The pillared Grand Chaitya hall inside the Karla Caves",
+     "hero": true
+    }
+   ],
+   "sections": {
+    "overview": {
+     "text": "The Karla Caves are a group of Buddhist rock-cut shrines about 10.9 km from Lonavala, cut into the hillside over several centuries, from the 2nd century BCE to the 5th century CE. They stood near an ancient trade route running from the Arabian Sea into the Deccan.\n\nTheir glory is the Grand Chaitya, Cave 8: the largest and most completely preserved chaitya hall of its period, a long vaulted prayer hall lined with sculpted pillars and lit by a great window cut into the rock. Combine it with the Bhaja Caves on the other side of the valley.",
+     "facts": [
+      "KC1",
+      "KC2"
+     ]
+    },
+    "travel_tips": {
+     "items": [
+      {
+       "body": "Carry water for the walk up."
+      },
+      {
+       "body": "Combine with the Bhaja Caves and Lohagad on the same day."
+      },
+      {
+       "body": "Allow about an hour and a half to see the Grand Chaitya and the smaller caves."
+      }
+     ],
+     "facts": []
+    }
+   }
+  },
+  {
+   "key": "maharashtra/bhaja-caves",
+   "kind": "attraction",
+   "name": "Bhaja Caves",
+   "parent": "maharashtra/lonavala",
+   "displayMode": "parent_section",
+   "summary": "Twenty-two 2nd-century BC Buddhist caves above Bhaja village.",
+   "seoTitle": "Bhaja Caves near Lonavala",
+   "seoDescription": "The Bhaja Caves are 22 Buddhist rock-cut caves from the 2nd century BC, about 400 ft above Bhaja village near Lonavala and Malavli station.",
+   "lat": 18.7276,
+   "lng": 73.4818,
+   "tripTypes": [
+    "heritage"
+   ],
+   "images": [],
+   "sections": {
+    "overview": {
+     "text": "The Bhaja Caves are a group of 22 Buddhist rock-cut caves from the 2nd century BC, set about 400 ft above Bhaja village on an old trade route. They are about 2 km from Malavli station, near Lonavala, and are usually combined with Karla and the trek up Lohagad.",
+     "facts": [
+      "BC1",
+      "LH1"
+     ]
+    }
+   }
+  },
+  {
+   "key": "maharashtra/lohagad-fort",
+   "kind": "attraction",
+   "name": "Lohagad Fort",
+   "parent": "maharashtra/lonavala",
+   "displayMode": "parent_section",
+   "summary": "A Maratha hill fort at 1,033 m, about 20 km from Lonavala.",
+   "seoTitle": "Lohagad Fort near Lonavala",
+   "seoDescription": "Lohagad Fort rises to 1,033 m near Lonavala, beside the larger Visapur fort, and is a popular trek from Malavli with views over the Sahyadris.",
+   "lat": 18.7091,
+   "lng": 73.4769,
+   "tripTypes": [
+    "adventure",
+    "heritage"
+   ],
+   "images": [],
+   "sections": {
+    "overview": {
+     "text": "Lohagad is a hill fort rising to 1,033 m, about 20 km from Lonavala, just south-west of the larger Visapur fort. It is one of the most popular treks in the area, starting near Malavli, and is often combined with the Bhaja Caves on the way. The trail gets slippery in the monsoon.",
+     "facts": [
+      "LH1",
+      "LN7"
+     ]
+    }
+   }
+  }
+ ],
+ "itineraries": [
+  {
+   "place": "maharashtra/lonavala",
+   "slug": "lonavala-2-days-caves-forts-and-viewpoints",
+   "title": "Lonavala in 2 days: caves, forts and viewpoints",
+   "durationDays": 2,
+   "tripTypes": [
+    "weekend",
+    "mountains",
+    "heritage"
+   ],
+   "summary": "Karla and Bhaja caves and the Lohagad trek on day one; Tiger's Leap, Duke's Nose, Rajmachi Point and a lake on day two.",
+   "seoTitle": "Lonavala 2-Day Itinerary: Karla Caves, Lohagad & Viewpoints",
+   "seoDescription": "Two days in Lonavala and Khandala: the Karla and Bhaja caves and Lohagad Fort, then Tiger's Leap, Duke's Nose, Rajmachi Point and Pawna Lake. Monsoon safety tips.",
+   "facts": [
+    "KC1",
+    "BC1",
+    "LH1",
+    "LN6",
+    "LN11",
+    "LN2",
+    "LN8",
+    "LN7",
+    "LN13",
+    "LN5",
+    "LN10"
+   ],
+   "sources": [],
+   "plan": {
+    "overview": "A weekend from Mumbai or Pune: a day of caves and a fort, a day of viewpoints and lakes.",
+    "style": "Weekend: history and hills",
+    "start": "Mumbai (96 km) or Pune (64 km)",
+    "end": "Lonavala",
+    "season": "June–September for monsoon greenery (crowded and slippery); mid-October to May for dry trekking.",
+    "difficulty": "Moderate: the Lohagad trek",
+    "transport": "Train or road from Mumbai/Pune; taxi or auto locally",
+    "days": [
+     {
+      "title": "Caves and a fort",
+      "stops": [
+       {
+        "time": "Morning",
+        "name": "Karla Caves",
+        "placeSlug": "karla-caves",
+        "duration": "1.5 hours",
+        "note": "About 10.9 km from Lonavala."
+       },
+       {
+        "time": "Late morning",
+        "name": "Bhaja Caves",
+        "placeSlug": "bhaja-caves",
+        "duration": "1 hour"
+       },
+       {
+        "time": "Afternoon",
+        "name": "Lohagad Fort",
+        "placeSlug": "lohagad-fort",
+        "duration": "3 hours",
+        "note": "Slippery in the rain."
+       }
+      ],
+      "travel": "Train to Lonavala (about 2.5 hours from Mumbai), then a taxi.",
+      "distance": "Karla 10.9 km; Lohagad about 20 km from Lonavala",
+      "meals": "Carry water and snacks for the trek; dinner in Lonavala.",
+      "overnight": "Lonavala"
+     },
+     {
+      "title": "Viewpoints and lakes",
+      "stops": [
+       {
+        "time": "Morning",
+        "name": "Tiger's Leap and Duke's Nose",
+        "duration": "2 hours"
+       },
+       {
+        "time": "Late morning",
+        "name": "Rajmachi Point",
+        "duration": "1 hour",
+        "note": "About 6.5 km from Lonavala."
+       },
+       {
+        "time": "Afternoon",
+        "name": "Pawna or Tungarli Lake",
+        "duration": "2 hours",
+        "note": "Stay out of the water in the monsoon."
+       },
+       {
+        "time": "Evening",
+        "name": "Chikki shopping",
+        "duration": "30 minutes"
+       }
+      ],
+      "travel": "Taxi or auto between points.",
+      "meals": "Lunch near the lake; chikki to take home.",
+      "overnight": "Departure"
+     }
+    ],
+    "budget": {
+     "assumptions": "VacayOut has no verified current prices for Lonavala hotels, taxis or entry fees. Budget for your own choices and check fees at each site.",
+     "lines": []
+    },
+    "booking": [
+     {
+      "item": "Weekend stays",
+      "detail": "Book ahead for monsoon weekends, the peak season."
+     }
+    ],
+    "alternatives": [
+     "Monsoon trekkers: swap Lohagad for the Rajmachi trek and its fireflies.",
+     "Pilgrims: add Bhimashankar on a third day."
+    ],
+    "tips": [
+     "Check current monsoon restrictions before heading to dams and waterfalls."
+    ],
+    "prep": [
+     {
+      "title": "Getting there",
+      "body": "Local trains run from Pune every two hours; Mumbai is about 2.5 hours by train. By road, 64 km from Pune and 96 km from Mumbai."
+     },
+     {
+      "title": "Monsoon safety",
+      "body": "In 2024 a family was swept away near Bhushi Dam; stay out of fast water and follow local orders."
+     }
+    ],
+    "faqs": [
+     {
+      "q": "Can I do Lonavala as a day trip?",
+      "a": "Yes, from Pune or Mumbai, but two days lets you see the caves and the viewpoints without rushing."
+     },
+     {
+      "q": "Is the monsoon a good time?",
+      "a": "It's the peak season and very green, but crowded and slippery, with water dangers at dams and falls."
+     }
+    ]
+   }
+  },
+  {
+   "place": "maharashtra/mahabaleshwar",
+   "slug": "mahabaleshwar-2-days-temples-points-and-pratapgad",
+   "title": "Mahabaleshwar in 2 days: temples, viewpoints and Pratapgad",
+   "durationDays": 2,
+   "tripTypes": [
+    "mountains",
+    "family",
+    "weekend"
+   ],
+   "summary": "Old Mahabaleshwar's temples, Arthur's Seat and Venna Lake on day one; Pratapgad Fort and Panchgani on day two.",
+   "seoTitle": "Mahabaleshwar 2-Day Itinerary: Temples, Pratapgad & Panchgani",
+   "seoDescription": "Two days in Mahabaleshwar: Old Mahabaleshwar's temples, Arthur's Seat and Venna Lake, then Pratapgad Fort, Mapro Gardens and Panchgani 20 km away.",
+   "facts": [
+    "MB1",
+    "MB2",
+    "MB15",
+    "MB4",
+    "MB5",
+    "MB12",
+    "BMAB1",
+    "MB6",
+    "MB13",
+    "MB8",
+    "MB9",
+    "BMAB2"
+   ],
+   "sources": [],
+   "plan": {
+    "overview": "A weekend from Pune (about 120 km): the pilgrim and viewpoint side of town on day one, the fort and Panchgani on day two.",
+    "style": "Hill-station weekend",
+    "start": "Pune (about 120 km) or Satara station (60 km)",
+    "end": "Mahabaleshwar",
+    "season": "Strawberry season and Easter's Strawberry Fair are highlights; July brings continuous rain.",
+    "difficulty": "Easy, with a climb at Pratapgad",
+    "transport": "Car or taxi",
+    "days": [
+     {
+      "title": "Old Mahabaleshwar, viewpoints and the lake",
+      "stops": [
+       {
+        "time": "Morning",
+        "name": "Mahabaleshwar and Panchganga temples",
+        "duration": "1.5 hours",
+        "note": "The Krishna's source."
+       },
+       {
+        "time": "Late morning",
+        "name": "Arthur's Seat",
+        "duration": "1.5 hours"
+       },
+       {
+        "time": "Afternoon",
+        "name": "Venna Lake",
+        "placeSlug": "venna-lake",
+        "duration": "1.5 hours",
+        "note": "Boating."
+       },
+       {
+        "time": "Evening",
+        "name": "Town bazaar",
+        "duration": "1 hour"
+       }
+      ],
+      "travel": "Drive from Pune (about 120 km) or Satara (60 km).",
+      "meals": "Strawberry shakes in season; dinner in the bazaar.",
+      "overnight": "Mahabaleshwar"
+     },
+     {
+      "title": "Pratapgad and Panchgani",
+      "stops": [
+       {
+        "time": "Morning",
+        "name": "Pratapgad Fort",
+        "placeSlug": "pratapgad-fort",
+        "duration": "2.5 hours"
+       },
+       {
+        "time": "Afternoon",
+        "name": "Mapro Gardens",
+        "duration": "1 hour"
+       },
+       {
+        "time": "Late afternoon",
+        "name": "Panchgani",
+        "duration": "2 hours",
+        "note": "About 20 km away; paragliding and parks."
+       }
+      ],
+      "travel": "Taxi for the day.",
+      "distance": "Panchgani about 20 km",
+      "meals": "Lunch at Mapro Gardens.",
+      "overnight": "Departure"
+     }
+    ],
+    "budget": {
+     "assumptions": "VacayOut has no verified current prices for Mahabaleshwar hotels, taxis, boating or entry fees. Budget for your own choices and check fees on the spot.",
+     "lines": []
+    },
+    "booking": [
+     {
+      "item": "Easter weekend",
+      "detail": "Book early for the Strawberry Fair."
+     }
+    ],
+    "alternatives": [
+     "In the post-monsoon bloom season, add Kaas Pathar.",
+     "Add Manghar honey village."
+    ],
+    "tips": [
+     "Expect mist and heavy rain in July."
+    ],
+    "prep": [
+     {
+      "title": "Getting there",
+      "body": "Satara station is 60 km away; Pune airport and station about 120 km; Mumbai airport 270 km."
+     }
+    ],
+    "faqs": [
+     {
+      "q": "How far is Panchgani?",
+      "a": "About 20 km."
+     },
+     {
+      "q": "Is Mahabaleshwar good in July?",
+      "a": "It is very wet, with 10–12 days of continuous rain; views are often hidden."
+     }
+    ]
+   }
+  }
+ ]
+}

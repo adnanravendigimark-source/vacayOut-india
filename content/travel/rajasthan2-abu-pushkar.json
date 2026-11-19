@@ -1,0 +1,1105 @@
+{
+ "cluster": "rajasthan2-abu-pushkar",
+ "title": "Mount Abu and Pushkar (Batch 4)",
+ "researchedAt": "2026-11-18",
+ "selection": "Batch 4. Mount Abu (6 sections) and Pushkar (8) get who it's for, things to do, practical info and common mistakes, refreshed overviews (pending review) and a new Mount Abu itinerary. Includes the 2026 announcement renaming Mount Abu to Abu Raj. pushkar-ajmer-2-days is left for the Rajasthan itinerary audit. Pushkar Fair length conflicts (five days vs about a week) and is flagged. Dilwara dates differ (11th–13th vs 11th–16th century); only the Wikipedia dates of the two main temples are used.",
+ "sources": {
+  "RT_ABU": {
+   "url": "https://www.tourism.rajasthan.gov.in/mount-abu.html",
+   "title": "Mount Abu — Rajasthan Tourism",
+   "authority": "government"
+  },
+  "II_ABU": {
+   "url": "https://www.incredibleindia.gov.in/en/rajasthan/mount-abu",
+   "title": "Mount Abu — Incredible India",
+   "authority": "government"
+  },
+  "W_ABU": {
+   "url": "https://en.wikipedia.org/wiki/Mount_Abu",
+   "title": "Mount Abu — Wikipedia",
+   "authority": "reference"
+  },
+  "W_DIL": {
+   "url": "https://en.wikipedia.org/wiki/Dilwara_Temples",
+   "title": "Dilwara Temples — Wikipedia",
+   "authority": "reference"
+  },
+  "ITV_ABU": {
+   "url": "https://www.indiatvnews.com/rajasthan/rajasthan-cm-announces-name-change-for-three-cities-mount-abu-to-be-renamed-abu-raj-jahazpur-to-yagyapur-kama-to-kamvan-2026-02-27-1031974",
+   "title": "Rajasthan CM announces name change for three cities — India TV",
+   "authority": "media"
+  },
+  "RT_PUS": {
+   "url": "https://www.tourism.rajasthan.gov.in/pushkar.html",
+   "title": "Pushkar — Rajasthan Tourism",
+   "authority": "government"
+  },
+  "RT_FEST": {
+   "url": "https://www.tourism.rajasthan.gov.in/content/rajasthan-tourism/en/experience/fairs-and-festivals.html",
+   "title": "Fairs and festivals — Rajasthan Tourism (Government of Rajasthan)",
+   "authority": "government"
+  },
+  "HOL_JPJD": {
+   "url": "https://www.holidify.com/places/jodhpur/how-to-reach/jaipur-to-jodhpur-812.html",
+   "title": "Jaipur to Jodhpur — Holidify",
+   "authority": "travel_platform"
+  },
+  "HOL_JDPK": {
+   "url": "https://holidify.com/places/pushkar/how-to-reach/jodhpur-to-pushkar-1464.html",
+   "title": "Jodhpur to Pushkar — Holidify",
+   "authority": "travel_platform"
+  }
+ },
+ "facts": {
+  "BMA1": {
+   "place": "rajasthan/mount-abu",
+   "topic": "Hill station",
+   "claim": "Mount Abu is Rajasthan's only hill station, at 1,722 metres in the Aravallis.",
+   "claimType": "general",
+   "evidence": [
+    {
+     "source": "RT_ABU",
+     "quote": "Mount Abu, the state’s only hill station stands at a height of 1722 metres above sea level, and is embraced by lush green hills of the Aravalli range."
+    }
+   ]
+  },
+  "BMA2": {
+   "place": "rajasthan/mount-abu",
+   "topic": "Getting there",
+   "claim": "The nearest railway station is 28 km away on the Delhi–Mumbai line; Udaipur airport is 176 km away.",
+   "claimType": "distance",
+   "evidence": [
+    {
+     "source": "RT_ABU",
+     "quote": "The railway station at Mount Abu is located at a distance of 28 kilometres from the city."
+    },
+    {
+     "source": "RT_ABU",
+     "quote": "This railway station lies on the connecting rail line between Delhi and Mumbai."
+    },
+    {
+     "source": "RT_ABU",
+     "quote": "the closest airport is the Maharana Pratap Airport in Dabok, Udaipur, located at a distance of 176 kilometres from Mount Abu"
+    }
+   ]
+  },
+  "BMA3": {
+   "place": "rajasthan/mount-abu",
+   "topic": "Festivals",
+   "claim": "Mount Abu holds a summer festival from Buddha Purnima and a winter festival in December.",
+   "claimType": "general",
+   "evidence": [
+    {
+     "source": "RT_ABU",
+     "quote": "Starting on the day of Buddha Poornima, the summer festival celebrates the vibrancy of Rajasthani culture"
+    },
+    {
+     "source": "RT_ABU",
+     "quote": "The annual Winter Festival held at Mount Abu in December pays homage to the rich culture and tradition of Rajasthan."
+    }
+   ],
+   "kind": "seasonal"
+  },
+  "BMA4": {
+   "place": "rajasthan/mount-abu",
+   "topic": "Wildlife sanctuary",
+   "claim": "The 288 sq km Mount Abu Wildlife Sanctuary is home to leopards, striped hyenas and grey jungle fowl.",
+   "claimType": "general",
+   "evidence": [
+    {
+     "source": "RT_ABU",
+     "quote": "Covering 288 square kilometres of area, the Mount Abu Wildlife Sanctuary is a part of the subtropical forest in this region."
+    },
+    {
+     "source": "RT_ABU",
+     "quote": "including the Indian fox, pangolin, grey jungle fowl, striped hyena, and also Indian leopard, the apex predator here"
+    }
+   ]
+  },
+  "BMAD1": {
+   "place": "rajasthan/dilwara-temples",
+   "topic": "Dilwara",
+   "claim": "The five white-marble Dilwara Jain temples, built between the 11th and 13th centuries, are about 2.5 km from Mount Abu.",
+   "claimType": "general",
+   "evidence": [
+    {
+     "source": "RT_ABU",
+     "quote": "Established some time in between the 11th and 13th centuries, the Dilwara Jain temples are considered to be among the best specimens of architectural perfection in the country."
+    },
+    {
+     "source": "RT_ABU",
+     "quote": "A complex of five temple structures, the Dilwara Jain temples are located at a distance of about 2.5 kilometres from Mount Abu."
+    }
+   ]
+  },
+  "BMAN1": {
+   "place": "rajasthan/nakki-lake",
+   "topic": "Nakki Lake",
+   "claim": "Nakki Lake is known for sunset boat rides, the immersion of Mahatma Gandhi's ashes and nearby Toad Rock.",
+   "claimType": "general",
+   "evidence": [
+    {
+     "source": "RT_ABU",
+     "quote": "You can choose to take a boat ride at the lake and watch the sun set past the beautiful hills surrounding this place."
+    },
+    {
+     "source": "RT_ABU",
+     "quote": "Nakki Lake is also popular for being the place where the ashes of Mahatma Gandhi had been immersed."
+    },
+    {
+     "source": "RT_ABU",
+     "quote": "Toad rock, a place for sightseeing in Mount Abu is located close to Nakki Lake."
+    }
+   ]
+  },
+  "BMAG1": {
+   "place": "rajasthan/guru-shikhar",
+   "topic": "Guru Shikhar",
+   "claim": "Guru Shikhar is the highest point of the range; about 300 steps lead to the temple of Guru Dattatreya.",
+   "claimType": "general",
+   "evidence": [
+    {
+     "source": "RT_ABU",
+     "quote": "Recognized as the highest point on this mountain range, Guru Shikhar is an exquisite place for sightseeing in Mount Abu."
+    },
+    {
+     "source": "RT_ABU",
+     "quote": "Taking about 300 steps up to Guru Shikhar, you reach the temple of Guru Dattatreya"
+    }
+   ]
+  },
+  "BPK1": {
+   "place": "rajasthan/pushkar",
+   "topic": "Pushkar",
+   "claim": "Pushkar, one of India's oldest towns, lies north-west of Ajmer, surrounded by hills on three sides.",
+   "claimType": "general",
+   "evidence": [
+    {
+     "source": "RT_PUS",
+     "quote": "Pushkar is one of the oldest cities in India."
+    },
+    {
+     "source": "RT_PUS",
+     "quote": "Pushkar is surrounded by hillocks on three sides."
+    }
+   ]
+  },
+  "BPK2": {
+   "place": "rajasthan/pushkar",
+   "topic": "Only Brahma temple",
+   "claim": "Pushkar has the only temple dedicated to Lord Brahma in the world.",
+   "claimType": "general",
+   "evidence": [
+    {
+     "source": "RT_PUS",
+     "quote": "The city of Pushkar is home to the only temple dedicated to Lord Brahma in the whole world."
+    }
+   ]
+  },
+  "BPK3": {
+   "place": "rajasthan/pushkar",
+   "topic": "Vegetarian town",
+   "claim": "As a temple town, Pushkar serves only vegetarian food; try kachori, malpua and lassi.",
+   "claimType": "general",
+   "evidence": [
+    {
+     "source": "RT_PUS",
+     "quote": "Being a temple town, Pushkar exclusively offers vegetarian food, but the sheer variety of the food makes the trip completely worth it."
+    }
+   ]
+  },
+  "BPK4": {
+   "place": "rajasthan/pushkar",
+   "topic": "Getting there",
+   "claim": "Pushkar's station is linked to Ajmer station, 14 km away; buses run to Jaipur and Jodhpur from the Ajmer bus stand.",
+   "claimType": "distance",
+   "evidence": [
+    {
+     "source": "RT_PUS",
+     "quote": "Pushkar Terminus Railway station which is operational since 2012, is connected to Ajmer railway station located at a distance of 14 kilometres."
+    },
+    {
+     "source": "RT_PUS",
+     "quote": "Regular buses ply from Pushkar to the major cities of Jaipur, Jodhpur and Ajmer from the Ajmer bus stand."
+    }
+   ]
+  },
+  "BPK5": {
+   "place": "rajasthan/pushkar",
+   "topic": "Markets",
+   "claim": "Sadar Bazar is Pushkar's main shopping street, for silver jewellery, embroidered clothes and leather goods.",
+   "claimType": "general",
+   "evidence": [
+    {
+     "source": "RT_PUS",
+     "quote": "The main shopping area is the Sadar Bazar."
+    },
+    {
+     "source": "RT_PUS",
+     "quote": "offer items like silver jewellery, accessories, embroidered clothes, leather goods, and decorative items"
+    }
+   ]
+  },
+  "BPKL1": {
+   "place": "rajasthan/pushkar-lake",
+   "topic": "Pushkar Lake",
+   "claim": "Pushkar Lake, 'Tirtha Raj', is ringed by 52 bathing ghats and over 400 temples.",
+   "claimType": "general",
+   "evidence": [
+    {
+     "source": "RT_PUS",
+     "quote": "According to Hindu scriptures, the sacred Pushkar Lake is described as ‘Tirtha Raj’, the king of all pilgrimage sites."
+    },
+    {
+     "source": "RT_PUS",
+     "quote": "Pushkar Lake is surrounded by 52 bathing ghats and over 400 temples"
+    }
+   ]
+  },
+  "BPKB1": {
+   "place": "rajasthan/brahma-temple-pushkar",
+   "topic": "Brahma temple",
+   "claim": "The marble Brahma temple has a red spire, a swan emblem and a four-faced idol of Brahma.",
+   "claimType": "general",
+   "evidence": [
+    {
+     "source": "RT_PUS",
+     "quote": "Built with marble and decorated with silver coins, this temple can be identified by its red spire and the image of a swan (considered sacred to Lord Brahma)."
+    },
+    {
+     "source": "RT_PUS",
+     "quote": "The chaturmukhi (four faced) idol of Lord Brahma is housed in the inner sanctum."
+    }
+   ]
+  },
+  "BPKS1": {
+   "place": "rajasthan/savitri-mata-temple",
+   "topic": "Savitri temple and ropeway",
+   "claim": "The Savitri Mata temple sits on a hill behind the Brahma temple; a ropeway opened in 2016 gives views of the whole town.",
+   "claimType": "general",
+   "evidence": [
+    {
+     "source": "RT_PUS",
+     "quote": "Dedicated to Lord Brahma's first wife, Goddess Savitri, this temple is situated on a hillock right behind the Brahma temple."
+    },
+    {
+     "source": "RT_PUS",
+     "quote": "Overlooking the beautiful and scenic Pushkar Lake, the Savitri Mata Ropeway gives a bird’s eye view of the entire town of Pushkar."
+    },
+    {
+     "source": "RT_PUS",
+     "quote": "The Savitri Mata ropeway was inaugurated in the year 2016."
+    }
+   ]
+  },
+  "BPKF1": {
+   "place": "rajasthan/pushkar-camel-fair",
+   "topic": "Pushkar Fair",
+   "claim": "The Pushkar Fair is a week-long camel and livestock fair held between October and November, one of the world's largest.",
+   "claimType": "general",
+   "evidence": [
+    {
+     "source": "RT_FEST",
+     "quote": "is an annual weeklong camel and livestock fair held in the town of Pushkar between the months of October and November"
+    },
+    {
+     "source": "RT_FEST",
+     "quote": "It is one of the world's largest camel"
+    }
+   ],
+   "kind": "seasonal"
+  },
+  "BPKF3": {
+   "place": "rajasthan/pushkar-camel-fair",
+   "topic": "Camping season",
+   "claim": "The best camping season in Pushkar is October to February; camps sit near the fairground.",
+   "claimType": "general",
+   "evidence": [
+    {
+     "source": "RT_PUS",
+     "quote": "Some of the most preferred campsites in Pushkar are located near the Pushkar fair grounds, at the edge of the Desert."
+    },
+    {
+     "source": "RT_PUS",
+     "quote": "The best time for camping in Pushkar is from October to February"
+    }
+   ],
+   "kind": "seasonal"
+  },
+  "BRJD_JPPK": {
+   "place": "rajasthan/pushkar",
+   "topic": "Road from Jaipur",
+   "claimType": "distance",
+   "kind": "estimate",
+   "claim": "Jaipur to Pushkar is about 145 km by road, about 2.5 hours.",
+   "evidence": [
+    {
+     "source": "HOL_JPJD",
+     "quote": "Jaipur to Pushkar 2 hours 32 mins 145 km"
+    }
+   ]
+  },
+  "BRJD_PKJD": {
+   "place": "rajasthan/pushkar",
+   "topic": "Road to Jodhpur",
+   "claimType": "distance",
+   "kind": "estimate",
+   "claim": "Pushkar to Jodhpur is about 187 km by road, about 4 hours.",
+   "evidence": [
+    {
+     "source": "HOL_JDPK",
+     "quote": "Jodhpur to Pushkar Road Distance 187 km"
+    }
+   ]
+  },
+  "AB1": {
+   "place": "rajasthan/mount-abu",
+   "topic": "Nakki Lake",
+   "claim": "Nakki Lake is described as India's first man-made lake; Mahatma Gandhi's ashes were immersed here.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "RT_ABU",
+     "quote": "Recognized as the first ever manmade lake in India, Nakki Lake is also a preferred place to see in Mount Abu."
+    },
+    {
+     "source": "RT_ABU",
+     "quote": "Nakki Lake is also popular for being the place where the ashes of Mahatma Gandhi had been immersed."
+    }
+   ]
+  },
+  "AB2": {
+   "place": "rajasthan/mount-abu",
+   "topic": "Toad Rock",
+   "claim": "Toad Rock, on the trekking trail by Nakki Lake, is easy to climb and gives views over the lake.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "RT_ABU",
+     "quote": "It is pretty easy to climb the rock"
+    }
+   ]
+  },
+  "AB3": {
+   "place": "rajasthan/mount-abu",
+   "topic": "Achalgarh",
+   "claim": "Achalgarh Fort, about 26 km north, was rebuilt by Maharana Kumbha in 1452.",
+   "claimType": "distance",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "RT_ABU",
+     "quote": "the Achalgarh Fort is located about 26 kilometres north of the city."
+    }
+   ]
+  },
+  "AB4": {
+   "place": "rajasthan/mount-abu",
+   "topic": "Peace Park",
+   "claim": "The Brahma Kumaris' Peace Park between Guru Shikhar and Achalgarh has gardens and guided tours.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "RT_ABU",
+     "quote": "the Peace Park in Mount Abu is a part of the Brahma Kumaris’ establishment."
+    }
+   ]
+  },
+  "AB5": {
+   "place": "rajasthan/mount-abu",
+   "topic": "Trevor's Tank",
+   "claim": "Trevor's Tank, about 5 km away, is a crocodile breeding spot and picnic site.",
+   "claimType": "distance",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "RT_ABU",
+     "quote": "Trevor’s tank, a crocodile park, is a manmade crocodile breeding spot which is located at a distance of"
+    }
+   ]
+  },
+  "AB6": {
+   "place": "rajasthan/mount-abu",
+   "topic": "Climate",
+   "claim": "Winters are pleasant (about 13–22 °C) with chilly mornings; Mount Abu gets more rain than anywhere else in Rajasthan, over 500 mm a month in July and August.",
+   "claimType": "general",
+   "kind": "seasonal",
+   "evidence": [
+    {
+     "source": "W_ABU",
+     "quote": "Winters are pleasant in Mount Abu, with the temperature around 13 to 22 °C (55.4 to 71.6 °F)."
+    },
+    {
+     "source": "W_ABU",
+     "quote": "Due to its altitude, Mount Abu gets more rain than any other part of Rajasthan"
+    }
+   ]
+  },
+  "AB7": {
+   "place": "rajasthan/mount-abu",
+   "topic": "Festivals",
+   "claim": "The summer festival at Buddha Purnima (May) has folk dance, boat races on Nakki Lake and qawwali; the winter festival ends the year with a procession and lamps on the lake.",
+   "claimType": "schedule",
+   "kind": "seasonal",
+   "evidence": [
+    {
+     "source": "II_ABU",
+     "quote": "boat races on Nakki Lake, qawwali evenings, and fireworks, timed to Buddha Purnima in May."
+    }
+   ]
+  },
+  "AB8": {
+   "place": "rajasthan/mount-abu",
+   "topic": "Sloth bears",
+   "claim": "Sloth bears from the sanctuary are often seen in town foraging in open bins.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "W_ABU",
+     "quote": "sloth bears from the sanctuary have habitually been seen inside the city throughout the year foraging on hotel waste in open rubbish bins."
+    }
+   ]
+  },
+  "AB9": {
+   "place": "rajasthan/mount-abu",
+   "topic": "Dilwara temples",
+   "claim": "The Dilwara complex's earliest temple, Vimal Vasahi, dates to about 1031 and Luna Vasahi to 1230.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "W_DIL",
+     "quote": "The Vimal Vasahi is much the earliest, constructed by 1031, with the Luna Vasahi by 1230"
+    }
+   ]
+  },
+  "AB10": {
+   "place": "rajasthan/mount-abu",
+   "topic": "Name change",
+   "claim": "In February 2026 Rajasthan's Chief Minister announced that Mount Abu will be known as Abu Raj.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "ITV_ABU",
+     "quote": "the Chief Minister stated that the popular hill station Mount Abu will now be known as Abu Raj.",
+     "sourceDate": "2026-02-27"
+    }
+   ]
+  },
+  "AB11": {
+   "place": "rajasthan/mount-abu",
+   "topic": "Lal Mandir",
+   "claim": "Lal Mandir, a small Shiva temple painted red, is on Delwara Road near the Dilwara temples.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "RT_ABU",
+     "quote": "Located on Delwara Road, near the Delwara Jain Temple, is this small temple dedicated to Lord Shiva."
+    }
+   ]
+  },
+  "AB12": {
+   "place": "rajasthan/mount-abu",
+   "topic": "Plateau",
+   "claim": "The town sits on a rocky plateau 22 km long and 9 km wide.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "W_ABU",
+     "quote": "the mountain forms a rocky plateau 22 km (14 mi) long by 9 km (5.6 mi) wide."
+    }
+   ]
+  },
+  "PU1": {
+   "place": "rajasthan/pushkar",
+   "topic": "Lake",
+   "claim": "Pushkar Lake, 'Tirtha Raj', is semi-circular and about 8–10 m deep; a dip is part of the pilgrimage.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "RT_PUS",
+     "quote": "No pilgrimage is considered to be complete without a dip in in the holy Pushkar Lake."
+    },
+    {
+     "source": "RT_PUS",
+     "quote": "Semi-circular in shape and about 8-10 metres deep"
+    }
+   ]
+  },
+  "PU2": {
+   "place": "rajasthan/pushkar",
+   "topic": "Varaha temple",
+   "claim": "The Varaha temple, built by the 12th-century ruler Anaji Chauhan, is Pushkar's largest and oldest.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "RT_PUS",
+     "quote": "Varaha temple is the largest and the most ancient temple of Pushkar."
+    }
+   ]
+  },
+  "PU3": {
+   "place": "rajasthan/pushkar",
+   "topic": "Rangji temple",
+   "claim": "The Rangji temple mixes South Indian, Rajput and Mughal styles, with a South Indian-style gopuram.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "RT_PUS",
+     "quote": "The influence of South Indian style, Rajput style and Mughal style in the temple’s architecture is highly noticeable."
+    }
+   ]
+  },
+  "PU4": {
+   "place": "rajasthan/pushkar",
+   "topic": "Gurdwara",
+   "claim": "Gurudwara Singh Sabha commemorates visits by Guru Nanak Dev and Guru Gobind Singh.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "RT_PUS",
+     "quote": "was built in the beginning of the 19th century to commemorate the visits of the first and the tenth gurus"
+    }
+   ]
+  },
+  "PU5": {
+   "place": "rajasthan/pushkar",
+   "topic": "Man Mahal",
+   "claim": "Man Mahal, Raja Man Singh I's guest house, is now the RTDC Hotel Sarovar, with lake views.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "RT_PUS",
+     "quote": "It has now been converted into a heritage hotel, called the RTDC Hotel Sarovar"
+    }
+   ]
+  },
+  "PU6": {
+   "place": "rajasthan/pushkar",
+   "topic": "Aarti",
+   "claim": "The evening aarti at the ghats, with bells and lamps, is the town's signature ritual.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "RT_PUS",
+     "quote": "the evening prayer at the ghat is not to be missed."
+    }
+   ]
+  },
+  "PU7": {
+   "place": "rajasthan/pushkar",
+   "topic": "Camel safari",
+   "claim": "Camel safaris head into the desert villages and end at the dunes at sunset.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "RT_PUS",
+     "quote": "Safari tours commence with villages across desert and end at sunset by the beautiful sand dunes."
+    }
+   ]
+  },
+  "PU8": {
+   "place": "rajasthan/pushkar",
+   "topic": "Market",
+   "claim": "The main market is a 1 km stretch centred on Sadar Bazar; set aside a day for shopping.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "RT_PUS",
+     "quote": "The main Pushkar market is a stretch of one kilometre with emporiums, shops and showrooms"
+    }
+   ]
+  },
+  "PU10": {
+   "place": "rajasthan/pushkar",
+   "topic": "Savitri temple legend",
+   "claim": "The Savitri temple, on the hill behind the Brahma temple, gives views of the lake, temples and dunes.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "RT_PUS",
+     "quote": "one can catch a panoramic view of the lake, surrounding temples and sand dunes."
+    }
+   ]
+  },
+  "PU11": {
+   "place": "rajasthan/pushkar",
+   "topic": "Panchkund",
+   "claim": "Sri Panchkund Shiva temple is 2–3 km from the lake on the eastern edge of town.",
+   "claimType": "distance",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "RT_PUS",
+     "quote": "this temple is around 2-3 kilometres from the lake."
+    }
+   ]
+  }
+ },
+ "places": [
+  {
+   "key": "rajasthan/mount-abu",
+   "kind": "town",
+   "name": "Mount Abu",
+   "parent": "rajasthan",
+   "summary": "Rajasthan's only hill station, at 1,722 metres: the Dilwara Jain temples, Nakki Lake and Guru Shikhar.",
+   "seoTitle": "Mount Abu Travel Guide: Dilwara, Nakki Lake & More",
+   "seoDescription": "Plan a trip to Mount Abu, Rajasthan's only hill station: the Dilwara Jain temples, Nakki Lake, Guru Shikhar, festivals and how to get there.",
+   "lat": 24.5926,
+   "lng": 72.7156,
+   "tripTypes": [
+    "mountains",
+    "spiritual",
+    "family"
+   ],
+   "images": [
+    {
+     "commons": "File:Mount Abu's Nakki Lake during Sunset.jpg",
+     "alt": "Nakki Lake in Mount Abu at sunset with hills behind",
+     "hero": true
+    }
+   ],
+   "sections": {
+    "overview": {
+     "text": "Mount Abu is Rajasthan's only hill station, at 1,722 m on a rocky plateau in the Aravallis, a green, cool escape from the desert. It is also one of the most important places in India for Jains. In February 2026 the state government announced that the town will be known as Abu Raj, so you may see both names.\n\nThe white-marble Dilwara temples, the oldest built by about 1031, are famous for their carving. In town, Nakki Lake, described as India's first man-made lake, has boats and sunset views, with Toad Rock above it. Guru Shikhar, the highest point of the range, is about 300 steps up to its temple, and Achalgarh Fort lies about 26 km north. A 288 sq km wildlife sanctuary surrounds the town. Summer and winter festivals bring folk music and boat races to the lake.",
+     "facts": [
+      "BMA1",
+      "AB12",
+      "AB10",
+      "BMAD1",
+      "AB9",
+      "AB1",
+      "AB2",
+      "BMAG1",
+      "AB3",
+      "BMA4",
+      "AB7"
+     ]
+    },
+    "who_its_for": {
+     "items": [
+      {
+       "title": "Families",
+       "body": "Boating on Nakki Lake, Toad Rock and Trevor's Tank."
+      },
+      {
+       "title": "Pilgrims",
+       "body": "The Dilwara temples, Guru Shikhar's Dattatreya temple and Lal Mandir."
+      },
+      {
+       "title": "Nature lovers",
+       "body": "The 288 sq km wildlife sanctuary and the Peace Park."
+      },
+      {
+       "title": "Summer escapers",
+       "body": "One of the few cool places in Rajasthan in summer."
+      }
+     ],
+     "facts": [
+      "AB1",
+      "AB2",
+      "AB5",
+      "BMAD1",
+      "BMAG1",
+      "AB11",
+      "BMA4",
+      "AB4",
+      "BMA3"
+     ]
+    },
+    "practical_info": {
+     "items": [
+      {
+       "title": "Getting there",
+       "body": "The nearest station is 28 km away on the Delhi–Mumbai line; Udaipur airport is 176 km away.",
+       "status": "verified"
+      },
+      {
+       "title": "Name",
+       "body": "In February 2026 the state announced the town will be called Abu Raj; both names are in use.",
+       "status": "verified"
+      },
+      {
+       "title": "Weather",
+       "body": "Winters are about 13–22 °C with chilly mornings; July and August are very wet.",
+       "status": "seasonal"
+      },
+      {
+       "title": "Wildlife",
+       "body": "Sloth bears are often seen in town foraging in bins. Keep your distance, especially after dark.",
+       "status": "verified"
+      }
+     ],
+     "facts": [
+      "BMA2",
+      "AB10",
+      "AB6",
+      "AB8"
+     ]
+    },
+    "things_to_do": {
+     "items": [
+      {
+       "body": "See the marble carving of the Dilwara temples."
+      },
+      {
+       "body": "Take a sunset boat on Nakki Lake and climb Toad Rock."
+      },
+      {
+       "body": "Climb the steps to Guru Shikhar."
+      },
+      {
+       "body": "Drive to Achalgarh Fort, about 26 km north."
+      },
+      {
+       "body": "Visit the Brahma Kumaris' Peace Park."
+      }
+     ],
+     "facts": [
+      "BMAD1",
+      "AB1",
+      "AB2",
+      "BMAG1",
+      "AB3",
+      "AB4"
+     ]
+    },
+    "common_mistakes": {
+     "items": [
+      {
+       "body": "Expecting a railway station in town. The nearest is 28 km away."
+      },
+      {
+       "body": "Leaving food out or approaching bears at night."
+      },
+      {
+       "body": "Packing only summer clothes in winter. Mornings are chilly."
+      }
+     ],
+     "facts": [
+      "BMA2",
+      "AB8",
+      "AB6"
+     ]
+    }
+   }
+  },
+  {
+   "key": "rajasthan/pushkar",
+   "kind": "town",
+   "name": "Pushkar",
+   "parent": "rajasthan",
+   "summary": "One of India's oldest towns: a holy lake ringed by 52 ghats, the world's only Brahma temple and the famous camel fair.",
+   "seoTitle": "Pushkar Travel Guide: Brahma Temple, Lake & Camel Fair",
+   "seoDescription": "Plan a trip to Pushkar: the holy lake and 52 ghats, the Brahma Temple, Savitri Mata ropeway, the Pushkar camel fair, food and how to get there.",
+   "lat": 26.4899,
+   "lng": 74.5511,
+   "tripTypes": [
+    "spiritual",
+    "heritage",
+    "food"
+   ],
+   "images": [
+    {
+     "commons": "File:20191214 Ghats in Pushkar 1713 8593.jpg",
+     "alt": "Bathing ghats and temples around Pushkar Lake",
+     "hero": true
+    }
+   ],
+   "sections": {
+    "who_its_for": {
+     "items": [
+      {
+       "title": "Pilgrims",
+       "body": "A dip in the lake, the Brahma temple and the Varaha and Savitri temples."
+      },
+      {
+       "title": "Culture seekers",
+       "body": "Evening aarti at the ghats and the camel fair."
+      },
+      {
+       "title": "Shoppers",
+       "body": "Silver jewellery, embroidered clothes and leather goods along the 1 km market."
+      },
+      {
+       "title": "Adventurers",
+       "body": "Camel safaris to the dunes and desert camps."
+      }
+     ],
+     "facts": [
+      "PU1",
+      "BPK2",
+      "PU2",
+      "PU10",
+      "PU6",
+      "BPKF1",
+      "PU8",
+      "BPK5",
+      "PU7",
+      "BPKF3"
+     ]
+    },
+    "things_to_do": {
+     "items": [
+      {
+       "body": "Watch the evening aarti at the ghats."
+      },
+      {
+       "body": "Visit the Brahma temple, then climb or ride up to the Savitri temple for the view."
+      },
+      {
+       "body": "See the Varaha and Rangji temples."
+      },
+      {
+       "body": "Take a camel safari to the dunes at sunset."
+      },
+      {
+       "body": "Spend a day in Sadar Bazar."
+      },
+      {
+       "body": "See Gurudwara Singh Sabha, built for visits by Guru Nanak Dev and Guru Gobind Singh."
+      },
+      {
+       "body": "Have tea with a lake view at Man Mahal, now the RTDC Hotel Sarovar."
+      },
+      {
+       "body": "Visit the Panchkund Shiva temple, 2–3 km from the lake."
+      }
+     ],
+     "facts": [
+      "PU6",
+      "BPKB1",
+      "BPKS1",
+      "PU10",
+      "PU2",
+      "PU3",
+      "PU7",
+      "PU8",
+      "PU4",
+      "PU5",
+      "PU11"
+     ]
+    },
+    "practical_info": {
+     "items": [
+      {
+       "title": "Getting there",
+       "body": "Via Ajmer, 14 km away, on the main Delhi–Jaipur–Ahmedabad–Mumbai line. Jaipur is about 145 km (about 2.5 hours) and Jodhpur about 187 km (about 4 hours) by road.",
+       "status": "verified"
+      },
+      {
+       "title": "Food",
+       "body": "Pushkar is a temple town: food is vegetarian.",
+       "status": "verified"
+      },
+      {
+       "title": "Camel fair",
+       "body": "Held between October and November; dates follow the lunar calendar, so check the official schedule.",
+       "status": "seasonal"
+      },
+      {
+       "title": "Camping",
+       "body": "Best October to February, near the fairground.",
+       "status": "seasonal"
+      }
+     ],
+     "facts": [
+      "BPK4",
+      "BRJD_JPPK",
+      "BRJD_PKJD",
+      "BPK3",
+      "BPKF1",
+      "BPKF3"
+     ]
+    },
+    "common_mistakes": {
+     "items": [
+      {
+       "body": "Arriving at fair time without a booking."
+      },
+      {
+       "body": "Expecting meat or alcohol in a temple town."
+      },
+      {
+       "body": "Rushing the market. Rajasthan Tourism suggests keeping a whole day for shopping."
+      }
+     ],
+     "facts": [
+      "BPKF1",
+      "BPK3",
+      "PU8"
+     ]
+    },
+    "overview": {
+     "text": "Pushkar, north-west of Ajmer and ringed by hills on three sides, is one of the oldest towns in India. Legend says Brahma dropped a lotus here and a lake appeared, and the lake, 'Tirtha Raj', is still the heart of the town: semi-circular, ringed by 52 ghats and over 400 temples. Pushkar has the world's only temple dedicated to Brahma, and the Varaha temple, built in the 12th century, is its oldest.\n\nEvening aarti at the ghats, a climb to the Savitri temple for the view, the 1 km market around Sadar Bazar and camel rides to the dunes fill the days. The town is vegetarian. Every October–November the camel fair, one of the world's largest livestock fairs, fills the dunes with camps.",
+     "facts": [
+      "BPK1",
+      "BPKL1",
+      "PU1",
+      "BPK2",
+      "PU2",
+      "PU6",
+      "PU10",
+      "PU8",
+      "PU7",
+      "BPK3",
+      "BPKF1"
+     ]
+    }
+   }
+  }
+ ],
+ "itineraries": [
+  {
+   "place": "rajasthan/mount-abu",
+   "slug": "mount-abu-2-days-dilwara-nakki-and-guru-shikhar",
+   "title": "Mount Abu in 2 days: Dilwara, Nakki Lake and Guru Shikhar",
+   "durationDays": 2,
+   "tripTypes": [
+    "mountains",
+    "spiritual",
+    "family"
+   ],
+   "summary": "The Dilwara temples, Lal Mandir and a sunset boat on Nakki Lake with Toad Rock; then Guru Shikhar, the Peace Park and Achalgarh.",
+   "seoTitle": "Mount Abu 2-Day Itinerary: Dilwara, Nakki Lake & Guru Shikhar",
+   "seoDescription": "Two days in Mount Abu: the Dilwara Jain temples, Lal Mandir, Nakki Lake and Toad Rock at sunset, then Guru Shikhar, the Peace Park and Achalgarh Fort.",
+   "facts": [
+    "BMAD1",
+    "AB9",
+    "AB11",
+    "AB1",
+    "AB2",
+    "BMAN1",
+    "BMAG1",
+    "AB4",
+    "AB3",
+    "BMA2",
+    "AB6",
+    "AB8",
+    "AB10"
+   ],
+   "sources": [],
+   "plan": {
+    "overview": "Rajasthan's only hill station in two easy days: temples and the lake on day one, the high points on day two.",
+    "style": "Hill station and pilgrimage",
+    "start": "Mount Abu station (28 km) or Udaipur airport (176 km)",
+    "end": "Mount Abu",
+    "season": "Winter is pleasant (about 13–22 °C); summer is a cool escape from the plains; July–August are very wet.",
+    "difficulty": "Easy, with about 300 steps at Guru Shikhar",
+    "transport": "Taxi or hired car",
+    "days": [
+     {
+      "title": "Dilwara and Nakki Lake",
+      "stops": [
+       {
+        "time": "Late morning",
+        "name": "Dilwara Jain temples",
+        "placeSlug": "dilwara-temples",
+        "duration": "2 hours",
+        "note": "About 2.5 km from town."
+       },
+       {
+        "time": "Afternoon",
+        "name": "Lal Mandir",
+        "duration": "30 minutes",
+        "note": "On Delwara Road."
+       },
+       {
+        "time": "Late afternoon",
+        "name": "Toad Rock",
+        "duration": "1 hour"
+       },
+       {
+        "time": "Sunset",
+        "name": "Boat on Nakki Lake",
+        "placeSlug": "nakki-lake",
+        "duration": "1 hour"
+       }
+      ],
+      "travel": "Arrive from the station (28 km) by taxi.",
+      "meals": "Rajasthani thali in town.",
+      "overnight": "Mount Abu"
+     },
+     {
+      "title": "Guru Shikhar and Achalgarh",
+      "stops": [
+       {
+        "time": "Morning",
+        "name": "Guru Shikhar",
+        "placeSlug": "guru-shikhar",
+        "duration": "1.5 hours",
+        "note": "About 300 steps to the Dattatreya temple."
+       },
+       {
+        "time": "Late morning",
+        "name": "Peace Park",
+        "duration": "1 hour"
+       },
+       {
+        "time": "Afternoon",
+        "name": "Achalgarh Fort",
+        "duration": "2 hours",
+        "note": "About 26 km north."
+       }
+      ],
+      "travel": "Taxi for the day.",
+      "meals": "Pack water for the climbs; lunch near Achalgarh.",
+      "overnight": "Departure"
+     }
+    ],
+    "budget": {
+     "assumptions": "VacayOut has no verified current prices for Mount Abu hotels, taxis, boating or entry fees. Budget for your own choices and check fees on the spot.",
+     "lines": []
+    },
+    "booking": [
+     {
+      "item": "Festivals",
+      "detail": "Book ahead for the summer festival (Buddha Purnima) and the December winter festival."
+     }
+    ],
+    "alternatives": [
+     "Families: add Trevor's Tank, about 5 km away."
+    ],
+    "tips": [
+     "Don't leave food out: sloth bears forage in town."
+    ],
+    "prep": [
+     {
+      "title": "Getting there",
+      "body": "The nearest station is 28 km away on the Delhi–Mumbai line; Udaipur airport is 176 km."
+     },
+     {
+      "title": "Name",
+      "body": "Signs may show 'Abu Raj', the name announced in 2026."
+     }
+    ],
+    "faqs": [
+     {
+      "q": "How far are the Dilwara temples?",
+      "a": "About 2.5 km from town."
+     },
+     {
+      "q": "Is Mount Abu now called Abu Raj?",
+      "a": "The state announced the new name in February 2026; both are in use."
+     }
+    ]
+   }
+  }
+ ]
+}

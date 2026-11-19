@@ -148,6 +148,26 @@
       "url": "https://en.wikipedia.org/wiki/112_(emergency_telephone_number)",
       "title": "112 (emergency telephone number) — Wikipedia",
       "authority": "reference"
+    },
+    "DWD_PGB": {
+      "url": "https://discoverwithdheeraj.com/leh-pangong-tso-bus-service/",
+      "title": "Leh to Pangong Tso — Discover with Dheeraj",
+      "authority": "travel_platform"
+    },
+    "VK_NBPG": {
+      "url": "https://vargiskhan.com/log/?p=6967",
+      "title": "Nubra Valley to Pangong Lake route guide — Vargis Khan",
+      "authority": "travel_platform"
+    },
+    "TC_THK": {
+      "url": "https://travelcoffee.in/places-to-visit/thiksey-monastery",
+      "title": "Thiksey Monastery — Travel Coffee",
+      "authority": "travel_platform"
+    },
+    "TC_HEM": {
+      "url": "https://travelcoffee.in/places-to-visit/hemis-monastery",
+      "title": "Hemis Monastery — Travel Coffee",
+      "authority": "travel_platform"
     }
   },
   "facts": {
@@ -816,6 +836,68 @@
         {
           "source": "UPI",
           "quote": "The UPI One World wallet can be availed through authorized PPI issuers at airports, hotels, designated money exchange locations and other touchpoints, following a full KYC process based on a passport and valid visa."
+        }
+      ]
+    },
+    "LDK_LHPG": {
+      "place": "ladakh/pangong-tso",
+      "topic": "Road from Leh",
+      "claimType": "distance",
+      "kind": "estimate",
+      "claim": "Pangong Tso is about 160–170 km from Leh via Chang La, 5–6 hours by private vehicle.",
+      "evidence": [
+        {
+          "source": "DWD_PGB",
+          "quote": "A private vehicle covers this in 5 to 6 hours."
+        },
+        {
+          "source": "DWD_PGB",
+          "quote": "approximately 160 to 170 km from Pangong Tso via the Chang La route"
+        }
+      ]
+    },
+    "LDK_NBPG": {
+      "place": "ladakh/nubra-valley",
+      "topic": "Road to Pangong via Shyok",
+      "claimType": "distance",
+      "kind": "estimate",
+      "claim": "Diskit to Pangong (Spangmik) by the Agham–Shyok road is about 162 km, now about 5–6 hours.",
+      "evidence": [
+        {
+          "source": "VK_NBPG",
+          "quote": "Shyok – Durbuk – Tangtse – Spangmik (Pangong Lake) = 162 kilometers"
+        },
+        {
+          "source": "VK_NBPG",
+          "quote": "From Diskit to Pangong Tso, the travel time has now been reduced to merely 5-6 hours at most."
+        }
+      ]
+    },
+    "LDK_THK": {
+      "place": "ladakh/thiksey-monastery",
+      "topic": "Morning prayers",
+      "claimType": "schedule",
+      "claim": "Monks gather for Thiksey's first chanting session of the day at around 6–6:30 am, and visitors can attend.",
+      "evidence": [
+        {
+          "source": "TC_THK",
+          "quote": "Every morning at around 6:00 to 6:30 AM, monks gather in the upper prayer hall for the first chanting session of the day."
+        }
+      ]
+    },
+    "LDK_HEM": {
+      "place": "ladakh/hemis-monastery",
+      "topic": "Hours and entry",
+      "claimType": "price",
+      "claim": "Hemis is generally open about 8 am–1 pm and 2–6 pm; entry to the monastery and museum is ₹50.",
+      "evidence": [
+        {
+          "source": "TC_HEM",
+          "quote": "Generally open from around 8 AM to 1 PM and 2 PM to 6 PM daily, with a lunch break closure."
+        },
+        {
+          "source": "TC_HEM",
+          "quote": "Entry to the monastery complex and museum costs ₹50 per person."
         }
       ]
     }
@@ -2463,171 +2545,379 @@
       "place": "ladakh",
       "slug": "ladakh-7-days-leh-nubra-pangong",
       "title": "Ladakh in 7 days: Leh, Nubra and Pangong",
+      "summary": "Two days acclimatising in Leh, the Indus monasteries, over Khardung La to Nubra's dunes and Turtuk, then the Shyok road to Pangong Tso and back to Leh over Chang La.",
       "durationDays": 7,
       "tripTypes": [
         "adventure",
         "spiritual",
         "nature"
       ],
-      "summary": "Two easy days acclimatising in Leh, the Indus monasteries, two nights in Nubra over Khardung La, then Pangong over Chang La.",
-      "seoTitle": "Ladakh 7-Day Itinerary: Leh, Nubra & Pangong",
-      "seoDescription": "Seven days in Ladakh: acclimatise in Leh, Thiksey and Hemis, Khardung La to Diskit and Hunder, then Pangong Tso — with permits and altitude tips.",
+      "seoTitle": "Ladakh 7-Day Itinerary: Leh, Nubra, Turtuk & Pangong (Shyok Road)",
+      "seoDescription": "A 7-day Ladakh loop that respects acclimatisation: Leh, Thiksey and Hemis, Khardung La to Nubra and Turtuk, the Shyok road to Pangong (162 km) and back.",
       "facts": [
         "LA3",
+        "LA4",
+        "LA5",
+        "LA6",
+        "LA8",
+        "LA9",
+        "LH1",
+        "LH2",
         "LHP1",
+        "LHP2",
         "LHS1",
         "LHT1",
+        "LDK_THK",
         "LHH1",
+        "LDK_HEM",
         "NB1",
+        "NB2",
         "NBK1",
         "NBD1",
+        "NBD2",
         "NBH1",
+        "NBT1",
+        "LDK_NBPG",
         "PG1",
+        "PG2",
         "PG3",
-        "LA5"
+        "LDK_LHPG",
+        "TM2",
+        "LA_112"
       ],
-      "sources": [],
       "plan": {
-        "overview": "Built around the official advice: at least 48 hours in Leh before going higher.",
+        "overview": "A loop that puts altitude first. Days 1–2 stay in Leh (about 3,500 m) to acclimatise for the mandatory 48 hours, with the palace and Shanti Stupa at an easy pace. Day 3 visits Thiksey at dawn prayers and Hemis. Day 4 crosses Khardung La (about 5,359 m) to Diskit and the Hunder dunes, about 110 km and five hours; Day 5 is the Balti village of Turtuk. Day 6 takes the Agham–Shyok road straight to Pangong Tso (about 162 km, 5–6 hours) — no backtracking to Leh. Day 7 is sunrise at the lake and the drive back over Chang La (160–170 km, 5–6 hours).",
+        "style": "High-altitude road trip with acclimatisation built in",
         "start": "Leh airport",
-        "end": "Leh airport",
-        "transport": "Taxi or self-drive; permits via the Leh portal.",
-        "season": "February to October; best roads in summer.",
-        "days": [
-          {
-            "title": "Day 1: Arrive and rest",
-            "summary": "Land in Leh and rest — no exertion on the first day.",
-            "stops": [
-              {
-                "name": "Leh",
-                "time": "Afternoon",
-                "placeSlug": "ladakh/leh",
-                "duration": "Rest"
-              }
-            ],
-            "overnight": "Leh"
-          },
-          {
-            "title": "Day 2: Easy Leh",
-            "summary": "Gentle walks: Leh Palace, then Shanti Stupa at sunset.",
-            "stops": [
-              {
-                "name": "Leh Palace",
-                "time": "Morning",
-                "placeSlug": "ladakh/leh-palace",
-                "duration": "1.5 hours"
-              },
-              {
-                "name": "Shanti Stupa",
-                "time": "Sunset",
-                "placeSlug": "ladakh/shanti-stupa",
-                "duration": "1 hour"
-              }
-            ],
-            "overnight": "Leh"
-          },
-          {
-            "title": "Day 3: Indus monasteries",
-            "summary": "Thiksey in the morning, Hemis in the afternoon.",
-            "stops": [
-              {
-                "name": "Thiksey Monastery",
-                "time": "Morning",
-                "placeSlug": "ladakh/thiksey-monastery",
-                "duration": "2 hours"
-              },
-              {
-                "name": "Hemis Monastery",
-                "time": "Afternoon",
-                "placeSlug": "ladakh/hemis-monastery",
-                "duration": "2 hours"
-              }
-            ],
-            "overnight": "Leh"
-          },
-          {
-            "title": "Day 4: Over Khardung La to Nubra",
-            "summary": "Cross Khardung La to Diskit; Hunder's dunes in the evening.",
-            "stops": [
-              {
-                "name": "Khardung La",
-                "time": "Morning",
-                "placeSlug": "ladakh/khardung-la",
-                "duration": "30 minutes"
-              },
-              {
-                "name": "Diskit Monastery",
-                "time": "Afternoon",
-                "placeSlug": "ladakh/diskit-monastery",
-                "duration": "1 hour"
-              },
-              {
-                "name": "Hunder Sand Dunes",
-                "time": "Evening",
-                "placeSlug": "ladakh/hunder-sand-dunes",
-                "duration": "1.5 hours"
-              }
-            ],
-            "overnight": "Hunder",
-            "travel": "Leh to Diskit about 110 km, five hours."
-          },
-          {
-            "title": "Day 5: Turtuk",
-            "summary": "A day trip to the Balti village of Turtuk and its apricot orchards.",
-            "stops": [
-              {
-                "name": "Turtuk",
-                "time": "Day",
-                "placeSlug": "ladakh/turtuk",
-                "duration": "5 hours"
-              }
-            ],
-            "overnight": "Hunder"
-          },
-          {
-            "title": "Day 6: To Pangong",
-            "summary": "Drive to Pangong Tso; evening by the lake.",
-            "stops": [
-              {
-                "name": "Pangong Tso",
-                "time": "Afternoon",
-                "placeSlug": "ladakh/pangong-tso",
-                "duration": "3 hours"
-              }
-            ],
-            "overnight": "Pangong",
-            "travel": "Long drive; check road conditions."
-          },
-          {
-            "title": "Day 7: Back over Chang La",
-            "summary": "Sunrise at the lake, then back to Leh over Chang La.",
-            "stops": [
-              {
-                "name": "Pangong Tso",
-                "time": "Sunrise",
-                "placeSlug": "ladakh/pangong-tso",
-                "duration": "1 hour"
-              }
-            ],
-            "overnight": "Leh"
-          }
-        ],
+        "end": "Leh (fly out on Day 8)",
+        "season": "May to September is the main season (Leh is reachable Feb–Oct); winters from late November to early March are severe and Pangong freezes.",
+        "difficulty": "Demanding — high passes and long drives at altitude",
+        "transport": "Taxi or SUV with a Ladakh-registered driver from Day 3; there are no scheduled buses to Pangong.",
         "budget": {
-          "assumptions": "VacayOut lists only fees it could check with an official source; hotels, transport and meals are not estimated. Check current prices before you book.",
-          "lines": []
+          "assumptions": "Taxi hire from Leh, camps at Hunder and Pangong and hotels vary by season and aren't estimated.",
+          "lines": [
+            {
+              "label": "Hemis Monastery",
+              "amount": "₹50",
+              "basis": "Reported entry fee"
+            },
+            {
+              "label": "Tourist environment fee",
+              "amount": "Not estimated",
+              "basis": "Pay online on the Leh permit portal"
+            },
+            {
+              "label": "Taxi, camps",
+              "amount": "Not estimated",
+              "basis": "Agree the full loop in advance"
+            }
+          ]
         },
         "booking": [
           {
-            "item": "Permits and fees",
-            "detail": "Pay the tourist fee on the Leh permit portal; foreigners need a Protected Area Permit."
+            "item": "Environment fee and permits",
+            "detail": "Pay the tourist fee (environment, Red Cross and wildlife) online on the Leh permit portal; beware of fake fee slips. Foreign nationals also need a Protected Area Permit for Nubra."
+          },
+          {
+            "item": "Taxi",
+            "detail": "Book one vehicle for Days 3–7 (Leh → Nubra → Turtuk → Pangong → Leh)."
+          },
+          {
+            "item": "Camps",
+            "detail": "Book camps at Hunder and Pangong in advance for June–September."
           }
         ],
         "alternatives": [
-          "Swap Turtuk for Tso Moriri on a longer trip."
+          "Less driving? Skip Turtuk and spend Day 5 at Hunder and Diskit.",
+          "Unwell at altitude? Don't cross Khardung La — rest in Leh and see the monasteries instead."
         ],
         "tips": [
-          "Drink 2–3 litres of water a day.",
-          "See a doctor at once if you feel severe altitude symptoms."
+          "Don't go higher than Leh in your first 48 hours — no Khardung La, no Pangong.",
+          "Carry warm layers: nights at Pangong are cold even in summer.",
+          "Monasteries are active places of worship; dress modestly and keep quiet in prayer halls."
+        ],
+        "prep": [
+          {
+            "title": "Altitude",
+            "body": "Leh is about 3,500 m. Spend at least 48 hours there before going higher — flying or driving in doesn't acclimatise you. Drink 2–3 litres of water a day and avoid alcohol; HAPE and HACE can be fatal, so see a doctor at once if symptoms appear."
+          },
+          {
+            "title": "Phones and cash",
+            "body": "Mobile coverage fades beyond Leh; carry cash for camps and village stops."
+          }
+        ],
+        "faqs": [
+          {
+            "q": "Can I go to Pangong the day after I land?",
+            "a": "No. Every visitor should spend at least 48 hours in Leh before going higher; road travel doesn't acclimatise you."
+          },
+          {
+            "q": "Can I go from Nubra straight to Pangong?",
+            "a": "Yes — the Agham–Shyok road from Diskit is about 162 km and now takes about 5–6 hours."
+          }
+        ],
+        "days": [
+          {
+            "title": "Arrive and rest",
+            "summary": "Do nothing strenuous: the first 48 hours are for acclimatising.",
+            "stops": [
+              {
+                "time": "Morning",
+                "name": "Arrive at Leh airport",
+                "duration": "1 hour",
+                "placeSlug": "leh",
+                "note": "At 3,256 m, India's highest commercial airport."
+              },
+              {
+                "time": "Afternoon",
+                "name": "Rest at the hotel",
+                "duration": "Rest of the day",
+                "placeSlug": "leh",
+                "note": "Headaches and breathlessness are common at first; drink water, no alcohol."
+              }
+            ],
+            "travel": "Airport → hotel in Leh, a short drive.",
+            "distanceKm": 5,
+            "distance": "About 5 km (estimate)",
+            "driveTime": "About 15 minutes (estimate)",
+            "transport": "Taxi",
+            "meals": "Light meals; try thukpa.",
+            "overnight": "Leh"
+          },
+          {
+            "title": "Leh town",
+            "summary": "The palace, the old town and the stupa at sunset — at an easy pace.",
+            "stops": [
+              {
+                "time": "9:30 am",
+                "name": "Leh Palace",
+                "duration": "1.5 hours",
+                "placeSlug": "leh-palace",
+                "note": "Nine storeys, built in the 1630s; carry a torch for the dark, uneven floors."
+              },
+              {
+                "time": "11:30 am",
+                "name": "Old town and Main Bazaar",
+                "duration": "1.5 hours",
+                "placeSlug": "leh",
+                "note": "Stupas and mud-brick houses below the palace ridge."
+              },
+              {
+                "time": "1 pm",
+                "name": "Lunch and rest",
+                "duration": "3 hours"
+              },
+              {
+                "time": "5:30 pm",
+                "name": "Shanti Stupa",
+                "duration": "1.5 hours",
+                "placeSlug": "shanti-stupa",
+                "note": "500 steps (or drive up); open 5 am–9 pm."
+              }
+            ],
+            "travel": "All within Leh; drive up to the Shanti Stupa if the steps feel hard.",
+            "distanceKm": 8,
+            "distance": "About 8 km (estimate)",
+            "driveTime": "Short drives",
+            "transport": "Walking and taxi",
+            "meals": "Momos and thukpa in the Main Bazaar.",
+            "overnight": "Leh"
+          },
+          {
+            "title": "Indus monasteries: Thiksey and Hemis",
+            "summary": "Dawn prayers at Thiksey, then the richest monastery of central Ladakh.",
+            "stops": [
+              {
+                "time": "5:45 am",
+                "name": "Thiksey Monastery morning prayers",
+                "duration": "2 hours",
+                "placeSlug": "thiksey-monastery",
+                "note": "19 km east of Leh; prayers around 6–6:30 am. The Maitreya temple."
+              },
+              {
+                "time": "8:30 am",
+                "name": "Breakfast",
+                "duration": "1 hour"
+              },
+              {
+                "time": "10:30 am",
+                "name": "Hemis Monastery",
+                "duration": "2 hours",
+                "placeSlug": "hemis-monastery",
+                "note": "45 km from Leh; open about 8 am–1 pm and 2–6 pm, ₹50."
+              },
+              {
+                "time": "1 pm",
+                "name": "Lunch",
+                "duration": "1 hour"
+              },
+              {
+                "time": "3 pm",
+                "name": "Back to Leh and rest",
+                "duration": "2 hours",
+                "placeSlug": "leh"
+              }
+            ],
+            "travel": "Leh → Thiksey 19 km → Hemis (45 km from Leh) → Leh.",
+            "distanceKm": 95,
+            "distance": "About 95 km (estimate)",
+            "driveTime": "About 3 hours in total (estimate)",
+            "transport": "Taxi",
+            "meals": "Breakfast near Thiksey; lunch near Hemis.",
+            "overnight": "Leh"
+          },
+          {
+            "title": "Over Khardung La to Nubra",
+            "summary": "One of the world's highest motorable roads, then Diskit and the Hunder dunes.",
+            "stops": [
+              {
+                "time": "7:30 am",
+                "name": "Drive to Khardung La",
+                "duration": "2 hours",
+                "placeSlug": "khardung-la",
+                "note": "About 40 km north of Leh, at about 5,359 m. Short stop only."
+              },
+              {
+                "time": "10 am",
+                "name": "Descend to Nubra",
+                "duration": "2.5 hours",
+                "placeSlug": "nubra-valley"
+              },
+              {
+                "time": "1 pm",
+                "name": "Lunch",
+                "duration": "1 hour"
+              },
+              {
+                "time": "2:30 pm",
+                "name": "Diskit Monastery",
+                "duration": "1.5 hours",
+                "placeSlug": "diskit-monastery",
+                "note": "Nubra's oldest and largest, with a giant Maitreya Buddha; open 7 am–1 pm and 2–7 pm."
+              },
+              {
+                "time": "5 pm",
+                "name": "Hunder sand dunes",
+                "duration": "1.5 hours",
+                "placeSlug": "hunder-sand-dunes",
+                "note": "About 10 km from Diskit; Bactrian camels."
+              }
+            ],
+            "travel": "Leh → Khardung La about 40 km → Diskit (about 110 km from Leh, about 5 hours) → Hunder 10 km.",
+            "distanceKm": 120,
+            "distance": "About 120 km",
+            "driveTime": "About 5 hours plus stops",
+            "transport": "Taxi/SUV",
+            "meals": "Lunch in Diskit; dinner at your Hunder camp.",
+            "overnight": "Hunder (Nubra)"
+          },
+          {
+            "title": "Turtuk",
+            "summary": "A Balti village on the Shyok, under Pakistani control until 1971.",
+            "stops": [
+              {
+                "time": "8 am",
+                "name": "Drive to Turtuk",
+                "duration": "Morning",
+                "placeSlug": "turtuk",
+                "note": "About 90 km beyond Diskit along the Shyok."
+              },
+              {
+                "time": "11:30 am",
+                "name": "Walk Turtuk village",
+                "duration": "2.5 hours",
+                "placeSlug": "turtuk",
+                "note": "A Balti village famous for its apricot orchards."
+              },
+              {
+                "time": "2 pm",
+                "name": "Lunch",
+                "duration": "1 hour"
+              },
+              {
+                "time": "3 pm",
+                "name": "Drive back to Hunder",
+                "duration": "Afternoon",
+                "placeSlug": "hunder-sand-dunes"
+              }
+            ],
+            "travel": "Turtuk is about 90 km beyond Diskit along the Shyok; Hunder is about 10 km from Diskit.",
+            "distanceKm": 180,
+            "distance": "About 180 km round trip (estimate)",
+            "driveTime": "A full day on the road; no verified drive time",
+            "transport": "Taxi/SUV",
+            "meals": "Balti food in Turtuk.",
+            "overnight": "Hunder (Nubra)"
+          },
+          {
+            "title": "Nubra to Pangong by the Shyok road",
+            "summary": "Straight to the lake without backtracking to Leh.",
+            "stops": [
+              {
+                "time": "7 am",
+                "name": "Drive Diskit → Pangong via Agham and Shyok",
+                "duration": "5–6 hours",
+                "placeSlug": "pangong-tso",
+                "note": "About 162 km via Agham, Shyok, Durbuk and Tangtse."
+              },
+              {
+                "time": "1:30 pm",
+                "name": "Lunch and check in",
+                "duration": "1.5 hours"
+              },
+              {
+                "time": "4 pm",
+                "name": "Pangong Tso shore",
+                "duration": "Evening",
+                "placeSlug": "pangong-tso",
+                "note": "At about 4,300 m; the lake runs 134 km into Tibet."
+              }
+            ],
+            "travel": "Diskit → Spangmik about 162 km via Agham–Shyok (about 5–6 hours).",
+            "distanceKm": 162,
+            "distance": "About 162 km",
+            "driveTime": "About 5–6 hours",
+            "transport": "Taxi/SUV",
+            "meals": "Dinner at your lakeside camp.",
+            "overnight": "Pangong (Spangmik camp)"
+          },
+          {
+            "title": "Pangong sunrise and back over Chang La",
+            "summary": "Dawn at the lake, then the high pass back to Leh.",
+            "stops": [
+              {
+                "time": "Sunrise",
+                "name": "Pangong Tso",
+                "duration": "1.5 hours",
+                "placeSlug": "pangong-tso"
+              },
+              {
+                "time": "8 am",
+                "name": "Breakfast and check out",
+                "duration": "1 hour"
+              },
+              {
+                "time": "9 am",
+                "name": "Drive to Leh over Chang La",
+                "duration": "5–6 hours",
+                "placeSlug": "leh",
+                "note": "Chang La is about 5,360 m; short stop only."
+              },
+              {
+                "time": "3:30 pm",
+                "name": "Rest in Leh",
+                "duration": "Evening",
+                "placeSlug": "leh"
+              }
+            ],
+            "travel": "Pangong → Leh about 160–170 km via Chang La (5–6 hours).",
+            "distanceKm": 165,
+            "distance": "About 165 km",
+            "driveTime": "About 5–6 hours",
+            "transport": "Taxi/SUV",
+            "meals": "Packed lunch for the road; dinner in Leh.",
+            "overnight": "Leh"
+          }
         ]
       }
     },
@@ -2635,124 +2925,250 @@
       "place": "ladakh/leh",
       "slug": "leh-4-days-monasteries",
       "title": "Leh in 4 days: palace, monasteries and the Indus valley",
+      "summary": "A day to acclimatise, Leh Palace and the Shanti Stupa, Thiksey's dawn prayers and Hemis to the east, then Gurudwara Pathar Sahib, Magnetic Hill and Alchi's 12th-century murals to the west.",
       "durationDays": 4,
       "tripTypes": [
         "spiritual",
         "heritage"
       ],
-      "summary": "A gentle Leh-based trip: two days to acclimatise, then the great monasteries up and down the Indus.",
-      "seoTitle": "Leh 4-Day Itinerary: Monasteries & Palace",
-      "seoDescription": "Four days around Leh: acclimatise, Leh Palace and Shanti Stupa, Thiksey and Hemis, then Alchi, Magnetic Hill and Pathar Sahib.",
+      "seoTitle": "Leh 4-Day Itinerary: Palace, Thiksey, Hemis and Alchi",
+      "seoDescription": "Four easy days in Leh that respect acclimatisation: Leh Palace and Shanti Stupa, Thiksey's dawn prayers and Hemis, then Pathar Sahib, Magnetic Hill and Alchi.",
       "facts": [
         "LA3",
+        "LA4",
+        "LA5",
+        "LA6",
+        "LA8",
+        "LA9",
+        "LH1",
+        "LH2",
+        "LH3",
         "LHP1",
+        "LHP2",
         "LHS1",
         "LHT1",
+        "LDK_THK",
         "LHH1",
-        "LHA1",
+        "LHH2",
+        "LDK_HEM",
+        "LHK1",
+        "LHG1",
         "LHM1",
-        "LHG1"
+        "LHA1"
       ],
-      "sources": [],
       "plan": {
-        "overview": "No high passes — ideal for a first visit or a short break.",
+        "overview": "Leh's monasteries without the high passes — a good first visit or a short trip. Day 1 is rest, as everyone needs at least 48 hours to acclimatise. Day 2 is Leh Palace, the old town and the Shanti Stupa at sunset. Day 3 goes east along the Indus to Thiksey for dawn prayers and to Hemis, the richest monastery of central Ladakh. Day 4 goes west: Gurudwara Pathar Sahib, Magnetic Hill (30 km from Leh) and the 12th–13th-century murals of Alchi.",
+        "style": "Culture-focused, easy pace",
         "start": "Leh airport",
-        "end": "Leh airport",
-        "transport": "Taxi.",
-        "season": "February to October.",
-        "days": [
-          {
-            "title": "Day 1: Arrive and rest",
-            "summary": "Rest on arrival.",
-            "stops": [
-              {
-                "name": "Leh",
-                "time": "Afternoon",
-                "placeSlug": "ladakh/leh",
-                "duration": "Rest"
-              }
-            ],
-            "overnight": "Leh"
-          },
-          {
-            "title": "Day 2: Leh town",
-            "summary": "Leh Palace and Shanti Stupa.",
-            "stops": [
-              {
-                "name": "Leh Palace",
-                "time": "Morning",
-                "placeSlug": "ladakh/leh-palace",
-                "duration": "1.5 hours"
-              },
-              {
-                "name": "Shanti Stupa",
-                "time": "Sunset",
-                "placeSlug": "ladakh/shanti-stupa",
-                "duration": "1 hour"
-              }
-            ],
-            "overnight": "Leh"
-          },
-          {
-            "title": "Day 3: East along the Indus",
-            "summary": "Thiksey and Hemis.",
-            "stops": [
-              {
-                "name": "Thiksey Monastery",
-                "time": "Morning",
-                "placeSlug": "ladakh/thiksey-monastery",
-                "duration": "2 hours"
-              },
-              {
-                "name": "Hemis Monastery",
-                "time": "Afternoon",
-                "placeSlug": "ladakh/hemis-monastery",
-                "duration": "2 hours"
-              }
-            ],
-            "overnight": "Leh"
-          },
-          {
-            "title": "Day 4: West along the Indus",
-            "summary": "Pathar Sahib, Magnetic Hill and Alchi.",
-            "stops": [
-              {
-                "name": "Gurudwara Pathar Sahib",
-                "time": "Morning",
-                "placeSlug": "ladakh/gurudwara-pathar-sahib",
-                "duration": "45 minutes"
-              },
-              {
-                "name": "Magnetic Hill",
-                "time": "Morning",
-                "placeSlug": "ladakh/magnetic-hill",
-                "duration": "30 minutes"
-              },
-              {
-                "name": "Alchi Monastery",
-                "time": "Afternoon",
-                "placeSlug": "ladakh/alchi-monastery",
-                "duration": "2 hours"
-              }
-            ],
-            "overnight": "Leh"
-          }
-        ],
+        "end": "Leh",
+        "season": "May to September is the main season (Leh is reachable Feb–Oct); winters from late November to early March are severe and Pangong freezes. Hemis festival is in June/July; dates follow the Tibetan calendar.",
+        "difficulty": "Easy to moderate — altitude, not distance",
+        "transport": "Taxi from Leh for Days 3 and 4.",
         "budget": {
-          "assumptions": "VacayOut lists only fees it could check with an official source; hotels, transport and meals are not estimated. Check current prices before you book.",
-          "lines": []
+          "assumptions": "Monastery fees are small and change; taxis and hotels vary by season.",
+          "lines": [
+            {
+              "label": "Hemis Monastery",
+              "amount": "₹50",
+              "basis": "Reported entry fee"
+            },
+            {
+              "label": "Tourist environment fee",
+              "amount": "Not estimated",
+              "basis": "Pay online on the Leh permit portal"
+            }
+          ]
         },
         "booking": [
           {
-            "item": "Festival dates",
-            "detail": "Hemis festival is in June; book early."
+            "item": "Environment fee and permits",
+            "detail": "Pay the tourist fee (environment, Red Cross and wildlife) online on the Leh permit portal; beware of fake fee slips. Foreign nationals also need a Protected Area Permit for Nubra."
+          },
+          {
+            "item": "Taxi",
+            "detail": "Book a taxi for the Day 3 eastern loop (start before dawn) and the Day 4 western loop."
           }
         ],
         "alternatives": [
-          "Add Nubra for two more days."
+          "Feeling well by Day 4? Add Khardung La and Nubra instead — see the seven-day Ladakh plan.",
+          "Visiting in June/July? Time Day 3 for the Hemis festival."
         ],
         "tips": [
-          "Take the first day slowly."
+          "Take it easy for the first two days; avoid alcohol.",
+          "Carry a torch for Leh Palace's dark floors.",
+          "Monasteries are active places of worship; keep quiet in prayer halls."
+        ],
+        "prep": [
+          {
+            "title": "Altitude",
+            "body": "Leh is about 3,500 m. Spend at least 48 hours there before going higher — flying or driving in doesn't acclimatise you. Drink 2–3 litres of water a day and avoid alcohol; HAPE and HACE can be fatal, so see a doctor at once if symptoms appear."
+          }
+        ],
+        "faqs": [
+          {
+            "q": "When are Thiksey's morning prayers?",
+            "a": "Monks gather around 6–6:30 am; visitors can attend. Leave Leh by about 5:30 am."
+          },
+          {
+            "q": "How far is Hemis from Leh?",
+            "a": "About 45 km."
+          }
+        ],
+        "days": [
+          {
+            "title": "Arrive and rest",
+            "summary": "Do nothing strenuous: the first 48 hours are for acclimatising.",
+            "stops": [
+              {
+                "time": "Morning",
+                "name": "Arrive at Leh airport",
+                "duration": "1 hour",
+                "placeSlug": "leh",
+                "note": "At 3,256 m, India's highest commercial airport."
+              },
+              {
+                "time": "Afternoon",
+                "name": "Rest at the hotel",
+                "duration": "Rest of the day",
+                "placeSlug": "leh",
+                "note": "Headaches and breathlessness are common at first; drink water, no alcohol."
+              }
+            ],
+            "travel": "Airport → hotel in Leh, a short drive.",
+            "distanceKm": 5,
+            "distance": "About 5 km (estimate)",
+            "driveTime": "About 15 minutes (estimate)",
+            "transport": "Taxi",
+            "meals": "Light meals; try thukpa.",
+            "overnight": "Leh"
+          },
+          {
+            "title": "Leh town",
+            "summary": "The palace, the old town and the stupa at sunset — at an easy pace.",
+            "stops": [
+              {
+                "time": "9:30 am",
+                "name": "Leh Palace",
+                "duration": "1.5 hours",
+                "placeSlug": "leh-palace",
+                "note": "Nine storeys, built in the 1630s; carry a torch for the dark, uneven floors."
+              },
+              {
+                "time": "11:30 am",
+                "name": "Old town and Main Bazaar",
+                "duration": "1.5 hours",
+                "placeSlug": "leh",
+                "note": "Stupas and mud-brick houses below the palace ridge."
+              },
+              {
+                "time": "1 pm",
+                "name": "Lunch and rest",
+                "duration": "3 hours"
+              },
+              {
+                "time": "5:30 pm",
+                "name": "Shanti Stupa",
+                "duration": "1.5 hours",
+                "placeSlug": "shanti-stupa",
+                "note": "500 steps (or drive up); open 5 am–9 pm."
+              }
+            ],
+            "travel": "All within Leh; drive up to the Shanti Stupa if the steps feel hard.",
+            "distanceKm": 8,
+            "distance": "About 8 km (estimate)",
+            "driveTime": "Short drives",
+            "transport": "Walking and taxi",
+            "meals": "Momos and thukpa in the Main Bazaar.",
+            "overnight": "Leh"
+          },
+          {
+            "title": "Indus monasteries: Thiksey and Hemis",
+            "summary": "Dawn prayers at Thiksey, then the richest monastery of central Ladakh.",
+            "stops": [
+              {
+                "time": "5:45 am",
+                "name": "Thiksey Monastery morning prayers",
+                "duration": "2 hours",
+                "placeSlug": "thiksey-monastery",
+                "note": "19 km east of Leh; prayers around 6–6:30 am. The Maitreya temple."
+              },
+              {
+                "time": "8:30 am",
+                "name": "Breakfast",
+                "duration": "1 hour"
+              },
+              {
+                "time": "10:30 am",
+                "name": "Hemis Monastery",
+                "duration": "2 hours",
+                "placeSlug": "hemis-monastery",
+                "note": "45 km from Leh; open about 8 am–1 pm and 2–6 pm, ₹50."
+              },
+              {
+                "time": "1 pm",
+                "name": "Lunch",
+                "duration": "1 hour"
+              },
+              {
+                "time": "3 pm",
+                "name": "Back to Leh and rest",
+                "duration": "2 hours",
+                "placeSlug": "leh"
+              }
+            ],
+            "travel": "Leh → Thiksey 19 km → Hemis (45 km from Leh) → Leh.",
+            "distanceKm": 95,
+            "distance": "About 95 km (estimate)",
+            "driveTime": "About 3 hours in total (estimate)",
+            "transport": "Taxi",
+            "meals": "Breakfast near Thiksey; lunch near Hemis.",
+            "overnight": "Leh"
+          },
+          {
+            "title": "West along the Indus: Pathar Sahib, Magnetic Hill and Alchi",
+            "summary": "A gurdwara, an optical illusion and the oldest murals in Ladakh.",
+            "stops": [
+              {
+                "time": "9 am",
+                "name": "Gurudwara Pathar Sahib",
+                "duration": "45 minutes",
+                "placeSlug": "gurudwara-pathar-sahib",
+                "note": "On the Leh–Nimu road; open 6 am–7 pm."
+              },
+              {
+                "time": "10 am",
+                "name": "Magnetic Hill",
+                "duration": "20 minutes",
+                "placeSlug": "magnetic-hill",
+                "note": "About 30 km from Leh."
+              },
+              {
+                "time": "12 pm",
+                "name": "Alchi Monastery",
+                "duration": "2 hours",
+                "placeSlug": "alchi-monastery",
+                "note": "Early 12th-century, with remarkably preserved murals."
+              },
+              {
+                "time": "2:15 pm",
+                "name": "Lunch in Alchi",
+                "duration": "1 hour"
+              },
+              {
+                "time": "3:30 pm",
+                "name": "Drive back to Leh",
+                "duration": "2 hours",
+                "placeSlug": "leh"
+              }
+            ],
+            "travel": "Leh → Pathar Sahib → Magnetic Hill (about 30 km) → Alchi → Leh.",
+            "distanceKm": 140,
+            "distance": "About 140 km round trip (estimate)",
+            "driveTime": "About 4 hours in total (estimate)",
+            "transport": "Taxi",
+            "meals": "Lunch in Alchi.",
+            "overnight": "Leh"
+          }
         ]
       }
     }

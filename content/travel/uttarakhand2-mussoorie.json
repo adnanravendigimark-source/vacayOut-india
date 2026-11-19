@@ -1,1086 +1,1211 @@
 {
- "cluster": "uttarakhand2-mussoorie",
- "title": "Mussoorie",
- "researchedAt": "2026-11-18",
- "selection": "Batch 1. Mussoorie had 4 sections and no attractions or itineraries. All facts come from the Uttarakhand Tourism Mussoorie page (government). Its railhead distance (Dehradun 68 km) looks wrong (the town is closer), so only 'nearest railhead is Dehradun' is quoted. Not covered: Gun Hill cable car fares and hours (no official source found).",
- "sources": {
-  "UT_MUS": {
-   "url": "https://uttarakhandtourism.gov.in/destination/mussoorie",
-   "title": "Mussoorie — Uttarakhand Tourism Development Board",
-   "authority": "government"
-  }
- },
- "facts": {
-  "MS1": {
-   "place": "uttarakhand/mussoorie",
-   "topic": "Queen of the Hills",
-   "claim": "Mussoorie, the 'Queen of the Hills', lies along a 15 km horseshoe ridge at about 2,000 m with Himalayan views.",
-   "claimType": "general",
-   "kind": "verified",
-   "evidence": [
-    {
-     "source": "UT_MUS",
-     "quote": "Located on a 15-km-long horseshoe ridge with the grand Himalayas as a backdrop, Mussoorie spreads across at a height of 2,000 m above sea level."
+  "cluster": "uttarakhand2-mussoorie",
+  "title": "Mussoorie",
+  "researchedAt": "2026-11-18",
+  "selection": "Batch 1. Mussoorie had 4 sections and no attractions or itineraries. All facts come from the Uttarakhand Tourism Mussoorie page (government). Its railhead distance (Dehradun 68 km) looks wrong (the town is closer), so only 'nearest railhead is Dehradun' is quoted. Not covered: Gun Hill cable car fares and hours (no official source found).",
+  "sources": {
+    "UT_MUS": {
+      "url": "https://uttarakhandtourism.gov.in/destination/mussoorie",
+      "title": "Mussoorie — Uttarakhand Tourism Development Board",
+      "authority": "government"
+    },
+    "TRV_DDMS": {
+      "url": "https://www.trivenicabs.in/distance/dehradun-to-mussoorie",
+      "title": "Dehradun to Mussoorie distance guide — Triveni Cabs",
+      "authority": "travel_platform"
+    },
+    "TT_GHR": {
+      "url": "https://traveltriangle.com/uttarakhand-tourism/mussoorie/things-to-do/cable-car-ride/timings",
+      "title": "Mussoorie cable car timings — TravelTriangle",
+      "authority": "travel_platform"
     }
-   ]
   },
-  "MS2": {
-   "place": "uttarakhand/mussoorie",
-   "topic": "Founding",
-   "claim": "Mussoorie dates from 1827, when Captain Frederick Young and F.J. Shore climbed up from the Doon valley.",
-   "claimType": "general",
-   "kind": "verified",
-   "evidence": [
-    {
-     "source": "UT_MUS",
-     "quote": "A Britisher, Captain Frederick Young, accompanied by an official named FJ Shore, had climbed up the hill from the Doon valley in 1827"
+  "facts": {
+    "MS1": {
+      "place": "uttarakhand/mussoorie",
+      "topic": "Queen of the Hills",
+      "claim": "Mussoorie, the 'Queen of the Hills', lies along a 15 km horseshoe ridge at about 2,000 m with Himalayan views.",
+      "claimType": "general",
+      "kind": "verified",
+      "evidence": [
+        {
+          "source": "UT_MUS",
+          "quote": "Located on a 15-km-long horseshoe ridge with the grand Himalayas as a backdrop, Mussoorie spreads across at a height of 2,000 m above sea level."
+        }
+      ]
+    },
+    "MS2": {
+      "place": "uttarakhand/mussoorie",
+      "topic": "Founding",
+      "claim": "Mussoorie dates from 1827, when Captain Frederick Young and F.J. Shore climbed up from the Doon valley.",
+      "claimType": "general",
+      "kind": "verified",
+      "evidence": [
+        {
+          "source": "UT_MUS",
+          "quote": "A Britisher, Captain Frederick Young, accompanied by an official named FJ Shore, had climbed up the hill from the Doon valley in 1827"
+        }
+      ]
+    },
+    "MS3": {
+      "place": "uttarakhand/mussoorie",
+      "topic": "Famous residents",
+      "claim": "Authors Ruskin Bond and Bill Aitken have made Mussoorie their home.",
+      "claimType": "general",
+      "kind": "verified",
+      "evidence": [
+        {
+          "source": "UT_MUS",
+          "quote": "Many famous personalities have made Mussoorie their home – most notable being authors Ruskin Bond and Bill Aitken."
+        }
+      ]
+    },
+    "MS4": {
+      "place": "uttarakhand/mussoorie",
+      "topic": "Best time",
+      "claim": "Summer is the best time to visit; come in winter for snowfall and seclusion.",
+      "claimType": "general",
+      "kind": "seasonal",
+      "evidence": [
+        {
+          "source": "UT_MUS",
+          "quote": "The best time to visit Mussoorie is during summers, as it offers respite from the scorching summer heat. However, if you are looking for a secluded holiday, come here during winters to witness the snowfall."
+        }
+      ]
+    },
+    "MS5": {
+      "place": "uttarakhand/mussoorie",
+      "topic": "Winterline",
+      "claim": "The 'winterline' false horizon at sunset is visible from mid-October to mid-January.",
+      "claimType": "general",
+      "kind": "seasonal",
+      "evidence": [
+        {
+          "source": "UT_MUS",
+          "quote": "This grey and mauve coloured strip appears like a false horizon and is referred to as the ‘winterline.’ Visible from mid-October to mid-January tourists especially flock to the hill station to witness the winterline."
+        }
+      ]
+    },
+    "MS6": {
+      "place": "uttarakhand/mussoorie",
+      "topic": "Airport",
+      "claim": "Jolly Grant airport at Dehradun is the nearest airport (82 km), with taxis.",
+      "claimType": "distance",
+      "kind": "verified",
+      "evidence": [
+        {
+          "source": "UT_MUS",
+          "quote": "The nearest airport is Jolly Grant at Dehradun (82 km). Taxis are available from the airport."
+        }
+      ]
+    },
+    "MS7": {
+      "place": "uttarakhand/mussoorie",
+      "topic": "Railhead",
+      "claim": "Dehradun is the nearest railway station.",
+      "claimType": "general",
+      "kind": "verified",
+      "evidence": [
+        {
+          "source": "UT_MUS",
+          "quote": "The nearest railhead is Dehradun"
+        }
+      ]
+    },
+    "MS8": {
+      "place": "uttarakhand/mall-road-mussoorie",
+      "topic": "Mall Road",
+      "claim": "The Mall is the main shopping street, linking Kulri Bazaar and Library Chowk.",
+      "claimType": "general",
+      "kind": "verified",
+      "evidence": [
+        {
+          "source": "UT_MUS",
+          "quote": "It is the main shopping area in Mussoorie. Located in the heart of the town, Mall Road connects the two bazaars, Kulri bazaar and Library Chowk."
+        }
+      ]
+    },
+    "MS9": {
+      "place": "uttarakhand/gun-hill",
+      "topic": "Gun Hill",
+      "claim": "Gun Hill, the highest point on the Mall, is reached by cable car; a gun fired at noon from 1865 gave it its name.",
+      "claimType": "general",
+      "kind": "verified",
+      "evidence": [
+        {
+          "source": "UT_MUS",
+          "quote": "This is the highest point on the Mall road, you need to take a cable car ride to reach the summit of Gun Hill."
+        },
+        {
+          "source": "UT_MUS",
+          "quote": "A gun was installed atop this hill by the British in 1865, which used to be fired daily at noon to indicate the time"
+        }
+      ]
+    },
+    "MS10": {
+      "place": "uttarakhand/camels-back-road",
+      "topic": "Camel's Back Road",
+      "claim": "Camel's Back Road is a walking road with Himalayan sunset views and a rock shaped like a sitting camel.",
+      "claimType": "general",
+      "kind": "verified",
+      "evidence": [
+        {
+          "source": "UT_MUS",
+          "quote": "It is suitable for walking and offers beautiful sunset views of the Himalayas. A superb rock formation, with a life-like resemblance to a sitting camel, can be seen from this spot."
+        }
+      ]
+    },
+    "MS11": {
+      "place": "uttarakhand/lal-tibba",
+      "topic": "Lal Tibba",
+      "claim": "Lal Tibba (2,438 m) is Mussoorie's highest hill, with snow-peak views best at sunrise.",
+      "claimType": "general",
+      "kind": "verified",
+      "evidence": [
+        {
+          "source": "UT_MUS",
+          "quote": "Situated at an altitude of 2,438 m above sea level, Lal Tibba is the highest hill in Mussoorie. The view to the north and the snow-capped peaks is stunning and best at sunrise."
+        }
+      ]
+    },
+    "MS12": {
+      "place": "uttarakhand/landour",
+      "topic": "Landour",
+      "claim": "Landour, the old British cantonment at the east end of town, is named after a Welsh village and has a popular bazaar.",
+      "claimType": "general",
+      "kind": "verified",
+      "evidence": [
+        {
+          "source": "UT_MUS",
+          "quote": "Situated at the east end of town, Landour is a British-era cantonment named after Llanddowror, a remote village in southwest Wales."
+        },
+        {
+          "source": "UT_MUS",
+          "quote": "The Landour Bazaar is a very popular shopping area."
+        }
+      ]
+    },
+    "MS13": {
+      "place": "uttarakhand/landour",
+      "topic": "Landour houses",
+      "claim": "Many Landour houses are named after Walter Scott novels, such as Kenilworth, Ivanhoe and Woodstock.",
+      "claimType": "general",
+      "kind": "verified",
+      "evidence": [
+        {
+          "source": "UT_MUS",
+          "quote": "many houses in Landour are inspired by Scottish author Sir Walter Scott’s novels, with names such as Kenilworth, Ivanhoe, Waverly and Woodstock (now a famous school)."
+        }
+      ]
+    },
+    "MS14": {
+      "place": "uttarakhand/kempty-falls",
+      "topic": "Kempty Falls",
+      "claim": "Kempty Falls is about 15 km away on the Yamunotri road.",
+      "claimType": "distance",
+      "kind": "verified",
+      "evidence": [
+        {
+          "source": "UT_MUS",
+          "quote": "Located about 15 km on the Yamunotri road, Kempty Falls is a popular and picturesque waterfall, located in the beautiful valley surrounded by high mountains."
+        }
+      ]
+    },
+    "MS15": {
+      "place": "uttarakhand/george-everest-house",
+      "topic": "George Everest House",
+      "claim": "At Park Estate, 6 km from Gandhi Chowk, are the remains of the house and laboratory of Sir George Everest, Surveyor-General 1830–1843.",
+      "claimType": "distance",
+      "kind": "verified",
+      "evidence": [
+        {
+          "source": "UT_MUS",
+          "quote": "At Park Estate are the remains of the building and laboratory of Sir George Everest, the Surveyor-General of India from 1830 to 1843."
+        },
+        {
+          "source": "UT_MUS",
+          "quote": "It is 6 km from Gandhi Chowk and a scenic walk from Library Bazaar, although accessible by road transport to at least Haathi Paon."
+        }
+      ]
+    },
+    "MS16": {
+      "place": "uttarakhand/george-everest-house",
+      "topic": "Everest House views",
+      "claim": "The site overlooks the Doon valley on one side and the Aglar valley and Himalayan peaks on the other; it is being developed as a museum.",
+      "claimType": "general",
+      "kind": "verified",
+      "evidence": [
+        {
+          "source": "UT_MUS",
+          "quote": "The place provides a view of Doon Valley on one side and a panoramic view of the Aglar River valley and the peaks of the Himalayan ranges on the other. The tourism department is developing this house as a museum."
+        }
+      ]
+    },
+    "MS17": {
+      "place": "uttarakhand/surkanda-devi-temple",
+      "topic": "Surkanda Devi",
+      "claim": "Surkanda Devi temple, one of the Shakti Peeths, is reached by a 2 km trek from Kaddukhal.",
+      "claimType": "distance",
+      "kind": "verified",
+      "evidence": [
+        {
+          "source": "UT_MUS",
+          "quote": "Surkanda Devi Temple can be reached after a 2 km trek from the village Kaddukhal."
+        },
+        {
+          "source": "UT_MUS",
+          "quote": "The temple is one of the most popular Shakti Peeths of India."
+        }
+      ]
+    },
+    "MS18": {
+      "place": "uttarakhand/mussoorie",
+      "topic": "Christ Church",
+      "claim": "Christ Church (1836) is among the oldest British churches in the Himalaya.",
+      "claimType": "general",
+      "kind": "verified",
+      "evidence": [
+        {
+          "source": "UT_MUS",
+          "quote": "Built in 1836, it is considered to be among the oldest churches in the Himalayan ranges built by Britishers."
+        }
+      ]
+    },
+    "MS19": {
+      "place": "uttarakhand/mussoorie",
+      "topic": "Company Bagh",
+      "claim": "The Municipal Gardens (Company Bagh) have flower beds and an amusement park.",
+      "claimType": "general",
+      "kind": "verified",
+      "evidence": [
+        {
+          "source": "UT_MUS",
+          "quote": "Known as Botanical gardens of Mussoorie in pre-Independence era, the Municipal Gardens or the Company Bagh has a variety of beautiful flowers and an amusement park too."
+        }
+      ]
+    },
+    "MS20": {
+      "place": "uttarakhand/mussoorie",
+      "topic": "Waterfalls near town",
+      "claim": "Bhatta Falls (8 km, Dehradun road) has bathing pools; Jharipani Falls (9 km) needs a 1.5 km walk.",
+      "claimType": "distance",
+      "kind": "verified",
+      "evidence": [
+        {
+          "source": "UT_MUS",
+          "quote": "Located about 8 km from Mussoorie on Mussoorie-Dehradun road, it has different ponds for bathing."
+        },
+        {
+          "source": "UT_MUS",
+          "quote": "Located about 9 km from Mussoorie, you need to cover the last 1.5 km on foot to reach Jharipani Falls."
+        }
+      ]
+    },
+    "MS21": {
+      "place": "uttarakhand/mussoorie",
+      "topic": "Mussoorie Lake",
+      "claim": "Mussoorie Lake, an artificial lake 6 km out on the Dehradun road, has paddle boats and Doon valley views.",
+      "claimType": "distance",
+      "kind": "verified",
+      "evidence": [
+        {
+          "source": "UT_MUS",
+          "quote": "The artificial lake developed recently about 6 km on the way from Mussoorie, on Dehradun road watch ducks swimming, ride a paddle boat and enjoy amazing views of Doon Valley."
+        }
+      ]
+    },
+    "MS22": {
+      "place": "uttarakhand/mussoorie",
+      "topic": "Adventure",
+      "claim": "Mussoorie Adventure Park offers zip-lining and rock climbing; the Hathipaon trail goes through forest.",
+      "claimType": "general",
+      "kind": "verified",
+      "evidence": [
+        {
+          "source": "UT_MUS",
+          "quote": "Visit Mussoorie Adventure Park to try hands at some of the best adventures like zip-lining, rock climbing etc."
+        },
+        {
+          "source": "UT_MUS",
+          "quote": "The Hathipaon trail will take you through the forest as you come across a variety of flora and fauna."
+        }
+      ]
+    },
+    "MS23": {
+      "place": "uttarakhand/mussoorie",
+      "topic": "Angling",
+      "claim": "Catch-and-release trout angling needs prior permission from forest officials.",
+      "claimType": "rule",
+      "kind": "verified",
+      "evidence": [
+        {
+          "source": "UT_MUS",
+          "quote": "Take prior permission from the forest officials before angling."
+        }
+      ]
+    },
+    "MUS_DD": {
+      "place": "uttarakhand/mussoorie",
+      "topic": "Road from Dehradun",
+      "claimType": "distance",
+      "kind": "estimate",
+      "claim": "Mussoorie is about 35 km from Dehradun by road, about 1–1.5 hours.",
+      "evidence": [
+        {
+          "source": "TRV_DDMS",
+          "quote": "The distance from Dehradun to Mussoorie is 35 km by road via Mussoorie Road, and the drive takes about 1-1.5 hours."
+        }
+      ]
+    },
+    "MUS_GH": {
+      "place": "uttarakhand/gun-hill",
+      "topic": "Cable car hours",
+      "claimType": "opening_hours",
+      "claim": "The Gun Hill cable car runs 10 am–6 pm; the ride up takes about 5 minutes.",
+      "evidence": [
+        {
+          "source": "TT_GHR",
+          "quote": "The timings for cable car ride are 10:00 am to 06:00 pm."
+        },
+        {
+          "source": "TT_GHR",
+          "quote": "It takes 5 minutes in a ropeway to reach Gun Hill"
+        }
+      ]
     }
-   ]
   },
-  "MS3": {
-   "place": "uttarakhand/mussoorie",
-   "topic": "Famous residents",
-   "claim": "Authors Ruskin Bond and Bill Aitken have made Mussoorie their home.",
-   "claimType": "general",
-   "kind": "verified",
-   "evidence": [
+  "places": [
     {
-     "source": "UT_MUS",
-     "quote": "Many famous personalities have made Mussoorie their home – most notable being authors Ruskin Bond and Bill Aitken."
-    }
-   ]
-  },
-  "MS4": {
-   "place": "uttarakhand/mussoorie",
-   "topic": "Best time",
-   "claim": "Summer is the best time to visit; come in winter for snowfall and seclusion.",
-   "claimType": "general",
-   "kind": "seasonal",
-   "evidence": [
-    {
-     "source": "UT_MUS",
-     "quote": "The best time to visit Mussoorie is during summers, as it offers respite from the scorching summer heat. However, if you are looking for a secluded holiday, come here during winters to witness the snowfall."
-    }
-   ]
-  },
-  "MS5": {
-   "place": "uttarakhand/mussoorie",
-   "topic": "Winterline",
-   "claim": "The 'winterline' false horizon at sunset is visible from mid-October to mid-January.",
-   "claimType": "general",
-   "kind": "seasonal",
-   "evidence": [
-    {
-     "source": "UT_MUS",
-     "quote": "This grey and mauve coloured strip appears like a false horizon and is referred to as the ‘winterline.’ Visible from mid-October to mid-January tourists especially flock to the hill station to witness the winterline."
-    }
-   ]
-  },
-  "MS6": {
-   "place": "uttarakhand/mussoorie",
-   "topic": "Airport",
-   "claim": "Jolly Grant airport at Dehradun is the nearest airport (82 km), with taxis.",
-   "claimType": "distance",
-   "kind": "verified",
-   "evidence": [
-    {
-     "source": "UT_MUS",
-     "quote": "The nearest airport is Jolly Grant at Dehradun (82 km). Taxis are available from the airport."
-    }
-   ]
-  },
-  "MS7": {
-   "place": "uttarakhand/mussoorie",
-   "topic": "Railhead",
-   "claim": "Dehradun is the nearest railway station.",
-   "claimType": "general",
-   "kind": "verified",
-   "evidence": [
-    {
-     "source": "UT_MUS",
-     "quote": "The nearest railhead is Dehradun"
-    }
-   ]
-  },
-  "MS8": {
-   "place": "uttarakhand/mall-road-mussoorie",
-   "topic": "Mall Road",
-   "claim": "The Mall is the main shopping street, linking Kulri Bazaar and Library Chowk.",
-   "claimType": "general",
-   "kind": "verified",
-   "evidence": [
-    {
-     "source": "UT_MUS",
-     "quote": "It is the main shopping area in Mussoorie. Located in the heart of the town, Mall Road connects the two bazaars, Kulri bazaar and Library Chowk."
-    }
-   ]
-  },
-  "MS9": {
-   "place": "uttarakhand/gun-hill",
-   "topic": "Gun Hill",
-   "claim": "Gun Hill, the highest point on the Mall, is reached by cable car; a gun fired at noon from 1865 gave it its name.",
-   "claimType": "general",
-   "kind": "verified",
-   "evidence": [
-    {
-     "source": "UT_MUS",
-     "quote": "This is the highest point on the Mall road, you need to take a cable car ride to reach the summit of Gun Hill."
-    },
-    {
-     "source": "UT_MUS",
-     "quote": "A gun was installed atop this hill by the British in 1865, which used to be fired daily at noon to indicate the time"
-    }
-   ]
-  },
-  "MS10": {
-   "place": "uttarakhand/camels-back-road",
-   "topic": "Camel's Back Road",
-   "claim": "Camel's Back Road is a walking road with Himalayan sunset views and a rock shaped like a sitting camel.",
-   "claimType": "general",
-   "kind": "verified",
-   "evidence": [
-    {
-     "source": "UT_MUS",
-     "quote": "It is suitable for walking and offers beautiful sunset views of the Himalayas. A superb rock formation, with a life-like resemblance to a sitting camel, can be seen from this spot."
-    }
-   ]
-  },
-  "MS11": {
-   "place": "uttarakhand/lal-tibba",
-   "topic": "Lal Tibba",
-   "claim": "Lal Tibba (2,438 m) is Mussoorie's highest hill, with snow-peak views best at sunrise.",
-   "claimType": "general",
-   "kind": "verified",
-   "evidence": [
-    {
-     "source": "UT_MUS",
-     "quote": "Situated at an altitude of 2,438 m above sea level, Lal Tibba is the highest hill in Mussoorie. The view to the north and the snow-capped peaks is stunning and best at sunrise."
-    }
-   ]
-  },
-  "MS12": {
-   "place": "uttarakhand/landour",
-   "topic": "Landour",
-   "claim": "Landour, the old British cantonment at the east end of town, is named after a Welsh village and has a popular bazaar.",
-   "claimType": "general",
-   "kind": "verified",
-   "evidence": [
-    {
-     "source": "UT_MUS",
-     "quote": "Situated at the east end of town, Landour is a British-era cantonment named after Llanddowror, a remote village in southwest Wales."
-    },
-    {
-     "source": "UT_MUS",
-     "quote": "The Landour Bazaar is a very popular shopping area."
-    }
-   ]
-  },
-  "MS13": {
-   "place": "uttarakhand/landour",
-   "topic": "Landour houses",
-   "claim": "Many Landour houses are named after Walter Scott novels, such as Kenilworth, Ivanhoe and Woodstock.",
-   "claimType": "general",
-   "kind": "verified",
-   "evidence": [
-    {
-     "source": "UT_MUS",
-     "quote": "many houses in Landour are inspired by Scottish author Sir Walter Scott’s novels, with names such as Kenilworth, Ivanhoe, Waverly and Woodstock (now a famous school)."
-    }
-   ]
-  },
-  "MS14": {
-   "place": "uttarakhand/kempty-falls",
-   "topic": "Kempty Falls",
-   "claim": "Kempty Falls is about 15 km away on the Yamunotri road.",
-   "claimType": "distance",
-   "kind": "verified",
-   "evidence": [
-    {
-     "source": "UT_MUS",
-     "quote": "Located about 15 km on the Yamunotri road, Kempty Falls is a popular and picturesque waterfall, located in the beautiful valley surrounded by high mountains."
-    }
-   ]
-  },
-  "MS15": {
-   "place": "uttarakhand/george-everest-house",
-   "topic": "George Everest House",
-   "claim": "At Park Estate, 6 km from Gandhi Chowk, are the remains of the house and laboratory of Sir George Everest, Surveyor-General 1830–1843.",
-   "claimType": "distance",
-   "kind": "verified",
-   "evidence": [
-    {
-     "source": "UT_MUS",
-     "quote": "At Park Estate are the remains of the building and laboratory of Sir George Everest, the Surveyor-General of India from 1830 to 1843."
-    },
-    {
-     "source": "UT_MUS",
-     "quote": "It is 6 km from Gandhi Chowk and a scenic walk from Library Bazaar, although accessible by road transport to at least Haathi Paon."
-    }
-   ]
-  },
-  "MS16": {
-   "place": "uttarakhand/george-everest-house",
-   "topic": "Everest House views",
-   "claim": "The site overlooks the Doon valley on one side and the Aglar valley and Himalayan peaks on the other; it is being developed as a museum.",
-   "claimType": "general",
-   "kind": "verified",
-   "evidence": [
-    {
-     "source": "UT_MUS",
-     "quote": "The place provides a view of Doon Valley on one side and a panoramic view of the Aglar River valley and the peaks of the Himalayan ranges on the other. The tourism department is developing this house as a museum."
-    }
-   ]
-  },
-  "MS17": {
-   "place": "uttarakhand/surkanda-devi-temple",
-   "topic": "Surkanda Devi",
-   "claim": "Surkanda Devi temple, one of the Shakti Peeths, is reached by a 2 km trek from Kaddukhal.",
-   "claimType": "distance",
-   "kind": "verified",
-   "evidence": [
-    {
-     "source": "UT_MUS",
-     "quote": "Surkanda Devi Temple can be reached after a 2 km trek from the village Kaddukhal."
-    },
-    {
-     "source": "UT_MUS",
-     "quote": "The temple is one of the most popular Shakti Peeths of India."
-    }
-   ]
-  },
-  "MS18": {
-   "place": "uttarakhand/mussoorie",
-   "topic": "Christ Church",
-   "claim": "Christ Church (1836) is among the oldest British churches in the Himalaya.",
-   "claimType": "general",
-   "kind": "verified",
-   "evidence": [
-    {
-     "source": "UT_MUS",
-     "quote": "Built in 1836, it is considered to be among the oldest churches in the Himalayan ranges built by Britishers."
-    }
-   ]
-  },
-  "MS19": {
-   "place": "uttarakhand/mussoorie",
-   "topic": "Company Bagh",
-   "claim": "The Municipal Gardens (Company Bagh) have flower beds and an amusement park.",
-   "claimType": "general",
-   "kind": "verified",
-   "evidence": [
-    {
-     "source": "UT_MUS",
-     "quote": "Known as Botanical gardens of Mussoorie in pre-Independence era, the Municipal Gardens or the Company Bagh has a variety of beautiful flowers and an amusement park too."
-    }
-   ]
-  },
-  "MS20": {
-   "place": "uttarakhand/mussoorie",
-   "topic": "Waterfalls near town",
-   "claim": "Bhatta Falls (8 km, Dehradun road) has bathing pools; Jharipani Falls (9 km) needs a 1.5 km walk.",
-   "claimType": "distance",
-   "kind": "verified",
-   "evidence": [
-    {
-     "source": "UT_MUS",
-     "quote": "Located about 8 km from Mussoorie on Mussoorie-Dehradun road, it has different ponds for bathing."
-    },
-    {
-     "source": "UT_MUS",
-     "quote": "Located about 9 km from Mussoorie, you need to cover the last 1.5 km on foot to reach Jharipani Falls."
-    }
-   ]
-  },
-  "MS21": {
-   "place": "uttarakhand/mussoorie",
-   "topic": "Mussoorie Lake",
-   "claim": "Mussoorie Lake, an artificial lake 6 km out on the Dehradun road, has paddle boats and Doon valley views.",
-   "claimType": "distance",
-   "kind": "verified",
-   "evidence": [
-    {
-     "source": "UT_MUS",
-     "quote": "The artificial lake developed recently about 6 km on the way from Mussoorie, on Dehradun road watch ducks swimming, ride a paddle boat and enjoy amazing views of Doon Valley."
-    }
-   ]
-  },
-  "MS22": {
-   "place": "uttarakhand/mussoorie",
-   "topic": "Adventure",
-   "claim": "Mussoorie Adventure Park offers zip-lining and rock climbing; the Hathipaon trail goes through forest.",
-   "claimType": "general",
-   "kind": "verified",
-   "evidence": [
-    {
-     "source": "UT_MUS",
-     "quote": "Visit Mussoorie Adventure Park to try hands at some of the best adventures like zip-lining, rock climbing etc."
-    },
-    {
-     "source": "UT_MUS",
-     "quote": "The Hathipaon trail will take you through the forest as you come across a variety of flora and fauna."
-    }
-   ]
-  },
-  "MS23": {
-   "place": "uttarakhand/mussoorie",
-   "topic": "Angling",
-   "claim": "Catch-and-release trout angling needs prior permission from forest officials.",
-   "claimType": "rule",
-   "kind": "verified",
-   "evidence": [
-    {
-     "source": "UT_MUS",
-     "quote": "Take prior permission from the forest officials before angling."
-    }
-   ]
-  }
- },
- "places": [
-  {
-   "key": "uttarakhand/mussoorie",
-   "kind": "town",
-   "name": "Mussoorie",
-   "parent": "uttarakhand",
-   "summary": "The 'Queen of the Hills' on a 2,000 m ridge above Dehradun: the Mall, Gun Hill, Landour, Camel's Back Road and Kempty Falls.",
-   "seoTitle": "Mussoorie Travel Guide: Mall Road, Landour & Gun Hill",
-   "seoDescription": "Plan a Mussoorie trip: the Mall and Gun Hill cable car, Landour, Camel's Back Road, Lal Tibba, Kempty Falls, the winterline and how to get there.",
-   "lat": 30.4598,
-   "lng": 78.0644,
-   "tripTypes": [
-    "mountains",
-    "romantic",
-    "weekend"
-   ],
-   "images": [
-    {
-     "commons": "File:Mussoorie Mountains 2.jpg",
-     "alt": "Scenic view of Mussoorie hill station along the Himalayan ridge",
-     "hero": true
-    }
-   ],
-   "relations": [
-    {
-     "to": "uttarakhand/dehradun",
-     "type": "nearby"
-    },
-    {
-     "to": "uttarakhand/dhanaulti",
-     "type": "day_trip"
-    },
-    {
-     "to": "uttarakhand/kempty-falls",
-     "type": "day_trip"
-    },
-    {
-     "to": "uttarakhand/surkanda-devi-temple",
-     "type": "day_trip"
-    }
-   ],
-   "sections": {
-    "overview": {
-     "text": "Mussoorie, the 'Queen of the Hills', is one of India's best-loved hill stations. It spreads along a 15 km horseshoe ridge at about 2,000 m, with the Garhwal Himalaya as a backdrop. It began in 1827, when Captain Frederick Young climbed up from the Doon valley and saw the ridge's views and climate. Writers Ruskin Bond and Bill Aitken have made it their home.\n\nThe Mall runs through the heart of town between Kulri Bazaar and Library Chowk, with a cable car up to Gun Hill. To the east, the old cantonment of Landour has a quieter, forested air and Lal Tibba, the highest hill. Camel's Back Road is the classic sunset walk.\n\nIt suits couples, families and anyone escaping the summer heat of the plains. Winter brings snow and, from mid-October to mid-January, the famous 'winterline' at sunset.",
-     "facts": [
-      "MS1",
-      "MS2",
-      "MS3",
-      "MS8",
-      "MS9",
-      "MS12",
-      "MS11",
-      "MS10",
-      "MS4",
-      "MS5"
-     ]
-    },
-    "best_time": {
-     "text": "Summer is the classic season, when Mussoorie gives relief from the heat of the plains. Come in winter for snowfall and a quieter, more secluded stay. From mid-October to mid-January, look west at sunset for the 'winterline', a grey-mauve false horizon above bands of yellow, red and orange. Mussoorie is one of the few places in the world where you can see it.",
-     "facts": [
-      "MS4",
-      "MS5"
-     ]
-    },
-    "local_transport": {
-     "text": "Central Mussoorie is best on foot: the Mall links Kulri Bazaar and Library Chowk, and Camel's Back Road loops off it. A cable car climbs from the Mall to Gun Hill. Landour is up the hill at the east end of town.\n\nFor Kempty Falls (15 km on the Yamunotri road), George Everest House (6 km from Gandhi Chowk), Mussoorie Lake, the waterfalls and Surkanda Devi, hire a taxi.",
-     "facts": [
-      "MS8",
-      "MS10",
-      "MS9",
-      "MS12",
-      "MS14",
-      "MS15",
-      "MS21",
-      "MS20",
-      "MS17"
-     ]
-    },
-    "neighbourhoods": {
-     "items": [
-      {
-       "title": "The Mall, Kulri and Library Chowk",
-       "body": "The town centre and main shopping street, with Gun Hill's cable car. Best for first visits.",
-       "status": "verified"
-      },
-      {
-       "title": "Landour",
-       "body": "The British-era cantonment at the east end: quieter lanes, Landour Bazaar and Lal Tibba's views.",
-       "status": "verified"
-      },
-      {
-       "title": "Camel's Back Road",
-       "body": "A walking road off the Mall, known for sunsets and its camel-shaped rock.",
-       "status": "verified"
-      },
-      {
-       "title": "Park Estate and Haathi Paon",
-       "body": "West of town: George Everest House, with Doon and Aglar valley views.",
-       "status": "verified"
-      }
-     ],
-     "facts": [
-      "MS8",
-      "MS9",
-      "MS12",
-      "MS11",
-      "MS10",
-      "MS15",
-      "MS16"
-     ]
-    },
-    "where_to_stay": {
-     "text": "Stay on or near the Mall for walking access to the shops, Gun Hill and Camel's Back Road. Choose Landour for quiet, forest walks and sunrise views from Lal Tibba. For winter snow or the winterline, pick a room facing west or north.",
-     "facts": [
-      "MS8",
-      "MS9",
-      "MS10",
-      "MS12",
-      "MS11",
-      "MS5"
-     ]
-    },
-    "who_its_for": {
-     "items": [
-      {
-       "title": "Couples and honeymooners",
-       "body": "Sunset walks on Camel's Back Road and the winterline in season."
-      },
-      {
-       "title": "Families",
-       "body": "The Gun Hill cable car, Company Bagh's amusement park and Kempty Falls."
-      },
-      {
-       "title": "Book lovers",
-       "body": "Ruskin Bond's Mussoorie and Landour's lanes."
-      },
-      {
-       "title": "Walkers",
-       "body": "The Hathipaon trail, the walk to George Everest House and the trek to Surkanda Devi."
-      }
-     ],
-     "facts": [
-      "MS10",
-      "MS5",
-      "MS9",
-      "MS19",
-      "MS14",
-      "MS3",
-      "MS12",
-      "MS22",
-      "MS15",
-      "MS17"
-     ]
-    },
-    "travel_tips": {
-     "items": [
-      {
-       "body": "Plan an October–January evening for the winterline."
-      },
-      {
-       "body": "Be at Lal Tibba at sunrise for the clearest snow-peak views."
-      },
-      {
-       "body": "Get trout-angling permission from the forest office beforehand."
-      },
-      {
-       "body": "Combine Surkanda Devi (a 2 km trek from Kaddukhal) with Dhanaulti."
-      }
-     ],
-     "facts": [
-      "MS5",
-      "MS11",
-      "MS23",
-      "MS17"
-     ]
-    },
-    "common_mistakes": {
-     "items": [
-      {
-       "body": "Spending the whole trip on the Mall. Landour and Camel's Back Road show a quieter Mussoorie."
-      },
-      {
-       "body": "Missing the winterline by visiting outside mid-October to mid-January."
-      },
-      {
-       "body": "Going angling without forest-office permission."
-      }
-     ],
-     "facts": [
-      "MS12",
-      "MS10",
-      "MS5",
-      "MS23"
-     ]
-    },
-    "faqs": {
-     "items": [
-      {
-       "title": "How do I reach Mussoorie?",
-       "body": "Fly to Jolly Grant airport at Dehradun (82 km) and take a taxi up, or take a train to Dehradun, the nearest railhead, and continue by road."
-      },
-      {
-       "title": "What is the winterline?",
-       "body": "A grey-mauve false horizon seen above the sunset from mid-October to mid-January. Mussoorie is one of the few places in the world where it is visible."
-      },
-      {
-       "title": "How far is Kempty Falls?",
-       "body": "About 15 km from Mussoorie on the Yamunotri road."
-      },
-      {
-       "title": "What is Mussoorie's highest point?",
-       "body": "Lal Tibba in Landour, at 2,438 m."
-      }
-     ],
-     "facts": [
-      "MS6",
-      "MS7",
-      "MS5",
-      "MS14",
-      "MS11"
-     ]
-    }
-   }
-  },
-  {
-   "key": "uttarakhand/gun-hill",
-   "kind": "viewpoint",
-   "name": "Gun Hill",
-   "parent": "uttarakhand/mussoorie",
-   "summary": "Mussoorie's highest point on the Mall, reached by cable car; named for a noon gun fired from 1865.",
-   "seoTitle": "Gun Hill Mussoorie: Cable Car & Views",
-   "seoDescription": "Ride the cable car from Mussoorie's Mall to Gun Hill, its highest point, named for the noon gun the British fired there from 1865.",
-   "lat": 30.459,
-   "lng": 78.075,
-   "tripTypes": [
-    "family",
-    "mountains"
-   ],
-   "images": [
-    {
-     "commons": "File:Gun hill, Mussoorie 06.JPG",
-     "alt": "Cable car line climbing the rocky slope to Gun Hill, Mussoorie",
-     "hero": true
-    }
-   ],
-   "sections": {
-    "overview": {
-     "text": "Gun Hill is the highest point on Mussoorie's Mall Road, and most visitors reach its summit by cable car. The ride is a thrill in itself, and the top gives sweeping views over the town, the Doon valley and the mountains.\n\nThe name comes from a gun the British installed on top in 1865. It was fired every day at noon so that residents could set their clocks. The cable car station is on the Mall, so the hill fits easily into an afternoon in town.",
-     "facts": [
-      "MS9",
-      "MS8"
-     ]
-    },
-    "how_to_reach": {
-     "text": "Take the cable car from the Mall Road to the summit.",
-     "facts": [
-      "MS9"
-     ]
-    },
-    "travel_tips": {
-     "items": [
-      {
-       "body": "Go on a clear afternoon for the best views, and avoid peak weekend queues for the cable car."
-      },
-      {
-       "body": "Keep an eye on children near the railings at the top."
-      },
-      {
-       "body": "Combine with the Mall and Camel's Back Road on the same walk."
-      }
-     ],
-     "facts": []
-    }
-   }
-  },
-  {
-   "key": "uttarakhand/camels-back-road",
-   "kind": "attraction",
-   "name": "Camel's Back Road",
-   "parent": "uttarakhand/mussoorie",
-   "summary": "Mussoorie's classic sunset walk, named for a rock shaped like a sitting camel.",
-   "seoTitle": "Camel's Back Road Mussoorie: Sunset Walk",
-   "seoDescription": "Walk Mussoorie's Camel's Back Road for Himalayan sunset views and the rock shaped like a sitting camel that gives the road its name.",
-   "lat": 30.463,
-   "lng": 78.07,
-   "tripTypes": [
-    "romantic",
-    "nature"
-   ],
-   "images": [
-    {
-     "commons": "File:The Camel of Camels Back Road (5281211643).jpg",
-     "alt": "The camel-shaped rock seen from Camel's Back Road, Mussoorie",
-     "hero": true
-    }
-   ],
-   "sections": {
-    "overview": {
-     "text": "Camel's Back Road loops off the Mall and is made for walking. Its views of the Himalaya at sunset are among the best in Mussoorie. The road takes its name from a rock formation that looks remarkably like a sitting camel, visible along the way.\n\nGo in the late afternoon and walk west for the sunset. Between mid-October and mid-January, stay for the 'winterline', the false horizon that glows above the sunset.",
-     "facts": [
-      "MS10",
-      "MS8",
-      "MS5"
-     ]
-    },
-    "travel_tips": {
-     "items": [
-      {
-       "body": "Time your walk for sunset."
-      },
-      {
-       "body": "In mid-October–mid-January, watch for the winterline after sunset."
-      },
-      {
-       "body": "Start about an hour before sunset so you can walk at an easy pace."
-      },
-      {
-       "body": "Carry a light jacket: it cools quickly once the sun goes down."
-      },
-      {
-       "body": "The road is level and suits families and older walkers."
-      }
-     ],
-     "facts": [
-      "MS10",
-      "MS5"
-     ]
-    }
-   }
-  },
-  {
-   "key": "uttarakhand/lal-tibba",
-   "kind": "viewpoint",
-   "name": "Lal Tibba",
-   "parent": "uttarakhand/mussoorie",
-   "summary": "Mussoorie's highest hill (2,438 m) in Landour, with snow-peak views best at sunrise.",
-   "seoTitle": "Lal Tibba Mussoorie: Sunrise Himalayan Views",
-   "seoDescription": "Lal Tibba in Landour is Mussoorie's highest hill at 2,438 m, with views of the snow peaks to the north that are best at sunrise.",
-   "lat": 30.457,
-   "lng": 78.096,
-   "tripTypes": [
-    "mountains"
-   ],
-   "images": [
-    {
-     "commons": "File:Mussoorie Uttarakhand India (183712303).jpeg",
-     "alt": "Forested ridges and distant peaks seen from the heights above Mussoorie",
-     "hero": true
-    }
-   ],
-   "sections": {
-    "overview": {
-     "text": "Lal Tibba, at 2,438 m, is the highest hill in Mussoorie. It lies in Landour, the old cantonment at the east end of town. The view north to the snow-capped Himalayan peaks is stunning, and it is at its best at sunrise, when the air is clearest.\n\nCombine a dawn visit with a walk through Landour's quiet lanes and breakfast near Landour Bazaar.",
-     "facts": [
-      "MS11",
-      "MS12"
-     ]
-    },
-    "how_to_reach": {
-     "text": "Lal Tibba is up in Landour, at the east end of town. Walk or take a taxi up from the Mall.",
-     "facts": [
-      "MS12",
-      "MS11"
-     ]
-    },
-    "travel_tips": {
-     "items": [
-      {
-       "body": "Set out before dawn and carry a torch for the walk up through Landour."
-      },
-      {
-       "body": "Bring warm layers; mornings are cold even in summer."
-      },
-      {
-       "body": "Clear winter mornings usually give the sharpest views of the peaks."
-      },
-      {
-       "body": "Combine sunrise here with a slow walk back down through Landour Bazaar."
-      }
-     ],
-     "facts": []
-    }
-   }
-  },
-  {
-   "key": "uttarakhand/landour",
-   "kind": "town",
-   "name": "Landour",
-   "parent": "uttarakhand/mussoorie",
-   "summary": "Mussoorie's quiet British-era cantonment, named after a Welsh village, with Landour Bazaar and Lal Tibba.",
-   "seoTitle": "Landour, Mussoorie: Old Cantonment & Bazaar",
-   "seoDescription": "Landour is Mussoorie's quiet British-era cantonment, named after a Welsh village, with Walter Scott-named houses, Landour Bazaar and Lal Tibba.",
-   "lat": 30.456,
-   "lng": 78.093,
-   "tripTypes": [
-    "heritage",
-    "romantic"
-   ],
-   "images": [
-    {
-     "commons": "File:Bandarpunch from Landour (5283927315).jpg",
-     "alt": "Snow-covered Bandarpunch range seen from Landour, Mussoorie",
-     "hero": true
-    }
-   ],
-   "sections": {
-    "overview": {
-     "text": "Landour is the British-era cantonment at the east end of Mussoorie, named after Llanddowror, a remote village in south-west Wales. Its links to Britain run deep. Many houses are named after Walter Scott's novels, such as Kenilworth, Ivanhoe, Waverley and Woodstock, now a famous school. Several Indian royal families also lived here before Independence.\n\nIt feels quieter and greener than the Mall. Landour Bazaar is a popular shopping street, and Lal Tibba, Mussoorie's highest hill, has the best sunrise views of the snow peaks.",
-     "facts": [
-      "MS12",
-      "MS13",
-      "MS11"
-     ]
-    },
-    "travel_tips": {
-     "items": [
-      {
-       "body": "Walk up early for sunrise at Lal Tibba."
-      },
-      {
-       "body": "Browse Landour Bazaar on the way down."
-      },
-      {
-       "body": "Walk rather than drive: Landour's lanes are narrow and best explored on foot."
-      },
-      {
-       "body": "Respect private homes and the cantonment area, and don't photograph where signs ask you not to."
-      }
-     ],
-     "facts": [
-      "MS11",
-      "MS12"
-     ]
-    }
-   }
-  },
-  {
-   "key": "uttarakhand/kempty-falls",
-   "kind": "nature",
-   "name": "Kempty Falls",
-   "parent": "uttarakhand/mussoorie",
-   "summary": "Popular waterfall 15 km from Mussoorie on the Yamunotri road.",
-   "seoTitle": "Kempty Falls from Mussoorie: Distance & Tips",
-   "seoDescription": "Kempty Falls is a popular waterfall about 15 km from Mussoorie on the Yamunotri road, in a valley surrounded by high mountains.",
-   "lat": 30.484,
-   "lng": 78.03,
-   "tripTypes": [
-    "family",
-    "nature"
-   ],
-   "images": [
-    {
-     "commons": "File:Kempty Falls at Lakhwad, Kempty 02.jpg",
-     "alt": "Kempty Falls cascading into pools in a green valley near Mussoorie",
-     "hero": true
-    }
-   ],
-   "sections": {
-    "overview": {
-     "text": "Kempty Falls is the best known of the waterfalls around Mussoorie. It lies about 15 km out on the Yamunotri road, in a valley ringed by high mountains, where the falls tumble into pools that many visitors wade in.\n\nIt is busy, especially on summer weekends, so go early. Closer to town, Bhatta Falls (8 km, on the Dehradun road) has bathing pools, and Jharipani Falls (9 km) needs a 1.5 km walk at the end.",
-     "facts": [
-      "MS14",
-      "MS20"
-     ]
-    },
-    "how_to_reach": {
-     "text": "Drive or take a taxi 15 km from Mussoorie along the Yamunotri road.",
-     "facts": [
-      "MS14"
-     ]
-    },
-    "travel_tips": {
-     "items": [
-      {
-       "body": "Arrive early, before tour buses, especially on summer weekends."
-      },
-      {
-       "body": "Take care on wet rocks and in the pools, and keep children close."
-      },
-      {
-       "body": "Carry a change of clothes if you plan to wade."
-      }
-     ],
-     "facts": []
-    }
-   }
-  },
-  {
-   "key": "uttarakhand/george-everest-house",
-   "kind": "attraction",
-   "name": "George Everest House",
-   "parent": "uttarakhand/mussoorie",
-   "summary": "Remains of Sir George Everest's house and laboratory at Park Estate, with Doon and Aglar valley views.",
-   "seoTitle": "George Everest House Mussoorie: History & Views",
-   "seoDescription": "Visit George Everest House at Park Estate, 6 km from Mussoorie's Gandhi Chowk: the old home of the Surveyor-General after whom Mt Everest is named.",
-   "lat": 30.45,
-   "lng": 78.015,
-   "tripTypes": [
-    "heritage",
-    "nature"
-   ],
-   "images": [
-    {
-     "commons": "File:Everest House 2.jpg",
-     "alt": "Whitewashed George Everest House on its hilltop at Park Estate",
-     "hero": true
-    }
-   ],
-   "sections": {
-    "overview": {
-     "text": "At Park Estate are the remains of the house and laboratory of Sir George Everest, Surveyor-General of India from 1830 to 1843. The world's highest peak is named after him. The hilltop site looks over the Doon valley on one side and the Aglar river valley and the Himalayan peaks on the other.\n\nUttarakhand's tourism department is developing the house as a museum. It is 6 km from Gandhi Chowk: a scenic walk from Library Bazaar, or by road to at least Haathi Paon.",
-     "facts": [
-      "MS15",
-      "MS16"
-     ]
-    },
-    "how_to_reach": {
-     "text": "Walk 6 km from Gandhi Chowk via Library Bazaar, or drive to Haathi Paon and walk the rest.",
-     "facts": [
-      "MS15"
-     ]
-    },
-    "travel_tips": {
-     "items": [
-      {
-       "body": "Go on a clear day; the views over the Doon and Aglar valleys are the main reward."
-      },
-      {
-       "body": "Wear walking shoes if you plan to walk from Library Bazaar."
-      },
-      {
-       "body": "Carry water, as facilities on the hilltop are limited."
-      }
-     ],
-     "facts": []
-    }
-   }
-  },
-  {
-   "key": "uttarakhand/surkanda-devi-temple",
-   "kind": "temple",
-   "name": "Surkanda Devi Temple",
-   "parent": "uttarakhand/mussoorie",
-   "summary": "Hilltop Shakti Peeth reached by a 2 km trek from Kaddukhal, beyond Dhanaulti.",
-   "seoTitle": "Surkanda Devi Temple: Trek from Kaddukhal",
-   "seoDescription": "Surkanda Devi, one of India's best-known Shakti Peeths, is reached by a 2 km trek from Kaddukhal near Dhanaulti, with sweeping mountain views.",
-   "lat": 30.411,
-   "lng": 78.288,
-   "tripTypes": [
-    "spiritual",
-    "mountains"
-   ],
-   "images": [
-    {
-     "commons": "File:Surkanda devi (2).JPG",
-     "alt": "Ridges and valleys seen from the hilltop at Surkanda Devi",
-     "hero": true
-    }
-   ],
-   "sections": {
-    "overview": {
-     "text": "Surkanda Devi temple sits on a hilltop reached by a 2 km trek from the village of Kaddukhal. It is a trekker's favourite for its mesmerising views. Local legend says Sati's head fell here, which makes it one of the 51 Shakti Peeths and one of the most popular in India.\n\nKaddukhal is on the road beyond Dhanaulti, so it pairs well with a day out to Dhanaulti from Mussoorie.",
-     "facts": [
-      "MS17"
-     ]
-    },
-    "how_to_reach": {
-     "text": "Drive to Kaddukhal, beyond Dhanaulti, then trek 2 km up to the temple.",
-     "facts": [
-      "MS17"
-     ]
-    },
-    "travel_tips": {
-     "items": [
-      {
-       "body": "Start the trek from Kaddukhal early to beat the crowds and the midday sun."
-      },
-      {
-       "body": "Wear good shoes and carry water; the path is steep in places."
-      },
-      {
-       "body": "Dress modestly for the temple and remove shoes at the entrance."
-      }
-     ],
-     "facts": []
-    }
-   }
-  },
-  {
-   "key": "uttarakhand/mall-road-mussoorie",
-   "kind": "attraction",
-   "name": "Mall Road, Mussoorie",
-   "parent": "uttarakhand/mussoorie",
-   "summary": "Mussoorie's main shopping street between Kulri Bazaar and Library Chowk.",
-   "seoTitle": "Mall Road Mussoorie: Shopping & Walks",
-   "seoDescription": "Mussoorie's Mall Road links Kulri Bazaar and Library Chowk, with shops for winterwear and souvenirs and the cable car up to Gun Hill.",
-   "lat": 30.457,
-   "lng": 78.075,
-   "tripTypes": [
-    "family"
-   ],
-   "images": [
-    {
-     "commons": "File:Mussoorie view from Mall road 07.JPG",
-     "alt": "Houses and the hillside above Mussoorie's Mall Road",
-     "hero": true
-    }
-   ],
-   "sections": {
-    "overview": {
-     "text": "The Mall is Mussoorie's main shopping street, in the heart of town. It links the two bazaars of Kulri and Library Chowk, with shops selling everything from winterwear and toys to gifts and souvenirs.\n\nThe cable car to Gun Hill starts from the Mall, and Camel's Back Road loops off it, so it is the natural starting point for any walk in town. Christ Church (1836), one of the oldest British churches in the Himalaya, and the Company Bagh gardens are close by.",
-     "facts": [
-      "MS8",
-      "MS9",
-      "MS10",
-      "MS18",
-      "MS19"
-     ]
-    },
-    "shopping": {
-     "items": [
-      {
-       "body": "Winterwear, toys, gifts and souvenirs along the Mall.",
-       "status": "verified"
-      },
-      {
-       "body": "Landour Bazaar, up the hill, for a quieter browse.",
-       "status": "verified"
-      }
-     ],
-     "facts": [
-      "MS8",
-      "MS12"
-     ]
-    },
-    "travel_tips": {
-     "items": [
-      {
-       "body": "Evenings are liveliest; weekday afternoons are quieter for shopping."
-      },
-      {
-       "body": "Plan to walk the Mall rather than drive; it is the easiest way to link the bazaars, Gun Hill and Camel's Back Road."
-      }
-     ],
-     "facts": []
-    }
-   }
-  }
- ],
- "itineraries": [
-  {
-   "place": "uttarakhand/mussoorie",
-   "slug": "mussoorie-2-days",
-   "title": "Mussoorie in 2 days",
-   "summary": "The Mall, Gun Hill and Camel's Back Road on day one; Landour's sunrise, Kempty Falls and George Everest House on day two.",
-   "durationDays": 2,
-   "tripTypes": [
-    "mountains",
-    "romantic",
-    "weekend"
-   ],
-   "seoTitle": "2-Day Mussoorie Itinerary: Mall, Landour & Kempty Falls",
-   "seoDescription": "A two-day Mussoorie plan: the Mall and Gun Hill cable car, sunset on Camel's Back Road, sunrise at Lal Tibba in Landour, Kempty Falls and George Everest House.",
-   "facts": [
-    "MS8",
-    "MS9",
-    "MS10",
-    "MS5",
-    "MS11",
-    "MS12",
-    "MS14",
-    "MS15"
-   ],
-   "plan": {
-    "overview": "Day 1 on foot in town, day 2 with a taxi. In mid-October to mid-January, keep day 1's evening free for the winterline.",
-    "start": "Mussoorie (from Dehradun)",
-    "end": "Mussoorie",
-    "transport": "On foot and cable car; taxi on day 2",
-    "difficulty": "Easy",
-    "days": [
-     {
-      "title": "The Mall, Gun Hill and sunset",
-      "stops": [
-       {
-        "time": "Afternoon",
-        "name": "Mall Road",
-        "placeSlug": "mall-road-mussoorie",
-        "duration": "2 hours"
-       },
-       {
-        "time": "Late afternoon",
-        "name": "Gun Hill by cable car",
-        "placeSlug": "gun-hill",
-        "duration": "1 hour"
-       },
-       {
-        "time": "Sunset",
-        "name": "Camel's Back Road",
-        "placeSlug": "camels-back-road",
-        "duration": "1.5 hours",
-        "note": "Mid-October–mid-January: watch for the winterline."
-       }
+      "key": "uttarakhand/mussoorie",
+      "kind": "town",
+      "name": "Mussoorie",
+      "parent": "uttarakhand",
+      "summary": "The 'Queen of the Hills' on a 2,000 m ridge above Dehradun: the Mall, Gun Hill, Landour, Camel's Back Road and Kempty Falls.",
+      "seoTitle": "Mussoorie Travel Guide: Mall Road, Landour & Gun Hill",
+      "seoDescription": "Plan a Mussoorie trip: the Mall and Gun Hill cable car, Landour, Camel's Back Road, Lal Tibba, Kempty Falls, the winterline and how to get there.",
+      "lat": 30.4598,
+      "lng": 78.0644,
+      "tripTypes": [
+        "mountains",
+        "romantic",
+        "weekend"
       ],
-      "overnight": "Mussoorie"
-     },
-     {
-      "title": "Landour, Kempty and Everest House",
-      "stops": [
-       {
-        "time": "Sunrise",
-        "name": "Lal Tibba, Landour",
-        "placeSlug": "lal-tibba",
-        "duration": "1.5 hours"
-       },
-       {
-        "time": "Morning",
-        "name": "Kempty Falls",
-        "placeSlug": "kempty-falls",
-        "duration": "2 hours",
-        "note": "15 km on the Yamunotri road; early beats the crowds."
-       },
-       {
-        "time": "Afternoon",
-        "name": "George Everest House",
-        "placeSlug": "george-everest-house",
-        "duration": "2 hours"
-       }
+      "images": [
+        {
+          "commons": "File:Mussoorie Mountains 2.jpg",
+          "alt": "Scenic view of Mussoorie hill station along the Himalayan ridge",
+          "hero": true
+        }
       ],
-      "overnight": "Mussoorie"
-     }
-    ],
-    "alternatives": [
-     "Add a third day for Dhanaulti and the Surkanda Devi trek (2 km from Kaddukhal)."
-    ],
-    "booking": [
-     {
-      "item": "Weekends",
-      "detail": "Book rooms early; Mussoorie fills up on summer weekends."
-     }
-    ],
-    "budget": {
-     "assumptions": "VacayOut has no verified current prices for Mussoorie hotels, transport or activities. Budget for your own choices and confirm fees with operators on the spot.",
-     "lines": []
+      "relations": [
+        {
+          "to": "uttarakhand/dehradun",
+          "type": "nearby"
+        },
+        {
+          "to": "uttarakhand/dhanaulti",
+          "type": "day_trip"
+        },
+        {
+          "to": "uttarakhand/kempty-falls",
+          "type": "day_trip"
+        },
+        {
+          "to": "uttarakhand/surkanda-devi-temple",
+          "type": "day_trip"
+        }
+      ],
+      "sections": {
+        "overview": {
+          "text": "Mussoorie, the 'Queen of the Hills', is one of India's best-loved hill stations. It spreads along a 15 km horseshoe ridge at about 2,000 m, with the Garhwal Himalaya as a backdrop. It began in 1827, when Captain Frederick Young climbed up from the Doon valley and saw the ridge's views and climate. Writers Ruskin Bond and Bill Aitken have made it their home.\n\nThe Mall runs through the heart of town between Kulri Bazaar and Library Chowk, with a cable car up to Gun Hill. To the east, the old cantonment of Landour has a quieter, forested air and Lal Tibba, the highest hill. Camel's Back Road is the classic sunset walk.\n\nIt suits couples, families and anyone escaping the summer heat of the plains. Winter brings snow and, from mid-October to mid-January, the famous 'winterline' at sunset.",
+          "facts": [
+            "MS1",
+            "MS2",
+            "MS3",
+            "MS8",
+            "MS9",
+            "MS12",
+            "MS11",
+            "MS10",
+            "MS4",
+            "MS5"
+          ]
+        },
+        "best_time": {
+          "text": "Summer is the classic season, when Mussoorie gives relief from the heat of the plains. Come in winter for snowfall and a quieter, more secluded stay. From mid-October to mid-January, look west at sunset for the 'winterline', a grey-mauve false horizon above bands of yellow, red and orange. Mussoorie is one of the few places in the world where you can see it.",
+          "facts": [
+            "MS4",
+            "MS5"
+          ]
+        },
+        "local_transport": {
+          "text": "Central Mussoorie is best on foot: the Mall links Kulri Bazaar and Library Chowk, and Camel's Back Road loops off it. A cable car climbs from the Mall to Gun Hill. Landour is up the hill at the east end of town.\n\nFor Kempty Falls (15 km on the Yamunotri road), George Everest House (6 km from Gandhi Chowk), Mussoorie Lake, the waterfalls and Surkanda Devi, hire a taxi.",
+          "facts": [
+            "MS8",
+            "MS10",
+            "MS9",
+            "MS12",
+            "MS14",
+            "MS15",
+            "MS21",
+            "MS20",
+            "MS17"
+          ]
+        },
+        "neighbourhoods": {
+          "items": [
+            {
+              "title": "The Mall, Kulri and Library Chowk",
+              "body": "The town centre and main shopping street, with Gun Hill's cable car. Best for first visits.",
+              "status": "verified"
+            },
+            {
+              "title": "Landour",
+              "body": "The British-era cantonment at the east end: quieter lanes, Landour Bazaar and Lal Tibba's views.",
+              "status": "verified"
+            },
+            {
+              "title": "Camel's Back Road",
+              "body": "A walking road off the Mall, known for sunsets and its camel-shaped rock.",
+              "status": "verified"
+            },
+            {
+              "title": "Park Estate and Haathi Paon",
+              "body": "West of town: George Everest House, with Doon and Aglar valley views.",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "MS8",
+            "MS9",
+            "MS12",
+            "MS11",
+            "MS10",
+            "MS15",
+            "MS16"
+          ]
+        },
+        "where_to_stay": {
+          "text": "Stay on or near the Mall for walking access to the shops, Gun Hill and Camel's Back Road. Choose Landour for quiet, forest walks and sunrise views from Lal Tibba. For winter snow or the winterline, pick a room facing west or north.",
+          "facts": [
+            "MS8",
+            "MS9",
+            "MS10",
+            "MS12",
+            "MS11",
+            "MS5"
+          ]
+        },
+        "who_its_for": {
+          "items": [
+            {
+              "title": "Couples and honeymooners",
+              "body": "Sunset walks on Camel's Back Road and the winterline in season."
+            },
+            {
+              "title": "Families",
+              "body": "The Gun Hill cable car, Company Bagh's amusement park and Kempty Falls."
+            },
+            {
+              "title": "Book lovers",
+              "body": "Ruskin Bond's Mussoorie and Landour's lanes."
+            },
+            {
+              "title": "Walkers",
+              "body": "The Hathipaon trail, the walk to George Everest House and the trek to Surkanda Devi."
+            }
+          ],
+          "facts": [
+            "MS10",
+            "MS5",
+            "MS9",
+            "MS19",
+            "MS14",
+            "MS3",
+            "MS12",
+            "MS22",
+            "MS15",
+            "MS17"
+          ]
+        },
+        "travel_tips": {
+          "items": [
+            {
+              "body": "Plan an October–January evening for the winterline."
+            },
+            {
+              "body": "Be at Lal Tibba at sunrise for the clearest snow-peak views."
+            },
+            {
+              "body": "Get trout-angling permission from the forest office beforehand."
+            },
+            {
+              "body": "Combine Surkanda Devi (a 2 km trek from Kaddukhal) with Dhanaulti."
+            }
+          ],
+          "facts": [
+            "MS5",
+            "MS11",
+            "MS23",
+            "MS17"
+          ]
+        },
+        "common_mistakes": {
+          "items": [
+            {
+              "body": "Spending the whole trip on the Mall. Landour and Camel's Back Road show a quieter Mussoorie."
+            },
+            {
+              "body": "Missing the winterline by visiting outside mid-October to mid-January."
+            },
+            {
+              "body": "Going angling without forest-office permission."
+            }
+          ],
+          "facts": [
+            "MS12",
+            "MS10",
+            "MS5",
+            "MS23"
+          ]
+        },
+        "faqs": {
+          "items": [
+            {
+              "title": "How do I reach Mussoorie?",
+              "body": "Fly to Jolly Grant airport at Dehradun (82 km) and take a taxi up, or take a train to Dehradun, the nearest railhead, and continue by road."
+            },
+            {
+              "title": "What is the winterline?",
+              "body": "A grey-mauve false horizon seen above the sunset from mid-October to mid-January. Mussoorie is one of the few places in the world where it is visible."
+            },
+            {
+              "title": "How far is Kempty Falls?",
+              "body": "About 15 km from Mussoorie on the Yamunotri road."
+            },
+            {
+              "title": "What is Mussoorie's highest point?",
+              "body": "Lal Tibba in Landour, at 2,438 m."
+            }
+          ],
+          "facts": [
+            "MS6",
+            "MS7",
+            "MS5",
+            "MS14",
+            "MS11"
+          ]
+        }
+      }
+    },
+    {
+      "key": "uttarakhand/gun-hill",
+      "kind": "viewpoint",
+      "name": "Gun Hill",
+      "parent": "uttarakhand/mussoorie",
+      "summary": "Mussoorie's highest point on the Mall, reached by cable car; named for a noon gun fired from 1865.",
+      "seoTitle": "Gun Hill Mussoorie: Cable Car & Views",
+      "seoDescription": "Ride the cable car from Mussoorie's Mall to Gun Hill, its highest point, named for the noon gun the British fired there from 1865.",
+      "lat": 30.459,
+      "lng": 78.075,
+      "tripTypes": [
+        "family",
+        "mountains"
+      ],
+      "images": [
+        {
+          "commons": "File:Gun hill, Mussoorie 06.JPG",
+          "alt": "Cable car line climbing the rocky slope to Gun Hill, Mussoorie",
+          "hero": true
+        }
+      ],
+      "sections": {
+        "overview": {
+          "text": "Gun Hill is the highest point on Mussoorie's Mall Road, and most visitors reach its summit by cable car. The ride is a thrill in itself, and the top gives sweeping views over the town, the Doon valley and the mountains.\n\nThe name comes from a gun the British installed on top in 1865. It was fired every day at noon so that residents could set their clocks. The cable car station is on the Mall, so the hill fits easily into an afternoon in town.",
+          "facts": [
+            "MS9",
+            "MS8"
+          ]
+        },
+        "how_to_reach": {
+          "text": "Take the cable car from the Mall Road to the summit.",
+          "facts": [
+            "MS9"
+          ]
+        },
+        "travel_tips": {
+          "items": [
+            {
+              "body": "Go on a clear afternoon for the best views, and avoid peak weekend queues for the cable car."
+            },
+            {
+              "body": "Keep an eye on children near the railings at the top."
+            },
+            {
+              "body": "Combine with the Mall and Camel's Back Road on the same walk."
+            }
+          ],
+          "facts": []
+        }
+      }
+    },
+    {
+      "key": "uttarakhand/camels-back-road",
+      "kind": "attraction",
+      "name": "Camel's Back Road",
+      "parent": "uttarakhand/mussoorie",
+      "summary": "Mussoorie's classic sunset walk, named for a rock shaped like a sitting camel.",
+      "seoTitle": "Camel's Back Road Mussoorie: Sunset Walk",
+      "seoDescription": "Walk Mussoorie's Camel's Back Road for Himalayan sunset views and the rock shaped like a sitting camel that gives the road its name.",
+      "lat": 30.463,
+      "lng": 78.07,
+      "tripTypes": [
+        "romantic",
+        "nature"
+      ],
+      "images": [
+        {
+          "commons": "File:The Camel of Camels Back Road (5281211643).jpg",
+          "alt": "The camel-shaped rock seen from Camel's Back Road, Mussoorie",
+          "hero": true
+        }
+      ],
+      "sections": {
+        "overview": {
+          "text": "Camel's Back Road loops off the Mall and is made for walking. Its views of the Himalaya at sunset are among the best in Mussoorie. The road takes its name from a rock formation that looks remarkably like a sitting camel, visible along the way.\n\nGo in the late afternoon and walk west for the sunset. Between mid-October and mid-January, stay for the 'winterline', the false horizon that glows above the sunset.",
+          "facts": [
+            "MS10",
+            "MS8",
+            "MS5"
+          ]
+        },
+        "travel_tips": {
+          "items": [
+            {
+              "body": "Time your walk for sunset."
+            },
+            {
+              "body": "In mid-October–mid-January, watch for the winterline after sunset."
+            },
+            {
+              "body": "Start about an hour before sunset so you can walk at an easy pace."
+            },
+            {
+              "body": "Carry a light jacket: it cools quickly once the sun goes down."
+            },
+            {
+              "body": "The road is level and suits families and older walkers."
+            }
+          ],
+          "facts": [
+            "MS10",
+            "MS5"
+          ]
+        }
+      }
+    },
+    {
+      "key": "uttarakhand/lal-tibba",
+      "kind": "viewpoint",
+      "name": "Lal Tibba",
+      "parent": "uttarakhand/mussoorie",
+      "summary": "Mussoorie's highest hill (2,438 m) in Landour, with snow-peak views best at sunrise.",
+      "seoTitle": "Lal Tibba Mussoorie: Sunrise Himalayan Views",
+      "seoDescription": "Lal Tibba in Landour is Mussoorie's highest hill at 2,438 m, with views of the snow peaks to the north that are best at sunrise.",
+      "lat": 30.457,
+      "lng": 78.096,
+      "tripTypes": [
+        "mountains"
+      ],
+      "images": [
+        {
+          "commons": "File:Mussoorie Uttarakhand India (183712303).jpeg",
+          "alt": "Forested ridges and distant peaks seen from the heights above Mussoorie",
+          "hero": true
+        }
+      ],
+      "sections": {
+        "overview": {
+          "text": "Lal Tibba, at 2,438 m, is the highest hill in Mussoorie. It lies in Landour, the old cantonment at the east end of town. The view north to the snow-capped Himalayan peaks is stunning, and it is at its best at sunrise, when the air is clearest.\n\nCombine a dawn visit with a walk through Landour's quiet lanes and breakfast near Landour Bazaar.",
+          "facts": [
+            "MS11",
+            "MS12"
+          ]
+        },
+        "how_to_reach": {
+          "text": "Lal Tibba is up in Landour, at the east end of town. Walk or take a taxi up from the Mall.",
+          "facts": [
+            "MS12",
+            "MS11"
+          ]
+        },
+        "travel_tips": {
+          "items": [
+            {
+              "body": "Set out before dawn and carry a torch for the walk up through Landour."
+            },
+            {
+              "body": "Bring warm layers; mornings are cold even in summer."
+            },
+            {
+              "body": "Clear winter mornings usually give the sharpest views of the peaks."
+            },
+            {
+              "body": "Combine sunrise here with a slow walk back down through Landour Bazaar."
+            }
+          ],
+          "facts": []
+        }
+      }
+    },
+    {
+      "key": "uttarakhand/landour",
+      "kind": "town",
+      "name": "Landour",
+      "parent": "uttarakhand/mussoorie",
+      "summary": "Mussoorie's quiet British-era cantonment, named after a Welsh village, with Landour Bazaar and Lal Tibba.",
+      "seoTitle": "Landour, Mussoorie: Old Cantonment & Bazaar",
+      "seoDescription": "Landour is Mussoorie's quiet British-era cantonment, named after a Welsh village, with Walter Scott-named houses, Landour Bazaar and Lal Tibba.",
+      "lat": 30.456,
+      "lng": 78.093,
+      "tripTypes": [
+        "heritage",
+        "romantic"
+      ],
+      "images": [
+        {
+          "commons": "File:Bandarpunch from Landour (5283927315).jpg",
+          "alt": "Snow-covered Bandarpunch range seen from Landour, Mussoorie",
+          "hero": true
+        }
+      ],
+      "sections": {
+        "overview": {
+          "text": "Landour is the British-era cantonment at the east end of Mussoorie, named after Llanddowror, a remote village in south-west Wales. Its links to Britain run deep. Many houses are named after Walter Scott's novels, such as Kenilworth, Ivanhoe, Waverley and Woodstock, now a famous school. Several Indian royal families also lived here before Independence.\n\nIt feels quieter and greener than the Mall. Landour Bazaar is a popular shopping street, and Lal Tibba, Mussoorie's highest hill, has the best sunrise views of the snow peaks.",
+          "facts": [
+            "MS12",
+            "MS13",
+            "MS11"
+          ]
+        },
+        "travel_tips": {
+          "items": [
+            {
+              "body": "Walk up early for sunrise at Lal Tibba."
+            },
+            {
+              "body": "Browse Landour Bazaar on the way down."
+            },
+            {
+              "body": "Walk rather than drive: Landour's lanes are narrow and best explored on foot."
+            },
+            {
+              "body": "Respect private homes and the cantonment area, and don't photograph where signs ask you not to."
+            }
+          ],
+          "facts": [
+            "MS11",
+            "MS12"
+          ]
+        }
+      }
+    },
+    {
+      "key": "uttarakhand/kempty-falls",
+      "kind": "nature",
+      "name": "Kempty Falls",
+      "parent": "uttarakhand/mussoorie",
+      "summary": "Popular waterfall 15 km from Mussoorie on the Yamunotri road.",
+      "seoTitle": "Kempty Falls from Mussoorie: Distance & Tips",
+      "seoDescription": "Kempty Falls is a popular waterfall about 15 km from Mussoorie on the Yamunotri road, in a valley surrounded by high mountains.",
+      "lat": 30.484,
+      "lng": 78.03,
+      "tripTypes": [
+        "family",
+        "nature"
+      ],
+      "images": [
+        {
+          "commons": "File:Kempty Falls at Lakhwad, Kempty 02.jpg",
+          "alt": "Kempty Falls cascading into pools in a green valley near Mussoorie",
+          "hero": true
+        }
+      ],
+      "sections": {
+        "overview": {
+          "text": "Kempty Falls is the best known of the waterfalls around Mussoorie. It lies about 15 km out on the Yamunotri road, in a valley ringed by high mountains, where the falls tumble into pools that many visitors wade in.\n\nIt is busy, especially on summer weekends, so go early. Closer to town, Bhatta Falls (8 km, on the Dehradun road) has bathing pools, and Jharipani Falls (9 km) needs a 1.5 km walk at the end.",
+          "facts": [
+            "MS14",
+            "MS20"
+          ]
+        },
+        "how_to_reach": {
+          "text": "Drive or take a taxi 15 km from Mussoorie along the Yamunotri road.",
+          "facts": [
+            "MS14"
+          ]
+        },
+        "travel_tips": {
+          "items": [
+            {
+              "body": "Arrive early, before tour buses, especially on summer weekends."
+            },
+            {
+              "body": "Take care on wet rocks and in the pools, and keep children close."
+            },
+            {
+              "body": "Carry a change of clothes if you plan to wade."
+            }
+          ],
+          "facts": []
+        }
+      }
+    },
+    {
+      "key": "uttarakhand/george-everest-house",
+      "kind": "attraction",
+      "name": "George Everest House",
+      "parent": "uttarakhand/mussoorie",
+      "summary": "Remains of Sir George Everest's house and laboratory at Park Estate, with Doon and Aglar valley views.",
+      "seoTitle": "George Everest House Mussoorie: History & Views",
+      "seoDescription": "Visit George Everest House at Park Estate, 6 km from Mussoorie's Gandhi Chowk: the old home of the Surveyor-General after whom Mt Everest is named.",
+      "lat": 30.45,
+      "lng": 78.015,
+      "tripTypes": [
+        "heritage",
+        "nature"
+      ],
+      "images": [
+        {
+          "commons": "File:Everest House 2.jpg",
+          "alt": "Whitewashed George Everest House on its hilltop at Park Estate",
+          "hero": true
+        }
+      ],
+      "sections": {
+        "overview": {
+          "text": "At Park Estate are the remains of the house and laboratory of Sir George Everest, Surveyor-General of India from 1830 to 1843. The world's highest peak is named after him. The hilltop site looks over the Doon valley on one side and the Aglar river valley and the Himalayan peaks on the other.\n\nUttarakhand's tourism department is developing the house as a museum. It is 6 km from Gandhi Chowk: a scenic walk from Library Bazaar, or by road to at least Haathi Paon.",
+          "facts": [
+            "MS15",
+            "MS16"
+          ]
+        },
+        "how_to_reach": {
+          "text": "Walk 6 km from Gandhi Chowk via Library Bazaar, or drive to Haathi Paon and walk the rest.",
+          "facts": [
+            "MS15"
+          ]
+        },
+        "travel_tips": {
+          "items": [
+            {
+              "body": "Go on a clear day; the views over the Doon and Aglar valleys are the main reward."
+            },
+            {
+              "body": "Wear walking shoes if you plan to walk from Library Bazaar."
+            },
+            {
+              "body": "Carry water, as facilities on the hilltop are limited."
+            }
+          ],
+          "facts": []
+        }
+      }
+    },
+    {
+      "key": "uttarakhand/surkanda-devi-temple",
+      "kind": "temple",
+      "name": "Surkanda Devi Temple",
+      "parent": "uttarakhand/mussoorie",
+      "summary": "Hilltop Shakti Peeth reached by a 2 km trek from Kaddukhal, beyond Dhanaulti.",
+      "seoTitle": "Surkanda Devi Temple: Trek from Kaddukhal",
+      "seoDescription": "Surkanda Devi, one of India's best-known Shakti Peeths, is reached by a 2 km trek from Kaddukhal near Dhanaulti, with sweeping mountain views.",
+      "lat": 30.411,
+      "lng": 78.288,
+      "tripTypes": [
+        "spiritual",
+        "mountains"
+      ],
+      "images": [
+        {
+          "commons": "File:Surkanda devi (2).JPG",
+          "alt": "Ridges and valleys seen from the hilltop at Surkanda Devi",
+          "hero": true
+        }
+      ],
+      "sections": {
+        "overview": {
+          "text": "Surkanda Devi temple sits on a hilltop reached by a 2 km trek from the village of Kaddukhal. It is a trekker's favourite for its mesmerising views. Local legend says Sati's head fell here, which makes it one of the 51 Shakti Peeths and one of the most popular in India.\n\nKaddukhal is on the road beyond Dhanaulti, so it pairs well with a day out to Dhanaulti from Mussoorie.",
+          "facts": [
+            "MS17"
+          ]
+        },
+        "how_to_reach": {
+          "text": "Drive to Kaddukhal, beyond Dhanaulti, then trek 2 km up to the temple.",
+          "facts": [
+            "MS17"
+          ]
+        },
+        "travel_tips": {
+          "items": [
+            {
+              "body": "Start the trek from Kaddukhal early to beat the crowds and the midday sun."
+            },
+            {
+              "body": "Wear good shoes and carry water; the path is steep in places."
+            },
+            {
+              "body": "Dress modestly for the temple and remove shoes at the entrance."
+            }
+          ],
+          "facts": []
+        }
+      }
+    },
+    {
+      "key": "uttarakhand/mall-road-mussoorie",
+      "kind": "attraction",
+      "name": "Mall Road, Mussoorie",
+      "parent": "uttarakhand/mussoorie",
+      "summary": "Mussoorie's main shopping street between Kulri Bazaar and Library Chowk.",
+      "seoTitle": "Mall Road Mussoorie: Shopping & Walks",
+      "seoDescription": "Mussoorie's Mall Road links Kulri Bazaar and Library Chowk, with shops for winterwear and souvenirs and the cable car up to Gun Hill.",
+      "lat": 30.457,
+      "lng": 78.075,
+      "tripTypes": [
+        "family"
+      ],
+      "images": [
+        {
+          "commons": "File:Mussoorie view from Mall road 07.JPG",
+          "alt": "Houses and the hillside above Mussoorie's Mall Road",
+          "hero": true
+        }
+      ],
+      "sections": {
+        "overview": {
+          "text": "The Mall is Mussoorie's main shopping street, in the heart of town. It links the two bazaars of Kulri and Library Chowk, with shops selling everything from winterwear and toys to gifts and souvenirs.\n\nThe cable car to Gun Hill starts from the Mall, and Camel's Back Road loops off it, so it is the natural starting point for any walk in town. Christ Church (1836), one of the oldest British churches in the Himalaya, and the Company Bagh gardens are close by.",
+          "facts": [
+            "MS8",
+            "MS9",
+            "MS10",
+            "MS18",
+            "MS19"
+          ]
+        },
+        "shopping": {
+          "items": [
+            {
+              "body": "Winterwear, toys, gifts and souvenirs along the Mall.",
+              "status": "verified"
+            },
+            {
+              "body": "Landour Bazaar, up the hill, for a quieter browse.",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "MS8",
+            "MS12"
+          ]
+        },
+        "travel_tips": {
+          "items": [
+            {
+              "body": "Evenings are liveliest; weekday afternoons are quieter for shopping."
+            },
+            {
+              "body": "Plan to walk the Mall rather than drive; it is the easiest way to link the bazaars, Gun Hill and Camel's Back Road."
+            }
+          ],
+          "facts": []
+        }
+      }
     }
-   },
-   "sources": []
-  }
- ]
+  ],
+  "itineraries": [
+    {
+      "place": "uttarakhand/mussoorie",
+      "slug": "mussoorie-2-days",
+      "title": "Mussoorie in 2 days: the Mall, Gun Hill and Landour",
+      "summary": "The Mall, the Gun Hill cable car and sunset on Camel's Back Road on Day 1; sunrise from Lal Tibba in Landour, Kempty Falls and George Everest's house on Day 2.",
+      "durationDays": 2,
+      "tripTypes": [
+        "mountains",
+        "romantic",
+        "weekend"
+      ],
+      "seoTitle": "Mussoorie 2-Day Itinerary: Mall Road, Gun Hill, Landour & Kempty",
+      "seoDescription": "Two days in Mussoorie (35 km from Dehradun): the Mall, Gun Hill cable car (10 am–6 pm), Camel's Back Road, Lal Tibba at sunrise, Kempty Falls and Everest House.",
+      "facts": [
+        "MS1",
+        "MS2",
+        "MS4",
+        "MS5",
+        "MS6",
+        "MS7",
+        "MUS_DD",
+        "MS8",
+        "MS9",
+        "MUS_GH",
+        "MS10",
+        "MS11",
+        "MS12",
+        "MS13",
+        "MS14",
+        "MS15",
+        "MS16",
+        "MS18",
+        "MS3"
+      ],
+      "plan": {
+        "overview": "Mussoorie runs along a 15 km ridge at about 2,000 m, 35 km above Dehradun. Day 1 arrives by lunch, walks the Mall from Library Chowk to Kulri, rides the cable car to Gun Hill, and ends with sunset on Camel's Back Road. Day 2 starts before dawn at Lal Tibba in Landour, the old British cantonment, then drives out to Kempty Falls on the Yamunotri road and back to Sir George Everest's house at Park Estate for the views over the Doon and Aglar valleys.",
+        "style": "Hill-station weekend",
+        "start": "Dehradun (station; Jolly Grant airport is 82 km from Mussoorie)",
+        "end": "Mussoorie",
+        "season": "Summer is the main season; come in winter for snow and quiet. The 'winterline' false horizon shows at sunset from mid-October to mid-January.",
+        "difficulty": "Easy — steep walks on the ridge",
+        "transport": "Taxi from Dehradun; walk the Mall; taxi for Kempty Falls and Park Estate.",
+        "budget": {
+          "assumptions": "Hotels, taxis and the cable car fare vary by season; we found conflicting cable-car prices, so we don't list one.",
+          "lines": [
+            {
+              "label": "Gun Hill cable car, Kempty Falls, Park Estate",
+              "amount": "Not estimated",
+              "basis": "Check on the day"
+            }
+          ]
+        },
+        "booking": [
+          {
+            "item": "Hotel",
+            "detail": "Book ahead for summer weekends and Christmas–New Year."
+          },
+          {
+            "item": "Taxi",
+            "detail": "Hire a taxi from Dehradun and for the Day 2 morning loop."
+          }
+        ],
+        "alternatives": [
+          "Crowds at Kempty? Swap it for the walk through Landour's lanes and Christ Church (1836).",
+          "Pilgrims: add Surkanda Devi, a 2 km trek from Kaddukhal."
+        ],
+        "tips": [
+          "Be on Lal Tibba for sunrise — the snow-peak views are clearest then.",
+          "Mid-October to mid-January, watch for the 'winterline' at sunset from Camel's Back Road.",
+          "Weekend traffic on the Dehradun road is heavy; travel early."
+        ],
+        "prep": [
+          {
+            "title": "Clothing",
+            "body": "Carry a warm layer even in summer; evenings on the ridge are cool, and winter brings snow."
+          }
+        ],
+        "faqs": [
+          {
+            "q": "How far is Mussoorie from Dehradun?",
+            "a": "About 35 km by road, roughly 1–1.5 hours."
+          },
+          {
+            "q": "What time does the Gun Hill cable car run?",
+            "a": "10 am to 6 pm; the ride up takes about 5 minutes."
+          }
+        ],
+        "days": [
+          {
+            "title": "The Mall, Gun Hill and sunset",
+            "summary": "Up from Dehradun, along the Mall and up to Gun Hill.",
+            "stops": [
+              {
+                "time": "9 am",
+                "name": "Drive from Dehradun",
+                "duration": "1.5 hours",
+                "placeSlug": "mussoorie",
+                "note": "About 35 km."
+              },
+              {
+                "time": "11 am",
+                "name": "Check in and lunch",
+                "duration": "2 hours"
+              },
+              {
+                "time": "1:30 pm",
+                "name": "Mall Road",
+                "duration": "1.5 hours",
+                "placeSlug": "mall-road-mussoorie",
+                "note": "From Library Chowk to Kulri Bazaar."
+              },
+              {
+                "time": "3:15 pm",
+                "name": "Gun Hill by cable car",
+                "duration": "1.5 hours",
+                "placeSlug": "gun-hill",
+                "note": "Runs 10 am–6 pm; about 5 minutes up."
+              },
+              {
+                "time": "5 pm",
+                "name": "Camel's Back Road at sunset",
+                "duration": "1.5 hours",
+                "placeSlug": "camels-back-road",
+                "note": "A walking road with Himalayan sunset views."
+              }
+            ],
+            "travel": "Dehradun → Mussoorie about 35 km (1–1.5 hours); then on foot.",
+            "distanceKm": 40,
+            "distance": "About 40 km (estimate)",
+            "driveTime": "About 1.5 hours",
+            "transport": "Taxi, then walking",
+            "meals": "Lunch and dinner on the Mall.",
+            "overnight": "Mussoorie"
+          },
+          {
+            "title": "Landour, Kempty Falls and Everest House",
+            "summary": "Sunrise from the highest hill, a waterfall, and the surveyor's ridge.",
+            "stops": [
+              {
+                "time": "5:45 am",
+                "name": "Lal Tibba, Landour",
+                "duration": "1 hour",
+                "placeSlug": "lal-tibba",
+                "note": "Mussoorie's highest hill (2,438 m); best at sunrise."
+              },
+              {
+                "time": "7 am",
+                "name": "Landour Bazaar and breakfast",
+                "duration": "1.5 hours",
+                "placeSlug": "landour",
+                "note": "The old cantonment; houses named after Walter Scott novels."
+              },
+              {
+                "time": "9 am",
+                "name": "Kempty Falls",
+                "duration": "1.5 hours",
+                "placeSlug": "kempty-falls",
+                "note": "About 15 km on the Yamunotri road."
+              },
+              {
+                "time": "11:30 am",
+                "name": "Lunch",
+                "duration": "1 hour"
+              },
+              {
+                "time": "1 pm",
+                "name": "George Everest's House, Park Estate",
+                "duration": "2 hours",
+                "placeSlug": "george-everest-house",
+                "note": "6 km from Gandhi Chowk; views of the Doon and Aglar valleys."
+              }
+            ],
+            "travel": "Landour → Kempty (about 15 km) → back via town → Park Estate (6 km from Gandhi Chowk).",
+            "distanceKm": 45,
+            "distance": "About 45 km (estimate)",
+            "driveTime": "About 2 hours in total (estimate)",
+            "transport": "Taxi",
+            "meals": "Breakfast in Landour.",
+            "overnight": "Mussoorie"
+          }
+        ]
+      }
+    }
+  ]
 }

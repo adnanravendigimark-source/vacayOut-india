@@ -1,1210 +1,1310 @@
 {
- "cluster": "uttarakhand2-nainital",
- "title": "Nainital",
- "researchedAt": "2026-11-18",
- "selection": "Batch 1. Nainital had 4 sections, one attraction (Naini Lake boating) and no itineraries. All facts come from the Uttarakhand Tourism Nainital page (government), including ropeway fares and Himalaya Museum hours, which the page states directly. Not covered: peak-season vehicle restrictions and parking rules (no official source found).",
- "sources": {
-  "UT_NAI": {
-   "url": "https://uttarakhandtourism.gov.in/destination/nainital",
-   "title": "Nainital — Uttarakhand Tourism Development Board",
-   "authority": "government"
-  }
- },
- "facts": {
-  "NT1": {
-   "place": "uttarakhand/nainital",
-   "topic": "Lake District",
-   "claim": "Nainital sits at around 2,000 m in the Kumaon Himalaya, ringed by seven hills, around Naini Lake.",
-   "claimType": "general",
-   "kind": "verified",
-   "evidence": [
-    {
-     "source": "UT_NAI",
-     "quote": "Commonly known as the ‘Lake District’, Nainital is nestled high up in the Kumaon Himalayas at an altitude of around 2,000 m above sea level."
+  "cluster": "uttarakhand2-nainital",
+  "title": "Nainital",
+  "researchedAt": "2026-11-18",
+  "selection": "Batch 1. Nainital had 4 sections, one attraction (Naini Lake boating) and no itineraries. All facts come from the Uttarakhand Tourism Nainital page (government), including ropeway fares and Himalaya Museum hours, which the page states directly. Not covered: peak-season vehicle restrictions and parking rules (no official source found).",
+  "sources": {
+    "UT_NAI": {
+      "url": "https://uttarakhandtourism.gov.in/destination/nainital",
+      "title": "Nainital — Uttarakhand Tourism Development Board",
+      "authority": "government"
     }
-   ]
   },
-  "NT2": {
-   "place": "uttarakhand/nainital",
-   "topic": "Colonial history",
-   "claim": "Nainital was the British-era summer capital of the United Provinces and keeps villas, bungalows and old schools.",
-   "claimType": "general",
-   "kind": "verified",
-   "evidence": [
-    {
-     "source": "UT_NAI",
-     "quote": "The summer capital of the United Provinces during the British era, the town has a strong colonial heritage with vibrant clusters of villas and bungalows."
+  "facts": {
+    "NT1": {
+      "place": "uttarakhand/nainital",
+      "topic": "Lake District",
+      "claim": "Nainital sits at around 2,000 m in the Kumaon Himalaya, ringed by seven hills, around Naini Lake.",
+      "claimType": "general",
+      "kind": "verified",
+      "evidence": [
+        {
+          "source": "UT_NAI",
+          "quote": "Commonly known as the ‘Lake District’, Nainital is nestled high up in the Kumaon Himalayas at an altitude of around 2,000 m above sea level."
+        }
+      ]
+    },
+    "NT2": {
+      "place": "uttarakhand/nainital",
+      "topic": "Colonial history",
+      "claim": "Nainital was the British-era summer capital of the United Provinces and keeps villas, bungalows and old schools.",
+      "claimType": "general",
+      "kind": "verified",
+      "evidence": [
+        {
+          "source": "UT_NAI",
+          "quote": "The summer capital of the United Provinces during the British era, the town has a strong colonial heritage with vibrant clusters of villas and bungalows."
+        }
+      ]
+    },
+    "NT3": {
+      "place": "uttarakhand/nainital",
+      "topic": "Best time",
+      "claim": "Nainital is visited all year; weather is best March–June, and heavy winter snow makes it popular at Christmas and New Year.",
+      "claimType": "general",
+      "kind": "seasonal",
+      "evidence": [
+        {
+          "source": "UT_NAI",
+          "quote": "Nainital is an all-year destination but the weather is the best between March and June. It receives heavy snowfall in winter and turns into a white wonderland, making it a popular Christmas and New Year destination."
+        }
+      ]
+    },
+    "NT4": {
+      "place": "uttarakhand/nainital",
+      "topic": "Airport",
+      "claim": "Pantnagar is the nearest airport, 70 km away by road; Delhi is about 300 km.",
+      "claimType": "distance",
+      "kind": "verified",
+      "evidence": [
+        {
+          "source": "UT_NAI",
+          "quote": "Pantnagar Airport is the nearest airport to Nainital. After that 70 kms distance has to be traveled by road through a bus or cab."
+        }
+      ]
+    },
+    "NT5": {
+      "place": "uttarakhand/nainital",
+      "topic": "Railway",
+      "claim": "Kathgodam station, 23 km away, has trains from major cities including the Ranikhet Express from Delhi; buses continue to Nainital.",
+      "claimType": "distance",
+      "kind": "verified",
+      "evidence": [
+        {
+          "source": "UT_NAI",
+          "quote": "You can reach Kathgodam Railway Station by train and it is 23 km away from Nainital."
+        },
+        {
+          "source": "UT_NAI",
+          "quote": "A popular Train called Ranikhet Express runs from New Delhi & Kathgodam."
+        }
+      ]
+    },
+    "NT6": {
+      "place": "uttarakhand/nainital",
+      "topic": "Bus from Delhi",
+      "claim": "Buses from Delhi's Kashmiri Gate ISBT cover the roughly 300 km in about 7 hours.",
+      "claimType": "distance",
+      "kind": "verified",
+      "evidence": [
+        {
+          "source": "UT_NAI",
+          "quote": "You can take a bus from Delhi kashmiri Gate ISBT and cover this journey in 7 hours approx."
+        }
+      ]
+    },
+    "NT7": {
+      "place": "uttarakhand/mall-road-nainital",
+      "topic": "Mall Road",
+      "claim": "The Mall (G.B. Pant Marg) runs along the lake between Mallital and Tallital, with restaurants and shops; handmade candles and pinewood crafts are the buys.",
+      "claimType": "general",
+      "kind": "verified",
+      "evidence": [
+        {
+          "source": "UT_NAI",
+          "quote": "Built by the Britishers to connect the two ends of Nainital city, Mallital and Tallital, the iconic Mall Road is a must on most tourist's to-do list in Nainital."
+        },
+        {
+          "source": "UT_NAI",
+          "quote": "The must-buys here are handmade candles and pinewood artifacts crafted by local artisans."
+        }
+      ]
+    },
+    "NT8": {
+      "place": "uttarakhand/snow-view-point",
+      "topic": "Ropeway",
+      "claim": "The ropeway runs between Mallital and Snow View in 3 minutes each way, from 10 am daily; INR 300 per adult and INR 200 per child up to 12 (return).",
+      "claimType": "price",
+      "kind": "verified",
+      "evidence": [
+        {
+          "source": "UT_NAI",
+          "quote": "Plying between Snow View point and Mallital, the 3-minute one-way journey offers breathtaking aerial views of Nainital and Naini Lake."
+        },
+        {
+          "source": "UT_NAI",
+          "quote": "The charges are INR 300 per adult (two-way trip) and INR 200 for children up-to 12 years of age. It runs from 10 am every day"
+        }
+      ]
+    },
+    "NT9": {
+      "place": "uttarakhand/snow-view-point",
+      "topic": "Snow View Point",
+      "claim": "Snow View (2,270 m) has binoculars for views of the high Himalaya, food stalls and a children's amusement park.",
+      "claimType": "general",
+      "kind": "verified",
+      "evidence": [
+        {
+          "source": "UT_NAI",
+          "quote": "the Snow View Point, located at 2,270 m above the sea level, offers stunning views of the snow-covered mountain peaks of the Great Himalayas."
+        },
+        {
+          "source": "UT_NAI",
+          "quote": "A large pair of binoculars is installed here to let visitors take a closer look at the peaks."
+        }
+      ]
+    },
+    "NT10": {
+      "place": "uttarakhand/naina-devi-temple",
+      "topic": "Naina Devi Temple",
+      "claim": "Naina Devi temple stands on the edge of the lake below Naina hill; Naina (Cheena) Peak is Nainital's highest point.",
+      "claimType": "general",
+      "kind": "verified",
+      "evidence": [
+        {
+          "source": "UT_NAI",
+          "quote": "The sacred Naina Devi temple with Goddess Naina Devi as its presiding deity is located atop the Naina hill near the Naini Lake."
+        },
+        {
+          "source": "UT_NAI",
+          "quote": "The Naina Peak, locally known as Cheena peak, is the highest point in Nainital."
+        }
+      ]
+    },
+    "NT11": {
+      "place": "uttarakhand/nainital",
+      "topic": "Lake legend",
+      "claim": "The lake is said to have formed where the eyes of the goddess Sati fell.",
+      "claimType": "general",
+      "kind": "verified",
+      "evidence": [
+        {
+          "source": "UT_NAI",
+          "quote": "According to mythology, the lake is believed to have been formed when the eyes of goddess “Sati” fell at this spot"
+        }
+      ]
+    },
+    "NT12": {
+      "place": "uttarakhand/tiffin-top",
+      "topic": "Tiffin Top",
+      "claim": "Tiffin Top (Dorothy's Seat) on Ayarpatta hill, 4 km from town, gives a panoramic view of Nainital.",
+      "claimType": "distance",
+      "kind": "verified",
+      "evidence": [
+        {
+          "source": "UT_NAI",
+          "quote": "A popular picnic spot in Nainital, Tiffin Top (also known as Dorothy's Seat) is located on Ayarpatta hill, and offers a panoramic view of the Nainital town and surrounding hills."
+        },
+        {
+          "source": "UT_NAI",
+          "quote": "many tourists also like to trek up to the place, which is just 4 km away from the town."
+        }
+      ]
+    },
+    "NT13": {
+      "place": "uttarakhand/nainital-zoo",
+      "topic": "Nainital Zoo",
+      "claim": "The G.B. Pant High Altitude Zoo on Sher Ka Danda hill (2,100 m) keeps Bengal tigers, Tibetan wolves, leopards and Himalayan bears.",
+      "claimType": "general",
+      "kind": "verified",
+      "evidence": [
+        {
+          "source": "UT_NAI",
+          "quote": "the zoo is perched on the Sher Ka Danda hill at an altitude of 2,100 m above sea level. Spread over a green area of 4.6 hectare, the zoo is home to a variety of animals like the royal Bengal tiger, Tibetan wolves, leopard, various types of deer, and the Himalayan bear."
+        }
+      ]
+    },
+    "NT14": {
+      "place": "uttarakhand/kainchi-dham",
+      "topic": "Kainchi Dham",
+      "claim": "Kainchi Dham, a Hanuman temple and ashram founded by Neem Karoli Baba in 1962, is 17 km from Nainital on the Almora road.",
+      "claimType": "distance",
+      "kind": "verified",
+      "evidence": [
+        {
+          "source": "UT_NAI",
+          "quote": "On the Nainital to Almora Road, 9 km from Bhowali and 17 km from Nainital is the popular pilgrimage centre Kainchi Dham, a Hanuman Temple and ashram founded by the sage Neem Karoli Baba, in 1962."
+        }
+      ]
+    },
+    "NT15": {
+      "place": "uttarakhand/kainchi-dham",
+      "topic": "Kainchi Dham fame",
+      "claim": "Kainchi Dham gained wider fame after visits by Steve Jobs and Mark Zuckerberg.",
+      "claimType": "general",
+      "kind": "verified",
+      "evidence": [
+        {
+          "source": "UT_NAI",
+          "quote": "The place gained more recognition owing to a visit by Apple founder Steve Jobs, and the founder and CEO of Facebook Mark Zuckerberg."
+        }
+      ]
+    },
+    "NT16": {
+      "place": "uttarakhand/pangot",
+      "topic": "Pangot and Kilbury",
+      "claim": "Pangot, 15 km away, is a forest hamlet famous for birds; the Pangot–Kilbury area has around 600 bird species.",
+      "claimType": "distance",
+      "kind": "verified",
+      "evidence": [
+        {
+          "source": "UT_NAI",
+          "quote": "Pangot is a small picturesque hamlet famous for its jungles and birds, located just 15 km from Nainital."
+        },
+        {
+          "source": "UT_NAI",
+          "quote": "The Pangot and Kilbury Bird Sanctuary here is home to around 600 species of birds."
+        }
+      ]
+    },
+    "NT17": {
+      "place": "uttarakhand/st-john-in-the-wilderness",
+      "topic": "St John in the Wilderness",
+      "claim": "St John in the Wilderness (1846), a neo-Gothic church in deodar forest, was attended by Jim Corbett.",
+      "claimType": "general",
+      "kind": "verified",
+      "evidence": [
+        {
+          "source": "UT_NAI",
+          "quote": "Built in 1846, the beautiful church with Neo-Gothic architecture, stands in the middle of a forest, surrounded by tall deodar and pine trees."
+        }
+      ]
+    },
+    "NT18": {
+      "place": "uttarakhand/aries-observatory",
+      "topic": "ARIES observatory",
+      "claim": "ARIES on Manora Peak is an astronomy institute with one of India's most advanced telescopes, open to visitors.",
+      "claimType": "general",
+      "kind": "verified",
+      "evidence": [
+        {
+          "source": "UT_NAI",
+          "quote": "The Aryabhatta Research Institute of Observational Sciences or ARIES is an observatory sitting on the Manora Peak in Nainital."
+        },
+        {
+          "source": "UT_NAI",
+          "quote": "It is also open to visitors."
+        }
+      ]
+    },
+    "NT19": {
+      "place": "uttarakhand/himalaya-museum-nainital",
+      "topic": "Himalaya Museum hours",
+      "claim": "The Himalaya Museum (Kumaun University) opens 10:30 am–1 pm and 1:30–4 pm, closed Sundays and public holidays.",
+      "claimType": "opening_hours",
+      "kind": "verified",
+      "evidence": [
+        {
+          "source": "UT_NAI",
+          "quote": "Opening Time:- 10.30 AM – 1 PM & 1.30 PM- 4 PMIs closed on Sunday and public holidays"
+        }
+      ]
+    },
+    "NT20": {
+      "place": "uttarakhand/nainital",
+      "topic": "Lakes nearby",
+      "claim": "Sariyatal (5 km), Khurpatal (12 km) and Naukuchiatal (25 km) are lakes near Nainital; Naukuchiatal has boating and angling.",
+      "claimType": "distance",
+      "kind": "verified",
+      "evidence": [
+        {
+          "source": "UT_NAI",
+          "quote": "At a distance of 5 km from Nainital, Sariyatal is an almost heart-shaped lake located on Kaladungi Road in Nainital district."
+        },
+        {
+          "source": "UT_NAI",
+          "quote": "the emerald blue-green lake of Khurpatal is just 12 km away from Nainital."
+        },
+        {
+          "source": "UT_NAI",
+          "quote": "Situated at a distance of just 25 km from Nainital, the crystal-clear Naukuchiatal lake with its nine corners is a captivating sight."
+        }
+      ]
+    },
+    "NT21": {
+      "place": "uttarakhand/nainital",
+      "topic": "Water sports",
+      "claim": "Naini Lake offers kayaking, canoeing, yachting and paddle boats; the Boat House Club and Yacht Club are by the lake.",
+      "claimType": "general",
+      "kind": "verified",
+      "evidence": [
+        {
+          "source": "UT_NAI",
+          "quote": "The Naini Lake offers several water sports options, including kayaking, canoeing, yachting and boating. Kayaking and paddle boating are the two most popular activities here."
+        }
+      ]
+    },
+    "NT22": {
+      "place": "uttarakhand/nainital",
+      "topic": "Treks",
+      "claim": "The Naini Peak–Pangot trek starts at Mallital via Snow View; Nainital to Khurpatal is an easy 6.7 km walk.",
+      "claimType": "general",
+      "kind": "verified",
+      "evidence": [
+        {
+          "source": "UT_NAI",
+          "quote": "The trek starts at Mallital in Nainital and goes through the famous Snow View hill to reach Naini Peak (also known as Cheena Peak)."
+        },
+        {
+          "source": "UT_NAI",
+          "quote": "Another popular and easy route is the Nainital to Khurpa Tal Trek, a walk of around 6.7 km."
+        }
+      ]
+    },
+    "NT23": {
+      "place": "uttarakhand/nainital",
+      "topic": "Ghorakhal",
+      "claim": "Ghorakhal, 17 km away at 1,800 m, has the Golu Devta temple and a tea garden.",
+      "claimType": "distance",
+      "kind": "verified",
+      "evidence": [
+        {
+          "source": "UT_NAI",
+          "quote": "Famous for the temple of Lord Golu, the presiding local deity, and an Army School, Ghorakhal is at a distance of 17 km from Nainital."
+        }
+      ]
+    },
+    "NT24": {
+      "place": "uttarakhand/nainital",
+      "topic": "Mallital",
+      "claim": "Mallital, at the upper end of the lake and the Mall, has the most shopping and dining.",
+      "claimType": "general",
+      "kind": "verified",
+      "evidence": [
+        {
+          "source": "UT_NAI",
+          "quote": "Mallital, the upper end of the Naini Lake and the Mall Road ,offers great shopping and dining options."
+        }
+      ]
+    },
+    "NT25": {
+      "place": "uttarakhand/snow-view-point",
+      "topic": "KMVN guesthouse",
+      "claim": "The KMVN tourist rest house at Snow View, a former British bungalow, is recommended for stays.",
+      "claimType": "general",
+      "kind": "verified",
+      "evidence": [
+        {
+          "source": "UT_NAI",
+          "quote": "The KMVN TRH Snow View guesthouse, which was once a Britisher's bungalow, is an excellent place to stay."
+        }
+      ]
+    },
+    "NT26": {
+      "place": "uttarakhand/nainital",
+      "topic": "Paragliding and ballooning",
+      "claim": "Paragliding runs around Bhimtal–Jangli Gaon road and Kotabagh; hot-air balloon camps are set up mainly at Sukhatal.",
+      "claimType": "general",
+      "kind": "verified",
+      "evidence": [
+        {
+          "source": "UT_NAI",
+          "quote": "Enjoy paragliding in and around Nainital, especially on the Bhimtal-Jangli Gaon road and Kotabagh."
+        },
+        {
+          "source": "UT_NAI",
+          "quote": "Hot-air ballooning camps are setup in and around Nainital, mainly at Sukhatal."
+        }
+      ]
     }
-   ]
   },
-  "NT3": {
-   "place": "uttarakhand/nainital",
-   "topic": "Best time",
-   "claim": "Nainital is visited all year; weather is best March–June, and heavy winter snow makes it popular at Christmas and New Year.",
-   "claimType": "general",
-   "kind": "seasonal",
-   "evidence": [
+  "places": [
     {
-     "source": "UT_NAI",
-     "quote": "Nainital is an all-year destination but the weather is the best between March and June. It receives heavy snowfall in winter and turns into a white wonderland, making it a popular Christmas and New Year destination."
-    }
-   ]
-  },
-  "NT4": {
-   "place": "uttarakhand/nainital",
-   "topic": "Airport",
-   "claim": "Pantnagar is the nearest airport, 70 km away by road; Delhi is about 300 km.",
-   "claimType": "distance",
-   "kind": "verified",
-   "evidence": [
-    {
-     "source": "UT_NAI",
-     "quote": "Pantnagar Airport is the nearest airport to Nainital. After that 70 kms distance has to be traveled by road through a bus or cab."
-    }
-   ]
-  },
-  "NT5": {
-   "place": "uttarakhand/nainital",
-   "topic": "Railway",
-   "claim": "Kathgodam station, 23 km away, has trains from major cities including the Ranikhet Express from Delhi; buses continue to Nainital.",
-   "claimType": "distance",
-   "kind": "verified",
-   "evidence": [
-    {
-     "source": "UT_NAI",
-     "quote": "You can reach Kathgodam Railway Station by train and it is 23 km away from Nainital."
-    },
-    {
-     "source": "UT_NAI",
-     "quote": "A popular Train called Ranikhet Express runs from New Delhi & Kathgodam."
-    }
-   ]
-  },
-  "NT6": {
-   "place": "uttarakhand/nainital",
-   "topic": "Bus from Delhi",
-   "claim": "Buses from Delhi's Kashmiri Gate ISBT cover the roughly 300 km in about 7 hours.",
-   "claimType": "distance",
-   "kind": "verified",
-   "evidence": [
-    {
-     "source": "UT_NAI",
-     "quote": "You can take a bus from Delhi kashmiri Gate ISBT and cover this journey in 7 hours approx."
-    }
-   ]
-  },
-  "NT7": {
-   "place": "uttarakhand/mall-road-nainital",
-   "topic": "Mall Road",
-   "claim": "The Mall (G.B. Pant Marg) runs along the lake between Mallital and Tallital, with restaurants and shops; handmade candles and pinewood crafts are the buys.",
-   "claimType": "general",
-   "kind": "verified",
-   "evidence": [
-    {
-     "source": "UT_NAI",
-     "quote": "Built by the Britishers to connect the two ends of Nainital city, Mallital and Tallital, the iconic Mall Road is a must on most tourist's to-do list in Nainital."
-    },
-    {
-     "source": "UT_NAI",
-     "quote": "The must-buys here are handmade candles and pinewood artifacts crafted by local artisans."
-    }
-   ]
-  },
-  "NT8": {
-   "place": "uttarakhand/snow-view-point",
-   "topic": "Ropeway",
-   "claim": "The ropeway runs between Mallital and Snow View in 3 minutes each way, from 10 am daily; INR 300 per adult and INR 200 per child up to 12 (return).",
-   "claimType": "price",
-   "kind": "verified",
-   "evidence": [
-    {
-     "source": "UT_NAI",
-     "quote": "Plying between Snow View point and Mallital, the 3-minute one-way journey offers breathtaking aerial views of Nainital and Naini Lake."
-    },
-    {
-     "source": "UT_NAI",
-     "quote": "The charges are INR 300 per adult (two-way trip) and INR 200 for children up-to 12 years of age. It runs from 10 am every day"
-    }
-   ]
-  },
-  "NT9": {
-   "place": "uttarakhand/snow-view-point",
-   "topic": "Snow View Point",
-   "claim": "Snow View (2,270 m) has binoculars for views of the high Himalaya, food stalls and a children's amusement park.",
-   "claimType": "general",
-   "kind": "verified",
-   "evidence": [
-    {
-     "source": "UT_NAI",
-     "quote": "the Snow View Point, located at 2,270 m above the sea level, offers stunning views of the snow-covered mountain peaks of the Great Himalayas."
-    },
-    {
-     "source": "UT_NAI",
-     "quote": "A large pair of binoculars is installed here to let visitors take a closer look at the peaks."
-    }
-   ]
-  },
-  "NT10": {
-   "place": "uttarakhand/naina-devi-temple",
-   "topic": "Naina Devi Temple",
-   "claim": "Naina Devi temple stands on the edge of the lake below Naina hill; Naina (Cheena) Peak is Nainital's highest point.",
-   "claimType": "general",
-   "kind": "verified",
-   "evidence": [
-    {
-     "source": "UT_NAI",
-     "quote": "The sacred Naina Devi temple with Goddess Naina Devi as its presiding deity is located atop the Naina hill near the Naini Lake."
-    },
-    {
-     "source": "UT_NAI",
-     "quote": "The Naina Peak, locally known as Cheena peak, is the highest point in Nainital."
-    }
-   ]
-  },
-  "NT11": {
-   "place": "uttarakhand/nainital",
-   "topic": "Lake legend",
-   "claim": "The lake is said to have formed where the eyes of the goddess Sati fell.",
-   "claimType": "general",
-   "kind": "verified",
-   "evidence": [
-    {
-     "source": "UT_NAI",
-     "quote": "According to mythology, the lake is believed to have been formed when the eyes of goddess “Sati” fell at this spot"
-    }
-   ]
-  },
-  "NT12": {
-   "place": "uttarakhand/tiffin-top",
-   "topic": "Tiffin Top",
-   "claim": "Tiffin Top (Dorothy's Seat) on Ayarpatta hill, 4 km from town, gives a panoramic view of Nainital.",
-   "claimType": "distance",
-   "kind": "verified",
-   "evidence": [
-    {
-     "source": "UT_NAI",
-     "quote": "A popular picnic spot in Nainital, Tiffin Top (also known as Dorothy's Seat) is located on Ayarpatta hill, and offers a panoramic view of the Nainital town and surrounding hills."
-    },
-    {
-     "source": "UT_NAI",
-     "quote": "many tourists also like to trek up to the place, which is just 4 km away from the town."
-    }
-   ]
-  },
-  "NT13": {
-   "place": "uttarakhand/nainital-zoo",
-   "topic": "Nainital Zoo",
-   "claim": "The G.B. Pant High Altitude Zoo on Sher Ka Danda hill (2,100 m) keeps Bengal tigers, Tibetan wolves, leopards and Himalayan bears.",
-   "claimType": "general",
-   "kind": "verified",
-   "evidence": [
-    {
-     "source": "UT_NAI",
-     "quote": "the zoo is perched on the Sher Ka Danda hill at an altitude of 2,100 m above sea level. Spread over a green area of 4.6 hectare, the zoo is home to a variety of animals like the royal Bengal tiger, Tibetan wolves, leopard, various types of deer, and the Himalayan bear."
-    }
-   ]
-  },
-  "NT14": {
-   "place": "uttarakhand/kainchi-dham",
-   "topic": "Kainchi Dham",
-   "claim": "Kainchi Dham, a Hanuman temple and ashram founded by Neem Karoli Baba in 1962, is 17 km from Nainital on the Almora road.",
-   "claimType": "distance",
-   "kind": "verified",
-   "evidence": [
-    {
-     "source": "UT_NAI",
-     "quote": "On the Nainital to Almora Road, 9 km from Bhowali and 17 km from Nainital is the popular pilgrimage centre Kainchi Dham, a Hanuman Temple and ashram founded by the sage Neem Karoli Baba, in 1962."
-    }
-   ]
-  },
-  "NT15": {
-   "place": "uttarakhand/kainchi-dham",
-   "topic": "Kainchi Dham fame",
-   "claim": "Kainchi Dham gained wider fame after visits by Steve Jobs and Mark Zuckerberg.",
-   "claimType": "general",
-   "kind": "verified",
-   "evidence": [
-    {
-     "source": "UT_NAI",
-     "quote": "The place gained more recognition owing to a visit by Apple founder Steve Jobs, and the founder and CEO of Facebook Mark Zuckerberg."
-    }
-   ]
-  },
-  "NT16": {
-   "place": "uttarakhand/pangot",
-   "topic": "Pangot and Kilbury",
-   "claim": "Pangot, 15 km away, is a forest hamlet famous for birds; the Pangot–Kilbury area has around 600 bird species.",
-   "claimType": "distance",
-   "kind": "verified",
-   "evidence": [
-    {
-     "source": "UT_NAI",
-     "quote": "Pangot is a small picturesque hamlet famous for its jungles and birds, located just 15 km from Nainital."
-    },
-    {
-     "source": "UT_NAI",
-     "quote": "The Pangot and Kilbury Bird Sanctuary here is home to around 600 species of birds."
-    }
-   ]
-  },
-  "NT17": {
-   "place": "uttarakhand/st-john-in-the-wilderness",
-   "topic": "St John in the Wilderness",
-   "claim": "St John in the Wilderness (1846), a neo-Gothic church in deodar forest, was attended by Jim Corbett.",
-   "claimType": "general",
-   "kind": "verified",
-   "evidence": [
-    {
-     "source": "UT_NAI",
-     "quote": "Built in 1846, the beautiful church with Neo-Gothic architecture, stands in the middle of a forest, surrounded by tall deodar and pine trees."
-    }
-   ]
-  },
-  "NT18": {
-   "place": "uttarakhand/aries-observatory",
-   "topic": "ARIES observatory",
-   "claim": "ARIES on Manora Peak is an astronomy institute with one of India's most advanced telescopes, open to visitors.",
-   "claimType": "general",
-   "kind": "verified",
-   "evidence": [
-    {
-     "source": "UT_NAI",
-     "quote": "The Aryabhatta Research Institute of Observational Sciences or ARIES is an observatory sitting on the Manora Peak in Nainital."
-    },
-    {
-     "source": "UT_NAI",
-     "quote": "It is also open to visitors."
-    }
-   ]
-  },
-  "NT19": {
-   "place": "uttarakhand/himalaya-museum-nainital",
-   "topic": "Himalaya Museum hours",
-   "claim": "The Himalaya Museum (Kumaun University) opens 10:30 am–1 pm and 1:30–4 pm, closed Sundays and public holidays.",
-   "claimType": "opening_hours",
-   "kind": "verified",
-   "evidence": [
-    {
-     "source": "UT_NAI",
-     "quote": "Opening Time:- 10.30 AM – 1 PM & 1.30 PM- 4 PMIs closed on Sunday and public holidays"
-    }
-   ]
-  },
-  "NT20": {
-   "place": "uttarakhand/nainital",
-   "topic": "Lakes nearby",
-   "claim": "Sariyatal (5 km), Khurpatal (12 km) and Naukuchiatal (25 km) are lakes near Nainital; Naukuchiatal has boating and angling.",
-   "claimType": "distance",
-   "kind": "verified",
-   "evidence": [
-    {
-     "source": "UT_NAI",
-     "quote": "At a distance of 5 km from Nainital, Sariyatal is an almost heart-shaped lake located on Kaladungi Road in Nainital district."
-    },
-    {
-     "source": "UT_NAI",
-     "quote": "the emerald blue-green lake of Khurpatal is just 12 km away from Nainital."
-    },
-    {
-     "source": "UT_NAI",
-     "quote": "Situated at a distance of just 25 km from Nainital, the crystal-clear Naukuchiatal lake with its nine corners is a captivating sight."
-    }
-   ]
-  },
-  "NT21": {
-   "place": "uttarakhand/nainital",
-   "topic": "Water sports",
-   "claim": "Naini Lake offers kayaking, canoeing, yachting and paddle boats; the Boat House Club and Yacht Club are by the lake.",
-   "claimType": "general",
-   "kind": "verified",
-   "evidence": [
-    {
-     "source": "UT_NAI",
-     "quote": "The Naini Lake offers several water sports options, including kayaking, canoeing, yachting and boating. Kayaking and paddle boating are the two most popular activities here."
-    }
-   ]
-  },
-  "NT22": {
-   "place": "uttarakhand/nainital",
-   "topic": "Treks",
-   "claim": "The Naini Peak–Pangot trek starts at Mallital via Snow View; Nainital to Khurpatal is an easy 6.7 km walk.",
-   "claimType": "general",
-   "kind": "verified",
-   "evidence": [
-    {
-     "source": "UT_NAI",
-     "quote": "The trek starts at Mallital in Nainital and goes through the famous Snow View hill to reach Naini Peak (also known as Cheena Peak)."
-    },
-    {
-     "source": "UT_NAI",
-     "quote": "Another popular and easy route is the Nainital to Khurpa Tal Trek, a walk of around 6.7 km."
-    }
-   ]
-  },
-  "NT23": {
-   "place": "uttarakhand/nainital",
-   "topic": "Ghorakhal",
-   "claim": "Ghorakhal, 17 km away at 1,800 m, has the Golu Devta temple and a tea garden.",
-   "claimType": "distance",
-   "kind": "verified",
-   "evidence": [
-    {
-     "source": "UT_NAI",
-     "quote": "Famous for the temple of Lord Golu, the presiding local deity, and an Army School, Ghorakhal is at a distance of 17 km from Nainital."
-    }
-   ]
-  },
-  "NT24": {
-   "place": "uttarakhand/nainital",
-   "topic": "Mallital",
-   "claim": "Mallital, at the upper end of the lake and the Mall, has the most shopping and dining.",
-   "claimType": "general",
-   "kind": "verified",
-   "evidence": [
-    {
-     "source": "UT_NAI",
-     "quote": "Mallital, the upper end of the Naini Lake and the Mall Road ,offers great shopping and dining options."
-    }
-   ]
-  },
-  "NT25": {
-   "place": "uttarakhand/snow-view-point",
-   "topic": "KMVN guesthouse",
-   "claim": "The KMVN tourist rest house at Snow View, a former British bungalow, is recommended for stays.",
-   "claimType": "general",
-   "kind": "verified",
-   "evidence": [
-    {
-     "source": "UT_NAI",
-     "quote": "The KMVN TRH Snow View guesthouse, which was once a Britisher's bungalow, is an excellent place to stay."
-    }
-   ]
-  },
-  "NT26": {
-   "place": "uttarakhand/nainital",
-   "topic": "Paragliding and ballooning",
-   "claim": "Paragliding runs around Bhimtal–Jangli Gaon road and Kotabagh; hot-air balloon camps are set up mainly at Sukhatal.",
-   "claimType": "general",
-   "kind": "verified",
-   "evidence": [
-    {
-     "source": "UT_NAI",
-     "quote": "Enjoy paragliding in and around Nainital, especially on the Bhimtal-Jangli Gaon road and Kotabagh."
-    },
-    {
-     "source": "UT_NAI",
-     "quote": "Hot-air ballooning camps are setup in and around Nainital, mainly at Sukhatal."
-    }
-   ]
-  }
- },
- "places": [
-  {
-   "key": "uttarakhand/nainital",
-   "kind": "city",
-   "name": "Nainital",
-   "parent": "uttarakhand",
-   "summary": "Kumaon's lake town at about 2,000 m: boating on Naini Lake, the Mall, the Snow View ropeway and the Naina Devi temple.",
-   "seoTitle": "Nainital Travel Guide: Naini Lake, Mall Road & Snow View",
-   "seoDescription": "Plan a Nainital trip: Naini Lake boating, the Mall, the Snow View ropeway (fares and timings), Naina Devi, Kainchi Dham, Pangot and how to get there.",
-   "lat": 29.3919,
-   "lng": 79.4542,
-   "tripTypes": [
-    "mountains",
-    "family",
-    "romantic"
-   ],
-   "images": [
-    {
-     "commons": "File:Boats on Nainital Lake 02.jpg",
-     "alt": "Colourful sailing yachts and paddle boats on Naini Lake, Nainital",
-     "hero": true
-    }
-   ],
-   "relations": [
-    {
-     "to": "uttarakhand/kainchi-dham",
-     "type": "day_trip"
-    },
-    {
-     "to": "uttarakhand/pangot",
-     "type": "day_trip"
-    },
-    {
-     "to": "uttarakhand/bhimtal",
-     "type": "nearby"
-    },
-    {
-     "to": "uttarakhand/mukteshwar",
-     "type": "nearby"
-    }
-   ],
-   "sections": {
-    "overview": {
-     "text": "Nainital is one of north India's most popular hill stations, and it is often called the Lake District. The town sits at around 2,000 m in the Kumaon Himalaya, ringed by seven hills around the emerald, crescent-shaped Naini Lake, where sailboats and paddle boats drift most days. Legend says the lake formed where the eyes of the goddess Sati fell, and the Naina Devi temple stands at its edge.\n\nThe British made Nainital the summer capital of the United Provinces, and colonial villas, churches and schools still line the forested slopes. Life centres on the Mall, which runs along the lake between Mallital and Tallital. A ropeway climbs to Snow View for Himalayan panoramas.\n\nIt suits families, couples and first-time visitors. Kainchi Dham, Pangot's birdlife and a string of quieter lakes are all close by.",
-     "facts": [
-      "NT1",
-      "NT11",
-      "NT10",
-      "NT2",
-      "NT7",
-      "NT8",
-      "NT14",
-      "NT16",
-      "NT20"
-     ]
-    },
-    "best_time": {
-     "text": "Nainital is a year-round destination, but the weather is best from March to June. Winter brings heavy snow and turns the town white, which makes it popular for Christmas and New Year. The monsoon months are greener and quieter, but expect rain on the hill roads.",
-     "facts": [
-      "NT3"
-     ]
-    },
-    "local_transport": {
-     "text": "Central Nainital is compact. Walk the Mall along the lake between Mallital and Tallital, or cross by boat. The ropeway runs from Mallital up to Snow View in three minutes, daily from 10 am.\n\nFor Kainchi Dham (17 km), Pangot (15 km), Ghorakhal (17 km) and the lakes at Sariyatal, Khurpatal and Naukuchiatal, hire a taxi. Buses come up from Kathgodam station, 23 km below.",
-     "facts": [
-      "NT7",
-      "NT8",
-      "NT14",
-      "NT16",
-      "NT23",
-      "NT20",
-      "NT5"
-     ]
-    },
-    "neighbourhoods": {
-     "items": [
-      {
-       "title": "Mallital",
-       "body": "The upper (north) end of the lake and the Mall: the best shopping and dining, the ropeway and the Naina Devi temple.",
-       "status": "verified"
-      },
-      {
-       "title": "The Mall (G.B. Pant Marg)",
-       "body": "The lakeside promenade between Mallital and Tallital, lined with restaurants and shops.",
-       "status": "verified"
-      },
-      {
-       "title": "Tallital",
-       "body": "The lower (south) end of the lake, at the other end of the Mall. Closest to the road down to Kathgodam.",
-       "status": "verified"
-      },
-      {
-       "title": "Snow View and Ayarpatta",
-       "body": "The hills above town: Snow View by ropeway, and Tiffin Top on Ayarpatta for panoramas.",
-       "status": "verified"
-      },
-      {
-       "title": "Pangot and Kilbury",
-       "body": "Forest hamlets 12–15 km away, for birdwatching and quiet stays.",
-       "status": "verified"
-      }
-     ],
-     "facts": [
-      "NT24",
-      "NT10",
-      "NT8",
-      "NT7",
-      "NT9",
-      "NT12",
-      "NT16"
-     ]
-    },
-    "where_to_stay": {
-     "text": "Mallital and the Mall are the most convenient bases for a first visit, close to the lake, the ropeway, restaurants and shops. For views and quiet, stay up at Snow View: the KMVN tourist rest house there is a former British bungalow. Birdwatchers and anyone seeking silence should look at the forest hamlets of Pangot and Kilbury, 12–15 km out.",
-     "facts": [
-      "NT24",
-      "NT7",
-      "NT8",
-      "NT25",
-      "NT16"
-     ]
-    },
-    "who_its_for": {
-     "items": [
-      {
-       "title": "Families",
-       "body": "Boating, the ropeway, Snow View's amusement park and the High Altitude Zoo."
-      },
-      {
-       "title": "Couples",
-       "body": "Lake evenings on the Mall, sailing, and sunsets from Tiffin Top."
-      },
-      {
-       "title": "Birdwatchers",
-       "body": "Pangot and Kilbury, with around 600 bird species."
-      },
-      {
-       "title": "Pilgrims",
-       "body": "Naina Devi temple and Kainchi Dham."
-      },
-      {
-       "title": "Adventure seekers",
-       "body": "Paragliding around Bhimtal–Jangli Gaon and Kotabagh, hot-air balloons at Sukhatal, and treks to Naini Peak and Khurpatal."
-      }
-     ],
-     "facts": [
-      "NT21",
-      "NT8",
-      "NT9",
-      "NT13",
-      "NT7",
-      "NT12",
-      "NT16",
-      "NT10",
-      "NT14",
-      "NT26",
-      "NT22"
-     ]
-    },
-    "shopping": {
-     "items": [
-      {
-       "body": "Handmade candles and pinewood crafts from local artisans, along the Mall.",
-       "status": "verified"
-      },
-      {
-       "body": "Mallital has the widest choice of shops and restaurants.",
-       "status": "verified"
-      }
-     ],
-     "facts": [
-      "NT7",
-      "NT24"
-     ]
-    },
-    "travel_tips": {
-     "items": [
-      {
-       "body": "Take the ropeway up to Snow View early (it starts at 10 am) and allow an hour at the top."
-      },
-      {
-       "body": "Visit Kainchi Dham early in the day; it gets crowded."
-      },
-      {
-       "body": "Book Christmas and New Year stays early: snow makes it peak season."
-      },
-      {
-       "body": "Bring binoculars to Pangot. The Pangot–Kilbury area has around 600 bird species."
-      }
-     ],
-     "facts": [
-      "NT8",
-      "NT14",
-      "NT15",
-      "NT3",
-      "NT16"
-     ]
-    },
-    "common_mistakes": {
-     "items": [
-      {
-       "body": "Trying to see Kainchi Dham, Pangot and the outer lakes in one day. They lie in different directions."
-      },
-      {
-       "body": "Skipping the ropeway on a cloudy morning. Views from Snow View are best on clear days, so check before buying."
-      },
-      {
-       "body": "Visiting the Himalaya Museum on a Sunday, when it is closed."
-      }
-     ],
-     "facts": [
-      "NT14",
-      "NT16",
-      "NT20",
-      "NT9",
-      "NT19"
-     ]
-    },
-    "faqs": {
-     "items": [
-      {
-       "title": "How do I reach Nainital?",
-       "body": "Take a train to Kathgodam, 23 km away (the Ranikhet Express runs from Delhi), then a bus or taxi. Alternatively, fly to Pantnagar (70 km), or take a bus from Delhi's Kashmiri Gate (about 7 hours)."
-      },
-      {
-       "title": "What does the Nainital ropeway cost?",
-       "body": "INR 300 per adult and INR 200 per child up to 12, return. It runs from 10 am daily between Mallital and Snow View."
-      },
-      {
-       "title": "When is the best time to visit?",
-       "body": "March to June for the best weather. Winter (December–January) for snow."
-      },
-      {
-       "title": "How far is Kainchi Dham from Nainital?",
-       "body": "About 17 km, on the road to Almora (9 km beyond Bhowali)."
-      }
-     ],
-     "facts": [
-      "NT5",
-      "NT4",
-      "NT6",
-      "NT8",
-      "NT3",
-      "NT14"
-     ]
-    }
-   }
-  },
-  {
-   "key": "uttarakhand/naina-devi-temple",
-   "kind": "temple",
-   "name": "Naina Devi Temple",
-   "parent": "uttarakhand/nainital",
-   "summary": "Revered temple to goddess Naina Devi on the edge of Naini Lake at Mallital.",
-   "seoTitle": "Naina Devi Temple Nainital: Legend & Visiting",
-   "seoDescription": "Naina Devi temple stands on the edge of Naini Lake at Mallital, below Naina Peak, and is one of Nainital's most revered shrines.",
-   "lat": 29.3946,
-   "lng": 79.454,
-   "tripTypes": [
-    "spiritual"
-   ],
-   "images": [
-    {
-     "commons": "File:Maa Naina Devi Temple, Nainital, Uttarakhand, India.jpg",
-     "alt": "Naina Devi temple lit up on the edge of Naini Lake at dusk",
-     "hero": true
-    }
-   ],
-   "sections": {
-    "overview": {
-     "text": "The Naina Devi temple, dedicated to the goddess Naina Devi, stands on the edge of Naini Lake at the Mallital end of town, below Naina hill. It is one of the most revered temples in the region. The goddess is represented by two eyes, linking it to the legend that the lake formed where the eyes of the goddess Sati fell.\n\nDevotees come all year. Above the temple, Naina Peak, locally Cheena Peak, is the highest point in Nainital and the goal of a popular trek from Mallital via Snow View.",
-     "facts": [
-      "NT10",
-      "NT11",
-      "NT22"
-     ]
-    },
-    "how_to_reach": {
-     "text": "The temple is at Mallital, at the upper end of the Mall, next to the lake and close to the ropeway station.",
-     "facts": [
-      "NT24",
-      "NT10"
-     ]
-    },
-    "travel_tips": {
-     "items": [
-      {
-       "body": "Visit early morning or at dusk, when the lakeside is calmer and the temple lights reflect on the water."
-      },
-      {
-       "body": "Remove shoes and dress modestly; leave bags with someone outside if the queue is long."
-      }
-     ],
-     "facts": []
-    }
-   }
-  },
-  {
-   "key": "uttarakhand/mall-road-nainital",
-   "kind": "attraction",
-   "name": "Mall Road, Nainital",
-   "parent": "uttarakhand/nainital",
-   "summary": "Nainital's lakeside promenade between Mallital and Tallital, lined with restaurants and craft shops.",
-   "seoTitle": "Mall Road Nainital: Lakeside Walk & Shopping",
-   "seoDescription": "Walk Nainital's Mall Road (G.B. Pant Marg) along Naini Lake from Mallital to Tallital: restaurants, handmade candles and pinewood crafts.",
-   "lat": 29.389,
-   "lng": 79.456,
-   "tripTypes": [
-    "family",
-    "romantic"
-   ],
-   "images": [
-    {
-     "commons": "File:Upper Mall Road, Nainital.jpg",
-     "alt": "Shops and walkers on the Upper Mall Road in Nainital",
-     "hero": true
-    }
-   ],
-   "sections": {
-    "overview": {
-     "text": "The British built the Mall to join the two ends of Nainital, Mallital and Tallital, along the shore of Naini Lake. Officially it is Govind Ballabh Pant Marg. It is the town's busiest street, lined with multi-cuisine restaurants and shops.\n\nThe buys here are handmade candles and pinewood crafts made by local artisans. An evening stroll gives sweeping views over the lake and the town climbing the slopes. Mallital, at the upper end, has the widest choice of shopping and dining.",
-     "facts": [
-      "NT7",
-      "NT24"
-     ]
-    },
-    "shopping": {
-     "items": [
-      {
-       "body": "Handmade candles",
-       "status": "verified"
-      },
-      {
-       "body": "Pinewood artefacts",
-       "status": "verified"
-      }
-     ],
-     "facts": [
-      "NT7"
-     ]
-    },
-    "travel_tips": {
-     "items": [
-      {
-       "body": "Walk the Mall in the evening when the lake lights come on, starting at Mallital and ending at Tallital."
-      },
-      {
-       "body": "Carry small change for boat rides and street snacks, and keep an eye on traffic where vehicles share the road."
-      },
-      {
-       "body": "Weekends and holidays are crowded; weekday evenings are calmer."
-      }
-     ],
-     "facts": []
-    }
-   }
-  },
-  {
-   "key": "uttarakhand/snow-view-point",
-   "kind": "viewpoint",
-   "name": "Snow View Point and Ropeway",
-   "parent": "uttarakhand/nainital",
-   "summary": "Viewpoint at 2,270 m reached by a 3-minute ropeway from Mallital, with binoculars for Himalayan peaks.",
-   "seoTitle": "Snow View Nainital: Ropeway Fare, Timings & Views",
-   "seoDescription": "Ride Nainital's ropeway from Mallital to Snow View (2,270 m): 3 minutes each way, from 10 am, INR 300 per adult return, with binocular views of the Himalaya.",
-   "lat": 29.399,
-   "lng": 79.457,
-   "tripTypes": [
-    "family",
-    "mountains"
-   ],
-   "images": [
-    {
-     "commons": "File:View of Nainital lake from Snow View Point.jpg",
-     "alt": "Naini Lake and Nainital town seen from Snow View Point",
-     "hero": true
-    }
-   ],
-   "sections": {
-    "overview": {
-     "text": "Snow View Point, at 2,270 m above Nainital, has stunning views of the snow-covered peaks of the Great Himalaya. A large pair of binoculars lets you look more closely at the peaks. There are food and tea stalls, and a small amusement park for children. Spend an hour or so here.\n\nMost visitors ride up on the ropeway from Mallital, a three-minute trip with aerial views over the lake. The KMVN tourist rest house at Snow View, once a British bungalow, is a peaceful place to stay.",
-     "facts": [
-      "NT9",
-      "NT8",
-      "NT25"
-     ]
-    },
-    "visit_info": {
-     "items": [
-      {
-       "title": "Ropeway",
-       "body": "Mallital ↔ Snow View, 3 minutes each way, daily from 10 am.",
-       "status": "verified"
-      },
-      {
-       "title": "Fare",
-       "body": "INR 300 per adult and INR 200 per child up to 12 years (return).",
-       "status": "verified"
-      },
-      {
-       "title": "Time at the top",
-       "body": "About an hour.",
-       "status": "estimate"
-      }
-     ],
-     "facts": [
-      "NT8"
-     ]
-    }
-   }
-  },
-  {
-   "key": "uttarakhand/tiffin-top",
-   "kind": "viewpoint",
-   "name": "Tiffin Top (Dorothy's Seat)",
-   "parent": "uttarakhand/nainital",
-   "summary": "Picnic viewpoint on Ayarpatta hill, 4 km from town, with panoramic views of Nainital.",
-   "seoTitle": "Tiffin Top Nainital: Walk to Dorothy's Seat",
-   "seoDescription": "Tiffin Top (Dorothy's Seat) on Ayarpatta hill is a 4 km walk from Nainital to a panoramic viewpoint over the town and the surrounding hills.",
-   "lat": 29.384,
-   "lng": 79.445,
-   "tripTypes": [
-    "nature"
-   ],
-   "images": [
-    {
-     "commons": "File:Tiffin-top Nainital.jpg",
-     "alt": "Hills and valleys seen from Tiffin Top above Nainital",
-     "hero": true
-    }
-   ],
-   "sections": {
-    "overview": {
-     "text": "Tiffin Top, also called Dorothy's Seat, is a picnic spot on Ayarpatta hill. It has a panoramic view of Nainital town and the surrounding hills, and it is a favourite with photographers.\n\nMany visitors walk up from town, about 4 km, which makes it an easy half-morning outing. Go early for clearer air and softer light.",
-     "facts": [
-      "NT12"
-     ]
-    },
-    "how_to_reach": {
-     "text": "Walk about 4 km uphill from Nainital town to Ayarpatta hill, or take a taxi part of the way and walk the rest.",
-     "facts": [
-      "NT12"
-     ]
-    },
-    "travel_tips": {
-     "items": [
-      {
-       "body": "Start the walk early in the morning for clear air and to avoid midday sun on the climb."
-      },
-      {
-       "body": "Wear good walking shoes; the path is uneven in places."
-      },
-      {
-       "body": "Carry water and a snack, and come down well before dark."
-      },
-      {
-       "body": "Pack a picnic: the hilltop is a classic spot for one."
-      }
-     ],
-     "facts": []
-    }
-   }
-  },
-  {
-   "key": "uttarakhand/nainital-zoo",
-   "kind": "attraction",
-   "name": "Nainital Zoo (G.B. Pant High Altitude Zoo)",
-   "parent": "uttarakhand/nainital",
-   "summary": "High-altitude zoo on Sher Ka Danda hill (2,100 m) with tigers, Tibetan wolves, leopards and Himalayan bears.",
-   "seoTitle": "Nainital Zoo: High Altitude Zoo on Sher Ka Danda",
-   "seoDescription": "Nainital's G.B. Pant High Altitude Zoo on Sher Ka Danda hill (2,100 m) keeps Bengal tigers, Tibetan wolves, leopards, deer and Himalayan bears.",
-   "lat": 29.387,
-   "lng": 79.463,
-   "tripTypes": [
-    "family",
-    "wildlife"
-   ],
-   "images": [
-    {
-     "commons": "File:Tibetan Wolf at Pt. G.B. Pant High Altitude Zoo, Nainital.jpg",
-     "alt": "Tibetan wolf at the high-altitude zoo in Nainital",
-     "hero": true
-    }
-   ],
-   "sections": {
-    "overview": {
-     "text": "The Pandit Govind Ballabh Pant High Altitude Zoo, better known as Nainital Zoo, sits on Sher Ka Danda hill at 2,100 m. It covers 4.6 hectares of green slopes and is one of the town's best-known family outings.\n\nIts animals include the Royal Bengal tiger, Tibetan wolves, leopards, several kinds of deer and the Himalayan bear, as well as many bird species. The climb up gives good views back over the town.",
-     "facts": [
-      "NT13"
-     ]
-    },
-    "who_its_for": {
-     "items": [
-      {
-       "title": "Families",
-       "body": "Himalayan animals and birds close to town."
-      }
-     ],
-     "facts": [
-      "NT13"
-     ]
-    },
-    "travel_tips": {
-     "items": [
-      {
-       "body": "The zoo is uphill from town, so wear comfortable shoes and allow two hours."
-      },
-      {
-       "body": "Mornings are best, when animals are more active and it is cooler."
-      },
-      {
-       "body": "Carry water, and don't feed or tease the animals."
-      },
-      {
-       "body": "Combine the visit with a walk on the Mall afterwards, since the zoo is close to town."
-      }
-     ],
-     "facts": []
-    }
-   }
-  },
-  {
-   "key": "uttarakhand/kainchi-dham",
-   "kind": "temple",
-   "name": "Kainchi Dham",
-   "parent": "uttarakhand/nainital",
-   "summary": "Neem Karoli Baba's Hanuman temple and ashram, 17 km from Nainital on the Almora road.",
-   "seoTitle": "Kainchi Dham from Nainital: Neem Karoli Baba Ashram",
-   "seoDescription": "Kainchi Dham, the Hanuman temple and ashram founded by Neem Karoli Baba in 1962, is 17 km from Nainital on the Almora road, 9 km past Bhowali.",
-   "lat": 29.428,
-   "lng": 79.519,
-   "tripTypes": [
-    "spiritual"
-   ],
-   "images": [
-    {
-     "commons": "File:Kaichi dham.jpg",
-     "alt": "White and red temple buildings of Kainchi Dham in a forested valley",
-     "hero": true
-    }
-   ],
-   "sections": {
-    "overview": {
-     "text": "Kainchi Dham is a Hanuman temple and ashram founded by the sage Neem Karoli Baba in 1962. It lies on the Nainital–Almora road, 9 km beyond Bhowali and 17 km from Nainital. Its name comes from the two hills that cross like a pair of scissors (kainchi) above it. A cave nearby is said to be where the Baba meditated.\n\nThe ashram became known worldwide after visits by Apple's Steve Jobs and Facebook's Mark Zuckerberg, and it now draws large crowds of devotees, especially at weekends and on festival days. Go early in the day, dress modestly, and allow time for the winding drive back to Nainital.",
-     "facts": [
-      "NT14",
-      "NT15"
-     ]
-    },
-    "how_to_reach": {
-     "text": "Take a taxi from Nainital, 17 km via Bhowali on the Almora road, or a bus towards Almora.",
-     "facts": [
-      "NT14"
-     ]
-    }
-   }
-  },
-  {
-   "key": "uttarakhand/pangot",
-   "kind": "town",
-   "name": "Pangot",
-   "parent": "uttarakhand/nainital",
-   "summary": "Forest hamlet 15 km from Nainital, famous for birdwatching with around 600 species in the Pangot–Kilbury area.",
-   "seoTitle": "Pangot near Nainital: Birdwatching & Forest Stays",
-   "seoDescription": "Pangot is a forest hamlet 15 km from Nainital and a haven for birdwatchers, with around 600 bird species recorded in the Pangot–Kilbury area.",
-   "lat": 29.439,
-   "lng": 79.43,
-   "tripTypes": [
-    "nature",
-    "wildlife"
-   ],
-   "images": [
-    {
-     "commons": "File:Kafal house, pangot, DSCN5563.JPG",
-     "alt": "A cottage in the misty forest at Pangot near Nainital",
-     "hero": true
-    }
-   ],
-   "sections": {
-    "overview": {
-     "text": "Pangot is a small, picturesque hamlet 15 km from Nainital, known for its forests and birds. Together with nearby Kilbury, 12 km from town, it forms a bird sanctuary that is home to around 600 species. That makes it a haven for birdwatchers.\n\nSummers are pleasant, with cool breezes, and in winter Pangot is often under snow. Kilbury's forest walks also give wide Himalayan views. The Naini Peak–Pangot trek from Mallital makes a good two-day walk for the fit. Bring binoculars, start at dawn when the birds are most active, and dress warmly in winter.",
-     "facts": [
-      "NT16",
-      "NT22"
-     ]
-    },
-    "how_to_reach": {
-     "text": "Pangot is 15 km from Nainital by road. Take a taxi, or walk in on the Naini Peak–Pangot trek.",
-     "facts": [
-      "NT16",
-      "NT22"
-     ]
-    },
-    "travel_tips": {
-     "items": [
-      {
-       "body": "Book forest lodges ahead in winter and spring, the peak birding seasons."
-      }
-     ],
-     "facts": []
-    }
-   }
-  },
-  {
-   "key": "uttarakhand/st-john-in-the-wilderness",
-   "kind": "attraction",
-   "name": "St John in the Wilderness",
-   "parent": "uttarakhand/nainital",
-   "displayMode": "parent_section",
-   "summary": "Neo-Gothic church of 1846 in the deodar forest, attended by Jim Corbett.",
-   "seoTitle": "St John in the Wilderness Church, Nainital",
-   "seoDescription": "St John in the Wilderness, built in 1846, is a neo-Gothic church in deodar and pine forest, one of Nainital's oldest buildings.",
-   "lat": 29.399,
-   "lng": 79.448,
-   "tripTypes": [
-    "heritage"
-   ],
-   "sections": {
-    "overview": {
-     "text": "Built in 1846, St John in the Wilderness is one of Nainital's oldest buildings: a neo-Gothic church standing in forest among tall deodar and pine trees. The hunter and naturalist Jim Corbett worshipped here regularly. It is a quiet, atmospheric stop on a forest walk above Mallital.",
-     "facts": [
-      "NT17"
-     ]
-    }
-   }
-  },
-  {
-   "key": "uttarakhand/aries-observatory",
-   "kind": "attraction",
-   "name": "ARIES Observatory, Manora Peak",
-   "parent": "uttarakhand/nainital",
-   "displayMode": "parent_section",
-   "summary": "Astronomy institute on Manora Peak with one of India's most advanced telescopes, open to visitors.",
-   "seoTitle": "ARIES Observatory, Manora Peak Nainital",
-   "seoDescription": "The Aryabhatta Research Institute of Observational Sciences (ARIES) on Manora Peak near Nainital is an astronomy institute that is open to visitors.",
-   "lat": 29.36,
-   "lng": 79.458,
-   "tripTypes": [
-    "family"
-   ],
-   "sections": {
-    "overview": {
-     "text": "The Aryabhatta Research Institute of Observational Sciences (ARIES) sits on Manora Peak near Nainital and runs one of the most advanced telescopes in India. It is a working research institute for astronomy, but it is also open to visitors, so check timings before going.",
-     "facts": [
-      "NT18"
-     ]
-    }
-   }
-  },
-  {
-   "key": "uttarakhand/himalaya-museum-nainital",
-   "kind": "museum",
-   "name": "Himalaya Museum",
-   "parent": "uttarakhand/nainital",
-   "displayMode": "parent_section",
-   "summary": "Kumaun University museum of Uttarakhand's history and culture.",
-   "seoTitle": "Himalaya Museum Nainital: Timings",
-   "seoDescription": "Kumaun University's Himalaya Museum in Nainital opens 10:30 am–1 pm and 1:30–4 pm, closed Sundays and public holidays.",
-   "lat": 29.39,
-   "lng": 79.456,
-   "tripTypes": [
-    "heritage"
-   ],
-   "sections": {
-    "overview": {
-     "text": "Kumaun University's Himalaya Museum preserves the history and culture of Uttarakhand. It opens 10:30 am–1 pm and 1:30–4 pm, and it is closed on Sundays and public holidays. Give it an hour to understand Kumaon before heading out to the hills.",
-     "facts": [
-      "NT19"
-     ]
-    }
-   }
-  }
- ],
- "itineraries": [
-  {
-   "place": "uttarakhand/nainital",
-   "slug": "nainital-3-days",
-   "title": "Nainital in 3 days with Kainchi Dham and Pangot",
-   "summary": "The lake, the Mall and Snow View on day one; Kainchi Dham and the lakes on day two; Pangot's birds and Tiffin Top on day three.",
-   "durationDays": 3,
-   "tripTypes": [
-    "mountains",
-    "family",
-    "nature"
-   ],
-   "seoTitle": "3-Day Nainital Itinerary: Lake, Kainchi Dham & Pangot",
-   "seoDescription": "A realistic three-day Nainital plan: Naini Lake, the Mall and Snow View ropeway, Kainchi Dham and nearby lakes, then Pangot birdwatching and Tiffin Top.",
-   "facts": [
-    "NT21",
-    "NT10",
-    "NT8",
-    "NT9",
-    "NT7",
-    "NT14",
-    "NT20",
-    "NT16",
-    "NT12",
-    "NT19"
-   ],
-   "plan": {
-    "overview": "Base in Mallital. Day 1 is all on foot or boat; days 2 and 3 use a taxi for the outlying sights, which lie in different directions.",
-    "start": "Nainital (from Kathgodam, 23 km)",
-    "end": "Nainital",
-    "transport": "On foot, ropeway and boat in town; taxi for days 2–3",
-    "difficulty": "Easy",
-    "days": [
-     {
-      "title": "Lake, temple and Snow View",
-      "stops": [
-       {
-        "time": "Morning",
-        "name": "Naina Devi Temple",
-        "placeSlug": "naina-devi-temple",
-        "duration": "45 minutes"
-       },
-       {
-        "time": "Late morning",
-        "name": "Ropeway to Snow View",
-        "placeSlug": "snow-view-point",
-        "duration": "1.5 hours",
-        "note": "Runs from 10 am; INR 300 per adult return."
-       },
-       {
-        "time": "Afternoon",
-        "name": "Boating on Naini Lake",
-        "duration": "1–2 hours"
-       },
-       {
-        "time": "Evening",
-        "name": "Mall Road stroll",
-        "placeSlug": "mall-road-nainital",
-        "duration": "2 hours"
-       }
+      "key": "uttarakhand/nainital",
+      "kind": "city",
+      "name": "Nainital",
+      "parent": "uttarakhand",
+      "summary": "Kumaon's lake town at about 2,000 m: boating on Naini Lake, the Mall, the Snow View ropeway and the Naina Devi temple.",
+      "seoTitle": "Nainital Travel Guide: Naini Lake, Mall Road & Snow View",
+      "seoDescription": "Plan a Nainital trip: Naini Lake boating, the Mall, the Snow View ropeway (fares and timings), Naina Devi, Kainchi Dham, Pangot and how to get there.",
+      "lat": 29.3919,
+      "lng": 79.4542,
+      "tripTypes": [
+        "mountains",
+        "family",
+        "romantic"
       ],
-      "overnight": "Nainital"
-     },
-     {
-      "title": "Kainchi Dham and the lakes",
-      "distance": "17 km to Kainchi; lakes 5–25 km",
-      "stops": [
-       {
-        "time": "Early morning",
-        "name": "Kainchi Dham",
-        "placeSlug": "kainchi-dham",
-        "duration": "1.5 hours",
-        "note": "Go early to beat the crowds."
-       },
-       {
-        "time": "Midday",
-        "name": "Naukuchiatal or Bhimtal",
-        "placeSlug": "bhimtal",
-        "duration": "2–3 hours"
-       },
-       {
-        "time": "Afternoon",
-        "name": "Sariyatal on the way back",
-        "duration": "45 minutes"
-       }
+      "images": [
+        {
+          "commons": "File:Boats on Nainital Lake 02.jpg",
+          "alt": "Colourful sailing yachts and paddle boats on Naini Lake, Nainital",
+          "hero": true
+        }
       ],
-      "overnight": "Nainital"
-     },
-     {
-      "title": "Pangot and Tiffin Top",
-      "distance": "15 km to Pangot",
-      "stops": [
-       {
-        "time": "Dawn",
-        "name": "Birdwatching at Pangot",
-        "placeSlug": "pangot",
-        "duration": "3 hours"
-       },
-       {
-        "time": "Afternoon",
-        "name": "Walk up to Tiffin Top",
-        "placeSlug": "tiffin-top",
-        "duration": "2–3 hours (about 4 km)"
-       },
-       {
-        "time": "Late afternoon",
-        "name": "Himalaya Museum (not on Sundays)",
-        "placeSlug": "himalaya-museum-nainital",
-        "duration": "1 hour"
-       }
+      "relations": [
+        {
+          "to": "uttarakhand/kainchi-dham",
+          "type": "day_trip"
+        },
+        {
+          "to": "uttarakhand/pangot",
+          "type": "day_trip"
+        },
+        {
+          "to": "uttarakhand/bhimtal",
+          "type": "nearby"
+        },
+        {
+          "to": "uttarakhand/mukteshwar",
+          "type": "nearby"
+        }
       ],
-      "overnight": "Nainital"
-     }
-    ],
-    "alternatives": [
-     "In winter snow, skip Pangot if the road is closed and add the zoo instead.",
-     "Short on time? Do day 1 plus Kainchi Dham as a 2-day trip."
-    ],
-    "booking": [
-     {
-      "item": "Ropeway",
-      "detail": "Tickets at Mallital; INR 300 adult / INR 200 child (return)."
-     },
-     {
-      "item": "Christmas–New Year",
-      "detail": "Book rooms early; snow season is peak."
-     }
-    ],
-    "budget": {
-     "assumptions": "VacayOut has no verified current prices for Nainital hotels, transport or activities. Budget for your own choices and confirm fees with operators on the spot.",
-     "lines": []
+      "sections": {
+        "overview": {
+          "text": "Nainital is one of north India's most popular hill stations, and it is often called the Lake District. The town sits at around 2,000 m in the Kumaon Himalaya, ringed by seven hills around the emerald, crescent-shaped Naini Lake, where sailboats and paddle boats drift most days. Legend says the lake formed where the eyes of the goddess Sati fell, and the Naina Devi temple stands at its edge.\n\nThe British made Nainital the summer capital of the United Provinces, and colonial villas, churches and schools still line the forested slopes. Life centres on the Mall, which runs along the lake between Mallital and Tallital. A ropeway climbs to Snow View for Himalayan panoramas.\n\nIt suits families, couples and first-time visitors. Kainchi Dham, Pangot's birdlife and a string of quieter lakes are all close by.",
+          "facts": [
+            "NT1",
+            "NT11",
+            "NT10",
+            "NT2",
+            "NT7",
+            "NT8",
+            "NT14",
+            "NT16",
+            "NT20"
+          ]
+        },
+        "best_time": {
+          "text": "Nainital is a year-round destination, but the weather is best from March to June. Winter brings heavy snow and turns the town white, which makes it popular for Christmas and New Year. The monsoon months are greener and quieter, but expect rain on the hill roads.",
+          "facts": [
+            "NT3"
+          ]
+        },
+        "local_transport": {
+          "text": "Central Nainital is compact. Walk the Mall along the lake between Mallital and Tallital, or cross by boat. The ropeway runs from Mallital up to Snow View in three minutes, daily from 10 am.\n\nFor Kainchi Dham (17 km), Pangot (15 km), Ghorakhal (17 km) and the lakes at Sariyatal, Khurpatal and Naukuchiatal, hire a taxi. Buses come up from Kathgodam station, 23 km below.",
+          "facts": [
+            "NT7",
+            "NT8",
+            "NT14",
+            "NT16",
+            "NT23",
+            "NT20",
+            "NT5"
+          ]
+        },
+        "neighbourhoods": {
+          "items": [
+            {
+              "title": "Mallital",
+              "body": "The upper (north) end of the lake and the Mall: the best shopping and dining, the ropeway and the Naina Devi temple.",
+              "status": "verified"
+            },
+            {
+              "title": "The Mall (G.B. Pant Marg)",
+              "body": "The lakeside promenade between Mallital and Tallital, lined with restaurants and shops.",
+              "status": "verified"
+            },
+            {
+              "title": "Tallital",
+              "body": "The lower (south) end of the lake, at the other end of the Mall. Closest to the road down to Kathgodam.",
+              "status": "verified"
+            },
+            {
+              "title": "Snow View and Ayarpatta",
+              "body": "The hills above town: Snow View by ropeway, and Tiffin Top on Ayarpatta for panoramas.",
+              "status": "verified"
+            },
+            {
+              "title": "Pangot and Kilbury",
+              "body": "Forest hamlets 12–15 km away, for birdwatching and quiet stays.",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "NT24",
+            "NT10",
+            "NT8",
+            "NT7",
+            "NT9",
+            "NT12",
+            "NT16"
+          ]
+        },
+        "where_to_stay": {
+          "text": "Mallital and the Mall are the most convenient bases for a first visit, close to the lake, the ropeway, restaurants and shops. For views and quiet, stay up at Snow View: the KMVN tourist rest house there is a former British bungalow. Birdwatchers and anyone seeking silence should look at the forest hamlets of Pangot and Kilbury, 12–15 km out.",
+          "facts": [
+            "NT24",
+            "NT7",
+            "NT8",
+            "NT25",
+            "NT16"
+          ]
+        },
+        "who_its_for": {
+          "items": [
+            {
+              "title": "Families",
+              "body": "Boating, the ropeway, Snow View's amusement park and the High Altitude Zoo."
+            },
+            {
+              "title": "Couples",
+              "body": "Lake evenings on the Mall, sailing, and sunsets from Tiffin Top."
+            },
+            {
+              "title": "Birdwatchers",
+              "body": "Pangot and Kilbury, with around 600 bird species."
+            },
+            {
+              "title": "Pilgrims",
+              "body": "Naina Devi temple and Kainchi Dham."
+            },
+            {
+              "title": "Adventure seekers",
+              "body": "Paragliding around Bhimtal–Jangli Gaon and Kotabagh, hot-air balloons at Sukhatal, and treks to Naini Peak and Khurpatal."
+            }
+          ],
+          "facts": [
+            "NT21",
+            "NT8",
+            "NT9",
+            "NT13",
+            "NT7",
+            "NT12",
+            "NT16",
+            "NT10",
+            "NT14",
+            "NT26",
+            "NT22"
+          ]
+        },
+        "shopping": {
+          "items": [
+            {
+              "body": "Handmade candles and pinewood crafts from local artisans, along the Mall.",
+              "status": "verified"
+            },
+            {
+              "body": "Mallital has the widest choice of shops and restaurants.",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "NT7",
+            "NT24"
+          ]
+        },
+        "travel_tips": {
+          "items": [
+            {
+              "body": "Take the ropeway up to Snow View early (it starts at 10 am) and allow an hour at the top."
+            },
+            {
+              "body": "Visit Kainchi Dham early in the day; it gets crowded."
+            },
+            {
+              "body": "Book Christmas and New Year stays early: snow makes it peak season."
+            },
+            {
+              "body": "Bring binoculars to Pangot. The Pangot–Kilbury area has around 600 bird species."
+            }
+          ],
+          "facts": [
+            "NT8",
+            "NT14",
+            "NT15",
+            "NT3",
+            "NT16"
+          ]
+        },
+        "common_mistakes": {
+          "items": [
+            {
+              "body": "Trying to see Kainchi Dham, Pangot and the outer lakes in one day. They lie in different directions."
+            },
+            {
+              "body": "Skipping the ropeway on a cloudy morning. Views from Snow View are best on clear days, so check before buying."
+            },
+            {
+              "body": "Visiting the Himalaya Museum on a Sunday, when it is closed."
+            }
+          ],
+          "facts": [
+            "NT14",
+            "NT16",
+            "NT20",
+            "NT9",
+            "NT19"
+          ]
+        },
+        "faqs": {
+          "items": [
+            {
+              "title": "How do I reach Nainital?",
+              "body": "Take a train to Kathgodam, 23 km away (the Ranikhet Express runs from Delhi), then a bus or taxi. Alternatively, fly to Pantnagar (70 km), or take a bus from Delhi's Kashmiri Gate (about 7 hours)."
+            },
+            {
+              "title": "What does the Nainital ropeway cost?",
+              "body": "INR 300 per adult and INR 200 per child up to 12, return. It runs from 10 am daily between Mallital and Snow View."
+            },
+            {
+              "title": "When is the best time to visit?",
+              "body": "March to June for the best weather. Winter (December–January) for snow."
+            },
+            {
+              "title": "How far is Kainchi Dham from Nainital?",
+              "body": "About 17 km, on the road to Almora (9 km beyond Bhowali)."
+            }
+          ],
+          "facts": [
+            "NT5",
+            "NT4",
+            "NT6",
+            "NT8",
+            "NT3",
+            "NT14"
+          ]
+        }
+      }
+    },
+    {
+      "key": "uttarakhand/naina-devi-temple",
+      "kind": "temple",
+      "name": "Naina Devi Temple",
+      "parent": "uttarakhand/nainital",
+      "summary": "Revered temple to goddess Naina Devi on the edge of Naini Lake at Mallital.",
+      "seoTitle": "Naina Devi Temple Nainital: Legend & Visiting",
+      "seoDescription": "Naina Devi temple stands on the edge of Naini Lake at Mallital, below Naina Peak, and is one of Nainital's most revered shrines.",
+      "lat": 29.3946,
+      "lng": 79.454,
+      "tripTypes": [
+        "spiritual"
+      ],
+      "images": [
+        {
+          "commons": "File:Maa Naina Devi Temple, Nainital, Uttarakhand, India.jpg",
+          "alt": "Naina Devi temple lit up on the edge of Naini Lake at dusk",
+          "hero": true
+        }
+      ],
+      "sections": {
+        "overview": {
+          "text": "The Naina Devi temple, dedicated to the goddess Naina Devi, stands on the edge of Naini Lake at the Mallital end of town, below Naina hill. It is one of the most revered temples in the region. The goddess is represented by two eyes, linking it to the legend that the lake formed where the eyes of the goddess Sati fell.\n\nDevotees come all year. Above the temple, Naina Peak, locally Cheena Peak, is the highest point in Nainital and the goal of a popular trek from Mallital via Snow View.",
+          "facts": [
+            "NT10",
+            "NT11",
+            "NT22"
+          ]
+        },
+        "how_to_reach": {
+          "text": "The temple is at Mallital, at the upper end of the Mall, next to the lake and close to the ropeway station.",
+          "facts": [
+            "NT24",
+            "NT10"
+          ]
+        },
+        "travel_tips": {
+          "items": [
+            {
+              "body": "Visit early morning or at dusk, when the lakeside is calmer and the temple lights reflect on the water."
+            },
+            {
+              "body": "Remove shoes and dress modestly; leave bags with someone outside if the queue is long."
+            }
+          ],
+          "facts": []
+        }
+      }
+    },
+    {
+      "key": "uttarakhand/mall-road-nainital",
+      "kind": "attraction",
+      "name": "Mall Road, Nainital",
+      "parent": "uttarakhand/nainital",
+      "summary": "Nainital's lakeside promenade between Mallital and Tallital, lined with restaurants and craft shops.",
+      "seoTitle": "Mall Road Nainital: Lakeside Walk & Shopping",
+      "seoDescription": "Walk Nainital's Mall Road (G.B. Pant Marg) along Naini Lake from Mallital to Tallital: restaurants, handmade candles and pinewood crafts.",
+      "lat": 29.389,
+      "lng": 79.456,
+      "tripTypes": [
+        "family",
+        "romantic"
+      ],
+      "images": [
+        {
+          "commons": "File:Upper Mall Road, Nainital.jpg",
+          "alt": "Shops and walkers on the Upper Mall Road in Nainital",
+          "hero": true
+        }
+      ],
+      "sections": {
+        "overview": {
+          "text": "The British built the Mall to join the two ends of Nainital, Mallital and Tallital, along the shore of Naini Lake. Officially it is Govind Ballabh Pant Marg. It is the town's busiest street, lined with multi-cuisine restaurants and shops.\n\nThe buys here are handmade candles and pinewood crafts made by local artisans. An evening stroll gives sweeping views over the lake and the town climbing the slopes. Mallital, at the upper end, has the widest choice of shopping and dining.",
+          "facts": [
+            "NT7",
+            "NT24"
+          ]
+        },
+        "shopping": {
+          "items": [
+            {
+              "body": "Handmade candles",
+              "status": "verified"
+            },
+            {
+              "body": "Pinewood artefacts",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "NT7"
+          ]
+        },
+        "travel_tips": {
+          "items": [
+            {
+              "body": "Walk the Mall in the evening when the lake lights come on, starting at Mallital and ending at Tallital."
+            },
+            {
+              "body": "Carry small change for boat rides and street snacks, and keep an eye on traffic where vehicles share the road."
+            },
+            {
+              "body": "Weekends and holidays are crowded; weekday evenings are calmer."
+            }
+          ],
+          "facts": []
+        }
+      }
+    },
+    {
+      "key": "uttarakhand/snow-view-point",
+      "kind": "viewpoint",
+      "name": "Snow View Point and Ropeway",
+      "parent": "uttarakhand/nainital",
+      "summary": "Viewpoint at 2,270 m reached by a 3-minute ropeway from Mallital, with binoculars for Himalayan peaks.",
+      "seoTitle": "Snow View Nainital: Ropeway Fare, Timings & Views",
+      "seoDescription": "Ride Nainital's ropeway from Mallital to Snow View (2,270 m): 3 minutes each way, from 10 am, INR 300 per adult return, with binocular views of the Himalaya.",
+      "lat": 29.399,
+      "lng": 79.457,
+      "tripTypes": [
+        "family",
+        "mountains"
+      ],
+      "images": [
+        {
+          "commons": "File:View of Nainital lake from Snow View Point.jpg",
+          "alt": "Naini Lake and Nainital town seen from Snow View Point",
+          "hero": true
+        }
+      ],
+      "sections": {
+        "overview": {
+          "text": "Snow View Point, at 2,270 m above Nainital, has stunning views of the snow-covered peaks of the Great Himalaya. A large pair of binoculars lets you look more closely at the peaks. There are food and tea stalls, and a small amusement park for children. Spend an hour or so here.\n\nMost visitors ride up on the ropeway from Mallital, a three-minute trip with aerial views over the lake. The KMVN tourist rest house at Snow View, once a British bungalow, is a peaceful place to stay.",
+          "facts": [
+            "NT9",
+            "NT8",
+            "NT25"
+          ]
+        },
+        "visit_info": {
+          "items": [
+            {
+              "title": "Ropeway",
+              "body": "Mallital ↔ Snow View, 3 minutes each way, daily from 10 am.",
+              "status": "verified"
+            },
+            {
+              "title": "Fare",
+              "body": "INR 300 per adult and INR 200 per child up to 12 years (return).",
+              "status": "verified"
+            },
+            {
+              "title": "Time at the top",
+              "body": "About an hour.",
+              "status": "estimate"
+            }
+          ],
+          "facts": [
+            "NT8"
+          ]
+        }
+      }
+    },
+    {
+      "key": "uttarakhand/tiffin-top",
+      "kind": "viewpoint",
+      "name": "Tiffin Top (Dorothy's Seat)",
+      "parent": "uttarakhand/nainital",
+      "summary": "Picnic viewpoint on Ayarpatta hill, 4 km from town, with panoramic views of Nainital.",
+      "seoTitle": "Tiffin Top Nainital: Walk to Dorothy's Seat",
+      "seoDescription": "Tiffin Top (Dorothy's Seat) on Ayarpatta hill is a 4 km walk from Nainital to a panoramic viewpoint over the town and the surrounding hills.",
+      "lat": 29.384,
+      "lng": 79.445,
+      "tripTypes": [
+        "nature"
+      ],
+      "images": [
+        {
+          "commons": "File:Tiffin-top Nainital.jpg",
+          "alt": "Hills and valleys seen from Tiffin Top above Nainital",
+          "hero": true
+        }
+      ],
+      "sections": {
+        "overview": {
+          "text": "Tiffin Top, also called Dorothy's Seat, is a picnic spot on Ayarpatta hill. It has a panoramic view of Nainital town and the surrounding hills, and it is a favourite with photographers.\n\nMany visitors walk up from town, about 4 km, which makes it an easy half-morning outing. Go early for clearer air and softer light.",
+          "facts": [
+            "NT12"
+          ]
+        },
+        "how_to_reach": {
+          "text": "Walk about 4 km uphill from Nainital town to Ayarpatta hill, or take a taxi part of the way and walk the rest.",
+          "facts": [
+            "NT12"
+          ]
+        },
+        "travel_tips": {
+          "items": [
+            {
+              "body": "Start the walk early in the morning for clear air and to avoid midday sun on the climb."
+            },
+            {
+              "body": "Wear good walking shoes; the path is uneven in places."
+            },
+            {
+              "body": "Carry water and a snack, and come down well before dark."
+            },
+            {
+              "body": "Pack a picnic: the hilltop is a classic spot for one."
+            }
+          ],
+          "facts": []
+        }
+      }
+    },
+    {
+      "key": "uttarakhand/nainital-zoo",
+      "kind": "attraction",
+      "name": "Nainital Zoo (G.B. Pant High Altitude Zoo)",
+      "parent": "uttarakhand/nainital",
+      "summary": "High-altitude zoo on Sher Ka Danda hill (2,100 m) with tigers, Tibetan wolves, leopards and Himalayan bears.",
+      "seoTitle": "Nainital Zoo: High Altitude Zoo on Sher Ka Danda",
+      "seoDescription": "Nainital's G.B. Pant High Altitude Zoo on Sher Ka Danda hill (2,100 m) keeps Bengal tigers, Tibetan wolves, leopards, deer and Himalayan bears.",
+      "lat": 29.387,
+      "lng": 79.463,
+      "tripTypes": [
+        "family",
+        "wildlife"
+      ],
+      "images": [
+        {
+          "commons": "File:Tibetan Wolf at Pt. G.B. Pant High Altitude Zoo, Nainital.jpg",
+          "alt": "Tibetan wolf at the high-altitude zoo in Nainital",
+          "hero": true
+        }
+      ],
+      "sections": {
+        "overview": {
+          "text": "The Pandit Govind Ballabh Pant High Altitude Zoo, better known as Nainital Zoo, sits on Sher Ka Danda hill at 2,100 m. It covers 4.6 hectares of green slopes and is one of the town's best-known family outings.\n\nIts animals include the Royal Bengal tiger, Tibetan wolves, leopards, several kinds of deer and the Himalayan bear, as well as many bird species. The climb up gives good views back over the town.",
+          "facts": [
+            "NT13"
+          ]
+        },
+        "who_its_for": {
+          "items": [
+            {
+              "title": "Families",
+              "body": "Himalayan animals and birds close to town."
+            }
+          ],
+          "facts": [
+            "NT13"
+          ]
+        },
+        "travel_tips": {
+          "items": [
+            {
+              "body": "The zoo is uphill from town, so wear comfortable shoes and allow two hours."
+            },
+            {
+              "body": "Mornings are best, when animals are more active and it is cooler."
+            },
+            {
+              "body": "Carry water, and don't feed or tease the animals."
+            },
+            {
+              "body": "Combine the visit with a walk on the Mall afterwards, since the zoo is close to town."
+            }
+          ],
+          "facts": []
+        }
+      }
+    },
+    {
+      "key": "uttarakhand/kainchi-dham",
+      "kind": "temple",
+      "name": "Kainchi Dham",
+      "parent": "uttarakhand/nainital",
+      "summary": "Neem Karoli Baba's Hanuman temple and ashram, 17 km from Nainital on the Almora road.",
+      "seoTitle": "Kainchi Dham from Nainital: Neem Karoli Baba Ashram",
+      "seoDescription": "Kainchi Dham, the Hanuman temple and ashram founded by Neem Karoli Baba in 1962, is 17 km from Nainital on the Almora road, 9 km past Bhowali.",
+      "lat": 29.428,
+      "lng": 79.519,
+      "tripTypes": [
+        "spiritual"
+      ],
+      "images": [
+        {
+          "commons": "File:Kaichi dham.jpg",
+          "alt": "White and red temple buildings of Kainchi Dham in a forested valley",
+          "hero": true
+        }
+      ],
+      "sections": {
+        "overview": {
+          "text": "Kainchi Dham is a Hanuman temple and ashram founded by the sage Neem Karoli Baba in 1962. It lies on the Nainital–Almora road, 9 km beyond Bhowali and 17 km from Nainital. Its name comes from the two hills that cross like a pair of scissors (kainchi) above it. A cave nearby is said to be where the Baba meditated.\n\nThe ashram became known worldwide after visits by Apple's Steve Jobs and Facebook's Mark Zuckerberg, and it now draws large crowds of devotees, especially at weekends and on festival days. Go early in the day, dress modestly, and allow time for the winding drive back to Nainital.",
+          "facts": [
+            "NT14",
+            "NT15"
+          ]
+        },
+        "how_to_reach": {
+          "text": "Take a taxi from Nainital, 17 km via Bhowali on the Almora road, or a bus towards Almora.",
+          "facts": [
+            "NT14"
+          ]
+        }
+      }
+    },
+    {
+      "key": "uttarakhand/pangot",
+      "kind": "town",
+      "name": "Pangot",
+      "parent": "uttarakhand/nainital",
+      "summary": "Forest hamlet 15 km from Nainital, famous for birdwatching with around 600 species in the Pangot–Kilbury area.",
+      "seoTitle": "Pangot near Nainital: Birdwatching & Forest Stays",
+      "seoDescription": "Pangot is a forest hamlet 15 km from Nainital and a haven for birdwatchers, with around 600 bird species recorded in the Pangot–Kilbury area.",
+      "lat": 29.439,
+      "lng": 79.43,
+      "tripTypes": [
+        "nature",
+        "wildlife"
+      ],
+      "images": [
+        {
+          "commons": "File:Kafal house, pangot, DSCN5563.JPG",
+          "alt": "A cottage in the misty forest at Pangot near Nainital",
+          "hero": true
+        }
+      ],
+      "sections": {
+        "overview": {
+          "text": "Pangot is a small, picturesque hamlet 15 km from Nainital, known for its forests and birds. Together with nearby Kilbury, 12 km from town, it forms a bird sanctuary that is home to around 600 species. That makes it a haven for birdwatchers.\n\nSummers are pleasant, with cool breezes, and in winter Pangot is often under snow. Kilbury's forest walks also give wide Himalayan views. The Naini Peak–Pangot trek from Mallital makes a good two-day walk for the fit. Bring binoculars, start at dawn when the birds are most active, and dress warmly in winter.",
+          "facts": [
+            "NT16",
+            "NT22"
+          ]
+        },
+        "how_to_reach": {
+          "text": "Pangot is 15 km from Nainital by road. Take a taxi, or walk in on the Naini Peak–Pangot trek.",
+          "facts": [
+            "NT16",
+            "NT22"
+          ]
+        },
+        "travel_tips": {
+          "items": [
+            {
+              "body": "Book forest lodges ahead in winter and spring, the peak birding seasons."
+            }
+          ],
+          "facts": []
+        }
+      }
+    },
+    {
+      "key": "uttarakhand/st-john-in-the-wilderness",
+      "kind": "attraction",
+      "name": "St John in the Wilderness",
+      "parent": "uttarakhand/nainital",
+      "displayMode": "parent_section",
+      "summary": "Neo-Gothic church of 1846 in the deodar forest, attended by Jim Corbett.",
+      "seoTitle": "St John in the Wilderness Church, Nainital",
+      "seoDescription": "St John in the Wilderness, built in 1846, is a neo-Gothic church in deodar and pine forest, one of Nainital's oldest buildings.",
+      "lat": 29.399,
+      "lng": 79.448,
+      "tripTypes": [
+        "heritage"
+      ],
+      "sections": {
+        "overview": {
+          "text": "Built in 1846, St John in the Wilderness is one of Nainital's oldest buildings: a neo-Gothic church standing in forest among tall deodar and pine trees. The hunter and naturalist Jim Corbett worshipped here regularly. It is a quiet, atmospheric stop on a forest walk above Mallital.",
+          "facts": [
+            "NT17"
+          ]
+        }
+      }
+    },
+    {
+      "key": "uttarakhand/aries-observatory",
+      "kind": "attraction",
+      "name": "ARIES Observatory, Manora Peak",
+      "parent": "uttarakhand/nainital",
+      "displayMode": "parent_section",
+      "summary": "Astronomy institute on Manora Peak with one of India's most advanced telescopes, open to visitors.",
+      "seoTitle": "ARIES Observatory, Manora Peak Nainital",
+      "seoDescription": "The Aryabhatta Research Institute of Observational Sciences (ARIES) on Manora Peak near Nainital is an astronomy institute that is open to visitors.",
+      "lat": 29.36,
+      "lng": 79.458,
+      "tripTypes": [
+        "family"
+      ],
+      "sections": {
+        "overview": {
+          "text": "The Aryabhatta Research Institute of Observational Sciences (ARIES) sits on Manora Peak near Nainital and runs one of the most advanced telescopes in India. It is a working research institute for astronomy, but it is also open to visitors, so check timings before going.",
+          "facts": [
+            "NT18"
+          ]
+        }
+      }
+    },
+    {
+      "key": "uttarakhand/himalaya-museum-nainital",
+      "kind": "museum",
+      "name": "Himalaya Museum",
+      "parent": "uttarakhand/nainital",
+      "displayMode": "parent_section",
+      "summary": "Kumaun University museum of Uttarakhand's history and culture.",
+      "seoTitle": "Himalaya Museum Nainital: Timings",
+      "seoDescription": "Kumaun University's Himalaya Museum in Nainital opens 10:30 am–1 pm and 1:30–4 pm, closed Sundays and public holidays.",
+      "lat": 29.39,
+      "lng": 79.456,
+      "tripTypes": [
+        "heritage"
+      ],
+      "sections": {
+        "overview": {
+          "text": "Kumaun University's Himalaya Museum preserves the history and culture of Uttarakhand. It opens 10:30 am–1 pm and 1:30–4 pm, and it is closed on Sundays and public holidays. Give it an hour to understand Kumaon before heading out to the hills.",
+          "facts": [
+            "NT19"
+          ]
+        }
+      }
     }
-   },
-   "sources": []
-  }
- ]
+  ],
+  "itineraries": [
+    {
+      "place": "uttarakhand/nainital",
+      "slug": "nainital-3-days",
+      "title": "Nainital in 3 days with Kainchi Dham and Pangot",
+      "summary": "Naina Devi and the lake, the ropeway to Snow View and the Mall on Day 1; Kainchi Dham and the lakes on Day 2; birding at Pangot and the walk to Tiffin Top on Day 3.",
+      "durationDays": 3,
+      "tripTypes": [
+        "mountains",
+        "family",
+        "nature"
+      ],
+      "seoTitle": "Nainital 3-Day Itinerary: Lake, Snow View, Kainchi Dham, Pangot",
+      "seoDescription": "Three days in Nainital: Naina Devi, the Snow View ropeway (₹300 return), boating, Kainchi Dham (17 km), Sariyatal and Khurpatal, then Pangot's birds and Tiffin Top.",
+      "facts": [
+        "NT1",
+        "NT2",
+        "NT3",
+        "NT4",
+        "NT5",
+        "NT6",
+        "NT7",
+        "NT8",
+        "NT9",
+        "NT10",
+        "NT11",
+        "NT12",
+        "NT13",
+        "NT14",
+        "NT16",
+        "NT17",
+        "NT19",
+        "NT20",
+        "NT21",
+        "NT22",
+        "NT24"
+      ],
+      "plan": {
+        "overview": "Nainital wraps around Naini Lake at about 2,000 m in the Kumaon hills. Day 1 is the lake itself: the Naina Devi temple at its edge, the ropeway from Mallital to Snow View (3 minutes each way), boating, and an evening on the Mall. Day 2 drives 17 km on the Almora road to Kainchi Dham, Neem Karoli Baba's ashram, then visits the smaller lakes of Sariyatal and Khurpatal. Day 3 starts with birdwatching at Pangot, 15 km out, and ends with the walk up to Tiffin Top for the view over town.",
+        "style": "Lake-town family break",
+        "start": "Kathgodam station (23 km) or Pantnagar airport (70 km); Delhi is about 300 km",
+        "end": "Nainital",
+        "season": "Visited all year; weather is best March–June, and winter snow makes it popular at Christmas and New Year.",
+        "difficulty": "Easy to moderate — the Tiffin Top walk climbs",
+        "transport": "Walk the Mall; taxi for Kainchi Dham, the lakes and Pangot.",
+        "budget": {
+          "assumptions": "Hotels, taxis and boating vary; only the ropeway price is reported.",
+          "lines": [
+            {
+              "label": "Snow View ropeway (return)",
+              "amount": "₹300 (adult) / ₹200 (child up to 12)",
+              "basis": "Reported price"
+            },
+            {
+              "label": "Boating, taxis",
+              "amount": "Not estimated",
+              "basis": "Agree on the spot"
+            }
+          ]
+        },
+        "booking": [
+          {
+            "item": "Train",
+            "detail": "Book the Ranikhet Express or another train to Kathgodam; buses and taxis continue 23 km to Nainital."
+          },
+          {
+            "item": "Hotel",
+            "detail": "Book early for summer and Christmas–New Year."
+          }
+        ],
+        "alternatives": [
+          "Want boating on a quieter lake? Go on to Naukuchiatal (25 km) on Day 2.",
+          "With children, add the High Altitude Zoo on Sher Ka Danda hill."
+        ],
+        "tips": [
+          "Take the ropeway early (from 10 am) before queues build.",
+          "Kainchi Dham is busy at weekends; go early.",
+          "Mallital, at the upper end of the lake, has the most shops and food."
+        ],
+        "prep": [
+          {
+            "title": "Clothing",
+            "body": "Carry warm layers; mornings at Pangot and evenings by the lake are cold, especially in winter."
+          }
+        ],
+        "faqs": [
+          {
+            "q": "How far is Kainchi Dham from Nainital?",
+            "a": "About 17 km on the Almora road."
+          },
+          {
+            "q": "How do I reach Nainital by train?",
+            "a": "Take a train to Kathgodam (23 km away), then a bus or taxi."
+          }
+        ],
+        "days": [
+          {
+            "title": "Lake, temple and Snow View",
+            "summary": "The goddess's temple, the ropeway and an evening on the Mall.",
+            "stops": [
+              {
+                "time": "8:30 am",
+                "name": "Naina Devi Temple",
+                "duration": "45 minutes",
+                "placeSlug": "naina-devi-temple",
+                "note": "On the lake's edge below Naina Peak."
+              },
+              {
+                "time": "10 am",
+                "name": "Ropeway to Snow View",
+                "duration": "2 hours",
+                "placeSlug": "snow-view-point",
+                "note": "From Mallital, 3 minutes each way; binoculars for the high Himalaya."
+              },
+              {
+                "time": "12:30 pm",
+                "name": "Lunch in Mallital",
+                "duration": "1 hour"
+              },
+              {
+                "time": "2 pm",
+                "name": "Boating on Naini Lake",
+                "duration": "1 hour",
+                "placeSlug": "nainital",
+                "note": "Kayaking, canoeing, yachting and paddle boats."
+              },
+              {
+                "time": "5 pm",
+                "name": "Mall Road stroll",
+                "duration": "2 hours",
+                "placeSlug": "mall-road-nainital",
+                "note": "Between Mallital and Tallital."
+              }
+            ],
+            "travel": "All in town, on foot and by ropeway.",
+            "distanceKm": 4,
+            "distance": "About 4 km on foot (estimate)",
+            "driveTime": "None — walking day",
+            "transport": "Walking and ropeway",
+            "meals": "Lunch and dinner in Mallital.",
+            "overnight": "Nainital"
+          },
+          {
+            "title": "Kainchi Dham and the lakes",
+            "summary": "Neem Karoli Baba's ashram, then two quieter lakes.",
+            "stops": [
+              {
+                "time": "7:30 am",
+                "name": "Kainchi Dham",
+                "duration": "1.5 hours",
+                "placeSlug": "kainchi-dham",
+                "note": "17 km on the Almora road; founded in 1962."
+              },
+              {
+                "time": "10:30 am",
+                "name": "Back towards Nainital",
+                "duration": "1 hour"
+              },
+              {
+                "time": "12 pm",
+                "name": "Lunch",
+                "duration": "1 hour"
+              },
+              {
+                "time": "1:30 pm",
+                "name": "Sariyatal",
+                "duration": "45 minutes",
+                "placeSlug": "nainital",
+                "note": "About 5 km from Nainital."
+              },
+              {
+                "time": "2:45 pm",
+                "name": "Khurpatal",
+                "duration": "1.5 hours",
+                "placeSlug": "nainital",
+                "note": "About 12 km from Nainital."
+              }
+            ],
+            "travel": "Nainital ↔ Kainchi Dham about 17 km each way; Sariyatal 5 km and Khurpatal 12 km.",
+            "distanceKm": 60,
+            "distance": "About 60 km (estimate)",
+            "driveTime": "About 2.5 hours in total (estimate)",
+            "transport": "Taxi",
+            "meals": "Lunch in town.",
+            "overnight": "Nainital"
+          },
+          {
+            "title": "Pangot and Tiffin Top",
+            "summary": "Birds at dawn, then a walk to the town's best viewpoint.",
+            "stops": [
+              {
+                "time": "6 am",
+                "name": "Birdwatching at Pangot",
+                "duration": "3 hours",
+                "placeSlug": "pangot",
+                "note": "15 km away; around 600 bird species recorded in the Pangot–Kilbury area."
+              },
+              {
+                "time": "10 am",
+                "name": "Breakfast",
+                "duration": "1 hour"
+              },
+              {
+                "time": "12 pm",
+                "name": "St John in the Wilderness",
+                "duration": "45 minutes",
+                "placeSlug": "st-john-in-the-wilderness",
+                "note": "1846 church in the deodars; Jim Corbett attended."
+              },
+              {
+                "time": "2 pm",
+                "name": "Walk to Tiffin Top",
+                "duration": "2.5 hours",
+                "placeSlug": "tiffin-top",
+                "note": "On Ayarpatta hill, 4 km from town."
+              },
+              {
+                "time": "Before 4 pm",
+                "name": "Himalaya Museum (not Sundays)",
+                "duration": "45 minutes",
+                "placeSlug": "himalaya-museum-nainital",
+                "note": "Open 10:30 am–1 pm and 1:30–4 pm."
+              }
+            ],
+            "travel": "Nainital ↔ Pangot about 15 km each way; Tiffin Top is a 4 km walk.",
+            "distanceKm": 35,
+            "distance": "About 35 km plus walking (estimate)",
+            "driveTime": "About 1.5 hours driving (estimate)",
+            "transport": "Taxi and walking",
+            "meals": "Breakfast after birding.",
+            "overnight": "Nainital"
+          }
+        ]
+      }
+    }
+  ]
 }

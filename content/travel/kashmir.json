@@ -473,6 +473,41 @@
       "url": "https://srinagar.nic.in/tourist-place/tulip-garden/",
       "title": "Tulip Garden — District Srinagar, Government of Jammu and Kashmir",
       "authority": "government"
+    },
+    "VK_PHG": {
+      "url": "https://vargiskhan.com/log/?p=37475",
+      "title": "Pahalgam travel guide — Vargis Khan",
+      "authority": "travel_platform"
+    },
+    "SAV_PHG": {
+      "url": "https://www.savaari.com/blog/?p=27684",
+      "title": "Srinagar to Pahalgam by road — Savaari",
+      "authority": "travel_platform"
+    },
+    "TC_PAHCL": {
+      "url": "https://travelcoffee.in/blog/kashmir-itinerary-5-days",
+      "title": "Kashmir itinerary 5 days (2026 Pahalgam closure notice) — TravelCoffee",
+      "authority": "travel_platform"
+    },
+    "TC_PAHOP": {
+      "url": "https://travelcoffee.in/blog/pahalgam-without-pony-rides",
+      "title": "Pahalgam without pony rides (2026) — TravelCoffee",
+      "authority": "travel_platform"
+    },
+    "ZT_GON": {
+      "url": "https://zoutons.com/news/gulmarg-trip-guide-2026",
+      "title": "Gulmarg trip 2026 — Zoutons",
+      "authority": "media"
+    },
+    "TC_GON": {
+      "url": "https://travelcoffee.in/blog/gulmarg-gondola-guide",
+      "title": "Gulmarg Gondola guide (2026) — TravelCoffee",
+      "authority": "travel_platform"
+    },
+    "TC_SON": {
+      "url": "https://travelcoffee.in/places-to-visit/thajiwas-glacier-sonamarg",
+      "title": "Thajiwas Glacier, Sonamarg — TravelCoffee",
+      "authority": "travel_platform"
     }
   },
   "facts": {
@@ -2441,6 +2476,117 @@
         {
           "source": "DOD_JAI",
           "quote": "a Youth Hostel which accomodates around 150 guests"
+        }
+      ]
+    },
+    "KSH_SRPH": {
+      "place": "jammu-and-kashmir/pahalgam",
+      "topic": "Road from Srinagar",
+      "claimType": "distance",
+      "kind": "estimate",
+      "claim": "Pahalgam is about 90–100 km from Srinagar, about 3 hours by car; the usual road runs via Awantipora and Anantnag.",
+      "evidence": [
+        {
+          "source": "VK_PHG",
+          "quote": "The travel time from Srinagar to Pahalgam is 3 hours by car and bike and 5-6 hours by Bus."
+        },
+        {
+          "source": "VK_PHG",
+          "quote": "is about 90-100 kilometers"
+        },
+        {
+          "source": "SAV_PHG",
+          "quote": "Srinagar - Awantipora - Anantnag - Hassan Noor - Pahalgam"
+        }
+      ]
+    },
+    "PAH_CL": {
+      "place": "jammu-and-kashmir/pahalgam",
+      "topic": "2026 closures around Pahalgam",
+      "claimType": "rule",
+      "kind": "seasonal",
+      "claim": "A District Anantnag notice of 7 July 2026 lists Chandanwari, Baisaran and Tulian Lake as closed to tourists, with an end date of 31 December 2026.",
+      "conflictNote": "Reported by a travel site from the district order; re-check the latest order before travel.",
+      "evidence": [
+        {
+          "source": "TC_PAHCL",
+          "quote": "An official District Anantnag notice dated 7 July 2026 lists Chandanwari, Baisaran and Tulian Lake among closed tourist destinations."
+        },
+        {
+          "source": "TC_PAHCL",
+          "quote": "The notice shows an end date of 31 December 2026."
+        }
+      ]
+    },
+    "PAH_OP": {
+      "place": "jammu-and-kashmir/pahalgam",
+      "topic": "Betaab and Aru valleys reopened",
+      "claimType": "rule",
+      "kind": "seasonal",
+      "claim": "Betaab Valley reopened on 17 June 2025 and Aru Valley on 29 September 2025; neither is on the July 2026 closure list.",
+      "evidence": [
+        {
+          "source": "TC_PAHOP",
+          "quote": "Betaab Valley is open. It reopened on 17 June 2025"
+        },
+        {
+          "source": "TC_PAHOP",
+          "quote": "Aru Valley is open too. It reopened on 29 September 2025"
+        }
+      ]
+    },
+    "GON_B": {
+      "place": "jammu-and-kashmir/gulmarg",
+      "topic": "Gondola booking, fares and closures",
+      "claimType": "rule",
+      "claim": "Gulmarg gondola tickets are sold online only through the J&K Cable Car Corporation portal; reported 2026 fares are about ₹810 (Phase 1) and ₹1,010 (Phase 2). It reopened on 25 June 2026 after a technical closure and shuts on the second and fourth Monday of each month for maintenance.",
+      "conflictNote": "Fares are reported by travel sites; confirm on the JKCCC portal.",
+      "evidence": [
+        {
+          "source": "ZT_GON",
+          "quote": "Booking is online-only through the Jammu and Kashmir Cable Car Corporation portal"
+        },
+        {
+          "source": "TC_GON",
+          "quote": "It reopened on 25 June 2026 after a technical closure"
+        },
+        {
+          "source": "TC_GON",
+          "quote": "The reported fare is ₹810 per person."
+        }
+      ]
+    },
+    "SON_D": {
+      "place": "jammu-and-kashmir/sonamarg",
+      "topic": "Srinagar to Sonamarg and Thajiwas",
+      "claimType": "distance",
+      "kind": "estimate",
+      "claim": "Sonamarg is about 80 km from Srinagar (2.5–3 hours via Ganderbal); Thajiwas Glacier is about 3 km from the town, on foot or by pony.",
+      "evidence": [
+        {
+          "source": "TC_SON",
+          "quote": "about 80 km, 2.5 to 3 hours via Ganderbal and the Sindh valley"
+        },
+        {
+          "source": "TC_SON",
+          "quote": "A real glacier about 3 km from Sonamarg town"
+        }
+      ]
+    },
+    "GM3": {
+      "place": "jammu-and-kashmir/gulmarg",
+      "topic": "Gondola hours",
+      "claim": "The gondola runs roughly 10 am–5 pm, depending on the weather at both stages; rides take about 9 and 12 minutes.",
+      "claimType": "opening_hours",
+      "kind": "estimate",
+      "evidence": [
+        {
+          "source": "W_GON",
+          "quote": "The timing of the gondola is 10 AM (IST) to 5 PM (It's highly dependent upon the weather at both stages)."
+        },
+        {
+          "source": "W_GON",
+          "quote": "It takes approximately 9 minutes to reach the first stage and 12 minutes for second stage."
         }
       ]
     }
@@ -5479,196 +5625,315 @@
       "place": "jammu-and-kashmir/srinagar",
       "slug": "srinagar-gulmarg-pahalgam-5-days",
       "title": "Srinagar, Gulmarg and Pahalgam in 5 days",
-      "summary": "Dal Lake and the Mughal gardens, a day on the Gulmarg Gondola and two days in the Lidder valley — check travel advisories first.",
+      "summary": "Two days on Dal Lake and in Srinagar's Mughal gardens, a day trip up the Gulmarg gondola, then the road to Pahalgam via the Avantipora ruins for Betaab and Aru valleys.",
       "durationDays": 5,
       "tripTypes": [
         "mountains",
         "nature",
         "heritage"
       ],
-      "seoTitle": "5-Day Kashmir Itinerary: Srinagar, Gulmarg, Pahalgam",
-      "seoDescription": "A 5-day Kashmir plan: Dal Lake and Mughal gardens, the Gulmarg Gondola, the Lidder valley at Pahalgam — with current travel advisories to check before you go.",
+      "seoTitle": "Srinagar, Gulmarg & Pahalgam 5-Day Itinerary (2026)",
+      "seoDescription": "Five days in Kashmir with current closures: Dal Lake and the Mughal gardens, the Gulmarg gondola (online tickets only), and Pahalgam's open Betaab and Aru valleys.",
+      "facts": [
+        "SX1",
+        "SX2",
+        "SX6",
+        "SX9",
+        "SX10",
+        "DL1",
+        "DL2",
+        "DL3",
+        "DL4",
+        "SB1",
+        "SB2",
+        "SB3",
+        "NB1",
+        "PM1",
+        "PM2",
+        "PM3",
+        "GL1",
+        "GU2",
+        "GU3",
+        "GU4",
+        "GM3",
+        "GON_B",
+        "PH1",
+        "PH2",
+        "PH4",
+        "PH5",
+        "KSH_SRPH",
+        "PAH_CL",
+        "PAH_OP",
+        "SON_D",
+        "JS3",
+        "JS4",
+        "JS5",
+        "JS8",
+        "JS9"
+      ],
       "plan": {
-        "overview": "Important: as of October 2026 the UK government advises against all travel to Jammu and Kashmir, including Srinagar, Gulmarg and Pahalgam, and 26 civilians were killed in an attack near Pahalgam in April 2025. Check your own government's advice and your insurance before planning. This plan is based on Srinagar, with Gulmarg (about 56 km away) as a day trip.",
-        "days": [
-          {
-            "title": "Dal Lake",
-            "stops": [
-              {
-                "time": "Afternoon",
-                "name": "Arrive and settle into a houseboat",
-                "placeSlug": "dal-lake",
-                "duration": "2 hours"
-              },
-              {
-                "time": "Evening",
-                "name": "Shikara ride on Dal Lake",
-                "placeSlug": "dal-lake",
-                "duration": "1.5 hours"
-              }
-            ],
-            "overnight": "Srinagar (houseboat)"
-          },
-          {
-            "title": "Mughal gardens",
-            "stops": [
-              {
-                "time": "Dawn",
-                "name": "Floating vegetable market",
-                "placeSlug": "dal-lake",
-                "duration": "1.5 hours"
-              },
-              {
-                "time": "Morning",
-                "name": "Shalimar Bagh and Nishat Bagh",
-                "placeSlug": "shalimar-bagh",
-                "duration": "3 hours"
-              },
-              {
-                "time": "Afternoon",
-                "name": "Pari Mahal and Chashme Shahi",
-                "placeSlug": "pari-mahal",
-                "duration": "2 hours",
-                "note": "Listed open 9:30 am–7:30 pm."
-              },
-              {
-                "time": "Evening",
-                "name": "Wazwan dinner",
-                "duration": "2 hours"
-              }
-            ],
-            "overnight": "Srinagar"
-          },
-          {
-            "title": "Gulmarg",
-            "stops": [
-              {
-                "time": "Morning",
-                "name": "Drive to Gulmarg",
-                "duration": "About 56 km (estimate: 2 hours)"
-              },
-              {
-                "time": "Late morning",
-                "name": "Gulmarg Gondola, both stages",
-                "placeSlug": "gulmarg",
-                "duration": "3 hours",
-                "note": "About 9 and 12 minutes per stage, plus queues."
-              },
-              {
-                "time": "Afternoon",
-                "name": "Meadow walk or skiing (seasonal)",
-                "placeSlug": "gulmarg",
-                "duration": "2 hours"
-              },
-              {
-                "time": "Evening",
-                "name": "Return to Srinagar",
-                "duration": "2 hours (estimate)"
-              }
-            ],
-            "overnight": "Srinagar"
-          },
-          {
-            "title": "To Pahalgam",
-            "stops": [
-              {
-                "time": "Morning",
-                "name": "Drive to Pahalgam",
-                "duration": "Half a day (estimate)"
-              },
-              {
-                "time": "Afternoon",
-                "name": "Walk along the Lidder",
-                "placeSlug": "pahalgam",
-                "duration": "2 hours"
-              }
-            ],
-            "overnight": "Pahalgam"
-          },
-          {
-            "title": "Lidder valley",
-            "stops": [
-              {
-                "time": "Morning",
-                "name": "Betaab Valley",
-                "placeSlug": "pahalgam",
-                "duration": "2–3 hours"
-              },
-              {
-                "time": "Afternoon",
-                "name": "Mamleshwar Temple and orchards",
-                "placeSlug": "pahalgam",
-                "duration": "2 hours"
-              },
-              {
-                "time": "Evening",
-                "name": "Kahwa by the river",
-                "duration": "1 hour"
-              }
-            ],
-            "overnight": "Pahalgam, or return to Srinagar"
-          }
-        ],
+        "overview": "The classic Kashmir loop from a Srinagar base. Day 1 settles you onto a Dal Lake houseboat with an evening shikara ride. Day 2 starts at the floating vegetable market at dawn and follows the Mughal gardens along the Zabarwan foothills. Day 3 is a day trip to Gulmarg (about 60 km, 1.5 hours) for the two-stage gondola towards Apharwat. Day 4 drives about 3 hours to Pahalgam via Awantipora and Anantnag; Day 5 explores the Lidder valley. Baisaran, Chandanwari and Tulian Lake are on the District Anantnag closure list until 31 December 2026; Betaab and Aru valleys are open.",
+        "style": "Lakes, gardens and mountain valleys at an easy pace",
+        "start": "Srinagar International Airport (about 12 km from the city)",
+        "end": "Pahalgam, or back to Srinagar (about 3 hours)",
+        "season": "April–October for green valleys and gardens (tulips in March–April); December–March for snow and skiing at Gulmarg. Much of the Valley's rain falls in spring.",
+        "difficulty": "Easy to moderate — altitude on the upper gondola",
+        "transport": "Taxi with driver for Days 3–5; shikaras on Dal Lake.",
         "budget": {
-          "assumptions": "Fees for the gardens, the Gulmarg Gondola and shikaras couldn't be confirmed from an official page during research — check before you go. Transport, hotels and meals are not estimated.",
+          "assumptions": "Hotels, houseboats, taxis and pony rides vary too much by season to estimate; only the gondola fares are reported.",
           "lines": [
             {
-              "label": "Mughal gardens, Pari Mahal",
-              "amount": "Check current fees",
-              "basis": "Not estimated"
+              "label": "Gulmarg gondola",
+              "amount": "About ₹810 (Phase 1) / ₹1,010 (Phase 2)",
+              "basis": "Reported 2026 fares; book online"
             },
             {
-              "label": "Gulmarg Gondola",
-              "amount": "Check current fares",
-              "basis": "Not estimated"
-            },
-            {
-              "label": "Shikara rides",
-              "amount": "Agree the price before boarding",
-              "basis": "Not estimated"
+              "label": "Shikara rides, Mughal gardens, ponies",
+              "amount": "Not estimated",
+              "basis": "Agree prices on the spot"
             }
           ]
         },
         "booking": [
           {
-            "item": "Gulmarg Gondola",
-            "detail": "Book ahead in peak season; queues can be long."
+            "item": "Gulmarg gondola",
+            "detail": "Tickets are sold online only, through the J&K Cable Car Corporation portal. It shuts on the second and fourth Monday of each month."
+          },
+          {
+            "item": "Taxi",
+            "detail": "Book one taxi for the Gulmarg day trip and the Srinagar → Pahalgam → Srinagar run."
           },
           {
             "item": "Houseboat",
-            "detail": "Book a registered houseboat and confirm what is included."
+            "detail": "Book a registered houseboat for Days 1–3."
           }
         ],
         "alternatives": [
-          "Come in spring for the Tulip Festival, or in July–August for the lotus on Dal Lake.",
-          "In winter, swap Pahalgam for an extra ski day in Gulmarg."
+          "Prefer snow? In December–March, swap Day 3's meadows for skiing or tobogganing at Gulmarg.",
+          "Short on time? Skip Pahalgam and do Sonamarg as a day trip instead (about 80 km)."
         ],
         "tips": [
-          "Re-check travel advisories before you book and again before you travel.",
-          "Women may enter only the first part of the Hazratbal shrine."
+          "Start for Gulmarg early: the gondola runs roughly 10 am–5 pm, weather permitting, and queues build.",
+          "Check the gondola's second- and fourth-Monday closures before fixing Day 3.",
+          "Try wazwan, rogan josh and kahwa in Srinagar."
+        ],
+        "prep": [
+          {
+            "title": "Travel advice and safety",
+            "body": "As of October 2026 the UK government advises against all travel to Jammu and Kashmir (except flying to and within Jammu city), citing a continuing terrorist threat to civilians including tourists; curfews can be imposed at short notice. Check your own government's advice and your insurance before booking."
+          },
+          {
+            "title": "Phones",
+            "body": "Prepaid SIMs from the rest of India don't work in J&K because roaming is barred; bring a postpaid connection."
+          }
+        ],
+        "faqs": [
+          {
+            "q": "Is Pahalgam open to tourists?",
+            "a": "Yes, but some spots are not. Betaab and Aru valleys reopened in 2025; Baisaran, Chandanwari and Tulian Lake are on the closure list until 31 December 2026."
+          },
+          {
+            "q": "How far is Pahalgam from Srinagar?",
+            "a": "About 90–100 km, roughly 3 hours by car."
+          }
+        ],
+        "days": [
+          {
+            "title": "Dal Lake",
+            "summary": "Settle onto a houseboat and see the lake from a shikara.",
+            "stops": [
+              {
+                "time": "2 pm",
+                "name": "Check in to a Dal Lake houseboat",
+                "duration": "2 hours",
+                "placeSlug": "dal-lake",
+                "note": "Carved wooden houseboats line the shore."
+              },
+              {
+                "time": "5 pm",
+                "name": "Shikara ride on Dal Lake",
+                "duration": "1.5 hours",
+                "placeSlug": "dal-lake",
+                "note": "Through the channels and floating gardens; lotus in July–August."
+              }
+            ],
+            "travel": "Airport → Dal Lake about 12 km.",
+            "distanceKm": 15,
+            "distance": "About 15 km (estimate)",
+            "driveTime": "About 45 minutes (estimate)",
+            "transport": "Taxi and shikara",
+            "meals": "Kashmiri dinner on the houseboat.",
+            "overnight": "Srinagar (houseboat)"
+          },
+          {
+            "title": "Mughal gardens",
+            "summary": "The dawn market on the water, then the terraced gardens.",
+            "stops": [
+              {
+                "time": "6 am",
+                "name": "Floating vegetable market",
+                "duration": "1 hour",
+                "placeSlug": "dal-lake",
+                "note": "Gathers early near Nehru Park."
+              },
+              {
+                "time": "9:30 am",
+                "name": "Shalimar Bagh",
+                "duration": "1.5 hours",
+                "placeSlug": "shalimar-bagh",
+                "note": "Jahangir's garden of 1619, the largest in Kashmir."
+              },
+              {
+                "time": "11:15 am",
+                "name": "Nishat Bagh",
+                "duration": "1 hour",
+                "placeSlug": "nishat-bagh",
+                "note": "Asif Khan's garden of 1633 facing the lake."
+              },
+              {
+                "time": "12:30 pm",
+                "name": "Lunch",
+                "duration": "1 hour"
+              },
+              {
+                "time": "2:30 pm",
+                "name": "Pari Mahal and Chashme Shahi",
+                "duration": "2 hours",
+                "placeSlug": "pari-mahal",
+                "note": "Pari Mahal is open 9:30 am–7:30 pm; Chashme Shahi's spring is a few metres away."
+              },
+              {
+                "time": "7:30 pm",
+                "name": "Wazwan dinner",
+                "duration": "1.5 hours",
+                "placeSlug": "srinagar"
+              }
+            ],
+            "travel": "The gardens run along the Zabarwan foothills on Dal Lake's east shore.",
+            "distanceKm": 25,
+            "distance": "About 25 km (estimate)",
+            "driveTime": "About 1 hour in total (estimate)",
+            "transport": "Shikara and taxi",
+            "meals": "Wazwan for dinner.",
+            "overnight": "Srinagar"
+          },
+          {
+            "title": "Day trip to Gulmarg",
+            "summary": "The gondola towards Apharwat, and the meadows.",
+            "stops": [
+              {
+                "time": "7:30 am",
+                "name": "Drive to Gulmarg",
+                "duration": "1.5 hours",
+                "placeSlug": "gulmarg",
+                "note": "About 60 km."
+              },
+              {
+                "time": "9:30 am",
+                "name": "Gulmarg gondola (Phases 1 and 2)",
+                "duration": "3 hours",
+                "placeSlug": "gulmarg",
+                "note": "Kongdoori, then on towards Apharwat; online tickets only. Phase 2 depends on weather."
+              },
+              {
+                "time": "1 pm",
+                "name": "Lunch",
+                "duration": "1 hour"
+              },
+              {
+                "time": "2 pm",
+                "name": "Meadow walk, or skiing in winter",
+                "duration": "2 hours",
+                "placeSlug": "gulmarg",
+                "note": "Golf course and wildflowers in summer."
+              },
+              {
+                "time": "4:30 pm",
+                "name": "Drive back to Srinagar",
+                "duration": "1.5 hours"
+              }
+            ],
+            "travel": "Srinagar ↔ Gulmarg about 60 km each way (about 1.5 hours).",
+            "distanceKm": 120,
+            "distance": "About 120 km round trip",
+            "driveTime": "About 3 hours in total",
+            "transport": "Taxi and gondola",
+            "meals": "Lunch in Gulmarg.",
+            "overnight": "Srinagar"
+          },
+          {
+            "title": "To Pahalgam",
+            "summary": "Temple ruins on the way to the Lidder valley.",
+            "stops": [
+              {
+                "time": "8 am",
+                "name": "Drive to Pahalgam via Awantipora",
+                "duration": "3 hours",
+                "placeSlug": "pahalgam",
+                "note": "Via Awantipora and Anantnag; a short stop at the Avantipora ruins fits in."
+              },
+              {
+                "time": "11:30 am",
+                "name": "Check in and lunch",
+                "duration": "2 hours"
+              },
+              {
+                "time": "2 pm",
+                "name": "Walk along the Lidder",
+                "duration": "2 hours",
+                "placeSlug": "pahalgam",
+                "note": "Riverside walks, trout fishing and orchards."
+              }
+            ],
+            "travel": "Srinagar → Pahalgam about 90–100 km (about 3 hours).",
+            "distanceKm": 100,
+            "distance": "About 100 km",
+            "driveTime": "About 3 hours plus stops",
+            "transport": "Taxi",
+            "meals": "Trout or Kashmiri thali in Pahalgam.",
+            "overnight": "Pahalgam"
+          },
+          {
+            "title": "Betaab and Aru valleys",
+            "summary": "The open valleys above Pahalgam, then back to Srinagar or stay.",
+            "stops": [
+              {
+                "time": "8:30 am",
+                "name": "Betaab Valley",
+                "duration": "2 hours",
+                "placeSlug": "pahalgam",
+                "note": "Reopened June 2025."
+              },
+              {
+                "time": "11 am",
+                "name": "Aru Valley",
+                "duration": "2.5 hours",
+                "placeSlug": "pahalgam",
+                "note": "Reopened September 2025; meadows and walks."
+              },
+              {
+                "time": "2 pm",
+                "name": "Lunch",
+                "duration": "1 hour"
+              },
+              {
+                "time": "3:30 pm",
+                "name": "Mamleshwar Temple",
+                "duration": "45 minutes",
+                "placeSlug": "pahalgam",
+                "note": "One of Pahalgam's ancient shrines."
+              }
+            ],
+            "travel": "Local taxis from Pahalgam to Betaab and Aru; about 3 hours back to Srinagar if leaving.",
+            "distanceKm": 40,
+            "distance": "About 40 km locally (estimate)",
+            "driveTime": "About 1.5 hours locally (estimate)",
+            "transport": "Local taxi",
+            "meals": "Lunch at Aru or Pahalgam.",
+            "overnight": "Pahalgam, or return to Srinagar"
+          }
         ]
-      },
-      "facts": [
-        "SX_ADV",
-        "SX_ATK",
-        "GU1",
-        "DL2",
-        "DL4",
-        "DL3",
-        "SX2",
-        "PM2",
-        "PM3",
-        "SX10",
-        "GU2",
-        "GU3",
-        "PH2",
-        "PH4",
-        "SX9",
-        "SX7",
-        "DL1",
-        "SX4"
-      ],
-      "sources": []
+      }
     }
   ]
 }

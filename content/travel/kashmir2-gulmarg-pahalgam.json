@@ -1,1239 +1,1367 @@
 {
- "cluster": "kashmir2-gulmarg-pahalgam",
- "title": "Gulmarg and Pahalgam",
- "researchedAt": "2026-11-18",
- "selection": "Batch 1. Gulmarg had 4 sections; Pahalgam 3. Sources: district websites (Baramulla, Anantnag), Incredible India, Wikipedia (gondola hours), the UK FCDO's regional-risk advice and Brighter Kashmir (Baisaran still closed in April 2026). Gondola fares are left out (Wikipedia figures disagree; check the official booking site). Every page repeats the FCDO advisory; editors should re-check Baisaran's status and the advisory before each refresh. No Pahalgam itinerary was written given the advisory and closures.",
- "sources": {
-  "BAR_GUL": {
-   "url": "https://baramulla.nic.in/tourist-place/gulmarg/",
-   "title": "Gulmarg — District Baramulla (Government of J&K)",
-   "authority": "government"
-  },
-  "II_GUL": {
-   "url": "https://www.incredibleindia.gov.in/en/jammu-and-kashmir/gulmarg",
-   "title": "Gulmarg — Incredible India (Ministry of Tourism)",
-   "authority": "government"
-  },
-  "W_GON": {
-   "url": "https://en.wikipedia.org/wiki/Gulmarg_Gondola",
-   "title": "Gulmarg Gondola — Wikipedia",
-   "authority": "reference"
-  },
-  "W_GUL": {
-   "url": "https://en.wikipedia.org/wiki/Gulmarg",
-   "title": "Gulmarg — Wikipedia",
-   "authority": "reference"
-  },
-  "ANT_PAH": {
-   "url": "https://anantnag.nic.in/tourist-place/pahalgam/",
-   "title": "Pahalgam — District Anantnag (Government of J&K)",
-   "authority": "government"
-  },
-  "II_PAH": {
-   "url": "https://www.incredibleindia.gov.in/en/jammu-and-kashmir/pahalgam",
-   "title": "Pahalgam — Incredible India (Ministry of Tourism)",
-   "authority": "government"
-  },
-  "FCDO_RR": {
-   "url": "https://www.gov.uk/foreign-travel-advice/india/regional-risks",
-   "title": "India: regional risks — UK FCDO travel advice",
-   "authority": "government"
-  },
-  "BK_BAIS": {
-   "url": "https://brighterkashmir.com/baisaran-meadow-still-shut-after-attack",
-   "title": "Baisaran meadow still shut after attack — Brighter Kashmir",
-   "authority": "media"
-  }
- },
- "facts": {
-  "GM1": {
-   "place": "jammu-and-kashmir/gulmarg",
-   "topic": "Distance from Srinagar",
-   "claim": "Gulmarg is 60 km from Srinagar, about an hour and a half by car.",
-   "claimType": "distance",
-   "kind": "verified",
-   "evidence": [
-    {
-     "source": "BAR_GUL",
-     "quote": "Gulmarg is located 60 KMs away from Srinagar which is an hour and half journey by car."
-    }
-   ]
-  },
-  "GM2": {
-   "place": "jammu-and-kashmir/gulmarg",
-   "topic": "Gondola stages",
-   "claim": "The gondola's first stage climbs to Kongdori (8,530 ft); the second stage reaches 12,293 ft on Apharwat.",
-   "claimType": "general",
-   "kind": "verified",
-   "evidence": [
-    {
-     "source": "BAR_GUL",
-     "quote": "The 1st phase of the Gondola takes tourists to the height of 8530 ft to Kongdori Station and the second stage of the Gondola goes up to the height of 12293 ft."
-    }
-   ]
-  },
-  "GM3": {
-   "place": "jammu-and-kashmir/gulmarg",
-   "topic": "Gondola hours",
-   "claim": "The gondola runs roughly 10 am–5 pm, depending on the weather at both stages; rides take about 9 and 12 minutes.",
-   "claimType": "opening_hours",
-   "kind": "estimate",
-   "evidence": [
-    {
-     "source": "W_GON",
-     "quote": "The timing of the gondola is 10 AM (IST) to 5 PM (It's highly dependent upon the weather at both stages)."
+  "cluster": "kashmir2-gulmarg-pahalgam",
+  "title": "Gulmarg and Pahalgam",
+  "researchedAt": "2026-11-18",
+  "selection": "Batch 1. Gulmarg had 4 sections; Pahalgam 3. Sources: district websites (Baramulla, Anantnag), Incredible India, Wikipedia (gondola hours), the UK FCDO's regional-risk advice and Brighter Kashmir (Baisaran still closed in April 2026). Gondola fares are left out (Wikipedia figures disagree; check the official booking site). Every page repeats the FCDO advisory; editors should re-check Baisaran's status and the advisory before each refresh. No Pahalgam itinerary was written given the advisory and closures.",
+  "sources": {
+    "BAR_GUL": {
+      "url": "https://baramulla.nic.in/tourist-place/gulmarg/",
+      "title": "Gulmarg — District Baramulla (Government of J&K)",
+      "authority": "government"
     },
-    {
-     "source": "W_GON",
-     "quote": "It takes approximately 9 minutes to reach the first stage and 12 minutes for second stage."
-    }
-   ]
-  },
-  "GM4": {
-   "place": "jammu-and-kashmir/gulmarg",
-   "topic": "Railhead and airport",
-   "claim": "The nearest railhead is Baramulla (about 53 km); Srinagar airport is about 54 km away.",
-   "claimType": "distance",
-   "kind": "verified",
-   "evidence": [
-    {
-     "source": "BAR_GUL",
-     "quote": "The nearest railhead is at Baramulla. The distance is near about 53KM"
+    "II_GUL": {
+      "url": "https://www.incredibleindia.gov.in/en/jammu-and-kashmir/gulmarg",
+      "title": "Gulmarg — Incredible India (Ministry of Tourism)",
+      "authority": "government"
     },
-    {
-     "source": "BAR_GUL",
-     "quote": "Distance is near about 54 KM to visit Gulmarg"
-    }
-   ]
-  },
-  "GM5": {
-   "place": "jammu-and-kashmir/gulmarg",
-   "topic": "Horse rides",
-   "claim": "Pony rides go to Strawberry Valley, Leopard Valley and Kongdori, for the frozen Alpather lake.",
-   "claimType": "general",
-   "kind": "verified",
-   "evidence": [
-    {
-     "source": "BAR_GUL",
-     "quote": "Tourists can enjoy horse Riding and can go riding to the magnificent “Strawberry Valley” , Leopards Valley and ride up to “Kongdori” to see the frozen lake of “Al- Pathar”."
-    }
-   ]
-  },
-  "GM6": {
-   "place": "jammu-and-kashmir/gulmarg",
-   "topic": "Winter",
-   "claim": "In winter Gulmarg is under snow and becomes a ski destination, with White Christmas and New Year celebrations.",
-   "claimType": "general",
-   "kind": "seasonal",
-   "evidence": [
-    {
-     "source": "BAR_GUL",
-     "quote": "Gulmarg in winter is a magnificent experience, fully covered in a white blanket of Snow which turns it into a skiers paradise."
+    "W_GON": {
+      "url": "https://en.wikipedia.org/wiki/Gulmarg_Gondola",
+      "title": "Gulmarg Gondola — Wikipedia",
+      "authority": "reference"
     },
-    {
-     "source": "BAR_GUL",
-     "quote": "winter time in Gulmarg is a season of festivities with celebrations of “White Christmas” and New Year parties."
-    }
-   ]
-  },
-  "GM7": {
-   "place": "jammu-and-kashmir/alpather-lake",
-   "topic": "Alpather Lake",
-   "claim": "Alpather Lake (4,200 m) lies at the base of Apharwat, frozen in winter and ringed by green in summer.",
-   "claimType": "general",
-   "kind": "verified",
-   "evidence": [
-    {
-     "source": "II_GUL",
-     "quote": "Located at the base of the majestic Apharwat peaks, this magnificent lake transforms with the seasons - frozen in winter (earning its nickname The Frozen Lake) and surrounded by vibrant greenery in summer when the snow retreats. At 4,200 meters above sea level"
-    }
-   ]
-  },
-  "GM8": {
-   "place": "jammu-and-kashmir/gulmarg",
-   "topic": "Golf course",
-   "claim": "Gulmarg Golf Course sits at 2,650 m.",
-   "claimType": "general",
-   "kind": "verified",
-   "evidence": [
-    {
-     "source": "II_GUL",
-     "quote": "Soaring 2,650 meters above sea level, this course isn't just challenging"
-    }
-   ]
-  },
-  "GM9": {
-   "place": "jammu-and-kashmir/skiing-in-gulmarg",
-   "topic": "Winter sports",
-   "claim": "Winter sports include skiing, snowboarding, heli-skiing, snow scooters and tobogganing.",
-   "claimType": "general",
-   "kind": "seasonal",
-   "evidence": [
-    {
-     "source": "II_GUL",
-     "quote": "embark on a heli-skiing adventure – soaring to the top of a mountain by helicopter before embarking on an unforgettable ski descent. If that's not enough, zip down the slopes on a snow scooter, test your balance on a toboggan"
-    }
-   ]
-  },
-  "GM10": {
-   "place": "jammu-and-kashmir/gulmarg",
-   "topic": "Summer meadows",
-   "claim": "In summer the meadows are carpeted with wildflowers such as edelweiss and lilies, with hikes through pine forest.",
-   "claimType": "general",
-   "kind": "seasonal",
-   "evidence": [
-    {
-     "source": "II_GUL",
-     "quote": "Rolling green meadows, carpeted with vibrant wildflowers like edelweiss and lilies, create a mesmerising canvas that has inspired poets and artists for centuries."
-    }
-   ]
-  },
-  "GM11": {
-   "place": "jammu-and-kashmir/gulmarg",
-   "topic": "Kashmiri food",
-   "claim": "Kashmiri dishes to try include rogan josh, dum aloo, yakhni, gushtaba and wazwan, with kahwa tea.",
-   "claimType": "general",
-   "kind": "verified",
-   "evidence": [
-    {
-     "source": "II_GUL",
-     "quote": "Relish the melt-in-your-mouth 'Rogan Josh,' a lamb dish cooked in a rich yoghurt gravy or savour Dum Aloo, a potato-based dish or delight in Yakhni, a traditional Kashmiri dish made with mutton."
-    }
-   ]
-  },
-  "GM12": {
-   "place": "jammu-and-kashmir/baba-reshi-shrine",
-   "topic": "Baba Reshi",
-   "claim": "The Ziarat of Baba Reshi holds the tomb of the Sufi saint Baba Payam-Din, who died in 1480.",
-   "claimType": "general",
-   "kind": "verified",
-   "evidence": [
-    {
-     "source": "II_GUL",
-     "quote": "Pay your respects at the Ziarat of Baba Reshi, the shrine dedicated to the revered Sufi saint Baba Payam-Din."
-    }
-   ]
-  },
-  "GM13": {
-   "place": "jammu-and-kashmir/maharani-temple-gulmarg",
-   "topic": "Maharani Temple",
-   "claim": "The red-roofed Maharani Temple, the Dogra royal temple to Shiva and Parvati, is visible from all over Gulmarg.",
-   "claimType": "general",
-   "kind": "verified",
-   "evidence": [
-    {
-     "source": "II_GUL",
-     "quote": "Explore the charming red-roofed Maharani Temple, a vision of beauty perched atop a small hillock. This temple, said to be the royal temple of the Dogra dynasty, is dedicated to Lord Shiva and Goddess Parvati."
-    }
-   ]
-  },
-  "GM14": {
-   "place": "jammu-and-kashmir/st-marys-church-gulmarg",
-   "topic": "St Mary's Church",
-   "claim": "St Mary's, a Victorian grey-stone church over a century old, stands near the golf course.",
-   "claimType": "general",
-   "kind": "verified",
-   "evidence": [
-    {
-     "source": "II_GUL",
-     "quote": "Nestled near the famed Gulmarg Golf Course, you'll find St. Mary's Church, a charming Victorian-era grey stone church, standing tall for over a century."
-    }
-   ]
-  },
-  "GM15": {
-   "place": "jammu-and-kashmir/khilanmarg",
-   "topic": "Khilanmarg",
-   "claim": "Khilanmarg is a valley 4 km from Gulmarg's bus stop, reached on foot or by pony.",
-   "claimType": "distance",
-   "kind": "verified",
-   "evidence": [
-    {
-     "source": "II_GUL",
-     "quote": "Khilanmarg, a breathtaking valley located just 4 km from Gulmarg's bus stop. Reaching this charming village is easy – walk through the blooms or go for a leisurely pony ride through the valley."
-    }
-   ]
-  },
-  "GM16": {
-   "place": "jammu-and-kashmir/gulmarg",
-   "topic": "Shopping",
-   "claim": "Gulmarg's market sells carpets, metalwork, pashmina shawls, walnut wood and papier-mâché.",
-   "claimType": "general",
-   "kind": "verified",
-   "evidence": [
-    {
-     "source": "II_GUL",
-     "quote": "For something truly special, pick up a pashmina shawl, a symbol of Kashmiri craftsmanship. Gulmarg also boasts beautiful silk carpets, walnut wood trinkets, and delicate papier-mâché creations."
-    }
-   ]
-  },
-  "GM17": {
-   "place": "jammu-and-kashmir/gulmarg",
-   "topic": "Gulmarg Winter Festival",
-   "claim": "A three-day Gulmarg Winter Festival is held each March.",
-   "claimType": "schedule",
-   "kind": "seasonal",
-   "evidence": [
-    {
-     "source": "W_GUL",
-     "quote": "An annual three-day Gulmarg Winter Festival is held in March."
-    }
-   ]
-  },
-  "GM18": {
-   "place": "jammu-and-kashmir/gulmarg",
-   "topic": "Tangmarg",
-   "claim": "Tangmarg, on the way up, is the base for Drung waterfall and local markets.",
-   "claimType": "general",
-   "kind": "verified",
-   "evidence": [
-    {
-     "source": "II_GUL",
-     "quote": "Check out Tangmarg, a delightful town on the way to Gulmarg. Explore the surrounding areas like Zandpal, Drung (don’t miss the Drung waterfall), and Gogaldara"
-    }
-   ]
-  },
-  "KS1": {
-   "place": "jammu-and-kashmir",
-   "topic": "UK travel advice",
-   "claim": "The UK FCDO advises against all travel to Jammu and Kashmir, including Pahalgam, Gulmarg and Srinagar.",
-   "claimType": "rule",
-   "kind": "verified",
-   "evidence": [
-    {
-     "source": "FCDO_RR",
-     "quote": "advises against all travel to the Union Territory of Jammu and Kashmir (including Pahalgam, Gulmarg, Sonamarg, the city of Srinagar and the Jammu-Srinagar national highway), except for:"
-    }
-   ]
-  },
-  "KS2": {
-   "place": "jammu-and-kashmir",
-   "topic": "Security situation",
-   "claim": "The FCDO notes a continuing threat of terrorism against civilians including tourists, and heavy security in the valley.",
-   "claimType": "rule",
-   "kind": "verified",
-   "evidence": [
-    {
-     "source": "FCDO_RR",
-     "quote": "There is a continuing threat, towards Indian government targets and civilians including tourists and foreign nationals."
+    "W_GUL": {
+      "url": "https://en.wikipedia.org/wiki/Gulmarg",
+      "title": "Gulmarg — Wikipedia",
+      "authority": "reference"
     },
-    {
-     "source": "FCDO_RR",
-     "quote": "There is a heavy security presence in the Kashmir Valley."
-    }
-   ]
-  },
-  "KS3": {
-   "place": "jammu-and-kashmir",
-   "topic": "Curfews",
-   "claim": "Authorities can impose curfews and restrictions at short notice.",
-   "claimType": "rule",
-   "kind": "verified",
-   "evidence": [
-    {
-     "source": "FCDO_RR",
-     "quote": "The authorities can impose and lift curfews and other restrictions frequently and quickly."
-    }
-   ]
-  },
-  "PH1": {
-   "place": "jammu-and-kashmir/pahalgam",
-   "topic": "Amarnath transit",
-   "claim": "Pahalgam, in Anantnag district on the Lidder, is a transit camp for the Amarnath cave pilgrimage.",
-   "claimType": "general",
-   "kind": "verified",
-   "evidence": [
-    {
-     "source": "ANT_PAH",
-     "quote": "It is also an important transit camp on the way to holy Amar Nath Ji Cave"
-    }
-   ]
-  },
-  "PH2": {
-   "place": "jammu-and-kashmir/pahalgam",
-   "topic": "Railheads",
-   "claim": "Udhampur (217 km) and Jammu (285 km) are the nearest railheads; Srinagar airport is 96 km.",
-   "claimType": "distance",
-   "kind": "verified",
-   "evidence": [
-    {
-     "source": "ANT_PAH",
-     "quote": "Udhampur and Jammu are the closest rail heads to Pahalgam. While Udhampur is located at a distance of 217 km from Pahalgam, Jammu is 285 km away"
+    "ANT_PAH": {
+      "url": "https://anantnag.nic.in/tourist-place/pahalgam/",
+      "title": "Pahalgam — District Anantnag (Government of J&K)",
+      "authority": "government"
     },
+    "II_PAH": {
+      "url": "https://www.incredibleindia.gov.in/en/jammu-and-kashmir/pahalgam",
+      "title": "Pahalgam — Incredible India (Ministry of Tourism)",
+      "authority": "government"
+    },
+    "FCDO_RR": {
+      "url": "https://www.gov.uk/foreign-travel-advice/india/regional-risks",
+      "title": "India: regional risks — UK FCDO travel advice",
+      "authority": "government"
+    },
+    "BK_BAIS": {
+      "url": "https://brighterkashmir.com/baisaran-meadow-still-shut-after-attack",
+      "title": "Baisaran meadow still shut after attack — Brighter Kashmir",
+      "authority": "media"
+    },
+    "ZT_GON": {
+      "url": "https://zoutons.com/news/gulmarg-trip-guide-2026",
+      "title": "Gulmarg trip 2026 — Zoutons",
+      "authority": "media"
+    },
+    "TC_GON": {
+      "url": "https://travelcoffee.in/blog/gulmarg-gondola-guide",
+      "title": "Gulmarg Gondola guide (2026) — TravelCoffee",
+      "authority": "travel_platform"
+    }
+  },
+  "facts": {
+    "GM1": {
+      "place": "jammu-and-kashmir/gulmarg",
+      "topic": "Distance from Srinagar",
+      "claim": "Gulmarg is 60 km from Srinagar, about an hour and a half by car.",
+      "claimType": "distance",
+      "kind": "verified",
+      "evidence": [
+        {
+          "source": "BAR_GUL",
+          "quote": "Gulmarg is located 60 KMs away from Srinagar which is an hour and half journey by car."
+        }
+      ]
+    },
+    "GM2": {
+      "place": "jammu-and-kashmir/gulmarg",
+      "topic": "Gondola stages",
+      "claim": "The gondola's first stage climbs to Kongdori (8,530 ft); the second stage reaches 12,293 ft on Apharwat.",
+      "claimType": "general",
+      "kind": "verified",
+      "evidence": [
+        {
+          "source": "BAR_GUL",
+          "quote": "The 1st phase of the Gondola takes tourists to the height of 8530 ft to Kongdori Station and the second stage of the Gondola goes up to the height of 12293 ft."
+        }
+      ]
+    },
+    "GM3": {
+      "place": "jammu-and-kashmir/gulmarg",
+      "topic": "Gondola hours",
+      "claim": "The gondola runs roughly 10 am–5 pm, depending on the weather at both stages; rides take about 9 and 12 minutes.",
+      "claimType": "opening_hours",
+      "kind": "estimate",
+      "evidence": [
+        {
+          "source": "W_GON",
+          "quote": "The timing of the gondola is 10 AM (IST) to 5 PM (It's highly dependent upon the weather at both stages)."
+        },
+        {
+          "source": "W_GON",
+          "quote": "It takes approximately 9 minutes to reach the first stage and 12 minutes for second stage."
+        }
+      ]
+    },
+    "GM4": {
+      "place": "jammu-and-kashmir/gulmarg",
+      "topic": "Railhead and airport",
+      "claim": "The nearest railhead is Baramulla (about 53 km); Srinagar airport is about 54 km away.",
+      "claimType": "distance",
+      "kind": "verified",
+      "evidence": [
+        {
+          "source": "BAR_GUL",
+          "quote": "The nearest railhead is at Baramulla. The distance is near about 53KM"
+        },
+        {
+          "source": "BAR_GUL",
+          "quote": "Distance is near about 54 KM to visit Gulmarg"
+        }
+      ]
+    },
+    "GM5": {
+      "place": "jammu-and-kashmir/gulmarg",
+      "topic": "Horse rides",
+      "claim": "Pony rides go to Strawberry Valley, Leopard Valley and Kongdori, for the frozen Alpather lake.",
+      "claimType": "general",
+      "kind": "verified",
+      "evidence": [
+        {
+          "source": "BAR_GUL",
+          "quote": "Tourists can enjoy horse Riding and can go riding to the magnificent “Strawberry Valley” , Leopards Valley and ride up to “Kongdori” to see the frozen lake of “Al- Pathar”."
+        }
+      ]
+    },
+    "GM6": {
+      "place": "jammu-and-kashmir/gulmarg",
+      "topic": "Winter",
+      "claim": "In winter Gulmarg is under snow and becomes a ski destination, with White Christmas and New Year celebrations.",
+      "claimType": "general",
+      "kind": "seasonal",
+      "evidence": [
+        {
+          "source": "BAR_GUL",
+          "quote": "Gulmarg in winter is a magnificent experience, fully covered in a white blanket of Snow which turns it into a skiers paradise."
+        },
+        {
+          "source": "BAR_GUL",
+          "quote": "winter time in Gulmarg is a season of festivities with celebrations of “White Christmas” and New Year parties."
+        }
+      ]
+    },
+    "GM7": {
+      "place": "jammu-and-kashmir/alpather-lake",
+      "topic": "Alpather Lake",
+      "claim": "Alpather Lake (4,200 m) lies at the base of Apharwat, frozen in winter and ringed by green in summer.",
+      "claimType": "general",
+      "kind": "verified",
+      "evidence": [
+        {
+          "source": "II_GUL",
+          "quote": "Located at the base of the majestic Apharwat peaks, this magnificent lake transforms with the seasons - frozen in winter (earning its nickname The Frozen Lake) and surrounded by vibrant greenery in summer when the snow retreats. At 4,200 meters above sea level"
+        }
+      ]
+    },
+    "GM8": {
+      "place": "jammu-and-kashmir/gulmarg",
+      "topic": "Golf course",
+      "claim": "Gulmarg Golf Course sits at 2,650 m.",
+      "claimType": "general",
+      "kind": "verified",
+      "evidence": [
+        {
+          "source": "II_GUL",
+          "quote": "Soaring 2,650 meters above sea level, this course isn't just challenging"
+        }
+      ]
+    },
+    "GM9": {
+      "place": "jammu-and-kashmir/skiing-in-gulmarg",
+      "topic": "Winter sports",
+      "claim": "Winter sports include skiing, snowboarding, heli-skiing, snow scooters and tobogganing.",
+      "claimType": "general",
+      "kind": "seasonal",
+      "evidence": [
+        {
+          "source": "II_GUL",
+          "quote": "embark on a heli-skiing adventure – soaring to the top of a mountain by helicopter before embarking on an unforgettable ski descent. If that's not enough, zip down the slopes on a snow scooter, test your balance on a toboggan"
+        }
+      ]
+    },
+    "GM10": {
+      "place": "jammu-and-kashmir/gulmarg",
+      "topic": "Summer meadows",
+      "claim": "In summer the meadows are carpeted with wildflowers such as edelweiss and lilies, with hikes through pine forest.",
+      "claimType": "general",
+      "kind": "seasonal",
+      "evidence": [
+        {
+          "source": "II_GUL",
+          "quote": "Rolling green meadows, carpeted with vibrant wildflowers like edelweiss and lilies, create a mesmerising canvas that has inspired poets and artists for centuries."
+        }
+      ]
+    },
+    "GM11": {
+      "place": "jammu-and-kashmir/gulmarg",
+      "topic": "Kashmiri food",
+      "claim": "Kashmiri dishes to try include rogan josh, dum aloo, yakhni, gushtaba and wazwan, with kahwa tea.",
+      "claimType": "general",
+      "kind": "verified",
+      "evidence": [
+        {
+          "source": "II_GUL",
+          "quote": "Relish the melt-in-your-mouth 'Rogan Josh,' a lamb dish cooked in a rich yoghurt gravy or savour Dum Aloo, a potato-based dish or delight in Yakhni, a traditional Kashmiri dish made with mutton."
+        }
+      ]
+    },
+    "GM12": {
+      "place": "jammu-and-kashmir/baba-reshi-shrine",
+      "topic": "Baba Reshi",
+      "claim": "The Ziarat of Baba Reshi holds the tomb of the Sufi saint Baba Payam-Din, who died in 1480.",
+      "claimType": "general",
+      "kind": "verified",
+      "evidence": [
+        {
+          "source": "II_GUL",
+          "quote": "Pay your respects at the Ziarat of Baba Reshi, the shrine dedicated to the revered Sufi saint Baba Payam-Din."
+        }
+      ]
+    },
+    "GM13": {
+      "place": "jammu-and-kashmir/maharani-temple-gulmarg",
+      "topic": "Maharani Temple",
+      "claim": "The red-roofed Maharani Temple, the Dogra royal temple to Shiva and Parvati, is visible from all over Gulmarg.",
+      "claimType": "general",
+      "kind": "verified",
+      "evidence": [
+        {
+          "source": "II_GUL",
+          "quote": "Explore the charming red-roofed Maharani Temple, a vision of beauty perched atop a small hillock. This temple, said to be the royal temple of the Dogra dynasty, is dedicated to Lord Shiva and Goddess Parvati."
+        }
+      ]
+    },
+    "GM14": {
+      "place": "jammu-and-kashmir/st-marys-church-gulmarg",
+      "topic": "St Mary's Church",
+      "claim": "St Mary's, a Victorian grey-stone church over a century old, stands near the golf course.",
+      "claimType": "general",
+      "kind": "verified",
+      "evidence": [
+        {
+          "source": "II_GUL",
+          "quote": "Nestled near the famed Gulmarg Golf Course, you'll find St. Mary's Church, a charming Victorian-era grey stone church, standing tall for over a century."
+        }
+      ]
+    },
+    "GM15": {
+      "place": "jammu-and-kashmir/khilanmarg",
+      "topic": "Khilanmarg",
+      "claim": "Khilanmarg is a valley 4 km from Gulmarg's bus stop, reached on foot or by pony.",
+      "claimType": "distance",
+      "kind": "verified",
+      "evidence": [
+        {
+          "source": "II_GUL",
+          "quote": "Khilanmarg, a breathtaking valley located just 4 km from Gulmarg's bus stop. Reaching this charming village is easy – walk through the blooms or go for a leisurely pony ride through the valley."
+        }
+      ]
+    },
+    "GM16": {
+      "place": "jammu-and-kashmir/gulmarg",
+      "topic": "Shopping",
+      "claim": "Gulmarg's market sells carpets, metalwork, pashmina shawls, walnut wood and papier-mâché.",
+      "claimType": "general",
+      "kind": "verified",
+      "evidence": [
+        {
+          "source": "II_GUL",
+          "quote": "For something truly special, pick up a pashmina shawl, a symbol of Kashmiri craftsmanship. Gulmarg also boasts beautiful silk carpets, walnut wood trinkets, and delicate papier-mâché creations."
+        }
+      ]
+    },
+    "GM17": {
+      "place": "jammu-and-kashmir/gulmarg",
+      "topic": "Gulmarg Winter Festival",
+      "claim": "A three-day Gulmarg Winter Festival is held each March.",
+      "claimType": "schedule",
+      "kind": "seasonal",
+      "evidence": [
+        {
+          "source": "W_GUL",
+          "quote": "An annual three-day Gulmarg Winter Festival is held in March."
+        }
+      ]
+    },
+    "GM18": {
+      "place": "jammu-and-kashmir/gulmarg",
+      "topic": "Tangmarg",
+      "claim": "Tangmarg, on the way up, is the base for Drung waterfall and local markets.",
+      "claimType": "general",
+      "kind": "verified",
+      "evidence": [
+        {
+          "source": "II_GUL",
+          "quote": "Check out Tangmarg, a delightful town on the way to Gulmarg. Explore the surrounding areas like Zandpal, Drung (don’t miss the Drung waterfall), and Gogaldara"
+        }
+      ]
+    },
+    "KS1": {
+      "place": "jammu-and-kashmir",
+      "topic": "UK travel advice",
+      "claim": "The UK FCDO advises against all travel to Jammu and Kashmir, including Pahalgam, Gulmarg and Srinagar.",
+      "claimType": "rule",
+      "kind": "verified",
+      "evidence": [
+        {
+          "source": "FCDO_RR",
+          "quote": "advises against all travel to the Union Territory of Jammu and Kashmir (including Pahalgam, Gulmarg, Sonamarg, the city of Srinagar and the Jammu-Srinagar national highway), except for:"
+        }
+      ]
+    },
+    "KS2": {
+      "place": "jammu-and-kashmir",
+      "topic": "Security situation",
+      "claim": "The FCDO notes a continuing threat of terrorism against civilians including tourists, and heavy security in the valley.",
+      "claimType": "rule",
+      "kind": "verified",
+      "evidence": [
+        {
+          "source": "FCDO_RR",
+          "quote": "There is a continuing threat, towards Indian government targets and civilians including tourists and foreign nationals."
+        },
+        {
+          "source": "FCDO_RR",
+          "quote": "There is a heavy security presence in the Kashmir Valley."
+        }
+      ]
+    },
+    "KS3": {
+      "place": "jammu-and-kashmir",
+      "topic": "Curfews",
+      "claim": "Authorities can impose curfews and restrictions at short notice.",
+      "claimType": "rule",
+      "kind": "verified",
+      "evidence": [
+        {
+          "source": "FCDO_RR",
+          "quote": "The authorities can impose and lift curfews and other restrictions frequently and quickly."
+        }
+      ]
+    },
+    "PH1": {
+      "place": "jammu-and-kashmir/pahalgam",
+      "topic": "Amarnath transit",
+      "claim": "Pahalgam, in Anantnag district on the Lidder, is a transit camp for the Amarnath cave pilgrimage.",
+      "claimType": "general",
+      "kind": "verified",
+      "evidence": [
+        {
+          "source": "ANT_PAH",
+          "quote": "It is also an important transit camp on the way to holy Amar Nath Ji Cave"
+        }
+      ]
+    },
+    "PH2": {
+      "place": "jammu-and-kashmir/pahalgam",
+      "topic": "Railheads",
+      "claim": "Udhampur (217 km) and Jammu (285 km) are the nearest railheads; Srinagar airport is 96 km.",
+      "claimType": "distance",
+      "kind": "verified",
+      "evidence": [
+        {
+          "source": "ANT_PAH",
+          "quote": "Udhampur and Jammu are the closest rail heads to Pahalgam. While Udhampur is located at a distance of 217 km from Pahalgam, Jammu is 285 km away"
+        },
+        {
+          "source": "ANT_PAH",
+          "quote": "Srinagar international airport is the nearest international airport to Pahalgam, which is located 96 km from Srinagar airport"
+        }
+      ]
+    },
+    "PH3": {
+      "place": "jammu-and-kashmir/pahalgam",
+      "topic": "Buses and taxis",
+      "claim": "State and private buses run from Jammu, Srinagar and Anantnag; taxis are available.",
+      "claimType": "general",
+      "kind": "verified",
+      "evidence": [
+        {
+          "source": "ANT_PAH",
+          "quote": "State bus services and private buses are available from Jammu, Srinagar and Anantnag. Taxis are also available to reach Pahalgam."
+        }
+      ]
+    },
+    "PH4": {
+      "place": "jammu-and-kashmir/pahalgam",
+      "topic": "Lidder river",
+      "claim": "The Lidder river is known for trout angling, riverside walks and rafting.",
+      "claimType": "general",
+      "kind": "verified",
+      "evidence": [
+        {
+          "source": "II_PAH",
+          "quote": "It's an angler's paradise, with trout teeming in the crystal-clear waters. One can indulge in leisurely walks along its banks or partake in exhilarating activities like river rafting."
+        }
+      ]
+    },
+    "PH5": {
+      "place": "jammu-and-kashmir/pahalgam",
+      "topic": "Seasons",
+      "claim": "Meadows are covered in wildflowers in spring and in snow in winter; apple and walnut orchards surround the town.",
+      "claimType": "general",
+      "kind": "seasonal",
+      "evidence": [
+        {
+          "source": "II_PAH",
+          "quote": "lush meadows stretch as far as the eye can see, carpeted with wildflowers in the spring and blanketed with snow in the winter. There are apple and walnut orchards waiting to be visited."
+        }
+      ]
+    },
+    "PH6": {
+      "place": "jammu-and-kashmir/pahalgam",
+      "topic": "Betaab Valley",
+      "claim": "Betaab Valley, known from a Bollywood film, is a green valley with panoramic views.",
+      "claimType": "general",
+      "kind": "verified",
+      "evidence": [
+        {
+          "source": "II_PAH",
+          "quote": "The Betaab Valley, immortalized by Bollywood film, enchants visitors with its greenery and panoramic vistas."
+        }
+      ]
+    },
+    "PH7": {
+      "place": "jammu-and-kashmir/pahalgam",
+      "topic": "Shrines",
+      "claim": "Shrines include the ancient Mamleshwar Temple, the Aishmuqam Sufi shrine and the Hazrat Zain-ud-din Wali shrine.",
+      "claimType": "general",
+      "kind": "verified",
+      "evidence": [
+        {
+          "source": "II_PAH",
+          "quote": "From the ancient Mamleshwar Temple, Lok Bhawan temple to the revered Aishmuqam Shrine which is primarily a Sufi shrine it also houses a Hindu temple dedicated to Lord Shiva each sacred site exudes a serene ambiance."
+        }
+      ]
+    },
+    "PH8": {
+      "place": "jammu-and-kashmir/pahalgam",
+      "topic": "Food",
+      "claim": "Local food includes kebabs, Kashmiri dum aloo, wazwan, noon chai and kahwa.",
+      "claimType": "general",
+      "kind": "verified",
+      "evidence": [
+        {
+          "source": "II_PAH",
+          "quote": "You may also enjoy the elaborate traditional multi-course meal called Kashmiri Wazwan featuring dishes like Rogan Josh, Gushtaba, Yakhni, and more."
+        }
+      ]
+    },
+    "PH9": {
+      "place": "jammu-and-kashmir/pahalgam",
+      "topic": "Crafts",
+      "claim": "Bazaars sell embroidered phirans, shawls, walnut woodwork, papier-mâché and copperware.",
+      "claimType": "general",
+      "kind": "verified",
+      "evidence": [
+        {
+          "source": "II_PAH",
+          "quote": "Intricately embroidered phirans, exquisite handwoven shawls, intricately carved walnut woodwork, delicate papier-mâché artifacts, and ornate copperware adorn the shelves of local bazaars"
+        }
+      ]
+    },
+    "PH10": {
+      "place": "jammu-and-kashmir/baisaran-meadow",
+      "topic": "Baisaran closed",
+      "claim": "A year after the April 2025 attack, Baisaran meadow was still closed to visitors in April 2026.",
+      "claimType": "rule",
+      "kind": "verified",
+      "evidence": [
+        {
+          "source": "BK_BAIS",
+          "quote": "Baisaran meadow in Pahalgam continues to remain closed to visitors, even as tourist activity gradually returns to the hill resort.",
+          "sourceDate": "April 22, 2026"
+        }
+      ]
+    },
+    "PH11": {
+      "place": "jammu-and-kashmir/pahalgam",
+      "topic": "Name",
+      "claim": "Pahalgam means 'village of shepherds' in Kashmiri.",
+      "claimType": "general",
+      "kind": "verified",
+      "evidence": [
+        {
+          "source": "II_PAH",
+          "quote": "Pahalgam ( meaning the village of shepherds in Kashmiri)"
+        }
+      ]
+    },
+    "GON_B": {
+      "place": "jammu-and-kashmir/gulmarg",
+      "topic": "Gondola booking, fares and closures",
+      "claimType": "rule",
+      "claim": "Gulmarg gondola tickets are sold online only through the J&K Cable Car Corporation portal; reported 2026 fares are about ₹810 (Phase 1) and ₹1,010 (Phase 2). It reopened on 25 June 2026 after a technical closure and shuts on the second and fourth Monday of each month for maintenance.",
+      "conflictNote": "Fares are reported by travel sites; confirm on the JKCCC portal.",
+      "evidence": [
+        {
+          "source": "ZT_GON",
+          "quote": "Booking is online-only through the Jammu and Kashmir Cable Car Corporation portal"
+        },
+        {
+          "source": "TC_GON",
+          "quote": "It reopened on 25 June 2026 after a technical closure"
+        },
+        {
+          "source": "TC_GON",
+          "quote": "The reported fare is ₹810 per person."
+        }
+      ]
+    }
+  },
+  "places": [
     {
-     "source": "ANT_PAH",
-     "quote": "Srinagar international airport is the nearest international airport to Pahalgam, which is located 96 km from Srinagar airport"
-    }
-   ]
-  },
-  "PH3": {
-   "place": "jammu-and-kashmir/pahalgam",
-   "topic": "Buses and taxis",
-   "claim": "State and private buses run from Jammu, Srinagar and Anantnag; taxis are available.",
-   "claimType": "general",
-   "kind": "verified",
-   "evidence": [
-    {
-     "source": "ANT_PAH",
-     "quote": "State bus services and private buses are available from Jammu, Srinagar and Anantnag. Taxis are also available to reach Pahalgam."
-    }
-   ]
-  },
-  "PH4": {
-   "place": "jammu-and-kashmir/pahalgam",
-   "topic": "Lidder river",
-   "claim": "The Lidder river is known for trout angling, riverside walks and rafting.",
-   "claimType": "general",
-   "kind": "verified",
-   "evidence": [
-    {
-     "source": "II_PAH",
-     "quote": "It's an angler's paradise, with trout teeming in the crystal-clear waters. One can indulge in leisurely walks along its banks or partake in exhilarating activities like river rafting."
-    }
-   ]
-  },
-  "PH5": {
-   "place": "jammu-and-kashmir/pahalgam",
-   "topic": "Seasons",
-   "claim": "Meadows are covered in wildflowers in spring and in snow in winter; apple and walnut orchards surround the town.",
-   "claimType": "general",
-   "kind": "seasonal",
-   "evidence": [
-    {
-     "source": "II_PAH",
-     "quote": "lush meadows stretch as far as the eye can see, carpeted with wildflowers in the spring and blanketed with snow in the winter. There are apple and walnut orchards waiting to be visited."
-    }
-   ]
-  },
-  "PH6": {
-   "place": "jammu-and-kashmir/pahalgam",
-   "topic": "Betaab Valley",
-   "claim": "Betaab Valley, known from a Bollywood film, is a green valley with panoramic views.",
-   "claimType": "general",
-   "kind": "verified",
-   "evidence": [
-    {
-     "source": "II_PAH",
-     "quote": "The Betaab Valley, immortalized by Bollywood film, enchants visitors with its greenery and panoramic vistas."
-    }
-   ]
-  },
-  "PH7": {
-   "place": "jammu-and-kashmir/pahalgam",
-   "topic": "Shrines",
-   "claim": "Shrines include the ancient Mamleshwar Temple, the Aishmuqam Sufi shrine and the Hazrat Zain-ud-din Wali shrine.",
-   "claimType": "general",
-   "kind": "verified",
-   "evidence": [
-    {
-     "source": "II_PAH",
-     "quote": "From the ancient Mamleshwar Temple, Lok Bhawan temple to the revered Aishmuqam Shrine which is primarily a Sufi shrine it also houses a Hindu temple dedicated to Lord Shiva each sacred site exudes a serene ambiance."
-    }
-   ]
-  },
-  "PH8": {
-   "place": "jammu-and-kashmir/pahalgam",
-   "topic": "Food",
-   "claim": "Local food includes kebabs, Kashmiri dum aloo, wazwan, noon chai and kahwa.",
-   "claimType": "general",
-   "kind": "verified",
-   "evidence": [
-    {
-     "source": "II_PAH",
-     "quote": "You may also enjoy the elaborate traditional multi-course meal called Kashmiri Wazwan featuring dishes like Rogan Josh, Gushtaba, Yakhni, and more."
-    }
-   ]
-  },
-  "PH9": {
-   "place": "jammu-and-kashmir/pahalgam",
-   "topic": "Crafts",
-   "claim": "Bazaars sell embroidered phirans, shawls, walnut woodwork, papier-mâché and copperware.",
-   "claimType": "general",
-   "kind": "verified",
-   "evidence": [
-    {
-     "source": "II_PAH",
-     "quote": "Intricately embroidered phirans, exquisite handwoven shawls, intricately carved walnut woodwork, delicate papier-mâché artifacts, and ornate copperware adorn the shelves of local bazaars"
-    }
-   ]
-  },
-  "PH10": {
-   "place": "jammu-and-kashmir/baisaran-meadow",
-   "topic": "Baisaran closed",
-   "claim": "A year after the April 2025 attack, Baisaran meadow was still closed to visitors in April 2026.",
-   "claimType": "rule",
-   "kind": "verified",
-   "evidence": [
-    {
-     "source": "BK_BAIS",
-     "quote": "Baisaran meadow in Pahalgam continues to remain closed to visitors, even as tourist activity gradually returns to the hill resort.",
-     "sourceDate": "April 22, 2026"
-    }
-   ]
-  },
-  "PH11": {
-   "place": "jammu-and-kashmir/pahalgam",
-   "topic": "Name",
-   "claim": "Pahalgam means 'village of shepherds' in Kashmiri.",
-   "claimType": "general",
-   "kind": "verified",
-   "evidence": [
-    {
-     "source": "II_PAH",
-     "quote": "Pahalgam ( meaning the village of shepherds in Kashmiri)"
-    }
-   ]
-  }
- },
- "places": [
-  {
-   "key": "jammu-and-kashmir/gulmarg",
-   "kind": "town",
-   "name": "Gulmarg",
-   "parent": "jammu-and-kashmir",
-   "summary": "Kashmir's 'meadow of flowers': India's best-known ski slopes in winter, wildflower meadows in summer, and the gondola to Apharwat.",
-   "seoTitle": "Gulmarg Travel Guide: Gondola, Skiing & Meadows",
-   "seoDescription": "Plan a Gulmarg trip: gondola stages and hours, skiing and the March winter festival, summer meadows, Alpather Lake, Kashmiri food and current travel advice.",
-   "lat": 34.0484,
-   "lng": 74.3805,
-   "tripTypes": [
-    "mountains",
-    "adventure"
-   ],
-   "images": [
-    {
-     "commons": "File:Gulmarg 2020 by Mutahir Showkat.jpg",
-     "alt": "Gulmarg's meadows and pine forest below snow peaks",
-     "hero": true
-    }
-   ],
-   "relations": [
-    {
-     "to": "jammu-and-kashmir/srinagar",
-     "type": "day_trip"
-    }
-   ],
-   "sections": {
-    "overview": {
-     "text": "Gulmarg, the 'meadow of flowers', lies 60 km from Srinagar, about an hour and a half by car, in the Pir Panjal range. Kings from Yousuf Shah Chak to the Mughal emperor Jahangir came here, and so did the British.\n\nIn winter the snow turns it into Kashmir's skiing capital, with snowboarding, heli-skiing and tobogganing. In summer its meadows bloom with wildflowers such as edelweiss and lilies. The two-stage gondola climbs from the resort to Kongdori and up to about 12,300 ft on Apharwat.\n\nThe UK government currently advises against all travel to Jammu and Kashmir. Read the safety section before planning.",
-     "facts": [
-      "GM1",
-      "GM6",
-      "GM9",
-      "GM10",
-      "GM2",
-      "KS1"
-     ]
-    },
-    "best_time": {
-     "text": "Winter, roughly December to March, is ski season, when Gulmarg is under snow. White Christmas and New Year are celebrated here, and a three-day Gulmarg Winter Festival takes place in March. In summer the meadows bloom, and it's the time for pony rides, golf at 2,650 m and walks up to Khilanmarg. The gondola runs roughly 10 am–5 pm, depending on the weather at both stages.",
-     "facts": [
-      "GM6",
-      "GM17",
-      "GM10",
-      "GM8",
-      "GM15",
-      "GM3"
-     ]
-    },
-    "local_transport": {
-     "text": "Gulmarg is small and walkable. Ponies carry visitors to Khilanmarg (4 km from the bus stop), Strawberry Valley and Leopard Valley, and in summer up towards Alpather Lake. The gondola is the way up the mountain: about 9 minutes to Kongdori and 12 more to the second stage. Taxis come up from Srinagar and Tangmarg.",
-     "facts": [
-      "GM15",
-      "GM5",
-      "GM3",
-      "GM1",
-      "GM18"
-     ]
-    },
-    "who_its_for": {
-     "items": [
-      {
-       "title": "Skiers and snowboarders",
-       "body": "Winter slopes on Apharwat, with heli-skiing for experts."
-      },
-      {
-       "title": "Families",
-       "body": "The gondola, snow play, tobogganing and pony rides."
-      },
-      {
-       "title": "Summer walkers",
-       "body": "Wildflower meadows, Khilanmarg and Alpather Lake."
-      },
-      {
-       "title": "Golfers",
-       "body": "A golf course at 2,650 m."
-      }
-     ],
-     "facts": [
-      "GM9",
-      "GM2",
-      "GM5",
-      "GM10",
-      "GM15",
-      "GM7",
-      "GM8"
-     ]
-    },
-    "food": {
-     "items": [
-      {
-       "body": "Rogan josh, dum aloo and yakhni.",
-       "status": "verified"
-      },
-      {
-       "body": "Gushtaba and the multi-course wazwan.",
-       "status": "verified"
-      },
-      {
-       "body": "Kahwa, spiced Kashmiri tea, to warm up after the slopes.",
-       "status": "verified"
-      }
-     ],
-     "facts": [
-      "GM11"
-     ]
-    },
-    "shopping": {
-     "items": [
-      {
-       "body": "Pashmina shawls.",
-       "status": "verified"
-      },
-      {
-       "body": "Silk carpets, walnut-wood trinkets and papier-mâché.",
-       "status": "verified"
-      }
-     ],
-     "facts": [
-      "GM16"
-     ]
-    },
-    "practical_info": {
-     "items": [
-      {
-       "title": "Getting there",
-       "body": "60 km from Srinagar (about 1.5 hours). Srinagar airport is about 54 km away; Baramulla is the nearest railhead (about 53 km).",
-       "status": "verified"
-      },
-      {
-       "title": "Gondola",
-       "body": "Roughly 10 am–5 pm, weather permitting. Fares change, so check at the counter or on the official booking site.",
-       "status": "estimate"
-      },
-      {
-       "title": "Travel advisory",
-       "body": "The UK FCDO advises against all travel to Jammu and Kashmir, including here, citing a continuing terrorist threat to civilians and tourists. Check your own government's advice and your insurance before you book.",
-       "status": "verified"
-      }
-     ],
-     "facts": [
-      "GM1",
-      "GM4",
-      "GM3",
-      "KS1",
-      "KS2"
-     ]
-    },
-    "travel_tips": {
-     "items": [
-      {
-       "body": "Take the gondola early: weather closes the upper stage more often in the afternoon."
-      },
-      {
-       "body": "Book winter stays early, especially around Christmas, New Year and the March festival."
-      },
-      {
-       "body": "Check your government's travel advice and local news before travelling; curfews can be imposed at short notice."
-      }
-     ],
-     "facts": [
-      "GM3",
-      "GM6",
-      "GM17",
-      "KS1",
-      "KS3"
-     ]
-    },
-    "faqs": {
-     "items": [
-      {
-       "title": "Is it safe to visit Gulmarg?",
-       "body": "The UK FCDO advises against all travel to Jammu and Kashmir, including Gulmarg, citing a continuing threat of terrorism. Check your own government's current advice and your insurance."
-      },
-      {
-       "title": "How high does the gondola go?",
-       "body": "The first stage goes to Kongdori (8,530 ft) and the second to about 12,293 ft on Apharwat."
-      },
-      {
-       "title": "When is ski season?",
-       "body": "In winter, when Gulmarg is under snow. The Gulmarg Winter Festival is held in March."
-      },
-      {
-       "title": "How far is Gulmarg from Srinagar?",
-       "body": "About 60 km, an hour and a half by car."
-      }
-     ],
-     "facts": [
-      "KS1",
-      "KS2",
-      "GM2",
-      "GM6",
-      "GM17",
-      "GM1"
-     ]
-    }
-   }
-  },
-  {
-   "key": "jammu-and-kashmir/alpather-lake",
-   "kind": "lake",
-   "name": "Alpather Lake",
-   "parent": "jammu-and-kashmir/gulmarg",
-   "summary": "High lake at the foot of Apharwat (4,200 m), frozen in winter and reached in summer from the gondola's upper stage.",
-   "seoTitle": "Alpather Lake, Gulmarg: The Frozen Lake",
-   "seoDescription": "Alpather Lake lies at 4,200 m at the foot of Apharwat above Gulmarg, frozen through winter and ringed by green in summer when the snow melts.",
-   "lat": 34.015,
-   "lng": 74.352,
-   "tripTypes": [
-    "mountains",
-    "adventure"
-   ],
-   "images": [
-    {
-     "commons": "File:Alpather lake,Gulmarg.jpg",
-     "alt": "Alpather Lake partly frozen below the snowy slopes of Apharwat",
-     "hero": true
-    }
-   ],
-   "sections": {
-    "overview": {
-     "text": "Alpather Lake sits at the base of the Apharwat peaks above Gulmarg, at about 4,200 m. It changes with the seasons. Frozen through winter, it has earned the nickname 'the Frozen Lake'; in summer, when the snow retreats, it is ringed by green. From up here you look down over the whole Gulmarg valley.\n\nVisitors reach it in summer from the gondola's upper stations or by pony from Gulmarg via Kongdori. At this altitude, go slowly and turn back if the weather closes in.",
-     "facts": [
-      "GM7",
-      "GM5",
-      "GM2"
-     ]
-    },
-    "travel_tips": {
-     "items": [
-      {
-       "body": "Go only in good weather, and carry warm layers and water."
-      },
-      {
-       "body": "Start early so you can be back down before the gondola closes."
-      },
-      {
-       "body": "The UK FCDO advises against all travel to Jammu and Kashmir, including here, citing a continuing terrorist threat to civilians and tourists. Check your own government's advice and your insurance before you book."
-      }
-     ],
-     "facts": [
-      "GM3",
-      "KS1"
-     ]
-    }
-   }
-  },
-  {
-   "key": "jammu-and-kashmir/maharani-temple-gulmarg",
-   "kind": "temple",
-   "name": "Maharani Temple",
-   "parent": "jammu-and-kashmir/gulmarg",
-   "summary": "Red-roofed Dogra royal temple to Shiva and Parvati on a hillock in the middle of Gulmarg.",
-   "seoTitle": "Maharani Temple Gulmarg: Dogra Royal Shiva Temple",
-   "seoDescription": "The red-roofed Maharani Temple, royal temple of the Dogra dynasty, stands on a hillock in Gulmarg and is dedicated to Shiva and Parvati.",
-   "lat": 34.053,
-   "lng": 74.383,
-   "tripTypes": [
-    "spiritual",
-    "heritage"
-   ],
-   "images": [
-    {
-     "commons": "File:The Ancient Maharani Temple(Gulmarg,Kashmir) DivyaGupta forWiki.jpg",
-     "alt": "Red-roofed Maharani Temple on a green hillock in Gulmarg",
-     "hero": true
-    }
-   ],
-   "sections": {
-    "overview": {
-     "text": "The Maharani Temple, with its distinctive red roof, sits on a small hillock in the middle of Gulmarg. It is said to be the royal temple of the Dogra dynasty and is dedicated to Lord Shiva and Goddess Parvati. Because it is raised above the meadow, it can be seen from all over Gulmarg, which makes it one of the resort's best-known landmarks.\n\nIt is a short walk from the main market and pairs well with a visit to St Mary's Church near the golf course.",
-     "facts": [
-      "GM13",
-      "GM14"
-     ]
-    },
-    "travel_tips": {
-     "items": [
-      {
-       "body": "Remove shoes and dress modestly inside."
-      },
-      {
-       "body": "The hillock is a good spot for photos of the meadow at either end of the day."
-      },
-      {
-       "body": "The UK FCDO advises against all travel to Jammu and Kashmir, including here, citing a continuing terrorist threat to civilians and tourists. Check your own government's advice and your insurance before you book."
-      }
-     ],
-     "facts": [
-      "KS1"
-     ]
-    }
-   }
-  },
-  {
-   "key": "jammu-and-kashmir/skiing-in-gulmarg",
-   "kind": "activity",
-   "category": "adventure",
-   "name": "Skiing in Gulmarg",
-   "parent": "jammu-and-kashmir/gulmarg",
-   "summary": "Ski, snowboard or heli-ski on Apharwat's winter slopes, reached by the Gulmarg gondola.",
-   "seoTitle": "Skiing in Gulmarg: Season, Slopes & Heli-skiing",
-   "seoDescription": "Ski or snowboard in Gulmarg in winter on Apharwat's slopes via the gondola, with heli-skiing, toboggans and the March Gulmarg Winter Festival.",
-   "lat": 34.04,
-   "lng": 74.37,
-   "tripTypes": [
-    "adventure",
-    "mountains"
-   ],
-   "images": [
-    {
-     "commons": "File:Iism gulmarg.JPG",
-     "alt": "Skiers on the snowy slopes of Gulmarg",
-     "hero": true
-    }
-   ],
-   "sections": {
-    "overview": {
-     "text": "In winter, Gulmarg is covered in snow and becomes a skier's paradise. Its natural slopes are a challenge even for expert skiers. Beyond skiing there is snowboarding, heli-skiing (flying up by helicopter before the descent), snow scooters and tobogganing. The gondola carries skiers up Apharwat to about 12,293 ft.\n\nThe winter season brings White Christmas and New Year celebrations, and the three-day Gulmarg Winter Festival takes place in March.",
-     "facts": [
-      "GM6",
-      "GM9",
-      "GM2",
-      "GM17"
-     ]
-    },
-    "travel_tips": {
-     "items": [
-      {
-       "body": "Ski the upper mountain only with a qualified guide and avalanche awareness."
-      },
-      {
-       "body": "Book equipment and instructors in advance in peak weeks."
-      },
-      {
-       "body": "The UK FCDO advises against all travel to Jammu and Kashmir, including here, citing a continuing terrorist threat to civilians and tourists. Check your own government's advice and your insurance before you book."
-      }
-     ],
-     "facts": [
-      "KS1"
-     ]
-    }
-   }
-  },
-  {
-   "key": "jammu-and-kashmir/khilanmarg",
-   "kind": "nature",
-   "name": "Khilanmarg",
-   "parent": "jammu-and-kashmir/gulmarg",
-   "displayMode": "parent_section",
-   "summary": "Meadow valley 4 km from Gulmarg's bus stop, reached on foot or by pony.",
-   "seoTitle": "Khilanmarg, Gulmarg",
-   "seoDescription": "Khilanmarg is a meadow valley 4 km from Gulmarg's bus stop, reached on foot through the flowers or by pony.",
-   "lat": 34.035,
-   "lng": 74.39,
-   "tripTypes": [
-    "nature"
-   ],
-   "sections": {
-    "overview": {
-     "text": "Khilanmarg is a breathtaking valley 4 km from Gulmarg's bus stop. Walk up through the summer flowers, or take a leisurely pony ride. It is one of the easiest ways to get a quieter view of the mountains around Gulmarg.",
-     "facts": [
-      "GM15"
-     ]
-    }
-   }
-  },
-  {
-   "key": "jammu-and-kashmir/baba-reshi-shrine",
-   "kind": "attraction",
-   "name": "Ziarat of Baba Reshi",
-   "parent": "jammu-and-kashmir/gulmarg",
-   "displayMode": "parent_section",
-   "summary": "Shrine and tomb of the Sufi saint Baba Payam-Din near Gulmarg.",
-   "seoTitle": "Ziarat of Baba Reshi, Gulmarg",
-   "seoDescription": "The Ziarat of Baba Reshi near Gulmarg is the shrine and richly decorated tomb of the Sufi saint Baba Payam-Din, who died in 1480.",
-   "lat": 34.079,
-   "lng": 74.419,
-   "tripTypes": [
-    "spiritual"
-   ],
-   "sections": {
-    "overview": {
-     "text": "The Ziarat of Baba Reshi is dedicated to the revered Sufi saint Baba Payam-Din, who meditated here until his death in 1480. It houses his richly decorated tomb and is known for granting wishes, so devotees come seeking blessings. Dress modestly and cover your head inside.",
-     "facts": [
-      "GM12"
-     ]
-    }
-   }
-  },
-  {
-   "key": "jammu-and-kashmir/st-marys-church-gulmarg",
-   "kind": "attraction",
-   "name": "St Mary's Church, Gulmarg",
-   "parent": "jammu-and-kashmir/gulmarg",
-   "displayMode": "parent_section",
-   "summary": "Victorian grey-stone church near the golf course.",
-   "seoTitle": "St Mary's Church, Gulmarg",
-   "seoDescription": "St Mary's is a Victorian grey-stone church over a century old, near Gulmarg's golf course, especially photogenic under winter snow.",
-   "lat": 34.051,
-   "lng": 74.381,
-   "tripTypes": [
-    "heritage"
-   ],
-   "sections": {
-    "overview": {
-     "text": "Near the Gulmarg Golf Course stands St Mary's Church, a Victorian grey-stone church more than a century old. In winter, snow drapes its roof and turns it into a picture-postcard scene. It is a short walk from the Maharani Temple across the meadow.",
-     "facts": [
-      "GM14"
-     ]
-    }
-   }
-  },
-  {
-   "key": "jammu-and-kashmir/pahalgam",
-   "kind": "town",
-   "name": "Pahalgam",
-   "parent": "jammu-and-kashmir",
-   "summary": "The 'village of shepherds' on the Lidder river: meadows, orchards and trout streams, and the base for the Amarnath pilgrimage.",
-   "seoTitle": "Pahalgam Travel Guide: Lidder Valley & Safety",
-   "seoDescription": "Plan a Pahalgam trip with care: the Lidder river, Betaab Valley, shrines, Kashmiri food, how to get there, Baisaran's closure and current travel advice.",
-   "lat": 34.0161,
-   "lng": 75.315,
-   "tripTypes": [
-    "mountains",
-    "nature"
-   ],
-   "images": [
-    {
-     "commons": "File:Pahalgam Valley.jpg",
-     "alt": "Pahalgam valley with the Lidder river and pine-covered slopes",
-     "hero": true
-    }
-   ],
-   "relations": [
-    {
-     "to": "jammu-and-kashmir/srinagar",
-     "type": "day_trip"
-    }
-   ],
-   "sections": {
-    "overview": {
-     "text": "Pahalgam, whose name means 'village of shepherds' in Kashmiri, sits among pine-covered hills in Anantnag district on the Lidder river. It has long been a summer resort. Its meadows bloom with wildflowers in spring and lie under snow in winter, and apple and walnut orchards surround the town. The Lidder is known for trout and rafting, and Betaab Valley, famous from a Bollywood film, is nearby. Pahalgam is also the transit camp on the way to the Amarnath cave.\n\nOn 22 April 2025, militants attacked tourists at Baisaran meadow above the town. Baisaran was still closed in April 2026, and the UK government advises against all travel to Jammu and Kashmir. Check current advice before you plan.",
-     "facts": [
-      "PH11",
-      "PH5",
-      "PH4",
-      "PH6",
-      "PH1",
-      "PH10",
-      "KS1"
-     ]
-    },
-    "things_to_do": {
-     "items": [
-      {
-       "body": "Walk the banks of the Lidder, fish for trout or go rafting.",
-       "status": "verified"
-      },
-      {
-       "body": "Visit Betaab Valley, reopened in June 2025.",
-       "status": "verified"
-      },
-      {
-       "body": "Wander the apple and walnut orchards around town.",
-       "status": "seasonal"
-      },
-      {
-       "body": "See the ancient Mamleshwar Temple and the Aishmuqam Sufi shrine.",
-       "status": "verified"
-      },
-      {
-       "body": "Baisaran meadow was still closed to visitors in April 2026. Check locally before planning.",
-       "status": "unconfirmed"
-      }
-     ],
-     "facts": [
-      "PH4",
-      "PH6",
-      "PH5",
-      "PH7",
-      "PH10"
-     ]
-    },
-    "best_time": {
-     "text": "Spring carpets Pahalgam's meadows with wildflowers, while winter brings snow. The town is also a transit camp for the summer Amarnath pilgrimage, when it gets busy and security is tight. Whatever the season, check the current travel advice and the status of individual sites before you go.",
-     "facts": [
-      "PH5",
-      "PH1",
-      "KS1"
-     ]
-    },
-    "food": {
-     "items": [
-      {
-       "body": "Kebabs from charcoal grills and Kashmiri dum aloo.",
-       "status": "verified"
-      },
-      {
-       "body": "Wazwan, the traditional multi-course feast: rogan josh, gushtaba, yakhni.",
-       "status": "verified"
-      },
-      {
-       "body": "Pink, salty noon chai and saffron kahwa.",
-       "status": "verified"
-      }
-     ],
-     "facts": [
-      "PH8"
-     ]
-    },
-    "shopping": {
-     "items": [
-      {
-       "body": "Embroidered phirans and hand-woven shawls.",
-       "status": "verified"
-      },
-      {
-       "body": "Carved walnut wood, papier-mâché and copperware.",
-       "status": "verified"
-      }
-     ],
-     "facts": [
-      "PH9"
-     ]
-    },
-    "practical_info": {
-     "items": [
-      {
-       "title": "Getting there",
-       "body": "Srinagar airport is 96 km away. The nearest railheads are Udhampur (217 km) and Jammu (285 km). Buses run from Jammu, Srinagar and Anantnag, and taxis are available.",
-       "status": "verified"
-      },
-      {
-       "title": "Closures",
-       "body": "Baisaran meadow was still closed in April 2026. Some other sites have reopened in phases.",
-       "status": "unconfirmed"
-      },
-      {
-       "title": "Travel advisory",
-       "body": "The UK FCDO advises against all travel to Jammu and Kashmir, including here, citing a continuing terrorist threat to civilians and tourists. Check your own government's advice and your insurance before you book.",
-       "status": "verified"
-      }
-     ],
-     "facts": [
-      "PH2",
-      "PH3",
-      "PH10",
-      "KS1",
-      "KS2"
-     ]
-    },
-    "travel_tips": {
-     "items": [
-      {
-       "body": "Check your government's advice and local news daily; curfews can be imposed at short notice."
-      },
-      {
-       "body": "Stay within open, staffed areas and follow security instructions."
-      },
-      {
-       "body": "Book through registered operators and keep your ID with you."
-      }
-     ],
-     "facts": [
-      "KS1",
-      "KS3"
-     ]
-    },
-    "faqs": {
-     "items": [
-      {
-       "title": "Is it safe to visit Pahalgam?",
-       "body": "The UK FCDO advises against all travel to Jammu and Kashmir, including Pahalgam, citing a continuing threat of terrorism against civilians and tourists. Check your own government's advice and your insurance."
-      },
-      {
-       "title": "Is Baisaran meadow open?",
-       "body": "It was still closed to visitors in April 2026, a year after the 2025 attack. Check with local authorities before planning to go."
-      },
-      {
-       "title": "How do I get to Pahalgam?",
-       "body": "Fly to Srinagar (96 km away), or take a train to Udhampur or Jammu and continue by bus or taxi."
-      },
-      {
-       "title": "What does Pahalgam mean?",
-       "body": "'Village of shepherds' in Kashmiri."
-      }
-     ],
-     "facts": [
-      "KS1",
-      "KS2",
-      "PH10",
-      "PH2",
-      "PH3",
-      "PH11"
-     ]
-    }
-   }
-  },
-  {
-   "key": "jammu-and-kashmir/baisaran-meadow",
-   "kind": "nature",
-   "name": "Baisaran meadow",
-   "parent": "jammu-and-kashmir/pahalgam",
-   "displayMode": "parent_section",
-   "summary": "Meadow above Pahalgam, closed to visitors since the April 2025 attack.",
-   "seoTitle": "Baisaran Meadow, Pahalgam: Status",
-   "seoDescription": "Baisaran meadow above Pahalgam, the site of the April 2025 attack, was still closed to visitors in April 2026. Check the current status locally.",
-   "lat": 34.004,
-   "lng": 75.32,
-   "tripTypes": [
-    "nature"
-   ],
-   "sections": {
-    "overview": {
-     "text": "Baisaran, the meadow above Pahalgam, was the site of the April 2025 terror attack. A year later, in April 2026, it was still closed to visitors, with security checkpoints restricting access. Don't plan around it; check its status with local authorities before you go.",
-     "facts": [
-      "PH10"
-     ]
-    }
-   }
-  },
-  {
-   "key": "jammu-and-kashmir/mamleshwar-temple",
-   "kind": "temple",
-   "name": "Mamleshwar Temple",
-   "parent": "jammu-and-kashmir/pahalgam",
-   "displayMode": "parent_section",
-   "summary": "Ancient Shiva temple in Pahalgam.",
-   "seoTitle": "Mamleshwar Temple, Pahalgam",
-   "seoDescription": "The ancient Mamleshwar Temple is one of Pahalgam's sacred sites, alongside the Aishmuqam Sufi shrine and the dargahs of the Lidder valley.",
-   "lat": 34.014,
-   "lng": 75.318,
-   "tripTypes": [
-    "spiritual"
-   ],
-   "sections": {
-    "overview": {
-     "text": "The ancient Mamleshwar Temple is one of Pahalgam's sacred sites. Others include Lok Bhawan temple, the Aishmuqam Sufi shrine (which also houses a Shiva temple) and the dargahs of Hazrat Zain-ud-din Wali and Khanqah-e-Moula. Visitors from all faiths come to these shrines.",
-     "facts": [
-      "PH7"
-     ]
-    }
-   }
-  }
- ],
- "itineraries": [
-  {
-   "place": "jammu-and-kashmir/gulmarg",
-   "slug": "gulmarg-2-days",
-   "title": "Gulmarg in 2 days",
-   "summary": "The gondola to Apharwat and Alpather Lake (summer) or the ski slopes (winter), then Khilanmarg, the Maharani Temple and Baba Reshi.",
-   "durationDays": 2,
-   "tripTypes": [
-    "mountains",
-    "adventure"
-   ],
-   "seoTitle": "2-Day Gulmarg Itinerary: Gondola, Khilanmarg & Shrines",
-   "seoDescription": "A two-day Gulmarg plan from Srinagar: the gondola to Kongdori and Apharwat, Alpather Lake or skiing, Khilanmarg, the Maharani Temple and the Baba Reshi shrine.",
-   "facts": [
-    "GM1",
-    "GM2",
-    "GM3",
-    "GM7",
-    "GM9",
-    "GM15",
-    "GM13",
-    "GM12",
-    "KS1"
-   ],
-   "plan": {
-    "overview": "From Srinagar (60 km, about 1.5 hours). Before you go, check your government's advice: the UK FCDO currently advises against all travel to Jammu and Kashmir.",
-    "start": "Srinagar",
-    "end": "Srinagar",
-    "transport": "Taxi from Srinagar; gondola and ponies in Gulmarg",
-    "difficulty": "Easy to moderate (altitude on Apharwat)",
-    "days": [
-     {
-      "title": "Up the mountain",
-      "distance": "60 km from Srinagar",
-      "stops": [
-       {
-        "time": "Morning",
-        "name": "Drive up from Srinagar",
-        "duration": "About 1.5 hours"
-       },
-       {
-        "time": "Late morning",
-        "name": "Gondola to Kongdori and Apharwat",
-        "duration": "3 hours",
-        "note": "Roughly 10 am–5 pm, weather permitting."
-       },
-       {
-        "time": "Afternoon",
-        "name": "Alpather Lake (summer) or skiing (winter)",
-        "placeSlug": "alpather-lake",
-        "duration": "2 hours"
-       }
+      "key": "jammu-and-kashmir/gulmarg",
+      "kind": "town",
+      "name": "Gulmarg",
+      "parent": "jammu-and-kashmir",
+      "summary": "Kashmir's 'meadow of flowers': India's best-known ski slopes in winter, wildflower meadows in summer, and the gondola to Apharwat.",
+      "seoTitle": "Gulmarg Travel Guide: Gondola, Skiing & Meadows",
+      "seoDescription": "Plan a Gulmarg trip: gondola stages and hours, skiing and the March winter festival, summer meadows, Alpather Lake, Kashmiri food and current travel advice.",
+      "lat": 34.0484,
+      "lng": 74.3805,
+      "tripTypes": [
+        "mountains",
+        "adventure"
       ],
-      "overnight": "Gulmarg"
-     },
-     {
-      "title": "Meadows and shrines",
-      "stops": [
-       {
-        "time": "Morning",
-        "name": "Khilanmarg by pony or on foot",
-        "placeSlug": "khilanmarg",
-        "duration": "3 hours"
-       },
-       {
-        "time": "Afternoon",
-        "name": "Maharani Temple and St Mary's Church",
-        "placeSlug": "maharani-temple-gulmarg",
-        "duration": "1.5 hours"
-       },
-       {
-        "time": "Late afternoon",
-        "name": "Ziarat of Baba Reshi",
-        "placeSlug": "baba-reshi-shrine",
-        "duration": "1 hour"
-       }
+      "images": [
+        {
+          "commons": "File:Gulmarg 2020 by Mutahir Showkat.jpg",
+          "alt": "Gulmarg's meadows and pine forest below snow peaks",
+          "hero": true
+        }
       ],
-      "overnight": "Srinagar"
-     }
-    ],
-    "alternatives": [
-     "Winter: replace day 2 morning with a ski lesson.",
-     "If the upper gondola is closed by weather, ride to Kongdori only."
-    ],
-    "booking": [
-     {
-      "item": "Gondola",
-      "detail": "Book tickets on the official site or at the counter; fares change."
-     }
-    ],
-    "prep": [
-     {
-      "title": "Travel advice",
-      "body": "The UK FCDO advises against all travel to Jammu and Kashmir. Check your own government's advice and your insurance."
-     }
-    ],
-    "budget": {
-     "assumptions": "VacayOut has no verified current prices for Gulmarg hotels, transport or activities. Budget for your own choices and confirm fees with operators on the spot.",
-     "lines": []
+      "relations": [
+        {
+          "to": "jammu-and-kashmir/srinagar",
+          "type": "day_trip"
+        }
+      ],
+      "sections": {
+        "overview": {
+          "text": "Gulmarg, the 'meadow of flowers', lies 60 km from Srinagar, about an hour and a half by car, in the Pir Panjal range. Kings from Yousuf Shah Chak to the Mughal emperor Jahangir came here, and so did the British.\n\nIn winter the snow turns it into Kashmir's skiing capital, with snowboarding, heli-skiing and tobogganing. In summer its meadows bloom with wildflowers such as edelweiss and lilies. The two-stage gondola climbs from the resort to Kongdori and up to about 12,300 ft on Apharwat.\n\nThe UK government currently advises against all travel to Jammu and Kashmir. Read the safety section before planning.",
+          "facts": [
+            "GM1",
+            "GM6",
+            "GM9",
+            "GM10",
+            "GM2",
+            "KS1"
+          ]
+        },
+        "best_time": {
+          "text": "Winter, roughly December to March, is ski season, when Gulmarg is under snow. White Christmas and New Year are celebrated here, and a three-day Gulmarg Winter Festival takes place in March. In summer the meadows bloom, and it's the time for pony rides, golf at 2,650 m and walks up to Khilanmarg. The gondola runs roughly 10 am–5 pm, depending on the weather at both stages.",
+          "facts": [
+            "GM6",
+            "GM17",
+            "GM10",
+            "GM8",
+            "GM15",
+            "GM3"
+          ]
+        },
+        "local_transport": {
+          "text": "Gulmarg is small and walkable. Ponies carry visitors to Khilanmarg (4 km from the bus stop), Strawberry Valley and Leopard Valley, and in summer up towards Alpather Lake. The gondola is the way up the mountain: about 9 minutes to Kongdori and 12 more to the second stage. Taxis come up from Srinagar and Tangmarg.",
+          "facts": [
+            "GM15",
+            "GM5",
+            "GM3",
+            "GM1",
+            "GM18"
+          ]
+        },
+        "who_its_for": {
+          "items": [
+            {
+              "title": "Skiers and snowboarders",
+              "body": "Winter slopes on Apharwat, with heli-skiing for experts."
+            },
+            {
+              "title": "Families",
+              "body": "The gondola, snow play, tobogganing and pony rides."
+            },
+            {
+              "title": "Summer walkers",
+              "body": "Wildflower meadows, Khilanmarg and Alpather Lake."
+            },
+            {
+              "title": "Golfers",
+              "body": "A golf course at 2,650 m."
+            }
+          ],
+          "facts": [
+            "GM9",
+            "GM2",
+            "GM5",
+            "GM10",
+            "GM15",
+            "GM7",
+            "GM8"
+          ]
+        },
+        "food": {
+          "items": [
+            {
+              "body": "Rogan josh, dum aloo and yakhni.",
+              "status": "verified"
+            },
+            {
+              "body": "Gushtaba and the multi-course wazwan.",
+              "status": "verified"
+            },
+            {
+              "body": "Kahwa, spiced Kashmiri tea, to warm up after the slopes.",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "GM11"
+          ]
+        },
+        "shopping": {
+          "items": [
+            {
+              "body": "Pashmina shawls.",
+              "status": "verified"
+            },
+            {
+              "body": "Silk carpets, walnut-wood trinkets and papier-mâché.",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "GM16"
+          ]
+        },
+        "practical_info": {
+          "items": [
+            {
+              "title": "Getting there",
+              "body": "60 km from Srinagar (about 1.5 hours). Srinagar airport is about 54 km away; Baramulla is the nearest railhead (about 53 km).",
+              "status": "verified"
+            },
+            {
+              "title": "Gondola",
+              "body": "Roughly 10 am–5 pm, weather permitting. Fares change, so check at the counter or on the official booking site.",
+              "status": "estimate"
+            },
+            {
+              "title": "Travel advisory",
+              "body": "The UK FCDO advises against all travel to Jammu and Kashmir, including here, citing a continuing terrorist threat to civilians and tourists. Check your own government's advice and your insurance before you book.",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "GM1",
+            "GM4",
+            "GM3",
+            "KS1",
+            "KS2"
+          ]
+        },
+        "travel_tips": {
+          "items": [
+            {
+              "body": "Take the gondola early: weather closes the upper stage more often in the afternoon."
+            },
+            {
+              "body": "Book winter stays early, especially around Christmas, New Year and the March festival."
+            },
+            {
+              "body": "Check your government's travel advice and local news before travelling; curfews can be imposed at short notice."
+            }
+          ],
+          "facts": [
+            "GM3",
+            "GM6",
+            "GM17",
+            "KS1",
+            "KS3"
+          ]
+        },
+        "faqs": {
+          "items": [
+            {
+              "title": "Is it safe to visit Gulmarg?",
+              "body": "The UK FCDO advises against all travel to Jammu and Kashmir, including Gulmarg, citing a continuing threat of terrorism. Check your own government's current advice and your insurance."
+            },
+            {
+              "title": "How high does the gondola go?",
+              "body": "The first stage goes to Kongdori (8,530 ft) and the second to about 12,293 ft on Apharwat."
+            },
+            {
+              "title": "When is ski season?",
+              "body": "In winter, when Gulmarg is under snow. The Gulmarg Winter Festival is held in March."
+            },
+            {
+              "title": "How far is Gulmarg from Srinagar?",
+              "body": "About 60 km, an hour and a half by car."
+            }
+          ],
+          "facts": [
+            "KS1",
+            "KS2",
+            "GM2",
+            "GM6",
+            "GM17",
+            "GM1"
+          ]
+        }
+      }
+    },
+    {
+      "key": "jammu-and-kashmir/alpather-lake",
+      "kind": "lake",
+      "name": "Alpather Lake",
+      "parent": "jammu-and-kashmir/gulmarg",
+      "summary": "High lake at the foot of Apharwat (4,200 m), frozen in winter and reached in summer from the gondola's upper stage.",
+      "seoTitle": "Alpather Lake, Gulmarg: The Frozen Lake",
+      "seoDescription": "Alpather Lake lies at 4,200 m at the foot of Apharwat above Gulmarg, frozen through winter and ringed by green in summer when the snow melts.",
+      "lat": 34.015,
+      "lng": 74.352,
+      "tripTypes": [
+        "mountains",
+        "adventure"
+      ],
+      "images": [
+        {
+          "commons": "File:Alpather lake,Gulmarg.jpg",
+          "alt": "Alpather Lake partly frozen below the snowy slopes of Apharwat",
+          "hero": true
+        }
+      ],
+      "sections": {
+        "overview": {
+          "text": "Alpather Lake sits at the base of the Apharwat peaks above Gulmarg, at about 4,200 m. It changes with the seasons. Frozen through winter, it has earned the nickname 'the Frozen Lake'; in summer, when the snow retreats, it is ringed by green. From up here you look down over the whole Gulmarg valley.\n\nVisitors reach it in summer from the gondola's upper stations or by pony from Gulmarg via Kongdori. At this altitude, go slowly and turn back if the weather closes in.",
+          "facts": [
+            "GM7",
+            "GM5",
+            "GM2"
+          ]
+        },
+        "travel_tips": {
+          "items": [
+            {
+              "body": "Go only in good weather, and carry warm layers and water."
+            },
+            {
+              "body": "Start early so you can be back down before the gondola closes."
+            },
+            {
+              "body": "The UK FCDO advises against all travel to Jammu and Kashmir, including here, citing a continuing terrorist threat to civilians and tourists. Check your own government's advice and your insurance before you book."
+            }
+          ],
+          "facts": [
+            "GM3",
+            "KS1"
+          ]
+        }
+      }
+    },
+    {
+      "key": "jammu-and-kashmir/maharani-temple-gulmarg",
+      "kind": "temple",
+      "name": "Maharani Temple",
+      "parent": "jammu-and-kashmir/gulmarg",
+      "summary": "Red-roofed Dogra royal temple to Shiva and Parvati on a hillock in the middle of Gulmarg.",
+      "seoTitle": "Maharani Temple Gulmarg: Dogra Royal Shiva Temple",
+      "seoDescription": "The red-roofed Maharani Temple, royal temple of the Dogra dynasty, stands on a hillock in Gulmarg and is dedicated to Shiva and Parvati.",
+      "lat": 34.053,
+      "lng": 74.383,
+      "tripTypes": [
+        "spiritual",
+        "heritage"
+      ],
+      "images": [
+        {
+          "commons": "File:The Ancient Maharani Temple(Gulmarg,Kashmir) DivyaGupta forWiki.jpg",
+          "alt": "Red-roofed Maharani Temple on a green hillock in Gulmarg",
+          "hero": true
+        }
+      ],
+      "sections": {
+        "overview": {
+          "text": "The Maharani Temple, with its distinctive red roof, sits on a small hillock in the middle of Gulmarg. It is said to be the royal temple of the Dogra dynasty and is dedicated to Lord Shiva and Goddess Parvati. Because it is raised above the meadow, it can be seen from all over Gulmarg, which makes it one of the resort's best-known landmarks.\n\nIt is a short walk from the main market and pairs well with a visit to St Mary's Church near the golf course.",
+          "facts": [
+            "GM13",
+            "GM14"
+          ]
+        },
+        "travel_tips": {
+          "items": [
+            {
+              "body": "Remove shoes and dress modestly inside."
+            },
+            {
+              "body": "The hillock is a good spot for photos of the meadow at either end of the day."
+            },
+            {
+              "body": "The UK FCDO advises against all travel to Jammu and Kashmir, including here, citing a continuing terrorist threat to civilians and tourists. Check your own government's advice and your insurance before you book."
+            }
+          ],
+          "facts": [
+            "KS1"
+          ]
+        }
+      }
+    },
+    {
+      "key": "jammu-and-kashmir/skiing-in-gulmarg",
+      "kind": "activity",
+      "category": "adventure",
+      "name": "Skiing in Gulmarg",
+      "parent": "jammu-and-kashmir/gulmarg",
+      "summary": "Ski, snowboard or heli-ski on Apharwat's winter slopes, reached by the Gulmarg gondola.",
+      "seoTitle": "Skiing in Gulmarg: Season, Slopes & Heli-skiing",
+      "seoDescription": "Ski or snowboard in Gulmarg in winter on Apharwat's slopes via the gondola, with heli-skiing, toboggans and the March Gulmarg Winter Festival.",
+      "lat": 34.04,
+      "lng": 74.37,
+      "tripTypes": [
+        "adventure",
+        "mountains"
+      ],
+      "images": [
+        {
+          "commons": "File:Iism gulmarg.JPG",
+          "alt": "Skiers on the snowy slopes of Gulmarg",
+          "hero": true
+        }
+      ],
+      "sections": {
+        "overview": {
+          "text": "In winter, Gulmarg is covered in snow and becomes a skier's paradise. Its natural slopes are a challenge even for expert skiers. Beyond skiing there is snowboarding, heli-skiing (flying up by helicopter before the descent), snow scooters and tobogganing. The gondola carries skiers up Apharwat to about 12,293 ft.\n\nThe winter season brings White Christmas and New Year celebrations, and the three-day Gulmarg Winter Festival takes place in March.",
+          "facts": [
+            "GM6",
+            "GM9",
+            "GM2",
+            "GM17"
+          ]
+        },
+        "travel_tips": {
+          "items": [
+            {
+              "body": "Ski the upper mountain only with a qualified guide and avalanche awareness."
+            },
+            {
+              "body": "Book equipment and instructors in advance in peak weeks."
+            },
+            {
+              "body": "The UK FCDO advises against all travel to Jammu and Kashmir, including here, citing a continuing terrorist threat to civilians and tourists. Check your own government's advice and your insurance before you book."
+            }
+          ],
+          "facts": [
+            "KS1"
+          ]
+        }
+      }
+    },
+    {
+      "key": "jammu-and-kashmir/khilanmarg",
+      "kind": "nature",
+      "name": "Khilanmarg",
+      "parent": "jammu-and-kashmir/gulmarg",
+      "displayMode": "parent_section",
+      "summary": "Meadow valley 4 km from Gulmarg's bus stop, reached on foot or by pony.",
+      "seoTitle": "Khilanmarg, Gulmarg",
+      "seoDescription": "Khilanmarg is a meadow valley 4 km from Gulmarg's bus stop, reached on foot through the flowers or by pony.",
+      "lat": 34.035,
+      "lng": 74.39,
+      "tripTypes": [
+        "nature"
+      ],
+      "sections": {
+        "overview": {
+          "text": "Khilanmarg is a breathtaking valley 4 km from Gulmarg's bus stop. Walk up through the summer flowers, or take a leisurely pony ride. It is one of the easiest ways to get a quieter view of the mountains around Gulmarg.",
+          "facts": [
+            "GM15"
+          ]
+        }
+      }
+    },
+    {
+      "key": "jammu-and-kashmir/baba-reshi-shrine",
+      "kind": "attraction",
+      "name": "Ziarat of Baba Reshi",
+      "parent": "jammu-and-kashmir/gulmarg",
+      "displayMode": "parent_section",
+      "summary": "Shrine and tomb of the Sufi saint Baba Payam-Din near Gulmarg.",
+      "seoTitle": "Ziarat of Baba Reshi, Gulmarg",
+      "seoDescription": "The Ziarat of Baba Reshi near Gulmarg is the shrine and richly decorated tomb of the Sufi saint Baba Payam-Din, who died in 1480.",
+      "lat": 34.079,
+      "lng": 74.419,
+      "tripTypes": [
+        "spiritual"
+      ],
+      "sections": {
+        "overview": {
+          "text": "The Ziarat of Baba Reshi is dedicated to the revered Sufi saint Baba Payam-Din, who meditated here until his death in 1480. It houses his richly decorated tomb and is known for granting wishes, so devotees come seeking blessings. Dress modestly and cover your head inside.",
+          "facts": [
+            "GM12"
+          ]
+        }
+      }
+    },
+    {
+      "key": "jammu-and-kashmir/st-marys-church-gulmarg",
+      "kind": "attraction",
+      "name": "St Mary's Church, Gulmarg",
+      "parent": "jammu-and-kashmir/gulmarg",
+      "displayMode": "parent_section",
+      "summary": "Victorian grey-stone church near the golf course.",
+      "seoTitle": "St Mary's Church, Gulmarg",
+      "seoDescription": "St Mary's is a Victorian grey-stone church over a century old, near Gulmarg's golf course, especially photogenic under winter snow.",
+      "lat": 34.051,
+      "lng": 74.381,
+      "tripTypes": [
+        "heritage"
+      ],
+      "sections": {
+        "overview": {
+          "text": "Near the Gulmarg Golf Course stands St Mary's Church, a Victorian grey-stone church more than a century old. In winter, snow drapes its roof and turns it into a picture-postcard scene. It is a short walk from the Maharani Temple across the meadow.",
+          "facts": [
+            "GM14"
+          ]
+        }
+      }
+    },
+    {
+      "key": "jammu-and-kashmir/pahalgam",
+      "kind": "town",
+      "name": "Pahalgam",
+      "parent": "jammu-and-kashmir",
+      "summary": "The 'village of shepherds' on the Lidder river: meadows, orchards and trout streams, and the base for the Amarnath pilgrimage.",
+      "seoTitle": "Pahalgam Travel Guide: Lidder Valley & Safety",
+      "seoDescription": "Plan a Pahalgam trip with care: the Lidder river, Betaab Valley, shrines, Kashmiri food, how to get there, Baisaran's closure and current travel advice.",
+      "lat": 34.0161,
+      "lng": 75.315,
+      "tripTypes": [
+        "mountains",
+        "nature"
+      ],
+      "images": [
+        {
+          "commons": "File:Pahalgam Valley.jpg",
+          "alt": "Pahalgam valley with the Lidder river and pine-covered slopes",
+          "hero": true
+        }
+      ],
+      "relations": [
+        {
+          "to": "jammu-and-kashmir/srinagar",
+          "type": "day_trip"
+        }
+      ],
+      "sections": {
+        "overview": {
+          "text": "Pahalgam, whose name means 'village of shepherds' in Kashmiri, sits among pine-covered hills in Anantnag district on the Lidder river. It has long been a summer resort. Its meadows bloom with wildflowers in spring and lie under snow in winter, and apple and walnut orchards surround the town. The Lidder is known for trout and rafting, and Betaab Valley, famous from a Bollywood film, is nearby. Pahalgam is also the transit camp on the way to the Amarnath cave.\n\nOn 22 April 2025, militants attacked tourists at Baisaran meadow above the town. Baisaran was still closed in April 2026, and the UK government advises against all travel to Jammu and Kashmir. Check current advice before you plan.",
+          "facts": [
+            "PH11",
+            "PH5",
+            "PH4",
+            "PH6",
+            "PH1",
+            "PH10",
+            "KS1"
+          ]
+        },
+        "things_to_do": {
+          "items": [
+            {
+              "body": "Walk the banks of the Lidder, fish for trout or go rafting.",
+              "status": "verified"
+            },
+            {
+              "body": "Visit Betaab Valley, reopened in June 2025.",
+              "status": "verified"
+            },
+            {
+              "body": "Wander the apple and walnut orchards around town.",
+              "status": "seasonal"
+            },
+            {
+              "body": "See the ancient Mamleshwar Temple and the Aishmuqam Sufi shrine.",
+              "status": "verified"
+            },
+            {
+              "body": "Baisaran meadow was still closed to visitors in April 2026. Check locally before planning.",
+              "status": "unconfirmed"
+            }
+          ],
+          "facts": [
+            "PH4",
+            "PH6",
+            "PH5",
+            "PH7",
+            "PH10"
+          ]
+        },
+        "best_time": {
+          "text": "Spring carpets Pahalgam's meadows with wildflowers, while winter brings snow. The town is also a transit camp for the summer Amarnath pilgrimage, when it gets busy and security is tight. Whatever the season, check the current travel advice and the status of individual sites before you go.",
+          "facts": [
+            "PH5",
+            "PH1",
+            "KS1"
+          ]
+        },
+        "food": {
+          "items": [
+            {
+              "body": "Kebabs from charcoal grills and Kashmiri dum aloo.",
+              "status": "verified"
+            },
+            {
+              "body": "Wazwan, the traditional multi-course feast: rogan josh, gushtaba, yakhni.",
+              "status": "verified"
+            },
+            {
+              "body": "Pink, salty noon chai and saffron kahwa.",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "PH8"
+          ]
+        },
+        "shopping": {
+          "items": [
+            {
+              "body": "Embroidered phirans and hand-woven shawls.",
+              "status": "verified"
+            },
+            {
+              "body": "Carved walnut wood, papier-mâché and copperware.",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "PH9"
+          ]
+        },
+        "practical_info": {
+          "items": [
+            {
+              "title": "Getting there",
+              "body": "Srinagar airport is 96 km away. The nearest railheads are Udhampur (217 km) and Jammu (285 km). Buses run from Jammu, Srinagar and Anantnag, and taxis are available.",
+              "status": "verified"
+            },
+            {
+              "title": "Closures",
+              "body": "Baisaran meadow was still closed in April 2026. Some other sites have reopened in phases.",
+              "status": "unconfirmed"
+            },
+            {
+              "title": "Travel advisory",
+              "body": "The UK FCDO advises against all travel to Jammu and Kashmir, including here, citing a continuing terrorist threat to civilians and tourists. Check your own government's advice and your insurance before you book.",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "PH2",
+            "PH3",
+            "PH10",
+            "KS1",
+            "KS2"
+          ]
+        },
+        "travel_tips": {
+          "items": [
+            {
+              "body": "Check your government's advice and local news daily; curfews can be imposed at short notice."
+            },
+            {
+              "body": "Stay within open, staffed areas and follow security instructions."
+            },
+            {
+              "body": "Book through registered operators and keep your ID with you."
+            }
+          ],
+          "facts": [
+            "KS1",
+            "KS3"
+          ]
+        },
+        "faqs": {
+          "items": [
+            {
+              "title": "Is it safe to visit Pahalgam?",
+              "body": "The UK FCDO advises against all travel to Jammu and Kashmir, including Pahalgam, citing a continuing threat of terrorism against civilians and tourists. Check your own government's advice and your insurance."
+            },
+            {
+              "title": "Is Baisaran meadow open?",
+              "body": "It was still closed to visitors in April 2026, a year after the 2025 attack. Check with local authorities before planning to go."
+            },
+            {
+              "title": "How do I get to Pahalgam?",
+              "body": "Fly to Srinagar (96 km away), or take a train to Udhampur or Jammu and continue by bus or taxi."
+            },
+            {
+              "title": "What does Pahalgam mean?",
+              "body": "'Village of shepherds' in Kashmiri."
+            }
+          ],
+          "facts": [
+            "KS1",
+            "KS2",
+            "PH10",
+            "PH2",
+            "PH3",
+            "PH11"
+          ]
+        }
+      }
+    },
+    {
+      "key": "jammu-and-kashmir/baisaran-meadow",
+      "kind": "nature",
+      "name": "Baisaran meadow",
+      "parent": "jammu-and-kashmir/pahalgam",
+      "displayMode": "parent_section",
+      "summary": "Meadow above Pahalgam, closed to visitors since the April 2025 attack.",
+      "seoTitle": "Baisaran Meadow, Pahalgam: Status",
+      "seoDescription": "Baisaran meadow above Pahalgam, the site of the April 2025 attack, was still closed to visitors in April 2026. Check the current status locally.",
+      "lat": 34.004,
+      "lng": 75.32,
+      "tripTypes": [
+        "nature"
+      ],
+      "sections": {
+        "overview": {
+          "text": "Baisaran, the meadow above Pahalgam, was the site of the April 2025 terror attack. A year later, in April 2026, it was still closed to visitors, with security checkpoints restricting access. Don't plan around it; check its status with local authorities before you go.",
+          "facts": [
+            "PH10"
+          ]
+        }
+      }
+    },
+    {
+      "key": "jammu-and-kashmir/mamleshwar-temple",
+      "kind": "temple",
+      "name": "Mamleshwar Temple",
+      "parent": "jammu-and-kashmir/pahalgam",
+      "displayMode": "parent_section",
+      "summary": "Ancient Shiva temple in Pahalgam.",
+      "seoTitle": "Mamleshwar Temple, Pahalgam",
+      "seoDescription": "The ancient Mamleshwar Temple is one of Pahalgam's sacred sites, alongside the Aishmuqam Sufi shrine and the dargahs of the Lidder valley.",
+      "lat": 34.014,
+      "lng": 75.318,
+      "tripTypes": [
+        "spiritual"
+      ],
+      "sections": {
+        "overview": {
+          "text": "The ancient Mamleshwar Temple is one of Pahalgam's sacred sites. Others include Lok Bhawan temple, the Aishmuqam Sufi shrine (which also houses a Shiva temple) and the dargahs of Hazrat Zain-ud-din Wali and Khanqah-e-Moula. Visitors from all faiths come to these shrines.",
+          "facts": [
+            "PH7"
+          ]
+        }
+      }
     }
-   },
-   "sources": []
-  }
- ]
+  ],
+  "itineraries": [
+    {
+      "place": "jammu-and-kashmir/gulmarg",
+      "slug": "gulmarg-2-days",
+      "title": "Gulmarg in 2 days: the gondola, Alpather and Khilanmarg",
+      "summary": "The two-stage gondola to Apharwat with Alpather Lake (summer) or the ski slopes (winter), then Khilanmarg, the Maharani Temple, St Mary's Church and the Baba Reshi shrine.",
+      "durationDays": 2,
+      "tripTypes": [
+        "mountains",
+        "adventure"
+      ],
+      "seoTitle": "Gulmarg 2-Day Itinerary: Gondola, Khilanmarg & Shrines",
+      "seoDescription": "Two days in Gulmarg from Srinagar (60 km): the gondola (online tickets only, shut 2nd/4th Mondays), Alpather Lake or skiing, Khilanmarg and Baba Reshi.",
+      "facts": [
+        "GM1",
+        "GM2",
+        "GM3",
+        "GON_B",
+        "GM4",
+        "GM5",
+        "GM6",
+        "GM7",
+        "GM8",
+        "GM9",
+        "GM10",
+        "GM11",
+        "GM12",
+        "GM13",
+        "GM14",
+        "GM15",
+        "GM16",
+        "GM17",
+        "GM18",
+        "KS1",
+        "KS2",
+        "KS3"
+      ],
+      "plan": {
+        "overview": "Gulmarg is 60 km from Srinagar, about 1.5 hours by car. Day 1 rides the gondola — Phase 1 to Kongdori (8,530 ft), Phase 2 to 12,293 ft on Apharwat — for Alpather Lake in summer or the slopes in winter. Day 2 walks or rides to Khilanmarg, then visits the red-roofed Maharani Temple, St Mary's Church and the Sufi shrine of Baba Reshi before returning to Srinagar. Gondola tickets are online only, and it shuts on the second and fourth Monday of the month.",
+        "style": "Mountain short break",
+        "start": "Srinagar (airport about 54 km from Gulmarg)",
+        "end": "Srinagar",
+        "season": "Summer (May–September) for meadows of wildflowers; winter for skiing and the Gulmarg Winter Festival in March.",
+        "difficulty": "Easy to moderate — altitude at Apharwat",
+        "transport": "Taxi from Srinagar; gondola and ponies in Gulmarg.",
+        "budget": {
+          "assumptions": "Hotels, taxis and pony rides vary; only the gondola fares are reported.",
+          "lines": [
+            {
+              "label": "Gondola",
+              "amount": "About ₹810 (Phase 1) / ₹1,010 (Phase 2)",
+              "basis": "Reported 2026 fares"
+            },
+            {
+              "label": "Ponies, ski hire",
+              "amount": "Not estimated",
+              "basis": "Agree on the spot"
+            }
+          ]
+        },
+        "booking": [
+          {
+            "item": "Gulmarg gondola",
+            "detail": "Tickets are sold online only, through the J&K Cable Car Corporation portal. It shuts on the second and fourth Monday of each month."
+          },
+          {
+            "item": "Hotel",
+            "detail": "Book ahead for the winter season and the March festival."
+          }
+        ],
+        "alternatives": [
+          "Winter: replace Day 2's walk with a ski lesson.",
+          "If Phase 2 is shut by weather, ride to Kongdori and take a pony to Strawberry or Leopard Valley."
+        ],
+        "tips": [
+          "Ride early — the gondola runs roughly 10 am–5 pm depending on weather at both stages.",
+          "Carry warm layers even in summer for Apharwat.",
+          "Gulmarg's market sells pashmina, walnut wood and papier-mâché."
+        ],
+        "prep": [
+          {
+            "title": "Travel advice and safety",
+            "body": "As of October 2026 the UK government advises against all travel to Jammu and Kashmir (except flying to and within Jammu city), citing a continuing terrorist threat to civilians including tourists; curfews can be imposed at short notice. Check your own government's advice and your insurance before booking."
+          },
+          {
+            "title": "Altitude",
+            "body": "Apharwat is above 12,000 ft; climb slowly and come down if you feel unwell."
+          }
+        ],
+        "faqs": [
+          {
+            "q": "Can I buy gondola tickets at the counter?",
+            "a": "No — they're sold online only through the J&K Cable Car Corporation portal."
+          },
+          {
+            "q": "How far is Gulmarg from Srinagar?",
+            "a": "About 60 km, roughly 1.5 hours by car."
+          }
+        ],
+        "days": [
+          {
+            "title": "Up the mountain",
+            "summary": "The gondola, and Alpather Lake or the slopes.",
+            "stops": [
+              {
+                "time": "7:30 am",
+                "name": "Drive up from Srinagar via Tangmarg",
+                "duration": "1.5 hours",
+                "placeSlug": "gulmarg",
+                "note": "About 60 km."
+              },
+              {
+                "time": "10 am",
+                "name": "Gondola Phase 1 to Kongdori",
+                "duration": "1.5 hours",
+                "placeSlug": "gulmarg",
+                "note": "About 9 minutes' ride; online tickets only."
+              },
+              {
+                "time": "11:45 am",
+                "name": "Gondola Phase 2 to Apharwat",
+                "duration": "1.5 hours",
+                "placeSlug": "gulmarg",
+                "note": "About 12 minutes' ride; weather permitting."
+              },
+              {
+                "time": "1:30 pm",
+                "name": "Lunch",
+                "duration": "1 hour"
+              },
+              {
+                "time": "2:30 pm",
+                "name": "Alpather Lake (summer) or skiing (winter)",
+                "duration": "2 hours",
+                "placeSlug": "alpather-lake",
+                "note": "Frozen in winter; by pony from Kongdori."
+              }
+            ],
+            "travel": "Srinagar → Gulmarg about 60 km (about 1.5 hours); gondola above.",
+            "distanceKm": 60,
+            "distance": "About 60 km",
+            "driveTime": "About 1.5 hours",
+            "transport": "Taxi, gondola and pony",
+            "meals": "Kashmiri lunch in Gulmarg.",
+            "overnight": "Gulmarg"
+          },
+          {
+            "title": "Meadows and shrines",
+            "summary": "Khilanmarg, the Maharani Temple, the church and Baba Reshi.",
+            "stops": [
+              {
+                "time": "8:30 am",
+                "name": "Khilanmarg",
+                "duration": "3 hours",
+                "placeSlug": "khilanmarg",
+                "note": "4 km from the bus stop, on foot or by pony."
+              },
+              {
+                "time": "12 pm",
+                "name": "Lunch",
+                "duration": "1 hour"
+              },
+              {
+                "time": "1:30 pm",
+                "name": "Maharani Temple",
+                "duration": "45 minutes",
+                "placeSlug": "maharani-temple-gulmarg",
+                "note": "The Dogra royal temple to Shiva and Parvati."
+              },
+              {
+                "time": "2:30 pm",
+                "name": "St Mary's Church",
+                "duration": "30 minutes",
+                "placeSlug": "st-marys-church-gulmarg",
+                "note": "Victorian, near the golf course."
+              },
+              {
+                "time": "3:30 pm",
+                "name": "Ziarat of Baba Reshi",
+                "duration": "1 hour",
+                "placeSlug": "baba-reshi-shrine",
+                "note": "Tomb of the Sufi saint Baba Payam-Din (died 1480)."
+              },
+              {
+                "time": "5 pm",
+                "name": "Drive back to Srinagar",
+                "duration": "1.5 hours"
+              }
+            ],
+            "travel": "Local walking and short drives; Gulmarg → Srinagar about 60 km.",
+            "distanceKm": 75,
+            "distance": "About 75 km (estimate)",
+            "driveTime": "About 2 hours in total (estimate)",
+            "transport": "On foot or pony, then taxi",
+            "meals": "Lunch in Gulmarg.",
+            "overnight": "Srinagar"
+          }
+        ]
+      }
+    }
+  ]
 }

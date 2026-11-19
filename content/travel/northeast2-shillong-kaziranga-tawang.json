@@ -1,0 +1,1128 @@
+{
+ "cluster": "northeast2-shillong-kaziranga-tawang",
+ "title": "Shillong, Kaziranga and Tawang (Batch 5)",
+ "researchedAt": "2026-11-18",
+ "selection": "Batch 5. Shillong (4 sections), Kaziranga (5, two of them state-level filler) and Tawang (3) get who it's for, best time, food, shopping, practical info, things to do, culture, common mistakes and FAQs, plus fuller overviews (pending review). Kaziranga's filler practical_info and things_to_do get replacement suggestions. Itineraries (meghalaya-4-days, assam-5-days, tawang-6-days) are left for the itinerary audit. Not covered: safari fees, permit fees, current safari booking rules.",
+ "sources": {
+  "II_SHL": {
+   "url": "https://www.incredibleindia.gov.in/en/meghalaya/shillong",
+   "title": "Shillong — Incredible India",
+   "authority": "government"
+  },
+  "W_SHL": {
+   "url": "https://en.wikipedia.org/wiki/Shillong",
+   "title": "Shillong — Wikipedia",
+   "authority": "reference"
+  },
+  "II_KAZ": {
+   "url": "https://www.incredibleindia.gov.in/en/assam/tezpur/kaziranga-national-park",
+   "title": "Kaziranga National Park — Incredible India",
+   "authority": "government"
+  },
+  "W_KAZ": {
+   "url": "https://en.wikipedia.org/wiki/Kaziranga_National_Park",
+   "title": "Kaziranga National Park — Wikipedia",
+   "authority": "reference"
+  },
+  "II_TAW": {
+   "url": "https://www.incredibleindia.gov.in/en/arunachal-pradesh/tawang",
+   "title": "Tawang — Incredible India",
+   "authority": "government"
+  },
+  "W_TAW": {
+   "url": "https://en.wikipedia.org/wiki/Tawang",
+   "title": "Tawang — Wikipedia",
+   "authority": "reference"
+  },
+  "W_SEL": {
+   "url": "https://en.wikipedia.org/wiki/Sela_Pass",
+   "title": "Sela Pass — Wikipedia",
+   "authority": "reference"
+  },
+  "W_TMO": {
+   "url": "https://en.wikipedia.org/wiki/Tawang_Monastery",
+   "title": "Tawang Monastery — Wikipedia",
+   "authority": "reference"
+  },
+  "W_PAP": {
+   "url": "https://en.wikipedia.org/wiki/Protected_Area_Permit",
+   "title": "Protected Area Permit — Wikipedia",
+   "authority": "reference"
+  },
+  "II_MG": {
+   "url": "https://www.incredibleindia.gov.in/en/meghalaya",
+   "title": "Meghalaya — Incredible India (Ministry of Tourism, Government of India)",
+   "authority": "government"
+  },
+  "W_GAU": {
+   "url": "https://en.wikipedia.org/wiki/Lokpriya_Gopinath_Bordoloi_International_Airport",
+   "title": "Lokpriya Gopinath Bordoloi International Airport — Wikipedia",
+   "authority": "reference"
+  },
+  "II_KON": {
+   "url": "https://www.incredibleindia.gov.in/en/meghalaya/cherrapunjee/khat-ar-shnong-kongthong",
+   "title": "Kongthong — Incredible India (Ministry of Tourism, Government of India)",
+   "authority": "government"
+  },
+  "II_AS": {
+   "url": "https://www.incredibleindia.gov.in/en/assam",
+   "title": "Assam — Incredible India (Ministry of Tourism, Government of India)",
+   "authority": "government"
+  },
+  "W_ILP": {
+   "url": "https://en.wikipedia.org/wiki/Inner_Line_Permit",
+   "title": "Inner Line Permit — Wikipedia",
+   "authority": "reference"
+  },
+  "EILP": {
+   "url": "https://eilp.arunachal.gov.in/",
+   "title": "Tourist e-ILP — Government of Arunachal Pradesh",
+   "authority": "government"
+  }
+ },
+ "facts": {
+  "BMG1": {
+   "place": "meghalaya",
+   "topic": "Meghalaya",
+   "claim": "Meghalaya's Khasi and Jaintia peoples belong to one of the world's largest surviving matrilineal cultures; its living root bridges are on UNESCO's tentative list.",
+   "claimType": "general",
+   "evidence": [
+    {
+     "source": "II_MG",
+     "quote": "Meghalaya's indigenous people belong to one of the world's largest matrilineal cultures still existing today."
+    },
+    {
+     "source": "II_MG",
+     "quote": "Recently added to UNESCO's tentative world heritage site list"
+    }
+   ]
+  },
+  "BMG2": {
+   "place": "meghalaya",
+   "topic": "Getting there",
+   "claim": "Guwahati's airport, the main airport of Northeast India, is the usual gateway; Shillong also has an airport at Umroi.",
+   "claimType": "distance",
+   "evidence": [
+    {
+     "source": "W_GAU",
+     "quote": "It is the primary airport of Northeast India ."
+    },
+    {
+     "source": "II_KON",
+     "quote": "the nearest airport is Shillong Airport or Umroi Airport"
+    }
+   ]
+  },
+  "BSH1": {
+   "place": "meghalaya/shillong",
+   "topic": "Shillong",
+   "claim": "Shillong, Meghalaya's capital, was the capital of undivided Assam until Meghalaya was formed in 1972.",
+   "claimType": "general",
+   "evidence": [
+    {
+     "source": "W_SHL",
+     "quote": "Shillong was the capital of composite Assam during the British regime and for 25 years in independent India until a separate State of Meghalaya was formed in 1972."
+    }
+   ]
+  },
+  "BSH2": {
+   "place": "meghalaya/shillong",
+   "topic": "David Scott Trail",
+   "claim": "The 16-km David Scott Trail is a classic hike through the East Khasi Hills.",
+   "claimType": "general",
+   "evidence": [
+    {
+     "source": "II_SHL",
+     "quote": "This ancient 16-kilometer path, named after a British administrator"
+    }
+   ]
+  },
+  "BKZ1": {
+   "place": "assam/kaziranga-national-park",
+   "topic": "Kaziranga",
+   "claim": "Kaziranga, a UNESCO site on the Brahmaputra, holds two-thirds of the world's one-horned rhinos and a high density of tigers.",
+   "claimType": "general",
+   "evidence": [
+    {
+     "source": "II_AS",
+     "quote": "Kaziranga National Park is a UNESCO World Heritage Site, where two-thirds of the world's great one-horned rhinoceros find sanctuary!"
+    },
+    {
+     "source": "W_KAZ",
+     "quote": "Kaziranga was declared a Tiger Reserve in 2007 ."
+    }
+   ]
+  },
+  "BKZ2": {
+   "place": "assam/kaziranga-national-park",
+   "topic": "Numbers",
+   "claim": "The park has the world's largest populations of Indian rhinos (2,401), wild water buffalo and eastern swamp deer.",
+   "claimType": "general",
+   "evidence": [
+    {
+     "source": "W_KAZ",
+     "quote": "The park has the distinction of being home to the world's largest population of the Indian rhinoceros (2,401)"
+    }
+   ]
+  },
+  "BKZ3": {
+   "place": "assam/kaziranga-national-park",
+   "topic": "Visiting",
+   "claim": "Kaziranga is about two hours from Tezpur; park hours are 7 am to 5:45 pm.",
+   "claimType": "distance",
+   "evidence": [
+    {
+     "source": "II_KAZ",
+     "quote": "just a scenic two-hour drive from Tezpur"
+    }
+   ]
+  },
+  "BKZ4": {
+   "place": "assam/kaziranga-national-park",
+   "topic": "Monsoon",
+   "claim": "In July and August, about three-quarters of the western park floods.",
+   "claimType": "general",
+   "evidence": [
+    {
+     "source": "W_KAZ",
+     "quote": "During the peak months of July and August, three-fourths of the western region of the park is submerged"
+    }
+   ],
+   "kind": "seasonal"
+  },
+  "BAR2": {
+   "place": "arunachal-pradesh",
+   "topic": "Inner Line Permit",
+   "claim": "Indian visitors need an Inner Line Permit to enter Arunachal Pradesh; a tourist ILP is valid for 15 days, and can be applied for online as an e-ILP.",
+   "claimType": "rule",
+   "evidence": [
+    {
+     "source": "W_ILP",
+     "quote": "It is required for entering Arunachal Pradesh through any of the check points across the interstate border with Assam or Nagaland . An ILP for temporary visitors is valid for 15 days and can be extended"
+    },
+    {
+     "source": "EILP",
+     "quote": "has developed a online web based application to issue Tourist eILP"
+    }
+   ]
+  },
+  "BTW1": {
+   "place": "arunachal-pradesh/tawang",
+   "topic": "Tawang",
+   "claim": "Tawang sits at about 3,000 m, 448 km by road from Itanagar.",
+   "claimType": "distance",
+   "evidence": [
+    {
+     "source": "W_TAW",
+     "quote": "It is situated 448 km by road north-west of state capital Itanagar at an elevation of approximately 3,000 metres (10,000 ft) ."
+    }
+   ]
+  },
+  "BTW2": {
+   "place": "arunachal-pradesh/tawang",
+   "topic": "Sights",
+   "claim": "Besides the monastery, see the Tawang War Memorial and Nuranang (Jang) Falls.",
+   "claimType": "general",
+   "evidence": [
+    {
+     "source": "II_TAW",
+     "quote": "Don't miss the chance to visit the Nuranang Waterfall , also known as the Jang Falls"
+    },
+    {
+     "source": "II_TAW",
+     "quote": "head to the Tawang War Memorial"
+    }
+   ]
+  },
+  "SL1": {
+   "place": "meghalaya/shillong",
+   "topic": "Scotland of the East",
+   "claim": "Shillong is dubbed the 'Scotland of the East' and India's 'Rock Capital', with a thriving live-music scene.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "II_SHL",
+     "quote": "Dubbed the \"Eastern Scotland\" for its remarkable resemblance to the Scottish Highlands"
+    },
+    {
+     "source": "II_SHL",
+     "quote": "Shillong's designation as India's \"Rock Capital\" is evident in its thriving music scene"
+    }
+   ]
+  },
+  "SL2": {
+   "place": "meghalaya/shillong",
+   "topic": "Getting there",
+   "claim": "Shillong is 100 km from Guwahati by NH 40, about 2.5 hours, passing Umiam Lake.",
+   "claimType": "distance",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "W_SHL",
+     "quote": "Shillong is just 100 km (62 mi) from Guwahati, accessible by road along NH 40."
+    },
+    {
+     "source": "W_SHL",
+     "quote": "The journey is of about 2 hours and 30 minutes"
+    }
+   ]
+  },
+  "SL3": {
+   "place": "meghalaya/shillong",
+   "topic": "Best time",
+   "claim": "The best time to visit is September to May.",
+   "claimType": "schedule",
+   "kind": "seasonal",
+   "evidence": [
+    {
+     "source": "II_SHL",
+     "quote": "The best time to visit Shillong is between September and May"
+    }
+   ]
+  },
+  "SL4": {
+   "place": "meghalaya/shillong",
+   "topic": "Food",
+   "claim": "Try jadoh (Khasi rice) and tungrymbai (fermented soybean chutney).",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "II_SHL",
+     "quote": "Local delicacies, including Jadoh, a flavourful Khasi rice dish, and Tungrymbai, a fermented soybean chutney, are must-tries"
+    }
+   ]
+  },
+  "SL5": {
+   "place": "meghalaya/shillong",
+   "topic": "Shopping",
+   "claim": "Police Bazaar and Bara Bazaar sell Khasi dresses, handwoven shawls, crafts and spices; the state emporium sells handloom.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "II_SHL",
+     "quote": "For the urban explorer, Shillong offers a delightful shopping experience at places like Police Bazaar and Bara Bazaar."
+    },
+    {
+     "source": "II_SHL",
+     "quote": "the Meghalaya Handloom & Handicrafts Development Emporium showcases the finest work of local artisans."
+    }
+   ]
+  },
+  "SL6": {
+   "place": "meghalaya/shillong",
+   "topic": "Autumn Festival",
+   "claim": "The Shillong Autumn Festival celebrates music, arts and culture.",
+   "claimType": "general",
+   "kind": "seasonal",
+   "evidence": [
+    {
+     "source": "II_SHL",
+     "quote": "The famous Shillong Autumn Festival is a testament to this lively cultural scene."
+    }
+   ]
+  },
+  "SL7": {
+   "place": "meghalaya/shillong",
+   "topic": "Viewpoints and falls",
+   "claim": "Shillong Peak (1,966 m), 10 km out, is the state's highest point; Elephant Falls is 12 km out; Sweet Falls is about 96 m high.",
+   "claimType": "distance",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "W_SHL",
+     "quote": "10 km from the city, 1966 m above sea level, offers a panoramic view of the scenic countryside and is the highest point in the state."
+    },
+    {
+     "source": "W_SHL",
+     "quote": "Elephant Falls: 12 km on the outskirts of the city"
+    },
+    {
+     "source": "W_SHL",
+     "quote": "is about 96 m in height."
+    }
+   ]
+  },
+  "SL8": {
+   "place": "meghalaya/shillong",
+   "topic": "Iewduh",
+   "claim": "Iewduh (Bara Bazaar) is Shillong's biggest market.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "W_SHL",
+     "quote": "\"Ïewduh\" is the biggest market in Shillong."
+    }
+   ]
+  },
+  "SL9": {
+   "place": "meghalaya/shillong",
+   "topic": "Name",
+   "claim": "Shillong is named after Lei Shyllong, a deity believed to live on Shillong Peak.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "W_SHL",
+     "quote": "Shillong derives its name from Lei Shyllong, a powerful deity believed to reside on the Shillong Peak"
+    }
+   ]
+  },
+  "SL10": {
+   "place": "meghalaya/shillong",
+   "topic": "Adventure",
+   "claim": "Kayaking and rock climbing are available around Shillong; the David Scott Trail is of moderate difficulty.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "II_SHL",
+     "quote": "The moderate difficulty level of the trek makes it accessible to both novices and experienced trekkers."
+    },
+    {
+     "source": "II_SHL",
+     "quote": "activities like kayaking and rock climbing in the clear waters and rugged terrains around Shillong"
+    }
+   ]
+  },
+  "SL11": {
+   "place": "meghalaya/shillong",
+   "topic": "Butterfly Museum",
+   "claim": "The Butterfly Museum has a large collection of butterflies and moths.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "II_SHL",
+     "quote": "the Butterfly Museum is renowned for its extensive collection of butterflies, moths, and other insects."
+    }
+   ]
+  },
+  "KZN1": {
+   "place": "assam/kaziranga-national-park",
+   "topic": "Safaris",
+   "claim": "Visitors see the park by elephant or jeep safari through its ranges; book in advance in peak season and stay two to three days.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "II_KAZ",
+     "quote": "If you want to cover longer distances, jeep safaris will take you through the park's different ranges."
+    },
+    {
+     "source": "II_KAZ",
+     "quote": "Book your safaris in advance, especially during peak season, and consider staying at least two to three days to explore different ranges of the park."
+    }
+   ]
+  },
+  "KZN2": {
+   "place": "assam/kaziranga-national-park",
+   "topic": "Ranges",
+   "claim": "The park has five ranges: Burapahar, Western (Baguri), Central (Kohora), Eastern (Agaratoli) and Northern (Biswanath).",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "W_KAZ",
+     "quote": "The five ranges are the Burapahar (HQ: Ghorakati), Western (HQ: Baguri), Central (HQ: Kohora), Eastern (HQ: Agaratoli) and Northern (HQ: Biswanath)."
+    }
+   ]
+  },
+  "KZN3": {
+   "place": "assam/kaziranga-national-park",
+   "topic": "No hiking",
+   "claim": "Hiking inside the park is prohibited; observation towers at Sohola, Mihimukh, Kathpara, Foliamari and Harmoti give views.",
+   "claimType": "rule",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "W_KAZ",
+     "quote": "Hiking is prohibited in the park to avoid potential human-animal conflicts."
+    },
+    {
+     "source": "W_KAZ",
+     "quote": "Observation towers are situated at Sohola, Mihimukh, Kathpara, Foliamari, and Harmoti for wildlife viewing."
+    }
+   ]
+  },
+  "KZN4": {
+   "place": "assam/kaziranga-national-park",
+   "topic": "History",
+   "claim": "Protection began after Lady Curzon's visit in 1904; it became a Tiger Reserve in 2007.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "W_KAZ",
+     "quote": "The history of Kaziranga as a protected area can be traced back to 1904"
+    },
+    {
+     "source": "W_KAZ",
+     "quote": "Kaziranga was declared a Tiger Reserve in 2007"
+    }
+   ]
+  },
+  "KZN5": {
+   "place": "assam/kaziranga-national-park",
+   "topic": "Size",
+   "claim": "The park is about 40 km east–west and 13 km north–south, covering 378 km².",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "W_KAZ",
+     "quote": "The park is approximately 40 km (25 mi) in length from east to west, and 13 km (8.1 mi) in breadth from north to south."
+    }
+   ]
+  },
+  "KZN6": {
+   "place": "assam/kaziranga-national-park",
+   "topic": "Monsoon",
+   "claim": "The monsoon (June–September) brings most of the 2,220 mm annual rain.",
+   "claimType": "general",
+   "kind": "seasonal",
+   "evidence": [
+    {
+     "source": "W_KAZ",
+     "quote": "The rainy monsoon season lasts from June to September"
+    }
+   ]
+  },
+  "KZN7": {
+   "place": "assam/kaziranga-national-park",
+   "topic": "Landscape",
+   "claim": "Tall elephant grass, marshes and shallow pools, with the Karbi Anglong hills and tea gardens to the south.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "II_KAZ",
+     "quote": "Look south, and you’ll spot the Karbi Anglong hills watching over the landscape like ancient guardians"
+    }
+   ]
+  },
+  "KZN8": {
+   "place": "assam/kaziranga-national-park",
+   "topic": "Nearby",
+   "claim": "From Tezpur, add Bura Chapori Wildlife Sanctuary, the Mahabhairab Temple and Agnigarh.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "II_KAZ",
+     "quote": "If you want to extend your wildlife expedition, head to the Bura Chapori Wildlife Sanctuary."
+    }
+   ]
+  },
+  "TWN1": {
+   "place": "arunachal-pradesh/tawang",
+   "topic": "Distances",
+   "claim": "Tawang is about 555 km from Guwahati and 320 km from Tezpur; the nearest airports with scheduled flights are Guwahati and Tezpur.",
+   "claimType": "distance",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "W_TAW",
+     "quote": "Tawang town is located approximately 555 kilometres (345 mi) from Guwahati and 320 kilometres (200 mi) from Tezpur."
+    },
+    {
+     "source": "W_TAW",
+     "quote": "The nearest functional civil airports with scheduled flights are the Lokpriya Gopinath Bordoloi International Airport at Guwahati and Salonibari Airport at Tezpur"
+    }
+   ]
+  },
+  "TWN2": {
+   "place": "arunachal-pradesh/tawang",
+   "topic": "Sela",
+   "claim": "Sela Pass (4,170 m), 78 km from Tawang, can close after landslides and heavy snow; the Sela Tunnel at about 3,000 m now gives all-weather access.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "W_SEL",
+     "quote": "is situated at a distance of 78 km from Tawang town and 340 km from Guwahati."
+    },
+    {
+     "source": "W_SEL",
+     "quote": "it may shut down temporarily after landslides and during heavy snow."
+    },
+    {
+     "source": "W_SEL",
+     "quote": "Sela Tunnel is a road tunnel at 3,000 metres (9,800 ft) which ensures all-weather connectivity between Guwahati in Assam and Tawang"
+    }
+   ]
+  },
+  "TWN3": {
+   "place": "arunachal-pradesh/tawang",
+   "topic": "Snow",
+   "claim": "Tawang gets snow every December–January, and there is a ski lift in town.",
+   "claimType": "general",
+   "kind": "seasonal",
+   "evidence": [
+    {
+     "source": "W_TAW",
+     "quote": "Tawang receives snowfall every year during the months of December–January."
+    },
+    {
+     "source": "W_TAW",
+     "quote": "There is a ski lift in the town."
+    }
+   ]
+  },
+  "TWN4": {
+   "place": "arunachal-pradesh/tawang",
+   "topic": "Monpa culture",
+   "claim": "Tawang is home to the Monpa people; try Monpa food and ara, the local rice beer.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "W_TAW",
+     "quote": "Tawang is inhabited by the Monpa people."
+    },
+    {
+     "source": "II_TAW",
+     "quote": "sample locally brewed Ara (rice beer)"
+    }
+   ]
+  },
+  "TWN5": {
+   "place": "arunachal-pradesh/tawang",
+   "topic": "Monastery",
+   "claim": "Tawang Monastery, Gaden Namgyal Lhatse, was founded in 1680–81 and is India's largest; it has had around 450 monks, and a manuscript conservation centre since 2006.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "W_TMO",
+     "quote": "It is the largest Buddhist monastery in the country."
+    },
+    {
+     "source": "W_TMO",
+     "quote": "the number was reported to be 450 in 2010."
+    }
+   ]
+  },
+  "TWN6": {
+   "place": "arunachal-pradesh/tawang",
+   "topic": "Nuranang Falls",
+   "claim": "Nuranang (Jang) Falls drops over 100 m.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "II_TAW",
+     "quote": "as the water cascades down from a height of over 100 meters."
+    }
+   ]
+  },
+  "TWN7": {
+   "place": "arunachal-pradesh/tawang",
+   "topic": "Foreign visitors",
+   "claim": "Foreign nationals need a Protected Area Permit for the whole of Arunachal Pradesh.",
+   "claimType": "rule",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "W_PAP",
+     "quote": "a protected area permit (pap) is required for non-indian citizens to visit certain areas in india"
+    },
+    {
+     "source": "W_PAP",
+     "quote": "whole of arunachal pradesh"
+    }
+   ]
+  },
+  "TWN8": {
+   "place": "arunachal-pradesh/tawang",
+   "topic": "Dalai Lama",
+   "claim": "The 14th Dalai Lama stayed at Tawang Monastery after crossing into India in 1959.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "W_TAW",
+     "quote": "he crossed into India on 30 March 1959 and spent some days at the Tawang Monastery"
+    }
+   ]
+  },
+  "TWN9": {
+   "place": "arunachal-pradesh/tawang",
+   "topic": "Jaswant Garh",
+   "claim": "At Sela, Jaswant Singh Rawat held off the Chinese army for 72 hours in 1962, helped by two Monpa girls, Sela and Noora.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "W_SEL",
+     "quote": "Maha Vir Chakra awardee Jaswant Singh Rawat held Chinese Army off at this mountain pass with the help of two local Monpa girls named Sela and Noora."
+    }
+   ]
+  }
+ },
+ "places": [
+  {
+   "key": "meghalaya/shillong",
+   "kind": "city",
+   "name": "Shillong",
+   "parent": "meghalaya",
+   "summary": "Meghalaya's hill capital: Ward's Lake, Shillong Peak, Elephant Falls and the Don Bosco Museum.",
+   "seoTitle": "Shillong Travel Guide: Lakes, Falls & Viewpoints",
+   "seoDescription": "Plan Shillong: Shillong Peak, Ward's Lake, Elephant Falls, the Don Bosco Museum, Umiam Lake, Laitlum and day trips to Mawlynnong and Kongthong.",
+   "lat": 25.58222222,
+   "lng": 91.89444444,
+   "tripTypes": [
+    "nature",
+    "family"
+   ],
+   "images": [
+    {
+     "commons": "File:Shillong City View.jpg",
+     "alt": "View over Shillong city in the hills",
+     "hero": true
+    }
+   ],
+   "sections": {
+    "overview": {
+     "text": "Shillong, Meghalaya's hill capital, was capital of undivided Assam until 1972. Its colonial bungalows, churches and pine-covered hills earned it the name 'Scotland of the East', and it is also India's self-styled 'Rock Capital', with live music in cafes across town. The city takes its name from Lei Shyllong, the deity believed to live on Shillong Peak.\n\nThe Peak, at 1,966 m and 10 km out, is the state's highest point, and Elephant Falls drops in three tiers 12 km away. In town are Ward's Lake and the Don Bosco Museum of Northeast cultures. Umiam Lake is on the road from Guwahati, 100 km and about 2.5 hours away. Shillong is the base for Laitlum, the Mawphlang sacred grove, the 16 km David Scott Trail and the villages of Mawlynnong and Kongthong. Visit September to May.",
+     "facts": [
+      "BSH1",
+      "SL1",
+      "SL9",
+      "SL7",
+      "SL2",
+      "BSH2",
+      "SL3"
+     ]
+    },
+    "who_its_for": {
+     "items": [
+      {
+       "title": "Music lovers",
+       "body": "Live gigs in India's 'Rock Capital'."
+      },
+      {
+       "title": "Walkers",
+       "body": "The moderate 16 km David Scott Trail, and rock climbing nearby."
+      },
+      {
+       "title": "Families",
+       "body": "Ward's Lake, the Butterfly Museum and Elephant Falls."
+      },
+      {
+       "title": "Culture seekers",
+       "body": "The Don Bosco Museum, the Autumn Festival and Khasi food."
+      }
+     ],
+     "facts": [
+      "SL1",
+      "BSH2",
+      "SL10",
+      "SL11",
+      "SL7",
+      "SL6",
+      "SL4"
+     ]
+    },
+    "best_time": {
+     "text": "September to May, through autumn, winter and spring, is the best time, avoiding the heaviest rains. The Shillong Autumn Festival brings music and arts.",
+     "facts": [
+      "SL3",
+      "SL6"
+     ]
+    },
+    "food": {
+     "items": [
+      {
+       "body": "Jadoh, the Khasi rice dish.",
+       "status": "verified"
+      },
+      {
+       "body": "Tungrymbai, a fermented soybean chutney.",
+       "status": "verified"
+      }
+     ],
+     "facts": [
+      "SL4"
+     ]
+    },
+    "shopping": {
+     "items": [
+      {
+       "body": "Police Bazaar for Khasi dresses, shawls and crafts.",
+       "status": "verified"
+      },
+      {
+       "body": "Iewduh (Bara Bazaar), the city's biggest market, for produce, herbs and local food.",
+       "status": "verified"
+      },
+      {
+       "body": "The Meghalaya Handloom & Handicrafts emporium.",
+       "status": "verified"
+      }
+     ],
+     "facts": [
+      "SL5",
+      "SL8"
+     ]
+    },
+    "practical_info": {
+     "items": [
+      {
+       "title": "Getting there",
+       "body": "Fly to Guwahati, then 100 km by road on NH 40, about 2.5 hours. Shillong's own airport is at Umroi.",
+       "status": "verified"
+      },
+      {
+       "title": "Culture",
+       "body": "The Khasi and Jaintia peoples are among the world's largest surviving matrilineal cultures.",
+       "status": "verified"
+      }
+     ],
+     "facts": [
+      "SL2",
+      "BMG2",
+      "BMG1"
+     ]
+    },
+    "common_mistakes": {
+     "items": [
+      {
+       "body": "Trying to fit Shillong, Cherrapunji and Mawlynnong into one day."
+      },
+      {
+       "body": "Visiting in the monsoon expecting clear views; September to May is better."
+      },
+      {
+       "body": "Skipping the food: try jadoh and tungrymbai."
+      }
+     ],
+     "facts": [
+      "BSH2",
+      "SL3",
+      "SL4"
+     ]
+    },
+    "faqs": {
+     "items": [
+      {
+       "title": "How far is Shillong from Guwahati?",
+       "body": "About 100 km on NH 40, roughly 2.5 hours."
+      },
+      {
+       "title": "What is the best time to visit?",
+       "body": "September to May."
+      },
+      {
+       "title": "How high is Shillong Peak?",
+       "body": "1,966 m; it is the highest point in Meghalaya."
+      }
+     ],
+     "facts": [
+      "SL2",
+      "SL3",
+      "SL7"
+     ]
+    }
+   }
+  },
+  {
+   "key": "assam/kaziranga-national-park",
+   "kind": "nature",
+   "name": "Kaziranga National Park",
+   "parent": "assam",
+   "summary": "A UNESCO park on the Brahmaputra holding two-thirds of the world's one-horned rhinos.",
+   "seoTitle": "Kaziranga National Park: Rhinos, Safaris & Seasons",
+   "seoDescription": "Kaziranga National Park in Assam: two-thirds of the world's one-horned rhinos, a tiger reserve, park hours and the monsoon floods.",
+   "lat": 26.66666667,
+   "lng": 93.35,
+   "tripTypes": [
+    "wildlife",
+    "nature",
+    "family"
+   ],
+   "images": [
+    {
+     "commons": "File:Beauty of Kaziranga National Park.jpg",
+     "alt": "Grassland and trees in Kaziranga National Park",
+     "hero": true
+    }
+   ],
+   "sections": {
+    "overview": {
+     "text": "Kaziranga, on the south bank of the Brahmaputra, is a UNESCO World Heritage Site and home to two-thirds of the world's one-horned rhinos, 2,401 at the last count, as well as the largest populations of wild water buffalo and eastern swamp deer. Protection began after Lady Curzon's visit in 1904, and it became a Tiger Reserve in 2007.\n\nThe park runs about 40 km east to west across tall elephant grass, marshes and shallow pools, with the Karbi Anglong hills and tea gardens to the south. You see it by jeep or elephant safari through its ranges, from Kohora in the centre to Bagori in the west and Agaratoli in the east; hiking is not allowed. It is about two hours from Tezpur. In July and August the monsoon floods most of the western park.",
+     "facts": [
+      "BKZ1",
+      "BKZ2",
+      "KZN4",
+      "KZN5",
+      "KZN7",
+      "KZN1",
+      "KZN2",
+      "KZN3",
+      "BKZ3",
+      "BKZ4"
+     ]
+    },
+    "things_to_do": {
+     "items": [
+      {
+       "body": "Take a jeep safari through the Central (Kohora), Western (Bagori) or Eastern (Agaratoli) range."
+      },
+      {
+       "body": "Ride an elephant safari at dawn for close views of rhinos."
+      },
+      {
+       "body": "Watch from the observation towers at Sohola, Mihimukh, Kathpara, Foliamari and Harmoti."
+      },
+      {
+       "body": "Go birdwatching around the marshes."
+      },
+      {
+       "body": "From Tezpur, add Bura Chapori Wildlife Sanctuary or the Mahabhairab Temple."
+      }
+     ],
+     "facts": [
+      "KZN1",
+      "KZN2",
+      "KZN3",
+      "KZN7",
+      "KZN8"
+     ]
+    },
+    "practical_info": {
+     "items": [
+      {
+       "title": "Getting there",
+       "body": "About two hours by road from Tezpur. Guwahati's airport is the main gateway to the Northeast.",
+       "status": "verified"
+      },
+      {
+       "title": "Hours",
+       "body": "7 am to 5:45 pm.",
+       "status": "verified"
+      },
+      {
+       "title": "Safaris",
+       "body": "Book in advance in peak season; allow two to three days to see different ranges.",
+       "status": "verified"
+      },
+      {
+       "title": "Rules",
+       "body": "Hiking inside the park is prohibited.",
+       "status": "verified"
+      }
+     ],
+     "facts": [
+      "BKZ3",
+      "KZN1",
+      "KZN3"
+     ]
+    },
+    "who_its_for": {
+     "items": [
+      {
+       "title": "Wildlife lovers",
+       "body": "Rhinos, buffalo, swamp deer, elephants and tigers."
+      },
+      {
+       "title": "Birdwatchers",
+       "body": "Marshes and grasslands full of birds."
+      },
+      {
+       "title": "Families",
+       "body": "Elephant and jeep safaris with guides."
+      }
+     ],
+     "facts": [
+      "BKZ2",
+      "KZN4",
+      "KZN7",
+      "KZN1"
+     ]
+    },
+    "common_mistakes": {
+     "items": [
+      {
+       "body": "Coming in July–August, when much of the park floods."
+      },
+      {
+       "body": "Doing a single safari. Each range is different; stay two to three days."
+      },
+      {
+       "body": "Not booking safaris ahead in peak season."
+      }
+     ],
+     "facts": [
+      "BKZ4",
+      "KZN6",
+      "KZN1"
+     ]
+    },
+    "faqs": {
+     "items": [
+      {
+       "title": "How many rhinos live in Kaziranga?",
+       "body": "2,401 at the last count, about two-thirds of the world's one-horned rhinos."
+      },
+      {
+       "title": "Can I walk in the park?",
+       "body": "No. Hiking is prohibited; see it by jeep, elephant or from the observation towers."
+      },
+      {
+       "title": "When should I avoid?",
+       "body": "The monsoon, June to September, and especially July–August floods."
+      }
+     ],
+     "facts": [
+      "BKZ2",
+      "KZN3",
+      "KZN6",
+      "BKZ4"
+     ]
+    }
+   }
+  },
+  {
+   "key": "arunachal-pradesh/tawang",
+   "kind": "town",
+   "name": "Tawang",
+   "parent": "arunachal-pradesh",
+   "summary": "A Monpa town at about 3,000 m around India's largest monastery.",
+   "seoTitle": "Tawang Travel Guide: Monastery, Sela & War Memorials",
+   "seoDescription": "Plan Tawang: Tawang Monastery, the War Memorial, Jaswant Garh, Sela Pass, Nuranang Falls, and the Inner Line Permit.",
+   "lat": 27.58833333,
+   "lng": 91.86527778,
+   "tripTypes": [
+    "spiritual",
+    "nature",
+    "adventure"
+   ],
+   "images": [
+    {
+     "commons": "File:The buddist monastry.jpg",
+     "alt": "Tawang Monastery on its ridge",
+     "hero": true
+    }
+   ],
+   "sections": {
+    "overview": {
+     "text": "Tawang sits at about 3,000 m in western Arunachal Pradesh, about 555 km from Guwahati, and is home to the Monpa people. Its monastery, Gaden Namgyal Lhatse, founded in 1680–81, is the largest in India, with around 450 monks; the 14th Dalai Lama stayed here after crossing into India in 1959.\n\nThe road in crosses Sela Pass at 4,170 m, now bypassed by the all-weather Sela Tunnel, past Jaswant Garh, where Jaswant Singh Rawat held off the Chinese army for 72 hours in 1962. Around town are the Tawang War Memorial and Nuranang Falls, which drop over 100 m. Snow falls every December–January. Indian visitors need an Inner Line Permit, and foreigners a Protected Area Permit.",
+     "facts": [
+      "BTW1",
+      "TWN1",
+      "TWN4",
+      "TWN5",
+      "TWN8",
+      "TWN2",
+      "TWN9",
+      "BTW2",
+      "TWN6",
+      "TWN3",
+      "BAR2",
+      "TWN7"
+     ]
+    },
+    "how_to_reach": {
+     "text": "Fly to Guwahati (about 555 km) or Tezpur (about 320 km), then drive over Sela Pass or through the Sela Tunnel.",
+     "facts": [
+      "TWN1",
+      "TWN2"
+     ]
+    },
+    "best_time": {
+     "text": "Snow falls every December–January, when the town has a ski lift but Sela Pass can close after heavy snow; the tunnel keeps the road open. Landslides can close the pass in other seasons too.",
+     "facts": [
+      "TWN3",
+      "TWN2"
+     ]
+    },
+    "who_its_for": {
+     "items": [
+      {
+       "title": "Pilgrims",
+       "body": "India's largest monastery."
+      },
+      {
+       "title": "History buffs",
+       "body": "The Tawang War Memorial and Jaswant Garh, from the 1962 war."
+      },
+      {
+       "title": "Road-trippers",
+       "body": "Sela Pass at 4,170 m and the Sela Tunnel."
+      },
+      {
+       "title": "Culture seekers",
+       "body": "Monpa villages, food and ara rice beer."
+      }
+     ],
+     "facts": [
+      "TWN5",
+      "BTW2",
+      "TWN9",
+      "TWN2",
+      "TWN4"
+     ]
+    },
+    "culture_etiquette": {
+     "items": [
+      {
+       "body": "Walk clockwise around stupas and prayer wheels, and ask before photographing monks."
+      },
+      {
+       "body": "Try Monpa food and ara, the local rice beer, in the villages."
+      }
+     ],
+     "facts": [
+      "TWN4"
+     ]
+    },
+    "common_mistakes": {
+     "items": [
+      {
+       "body": "Arriving without a permit: ILP for Indians, PAP for foreign nationals."
+      },
+      {
+       "body": "Planning Guwahati to Tawang in one day. It is about 555 km of mountain road."
+      },
+      {
+       "body": "Ignoring weather at Sela in winter. Check whether the pass or tunnel route is open."
+      }
+     ],
+     "facts": [
+      "BAR2",
+      "TWN7",
+      "TWN1",
+      "TWN2"
+     ]
+    },
+    "faqs": {
+     "items": [
+      {
+       "title": "Do I need a permit for Tawang?",
+       "body": "Yes. Indian visitors need an Inner Line Permit (available online); foreign nationals need a Protected Area Permit."
+      },
+      {
+       "title": "How far is Tawang from Guwahati?",
+       "body": "About 555 km by road."
+      },
+      {
+       "title": "Does it snow in Tawang?",
+       "body": "Yes, every December–January."
+      }
+     ],
+     "facts": [
+      "BAR2",
+      "TWN7",
+      "TWN1",
+      "TWN3"
+     ]
+    }
+   }
+  }
+ ],
+ "itineraries": []
+}
