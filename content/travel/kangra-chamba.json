@@ -31,7 +31,7 @@
     },
     "HPT_TIPS": {
       "url": "https://himachaltourism.gov.in/travel-safety-tips/",
-      "title": "Travel safety tips — Himachal Tourism (Government of Himachal Pradesh)",
+      "title": "Travel Safety Tips — Himachal Tourism",
       "authority": "government"
     },
     "DKG_REACH": {
@@ -72,6 +72,26 @@
     "W_112": {
       "url": "https://en.wikipedia.org/wiki/112_(emergency_telephone_number)",
       "title": "112 (emergency telephone number) — Wikipedia",
+      "authority": "reference"
+    },
+    "HPT_DSL": {
+      "url": "https://himachaltourism.gov.in/destination/dharamshala/",
+      "title": "Dharamshala — Himachal Tourism (Govt of HP)",
+      "authority": "government"
+    },
+    "DTC_CLUB": {
+      "url": "https://hptdc.hp.gov.in/hotel-detail/27",
+      "title": "The Club House, McLeodganj — HPTDC",
+      "authority": "government"
+    },
+    "DTC_BHAGSU": {
+      "url": "https://hptdc.hp.gov.in/hotel-detail/25",
+      "title": "Hotel Bhagsu, McLeodganj — HPTDC",
+      "authority": "government"
+    },
+    "WP_MCL": {
+      "url": "https://en.wikipedia.org/wiki/McLeod_Ganj",
+      "title": "McLeod Ganj — Wikipedia",
       "authority": "reference"
     }
   },
@@ -1671,6 +1691,318 @@
           "quote": "Observe local traditions and custom especially while visiting religious places. Do not touch or remove religious objects."
         }
       ]
+    },
+    "H1M17": {
+      "place": "himachal-pradesh/mcleodganj",
+      "topic": "H1M17",
+      "claim": "The Library of Tibetan Works and Archives was opened by the Dalai Lama in 1970.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WP_MCL",
+          "quote": "In 1970, the Dalai Lama opened the Library of Tibetan Works and Archives, one of the most important institutions for Tibetology."
+        }
+      ]
+    },
+    "H1M3": {
+      "place": "himachal-pradesh/mcleodganj",
+      "topic": "H1M3",
+      "claim": "Summer 20–35°C, monsoon 18–22°C, winter 4–7°C.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "HPT_DSL",
+          "quote": "Summer March – June 20° C – 35° C Monsoon July – September 18° C – 22° C Winter December – February 4° C – 7° C"
+        }
+      ]
+    },
+    "H1M18": {
+      "place": "himachal-pradesh/mcleodganj",
+      "topic": "H1M18",
+      "claim": "Bhagsunag temple is 2 km from McLeodganj and Dal Lake 4 km.",
+      "claimType": "distance",
+      "evidence": [
+        {
+          "source": "HPT_DSL",
+          "quote": "The temple at a walkable distance is just 2 kms from Mcleodganj."
+        },
+        {
+          "source": "HPT_DSL",
+          "quote": "Dal Lake is 4 km from Mcleodganj"
+        }
+      ]
+    },
+    "H1M5": {
+      "place": "himachal-pradesh/mcleodganj",
+      "topic": "H1M5",
+      "claim": "The Dal Fair is held in Upper Dharamshala in August.",
+      "claimType": "schedule",
+      "evidence": [
+        {
+          "source": "HPT_DSL",
+          "quote": "the Dal fair in Upper Dharamshala in August is a big draw"
+        }
+      ]
+    },
+    "H1S1": {
+      "place": "himachal-pradesh",
+      "topic": "H1S1",
+      "claim": "Dial 100 for police and 108 for an ambulance.",
+      "claimType": "contact",
+      "evidence": [
+        {
+          "source": "HPT_TIPS",
+          "quote": "Police Station: 100 Ambulance: 108"
+        }
+      ]
+    },
+    "H1M11": {
+      "place": "himachal-pradesh/mcleodganj",
+      "topic": "H1M11",
+      "claim": "Hindi, Punjabi and English in tourism; locals speak Kangri; Tibetan in the Tibetan community.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "HPT_DSL",
+          "quote": "Hindi, Punjabi, English are understood and spoken by the people engaged in tourism trade. Natives speak Kangri and Tibetan is spoken by the immigrant Buddhist community."
+        }
+      ]
+    },
+    "H1M2": {
+      "place": "himachal-pradesh/mcleodganj",
+      "topic": "H1M2",
+      "claim": "Best time: March–June, and December–February for a chance of snow.",
+      "claimType": "schedule",
+      "evidence": [
+        {
+          "source": "HPT_DSL",
+          "quote": "Best time to visit Dharamshala is from March through June in the summer and from December through February in winter with there being a good chance of witnessing a snowfall."
+        }
+      ]
+    },
+    "H1M14": {
+      "place": "himachal-pradesh/mcleodganj",
+      "topic": "H1M14",
+      "claim": "Tourism office, Dharamshala: 01892-224430.",
+      "claimType": "contact",
+      "evidence": [
+        {
+          "source": "HPT_DSL",
+          "quote": "District Tourism Development Office, Kangra at Dharamshala 224430"
+        },
+        {
+          "source": "HPT_DSL",
+          "quote": "STD Code 01892"
+        }
+      ]
+    },
+    "H1S6": {
+      "place": "himachal-pradesh",
+      "topic": "H1S6",
+      "claim": "Stay only in hotels, guest houses and homestays registered with the Department of Tourism.",
+      "claimType": "rule",
+      "evidence": [
+        {
+          "source": "HPT_TIPS",
+          "quote": "Stay only in hotel/guest houses/home stays that are registered with the Department of Tourism."
+        }
+      ]
+    },
+    "H1S2": {
+      "place": "himachal-pradesh",
+      "topic": "H1S2",
+      "claim": "Monsoon (July–August) brings slippery roads, landslides and rock-falls.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "HPT_TIPS",
+          "quote": "During the monsoon season (July-August), be careful while driving on the road because of slippery conditions and land-slides/ rock-falls."
+        }
+      ]
+    },
+    "H1S10": {
+      "place": "himachal-pradesh",
+      "topic": "H1S10",
+      "claim": "Banks open 10 am–4 pm, Monday–Saturday.",
+      "claimType": "opening_hours",
+      "evidence": [
+        {
+          "source": "HPT_TIPS",
+          "quote": "Normal Banking hours are 10:00 am to 4:00 pm from Monday to Saturday."
+        }
+      ]
+    },
+    "H1M9": {
+      "place": "himachal-pradesh/mcleodganj",
+      "topic": "H1M9",
+      "claim": "HPTDC's Hotel Bhagsu is near the Dalai Lama's residence and Namgyal Monastery, 7 km above Dharamshala.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "DTC_BHAGSU",
+          "quote": "Himachal Tourism Bhagsu Hotel is located near the residence of His Holiness, The Dalai Lama and the Namgyal Monastery at Mcleodganj, 7 km uphill from Dharamsala."
+        }
+      ]
+    },
+    "H1M16": {
+      "place": "himachal-pradesh/mcleodganj",
+      "topic": "H1M16",
+      "claim": "Norbulingka Institute, 7 km from Dharamshala, preserves Tibetan arts and crafts.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "HPT_DSL",
+          "quote": "The institute was founded in 1995 by Kelsang and Kim Yeshi to preserve the Tibetan arts, crafts and culture. Norbulingka Institute at Sidhpur is 7 km from Dharamshala."
+        }
+      ]
+    },
+    "H1M1": {
+      "place": "himachal-pradesh/mcleodganj",
+      "topic": "H1M1",
+      "claim": "McLeodganj is at 2,082 m, known as mini Lhasa.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "HPT_DSL",
+          "quote": "the suburb at an elevation of 2,082 m is also referred to as mini Lhasa"
+        }
+      ]
+    },
+    "H1S11": {
+      "place": "himachal-pradesh",
+      "topic": "H1S11",
+      "claim": "Himachal Emporium outlets in Kullu, Dharamshala, Keylong and elsewhere sell quality crafts at fair prices.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "HPT_TIPS",
+          "quote": "Shop at Government emporiums. Prices are reasonable and quality assured. Himachal Emporium outlets are located at Bilaspur, Chamba, Dharamshala, Mandi, Kullu, Keylong, Reckong Peo, Nahan, Solan, and Shimla."
+        }
+      ]
+    },
+    "H1S8": {
+      "place": "himachal-pradesh",
+      "topic": "H1S8",
+      "claim": "Before a high-altitude trek, inform local authorities and hire only registered guides and porters.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "HPT_TIPS",
+          "quote": "Before partaking in long/short duration or high-altitude treks, make sure to inform the local authorities such as Sub-Divisional Magistrate, Police, Tourism office etc."
+        },
+        {
+          "source": "HPT_TIPS",
+          "quote": "Ensure hiring only Govt. registered guides, porters and from registeredagencies"
+        }
+      ]
+    },
+    "H1M13": {
+      "place": "himachal-pradesh/mcleodganj",
+      "topic": "H1M13",
+      "claim": "The Zonal Hospital in Dharamshala handles emergencies; Tanda Medical College for specialist care.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "HPT_DSL",
+          "quote": "The Government run Zonal Hospital in the city is equipped to meet any medical emergency that a tourist may face while visiting Dharamshala. Facilities at the nearby Tanda Medical College, Kangra supplement the medical needs"
+        }
+      ]
+    },
+    "H1M4": {
+      "place": "himachal-pradesh/mcleodganj",
+      "topic": "H1M4",
+      "claim": "Bhagsunag Falls are fullest July–September.",
+      "claimType": "schedule",
+      "evidence": [
+        {
+          "source": "HPT_DSL",
+          "quote": "The best time to be at the waterfall is in the rainy season from July to September when the stream is in full flow."
+        }
+      ]
+    },
+    "H1M8": {
+      "place": "himachal-pradesh/mcleodganj",
+      "topic": "H1M8",
+      "claim": "Dharamkot, uphill, is home to many foreigners and the base for Triund.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "HPT_DSL",
+          "quote": "Dharamkot is home to many foreigners and life in this small village is influenced by western lifestyles. This village is also the base for a trek to Triund"
+        }
+      ]
+    },
+    "H1M12": {
+      "place": "himachal-pradesh/mcleodganj",
+      "topic": "H1M12",
+      "claim": "Cotton in summer, heavy woollens in winter; spring and autumn are moderate.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "HPT_DSL",
+          "quote": "cotton clothes are preferable in summers and heavy woolens are needed for winters. The spring and autumn seasons with moderate temperatures are a good time to be in town."
+        }
+      ]
+    },
+    "H1M7": {
+      "place": "himachal-pradesh/mcleodganj",
+      "topic": "H1M7",
+      "claim": "Taxis are readily available; car parks at Hotel Bhagsu and McLeodganj.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "HPT_DSL",
+          "quote": "Taxis for all places are readily available."
+        },
+        {
+          "source": "HPT_DSL",
+          "quote": "Parking Locations: Hotel Bhagsu Car Parking, Parking of Mcleodganj"
+        }
+      ]
+    },
+    "H1M6": {
+      "place": "himachal-pradesh/mcleodganj",
+      "topic": "H1M6",
+      "claim": "Gaggal (Kangra) airport is 14 km from Dharamshala.",
+      "claimType": "distance",
+      "evidence": [
+        {
+          "source": "HPT_DSL",
+          "quote": "Kangra airport at Gaggal is at a distance of 14 km from Dharamshala."
+        }
+      ]
+    },
+    "H1M15": {
+      "place": "himachal-pradesh/mcleodganj",
+      "topic": "H1M15",
+      "claim": "Indrahar Pass (4,342 m) is a demanding trek from Galu Devi temple, April–October.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "HPT_DSL",
+          "quote": "Indrahar Pass at an altitude of 4,342 meters is a demanding trek from Galu Devi Temple near Dharamkot village"
+        },
+        {
+          "source": "HPT_DSL",
+          "quote": "One can attempt to cross this pass that goes over some incredible terrain from April to October."
+        }
+      ]
+    },
+    "H1M10": {
+      "place": "himachal-pradesh/mcleodganj",
+      "topic": "H1M10",
+      "claim": "HPTDC's Club House is near the Dalai Lama's residence with views of the Kangra valley.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "DTC_CLUB",
+          "quote": "The Club House is most conveniently located in the vicinity of His Holiness the Dalali Lama’s residence."
+        },
+        {
+          "source": "DTC_CLUB",
+          "quote": "It offers a panoramic view of the Kangra Valley stretching out into the horizon."
+        }
+      ]
     }
   },
   "places": [
@@ -2181,6 +2513,154 @@
           "facts": [
             "DS3",
             "DS15"
+          ]
+        },
+        "key_facts": {
+          "items": [
+            {
+              "title": "Altitude",
+              "body": "2,082 m",
+              "status": "verified"
+            },
+            {
+              "title": "Best time",
+              "body": "March–June; December–February for snow",
+              "status": "seasonal"
+            },
+            {
+              "title": "Nearest airport",
+              "body": "Gaggal (Kangra), 14 km from Dharamshala",
+              "status": "verified"
+            },
+            {
+              "title": "Known as",
+              "body": "Little Lhasa",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "H1M1",
+            "H1M2",
+            "H1M6"
+          ]
+        },
+        "best_time": {
+          "text": "Summer (March–June) is the main season, 20–35°C in the Dharamshala area and cooler up in McLeodganj. December to February is cold, 4–7°C, with a good chance of snow. The monsoon (July–September) is wet but fills the Bhagsunag waterfall, and the Dal Fair is held in Upper Dharamshala in August.",
+          "facts": [
+            "H1M2",
+            "H1M3",
+            "H1M4",
+            "H1M5"
+          ]
+        },
+        "local_transport": {
+          "text": "Taxis are readily available for the climb from Lower Dharamshala and for day trips. The lanes are narrow, so drivers should use the car parks at Hotel Bhagsu or the McLeodganj parking. Bhagsunag (2 km), Dharamkot and Dal Lake (4 km) are all within walking distance.",
+          "facts": [
+            "H1M7",
+            "H1M18",
+            "H1M8"
+          ]
+        },
+        "where_to_stay": {
+          "text": "Stay in McLeodganj itself to be close to the Tsuglagkhang and the market. HPTDC runs two hotels near the Dalai Lama's residence: Hotel Bhagsu, set among deodars, and The Club House, with views over the Kangra valley. Dharamkot, uphill, is quieter, home to many foreigners and the base for Triund.\n\nChoose stays registered with the Department of Tourism.",
+          "facts": [
+            "H1M9",
+            "H1M10",
+            "H1M8",
+            "H1S6"
+          ]
+        },
+        "who_its_for": {
+          "items": [
+            {
+              "title": "Culture seekers",
+              "body": "Tibetan life around the Tsuglagkhang, the Library of Tibetan Works and Archives, and Norbulingka's crafts nearby."
+            },
+            {
+              "title": "Trekkers",
+              "body": "Triund from Dharamkot, and Indrahar Pass (4,342 m) for the experienced, April–October."
+            },
+            {
+              "title": "Food lovers",
+              "body": "Tibetan eateries along the main street; most of Dharamshala's best cafés are here."
+            },
+            {
+              "title": "Long stays",
+              "body": "Dharamkot's guesthouses and cafés suit slow travel."
+            }
+          ],
+          "facts": [
+            "H1M17",
+            "H1M16",
+            "H1M15",
+            "H1M8"
+          ]
+        },
+        "practical_info": {
+          "items": [
+            {
+              "title": "Language",
+              "body": "Hindi, Punjabi and English in tourism; Kangri locally; Tibetan in the Tibetan community.",
+              "status": "verified"
+            },
+            {
+              "title": "Clothing",
+              "body": "Cotton in summer, heavy woollens in winter.",
+              "status": "verified"
+            },
+            {
+              "title": "Tourist office",
+              "body": "District Tourism Development Office, Dharamshala: 01892-224430.",
+              "status": "verified"
+            },
+            {
+              "title": "Banks",
+              "body": "10 am–4 pm, Monday to Saturday.",
+              "status": "verified"
+            },
+            {
+              "title": "Shopping",
+              "body": "Himachal Emporium in Dharamshala for fairly priced crafts.",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "H1M11",
+            "H1M12",
+            "H1M14",
+            "H1S10",
+            "H1S11"
+          ]
+        },
+        "safety_health": {
+          "items": [
+            {
+              "title": "Hospitals",
+              "body": "Dharamshala's Zonal Hospital handles emergencies; Tanda Medical College for specialist care.",
+              "status": "verified"
+            },
+            {
+              "title": "Emergency numbers",
+              "body": "100 for police, 108 for the free ambulance.",
+              "status": "verified"
+            },
+            {
+              "title": "Treks",
+              "body": "Tell local authorities before high treks like Indrahar and use registered guides.",
+              "status": "verified"
+            },
+            {
+              "title": "Monsoon",
+              "body": "July–August brings slippery roads and landslides.",
+              "status": "seasonal"
+            }
+          ],
+          "facts": [
+            "H1M13",
+            "H1S1",
+            "H1S8",
+            "H1M15",
+            "H1S2"
           ]
         }
       },

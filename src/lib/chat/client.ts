@@ -3,6 +3,8 @@
 import type { Block, StreamEvent } from "./schema";
 import { MAX_MESSAGE_CHARS } from "./constants";
 import { getChat, latestMemory, updateAssistant, type ChatMessage } from "./store";
+import { afterAnswer, SIGN_UP_AFTER_LIMIT, SIGN_UP_FOR_NEW_TRIP } from "./quota-view";
+import { getQuota, setQuota } from "./quota-client";
 
 /**
  * The one place the browser talks to /api/chat. Used by the full chat page
@@ -42,7 +44,7 @@ export async function streamAnswer(chatId: string, assistantId: string, signal: 
   const memory = latestMemory({ ...current, messages: before });
 
   const fail = (error: string, needsAuth = false) =>
-    updateAssistant(chatId, assistantId, (m) => ({ ...m, status: "error", error, needsAuth, statusText: undefined }));
+    updateAssistant(chatId, assistantId, (m) => ({ ...m, status: "error", error, needsAuth, statusText: undefined, draft: undefined }));
 
   try {
     const res = await fetch("/api/chat", {
@@ -52,10 +54,13 @@ export async function streamAnswer(chatId: string, assistantId: string, signal: 
       signal,
     });
     if (!res.ok || !res.body) {
-      const body = (await res.json().catch(() => null)) as { error?: string; authRequired?: boolean } | null;
+      const body = (await res.json().catch(() => null)) as { error?: string; authRequired?: boolean; code?: string } | null;
       if (body?.authRequired) {
-        fail(body.error ?? "Sign up free to keep planning.", true);
-        openAuth({ mode: "signup", message: body.error });
+        const q = getQuota();
+        if (q && !q.signedIn && body.code === "auth_required") setQuota({ ...q, left: 0 });
+        const message = body.code === "one_conversation" ? SIGN_UP_FOR_NEW_TRIP : (body.error ?? SIGN_UP_AFTER_LIMIT(q?.limit ?? 5));
+        fail(message, true);
+        openAuth({ mode: "signup", message });
         return;
       }
       fail(body?.error ?? "Couldn’t reach the planner. Check your connection and try again.");
@@ -81,13 +86,21 @@ export async function streamAnswer(chatId: string, assistantId: string, signal: 
         }
         if (event.type === "status") {
           updateAssistant(chatId, assistantId, (m) => ({ ...m, statusText: event.text.slice(0, 80) }));
+        } else if (event.type === "delta") {
+          // The reply as it is written; the final text block replaces it.
+          const text = event.text;
+          updateAssistant(chatId, assistantId, (m) => ({ ...m, draft: ((m.draft ?? "") + text).slice(0, 4000), statusText: undefined }));
         } else if (event.type === "block") {
           const block: Block = event.block;
-          updateAssistant(chatId, assistantId, (m) => ({ ...m, blocks: [...m.blocks, block] }));
+          updateAssistant(chatId, assistantId, (m) => ({ ...m, blocks: [...m.blocks, block], ...(block.type === "text" ? { draft: undefined } : {}) }));
         } else if (event.type === "done") {
           finished = true;
-          updateAssistant(chatId, assistantId, (m) => ({ ...m, status: "done", summary: event.summary, memory: event.memory ?? null, statusText: undefined }));
+          updateAssistant(chatId, assistantId, (m) => ({ ...m, status: "done", summary: event.summary, memory: event.memory ?? null, statusText: undefined, draft: undefined }));
           if (typeof event.freeLeft === "number") window.dispatchEvent(new CustomEvent(QUOTA_EVENT, { detail: { freeLeft: event.freeLeft } }));
+          const { next, promptSignUp } = afterAnswer(getQuota(), event.freeLeft, chatId);
+          setQuota(next);
+          // The last free answer: let it be read first, then offer the account.
+          if (promptSignUp) setTimeout(() => openAuth({ mode: "signup", message: SIGN_UP_AFTER_LIMIT(next?.limit ?? 5) }), 1200);
         } else if (event.type === "error") {
           finished = true;
           fail(event.message);
@@ -96,6 +109,18 @@ export async function streamAnswer(chatId: string, assistantId: string, signal: 
     }
     if (!finished) fail("The reply stopped early. Try again.");
   } catch {
-    fail(signal.aborted ? "You stopped this reply." : "Couldn’t reach the planner. Check your connection and try again.");
+    if (signal.aborted) {
+      // Keep what was already written, marked as stopped.
+      updateAssistant(chatId, assistantId, (m) => ({
+        ...m,
+        status: "error",
+        error: "You stopped this reply.",
+        statusText: undefined,
+        blocks: m.draft && !m.blocks.some((b) => b.type === "text") ? [{ type: "text", text: m.draft.slice(0, 1500) }, ...m.blocks] : m.blocks,
+        draft: undefined,
+      }));
+      return;
+    }
+    fail("Couldn’t reach the planner. Check your connection and try again.");
   }
 }

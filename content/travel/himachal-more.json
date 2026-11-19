@@ -66,7 +66,7 @@
     },
     "HPT_TIPS": {
       "url": "https://himachaltourism.gov.in/travel-safety-tips/",
-      "title": "Travel safety tips — Himachal Tourism (Government of Himachal Pradesh)",
+      "title": "Travel Safety Tips — Himachal Tourism",
       "authority": "government"
     },
     "W_HP": {
@@ -91,7 +91,7 @@
     },
     "DK_REACH": {
       "url": "https://hpkullu.nic.in/how-to-reach/",
-      "title": "How to reach — District Kullu (Government of Himachal Pradesh)",
+      "title": "How to Reach — District Kullu",
       "authority": "government"
     },
     "GHNP_TV": {
@@ -142,6 +142,66 @@
     "HPTDC_KALPA": {
       "url": "https://hptdc.hp.gov.in/hotel-detail/30",
       "title": "The Kinner Kailash, Kalpa — HP Tourism Development Corporation",
+      "authority": "government"
+    },
+    "ETV_BAN": {
+      "url": "https://www.etvbharat.com/en/bharat/adventure-activities-banned-in-kullu-due-to-rain-enn26071504580",
+      "title": "Adventure activities banned in Kullu due to monsoons — ETV Bharat (July 2026)",
+      "authority": "media"
+    },
+    "TTJ_BAN": {
+      "url": "https://traveltradejournal.com/adventure-activities-banned-for-two-months-in-himachal-pradesh/",
+      "title": "Adventure activities banned for two months in Himachal Pradesh — Travel Trade Journal",
+      "authority": "media"
+    },
+    "HPT_KUL_F": {
+      "url": "https://himachaltourism.gov.in/destination/kullu-2/",
+      "title": "Kullu — Himachal Tourism (Govt of HP)",
+      "authority": "government"
+    },
+    "DTC_SARVARI": {
+      "url": "https://hptdc.hp.gov.in/hotel-detail/60",
+      "title": "Hotel Sarvari, Kullu — HPTDC",
+      "authority": "government"
+    },
+    "WP_MANI": {
+      "url": "https://en.wikipedia.org/wiki/Manikaran",
+      "title": "Manikaran — Wikipedia",
+      "authority": "reference"
+    },
+    "W_PARV": {
+      "url": "https://en.wikipedia.org/wiki/Parvati_Valley",
+      "title": "Parvati Valley — Wikipedia",
+      "authority": "reference"
+    },
+    "DK_POI": {
+      "url": "https://hpkullu.nic.in/tourism/places-of-interest/",
+      "title": "Places of Interest — District Kullu",
+      "authority": "government"
+    },
+    "W_TOSH": {
+      "url": "https://en.wikipedia.org/wiki/Tosh,_Himachal_Pradesh",
+      "title": "Tosh, Himachal Pradesh — Wikipedia",
+      "authority": "reference"
+    },
+    "OT_KAS": {
+      "url": "https://www.outlooktraveller.com/destinations/india/quick-guide-kasol-and-manikaran-himachal-pradesh",
+      "title": "Quick Guide: Kasol and Manikaran — Outlook Traveller",
+      "authority": "media"
+    },
+    "WP_KEY": {
+      "url": "https://en.wikipedia.org/wiki/Key_Monastery",
+      "title": "Key Monastery — Wikipedia",
+      "authority": "reference"
+    },
+    "HPT_SPITI": {
+      "url": "https://himachaltourism.gov.in/destination/spiti/",
+      "title": "Spiti — Himachal Tourism (Govt of HP)",
+      "authority": "government"
+    },
+    "DTC_SPITI": {
+      "url": "https://hptdc.hp.gov.in/hotel-detail/10",
+      "title": "Hotel Spiti, Kaza — HPTDC",
       "authority": "government"
     }
   },
@@ -1552,6 +1612,947 @@
           "quote": "In summers light woollens would be sufficient to live the days but heavy woollens and jackets need to carried along"
         }
       ]
+    },
+    "MN27": {
+      "place": "himachal-pradesh/kullu",
+      "topic": "Monsoon adventure ban",
+      "claim": "Every year rafting, river crossing and paragliding stop for the monsoon, from 15 July to 15 September.",
+      "claimType": "rule",
+      "evidence": [
+        {
+          "source": "ETV_BAN",
+          "quote": "various adventure activities such as river rafting, river crossing, and paragliding have been banned from July 15 to September 15."
+        },
+        {
+          "source": "TTJ_BAN",
+          "quote": "Every year, adventure activities are closed for two months during the rainy season"
+        }
+      ],
+      "kind": "seasonal"
+    },
+    "H1K4": {
+      "place": "himachal-pradesh/kullu",
+      "topic": "H1K4",
+      "claim": "Raghunath, the valley's presiding deity, is housed in a temple in the Kullu palace complex.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "HPT_KUL_F",
+          "quote": "The presiding deity of the valley is manifest in the small idol of Lord Raghunath housed in a temple within the Kullu palace complex."
+        }
+      ]
+    },
+    "H1K23": {
+      "place": "himachal-pradesh/kullu",
+      "topic": "H1K23",
+      "claim": "Manali is 40 km from Kullu.",
+      "claimType": "distance",
+      "evidence": [
+        {
+          "source": "HPT_KUL_F",
+          "quote": "Distances from Kullu (Km) Manali 40"
+        }
+      ]
+    },
+    "H1K6": {
+      "place": "himachal-pradesh/kullu",
+      "topic": "H1K6",
+      "claim": "Kullu restaurants serve vegetarian and non-vegetarian Indian, continental, Italian and Chinese food; some offer Himachali specialities.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "HPT_KUL_F",
+          "quote": "Everything on the fully vegetarian and non-vegetarian menu is readily available in Kullu restaurants. Besides the regular Indian and continental cuisine, Italian and Chinese food options are also available. Some eateries do offer Himachali specialities also."
+        }
+      ]
+    },
+    "H1S1": {
+      "place": "himachal-pradesh",
+      "topic": "H1S1",
+      "claim": "Dial 100 for police and 108 for an ambulance.",
+      "claimType": "contact",
+      "evidence": [
+        {
+          "source": "HPT_TIPS",
+          "quote": "Police Station: 100 Ambulance: 108"
+        }
+      ]
+    },
+    "H1S5": {
+      "place": "himachal-pradesh",
+      "topic": "H1S5",
+      "claim": "Joy-ride rafting is not permitted beyond class II rapids.",
+      "claimType": "rule",
+      "evidence": [
+        {
+          "source": "HPT_TIPS",
+          "quote": "River Rafting for joy ride purpose in Himachal Pradesh is not permitted beyond rapid class-II grade."
+        }
+      ]
+    },
+    "H1K14": {
+      "place": "himachal-pradesh/kullu",
+      "topic": "H1K14",
+      "claim": "HPTDC's Hotel Sarvari is at Shastrinagar, a little out of Kullu town; Bhuntar airport is 10 km away.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "DTC_SARVARI",
+          "quote": "A little away from the Kullu town, at Shastrinagar Himachal Tourism runs Hotel sarvari"
+        },
+        {
+          "source": "DTC_SARVARI",
+          "quote": "Bhuntar Airport to Hotel Sarvari : 10 KM"
+        }
+      ]
+    },
+    "H1K19": {
+      "place": "himachal-pradesh/kullu",
+      "topic": "H1K19",
+      "claim": "Nearest railway stations: Joginder Nagar (narrow gauge, 120 km), Kiratpur (200 km), Una (about 260 km).",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "DK_REACH",
+          "quote": "The nearest railway station is Joginder Nagar which is 120 Km far on Mandi-Pathankot way is a narrow gauge track. Kiratpur is another railway station 200 Km far on Kullu-Chandigarh highway."
+        }
+      ]
+    },
+    "H1K2": {
+      "place": "himachal-pradesh/kullu",
+      "topic": "H1K2",
+      "claim": "Raison, north of Kullu, has riverside camping sites among orchards, with rafting nearby.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "HPT_KUL_F",
+          "quote": "Tucked away to the north of Kullu are a cluster of small villages that offer excellent camping sites by the bank of River Beas."
+        },
+        {
+          "source": "HPT_KUL_F",
+          "quote": "From near the camping meadows some exciting white water rafting expeditions are also conducted."
+        }
+      ]
+    },
+    "H1K1": {
+      "place": "himachal-pradesh/kullu",
+      "topic": "H1K1",
+      "claim": "Kullu offers rafting on the Beas, treks to Tirath, trout angling at Banjar and camping at Raison.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "HPT_KUL_F",
+          "quote": "Board a raft and set out on a white water rafting thrill in River Beas, trek to the alpine pastures of Tirath, make a sporting catch of trout fish by testing your angling skills at Banjar or just enjoy the serenity of camping at Raison."
+        }
+      ]
+    },
+    "H1K20": {
+      "place": "himachal-pradesh/kullu",
+      "topic": "H1K20",
+      "claim": "Rafting runs March–May and September–November.",
+      "claimType": "schedule",
+      "evidence": [
+        {
+          "source": "HPT_KUL_F",
+          "quote": "can be experienced on long river stretches from March and May and from September to November"
+        }
+      ]
+    },
+    "H1S4": {
+      "place": "himachal-pradesh",
+      "topic": "H1S4",
+      "claim": "Use only government-authorised adventure operators with a valid licence.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "HPT_TIPS",
+          "quote": "ensure the agencies offering such activities are authorized by the Government for the purpose and have a valid license to operate."
+        }
+      ]
+    },
+    "H1S6": {
+      "place": "himachal-pradesh",
+      "topic": "H1S6",
+      "claim": "Stay only in hotels, guest houses and homestays registered with the Department of Tourism.",
+      "claimType": "rule",
+      "evidence": [
+        {
+          "source": "HPT_TIPS",
+          "quote": "Stay only in hotel/guest houses/home stays that are registered with the Department of Tourism."
+        }
+      ]
+    },
+    "H1K12": {
+      "place": "himachal-pradesh/kullu",
+      "topic": "H1K12",
+      "claim": "Good mobile and high-speed internet.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "HPT_KUL_F",
+          "quote": "Standard access to high-speed internet along with strong setup of all national mobile network carriers is available."
+        }
+      ]
+    },
+    "H1S2": {
+      "place": "himachal-pradesh",
+      "topic": "H1S2",
+      "claim": "Monsoon (July–August) brings slippery roads, landslides and rock-falls.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "HPT_TIPS",
+          "quote": "During the monsoon season (July-August), be careful while driving on the road because of slippery conditions and land-slides/ rock-falls."
+        }
+      ]
+    },
+    "H1K21": {
+      "place": "himachal-pradesh/kullu",
+      "topic": "H1K21",
+      "claim": "The Kullu-Manali airport at Bhuntar is about 10 km from town.",
+      "claimType": "distance",
+      "evidence": [
+        {
+          "source": "HPT_KUL_F",
+          "quote": "The Kullu-Manali airport is at Bhuntar, about 10 km from the main town."
+        }
+      ]
+    },
+    "H1S10": {
+      "place": "himachal-pradesh",
+      "topic": "H1S10",
+      "claim": "Banks open 10 am–4 pm, Monday–Saturday.",
+      "claimType": "opening_hours",
+      "evidence": [
+        {
+          "source": "HPT_TIPS",
+          "quote": "Normal Banking hours are 10:00 am to 4:00 pm from Monday to Saturday."
+        }
+      ]
+    },
+    "H1K9": {
+      "place": "himachal-pradesh/kullu",
+      "topic": "H1K9",
+      "claim": "HRTC buses leave Kullu for major cities; taxis are at the local taxi stand.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "DK_REACH",
+          "quote": "Frequent buses are available from the HRTC bus stands at Kullu and Manali to all major cities. One can avail Taxis also from the the Local Taxi Stand."
+        }
+      ]
+    },
+    "H1S3": {
+      "place": "himachal-pradesh",
+      "topic": "H1S3",
+      "claim": "Don't stand on cliff edges or riverside boulders; river currents are strong and deceptive.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "HPT_TIPS",
+          "quote": "Do not stand at the edge of a cliff or on any bolder near a river bank for photographs etc. The water current in rivers of Himachal Pradesh is very strong and highly deceptive."
+        }
+      ]
+    },
+    "H1K16": {
+      "place": "himachal-pradesh/kullu",
+      "topic": "H1K16",
+      "claim": "Summer suits those escaping the heat; December–February is the chilliest, with the best chance of snow.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "HPT_KUL_F",
+          "quote": "Summer is a good time to visit Kullu for people wishing to escape the scorching heat."
+        },
+        {
+          "source": "HPT_KUL_F",
+          "quote": "December to February is generally the chilliest period when chances of witnessing a snowfall are more."
+        }
+      ]
+    },
+    "H1K8": {
+      "place": "himachal-pradesh/kullu",
+      "topic": "H1K8",
+      "claim": "Cabs and buses are easy to find; Manali, Shimla, Delhi and Chandigarh are reachable by public or private transport.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "HPT_KUL_F",
+          "quote": "The destinations of Manali, Shimla, Delhi and Chandigarh can be reached by public or private transport services. Cabs and busses are easily accessible."
+        }
+      ]
+    },
+    "H1K10": {
+      "place": "himachal-pradesh/kullu",
+      "topic": "H1K10",
+      "claim": "Hindi, English and Punjabi are understood in tourism; locals speak Pahari.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "HPT_KUL_F",
+          "quote": "Language: Hindi, English, Punjabi are spoken and understood by those engaged in tourism. Locals speak Pahari."
+        }
+      ]
+    },
+    "H1K5": {
+      "place": "himachal-pradesh/kullu",
+      "topic": "H1K5",
+      "claim": "The stone Vishveshvara Mahadev temple at Bajaura dates from the 9th–12th century, beside the Beas and close to the highway.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "HPT_KUL_F",
+          "quote": "The pyramidal-style, stone monolithic temple dedicated to Lord Shiva, locally addressed as Basheshara, at Bajura is dated to have been built sometime between 9th and 12th century AD."
+        },
+        {
+          "source": "HPT_KUL_F",
+          "quote": "scenic location on the bank of River Beas, and in close proximity to the highway"
+        }
+      ]
+    },
+    "H1K13": {
+      "place": "himachal-pradesh/kullu",
+      "topic": "H1K13",
+      "claim": "Kullu's STD code is 01902; District Tourism Development Office 226221.",
+      "claimType": "contact",
+      "evidence": [
+        {
+          "source": "HPT_KUL_F",
+          "quote": "STD Code 01902"
+        },
+        {
+          "source": "HPT_KUL_F",
+          "quote": "District Tourism Development Office, Kullu 226221"
+        }
+      ]
+    },
+    "H1S11": {
+      "place": "himachal-pradesh",
+      "topic": "H1S11",
+      "claim": "Himachal Emporium outlets in Kullu, Dharamshala, Keylong and elsewhere sell quality crafts at fair prices.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "HPT_TIPS",
+          "quote": "Shop at Government emporiums. Prices are reasonable and quality assured. Himachal Emporium outlets are located at Bilaspur, Chamba, Dharamshala, Mandi, Kullu, Keylong, Reckong Peo, Nahan, Solan, and Shimla."
+        }
+      ]
+    },
+    "H1K22": {
+      "place": "himachal-pradesh/kullu",
+      "topic": "H1K22",
+      "claim": "Kullu Dussehra is a week-long fair every October; Raghunath leads the procession into Dhalpur ground.",
+      "claimType": "schedule",
+      "evidence": [
+        {
+          "source": "HPT_KUL_F",
+          "quote": "It is a week long international level fair held every year during October."
+        },
+        {
+          "source": "HPT_KUL_F",
+          "quote": "Lord Raghunath rides into Dhalpur ground"
+        }
+      ]
+    },
+    "H1K11": {
+      "place": "himachal-pradesh/kullu",
+      "topic": "H1K11",
+      "claim": "Pack cotton for summer, light woollens for spring and autumn, heavy woollens for winter.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "HPT_KUL_F",
+          "quote": "Tourists are advised to carry cotton clothing in summer, light woollen in spring and autumn and heavy woollen in winter."
+        }
+      ]
+    },
+    "H1K7": {
+      "place": "himachal-pradesh/kullu",
+      "topic": "H1K7",
+      "claim": "Kullu has a district hospital, an Ayurvedic hospital, a homeopathic centre and private clinics.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "HPT_KUL_F",
+          "quote": "There is a district level allopathic hospital, an Ayurvedic hospital, a government homeopathic centre and many private clinics in the town."
+        }
+      ]
+    },
+    "H1K18": {
+      "place": "himachal-pradesh/kullu",
+      "topic": "H1K18",
+      "claim": "Great Himalayan National Park has no roads or paved trails; it is for trekking and camping.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "HPT_KUL_F",
+          "quote": "there are no roads or paved trails in this carefully conserved natural habitat. This vast wilderness is only for those who love trekking and outdoor camping."
+        }
+      ]
+    },
+    "H1S7": {
+      "place": "himachal-pradesh",
+      "topic": "H1S7",
+      "claim": "Avoid night driving in the hills.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "HPT_TIPS",
+          "quote": "Avoid night driving in the hills."
+        }
+      ]
+    },
+    "H1K15": {
+      "place": "himachal-pradesh/kullu",
+      "topic": "H1K15",
+      "claim": "Dussehra: over 200 village deities in palanquins, stalls of local wares and evening cultural shows.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "HPT_KUL_F",
+          "quote": "It is a grand spectacle with over 200 village deities carried around in palanquins."
+        },
+        {
+          "source": "HPT_KUL_F",
+          "quote": "several stalls are laid out that sell a variety of local wares"
+        },
+        {
+          "source": "HPT_KUL_F",
+          "quote": "In the evenings cultural performances are held at an open theatre"
+        }
+      ]
+    },
+    "H1K17": {
+      "place": "himachal-pradesh/kullu",
+      "topic": "H1K17",
+      "claim": "Manikaran is 45 km from Kullu by public or private transport.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "HPT_KUL_F",
+          "quote": "Manikaran, 45 km from Kullu can be easily reached by private or public transport."
+        }
+      ]
+    },
+    "H1K3": {
+      "place": "himachal-pradesh/kullu",
+      "topic": "H1K3",
+      "claim": "The uphill walk to Bijli Mahadev gives commanding views of the Kullu valley.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "HPT_KUL_F",
+          "quote": "Walking uphill to Bijli Mahadev temple offers some very commanding views of Kullu valley."
+        }
+      ]
+    },
+    "H1N4": {
+      "place": "himachal-pradesh/kasol",
+      "topic": "H1N4",
+      "claim": "Manikaran is 4 km from Kasol.",
+      "claimType": "distance",
+      "evidence": [
+        {
+          "source": "WP_MANI",
+          "quote": "located 4 km from Kasol"
+        }
+      ]
+    },
+    "H1N1": {
+      "place": "himachal-pradesh/kasol",
+      "topic": "H1N1",
+      "claim": "Manikaran (1,829 m, 40 km from Kullu) has hot springs hot enough to cook rice in a cloth bag.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "DK_POI",
+          "quote": "Manikaran at an altitude of 1,829 mt. and 40 kms from Kullu has the finest hot water springs."
+        },
+        {
+          "source": "DK_POI",
+          "quote": "Rice can be cooked if placed in a muslin bag or tied up in cloth and thrown into the hot water pool."
+        }
+      ]
+    },
+    "H1A5": {
+      "place": "himachal-pradesh/kasol",
+      "topic": "H1A5",
+      "claim": "Kasol's cafés serve Israeli food with Hebrew menus.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "W_PARV",
+          "quote": "its cafés serve Israeli food and print menus in Hebrew"
+        }
+      ]
+    },
+    "H1A2": {
+      "place": "himachal-pradesh/kasol",
+      "topic": "H1A2",
+      "claim": "Kasol is split by a bridge into an old and a new township, with a growing number of guesthouses, camps and hotels.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "HPT_KUL_F",
+          "quote": "Once a quaint village that is now divided by a bridge into old and new townships has only recently expanded to have growing number of guesthouses, camps and hotels"
+        }
+      ]
+    },
+    "H1A1": {
+      "place": "himachal-pradesh/kasol",
+      "topic": "H1A1",
+      "claim": "Buses run regularly to Kasol and taxis are easy to hire.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "HPT_KUL_F",
+          "quote": "Buses regularly ply to Kasol and taxis are also easily available for hire."
+        }
+      ]
+    },
+    "H1A3": {
+      "place": "himachal-pradesh/kasol",
+      "topic": "H1A3",
+      "claim": "Travellers also stay in Tosh, Kalga, Pulga and Chalal.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "W_PARV",
+          "quote": "who also stay in nearby villages such as Tosh, Kalga, Pulga and Chalal"
+        }
+      ]
+    },
+    "H1A7": {
+      "place": "himachal-pradesh/kasol",
+      "topic": "H1A7",
+      "claim": "For Kheerganga, take a local bus or motorcycle to Barshaini.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "OT_KAS",
+          "quote": "To start this hike, you first need to take a local bus or a motorcycle till Barshaini."
+        }
+      ]
+    },
+    "H1A8": {
+      "place": "himachal-pradesh/kasol",
+      "topic": "H1A8",
+      "claim": "From Bhuntar, turn right for Kasol via Jari.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "OT_KAS",
+          "quote": "From Bhuntar (before Kullu), take the right turn to Kasol via Jari."
+        }
+      ]
+    },
+    "H1A4": {
+      "place": "himachal-pradesh/kasol",
+      "topic": "H1A4",
+      "claim": "Tosh is cheaper than Kasol.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "W_TOSH",
+          "quote": "Tosh is less expensive than its neighbour town Kasol."
+        }
+      ]
+    },
+    "H1P16": {
+      "place": "himachal-pradesh/spiti-valley",
+      "topic": "H1P16",
+      "claim": "Langza is known for ammonite fossils, pottery and handcrafts; Komic is one of the highest villages on a motorable road; Hikkim is reached from Komic.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "HPT_SPITI",
+          "quote": "Langza is best known for ammonite fossils, clay pottery and handcrafted carpets and shawls."
+        },
+        {
+          "source": "HPT_SPITI",
+          "quote": "Komic – one of the highest villages at 4400 m to be connected by a motorable road"
+        },
+        {
+          "source": "HPT_SPITI",
+          "quote": "Hikkim, the highest habitation of the valley can be reached from Komic."
+        }
+      ]
+    },
+    "H1V2": {
+      "place": "himachal-pradesh/spiti-valley",
+      "topic": "H1V2",
+      "claim": "The road into Pin starts at Atargoo, 10 km from Schichling; villages include Mud; treks cross the Pin Parbati Pass.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "HPT_SPITI",
+          "quote": "at Atargoo, 10 km from Schichling village, a narrow road leads into the valley carved out by Pin."
+        },
+        {
+          "source": "HPT_SPITI",
+          "quote": "several monasteries which includes the Kungri monastery and several others located in the scenic village named Mud"
+        },
+        {
+          "source": "HPT_SPITI",
+          "quote": "From Pin Valley several tough trekking routes head out which pass over the Pin Parbati Pass."
+        }
+      ]
+    },
+    "H1P3": {
+      "place": "himachal-pradesh/spiti-valley",
+      "topic": "H1P3",
+      "claim": "Food is mostly Tibetan; eateries serve North Indian and Tibetan dishes.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "HPT_SPITI",
+          "quote": "The platter is dominated by Tibetan cuisine"
+        },
+        {
+          "source": "HPT_SPITI",
+          "quote": "Small eateries and restaurants offer both North Indian as well as Tibetan food."
+        }
+      ]
+    },
+    "H1P19": {
+      "place": "himachal-pradesh/spiti-valley",
+      "topic": "H1P19",
+      "claim": "Spiti is pleasant April–October; winter falls to −20°C.",
+      "claimType": "schedule",
+      "evidence": [
+        {
+          "source": "HPT_SPITI",
+          "quote": "Weather in Spiti is pleasant from April to October"
+        },
+        {
+          "source": "HPT_SPITI",
+          "quote": "In winters, the temperature falls to as low as minus 20 degree Celsius."
+        }
+      ]
+    },
+    "H1V1": {
+      "place": "himachal-pradesh/spiti-valley",
+      "topic": "H1V1",
+      "claim": "The whole Pin Valley is a national park sheltering over twenty rare species including snow leopard.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "HPT_SPITI",
+          "quote": "The entire Pin Valley is a National park where over twenty species of rare animals and birds including the endangered snow leopard are sheltered."
+        }
+      ]
+    },
+    "H1P2": {
+      "place": "himachal-pradesh/spiti-valley",
+      "topic": "H1P2",
+      "claim": "Himalayan blue sheep are regularly seen; Kibber is snow leopard habitat.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "HPT_SPITI",
+          "quote": "Herds of Himalayan blue sheep grazing and hopping in the rocky terrain can be regularly spotted."
+        },
+        {
+          "source": "HPT_SPITI",
+          "quote": "The vast expanse around Kibber, one of the highest inhabited villages in the valley, is snow leopard habitat"
+        }
+      ]
+    },
+    "H1Y1": {
+      "place": "himachal-pradesh/spiti-valley",
+      "topic": "H1Y1",
+      "claim": "Key is a Gelugpa monastery at 4,166 m, the largest in Spiti and a training centre for lamas.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WP_KEY",
+          "quote": "is a Tibetan Buddhist monastery of the Gelugpa sect located on top of a hill at an altitude of 4,166 metres"
+        },
+        {
+          "source": "WP_KEY",
+          "quote": "It is the largest monastery of the Spiti Valley and a religious training centre for lamas."
+        }
+      ]
+    },
+    "H1P1": {
+      "place": "himachal-pradesh/spiti-valley",
+      "topic": "H1P1",
+      "claim": "Spiti's monasteries have murals, thangkas and red-robed lamas chanting.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "HPT_SPITI",
+          "quote": "What makes them more fascinating are the colourful murals, vibrant thangkas (religious paintings) and the red robed lamas silently murmuring the sacred chants of Buddha."
+        }
+      ]
+    },
+    "H1P15": {
+      "place": "himachal-pradesh/spiti-valley",
+      "topic": "H1P15",
+      "claim": "Kaza police station: 01906-222253; tourism officer 01906-222202.",
+      "claimType": "contact",
+      "evidence": [
+        {
+          "source": "HPT_SPITI",
+          "quote": "Police Station, Kaza 01906-222253"
+        },
+        {
+          "source": "HPT_SPITI",
+          "quote": "District Tourism Development Officer-cum- Add. Deputy Commissioner 01906-222202"
+        }
+      ]
+    },
+    "H1P10": {
+      "place": "himachal-pradesh/spiti-valley",
+      "topic": "H1P10",
+      "claim": "Bedded tents are available at Chandra Taal from June to October.",
+      "claimType": "schedule",
+      "evidence": [
+        {
+          "source": "HPT_SPITI",
+          "quote": "bedded tented accommodation can also be availed from June to October"
+        }
+      ]
+    },
+    "H1P18": {
+      "place": "himachal-pradesh/spiti-valley",
+      "topic": "H1P18",
+      "claim": "Lossar (usually February) features the masked chham dance at monasteries.",
+      "claimType": "schedule",
+      "evidence": [
+        {
+          "source": "HPT_SPITI",
+          "quote": "is usually celebrated in February to mark the advent of the New Year. The prime attraction of the festival at the monasteries is a ritual chham dance"
+        }
+      ]
+    },
+    "H1P4": {
+      "place": "himachal-pradesh/spiti-valley",
+      "topic": "H1P4",
+      "claim": "Barley flour makes local dishes like thuktal and shunali; try momos, thukpa and butter tea.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "HPT_SPITI",
+          "quote": "The grain and roasted flour is used to make local dishes like thuktal and shunali."
+        },
+        {
+          "source": "HPT_SPITI",
+          "quote": "Other local food items travellers should not miss include momos and thukpa prepared in Tibetan style."
+        },
+        {
+          "source": "HPT_SPITI",
+          "quote": "Spiti has flavoured and aromatic teas such as butter tea, lemon, ginger, honey tea on offer."
+        }
+      ]
+    },
+    "H1P6": {
+      "place": "himachal-pradesh/spiti-valley",
+      "topic": "H1P6",
+      "claim": "Medical facilities are limited: CHC Kaza, PHC Tabo, dispensary at Kibber.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "HPT_SPITI",
+          "quote": "Spiti has limited medical facilities though the Community Health Centre at, Kaza, the Primary Health Centre at Tabo and the Civil Dispensary at Kibber cater the locals well."
+        }
+      ]
+    },
+    "H1T1": {
+      "place": "himachal-pradesh/spiti-valley",
+      "topic": "H1T1",
+      "claim": "Tabo, founded 996 AD, is the largest monastic complex in Spiti: nine temples, 23 chortens, monk and nun chambers.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "HPT_SPITI",
+          "quote": "Founded in 996 AD, Tabo is the largest monastic complex in Spiti comprising of nine temples, 23 chortens, a monk chamber and a nun’s chamber."
+        }
+      ]
+    },
+    "H1P20": {
+      "place": "himachal-pradesh/spiti-valley",
+      "topic": "H1P20",
+      "claim": "Only BSNL works well in Spiti; internet is slow.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "HPT_SPITI",
+          "quote": "only BSNL mobile phone network works fine in Spiti. Internet speed is slow."
+        }
+      ]
+    },
+    "H1P7": {
+      "place": "himachal-pradesh/spiti-valley",
+      "topic": "H1P7",
+      "claim": "State buses and taxis from Shimla and Manali take about 12 hours to Kaza.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "HPT_SPITI",
+          "quote": "State-run buses and private taxis can be booked from Shimla and Manali that take about 12 hours to reach Kaza"
+        }
+      ]
+    },
+    "H1D2": {
+      "place": "himachal-pradesh/spiti-valley",
+      "topic": "H1D2",
+      "claim": "At 3,370 m, it holds Bhoti scriptures and is a base for Dhankar Lake and Pin valley.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "HPT_SPITI",
+          "quote": "Dhankar monastery at an altitude 3370 m is a repository of Buddhist scriptures in Bhoti script. It also serves as a base for excursions to Dhankar Lake and Pin valley."
+        }
+      ]
+    },
+    "H1P11": {
+      "place": "himachal-pradesh/spiti-valley",
+      "topic": "H1P11",
+      "claim": "HPTDC's Hotel Spiti in Kaza is open May to October and has a dormitory.",
+      "claimType": "schedule",
+      "evidence": [
+        {
+          "source": "DTC_SPITI",
+          "quote": "Open from May to October"
+        },
+        {
+          "source": "DTC_SPITI",
+          "quote": "Dormitory available"
+        }
+      ]
+    },
+    "H1P21": {
+      "place": "himachal-pradesh/spiti-valley",
+      "topic": "H1P21",
+      "claim": "Manali–Kaza buses run July–October; via Kinnaur, May–October.",
+      "claimType": "schedule",
+      "evidence": [
+        {
+          "source": "HPT_SPITI",
+          "quote": "From Manali to Kaza, there are regular buses from July to October and from Shimla via Kinnaur, there are regular buses from May to October."
+        }
+      ]
+    },
+    "H1S8": {
+      "place": "himachal-pradesh",
+      "topic": "H1S8",
+      "claim": "Before a high-altitude trek, inform local authorities and hire only registered guides and porters.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "HPT_TIPS",
+          "quote": "Before partaking in long/short duration or high-altitude treks, make sure to inform the local authorities such as Sub-Divisional Magistrate, Police, Tourism office etc."
+        },
+        {
+          "source": "HPT_TIPS",
+          "quote": "Ensure hiring only Govt. registered guides, porters and from registeredagencies"
+        }
+      ]
+    },
+    "H1D1": {
+      "place": "himachal-pradesh/spiti-valley",
+      "topic": "H1D1",
+      "claim": "Dhankar monastery hangs on a cliff above the Spiti river, 7 km off the road at Schichling; it was a fort guarding the valley.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "HPT_SPITI",
+          "quote": "on a 7 km branching road from the village of Schichling, Dhankar monastery dramatically hangs on a cliff side on the left bank side of Spiti River."
+        },
+        {
+          "source": "HPT_SPITI",
+          "quote": "In local language Dhankar means a fort and the monastery was indeed used to guard the valley from outside invasions."
+        }
+      ]
+    },
+    "H1P9": {
+      "place": "himachal-pradesh/spiti-valley",
+      "topic": "H1P9",
+      "claim": "From Kaza a state bus runs to Kibber in summer.",
+      "claimType": "schedule",
+      "evidence": [
+        {
+          "source": "HPT_SPITI",
+          "quote": "From Kaza, a state-run bus service plies to the village in summers."
+        }
+      ]
+    },
+    "H1P17": {
+      "place": "himachal-pradesh/spiti-valley",
+      "topic": "H1P17",
+      "claim": "Distances from Kaza: Key 12, Langza 16, Hikkim 17, Kibber 18, Tabo 48, Chandra Taal 98 km.",
+      "claimType": "distance",
+      "evidence": [
+        {
+          "source": "HPT_SPITI",
+          "quote": "Kee Monastery 12 Kibber 18 Langza 16 Hikkim 17 Kimic 18 Tabo 48"
+        },
+        {
+          "source": "HPT_SPITI",
+          "quote": "Chandra Taal 98"
+        }
+      ]
+    },
+    "H1P5": {
+      "place": "himachal-pradesh/spiti-valley",
+      "topic": "H1P5",
+      "claim": "Kaza has a bank, ATM, post office and fuel station, and some restaurants.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "HPT_SPITI",
+          "quote": "There is Bank, ATM, Post Office and a petrol – diesel filling station at Kaza."
+        },
+        {
+          "source": "HPT_SPITI",
+          "quote": "narrow streets of the small town lead to the marketplace which has some restaurants"
+        }
+      ]
+    },
+    "H1P14": {
+      "place": "himachal-pradesh/spiti-valley",
+      "topic": "H1P14",
+      "claim": "Carry woollens all season; heavy woollens by September.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "HPT_SPITI",
+          "quote": "always pack some woollens on a journey to this land for the temperature can suddenly drop"
+        },
+        {
+          "source": "HPT_SPITI",
+          "quote": "By September, heavy woollens are recommended as evenings can get really cold"
+        }
+      ]
+    },
+    "H1P8": {
+      "place": "himachal-pradesh/spiti-valley",
+      "topic": "H1P8",
+      "claim": "Indians need no permit; foreigners entering via Kinnaur need an Inner Line Permit from Reckong Peo.",
+      "claimType": "rule",
+      "evidence": [
+        {
+          "source": "HPT_SPITI",
+          "quote": "Indian citizen don’t require a permit to enter the valley. However, foreign tourists entering Spiti through the Shimla-Kinnaur route do require inner-line permits"
+        },
+        {
+          "source": "HPT_SPITI",
+          "quote": "Permits can be obtained at the Inner Line Permit Office at Reckong Peo, Kinnaur."
+        }
+      ]
+    },
+    "H1C3": {
+      "place": "himachal-pradesh/spiti-valley",
+      "topic": "H1C3",
+      "claim": "A 2-hour level walk from Kunzum Pass (4,590 m) is the better approach.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "HPT_SPITI",
+          "quote": "but a better approach is to undertake a 2 hour level walk from Kunzum Pass."
+        }
+      ]
     }
   },
   "places": [
@@ -1712,7 +2713,7 @@
             },
             {
               "title": "Rafting season",
-              "body": "March–May, September–November",
+              "body": "March–May and mid-September–November (closed 15 July–15 September)",
               "status": "seasonal"
             }
           ],
@@ -1720,7 +2721,8 @@
             "KU3",
             "KU2",
             "HS34",
-            "HS18"
+            "HS18",
+            "MN27"
           ]
         },
         "overview": {
@@ -1750,6 +2752,218 @@
             "HS11",
             "KU2",
             "HS34"
+          ]
+        },
+        "things_to_do": {
+          "items": [
+            {
+              "body": "Raft the Beas: White-water rafting on long river stretches, March–May and September–November, with experienced rafters."
+            },
+            {
+              "body": "Camp at Raison: Riverside camping among apple, peach and plum orchards north of town, with rafting trips from near the meadows."
+            },
+            {
+              "body": "Walk up to Bijli Mahadev: The hilltop Shiva temple has commanding views over the Kullu valley."
+            },
+            {
+              "body": "Raghunath Temple: The valley's presiding deity, in a temple inside the Kullu palace complex."
+            },
+            {
+              "body": "Basheshar Mahadev, Bajaura: A carved 9th–12th-century stone Shiva temple beside the Beas, close to the highway."
+            },
+            {
+              "body": "Angling at Banjar: Trout fishing in the snow-fed Tirthan."
+            },
+            {
+              "body": "Manikaran and the Parvati valley: The gurdwara and hot spring are 45 km away by bus or taxi."
+            },
+            {
+              "body": "Great Himalayan National Park: A UNESCO World Heritage Site with no roads inside — for trekkers and campers only."
+            }
+          ],
+          "facts": [
+            "H1K1",
+            "H1K20",
+            "H1K2",
+            "H1K3",
+            "H1K4",
+            "H1K5",
+            "H1K17",
+            "H1K18"
+          ]
+        },
+        "food": {
+          "items": [
+            {
+              "body": "Indian, continental, Italian and Chinese food, vegetarian and non-vegetarian, across Kullu's restaurants."
+            },
+            {
+              "body": "Some eateries serve Himachali specialities."
+            },
+            {
+              "body": "Fresh trout from the Tirthan around Banjar."
+            }
+          ],
+          "facts": [
+            "H1K6",
+            "H1K1"
+          ]
+        },
+        "local_transport": {
+          "text": "Cabs and buses are easy to find. HRTC buses leave the Kullu bus stand for Manali and all major cities, and taxis wait at the local taxi stand. Bhuntar airport is 10 km south of town.\n\nAvoid driving in the hills after dark, and take extra care in July–August, when rain brings landslides and rock-falls.",
+          "facts": [
+            "H1K8",
+            "H1K9",
+            "H1K21",
+            "H1S7",
+            "H1S2"
+          ]
+        },
+        "where_to_stay": {
+          "text": "Kullu town has hotels for every budget along the Beas. HPTDC's Hotel Sarvari sits at Shastrinagar, a little out of town and about 10 km from Bhuntar airport. For a night outdoors, the riverside camps around Raison are north of town.\n\nWherever you stay, choose hotels, guest houses or homestays registered with the Department of Tourism.",
+          "facts": [
+            "H1K14",
+            "H1K2",
+            "H1S6"
+          ]
+        },
+        "who_its_for": {
+          "items": [
+            {
+              "title": "Culture and festivals",
+              "body": "The October Dussehra, with over 200 village deities carried in palanquins, stalls of local wares and evening shows."
+            },
+            {
+              "title": "Adventure",
+              "body": "Beas rafting, treks to the Tirath pastures and the Great Himalayan National Park."
+            },
+            {
+              "title": "Nature and quiet",
+              "body": "Riverside camping at Raison and trout angling at Banjar."
+            },
+            {
+              "title": "Pilgrims",
+              "body": "Raghunath Temple, Bijli Mahadev, Bajaura and Manikaran."
+            }
+          ],
+          "facts": [
+            "H1K15",
+            "H1K1",
+            "H1K18",
+            "H1K2",
+            "H1K4",
+            "H1K3",
+            "H1K5"
+          ]
+        },
+        "practical_info": {
+          "items": [
+            {
+              "title": "Language",
+              "body": "Hindi, English and Punjabi in tourism; locals speak Pahari.",
+              "status": "verified"
+            },
+            {
+              "title": "Clothing",
+              "body": "Cotton in summer, light woollens in spring and autumn, heavy woollens in winter.",
+              "status": "verified"
+            },
+            {
+              "title": "Mobile and internet",
+              "body": "All national networks and high-speed internet.",
+              "status": "verified"
+            },
+            {
+              "title": "Hospitals",
+              "body": "A district hospital, an Ayurvedic hospital and private clinics in town.",
+              "status": "verified"
+            },
+            {
+              "title": "Tourist office",
+              "body": "District Tourism Development Office, Kullu: 01902-226221.",
+              "status": "verified"
+            },
+            {
+              "title": "Banks",
+              "body": "10 am–4 pm, Monday to Saturday.",
+              "status": "verified"
+            },
+            {
+              "title": "Shopping",
+              "body": "Himachal Emporium in Kullu for fairly priced crafts.",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "H1K10",
+            "H1K11",
+            "H1K12",
+            "H1K7",
+            "H1K13",
+            "H1S10",
+            "H1S11"
+          ]
+        },
+        "safety_health": {
+          "items": [
+            {
+              "title": "Emergency numbers",
+              "body": "100 for police, 108 for the free ambulance.",
+              "status": "verified"
+            },
+            {
+              "title": "River safety",
+              "body": "The Beas is strong and deceptive — don't stand on riverside boulders.",
+              "status": "verified"
+            },
+            {
+              "title": "Rafting",
+              "body": "Use licensed operators only; joy rides are capped at class II rapids.",
+              "status": "verified"
+            },
+            {
+              "title": "Monsoon",
+              "body": "July–August brings landslides and slippery roads.",
+              "status": "seasonal"
+            }
+          ],
+          "facts": [
+            "H1S1",
+            "H1S3",
+            "H1S4",
+            "H1S5",
+            "H1S2"
+          ]
+        },
+        "faqs": {
+          "items": [
+            {
+              "title": "When is Kullu Dussehra?",
+              "body": "Every October, for a week, at Dhalpur ground."
+            },
+            {
+              "title": "How far is Manali from Kullu?",
+              "body": "About 40 km up the Beas valley."
+            },
+            {
+              "title": "When can I raft in Kullu?",
+              "body": "March–May and September–November."
+            },
+            {
+              "title": "When does it snow?",
+              "body": "December to February is the chilliest period, with the best chance of snow."
+            },
+            {
+              "title": "What is the nearest railway station?",
+              "body": "Joginder Nagar (narrow gauge, 120 km); Kiratpur, on the Chandigarh road, is 200 km."
+            }
+          ],
+          "facts": [
+            "H1K22",
+            "H1K23",
+            "H1K20",
+            "H1K16",
+            "H1K19"
           ]
         }
       },
@@ -1822,6 +3036,38 @@
             "KS1",
             "KS3",
             "KS5"
+          ]
+        },
+        "food": {
+          "items": [
+            {
+              "body": "Israeli food in Kasol's cafés, many with menus in Hebrew."
+            },
+            {
+              "body": "At Manikaran, 4 km up the valley, rice is cooked in cloth bags dropped into the boiling hot springs."
+            }
+          ],
+          "facts": [
+            "H1A5",
+            "H1N1",
+            "H1N4"
+          ]
+        },
+        "local_transport": {
+          "text": "Buses run regularly along the Parvati valley road and taxis are easy to hire. Coming from Bhuntar, turn right for Kasol via Jari. For Kheerganga, take a local bus or a motorcycle on to Barshaini, where the walk starts.",
+          "facts": [
+            "H1A1",
+            "H1A8",
+            "H1A7"
+          ]
+        },
+        "where_to_stay": {
+          "text": "A bridge splits Kasol into an old and a new township, and both have a growing number of guesthouses, camps and hotels. Many travellers move on to the villages up the valley — Tosh, Kalga, Pulga and Chalal; Tosh is cheaper than Kasol.\n\nChoose stays registered with the Department of Tourism.",
+          "facts": [
+            "H1A2",
+            "H1A3",
+            "H1A4",
+            "H1S6"
           ]
         }
       },
@@ -1926,6 +3172,173 @@
           "facts": [
             "SP8",
             "HS21"
+          ]
+        },
+        "things_to_do": {
+          "items": [
+            {
+              "body": "Key Monastery. Spiti's largest monastery, on a hill 12 km from Kaza."
+            },
+            {
+              "body": "Tabo Monastery. Founded in 996 AD; nine temples, 23 chortens and old murals."
+            },
+            {
+              "body": "Dhankar. A monastery-fort on a cliff above the Spiti river, with a walk to Dhankar Lake."
+            },
+            {
+              "body": "The high villages. Langza's fossils and Buddha statue, Komic on one of the highest motorable roads, and Hikkim beyond."
+            },
+            {
+              "body": "Kibber and wildlife. Blue sheep are regularly seen; the land around Kibber is snow leopard country."
+            },
+            {
+              "body": "Chandra Taal. The crescent 'Lake of the Moon', a two-hour walk from Kunzum Pass; tents June–October."
+            },
+            {
+              "body": "Pin Valley. A national park of high trails, monasteries and the village of Mud."
+            }
+          ],
+          "facts": [
+            "H1P17",
+            "H1P1",
+            "H1P16",
+            "H1P2",
+            "H1P10",
+            "H1Y1",
+            "H1T1",
+            "H1D1",
+            "H1D2",
+            "H1V1",
+            "H1V2",
+            "H1C3"
+          ]
+        },
+        "food": {
+          "items": [
+            {
+              "body": "Mostly Tibetan food; small eateries also serve North Indian dishes."
+            },
+            {
+              "body": "Barley dishes such as thuktal and shunali."
+            },
+            {
+              "body": "Momos and thukpa, Tibetan-style."
+            },
+            {
+              "body": "Butter tea, and lemon, ginger and honey teas."
+            }
+          ],
+          "facts": [
+            "H1P3",
+            "H1P4"
+          ]
+        },
+        "who_its_for": {
+          "items": [
+            {
+              "title": "Road-trippers",
+              "body": "The Manali–Kaza and Shimla–Kinnaur roads, each a long day by bus or taxi."
+            },
+            {
+              "title": "Culture and monasteries",
+              "body": "Key, Tabo, Dhankar and Kungri, and Lossar's masked dances."
+            },
+            {
+              "title": "Wildlife",
+              "body": "Blue sheep, and snow leopard country around Kibber and Pin Valley."
+            },
+            {
+              "title": "Not for",
+              "body": "Anyone needing quick medical care or steady internet: facilities are limited and only BSNL works well."
+            }
+          ],
+          "facts": [
+            "H1P7",
+            "H1P18",
+            "H1P2",
+            "H1P6",
+            "H1P20"
+          ]
+        },
+        "local_transport": {
+          "text": "Spiti is reached only by road. State buses and private taxis run from Shimla and Manali — about 12 hours to Kaza. Manali–Kaza buses run from July to October; via Kinnaur, from May to October. A state bus also runs from Kaza to Kibber in summer.\n\nKaza has the valley's only fuel station, plus a bank and ATM — fill up and draw cash there.",
+          "facts": [
+            "H1P7",
+            "H1P21",
+            "H1P9",
+            "H1P5"
+          ]
+        },
+        "where_to_stay": {
+          "text": "Kaza, the main town, is the usual base, with the market, restaurants, bank and fuel. HPTDC's Hotel Spiti in Kaza opens from May to October and has a dormitory. At Chandra Taal, bedded tents are available from June to October.\n\nChoose stays registered with the Department of Tourism.",
+          "facts": [
+            "H1P5",
+            "H1P11",
+            "H1P10",
+            "H1S6"
+          ]
+        },
+        "safety_health": {
+          "items": [
+            {
+              "title": "Medical care",
+              "body": "Limited: a community health centre at Kaza, a primary health centre at Tabo and a dispensary at Kibber.",
+              "status": "verified"
+            },
+            {
+              "title": "Cold",
+              "body": "Pack woollens in every season; winter falls to −20°C.",
+              "status": "verified"
+            },
+            {
+              "title": "Treks",
+              "body": "Tell local authorities before high-altitude treks and hire registered guides.",
+              "status": "verified"
+            },
+            {
+              "title": "Emergency",
+              "body": "Police, Kaza: 01906-222253. Ambulance: 108.",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "H1P6",
+            "H1P14",
+            "H1P19",
+            "H1S8",
+            "H1P15",
+            "H1S1"
+          ]
+        },
+        "faqs": {
+          "items": [
+            {
+              "title": "Do I need a permit for Spiti?",
+              "body": "Indian citizens don't. Foreigners entering via the Shimla–Kinnaur route need an Inner Line Permit from Reckong Peo."
+            },
+            {
+              "title": "When is the road from Manali open?",
+              "body": "Regular Manali–Kaza buses run from July to October; via Kinnaur from May to October."
+            },
+            {
+              "title": "How long is the drive?",
+              "body": "About 12 hours to Kaza from Manali or Shimla."
+            },
+            {
+              "title": "Is there mobile signal?",
+              "body": "Only BSNL works well, and internet is slow."
+            },
+            {
+              "title": "Can I get cash and fuel?",
+              "body": "Yes, in Kaza: bank, ATM and a petrol-diesel station."
+            }
+          ],
+          "facts": [
+            "H1P8",
+            "H1P21",
+            "H1P7",
+            "H1P20",
+            "H1P5"
           ]
         }
       },

@@ -719,6 +719,34 @@ export const chatRequests = pgTable(
   (t) => [index("chat_requests_at_idx").on(t.at)],
 );
 
+/**
+ * The one conversation an anonymous visitor may have (they sign up to start another).
+ * Keyed by the hashed visitor key; written when their first question is answered.
+ */
+export const chatAnonThreads = pgTable("chat_anon_threads", {
+  visitor: text("visitor").primaryKey(),
+  chatId: uuid("chat_id").notNull(),
+  createdAt: timestamp("created_at", { withTimezone: true }).notNull().defaultNow(),
+});
+
+/**
+ * Finished chat answers, reused for 7 days when the same question comes in with
+ * the same trip memory and no earlier conversation. Never holds web-search answers.
+ */
+export const chatAnswerCache = pgTable(
+  "chat_answer_cache",
+  {
+    key: text("key").primaryKey(),
+    blocks: jsonb("blocks").notNull(),
+    summary: text("summary").notNull(),
+    memory: jsonb("memory"),
+    hits: integer("hits").notNull().default(0),
+    createdAt: timestamp("created_at", { withTimezone: true }).notNull().defaultNow(),
+    expiresAt: timestamp("expires_at", { withTimezone: true }).notNull(),
+  },
+  (t) => [index("chat_answer_cache_expires_idx").on(t.expiresAt)],
+);
+
 export const webResearchReview = pgEnum("web_research_review", ["new", "reviewed", "dismissed"]);
 
 /**

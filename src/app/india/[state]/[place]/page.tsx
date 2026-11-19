@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { cache } from "react";
 import { notFound, permanentRedirect } from "next/navigation";
 import { PlacePage } from "@/components/place/place-page";
-import { DestinationPageView } from "@/components/place/destination-page-view";
+import { DestinationTemplate, TEMPLATE_KINDS } from "@/components/place/destination-template";
 import { SLUG_RE } from "@/lib/places/slug";
 import { findInlinePlacement, findRedirect, getPublishedPlace, listInlineChildren, listPublishedChildren, listPublishedRelated } from "@/lib/places/repo";
 import { placeRollup } from "@/lib/places/rollup";
@@ -49,9 +49,6 @@ export async function generateMetadata({ params }: Params): Promise<Metadata> {
 /** A published destination guide. Only published snapshots are shown; anything else is a 404 (or a redirect for moved pages). */
 export default async function DestinationPage({ params }: Params) {
   const { state, place } = await params;
-  if (state === "himachal-pradesh" && place === "manali") {
-    return <DestinationPageView />;
-  }
   const p = await load(state, place);
   if (!p) {
     if (SLUG_RE.test(state) && SLUG_RE.test(place)) {
@@ -62,5 +59,7 @@ export default async function DestinationPage({ params }: Params) {
     notFound();
   }
   const [items, inline, related, rollup] = await Promise.all([listPublishedChildren(p.id), listInlineChildren(p.id), listPublishedRelated(p.id), placeRollup({ id: p.id, slug: p.snapshot.place.slug, kind: p.snapshot.place.kind }, state)]);
+  // Cities, towns and regions use the decision-first destination template; everything else keeps its own layout.
+  if (TEMPLATE_KINDS.includes(p.snapshot.place.kind)) return <DestinationTemplate snapshot={p.snapshot} inline={inline} related={related} stateSlug={state} rollup={rollup} />;
   return <PlacePage snapshot={p.snapshot} items={items} inline={inline} related={related} stateSlug={state} tripTypes={p.tripTypes} rollup={rollup} />;
 }

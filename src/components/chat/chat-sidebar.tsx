@@ -3,6 +3,8 @@
 import { travellerSignOutAction } from "@/app/account/actions";
 import { SIGNED_IN_EVENT, useMe } from "@/components/account/auth-panel";
 import { openAuth } from "@/lib/chat/client";
+import { useQuota } from "@/lib/chat/quota-client";
+import { quotaView, SIGN_UP_FOR_NEW_TRIP } from "@/lib/chat/quota-view";
 
 import Link from "next/link";
 import { useRouter } from "next/navigation";
@@ -37,31 +39,37 @@ export function ChatSidebar({ activeId, onNavigate }: { activeId: string | null;
   const chats = useChats();
   const hydrated = useHydrated();
   const router = useRouter();
+  const needsSignUp = quotaView(useQuota(), activeId).newTripNeedsSignUp;
 
   return (
     <aside className="sticky top-0 flex max-h-dvh flex-col gap-4 overflow-y-auto px-4 py-5">
       <div className="px-1 pt-1"><Logo /></div>
       <Link
         href={routes.chat}
-        onClick={onNavigate}
-        className="group flex items-center justify-center gap-2 rounded-full bg-ink px-4 py-2.5 text-[0.875rem] font-semibold text-white transition-colors hover:bg-black"
+        onClick={(e) => {
+          if (needsSignUp) {
+            e.preventDefault();
+            openAuth({ mode: "signup", message: SIGN_UP_FOR_NEW_TRIP });
+          }
+          onNavigate?.();
+        }}
+        className="flex h-10 items-center justify-center gap-2 rounded-full bg-ink px-4 text-[0.875rem] font-semibold text-white transition-colors hover:bg-black focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-ink"
       >
-        <Icon name="sparkles" size={16} className="text-coral transition-transform group-hover:rotate-12" />
+        <Icon name="arrowRight" size={15} className="-rotate-45" />
         New trip
       </Link>
 
       <nav aria-label="Chat history">
-        <h2 className="px-2 text-[0.6875rem] font-semibold uppercase tracking-[0.12em] text-[#999999]">Your trips</h2>
+        <h2 className="px-2 text-[0.8125rem] font-semibold text-ink">Your trips</h2>
         {hydrated && chats.length > 0 ? (
           groupChats(chats).map((g) => (
             <div key={g.label} className="mt-3">
-              <h3 className="px-2 text-[0.6875rem] font-medium text-[#999999]">{g.label}</h3>
+              <h3 className="px-2 text-[0.75rem] font-medium text-[#767676]">{g.label}</h3>
               <ul className="mt-1 space-y-0.5">
                 {g.items.map((c) => {
                   const on = c.id === activeId;
                   return (
-                    <li key={c.id} className={`group relative flex items-center rounded-xl transition-colors ${on ? "bg-[#F5F3EE]" : "hover:bg-[#FAF8F4]"}`}>
-                      {on ? <span aria-hidden className="absolute inset-y-2 left-0 w-[3px] rounded-full bg-coral" /> : null}
+                    <li key={c.id} className={`group relative flex items-center rounded-xl transition-colors ${on ? "bg-sand" : "hover:bg-[#F4F2ED]"}`}>
                       <Link
                         href={routes.chatThread(c.id)}
                         onClick={onNavigate}
@@ -69,19 +77,20 @@ export function ChatSidebar({ activeId, onNavigate }: { activeId: string | null;
                         title={c.title}
                         className="min-w-0 flex-1 px-2.5 py-2"
                       >
-                        <span className={`block truncate text-[0.8125rem] ${on ? "font-semibold text-ink" : "text-ink/90"}`}>{c.title}</span>
+                        <span className={`block truncate text-[0.875rem] ${on ? "font-semibold text-ink" : "text-[#333333]"}`}>{c.title}</span>
                       </Link>
                       <button
                         type="button"
                         aria-label={`Delete “${c.title}”`}
                         onClick={() => {
+                          if (!window.confirm(`Delete “${c.title}”? This can’t be undone.`)) return;
                           deleteChat(c.id);
                           if (on) {
                             onNavigate?.();
                             router.push(routes.chat);
                           }
                         }}
-                        className="mr-1 rounded-full p-1.5 text-[#999999] opacity-100 hover:bg-white hover:text-ink focus-visible:opacity-100 lg:opacity-0 lg:group-hover:opacity-100"
+                        className="mr-0.5 flex size-9 items-center justify-center rounded-full text-[#767676] opacity-100 hover:bg-white hover:text-ink focus-visible:opacity-100 lg:size-8 lg:opacity-0 lg:group-hover:opacity-100"
                       >
                         <Icon name="x" size={13} strokeWidth={2} />
                       </button>
@@ -97,7 +106,7 @@ export function ChatSidebar({ activeId, onNavigate }: { activeId: string | null;
       </nav>
 
       <AccountBox />
-      <p className="mt-2 flex items-center gap-1.5 px-2 text-[0.6875rem] leading-relaxed text-[#999999]"><Icon name="shield" size={12} className="shrink-0" />Trips are saved in this browser only.</p>
+      <p className="mt-2 flex items-center gap-1.5 px-2 text-[0.75rem] leading-relaxed text-[#767676]"><Icon name="shield" size={12} className="shrink-0" />Trips are saved in this browser only.</p>
     </aside>
   );
 }
@@ -107,7 +116,7 @@ function AccountBox() {
   if (!me) return <div className="mt-auto" />;
   if (me.traveller) {
     return (
-      <div className="mt-auto rounded-2xl border border-[#ECE9E2] bg-white px-3.5 py-2.5 text-[0.75rem]">
+      <div className="mt-auto rounded-2xl border border-line bg-white px-3.5 py-2.5 text-[0.8125rem]">
         <p className="truncate font-semibold text-ink">{me.traveller.name || me.traveller.email}</p>
         <form
           action={async () => {
@@ -115,14 +124,14 @@ function AccountBox() {
             window.dispatchEvent(new CustomEvent(SIGNED_IN_EVENT));
           }}
         >
-          <button type="submit" className="text-muted underline underline-offset-2 hover:text-ink">Sign out</button>
+          <button type="submit" className="text-[#666666] underline underline-offset-2 hover:text-ink">Sign out</button>
         </form>
       </div>
     );
   }
   return (
-    <button type="button" onClick={() => openAuth({ mode: "signin" })} className="mt-auto flex items-center gap-2 rounded-2xl border border-[#ECE9E2] bg-white px-3.5 py-2.5 text-left text-[0.75rem] font-semibold text-ink transition-colors hover:border-ink">
-      <Icon name="user" size={14} className="shrink-0 text-coral" />
+    <button type="button" onClick={() => openAuth({ mode: "signin" })} className="mt-auto flex min-h-11 items-center gap-2 rounded-2xl border border-line bg-white px-3.5 py-2.5 text-left text-[0.8125rem] font-semibold text-ink transition-colors hover:border-ink">
+      <Icon name="user" size={14} className="shrink-0 text-[#666666]" />
       Sign in or create a free account
     </button>
   );

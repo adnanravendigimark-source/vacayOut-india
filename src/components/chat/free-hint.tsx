@@ -1,24 +1,21 @@
 "use client";
 
-import { useEffect, useState } from "react";
-import { openAuth, QUOTA_EVENT } from "@/lib/chat/client";
+import { openAuth } from "@/lib/chat/client";
+import { useQuota } from "@/lib/chat/quota-client";
+import { quotaView } from "@/lib/chat/quota-view";
 
-/** "2 free questions left" — shown to visitors who aren't signed in, once they're running low. */
-export function FreeMessagesHint() {
-  const [left, setLeft] = useState<number | null>(null);
-  useEffect(() => {
-    const on = (e: Event) => setLeft((e as CustomEvent<{ freeLeft: number }>).detail.freeLeft);
-    window.addEventListener(QUOTA_EVENT, on);
-    return () => window.removeEventListener(QUOTA_EVENT, on);
-  }, []);
-  if (left === null || left > 3) return null;
+/** "3 of 5 free questions left · Sign up free" — under the message box, for visitors who aren't signed in. */
+export function FreeMessagesHint({ activeChatId = null }: { activeChatId?: string | null }) {
+  const v = quotaView(useQuota(), activeChatId);
+  // When the box is closed, the sign-up row above already says it.
+  if (!v.hint || v.locked) return null;
   return (
-    <p className="mt-2 text-center text-[0.75rem] text-ink/80" role="status">
-      {left === 0 ? "That was your last free question." : `${left} free question${left === 1 ? "" : "s"} left.`}{" "}
-      <button type="button" onClick={() => openAuth({ mode: "signup" })} className="font-semibold text-coral underline underline-offset-2">
+    <p className="mt-2 text-center text-[0.75rem] text-[#666666]" role="status" aria-live="polite">
+      <span className="tabular-nums">{v.hint}</span>
+      <span aria-hidden className="mx-1.5 text-[#BBBBBB]">·</span>
+      <button type="button" onClick={() => openAuth({ mode: "signup", ...(v.reason ? { message: v.reason } : {}) })} className="font-semibold text-[#B8432A] underline-offset-2 hover:underline">
         Sign up free
-      </button>{" "}
-      to keep planning.
+      </button>
     </p>
   );
 }

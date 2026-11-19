@@ -523,6 +523,61 @@
       "url": "https://en.wikipedia.org/wiki/Casinos_in_Goa",
       "title": "Casinos in Goa — Wikipedia",
       "authority": "reference"
+    },
+    "DT_GOIPJ": {
+      "url": "https://daytrip.com/en/transfers/dabolim-in/panaji-in",
+      "title": "Private transfer Dabolim to Panaji — Daytrip",
+      "authority": "travel_platform"
+    },
+    "DT_GOICD": {
+      "url": "https://daytrip.com/en/transfers/dabolim-in/candolim-in",
+      "title": "Private transfer Dabolim to Candolim — Daytrip",
+      "authority": "travel_platform"
+    },
+    "DT_PJCL": {
+      "url": "https://daytrip.com/en/transfers/panaji-in/calangute-in",
+      "title": "Private transfer Panaji to Calangute — Daytrip",
+      "authority": "travel_platform"
+    },
+    "DT_CDPJ": {
+      "url": "https://daytrip.com/en/transfers/candolim-in/panaji-in",
+      "title": "Private transfer Candolim to Panaji — Daytrip",
+      "authority": "travel_platform"
+    },
+    "DT_CLAN": {
+      "url": "https://daytrip.com/en/transfers/calangute-in/anjuna-in",
+      "title": "Private transfer Calangute to Anjuna — Daytrip",
+      "authority": "travel_platform"
+    },
+    "DT_CLVG": {
+      "url": "https://daytrip.com/en/transfers/calangute-in/vagator-in",
+      "title": "Private transfer Calangute to Vagator — Daytrip",
+      "authority": "travel_platform"
+    },
+    "DT_PJOG": {
+      "url": "https://daytrip.com/en/transfers/panaji-in/old-goa-in",
+      "title": "Private transfer Panaji to Old Goa — Daytrip",
+      "authority": "travel_platform"
+    },
+    "TGV_MOPA": {
+      "url": "https://www.thegoavilla.com/goa/distanation/mopa-airport.html",
+      "title": "Mopa Airport — The Goa Villa",
+      "authority": "travel_platform"
+    },
+    "GG_BJ": {
+      "url": "https://www.goa.gov.in/places/basilica-church-for-churches/",
+      "title": "Basilica of Bom Jesus — Government of Goa",
+      "authority": "government"
+    },
+    "GKP_DUD": {
+      "url": "https://goemkarponn.com/dudhsagar-circuit-reopens-post-monsoon-for-authorized-eco-tourism",
+      "title": "Dudhsagar circuit reopens post-monsoon — Goemkarponn",
+      "authority": "media"
+    },
+    "TJ_DUD": {
+      "url": "https://travjoy.com/blog/dudhsagar-falls-goa-a-complete-guide-for-discerning-travellers-from-the-jeep-safari-to-monsoon-rail-views",
+      "title": "Dudhsagar Falls, Goa: a complete guide — Travjoy",
+      "authority": "travel_platform"
     }
   },
   "facts": {
@@ -3836,6 +3891,145 @@
           "quote": "The bhajis served with pao are healthy, local preparations"
         }
       ]
+    },
+    "GOA_DTPJ": {
+      "place": "goa/panaji",
+      "topic": "Airport to Panaji and Candolim by car",
+      "claimType": "distance",
+      "claim": "By car, Dabolim airport is about 30 km (around 40 minutes) from Panaji and about 33 km (around 50 minutes) from Candolim.",
+      "evidence": [
+        {
+          "source": "DT_GOIPJ",
+          "quote": "Total distance ↔ 30 km Estimated time 40 min"
+        },
+        {
+          "source": "DT_GOICD",
+          "quote": "Total distance ↔ 33 km Estimated time 50 min"
+        }
+      ],
+      "kind": "estimate"
+    },
+    "GOA_DTNG": {
+      "place": "goa/calangute",
+      "topic": "North Goa drive times",
+      "claimType": "distance",
+      "claim": "By car, Panaji to Calangute is about 16 km (30 minutes) and Candolim to Panaji about 13 km (30 minutes); from Calangute, Anjuna is about 9 km and Vagator about 8 km, around 20 minutes each.",
+      "evidence": [
+        {
+          "source": "DT_PJCL",
+          "quote": "Total distance ↔ 16 km Estimated time 30 min"
+        },
+        {
+          "source": "DT_CDPJ",
+          "quote": "Total distance ↔ 13 km Estimated time 30 min"
+        },
+        {
+          "source": "DT_CLAN",
+          "quote": "Total distance ↔ 9 km Estimated time 20 min"
+        },
+        {
+          "source": "DT_CLVG",
+          "quote": "Total distance ↔ 8 km Estimated time 20 min"
+        }
+      ],
+      "kind": "estimate"
+    },
+    "GOA_DTOG": {
+      "place": "goa/old-goa",
+      "topic": "Panaji to Old Goa",
+      "claimType": "distance",
+      "claim": "Panaji to Old Goa is about 11 km by road, around 20 minutes.",
+      "evidence": [
+        {
+          "source": "DT_PJOG",
+          "quote": "Total distance ↔ 11 km Estimated time 20 min"
+        }
+      ],
+      "kind": "estimate"
+    },
+    "GOA_MOPA": {
+      "place": "goa",
+      "topic": "Mopa airport to the northern beaches",
+      "claimType": "distance",
+      "claim": "Mopa airport is about 30 km from Baga (around 40 minutes), 26.6 km from Arambol and 27.4 km from Vagator.",
+      "evidence": [
+        {
+          "source": "TGV_MOPA",
+          "quote": "Baga is 30.2 kilometers away and can be reached in around 40 minutes"
+        },
+        {
+          "source": "TGV_MOPA",
+          "quote": "Arambol - 26.6 kilometers"
+        },
+        {
+          "source": "TGV_MOPA",
+          "quote": "Vagator - 27.4 kilometers"
+        }
+      ],
+      "kind": "estimate"
+    },
+    "GOA_BJH": {
+      "place": "goa/basilica-of-bom-jesus",
+      "topic": "Basilica opening hours",
+      "claimType": "opening_hours",
+      "claim": "The Goa government lists the Basilica of Bom Jesus open 9 am–6:30 pm on weekdays and 10:30 am–6:30 pm on Sundays.",
+      "evidence": [
+        {
+          "source": "GG_BJ",
+          "quote": "Sunday: 10.30 to 18.30 hrs"
+        },
+        {
+          "source": "GG_BJ",
+          "quote": "Weekdays: 9.00 to 18.30 hrs"
+        }
+      ]
+    },
+    "GOA_DDJ": {
+      "place": "goa/dudhsagar-falls",
+      "topic": "Dudhsagar jeep circuit: season, gate and booking",
+      "claimType": "rule",
+      "claim": "From early October to late May the only way in is a Forest Department-registered jeep from Kulem (Collem) on a 10–12 km forest track; the circuit closes from June to September. Seats are booked on the GTDC portal, and the Collem gate opens 8 am–3 pm, sending batches of 30–40 visitors at hourly intervals.",
+      "evidence": [
+        {
+          "source": "TJ_DUD",
+          "quote": "Between early October and late May, the only way in is a Forest Department-registered jeep from Kulem, on a 10-12 km forest track"
+        },
+        {
+          "source": "TJ_DUD",
+          "quote": "from June to September the circuit closes"
+        },
+        {
+          "source": "GKP_DUD",
+          "quote": "online bookings on the Goa Tourism Development Corporation (GTDC) portal"
+        },
+        {
+          "source": "GKP_DUD",
+          "quote": "The entry gate at Collem will remain open from 8:00 AM to 3:00 PM, allowing batches of 30-40 visitors at hourly intervals"
+        }
+      ],
+      "kind": "seasonal",
+      "conflictNote": "Gate hours are from the 2025–26 season notice; the Forest Department confirms dates and timings each season."
+    },
+    "GOA_DDT": {
+      "place": "goa/dudhsagar-falls",
+      "topic": "Dudhsagar day timings",
+      "claimType": "schedule",
+      "claim": "Kulem is about 2–2.5 hours by road from North Goa and an hour from Margao; the jeep takes 45–60 minutes each way and allows about 90 minutes at the pool, so plan on 8–10 hours door to door.",
+      "evidence": [
+        {
+          "source": "TJ_DUD",
+          "quote": "about 2 to 2.5 hours by road from North Goa and an hour from Margao"
+        },
+        {
+          "source": "TJ_DUD",
+          "quote": "which takes 45 to 60 minutes each way"
+        },
+        {
+          "source": "TJ_DUD",
+          "quote": "plan for 8 to 10 hours door to door"
+        }
+      ],
+      "kind": "estimate"
     }
   },
   "places": [
@@ -7710,183 +7904,293 @@
       "place": "goa",
       "slug": "goa-4-days",
       "title": "Goa in 4 days",
-      "summary": "North Goa beaches and Fort Aguada, Panaji and the UNESCO churches of Old Goa, a day inland at Dudhsagar, and a slow last day by the sea.",
+      "summary": "Four days from a North Goa base: Fort Aguada and the Candolim–Calangute beaches, Old Goa's UNESCO churches and Panaji, a jeep day to Dudhsagar Falls, then Anjuna, Chapora and Vagator.",
       "durationDays": 4,
       "tripTypes": [
         "beaches",
         "heritage",
-        "food"
+        "nature"
       ],
       "seoTitle": "4-Day Goa Itinerary: Beaches, Old Goa & Dudhsagar",
-      "seoDescription": "A realistic 4-day Goa plan: Calangute and Anjuna, Fort Aguada at sunset, Panaji's Fontainhas, Old Goa's UNESCO churches and a day trip to Dudhsagar Falls.",
+      "seoDescription": "A realistic 4-day Goa plan from a Calangute base: Fort Aguada, Old Goa's UNESCO churches and Panaji, the Dudhsagar jeep safari, and Anjuna to Vagator.",
+      "facts": [
+        "GOA_DTPJ",
+        "GOA_DTNG",
+        "GOA_DTOG",
+        "GOA_MOPA",
+        "GOA_BJH",
+        "GOA_DDJ",
+        "GOA_DDT",
+        "CA1",
+        "CA2",
+        "CA3",
+        "CD1",
+        "CD2",
+        "WS1",
+        "WS2",
+        "BJ2",
+        "OG1",
+        "OG3",
+        "PJ2",
+        "PJ5",
+        "PJ4",
+        "DU1",
+        "DU2",
+        "AN3",
+        "MK1",
+        "CF1",
+        "CF5",
+        "VG1",
+        "GO9",
+        "GO10",
+        "FD2",
+        "FD3",
+        "FD5",
+        "GS37",
+        "GS20",
+        "GS21",
+        "GS22",
+        "GS25",
+        "GS18",
+        "GS19",
+        "GO6",
+        "GS26",
+        "GS12",
+        "MP1",
+        "MK2",
+        "MJ1",
+        "MJ2",
+        "GS41",
+        "GO7",
+        "GO13",
+        "PL1"
+      ],
+      "sources": [],
       "plan": {
-        "overview": "This plan bases you in North Goa for days 1–3 and keeps Dudhsagar for a full day inland. Travel times are estimates — Goa's roads are slow in peak season.",
+        "overview": "Stay all four nights around Candolim–Calangute so you never repack. Panaji is about 16 km (30 minutes) away and Old Goa 11 km beyond it. Day 3 is a long jeep day to Dudhsagar, which only runs from early October to late May — plan 8–10 hours door to door. Mopa airport is closer to these beaches than Dabolim.",
+        "style": "Beaches, heritage and one forest day",
+        "start": "Candolim–Calangute",
+        "end": "Candolim–Calangute",
+        "season": "October–March for the beaches; the Dudhsagar jeep circuit runs early October–late May",
+        "difficulty": "Easy, with one long day",
+        "transport": "GoaMiles cabs or white tourist taxis; a scooter for the beach days. Dudhsagar needs a car to Kulem and a Forest Department jeep from there.",
         "days": [
           {
-            "title": "North Goa beaches",
+            "title": "Fort Aguada and the Candolim–Calangute strip",
+            "summary": "Arrive, settle in, and spend the afternoon on the long beach that runs from Sinquerim to Baga, ending at Fort Aguada.",
             "stops": [
               {
-                "time": "Morning",
-                "name": "Calangute Beach",
-                "placeSlug": "calangute-beach",
-                "duration": "3 hours"
-              },
-              {
-                "time": "Midday",
-                "name": "Seafood lunch at a beach shack",
-                "duration": "1.5 hours"
-              },
-              {
                 "time": "Afternoon",
-                "name": "Rest",
-                "duration": "2 hours"
+                "name": "Candolim beach",
+                "placeSlug": "candolim",
+                "duration": "2 hours",
+                "note": "Parasailing runs here; agree prices before you start."
               },
               {
                 "time": "Late afternoon",
-                "name": "Fort Aguada at sunset",
+                "name": "Fort Aguada",
                 "placeSlug": "fort-aguada",
-                "duration": "1.5 hours"
+                "duration": "1.5 hours",
+                "note": "Above Sinquerim, at the south end of the beach that runs north to Baga."
+              },
+              {
+                "time": "Evening",
+                "name": "Calangute beach shacks",
+                "placeSlug": "calangute-beach",
+                "duration": "2 hours",
+                "note": "Seafood and fish curry rice; music in the shacks after dark."
               }
             ],
-            "overnight": "North Goa"
+            "overnight": "Candolim or Calangute",
+            "distanceKm": 33,
+            "distance": "About 30 km from Mopa to Baga, or 33 km from Dabolim to Candolim",
+            "driveTime": "About 40 minutes from Mopa or 50 minutes from Dabolim",
+            "transport": "Taxi or GoaMiles cab from the airport",
+            "meals": "Fish curry rice or seafood at a Calangute shack.",
+            "logistics": "Swim only between the red-and-yellow flags, and not after sunset."
           },
           {
-            "title": "Panaji and Old Goa",
+            "title": "Old Goa and Panaji",
+            "summary": "The UNESCO churches of Old Goa in the morning, then Panaji's Latin quarter and a sunset at Miramar.",
             "stops": [
               {
                 "time": "Morning",
-                "name": "Basilica of Bom Jesus and the Se Cathedral",
+                "name": "Basilica of Bom Jesus",
                 "placeSlug": "basilica-of-bom-jesus",
-                "duration": "2.5 hours"
+                "duration": "1 hour",
+                "note": "Opens 9 am on weekdays, 10:30 am on Sundays; holds the remains of St Francis Xavier."
               },
               {
                 "time": "Late morning",
-                "name": "Church of St Francis of Assisi and the Archaeological Museum",
+                "name": "Se Cathedral, St Francis of Assisi and the Archaeological Museum",
                 "placeSlug": "old-goa",
-                "duration": "1.5 hours"
+                "duration": "2 hours"
               },
               {
                 "time": "Afternoon",
                 "name": "Fontainhas and the Immaculate Conception church",
                 "placeSlug": "panaji",
-                "duration": "2 hours"
+                "duration": "2 hours",
+                "note": "The church's double staircase was added in 1871."
               },
               {
                 "time": "Evening",
-                "name": "Miramar or Dona Paula",
+                "name": "Miramar beach",
                 "placeSlug": "panaji",
-                "duration": "1.5 hours"
+                "duration": "1 hour",
+                "note": "3 km from Panaji at the mouth of the Mandovi."
               }
             ],
-            "overnight": "North Goa or Panaji"
+            "overnight": "Candolim or Calangute",
+            "distanceKm": 55,
+            "distance": "About 16 km to Panaji and 11 km on to Old Goa, then back the same way",
+            "driveTime": "About 30 minutes to Panaji and 20 minutes to Old Goa — around 1 hour 40 minutes at the wheel in all",
+            "transport": "Taxi for the day, or scooter",
+            "meals": "A Goan thali or bhaji with pao in Panaji; try bebinca, the layered Goan sweet.",
+            "logistics": "Old Goa's UNESCO monuments are free; dress modestly in the churches. Start early — there is little shade."
           },
           {
-            "title": "Dudhsagar and the Western Ghats",
+            "title": "Dudhsagar Falls by jeep",
+            "summary": "A long day inland: drive to Kulem (Collem) on the edge of Bhagwan Mahavir Sanctuary, then a Forest Department jeep through the forest to the base of the 310-metre falls.",
             "stops": [
               {
-                "time": "Early morning",
-                "name": "Drive inland",
-                "duration": "About 60 km from Panaji (estimate: 2 hours)"
+                "time": "6:00 am",
+                "name": "Leave the coast for Kulem (Collem)",
+                "duration": "2–2.5 hours",
+                "note": "Kulem is about 60 km beyond Panaji."
               },
               {
                 "time": "Morning",
-                "name": "Dudhsagar Falls",
+                "name": "Forest Department jeep to the falls",
                 "placeSlug": "dudhsagar-falls",
-                "duration": "3–4 hours",
-                "note": "Check locally whether the falls are open."
+                "duration": "45–60 minutes each way",
+                "note": "Gate open 8 am–3 pm; batches leave hourly. Book on the GTDC portal."
+              },
+              {
+                "time": "Late morning",
+                "name": "Dudhsagar Falls base pool",
+                "placeSlug": "dudhsagar-falls",
+                "duration": "About 90 minutes"
               },
               {
                 "time": "Afternoon",
-                "name": "Tambdi Surla temple",
-                "placeSlug": "dudhsagar-falls",
-                "duration": "1 hour"
-              },
-              {
-                "time": "Evening",
-                "name": "Return to the coast",
-                "duration": "2 hours (estimate)"
+                "name": "Drive back to the coast",
+                "duration": "2–2.5 hours"
               }
             ],
-            "overnight": "North Goa"
+            "overnight": "Candolim or Calangute",
+            "distanceKm": 150,
+            "distance": "About 75 km each way to Kulem (16 km to Panaji, then about 60 km), plus a 10–12 km jeep track each way",
+            "driveTime": "About 2–2.5 hours each way by road and 45–60 minutes each way by jeep — plan 8–10 hours door to door",
+            "transport": "Car and driver to Kulem; registered jeep from Kulem (private vehicles are not allowed in)",
+            "meals": "Eat before the early start and carry water and snacks; back on the coast, a Goan dinner — vindaloo, cafreal or xacuti.",
+            "logistics": "The jeep circuit runs early October to late May only. From June to September, swap this day for Panaji's riverfront or the Ponda temples."
           },
           {
-            "title": "Anjuna and a slow last day",
+            "title": "Anjuna, Chapora and Vagator",
+            "summary": "The rocky cove at Anjuna (and its flea market on a Wednesday), Chapora Fort above Vagator, then a slow last afternoon before you fly.",
             "stops": [
               {
                 "time": "Morning",
-                "name": "Anjuna Beach (and the flea market if it is a Wednesday)",
+                "name": "Anjuna beach — and the flea market if it is Wednesday",
                 "placeSlug": "anjuna-beach",
-                "duration": "3 hours"
+                "duration": "2.5 hours",
+                "note": "The Wednesday market runs about 10 am–4 pm."
               },
               {
-                "time": "Afternoon",
+                "time": "Late morning",
                 "name": "Chapora Fort",
-                "placeSlug": "anjuna-beach",
-                "duration": "1 hour"
+                "placeSlug": "chapora-fort",
+                "duration": "1 hour",
+                "note": "A steep track up to a narrow gate; views over Vagator and the Chapora river."
+              },
+              {
+                "time": "Afternoon",
+                "name": "Vagator beach",
+                "placeSlug": "vagator",
+                "duration": "2 hours"
               },
               {
                 "time": "Evening",
-                "name": "Goan dinner — try vindaloo, cafreal or xacuti",
-                "duration": "2 hours"
+                "name": "Leave for the airport",
+                "note": "Mopa is about 27 km from Vagator; Dabolim is on the far side of Panaji."
               }
             ],
-            "overnight": "North Goa"
+            "overnight": "—",
+            "distanceKm": 45,
+            "distance": "About 9 km from Calangute to Anjuna; Vagator is 8 km from Calangute; Mopa about 27 km from Vagator",
+            "driveTime": "About 20 minutes from Calangute to Anjuna or Vagator",
+            "transport": "Scooter or taxi; taxi to the airport",
+            "meals": "Snacks at the flea market; sol kadi after a fish lunch.",
+            "logistics": "Keep off wet rocks at Anjuna and below Chapora."
           }
         ],
         "budget": {
-          "assumptions": "Entry fees for Fort Aguada, Dudhsagar and the Old Goa museums couldn't be confirmed from an official page during research — check before you go. Transport, hotels and meals are not estimated.",
+          "assumptions": "Only published prices are listed. Hotel, taxi, meal and Dudhsagar jeep and entry fees aren't estimated — check the GTDC portal and current rates.",
           "lines": [
             {
-              "label": "Old Goa churches",
-              "amount": "Check locally",
-              "basis": "Not estimated"
+              "label": "UNESCO churches of Old Goa",
+              "amount": "Free",
+              "basis": "GTDC"
             },
             {
-              "label": "Fort Aguada, Dudhsagar access, Archaeological Museum",
-              "amount": "Check current fees",
-              "basis": "Not estimated"
+              "label": "Scooter hire",
+              "amount": "About ₹200–500 a day (geared bikes ₹400–1,000)",
+              "basis": "GTDC listing, may be dated — check locally"
+            },
+            {
+              "label": "Dudhsagar jeep and forest entry",
+              "amount": "Check current rates",
+              "basis": "Set each season; book on the GTDC portal"
             }
           ]
         },
         "booking": [
           {
-            "item": "Flights and rooms",
-            "detail": "Book well ahead for October to January, Goa's peak season."
+            "item": "Dudhsagar jeep",
+            "detail": "Book on the GTDC portal before you go; trips are capped each day."
           },
           {
-            "item": "Dudhsagar",
-            "detail": "Confirm locally that the falls are open and how visits are arranged."
+            "item": "Flights and rooms",
+            "detail": "Book well ahead for October to January; December and January are the busiest."
           }
         ],
         "alternatives": [
-          "Swap day 4 for a day in quieter South Goa at Palolem.",
-          "In the monsoon (June–September), skip the beach days for Dudhsagar and Goa's green interior."
+          "June–September brings over 90% of Goa's rain: the Dudhsagar jeep circuit is closed and the sea is unsafe, so do Old Goa, Panaji and the Ponda temples instead.",
+          "Not a Wednesday? Go to Mapusa's Friday market or one of the Saturday night markets at Arpora or Baga instead.",
+          "Prefer quiet beaches? Swap Day 4 for Morjim, Ashwem and Mandrem across the Chapora river.",
+          "Want a quieter beach? Palolem in the far south, a crescent bay about 1.6 km long, is more than 70 km from Panaji — better as an overnight than a day trip."
         ],
         "tips": [
-          "Hire a scooter or taxi — public transport between beaches is limited.",
-          "Wednesday is flea-market day at Anjuna."
+          "Agree taxi fares before you set off, or book on GoaMiles.",
+          "Carry a government photo ID for the Dudhsagar jeep.",
+          "Dress modestly in churches and temples."
+        ],
+        "prep": [
+          {
+            "title": "Beach safety",
+            "body": "Swim only between the red-and-yellow flags watched by lifesavers, never after sunset or after drinking, and never in the June–September monsoon. Drinking on beaches is banned."
+          },
+          {
+            "title": "Dudhsagar day",
+            "body": "Leave by 6 am: Kulem is 2–2.5 hours from North Goa, the gate shuts at 3 pm and the whole day runs 8–10 hours. Private cars and two-wheelers stop at the gate."
+          }
+        ],
+        "faqs": [
+          {
+            "q": "Can I visit Dudhsagar in the monsoon?",
+            "a": "Not by jeep — the circuit closes from June to September. The falls are fullest then, but the jeep route only runs from early October to late May."
+          },
+          {
+            "q": "Which airport is better for this trip?",
+            "a": "Mopa: it is about 30 km (40 minutes) from Baga. Dabolim is about 33 km (50 minutes) from Candolim."
+          },
+          {
+            "q": "Do Old Goa's churches charge entry?",
+            "a": "No — the UNESCO monuments are free to enter."
+          }
         ]
-      },
-      "facts": [
-        "CA1",
-        "CA2",
-        "AG3",
-        "BJ2",
-        "SE1",
-        "OG3",
-        "PJ5",
-        "PJ2",
-        "PJ4",
-        "DU2",
-        "DU4",
-        "AN3",
-        "AN4",
-        "GO10",
-        "GO6",
-        "GO13",
-        "GO7"
-      ],
-      "sources": []
+      }
     }
   ]
 }

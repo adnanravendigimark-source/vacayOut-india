@@ -82,3 +82,19 @@ export async function hit(key: string, limit: number, windowSeconds: number, opt
   const ok = consume ? count <= limit : count < limit;
   return { ok, count, limit, retryAfterSeconds };
 }
+
+/**
+ * Gives back one event counted by `hit` in the same window (used when a
+ * reserved question ended without a real answer). Never goes below zero.
+ */
+export async function release(key: string, windowSeconds: number, opts: { now?: number } = {}): Promise<void> {
+  const now = opts.now ?? Date.now();
+  const ws = windowStart(windowSeconds, now);
+  const redisKey = `vo:${key}:${ws}`;
+  // DECR then clamp at 0, in one round trip.
+  const r = await upstash([["EVAL", "local v = redis.call('DECR', KEYS[1]) if v < 0 then redis.call('SET', KEYS[1], 0, 'KEEPTTL') return 0 end return v", 1, redisKey]]);
+  if (r) return;
+  await getDb().execute(
+    sql`update usage_counters set count = greatest(count - 1, 0) where key = ${key} and window_start = ${new Date(ws * 1000)}`,
+  );
+}

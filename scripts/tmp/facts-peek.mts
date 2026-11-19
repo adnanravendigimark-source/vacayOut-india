@@ -1,0 +1,10 @@
+import { sql } from "drizzle-orm";
+import { getDb } from "@/lib/db";
+const db = getDb();
+const r = await db.execute(sql`select sd.name, sd.kind, pv.snapshot from search_documents sd join places p on p.id=sd.place_id and p.status='published' and p.published_version_id=sd.version_id join place_versions pv on pv.id=sd.version_id where lower(sd.name)='manali' limit 1`);
+const snap = (r.rows[0] as any).snapshot;
+console.log(Object.keys(snap.place));
+for (const s of snap.sections) console.log(s.key, JSON.stringify(s.body).slice(0, 220));
+const c = await db.execute(sql`select sd.kind, count(*) from search_documents sd join places p on p.id=sd.place_id and p.status='published' and p.published_version_id=sd.version_id group by 1`);
+console.log(c.rows);
+process.exit(0);

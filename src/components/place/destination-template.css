@@ -1,0 +1,18 @@
+/* Destination template (city / town / region). Tokens come from globals.css (@theme); see DESIGN.md. */
+.dt-frame { border-radius: 28px; }
+.dt-frame__img { animation: dt-settle 2.4s cubic-bezier(.16, 1, .3, 1) both; }
+@keyframes dt-settle { from { transform: scale(1.04); } to { transform: none; } }
+.dt-veil { background: linear-gradient(180deg, rgba(20, 20, 20, 0.18) 0%, rgba(20, 20, 20, 0) 30%, rgba(20, 20, 20, 0.08) 55%, rgba(20, 20, 20, 0.62) 100%); }
+@media (max-width: 639px) {
+  .dt-veil { background: linear-gradient(180deg, rgba(20, 20, 20, 0.25) 0%, rgba(20, 20, 20, 0.35) 35%, rgba(20, 20, 20, 0.72) 100%); }
+}
+.dt-name { text-shadow: 0 2px 24px rgba(0, 0, 0, 0.28); overflow-wrap: break-word; min-width: 0; }
+.dt-card { transition: transform .3s cubic-bezier(.16, 1, .3, 1), box-shadow .3s ease; }
+.dt-card:hover { transform: translateY(-3px); box-shadow: var(--shadow-card-hover); }
+.dt-card:target, .dt-card:has(:target) { box-shadow: 0 0 0 2px var(--color-coral); }
+.dt-chip { transition: color .2s ease, border-color .2s ease, background-color .2s ease; }
+.dt-more > summary::-webkit-details-marker, .dt-faq > summary::-webkit-details-marker { display: none; }
+@media (prefers-reduced-motion: reduce) {
+  .dt-frame__img { animation: none; }
+  .dt-card, .dt-card:hover { transition: none; transform: none; }
+}

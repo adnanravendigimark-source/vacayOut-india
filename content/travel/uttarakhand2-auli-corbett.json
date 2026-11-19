@@ -1,0 +1,802 @@
+{
+ "cluster": "uttarakhand2-auli-corbett",
+ "title": "Auli and Jim Corbett (Batch 7)",
+ "researchedAt": "2026-11-18",
+ "selection": "Batch 7. Auli and Jim Corbett each had 4 sections. Adds who it's for, best time, practical info, safety (Auli), things to do (Corbett), FAQs and mistakes; fuller overviews as pending suggestions. Conflicts left out: Auli's height (2,800 m on Incredible India vs the 2,500–3,050 m range in AU1) and Shankaracharya's math 'just 6 km away'; Corbett's total reserve area (1,318.54 vs 1,288.31 sq km) and bird count (600+ vs 580); MUS_COR carries a conflict and is not used.",
+ "sources": {
+  "II_AULI": {
+   "url": "https://www.incredibleindia.gov.in/en/uttarakhand/badrinath/auli",
+   "title": "Auli — Incredible India",
+   "authority": "government"
+  },
+  "II_NTADV": {
+   "url": "https://www.incredibleindia.gov.in/en/uttarakhand/nainital/10-adventure-experiences-in-nainital",
+   "title": "10 adventure experiences in Nainital — Incredible India",
+   "authority": "government"
+  },
+  "II_CHH": {
+   "url": "https://www.incredibleindia.gov.in/en/rural-tourism/chhoti-haldwani",
+   "title": "Chhoti Haldwani — Incredible India",
+   "authority": "government"
+  },
+  "II_NTIT": {
+   "url": "https://www.incredibleindia.gov.in/en/uttarakhand/nainital/nainital-itinerary-how-to-spend",
+   "title": "Nainital itinerary — Incredible India",
+   "authority": "government"
+  },
+  "CHM_AULI": {
+   "url": "https://chamoli.gov.in/tourist-place/auli/",
+   "title": "Auli — District Chamoli, Government of Uttarakhand",
+   "authority": "government"
+  },
+  "W_AULI": {
+   "url": "https://en.wikipedia.org/wiki/Auli,_India",
+   "title": "Auli, India — Wikipedia",
+   "authority": "reference"
+  },
+  "W_JOSH": {
+   "url": "https://en.wikipedia.org/wiki/Joshimath",
+   "title": "Joshimath — Wikipedia",
+   "authority": "reference"
+  },
+  "W_JC": {
+   "url": "https://en.wikipedia.org/wiki/Jim_Corbett_National_Park",
+   "title": "Jim Corbett National Park — Wikipedia",
+   "authority": "reference"
+  },
+  "CTR": {
+   "url": "https://corbettgov.org/",
+   "title": "Corbett Tiger Reserve — official website (Uttarakhand Forest Department)",
+   "authority": "government"
+  },
+  "W_PANT": {
+   "url": "https://en.wikipedia.org/wiki/Pantnagar_Airport",
+   "title": "Pantnagar Airport — Wikipedia",
+   "authority": "reference"
+  },
+  "ALM_HTR": {
+   "url": "https://almora.nic.in/how-to-reach/",
+   "title": "How to reach — District Almora, Government of Uttarakhand",
+   "authority": "government"
+  },
+  "WTI_COR": {
+   "url": "https://www.waytoindia.com/travel-guide/uttarakhand/jim-corbett",
+   "title": "Jim Corbett travel guide — WayToIndia",
+   "authority": "travel_platform"
+  }
+ },
+ "facts": {
+  "BAU1": {
+   "place": "uttarakhand/auli",
+   "topic": "Ski slopes",
+   "claim": "Auli's meadows run from 2,500 to 3,050 m; its 3-km run with a 500-m drop is India's best-known ski slope, usually under deep snow from January to March.",
+   "claimType": "general",
+   "evidence": [
+    {
+     "source": "CHM_AULI",
+     "quote": "It is located at an elevation of 2,500 meters (8,200 ft) to 3,050 meters (10,010 ft) above sea level."
+    },
+    {
+     "source": "CHM_AULI",
+     "quote": "In Auli the stretch of 3 Kms. with a drop in elevation of 500 mts. is considered to be a very good skiing ground by international standard."
+    },
+    {
+     "source": "CHM_AULI",
+     "quote": "From January to March, the Auli slopes are usually covered with a thick carpet of snow, about 3 mts deep."
+    }
+   ],
+   "kind": "seasonal"
+  },
+  "BAU2": {
+   "place": "uttarakhand/auli",
+   "topic": "Ski season",
+   "claim": "The ski slopes are busiest from late November to March.",
+   "claimType": "general",
+   "evidence": [
+    {
+     "source": "II_AULI",
+     "quote": "From late November to March, the slopes bustle with tourists from across the country and world."
+    }
+   ],
+   "kind": "seasonal"
+  },
+  "BAU3": {
+   "place": "uttarakhand/auli",
+   "topic": "Views and treks",
+   "claim": "Auli looks out on Nanda Devi, Kamet and Dunagiri, and is the start of the Kuari Pass trek and walks to Gorson Bugyal.",
+   "claimType": "general",
+   "evidence": [
+    {
+     "source": "II_AULI",
+     "quote": "Auli offers unparalleled vistas of Nanda Devi, the country’s second-highest peak"
+    },
+    {
+     "source": "CHM_AULI",
+     "quote": "Nanda Devi, Kamet and Dunagiri"
+    },
+    {
+     "source": "II_AULI",
+     "quote": "with popular routes like the Kuari Pass Trek and Gorson bugyal"
+    }
+   ]
+  },
+  "BAU4": {
+   "place": "uttarakhand/auli",
+   "topic": "The resort",
+   "claim": "GMVN, the state tourism corporation, runs the resort and hosts winter sports events; Auli hosted the first South Asian Winter Games in 2011.",
+   "claimType": "general",
+   "evidence": [
+    {
+     "source": "W_AULI",
+     "quote": "The Garhwal Mandal Vikas Nigam Limited (GMVNL) a state government agency which takes care of this resort"
+    },
+    {
+     "source": "W_AULI",
+     "quote": "Auli hosted the inaugural South Asian Winter Games in 2011"
+    }
+   ]
+  },
+  "BAU5": {
+   "place": "uttarakhand/auli",
+   "topic": "Getting there",
+   "claim": "Auli is 16 km above Joshimath; the district also lists a ropeway from Joshimath. Rishikesh is 253 km by road and Jolly Grant airport about 279 km.",
+   "claimType": "distance",
+   "evidence": [
+    {
+     "source": "CHM_AULI",
+     "quote": "Auli is only 16 km away from Joshimath."
+    },
+    {
+     "source": "CHM_AULI",
+     "quote": "Auli can be reached by road or ropeway from Joshimath"
+    },
+    {
+     "source": "CHM_AULI",
+     "quote": "Joshimath and Rishikesh (253 km)"
+    },
+    {
+     "source": "CHM_AULI",
+     "quote": "which is about 279 km from Auli"
+    }
+   ],
+   "kind": "estimate"
+  },
+  "BAU6": {
+   "place": "uttarakhand/auli",
+   "topic": "Joshimath",
+   "claim": "Joshimath, the base town below Auli and the gateway to Badrinath, is sinking along its ridge after the 2021 floods — check local advisories before you go.",
+   "claimType": "general",
+   "evidence": [
+    {
+     "source": "W_JOSH",
+     "quote": "it is a gateway to several Himalayan mountain climbing expeditions, trekking trails and pilgrim centres like Badrinath"
+    },
+    {
+     "source": "W_JOSH",
+     "quote": "The town is confirmed to be sinking due to its geographic location being along a running ridge."
+    }
+   ]
+  },
+  "BJC1": {
+   "place": "uttarakhand/jim-corbett",
+   "topic": "India's first national park",
+   "claim": "Corbett, set up in 1936 as India's first national park and the first under Project Tiger, covers 520.8 sq km of hills, river belts and grassland; Ramnagar is the nearest town.",
+   "claimType": "general",
+   "evidence": [
+    {
+     "source": "W_JC",
+     "quote": "It was established in 1936 as the country's first national park"
+    },
+    {
+     "source": "W_JC",
+     "quote": "It was the first to come under the Project Tiger initiative"
+    },
+    {
+     "source": "W_JC",
+     "quote": "encompasses an area of 520.8"
+    },
+    {
+     "source": "W_JC",
+     "quote": "Nearest city Ramnagar"
+    }
+   ]
+  },
+  "BJC2": {
+   "place": "uttarakhand/jim-corbett",
+   "topic": "Wildlife",
+   "claim": "The park holds 50 mammal, 580 bird and 25 reptile species, in forest dominated by sal.",
+   "claimType": "general",
+   "evidence": [
+    {
+     "source": "W_JC",
+     "quote": "It harbours 50 mammal species, 580 bird species and 25 reptile species."
+    },
+    {
+     "source": "W_JC",
+     "quote": "Almost 73% of the national park is covered by dense moist deciduous forest dominated by Shorea robusta"
+    }
+   ]
+  },
+  "BJC3": {
+   "place": "uttarakhand/jim-corbett",
+   "topic": "Dhikala",
+   "claim": "Dhikala, with its old forest rest house, looks over the Patli Dun valley.",
+   "claimType": "general",
+   "evidence": [
+    {
+     "source": "W_JC",
+     "quote": "Dhikala is situated at the fringes of Patli Dun valley."
+    },
+    {
+     "source": "W_JC",
+     "quote": "There is a rest house, which was built hundreds of years ago."
+    }
+   ]
+  },
+  "BJC4": {
+   "place": "uttarakhand/jim-corbett",
+   "topic": "When to go",
+   "claim": "The main tourist season has traditionally run from 15 November to 15 June; the late dry season, April to mid-June, gives the best chance of a tiger.",
+   "claimType": "general",
+   "evidence": [
+    {
+     "source": "W_JC",
+     "quote": "during the main tourist seasons between 15 November and 15 June"
+    },
+    {
+     "source": "W_JC",
+     "quote": "Best chances of seeing a tiger to come late in the dry season- April to mid-June"
+    }
+   ],
+   "kind": "seasonal"
+  },
+  "BJC5": {
+   "place": "uttarakhand/jim-corbett",
+   "topic": "Booking",
+   "claim": "Book safaris and forest stays only on corbettgov.org; foreigners can book stays 90 days ahead, and same-day online booking closes at 6:30 am for the morning safari and 4 pm for the afternoon.",
+   "claimType": "rule",
+   "evidence": [
+    {
+     "source": "CTR",
+     "quote": "The foreigner booking for stay is open 90 days in advance."
+    },
+    {
+     "source": "CTR",
+     "quote": "For the visit date, the last time for online booking for the morning session is 6:30 AM, and the last time for online booking for the afternoon session is 4:00 PM."
+    }
+   ],
+   "kind": "seasonal"
+  },
+  "BJC6": {
+   "place": "uttarakhand/jim-corbett",
+   "topic": "Getting there",
+   "claim": "Pantnagar airport is about 120 km away; the overnight Ranikhet Express from Delhi carries through coaches to Ramnagar.",
+   "claimType": "distance",
+   "evidence": [
+    {
+     "source": "W_PANT",
+     "quote": "the Jim Corbett National Park (120"
+    },
+    {
+     "source": "ALM_HTR",
+     "quote": "Extra coaches for Ramnagar are attached with this train"
+    }
+   ],
+   "kind": "estimate"
+  },
+  "BJC7": {
+   "place": "uttarakhand/jim-corbett",
+   "topic": "Human–animal conflict line",
+   "claim": "Corbett's toll-free human–animal conflict number is 1800 890 1975.",
+   "claimType": "contact",
+   "evidence": [
+    {
+     "source": "CTR",
+     "quote": "Human- Animal Conflict Toll-free number - 1800 890 1975"
+    }
+   ]
+  },
+  "BCOR_Z": {
+   "place": "uttarakhand/jim-corbett",
+   "topic": "Safari zone seasons",
+   "claimType": "schedule",
+   "kind": "seasonal",
+   "claim": "Dhikala opens about 15 November–15 June and Bijrani about 15 October–30 June; only the Jhirna and Dhela zones stay open through the monsoon.",
+   "evidence": [
+    {
+     "source": "WTI_COR",
+     "quote": "Only Jhirna and Dhela stay open through the year"
+    }
+   ]
+  },
+  "AL1": {
+   "place": "uttarakhand/auli",
+   "topic": "Name",
+   "claim": "Auli means 'meadow' in Garhwali; it lies in Chamoli district amid apple orchards and pine.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "II_AULI",
+     "quote": "Auli (Meadow, in the local Garhwali language) is a pristine paradise in the Chamoli district of Uttarakhand"
+    },
+    {
+     "source": "II_AULI",
+     "quote": "accompanied by the hills of apple orchards and pine trees"
+    }
+   ]
+  },
+  "AL2": {
+   "place": "uttarakhand/auli",
+   "topic": "Peaks",
+   "claim": "Besides Nanda Devi, the skyline takes in Kamet, Mana Parvat, Dunagiri, Nilkanth, Hathi and Ghori Parbat and Nar Parbat.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "II_AULI",
+     "quote": "Peaks like M Kamet, Mana Parwat, Dunagiri, Beethartoli, Nilkanth, Hathi Parbat, Ghori Parbat, and Nar Parbat grace the horizon."
+    }
+   ]
+  },
+  "AL3": {
+   "place": "uttarakhand/auli",
+   "topic": "Auli Lake",
+   "claim": "The artificial Auli Lake feeds snow-making for the ski resort in lean years.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "II_AULI",
+     "quote": "The artificial Auli Lake, an integral part of the ski resort, serves as a snow source during lean periods"
+    }
+   ]
+  },
+  "AL4": {
+   "place": "uttarakhand/auli",
+   "topic": "Camping",
+   "claim": "There are many camping sites for nights under the stars.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "II_AULI",
+     "quote": "Auli provides numerous camping sites where visitors can spend nights under the stars"
+    }
+   ]
+  },
+  "AL5": {
+   "place": "uttarakhand/auli",
+   "topic": "Confluences",
+   "claim": "At Joshimath the Alaknanda meets the Dhauliganga; nearby Nandaprayag is one of the Panch Prayag.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "II_AULI",
+     "quote": "The confluence of rivers Alaknanda and Dhauliganga at Joshimath adds to its spiritual atmosphere."
+    },
+    {
+     "source": "II_AULI",
+     "quote": "one of the five sacred confluences (Panch Prayag) according to Hindu mythology"
+    }
+   ]
+  },
+  "CB1": {
+   "place": "uttarakhand/jim-corbett",
+   "topic": "Wildlife",
+   "claim": "Besides tigers, look for leopards, elephants, sambar and bears; jeep safaris are the essential experience.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "II_NTADV",
+     "quote": "the park's other coveted inhabitants include leopards, elephants, sambar deer, and bears"
+    },
+    {
+     "source": "II_NTADV",
+     "quote": "Embarking on a Jeep safari through the park's dense forests"
+    }
+   ]
+  },
+  "CB2": {
+   "place": "uttarakhand/jim-corbett",
+   "topic": "Corbett Museum",
+   "claim": "Corbett's old home at Chhoti Haldwani (Kaladhungi), 28 km from Haldwani, is now the Corbett Museum, with his belongings, sketches and manuscripts.",
+   "claimType": "distance",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "II_CHH",
+     "quote": "located just 30 kilometers from Kathgodam and 28 kilometers from Haldwani"
+    },
+    {
+     "source": "II_CHH",
+     "quote": "Chhoti Haldwani proudly houses the Corbett Museum"
+    },
+    {
+     "source": "II_CHH",
+     "quote": "you'll be surrounded by Corbett's personal belongings, paintings, sketches, manuscripts"
+    }
+   ]
+  },
+  "CB3": {
+   "place": "uttarakhand/jim-corbett",
+   "topic": "Corbett village",
+   "claim": "Corbett founded Chhoti Haldwani in 1915; the village runs guided walks, birdwatching and heritage tours.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "II_CHH",
+     "quote": "In 1915, he acquired 89.4 hectares of land next to his house in Kaladhungi, creating this village"
+    },
+    {
+     "source": "II_CHH",
+     "quote": "Through guided walks, birdwatching, and heritage tours"
+    }
+   ]
+  },
+  "CB4": {
+   "place": "uttarakhand/jim-corbett",
+   "topic": "Corbett Fall",
+   "claim": "Corbett Fall became an eco-tourism site in 1999.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "II_CHH",
+     "quote": "Inaugurated as an Eco-tourism site in 1999, Corbett Fall offers a tranquil escape"
+    }
+   ]
+  },
+  "CB5": {
+   "place": "uttarakhand/jim-corbett",
+   "topic": "From Nainital",
+   "claim": "The park is about 65 km (two hours) from Nainital.",
+   "claimType": "distance",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "II_NTIT",
+     "quote": "Situated 65 kms from Nainital (a 2 hour drive)"
+    }
+   ]
+  }
+ },
+ "places": [
+  {
+   "key": "uttarakhand/auli",
+   "kind": "town",
+   "name": "Auli",
+   "summary": "India's best-known ski slope above Joshimath, with Nanda Devi on the horizon — snow from January to March, and meadow treks to Kuari Pass in summer.",
+   "seoTitle": "Auli Travel Guide: Skiing & Nanda Devi Views",
+   "seoDescription": "Plan Auli: the ski season, slopes and resort, Nanda Devi views, Kuari Pass and Gorson Bugyal treks, Joshimath advisories, and getting there from Rishikesh.",
+   "lat": 30.5289,
+   "lng": 79.5703,
+   "tripTypes": [
+    "mountains",
+    "adventure",
+    "nature"
+   ],
+   "images": [
+    {
+     "commons": "File:Auli mountains.jpg",
+     "alt": "Snow-covered mountain ridge rising out of cloud above dark forest",
+     "caption": "Snow peaks above Auli",
+     "hero": true
+    }
+   ],
+   "parent": "uttarakhand",
+   "sections": {
+    "overview": {
+     "text": "Auli — 'meadow' in Garhwali — is a slope of meadows between 2,500 and 3,050 m above Joshimath in Chamoli district, ringed by apple orchards and pine. Its 3-km run with a 500-m drop is India's best-known ski slope, run by GMVN; snow usually lies deep from January to March, the slopes are busiest from late November, and an artificial lake feeds snow-making in lean years.\n\nThe views reach Nanda Devi, Kamet, Dunagiri and Nilkanth. In summer Auli is the start of the Kuari Pass trek and walks to Gorson Bugyal, with campsites under the stars. Auli is 16 km above Joshimath by road, where the Alaknanda meets the Dhauliganga; Nandaprayag, one of the Panch Prayag, is nearby. Joshimath, the base town and gateway to Badrinath, is sinking along its ridge, so check local advisories before you go.",
+     "facts": [
+      "AL1",
+      "BAU1",
+      "BAU4",
+      "BAU2",
+      "AL3",
+      "BAU3",
+      "AL2",
+      "AL4",
+      "BAU5",
+      "AL5",
+      "BAU6"
+     ]
+    },
+    "who_its_for": {
+     "items": [
+      {
+       "title": "Skiers",
+       "body": "India's best-known ski slope, January–March."
+      },
+      {
+       "title": "Trekkers",
+       "body": "Kuari Pass and Gorson Bugyal."
+      },
+      {
+       "title": "Photographers",
+       "body": "Nanda Devi, Kamet and Dunagiri views."
+      },
+      {
+       "title": "Campers",
+       "body": "Campsites under the stars."
+      }
+     ],
+     "facts": [
+      "BAU1",
+      "BAU3",
+      "AL2",
+      "AL4"
+     ]
+    },
+    "best_time": {
+     "text": "For skiing, January to March, when snow usually lies deep; the slopes are busiest from late November to March. For treks to Kuari Pass and Gorson Bugyal, go outside the snow season.",
+     "facts": [
+      "BAU1",
+      "BAU2",
+      "BAU3"
+     ]
+    },
+    "practical_info": {
+     "items": [
+      {
+       "title": "Getting there",
+       "body": "Auli is 16 km above Joshimath; check whether the Joshimath ropeway is running. Rishikesh is 253 km, Jolly Grant airport about 279 km.",
+       "status": "verified"
+      },
+      {
+       "title": "Joshimath",
+       "body": "Joshimath is sinking along its ridge; check advisories before travelling.",
+       "status": "verified"
+      },
+      {
+       "title": "Ski resort",
+       "body": "GMVN runs the ski resort and winter events.",
+       "status": "verified"
+      }
+     ],
+     "facts": [
+      "BAU5",
+      "BAU6",
+      "BAU4"
+     ]
+    },
+    "safety_health": {
+     "items": [
+      {
+       "title": "Land subsidence",
+       "body": "Joshimath, the base town, is sinking; follow local advisories."
+      },
+      {
+       "title": "Altitude",
+       "body": "At up to 3,050 m, take it slowly on arrival."
+      }
+     ],
+     "facts": [
+      "BAU6",
+      "BAU1"
+     ]
+    },
+    "faqs": {
+     "items": [
+      {
+       "title": "When can I ski at Auli?",
+       "body": "January to March for deep snow; the slopes are busy from late November."
+      },
+      {
+       "title": "How do I get there?",
+       "body": "16 km above Joshimath; Jolly Grant airport is about 279 km."
+      },
+      {
+       "title": "Can I trek from Auli?",
+       "body": "Yes — Kuari Pass and Gorson Bugyal start here."
+      },
+      {
+       "title": "Is Joshimath safe?",
+       "body": "Check local advisories: Joshimath is sinking along its ridge."
+      }
+     ],
+     "facts": [
+      "BAU1",
+      "BAU2",
+      "BAU5",
+      "BAU3",
+      "BAU6"
+     ]
+    },
+    "common_mistakes": {
+     "items": [
+      {
+       "body": "Arriving for skiing before the snow has settled."
+      },
+      {
+       "body": "Not checking Joshimath advisories."
+      },
+      {
+       "body": "Assuming the ropeway is running."
+      }
+     ],
+     "facts": [
+      "BAU1",
+      "BAU6",
+      "BAU5"
+     ]
+    }
+   }
+  },
+  {
+   "key": "uttarakhand/jim-corbett",
+   "kind": "region",
+   "name": "Jim Corbett",
+   "summary": "India's first national park, in the foothills near Ramnagar: tigers, elephants and 580 bird species in sal forest and grassland — book only on corbettgov.org.",
+   "seoTitle": "Jim Corbett National Park: Safaris & Planning",
+   "seoDescription": "Plan Corbett: India's first national park, when to see tigers, Dhikala, how to book safaris and stays on the official site, and getting to Ramnagar.",
+   "lat": 29.5486,
+   "lng": 78.9353,
+   "tripTypes": [
+    "wildlife",
+    "nature",
+    "family"
+   ],
+   "images": [
+    {
+     "commons": "File:Elephants Grass Sal Dhikala Corbett Reserve Dec2019 R16 02266.jpg",
+     "alt": "A herd of elephants in tall golden grass in front of a sal forest",
+     "caption": "Elephants at Dhikala, Corbett",
+     "hero": true
+    }
+   ],
+   "parent": "uttarakhand",
+   "featured": true,
+   "sections": {
+    "overview": {
+     "text": "Jim Corbett National Park, set up in 1936, is India's first national park and the first under Project Tiger. Its 520.8 sq km of sal forest, river belts and grassland near Ramnagar shelter tigers, leopards, elephants, sambar and bears, along with some 580 bird species; Dhikala, with its old forest rest house, looks over the Patli Dun valley.\n\nSafaris and forest stays are booked only on corbettgov.org. Dhikala opens about 15 November to 15 June and Bijrani about 15 October to 30 June, while Jhirna and Dhela stay open through the monsoon; April to mid-June gives the best chance of a tiger. Corbett's own home at Kaladhungi is now a museum. Pantnagar airport is about 120 km away, Nainital about 65 km.",
+     "facts": [
+      "BJC1",
+      "BJC2",
+      "CB1",
+      "BJC3",
+      "BJC5",
+      "BCOR_Z",
+      "BJC4",
+      "CB2",
+      "BJC6",
+      "CB5"
+     ]
+    },
+    "who_its_for": {
+     "items": [
+      {
+       "title": "Wildlife lovers",
+       "body": "Tigers, leopards and elephants on jeep safaris."
+      },
+      {
+       "title": "Birders",
+       "body": "Some 580 species."
+      },
+      {
+       "title": "History lovers",
+       "body": "The Corbett Museum at Kaladhungi and Chhoti Haldwani."
+      }
+     ],
+     "facts": [
+      "CB1",
+      "BJC2",
+      "CB2",
+      "CB3"
+     ]
+    },
+    "best_time": {
+     "text": "Dhikala opens about 15 November to 15 June and Bijrani about 15 October to 30 June; only Jhirna and Dhela stay open through the monsoon. April to mid-June, late in the dry season, gives the best chance of seeing a tiger.",
+     "facts": [
+      "BCOR_Z",
+      "BJC4"
+     ]
+    },
+    "practical_info": {
+     "items": [
+      {
+       "title": "Booking",
+       "body": "Book safaris and forest stays only on corbettgov.org; same-day online booking closes at 6:30 am (morning) and 4 pm (afternoon).",
+       "status": "verified"
+      },
+      {
+       "title": "Zones",
+       "body": "Dhikala ~15 Nov–15 Jun; Bijrani ~15 Oct–30 Jun; Jhirna and Dhela open year-round.",
+       "status": "seasonal"
+      },
+      {
+       "title": "Getting there",
+       "body": "Pantnagar airport is about 120 km; the Ranikhet Express runs overnight from Delhi to Ramnagar.",
+       "status": "verified"
+      },
+      {
+       "title": "Helpline",
+       "body": "Human–animal conflict helpline: 1800 890 1975.",
+       "status": "verified"
+      }
+     ],
+     "facts": [
+      "BJC5",
+      "BCOR_Z",
+      "BJC6",
+      "BJC7"
+     ]
+    },
+    "things_to_do": {
+     "items": [
+      {
+       "body": "Take a jeep safari in Dhikala, Bijrani, Jhirna or Dhela."
+      },
+      {
+       "body": "Stay overnight at the Dhikala forest rest house."
+      },
+      {
+       "body": "Visit the Corbett Museum at Kaladhungi."
+      },
+      {
+       "body": "Join a guided walk or birdwatching tour in Chhoti Haldwani."
+      },
+      {
+       "body": "See Corbett Fall, an eco-tourism site since 1999."
+      }
+     ],
+     "facts": [
+      "CB1",
+      "BCOR_Z",
+      "BJC3",
+      "CB2",
+      "CB3",
+      "CB4"
+     ]
+    },
+    "faqs": {
+     "items": [
+      {
+       "title": "Where do I book a safari?",
+       "body": "Only on corbettgov.org."
+      },
+      {
+       "title": "Which zones are open in the monsoon?",
+       "body": "Jhirna and Dhela."
+      },
+      {
+       "title": "When is the best chance of seeing a tiger?",
+       "body": "April to mid-June."
+      },
+      {
+       "title": "How far is it from Nainital?",
+       "body": "About 65 km, two hours."
+      }
+     ],
+     "facts": [
+      "BJC5",
+      "BCOR_Z",
+      "BJC4",
+      "CB5"
+     ]
+    },
+    "common_mistakes": {
+     "items": [
+      {
+       "body": "Booking through unofficial sites instead of corbettgov.org."
+      },
+      {
+       "body": "Planning Dhikala in the monsoon."
+      },
+      {
+       "body": "Missing the same-day booking cut-off."
+      }
+     ],
+     "facts": [
+      "BJC5",
+      "BCOR_Z"
+     ]
+    }
+   }
+  }
+ ],
+ "itineraries": []
+}

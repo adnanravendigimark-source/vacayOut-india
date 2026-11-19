@@ -25,7 +25,7 @@ export const metadata: Metadata = {
   },
   description:
     "India is waiting. Where will you go? Discover breathtaking destinations, plan personalized trips, and figure out every detail with AI on VacayOut.in.",
-  keywords: ["India travel", "AI trip planner", "Rajasthan itinerary", "Kerala backwaters", "Himalayan road trip", "VacayOut India"],
+  keywords: ["India travel", "AI trip planner", "VacayOut India"],
   openGraph: {
     title: "VacayOut — Cinematic AI Travel Planning for India",
     description: "Discover places, plan unforgettable trips, and figure out every detail with AI.",

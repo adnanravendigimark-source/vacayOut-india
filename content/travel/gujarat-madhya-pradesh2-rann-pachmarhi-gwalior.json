@@ -1,0 +1,1619 @@
+{
+ "cluster": "gujarat-madhya-pradesh2-rann-pachmarhi-gwalior",
+ "title": "Rann of Kutch, Pachmarhi and Gwalior (Batch 6)",
+ "researchedAt": "2026-11-18",
+ "selection": "Batch 6. Rann of Kutch (4 sections, practical_info state filler), Pachmarhi (5, practical_info filler) and Gwalior (5, practical_info filler). Adds who it's for, best time, how to reach, highlights, food, shopping, stays, tips, FAQs and mistakes; fuller overviews and replacement practical_info go in as pending suggestions. Conflicts left out: Rann Utsav's start year (2005 per Gujarat Tourism, 2006 per Incredible India); Tansen Samaroh month (December per Incredible India, November–December per MP Tourism) — only the December line is used; Pachmarhi's altitude (about 1,100 m vs 1,067 m). No prices. khajuraho-orchha-gwalior-5-days itinerary left for the itinerary audit.",
+ "sources": {
+  "GT_RUT": {
+   "url": "https://www.gujarattourism.com/fair-and-festival/rann-utsav.html",
+   "title": "Rann Utsav — Gujarat Tourism",
+   "authority": "government"
+  },
+  "II_RUTG": {
+   "url": "https://www.incredibleindia.gov.in/en/gujarat/kutch/rann-utsav-guide",
+   "title": "Rann Utsav guide — Incredible India",
+   "authority": "government"
+  },
+  "II_KUTCH": {
+   "url": "https://www.incredibleindia.gov.in/en/gujarat/kutch",
+   "title": "Kutch — Incredible India",
+   "authority": "government"
+  },
+  "DG_PERMIT": {
+   "url": "https://deshgujarat.com/2018/11/16/online-permit-system-for-visit-to-white-rann-of-kutch-launched-by-collector-with-dedicated-website/",
+   "title": "Online permit system for visit to White Rann of Kutch launched — DeshGujarat (16 Nov 2018)",
+   "authority": "media"
+  },
+  "II_PACH": {
+   "url": "https://www.incredibleindia.gov.in/en/madhya-pradesh/pachmarhi",
+   "title": "Pachmarhi — Incredible India",
+   "authority": "government"
+  },
+  "II_GWL": {
+   "url": "https://www.incredibleindia.gov.in/en/madhya-pradesh/gwalior",
+   "title": "Gwalior — Incredible India",
+   "authority": "government"
+  },
+  "MPT_GWL": {
+   "url": "https://www.mptourism.com/destination-gwalior.php",
+   "title": "Gwalior — MP Tourism",
+   "authority": "government"
+  },
+  "II_RANN": {
+   "url": "https://www.incredibleindia.gov.in/en/gujarat/kutch/rann-of-kutch",
+   "title": "Rann of Kutch — Incredible India (Ministry of Tourism, Government of India)",
+   "authority": "government"
+  },
+  "II_KUT": {
+   "url": "https://www.incredibleindia.gov.in/en/gujarat/kutch",
+   "title": "Kutch — Incredible India (Ministry of Tourism, Government of India)",
+   "authority": "government"
+  },
+  "W_DHO": {
+   "url": "https://en.wikipedia.org/wiki/Dholavira",
+   "title": "Dholavira — Wikipedia",
+   "authority": "reference"
+  },
+  "II_PAC": {
+   "url": "https://www.incredibleindia.gov.in/en/madhya-pradesh/pachmarhi",
+   "title": "Pachmarhi — Incredible India (Ministry of Tourism, Government of India)",
+   "authority": "government"
+  },
+  "II_GWF": {
+   "url": "https://www.incredibleindia.gov.in/en/madhya-pradesh/gwalior/gwalior-fort",
+   "title": "Gwalior Fort — Incredible India (Ministry of Tourism, Government of India)",
+   "authority": "government"
+  },
+  "II_MP": {
+   "url": "https://www.incredibleindia.gov.in/en/madhya-pradesh",
+   "title": "Madhya Pradesh — Incredible India (Ministry of Tourism, Government of India)",
+   "authority": "government"
+  }
+ },
+ "facts": {
+  "BRANN1": {
+   "place": "gujarat/rann-of-kutch",
+   "topic": "The Rann",
+   "claim": "The Rann of Kutch is a salt marsh of about 26,000 sq km, split into the Great and Little Rann; in the monsoon it turns into a temporary sea.",
+   "claimType": "general",
+   "evidence": [
+    {
+     "source": "II_RANN",
+     "quote": "spans roughly 26,000 square kilometres. It is divided into two main parts: the Great Rann of Kutch and the Little Rann of Kutch."
+    },
+    {
+     "source": "II_RANN",
+     "quote": "The ethereal beauty of the Rann of Kutch lies in its stark landscape that during the monsoons transforms into a temporary sea."
+    }
+   ]
+  },
+  "BRANN2": {
+   "place": "gujarat/rann-of-kutch",
+   "topic": "Rann Utsav and wildlife",
+   "claim": "The Rann Utsav festival celebrates local crafts and music; the Indian Wild Ass Sanctuary protects the Little Rann.",
+   "claimType": "general",
+   "evidence": [
+    {
+     "source": "II_RANN",
+     "quote": "The Rann Utsav, a festival celebrating the local culture, crafts, and music, draws visitors from around the globe."
+    },
+    {
+     "source": "II_RANN",
+     "quote": "with sanctuaries like the Indian Wild Ass Sanctuary and the Kutch Desert Wildlife Sanctuary"
+    }
+   ]
+  },
+  "BRANN3": {
+   "place": "gujarat/rann-of-kutch",
+   "topic": "Kalo Dungar",
+   "claim": "Kalo Dungar, north of Khavda, is Kutch's highest point at 462 m, with views over the Great Rann.",
+   "claimType": "general",
+   "evidence": [
+    {
+     "source": "II_KUT",
+     "quote": "North of the village of Khavda, Kalo Dungar (Black Hill) marks Kutch’s highest point (462 m)"
+    }
+   ]
+  },
+  "BRANN4": {
+   "place": "gujarat/rann-of-kutch",
+   "topic": "Crafts",
+   "claim": "Kutch's Rabari herders live in round bhoongas; Rogan lacquer painting is a speciality of Niruna village near Bhuj.",
+   "claimType": "general",
+   "evidence": [
+    {
+     "source": "II_KUT",
+     "quote": "Among them are the Rabaris, whose round houses (bhoongas) with conical roofs are a distinctive feature of the Kutch landscape."
+    },
+    {
+     "source": "II_KUT",
+     "quote": "Rogan, a specialty of Niruna village near Bhuj"
+    }
+   ]
+  },
+  "BDHO1": {
+   "place": "gujarat/dholavira",
+   "topic": "Dholavira",
+   "claim": "Dholavira, on Khadir Bet island in the Great Rann, is one of the five largest Harappan sites; it became a UNESCO World Heritage Site in 2021.",
+   "claimType": "general",
+   "evidence": [
+    {
+     "source": "W_DHO",
+     "quote": "It is one of the five largest Harappan sites"
+    },
+    {
+     "source": "W_DHO",
+     "quote": "It is located on Khadir Bet island in the Kutch Desert Wildlife Sanctuary in the Great Rann of Kutch ."
+    },
+    {
+     "source": "W_DHO",
+     "quote": "Designated 2021 (44th session )"
+    }
+   ]
+  },
+  "BPAC1": {
+   "place": "madhya-pradesh/pachmarhi",
+   "topic": "Pachmarhi",
+   "claim": "Pachmarhi, Madhya Pradesh's only hill station at about 1,100 m in the Satpuras, lies in a UNESCO biosphere reserve (2009) and the Satpura Tiger Reserve.",
+   "claimType": "general",
+   "evidence": [
+    {
+     "source": "II_PAC",
+     "quote": "The only hill station in Madhya Pradesh, Pachmarhi sits at around 1,100 metres in a valley of the Satpura Range"
+    },
+    {
+     "source": "II_PAC",
+     "quote": "Pachmarhi sits entirely within the Pachmarhi Biosphere Reserve, added to UNESCO's list of Biosphere Reserves in 2009"
+    }
+   ]
+  },
+  "BPAC2": {
+   "place": "madhya-pradesh/pachmarhi",
+   "topic": "Sights",
+   "claim": "See Bee Falls (about 150 ft), the Jata Shankar caves and Priyadarshini Point; Itarsi junction is about 150 km away.",
+   "claimType": "distance",
+   "evidence": [
+    {
+     "source": "II_PAC",
+     "quote": "Bee Falls (Jamuna Prapat): a roughly 150-foot cascading waterfall"
+    },
+    {
+     "source": "II_PAC",
+     "quote": "Jata Shankar Caves: a sacred cave shrine linked to a Shiva legend"
+    },
+    {
+     "source": "II_PAC",
+     "quote": "An alternative railhead is Itarsi Junction (ET) , situated around 150 km away"
+    }
+   ]
+  },
+  "BGWL1": {
+   "place": "madhya-pradesh/gwalior",
+   "topic": "Gwalior",
+   "claim": "Gwalior is the birthplace of the singer Tansen; its Chaturbhuj Temple carries the world's first written zero. October to March is the best time.",
+   "claimType": "general",
+   "evidence": [
+    {
+     "source": "II_GWL",
+     "quote": "Etched on the stones of its Chaturbhuj Temple is the world's first occurrence of zero as a written number!"
+    },
+    {
+     "source": "II_GWL",
+     "quote": "This city is also the birthplace of Tansen"
+    },
+    {
+     "source": "II_GWL",
+     "quote": "the best time to visit is between October and March"
+    }
+   ]
+  },
+  "BGWL2": {
+   "place": "madhya-pradesh/gwalior",
+   "topic": "Around the city",
+   "claim": "The Jai Vilas Palace is a museum with grand chandeliers; the Bateshwar temples, about 200 in sandstone, lie 35 km north.",
+   "claimType": "general",
+   "evidence": [
+    {
+     "source": "II_GWL",
+     "quote": "Step into a world of luxurious living with Jai Vilas Palace."
+    },
+    {
+     "source": "II_GWL",
+     "quote": "a complex of around 200 temples carved in sandstone, dating from the 8 th to 10 th centuries"
+    }
+   ]
+  },
+  "BGWF1": {
+   "place": "madhya-pradesh/gwalior-fort",
+   "topic": "The fort",
+   "claim": "Gwalior Fort, spread over 3 sq km, dates back to the 6th century; Raja Man Singh Tomar built the Man Mandir Palace, and the Teli ka Mandir is its oldest monument.",
+   "claimType": "general",
+   "evidence": [
+    {
+     "source": "II_GWF",
+     "quote": "Spread across three square kilometres"
+    },
+    {
+     "source": "II_GWF",
+     "quote": "this architectural marvel traces its origins back to the 6th century"
+    },
+    {
+     "source": "II_MP",
+     "quote": "Built by Raja Man Singh Tomar"
+    },
+    {
+     "source": "II_GWL",
+     "quote": "climb to the Teli ka Mandir, the fort's oldest monument"
+    }
+   ]
+  },
+  "BGWF2": {
+   "place": "madhya-pradesh/gwalior-fort",
+   "topic": "Hours",
+   "claim": "Open 6 am to 5:30 pm.",
+   "claimType": "opening_hours",
+   "evidence": [
+    {
+     "source": "II_GWF",
+     "quote": "Opening time - 06:00 AM"
+    },
+    {
+     "source": "II_GWF",
+     "quote": "Closing time - 05:30 PM"
+    }
+   ]
+  },
+  "RK1": {
+   "place": "gujarat/rann-of-kutch",
+   "topic": "Rann Utsav 2026–27",
+   "claim": "Rann Utsav – The Tent City at Dhordo runs from 1 November 2026 to 7 March 2027.",
+   "claimType": "schedule",
+   "kind": "seasonal",
+   "evidence": [
+    {
+     "source": "GT_RUT",
+     "quote": "is scheduled from 1st November 2026 to 7th March 2027"
+    }
+   ]
+  },
+  "RK2": {
+   "place": "gujarat/rann-of-kutch",
+   "topic": "Dhordo",
+   "claim": "The festival is held at Dhordo, a Great Rann village near the India–Pakistan border, 81 km (about 1 hr 20 min) from Bhuj.",
+   "claimType": "distance",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "II_RUTG",
+     "quote": "The festival unfolds in Dhordo, a village in the Great Rann of Kutch close to the Indo-Pak border"
+    },
+    {
+     "source": "II_RUTG",
+     "quote": "situated 81 kilometers or approximately 1 hour and 20 minutes away from Bhuj"
+    }
+   ]
+  },
+  "RK3": {
+   "place": "gujarat/rann-of-kutch",
+   "topic": "Permit",
+   "claim": "The White Rann and Kalo Dungar are in the international border area; entry permits are issued online (since 2018) or at the check post at Bhirandiyara.",
+   "claimType": "rule",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "DG_PERMIT",
+     "quote": "launched a new online permit system for visitors/tourists who want to apply to visit the tourist attractions in international border area such as white Rann of Kutch and Kalo dungar",
+     "sourceDate": "2018-11-16"
+    },
+    {
+     "source": "DG_PERMIT",
+     "quote": "A check post to obtain manual permit has been set up at Bhirandiara village",
+     "sourceDate": "2018-11-16"
+    }
+   ]
+  },
+  "RK4": {
+   "place": "gujarat/rann-of-kutch",
+   "topic": "Kala Dungar",
+   "claim": "Kala Dungar is 25 km from the festival (95 km from Bhuj), with a 400-year-old Dattatreya temple; access beyond the military check post is restricted.",
+   "claimType": "distance",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "II_RUTG",
+     "quote": "Situated a mere 25 kilometers from the festival (95 kilometers from Bhuj)"
+    },
+    {
+     "source": "II_RUTG",
+     "quote": "a 400-year-old temple dedicated to Dattratreya"
+    },
+    {
+     "source": "II_RUTG",
+     "quote": "access beyond the military check-post is restricted"
+    }
+   ]
+  },
+  "RK5": {
+   "place": "gujarat/rann-of-kutch",
+   "topic": "Kala Dungar timing",
+   "claim": "Go at dawn for sunrise over the Great Rann or late afternoon for sunset; tours run from Rann Utsav, and it is wise to pre-book the return ride.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "II_RUTG",
+     "quote": "The optimal times to visit Kala Dungar are either at dawn for a spectacular sunrise over the Great Rann or in the late afternoon for the sunset"
+    },
+    {
+     "source": "II_RUTG",
+     "quote": "Scheduled tours from Rann Utsav to Kala Dungar are available regularly; it is advisable to pre-book your return ride"
+    }
+   ]
+  },
+  "RK6": {
+   "place": "gujarat/rann-of-kutch",
+   "topic": "Wild Ass Sanctuary",
+   "claim": "The Little Rann's Wild Ass Sanctuary covers 4,953 sq km and holds the last population of the Indian wild ass; November–February is best, by jeep safari.",
+   "claimType": "general",
+   "kind": "seasonal",
+   "evidence": [
+    {
+     "source": "II_RUTG",
+     "quote": "covering an expansive 4,953 square kilometers"
+    },
+    {
+     "source": "II_RUTG",
+     "quote": "hosting the last surviving population of the critically endangered Indian Wild Ass"
+    },
+    {
+     "source": "II_RUTG",
+     "quote": "The best time to experience the wonders of the Wild Ass Sanctuary is during the winter months, spanning from November to February."
+    },
+    {
+     "source": "II_RUTG",
+     "quote": "visitors can embark on jeep safaris"
+    }
+   ]
+  },
+  "RK7": {
+   "place": "gujarat/rann-of-kutch",
+   "topic": "Monsoon",
+   "claim": "The Rann is under water in the monsoon; the salt crust reappears as the water recedes.",
+   "claimType": "general",
+   "kind": "seasonal",
+   "evidence": [
+    {
+     "source": "II_RUTG",
+     "quote": "this glorious land is hidden under water during the monsoon"
+    },
+    {
+     "source": "II_RUTG",
+     "quote": "The salt-caked sand dunes emerge with a fresh covering of crystals when the water recedes."
+    }
+   ]
+  },
+  "RK8": {
+   "place": "gujarat/rann-of-kutch",
+   "topic": "White Rann light",
+   "claim": "The White Rann is at its best at sunrise, sunset and on full-moon nights, which are especially popular.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "GT_RUT",
+     "quote": "Its beauty is particularly captivating during sunrise, sunset and full moon nights"
+    },
+    {
+     "source": "GT_RUT",
+     "quote": "Full moon nights are particularly popular among visitors."
+    }
+   ]
+  },
+  "RK9": {
+   "place": "gujarat/rann-of-kutch",
+   "topic": "Tent City stays",
+   "claim": "Tent City rooms range from Swiss cottages and premium tents to Rajwadi and Darbari suites.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "GT_RUT",
+     "quote": "Accommodation categories include Swiss Cottages, Premium Tents, Super Premium Tents, Rajwadi Suites and Darbari Suites, subject to availability."
+    }
+   ]
+  },
+  "RK10": {
+   "place": "gujarat/rann-of-kutch",
+   "topic": "Crafts",
+   "claim": "Kutch crafts include embroidery, Bandhani, Ajrakh printing and Rogan art; Bhuj has many craft shops and Gandhi Nu Gaam is an artisans' village near the festival.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "GT_RUT",
+     "quote": "Explore traditional Kutchi embroidery, Bandhani, Ajrakh printing, Rogan art and other handcrafted products created by local artisans."
+    },
+    {
+     "source": "II_RUTG",
+     "quote": "travel to Bhuj (an hour away) which has a plethora of shops with different kinds of Kutchi knick-knacks on offer"
+    },
+    {
+     "source": "II_RUTG",
+     "quote": "pay a visit to Gandhi Nu Gaam, a village of artisans near the Rann Utsav that was restored after the devastating earthquake"
+    }
+   ]
+  },
+  "RK11": {
+   "place": "gujarat/rann-of-kutch",
+   "topic": "Food",
+   "claim": "Try dabeli (a spiced potato bun) and a Kutchi thali of bajra rotlo, chhas, kadhi and khichdi with ghee.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "II_RUTG",
+     "quote": "a desi sandwich featuring a sweet and savory filling of potatoes, pomegranate, and peanuts nestled between two soft ladi pavs"
+    },
+    {
+     "source": "II_RUTG",
+     "quote": "Keep an eye out for the karak or kadak variant, where the dabeli filling is blended with toast rusk"
+    },
+    {
+     "source": "II_RUTG",
+     "quote": "typically includes bajri no rotlo (millet roti), green chili pickle, chhas (buttermilk), kadhi, and a generous serving of semi-liquid khichri, enriched with ghee"
+    }
+   ]
+  },
+  "RK12": {
+   "place": "gujarat/rann-of-kutch",
+   "topic": "Dhordo village",
+   "claim": "Dhordo was named one of UNWTO's 54 Best Tourism Villages of 2023, known for mud architecture and Mutwa embroidery.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "GT_RUT",
+     "quote": "one of the 54 best tourism villages of 2023 by the united nations world tourism organization (unwto)"
+    },
+    {
+     "source": "GT_RUT",
+     "quote": "traditional mud architecture, intricate mutwa embroidery and distinctive banni hospitality"
+    }
+   ]
+  },
+  "RK13": {
+   "place": "gujarat/rann-of-kutch",
+   "topic": "Palaces",
+   "claim": "Bhuj's Aina Mahal and Mandvi's seafront Vijay Vilas Palace make a longer trip.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "II_RUTG",
+     "quote": "head to Mandvi to experience the grandeur of the Vijay Vilas Palace"
+    },
+    {
+     "source": "II_RUTG",
+     "quote": "make sure not to overlook the Aina Mahal (Palace of Mirrors)"
+    }
+   ]
+  },
+  "RK14": {
+   "place": "gujarat/rann-of-kutch",
+   "topic": "Activities",
+   "claim": "The festival offers adventure and recreational activities, subject to season and charges.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "GT_RUT",
+     "quote": "Visitors can enjoy selected adventure and recreational activities, subject to seasonal availability and applicable charges."
+    }
+   ]
+  },
+  "RK15": {
+   "place": "gujarat/rann-of-kutch",
+   "topic": "Transport",
+   "claim": "You need your own transport for Kalo Dungar.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "II_KUTCH",
+     "quote": "You will need your transport to visit."
+    }
+   ]
+  },
+  "PH1": {
+   "place": "madhya-pradesh/pachmarhi",
+   "topic": "Pandavas",
+   "claim": "Pachmarhi ('five caves') is named for the legend that the Pandavas sheltered here; the Pandav Caves are a protected monument.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "II_PACH",
+     "quote": "referring to the legend that the five Pandava brothers of the Mahabharata sheltered here"
+    },
+    {
+     "source": "II_PACH",
+     "quote": "five sandstone caves at the heart of the town's name and legend, now a protected monument"
+    }
+   ]
+  },
+  "PH2": {
+   "place": "madhya-pradesh/pachmarhi",
+   "topic": "Forsyth",
+   "claim": "Captain James Forsyth came across the plateau in 1857; the British built it up as a hill station and army sanatorium.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "II_PACH",
+     "quote": "in 1857, when Captain James Forsyth of the British Army came across the plateau while marching toward Jhansi"
+    },
+    {
+     "source": "II_PACH",
+     "quote": "the British developed Pachmarhi into a hill station and army sanatorium"
+    }
+   ]
+  },
+  "PH3": {
+   "place": "madhya-pradesh/pachmarhi",
+   "topic": "Biosphere and tigers",
+   "claim": "Pachmarhi joined UNESCO's biosphere list in 2009 and lies in the Satpura Tiger Reserve, home to tigers, leopards, gaur and sloth bears.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "II_PACH",
+     "quote": "added to UNESCO's list of Biosphere Reserves in 2009"
+    },
+    {
+     "source": "II_PACH",
+     "quote": "within the Satpura Tiger Reserve, home to tigers, leopards, Indian gaur, sloth bears, and flying squirrels"
+    }
+   ]
+  },
+  "PH4": {
+   "place": "madhya-pradesh/pachmarhi",
+   "topic": "Dhoopgarh",
+   "claim": "Dhoopgarh, at 1,352 m the highest point in Madhya Pradesh, is just outside town and famous for sunrise and sunset.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "II_PACH",
+     "quote": "Dhoopgarh, the highest point in Madhya Pradesh at 1,352 metres, sits just outside town"
+    },
+    {
+     "source": "II_PACH",
+     "quote": "the highest peak in the Satpura range and all of Madhya Pradesh, famed for sunrise and sunset views"
+    }
+   ]
+  },
+  "PH5": {
+   "place": "madhya-pradesh/pachmarhi",
+   "topic": "Jata Shankar",
+   "claim": "Jata Shankar is a cave shrine to Shiva with 108 natural lingas and the Gupt Ganga stream.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "II_PACH",
+     "quote": "a sacred cave shrine linked to a Shiva legend, with 108 naturally formed shivalingas and the underground Gupt Ganga stream"
+    }
+   ]
+  },
+  "PH6": {
+   "place": "madhya-pradesh/pachmarhi",
+   "topic": "Bee Falls",
+   "claim": "Bee Falls (Jamuna Prapat), about 150 ft, is a favourite swimming and picnic spot.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "II_PACH",
+     "quote": "a roughly 150-foot cascading waterfall and one of Pachmarhi's most popular swimming and picnic spots"
+    }
+   ]
+  },
+  "PH7": {
+   "place": "madhya-pradesh/pachmarhi",
+   "topic": "Apsara Vihar",
+   "claim": "Apsara Vihar (Fairy Pool) and Rajat Prapat (Big Fall) are reached on a short trail from the Pandav Caves.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "II_PACH",
+     "quote": "a scenic waterfall-and-pool combination reached via a short trail from the Pandav Caves"
+    }
+   ]
+  },
+  "PH8": {
+   "place": "madhya-pradesh/pachmarhi",
+   "topic": "Priyadarshini Point",
+   "claim": "Priyadarshini (Forsyth) Point is where Forsyth first saw the plateau, with views over the Handi Khoh ravine.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "II_PACH",
+     "quote": "the very spot from which Captain Forsyth first spotted the Pachmarhi plateau in 1857, with sweeping valley views over the Handi Khoh ravine"
+    }
+   ]
+  },
+  "PH9": {
+   "place": "madhya-pradesh/pachmarhi",
+   "topic": "Chauragarh",
+   "claim": "Chauragarh is a Shiva pilgrimage peak reached by a demanding climb of thousands of steps, busiest around Shivratri.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "II_PACH",
+     "quote": "a pilgrimage peak with a Shiva temple, reached via a demanding trek and thousands of steps, popular during the Shivratri season"
+    }
+   ]
+  },
+  "PH10": {
+   "place": "madhya-pradesh/pachmarhi",
+   "topic": "Bison Lodge",
+   "claim": "Bison Lodge, Forsyth's old house, is a museum of the Satpuras' flora, fauna and history.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "II_PACH",
+     "quote": "Captain Forsyth's former residence, now a museum on the flora, fauna, and history of the Satpura hills"
+    }
+   ]
+  },
+  "PH11": {
+   "place": "madhya-pradesh/pachmarhi",
+   "topic": "Rock art",
+   "claim": "Rock paintings in the Mahadeo Hills are estimated at up to 10,000 years old.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "II_PACH",
+     "quote": "Ancient rock paintings in the Mahadeo Hills, some estimated to be up to 10,000 years old."
+    }
+   ]
+  },
+  "PH12": {
+   "place": "madhya-pradesh/pachmarhi",
+   "topic": "Food and shopping",
+   "claim": "Eat poha-jalebi, dal bafla and bhutte ki khees; markets sell forest honey and Ayurvedic preparations.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "II_PACH",
+     "quote": "poha-jalebi, dal bafla, and bhutte ki khees"
+    },
+    {
+     "source": "II_PACH",
+     "quote": "Pachmarhi's markets are known for local forest honey and Ayurvedic preparations"
+    }
+   ]
+  },
+  "PH13": {
+   "place": "madhya-pradesh/pachmarhi",
+   "topic": "Seasons",
+   "claim": "October–March is coolest and clearest; the July–September monsoon brings the falls to full flow but makes trails slippery.",
+   "claimType": "general",
+   "kind": "seasonal",
+   "evidence": [
+    {
+     "source": "II_PACH",
+     "quote": "October to March offering the coolest, clearest weather for sightseeing and trekking"
+    },
+    {
+     "source": "II_PACH",
+     "quote": "the monsoon (July–September) bringing the waterfalls to their fullest, most dramatic flow, if you don't mind slippery trails"
+    }
+   ]
+  },
+  "PH14": {
+   "place": "madhya-pradesh/pachmarhi",
+   "topic": "Getting there",
+   "claim": "Pipariya station is about 50 km away and Itarsi Junction about 150 km; Bhopal airport is about 200 km and Jabalpur about 250–260 km.",
+   "claimType": "distance",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "II_PACH",
+     "quote": "Pipariya Railway Station (PPI), located approximately 50 km from Pachmarhi"
+    },
+    {
+     "source": "II_PACH",
+     "quote": "an alternative railhead is Itarsi Junction (ET), situated around 150 km away"
+    },
+    {
+     "source": "II_PACH",
+     "quote": "the nearest airports are Raja Bhoj Airport, Bhopal (BHO), approximately 200 km away, and Jabalpur Airport (JLR), approximately 250-260 km from Pachmarhi"
+    }
+   ]
+  },
+  "PH15": {
+   "place": "madhya-pradesh/pachmarhi",
+   "topic": "Small town",
+   "claim": "Construction limits keep the cantonment town small and forested.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "II_PACH",
+     "quote": "The town remains small with construction restrictions helping preserve its forested character"
+    }
+   ]
+  },
+  "PH16": {
+   "place": "madhya-pradesh/pachmarhi",
+   "topic": "Pace",
+   "claim": "Pachmarhi rewards several unhurried days rather than a rushed day trip.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "II_PACH",
+     "quote": "making it worth several unhurried days rather than a rushed day trip"
+    }
+   ]
+  },
+  "GW1": {
+   "place": "madhya-pradesh/gwalior",
+   "topic": "Founding legend",
+   "claim": "Legend says the chieftain Suraj Sen founded the city and fort after the hermit Gwalipa healed him.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "II_GWL",
+     "quote": "Legends recount the tale of Suraj Sen, a chieftain who, after being healed by the hermit saint Gwalipa, established the city and a fort"
+    }
+   ]
+  },
+  "GW2": {
+   "place": "madhya-pradesh/gwalior",
+   "topic": "City of Music",
+   "claim": "Gwalior is a UNESCO Creative City of Music.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "II_GWL",
+     "quote": "Gwalior's rich musical heritage earned it the 'Creative City of Music' title by UNESCO"
+    }
+   ]
+  },
+  "GW3": {
+   "place": "madhya-pradesh/gwalior",
+   "topic": "Man Mandir",
+   "claim": "Inside the fort's 10-m walls, the Man Singh Palace (Man Mandir) is the jewel; the Teli ka Mandir, 100 ft tall, is the oldest monument.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "II_GWL",
+     "quote": "Within its towering 10-meter-high walls"
+    },
+    {
+     "source": "II_GWL",
+     "quote": "the Man Singh Palace (or Man Mandir), the jewel in the fort's crown"
+    },
+    {
+     "source": "II_GWL",
+     "quote": "climb to the Teli ka Mandir, the fort's oldest monument. This 100-foot-tall wonder"
+    }
+   ]
+  },
+  "GW4": {
+   "place": "madhya-pradesh/gwalior",
+   "topic": "Sas-Bahu",
+   "claim": "The 11th-century Sas-Bahu temples are twin shrines to Vishnu and Shiva; the name comes from Sahastrabahu, a form of Vishnu.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "II_GWL",
+     "quote": "Marvel at the intricate carvings adorning these twin temples, one dedicated to Lord Vishnu and the other to Lord Shiva."
+    },
+    {
+     "source": "MPT_GWL",
+     "quote": "this temple is named after Lord Vishnu's incarnation, Sahastrabahu"
+    }
+   ]
+  },
+  "GW5": {
+   "place": "madhya-pradesh/gwalior",
+   "topic": "Gurudwara",
+   "claim": "Gurudwara Data Bandi Chhor Sahib near the Teli ka Mandir commemorates Guru Hargobind's imprisonment and release.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "II_GWL",
+     "quote": "Located within easy reach of the Teli ka Mandir, find a haven of peace at the Gurudwara Data Bandi Chhor Shahib."
+    },
+    {
+     "source": "II_GWL",
+     "quote": "commemorating Sri Guru Hargobind Sahib's imprisonment and subsequent release"
+    }
+   ]
+  },
+  "GW6": {
+   "place": "madhya-pradesh/gwalior",
+   "topic": "Gopachal",
+   "claim": "Gopachal Parvat has rock-cut sculptures of the 24 Jain Tirthankaras, carved between the 7th and 15th centuries.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "II_GWL",
+     "quote": "Head to the Gopachal Parvat and stand in awe of the stunning rock-cut sculptures of the 24 Jain Tirthankars"
+    },
+    {
+     "source": "MPT_GWL",
+     "quote": "carvings from the seventh to the fifteenth centuries"
+    }
+   ]
+  },
+  "GW7": {
+   "place": "madhya-pradesh/gwalior",
+   "topic": "Gujari Mahal",
+   "claim": "Man Singh Tomar's Gujari Mahal, built for Queen Mrignayani, is now an archaeological museum.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "II_GWL",
+     "quote": "This palace, built by King Man Singh Tomar for his beloved queen Mrignayani, now houses an archaeological museum"
+    }
+   ]
+  },
+  "GW8": {
+   "place": "madhya-pradesh/gwalior",
+   "topic": "Light and sound",
+   "claim": "The fort has an evening light and sound show.",
+   "claimType": "schedule",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "II_GWL",
+     "quote": "As night falls, the Gwalior Fort comes alive with a breathtaking light and sound show."
+    }
+   ]
+  },
+  "GW9": {
+   "place": "madhya-pradesh/gwalior",
+   "topic": "Jai Vilas",
+   "claim": "The Jai Vilas Palace's Jivaji Rao Scindia Museum has about 25 rooms; the Scindia family still lives in the palace.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "MPT_GWL",
+     "quote": "where the Scindia family currently resides"
+    },
+    {
+     "source": "MPT_GWL",
+     "quote": "The Jivaji Rao Scindia Museum is made up of about 25 rooms"
+    }
+   ]
+  },
+  "GW10": {
+   "place": "madhya-pradesh/gwalior",
+   "topic": "Tansen",
+   "claim": "Tansen's marble tomb stands steps from that of his teacher Mohammad Ghaus; the five-day Tansen Samaroh is held every December.",
+   "claimType": "schedule",
+   "kind": "seasonal",
+   "evidence": [
+    {
+     "source": "II_GWL",
+     "quote": "Just steps away lies the simple yet elegant marble tomb of Tansen, Ghaus' illustrious student."
+    },
+    {
+     "source": "II_GWL",
+     "quote": "Gwalior comes alive every December with the Tansen Samaroh, a vibrant five-day festival"
+    }
+   ]
+  },
+  "GW11": {
+   "place": "madhya-pradesh/gwalior",
+   "topic": "Food",
+   "claim": "Try bedai (lentil-stuffed puri) and take home gajak, made with sesame and jaggery.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "II_GWL",
+     "quote": "Indulge in local delicacies like Bedai, a crispy poori bursting with a flavourful lentil filling"
+    },
+    {
+     "source": "II_GWL",
+     "quote": "But don't leave Gwalior without a box of Gajak, a sweet and crunchy delight made with sesame and jaggery."
+    }
+   ]
+  },
+  "GW12": {
+   "place": "madhya-pradesh/gwalior",
+   "topic": "Sun Temple",
+   "claim": "The Sun Temple (Surya Mandir) was built in 1988, inspired by Konark.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "MPT_GWL",
+     "quote": "It was constructed in 1988, and the Sun Temple of Konark served as inspiration for its design."
+    }
+   ]
+  },
+  "GW13": {
+   "place": "madhya-pradesh/gwalior",
+   "topic": "Rani Lakshmi Bai",
+   "claim": "The samadhi of Rani Lakshmi Bai of Jhansi has a 26-ft metal statue.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "II_GWL",
+     "quote": "pay your respects at the samadhi (memorial) of Rani Lakshmi Bai"
+    },
+    {
+     "source": "II_GWL",
+     "quote": "A magnificent 26-foot-high metal statue"
+    }
+   ]
+  },
+  "GW14": {
+   "place": "madhya-pradesh/gwalior",
+   "topic": "Getting there",
+   "claim": "Gwalior airport has domestic flights to Delhi, Mumbai, Indore and Bhopal; the Shatabdi takes 3 hours from New Delhi.",
+   "claimType": "schedule",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "MPT_GWL",
+     "quote": "Domestic flights via Air India depart regularly from Gwalior Airport to destinations like Delhi, Mumbai, Indore, and Bhopal."
+    },
+    {
+     "source": "MPT_GWL",
+     "quote": "The New Delhi-Bhopal Shatabdi Express takes 3 hours to go from New Delhi to Gwalior."
+    }
+   ]
+  },
+  "GW15": {
+   "place": "madhya-pradesh/gwalior",
+   "topic": "Day trips",
+   "claim": "Mitaoli's circular temple, said to have inspired India's old Parliament House, is 37 km away; Padavali is 35 km.",
+   "claimType": "distance",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "MPT_GWL",
+     "quote": "The Parliament House in New Delhi is believed to have been inspired from the circular design and architectural intricacies of the Mitawali temple, which is 37 KMs from Gwalior."
+    },
+    {
+     "source": "MPT_GWL",
+     "quote": "the Padavli fortress, 35 KMs from Gwalior"
+    }
+   ]
+  },
+  "GW16": {
+   "place": "madhya-pradesh/gwalior",
+   "topic": "Music museum",
+   "claim": "Sarod Ghar, the music museum in Ustad Hafiz Ali Khan's ancestral home, displays instruments of past masters.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "MPT_GWL",
+     "quote": "This Museum of Music has been set up in the ancestral house of Ustad Hafiz Ali Khan."
+    }
+   ]
+  }
+ },
+ "places": [
+  {
+   "key": "gujarat/rann-of-kutch",
+   "kind": "nature",
+   "name": "Rann of Kutch",
+   "summary": "A 26,000 sq km salt marsh that turns into a sea in the monsoon and a white desert in winter — home of the Rann Utsav.",
+   "seoTitle": "Rann of Kutch Guide: White Desert, Rann Utsav & Crafts",
+   "seoDescription": "Plan the Rann of Kutch: the Great and Little Rann, the white desert in winter, Rann Utsav, Kalo Dungar, wild ass sanctuary and Kutch crafts.",
+   "lat": 24.08638889,
+   "lng": 70.63777778,
+   "tripTypes": [
+    "nature",
+    "adventure",
+    "heritage"
+   ],
+   "images": [
+    {
+     "commons": "File:Rann_of_Kutch_-_White_Desert.jpg",
+     "alt": "The white salt desert of the Rann of Kutch",
+     "caption": "White Rann of Kutch",
+     "hero": true
+    }
+   ],
+   "wikidataId": "Q4026866",
+   "relations": [
+    {
+     "to": "gujarat/dholavira",
+     "type": "nearby"
+    }
+   ],
+   "sections": {
+    "overview": {
+     "text": "The Rann of Kutch is a vast seasonal salt marsh on Gujarat's border with Pakistan, split into the Great and Little Rann. In the monsoon it lies under water; as the water recedes it dries into a crust of white salt that glitters at sunrise, sunset and above all on full-moon nights.\n\nMost visitors come for the Great Rann's White Rann at Dhordo, 81 km from Bhuj, where Gujarat Tourism's Rann Utsav tent city runs from 1 November 2026 to 7 March 2027 this season, with folk music, crafts and food. Entry to the White Rann and Kalo Dungar, Kutch's highest point, is by permit, since both lie in the border area. The Little Rann's Wild Ass Sanctuary protects the last Indian wild asses, and Bhuj, Mandvi and the Harappan city of Dholavira make a longer trip.",
+     "facts": [
+      "BRANN1",
+      "RK7",
+      "RK8",
+      "RK2",
+      "RK1",
+      "RK3",
+      "BRANN3",
+      "RK6",
+      "RK13",
+      "BDHO1"
+     ]
+    },
+    "who_its_for": {
+     "items": [
+      {
+       "title": "Photographers",
+       "body": "The White Rann at sunrise, sunset and full moon."
+      },
+      {
+       "title": "Festival lovers",
+       "body": "Rann Utsav's music, dance and craft markets, November to early March."
+      },
+      {
+       "title": "Craft lovers",
+       "body": "Embroidery, Bandhani, Ajrakh and Rogan, from Bhuj to Gandhi Nu Gaam."
+      },
+      {
+       "title": "Wildlife lovers",
+       "body": "The Indian wild ass and winter birds in the Little Rann."
+      }
+     ],
+     "facts": [
+      "RK8",
+      "RK1",
+      "RK10",
+      "RK6"
+     ]
+    },
+    "best_time": {
+     "text": "Come between November and early March. Rann Utsav – The Tent City runs from 1 November 2026 to 7 March 2027 this season, and full-moon nights are the most popular, when the White Rann glows. In the monsoon the Rann lies under water; the white crust only returns once it dries. For the Little Rann's wild asses and migratory birds, November to February is best.",
+     "facts": [
+      "RK1",
+      "RK8",
+      "RK7",
+      "RK6"
+     ]
+    },
+    "how_to_reach": {
+     "text": "Bhuj is the base. Dhordo, the gateway to the White Rann and site of the Rann Utsav, is 81 km away — about 1 hr 20 min by road. Kala Dungar is 25 km from the festival (95 km from Bhuj); scheduled tours run from the Tent City, or use your own vehicle. The Rann Utsav and Indian Wild Ass Sanctuary make the Great and Little Rann a two-part trip.",
+     "facts": [
+      "RK2",
+      "RK4",
+      "RK5",
+      "RK15",
+      "BRANN2"
+     ]
+    },
+    "practical_info": {
+     "items": [
+      {
+       "title": "Permit",
+       "body": "The White Rann and Kalo Dungar are in the international border area. Get a permit online or at the Bhirandiyara check post; confirm current rules before you go.",
+       "status": "unconfirmed"
+      },
+      {
+       "title": "Kala Dungar",
+       "body": "Beyond Kala Dungar's military check post, access is restricted.",
+       "status": "verified"
+      },
+      {
+       "title": "Tent City",
+       "body": "Tent City stays range from Swiss cottages and premium tents to Rajwadi and Darbari suites; adventure activities depend on season and carry charges.",
+       "status": "verified"
+      },
+      {
+       "title": "Season",
+       "body": "The Rann floods in the monsoon.",
+       "status": "seasonal"
+      }
+     ],
+     "facts": [
+      "RK3",
+      "RK4",
+      "RK9",
+      "RK14",
+      "RK7"
+     ]
+    },
+    "where_to_stay": {
+     "text": "During the festival season, Rann Utsav – The Tent City at Dhordo offers Swiss cottages, premium and super-premium tents and Rajwadi and Darbari suites. Bhuj, about an hour away, is the city base, with craft shops and the Aina Mahal.",
+     "facts": [
+      "RK9",
+      "RK1",
+      "RK10",
+      "RK13"
+     ]
+    },
+    "food": {
+     "items": [
+      {
+       "body": "Dabeli, a spiced potato bun, at road stops between Bhuj and Dhordo.",
+       "status": "verified"
+      },
+      {
+       "body": "A Kutchi thali: bajra rotlo, chhas, kadhi and khichdi with ghee.",
+       "status": "verified"
+      }
+     ],
+     "facts": [
+      "RK11"
+     ]
+    },
+    "shopping": {
+     "items": [
+      {
+       "body": "Kutchi embroidery, Bandhani, Ajrakh prints and Rogan art.",
+       "status": "verified"
+      },
+      {
+       "body": "Bhuj's craft shops and Gandhi Nu Gaam, an artisans' village near the festival.",
+       "status": "verified"
+      },
+      {
+       "body": "Rogan comes from Niruna village near Bhuj.",
+       "status": "verified"
+      }
+     ],
+     "facts": [
+      "RK10",
+      "BRANN4"
+     ]
+    },
+    "travel_tips": {
+     "items": [
+      {
+       "body": "Arrange your White Rann permit before the busy festival weeks."
+      },
+      {
+       "body": "Watch sunrise or sunset from Kala Dungar and pre-book your return ride."
+      },
+      {
+       "body": "Add Dhordo, one of UNWTO's Best Tourism Villages of 2023, for its mud houses and Mutwa embroidery."
+      }
+     ],
+     "facts": [
+      "RK3",
+      "RK5",
+      "RK12"
+     ]
+    },
+    "faqs": {
+     "items": [
+      {
+       "title": "When is Rann Utsav 2026–27?",
+       "body": "1 November 2026 to 7 March 2027 at Dhordo."
+      },
+      {
+       "title": "Do I need a permit for the White Rann?",
+       "body": "Yes — a permit is issued online or at the Bhirandiyara check post."
+      },
+      {
+       "title": "How far is Dhordo from Bhuj?",
+       "body": "81 km, about 1 hr 20 min."
+      },
+      {
+       "title": "When does the White Rann look best?",
+       "body": "On full-moon nights, or at sunrise and sunset."
+      }
+     ],
+     "facts": [
+      "RK1",
+      "RK3",
+      "RK2",
+      "RK8"
+     ]
+    },
+    "common_mistakes": {
+     "items": [
+      {
+       "body": "Arriving in the monsoon, when the Rann is under water."
+      },
+      {
+       "body": "Turning up at the White Rann without a permit."
+      },
+      {
+       "body": "Planning a walk past Kala Dungar's military check post."
+      }
+     ],
+     "facts": [
+      "RK7",
+      "RK3",
+      "RK4"
+     ]
+    }
+   }
+  },
+  {
+   "key": "madhya-pradesh/pachmarhi",
+   "kind": "town",
+   "name": "Pachmarhi",
+   "summary": "Madhya Pradesh's only hill station, in the Satpuras: waterfalls, caves and a UNESCO biosphere reserve.",
+   "seoTitle": "Pachmarhi Travel Guide: Bee Falls, Caves & Satpura",
+   "seoDescription": "Plan Pachmarhi: MP's only hill station at about 1,100 m, Bee Falls, Jata Shankar caves, Priyadarshini Point and the Satpura Tiger Reserve.",
+   "lat": 22.4667,
+   "lng": 78.411,
+   "tripTypes": [
+    "nature",
+    "family",
+    "weekend"
+   ],
+   "images": [
+    {
+     "commons": "File:Pachmarhi_valley_Madhya_Pradesh_INDIA.jpg",
+     "alt": "The green valley at Pachmarhi",
+     "caption": "Pachmarhi valley",
+     "hero": true
+    }
+   ],
+   "wikidataId": "Q1949041",
+   "sections": {
+    "overview": {
+     "text": "Pachmarhi is Madhya Pradesh's only hill station, at about 1,100 m in a valley of the Satpura range. Its name means 'five caves', after the legend that the Pandavas sheltered here; the British developed it after Captain James Forsyth came across the plateau in 1857, and it is still a quiet cantonment town kept small by building limits.\n\nThe town sits inside the Pachmarhi Biosphere Reserve, on UNESCO's list since 2009, and the Satpura Tiger Reserve. Days here go on waterfalls such as Bee Falls and Apsara Vihar, the Jata Shankar cave shrine, viewpoints like Priyadarshini Point and Dhoopgarh — at 1,352 m the state's highest point — and rock paintings up to 10,000 years old. October to March is clearest; the monsoon fills the falls.",
+     "facts": [
+      "BPAC1",
+      "PH1",
+      "PH2",
+      "PH15",
+      "PH3",
+      "PH6",
+      "PH7",
+      "PH5",
+      "PH8",
+      "PH4",
+      "PH11",
+      "PH13"
+     ]
+    },
+    "who_its_for": {
+     "items": [
+      {
+       "title": "Waterfall seekers",
+       "body": "Bee Falls, Apsara Vihar and Rajat Prapat."
+      },
+      {
+       "title": "Hikers",
+       "body": "Dhoopgarh and Chauragarh climbs and forest trails."
+      },
+      {
+       "title": "Pilgrims",
+       "body": "Jata Shankar and Chauragarh's Shiva temple."
+      },
+      {
+       "title": "History lovers",
+       "body": "Forsyth's Bison Lodge and the Mahadeo Hills rock art."
+      }
+     ],
+     "facts": [
+      "PH6",
+      "PH7",
+      "PH4",
+      "PH9",
+      "PH5",
+      "PH10",
+      "PH11"
+     ]
+    },
+    "best_time": {
+     "text": "October to March brings the coolest, clearest weather for sightseeing and trekking. The July–September monsoon fills Bee Falls and the other waterfalls to full flow, though trails get slippery. Chauragarh is busiest around Shivratri.",
+     "facts": [
+      "PH13",
+      "PH9"
+     ]
+    },
+    "how_to_reach": {
+     "text": "The nearest station is Pipariya, about 50 km away; Itarsi Junction, about 150 km, has wider connections. The nearest airports are Bhopal, about 200 km, and Jabalpur, 250–260 km. Bee Falls, the Jata Shankar caves and Priyadarshini Point are all close to town.",
+     "facts": [
+      "PH14",
+      "BPAC2"
+     ]
+    },
+    "practical_info": {
+     "items": [
+      {
+       "title": "Getting there",
+       "body": "Pipariya (about 50 km) is the nearest railhead; Bhopal (about 200 km) the nearest airport.",
+       "status": "verified"
+      },
+      {
+       "title": "Time",
+       "body": "Allow several unhurried days rather than a day trip.",
+       "status": "verified"
+      },
+      {
+       "title": "Protected area",
+       "body": "Pachmarhi lies in the Satpura Tiger Reserve and a UNESCO biosphere reserve.",
+       "status": "verified"
+      },
+      {
+       "title": "Weather",
+       "body": "October–March is clearest; monsoon trails are slippery.",
+       "status": "seasonal"
+      }
+     ],
+     "facts": [
+      "PH14",
+      "PH16",
+      "PH3",
+      "PH13"
+     ]
+    },
+    "highlights": {
+     "items": [
+      {
+       "body": "Dhoopgarh: Madhya Pradesh's highest point, 1,352 m, for sunrise and sunset."
+      },
+      {
+       "body": "Pandav Caves: five sandstone caves, a protected monument."
+      },
+      {
+       "body": "Jata Shankar: a cave shrine with 108 natural lingas and the Gupt Ganga stream."
+      },
+      {
+       "body": "Priyadarshini Point: Forsyth's first view, over the Handi Khoh ravine."
+      },
+      {
+       "body": "Bison Lodge Museum: Satpura flora, fauna and history."
+      }
+     ],
+     "facts": [
+      "PH4",
+      "PH1",
+      "PH5",
+      "PH8",
+      "PH10"
+     ]
+    },
+    "food": {
+     "items": [
+      {
+       "body": "Poha-jalebi, dal bafla and bhutte ki khees.",
+       "status": "verified"
+      },
+      {
+       "body": "Forest honey and Ayurvedic preparations from the markets.",
+       "status": "verified"
+      }
+     ],
+     "facts": [
+      "PH12"
+     ]
+    },
+    "faqs": {
+     "items": [
+      {
+       "title": "How high is Pachmarhi?",
+       "body": "At about 1,100 m in the Satpuras."
+      },
+      {
+       "title": "Which is the nearest railway station?",
+       "body": "Pipariya, about 50 km away."
+      },
+      {
+       "title": "What is the highest point?",
+       "body": "Dhoopgarh, at 1,352 m."
+      },
+      {
+       "title": "When should I go?",
+       "body": "October to March; the monsoon is best for waterfalls."
+      }
+     ],
+     "facts": [
+      "BPAC1",
+      "PH14",
+      "PH4",
+      "PH13"
+     ]
+    },
+    "common_mistakes": {
+     "items": [
+      {
+       "body": "Treating Pachmarhi as a day trip."
+      },
+      {
+       "body": "Underestimating Chauragarh's thousands of steps."
+      },
+      {
+       "body": "Expecting dry trails in the monsoon."
+      }
+     ],
+     "facts": [
+      "PH16",
+      "PH9",
+      "PH13"
+     ]
+    }
+   }
+  },
+  {
+   "key": "madhya-pradesh/gwalior",
+   "kind": "city",
+   "name": "Gwalior",
+   "summary": "A fort city: Tansen's birthplace, the world's first written zero, the Jai Vilas Palace and Bateshwar's temples.",
+   "seoTitle": "Gwalior Travel Guide: Fort, Jai Vilas Palace & Tansen",
+   "seoDescription": "Plan Gwalior: Gwalior Fort and Man Mandir, Jai Vilas Palace, the Chaturbhuj Temple's zero, Tansen, and the Bateshwar temples 35 km away.",
+   "lat": 26.2125,
+   "lng": 78.1775,
+   "tripTypes": [
+    "heritage"
+   ],
+   "images": [
+    {
+     "commons": "File:Jai Vilas Palace, Gwalior 003.jpg",
+     "alt": "The Jai Vilas Palace in Gwalior",
+     "caption": "Jai Vilas Palace",
+     "hero": true
+    }
+   ],
+   "wikidataId": "Q158467",
+   "sections": {
+    "overview": {
+     "text": "Gwalior grew around its hilltop fort, which legend says the chieftain Suraj Sen built after the hermit Gwalipa cured him. Inside 10-metre walls stand the Man Mandir palace, the twin 11th-century Sas-Bahu temples, the 100-ft Teli ka Mandir, Gurudwara Data Bandi Chhor and, on Gopachal Parvat, rock-cut figures of the 24 Jain Tirthankaras; an evening light and sound show tells the story.\n\nThe Chaturbhuj Temple carries the world's first written zero, and the city is the birthplace of Tansen, whose tomb hosts the five-day Tansen Samaroh each December — one reason UNESCO named Gwalior a Creative City of Music. Below the fort are the Scindias' Jai Vilas Palace museum, the Gujari Mahal museum and Rani Lakshmi Bai's samadhi. Eat bedai and take home gajak.",
+     "facts": [
+      "GW1",
+      "BGWF1",
+      "GW3",
+      "GW4",
+      "GW5",
+      "GW6",
+      "GW8",
+      "BGWL1",
+      "GW10",
+      "GW2",
+      "GW9",
+      "GW7",
+      "GW13",
+      "GW11"
+     ]
+    },
+    "who_its_for": {
+     "items": [
+      {
+       "title": "History lovers",
+       "body": "Gwalior Fort's palaces, temples and Jain sculptures."
+      },
+      {
+       "title": "Music lovers",
+       "body": "Tansen's tomb, Sarod Ghar and the Tansen Samaroh."
+      },
+      {
+       "title": "Pilgrims",
+       "body": "The Sas-Bahu temples, Gurudwara Data Bandi Chhor and the Sun Temple."
+      },
+      {
+       "title": "Food lovers",
+       "body": "Bedai and gajak."
+      }
+     ],
+     "facts": [
+      "GW3",
+      "GW6",
+      "GW10",
+      "GW16",
+      "GW4",
+      "GW5",
+      "GW12",
+      "GW11"
+     ]
+    },
+    "how_to_reach": {
+     "text": "Gwalior airport has domestic flights to Delhi, Mumbai, Indore and Bhopal; check current schedules. By rail, the New Delhi–Bhopal Shatabdi Express takes about 3 hours from New Delhi.",
+     "facts": [
+      "GW14"
+     ]
+    },
+    "practical_info": {
+     "items": [
+      {
+       "title": "Fort hours",
+       "body": "Gwalior Fort is open 6 am to 5:30 pm; stay for the evening light and sound show.",
+       "status": "verified"
+      },
+      {
+       "title": "Festival",
+       "body": "The Tansen Samaroh runs five days every December.",
+       "status": "seasonal"
+      },
+      {
+       "title": "Getting there",
+       "body": "Flights to Delhi, Mumbai, Indore and Bhopal; the Shatabdi takes 3 hours from New Delhi.",
+       "status": "unconfirmed"
+      }
+     ],
+     "facts": [
+      "BGWF2",
+      "GW8",
+      "GW10",
+      "GW14"
+     ]
+    },
+    "food": {
+     "items": [
+      {
+       "body": "Bedai, a crisp puri with a spiced lentil filling.",
+       "status": "verified"
+      },
+      {
+       "body": "Gajak, a sesame-and-jaggery sweet to take home.",
+       "status": "verified"
+      }
+     ],
+     "facts": [
+      "GW11"
+     ]
+    },
+    "faqs": {
+     "items": [
+      {
+       "title": "What is Gwalior famous for?",
+       "body": "The fort, with Man Mandir, Sas-Bahu, Teli ka Mandir and Gopachal Parvat."
+      },
+      {
+       "title": "When is the Tansen Samaroh?",
+       "body": "Every December, for five days."
+      },
+      {
+       "title": "Is there a light and sound show?",
+       "body": "Yes, an evening light and sound show at the fort."
+      },
+      {
+       "title": "What day trips are there?",
+       "body": "Mitaoli (37 km), Padavali (35 km) and the Bateshwar temples."
+      }
+     ],
+     "facts": [
+      "GW3",
+      "GW4",
+      "GW6",
+      "GW10",
+      "GW8",
+      "GW15",
+      "BGWL2"
+     ]
+    },
+    "common_mistakes": {
+     "items": [
+      {
+       "body": "Seeing only Man Mandir and missing Gopachal Parvat's Jain sculptures."
+      },
+      {
+       "body": "Leaving before the fort's light and sound show."
+      },
+      {
+       "body": "Missing the Tansen Samaroh if you are visiting in December."
+      }
+     ],
+     "facts": [
+      "GW6",
+      "GW8",
+      "GW10"
+     ]
+    }
+   }
+  }
+ ],
+ "itineraries": []
+}

@@ -18,6 +18,8 @@ export type ChatMessage =
       status: "streaming" | "done" | "error";
       summary?: string;
       error?: string;
+      /** The reply text while it streams in (replaced by the final text block). */
+      draft?: string;
       /** Progress line while the answer is being prepared. */
       statusText?: string;
       /** Trip details the planner remembered after this answer; sent back with the next question. */
@@ -51,7 +53,7 @@ function load(): Chat[] {
       ...c,
       // A reply that was still streaming when the tab closed can't resume.
       messages: c.messages.map((m) =>
-        m.role === "assistant" && m.status === "streaming" ? { ...m, status: "error" as const, error: "This reply was interrupted." } : m,
+        m.role === "assistant" && m.status === "streaming" ? { ...m, status: "error" as const, error: "This reply was interrupted.", draft: undefined } : m,
       ),
     }));
   } catch {

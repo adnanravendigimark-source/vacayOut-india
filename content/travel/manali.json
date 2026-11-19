@@ -323,6 +323,16 @@
       "url": "https://en.wikipedia.org/wiki/Kalka%E2%80%93Shimla_railway",
       "title": "Kalka–Shimla railway — Wikipedia",
       "authority": "reference"
+    },
+    "HPT_KAN": {
+      "url": "https://himachaltourism.gov.in/destination/kangra/",
+      "title": "Kangra — Himachal Tourism",
+      "authority": "government"
+    },
+    "HPT_CHA": {
+      "url": "https://himachaltourism.gov.in/destination/chamba/",
+      "title": "Chamba — Himachal Tourism",
+      "authority": "government"
     }
   },
   "facts": {
@@ -3102,6 +3112,142 @@
           "quote": "From the righteous greens of Sangla valley with well developed orchards of apricots and apples, to the magnificent panorama of Chitkul, India’s last village on Indo-Tibet border, and from the stunning sight of Mt. Kinner Kailash, abode of Lord Shiva from Kalpa, to the pristine lake at Nako village"
         }
       ]
+    },
+    "RG1": {
+      "place": "himachal-pradesh",
+      "topic": "Shimla ice skating",
+      "claim": "Shimla's ice-skating season lasts until February.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "HPT_SHI",
+          "quote": "The ice skating season lasts upto February"
+        }
+      ]
+    },
+    "RG2": {
+      "place": "himachal-pradesh",
+      "topic": "Who Shimla suits",
+      "claim": "Shimla is popular with all kinds of visitors.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "HPT_SHI",
+          "quote": "Popular with all kinds of visitors"
+        }
+      ]
+    },
+    "RG3": {
+      "place": "himachal-pradesh",
+      "topic": "Who Manali suits",
+      "claim": "Manali is a haven for nature lovers and adventure enthusiasts.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "HPT_MN",
+          "quote": "makes it a haven for nature lovers and adventure enthusiasts"
+        }
+      ]
+    },
+    "RG4": {
+      "place": "himachal-pradesh",
+      "topic": "Kangra season",
+      "claim": "The best time to visit Kangra is September to May, for sightseeing and adventure sports.",
+      "claimType": "schedule",
+      "evidence": [
+        {
+          "source": "HPT_KAN",
+          "quote": "Best time to visit Kangra is from September to May."
+        },
+        {
+          "source": "HPT_KAN",
+          "quote": "This is an ideal time to go sightseeing, indulge in adventure sports and join in other outdoor escapades."
+        }
+      ]
+    },
+    "RG5": {
+      "place": "himachal-pradesh",
+      "topic": "Pilgrims near Dharamshala",
+      "claim": "The Chamunda Devi temple draws pilgrims around the year.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "HPT_DSL",
+          "quote": "draws a steady stream of pilgrims around the year"
+        }
+      ]
+    },
+    "RG6": {
+      "place": "himachal-pradesh",
+      "topic": "Dalhousie season",
+      "claim": "Summer (March–June) is the best time for Dalhousie and Khajjiar; Khajjiar's hills suit trekking.",
+      "claimType": "schedule",
+      "evidence": [
+        {
+          "source": "HPT_DAL",
+          "quote": "Summer is the best time to be in Dalhousie and Khajjiar."
+        },
+        {
+          "source": "HPT_DAL",
+          "quote": "Summer March – June 18°C – 27°C"
+        },
+        {
+          "source": "HPT_DAL",
+          "quote": "ideal for trekking and excursions out into the wilderness"
+        }
+      ]
+    },
+    "RG7": {
+      "place": "himachal-pradesh",
+      "topic": "Chamba's Chaugan",
+      "claim": "Chamba's Chaugan is ideal for leisure and picnics.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "HPT_CHA",
+          "quote": "ideal for leisure, picnics and holding of sporting events"
+        }
+      ]
+    },
+    "RG8": {
+      "place": "himachal-pradesh",
+      "topic": "Who Lahaul suits",
+      "claim": "Lahaul is a favourite with adventurers.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "HPT_LAH",
+          "quote": "The barren splendour of the place is still a favourite with nomadic tribes and adventurers."
+        }
+      ]
+    },
+    "RG9": {
+      "place": "himachal-pradesh",
+      "topic": "Trekkers and campers in Spiti",
+      "claim": "Chandratal is very popular among trekkers and campers.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "HPT_SPI",
+          "quote": "The lake is a very popular among trekkers and campers."
+        }
+      ]
+    },
+    "RG10": {
+      "place": "himachal-pradesh",
+      "topic": "Kinnaur season and who it suits",
+      "claim": "April to October is a good time to visit Kinnaur, a haven for nature trekkers.",
+      "claimType": "schedule",
+      "evidence": [
+        {
+          "source": "HPT_KIN",
+          "quote": "April to October is a good time to visit Kinnaur."
+        },
+        {
+          "source": "HPT_KIN",
+          "quote": "Relatively untouched this valley is a nature trekkers haven."
+        }
+      ]
     }
   },
   "places": [
@@ -3274,32 +3420,32 @@
           "items": [
             {
               "title": "Shimla and the Kalka–Shimla line",
-              "body": "The state capital's Ridge, Mall and Viceregal Lodge, reached on the 96 km toy train with 102 tunnels; Kasauli's cantonment is 77 km away and the Solan hills are mild all year.",
+              "body": "The state capital's Ridge, Mall and Viceregal Lodge, reached on the 96 km toy train with 102 tunnels; Kasauli's cantonment is 77 km away and the Solan hills are mild all year. Best season: mid-April–June, when Shimla stays mild; ice skating runs until February. Suits: all kinds of visitors.",
               "status": "verified"
             },
             {
               "title": "Kullu–Manali and the Parvati valley",
-              "body": "Kullu town and its October Dussehra, Manali for snow and the Atal Tunnel to Lahaul, Kasol and Manikaran's hot springs in the Parvati valley, and the Great Himalayan National Park — a UNESCO site with no roads inside.",
+              "body": "Kullu town and its October Dussehra, Manali for snow and the Atal Tunnel to Lahaul, Kasol and Manikaran's hot springs in the Parvati valley, and the Great Himalayan National Park — a UNESCO site with no roads inside. Best season: April–July and October–December. Suits: nature lovers and adventure seekers.",
               "status": "verified"
             },
             {
               "title": "Kangra and Dharamshala",
-              "body": "McLeodganj's Namgyal Monastery, a seat of the Dalai Lama; Kangra Fort; Palampur's tea gardens; and paragliding at Bir Billing.",
+              "body": "McLeodganj's Namgyal Monastery, a seat of the Dalai Lama; Kangra Fort; Palampur's tea gardens; and paragliding at Bir Billing. Best season: March–June and December–February in Dharamshala; September–May in the Kangra valley. Suits: pilgrims, sightseeing and adventure sports.",
               "status": "verified"
             },
             {
               "title": "Chamba and Dalhousie",
-              "body": "Chamba's stone temples and the week-long Minjar Fair, Dalhousie's colonial hill station and the meadow at Khajjiar.",
+              "body": "Chamba's stone temples and the week-long Minjar Fair, Dalhousie's colonial hill station and the meadow at Khajjiar. Best season: summer, March–June. Suits: picnics on Chamba's Chaugan and treks around Khajjiar.",
               "status": "verified"
             },
             {
               "title": "Lahaul and Spiti",
-              "body": "A cold, almost rainless high desert above 3,000 m: Key Monastery at 4,166 m, Tabo, Kunzum Pass and Chandratal. Kaza buses run from Manali July–October and via Kinnaur May–October; foreigners need an Inner Line Permit for some inner areas.",
+              "body": "A cold, almost rainless high desert above 3,000 m: Key Monastery at 4,166 m, Tabo, Kunzum Pass and Chandratal. Kaza buses run from Manali July–October and via Kinnaur May–October; foreigners need an Inner Line Permit for some inner areas. Best season: April–October. Suits: adventurers, trekkers and campers.",
               "status": "seasonal"
             },
             {
               "title": "Kinnaur",
-              "body": "On the Hindustan–Tibet Road: Sangla's orchards, Chitkul on the Tibet border, Kalpa facing Kinner Kailash, the lake at Nako, and the ancient Sazo festival.",
+              "body": "On the Hindustan–Tibet Road: Sangla's orchards, Chitkul on the Tibet border, Kalpa facing Kinner Kailash, the lake at Nako, and the ancient Sazo festival. Best season: April–October. Suits: trekkers and nature lovers.",
               "status": "verified"
             }
           ],
@@ -3323,11 +3469,26 @@
             "HP14",
             "HS20",
             "KN1S",
-            "HPR4"
+            "HPR4",
+            "HS8",
+            "HP12",
+            "RG1",
+            "RG2",
+            "MN10",
+            "RG3",
+            "HS10",
+            "RG4",
+            "RG5",
+            "RG6",
+            "RG7",
+            "HS13",
+            "RG8",
+            "RG9",
+            "RG10"
           ]
         },
         "best_time": {
-          "text": "Summer (mid-April–June): Bilaspur, Una, Solan, Sirmour, Hamirpur and Kangra get hot, while Chamba, Kinnaur, Kullu, Shimla and Lahaul-Spiti stay mild — Dharamshala's best months run from March to June.\n\nMonsoon (July–September): roads are slippery and landslides and rock-falls happen, and rafting and paragliding stop from 15 July to 15 September. Spiti and Lahaul sit in the rain shadow and stay almost dry.\n\nAutumn (October–November): clear weather and festival time — Kullu Dussehra in October and Kinnaur's Tribal Festival into early November. Heavy snow closes Rohtang Pass in late November.\n\nWinter (late November–mid-March): snow is common in the high areas; December to February gives the best chance of snow in the Kullu valley and in Dharamshala, and Spiti can fall to −20°C.\n\nSpiti and Kinnaur: pleasant from April to October, around 15–20°C in May and June; buses to Kaza run only in the open season.\n\nHigh roads: Lahaul used to be cut off at Rohtang from late November to mid-May; the 9.02-km Atal Tunnel, opened in October 2020, now links Manali with Keylong. Rafting near Kullu runs March–May and September–November.",
+          "text": "Summer (mid-April–June): Bilaspur, Una, Solan, Sirmour, Hamirpur and Kangra get hot, while Chamba, Kinnaur, Kullu, Shimla and Lahaul-Spiti stay mild — Dharamshala's best months run from March to June.\n\nMonsoon (July–September): roads are slippery and landslides and rock-falls happen, and rafting and paragliding stop from 15 July to 15 September. Spiti and Lahaul sit in the rain shadow and stay almost dry.\n\nAutumn (October–November): clear weather and festival time — Kullu Dussehra in October and Kinnaur's Tribal Festival into early November. Heavy snow closes Rohtang Pass in late November.\n\nWinter (late November–mid-March): snow is common in the high areas; December to February gives the best chance of snow in the Kullu valley and in Dharamshala, and Spiti can fall to −20°C.\n\nSpiti and Kinnaur: pleasant from April to October, around 15–20°C in May and June; buses to Kaza run only in the open season.\n\nHigh roads: Lahaul used to be cut off at Rohtang from late November to mid-May; the 9.02-km Atal Tunnel, opened in October 2020, now links Manali with Keylong. Rafting near Kullu runs March–May and again from mid-September, once the monsoon closure ends, to November.",
           "facts": [
             "HS8",
             "HP12",
@@ -3609,7 +3770,7 @@
           ]
         },
         "best_time": {
-          "text": "Manali has two main visitor seasons: April to July, when summer days are around 22–30°C, and October to December. Snow falls mainly from December to early March, and in December–January it can drop below −5°C — the time for skiing at Solang and the Winter Carnival in the first week of January.\n\nThe road over Rohtang Pass usually reopens around May and closes in late November; June to August is when visitors drive up to see snow. In the monsoon (July–August) roads can be hit by landslides, and paragliding and rafting stop from 15 July to 15 September. For Solang, Incredible India suggests April to June and September to January.",
+          "text": "Manali has two main visitor seasons: April to July, when summer days are around 22–30°C, and October to December. Snow falls mainly from December to early March, and in December–January it can drop below −5°C — the time for skiing at Solang and the Winter Carnival in the first week of January.\n\nThe road over Rohtang Pass usually reopens around May and closes in late November; June to August is when visitors drive up to see snow. In the monsoon (July–August) roads can be hit by landslides, and paragliding and rafting stop from 15 July to 15 September. For sightseeing and adventure at Solang, Incredible India suggests April to June and September to January; for snow and skiing, come between December and early March.",
           "facts": [
             "MN10",
             "MN11",

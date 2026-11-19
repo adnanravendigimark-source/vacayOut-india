@@ -1,0 +1,1045 @@
+{
+ "cluster": "northeast2-cherrapunji-ziro",
+ "title": "Cherrapunji and Ziro (Batch 6)",
+ "researchedAt": "2026-11-18",
+ "selection": "Batch 6. Cherrapunji (4 sections, practical_info state filler) and Ziro (3, practical_info and things_to_do filler). Adds who it's for, things to do, food, tips, etiquette, FAQs and mistakes for Sohra; overview, who it's for, best time, how to reach, etiquette, FAQs and mistakes for Ziro. Replacements for the filler sections and a fuller Ziro overview go in as pending suggestions. Nohkalikai's height differs by source (about 340 m, 350 m, 'over 1,100 feet'), so no new height is given. Incredible India's Cherrapunjee page credits the Nongkrem festival to the town; it is held near Shillong, so it is not used. meghalaya-4-days itinerary left for the audit.",
+ "sources": {
+  "II_SOHRA": {
+   "url": "https://www.incredibleindia.gov.in/en/meghalaya/cherrapunjee",
+   "title": "Cherrapunjee — Incredible India",
+   "authority": "government"
+  },
+  "II_SOHN": {
+   "url": "https://www.incredibleindia.gov.in/en/meghalaya/cherrapunjee/cherrapunjees-natural-wonders",
+   "title": "Cherrapunjee's natural wonders — Incredible India",
+   "authority": "government"
+  },
+  "II_ARWAH": {
+   "url": "https://www.incredibleindia.gov.in/en/meghalaya/cherrapunjee/arwah-cave",
+   "title": "Arwah Cave — Incredible India",
+   "authority": "government"
+  },
+  "II_MAWS": {
+   "url": "https://www.incredibleindia.gov.in/en/meghalaya/cherrapunjee/mawsmai-cave",
+   "title": "Mawsmai Cave — Incredible India",
+   "authority": "government"
+  },
+  "W_SOHRA": {
+   "url": "https://en.wikipedia.org/wiki/Sohra",
+   "title": "Sohra — Wikipedia",
+   "authority": "reference"
+  },
+  "II_ZIRO": {
+   "url": "https://www.incredibleindia.gov.in/en/arunachal-pradesh/ziro",
+   "title": "Ziro — Incredible India",
+   "authority": "government"
+  },
+  "W_APA": {
+   "url": "https://en.wikipedia.org/wiki/Apatani_people",
+   "title": "Apatani people — Wikipedia",
+   "authority": "reference"
+  },
+  "W_ZFM": {
+   "url": "https://en.wikipedia.org/wiki/Ziro_Festival_of_Music",
+   "title": "Ziro Festival of Music — Wikipedia",
+   "authority": "reference"
+  },
+  "II_CHE": {
+   "url": "https://www.incredibleindia.gov.in/en/meghalaya/cherrapunjee",
+   "title": "Cherrapunjee — Incredible India (Ministry of Tourism, Government of India)",
+   "authority": "government"
+  },
+  "W_CHE": {
+   "url": "https://en.wikipedia.org/wiki/Cherrapunji",
+   "title": "Cherrapunji — Wikipedia",
+   "authority": "reference"
+  },
+  "II_NOH": {
+   "url": "https://www.incredibleindia.gov.in/en/meghalaya/cherrapunjee/nohkalikai-falls",
+   "title": "Nohkalikai Falls — Incredible India (Ministry of Tourism, Government of India)",
+   "authority": "government"
+  },
+  "W_LRB": {
+   "url": "https://en.wikipedia.org/wiki/Living_root_bridge",
+   "title": "Living root bridge — Wikipedia",
+   "authority": "reference"
+  },
+  "II_ZIR": {
+   "url": "https://www.incredibleindia.gov.in/en/arunachal-pradesh/ziro",
+   "title": "Ziro — Incredible India (Ministry of Tourism, Government of India)",
+   "authority": "government"
+  },
+  "W_ILP": {
+   "url": "https://en.wikipedia.org/wiki/Inner_Line_Permit",
+   "title": "Inner Line Permit — Wikipedia",
+   "authority": "reference"
+  },
+  "EILP": {
+   "url": "https://eilp.arunachal.gov.in/",
+   "title": "Tourist e-ILP — Government of Arunachal Pradesh",
+   "authority": "government"
+  },
+  "W_SHL": {
+   "url": "https://en.wikipedia.org/wiki/Shillong",
+   "title": "Shillong — Wikipedia",
+   "authority": "reference"
+  },
+  "W_PAP": {
+   "url": "https://en.wikipedia.org/wiki/Protected_Area_Permit",
+   "title": "Protected Area Permit — Wikipedia",
+   "authority": "reference"
+  }
+ },
+ "facts": {
+  "BCH1": {
+   "place": "meghalaya/cherrapunji",
+   "topic": "Sohra",
+   "claim": "Cherrapunji (Sohra), about 50 km from Shillong, still holds the records for the most rain in a month and a year.",
+   "claimType": "general",
+   "evidence": [
+    {
+     "source": "II_CHE",
+     "quote": "The town is located around 50 kilometers from Shillong"
+    },
+    {
+     "source": "W_CHE",
+     "quote": "Sohra still holds the all-time record for the most rainfall in a calendar month and in a year"
+    }
+   ]
+  },
+  "BCH2": {
+   "place": "meghalaya/cherrapunji",
+   "topic": "Best time",
+   "claim": "November to February is the drier season, best for falls, caves and root bridges.",
+   "claimType": "general",
+   "evidence": [
+    {
+     "source": "II_CHE",
+     "quote": "The best time to visit Cherrapunjee is undoubtedly during winter, from November to February."
+    }
+   ],
+   "kind": "seasonal"
+  },
+  "BCHN1": {
+   "place": "meghalaya/nohkalikai-falls",
+   "topic": "Nohkalikai",
+   "claim": "Nohkalikai Falls, about 340 m, is India's tallest plunge waterfall; viewpoint open 9 am–5 pm.",
+   "claimType": "general",
+   "evidence": [
+    {
+     "source": "II_NOH",
+     "quote": "Towering at an astonishing 340 meters, it is the tallest plunge waterfall in India."
+    }
+   ]
+  },
+  "BCHM1": {
+   "place": "meghalaya/mawsmai-cave",
+   "topic": "Mawsmai Cave",
+   "claim": "Mawsmai is a limestone cave stretching about 820 ft; open 9 am–5 pm.",
+   "claimType": "general",
+   "evidence": [
+    {
+     "source": "II_CHE",
+     "quote": "Cherrapunji also boasts stunning limestone caves and its Mawsmai Cave, stretches 820 feet into the earth."
+    }
+   ]
+  },
+  "BCHB1": {
+   "place": "meghalaya/double-decker-living-root-bridge",
+   "topic": "The trek",
+   "claim": "The trek to Nongriat's double-decker root bridge starts at Tyrna and descends about 3,500 steps.",
+   "claimType": "general",
+   "evidence": [
+    {
+     "source": "II_CHE",
+     "quote": "This route begins from Tyrna village, involving a descent of about 3500 steps."
+    }
+   ]
+  },
+  "BCHB2": {
+   "place": "meghalaya/double-decker-living-root-bridge",
+   "topic": "Root bridges",
+   "claim": "The bridges are grown from rubber fig roots by the Khasi and Jaintia peoples.",
+   "claimType": "general",
+   "evidence": [
+    {
+     "source": "W_LRB",
+     "quote": "The structures are handmade from the aerial roots of rubber fig trees ( Ficus elastica"
+    }
+   ]
+  },
+  "BZR1": {
+   "place": "arunachal-pradesh/ziro",
+   "topic": "Ziro",
+   "claim": "Ziro, at about 1,500 m and 165 km from Itanagar, is home to the Apatani and their paddy-cum-fish farming; it was shortlisted for UNESCO in 2012.",
+   "claimType": "general",
+   "evidence": [
+    {
+     "source": "II_ZIR",
+     "quote": "Located at an elevation of about 1,500 metres, nearly 165 km from Itanagar"
+    },
+    {
+     "source": "II_ZIR",
+     "quote": "Shortlisted in 2012 for UNESCO World Heritage Site status, the valley is renowned for its unique paddy-cum-pisciculture system practised by the indigenous Apatani tribe"
+    }
+   ]
+  },
+  "BZR2": {
+   "place": "arunachal-pradesh/ziro",
+   "topic": "Ziro Festival",
+   "claim": "The four-day Ziro Festival brings music, dance and Apatani tradition to the valley.",
+   "claimType": "general",
+   "evidence": [
+    {
+     "source": "II_ZIR",
+     "quote": "most notably the annual four-day Ziro Festival"
+    }
+   ],
+   "kind": "seasonal"
+  },
+  "BAR2": {
+   "place": "arunachal-pradesh",
+   "topic": "Inner Line Permit",
+   "claim": "Indian visitors need an Inner Line Permit to enter Arunachal Pradesh; a tourist ILP is valid for 15 days, and can be applied for online as an e-ILP.",
+   "claimType": "rule",
+   "evidence": [
+    {
+     "source": "W_ILP",
+     "quote": "It is required for entering Arunachal Pradesh through any of the check points across the interstate border with Assam or Nagaland . An ILP for temporary visitors is valid for 15 days and can be extended"
+    },
+    {
+     "source": "EILP",
+     "quote": "has developed a online web based application to issue Tourist eILP"
+    }
+   ]
+  },
+  "BSL2": {
+   "place": "meghalaya/shillong",
+   "topic": "Getting there",
+   "claim": "Shillong is 100 km from Guwahati by NH 40, about 2.5 hours, passing Umiam Lake.",
+   "claimType": "distance",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "W_SHL",
+     "quote": "Shillong is just 100 km (62 mi) from Guwahati, accessible by road along NH 40."
+    },
+    {
+     "source": "W_SHL",
+     "quote": "The journey is of about 2 hours and 30 minutes"
+    }
+   ]
+  },
+  "BTWN7": {
+   "place": "arunachal-pradesh/tawang",
+   "topic": "Foreign visitors",
+   "claim": "Foreign nationals need a Protected Area Permit for the whole of Arunachal Pradesh.",
+   "claimType": "rule",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "W_PAP",
+     "quote": "a protected area permit (pap) is required for non-indian citizens to visit certain areas in india"
+    },
+    {
+     "source": "W_PAP",
+     "quote": "whole of arunachal pradesh"
+    }
+   ]
+  },
+  "CJ1": {
+   "place": "meghalaya/cherrapunji",
+   "topic": "Rainbow Falls",
+   "claim": "Beyond the Double Decker bridge, a harder trail continues to Rainbow Falls; the short walk to the Riwai root bridge near Mawlynnong is the easy option.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "II_SOHRA",
+     "quote": "Another scenic route is to the Rainbow Falls, which extends from the Double Decker Bridge, taking you deeper into the forest and offering a more challenging terrain"
+    },
+    {
+     "source": "II_SOHRA",
+     "quote": "the trek to the single root bridge in Riwai village near Mawlynnong is an excellent option"
+    }
+   ]
+  },
+  "CJ2": {
+   "place": "meghalaya/cherrapunji",
+   "topic": "Waterfalls",
+   "claim": "The falls are at their most thunderous in the monsoon; Seven Sisters Falls drops in seven segments.",
+   "claimType": "general",
+   "kind": "seasonal",
+   "evidence": [
+    {
+     "source": "II_SOHRA",
+     "quote": "During the monsoon, when the rainfall reaches its zenith, they transform into thunderous cascades."
+    },
+    {
+     "source": "II_SOHRA",
+     "quote": "the Seven Sisters Falls presents a magnificent sight as the water descends in seven segments"
+    }
+   ]
+  },
+  "CJ3": {
+   "place": "meghalaya/cherrapunji",
+   "topic": "Crafts",
+   "claim": "Local crafts are bamboo and cane: baskets, mats, hats and furniture.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "II_SOHRA",
+     "quote": "The town’s handicraft scene is predominantly woven around bamboo and cane, with beautiful creations ranging from intricate baskets, mats, and hats to elaborate furniture"
+    }
+   ]
+  },
+  "CJ4": {
+   "place": "meghalaya/cherrapunji",
+   "topic": "Food",
+   "claim": "Try jadoh (rice and meat), tungrymbai (fermented soybean), putharo (rice cakes) and tungtap (dry-fish chutney).",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "II_SOHRA",
+     "quote": "jadoh, a spicy rice and meat dish, and tung-rymbai, a fermented soybean delicacy"
+    },
+    {
+     "source": "II_SOHRA",
+     "quote": "serve delectable putharo (rice cakes) and tungtap (dry fish chutney)"
+    }
+   ]
+  },
+  "CJ5": {
+   "place": "meghalaya/cherrapunji",
+   "topic": "Viewpoints",
+   "claim": "Nearby sights include Khoh Ramhah ('rock basket of a giant'), Dain-Thlen Falls and the Mawkdok Dympep valley view.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "II_SOHN",
+     "quote": "Khoh Ramhah, which means ‘rock basket of a giant’, also stands as an impressive natural wonder near Cherrapunjee"
+    },
+    {
+     "source": "II_SOHN",
+     "quote": "Dain-Thlen Falls features Dain-Thlen Rock"
+    },
+    {
+     "source": "II_SOHN",
+     "quote": "Mawkdok Dympep Valley View stands as a testament to this beauty"
+    }
+   ]
+  },
+  "CJ6": {
+   "place": "meghalaya/cherrapunji",
+   "topic": "Arwah Cave",
+   "claim": "Arwah Cave (Krem Arwah) is known for fossils in lit-up chambers; wear sturdy, mud-friendly shoes, bring a torch and limit flash.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "II_ARWAH",
+     "quote": "Venture into the depths of Arwah Cave, also known as Krem Arwah"
+    },
+    {
+     "source": "II_ARWAH",
+     "quote": "This cave is famous for its fossils, which are showcased with lit-up interiors"
+    },
+    {
+     "source": "II_ARWAH",
+     "quote": "wear comfortable clothing and sturdy, mud-friendly shoes, as caves can be cold and damp"
+    },
+    {
+     "source": "II_ARWAH",
+     "quote": "it's important to limit flash use to protect its fragile ecosystem"
+    }
+   ]
+  },
+  "CJ7": {
+   "place": "meghalaya/cherrapunji",
+   "topic": "Mawsmai inside",
+   "claim": "Mawsmai's tourist route is short and safe but has spots where you squeeze and crawl.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "II_MAWS",
+     "quote": "you'll encounter spots where you need to squeeze and crawl"
+    },
+    {
+     "source": "II_MAWS",
+     "quote": "the path accessible to tourists is short and completely safe"
+    }
+   ]
+  },
+  "CJ8": {
+   "place": "meghalaya/cherrapunji",
+   "topic": "Water",
+   "claim": "Despite the rain, Sohra suffers an acute water shortage.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "W_SOHRA",
+     "quote": "Despite abundant rainfall, Sohra faces an acute water shortage"
+    }
+   ]
+  },
+  "CJ9": {
+   "place": "meghalaya/cherrapunji",
+   "topic": "Matrilineal",
+   "claim": "Khasi society is matrilineal.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "W_SOHRA",
+     "quote": "The main pivot on which the entire superstructure of Khasi society rests is the matrilineal system."
+    }
+   ]
+  },
+  "CJ10": {
+   "place": "meghalaya/cherrapunji",
+   "topic": "Rubber-tree bridges",
+   "claim": "Some living root bridges are over a century old.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "II_SOHRA",
+     "quote": "These bridges, some over a century old, are a marvel of bio-engineering"
+    }
+   ]
+  },
+  "ZI2": {
+   "place": "arunachal-pradesh/ziro",
+   "topic": "Talley Valley",
+   "claim": "Talley Valley Wildlife Sanctuary, at about 2,400 m and 337 sq km, shelters the clouded leopard.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "II_ZIRO",
+     "quote": "Talley Valley Wildlife Sanctuary lies at an altitude of around 2,400 metres and spans 337 sq km"
+    },
+    {
+     "source": "II_ZIRO",
+     "quote": "including the clouded leopard"
+    }
+   ]
+  },
+  "ZI3": {
+   "place": "arunachal-pradesh/ziro",
+   "topic": "Kile Pakho",
+   "claim": "Kile Pakho looks over the Ziro plateau on one side and the snowy Eastern Himalayas on the other.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "II_ZIRO",
+     "quote": "Kile Pakho offers sweeping panoramic views- the Ziro Plateau on one side and the snow-capped Eastern Himalayas on the other"
+    }
+   ]
+  },
+  "ZI4": {
+   "place": "arunachal-pradesh/ziro",
+   "topic": "Pine Grove and Siikhe",
+   "claim": "Pine Grove is 3 km from Old Ziro; Siikhe Lake, Arunachal's first artificial lake, is 2.5 km from Hapoli.",
+   "claimType": "distance",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "II_ZIRO",
+     "quote": "Located just 3 km from Old Ziro, Pine Grove"
+    },
+    {
+     "source": "II_ZIRO",
+     "quote": "The first artificial lake of Arunachal Pradesh, Siikhe Lake lies about 2.5 km from Hapoli town."
+    }
+   ]
+  },
+  "ZI5": {
+   "place": "arunachal-pradesh/ziro",
+   "topic": "Tarin Fish Farm",
+   "claim": "At Tarin Fish Farm, the Apatani grow Mipya and Emoh rice with Ngihi fish in the same fields.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "II_ZIRO",
+     "quote": "Here, two rice crops, namely Mipya and Emoh, are cultivated alongside the Ngihi fish crop."
+    }
+   ]
+  },
+  "ZI6": {
+   "place": "arunachal-pradesh/ziro",
+   "topic": "Siddheshwar Nath",
+   "claim": "At Kardo, the Siddheshwar Nath shrine holds a natural Shiva linga about 25 ft tall and 22 ft wide, found in 2004.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "II_ZIRO",
+     "quote": "houses the world’s largest naturally formed Shiv Linga, measuring 25 feet tall and 22 feet wide"
+    },
+    {
+     "source": "II_ZIRO",
+     "quote": "Discovered in 2004"
+    }
+   ]
+  },
+  "ZI7": {
+   "place": "arunachal-pradesh/ziro",
+   "topic": "Dolo Mando",
+   "claim": "Dolo Mando, on the Daporijo road, is reached only on foot and overlooks Hapoli and Old Ziro.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "II_ZIRO",
+     "quote": "Situated on the western side of Ziro along the Daporijo Road, Dolo Mando is accessible only by trekking."
+    },
+    {
+     "source": "II_ZIRO",
+     "quote": "The trail rewards adventurers with stunning views of Hapoli town and Old Ziro."
+    }
+   ]
+  },
+  "ZI8": {
+   "place": "arunachal-pradesh/ziro",
+   "topic": "Seasons",
+   "claim": "Spring (March–May) and autumn (September–November) are best; the Ziro music festival is in September.",
+   "claimType": "general",
+   "kind": "seasonal",
+   "evidence": [
+    {
+     "source": "II_ZIRO",
+     "quote": "The best time to visit Ziro Valley is during spring (March-May) and autumn (September-November)"
+    },
+    {
+     "source": "II_ZIRO",
+     "quote": "festivals like the Ziro Music Festival which is held in September"
+    }
+   ]
+  },
+  "ZI9": {
+   "place": "arunachal-pradesh/ziro",
+   "topic": "Getting there",
+   "claim": "Lilabari airport is about 123 km (4–5 hours); Hollongi near Itanagar about 135 km; Naharlagun station about 100 km. APSTC buses and shared sumos run from Itanagar, Naharlagun and Guwahati.",
+   "claimType": "distance",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "II_ZIRO",
+     "quote": "Lilabari Airport (IXI) is the nearest airport, located approximately 123 km from Ziro"
+    },
+    {
+     "source": "II_ZIRO",
+     "quote": "Hollongi Airport (HGI), near Itanagar, is about 135 km from Ziro"
+    },
+    {
+     "source": "II_ZIRO",
+     "quote": "is the nearest major railway station, situated about 100 km from Ziro"
+    },
+    {
+     "source": "II_ZIRO",
+     "quote": "Regular buses operated by the Arunachal Pradesh State Road Transport Corporation, along with shared sumos and taxis, operate from Itanagar, Naharlagun, and Guwahati to Ziro."
+    }
+   ]
+  },
+  "ZI10": {
+   "place": "arunachal-pradesh/ziro",
+   "topic": "Dree and Myoko",
+   "claim": "The Apatani's main festivals are Dree, an agricultural festival in July, and Myoko, mainly in mid-March.",
+   "claimType": "general",
+   "kind": "seasonal",
+   "evidence": [
+    {
+     "source": "W_APA",
+     "quote": "They have two major festivals – Dree and Myoko."
+    },
+    {
+     "source": "W_APA",
+     "quote": "The main celebration occurs in mid-March"
+    }
+   ]
+  },
+  "ZI11": {
+   "place": "arunachal-pradesh/ziro",
+   "topic": "Music festival",
+   "claim": "The Ziro Festival of Music, founded in 2012, runs over four days and is hosted by the Apatani.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "W_ZFM",
+     "quote": "It was founded in 2012 by Bobby Hano"
+    },
+    {
+     "source": "W_ZFM",
+     "quote": "The festival is spread over four days and is hosted by members of the Apatani people in Ziro"
+    }
+   ]
+  },
+  "ZI12": {
+   "place": "arunachal-pradesh/ziro",
+   "topic": "Apatani crafts",
+   "claim": "The Apatani are known for handloom, cane and bamboo crafts and their village councils.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "W_APA",
+     "quote": "The tribe is known for their colorful culture with various festivals, intricate handloom designs, skills in cane and bamboo crafts, and vibrant traditional village councils"
+    }
+   ]
+  }
+ },
+ "places": [
+  {
+   "key": "meghalaya/cherrapunji",
+   "kind": "town",
+   "name": "Cherrapunji (Sohra)",
+   "summary": "Record-breaking rain, plunging waterfalls, limestone caves and living root bridges.",
+   "seoTitle": "Cherrapunji Travel Guide: Falls, Caves & Root Bridges",
+   "seoDescription": "Plan Cherrapunji (Sohra): Nohkalikai Falls, Mawsmai Cave, the double-decker root bridge at Nongriat, and the best time to visit.",
+   "lat": 25.284,
+   "lng": 91.721,
+   "tripTypes": [
+    "nature",
+    "adventure"
+   ],
+   "images": [
+    {
+     "commons": "File:Stairway descending into a lush forested valley in Cherrapunji (Sohra), Meghalaya.jpg",
+     "alt": "A stairway into a green forested valley at Sohra",
+     "caption": "Cherrapunji (Sohra)",
+     "hero": true
+    }
+   ],
+   "wikidataId": "Q211030",
+   "relations": [
+    {
+     "to": "meghalaya/shillong",
+     "type": "day_trip"
+    }
+   ],
+   "sections": {
+    "who_its_for": {
+     "items": [
+      {
+       "title": "Trekkers",
+       "body": "Double Decker root bridge, Rainbow Falls and the Riwai bridge."
+      },
+      {
+       "title": "Cave explorers",
+       "body": "Mawsmai and Arwah caves."
+      },
+      {
+       "title": "Waterfall lovers",
+       "body": "Monsoon waterfalls, including Seven Sisters."
+      },
+      {
+       "title": "Culture lovers",
+       "body": "Khasi food and bamboo-and-cane crafts."
+      }
+     ],
+     "facts": [
+      "BCHB1",
+      "CJ1",
+      "BCHM1",
+      "CJ6",
+      "CJ2",
+      "CJ4",
+      "CJ3"
+     ]
+    },
+    "practical_info": {
+     "items": [
+      {
+       "title": "Getting there",
+       "body": "Sohra is about 50 km from Shillong; Shillong is 100 km (about 2.5 hours) from Guwahati airport.",
+       "status": "verified"
+      },
+      {
+       "title": "Root bridge trek",
+       "body": "The Double Decker trek starts at Tyrna and goes down about 3,500 steps — and back up.",
+       "status": "verified"
+      },
+      {
+       "title": "Season",
+       "body": "November–February is drier; the monsoon is wettest but the falls are biggest.",
+       "status": "seasonal"
+      },
+      {
+       "title": "Water",
+       "body": "Water is short despite the rain; use it carefully.",
+       "status": "verified"
+      }
+     ],
+     "facts": [
+      "BCH1",
+      "BSL2",
+      "BCHB1",
+      "BCH2",
+      "CJ2",
+      "CJ8"
+     ]
+    },
+    "things_to_do": {
+     "items": [
+      {
+       "body": "Trek from Tyrna to Nongriat's Double Decker root bridge, and on to Rainbow Falls."
+      },
+      {
+       "body": "See Nohkalikai Falls and Seven Sisters Falls."
+      },
+      {
+       "body": "Explore Mawsmai and the fossils of Arwah Cave."
+      },
+      {
+       "body": "Stop at Mawkdok Dympep valley view, Khoh Ramhah and Dain-Thlen Falls."
+      },
+      {
+       "body": "Try jadoh, tungrymbai and putharo."
+      }
+     ],
+     "facts": [
+      "BCHB1",
+      "CJ1",
+      "BCHN1",
+      "CJ2",
+      "BCHM1",
+      "CJ6",
+      "CJ5",
+      "CJ4"
+     ]
+    },
+    "food": {
+     "items": [
+      {
+       "body": "Jadoh, rice cooked with meat.",
+       "status": "verified"
+      },
+      {
+       "body": "Tungrymbai, fermented soybean.",
+       "status": "verified"
+      },
+      {
+       "body": "Putharo rice cakes and tungtap dry-fish chutney.",
+       "status": "verified"
+      }
+     ],
+     "facts": [
+      "CJ4"
+     ]
+    },
+    "travel_tips": {
+     "items": [
+      {
+       "body": "Wear sturdy, mud-friendly shoes and carry a torch for the caves."
+      },
+      {
+       "body": "Expect squeezes and crawls in Mawsmai; the tourist route is short."
+      },
+      {
+       "body": "Limit flash photography in caves."
+      },
+      {
+       "body": "Pace the climb back from Nongriat — 3,500 steps each way."
+      }
+     ],
+     "facts": [
+      "CJ6",
+      "CJ7",
+      "BCHB1"
+     ]
+    },
+    "culture_etiquette": {
+     "items": [
+      {
+       "body": "Khasi society is matrilineal."
+      },
+      {
+       "body": "Root bridges are living structures grown by Khasi and Jaintia communities; some are over a century old — don't damage the roots."
+      }
+     ],
+     "facts": [
+      "CJ9",
+      "BCHB2",
+      "CJ10"
+     ]
+    },
+    "faqs": {
+     "items": [
+      {
+       "title": "How far is Cherrapunji from Shillong?",
+       "body": "About 50 km from Shillong."
+      },
+      {
+       "title": "Where does the root bridge trek start?",
+       "body": "From Tyrna, about 3,500 steps down."
+      },
+      {
+       "title": "When should I go?",
+       "body": "November to February for dry trails; the monsoon for waterfalls."
+      },
+      {
+       "title": "Is it really the wettest place?",
+       "body": "Yes — Sohra still holds the records for most rain in a month and a year."
+      }
+     ],
+     "facts": [
+      "BCH1",
+      "BCHB1",
+      "BCH2",
+      "CJ2"
+     ]
+    },
+    "common_mistakes": {
+     "items": [
+      {
+       "body": "Underestimating the 3,500-step climb back from Nongriat."
+      },
+      {
+       "body": "Going into caves in sandals and without a torch."
+      },
+      {
+       "body": "Expecting dry days in the monsoon."
+      }
+     ],
+     "facts": [
+      "BCHB1",
+      "CJ6",
+      "BCH2"
+     ]
+    },
+    "overview": {
+     "text": "Cherrapunji, or Sohra, sits about 50 km from Shillong and still holds the records for the most rain in a month and in a year. That rain feeds some of India's great waterfalls — Nohkalikai, India's tallest plunge waterfall, and Seven Sisters, which falls in seven segments — and the living root bridges that Khasi and Jaintia villagers grow from rubber-fig roots, some over a century old.\n\nThe classic trek starts at Tyrna and descends about 3,500 steps to Nongriat's Double Decker bridge, with Rainbow Falls further on. Closer to town are Mawsmai and Arwah caves, Khoh Ramhah and the Mawkdok Dympep valley view. November to February is drier; the monsoon makes the falls thunder. Eat jadoh and tungrymbai, and buy bamboo and cane crafts.",
+     "facts": [
+      "BCH1",
+      "BCHN1",
+      "CJ2",
+      "BCHB2",
+      "CJ10",
+      "BCHB1",
+      "CJ1",
+      "BCHM1",
+      "CJ6",
+      "CJ5",
+      "BCH2",
+      "CJ4",
+      "CJ3"
+     ]
+    }
+   }
+  },
+  {
+   "key": "arunachal-pradesh/ziro",
+   "kind": "town",
+   "name": "Ziro",
+   "summary": "The Apatani valley at 1,500 m, with paddy-and-fish farming and the Ziro Festival.",
+   "seoTitle": "Ziro Valley: Apatani Culture & Ziro Festival",
+   "seoDescription": "Ziro in Arunachal: the Apatani valley at 1,500 m, 165 km from Itanagar, its paddy-cum-fish farming and the four-day Ziro Festival.",
+   "lat": 27.54166667,
+   "lng": 93.81611111,
+   "tripTypes": [
+    "heritage",
+    "nature"
+   ],
+   "images": [
+    {
+     "commons": "File:A cross section of luch green valley of Ziro.jpg",
+     "alt": "Rice fields in the green Ziro valley",
+     "caption": "Ziro valley",
+     "hero": true
+    }
+   ],
+   "wikidataId": "Q663062",
+   "sections": {
+    "overview": {
+     "text": "Ziro is a high valley in Arunachal Pradesh, about 1,500 m up and 165 km from Itanagar, home to the Apatani people. Their rice terraces, farmed together with fish in the same paddies, got the valley shortlisted for UNESCO World Heritage status in 2012; at Tarin Fish Farm you can see Mipya and Emoh rice grown alongside Ngihi fish.\n\nPine-clad hills ring the valley. Walk to Kile Pakho for views of the Eastern Himalayas, Pine Grove near Old Ziro and Siikhe Lake near Hapoli, or go further to Talley Valley Wildlife Sanctuary and the Siddheshwar Nath shrine at Kardo. The Apatani celebrate Myoko in March and Dree in July, and the four-day Ziro Festival of Music fills the valley in September. Indians need an Inner Line Permit; foreigners a Protected Area Permit.",
+     "facts": [
+      "BZR1",
+      "ZI5",
+      "ZI3",
+      "ZI4",
+      "ZI2",
+      "ZI6",
+      "ZI10",
+      "ZI11",
+      "ZI8",
+      "BAR2",
+      "BTWN7"
+     ]
+    },
+    "who_its_for": {
+     "items": [
+      {
+       "title": "Culture lovers",
+       "body": "Apatani villages, terraces and festivals."
+      },
+      {
+       "title": "Music lovers",
+       "body": "The September Ziro Festival of Music."
+      },
+      {
+       "title": "Hikers",
+       "body": "Dolo Mando, Kile Pakho and Talley Valley."
+      },
+      {
+       "title": "Photographers",
+       "body": "Pine Grove, Siikhe Lake and the terraces."
+      }
+     ],
+     "facts": [
+      "ZI5",
+      "ZI10",
+      "ZI11",
+      "ZI7",
+      "ZI3",
+      "ZI2",
+      "ZI4"
+     ]
+    },
+    "practical_info": {
+     "items": [
+      {
+       "title": "ILP",
+       "body": "Indian visitors need an Inner Line Permit; a tourist ILP is valid for 15 days.",
+       "status": "verified"
+      },
+      {
+       "title": "PAP",
+       "body": "Foreign nationals need a Protected Area Permit for Arunachal Pradesh.",
+       "status": "verified"
+      },
+      {
+       "title": "Getting there",
+       "body": "Lilabari airport is about 123 km (4–5 hours) away, Hollongi about 135 km; Naharlagun station is about 100 km.",
+       "status": "verified"
+      },
+      {
+       "title": "Buses",
+       "body": "APSTC buses, shared sumos and taxis run from Itanagar, Naharlagun and Guwahati.",
+       "status": "verified"
+      }
+     ],
+     "facts": [
+      "BAR2",
+      "BTWN7",
+      "ZI9"
+     ]
+    },
+    "things_to_do": {
+     "items": [
+      {
+       "body": "Walk the rice terraces and visit Tarin Fish Farm."
+      },
+      {
+       "body": "Climb Kile Pakho for views of the Eastern Himalayas."
+      },
+      {
+       "body": "Picnic at Pine Grove and boat on Siikhe Lake."
+      },
+      {
+       "body": "Trek to Dolo Mando above Hapoli."
+      },
+      {
+       "body": "Visit Talley Valley Wildlife Sanctuary and the Siddheshwar Nath shrine at Kardo."
+      }
+     ],
+     "facts": [
+      "ZI5",
+      "ZI3",
+      "ZI4",
+      "ZI7",
+      "ZI2",
+      "ZI6"
+     ]
+    },
+    "best_time": {
+     "text": "Spring (March–May) and autumn (September–November) bring the most pleasant weather. The four-day Ziro Festival of Music is held in September; the Apatani celebrate Myoko mainly in mid-March and Dree in July.",
+     "facts": [
+      "ZI8",
+      "ZI11",
+      "ZI10",
+      "BZR2"
+     ]
+    },
+    "how_to_reach": {
+     "text": "Lilabari airport is about 123 km away, a drive of 4–5 hours; Hollongi airport near Itanagar is about 135 km. Naharlagun is the nearest major railway station, about 100 km away. APSTC buses, shared sumos and taxis run from Itanagar, Naharlagun and Guwahati. Indian visitors need an Inner Line Permit and foreigners a Protected Area Permit.",
+     "facts": [
+      "ZI9",
+      "BAR2",
+      "BTWN7"
+     ]
+    },
+    "culture_etiquette": {
+     "items": [
+      {
+       "body": "The Apatani are known for handloom, cane and bamboo craft and their village councils; buy crafts locally."
+      },
+      {
+       "body": "Myoko (mid-March) and Dree (July) are community festivals; join in when invited."
+      }
+     ],
+     "facts": [
+      "ZI12",
+      "ZI10"
+     ]
+    },
+    "faqs": {
+     "items": [
+      {
+       "title": "Do I need a permit?",
+       "body": "Yes — an Inner Line Permit for Indians; a Protected Area Permit for foreigners."
+      },
+      {
+       "title": "When is the Ziro Festival of Music?",
+       "body": "In September; it runs four days."
+      },
+      {
+       "title": "How high is Ziro?",
+       "body": "About 1,500 m."
+      },
+      {
+       "title": "What is the nearest airport?",
+       "body": "Lilabari, about 123 km away."
+      }
+     ],
+     "facts": [
+      "BAR2",
+      "BTWN7",
+      "ZI8",
+      "ZI11",
+      "BZR1",
+      "ZI9"
+     ]
+    },
+    "common_mistakes": {
+     "items": [
+      {
+       "body": "Arriving without an ILP or PAP."
+      },
+      {
+       "body": "Underestimating the 4–5 hour drive from Lilabari."
+      },
+      {
+       "body": "Missing the terraces and fish farms that make Ziro unique."
+      }
+     ],
+     "facts": [
+      "BAR2",
+      "BTWN7",
+      "ZI9",
+      "ZI5"
+     ]
+    }
+   }
+  }
+ ],
+ "itineraries": []
+}

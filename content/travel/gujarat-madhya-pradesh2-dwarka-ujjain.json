@@ -1,0 +1,819 @@
+{
+ "cluster": "gujarat-madhya-pradesh2-dwarka-ujjain",
+ "title": "Dwarka and Ujjain (Batch 7)",
+ "researchedAt": "2026-11-18",
+ "selection": "Batch 7. Dwarka (5 sections, practical_info and things_to_do state filler) and Ujjain (4, practical_info and things_to_do filler). Adds who it's for, FAQs and mistakes; overviews and the filler replacements go in as pending suggestions. Incredible India names both Krishna's grandson and great-grandson as Vajranabh's relation; not used. Simhastha 2028 dates come from a Free Press Journal report of the CM's statement. Bhasma Aarti booking rules come only from third-party sites, so the page says to arrange it in advance without specifics. saurashtra-5-days itinerary not touched.",
+ "sources": {
+  "II_DWK": {
+   "url": "https://www.incredibleindia.gov.in/en/gujarat/dwarka",
+   "title": "Dwarka — Incredible India",
+   "authority": "government"
+  },
+  "W_DWK": {
+   "url": "https://en.wikipedia.org/wiki/Dwarka",
+   "title": "Dwarka — Wikipedia",
+   "authority": "reference"
+  },
+  "W_SUD": {
+   "url": "https://en.wikipedia.org/wiki/Sudarshan_Setu",
+   "title": "Sudarshan Setu — Wikipedia",
+   "authority": "reference"
+  },
+  "II_UJJ": {
+   "url": "https://www.incredibleindia.gov.in/en/madhya-pradesh/ujjain",
+   "title": "Ujjain — Incredible India",
+   "authority": "government"
+  },
+  "MPT_UJJ": {
+   "url": "https://www.mptourism.com/destination-ujjain.php",
+   "title": "Ujjain — MP Tourism",
+   "authority": "government"
+  },
+  "FPJ_SIM": {
+   "url": "https://www.freepressjournal.in/bhopal/works-worth-18840cr-for-simhastha-28-afoot-mp-cm-mohan-yadav",
+   "title": "Works worth ₹18,840 crore for Simhastha-28 afoot — Free Press Journal",
+   "authority": "media"
+  },
+  "II_DWT": {
+   "url": "https://www.incredibleindia.gov.in/en/gujarat/dwarka/dwarkadhish-temple",
+   "title": "Dwarkadhish Temple — Incredible India (Ministry of Tourism, Government of India)",
+   "authority": "government"
+  },
+  "W_UJJ": {
+   "url": "https://en.wikipedia.org/wiki/Ujjain",
+   "title": "Ujjain — Wikipedia",
+   "authority": "reference"
+  },
+  "II_MAH": {
+   "url": "https://www.incredibleindia.gov.in/en/madhya-pradesh/ujjain/mahakaleshwar-temple",
+   "title": "Mahakaleshwar Temple — Incredible India (Ministry of Tourism, Government of India)",
+   "authority": "government"
+  }
+ },
+ "facts": {
+  "BDWK1": {
+   "place": "gujarat/dwarka",
+   "topic": "Dwarka",
+   "claim": "Dwarka on the Arabian Sea is one of the four Char Dham sites; Beyt Dwarka is a short boat ride away, and Nageshwar is one of the twelve Jyotirlingas.",
+   "claimType": "general",
+   "evidence": [
+    {
+     "source": "II_DWK",
+     "quote": "for Dwarka is one of the four sacred Hindu pilgrimage sites called the Char Dham."
+    },
+    {
+     "source": "II_DWK",
+     "quote": "A short boat ride away lies Beyt Dwarka"
+    },
+    {
+     "source": "II_DWK",
+     "quote": "Pay homage at the revered Nageshwar Jyotirlinga"
+    }
+   ]
+  },
+  "BDWK2": {
+   "place": "gujarat/dwarka",
+   "topic": "Best time",
+   "claim": "November to February is the best time to visit Dwarka.",
+   "claimType": "schedule",
+   "evidence": [
+    {
+     "source": "II_DWK",
+     "quote": "Dwarka is at its most incredible during the winter, from November to February"
+    }
+   ]
+  },
+  "BDWT1": {
+   "place": "gujarat/dwarkadhish-temple",
+   "topic": "The temple",
+   "claim": "The five-storey Dwarkadhish Temple, reached by 56 steps, takes its present form from the 16th century.",
+   "claimType": "general",
+   "evidence": [
+    {
+     "source": "II_DWT",
+     "quote": "Venture 56 steps up the small hill, and you will see the Dwarkadhish temple in all its glory."
+    },
+    {
+     "source": "II_DWT",
+     "quote": "you'll be awe-struck by the grandeur of its towering, five-story edifice"
+    },
+    {
+     "source": "II_DWT",
+     "quote": "ultimately achieving its current grandeur that dates to the 16th century"
+    }
+   ]
+  },
+  "BDWT2": {
+   "place": "gujarat/dwarkadhish-temple",
+   "topic": "Hours",
+   "claim": "Open 6:30 am–1 pm and 5–9:30 pm.",
+   "claimType": "opening_hours",
+   "evidence": [
+    {
+     "source": "II_DWT",
+     "quote": "Opening time - 06:30 AM to 01:00 PM and 05:00 PM to 09:30 PM"
+    }
+   ]
+  },
+  "BUJJ1": {
+   "place": "madhya-pradesh/ujjain",
+   "topic": "Ujjain",
+   "claim": "Ujjain, on the Shipra, is a major pilgrimage city for Shaivites, Vaishnavites and Shaktas.",
+   "claimType": "general",
+   "evidence": [
+    {
+     "source": "W_UJJ",
+     "quote": "Ujjain continues to be an important place of pilgrimage for Shaivites , Vaishnavites and Shaktas ."
+    }
+   ]
+  },
+  "BMAH1": {
+   "place": "madhya-pradesh/mahakaleshwar-temple",
+   "topic": "Mahakaleshwar",
+   "claim": "Mahakaleshwar is the only Jyotirlinga that faces south; its Bhasma Aarti begins every morning at 4.",
+   "claimType": "general",
+   "evidence": [
+    {
+     "source": "II_MAH",
+     "quote": "it is the only Jyotirlinga that faces south, known as dakshinamukhi"
+    },
+    {
+     "source": "II_MAH",
+     "quote": "Beginning every morning at 4, this ritual is performed to awaken Lord Shiva."
+    }
+   ]
+  },
+  "BMAH2": {
+   "place": "madhya-pradesh/mahakaleshwar-temple",
+   "topic": "Darshan hours",
+   "claim": "Darshan is open 4 am to 11 pm.",
+   "claimType": "opening_hours",
+   "evidence": [
+    {
+     "source": "II_MAH",
+     "quote": "Darshans are open from 04:00 AM to 11:00 PM"
+    }
+   ]
+  },
+  "DW1": {
+   "place": "gujarat/dwarka",
+   "topic": "Name",
+   "claim": "Dwarka's name is read as 'gateway to heaven' in Sanskrit.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "II_DWK",
+     "quote": "which translates to ‘gateway to heaven’ in Sanskrit"
+    }
+   ]
+  },
+  "DW2": {
+   "place": "gujarat/dwarka",
+   "topic": "Underwater city",
+   "claim": "Offshore excavations have found remains of an ancient city dating to about 2000 BC.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "II_DWK",
+     "quote": "Offshore excavations have revealed the remnants of an ancient city dating back to 2000 BC."
+    }
+   ]
+  },
+  "DW3": {
+   "place": "gujarat/dwarka",
+   "topic": "Gomti Ghat",
+   "claim": "Pilgrims bathe at Gomti Ghat before visiting the Dwarkadhish Temple; a footbridge over the Gomti to Panchkui island opened in 2016.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "W_DWK",
+     "quote": "Gomti Ghat consists of steps leading to the Gomti River, which is also a holy place for pilgrims to take a dip in the river, before visiting Dwarakadish temple."
+    },
+    {
+     "source": "W_DWK",
+     "quote": "a bridge over the Gomti River connecting mainland Dwarka with Panchkui island was opened in 2016."
+    }
+   ]
+  },
+  "DW4": {
+   "place": "gujarat/dwarka",
+   "topic": "Temple flag",
+   "claim": "A very large flag bearing the sun and moon flies over the Dwarkadhish Temple.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "W_DWK",
+     "quote": "a very large flag with symbols of the sun and moon is hoisted on it"
+    }
+   ]
+  },
+  "DW5": {
+   "place": "gujarat/dwarka",
+   "topic": "Rukmini Temple",
+   "claim": "The Rukmini Temple is said to be 2,500 years old, though its present form dates to about the 12th century.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "W_DWK",
+     "quote": "The temple is said to be 2,500 years old, but in its present form it is estimated to belong to the 12th century."
+    }
+   ]
+  },
+  "DW6": {
+   "place": "gujarat/dwarka",
+   "topic": "Sudarshan Setu",
+   "claim": "Sudarshan Setu, India's longest cable-stayed bridge, links Okha with Beyt Dwarka; it opened on 25 February 2024.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "W_SUD",
+     "quote": "It was inaugurated on 25 February 2024 by Prime Minister"
+    },
+    {
+     "source": "W_SUD",
+     "quote": "making it the longest cable stayed bridge in India"
+    },
+    {
+     "source": "W_SUD",
+     "quote": "The approaches bridge on Okha and Beyt Dwarka sides"
+    }
+   ]
+  },
+  "DW7": {
+   "place": "gujarat/dwarka",
+   "topic": "Beyt Dwarka",
+   "claim": "Beyt Dwarka island is both a pilgrimage site and an important archaeological site.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "W_DWK",
+     "quote": "The nearby Bet Dwarka island is a religious pilgrimage site and an important archaeological site"
+    }
+   ]
+  },
+  "DW8": {
+   "place": "gujarat/dwarka",
+   "topic": "Shivrajpur",
+   "claim": "Shivrajpur beach, 14.5 km from Dwarka station, is one of India's Blue Flag beaches.",
+   "claimType": "distance",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "W_DWK",
+     "quote": "Shivrajpur beach is 14.5 km"
+    },
+    {
+     "source": "W_DWK",
+     "quote": "from Dwarka railway station and is among eight Indian beaches to get the prestigious Blue Flag beach certification"
+    }
+   ]
+  },
+  "DW9": {
+   "place": "gujarat/dwarka",
+   "topic": "Festivals",
+   "claim": "Janmashtami (August–September) is Dwarka's main festival; Diwali is also celebrated with lamps across the city.",
+   "claimType": "general",
+   "kind": "seasonal",
+   "evidence": [
+    {
+     "source": "W_DWK",
+     "quote": "Janmashtami is the main festival that is celebrated during the months of August and September"
+    },
+    {
+     "source": "II_DWK",
+     "quote": "This is also the time when Dwarka pulsates with the vibrant energy of festivals, most notably Diwali."
+    }
+   ]
+  },
+  "DW10": {
+   "place": "gujarat/dwarka",
+   "topic": "Sea and sunset",
+   "claim": "Walk Gomti Ghat, where the river meets the Arabian Sea, and watch the sunset from Dwarka Beach.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "II_DWK",
+     "quote": "Take a stroll along the vibrant Gomti Ghat, where the gentle caress of the river meets the boundless Arabian Sea."
+    },
+    {
+     "source": "II_DWK",
+     "quote": "experience the serenity of Dwarka Beach"
+    }
+   ]
+  },
+  "UJ1": {
+   "place": "madhya-pradesh/ujjain",
+   "topic": "Greenwich of India",
+   "claim": "The first meridian of longitude in Indian astronomy passes through Ujjain, the 'Greenwich of India'.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "II_UJJ",
+     "quote": "the first meridian of longitude passes through it, which is why Ujjain is also called the 'Greenwich of India!'"
+    }
+   ]
+  },
+  "UJ2": {
+   "place": "madhya-pradesh/ujjain",
+   "topic": "Temples",
+   "claim": "Besides Mahakaleshwar, visit the Kal Bhairav temple, where liquor is offered to the deity, and the Harsiddhi Shakti Peetha.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "II_UJJ",
+     "quote": "Continue your temple tour by visiting the Kal Bhairav Temple, which is dedicated to Lord Shiva’s fierce form, and the Harsiddhi Temple"
+    },
+    {
+     "source": "MPT_UJJ",
+     "quote": "At Kal Bhairav, the devotees offer liquor to the deity as prashad."
+    },
+    {
+     "source": "MPT_UJJ",
+     "quote": "the Harsiddhi temple is one of the two revered Shakti Peeth"
+    }
+   ]
+  },
+  "UJ3": {
+   "place": "madhya-pradesh/ujjain",
+   "topic": "Mahakal Lok",
+   "claim": "The Mahakal Lok corridor, over 900 m long beside Rudrasagar Lake, has 108 pillars and about 200 statues telling Shiva's stories.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "MPT_UJJ",
+     "quote": "is more than 900 meters. It is surrounded by the old Rudrasagar Lake"
+    },
+    {
+     "source": "MPT_UJJ",
+     "quote": "Once you enter the corridor, you will see 108 pillars, around 200 statues, and murals that display stories of Shiva."
+    }
+   ]
+  },
+  "UJ4": {
+   "place": "madhya-pradesh/ujjain",
+   "topic": "Simhastha 2028",
+   "claim": "The Simhastha Kumbh is held every 12 years at Ujjain; the next runs from 27 March to 27 May 2028.",
+   "claimType": "schedule",
+   "kind": "seasonal",
+   "evidence": [
+    {
+     "source": "MPT_UJJ",
+     "quote": "which occurs every 12 years on the banks of the Shipra river"
+    },
+    {
+     "source": "FPJ_SIM",
+     "quote": "Simhastha will begin from March 27, 2028 and continue till May 27."
+    }
+   ]
+  },
+  "UJ5": {
+   "place": "madhya-pradesh/ujjain",
+   "topic": "Ram Ghat",
+   "claim": "Ram Ghat is the oldest bathing ghat and the main Kumbh site.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "MPT_UJJ",
+     "quote": "The Kumbh Mela takes place once in twelve years at Ram Ghat, which is known to be the most ancient bathing ghat."
+    }
+   ]
+  },
+  "UJ6": {
+   "place": "madhya-pradesh/ujjain",
+   "topic": "Vedh Shala",
+   "claim": "Sawai Jai Singh II's observatory (Vedh Shala, 1725) has 13 astronomical instruments.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "MPT_UJJ",
+     "quote": "India's first observatory was built by Sawai Maharaja Jai Singh II in 1725 and consists of 13 architectural astronomy instruments."
+    }
+   ]
+  },
+  "UJ7": {
+   "place": "madhya-pradesh/ujjain",
+   "topic": "Sandipani Ashram",
+   "claim": "Sandipani Ashram, 6 km from Ujjain Junction, is where Krishna is said to have studied.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "MPT_UJJ",
+     "quote": "just 6 km from Ujjain Junction"
+    },
+    {
+     "source": "MPT_UJJ",
+     "quote": "Legend has it that Lord Krishna did his schooling from Sandipani Ashram in Ujjain."
+    }
+   ]
+  },
+  "UJ8": {
+   "place": "madhya-pradesh/ujjain",
+   "topic": "Getting there",
+   "claim": "Indore airport is 55 km away; Ujjain station is central, with the Dewas Gate bus stand 600 m from it.",
+   "claimType": "distance",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "MPT_UJJ",
+     "quote": "The closest airport is Devi Ahilya Bai International Airport, Indore at a distance of 55 km"
+    },
+    {
+     "source": "MPT_UJJ",
+     "quote": "The Ujjain railway station is located in the heart of the town."
+    },
+    {
+     "source": "MPT_UJJ",
+     "quote": "The main bus stand at Dewas Gate is located 600 meters from the railway station."
+    }
+   ]
+  },
+  "UJ9": {
+   "place": "madhya-pradesh/ujjain",
+   "topic": "Ganesh and Mangalnath",
+   "claim": "Bade Ganesh beside Mahakal has a 4-m Ganesha; Mangalnath is honoured as the birthplace of Mars.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "MPT_UJJ",
+     "quote": "It houses a gigantic 4 meters tall statue of Lord Ganesha."
+    },
+    {
+     "source": "MPT_UJJ",
+     "quote": "The birthplace of Lord Mangalnath (Mars)"
+    }
+   ]
+  },
+  "UJ10": {
+   "place": "madhya-pradesh/ujjain",
+   "topic": "Swayambhu linga",
+   "claim": "The Mahakaleshwar linga is believed to be swayambhu (self-born); Ujjain was capital of ancient Avanti.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "II_UJJ",
+     "quote": "the lingam housed in the Mahakaleshwar Temple is believed to be swayambhu (born of itself)"
+    },
+    {
+     "source": "II_UJJ",
+     "quote": "The city was the capital of the ancient Avanti kingdom, one of the sixteen Mahājanapadas."
+    }
+   ]
+  },
+  "UJ11": {
+   "place": "madhya-pradesh/ujjain",
+   "topic": "Vikram Kirti Mandir",
+   "claim": "The Vikram Kirti Mandir museum honours Vikramaditya and Kalidasa.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "II_UJJ",
+     "quote": "Explore the ancient ruins of the Vikram Kirti Mandir, a museum honouring the legendary king Vikramaditya and his court poet Kalidasa."
+    }
+   ]
+  }
+ },
+ "places": [
+  {
+   "key": "gujarat/dwarka",
+   "kind": "town",
+   "name": "Dwarka",
+   "summary": "Krishna's city on the Arabian Sea and one of the Char Dham, with Beyt Dwarka and Nageshwar nearby.",
+   "seoTitle": "Dwarka Travel Guide: Dwarkadhish, Beyt Dwarka & Nageshwar",
+   "seoDescription": "Plan Dwarka: the Dwarkadhish Temple, Beyt Dwarka by boat, Nageshwar Jyotirlinga, and the best time to visit (November to February).",
+   "lat": 22.24638889,
+   "lng": 68.96666667,
+   "tripTypes": [
+    "spiritual",
+    "heritage"
+   ],
+   "images": [
+    {
+     "commons": "File:Dwarka temple Gomati ghat.jpg",
+     "alt": "The Dwarkadhish Temple above the Gomti ghat, Dwarka",
+     "caption": "Gomti ghat, Dwarka",
+     "hero": true
+    }
+   ],
+   "wikidataId": "Q817247",
+   "sections": {
+    "overview": {
+     "text": "Dwarka, on Gujarat's Arabian Sea coast, is one of the four Char Dham pilgrimage sites; its name is read as 'gateway to heaven'. The five-storey Dwarkadhish Temple, reached by 56 steps from Gomti Ghat where pilgrims bathe first, flies a huge flag with the sun and moon, and offshore excavations have found traces of a city some 4,000 years old.\n\nBeyond the main temple are the Rukmini Temple, Nageshwar Jyotirlinga and Beyt Dwarka island — now reached by Sudarshan Setu, India's longest cable-stayed bridge, opened in February 2024. Shivrajpur, 14.5 km away, is a Blue Flag beach. November to February is the best time; Janmashtami in August–September is the biggest festival.",
+     "facts": [
+      "BDWK1",
+      "DW1",
+      "BDWT1",
+      "DW3",
+      "DW4",
+      "DW2",
+      "DW5",
+      "DW6",
+      "DW7",
+      "DW8",
+      "BDWK2",
+      "DW9"
+     ]
+    },
+    "who_its_for": {
+     "items": [
+      {
+       "title": "Pilgrims",
+       "body": "Dwarkadhish, Rukmini and Nageshwar, and Beyt Dwarka."
+      },
+      {
+       "title": "History lovers",
+       "body": "Offshore remains of a city from about 2000 BC."
+      },
+      {
+       "title": "Beach lovers",
+       "body": "Shivrajpur's Blue Flag beach and Gomti Ghat sunsets."
+      }
+     ],
+     "facts": [
+      "BDWK1",
+      "DW5",
+      "DW7",
+      "DW2",
+      "DW8",
+      "DW10"
+     ]
+    },
+    "practical_info": {
+     "items": [
+      {
+       "title": "Temple hours",
+       "body": "The Dwarkadhish Temple is open 6:30 am–1 pm and 5–9:30 pm.",
+       "status": "verified"
+      },
+      {
+       "title": "Beyt Dwarka",
+       "body": "Sudarshan Setu links Okha with Beyt Dwarka by road.",
+       "status": "verified"
+      },
+      {
+       "title": "Season",
+       "body": "November to February; Janmashtami in August–September is the busiest time.",
+       "status": "seasonal"
+      }
+     ],
+     "facts": [
+      "BDWT2",
+      "DW6",
+      "BDWK2",
+      "DW9"
+     ]
+    },
+    "things_to_do": {
+     "items": [
+      {
+       "body": "Bathe at Gomti Ghat and climb the 56 steps to the Dwarkadhish Temple."
+      },
+      {
+       "body": "Visit the Rukmini Temple and Nageshwar Jyotirlinga."
+      },
+      {
+       "body": "Cross Sudarshan Setu to Beyt Dwarka."
+      },
+      {
+       "body": "Spend an afternoon at Shivrajpur beach, 14.5 km away."
+      },
+      {
+       "body": "Watch the sunset from Dwarka Beach."
+      }
+     ],
+     "facts": [
+      "DW3",
+      "BDWT1",
+      "DW5",
+      "BDWK1",
+      "DW6",
+      "DW7",
+      "DW8",
+      "DW10"
+     ]
+    },
+    "faqs": {
+     "items": [
+      {
+       "title": "What are the Dwarkadhish Temple timings?",
+       "body": "6:30 am–1 pm and 5–9:30 pm."
+      },
+      {
+       "title": "How do I get to Beyt Dwarka?",
+       "body": "Over Sudarshan Setu from Okha, opened in 2024."
+      },
+      {
+       "title": "When should I go?",
+       "body": "November to February."
+      },
+      {
+       "title": "Is there a good beach nearby?",
+       "body": "Shivrajpur, 14.5 km from Dwarka station."
+      }
+     ],
+     "facts": [
+      "BDWT2",
+      "DW6",
+      "BDWK2",
+      "DW8"
+     ]
+    },
+    "common_mistakes": {
+     "items": [
+      {
+       "body": "Arriving at the temple during the afternoon closure."
+      },
+      {
+       "body": "Missing Beyt Dwarka now that the bridge makes it easy."
+      },
+      {
+       "body": "Coming at Janmashtami without booking ahead."
+      }
+     ],
+     "facts": [
+      "BDWT2",
+      "DW6",
+      "DW9"
+     ]
+    }
+   }
+  },
+  {
+   "key": "madhya-pradesh/ujjain",
+   "kind": "city",
+   "name": "Ujjain",
+   "summary": "A pilgrimage city on the Shipra, home of the Mahakaleshwar Jyotirlinga and its dawn Bhasma Aarti.",
+   "seoTitle": "Ujjain Travel Guide: Mahakaleshwar & Bhasma Aarti",
+   "seoDescription": "Plan Ujjain: the Mahakaleshwar Jyotirlinga and its 4 am Bhasma Aarti, the Shipra ghats, and a pilgrimage city for Shaivites, Vaishnavites and Shaktas.",
+   "lat": 23.17,
+   "lng": 75.79,
+   "tripTypes": [
+    "spiritual"
+   ],
+   "images": [
+    {
+     "commons": "File:Ram Ghat, Ujjain 01.jpg",
+     "alt": "Ram Ghat on the Shipra river, Ujjain",
+     "caption": "Ram Ghat, Ujjain",
+     "hero": true
+    }
+   ],
+   "wikidataId": "Q200119",
+   "sections": {
+    "overview": {
+     "text": "Ujjain, on the Shipra (Kshipra), is one of Hinduism's great pilgrimage cities and was the capital of ancient Avanti. Its heart is Mahakaleshwar, the only south-facing Jyotirlinga, whose linga is believed to be self-born; the Bhasma Aarti begins every morning at 4. The Mahakal Lok corridor, more than 900 m long beside Rudrasagar Lake, lines the approach with 108 pillars and about 200 statues.\n\nAround the city are the Kal Bhairav temple, where liquor is offered to the deity, the Harsiddhi Shakti Peetha, Sandipani Ashram, Ram Ghat and Jai Singh II's 1725 observatory — fitting for the 'Greenwich of India', on the old prime meridian. The Simhastha Kumbh returns from 27 March to 27 May 2028. Indore airport is 55 km away.",
+     "facts": [
+      "BUJJ1",
+      "UJ10",
+      "BMAH1",
+      "UJ3",
+      "UJ2",
+      "UJ7",
+      "UJ5",
+      "UJ6",
+      "UJ1",
+      "UJ4",
+      "UJ8"
+     ]
+    },
+    "who_its_for": {
+     "items": [
+      {
+       "title": "Pilgrims",
+       "body": "Mahakaleshwar's Bhasma Aarti, Kal Bhairav and Harsiddhi."
+      },
+      {
+       "title": "History lovers",
+       "body": "Vikram Kirti Mandir and the Vedh Shala observatory."
+      },
+      {
+       "title": "Festival-goers",
+       "body": "The Simhastha Kumbh, 27 March – 27 May 2028."
+      }
+     ],
+     "facts": [
+      "BMAH1",
+      "UJ2",
+      "UJ11",
+      "UJ6",
+      "UJ4"
+     ]
+    },
+    "practical_info": {
+     "items": [
+      {
+       "title": "Mahakaleshwar",
+       "body": "Darshan 4 am–11 pm; the Bhasma Aarti starts at 4 am.",
+       "status": "verified"
+      },
+      {
+       "title": "Getting there",
+       "body": "Indore airport is 55 km away; the station is central, with Dewas Gate bus stand 600 m away.",
+       "status": "verified"
+      },
+      {
+       "title": "Simhastha",
+       "body": "27 March – 27 May 2028; expect very large crowds.",
+       "status": "seasonal"
+      }
+     ],
+     "facts": [
+      "BMAH2",
+      "BMAH1",
+      "UJ8",
+      "UJ4"
+     ]
+    },
+    "things_to_do": {
+     "items": [
+      {
+       "body": "Attend the 4 am Bhasma Aarti at Mahakaleshwar."
+      },
+      {
+       "body": "Walk the Mahakal Lok corridor."
+      },
+      {
+       "body": "Visit Kal Bhairav, Harsiddhi, Bade Ganesh and Mangalnath."
+      },
+      {
+       "body": "See Sandipani Ashram and the Vedh Shala observatory."
+      },
+      {
+       "body": "Watch evening rituals at Ram Ghat."
+      }
+     ],
+     "facts": [
+      "BMAH1",
+      "UJ3",
+      "UJ2",
+      "UJ9",
+      "UJ7",
+      "UJ6",
+      "UJ5"
+     ]
+    },
+    "faqs": {
+     "items": [
+      {
+       "title": "When is the Bhasma Aarti?",
+       "body": "At 4 am every morning."
+      },
+      {
+       "title": "Which is the nearest airport?",
+       "body": "Indore, 55 km away."
+      },
+      {
+       "title": "When is the next Simhastha?",
+       "body": "27 March to 27 May 2028."
+      },
+      {
+       "title": "Why is Ujjain called the Greenwich of India?",
+       "body": "Because the old prime meridian passes through it."
+      }
+     ],
+     "facts": [
+      "BMAH1",
+      "UJ8",
+      "UJ4",
+      "UJ1"
+     ]
+    },
+    "common_mistakes": {
+     "items": [
+      {
+       "body": "Turning up for the Bhasma Aarti without arranging it in advance."
+      },
+      {
+       "body": "Seeing only Mahakaleshwar and missing Kal Bhairav and Harsiddhi."
+      },
+      {
+       "body": "Planning a quiet visit during Simhastha 2028."
+      }
+     ],
+     "facts": [
+      "BMAH1",
+      "UJ2",
+      "UJ4"
+     ]
+    }
+   }
+  }
+ ],
+ "itineraries": []
+}

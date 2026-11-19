@@ -23,17 +23,18 @@ export function BlockImage({ photo, sizes, className = "" }: { photo?: BlockPhot
   );
 }
 
+/** Card heading: a small ink icon and a serif title (no coloured tile). */
 export function BlockTitle({ icon, children }: { icon: Name; children: React.ReactNode }) {
   return (
-    <h3 className="flex items-center gap-2.5 font-serif text-[1.125rem] font-normal text-ink">
-      <span className="flex size-8 items-center justify-center rounded-xl bg-[#FDF0EB] text-coral"><Icon name={icon} size={16} /></span>
+    <h3 className="flex items-center gap-2 font-serif text-[1.125rem] font-normal leading-tight text-ink">
+      <Icon name={icon} size={17} className="shrink-0 text-[#666666]" />
       {children}
     </h3>
   );
 }
 
 export function Card({ children, className = "" }: { children: React.ReactNode; className?: string }) {
-  return <div className={`rounded-2xl border border-[#ECE9E2] bg-white ${className}`}>{children}</div>;
+  return <div className={`rounded-2xl border border-line bg-white ${className}`}>{children}</div>;
 }
 
 export function Bullets({ items }: { items: string[] }) {
@@ -41,7 +42,7 @@ export function Bullets({ items }: { items: string[] }) {
     <ul className="mt-2 space-y-1">
       {items.map((t) => (
         <li key={t} className="flex gap-2">
-          <span aria-hidden className="mt-[0.5rem] size-1.5 shrink-0 rounded-full bg-coral" />
+          <span aria-hidden className="mt-[0.6rem] size-1.5 shrink-0 rounded-full bg-[#B5AFA5]" />
           {t}
         </li>
       ))}

@@ -2,13 +2,14 @@ import "server-only";
 import { randomUUID } from "node:crypto";
 import { and, eq, gte, sql } from "drizzle-orm";
 import { getDb } from "@/lib/db";
-import { appSettings, chatRequests, travellers } from "@/lib/db/schema";
-import { hashKey, hit } from "@/lib/limiter";
+import { appSettings, chatAnonThreads, chatRequests, travellers } from "@/lib/db/schema";
+import { hashKey, hit, release } from "@/lib/limiter";
+import { DAY, quotaRules, type Admission } from "./quota-core";
 
 /**
- * Who is chatting, and how much they may use. Anonymous visitors get a few
- * free questions in total (every message counts, in any conversation), then
- * must sign up. Tracked by an httpOnly cookie, with a per-network backstop;
+ * Who is chatting, and how much they may use. Anonymous visitors get one
+ * conversation with a few free questions (only real answers count; rules in
+ * ./quota-core.ts), then must sign up. Tracked by an httpOnly cookie, with a per-network backstop;
  * signed-in travellers get a daily allowance. Live web research has its own,
  * smaller daily quota, and chat has a monthly spending cap.
  */
@@ -26,8 +27,6 @@ export const LIMITS = {
   researchAnonPerDay: num(process.env.CHAT_RESEARCH_PER_DAY_ANON, 10),
   researchTravellerPerDay: num(process.env.CHAT_RESEARCH_PER_DAY, 25),
 };
-const DAY = 86_400;
-const FOREVER = 10 * 365 * DAY;
 export const ANON_COOKIE = "vo_anon";
 
 export type Visitor = { kind: "anon" | "traveller"; key: string; travellerId: string | null; network: string; newCookie: string | null };
@@ -53,38 +52,26 @@ export async function resolveVisitor(req: Request, session: { user?: { id?: stri
   return { kind: "anon", key: hashKey(`a:${anon}`), travellerId: null, network, newCookie };
 }
 
-export type Admission =
-  | { ok: true; freeLeft: number | null }
-  | { ok: false; status: 401 | 429; code: "auth_required" | "rate_limited" | "daily_limit"; message: string; retryAfter: number };
+const rules = quotaRules(LIMITS, {
+  hit,
+  release,
+  async getThread(visitor) {
+    const [row] = await getDb().select({ chatId: chatAnonThreads.chatId }).from(chatAnonThreads).where(eq(chatAnonThreads.visitor, visitor)).limit(1);
+    return row?.chatId ?? null;
+  },
+  async bindThread(visitor, chatId) {
+    await getDb().insert(chatAnonThreads).values({ visitor, chatId }).onConflictDoNothing();
+  },
+});
 
-/** Every message from a visitor who isn't signed in uses one of their free questions. */
-export async function admitMessage(v: Visitor): Promise<Admission> {
-  const burst = await hit(`chat:min:${v.key}`, LIMITS.perMinute, 60);
-  if (!burst.ok) return { ok: false, status: 429, code: "rate_limited", message: "You’re sending messages quickly — give it a few seconds.", retryAfter: burst.retryAfterSeconds };
+export type { Admission };
 
-  if (v.kind === "traveller") {
-    const day = await hit(`chat:day:${v.key}`, LIMITS.travellerPerDay, DAY);
-    if (!day.ok) return { ok: false, status: 429, code: "daily_limit", message: "You’ve reached today’s message limit. It resets tomorrow.", retryAfter: day.retryAfterSeconds };
-    return { ok: true, freeLeft: null };
-  }
-
-  const key = `chat:q:${v.key}`;
-  const signUp: Admission = {
-    ok: false,
-    status: 401,
-    code: "auth_required",
-    message: `You’ve used your ${LIMITS.freeQuestions} free questions. Sign up free to keep planning.`,
-    retryAfter: 0,
-  };
-  // Peek first (no charge), so a visitor who is out of allowance isn't counted again.
-  if (!(await hit(key, LIMITS.freeQuestions, FOREVER, { consume: false })).ok) return signUp;
-  const net = await hit(`chat:net:${v.network}`, LIMITS.anonPerNetworkPerDay, DAY);
-  if (!net.ok) return { ...signUp, message: "Sign up free to keep planning." };
-  // Atomic increment: two messages sent at the same moment can't both slip past the limit.
-  const used = await hit(key, LIMITS.freeQuestions, FOREVER);
-  if (!used.ok) return signUp;
-  return { ok: true, freeLeft: Math.max(0, LIMITS.freeQuestions - used.count) };
-}
+/** Checks limits; for anonymous visitors, reserves one free question and enforces one conversation. */
+export const admitMessage = (v: Visitor, chatId: string): Promise<Admission> => rules.admit(v, chatId);
+/** Keeps the reserved question only if a real answer was delivered; returns free questions left. */
+export const settleMessage = (v: Visitor, a: Extract<Admission, { ok: true }>, r: { answered: boolean; chatId: string }) => rules.settle(v, a, r);
+/** Free questions left and the visitor's one conversation (for the chat UI). */
+export const quotaState = (v: Visitor) => rules.state(v);
 
 /** Consumes one live-research allowance. Cache hits don't call this. */
 export async function takeResearch(v: Visitor): Promise<boolean> {

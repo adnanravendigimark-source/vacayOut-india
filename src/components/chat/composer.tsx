@@ -4,19 +4,25 @@ import { useEffect, useRef, useState } from "react";
 import { Icon } from "@/components/icons/icon";
 import { MAX_MESSAGE_CHARS } from "@/lib/chat/constants";
 
-/** Message box pinned to the bottom of the conversation. Enter sends, Shift+Enter adds a line. */
+/**
+ * Message box pinned to the bottom of the conversation. Enter sends,
+ * Shift+Enter adds a line. When `locked` (free questions used up), the box is
+ * replaced by a sign-up row and the typed text is kept.
+ */
 export function Composer({
   onSend,
   onStop,
   busy,
   autoFocus = false,
-  placeholder = "Ask anything about your trip…",
+  placeholder = "Ask about travel in India…",
+  locked = null,
 }: {
   onSend: (text: string) => void;
   onStop: () => void;
   busy: boolean;
   autoFocus?: boolean;
   placeholder?: string;
+  locked?: { message: string; action: string; onAction: () => void } | null;
 }) {
   const [value, setValue] = useState("");
   const ref = useRef<HTMLTextAreaElement>(null);
@@ -27,6 +33,22 @@ export function Composer({
     el.style.height = "auto";
     el.style.height = `${Math.min(el.scrollHeight, 168)}px`;
   }, [value]);
+
+  if (locked) {
+    return (
+      <div role="status" className="flex flex-wrap items-center justify-between gap-x-4 gap-y-2 rounded-2xl border border-line bg-[#FBFAF8] px-4 py-3">
+        <p className="min-w-0 flex-1 text-[0.9375rem] leading-snug text-ink">{locked.message}</p>
+        <button
+          type="button"
+          onClick={locked.onAction}
+          className="inline-flex h-10 shrink-0 items-center gap-1.5 rounded-full bg-ink px-4 text-[0.8125rem] font-semibold text-white transition-colors hover:bg-black focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-ink"
+        >
+          {locked.action}
+          <Icon name="arrowRight" size={14} />
+        </button>
+      </div>
+    );
+  }
 
   const submit = () => {
     const text = value.trim();
@@ -41,10 +63,9 @@ export function Composer({
         e.preventDefault();
         submit();
       }}
-      className="cx-box rounded-[1.75rem] border border-[#E8E3DB] bg-white p-2 shadow-[0_18px_44px_-24px_rgba(40,30,20,0.35)] transition-[transform,box-shadow] duration-300 focus-within:-translate-y-0.5 focus-within:border-transparent focus-within:shadow-[0_24px_56px_-24px_rgba(236,98,66,0.4)] sm:p-2.5"
+      className="rounded-[1.375rem] border border-line bg-white p-1.5 shadow-[0_1px_2px_rgba(25,25,25,0.04),0_8px_24px_-16px_rgba(25,25,25,0.18)] transition-[border-color,box-shadow] duration-200 focus-within:border-[#BDB7AD] focus-within:shadow-[0_1px_2px_rgba(25,25,25,0.04),0_10px_28px_-16px_rgba(25,25,25,0.28)]"
     >
       <div className="flex items-end gap-2">
-        <Icon name="sparkles" size={20} className="mb-3 ml-2.5 shrink-0 text-coral" />
         <label htmlFor="chat-input" className="sr-only">
           Message VacayOut
         </label>
@@ -55,6 +76,7 @@ export function Composer({
           autoFocus={autoFocus}
           value={value}
           maxLength={MAX_MESSAGE_CHARS}
+          enterKeyHint="send"
           onChange={(e) => setValue(e.target.value)}
           onKeyDown={(e) => {
             if (e.key === "Enter" && !e.shiftKey && !e.nativeEvent.isComposing) {
@@ -63,34 +85,33 @@ export function Composer({
             }
           }}
           placeholder={placeholder}
-          className="max-h-42 min-h-11 flex-1 resize-none bg-transparent px-1 py-2.5 text-[0.9375rem] leading-relaxed text-ink outline-none placeholder:text-muted/80 font-normal"
+          className="max-h-42 min-h-11 flex-1 resize-none bg-transparent px-3 py-2.5 text-[0.9375rem] leading-relaxed text-ink outline-none placeholder:text-[#767676]"
         />
         {busy ? (
           <button
             type="button"
             onClick={onStop}
             aria-label="Stop the reply"
-            className="mb-0.5 flex size-11 shrink-0 items-center justify-center rounded-full border border-[#E5E2DC] text-ink transition-colors hover:border-ink"
+            className="mb-0.5 mr-0.5 flex size-10 shrink-0 items-center justify-center rounded-full border border-line text-ink transition-colors hover:border-ink focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-ink"
           >
-            <span aria-hidden className="size-3.5 rounded-sm bg-ink" />
+            <span aria-hidden className="size-3 rounded-[3px] bg-ink" />
           </button>
         ) : (
           <button
             type="submit"
             aria-label="Send"
             disabled={!value.trim()}
-            className="group mb-0.5 flex size-11 shrink-0 items-center justify-center rounded-full bg-ink text-white transition-all duration-200 hover:bg-coral active:scale-95 disabled:bg-[#EFECE6] disabled:text-[#AAAAAA]"
+            className="mb-0.5 mr-0.5 flex size-10 shrink-0 items-center justify-center rounded-full bg-ink text-white transition-colors duration-150 hover:bg-black focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-ink disabled:bg-sand disabled:text-[#8A857C]"
           >
-            <Icon name="arrowRight" size={19} strokeWidth={2.2} className="transition-transform group-enabled:group-hover:translate-x-0.5" />
+            <Icon name="arrowRight" size={18} strokeWidth={2.2} className="-rotate-90" />
           </button>
         )}
       </div>
       {value.length > MAX_MESSAGE_CHARS - 80 ? (
-        <p className="px-3 pt-1 text-right text-[0.75rem] text-muted">
+        <p className="px-3 pb-1 text-right text-[0.75rem] tabular-nums text-[#666666]">
           {value.length}/{MAX_MESSAGE_CHARS}
         </p>
       ) : null}
     </form>
   );
 }
-

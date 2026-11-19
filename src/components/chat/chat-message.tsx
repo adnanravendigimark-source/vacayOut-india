@@ -6,26 +6,24 @@ import type { Block } from "@/lib/chat/schema";
 import type { ChatMessage } from "@/lib/chat/store";
 import { openAuth } from "@/lib/chat/client";
 import { BlockList } from "./blocks/block-list";
+import { TextBlock } from "./blocks/misc-blocks";
 
-function Thinking({ text, first }: { text?: string; first: boolean }) {
+/** Waiting for the first words: one status line, nothing else moving. */
+function Waiting({ text }: { text?: string }) {
   return (
-    <div role="status" className="cx-in space-y-2.5 py-1">
-      <p className="flex items-center gap-2 text-[0.875rem] font-medium text-ink/75">
-        <span className="flex gap-1" aria-hidden>
-          <span className="size-1.5 animate-bounce rounded-full bg-coral [animation-delay:-0.3s]" />
-          <span className="size-1.5 animate-bounce rounded-full bg-coral [animation-delay:-0.15s]" />
-          <span className="size-1.5 animate-bounce rounded-full bg-coral" />
-        </span>
-        {text ?? "Planning your trip…"}
-      </p>
-      {/* Placeholder lines only before the first part of the answer arrives */}
-      {first ? (
-        <div aria-hidden className="space-y-2">
-          <span className="cx-shimmer block h-3 w-[88%] rounded-full" />
-          <span className="cx-shimmer block h-3 w-[72%] rounded-full" />
-          <span className="cx-shimmer block h-3 w-[54%] rounded-full" />
-        </div>
-      ) : null}
+    <p className="flex items-center gap-2.5 py-1 text-[0.9375rem] text-[#666666]">
+      <span aria-hidden className="cx-wait size-2 rounded-full bg-coral" />
+      {text ?? "Thinking…"}
+    </p>
+  );
+}
+
+/** Where the answer's cards will appear while they are being written. */
+function CardsLoading() {
+  return (
+    <div aria-hidden className="space-y-2.5 pt-1">
+      <div className="cx-skel h-24 rounded-2xl" />
+      <div className="cx-skel h-9 w-2/3 rounded-full" />
     </div>
   );
 }
@@ -36,11 +34,21 @@ function answerText(blocks: Block[]): string {
   for (const b of blocks) {
     if (b.type === "text" || b.type === "notice") out.push(b.text);
     else if (b.type === "picks") out.push(b.items.map((p) => `• ${p.name}${p.place !== "India" ? ` (${p.place})` : ""}: ${p.why}`).join("\n"));
-    else if (b.type === "itinerary") out.push(`${b.title}\n${b.days.map((d) => `${d.title}: ${d.items.join("; ")}`).join("\n")}`);
+    else if (b.type === "itinerary")
+      out.push(
+        `${b.title}\n${b.days
+          .map((d) => {
+            const parts = [d.morning?.length ? `Morning: ${d.morning.join("; ")}` : "", d.afternoon?.length ? `Afternoon: ${d.afternoon.join("; ")}` : "", d.evening?.length ? `Evening: ${d.evening.join("; ")}` : ""].filter(Boolean);
+            const meta = [d.base ? `Base: ${d.base}` : "", d.travel ?? "", d.cost ?? ""].filter(Boolean).join(" · ");
+            return `${d.title}${meta ? ` (${meta})` : ""}: ${parts.length ? parts.join(" | ") : d.items.join("; ")}`;
+          })
+          .join("\n")}`,
+      );
     else if (b.type === "compare") out.push([`| | ${b.columns.join(" | ")} |`, ...b.rows.map((r) => `| ${r.label} | ${r.values.join(" | ")} |`)].join("\n"));
     else if (b.type === "tips") out.push(b.items.map((t) => `• ${t}`).join("\n"));
     else if (b.type === "reach") out.push(b.items.map((r) => `${r.mode}: ${r.text}`).join("\n"));
     else if (b.type === "bestTime") out.push(b.summary);
+    else if (b.type === "budget") out.push(`${b.basis}\n${b.tiers.map((t) => `${t.label}: ₹${t.low.toLocaleString("en-IN")}${t.high ? `–${t.high.toLocaleString("en-IN")}` : "+"}`).join("\n")}`);
     else if (b.type === "stay" || b.type === "food") out.push(b.body);
   }
   return out.join("\n\n");
@@ -59,10 +67,10 @@ function CopyButton({ blocks }: { blocks: Block[] }) {
           setTimeout(() => setCopied(false), 1500);
         }, () => {});
       }}
-      className="inline-flex items-center gap-1.5 rounded-full border border-[#ECE9E2] bg-white px-3 py-1 text-[0.75rem] font-medium text-[#777777] transition-colors hover:border-ink hover:text-ink"
+      className="inline-flex h-8 items-center gap-1.5 rounded-full px-2.5 text-[0.8125rem] font-medium text-[#666666] transition-colors hover:bg-sand hover:text-ink focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-ink"
     >
-      <Icon name={copied ? "checkCircle" : "fileText"} size={13} />
-      {copied ? "Copied" : "Copy"}
+      <Icon name={copied ? "checkCircle" : "fileText"} size={14} />
+      {copied ? "Copied" : "Copy answer"}
     </button>
   );
 }
@@ -76,52 +84,74 @@ export function ChatMessageView({
   message: ChatMessage;
   onAsk: (q: string) => void;
   onRetry: () => void;
+  /** Follow-ups and "Plan this" are off while answering or when the visitor must sign up. */
   busy: boolean;
 }) {
   if (message.role === "user") {
     return (
       <div className="cx-in flex justify-end">
-        <div className="max-w-[85%] whitespace-pre-wrap rounded-3xl rounded-br-md bg-ink px-4.5 py-3 text-[0.9375rem] leading-relaxed text-white shadow-[0_10px_24px_-16px_rgba(25,25,25,0.6)] sm:max-w-[75%]">
+        <p className="max-w-[85%] whitespace-pre-wrap rounded-2xl rounded-br-md bg-sand px-4 py-2.5 text-[0.9375rem] leading-relaxed text-ink sm:max-w-[75%]">
           <span className="sr-only">You: </span>
           {message.text}
-        </div>
+        </p>
       </div>
     );
   }
 
+  const streaming = message.status === "streaming";
+  const hasText = message.blocks.some((b) => b.type === "text");
+  const cardsPending = streaming && (Boolean(message.draft) || (hasText && message.blocks.length < 2));
+
   return (
-    <div className="cx-in flex gap-3 sm:gap-4">
-      <span
-        aria-hidden
-        className={`mt-0.5 flex size-8 shrink-0 items-center justify-center rounded-full bg-gradient-to-br from-[#F27A5E] to-coral text-white shadow-[0_6px_14px_-8px_rgba(236,98,66,0.8)] ${message.status === "streaming" ? "cx-live" : ""}`}
-      >
-        <Icon name="sparkles" size={15} />
-      </span>
-      <div className="min-w-0 flex-1 space-y-3" aria-live={message.status === "streaming" ? "polite" : undefined}>
-        <span className="sr-only">VacayOut: </span>
+    <article className="min-w-0" aria-busy={streaming} aria-label="VacayOut answer">
+      {/* Screen readers hear "Answering…" then "Answer ready", not every word as it streams. */}
+      <p className="sr-only" role="status">
+        {streaming ? "Answering…" : message.status === "done" ? "Answer ready." : ""}
+      </p>
+      <div className="space-y-3.5">
         {message.blocks.length > 0 ? <BlockList blocks={message.blocks} onAsk={onAsk} busy={busy} /> : null}
-        {message.status === "streaming" && (message.blocks.length === 0 || message.statusText) ? <Thinking text={message.statusText} first={message.blocks.length === 0} /> : null}
-        {message.status === "done" && message.blocks.length ? <CopyButton blocks={message.blocks} /> : null}
+        {message.draft && !hasText ? (
+          <div>
+            <TextBlock block={{ type: "text", text: message.draft }} />
+            <span aria-hidden className="cx-caret text-ink/70" />
+          </div>
+        ) : null}
+        {streaming && !message.draft && message.blocks.length === 0 ? <Waiting text={message.statusText} /> : null}
+        {cardsPending ? <CardsLoading /> : null}
+        {message.status === "done" && message.blocks.length ? (
+          <div className="-ml-2.5">
+            <CopyButton blocks={message.blocks} />
+          </div>
+        ) : null}
         {message.status === "error" ? (
-          <div className="cx-in flex flex-wrap items-center gap-3 rounded-2xl border border-[#F3D0C4] bg-[#FFF6F2] px-4 py-3 text-[0.875rem] text-ink">
-            <span>{message.error ?? "Something went wrong."}</span>
-            {message.needsAuth ? (
-              <button type="button" onClick={() => openAuth({ mode: "signup" })} className="font-semibold text-coral underline underline-offset-4 hover:text-coral-hover">
-                Sign up free
-              </button>
-            ) : null}
-            <button
-              type="button"
-              onClick={onRetry}
-              disabled={busy}
-              className="font-semibold text-coral underline underline-offset-4 disabled:opacity-50 hover:text-coral-hover"
-            >
-              Try again
-            </button>
+          <div role="alert" className="cx-in rounded-2xl border border-line bg-[#FBFAF8] p-4">
+            <p className="flex items-start gap-2 text-[0.9375rem] leading-snug text-ink">
+              <Icon name="shield" size={17} className="mt-0.5 shrink-0 text-coral-text" />
+              <span>{message.error ?? "The answer didn’t come through."}</span>
+            </p>
+            <div className="mt-3 flex flex-wrap gap-2 pl-6">
+              {message.needsAuth ? (
+                <button
+                  type="button"
+                  onClick={() => openAuth({ mode: "signup", ...(message.error ? { message: message.error } : {}) })}
+                  className="inline-flex h-9 items-center rounded-full bg-ink px-4 text-[0.8125rem] font-semibold text-white hover:bg-black focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-ink"
+                >
+                  Sign up free
+                </button>
+              ) : (
+                <button
+                  type="button"
+                  onClick={onRetry}
+                  disabled={busy}
+                  className="inline-flex h-9 items-center rounded-full border border-line bg-white px-4 text-[0.8125rem] font-semibold text-ink hover:border-ink disabled:opacity-50 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-ink"
+                >
+                  Try again
+                </button>
+              )}
+            </div>
           </div>
         ) : null}
       </div>
-    </div>
+    </article>
   );
 }
-

@@ -223,6 +223,46 @@
       "url": "https://en.wikipedia.org/wiki/112_(emergency_telephone_number)",
       "title": "112 (emergency telephone number) — Wikipedia",
       "authority": "reference"
+    },
+    "DT_BLRND": {
+      "url": "https://daytrip.com/en/transfers/bangalore-in/nandi-hills-in",
+      "title": "Private transfer Bangalore to Nandi Hills — Daytrip",
+      "authority": "travel_platform"
+    },
+    "OCP_EXP": {
+      "url": "https://www.onecityproperty.com/news/bengaluru-mysuru-expressway-route-property-impact-buying-guide",
+      "title": "Bengaluru–Mysuru Expressway guide — OneCity Property",
+      "authority": "travel_platform"
+    },
+    "TRW_SRF": {
+      "url": "https://trawell.in/karnataka/mysore/srirangapatna-fort",
+      "title": "Srirangapatna Fort — Trawell",
+      "authority": "travel_platform"
+    },
+    "CTK_HE": {
+      "url": "https://www.confirmtkt.com/train-schedule/16592-HAMPI-EXPRESS",
+      "title": "16592 Hampi Express timetable — ConfirmTkt",
+      "authority": "travel_platform"
+    },
+    "HMP_HE": {
+      "url": "https://hampi.in/hampi-express",
+      "title": "Hampi Express — hampi.in",
+      "authority": "travel_platform"
+    },
+    "TRD_HB": {
+      "url": "https://www.trodly.com/activity-2056-a-guided-tour-of-badami-from-hampi",
+      "title": "Badami, Aihole and Pattadakal tour from Hampi — Trodly",
+      "authority": "travel_platform"
+    },
+    "TAP_BPA": {
+      "url": "https://tapioca.co.in/places-near-pattadakal",
+      "title": "Places near Pattadakal — Tapioca",
+      "authority": "travel_platform"
+    },
+    "ECK_BPA": {
+      "url": "https://www.explorewithecokats.com/heritage-monuments-badami-aihole-pattadakal/",
+      "title": "Badami, Aihole and Pattadakal — Explore with Ecokats",
+      "authority": "travel_platform"
     }
   },
   "facts": {
@@ -1957,6 +1997,118 @@
         {
           "source": "UPI",
           "quote": "The UPI One World wallet can be availed through authorized PPI issuers at airports, hotels, designated money exchange locations and other touchpoints, following a full KYC process based on a passport and valid visa."
+        }
+      ]
+    },
+    "KA_NDH": {
+      "place": "karnataka/nandi-hills",
+      "topic": "Bengaluru to Nandi Hills",
+      "claimType": "distance",
+      "claim": "By car, Bengaluru to Nandi Hills is about 62 km, around 1 hour 30 minutes.",
+      "evidence": [
+        {
+          "source": "DT_BLRND",
+          "quote": "Total distance ↔ 62 km Estimated time 1 h 30 min"
+        }
+      ],
+      "kind": "estimate"
+    },
+    "KA_BLMY": {
+      "place": "karnataka/mysuru",
+      "topic": "Bengaluru to Mysuru by road",
+      "claimType": "distance",
+      "claim": "The Bengaluru–Mysuru expressway itself takes about 75–90 minutes, but door to door from most of Bengaluru the trip is roughly 2–2.5 hours each way.",
+      "evidence": [
+        {
+          "source": "OCP_EXP",
+          "quote": "takes 75-90 minutes"
+        },
+        {
+          "source": "OCP_EXP",
+          "quote": "roughly 2-2.5 hours door-to-door each way"
+        }
+      ],
+      "kind": "estimate",
+      "conflictNote": "Older guides (including the Mysuru place notes) still give about 3.5 hours, from before the expressway opened in 2023."
+    },
+    "KA_SRP": {
+      "place": "karnataka/srirangapatna",
+      "topic": "Mysuru to Srirangapatna",
+      "claimType": "distance",
+      "claim": "Srirangapatna is about 16 km from Mysuru; a visit takes 2–3 hours including travel.",
+      "evidence": [
+        {
+          "source": "TRW_SRF",
+          "quote": "Distance (From Mysore): 16 Kms"
+        },
+        {
+          "source": "TRW_SRF",
+          "quote": "Trip Duration (From Mysore, Including Travel): 2-3 Hours"
+        }
+      ],
+      "kind": "estimate"
+    },
+    "KA_HEX": {
+      "place": "karnataka/hampi",
+      "topic": "Hampi Express from Mysuru",
+      "claimType": "schedule",
+      "claim": "The overnight Hampi Express (16592) leaves Mysuru at 18:50 and is timetabled into Hosapete at 07:00 the next morning.",
+      "evidence": [
+        {
+          "source": "CTK_HE",
+          "quote": "Departure 18:50 from Mysuru Jn"
+        },
+        {
+          "source": "CTK_HE",
+          "quote": "hosapete jn - hpt 07:00 07:05"
+        },
+        {
+          "source": "HMP_HE",
+          "quote": "Hampi Express leaves Mysore in the evening (7PM)"
+        }
+      ],
+      "kind": "seasonal",
+      "conflictNote": "Timetables change; check IRCTC before booking."
+    },
+    "KA_HBD": {
+      "place": "karnataka/badami",
+      "topic": "Hampi to Badami",
+      "claimType": "distance",
+      "claim": "Badami is about 150 km from Hampi, around 3–3.5 hours by road.",
+      "evidence": [
+        {
+          "source": "TRD_HB",
+          "quote": "approximately 150 kilometers away, and the journey takes around 3 to 3.5 hours by road"
+        }
+      ],
+      "kind": "estimate"
+    },
+    "KA_BPA": {
+      "place": "karnataka/pattadakal",
+      "topic": "Badami–Pattadakal–Aihole circuit",
+      "claimType": "distance",
+      "claim": "Badami to Pattadakal is about 22 km and Pattadakal to Aihole about 15 km, roughly 20 minutes by car.",
+      "evidence": [
+        {
+          "source": "TAP_BPA",
+          "quote": "Badami -22km- Pattadakal -15km- Aihole"
+        },
+        {
+          "source": "ECK_BPA",
+          "quote": "Pattadakal to Aihole distance is 15 km and takes about 20 minutes to reach by car"
+        }
+      ],
+      "kind": "estimate"
+    },
+    "KA_PTH": {
+      "place": "karnataka/pattadakal",
+      "topic": "Pattadakal opening hours",
+      "claimType": "opening_hours",
+      "claim": "Pattadakal's temple complex is open 9 am to 6 pm.",
+      "evidence": [
+        {
+          "source": "ECK_BPA",
+          "quote": "Pattadakal timings: 9 am to 6 pm"
         }
       ]
     }
@@ -5954,96 +6106,149 @@
         "nature",
         "weekend"
       ],
-      "summary": "A breakfast trail, Lalbagh and Cubbon Park on day one; sunrise at Nandi Hills and Bangalore Palace on day two.",
+      "summary": "A Basavanagudi breakfast trail, Lalbagh and Cubbon Park on day one; sunrise at Nandi Hills and the Bangalore Palace on day two.",
       "seoTitle": "Bengaluru 2-Day Itinerary: Gardens, Food & Nandi",
-      "seoDescription": "Two days in Bengaluru: Brahmins' Coffee Bar and Vidyarthi Bhavan, Lalbagh's Glass House, Cubbon Park, VV Puram, sunrise at Nandi Hills and Bangalore Palace.",
+      "seoDescription": "Two days in Bengaluru: idli-vade and masale dose in Basavanagudi, Lalbagh's Glass House, Cubbon Park, VV Puram, Nandi Hills at sunrise and Bangalore Palace.",
       "facts": [
+        "BL1",
         "BL4",
         "BLL1",
         "BLL2",
+        "BLL3",
         "BLC1",
+        "BLC2",
         "BLN1",
         "BLN2",
+        "BLN3",
         "BLP1",
-        "KA1"
+        "BLP2",
+        "KA1",
+        "KA_NDH",
+        "KA_112"
       ],
       "sources": [],
       "plan": {
-        "overview": "Bengaluru is best enjoyed slowly — eat early, walk the gardens, and get out of town once for sunrise.",
-        "start": "Bengaluru (airport about 35 km north)",
+        "overview": "Day one stays in the city — breakfast in Basavanagudi, then the two big gardens and an evening food street. Day two starts before dawn: Nandi Hills is about 62 km (1 hour 30 minutes) away and opens at 6 am.",
+        "style": "City food and gardens, one early hill morning",
+        "start": "Bengaluru (Kempegowda airport is about 35 km north)",
         "end": "Bengaluru",
-        "transport": "Metro and autos in town; a cab for Nandi Hills.",
-        "season": "Nandi Hills is best September to February.",
+        "season": "Nandi Hills is best September to February; the city's gardens work all year",
+        "difficulty": "Easy",
+        "transport": "Metro and autos in the city; a cab for Nandi Hills.",
         "days": [
           {
             "title": "Day 1: Breakfast trail and gardens",
-            "summary": "Morning: idli-vade at Brahmins' Coffee Bar, then masale dose at Vidyarthi Bhavan.\n\nAfternoon: Lalbagh and its Glass House, then Cubbon Park.\n\nEvening: street food at VV Puram.",
+            "summary": "Idli-vade and filter coffee, masale dose, Lalbagh's Glass House, Cubbon Park, then VV Puram's food street.",
             "stops": [
               {
-                "name": "Breakfast in Basavanagudi",
                 "time": "8:00 am",
+                "name": "Breakfast in Basavanagudi — Brahmins' Coffee Bar and Vidyarthi Bhavan",
                 "placeSlug": "karnataka/bengaluru",
-                "duration": "1.5 hours"
+                "duration": "1.5 hours",
+                "note": "Vidyarthi Bhavan has served masale dose since 1943."
               },
               {
-                "name": "Lalbagh Botanical Garden",
                 "time": "Late morning",
+                "name": "Lalbagh Botanical Garden",
                 "placeSlug": "karnataka/lalbagh-botanical-garden",
-                "duration": "2 hours"
+                "duration": "2 hours",
+                "note": "Open every day; the Glass House dates from 1889."
               },
               {
+                "time": "Afternoon",
                 "name": "Cubbon Park",
-                "time": "Afternoon",
                 "placeSlug": "karnataka/cubbon-park",
-                "duration": "1.5 hours"
+                "duration": "1.5 hours",
+                "note": "Cubbon Park metro is about 450 m from the Kasturba Road gate."
               },
               {
-                "name": "VV Puram food street",
                 "time": "Evening",
+                "name": "VV Puram food street",
                 "placeSlug": "karnataka/bengaluru",
-                "duration": "1.5 hours"
-              }
-            ],
-            "overnight": "Bengaluru"
-          },
-          {
-            "title": "Day 2: Nandi Hills sunrise and the palace",
-            "summary": "Leave before dawn for sunrise at Nandi Hills (opens 6 am). Back in town, tour Bangalore Palace (10 am–5:30 pm).",
-            "stops": [
-              {
-                "name": "Nandi Hills",
-                "time": "6:00 am",
-                "placeSlug": "karnataka/nandi-hills",
-                "duration": "3 hours"
-              },
-              {
-                "name": "Bangalore Palace",
-                "time": "Afternoon",
-                "placeSlug": "karnataka/bangalore-palace",
                 "duration": "1.5 hours"
               }
             ],
             "overnight": "Bengaluru",
-            "travel": "Bengaluru to Nandi Hills about 60 km by road."
+            "distance": "All within the city",
+            "driveTime": "Short metro or auto hops between stops",
+            "transport": "Metro and autos",
+            "meals": "Idli-vade and filter coffee at Brahmins' Coffee Bar, masale dose at Vidyarthi Bhavan, street food at VV Puram.",
+            "logistics": "Start early — the breakfast places and the gardens are best before the heat and traffic."
+          },
+          {
+            "title": "Day 2: Nandi Hills sunrise and the palace",
+            "summary": "Sunrise from the 4,851-ft hill Tipu Sultan used as a summer retreat, then the Tudor-style Bangalore Palace.",
+            "stops": [
+              {
+                "time": "4:30 am",
+                "name": "Leave for Nandi Hills",
+                "duration": "About 1.5 hours"
+              },
+              {
+                "time": "6:00 am",
+                "name": "Nandi Hills and Tipu's Drop",
+                "placeSlug": "karnataka/nandi-hills",
+                "duration": "2.5 hours",
+                "note": "Gates open 6 am; Tipu's Drop is a 60 m cliff viewpoint."
+              },
+              {
+                "time": "Afternoon",
+                "name": "Bangalore Palace",
+                "placeSlug": "karnataka/bangalore-palace",
+                "duration": "1.5 hours",
+                "note": "Open 10 am–5:30 pm; may close for private events."
+              }
+            ],
+            "overnight": "Bengaluru",
+            "distanceKm": 124,
+            "distance": "About 62 km each way to Nandi Hills",
+            "driveTime": "About 1 hour 30 minutes each way",
+            "transport": "Cab for the day",
+            "meals": "Carry a flask and snacks for the dawn start; a late breakfast back in town.",
+            "logistics": "Take a light layer — dawn on the hill is cool."
           }
         ],
         "budget": {
-          "assumptions": "VacayOut lists only fees it could check with an official source; hotels, transport and meals are not estimated. Check current prices before you book.",
+          "assumptions": "VacayOut lists only fees it could check with an official source; hotels, transport, meals and monument tickets are not estimated. Check current prices before you book.",
           "lines": []
         },
         "booking": [
           {
             "item": "Bangalore Palace",
-            "detail": "Check it isn't closed for an event before you go."
+            "detail": "Check it isn't closed for an event on your date."
+          },
+          {
+            "item": "Nandi Hills cab",
+            "detail": "Book the night before for a 4:30 am pickup."
           }
         ],
         "alternatives": [
-          "Add Mysuru as a two-day side trip.",
-          "Swap Nandi Hills for ISKCON on Hare Krishna Hill."
+          "Add Mysuru as a two-day side trip — about 2–2.5 hours door to door by the expressway.",
+          "Skip the dawn start: swap Nandi Hills for ISKCON on Hare Krishna Hill."
         ],
         "tips": [
           "Start early — traffic builds fast.",
           "Carry a light layer for Nandi Hills at dawn."
+        ],
+        "prep": [
+          {
+            "title": "Getting in",
+            "body": "Kempegowda International Airport is about 35 km north of the city. Use the metro for Cubbon Park and autos or cabs elsewhere."
+          },
+          {
+            "title": "Emergencies",
+            "body": "Dial 112 for police, fire or ambulance."
+          }
+        ],
+        "faqs": [
+          {
+            "q": "How early should I leave for the Nandi Hills sunrise?",
+            "a": "Around 4:30 am: it is about 62 km and 1 hour 30 minutes from the city, and the gates open at 6 am."
+          },
+          {
+            "q": "Is Bangalore Palace open every day?",
+            "a": "It lists 10 am–5:30 pm, but it can close for private events and concerts — check before you go."
+          }
         ]
       }
     },
@@ -6055,90 +6260,140 @@
       "tripTypes": [
         "heritage"
       ],
-      "summary": "Badami's caves, fort and lake on day one; the Chalukya temples of Pattadakal and Aihole on day two.",
+      "summary": "Badami's cave temples, fort and Agastya Lake on day one; the Chalukya temples of Pattadakal and Aihole by car on day two.",
       "seoTitle": "Badami, Pattadakal & Aihole: 2-Day Itinerary",
-      "seoDescription": "Two days on the Chalukya trail: Badami's cave temples, fort and Agastya Lake, then Pattadakal's UNESCO temples and Aihole's Durga Temple.",
+      "seoDescription": "Two days on the Chalukya trail: Badami's cave temples, fort and Agastya Lake, then Pattadakal's UNESCO temples and Aihole — with distances and timings.",
       "facts": [
+        "BD1",
+        "BD2",
+        "BD3",
+        "BD4",
+        "BD5",
         "BDC1",
         "BDC2",
         "BDC3",
         "BDF1",
-        "BD4",
         "BDP1",
         "BDA1",
-        "BD2",
-        "BD3"
+        "KA_BPA",
+        "KA_PTH",
+        "KA_HBD"
       ],
       "sources": [],
       "plan": {
-        "overview": "One day for Badami town, one for the surrounding circuit — Karnataka Tourism's own suggestion.",
-        "start": "Badami",
+        "overview": "Stay both nights in Badami. Day one is on foot around the caves, the fort and the lake; day two is a short loop by car — Pattadakal is about 22 km away and Aihole 15 km beyond it.",
+        "style": "Heritage",
+        "start": "Badami (Hubballi airport is about 105 km away)",
         "end": "Badami",
-        "transport": "Walk in Badami; a car or bus to Pattadakal and Aihole.",
-        "season": "October to February is ideal.",
+        "season": "October to February (18–28°C); March to May often tops 40°C",
+        "difficulty": "Easy, with a short fort climb",
+        "transport": "On foot in Badami; a car with driver for Pattadakal and Aihole.",
         "days": [
           {
             "title": "Day 1: Badami",
-            "summary": "Morning: the four cave temples (open 6 am).\n\nMidday: climb to Badami Fort.\n\nEvening: Agastya Lake and the Bhutanatha temples.",
+            "summary": "The four rock-cut cave temples at opening time, the climb to the north fort, and the Bhutanatha temples on Agastya Lake.",
             "stops": [
               {
+                "time": "6:00 am",
                 "name": "Badami Cave Temples",
-                "time": "Early morning",
                 "placeSlug": "karnataka/badami-cave-temples",
-                "duration": "2.5 hours"
+                "duration": "2.5 hours",
+                "note": "Open 6 am–6 pm; Cave 3 has some of India's earliest surviving frescoes."
               },
               {
-                "name": "Badami Fort",
                 "time": "Late morning",
+                "name": "Badami Fort and the Malegitti Shivalaya",
                 "placeSlug": "karnataka/badami-fort",
-                "duration": "1.5 hours"
+                "duration": "1.5 hours",
+                "note": "The climb takes 30–45 minutes; the cave ticket covers it."
               },
               {
-                "name": "Agastya Lake",
                 "time": "Evening",
+                "name": "Agastya Lake and the Bhutanatha temples",
                 "placeSlug": "karnataka/badami",
                 "duration": "1 hour"
               }
             ],
             "overnight": "Badami",
-            "travel": "Hubballi airport is about 105 km away; overnight buses run from Bengaluru."
+            "distance": "All on foot in Badami town",
+            "driveTime": "None",
+            "transport": "On foot",
+            "meals": "Girmit for breakfast; jowar rotti with ennegayi for lunch.",
+            "logistics": "Rest through the midday heat and go back out for the lake in the late afternoon."
           },
           {
             "title": "Day 2: Pattadakal and Aihole",
-            "summary": "Morning: Pattadakal's temple group, 22 km away.\n\nAfternoon: Aihole and its Durga Temple.",
+            "summary": "Pattadakal's UNESCO temples, where Chalukya kings were crowned, then Aihole's Durga Temple among more than 125 temples.",
             "stops": [
               {
+                "time": "9:00 am",
                 "name": "Pattadakal",
-                "time": "Morning",
                 "placeSlug": "karnataka/pattadakal",
-                "duration": "2.5 hours"
+                "duration": "2 hours",
+                "note": "Open 9 am–6 pm; its Virupaksha Temple inspired Ellora's Kailasa."
               },
               {
-                "name": "Aihole",
-                "time": "Afternoon",
+                "time": "Late morning",
+                "name": "Aihole and the Durga Temple",
                 "placeSlug": "karnataka/aihole",
-                "duration": "3 hours"
+                "duration": "2 hours"
+              },
+              {
+                "time": "Afternoon",
+                "name": "Back to Badami",
+                "placeSlug": "karnataka/badami"
               }
             ],
-            "overnight": "Badami"
+            "overnight": "Badami",
+            "distanceKm": 74,
+            "distance": "Badami to Pattadakal about 22 km, Aihole 15 km further, then back to Badami",
+            "driveTime": "About 20 minutes Pattadakal–Aihole; short drives either side",
+            "transport": "Car with driver",
+            "meals": "Pattadakal and Aihole have little food — eat breakfast in Badami and carry water.",
+            "logistics": "Go early: by noon the temple courtyards are very hot."
           }
         ],
         "budget": {
-          "assumptions": "VacayOut lists only fees it could check with an official source; hotels, transport and meals are not estimated. Check current prices before you book.",
+          "assumptions": "VacayOut lists only fees it could check with an official source; hotels, transport, meals and monument tickets are not estimated. Check current prices before you book.",
           "lines": []
         },
         "booking": [
           {
-            "item": "Car",
-            "detail": "Hire a car for day two to fit both sites in comfortably."
+            "item": "Car for day two",
+            "detail": "Arrange a car and driver in Badami the evening before."
+          },
+          {
+            "item": "Rooms",
+            "detail": "Badami has few hotels — book ahead in season."
           }
         ],
         "alternatives": [
-          "Combine with Hampi for a north Karnataka heritage trip."
+          "Combine with Hampi, about 150 km (3–3.5 hours) away, for a north Karnataka heritage trip.",
+          "Short on time? Do Pattadakal and Aihole on the afternoon of day one and leave on day two."
         ],
         "tips": [
           "Start at dawn — it gets very hot by noon.",
           "Wear sturdy shoes for the fort climb."
+        ],
+        "prep": [
+          {
+            "title": "Getting there",
+            "body": "Hubballi airport is about 105 km away; Badami has its own station, and overnight KSRTC buses run from Bengaluru (about 450 km)."
+          },
+          {
+            "title": "Heat",
+            "body": "October to February is the comfortable window; from March to May temperatures often pass 40°C."
+          }
+        ],
+        "faqs": [
+          {
+            "q": "Can I see Pattadakal and Aihole in one morning?",
+            "a": "Yes — they are about 15 km (20 minutes) apart, and Pattadakal is about 22 km from Badami."
+          },
+          {
+            "q": "When do the Badami caves open?",
+            "a": "Daily from 6 am to 6 pm."
+          }
         ]
       }
     },
@@ -6151,194 +6406,335 @@
         "heritage",
         "spiritual"
       ],
-      "summary": "Bengaluru's gardens, Mysuru's palace and Srirangapatna, three days in Hampi, and the Chalukya caves and temples around Badami.",
+      "summary": "Bengaluru's gardens, Mysuru's palace and Srirangapatna, the overnight Hampi Express, three days around Hampi, and the Chalukya caves and temples of Badami, Pattadakal and Aihole.",
       "seoTitle": "Karnataka Heritage Tour: 8-Day Itinerary",
-      "seoDescription": "Eight days across Karnataka: Bengaluru, Mysuru Palace and Srirangapatna, Hampi's Vijayanagara ruins, and Badami, Pattadakal and Aihole.",
+      "seoDescription": "Eight days across Karnataka: Bengaluru, Mysuru Palace and Srirangapatna, the Hampi Express, Hampi's ruins, then Badami, Pattadakal and Aihole — with drive times.",
       "facts": [
         "BLL1",
+        "BLL3",
+        "BL4",
+        "BLC1",
         "MYP1",
+        "MYP2",
         "MYP3",
+        "MYP5",
+        "MY3",
+        "MYC1",
         "MYR1",
+        "MYR2",
+        "HM2",
+        "HM4",
         "HMV1",
+        "HMV2",
         "HMT1",
         "HMB1",
         "HMM1",
+        "HMC1",
+        "HMC2",
         "BDC1",
+        "BDC3",
+        "BDF1",
+        "BD4",
+        "BD5",
         "BDP1",
         "BDA1",
+        "BD2",
+        "BD3",
         "KA1",
-        "MY4",
-        "HM4",
-        "BD2"
+        "KA_BLMY",
+        "KA_SRP",
+        "KA_HEX",
+        "KA_HBD",
+        "KA_BPA",
+        "KA_PTH"
       ],
       "sources": [],
       "plan": {
-        "overview": "From the capital south to Mysuru, then north by overnight train or bus to Hampi and on to the Chalukya heartland.",
+        "overview": "Bengaluru, then two days in Mysuru, the overnight Hampi Express (it leaves Mysuru at 18:50 and reaches Hosapete around 7 am), two and a half days at Hampi, and a car for the 150 km drive to Badami and the temple circuit. Fly out of Hubballi.",
+        "style": "Heritage",
         "start": "Bengaluru",
-        "end": "Badami (Hubballi airport about 105 km)",
-        "transport": "Trains, overnight buses and cabs; a car with driver from Hampi to Badami.",
-        "season": "October to February suits the whole route.",
+        "end": "Hubballi (airport about 105 km from Badami)",
+        "season": "October to February suits the whole route; the north is very hot from March to May",
+        "difficulty": "Moderate — early starts and one night train",
+        "transport": "Metro and cabs in Bengaluru; car or train to Mysuru; Hampi Express overnight; a car with driver from Hampi to Badami and Hubballi.",
         "days": [
           {
             "title": "Day 1: Bengaluru",
-            "summary": "Breakfast trail, Lalbagh and Cubbon Park.",
+            "summary": "A Basavanagudi breakfast, Lalbagh's Glass House and Cubbon Park.",
             "stops": [
               {
+                "time": "8:00 am",
+                "name": "Breakfast in Basavanagudi",
+                "placeSlug": "karnataka/bengaluru",
+                "duration": "1.5 hours"
+              },
+              {
+                "time": "Late morning",
                 "name": "Lalbagh Botanical Garden",
-                "time": "Morning",
                 "placeSlug": "karnataka/lalbagh-botanical-garden",
                 "duration": "2 hours"
               },
               {
-                "name": "Cubbon Park",
                 "time": "Afternoon",
+                "name": "Cubbon Park",
                 "placeSlug": "karnataka/cubbon-park",
                 "duration": "1.5 hours"
               }
             ],
-            "overnight": "Bengaluru"
+            "overnight": "Bengaluru",
+            "distance": "All within the city",
+            "driveTime": "Short metro or auto hops",
+            "transport": "Metro and autos",
+            "meals": "Idli-vade and filter coffee, then masale dose at Vidyarthi Bhavan."
           },
           {
-            "title": "Day 2: Mysuru Palace",
-            "summary": "Drive to Mysuru; the palace in the afternoon and, on a Sunday, the lights at 7 pm.",
+            "title": "Day 2: To Mysuru and the palace",
+            "summary": "Early drive or train to Mysuru, then the Indo-Saracenic palace; on Sundays and holidays it is lit up from 7 to 8 pm.",
             "stops": [
               {
+                "time": "7:00 am",
+                "name": "Bengaluru to Mysuru",
+                "duration": "2–2.5 hours"
+              },
+              {
+                "time": "10:00 am",
                 "name": "Mysuru Palace",
-                "time": "Afternoon",
                 "placeSlug": "karnataka/mysuru-palace",
-                "duration": "2.5 hours"
-              }
-            ],
-            "overnight": "Mysuru",
-            "travel": "Bengaluru to Mysuru about 3.5 hours by road."
-          },
-          {
-            "title": "Day 3: Chamundi Hills and Srirangapatna",
-            "summary": "Chamundi Hills early, Srirangapatna in the afternoon; overnight train or bus north.",
-            "stops": [
-              {
-                "name": "Chamundi Hills",
-                "time": "Morning",
-                "placeSlug": "karnataka/chamundi-hills",
-                "duration": "2 hours"
+                "duration": "2.5 hours",
+                "note": "Open 10 am–5:30 pm; shoes off, no photography inside."
               },
               {
-                "name": "Srirangapatna",
-                "time": "Afternoon",
-                "placeSlug": "karnataka/srirangapatna",
-                "duration": "3 hours"
-              }
-            ],
-            "overnight": "Overnight train/bus to Hosapete"
-          },
-          {
-            "title": "Day 4: Hampi's sacred centre",
-            "summary": "The Virupaksha Temple, Hemakuta Hill and sunset on Matanga Hill.",
-            "stops": [
-              {
-                "name": "Virupaksha Temple",
-                "time": "Morning",
-                "placeSlug": "karnataka/virupaksha-temple-hampi",
-                "duration": "1.5 hours"
-              },
-              {
-                "name": "Matanga Hill",
-                "time": "Sunset",
-                "placeSlug": "karnataka/matanga-hill",
-                "duration": "1.5 hours"
-              }
-            ],
-            "overnight": "Hampi"
-          },
-          {
-            "title": "Day 5: Vittala Temple and the river",
-            "summary": "The Stone Chariot and musical pillars, then a coracle ride.",
-            "stops": [
-              {
-                "name": "Vijaya Vittala Temple",
-                "time": "Morning",
-                "placeSlug": "karnataka/vittala-temple",
-                "duration": "2 hours"
-              },
-              {
-                "name": "Coracle ride",
-                "time": "Late afternoon",
-                "placeSlug": "karnataka/hampi-coracle-ride",
+                "time": "Evening",
+                "name": "Palace illumination (Sundays and public holidays)",
+                "placeSlug": "karnataka/mysuru-palace",
                 "duration": "1 hour"
               }
             ],
-            "overnight": "Hampi"
+            "overnight": "Mysuru",
+            "distanceKm": 145,
+            "distance": "About 140 km from Bengaluru",
+            "driveTime": "About 2–2.5 hours door to door by the expressway",
+            "transport": "Car or train (Mysuru Junction is about 2 km from the palace)",
+            "meals": "Try Mysore Pak, the city's sweet."
+          },
+          {
+            "title": "Day 3: Chamundi Hills and Srirangapatna, then the night train",
+            "summary": "Chamundi Hills and its giant Nandi in the morning, Tipu Sultan's island capital in the afternoon, and the overnight Hampi Express.",
+            "stops": [
+              {
+                "time": "Morning",
+                "name": "Chamundi Hills",
+                "placeSlug": "karnataka/chamundi-hills",
+                "duration": "2 hours",
+                "note": "13 km from the city; over 1,008 steps pass the monolithic Nandi."
+              },
+              {
+                "time": "Afternoon",
+                "name": "Srirangapatna",
+                "placeSlug": "karnataka/srirangapatna",
+                "duration": "2.5 hours",
+                "note": "The Ranganathaswamy Temple, Gumbaz and Daria Daulat Bagh."
+              },
+              {
+                "time": "18:50",
+                "name": "Hampi Express to Hosapete",
+                "placeSlug": "karnataka/hampi",
+                "duration": "Overnight"
+              }
+            ],
+            "overnight": "Hampi Express (overnight train)",
+            "distanceKm": 60,
+            "distance": "Chamundi Hills 13 km and Srirangapatna 16 km from Mysuru",
+            "driveTime": "Short drives; allow 2–3 hours for Srirangapatna including travel",
+            "transport": "Cab for the day; overnight train",
+            "meals": "Eat dinner before boarding — the train leaves at 18:50."
+          },
+          {
+            "title": "Day 4: Hampi's sacred centre",
+            "summary": "Arrive at Hosapete, 13 km from Hampi; the living Virupaksha Temple, Hemakuta Hill, and sunset from Matanga Hill.",
+            "stops": [
+              {
+                "time": "7:00 am",
+                "name": "Arrive Hosapete; transfer to Hampi",
+                "placeSlug": "karnataka/hampi",
+                "duration": "30 minutes"
+              },
+              {
+                "time": "Morning",
+                "name": "Virupaksha Temple",
+                "placeSlug": "karnataka/virupaksha-temple-hampi",
+                "duration": "1.5 hours",
+                "note": "Look for the inverted shadow of the gopuram inside."
+              },
+              {
+                "time": "Late afternoon",
+                "name": "Matanga Hill",
+                "placeSlug": "karnataka/matanga-hill",
+                "duration": "2 hours",
+                "note": "The classic sunset climb."
+              }
+            ],
+            "overnight": "Hampi or Hosapete",
+            "distanceKm": 13,
+            "distance": "Hosapete Junction to Hampi about 13 km",
+            "driveTime": "Short auto ride from the station",
+            "transport": "Auto or taxi",
+            "meals": "A late breakfast after the night train; rest through midday."
+          },
+          {
+            "title": "Day 5: Vittala Temple and the river",
+            "summary": "The Stone Chariot and musical pillars of the Vijaya Vittala Temple, then a coracle across the Tungabhadra.",
+            "stops": [
+              {
+                "time": "Morning",
+                "name": "Vijaya Vittala Temple",
+                "placeSlug": "karnataka/vittala-temple",
+                "duration": "2.5 hours"
+              },
+              {
+                "time": "Late afternoon",
+                "name": "Coracle ride",
+                "placeSlug": "karnataka/hampi-coracle-ride",
+                "duration": "1 hour",
+                "note": "Life jackets are mandatory; rides may pause in heavy monsoon."
+              }
+            ],
+            "overnight": "Hampi or Hosapete",
+            "distance": "Within the Hampi site",
+            "driveTime": "Short auto or bicycle hops",
+            "transport": "Bicycle or auto",
+            "meals": "Carry water; eat before the midday heat."
           },
           {
             "title": "Day 6: Royal Enclosure, then Badami",
-            "summary": "The Royal Enclosure in the morning; drive to Badami (about 140 km) in the afternoon.",
+            "summary": "The Royal Enclosure in the cool of the morning, then the drive north-west to Badami.",
             "stops": [
               {
-                "name": "Hampi Bazaar and Royal Enclosure",
                 "time": "Morning",
+                "name": "Hampi Bazaar and the Royal Enclosure",
                 "placeSlug": "karnataka/hampi-bazaar-royal-enclosure",
-                "duration": "3 hours"
+                "duration": "2.5 hours",
+                "note": "The Mahanavami Dibba, Stepped Tank and Elephant Stables."
+              },
+              {
+                "time": "Afternoon",
+                "name": "Drive to Badami",
+                "placeSlug": "karnataka/badami",
+                "duration": "3–3.5 hours"
               }
             ],
             "overnight": "Badami",
-            "travel": "Hampi to Badami about 140 km by road."
+            "distanceKm": 150,
+            "distance": "About 150 km from Hampi to Badami",
+            "driveTime": "About 3–3.5 hours",
+            "transport": "Car with driver",
+            "meals": "Lunch before you leave Hampi; dinner in Badami."
           },
           {
             "title": "Day 7: Badami",
-            "summary": "The cave temples at dawn, the fort, and Agastya Lake at sunset.",
+            "summary": "The four cave temples at opening time, the fort climb and Agastya Lake.",
             "stops": [
               {
-                "name": "Badami Cave Temples",
                 "time": "6:00 am",
+                "name": "Badami Cave Temples",
                 "placeSlug": "karnataka/badami-cave-temples",
                 "duration": "2.5 hours"
               },
               {
-                "name": "Badami Fort",
                 "time": "Late morning",
+                "name": "Badami Fort",
                 "placeSlug": "karnataka/badami-fort",
-                "duration": "1.5 hours"
+                "duration": "1.5 hours",
+                "note": "A 30–45 minute climb."
+              },
+              {
+                "time": "Evening",
+                "name": "Agastya Lake and the Bhutanatha temples",
+                "placeSlug": "karnataka/badami",
+                "duration": "1 hour"
               }
             ],
-            "overnight": "Badami"
+            "overnight": "Badami",
+            "distance": "On foot in Badami town",
+            "driveTime": "None",
+            "transport": "On foot",
+            "meals": "Girmit for breakfast; jowar rotti with ennegayi."
           },
           {
             "title": "Day 8: Pattadakal and Aihole",
-            "summary": "Pattadakal in the morning, Aihole in the afternoon, then on to Hubballi.",
+            "summary": "The UNESCO temples of Pattadakal and Aihole's Durga Temple, then on to Hubballi for the flight home.",
             "stops": [
               {
+                "time": "9:00 am",
                 "name": "Pattadakal",
-                "time": "Morning",
                 "placeSlug": "karnataka/pattadakal",
-                "duration": "2.5 hours"
+                "duration": "2 hours",
+                "note": "Open 9 am–6 pm."
               },
               {
+                "time": "Late morning",
                 "name": "Aihole",
-                "time": "Afternoon",
                 "placeSlug": "karnataka/aihole",
-                "duration": "2.5 hours"
+                "duration": "2 hours"
+              },
+              {
+                "time": "Afternoon",
+                "name": "Drive to Hubballi",
+                "note": "Hubballi airport is about 105 km from Badami."
               }
             ],
-            "overnight": "Hubballi"
+            "overnight": "Hubballi",
+            "distance": "Badami to Pattadakal about 22 km, Aihole 15 km further; Hubballi airport about 105 km from Badami",
+            "driveTime": "About 20 minutes Pattadakal–Aihole; allow the afternoon for the drive to Hubballi",
+            "transport": "Car with driver",
+            "meals": "Breakfast in Badami and carry water — there is little food at the temple sites."
           }
         ],
         "budget": {
-          "assumptions": "VacayOut lists only fees it could check with an official source; hotels, transport and meals are not estimated. Check current prices before you book.",
+          "assumptions": "VacayOut lists only fees it could check with an official source; hotels, transport, meals and monument tickets are not estimated. Check current prices before you book.",
           "lines": []
         },
         "booking": [
           {
-            "item": "Overnight train or bus",
-            "detail": "Book the Mysuru/Bengaluru–Hosapete leg early."
+            "item": "Hampi Express (16592)",
+            "detail": "Book the Mysuru–Hosapete sleeper early; it fills in season."
+          },
+          {
+            "item": "Car from Hampi",
+            "detail": "Arrange a car and driver for days 6–8 (Hampi–Badami–Hubballi)."
+          },
+          {
+            "item": "Badami rooms",
+            "detail": "Few hotels — book ahead."
           }
         ],
         "alternatives": [
           "Swap Mysuru for Coorg if you prefer hills.",
-          "Add Gokarna for a beach finish."
+          "Travelling on a Sunday? Stay in Mysuru for the 7–8 pm palace illumination."
         ],
         "tips": [
-          "Start sightseeing early to beat the heat in the north.",
-          "Dress modestly at temples."
+          "Start sightseeing at dawn in Hampi and Badami to beat the heat.",
+          "Dress modestly at temples; shoes off inside Mysuru Palace."
+        ],
+        "prep": [
+          {
+            "title": "Road times",
+            "body": "Bengaluru–Mysuru is about 2–2.5 hours door to door; Hampi–Badami about 150 km (3–3.5 hours); Pattadakal is 22 km from Badami and Aihole 15 km beyond."
+          },
+          {
+            "title": "Night train",
+            "body": "The Hampi Express (16592) leaves Mysuru at 18:50 and is timetabled into Hosapete at 07:00; check the current timetable on IRCTC."
+          }
+        ],
+        "faqs": [
+          {
+            "q": "Why the night train?",
+            "a": "It saves a hotel night and a full travel day: you leave Mysuru in the evening and start Hampi in the morning."
+          },
+          {
+            "q": "Where do I fly out?",
+            "a": "Hubballi, whose airport is about 105 km from Badami."
+          }
         ]
       }
     }

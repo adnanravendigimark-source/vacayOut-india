@@ -1,0 +1,402 @@
+{
+ "cluster": "tamil-nadu2-thanjavur",
+ "title": "Thanjavur (Batch 7)",
+ "researchedAt": "2026-11-18",
+ "selection": "Batch 7. Thanjavur had 6 sections. Adds who it's for, practical info, food, shopping and mistakes, plus a fuller overview (pending review). The 216-ft tower and Saraswathi Mahal mentions rest on approved highlights; no new figures. No prices.",
+ "sources": {
+  "II_TNJ": {
+   "url": "https://www.incredibleindia.gov.in/en/tamil-nadu/thanjavur",
+   "title": "Thanjavur — Incredible India",
+   "authority": "government"
+  },
+  "W_BRIH": {
+   "url": "https://en.wikipedia.org/wiki/Brihadisvara_Temple,_Thanjavur",
+   "title": "Brihadisvara Temple, Thanjavur — Wikipedia",
+   "authority": "reference"
+  },
+  "TT_TNJ": {
+   "url": "https://www.tamilnadutourism.tn.gov.in/destinations/thanjavur",
+   "title": "Thanjavur — Tamil Nadu Tourism (Government of Tamil Nadu)",
+   "authority": "government"
+  },
+  "TT_BRI": {
+   "url": "https://www.tamilnadutourism.tn.gov.in/destinations/brihadeeswara-temple",
+   "title": "Brihadeeswara Temple — Tamil Nadu Tourism (Government of Tamil Nadu)",
+   "authority": "government"
+  },
+  "TT_SML": {
+   "url": "https://www.tamilnadutourism.tn.gov.in/destinations/saraswathi-mahal-library",
+   "title": "Saraswathi Mahal Library — Tamil Nadu Tourism (Government of Tamil Nadu)",
+   "authority": "government"
+  }
+ },
+ "facts": {
+  "BTJ1": {
+   "place": "tamil-nadu/thanjavur",
+   "topic": "Thanjavur",
+   "claim": "Thanjavur is a city of Chola temples, rice fields and the famous Thanjavur paintings, ruled in turn by Cholas, Pandyas, Nayaks, Vijayanagara kings and Marathas.",
+   "claimType": "general",
+   "evidence": [
+    {
+     "source": "TT_TNJ",
+     "quote": "Then comes the sheer splendour of the world-famous Thanjavur Paintings."
+    },
+    {
+     "source": "TT_TNJ",
+     "quote": "Thanjavur has been under the reign of various dynasties including the Cholas, Pandyas, Nayaks, Vijayanagara Kings and the Marathas, subsequently falling under the rule of the British."
+    }
+   ]
+  },
+  "BTJ2": {
+   "place": "tamil-nadu/thanjavur",
+   "topic": "Getting there",
+   "claim": "Tiruchirappalli airport is about 61 km from Thanjavur; buses run from Chennai, Coimbatore, Madurai and Tiruchirappalli.",
+   "claimType": "distance",
+   "evidence": [
+    {
+     "source": "TT_TNJ",
+     "quote": "Tiruchirappalli International Airport, about 61 km away."
+    },
+    {
+     "source": "TT_TNJ",
+     "quote": "Local buses, both Government and Private, ply to Thanjavur from major cities like Coimbatore, Chennai, Madurai, Tiruchirappalli, Thiruvarur and Pudukkottai on a regular basis."
+    }
+   ]
+  },
+  "BTJ3": {
+   "place": "tamil-nadu/thanjavur",
+   "topic": "Best time",
+   "claim": "Thanjavur is visited year-round; December to February avoids the summer heat of 35–40°C.",
+   "claimType": "general",
+   "evidence": [
+    {
+     "source": "TT_TNJ",
+     "quote": "if you wish to avoid hot and humid weather, December to February would be the ideal time for travel and stay in and around Thanjavur."
+    },
+    {
+     "source": "TT_TNJ",
+     "quote": "the temperature ranges from 35° Celsius to 40° Celsius in the region."
+    }
+   ],
+   "kind": "seasonal"
+  },
+  "BTJB2": {
+   "place": "tamil-nadu/brihadeeswara-temple",
+   "topic": "Tower and Nandi",
+   "claim": "The granite tower rises 216 ft, and a 13-ft Nandi is carved from a single rock.",
+   "claimType": "general",
+   "evidence": [
+    {
+     "source": "TT_BRI",
+     "quote": "The main temple tower is 216 ft high"
+    },
+    {
+     "source": "TT_BRI",
+     "quote": "13 ft high and 16 ft wide, the statue is sculpted out of a single rock."
+    },
+    {
+     "source": "TT_BRI",
+     "quote": "The complete structure of the temple is made out of granite."
+    }
+   ]
+  },
+  "BTJS1": {
+   "place": "tamil-nadu/saraswathi-mahal-library",
+   "topic": "Saraswathi Mahal",
+   "claim": "The Saraswathi Mahal Library, one of Asia's oldest, holds more than 49,000 manuscripts on paper and palm leaf.",
+   "claimType": "general",
+   "evidence": [
+    {
+     "source": "TT_SML",
+     "quote": "you can visit one of the oldest libraries in Asia called Saraswathi Mahal Library"
+    },
+    {
+     "source": "TT_SML",
+     "quote": "More than 49,000 manuscripts, both on paper and on palm leaves, are kept in this library."
+    }
+   ]
+  },
+  "BTJB3": {
+   "place": "tamil-nadu/brihadeeswara-temple",
+   "topic": "Station",
+   "claim": "Thanjavur Junction station is about 1.5 km from the temple.",
+   "claimType": "distance",
+   "evidence": [
+    {
+     "source": "TT_BRI",
+     "quote": "Thanjavur Junction Railway Station, about 1.5 km away."
+    }
+   ]
+  },
+  "TN1": {
+   "place": "tamil-nadu/thanjavur",
+   "topic": "Location",
+   "claim": "Thanjavur (Thanjai, old Tanjore) is in the Cauvery delta, about 350 km south-west of Chennai.",
+   "claimType": "distance",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "II_TNJ",
+     "quote": "is situated in the Cauvery delta at a distance of about 350 km south-west of Chennai"
+    },
+    {
+     "source": "II_TNJ",
+     "quote": "Thanjavur is also known as Thanjai."
+    }
+   ]
+  },
+  "TN2": {
+   "place": "tamil-nadu/thanjavur",
+   "topic": "Chola capital",
+   "claim": "Thanjavur was the Chola capital, prominent from the 9th to 12th centuries.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "II_TNJ",
+     "quote": "Thanjavur attained prominence under the Chola rulers who were paramount in South India during 9th to 12th centuries."
+    }
+   ]
+  },
+  "TN3": {
+   "place": "tamil-nadu/thanjavur",
+   "topic": "Big Temple",
+   "claim": "The Brihadeeswara (Big) Temple, completed in 1010 CE under Rajaraja I, is part of UNESCO's Great Living Chola Temples (listed 1987).",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "W_BRIH",
+     "quote": "rajaraja i completed 1010 ce"
+    },
+    {
+     "source": "W_BRIH",
+     "quote": "part_of = [[great living chola temples]]"
+    },
+    {
+     "source": "II_TNJ",
+     "quote": "also known as the \"Big Temple\", recognised as a UNESCO World Heritage site"
+    }
+   ]
+  },
+  "TN4": {
+   "place": "tamil-nadu/thanjavur",
+   "topic": "Painting and dance",
+   "claim": "Thanjavur paintings use gold foil; the 18th-century Thanjavur Quartet refined Bharatanatyam, still taught in the city's academies.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "II_TNJ",
+     "quote": "characterised by intricate detailing and embellishments of gold foil"
+    },
+    {
+     "source": "II_TNJ",
+     "quote": "with the renowned Thanjavur Quartet credited with refining the Bharatanatyam dance form in the 18th century"
+    },
+    {
+     "source": "II_TNJ",
+     "quote": "Presently, Thanjavur remains a revered centre for Bharatanatyam"
+    }
+   ]
+  },
+  "TN5": {
+   "place": "tamil-nadu/thanjavur",
+   "topic": "Palace",
+   "claim": "The 17th-century Maratha palace has a museum of bronzes, musical instruments and royal regalia.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "II_TNJ",
+     "quote": "constructed by Maratha rulers in the 17th century. The palace complex houses a museum exhibiting a remarkable array of artifacts, including bronze sculptures, musical instruments, and royal regalia"
+    }
+   ]
+  },
+  "TN6": {
+   "place": "tamil-nadu/thanjavur",
+   "topic": "Food",
+   "claim": "Try Thanjavur Thalappakatti biryani, as well as dosa, idli and sambar.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "II_TNJ",
+     "quote": "the renowned \"Thanjavur Thalappakatti Biriyani,\""
+    },
+    {
+     "source": "II_TNJ",
+     "quote": "featuring dishes like dosa, idli, and sambar"
+    }
+   ]
+  },
+  "TN7": {
+   "place": "tamil-nadu/thanjavur",
+   "topic": "Crafts",
+   "claim": "Local crafts include bronze casting, silk weaving and doll-making.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "II_TNJ",
+     "quote": "bronze casting tradition, silk weaving, and doll-making"
+    }
+   ]
+  }
+ },
+ "places": [
+  {
+   "key": "tamil-nadu/thanjavur",
+   "kind": "city",
+   "name": "Thanjavur",
+   "summary": "The Chola capital: the 1,000-year-old Brihadeeswara Temple, the Saraswathi Mahal Library and Thanjavur paintings, amid rice fields.",
+   "seoTitle": "Thanjavur Travel Guide: Big Temple, Library & More",
+   "seoDescription": "Plan a trip to Thanjavur: the Brihadeeswara Temple, Saraswathi Mahal Library, day trips to Darasuram and Gangaikonda Cholapuram, and how to get there.",
+   "lat": 10.787,
+   "lng": 79.1378,
+   "tripTypes": [
+    "heritage",
+    "spiritual"
+   ],
+   "images": [
+    {
+     "commons": "File:Thanjavur 2.jpg",
+     "alt": "A view of Thanjavur",
+     "caption": "Thanjavur",
+     "hero": true
+    }
+   ],
+   "wikidataId": "Q41496",
+   "relations": [
+    {
+     "to": "tamil-nadu/airavatesvara-temple",
+     "type": "day_trip"
+    },
+    {
+     "to": "tamil-nadu/gangaikonda-cholapuram",
+     "type": "day_trip"
+    }
+   ],
+   "sections": {
+    "overview": {
+     "text": "Thanjavur (Thanjai, old Tanjore) lies in the Cauvery delta about 350 km south-west of Chennai and was the capital of the Cholas, paramount in the south from the 9th to the 12th century. Their masterpiece, the Brihadeeswara or Big Temple, was completed in 1010 under Rajaraja I and is part of UNESCO's Great Living Chola Temples; its granite tower rises 216 ft over a monolithic Nandi.\n\nThe later Maratha palace holds a museum of bronzes and royal regalia beside the Saraswathi Mahal library. Thanjavur is also a home of gold-foil Thanjavur painting, of Bharatanatyam — refined here by the 18th-century Thanjavur Quartet — and of bronze casting, silk and dolls. Eat Thalappakatti biryani. Tiruchirappalli airport is about 61 km away; December to February avoids the heat.",
+     "facts": [
+      "TN1",
+      "TN2",
+      "TN3",
+      "BTJB2",
+      "BTJ1",
+      "TN5",
+      "BTJS1",
+      "TN4",
+      "TN7",
+      "TN6",
+      "BTJ2",
+      "BTJ3"
+     ]
+    },
+    "who_its_for": {
+     "items": [
+      {
+       "title": "History lovers",
+       "body": "The Big Temple and the Chola legacy."
+      },
+      {
+       "title": "Art lovers",
+       "body": "Thanjavur painting, bronzes and the palace museum."
+      },
+      {
+       "title": "Dance lovers",
+       "body": "A centre of Bharatanatyam."
+      },
+      {
+       "title": "Shoppers",
+       "body": "Bronze casting, silk weaving and dolls."
+      }
+     ],
+     "facts": [
+      "TN3",
+      "TN4",
+      "TN5",
+      "TN7"
+     ]
+    },
+    "practical_info": {
+     "items": [
+      {
+       "title": "Getting there",
+       "body": "Tiruchirappalli airport is about 61 km away; buses run from Chennai, Coimbatore, Madurai and Tiruchirappalli.",
+       "status": "verified"
+      },
+      {
+       "title": "Season",
+       "body": "Year-round; December–February avoids 35–40°C summer heat.",
+       "status": "seasonal"
+      },
+      {
+       "title": "Distance",
+       "body": "About 350 km south-west of Chennai; Thanjavur Junction is about 1.5 km from the Big Temple.",
+       "status": "verified"
+      }
+     ],
+     "facts": [
+      "BTJ2",
+      "BTJ3",
+      "TN1",
+      "BTJB3"
+     ]
+    },
+    "food": {
+     "items": [
+      {
+       "body": "Thanjavur Thalappakatti biryani.",
+       "status": "verified"
+      },
+      {
+       "body": "Dosa, idli and sambar.",
+       "status": "verified"
+      }
+     ],
+     "facts": [
+      "TN6"
+     ]
+    },
+    "shopping": {
+     "items": [
+      {
+       "body": "Thanjavur paintings with gold foil.",
+       "status": "verified"
+      },
+      {
+       "body": "Bronze castings, silk and dolls.",
+       "status": "verified"
+      }
+     ],
+     "facts": [
+      "TN4",
+      "TN7"
+     ]
+    },
+    "common_mistakes": {
+     "items": [
+      {
+       "body": "Visiting in the 35–40°C summer heat."
+      },
+      {
+       "body": "Seeing only the temple and missing the palace museum."
+      },
+      {
+       "body": "Leaving without seeing Thanjavur painting or a Bharatanatyam performance."
+      }
+     ],
+     "facts": [
+      "BTJ3",
+      "TN5",
+      "TN4"
+     ]
+    }
+   }
+  }
+ ],
+ "itineraries": []
+}

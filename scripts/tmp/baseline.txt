@@ -1,0 +1,7 @@
+BASELINE (current code, 2026-11-19, 15 questions, avg over 14 non-greeting)
+priority: ttft(first text block)=4081ms total=4677ms in=2433 cached=0 out=344 cost=3688 micro$ (priority counted at 2x) format 15/15
+default : ttft=5457ms total=5890ms in=2293 cached=0 out=341 cost=1114 micro$ format 15/15
+Note: "How much does a week in Himachal cost" triggered web search via LIVE_RE "cost" (14-16k input tokens, +$0.01-0.04).
+AFTER engine (2026-11-19, no answer cache):
+default : ttft(first streamed text)=2120ms total=6039ms in=2347 cached=2114 out=432 cost=261 micro$ format 15/15 (strict checks)
+priority: ttft=1831ms total=4627ms in=2347 cached=2114 out=443 cost=533 micro$ format 15/15

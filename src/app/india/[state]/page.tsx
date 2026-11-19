@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { cache } from "react";
 import { notFound, permanentRedirect } from "next/navigation";
-import { StateGuide } from "@/components/place/state-guide";
+import { StateTemplate } from "@/components/place/state-template";
 import { SLUG_RE } from "@/lib/places/slug";
 import { findRedirect, getPublishedState, listInlineChildren, listPublishedRelated } from "@/lib/places/repo";
 import { placeRollup } from "@/lib/places/rollup";
@@ -28,10 +28,14 @@ export async function generateMetadata({ params }: Params): Promise<Metadata> {
   const { state } = await params;
   const p = await load(state);
   if (!p) return {};
-  const { place } = p.snapshot;
+  const { place, sections } = p.snapshot;
+  // Keywords from this state's own record: its name, its regions and the destinations the guide covers.
+  const regionTitles = (sections.find((x) => x.key === "regions")?.body.items ?? []).map((i) => i.title).filter((t): t is string => !!t);
+  const keywords = [...new Set([place.name, `${place.name} travel guide`, `${place.name} itinerary`, ...regionTitles])].slice(0, 12);
   return {
     title: { absolute: place.seoTitle },
     description: place.seoDescription,
+    keywords,
     alternates: { canonical: `/india/${state}` },
     // AI illustrations are never used as the page's photo in social previews.
     openGraph: { title: place.seoTitle, description: place.seoDescription, images: place.hero && place.hero.kind === "photo" ? [{ url: place.hero.url, alt: place.hero.alt }] : undefined },
@@ -48,5 +52,5 @@ export default async function StatePage({ params }: Params) {
     notFound();
   }
   const [inline, related, rollup] = await Promise.all([listInlineChildren(p.id), listPublishedRelated(p.id), placeRollup({ id: p.id, slug: p.snapshot.place.slug, kind: p.snapshot.place.kind }, state)]);
-  return <StateGuide snapshot={p.snapshot} stateSlug={state} rollup={rollup} inline={inline} related={related} />;
+  return <StateTemplate snapshot={p.snapshot} stateSlug={state} rollup={rollup} inline={inline} related={related} />;
 }

@@ -100,6 +100,8 @@ export const blockSchema = z.discriminatedUnion("type", [
       .max(6),
     /** True when a comparison table already covers these places (hides the "Compare" chip). */
     compared: z.boolean().optional(),
+    /** "chips": the places are already described elsewhere (a comparison); show only links to their guides. */
+    display: z.enum(["list", "chips"]).optional(),
   }),
   /** Side-by-side comparison of 2-4 places. Cells are short plain text. */
   z.object({
@@ -112,7 +114,21 @@ export const blockSchema = z.discriminatedUnion("type", [
     type: z.literal("itinerary"),
     title: shortText,
     days: z
-      .array(z.object({ title: shortText, items: z.array(shortText).min(1).max(6), photo: photoSchema.optional() }))
+      .array(
+        z.object({
+          title: shortText,
+          items: z.array(shortText).min(1).max(6),
+          photo: photoSchema.optional(),
+          /** Where they sleep, the day's main travel, a rough cost, and the day by part (newer answers). */
+          base: z.string().trim().min(1).max(80).optional(),
+          travel: shortText.optional(),
+          cost: z.string().trim().min(1).max(120).optional(),
+          morning: z.array(shortText).max(2).optional(),
+          afternoon: z.array(shortText).max(2).optional(),
+          evening: z.array(shortText).max(2).optional(),
+          note: shortText.optional(),
+        }),
+      )
       .min(1)
       .max(14),
   }),
@@ -132,6 +148,8 @@ export const blockSchema = z.discriminatedUnion("type", [
           label: shortText,
           low: z.number().int().min(0).max(10_000_000),
           high: z.number().int().min(0).max(10_000_000).optional(),
+          /** What the tier covers (stay type, food, local transport). */
+          includes: z.string().trim().min(1).max(160).optional(),
         }),
       )
       .min(1)
@@ -201,5 +219,7 @@ export type ChatTurn = z.infer<typeof chatRequestSchema>["messages"][number];
 export type StreamEvent =
   | { type: "status"; text: string }
   | { type: "block"; block: Block }
+  /** Reply text as it is being written; replaced by the final text block. */
+  | { type: "delta"; text: string }
   | { type: "done"; summary: string; memory?: TripMemory | null; freeLeft?: number | null }
-  | { type: "error"; message: string };
+  | { type: "error"; message: string; retry?: boolean };

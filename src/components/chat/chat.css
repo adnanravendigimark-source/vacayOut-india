@@ -1,32 +1,29 @@
-/* AI chat: light motion only. */
+/* AI chat: a calm tool. One moving thing at a time: the caret while text streams. */
 
-/* Answer parts and messages fade up as they arrive */
-.cx-in { animation: cx-up 0.45s cubic-bezier(.16, 1, .3, 1) both; }
-@keyframes cx-up { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: none; } }
-/* Start screen: items follow one after another */
-.cx-stagger > * { opacity: 0; animation: cx-up 0.5s cubic-bezier(.16, 1, .3, 1) forwards; animation-delay: calc(var(--i, 0) * 60ms + 240ms); }
+/* Answer parts settle in as they arrive (short, from nearly visible) */
+.cx-in { animation: cx-up 0.32s cubic-bezier(.16, 1, .3, 1) both; }
+@keyframes cx-up { from { opacity: 0.001; transform: translateY(4px); } to { opacity: 1; transform: none; } }
 
-/* Message box: a soft glow travels round it while you type */
-@property --cx-a { syntax: "<angle>"; initial-value: 0deg; inherits: false; }
-.cx-box { position: relative; isolation: isolate; }
-.cx-box::before { content: ""; position: absolute; inset: -2px; z-index: -1; border-radius: inherit; padding: 2px; background: conic-gradient(from var(--cx-a), rgba(236, 98, 66, 0.12) 0deg, #ec6242 70deg, #8fa8ff 140deg, rgba(236, 98, 66, 0.12) 210deg, rgba(236, 98, 66, 0.12) 360deg); -webkit-mask: linear-gradient(#000 0 0) content-box, linear-gradient(#000 0 0); -webkit-mask-composite: xor; mask-composite: exclude; opacity: 0; transition: opacity 0.35s; animation: cx-spin 4s linear infinite; }
-.cx-box:focus-within::before { opacity: 1; }
-@keyframes cx-spin { to { --cx-a: 360deg; } }
+/* Typing caret at the end of streaming text */
+.cx-caret { display: inline-block; width: 2px; height: 1.05em; margin-left: 2px; vertical-align: -0.15em; border-radius: 1px; background: currentColor; animation: cx-blink 1s steps(1) infinite; }
+@keyframes cx-blink { 50% { opacity: 0; } }
 
-/* "Planning your trip…": a shimmer on placeholder lines */
-.cx-shimmer { background: linear-gradient(90deg, #EFEBE4 0%, #F9F6F1 45%, #EFEBE4 90%); background-size: 220% 100%; animation: cx-sh 1.5s linear infinite; }
+/* Card placeholder while the answer's cards are being written */
+.cx-skel { background: linear-gradient(90deg, #F1EEE8 0%, #F8F6F2 45%, #F1EEE8 90%); background-size: 220% 100%; animation: cx-sh 1.6s linear infinite; }
 @keyframes cx-sh { from { background-position: 120% 0; } to { background-position: -120% 0; } }
 
-/* The assistant's avatar breathes while it answers */
-.cx-live { animation: cx-breathe 1.6s ease-in-out infinite; }
-@keyframes cx-breathe { 0%, 100% { box-shadow: 0 0 0 0 rgba(236, 98, 66, 0.35); } 50% { box-shadow: 0 0 0 6px rgba(236, 98, 66, 0); } }
+/* Waiting: one small dot that breathes next to the status line */
+.cx-wait { animation: cx-breathe 1.4s ease-in-out infinite; }
+@keyframes cx-breathe { 0%, 100% { opacity: 0.35; } 50% { opacity: 1; } }
 
-/* Status dot in the top bar */
-.cx-dot { position: relative; }
-.cx-dot::after { content: ""; position: absolute; inset: -3px; border-radius: 50%; background: #ec6242; opacity: 0.35; animation: cx-ping 1.8s ease-out infinite; }
-@keyframes cx-ping { to { transform: scale(2.4); opacity: 0; } }
+/* Selection and caret take the palette, not browser blue */
+.cx-root ::selection { background: rgba(236, 98, 66, 0.18); color: #1C1C1C; }
+.cx-root textarea { caret-color: #B8432A; }
+.cx-root table { font-variant-numeric: tabular-nums; }
 
 @media (prefers-reduced-motion: reduce) {
-  .cx-in, .cx-stagger > * { animation: none; opacity: 1; transform: none; }
-  .cx-box::before, .cx-shimmer, .cx-live, .cx-dot::after { animation: none; }
+  .cx-in { animation: none; }
+  .cx-caret { animation: none; }
+  .cx-skel { animation: none; }
+  .cx-wait { animation: none; opacity: 1; }
 }

@@ -1,0 +1,503 @@
+{
+ "cluster": "himachal-more2-kasol",
+ "title": "Kasol (Batch 6)",
+ "researchedAt": "2026-11-18",
+ "selection": "Batch 6. Kasol had 3 approved sections. Adds who it's for, things to do, best time, practical info, safety, etiquette, FAQs and mistakes. Outlook Traveller's guide (undated) gives 1,640 m and 5 km to Manikaran, against existing KS4 (1,580 m) and KS1 (3.5 km); those figures are not used. No prices.",
+ "sources": {
+  "OT_KAS": {
+   "url": "https://www.outlooktraveller.com/destinations/india/quick-guide-kasol-and-manikaran-himachal-pradesh",
+   "title": "Quick Guide: Kasol and Manikaran — Outlook Traveller",
+   "authority": "media"
+  },
+  "W_PARV": {
+   "url": "https://en.wikipedia.org/wiki/Parvati_Valley",
+   "title": "Parvati Valley — Wikipedia",
+   "authority": "reference"
+  },
+  "W_KASOL": {
+   "url": "https://en.wikipedia.org/wiki/Kasol",
+   "title": "Kasol — Wikipedia",
+   "authority": "reference"
+  },
+  "W_MANI": {
+   "url": "https://en.wikipedia.org/wiki/Manikaran",
+   "title": "Manikaran — Wikipedia",
+   "authority": "reference"
+  },
+  "W_TOSH": {
+   "url": "https://en.wikipedia.org/wiki/Tosh,_Himachal_Pradesh",
+   "title": "Tosh — Wikipedia",
+   "authority": "reference"
+  },
+  "W_CAN": {
+   "url": "https://en.wikipedia.org/wiki/Cannabis_in_India",
+   "title": "Cannabis in India — Wikipedia",
+   "authority": "reference"
+  },
+  "W_KAS": {
+   "url": "https://en.wikipedia.org/wiki/Kasol",
+   "title": "Kasol — Wikipedia",
+   "authority": "reference"
+  }
+ },
+ "facts": {
+  "BKS1": {
+   "place": "himachal-pradesh/kasol",
+   "topic": "Kasol",
+   "claim": "Kasol is a hamlet in the Parvati Valley between Bhuntar and Manikaran — 30 km from Bhuntar, 3.5 km from Manikaran and 36 km from Kullu.",
+   "claimType": "distance",
+   "evidence": [
+    {
+     "source": "W_KAS",
+     "quote": "It is situated in Parvati Valley , on the banks of the Parvati River between Bhuntar and Manikaran ."
+    },
+    {
+     "source": "W_KAS",
+     "quote": "It is located 30 km (19 mi) from Bhuntar , 3.5 km from Manikaran and 36 km (22 mi) from Kullu town"
+    }
+   ]
+  },
+  "BKS2": {
+   "place": "himachal-pradesh/kasol",
+   "topic": "A trekking base",
+   "claim": "Kasol is popular with backpackers and is the base for treks to Malana and Kheerganga.",
+   "claimType": "general",
+   "evidence": [
+    {
+     "source": "W_KAS",
+     "quote": "Kasol is a popular Himalayan destination for backpackers and acts as a base for nearby treks to Malana and Kheerganga ."
+    }
+   ]
+  },
+  "BKS4": {
+   "place": "himachal-pradesh/kasol",
+   "topic": "Elevation",
+   "claim": "Kasol stands at about 1,580 m.",
+   "claimType": "general",
+   "evidence": [
+    {
+     "source": "W_KAS",
+     "quote": "Elevation 1,580 m (5,180 ft)"
+    }
+   ]
+  },
+  "BKS5": {
+   "place": "himachal-pradesh/kasol",
+   "topic": "By road only",
+   "claim": "Kasol has no rail or air link of its own; it is reached by road.",
+   "claimType": "general",
+   "evidence": [
+    {
+     "source": "W_KAS",
+     "quote": "Kasol is only connected to the rest of India by well-developed roads."
+    }
+   ]
+  },
+  "KA1": {
+   "place": "himachal-pradesh/kasol",
+   "topic": "Mini Israel",
+   "claim": "Kasol is nicknamed 'Mini Israel': many Israeli travellers come after military service, and cafés serve Israeli food with Hebrew menus.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "W_PARV",
+     "quote": "Kasol has drawn foreign backpackers for decades, especially Israeli travellers who come after their compulsory military service."
+    },
+    {
+     "source": "W_PARV",
+     "quote": "its cafés serve Israeli food and print menus in Hebrew"
+    }
+   ]
+  },
+  "KA2": {
+   "place": "himachal-pradesh/kasol",
+   "topic": "Manikaran",
+   "claim": "Manikaran is a Hindu and Sikh pilgrimage town; its hot spring, inside the Manikaran Sahib Gurudwara, is hot enough to cook rice, and the gurudwara serves langar.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "OT_KAS",
+     "quote": "It is a pilgrimage centre for both Hindus and Sikhs and the hot spring inside the Manikaran Sahib Gurudwara is considered auspicious."
+    },
+    {
+     "source": "OT_KAS",
+     "quote": "is so hot that rice can be cooked in it"
+    },
+    {
+     "source": "W_MANI",
+     "quote": "Traditional feeding (Langar) of visitors at Manikaran"
+    }
+   ]
+  },
+  "KA3": {
+   "place": "himachal-pradesh/kasol",
+   "topic": "Kheerganga",
+   "claim": "For Kheerganga, ride to Barshaini and walk 11 km; the hot spring is accessible from end-April to end-October, and there is no electricity at the top.",
+   "claimType": "distance",
+   "kind": "seasonal",
+   "evidence": [
+    {
+     "source": "OT_KAS",
+     "quote": "you first need to take a local bus or a motorcycle till Barshaini"
+    },
+    {
+     "source": "OT_KAS",
+     "quote": "it is an 11-km walk till Kheer Ganga"
+    },
+    {
+     "source": "OT_KAS",
+     "quote": "which is accessible from the end of April to the end of October every year"
+    },
+    {
+     "source": "OT_KAS",
+     "quote": "Carry a torch, as there is no electricity in Kheer Ganga."
+    }
+   ]
+  },
+  "KA4": {
+   "place": "himachal-pradesh/kasol",
+   "topic": "Season",
+   "claim": "End-April to end-October suits treks and camping; late December to February brings snow.",
+   "claimType": "general",
+   "kind": "seasonal",
+   "evidence": [
+    {
+     "source": "OT_KAS",
+     "quote": "End-April to end-October. In the other months, stay at Kasol is possible but the snow and temperature will make it tough to trek and camp"
+    },
+    {
+     "source": "W_KASOL",
+     "quote": "receives a fair amount of snowfall from late December to February"
+    }
+   ]
+  },
+  "KA5": {
+   "place": "himachal-pradesh/kasol",
+   "topic": "Tosh and villages",
+   "claim": "Travellers also stay in Tosh, Kalga, Pulga and Chalal; Tosh is cheaper than Kasol.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "W_PARV",
+     "quote": "who also stay in nearby villages such as Tosh, Kalga, Pulga and Chalal"
+    },
+    {
+     "source": "W_TOSH",
+     "quote": "Tosh is less expensive than its neighbour town Kasol."
+    }
+   ]
+  },
+  "KA6": {
+   "place": "himachal-pradesh/kasol",
+   "topic": "Malana",
+   "claim": "Malana, on a side valley, governs itself through a council tied to its deity Jamlu; an 1871 report noted its people kept apart from outsiders.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "W_PARV",
+     "quote": "Malana governs itself through a village council linked to its deity, Jamlu"
+    },
+    {
+     "source": "W_PARV",
+     "quote": "recorded that the villagers of Malana kept apart from their neighbours, did not eat or marry outside the village"
+    }
+   ]
+  },
+  "KA7": {
+   "place": "himachal-pradesh/kasol",
+   "topic": "Missing trekkers",
+   "claim": "A number of foreign tourists have gone missing in and around the valley since the early 1990s.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "W_PARV",
+     "quote": "A number of foreign tourists have gone missing in and around the valley since the early 1990s."
+    }
+   ]
+  },
+  "KA8": {
+   "place": "himachal-pradesh/kasol",
+   "topic": "Cannabis law",
+   "claim": "Cannabis is illegal in India under the NDPS Act, 1985, with narrow exceptions such as bhang.",
+   "claimType": "rule",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "W_CAN",
+     "quote": "Cannabis remains illegal in India under the Narcotic Drugs and Psychotropic Substances Act, 1985, with certain exceptions for medical use, scientific research, and traditional preparations like bhang."
+    }
+   ]
+  },
+  "KA9": {
+   "place": "himachal-pradesh/kasol",
+   "topic": "Road",
+   "claim": "Kasol is about 534 km north of Delhi; from Bhuntar turn off for Kasol via Jari.",
+   "claimType": "distance",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "OT_KAS",
+     "quote": "534 km N of Delhi"
+    },
+    {
+     "source": "OT_KAS",
+     "quote": "From Bhuntar (before Kullu), take the right turn to Kasol via Jari."
+    }
+   ]
+  },
+  "KA10": {
+   "place": "himachal-pradesh/kasol",
+   "topic": "Grahan trek",
+   "claim": "A trek from Kasol to Grahan village runs through forest with waterfalls.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "OT_KAS",
+     "quote": "This trek starts from Kasol and is composed of six villages Grahan, Padri, Ratapani, Nagaru, Biskeri and Bhandak Thatch."
+    },
+    {
+     "source": "OT_KAS",
+     "quote": "The path leads through a lush green forest, with beautiful waterfalls on the way."
+    }
+   ]
+  },
+  "KA11": {
+   "place": "himachal-pradesh/kasol",
+   "topic": "River",
+   "claim": "The Parvati rises at the Mantalai Glacier; its water is freezing even in early summer.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "W_TOSH",
+     "quote": "The Parvati River begins at the Mantalai Glacier within the Parvati Valley."
+    },
+    {
+     "source": "W_PARV",
+     "quote": "The waters can be freezing even during the early summer"
+    }
+   ]
+  }
+ },
+ "places": [
+  {
+   "key": "himachal-pradesh/kasol",
+   "kind": "town",
+   "name": "Kasol",
+   "summary": "A riverside hamlet in the Parvati Valley near Manikaran, popular with backpackers as the base for treks to Malana and Kheerganga.",
+   "seoTitle": "Kasol Travel Guide: Parvati Valley Base",
+   "seoDescription": "Plan Kasol in the Parvati Valley: what it's like, the Manikaran hot spring 3.5 km away, treks to Malana and Kheerganga, and how to get there by road.",
+   "lat": 32.01,
+   "lng": 77.315,
+   "tripTypes": [
+    "adventure",
+    "nature"
+   ],
+   "images": [
+    {
+     "commons": "File:Parvati River At Kasol (197732809).jpeg",
+     "alt": "The Parvati river rushing over rocks past pine trees at Kasol",
+     "caption": "The Parvati river at Kasol",
+     "hero": true
+    }
+   ],
+   "parent": "himachal-pradesh",
+   "sections": {
+    "who_its_for": {
+     "items": [
+      {
+       "title": "Trekkers",
+       "body": "Kheerganga, Grahan and the upper-valley villages."
+      },
+      {
+       "title": "Backpackers",
+       "body": "A riverside base with cafés and guesthouses."
+      },
+      {
+       "title": "Pilgrims",
+       "body": "Manikaran's gurudwara, temples and hot spring."
+      }
+     ],
+     "facts": [
+      "KA3",
+      "KA10",
+      "KA5",
+      "BKS2",
+      "KA1",
+      "KA2"
+     ]
+    },
+    "things_to_do": {
+     "items": [
+      {
+       "body": "Visit Manikaran Sahib Gurudwara, eat at the langar and see the hot spring."
+      },
+      {
+       "body": "Walk 11 km from Barshaini to the Kheerganga hot spring (end-April to end-October)."
+      },
+      {
+       "body": "Trek through forest and past waterfalls to Grahan village."
+      },
+      {
+       "body": "Stay a night or two in Tosh, Kalga, Pulga or Chalal."
+      },
+      {
+       "body": "Try Israeli food in Kasol's cafés."
+      }
+     ],
+     "facts": [
+      "KA2",
+      "KA3",
+      "KA10",
+      "KA5",
+      "KA1"
+     ]
+    },
+    "best_time": {
+     "text": "End-April to end-October is the season for treks and camping, and the Kheerganga hot spring is accessible over the same months. You can stay in Kasol in winter, but late December to February brings snow and makes trekking and camping hard.",
+     "facts": [
+      "KA4",
+      "KA3"
+     ]
+    },
+    "practical_info": {
+     "items": [
+      {
+       "title": "Getting there",
+       "body": "Kasol is reached only by road: turn off at Bhuntar, 30 km away, and drive via Jari.",
+       "status": "verified"
+      },
+      {
+       "title": "Kheerganga",
+       "body": "Kheerganga has no electricity; carry a torch.",
+       "status": "unconfirmed"
+      },
+      {
+       "title": "Law",
+       "body": "Cannabis is illegal in India under the NDPS Act.",
+       "status": "verified"
+      },
+      {
+       "title": "Budget",
+       "body": "Tosh is cheaper than Kasol for stays.",
+       "status": "verified"
+      }
+     ],
+     "facts": [
+      "BKS5",
+      "BKS1",
+      "KA9",
+      "KA3",
+      "KA8",
+      "KA5"
+     ]
+    },
+    "safety_health": {
+     "items": [
+      {
+       "title": "Trekking",
+       "body": "Foreign tourists have gone missing around the valley since the early 1990s; don't trek alone and tell someone your route."
+      },
+      {
+       "title": "Drugs",
+       "body": "Cannabis is illegal under the NDPS Act, despite the valley's reputation."
+      },
+      {
+       "title": "River",
+       "body": "The Parvati is freezing even in early summer; keep out of the current."
+      }
+     ],
+     "facts": [
+      "KA7",
+      "KA8",
+      "KA11"
+     ]
+    },
+    "culture_etiquette": {
+     "items": [
+      {
+       "body": "Malana keeps its own council and has long kept apart from outsiders; follow what villagers ask."
+      },
+      {
+       "body": "Manikaran is a pilgrimage centre for Hindus and Sikhs; dress and behave as at any shrine."
+      }
+     ],
+     "facts": [
+      "KA6",
+      "KA2"
+     ]
+    },
+    "faqs": {
+     "items": [
+      {
+       "title": "When should I go?",
+       "body": "End-April to end-October for treks; late December to February brings snow."
+      },
+      {
+       "title": "How do I get there?",
+       "body": "By road; the nearest turn-off is Bhuntar, 30 km away."
+      },
+      {
+       "title": "How do I reach Kheerganga?",
+       "body": "Ride to Barshaini, then walk 11 km."
+      },
+      {
+       "title": "Why is it called Mini Israel?",
+       "body": "Its nickname, for the many Israeli travellers and Hebrew-menu cafés."
+      }
+     ],
+     "facts": [
+      "KA4",
+      "BKS5",
+      "BKS1",
+      "KA3",
+      "KA1"
+     ]
+    },
+    "common_mistakes": {
+     "items": [
+      {
+       "body": "Trekking alone in the upper valley."
+      },
+      {
+       "body": "Going to Kheerganga out of season or without a torch."
+      },
+      {
+       "body": "Assuming cannabis is legal here."
+      }
+     ],
+     "facts": [
+      "KA7",
+      "KA3",
+      "KA8"
+     ]
+    },
+    "overview": {
+     "text": "Kasol is a riverside hamlet in the Parvati Valley, 30 km from Bhuntar and 3.5 km from Manikaran, at about 1,580 m. Backpackers have come for decades — so many from Israel that it is nicknamed 'Mini Israel', with Hebrew menus in its cafés — and it is the base for treks to Kheerganga's hot spring, Grahan and Malana, and for stays in Tosh, Kalga, Pulga and Chalal.\n\nManikaran, a Hindu and Sikh pilgrimage town with a hot spring hot enough to cook rice, is just up the road. Kasol has no rail or air link; it is reached by road from Bhuntar via Jari. End-April to end-October suits trekking; late December to February brings snow. Treat the valley with care: cannabis is illegal under the NDPS Act, and foreign trekkers have gone missing here since the 1990s.",
+     "facts": [
+      "BKS1",
+      "BKS4",
+      "KA1",
+      "BKS2",
+      "KA3",
+      "KA10",
+      "KA5",
+      "KA2",
+      "BKS5",
+      "KA9",
+      "KA4",
+      "KA8",
+      "KA7"
+     ]
+    }
+   }
+  }
+ ],
+ "itineraries": []
+}

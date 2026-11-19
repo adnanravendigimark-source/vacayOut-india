@@ -12,9 +12,9 @@ import { BestTimeBlock, FaqsBlock, NoticeBlock, SourcesBlock, SuggestionsBlock, 
 import "../chat.css";
 
 /** Leaflet only loads when an answer actually includes a map. */
-const MapBlock = dynamic(() => import("./map-block"), { ssr: false, loading: () => <div className="cx-shimmer h-10 rounded-full" /> });
+const MapBlock = dynamic(() => import("./map-block"), { ssr: false, loading: () => <div className="cx-skel h-48 rounded-2xl" /> });
 
-const INFO = new Set(["reach", "stay", "food", "budget", "bookings"]);
+const INFO = new Set(["stay", "food", "bookings"]);
 
 function InfoBlock({ block }: { block: Block }) {
   switch (block.type) {
@@ -60,6 +60,8 @@ export function BlockList({ blocks, onAsk, busy }: { blocks: Block[]; onAsk: (q:
           case "text": return <TextBlock block={g} />;
           case "destination": return <DestinationBlock block={g} />;
           case "tips": return <TipsBlock block={g} />;
+          case "reach": return <ReachBlock block={g} />;
+          case "budget": return <BudgetBlock block={g} />;
           case "compare": return <CompareBlock block={g} />;
           case "picks": return <PicksBlock block={g} onAsk={onAsk} disabled={busy} />;
           case "attractions": return <AttractionsBlock block={g} onAsk={onAsk} disabled={busy} />;

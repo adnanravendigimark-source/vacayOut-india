@@ -41,7 +41,7 @@ if (!safe) {
   }
 
   before(async () => {
-    await db.execute(sql`truncate audit_log, app_settings, usage_counters, chat_requests, web_research, email_tokens, travellers, sources, publish_jobs, search_documents, sections, place_versions, media, places, users cascade`);
+    await db.execute(sql`truncate audit_log, app_settings, usage_counters, chat_requests, chat_anon_threads, chat_answer_cache, web_research, email_tokens, travellers, sources, publish_jobs, search_documents, sections, place_versions, media, places, users cascade`);
     const [u] = await db.insert(s.users).values({ email: "c@test.local", name: "C", passwordHash: "x", role: "admin" }).returning();
     staff = u.id;
     ids.hp = await makePlace({ kind: "state", name: "Himachal Pradesh", slug: "himachal-pradesh" }, "Mountain state.");
@@ -72,7 +72,10 @@ if (!safe) {
     // Clears the 8-per-minute burst limit so this test can send many messages quickly.
     const admit = async (who: typeof v) => {
       await db.execute(sql`delete from usage_counters where key like 'chat:min:%'`);
-      return quota.admitMessage(who);
+      const a = await quota.admitMessage(who, "33333333-3333-4333-8333-333333333333");
+      // Each question here is answered, so it keeps its reservation.
+      if (a.ok) await quota.settleMessage(who, a, { answered: true, chatId: "33333333-3333-4333-8333-333333333333" });
+      return a;
     };
     const lefts: (number | null)[] = [];
     for (let i = 1; i <= quota.LIMITS.freeQuestions; i++) {

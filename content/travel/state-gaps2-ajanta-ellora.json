@@ -1,0 +1,836 @@
+{
+ "cluster": "state-gaps2-ajanta-ellora",
+ "title": "Ajanta and Ellora (Batch 6)",
+ "researchedAt": "2026-11-18",
+ "selection": "Batch 6. Ajanta (4 sections, practical_info and things_to_do state filler) and Ellora (4, highlights filler). Adds who it's for, highlights, best time, tips, FAQs and mistakes, and replacement practical_info, things_to_do and highlights (pending review). Weekly closures (Ajanta Monday, Ellora Tuesday) come from Lokmat Times, so they are marked verify. Incredible India's Ajanta page mentions a nightly light and sound show at Ajanta; no other source confirms it, so it is not used. Ellora's distance from the city is not given. No prices. ajanta-ellora-3-days itinerary not touched.",
+ "sources": {
+  "II_AJ": {
+   "url": "https://www.incredibleindia.gov.in/en/maharashtra/chhatrapati-sambhaji-nagar/ajanta-caves",
+   "title": "Ajanta Caves — Incredible India",
+   "authority": "government"
+  },
+  "II_EL": {
+   "url": "https://www.incredibleindia.gov.in/en/maharashtra/chhatrapati-sambhaji-nagar/ellora-caves",
+   "title": "Ellora Caves — Incredible India",
+   "authority": "government"
+  },
+  "W_AJ": {
+   "url": "https://en.wikipedia.org/wiki/Ajanta_Caves",
+   "title": "Ajanta Caves — Wikipedia",
+   "authority": "reference"
+  },
+  "W_EL": {
+   "url": "https://en.wikipedia.org/wiki/Ellora_Caves",
+   "title": "Ellora Caves — Wikipedia",
+   "authority": "reference"
+  },
+  "W_KAIL": {
+   "url": "https://en.wikipedia.org/wiki/Kailasa_temple,_Ellora",
+   "title": "Kailasa temple, Ellora — Wikipedia",
+   "authority": "reference"
+  },
+  "LM_CLOSE": {
+   "url": "https://www.lokmattimes.com/aurangabad/msrtc-to-operate-ac-buses-to-ajanta-ellora-on-all-days/amp",
+   "title": "MSRTC to operate AC buses to Ajanta, Ellora on all days — Lokmat Times",
+   "authority": "media"
+  },
+  "LM_SHUT": {
+   "url": "https://www.lokmattimes.com/aurangabad/shuttle-bus-to-operate-at-ajanta-caves-from-today",
+   "title": "Shuttle bus to operate at Ajanta Caves from today — Lokmat Times (11 Nov 2021)",
+   "authority": "media"
+  },
+  "U_AJ": {
+   "url": "https://whc.unesco.org/en/list/242",
+   "title": "Ajanta Caves — UNESCO World Heritage Centre",
+   "authority": "reference"
+  },
+  "II_ELL": {
+   "url": "https://www.incredibleindia.gov.in/en/maharashtra/chhatrapati-sambhaji-nagar/ellora-caves",
+   "title": "Ellora Caves — Incredible India (Ministry of Tourism, Government of India)",
+   "authority": "government"
+  },
+  "II_SN": {
+   "url": "https://www.incredibleindia.gov.in/en/maharashtra/chhatrapati-sambhaji-nagar",
+   "title": "Chhatrapati Sambhaji Nagar — Incredible India (Ministry of Tourism, Government of India)",
+   "authority": "government"
+  },
+  "II_DEO": {
+   "url": "https://www.incredibleindia.gov.in/en/maharashtra/chhatrapati-sambhaji-nagar/deogiri-fort",
+   "title": "Deogiri (Daulatabad) Fort — Incredible India (Ministry of Tourism, Government of India)",
+   "authority": "government"
+  },
+  "II_GRI": {
+   "url": "https://www.incredibleindia.gov.in/en/maharashtra/chhatrapati-sambhaji-nagar/grishneshwar-temple",
+   "title": "Grishneshwar Temple — Incredible India (Ministry of Tourism, Government of India)",
+   "authority": "government"
+  }
+ },
+ "facts": {
+  "BAJ1": {
+   "place": "maharashtra/ajanta-caves",
+   "topic": "Ajanta",
+   "claim": "Ajanta's first Buddhist caves date from the 2nd and 1st centuries BC; more richly decorated caves were added in the Gupta period.",
+   "claimType": "general",
+   "evidence": [
+    {
+     "source": "U_AJ",
+     "quote": "The first Buddhist cave monuments at Ajanta date from the 2nd and 1st centuries B.C."
+    },
+    {
+     "source": "U_AJ",
+     "quote": "During the Gupta period (5th and 6th centuries A.D.), many more richly decorated caves were added to the original group."
+    }
+   ]
+  },
+  "BAJ2": {
+   "place": "maharashtra/ajanta-caves",
+   "topic": "Paintings",
+   "claim": "Ajanta's paintings and sculptures are counted among the masterpieces of Buddhist religious art.",
+   "claimType": "general",
+   "evidence": [
+    {
+     "source": "U_AJ",
+     "quote": "The paintings and sculptures of Ajanta, considered masterpieces of Buddhist religious art, have had a considerable artistic influence."
+    }
+   ]
+  },
+  "BELL1": {
+   "place": "maharashtra/ellora-caves",
+   "topic": "Ellora",
+   "claim": "Ellora's 34 caves are Buddhist, Hindu and Jain temples and monasteries cut into the rock between the 6th and 10th centuries.",
+   "claimType": "general",
+   "evidence": [
+    {
+     "source": "II_ELL",
+     "quote": "a testament to the brilliance of Buddhist, Hindu, and Jain monks and artisans who dedicated themselves to this endeavour between the 6th and 10th centuries"
+    },
+    {
+     "source": "II_ELL",
+     "quote": "Explore the 34 captivating caves"
+    }
+   ]
+  },
+  "BELL2": {
+   "place": "maharashtra/ellora-caves",
+   "topic": "Kailasa Temple",
+   "claim": "The Kailasa Temple, dedicated to Shiva, took over a century to carve and is the largest rock-cut temple of its kind.",
+   "claimType": "general",
+   "evidence": [
+    {
+     "source": "II_ELL",
+     "quote": "This colossal rock-cut temple, taking over a century to complete, is the largest of its kind globally."
+    }
+   ]
+  },
+  "BELL3": {
+   "place": "maharashtra/ellora-caves",
+   "topic": "Light show",
+   "claim": "An evening light and sound show runs in English and Hindi.",
+   "claimType": "general",
+   "evidence": [
+    {
+     "source": "II_ELL",
+     "quote": "attend the mesmerising light and sound show held in the evenings"
+    },
+    {
+     "source": "II_ELL",
+     "quote": "presented in both English and Hindi"
+    }
+   ]
+  },
+  "BSN1": {
+   "place": "maharashtra/chhatrapati-sambhaji-nagar",
+   "topic": "Chhatrapati Sambhajinagar",
+   "claim": "Chhatrapati Sambhajinagar, formerly Aurangabad, is the base for Ellora and for Ajanta, about 100 km away.",
+   "claimType": "distance",
+   "evidence": [
+    {
+     "source": "II_SN",
+     "quote": "Once known as Aurangabad, this city has reclaimed its Maratha heritage"
+    },
+    {
+     "source": "II_SN",
+     "quote": "about 100 kilometres from the city lies the marvellous Ajanta Caves"
+    }
+   ]
+  },
+  "BSN2": {
+   "place": "maharashtra/chhatrapati-sambhaji-nagar",
+   "topic": "Best time",
+   "claim": "The best time to visit is November to March, when the weather is mild.",
+   "claimType": "schedule",
+   "evidence": [
+    {
+     "source": "II_SN",
+     "quote": "The ideal time to embark on a journey to Chhatrapati Sambhajinagar is between November and March, when the weather is delightfully mild"
+    }
+   ],
+   "kind": "seasonal"
+  },
+  "BDAU1": {
+   "place": "maharashtra/daulatabad-fort",
+   "topic": "Daulatabad Fort",
+   "claim": "Daulatabad (Deogiri) Fort, 15 km from Ellora, dates to the 12th century; about 750 steps lead to the top.",
+   "claimType": "distance",
+   "evidence": [
+    {
+     "source": "II_ELL",
+     "quote": "Located just 15 kilometres from Ellora Caves, Daulatabad Fort is a mediaeval fortress that dates back to the 12th century."
+    },
+    {
+     "source": "II_DEO",
+     "quote": "To reach the summit, adventurers must ascend approximately 750 steps"
+    }
+   ]
+  },
+  "BGRI1": {
+   "place": "maharashtra/grishneshwar-temple",
+   "topic": "Grishneshwar",
+   "claim": "Grishneshwar, near Ellora, is revered as the 12th Jyotirlinga; men remove their shirts to enter the sanctum.",
+   "claimType": "general",
+   "evidence": [
+    {
+     "source": "II_GRI",
+     "quote": "revered as the 12th and final Jyotirlinga of India"
+    },
+    {
+     "source": "II_GRI",
+     "quote": "Men are requested to remove their shirts before entering"
+    }
+   ]
+  },
+  "AE1": {
+   "place": "maharashtra/ajanta-caves",
+   "topic": "Setting",
+   "claim": "Ajanta's 30 rock-cut Buddhist caves are carved into a horseshoe-shaped cliff in the Waghora valley; waterfalls in the gorge can be heard when the river is high.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "II_AJ",
+     "quote": "These 30 rock-cut Buddhist cave temples, designated as a UNESCO World Heritage site"
+    },
+    {
+     "source": "II_AJ",
+     "quote": "Carved into a horseshoe-shaped cliff"
+    },
+    {
+     "source": "W_AJ",
+     "quote": "within the gorge are a number of waterfalls, audible from outside the caves when the river is high"
+    }
+   ]
+  },
+  "AE2": {
+   "place": "maharashtra/ajanta-caves",
+   "topic": "UNESCO",
+   "claim": "Ajanta has been a UNESCO World Heritage Site since 1983.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "W_AJ",
+     "quote": "Since 1983, Ajanta caves have been listed among the UNESCO World Heritage Sites of India."
+    }
+   ]
+  },
+  "AE3": {
+   "place": "maharashtra/ajanta-caves",
+   "topic": "Rediscovery",
+   "claim": "On 28 April 1819 John Smith, a British officer hunting tigers, was led to Cave 10 by a shepherd boy.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "W_AJ",
+     "quote": "On 28 April 1819 a British officer named John Smith, of the 28th Cavalry, while hunting tigers was shown the entrance to Cave No. 10 when a local shepherd boy guided him"
+    }
+   ]
+  },
+  "AE4": {
+   "place": "maharashtra/ajanta-caves",
+   "topic": "Padmapani",
+   "claim": "The painting of Padmapani, the bodhisattva holding a lotus, is at the heart of Ajanta's art.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "II_AJ",
+     "quote": "At the heart of the Ajanta Caves' artistic allure is the portrayal of Padmapani"
+    }
+   ]
+  },
+  "AE5": {
+   "place": "maharashtra/ajanta-caves",
+   "topic": "Chaitya halls",
+   "claim": "The worship (chaitya) halls are Caves 9 and 10 from the early period and 19 and 26 from the later.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "W_AJ",
+     "quote": "halls are caves 9 and 10 from the early period, and caves 19 and 26 from the later period of construction"
+    }
+   ]
+  },
+  "AE6": {
+   "place": "maharashtra/ajanta-caves",
+   "topic": "Distances",
+   "claim": "Ajanta is about 59 km from Jalgaon and 104 km from Chhatrapati Sambhajinagar (Aurangabad).",
+   "claimType": "distance",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "W_AJ",
+     "quote": "about 59 kilometres (37 miles) from the city of Jalgaon, Maharashtra, India, 104 kilometres (65 miles) from the city of Aurangabad"
+    }
+   ]
+  },
+  "AE7": {
+   "place": "maharashtra/ajanta-caves",
+   "topic": "Shuttle",
+   "claim": "Vehicles stop at Fardapur T-Point; shuttle buses cover the last 4 km to the caves.",
+   "claimType": "distance",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "LM_SHUT",
+     "quote": "shuttle buses between Fardapur T-Point and Ajanta Caves (a distance of 4-km)",
+     "sourceDate": "2021-11-11"
+    }
+   ]
+  },
+  "AE8": {
+   "place": "maharashtra/ajanta-caves",
+   "topic": "Weekly closure",
+   "claim": "Ajanta is closed on Mondays and Ellora on Tuesdays.",
+   "claimType": "rule",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "LM_CLOSE",
+     "quote": "The Ajanta Caves are closed for visitors on Monday and Ellora Caves on Tuesday."
+    }
+   ]
+  },
+  "AE9": {
+   "place": "maharashtra/ajanta-caves",
+   "topic": "Museum",
+   "claim": "The Ajanta Museum beside the caves displays finds from excavations.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "II_AJ",
+     "quote": "Adjacent to the caves, the Ajanta Museum provides deeper insights into the history and culture of this ancient site."
+    }
+   ]
+  },
+  "AE10": {
+   "place": "maharashtra/ajanta-caves",
+   "topic": "Food",
+   "claim": "Chhatrapati Sambhajinagar's food runs to kebabs, biryani and Maharashtrian thalis; Bibi ka Maqbara in the city is called the 'mini Taj Mahal'.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "II_AJ",
+     "quote": "Treat yourself to naan bread, kebabs, biryani, and the delightful Maharashtrian thali"
+    },
+    {
+     "source": "II_AJ",
+     "quote": "Often referred to as the \"mini-Taj Mahal,\""
+    }
+   ]
+  },
+  "EC1": {
+   "place": "maharashtra/ellora-caves",
+   "topic": "Caves",
+   "claim": "Of more than 100 caves, 34 are open: 12 Buddhist (Caves 1–12), 17 Hindu (13–29) and 5 Jain (30–34).",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "W_EL",
+     "quote": "There are over 100 caves at the site"
+    },
+    {
+     "source": "W_EL",
+     "quote": "34 of which are open to the public"
+    },
+    {
+     "source": "W_EL",
+     "quote": "these consist of 17 hindu (caves 13-29), 12 buddhist (caves 1-12) and 5 jain (caves 30-34)"
+    }
+   ]
+  },
+  "EC2": {
+   "place": "maharashtra/ellora-caves",
+   "topic": "Cave 10",
+   "claim": "Cave 10, the Vishvakarma or 'Carpenter's Cave', is the main Buddhist prayer hall, its rock finished to look like wooden beams.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "W_EL",
+     "quote": "is a major Buddhist prayer hall"
+    },
+    {
+     "source": "W_EL",
+     "quote": "because the rock has been given a finish that has the appearance of wooden beams"
+    }
+   ]
+  },
+  "EC3": {
+   "place": "maharashtra/ellora-caves",
+   "topic": "Cave 16",
+   "claim": "Cave 16, the Kailasa, is the largest single monolithic rock excavation in the world, carved from the top down.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "W_EL",
+     "quote": "Cave 16 features the largest single monolithic rock excavation in the world"
+    },
+    {
+     "source": "W_KAIL",
+     "quote": "started at the top of the original rock and excavated downward"
+    }
+   ]
+  },
+  "EC4": {
+   "place": "maharashtra/ellora-caves",
+   "topic": "Indra Sabha",
+   "claim": "Among the Jain caves, the Indra Sabha is the largest and most ornate.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "II_EL",
+     "quote": "the Indra Sabha standing out as the largest and most ornate"
+    }
+   ]
+  },
+  "EC5": {
+   "place": "maharashtra/ellora-caves",
+   "topic": "Nearby",
+   "claim": "Grishneshwar Jyotirlinga and Bibi ka Maqbara, the 'Taj Mahal of the Deccan', are nearby.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "II_EL",
+     "quote": "pay a visit to the Grishneshwar Temple, one of the 12 Jyotirlingas in India"
+    },
+    {
+     "source": "II_EL",
+     "quote": "Bibi Ka Maqbara, often referred to as the \"Taj Mahal of the Deccan,\" a stunning mausoleum built in memory of Aurangzeb's wife"
+    }
+   ]
+  },
+  "EC6": {
+   "place": "maharashtra/ellora-caves",
+   "topic": "Buddhist Chaitya Hall",
+   "claim": "The Buddhist Chaitya Hall has a large stupa at its centre, flanked by carved pillars and Buddha statues.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "II_EL",
+     "quote": "This rock-cut Buddhist temple features a large stupa in its centre, flanked by intricately carved pillars and Buddha statues"
+    }
+   ]
+  }
+ },
+ "places": [
+  {
+   "key": "maharashtra/ajanta-caves",
+   "kind": "attraction",
+   "name": "Ajanta Caves",
+   "summary": "Buddhist caves from the 2nd century BC with India's most famous ancient paintings — a World Heritage Site.",
+   "seoTitle": "Ajanta Caves: Paintings, History & How to Visit",
+   "seoDescription": "Ajanta Caves: Buddhist caves from the 2nd–1st centuries BC and the Gupta period, with world-famous paintings, about 100 km from Chhatrapati Sambhajinagar.",
+   "lat": 20.55333333,
+   "lng": 75.70027778,
+   "tripTypes": [
+    "heritage"
+   ],
+   "images": [
+    {
+     "commons": "File:Ajanta_(63).jpg",
+     "alt": "Carved Buddhist cave facades at Ajanta",
+     "caption": "Ajanta Caves",
+     "hero": true
+    }
+   ],
+   "wikidataId": "Q184427",
+   "sections": {
+    "who_its_for": {
+     "items": [
+      {
+       "title": "Art lovers",
+       "body": "Ajanta's paintings, among the masterpieces of Buddhist art."
+      },
+      {
+       "title": "History lovers",
+       "body": "A UNESCO World Heritage Site since 1983."
+      },
+      {
+       "title": "Architecture fans",
+       "body": "The chaitya halls of Caves 9, 10, 19 and 26."
+      }
+     ],
+     "facts": [
+      "BAJ2",
+      "AE4",
+      "AE2",
+      "AE5"
+     ]
+    },
+    "highlights": {
+     "items": [
+      {
+       "body": "Padmapani, the lotus-holding bodhisattva, among Ajanta's most famous paintings."
+      },
+      {
+       "body": "Chaitya halls: Caves 9 and 10 (early) and 19 and 26 (later)."
+      },
+      {
+       "body": "Cave 10, where John Smith was led by a shepherd boy in 1819."
+      },
+      {
+       "body": "The Ajanta Museum beside the caves."
+      }
+     ],
+     "facts": [
+      "AE4",
+      "AE5",
+      "AE3",
+      "AE9"
+     ]
+    },
+    "practical_info": {
+     "items": [
+      {
+       "title": "Closed",
+       "body": "Ajanta is closed on Mondays (Ellora on Tuesdays).",
+       "status": "unconfirmed"
+      },
+      {
+       "title": "Shuttle",
+       "body": "Vehicles stop at Fardapur T-Point; shuttle buses run the last 4 km.",
+       "status": "unconfirmed"
+      },
+      {
+       "title": "Distance",
+       "body": "About 104 km from Chhatrapati Sambhajinagar and 59 km from Jalgaon.",
+       "status": "verified"
+      },
+      {
+       "title": "Weather",
+       "body": "November–March is the mild season.",
+       "status": "seasonal"
+      }
+     ],
+     "facts": [
+      "AE8",
+      "AE7",
+      "AE6",
+      "BSN2"
+     ]
+    },
+    "things_to_do": {
+     "items": [
+      {
+       "body": "See the Padmapani painting and the chaitya halls."
+      },
+      {
+       "body": "Visit the Ajanta Museum."
+      },
+      {
+       "body": "Pair Ajanta with Ellora on a different day."
+      },
+      {
+       "body": "In Chhatrapati Sambhajinagar, see Bibi ka Maqbara and eat kebabs, biryani or a Maharashtrian thali."
+      }
+     ],
+     "facts": [
+      "AE4",
+      "AE5",
+      "AE9",
+      "AE8",
+      "AE10"
+     ]
+    },
+    "best_time": {
+     "text": "November to March is the mild season. When the Waghora is high, the waterfalls in the gorge can be heard from the caves. Avoid Mondays, when Ajanta is closed.",
+     "facts": [
+      "BSN2",
+      "AE1",
+      "AE8"
+     ]
+    },
+    "travel_tips": {
+     "items": [
+      {
+       "body": "Give Ajanta its own day — it is 104 km from the city."
+      },
+      {
+       "body": "Don't plan Ajanta on a Monday or Ellora on a Tuesday."
+      },
+      {
+       "body": "Allow for the 4 km shuttle from Fardapur T-Point."
+      }
+     ],
+     "facts": [
+      "AE6",
+      "AE8",
+      "AE7"
+     ]
+    },
+    "faqs": {
+     "items": [
+      {
+       "title": "Which day is Ajanta closed?",
+       "body": "Monday."
+      },
+      {
+       "title": "How far is Ajanta from Chhatrapati Sambhajinagar?",
+       "body": "About 104 km."
+      },
+      {
+       "title": "How many caves are there?",
+       "body": "30, all Buddhist."
+      },
+      {
+       "title": "When were the caves rediscovered?",
+       "body": "In 1819, when a shepherd boy led a British officer to Cave 10."
+      }
+     ],
+     "facts": [
+      "AE8",
+      "AE6",
+      "AE1",
+      "AE3"
+     ]
+    },
+    "common_mistakes": {
+     "items": [
+      {
+       "body": "Arriving on a Monday."
+      },
+      {
+       "body": "Trying to see Ajanta and Ellora on the same day."
+      },
+      {
+       "body": "Forgetting the shuttle from Fardapur T-Point."
+      }
+     ],
+     "facts": [
+      "AE8",
+      "AE6",
+      "AE7"
+     ]
+    },
+    "overview": {
+     "text": "The Ajanta Caves are 30 rock-cut Buddhist caves carved into a horseshoe-shaped cliff above the Waghora river, about 104 km from Chhatrapati Sambhajinagar (Aurangabad). The first were cut in the 2nd and 1st centuries BC and the more richly decorated ones in the Gupta period; their paintings, led by the lotus-holding Padmapani, are counted among the masterpieces of Buddhist art.\n\nThe caves were brought to wider attention in 1819 when a shepherd boy led a British officer, John Smith, to Cave 10. Ajanta has been a UNESCO World Heritage Site since 1983. Vehicles stop at Fardapur T-Point, 4 km away, and shuttle buses run to the caves. The site is closed on Mondays; give it its own day apart from Ellora.",
+     "facts": [
+      "AE1",
+      "AE6",
+      "BAJ1",
+      "AE4",
+      "BAJ2",
+      "AE3",
+      "AE2",
+      "AE7",
+      "AE8"
+     ]
+    }
+   }
+  },
+  {
+   "key": "maharashtra/ellora-caves",
+   "kind": "attraction",
+   "name": "Ellora Caves",
+   "summary": "34 Buddhist, Hindu and Jain rock-cut caves, crowned by the Kailasa Temple — a World Heritage Site.",
+   "seoTitle": "Ellora Caves: Kailasa Temple, Cave Guide & Tips",
+   "seoDescription": "Ellora's 34 rock-cut caves from the 6th–10th centuries: the Kailasa Temple, Jain and Buddhist caves, the evening light show and nearby Daulatabad.",
+   "lat": 20.0268,
+   "lng": 75.1771,
+   "tripTypes": [
+    "heritage"
+   ],
+   "images": [
+    {
+     "commons": "File:Ellora Cave 16 Kailasa Temple.jpg",
+     "alt": "The rock-cut Kailasa Temple, Cave 16 at Ellora",
+     "caption": "Kailasa Temple, Ellora",
+     "hero": true
+    }
+   ],
+   "wikidataId": "Q189616",
+   "parent": "maharashtra/chhatrapati-sambhaji-nagar",
+   "relations": [
+    {
+     "to": "maharashtra/daulatabad-fort",
+     "type": "nearby"
+    },
+    {
+     "to": "maharashtra/grishneshwar-temple",
+     "type": "nearby"
+    }
+   ],
+   "sections": {
+    "who_its_for": {
+     "items": [
+      {
+       "title": "Heritage lovers",
+       "body": "Buddhist, Hindu and Jain caves side by side."
+      },
+      {
+       "title": "Architecture fans",
+       "body": "The Kailasa, carved top-down from one rock."
+      },
+      {
+       "title": "Pilgrims",
+       "body": "Grishneshwar Jyotirlinga nearby."
+      }
+     ],
+     "facts": [
+      "EC1",
+      "EC3",
+      "EC5"
+     ]
+    },
+    "highlights": {
+     "items": [
+      {
+       "body": "Kailasa Temple (Cave 16): the world's largest monolithic rock excavation."
+      },
+      {
+       "body": "Cave 10, the Vishvakarma or 'Carpenter's Cave'."
+      },
+      {
+       "body": "The Jain Indra Sabha, the largest and most ornate Jain cave."
+      },
+      {
+       "body": "The Buddhist Chaitya Hall's central stupa."
+      }
+     ],
+     "facts": [
+      "EC3",
+      "BELL2",
+      "EC2",
+      "EC4",
+      "EC6"
+     ]
+    },
+    "how_to_reach": {
+     "text": "Chhatrapati Sambhajinagar (Aurangabad) is the base for Ellora, and for Ajanta about 100 km away. Daulatabad Fort is 15 km from Ellora, so the two pair easily.",
+     "facts": [
+      "BSN1",
+      "BDAU1"
+     ]
+    },
+    "practical_info": {
+     "items": [
+      {
+       "title": "Closed",
+       "body": "Ellora is closed on Tuesdays (Ajanta on Mondays).",
+       "status": "unconfirmed"
+      },
+      {
+       "title": "Caves",
+       "body": "34 caves are open: 12 Buddhist, 17 Hindu, 5 Jain.",
+       "status": "verified"
+      },
+      {
+       "title": "Show",
+       "body": "An evening light and sound show runs in English and Hindi.",
+       "status": "verified"
+      },
+      {
+       "title": "Weather",
+       "body": "November–March is the mild season.",
+       "status": "seasonal"
+      }
+     ],
+     "facts": [
+      "AE8",
+      "EC1",
+      "BELL3",
+      "BSN2"
+     ]
+    },
+    "best_time": {
+     "text": "November to March is the mild season. Stay into the evening for the light and sound show in English and Hindi, and avoid Tuesdays, when Ellora is closed.",
+     "facts": [
+      "BSN2",
+      "BELL3",
+      "AE8"
+     ]
+    },
+    "faqs": {
+     "items": [
+      {
+       "title": "Which day is Ellora closed?",
+       "body": "Tuesday."
+      },
+      {
+       "title": "How many caves are open?",
+       "body": "34: 12 Buddhist, 17 Hindu and 5 Jain."
+      },
+      {
+       "title": "Which is the most famous cave?",
+       "body": "Cave 16, the Kailasa."
+      },
+      {
+       "title": "What is nearby?",
+       "body": "Grishneshwar Temple, Daulatabad Fort and Bibi ka Maqbara."
+      }
+     ],
+     "facts": [
+      "AE8",
+      "EC1",
+      "EC3",
+      "EC5",
+      "BDAU1"
+     ]
+    },
+    "common_mistakes": {
+     "items": [
+      {
+       "body": "Arriving on a Tuesday."
+      },
+      {
+       "body": "Seeing only the Kailasa and skipping the Buddhist and Jain caves."
+      },
+      {
+       "body": "Rushing Ajanta and Ellora into one day."
+      }
+     ],
+     "facts": [
+      "AE8",
+      "EC1",
+      "EC4"
+     ]
+    },
+    "overview": {
+     "text": "The Ellora Caves, near Chhatrapati Sambhajinagar (Aurangabad), are a UNESCO World Heritage Site where Buddhist, Hindu and Jain monks and artisans cut temples and monasteries into the rock between the 6th and 10th centuries. Of more than 100 caves, 34 are open: 12 Buddhist, 17 Hindu and 5 Jain.\n\nThe great sight is Cave 16, the Kailasa Temple to Shiva, the largest single monolithic excavation in the world — carved from the top down over more than a century. Cave 10, the Buddhist 'Carpenter's Cave', and the Jain Indra Sabha are close rivals. Stay for the evening light and sound show. Daulatabad Fort is 15 km away and Grishneshwar, the 12th Jyotirlinga, is nearby. Ellora is closed on Tuesdays.",
+     "facts": [
+      "BELL1",
+      "EC1",
+      "EC3",
+      "BELL2",
+      "EC2",
+      "EC4",
+      "BELL3",
+      "BDAU1",
+      "BGRI1",
+      "AE8"
+     ]
+    }
+   }
+  }
+ ],
+ "itineraries": []
+}

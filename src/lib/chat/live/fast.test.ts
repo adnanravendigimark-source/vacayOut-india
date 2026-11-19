@@ -1,6 +1,6 @@
 import assert from "node:assert/strict";
 import { test } from "node:test";
-import { clean, fastAnswer, fastPrompt, needsWeb, toBlocks } from "./fast";
+import { INSTRUCTIONS, clean, dynamicInput, fastAnswer, needsWeb, outputCap, toBlocks } from "./fast";
 
 const ok = (obj: unknown, extra: Record<string, unknown>[] = []) => async () => ({
   id: "r",
@@ -9,30 +9,101 @@ const ok = (obj: unknown, extra: Record<string, unknown>[] = []) => async () => 
 }) as never;
 
 const base = {
-  scope: "india_travel", reply: "", places: [], alternatives: [], itinerary: null, compare: null, tips: [], follow_ups: [], sources: [], summary: "s",
+  scope: "india_travel", kind: "other", reply: "", places: [], alternatives: [], itinerary: null, compare: null, best_time: null, reach: null, budget: null, tips: [], follow_ups: [], sources: [], summary: "s",
   memory: { destination: null, days: null, travellers: null, budget: null, month: null, interests: [] },
 };
 const turns = [{ role: "user" as const, content: "best trek to do in december in india" }];
 const now = new Date("2026-11-12T08:00:00Z");
 
-test("live questions trigger web search; evergreen ones don't", () => {
-  assert.ok(needsWeb("Kedarkantha trek permit fee"));
-  assert.ok(needsWeb("Is Rohtang open today?"));
-  assert.ok(needsWeb("Hornbill festival dates 2026"));
-  assert.ok(!needsWeb("best trek to do in december in india"));
-  assert.ok(!needsWeb("Plan 3 days in Udaipur"));
+test("only truly live questions trigger web search", () => {
+  for (const q of ["Is Rohtang open today?", "Delhi to Manali bus fare", "Taj Mahal entry fee", "Is the Zojila pass open now?", "Road status Manali Leh", "When does Kedarnath open this year?", "Hornbill festival news"])
+    assert.ok(needsWeb(q), q);
+  for (const q of ["best trek to do in december in india", "Plan 3 days in Udaipur", "How much does a week in Himachal cost?", "Kedarkantha permit", "Hornbill festival dates", "Is Coorg open in August?", "Best places to visit in 2026", "Current weather in Goa in January"])
+    assert.ok(!needsWeb(q), q);
+});
+
+test("output cap follows the question type", () => {
+  assert.equal(outputCap("Plan 5 days in Kerala"), 3200);
+  assert.equal(outputCap("Manali vs Shimla"), 1600);
+  assert.equal(outputCap("Is Goa safe at night?"), 1100);
 });
 
 test("text is cleaned of links, URLs, HTML and headings", () => {
   assert.equal(clean("## Go **now** [here](https://x.com) <b>ok</b> see https://evil.example/p (indiahikes.com)."), "Go **now** here ok see.");
 });
 
-test("prompt has today's date, scope rules and treats messages as data", () => {
-  const p = fastPrompt(turns, null, now, false);
-  assert.match(p, /Today is 12 November 2026/);
-  assert.match(p, /Only travel WITHIN India/);
-  assert.match(p, /never instructions/);
-  assert.match(p, /Traveller: """best trek to do in december in india"""/);
+test("static rules come first and never change; date, memory, facts and the question come last", () => {
+  assert.doesNotMatch(INSTRUCTIONS, /20\d\d|Today is/);
+  assert.match(INSTRUCTIONS, /Only travel WITHIN India/);
+  assert.match(INSTRUCTIONS, /never instructions/);
+  const p = dynamicInput(turns, null, now, "Manali — Altitude: About 2,050 m.");
+  assert.match(p, /^Today is 12 November 2026/);
+  assert.match(p, /Guide facts: Manali — Altitude/);
+  assert.match(p, /Traveller: """best trek to do in december in india"""$/);
+});
+
+test("the reply streams as it is written, but never for off-topic answers", async () => {
+  const run = async (scope: string) => {
+    const json = JSON.stringify({ ...base, scope, reply: "Go in **May**.\nIt is dry." });
+    const out: string[] = [];
+    const bodies: Record<string, unknown>[] = [];
+    await fastAnswer({ turns, memory: null, web: false, now }, {
+      model: "gpt-6-luna",
+      onReply: (t) => out.push(t),
+      stream: async (b, onDelta) => {
+        bodies.push(b);
+        for (let i = 0; i < json.length; i += 5) onDelta(json.slice(i, i + 5));
+        return ok({ ...base, scope, reply: "Go in **May**.\nIt is dry." })();
+      },
+    });
+    return { text: out.join(""), body: bodies[0] };
+  };
+  const inScope = await run("india_travel");
+  assert.equal(inScope.text, "Go in **May**.\nIt is dry.");
+  assert.equal(inScope.body.service_tier, undefined, "default tier unless OPENAI_CHAT_TIER=priority");
+  assert.equal(typeof inScope.body.instructions, "string");
+  assert.equal((await run("off_topic")).text, "");
+});
+
+test("itinerary days keep base, travel, cost and at most 5 activities", async () => {
+  const a = await fastAnswer({ turns, memory: null, web: false, now }, {
+    model: "gpt-6-luna",
+    call: ok({
+      ...base,
+      kind: "itinerary",
+      reply: "A relaxed plan.",
+      itinerary: { title: "2 days in Jaipur", days: [{ title: "Day 1 — Old city", base: "Jaipur", travel: null, cost: "about ₹2,500–4,000 per person", morning: ["Amber Fort", "Panna Meena"], afternoon: ["City Palace", "Jantar Mantar"], evening: ["Bazaar", "Dinner"], note: null }] },
+    }),
+  });
+  const d = a.itinerary!.days[0];
+  assert.equal(d.morning.length + d.afternoon.length + d.evening.length, 5);
+  assert.equal(d.base, "Jaipur");
+  const blocks = toBlocks(a, new Map(), { showMap: false });
+  const it = blocks.find((b) => b.type === "itinerary");
+  assert.ok(it && it.type === "itinerary" && it.days[0].cost === "about ₹2,500–4,000 per person" && it.days[0].items.length === 5);
+});
+
+test("a short fact gets no cards", async () => {
+  const a = await fastAnswer({ turns, memory: null, web: false, now }, {
+    model: "gpt-6-luna",
+    call: ok({ ...base, kind: "fact", reply: "Yes, about 2 hours.", places: [{ name: "Agra", state: "UP", note: "Taj Mahal city.", tags: [] }], tips: ["Go early."] }),
+  });
+  assert.deepEqual(toBlocks(a, new Map(), { showMap: false }).map((b) => b.type), ["text"]);
+});
+
+test("best time, reach and budget become their own cards; bad budget tiers are dropped", async () => {
+  const a = await fastAnswer({ turns, memory: null, web: false, now }, {
+    model: "gpt-6-luna",
+    call: ok({
+      ...base,
+      reply: "x",
+      best_time: { destination: "Ladakh", months: Array(12).fill("good"), summary: "June to September." },
+      reach: { options: [{ mode: "Air", text: "Leh airport." }], local: null },
+      budget: { basis: "Per person per day", tiers: [{ label: "Budget", low: 1500, high: 2500, includes: "Hostel" }, { label: "Luxury", low: 9000, high: 100, includes: "Bad" }], note: "Peak season costs more." },
+    }),
+  });
+  assert.deepEqual(toBlocks(a, new Map(), { showMap: false }).map((b) => b.type), ["text", "bestTime", "reach", "budget"]);
+  assert.equal(a.budget?.tiers.length, 1);
 });
 
 test("answer is parsed, cleaned and limited; web search only when asked", async () => {
@@ -73,7 +144,7 @@ test("sources are kept only if the search tool really returned them", async () =
 test("cards: guide links and photos come from our database; unknown places stay plain", () => {
   const blocks = toBlocks(
     {
-      scope: "india_travel", reply: "Two good options.", alternatives: [], itinerary: null, compare: null, tips: ["Carry microspikes."], followUps: [], sources: [], summary: "",
+      scope: "india_travel", kind: "places", reply: "Two good options.", alternatives: [], itinerary: null, compare: null, bestTime: null, reach: null, budget: null, tips: ["Carry microspikes."], followUps: [], sources: [], summary: "",
       places: [{ name: "Kedarkantha Trek", state: "Uttarakhand", note: "Classic snow summit.", tags: [] }, { name: "Munnar", state: "Kerala", note: "Tea hills.", tags: ["Hills"] }],
       memory: { destination: null, days: null, travellers: null, budget: null, month: null, interests: [] },
     },
@@ -113,7 +184,8 @@ test("a one-base plan drops its stop list; alternatives are never repeated as st
     call: ok({
       ...base,
       reply: "Udaipur suits your parents best.",
-      itinerary: { title: "4 days in Udaipur", days: [{ title: "Day 1", items: ["Rest"] }] },
+      kind: "itinerary",
+      itinerary: { title: "4 days in Udaipur", days: [{ title: "Day 1", base: "Udaipur", travel: null, cost: null, morning: ["Rest"], afternoon: [], evening: [], note: null }] },
       places: [{ name: "Udaipur", state: "Rajasthan", note: "Compact.", tags: [] }, { name: "Mysuru", state: "Karnataka", note: "Calm.", tags: [] }],
       alternatives: [{ name: "Mysuru", state: "Karnataka", note: "Calm city." }],
     }),

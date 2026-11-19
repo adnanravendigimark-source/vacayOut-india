@@ -1,0 +1,411 @@
+{
+ "cluster": "northeast2-majuli",
+ "title": "Majuli (Batch 7)",
+ "researchedAt": "2026-11-18",
+ "selection": "Batch 7. Majuli had 5 sections (practical_info and things_to_do state filler). Adds who it's for, best time, food, FAQs and mistakes, with replacement practical_info and things_to_do and a fuller overview as pending suggestions. assam-5-days itinerary left for the audit.",
+ "sources": {
+  "II_MAJ": {
+   "url": "https://www.incredibleindia.gov.in/en/assam/majuli",
+   "title": "Majuli — Incredible India",
+   "authority": "government"
+  },
+  "W_MAJ": {
+   "url": "https://en.wikipedia.org/wiki/Majuli",
+   "title": "Majuli — Wikipedia",
+   "authority": "reference"
+  }
+ },
+ "facts": {
+  "BMJ1": {
+   "place": "assam/majuli",
+   "topic": "Majuli",
+   "claim": "Majuli, in the Brahmaputra, is recognised by Guinness as the world's largest inland river island, and is the hub of Assamese neo-Vaishnavite culture.",
+   "claimType": "general",
+   "evidence": [
+    {
+     "source": "W_MAJ",
+     "quote": "Majuli is recognized by Guinness World Records as the world's largest inland river island"
+    },
+    {
+     "source": "W_MAJ",
+     "quote": "serves as a hub of Assamese neo- Vaishnavite culture."
+    }
+   ]
+  },
+  "BMJ2": {
+   "place": "assam/majuli",
+   "topic": "Getting there",
+   "claim": "Majuli is reached by ferry or boat from Jorhat, about 250 km from Guwahati.",
+   "claimType": "distance",
+   "evidence": [
+    {
+     "source": "W_MAJ",
+     "quote": "It is accessible by ferry or boat from Jorhat , which is located approximately 250 kilometers northeast of Guwahati ."
+    }
+   ]
+  },
+  "BMJ3": {
+   "place": "assam/majuli",
+   "topic": "Satras",
+   "claim": "Sankardev founded satras (monasteries) here in the 16th century; the Misings are the island's largest tribal community.",
+   "claimType": "general",
+   "evidence": [
+    {
+     "source": "W_MAJ",
+     "quote": "propagated Vaishnavism and established monasteries (known as satras ) on the island."
+    },
+    {
+     "source": "II_MAJ",
+     "quote": "you'll meet the Misings, the largest tribal community"
+    }
+   ]
+  },
+  "MA1": {
+   "place": "assam/majuli",
+   "topic": "Satras",
+   "claim": "Visit Dakhinpat Satra with its murals, Kamalabari (a centre of culture and classical studies), Bhogpur with its regular performances, and Bengena Ati.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "II_MAJ",
+     "quote": "Imagine walking through Dakhinpat Satra"
+    },
+    {
+     "source": "II_MAJ",
+     "quote": "visit Kamalabari Satra, a legendary centre of culture, art, literature, and classical studies"
+    },
+    {
+     "source": "II_MAJ",
+     "quote": "At Sri Sri Bhogpur Satra, you'll witness the magic of regular fourteen prasanga performances"
+    },
+    {
+     "source": "II_MAJ",
+     "quote": "Sri Sri Bengena Ati Satra is another important site"
+    }
+   ]
+  },
+  "MA2": {
+   "place": "assam/majuli",
+   "topic": "Masks",
+   "claim": "Samaguri Satra is famous for mukha bhaona masks, made from bamboo and wood.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "II_MAJ",
+     "quote": "As you explore Samaguri Satra, you'll find yourself face-to-face with masks"
+    },
+    {
+     "source": "II_MAJ",
+     "quote": "local artisans transform simple bamboo and wood into mythological masterpieces"
+    }
+   ]
+  },
+  "MA3": {
+   "place": "assam/majuli",
+   "topic": "Sattriya",
+   "claim": "See Sattriya dance-drama at Auniati Satra.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "II_MAJ",
+     "quote": "The mesmerizing Sattriya Nritya dance-drama will transport you back to the 15th and 16th centuries"
+    },
+    {
+     "source": "II_MAJ",
+     "quote": "profound storytelling at Auniati Satra"
+    }
+   ]
+  },
+  "MA4": {
+   "place": "assam/majuli",
+   "topic": "Communities",
+   "claim": "The Misings, originally from Arunachal Pradesh, are the largest tribal community; Deoris and Sonowal-Kacharis also live here.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "II_MAJ",
+     "quote": "the Misings, the largest tribal community who originally journeyed from Arunachal Pradesh"
+    },
+    {
+     "source": "II_MAJ",
+     "quote": "The Deoris and Sonowal-Kacharis add their unique cultural notes"
+    }
+   ]
+  },
+  "MA5": {
+   "place": "assam/majuli",
+   "topic": "Food",
+   "claim": "Try a tribal thali, fish steamed in leaves, bamboo-roasted chicken khorika, Mising pamnam and massing dry-fish chutney.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "II_MAJ",
+     "quote": "Imagine savouring a tribal thali at Risong's Kitchen"
+    },
+    {
+     "source": "II_MAJ",
+     "quote": "the smoky chicken khorika (roasted chicken skewered on bamboo)"
+    },
+    {
+     "source": "II_MAJ",
+     "quote": "Don't forget to try the Mishing specialities like Pamnam chicken or fish baked in banana leaves"
+    },
+    {
+     "source": "II_MAJ",
+     "quote": "massing, a robust dry fish chutney"
+    }
+   ]
+  },
+  "MA6": {
+   "place": "assam/majuli",
+   "topic": "Raas Mahotsav",
+   "claim": "November brings the Raas Mahotsav, with masked bhaona dramas and Raas Leela, in cool weather.",
+   "claimType": "general",
+   "kind": "seasonal",
+   "evidence": [
+    {
+     "source": "II_MAJ",
+     "quote": "mark your calendars for November, when the island transforms into a living, breathing cultural canvas during the spectacular Raas Mahotsav"
+    },
+    {
+     "source": "II_MAJ",
+     "quote": "November offers a perfect embrace with cool and comfortable temperatures"
+    }
+   ]
+  },
+  "MA7": {
+   "place": "assam/majuli",
+   "topic": "Erosion",
+   "claim": "Erosion had shrunk Majuli to about 880 sq km by 2024.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "W_MAJ",
+     "quote": "As of 2024, continuous erosion had reduced Majuli's area to approximately 880"
+    }
+   ]
+  },
+  "MA8": {
+   "place": "assam/majuli",
+   "topic": "Ferry",
+   "claim": "From Nimati Steamer Ghat the bus-and-ferry trip takes over three hours with several changes; a RORO ferry runs and a road bridge to Jorhat is being built.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "W_MAJ",
+     "quote": "Tourists can visit the island via a combination of bus and ferry from the Nimati Steamer Ghat, with the journey taking over three hours and involving multiple transfers."
+    },
+    {
+     "source": "W_MAJ",
+     "quote": "Majuli Port is served by a roll-on/roll-off (RORO) ferry service"
+    },
+    {
+     "source": "W_MAJ",
+     "quote": "a two-lane bridge is under construction to provide a direct road connection between Majuli and Jorhat"
+    }
+   ]
+  },
+  "MA9": {
+   "place": "assam/majuli",
+   "topic": "Crafts",
+   "claim": "Crafts include pottery, mask-making and hand weaving.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "W_MAJ",
+     "quote": "Points of interest in Majuli include the Vaishnava Satras and traditional crafts such as pottery, mask making, and the weaving of handmade"
+    }
+   ]
+  }
+ },
+ "places": [
+  {
+   "key": "assam/majuli",
+   "kind": "town",
+   "name": "Majuli",
+   "summary": "The world's largest inland river island (per Guinness), heart of Assam's Vaishnavite satras.",
+   "seoTitle": "Majuli Island: Satras, Ferry & Culture",
+   "seoDescription": "Majuli in the Brahmaputra: the world's largest inland river island, its satras and Sattriya dance, the Mising people, and the ferry from Jorhat.",
+   "lat": 27,
+   "lng": 94.21666667,
+   "tripTypes": [
+    "heritage",
+    "spiritual"
+   ],
+   "images": [
+    {
+     "commons": "File:Doriya River of Majuli.jpg",
+     "alt": "A river channel on Majuli island",
+     "caption": "Majuli",
+     "hero": true
+    }
+   ],
+   "wikidataId": "Q277552",
+   "sections": {
+    "overview": {
+     "text": "Majuli, in the Brahmaputra, is recognised by Guinness as the world's largest inland river island, though erosion had shrunk it to about 880 sq km by 2024. Since Sankardev founded satras here in the 16th century it has been the centre of Assam's Vaishnavite culture: Dakhinpat, Kamalabari, Auniati with its Sattriya dance, and Samaguri, famous for bamboo-and-wood masks.\n\nThe Misings are the largest community, alongside Deoris and Sonowal-Kacharis, and their food — fish steamed in leaves, bamboo-roasted chicken, massing chutney — is reason enough to stay. November is the time to come, for the Raas Mahotsav and cool weather. Majuli is reached by ferry from Nimati Ghat near Jorhat, about 250 km from Guwahati; a road bridge is being built.",
+     "facts": [
+      "BMJ1",
+      "MA7",
+      "BMJ3",
+      "MA1",
+      "MA3",
+      "MA2",
+      "MA4",
+      "MA5",
+      "MA6",
+      "BMJ2",
+      "MA8"
+     ]
+    },
+    "who_its_for": {
+     "items": [
+      {
+       "title": "Culture lovers",
+       "body": "Satras, Sattriya dance and bhaona dramas."
+      },
+      {
+       "title": "Craft lovers",
+       "body": "Mask-making at Samaguri and weaving and pottery."
+      },
+      {
+       "title": "Food lovers",
+       "body": "Mising and Assamese dishes."
+      }
+     ],
+     "facts": [
+      "MA1",
+      "MA3",
+      "MA2",
+      "MA9",
+      "MA5"
+     ]
+    },
+    "best_time": {
+     "text": "November is ideal: cool weather and the Raas Mahotsav, with masked bhaona dramas and Raas Leela.",
+     "facts": [
+      "MA6"
+     ]
+    },
+    "practical_info": {
+     "items": [
+      {
+       "title": "Getting there",
+       "body": "Take the ferry from Nimati Steamer Ghat near Jorhat; by bus and ferry allow over three hours with several changes. A RORO ferry carries cars.",
+       "status": "verified"
+      },
+      {
+       "title": "From Guwahati",
+       "body": "Jorhat is about 250 km from Guwahati.",
+       "status": "verified"
+      },
+      {
+       "title": "Season",
+       "body": "November, for the Raas Mahotsav.",
+       "status": "seasonal"
+      }
+     ],
+     "facts": [
+      "MA8",
+      "BMJ2",
+      "MA6"
+     ]
+    },
+    "things_to_do": {
+     "items": [
+      {
+       "body": "Visit Dakhinpat, Kamalabari, Bhogpur and Bengena Ati satras."
+      },
+      {
+       "body": "Watch Sattriya dance at Auniati Satra."
+      },
+      {
+       "body": "See mask-making at Samaguri Satra."
+      },
+      {
+       "body": "Eat a tribal thali with fish steamed in leaves and massing chutney."
+      }
+     ],
+     "facts": [
+      "MA1",
+      "MA3",
+      "MA2",
+      "MA5"
+     ]
+    },
+    "food": {
+     "items": [
+      {
+       "body": "Fish or chicken baked in banana leaves (pamnam).",
+       "status": "verified"
+      },
+      {
+       "body": "Chicken khorika, roasted on bamboo.",
+       "status": "verified"
+      },
+      {
+       "body": "Massing, a dry-fish chutney.",
+       "status": "verified"
+      }
+     ],
+     "facts": [
+      "MA5"
+     ]
+    },
+    "faqs": {
+     "items": [
+      {
+       "title": "How do I get to Majuli?",
+       "body": "By ferry from Nimati Ghat near Jorhat."
+      },
+      {
+       "title": "When should I go?",
+       "body": "November, for the Raas Mahotsav."
+      },
+      {
+       "title": "Where can I see mask-making?",
+       "body": "Samaguri Satra."
+      },
+      {
+       "title": "How big is Majuli?",
+       "body": "About 880 sq km as of 2024, after erosion."
+      }
+     ],
+     "facts": [
+      "MA8",
+      "MA6",
+      "MA2",
+      "MA7"
+     ]
+    },
+    "common_mistakes": {
+     "items": [
+      {
+       "body": "Underestimating the bus-and-ferry journey."
+      },
+      {
+       "body": "Visiting only one satra."
+      },
+      {
+       "body": "Missing the Raas Mahotsav in November."
+      }
+     ],
+     "facts": [
+      "MA8",
+      "MA1",
+      "MA6"
+     ]
+    }
+   }
+  }
+ ],
+ "itineraries": []
+}

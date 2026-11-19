@@ -243,6 +243,9 @@ export type RegionItem = {
   body: string;
   image: { url: string; alt: string; ai?: boolean } | null;
   towns: { name: string; href: string; dot: MapDot | null; lat: number | null; lng: number | null }[];
+  /** Decision facts for the region (best season, days, who it suits), only when the data has them. */
+  facts?: { icon: Name; label: string; value: string }[];
+  plans?: { title: string; href: string }[];
 };
 
 const fmtCoord = (lat: number, lng: number) => `${Math.abs(lat).toFixed(2)}° ${lat >= 0 ? "N" : "S"}, ${Math.abs(lng).toFixed(2)}° ${lng >= 0 ? "E" : "W"}`;
@@ -370,7 +373,17 @@ export function RegionAccordion({ regions, geo }: { regions: RegionItem[]; geo: 
               <div id={pid} role="region" className={`grid transition-[grid-template-rows] duration-500 ease-[cubic-bezier(.16,1,.3,1)] ${on ? "grid-rows-[1fr]" : "grid-rows-[0fr]"}`}>
                 <div className="overflow-hidden">
                   <div className="pb-4 pl-10 pr-2">
-                    <p className="text-sm leading-relaxed text-[#555555]">{r.body}</p>
+                    {r.body ? <p className="text-sm leading-relaxed text-[#555555]">{r.body}</p> : null}
+                    {r.facts?.length ? (
+                      <dl className="mt-3 grid grid-cols-1 gap-2 rounded-xl bg-[#FBFAF8] p-3 sm:grid-cols-3">
+                        {r.facts.map((f) => (
+                          <div key={f.label} className="min-w-0">
+                            <dt className="flex items-center gap-1 text-[0.6875rem] font-semibold text-[#666666]"><Icon name={f.icon} size={12} className="text-coral" /> {f.label}</dt>
+                            <dd className="mt-0.5 text-[0.8125rem] font-semibold leading-snug text-ink">{f.value}</dd>
+                          </div>
+                        ))}
+                      </dl>
+                    ) : null}
                     {r.towns.length ? (
                       <div className="mt-3 flex flex-wrap gap-1.5">
                         {r.towns.map((t) => (
@@ -379,6 +392,11 @@ export function RegionAccordion({ regions, geo }: { regions: RegionItem[]; geo: 
                           </Link>
                         ))}
                       </div>
+                    ) : null}
+                    {r.plans?.length ? (
+                      <p className="mt-3 text-xs text-[#666666]">Plans:{" "}
+                        {r.plans.map((pl, j) => <span key={pl.href}>{j ? ", " : ""}<Link href={pl.href} tabIndex={on ? 0 : -1} className="font-semibold text-ink underline decoration-[#D9D4CC] underline-offset-4 hover:text-coral">{pl.title}</Link></span>)}
+                      </p>
                     ) : null}
                   </div>
                 </div>
@@ -446,9 +464,10 @@ export function SeasonPanels({ seasons }: { seasons: SeasonPanel[] }) {
 export type TripCard = { slug: string; title: string; summary: string; days: number; type: string | null; stops: string[]; image: { url: string; alt: string; ai?: boolean } | null };
 
 const LENGTHS = [
-  { key: "short", label: "1–3 days", test: (d: number) => d <= 3 },
-  { key: "mid", label: "4–6 days", test: (d: number) => d >= 4 && d <= 6 },
-  { key: "long", label: "A week or more", test: (d: number) => d >= 7 },
+  { key: "short", label: "Up to 4 days", test: (d: number) => d <= 4 },
+  { key: "week", label: "5–7 days", test: (d: number) => d >= 5 && d <= 7 },
+  { key: "long", label: "8–10 days", test: (d: number) => d >= 8 && d <= 10 },
+  { key: "grand", label: "More than 10 days", test: (d: number) => d > 10 },
 ] as const;
 
 /**
@@ -518,6 +537,58 @@ export function TripCards({ trips, initial = 6 }: { trips: TripCard[]; initial?:
           {all ? "Show fewer" : `Show all ${shown.length} trips`} <Icon name="chevronDown" size={15} className={`transition-transform ${all ? "rotate-180" : ""}`} />
         </button>
       ) : null}
+    </div>
+  );
+}
+
+/**
+ * Region chooser: pills switch one panel at a time. Every panel stays in the HTML (hidden),
+ * so the content is crawlable; a link to a card inside a hidden panel switches to it.
+ */
+export function RegionChooser({ tabs, panels }: { tabs: { id: string; label: string }[]; panels: ReactNode[] }) {
+  const [active, setActive] = useState(0);
+  useEffect(() => {
+    const go = () => {
+      const id = decodeURIComponent(window.location.hash.slice(1));
+      if (!id) return;
+      const el = document.getElementById(id);
+      const panel = el?.closest<HTMLElement>("[data-region-panel]");
+      if (!el || !panel) return;
+      const i = Number(panel.dataset.regionPanel);
+      if (Number.isFinite(i)) {
+        setActive(i);
+        requestAnimationFrame(() => el.scrollIntoView({ block: "start" }));
+      }
+    };
+    go();
+    window.addEventListener("hashchange", go);
+    return () => window.removeEventListener("hashchange", go);
+  }, []);
+  return (
+    <div>
+      {tabs.length > 1 ? (
+        <div role="tablist" aria-label="Regions" className="-mx-1 flex gap-2 overflow-x-auto px-1 pb-1 [scrollbar-width:none]">
+          {tabs.map((t, i) => (
+            <button
+              key={t.id}
+              type="button"
+              role="tab"
+              id={`tab-${t.id}`}
+              aria-selected={active === i}
+              aria-controls={`panel-${t.id}`}
+              onClick={() => setActive(i)}
+              className={`shrink-0 cursor-pointer rounded-full border px-4 py-2 text-sm font-semibold transition-colors focus-visible:outline-2 focus-visible:outline-coral ${active === i ? "border-ink bg-ink text-white" : "border-line bg-white text-ink hover:border-coral hover:text-coral"}`}
+            >
+              {t.label}
+            </button>
+          ))}
+        </div>
+      ) : null}
+      {panels.map((p, i) => (
+        <div key={tabs[i]?.id ?? i} id={`panel-${tabs[i]?.id ?? i}`} role="tabpanel" aria-labelledby={`tab-${tabs[i]?.id ?? i}`} data-region-panel={i} hidden={active !== i} className="mt-6">
+          {p}
+        </div>
+      ))}
     </div>
   );
 }

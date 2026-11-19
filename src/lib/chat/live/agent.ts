@@ -1,7 +1,7 @@
 import "server-only";
 import type { Block, ChatTurn, TripMemory } from "@/lib/chat/schema";
 import { costMicroUsd } from "@/lib/research/cost";
-import { createResponse, type CallModel } from "@/lib/research/openai";
+import { createResponse, searchCallCount, streamResponse, type CallModel, type ResponseUsage, type StreamModel } from "@/lib/research/openai";
 import { classify, quickGreeting, type Classification, type Intent } from "./classify";
 import { isPlanIntent } from "./focus";
 import { compose, type GuideDoc, type WebFactRef } from "./compose";
@@ -9,7 +9,10 @@ import { cacheKeyFor, lookupCache, researchFresh, touchCache, type ResearchResul
 import { findGuides } from "./retrieve";
 import { discover } from "./discover";
 import { discoveryCandidates, matchGuides, stateCandidates, type GuideMatch } from "./candidates";
-import { fastAnswer, needsWeb, priorityCostFactor, toBlocks } from "./fast";
+import { PROMPT_VERSION, chatTier, fastAnswer, needsWeb, priorityCostFactor, toBlocks } from "./fast";
+import { guideFacts } from "./guide-facts";
+import { answerCacheKey } from "./answer-cache-core";
+import { getCachedAnswer, putCachedAnswer } from "./answer-cache";
 import { mapPoints } from "@/lib/map";
 import { bookingsBlock } from "@/lib/booking/links";
 import { GUIDE_HREF_RE } from "@/lib/chat/constants";
@@ -38,12 +41,26 @@ const MAP_INTENTS: Intent[] = ["plan_trip", "itinerary", "modify_plan"];
 const BOOK_INTENTS: Intent[] = ["plan_trip", "itinerary", "modify_plan"];
 const BROAD_RE = /^(india|bharat|north|south|east|west|central|north[- ]?east|northeast)(ern)?( india)?$/i;
 
-export type Emit = (e: { type: "status"; text: string } | { type: "block"; block: Block }) => void;
+export type Emit = (e: { type: "status"; text: string } | { type: "delta"; text: string } | { type: "block"; block: Block }) => void;
 
-export type AnswerMeta = { outcome: string; destination: string | null; usedGuides: boolean; researched: boolean; cacheHit: boolean; costMicroUsd: number };
+export type AnswerMeta = {
+  outcome: string;
+  destination: string | null;
+  usedGuides: boolean;
+  researched: boolean;
+  cacheHit: boolean;
+  costMicroUsd: number;
+  usage?: { in: number; cached: number; out: number };
+  timing?: { ttftMs: number | null; totalMs: number; modelMs: number; dbMs: number };
+};
 
 export type AgentDeps = {
+  /** Non-streaming model call (tests). When absent, answers stream. */
   call?: CallModel;
+  stream?: StreamModel;
+  guideFacts?: typeof guideFacts;
+  getCachedAnswer?: typeof getCachedAnswer;
+  putCachedAnswer?: typeof putCachedAnswer;
   findGuides?: typeof findGuides;
   discoveryCandidates?: typeof discoveryCandidates;
   stateCandidates?: typeof stateCandidates;
@@ -77,67 +94,147 @@ export const answer: AnswerFn = (input, emit, deps) => (process.env.CHAT_MODE ==
 
 const SUGGEST = ["Best treks in December", "Plan 3 days in Udaipur", "Weekend trips from Delhi"];
 
+/** Outcomes that cost nothing to cache and nothing to replay; only real answers are cached. */
+const toUsage = (u: ResponseUsage | undefined) => ({ in: u?.input_tokens ?? 0, cached: u?.input_tokens_details?.cached_tokens ?? 0, out: u?.output_tokens ?? 0 });
+
+/** How long the cache and guide-facts lookups may delay the model call (ms). */
+const PREP_WAIT_MS = Number(process.env.CHAT_PREP_WAIT_MS ?? "350");
+/** Resolves with `fallback` if `p` takes longer than `ms` (p keeps running; its result is ignored). */
+function within<T>(ms: number, p: Promise<T>, fallback: T): Promise<T> {
+  return new Promise<T>((resolve) => {
+    const t = setTimeout(() => resolve(fallback), ms);
+    p.then(
+      (v) => {
+        clearTimeout(t);
+        resolve(v);
+      },
+      () => {
+        clearTimeout(t);
+        resolve(fallback);
+      },
+    );
+  });
+}
+
 export const quickAnswer: AnswerFn = async (input, emit, deps) => {
+  const t0 = performance.now();
+  const ms = () => Math.round(performance.now() - t0);
   let spent = 0;
-  const base = deps.call ?? createResponse;
-  const call: CallModel = async (body) => {
-    const r = await base(body);
-    const priority = (r as { service_tier?: string }).service_tier === "fast" || body.service_tier === "priority";
-    const c = Math.round(costMicroUsd(String(body.model), r.usage, r.output.filter((i) => i.type === "web_search_call").length) * (priority ? priorityCostFactor() : 1));
-    spent += c;
-    deps.onCost?.(c);
-    return r;
-  };
+  let dbMs = 0;
+  let modelMs = 0;
+  let ttft: number | null = null;
   const now = deps.now?.() ?? new Date();
+  const model = quickChatModel();
   const meta: AnswerMeta = { outcome: "answered", destination: null, usedGuides: false, researched: false, cacheHit: false, costMicroUsd: 0 };
-  const done = (summary: string, memory: TripMemory | null) => ({ summary, memory, meta: { ...meta, costMicroUsd: spent } });
+  const usage = { in: 0, cached: 0, out: 0 };
+  const sent: Block[] = [];
+  const show = (block: Block) => {
+    if (ttft === null && block.type === "text") ttft = ms();
+    sent.push(block);
+    emit({ type: "block", block });
+  };
+  const timed = async <T,>(p: Promise<T>): Promise<T> => {
+    const t = performance.now();
+    try {
+      return await p;
+    } finally {
+      dbMs += Math.round(performance.now() - t);
+    }
+  };
+  const done = (summary: string, memory: TripMemory | null) => {
+    const timing = { ttftMs: ttft, totalMs: ms(), modelMs, dbMs };
+    // One line per request: speed, tokens and cost (no question text or visitor data).
+    console.info(`[chat] ${JSON.stringify({ outcome: meta.outcome, cache: meta.cacheHit, web: meta.researched, tier: chatTier(), model, ...timing, tokensIn: usage.in, tokensCached: usage.cached, tokensOut: usage.out, costMicroUsd: spent })}`);
+    return { summary, memory, meta: { ...meta, costMicroUsd: spent, usage, timing } };
+  };
 
   const latest = input.turns[input.turns.length - 1]?.content ?? "";
   if (quickGreeting(latest)) {
     meta.outcome = "greeting";
-    emit({ type: "block", block: { type: "text", text: input.memory?.destination ? `Happy to help! Ask me anything else about ${input.memory.destination}.` : DECLINE.greeting } });
-    emit({ type: "block", block: { type: "suggestions", items: SUGGEST } });
+    show({ type: "text", text: input.memory?.destination ? `Happy to help! Ask me anything else about ${input.memory.destination}.` : DECLINE.greeting });
+    show({ type: "suggestions", items: SUGGEST });
     return done("Greeted the traveller.", input.memory);
   }
 
-  // Live questions (prices, timings, this year's dates) get a web search, within the visitor's daily allowance.
+  // Live questions (exact fares, today, road status) get a web search, within the visitor's daily allowance.
   const web = needsWeb(latest) && (await deps.allowResearch());
-  emit({ type: "status", text: web ? "Checking the latest on the web…" : "Thinking…" });
-  const a = await fastAnswer({ turns: input.turns, memory: input.memory, web, now }, { call, model: quickChatModel() });
   meta.researched = web;
+
+  // Cache lookup and our guide facts run together, before the model call.
+  const cacheKey = web ? null : answerCacheKey({ version: PROMPT_VERSION, model, turns: input.turns, memory: input.memory });
+  // The database must never hold up the first words: past a short wait we answer without it.
+  const [cached, facts] = await timed(
+    Promise.all([
+      cacheKey ? within(PREP_WAIT_MS, (deps.getCachedAnswer ?? getCachedAnswer)(cacheKey), null) : Promise.resolve(null),
+      within(PREP_WAIT_MS, (deps.guideFacts ?? guideFacts)(latest, input.memory?.destination ?? null), { text: "", names: [] as string[] }),
+    ]),
+  );
+  if (cached) {
+    meta.cacheHit = true;
+    meta.usedGuides = cached.blocks.some((b) => b.type === "destination" || (b.type === "picks" && b.items.some((i) => i.href)));
+    meta.destination = cached.memory?.destination ?? null;
+    for (const b of cached.blocks) show(b);
+    return done(cached.summary, cached.memory ?? input.memory);
+  }
+
+  emit({ type: "status", text: web ? "Checking the latest on the web…" : "Thinking…" });
+  // Our guide links for places named in the question load while the model writes.
+  const prefetch = facts.names.length ? timed((deps.matchGuides ?? matchGuides)(facts.names)).catch(() => new Map<string, GuideMatch>()) : Promise.resolve(new Map<string, GuideMatch>());
+  const tModel = performance.now();
+  const stream = deps.call ? undefined : (deps.stream ?? streamResponse);
+  const a = await fastAnswer(
+    { turns: input.turns, memory: input.memory, web, now, facts: facts.text },
+    {
+      model,
+      stream,
+      call: deps.call,
+      onReply: (t) => {
+        if (ttft === null) ttft = ms();
+        emit({ type: "delta", text: t });
+      },
+    },
+  );
+  modelMs = Math.round(performance.now() - tModel);
+  Object.assign(usage, toUsage(a.raw.usage));
+  const c = Math.round(costMicroUsd(model, a.raw.usage, searchCallCount(a.raw)) * (chatTier() === "priority" ? priorityCostFactor() : 1));
+  spent += c;
+  deps.onCost?.(c);
 
   if (a.scope !== "india_travel") {
     meta.outcome = a.scope === "greeting" ? "greeting" : "out_of_scope";
-    emit({ type: "block", block: { type: "text", text: DECLINE[a.scope] } });
-    emit({ type: "block", block: { type: "suggestions", items: SUGGEST } });
+    show({ type: "text", text: DECLINE[a.scope] });
+    show({ type: "suggestions", items: SUGGEST });
     return done(a.scope === "greeting" ? "Greeted the traveller." : "Declined a request outside India travel.", input.memory);
   }
   if (!a.reply && !a.places.length && !a.itinerary && !a.compare) {
     meta.outcome = "nothing_grounded";
-    emit({ type: "block", block: { type: "text", text: "I couldn’t answer that one. Try asking it another way." } });
+    show({ type: "text", text: "I couldn’t answer that one. Try asking it another way." });
     return done("No answer.", input.memory);
   }
 
-  // Show the reply at once; cards follow after the guide lookup.
-  if (a.reply) emit({ type: "block", block: { type: "text", text: a.reply } });
+  // The streamed reply is replaced by its cleaned final version; cards follow.
+  if (a.reply) show({ type: "text", text: a.reply });
 
   // Our own guide links and photos for the places mentioned (best effort: a DB hiccup never loses the answer).
   const names = [...a.places.map((p) => p.name), ...a.alternatives.map((p) => p.name), ...(a.memory.destination ? [a.memory.destination] : [])];
-  const guides = await (deps.matchGuides ?? matchGuides)(names).catch(() => new Map<string, GuideMatch>());
-  meta.usedGuides = guides.size > 0;
+  const pre = await prefetch;
+  const missing = names.filter((n) => !pre.has(n.toLowerCase()));
+  const more = missing.length ? await timed((deps.matchGuides ?? matchGuides)(missing)).catch(() => new Map<string, GuideMatch>()) : new Map<string, GuideMatch>();
+  const guides = new Map<string, GuideMatch>([...pre, ...more]);
+  meta.usedGuides = guides.size > 0 || Boolean(facts.text);
   meta.destination = a.memory.destination;
 
   // A single-destination answer (no list) links to our guide with a small card.
   const dest = a.memory.destination ? guides.get(a.memory.destination.toLowerCase()) : undefined;
-  if (dest && !a.places.length && !a.compare) {
-    emit({ type: "block", block: { type: "destination", name: dest.name, stateName: "India", tagline: `VacayOut guide to ${dest.name}`.slice(0, 200), ...(dest.photo ? { photo: dest.photo } : {}), href: dest.href } as Block });
+  if (dest && !a.places.length && !a.compare && a.kind !== "fact") {
+    show({ type: "destination", name: dest.name, stateName: "India", tagline: `VacayOut guide to ${dest.name}`.slice(0, 200), ...(dest.photo ? { photo: dest.photo } : {}), href: dest.href } as Block);
   }
-  for (const b of toBlocks({ ...a, reply: "" }, guides, { showMap: Boolean(a.itinerary) })) emit({ type: "block", block: b });
+  for (const b of toBlocks({ ...a, reply: "" }, guides, { showMap: Boolean(a.itinerary) })) show(b);
   if (a.itinerary) {
     const bk = bookingsBlock({ name: a.memory.destination ?? a.places[0]?.name ?? "India", kind: "town", stateName: null });
-    if (bk) emit({ type: "block", block: bk });
+    if (bk) show(bk);
   }
-  if (a.followUps.length) emit({ type: "block", block: { type: "suggestions", items: a.followUps } });
+  if (a.followUps.length) show({ type: "suggestions", items: a.followUps });
 
   const memory: TripMemory = {
     destination: a.memory.destination ?? input.memory?.destination ?? null,
@@ -148,7 +245,10 @@ export const quickAnswer: AnswerFn = async (input, emit, deps) => {
     interests: a.memory.interests.length ? a.memory.interests : (input.memory?.interests ?? []),
     plan: a.itinerary ? a.itinerary.days.map((d) => d.title.slice(0, 120)).slice(0, 10) : (input.memory?.plan ?? []),
   };
-  return done(a.summary || "Answered a travel question.", memory);
+  const summary = a.summary || "Answered a travel question.";
+  // Same question, same trip, no live search → reuse this answer for 7 days.
+  if (cacheKey) await timed(within(800, (deps.putCachedAnswer ?? putCachedAnswer)(cacheKey, { blocks: sent, summary, memory }), undefined));
+  return done(summary, memory);
 };
 
 export const guidedAnswer: AnswerFn = async (input, emit, deps) => {

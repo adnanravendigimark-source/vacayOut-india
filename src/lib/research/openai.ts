@@ -50,6 +50,71 @@ export const createResponse: CallModel = async (body) => {
   }
 };
 
+export type StreamModel = (body: Record<string, unknown>, onDelta: (text: string) => void) => Promise<ResponsesResult>;
+
+/**
+ * Streaming call: hands out output text as it is generated and resolves with
+ * the finished response (same shape as createResponse). Retries once on
+ * 429/5xx, but only before any text has arrived.
+ */
+export const streamResponse: StreamModel = async (body, onDelta) => {
+  const key = process.env.OPENAI_API_KEY;
+  if (!key) throw new OpenAIError("OPENAI_API_KEY is not set.");
+  const base = (process.env.OPENAI_BASE_URL || "https://api.openai.com/v1").replace(/\/$/, "");
+  for (let attempt = 0; ; attempt++) {
+    const res = await fetch(`${base}/responses`, {
+      method: "POST",
+      headers: { authorization: `Bearer ${key}`, "content-type": "application/json", accept: "text/event-stream" },
+      body: JSON.stringify({ ...body, stream: true }),
+      signal: AbortSignal.timeout(90_000),
+    });
+    if (!res.ok || !res.body) {
+      if (attempt === 0 && (res.status === 429 || res.status >= 500)) {
+        await new Promise((r) => setTimeout(r, 1500));
+        continue;
+      }
+      let detail = "";
+      try {
+        detail = ((await res.json()) as { error?: { message?: string } }).error?.message ?? "";
+      } catch {}
+      throw new OpenAIError(`OpenAI request failed (${res.status})${detail ? `: ${detail.slice(0, 300)}` : ""}`);
+    }
+    const reader = res.body.getReader();
+    const decoder = new TextDecoder();
+    let buf = "";
+    let final: ResponsesResult | null = null;
+    for (;;) {
+      const { value, done } = await reader.read();
+      if (done) break;
+      buf += decoder.decode(value, { stream: true });
+      let cut: number;
+      // Server-sent events are separated by a blank line; only the data lines matter.
+      while ((cut = buf.indexOf("\n\n")) >= 0) {
+        const chunk = buf.slice(0, cut);
+        buf = buf.slice(cut + 2);
+        const data = chunk
+          .split("\n")
+          .filter((l) => l.startsWith("data:"))
+          .map((l) => l.slice(5).trimStart())
+          .join("\n");
+        if (!data || data === "[DONE]") continue;
+        let ev: { type?: string; delta?: string; response?: ResponsesResult; message?: string; error?: { message?: string } };
+        try {
+          ev = JSON.parse(data);
+        } catch {
+          continue;
+        }
+        if (ev.type === "response.output_text.delta" && typeof ev.delta === "string") onDelta(ev.delta);
+        else if ((ev.type === "response.completed" || ev.type === "response.incomplete") && ev.response) final = ev.response;
+        else if (ev.type === "response.failed") throw new OpenAIError(`OpenAI response failed${ev.response?.error?.message ? `: ${ev.response.error.message.slice(0, 300)}` : ""}`);
+        else if (ev.type === "error") throw new OpenAIError(`OpenAI stream error${ev.message ? `: ${ev.message.slice(0, 300)}` : ""}`);
+      }
+    }
+    if (!final) throw new OpenAIError("OpenAI stream ended without a response.");
+    return final;
+  }
+};
+
 /** The final text answer of a response. */
 export function outputText(r: ResponsesResult): string {
   const parts: string[] = [];

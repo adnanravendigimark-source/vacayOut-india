@@ -1,6 +1,7 @@
 import { auth } from "@/lib/auth";
 import { answer } from "@/lib/chat/live/agent";
-import { ANON_COOKIE, ANSWER_RESERVE_MICRO, admitMessage, chatBudget, recordRequest, resolveVisitor, takeResearch } from "@/lib/chat/quota";
+import { ANON_COOKIE, ANSWER_RESERVE_MICRO, LIMITS, admitMessage, chatBudget, quotaState, recordRequest, resolveVisitor, settleMessage, takeResearch } from "@/lib/chat/quota";
+import { ANSWERED_OUTCOMES } from "@/lib/chat/quota-core";
 import { blockSchema, chatRequestSchema, tripMemorySchema, type StreamEvent } from "@/lib/chat/schema";
 import { openaiConfigured } from "@/lib/research/openai";
 import { logError } from "@/lib/ops/log";
@@ -54,14 +55,21 @@ export async function POST(req: Request) {
   const visitor = await resolveVisitor(req, await auth());
   const cookieHeader: Record<string, string> = visitor.newCookie ? { "set-cookie": anonCookie(visitor.newCookie) } : {};
 
-  const admission = await admitMessage(visitor);
+  const chatId = parsed.data.chatId;
+  const admission = await admitMessage(visitor, chatId);
   if (!admission.ok) {
     return json(
       admission.status,
-      { error: admission.message, authRequired: admission.code === "auth_required" },
+      { error: admission.message, code: admission.code, authRequired: admission.code === "auth_required" || admission.code === "one_conversation" },
       { ...cookieHeader, ...(admission.retryAfter ? { "retry-after": String(admission.retryAfter) } : {}) },
     );
   }
+  // Keep the reserved free question only for a real answer; give it back otherwise. Runs once.
+  let settled: Promise<number | null> | null = null;
+  const settle = (answered: boolean) => (settled ??= settleMessage(visitor, admission, { answered, chatId }).catch((err) => {
+    console.error("[chat] settle failed", err instanceof Error ? err.message : err);
+    return admission.freeLeft;
+  }));
 
   const encoder = new TextEncoder();
   const stream = new ReadableStream<Uint8Array>({
@@ -75,9 +83,10 @@ export async function POST(req: Request) {
           open = false; // the visitor went away; keep going so usage is still recorded
         }
       };
-      const notice = (text: string, outcome: string) => {
+      const notice = async (text: string, outcome: string) => {
+        const freeLeft = await settle(false);
         send({ type: "block", block: { type: "notice", tone: "warning", text } });
-        send({ type: "done", summary: "No answer.", memory: parsed.data.memory ?? null, freeLeft: admission.freeLeft });
+        send({ type: "done", summary: "No answer.", memory: parsed.data.memory ?? null, freeLeft });
         return recordRequest(visitor, { outcome, costMicroUsd: 0 });
       };
       let spent = 0;
@@ -94,7 +103,7 @@ export async function POST(req: Request) {
         const result = await answer(
           { turns: parsed.data.messages, memory: parsed.data.memory ?? null },
           (e) => {
-            if (e.type === "status") return send(e);
+            if (e.type === "status" || e.type === "delta") return send(e);
             // Never stream anything that doesn't match the contract.
             const checked = blockSchema.safeParse(e.block);
             if (checked.success) send({ type: "block", block: checked.data });
@@ -106,11 +115,13 @@ export async function POST(req: Request) {
           },
         );
         const memory = tripMemorySchema.safeParse(result.memory);
-        send({ type: "done", summary: result.summary.slice(0, 200), memory: memory.success ? memory.data : null, freeLeft: admission.freeLeft });
+        const freeLeft = await settle(ANSWERED_OUTCOMES.has(result.meta.outcome));
+        send({ type: "done", summary: result.summary.slice(0, 200), memory: memory.success ? memory.data : null, freeLeft });
         await recordRequest(visitor, result.meta);
       } catch (err) {
+        await settle(false);
         await logError("chat", err, { path: "/api/chat" });
-        send({ type: "error", message: "Something went wrong while planning. Please try again." });
+        send({ type: "error", message: "Something went wrong while planning. Please try again.", retry: true });
         await recordRequest(visitor, { outcome: "error", costMicroUsd: spent }).catch(() => {});
       } finally {
         try {
@@ -130,4 +141,21 @@ export async function POST(req: Request) {
       ...cookieHeader,
     },
   });
+}
+
+/**
+ * What the chat UI needs before the first question: whether the visitor is
+ * signed in, free questions left and their one conversation. Reads only; never
+ * sets a cookie or spends anything.
+ */
+export async function GET(req: Request) {
+  try {
+    const visitor = await resolveVisitor(req, await auth());
+    // No cookie yet: a brand-new visitor with every free question left.
+    if (visitor.newCookie) return json(200, { signedIn: false, limit: LIMITS.freeQuestions, left: LIMITS.freeQuestions, chatId: null });
+    return json(200, await quotaState(visitor));
+  } catch (err) {
+    await logError("chat", err, { path: "/api/chat (quota)" });
+    return json(503, { error: "Unavailable" });
+  }
 }

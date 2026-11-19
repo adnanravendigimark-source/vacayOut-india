@@ -1,0 +1,522 @@
+{
+ "cluster": "rajasthan2-ranthambore",
+ "title": "Ranthambore (Batch 6)",
+ "researchedAt": "2026-11-18",
+ "selection": "Batch 6. Ranthambore had 5 approved sections. Adds who it's for, practical info, highlights, FAQs and mistakes, plus a fuller overview (pending review). The Wednesday-closure fact (RTB_WED) carries a source conflict and is not used. Bird-species counts differ (300+ in RB1 vs 270+ on Wikipedia) and Jaipur distance varies (150–175 km), so only existing figures are used. ranthambore-2-days-safari itinerary not touched.",
+ "sources": {
+  "RT_RTB": {
+   "url": "https://www.tourism.rajasthan.gov.in/ranthambore.html",
+   "title": "Ranthambore — Rajasthan Tourism",
+   "authority": "government"
+  },
+  "II_RTB": {
+   "url": "https://www.incredibleindia.gov.in/en/rajasthan/bharatpur/ranthambore-national-park",
+   "title": "Ranthambore National Park — Incredible India",
+   "authority": "government"
+  },
+  "II_RTBF": {
+   "url": "https://www.incredibleindia.gov.in/en/rajasthan/bharatpur/ranthambore-fort",
+   "title": "Ranthambore Fort — Incredible India",
+   "authority": "government"
+  },
+  "W_RTB": {
+   "url": "https://en.wikipedia.org/wiki/Ranthambore_National_Park",
+   "title": "Ranthambore National Park — Wikipedia",
+   "authority": "reference"
+  },
+  "RT_SWM": {
+   "url": "https://www.tourism.rajasthan.gov.in/content/rajasthan-tourism/en/tourist-destinations/sawaimadhopur.html",
+   "title": "Sawai Madhopur and Ranthambore — Rajasthan Tourism (Government of Rajasthan)",
+   "authority": "government"
+  },
+  "BCI_RTB": {
+   "url": "https://bigcatsindia.com/ranthambore-safari-timings/",
+   "title": "Ranthambore Tiger Safari Timings — Big Cats India",
+   "authority": "travel_platform"
+  },
+  "GOASIA_RTB": {
+   "url": "https://goasia.cc/en/article/ranthambore-national-park",
+   "title": "Ranthambore National Park — GoAsia",
+   "authority": "travel_platform"
+  }
+ },
+ "facts": {
+  "BRB1": {
+   "place": "rajasthan/ranthambore",
+   "topic": "National Park",
+   "claim": "Ranthambore National Park, 14 km from Sawai Madhopur, covers 392 sq km between the Aravallis and Vindhyas and is home to tigers and over 300 bird species.",
+   "claimType": "distance",
+   "evidence": [
+    {
+     "source": "RT_SWM",
+     "quote": "Situated 14 km from Sawai Madhopur, the Ranthambore Park gets its name from the Ranthambore Fort situated within its boundaries."
+    },
+    {
+     "source": "RT_SWM",
+     "quote": "The National Park, situated amidst the Aravalis and Vindhya ranges is spreads over an area of 392 sq.km of thick forest punctuated with pleasant waterfalls."
+    },
+    {
+     "source": "RT_SWM",
+     "quote": "It is home to the elusive tiger, other animals found here include chinkara, sambhar, cheetal and over 300 species of birds."
+    }
+   ]
+  },
+  "BRB2": {
+   "place": "rajasthan/ranthambore-safari",
+   "topic": "Safari",
+   "claim": "A safari is the best way to see Ranthambore's tigers, sloth bears and leopards; book on the Rajasthan wildlife website.",
+   "claimType": "rule",
+   "evidence": [
+    {
+     "source": "RT_SWM",
+     "quote": "One of the best ways to observe wildlife at the Ranthambore National Park is through a safari."
+    },
+    {
+     "source": "RT_SWM",
+     "quote": "Apart from the royal Bengal tiger, you can also spot sloth bears, leopards, jackals, foxes and hyenas."
+    },
+    {
+     "source": "RT_SWM",
+     "quote": "For information & online reservations, visit: http://www.rajasthanwildlife.rajasthan.gov.in/bookTrip.do"
+    }
+   ]
+  },
+  "BRB3": {
+   "place": "rajasthan/ranthambore",
+   "topic": "Getting there",
+   "claim": "Sawai Madhopur has regular trains; Jaipur airport, 150–170 km away, is the closest.",
+   "claimType": "distance",
+   "evidence": [
+    {
+     "source": "RT_SWM",
+     "quote": "You can easily get regular trains to Sawai Madhopur from other major cities of the country."
+    },
+    {
+     "source": "RT_SWM",
+     "quote": "The Jaipur Airport is the closest and is located 150-170 kilometres away."
+    }
+   ]
+  },
+  "BRTB_SEAS": {
+   "place": "rajasthan/ranthambore",
+   "topic": "Park season",
+   "claimType": "schedule",
+   "kind": "seasonal",
+   "claim": "Ranthambore National Park is open to visitors from 1 October to 30 June; the core zones close for the monsoon from July to September.",
+   "evidence": [
+    {
+     "source": "BCI_RTB",
+     "quote": "Ranthambore National Park opens its gates to visitors from October 1st to June 30th every year."
+    },
+    {
+     "source": "BCI_RTB",
+     "quote": "Core zones are closed from July to September."
+    }
+   ]
+  },
+  "BRTB_TIME": {
+   "place": "rajasthan/ranthambore-safari",
+   "topic": "Safari timings",
+   "claimType": "schedule",
+   "kind": "seasonal",
+   "claim": "Ranthambore runs a morning and an afternoon safari; in December and January they run 7–10:30 am and 2–5:30 pm, and from April to June the morning slot starts around 6 am.",
+   "evidence": [
+    {
+     "source": "BCI_RTB",
+     "quote": "In December and January, safaris run 7:00 AM–10:30 AM (morning) and 2:00 PM–5:30 PM (evening)"
+    },
+    {
+     "source": "BCI_RTB",
+     "quote": "From April to June, morning safaris start around 6:00 AM and run to 9:30 AM"
+    }
+   ]
+  },
+  "BRTB_TATK": {
+   "place": "rajasthan/ranthambore-safari",
+   "topic": "Last-minute (Tatkal) booking",
+   "claimType": "rule",
+   "claim": "Last-minute Tatkal safari seats, for the coming seven days, open for booking daily at 11 am.",
+   "evidence": [
+    {
+     "source": "GOASIA_RTB",
+     "quote": "Tatkal safaris for seven days ahead open daily at 11:00 AM."
+    }
+   ]
+  },
+  "BRBF1": {
+   "place": "rajasthan/ranthambore-fort",
+   "topic": "Ranthambore Fort",
+   "claim": "Ranthambore Fort was built by the Chauhans in the 10th century; it has temples, tanks, great gates and walls.",
+   "claimType": "general",
+   "evidence": [
+    {
+     "source": "RT_SWM",
+     "quote": "The noteworthy Ranthambore Fort was built by the Chauhan rulers in the 10th century."
+    },
+    {
+     "source": "RT_SWM",
+     "quote": "The fort is characterised by temples, tanks, massive gates and huge walls."
+    }
+   ]
+  },
+  "BRBF2": {
+   "place": "rajasthan/ranthambore-fort",
+   "topic": "Trinetra Ganesh",
+   "claim": "The Trinetra Ganesh temple inside the fort holds a fair on Bhadrapad Chaturthi.",
+   "claimType": "general",
+   "evidence": [
+    {
+     "source": "RT_SWM",
+     "quote": "Every year a fair is held on Chaturthi of Bhadrapad month."
+    }
+   ],
+   "kind": "seasonal"
+  },
+  "RN1": {
+   "place": "rajasthan/ranthambore",
+   "topic": "Royal reserve",
+   "claim": "Ranthambore was once the private game reserve of the royal house of Jaipur.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "RT_RTB",
+     "quote": "Once a private game reserve of the royal House of Jaipur"
+    }
+   ]
+  },
+  "RN2": {
+   "place": "rajasthan/ranthambore",
+   "topic": "Wildlife",
+   "claim": "Besides tigers, look for sloth bear, leopard, caracal, jackal, hyena, chital, sambar and nilgai; the Indian wolf is seen occasionally.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "RT_RTB",
+     "quote": "Apart from the tiger, you can also spot sloth bear, leopard, caracal, jackal, fox, hyena and mongoose at Ranthambore."
+    },
+    {
+     "source": "RT_RTB",
+     "quote": "The elusive Indian wolf too, has been spotted here occasionally."
+    },
+    {
+     "source": "RT_RTB",
+     "quote": "The dainty chital, sambhar deer, the blue bull antelope or nilgai, rhesus macaque, langur"
+    }
+   ]
+  },
+  "RN3": {
+   "place": "rajasthan/ranthambore",
+   "topic": "Size",
+   "claim": "The reserve covers 1,334 sq km, including the 392 sq km national park.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "II_RTB",
+     "quote": "covering 1,334 square kilometres while housing 392 square kilometres of the pristine national park"
+    }
+   ]
+  },
+  "RN4": {
+   "place": "rajasthan/ranthambore",
+   "topic": "Machli",
+   "claim": "The tigress Machli, star of wildlife films, died in August 2016.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "II_RTB",
+     "quote": "none was as iconic as the tigress Machli"
+    },
+    {
+     "source": "II_RTB",
+     "quote": "Though she passed away in August 2016"
+    }
+   ]
+  },
+  "RN5": {
+   "place": "rajasthan/ranthambore",
+   "topic": "Lakes and ruins",
+   "claim": "Inside the park are Ranthambore Fort, Jogi Mahal, old temples, the Rajbagh ruins and the Padam, Malik and Raj Bagh lakes; the Chambal and Banas border it.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "II_RTB",
+     "quote": "including the impressive Ranthambore Fort, the Jogi Mahal, ancient temples, and the hauntingly beautiful Rajbagh ruins"
+    },
+    {
+     "source": "II_RTB",
+     "quote": "such as Padam Talao, Malik Talao, and Raj Bagh Talao"
+    },
+    {
+     "source": "II_RTB",
+     "quote": "The serene Chambal and Banas Rivers border the park"
+    }
+   ]
+  },
+  "RN6": {
+   "place": "rajasthan/ranthambore",
+   "topic": "Fort history",
+   "claim": "Ranthambore Fort was founded in the 10th century under the Chauhan king Sapaldaksha and became a UNESCO site in 2013 among the Hill Forts of Rajasthan; seven gates run from Ganesh Pol to Andheri Pol.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "II_RTBF",
+     "quote": "It is a fortress born in the 10th century, under the watchful eyes of the Chauhan Dynasty's King Sapaldaksha."
+    },
+    {
+     "source": "II_RTBF",
+     "quote": "fast forward to 2013 – the global spotlight shone on this majestic fort as it earned its place as a UNESCO World Heritage Site, joining the illustrious Hill Forts of Rajasthan"
+    },
+    {
+     "source": "II_RTBF",
+     "quote": "seven in total, each with its own quirky character - you’ll feel"
+    },
+    {
+     "source": "II_RTBF",
+     "quote": "From Ganesh Pol to Andheri Pol"
+    }
+   ]
+  },
+  "RN7": {
+   "place": "rajasthan/ranthambore",
+   "topic": "Trinetra Ganesh",
+   "claim": "The Trinetra Ganesh temple in the fort is busiest on Wednesdays; the postman delivers letters, mostly wedding invitations, addressed to Ganesha.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "II_RTBF",
+     "quote": "The atmosphere is especially lively on Wednesdays, a day dedicated to Lord Ganesh"
+    },
+    {
+     "source": "II_RTBF",
+     "quote": "the local postman who delivers daily mail addressed to Lord Ganesha - most of which are heartfelt wedding invitations"
+    }
+   ]
+  },
+  "RN8": {
+   "place": "rajasthan/ranthambore",
+   "topic": "Tigers",
+   "claim": "There were 69 tigers in the park as of 2022.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "W_RTB",
+     "quote": "As of 2022, there were 69 tigers in the national park."
+    }
+   ]
+  },
+  "RN9": {
+   "place": "rajasthan/ranthambore",
+   "topic": "Fort birds",
+   "claim": "The fort is good for birdwatching, with langurs and, near water, sometimes the fishing cat.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "II_RTBF",
+     "quote": "It’s also a fantastic spot for bird watching"
+    },
+    {
+     "source": "II_RTBF",
+     "quote": "the elusive fishing cat lurking near the water"
+    }
+   ]
+  },
+  "RN10": {
+   "place": "rajasthan/ranthambore",
+   "topic": "Dhonk",
+   "claim": "The dhonk is Ranthambore's characteristic tree, brown in summer and green after the first rain.",
+   "claimType": "general",
+   "kind": "verified",
+   "evidence": [
+    {
+     "source": "W_RTB",
+     "quote": "The characteristic tree of Ranthambore National Park is the dhonk"
+    },
+    {
+     "source": "W_RTB",
+     "quote": "which is dry and brown in the summers but even few drops of rain turn the trees green"
+    }
+   ]
+  }
+ },
+ "places": [
+  {
+   "key": "rajasthan/ranthambore",
+   "kind": "region",
+   "name": "Ranthambore",
+   "summary": "A 392 sq km national park between the Aravallis and Vindhyas, famous for its tigers and the ruined fort inside it.",
+   "seoTitle": "Ranthambore National Park: Tigers, Safaris & Fort",
+   "seoDescription": "Plan a Ranthambore trip: the national park near Sawai Madhopur, tiger safaris and online booking, Ranthambore Fort and how to get there.",
+   "lat": 26.0173,
+   "lng": 76.5026,
+   "tripTypes": [
+    "wildlife",
+    "adventure",
+    "family"
+   ],
+   "images": [
+    {
+     "commons": "File:080 Bengal tiger in Ranthambore National Park Photo by Giles Laurent.jpg",
+     "alt": "A Bengal tiger walking through dry forest in Ranthambore",
+     "caption": "Tiger in Ranthambore",
+     "hero": true
+    }
+   ],
+   "wikidataId": "Q1466242",
+   "sections": {
+    "overview": {
+     "text": "Ranthambore National Park, 14 km from Sawai Madhopur, was once the private game reserve of the royal house of Jaipur. Its 392 sq km park, part of a 1,334 sq km tiger reserve between the Aravallis and Vindhyas, is dry dhonk forest broken by lakes such as Padam Talao, old pavilions like Jogi Mahal and the Rajbagh ruins; there were 69 tigers as of 2022, and the tigress Machli made it famous worldwide.\n\nSafaris run morning and afternoon in jeeps and canters, booked on the Rajasthan wildlife website, and the park is open from 1 October to 30 June. Above the forest rises 10th-century Ranthambore Fort, part of the UNESCO-listed Hill Forts of Rajasthan, with the Trinetra Ganesh temple inside. Jaipur airport is about 150–170 km away; trains stop at Sawai Madhopur.",
+     "facts": [
+      "BRB1",
+      "RN1",
+      "RN3",
+      "RN10",
+      "RN5",
+      "RN8",
+      "RN4",
+      "BRB2",
+      "BRTB_TIME",
+      "BRTB_SEAS",
+      "RN6",
+      "BRBF2",
+      "BRB3"
+     ]
+    },
+    "who_its_for": {
+     "items": [
+      {
+       "title": "Wildlife lovers",
+       "body": "Tigers, leopards and sloth bears on morning and afternoon safaris."
+      },
+      {
+       "title": "History lovers",
+       "body": "The 10th-century fort, a UNESCO World Heritage Site."
+      },
+      {
+       "title": "Birders",
+       "body": "The fort and lakes for birds."
+      },
+      {
+       "title": "Pilgrims",
+       "body": "The Trinetra Ganesh temple, busiest on Wednesdays."
+      }
+     ],
+     "facts": [
+      "RN2",
+      "BRTB_TIME",
+      "RN6",
+      "RN9",
+      "RN7"
+     ]
+    },
+    "practical_info": {
+     "items": [
+      {
+       "title": "Season",
+       "body": "The park is open 1 October – 30 June; core zones close July–September.",
+       "status": "seasonal"
+      },
+      {
+       "title": "Safari times",
+       "body": "Morning and afternoon safaris; December–January slots run 7–10:30 am and 2–5:30 pm.",
+       "status": "verified"
+      },
+      {
+       "title": "Booking",
+       "body": "Book on the Rajasthan wildlife website; Tatkal seats for the next seven days open daily at 11 am.",
+       "status": "verified"
+      },
+      {
+       "title": "Getting there",
+       "body": "Sawai Madhopur has regular trains; Jaipur airport is 150–170 km away.",
+       "status": "verified"
+      }
+     ],
+     "facts": [
+      "BRTB_SEAS",
+      "BRTB_TIME",
+      "BRB2",
+      "BRTB_TATK",
+      "BRB3"
+     ]
+    },
+    "highlights": {
+     "items": [
+      {
+       "body": "Tiger safari: 69 tigers as of 2022."
+      },
+      {
+       "body": "Ranthambore Fort: seven gates from Ganesh Pol to Andheri Pol, and the Trinetra Ganesh temple."
+      },
+      {
+       "body": "Padam Talao, Malik Talao and Raj Bagh Talao, with Jogi Mahal and the Rajbagh ruins."
+      }
+     ],
+     "facts": [
+      "RN8",
+      "RN6",
+      "BRBF1",
+      "RN7",
+      "RN5"
+     ]
+    },
+    "faqs": {
+     "items": [
+      {
+       "title": "When is Ranthambore open?",
+       "body": "1 October to 30 June; core zones close for the monsoon."
+      },
+      {
+       "title": "How do I book a safari?",
+       "body": "On the Rajasthan wildlife website; Tatkal seats open daily at 11 am."
+      },
+      {
+       "title": "How do I get there?",
+       "body": "14 km from Sawai Madhopur; Jaipur airport is 150–170 km."
+      },
+      {
+       "title": "Is the fort a UNESCO site?",
+       "body": "Yes — it was listed in 2013 with the Hill Forts of Rajasthan."
+      }
+     ],
+     "facts": [
+      "BRTB_SEAS",
+      "BRB2",
+      "BRTB_TATK",
+      "BRB1",
+      "BRB3",
+      "RN6"
+     ]
+    },
+    "common_mistakes": {
+     "items": [
+      {
+       "body": "Planning a July–September trip, when the core zones are closed."
+      },
+      {
+       "body": "Leaving safari booking to the last minute."
+      },
+      {
+       "body": "Skipping the fort, which sits inside the park."
+      }
+     ],
+     "facts": [
+      "BRTB_SEAS",
+      "BRB2",
+      "BRTB_TATK",
+      "RN6"
+     ]
+    }
+   }
+  }
+ ],
+ "itineraries": []
+}
