@@ -248,6 +248,41 @@
       "url": "https://en.wikipedia.org/wiki/112_(emergency_telephone_number)",
       "title": "112 (emergency telephone number) — Wikipedia",
       "authority": "reference"
+    },
+    "II_DMP2": {
+      "url": "https://www.incredibleindia.gov.in/en/nagaland/dimapur",
+      "title": "Dimapur — Incredible India",
+      "authority": "government"
+    },
+    "II_DMF": {
+      "url": "https://www.incredibleindia.gov.in/en/nagaland/dimapur/dimapur-nagaland-travel-and-food-guide",
+      "title": "Dimapur travel and food guide — Incredible India",
+      "authority": "government"
+    },
+    "II_KSH": {
+      "url": "https://www.incredibleindia.gov.in/en/nagaland/kohima/discover-a-shoppers-paradise-in-kohima",
+      "title": "Shopping in Kohima — Incredible India",
+      "authority": "government"
+    },
+    "II_KOH2": {
+      "url": "https://www.incredibleindia.gov.in/en/nagaland/kohima",
+      "title": "Kohima — Incredible India",
+      "authority": "government"
+    },
+    "II_MOK2": {
+      "url": "https://www.incredibleindia.gov.in/en/nagaland/mokokchung",
+      "title": "Mokokchung — Incredible India",
+      "authority": "government"
+    },
+    "II_MOF": {
+      "url": "https://www.incredibleindia.gov.in/en/nagaland/mokokchung/a-delicious-journey-of-culinary-delights-in-mokokchung",
+      "title": "Food in Mokokchung — Incredible India",
+      "authority": "government"
+    },
+    "II_NFD": {
+      "url": "https://www.incredibleindia.gov.in/en/nagaland/kohima/food-guide-traditional-naga-dishes",
+      "title": "Traditional Naga dishes — Incredible India",
+      "authority": "government"
     }
   },
   "facts": {
@@ -1962,6 +1997,174 @@
           "quote": "The UPI One World wallet can be availed through authorized PPI issuers at airports, hotels, designated money exchange locations and other touchpoints, following a full KYC process based on a passport and valid visa."
         }
       ]
+    },
+    "N2D1": {
+      "place": "nagaland/dimapur",
+      "topic": "N2D1",
+      "claim": "Dimapur's markets sell woven shawls, bamboo products and tribal jewellery; Hong Kong Market mixes Naga garments and crafts with everyday goods; Ruzaphema Bazaar, 5 km out on the Kohima road, has tribal handicrafts.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_DMP2",
+          "quote": "find intricately woven shawls, bamboo products, tribal jewellery"
+        },
+        {
+          "source": "II_DMP2",
+          "quote": "the Hong Kong Market, a melting pot of local and imported goods"
+        },
+        {
+          "source": "II_DMP2",
+          "quote": "About 5 kms from the city centre, on the road to Kohima, is the Ruzaphema Bazaar"
+        }
+      ]
+    },
+    "N2D2": {
+      "place": "nagaland/dimapur",
+      "topic": "N2D2",
+      "claim": "Local markets sell bamboo-shoot and meat pickles; smoked meat and pungent chutneys are household staples, and momos are everywhere.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_DMF",
+          "quote": "featuring bamboo shoot and meat pickles"
+        },
+        {
+          "source": "II_DMF",
+          "quote": "where smoked meat and pungent chutneys are staples"
+        },
+        {
+          "source": "II_DMF",
+          "quote": "don't miss trying momos"
+        }
+      ]
+    },
+    "N2D3": {
+      "place": "nagaland/dimapur",
+      "topic": "N2D3",
+      "claim": "Most visitors pass through Dimapur on the way to Kohima, 75 km away; Chumukedima, 14 km into the hills, was the first headquarters of the Naga Hills district; Dzuleke, two hours away, is good for camping.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_DMF",
+          "quote": "just 75 kilometers away"
+        },
+        {
+          "source": "II_DMF",
+          "quote": "Situated 14 kilometers into the hills, Chumukedima Village"
+        },
+        {
+          "source": "II_DMF",
+          "quote": "Dzuleke , approximately a two-hour drive from Dimapur, offers an excellent camping experience"
+        }
+      ]
+    },
+    "N2K1": {
+      "place": "nagaland/kohima",
+      "topic": "N2K1",
+      "claim": "New Market is one of Kohima's oldest, for fruit, vegetables and spices; the Old Market and Tribal Market sell shawls, bags, bamboo baskets and Naga handicrafts.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_KSH",
+          "quote": "New Market is one of Kohima's oldest markets"
+        },
+        {
+          "source": "II_KSH",
+          "quote": "Journey back through time at the Old Market, where traditional Naga handicrafts meet fashion."
+        },
+        {
+          "source": "II_KSH",
+          "quote": "Tribal Market, an unmissable stop for traditional Naga handicrafts"
+        }
+      ]
+    },
+    "N2K2": {
+      "place": "nagaland/kohima",
+      "topic": "N2K2",
+      "claim": "Japfu Peak, Nagaland's second highest, rises near Kohima; Intanki Wildlife Sanctuary covers over 200 sq km.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_KOH2",
+          "quote": "The mighty Japfu Peak, the second-highest in Nagaland"
+        },
+        {
+          "source": "II_KOH2",
+          "quote": "The Intanki Wildlife Sanctuary, sprawling majestically over 200 square kilometres"
+        }
+      ]
+    },
+    "N2H1": {
+      "place": "nagaland/khonoma",
+      "topic": "N2H1",
+      "claim": "Khonoma is about 700 years old and spreads over 123 sq km; its forests hold over 250 plant species, 70 of them medicinal.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_KHO",
+          "quote": "This 700-year-old village"
+        },
+        {
+          "source": "II_KHO",
+          "quote": "spread over an area of 123 sq.km"
+        },
+        {
+          "source": "II_KHO",
+          "quote": "It boasts more than 250 plant species, 70 of which hold medicinal properties."
+        }
+      ]
+    },
+    "N2M1": {
+      "place": "nagaland/mokokchung",
+      "topic": "N2M1",
+      "claim": "Must-try dishes include bamboo-steamed fish, axone, smoked pork with bamboo shoot, tenga patta and anishi; zutho is the local rice beer.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_MOK2",
+          "quote": "Some of the must-try dishes include bamboo steamed fish, axone (fermented soybean), smoked pork with bamboo shoot, tenga patta and anishi."
+        },
+        {
+          "source": "II_MOF",
+          "quote": "Zutho is a fermented rice beer"
+        }
+      ]
+    },
+    "N2M2": {
+      "place": "nagaland/mokokchung",
+      "topic": "N2M2",
+      "claim": "Ao artisans make shawls, sling bags, headgear and mekhala, and work in cane and bamboo.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_MOK2",
+          "quote": "Their shawls, sling bags, headgear, and wraparound garments (mekhala) are true works of art"
+        }
+      ]
+    },
+    "N2S1": {
+      "place": "nagaland",
+      "topic": "N2S1",
+      "claim": "Naga cuisine reflects 15-plus tribes; dishes include smoked pork in axone, bamboo-steamed fish and galho, a soupy rice dish.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_NFD",
+          "quote": "its 15 plus indigenous tribes"
+        },
+        {
+          "source": "II_NFD",
+          "quote": "Smoked pork in Akhuni"
+        },
+        {
+          "source": "II_NFD",
+          "quote": "The fish is stuffed inside a bamboo tube with a selection of spices and then smoked over an open flame."
+        },
+        {
+          "source": "II_NFD",
+          "quote": "Galho, akin to Khichdi in other regions, is a flavorful, soupy concoction"
+        }
+      ]
     }
   },
   "places": [
@@ -2152,6 +2355,32 @@
             "NL_AIR",
             "NL_112"
           ]
+        },
+        "things_to_do": {
+          "items": [
+            {
+              "body": "See the Hornbill Festival at Kisama, 1–10 December."
+            },
+            {
+              "body": "Walk the Kohima War Cemetery."
+            },
+            {
+              "body": "Trek into Dzükou Valley."
+            },
+            {
+              "body": "Stay in Khonoma, the 'First Green Village of India'."
+            },
+            {
+              "body": "Try smoked pork in axone, bamboo-steamed fish and galho."
+            }
+          ],
+          "facts": [
+            "NL1",
+            "KWC1",
+            "DZ1",
+            "KHO1",
+            "N2S1"
+          ]
         }
       },
       "wikidataId": "Q1599",
@@ -2307,6 +2536,44 @@
             "NL_PAP",
             "NL_AIR",
             "NL_112"
+          ]
+        },
+        "shopping": {
+          "items": [
+            {
+              "body": "New Market for fruit, vegetables and local spices."
+            },
+            {
+              "body": "Old Market for Naga handicrafts and handloom."
+            },
+            {
+              "body": "Tribal Market for shawls and bamboo baskets."
+            }
+          ],
+          "facts": [
+            "N2K1"
+          ]
+        },
+        "who_its_for": {
+          "items": [
+            {
+              "title": "History lovers",
+              "body": "The War Cemetery and the 1944 battle."
+            },
+            {
+              "title": "Festival goers",
+              "body": "The Hornbill Festival at Kisama, 1–10 December."
+            },
+            {
+              "title": "Hikers",
+              "body": "Japfu Peak, Nagaland's second highest, and Dzükou Valley."
+            }
+          ],
+          "facts": [
+            "KWC1",
+            "NL1",
+            "N2K2",
+            "DZ1"
           ]
         }
       },
@@ -2646,6 +2913,23 @@
             "KHO1",
             "KHO2"
           ]
+        },
+        "who_its_for": {
+          "items": [
+            {
+              "title": "Nature lovers",
+              "body": "More than 250 plant species and the tragopan sanctuary."
+            },
+            {
+              "title": "History lovers",
+              "body": "A 700-year-old Angami village that resisted British rule for 50 years."
+            }
+          ],
+          "facts": [
+            "N2H1",
+            "KHO2",
+            "KHO1"
+          ]
         }
       },
       "wikidataId": "Q17347092",
@@ -2866,6 +3150,60 @@
           "facts": [
             "NL_AIR",
             "DIM1"
+          ]
+        },
+        "shopping": {
+          "items": [
+            {
+              "body": "Woven shawls, bamboo products and tribal jewellery in the city markets."
+            },
+            {
+              "body": "Hong Kong Market for Naga garments, crafts and everyday goods."
+            },
+            {
+              "body": "Ruzaphema Bazaar, 5 km out on the Kohima road, for tribal handicrafts."
+            }
+          ],
+          "facts": [
+            "N2D1"
+          ]
+        },
+        "food": {
+          "items": [
+            {
+              "body": "Bamboo-shoot and meat pickles from the local market."
+            },
+            {
+              "body": "Smoked meat with pungent chutneys."
+            },
+            {
+              "body": "Momos."
+            }
+          ],
+          "facts": [
+            "N2D2"
+          ]
+        },
+        "who_its_for": {
+          "items": [
+            {
+              "title": "History lovers",
+              "body": "The Kachari Rajbari's carved pillars."
+            },
+            {
+              "title": "Day-trippers",
+              "body": "Chumukedima's waterfalls, Triple Falls and Dzuleke for camping."
+            },
+            {
+              "title": "Shoppers",
+              "body": "Shawls, bamboo craft and the Hong Kong Market."
+            }
+          ],
+          "facts": [
+            "KAC1",
+            "N2D3",
+            "DIM3",
+            "N2D1"
           ]
         }
       },
@@ -3093,6 +3431,54 @@
           "text": "Mokokchung is about 145 km from Kohima by road.",
           "facts": [
             "MOK1"
+          ]
+        },
+        "food": {
+          "items": [
+            {
+              "body": "Bamboo-steamed fish."
+            },
+            {
+              "body": "Smoked pork with bamboo shoot, and axone dishes."
+            },
+            {
+              "body": "Tenga patta and anishi."
+            },
+            {
+              "body": "Zutho, the local rice beer."
+            }
+          ],
+          "facts": [
+            "N2M1"
+          ]
+        },
+        "shopping": {
+          "items": [
+            {
+              "body": "Ao shawls, sling bags, headgear and mekhala."
+            },
+            {
+              "body": "Cane and bamboo work."
+            }
+          ],
+          "facts": [
+            "N2M2"
+          ]
+        },
+        "who_its_for": {
+          "items": [
+            {
+              "title": "Culture seekers",
+              "body": "The Ao heartland and Ungma, the district's oldest village."
+            },
+            {
+              "title": "Festival goers",
+              "body": "Moatsu in early May."
+            }
+          ],
+          "facts": [
+            "MOK1",
+            "MOK2"
           ]
         }
       },
