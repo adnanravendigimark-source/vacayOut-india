@@ -1088,6 +1088,58 @@
         }
       ],
       "kind": "estimate"
+    },
+    "K2C1": {
+      "place": "karnataka/coorg",
+      "topic": "K2C1",
+      "claim": "Plantation walks, sunrise at Mandalpatti, the Tadiandamol trek and safaris in Nagarhole are Coorg's signature experiences.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_COORG",
+          "quote": "Guided plantation walks offer visitors an opportunity to learn about coffee cultivation"
+        },
+        {
+          "source": "II_COORG",
+          "quote": "Watching the sunrise from Mandalpatti Viewpoint is among the region's most cherished experiences."
+        },
+        {
+          "source": "II_COORG",
+          "quote": "Tadiandamol , the highest mountain in Coorg"
+        }
+      ]
+    },
+    "K2C2": {
+      "place": "karnataka/coorg",
+      "topic": "K2C2",
+      "claim": "Pushpagiri and Brahmagiri wildlife sanctuaries draw trekkers and birdwatchers.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_COORG",
+          "quote": "The pristine landscapes of Pushpagiri Wildlife Sanctuary and Brahmagiri Wildlife Sanctuary attract trekkers, birdwatchers"
+        }
+      ]
+    },
+    "K2C3": {
+      "place": "karnataka/coorg",
+      "topic": "K2C3",
+      "claim": "Kannur airport is about 90 km away; the nearest major stations are Mysuru, Mangaluru and Hassan; best October–March.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_COORG",
+          "quote": "The nearest airport is Kannur International Airport (CNN) , located approximately 90 km away."
+        },
+        {
+          "source": "II_COORG",
+          "quote": "The nearest major railway stations are Mysuru , Mangaluru , and Hassan"
+        },
+        {
+          "source": "II_COORG",
+          "quote": "The ideal time to visit Coorg is from October to March"
+        }
+      ]
     }
   },
   "places": [
@@ -1273,6 +1325,48 @@
             "BCGA1",
             "CO12",
             "CO16"
+          ]
+        },
+        "things_to_do": {
+          "items": [
+            {
+              "body": "Take a guided coffee plantation walk."
+            },
+            {
+              "body": "Watch the sunrise from Mandalpatti."
+            },
+            {
+              "body": "Trek Tadiandamol, Coorg's highest mountain."
+            },
+            {
+              "body": "Look for birds in Pushpagiri and Brahmagiri sanctuaries."
+            }
+          ],
+          "facts": [
+            "K2C1",
+            "K2C2"
+          ]
+        },
+        "key_facts": {
+          "items": [
+            {
+              "title": "Nearest airport",
+              "body": "Kannur, about 90 km",
+              "status": "verified"
+            },
+            {
+              "title": "Rail",
+              "body": "Mysuru, Mangaluru, Hassan",
+              "status": "verified"
+            },
+            {
+              "title": "Best time",
+              "body": "October–March",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "K2C3"
           ]
         }
       }

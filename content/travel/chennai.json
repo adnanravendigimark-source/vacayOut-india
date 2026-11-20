@@ -123,6 +123,16 @@
       "url": "https://www.incredibleindia.gov.in/en/puducherry/puducherry/chunnambar-boat-house",
       "title": "Chunnambar Boat House — Incredible India (Ministry of Tourism, Government of India)",
       "authority": "government"
+    },
+    "TT_CHE3": {
+      "url": "https://www.tamilnadutourism.tn.gov.in/destinations/chennai",
+      "title": "Chennai — Tamil Nadu Tourism (Government of Tamil Nadu)",
+      "authority": "government"
+    },
+    "TT_MAM3": {
+      "url": "https://www.tamilnadutourism.tn.gov.in/destinations/mahabalipuram",
+      "title": "Mahabalipuram — Tamil Nadu Tourism (Government of Tamil Nadu)",
+      "authority": "government"
     }
   },
   "facts": {
@@ -906,6 +916,130 @@
           "quote": "Boating is the most popular choice, with options ranging from paddle boats to motor boats"
         }
       ]
+    },
+    "T4C1": {
+      "place": "tamil-nadu/chennai",
+      "topic": "T4C1",
+      "claim": "Chennai airport at Meenambakkam is India's fourth-busiest; the city has four main rail terminals — Chennai Central, Egmore, Beach and Tambaram.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "TT_CHE3",
+          "quote": "The Chennai International Airport, Meenambakkam - the fourth-busiest in India"
+        },
+        {
+          "source": "TT_CHE3",
+          "quote": "Chennai has four main railway terminals"
+        }
+      ]
+    },
+    "T4C2": {
+      "place": "tamil-nadu/chennai",
+      "topic": "T4C2",
+      "claim": "Getting around: the suburban railway runs Beach–Chengalpet, Central–Arakkonam and Central–Gummidipoondi, and the Chennai Metro is India's fourth-longest.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "TT_CHE3",
+          "quote": "Chennai Suburban Railway network spans from Beach to Chengalpet, Chennai Central to Arakkonam and Chennai Central –Gummidipoondi."
+        },
+        {
+          "source": "TT_CHE3",
+          "quote": "The Chennai Metro is the fourth longest metro system in India"
+        }
+      ]
+    },
+    "T4C3": {
+      "place": "tamil-nadu/chennai",
+      "topic": "T4C3",
+      "claim": "Long-distance buses leave from CMBT at Koyambedu, one of Asia's largest bus stations, and the Madhavaram terminus.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "TT_CHE3",
+          "quote": "Chennai Mofussil Bus Terminal (CMBT) at Koyambedu is one of Asia's largest bus stations."
+        },
+        {
+          "source": "TT_CHE3",
+          "quote": "Madhavaram Mofussil Bus Terminus (MMBT) is a satellite bus terminal of Chennai"
+        }
+      ]
+    },
+    "T4C4": {
+      "place": "tamil-nadu/chennai",
+      "topic": "T4C4",
+      "claim": "November to February is the most pleasant time; summers are hot and humid.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "TT_CHE3",
+          "quote": "the ideal time for a leisure experience would be in the winter season - November to February"
+        }
+      ]
+    },
+    "T4M1": {
+      "place": "tamil-nadu/mamallapuram",
+      "topic": "T4M1",
+      "claim": "Mamallapuram flourished under the Pallavas between the 4th and 9th centuries; its monuments are a UNESCO World Heritage Site.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "TT_MAM3",
+          "quote": "Mahabalipuram rose in stature and importance during the period between 4th and 9th century when the Pallava dynasty ruled the land"
+        },
+        {
+          "source": "TT_MAM3",
+          "quote": "have made Mahabalipuram a UNESCO World Heritage Site"
+        }
+      ]
+    },
+    "T4M2": {
+      "place": "tamil-nadu/mamallapuram",
+      "topic": "T4M2",
+      "claim": "Chennai airport is about 55 km away; Chengalpet station 23 km and Chennai 57 km; frequent buses run from Chennai and Puducherry. Best November to February.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "TT_MAM3",
+          "quote": "Chennai International Airport, Meenambakkam, about 55 km away."
+        },
+        {
+          "source": "TT_MAM3",
+          "quote": "Chengalpet Railway Station, about 23 km away, is the nearest one."
+        },
+        {
+          "source": "TT_MAM3",
+          "quote": "Frequent bus services available from Chennai, Pondicherry, Madurai and Coimbatore to Mahabalipuram every day."
+        },
+        {
+          "source": "TT_MAM3",
+          "quote": "November to February, as the weather is pleasant during this period."
+        }
+      ]
+    },
+    "T4M3": {
+      "place": "tamil-nadu/mamallapuram",
+      "topic": "T4M3",
+      "claim": "Besides the Shore Temple, Arjuna's Penance, Krishna's Butterball and Pancha Rathas, there are the Seashell Museum, the Sculpture Museum, the Mahishasuramardini and Tiger cave temples and the beach.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "TT_MAM3",
+          "quote": "Mamallapuram Seashell Museum"
+        },
+        {
+          "source": "TT_MAM3",
+          "quote": "Mahishasuramardini Cave Temple Read More Tiger Cave Temple"
+        },
+        {
+          "source": "TT_MAM3",
+          "quote": "Sculpture Museum, Mamallapuram"
+        },
+        {
+          "source": "TT_MAM3",
+          "quote": "Mahabalipuram Beach It’s a shore"
+        }
+      ]
     }
   },
   "places": [
@@ -1050,6 +1184,42 @@
           "facts": [
             "CH3",
             "FS4"
+          ]
+        },
+        "key_facts": {
+          "items": [
+            {
+              "title": "Airport",
+              "body": "Meenambakkam — India's fourth-busiest",
+              "status": "verified"
+            },
+            {
+              "title": "Main stations",
+              "body": "Central, Egmore, Beach, Tambaram",
+              "status": "verified"
+            },
+            {
+              "title": "Long-distance buses",
+              "body": "CMBT, Koyambedu",
+              "status": "verified"
+            },
+            {
+              "title": "Best time",
+              "body": "November–February",
+              "status": "seasonal"
+            }
+          ],
+          "facts": [
+            "T4C1",
+            "T4C3",
+            "T4C4"
+          ]
+        },
+        "local_transport": {
+          "text": "The suburban railway runs from Beach to Chengalpet, from Chennai Central to Arakkonam and from Central to Gummidipoondi, and the Chennai Metro is the fourth-longest in India. Out-of-town buses leave from CMBT at Koyambedu, one of Asia's largest bus stations, and the Madhavaram terminus (MMBT).",
+          "facts": [
+            "T4C2",
+            "T4C3"
           ]
         }
       },
@@ -1249,6 +1419,63 @@
             }
           ],
           "facts": []
+        },
+        "how_to_reach": {
+          "text": "Chennai airport is about 55 km away. The nearest station is Chengalpet, about 23 km; Chennai, 57 km away, is the closest major railhead. Frequent buses run every day from Chennai, Puducherry, Madurai and Coimbatore.",
+          "facts": [
+            "T4M2"
+          ]
+        },
+        "key_facts": {
+          "items": [
+            {
+              "title": "UNESCO",
+              "body": "World Heritage Site",
+              "status": "verified"
+            },
+            {
+              "title": "Built by",
+              "body": "The Pallavas, 4th–9th centuries",
+              "status": "verified"
+            },
+            {
+              "title": "From Chennai airport",
+              "body": "About 55 km",
+              "status": "verified"
+            },
+            {
+              "title": "Best time",
+              "body": "November–February",
+              "status": "seasonal"
+            }
+          ],
+          "facts": [
+            "T4M1",
+            "T4M2"
+          ]
+        },
+        "things_to_do": {
+          "items": [
+            {
+              "body": "See the Shore Temple, Arjuna's Penance and the Pancha Rathas."
+            },
+            {
+              "body": "Find Krishna's Butterball."
+            },
+            {
+              "body": "Visit the Mahishasuramardini and Tiger cave temples."
+            },
+            {
+              "body": "Browse the Seashell Museum and the Sculpture Museum."
+            },
+            {
+              "body": "End the day on Mahabalipuram beach."
+            }
+          ],
+          "facts": [
+            "T4M3",
+            "T4M1"
+          ]
         }
       },
       "wikidataId": "Q208000",

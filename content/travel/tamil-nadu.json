@@ -208,6 +208,21 @@
       "url": "https://en.wikipedia.org/wiki/Pamban_Bridge",
       "title": "Pamban Bridge — Wikipedia",
       "authority": "reference"
+    },
+    "TT_KPM3": {
+      "url": "https://www.tamilnadutourism.tn.gov.in/destinations/kancheepuram",
+      "title": "Kancheepuram — Tamil Nadu Tourism (Government of Tamil Nadu)",
+      "authority": "government"
+    },
+    "TT_KKM3": {
+      "url": "https://www.tamilnadutourism.tn.gov.in/destinations/kanyakumari",
+      "title": "Kanniyakumari — Tamil Nadu Tourism (Government of Tamil Nadu)",
+      "authority": "government"
+    },
+    "TT_RMM3": {
+      "url": "https://www.tamilnadutourism.tn.gov.in/destinations/rameswaram",
+      "title": "Rameswaram — Tamil Nadu Tourism (Government of Tamil Nadu)",
+      "authority": "government"
     }
   },
   "facts": {
@@ -1783,6 +1798,98 @@
           "quote": "The central part of the Memorial is a pink portico which is 79 ft tall and symbolizes Gandhi’s age at the time of his passing."
         }
       ]
+    },
+    "T4K1": {
+      "place": "tamil-nadu/kanchipuram",
+      "topic": "T4K1",
+      "claim": "Kanchipuram is world-famous for its silk sarees and is called the 'Golden City of a Thousand Temples'.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "TT_KPM3",
+          "quote": "the world-famous Kancheepuram Sarees that have been adorning South Indian brides for decades"
+        },
+        {
+          "source": "TT_KPM3",
+          "quote": "its epithet as the ‘Golden City Of A Thousand Temples’"
+        }
+      ]
+    },
+    "T4K2": {
+      "place": "tamil-nadu/kanchipuram",
+      "topic": "T4K2",
+      "claim": "Chennai airport is about 62 km away and Chennai Central 75 km; October to February is best, with heavy rain in July and August.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "TT_KPM3",
+          "quote": "Chennai International Airport, Meenambakkam, is about 62 km away."
+        },
+        {
+          "source": "TT_KPM3",
+          "quote": "is about 75 km away. October to February is the best time to visit Kancheepuram."
+        },
+        {
+          "source": "TT_KPM3",
+          "quote": "Usually, during July and August, it experiences heavy rainfall."
+        }
+      ]
+    },
+    "T4N1": {
+      "place": "tamil-nadu/kanyakumari",
+      "topic": "T4N1",
+      "claim": "On full-moon days Kanyakumari is the only place in India to watch sunset and moonrise at once — most spectacularly on Chithra Pournami.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "TT_KKM3",
+          "quote": "Kanniyakumari is the only spot in India from where you can watch the spectacle of the sunset and the moonrise happening simultaneously on Full Moon days."
+        },
+        {
+          "source": "TT_KKM3",
+          "quote": "It’s even grander during the day of ‘Chithra Pournami’"
+        }
+      ]
+    },
+    "T4N2": {
+      "place": "tamil-nadu/kanyakumari",
+      "topic": "T4N2",
+      "claim": "Nearby are Vattakottai Fort, Sothavilai and Sanguthurai beaches and the Mathoor aqueduct and hanging bridge.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "TT_KKM3",
+          "quote": "Vattakottai Fort An enduring symbol of a dynasty"
+        },
+        {
+          "source": "TT_KKM3",
+          "quote": "Sothavilai Beach Take a stroll"
+        },
+        {
+          "source": "TT_KKM3",
+          "quote": "Mathoor Aqueduct & Hanging Bridge"
+        }
+      ]
+    },
+    "T4R1": {
+      "place": "tamil-nadu/rameswaram",
+      "topic": "T4R1",
+      "claim": "Rameswaram's sights include the Ramanathaswamy Temple, one of the twelve jyotirlingas, Pamban Bridge, Dhanushkodi, the Abdul Kalam memorial and Villoondi Theertham; scuba diving is also offered.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "TT_RMM3",
+          "quote": "is one of the twelve jyotirlinga temples in India"
+        },
+        {
+          "source": "TT_RMM3",
+          "quote": "Villoondi Theertham is one of those eye-catching beaches in Rameswaram"
+        },
+        {
+          "source": "TT_RMM3",
+          "quote": "Adventure sports like scuba diving are among the amusements offered in the region."
+        }
+      ]
     }
   },
   "places": [
@@ -2790,6 +2897,44 @@
           "facts": [
             "KP3",
             "KPE2"
+          ]
+        },
+        "key_facts": {
+          "items": [
+            {
+              "title": "Known as",
+              "body": "Golden City of a Thousand Temples",
+              "status": "verified"
+            },
+            {
+              "title": "From Chennai airport",
+              "body": "About 62 km",
+              "status": "verified"
+            },
+            {
+              "title": "Best time",
+              "body": "October–February",
+              "status": "seasonal"
+            },
+            {
+              "title": "Heavy rain",
+              "body": "July–August",
+              "status": "seasonal"
+            }
+          ],
+          "facts": [
+            "T4K1",
+            "T4K2"
+          ]
+        },
+        "shopping": {
+          "items": [
+            {
+              "body": "Kanchipuram silk sarees, worn by South Indian brides for decades."
+            }
+          ],
+          "facts": [
+            "T4K1"
           ]
         }
       },
@@ -4415,6 +4560,31 @@
             "RM2",
             "RM3"
           ]
+        },
+        "things_to_do": {
+          "items": [
+            {
+              "body": "Walk the corridors of the Ramanathaswamy Temple."
+            },
+            {
+              "body": "Cross the Pamban Bridge."
+            },
+            {
+              "body": "Drive out to Dhanushkodi."
+            },
+            {
+              "body": "Visit the Dr A P J Abdul Kalam memorial."
+            },
+            {
+              "body": "See Villoondi Theertham on the shore."
+            },
+            {
+              "body": "Try scuba diving."
+            }
+          ],
+          "facts": [
+            "T4R1"
+          ]
         }
       },
       "wikidataId": "Q1435144",
@@ -4794,6 +4964,31 @@
             "KK3",
             "KK4",
             "KKT2"
+          ]
+        },
+        "things_to_do": {
+          "items": [
+            {
+              "body": "Watch sunset and moonrise together on a full-moon evening."
+            },
+            {
+              "body": "See the Vivekananda Rock Memorial and Thiruvalluvar Statue offshore."
+            },
+            {
+              "body": "Visit Vattakottai Fort."
+            },
+            {
+              "body": "Relax on Sothavilai or Sanguthurai beach."
+            },
+            {
+              "body": "Walk the Mathoor hanging bridge."
+            }
+          ],
+          "facts": [
+            "T4N1",
+            "T4N2",
+            "KKV1",
+            "KKT1"
           ]
         }
       },

@@ -263,6 +263,31 @@
       "url": "https://www.explorewithecokats.com/heritage-monuments-badami-aihole-pattadakal/",
       "title": "Badami, Aihole and Pattadakal — Explore with Ecokats",
       "authority": "travel_platform"
+    },
+    "II_BLR2": {
+      "url": "https://www.incredibleindia.gov.in/en/karnataka/bengaluru",
+      "title": "Bengaluru — Incredible India",
+      "authority": "government"
+    },
+    "II_BAD2": {
+      "url": "https://www.incredibleindia.gov.in/en/karnataka/badami",
+      "title": "Badami — Incredible India",
+      "authority": "government"
+    },
+    "II_BLR3": {
+      "url": "https://www.incredibleindia.gov.in/en/karnataka/bengaluru",
+      "title": "Bengaluru — Incredible India",
+      "authority": "government"
+    },
+    "II_BAD3": {
+      "url": "https://www.incredibleindia.gov.in/en/karnataka/badami",
+      "title": "Badami — Incredible India",
+      "authority": "government"
+    },
+    "II_COO3": {
+      "url": "https://www.incredibleindia.gov.in/en/karnataka/coorg",
+      "title": "Coorg — Incredible India",
+      "authority": "government"
     }
   },
   "facts": {
@@ -2111,6 +2136,186 @@
           "quote": "Pattadakal timings: 9 am to 6 pm"
         }
       ]
+    },
+    "K2B1": {
+      "place": "karnataka/bengaluru",
+      "topic": "K2B1",
+      "claim": "Kempe Gowda founded Bengaluru in 1537 with a mud fort and four watch towers; it became capital in 1956.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_BLR2",
+          "quote": "In 1537, Magadi Kempe Gowda, a devout Hindu and feudatory chief of the Vijayanagar empire, built a mud fort and erected four watch towers"
+        },
+        {
+          "source": "II_BLR2",
+          "quote": "Bengaluru was designated capital in 1956"
+        }
+      ]
+    },
+    "K2B2": {
+      "place": "karnataka/bengaluru",
+      "topic": "K2B2",
+      "claim": "Vidhana Soudha, the State Secretariat built in 1956, is the largest civic building of its kind in India.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_BLR2",
+          "quote": "Built in 1956, Bengaluru’s vast State Secretariat, Vidhana Soudha, northwest of Cubbon Park, is the largest civic structure of its kind in the country."
+        }
+      ]
+    },
+    "K2B3": {
+      "place": "karnataka/bengaluru",
+      "topic": "K2B3",
+      "claim": "The Government Museum on Kasturba Road holds Vijayanagar, Hoysala and Chalukya sculpture and miniature paintings; Tipu Sultan's Summer Palace and the Bull Temple are other sights.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_BLR2",
+          "quote": "the Government Museum features prehistoric artifacts, Vijayanagar, Hoysala, and Chalukya sculptures"
+        },
+        {
+          "source": "II_BLR2",
+          "quote": "Tipu Sultan's Summer Palace, a testament to the Tiger of Mysore's grandeur"
+        },
+        {
+          "source": "II_BLR2",
+          "quote": "the Bull Temple (Dodda Basavana Gudi)"
+        }
+      ]
+    },
+    "K2B4": {
+      "place": "karnataka/bengaluru",
+      "topic": "K2B4",
+      "claim": "Nights out start along Brigade Road, Residency Road or Church Street.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_BLR2",
+          "quote": "A night on the town generally starts with a bar crawl along Brigade Road, Residency Road, or Church Street."
+        }
+      ]
+    },
+    "K2B5": {
+      "place": "karnataka/bengaluru",
+      "topic": "K2B5",
+      "claim": "Bengaluru is good for silk, at Karnataka Silk Industries Corporation, and for soapstone, brass, sandalwood and rosewood crafts at the Cauvery emporium.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_BLR2",
+          "quote": "A wide range of silk is available at Karnataka Silk Industries Corporation."
+        },
+        {
+          "source": "II_BLR2",
+          "quote": "Handicrafts such as soapstone sculpture, brass, carved sandalwood, and rosewood are also good value"
+        },
+        {
+          "source": "II_BLR2",
+          "quote": "Karnataka State Emporium, Cauvery, at the MG Road and Brigade Road crossing"
+        }
+      ]
+    },
+    "K2B6": {
+      "place": "karnataka/bengaluru",
+      "topic": "K2B6",
+      "claim": "Janapada Loka folk arts museum is 53 km southwest on the Mysore Road; Nrityagram dance village is 30 km west.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_BLR2",
+          "quote": "The Janapada Lok Folk Arts Museum, 53km southwest of Bengaluru on the Mysore Road"
+        },
+        {
+          "source": "II_BLR2",
+          "quote": "Nrityagram Dance Village is a delightful, purpose-built model village 30 km west of Bengaluru."
+        }
+      ]
+    },
+    "K2D1": {
+      "place": "karnataka/badami",
+      "topic": "K2D1",
+      "claim": "The first cave temple, reached by 40 steps, is believed to date from 578 AD and has an 18-armed Nataraja.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_BAD2",
+          "quote": "To reach the first cave temple, you must climb 40 steps."
+        },
+        {
+          "source": "II_BAD2",
+          "quote": "It is believed that the temple was constructed in 578 AD."
+        },
+        {
+          "source": "II_BAD2",
+          "quote": "18-armed Natraj"
+        }
+      ]
+    },
+    "K2D2": {
+      "place": "karnataka/badami",
+      "topic": "K2D2",
+      "claim": "The caves are on the southern hill, the fort and Malegitti Shivalaya on the northern hill, and Agastya Lake in the valley with the Bhuthanatha Temple on its eastern bank.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_BAD2",
+          "quote": "The famous Badami Caves are on the southern hill, the Badami Fort is on the northern hill, and the Agastya Lake graces the valley."
+        },
+        {
+          "source": "II_BAD2",
+          "quote": "the Malegitti Shivalaya , dedicated to the sun god Surya"
+        },
+        {
+          "source": "II_BAD2",
+          "quote": "the popular Bhuthanatha Temple on its eastern bank"
+        }
+      ]
+    },
+    "K2D3": {
+      "place": "karnataka/badami",
+      "topic": "K2D3",
+      "claim": "The Archaeological Museum near Agastya Lake has the Lajja Gauri image; the red sandstone is good for rock climbing, with guides available; Pattadakal is about 22 km.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_BAD2",
+          "quote": "Its most visited attractions are the sandstone image of Lajja Gauri"
+        },
+        {
+          "source": "II_BAD2",
+          "quote": "offers many varying levels of difficulty for rock climbing"
+        },
+        {
+          "source": "II_BAD2",
+          "quote": "only about 22 km from Badami"
+        }
+      ]
+    },
+    "K2S1": {
+      "place": "karnataka",
+      "topic": "K2S1",
+      "claim": "Karnataka's range runs from Bengaluru's nightlife and silk to Badami's cave temples and Coorg's coffee walks.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_BLR3",
+          "quote": "A night on the town generally starts with a bar crawl along Brigade Road"
+        },
+        {
+          "source": "II_BLR3",
+          "quote": "Bengaluru has many fine shops, particularly if you’re looking for silk."
+        },
+        {
+          "source": "II_BAD3",
+          "quote": "Badami’s most iconic site is its awe-inspiring cave temples."
+        },
+        {
+          "source": "II_COO3",
+          "quote": "Guided plantation walks offer visitors an opportunity to learn about coffee cultivation"
+        }
+      ]
     }
   },
   "places": [
@@ -2295,6 +2500,22 @@
             "GK3",
             "GKM2"
           ]
+        },
+        "things_to_do": {
+          "items": [
+            {
+              "body": "Shop for silk and go out in Bengaluru."
+            },
+            {
+              "body": "Climb to Badami's cave temples."
+            },
+            {
+              "body": "Walk a coffee plantation in Coorg."
+            }
+          ],
+          "facts": [
+            "K2S1"
+          ]
         }
       },
       "wikidataId": "Q1185",
@@ -2404,6 +2625,72 @@
           "text": "Nandi Hills, the classic outing from the city, is best from September to February.",
           "facts": [
             "BLN2"
+          ]
+        },
+        "key_facts": {
+          "items": [
+            {
+              "title": "Founded",
+              "body": "1537, by Kempe Gowda",
+              "status": "verified"
+            },
+            {
+              "title": "State capital since",
+              "body": "1956",
+              "status": "verified"
+            },
+            {
+              "title": "Janapada Loka",
+              "body": "53 km southwest",
+              "status": "verified"
+            },
+            {
+              "title": "Nrityagram",
+              "body": "30 km west",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "K2B1",
+            "K2B6"
+          ]
+        },
+        "things_to_do": {
+          "items": [
+            {
+              "body": "See Vidhana Soudha, the State Secretariat, from outside."
+            },
+            {
+              "body": "Visit the Government Museum on Kasturba Road."
+            },
+            {
+              "body": "Walk through Tipu Sultan's Summer Palace and the Bull Temple."
+            },
+            {
+              "body": "Start a night out on Brigade Road, Residency Road or Church Street."
+            },
+            {
+              "body": "Day-trip to Janapada Loka folk museum or Nrityagram dance village."
+            }
+          ],
+          "facts": [
+            "K2B2",
+            "K2B3",
+            "K2B4",
+            "K2B6"
+          ]
+        },
+        "shopping": {
+          "items": [
+            {
+              "body": "Silk at Karnataka Silk Industries Corporation."
+            },
+            {
+              "body": "Soapstone, brass, sandalwood and rosewood crafts at Cauvery, the state emporium on MG Road."
+            }
+          ],
+          "facts": [
+            "K2B5"
           ]
         }
       },
@@ -4699,6 +4986,48 @@
             "BDC1",
             "BDC3",
             "BDP1"
+          ]
+        },
+        "things_to_do": {
+          "items": [
+            {
+              "body": "Climb to the four cave temples on the southern hill."
+            },
+            {
+              "body": "Walk up to Badami Fort and Malegitti Shivalaya on the northern hill."
+            },
+            {
+              "body": "Watch sunset over Agastya Lake and the Bhuthanatha Temple."
+            },
+            {
+              "body": "See Lajja Gauri at the Archaeological Museum."
+            },
+            {
+              "body": "Try rock climbing on the red sandstone with a guide."
+            }
+          ],
+          "facts": [
+            "K2D2",
+            "K2D3",
+            "K2D1"
+          ]
+        },
+        "key_facts": {
+          "items": [
+            {
+              "title": "First cave",
+              "body": "578 AD, 40 steps",
+              "status": "verified"
+            },
+            {
+              "title": "Pattadakal",
+              "body": "About 22 km",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "K2D1",
+            "K2D3"
           ]
         }
       },

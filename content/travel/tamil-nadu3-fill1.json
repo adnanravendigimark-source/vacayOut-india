@@ -1,0 +1,2557 @@
+{
+  "cluster": "tn-new-1",
+  "title": "State gaps: tn-new-1",
+  "researchedAt": "2026-11-20",
+  "selection": "Tamil Nadu gap fill: Coimbatore, Valparai, Coonoor, Yercaud, Kolli Hills, Trichy and Srirangam, Chidambaram, Tiruvannamalai, Palani, Velankanni, Tharangambadi, forts, falls and Kanyakumari's palace and temple.",
+  "sources": {
+    "TT_CBE": {
+      "url": "https://www.tamilnadutourism.tn.gov.in/destinations/coimbatore",
+      "title": "Coimbatore — Tamil Nadu Tourism (Government of Tamil Nadu)",
+      "authority": "government"
+    },
+    "TT_VAL": {
+      "url": "https://www.tamilnadutourism.tn.gov.in/destinations/valparai-hill-station",
+      "title": "Valparai — Tamil Nadu Tourism (Government of Tamil Nadu)",
+      "authority": "government"
+    },
+    "WP_MUD": {
+      "url": "https://en.wikipedia.org/wiki/Mudumalai_National_Park",
+      "title": "Mudumalai National Park — Wikipedia",
+      "authority": "reference"
+    },
+    "TT_COO": {
+      "url": "https://www.tamilnadutourism.tn.gov.in/destinations/coonoor",
+      "title": "Coonoor — Tamil Nadu Tourism (Government of Tamil Nadu)",
+      "authority": "government"
+    },
+    "TT_KOT": {
+      "url": "https://www.tamilnadutourism.tn.gov.in/destinations/kotagiri",
+      "title": "Kotagiri — Tamil Nadu Tourism (Government of Tamil Nadu)",
+      "authority": "government"
+    },
+    "II_TRY": {
+      "url": "https://www.incredibleindia.gov.in/en/tamil-nadu/tiruchirappalli",
+      "title": "Tiruchirappalli — Incredible India",
+      "authority": "government"
+    },
+    "TT_ROC": {
+      "url": "https://www.tamilnadutourism.tn.gov.in/destinations/tiruchirappalli-rockfort-temple",
+      "title": "Tiruchirappalli Rockfort Temple — Tamil Nadu Tourism (Government of Tamil Nadu)",
+      "authority": "government"
+    },
+    "WP_SRI": {
+      "url": "https://en.wikipedia.org/wiki/Ranganathaswamy_Temple,_Srirangam",
+      "title": "Ranganathaswamy Temple, Srirangam — Wikipedia",
+      "authority": "reference"
+    },
+    "WP_CHI": {
+      "url": "https://en.wikipedia.org/wiki/Nataraja_Temple,_Chidambaram",
+      "title": "Nataraja Temple, Chidambaram — Wikipedia",
+      "authority": "reference"
+    },
+    "TT_VEL": {
+      "url": "https://www.tamilnadutourism.tn.gov.in/destinations/velankanni",
+      "title": "Velankanni — Tamil Nadu Tourism (Government of Tamil Nadu)",
+      "authority": "government"
+    },
+    "TT_TRQ": {
+      "url": "https://www.tamilnadutourism.tn.gov.in/destinations/tranquebar",
+      "title": "Tranquebar — Tamil Nadu Tourism (Government of Tamil Nadu)",
+      "authority": "government"
+    },
+    "TT_GIN": {
+      "url": "https://www.tamilnadutourism.tn.gov.in/destinations/gingee-fort",
+      "title": "Gingee Fort — Tamil Nadu Tourism (Government of Tamil Nadu)",
+      "authority": "government"
+    },
+    "TT_VLF": {
+      "url": "https://www.tamilnadutourism.tn.gov.in/destinations/vellore-fort",
+      "title": "Vellore Fort — Tamil Nadu Tourism (Government of Tamil Nadu)",
+      "authority": "government"
+    },
+    "TT_HOG": {
+      "url": "https://www.tamilnadutourism.tn.gov.in/destinations/hogenakkal-waterfalls",
+      "title": "Hogenakkal Waterfalls — Tamil Nadu Tourism (Government of Tamil Nadu)",
+      "authority": "government"
+    },
+    "TT_COU": {
+      "url": "https://www.tamilnadutourism.tn.gov.in/destinations/coutrallam-waterfalls",
+      "title": "Coutrallam Waterfalls — Tamil Nadu Tourism (Government of Tamil Nadu)",
+      "authority": "government"
+    },
+    "TT_PAD": {
+      "url": "https://www.tamilnadutourism.tn.gov.in/destinations/padmanabhapuram-palace",
+      "title": "Padmanabhapuram Palace — Tamil Nadu Tourism (Government of Tamil Nadu)",
+      "authority": "government"
+    },
+    "TT_SUC": {
+      "url": "https://www.tamilnadutourism.tn.gov.in/destinations/suchindram-shree-thanumalayan-swamy-temple",
+      "title": "Suchindram Thanumalayan Temple — Tamil Nadu Tourism (Government of Tamil Nadu)",
+      "authority": "government"
+    },
+    "TT_ARU": {
+      "url": "https://www.tamilnadutourism.tn.gov.in/destinations/arunachaleshwar-temple",
+      "title": "Arunachaleswarar Temple — Tamil Nadu Tourism (Government of Tamil Nadu)",
+      "authority": "government"
+    },
+    "TT_PAL": {
+      "url": "https://www.tamilnadutourism.tn.gov.in/destinations/arulmigu-dhandayuthapani-swamy-temple-palani",
+      "title": "Arulmigu Dhandayuthapani Swamy Temple, Palani — Tamil Nadu Tourism (Government of Tamil Nadu)",
+      "authority": "government"
+    },
+    "TT_YER": {
+      "url": "https://www.tamilnadutourism.tn.gov.in/destinations/yercaud",
+      "title": "Yercaud — Tamil Nadu Tourism (Government of Tamil Nadu)",
+      "authority": "government"
+    },
+    "TT_PAG": {
+      "url": "https://www.tamilnadutourism.tn.gov.in/destinations/pagoda-point-yercaud",
+      "title": "Pagoda Point, Yercaud — Tamil Nadu Tourism (Government of Tamil Nadu)",
+      "authority": "government"
+    },
+    "TT_KOL": {
+      "url": "https://www.tamilnadutourism.tn.gov.in/destinations/kolli-hills",
+      "title": "Kolli Hills — Tamil Nadu Tourism (Government of Tamil Nadu)",
+      "authority": "government"
+    }
+  },
+  "facts": {
+    "T3C1": {
+      "place": "tamil-nadu/coimbatore",
+      "topic": "T3C1",
+      "claim": "Coimbatore, the 'Manchester of South India', is Tamil Nadu's second-largest city and a textile and industrial hub.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "TT_CBE",
+          "quote": "Known as the Manchester of South India, Coimbatore is one of the most industrialized districts"
+        },
+        {
+          "source": "TT_CBE",
+          "quote": "Coimbatore is the second largest city in Tamil Nadu"
+        }
+      ]
+    },
+    "T3C2": {
+      "place": "tamil-nadu/coimbatore",
+      "topic": "T3C2",
+      "claim": "Once part of Kongunadu, the city is still widely called Kovai; it lies near the Palghat Gap in the Western Ghats.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "TT_CBE",
+          "quote": "began to be called as Kovai, a name that is in popular usage to this day"
+        },
+        {
+          "source": "TT_CBE",
+          "quote": "Located near to the serene Palghat Gap"
+        }
+      ]
+    },
+    "T3C3": {
+      "place": "tamil-nadu/coimbatore",
+      "topic": "T3C3",
+      "claim": "Coimbatore airport at Peelamedu is about 15 km from the centre; November to March is the mild season.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "TT_CBE",
+          "quote": "Coimbatore International Airport, Peelamedu, about 15 km away from the city centre."
+        },
+        {
+          "source": "TT_CBE",
+          "quote": "Coimbatore experiences mild weather during November to March and hence it is the best time to explore the destination."
+        }
+      ]
+    },
+    "T3C4": {
+      "place": "tamil-nadu/coimbatore",
+      "topic": "T3C4",
+      "claim": "The city is a convenient stopover for nearby destinations.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "TT_CBE",
+          "quote": "Coimbatore is located close to many tourism destinations that makes it a strategic stopover."
+        }
+      ]
+    },
+    "T3V1": {
+      "place": "tamil-nadu/valparai",
+      "topic": "T3V1",
+      "claim": "Valparai sits at about 3,500 ft on the Anamalai range of the Western Ghats, surrounded by tea and coffee estates.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "TT_VAL",
+          "quote": "Located at 3500 feet height from the sea level on the Anamalai mountain range of the Western Ghats"
+        },
+        {
+          "source": "TT_VAL",
+          "quote": "the tea plantations and coffee estates at Valparai make for a spectacular sight"
+        }
+      ]
+    },
+    "T3V2": {
+      "place": "tamil-nadu/valparai",
+      "topic": "T3V2",
+      "claim": "The Indira Gandhi Wildlife Sanctuary is home to lion-tailed macaques; the range shelters Nilgiri tahr, and great, Malabar pied and grey hornbills are often seen.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "TT_VAL",
+          "quote": "Pay a visit to the Indira Gandhi Wildlife Sanctuary, which is one of the most famous attractions of Valparai."
+        },
+        {
+          "source": "TT_VAL",
+          "quote": "Lion-tailed macaques, barking deer, wild boar"
+        },
+        {
+          "source": "TT_VAL",
+          "quote": "The Valparai range is also the habitat of Nilgiri Tahr."
+        },
+        {
+          "source": "TT_VAL",
+          "quote": "The Great Hornbill, the Malabar Pied Hornbill and the Grey Malabar Hornbill are often spotted here."
+        }
+      ]
+    },
+    "T3V3": {
+      "place": "tamil-nadu/valparai",
+      "topic": "T3V3",
+      "claim": "Landmarks include Upper Sholayar, Nirar and Aliyar dams, Monkey Falls and the Chinnakallar falls.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "TT_VAL",
+          "quote": "Upper Sholayar Dam,Nirar Dam, Aliyar Dam, Monkey Falls"
+        },
+        {
+          "source": "TT_VAL",
+          "quote": "a narrow, winding path leads to Chinnakallar falls"
+        }
+      ]
+    },
+    "T3V4": {
+      "place": "tamil-nadu/valparai",
+      "topic": "T3V4",
+      "claim": "Coimbatore airport is about 119 km away and Pollachi station about 64 km; December–January is the recommended season.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "TT_VAL",
+          "quote": "Coimbatore International airport, about 119 km away"
+        },
+        {
+          "source": "TT_VAL",
+          "quote": "Pollachi Railway Station, about 64 km away December to January"
+        }
+      ]
+    },
+    "T3D1": {
+      "place": "tamil-nadu/mudumalai-national-park",
+      "topic": "T3D1",
+      "claim": "Mudumalai National Park covers 321 sq km of the Nilgiris at 850–1,250 m and borders Karnataka and Kerala.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WP_MUD",
+          "quote": "It covers 321 km2 (124 sq mi) at an elevation range of 850–1,250 m"
+        },
+        {
+          "source": "WP_MUD",
+          "quote": "shares boundaries with the states of Karnataka and Kerala"
+        }
+      ]
+    },
+    "T3D2": {
+      "place": "tamil-nadu/mudumalai-national-park",
+      "topic": "T3D2",
+      "claim": "It adjoins Wayanad sanctuary to the west and Bandipur to the north, and was declared a tiger reserve in 2007.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WP_MUD",
+          "quote": "it is bordered in the west by Wayanad Wildlife Sanctuary, in the north by Bandipur National Park"
+        },
+        {
+          "source": "WP_MUD",
+          "quote": "It was declared as a Tiger Reserve under Project Tiger in April 2007"
+        }
+      ]
+    },
+    "T3D3": {
+      "place": "tamil-nadu/mudumalai-national-park",
+      "topic": "T3D3",
+      "claim": "It holds at least 266 bird species and 18 carnivore species, and forms a key elephant corridor.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WP_MUD",
+          "quote": "at least 266 bird species, 18 carnivore and 10 herbivore species"
+        },
+        {
+          "source": "WP_MUD",
+          "quote": "provide the highest landscape connectivity for the Asian elephant"
+        }
+      ]
+    },
+    "T3D4": {
+      "place": "tamil-nadu/mudumalai-national-park",
+      "topic": "T3D4",
+      "claim": "Most rain falls in the southwest monsoon, June to September.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WP_MUD",
+          "quote": "most of it during the southwest monsoon season from June to September"
+        }
+      ]
+    },
+    "T3O1": {
+      "place": "tamil-nadu/coonoor",
+      "topic": "T3O1",
+      "claim": "Coonoor is the second-largest hill station in the Nilgiris, set among tea plantations.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "TT_COO",
+          "quote": "Coonoor, the second largest hill station in the Nilgiri hills"
+        },
+        {
+          "source": "TT_COO",
+          "quote": "Take a stroll along the tea plantations clouded in mist."
+        }
+      ]
+    },
+    "T3O2": {
+      "place": "tamil-nadu/coonoor",
+      "topic": "T3O2",
+      "claim": "Sim's Park, named after J D Sim, is good for birds and hosts an annual fruit and vegetable show.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "TT_COO",
+          "quote": "Named after J D Sim, a former secretary to the Government, Sim's park houses unique species of plants and shrubs as well."
+        },
+        {
+          "source": "TT_COO",
+          "quote": "Plan your trip to witness the annual fruits and vegetable show held here."
+        },
+        {
+          "source": "TT_COO",
+          "quote": "Surprise yourself with the sight of bulbuls, babblers and robins."
+        }
+      ]
+    },
+    "T3O3": {
+      "place": "tamil-nadu/coonoor",
+      "topic": "T3O3",
+      "claim": "Landmarks include Lamb's Rock, Dolphin's Nose, Catherine and Law's falls and Droog Fort; the train ride to Ooty is a highlight.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "TT_COO",
+          "quote": "Notable landmarks include the Lamb's rock, Dolphin's nose, Catherine falls, law's falls and droog fort."
+        },
+        {
+          "source": "TT_COO",
+          "quote": "The train ride from Coonoor to Ooty is something you don't want to miss."
+        }
+      ]
+    },
+    "T3O4": {
+      "place": "tamil-nadu/coonoor",
+      "topic": "T3O4",
+      "claim": "Coimbatore airport is about 71 km away; October to March is the best time.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "TT_COO",
+          "quote": "Coimbatore Airport, about 71 km away"
+        },
+        {
+          "source": "TT_COO",
+          "quote": "about 71 km away October to March"
+        }
+      ]
+    },
+    "T3K1": {
+      "place": "tamil-nadu/kotagiri",
+      "topic": "T3K1",
+      "claim": "Kotagiri, at 1,793 m, is a quieter Nilgiri hill town with trails to St Catherine Falls, Kodanad and Longwood Shola; best December to May.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "TT_KOT",
+          "quote": "Situated at a height of 1793 metres above sea level"
+        },
+        {
+          "source": "TT_KOT",
+          "quote": "St. Catherine Falls trail, the Kotagiri–Kodanad trail and the Kotagiri–Longwood Shola trail"
+        },
+        {
+          "source": "TT_KOT",
+          "quote": "drop in at the tea factories for a tea tasting session"
+        },
+        {
+          "source": "TT_KOT",
+          "quote": "Coimbatore Railway Station, about 69 km away December to May"
+        }
+      ]
+    },
+    "T3T1": {
+      "place": "tamil-nadu/tiruchirappalli",
+      "topic": "T3T1",
+      "claim": "Tiruchirappalli, on the Kaveri, was the citadel of the Early Cholas; the Pallava king Mahendravarman I laid the foundation of its Rockfort.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_TRY",
+          "quote": "Situated on the banks of River Cauvery, Tiruchirappalli was the citadel of the Early Cholas."
+        },
+        {
+          "source": "II_TRY",
+          "quote": "Pallava king Mahendravarman-I who also laid the foundation of the Rockfort"
+        }
+      ]
+    },
+    "T3T2": {
+      "place": "tamil-nadu/tiruchirappalli",
+      "topic": "T3T2",
+      "claim": "Beyond Srirangam, notable temples include Jambukeswarar and Samayapuram Mariamman.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_TRY",
+          "quote": "Other notable temples include the Jambukeswarar Temple, dedicated to Lord Shiva, and the Samayapuram Mariamman Temple"
+        }
+      ]
+    },
+    "T3T3": {
+      "place": "tamil-nadu/tiruchirappalli",
+      "topic": "T3T3",
+      "claim": "The government-run Poompuhar emporium sells bronzes, Thanjavur paintings and handwoven textiles.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_TRY",
+          "quote": "The government-operated Poompuhar Handicrafts Emporium beckons visitors"
+        },
+        {
+          "source": "II_TRY",
+          "quote": "including bronze sculptures, Thanjavur paintings, and handwoven textiles"
+        }
+      ]
+    },
+    "T3T4": {
+      "place": "tamil-nadu/tiruchirappalli",
+      "topic": "T3T4",
+      "claim": "Trichy's international airport is just 5 km from the city, and Trichy Junction has direct trains to Chennai, Bengaluru, Mumbai and Delhi.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_TRY",
+          "quote": "Tiruchirappalli Airport is an International Airport. The airport is just 5 Kms from the city."
+        },
+        {
+          "source": "II_TRY",
+          "quote": "From Trichy Junction we have direct trains to many major cities like Chennai, Ernakulam, Bangalore, Mumbai, New Delhi etc."
+        }
+      ]
+    },
+    "T3R1": {
+      "place": "tamil-nadu/rockfort-temple-tiruchirappalli",
+      "topic": "T3R1",
+      "claim": "The Rockfort's Uchippillaiyar temple sits on a rock first carved by the Pallavas; 437 steps lead to the top, with views over Trichy and Srirangam.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "TT_ROC",
+          "quote": "The ancient Pallavas carved the rock with deft precision"
+        },
+        {
+          "source": "TT_ROC",
+          "quote": "Ascending the 437 steps that lead to the Upper Temple"
+        },
+        {
+          "source": "TT_ROC",
+          "quote": "offering panoramic views of the city of Trichy, Srirangam Island, and the Rock fort Bridge"
+        }
+      ]
+    },
+    "T3R2": {
+      "place": "tamil-nadu/rockfort-temple-tiruchirappalli",
+      "topic": "T3R2",
+      "claim": "The Madurai Nayaks and Vijayanagara empire later expanded it; Vinayaka Chaturthi is its great festival.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "TT_ROC",
+          "quote": "The Nayakkars of Madurai and the Vijayanagara Empire later expanded and renovated the temple"
+        },
+        {
+          "source": "TT_ROC",
+          "quote": "The temple's famous Vinayaka Chaturthi festival is celebrated with great pomp and show every year."
+        }
+      ]
+    },
+    "T3R3": {
+      "place": "tamil-nadu/rockfort-temple-tiruchirappalli",
+      "topic": "T3R3",
+      "claim": "It is about 3 km from Trichy Junction and 12 km from the airport; best December to March.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "TT_ROC",
+          "quote": "Tiruchirapalli International Airport, about 12 km away."
+        },
+        {
+          "source": "TT_ROC",
+          "quote": "Trichy Junction railway station, about 3 km away. December to March"
+        }
+      ]
+    },
+    "T3S1": {
+      "place": "tamil-nadu/srirangam-ranganathaswamy-temple",
+      "topic": "T3S1",
+      "claim": "Srirangam's Ranganathaswamy Temple, to Vishnu as Ranganathar, is the foremost of the 108 Divya Desams and one of the largest functioning temple complexes in the world.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WP_SRI",
+          "quote": "dedicated to Ranganathar (a form of Vishnu)"
+        },
+        {
+          "source": "WP_SRI",
+          "quote": "foremost among the 108 Divya Desams"
+        },
+        {
+          "source": "WP_SRI",
+          "quote": "the largest functioning religious complex in the world"
+        }
+      ]
+    },
+    "T3S2": {
+      "place": "tamil-nadu/srirangam-ranganathaswamy-temple",
+      "topic": "T3S2",
+      "claim": "The temple town covers 63 hectares with 81 shrines and 21 towers; its outer rajagopuram, about 73 m tall, was completed in 1987.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WP_SRI",
+          "quote": "The temple and temple town occupy an area of 63 hectares (155 acres) with 81 shrines, 21 towers, 39 pavilions"
+        },
+        {
+          "source": "WP_SRI",
+          "quote": "outer rajagopuram (tower) that is approximately 73 metres (240 ft) tall, which was completed in 1987"
+        }
+      ]
+    },
+    "T3S3": {
+      "place": "tamil-nadu/srirangam-ranganathaswamy-temple",
+      "topic": "T3S3",
+      "claim": "It stands on an island between the Kollidam and Kaveri, about 12 km north of Tiruchirappalli; it is on UNESCO's tentative list.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WP_SRI",
+          "quote": "on an island between the Kollidam and Kaveri rivers"
+        },
+        {
+          "source": "WP_SRI",
+          "quote": "located about 12 kilometres (7.5 mi) north of the city of Tiruchirappalli"
+        },
+        {
+          "source": "WP_SRI",
+          "quote": "is in UNESCO's tentative list"
+        }
+      ]
+    },
+    "T3S4": {
+      "place": "tamil-nadu/srirangam-ranganathaswamy-temple",
+      "topic": "T3S4",
+      "claim": "Its 21-day festival in Margazhi (December–January) draws about a million visitors.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WP_SRI",
+          "quote": "The annual 21-day festival conducted during the Tamil month of Margazhi (December–January) attracts one million visitors."
+        }
+      ]
+    },
+    "T3H1": {
+      "place": "tamil-nadu/chidambaram-nataraja-temple",
+      "topic": "T3H1",
+      "claim": "Chidambaram's Thillai Nataraja Temple is dedicated to Shiva as lord of dance; its walls show all 108 karanas of the Natya Shastra, a foundation of Bharatanatyam.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WP_CHI",
+          "quote": "dedicated to Nataraja, the form of Shiva as the lord of dance"
+        },
+        {
+          "source": "WP_CHI",
+          "quote": "The temple wall carvings display all the 108 karanas from the Natya Shastra"
+        },
+        {
+          "source": "WP_CHI",
+          "quote": "these postures form a foundation of Bharatanatyam"
+        }
+      ]
+    },
+    "T3H2": {
+      "place": "tamil-nadu/chidambaram-nataraja-temple",
+      "topic": "T3H2",
+      "claim": "The complex covers 16 hectares; Shiva dances the Ananda Tandava in the golden hall, and the Natyanjali dance festival is held on Maha Shivaratri.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WP_CHI",
+          "quote": "the Nataraja complex spread over 16 hectares (40 acres)"
+        },
+        {
+          "source": "WP_CHI",
+          "quote": "performing the Ananda Tandava (\"Dance of Delight\") in the golden hall"
+        },
+        {
+          "source": "WP_CHI",
+          "quote": "the annual Natyanjali dance festival on Maha Shivaratri"
+        }
+      ]
+    },
+    "T3H3": {
+      "place": "tamil-nadu/chidambaram-nataraja-temple",
+      "topic": "T3H3",
+      "claim": "Chidambaram is about 220 km south of Chennai; the closest airport is about 60 km north at Puducherry.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WP_CHI",
+          "quote": "220 kilometres (140 mi) south of Chennai"
+        },
+        {
+          "source": "WP_CHI",
+          "quote": "The closest major airport is about 60 kilometres (37 mi) north in Pondicherry"
+        }
+      ]
+    },
+    "T3E1": {
+      "place": "tamil-nadu/velankanni",
+      "topic": "T3E1",
+      "claim": "Velankanni, 12 km from Nagapattinam, is one of India's most famous Christian pilgrim towns, centred on the Basilica of Our Lady of Good Health, and also a beach town.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "TT_VEL",
+          "quote": "Velankanni is one of the most famous Christian pilgrim destinations in India, as well as a beach town"
+        },
+        {
+          "source": "TT_VEL",
+          "quote": "Located at a distance of 12 kms from Nagapattinam, Velankanni is primarily famous these days for the Basilica of Our Lady of Good Health church."
+        }
+      ]
+    },
+    "T3E2": {
+      "place": "tamil-nadu/velankanni",
+      "topic": "T3E2",
+      "claim": "It was once an important port town.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "TT_VEL",
+          "quote": "Velankanni was once an important port town in the past"
+        }
+      ]
+    },
+    "T3E3": {
+      "place": "tamil-nadu/velankanni",
+      "topic": "T3E3",
+      "claim": "Trichy airport is about 153 km away and Nagapattinam station 12 km; December to February is ideal.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "TT_VEL",
+          "quote": "Tiruchirapalli International Airport, about 153 km away."
+        },
+        {
+          "source": "TT_VEL",
+          "quote": "Nagapattinam Railway Station, about 12 km away."
+        },
+        {
+          "source": "TT_VEL",
+          "quote": "The ideal time to visit Velankanni is from December to February."
+        }
+      ]
+    },
+    "T3Q1": {
+      "place": "tamil-nadu/tharangambadi",
+      "topic": "T3Q1",
+      "claim": "Tharangambadi (Tranquebar) became a Danish colony in the 17th century; Fort Dansborg is now a museum.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "TT_TRQ",
+          "quote": "the town was transformed into a Danish colony"
+        },
+        {
+          "source": "TT_TRQ",
+          "quote": "the awe-inspiring Fort Dansborg"
+        },
+        {
+          "source": "TT_TRQ",
+          "quote": "The fort has been transformed into a museum"
+        }
+      ]
+    },
+    "T3Q2": {
+      "place": "tamil-nadu/tharangambadi",
+      "topic": "T3Q2",
+      "claim": "The Danes' New Jerusalem Church is one of the oldest Protestant churches in India.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "TT_TRQ",
+          "quote": "The New Jerusalem Church, built by the Danes, is one of the oldest Protestant churches in India"
+        }
+      ]
+    },
+    "T3Q3": {
+      "place": "tamil-nadu/tharangambadi",
+      "topic": "T3Q3",
+      "claim": "The town's seafood is a must-try.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "TT_TRQ",
+          "quote": "The town's seafood is a must-try"
+        }
+      ]
+    },
+    "T3Q4": {
+      "place": "tamil-nadu/tharangambadi",
+      "topic": "T3Q4",
+      "claim": "Nagapattinam station is about 33 km away; October to February is the season.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "TT_TRQ",
+          "quote": "Nagapattinam Railway Station, about 33 km away. October - February"
+        }
+      ]
+    },
+    "T3G1": {
+      "place": "tamil-nadu/gingee-fort",
+      "topic": "T3G1",
+      "claim": "Gingee Fort spreads across three hills and was coveted by Cholas, Marathas, Mughals and the British; it is recognised as a UNESCO World Heritage Site.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "TT_GIN",
+          "quote": "Strategically situated on three hills, the fort was once considered impregnable"
+        },
+        {
+          "source": "TT_GIN",
+          "quote": "from the Cholas to the Marathas, from the Mughals to the British"
+        },
+        {
+          "source": "TT_GIN",
+          "quote": "recognized as a UNESCO World Heritage Site"
+        }
+      ]
+    },
+    "T3G2": {
+      "place": "tamil-nadu/gingee-fort",
+      "topic": "T3G2",
+      "claim": "Inside are ruined palaces and temples, and tunnels once used to escape sieges.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "TT_GIN",
+          "quote": "the ruins of palaces and temples come into view"
+        },
+        {
+          "source": "TT_GIN",
+          "quote": "The underground tunnels and secret passages that run beneath the fort"
+        }
+      ]
+    },
+    "T3G3": {
+      "place": "tamil-nadu/gingee-fort",
+      "topic": "T3G3",
+      "claim": "It is 3 km from Gingee bus stand, 40 km from Villupuram Junction and 160 km from Chennai airport; best December to March.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "TT_GIN",
+          "quote": "Gingee Bus Stand, about 3 km away."
+        },
+        {
+          "source": "TT_GIN",
+          "quote": "Chennai International Airport, about 160 km away."
+        },
+        {
+          "source": "TT_GIN",
+          "quote": "Villupuram Junction, about 40 km away. December to March"
+        }
+      ]
+    },
+    "T3F1": {
+      "place": "tamil-nadu/vellore-fort",
+      "topic": "T3F1",
+      "claim": "Vellore Fort was built in granite in the 16th century by Vijayanagara chieftains and covers 133 acres, ringed by a great moat.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "TT_VLF",
+          "quote": "built in the 16th century by the chieftains of the Vijayanagara dynasty"
+        },
+        {
+          "source": "TT_VLF",
+          "quote": "it covers a sprawling area of 133 acres"
+        },
+        {
+          "source": "TT_VLF",
+          "quote": "At the entrance, you'll see a huge moat"
+        }
+      ]
+    },
+    "T3F2": {
+      "place": "tamil-nadu/vellore-fort",
+      "topic": "T3F2",
+      "claim": "The British held it from 1768; Tipu Sultan's family and Vikrama Rajasinha, last king of Sri Lanka, were imprisoned here.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "TT_VLF",
+          "quote": "In 1768, the British seized control of this fort"
+        },
+        {
+          "source": "TT_VLF",
+          "quote": "Both the family of Tipu Sultan and Vikrama Rajasinha, the final ruler of Sri Lanka, were imprisoned in the fort"
+        }
+      ]
+    },
+    "T3F3": {
+      "place": "tamil-nadu/vellore-fort",
+      "topic": "T3F3",
+      "claim": "Inside are a mosque, a church, a temple and a government museum; the Jalagandeeswarar Temple is known for its sculpture.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "TT_VLF",
+          "quote": "including a mosque, a church, a temple, a government museum"
+        },
+        {
+          "source": "TT_VLF",
+          "quote": "The sculptures at the fort's Jalagandeeswarar Temple are well-known for their craft and beauty."
+        }
+      ]
+    },
+    "T3F4": {
+      "place": "tamil-nadu/vellore-fort",
+      "topic": "T3F4",
+      "claim": "The fort is open 8 am–6 pm; the museum 9 am–12.30 pm and 2–5 pm, except public holidays; entry Rs 5.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "TT_VLF",
+          "quote": "It is open from 8.00 am to 6.00 pm and the museum from 9:00 am to 12.30 pm and from 2:00 pm to 5:00 pm except on public holidays."
+        },
+        {
+          "source": "TT_VLF",
+          "quote": "The entry fee is Rs.5."
+        }
+      ]
+    },
+    "T3W1": {
+      "place": "tamil-nadu/hogenakkal-falls",
+      "topic": "T3W1",
+      "claim": "Hogenakkal — 'smoky rocks' in Kannada — is a waterfall on the Kaveri in Dharmapuri district, at the Karnataka border, known for coracle rides.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "TT_HOG",
+          "quote": "Hogenakal translates as Smoky Rocks in Kannada."
+        },
+        {
+          "source": "TT_HOG",
+          "quote": "the waterfall originates from River Kaveri"
+        },
+        {
+          "source": "TT_HOG",
+          "quote": "Enjoy the coracle ride and drift along gently in the river."
+        }
+      ]
+    },
+    "T3W2": {
+      "place": "tamil-nadu/hogenakkal-falls",
+      "topic": "T3W2",
+      "claim": "Dharmapuri station is about 48 km away and Salem airport 80 km; October to February shows the falls at their best.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "TT_HOG",
+          "quote": "Salem airport, about 80 km away Dharmapuri Railway Station, about 48 km away"
+        },
+        {
+          "source": "TT_HOG",
+          "quote": "October to February is the best time to watch the waterfall in its full glory"
+        }
+      ]
+    },
+    "T3U1": {
+      "place": "tamil-nadu/courtallam-falls",
+      "topic": "T3U1",
+      "claim": "Courtallam has nine falls; the Main Falls drop 60 m and the water is believed to have healing powers.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "TT_COU",
+          "quote": "are the nine falls and each one offers a different experience in terms of volume and height"
+        },
+        {
+          "source": "TT_COU",
+          "quote": "It drops from a height of 60 metres and the water is believed to have healing powers."
+        }
+      ]
+    },
+    "T3U2": {
+      "place": "tamil-nadu/courtallam-falls",
+      "topic": "T3U2",
+      "claim": "Honey Falls is 4 km from the Main Falls; Tiger Falls suits children; Five Falls spreads in five directions.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "TT_COU",
+          "quote": "At a distance of 4 km from the main fall lies the honey falls."
+        },
+        {
+          "source": "TT_COU",
+          "quote": "In case you have children with you, Tiger falls is the best place to be."
+        },
+        {
+          "source": "TT_COU",
+          "quote": "Water spreads out in five directions at five falls."
+        }
+      ]
+    },
+    "T3U3": {
+      "place": "tamil-nadu/courtallam-falls",
+      "topic": "T3U3",
+      "claim": "Tenkasi station is about 15 km away; the best months are July, September–November and January–March.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "TT_COU",
+          "quote": "Tenkasi Railway station, about 15 km away"
+        },
+        {
+          "source": "TT_COU",
+          "quote": "The best months to visit are July, September, October, November, January, February and March."
+        }
+      ]
+    },
+    "T3P1": {
+      "place": "tamil-nadu/padmanabhapuram-palace",
+      "topic": "T3P1",
+      "claim": "Padmanabhapuram Palace, begun in 1601, is one of the largest wooden palaces in Asia, spread over 6.5 acres with 15 buildings; it is run by the Government of Kerala.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "TT_PAD",
+          "quote": "constructed in 1601 CE by Iravi Varma Kulaskhara Perumal"
+        },
+        {
+          "source": "TT_PAD",
+          "quote": "One of the largest wooden palaces in Asia, Padmanabhapuram Palace is spread over an area of 6.5 acres of land."
+        },
+        {
+          "source": "TT_PAD",
+          "quote": "The palace contains 15 edifices that are all rich in intricate and complex woodwork"
+        },
+        {
+          "source": "TT_PAD",
+          "quote": "the palace is owned and operated by the Government of Kerala"
+        }
+      ]
+    },
+    "T3P2": {
+      "place": "tamil-nadu/padmanabhapuram-palace",
+      "topic": "T3P2",
+      "claim": "It is open 9 am–12.30 pm and 2–4.30 pm, closed on Mondays; Nagercoil station is 17 km and Trivandrum airport 52 km.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "TT_PAD",
+          "quote": "Open 9:00 - 12:30 hrs, 2:00 - 4:30 hrs. Closed on Mondays"
+        },
+        {
+          "source": "TT_PAD",
+          "quote": "Nagarcoil Railway Station, about 17 km away."
+        },
+        {
+          "source": "TT_PAD",
+          "quote": "Trivandrum International Airport, about 52 km away."
+        }
+      ]
+    },
+    "T3H5": {
+      "place": "tamil-nadu/suchindram-temple",
+      "topic": "T3H5",
+      "claim": "Suchindram's Thanumalayan Temple is dedicated to Shiva, Vishnu and Brahma together; its eastern gopuram has 11 storeys and is 44 m tall.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "TT_SUC",
+          "quote": "it is dedicated to the trinity of Lords Shiva, Vishnu and Brahma"
+        },
+        {
+          "source": "TT_SUC",
+          "quote": "The eastern tower has 11 stories and is 44 metres tall."
+        }
+      ]
+    },
+    "T3H6": {
+      "place": "tamil-nadu/suchindram-temple",
+      "topic": "T3H6",
+      "claim": "It has four musical pillars carved from single stones and a hall of 1,035 carved pillars.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "TT_SUC",
+          "quote": "four musical pillars carved out of a single stone"
+        },
+        {
+          "source": "TT_SUC",
+          "quote": "a dancing hall with 1035 intricately carved pillars"
+        }
+      ]
+    },
+    "T3H7": {
+      "place": "tamil-nadu/suchindram-temple",
+      "topic": "T3H7",
+      "claim": "Nagercoil Junction is about 3.8 km away; best October to March.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "TT_SUC",
+          "quote": "Nagercoil Junction Station, about 3.8 km away. October to March"
+        }
+      ]
+    },
+    "T3A1": {
+      "place": "tamil-nadu/arunachaleswarar-temple",
+      "topic": "T3A1",
+      "claim": "Tiruvannamalai's Arunachaleswarar Temple, at the foot of the hill, has the Annamalaiyar lingam at its heart; its history goes back to the Cholas of the 9th century.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "TT_ARU",
+          "quote": "At the heart of the temple lies the Annamalaiyar Lingam"
+        },
+        {
+          "source": "TT_ARU",
+          "quote": "stretches back to the Chola dynasty in the 9th century"
+        }
+      ]
+    },
+    "T3A2": {
+      "place": "tamil-nadu/arunachaleswarar-temple",
+      "topic": "T3A2",
+      "claim": "At the Karthigai Deepam festival an enormous lamp is lit on top of the hill.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "TT_ARU",
+          "quote": "The Karthigai Deepam festival, held annually during the month of Karthigai"
+        },
+        {
+          "source": "TT_ARU",
+          "quote": "The lighting of the enormous lamp atop the hill"
+        }
+      ]
+    },
+    "T3A3": {
+      "place": "tamil-nadu/arunachaleswarar-temple",
+      "topic": "T3A3",
+      "claim": "Tiruvannamalai station is about 2 km away and Chennai airport about 180 km; best November to March.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "TT_ARU",
+          "quote": "Chennai International Airport, about 180 km away."
+        },
+        {
+          "source": "TT_ARU",
+          "quote": "Thiruvannamalai Railway Station, about 2 km away. November to March"
+        }
+      ]
+    },
+    "T3M1": {
+      "place": "tamil-nadu/palani-murugan-temple",
+      "topic": "T3M1",
+      "claim": "Palani's Dhandayuthapani Swamy Temple, on Sivagiri hill in Dindigul district, is one of the richest temples in India; its Murugan idol is made of navapashanam.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "TT_PAL",
+          "quote": "Arulmigu Dhandayuthapani Swamy Temple in the city of Palani in Dindigul district is one of the richest temples in India."
+        },
+        {
+          "source": "TT_PAL",
+          "quote": "The idol of Lord Muruga is made up of Navapashanam or nine poisonous herbs"
+        },
+        {
+          "source": "TT_PAL",
+          "quote": "The temple is situated on the Sivagiri Hill"
+        }
+      ]
+    },
+    "T3M2": {
+      "place": "tamil-nadu/palani-murugan-temple",
+      "topic": "T3M2",
+      "claim": "Pilgrims climb the steps or use the elephant path, winch and ropeway.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "TT_PAL",
+          "quote": "Devotees can use the elephant path, winch and ropeway to reach the Lord’s abode."
+        }
+      ]
+    },
+    "T3M3": {
+      "place": "tamil-nadu/palani-murugan-temple",
+      "topic": "T3M3",
+      "claim": "The temple is open 6 am–8 pm; the winch runs 7 am–12.30 pm and 1.30–5 pm. Thai Poosam (January–February) is the main festival.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "TT_PAL",
+          "quote": "The temple is open from 6.00 am to 8.00 pm and on festival days, from 4.30 am."
+        },
+        {
+          "source": "TT_PAL",
+          "quote": "Pilgrims can use the winch-and-rope car from 7.00 am to 12.30 pm and from 1.30 pm to 5 pm."
+        },
+        {
+          "source": "TT_PAL",
+          "quote": "Thai-Poosam, which falls on the full moon day of the Tamil Thai month (January-February), is the most important festival of the temple."
+        }
+      ]
+    },
+    "T3M4": {
+      "place": "tamil-nadu/palani-murugan-temple",
+      "topic": "T3M4",
+      "claim": "Palani station is about 2 km away and Coimbatore airport about 114 km.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "TT_PAL",
+          "quote": "Coimbatore International Airport, about 114 km away. Palani Railway Station, about 2 km away."
+        }
+      ]
+    },
+    "T3Y1": {
+      "place": "tamil-nadu/yercaud",
+      "topic": "T3Y1",
+      "claim": "Yercaud lies in the Shevaroy hills, a 28 km drive from Salem; its name joins the Tamil for lake and forest.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "TT_YER",
+          "quote": "Nestled in the Shevaroys range of hills"
+        },
+        {
+          "source": "TT_YER",
+          "quote": "Take a 28 km drive from Salem and you reach Yercaud."
+        },
+        {
+          "source": "TT_YER",
+          "quote": "yeri means lake and forest means kaadu"
+        }
+      ]
+    },
+    "T3Y2": {
+      "place": "tamil-nadu/yercaud",
+      "topic": "T3Y2",
+      "claim": "Sights include the botanical garden and Orchidarium, boating on the lake, Lady's Seat, Anna Park, Pagoda Point and Kiliyur Falls; the summer festival is in May.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "TT_YER",
+          "quote": "You can't miss out the famous Orchidarium at Botanical survey of India."
+        },
+        {
+          "source": "TT_YER",
+          "quote": "If you feel like going by the lakeside, book a boat ride"
+        },
+        {
+          "source": "TT_YER",
+          "quote": "There is so much more to explore at Yercaud like Lady's Seat, Shevaroy Temple, Anna Park"
+        },
+        {
+          "source": "TT_YER",
+          "quote": "partake of the spirit of the summer festival held in May"
+        }
+      ]
+    },
+    "T3Y3": {
+      "place": "tamil-nadu/yercaud",
+      "topic": "T3Y3",
+      "claim": "The hills grow coffee, oranges, jackfruit, guava, pepper and cardamom.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "TT_YER",
+          "quote": "producer of crops like coffee, orange, jackfruit, guava, black pepper, and cardamom"
+        }
+      ]
+    },
+    "T3Y4": {
+      "place": "tamil-nadu/yercaud",
+      "topic": "T3Y4",
+      "claim": "Salem Junction is about 35 km away; October to June is the season.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "TT_YER",
+          "quote": "Salem Junction, about 35 km away October - June"
+        }
+      ]
+    },
+    "T3Y5": {
+      "place": "tamil-nadu/pagoda-point-yercaud",
+      "topic": "T3Y5",
+      "claim": "Pagoda Point looks over Salem, Kakambadi village and Yercaud's 21 hairpin bends; it is named for four pyramid-like piles of stones, with an old Rama temple nearby.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "TT_PAG",
+          "quote": "Pagoda Point gives a bird’s eye view of the entire town of Salem, the neighbouring village of Kakambadi, and the 21 hairpin bends of Yercaud."
+        },
+        {
+          "source": "TT_PAG",
+          "quote": "Also known as the Pyramid Point, because of the presence of four piles of stones arranged in the shape of a pyramid"
+        },
+        {
+          "source": "TT_PAG",
+          "quote": "there’s an old Rama temple nearby"
+        }
+      ]
+    },
+    "T3L1": {
+      "place": "tamil-nadu/kolli-hills",
+      "topic": "T3L1",
+      "claim": "Kolli Hills rise to 1,000–1,300 m and have pleasant weather all year, with tribal hamlets to visit.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "TT_KOL",
+          "quote": "Seated at an altitude of 1000-1300 metres above the sea level"
+        },
+        {
+          "source": "TT_KOL",
+          "quote": "Gifted with pleasant weather throughout the year"
+        },
+        {
+          "source": "TT_KOL",
+          "quote": "discovering the village life of tribal hamlets here"
+        }
+      ]
+    },
+    "T3L2": {
+      "place": "tamil-nadu/kolli-hills",
+      "topic": "T3L2",
+      "claim": "Agaya Gangai falls is reached down 1,000 steps; Siddhar caves, Vasalurpatty lake and the Selur viewpoint are other sights.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "TT_KOL",
+          "quote": "This is also known as Kollimalai falls. You descend 1000 steps to experience the magic."
+        },
+        {
+          "source": "TT_KOL",
+          "quote": "Discover the famous Siddhar caves which are so unique to Kolli hills."
+        },
+        {
+          "source": "TT_KOL",
+          "quote": "The artificial lake Vasalurpatty is another place that will catch your attention."
+        },
+        {
+          "source": "TT_KOL",
+          "quote": "Don't miss the spectacular view from Selur viewpoint"
+        }
+      ]
+    },
+    "T3L3": {
+      "place": "tamil-nadu/kolli-hills",
+      "topic": "T3L3",
+      "claim": "Salem Junction is about 88 km away and Trichy airport about 133 km; June to October is recommended.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "TT_KOL",
+          "quote": "Trichy Airport, about 133 km away Salem Junction, about 88 km away June - October"
+        }
+      ]
+    }
+  },
+  "places": [
+    {
+      "key": "tamil-nadu/coimbatore",
+      "kind": "city",
+      "name": "Coimbatore (Kovai)",
+      "parent": "tamil-nadu",
+      "summary": "Tamil Nadu's second city and textile hub — the gateway to the Nilgiris, Valparai and the Anamalai hills.",
+      "seoTitle": "Coimbatore (Kovai) — gateway to the Western Ghats",
+      "seoDescription": "Coimbatore: the 'Manchester of South India' near the Palghat Gap; airport 15 km from the centre; mild November–March. Gateway to Ooty and Valparai.",
+      "lat": 11.0168,
+      "lng": 76.9558,
+      "tripTypes": [
+        "nature",
+        "weekend"
+      ],
+      "sections": {
+        "overview": {
+          "text": "Coimbatore — known to almost everyone as Kovai — is Tamil Nadu's second-largest city and one of its great working centres. Its textile mills earned it the name Manchester of South India, and today it is also a hub for engineering, education, IT and healthcare.\n\nThe region was once known as Kongunadu, ruled in turn by local chieftains, the Cholas and later dynasties up to the Vijayanagara empire. For travellers, its value is its position: it lies near the Palghat Gap, with the Western Ghats rising on the horizon, and it makes a natural stopover for the Nilgiris, Valparai and the Anamalai hills. The airport at Peelamedu is about 15 km from the city centre. The weather is mildest from November to March, the best time to visit.",
+          "facts": [
+            "T3C1",
+            "T3C2",
+            "T3C4",
+            "T3C3"
+          ]
+        },
+        "key_facts": {
+          "items": [
+            {
+              "title": "Also called",
+              "body": "Kovai",
+              "status": "verified"
+            },
+            {
+              "title": "Airport",
+              "body": "Peelamedu, about 15 km from the centre",
+              "status": "verified"
+            },
+            {
+              "title": "Best time",
+              "body": "November–March",
+              "status": "seasonal"
+            }
+          ],
+          "facts": [
+            "T3C2",
+            "T3C3"
+          ]
+        },
+        "how_to_reach": {
+          "text": "Coimbatore International Airport at Peelamedu is about 15 km from the city centre.",
+          "facts": [
+            "T3C3"
+          ]
+        },
+        "best_time": {
+          "text": "November to March, when the weather is mild.",
+          "facts": [
+            "T3C3"
+          ]
+        }
+      },
+      "images": [
+        {
+          "commons": "File:Marudhamalai 2.jpg",
+          "alt": "Marudhamalai hill temple against green hills near Coimbatore",
+          "caption": "Marudhamalai temple, Coimbatore",
+          "hero": true
+        }
+      ]
+    },
+    {
+      "key": "tamil-nadu/valparai",
+      "kind": "town",
+      "name": "Valparai",
+      "parent": "tamil-nadu/coimbatore",
+      "summary": "A quiet tea town at 3,500 ft in the Anamalai hills — hornbills, lion-tailed macaques and waterfalls.",
+      "seoTitle": "Valparai — tea hills of the Anamalais",
+      "seoDescription": "Valparai: tea and coffee estates at 3,500 ft in the Anamalai hills, lion-tailed macaques, hornbills, Aliyar dam and Monkey Falls.",
+      "lat": 10.327,
+      "lng": 76.955,
+      "tripTypes": [
+        "nature",
+        "wildlife",
+        "mountains"
+      ],
+      "sections": {
+        "overview": {
+          "text": "Valparai is a small, quiet hill town at about 3,500 ft on the Anamalai range of the Western Ghats. The drive up is half the adventure, climbing hairpin bends through forest, and at the top the hills open out into tea plantations and coffee estates hemmed in by forest.\n\nThis is one of the best places in Tamil Nadu for wildlife. The Indira Gandhi Wildlife Sanctuary is home to lion-tailed macaques, barking deer and wild boar; the range is also a habitat of the Nilgiri tahr, and great, Malabar pied and grey hornbills are often seen. Around the town are the Upper Sholayar, Nirar and Aliyar dams, Monkey Falls and the forest path to Chinnakallar falls. Coimbatore airport is about 119 km away and Pollachi station about 64 km.",
+          "facts": [
+            "T3V1",
+            "T3V2",
+            "T3V3",
+            "T3V4"
+          ]
+        },
+        "things_to_do": {
+          "items": [
+            {
+              "body": "Walk through the tea estates."
+            },
+            {
+              "body": "Look for lion-tailed macaques in the Indira Gandhi Wildlife Sanctuary."
+            },
+            {
+              "body": "Watch for great and Malabar pied hornbills."
+            },
+            {
+              "body": "Visit Aliyar dam and Monkey Falls."
+            },
+            {
+              "body": "Follow the forest path to Chinnakallar falls."
+            }
+          ],
+          "facts": [
+            "T3V1",
+            "T3V2",
+            "T3V3"
+          ]
+        },
+        "how_to_reach": {
+          "text": "Coimbatore airport is about 119 km away; Pollachi railway station is about 64 km.",
+          "facts": [
+            "T3V4"
+          ]
+        },
+        "best_time": {
+          "text": "Tamil Nadu Tourism recommends December to January.",
+          "facts": [
+            "T3V4"
+          ]
+        }
+      },
+      "images": [
+        {
+          "commons": "File:Tea Estates in Valparai.jpg",
+          "alt": "Rolling tea estates under a blue sky at Valparai",
+          "caption": "Tea estates, Valparai",
+          "hero": true
+        }
+      ]
+    },
+    {
+      "key": "tamil-nadu/mudumalai-national-park",
+      "kind": "nature",
+      "name": "Mudumalai National Park",
+      "parent": "tamil-nadu/ooty",
+      "summary": "Tiger and elephant forest in the Nilgiris, linked to Bandipur and Wayanad — a tiger reserve since 2007.",
+      "seoTitle": "Mudumalai National Park and Tiger Reserve",
+      "seoDescription": "Mudumalai: 321 sq km of Nilgiri forest bordering Bandipur and Wayanad; tiger reserve since 2007, 266+ bird species, a key elephant corridor.",
+      "lat": 11.56,
+      "lng": 76.55,
+      "tripTypes": [
+        "wildlife",
+        "nature"
+      ],
+      "sections": {
+        "overview": {
+          "text": "Mudumalai National Park covers 321 sq km of forest on the slopes of the Nilgiris, at 850–1,250 m, where Tamil Nadu meets Karnataka and Kerala. It joins Wayanad Wildlife Sanctuary to the west and Bandipur National Park to the north, so together they form one great sweep of wild country.\n\nThat continuity matters most for elephants: Mudumalai and the neighbouring Sigur forest give the region's Asian elephants their best-connected range. The park was declared a tiger reserve in 2007, and records at least 266 bird species and 18 species of carnivore. Most of its rain falls in the southwest monsoon, from June to September. Drive slowly on the public roads through the park — traffic is a real danger to wildlife here.",
+          "facts": [
+            "T3D1",
+            "T3D2",
+            "T3D3",
+            "T3D4"
+          ]
+        },
+        "visit_info": {
+          "items": [
+            {
+              "title": "Area",
+              "body": "321 sq km",
+              "status": "verified"
+            },
+            {
+              "title": "Tiger reserve",
+              "body": "Since 2007",
+              "status": "verified"
+            },
+            {
+              "title": "Birds",
+              "body": "266+ species",
+              "status": "verified"
+            },
+            {
+              "title": "Monsoon",
+              "body": "June–September",
+              "status": "seasonal"
+            }
+          ],
+          "facts": [
+            "T3D1",
+            "T3D2",
+            "T3D3",
+            "T3D4"
+          ]
+        }
+      },
+      "images": [
+        {
+          "commons": "File:Camp Elephant Bath Self Mudumalai Mar21 A7C 00315.jpg",
+          "alt": "A camp elephant bathing in the river at Mudumalai",
+          "caption": "Camp elephant, Mudumalai",
+          "hero": true
+        }
+      ]
+    },
+    {
+      "key": "tamil-nadu/coonoor",
+      "kind": "town",
+      "name": "Coonoor",
+      "parent": "tamil-nadu",
+      "summary": "The Nilgiris' second hill station — misty tea gardens, Sim's Park, Lamb's Rock and the toy train to Ooty.",
+      "seoTitle": "Coonoor — tea gardens of the Nilgiris",
+      "seoDescription": "Coonoor: the Nilgiris' second-largest hill station — tea estates, Sim's Park, Lamb's Rock, Dolphin's Nose and the train to Ooty. Best October–March.",
+      "lat": 11.353,
+      "lng": 76.7959,
+      "tripTypes": [
+        "mountains",
+        "nature",
+        "weekend"
+      ],
+      "sections": {
+        "overview": {
+          "text": "Coonoor is the second-largest hill station in the Nilgiris, wrapped in tea plantations that are often clouded in mist. It is a place to slow down: walk the estates, find the waterfalls in the valleys and look out from its many viewpoints.\n\nIn town, Sim's Park — named after J D Sim, a former government secretary — is full of unusual plants and shrubs and good for birds such as bulbuls, babblers and robins; it also hosts an annual fruit and vegetable show. Further out are Lamb's Rock, Dolphin's Nose, Catherine and Law's falls and the old Droog Fort. Don't miss the Nilgiri train ride from Coonoor up to Ooty. Coimbatore airport is about 71 km away, and October to March is the best time to come.",
+          "facts": [
+            "T3O1",
+            "T3O2",
+            "T3O3",
+            "T3O4"
+          ]
+        },
+        "things_to_do": {
+          "items": [
+            {
+              "body": "Walk through the misty tea plantations."
+            },
+            {
+              "body": "Look for birds in Sim's Park."
+            },
+            {
+              "body": "Climb to Lamb's Rock for the view."
+            },
+            {
+              "body": "See Catherine Falls from Dolphin's Nose."
+            },
+            {
+              "body": "Ride the train from Coonoor to Ooty."
+            }
+          ],
+          "facts": [
+            "T3O1",
+            "T3O2",
+            "T3O3"
+          ]
+        },
+        "how_to_reach": {
+          "text": "Coimbatore airport and railway station are each about 71 km away.",
+          "facts": [
+            "T3O4"
+          ]
+        },
+        "best_time": {
+          "text": "October to March.",
+          "facts": [
+            "T3O4"
+          ]
+        }
+      },
+      "images": [
+        {
+          "commons": "File:Gandhipuram Tea Estate Coonoor Nilgiris Jun25 A7CR 05879.jpg",
+          "alt": "Houses on a hillside above tea estates in Coonoor",
+          "caption": "Tea estate, Coonoor",
+          "hero": true
+        }
+      ]
+    },
+    {
+      "key": "tamil-nadu/kotagiri",
+      "kind": "town",
+      "name": "Kotagiri",
+      "parent": "tamil-nadu/ooty",
+      "summary": "A quiet Nilgiri hill town at 1,793 m with tea factories and forest trails.",
+      "seoTitle": "Kotagiri, the Nilgiris",
+      "seoDescription": "Kotagiri: a quiet Nilgiri hill town at 1,793 m with tea tastings and trails to St Catherine Falls, Kodanad and Longwood Shola.",
+      "lat": 11.421,
+      "lng": 76.86,
+      "tripTypes": [
+        "mountains",
+        "nature"
+      ],
+      "sections": {
+        "overview": {
+          "text": "Kotagiri, at 1,793 m, is a less-explored Nilgiri hill town of green meadows and tea plantations. Stop at a tea factory for a tasting, then walk one of its well-known trails: the St Catherine Falls trail, the Kotagiri–Kodanad trail or the Kotagiri–Longwood Shola trail. December to May is the best time; Coimbatore station is about 69 km away.",
+          "facts": [
+            "T3K1"
+          ]
+        }
+      },
+      "displayMode": "parent_section"
+    },
+    {
+      "key": "tamil-nadu/tiruchirappalli",
+      "kind": "city",
+      "name": "Tiruchirappalli (Trichy)",
+      "parent": "tamil-nadu",
+      "summary": "Old Chola city on the Kaveri — the Rockfort, Srirangam's vast temple and Jambukeswarar.",
+      "seoTitle": "Tiruchirappalli (Trichy) — Rockfort and Srirangam",
+      "seoDescription": "Trichy: Chola city on the Kaveri with the Rockfort, Srirangam's Ranganathaswamy Temple and Jambukeswarar; airport 5 km from the city.",
+      "lat": 10.7905,
+      "lng": 78.7047,
+      "tripTypes": [
+        "heritage",
+        "spiritual"
+      ],
+      "sections": {
+        "overview": {
+          "text": "Tiruchirappalli — Trichy for short — is one of the oldest cities in Tamil Nadu. It stands on the banks of the Kaveri, where it was the citadel of the Early Cholas, and its landmark, the Rockfort, has its roots in the reign of the Pallava king Mahendravarman I.\n\nMost visitors come for the temples. Just north of the city, on an island in the river, Srirangam's Ranganathaswamy Temple is one of the largest temple complexes in the world; the Jambukeswarar Temple, to Shiva, and the Samayapuram Mariamman Temple are also important. For shopping, the government-run Poompuhar emporium sells bronzes, Thanjavur paintings and handwoven textiles. The international airport is only 5 km from the city, and Trichy Junction has direct trains to Chennai, Bengaluru, Mumbai and Delhi.",
+          "facts": [
+            "T3T1",
+            "T3S1",
+            "T3T2",
+            "T3T3",
+            "T3T4"
+          ]
+        },
+        "things_to_do": {
+          "items": [
+            {
+              "body": "Climb the Rockfort for views over the city and the Kaveri."
+            },
+            {
+              "body": "Spend a morning at Srirangam's Ranganathaswamy Temple."
+            },
+            {
+              "body": "Visit the Jambukeswarar and Samayapuram Mariamman temples."
+            },
+            {
+              "body": "Shop for bronzes and Thanjavur paintings at Poompuhar."
+            }
+          ],
+          "facts": [
+            "T3R1",
+            "T3S1",
+            "T3T2",
+            "T3T3"
+          ]
+        },
+        "how_to_reach": {
+          "text": "Tiruchirappalli's international airport is just 5 km from the city. Trichy Junction has direct trains to Chennai, Ernakulam, Bengaluru, Mumbai and New Delhi.",
+          "facts": [
+            "T3T4"
+          ]
+        },
+        "shopping": {
+          "items": [
+            {
+              "body": "Bronzes, Thanjavur paintings and handwoven textiles at the government-run Poompuhar emporium."
+            }
+          ],
+          "facts": [
+            "T3T3"
+          ]
+        }
+      },
+      "images": [
+        {
+          "commons": "File:Rock Fortress - Tiruchirappalli - India.JPG",
+          "alt": "Tiruchirappalli spread out below the Rockfort's temple tower",
+          "caption": "Trichy from the Rockfort",
+          "hero": true
+        }
+      ]
+    },
+    {
+      "key": "tamil-nadu/rockfort-temple-tiruchirappalli",
+      "kind": "temple",
+      "name": "Rockfort (Uchippillaiyar) Temple",
+      "parent": "tamil-nadu/tiruchirappalli",
+      "summary": "Trichy's landmark — a temple on a great rock, 437 steps up, with views over the city and Srirangam.",
+      "seoTitle": "Rockfort Temple, Tiruchirappalli",
+      "seoDescription": "Trichy's Rockfort: the Uchippillaiyar temple on a Pallava-carved rock, 437 steps up, with views of Srirangam. 3 km from Trichy Junction.",
+      "lat": 10.828,
+      "lng": 78.697,
+      "tripTypes": [
+        "heritage",
+        "spiritual"
+      ],
+      "sections": {
+        "overview": {
+          "text": "The Rockfort is Tiruchirappalli's landmark: a huge outcrop of rock rising from the middle of the city, crowned by the Uchippillaiyar temple to Ganesha. The ancient Pallavas first carved the rock, and the Nayaks of Madurai and the Vijayanagara empire later expanded and renovated the temples here, mixing their styles.\n\nThe climb is the experience. Some 437 steps, many cut into the rock, lead up past carved walls and shrines to the top, where the view takes in all of Trichy, Srirangam island with its towering gopurams, and the Rock Fort bridge over the Kaveri. Vinayaka Chaturthi is celebrated here with great pomp. The Rockfort is about 3 km from Trichy Junction and 12 km from the airport; December to March is the best time to climb.",
+          "facts": [
+            "T3R1",
+            "T3R2",
+            "T3R3"
+          ]
+        },
+        "visit_info": {
+          "items": [
+            {
+              "title": "Steps",
+              "body": "437",
+              "status": "verified"
+            },
+            {
+              "title": "From Trichy Junction",
+              "body": "About 3 km",
+              "status": "verified"
+            },
+            {
+              "title": "Best time",
+              "body": "December–March",
+              "status": "seasonal"
+            }
+          ],
+          "facts": [
+            "T3R1",
+            "T3R3"
+          ]
+        }
+      },
+      "images": [
+        {
+          "commons": "File:Rockfort ,trichy.jpg",
+          "alt": "The great granite rock of Trichy's Rockfort with the temple at its summit",
+          "caption": "Rockfort, Tiruchirappalli",
+          "hero": true
+        }
+      ]
+    },
+    {
+      "key": "tamil-nadu/srirangam-ranganathaswamy-temple",
+      "kind": "temple",
+      "name": "Ranganathaswamy Temple, Srirangam",
+      "parent": "tamil-nadu/tiruchirappalli",
+      "summary": "One of the world's largest working temple complexes — 21 towers on a Kaveri island, 12 km from Trichy.",
+      "seoTitle": "Ranganathaswamy Temple, Srirangam",
+      "seoDescription": "Srirangam: Vishnu's Ranganathaswamy Temple, foremost of the 108 Divya Desams — 63 hectares, 21 towers, a 73 m rajagopuram. 12 km from Trichy.",
+      "lat": 10.8625,
+      "lng": 78.6896,
+      "tripTypes": [
+        "spiritual",
+        "heritage"
+      ],
+      "sections": {
+        "overview": {
+          "text": "The Ranganathaswamy Temple at Srirangam is one of the largest functioning religious complexes in the world. Dedicated to Ranganathar, a form of Vishnu, it is the foremost of the 108 Divya Desams sacred to Vaishnavas, and it stands on an island between the Kollidam and Kaveri rivers, about 12 km north of Tiruchirappalli.\n\nIt is less a building than a town: the temple and its streets cover 63 hectares in seven concentric enclosures, with 81 shrines, 21 towers and 39 pavilions. The outer rajagopuram, about 73 m tall, was finished only in 1987. The temple's great 21-day festival in the Tamil month of Margazhi (December–January) draws about a million visitors. It is on UNESCO's tentative list. Allow at least half a day.",
+          "facts": [
+            "T3S1",
+            "T3S3",
+            "T3S2",
+            "T3S4"
+          ]
+        },
+        "visit_info": {
+          "items": [
+            {
+              "title": "Area",
+              "body": "63 hectares, 21 towers",
+              "status": "verified"
+            },
+            {
+              "title": "From Trichy",
+              "body": "About 12 km north",
+              "status": "verified"
+            },
+            {
+              "title": "Main festival",
+              "body": "21 days in Margazhi (Dec–Jan)",
+              "status": "seasonal"
+            }
+          ],
+          "facts": [
+            "T3S2",
+            "T3S3",
+            "T3S4"
+          ]
+        }
+      },
+      "images": [
+        {
+          "commons": "File:Ranganathaswamy Temple, Srirangam, Trichy Vaishnavism India.jpg",
+          "alt": "The painted gopuram of Srirangam's Ranganathaswamy Temple",
+          "caption": "Ranganathaswamy Temple, Srirangam",
+          "hero": true
+        }
+      ]
+    },
+    {
+      "key": "tamil-nadu/chidambaram-nataraja-temple",
+      "kind": "temple",
+      "name": "Thillai Nataraja Temple, Chidambaram",
+      "parent": "tamil-nadu",
+      "summary": "Shiva as the cosmic dancer — the great Chola-era temple of Chidambaram, carved with all 108 dance poses.",
+      "seoTitle": "Thillai Nataraja Temple, Chidambaram",
+      "seoDescription": "Chidambaram's Nataraja Temple: Shiva as lord of dance, all 108 karanas carved on its walls, the Natyanjali festival. 220 km south of Chennai.",
+      "lat": 11.3993,
+      "lng": 79.6934,
+      "tripTypes": [
+        "spiritual",
+        "heritage"
+      ],
+      "sections": {
+        "overview": {
+          "text": "The Thillai Nataraja Temple at Chidambaram is dedicated to Shiva as Nataraja, the lord of dance, and in Tamil Shaivism it is known simply as Kovil, the temple. Here Shiva is shown performing the Ananda Tandava, the dance of delight, in the golden hall at the heart of the shrine.\n\nThe link with dance runs through the whole temple. Its walls are carved with all 108 karanas — the postures described in the Natya Shastra — which form a foundation of Bharatanatyam, and every Maha Shivaratri the Natyanjali dance festival brings performers here. The complex covers 16 hectares, with tall gopurams and a large sacred tank. Chidambaram is about 220 km south of Chennai; the closest airport is about 60 km north at Puducherry.",
+          "facts": [
+            "T3H1",
+            "T3H2",
+            "T3H3"
+          ]
+        },
+        "visit_info": {
+          "items": [
+            {
+              "title": "Area",
+              "body": "16 hectares",
+              "status": "verified"
+            },
+            {
+              "title": "From Chennai",
+              "body": "About 220 km",
+              "status": "verified"
+            },
+            {
+              "title": "Festival",
+              "body": "Natyanjali, on Maha Shivaratri",
+              "status": "seasonal"
+            }
+          ],
+          "facts": [
+            "T3H2",
+            "T3H3"
+          ]
+        }
+      },
+      "images": [
+        {
+          "commons": "File:A view of Nataraja Shiva Temple at Chidambaram, Tamil Nadu (11).jpg",
+          "alt": "The carved and painted gopuram of the Nataraja temple at Chidambaram",
+          "caption": "Nataraja Temple, Chidambaram",
+          "hero": true
+        }
+      ]
+    },
+    {
+      "key": "tamil-nadu/velankanni",
+      "kind": "town",
+      "name": "Velankanni",
+      "parent": "tamil-nadu",
+      "summary": "A beach town and one of India's great Christian pilgrimages — the Basilica of Our Lady of Good Health.",
+      "seoTitle": "Velankanni — Basilica of Our Lady of Good Health",
+      "seoDescription": "Velankanni: the Basilica of Our Lady of Good Health and a beach town, 12 km from Nagapattinam. Best December–February.",
+      "lat": 10.681,
+      "lng": 79.849,
+      "tripTypes": [
+        "spiritual",
+        "beaches"
+      ],
+      "sections": {
+        "overview": {
+          "text": "Velankanni, on the coast 12 km from Nagapattinam, is one of the most famous Christian pilgrim destinations in India. Its heart is the Basilica of Our Lady of Good Health, a white church that draws believers from all over South India and far beyond, and millions of people come every year, for pilgrimage and for leisure.\n\nIt is also a beach town, with markets and churches lining the road down to the sea, and it has a long history: Velankanni was once an important port. Come between December and February for the best weather, though pilgrims arrive all year. Nagapattinam station is about 12 km away, and Tiruchirappalli airport about 153 km; regular buses link Velankanni with Trichy, Thanjavur, Chennai, Madurai and Puducherry.",
+          "facts": [
+            "T3E1",
+            "T3E2",
+            "T3E3"
+          ]
+        },
+        "how_to_reach": {
+          "text": "Nagapattinam railway station is about 12 km away and Tiruchirappalli airport about 153 km.",
+          "facts": [
+            "T3E3"
+          ]
+        },
+        "best_time": {
+          "text": "December to February, though pilgrims come all year.",
+          "facts": [
+            "T3E3"
+          ]
+        }
+      },
+      "images": [
+        {
+          "commons": "File:Shrine Basilica, Velankanni, Tamil Nadu.jpg",
+          "alt": "The white Gothic-style Basilica of Our Lady of Good Health, Velankanni",
+          "caption": "Basilica of Our Lady of Good Health",
+          "hero": true
+        }
+      ]
+    },
+    {
+      "key": "tamil-nadu/tharangambadi",
+      "kind": "town",
+      "name": "Tharangambadi (Tranquebar)",
+      "parent": "tamil-nadu",
+      "summary": "An old Danish trading town on the Bay of Bengal — Fort Dansborg, colonial lanes and quiet beaches.",
+      "seoTitle": "Tharangambadi (Tranquebar) — Fort Dansborg",
+      "seoDescription": "Tharangambadi: the old Danish town of Tranquebar — Fort Dansborg museum, New Jerusalem Church, quiet beaches. Best October–February.",
+      "lat": 11.029,
+      "lng": 79.855,
+      "tripTypes": [
+        "heritage",
+        "beaches"
+      ],
+      "sections": {
+        "overview": {
+          "text": "Tharangambadi — Tranquebar to the Danes who ruled it — is a small coastal town in Nagapattinam district with an unusual past. In the 17th century it was a busy port, and it became a Danish colony; their great work, Fort Dansborg, still stands by the sea and has been turned into a museum, with ramparts and bastions to walk and views over the Bay of Bengal.\n\nThe Danes also built the New Jerusalem Church, one of the oldest Protestant churches in India. Wander the narrow lanes of old houses, then head to the quiet beaches for sunset. The town's seafood is a must-try. Nagapattinam station is about 33 km away, with regular buses; October to February is the best season.",
+          "facts": [
+            "T3Q1",
+            "T3Q2",
+            "T3Q3",
+            "T3Q4"
+          ]
+        },
+        "things_to_do": {
+          "items": [
+            {
+              "body": "Explore Fort Dansborg and its museum."
+            },
+            {
+              "body": "Visit the New Jerusalem Church."
+            },
+            {
+              "body": "Walk the old lanes, then watch sunset on the beach."
+            },
+            {
+              "body": "Eat the local seafood."
+            }
+          ],
+          "facts": [
+            "T3Q1",
+            "T3Q2",
+            "T3Q3"
+          ]
+        },
+        "how_to_reach": {
+          "text": "Nagapattinam railway station is about 33 km away; buses run from Chennai, Nagapattinam and nearby cities.",
+          "facts": [
+            "T3Q4"
+          ]
+        },
+        "best_time": {
+          "text": "October to February.",
+          "facts": [
+            "T3Q4"
+          ]
+        }
+      },
+      "images": [
+        {
+          "commons": "File:Danish Fort (a view from outside).jpg",
+          "alt": "Fort Dansborg's sandy-coloured walls by the sea at Tharangambadi",
+          "caption": "Fort Dansborg, Tharangambadi",
+          "hero": true
+        }
+      ]
+    },
+    {
+      "key": "tamil-nadu/gingee-fort",
+      "kind": "attraction",
+      "name": "Gingee Fort",
+      "parent": "tamil-nadu",
+      "summary": "A hill fortress spread over three rocky hills — palaces, temples and tunnels, 160 km from Chennai.",
+      "seoTitle": "Gingee Fort (Senji)",
+      "seoDescription": "Gingee Fort: a three-hill fortress fought over by Cholas, Marathas, Mughals and the British, now a UNESCO site. 40 km from Villupuram.",
+      "lat": 12.253,
+      "lng": 79.409,
+      "tripTypes": [
+        "heritage",
+        "adventure"
+      ],
+      "sections": {
+        "overview": {
+          "text": "Gingee Fort spreads across three rocky hills in Villupuram district, its walls looping from summit to summit. Once considered impregnable, it was a prize fought over for centuries — by the Cholas and the Marathas, the Mughals and the British — and it is now recognised as a UNESCO World Heritage Site.\n\nInside the walls are the ruins of palaces and temples carved with gods and goddesses, watchtowers, and underground tunnels and secret passages once used to escape a siege. The climbs are steep but the views over the green hills and plains are superb; start early to avoid the heat. The fort is about 3 km from Gingee bus stand, 40 km from Villupuram Junction and 160 km from Chennai airport. December to March is the best time.",
+          "facts": [
+            "T3G1",
+            "T3G2",
+            "T3G3"
+          ]
+        },
+        "visit_info": {
+          "items": [
+            {
+              "title": "From Villupuram",
+              "body": "About 40 km",
+              "status": "verified"
+            },
+            {
+              "title": "From Chennai airport",
+              "body": "About 160 km",
+              "status": "verified"
+            },
+            {
+              "title": "Best time",
+              "body": "December–March",
+              "status": "seasonal"
+            }
+          ],
+          "facts": [
+            "T3G3"
+          ]
+        }
+      },
+      "images": [
+        {
+          "commons": "File:Gingee fort top view.jpg",
+          "alt": "Gingee's ruined fort buildings on a rocky hilltop above the plains",
+          "caption": "Gingee Fort",
+          "hero": true
+        }
+      ]
+    },
+    {
+      "key": "tamil-nadu/vellore-fort",
+      "kind": "attraction",
+      "name": "Vellore Fort",
+      "parent": "tamil-nadu",
+      "summary": "A 16th-century granite fort with a wide moat, a temple, church and mosque inside, and a museum.",
+      "seoTitle": "Vellore Fort",
+      "seoDescription": "Vellore Fort: 16th-century Vijayanagara granite fort with a moat, the Jalagandeeswarar Temple and a museum. Open 8 am–6 pm; entry Rs 5.",
+      "lat": 12.92,
+      "lng": 79.129,
+      "tripTypes": [
+        "heritage"
+      ],
+      "sections": {
+        "overview": {
+          "text": "Vellore Fort is one of the finest examples of military architecture in South India. Vijayanagara chieftains built it in the 16th century from granite quarried nearby, and it covers 133 acres behind a huge moat. It changed hands many times — the Adil Shahis of Bijapur, the Marathas, Daud Khan of Delhi — until the British took it in 1768 and held it until independence; under them, Tipu Sultan's family and Vikrama Rajasinha, the last king of Sri Lanka, were imprisoned here.\n\nInside the walls stand a mosque, a church and a temple side by side, along with palaces and a government museum. The Jalagandeeswarar Temple is famous for its sculpture. The fort is open from 8 am to 6 pm, and the museum from 9 am to 12.30 pm and 2 to 5 pm, except public holidays. Entry is Rs 5.",
+          "facts": [
+            "T3F1",
+            "T3F2",
+            "T3F3",
+            "T3F4"
+          ]
+        },
+        "visit_info": {
+          "items": [
+            {
+              "title": "Fort",
+              "body": "8 am–6 pm",
+              "status": "verified"
+            },
+            {
+              "title": "Museum",
+              "body": "9 am–12.30 pm, 2–5 pm; closed public holidays",
+              "status": "verified"
+            },
+            {
+              "title": "Entry",
+              "body": "Rs 5",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "T3F4"
+          ]
+        }
+      },
+      "images": [
+        {
+          "commons": "File:Vellore Fort 2.jpg",
+          "alt": "Vellore Fort's granite walls reflected in its wide moat",
+          "caption": "Vellore Fort",
+          "hero": true
+        }
+      ]
+    },
+    {
+      "key": "tamil-nadu/hogenakkal-falls",
+      "kind": "nature",
+      "name": "Hogenakkal Falls",
+      "parent": "tamil-nadu",
+      "summary": "The Kaveri thundering through 'smoky rocks' on the Karnataka border — ride a coracle beneath the falls.",
+      "seoTitle": "Hogenakkal Falls and coracle rides",
+      "seoDescription": "Hogenakkal: the Kaveri falls through 'smoky rocks' on the Karnataka border; coracle rides. 48 km from Dharmapuri; best October–February.",
+      "lat": 12.119,
+      "lng": 77.776,
+      "tripTypes": [
+        "nature",
+        "adventure"
+      ],
+      "sections": {
+        "overview": {
+          "text": "Hogenakkal sits on the Kaveri where it crosses from Karnataka into Tamil Nadu's Dharmapuri district. Its name means 'smoky rocks' in Kannada, and it fits: the river splits into countless streams that pour over the dark rock, throwing up spray like smoke, before turning into a white, frothing current.\n\nThe classic experience is a ride in a round coracle, drifting gently on the river beneath the falls and through the rocky channels. Downstream, the water flows on into the Mettur reservoir. Hogenakkal is good in every season, but October to February shows the falls in their full glory. Dharmapuri station is about 48 km away and Salem airport about 80 km; buses run from Dharmapuri and Krishnagiri.",
+          "facts": [
+            "T3W1",
+            "T3W2"
+          ]
+        },
+        "visit_info": {
+          "items": [
+            {
+              "title": "Must do",
+              "body": "Coracle ride",
+              "status": "verified"
+            },
+            {
+              "title": "From Dharmapuri station",
+              "body": "About 48 km",
+              "status": "verified"
+            },
+            {
+              "title": "Best time",
+              "body": "October–February",
+              "status": "seasonal"
+            }
+          ],
+          "facts": [
+            "T3W1",
+            "T3W2"
+          ]
+        }
+      },
+      "images": [
+        {
+          "commons": "File:Hogenakkal Falls 7.jpg",
+          "alt": "The Kaveri pouring over rock ledges at Hogenakkal under a rainbow",
+          "caption": "Hogenakkal Falls",
+          "hero": true
+        }
+      ]
+    },
+    {
+      "key": "tamil-nadu/courtallam-falls",
+      "kind": "nature",
+      "name": "Courtallam (Kutralam) Falls",
+      "parent": "tamil-nadu",
+      "summary": "Nine waterfalls in the Western Ghats near Tenkasi — bathe under the 60 m Main Falls.",
+      "seoTitle": "Courtallam (Kutralam) Falls",
+      "seoDescription": "Courtallam: nine falls near Tenkasi — the 60 m Main Falls, Five Falls, Honey Falls, Tiger Falls. Tenkasi station 15 km.",
+      "lat": 8.934,
+      "lng": 77.278,
+      "tripTypes": [
+        "nature"
+      ],
+      "sections": {
+        "overview": {
+          "text": "Courtallam — also spelled Coutrallam or Kutralam — is a cluster of nine waterfalls in the Western Ghats near Tenkasi, each with its own height and flow. People come to bathe under them as much as to look: the Main Falls (Peraruvi) drop 60 m, and their water is believed to have healing powers.\n\nA flight of steps from the Main Falls leads to the Small Falls. Honey Falls, 4 km away, is the prettiest; Five Falls spreads out in five streams; Tiger Falls is the best for families with children; and the Shenbaga Falls, reached by an uphill walk, has a temple nearby. Tenkasi station is about 15 km away. Tamil Nadu Tourism lists July, September to November and January to March as the best months.",
+          "facts": [
+            "T3U1",
+            "T3U2",
+            "T3U3"
+          ]
+        },
+        "visit_info": {
+          "items": [
+            {
+              "title": "Main Falls",
+              "body": "60 m",
+              "status": "verified"
+            },
+            {
+              "title": "From Tenkasi station",
+              "body": "About 15 km",
+              "status": "verified"
+            },
+            {
+              "title": "Best months",
+              "body": "July, Sep–Nov, Jan–Mar",
+              "status": "seasonal"
+            }
+          ],
+          "facts": [
+            "T3U1",
+            "T3U3"
+          ]
+        }
+      },
+      "images": [
+        {
+          "commons": "File:Courtallam Waterfalls.jpg",
+          "alt": "Water falling down a rock face at Courtallam",
+          "caption": "Courtallam Falls",
+          "hero": true
+        }
+      ]
+    },
+    {
+      "key": "tamil-nadu/padmanabhapuram-palace",
+      "kind": "attraction",
+      "name": "Padmanabhapuram Palace",
+      "parent": "tamil-nadu/kanyakumari",
+      "summary": "The old Travancore royal palace — one of Asia's largest in wood, near Nagercoil; closed Mondays.",
+      "seoTitle": "Padmanabhapuram Palace",
+      "seoDescription": "Padmanabhapuram Palace: Travancore's wooden palace from 1601, 6.5 acres and 15 buildings. Open 9–12.30 and 2–4.30; closed Mondays.",
+      "lat": 8.25,
+      "lng": 77.326,
+      "tripTypes": [
+        "heritage"
+      ],
+      "sections": {
+        "overview": {
+          "text": "Padmanabhapuram Palace, in Kanyakumari district, was the seat of the old kingdom of Travancore and is one of the largest wooden palaces in Asia. Its core, the Kalkulathu Koikkal, was built in 1601 by Iravi Varma Kulasekhara Perumal; much of the rest dates from the reign of Marthanda Varma, who dedicated the palace to Lord Padmanabha.\n\nThe complex covers 6.5 acres and holds 15 buildings, every one rich in intricate woodwork, in the traditional Kerala style. Though it stands in Tamil Nadu, the palace is owned and run by the Government of Kerala as a museum. It is open from 9 am to 12.30 pm and 2 to 4.30 pm, and closed on Mondays. Nagercoil station is about 17 km away and Trivandrum airport about 52 km.",
+          "facts": [
+            "T3P1",
+            "T3P2"
+          ]
+        },
+        "visit_info": {
+          "items": [
+            {
+              "title": "Timings",
+              "body": "9 am–12.30 pm, 2–4.30 pm",
+              "status": "verified"
+            },
+            {
+              "title": "Closed",
+              "body": "Mondays",
+              "status": "verified"
+            },
+            {
+              "title": "From Nagercoil station",
+              "body": "About 17 km",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "T3P2"
+          ]
+        }
+      },
+      "images": [
+        {
+          "commons": "File:Padmanabhapuram Clock Tower.jpg",
+          "alt": "Tiled roofs and the clock tower of Padmanabhapuram Palace",
+          "caption": "Padmanabhapuram Palace",
+          "hero": true
+        }
+      ]
+    },
+    {
+      "key": "tamil-nadu/suchindram-temple",
+      "kind": "temple",
+      "name": "Thanumalayan Temple, Suchindram",
+      "parent": "tamil-nadu/kanyakumari",
+      "summary": "A temple to Shiva, Vishnu and Brahma together, with a 44 m gopuram and musical stone pillars, near Kanyakumari.",
+      "seoTitle": "Thanumalayan Temple, Suchindram",
+      "seoDescription": "Suchindram's Thanumalayan Temple: Shiva, Vishnu and Brahma in one shrine, a 44 m gopuram, musical pillars. 3.8 km from Nagercoil.",
+      "lat": 8.155,
+      "lng": 77.467,
+      "tripTypes": [
+        "spiritual",
+        "heritage"
+      ],
+      "sections": {
+        "overview": {
+          "text": "The Thanumalayan Temple at Suchindram, in Kanyakumari district, is unusual among South Indian temples: it is dedicated to the trinity of Shiva, Vishnu and Brahma together. Its first structure was built around the 9th century, and it was later expanded by Thirumalai Nayak and the kings of Travancore, so its architecture mixes Kerala and Tamil styles.\n\nThe eastern gopuram rises 11 storeys to 44 m, and the complex holds 30 shrines across about 2 acres. Look for the four musical pillars, each carved from a single stone, and the dancing hall with 1,035 intricately carved pillars. Nagercoil Junction is only about 3.8 km away, so the temple pairs easily with a trip to Kanyakumari. October to March is the best time.",
+          "facts": [
+            "T3H5",
+            "T3H6",
+            "T3H7"
+          ]
+        },
+        "visit_info": {
+          "items": [
+            {
+              "title": "Gopuram",
+              "body": "11 storeys, 44 m",
+              "status": "verified"
+            },
+            {
+              "title": "From Nagercoil Junction",
+              "body": "About 3.8 km",
+              "status": "verified"
+            },
+            {
+              "title": "Best time",
+              "body": "October–March",
+              "status": "seasonal"
+            }
+          ],
+          "facts": [
+            "T3H5",
+            "T3H7"
+          ]
+        }
+      },
+      "images": [
+        {
+          "commons": "File:Suchindram Thanumalayan Temple 2014 (7).jpg",
+          "alt": "The tall white gopuram of the Thanumalayan Temple at Suchindram",
+          "caption": "Thanumalayan Temple, Suchindram",
+          "hero": true
+        }
+      ]
+    },
+    {
+      "key": "tamil-nadu/arunachaleswarar-temple",
+      "kind": "temple",
+      "name": "Arunachaleswarar Temple, Tiruvannamalai",
+      "parent": "tamil-nadu",
+      "summary": "Shiva's great temple beneath Arunachala hill, where a giant lamp is lit for Karthigai Deepam.",
+      "seoTitle": "Arunachaleswarar Temple, Tiruvannamalai",
+      "seoDescription": "Tiruvannamalai's Arunachaleswarar (Annamalaiyar) Temple: Chola roots, the Karthigai Deepam lamp on the hill. 2 km from the station.",
+      "lat": 12.231,
+      "lng": 79.068,
+      "tripTypes": [
+        "spiritual",
+        "heritage"
+      ],
+      "sections": {
+        "overview": {
+          "text": "The Arunachaleswarar — or Annamalaiyar — Temple lies at the foot of Arunachala hill in the town of Tiruvannamalai, and is one of the great Shiva temples of Tamil Nadu. At its heart is the Annamalaiyar lingam. Its history reaches back to the Cholas of the 9th century, and the Vijayanagara rulers and the Nayaks later added to it, giving it a blend of Dravidian, Chola and Vijayanagara styles.\n\nThe temple's greatest night is Karthigai Deepam, held each year in the Tamil month of Karthigai, when an enormous lamp is lit on top of the hill — a sight that stays with everyone who sees it. Tiruvannamalai station is about 2 km away and Chennai airport about 180 km. November to March is the best time.",
+          "facts": [
+            "T3A1",
+            "T3A2",
+            "T3A3"
+          ]
+        },
+        "visit_info": {
+          "items": [
+            {
+              "title": "From the station",
+              "body": "About 2 km",
+              "status": "verified"
+            },
+            {
+              "title": "Festival",
+              "body": "Karthigai Deepam, in Karthigai",
+              "status": "seasonal"
+            },
+            {
+              "title": "Best time",
+              "body": "November–March",
+              "status": "seasonal"
+            }
+          ],
+          "facts": [
+            "T3A3",
+            "T3A2"
+          ]
+        }
+      },
+      "images": [
+        {
+          "commons": "File:Thiruvannamalai, Arunachalesvara Temple, Annamalaiyar Temple, India.jpg",
+          "alt": "The Arunachaleswarar temple's gopurams seen from Arunachala hill",
+          "caption": "Arunachaleswarar Temple, Tiruvannamalai",
+          "hero": true
+        }
+      ]
+    },
+    {
+      "key": "tamil-nadu/palani-murugan-temple",
+      "kind": "temple",
+      "name": "Palani Murugan Temple",
+      "parent": "tamil-nadu",
+      "summary": "Lord Murugan's hilltop temple at Palani — climb the steps or take the winch; Thai Poosam is its great festival.",
+      "seoTitle": "Palani Dhandayuthapani Swamy (Murugan) Temple",
+      "seoDescription": "Palani: Murugan's hilltop temple on Sivagiri — steps, elephant path, winch and ropeway. Open 6 am–8 pm; Thai Poosam in Jan–Feb.",
+      "lat": 10.439,
+      "lng": 77.52,
+      "tripTypes": [
+        "spiritual"
+      ],
+      "sections": {
+        "overview": {
+          "text": "The Arulmigu Dhandayuthapani Swamy Temple crowns Sivagiri, the higher of Palani's two hills in Dindigul district, and is one of the richest temples in India. Its idol of Lord Murugan is made of navapashanam, a mix of nine herbal substances, attributed to the siddhar Bogar.\n\nPilgrims reach the top by climbing the steps, by the gentler elephant path, or by winch and ropeway. Many carry kavadi on their shoulders, and tonsuring is an important tradition. The temple is open from 6 am to 8 pm (from 4.30 am on festival days); the winch runs from 7 am to 12.30 pm and 1.30 to 5 pm. Thai Poosam, in January–February, is the biggest festival. Palani station is about 2 km away and Coimbatore airport about 114 km.",
+          "facts": [
+            "T3M1",
+            "T3M2",
+            "T3M3",
+            "T3M4"
+          ]
+        },
+        "visit_info": {
+          "items": [
+            {
+              "title": "Temple",
+              "body": "6 am–8 pm (4.30 am on festival days)",
+              "status": "verified"
+            },
+            {
+              "title": "Winch",
+              "body": "7 am–12.30 pm, 1.30–5 pm",
+              "status": "verified"
+            },
+            {
+              "title": "Main festival",
+              "body": "Thai Poosam, Jan–Feb",
+              "status": "seasonal"
+            }
+          ],
+          "facts": [
+            "T3M3"
+          ]
+        }
+      },
+      "images": [
+        {
+          "commons": "File:Arulmigu Dhandayuthapani Swamy Temple in Palany hill.jpg",
+          "alt": "Palani hill with the Murugan temple on its summit",
+          "caption": "Palani hill temple",
+          "hero": true
+        }
+      ]
+    },
+    {
+      "key": "tamil-nadu/yercaud",
+      "kind": "town",
+      "name": "Yercaud",
+      "parent": "tamil-nadu",
+      "summary": "A small hill station in the Shevaroy hills above Salem — a boating lake, orchids and viewpoints.",
+      "seoTitle": "Yercaud — Shevaroy hills",
+      "seoDescription": "Yercaud: hill station in the Shevaroys, 28 km from Salem — the lake, Orchidarium, Lady's Seat, Pagoda Point; summer festival in May.",
+      "lat": 11.779,
+      "lng": 78.209,
+      "tripTypes": [
+        "mountains",
+        "weekend"
+      ],
+      "sections": {
+        "overview": {
+          "text": "Yercaud is a compact, easygoing hill station in the Shevaroy hills, a 28 km drive up from Salem. Its name comes from the Tamil words for lake and forest, and those are still its pleasures: a placid lake for boating at the centre of town, and wooded slopes full of coffee estates and fruit orchards — the hills grow coffee, oranges, jackfruit, guava, black pepper and cardamom.\n\nStart at the botanical garden and the Orchidarium of the Botanical Survey of India, then take a boat out on the lake. Beyond town are viewpoints such as Lady's Seat and Pagoda Point, Anna Park with its flower show, the Shevaroy temple, Bear's Cave and Kiliyur Falls. The summer festival is held in May. Salem Junction is about 35 km away, and the season runs from October to June.",
+          "facts": [
+            "T3Y1",
+            "T3Y3",
+            "T3Y2",
+            "T3Y4"
+          ]
+        },
+        "things_to_do": {
+          "items": [
+            {
+              "body": "Take a boat out on Yercaud Lake."
+            },
+            {
+              "body": "See the orchids at the Botanical Survey of India's Orchidarium."
+            },
+            {
+              "body": "Watch the view from Lady's Seat and Pagoda Point."
+            },
+            {
+              "body": "Visit Anna Park and Kiliyur Falls."
+            },
+            {
+              "body": "Come in May for the summer festival."
+            }
+          ],
+          "facts": [
+            "T3Y2"
+          ]
+        },
+        "how_to_reach": {
+          "text": "Yercaud is a 28 km drive from Salem; Salem Junction is about 35 km away.",
+          "facts": [
+            "T3Y1",
+            "T3Y4"
+          ]
+        },
+        "best_time": {
+          "text": "October to June; the summer festival is in May.",
+          "facts": [
+            "T3Y4",
+            "T3Y2"
+          ]
+        }
+      },
+      "images": [
+        {
+          "commons": "File:Yercaud Lake - Boat House.jpg",
+          "alt": "Boats and the boat house on Yercaud Lake among tall trees",
+          "caption": "Yercaud Lake",
+          "hero": true
+        }
+      ]
+    },
+    {
+      "key": "tamil-nadu/pagoda-point-yercaud",
+      "kind": "viewpoint",
+      "name": "Pagoda Point",
+      "parent": "tamil-nadu/yercaud",
+      "summary": "Yercaud's eastern viewpoint over Salem and the 21 hairpin bends.",
+      "seoTitle": "Pagoda Point, Yercaud",
+      "seoDescription": "Pagoda Point: Yercaud's viewpoint over Salem, Kakambadi and the 21 hairpin bends.",
+      "lat": 11.793,
+      "lng": 78.231,
+      "tripTypes": [
+        "mountains"
+      ],
+      "sections": {
+        "overview": {
+          "text": "Pagoda Point, on the eastern edge of the Yercaud hills, gives a bird's-eye view of the whole town of Salem, the village of Kakambadi and the 21 hairpin bends of the ghat road. It is also called Pyramid Point, after four piles of stones arranged like a pyramid that resemble a temple tower, and there is an old Rama temple nearby.",
+          "facts": [
+            "T3Y5"
+          ]
+        }
+      },
+      "displayMode": "parent_section"
+    },
+    {
+      "key": "tamil-nadu/kolli-hills",
+      "kind": "nature",
+      "name": "Kolli Hills",
+      "parent": "tamil-nadu",
+      "summary": "Untamed hills at 1,000–1,300 m — 1,000 steps down to Agaya Gangai falls, Siddhar caves and tribal villages.",
+      "seoTitle": "Kolli Hills",
+      "seoDescription": "Kolli Hills: 1,000–1,300 m, Agaya Gangai falls down 1,000 steps, Siddhar caves, Selur viewpoint. 88 km from Salem Junction.",
+      "lat": 11.248,
+      "lng": 78.338,
+      "tripTypes": [
+        "nature",
+        "adventure",
+        "mountains"
+      ],
+      "sections": {
+        "overview": {
+          "text": "The Kolli Hills, in Namakkal district, rise to 1,000–1,300 m and enjoy pleasant weather all year round. They have an untamed feel, far from the busier hill stations, and you can get to know the village life of the tribal hamlets here.\n\nThe must-see is Agaya Gangai — also called the Kollimalai falls — reached by descending 1,000 steps; trekkers love the trail. Near the falls are the caves of the siddhars Bogar and Agastya, while others lie deep in the forest, 2–3 hours of steep trekking away. There is boating on Vasalurpatty lake, and the road to the Selur viewpoint, one of the highest points, runs through plantations and orange trees. Salem Junction is about 88 km away and Trichy airport about 133 km; June to October is recommended.",
+          "facts": [
+            "T3L1",
+            "T3L2",
+            "T3L3"
+          ]
+        },
+        "things_to_do": {
+          "items": [
+            {
+              "body": "Descend the 1,000 steps to Agaya Gangai falls."
+            },
+            {
+              "body": "Trek to the Siddhar caves."
+            },
+            {
+              "body": "Go boating on Vasalurpatty lake."
+            },
+            {
+              "body": "Take in the view from Selur viewpoint."
+            }
+          ],
+          "facts": [
+            "T3L2"
+          ]
+        },
+        "how_to_reach": {
+          "text": "Roads climb from Namakkal, Rasipuram and Salem. Salem Junction is about 88 km away and Trichy airport about 133 km.",
+          "facts": [
+            "T3L3"
+          ]
+        },
+        "best_time": {
+          "text": "Pleasant all year; Tamil Nadu Tourism recommends June to October.",
+          "facts": [
+            "T3L1",
+            "T3L3"
+          ]
+        }
+      },
+      "images": [
+        {
+          "commons": "File:Kolli hills.jpg",
+          "alt": "Forested escarpment of the Kolli Hills under cloud",
+          "caption": "Kolli Hills",
+          "hero": true
+        }
+      ]
+    }
+  ],
+  "itineraries": [],
+  "guides": []
+}

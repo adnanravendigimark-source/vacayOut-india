@@ -1,0 +1,1815 @@
+{
+  "cluster": "ka-new-1",
+  "title": "State gaps: ka-new-1",
+  "researchedAt": "2026-11-20",
+  "selection": "Karnataka gap fill: Mangaluru, Vijayapura, Bidar, Chikkamagaluru and the Hoysala temples, plus Kudremukh, Kodachadri, Talakaveri, Dandeli and Bandipur.",
+  "sources": {
+    "II_MNG": {
+      "url": "https://www.incredibleindia.gov.in/en/karnataka/mangalore",
+      "title": "Mangalore — Incredible India",
+      "authority": "government"
+    },
+    "II_KUD": {
+      "url": "https://www.incredibleindia.gov.in/en/karnataka/mangalore/kudremukh-national-park",
+      "title": "Kudremukh National Park — Incredible India",
+      "authority": "government"
+    },
+    "II_KOD": {
+      "url": "https://www.incredibleindia.gov.in/en/karnataka/mangalore/kodachadri-hills",
+      "title": "Kodachadri Hills — Incredible India",
+      "authority": "government"
+    },
+    "II_VJP": {
+      "url": "https://www.incredibleindia.gov.in/en/karnataka/vijayapura",
+      "title": "Vijayapura — Incredible India",
+      "authority": "government"
+    },
+    "II_GOL": {
+      "url": "https://www.incredibleindia.gov.in/en/karnataka/vijayapura/gol-gumbaz",
+      "title": "Gol Gumbaz — Incredible India",
+      "authority": "government"
+    },
+    "II_IBR": {
+      "url": "https://www.incredibleindia.gov.in/en/karnataka/vijayapura/ibrahim-rauza",
+      "title": "Ibrahim Rauza — Incredible India",
+      "authority": "government"
+    },
+    "II_BID": {
+      "url": "https://www.incredibleindia.gov.in/en/karnataka/bidar",
+      "title": "Bidar — Incredible India",
+      "authority": "government"
+    },
+    "II_BFT": {
+      "url": "https://www.incredibleindia.gov.in/en/karnataka/bidar/bidar-fort",
+      "title": "Bidar Fort — Incredible India",
+      "authority": "government"
+    },
+    "WP_CHK": {
+      "url": "https://en.wikipedia.org/wiki/Chikkamagaluru",
+      "title": "Chikkamagaluru — Wikipedia",
+      "authority": "reference"
+    },
+    "WP_MUL": {
+      "url": "https://en.wikipedia.org/wiki/Mullayanagiri",
+      "title": "Mullayanagiri — Wikipedia",
+      "authority": "reference"
+    },
+    "WP_BLR": {
+      "url": "https://en.wikipedia.org/wiki/Chennakeshava_Temple,_Belur",
+      "title": "Chennakeshava Temple, Belur — Wikipedia",
+      "authority": "reference"
+    },
+    "WP_HLB": {
+      "url": "https://en.wikipedia.org/wiki/Halebidu",
+      "title": "Halebidu — Wikipedia",
+      "authority": "reference"
+    },
+    "WP_SHR": {
+      "url": "https://en.wikipedia.org/wiki/Shravanabelagola",
+      "title": "Shravanabelagola — Wikipedia",
+      "authority": "reference"
+    },
+    "II_SOM": {
+      "url": "https://www.incredibleindia.gov.in/en/karnataka/somnathpura/keshava-temple",
+      "title": "Keshava Temple, Somanathapura — Incredible India",
+      "authority": "government"
+    },
+    "WP_BLR2": {
+      "url": "https://en.wikipedia.org/wiki/Chennakeshava_Temple,_Belur",
+      "title": "Chennakeshava Temple, Belur — Wikipedia",
+      "authority": "reference"
+    },
+    "II_TLK": {
+      "url": "https://www.incredibleindia.gov.in/en/karnataka/coorg/talakaveri",
+      "title": "Talakaveri — Incredible India",
+      "authority": "government"
+    },
+    "II_DAN": {
+      "url": "https://www.incredibleindia.gov.in/en/karnataka/dharwad/dandeli-national-park",
+      "title": "Dandeli National Park — Incredible India",
+      "authority": "government"
+    },
+    "WP_BAN": {
+      "url": "https://en.wikipedia.org/wiki/Bandipur_National_Park",
+      "title": "Bandipur National Park — Wikipedia",
+      "authority": "reference"
+    }
+  },
+  "facts": {
+    "K1M1": {
+      "place": "karnataka/mangaluru",
+      "topic": "K1M1",
+      "claim": "Mangaluru was once the port of 'Mangalapura', trading with Arabia, Persia and Europe; Vasco da Gama landed here in the 16th century.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_MNG",
+          "quote": "it served as a flourishing port city, known then as 'Mangalapura'"
+        },
+        {
+          "source": "II_MNG",
+          "quote": "attracting traders from distant lands such as Arabia, Persia, and Europe"
+        },
+        {
+          "source": "II_MNG",
+          "quote": "In the 16th century, the Portuguese explorer Vasco da Gama landed on the shores of Mangalore"
+        }
+      ]
+    },
+    "K1M2": {
+      "place": "karnataka/mangaluru",
+      "topic": "K1M2",
+      "claim": "The city's food is known for neer dosa and Mangalorean fish curry.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_MNG",
+          "quote": "dishes such as dosa, idli, neer dosa, and Mangalorean fish curry"
+        }
+      ]
+    },
+    "K1M3": {
+      "place": "karnataka/mangaluru",
+      "topic": "K1M3",
+      "claim": "Sultan Battery, Tipu Sultan's 18th-century watchtower, looks over the Arabian Sea; the 10th-century Kadri Manjunath Temple has a sacred tank; St Aloysius Chapel is famous for its frescoes.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_MNG",
+          "quote": "This historic watchtower, built by Tipu Sultan in the 18th century, offers panoramic views of the Arabian Sea"
+        },
+        {
+          "source": "II_MNG",
+          "quote": "Dating back to the 10th century, this ancient temple dedicated to Lord Shiva features intricate carvings, a sacred tank"
+        },
+        {
+          "source": "II_MNG",
+          "quote": "the iconic St. Aloysius Chapel, adorned with exquisite frescoes"
+        }
+      ]
+    },
+    "K1M4": {
+      "place": "karnataka/mangaluru",
+      "topic": "K1M4",
+      "claim": "Tulu, Konkani, Kannada and Malayalam are all spoken in the city.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_MNG",
+          "quote": "The city's cultural fabric is woven with threads of Tulu, Konkani, Kannada, and Malayal"
+        }
+      ]
+    },
+    "K1K1": {
+      "place": "karnataka/kudremukh-national-park",
+      "topic": "K1K1",
+      "claim": "Kudremukh National Park covers over 600 sq km of rainforest, grassland and shola in the Western Ghats.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_KUD",
+          "quote": "spanning over 600 square kilometres"
+        },
+        {
+          "source": "II_KUD",
+          "quote": "including tropical rainforests, grasslands, and shola forests"
+        }
+      ]
+    },
+    "K1K2": {
+      "place": "karnataka/kudremukh-national-park",
+      "topic": "K1K2",
+      "claim": "Treks include Kudremukh Peak and the Bhagavathi Nature Camp; elephants and tigers live here.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_KUD",
+          "quote": "Whether you're scaling the iconic Kudremukh Peak or meandering through the Bhagavathi Nature Camp"
+        },
+        {
+          "source": "II_KUD",
+          "quote": "From majestic elephants and elusive tigers"
+        }
+      ]
+    },
+    "K1K3": {
+      "place": "karnataka/kudremukh-national-park",
+      "topic": "K1K3",
+      "claim": "It is open 10 am to 5 pm; Sringeri is about 60 km away.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_KUD",
+          "quote": "Opening time - 10:00 AM Closing time - 05:00 PM"
+        },
+        {
+          "source": "II_KUD",
+          "quote": "Situated approximately 60 kilometres from Kudremukh, Sringeri"
+        }
+      ]
+    },
+    "K1C1": {
+      "place": "karnataka/kodachadri",
+      "topic": "K1C1",
+      "claim": "Kodachadri rises to about 1,343 m and has a stone Mookambika temple at its peak.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_KOD",
+          "quote": "towering at an estimated elevation of around 1,343 meter"
+        },
+        {
+          "source": "II_KOD",
+          "quote": "The temple of Mookambika that stands at the peak of Kodachadri"
+        }
+      ]
+    },
+    "K1C2": {
+      "place": "karnataka/kodachadri",
+      "topic": "K1C2",
+      "claim": "Its name is said to mean 'jasmine of the hills'; it is linked with the Kadamba dynasty and sheltered Queen Chennamma of Keladi.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_KOD",
+          "quote": "Kodachadri, translated as \"Jasmin of the Hills,\""
+        },
+        {
+          "source": "II_KOD",
+          "quote": "the bygone Kadamba dynasty"
+        },
+        {
+          "source": "II_KOD",
+          "quote": "the brave Queen Chennamma of Keladi"
+        }
+      ]
+    },
+    "K1C3": {
+      "place": "karnataka/kodachadri",
+      "topic": "K1C3",
+      "claim": "Kollur Mookambika Temple is about 20 km away and Nagara Fort about 4 miles.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_KOD",
+          "quote": "around 20 kilometers away from Kodachadri lies the prominent Kollur Mookambika Temple"
+        },
+        {
+          "source": "II_KOD",
+          "quote": "Nagara Fort, which is situated about 4 miles from Kodachadri"
+        }
+      ]
+    },
+    "K1V1": {
+      "place": "karnataka/vijayapura",
+      "topic": "K1V1",
+      "claim": "Vijayapura (Bijapur) lies in the north of the Karnataka plateau; it flourished from the late 15th to the late 17th century.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_VJP",
+          "quote": "It is situated in the northern part of the Karnataka Plateau"
+        },
+        {
+          "source": "II_VJP",
+          "quote": "From the late 15th century to the late 17th century."
+        }
+      ]
+    },
+    "K1V2": {
+      "place": "karnataka/vijayapura",
+      "topic": "K1V2",
+      "claim": "Its sights include Gol Gumbaz, whose 44 m dome is among the world's largest unsupported domes, the Jama Masjid, the giant cannon Malik-e-Maidan and Asar Mahal.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_VJP",
+          "quote": "Its massive dome, spanning 44 meters in diameter, is one of the largest unsupported domes in the world."
+        },
+        {
+          "source": "II_VJP",
+          "quote": "Malik-e-Maidan (literally, \"Master of the Field\") - one of the largest mediaeval cannons in the world"
+        }
+      ]
+    },
+    "K1G1": {
+      "place": "karnataka/gol-gumbaz",
+      "topic": "K1G1",
+      "claim": "Gol Gumbaz, Mohammed Adil Shah's mausoleum, stands 210 ft high; its dome is second in size only to St Peter's in Rome, and its whispering gallery echoes 10–11 times.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_GOL",
+          "quote": "Gol Gumbaz stands proud at an incredible 210 feet"
+        },
+        {
+          "source": "II_GOL",
+          "quote": "second in size only to St Peter's Basilica in Rome"
+        },
+        {
+          "source": "II_GOL",
+          "quote": "with sounds reverberating 10-11 times"
+        }
+      ]
+    },
+    "K1G2": {
+      "place": "karnataka/gol-gumbaz",
+      "topic": "K1G2",
+      "claim": "It took two decades to build and is open 10 am to 5 pm.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_GOL",
+          "quote": "Gol Gumbaz was built over two decades"
+        },
+        {
+          "source": "II_GOL",
+          "quote": "Opening time - 10:00 AM Closing time - 05:00 PM"
+        }
+      ]
+    },
+    "K1I1": {
+      "place": "karnataka/ibrahim-rauza",
+      "topic": "K1I1",
+      "claim": "Ibrahim Rauza, called the 'Taj Mahal of the Deccan', is the tomb of Ibrahim Adil Shah II and his queen, with a mosque facing it across a terrace of fountains and pools.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_IBR",
+          "quote": "Often called the 'Taj Mahal of the Deccan,'"
+        },
+        {
+          "source": "II_IBR",
+          "quote": "Built as a mausoleum for Ibrahim Adil Shah II and his beloved queen"
+        },
+        {
+          "source": "II_IBR",
+          "quote": "To the west, a mosque rises"
+        }
+      ]
+    },
+    "K1I2": {
+      "place": "karnataka/ibrahim-rauza",
+      "topic": "K1I2",
+      "claim": "It is built of limestone and dark basalt and blends Hindu and Islamic art; it is open 6 am to 6 pm.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_IBR",
+          "quote": "a time machine wrapped in limestone and dark basalt"
+        },
+        {
+          "source": "II_IBR",
+          "quote": "The harmonious blend of Hindu and Islamic artistic traditions"
+        },
+        {
+          "source": "II_IBR",
+          "quote": "Opening time - 06:00 AM Closing time - 06:00 PM"
+        }
+      ]
+    },
+    "K1B1": {
+      "place": "karnataka/bidar",
+      "topic": "K1B1",
+      "claim": "Bidar, the 'City of Whispering Monuments' in northern Karnataka, has over 2,000 years of history; its fort dates from the 14th-century Bahmani Sultanate.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_BID",
+          "quote": "Bidar, often dubbed as the \"City of Whispering Monuments,\""
+        },
+        {
+          "source": "II_BID",
+          "quote": "Bidar boasts a history spanning over two thousand years"
+        },
+        {
+          "source": "II_BID",
+          "quote": "which was constructed during the Bahmani Sultanate period in the 14th century"
+        }
+      ]
+    },
+    "K1B2": {
+      "place": "karnataka/bidar",
+      "topic": "K1B2",
+      "claim": "Gurudwara Nanak Jhira Sahib honours Guru Nanak's visit; the Bahmani Tombs and markets of crafts and textiles are other draws.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_BID",
+          "quote": "the Gurudwara Nanak Jhira Sahib , built to honour the visit of Guru Nanak Dev Ji"
+        },
+        {
+          "source": "II_BID",
+          "quote": "Exploring Bidar's bustling markets offers a chance to discover handicrafts, textiles, and souvenirs."
+        }
+      ]
+    },
+    "K1F1": {
+      "place": "karnataka/bidar-fort",
+      "topic": "K1F1",
+      "claim": "Bidar Fort, rebuilt after Ahmed Shah Wali made Bidar the Bahmani capital in 1430, has 37 octagonal bastions and more than 30 Islamic buildings including Rangin Mahal, Gagan Mahal and Takhat Mahal.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_BFT",
+          "quote": "until Sultan Ahmed Shah Wali of Bahmani Dynasty made Bidar his capital in 1430"
+        },
+        {
+          "source": "II_BFT",
+          "quote": "this fortress boasts 37 massive octagonal bastions"
+        },
+        {
+          "source": "II_BFT",
+          "quote": "Home to more than 30 Islamic structures such as Rangin Mahal, Gagan Mahal and Takhat Mahal"
+        }
+      ]
+    },
+    "K1F2": {
+      "place": "karnataka/bidar-fort",
+      "topic": "K1F2",
+      "claim": "It is 2.5 km from Bidar railway station.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_BFT",
+          "quote": "At only 2.5 kilometres away from Bidar Railway Station"
+        }
+      ]
+    },
+    "K1H1": {
+      "place": "karnataka/chikkamagaluru",
+      "topic": "K1H1",
+      "claim": "Chikkamagaluru lies in the foothills of the Chandra Drona range of the Western Ghats and is known for its hill-station climate, rainforest and coffee estates.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WP_CHK",
+          "quote": "Located on the foothills of the Chandra Drona Mountain range of the Western Ghats, the city attracts tourists from around the world for its pleasant and favourable hill station climate, tropical rainforest and coffee estates."
+        }
+      ]
+    },
+    "K1H2": {
+      "place": "karnataka/chikkamagaluru",
+      "topic": "K1H2",
+      "claim": "Baba Budangiri, to the north, is where Baba Budan is believed to have introduced coffee to India.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WP_CHK",
+          "quote": "The pristine Baba Budangiri lies to the north of Chikmagalur, where it is believed that Baba Budan introduced coffee to India."
+        }
+      ]
+    },
+    "K1H3": {
+      "place": "karnataka/chikkamagaluru",
+      "topic": "K1H3",
+      "claim": "It is about 240 km from Bengaluru and 183 km from Mysuru; temperatures run 11–20 °C in winter and 25–32 °C in summer.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WP_CHK",
+          "quote": "Chikmagalur is around 240 km from the state capital Bengaluru, 183 km from Mysore"
+        },
+        {
+          "source": "WP_CHK",
+          "quote": "The temperature of the city varies from 11–20 °C (52–68 °F) during winter to 25–32 °C (77–90 °F) during summer."
+        }
+      ]
+    },
+    "K1Y1": {
+      "place": "karnataka/mullayanagiri",
+      "topic": "K1Y1",
+      "claim": "Mullayanagiri, at 1,925 m, is the highest peak in Karnataka.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WP_MUL",
+          "quote": "With a height of 1,925 metres (6,316 ft), it is the highest peak in Karnataka"
+        }
+      ]
+    },
+    "K1Y2": {
+      "place": "karnataka/mullayanagiri",
+      "topic": "K1Y2",
+      "claim": "A small temple to the sage Mullappa Swamy stands at the summit, near shallow caves where he is believed to have meditated.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WP_MUL",
+          "quote": "The summit of Mullayanagiri has a small temple"
+        },
+        {
+          "source": "WP_MUL",
+          "quote": "which is dedicated to a sage \"Mullappa swamy\" who is believed to have meditated at the caves only a couple of feet below the summit"
+        }
+      ]
+    },
+    "K1L1": {
+      "place": "karnataka/chennakeshava-temple-belur",
+      "topic": "K1L1",
+      "claim": "The Chennakeshava Temple at Belur was commissioned by King Vishnuvardhana in 1117 on the Yagachi river and took 103 years to finish.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WP_BLR",
+          "quote": "It was commissioned by King Vishnuvardhana in 1117 CE, on the banks of the Yagachi River in Belur, an early Hoysala Empire capital."
+        },
+        {
+          "source": "WP_BLR",
+          "quote": "The temple was built over three generations and took 103 years to finish."
+        }
+      ]
+    },
+    "K1L2": {
+      "place": "karnataka/chennakeshava-temple-belur",
+      "topic": "K1L2",
+      "claim": "It is 35 km from Hassan and about 220 km from Bengaluru; dedicated to Vishnu, it has been in worship since it was built.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WP_BLR",
+          "quote": "It is located 35 km from Hassan city and about 220 km from Bengaluru."
+        },
+        {
+          "source": "WP_BLR",
+          "quote": "The temple is dedicated to Vishnu and has been an active Hindu temple since its inception."
+        }
+      ]
+    },
+    "K1L3": {
+      "place": "karnataka/chennakeshava-temple-belur",
+      "topic": "K1L3",
+      "claim": "With Halebidu and Somanathapura it was declared a UNESCO World Heritage Site in 2023 as the Sacred Ensembles of the Hoysalas.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WP_BLR",
+          "quote": "was declared a World Heritage Site by UNESCO in 2023 as part of the Sacred Ensembles of the Hoysalas"
+        }
+      ]
+    },
+    "K1D1": {
+      "place": "karnataka/halebidu",
+      "topic": "K1D1",
+      "claim": "Halebidu, once Dvarasamudra, became the Hoysala capital in the 11th century; its monuments include the Hoysalesvara and Kedareshwara temples, Jain basadis and the Hulikere stepwell.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WP_HLB",
+          "quote": "Historically known as Dvārasamudra (also Dorasamudra), Halebidu became the regal capital of the Hoysala Empire in the 11th century CE."
+        },
+        {
+          "source": "WP_HLB",
+          "quote": "Most notable among the Halebidu monuments are the ornate Hoysalesvara temple, Kedareshwara temple, Jaina Basadi temples, as well as the Hulikere step well (kalyani)."
+        }
+      ]
+    },
+    "K1D2": {
+      "place": "karnataka/halebidu",
+      "topic": "K1D2",
+      "claim": "Halebidu is 30 km from Hassan, 150 km from Mysuru and about 15 km from Belur.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WP_HLB",
+          "quote": "Halebidu is connected by road to Hassan on SH-21 (30 km), Mysore (150 km)"
+        },
+        {
+          "source": "WP_HLB",
+          "quote": "It is about 15 kilometers from Belur"
+        }
+      ]
+    },
+    "K1S1": {
+      "place": "karnataka/shravanabelagola",
+      "topic": "K1S1",
+      "claim": "Shravanabelagola's 57-ft monolithic Gommateshwara Bahubali statue on Vindhyagiri is one of Jainism's most important pilgrimage sites.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WP_SHR",
+          "quote": "The festival is held in veneration of a 17.3736 metres (57.000 ft) high monolithic statue of the Siddha Bahubali."
+        },
+        {
+          "source": "WP_SHR",
+          "quote": "is one of the most important tirthas (pilgrimage destinations) in Jainism"
+        }
+      ]
+    },
+    "K1S2": {
+      "place": "karnataka/shravanabelagola",
+      "topic": "K1S2",
+      "claim": "The Mahamastakabhisheka anointing is held every 12 years; the last was in February 2018 and the next is due in 2030.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WP_SHR",
+          "quote": "Every twelve years, thousands of devotees congregate here to perform the Mahamastakabhisheka"
+        },
+        {
+          "source": "WP_SHR",
+          "quote": "Recently Mahamastakabhisheka was held in 2018 during feb month."
+        },
+        {
+          "source": "WP_SHR",
+          "quote": "The next Mahamastakabhisheka will be held in 2030."
+        }
+      ]
+    },
+    "K1S3": {
+      "place": "karnataka/shravanabelagola",
+      "topic": "K1S3",
+      "claim": "Chandragupta Maurya is said to have died on Chandragiri hill in 298 BCE.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WP_SHR",
+          "quote": "Chandragupta Maurya is said to have died on the hill of Chandragiri, which is located in Shravanabelagola, in 298 BCE"
+        }
+      ]
+    },
+    "K1S4": {
+      "place": "karnataka/shravanabelagola",
+      "topic": "K1S4",
+      "claim": "It is 144 km from Bengaluru, 83 km from Mysuru, 51 km from Hassan and 89 km from Belur.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WP_SHR",
+          "quote": "89 km (55 mi) from Belur, 83 km (52 mi) from Mysuru, 144 km (89 mi) from Bengaluru"
+        },
+        {
+          "source": "WP_SHR",
+          "quote": "It is at a distance of 51 km (32 mi) south-east of Hassan"
+        }
+      ]
+    },
+    "K1N1": {
+      "place": "karnataka/somanathapura-keshava-temple",
+      "topic": "K1N1",
+      "claim": "The Keshava Temple at Somanathapura was built in the 13th-century reign of Hoysala king Narasimha III; open 9 am to 5:30 pm; best October to March.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_SOM",
+          "quote": "Constructed during Hoysala King Narasimha III's 13th-century reign"
+        },
+        {
+          "source": "II_SOM",
+          "quote": "Opening time - 09:00 AM Closing time - 05:30 PM"
+        },
+        {
+          "source": "II_SOM",
+          "quote": "typically from October to March"
+        }
+      ]
+    },
+    "K1N2": {
+      "place": "karnataka/somanathapura-keshava-temple",
+      "topic": "K1N2",
+      "claim": "It is part of the UNESCO-listed Sacred Ensembles of the Hoysalas (2023).",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WP_BLR2",
+          "quote": "the Keshava Temple at Somanathapura, was declared a World Heritage Site by UNESCO in 2023 as part of the Sacred Ensembles of the Hoysalas"
+        }
+      ]
+    },
+    "K1T1": {
+      "place": "karnataka/talakaveri",
+      "topic": "K1T1",
+      "claim": "Talakaveri, at about 1,276 m in the Brahmagiri hills, is revered as the source of the Kaveri.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_TLK",
+          "quote": "Talakaveri is revered as the source of the sacred River Kaveri"
+        },
+        {
+          "source": "II_TLK",
+          "quote": "Talakaveri sits at an elevation of approximately 1,276 metres"
+        }
+      ]
+    },
+    "K1T2": {
+      "place": "karnataka/talakaveri",
+      "topic": "K1T2",
+      "claim": "It is about 48 km from Madikeri; Kannur airport is about 120 km away and Mysuru the nearest major station. Best October–March.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_TLK",
+          "quote": "Talakaveri is located about 48 km from Madikeri"
+        },
+        {
+          "source": "II_TLK",
+          "quote": "Kannur International Airport (CNN) is the nearest airport, approximately 120 km away."
+        },
+        {
+          "source": "II_TLK",
+          "quote": "The ideal time to visit Talakaveri is from October to March"
+        }
+      ]
+    },
+    "K1E1": {
+      "place": "karnataka/dandeli",
+      "topic": "K1E1",
+      "claim": "Dandeli, in the Western Ghats' evergreen forest, has over 60 elephants under Project Elephant, tigers in the Kali Tiger Reserve, and leopards.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_DAN",
+          "quote": "are home to over 60 elephants and are protected under Project Elephant"
+        },
+        {
+          "source": "II_DAN",
+          "quote": "tigers are sighted often in the protected Dandeli (Kali) Tiger Reserve"
+        }
+      ]
+    },
+    "K1E2": {
+      "place": "karnataka/dandeli",
+      "topic": "K1E2",
+      "claim": "More than 300 bird species have been seen, including Malabar pied, Indian grey and great hornbills.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_DAN",
+          "quote": "with more than 300 species of avian life having been sighted here"
+        },
+        {
+          "source": "II_DAN",
+          "quote": "the malabar pied hornbill, Indian grey hornbill, and great hornbill are commonly found"
+        }
+      ]
+    },
+    "K1E3": {
+      "place": "karnataka/dandeli",
+      "topic": "K1E3",
+      "claim": "It is open 9 am to 6 pm.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_DAN",
+          "quote": "Opening time - 09:00 AM Closing time - 06:00 PM"
+        }
+      ]
+    },
+    "K1P1": {
+      "place": "karnataka/bandipur-national-park",
+      "topic": "K1P1",
+      "claim": "Bandipur National Park covers 1,456.3 sq km in Chamarajanagar district and became a Project Tiger reserve in 1973.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WP_BAN",
+          "quote": "Bandipur National Park is a national park covering 1,456.3 km2 (562.3 sq mi) in Chamarajnagar district"
+        },
+        {
+          "source": "WP_BAN",
+          "quote": "It was established as a tiger reserve under Project Tiger in 1973."
+        }
+      ]
+    },
+    "K1P2": {
+      "place": "karnataka/bandipur-national-park",
+      "topic": "K1P2",
+      "claim": "It began as the Maharaja of Mysore's 90 sq km Venugopala Wildlife Park in 1931.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WP_BAN",
+          "quote": "The Maharaja of the Kingdom of Mysore created a sanctuary of 90 km2 (35 sq mi) in 1931 and named it the Venugopala Wildlife Park."
+        }
+      ]
+    },
+    "K1P3": {
+      "place": "karnataka/bandipur-national-park",
+      "topic": "K1P3",
+      "claim": "Its animals include Asian elephant, gaur, tiger, sloth bear and dhole; chital, langurs and giant squirrels are common along the roads.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WP_BAN",
+          "quote": "Bandipur National Park harbours the Asian elephant, gaur, Bengal tiger, sloth bear, four-horned antelope, golden jackal and dhole."
+        },
+        {
+          "source": "WP_BAN",
+          "quote": "The commonly seen mammals along the public access roads in the park include chital, gray langur, Indian giant squirrel and Indian elephant."
+        }
+      ]
+    }
+  },
+  "places": [
+    {
+      "key": "karnataka/mangaluru",
+      "kind": "city",
+      "name": "Mangaluru (Mangalore)",
+      "parent": "karnataka",
+      "summary": "Karnataka's old port city on the Arabian Sea — Kadri temple, Sultan Battery, painted chapels and famous fish curry.",
+      "seoTitle": "Mangaluru (Mangalore) — coast, temples and food",
+      "seoDescription": "Mangaluru: the old port of Mangalapura — Kadri Manjunath Temple, Sultan Battery, St Aloysius Chapel's frescoes, neer dosa and fish curry.",
+      "lat": 12.9141,
+      "lng": 74.856,
+      "tripTypes": [
+        "beaches",
+        "food",
+        "heritage"
+      ],
+      "images": [
+        {
+          "commons": "File:Panambur Beach, Mangalore.jpg",
+          "alt": "The wide sands of Panambur Beach, Mangaluru",
+          "caption": "Panambur Beach, Mangaluru",
+          "hero": true
+        }
+      ],
+      "sections": {
+        "overview": {
+          "text": "Mangaluru — still often called Mangalore — sits on Karnataka's coast where rivers meet the Arabian Sea, and it has been a port for centuries. As 'Mangalapura' it traded with Arabia, Persia and Europe, and in the 16th century Vasco da Gama landed here, beginning the Portuguese chapter of its history.\n\nThat mix shows today. Tulu, Konkani, Kannada and Malayalam are all spoken, and the city's sights range from the 10th-century Kadri Manjunath Temple, with its carvings and sacred tank, to St Aloysius Chapel, covered in frescoes, and Sultan Battery, Tipu Sultan's watchtower over the sea. Come hungry: Mangaluru is famous for neer dosa and Mangalorean fish curry. It is also the gateway to Kudremukh and Kodachadri in the Western Ghats.",
+          "facts": [
+            "K1M1",
+            "K1M4",
+            "K1M3",
+            "K1M2"
+          ]
+        },
+        "things_to_do": {
+          "items": [
+            {
+              "body": "Visit the 10th-century Kadri Manjunath Temple and its sacred tank."
+            },
+            {
+              "body": "See the frescoes of St Aloysius Chapel."
+            },
+            {
+              "body": "Look out over the sea from Sultan Battery."
+            }
+          ],
+          "facts": [
+            "K1M3"
+          ]
+        },
+        "food": {
+          "items": [
+            {
+              "body": "Neer dosa."
+            },
+            {
+              "body": "Mangalorean fish curry."
+            }
+          ],
+          "facts": [
+            "K1M2"
+          ]
+        }
+      }
+    },
+    {
+      "key": "karnataka/kudremukh-national-park",
+      "kind": "nature",
+      "name": "Kudremukh National Park",
+      "parent": "karnataka/mangaluru",
+      "summary": "600 sq km of rolling grassland, shola and rainforest in the Western Ghats — the trek to Kudremukh Peak.",
+      "seoTitle": "Kudremukh National Park — the Kudremukh Peak trek",
+      "seoDescription": "Kudremukh National Park: 600+ sq km of grassland, shola and rainforest, the Kudremukh Peak trek and Bhagavathi Nature Camp. Open 10 am–5 pm.",
+      "lat": 13.2,
+      "lng": 75.25,
+      "tripTypes": [
+        "nature",
+        "adventure",
+        "wildlife"
+      ],
+      "images": [
+        {
+          "commons": "File:Kudremukh (24792634946).jpg",
+          "alt": "Rolling green hills of Kudremukh under cloud",
+          "caption": "Kudremukh",
+          "hero": true
+        }
+      ],
+      "sections": {
+        "overview": {
+          "text": "Kudremukh National Park protects more than 600 sq km of the Western Ghats, and its landscape is one of the most beautiful in Karnataka: rolling green grassland folded around patches of dark shola forest, with rainforest in the valleys and mist drifting over the peaks.\n\nMost people come to walk. The trek to Kudremukh Peak is the classic, climbing through the grassland ridges for wide views; the Bhagavathi Nature Camp is a gentler base in the forest. Elephants and tigers live in the park, along with a wealth of orchids and tall trees. The park is open from 10 am to 5 pm. Combine it with Sringeri, the historic temple town about 60 km away.",
+          "facts": [
+            "K1K1",
+            "K1K2",
+            "K1K3"
+          ]
+        },
+        "visit_info": {
+          "items": [
+            {
+              "title": "Timings",
+              "body": "10 am–5 pm",
+              "status": "verified"
+            },
+            {
+              "title": "Area",
+              "body": "Over 600 sq km",
+              "status": "verified"
+            },
+            {
+              "title": "Sringeri",
+              "body": "About 60 km",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "K1K3",
+            "K1K1"
+          ]
+        }
+      }
+    },
+    {
+      "key": "karnataka/kodachadri",
+      "kind": "viewpoint",
+      "name": "Kodachadri",
+      "parent": "karnataka/mangaluru",
+      "summary": "A 1,343 m peak in the Western Ghats crowned by a small Mookambika temple, near Kollur.",
+      "seoTitle": "Kodachadri Hills, Karnataka",
+      "seoDescription": "Kodachadri: a 1,343 m Western Ghats peak with a stone Mookambika temple at the top; Kollur Mookambika 20 km away.",
+      "lat": 13.86,
+      "lng": 74.88,
+      "tripTypes": [
+        "nature",
+        "adventure",
+        "spiritual"
+      ],
+      "images": [
+        {
+          "commons": "File:Kodachadri! (49006184447).jpg",
+          "alt": "Green ridges and cloud on Kodachadri",
+          "caption": "Kodachadri",
+          "hero": true
+        }
+      ],
+      "sections": {
+        "overview": {
+          "text": "Kodachadri is a peak of the Western Ghats rising to about 1,343 m, its slopes covered in forest and grass and often wrapped in cloud. The name is said to mean \"jasmine of the hills\", and the place carries a long history: it is tied to the Kadamba dynasty and is said to have sheltered Queen Chennamma of Keladi in her fight against colonial forces.\n\nAt the very top stands a small stone temple to Mookambika, the spiritual heart of the hill, built in a plain style that fits the rough landscape. The walk along the ridge gives huge views over the Ghats. Kollur's famous Mookambika Temple is about 20 km away, and the old walls of Nagara Fort are about 4 miles from the hill.",
+          "facts": [
+            "K1C1",
+            "K1C2",
+            "K1C3"
+          ]
+        },
+        "visit_info": {
+          "items": [
+            {
+              "title": "Height",
+              "body": "About 1,343 m",
+              "status": "verified"
+            },
+            {
+              "title": "At the top",
+              "body": "Mookambika temple",
+              "status": "verified"
+            },
+            {
+              "title": "Kollur Mookambika",
+              "body": "About 20 km",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "K1C1",
+            "K1C3"
+          ]
+        }
+      }
+    },
+    {
+      "key": "karnataka/vijayapura",
+      "kind": "city",
+      "name": "Vijayapura (Bijapur)",
+      "parent": "karnataka",
+      "summary": "The Adil Shahi capital of the Deccan — Gol Gumbaz, Ibrahim Rauza and one of the world's largest medieval cannons.",
+      "seoTitle": "Vijayapura (Bijapur) — Gol Gumbaz and Ibrahim Rauza",
+      "seoDescription": "Vijayapura: Gol Gumbaz's 44 m dome, Ibrahim Rauza, the Jama Masjid, the Malik-e-Maidan cannon and Asar Mahal.",
+      "lat": 16.8302,
+      "lng": 75.71,
+      "tripTypes": [
+        "heritage"
+      ],
+      "images": [
+        {
+          "commons": "File:Gol Gumbaz Fort.jpg",
+          "alt": "Gol Gumbaz's great dome and corner towers",
+          "caption": "Gol Gumbaz, Vijayapura",
+          "hero": true
+        }
+      ],
+      "sections": {
+        "overview": {
+          "text": "Vijayapura — long known as Bijapur — lies in the north of the Karnataka plateau and was one of the great cities of the Deccan from the late 15th to the late 17th century. Its sultans left behind a skyline of domes and minarets that still makes it one of the richest heritage towns in South India.\n\nThe star is Gol Gumbaz, the mausoleum of Mohammed Adil Shah, whose 44 m dome is among the largest unsupported domes in the world. Nearby, Ibrahim Rauza is often called the Taj Mahal of the Deccan. Don't miss the Jama Masjid, Asar Mahal, and Malik-e-Maidan — 'master of the field' — one of the largest medieval cannons in the world. Leave time for the bazaars, too.",
+          "facts": [
+            "K1V1",
+            "K1V2"
+          ]
+        },
+        "things_to_do": {
+          "items": [
+            {
+              "body": "Climb into the whispering gallery of Gol Gumbaz."
+            },
+            {
+              "body": "See Ibrahim Rauza, the 'Taj Mahal of the Deccan'."
+            },
+            {
+              "body": "Find Malik-e-Maidan, one of the world's largest medieval cannons."
+            }
+          ],
+          "facts": [
+            "K1V2",
+            "K1G1",
+            "K1I1"
+          ]
+        }
+      }
+    },
+    {
+      "key": "karnataka/gol-gumbaz",
+      "kind": "attraction",
+      "name": "Gol Gumbaz",
+      "parent": "karnataka/vijayapura",
+      "summary": "Mohammed Adil Shah's 210 ft mausoleum with a vast dome and an echoing whispering gallery; open 10 am–5 pm.",
+      "seoTitle": "Gol Gumbaz, Vijayapura — the whispering gallery",
+      "seoDescription": "Gol Gumbaz, Vijayapura: a 210 ft mausoleum with one of the world's largest domes and a whispering gallery that echoes 10–11 times. Open 10 am–5 pm.",
+      "lat": 16.8302,
+      "lng": 75.736,
+      "tripTypes": [
+        "heritage"
+      ],
+      "images": [
+        {
+          "commons": "File:Gol Gumbaj2.JPG",
+          "alt": "Gol Gumbaz's white walls, seven-storey corner towers and great dome",
+          "caption": "Gol Gumbaz",
+          "hero": true
+        }
+      ],
+      "sections": {
+        "overview": {
+          "text": "Gol Gumbaz is the mausoleum of Sultan Mohammed Adil Shah and the landmark of Vijayapura. It rises 210 feet, with an octagonal seven-storey tower at each corner and, on top, a vast dome — second in size only to St Peter's Basilica in Rome. It took two decades to build.\n\nThe great experience is inside the dome. Climb the narrow stairs in one of the towers to the whispering gallery that runs around its base: the acoustics are so strong that a sound echoes 10 to 11 times, and a whisper on one side can be heard on the other. Go early, before the crowds, to hear it properly. The monument is open from 10 am to 5 pm, and sits within a complex of other historic buildings.",
+          "facts": [
+            "K1G1",
+            "K1G2"
+          ]
+        },
+        "visit_info": {
+          "items": [
+            {
+              "title": "Timings",
+              "body": "10 am–5 pm",
+              "status": "verified"
+            },
+            {
+              "title": "Height",
+              "body": "210 ft",
+              "status": "verified"
+            },
+            {
+              "title": "Whispering gallery",
+              "body": "Echoes 10–11 times",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "K1G2",
+            "K1G1"
+          ]
+        }
+      }
+    },
+    {
+      "key": "karnataka/ibrahim-rauza",
+      "kind": "attraction",
+      "name": "Ibrahim Rauza",
+      "parent": "karnataka/vijayapura",
+      "summary": "The 'Taj Mahal of the Deccan' — the tomb of Ibrahim Adil Shah II and his queen, with its twin mosque; open 6 am–6 pm.",
+      "seoTitle": "Ibrahim Rauza, Vijayapura",
+      "seoDescription": "Ibrahim Rauza: the 'Taj Mahal of the Deccan', tomb of Ibrahim Adil Shah II and his queen, with a mosque across a terrace of pools. Open 6 am–6 pm.",
+      "lat": 16.829,
+      "lng": 75.702,
+      "tripTypes": [
+        "heritage"
+      ],
+      "images": [
+        {
+          "commons": "File:Ibrahim Rauza - Mausoleum (left) and Mosque (right) 01.jpg",
+          "alt": "Ibrahim Rauza's tomb and mosque facing each other across a lawn",
+          "caption": "Ibrahim Rauza",
+          "hero": true
+        }
+      ],
+      "sections": {
+        "overview": {
+          "text": "Ibrahim Rauza is often called the Taj Mahal of the Deccan, and it is a love story in stone: the mausoleum of Sultan Ibrahim Adil Shah II and his queen. Built of limestone and dark basalt, it blends Hindu and Islamic artistic traditions in its fine carving and perfect proportions.\n\nThe complex sits on a raised stone terrace. The tomb stands to the east and a mosque to the west, facing each other across a podium broken by fountains and still ornamental pools. Walk slowly around both to take in the carved screens, domes and minarets, then step inside the tomb chamber with its curved ceiling panels. It is open from 6 am to 6 pm; the soft light of early morning or late afternoon suits it best.",
+          "facts": [
+            "K1I1",
+            "K1I2"
+          ]
+        },
+        "visit_info": {
+          "items": [
+            {
+              "title": "Timings",
+              "body": "6 am–6 pm",
+              "status": "verified"
+            },
+            {
+              "title": "Built for",
+              "body": "Ibrahim Adil Shah II and his queen",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "K1I2",
+            "K1I1"
+          ]
+        }
+      }
+    },
+    {
+      "key": "karnataka/bidar",
+      "kind": "city",
+      "name": "Bidar",
+      "parent": "karnataka",
+      "summary": "The 'City of Whispering Monuments' in Karnataka's far north — Bahmani fort, tombs and the Nanak Jhira gurudwara.",
+      "seoTitle": "Bidar — fort, Bahmani tombs and Nanak Jhira Sahib",
+      "seoDescription": "Bidar: the Bahmani-era Bidar Fort, Bahmani Tombs and Gurudwara Nanak Jhira Sahib, in Karnataka's far north.",
+      "lat": 17.9104,
+      "lng": 77.5199,
+      "tripTypes": [
+        "heritage",
+        "spiritual"
+      ],
+      "images": [
+        {
+          "commons": "File:Bidar Fort wide.jpg",
+          "alt": "Bidar Fort's walls and palaces among gardens",
+          "caption": "Bidar Fort",
+          "hero": true
+        }
+      ],
+      "sections": {
+        "overview": {
+          "text": "Bidar, in the far north of Karnataka, is known as the City of Whispering Monuments. Its history runs back more than two thousand years, but its great age came with the Bahmani Sultanate, which built the vast fort that still dominates the town in the 14th century.\n\nInside the walls are palaces such as Rangin Mahal; outside, the domed Bahmani Tombs stand in their own quiet grounds. Bidar is also a place of pilgrimage: Gurudwara Nanak Jhira Sahib honours the visit of Guru Nanak Dev Ji. Leave time for the markets, which sell local handicrafts, textiles and souvenirs. It makes a rewarding, uncrowded stop for anyone exploring the Deccan's Islamic heritage.",
+          "facts": [
+            "K1B1",
+            "K1B2",
+            "K1F1"
+          ]
+        },
+        "things_to_do": {
+          "items": [
+            {
+              "body": "Explore Bidar Fort and its 37 bastions."
+            },
+            {
+              "body": "Visit Gurudwara Nanak Jhira Sahib."
+            },
+            {
+              "body": "Shop for handicrafts and textiles in the markets."
+            }
+          ],
+          "facts": [
+            "K1F1",
+            "K1B2"
+          ]
+        }
+      }
+    },
+    {
+      "key": "karnataka/bidar-fort",
+      "kind": "attraction",
+      "name": "Bidar Fort",
+      "parent": "karnataka/bidar",
+      "summary": "The Bahmani capital's great fort — 37 bastions and 30-plus palaces and mosques, 2.5 km from the station.",
+      "seoTitle": "Bidar Fort",
+      "seoDescription": "Bidar Fort: Bahmani capital from 1430, 37 octagonal bastions, Rangin Mahal, Gagan Mahal and Takhat Mahal; 2.5 km from Bidar station.",
+      "lat": 17.923,
+      "lng": 77.53,
+      "tripTypes": [
+        "heritage"
+      ],
+      "images": [
+        {
+          "commons": "File:Gumbaz Darwaza in the Bidar fort.jpg",
+          "alt": "The red stone Gumbaz Darwaza gateway of Bidar Fort",
+          "caption": "Gumbaz Darwaza, Bidar Fort",
+          "hero": true
+        }
+      ],
+      "sections": {
+        "overview": {
+          "text": "Bidar Fort is one of the great forts of the Deccan, built in the Persian style. A stronghold stood here under the Western Chalukyas, but its present form dates from 1430, when Sultan Ahmed Shah Wali of the Bahmani dynasty made Bidar his capital and rebuilt it on a grand scale.\n\nIts defences are formidable: 37 massive octagonal bastions — the Munda Burj is the most impressive — once armed with cannons. Inside the walls are more than 30 Islamic buildings, among them Rangin Mahal with its tilework, Gagan Mahal and Takhat Mahal. Enter through the red stone Gumbaz Darwaza and allow a few hours to explore. The fort is only 2.5 km from Bidar railway station.",
+          "facts": [
+            "K1F1",
+            "K1F2"
+          ]
+        },
+        "visit_info": {
+          "items": [
+            {
+              "title": "Bastions",
+              "body": "37",
+              "status": "verified"
+            },
+            {
+              "title": "From the station",
+              "body": "2.5 km",
+              "status": "verified"
+            },
+            {
+              "title": "Capital from",
+              "body": "1430",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "K1F1",
+            "K1F2"
+          ]
+        }
+      }
+    },
+    {
+      "key": "karnataka/chikkamagaluru",
+      "kind": "town",
+      "name": "Chikkamagaluru (Chikmagalur)",
+      "parent": "karnataka",
+      "summary": "Karnataka's coffee hills — estates, rainforest and the state's highest peak, 240 km from Bengaluru.",
+      "seoTitle": "Chikkamagaluru (Chikmagalur) — coffee country",
+      "seoDescription": "Chikkamagaluru: coffee estates, Baba Budangiri where coffee came to India, and Mullayanagiri, Karnataka's highest peak. 240 km from Bengaluru.",
+      "lat": 13.3161,
+      "lng": 75.772,
+      "tripTypes": [
+        "nature",
+        "mountains",
+        "weekend"
+      ],
+      "images": [
+        {
+          "commons": "File:Foggy hill.jpg",
+          "alt": "Cloud filling the valleys below green hills near Chikkamagaluru",
+          "caption": "Hills near Chikkamagaluru",
+          "hero": true
+        }
+      ],
+      "sections": {
+        "overview": {
+          "text": "Chikkamagaluru — usually called Chikmagalur — sits in the foothills of the Chandra Drona range of the Western Ghats and is Karnataka's coffee country. Visitors come for its pleasant hill-station climate, rainforest and coffee estates.\n\nThis is where coffee's Indian story begins: on Baba Budangiri, the hills to the north, the saint Baba Budan is believed to have planted the first coffee in India. The same range holds Mullayanagiri, the highest peak in Karnataka, and the drive up gives some of the best views in the Ghats. The town is about 240 km from Bengaluru and 183 km from Mysuru. Winters are cool, at about 11–20 °C; summers reach 25–32 °C.",
+          "facts": [
+            "K1H1",
+            "K1H2",
+            "K1Y1",
+            "K1H3"
+          ]
+        },
+        "key_facts": {
+          "items": [
+            {
+              "title": "From Bengaluru",
+              "body": "About 240 km",
+              "status": "verified"
+            },
+            {
+              "title": "From Mysuru",
+              "body": "183 km",
+              "status": "verified"
+            },
+            {
+              "title": "Winter",
+              "body": "11–20 °C",
+              "status": "seasonal"
+            },
+            {
+              "title": "Summer",
+              "body": "25–32 °C",
+              "status": "seasonal"
+            }
+          ],
+          "facts": [
+            "K1H3"
+          ]
+        },
+        "how_to_reach": {
+          "text": "Chikkamagaluru is about 240 km from Bengaluru and 183 km from Mysuru by road.",
+          "facts": [
+            "K1H3"
+          ]
+        },
+        "best_time": {
+          "text": "Winter is coolest, at about 11–20 °C; summer days reach 25–32 °C.",
+          "facts": [
+            "K1H3"
+          ]
+        }
+      }
+    },
+    {
+      "key": "karnataka/mullayanagiri",
+      "kind": "viewpoint",
+      "name": "Mullayanagiri",
+      "parent": "karnataka/chikkamagaluru",
+      "summary": "Karnataka's highest peak, 1,925 m, with a small summit temple above Chikkamagaluru.",
+      "seoTitle": "Mullayanagiri — Karnataka's highest peak",
+      "seoDescription": "Mullayanagiri: at 1,925 m Karnataka's highest peak, near Chikkamagaluru, with a small summit temple and wide Western Ghats views.",
+      "lat": 13.39,
+      "lng": 75.72,
+      "tripTypes": [
+        "mountains",
+        "adventure",
+        "nature"
+      ],
+      "images": [
+        {
+          "commons": "File:Mullayanagiri, Chikmagalur district of Karnataka.jpg",
+          "alt": "The grassy summit ridge of Mullayanagiri",
+          "caption": "Mullayanagiri",
+          "hero": true
+        }
+      ],
+      "sections": {
+        "overview": {
+          "text": "Mullayanagiri is the highest peak in Karnataka, at 1,925 m (6,316 ft), rising from the Baba Budangiri range above Chikkamagaluru. Grassy ridges fall away on every side, and on a clear day the view reaches across the Western Ghats; in the monsoon, cloud races over the summit.\n\nAt the top is a small temple dedicated to the sage Mullappa Swamy, who gave the peak its name. He is believed to have meditated in the shallow caves just below the summit. A road climbs most of the way, then a flight of steps leads to the top; trekkers also follow the older trail along the ridge. Go early for the clearest views, and take a layer — it is often windy and cool up here.",
+          "facts": [
+            "K1Y1",
+            "K1Y2"
+          ]
+        },
+        "visit_info": {
+          "items": [
+            {
+              "title": "Height",
+              "body": "1,925 m",
+              "status": "verified"
+            },
+            {
+              "title": "Summit",
+              "body": "Mullappa Swamy temple",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "K1Y1",
+            "K1Y2"
+          ]
+        }
+      }
+    },
+    {
+      "key": "karnataka/chennakeshava-temple-belur",
+      "kind": "temple",
+      "name": "Chennakeshava Temple, Belur",
+      "parent": "karnataka",
+      "summary": "The 1117 Hoysala masterpiece at Belur, a UNESCO World Heritage Site since 2023 — still a living Vishnu temple.",
+      "seoTitle": "Chennakeshava Temple, Belur (UNESCO)",
+      "seoDescription": "Belur's Chennakeshava Temple: commissioned 1117, 103 years in the making, part of UNESCO's Sacred Ensembles of the Hoysalas. 35 km from Hassan.",
+      "lat": 13.1627,
+      "lng": 75.8606,
+      "tripTypes": [
+        "heritage",
+        "spiritual"
+      ],
+      "images": [
+        {
+          "commons": "File:Belur Temple all, Belur.jpg",
+          "alt": "The intricately carved Chennakeshava Temple at Belur",
+          "caption": "Chennakeshava Temple, Belur",
+          "hero": true
+        }
+      ],
+      "sections": {
+        "overview": {
+          "text": "The Chennakeshava Temple at Belur is one of the masterpieces of Hoysala art. King Vishnuvardhana commissioned it in 1117 on the banks of the Yagachi river, in what was then an early Hoysala capital, and it took three generations — 103 years — to finish. Damaged and rebuilt many times, it has remained a living temple to Vishnu ever since.\n\nThe carving is extraordinary: friezes of elephants, dancers and scenes from the epics wrap the star-shaped walls, and bracket figures of graceful dancers lean from the pillars. In 2023, Belur, Halebidu and Somanathapura were declared a UNESCO World Heritage Site as the Sacred Ensembles of the Hoysalas. Belur is 35 km from Hassan and about 220 km from Bengaluru; Halebidu is 15 km away.",
+          "facts": [
+            "K1L1",
+            "K1L2",
+            "K1L3",
+            "K1D2"
+          ]
+        },
+        "visit_info": {
+          "items": [
+            {
+              "title": "Built",
+              "body": "From 1117, over 103 years",
+              "status": "verified"
+            },
+            {
+              "title": "UNESCO",
+              "body": "2023, Sacred Ensembles of the Hoysalas",
+              "status": "verified"
+            },
+            {
+              "title": "From Hassan",
+              "body": "35 km",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "K1L1",
+            "K1L3",
+            "K1L2"
+          ]
+        }
+      }
+    },
+    {
+      "key": "karnataka/halebidu",
+      "kind": "town",
+      "name": "Halebidu",
+      "parent": "karnataka",
+      "summary": "The old Hoysala capital — the Hoysalesvara temple, Jain basadis and a stepwell, 15 km from Belur.",
+      "seoTitle": "Halebidu — the Hoysalesvara temple",
+      "seoDescription": "Halebidu, the old Hoysala capital Dvarasamudra: the Hoysalesvara and Kedareshwara temples, Jain basadis, the Hulikere stepwell. 15 km from Belur.",
+      "lat": 13.213,
+      "lng": 75.994,
+      "tripTypes": [
+        "heritage",
+        "spiritual"
+      ],
+      "images": [
+        {
+          "commons": "File:Hoysaleswara Temple at Halebidu.jpg",
+          "alt": "The twin-shrined Hoysalesvara temple at Halebidu",
+          "caption": "Hoysalesvara temple, Halebidu",
+          "hero": true
+        }
+      ],
+      "sections": {
+        "overview": {
+          "text": "Halebidu — the name means \"old capital\" — was Dvarasamudra, the royal capital of the Hoysala Empire from the 11th century. Today it is a quiet village, but its temples hold some of the finest Hindu and Jain carving in India.\n\nThe great sight is the Hoysalesvara temple, its walls covered in bands of elephants, lions, scrolls and scenes from the epics, with hundreds of gods and dancers above. Nearby are the Kedareshwara temple, a group of Jain basadis, and the Hulikere stepwell. Together with Belur and Somanathapura, the Hoysala temples here are part of a UNESCO World Heritage Site. Halebidu is 30 km from Hassan, 150 km from Mysuru and about 15 km from Belur, so the two are easily seen in one day.",
+          "facts": [
+            "K1D1",
+            "K1L3",
+            "K1D2"
+          ]
+        },
+        "key_facts": {
+          "items": [
+            {
+              "title": "Old name",
+              "body": "Dvarasamudra",
+              "status": "verified"
+            },
+            {
+              "title": "From Belur",
+              "body": "About 15 km",
+              "status": "verified"
+            },
+            {
+              "title": "From Hassan",
+              "body": "30 km",
+              "status": "verified"
+            },
+            {
+              "title": "From Mysuru",
+              "body": "150 km",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "K1D1",
+            "K1D2"
+          ]
+        },
+        "how_to_reach": {
+          "text": "Halebidu is 30 km from Hassan by road, 150 km from Mysuru and about 15 km from Belur.",
+          "facts": [
+            "K1D2"
+          ]
+        },
+        "things_to_do": {
+          "items": [
+            {
+              "body": "Walk around the carved walls of the Hoysalesvara temple."
+            },
+            {
+              "body": "See the Kedareshwara temple and the Jain basadis."
+            },
+            {
+              "body": "Find the Hulikere stepwell."
+            },
+            {
+              "body": "Pair it with Belur's Chennakeshava Temple."
+            }
+          ],
+          "facts": [
+            "K1D1",
+            "K1D2"
+          ]
+        }
+      }
+    },
+    {
+      "key": "karnataka/shravanabelagola",
+      "kind": "town",
+      "name": "Shravanabelagola",
+      "parent": "karnataka",
+      "summary": "The great Jain pilgrimage town — the 57-ft Gommateshwara statue on Vindhyagiri, 144 km from Bengaluru.",
+      "seoTitle": "Shravanabelagola — the Gommateshwara statue",
+      "seoDescription": "Shravanabelagola: the 57-ft monolithic Gommateshwara Bahubali on Vindhyagiri, Chandragiri's basadis and the 12-yearly Mahamastakabhisheka (next 2030).",
+      "lat": 12.859,
+      "lng": 76.488,
+      "tripTypes": [
+        "spiritual",
+        "heritage"
+      ],
+      "images": [
+        {
+          "commons": "File:Gommateshwara Bahubali statue, Shravanabelagola, Karnataka (2026) 05.jpg",
+          "alt": "The giant monolithic statue of Gommateshwara Bahubali",
+          "caption": "Gommateshwara, Shravanabelagola",
+          "hero": true
+        }
+      ],
+      "sections": {
+        "overview": {
+          "text": "Shravanabelagola, between two granite hills in Hassan district, is one of the most important pilgrimage places in Jainism. On Vindhyagiri stands the 57-ft monolithic statue of Gommateshwara Bahubali, carved from a single rock, gazing calmly over the plains. It is reached by a long flight of steps cut into the hill.\n\nAcross the town, Chandragiri hill is crowded with old basadis and inscriptions; tradition says the emperor Chandragupta Maurya died here as a Jain monk in 298 BCE. Every twelve years the statue is anointed with water, milk, turmeric, sandalwood and flowers in the Mahamastakabhisheka — the last was in February 2018 and the next is due in 2030. The town is 144 km from Bengaluru and 83 km from Mysuru.",
+          "facts": [
+            "K1S1",
+            "K1S3",
+            "K1S2",
+            "K1S4"
+          ]
+        },
+        "key_facts": {
+          "items": [
+            {
+              "title": "Statue",
+              "body": "57 ft, monolithic",
+              "status": "verified"
+            },
+            {
+              "title": "Next Mahamastakabhisheka",
+              "body": "2030",
+              "status": "seasonal"
+            },
+            {
+              "title": "From Bengaluru",
+              "body": "144 km",
+              "status": "verified"
+            },
+            {
+              "title": "From Mysuru",
+              "body": "83 km",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "K1S1",
+            "K1S2",
+            "K1S4"
+          ]
+        },
+        "how_to_reach": {
+          "text": "Shravanabelagola is 144 km from Bengaluru, 83 km from Mysuru, 51 km from Hassan and 89 km from Belur, by road.",
+          "facts": [
+            "K1S4"
+          ]
+        },
+        "things_to_do": {
+          "items": [
+            {
+              "body": "Climb the steps of Vindhyagiri to the Gommateshwara statue."
+            },
+            {
+              "body": "Explore the basadis on Chandragiri hill."
+            },
+            {
+              "body": "Plan ahead for the Mahamastakabhisheka in 2030."
+            }
+          ],
+          "facts": [
+            "K1S1",
+            "K1S3",
+            "K1S2"
+          ]
+        }
+      }
+    },
+    {
+      "key": "karnataka/somanathapura-keshava-temple",
+      "kind": "temple",
+      "name": "Keshava Temple, Somanathapura",
+      "parent": "karnataka/mysuru",
+      "summary": "A perfect 13th-century Hoysala temple near Mysuru, part of a UNESCO World Heritage Site; open 9 am–5:30 pm.",
+      "seoTitle": "Keshava Temple, Somanathapura (UNESCO)",
+      "seoDescription": "Somanathapura's Keshava Temple: 13th-century Hoysala, three star-shaped shrines, UNESCO 2023. Open 9 am–5:30 pm; best October–March.",
+      "lat": 12.276,
+      "lng": 76.881,
+      "tripTypes": [
+        "heritage"
+      ],
+      "images": [
+        {
+          "commons": "File:Chennakesava Temple at Somanathapura.jpg",
+          "alt": "The three star-shaped towers of the Keshava Temple at Somanathapura",
+          "caption": "Keshava Temple, Somanathapura",
+          "hero": true
+        }
+      ],
+      "sections": {
+        "overview": {
+          "text": "The Keshava Temple at Somanathapura is the most complete and perfectly preserved of the Hoysala temples. It was built in the 13th century, in the reign of King Narasimha III, and stands in a walled courtyard ringed by a pillared cloister.\n\nThree star-shaped shrines rise from a single raised platform, every surface covered in carving — bands of elephants, horsemen and scrolls at the base, and panels of gods and goddesses above. Walk slowly around the outside to read the friezes. Since 2023 it has been part of a UNESCO World Heritage Site, together with Belur and Halebidu. It is open from 9 am to 5:30 pm, and October to March, the cooler months, is the best time to visit. It makes an easy half-day trip from Mysuru.",
+          "facts": [
+            "K1N1",
+            "K1N2"
+          ]
+        },
+        "visit_info": {
+          "items": [
+            {
+              "title": "Timings",
+              "body": "9 am–5:30 pm",
+              "status": "verified"
+            },
+            {
+              "title": "Built",
+              "body": "13th century",
+              "status": "verified"
+            },
+            {
+              "title": "Best time",
+              "body": "October–March",
+              "status": "seasonal"
+            }
+          ],
+          "facts": [
+            "K1N1"
+          ]
+        }
+      }
+    },
+    {
+      "key": "karnataka/talakaveri",
+      "kind": "temple",
+      "name": "Talakaveri",
+      "parent": "karnataka/coorg",
+      "summary": "The sacred source of the Kaveri in Coorg's Brahmagiri hills, 48 km from Madikeri.",
+      "seoTitle": "Talakaveri — source of the Kaveri, Coorg",
+      "seoDescription": "Talakaveri, 48 km from Madikeri at 1,276 m in the Brahmagiri hills: the sacred source of the Kaveri. Best October–March.",
+      "lat": 12.385,
+      "lng": 75.488,
+      "tripTypes": [
+        "spiritual",
+        "nature"
+      ],
+      "images": [
+        {
+          "commons": "File:Talakaveri Temple, Talacauvery and surroundings (34).jpg",
+          "alt": "Talakaveri's temple and hills of the Brahmagiri range",
+          "caption": "Talakaveri",
+          "hero": true
+        }
+      ],
+      "sections": {
+        "overview": {
+          "text": "Talakaveri, high in the Brahmagiri hills of Coorg, is revered as the source of the Kaveri, one of the most sacred rivers of South India. It lies at about 1,276 m in the Western Ghats, and pilgrims come to the small tank where the river is said to rise.\n\nAround the shrine, steps climb the hillside to a viewpoint over rolling green ridges that stretch towards Kerala; on clear days it is one of the finest views in Coorg. Go between October and March, when the weather is clear for sightseeing and walks. Talakaveri is about 48 km from Madikeri by road; the nearest airport is Kannur, about 120 km away, and the nearest major railway station is Mysuru.",
+          "facts": [
+            "K1T1",
+            "K1T2"
+          ]
+        },
+        "visit_info": {
+          "items": [
+            {
+              "title": "Altitude",
+              "body": "About 1,276 m",
+              "status": "verified"
+            },
+            {
+              "title": "From Madikeri",
+              "body": "About 48 km",
+              "status": "verified"
+            },
+            {
+              "title": "Best time",
+              "body": "October–March",
+              "status": "seasonal"
+            }
+          ],
+          "facts": [
+            "K1T1",
+            "K1T2"
+          ]
+        }
+      }
+    },
+    {
+      "key": "karnataka/dandeli",
+      "kind": "nature",
+      "name": "Dandeli",
+      "parent": "karnataka",
+      "summary": "Karnataka's hornbill forest on the Kali river — elephants, tigers, 300+ birds; open 9 am–6 pm.",
+      "seoTitle": "Dandeli National Park and the Kali river",
+      "seoDescription": "Dandeli: Western Ghats forest on the Kali river with elephants, tigers in the Kali Tiger Reserve and 300+ birds, including three hornbills. Open 9 am–6 pm.",
+      "lat": 15.25,
+      "lng": 74.62,
+      "tripTypes": [
+        "wildlife",
+        "nature",
+        "adventure"
+      ],
+      "images": [
+        {
+          "commons": "File:A silent scene of kali river dandeli, india.jpg",
+          "alt": "The still Kali river through forest at Dandeli",
+          "caption": "The Kali river, Dandeli",
+          "hero": true
+        }
+      ],
+      "sections": {
+        "overview": {
+          "text": "Dandeli lies in the evergreen forests of the Western Ghats, along the Kali river, and is one of Karnataka's great wild places. Its mix of river, thick forest and hills shelters an impressive list of animals: the Dandeli Elephant Reserve holds more than 60 elephants under Project Elephant, tigers are seen in the Dandeli (Kali) Tiger Reserve, and leopards slip through the hills.\n\nFor birdwatchers it is a dream: more than 300 species have been recorded, and Malabar pied, Indian grey and great hornbills are commonly seen along the river and in the tall timber forest. Look out too for Malabar giant squirrels and smooth-coated otters. The park is open from 9 am to 6 pm.",
+          "facts": [
+            "K1E1",
+            "K1E2",
+            "K1E3"
+          ]
+        },
+        "visit_info": {
+          "items": [
+            {
+              "title": "Timings",
+              "body": "9 am–6 pm",
+              "status": "verified"
+            },
+            {
+              "title": "Birds",
+              "body": "300+ species",
+              "status": "verified"
+            },
+            {
+              "title": "Elephants",
+              "body": "60+",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "K1E3",
+            "K1E2",
+            "K1E1"
+          ]
+        }
+      }
+    },
+    {
+      "key": "karnataka/bandipur-national-park",
+      "kind": "nature",
+      "name": "Bandipur National Park",
+      "parent": "karnataka",
+      "summary": "1,456 sq km of tiger and elephant forest on the Mysuru–Ooty road, a tiger reserve since 1973.",
+      "seoTitle": "Bandipur National Park",
+      "seoDescription": "Bandipur: 1,456 sq km in Chamarajanagar, a Project Tiger reserve since 1973 — elephants, tigers, gaur, sloth bears and dholes.",
+      "lat": 11.667,
+      "lng": 76.633,
+      "tripTypes": [
+        "wildlife",
+        "nature"
+      ],
+      "images": [
+        {
+          "commons": "File:Elephas maximus (Bandipur).jpg",
+          "alt": "A wild elephant in the forest at Bandipur",
+          "caption": "Elephant, Bandipur",
+          "hero": true
+        }
+      ],
+      "sections": {
+        "overview": {
+          "text": "Bandipur National Park covers 1,456 sq km of forest in Chamarajanagar district, in the far south of Karnataka. It began in 1931 as the Maharaja of Mysore's 90 sq km Venugopala Wildlife Park and became a tiger reserve under Project Tiger in 1973, when nearly 800 sq km were added.\n\nIt is one of the best places in India to see wild Asian elephants. Tigers, gaur, sloth bears, four-horned antelope, golden jackals and dholes — wild dogs — also live here, and even from the public roads through the park you are likely to see chital, grey langurs, Indian giant squirrels and elephants. Drive carefully and never stop to feed animals; collisions with vehicles are a real danger to wildlife here.",
+          "facts": [
+            "K1P1",
+            "K1P2",
+            "K1P3"
+          ]
+        },
+        "visit_info": {
+          "items": [
+            {
+              "title": "Area",
+              "body": "1,456.3 sq km",
+              "status": "verified"
+            },
+            {
+              "title": "Tiger reserve since",
+              "body": "1973",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "K1P1"
+          ]
+        }
+      }
+    }
+  ],
+  "itineraries": [],
+  "guides": []
+}
