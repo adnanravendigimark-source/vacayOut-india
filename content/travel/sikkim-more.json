@@ -248,6 +248,46 @@
       "url": "https://en.wikipedia.org/wiki/Chungthang",
       "title": "Chungthang — Wikipedia",
       "authority": "reference"
+    },
+    "II_GTK": {
+      "url": "https://www.incredibleindia.gov.in/en/sikkim/gangtok",
+      "title": "Gangtok — Incredible India (Ministry of Tourism, Government of India)",
+      "authority": "government"
+    },
+    "II_TVP": {
+      "url": "https://www.incredibleindia.gov.in/en/sikkim/gangtok/tashi-view-point",
+      "title": "Tashi View Point — Incredible India",
+      "authority": "government"
+    },
+    "II_HZP": {
+      "url": "https://www.incredibleindia.gov.in/en/sikkim/gangtok/himalayan-zoological-park",
+      "title": "Himalayan Zoological Park — Incredible India",
+      "authority": "government"
+    },
+    "W_GTK": {
+      "url": "https://en.wikipedia.org/wiki/Gangtok",
+      "title": "Gangtok — Wikipedia",
+      "authority": "reference"
+    },
+    "WP_SCM": {
+      "url": "https://en.wikipedia.org/wiki/Sanga_Choeling_Monastery",
+      "title": "Sanga Choeling Monastery — Wikipedia",
+      "authority": "reference"
+    },
+    "WP_PEL": {
+      "url": "https://en.wikipedia.org/wiki/Pelling",
+      "title": "Pelling — Wikipedia",
+      "authority": "reference"
+    },
+    "WP_NAM": {
+      "url": "https://en.wikipedia.org/wiki/Namchi",
+      "title": "Namchi — Wikipedia",
+      "authority": "reference"
+    },
+    "WP_RAL": {
+      "url": "https://en.wikipedia.org/wiki/Ralang_Monastery",
+      "title": "Ralang Monastery — Wikipedia",
+      "authority": "reference"
     }
   },
   "facts": {
@@ -1424,6 +1464,178 @@
           "quote": "Chungthang is a good place to halt before one takes off for the more alpine regions of Lachen, Lachung and the Yumthang Valley."
         }
       ]
+    },
+    "SKB1": {
+      "place": "sikkim/nathu-la",
+      "claim": "Nathu La, 56 km from Gangtok on the India–China border, is one of the highest motorable roads in the world.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_GTK",
+          "quote": "Nathu la Pass is one of the highest motorable roads in the world that lies at a distance of 56 km from Gangtok."
+        }
+      ],
+      "topic": "SKB1"
+    },
+    "SKB2": {
+      "place": "sikkim/gangtok",
+      "claim": "Tashi View Point is open 5 am to 6 pm and is a sunrise spot.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_TVP",
+          "quote": "Opening time - 05:00 AM Closing time - 06:00 PM"
+        },
+        {
+          "source": "II_TVP",
+          "quote": "the perfect vantage point to witness the magical spectacle of sunrise over the Himalayas"
+        },
+        {
+          "source": "II_TVP",
+          "quote": "charming tea stalls nestled near Tashi View Point"
+        }
+      ],
+      "topic": "SKB2"
+    },
+    "SKB3": {
+      "place": "sikkim/gangtok",
+      "claim": "The Himalayan Zoological Park is open 8 am to 3 pm.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_HZP",
+          "quote": "Opening time - 08:00 AM Closing time - 03:00 PM"
+        }
+      ],
+      "topic": "SKB3"
+    },
+    "SKB4": {
+      "place": "sikkim/gangtok",
+      "claim": "A 1 km cable car with three stops links lower Gangtok with the Legislative Assembly in the centre.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "W_GTK",
+          "quote": "The 1 km (0.6 mi) long cable car with three stops connects lower Gangtok suburbs with Sikkim Legislative assembly in central Gangtok"
+        }
+      ],
+      "topic": "SKB4"
+    },
+    "SKB5": {
+      "place": "sikkim/pelling",
+      "claim": "Sanga Choeling Monastery is reached by a steep 4 km forest path and is 7 km from Pemayangtse.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WP_SCM",
+          "quote": "is located on a ridge top above Pelling at a distance of 7 kilometres (4.3 mi) from Pemayangtse Monastery and is accessed by walking the steep hilly track of 4 kilometres (2.5 mi)"
+        }
+      ],
+      "topic": "SKB5"
+    },
+    "SKB6": {
+      "place": "sikkim/pelling",
+      "claim": "A 137 ft Chenrezig statue with a glass Sky Walk opened near Sanga Choeling in November 2018.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WP_PEL",
+          "quote": "the gigantic 137 ft (42 m) statue of Chenrezig (Avalokitesvara) and a transparent Sky Walk made of glass that leads to the statue. It was opened in November 2018"
+        }
+      ],
+      "topic": "SKB6"
+    },
+    "SKB7": {
+      "place": "sikkim/pelling",
+      "claim": "Pelling is about 135 km from Siliguri, the nearest railhead and airport; regular jeeps run to Jorethang, Kalimpong and Namchi.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WP_PEL",
+          "quote": "about 135 km from Siliguri, the nearest railhead and airport"
+        },
+        {
+          "source": "WP_PEL",
+          "quote": "Regular jeeps connect Pelling to the towns of Jorethang, Kalimpong and Namchi."
+        }
+      ],
+      "topic": "SKB7"
+    },
+    "SKB8": {
+      "place": "sikkim/pelling",
+      "claim": "Pelling is 10 km from Gyalshing, the district headquarters, linked by a regular bus.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WP_PEL",
+          "quote": "The town is located at a distance of 10 km from Gyalshing city, the district headquarters"
+        },
+        {
+          "source": "WP_PEL",
+          "quote": "A regular bus service connects the two towns."
+        }
+      ],
+      "topic": "SKB8"
+    },
+    "SKB9": {
+      "place": "sikkim/pelling",
+      "claim": "Kanchenjunga Falls, about 28 km from Pelling, flows through the year; Rimbi Waterfall is en route to Khecheopalri.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WP_PEL",
+          "quote": "Kanchenjunga Falls - Further 18 km from Rimbi River and about 28 km from Pelling. It is one of the most beautiful waterfalls in Sikkim and is normally active throughout the year."
+        },
+        {
+          "source": "WP_PEL",
+          "quote": "Rimbi Waterfall - Situated 5 km from Darap en route to Khecheopalri."
+        }
+      ],
+      "topic": "SKB9"
+    },
+    "SKB10": {
+      "place": "sikkim/namchi",
+      "claim": "Samdruptse hill, opposite Namchi, has a 135 ft statue of Guru Padmasambhava, completed in February 2004.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WP_NAM",
+          "quote": "standing at 135 ft (41 m) tall, is located on the Samdruptse hill opposite Namchi. It was completed in February 2004."
+        }
+      ],
+      "topic": "SKB10"
+    },
+    "SKB11": {
+      "place": "sikkim/namchi",
+      "claim": "Siddhesvara Dham, on Solophok hill about 5 km from Namchi, has a 108 ft Shiva statue, an 18 ft Kirateshwar statue, models of the Char Dham shrines and replicas of the 12 Jyotirlingas.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WP_NAM",
+          "quote": "Siddhesvara Dham is located atop Solophok hilltop, about 5 km (3.1 mi) from Namchi. It has a 108 ft (33 m) tall statue of Shiva, a 18 ft (5.5 m) tall statue of Kirateshwar, models of the Chardham Hindu pilgrimage sites, and replicas of 12 Jyotirlingas."
+        }
+      ],
+      "topic": "SKB11"
+    },
+    "SKB12": {
+      "place": "sikkim/ravangla",
+      "claim": "New Ralang Monastery, a Kagyu monastery 6 km from Ravangla, has an extensive collection of paintings and thangkas.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WP_RAL",
+          "quote": "is a Buddhist monastery of the Kagyu sect of Tibetan Buddhism in southern Sikkim"
+        },
+        {
+          "source": "WP_RAL",
+          "quote": "It is located six kilometres from Ravangla."
+        },
+        {
+          "source": "WP_RAL",
+          "quote": "Ralang Monastery has an extensive collection of paintings and thangkas."
+        }
+      ],
+      "topic": "SKB12"
     }
   },
   "places": [
@@ -3978,394 +4190,671 @@
     {
       "place": "sikkim",
       "slug": "gangtok-3-days",
-      "title": "Gangtok in 3 days",
+      "title": "Gangtok in 3 days: monasteries, Tsomgo Lake and Rumtek",
       "durationDays": 3,
       "tripTypes": [
-        "spiritual",
         "mountains",
+        "spiritual",
         "family"
       ],
-      "summary": "Gangtok's monasteries and MG Marg, a day to Tsomgo Lake and Baba Mandir, and Rumtek.",
-      "seoTitle": "Gangtok 3-Day Itinerary: Monasteries & Tsomgo Lake",
-      "seoDescription": "Three days in Gangtok: Enchey, Do-drul Chorten and Hanuman Tok, an evening on MG Marg, Tsomgo Lake and Baba Mandir, and Rumtek.",
+      "summary": "Gangtok's monasteries, viewpoints and MG Marg, a high-altitude day to Tsomgo Lake and Baba Mandir, and Rumtek on the last morning.",
+      "seoTitle": "Gangtok 3-Day Itinerary: Tsomgo Lake, Rumtek, MG Marg",
+      "seoDescription": "3 days in Gangtok: Enchey, Do-drul Chorten, the Tibetology institute and MG Marg, Tsomgo Lake and Baba Mandir with permits, then Rumtek — with hours and distances.",
       "facts": [
+        "N_GT2",
+        "SKB2",
         "ENC1",
         "DOD1",
-        "HAN1",
+        "N_GTN1",
+        "SKB3",
+        "SKB4",
         "MGM1",
         "N_GTT1",
         "BAB1",
+        "SKB1",
+        "N_GTN3",
+        "ST_PERMIT",
         "N_GTR1",
-        "N_GTN1"
+        "HAN1",
+        "ST_FOOD"
       ],
       "sources": [],
       "plan": {
-        "overview": "Base in Gangtok; one high-altitude day trip.",
+        "overview": "Base yourself in Gangtok for three nights. Day one stays in town, day two climbs to the sacred lake at Tsomgo — a restricted area, so permits are arranged in Gangtok — and day three takes in Rumtek, the Karmapa's seat in exile.",
+        "style": "Monasteries · Viewpoints · High lake",
         "start": "Gangtok",
         "end": "Gangtok",
-        "transport": "Shared or hired taxis; permits for Tsomgo arranged in Gangtok.",
-        "season": "Spring and autumn for clear views.",
+        "season": "Spring and autumn for clear views; the June–September monsoon brings landslides.",
+        "difficulty": "Easy; Tsomgo is at 12,313 ft",
+        "transport": "Hired taxi; permits for Tsomgo arranged in Gangtok.",
         "days": [
           {
-            "title": "Day 1: Gangtok",
-            "summary": "Enchey Monastery, Do-drul Chorten and the Institute of Tibetology; evening on MG Marg.",
+            "title": "Gangtok town",
+            "summary": "Enchey, Do-drul Chorten and the Namgyal Institute of Tibetology; evening on MG Marg.",
             "stops": [
               {
-                "name": "Enchey Monastery",
                 "time": "Morning",
-                "placeSlug": "sikkim/enchey-monastery",
-                "duration": "1 hour"
+                "name": "Enchey Monastery",
+                "placeSlug": "enchey-monastery",
+                "duration": "45 minutes"
               },
               {
-                "name": "Do-drul Chorten",
                 "time": "Late morning",
-                "placeSlug": "sikkim/do-drul-chorten",
-                "duration": "1 hour"
+                "name": "Do-drul Chorten",
+                "placeSlug": "do-drul-chorten",
+                "duration": "45 minutes",
+                "note": "Built 1945–46."
               },
               {
+                "time": "Midday",
                 "name": "Namgyal Institute of Tibetology",
+                "placeSlug": "namgyal-institute-of-tibetology",
+                "duration": "1 hour",
+                "note": "About 5 km south, in Deorali."
+              },
+              {
                 "time": "Afternoon",
-                "placeSlug": "sikkim/namgyal-institute-of-tibetology",
+                "name": "Gangtok cable car",
+                "placeSlug": "gangtok",
+                "duration": "30 minutes",
+                "note": "1 km, three stops."
+              },
+              {
+                "time": "Evening",
+                "name": "MG Marg",
+                "placeSlug": "mg-marg",
+                "duration": "1.5 hours"
+              }
+            ],
+            "overnight": "Gangtok",
+            "transport": "Taxi or on foot",
+            "altitude": 1650,
+            "meals": "Momos, thukpa and gundruk."
+          },
+          {
+            "title": "Tsomgo Lake and Baba Mandir",
+            "summary": "Sunrise at Tashi View Point, then up to Tsomgo and Baba Mandir.",
+            "stops": [
+              {
+                "time": "Dawn",
+                "name": "Tashi View Point",
+                "duration": "45 minutes",
+                "note": "Open 5 am–6 pm."
+              },
+              {
+                "time": "Morning",
+                "name": "Tsomgo (Changu) Lake",
+                "placeSlug": "tsomgo-lake",
+                "duration": "1.5 hours",
+                "note": "Open 7:30 am–4:30 pm."
+              },
+              {
+                "time": "Midday",
+                "name": "Baba Mandir",
+                "placeSlug": "baba-mandir",
+                "duration": "45 minutes"
+              }
+            ],
+            "overnight": "Gangtok",
+            "transport": "Taxi",
+            "altitude": 3753,
+            "permits": "Restricted area; permits arranged in Gangtok. Nathu La (56 km from Gangtok) is for Indian citizens only, Thursday–Sunday, with a permit a day ahead."
+          },
+          {
+            "title": "Rumtek and Hanuman Tok",
+            "summary": "Rumtek in the morning, Hanuman Tok and the zoo before 3 pm.",
+            "stops": [
+              {
+                "time": "Morning",
+                "name": "Rumtek Monastery",
+                "placeSlug": "rumtek-monastery",
                 "duration": "1.5 hours"
               },
               {
-                "name": "MG Marg",
-                "time": "Evening",
-                "placeSlug": "sikkim/mg-marg",
-                "duration": "2 hours"
-              }
-            ],
-            "overnight": "Gangtok"
-          },
-          {
-            "title": "Day 2: Tsomgo and Baba Mandir",
-            "summary": "Up to Tsomgo Lake (12,313 ft) and Baba Mandir.",
-            "stops": [
-              {
-                "name": "Tsomgo Lake",
-                "time": "Morning",
-                "placeSlug": "sikkim/tsomgo-lake",
-                "duration": "2 hours"
-              },
-              {
-                "name": "Baba Mandir",
                 "time": "Midday",
-                "placeSlug": "sikkim/baba-mandir",
-                "duration": "1 hour"
-              }
-            ],
-            "overnight": "Gangtok"
-          },
-          {
-            "title": "Day 3: Rumtek and Hanuman Tok",
-            "summary": "Rumtek Monastery, then Hanuman Tok's view.",
-            "stops": [
-              {
-                "name": "Rumtek Monastery",
-                "time": "Morning",
-                "placeSlug": "sikkim/rumtek-monastery",
-                "duration": "2 hours"
+                "name": "Hanuman Tok",
+                "placeSlug": "hanuman-tok",
+                "duration": "45 minutes"
               },
               {
-                "name": "Hanuman Tok",
-                "time": "Afternoon",
-                "placeSlug": "sikkim/hanuman-tok",
-                "duration": "1 hour"
+                "time": "Early afternoon",
+                "name": "Himalayan Zoological Park",
+                "placeSlug": "gangtok",
+                "duration": "1.5 hours",
+                "note": "Open 8 am–3 pm."
               }
             ],
-            "overnight": "Departure"
+            "overnight": "Gangtok",
+            "transport": "Taxi"
           }
         ],
         "budget": {
-          "assumptions": "VacayOut lists only fees it could check with an official source; hotels, transport and meals are not estimated. Check current prices before you book.",
-          "lines": []
+          "assumptions": "Taxi fares, permit fees and stays aren't confirmed from an official source.",
+          "lines": [
+            {
+              "label": "Taxi hire",
+              "amount": "Not estimated",
+              "basis": "Not confirmed from an official source"
+            },
+            {
+              "label": "Tsomgo permit",
+              "amount": "Not estimated",
+              "basis": "Not confirmed from an official source"
+            }
+          ]
         },
         "booking": [
           {
-            "item": "Tsomgo permit",
-            "detail": "Arranged through a registered agent or taxi operator in Gangtok."
+            "item": "Getting there",
+            "detail": "Bagdogra airport is about 124 km, some five hours, from Gangtok."
+          },
+          {
+            "item": "Permits",
+            "detail": "Arrange Tsomgo (and Nathu La, Indians only) permits in Gangtok a day ahead."
           }
         ],
         "alternatives": [
-          "Add Nathu La (Indian citizens, Thursday–Sunday)."
+          "Indian citizens can add Nathu La, Thursday to Sunday.",
+          "Swap the zoo for a morning at Tashi View Point."
         ],
         "tips": [
-          "Carry warm layers for Tsomgo."
+          "Start Tsomgo day early; the lake closes at 4:30 pm.",
+          "The zoo closes at 3 pm."
+        ],
+        "prep": [
+          {
+            "title": "Permits",
+            "body": "Many areas of Sikkim are restricted; Tsomgo and Nathu La need permits arranged in Gangtok."
+          }
+        ],
+        "faqs": [
+          {
+            "q": "Do I need a permit for Tsomgo Lake?",
+            "a": "Yes — it is in a restricted area; permits are arranged in Gangtok."
+          },
+          {
+            "q": "Can foreigners visit Nathu La?",
+            "a": "No. Only Indian citizens, Thursday to Sunday, with a permit obtained a day ahead."
+          },
+          {
+            "q": "How high is Tsomgo?",
+            "a": "12,313 ft."
+          }
         ]
       }
     },
     {
       "place": "sikkim",
       "slug": "silk-route-3-days",
-      "title": "Old Silk Route in 3 days",
+      "title": "Sikkim's Silk Route in 3 days: Aritar, Zuluk and Nathang",
       "durationDays": 3,
       "tripTypes": [
         "mountains",
-        "adventure"
+        "adventure",
+        "nature"
       ],
-      "summary": "Aritar's lake, the hairpin road to Zuluk and the high Nathang Valley.",
-      "seoTitle": "Old Silk Route Itinerary: Aritar, Zuluk, Nathang",
-      "seoDescription": "Three days on East Sikkim's Old Silk Route: Aritar's Lampokhari lake, Zuluk at 9,400 ft and the Nathang Valley.",
+      "summary": "East Sikkim's old trade route: Aritar's lake and monastery, the switchback roads of Zuluk, and the high Nathang valley.",
+      "seoTitle": "Sikkim Silk Route 3-Day Itinerary: Aritar, Zuluk, Nathang",
+      "seoDescription": "3 days on Sikkim's Silk Route: Lampokhari lake at Aritar, Zuluk's switchbacks and Kanchenjunga views, and Nathang valley — with distances, seasons and permit notes.",
       "facts": [
+        "S4A1",
         "ARI1",
+        "S4A2",
+        "S4Z1",
         "ZUL1",
         "ZUL2",
+        "S4Z2",
+        "S4Z3",
+        "S4Z4",
         "NAT1",
-        "ST_PERMIT"
+        "ST_PERMIT",
+        "ST_MONSOON"
       ],
       "sources": [],
       "plan": {
-        "overview": "A high road trip in East Sikkim.",
-        "start": "Aritar",
-        "end": "Zuluk",
-        "transport": "Hired car via Rongli; permits needed.",
-        "season": "Clear months; heavy snow in winter.",
+        "overview": "A short loop on the old trade route between Kalimpong and Tibet. Start low at Aritar's lake, climb to Zuluk and its famous switchbacks, then over to Nathang, the site of an 1888 battle. Much of East Sikkim is restricted; arrange permits before you go.",
+        "style": "High roads · Views · History",
+        "start": "Gangtok",
+        "end": "Gangtok",
+        "season": "March–May is cold but clear; October–February brings snow; June–September has heavy monsoon showers.",
+        "difficulty": "Moderate — winding high roads",
+        "transport": "Car with driver.",
         "days": [
           {
-            "title": "Day 1: Aritar",
-            "summary": "Lampokhari lake and the 1895 dak bungalow.",
+            "title": "Gangtok to Aritar",
+            "summary": "Lampokhari lake, Aritar Gumpa and Changey waterfall.",
             "stops": [
               {
-                "name": "Aritar",
                 "time": "Afternoon",
-                "placeSlug": "sikkim/aritar",
-                "duration": "3 hours"
+                "name": "Lampokhari lake",
+                "placeSlug": "aritar",
+                "duration": "1.5 hours",
+                "note": "Sikkim's only boating lake, at 4,600 ft."
+              },
+              {
+                "time": "Late afternoon",
+                "name": "Aritar Gumpa",
+                "placeSlug": "aritar",
+                "duration": "45 minutes"
               }
             ],
-            "overnight": "Aritar"
+            "travel": "Aritar is 67 km from Gangtok (30 km from Rangpo).",
+            "distanceKm": 67,
+            "transport": "Car",
+            "overnight": "Aritar",
+            "permits": "Arrange your restricted-area permits for Zuluk before setting off."
           },
           {
-            "title": "Day 2: Zuluk",
-            "summary": "Drive up via Rongli to Zuluk for sunset over the Himalaya.",
+            "title": "Aritar to Zuluk",
+            "summary": "Up the NH-717B through Rongli to Zuluk, in the Pangolakha sanctuary.",
             "stops": [
               {
+                "time": "Afternoon",
                 "name": "Zuluk",
-                "time": "Evening",
-                "placeSlug": "sikkim/zuluk",
-                "duration": "2 hours"
+                "placeSlug": "zuluk",
+                "duration": "Evening",
+                "note": "About 9,400 ft."
               }
             ],
-            "overnight": "Zuluk"
+            "travel": "Via Rongli on NH-717B.",
+            "transport": "Car",
+            "overnight": "Zuluk",
+            "altitude": 2865
           },
           {
-            "title": "Day 3: Nathang Valley",
-            "summary": "Dawn views, then the high Nathang Valley.",
+            "title": "Zuluk switchbacks, Nathang and back",
+            "summary": "Dawn views from the three-level switchbacks, then Nathang valley and the drive back to Gangtok.",
             "stops": [
               {
-                "name": "Nathang Valley",
+                "time": "Dawn",
+                "name": "Zuluk switchbacks",
+                "placeSlug": "zuluk",
+                "duration": "1 hour"
+              },
+              {
                 "time": "Morning",
-                "placeSlug": "sikkim/nathang-valley",
-                "duration": "3 hours"
+                "name": "Nathang Valley",
+                "placeSlug": "nathang-valley",
+                "duration": "1 hour",
+                "note": "Site of the 1888 Tibetan–British clash."
               }
             ],
-            "overnight": "Departure"
+            "travel": "Zuluk is about 90 km (4 hours) from Gangtok.",
+            "distanceKm": 90,
+            "driveTime": "About 4 hours from Zuluk",
+            "transport": "Car",
+            "overnight": "Gangtok"
           }
         ],
         "budget": {
-          "assumptions": "VacayOut lists only fees it could check with an official source; hotels, transport and meals are not estimated. Check current prices before you book.",
-          "lines": []
+          "assumptions": "Car hire, permits and homestays aren't confirmed from an official source.",
+          "lines": [
+            {
+              "label": "Car with driver, 3 days",
+              "amount": "Not estimated",
+              "basis": "Not confirmed from an official source"
+            },
+            {
+              "label": "Permits and stays",
+              "amount": "Not estimated",
+              "basis": "Not confirmed from an official source"
+            }
+          ]
         },
         "booking": [
           {
             "item": "Permits",
-            "detail": "Zuluk and the Silk Route are restricted areas — arrange permits before travelling."
+            "detail": "Zuluk and Nathang are in restricted areas."
+          },
+          {
+            "item": "From the plains",
+            "detail": "Zuluk is about 160 km, some 6 hours, from NJP/Bagdogra."
           }
         ],
         "alternatives": [
-          "Continue to Tsomgo Lake and Gangtok."
+          "Start from Siliguri: Zuluk is about 7 hours via Rongli."
         ],
         "tips": [
-          "Expect 3–5 ft of snow in winter."
+          "Winter brings 3–5 ft of snow at Zuluk.",
+          "Avoid the monsoon months for this road."
+        ],
+        "prep": [
+          {
+            "title": "Season",
+            "body": "October–February snow, March–May cold, June–September monsoon showers."
+          }
+        ],
+        "faqs": [
+          {
+            "q": "How far is Zuluk from Gangtok?",
+            "a": "About 90 km, around four hours."
+          },
+          {
+            "q": "Do I need a permit?",
+            "a": "Yes — many areas of Sikkim, including this route, are restricted."
+          },
+          {
+            "q": "When does it snow?",
+            "a": "October to February; Zuluk gets 3–5 ft of snow in winter."
+          }
         ]
       }
     },
     {
       "place": "sikkim",
       "slug": "west-sikkim-4-days",
-      "title": "West Sikkim in 4 days: Pelling and Yuksom",
+      "title": "West Sikkim in 4 days: Pelling, Yuksom and Tashiding",
       "durationDays": 4,
       "tripTypes": [
-        "heritage",
+        "mountains",
         "spiritual",
-        "mountains"
+        "heritage"
       ],
-      "summary": "Pelling's views, Pemayangtse and Rabdentse, Khecheopalri Lake, then Yuksom, Dubdi and Tashiding.",
-      "seoTitle": "West Sikkim 4-Day Itinerary: Pelling & Yuksom",
-      "seoDescription": "Four days in West Sikkim: Pelling, Pemayangtse, the Rabdentse ruins, Khecheopalri Lake, Yuksom, Dubdi and Tashiding monasteries.",
+      "summary": "Kanchenjunga from Pelling, the monasteries and royal ruins of the old capitals, and the trekking village of Yuksom.",
+      "seoTitle": "West Sikkim 4-Day Itinerary: Pelling, Yuksom, Tashiding",
+      "seoDescription": "4 days in West Sikkim: Pelling's Sky Walk and Pemayangtse, Rabdentse ruins, Khecheopalri Lake, Yuksom and Dubdi, and Tashiding — with distances and opening hours.",
       "facts": [
+        "SKB7",
+        "SKB8",
         "N_PL1",
         "N_PLP1",
+        "SKB5",
+        "SKB6",
         "RAB1",
         "N_PLK1",
+        "SKB9",
+        "S4Y1",
+        "S4Y2",
+        "S4Y4",
         "YUK1",
         "DUB1",
-        "TAS1"
+        "TAS1",
+        "S4Y3"
       ],
       "sources": [],
       "plan": {
-        "overview": "Sikkim's old royal heartland.",
+        "overview": "West Sikkim's monastery circuit, at the foot of Kanchenjunga. Pelling is the base for Pemayangtse, Sanga Choeling and the Rabdentse ruins; Yuksom, the first capital, is the trailhead for Kanchenjunga treks; Tashiding sits on a hill between them.",
+        "style": "Monasteries · Kanchenjunga views · Royal history",
         "start": "Pelling",
-        "end": "Yuksom",
-        "transport": "Hired car; short walks to the monasteries.",
-        "season": "Spring and autumn for clear Kanchenjunga views.",
+        "end": "Pelling",
+        "season": "March–June and September–November; December and February are coldest.",
+        "difficulty": "Easy to moderate",
+        "transport": "Car with driver; a regular bus links Pelling and Gyalshing.",
         "days": [
           {
-            "title": "Day 1: Pelling",
-            "summary": "Kanchenjunga views and Pemayangtse Monastery.",
+            "title": "Pelling",
+            "summary": "Pemayangtse, then the Chenrezig statue and Sky Walk.",
             "stops": [
               {
+                "time": "Morning",
                 "name": "Pemayangtse Monastery",
+                "placeSlug": "pemayangtse-monastery",
+                "duration": "1.5 hours",
+                "note": "Open 8 am–4 pm."
+              },
+              {
                 "time": "Afternoon",
-                "placeSlug": "sikkim/pemayangtse-monastery",
-                "duration": "1.5 hours"
+                "name": "Chenrezig statue and Sky Walk",
+                "placeSlug": "pelling",
+                "duration": "1 hour"
               }
             ],
-            "overnight": "Pelling"
+            "travel": "Pelling is about 135 km from Siliguri.",
+            "transport": "Car",
+            "overnight": "Pelling",
+            "altitude": 2150
           },
           {
-            "title": "Day 2: Rabdentse and Khecheopalri",
-            "summary": "The royal ruins, then the sacred lake.",
+            "title": "Rabdentse, Sanga Choeling and Khecheopalri",
+            "summary": "The royal ruins, a forest walk to Sanga Choeling, and the wish-fulfilling lake.",
             "stops": [
               {
+                "time": "Morning",
                 "name": "Rabdentse Ruins",
-                "time": "Morning",
-                "placeSlug": "sikkim/rabdentse-ruins",
-                "duration": "2 hours"
-              },
-              {
-                "name": "Khecheopalri Lake",
-                "time": "Afternoon",
-                "placeSlug": "sikkim/khecheopalri-lake",
+                "placeSlug": "rabdentse-ruins",
                 "duration": "1.5 hours"
-              }
-            ],
-            "overnight": "Pelling"
-          },
-          {
-            "title": "Day 3: Yuksom",
-            "summary": "Drive to Yuksom; Norbugang Chorten and the walk to Dubdi.",
-            "stops": [
-              {
-                "name": "Yuksom",
-                "time": "Afternoon",
-                "placeSlug": "sikkim/yuksom",
-                "duration": "2 hours"
               },
               {
-                "name": "Dubdi Monastery",
-                "time": "Late afternoon",
-                "placeSlug": "sikkim/dubdi-monastery",
-                "duration": "2 hours"
+                "time": "Midday",
+                "name": "Sanga Choeling Monastery",
+                "placeSlug": "pelling",
+                "duration": "2 hours",
+                "note": "Steep 4 km forest path; 7 km from Pemayangtse."
+              },
+              {
+                "time": "Afternoon",
+                "name": "Khecheopalri Lake",
+                "placeSlug": "khecheopalri-lake",
+                "duration": "1 hour",
+                "note": "Rimbi Waterfall is on the way."
               }
             ],
-            "overnight": "Yuksom"
+            "overnight": "Pelling",
+            "transport": "Car and on foot"
           },
           {
-            "title": "Day 4: Tashiding",
-            "summary": "Tashiding Monastery on its hilltop.",
+            "title": "Yuksom and Dubdi",
+            "summary": "Sikkim's first capital and its first monastery.",
             "stops": [
               {
-                "name": "Tashiding Monastery",
-                "time": "Morning",
-                "placeSlug": "sikkim/tashiding-monastery",
-                "duration": "2 hours"
+                "time": "Afternoon",
+                "name": "Norbugang Chorten, Yuksom",
+                "placeSlug": "yuksom",
+                "duration": "1 hour"
+              },
+              {
+                "time": "Late afternoon",
+                "name": "Dubdi Monastery",
+                "placeSlug": "dubdi-monastery",
+                "duration": "1.5 hours",
+                "note": "Tell the resident monk before you visit."
               }
             ],
-            "overnight": "Departure"
+            "travel": "Yuksom is about 40 km north of Gyalshing; Pelling is 10 km from Gyalshing.",
+            "transport": "Car",
+            "overnight": "Yuksom",
+            "altitude": 1780
+          },
+          {
+            "title": "Tashiding and back",
+            "summary": "Tashiding Monastery on its hill, then back to Pelling.",
+            "stops": [
+              {
+                "time": "Morning",
+                "name": "Tashiding Monastery",
+                "placeSlug": "tashiding-monastery",
+                "duration": "1.5 hours",
+                "note": "19 km south-east of Yuksom."
+              }
+            ],
+            "travel": "Yuksom to Tashiding is 19 km.",
+            "distanceKm": 19,
+            "transport": "Car",
+            "overnight": "Pelling"
           }
         ],
         "budget": {
-          "assumptions": "VacayOut lists only fees it could check with an official source; hotels, transport and meals are not estimated. Check current prices before you book.",
-          "lines": []
+          "assumptions": "Car hire and stays aren't confirmed from an official source.",
+          "lines": [
+            {
+              "label": "Car with driver, 4 days",
+              "amount": "Not estimated",
+              "basis": "Not confirmed from an official source"
+            }
+          ]
         },
         "booking": [
           {
-            "item": "Dubdi visit",
-            "detail": "Inform the resident monk in advance to see inside."
+            "item": "Getting there",
+            "detail": "Siliguri is the nearest railhead and airport, about 135 km from Pelling."
           }
         ],
         "alternatives": [
-          "Start the Goecha La trek from Yuksom."
+          "Kanchenjunga Falls is about 28 km from Pelling.",
+          "Trekkers: the Dzongri–Goechala trek from Yuksom takes 8–9 days."
         ],
         "tips": [
-          "Mornings are clearest for Kanchenjunga."
+          "Sanga Choeling is reserved for men.",
+          "Visit Tashiding around February–March for the Bumchu festival."
+        ],
+        "prep": [
+          {
+            "title": "Season",
+            "body": "March–June and September–November are pleasant; winter can bring snow to Pelling."
+          }
+        ],
+        "faqs": [
+          {
+            "q": "How far is Pelling from Siliguri?",
+            "a": "About 135 km."
+          },
+          {
+            "q": "When is Pemayangtse open?",
+            "a": "8 am to 4 pm."
+          },
+          {
+            "q": "How far is Tashiding from Yuksom?",
+            "a": "19 km south-east."
+          }
         ]
       }
     },
     {
       "place": "sikkim",
       "slug": "south-sikkim-2-days",
-      "title": "South Sikkim in 2 days: Namchi and Ravangla",
+      "title": "South Sikkim in 2 days: Namchi, Temi and Ravangla",
       "durationDays": 2,
       "tripTypes": [
         "spiritual",
+        "nature",
         "family"
       ],
-      "summary": "Namchi's giant Guru Padmasambhava and Siddhesvara Dham, then Ravangla's Buddha Park and Temi tea.",
-      "seoTitle": "South Sikkim 2-Day Itinerary: Namchi & Ravangla",
-      "seoDescription": "Two days in South Sikkim: Namchi's 135 ft Guru Padmasambhava, Siddhesvara Dham, Temi Tea Garden and Ravangla's 130 ft Buddha.",
+      "summary": "Namchi's giant statues of Guru Padmasambhava and Shiva, Temi's organic tea garden, and the Buddha Park at Ravangla.",
+      "seoTitle": "South Sikkim 2-Day Itinerary: Namchi, Temi, Ravangla",
+      "seoDescription": "2 days in South Sikkim: Samdruptse and Siddhesvara Dham at Namchi, Temi Tea Garden, Ravangla's Buddha Park and Ralang Monastery — with distances from Gangtok and NJP.",
       "facts": [
-        "NAM1",
+        "S4N1",
+        "NAM2",
+        "SKB10",
+        "SKB11",
+        "S4N3",
+        "S4N2",
         "TEM1",
+        "RAV1",
+        "S4R1",
         "BUD1",
-        "RAV1"
+        "SKB12",
+        "S4R2"
       ],
       "sources": [],
       "plan": {
-        "overview": "An easy loop of statues, shrines and tea.",
-        "start": "Namchi",
-        "end": "Ravangla",
-        "transport": "Hired car.",
-        "season": "Spring and autumn.",
+        "overview": "An easy two-day loop through South Sikkim's big pilgrimage sights. Namchi is 78 km from Gangtok and under 100 km from the plains; Ravangla, at about 8,000 ft, looks out on Kanchenjunga.",
+        "style": "Pilgrimage · Tea · Views",
+        "start": "Gangtok or NJP",
+        "end": "Gangtok",
+        "season": "April–May for orchids and rhododendrons; Namchi Mahotsav each October.",
+        "difficulty": "Easy",
+        "transport": "Car; Sikkim Nationalised Transport buses connect Namchi with other towns and Siliguri.",
         "days": [
           {
-            "title": "Day 1: Namchi",
-            "summary": "The Guru Padmasambhava statue and Siddhesvara Dham.",
+            "title": "Namchi",
+            "summary": "Samdruptse's Guru Padmasambhava and the Char Dham replicas at Siddhesvara Dham.",
             "stops": [
               {
-                "name": "Namchi",
                 "time": "Morning",
-                "placeSlug": "sikkim/namchi",
-                "duration": "4 hours"
-              }
-            ],
-            "overnight": "Namchi"
-          },
-          {
-            "title": "Day 2: Temi and Ravangla",
-            "summary": "Temi Tea Garden, then Buddha Park.",
-            "stops": [
-              {
-                "name": "Temi Tea Garden",
-                "time": "Morning",
-                "placeSlug": "sikkim/temi-tea-garden",
-                "duration": "1.5 hours"
+                "name": "Samdruptse",
+                "placeSlug": "namchi",
+                "duration": "1.5 hours",
+                "note": "135 ft statue."
               },
               {
-                "name": "Buddha Park, Ravangla",
                 "time": "Afternoon",
-                "placeSlug": "sikkim/buddha-park-ravangla",
-                "duration": "2 hours"
+                "name": "Siddhesvara Dham",
+                "placeSlug": "namchi",
+                "duration": "2 hours",
+                "note": "About 5 km from Namchi."
               }
             ],
-            "overnight": "Departure"
+            "travel": "Namchi is about 78 km from Gangtok (NJP about 96 km, Bagdogra about 102 km).",
+            "distanceKm": 78,
+            "transport": "Car",
+            "overnight": "Namchi",
+            "altitude": 1314
+          },
+          {
+            "title": "Temi and Ravangla",
+            "summary": "Temi Tea Garden, then the Buddha Park and Ralang Monastery.",
+            "stops": [
+              {
+                "time": "Morning",
+                "name": "Temi Tea Garden",
+                "placeSlug": "temi-tea-garden",
+                "duration": "1 hour"
+              },
+              {
+                "time": "Afternoon",
+                "name": "Buddha Park (Tathagata Tsal)",
+                "placeSlug": "buddha-park-ravangla",
+                "duration": "1.5 hours",
+                "note": "130 ft copper Buddha."
+              },
+              {
+                "time": "Late afternoon",
+                "name": "Ralang Monastery",
+                "placeSlug": "ravangla",
+                "duration": "1 hour",
+                "note": "6 km from Ravangla."
+              }
+            ],
+            "travel": "Ravangla is about 61 km from Gangtok.",
+            "distanceKm": 61,
+            "transport": "Car",
+            "overnight": "Gangtok or Ravangla",
+            "altitude": 2438
           }
         ],
         "budget": {
-          "assumptions": "VacayOut lists only fees it could check with an official source; hotels, transport and meals are not estimated. Check current prices before you book.",
-          "lines": []
+          "assumptions": "Car hire and stays aren't confirmed from an official source.",
+          "lines": [
+            {
+              "label": "Car with driver, 2 days",
+              "amount": "Not estimated",
+              "basis": "Not confirmed from an official source"
+            }
+          ]
         },
         "booking": [
           {
-            "item": "Car",
-            "detail": "Book a car for the loop; Ravangla is 61 km from Gangtok."
+            "item": "October",
+            "detail": "Namchi Mahotsav at Namchi Central Park."
           }
         ],
         "alternatives": [
-          "Continue to Pelling."
+          "Ravangla is the start of the Maenam trek.",
+          "From the plains, Ravangla is about 120 km from Siliguri."
         ],
         "tips": [
-          "Carry a light jacket for evenings."
+          "Ravangla's upper parts sometimes get snow in winter."
+        ],
+        "prep": [
+          {
+            "title": "Season",
+            "body": "April–May brings orchids and rhododendrons to Ravangla."
+          }
+        ],
+        "faqs": [
+          {
+            "q": "How far is Namchi from Gangtok?",
+            "a": "About 78 km."
+          },
+          {
+            "q": "How tall is the Buddha at Ravangla?",
+            "a": "130 ft, in copper; consecrated by the Dalai Lama in 2013."
+          },
+          {
+            "q": "Is there public transport?",
+            "a": "Sikkim Nationalised Transport buses connect Namchi with other towns and Siliguri."
+          }
         ]
       }
     }

@@ -1,0 +1,881 @@
+{
+  "cluster": "routes-meghalaya",
+  "title": "Meghalaya — routes and guides",
+  "researchedAt": "2026-11-20",
+  "selection": "Meghalaya itineraries and planning guides built from Meghalaya Tourism's official suggested itineraries and travel essentials.",
+  "sources": {
+    "MT_IT5": {
+      "url": "https://meghalayatourism.in/plan/suggested-itineraries/itineraries/5-day/through-mountains-and-clouds/",
+      "title": "5-day itinerary: Through mountains and clouds — Meghalaya Tourism (Government of Meghalaya)",
+      "authority": "government"
+    },
+    "MT_BEST": {
+      "url": "https://meghalayatourism.in/plan/travel-essentials/best-time-to-visit-by-season/",
+      "title": "Best time to visit by season — Meghalaya Tourism (Government of Meghalaya)",
+      "authority": "government"
+    },
+    "MT_INTL": {
+      "url": "https://meghalayatourism.in/plan/how-to-reach/tips-for-international-travellers/",
+      "title": "Tips for international travellers — Meghalaya Tourism (Government of Meghalaya)",
+      "authority": "government"
+    },
+    "MT_DAW": {
+      "url": "https://meghalayatourism.in/explore/destinations/by-region/jaintia-hills/dawki-shnongpdeng-darang/",
+      "title": "Dawki — Meghalaya Tourism (Government of Meghalaya)",
+      "authority": "government"
+    },
+    "MT_MLN": {
+      "url": "https://meghalayatourism.in/explore/destinations/by-interest/living-root-bridges/mawlynnong/",
+      "title": "Mawlynnong — Meghalaya Tourism (Government of Meghalaya)",
+      "authority": "government"
+    },
+    "MT_MSY": {
+      "url": "https://meghalayatourism.in/explore/destinations/by-region/khasi-hills/mawsynram/",
+      "title": "Mawsynram — Meghalaya Tourism (Government of Meghalaya)",
+      "authority": "government"
+    },
+    "MT_KON": {
+      "url": "https://meghalayatourism.in/explore/destinations/by-region/khasi-hills/kongthong-village/",
+      "title": "Kongthong — Meghalaya Tourism (Government of Meghalaya)",
+      "authority": "government"
+    },
+    "W_SHL": {
+      "url": "https://en.wikipedia.org/wiki/Shillong",
+      "title": "Shillong — Wikipedia",
+      "authority": "reference"
+    },
+    "W_GAU": {
+      "url": "https://en.wikipedia.org/wiki/Lokpriya_Gopinath_Bordoloi_International_Airport",
+      "title": "Lokpriya Gopinath Bordoloi International Airport — Wikipedia",
+      "authority": "reference"
+    },
+    "WP_JOW": {
+      "url": "https://en.wikipedia.org/wiki/Jowai",
+      "title": "Jowai — Wikipedia",
+      "authority": "reference"
+    },
+    "WP_CHE": {
+      "url": "https://en.wikipedia.org/wiki/Cherrapunji",
+      "title": "Cherrapunji — Wikipedia",
+      "authority": "reference"
+    },
+    "II_CHE": {
+      "url": "https://www.incredibleindia.gov.in/en/meghalaya/cherrapunjee",
+      "title": "Cherrapunjee — Incredible India",
+      "authority": "government"
+    },
+    "II_MGF": {
+      "url": "https://www.incredibleindia.gov.in/en/meghalaya/shillong/a-feast-for-the-senses-awaits-in-shillong",
+      "title": "A feast for the senses awaits in Shillong — Incredible India",
+      "authority": "government"
+    },
+    "W_UMI": {
+      "url": "https://en.wikipedia.org/wiki/Umiam_Lake",
+      "title": "Umiam Lake — Wikipedia",
+      "authority": "reference"
+    }
+  },
+  "facts": {
+    "MGR1": {
+      "place": "meghalaya/shillong",
+      "claim": "Shillong is 100 km from Guwahati on NH 40, about 2.5 hours.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "W_SHL",
+          "quote": "Shillong is just 100 km (62 mi) from Guwahati, accessible by road along NH 40."
+        },
+        {
+          "source": "W_SHL",
+          "quote": "The journey is of about 2 hours and 30 minutes"
+        }
+      ],
+      "topic": "MGR1"
+    },
+    "MGR2": {
+      "place": "meghalaya/shillong",
+      "claim": "Shillong has no rail link; Umroi airport is about 30 km away; taxis run to Guwahati, Agartala, Kohima, Dimapur and Aizawl.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "W_SHL",
+          "quote": "Shillong is well-connected by road, but it neither has rail connections nor a proper air connection."
+        },
+        {
+          "source": "W_SHL",
+          "quote": "Shillong is served by the Shillong Airport, located about 30 km away in Umroi."
+        },
+        {
+          "source": "W_SHL",
+          "quote": "Taxi services are also available to destinations like Guwahati, Agartala, Kohima, Dimapur, Aizawl"
+        }
+      ],
+      "topic": "MGR2"
+    },
+    "MGR3": {
+      "place": "meghalaya",
+      "claim": "Guwahati's airport is the primary airport of Northeast India.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "W_GAU",
+          "quote": "the primary airport of Northeast India"
+        }
+      ],
+      "topic": "MGR3"
+    },
+    "MGR4": {
+      "place": "meghalaya/cherrapunji",
+      "claim": "Cherrapunji (Sohra) is about 50 km from Shillong; Guwahati station, 165 km, is the nearest railhead; November–February is the drier season.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_CHE",
+          "quote": "The town is located around 50 kilometers from Shillong"
+        },
+        {
+          "source": "WP_CHE",
+          "quote": "Guwahati railway station, 165 km north, is the nearest railway station"
+        },
+        {
+          "source": "II_CHE",
+          "quote": "The best time to visit Cherrapunjee is undoubtedly during winter, from November to February."
+        }
+      ],
+      "topic": "MGR4"
+    },
+    "MGR5": {
+      "place": "meghalaya/double-decker-living-root-bridge",
+      "claim": "The trek to Nongriat's double-decker bridge starts at Tyrna and descends about 3,500 steps.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_CHE",
+          "quote": "This route begins from Tyrna village, involving a descent of about 3500 steps."
+        }
+      ],
+      "topic": "MGR5"
+    },
+    "MGR6": {
+      "place": "meghalaya",
+      "claim": "Meghalaya Tourism's 5-day route: Shillong city; Sohra's falls and caves; Nohkalikai and the descent to Nongriat; Pynursla's root bridges and Shnongpdeng; then Mawphlang Sacred Grove and Umiam Lake.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "MT_IT5",
+          "quote": "Day 1: Shillong Explore key city sights around Shillong at a relaxed pace."
+        },
+        {
+          "source": "MT_IT5",
+          "quote": "Day 3: Sohra → Nongriat Start early for Nongriat trek and waterfall views."
+        },
+        {
+          "source": "MT_IT5",
+          "quote": "Day 4: Pynursla & Shnongpdeng Drive across ridges exploring root bridges and riverside village."
+        },
+        {
+          "source": "MT_IT5",
+          "quote": "Day 5: Sacred Grove & Umiam Lake Gentle finish with sacred grove visit and lake views."
+        }
+      ],
+      "topic": "MGR6"
+    },
+    "MGR7": {
+      "place": "meghalaya",
+      "claim": "Day 2 stops: Mawkdok-Dympep viewpoint (optional zip-lining), Wah Kaba Falls, Arwah Caves and Dainthlen and Wei-Sawdong falls.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "MT_IT5",
+          "quote": "Mawkdok‑Dympep Valley View Point Things to do : Photography, optional zip‑lining"
+        },
+        {
+          "source": "MT_IT5",
+          "quote": "Wah Kaba Waterfalls Things to do : View waterfall cascade into cliff gorge"
+        },
+        {
+          "source": "MT_IT5",
+          "quote": "Arwah Caves Things to do : Explore stalagmites, stalactites & fossils"
+        },
+        {
+          "source": "MT_IT5",
+          "quote": "Dainthlen & Wei‑Sawdong Falls Things to do : Descend to waterfalls, explore rock pools"
+        }
+      ],
+      "topic": "MGR7"
+    },
+    "MGR8": {
+      "place": "meghalaya",
+      "claim": "At Mawphlang Sacred Grove take a guided forest walk; Umiam Lake has strolls and boating.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "MT_IT5",
+          "quote": "Mawphlang Sacred Grove Things to do : Guided forest walk, learn Khasi traditions"
+        },
+        {
+          "source": "MT_IT5",
+          "quote": "Umiam Lake Things to do : Lake strolls, boating, lakeside photography"
+        }
+      ],
+      "topic": "MGR8"
+    },
+    "MGR9": {
+      "place": "meghalaya/dawki",
+      "claim": "Dawki is about 80 km from Shillong on NH206 by shared taxi or cab; hire a private vehicle for Shnongpdeng; visit 6 am–6 pm; best October–May.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "MT_DAW",
+          "quote": "From Shillong, travelers can reach Dawki by driving approximately 80 km along NH206."
+        },
+        {
+          "source": "MT_DAW",
+          "quote": "For Shnongpdeng and Darang, hiring a private vehicle from Shillong is recommended for flexibility and comfort."
+        },
+        {
+          "source": "MT_DAW",
+          "quote": "Visitors can visit Dawki between 6:00 AM and 6:00 PM."
+        },
+        {
+          "source": "MT_DAW",
+          "quote": "The best time to visit Dawki is between October and May"
+        }
+      ],
+      "topic": "MGR9"
+    },
+    "MGR10": {
+      "place": "meghalaya/mawlynnong",
+      "claim": "Mawlynnong is about 76 km from Shillong; shared sumos run to Pynursla, then local cabs.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "MT_MLN",
+          "quote": "Mawlynnong is located in the East Khasi Hills District, about 76 km from Shillong."
+        },
+        {
+          "source": "MT_MLN",
+          "quote": "Shared sumos and taxis to Pynursla are available from Shillong"
+        }
+      ],
+      "topic": "MGR10"
+    },
+    "MGR11": {
+      "place": "meghalaya/umiam-lake",
+      "claim": "Umiam Lake is 15 km north of Shillong.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "W_UMI",
+          "quote": "is a reservoir in the hills 15 km (9.3 mi) north of Shillong"
+        }
+      ],
+      "topic": "MGR11"
+    },
+    "MGR12": {
+      "place": "meghalaya",
+      "claim": "Book authorised cabs from hotels, avoid isolated areas without a guide, drink bottled water and dress conservatively.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "MT_INTL",
+          "quote": "If possible, book authorized cabs from hotels; avoid unidentified or unnumbered vehicles."
+        },
+        {
+          "source": "MT_INTL",
+          "quote": "Avoid isolated areas without a guide."
+        },
+        {
+          "source": "MT_INTL",
+          "quote": "Use bottled water and eat at established restaurants"
+        },
+        {
+          "source": "MT_INTL",
+          "quote": "Dress comfortably but conservatively."
+        }
+      ],
+      "topic": "MGR12"
+    },
+    "MGR13": {
+      "place": "meghalaya",
+      "claim": "Spring is March–April; the monsoon May–September; post-monsoon October–November is harvest-festival time; winter November–February is driest and best for caves.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "MT_BEST",
+          "quote": "A Pleasant Spring Escape – March and April"
+        },
+        {
+          "source": "MT_BEST",
+          "quote": "The Mega Monsoons – May to September"
+        },
+        {
+          "source": "MT_BEST",
+          "quote": "The post-monsoon is the harvest season so it is also the time when a lot of traditional festivals are happening across the state"
+        },
+        {
+          "source": "MT_BEST",
+          "quote": "It is also the best time for those who want to explore the many caves in the state."
+        }
+      ],
+      "topic": "MGR13"
+    },
+    "MGR14": {
+      "place": "meghalaya",
+      "claim": "Swimming and water activities are not permitted in most areas during the monsoon; watch for heavy-rain and landslide warnings.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "MT_BEST",
+          "quote": "swimming and other water activities are not permitted in most areas for (obvious) safety reasons"
+        },
+        {
+          "source": "MT_BEST",
+          "quote": "pay attention to warnings of heavy rains and landslides"
+        }
+      ],
+      "topic": "MGR14"
+    },
+    "MGR15": {
+      "place": "meghalaya",
+      "claim": "Winter is the driest season; some highland areas see sub-zero early mornings; pack warm and book stays ahead.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "MT_BEST",
+          "quote": "The wintertime is the driest season of the year"
+        },
+        {
+          "source": "MT_BEST",
+          "quote": "experience sub-zero temperatures in the early mornings"
+        },
+        {
+          "source": "MT_BEST",
+          "quote": "Book your accommodations in advance, as winter is a busy season for tourists."
+        }
+      ],
+      "topic": "MGR15"
+    },
+    "MGR16": {
+      "place": "meghalaya",
+      "claim": "In the monsoon pack a waterproof jacket, umbrella and anti-slip shoes; weather is unpredictable at any time of year.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "MT_BEST",
+          "quote": "Pack for rain – waterproof bag, waterproof jacket, umbrella, anti-slip shoes, quick-drying clothes."
+        },
+        {
+          "source": "MT_BEST",
+          "quote": "Experiencing all seasons in a single day is a real possibility!"
+        }
+      ],
+      "topic": "MGR16"
+    },
+    "MGR17": {
+      "place": "meghalaya/mawsynram",
+      "claim": "Mawsynram is 61 km from Shillong; MTDC runs guided day trips by car.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "MT_MSY",
+          "quote": "From Shillong: drive 61 km via East Khasi Hills; shared taxis or private cars are common."
+        },
+        {
+          "source": "MT_MSY",
+          "quote": "Guided day trips (car only, no buses) are available through MTDC circuits."
+        }
+      ],
+      "topic": "MGR17"
+    },
+    "MGR18": {
+      "place": "meghalaya/kongthong",
+      "claim": "Kongthong is 55–60 km from Shillong by shared sumo or taxi; best October–April.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "MT_KON",
+          "quote": "The nearest city is Shillong, which is approximately 55-60 km away."
+        },
+        {
+          "source": "MT_KON",
+          "quote": "The best time to visit is from October to April"
+        }
+      ],
+      "topic": "MGR18"
+    },
+    "MGR19": {
+      "place": "meghalaya/jowai",
+      "claim": "Jowai is 64 km from Shillong; shared Tata Sumos are the main transport.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WP_JOW",
+          "quote": "Jowai is well connected by roadways to Shillong, which is 64 km away."
+        },
+        {
+          "source": "WP_JOW",
+          "quote": "The district's most popular modes of transport are the Tata Sumo and the Tata Indica, which function on a shared passenger basis."
+        }
+      ],
+      "topic": "MGR19"
+    },
+    "MGR20": {
+      "place": "meghalaya",
+      "claim": "Khasi dishes to try include doh neiiong (pork in black-sesame gravy) and tungrymbai (fermented soybean).",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_MGF",
+          "quote": "pork cooked in velvety gravy made of black sesame seeds"
+        },
+        {
+          "source": "II_MGF",
+          "quote": "Tungrymbai, a delicious Meghalayan delicacy prepared from fermented soybeans"
+        }
+      ],
+      "topic": "MGR20"
+    }
+  },
+  "places": [],
+  "itineraries": [
+    {
+      "place": "meghalaya",
+      "slug": "meghalaya-5-days-sohra-nongriat-dawki",
+      "title": "Meghalaya in 5 days: Sohra, Nongriat, Shnongpdeng and Mawphlang",
+      "durationDays": 5,
+      "tripTypes": [
+        "nature",
+        "adventure"
+      ],
+      "summary": "Meghalaya Tourism's own 5-day Khasi Hills route: Shillong, Sohra's falls and caves, a night in Nongriat by the double-decker root bridge, the Umngot at Shnongpdeng, and Mawphlang's sacred grove.",
+      "seoTitle": "Meghalaya 5-Day Itinerary: Sohra, Nongriat, Dawki",
+      "seoDescription": "Five days in Meghalaya following the official route: Shillong, Sohra's waterfalls and caves, the Nongriat root bridge, Shnongpdeng on the Umngot and Mawphlang.",
+      "facts": [
+        "MGR1",
+        "MGR3",
+        "MGR4",
+        "MGR5",
+        "MGR6",
+        "MGR7",
+        "MGR8",
+        "MGR9",
+        "MGR10",
+        "MGR11",
+        "MGR12",
+        "MGR13",
+        "MGR14",
+        "MGR20"
+      ],
+      "sources": [],
+      "plan": {
+        "overview": "This follows Meghalaya Tourism's suggested 5-day route through the Khasi Hills. It moves on almost every day — Shillong, Sohra, a night down in Nongriat by the root bridges, the clear Umngot river at Shnongpdeng, and an easy last morning at Mawphlang and Umiam Lake before Guwahati. Go October to May: the Umngot is clearest then and Sohra is drier from November to February.",
+        "style": "Nature · Trekking · Rivers",
+        "start": "Guwahati airport",
+        "end": "Guwahati airport",
+        "season": "October–May (Dawki's season); November–February is driest in Sohra",
+        "difficulty": "Moderate — one long descent to Nongriat (about 3,500 steps)",
+        "transport": "Hired taxi; on foot to Nongriat. A private vehicle is recommended for Shnongpdeng.",
+        "days": [
+          {
+            "title": "Guwahati to Shillong",
+            "summary": "Drive up to Shillong and see the city at an easy pace: Ward's Lake, the Cathedral, and Elephant Falls.",
+            "stops": [
+              {
+                "time": "Afternoon",
+                "name": "Ward's Lake",
+                "placeSlug": "wards-lake",
+                "duration": "1 hour"
+              },
+              {
+                "time": "Late afternoon",
+                "name": "Elephant Falls",
+                "placeSlug": "elephant-falls",
+                "duration": "1 hour",
+                "note": "A two-tier fall on the city's edge."
+              }
+            ],
+            "overnight": "Shillong",
+            "travel": "Guwahati to Shillong on NH 40.",
+            "distanceKm": 100,
+            "distance": "100 km",
+            "driveTime": "About 2.5 hours",
+            "transport": "Taxi",
+            "meals": "Dinner in Shillong: try doh neiiong and tungrymbai."
+          },
+          {
+            "title": "Sohra's viewpoints, falls and caves",
+            "summary": "South to Sohra: Mawkdok-Dympep valley view, Wah Kaba Falls, Arwah Caves, and the Dainthlen and Wei-Sawdong falls.",
+            "stops": [
+              {
+                "time": "Morning",
+                "name": "Mawkdok-Dympep valley viewpoint",
+                "duration": "45 minutes",
+                "note": "Optional zip-lining."
+              },
+              {
+                "time": "Midday",
+                "name": "Wah Kaba Falls",
+                "duration": "30 minutes"
+              },
+              {
+                "time": "Afternoon",
+                "name": "Arwah Cave",
+                "placeSlug": "arwah-cave",
+                "duration": "1.5 hours"
+              },
+              {
+                "time": "Late afternoon",
+                "name": "Dainthlen and Wei-Sawdong falls",
+                "duration": "1.5 hours"
+              }
+            ],
+            "overnight": "Sohra (Cherrapunji)",
+            "travel": "Shillong to Sohra is about 50 km.",
+            "distanceKm": 50,
+            "distance": "About 50 km",
+            "transport": "Taxi",
+            "meals": "Lunch near Sohra; dinner at your guesthouse."
+          },
+          {
+            "title": "Nohkalikai and down to Nongriat",
+            "summary": "Morning at Nohkalikai, then the long descent from Tyrna to Nongriat — sleep in the village by the double-decker root bridge.",
+            "stops": [
+              {
+                "time": "Morning",
+                "name": "Nohkalikai Falls",
+                "placeSlug": "nohkalikai-falls",
+                "duration": "1 hour"
+              },
+              {
+                "time": "Midday",
+                "name": "Double-decker living root bridge, Nongriat",
+                "placeSlug": "double-decker-living-root-bridge",
+                "duration": "Rest of the day",
+                "note": "About 3,500 steps down from Tyrna."
+              }
+            ],
+            "overnight": "Nongriat (village homestay)",
+            "travel": "Short drive to Tyrna, then on foot.",
+            "transport": "On foot",
+            "meals": "Simple meals at village homestays.",
+            "logistics": "Pack light — everything goes down and back up the steps."
+          },
+          {
+            "title": "Up from Nongriat to Pynursla and Shnongpdeng",
+            "summary": "Climb back to Tyrna, then drive across the ridges to Pynursla's root bridges and down to the Umngot at Shnongpdeng.",
+            "stops": [
+              {
+                "time": "Morning",
+                "name": "Climb back to Tyrna",
+                "duration": "2–3 hours"
+              },
+              {
+                "time": "Afternoon",
+                "name": "Shnongpdeng on the Umngot",
+                "placeSlug": "dawki",
+                "duration": "Afternoon",
+                "note": "Clearest water in the afternoon; boating and kayaking."
+              }
+            ],
+            "overnight": "Shnongpdeng (riverside camp) or Dawki",
+            "travel": "Hire a private vehicle; Dawki is about 80 km from Shillong along NH206.",
+            "transport": "Private vehicle",
+            "meals": "Riverside camp meals.",
+            "access": "Dawki is open to visitors 6 am–6 pm"
+          },
+          {
+            "title": "Mawphlang, Umiam Lake and back to Guwahati",
+            "summary": "A guided walk in Mawphlang Sacred Grove, a stop at Umiam Lake, then down to Guwahati.",
+            "stops": [
+              {
+                "time": "Morning",
+                "name": "Mawphlang Sacred Grove",
+                "placeSlug": "mawphlang-sacred-grove",
+                "duration": "1.5 hours",
+                "note": "Go with a guide to learn the Khasi traditions."
+              },
+              {
+                "time": "Afternoon",
+                "name": "Umiam Lake",
+                "placeSlug": "umiam-lake",
+                "duration": "45 minutes",
+                "note": "15 km north of Shillong."
+              }
+            ],
+            "overnight": "Guwahati",
+            "travel": "Via Shillong to Guwahati (100 km, about 2.5 hours from Shillong).",
+            "driveTime": "Shillong–Guwahati about 2.5 hours",
+            "transport": "Taxi",
+            "meals": "Lunch in Shillong."
+          }
+        ],
+        "budget": {
+          "assumptions": "Meghalaya Tourism doesn't publish prices for this route. VacayOut hasn't checked taxi, homestay, camp or guide prices.",
+          "lines": [
+            {
+              "label": "Taxi and private vehicle",
+              "amount": "Agree in advance with an authorised operator",
+              "basis": "Not confirmed from an official source"
+            },
+            {
+              "label": "Nongriat homestay and Shnongpdeng camp",
+              "amount": "Ask when booking",
+              "basis": "Not confirmed from an official source"
+            }
+          ]
+        },
+        "booking": [
+          {
+            "item": "Flights",
+            "detail": "Guwahati is the primary airport of Northeast India."
+          },
+          {
+            "item": "Transport",
+            "detail": "Book authorised cabs through your hotel; hire a private vehicle for Shnongpdeng."
+          },
+          {
+            "item": "Help",
+            "detail": "Meghalaya Tourism's helpline, 1800 599 2026, helps with itineraries, transport and stays."
+          }
+        ],
+        "alternatives": [
+          "Not up for the Nongriat night: do the trek as a day from Sohra and stay in Sohra both nights.",
+          "Add Mawlynnong (about 76 km from Shillong) on day 4 on the way to the Umngot.",
+          "In the monsoon swap the river day for falls — swimming and water activities are not permitted in most areas then."
+        ],
+        "tips": [
+          "Start the Nongriat descent early.",
+          "The Umngot looks clearest in the afternoon light.",
+          "Keep a light jacket — the weather can change within a day."
+        ],
+        "prep": [
+          {
+            "title": "Season",
+            "body": "Spring is March–April, the monsoon May–September, post-monsoon October–November (harvest festivals) and winter November–February, the driest and best for caves. Dawki's season runs October to May."
+          },
+          {
+            "title": "Safety",
+            "body": "Book authorised cabs, avoid isolated areas without a guide, drink bottled water and dress conservatively. In the monsoon, check heavy-rain and landslide warnings."
+          }
+        ],
+        "faqs": [
+          {
+            "q": "Is this route from Meghalaya Tourism?",
+            "a": "Yes — it follows the state tourism department's suggested 5-day itinerary, with drive distances added."
+          },
+          {
+            "q": "How far is Dawki from Shillong?",
+            "a": "About 80 km along NH206."
+          },
+          {
+            "q": "Can I stay in Nongriat?",
+            "a": "Yes, in simple village homestays; staying lets you see the bridges without rushing back up the 3,500 steps."
+          },
+          {
+            "q": "When is the Umngot clearest?",
+            "a": "Between October and May."
+          }
+        ]
+      }
+    }
+  ],
+  "guides": [
+    {
+      "place": "meghalaya",
+      "places": [
+        "meghalaya/shillong",
+        "meghalaya/cherrapunji",
+        "meghalaya/dawki",
+        "meghalaya/mawlynnong",
+        "meghalaya/mawsynram",
+        "meghalaya/kongthong",
+        "meghalaya/jowai"
+      ],
+      "slug": "how-to-reach-and-get-around-meghalaya",
+      "title": "How to reach and get around Meghalaya",
+      "summary": "Fly to Guwahati or Shillong's Umroi airport, then by road to Shillong; shared sumos, taxis and MTDC day trips onward, with distances from Shillong to Sohra, Dawki, Mawlynnong, Mawsynram, Kongthong and Jowai.",
+      "tripTypes": [
+        "nature",
+        "adventure"
+      ],
+      "seoTitle": "How to Reach Meghalaya & Get Around: Shillong, Sohra, Dawki",
+      "seoDescription": "Getting to Meghalaya and around it: Guwahati and Umroi airports, the road to Shillong, shared sumos and taxis, and distances from Shillong to the main sights.",
+      "body": {
+        "intro": "Meghalaya has no working railway, so almost everyone arrives by road from Guwahati or flies into Shillong's small Umroi airport. Shillong is the hub: shared sumos and taxis fan out from there to Sohra, the Umngot river, the root-bridge villages and the Jaintia Hills.",
+        "sections": [
+          {
+            "heading": "Getting to Meghalaya",
+            "items": [
+              {
+                "title": "Guwahati",
+                "body": "Guwahati's airport is the primary airport of Northeast India, and Guwahati station is the nearest railhead (165 km from Sohra). Shillong is 100 km away on NH 40, about 2.5 hours.",
+                "status": "verified"
+              },
+              {
+                "title": "Shillong airport",
+                "body": "Shillong's airport is at Umroi, about 30 km from the city.",
+                "status": "verified"
+              },
+              {
+                "title": "By taxi",
+                "body": "Taxis run from Shillong to Guwahati, Agartala, Kohima, Dimapur and Aizawl.",
+                "status": "verified"
+              }
+            ]
+          },
+          {
+            "heading": "Distances from Shillong",
+            "items": [
+              {
+                "title": "Sohra (Cherrapunji)",
+                "body": "About 50 km.",
+                "status": "verified"
+              },
+              {
+                "title": "Kongthong",
+                "body": "About 55–60 km by shared sumo or taxi, then a short walk.",
+                "status": "verified"
+              },
+              {
+                "title": "Mawsynram",
+                "body": "61 km; MTDC runs guided day trips by car.",
+                "status": "verified"
+              },
+              {
+                "title": "Jowai",
+                "body": "64 km; shared Tata Sumos are the main transport.",
+                "status": "verified"
+              },
+              {
+                "title": "Mawlynnong",
+                "body": "About 76 km; shared sumos to Pynursla, then a local cab.",
+                "status": "verified"
+              },
+              {
+                "title": "Dawki",
+                "body": "About 80 km along NH206 by shared taxi or cab; hire a private vehicle for Shnongpdeng.",
+                "status": "verified"
+              }
+            ]
+          },
+          {
+            "heading": "Getting around safely",
+            "text": "Book authorised cabs through your hotel and avoid unidentified or unnumbered vehicles. Avoid isolated areas without a guide, drink bottled water and eat at established restaurants."
+          }
+        ],
+        "checklist": [
+          "Fly into Guwahati (or Umroi for Shillong).",
+          "Book an authorised taxi for the hills.",
+          "Keep the Meghalaya Tourism helpline, 1800 599 2026, handy."
+        ]
+      },
+      "facts": [
+        "MGR1",
+        "MGR2",
+        "MGR3",
+        "MGR4",
+        "MGR9",
+        "MGR10",
+        "MGR17",
+        "MGR18",
+        "MGR19",
+        "MGR12"
+      ],
+      "sources": []
+    },
+    {
+      "place": "meghalaya",
+      "places": [
+        "meghalaya/shillong",
+        "meghalaya/cherrapunji",
+        "meghalaya/dawki",
+        "meghalaya/mawsynram",
+        "meghalaya/kongthong"
+      ],
+      "slug": "best-time-to-visit-meghalaya",
+      "title": "Best time to visit Meghalaya: season by season",
+      "summary": "Spring for escaping the heat, the monsoon for the falls, post-monsoon for festivals and winter for dry trails and caves — plus what to pack and when Sohra, Dawki and Kongthong are at their best.",
+      "tripTypes": [
+        "nature",
+        "adventure"
+      ],
+      "seoTitle": "Best Time to Visit Meghalaya: Season-by-Season Guide",
+      "seoDescription": "When to visit Meghalaya: spring, monsoon, post-monsoon and winter, what to pack, and the best months for Sohra, Dawki, Mawsynram and Kongthong.",
+      "body": {
+        "intro": "Meghalaya rises from near sea level to almost 2,000 m and is one of the wettest places on Earth, so the season changes the trip completely. Meghalaya Tourism splits the year into four seasons.",
+        "sections": [
+          {
+            "heading": "The seasons",
+            "items": [
+              {
+                "title": "Spring — March and April",
+                "body": "Nippy evenings in the highlands and plenty of sunny days; a light jacket is enough.",
+                "status": "seasonal"
+              },
+              {
+                "title": "Monsoon — May to September",
+                "body": "The falls and rivers are at full flow; swimming and water activities are not permitted in most areas.",
+                "status": "seasonal"
+              },
+              {
+                "title": "Post-monsoon — October and November",
+                "body": "Clearer skies and harvest festivals across the state.",
+                "status": "seasonal"
+              },
+              {
+                "title": "Winter — November to February",
+                "body": "The driest, sunniest season — best for hikes, camping and caves; some highland areas see sub-zero early mornings.",
+                "status": "seasonal"
+              }
+            ]
+          },
+          {
+            "heading": "Best months by place",
+            "items": [
+              {
+                "title": "Sohra (Cherrapunji)",
+                "body": "November to February, the drier season.",
+                "status": "seasonal"
+              },
+              {
+                "title": "Dawki",
+                "body": "October to May.",
+                "status": "seasonal"
+              },
+              {
+                "title": "Kongthong",
+                "body": "October to April.",
+                "status": "seasonal"
+              },
+              {
+                "title": "Mawsynram",
+                "body": "Post-monsoon and winter for clearer trails.",
+                "status": "seasonal"
+              }
+            ]
+          },
+          {
+            "heading": "What to pack",
+            "text": "Monsoon: a waterproof bag and jacket, umbrella, anti-slip shoes and quick-drying clothes, and watch for heavy-rain and landslide warnings. Winter: thermals, jackets, gloves and socks — and book stays ahead, as winter is busy. Whatever the month, keep a sweater handy: you can get all seasons in a single day."
+          }
+        ],
+        "checklist": [
+          "Pick your season by what you want: falls (monsoon) or dry trails (winter).",
+          "Book winter stays early.",
+          "Pack a light jacket year-round."
+        ]
+      },
+      "facts": [
+        "MGR13",
+        "MGR14",
+        "MGR15",
+        "MGR16",
+        "MGR4",
+        "MGR9",
+        "MGR18"
+      ],
+      "sources": []
+    }
+  ]
+}

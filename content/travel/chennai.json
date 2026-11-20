@@ -133,6 +133,26 @@
       "url": "https://www.tamilnadutourism.tn.gov.in/destinations/mahabalipuram",
       "title": "Mahabalipuram — Tamil Nadu Tourism (Government of Tamil Nadu)",
       "authority": "government"
+    },
+    "TT_TIPS": {
+      "url": "https://www.tamilnadutourism.tn.gov.in/plan-your-trip/travel-tips",
+      "title": "Travel tips — Tamil Nadu Tourism (Government of Tamil Nadu)",
+      "authority": "government"
+    },
+    "TT_PT": {
+      "url": "https://www.tamilnadutourism.tn.gov.in/plan-your-trip/public-transport",
+      "title": "Public transport — Tamil Nadu Tourism (Government of Tamil Nadu)",
+      "authority": "government"
+    },
+    "TT_TAXI": {
+      "url": "https://www.tamilnadutourism.tn.gov.in/plan-your-trip/taxi",
+      "title": "Taxi — Tamil Nadu Tourism (Government of Tamil Nadu)",
+      "authority": "government"
+    },
+    "TT_MAM4": {
+      "url": "https://www.tamilnadutourism.tn.gov.in/destinations/mahabalipuram",
+      "title": "Mahabalipuram — Tamil Nadu Tourism (Government of Tamil Nadu)",
+      "authority": "government"
     }
   },
   "facts": {
@@ -1040,6 +1060,102 @@
           "quote": "Mahabalipuram Beach It’s a shore"
         }
       ]
+    },
+    "T5BW": {
+      "place": "tamil-nadu/chennai",
+      "topic": "T5BW",
+      "claim": "Drink only bottled or boiled water, and don't accept food or drinks from strangers.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "TT_TIPS",
+          "quote": "It is better to drink only bottled/boiled water."
+        },
+        {
+          "source": "TT_TIPS",
+          "quote": "Don’t accept take/accept food and drinks from strangers."
+        }
+      ]
+    },
+    "T5BS": {
+      "place": "tamil-nadu/chennai",
+      "topic": "T5BS",
+      "claim": "Don't accept lifts from strangers; avoid isolated places and going out alone late at night.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "TT_TIPS",
+          "quote": "Don’t accept lift from strangers. Avoid isolated places and going out alone late at night."
+        }
+      ]
+    },
+    "T5BD": {
+      "place": "tamil-nadu/chennai",
+      "topic": "T5BD",
+      "claim": "Religious places may require covering your head or going barefoot; check visiting hours and closed days first.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "TT_TIPS",
+          "quote": "Dress codes for select religious places can include covering your head, being barefoot, among others."
+        },
+        {
+          "source": "TT_TIPS",
+          "quote": "Ascertain visiting hours and closed days before visiting museums, monuments, palaces, etc."
+        }
+      ]
+    },
+    "T5BG": {
+      "place": "tamil-nadu/chennai",
+      "topic": "T5BG",
+      "claim": "Government-authorised guides can be hired at most places — ask to see their photo ID; government emporia have fixed prices.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "TT_TIPS",
+          "quote": "Government trained and authorized guides speaking English and other foreign languages can be hired at most places."
+        },
+        {
+          "source": "TT_TIPS",
+          "quote": "Do ask the guide to show his photo-identity proof."
+        },
+        {
+          "source": "TT_TIPS",
+          "quote": "Prices are fixed and quality certified in government handicraft shops/emporia."
+        }
+      ]
+    },
+    "T5BT": {
+      "place": "tamil-nadu/chennai",
+      "topic": "T5BT",
+      "claim": "SETC express buses link all important cities and tourist destinations and can be booked in advance; taxis are available throughout Tamil Nadu.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "TT_PT",
+          "quote": "links all important cities, tourist destinations, religious places and commercial hubs"
+        },
+        {
+          "source": "TT_PT",
+          "quote": "The SETC allows advance booking"
+        },
+        {
+          "source": "TT_TAXI",
+          "quote": "Like in other metros, taxis are available throughout Tamil Nadu."
+        }
+      ]
+    },
+    "T5MM1": {
+      "place": "tamil-nadu/mamallapuram",
+      "topic": "T5MM1",
+      "claim": "TTDC's Hotel Tamilnadu Beach Resort Complex is in Mamallapuram.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "TT_MAM4",
+          "quote": "Hotel Tamilnadu - Mamallapuram Beach Resort Complex"
+        }
+      ]
     }
   },
   "places": [
@@ -1220,6 +1336,85 @@
           "facts": [
             "T4C2",
             "T4C3"
+          ]
+        },
+        "safety_health": {
+          "items": [
+            {
+              "title": "Monsoon",
+              "body": "Most rain falls October–December.",
+              "status": "seasonal"
+            },
+            {
+              "title": "Water",
+              "body": "Drink only bottled or boiled water; don't accept food or drinks from strangers.",
+              "status": "verified"
+            },
+            {
+              "title": "Personal safety",
+              "body": "Don't accept lifts from strangers; avoid isolated places and going out alone late at night.",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "CH3",
+            "T5BW",
+            "T5BS"
+          ]
+        },
+        "who_its_for": {
+          "items": [
+            {
+              "title": "Culture lovers",
+              "body": "Bharatanatyam, Carnatic music and the Margazhi festival season."
+            },
+            {
+              "title": "Food lovers",
+              "body": "Chettinad cuisine and South Indian breakfasts."
+            },
+            {
+              "title": "Beach walkers",
+              "body": "Marina Beach, one of the longest urban beaches in the world."
+            },
+            {
+              "title": "Day-trippers",
+              "body": "Mahabalipuram, Puducherry and Kanchipuram."
+            }
+          ],
+          "facts": [
+            "CH10",
+            "CH4",
+            "CH5",
+            "CH2",
+            "CH8"
+          ]
+        },
+        "faqs": {
+          "items": [
+            {
+              "title": "When is the best time to visit Chennai?",
+              "body": "November to February; summers are hot and humid, and most rain falls October–December."
+            },
+            {
+              "title": "How do I get around?",
+              "body": "The Chennai Metro and suburban railway cover much of the city; the metro's Blue Line serves the airport."
+            },
+            {
+              "title": "What day trips can I take?",
+              "body": "Mahabalipuram, Puducherry and Kanchipuram are popular trips from Chennai."
+            },
+            {
+              "title": "What is the Margazhi festival?",
+              "body": "A month-long season of classical music and dance."
+            }
+          ],
+          "facts": [
+            "T4C4",
+            "CH3",
+            "T4C2",
+            "CH7",
+            "CH8",
+            "CH4"
           ]
         }
       },
@@ -1475,6 +1670,133 @@
           "facts": [
             "T4M3",
             "T4M1"
+          ]
+        },
+        "where_to_stay": {
+          "text": "The state-run TTDC Hotel Tamilnadu Beach Resort Complex is on the shore at Mamallapuram. Many visitors come on a day trip from Chennai, about 55 km from the airport.",
+          "facts": [
+            "T5MM1",
+            "T4M2"
+          ]
+        },
+        "local_transport": {
+          "text": "Frequent buses run every day from Chennai, Puducherry, Madurai and Coimbatore. The main monuments are close together and easy to walk between; taxis are available for the outlying caves and beaches.",
+          "facts": [
+            "T4M2",
+            "T5BT"
+          ]
+        },
+        "safety_health": {
+          "items": [
+            {
+              "title": "Water",
+              "body": "Drink only bottled or boiled water; don't accept food or drinks from strangers.",
+              "status": "verified"
+            },
+            {
+              "title": "Personal safety",
+              "body": "Don't accept lifts from strangers; avoid isolated places and going out alone late at night.",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "T5BW",
+            "T5BS"
+          ]
+        },
+        "practical_info": {
+          "items": [
+            {
+              "title": "Temples",
+              "body": "Some religious places require covering your head or going barefoot; check visiting hours and closed days first.",
+              "status": "verified"
+            },
+            {
+              "title": "Guides and shopping",
+              "body": "Hire government-authorised guides (ask for photo ID); government emporia have fixed prices.",
+              "status": "verified"
+            },
+            {
+              "title": "Visas",
+              "body": "Apply for an e-Tourist visa at least 4 days before arrival; your passport needs at least six months' validity.",
+              "status": "verified"
+            },
+            {
+              "title": "Payments",
+              "body": "Visitors can pay by QR code with NPCI's UPI One World wallet after a passport-and-visa KYC check. Carry some cash for small purchases.",
+              "status": "verified"
+            },
+            {
+              "title": "Emergency",
+              "body": "Dial 112 for police, fire or ambulance.",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "T5BD",
+            "T5BG",
+            "CH_VISA",
+            "CH_UPI",
+            "CH_112"
+          ]
+        },
+        "who_its_for": {
+          "items": [
+            {
+              "title": "History lovers",
+              "body": "UNESCO-listed Pallava monuments — Arjuna's Penance, the Pancha Rathas, the Shore Temple."
+            },
+            {
+              "title": "Beach and café lovers",
+              "body": "Seafood, cafés and surfing."
+            },
+            {
+              "title": "Dance fans",
+              "body": "The Mamallapuram Dance Festival in December."
+            }
+          ],
+          "facts": [
+            "MM1",
+            "MM3",
+            "MM7",
+            "MM5"
+          ]
+        },
+        "food": {
+          "items": [
+            {
+              "body": "Fresh seafood at the beach cafés."
+            }
+          ],
+          "facts": [
+            "MM7"
+          ]
+        },
+        "faqs": {
+          "items": [
+            {
+              "title": "How far is Mamallapuram from Chennai?",
+              "body": "About 60 km south; Chennai airport is about 55 km."
+            },
+            {
+              "title": "Is it a UNESCO site?",
+              "body": "Yes — its 7th–8th-century monuments were listed in 1984."
+            },
+            {
+              "title": "When is the dance festival?",
+              "body": "In December, against the backdrop of Arjuna's Penance."
+            },
+            {
+              "title": "When should I visit?",
+              "body": "November to February."
+            }
+          ],
+          "facts": [
+            "MM2",
+            "T4M2",
+            "MM1",
+            "MM5",
+            "MM6"
           ]
         }
       },
@@ -1777,65 +2099,95 @@
       "place": "tamil-nadu/chennai",
       "slug": "chennai-mahabalipuram-puducherry-4-days",
       "title": "Chennai, Mahabalipuram and Puducherry in 4 days",
-      "summary": "A day in Chennai, a day among Mahabalipuram's Pallava monuments, then down the coast to Puducherry's White Town and Auroville.",
       "durationDays": 4,
       "tripTypes": [
         "heritage",
         "beaches",
         "food"
       ],
-      "seoTitle": "4-Day Itinerary: Chennai, Mahabalipuram & Pondicherry",
-      "seoDescription": "A realistic 4-day Tamil Nadu coast itinerary: Fort St George and Mylapore in Chennai, Mahabalipuram's Shore Temple and rathas, and Pondicherry's White Town and Auroville.",
+      "summary": "Chennai's fort, museum and Mylapore temple, the UNESCO shore monuments of Mahabalipuram, and Puducherry's French Quarter and Auroville.",
+      "seoTitle": "Chennai, Mahabalipuram, Puducherry 4-Day Itinerary",
+      "seoDescription": "4 days on the Tamil Nadu coast: Fort St George, Kapaleeswarar, Marina Beach, Mahabalipuram's Shore Temple, Puducherry's White Town and Auroville, with hours.",
+      "facts": [
+        "T4C1",
+        "CH7",
+        "FS4",
+        "FS5",
+        "GM1",
+        "KP3",
+        "CH2",
+        "MM2",
+        "T4M2",
+        "MM3",
+        "MM4",
+        "SH5",
+        "T5MM1",
+        "PY2",
+        "WT1",
+        "PY4",
+        "PY5",
+        "AU1",
+        "AU3",
+        "CH3",
+        "T4C3",
+        "T5BT"
+      ],
+      "sources": [],
       "plan": {
-        "overview": "This route follows the coast south from Chennai. Mahabalipuram is about 60 km from Chennai and Puducherry about 170 km, so the driving is manageable. Avoid a Friday for Chennai's Fort Museum, and the October–December monsoon if you can.",
+        "overview": "A four-day run down the Coromandel coast. A day in Chennai for the fort, the Government Museum and Mylapore; Mahabalipuram's Pallava rock-cut monuments, about 60 km south; then on to Puducherry, about 170 km from Chennai, for the French Quarter, the Aurobindo Ashram and Auroville.",
+        "style": "Heritage · Coast · Food",
+        "start": "Chennai airport",
+        "end": "Chennai",
+        "season": "November to February; Chennai's north-east monsoon rains fall October–December, and April–June is hottest.",
+        "difficulty": "Easy",
+        "transport": "Car with driver, or buses from Chennai's CMBT.",
         "days": [
           {
             "title": "Chennai",
+            "summary": "Fort St George and its museum, the Government Museum's bronzes, Kapaleeswarar temple and Marina Beach at sunset.",
             "stops": [
               {
-                "time": "Morning",
+                "time": "9:00 am",
                 "name": "Fort St George and the Fort Museum",
                 "placeSlug": "fort-st-george",
-                "duration": "2 hours",
-                "note": "Museum closed Fridays."
+                "duration": "1.5 hours",
+                "note": "Museum 9 am–5 pm, closed Fridays."
               },
               {
                 "time": "Late morning",
                 "name": "Government Museum",
                 "placeSlug": "government-museum-chennai",
-                "duration": "1.5 hours"
+                "duration": "2 hours"
               },
               {
-                "time": "Late afternoon",
+                "time": "4:00 pm",
                 "name": "Kapaleeswarar Temple, Mylapore",
                 "placeSlug": "kapaleeswarar-temple",
                 "duration": "1 hour",
-                "note": "Reopens at 4 pm."
+                "note": "5:30 am–12:30 pm and 4–9:30 pm."
               },
               {
                 "time": "Sunset",
                 "name": "Marina Beach",
+                "placeSlug": "chennai",
                 "duration": "1 hour"
               }
             ],
+            "transport": "Metro (the Blue Line serves the airport) and taxi",
             "overnight": "Chennai"
           },
           {
             "title": "Mahabalipuram",
+            "summary": "Arjuna's Penance, Krishna's Butter Ball, the Pancha Rathas and the Shore Temple.",
             "stops": [
               {
                 "time": "Morning",
-                "name": "Drive to Mahabalipuram",
-                "duration": "About 60 km (estimate: 1.5 hours)"
-              },
-              {
-                "time": "Late morning",
-                "name": "Arjuna's Penance, Krishna's Butter Ball and the cave temples",
+                "name": "Arjuna's Penance and Krishna's Butter Ball",
                 "placeSlug": "mamallapuram",
-                "duration": "2.5 hours"
+                "duration": "1.5 hours"
               },
               {
-                "time": "Afternoon",
+                "time": "Midday",
                 "name": "Pancha Rathas",
                 "placeSlug": "mamallapuram",
                 "duration": "1 hour"
@@ -1845,24 +2197,24 @@
                 "name": "Shore Temple",
                 "placeSlug": "shore-temple",
                 "duration": "1 hour",
-                "note": "Open until 6 pm."
+                "note": "6 am–6 pm."
               }
             ],
-            "overnight": "Mahabalipuram"
+            "travel": "Mahabalipuram is about 60 km south of Chennai (about 55 km from the airport).",
+            "distanceKm": 60,
+            "transport": "Car or bus",
+            "overnight": "Mahabalipuram",
+            "logistics": "TTDC's Hotel Tamilnadu Beach Resort Complex is in Mamallapuram."
           },
           {
             "title": "To Puducherry",
+            "summary": "Down the coast to Puducherry; a White Town walk and the Promenade at dusk.",
             "stops": [
-              {
-                "time": "Morning",
-                "name": "Drive down the coast to Puducherry",
-                "duration": "Half a day (estimate)"
-              },
               {
                 "time": "Afternoon",
                 "name": "White Town heritage walk",
                 "placeSlug": "puducherry/white-town",
-                "duration": "2.5 hours"
+                "duration": "2 hours"
               },
               {
                 "time": "Evening",
@@ -1870,80 +2222,99 @@
                 "duration": "1 hour"
               }
             ],
-            "overnight": "Puducherry"
+            "travel": "Puducherry is about 170 km from Chennai; frequent buses run between Mamallapuram and Puducherry.",
+            "transport": "Car or bus",
+            "overnight": "Puducherry",
+            "meals": "French bakeries and Tamil seafood in White Town."
           },
           {
             "title": "Auroville and back",
+            "summary": "Auroville in the morning, the Aurobindo Ashram, then back to Chennai.",
             "stops": [
               {
                 "time": "Morning",
                 "name": "Auroville and the Matrimandir viewing point",
                 "placeSlug": "puducherry/auroville",
-                "duration": "3 hours",
-                "note": "Check Auroville's visiting arrangements in advance."
+                "duration": "2.5 hours",
+                "note": "About 10 km north of Puducherry; visits follow Auroville's arrangements."
               },
               {
                 "time": "Afternoon",
-                "name": "Sri Aurobindo Ashram, then return to Chennai",
-                "duration": "About 170 km (estimate: 4 hours)"
+                "name": "Sri Aurobindo Ashram",
+                "duration": "45 minutes",
+                "note": "Founded 1926."
               }
             ],
+            "travel": "Puducherry to Chennai is about 170 km.",
+            "distanceKm": 170,
+            "transport": "Car or bus",
             "overnight": "Chennai, or fly out"
           }
         ],
         "budget": {
-          "assumptions": "Fort St George and Fort Museum fees are from the Ministry of Tourism; Mahabalipuram's ASI fees are not listed here. Transport, hotels and meals are not estimated.",
+          "assumptions": "Only the Fort St George and Fort Museum tickets are official; transport and stays aren't checked.",
           "lines": [
             {
-              "label": "Fort St George + Fort Museum (foreign visitor)",
-              "amount": "₹100 + ₹200",
-              "basis": "Ministry of Tourism listing"
+              "label": "Fort St George",
+              "amount": "₹5 Indians, ₹100 foreigners",
+              "basis": "Official ticket rates"
             },
             {
-              "label": "Mahabalipuram monuments",
-              "amount": "Check current ASI fees",
-              "basis": "Not estimated"
+              "label": "Fort Museum",
+              "amount": "₹15 Indians, ₹200 foreigners; under-15s free",
+              "basis": "Official ticket rates"
+            },
+            {
+              "label": "Car with driver, 4 days",
+              "amount": "Not estimated",
+              "basis": "Not confirmed from an official source"
+            },
+            {
+              "label": "Stays",
+              "amount": "Not estimated",
+              "basis": "Not confirmed from an official source"
             }
           ]
         },
         "booking": [
           {
-            "item": "Matrimandir",
-            "detail": "Arrange through Auroville's official website."
+            "item": "Buses",
+            "detail": "Long-distance buses leave from CMBT at Koyambedu; SETC buses can be booked ahead."
           },
           {
-            "item": "Car and driver",
-            "detail": "The easiest way to do the coast road; agree the price in advance."
+            "item": "Auroville",
+            "detail": "Matrimandir visits follow arrangements set by Auroville."
           }
         ],
         "alternatives": [
-          "Short on time? Do Mahabalipuram as a day trip from Chennai and skip Puducherry.",
-          "Add Kanchipuram's temples on the way to or from Chennai."
+          "Do Mahabalipuram as a day trip and stay two nights in Puducherry.",
+          "Kanchipuram is another popular trip from Chennai."
         ],
         "tips": [
-          "Carry water and a hat for Mahabalipuram — there is little shade.",
-          "Dress modestly for temples, and expect to remove your shoes."
+          "The Fort Museum is closed on Fridays.",
+          "Avoid the October–December rains for beach days."
+        ],
+        "prep": [
+          {
+            "title": "Season",
+            "body": "November to February is pleasant; April to June is hottest."
+          }
+        ],
+        "faqs": [
+          {
+            "q": "How far is Mahabalipuram from Chennai?",
+            "a": "About 60 km south."
+          },
+          {
+            "q": "How far is Puducherry from Chennai?",
+            "a": "About 170 km."
+          },
+          {
+            "q": "When is the Shore Temple open?",
+            "a": "6 am to 6 pm."
+          }
         ]
-      },
-      "facts": [
-        "FS4",
-        "FS5",
-        "GM1",
-        "KP3",
-        "CH2",
-        "MM2",
-        "MM3",
-        "MM4",
-        "SH5",
-        "PY2",
-        "WT1",
-        "PY4",
-        "AU3",
-        "PY5",
-        "CH3",
-        "CH8"
-      ],
-      "sources": []
+      }
     }
   ]
 }

@@ -93,6 +93,41 @@
       "url": "https://en.wikipedia.org/wiki/Bandipur_National_Park",
       "title": "Bandipur National Park — Wikipedia",
       "authority": "reference"
+    },
+    "KT2_VJP": {
+      "url": "https://karnatakatourism.org/en/destinations/vijayapura/",
+      "title": "Vijayapura — Karnataka Tourism (Government of Karnataka)",
+      "authority": "government"
+    },
+    "EVISA": {
+      "url": "https://indianvisaonline.gov.in/evisa/tvoa.html",
+      "title": "Indian e-Visa — official information (Government of India)",
+      "authority": "government"
+    },
+    "UPI": {
+      "url": "https://www.aap.com.au/aapreleases/cision20240723ae67416/",
+      "title": "NPCI: 'UPI One World' wallet available to inbound international travellers (press release, 24 July 2024)",
+      "authority": "media"
+    },
+    "W_112": {
+      "url": "https://en.wikipedia.org/wiki/112_(emergency_telephone_number)",
+      "title": "112 (emergency telephone number) — Wikipedia",
+      "authority": "reference"
+    },
+    "KT2_BID": {
+      "url": "https://karnatakatourism.org/en/destinations/bidar/",
+      "title": "Bidar — Karnataka Tourism (Government of Karnataka)",
+      "authority": "government"
+    },
+    "KT2_HLB": {
+      "url": "https://karnatakatourism.org/en/destinations/halebeedu/",
+      "title": "Halebeedu — Karnataka Tourism (Government of Karnataka)",
+      "authority": "government"
+    },
+    "KT2_BLR3": {
+      "url": "https://karnatakatourism.org/en/destinations/bengaluru/",
+      "title": "Bengaluru — Karnataka Tourism (Government of Karnataka)",
+      "authority": "government"
     }
   },
   "facts": {
@@ -799,6 +834,226 @@
           "quote": "The commonly seen mammals along the public access roads in the park include chital, gray langur, Indian giant squirrel and Indian elephant."
         }
       ]
+    },
+    "K5X1": {
+      "place": "karnataka/mangaluru",
+      "topic": "K5X1",
+      "claim": "e-Tourist visa applications should be made at least 4 days before arrival, with a passport valid for at least six months.",
+      "claimType": "rule",
+      "evidence": [
+        {
+          "source": "EVISA",
+          "quote": "For e-Tourist and e-Business visa, Applicants of the eligible countries/territories may apply online minimum 4 days in advance of the date of arrival."
+        },
+        {
+          "source": "EVISA",
+          "quote": "Applicant's passport should have at least six months validity at the time of making application for grant of e-Visa."
+        }
+      ]
+    },
+    "K5X2": {
+      "place": "karnataka/mangaluru",
+      "topic": "K5X2",
+      "claim": "International visitors can pay by QR code using NPCI's UPI One World wallet after a passport-and-visa KYC check.",
+      "claimType": "rule",
+      "evidence": [
+        {
+          "source": "UPI",
+          "quote": "The UPI One World wallet can be availed through authorized PPI issuers at airports, hotels, designated money exchange locations and other touchpoints, following a full KYC process based on a passport and valid visa."
+        }
+      ]
+    },
+    "K5X3": {
+      "place": "karnataka/mangaluru",
+      "topic": "K5X3",
+      "claim": "112 is India's single emergency number for police, fire and ambulance.",
+      "claimType": "contact",
+      "evidence": [
+        {
+          "source": "W_112",
+          "quote": "112 is now the pan-country single emergency number for all emergencies."
+        }
+      ]
+    },
+    "K5V1": {
+      "place": "karnataka/vijayapura",
+      "topic": "K5V1",
+      "claim": "Vijayapura is 530 km from Bengaluru by road; its station is on Mumbai and Hyderabad routes; Belagavi airport is 100 km.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "KT2_VJP",
+          "quote": "By Road: 530 km from Bengaluru, accessible via NH50 and NH52"
+        },
+        {
+          "source": "KT2_VJP",
+          "quote": "Vijayapura Railway Station on major routes connecting Mumbai and Hyderabad"
+        },
+        {
+          "source": "KT2_VJP",
+          "quote": "By Air: Belagavi Airport (100 km), Hubballi Airport (220 km)."
+        }
+      ]
+    },
+    "K5V2": {
+      "place": "karnataka/vijayapura",
+      "topic": "K5V2",
+      "claim": "Stays include KSTDC Mayura Chalukya, the Nilaya Palace heritage hotel and budget hotels near Gol Gumbaz.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "KT2_VJP",
+          "quote": "The Nilaya Palace Heritage Boutique Hotel"
+        },
+        {
+          "source": "KT2_VJP",
+          "quote": "KSTDC Mayura Chalukya Budget hotels near Gol Gumbaz"
+        }
+      ]
+    },
+    "K5V3": {
+      "place": "karnataka/vijayapura",
+      "topic": "K5V3",
+      "claim": "Carry water and sun protection, dress modestly at mosques and tombs; most monuments close by 6 pm; guides help.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "KT2_VJP",
+          "quote": "Carry water and wear sun protection as summers can be warm."
+        },
+        {
+          "source": "KT2_VJP",
+          "quote": "Modest clothing is advisable when visiting mosques and tombs."
+        },
+        {
+          "source": "KT2_VJP",
+          "quote": "Most monuments close by 6:00 PM, so plan visits accordingly."
+        },
+        {
+          "source": "KT2_VJP",
+          "quote": "Local guides enhance understanding of complex historical sites."
+        }
+      ]
+    },
+    "K5I1": {
+      "place": "karnataka/bidar",
+      "topic": "K5I1",
+      "claim": "Bidar is 690 km from Bengaluru by road; its station links Hyderabad, Bengaluru and Solapur; Hyderabad airport, 140 km, is nearest.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "KT2_BID",
+          "quote": "By Road: 690 km from Bengaluru"
+        },
+        {
+          "source": "KT2_BID",
+          "quote": "Bidar Railway Station on major routes connecting Hyderabad, Bengaluru, and Solapur."
+        },
+        {
+          "source": "KT2_BID",
+          "quote": "Hyderabad International Airport (140 km) is the nearest major airport."
+        }
+      ]
+    },
+    "K5I2": {
+      "place": "karnataka/bidar",
+      "topic": "K5I2",
+      "claim": "Stays include KSTDC Mayura Yatrinivas, Hotel Basava International and budget guesthouses.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "KT2_BID",
+          "quote": "Hotel Basava International"
+        },
+        {
+          "source": "KT2_BID",
+          "quote": "KSTDC Mayura Yatrinivas Budget guesthouses across the city"
+        }
+      ]
+    },
+    "K5I3": {
+      "place": "karnataka/bidar",
+      "topic": "K5I3",
+      "claim": "Summers (March–June) are very hot; October to February is best; dress modestly at religious sites; many monuments close by early evening.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "KT2_BID",
+          "quote": "Summers (March–June) can be very hot; best time to visit is Oct–Feb."
+        },
+        {
+          "source": "KT2_BID",
+          "quote": "Modest clothing advised when visiting religious sites."
+        },
+        {
+          "source": "KT2_BID",
+          "quote": "Many monuments close by early evening; plan your visit accordingly."
+        }
+      ]
+    },
+    "K5L1": {
+      "place": "karnataka/halebidu",
+      "topic": "K5L1",
+      "claim": "Stay in Hassan at the KSTDC Hoysala Village Resort or Hotel Mayura, or in local guesthouses in Halebidu village.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "KT2_HLB",
+          "quote": "Where to Stay KSTDC Hoysala Village Resort, Hassan Hotel Mayura, Hassan"
+        },
+        {
+          "source": "KT2_HLB",
+          "quote": "Local guesthouses and lodges in Halebeedu village"
+        }
+      ]
+    },
+    "K5L2": {
+      "place": "karnataka/halebidu",
+      "topic": "K5L2",
+      "claim": "The site is walkable; take an auto from Hassan; best October to March.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "KT2_HLB",
+          "quote": "Getting Around Walkable site Auto from Hassan"
+        },
+        {
+          "source": "KT2_HLB",
+          "quote": "Best Time to Visit October to March"
+        }
+      ]
+    },
+    "K5L3": {
+      "place": "karnataka/halebidu",
+      "topic": "K5L3",
+      "claim": "Pack comfortable shoes and a sunhat; dress modestly and remove headgear in temples; photography may be restricted inside sanctums.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "KT2_HLB",
+          "quote": "What To Pack Comfortable shoes Sunhat Modest attire in temples No headgear in temples"
+        },
+        {
+          "source": "KT2_HLB",
+          "quote": "Photography restrictions may apply inside sanctuaries."
+        }
+      ]
+    },
+    "K5K1": {
+      "place": "karnataka/chikkamagaluru",
+      "topic": "K5K1",
+      "claim": "Chikkamagaluru, about 4–4.5 hours from Bengaluru, is Karnataka's coffee country — estate homestays, rainforest walks and Mullayanagiri.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "KT2_BLR3",
+          "quote": "Chikmagalur (240 km, ~ 4–4.5 hours): The coffee country of Karnataka, set in the Baba Budan Giri range."
+        },
+        {
+          "source": "KT2_BLR3",
+          "quote": "Estate homestays, rainforest walks, and the Mullayanagiri peak (highest in Karnataka) make this a weekend favourite."
+        }
+      ]
     }
   },
   "places": [
@@ -862,6 +1117,68 @@
           ],
           "facts": [
             "K1M2"
+          ]
+        },
+        "who_its_for": {
+          "items": [
+            {
+              "title": "Food lovers",
+              "body": "Neer dosa and Mangalorean fish curry."
+            },
+            {
+              "title": "Heritage seekers",
+              "body": "Kadri Manjunath Temple, St Aloysius Chapel and Sultan Battery."
+            },
+            {
+              "title": "Trekkers",
+              "body": "The gateway to Kudremukh and Kodachadri."
+            }
+          ],
+          "facts": [
+            "K1M2",
+            "K1M3",
+            "K1K2"
+          ]
+        },
+        "faqs": {
+          "items": [
+            {
+              "title": "What is Mangaluru famous for?",
+              "body": "Its port history, the Kadri Manjunath Temple, St Aloysius Chapel's frescoes and its food — neer dosa and fish curry."
+            },
+            {
+              "title": "What languages are spoken?",
+              "body": "Tulu, Konkani, Kannada and Malayalam."
+            }
+          ],
+          "facts": [
+            "K1M3",
+            "K1M2",
+            "K1M4"
+          ]
+        },
+        "practical_info": {
+          "items": [
+            {
+              "title": "Visas",
+              "body": "Apply for an e-Tourist visa at least 4 days before arrival; your passport needs at least six months' validity.",
+              "status": "verified"
+            },
+            {
+              "title": "Payments",
+              "body": "Visitors can pay by QR code with NPCI's UPI One World wallet after a passport-and-visa KYC check. Carry some cash for small purchases.",
+              "status": "verified"
+            },
+            {
+              "title": "Emergency",
+              "body": "Dial 112 for police, fire or ambulance.",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "K5X1",
+            "K5X2",
+            "K5X3"
           ]
         }
       }
@@ -1026,6 +1343,143 @@
             "K1G1",
             "K1I1"
           ]
+        },
+        "how_to_reach": {
+          "text": "By road, Vijayapura is 530 km from Bengaluru via NH50 and NH52, with regular buses and taxis. Vijayapura station lies on major routes to Mumbai and Hyderabad. The nearest airports are Belagavi (100 km) and Hubballi (220 km).",
+          "facts": [
+            "K5V1"
+          ]
+        },
+        "key_facts": {
+          "items": [
+            {
+              "title": "From Bengaluru",
+              "body": "530 km by road",
+              "status": "verified"
+            },
+            {
+              "title": "Nearest airport",
+              "body": "Belagavi, 100 km",
+              "status": "verified"
+            },
+            {
+              "title": "Monuments",
+              "body": "Most close by 6 pm",
+              "status": "verified"
+            },
+            {
+              "title": "Gol Gumbaz",
+              "body": "10 am–5 pm",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "K5V1",
+            "K5V3",
+            "K1G2"
+          ]
+        },
+        "where_to_stay": {
+          "text": "Stays range from the government-run KSTDC Mayura Chalukya and business hotels such as Hotel Minerva Grand and Hotel Krishna International to the Nilaya Palace heritage boutique hotel, with budget hotels near Gol Gumbaz.",
+          "facts": [
+            "K5V2"
+          ]
+        },
+        "safety_health": {
+          "items": [
+            {
+              "title": "Sun",
+              "body": "Carry water and wear sun protection; summers can be warm.",
+              "status": "seasonal"
+            },
+            {
+              "title": "Timing",
+              "body": "Visit early morning or late afternoon.",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "K5V3"
+          ]
+        },
+        "practical_info": {
+          "items": [
+            {
+              "title": "Opening hours",
+              "body": "Most monuments close by 6 pm.",
+              "status": "verified"
+            },
+            {
+              "title": "Dress",
+              "body": "Modest clothing at mosques and tombs.",
+              "status": "verified"
+            },
+            {
+              "title": "Guides",
+              "body": "A local guide helps with complex sites.",
+              "status": "verified"
+            },
+            {
+              "title": "Visas",
+              "body": "Apply for an e-Tourist visa at least 4 days before arrival; your passport needs at least six months' validity.",
+              "status": "verified"
+            },
+            {
+              "title": "Payments",
+              "body": "Visitors can pay by QR code with NPCI's UPI One World wallet after a passport-and-visa KYC check. Carry some cash for small purchases.",
+              "status": "verified"
+            },
+            {
+              "title": "Emergency",
+              "body": "Dial 112 for police, fire or ambulance.",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "K5V3",
+            "K5X1",
+            "K5X2",
+            "K5X3"
+          ]
+        },
+        "who_its_for": {
+          "items": [
+            {
+              "title": "History lovers",
+              "body": "Gol Gumbaz, Ibrahim Rauza and the Malik-e-Maidan cannon."
+            },
+            {
+              "title": "Architecture fans",
+              "body": "Some of the finest Indo-Islamic buildings in the Deccan."
+            }
+          ],
+          "facts": [
+            "K1V2",
+            "K1I1"
+          ]
+        },
+        "faqs": {
+          "items": [
+            {
+              "title": "What is Vijayapura famous for?",
+              "body": "Gol Gumbaz, whose 44 m dome is among the largest unsupported domes in the world, and Ibrahim Rauza, the 'Taj Mahal of the Deccan'."
+            },
+            {
+              "title": "How do I get there?",
+              "body": "It is 530 km from Bengaluru by road; the station has trains on Mumbai and Hyderabad routes; Belagavi airport is 100 km."
+            },
+            {
+              "title": "When do monuments close?",
+              "body": "Most close by 6 pm; Gol Gumbaz is open 10 am–5 pm."
+            }
+          ],
+          "facts": [
+            "K1V2",
+            "K1I1",
+            "K5V1",
+            "K5V3",
+            "K1G2"
+          ]
         }
       }
     },
@@ -1179,6 +1633,132 @@
             "K1F1",
             "K1B2"
           ]
+        },
+        "how_to_reach": {
+          "text": "Bidar is 690 km from Bengaluru by road, via NH50 and NH65, with regular buses. Bidar station lies on routes to Hyderabad, Bengaluru and Solapur. The nearest major airport is Hyderabad, 140 km away.",
+          "facts": [
+            "K5I1"
+          ]
+        },
+        "best_time": {
+          "text": "October to February. Summers, March to June, can be very hot.",
+          "facts": [
+            "K5I3"
+          ]
+        },
+        "key_facts": {
+          "items": [
+            {
+              "title": "From Bengaluru",
+              "body": "690 km by road",
+              "status": "verified"
+            },
+            {
+              "title": "Nearest airport",
+              "body": "Hyderabad, 140 km",
+              "status": "verified"
+            },
+            {
+              "title": "Best time",
+              "body": "October–February",
+              "status": "seasonal"
+            }
+          ],
+          "facts": [
+            "K5I1",
+            "K5I3"
+          ]
+        },
+        "where_to_stay": {
+          "text": "Choose from the government-run KSTDC Mayura Yatrinivas, hotels such as Hotel Hills Bidar, Hotel Basava International and Moti Mahal, or budget guesthouses across the city.",
+          "facts": [
+            "K5I2"
+          ]
+        },
+        "safety_health": {
+          "items": [
+            {
+              "title": "Heat",
+              "body": "March–June can be very hot; carry water and sun protection.",
+              "status": "seasonal"
+            }
+          ],
+          "facts": [
+            "K5I3"
+          ]
+        },
+        "practical_info": {
+          "items": [
+            {
+              "title": "Opening hours",
+              "body": "Many monuments close by early evening.",
+              "status": "verified"
+            },
+            {
+              "title": "Dress",
+              "body": "Modest clothing at religious sites.",
+              "status": "verified"
+            },
+            {
+              "title": "Visas",
+              "body": "Apply for an e-Tourist visa at least 4 days before arrival; your passport needs at least six months' validity.",
+              "status": "verified"
+            },
+            {
+              "title": "Payments",
+              "body": "Visitors can pay by QR code with NPCI's UPI One World wallet after a passport-and-visa KYC check. Carry some cash for small purchases.",
+              "status": "verified"
+            },
+            {
+              "title": "Emergency",
+              "body": "Dial 112 for police, fire or ambulance.",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "K5I3",
+            "K5X1",
+            "K5X2",
+            "K5X3"
+          ]
+        },
+        "who_its_for": {
+          "items": [
+            {
+              "title": "History lovers",
+              "body": "Bidar Fort's 37 bastions and the Bahmani Tombs."
+            },
+            {
+              "title": "Pilgrims",
+              "body": "Gurudwara Nanak Jhira Sahib."
+            }
+          ],
+          "facts": [
+            "K1F1",
+            "K1B2"
+          ]
+        },
+        "faqs": {
+          "items": [
+            {
+              "title": "What is Bidar known for?",
+              "body": "Its Bahmani-era fort, with 37 bastions, the Bahmani Tombs and Gurudwara Nanak Jhira Sahib."
+            },
+            {
+              "title": "When should I go?",
+              "body": "October to February; March to June can be very hot."
+            },
+            {
+              "title": "How do I get there?",
+              "body": "Hyderabad airport is 140 km away; Bidar station has trains to Hyderabad, Bengaluru and Solapur."
+            }
+          ],
+          "facts": [
+            "K1F1",
+            "K1B2",
+            "K5I3",
+            "K5I1"
+          ]
         }
       }
     },
@@ -1306,6 +1886,104 @@
           "text": "Winter is coolest, at about 11–20 °C; summer days reach 25–32 °C.",
           "facts": [
             "K1H3"
+          ]
+        },
+        "where_to_stay": {
+          "text": "Stay on a coffee estate: estate homestays are the classic way to see Chikkamagaluru, with rainforest walks from the door.",
+          "facts": [
+            "K5K1"
+          ]
+        },
+        "things_to_do": {
+          "items": [
+            {
+              "body": "Stay on a coffee estate."
+            },
+            {
+              "body": "Drive or hike up Mullayanagiri, Karnataka's highest peak."
+            },
+            {
+              "body": "Visit Baba Budangiri, where coffee came to India."
+            },
+            {
+              "body": "Take a rainforest walk."
+            }
+          ],
+          "facts": [
+            "K5K1",
+            "K1Y1",
+            "K1H2"
+          ]
+        },
+        "who_its_for": {
+          "items": [
+            {
+              "title": "Coffee lovers",
+              "body": "Estate homestays in the Baba Budan Giri range."
+            },
+            {
+              "title": "Hikers",
+              "body": "Mullayanagiri, the highest peak in Karnataka."
+            },
+            {
+              "title": "Weekenders",
+              "body": "About 4–4.5 hours from Bengaluru."
+            }
+          ],
+          "facts": [
+            "K5K1",
+            "K1Y1"
+          ]
+        },
+        "practical_info": {
+          "items": [
+            {
+              "title": "Weather",
+              "body": "11–20 °C in winter, 25–32 °C in summer.",
+              "status": "seasonal"
+            },
+            {
+              "title": "Visas",
+              "body": "Apply for an e-Tourist visa at least 4 days before arrival; your passport needs at least six months' validity.",
+              "status": "verified"
+            },
+            {
+              "title": "Payments",
+              "body": "Visitors can pay by QR code with NPCI's UPI One World wallet after a passport-and-visa KYC check. Carry some cash for small purchases.",
+              "status": "verified"
+            },
+            {
+              "title": "Emergency",
+              "body": "Dial 112 for police, fire or ambulance.",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "K1H3",
+            "K5X1",
+            "K5X2",
+            "K5X3"
+          ]
+        },
+        "faqs": {
+          "items": [
+            {
+              "title": "How far is Chikkamagaluru from Bengaluru?",
+              "body": "About 240 km — 4 to 4.5 hours by road."
+            },
+            {
+              "title": "What is it known for?",
+              "body": "Coffee: Baba Budangiri is where coffee is believed to have been introduced to India."
+            },
+            {
+              "title": "What is the highest peak?",
+              "body": "Mullayanagiri, at 1,925 m, the highest in Karnataka."
+            }
+          ],
+          "facts": [
+            "K5K1",
+            "K1H2",
+            "K1Y1"
           ]
         }
       }
@@ -1503,6 +2181,101 @@
             "K1D1",
             "K1D2"
           ]
+        },
+        "where_to_stay": {
+          "text": "Most visitors stay in Hassan, 30 km away, at the KSTDC Hoysala Village Resort or Hotel Mayura; there are also local guesthouses and lodges in Halebidu village and eco-resorts along the way.",
+          "facts": [
+            "K5L1",
+            "K1D2"
+          ]
+        },
+        "local_transport": {
+          "text": "The temple site is walkable. Take an auto from Hassan to reach it.",
+          "facts": [
+            "K5L2"
+          ]
+        },
+        "best_time": {
+          "text": "October to March.",
+          "facts": [
+            "K5L2"
+          ]
+        },
+        "practical_info": {
+          "items": [
+            {
+              "title": "What to pack",
+              "body": "Comfortable shoes and a sunhat.",
+              "status": "verified"
+            },
+            {
+              "title": "Temples",
+              "body": "Dress modestly; no headgear inside.",
+              "status": "verified"
+            },
+            {
+              "title": "Photography",
+              "body": "May be restricted inside sanctums.",
+              "status": "verified"
+            },
+            {
+              "title": "Visas",
+              "body": "Apply for an e-Tourist visa at least 4 days before arrival; your passport needs at least six months' validity.",
+              "status": "verified"
+            },
+            {
+              "title": "Payments",
+              "body": "Visitors can pay by QR code with NPCI's UPI One World wallet after a passport-and-visa KYC check. Carry some cash for small purchases.",
+              "status": "verified"
+            },
+            {
+              "title": "Emergency",
+              "body": "Dial 112 for police, fire or ambulance.",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "K5L3",
+            "K5X1",
+            "K5X2",
+            "K5X3"
+          ]
+        },
+        "who_its_for": {
+          "items": [
+            {
+              "title": "Temple art lovers",
+              "body": "The carved Hoysalesvara and Kedareshwara temples."
+            },
+            {
+              "title": "Jain heritage",
+              "body": "The basadis beside the Hoysala temples."
+            }
+          ],
+          "facts": [
+            "K1D1"
+          ]
+        },
+        "faqs": {
+          "items": [
+            {
+              "title": "How far is Halebidu from Belur?",
+              "body": "About 15 km — easy to combine in a day."
+            },
+            {
+              "title": "Where should I stay?",
+              "body": "In Hassan, 30 km away, or in local guesthouses in the village."
+            },
+            {
+              "title": "When is the best time to visit?",
+              "body": "October to March."
+            }
+          ],
+          "facts": [
+            "K1D2",
+            "K5L1",
+            "K5L2"
+          ]
         }
       }
     },
@@ -1589,6 +2362,67 @@
             "K1S1",
             "K1S3",
             "K1S2"
+          ]
+        },
+        "who_its_for": {
+          "items": [
+            {
+              "title": "Pilgrims",
+              "body": "One of the most important Jain tirthas, with the 57-ft Gommateshwara."
+            },
+            {
+              "title": "History lovers",
+              "body": "Chandragiri hill, where Chandragupta Maurya is said to have died."
+            }
+          ],
+          "facts": [
+            "K1S1",
+            "K1S3"
+          ]
+        },
+        "faqs": {
+          "items": [
+            {
+              "title": "How tall is the Gommateshwara statue?",
+              "body": "About 57 ft, carved from a single rock."
+            },
+            {
+              "title": "When is the next Mahamastakabhisheka?",
+              "body": "In 2030; it is held every 12 years."
+            },
+            {
+              "title": "How far is it from Bengaluru?",
+              "body": "About 144 km; Mysuru is 83 km."
+            }
+          ],
+          "facts": [
+            "K1S1",
+            "K1S2",
+            "K1S4"
+          ]
+        },
+        "practical_info": {
+          "items": [
+            {
+              "title": "Visas",
+              "body": "Apply for an e-Tourist visa at least 4 days before arrival; your passport needs at least six months' validity.",
+              "status": "verified"
+            },
+            {
+              "title": "Payments",
+              "body": "Visitors can pay by QR code with NPCI's UPI One World wallet after a passport-and-visa KYC check. Carry some cash for small purchases.",
+              "status": "verified"
+            },
+            {
+              "title": "Emergency",
+              "body": "Dial 112 for police, fire or ambulance.",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "K5X1",
+            "K5X2",
+            "K5X3"
           ]
         }
       }

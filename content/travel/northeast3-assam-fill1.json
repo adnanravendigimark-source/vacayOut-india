@@ -78,6 +78,26 @@
       "url": "https://www.incredibleindia.gov.in/en/assam/majuli/samaguri-satra",
       "title": "Samaguri Satra — Incredible India",
       "authority": "government"
+    },
+    "AT_ATDC": {
+      "url": "https://tourism.assam.gov.in/information-and-services/atdc-properties-infrastructure",
+      "title": "ATDC properties — Department of Tourism, Government of Assam",
+      "authority": "government"
+    },
+    "EVISA": {
+      "url": "https://indianvisaonline.gov.in/evisa/tvoa.html",
+      "title": "Indian e-Visa — official information (Government of India)",
+      "authority": "government"
+    },
+    "UPI": {
+      "url": "https://www.aap.com.au/aapreleases/cision20240723ae67416/",
+      "title": "NPCI: 'UPI One World' wallet available to inbound international travellers (press release, 24 July 2024)",
+      "authority": "media"
+    },
+    "W_112": {
+      "url": "https://en.wikipedia.org/wiki/112_(emergency_telephone_number)",
+      "title": "112 (emergency telephone number) — Wikipedia",
+      "authority": "reference"
     }
   },
   "facts": {
@@ -864,6 +884,58 @@
           "quote": "over 200 ancient manuscripts"
         }
       ]
+    },
+    "A5XV": {
+      "place": "assam/jorhat",
+      "topic": "A5XV",
+      "claim": "e-Tourist visa applications should be made at least 4 days before arrival, with a passport valid for at least six months.",
+      "claimType": "rule",
+      "evidence": [
+        {
+          "source": "EVISA",
+          "quote": "For e-Tourist and e-Business visa, Applicants of the eligible countries/territories may apply online minimum 4 days in advance of the date of arrival."
+        },
+        {
+          "source": "EVISA",
+          "quote": "Applicant's passport should have at least six months validity at the time of making application for grant of e-Visa."
+        }
+      ]
+    },
+    "A5XU": {
+      "place": "assam/jorhat",
+      "topic": "A5XU",
+      "claim": "International visitors can pay by QR code using NPCI's UPI One World wallet after a passport-and-visa KYC check.",
+      "claimType": "rule",
+      "evidence": [
+        {
+          "source": "UPI",
+          "quote": "The UPI One World wallet can be availed through authorized PPI issuers at airports, hotels, designated money exchange locations and other touchpoints, following a full KYC process based on a passport and valid visa."
+        }
+      ]
+    },
+    "A5XE": {
+      "place": "assam/jorhat",
+      "topic": "A5XE",
+      "claim": "112 is India's single emergency number for police, fire and ambulance.",
+      "claimType": "contact",
+      "evidence": [
+        {
+          "source": "W_112",
+          "quote": "112 is now the pan-country single emergency number for all emergencies."
+        }
+      ]
+    },
+    "A5T1": {
+      "place": "assam/tezpur",
+      "topic": "A5T1",
+      "claim": "Assam Tourism's Prashanti Tourist Lodge is on Jenking Road.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "AT_ATDC",
+          "quote": "Prashanti Tourist Lodge, Tezpur Jenking Road, Near Tezpur ASTC Counter"
+        }
+      ]
     }
   },
   "places": [
@@ -970,6 +1042,73 @@
           "facts": [
             "A1J6"
           ]
+        },
+        "who_its_for": {
+          "items": [
+            {
+              "title": "Tea lovers",
+              "body": "135 tea gardens, including Cinnamora, Assam's first."
+            },
+            {
+              "title": "Culture seekers",
+              "body": "Assam's 'cultural capital' and the November Tea Festival."
+            },
+            {
+              "title": "Island hoppers",
+              "body": "The base for Majuli."
+            }
+          ],
+          "facts": [
+            "A1J2",
+            "A1J1",
+            "A1J4",
+            "A1J5"
+          ]
+        },
+        "practical_info": {
+          "items": [
+            {
+              "title": "Visas",
+              "body": "Apply for an e-Tourist visa at least 4 days before arrival; your passport needs at least six months' validity.",
+              "status": "verified"
+            },
+            {
+              "title": "Payments",
+              "body": "Visitors can pay by QR code with NPCI's UPI One World wallet after a passport-and-visa KYC check. Carry some cash for small purchases.",
+              "status": "verified"
+            },
+            {
+              "title": "Emergency",
+              "body": "Dial 112 for police, fire or ambulance.",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "A5XV",
+            "A5XU",
+            "A5XE"
+          ]
+        },
+        "faqs": {
+          "items": [
+            {
+              "title": "Why is Jorhat called the cultural capital?",
+              "body": "Assam calls it so; its name comes from two markets on either side of the Bhogdoi."
+            },
+            {
+              "title": "When is the Tea Festival?",
+              "body": "Each November."
+            },
+            {
+              "title": "Is Majuli close?",
+              "body": "Yes — a short distance away."
+            }
+          ],
+          "facts": [
+            "A1J1",
+            "A1J4",
+            "A1J5"
+          ]
         }
       }
     },
@@ -1060,6 +1199,73 @@
             "A1T5",
             "A1T3"
           ]
+        },
+        "where_to_stay": {
+          "text": "Assam Tourism's Prashanti Tourist Lodge is on Jenking Road near the ASTC bus counter.",
+          "facts": [
+            "A5T1"
+          ]
+        },
+        "who_its_for": {
+          "items": [
+            {
+              "title": "History lovers",
+              "body": "Agnigarh, Bamuni Hills and the Da Parbatia door frame."
+            },
+            {
+              "title": "Birders",
+              "body": "Nameri National Park, 35 km away, with 300+ species."
+            }
+          ],
+          "facts": [
+            "A1T5",
+            "A1T3"
+          ]
+        },
+        "practical_info": {
+          "items": [
+            {
+              "title": "Visas",
+              "body": "Apply for an e-Tourist visa at least 4 days before arrival; your passport needs at least six months' validity.",
+              "status": "verified"
+            },
+            {
+              "title": "Payments",
+              "body": "Visitors can pay by QR code with NPCI's UPI One World wallet after a passport-and-visa KYC check. Carry some cash for small purchases.",
+              "status": "verified"
+            },
+            {
+              "title": "Emergency",
+              "body": "Dial 112 for police, fire or ambulance.",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "A5XV",
+            "A5XU",
+            "A5XE"
+          ]
+        },
+        "faqs": {
+          "items": [
+            {
+              "title": "Why is Tezpur 'the city of eternal love'?",
+              "body": "For the legend of Usha and Aniruddha."
+            },
+            {
+              "title": "When should I visit?",
+              "body": "October to April."
+            },
+            {
+              "title": "What is nearby?",
+              "body": "Nameri National Park, about 35 km away."
+            }
+          ],
+          "facts": [
+            "A1T1",
+            "A1T4",
+            "A1T3"
+          ]
         }
       }
     },
@@ -1142,6 +1348,76 @@
           ],
           "facts": [
             "A1D4"
+          ]
+        },
+        "who_its_for": {
+          "items": [
+            {
+              "title": "Tea lovers",
+              "body": "The 'Tea City of India', with estate tours from plucking to tasting."
+            }
+          ],
+          "facts": [
+            "A1D1"
+          ]
+        },
+        "things_to_do": {
+          "items": [
+            {
+              "body": "Tour a tea estate, from plucking to tasting."
+            },
+            {
+              "body": "Shop for handwoven gamocha and handloom."
+            }
+          ],
+          "facts": [
+            "A1D1",
+            "A1D4"
+          ]
+        },
+        "practical_info": {
+          "items": [
+            {
+              "title": "Visas",
+              "body": "Apply for an e-Tourist visa at least 4 days before arrival; your passport needs at least six months' validity.",
+              "status": "verified"
+            },
+            {
+              "title": "Payments",
+              "body": "Visitors can pay by QR code with NPCI's UPI One World wallet after a passport-and-visa KYC check. Carry some cash for small purchases.",
+              "status": "verified"
+            },
+            {
+              "title": "Emergency",
+              "body": "Dial 112 for police, fire or ambulance.",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "A5XV",
+            "A5XU",
+            "A5XE"
+          ]
+        },
+        "faqs": {
+          "items": [
+            {
+              "title": "Why is Dibrugarh the Tea City?",
+              "body": "Its estates and tea tours."
+            },
+            {
+              "title": "How far is the airport?",
+              "body": "Mohanbari airport is about 15 km from the city."
+            },
+            {
+              "title": "When should I go?",
+              "body": "October to March; winter is mild at about 10–25 °C."
+            }
+          ],
+          "facts": [
+            "A1D1",
+            "A1D3",
+            "A1D2"
           ]
         }
       }

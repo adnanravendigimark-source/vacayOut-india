@@ -1,0 +1,1163 @@
+{
+  "cluster": "routes-nagaland",
+  "title": "Nagaland — routes and guides",
+  "researchedAt": "2026-11-20",
+  "selection": "Nagaland itineraries and planning guides from the Nagaland ILP portal, Nagaland Tourism and Incredible India.",
+  "sources": {
+    "NILP_FEES": {
+      "url": "https://ilp.nagaland.gov.in/fees",
+      "title": "ILP fees — Nagaland Inner Line Permit, Government of Nagaland",
+      "authority": "government"
+    },
+    "NILP_FAQ": {
+      "url": "https://ilp.nagaland.gov.in/faq",
+      "title": "ILP FAQ — Nagaland Inner Line Permit, Government of Nagaland",
+      "authority": "government"
+    },
+    "W_KHN": {
+      "url": "https://en.wikipedia.org/wiki/Khonoma",
+      "title": "Khonoma — Wikipedia",
+      "authority": "reference"
+    },
+    "W_DZV": {
+      "url": "https://en.wikipedia.org/wiki/Dz%C3%BCko_Valley",
+      "title": "Dzüko Valley — Wikipedia",
+      "authority": "reference"
+    },
+    "II_NL2": {
+      "url": "https://www.incredibleindia.gov.in/en/nagaland",
+      "title": "Nagaland — Incredible India",
+      "authority": "government"
+    },
+    "W_DMU": {
+      "url": "https://en.wikipedia.org/wiki/Dimapur_Airport",
+      "title": "Dimapur Airport — Wikipedia",
+      "authority": "reference"
+    },
+    "W_PAP": {
+      "url": "https://en.wikipedia.org/wiki/Protected_Area_Permit",
+      "title": "Protected and restricted areas of India — Wikipedia",
+      "authority": "reference"
+    },
+    "II_NL": {
+      "url": "https://www.incredibleindia.gov.in/en/nagaland",
+      "title": "Nagaland — Incredible India (Ministry of Tourism, Government of India)",
+      "authority": "government"
+    },
+    "II_DMF": {
+      "url": "https://www.incredibleindia.gov.in/en/nagaland/dimapur/dimapur-nagaland-travel-and-food-guide",
+      "title": "Dimapur travel and food guide — Incredible India",
+      "authority": "government"
+    },
+    "II_DIM": {
+      "url": "https://www.incredibleindia.gov.in/en/nagaland/dimapur",
+      "title": "Dimapur — Incredible India (Ministry of Tourism, Government of India)",
+      "authority": "government"
+    },
+    "II_KAC": {
+      "url": "https://www.incredibleindia.gov.in/en/nagaland/dimapur/the-kachari-rajbari-ruins",
+      "title": "The Kachari Rajbari Ruins — Incredible India (Ministry of Tourism, Government of India)",
+      "authority": "government"
+    },
+    "II_DMP2": {
+      "url": "https://www.incredibleindia.gov.in/en/nagaland/dimapur",
+      "title": "Dimapur — Incredible India",
+      "authority": "government"
+    },
+    "NAG_HOME": {
+      "url": "https://tourism.nagaland.gov.in/homestay/",
+      "title": "List of paying guest and homestay in Nagaland — Tourism Nagaland (Government of Nagaland)",
+      "authority": "government"
+    },
+    "II_KWC": {
+      "url": "https://www.incredibleindia.gov.in/en/nagaland/kohima/kohima-war-cemetery",
+      "title": "Kohima War Cemetery — Incredible India (Ministry of Tourism, Government of India)",
+      "authority": "government"
+    },
+    "II_KOH": {
+      "url": "https://www.incredibleindia.gov.in/en/nagaland/kohima",
+      "title": "Kohima — Incredible India (Ministry of Tourism, Government of India)",
+      "authority": "government"
+    },
+    "II_KSH": {
+      "url": "https://www.incredibleindia.gov.in/en/nagaland/kohima/discover-a-shoppers-paradise-in-kohima",
+      "title": "Shopping in Kohima — Incredible India",
+      "authority": "government"
+    },
+    "II_MOK": {
+      "url": "https://www.incredibleindia.gov.in/en/nagaland/mokokchung",
+      "title": "Mokokchung — Incredible India (Ministry of Tourism, Government of India)",
+      "authority": "government"
+    },
+    "II_MOK2": {
+      "url": "https://www.incredibleindia.gov.in/en/nagaland/mokokchung",
+      "title": "Mokokchung — Incredible India",
+      "authority": "government"
+    },
+    "II_MOF": {
+      "url": "https://www.incredibleindia.gov.in/en/nagaland/mokokchung/a-delicious-journey-of-culinary-delights-in-mokokchung",
+      "title": "Food in Mokokchung — Incredible India",
+      "authority": "government"
+    },
+    "II_DZU": {
+      "url": "https://www.incredibleindia.gov.in/en/nagaland/kohima/dzukou-valley",
+      "title": "Dzukou Valley — Incredible India (Ministry of Tourism, Government of India)",
+      "authority": "government"
+    },
+    "II_KCC": {
+      "url": "https://www.incredibleindia.gov.in/en/nagaland/kohima/cathedral-church",
+      "title": "Cathedral Church, Kohima — Incredible India",
+      "authority": "government"
+    },
+    "II_DZC": {
+      "url": "https://www.incredibleindia.gov.in/en/nagaland/dimapur/diezephe-craft-village",
+      "title": "Diezephe Craft Village — Incredible India",
+      "authority": "government"
+    },
+    "II_KBG": {
+      "url": "https://www.incredibleindia.gov.in/en/nagaland/kohima/kohima-botanical-garden",
+      "title": "Kohima Botanical Garden — Incredible India",
+      "authority": "government"
+    },
+    "II_PBZ": {
+      "url": "https://www.incredibleindia.gov.in/en/nagaland/kohima/pulie-badze-wildlife-sanctuary",
+      "title": "Pulie Badze Wildlife Sanctuary — Incredible India",
+      "authority": "government"
+    },
+    "II_MLG": {
+      "url": "https://www.incredibleindia.gov.in/en/nagaland/mokokchung/molungkimong-village",
+      "title": "Molungkimong Village — Incredible India",
+      "authority": "government"
+    },
+    "II_KIS": {
+      "url": "https://www.incredibleindia.gov.in/en/nagaland/kohima/naga-heritage-village",
+      "title": "Naga Heritage Village (Kisama) — Incredible India (Ministry of Tourism, Government of India)",
+      "authority": "government"
+    },
+    "W_HOR": {
+      "url": "https://en.wikipedia.org/wiki/Hornbill_Festival",
+      "title": "Hornbill Festival — Wikipedia",
+      "authority": "reference"
+    },
+    "II_HOR": {
+      "url": "https://www.incredibleindia.gov.in/en/nagaland/kohima/hornbill-festival",
+      "title": "Hornbill Festival — Incredible India (Ministry of Tourism, Government of India)",
+      "authority": "government"
+    },
+    "II_KOH3": {
+      "url": "https://www.incredibleindia.gov.in/en/nagaland/kohima",
+      "title": "Kohima — Incredible India",
+      "authority": "government"
+    }
+  },
+  "facts": {
+    "NGB1": {
+      "place": "nagaland",
+      "claim": "Tourists apply online for a Nagaland ILP: ₹200 per person for Indian tourists and ₹500 for foreign tourists, each valid 30 days. Tourists need no guarantor, only a local contact, and an application made in working hours may be approved within about four hours.",
+      "claimType": "price",
+      "evidence": [
+        {
+          "source": "NILP_FAQ",
+          "quote": "Tourist (Domestic): Rs 200 per person valid for 30 days"
+        },
+        {
+          "source": "NILP_FAQ",
+          "quote": "Tourist(Foreigner): Rs 500 per person valid for 30 days"
+        },
+        {
+          "source": "NILP_FAQ",
+          "quote": "The ILP applicant falling in the category of tourists do not require a Guarantor."
+        },
+        {
+          "source": "NILP_FAQ",
+          "quote": "if applied during working hours it may get approved within 4 (four) hours"
+        }
+      ],
+      "topic": "NGB1"
+    },
+    "NGB2": {
+      "place": "nagaland/khonoma",
+      "claim": "Khonoma is about 20 km west of Kohima.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "W_KHN",
+          "quote": "Khonoma is a Western Angami Naga village located about 20 km west from Kohima"
+        }
+      ],
+      "topic": "NGB2"
+    },
+    "NGB3": {
+      "place": "nagaland/dzukou-valley",
+      "claim": "Dzükou is usually approached through Viswema and Jakhama, both within about 25 km of Kohima.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "W_DZV",
+          "quote": "The valley is most commonly approached from the Nagaland side through the Angami villages of Viswema and Jakhama (Zakhama), both within about 25 km (16 mi) of Kohima."
+        }
+      ],
+      "topic": "NGB3"
+    },
+    "NGB4": {
+      "place": "nagaland/kisama-heritage-village",
+      "claim": "Kisama Heritage Village is 12 km from Kohima.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_NL2",
+          "quote": "Just 12 kms from Kohima, you can discover the Kisama Heritage Village"
+        }
+      ],
+      "topic": "NGB4"
+    },
+    "NGB10": {
+      "place": "nagaland/kohima",
+      "claim": "Kohima's nearest airport is Dimapur Airport and its nearest railway station is Dimapur.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_KOH3",
+          "quote": "Nearest Airport : Dimapur Airport (DMU), Dimapur Nearest Railway Station : Dimapur Railway Station (DMV)"
+        }
+      ],
+      "topic": "NGB10"
+    },
+    "NGB11": {
+      "place": "nagaland",
+      "claim": "The whole of Manipur, Mizoram and Nagaland is a Protected Area for foreign nationals, who need a Protected Area Permit.",
+      "claimType": "rule",
+      "evidence": [
+        {
+          "source": "W_PAP",
+          "quote": "Whole of Manipur Whole of Mizoram Whole of Nagaland"
+        }
+      ],
+      "topic": "NGB11"
+    },
+    "NGB12": {
+      "place": "nagaland",
+      "claim": "Nagaland is known as the 'Land of Festivals'; its best-known festival, the Hornbill Festival, runs every year from 1 to 10 December.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_NL",
+          "quote": "known as the \"Land of Festivals,\" offers a glimpse into the vibrant and rich Naga heritage"
+        },
+        {
+          "source": "II_NL",
+          "quote": "The most prominent among them is the world-famous \"Hornbill Festival,\" held annually from December 1-10."
+        }
+      ],
+      "topic": "NGB12"
+    },
+    "NGB13": {
+      "place": "nagaland/dimapur",
+      "claim": "Most visitors pass through Dimapur on the way to Kohima, 75 km away; Chumukedima, 14 km into the hills, was the first headquarters of the Naga Hills district; Dzuleke, two hours away, is good for camping.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_DMF",
+          "quote": "just 75 kilometers away"
+        },
+        {
+          "source": "II_DMF",
+          "quote": "Situated 14 kilometers into the hills, Chumukedima Village"
+        },
+        {
+          "source": "II_DMF",
+          "quote": "Dzuleke , approximately a two-hour drive from Dimapur, offers an excellent camping experience"
+        }
+      ],
+      "topic": "NGB13"
+    },
+    "NGB14": {
+      "place": "nagaland/dimapur",
+      "claim": "October to March is the best time to visit Dimapur, with mild weather of about 15–25°C.",
+      "claimType": "schedule",
+      "evidence": [
+        {
+          "source": "II_DIM",
+          "quote": "The best time to visit Dimapur is during the cooler months from October to March."
+        },
+        {
+          "source": "II_DIM",
+          "quote": "usually ranging between 15°C and 25°C"
+        }
+      ],
+      "topic": "NGB14"
+    },
+    "NGB15": {
+      "place": "nagaland/kachari-rajbari-ruins",
+      "claim": "The Kachari Rajbari ruins in Dimapur are about 100 mushroom-domed sandstone pillars, 8 to 15 feet tall, from the Kachari kingdom.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_KAC",
+          "quote": "Approximately 100 sandstone pillars stand sentinel within this ancient domain in 3 orderly rows."
+        },
+        {
+          "source": "II_KAC",
+          "quote": "these monoliths, ranging in height from 8 to 15 feet, proudly exhibit the architectural prowess of the Kacharis."
+        }
+      ],
+      "topic": "NGB15"
+    },
+    "NGB16": {
+      "place": "nagaland/kachari-rajbari-ruins",
+      "claim": "The ruins are open 9 am to 4 pm.",
+      "claimType": "opening_hours",
+      "evidence": [
+        {
+          "source": "II_KAC",
+          "quote": "Opening time - 09:00 AM"
+        },
+        {
+          "source": "II_KAC",
+          "quote": "Closing time - 04:00 PM"
+        }
+      ],
+      "topic": "NGB16"
+    },
+    "NGB17": {
+      "place": "nagaland/dimapur",
+      "claim": "Dimapur's markets sell woven shawls, bamboo products and tribal jewellery; Hong Kong Market mixes Naga garments and crafts with everyday goods; Ruzaphema Bazaar, 5 km out on the Kohima road, has tribal handicrafts.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_DMP2",
+          "quote": "find intricately woven shawls, bamboo products, tribal jewellery"
+        },
+        {
+          "source": "II_DMP2",
+          "quote": "the Hong Kong Market, a melting pot of local and imported goods"
+        },
+        {
+          "source": "II_DMP2",
+          "quote": "About 5 kms from the city centre, on the road to Kohima, is the Ruzaphema Bazaar"
+        }
+      ],
+      "topic": "NGB17"
+    },
+    "NGB18": {
+      "place": "nagaland/dimapur",
+      "claim": "Listed stays in Dimapur include Jungjung Homestay at Darogapathar and Hesso Villa at Nepali Basti, plus Weaver's Place at Diezephe.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "NAG_HOME",
+          "quote": "55 Jungjung Homestay H.NO 27 Darogapathar, Dimapur"
+        },
+        {
+          "source": "NAG_HOME",
+          "quote": "57 Hesso villa homestay Nepali bosti Dimapur"
+        },
+        {
+          "source": "NAG_HOME",
+          "quote": "58 Weaver’s Place Diezephe Village"
+        }
+      ],
+      "topic": "NGB18"
+    },
+    "NGB19": {
+      "place": "nagaland/kohima-war-cemetery",
+      "claim": "The Kohima War Cemetery is open 9 am to 4 pm.",
+      "claimType": "opening_hours",
+      "evidence": [
+        {
+          "source": "II_KWC",
+          "quote": "Opening time - 09:00 AM"
+        },
+        {
+          "source": "II_KWC",
+          "quote": "Closing time - 04:00 PM"
+        }
+      ],
+      "topic": "NGB19"
+    },
+    "NGB20": {
+      "place": "nagaland/kohima",
+      "claim": "Beyond the Hornbill Festival, Kohima's year includes the Angami Sekrenyi in February and the Rengma Tseminyu festival in April.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_KOH",
+          "quote": "Witness the Angami tribe's Sekrenyi, a purification ritual seeking good fortune, in February."
+        },
+        {
+          "source": "II_KOH",
+          "quote": "Join the joyous celebration of the spring harvest with the Rengma Nagas during their Tseminyu Festival in April."
+        }
+      ],
+      "topic": "NGB20"
+    },
+    "NGB21": {
+      "place": "nagaland/kohima",
+      "claim": "New Market is one of Kohima's oldest, for fruit, vegetables and spices; the Old Market and Tribal Market sell shawls, bags, bamboo baskets and Naga handicrafts.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_KSH",
+          "quote": "New Market is one of Kohima's oldest markets"
+        },
+        {
+          "source": "II_KSH",
+          "quote": "Journey back through time at the Old Market, where traditional Naga handicrafts meet fashion."
+        },
+        {
+          "source": "II_KSH",
+          "quote": "Tribal Market, an unmissable stop for traditional Naga handicrafts"
+        }
+      ],
+      "topic": "NGB21"
+    },
+    "NGB22": {
+      "place": "nagaland/kohima",
+      "claim": "Nagaland Tourism lists many Kohima homestays and paying guests, and a cluster at Kipfuzha in Kigwema village near the Naga Heritage Village.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "NAG_HOME",
+          "quote": "1 Pusa Homestay Near VIP Guest House , Minister Hill Kohima"
+        },
+        {
+          "source": "NAG_HOME",
+          "quote": "21 South view Homestay Kipfuzha ,KigwemaVillage near Naga Heritage Village"
+        },
+        {
+          "source": "NAG_HOME",
+          "quote": "17 Eco stay Hostel TCP Gate Kohima"
+        }
+      ],
+      "topic": "NGB22"
+    },
+    "NGB23": {
+      "place": "nagaland/mokokchung",
+      "claim": "Mokokchung, about 145 km from Kohima, is the homeland of the Ao Naga and known as the 'Land of Pioneers'.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_MOK",
+          "quote": "Situated around 145 km from Kohima, the state’s capital"
+        },
+        {
+          "source": "II_MOK",
+          "quote": "Renowned as the ‘Land of Pioneers’ for its educational contributions to Nagaland"
+        },
+        {
+          "source": "II_MOK",
+          "quote": "It is also the homeland of the Ao people, a major Naga tribe."
+        }
+      ],
+      "topic": "NGB23"
+    },
+    "NGB24": {
+      "place": "nagaland/mokokchung",
+      "claim": "Ungma is the oldest and largest village in the district, and the Ao Moatsu festival takes place in early May.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_MOK",
+          "quote": "Head first to Ungma village, the oldest and largest village in the Mokokchung district."
+        },
+        {
+          "source": "II_MOK",
+          "quote": "The three-day Moatsu festival in early May bursts with community spirit"
+        }
+      ],
+      "topic": "NGB24"
+    },
+    "NGB25": {
+      "place": "nagaland/mokokchung",
+      "claim": "October to April is the best time to visit Mokokchung.",
+      "claimType": "schedule",
+      "evidence": [
+        {
+          "source": "II_MOK",
+          "quote": "The ideal time to explore Mokokchung is during the post-monsoon or winter season, from October to April."
+        }
+      ],
+      "topic": "NGB25"
+    },
+    "NGB26": {
+      "place": "nagaland/mokokchung",
+      "claim": "Must-try dishes include bamboo-steamed fish, axone, smoked pork with bamboo shoot, tenga patta and anishi; zutho is the local rice beer.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_MOK2",
+          "quote": "Some of the must-try dishes include bamboo steamed fish, axone (fermented soybean), smoked pork with bamboo shoot, tenga patta and anishi."
+        },
+        {
+          "source": "II_MOF",
+          "quote": "Zutho is a fermented rice beer"
+        }
+      ],
+      "topic": "NGB26"
+    },
+    "NGB27": {
+      "place": "nagaland/mokokchung",
+      "claim": "Ao artisans make shawls, sling bags, headgear and mekhala, and work in cane and bamboo.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_MOK2",
+          "quote": "Their shawls, sling bags, headgear, and wraparound garments (mekhala) are true works of art"
+        }
+      ],
+      "topic": "NGB27"
+    },
+    "NGB28": {
+      "place": "nagaland/mokokchung",
+      "claim": "Marvel Guest House in Mokokchung is on the official list.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "NAG_HOME",
+          "quote": "60 Marvel Guest House Pentacostal Church Alongmen War, Tongdentsuyong Ward Mokokchung"
+        }
+      ],
+      "topic": "NGB28"
+    },
+    "NGB29": {
+      "place": "nagaland/dzukou-valley",
+      "claim": "Dzükou Valley lies on the Nagaland–Manipur border at about 8,045 ft, and is famous for the Dzükou lily, which blooms in early July.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_DZU",
+          "quote": "Situated between the states of Nagaland and Manipur, this valley is a testament to nature's unparalleled artistry."
+        },
+        {
+          "source": "II_DZU",
+          "quote": "At an elevation of 8045 feet"
+        },
+        {
+          "source": "II_DZU",
+          "quote": "What sets this valley apart is its remarkable transformation in the first weeks of July when it becomes adorned with a vibrant carpet of wildflowers."
+        }
+      ],
+      "topic": "NGB29"
+    },
+    "NGB30": {
+      "place": "nagaland/dzukou-valley",
+      "claim": "The trek is about nine kilometres (five to six hours) from the Viswema or Jakhama side; take a local guide.",
+      "claimType": "distance",
+      "evidence": [
+        {
+          "source": "II_DZU",
+          "quote": "The trek spans approximately nine kilometres and can be completed in about five to six hours."
+        },
+        {
+          "source": "II_DZU",
+          "quote": "you have the option of two routes: the established Viswema route or the newer, shorter Jakhama route."
+        },
+        {
+          "source": "II_DZU",
+          "quote": "it is important to have a local guide with you"
+        }
+      ],
+      "topic": "NGB30"
+    },
+    "NGB31": {
+      "place": "nagaland/kohima-cathedral",
+      "claim": "Kohima's Mary Help of Christians Cathedral, begun in 1986 and consecrated in 1991, covers 25,000 sq ft and seats up to 3,000; the compound holds 20,000.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_KCC",
+          "quote": "The construction of this impressive structure began in 1986, and the church was consecrated in 1991."
+        },
+        {
+          "source": "II_KCC",
+          "quote": "The building covers an area of 25,000 square feet"
+        },
+        {
+          "source": "II_KCC",
+          "quote": "can accommodate up to 3000 people, while the entire compound can hold up to 20,000 people"
+        }
+      ],
+      "topic": "NGB31"
+    },
+    "NGB32": {
+      "place": "nagaland/kohima-cathedral",
+      "claim": "It is open 8 am to 5 pm; prayers are held between 8 am and 4 pm.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_KCC",
+          "quote": "Opening time - 08:00 AM Closing time - 05:00 PM"
+        },
+        {
+          "source": "II_KCC",
+          "quote": "you can attend the prayers held between 8 AM and 4 PM"
+        }
+      ],
+      "topic": "NGB32"
+    },
+    "NGB33": {
+      "place": "nagaland/diezephe-craft-village",
+      "claim": "Diezephe, 13 km from Dimapur, is a community of about 500 artisans and weavers; it won bronze as Best Tourism Village 2023.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_DZC",
+          "quote": "a 500-strong community of skilled artisans and weavers"
+        },
+        {
+          "source": "II_DZC",
+          "quote": "Located 13 kms from Dimapur"
+        },
+        {
+          "source": "II_DZC",
+          "quote": "awarded as the bronze recipient, Best Tourism Village 2023"
+        }
+      ],
+      "topic": "NGB33"
+    },
+    "NGB34": {
+      "place": "nagaland/kohima-botanical-garden",
+      "claim": "Kohima Botanical Garden has medicinal plants, orchids and many bamboos; it is open 9 am to 4 pm.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_KBG",
+          "quote": "from valuable medicinal plants to exquisite orchids and diverse bamboo varieties"
+        },
+        {
+          "source": "II_KBG",
+          "quote": "Opening time - 09:00 AM Closing time - 04:00 PM"
+        }
+      ],
+      "topic": "NGB34"
+    },
+    "NGB35": {
+      "place": "nagaland/pulie-badze-wildlife-sanctuary",
+      "claim": "Pulie Badze Wildlife Sanctuary near Kohima, set up in 1980, covers about 9.23 sq km with over 250 plant species; open 6 am to 5 pm.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_PBZ",
+          "quote": "Spread across approximately 9.23 square kilometres"
+        },
+        {
+          "source": "II_PBZ",
+          "quote": "over 250 unique plant species"
+        },
+        {
+          "source": "II_PBZ",
+          "quote": "Established in 1980"
+        },
+        {
+          "source": "II_PBZ",
+          "quote": "Opening time - 06:00 AM Closing time - 05:00 PM"
+        }
+      ],
+      "topic": "NGB35"
+    },
+    "NGB36": {
+      "place": "nagaland/molungkimong-village",
+      "claim": "Molungkimong, 39 km from Mokokchung, is believed to date from 1303; the first church in Nagaland was founded there on 22 December 1872.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_MLG",
+          "quote": "Molungkimong village is located 39 kilometres from the Mokokchung district"
+        },
+        {
+          "source": "II_MLG",
+          "quote": "It is believed that the village has existed since 1303 AD."
+        },
+        {
+          "source": "II_MLG",
+          "quote": "This event took place on 22nd December 1872"
+        },
+        {
+          "source": "II_MLG",
+          "quote": "the first church of Nagaland was established"
+        }
+      ],
+      "topic": "NGB36"
+    },
+    "NGB37": {
+      "place": "nagaland/kisama-heritage-village",
+      "claim": "The Naga Heritage Village at Kisama preserves the heritage of Nagaland's ethnic groups with a cluster of 16 morungs, and is the venue of the Hornbill Festival.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_KIS",
+          "quote": "Welcome to the Naga Heritage Village or Kisama Village."
+        },
+        {
+          "source": "II_KIS",
+          "quote": "You will be greeted by a cluster of 16 houses, each individually called a \"Morung.\""
+        },
+        {
+          "source": "W_HOR",
+          "quote": "The main venue of the Hornbill Festival is held at the Kisama Heritage Village"
+        }
+      ],
+      "topic": "NGB37"
+    },
+    "NGB38": {
+      "place": "nagaland/kisama-heritage-village",
+      "claim": "The Government of Nagaland has organised the Hornbill Festival since 2000; it showcases tribal dances, crafts, food, wrestling and traditional games.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_NL",
+          "quote": "Since the year 2000, the Government of Nagaland has been organising the Renowned Hornbill Festival annually during the first week of December."
+        },
+        {
+          "source": "II_HOR",
+          "quote": "Witness the raw power and agility of Naga wrestlers."
+        },
+        {
+          "source": "II_HOR",
+          "quote": "Participate in indigenous games like fire-making, archery, and stone-pulling."
+        }
+      ],
+      "topic": "NGB38"
+    }
+  },
+  "places": [],
+  "itineraries": [
+    {
+      "place": "nagaland",
+      "slug": "nagaland-6-days-dimapur-kohima-mokokchung",
+      "title": "Nagaland in 6 days: Dimapur crafts, Kohima and Ao country at Mokokchung",
+      "durationDays": 6,
+      "tripTypes": [
+        "heritage",
+        "nature",
+        "spiritual"
+      ],
+      "summary": "Diezephe's weavers and the Kachari ruins in Dimapur, Kohima's cathedral and green hills, then north to Mokokchung, Ungma and Molungkimong in Ao Naga country.",
+      "seoTitle": "Nagaland 6-Day Itinerary: Dimapur, Kohima, Mokokchung",
+      "seoDescription": "6 days across Nagaland: Diezephe craft village, Kachari ruins, Kohima's cathedral and sanctuaries, then Mokokchung, Ungma and Molungkimong — with ILP fees and hours.",
+      "facts": [
+        "NGB1",
+        "NGB10",
+        "NGB33",
+        "NGB15",
+        "NGB16",
+        "NGB17",
+        "NGB18",
+        "NGB13",
+        "NGB31",
+        "NGB32",
+        "NGB19",
+        "NGB34",
+        "NGB35",
+        "NGB21",
+        "NGB22",
+        "NGB23",
+        "NGB24",
+        "NGB25",
+        "NGB36",
+        "NGB26",
+        "NGB27",
+        "NGB28"
+      ],
+      "sources": [],
+      "plan": {
+        "overview": "A slower, culture-led trip that goes beyond Kohima. Start among Dimapur's craftspeople, climb 75 km to Kohima, then head 145 km north to Mokokchung, homeland of the Ao Naga and Nagaland's 'Land of Pioneers'. Every non-indigenous visitor needs a Nagaland ILP.",
+        "style": "Crafts · Villages · Churches",
+        "start": "Dimapur Airport",
+        "end": "Dimapur",
+        "season": "October to April; Ao Moatsu in early May",
+        "difficulty": "Easy — long road days",
+        "transport": "Car with driver.",
+        "days": [
+          {
+            "title": "Dimapur: weavers and ruins",
+            "summary": "Diezephe craft village, then the Kachari Rajbari ruins and the markets.",
+            "stops": [
+              {
+                "time": "Morning",
+                "name": "Diezephe craft village",
+                "placeSlug": "diezephe-craft-village",
+                "duration": "2 hours",
+                "note": "13 km from Dimapur; about 500 artisans."
+              },
+              {
+                "time": "Afternoon",
+                "name": "Kachari Rajbari ruins",
+                "placeSlug": "kachari-rajbari-ruins",
+                "duration": "45 minutes",
+                "note": "Open 9 am–4 pm."
+              },
+              {
+                "time": "Evening",
+                "name": "Hong Kong Market",
+                "placeSlug": "dimapur",
+                "duration": "1 hour"
+              }
+            ],
+            "overnight": "Dimapur",
+            "transport": "Car",
+            "logistics": "Listed Dimapur stays include Jungjung Homestay and Hesso Villa.",
+            "permits": "Carry your Nagaland ILP."
+          },
+          {
+            "title": "Up to Kohima",
+            "summary": "Drive 75 km to Kohima; the Cathedral and the War Cemetery.",
+            "stops": [
+              {
+                "time": "Afternoon",
+                "name": "Mary Help of Christians Cathedral",
+                "placeSlug": "kohima-cathedral",
+                "duration": "45 minutes",
+                "note": "Open 8 am–5 pm."
+              },
+              {
+                "time": "Late afternoon",
+                "name": "Kohima War Cemetery",
+                "placeSlug": "kohima-war-cemetery",
+                "duration": "45 minutes",
+                "note": "Closes 4 pm — go first if you're late."
+              }
+            ],
+            "travel": "Dimapur to Kohima is 75 km.",
+            "distanceKm": 75,
+            "transport": "Car",
+            "overnight": "Kohima"
+          },
+          {
+            "title": "Kohima's green side",
+            "summary": "Pulie Badze sanctuary early, the Botanical Garden and the markets.",
+            "stops": [
+              {
+                "time": "Early morning",
+                "name": "Pulie Badze Wildlife Sanctuary",
+                "placeSlug": "pulie-badze-wildlife-sanctuary",
+                "duration": "2 hours",
+                "note": "Open 6 am–5 pm."
+              },
+              {
+                "time": "Late morning",
+                "name": "Kohima Botanical Garden",
+                "placeSlug": "kohima-botanical-garden",
+                "duration": "1 hour",
+                "note": "Open 9 am–4 pm."
+              },
+              {
+                "time": "Afternoon",
+                "name": "New Market",
+                "placeSlug": "kohima",
+                "duration": "1 hour"
+              }
+            ],
+            "overnight": "Kohima",
+            "transport": "Car"
+          },
+          {
+            "title": "Kohima to Mokokchung",
+            "summary": "A long road north to the Ao heartland.",
+            "stops": [
+              {
+                "time": "Evening",
+                "name": "Mokokchung town",
+                "placeSlug": "mokokchung",
+                "duration": "1 hour"
+              }
+            ],
+            "travel": "Mokokchung is about 145 km from Kohima.",
+            "distanceKm": 145,
+            "transport": "Car",
+            "overnight": "Mokokchung",
+            "logistics": "Marvel Guest House is on Nagaland Tourism's list."
+          },
+          {
+            "title": "Ungma and Molungkimong",
+            "summary": "The district's oldest village, then Molungkimong, site of Nagaland's first church.",
+            "stops": [
+              {
+                "time": "Morning",
+                "name": "Ungma village",
+                "placeSlug": "mokokchung",
+                "duration": "2 hours"
+              },
+              {
+                "time": "Afternoon",
+                "name": "Molungkimong",
+                "placeSlug": "molungkimong-village",
+                "duration": "2 hours",
+                "note": "39 km from Mokokchung; first church founded 1872."
+              }
+            ],
+            "travel": "Mokokchung to Molungkimong is 39 km.",
+            "distanceKm": 39,
+            "transport": "Car",
+            "overnight": "Mokokchung",
+            "meals": "Bamboo-steamed fish, axone, smoked pork with bamboo shoot; zutho rice beer."
+          },
+          {
+            "title": "Back to Dimapur",
+            "summary": "Shop for Ao shawls and cane work, then drive back to Dimapur.",
+            "stops": [
+              {
+                "time": "Morning",
+                "name": "Mokokchung crafts",
+                "placeSlug": "mokokchung",
+                "duration": "1 hour"
+              }
+            ],
+            "travel": "Mokokchung to Dimapur by road.",
+            "transport": "Car",
+            "overnight": "Dimapur or onward"
+          }
+        ],
+        "budget": {
+          "assumptions": "Only ILP fees are official. Car hire, stays and meals aren't checked.",
+          "lines": [
+            {
+              "label": "Nagaland ILP, Indian tourist",
+              "amount": "₹200 per person (30 days)",
+              "basis": "Nagaland ILP portal"
+            },
+            {
+              "label": "Nagaland ILP, foreign tourist",
+              "amount": "₹500 per person (30 days)",
+              "basis": "Nagaland ILP portal"
+            },
+            {
+              "label": "Car and stays",
+              "amount": "Not estimated",
+              "basis": "Not confirmed from an official source"
+            }
+          ]
+        },
+        "booking": [
+          {
+            "item": "ILP",
+            "detail": "Apply online; tourists give a local contact."
+          },
+          {
+            "item": "Stays",
+            "detail": "Nagaland Tourism publishes a homestay and paying-guest list for Kohima, Dimapur and Mokokchung."
+          }
+        ],
+        "alternatives": [
+          "Add Khonoma (about 20 km from Kohima) for a homestay night.",
+          "Time it for Moatsu in early May."
+        ],
+        "tips": [
+          "Start Kohima days early; several sites close at 4 pm.",
+          "Mokokchung is best October to April."
+        ],
+        "prep": [
+          {
+            "title": "Permits",
+            "body": "Nagaland ILP: ₹200 (Indian tourist) or ₹500 (foreign tourist), valid 30 days."
+          }
+        ],
+        "faqs": [
+          {
+            "q": "How far is Mokokchung from Kohima?",
+            "a": "About 145 km."
+          },
+          {
+            "q": "What is Diezephe?",
+            "a": "A craft village 13 km from Dimapur with about 500 artisans and weavers."
+          },
+          {
+            "q": "When should I go?",
+            "a": "October to April, or early May for Moatsu."
+          }
+        ]
+      }
+    }
+  ],
+  "guides": [
+    {
+      "place": "nagaland",
+      "places": [
+        "nagaland/dimapur",
+        "nagaland/kohima",
+        "nagaland/khonoma",
+        "nagaland/dzukou-valley",
+        "nagaland/mokokchung"
+      ],
+      "slug": "how-to-reach-and-get-around-nagaland",
+      "title": "How to reach and get around Nagaland",
+      "summary": "The Nagaland ILP and its fees, Dimapur airport and railhead, and road distances to Kohima, Kisama, Khonoma, Dzükou and Mokokchung.",
+      "tripTypes": [
+        "heritage",
+        "nature"
+      ],
+      "seoTitle": "How to Reach Nagaland: ILP, Dimapur, Kohima Distances",
+      "seoDescription": "Getting into Nagaland: the online ILP (₹200 Indians, ₹500 foreigners), Dimapur airport and rail, and distances to Kohima, Kisama, Khonoma, Dzükou and Mokokchung.",
+      "body": {
+        "intro": "Every trip to Nagaland starts with a permit and with Dimapur, the state's airport and railhead on the plains. From there the road climbs 75 km to Kohima, the base for most of the sights.",
+        "sections": [
+          {
+            "heading": "The Nagaland ILP",
+            "items": [
+              {
+                "title": "Who needs one",
+                "body": "Anyone who isn't an indigenous inhabitant of Nagaland, Indian or foreign.",
+                "status": "verified"
+              },
+              {
+                "title": "Fees",
+                "body": "₹200 per person for Indian tourists and ₹500 for foreign tourists, each valid 30 days.",
+                "status": "verified"
+              },
+              {
+                "title": "How",
+                "body": "Apply online. Tourists need a local contact, not a guarantor; in working hours approval may take about four hours.",
+                "status": "verified"
+              },
+              {
+                "title": "Foreign nationals",
+                "body": "Wikipedia lists the whole of Nagaland as a Protected Area; confirm the current rule before you book.",
+                "status": "unconfirmed"
+              }
+            ]
+          },
+          {
+            "heading": "Getting in",
+            "items": [
+              {
+                "title": "Dimapur",
+                "body": "Dimapur Airport and Dimapur railway station are the nearest to Kohima.",
+                "status": "verified"
+              }
+            ]
+          },
+          {
+            "heading": "Distances from Kohima",
+            "items": [
+              {
+                "title": "Dimapur",
+                "body": "75 km.",
+                "status": "verified"
+              },
+              {
+                "title": "Kisama Heritage Village",
+                "body": "12 km.",
+                "status": "verified"
+              },
+              {
+                "title": "Khonoma",
+                "body": "About 20 km west.",
+                "status": "verified"
+              },
+              {
+                "title": "Dzükou trailheads",
+                "body": "Viswema and Jakhama, both within about 25 km; the trek is about 9 km.",
+                "status": "verified"
+              },
+              {
+                "title": "Mokokchung",
+                "body": "About 145 km.",
+                "status": "verified"
+              }
+            ]
+          }
+        ],
+        "checklist": [
+          "Get your ILP before you travel.",
+          "Arrange a local guide for Dzükou.",
+          "Book December stays early."
+        ]
+      },
+      "facts": [
+        "NGB1",
+        "NGB11",
+        "NGB10",
+        "NGB13",
+        "NGB4",
+        "NGB2",
+        "NGB3",
+        "NGB30",
+        "NGB23"
+      ],
+      "sources": []
+    },
+    {
+      "place": "nagaland",
+      "places": [
+        "nagaland/dimapur",
+        "nagaland/kohima",
+        "nagaland/dzukou-valley",
+        "nagaland/mokokchung",
+        "nagaland/kisama-heritage-village"
+      ],
+      "slug": "best-time-to-visit-nagaland",
+      "title": "Best time to visit Nagaland: seasons and festivals",
+      "summary": "October to March for mild weather, December for the Hornbill Festival, and the tribal festivals and Dzükou lily that fill the rest of the year.",
+      "tripTypes": [
+        "heritage",
+        "nature"
+      ],
+      "seoTitle": "Best Time to Visit Nagaland: Hornbill and Festivals",
+      "seoDescription": "When to visit Nagaland: mild October–March, the Hornbill Festival on 1–10 December, Sekrenyi in February, Moatsu in May and the Dzükou lily in early July.",
+      "body": {
+        "intro": "Nagaland calls itself the Land of Festivals, and the best time to go often depends on which one you want to see. The cool, dry months from October suit most travel.",
+        "sections": [
+          {
+            "heading": "Weather",
+            "items": [
+              {
+                "title": "Dimapur",
+                "body": "October to March, at about 15–25 °C.",
+                "status": "seasonal"
+              },
+              {
+                "title": "Mokokchung",
+                "body": "October to April.",
+                "status": "seasonal"
+              }
+            ]
+          },
+          {
+            "heading": "Festivals",
+            "items": [
+              {
+                "title": "Hornbill Festival",
+                "body": "1–10 December at the Naga Heritage Village, Kisama; organised by the state since 2000.",
+                "status": "seasonal"
+              },
+              {
+                "title": "Sekrenyi (Angami)",
+                "body": "February, in Kohima.",
+                "status": "seasonal"
+              },
+              {
+                "title": "Tseminyu (Rengma)",
+                "body": "April.",
+                "status": "seasonal"
+              },
+              {
+                "title": "Moatsu (Ao)",
+                "body": "Early May, in Mokokchung.",
+                "status": "seasonal"
+              }
+            ]
+          },
+          {
+            "heading": "Dzükou Valley",
+            "text": "The Dzükou lily blooms in early July, the valley's most famous sight."
+          }
+        ],
+        "checklist": [
+          "Book Hornbill stays well ahead.",
+          "Plan October–March for mild weather."
+        ]
+      },
+      "facts": [
+        "NGB14",
+        "NGB25",
+        "NGB12",
+        "NGB37",
+        "NGB38",
+        "NGB20",
+        "NGB24",
+        "NGB29"
+      ],
+      "sources": []
+    }
+  ]
+}

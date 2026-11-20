@@ -1,0 +1,885 @@
+{
+  "cluster": "routes-assam",
+  "title": "Assam — routes and guides",
+  "researchedAt": "2026-11-20",
+  "selection": "Assam itineraries and planning guides from Incredible India, Assam Tourism and the official Kaziranga park site.",
+  "sources": {
+    "KNP_REACH": {
+      "url": "https://kazirangasafari.in/howtoreach",
+      "title": "How to reach Kaziranga — Kaziranga National Park & Tiger Reserve (official, Government of Assam)",
+      "authority": "government"
+    },
+    "KNP_RATE": {
+      "url": "https://kazirangasafari.in/rateandtiming",
+      "title": "Rates and timing — Kaziranga National Park & Tiger Reserve (official, Government of Assam)",
+      "authority": "government"
+    },
+    "KNP_DOS": {
+      "url": "https://kazirangasafari.in/doanddont",
+      "title": "Do's and don'ts — Kaziranga National Park & Tiger Reserve (official, Government of Assam)",
+      "authority": "government"
+    },
+    "KNP_HOME": {
+      "url": "https://kazirangasafari.in/",
+      "title": "Home — Kaziranga National Park & Tiger Reserve (official, Government of Assam)",
+      "authority": "government"
+    },
+    "II_JRT": {
+      "url": "https://www.incredibleindia.gov.in/en/assam/jorhat",
+      "title": "Jorhat — Incredible India",
+      "authority": "government"
+    },
+    "II_TOC": {
+      "url": "https://www.incredibleindia.gov.in/en/assam/jorhat/tocklai-tea-research-centre",
+      "title": "Tocklai Tea Research Centre — Incredible India",
+      "authority": "government"
+    },
+    "II_MAJ": {
+      "url": "https://www.incredibleindia.gov.in/en/assam/majuli",
+      "title": "Majuli — Incredible India",
+      "authority": "government"
+    },
+    "II_SAM": {
+      "url": "https://www.incredibleindia.gov.in/en/assam/majuli/samaguri-satra",
+      "title": "Samaguri Satra — Incredible India",
+      "authority": "government"
+    },
+    "II_AUN": {
+      "url": "https://www.incredibleindia.gov.in/en/assam/majuli/auniati-satra",
+      "title": "Auniati Satra — Incredible India",
+      "authority": "government"
+    },
+    "II_SVS": {
+      "url": "https://www.incredibleindia.gov.in/en/assam/sivasagar",
+      "title": "Sivasagar — Incredible India",
+      "authority": "government"
+    },
+    "II_SVD": {
+      "url": "https://www.incredibleindia.gov.in/en/assam/sivasagar/siva-dol",
+      "title": "Siva Dol — Incredible India",
+      "authority": "government"
+    },
+    "II_RAN": {
+      "url": "https://www.incredibleindia.gov.in/en/assam/sivasagar/rang-ghar",
+      "title": "Rang Ghar — Incredible India",
+      "authority": "government"
+    },
+    "II_GHY": {
+      "url": "https://www.incredibleindia.gov.in/en/assam/guwahati",
+      "title": "Guwahati — Incredible India",
+      "authority": "government"
+    },
+    "II_DIB": {
+      "url": "https://www.incredibleindia.gov.in/en/assam/dibrugarh",
+      "title": "Dibrugarh — Incredible India",
+      "authority": "government"
+    },
+    "II_KAL": {
+      "url": "https://www.incredibleindia.gov.in/en/assam/guwahati/srimanta-sankardeva-kalakshetra",
+      "title": "Srimanta Sankardeva Kalakshetra — Incredible India",
+      "authority": "government"
+    },
+    "II_MKD": {
+      "url": "https://www.incredibleindia.gov.in/en/assam/guwahati/madan-kamdev",
+      "title": "Madan Kamdev — Incredible India",
+      "authority": "government"
+    },
+    "W_MAJ": {
+      "url": "https://en.wikipedia.org/wiki/Majuli",
+      "title": "Majuli — Wikipedia",
+      "authority": "reference"
+    },
+    "W_KAZ": {
+      "url": "https://en.wikipedia.org/wiki/Kaziranga_National_Park",
+      "title": "Kaziranga National Park — Wikipedia",
+      "authority": "reference"
+    },
+    "W_GAU": {
+      "url": "https://en.wikipedia.org/wiki/Lokpriya_Gopinath_Bordoloi_International_Airport",
+      "title": "Lokpriya Gopinath Bordoloi International Airport — Wikipedia",
+      "authority": "reference"
+    },
+    "AT_ATDC": {
+      "url": "https://tourism.assam.gov.in/information-and-services/atdc-properties-infrastructure",
+      "title": "ATDC properties — Department of Tourism, Government of Assam",
+      "authority": "government"
+    }
+  },
+  "facts": {
+    "ASB1": {
+      "place": "assam/kaziranga-national-park",
+      "claim": "Kohora, Kaziranga's main hub, is about 210 km (4 hours) from Guwahati railway station and 250 km (5 hours) from Guwahati airport by NH 37; it is 105 km (2 hours) from Jorhat airport and 90 km (2 hours) from Tezpur.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "KNP_REACH",
+          "quote": "Guwahati Railway Station Kaziranga (Kohora) By road (NH37) 210 Kms 4 hrs"
+        },
+        {
+          "source": "KNP_REACH",
+          "quote": "Kaziranga (Kohora) By road (NH37) 250 Kms 5 hrs"
+        },
+        {
+          "source": "KNP_REACH",
+          "quote": "Rowroya Airport, Jorhat Kaziranga (Kohora) By road (NH37) 105 Kms 2 hrs"
+        },
+        {
+          "source": "KNP_REACH",
+          "quote": "Route 4 Tezpur Kaziranga (Kohora) By road (NH37) 90 Kms 2 hrs"
+        }
+      ],
+      "topic": "ASB1"
+    },
+    "ASB2": {
+      "place": "assam/kaziranga-national-park",
+      "claim": "Jeep safaris run in two trips, 7:30–10 am and 1:30–3 pm; book only on the official site.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "KNP_RATE",
+          "quote": "Trip 1: 7:30 AM to 10:00 AM Trip 2: 1:30 PM to 3:00 PM"
+        },
+        {
+          "source": "KNP_HOME",
+          "quote": "This is the only website for Online Safari Ticket booking."
+        }
+      ],
+      "topic": "ASB2"
+    },
+    "ASB3": {
+      "place": "assam/kaziranga-national-park",
+      "claim": "Park entry is ₹100 for Indians and ₹650 for foreigners per trip; jeep hire in the Central (Kohora) range is ₹2,200, plus a ₹300 road toll per vehicle.",
+      "claimType": "price",
+      "evidence": [
+        {
+          "source": "KNP_RATE",
+          "quote": "1 Park entry fee per person per trip/day PERSON 650 100"
+        },
+        {
+          "source": "KNP_RATE",
+          "quote": "15 Jeep hiring Fee VEHICLE 2200 2200"
+        },
+        {
+          "source": "KNP_RATE",
+          "quote": "3 Toll for road per trip/day VEHICLE 300 300"
+        }
+      ],
+      "topic": "ASB3"
+    },
+    "ASB4": {
+      "place": "assam/kaziranga-national-park",
+      "claim": "Inside the park: wear sober colours, stay with armed guards or guides, keep silent, drive at 20 km/h; no walking off permitted trails, no horns, no feeding animals.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "KNP_DOS",
+          "quote": "Dress comfortably sober coloured."
+        },
+        {
+          "source": "KNP_DOS",
+          "quote": "Always move along specified paths with the armed guards/tourist guides."
+        },
+        {
+          "source": "KNP_DOS",
+          "quote": "Drive at 20 kms./hr. speed inside the park."
+        },
+        {
+          "source": "KNP_DOS",
+          "quote": "Do not go on foot inside the Park except the permitted trails/ trek paths."
+        }
+      ],
+      "topic": "ASB4"
+    },
+    "ASB5": {
+      "place": "assam/kaziranga-national-park",
+      "claim": "Jeep safaris run in four ranges — Kohora, Bagori, Agaratoli and Burapahar; check the official site for which ranges are open.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "KNP_HOME",
+          "quote": "Jeep Safari service are availabe in all four ranges of Kaziranga National Park- Kohora, Bagori, Agaratoli and Burapahar Range"
+        },
+        {
+          "source": "KNP_HOME",
+          "quote": "will be opened only for Jeep Safari in limited area of Western Range, Bagori only from 26th Sept, 2025 onwards"
+        }
+      ],
+      "topic": "ASB5"
+    },
+    "ASB10": {
+      "place": "assam/jorhat",
+      "claim": "Jorhat (Rowriah) airport connects to major cities; Jorhat Town and Mariani Junction are the stations; best October–April; Tea Festival in November.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_JRT",
+          "quote": "The Jorhat Airport, also known as Rowriah Airport, offers connectivity with major Indian cities"
+        },
+        {
+          "source": "II_JRT",
+          "quote": "Jorhat has two railway stations - Jorhat Town and Mariani Junction"
+        },
+        {
+          "source": "II_JRT",
+          "quote": "The best time to visit Jorhat is between October and April."
+        },
+        {
+          "source": "II_JRT",
+          "quote": "The Tea Festival, held annually in November"
+        }
+      ],
+      "topic": "ASB10"
+    },
+    "ASB11": {
+      "place": "assam/jorhat",
+      "claim": "Jorhat has 135 tea gardens including Cinnamora, Assam's first; estates offer guided tours of plucking and tasting.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_JRT",
+          "quote": "Jorhat, with its tea gardens (all 135 of them!)"
+        },
+        {
+          "source": "II_JRT",
+          "quote": "the Cinnamora Tea Estate - the first tea garden of Assam"
+        },
+        {
+          "source": "II_JRT",
+          "quote": "Visitors can take guided tours to witness the fascinating process of tea plucking"
+        }
+      ],
+      "topic": "ASB11"
+    },
+    "ASB12": {
+      "place": "assam/tocklai-tea-research-centre",
+      "claim": "Tocklai, the world's oldest and largest tea research station, has a tea museum and is open 8:30 am–5 pm.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_TOC",
+          "quote": "As the world's oldest and largest tea research station"
+        },
+        {
+          "source": "II_TOC",
+          "quote": "explore the tea museum within the centre"
+        },
+        {
+          "source": "II_TOC",
+          "quote": "Opening time - 08:30 AM Closing time - 05:00 PM"
+        }
+      ],
+      "topic": "ASB12"
+    },
+    "ASB13": {
+      "place": "assam/majuli",
+      "claim": "Majuli is reached by bus and ferry from Nimati Steamer Ghat — over three hours with changes — or by RORO ferry; it is the world's largest inland river island.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "W_MAJ",
+          "quote": "Tourists can visit the island via a combination of bus and ferry from the Nimati Steamer Ghat"
+        },
+        {
+          "source": "W_MAJ",
+          "quote": "Majuli Port is served by a roll-on/roll-off (RORO) ferry service"
+        },
+        {
+          "source": "W_MAJ",
+          "quote": "Majuli is recognized by Guinness World Records as the world's largest inland river island"
+        }
+      ],
+      "topic": "ASB13"
+    },
+    "ASB14": {
+      "place": "assam/majuli",
+      "claim": "Visit Dakhinpat Satra's murals and Kamalabari Satra; November brings the Raas Mahotsav.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_MAJ",
+          "quote": "Imagine walking through Dakhinpat Satra"
+        },
+        {
+          "source": "II_MAJ",
+          "quote": "visit Kamalabari Satra, a legendary centre of culture, art, literature, and classical studies"
+        },
+        {
+          "source": "II_MAJ",
+          "quote": "mark your calendars for November"
+        }
+      ],
+      "topic": "ASB14"
+    },
+    "ASB15": {
+      "place": "assam/samaguri-satra",
+      "claim": "Samaguri Satra keeps the mask-making art alive since the 1600s; open 7 am–5 pm.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_SAM",
+          "quote": "Samaguri Satra has kept an extraordinary art form alive since the 1600s - the sacred craft of mask-making"
+        },
+        {
+          "source": "II_SAM",
+          "quote": "Opening time - 07:00 AM Closing time - 05:00 PM"
+        }
+      ],
+      "topic": "ASB15"
+    },
+    "ASB16": {
+      "place": "assam/auniati-satra",
+      "claim": "Auniati Satra was founded in 1653 under the Ahom king Jayadhwaj Singha.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_AUN",
+          "quote": "Founded in 1653 AD under the patronage of the Ahom king Jayadhwaj Singha"
+        }
+      ],
+      "topic": "ASB16"
+    },
+    "ASB17": {
+      "place": "assam/sivasagar",
+      "claim": "Sivasagar, the old Ahom capital, can mostly be explored on foot; best October–March; try tenga, khar and pitha.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_SVS",
+          "quote": "the erstwhile capital of the mighty Ahom dynasty in Assam"
+        },
+        {
+          "source": "II_SVS",
+          "quote": "You can explore most of Sivasagar on foot"
+        },
+        {
+          "source": "II_SVS",
+          "quote": "during the winter months of October to March"
+        },
+        {
+          "source": "II_SVS",
+          "quote": "Dip into a tangy Tenga (sour curry) bowl"
+        }
+      ],
+      "topic": "ASB17"
+    },
+    "ASB18": {
+      "place": "assam/siva-dol",
+      "claim": "Siva Dol, built in 1734, is 180 ft tall — Assam's tallest temple — and is open 6 am–9 pm.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_SVD",
+          "quote": "Built in 1734 A.D. by the visionary Queen Ambika"
+        },
+        {
+          "source": "II_SVD",
+          "quote": "Standing tall at 180 feet"
+        },
+        {
+          "source": "II_SVD",
+          "quote": "Opening time - 06:00 AM Closing time - 09:00 PM"
+        }
+      ],
+      "topic": "ASB18"
+    },
+    "ASB19": {
+      "place": "assam/rang-ghar",
+      "claim": "The Rang Ghar, built in 1746, is called Asia's oldest amphitheatre.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_RAN",
+          "quote": "It was built in 1746 as a place of entertainment for the royal families"
+        },
+        {
+          "source": "II_RAN",
+          "quote": "It is the oldest amphitheatre in Asia."
+        }
+      ],
+      "topic": "ASB19"
+    },
+    "ASB20": {
+      "place": "assam/guwahati",
+      "claim": "Guwahati's airport at Borjhar, 28 km from the city, is the primary airport of Northeast India; the best time is October to March.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "W_GAU",
+          "quote": "the primary airport of Northeast India"
+        },
+        {
+          "source": "II_GHY",
+          "quote": "The ideal time to visit is from October to March."
+        }
+      ],
+      "topic": "ASB20"
+    },
+    "ASB21": {
+      "place": "assam/dibrugarh",
+      "claim": "Dibrugarh's Mohanbari airport is about 15 km from the city with flights to Delhi, Kolkata and Guwahati; best October–March, winter 10–25 °C.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_DIB",
+          "quote": "the Mohanbari Airport (also known as Dibrugarh Airport), which is located about 15 kilometers from the city ce"
+        },
+        {
+          "source": "II_DIB",
+          "quote": "The airport is well-connected with major cities in India like Delhi, Kolkata, and Guwahati."
+        },
+        {
+          "source": "II_DIB",
+          "quote": "The best time to visit Dibrugarh is from October to March."
+        },
+        {
+          "source": "II_DIB",
+          "quote": "with temperatures ranging from 10°C to 25°C"
+        }
+      ],
+      "topic": "ASB21"
+    },
+    "ASB22": {
+      "place": "assam/kaziranga-national-park",
+      "claim": "Kaziranga's monsoon runs June–September; in July and August about three-quarters of the western region floods.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "W_KAZ",
+          "quote": "The rainy monsoon season lasts from June to September"
+        },
+        {
+          "source": "W_KAZ",
+          "quote": "During the peak months of July and August, three-fourths of the western region of the park is submerged"
+        }
+      ],
+      "topic": "ASB22"
+    },
+    "ASB23": {
+      "place": "assam",
+      "claim": "Assam Tourism runs lodges including Prashanti in Guwahati (Station Road), Aranya at Kohora near Kaziranga, Prashanti on M.G. Road in Jorhat, Prashanti Eco Tourism Resort on Majuli and a tourist lodge in Sivasagar.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "AT_ATDC",
+          "quote": "Aranya Tourist Lodge Kohora, Near Kaziranga National Park"
+        },
+        {
+          "source": "AT_ATDC",
+          "quote": "Prashanti Tourist Lodge, Guwahati Station Road"
+        },
+        {
+          "source": "AT_ATDC",
+          "quote": "Prashanti Tourist Lodge, Jorhat M.G. Road, Jorhat"
+        },
+        {
+          "source": "AT_ATDC",
+          "quote": "Prashanti Eco Tourism Resort, Majuli Kamalabari"
+        }
+      ],
+      "topic": "ASB23"
+    },
+    "ASB24": {
+      "place": "assam/madan-kamdev",
+      "claim": "Madan Kamdev, about 40 km from Guwahati, is best November–February.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_MKD",
+          "quote": "Barely 40kms from Guwahati"
+        },
+        {
+          "source": "II_MKD",
+          "quote": "The best time to visit Madan Kamdev is between November and February"
+        }
+      ],
+      "topic": "ASB24"
+    },
+    "ASB25": {
+      "place": "assam/guwahati",
+      "claim": "Guwahati is about 10–20 °C in the cool season.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_KAL",
+          "quote": "cool temperatures ranging from decently cold 10°C to a comfortable 20°C"
+        }
+      ],
+      "topic": "ASB25"
+    }
+  },
+  "places": [],
+  "itineraries": [
+    {
+      "place": "assam",
+      "slug": "upper-assam-4-days-jorhat-majuli-sivasagar",
+      "title": "Upper Assam in 4 days: Jorhat tea, Majuli and Sivasagar",
+      "durationDays": 4,
+      "tripTypes": [
+        "heritage",
+        "spiritual",
+        "nature"
+      ],
+      "summary": "Tea country around Jorhat and the Tocklai tea museum, two days on Majuli among the satras and mask-makers, then the Ahom monuments of Sivasagar.",
+      "seoTitle": "Upper Assam 4-Day Itinerary: Jorhat, Majuli, Sivasagar",
+      "seoDescription": "4 days in Upper Assam: Jorhat's tea gardens and Tocklai, the ferry to Majuli's satras and Samaguri masks, and Sivasagar's Siva Dol and Rang Ghar.",
+      "facts": [
+        "ASB10",
+        "ASB11",
+        "ASB12",
+        "ASB13",
+        "ASB14",
+        "ASB15",
+        "ASB16",
+        "ASB17",
+        "ASB18",
+        "ASB19",
+        "ASB23"
+      ],
+      "sources": [],
+      "plan": {
+        "overview": "A slower, cultural loop in Upper Assam. Fly into Jorhat, the 'cultural capital of Assam' with 135 tea gardens, cross by ferry to Majuli — the world's largest inland river island and the heart of Assam's satras — and finish among the Ahom palaces and temples of Sivasagar. October to April is the season; time it for Jorhat's Tea Festival or Majuli's Raas Mahotsav, both in November.",
+        "style": "Culture · Tea · Heritage",
+        "start": "Jorhat (Rowriah airport)",
+        "end": "Sivasagar",
+        "season": "October–April; November for the Tea Festival and Raas Mahotsav",
+        "difficulty": "Easy",
+        "transport": "Hired car; bus-and-ferry or RORO ferry to Majuli.",
+        "days": [
+          {
+            "title": "Jorhat's tea country",
+            "summary": "The Tocklai tea museum and a guided tea-estate tour.",
+            "stops": [
+              {
+                "time": "Morning",
+                "name": "Tocklai Tea Research Centre",
+                "placeSlug": "tocklai-tea-research-centre",
+                "duration": "1.5 hours",
+                "note": "Open 8:30 am–5 pm; tea museum."
+              },
+              {
+                "time": "Afternoon",
+                "name": "Tea estate tour",
+                "placeSlug": "jorhat",
+                "duration": "2 hours",
+                "note": "Guided plucking and tasting; Cinnamora was Assam's first garden."
+              }
+            ],
+            "overnight": "Jorhat",
+            "travel": "Short drives around Jorhat.",
+            "transport": "Hired car",
+            "meals": "Tea tasting at the estate.",
+            "logistics": "Assam Tourism's Prashanti Tourist Lodge is on M.G. Road."
+          },
+          {
+            "title": "Ferry to Majuli",
+            "summary": "Bus and ferry from Nimati Steamer Ghat; afternoon at Dakhinpat and Kamalabari satras.",
+            "stops": [
+              {
+                "time": "Afternoon",
+                "name": "Dakhinpat Satra",
+                "placeSlug": "majuli",
+                "duration": "1 hour"
+              },
+              {
+                "time": "Late afternoon",
+                "name": "Kamalabari Satra",
+                "placeSlug": "majuli",
+                "duration": "1 hour"
+              }
+            ],
+            "overnight": "Majuli (Kamalabari)",
+            "travel": "Jorhat to Nimati Steamer Ghat, then the ferry — over three hours with changes.",
+            "transport": "Bus or car, then ferry",
+            "meals": "Mising food on the island.",
+            "logistics": "Assam Tourism's Prashanti Eco Tourism Resort is at Kamalabari."
+          },
+          {
+            "title": "Masks and Sattriya on Majuli, back to Jorhat",
+            "summary": "Samaguri Satra's mask-makers and Auniati Satra, then the ferry back.",
+            "stops": [
+              {
+                "time": "Morning",
+                "name": "Samaguri Satra",
+                "placeSlug": "samaguri-satra",
+                "duration": "1 hour",
+                "note": "Open 7 am–5 pm."
+              },
+              {
+                "time": "Late morning",
+                "name": "Auniati Satra",
+                "placeSlug": "auniati-satra",
+                "duration": "1 hour",
+                "note": "Founded 1653."
+              }
+            ],
+            "overnight": "Jorhat",
+            "travel": "Ferry back to Nimati Ghat.",
+            "transport": "Ferry, then car",
+            "meals": "Lunch on Majuli."
+          },
+          {
+            "title": "Sivasagar's Ahom monuments",
+            "summary": "Siva Dol, Assam's tallest temple, and the Rang Ghar amphitheatre — most of Sivasagar is walkable.",
+            "stops": [
+              {
+                "time": "Morning",
+                "name": "Siva Dol",
+                "placeSlug": "siva-dol",
+                "duration": "1 hour",
+                "note": "180 ft, built 1734; open 6 am–9 pm."
+              },
+              {
+                "time": "Midday",
+                "name": "Rang Ghar",
+                "placeSlug": "rang-ghar",
+                "duration": "45 minutes",
+                "note": "Built 1746."
+              }
+            ],
+            "overnight": "Sivasagar",
+            "travel": "Jorhat to Sivasagar by road.",
+            "transport": "Hired car",
+            "meals": "Try tenga, khar, jolpan and pitha."
+          }
+        ],
+        "budget": {
+          "assumptions": "Only official opening hours are listed. VacayOut hasn't checked car hire, ferry fares, stays or estate tour prices.",
+          "lines": [
+            {
+              "label": "Car hire and ferry",
+              "amount": "Not estimated",
+              "basis": "Not confirmed from an official source"
+            },
+            {
+              "label": "Tea estate tours",
+              "amount": "Ask the estate",
+              "basis": "Not confirmed from an official source"
+            }
+          ]
+        },
+        "booking": [
+          {
+            "item": "Flights",
+            "detail": "Jorhat (Rowriah) airport connects to major cities."
+          },
+          {
+            "item": "Stays",
+            "detail": "Assam Tourism lodges in Jorhat, on Majuli and in Sivasagar; some tea estates offer stays."
+          }
+        ],
+        "alternatives": [
+          "Start with Kaziranga: Kohora is 105 km (2 hours) from Jorhat airport.",
+          "Add Charaideo's moidams near Sivasagar.",
+          "Rail: Jorhat Town and Mariani Junction are the stations."
+        ],
+        "tips": [
+          "Check the Majuli ferry times on the day — the crossing takes time.",
+          "November is busiest: Tea Festival and Raas Mahotsav."
+        ],
+        "prep": [
+          {
+            "title": "Season",
+            "body": "October to April for Jorhat; October to March for Sivasagar. November brings the Tea Festival and Majuli's Raas Mahotsav."
+          }
+        ],
+        "faqs": [
+          {
+            "q": "How do I get to Majuli?",
+            "a": "Bus and ferry from Nimati Steamer Ghat near Jorhat (over three hours with changes), or the RORO ferry."
+          },
+          {
+            "q": "When is Siva Dol open?",
+            "a": "6 am to 9 pm."
+          },
+          {
+            "q": "When is the Tea Festival?",
+            "a": "Every November in Jorhat."
+          }
+        ]
+      }
+    }
+  ],
+  "guides": [
+    {
+      "place": "assam",
+      "places": [
+        "assam/guwahati",
+        "assam/kaziranga-national-park",
+        "assam/jorhat",
+        "assam/majuli",
+        "assam/sivasagar",
+        "assam/dibrugarh"
+      ],
+      "slug": "how-to-reach-and-get-around-assam",
+      "title": "How to reach and get around Assam",
+      "summary": "Assam's airports at Guwahati, Jorhat and Dibrugarh, official road distances to Kaziranga, the ferry to Majuli, and Assam Tourism's lodges along the way.",
+      "tripTypes": [
+        "wildlife",
+        "nature"
+      ],
+      "seoTitle": "How to Reach Assam and Get Around: Kaziranga, Majuli",
+      "seoDescription": "Getting to and around Assam: Guwahati, Jorhat and Dibrugarh airports, official distances to Kaziranga, the Majuli ferry from Nimati Ghat and state-run lodges.",
+      "body": {
+        "intro": "Assam stretches along the Brahmaputra, and most trips run east from Guwahati along NH 37 to Kaziranga, Jorhat and Upper Assam. Three airports cover the state, and the official Kaziranga park site publishes road distances to its main hub, Kohora.",
+        "sections": [
+          {
+            "heading": "Airports",
+            "items": [
+              {
+                "title": "Guwahati",
+                "body": "Borjhar airport, about 28 km from the city, is the primary airport of Northeast India.",
+                "status": "verified"
+              },
+              {
+                "title": "Jorhat",
+                "body": "Rowriah airport connects to major cities; Kohora (Kaziranga) is 105 km, about 2 hours.",
+                "status": "verified"
+              },
+              {
+                "title": "Dibrugarh",
+                "body": "Mohanbari airport, about 15 km from the city, has flights to Delhi, Kolkata and Guwahati.",
+                "status": "verified"
+              }
+            ]
+          },
+          {
+            "heading": "To Kaziranga (Kohora)",
+            "items": [
+              {
+                "title": "From Guwahati railway station",
+                "body": "210 km by NH 37, about 4 hours.",
+                "status": "verified"
+              },
+              {
+                "title": "From Guwahati airport",
+                "body": "250 km, about 5 hours.",
+                "status": "verified"
+              },
+              {
+                "title": "From Jorhat airport",
+                "body": "105 km, about 2 hours.",
+                "status": "verified"
+              },
+              {
+                "title": "From Tezpur",
+                "body": "90 km, about 2 hours.",
+                "status": "verified"
+              }
+            ]
+          },
+          {
+            "heading": "Kaziranga safari fees and rules",
+            "text": "Park entry is ₹100 for Indians and ₹650 for foreigners per trip; jeep hire in the Central (Kohora) range is ₹2,200, plus a ₹300 road toll per vehicle. Inside the park, wear sober colours, stay with the armed guards or guides, keep silent and keep to 20 km/h; walking is allowed only on permitted trails."
+          },
+          {
+            "heading": "To Majuli",
+            "text": "Majuli, the world's largest inland river island, is reached from Jorhat: bus and ferry from Nimati Steamer Ghat take over three hours with changes, and a RORO ferry also runs."
+          },
+          {
+            "heading": "Where the state-run lodges are",
+            "text": "Assam Tourism runs lodges including the Prashanti Tourist Lodge on Station Road in Guwahati, the Aranya Tourist Lodge at Kohora near Kaziranga, the Prashanti Tourist Lodge on M.G. Road in Jorhat and the Prashanti Eco Tourism Resort at Kamalabari on Majuli."
+          }
+        ],
+        "checklist": [
+          "Book Kaziranga safaris only on kazirangasafari.in.",
+          "Allow a half-day for the Majuli crossing.",
+          "Rail: Jorhat Town and Mariani Junction serve Jorhat."
+        ]
+      },
+      "facts": [
+        "ASB20",
+        "ASB10",
+        "ASB21",
+        "ASB1",
+        "ASB13",
+        "ASB23",
+        "ASB2",
+        "ASB3",
+        "ASB4"
+      ],
+      "sources": []
+    },
+    {
+      "place": "assam",
+      "places": [
+        "assam/guwahati",
+        "assam/kaziranga-national-park",
+        "assam/jorhat",
+        "assam/majuli",
+        "assam/sivasagar",
+        "assam/dibrugarh"
+      ],
+      "slug": "best-time-to-visit-assam",
+      "title": "Best time to visit Assam: month by month",
+      "summary": "October to March for most of Assam, Kaziranga's flood months, and when to catch Jorhat's Tea Festival and Majuli's Raas Mahotsav.",
+      "tripTypes": [
+        "wildlife",
+        "nature"
+      ],
+      "seoTitle": "Best Time to Visit Assam: Kaziranga, Majuli, Jorhat",
+      "seoDescription": "When to visit Assam: the cool season from October to March, Kaziranga's July–August floods, November's Tea Festival and Raas Mahotsav, and safari timings.",
+      "body": {
+        "intro": "Assam's travel season is the cool, dry half of the year. The monsoon brings heavy rain from June to September, and Kaziranga's western range floods at its peak.",
+        "sections": [
+          {
+            "heading": "By place",
+            "items": [
+              {
+                "title": "Guwahati",
+                "body": "October to March, at about 10–20 °C.",
+                "status": "seasonal"
+              },
+              {
+                "title": "Jorhat",
+                "body": "October to April; the Tea Festival is held each November.",
+                "status": "seasonal"
+              },
+              {
+                "title": "Majuli",
+                "body": "November, for the Raas Mahotsav.",
+                "status": "seasonal"
+              },
+              {
+                "title": "Sivasagar",
+                "body": "October to March.",
+                "status": "seasonal"
+              },
+              {
+                "title": "Dibrugarh",
+                "body": "October to March; winter is mild at about 10–25 °C.",
+                "status": "seasonal"
+              },
+              {
+                "title": "Madan Kamdev",
+                "body": "November to February.",
+                "status": "seasonal"
+              }
+            ]
+          },
+          {
+            "heading": "Kaziranga",
+            "text": "The monsoon lasts from June to September, and in July and August about three-quarters of the park's western region is submerged. Jeep safaris run in two trips, 7:30–10 am and 1:30–3 pm; check the official site for which ranges are open before you book."
+          }
+        ],
+        "checklist": [
+          "Plan October–March for most of Assam.",
+          "Avoid Kaziranga in July–August.",
+          "Book November trips early."
+        ]
+      },
+      "facts": [
+        "ASB20",
+        "ASB25",
+        "ASB10",
+        "ASB14",
+        "ASB17",
+        "ASB21",
+        "ASB24",
+        "ASB22",
+        "ASB2",
+        "ASB5"
+      ],
+      "sources": []
+    }
+  ]
+}

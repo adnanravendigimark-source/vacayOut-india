@@ -98,6 +98,56 @@
       "url": "https://en.wikipedia.org/wiki/Balpakram_National_Park",
       "title": "Balpakram National Park — Wikipedia",
       "authority": "reference"
+    },
+    "MT_DAW": {
+      "url": "https://meghalayatourism.in/explore/destinations/by-region/jaintia-hills/dawki-shnongpdeng-darang/",
+      "title": "Dawki — Meghalaya Tourism (Government of Meghalaya)",
+      "authority": "government"
+    },
+    "MT_MSY": {
+      "url": "https://meghalayatourism.in/explore/destinations/by-region/khasi-hills/mawsynram/",
+      "title": "Mawsynram — Meghalaya Tourism (Government of Meghalaya)",
+      "authority": "government"
+    },
+    "MT_KON": {
+      "url": "https://meghalayatourism.in/explore/destinations/by-region/khasi-hills/kongthong-village/",
+      "title": "Kongthong — Meghalaya Tourism (Government of Meghalaya)",
+      "authority": "government"
+    },
+    "MT_MLN": {
+      "url": "https://meghalayatourism.in/explore/destinations/by-interest/living-root-bridges/mawlynnong/",
+      "title": "Mawlynnong — Meghalaya Tourism (Government of Meghalaya)",
+      "authority": "government"
+    },
+    "MT_JOW": {
+      "url": "https://meghalayatourism.in/explore/destinations/main-towns/jowai/",
+      "title": "Jowai — Meghalaya Tourism (Government of Meghalaya)",
+      "authority": "government"
+    },
+    "MT_TUR": {
+      "url": "https://meghalayatourism.in/explore/destinations/main-towns/tura/",
+      "title": "Tura — Meghalaya Tourism (Government of Meghalaya)",
+      "authority": "government"
+    },
+    "MT_SHL": {
+      "url": "https://meghalayatourism.in/shillong/",
+      "title": "Shillong — Meghalaya Tourism (Government of Meghalaya)",
+      "authority": "government"
+    },
+    "EVISA": {
+      "url": "https://indianvisaonline.gov.in/evisa/tvoa.html",
+      "title": "Indian e-Visa — official information (Government of India)",
+      "authority": "government"
+    },
+    "UPI": {
+      "url": "https://www.aap.com.au/aapreleases/cision20240723ae67416/",
+      "title": "NPCI: 'UPI One World' wallet available to inbound international travellers (press release, 24 July 2024)",
+      "authority": "media"
+    },
+    "W_112": {
+      "url": "https://en.wikipedia.org/wiki/112_(emergency_telephone_number)",
+      "title": "112 (emergency telephone number) — Wikipedia",
+      "authority": "reference"
     }
   },
   "facts": {
@@ -880,6 +930,254 @@
           "quote": "Balpakram National Park provides birdwatchers with stunning avian species"
         }
       ]
+    },
+    "M5XV": {
+      "place": "meghalaya/dawki",
+      "topic": "M5XV",
+      "claim": "e-Tourist visa applications should be made at least 4 days before arrival, with a passport valid for at least six months.",
+      "claimType": "rule",
+      "evidence": [
+        {
+          "source": "EVISA",
+          "quote": "For e-Tourist and e-Business visa, Applicants of the eligible countries/territories may apply online minimum 4 days in advance of the date of arrival."
+        },
+        {
+          "source": "EVISA",
+          "quote": "Applicant's passport should have at least six months validity at the time of making application for grant of e-Visa."
+        }
+      ]
+    },
+    "M5XU": {
+      "place": "meghalaya/dawki",
+      "topic": "M5XU",
+      "claim": "International visitors can pay by QR code using NPCI's UPI One World wallet after a passport-and-visa KYC check.",
+      "claimType": "rule",
+      "evidence": [
+        {
+          "source": "UPI",
+          "quote": "The UPI One World wallet can be availed through authorized PPI issuers at airports, hotels, designated money exchange locations and other touchpoints, following a full KYC process based on a passport and valid visa."
+        }
+      ]
+    },
+    "M5XE": {
+      "place": "meghalaya/dawki",
+      "topic": "M5XE",
+      "claim": "112 is India's single emergency number for police, fire and ambulance.",
+      "claimType": "contact",
+      "evidence": [
+        {
+          "source": "W_112",
+          "quote": "112 is now the pan-country single emergency number for all emergencies."
+        }
+      ]
+    },
+    "M5D1": {
+      "place": "meghalaya/dawki",
+      "topic": "M5D1",
+      "claim": "Shared taxis and cabs run from Shillong (about 80 km on NH206) and Jowai (about 55 km); hire a private vehicle for Shnongpdeng and Darang.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "MT_DAW",
+          "quote": "Dawki is accessible via shared taxis and private cabs from Shillong and Jowai."
+        },
+        {
+          "source": "MT_DAW",
+          "quote": "From Shillong, travelers can reach Dawki by driving approximately 80 km along NH206."
+        },
+        {
+          "source": "MT_DAW",
+          "quote": "For Shnongpdeng and Darang, hiring a private vehicle from Shillong is recommended for flexibility and comfort."
+        }
+      ]
+    },
+    "M5D2": {
+      "place": "meghalaya/dawki",
+      "topic": "M5D2",
+      "claim": "October to May is best; visiting hours are 6 am to 6 pm — don't overstay.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "MT_DAW",
+          "quote": "The best time to visit Dawki is between October and May"
+        },
+        {
+          "source": "MT_DAW",
+          "quote": "Visitors can visit Dawki between 6:00 AM and 6:00 PM. It is advised not to overstay the closing time."
+        }
+      ]
+    },
+    "M5D3": {
+      "place": "meghalaya/dawki",
+      "topic": "M5D3",
+      "claim": "Arrange a local guide who knows the area and language; Shillong airport is 120 km and Guwahati airport 208 km.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "MT_DAW",
+          "quote": "it is advisable to arrange for a local tourist buddy or guide who is knowledgeable of the location and the language"
+        },
+        {
+          "source": "MT_DAW",
+          "quote": "The distance from Shillong Airport is 120 km, and 208 km from Guwahati Airport."
+        }
+      ]
+    },
+    "M5D4": {
+      "place": "meghalaya/dawki",
+      "topic": "M5D4",
+      "claim": "Activities include boating at Dawki, kayaking and cliff-jumping at Shnongpdeng, zip-lining, snorkelling and scuba diving.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "MT_DAW",
+          "quote": "whether it's a serene boat ride in Dawki or kayaking and cliff-jumping in Shnongpdeng"
+        },
+        {
+          "source": "MT_DAW",
+          "quote": "Dive into adrenaline with zip-lining, snorkeling, scuba diving, and rock climbing"
+        }
+      ]
+    },
+    "M5M1": {
+      "place": "meghalaya/mawsynram",
+      "topic": "M5M1",
+      "claim": "Mawsynram is 61 km from Shillong by road — shared taxis or private cars; Shillong airport is about 86 km and Guwahati station 151 km; MTDC runs guided day trips by car.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "MT_MSY",
+          "quote": "From Shillong: drive 61 km via East Khasi Hills; shared taxis or private cars are common."
+        },
+        {
+          "source": "MT_MSY",
+          "quote": "Nearest airports: Shillong (Umroi) ~86 km; Guwahati ~162 km."
+        },
+        {
+          "source": "MT_MSY",
+          "quote": "Guided day trips (car only, no buses) are available through MTDC circuits."
+        }
+      ]
+    },
+    "M5M2": {
+      "place": "meghalaya/mawsynram",
+      "topic": "M5M2",
+      "claim": "Homestays and community lodges are the way to stay.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "MT_MSY",
+          "quote": "Homestays and community lodges enhance the immersive nature experience."
+        }
+      ]
+    },
+    "M5M3": {
+      "place": "meghalaya/mawsynram",
+      "topic": "M5M3",
+      "claim": "Caving and fossil hikes need local guides and proper equipment.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "MT_MSY",
+          "quote": "Adventure activities like caving and fossil hikes require local guides and proper equipment."
+        }
+      ]
+    },
+    "M5M4": {
+      "place": "meghalaya/mawsynram",
+      "topic": "M5M4",
+      "claim": "Must-sees include Krem Puri, the longest sandstone cave, the fossil-rich Mawlyngbna area and the crevice walk.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "MT_MSY",
+          "quote": "Krem Puri - longest sandstone cave with steep descent and mapped labyrinth."
+        },
+        {
+          "source": "MT_MSY",
+          "quote": "Fossil-rich Mawlyngbna area - Umkhakoi lake, water-activities, and ancient marine fossils."
+        },
+        {
+          "source": "MT_MSY",
+          "quote": "Crevice walk - hike among root-draped crevices"
+        }
+      ]
+    },
+    "M5M5": {
+      "place": "meghalaya/mawsynram",
+      "topic": "M5M5",
+      "claim": "Post-monsoon (October–November) and winter offer clearer trails.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "MT_MSY",
+          "quote": "post-monsoon (October-November) and winter offer clearer trails and pleasant hiking opportunities"
+        }
+      ]
+    },
+    "M5J1": {
+      "place": "meghalaya/jowai",
+      "topic": "M5J1",
+      "claim": "Jowai has many lodges and guesthouses; the main hotels are on the entry road near Thadlaskein Lake.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "MT_JOW",
+          "quote": "Jowai has many lodges and guesthouses – the most prominent hotels are found in the town’s entry road near Thadlaskein Lake."
+        }
+      ]
+    },
+    "M5J2": {
+      "place": "meghalaya/jowai",
+      "topic": "M5J2",
+      "claim": "Syntu Ksiar on the Myntdu has a memorial to the Jaintia freedom fighter Kiang Nongbah.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "MT_JOW",
+          "quote": "It has a monument dedicated to the most famous Jaintia freedom fighter – Kiang Nong Bah."
+        }
+      ]
+    },
+    "M5T1": {
+      "place": "meghalaya/tura",
+      "topic": "M5T1",
+      "claim": "Tura is the heartland of the Garo; the Wangala 'Hundred Drums' festival is celebrated here; Nokrek shelters red pandas.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "MT_TUR",
+          "quote": "the cultural heartland of the Garo people"
+        },
+        {
+          "source": "MT_TUR",
+          "quote": "the Wangala festival—also known as the Festival of a Hundred Drums"
+        },
+        {
+          "source": "MT_TUR",
+          "quote": "shelters rare wildlife including elusive red pandas"
+        }
+      ]
+    },
+    "M5T2": {
+      "place": "meghalaya/tura",
+      "topic": "M5T2",
+      "claim": "Trek Tura Peak; visit Pelga Falls and Siju Caves; browse handwoven textiles and bamboo crafts in local markets.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "MT_TUR",
+          "quote": "Tura Peak rewards trekkers with panoramic views"
+        },
+        {
+          "source": "MT_TUR",
+          "quote": "Nearby attractions like Pelga Falls and Siju Caves"
+        },
+        {
+          "source": "MT_TUR",
+          "quote": "age-old craft traditions like handwoven textiles and bamboo artistry"
+        }
+      ]
     }
   },
   "places": [
@@ -972,6 +1270,108 @@
           "text": "Shared transport leaves Iewduh in Shillong for Dawki every morning, and buses also cover the 70 km journey.",
           "facts": [
             "M1D1"
+          ]
+        },
+        "best_time": {
+          "text": "October to May, when the weather is pleasant and the river is clearest for boating.",
+          "facts": [
+            "M5D2"
+          ]
+        },
+        "local_transport": {
+          "text": "Shared taxis and private cabs run to Dawki from Shillong, about 80 km along NH206, and from Jowai, about 55 km via Amlarem. For the riverside camps at Shnongpdeng and Darang, hire a private vehicle from Shillong.",
+          "facts": [
+            "M5D1"
+          ]
+        },
+        "where_to_stay": {
+          "text": "Dawki is the gateway to the riverside camps of Shnongpdeng and Darang, where camping by the Umngot is the classic stay.",
+          "facts": [
+            "M1D5"
+          ]
+        },
+        "safety_health": {
+          "items": [
+            {
+              "title": "Hours",
+              "body": "Visit between 6 am and 6 pm and don't overstay the closing time.",
+              "status": "verified"
+            },
+            {
+              "title": "Guide",
+              "body": "Arrange a local guide who knows the area and the language.",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "M5D2",
+            "M5D3"
+          ]
+        },
+        "practical_info": {
+          "items": [
+            {
+              "title": "Airports",
+              "body": "Shillong 120 km, Guwahati 208 km",
+              "status": "verified"
+            },
+            {
+              "title": "Visas",
+              "body": "Apply for an e-Tourist visa at least 4 days before arrival; your passport needs at least six months' validity.",
+              "status": "verified"
+            },
+            {
+              "title": "Payments",
+              "body": "Visitors can pay by QR code with NPCI's UPI One World wallet after a passport-and-visa KYC check. Carry some cash for small purchases.",
+              "status": "verified"
+            },
+            {
+              "title": "Emergency",
+              "body": "Dial 112 for police, fire or ambulance.",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "M5D3",
+            "M5XV",
+            "M5XU",
+            "M5XE"
+          ]
+        },
+        "who_its_for": {
+          "items": [
+            {
+              "title": "Adventure seekers",
+              "body": "Kayaking, cliff-jumping, zip-lining and snorkelling on the Umngot."
+            },
+            {
+              "title": "Campers",
+              "body": "Riverside camps at Shnongpdeng and Darang."
+            }
+          ],
+          "facts": [
+            "M5D4",
+            "M1D5"
+          ]
+        },
+        "faqs": {
+          "items": [
+            {
+              "title": "How do I get to Dawki?",
+              "body": "By shared taxi or cab from Shillong (about 80 km) or Jowai (about 55 km)."
+            },
+            {
+              "title": "What are the visiting hours?",
+              "body": "6 am to 6 pm."
+            },
+            {
+              "title": "When is the best time?",
+              "body": "October to May."
+            }
+          ],
+          "facts": [
+            "M5D1",
+            "M5D2"
           ]
         }
       }
@@ -1072,6 +1472,90 @@
           "text": "Come in July for Behdienkhlam, the traditional festival of the Jaintia Hills.",
           "facts": [
             "M1J6"
+          ]
+        },
+        "where_to_stay": {
+          "text": "Jowai has many lodges and guesthouses; the main hotels are on the town's entry road near Thadlaskein Lake.",
+          "facts": [
+            "M5J1"
+          ]
+        },
+        "who_its_for": {
+          "items": [
+            {
+              "title": "Culture seekers",
+              "body": "The Pnar heartland and the Behdienkhlam festival in July."
+            },
+            {
+              "title": "History lovers",
+              "body": "Syntu Ksiar's Kiang Nongbah memorial and the Nartiang monoliths."
+            }
+          ],
+          "facts": [
+            "M1J1",
+            "M1J6",
+            "M5J2"
+          ]
+        },
+        "food": {
+          "items": [
+            {
+              "body": "Browse Iaw Musiang, one of the district's oldest markets."
+            }
+          ],
+          "facts": [
+            "M1J5"
+          ]
+        },
+        "practical_info": {
+          "items": [
+            {
+              "title": "Getting there",
+              "body": "Shared Tata Sumos from Shillong, 64 km; no railway.",
+              "status": "verified"
+            },
+            {
+              "title": "Visas",
+              "body": "Apply for an e-Tourist visa at least 4 days before arrival; your passport needs at least six months' validity.",
+              "status": "verified"
+            },
+            {
+              "title": "Payments",
+              "body": "Visitors can pay by QR code with NPCI's UPI One World wallet after a passport-and-visa KYC check. Carry some cash for small purchases.",
+              "status": "verified"
+            },
+            {
+              "title": "Emergency",
+              "body": "Dial 112 for police, fire or ambulance.",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "M1J2",
+            "M5XV",
+            "M5XU",
+            "M5XE"
+          ]
+        },
+        "faqs": {
+          "items": [
+            {
+              "title": "How far is Jowai from Shillong?",
+              "body": "64 km on NH 44; shared Tata Sumos are the main transport."
+            },
+            {
+              "title": "When is Behdienkhlam?",
+              "body": "In July."
+            },
+            {
+              "title": "Where should I stay?",
+              "body": "Lodges and hotels near Thadlaskein Lake on the entry road."
+            }
+          ],
+          "facts": [
+            "M1J2",
+            "M1J6",
+            "M5J1"
           ]
         }
       }
@@ -1317,6 +1801,127 @@
           "facts": [
             "M1M2"
           ]
+        },
+        "how_to_reach": {
+          "text": "Mawsynram is 61 km from Shillong through the East Khasi Hills. The nearest airport is Shillong (Umroi), about 86 km away; Guwahati airport is about 162 km and Guwahati station, the nearest railhead, about 151 km.",
+          "facts": [
+            "M5M1"
+          ]
+        },
+        "local_transport": {
+          "text": "Shared taxis or private cars are the usual way from Shillong; there are no buses on MTDC's guided day trips, which run by car.",
+          "facts": [
+            "M5M1"
+          ]
+        },
+        "where_to_stay": {
+          "text": "Stay in local homestays and community lodges for an immersive stay among the caves and ravines.",
+          "facts": [
+            "M5M2"
+          ]
+        },
+        "things_to_do": {
+          "items": [
+            {
+              "body": "Descend into Krem Puri, the longest sandstone cave."
+            },
+            {
+              "body": "See the marine fossils of the Mawlyngbna area and Umkhakoi lake."
+            },
+            {
+              "body": "Do the crevice walk among root-draped rocks to natural pools."
+            }
+          ],
+          "facts": [
+            "M5M4"
+          ]
+        },
+        "safety_health": {
+          "items": [
+            {
+              "title": "Caving and hikes",
+              "body": "Go with local guides and proper equipment.",
+              "status": "verified"
+            },
+            {
+              "title": "Monsoon",
+              "body": "Expect extreme rain; October–November and winter give clearer trails.",
+              "status": "seasonal"
+            }
+          ],
+          "facts": [
+            "M5M3",
+            "M5M5"
+          ]
+        },
+        "who_its_for": {
+          "items": [
+            {
+              "title": "Cavers",
+              "body": "Krem Puri, the longest sandstone cave."
+            },
+            {
+              "title": "Rain chasers",
+              "body": "Reportedly the wettest place on Earth."
+            }
+          ],
+          "facts": [
+            "M5M4",
+            "M1M1"
+          ]
+        },
+        "practical_info": {
+          "items": [
+            {
+              "title": "Guides",
+              "body": "Caving and fossil hikes need local guides.",
+              "status": "verified"
+            },
+            {
+              "title": "Visas",
+              "body": "Apply for an e-Tourist visa at least 4 days before arrival; your passport needs at least six months' validity.",
+              "status": "verified"
+            },
+            {
+              "title": "Payments",
+              "body": "Visitors can pay by QR code with NPCI's UPI One World wallet after a passport-and-visa KYC check. Carry some cash for small purchases.",
+              "status": "verified"
+            },
+            {
+              "title": "Emergency",
+              "body": "Dial 112 for police, fire or ambulance.",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "M5M3",
+            "M5XV",
+            "M5XU",
+            "M5XE"
+          ]
+        },
+        "faqs": {
+          "items": [
+            {
+              "title": "Is Mawsynram the wettest place on Earth?",
+              "body": "It is reported to be, though places in Colombia dispute the claim; on 17 June 2022 it got 1,003.2 mm of rain in 24 hours."
+            },
+            {
+              "title": "How far is it from Shillong?",
+              "body": "About 61 km by road."
+            },
+            {
+              "title": "When is the best time to hike?",
+              "body": "October–November and winter, when trails are clearer."
+            }
+          ],
+          "facts": [
+            "M1M1",
+            "M1M4",
+            "M1M3",
+            "M5M1",
+            "M5M5"
+          ]
         }
       }
     },
@@ -1543,6 +2148,98 @@
           "text": "Tura is 220 km from Guwahati. From Shillong, 323 km away, travel by bus or the shuttle helicopter service.",
           "facts": [
             "M1U2"
+          ]
+        },
+        "things_to_do": {
+          "items": [
+            {
+              "body": "Trek Tura Peak for the views."
+            },
+            {
+              "body": "Hike in Nokrek National Park."
+            },
+            {
+              "body": "Visit Pelga Falls and Siju Caves."
+            },
+            {
+              "body": "Look for handwoven textiles and bamboo crafts."
+            }
+          ],
+          "facts": [
+            "M5T2",
+            "M5T1"
+          ]
+        },
+        "who_its_for": {
+          "items": [
+            {
+              "title": "Culture seekers",
+              "body": "The Garo heartland and the Wangala festival."
+            },
+            {
+              "title": "Trekkers",
+              "body": "Tura Peak and Nokrek."
+            }
+          ],
+          "facts": [
+            "M5T1",
+            "M5T2"
+          ]
+        },
+        "best_time": {
+          "text": "Tura, at 349 m, has a moderate climate through the year.",
+          "facts": [
+            "M1U4"
+          ]
+        },
+        "practical_info": {
+          "items": [
+            {
+              "title": "Languages",
+              "body": "Garo and English",
+              "status": "verified"
+            },
+            {
+              "title": "Visas",
+              "body": "Apply for an e-Tourist visa at least 4 days before arrival; your passport needs at least six months' validity.",
+              "status": "verified"
+            },
+            {
+              "title": "Payments",
+              "body": "Visitors can pay by QR code with NPCI's UPI One World wallet after a passport-and-visa KYC check. Carry some cash for small purchases.",
+              "status": "verified"
+            },
+            {
+              "title": "Emergency",
+              "body": "Dial 112 for police, fire or ambulance.",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "M1U4",
+            "M5XV",
+            "M5XU",
+            "M5XE"
+          ]
+        },
+        "faqs": {
+          "items": [
+            {
+              "title": "How far is Tura from Shillong?",
+              "body": "323 km by bus or shuttle helicopter; Guwahati is 220 km."
+            },
+            {
+              "title": "What is Wangala?",
+              "body": "The Garo 'Festival of a Hundred Drums'."
+            },
+            {
+              "title": "What wildlife is nearby?",
+              "body": "Nokrek National Park shelters red pandas."
+            }
+          ],
+          "facts": [
+            "M1U2",
+            "M5T1"
           ]
         }
       }

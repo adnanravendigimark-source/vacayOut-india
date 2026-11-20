@@ -83,6 +83,36 @@
       "url": "https://www.incredibleindia.gov.in/en/arunachal-pradesh/roing/mehao-wildlife-sanctuary",
       "title": "Mehao Wildlife Sanctuary — Incredible India",
       "authority": "government"
+    },
+    "ARU_ACC1": {
+      "url": "https://arunachaltourism.com/accommodation-for-itanagar-ziro-daporijo-aalo-pasighat-tourist-circuit/",
+      "title": "Accommodation, Itanagar–Ziro–Daporijo–Aalo–Pasighat circuit — Arunachal Tourism",
+      "authority": "government"
+    },
+    "ARU_ACC2": {
+      "url": "https://arunachaltourism.com/accommodation-for-west-kameng-tawang-circuit/",
+      "title": "Accommodation, West Kameng and Tawang circuit — Arunachal Tourism",
+      "authority": "government"
+    },
+    "EVISA": {
+      "url": "https://indianvisaonline.gov.in/evisa/tvoa.html",
+      "title": "Indian e-Visa — official information (Government of India)",
+      "authority": "government"
+    },
+    "UPI": {
+      "url": "https://www.aap.com.au/aapreleases/cision20240723ae67416/",
+      "title": "NPCI: 'UPI One World' wallet available to inbound international travellers (press release, 24 July 2024)",
+      "authority": "media"
+    },
+    "W_112": {
+      "url": "https://en.wikipedia.org/wiki/112_(emergency_telephone_number)",
+      "title": "112 (emergency telephone number) — Wikipedia",
+      "authority": "reference"
+    },
+    "ARU_HOME": {
+      "url": "https://arunachaltourism.com/homestay-arunachal-pradesh/",
+      "title": "Homestays in Arunachal Pradesh — Arunachal Tourism",
+      "authority": "government"
     }
   },
   "facts": {
@@ -769,6 +799,94 @@
           "quote": "The best time to visit Mehao Wildlife Sanctuary is between October and March"
         }
       ]
+    },
+    "R5XV": {
+      "place": "arunachal-pradesh/itanagar",
+      "topic": "R5XV",
+      "claim": "e-Tourist visa applications should be made at least 4 days before arrival, with a passport valid for at least six months.",
+      "claimType": "rule",
+      "evidence": [
+        {
+          "source": "EVISA",
+          "quote": "For e-Tourist and e-Business visa, Applicants of the eligible countries/territories may apply online minimum 4 days in advance of the date of arrival."
+        },
+        {
+          "source": "EVISA",
+          "quote": "Applicant's passport should have at least six months validity at the time of making application for grant of e-Visa."
+        }
+      ]
+    },
+    "R5XU": {
+      "place": "arunachal-pradesh/itanagar",
+      "topic": "R5XU",
+      "claim": "International visitors can pay by QR code using NPCI's UPI One World wallet after a passport-and-visa KYC check.",
+      "claimType": "rule",
+      "evidence": [
+        {
+          "source": "UPI",
+          "quote": "The UPI One World wallet can be availed through authorized PPI issuers at airports, hotels, designated money exchange locations and other touchpoints, following a full KYC process based on a passport and valid visa."
+        }
+      ]
+    },
+    "R5XE": {
+      "place": "arunachal-pradesh/itanagar",
+      "topic": "R5XE",
+      "claim": "112 is India's single emergency number for police, fire and ambulance.",
+      "claimType": "contact",
+      "evidence": [
+        {
+          "source": "W_112",
+          "quote": "112 is now the pan-country single emergency number for all emergencies."
+        }
+      ]
+    },
+    "R5P1": {
+      "place": "arunachal-pradesh/itanagar",
+      "topic": "R5P1",
+      "claim": "Indian citizens need an eILP (tourist eILP covers up to 14 days); foreign nationals apply for a PAP/RAP.",
+      "claimType": "rule",
+      "evidence": [
+        {
+          "source": "ARU_ACC1",
+          "quote": "eILP is applicable for Indian citizens only. Foreign Nationals may apply for PAP/RAP."
+        },
+        {
+          "source": "ARU_ACC1",
+          "quote": "Tourist eILP is applicable for stay up to 14 days only."
+        }
+      ]
+    },
+    "R5A1": {
+      "place": "arunachal-pradesh/itanagar",
+      "topic": "R5A1",
+      "claim": "Accommodation in Itanagar, Ziro and Pasighat ranges from budget hotels to guest houses, homestays and hotels.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "ARU_ACC1",
+          "quote": "Itanagar These circuits covers Itanagar with a smattering of accommodation options"
+        },
+        {
+          "source": "ARU_ACC1",
+          "quote": "The accommodation range from simple budget hotels, to guest houses, home stays and hotels."
+        },
+        {
+          "source": "ARU_ACC1",
+          "quote": "Pasighat These circuits covers Pasighat"
+        }
+      ]
+    },
+    "R5H1": {
+      "place": "arunachal-pradesh/roing",
+      "topic": "R5H1",
+      "claim": "Arunachal Tourism lists homestays in Lower Dibang Valley.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "ARU_HOME",
+          "quote": "Home Stays In Lower Dibang Valley"
+        }
+      ]
     }
   },
   "places": [
@@ -874,6 +992,80 @@
           "facts": [
             "R1I5"
           ]
+        },
+        "where_to_stay": {
+          "text": "Itanagar has accommodation from simple budget hotels to guest houses, homestays and hotels; Arunachal Tourism lists them by circuit.",
+          "facts": [
+            "R5A1"
+          ]
+        },
+        "practical_info": {
+          "items": [
+            {
+              "title": "Permits",
+              "body": "Indians need an eILP (tourist eILP up to 14 days); foreigners apply for a PAP/RAP.",
+              "status": "verified"
+            },
+            {
+              "title": "Visas",
+              "body": "Apply for an e-Tourist visa at least 4 days before arrival; your passport needs at least six months' validity.",
+              "status": "verified"
+            },
+            {
+              "title": "Payments",
+              "body": "Visitors can pay by QR code with NPCI's UPI One World wallet after a passport-and-visa KYC check. Carry some cash for small purchases.",
+              "status": "verified"
+            },
+            {
+              "title": "Emergency",
+              "body": "Dial 112 for police, fire or ambulance.",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "R5P1",
+            "R5XV",
+            "R5XU",
+            "R5XE"
+          ]
+        },
+        "who_its_for": {
+          "items": [
+            {
+              "title": "History lovers",
+              "body": "Ita Fort and the Jawaharlal Nehru State Museum."
+            },
+            {
+              "title": "Food lovers",
+              "body": "Bamboo shoots, fish, thukpa and momos."
+            }
+          ],
+          "facts": [
+            "R1I1",
+            "R1I2",
+            "R1I5"
+          ]
+        },
+        "faqs": {
+          "items": [
+            {
+              "title": "Do I need a permit?",
+              "body": "Yes — Indians need an eILP; foreigners need a PAP/RAP."
+            },
+            {
+              "title": "How do I get there?",
+              "body": "Fly to Tezpur and drive, or take a train to Naharlagun."
+            },
+            {
+              "title": "When should I visit?",
+              "body": "October to April."
+            }
+          ],
+          "facts": [
+            "R5P1",
+            "R1I4",
+            "R1I3"
+          ]
         }
       }
     },
@@ -964,6 +1156,78 @@
           "text": "October to April, when the weather suits sightseeing, wildlife trips and the river.",
           "facts": [
             "R1P4"
+          ]
+        },
+        "where_to_stay": {
+          "text": "Pasighat has accommodation from simple budget hotels to guest houses, homestays and hotels.",
+          "facts": [
+            "R5A1"
+          ]
+        },
+        "practical_info": {
+          "items": [
+            {
+              "title": "Permits",
+              "body": "Indians need an eILP (tourist eILP up to 14 days); foreigners apply for a PAP/RAP.",
+              "status": "verified"
+            },
+            {
+              "title": "Visas",
+              "body": "Apply for an e-Tourist visa at least 4 days before arrival; your passport needs at least six months' validity.",
+              "status": "verified"
+            },
+            {
+              "title": "Payments",
+              "body": "Visitors can pay by QR code with NPCI's UPI One World wallet after a passport-and-visa KYC check. Carry some cash for small purchases.",
+              "status": "verified"
+            },
+            {
+              "title": "Emergency",
+              "body": "Dial 112 for police, fire or ambulance.",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "R5P1",
+            "R5XV",
+            "R5XU",
+            "R5XE"
+          ]
+        },
+        "who_its_for": {
+          "items": [
+            {
+              "title": "Nature lovers",
+              "body": "Daying Ering sanctuary's Gangetic dolphins and floricans."
+            },
+            {
+              "title": "History lovers",
+              "body": "Kekar Monying and the Adi's resistance to the British."
+            }
+          ],
+          "facts": [
+            "R1P2",
+            "R1P3"
+          ]
+        },
+        "faqs": {
+          "items": [
+            {
+              "title": "When should I visit?",
+              "body": "October to April."
+            },
+            {
+              "title": "Nearest airport?",
+              "body": "Dibrugarh, about 150 km."
+            },
+            {
+              "title": "Do I need a permit?",
+              "body": "Yes — Indians need an eILP; foreigners need a PAP/RAP."
+            }
+          ],
+          "facts": [
+            "R1P4",
+            "R5P1"
           ]
         }
       }
@@ -1058,6 +1322,78 @@
           "text": "October to April, when the weather is pleasant for sightseeing and outdoor trips.",
           "facts": [
             "R1R4"
+          ]
+        },
+        "where_to_stay": {
+          "text": "Arunachal Tourism lists homestays across Lower Dibang Valley, where Roing is the main town.",
+          "facts": [
+            "R5H1"
+          ]
+        },
+        "practical_info": {
+          "items": [
+            {
+              "title": "Permits",
+              "body": "Indians need an eILP (tourist eILP up to 14 days); foreigners apply for a PAP/RAP.",
+              "status": "verified"
+            },
+            {
+              "title": "Visas",
+              "body": "Apply for an e-Tourist visa at least 4 days before arrival; your passport needs at least six months' validity.",
+              "status": "verified"
+            },
+            {
+              "title": "Payments",
+              "body": "Visitors can pay by QR code with NPCI's UPI One World wallet after a passport-and-visa KYC check. Carry some cash for small purchases.",
+              "status": "verified"
+            },
+            {
+              "title": "Emergency",
+              "body": "Dial 112 for police, fire or ambulance.",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "R5P1",
+            "R5XV",
+            "R5XU",
+            "R5XE"
+          ]
+        },
+        "who_its_for": {
+          "items": [
+            {
+              "title": "Road trippers",
+              "body": "Mayudia Pass at nearly 8,000 ft."
+            },
+            {
+              "title": "History lovers",
+              "body": "Bhismaknagar Fort, about 12th century."
+            }
+          ],
+          "facts": [
+            "R1R2",
+            "R1R3"
+          ]
+        },
+        "faqs": {
+          "items": [
+            {
+              "title": "When should I visit?",
+              "body": "October to April."
+            },
+            {
+              "title": "Nearest airport?",
+              "body": "Dibrugarh, about 140–150 km."
+            },
+            {
+              "title": "Do I need a permit?",
+              "body": "Yes — Indians need an eILP; foreigners need a PAP/RAP."
+            }
+          ],
+          "facts": [
+            "R1R4",
+            "R5P1"
           ]
         }
       }

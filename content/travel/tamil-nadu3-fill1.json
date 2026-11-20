@@ -113,6 +113,41 @@
       "url": "https://www.tamilnadutourism.tn.gov.in/destinations/kolli-hills",
       "title": "Kolli Hills — Tamil Nadu Tourism (Government of Tamil Nadu)",
       "authority": "government"
+    },
+    "TT_TIPS": {
+      "url": "https://www.tamilnadutourism.tn.gov.in/plan-your-trip/travel-tips",
+      "title": "Travel tips — Tamil Nadu Tourism (Government of Tamil Nadu)",
+      "authority": "government"
+    },
+    "TT_PT": {
+      "url": "https://www.tamilnadutourism.tn.gov.in/plan-your-trip/public-transport",
+      "title": "Public transport — Tamil Nadu Tourism (Government of Tamil Nadu)",
+      "authority": "government"
+    },
+    "TT_TAXI": {
+      "url": "https://www.tamilnadutourism.tn.gov.in/plan-your-trip/taxi",
+      "title": "Taxi — Tamil Nadu Tourism (Government of Tamil Nadu)",
+      "authority": "government"
+    },
+    "EVISA": {
+      "url": "https://indianvisaonline.gov.in/evisa/tvoa.html",
+      "title": "Indian e-Visa — official information (Government of India)",
+      "authority": "government"
+    },
+    "UPI": {
+      "url": "https://www.aap.com.au/aapreleases/cision20240723ae67416/",
+      "title": "NPCI: 'UPI One World' wallet available to inbound international travellers (press release, 24 July 2024)",
+      "authority": "media"
+    },
+    "W_112": {
+      "url": "https://en.wikipedia.org/wiki/112_(emergency_telephone_number)",
+      "title": "112 (emergency telephone number) — Wikipedia",
+      "authority": "reference"
+    },
+    "TT_CBE2": {
+      "url": "https://www.tamilnadutourism.tn.gov.in/destinations/coimbatore",
+      "title": "Coimbatore — Tamil Nadu Tourism (Government of Tamil Nadu)",
+      "authority": "government"
     }
   },
   "facts": {
@@ -1295,6 +1330,234 @@
           "quote": "Trichy Airport, about 133 km away Salem Junction, about 88 km away June - October"
         }
       ]
+    },
+    "T5CW": {
+      "place": "tamil-nadu/coimbatore",
+      "topic": "T5CW",
+      "claim": "Drink only bottled or boiled water, and don't accept food or drinks from strangers.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "TT_TIPS",
+          "quote": "It is better to drink only bottled/boiled water."
+        },
+        {
+          "source": "TT_TIPS",
+          "quote": "Don’t accept take/accept food and drinks from strangers."
+        }
+      ]
+    },
+    "T5CS": {
+      "place": "tamil-nadu/coimbatore",
+      "topic": "T5CS",
+      "claim": "Don't accept lifts from strangers; avoid isolated places and going out alone late at night.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "TT_TIPS",
+          "quote": "Don’t accept lift from strangers. Avoid isolated places and going out alone late at night."
+        }
+      ]
+    },
+    "T5CD": {
+      "place": "tamil-nadu/coimbatore",
+      "topic": "T5CD",
+      "claim": "Religious places may require covering your head or going barefoot; check visiting hours and closed days first.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "TT_TIPS",
+          "quote": "Dress codes for select religious places can include covering your head, being barefoot, among others."
+        },
+        {
+          "source": "TT_TIPS",
+          "quote": "Ascertain visiting hours and closed days before visiting museums, monuments, palaces, etc."
+        }
+      ]
+    },
+    "T5CG": {
+      "place": "tamil-nadu/coimbatore",
+      "topic": "T5CG",
+      "claim": "Government-authorised guides can be hired at most places — ask to see their photo ID; government emporia have fixed prices.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "TT_TIPS",
+          "quote": "Government trained and authorized guides speaking English and other foreign languages can be hired at most places."
+        },
+        {
+          "source": "TT_TIPS",
+          "quote": "Do ask the guide to show his photo-identity proof."
+        },
+        {
+          "source": "TT_TIPS",
+          "quote": "Prices are fixed and quality certified in government handicraft shops/emporia."
+        }
+      ]
+    },
+    "T5CT": {
+      "place": "tamil-nadu/coimbatore",
+      "topic": "T5CT",
+      "claim": "SETC express buses link all important cities and tourist destinations and can be booked in advance; taxis are available throughout Tamil Nadu.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "TT_PT",
+          "quote": "links all important cities, tourist destinations, religious places and commercial hubs"
+        },
+        {
+          "source": "TT_PT",
+          "quote": "The SETC allows advance booking"
+        },
+        {
+          "source": "TT_TAXI",
+          "quote": "Like in other metros, taxis are available throughout Tamil Nadu."
+        }
+      ]
+    },
+    "T5CV": {
+      "place": "tamil-nadu/coimbatore",
+      "topic": "T5CV",
+      "claim": "e-Tourist visa applications should be made at least 4 days before arrival, with a passport valid for at least six months.",
+      "claimType": "rule",
+      "evidence": [
+        {
+          "source": "EVISA",
+          "quote": "For e-Tourist and e-Business visa, Applicants of the eligible countries/territories may apply online minimum 4 days in advance of the date of arrival."
+        },
+        {
+          "source": "EVISA",
+          "quote": "Applicant's passport should have at least six months validity at the time of making application for grant of e-Visa."
+        }
+      ]
+    },
+    "T5CU": {
+      "place": "tamil-nadu/coimbatore",
+      "topic": "T5CU",
+      "claim": "International visitors can pay by QR code using NPCI's UPI One World wallet after a passport-and-visa KYC check.",
+      "claimType": "rule",
+      "evidence": [
+        {
+          "source": "UPI",
+          "quote": "The UPI One World wallet can be availed through authorized PPI issuers at airports, hotels, designated money exchange locations and other touchpoints, following a full KYC process based on a passport and valid visa."
+        }
+      ]
+    },
+    "T5CE": {
+      "place": "tamil-nadu/coimbatore",
+      "topic": "T5CE",
+      "claim": "112 is India's single emergency number for police, fire and ambulance.",
+      "claimType": "contact",
+      "evidence": [
+        {
+          "source": "W_112",
+          "quote": "112 is now the pan-country single emergency number for all emergencies."
+        }
+      ]
+    },
+    "T5CB1": {
+      "place": "tamil-nadu/coimbatore",
+      "topic": "T5CB1",
+      "claim": "Coimbatore has four bus terminuses — Gandhipuram, Singanallur, Ukkadam and Saibaba Colony; TTDC's Hotel Tamilnadu is in Gopalapuram.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "TT_CBE2",
+          "quote": "Gandhipuram Central Bus Terminus, Singanallur Bus Terminus, Ukkadam Bus Terminus and Saibaba Colony Bus Terminus."
+        },
+        {
+          "source": "TT_CBE2",
+          "quote": "Hotel Tamilnadu - Coimbatore DDTCP Office, Doctor Nanjappa Road, Anupperpalayam, Gopalapuram"
+        }
+      ]
+    },
+    "T5VL1": {
+      "place": "tamil-nadu/valparai",
+      "topic": "T5VL1",
+      "claim": "Valparai New Bus Station is about 1 km away.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "TT_VAL",
+          "quote": "Valparai New Bus Station, about 1 km away"
+        }
+      ]
+    },
+    "T5CN1": {
+      "place": "tamil-nadu/coonoor",
+      "topic": "T5CN1",
+      "claim": "Buses use Coonoor Bus Stand; take a toy train ride.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "TT_COO",
+          "quote": "Coonoor Bus Stand Coimbatore Airport, about 71 km away"
+        },
+        {
+          "source": "TT_COO",
+          "quote": "Take a ride in the Toy Train"
+        }
+      ]
+    },
+    "T5YC1": {
+      "place": "tamil-nadu/yercaud",
+      "topic": "T5YC1",
+      "claim": "TTDC's Hotel Tamilnadu Yercaud is near the lake.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "TT_YER",
+          "quote": "Hotel Tamilnadu - Yercaud Near Lake"
+        }
+      ]
+    },
+    "T5YC2": {
+      "place": "tamil-nadu/yercaud",
+      "topic": "T5YC2",
+      "claim": "Regular buses run between Salem and Yercaud.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "TT_YER",
+          "quote": "Regular bus services are available between Yercaud and Salem"
+        }
+      ]
+    },
+    "T5VK1": {
+      "place": "tamil-nadu/velankanni",
+      "topic": "T5VK1",
+      "claim": "Buses run to Velankanni Bus Stand from Trichy, Thanjavur, Chennai, Madurai and Puducherry.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "TT_VEL",
+          "quote": "Bus services are available from Tiruchirappalli, Thanjavur, Chennai, Madurai, and Pondicherry to Velankanni Bus Stand on a regular basis."
+        }
+      ]
+    },
+    "T5TQ1": {
+      "place": "tamil-nadu/tharangambadi",
+      "topic": "T5TQ1",
+      "claim": "TTDC's nearest Hotel Tamilnadu is at Thirukkadaiyur.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "TT_TRQ",
+          "quote": "Hotel Tamilnadu - Thirukkadaiyur Thirukkadaiyur"
+        }
+      ]
+    },
+    "T5TQ2": {
+      "place": "tamil-nadu/tharangambadi",
+      "topic": "T5TQ2",
+      "claim": "State-run or private buses reach the village from Chennai and Nagapattinam.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "TT_TRQ",
+          "quote": "You can take a state-run or private bus to reach the village."
+        }
+      ]
     }
   },
   "places": [
@@ -1354,6 +1617,123 @@
         "best_time": {
           "text": "November to March, when the weather is mild.",
           "facts": [
+            "T3C3"
+          ]
+        },
+        "where_to_stay": {
+          "text": "The state-run TTDC Hotel Tamilnadu Coimbatore is on Doctor Nanjappa Road in Gopalapuram.",
+          "facts": [
+            "T5CB1"
+          ]
+        },
+        "local_transport": {
+          "text": "Coimbatore has four bus terminuses — Gandhipuram Central, Singanallur, Ukkadam and Saibaba Colony. SETC express buses link it with all major towns and can be booked ahead, and taxis are widely available.",
+          "facts": [
+            "T5CB1",
+            "T5CT"
+          ]
+        },
+        "safety_health": {
+          "items": [
+            {
+              "title": "Water",
+              "body": "Drink only bottled or boiled water; don't accept food or drinks from strangers.",
+              "status": "verified"
+            },
+            {
+              "title": "Personal safety",
+              "body": "Don't accept lifts from strangers; avoid isolated places and going out alone late at night.",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "T5CW",
+            "T5CS"
+          ]
+        },
+        "practical_info": {
+          "items": [
+            {
+              "title": "Temples",
+              "body": "Some religious places require covering your head or going barefoot; check visiting hours and closed days first.",
+              "status": "verified"
+            },
+            {
+              "title": "Guides and shopping",
+              "body": "Hire government-authorised guides (ask for photo ID); government emporia have fixed prices.",
+              "status": "verified"
+            },
+            {
+              "title": "Visas",
+              "body": "Apply for an e-Tourist visa at least 4 days before arrival; your passport needs at least six months' validity.",
+              "status": "verified"
+            },
+            {
+              "title": "Payments",
+              "body": "Visitors can pay by QR code with NPCI's UPI One World wallet after a passport-and-visa KYC check. Carry some cash for small purchases.",
+              "status": "verified"
+            },
+            {
+              "title": "Emergency",
+              "body": "Dial 112 for police, fire or ambulance.",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "T5CD",
+            "T5CG",
+            "T5CV",
+            "T5CU",
+            "T5CE"
+          ]
+        },
+        "things_to_do": {
+          "items": [
+            {
+              "body": "Use Coimbatore as a base for Valparai, Coonoor and Ooty."
+            },
+            {
+              "body": "Visit in the mild months, November to March."
+            }
+          ],
+          "facts": [
+            "T3C4",
+            "T3C3"
+          ]
+        },
+        "who_its_for": {
+          "items": [
+            {
+              "title": "Hill travellers",
+              "body": "A stopover for the Nilgiris, Valparai and the Anamalai hills."
+            },
+            {
+              "title": "Business travellers",
+              "body": "Tamil Nadu's second city and textile hub."
+            }
+          ],
+          "facts": [
+            "T3C4",
+            "T3C1"
+          ]
+        },
+        "faqs": {
+          "items": [
+            {
+              "title": "Why visit Coimbatore?",
+              "body": "It is a convenient stopover for the Nilgiris, Valparai and the Western Ghats."
+            },
+            {
+              "title": "How far is the airport?",
+              "body": "About 15 km from the city centre, at Peelamedu."
+            },
+            {
+              "title": "When is the best time?",
+              "body": "November to March, when the weather is mild."
+            }
+          ],
+          "facts": [
+            "T3C4",
             "T3C3"
           ]
         }
@@ -1425,6 +1805,131 @@
         "best_time": {
           "text": "Tamil Nadu Tourism recommends December to January.",
           "facts": [
+            "T3V4"
+          ]
+        },
+        "local_transport": {
+          "text": "Valparai New Bus Station is about 1 km from the centre. Taxis are the best way to reach the dams, falls and sanctuary, and the hairpin-bend road needs care.",
+          "facts": [
+            "T5VL1"
+          ]
+        },
+        "safety_health": {
+          "items": [
+            {
+              "title": "Water",
+              "body": "Drink only bottled or boiled water; don't accept food or drinks from strangers.",
+              "status": "verified"
+            },
+            {
+              "title": "Personal safety",
+              "body": "Don't accept lifts from strangers; avoid isolated places and going out alone late at night.",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "T5CW",
+            "T5CS"
+          ]
+        },
+        "practical_info": {
+          "items": [
+            {
+              "title": "Temples",
+              "body": "Some religious places require covering your head or going barefoot; check visiting hours and closed days first.",
+              "status": "verified"
+            },
+            {
+              "title": "Guides and shopping",
+              "body": "Hire government-authorised guides (ask for photo ID); government emporia have fixed prices.",
+              "status": "verified"
+            },
+            {
+              "title": "Visas",
+              "body": "Apply for an e-Tourist visa at least 4 days before arrival; your passport needs at least six months' validity.",
+              "status": "verified"
+            },
+            {
+              "title": "Payments",
+              "body": "Visitors can pay by QR code with NPCI's UPI One World wallet after a passport-and-visa KYC check. Carry some cash for small purchases.",
+              "status": "verified"
+            },
+            {
+              "title": "Emergency",
+              "body": "Dial 112 for police, fire or ambulance.",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "T5CD",
+            "T5CG",
+            "T5CV",
+            "T5CU",
+            "T5CE"
+          ]
+        },
+        "key_facts": {
+          "items": [
+            {
+              "title": "Altitude",
+              "body": "About 3,500 ft",
+              "status": "verified"
+            },
+            {
+              "title": "Nearest airport",
+              "body": "Coimbatore, about 119 km",
+              "status": "verified"
+            },
+            {
+              "title": "Rail",
+              "body": "Pollachi, about 64 km",
+              "status": "verified"
+            },
+            {
+              "title": "Best time",
+              "body": "December–January",
+              "status": "seasonal"
+            }
+          ],
+          "facts": [
+            "T3V1",
+            "T3V4"
+          ]
+        },
+        "who_its_for": {
+          "items": [
+            {
+              "title": "Wildlife watchers",
+              "body": "Lion-tailed macaques, Nilgiri tahr and hornbills."
+            },
+            {
+              "title": "Slow travellers",
+              "body": "Quiet tea estates and waterfalls."
+            }
+          ],
+          "facts": [
+            "T3V2",
+            "T3V1"
+          ]
+        },
+        "faqs": {
+          "items": [
+            {
+              "title": "How high is Valparai?",
+              "body": "About 3,500 ft, on the Anamalai range."
+            },
+            {
+              "title": "What wildlife can I see?",
+              "body": "Lion-tailed macaques in the Indira Gandhi Wildlife Sanctuary, Nilgiri tahr and great, Malabar pied and grey hornbills."
+            },
+            {
+              "title": "How do I get there?",
+              "body": "Pollachi station is about 64 km and Coimbatore airport about 119 km away."
+            }
+          ],
+          "facts": [
+            "T3V1",
+            "T3V2",
             "T3V4"
           ]
         }
@@ -1562,6 +2067,131 @@
           "facts": [
             "T3O4"
           ]
+        },
+        "local_transport": {
+          "text": "Buses use Coonoor Bus Stand, and the Nilgiri toy train links Coonoor with Ooty. Taxis are the easiest way to Lamb's Rock, Dolphin's Nose and Catherine Falls.",
+          "facts": [
+            "T5CN1"
+          ]
+        },
+        "safety_health": {
+          "items": [
+            {
+              "title": "Water",
+              "body": "Drink only bottled or boiled water; don't accept food or drinks from strangers.",
+              "status": "verified"
+            },
+            {
+              "title": "Personal safety",
+              "body": "Don't accept lifts from strangers; avoid isolated places and going out alone late at night.",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "T5CW",
+            "T5CS"
+          ]
+        },
+        "practical_info": {
+          "items": [
+            {
+              "title": "Temples",
+              "body": "Some religious places require covering your head or going barefoot; check visiting hours and closed days first.",
+              "status": "verified"
+            },
+            {
+              "title": "Guides and shopping",
+              "body": "Hire government-authorised guides (ask for photo ID); government emporia have fixed prices.",
+              "status": "verified"
+            },
+            {
+              "title": "Visas",
+              "body": "Apply for an e-Tourist visa at least 4 days before arrival; your passport needs at least six months' validity.",
+              "status": "verified"
+            },
+            {
+              "title": "Payments",
+              "body": "Visitors can pay by QR code with NPCI's UPI One World wallet after a passport-and-visa KYC check. Carry some cash for small purchases.",
+              "status": "verified"
+            },
+            {
+              "title": "Emergency",
+              "body": "Dial 112 for police, fire or ambulance.",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "T5CD",
+            "T5CG",
+            "T5CV",
+            "T5CU",
+            "T5CE"
+          ]
+        },
+        "key_facts": {
+          "items": [
+            {
+              "title": "Nearest airport",
+              "body": "Coimbatore, about 71 km",
+              "status": "verified"
+            },
+            {
+              "title": "Best time",
+              "body": "October–March",
+              "status": "seasonal"
+            },
+            {
+              "title": "Train",
+              "body": "Nilgiri toy train to Ooty",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "T3O4",
+            "T3O3"
+          ]
+        },
+        "who_its_for": {
+          "items": [
+            {
+              "title": "Birdwatchers",
+              "body": "Sim's Park's bulbuls, babblers and robins."
+            },
+            {
+              "title": "Walkers",
+              "body": "Tea plantations, Lamb's Rock and the waterfalls."
+            },
+            {
+              "title": "Train lovers",
+              "body": "The ride from Coonoor to Ooty."
+            }
+          ],
+          "facts": [
+            "T3O2",
+            "T3O1",
+            "T3O3"
+          ]
+        },
+        "faqs": {
+          "items": [
+            {
+              "title": "Coonoor or Ooty?",
+              "body": "Coonoor is the Nilgiris' second-largest hill station; the toy train links the two."
+            },
+            {
+              "title": "When should I go?",
+              "body": "October to March."
+            },
+            {
+              "title": "What is there to see?",
+              "body": "Sim's Park, Lamb's Rock, Dolphin's Nose, Catherine and Law's falls and Droog Fort."
+            }
+          ],
+          "facts": [
+            "T3O1",
+            "T3O3",
+            "T3O4"
+          ]
         }
       },
       "images": [
@@ -1658,6 +2288,127 @@
           ],
           "facts": [
             "T3T3"
+          ]
+        },
+        "local_transport": {
+          "text": "Trichy Junction is in the heart of the city and the airport just 5 km away. SETC express buses link Trichy with all major towns, and taxis are the easy way to Srirangam and the Rockfort.",
+          "facts": [
+            "T3T4",
+            "T5CT"
+          ]
+        },
+        "safety_health": {
+          "items": [
+            {
+              "title": "Water",
+              "body": "Drink only bottled or boiled water; don't accept food or drinks from strangers.",
+              "status": "verified"
+            },
+            {
+              "title": "Personal safety",
+              "body": "Don't accept lifts from strangers; avoid isolated places and going out alone late at night.",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "T5CW",
+            "T5CS"
+          ]
+        },
+        "practical_info": {
+          "items": [
+            {
+              "title": "Temples",
+              "body": "Some religious places require covering your head or going barefoot; check visiting hours and closed days first.",
+              "status": "verified"
+            },
+            {
+              "title": "Guides and shopping",
+              "body": "Hire government-authorised guides (ask for photo ID); government emporia have fixed prices.",
+              "status": "verified"
+            },
+            {
+              "title": "Visas",
+              "body": "Apply for an e-Tourist visa at least 4 days before arrival; your passport needs at least six months' validity.",
+              "status": "verified"
+            },
+            {
+              "title": "Payments",
+              "body": "Visitors can pay by QR code with NPCI's UPI One World wallet after a passport-and-visa KYC check. Carry some cash for small purchases.",
+              "status": "verified"
+            },
+            {
+              "title": "Emergency",
+              "body": "Dial 112 for police, fire or ambulance.",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "T5CD",
+            "T5CG",
+            "T5CV",
+            "T5CU",
+            "T5CE"
+          ]
+        },
+        "key_facts": {
+          "items": [
+            {
+              "title": "Airport",
+              "body": "International, 5 km from the city",
+              "status": "verified"
+            },
+            {
+              "title": "Rail",
+              "body": "Trichy Junction",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "T3T4"
+          ]
+        },
+        "who_its_for": {
+          "items": [
+            {
+              "title": "Pilgrims",
+              "body": "Srirangam, Jambukeswarar and Samayapuram."
+            },
+            {
+              "title": "History lovers",
+              "body": "The Rockfort and Chola heritage."
+            },
+            {
+              "title": "Shoppers",
+              "body": "Bronzes and Thanjavur paintings at Poompuhar."
+            }
+          ],
+          "facts": [
+            "T3S1",
+            "T3T2",
+            "T3T1",
+            "T3T3"
+          ]
+        },
+        "faqs": {
+          "items": [
+            {
+              "title": "How far is Srirangam?",
+              "body": "About 12 km north of the city."
+            },
+            {
+              "title": "How many steps to the Rockfort?",
+              "body": "About 437."
+            },
+            {
+              "title": "Is there an airport?",
+              "body": "Yes — an international airport 5 km from the city."
+            }
+          ],
+          "facts": [
+            "T3S3",
+            "T3R1",
+            "T3T4"
           ]
         }
       },
@@ -1874,6 +2625,138 @@
           "facts": [
             "T3E3"
           ]
+        },
+        "local_transport": {
+          "text": "Buses from Tiruchirappalli, Thanjavur, Chennai, Madurai and Puducherry run to Velankanni Bus Stand; Nagapattinam station is 12 km away.",
+          "facts": [
+            "T5VK1",
+            "T3E3"
+          ]
+        },
+        "safety_health": {
+          "items": [
+            {
+              "title": "Water",
+              "body": "Drink only bottled or boiled water; don't accept food or drinks from strangers.",
+              "status": "verified"
+            },
+            {
+              "title": "Personal safety",
+              "body": "Don't accept lifts from strangers; avoid isolated places and going out alone late at night.",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "T5CW",
+            "T5CS"
+          ]
+        },
+        "practical_info": {
+          "items": [
+            {
+              "title": "Temples",
+              "body": "Some religious places require covering your head or going barefoot; check visiting hours and closed days first.",
+              "status": "verified"
+            },
+            {
+              "title": "Guides and shopping",
+              "body": "Hire government-authorised guides (ask for photo ID); government emporia have fixed prices.",
+              "status": "verified"
+            },
+            {
+              "title": "Visas",
+              "body": "Apply for an e-Tourist visa at least 4 days before arrival; your passport needs at least six months' validity.",
+              "status": "verified"
+            },
+            {
+              "title": "Payments",
+              "body": "Visitors can pay by QR code with NPCI's UPI One World wallet after a passport-and-visa KYC check. Carry some cash for small purchases.",
+              "status": "verified"
+            },
+            {
+              "title": "Emergency",
+              "body": "Dial 112 for police, fire or ambulance.",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "T5CD",
+            "T5CG",
+            "T5CV",
+            "T5CU",
+            "T5CE"
+          ]
+        },
+        "key_facts": {
+          "items": [
+            {
+              "title": "From Nagapattinam",
+              "body": "12 km",
+              "status": "verified"
+            },
+            {
+              "title": "Nearest airport",
+              "body": "Tiruchirappalli, about 153 km",
+              "status": "verified"
+            },
+            {
+              "title": "Best time",
+              "body": "December–February",
+              "status": "seasonal"
+            }
+          ],
+          "facts": [
+            "T3E1",
+            "T3E3"
+          ]
+        },
+        "who_its_for": {
+          "items": [
+            {
+              "title": "Pilgrims",
+              "body": "The Basilica of Our Lady of Good Health."
+            },
+            {
+              "title": "Beach lovers",
+              "body": "A beach town as well as a shrine."
+            }
+          ],
+          "facts": [
+            "T3E1"
+          ]
+        },
+        "things_to_do": {
+          "items": [
+            {
+              "body": "Visit the Basilica of Our Lady of Good Health."
+            },
+            {
+              "body": "Walk on Velankanni beach."
+            }
+          ],
+          "facts": [
+            "T3E1"
+          ]
+        },
+        "faqs": {
+          "items": [
+            {
+              "title": "What is Velankanni known for?",
+              "body": "The Basilica of Our Lady of Good Health, one of India's most famous Christian pilgrimages."
+            },
+            {
+              "title": "How do I get there?",
+              "body": "Nagapattinam station is 12 km away; Trichy airport about 153 km."
+            },
+            {
+              "title": "When should I go?",
+              "body": "December to February, though pilgrims come all year."
+            }
+          ],
+          "facts": [
+            "T3E1",
+            "T3E3"
+          ]
         }
       },
       "images": [
@@ -1939,6 +2822,133 @@
         "best_time": {
           "text": "October to February.",
           "facts": [
+            "T3Q4"
+          ]
+        },
+        "local_transport": {
+          "text": "State-run and private buses run to Tharangambadi from Chennai, Nagapattinam and nearby towns; Nagapattinam is about 33 km away.",
+          "facts": [
+            "T5TQ2",
+            "T3Q4"
+          ]
+        },
+        "safety_health": {
+          "items": [
+            {
+              "title": "Water",
+              "body": "Drink only bottled or boiled water; don't accept food or drinks from strangers.",
+              "status": "verified"
+            },
+            {
+              "title": "Personal safety",
+              "body": "Don't accept lifts from strangers; avoid isolated places and going out alone late at night.",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "T5CW",
+            "T5CS"
+          ]
+        },
+        "practical_info": {
+          "items": [
+            {
+              "title": "Temples",
+              "body": "Some religious places require covering your head or going barefoot; check visiting hours and closed days first.",
+              "status": "verified"
+            },
+            {
+              "title": "Guides and shopping",
+              "body": "Hire government-authorised guides (ask for photo ID); government emporia have fixed prices.",
+              "status": "verified"
+            },
+            {
+              "title": "Visas",
+              "body": "Apply for an e-Tourist visa at least 4 days before arrival; your passport needs at least six months' validity.",
+              "status": "verified"
+            },
+            {
+              "title": "Payments",
+              "body": "Visitors can pay by QR code with NPCI's UPI One World wallet after a passport-and-visa KYC check. Carry some cash for small purchases.",
+              "status": "verified"
+            },
+            {
+              "title": "Emergency",
+              "body": "Dial 112 for police, fire or ambulance.",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "T5CD",
+            "T5CG",
+            "T5CV",
+            "T5CU",
+            "T5CE"
+          ]
+        },
+        "where_to_stay": {
+          "text": "The nearest state-run stay is TTDC's Hotel Tamilnadu at Thirukkadaiyur.",
+          "facts": [
+            "T5TQ1"
+          ]
+        },
+        "key_facts": {
+          "items": [
+            {
+              "title": "From Nagapattinam",
+              "body": "About 33 km",
+              "status": "verified"
+            },
+            {
+              "title": "Best time",
+              "body": "October–February",
+              "status": "seasonal"
+            }
+          ],
+          "facts": [
+            "T3Q4"
+          ]
+        },
+        "who_its_for": {
+          "items": [
+            {
+              "title": "History lovers",
+              "body": "Fort Dansborg and the Danish town."
+            },
+            {
+              "title": "Quiet-beach seekers",
+              "body": "Unhurried beaches and seafood."
+            }
+          ],
+          "facts": [
+            "T3Q1",
+            "T3Q3"
+          ]
+        },
+        "food": {
+          "items": [
+            {
+              "body": "Fresh local seafood."
+            }
+          ],
+          "facts": [
+            "T3Q3"
+          ]
+        },
+        "faqs": {
+          "items": [
+            {
+              "title": "Why visit Tharangambadi?",
+              "body": "For Fort Dansborg, the old Danish settlement, the New Jerusalem Church and quiet beaches."
+            },
+            {
+              "title": "How do I get there?",
+              "body": "By bus from Chennai or Nagapattinam; Nagapattinam station is about 33 km away."
+            }
+          ],
+          "facts": [
+            "T3Q1",
+            "T3Q2",
             "T3Q4"
           ]
         }
@@ -2448,6 +3458,137 @@
         "best_time": {
           "text": "October to June; the summer festival is in May.",
           "facts": [
+            "T3Y4",
+            "T3Y2"
+          ]
+        },
+        "local_transport": {
+          "text": "Regular buses run between Salem, 32 km away, and Yercaud; Salem connects to Chennai, Madurai, Trichy, Coimbatore and Bengaluru. Taxis are available for the viewpoints.",
+          "facts": [
+            "T5YC2"
+          ]
+        },
+        "safety_health": {
+          "items": [
+            {
+              "title": "Water",
+              "body": "Drink only bottled or boiled water; don't accept food or drinks from strangers.",
+              "status": "verified"
+            },
+            {
+              "title": "Personal safety",
+              "body": "Don't accept lifts from strangers; avoid isolated places and going out alone late at night.",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "T5CW",
+            "T5CS"
+          ]
+        },
+        "practical_info": {
+          "items": [
+            {
+              "title": "Temples",
+              "body": "Some religious places require covering your head or going barefoot; check visiting hours and closed days first.",
+              "status": "verified"
+            },
+            {
+              "title": "Guides and shopping",
+              "body": "Hire government-authorised guides (ask for photo ID); government emporia have fixed prices.",
+              "status": "verified"
+            },
+            {
+              "title": "Visas",
+              "body": "Apply for an e-Tourist visa at least 4 days before arrival; your passport needs at least six months' validity.",
+              "status": "verified"
+            },
+            {
+              "title": "Payments",
+              "body": "Visitors can pay by QR code with NPCI's UPI One World wallet after a passport-and-visa KYC check. Carry some cash for small purchases.",
+              "status": "verified"
+            },
+            {
+              "title": "Emergency",
+              "body": "Dial 112 for police, fire or ambulance.",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "T5CD",
+            "T5CG",
+            "T5CV",
+            "T5CU",
+            "T5CE"
+          ]
+        },
+        "where_to_stay": {
+          "text": "The state-run TTDC Hotel Tamilnadu Yercaud is near the lake.",
+          "facts": [
+            "T5YC1"
+          ]
+        },
+        "key_facts": {
+          "items": [
+            {
+              "title": "From Salem",
+              "body": "28 km drive",
+              "status": "verified"
+            },
+            {
+              "title": "Rail",
+              "body": "Salem Junction, about 35 km",
+              "status": "verified"
+            },
+            {
+              "title": "Season",
+              "body": "October–June",
+              "status": "seasonal"
+            },
+            {
+              "title": "Festival",
+              "body": "Summer festival in May",
+              "status": "seasonal"
+            }
+          ],
+          "facts": [
+            "T3Y1",
+            "T3Y4",
+            "T3Y2"
+          ]
+        },
+        "who_its_for": {
+          "items": [
+            {
+              "title": "Families",
+              "body": "Boating on the lake and Anna Park."
+            },
+            {
+              "title": "Nature lovers",
+              "body": "Orchids, viewpoints and Kiliyur Falls."
+            }
+          ],
+          "facts": [
+            "T3Y2"
+          ]
+        },
+        "faqs": {
+          "items": [
+            {
+              "title": "How do I get to Yercaud?",
+              "body": "It is a 28 km drive from Salem; Salem Junction is about 35 km away."
+            },
+            {
+              "title": "When is the summer festival?",
+              "body": "In May."
+            },
+            {
+              "title": "What should I see?",
+              "body": "The lake, the Orchidarium, Lady's Seat, Pagoda Point and Kiliyur Falls."
+            }
+          ],
+          "facts": [
+            "T3Y1",
             "T3Y4",
             "T3Y2"
           ]

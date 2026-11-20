@@ -283,6 +283,36 @@
       "url": "https://www.incredibleindia.gov.in/en/nagaland/kohima/food-guide-traditional-naga-dishes",
       "title": "Traditional Naga dishes — Incredible India",
       "authority": "government"
+    },
+    "NAG_HOME": {
+      "url": "https://tourism.nagaland.gov.in/homestay/",
+      "title": "List of paying guest and homestay in Nagaland — Tourism Nagaland (Government of Nagaland)",
+      "authority": "government"
+    },
+    "NILP_FEES": {
+      "url": "https://ilp.nagaland.gov.in/fees",
+      "title": "ILP fees — Nagaland Inner Line Permit, Government of Nagaland",
+      "authority": "government"
+    },
+    "NILP_FAQ": {
+      "url": "https://ilp.nagaland.gov.in/faq",
+      "title": "ILP FAQ — Nagaland Inner Line Permit, Government of Nagaland",
+      "authority": "government"
+    },
+    "W_KHN": {
+      "url": "https://en.wikipedia.org/wiki/Khonoma",
+      "title": "Khonoma — Wikipedia",
+      "authority": "reference"
+    },
+    "W_DZV": {
+      "url": "https://en.wikipedia.org/wiki/Dz%C3%BCko_Valley",
+      "title": "Dzüko Valley — Wikipedia",
+      "authority": "reference"
+    },
+    "II_NL2": {
+      "url": "https://www.incredibleindia.gov.in/en/nagaland",
+      "title": "Nagaland — Incredible India",
+      "authority": "government"
     }
   },
   "facts": {
@@ -2165,6 +2195,142 @@
           "quote": "Galho, akin to Khichdi in other regions, is a flavorful, soupy concoction"
         }
       ]
+    },
+    "N5H1": {
+      "place": "nagaland/khonoma",
+      "topic": "N5H1",
+      "claim": "Nagaland Tourism lists homestays in Khonoma including Meru's Cottage, Savino, Megoki, Alder Cottage, Iralu's and Ecotone.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "NAG_HOME",
+          "quote": "36 Meru’s Cotttage Khonoma Village"
+        },
+        {
+          "source": "NAG_HOME",
+          "quote": "37 Savino Homestay Khonoma Village"
+        },
+        {
+          "source": "NAG_HOME",
+          "quote": "39 Alder cottage Khonoma Village"
+        },
+        {
+          "source": "NAG_HOME",
+          "quote": "43 Ecotone Homestay Khonoma Village"
+        }
+      ]
+    },
+    "N5H2": {
+      "place": "nagaland/kohima",
+      "topic": "N5H2",
+      "claim": "Nagaland Tourism lists many Kohima homestays and paying guests, and a cluster at Kipfuzha in Kigwema village near the Naga Heritage Village.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "NAG_HOME",
+          "quote": "1 Pusa Homestay Near VIP Guest House , Minister Hill Kohima"
+        },
+        {
+          "source": "NAG_HOME",
+          "quote": "21 South view Homestay Kipfuzha ,KigwemaVillage near Naga Heritage Village"
+        },
+        {
+          "source": "NAG_HOME",
+          "quote": "17 Eco stay Hostel TCP Gate Kohima"
+        }
+      ]
+    },
+    "N5H3": {
+      "place": "nagaland/dimapur",
+      "topic": "N5H3",
+      "claim": "Listed stays in Dimapur include Jungjung Homestay at Darogapathar and Hesso Villa at Nepali Basti, plus Weaver's Place at Diezephe.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "NAG_HOME",
+          "quote": "55 Jungjung Homestay H.NO 27 Darogapathar, Dimapur"
+        },
+        {
+          "source": "NAG_HOME",
+          "quote": "57 Hesso villa homestay Nepali bosti Dimapur"
+        },
+        {
+          "source": "NAG_HOME",
+          "quote": "58 Weaver’s Place Diezephe Village"
+        }
+      ]
+    },
+    "N5H4": {
+      "place": "nagaland/mokokchung",
+      "topic": "N5H4",
+      "claim": "Marvel Guest House in Mokokchung is on the official list.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "NAG_HOME",
+          "quote": "60 Marvel Guest House Pentacostal Church Alongmen War, Tongdentsuyong Ward Mokokchung"
+        }
+      ]
+    },
+    "NGT1": {
+      "place": "nagaland",
+      "claim": "Tourists apply online for a Nagaland ILP: ₹200 per person for Indian tourists and ₹500 for foreign tourists, each valid 30 days. Tourists need no guarantor, only a local contact, and an application made in working hours may be approved within about four hours.",
+      "claimType": "price",
+      "evidence": [
+        {
+          "source": "NILP_FAQ",
+          "quote": "Tourist (Domestic): Rs 200 per person valid for 30 days"
+        },
+        {
+          "source": "NILP_FAQ",
+          "quote": "Tourist(Foreigner): Rs 500 per person valid for 30 days"
+        },
+        {
+          "source": "NILP_FAQ",
+          "quote": "The ILP applicant falling in the category of tourists do not require a Guarantor."
+        },
+        {
+          "source": "NILP_FAQ",
+          "quote": "if applied during working hours it may get approved within 4 (four) hours"
+        }
+      ],
+      "topic": "NGT1"
+    },
+    "NGT2": {
+      "place": "nagaland/khonoma",
+      "claim": "Khonoma is about 20 km west of Kohima.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "W_KHN",
+          "quote": "Khonoma is a Western Angami Naga village located about 20 km west from Kohima"
+        }
+      ],
+      "topic": "NGT2"
+    },
+    "NGT3": {
+      "place": "nagaland/dzukou-valley",
+      "claim": "Dzükou is usually approached through Viswema and Jakhama, both within about 25 km of Kohima.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "W_DZV",
+          "quote": "The valley is most commonly approached from the Nagaland side through the Angami villages of Viswema and Jakhama (Zakhama), both within about 25 km (16 mi) of Kohima."
+        }
+      ],
+      "topic": "NGT3"
+    },
+    "NGT4": {
+      "place": "nagaland/kisama-heritage-village",
+      "claim": "Kisama Heritage Village is 12 km from Kohima.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_NL2",
+          "quote": "Just 12 kms from Kohima, you can discover the Kisama Heritage Village"
+        }
+      ],
+      "topic": "NGT4"
     }
   },
   "places": [
@@ -2575,6 +2741,33 @@
             "N2K2",
             "DZ1"
           ]
+        },
+        "where_to_stay": {
+          "text": "Nagaland Tourism's list has many homestays and paying-guest houses in Kohima — around Minister Hill, Lerie and Bayavu Hill — plus a backpacker hostel at TCP Gate. During the Hornbill Festival, the cluster of homestays at Kipfuzha in Kigwema, near the Naga Heritage Village, is handy.",
+          "facts": [
+            "N5H2"
+          ]
+        },
+        "faqs": {
+          "items": [
+            {
+              "title": "How high is Kohima?",
+              "body": "About 1,261 m."
+            },
+            {
+              "title": "Why is Kohima historic?",
+              "body": "It saw one of the fiercest Second World War battles on Indian soil."
+            },
+            {
+              "title": "What should I eat?",
+              "body": "Pork with bamboo shoot, and axone."
+            }
+          ],
+          "facts": [
+            "KH1",
+            "KH2",
+            "KH4"
+          ]
         }
       },
       "wikidataId": "Q234056",
@@ -2930,6 +3123,34 @@
             "KHO2",
             "KHO1"
           ]
+        },
+        "where_to_stay": {
+          "text": "Stay in the village: Nagaland Tourism's official list includes Khonoma homestays such as Meru's Cottage, Savino Homestay, Megoki, Alder Cottage, Iralu's, Hill View, Pier's Vintage and Ecotone.",
+          "facts": [
+            "N5H1"
+          ]
+        },
+        "faqs": {
+          "items": [
+            {
+              "title": "Why is Khonoma called a green village?",
+              "body": "It is known as India's 'First Green Village', and set aside about 20 sq km as a nature and tragopan sanctuary in 1998."
+            },
+            {
+              "title": "Can I stay overnight?",
+              "body": "Yes — the village has registered homestays."
+            },
+            {
+              "title": "What is it known for besides conservation?",
+              "body": "Terraced farming and alder trees in shifting cultivation."
+            }
+          ],
+          "facts": [
+            "KHO1",
+            "KHO2",
+            "N5H1",
+            "KHO3"
+          ]
         }
       },
       "wikidataId": "Q17347092",
@@ -3205,6 +3426,30 @@
             "DIM3",
             "N2D1"
           ]
+        },
+        "where_to_stay": {
+          "text": "Registered stays include Jungjung Homestay at Darogapathar and Hesso Villa at Nepali Basti; for a craft-village stay, Weaver's Place is at Diezephe.",
+          "facts": [
+            "N5H3"
+          ]
+        },
+        "faqs": {
+          "items": [
+            {
+              "title": "Is Dimapur worth a stop?",
+              "body": "It's the gateway, with the Kachari ruins and Triple Falls; Kohima is 75 km on."
+            },
+            {
+              "title": "When should I visit?",
+              "body": "October to March, at about 15–25°C."
+            }
+          ],
+          "facts": [
+            "DIM1",
+            "DIM3",
+            "N2D3",
+            "DIM2"
+          ]
         }
       },
       "wikidataId": "Q867111"
@@ -3479,6 +3724,33 @@
           "facts": [
             "MOK1",
             "MOK2"
+          ]
+        },
+        "where_to_stay": {
+          "text": "Marvel Guest House in Tongdentsuyong Ward is on Nagaland Tourism's official list of stays.",
+          "facts": [
+            "N5H4"
+          ]
+        },
+        "faqs": {
+          "items": [
+            {
+              "title": "Who lives in Mokokchung?",
+              "body": "It is the homeland of the Ao Naga."
+            },
+            {
+              "title": "When is Moatsu?",
+              "body": "The Ao Moatsu festival is held in early May."
+            },
+            {
+              "title": "When should I visit?",
+              "body": "October to April."
+            }
+          ],
+          "facts": [
+            "MOK1",
+            "MOK2",
+            "MOK3"
           ]
         }
       },
@@ -5465,137 +5737,6 @@
   ],
   "itineraries": [
     {
-      "place": "nagaland",
-      "slug": "nagaland-5-days-kohima-khonoma-dzukou",
-      "title": "Nagaland in 5 days: Kohima, Khonoma and Dzükou Valley",
-      "durationDays": 5,
-      "tripTypes": [
-        "heritage",
-        "adventure",
-        "nature"
-      ],
-      "summary": "Kohima's war history and museums, a day in Khonoma, the Dzükou trek, and Kisama — the Hornbill Festival venue.",
-      "seoTitle": "Nagaland 5-Day Itinerary: Kohima, Khonoma & Dzükou",
-      "seoDescription": "Five days in Nagaland: Kohima War Cemetery, the State Museum, Kisama Heritage Village, Khonoma green village and an overnight Dzükou Valley trek.",
-      "facts": [
-        "NL_AIR",
-        "KWC1",
-        "KWC3",
-        "NSM1",
-        "NSM2",
-        "KIS1",
-        "KIS3",
-        "KHO1",
-        "KHO2",
-        "DZ2",
-        "DZ3",
-        "NL_ILP"
-      ],
-      "sources": [],
-      "plan": {
-        "overview": "Fly into Dimapur and base yourself in Kohima; time it for 1–10 December to catch the Hornbill Festival.",
-        "start": "Dimapur Airport",
-        "end": "Dimapur Airport",
-        "transport": "Car with driver; the Dzükou trek is on foot with a local guide.",
-        "season": "October to March; Hornbill Festival 1–10 December.",
-        "days": [
-          {
-            "title": "Day 1: Dimapur to Kohima",
-            "summary": "Drive up to Kohima; evening at the War Cemetery (closes 4 pm — go early if you can).",
-            "stops": [
-              {
-                "name": "Kohima War Cemetery",
-                "time": "Afternoon",
-                "placeSlug": "nagaland/kohima-war-cemetery",
-                "duration": "1 hour"
-              }
-            ],
-            "overnight": "Kohima"
-          },
-          {
-            "title": "Day 2: Kohima",
-            "summary": "The State Museum (10 am–4 pm, closed Sundays), then Kisama Heritage Village.",
-            "stops": [
-              {
-                "name": "Nagaland State Museum",
-                "time": "10:00 am",
-                "placeSlug": "nagaland/nagaland-state-museum",
-                "duration": "1.5 hours"
-              },
-              {
-                "name": "Kisama Heritage Village",
-                "time": "Afternoon",
-                "placeSlug": "nagaland/kisama-heritage-village",
-                "duration": "2 hours"
-              }
-            ],
-            "overnight": "Kohima"
-          },
-          {
-            "title": "Day 3: Khonoma",
-            "summary": "A day in Khonoma: the village, terraced fields and the tragopan sanctuary.",
-            "stops": [
-              {
-                "name": "Khonoma",
-                "time": "Morning",
-                "placeSlug": "nagaland/khonoma",
-                "duration": "5 hours"
-              }
-            ],
-            "overnight": "Kohima"
-          },
-          {
-            "title": "Day 4: Dzükou Valley",
-            "summary": "Trek about 9 km (5–6 hours) from Viswema with a local guide; overnight in the valley.",
-            "stops": [
-              {
-                "name": "Dzükou Valley",
-                "time": "Early morning",
-                "placeSlug": "nagaland/dzukou-valley",
-                "duration": "6 hours"
-              }
-            ],
-            "overnight": "Dzükou Valley"
-          },
-          {
-            "title": "Day 5: Down and out",
-            "summary": "Trek back down and drive to Dimapur.",
-            "stops": [
-              {
-                "name": "Dzükou Valley",
-                "time": "Morning",
-                "placeSlug": "nagaland/dzukou-valley",
-                "duration": "4 hours"
-              }
-            ],
-            "overnight": "Dimapur"
-          }
-        ],
-        "budget": {
-          "assumptions": "VacayOut lists only fees it could check with an official source; hotels, transport and meals are not estimated. Check current prices before you book.",
-          "lines": []
-        },
-        "booking": [
-          {
-            "item": "Inner Line Permit",
-            "detail": "Apply for the Nagaland ILP before you travel; foreign nationals also need a Protected Area Permit."
-          },
-          {
-            "item": "Guide",
-            "detail": "Arrange a local guide for the Dzükou trek."
-          }
-        ],
-        "alternatives": [
-          "Add Mokokchung and the Ao villages (145 km from Kohima).",
-          "Add Dimapur's Kachari ruins on the way out."
-        ],
-        "tips": [
-          "Carry back all plastic from Dzükou — there is a deposit.",
-          "Ask before photographing people."
-        ]
-      }
-    },
-    {
       "place": "manipur",
       "slug": "manipur-3-days-imphal-loktak",
       "title": "Manipur in 3 days: Imphal, Loktak and Keibul Lamjao",
@@ -5907,6 +6048,229 @@
         ],
         "tips": [
           "Dress modestly at the temple."
+        ]
+      }
+    },
+    {
+      "place": "nagaland",
+      "slug": "nagaland-5-days-kohima-khonoma-dzukou",
+      "title": "Nagaland in 5 days: Kohima, Khonoma and Dzükou Valley",
+      "durationDays": 5,
+      "tripTypes": [
+        "heritage",
+        "adventure",
+        "nature"
+      ],
+      "summary": "Kohima's war cemetery and state museum, the Hornbill Festival village at Kisama, a homestay night in green Khonoma, and the Dzükou Valley trek.",
+      "seoTitle": "Nagaland 5-Day Itinerary: Kohima, Khonoma & Dzükou",
+      "seoDescription": "5 days in Nagaland from Dimapur: Kohima War Cemetery, State Museum, Kisama, a Khonoma homestay and the Dzükou trek — with ILP fees, distances and opening hours.",
+      "facts": [
+        "NGT1",
+        "NL_AIR",
+        "N2D3",
+        "KWC1",
+        "KWC3",
+        "NSM1",
+        "NSM2",
+        "NGT4",
+        "KIS1",
+        "KIS3",
+        "KH4",
+        "N2K1",
+        "N5H2",
+        "NGT2",
+        "KHO1",
+        "KHO2",
+        "KHO3",
+        "N5H1",
+        "NGT3",
+        "DZ1",
+        "DZ2",
+        "DZ3",
+        "KAC1",
+        "KAC2",
+        "NL1",
+        "DIM2"
+      ],
+      "sources": [],
+      "plan": {
+        "overview": "Fly into Dimapur and drive 75 km up to Kohima, Nagaland's capital. Spend two days among its war memorials, museum and markets, sleep a night in Khonoma, India's first green village, and trek into the Dzükou Valley. Everyone who isn't an indigenous inhabitant needs a Nagaland ILP; tourists apply online. For the Hornbill Festival, come between 1 and 10 December.",
+        "style": "Culture · War history · Trekking",
+        "start": "Dimapur Airport",
+        "end": "Dimapur Airport",
+        "season": "October to March; Hornbill Festival 1–10 December; the Dzükou lily blooms in early July.",
+        "difficulty": "Moderate — one long day hike",
+        "transport": "Car with driver; the Dzükou trek on foot with a local guide.",
+        "days": [
+          {
+            "title": "Dimapur to Kohima",
+            "summary": "Drive up to Kohima; visit the War Cemetery on Garrison Hill before it closes at 4 pm.",
+            "stops": [
+              {
+                "time": "Afternoon",
+                "name": "Kohima War Cemetery",
+                "placeSlug": "kohima-war-cemetery",
+                "duration": "1 hour",
+                "note": "Open 9 am–4 pm."
+              }
+            ],
+            "travel": "Dimapur to Kohima is 75 km.",
+            "distanceKm": 75,
+            "transport": "Car",
+            "overnight": "Kohima",
+            "meals": "Try pork with bamboo shoot and axone.",
+            "logistics": "Nagaland Tourism lists many homestays and paying guests in Kohima.",
+            "permits": "Carry your Nagaland ILP."
+          },
+          {
+            "title": "Kohima: museum and Kisama",
+            "summary": "The State Museum, then the Naga Heritage Village at Kisama and Kohima's markets.",
+            "stops": [
+              {
+                "time": "10:00 am",
+                "name": "Nagaland State Museum",
+                "placeSlug": "nagaland-state-museum",
+                "duration": "1.5 hours",
+                "note": "10 am–4 pm; closed Sundays and public holidays."
+              },
+              {
+                "time": "Afternoon",
+                "name": "Kisama Heritage Village",
+                "placeSlug": "kisama-heritage-village",
+                "duration": "2 hours",
+                "note": "12 km from Kohima; open 9 am–5 pm."
+              },
+              {
+                "time": "Evening",
+                "name": "New Market and Tribal Market",
+                "placeSlug": "kohima",
+                "duration": "1 hour"
+              }
+            ],
+            "overnight": "Kohima",
+            "transport": "Car",
+            "distance": "Kisama is 12 km from Kohima"
+          },
+          {
+            "title": "Khonoma",
+            "summary": "India's first green village: terraces, alder farming and the tragopan sanctuary; stay the night.",
+            "stops": [
+              {
+                "time": "Morning",
+                "name": "Khonoma village",
+                "placeSlug": "khonoma",
+                "duration": "Full day",
+                "note": "About 20 km west of Kohima."
+              }
+            ],
+            "travel": "Kohima to Khonoma is about 20 km.",
+            "distanceKm": 20,
+            "transport": "Car",
+            "overnight": "Khonoma homestay",
+            "logistics": "Nagaland Tourism lists Khonoma homestays including Meru's Cottage, Alder Cottage and Ecotone."
+          },
+          {
+            "title": "Dzükou Valley trek",
+            "summary": "Drive to the Viswema or Jakhama trailhead and hike in with a local guide.",
+            "stops": [
+              {
+                "time": "Early morning",
+                "name": "Dzükou Valley",
+                "placeSlug": "dzukou-valley",
+                "duration": "5–6 hours on the trail",
+                "note": "About 9 km; plastic-free with a deposit system."
+              }
+            ],
+            "travel": "Viswema and Jakhama are within about 25 km of Kohima; the trek is about 9 km.",
+            "transport": "Car, then on foot",
+            "altitude": 2452,
+            "overnight": "Kohima",
+            "access": "Take a local guide."
+          },
+          {
+            "title": "Back to Dimapur",
+            "summary": "Drive down and see the Kachari Rajbari ruins before your flight.",
+            "stops": [
+              {
+                "time": "Afternoon",
+                "name": "Kachari Rajbari ruins",
+                "placeSlug": "kachari-rajbari-ruins",
+                "duration": "45 minutes",
+                "note": "Open 9 am–4 pm."
+              }
+            ],
+            "travel": "Kohima to Dimapur is 75 km.",
+            "distanceKm": 75,
+            "transport": "Car",
+            "overnight": "Dimapur or onward"
+          }
+        ],
+        "budget": {
+          "assumptions": "Only the ILP fee is from an official source. Car hire, guides, homestays and meals aren't checked.",
+          "lines": [
+            {
+              "label": "Nagaland ILP, Indian tourist",
+              "amount": "₹200 per person (30 days)",
+              "basis": "Nagaland ILP portal"
+            },
+            {
+              "label": "Nagaland ILP, foreign tourist",
+              "amount": "₹500 per person (30 days)",
+              "basis": "Nagaland ILP portal"
+            },
+            {
+              "label": "Car, guide and stays",
+              "amount": "Not estimated",
+              "basis": "Not confirmed from an official source"
+            }
+          ]
+        },
+        "booking": [
+          {
+            "item": "ILP",
+            "detail": "Apply online; in working hours approval may take about four hours. Tourists need a local contact, not a guarantor."
+          },
+          {
+            "item": "Hornbill Festival",
+            "detail": "1–10 December at Kisama; book stays early."
+          },
+          {
+            "item": "Dzükou guide",
+            "detail": "Arrange a local guide in Viswema or Jakhama."
+          }
+        ],
+        "alternatives": [
+          "Come in early July for the Dzükou lily.",
+          "Swap Dzükou for Mokokchung, about 145 km from Kohima."
+        ],
+        "tips": [
+          "The War Cemetery closes at 4 pm.",
+          "Ask before photographing people at Kisama.",
+          "Bring your plastic back out of Dzükou to reclaim your deposit."
+        ],
+        "prep": [
+          {
+            "title": "Permits",
+            "body": "A Nagaland ILP for every non-indigenous visitor, Indian or foreign: ₹200 (Indian tourist) or ₹500 (foreign tourist), valid 30 days."
+          },
+          {
+            "title": "Season",
+            "body": "October to March is mild; December brings the Hornbill Festival."
+          }
+        ],
+        "faqs": [
+          {
+            "q": "Do I need a permit for Nagaland?",
+            "a": "Yes — a Nagaland ILP. Tourists apply online: ₹200 for Indians, ₹500 for foreigners, valid 30 days."
+          },
+          {
+            "q": "How far is Kohima from Dimapur?",
+            "a": "75 km."
+          },
+          {
+            "q": "How long is the Dzükou trek?",
+            "a": "About 9 km, five to six hours, from Viswema or Jakhama with a local guide."
+          }
         ]
       }
     }

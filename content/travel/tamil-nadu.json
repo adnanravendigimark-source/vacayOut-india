@@ -223,6 +223,71 @@
       "url": "https://www.tamilnadutourism.tn.gov.in/destinations/rameswaram",
       "title": "Rameswaram — Tamil Nadu Tourism (Government of Tamil Nadu)",
       "authority": "government"
+    },
+    "TT_TIPS": {
+      "url": "https://www.tamilnadutourism.tn.gov.in/plan-your-trip/travel-tips",
+      "title": "Travel tips — Tamil Nadu Tourism (Government of Tamil Nadu)",
+      "authority": "government"
+    },
+    "TT_PT": {
+      "url": "https://www.tamilnadutourism.tn.gov.in/plan-your-trip/public-transport",
+      "title": "Public transport — Tamil Nadu Tourism (Government of Tamil Nadu)",
+      "authority": "government"
+    },
+    "TT_TAXI": {
+      "url": "https://www.tamilnadutourism.tn.gov.in/plan-your-trip/taxi",
+      "title": "Taxi — Tamil Nadu Tourism (Government of Tamil Nadu)",
+      "authority": "government"
+    },
+    "EVISA": {
+      "url": "https://indianvisaonline.gov.in/evisa/tvoa.html",
+      "title": "Indian e-Visa — official information (Government of India)",
+      "authority": "government"
+    },
+    "UPI": {
+      "url": "https://www.aap.com.au/aapreleases/cision20240723ae67416/",
+      "title": "NPCI: 'UPI One World' wallet available to inbound international travellers (press release, 24 July 2024)",
+      "authority": "media"
+    },
+    "W_112": {
+      "url": "https://en.wikipedia.org/wiki/112_(emergency_telephone_number)",
+      "title": "112 (emergency telephone number) — Wikipedia",
+      "authority": "reference"
+    },
+    "TT_MDU2": {
+      "url": "https://www.tamilnadutourism.tn.gov.in/destinations/madurai",
+      "title": "Madurai — Tamil Nadu Tourism (Government of Tamil Nadu)",
+      "authority": "government"
+    },
+    "TT_TNJ2": {
+      "url": "https://www.tamilnadutourism.tn.gov.in/destinations/thanjavur",
+      "title": "Thanjavur — Tamil Nadu Tourism (Government of Tamil Nadu)",
+      "authority": "government"
+    },
+    "TT_OOT2": {
+      "url": "https://www.tamilnadutourism.tn.gov.in/destinations/ooty",
+      "title": "Ooty — Tamil Nadu Tourism (Government of Tamil Nadu)",
+      "authority": "government"
+    },
+    "TT_KOD2": {
+      "url": "https://www.tamilnadutourism.tn.gov.in/destinations/kodaikanal",
+      "title": "Kodaikanal — Tamil Nadu Tourism (Government of Tamil Nadu)",
+      "authority": "government"
+    },
+    "TT_KKM4": {
+      "url": "https://www.tamilnadutourism.tn.gov.in/destinations/kanyakumari",
+      "title": "Kanniyakumari — Tamil Nadu Tourism (Government of Tamil Nadu)",
+      "authority": "government"
+    },
+    "TT_RMM4": {
+      "url": "https://www.tamilnadutourism.tn.gov.in/destinations/rameswaram",
+      "title": "Rameswaram — Tamil Nadu Tourism (Government of Tamil Nadu)",
+      "authority": "government"
+    },
+    "TT_KPM4": {
+      "url": "https://www.tamilnadutourism.tn.gov.in/destinations/kancheepuram",
+      "title": "Kancheepuram — Tamil Nadu Tourism (Government of Tamil Nadu)",
+      "authority": "government"
     }
   },
   "facts": {
@@ -1890,6 +1955,418 @@
           "quote": "Adventure sports like scuba diving are among the amusements offered in the region."
         }
       ]
+    },
+    "T5AW": {
+      "place": "tamil-nadu/madurai",
+      "topic": "T5AW",
+      "claim": "Drink only bottled or boiled water, and don't accept food or drinks from strangers.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "TT_TIPS",
+          "quote": "It is better to drink only bottled/boiled water."
+        },
+        {
+          "source": "TT_TIPS",
+          "quote": "Don’t accept take/accept food and drinks from strangers."
+        }
+      ]
+    },
+    "T5AS": {
+      "place": "tamil-nadu/madurai",
+      "topic": "T5AS",
+      "claim": "Don't accept lifts from strangers; avoid isolated places and going out alone late at night.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "TT_TIPS",
+          "quote": "Don’t accept lift from strangers. Avoid isolated places and going out alone late at night."
+        }
+      ]
+    },
+    "T5AD": {
+      "place": "tamil-nadu/madurai",
+      "topic": "T5AD",
+      "claim": "Religious places may require covering your head or going barefoot; check visiting hours and closed days first.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "TT_TIPS",
+          "quote": "Dress codes for select religious places can include covering your head, being barefoot, among others."
+        },
+        {
+          "source": "TT_TIPS",
+          "quote": "Ascertain visiting hours and closed days before visiting museums, monuments, palaces, etc."
+        }
+      ]
+    },
+    "T5AG": {
+      "place": "tamil-nadu/madurai",
+      "topic": "T5AG",
+      "claim": "Government-authorised guides can be hired at most places — ask to see their photo ID; government emporia have fixed prices.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "TT_TIPS",
+          "quote": "Government trained and authorized guides speaking English and other foreign languages can be hired at most places."
+        },
+        {
+          "source": "TT_TIPS",
+          "quote": "Do ask the guide to show his photo-identity proof."
+        },
+        {
+          "source": "TT_TIPS",
+          "quote": "Prices are fixed and quality certified in government handicraft shops/emporia."
+        }
+      ]
+    },
+    "T5AT": {
+      "place": "tamil-nadu/madurai",
+      "topic": "T5AT",
+      "claim": "SETC express buses link all important cities and tourist destinations and can be booked in advance; taxis are available throughout Tamil Nadu.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "TT_PT",
+          "quote": "links all important cities, tourist destinations, religious places and commercial hubs"
+        },
+        {
+          "source": "TT_PT",
+          "quote": "The SETC allows advance booking"
+        },
+        {
+          "source": "TT_TAXI",
+          "quote": "Like in other metros, taxis are available throughout Tamil Nadu."
+        }
+      ]
+    },
+    "T5AV": {
+      "place": "tamil-nadu/madurai",
+      "topic": "T5AV",
+      "claim": "e-Tourist visa applications should be made at least 4 days before arrival, with a passport valid for at least six months.",
+      "claimType": "rule",
+      "evidence": [
+        {
+          "source": "EVISA",
+          "quote": "For e-Tourist and e-Business visa, Applicants of the eligible countries/territories may apply online minimum 4 days in advance of the date of arrival."
+        },
+        {
+          "source": "EVISA",
+          "quote": "Applicant's passport should have at least six months validity at the time of making application for grant of e-Visa."
+        }
+      ]
+    },
+    "T5AU": {
+      "place": "tamil-nadu/madurai",
+      "topic": "T5AU",
+      "claim": "International visitors can pay by QR code using NPCI's UPI One World wallet after a passport-and-visa KYC check.",
+      "claimType": "rule",
+      "evidence": [
+        {
+          "source": "UPI",
+          "quote": "The UPI One World wallet can be availed through authorized PPI issuers at airports, hotels, designated money exchange locations and other touchpoints, following a full KYC process based on a passport and valid visa."
+        }
+      ]
+    },
+    "T5AE": {
+      "place": "tamil-nadu/madurai",
+      "topic": "T5AE",
+      "claim": "112 is India's single emergency number for police, fire and ambulance.",
+      "claimType": "contact",
+      "evidence": [
+        {
+          "source": "W_112",
+          "quote": "112 is now the pan-country single emergency number for all emergencies."
+        }
+      ]
+    },
+    "T5MD1": {
+      "place": "tamil-nadu/madurai",
+      "topic": "T5MD1",
+      "claim": "Madurai has three bus terminals — Mattuthavani (MGR), Arappalayam for intercity and Periyar for city buses; the airport is at Avaniyapuram.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "TT_MDU2",
+          "quote": "Madurai has three bus terminals - M.G.R. Bus Stand (Mattuthavani), Arappalayam (for inter city buses) and Periyar Bus Stand (for intra city buses)."
+        },
+        {
+          "source": "TT_MDU2",
+          "quote": "Madurai Domestic Airport, Avaniyapuram."
+        }
+      ]
+    },
+    "T5MD2": {
+      "place": "tamil-nadu/madurai",
+      "topic": "T5MD2",
+      "claim": "TTDC runs Hotel Tamilnadu Madurai-1 near Periyar Bus Stand, Madurai-2 on Alagar Kovil Main Road and Hotel Tamil Nadu Pandiyan on Race Course Road.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "TT_MDU2",
+          "quote": "Hotel Tamilnadu - Madurai-1 3, W Veli St, Near Periyar Bus Stand"
+        },
+        {
+          "source": "TT_MDU2",
+          "quote": "Hotel Tamilnadu - Madurai-2 Madurai Pudur, 296, Alagar Kovil Main Road"
+        },
+        {
+          "source": "TT_MDU2",
+          "quote": "Hotel Tamil Nadu - Pandiyan Race Course Road"
+        }
+      ]
+    },
+    "T5MD3": {
+      "place": "tamil-nadu/madurai",
+      "topic": "T5MD3",
+      "claim": "The airport has direct flights to Colombo, Dubai and Singapore; Madurai Junction is the main station.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "TT_MDU2",
+          "quote": "The airport has direct connectivity with international destinations like Colombo, Dubai and Singapore."
+        },
+        {
+          "source": "TT_MDU2",
+          "quote": "Madurai Junction is the major railway station serving the city."
+        }
+      ]
+    },
+    "T5TJ1": {
+      "place": "tamil-nadu/thanjavur",
+      "topic": "T5TJ1",
+      "claim": "Trichy airport is about 61 km away; Thanjavur Junction is in town; December to February avoids summer heat of 35–40°C.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "TT_TNJ2",
+          "quote": "Tiruchirappalli International Airport, about 61 km away."
+        },
+        {
+          "source": "TT_TNJ2",
+          "quote": "Thanjavur Junction Station."
+        },
+        {
+          "source": "TT_TNJ2",
+          "quote": "December to February would be the ideal time"
+        },
+        {
+          "source": "TT_TNJ2",
+          "quote": "the temperature ranges from 35° Celsius to 40° Celsius in the region"
+        }
+      ]
+    },
+    "T5TJ2": {
+      "place": "tamil-nadu/thanjavur",
+      "topic": "T5TJ2",
+      "claim": "TTDC's Hotel Tamilnadu Thanjavur is on Gandhiji Road.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "TT_TNJ2",
+          "quote": "Hotel Tamilnadu - Thanjavur Gandhiji Road, Graham Nagar, Manambu Chavdy"
+        }
+      ]
+    },
+    "T5TJ3": {
+      "place": "tamil-nadu/thanjavur",
+      "topic": "T5TJ3",
+      "claim": "Government and private buses link Thanjavur with Coimbatore, Chennai, Madurai, Trichy, Thiruvarur and Pudukkottai.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "TT_TNJ2",
+          "quote": "Local buses, both Government and Private, ply to Thanjavur from major cities like Coimbatore, Chennai, Madurai, Tiruchirappalli, Thiruvarur and Pudukkottai on a regular basis."
+        }
+      ]
+    },
+    "T5OT1": {
+      "place": "tamil-nadu/ooty",
+      "topic": "T5OT1",
+      "claim": "TTDC runs Hotel Tamilnadu Ooty in Upper Bazar and a youth hostel on Church Hill Road.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "TT_OOT2",
+          "quote": "Hotel Tamilnadu - Ooty I TTDC, Upper Bazar"
+        },
+        {
+          "source": "TT_OOT2",
+          "quote": "Youth Hostel - Ooty 171, Church Hill Road, Pudumund"
+        }
+      ]
+    },
+    "T5OT2": {
+      "place": "tamil-nadu/ooty",
+      "topic": "T5OT2",
+      "claim": "Buses arrive at Udhagamandalam Central Bus Stand; the toy train runs from Mettupalayam via Coonoor.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "TT_OOT2",
+          "quote": "Udhagamandalam Central Bus Stand."
+        },
+        {
+          "source": "TT_OOT2",
+          "quote": "Another way to reach Ooty is to take the Toy Train from Mettupalayam via Coonoor."
+        }
+      ]
+    },
+    "T5KD1": {
+      "place": "tamil-nadu/kodaikanal",
+      "topic": "T5KD1",
+      "claim": "Kodaikanal's bus stand is in town, with frequent buses from Madurai, Batlagundu, Palani, Oddanchatram, Kodai Road and Dindigul; Palani station is 64 km and Kodai Road 80 km.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "TT_KOD2",
+          "quote": "Kodaikanal Bus Stand, within the town itself."
+        },
+        {
+          "source": "TT_KOD2",
+          "quote": "Frequent bus services are available from Madurai Aarappalayam, Batlagundu, Palani, Oddanchatram, Kodai Road, and Dindigul."
+        },
+        {
+          "source": "TT_KOD2",
+          "quote": "Palani Railway Station, 64 km away. Kodai Road Station, 80 km away."
+        }
+      ]
+    },
+    "T5KD2": {
+      "place": "tamil-nadu/kodaikanal",
+      "topic": "T5KD2",
+      "claim": "Madurai airport is about 115 km away; April to June is the best time.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "TT_KOD2",
+          "quote": "Madurai International Airport, about 115 km away."
+        },
+        {
+          "source": "TT_KOD2",
+          "quote": "the best time to visit the hill station is from April to June"
+        }
+      ]
+    },
+    "T5KD3": {
+      "place": "tamil-nadu/kodaikanal",
+      "topic": "T5KD3",
+      "claim": "TTDC's Hotel Tamilnadu Kodaikanal is on Fern Hill Road.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "TT_KOD2",
+          "quote": "Hotel Tamilnadu - Kodaikannal Fern Hill Road"
+        }
+      ]
+    },
+    "T5KK1": {
+      "place": "tamil-nadu/kanyakumari",
+      "topic": "T5KK1",
+      "claim": "Kanyakumari's bus stand is at Puthugramam; Trivandrum airport is 76 km and Nagercoil Junction 17 km; best November to March.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "TT_KKM4",
+          "quote": "Kanyakumari Bus Stand, Puthugramam."
+        },
+        {
+          "source": "TT_KKM4",
+          "quote": "The nearest International airport is Thiruvananthapuram International Airport which is 76 km from Kanyakumari."
+        },
+        {
+          "source": "TT_KKM4",
+          "quote": "Nagercoil Junction Railway Station, 17 km away."
+        },
+        {
+          "source": "TT_KKM4",
+          "quote": "The perfect time to experience Kanyakumari is from November to March"
+        }
+      ]
+    },
+    "T5KK2": {
+      "place": "tamil-nadu/kanyakumari",
+      "topic": "T5KK2",
+      "claim": "TTDC's Hotel Tamilnadu is on Main Road near the sea shore; summers can be very hot.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "TT_KKM4",
+          "quote": "Hotel Tamilnadu - Kanniyakumari Main Road, near Sea shore"
+        },
+        {
+          "source": "TT_KKM4",
+          "quote": "Summers can be really hot"
+        }
+      ]
+    },
+    "T5RM1": {
+      "place": "tamil-nadu/rameswaram",
+      "topic": "T5RM1",
+      "claim": "Madurai airport is about 180 km away; Rameswaram station has trains to Chennai, Coimbatore, Puducherry and Bengaluru; best October to March.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "TT_RMM4",
+          "quote": "Madurai International Airport, about 180 km away."
+        },
+        {
+          "source": "TT_RMM4",
+          "quote": "Rameswaram Railway Station is well connected to Chennai, Coimbatore, Pondicherry and Bengaluru."
+        },
+        {
+          "source": "TT_RMM4",
+          "quote": "The best time to explore Rameswaram is from October to March"
+        }
+      ]
+    },
+    "T5RM2": {
+      "place": "tamil-nadu/rameswaram",
+      "topic": "T5RM2",
+      "claim": "TTDC's Hotel Tamilnadu is on Olaikaddu Road.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "TT_RMM4",
+          "quote": "Hotel Tamilnadu - Rameswaram Olaikaddu Road, Sudukattanpatti"
+        }
+      ]
+    },
+    "T5RM3": {
+      "place": "tamil-nadu/rameswaram",
+      "topic": "T5RM3",
+      "claim": "Buses run to Rameswaram Bus Stand from Chennai, Madurai, Puducherry, Trichy and Coimbatore.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "TT_RMM4",
+          "quote": "Bus services are available to Rameswaram Bus Stand on a regular basis from Chennai, Madurai, Puducherry, Trichy and Coimbatore."
+        }
+      ]
+    },
+    "T5KP1": {
+      "place": "tamil-nadu/kanchipuram",
+      "topic": "T5KP1",
+      "claim": "TTDC's Hotel Tamilnadu is on Kamatchi Amman Sannathi Street.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "TT_KPM4",
+          "quote": "Hotel Tamilnadu - Kancheepuram Kamatchi Amman Sannathi Street"
+        }
+      ]
+    },
+    "T5KP2": {
+      "place": "tamil-nadu/kanchipuram",
+      "topic": "T5KP2",
+      "claim": "Kancheepuram Bus Stand has regular buses to Chennai, Madurai and Coimbatore.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "TT_KPM4",
+          "quote": "Kancheepuram Bus Stand has services to all these major cities on a regular basis."
+        }
+      ]
     }
   },
   "places": [
@@ -2023,6 +2500,60 @@
           "facts": [
             "MDM4",
             "RM2"
+          ]
+        },
+        "local_transport": {
+          "text": "Madurai has three bus terminals: Mattuthavani (MGR) and Arappalayam for intercity buses, and Periyar Bus Stand for buses around the city. State SETC buses link Madurai with all major towns and can be booked ahead, and taxis are easy to find.",
+          "facts": [
+            "T5MD1",
+            "T5AT"
+          ]
+        },
+        "where_to_stay": {
+          "text": "The state-run TTDC has three hotels in Madurai: Hotel Tamilnadu Madurai-1 on West Veli Street near Periyar Bus Stand, close to the temple; Madurai-2 on Alagar Kovil Main Road in Madurai Pudur; and Hotel Tamil Nadu Pandiyan on Race Course Road.",
+          "facts": [
+            "T5MD2"
+          ]
+        },
+        "key_facts": {
+          "items": [
+            {
+              "title": "Airport",
+              "body": "Avaniyapuram — flights to Colombo, Dubai, Singapore",
+              "status": "verified"
+            },
+            {
+              "title": "Main station",
+              "body": "Madurai Junction",
+              "status": "verified"
+            },
+            {
+              "title": "Bus stands",
+              "body": "Mattuthavani, Arappalayam, Periyar",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "T5MD3",
+            "T5MD1"
+          ]
+        },
+        "safety_health": {
+          "items": [
+            {
+              "title": "Water",
+              "body": "Drink only bottled or boiled water; don't accept food or drinks from strangers.",
+              "status": "verified"
+            },
+            {
+              "title": "Personal safety",
+              "body": "Don't accept lifts from strangers; avoid isolated places and going out alone late at night.",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "T5AW",
+            "T5AS"
           ]
         }
       },
@@ -2505,6 +3036,70 @@
             "TNW6",
             "TJ3"
           ]
+        },
+        "key_facts": {
+          "items": [
+            {
+              "title": "Nearest airport",
+              "body": "Tiruchirappalli, about 61 km",
+              "status": "verified"
+            },
+            {
+              "title": "Station",
+              "body": "Thanjavur Junction",
+              "status": "verified"
+            },
+            {
+              "title": "Best time",
+              "body": "December–February",
+              "status": "seasonal"
+            },
+            {
+              "title": "Summer",
+              "body": "35–40°C",
+              "status": "seasonal"
+            }
+          ],
+          "facts": [
+            "T5TJ1"
+          ]
+        },
+        "where_to_stay": {
+          "text": "The state-run TTDC Hotel Tamilnadu Thanjavur is on Gandhiji Road in Graham Nagar.",
+          "facts": [
+            "T5TJ2"
+          ]
+        },
+        "local_transport": {
+          "text": "Government and private buses run regularly from Thanjavur Bus Stand to Coimbatore, Chennai, Madurai, Tiruchirappalli, Thiruvarur and Pudukkottai. SETC express buses link the major towns and can be booked ahead; taxis are widely available.",
+          "facts": [
+            "T5TJ3",
+            "T5AT"
+          ]
+        },
+        "safety_health": {
+          "items": [
+            {
+              "title": "Heat",
+              "body": "Summer temperatures reach 35–40°C; December–February is cooler.",
+              "status": "seasonal"
+            },
+            {
+              "title": "Water",
+              "body": "Drink only bottled or boiled water; don't accept food or drinks from strangers.",
+              "status": "verified"
+            },
+            {
+              "title": "Personal safety",
+              "body": "Don't accept lifts from strangers; avoid isolated places and going out alone late at night.",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "T5TJ1",
+            "T5AW",
+            "T5AS"
+          ]
         }
       },
       "wikidataId": "Q41496",
@@ -2935,6 +3530,115 @@
           ],
           "facts": [
             "T4K1"
+          ]
+        },
+        "where_to_stay": {
+          "text": "The state-run TTDC Hotel Tamilnadu is on Kamatchi Amman Sannathi Street, by the Kamakshi Amman temple. Many visitors also come on a day trip from Chennai, 75 km away.",
+          "facts": [
+            "T5KP1",
+            "T4K2"
+          ]
+        },
+        "local_transport": {
+          "text": "Kancheepuram Bus Stand has regular buses to Chennai, Madurai and Coimbatore. Taxis are the easiest way between the temples.",
+          "facts": [
+            "T5KP2",
+            "T5AT"
+          ]
+        },
+        "safety_health": {
+          "items": [
+            {
+              "title": "Monsoon",
+              "body": "July and August bring heavy rain.",
+              "status": "seasonal"
+            },
+            {
+              "title": "Water",
+              "body": "Drink only bottled or boiled water; don't accept food or drinks from strangers.",
+              "status": "verified"
+            },
+            {
+              "title": "Personal safety",
+              "body": "Don't accept lifts from strangers; avoid isolated places and going out alone late at night.",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "T4K2",
+            "T5AW",
+            "T5AS"
+          ]
+        },
+        "practical_info": {
+          "items": [
+            {
+              "title": "Temples",
+              "body": "Some religious places require covering your head or going barefoot; check visiting hours and closed days first.",
+              "status": "verified"
+            },
+            {
+              "title": "Guides and shopping",
+              "body": "Hire government-authorised guides (ask for photo ID); government emporia have fixed prices.",
+              "status": "verified"
+            },
+            {
+              "title": "Visas",
+              "body": "Apply for an e-Tourist visa at least 4 days before arrival; your passport needs at least six months' validity.",
+              "status": "verified"
+            },
+            {
+              "title": "Payments",
+              "body": "Visitors can pay by QR code with NPCI's UPI One World wallet after a passport-and-visa KYC check. Carry some cash for small purchases.",
+              "status": "verified"
+            },
+            {
+              "title": "Emergency",
+              "body": "Dial 112 for police, fire or ambulance.",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "T5AD",
+            "T5AG",
+            "T5AV",
+            "T5AU",
+            "T5AE"
+          ]
+        },
+        "who_its_for": {
+          "items": [
+            {
+              "title": "Temple lovers",
+              "body": "The 'Golden City of a Thousand Temples' — Ekambareswarar, Kailasanathar and more."
+            },
+            {
+              "title": "Silk shoppers",
+              "body": "World-famous Kanchipuram silk sarees."
+            }
+          ],
+          "facts": [
+            "T4K1"
+          ]
+        },
+        "faqs": {
+          "items": [
+            {
+              "title": "Why is Kanchipuram famous?",
+              "body": "For its temples — it is called the 'Golden City of a Thousand Temples' — and its silk sarees."
+            },
+            {
+              "title": "How far is it from Chennai?",
+              "body": "About 75 km from Chennai Central; the airport is about 62 km."
+            },
+            {
+              "title": "When should I visit?",
+              "body": "October to February; July and August bring heavy rain."
+            }
+          ],
+          "facts": [
+            "T4K1",
+            "T4K2"
           ]
         }
       },
@@ -3448,6 +4152,37 @@
             "OT2",
             "OT3",
             "OTR1"
+          ]
+        },
+        "where_to_stay": {
+          "text": "The state-run TTDC has Hotel Tamilnadu Ooty in Upper Bazar and a budget youth hostel on Church Hill Road.",
+          "facts": [
+            "T5OT1"
+          ]
+        },
+        "local_transport": {
+          "text": "Buses use Udhagamandalam Central Bus Stand, and the Nilgiri toy train runs from Mettupalayam via Coonoor. Taxis are available for the viewpoints, lakes and tea estates around town.",
+          "facts": [
+            "T5OT2",
+            "T5AT"
+          ]
+        },
+        "safety_health": {
+          "items": [
+            {
+              "title": "Water",
+              "body": "Drink only bottled or boiled water; don't accept food or drinks from strangers.",
+              "status": "verified"
+            },
+            {
+              "title": "Personal safety",
+              "body": "Don't accept lifts from strangers; avoid isolated places and going out alone late at night.",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "T5AW",
+            "T5AS"
           ]
         }
       },
@@ -4002,6 +4737,60 @@
             "KD3",
             "KD4",
             "KDG1"
+          ]
+        },
+        "key_facts": {
+          "items": [
+            {
+              "title": "Nearest airport",
+              "body": "Madurai, about 115 km",
+              "status": "verified"
+            },
+            {
+              "title": "Rail",
+              "body": "Palani 64 km, Kodai Road 80 km",
+              "status": "verified"
+            },
+            {
+              "title": "Best time",
+              "body": "April–June",
+              "status": "seasonal"
+            }
+          ],
+          "facts": [
+            "T5KD2",
+            "T5KD1"
+          ]
+        },
+        "local_transport": {
+          "text": "Kodaikanal Bus Stand is in the town itself, with frequent buses from Madurai, Batlagundu, Palani, Oddanchatram, Kodai Road and Dindigul. Taxis are available for the lake, viewpoints and Pillar Rocks.",
+          "facts": [
+            "T5KD1",
+            "T5AT"
+          ]
+        },
+        "where_to_stay": {
+          "text": "The state-run TTDC Hotel Tamilnadu Kodaikanal is on Fern Hill Road.",
+          "facts": [
+            "T5KD3"
+          ]
+        },
+        "safety_health": {
+          "items": [
+            {
+              "title": "Water",
+              "body": "Drink only bottled or boiled water; don't accept food or drinks from strangers.",
+              "status": "verified"
+            },
+            {
+              "title": "Personal safety",
+              "body": "Don't accept lifts from strangers; avoid isolated places and going out alone late at night.",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "T5AW",
+            "T5AS"
           ]
         }
       },
@@ -4585,6 +5374,59 @@
           "facts": [
             "T4R1"
           ]
+        },
+        "key_facts": {
+          "items": [
+            {
+              "title": "Nearest airport",
+              "body": "Madurai, about 180 km",
+              "status": "verified"
+            },
+            {
+              "title": "Rail",
+              "body": "Rameswaram station",
+              "status": "verified"
+            },
+            {
+              "title": "Best time",
+              "body": "October–March",
+              "status": "seasonal"
+            }
+          ],
+          "facts": [
+            "T5RM1"
+          ]
+        },
+        "local_transport": {
+          "text": "Buses from Chennai, Madurai, Puducherry, Trichy and Coimbatore run to Rameswaram Bus Stand. Taxis are available for Dhanushkodi, Pamban Bridge and the Kalam memorial.",
+          "facts": [
+            "T5RM3",
+            "T5AT"
+          ]
+        },
+        "where_to_stay": {
+          "text": "The state-run TTDC Hotel Tamilnadu Rameswaram is on Olaikaddu Road in Sudukattanpatti.",
+          "facts": [
+            "T5RM2"
+          ]
+        },
+        "safety_health": {
+          "items": [
+            {
+              "title": "Water",
+              "body": "Drink only bottled or boiled water; don't accept food or drinks from strangers.",
+              "status": "verified"
+            },
+            {
+              "title": "Personal safety",
+              "body": "Don't accept lifts from strangers; avoid isolated places and going out alone late at night.",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "T5AW",
+            "T5AS"
+          ]
         }
       },
       "wikidataId": "Q1435144",
@@ -4990,6 +5832,65 @@
             "KKV1",
             "KKT1"
           ]
+        },
+        "key_facts": {
+          "items": [
+            {
+              "title": "Nearest airport",
+              "body": "Thiruvananthapuram, 76 km",
+              "status": "verified"
+            },
+            {
+              "title": "Rail",
+              "body": "Kanyakumari station; Nagercoil Junction 17 km",
+              "status": "verified"
+            },
+            {
+              "title": "Best time",
+              "body": "November–March",
+              "status": "seasonal"
+            }
+          ],
+          "facts": [
+            "T5KK1"
+          ]
+        },
+        "local_transport": {
+          "text": "Buses from Thiruvananthapuram, Madurai, Coimbatore, Puducherry and Chennai arrive at Kanyakumari Bus Stand in Puthugramam; Vadasery Bus Stand in Nagercoil is 21 km away. Taxis are available for Suchindram, Padmanabhapuram and the beaches.",
+          "facts": [
+            "T5KK1",
+            "T5AT"
+          ]
+        },
+        "where_to_stay": {
+          "text": "The state-run TTDC Hotel Tamilnadu is on Main Road near the sea shore, handy for sunrise and the ferry to the rock memorials.",
+          "facts": [
+            "T5KK2"
+          ]
+        },
+        "safety_health": {
+          "items": [
+            {
+              "title": "Heat",
+              "body": "Summers can be very hot.",
+              "status": "seasonal"
+            },
+            {
+              "title": "Water",
+              "body": "Drink only bottled or boiled water; don't accept food or drinks from strangers.",
+              "status": "verified"
+            },
+            {
+              "title": "Personal safety",
+              "body": "Don't accept lifts from strangers; avoid isolated places and going out alone late at night.",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "T5KK2",
+            "T5AW",
+            "T5AS"
+          ]
         }
       },
       "wikidataId": "Q222267",
@@ -5284,226 +6185,302 @@
         "spiritual",
         "heritage"
       ],
-      "summary": "Kanchipuram and Mamallapuram's Pallava art, the great Chola temples around Thanjavur, Madurai's Meenakshi temple and the island shrine of Rameswaram.",
-      "seoTitle": "Tamil Nadu Temple Tour: 8-Day Itinerary",
-      "seoDescription": "Eight days through Tamil Nadu's temples: Kanchipuram, Mamallapuram, Thanjavur and the Chola temples, Madurai's Meenakshi temple and Rameswaram.",
+      "summary": "Pallava temples at Kanchipuram and Mamallapuram, the Great Living Chola Temples around Thanjavur, Madurai's Meenakshi temple and the island shrine of Rameswaram.",
+      "seoTitle": "Tamil Nadu Temple Tour: 8-Day Itinerary to Rameswaram",
+      "seoDescription": "8 days through Tamil Nadu's great temples: Kanchipuram, Mamallapuram, Thanjavur's Chola temples, Madurai and Rameswaram, with darshan hours and TTDC stays.",
       "facts": [
+        "T4K2",
         "KPK1",
         "KPE1",
+        "T5KP1",
+        "MMA3",
         "MMA1",
         "MMR1",
+        "TNW6",
         "TJB1",
+        "TJB3",
         "TJS1",
+        "TJS2",
+        "T5TJ1",
+        "T5TJ2",
         "TJA1",
         "TJG1",
-        "TNW6",
-        "MDM1",
         "MDN1",
+        "MDM1",
+        "MDM4",
+        "T5MD2",
+        "RM2",
+        "RMP1",
+        "RMP2",
         "RMT1",
         "RMT2",
-        "RMP1",
         "RMD1",
-        "KP3",
-        "TJ2",
-        "RM2"
+        "T5RM2",
+        "RM3",
+        "TNW4",
+        "T5AD"
       ],
       "sources": [],
       "plan": {
-        "overview": "This route runs north to south, from the Pallava temples near Chennai to the Chola heartland and the Pandya city of Madurai, ending on Rameswaram island.",
-        "start": "Chennai",
-        "end": "Rameswaram (Madurai airport for the flight home)",
-        "transport": "Car with driver, or trains and SETC buses between cities.",
-        "season": "October to February suits the whole route.",
+        "overview": "Eight days down the length of Tamil Nadu's temple country, from the Pallava capital of Kanchipuram to Rameswaram on Pamban Island. Most temples close for a few hours around midday, so plan early mornings and evenings; dress modestly and expect to go barefoot. Distances between cities aren't given here where no official source states them.",
+        "style": "Temples · UNESCO heritage · Pilgrimage",
+        "start": "Chennai airport",
+        "end": "Madurai airport",
+        "season": "October to March; December–February avoids Thanjavur's 35–40 °C summer heat.",
+        "difficulty": "Easy — long road or rail days",
+        "transport": "Car with driver, or SETC buses and trains between cities.",
         "days": [
           {
-            "title": "Day 1: Kanchipuram",
-            "summary": "Drive from Chennai (about 75 km). See the Kailasanathar Temple and the Ekambareswarar Temple; shop for silk in the afternoon.",
+            "title": "Kanchipuram",
+            "summary": "The Pallava Kailasanathar temple, Ekambareswarar's towering gopuram and the silk shops.",
             "stops": [
               {
-                "name": "Kailasanathar Temple",
                 "time": "Morning",
-                "placeSlug": "tamil-nadu/kailasanathar-temple",
-                "duration": "1.5 hours"
+                "name": "Kailasanathar Temple",
+                "placeSlug": "kailasanathar-temple",
+                "duration": "1 hour",
+                "note": "Built around 700 CE."
               },
               {
-                "name": "Ekambareswarar Temple",
                 "time": "Late morning",
-                "placeSlug": "tamil-nadu/ekambareswarar-temple",
+                "name": "Ekambareswarar Temple",
+                "placeSlug": "ekambareswarar-temple",
                 "duration": "1.5 hours"
               },
               {
-                "name": "Kanchipuram silk shops",
                 "time": "Afternoon",
-                "placeSlug": "tamil-nadu/kanchipuram",
-                "duration": "2 hours"
+                "name": "Kanchipuram silk shops",
+                "placeSlug": "kanchipuram",
+                "duration": "1.5 hours"
+              }
+            ],
+            "travel": "Chennai airport to Kanchipuram is about 62 km.",
+            "distanceKm": 62,
+            "transport": "Car",
+            "overnight": "Mamallapuram",
+            "logistics": "TTDC's Hotel Tamilnadu is on Kamatchi Amman Sannathi Street, Kanchipuram."
+          },
+          {
+            "title": "Mamallapuram",
+            "summary": "The UNESCO shore monuments: Arjuna's Penance, Krishna's Butterball, the Pancha Rathas and the Shore Temple.",
+            "stops": [
+              {
+                "time": "Morning",
+                "name": "Arjuna's Penance",
+                "placeSlug": "arjunas-penance",
+                "duration": "45 minutes"
+              },
+              {
+                "time": "Late morning",
+                "name": "Krishna's Butterball",
+                "placeSlug": "krishnas-butterball",
+                "duration": "30 minutes"
+              },
+              {
+                "time": "Midday",
+                "name": "Pancha Rathas",
+                "placeSlug": "pancha-rathas",
+                "duration": "1 hour"
+              },
+              {
+                "time": "Evening",
+                "name": "Shore Temple",
+                "placeSlug": "shore-temple",
+                "duration": "1 hour"
               }
             ],
             "overnight": "Mamallapuram",
-            "travel": "Chennai to Kanchipuram about 75 km; on to Mamallapuram by evening."
+            "transport": "On foot",
+            "meals": "Seafood on the beach road."
           },
           {
-            "title": "Day 2: Mamallapuram",
-            "summary": "Arjuna's Penance, Krishna's Butterball, the Pancha Rathas and the Shore Temple at sunset.",
+            "title": "To Thanjavur",
+            "summary": "A long transfer south; evening at the Brihadeeswara temple.",
             "stops": [
               {
-                "name": "Arjuna's Penance",
-                "time": "Morning",
-                "placeSlug": "tamil-nadu/arjunas-penance",
-                "duration": "1 hour"
-              },
-              {
-                "name": "Krishna's Butterball",
-                "time": "Morning",
-                "placeSlug": "tamil-nadu/krishnas-butterball",
-                "duration": "30 minutes"
-              },
-              {
-                "name": "Pancha Rathas",
-                "time": "Late morning",
-                "placeSlug": "tamil-nadu/pancha-rathas",
-                "duration": "1 hour"
-              },
-              {
-                "name": "Shore Temple",
-                "time": "Sunset",
-                "placeSlug": "tamil-nadu/shore-temple",
-                "duration": "1 hour"
+                "time": "Evening",
+                "name": "Brihadeeswara Temple",
+                "placeSlug": "brihadeeswara-temple",
+                "duration": "1.5 hours",
+                "note": "Built around 1010 AD."
               }
             ],
-            "overnight": "Mamallapuram"
+            "travel": "A full day by road; Thanjavur Junction is about 1.5 km from the temple if you go by train.",
+            "transport": "Car or train",
+            "overnight": "Thanjavur",
+            "logistics": "TTDC's Hotel Tamilnadu Thanjavur is on Gandhiji Road."
           },
           {
-            "title": "Day 3: To Thanjavur",
-            "summary": "A long travel day south to Thanjavur. In the evening, see the Brihadeeswara Temple lit up.",
+            "title": "Thanjavur",
+            "summary": "The temple by daylight and the Saraswathi Mahal Library.",
             "stops": [
               {
+                "time": "Morning",
                 "name": "Brihadeeswara Temple",
-                "time": "Evening",
-                "placeSlug": "tamil-nadu/brihadeeswara-temple",
-                "duration": "1.5 hours"
+                "placeSlug": "brihadeeswara-temple",
+                "duration": "2 hours"
+              },
+              {
+                "time": "Late morning",
+                "name": "Saraswathi Mahal Library",
+                "placeSlug": "saraswathi-mahal-library",
+                "duration": "1 hour",
+                "note": "10 am–1 pm and 1.30–5.30 pm."
               }
             ],
             "overnight": "Thanjavur",
-            "travel": "Mamallapuram to Thanjavur by road, most of the day."
+            "transport": "Auto or on foot"
           },
           {
-            "title": "Day 4: Thanjavur",
-            "summary": "Morning: the Big Temple in daylight — the 216-ft tower and the Nandi.\n\nAfternoon: the Saraswathi Mahal Library.",
+            "title": "Darasuram and Gangaikonda Cholapuram",
+            "summary": "The other two Great Living Chola Temples.",
             "stops": [
               {
-                "name": "Brihadeeswara Temple",
                 "time": "Morning",
-                "placeSlug": "tamil-nadu/brihadeeswara-temple",
-                "duration": "2 hours"
+                "name": "Airavatesvara Temple, Darasuram",
+                "placeSlug": "airavatesvara-temple",
+                "duration": "1.5 hours"
               },
               {
-                "name": "Saraswathi Mahal Library",
                 "time": "Afternoon",
-                "placeSlug": "tamil-nadu/saraswathi-mahal-library",
-                "duration": "1.5 hours"
-              }
-            ],
-            "overnight": "Thanjavur"
-          },
-          {
-            "title": "Day 5: Darasuram and Gangaikonda Cholapuram",
-            "summary": "Day trip to the other two Great Living Chola Temples: the Airavatesvara Temple at Darasuram and the temple at Gangaikonda Cholapuram.",
-            "stops": [
-              {
-                "name": "Airavatesvara Temple",
-                "time": "Morning",
-                "placeSlug": "tamil-nadu/airavatesvara-temple",
-                "duration": "1.5 hours"
-              },
-              {
                 "name": "Gangaikonda Cholapuram",
-                "time": "Afternoon",
-                "placeSlug": "tamil-nadu/gangaikonda-cholapuram",
+                "placeSlug": "gangaikonda-cholapuram",
+                "duration": "1.5 hours",
+                "note": "55 m temple tower."
+              }
+            ],
+            "overnight": "Thanjavur",
+            "transport": "Car"
+          },
+          {
+            "title": "To Madurai",
+            "summary": "Drive to Madurai; Thirumalai Nayakar Mahal and its evening light-and-sound show.",
+            "stops": [
+              {
+                "time": "Evening",
+                "name": "Thirumalai Nayakar Mahal",
+                "placeSlug": "thirumalai-nayakar-mahal",
                 "duration": "1.5 hours"
               }
             ],
-            "overnight": "Thanjavur"
-          },
-          {
-            "title": "Day 6: To Madurai",
-            "summary": "Drive to Madurai. Evening: Thirumalai Nayakar Mahal and its light and sound show.",
-            "stops": [
-              {
-                "name": "Thirumalai Nayakar Mahal",
-                "time": "Evening",
-                "placeSlug": "tamil-nadu/thirumalai-nayakar-mahal",
-                "duration": "2 hours"
-              }
-            ],
+            "travel": "Thanjavur to Madurai by road or rail.",
+            "transport": "Car or train",
             "overnight": "Madurai",
-            "travel": "Thanjavur to Madurai by road."
+            "logistics": "TTDC runs Hotel Tamilnadu near Periyar Bus Stand."
           },
           {
-            "title": "Day 7: Meenakshi temple, then Rameswaram",
-            "summary": "Morning: the Meenakshi Amman Temple at opening time.\n\nAfternoon: drive to Rameswaram, crossing to Pamban Island on the road bridge beside the Pamban rail bridges.",
+            "title": "Meenakshi temple, then Rameswaram",
+            "summary": "Early darshan at Meenakshi, then over the Pamban road bridge to Rameswaram.",
             "stops": [
               {
-                "name": "Meenakshi Amman Temple",
                 "time": "6:00 am",
-                "placeSlug": "tamil-nadu/meenakshi-amman-temple",
-                "duration": "3 hours"
+                "name": "Meenakshi Amman Temple",
+                "placeSlug": "meenakshi-amman-temple",
+                "duration": "2 hours",
+                "note": "6 am–12.30 pm and 4–9 pm."
               },
               {
-                "name": "Pamban Bridge",
                 "time": "Afternoon",
-                "placeSlug": "tamil-nadu/pamban-bridge",
+                "name": "Pamban Bridge",
+                "placeSlug": "pamban-bridge",
                 "duration": "30 minutes"
               }
             ],
+            "travel": "Rameswaram is about 180 km from Madurai airport.",
+            "transport": "Car or train",
             "overnight": "Rameswaram",
-            "travel": "Madurai to Rameswaram about 180 km by road or train."
+            "logistics": "TTDC's Hotel Tamilnadu is on Olaikaddu Road."
           },
           {
-            "title": "Day 8: Rameswaram and Dhanushkodi",
-            "summary": "Morning: the Ramanathaswamy Temple and its corridors.\n\nAfternoon: Dhanushkodi, then return to Madurai for your onward journey.",
+            "title": "Rameswaram and Dhanushkodi",
+            "summary": "The Ramanathaswamy corridors, Dhanushkodi's beach, then back to Madurai.",
             "stops": [
               {
+                "time": "Early morning",
                 "name": "Ramanathaswamy Temple",
-                "time": "Morning",
-                "placeSlug": "tamil-nadu/ramanathaswamy-temple",
-                "duration": "2.5 hours"
+                "placeSlug": "ramanathaswamy-temple",
+                "duration": "2 hours",
+                "note": "About 3,850 ft of corridors."
               },
               {
+                "time": "Late morning",
                 "name": "Dhanushkodi",
-                "time": "Afternoon",
-                "placeSlug": "tamil-nadu/dhanushkodi",
+                "placeSlug": "dhanushkodi",
                 "duration": "2 hours"
               }
             ],
-            "overnight": "Madurai"
+            "travel": "Back to Madurai airport, about 180 km.",
+            "distanceKm": 180,
+            "transport": "Car",
+            "overnight": "Madurai or onward"
           }
         ],
         "budget": {
-          "assumptions": "VacayOut lists only fees it could check with an official source; hotels, transport and meals are not estimated. Check current prices before you book.",
-          "lines": []
+          "assumptions": "Only opening hours are official here; transport, stays and temple special-darshan fees aren't checked.",
+          "lines": [
+            {
+              "label": "Car with driver, 8 days",
+              "amount": "Not estimated",
+              "basis": "Not confirmed from an official source"
+            },
+            {
+              "label": "Stays",
+              "amount": "Not estimated",
+              "basis": "Not confirmed from an official source"
+            },
+            {
+              "label": "Saraswathi Mahal Library",
+              "amount": "Ask at the gate",
+              "basis": "Not confirmed from an official source"
+            }
+          ]
         },
         "booking": [
           {
-            "item": "Driver",
-            "detail": "A car with driver is easiest for this route."
+            "item": "Buses",
+            "detail": "SETC express buses link the main cities and can be booked ahead."
           },
           {
-            "item": "Temples",
-            "detail": "Check festival dates — they draw big crowds."
+            "item": "Stays",
+            "detail": "TTDC's Hotel Tamilnadu has properties in Kanchipuram, Thanjavur, Madurai and Rameswaram."
           }
         ],
         "alternatives": [
-          "End in Kanyakumari instead of Rameswaram via Madurai.",
-          "Add Kodaikanal from Madurai for cool hill air."
+          "Use trains: Thanjavur Junction and Madurai Junction are in town.",
+          "Fly out of Madurai, which has flights to Chennai, Bengaluru, Hyderabad, Mumbai and Delhi."
         ],
         "tips": [
-          "Wear clothes that cover shoulders and knees.",
-          "Start temple visits early — they are cooler and calmer."
+          "Visit Meenakshi at 6 am, when it's quietest.",
+          "Carry a cloth to cover your head and expect to leave shoes outside."
+        ],
+        "prep": [
+          {
+            "title": "Temple etiquette",
+            "body": "Religious places may ask you to cover your head or go barefoot; check visiting hours and closed days first."
+          },
+          {
+            "title": "Season",
+            "body": "October to March; December–February is coolest in Thanjavur."
+          }
+        ],
+        "faqs": [
+          {
+            "q": "When is the Meenakshi temple open?",
+            "a": "6 am to 12.30 pm and 4 pm to 9 pm."
+          },
+          {
+            "q": "Which are the Great Living Chola Temples?",
+            "a": "Brihadeeswara at Thanjavur, Gangaikonda Cholapuram and Airavatesvara at Darasuram."
+          },
+          {
+            "q": "How do I reach Rameswaram?",
+            "a": "By road over the 1988 Pamban road bridge, or by train; Madurai airport is about 180 km away."
+          }
         ]
       }
     },
     {
-      "place": "tamil-nadu/kanyakumari",
+      "place": "tamil-nadu",
       "slug": "madurai-rameswaram-kanyakumari-4-days",
       "title": "Southern tip in 4 days: Madurai, Rameswaram and Kanyakumari",
       "durationDays": 4,
@@ -5511,137 +6488,202 @@
         "spiritual",
         "family"
       ],
-      "summary": "Madurai's great temple, the island pilgrimage of Rameswaram and sunrise at India's southern tip.",
-      "seoTitle": "Madurai, Rameswaram & Kanyakumari: 4-Day Itinerary",
-      "seoDescription": "Four days in south Tamil Nadu: Madurai's Meenakshi temple, Rameswaram and Dhanushkodi, then Kanyakumari's Vivekananda Rock and sunrise.",
+      "summary": "Madurai's Meenakshi temple, the island town of Rameswaram and Dhanushkodi, then sunrise at Kanyakumari where three seas meet.",
+      "seoTitle": "Madurai, Rameswaram, Kanyakumari: 4-Day Itinerary",
+      "seoDescription": "4 days in south Tamil Nadu: Meenakshi temple darshan hours, Rameswaram and Dhanushkodi, the Kalam memorial, then Kanyakumari's Vivekananda Rock and Thiruvalluvar Statue.",
       "facts": [
+        "MD3",
         "MDM1",
         "MDM4",
+        "MDN1",
+        "T5MD2",
+        "RM2",
+        "RMP2",
         "RMT1",
-        "RMP1",
-        "RMD1",
         "RMK1",
+        "RMK2",
+        "T5RM2",
+        "RMD1",
+        "KK3",
+        "T5KK1",
+        "T5KK2",
+        "KKB1",
         "KKV1",
         "KKT1",
-        "KKB1",
         "KKG1",
-        "MD3",
-        "KK3"
+        "RM3",
+        "T5AD"
       ],
       "sources": [],
       "plan": {
-        "overview": "Fly into Madurai, head east to Rameswaram, then south to Kanyakumari, flying home from Thiruvananthapuram.",
-        "start": "Madurai",
-        "end": "Kanyakumari (Thiruvananthapuram airport, 76 km)",
-        "transport": "Car with driver, or trains and buses.",
-        "season": "November to February suits all three.",
+        "overview": "A short pilgrimage-and-coast loop across the far south. Start with Madurai's great temple, cross to Rameswaram on Pamban Island, walk Dhanushkodi's long beach, and end at Kanyakumari, India's southern tip.",
+        "style": "Temples · Coast · Sunrise",
+        "start": "Madurai airport",
+        "end": "Thiruvananthapuram airport (76 km from Kanyakumari)",
+        "season": "October to March for Rameswaram; November to March for Kanyakumari.",
+        "difficulty": "Easy — two long road days",
+        "transport": "Car with driver, or trains and SETC buses.",
         "days": [
           {
-            "title": "Day 1: Madurai",
-            "summary": "Morning: the Meenakshi Amman Temple at opening time.\n\nEvening: Thirumalai Nayakar Mahal's light and sound show.",
+            "title": "Madurai",
+            "summary": "Meenakshi temple at opening, the Nayak palace in the evening.",
             "stops": [
               {
-                "name": "Meenakshi Amman Temple",
                 "time": "6:00 am",
-                "placeSlug": "tamil-nadu/meenakshi-amman-temple",
-                "duration": "3 hours"
+                "name": "Meenakshi Amman Temple",
+                "placeSlug": "meenakshi-amman-temple",
+                "duration": "2.5 hours",
+                "note": "6 am–12.30 pm and 4–9 pm."
               },
               {
-                "name": "Thirumalai Nayakar Mahal",
                 "time": "Evening",
-                "placeSlug": "tamil-nadu/thirumalai-nayakar-mahal",
-                "duration": "2 hours"
+                "name": "Thirumalai Nayakar Mahal",
+                "placeSlug": "thirumalai-nayakar-mahal",
+                "duration": "1.5 hours",
+                "note": "Light and sound show."
               }
             ],
-            "overnight": "Madurai"
+            "overnight": "Madurai",
+            "transport": "Auto or taxi",
+            "logistics": "TTDC's Hotel Tamilnadu is near Periyar Bus Stand."
           },
           {
-            "title": "Day 2: Rameswaram",
-            "summary": "Drive to Rameswaram over Pamban. See the Ramanathaswamy Temple and the Abdul Kalam Memorial.",
+            "title": "To Rameswaram",
+            "summary": "Cross the Pamban road bridge; the Ramanathaswamy temple and the Kalam memorial.",
             "stops": [
               {
+                "time": "Midday",
                 "name": "Pamban Bridge",
-                "time": "Morning",
-                "placeSlug": "tamil-nadu/pamban-bridge",
+                "placeSlug": "pamban-bridge",
                 "duration": "30 minutes"
               },
               {
-                "name": "Ramanathaswamy Temple",
                 "time": "Afternoon",
-                "placeSlug": "tamil-nadu/ramanathaswamy-temple",
-                "duration": "2 hours"
-              },
-              {
                 "name": "Abdul Kalam Memorial",
-                "time": "Late afternoon",
-                "placeSlug": "tamil-nadu/abdul-kalam-memorial",
+                "placeSlug": "abdul-kalam-memorial",
                 "duration": "1 hour"
+              },
+              {
+                "time": "Evening",
+                "name": "Ramanathaswamy Temple",
+                "placeSlug": "ramanathaswamy-temple",
+                "duration": "1.5 hours"
               }
             ],
+            "travel": "Rameswaram is about 180 km from Madurai airport.",
+            "transport": "Car or train",
             "overnight": "Rameswaram",
-            "travel": "Madurai to Rameswaram about 180 km."
+            "logistics": "TTDC's Hotel Tamilnadu is on Olaikaddu Road."
           },
           {
-            "title": "Day 3: Dhanushkodi, then Kanyakumari",
-            "summary": "Early morning at Dhanushkodi, then the long drive south to Kanyakumari.",
+            "title": "Dhanushkodi, then Kanyakumari",
+            "summary": "Morning on Dhanushkodi's 15 km beach, then a long drive to Kanyakumari.",
             "stops": [
               {
+                "time": "Morning",
                 "name": "Dhanushkodi",
-                "time": "Early morning",
-                "placeSlug": "tamil-nadu/dhanushkodi",
+                "placeSlug": "dhanushkodi",
                 "duration": "2 hours"
               }
             ],
+            "travel": "Rameswaram to Kanyakumari is a full day by road.",
+            "transport": "Car",
             "overnight": "Kanyakumari",
-            "travel": "Rameswaram to Kanyakumari by road, most of the day."
+            "logistics": "TTDC's Hotel Tamilnadu is on Main Road near the shore."
           },
           {
-            "title": "Day 4: Kanyakumari",
-            "summary": "Sunrise on the beach, the ferry to the Vivekananda Rock and Thiruvalluvar Statue, then the Gandhi Mandapam.",
+            "title": "Kanyakumari",
+            "summary": "Sunrise from the beach, then the Vivekananda Rock, Thiruvalluvar Statue and Gandhi Memorial.",
             "stops": [
               {
+                "time": "Dawn",
                 "name": "Kanyakumari Beach",
-                "time": "Sunrise",
-                "placeSlug": "tamil-nadu/kanyakumari-beach",
+                "placeSlug": "kanyakumari-beach",
                 "duration": "1 hour"
               },
               {
-                "name": "Vivekananda Rock Memorial",
                 "time": "Morning",
-                "placeSlug": "tamil-nadu/vivekananda-rock-memorial",
-                "duration": "2 hours"
+                "name": "Vivekananda Rock Memorial",
+                "placeSlug": "vivekananda-rock-memorial",
+                "duration": "1.5 hours",
+                "note": "About 500 m offshore."
               },
               {
-                "name": "Thiruvalluvar Statue",
                 "time": "Late morning",
-                "placeSlug": "tamil-nadu/thiruvalluvar-statue",
+                "name": "Thiruvalluvar Statue",
+                "placeSlug": "thiruvalluvar-statue",
                 "duration": "45 minutes"
               },
               {
-                "name": "Gandhi Memorial Mandapam",
                 "time": "Afternoon",
-                "placeSlug": "tamil-nadu/gandhi-memorial-kanyakumari",
+                "name": "Gandhi Memorial Mandapam",
+                "placeSlug": "gandhi-memorial-kanyakumari",
                 "duration": "45 minutes"
               }
             ],
-            "overnight": "Kanyakumari"
+            "travel": "Thiruvananthapuram airport is 76 km away; Nagercoil Junction 17 km.",
+            "distanceKm": 76,
+            "transport": "Ferry and on foot; then car",
+            "overnight": "Kanyakumari or onward"
           }
         ],
         "budget": {
-          "assumptions": "VacayOut lists only fees it could check with an official source; hotels, transport and meals are not estimated. Check current prices before you book.",
-          "lines": []
+          "assumptions": "Car hire, ferry fares and stays aren't confirmed from an official source.",
+          "lines": [
+            {
+              "label": "Car with driver, 4 days",
+              "amount": "Not estimated",
+              "basis": "Not confirmed from an official source"
+            },
+            {
+              "label": "Ferry to Vivekananda Rock",
+              "amount": "Not estimated",
+              "basis": "Not confirmed from an official source"
+            },
+            {
+              "label": "Stays",
+              "amount": "Not estimated",
+              "basis": "Not confirmed from an official source"
+            }
+          ]
         },
         "booking": [
           {
-            "item": "Driver",
-            "detail": "The Rameswaram–Kanyakumari leg is long; a car with driver is easiest."
+            "item": "Flights",
+            "detail": "Madurai airport has domestic and some international flights; Thiruvananthapuram is 76 km from Kanyakumari."
+          },
+          {
+            "item": "Stays",
+            "detail": "TTDC's Hotel Tamilnadu in Madurai, Rameswaram and Kanyakumari."
           }
         ],
         "alternatives": [
-          "Time Kanyakumari for a full moon to see sunset and moonrise together."
+          "Take the train to Rameswaram; it has trains from Chennai, Coimbatore and Bengaluru.",
+          "End at Nagercoil Junction, 17 km from Kanyakumari."
         ],
         "tips": [
-          "Carry sun protection — the south is hot most of the year."
+          "Summers in Kanyakumari can be very hot.",
+          "Be at the beach before dawn for sunrise."
+        ],
+        "prep": [
+          {
+            "title": "Season",
+            "body": "October to March for Rameswaram, November to March for Kanyakumari."
+          }
+        ],
+        "faqs": [
+          {
+            "q": "How far is Rameswaram from Madurai airport?",
+            "a": "About 180 km."
+          },
+          {
+            "q": "Where is the nearest airport to Kanyakumari?",
+            "a": "Thiruvananthapuram, 76 km away."
+          },
+          {
+            "q": "When should I visit?",
+            "a": "October to March."
+          }
         ]
       }
     },
@@ -5655,150 +6697,222 @@
         "romantic",
         "family"
       ],
-      "summary": "The toy train to Ooty and two days in the Nilgiris, then on to Kodaikanal's lake and viewpoints.",
-      "seoTitle": "Ooty & Kodaikanal 5-Day Itinerary: Tamil Nadu Hills",
-      "seoDescription": "Five days in Tamil Nadu's hill stations: the Nilgiri toy train to Ooty, Doddabetta and Pykara, then Kodai Lake, Coaker's Walk and Pillar Rocks.",
+      "summary": "The UNESCO toy train up to Ooty, its gardens, lake and Doddabetta peak, then across to Kodaikanal's star-shaped lake and Coaker's Walk.",
+      "seoTitle": "Ooty and Kodaikanal 5-Day Itinerary with Toy Train",
+      "seoDescription": "5 days in Tamil Nadu's hills: the Nilgiri toy train, Ooty's garden, lake and Doddabetta, then Kodaikanal's lake, Coaker's Walk and Pillar Rocks, with hours.",
       "facts": [
+        "OT2",
         "OTR1",
+        "TNW5",
+        "T5OT1",
         "OT4",
         "OTL1",
+        "OTT1",
         "OTD1",
         "OTP1",
+        "KD3",
+        "T5KD1",
+        "T5KD3",
         "KDL1",
+        "KDL2",
         "KDC1",
+        "KDC2",
         "KDP1",
         "KDB1",
-        "OT2",
-        "KD3",
         "OT3",
         "KD4"
       ],
       "sources": [],
       "plan": {
-        "overview": "Start in the Nilgiris and finish in the Palani hills. The transfer day is long, so plan it as a rest from sightseeing.",
-        "start": "Coimbatore",
-        "end": "Kodaikanal (Madurai airport, about 115 km)",
-        "transport": "Toy train, then cabs; a car with driver for the transfer.",
-        "season": "April to June suits both hill stations.",
+        "overview": "Two of south India's best-loved hill stations. Ride the Nilgiri Mountain Railway — a UNESCO World Heritage Site — up from Mettupalayam to Ooty, spend two days in the Nilgiris, then cross to Kodaikanal in the Palani hills. March to June is the classic season for both.",
+        "style": "Hill stations · Gardens · Lakes",
+        "start": "Coimbatore (airport about 88 km from Ooty)",
+        "end": "Madurai airport (about 115 km from Kodaikanal)",
+        "season": "March to June for Ooty; April to June for Kodaikanal.",
+        "difficulty": "Easy",
+        "transport": "Toy train, then car.",
         "days": [
           {
-            "title": "Day 1: Toy train to Ooty",
-            "summary": "Ride the Nilgiri Mountain Railway from Mettupalayam via Coonoor to Ooty.",
+            "title": "Toy train to Ooty",
+            "summary": "Ride the Nilgiri Mountain Railway from Mettupalayam via Coonoor.",
             "stops": [
               {
-                "name": "Nilgiri Mountain Railway",
                 "time": "Morning",
-                "placeSlug": "tamil-nadu/nilgiri-mountain-railway",
-                "duration": "5 hours"
+                "name": "Nilgiri Mountain Railway",
+                "placeSlug": "nilgiri-mountain-railway",
+                "duration": "About 5 hours up",
+                "note": "46 km, Mettupalayam to Ooty."
               }
             ],
+            "travel": "The railway runs 46 km, about 5 hours uphill.",
+            "distanceKm": 46,
+            "driveTime": "About 5 hours by train",
+            "transport": "Toy train",
             "overnight": "Ooty",
-            "travel": "Coimbatore to Mettupalayam, then the toy train."
+            "logistics": "TTDC's Hotel Tamilnadu Ooty is in Upper Bazar."
           },
           {
-            "title": "Day 2: Ooty town",
-            "summary": "The Botanical Garden in the morning, Ooty Lake in the afternoon.",
+            "title": "Ooty town",
+            "summary": "The Botanical Garden, the tea factory and a boat on Ooty Lake.",
             "stops": [
               {
-                "name": "Government Botanical Garden",
                 "time": "Morning",
-                "placeSlug": "tamil-nadu/ooty-botanical-garden",
+                "name": "Government Botanical Garden",
+                "placeSlug": "ooty-botanical-garden",
                 "duration": "2 hours"
               },
               {
-                "name": "Ooty Lake",
-                "time": "Afternoon",
-                "placeSlug": "tamil-nadu/ooty-lake",
-                "duration": "1.5 hours"
-              }
-            ],
-            "overnight": "Ooty"
-          },
-          {
-            "title": "Day 3: Doddabetta and Pykara",
-            "summary": "Doddabetta early, then Pykara's falls and lake.",
-            "stops": [
-              {
-                "name": "Doddabetta Peak",
-                "time": "Early morning",
-                "placeSlug": "tamil-nadu/doddabetta",
-                "duration": "1.5 hours"
+                "time": "Midday",
+                "name": "Ooty tea factory and museum",
+                "placeSlug": "ooty-tea-factory",
+                "duration": "1 hour",
+                "note": "10 am–6 pm."
               },
               {
-                "name": "Pykara Falls and Lake",
                 "time": "Afternoon",
-                "placeSlug": "tamil-nadu/pykara",
-                "duration": "3 hours"
+                "name": "Ooty Lake",
+                "placeSlug": "ooty-lake",
+                "duration": "1.5 hours"
               }
             ],
-            "overnight": "Ooty"
+            "overnight": "Ooty",
+            "transport": "Taxi"
           },
           {
-            "title": "Day 4: To Kodaikanal",
-            "summary": "A long road transfer to Kodaikanal; a lakeside stroll in the evening.",
+            "title": "Doddabetta and Pykara",
+            "summary": "Tamil Nadu's highest peak, then the falls and lake at Pykara.",
             "stops": [
               {
-                "name": "Kodaikanal Lake",
+                "time": "Morning",
+                "name": "Doddabetta Peak",
+                "placeSlug": "doddabetta",
+                "duration": "1 hour",
+                "note": "2,637 m."
+              },
+              {
+                "time": "Afternoon",
+                "name": "Pykara Falls and Lake",
+                "placeSlug": "pykara",
+                "duration": "2 hours",
+                "note": "20 km from Ooty; TTDC boathouse."
+              }
+            ],
+            "travel": "Pykara is 20 km from Ooty.",
+            "distanceKm": 20,
+            "transport": "Car",
+            "overnight": "Ooty",
+            "altitude": 2637
+          },
+          {
+            "title": "To Kodaikanal",
+            "summary": "A long transfer to the Palani hills; evening by Kodai Lake.",
+            "stops": [
+              {
                 "time": "Evening",
-                "placeSlug": "tamil-nadu/kodaikanal-lake",
+                "name": "Kodaikanal Lake",
+                "placeSlug": "kodaikanal-lake",
+                "duration": "1 hour",
+                "note": "Open 6 am–5 pm; no entry fee."
+              }
+            ],
+            "travel": "Ooty to Kodaikanal is a full day by road.",
+            "transport": "Car",
+            "overnight": "Kodaikanal",
+            "logistics": "TTDC's Hotel Tamilnadu Kodaikanal is on Fern Hill Road."
+          },
+          {
+            "title": "Kodaikanal",
+            "summary": "Coaker's Walk before the mist, Pillar Rocks, Bryant Park and a boat on the lake.",
+            "stops": [
+              {
+                "time": "Morning",
+                "name": "Coaker's Walk",
+                "placeSlug": "coakers-walk",
+                "duration": "45 minutes",
+                "note": "7 am–7 pm; best before about 2.30 pm."
+              },
+              {
+                "time": "Late morning",
+                "name": "Pillar Rocks",
+                "placeSlug": "pillar-rocks-kodaikanal",
+                "duration": "45 minutes",
+                "note": "9 am–4 pm."
+              },
+              {
+                "time": "Afternoon",
+                "name": "Bryant Park",
+                "placeSlug": "bryant-park-kodaikanal",
+                "duration": "1 hour"
+              },
+              {
+                "time": "Late afternoon",
+                "name": "Boating on Kodai Lake",
+                "placeSlug": "kodai-lake-boating",
                 "duration": "1 hour"
               }
             ],
             "overnight": "Kodaikanal",
-            "travel": "Ooty to Kodaikanal by road, most of the day."
-          },
-          {
-            "title": "Day 5: Kodaikanal",
-            "summary": "Coaker's Walk in the morning, Pillar Rocks, then Bryant Park and a boat on the lake.",
-            "stops": [
-              {
-                "name": "Coaker's Walk",
-                "time": "Morning",
-                "placeSlug": "tamil-nadu/coakers-walk",
-                "duration": "1 hour"
-              },
-              {
-                "name": "Pillar Rocks",
-                "time": "Late morning",
-                "placeSlug": "tamil-nadu/pillar-rocks-kodaikanal",
-                "duration": "1 hour"
-              },
-              {
-                "name": "Bryant Park",
-                "time": "Afternoon",
-                "placeSlug": "tamil-nadu/bryant-park-kodaikanal",
-                "duration": "1 hour"
-              },
-              {
-                "name": "Boating on Kodai Lake",
-                "time": "Late afternoon",
-                "placeSlug": "tamil-nadu/kodai-lake-boating",
-                "duration": "1 hour"
-              }
-            ],
-            "overnight": "Kodaikanal"
+            "transport": "Taxi",
+            "altitude": 2133
           }
         ],
         "budget": {
-          "assumptions": "VacayOut lists only fees it could check with an official source; hotels, transport and meals are not estimated. Check current prices before you book.",
-          "lines": []
+          "assumptions": "Toy train fares, taxis and stays aren't confirmed from an official source.",
+          "lines": [
+            {
+              "label": "Nilgiri Mountain Railway ticket",
+              "amount": "Not estimated",
+              "basis": "Not confirmed from an official source"
+            },
+            {
+              "label": "Car Ooty–Kodaikanal",
+              "amount": "Not estimated",
+              "basis": "Not confirmed from an official source"
+            },
+            {
+              "label": "Stays",
+              "amount": "Not estimated",
+              "basis": "Not confirmed from an official source"
+            }
+          ]
         },
         "booking": [
           {
             "item": "Toy train",
-            "detail": "Book early — seats are limited."
+            "detail": "Book the Mettupalayam–Ooty train ahead; it is popular."
           },
           {
-            "item": "Hotels",
-            "detail": "April–June is peak season in both towns."
+            "item": "Stays",
+            "detail": "TTDC has Hotel Tamilnadu properties in Ooty and Kodaikanal."
           }
         ],
         "alternatives": [
-          "Short on time? Do Ooty only in 3 days."
+          "Coming down, the train takes about 4 hours.",
+          "Reach Kodaikanal by bus from Madurai, Palani or Dindigul; Palani station is 64 km away."
         ],
         "tips": [
-          "Pack warm layers for both towns.",
-          "Mornings are clearest in the hills."
+          "Do Coaker's Walk before about 2.30 pm, before the mist.",
+          "Keep children back from the edge at Pillar Rocks."
+        ],
+        "prep": [
+          {
+            "title": "Season",
+            "body": "March to June for Ooty, April to June for Kodaikanal; Kodaikanal's flower show at Bryant Park is in May."
+          }
+        ],
+        "faqs": [
+          {
+            "q": "How long is the Ooty toy train?",
+            "a": "46 km from Mettupalayam, about 5 hours up and 4 hours down."
+          },
+          {
+            "q": "Which airport for Ooty?",
+            "a": "Coimbatore, about 88 km away."
+          },
+          {
+            "q": "Which airport for Kodaikanal?",
+            "a": "Madurai, about 115 km away."
+          }
         ]
       }
     }

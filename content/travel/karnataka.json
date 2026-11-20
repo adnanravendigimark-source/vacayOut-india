@@ -288,6 +288,51 @@
       "url": "https://www.incredibleindia.gov.in/en/karnataka/coorg",
       "title": "Coorg — Incredible India",
       "authority": "government"
+    },
+    "KT2_BLR": {
+      "url": "https://karnatakatourism.org/en/destinations/bengaluru/",
+      "title": "Bengaluru — Karnataka Tourism (Government of Karnataka)",
+      "authority": "government"
+    },
+    "KT2_MYS": {
+      "url": "https://karnatakatourism.org/en/destinations/mysuru/",
+      "title": "Mysuru — Karnataka Tourism (Government of Karnataka)",
+      "authority": "government"
+    },
+    "KT2_COO": {
+      "url": "https://karnatakatourism.org/en/destinations/coorg/",
+      "title": "Coorg — Karnataka Tourism (Government of Karnataka)",
+      "authority": "government"
+    },
+    "KT2_HAM": {
+      "url": "https://karnatakatourism.org/en/destinations/hampi/",
+      "title": "Hampi — Karnataka Tourism (Government of Karnataka)",
+      "authority": "government"
+    },
+    "KT2_BAD": {
+      "url": "https://karnatakatourism.org/en/destinations/badami/",
+      "title": "Badami — Karnataka Tourism (Government of Karnataka)",
+      "authority": "government"
+    },
+    "KT2_GOK": {
+      "url": "https://karnatakatourism.org/en/destinations/gokarna/",
+      "title": "Gokarna — Karnataka Tourism (Government of Karnataka)",
+      "authority": "government"
+    },
+    "KT2_UDU": {
+      "url": "https://karnatakatourism.org/en/destinations/udupi/",
+      "title": "Udupi — Karnataka Tourism (Government of Karnataka)",
+      "authority": "government"
+    },
+    "KT2_MUR": {
+      "url": "https://karnatakatourism.org/en/destinations/murudeshwara/",
+      "title": "Murudeshwara — Karnataka Tourism (Government of Karnataka)",
+      "authority": "government"
+    },
+    "KT2_SRI": {
+      "url": "https://karnatakatourism.org/en/destinations/srirangapatna/",
+      "title": "Srirangapatna — Karnataka Tourism (Government of Karnataka)",
+      "authority": "government"
     }
   },
   "facts": {
@@ -2316,6 +2361,770 @@
           "quote": "Guided plantation walks offer visitors an opportunity to learn about coffee cultivation"
         }
       ]
+    },
+    "K5B1": {
+      "place": "karnataka/bengaluru",
+      "topic": "K5B1",
+      "claim": "Namma Metro's Purple (east–west) and Green (north–south) lines meet at Majestic; trains typically run 5 am–11 pm.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "KT2_BLR",
+          "quote": "The Purple Line (east–west) and Green Line (north–south) intersect at Majestic (KSR Bengaluru City Station)"
+        },
+        {
+          "source": "KT2_BLR",
+          "quote": "Metro hours are typically 5 AM–11 PM."
+        }
+      ]
+    },
+    "K5B2": {
+      "place": "karnataka/bengaluru",
+      "topic": "K5B2",
+      "claim": "BMTC buses are the cheapest way round; Ola, Uber and Rapido work across the city; autos must use meters.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "KT2_BLR",
+          "quote": "is by far the most affordable option"
+        },
+        {
+          "source": "KT2_BLR",
+          "quote": "Ride-hailing apps work reliably across the city"
+        },
+        {
+          "source": "KT2_BLR",
+          "quote": "Bengaluru autos are legally required to use meters"
+        }
+      ]
+    },
+    "K5B3": {
+      "place": "karnataka/bengaluru",
+      "topic": "K5B3",
+      "claim": "Weekday peak traffic runs 8–10 am and 5.30–9 pm; the metro avoids it.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "KT2_BLR",
+          "quote": "Bengaluru’s peak-hour traffic (8–10 AM and 5:30–9 PM on weekdays) is significant."
+        },
+        {
+          "source": "KT2_BLR",
+          "quote": "The metro eliminates traffic uncertainty"
+        }
+      ]
+    },
+    "K5B4": {
+      "place": "karnataka/bengaluru",
+      "topic": "K5B4",
+      "claim": "The airport is about 40 km north of the centre; Vayu Vajra airport buses and pre-paid taxis run 24 hours.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "KT2_BLR",
+          "quote": "The airport is approximately 40 km north of the city centre."
+        },
+        {
+          "source": "KT2_BLR",
+          "quote": "Vayu Vajra KSRTC airport buses and pre-paid taxis operate 24 hours."
+        }
+      ]
+    },
+    "K5B5": {
+      "place": "karnataka/bengaluru",
+      "topic": "K5B5",
+      "claim": "MG Road/CBD suits first-timers, Koramangala young and budget travellers, Malleswaram families, and Airport Road/Hebbal early departures.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "KT2_BLR",
+          "quote": "MG Road / CBD First-time visitors; central access to sights, malls, metro"
+        },
+        {
+          "source": "KT2_BLR",
+          "quote": "Koramangala Young travellers, café culture, budget options"
+        },
+        {
+          "source": "KT2_BLR",
+          "quote": "Malleswaram Heritage neighbourhood, quieter pace, family-friendly"
+        },
+        {
+          "source": "KT2_BLR",
+          "quote": "Airport Road / Hebbal Early departures, transit stays"
+        }
+      ]
+    },
+    "K5B6": {
+      "place": "karnataka/bengaluru",
+      "topic": "K5B6",
+      "claim": "Indiranagar is for nightlife and dining; Whitefield for business travel.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "KT2_BLR",
+          "quote": "Indiranagar Nightlife, dining, boutique stays"
+        },
+        {
+          "source": "KT2_BLR",
+          "quote": "Whitefield Business travel, IT corridor, international hotels"
+        }
+      ]
+    },
+    "K5B7": {
+      "place": "karnataka/bengaluru",
+      "topic": "K5B7",
+      "claim": "VV Puram's Thindi Beedi is the heart of Bengaluru street food; Basavanagudi is the oldest neighbourhood; Nandi Hills is about 60 km north.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "KT2_BLR",
+          "quote": "VV Puram's Thindi Beedi (Food Street) is the epicentre of Bengaluru street food."
+        },
+        {
+          "source": "KT2_BLR",
+          "quote": "Basavanagudi Oldest residential neighbourhood"
+        },
+        {
+          "source": "KT2_BLR",
+          "quote": "Nandi Hills is approximately 60 km north of the city"
+        }
+      ]
+    },
+    "K5B8": {
+      "place": "karnataka/bengaluru",
+      "topic": "K5B8",
+      "claim": "Two full days cover the core sights; the monsoon (June–September) can bring heavy rain and urban flooding; insist on the auto meter or agree a fare first.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "KT2_BLR",
+          "quote": "Two full days covers the city's core attractions comfortably."
+        },
+        {
+          "source": "KT2_BLR",
+          "quote": "Heavy rains and urban flooding possible"
+        },
+        {
+          "source": "KT2_BLR",
+          "quote": "insist on the meter, or agree on a fare in advance"
+        }
+      ]
+    },
+    "K5M1": {
+      "place": "karnataka/mysuru",
+      "topic": "K5M1",
+      "claim": "Mysuru lies about 140 km south-west of Bengaluru at about 770 m; its airport is 11 km from the centre; 3–4 days covers it.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "KT2_MYS",
+          "quote": "it is about 140 km southwest of Bengaluru"
+        },
+        {
+          "source": "KT2_MYS",
+          "quote": "(~770 meters above sea level)"
+        },
+        {
+          "source": "KT2_MYS",
+          "quote": "Mysuru airport is 11 km from the city centre"
+        },
+        {
+          "source": "KT2_MYS",
+          "quote": "3 to 4 days are generally sufficient"
+        }
+      ]
+    },
+    "K5M2": {
+      "place": "karnataka/mysuru",
+      "topic": "K5M2",
+      "claim": "Getting around: Trin Trin app cycles, self-drive cars and bikes, taxis and tanga rides; KSTDC runs city sightseeing tours.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "KT2_MYS",
+          "quote": "App-based cycle rentals such as Trin Trin"
+        },
+        {
+          "source": "KT2_MYS",
+          "quote": "Self-drive cars and bikes are available in Mysuru."
+        },
+        {
+          "source": "KT2_MYS",
+          "quote": "Horse-pulled Tanga rides are a popular mode of commute in Mysuru."
+        },
+        {
+          "source": "KT2_MYS",
+          "quote": "KSTDC operates Mysuru city sightseeing tours"
+        }
+      ]
+    },
+    "K5C1": {
+      "place": "karnataka/coorg",
+      "topic": "K5C1",
+      "claim": "Stays range from premium resorts to homestays, which offer home-cooked food and the Kodava way of life.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "KT2_COO",
+          "quote": "you can choose from premium resorts that offer scenic views"
+        },
+        {
+          "source": "KT2_COO",
+          "quote": "you should try homestays, which are very popular in Coorg"
+        },
+        {
+          "source": "KT2_COO",
+          "quote": "you can enjoy homemade food, interact with local families, and experience the true Kodava lifestyle"
+        }
+      ]
+    },
+    "K5C2": {
+      "place": "karnataka/coorg",
+      "topic": "K5C2",
+      "claim": "Coorg has no airport or railway station; from Mysuru, about 120 km away, take a taxi or a bus to Madikeri.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "KT2_COO",
+          "quote": "Since Coorg does not have its own airport or railway station"
+        },
+        {
+          "source": "KT2_COO",
+          "quote": "Take a bus to Madikeri"
+        }
+      ]
+    },
+    "K5C3": {
+      "place": "karnataka/coorg",
+      "topic": "K5C3",
+      "claim": "The monsoon brings heavy rain and slippery roads; drive carefully in the hills and carry cash.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "KT2_COO",
+          "quote": "Heavy rainfall Slippery roads Limited outdoor activities"
+        },
+        {
+          "source": "KT2_COO",
+          "quote": "Drive carefully in hilly areas"
+        },
+        {
+          "source": "KT2_COO",
+          "quote": "Carry cash"
+        }
+      ]
+    },
+    "K5H1": {
+      "place": "karnataka/hampi",
+      "topic": "K5H1",
+      "claim": "Hampi became a UNESCO World Heritage Site in 1986; 2–3 days is the usual stay.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "KT2_HAM",
+          "quote": "In 1986, the monuments of Hampi were declared a UNESCO World Heritage Site"
+        },
+        {
+          "source": "KT2_HAM",
+          "quote": "Visitors typically need 2 to 3 days to explore Hampi comfortably"
+        }
+      ]
+    },
+    "K5H2": {
+      "place": "karnataka/hampi",
+      "topic": "K5H2",
+      "claim": "Hosapete Junction is about 13 km away and Jindal Vijaynagar airport about 40 km; Bengaluru is 340 km (6–7 hours).",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "KT2_HAM",
+          "quote": "The nearest railway station to Hampi is Hosapete Junction, located about 13 km away."
+        },
+        {
+          "source": "KT2_HAM",
+          "quote": "The nearest airport is Jindal Vijaynagar Airport, about 40 km from Hampi."
+        },
+        {
+          "source": "KT2_HAM",
+          "quote": "The Bangalore to Hampi distance is about 340 km, which takes around 6-7 hours by car or bus."
+        }
+      ]
+    },
+    "K5H3": {
+      "place": "karnataka/hampi",
+      "topic": "K5H3",
+      "claim": "Stays run from guesthouses and homestays to luxury resorts; many prefer to stay in Hampi itself.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "KT2_HAM",
+          "quote": "The area offers everything from comfortable guesthouses and homestays to modern hotels and luxury resorts."
+        },
+        {
+          "source": "KT2_HAM",
+          "quote": "Many travelers prefer staying within Hampi to experience the historic surroundings"
+        }
+      ]
+    },
+    "K5H4": {
+      "place": "karnataka/hampi",
+      "topic": "K5H4",
+      "claim": "Taxis, buses and rental bikes run from Hosapete; explore on foot, by bicycle or on the Hampi Buggy Train.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "KT2_HAM",
+          "quote": "Local taxis, buses, and rental bikes are available from Hosapete"
+        },
+        {
+          "source": "KT2_HAM",
+          "quote": "walking through the ruins, cycling across the historic landscape, or taking the Hampi Buggy Train"
+        }
+      ]
+    },
+    "K5D1": {
+      "place": "karnataka/badami",
+      "topic": "K5D1",
+      "claim": "Cave temple entry is ₹40 for Indians and ₹600 for foreigners; the fort needs no separate ticket; the museum is closed on Fridays.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "KT2_BAD",
+          "quote": "the entry fee is ₹40 for Indian nationals and ₹600 for foreign visitors"
+        },
+        {
+          "source": "KT2_BAD",
+          "quote": "There is no separate entry fee for the fort; your cave temple ticket covers the climb."
+        },
+        {
+          "source": "KT2_BAD",
+          "quote": "the museum stays closed on Fridays"
+        }
+      ]
+    },
+    "K5D2": {
+      "place": "karnataka/badami",
+      "topic": "K5D2",
+      "claim": "Summer often tops 40°C — start by 7 am; monsoon paths get slippery; the fort trek takes 30–45 minutes on uneven paths.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "KT2_BAD",
+          "quote": "temperatures regularly climb above 40°C"
+        },
+        {
+          "source": "KT2_BAD",
+          "quote": "start by 7 AM and finish by 11 AM"
+        },
+        {
+          "source": "KT2_BAD",
+          "quote": "some paths grow slippery"
+        },
+        {
+          "source": "KT2_BAD",
+          "quote": "The trek to the fort takes about 30 to 45 minutes and involves uneven stone paths; wear sturdy footwear."
+        }
+      ]
+    },
+    "K5D3": {
+      "place": "karnataka/badami",
+      "topic": "K5D3",
+      "claim": "Badami's sandstone draws climbers from across India; local guides help beginners.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "KT2_BAD",
+          "quote": "Badami has attracted climbers from across India for its technically interesting routes."
+        },
+        {
+          "source": "KT2_BAD",
+          "quote": "Local guides can help beginners get started safely."
+        }
+      ]
+    },
+    "K5D4": {
+      "place": "karnataka/badami",
+      "topic": "K5D4",
+      "claim": "Plan two days — one for Badami and one for Pattadakal and Aihole.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "KT2_BAD",
+          "quote": "Plan at least two days, one for the town itself and one for the Pattadakal–Aihole circuit."
+        }
+      ]
+    },
+    "K5G1": {
+      "place": "karnataka/gokarna",
+      "topic": "K5G1",
+      "claim": "Mahabaleshwar Temple is open 6 am–12.30 pm and 5–8 pm; entry is free; a strict dress code applies and non-Hindus may not enter the inner sanctum.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "KT2_GOK",
+          "quote": "Mahabaleshwar Gokarna Temple Timings: 6:00 AM – 12:30 PM 5:00 PM – 8:00 PM"
+        },
+        {
+          "source": "KT2_GOK",
+          "quote": "Temple Entry Fee Free"
+        },
+        {
+          "source": "KT2_GOK",
+          "quote": "Non-Hindus are restricted from the inner sanctum."
+        },
+        {
+          "source": "KT2_GOK",
+          "quote": "Jeans and shorts are completely prohibited."
+        }
+      ]
+    },
+    "K5G2": {
+      "place": "karnataka/gokarna",
+      "topic": "K5G2",
+      "claim": "Gokarna Road station is about 10 km from town; Goa airport is about 149 km; best October to March.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "KT2_GOK",
+          "quote": "The Gokarna Road Station (GOK) on the Konkan Railway lies about 10 km from town; autos and taxis connect from there."
+        },
+        {
+          "source": "KT2_GOK",
+          "quote": "approximately 149 km from Gokarna"
+        },
+        {
+          "source": "KT2_GOK",
+          "quote": "October to March (pleasant weather, ideal for beaches & temples)"
+        }
+      ]
+    },
+    "K5G3": {
+      "place": "karnataka/gokarna",
+      "topic": "K5G3",
+      "claim": "Kudle is a 10-minute walk from town, Om Beach about 6 km; Half Moon and Paradise are reached by trail or boat.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "KT2_GOK",
+          "quote": "About a 10-minute walk south of town."
+        },
+        {
+          "source": "KT2_GOK",
+          "quote": "About 6 km from town, Gokarna Om Beach is the hub for water sports"
+        },
+        {
+          "source": "KT2_GOK",
+          "quote": "Accessible only via a cliffside trek from Om Beach or by boat"
+        }
+      ]
+    },
+    "K5G4": {
+      "place": "karnataka/gokarna",
+      "topic": "K5G4",
+      "claim": "The temple serves free meals (annadanam) at lunch, 12–2 pm, and dinner, 7.30–8.30 pm.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "KT2_GOK",
+          "quote": "Annadanam (Free Meals for Devotees): Lunch: 12:00 PM – 2:00 PM Dinner: 7:30 PM – 8:30 PM"
+        }
+      ]
+    },
+    "K5G5": {
+      "place": "karnataka/gokarna",
+      "topic": "K5G5",
+      "claim": "Kudle is lined with cafés and guesthouses; camping on Paradise Beach is a rite of passage for long-stay travellers.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "KT2_GOK",
+          "quote": "lined with laid-back cafes and guesthouses"
+        },
+        {
+          "source": "KT2_GOK",
+          "quote": "Camping under a canopy of stars on this beach is a rite of passage for long-stay travellers."
+        }
+      ]
+    },
+    "K5U1": {
+      "place": "karnataka/udupi",
+      "topic": "K5U1",
+      "claim": "Udupi is about 400 km (8–10 hours) from Bengaluru, on the Konkan Railway; Mangalore airport is about 60 km; best October to March.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "KT2_UDU",
+          "quote": "Bangalore to Udupi distance is around 400 km. The journey usually takes 8 to 10 hours."
+        },
+        {
+          "source": "KT2_UDU",
+          "quote": "Udupi has its own railway station on the Konkan Railway route."
+        },
+        {
+          "source": "KT2_UDU",
+          "quote": "The nearest airport is Mangalore International Airport, located about 60 km from Udupi."
+        },
+        {
+          "source": "KT2_UDU",
+          "quote": "The best time to visit Udupi is from October to March."
+        }
+      ]
+    },
+    "K5U2": {
+      "place": "karnataka/udupi",
+      "topic": "K5U2",
+      "claim": "At the Krishna temple, the idol is seen through the Kanakana Kindi window; Malpe, Kapu and Padubidri are nearby beaches.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "KT2_UDU",
+          "quote": "The idol of Lord Krishna is viewed through a small window called Kanakana Kindi."
+        },
+        {
+          "source": "KT2_UDU",
+          "quote": "Popular beaches near Udupi include Malpe Beach, Kapu Beach, and Padubidri Beach."
+        }
+      ]
+    },
+    "K5U3": {
+      "place": "karnataka/udupi",
+      "topic": "K5U3",
+      "claim": "Day trips: Kollur Mookambika 74 km, Agumbe's rainforest 55 km, Karkala's Jain sites 40 km, Kundapura 35 km.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "KT2_UDU",
+          "quote": "Kollur is located around 74 km from Udupi."
+        },
+        {
+          "source": "KT2_UDU",
+          "quote": "People often call it the “Cherrapunji of South India.”"
+        },
+        {
+          "source": "KT2_UDU",
+          "quote": "Karkala is located around 40 km from Udupi. It is known for its Jain heritage sites."
+        },
+        {
+          "source": "KT2_UDU",
+          "quote": "Kundapura is located about 35 km away."
+        }
+      ]
+    },
+    "K5U4": {
+      "place": "karnataka/udupi",
+      "topic": "K5U4",
+      "claim": "Two to three days covers Udupi's beaches, temples and nearby sights.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "KT2_UDU",
+          "quote": "Beaches, temples, and nearby attractions can be covered in 2 to 3 days."
+        }
+      ]
+    },
+    "K5R1": {
+      "place": "karnataka/murudeshwar",
+      "topic": "K5R1",
+      "claim": "The temple is open 6 am–8.30 pm with a midday break; entry is free, with a small fee for the Raja Gopuram lift; the Shiva statue is about 123 ft.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "KT2_MUR",
+          "quote": "The temple opens from 6:00 AM to 8:30 PM ."
+        },
+        {
+          "source": "KT2_MUR",
+          "quote": "No, entry to the temple is free. However, you may need to pay a small fee for the Raja Gopuram lift."
+        },
+        {
+          "source": "KT2_MUR",
+          "quote": "The Shiva statue stands at around 123 feet"
+        }
+      ]
+    },
+    "K5R2": {
+      "place": "karnataka/murudeshwar",
+      "topic": "K5R2",
+      "claim": "Gokarna is about 78 km and Mangalore airport about 165 km away.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "KT2_MUR",
+          "quote": "The Gokarna to Murudeshwar distance is approximately 78 km"
+        },
+        {
+          "source": "KT2_MUR",
+          "quote": "The nearest airport is Mangalore International Airport , located about 165 km away ."
+        }
+      ]
+    },
+    "K5R3": {
+      "place": "karnataka/murudeshwar",
+      "topic": "K5R3",
+      "claim": "Eat a fresh fish thali with kokum solkadi, kane fry or prawn gassi; the temple serves free Anna Prasada in the afternoon.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "KT2_MUR",
+          "quote": "Order a fresh fish thali at any local restaurant near the beach"
+        },
+        {
+          "source": "KT2_MUR",
+          "quote": "Kane fry (ladyfish, shallow-fried with a red chilli crust)"
+        },
+        {
+          "source": "KT2_MUR",
+          "quote": "prawn gassi (a coconut milk curry with Byadgi chilli heat)"
+        },
+        {
+          "source": "KT2_MUR",
+          "quote": "The temple also offers Anna Prasada (free meals) during the afternoon"
+        }
+      ]
+    },
+    "K5R4": {
+      "place": "karnataka/murudeshwar",
+      "topic": "K5R4",
+      "claim": "Hotels near the temple and beach make it walkable; the temple has simple guesthouses; book two weeks ahead in peak season and 4–6 weeks for Maha Shivaratri.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "KT2_MUR",
+          "quote": "Many hotels are located close to the temple and beach, making it easy for you to explore on foot."
+        },
+        {
+          "source": "KT2_MUR",
+          "quote": "the temple also provides simple guesthouse accommodations at affordable rates"
+        },
+        {
+          "source": "KT2_MUR",
+          "quote": "book accommodation at least two weeks in advance for those periods and four to six weeks ahead for Maha Shivaratri"
+        }
+      ]
+    },
+    "K5R5": {
+      "place": "karnataka/murudeshwar",
+      "topic": "K5R5",
+      "claim": "Water sports and Netrani trips stop in the monsoon (June–September); beginners and non-swimmers can dive with trained instructors.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "KT2_MUR",
+          "quote": "Water sports and Netrani Island boat trips are suspended entirely"
+        },
+        {
+          "source": "KT2_MUR",
+          "quote": "beginners and non-swimmers can try scuba diving at Netrani Island"
+        }
+      ]
+    },
+    "K5R6": {
+      "place": "karnataka/murudeshwar",
+      "topic": "K5R6",
+      "claim": "Visitors should dress modestly at the temple.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "KT2_MUR",
+          "quote": "Visitors are expected to wear traditional, modest and respectful clothing."
+        }
+      ]
+    },
+    "K5S1": {
+      "place": "karnataka/srirangapatna",
+      "topic": "K5S1",
+      "claim": "Srirangapatna is about 15 km from Mysuru and 125 km from Bengaluru; one day is enough; best October to March.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "KT2_SRI",
+          "quote": "It sits just 15 kilometres from Mysore and around 125 kilometres from Bangalore."
+        },
+        {
+          "source": "KT2_SRI",
+          "quote": "One day is usually enough for Srirangapatna."
+        },
+        {
+          "source": "KT2_SRI",
+          "quote": "October to March offers the most pleasant weather."
+        }
+      ]
+    },
+    "K5S2": {
+      "place": "karnataka/srirangapatna",
+      "topic": "K5S2",
+      "claim": "The Ranganathaswamy Temple is open 7 am–2 pm and 4–8 pm; most sites are free.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "KT2_SRI",
+          "quote": "The temple is open from 7:00 AM to 2:00 PM and from 4:00 PM to 8:00 PM."
+        },
+        {
+          "source": "KT2_SRI",
+          "quote": "Entry Free at most sites"
+        }
+      ]
+    },
+    "K5S3": {
+      "place": "karnataka/srirangapatna",
+      "topic": "K5S3",
+      "claim": "Most visitors base themselves in Mysuru; a few guesthouses let you stay for the early-morning temple bell.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "KT2_SRI",
+          "quote": "Most travellers prefer to base themselves in Mysore (15 km away) and visit Srirangapatna as a day trip."
+        },
+        {
+          "source": "KT2_SRI",
+          "quote": "a few guesthouses and budget stays are available in and around town"
+        },
+        {
+          "source": "KT2_SRI",
+          "quote": "staying overnight in Srirangapatna or close to it makes sense"
+        }
+      ]
+    },
+    "K5S4": {
+      "place": "karnataka/srirangapatna",
+      "topic": "K5S4",
+      "claim": "Start early, dress modestly, check photo rules in the sanctum, hire a fort guide, and go on a weekday.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "KT2_SRI",
+          "quote": "Start your day early. Wear modest clothes. Carry water and snacks."
+        },
+        {
+          "source": "KT2_SRI",
+          "quote": "Check before photographing inside the temple sanctum. Hire a local guide for the fort."
+        },
+        {
+          "source": "KT2_SRI",
+          "quote": "Weekends at the temple and fort get very busy."
+        }
+      ]
+    },
+    "K5S5": {
+      "place": "karnataka/srirangapatna",
+      "topic": "K5S5",
+      "claim": "It was Tipu Sultan's capital; Ranganathittu Bird Sanctuary is 3 km away; it is not a UNESCO site.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "KT2_SRI",
+          "quote": "Srirangapatna is famous for its historical importance as Tipu Sultan’s capital"
+        },
+        {
+          "source": "KT2_SRI",
+          "quote": "Ranganathittu Bird Sanctuary (3 km)"
+        },
+        {
+          "source": "KT2_SRI",
+          "quote": "No, it is not currently a UNESCO World Heritage Site."
+        }
+      ]
     }
   },
   "places": [
@@ -2691,6 +3500,99 @@
           ],
           "facts": [
             "K2B5"
+          ]
+        },
+        "local_transport": {
+          "text": "Namma Metro is the most reliable way round: the Purple (east–west) and Green (north–south) lines meet at Majestic, and trains typically run from 5 am to 11 pm. BMTC buses reach almost everywhere and are by far the cheapest option; Ola, Uber and Rapido work reliably across the city, and autos are legally required to use meters.\n\nWeekday traffic is heavy from 8 to 10 am and 5.30 to 9 pm — use the metro for central sights. The airport is about 40 km north of the centre; Vayu Vajra airport buses and pre-paid taxis run 24 hours.",
+          "facts": [
+            "K5B1",
+            "K5B2",
+            "K5B3",
+            "K5B4"
+          ]
+        },
+        "where_to_stay": {
+          "text": "MG Road and the CBD suit first-time visitors, with central access to sights, malls and the metro. Indiranagar is for nightlife, dining and boutique stays; Koramangala for young travellers, café culture and budget options; Malleswaram for a quieter, family-friendly heritage neighbourhood. Whitefield serves business travel on the IT corridor, and Airport Road/Hebbal suits early departures and transit stays.",
+          "facts": [
+            "K5B5",
+            "K5B6"
+          ]
+        },
+        "who_its_for": {
+          "items": [
+            {
+              "title": "Food lovers",
+              "body": "VV Puram's Thindi Beedi street-food lane and the old Darshinis."
+            },
+            {
+              "title": "Heritage walkers",
+              "body": "Basavanagudi, the oldest neighbourhood, with the Bull Temple."
+            },
+            {
+              "title": "Night owls",
+              "body": "Indiranagar's bars, dining and boutique stays."
+            },
+            {
+              "title": "Day-trippers",
+              "body": "Nandi Hills, about 60 km north, for sunrise."
+            }
+          ],
+          "facts": [
+            "K5B7",
+            "K5B6"
+          ]
+        },
+        "practical_info": {
+          "items": [
+            {
+              "title": "Time needed",
+              "body": "Two full days cover the core sights.",
+              "status": "verified"
+            },
+            {
+              "title": "Visas",
+              "body": "Apply for an e-Tourist visa at least 4 days before arrival; your passport needs at least six months' validity.",
+              "status": "verified"
+            },
+            {
+              "title": "Payments",
+              "body": "Visitors can pay by QR code with NPCI's UPI One World wallet after a passport-and-visa KYC check. Carry some cash for small purchases.",
+              "status": "verified"
+            },
+            {
+              "title": "Emergency",
+              "body": "Dial 112 for police, fire or ambulance.",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "K5B8",
+            "KA_VISA",
+            "KA_UPI",
+            "KA_112"
+          ]
+        },
+        "safety_health": {
+          "items": [
+            {
+              "title": "Monsoon",
+              "body": "June–September can bring heavy rain and urban flooding.",
+              "status": "seasonal"
+            },
+            {
+              "title": "Autos",
+              "body": "Insist on the meter, or agree on a fare before you set off.",
+              "status": "verified"
+            },
+            {
+              "title": "Traffic",
+              "body": "Avoid weekday peaks (8–10 am, 5.30–9 pm); take the metro where you can.",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "K5B8",
+            "K5B3"
           ]
         }
       },
@@ -3198,6 +4100,39 @@
             "MYP2",
             "MY5"
           ]
+        },
+        "key_facts": {
+          "items": [
+            {
+              "title": "From Bengaluru",
+              "body": "About 140 km",
+              "status": "verified"
+            },
+            {
+              "title": "Altitude",
+              "body": "About 770 m",
+              "status": "verified"
+            },
+            {
+              "title": "Airport",
+              "body": "11 km from the centre",
+              "status": "verified"
+            },
+            {
+              "title": "Time needed",
+              "body": "3–4 days",
+              "status": "verified"
+            },
+            {
+              "title": "Getting around",
+              "body": "Trin Trin app cycles, self-drive cars and bikes, taxis and tanga rides; KSTDC runs city sightseeing tours.",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "K5M1",
+            "K5M2"
+          ]
         }
       },
       "wikidataId": "Q10086",
@@ -3589,6 +4524,124 @@
             "MYS1",
             "MYC1"
           ]
+        },
+        "key_facts": {
+          "items": [
+            {
+              "title": "From Mysuru",
+              "body": "About 15 km",
+              "status": "verified"
+            },
+            {
+              "title": "From Bengaluru",
+              "body": "About 125 km",
+              "status": "verified"
+            },
+            {
+              "title": "Time needed",
+              "body": "One day",
+              "status": "verified"
+            },
+            {
+              "title": "Best time",
+              "body": "October–March",
+              "status": "seasonal"
+            }
+          ],
+          "facts": [
+            "K5S1"
+          ]
+        },
+        "where_to_stay": {
+          "text": "Most travellers base themselves in Mysuru, 15 km away, which has hotels at every budget, and visit Srirangapatna as a day trip. A few guesthouses and budget stays in and around town make sense if you want to be here at sunrise for the early temple bell at Sri Ranganathaswamy.",
+          "facts": [
+            "K5S3"
+          ]
+        },
+        "practical_info": {
+          "items": [
+            {
+              "title": "Temple hours",
+              "body": "Ranganathaswamy: 7 am–2 pm, 4–8 pm",
+              "status": "verified"
+            },
+            {
+              "title": "Tips",
+              "body": "Start early, dress modestly, check photo rules in the sanctum and hire a guide for the fort.",
+              "status": "verified"
+            },
+            {
+              "title": "Crowds",
+              "body": "Weekends are very busy — go on a weekday.",
+              "status": "verified"
+            },
+            {
+              "title": "Visas",
+              "body": "Apply for an e-Tourist visa at least 4 days before arrival; your passport needs at least six months' validity.",
+              "status": "verified"
+            },
+            {
+              "title": "Payments",
+              "body": "Visitors can pay by QR code with NPCI's UPI One World wallet after a passport-and-visa KYC check. Carry some cash for small purchases.",
+              "status": "verified"
+            },
+            {
+              "title": "Emergency",
+              "body": "Dial 112 for police, fire or ambulance.",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "K5S2",
+            "K5S4",
+            "KA_VISA",
+            "KA_UPI",
+            "KA_112"
+          ]
+        },
+        "who_its_for": {
+          "items": [
+            {
+              "title": "History lovers",
+              "body": "Tipu Sultan's capital and the fort of the Anglo-Mysore wars."
+            },
+            {
+              "title": "Pilgrims",
+              "body": "The Ranganathaswamy Temple."
+            },
+            {
+              "title": "Birders",
+              "body": "Ranganathittu Bird Sanctuary, 3 km away."
+            }
+          ],
+          "facts": [
+            "K5S5"
+          ]
+        },
+        "faqs": {
+          "items": [
+            {
+              "title": "How far is Srirangapatna from Mysuru and Bengaluru?",
+              "body": "About 15 km from Mysuru and 125 km from Bengaluru."
+            },
+            {
+              "title": "Can I see it in one day?",
+              "body": "Yes — one day is usually enough."
+            },
+            {
+              "title": "What are the temple timings?",
+              "body": "The Ranganathaswamy Temple is open 7 am–2 pm and 4–8 pm."
+            },
+            {
+              "title": "Is it a UNESCO site?",
+              "body": "No, it is not currently a UNESCO World Heritage Site."
+            }
+          ],
+          "facts": [
+            "K5S1",
+            "K5S2",
+            "K5S5"
+          ]
         }
       },
       "wikidataId": "Q653988",
@@ -3837,6 +4890,41 @@
             "CGA1",
             "CG3",
             "CG4"
+          ]
+        },
+        "where_to_stay": {
+          "text": "Coorg has stays for every budget. Premium resorts offer scenic views and a peaceful setting, but the classic choice is a homestay: they are very popular here, with home-cooked food, local families and a real taste of the Kodava way of life.",
+          "facts": [
+            "K5C1"
+          ]
+        },
+        "local_transport": {
+          "text": "Coorg has no airport or railway station, so everything is by road. From Mysuru, hire a taxi or take a bus to Madikeri; within the district, taxis are the easiest way between viewpoints, plantations and falls. If you drive yourself, go carefully on the hill roads.",
+          "facts": [
+            "K5C2",
+            "K5C3"
+          ]
+        },
+        "safety_health": {
+          "items": [
+            {
+              "title": "Monsoon",
+              "body": "June–September brings heavy rain, slippery roads and limited outdoor activities.",
+              "status": "seasonal"
+            },
+            {
+              "title": "Hill roads",
+              "body": "Drive carefully in hilly areas.",
+              "status": "verified"
+            },
+            {
+              "title": "Cash",
+              "body": "Carry cash for small purchases.",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "K5C3"
           ]
         }
       },
@@ -4465,6 +5553,47 @@
             "HM4",
             "HM2"
           ]
+        },
+        "key_facts": {
+          "items": [
+            {
+              "title": "UNESCO",
+              "body": "World Heritage Site since 1986",
+              "status": "verified"
+            },
+            {
+              "title": "Nearest station",
+              "body": "Hosapete Junction, about 13 km",
+              "status": "verified"
+            },
+            {
+              "title": "Nearest airport",
+              "body": "Jindal Vijaynagar, about 40 km",
+              "status": "verified"
+            },
+            {
+              "title": "Time needed",
+              "body": "2–3 days",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "K5H1",
+            "K5H2"
+          ]
+        },
+        "where_to_stay": {
+          "text": "Hampi has everything from simple guesthouses and homestays to modern hotels and luxury resorts. Many travellers prefer to stay in Hampi itself, among the ruins and close to the main monuments; Hosapete, 13 km away, has the railway station.",
+          "facts": [
+            "K5H3",
+            "K5H2"
+          ]
+        },
+        "local_transport": {
+          "text": "Local taxis, buses and rental bikes run from Hosapete to Hampi. Around the site, walk through the ruins, cycle across the landscape, or take the Hampi Buggy Train to reach several key monuments.",
+          "facts": [
+            "K5H4"
+          ]
         }
       },
       "wikidataId": "Q26732",
@@ -5029,6 +6158,89 @@
             "K2D1",
             "K2D3"
           ]
+        },
+        "practical_info": {
+          "items": [
+            {
+              "title": "Cave temples",
+              "body": "₹40 Indians, ₹600 foreign visitors; the ticket covers the fort climb.",
+              "status": "verified"
+            },
+            {
+              "title": "Museum",
+              "body": "Closed on Fridays.",
+              "status": "verified"
+            },
+            {
+              "title": "Time needed",
+              "body": "Two days, including Pattadakal and Aihole.",
+              "status": "verified"
+            },
+            {
+              "title": "Visas",
+              "body": "Apply for an e-Tourist visa at least 4 days before arrival; your passport needs at least six months' validity.",
+              "status": "verified"
+            },
+            {
+              "title": "Payments",
+              "body": "Visitors can pay by QR code with NPCI's UPI One World wallet after a passport-and-visa KYC check. Carry some cash for small purchases.",
+              "status": "verified"
+            },
+            {
+              "title": "Emergency",
+              "body": "Dial 112 for police, fire or ambulance.",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "K5D1",
+            "K5D4",
+            "KA_VISA",
+            "KA_UPI",
+            "KA_112"
+          ]
+        },
+        "safety_health": {
+          "items": [
+            {
+              "title": "Heat",
+              "body": "March–May often tops 40°C — start by 7 am and finish by 11 am.",
+              "status": "seasonal"
+            },
+            {
+              "title": "Monsoon",
+              "body": "Some paths grow slippery; carry waterproof footwear.",
+              "status": "seasonal"
+            },
+            {
+              "title": "Fort trek",
+              "body": "30–45 minutes on uneven stone paths; wear sturdy shoes.",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "K5D2"
+          ]
+        },
+        "who_its_for": {
+          "items": [
+            {
+              "title": "History lovers",
+              "body": "Chalukya cave temples, the fort and Malegitti Shivalaya."
+            },
+            {
+              "title": "Climbers",
+              "body": "Red sandstone routes that draw climbers from across India."
+            },
+            {
+              "title": "Temple trail",
+              "body": "A base for Pattadakal and Aihole."
+            }
+          ],
+          "facts": [
+            "K5D3",
+            "K5D4"
+          ]
         }
       },
       "wikidataId": "Q590751",
@@ -5438,6 +6650,58 @@
             "GK2",
             "GKM2",
             "GK4"
+          ]
+        },
+        "key_facts": {
+          "items": [
+            {
+              "title": "Temple hours",
+              "body": "6 am–12.30 pm, 5–8 pm",
+              "status": "verified"
+            },
+            {
+              "title": "Temple entry",
+              "body": "Free",
+              "status": "verified"
+            },
+            {
+              "title": "Nearest station",
+              "body": "Gokarna Road, about 10 km",
+              "status": "verified"
+            },
+            {
+              "title": "Best time",
+              "body": "October–March",
+              "status": "seasonal"
+            }
+          ],
+          "facts": [
+            "K5G1",
+            "K5G2"
+          ]
+        },
+        "local_transport": {
+          "text": "Autos and taxis connect Gokarna Road station, about 10 km out, with the town. Kudle Beach is a 10-minute walk south of town and Om Beach about 6 km away; Half Moon and Paradise beaches are reached only by the cliffside trail or by boat from Om Beach.",
+          "facts": [
+            "K5G2",
+            "K5G3"
+          ]
+        },
+        "where_to_stay": {
+          "text": "Kudle Beach, a short walk from town, is lined with laid-back cafés and guesthouses and suits backpackers and yoga seekers. Stay in town for the temples; for solitude, long-stay travellers camp on Paradise Beach.",
+          "facts": [
+            "K5G5",
+            "K5G3"
+          ]
+        },
+        "food": {
+          "items": [
+            {
+              "body": "Free temple meals (annadanam) at Mahabaleshwar: lunch 12–2 pm, dinner 7.30–8.30 pm."
+            }
+          ],
+          "facts": [
+            "K5G4"
           ]
         }
       },
@@ -5977,6 +7241,133 @@
             "GKK1",
             "GKY1"
           ]
+        },
+        "key_facts": {
+          "items": [
+            {
+              "title": "Temple hours",
+              "body": "6 am–8.30 pm, with a midday break",
+              "status": "verified"
+            },
+            {
+              "title": "Entry",
+              "body": "Free; small fee for the Raja Gopuram lift",
+              "status": "verified"
+            },
+            {
+              "title": "Shiva statue",
+              "body": "About 123 ft",
+              "status": "verified"
+            },
+            {
+              "title": "From Gokarna",
+              "body": "About 78 km",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "K5R1",
+            "K5R2"
+          ]
+        },
+        "food": {
+          "items": [
+            {
+              "body": "A fresh fish thali with kokum solkadi at a beachside restaurant."
+            },
+            {
+              "body": "Kane fry — ladyfish with a red chilli crust."
+            },
+            {
+              "body": "Prawn gassi, a coconut-milk curry."
+            },
+            {
+              "body": "Free Anna Prasada meals at the temple in the afternoon."
+            }
+          ],
+          "facts": [
+            "K5R3"
+          ]
+        },
+        "where_to_stay": {
+          "text": "Budget hotels, mid-range stays and a few sea-facing resorts cluster near the temple and beach, so you can explore on foot; the temple also offers simple, affordable guesthouses. Book at least two weeks ahead around Diwali, Christmas and New Year, and four to six weeks ahead for Maha Shivaratri.",
+          "facts": [
+            "K5R4"
+          ]
+        },
+        "safety_health": {
+          "items": [
+            {
+              "title": "Monsoon sea",
+              "body": "Water sports and Netrani Island trips are suspended June–September.",
+              "status": "seasonal"
+            },
+            {
+              "title": "Diving",
+              "body": "Beginners and non-swimmers can dive at Netrani with trained instructors.",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "K5R5"
+          ]
+        },
+        "who_its_for": {
+          "items": [
+            {
+              "title": "Pilgrims",
+              "body": "The seaside temple and its giant Shiva statue."
+            },
+            {
+              "title": "Divers",
+              "body": "Netrani Island, open to beginners with instructors."
+            },
+            {
+              "title": "Seafood lovers",
+              "body": "Fish thalis, kane fry and prawn gassi."
+            }
+          ],
+          "facts": [
+            "K5R1",
+            "K5R5",
+            "K5R3"
+          ]
+        },
+        "practical_info": {
+          "items": [
+            {
+              "title": "Dress code",
+              "body": "Wear traditional, modest clothing at the temple.",
+              "status": "verified"
+            },
+            {
+              "title": "Bookings",
+              "body": "Book two weeks ahead in peak season; 4–6 weeks for Maha Shivaratri.",
+              "status": "seasonal"
+            },
+            {
+              "title": "Visas",
+              "body": "Apply for an e-Tourist visa at least 4 days before arrival; your passport needs at least six months' validity.",
+              "status": "verified"
+            },
+            {
+              "title": "Payments",
+              "body": "Visitors can pay by QR code with NPCI's UPI One World wallet after a passport-and-visa KYC check. Carry some cash for small purchases.",
+              "status": "verified"
+            },
+            {
+              "title": "Emergency",
+              "body": "Dial 112 for police, fire or ambulance.",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "K5R6",
+            "K5R4",
+            "KA_VISA",
+            "KA_UPI",
+            "KA_112"
+          ]
         }
       },
       "wikidataId": "Q2992986",
@@ -6121,6 +7512,103 @@
           "facts": [
             "UDK2",
             "UDS2"
+          ]
+        },
+        "key_facts": {
+          "items": [
+            {
+              "title": "From Bengaluru",
+              "body": "About 400 km, 8–10 hours",
+              "status": "verified"
+            },
+            {
+              "title": "Rail",
+              "body": "Udupi station, Konkan Railway",
+              "status": "verified"
+            },
+            {
+              "title": "Nearest airport",
+              "body": "Mangaluru, about 60 km",
+              "status": "verified"
+            },
+            {
+              "title": "Best time",
+              "body": "October–March",
+              "status": "seasonal"
+            }
+          ],
+          "facts": [
+            "K5U1"
+          ]
+        },
+        "things_to_do": {
+          "items": [
+            {
+              "body": "See Lord Krishna through the Kanakana Kindi window at the Sri Krishna Temple."
+            },
+            {
+              "body": "Spend an afternoon on Malpe, Kapu or Padubidri beach."
+            },
+            {
+              "body": "Day-trip to Kollur Mookambika (74 km) or Agumbe's rainforest (55 km)."
+            },
+            {
+              "body": "Visit the Jain heritage of Karkala (40 km)."
+            }
+          ],
+          "facts": [
+            "K5U2",
+            "K5U3"
+          ]
+        },
+        "who_its_for": {
+          "items": [
+            {
+              "title": "Pilgrims",
+              "body": "The Sri Krishna Temple and Kollur Mookambika."
+            },
+            {
+              "title": "Beach lovers",
+              "body": "Malpe, Kapu and Padubidri."
+            },
+            {
+              "title": "Nature lovers",
+              "body": "Agumbe, the 'Cherrapunji of South India'."
+            }
+          ],
+          "facts": [
+            "K5U2",
+            "K5U3"
+          ]
+        },
+        "practical_info": {
+          "items": [
+            {
+              "title": "Time needed",
+              "body": "2–3 days.",
+              "status": "verified"
+            },
+            {
+              "title": "Visas",
+              "body": "Apply for an e-Tourist visa at least 4 days before arrival; your passport needs at least six months' validity.",
+              "status": "verified"
+            },
+            {
+              "title": "Payments",
+              "body": "Visitors can pay by QR code with NPCI's UPI One World wallet after a passport-and-visa KYC check. Carry some cash for small purchases.",
+              "status": "verified"
+            },
+            {
+              "title": "Emergency",
+              "body": "Dial 112 for police, fire or ambulance.",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "K5U4",
+            "KA_VISA",
+            "KA_UPI",
+            "KA_112"
           ]
         }
       },
