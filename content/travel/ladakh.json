@@ -1162,6 +1162,81 @@
             "LHH1",
             "LHK1"
           ]
+        },
+        "key_facts": {
+          "items": [
+            {
+              "title": "Altitude",
+              "body": "About 3,500 m",
+              "status": "verified"
+            },
+            {
+              "title": "Airport",
+              "body": "Kushok Bakula Rimpochee, 3,256 m — India's highest commercial airport",
+              "status": "verified"
+            },
+            {
+              "title": "Best time",
+              "body": "February–October",
+              "status": "seasonal"
+            },
+            {
+              "title": "Acclimatise",
+              "body": "At least 48 hours on arrival",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "LH1",
+            "LA6",
+            "LA8",
+            "LA3"
+          ]
+        },
+        "food": {
+          "items": [
+            {
+              "body": "Thukpa and momos."
+            },
+            {
+              "body": "Tsampa (ngamphe) and skyu."
+            },
+            {
+              "body": "Chang, the local celebratory drink."
+            }
+          ],
+          "facts": [
+            "LA9"
+          ]
+        },
+        "local_transport": {
+          "text": "Leh's airport, at 3,256 m, is India's highest commercial airport; by road, Leh is 434 km from Srinagar and also reached on the Leh–Manali highway. Lakes such as Pangong (160–170 km, 5–6 hours via Chang La) have no scheduled buses — hire a car.",
+          "facts": [
+            "LA6",
+            "LA7",
+            "LDK_LHPG"
+          ]
+        },
+        "who_its_for": {
+          "items": [
+            {
+              "title": "Monastery lovers",
+              "body": "Ladakh's 'Little Tibet' of active Buddhist monasteries."
+            },
+            {
+              "title": "Festival-goers",
+              "body": "Hemis (June/July), Sindhu Darshan, the Ladakh Festival (20–26 September) and Thiksey (October/November)."
+            },
+            {
+              "title": "Road-trippers",
+              "body": "Khardung La, Nubra and the high lakes."
+            }
+          ],
+          "facts": [
+            "LA1",
+            "LH3",
+            "NBK1"
+          ]
         }
       },
       "wikidataId": "Q230818",
@@ -1824,6 +1899,106 @@
             "NBH1",
             "NBT1"
           ]
+        },
+        "key_facts": {
+          "items": [
+            {
+              "title": "From Leh",
+              "body": "About 110 km, 5 hours, over Khardung La",
+              "status": "verified"
+            },
+            {
+              "title": "Permit",
+              "body": "Protected Area Permit for foreigners",
+              "status": "verified"
+            },
+            {
+              "title": "To Pangong",
+              "body": "About 162 km, 5–6 hours via Agham–Shyok",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "NB1",
+            "NB2",
+            "LDK_NBPG"
+          ]
+        },
+        "how_to_reach": {
+          "text": "The road from Leh to Diskit, about 110 km and five hours, crosses Khardung La. From Nubra, the Agham–Shyok road reaches Pangong (Spangmik) in about 5–6 hours.",
+          "facts": [
+            "NB1",
+            "LDK_NBPG"
+          ]
+        },
+        "best_time": {
+          "text": "February to October is the season for Ladakh; winters from late November to early March are long and very cold.",
+          "facts": [
+            "LA8"
+          ]
+        },
+        "things_to_do": {
+          "items": [
+            {
+              "body": "Diskit, Nubra's oldest and largest monastery, with its giant Maitreya Buddha."
+            },
+            {
+              "body": "The Hunder sand dunes and their double-humped Bactrian camels, about 10 km from Diskit."
+            },
+            {
+              "body": "Drive on to Turtuk, about 90 km beyond Diskit."
+            }
+          ],
+          "facts": [
+            "NBD1",
+            "NBH1",
+            "NBT1"
+          ]
+        },
+        "food": {
+          "items": [
+            {
+              "body": "Thukpa, momos, tsampa and skyu."
+            }
+          ],
+          "facts": [
+            "LA9"
+          ]
+        },
+        "safety_health": {
+          "items": [
+            {
+              "title": "Acclimatise",
+              "body": "Spend at least 48 hours in Leh before going higher; HAPE and HACE can be fatal — see a doctor at once if symptoms appear.",
+              "status": "verified"
+            },
+            {
+              "title": "Emergency",
+              "body": "Dial 112 for police, fire or ambulance.",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "LA3",
+            "LA4",
+            "LA_112"
+          ]
+        },
+        "faqs": {
+          "items": [
+            {
+              "title": "Do foreigners need a permit?",
+              "body": "Yes — a Protected Area Permit."
+            },
+            {
+              "title": "How far is Nubra from Leh?",
+              "body": "About 110 km, 5 hours over Khardung La."
+            }
+          ],
+          "facts": [
+            "NB2",
+            "NB1"
+          ]
         }
       },
       "parent": "ladakh/leh"
@@ -2116,6 +2291,48 @@
             "LA3",
             "LA4"
           ]
+        },
+        "key_facts": {
+          "items": [
+            {
+              "title": "From Diskit",
+              "body": "About 90 km on the Shyok",
+              "status": "verified"
+            },
+            {
+              "title": "Known for",
+              "body": "Balti village and apricot orchards",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "NBT1"
+          ]
+        },
+        "how_to_reach": {
+          "text": "Turtuk is about 90 km beyond Diskit along the Shyok, so travel via Nubra (Leh to Diskit is about 110 km over Khardung La).",
+          "facts": [
+            "NBT1",
+            "NB1"
+          ]
+        },
+        "practical_info": {
+          "items": [
+            {
+              "title": "Permit",
+              "body": "Foreign nationals need a Protected Area Permit for Nubra.",
+              "status": "verified"
+            },
+            {
+              "title": "Emergency",
+              "body": "Dial 112 for police, fire or ambulance.",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "NB2",
+            "LA_112"
+          ]
         }
       },
       "wikidataId": "Q24905777",
@@ -2341,6 +2558,66 @@
           "facts": [
             "LA6",
             "LA7"
+          ]
+        },
+        "key_facts": {
+          "items": [
+            {
+              "title": "Dras",
+              "body": "The 'Gateway to Ladakh', called the second coldest inhabited place on Earth",
+              "status": "verified"
+            },
+            {
+              "title": "War memorial",
+              "body": "Dras, 60 km from Kargil; Vijay Diwas 26 July",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "KG1",
+            "KGW1"
+          ]
+        },
+        "things_to_do": {
+          "items": [
+            {
+              "body": "The Kargil War Memorial at Dras, 60 km away."
+            },
+            {
+              "body": "Mulbekh's 30-foot rock-carved Maitreya Buddha."
+            }
+          ],
+          "facts": [
+            "KGW1",
+            "KGM1"
+          ]
+        },
+        "food": {
+          "items": [
+            {
+              "body": "Ladakhi thukpa, momos and skyu."
+            }
+          ],
+          "facts": [
+            "LA9"
+          ]
+        },
+        "practical_info": {
+          "items": [
+            {
+              "title": "Acclimatise",
+              "body": "Take it slowly at altitude and see a doctor at once if HAPE or HACE symptoms appear.",
+              "status": "verified"
+            },
+            {
+              "title": "Emergency",
+              "body": "Dial 112 for police, fire or ambulance.",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "LA4",
+            "LA_112"
           ]
         }
       },

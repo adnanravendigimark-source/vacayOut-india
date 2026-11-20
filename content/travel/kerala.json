@@ -603,6 +603,46 @@
       "url": "https://www.bhaktibharat.com/en/mandir/padmanabhaswamy-temple",
       "title": "Padmanabhaswamy Temple — Bhakti Bharat",
       "authority": "other"
+    },
+    "IK_WAY": {
+      "url": "https://www.incredibleindia.gov.in/en/kerala/wayanad",
+      "title": "Wayanad — Incredible India (Ministry of Tourism)",
+      "authority": "government"
+    },
+    "IK_KOV": {
+      "url": "https://www.incredibleindia.gov.in/en/kerala/kovalam",
+      "title": "Kovalam — Incredible India (Ministry of Tourism)",
+      "authority": "government"
+    },
+    "IK_KAN": {
+      "url": "https://www.incredibleindia.gov.in/en/kerala/kannur",
+      "title": "Kannur — Incredible India (Ministry of Tourism)",
+      "authority": "government"
+    },
+    "IK_TVM": {
+      "url": "https://www.incredibleindia.gov.in/en/kerala/thiruvananthapuram",
+      "title": "Thiruvananthapuram — Incredible India (Ministry of Tourism)",
+      "authority": "government"
+    },
+    "IK_KOZ": {
+      "url": "https://www.incredibleindia.gov.in/en/kerala/kozhikode",
+      "title": "Kozhikode — Incredible India (Ministry of Tourism)",
+      "authority": "government"
+    },
+    "IK_KUM": {
+      "url": "https://www.incredibleindia.gov.in/en/kerala/kumarakom",
+      "title": "Kumarakom — Incredible India (Ministry of Tourism)",
+      "authority": "government"
+    },
+    "IK_BEK": {
+      "url": "https://www.incredibleindia.gov.in/en/kerala/bekal",
+      "title": "Bekal — Incredible India (Ministry of Tourism)",
+      "authority": "government"
+    },
+    "IK_KOC": {
+      "url": "https://www.incredibleindia.gov.in/en/kerala/kochi",
+      "title": "Kochi — Incredible India (Ministry of Tourism)",
+      "authority": "government"
     }
   },
   "facts": {
@@ -4012,6 +4052,270 @@
           "quote": "The fastest train between these cities takes approximately 1:38 hours"
         }
       ]
+    },
+    "K1V1": {
+      "place": "kerala/kovalam",
+      "topic": "K1V1",
+      "claim": "Stays range from beachfront resorts and five-star hotels to budget cottages and wellness retreats; beachfront cafés and Kerala and international food.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "IK_KOV",
+          "quote": "Accommodation options in Kovalam range from luxury beachfront resorts and five-star hotels to budget-friendly cottages and wellness retreats."
+        },
+        {
+          "source": "IK_KOV",
+          "quote": "Evenings in Kovalam are lively, with beachfront cafés"
+        },
+        {
+          "source": "IK_KOV",
+          "quote": "offering authentic Kerala cuisine alongside international flavours"
+        }
+      ]
+    },
+    "K1S2": {
+      "place": "kerala",
+      "topic": "K1S2",
+      "claim": "In the June–September monsoon, heavy rain can restrict travel in some areas.",
+      "claimType": "schedule",
+      "evidence": [
+        {
+          "source": "IK_WAY",
+          "quote": "From June to September, monsoon rains create misty forests and dramatic scenery although travel may be restricted in some areas due to heavy showers."
+        }
+      ]
+    },
+    "K1V2": {
+      "place": "kerala/kovalam",
+      "topic": "K1V2",
+      "claim": "Kovalam is 12–15 km from Thiruvananthapuram; buses and taxis run from the city; the airport is about 15 km; Thiruvananthapuram Central is the nearest station.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "IK_KOV",
+          "quote": "Kovalam is located approximately 12–15 kilometres from Thiruvananthapuram"
+        },
+        {
+          "source": "IK_KOV",
+          "quote": "Regular buses, taxis, and private vehicles operate from Thiruvananthapuram"
+        },
+        {
+          "source": "IK_KOV",
+          "quote": "The nearest airport is Thiruvananthapuram International Airport, located approximately 15 kilometres from Kovalam."
+        },
+        {
+          "source": "IK_KOV",
+          "quote": "Thiruvananthapuram Central Railway Station is the closest railhead"
+        }
+      ]
+    },
+    "K1S1": {
+      "place": "kerala",
+      "topic": "K1S1",
+      "claim": "112 is India's single emergency number.",
+      "claimType": "contact",
+      "evidence": [
+        {
+          "source": "W_112",
+          "quote": "112 is now the pan-country single emergency number for all emergencies."
+        }
+      ]
+    },
+    "K1N2": {
+      "place": "kerala/kannur",
+      "topic": "K1N2",
+      "claim": "Best time October–March; monsoon June–September; April–May hot and humid.",
+      "claimType": "schedule",
+      "evidence": [
+        {
+          "source": "IK_KAN",
+          "quote": "The best time to visit Kannur is from October to March"
+        },
+        {
+          "source": "IK_KAN",
+          "quote": "The monsoon season, from June to September"
+        },
+        {
+          "source": "IK_KAN",
+          "quote": "April and May bring warmer temperatures and higher humidity"
+        }
+      ]
+    },
+    "K1N1": {
+      "place": "kerala/kannur",
+      "topic": "K1N1",
+      "claim": "Malabar food: Thalassery biryani, mussel biryani, mutton korma, neypathiri, pathiri and fish curries.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "IK_KAN",
+          "quote": "Local kitchens serve iconic dishes such as Thalassery biryani made with aromatic jeerakasala rice, mussel biryani, coconut-based mutton korma, neypathiri and pathiri breads, and rich fish curries."
+        }
+      ]
+    },
+    "K1T1": {
+      "place": "kerala/thiruvananthapuram",
+      "topic": "K1T1",
+      "claim": "Seafood, spices and coconut curries: fish curry, appam with stew, puttu and kadala, banana-leaf meals, street snacks.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "IK_TVM",
+          "quote": "The city's cuisine is known for its use of fresh seafood, aromatic spices, and coconut-based curries."
+        },
+        {
+          "source": "IK_TVM",
+          "quote": "Popular dishes include Kerala-style fish curry, appam with stew, puttu and kadala curry, and banana leaf meals."
+        },
+        {
+          "source": "IK_TVM",
+          "quote": "Thiruvananthapuram's bustling street food scene, with its array of snacks and sweets, is a must-try for food enthusiasts."
+        }
+      ]
+    },
+    "K1Z1": {
+      "place": "kerala/kozhikode",
+      "topic": "K1Z1",
+      "claim": "Kozhikode biryani, seafood, pathiri and Kozhikode halwa; SM Street (Mittai Theruvu) for sweets and spices.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "IK_KOZ",
+          "quote": "Signature dishes include Kozhikode Biryani , seafood preparations, Pathiri , and the iconic Kozhikode Halwa ."
+        },
+        {
+          "source": "IK_KOZ",
+          "quote": "The bustling SM Street, also known as Mittai Theruvu , is a sensory delight filled with sweet shops, spice stores, and traditional eateries"
+        }
+      ]
+    },
+    "K1Z2": {
+      "place": "kerala/kozhikode",
+      "topic": "K1Z2",
+      "claim": "International airport; frequent trains; buses and taxis.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "IK_KOZ",
+          "quote": "Kozhikode International Airport is well connected to major Indian cities and international destinations"
+        },
+        {
+          "source": "IK_KOZ",
+          "quote": "Regular bus services and taxis are easily available."
+        },
+        {
+          "source": "IK_KOZ",
+          "quote": "Kozhikode Railway Station is a major railhead on the west coast route"
+        }
+      ]
+    },
+    "K1W1": {
+      "place": "kerala/wayanad",
+      "topic": "K1W1",
+      "claim": "Calicut airport is 65–93 km away; no railway — Kozhikode station is 90–110 km; taxis and buses to Kalpetta, Sulthan Bathery and Mananthavady; buses from Bengaluru, Mysuru, Kochi and Coimbatore.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "IK_WAY",
+          "quote": "The nearest airport is Calicut International Airport (Kozhikode) which is located approximately 65 to 93 kilometers from Wayanad"
+        },
+        {
+          "source": "IK_WAY",
+          "quote": "Wayanad does not have its own railway station."
+        },
+        {
+          "source": "IK_WAY",
+          "quote": "The nearest railhead is Kozhikode Railway Station, about 90 to 110 kilometers away."
+        },
+        {
+          "source": "IK_WAY",
+          "quote": "State transport buses, private buses, taxis, and self-drive options offer convenient access from Bengaluru, Mysuru, Kochi, Kozhikode, and Coimbatore ."
+        }
+      ]
+    },
+    "K1K1": {
+      "place": "kerala/kumarakom",
+      "topic": "K1K1",
+      "claim": "Seafood and Kerala dishes at restaurants, homestays and houseboats; Ayurvedic wellness centres and spa resorts.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "IK_KUM",
+          "quote": "Visitors can savour these culinary delights at local restaurants, homestays and houseboats"
+        },
+        {
+          "source": "IK_KUM",
+          "quote": "Kumarakom is even known for its Ayurvedic wellness centres and spa resorts"
+        }
+      ]
+    },
+    "K1B2": {
+      "place": "kerala/bekal",
+      "topic": "K1B2",
+      "claim": "Best November–February; monsoon June–September.",
+      "claimType": "schedule",
+      "evidence": [
+        {
+          "source": "IK_BEK",
+          "quote": "Plan your trip between November and February for the most pleasant weather"
+        },
+        {
+          "source": "IK_BEK",
+          "quote": "the monsoon season (June to September) offers a different perspective"
+        }
+      ]
+    },
+    "K1B3": {
+      "place": "kerala/bekal",
+      "topic": "K1B3",
+      "claim": "Chandragiri Boat Club runs speedboats, houseboat cruises and island camping.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "IK_BEK",
+          "quote": "the Chandragiri Boat Club offers a variety of options – speedboat rides, houseboat cruises, island camping, and wildlife tours"
+        }
+      ]
+    },
+    "K1B1": {
+      "place": "kerala/bekal",
+      "topic": "K1B1",
+      "claim": "Bekal food: steamed and fried dishes, fried bananas, bhajji, payasam, mango pickle; sea-view seafood restaurants.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "IK_BEK",
+          "quote": "Bekal specialises in steamed and fried dishes."
+        },
+        {
+          "source": "IK_BEK",
+          "quote": "try the sweet fried bananas or fiery bhajji (fried chillies)"
+        },
+        {
+          "source": "IK_BEK",
+          "quote": "Head to the numerous sea-view restaurants offering delectable seafood dishes"
+        }
+      ]
+    },
+    "K1C1": {
+      "place": "kerala/kochi",
+      "topic": "K1C1",
+      "claim": "Kochi is the food capital of Kerala, the gateway to the backwaters and hills; best October–March.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "IK_KOC",
+          "quote": "Kochi's status as the official food capital of Kerala"
+        },
+        {
+          "source": "IK_KOC",
+          "quote": "Kochi also serves as the gateway to Kerala, with its network of interconnected backwaters, lush greenery, and hill stations."
+        },
+        {
+          "source": "IK_KOC",
+          "quote": "the winter months, between October and March, offer the most pleasant weather"
+        }
+      ]
     }
   },
   "places": [
@@ -4729,6 +5033,70 @@
             "KC7",
             "KC12"
           ]
+        },
+        "who_its_for": {
+          "items": [
+            {
+              "title": "Food lovers",
+              "body": "Kerala's food capital, with the widest choice of restaurants in the state."
+            },
+            {
+              "title": "First-timers",
+              "body": "The gateway to the backwaters and the hill stations."
+            }
+          ],
+          "facts": [
+            "K1C1"
+          ]
+        },
+        "safety_health": {
+          "items": [
+            {
+              "title": "Monsoon",
+              "body": "June–September rain can restrict travel in places; check roads and weather before setting out.",
+              "status": "seasonal"
+            },
+            {
+              "title": "Emergency",
+              "body": "Dial 112 for police, fire or ambulance.",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "K1S2",
+            "K1S1"
+          ]
+        },
+        "practical_info": {
+          "items": [
+            {
+              "title": "Language",
+              "body": "English is widely spoken in tourist areas.",
+              "status": "verified"
+            },
+            {
+              "title": "Etiquette",
+              "body": "Dress modestly at religious sites, ask before photographing people; tipping isn't mandatory.",
+              "status": "verified"
+            },
+            {
+              "title": "Pack",
+              "body": "Light clothing, sunscreen, insect repellent and a hat — rain gear in the monsoon.",
+              "status": "verified"
+            },
+            {
+              "title": "Emergency",
+              "body": "Dial 112.",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "KS25",
+            "KS24",
+            "KS26",
+            "KS12",
+            "K6"
+          ]
         }
       }
     },
@@ -4976,6 +5344,52 @@
             "MN9",
             "MN3"
           ]
+        },
+        "safety_health": {
+          "items": [
+            {
+              "title": "Monsoon",
+              "body": "June–September rain can restrict travel in places; check roads and weather before setting out.",
+              "status": "seasonal"
+            },
+            {
+              "title": "Emergency",
+              "body": "Dial 112 for police, fire or ambulance.",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "K1S2",
+            "K1S1"
+          ]
+        },
+        "food": {
+          "items": [
+            {
+              "body": "Tea tasting at the Tata Tea Museum, Nallathanni Estate."
+            },
+            {
+              "body": "Kerala staples: appam with stew, puttu with kadala."
+            }
+          ],
+          "facts": [
+            "MN6",
+            "KS22"
+          ]
+        },
+        "local_transport": {
+          "text": "Munnar is about 130 km (4.5 hours) from Kochi; Cochin airport is about 119 km and Ernakulam Junction about 120 km. Top Station is 32 km out. State and private buses are cheap and run everywhere, and taxis are easy to find in towns.",
+          "facts": [
+            "MN9",
+            "MN4",
+            "KS8"
+          ]
+        },
+        "where_to_stay": {
+          "text": "Look for family-run homestays — Kerala Tourism lists government-approved ones — alongside hotels and resorts.",
+          "facts": [
+            "KS19"
+          ]
         }
       },
       "parent": "kerala",
@@ -5157,6 +5571,70 @@
             "AL8",
             "AL9"
           ]
+        },
+        "safety_health": {
+          "items": [
+            {
+              "title": "Monsoon",
+              "body": "June–September rain can restrict travel in places; check roads and weather before setting out.",
+              "status": "seasonal"
+            },
+            {
+              "title": "Emergency",
+              "body": "Dial 112 for police, fire or ambulance.",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "K1S2",
+            "K1S1"
+          ]
+        },
+        "key_facts": {
+          "items": [
+            {
+              "title": "From Kochi",
+              "body": "About 62 km",
+              "status": "verified"
+            },
+            {
+              "title": "Best time",
+              "body": "October–February",
+              "status": "seasonal"
+            },
+            {
+              "title": "Known for",
+              "body": "Backwaters and houseboats",
+              "status": "verified"
+            },
+            {
+              "title": "Nehru Trophy race",
+              "body": "Second Saturday of August",
+              "status": "seasonal"
+            }
+          ],
+          "facts": [
+            "AL1",
+            "AL7",
+            "AL4",
+            "AL5"
+          ]
+        },
+        "local_transport": {
+          "text": "Alappuzha station is under 1 km from town; Cochin airport is about 83 km (2 hours). On the water, smaller shikara boats reach the narrow canals that houseboats can't. State and private buses are cheap and run everywhere, and taxis are easy to find in towns.",
+          "facts": [
+            "AP1",
+            "AP2",
+            "KS8"
+          ]
+        },
+        "where_to_stay": {
+          "text": "Stay on a houseboat — overnight boats board at noon, anchor by 5:30 pm and finish at 9 am — or in a lakeside homestay.",
+          "facts": [
+            "HB_T",
+            "KS20",
+            "KS19"
+          ]
         }
       },
       "parent": "kerala",
@@ -5261,6 +5739,109 @@
             "KV5",
             "VK7"
           ]
+        },
+        "food": {
+          "items": [
+            {
+              "body": "Kerala fish curry, and appam with stew."
+            },
+            {
+              "body": "Puttu and kadala curry for breakfast; a meal on a banana leaf."
+            },
+            {
+              "body": "The city's street snacks and sweets."
+            }
+          ],
+          "facts": [
+            "K1T1"
+          ]
+        },
+        "safety_health": {
+          "items": [
+            {
+              "title": "Monsoon",
+              "body": "June–September rain can restrict travel in places; check roads and weather before setting out.",
+              "status": "seasonal"
+            },
+            {
+              "title": "Emergency",
+              "body": "Dial 112 for police, fire or ambulance.",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "K1S2",
+            "K1S1"
+          ]
+        },
+        "best_time": {
+          "text": "November–February is peak season, and October–February is best for houseboats. The south-west monsoon runs June–September and the north-east monsoon October–December; March–May is hot and humid on the coast, 25–36°C.",
+          "facts": [
+            "KS11",
+            "KS9",
+            "KS10"
+          ]
+        },
+        "practical_info": {
+          "items": [
+            {
+              "title": "Language",
+              "body": "English is widely spoken in tourist areas.",
+              "status": "verified"
+            },
+            {
+              "title": "Etiquette",
+              "body": "Dress modestly at religious sites, ask before photographing people; tipping isn't mandatory.",
+              "status": "verified"
+            },
+            {
+              "title": "Pack",
+              "body": "Light clothing, sunscreen, insect repellent and a hat — rain gear in the monsoon.",
+              "status": "verified"
+            },
+            {
+              "title": "Emergency",
+              "body": "Dial 112.",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "KS25",
+            "KS24",
+            "KS26",
+            "KS12",
+            "K6"
+          ]
+        },
+        "local_transport": {
+          "text": "Thiruvananthapuram has an international airport, and trains reach most of Kerala from here. State and private buses are cheap and run everywhere, and taxis are easy to find in towns.",
+          "facts": [
+            "KS6",
+            "KS7",
+            "KS8"
+          ]
+        },
+        "where_to_stay": {
+          "text": "Look for family-run homestays — Kerala Tourism lists government-approved ones — alongside hotels and resorts.",
+          "facts": [
+            "KS19"
+          ]
+        },
+        "who_its_for": {
+          "items": [
+            {
+              "title": "Festival-goers",
+              "body": "Attukal Pongala in February/March, noted as the world's largest gathering of women."
+            },
+            {
+              "title": "Beach base",
+              "body": "Kovalam's beaches are 12–15 km away."
+            }
+          ],
+          "facts": [
+            "KS15",
+            "K1V2"
+          ]
         }
       },
       "parent": "kerala"
@@ -5354,6 +5935,89 @@
           "text": "Kovalam is about 16 km from Thiruvananthapuram, with buses and taxis from the city. The airport is 10–15 km away and Thiruvananthapuram Central is the nearest station.",
           "facts": [
             "KV5"
+          ]
+        },
+        "food": {
+          "items": [
+            {
+              "body": "Kerala dishes and international menus in the beachfront cafés."
+            },
+            {
+              "body": "Lively evenings along the beach, with cafés open late."
+            }
+          ],
+          "facts": [
+            "K1V1"
+          ]
+        },
+        "where_to_stay": {
+          "text": "Kovalam has everything from beachfront resorts and five-star hotels to budget cottages and Ayurvedic wellness retreats. It also works as a base for Thiruvananthapuram's sights.",
+          "facts": [
+            "K1V1",
+            "K1V2"
+          ]
+        },
+        "local_transport": {
+          "text": "Kovalam is 12–15 km from Thiruvananthapuram; regular buses and taxis run between them. The international airport is about 15 km away, and Thiruvananthapuram Central is the nearest railway station — take a taxi on from there.",
+          "facts": [
+            "K1V2"
+          ]
+        },
+        "safety_health": {
+          "items": [
+            {
+              "title": "Monsoon",
+              "body": "June–September rain can restrict travel in places; check roads and weather before setting out.",
+              "status": "seasonal"
+            },
+            {
+              "title": "Emergency",
+              "body": "Dial 112 for police, fire or ambulance.",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "K1S2",
+            "K1S1"
+          ]
+        },
+        "best_time": {
+          "text": "November–February is peak season, and October–February is best for houseboats. The south-west monsoon runs June–September and the north-east monsoon October–December; March–May is hot and humid on the coast, 25–36°C.",
+          "facts": [
+            "KS11",
+            "KS9",
+            "KS10"
+          ]
+        },
+        "practical_info": {
+          "items": [
+            {
+              "title": "Language",
+              "body": "English is widely spoken in tourist areas.",
+              "status": "verified"
+            },
+            {
+              "title": "Etiquette",
+              "body": "Dress modestly at religious sites, ask before photographing people; tipping isn't mandatory.",
+              "status": "verified"
+            },
+            {
+              "title": "Pack",
+              "body": "Light clothing, sunscreen, insect repellent and a hat — rain gear in the monsoon.",
+              "status": "verified"
+            },
+            {
+              "title": "Emergency",
+              "body": "Dial 112.",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "KS25",
+            "KS24",
+            "KS26",
+            "KS12",
+            "K6"
           ]
         }
       },
@@ -5453,6 +6117,36 @@
           "text": "Varkala has its own railway station and is about 50 km from Thiruvananthapuram and its airport. The season is October to March; the monsoon is June to August.",
           "facts": [
             "VK7"
+          ]
+        },
+        "safety_health": {
+          "items": [
+            {
+              "title": "Monsoon",
+              "body": "June–September rain can restrict travel in places; check roads and weather before setting out.",
+              "status": "seasonal"
+            },
+            {
+              "title": "Emergency",
+              "body": "Dial 112 for police, fire or ambulance.",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "K1S2",
+            "K1S1"
+          ]
+        },
+        "local_transport": {
+          "text": "State and private buses are cheap and run everywhere, and taxis are easy to find in towns.",
+          "facts": [
+            "KS8"
+          ]
+        },
+        "where_to_stay": {
+          "text": "Look for family-run homestays — Kerala Tourism lists government-approved ones — alongside hotels and resorts.",
+          "facts": [
+            "KS19"
           ]
         }
       },
@@ -5558,6 +6252,139 @@
             "KL5",
             "KL6"
           ]
+        },
+        "best_time": {
+          "text": "November–February is peak season, and October–February is best for houseboats. The south-west monsoon runs June–September and the north-east monsoon October–December; March–May is hot and humid on the coast, 25–36°C.",
+          "facts": [
+            "KS11",
+            "KS9",
+            "KS10"
+          ]
+        },
+        "local_transport": {
+          "text": "Kollam Junction is the main station; Trivandrum airport is 51 km and Kochi airport 129 km. State and private buses are cheap and run everywhere, and taxis are easy to find in towns.",
+          "facts": [
+            "KL8",
+            "KS8"
+          ]
+        },
+        "where_to_stay": {
+          "text": "On Ashtamudi Lake, the Kollam–Alappuzha houseboat cruise is one of the most scenic. Look for family-run homestays — Kerala Tourism lists government-approved ones — alongside hotels and resorts.",
+          "facts": [
+            "KS21",
+            "KS19"
+          ]
+        },
+        "food": {
+          "items": [
+            {
+              "body": "Appam with stew, puttu with kadala curry, and fish curry in coconut milk."
+            },
+            {
+              "body": "Pazhampori (banana fritters) with tea."
+            },
+            {
+              "body": "A sadya of 20-plus dishes on a banana leaf at festivals."
+            }
+          ],
+          "facts": [
+            "KS22",
+            "KS23"
+          ]
+        },
+        "practical_info": {
+          "items": [
+            {
+              "title": "Language",
+              "body": "English is widely spoken in tourist areas.",
+              "status": "verified"
+            },
+            {
+              "title": "Etiquette",
+              "body": "Dress modestly at religious sites, ask before photographing people; tipping isn't mandatory.",
+              "status": "verified"
+            },
+            {
+              "title": "Pack",
+              "body": "Light clothing, sunscreen, insect repellent and a hat — rain gear in the monsoon.",
+              "status": "verified"
+            },
+            {
+              "title": "Emergency",
+              "body": "Dial 112.",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "KS25",
+            "KS24",
+            "KS26",
+            "KS12",
+            "K6"
+          ]
+        },
+        "safety_health": {
+          "items": [
+            {
+              "title": "Monsoon",
+              "body": "June–September rain can restrict travel; heavy monsoons have caused major floods since 2015.",
+              "status": "seasonal"
+            },
+            {
+              "title": "Health",
+              "body": "Healthcare is basic in places — travel insurance is advised.",
+              "status": "verified"
+            },
+            {
+              "title": "Emergency",
+              "body": "Dial 112 for police, fire or ambulance.",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "K1S2",
+            "KS12",
+            "KS25",
+            "K6"
+          ]
+        },
+        "who_its_for": {
+          "items": [
+            {
+              "title": "Backwaters",
+              "body": "Ashtamudi Lake, the gateway to the backwaters."
+            },
+            {
+              "title": "Nature",
+              "body": "Thenmala eco-tourism (66 km) and the 300-ft Palaruvi falls."
+            },
+            {
+              "title": "Day trips",
+              "body": "Jatayu Earth's Center, with the world's largest bird sculpture."
+            }
+          ],
+          "facts": [
+            "KS21",
+            "KL6",
+            "KL7",
+            "KL5"
+          ]
+        },
+        "faqs": {
+          "items": [
+            {
+              "title": "Can I take a houseboat from Kollam?",
+              "body": "Yes — the Kollam–Alappuzha cruise is one of the most scenic."
+            },
+            {
+              "title": "What is the nearest airport?",
+              "body": "Trivandrum, 51 km."
+            }
+          ],
+          "facts": [
+            "KS21",
+            "KL8"
+          ]
         }
       },
       "parent": "kerala"
@@ -5656,6 +6483,85 @@
             "KM7",
             "KM1",
             "TK7"
+          ]
+        },
+        "food": {
+          "items": [
+            {
+              "body": "Seafood and Kerala coastal dishes, eaten in restaurants, homestays or on a houseboat."
+            }
+          ],
+          "facts": [
+            "K1K1"
+          ]
+        },
+        "where_to_stay": {
+          "text": "Choose from Ayurvedic spa resorts, homestays and houseboats on the backwaters.",
+          "facts": [
+            "K1K1"
+          ]
+        },
+        "safety_health": {
+          "items": [
+            {
+              "title": "Monsoon",
+              "body": "June–September rain can restrict travel in places; check roads and weather before setting out.",
+              "status": "seasonal"
+            },
+            {
+              "title": "Emergency",
+              "body": "Dial 112 for police, fire or ambulance.",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "K1S2",
+            "K1S1"
+          ]
+        },
+        "best_time": {
+          "text": "November–February is peak season, and October–February is best for houseboats. The south-west monsoon runs June–September and the north-east monsoon October–December; March–May is hot and humid on the coast, 25–36°C.",
+          "facts": [
+            "KS11",
+            "KS9",
+            "KS10"
+          ]
+        },
+        "practical_info": {
+          "items": [
+            {
+              "title": "Language",
+              "body": "English is widely spoken in tourist areas.",
+              "status": "verified"
+            },
+            {
+              "title": "Etiquette",
+              "body": "Dress modestly at religious sites, ask before photographing people; tipping isn't mandatory.",
+              "status": "verified"
+            },
+            {
+              "title": "Pack",
+              "body": "Light clothing, sunscreen, insect repellent and a hat — rain gear in the monsoon.",
+              "status": "verified"
+            },
+            {
+              "title": "Emergency",
+              "body": "Dial 112.",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "KS25",
+            "KS24",
+            "KS26",
+            "KS12",
+            "K6"
+          ]
+        },
+        "local_transport": {
+          "text": "State and private buses are cheap and run everywhere, and taxis are easy to find in towns.",
+          "facts": [
+            "KS8"
           ]
         }
       },
@@ -5756,6 +6662,142 @@
           "facts": [
             "TK7"
           ]
+        },
+        "best_time": {
+          "text": "September–March is the best time. December–January drops to about 13°C; April–May reaches 30°C.",
+          "facts": [
+            "TK2"
+          ]
+        },
+        "local_transport": {
+          "text": "Kumily, 4 km away, has the bus station. Kottayam station is about 114 km; Madurai airport about 136 km and Kochi airport about 190 km. Munnar is about 3–4 hours by road. State and private buses are cheap and run everywhere, and taxis are easy to find in towns.",
+          "facts": [
+            "TK6",
+            "TK7",
+            "THK_D",
+            "KS8"
+          ]
+        },
+        "where_to_stay": {
+          "text": "Kumily has most of the budget stays; watch-tower stays inside the reserve are booked at the Forest Information Centre. Look for family-run homestays — Kerala Tourism lists government-approved ones — alongside hotels and resorts.",
+          "facts": [
+            "TK6",
+            "TK5",
+            "KS19"
+          ]
+        },
+        "food": {
+          "items": [
+            {
+              "body": "Appam with stew, puttu with kadala curry, and fish curry in coconut milk."
+            },
+            {
+              "body": "Pazhampori (banana fritters) with tea."
+            },
+            {
+              "body": "A sadya of 20-plus dishes on a banana leaf at festivals."
+            }
+          ],
+          "facts": [
+            "KS22",
+            "KS23"
+          ]
+        },
+        "practical_info": {
+          "items": [
+            {
+              "title": "Language",
+              "body": "English is widely spoken in tourist areas.",
+              "status": "verified"
+            },
+            {
+              "title": "Etiquette",
+              "body": "Dress modestly at religious sites, ask before photographing people; tipping isn't mandatory.",
+              "status": "verified"
+            },
+            {
+              "title": "Pack",
+              "body": "Light clothing, sunscreen, insect repellent and a hat — rain gear in the monsoon.",
+              "status": "verified"
+            },
+            {
+              "title": "Emergency",
+              "body": "Dial 112.",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "KS25",
+            "KS24",
+            "KS26",
+            "KS12",
+            "K6"
+          ]
+        },
+        "safety_health": {
+          "items": [
+            {
+              "title": "Monsoon",
+              "body": "June–September rain can restrict travel; heavy monsoons have caused major floods since 2015.",
+              "status": "seasonal"
+            },
+            {
+              "title": "Health",
+              "body": "Healthcare is basic in places — travel insurance is advised.",
+              "status": "verified"
+            },
+            {
+              "title": "Emergency",
+              "body": "Dial 112 for police, fire or ambulance.",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "K1S2",
+            "KS12",
+            "KS25",
+            "K6"
+          ]
+        },
+        "who_its_for": {
+          "items": [
+            {
+              "title": "Wildlife",
+              "body": "The Periyar Tiger Reserve: boating, treks and jeep safaris; otters are often seen from the boats (tigers rarely)."
+            },
+            {
+              "title": "Spice and tea",
+              "body": "Plantations of tea, cardamom, pepper and coffee around Kumily."
+            }
+          ],
+          "facts": [
+            "TK5",
+            "TK4",
+            "TK3",
+            "TK8"
+          ]
+        },
+        "faqs": {
+          "items": [
+            {
+              "title": "Will I see a tiger?",
+              "body": "Unlikely — the forest is dense. Otters are often seen from the boats."
+            },
+            {
+              "title": "When do the Periyar boats run?",
+              "body": "Five times a day: 7:30, 9:30, 11:15 am, 1:45 and 3:30 pm."
+            },
+            {
+              "title": "How far is Munnar?",
+              "body": "About 90–100 km, 3–4 hours."
+            }
+          ],
+          "facts": [
+            "TK3",
+            "TK4",
+            "PTR_B",
+            "THK_D"
+          ]
         }
       },
       "parent": "kerala"
@@ -5849,6 +6891,137 @@
           "facts": [
             "VG1",
             "VG5"
+          ]
+        },
+        "best_time": {
+          "text": "November–February is the best time for Kerala's hill stations. The south-west monsoon (June–September) brings heavy rain; the high ranges stay cool when the coast is hot and humid in March–May.",
+          "facts": [
+            "KS11",
+            "KS9",
+            "KS10"
+          ]
+        },
+        "local_transport": {
+          "text": "Vagamon is 64 km from Kottayam and about 25 km east of Erattupetta; Cochin airport is about 98 km. State and private buses are cheap and run everywhere, and taxis are easy to find in towns.",
+          "facts": [
+            "VG1",
+            "VG2",
+            "VG5",
+            "KS8"
+          ]
+        },
+        "where_to_stay": {
+          "text": "Look for family-run homestays — Kerala Tourism lists government-approved ones — alongside hotels and resorts.",
+          "facts": [
+            "KS19"
+          ]
+        },
+        "food": {
+          "items": [
+            {
+              "body": "Appam with stew, puttu with kadala curry, and fish curry in coconut milk."
+            },
+            {
+              "body": "Pazhampori (banana fritters) with tea."
+            },
+            {
+              "body": "A sadya of 20-plus dishes on a banana leaf at festivals."
+            }
+          ],
+          "facts": [
+            "KS22",
+            "KS23"
+          ]
+        },
+        "practical_info": {
+          "items": [
+            {
+              "title": "Language",
+              "body": "English is widely spoken in tourist areas.",
+              "status": "verified"
+            },
+            {
+              "title": "Etiquette",
+              "body": "Dress modestly at religious sites, ask before photographing people; tipping isn't mandatory.",
+              "status": "verified"
+            },
+            {
+              "title": "Pack",
+              "body": "Light clothing, sunscreen, insect repellent and a hat — rain gear in the monsoon.",
+              "status": "verified"
+            },
+            {
+              "title": "Emergency",
+              "body": "Dial 112.",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "KS25",
+            "KS24",
+            "KS26",
+            "KS12",
+            "K6"
+          ]
+        },
+        "safety_health": {
+          "items": [
+            {
+              "title": "Monsoon",
+              "body": "June–September rain can restrict travel; heavy monsoons have caused major floods since 2015.",
+              "status": "seasonal"
+            },
+            {
+              "title": "Health",
+              "body": "Healthcare is basic in places — travel insurance is advised.",
+              "status": "verified"
+            },
+            {
+              "title": "Emergency",
+              "body": "Dial 112 for police, fire or ambulance.",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "K1S2",
+            "KS12",
+            "KS25",
+            "K6"
+          ]
+        },
+        "who_its_for": {
+          "items": [
+            {
+              "title": "Adventure",
+              "body": "Paragliding, rock climbing and hikes to waterfalls."
+            },
+            {
+              "title": "Views",
+              "body": "Tea gardens and meadows, India's longest cantilever glass bridge, and sunrise over Ilaveezhapoonchira."
+            }
+          ],
+          "facts": [
+            "VG4",
+            "VG1",
+            "VG2",
+            "VG6"
+          ]
+        },
+        "faqs": {
+          "items": [
+            {
+              "title": "How far is Vagamon from Kottayam?",
+              "body": "About 64 km."
+            },
+            {
+              "title": "What is there to do?",
+              "body": "Paragliding, rock climbing, waterfall hikes and the glass bridge."
+            }
+          ],
+          "facts": [
+            "VG1",
+            "VG4",
+            "VG2"
           ]
         }
       },
@@ -5958,6 +7131,35 @@
             "WY11",
             "WY10"
           ]
+        },
+        "local_transport": {
+          "text": "Wayanad has no railway: Kozhikode station is 90–110 km away and Calicut airport 65–93 km, depending on where you enter. Taxis and buses run from Kozhikode to Kalpetta, Sulthan Bathery and Mananthavady, and state and private buses come from Bengaluru, Mysuru, Kochi and Coimbatore. Self-driving is common.",
+          "facts": [
+            "K1W1"
+          ]
+        },
+        "food": {
+          "items": [
+            {
+              "body": "Appam with stew, puttu with kadala curry, and fish curry in coconut milk."
+            },
+            {
+              "body": "Pazhampori (banana fritters) with tea."
+            },
+            {
+              "body": "A sadya of 20-plus dishes on a banana leaf at festivals."
+            }
+          ],
+          "facts": [
+            "KS22",
+            "KS23"
+          ]
+        },
+        "where_to_stay": {
+          "text": "Look for family-run homestays — Kerala Tourism lists government-approved ones — alongside hotels and resorts.",
+          "facts": [
+            "KS19"
+          ]
         }
       },
       "parent": "kerala"
@@ -6054,6 +7256,137 @@
         "how_to_reach": {
           "text": "Cochin airport is about 50 km away. Thrissur station is a major stop on the main line, and Kochi is about 72 km by road, with KSRTC and private buses.",
           "facts": [
+            "TS5"
+          ]
+        },
+        "best_time": {
+          "text": "Come in April/May for Thrissur Pooram, with its caparisoned elephants and drums. November–February is the most comfortable weather; the monsoon runs June–September.",
+          "facts": [
+            "KS14",
+            "KS11",
+            "KS9"
+          ]
+        },
+        "local_transport": {
+          "text": "Cochin airport is about 50 km away; Thrissur station is a major stop, and Kochi is about 72 km by road. State and private buses are cheap and run everywhere, and taxis are easy to find in towns.",
+          "facts": [
+            "TS5",
+            "KS8"
+          ]
+        },
+        "where_to_stay": {
+          "text": "Look for family-run homestays — Kerala Tourism lists government-approved ones — alongside hotels and resorts.",
+          "facts": [
+            "KS19"
+          ]
+        },
+        "food": {
+          "items": [
+            {
+              "body": "Appam with stew, puttu with kadala curry, and fish curry in coconut milk."
+            },
+            {
+              "body": "Pazhampori (banana fritters) with tea."
+            },
+            {
+              "body": "A sadya of 20-plus dishes on a banana leaf at festivals."
+            }
+          ],
+          "facts": [
+            "KS22",
+            "KS23"
+          ]
+        },
+        "practical_info": {
+          "items": [
+            {
+              "title": "Language",
+              "body": "English is widely spoken in tourist areas.",
+              "status": "verified"
+            },
+            {
+              "title": "Etiquette",
+              "body": "Dress modestly at religious sites, ask before photographing people; tipping isn't mandatory.",
+              "status": "verified"
+            },
+            {
+              "title": "Pack",
+              "body": "Light clothing, sunscreen, insect repellent and a hat — rain gear in the monsoon.",
+              "status": "verified"
+            },
+            {
+              "title": "Emergency",
+              "body": "Dial 112.",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "KS25",
+            "KS24",
+            "KS26",
+            "KS12",
+            "K6"
+          ]
+        },
+        "safety_health": {
+          "items": [
+            {
+              "title": "Monsoon",
+              "body": "June–September rain can restrict travel; heavy monsoons have caused major floods since 2015.",
+              "status": "seasonal"
+            },
+            {
+              "title": "Health",
+              "body": "Healthcare is basic in places — travel insurance is advised.",
+              "status": "verified"
+            },
+            {
+              "title": "Emergency",
+              "body": "Dial 112 for police, fire or ambulance.",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "K1S2",
+            "KS12",
+            "KS25",
+            "K6"
+          ]
+        },
+        "who_its_for": {
+          "items": [
+            {
+              "title": "Festival-goers",
+              "body": "Thrissur Pooram, the largest pooram in India."
+            },
+            {
+              "title": "Culture",
+              "body": "Kerala's cultural capital, home to its arts academies and the Vadakkumnathan temple."
+            },
+            {
+              "title": "Pilgrims",
+              "body": "Guruvayur's Sri Krishna temple."
+            }
+          ],
+          "facts": [
+            "TS2",
+            "TS1",
+            "TS4"
+          ]
+        },
+        "faqs": {
+          "items": [
+            {
+              "title": "When is Thrissur Pooram?",
+              "body": "In April/May (the Malayalam month of Medam)."
+            },
+            {
+              "title": "How far is Cochin airport?",
+              "body": "About 50 km."
+            }
+          ],
+          "facts": [
+            "KS14",
             "TS5"
           ]
         }
@@ -6245,6 +7578,91 @@
           "facts": [
             "KZ7"
           ]
+        },
+        "food": {
+          "items": [
+            {
+              "body": "Kozhikode biryani, seafood and pathiri."
+            },
+            {
+              "body": "Kozhikode halwa from the sweet shops of SM Street (Mittai Theruvu)."
+            },
+            {
+              "body": "Food stalls at sunset on Kozhikode Beach."
+            }
+          ],
+          "facts": [
+            "K1Z1"
+          ]
+        },
+        "local_transport": {
+          "text": "Kozhikode has an international airport and a major railway station on the west-coast line; buses and taxis are easy to find in town.",
+          "facts": [
+            "K1Z2"
+          ]
+        },
+        "safety_health": {
+          "items": [
+            {
+              "title": "Monsoon",
+              "body": "June–September rain can restrict travel in places; check roads and weather before setting out.",
+              "status": "seasonal"
+            },
+            {
+              "title": "Emergency",
+              "body": "Dial 112 for police, fire or ambulance.",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "K1S2",
+            "K1S1"
+          ]
+        },
+        "best_time": {
+          "text": "November–February is peak season, and October–February is best for houseboats. The south-west monsoon runs June–September and the north-east monsoon October–December; March–May is hot and humid on the coast, 25–36°C.",
+          "facts": [
+            "KS11",
+            "KS9",
+            "KS10"
+          ]
+        },
+        "practical_info": {
+          "items": [
+            {
+              "title": "Language",
+              "body": "English is widely spoken in tourist areas.",
+              "status": "verified"
+            },
+            {
+              "title": "Etiquette",
+              "body": "Dress modestly at religious sites, ask before photographing people; tipping isn't mandatory.",
+              "status": "verified"
+            },
+            {
+              "title": "Pack",
+              "body": "Light clothing, sunscreen, insect repellent and a hat — rain gear in the monsoon.",
+              "status": "verified"
+            },
+            {
+              "title": "Emergency",
+              "body": "Dial 112.",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "KS25",
+            "KS24",
+            "KS26",
+            "KS12",
+            "K6"
+          ]
+        },
+        "where_to_stay": {
+          "text": "Look for family-run homestays — Kerala Tourism lists government-approved ones — alongside hotels and resorts.",
+          "facts": [
+            "KS19"
+          ]
         }
       },
       "parent": "kerala"
@@ -6349,6 +7767,89 @@
           "facts": [
             "KN7"
           ]
+        },
+        "food": {
+          "items": [
+            {
+              "body": "Thalassery biryani with jeerakasala rice, and mussel biryani."
+            },
+            {
+              "body": "Coconut mutton korma with neypathiri or pathiri."
+            },
+            {
+              "body": "Rich Malabar fish curries."
+            }
+          ],
+          "facts": [
+            "K1N1"
+          ]
+        },
+        "best_time": {
+          "text": "October to March is best: clear, pleasant weather for beaches, forts and Theyyam. The June–September monsoon turns everything green, and April–May are hot and humid.",
+          "facts": [
+            "K1N2"
+          ]
+        },
+        "safety_health": {
+          "items": [
+            {
+              "title": "Monsoon",
+              "body": "June–September rain can restrict travel in places; check roads and weather before setting out.",
+              "status": "seasonal"
+            },
+            {
+              "title": "Emergency",
+              "body": "Dial 112 for police, fire or ambulance.",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "K1S2",
+            "K1S1"
+          ]
+        },
+        "practical_info": {
+          "items": [
+            {
+              "title": "Language",
+              "body": "English is widely spoken in tourist areas.",
+              "status": "verified"
+            },
+            {
+              "title": "Etiquette",
+              "body": "Dress modestly at religious sites, ask before photographing people; tipping isn't mandatory.",
+              "status": "verified"
+            },
+            {
+              "title": "Pack",
+              "body": "Light clothing, sunscreen, insect repellent and a hat — rain gear in the monsoon.",
+              "status": "verified"
+            },
+            {
+              "title": "Emergency",
+              "body": "Dial 112.",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "KS25",
+            "KS24",
+            "KS26",
+            "KS12",
+            "K6"
+          ]
+        },
+        "where_to_stay": {
+          "text": "Look for family-run homestays — Kerala Tourism lists government-approved ones — alongside hotels and resorts.",
+          "facts": [
+            "KS19"
+          ]
+        },
+        "local_transport": {
+          "text": "State and private buses are cheap and run everywhere, and taxis are easy to find in towns.",
+          "facts": [
+            "KS8"
+          ]
         }
       },
       "parent": "kerala"
@@ -6446,6 +7947,89 @@
           "facts": [
             "BK7"
           ]
+        },
+        "food": {
+          "items": [
+            {
+              "body": "Steamed and fried dishes; fried bananas and bhajji."
+            },
+            {
+              "body": "Payasam and tangy mango pickle."
+            },
+            {
+              "body": "Seafood in the sea-view restaurants."
+            }
+          ],
+          "facts": [
+            "K1B1"
+          ]
+        },
+        "best_time": {
+          "text": "November to February brings clear, sunny days after the rains. The June–September monsoon is green and showery.",
+          "facts": [
+            "K1B2"
+          ]
+        },
+        "where_to_stay": {
+          "text": "Beside the beach hotels, the Chandragiri Boat Club offers houseboat cruises and island camping.",
+          "facts": [
+            "K1B3"
+          ]
+        },
+        "safety_health": {
+          "items": [
+            {
+              "title": "Monsoon",
+              "body": "June–September rain can restrict travel in places; check roads and weather before setting out.",
+              "status": "seasonal"
+            },
+            {
+              "title": "Emergency",
+              "body": "Dial 112 for police, fire or ambulance.",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "K1S2",
+            "K1S1"
+          ]
+        },
+        "practical_info": {
+          "items": [
+            {
+              "title": "Language",
+              "body": "English is widely spoken in tourist areas.",
+              "status": "verified"
+            },
+            {
+              "title": "Etiquette",
+              "body": "Dress modestly at religious sites, ask before photographing people; tipping isn't mandatory.",
+              "status": "verified"
+            },
+            {
+              "title": "Pack",
+              "body": "Light clothing, sunscreen, insect repellent and a hat — rain gear in the monsoon.",
+              "status": "verified"
+            },
+            {
+              "title": "Emergency",
+              "body": "Dial 112.",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "KS25",
+            "KS24",
+            "KS26",
+            "KS12",
+            "K6"
+          ]
+        },
+        "local_transport": {
+          "text": "State and private buses are cheap and run everywhere, and taxis are easy to find in towns.",
+          "facts": [
+            "KS8"
+          ]
         }
       },
       "parent": "kerala"
@@ -6534,6 +8118,117 @@
             "MR2",
             "MR1"
           ]
+        },
+        "best_time": {
+          "text": "November–February is peak season, and October–February is best for houseboats. The south-west monsoon runs June–September and the north-east monsoon October–December; March–May is hot and humid on the coast, 25–36°C.",
+          "facts": [
+            "KS11",
+            "KS9",
+            "KS10"
+          ]
+        },
+        "local_transport": {
+          "text": "Mararikulam has its own railway station; NH 66 passes 5 km east, and Cochin is the nearest airport. Alappuzha is about 11 km away. State and private buses are cheap and run everywhere, and taxis are easy to find in towns.",
+          "facts": [
+            "MR2",
+            "MR1",
+            "KS8"
+          ]
+        },
+        "where_to_stay": {
+          "text": "Look for family-run homestays — Kerala Tourism lists government-approved ones — alongside hotels and resorts.",
+          "facts": [
+            "KS19"
+          ]
+        },
+        "food": {
+          "items": [
+            {
+              "body": "Appam with stew, puttu with kadala curry, and fish curry in coconut milk."
+            },
+            {
+              "body": "Pazhampori (banana fritters) with tea."
+            },
+            {
+              "body": "A sadya of 20-plus dishes on a banana leaf at festivals."
+            }
+          ],
+          "facts": [
+            "KS22",
+            "KS23"
+          ]
+        },
+        "practical_info": {
+          "items": [
+            {
+              "title": "Language",
+              "body": "English is widely spoken in tourist areas.",
+              "status": "verified"
+            },
+            {
+              "title": "Etiquette",
+              "body": "Dress modestly at religious sites, ask before photographing people; tipping isn't mandatory.",
+              "status": "verified"
+            },
+            {
+              "title": "Pack",
+              "body": "Light clothing, sunscreen, insect repellent and a hat — rain gear in the monsoon.",
+              "status": "verified"
+            },
+            {
+              "title": "Emergency",
+              "body": "Dial 112.",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "KS25",
+            "KS24",
+            "KS26",
+            "KS12",
+            "K6"
+          ]
+        },
+        "safety_health": {
+          "items": [
+            {
+              "title": "Monsoon",
+              "body": "June–September rain can restrict travel; heavy monsoons have caused major floods since 2015.",
+              "status": "seasonal"
+            },
+            {
+              "title": "Health",
+              "body": "Healthcare is basic in places — travel insurance is advised.",
+              "status": "verified"
+            },
+            {
+              "title": "Emergency",
+              "body": "Dial 112 for police, fire or ambulance.",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "K1S2",
+            "KS12",
+            "KS25",
+            "K6"
+          ]
+        },
+        "who_its_for": {
+          "items": [
+            {
+              "title": "Quiet beach-goers",
+              "body": "A calmer alternative to Alappuzha's beach, 11 km away."
+            },
+            {
+              "title": "Backwater add-on",
+              "body": "Combine with an Alappuzha houseboat."
+            }
+          ],
+          "facts": [
+            "MR1",
+            "AL4"
+          ]
         }
       },
       "parent": "kerala"
@@ -6621,6 +8316,116 @@
           "facts": [
             "PV1",
             "TV6"
+          ]
+        },
+        "best_time": {
+          "text": "November–February is peak season, and October–February is best for houseboats. The south-west monsoon runs June–September and the north-east monsoon October–December; March–May is hot and humid on the coast, 25–36°C.",
+          "facts": [
+            "KS11",
+            "KS9",
+            "KS10"
+          ]
+        },
+        "local_transport": {
+          "text": "Poovar is near Kerala's southern tip, close to Vizhinjam harbour. State and private buses are cheap and run everywhere, and taxis are easy to find in towns.",
+          "facts": [
+            "PV1",
+            "KS8"
+          ]
+        },
+        "where_to_stay": {
+          "text": "Look for family-run homestays — Kerala Tourism lists government-approved ones — alongside hotels and resorts.",
+          "facts": [
+            "KS19"
+          ]
+        },
+        "food": {
+          "items": [
+            {
+              "body": "Appam with stew, puttu with kadala curry, and fish curry in coconut milk."
+            },
+            {
+              "body": "Pazhampori (banana fritters) with tea."
+            },
+            {
+              "body": "A sadya of 20-plus dishes on a banana leaf at festivals."
+            }
+          ],
+          "facts": [
+            "KS22",
+            "KS23"
+          ]
+        },
+        "practical_info": {
+          "items": [
+            {
+              "title": "Language",
+              "body": "English is widely spoken in tourist areas.",
+              "status": "verified"
+            },
+            {
+              "title": "Etiquette",
+              "body": "Dress modestly at religious sites, ask before photographing people; tipping isn't mandatory.",
+              "status": "verified"
+            },
+            {
+              "title": "Pack",
+              "body": "Light clothing, sunscreen, insect repellent and a hat — rain gear in the monsoon.",
+              "status": "verified"
+            },
+            {
+              "title": "Emergency",
+              "body": "Dial 112.",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "KS25",
+            "KS24",
+            "KS26",
+            "KS12",
+            "K6"
+          ]
+        },
+        "safety_health": {
+          "items": [
+            {
+              "title": "Monsoon",
+              "body": "June–September rain can restrict travel; heavy monsoons have caused major floods since 2015.",
+              "status": "seasonal"
+            },
+            {
+              "title": "Health",
+              "body": "Healthcare is basic in places — travel insurance is advised.",
+              "status": "verified"
+            },
+            {
+              "title": "Emergency",
+              "body": "Dial 112 for police, fire or ambulance.",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "K1S2",
+            "KS12",
+            "KS25",
+            "K6"
+          ]
+        },
+        "who_its_for": {
+          "items": [
+            {
+              "title": "Boat trips",
+              "body": "Where river, sea and backwater meet — boats go out to the mangrove islands."
+            },
+            {
+              "title": "History",
+              "body": "An old trading port for timber, sandalwood, ivory and spices."
+            }
+          ],
+          "facts": [
+            "PV2",
+            "PV3"
           ]
         }
       },
@@ -6712,6 +8517,138 @@
           "text": "Palakkad Junction is about 58 km away; Cochin airport is about 120 km and Coimbatore airport about 123 km. The road turns off at Nemmara.",
           "facts": [
             "NL5",
+            "NL1"
+          ]
+        },
+        "best_time": {
+          "text": "November–February is the best time for Kerala's hill stations. The south-west monsoon (June–September) brings heavy rain; the high ranges stay cool when the coast is hot and humid in March–May.",
+          "facts": [
+            "KS11",
+            "KS9",
+            "KS10"
+          ]
+        },
+        "local_transport": {
+          "text": "Nelliyampathy is 60–65 km from Palakkad via Nemmara; Palakkad Junction is about 58 km, Cochin airport about 120 km and Coimbatore airport 123 km. State and private buses are cheap and run everywhere, and taxis are easy to find in towns.",
+          "facts": [
+            "NL1",
+            "NL5",
+            "KS8"
+          ]
+        },
+        "where_to_stay": {
+          "text": "Look for family-run homestays — Kerala Tourism lists government-approved ones — alongside hotels and resorts.",
+          "facts": [
+            "KS19"
+          ]
+        },
+        "food": {
+          "items": [
+            {
+              "body": "Appam with stew, puttu with kadala curry, and fish curry in coconut milk."
+            },
+            {
+              "body": "Pazhampori (banana fritters) with tea."
+            },
+            {
+              "body": "A sadya of 20-plus dishes on a banana leaf at festivals."
+            }
+          ],
+          "facts": [
+            "KS22",
+            "KS23"
+          ]
+        },
+        "practical_info": {
+          "items": [
+            {
+              "title": "Language",
+              "body": "English is widely spoken in tourist areas.",
+              "status": "verified"
+            },
+            {
+              "title": "Etiquette",
+              "body": "Dress modestly at religious sites, ask before photographing people; tipping isn't mandatory.",
+              "status": "verified"
+            },
+            {
+              "title": "Pack",
+              "body": "Light clothing, sunscreen, insect repellent and a hat — rain gear in the monsoon.",
+              "status": "verified"
+            },
+            {
+              "title": "Emergency",
+              "body": "Dial 112.",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "KS25",
+            "KS24",
+            "KS26",
+            "KS12",
+            "K6"
+          ]
+        },
+        "safety_health": {
+          "items": [
+            {
+              "title": "Monsoon",
+              "body": "June–September rain can restrict travel; heavy monsoons have caused major floods since 2015.",
+              "status": "seasonal"
+            },
+            {
+              "title": "Health",
+              "body": "Healthcare is basic in places — travel insurance is advised.",
+              "status": "verified"
+            },
+            {
+              "title": "Emergency",
+              "body": "Dial 112 for police, fire or ambulance.",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "K1S2",
+            "KS12",
+            "KS25",
+            "K6"
+          ]
+        },
+        "who_its_for": {
+          "items": [
+            {
+              "title": "Viewpoints",
+              "body": "Seetharkundu, Manpara and Kesavanpara."
+            },
+            {
+              "title": "Trekkers",
+              "body": "Hilltop walks — with Forest Division permission."
+            },
+            {
+              "title": "Wildlife",
+              "body": "Parambikulam's teak forests nearby; book the tree house ahead."
+            }
+          ],
+          "facts": [
+            "NL2",
+            "NL3",
+            "NL6"
+          ]
+        },
+        "faqs": {
+          "items": [
+            {
+              "title": "Do I need a permit to trek?",
+              "body": "Yes — treks need Forest Division permission."
+            },
+            {
+              "title": "How far is Nelliyampathy from Palakkad?",
+              "body": "About 60–65 km via Nemmara."
+            }
+          ],
+          "facts": [
+            "NL3",
             "NL1"
           ]
         }

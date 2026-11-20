@@ -2086,6 +2086,72 @@
             "NL1",
             "NL_PAP"
           ]
+        },
+        "food": {
+          "items": [
+            {
+              "body": "Pork with bamboo shoot."
+            },
+            {
+              "body": "Axone, a fermented soybean dish."
+            }
+          ],
+          "facts": [
+            "KH4"
+          ]
+        },
+        "who_its_for": {
+          "items": [
+            {
+              "title": "Festival goers",
+              "body": "The Hornbill Festival, 1–10 December."
+            },
+            {
+              "title": "History lovers",
+              "body": "Kohima's War Cemetery, honouring the 1944 battle."
+            },
+            {
+              "title": "Trekkers",
+              "body": "Dzükou Valley, famous for its lily in early July."
+            },
+            {
+              "title": "Village stays",
+              "body": "Khonoma, the 'First Green Village of India'."
+            }
+          ],
+          "facts": [
+            "NL1",
+            "KWC1",
+            "DZ1",
+            "KHO1"
+          ]
+        },
+        "faqs": {
+          "items": [
+            {
+              "title": "Do I need a permit for Nagaland?",
+              "body": "Yes. Anyone who is not an indigenous inhabitant — Indian or foreign — needs an Inner Line Permit; foreign nationals also need a Protected Area Permit."
+            },
+            {
+              "title": "When is the Hornbill Festival?",
+              "body": "Every year from 1 to 10 December."
+            },
+            {
+              "title": "Which airport serves Nagaland?",
+              "body": "Dimapur Airport, for Dimapur and Kohima."
+            },
+            {
+              "title": "What is the emergency number?",
+              "body": "112, for police, fire and ambulance."
+            }
+          ],
+          "facts": [
+            "NL_ILP",
+            "NL_PAP",
+            "NL1",
+            "NL_AIR",
+            "NL_112"
+          ]
         }
       },
       "wikidataId": "Q1599",
@@ -2160,6 +2226,87 @@
             "KWC1",
             "KIS1",
             "NSM1"
+          ]
+        },
+        "key_facts": {
+          "items": [
+            {
+              "title": "Elevation",
+              "body": "About 1,261 m",
+              "status": "verified"
+            },
+            {
+              "title": "WWII",
+              "body": "Battle of Kohima, 1944",
+              "status": "verified"
+            },
+            {
+              "title": "Hornbill Festival",
+              "body": "1–10 December",
+              "status": "seasonal"
+            },
+            {
+              "title": "Cathedral",
+              "body": "Mary Help of Christians, 1991",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "KH1",
+            "KWC1",
+            "NL1",
+            "KH5"
+          ]
+        },
+        "things_to_do": {
+          "items": [
+            {
+              "body": "The Kohima War Cemetery on Garrison Hill, open 9 am–4 pm."
+            },
+            {
+              "body": "The Nagaland State Museum on Bayavu Hill, covering 16 tribes."
+            },
+            {
+              "body": "Kisama's Naga Heritage Village and its 16 morungs."
+            }
+          ],
+          "facts": [
+            "KWC1",
+            "KWC3",
+            "NSM1",
+            "KIS1"
+          ]
+        },
+        "best_time": {
+          "text": "Come for the Hornbill Festival, 1–10 December, or for the Angami Sekrenyi in February and the Rengma Tseminyu festival in April.",
+          "facts": [
+            "NL1",
+            "KH3"
+          ]
+        },
+        "practical_info": {
+          "items": [
+            {
+              "title": "Permit",
+              "body": "Visitors who aren't indigenous to Nagaland need an Inner Line Permit; foreigners also need a Protected Area Permit.",
+              "status": "verified"
+            },
+            {
+              "title": "Airport",
+              "body": "Dimapur Airport serves Kohima.",
+              "status": "verified"
+            },
+            {
+              "title": "Emergency",
+              "body": "Dial 112 for police, fire or ambulance.",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "NL_ILP",
+            "NL_PAP",
+            "NL_AIR",
+            "NL_112"
           ]
         }
       },
@@ -2471,6 +2618,34 @@
             "DIM1",
             "MOK1"
           ]
+        },
+        "key_facts": {
+          "items": [
+            {
+              "title": "People",
+              "body": "Angami",
+              "status": "verified"
+            },
+            {
+              "title": "Title",
+              "body": "'First Green Village of India'",
+              "status": "verified"
+            },
+            {
+              "title": "Sanctuary",
+              "body": "About 20 sq km, set aside 1998",
+              "status": "verified"
+            },
+            {
+              "title": "Birds",
+              "body": "196 species recorded",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "KHO1",
+            "KHO2"
+          ]
         }
       },
       "wikidataId": "Q17347092",
@@ -2654,6 +2829,43 @@
             "NL1",
             "NL_ILP",
             "NL_AIR"
+          ]
+        },
+        "key_facts": {
+          "items": [
+            {
+              "title": "Role",
+              "body": "Gateway to Nagaland and its rail hub",
+              "status": "verified"
+            },
+            {
+              "title": "Best time",
+              "body": "October–March, about 15–25°C",
+              "status": "seasonal"
+            },
+            {
+              "title": "Kachari ruins",
+              "body": "About 100 sandstone pillars",
+              "status": "verified"
+            },
+            {
+              "title": "Triple Falls",
+              "body": "About 280 ft, at Seithekima",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "DIM1",
+            "DIM2",
+            "KAC1",
+            "DIM3"
+          ]
+        },
+        "how_to_reach": {
+          "text": "Dimapur Airport serves Dimapur and Kohima, and Dimapur is the state's rail hub.",
+          "facts": [
+            "NL_AIR",
+            "DIM1"
           ]
         }
       },
@@ -2847,6 +3059,40 @@
             "KHO1",
             "DZ1",
             "DIM1"
+          ]
+        },
+        "key_facts": {
+          "items": [
+            {
+              "title": "From Kohima",
+              "body": "About 145 km",
+              "status": "verified"
+            },
+            {
+              "title": "People",
+              "body": "Ao Naga homeland",
+              "status": "verified"
+            },
+            {
+              "title": "Moatsu festival",
+              "body": "Early May",
+              "status": "seasonal"
+            },
+            {
+              "title": "Ungma",
+              "body": "Oldest and largest village in the district",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "MOK1",
+            "MOK2"
+          ]
+        },
+        "how_to_reach": {
+          "text": "Mokokchung is about 145 km from Kohima by road.",
+          "facts": [
+            "MOK1"
           ]
         }
       },

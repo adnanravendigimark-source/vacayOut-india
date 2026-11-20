@@ -213,6 +213,41 @@
       "url": "https://en.wikipedia.org/wiki/Gurudongmar_Lake",
       "title": "Gurudongmar Lake — Wikipedia",
       "authority": "reference"
+    },
+    "WP_YUK": {
+      "url": "https://en.wikipedia.org/wiki/Yuksom",
+      "title": "Yuksom — Wikipedia",
+      "authority": "reference"
+    },
+    "II_YUK": {
+      "url": "https://www.incredibleindia.gov.in/en/sikkim/pelling/yuksom",
+      "title": "Yuksom — Incredible India",
+      "authority": "government"
+    },
+    "WP_RAV2": {
+      "url": "https://en.wikipedia.org/wiki/Ravangla",
+      "title": "Ravangla — Wikipedia",
+      "authority": "reference"
+    },
+    "WP_NAM2": {
+      "url": "https://en.wikipedia.org/wiki/Namchi",
+      "title": "Namchi — Wikipedia",
+      "authority": "reference"
+    },
+    "WP_ZUL": {
+      "url": "https://en.wikipedia.org/wiki/Zuluk",
+      "title": "Zuluk — Wikipedia",
+      "authority": "reference"
+    },
+    "WP_ARI": {
+      "url": "https://en.wikipedia.org/wiki/Aritar",
+      "title": "Aritar — Wikipedia",
+      "authority": "reference"
+    },
+    "WP_CHU": {
+      "url": "https://en.wikipedia.org/wiki/Chungthang",
+      "title": "Chungthang — Wikipedia",
+      "authority": "reference"
     }
   },
   "facts": {
@@ -1121,6 +1156,274 @@
           "quote": "190 km (120 mi) from Gangtok , and about 5 km (3.1 mi) south of the Chinese border."
         }
       ]
+    },
+    "S4Y1": {
+      "place": "sikkim/yuksom",
+      "topic": "S4Y1",
+      "claim": "Yuksom is about 40 km north of Gyalshing, at 1,780 m.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WP_YUK",
+          "quote": "is a historical town about 40 km north of Gyalshing"
+        },
+        {
+          "source": "WP_YUK",
+          "quote": "situated at an average altitude of 1,780 metres (5,840 ft)"
+        }
+      ]
+    },
+    "S4Y2": {
+      "place": "sikkim/yuksom",
+      "topic": "S4Y2",
+      "claim": "The climate is pleasant March–June and September–November; December and February are coldest.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WP_YUK",
+          "quote": "is pleasant from March to June and from September to November. The coldest months are December and February."
+        }
+      ]
+    },
+    "S4Y3": {
+      "place": "sikkim/yuksom",
+      "topic": "S4Y3",
+      "claim": "The Dzongri–Goechala trek from Yuksom takes 8–9 days.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_YUK",
+          "quote": "The Dzongri-Goechala Trek, an 8-9 day odyssey"
+        }
+      ]
+    },
+    "S4Y4": {
+      "place": "sikkim/yuksom",
+      "topic": "S4Y4",
+      "claim": "Yuksom is connected by road with Geyzing and Gangtok.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WP_YUK",
+          "quote": "which is well connected by a road network with Geyzing and Gangtok"
+        }
+      ]
+    },
+    "S4R1": {
+      "place": "sikkim/ravangla",
+      "topic": "S4R1",
+      "claim": "Ravangla, at about 8,000 ft, has views of Kanchenjunga, Pandim, Siniolchu and Kabru.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WP_RAV2",
+          "quote": "is a small town with an elevation of 8000 feet"
+        },
+        {
+          "source": "WP_RAV2",
+          "quote": "Mt. Kanchenjunga, Mt. Pandim, Mt. Siniolchu, Mt. Kabru are some of the major peaks visible from Ravangla."
+        }
+      ]
+    },
+    "S4R2": {
+      "place": "sikkim/ravangla",
+      "topic": "S4R2",
+      "claim": "The upper parts sometimes get snow in winter; April–May brings orchids and rhododendrons.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WP_RAV2",
+          "quote": "The upper parts of Ravangla sometimes experience snowfall during winters. During the months of April–May, the area is surrounded by many flowers including orchids and rhododendrons."
+        }
+      ]
+    },
+    "S4R3": {
+      "place": "sikkim/ravangla",
+      "topic": "S4R3",
+      "claim": "Ravangla is the start of the trek to Maenam Wildlife Sanctuary and is good for Himalayan birds, including the rare satyr tragopan.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WP_RAV2",
+          "quote": "It is the starting point for the trek to Maenam Wildlife Sanctuary."
+        },
+        {
+          "source": "WP_RAV2",
+          "quote": "The rare satyr tragopan can also be spotted in Ravangla."
+        }
+      ]
+    },
+    "S4R4": {
+      "place": "sikkim/ravangla",
+      "topic": "S4R4",
+      "claim": "Ralang Monastery is 6 km away.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WP_RAV2",
+          "quote": "Ralang Monastery, a Buddhist monastery of the Kagyu school of Tibetan Buddhism is located 6 km from Ravangla."
+        }
+      ]
+    },
+    "S4N1": {
+      "place": "sikkim/namchi",
+      "topic": "S4N1",
+      "claim": "Namchi is at 1,314 m and about 78 km from Gangtok.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WP_NAM2",
+          "quote": "Namchi is situated at an altitude of 1,314 m (4,311 ft). Located about 78 km (48 mi) from the state capital Gangtok"
+        }
+      ]
+    },
+    "S4N2": {
+      "place": "sikkim/namchi",
+      "topic": "S4N2",
+      "claim": "Sikkim Nationalised Transport buses connect Namchi with other towns and Siliguri.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WP_NAM2",
+          "quote": "Sikkim Nationalised Transport operates public buses that connect Namchi to other towns of the state and Siliguri in West Bengal."
+        }
+      ]
+    },
+    "S4N3": {
+      "place": "sikkim/namchi",
+      "topic": "S4N3",
+      "claim": "The Namchi Mahotsav is held each October at Namchi Central Park.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WP_NAM2",
+          "quote": "The Namchi Mohatsav is held every year in October at the Namchi Central Park."
+        }
+      ]
+    },
+    "S4N4": {
+      "place": "sikkim/namchi",
+      "topic": "S4N4",
+      "claim": "The Mamley Stromatolite Park is a National Geological Monument (2014).",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WP_NAM2",
+          "quote": "The Mamley Stromatolite Park was declared as a National Geological Monument by the Geological Survey of India in 2014."
+        }
+      ]
+    },
+    "S4Z1": {
+      "place": "sikkim/zuluk",
+      "topic": "S4Z1",
+      "claim": "Zuluk is about 90 km (4 hours) from Gangtok and 160 km (about 6 hours) from NJP/Bagdogra.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WP_ZUL",
+          "quote": "From Gangtok – 90 kilometres (56 mi), about 4 hours From NJP / Bagdogra - 160 kilometres (99 mi), about 6 hours"
+        }
+      ]
+    },
+    "S4Z2": {
+      "place": "sikkim/zuluk",
+      "topic": "S4Z2",
+      "claim": "Zuluk lies in the Pangolakha Wildlife Sanctuary; red pandas are among the wildlife, and rhododendrons bloom in summer.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WP_ZUL",
+          "quote": "Dzuluk lies on the Pangolakha Wildlife Sanctuary"
+        },
+        {
+          "source": "WP_ZUL",
+          "quote": "the red panda are common"
+        },
+        {
+          "source": "WP_ZUL",
+          "quote": "During the summer months, the area and its surrounding hills are covered with thousands of blooming rhododendron."
+        }
+      ]
+    },
+    "S4Z3": {
+      "place": "sikkim/zuluk",
+      "topic": "S4Z3",
+      "claim": "Its three-level switchback roads give views of Kangchenjunga.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WP_ZUL",
+          "quote": "The three-level switchback roads of Dzuluk offer views of the Kangchenjunga and its mountain range."
+        }
+      ]
+    },
+    "S4Z4": {
+      "place": "sikkim/zuluk",
+      "topic": "S4Z4",
+      "claim": "Zuluk's seasons: October–February winter with snow; March–May cold; June–September monsoon with heavy showers.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WP_ZUL",
+          "quote": "October to February — winter, cold and snow. March to May — cold. June to September — the monsoon season."
+        }
+      ]
+    },
+    "S4A1": {
+      "place": "sikkim/aritar",
+      "topic": "S4A1",
+      "claim": "Aritar is 67 km from Gangtok, 52 km from Kalimpong, 40 km from Pakyong and 30 km from Rangpo.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WP_ARI",
+          "quote": "67 kilometres from Gangtok, 52 kilometres from Kalimpong, 40 kilometres from Pakyong and 30 kilometres from Rangpo"
+        }
+      ]
+    },
+    "S4A2": {
+      "place": "sikkim/aritar",
+      "topic": "S4A2",
+      "claim": "Aritar Gumpa, of the Kagyu order, is among Sikkim's oldest monasteries; Changey waterfall (50 m) is near Lampokhari.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WP_ARI",
+          "quote": "Aritar Gumpa : A monastery of the Kagyuapa order, considered as one of the holiest and oldest in Sikkim."
+        },
+        {
+          "source": "WP_ARI",
+          "quote": "Changey water fall : 50 m in height (Near Lampokhari)"
+        }
+      ]
+    },
+    "S4C1": {
+      "place": "sikkim/chungthang",
+      "topic": "S4C1",
+      "claim": "Chungthang is 28 km from Mangan and has a sacred rock said to bear Guru Padmasambhava's hand and footprints, with a spring of holy water.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WP_CHU",
+          "quote": "It is located just 28 km from Mangan town"
+        },
+        {
+          "source": "WP_CHU",
+          "quote": "There is a rock here which to this day bears the handprints and footprints of Saint Padmasambhava."
+        }
+      ]
+    },
+    "S4C2": {
+      "place": "sikkim/chungthang",
+      "topic": "S4C2",
+      "claim": "It is a good halt before Lachen, Lachung and Yumthang.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WP_CHU",
+          "quote": "Chungthang is a good place to halt before one takes off for the more alpine regions of Lachen, Lachung and the Yumthang Valley."
+        }
+      ]
     }
   },
   "places": [
@@ -1779,6 +2082,119 @@
             "BAB1",
             "ARI1"
           ]
+        },
+        "key_facts": {
+          "items": [
+            {
+              "title": "Altitude",
+              "body": "About 9,400 ft",
+              "status": "verified"
+            },
+            {
+              "title": "Route",
+              "body": "NH-717B via Rongli",
+              "status": "verified"
+            },
+            {
+              "title": "From Siliguri",
+              "body": "About 7 hours",
+              "status": "verified"
+            },
+            {
+              "title": "Winter snow",
+              "body": "3–5 ft",
+              "status": "seasonal"
+            }
+          ],
+          "facts": [
+            "ZUL1",
+            "ZUL2"
+          ]
+        },
+        "best_time": {
+          "text": "Winter brings 3–5 ft of snow, and monsoon rains raise the risk of landslides across Sikkim — plan around both.",
+          "facts": [
+            "ZUL2",
+            "ST_MONSOON"
+          ]
+        },
+        "safety_health": {
+          "items": [
+            {
+              "title": "Snow",
+              "body": "Winter brings 3–5 ft of snow on the old silk route.",
+              "status": "seasonal"
+            },
+            {
+              "title": "Monsoon",
+              "body": "Monsoon rains bring landslides that can cut off towns — leave buffer days.",
+              "status": "seasonal"
+            }
+          ],
+          "facts": [
+            "ZUL2",
+            "ST_MONSOON"
+          ]
+        },
+        "food": {
+          "items": [
+            {
+              "body": "Momos, thukpa and gundruk."
+            },
+            {
+              "body": "Bamboo-shoot and millet dishes, and yak-butter tea."
+            },
+            {
+              "body": "Dalle Khorsani, Sikkim's fiery local chilli."
+            }
+          ],
+          "facts": [
+            "ST_FOOD",
+            "N_SK3"
+          ]
+        },
+        "who_its_for": {
+          "items": [
+            {
+              "title": "Road trippers",
+              "body": "The famous three-level switchback roads, with Kangchenjunga views."
+            },
+            {
+              "title": "Nature lovers",
+              "body": "Pangolakha Wildlife Sanctuary, red pandas and summer rhododendrons."
+            }
+          ],
+          "facts": [
+            "S4Z3",
+            "S4Z2"
+          ]
+        },
+        "faqs": {
+          "items": [
+            {
+              "title": "How far is Zuluk from Gangtok?",
+              "body": "About 90 km, roughly 4 hours."
+            },
+            {
+              "title": "What are the seasons like?",
+              "body": "October–February is winter with snow, March–May is cold, and June–September is the monsoon."
+            },
+            {
+              "title": "What is the best-known view?",
+              "body": "The three-level switchback roads, with Kangchenjunga beyond."
+            }
+          ],
+          "facts": [
+            "S4Z1",
+            "S4Z4",
+            "S4Z3"
+          ]
+        },
+        "local_transport": {
+          "text": "Hire a vehicle: Zuluk is about 4 hours from Gangtok and around 6 hours from NJP or Bagdogra.",
+          "facts": [
+            "S4Z1"
+          ]
         }
       },
       "wikidataId": "Q28173156",
@@ -1939,6 +2355,83 @@
             "BAB1",
             "ZUL1"
           ]
+        },
+        "key_facts": {
+          "items": [
+            {
+              "title": "Lampokhari",
+              "body": "One of Sikkim's oldest natural lakes",
+              "status": "verified"
+            },
+            {
+              "title": "Boating",
+              "body": "Sikkim's only boating lake, at 4,600 ft",
+              "status": "verified"
+            },
+            {
+              "title": "Dak bungalow",
+              "body": "British-era, 1895",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "ARI1"
+          ]
+        },
+        "food": {
+          "items": [
+            {
+              "body": "Momos, thukpa and gundruk."
+            },
+            {
+              "body": "Bamboo-shoot and millet dishes, and yak-butter tea."
+            },
+            {
+              "body": "Dalle Khorsani, Sikkim's fiery local chilli."
+            }
+          ],
+          "facts": [
+            "ST_FOOD",
+            "N_SK3"
+          ]
+        },
+        "safety_health": {
+          "items": [
+            {
+              "title": "Monsoon",
+              "body": "Monsoon rains bring landslides that can cut off towns — leave buffer days.",
+              "status": "seasonal"
+            }
+          ],
+          "facts": [
+            "ST_MONSOON"
+          ]
+        },
+        "how_to_reach": {
+          "text": "Aritar is about 67 km from Gangtok, 52 km from Kalimpong, 40 km from Pakyong and 30 km from Rangpo, by road.",
+          "facts": [
+            "S4A1"
+          ]
+        },
+        "who_its_for": {
+          "items": [
+            {
+              "title": "Families",
+              "body": "Boating on Lampokhari, Sikkim's only boating lake."
+            },
+            {
+              "title": "History buffs",
+              "body": "The 1895 British dak bungalow."
+            },
+            {
+              "title": "Monastery visitors",
+              "body": "Aritar Gumpa, one of Sikkim's oldest."
+            }
+          ],
+          "facts": [
+            "ARI1",
+            "S4A2"
+          ]
         }
       },
       "wikidataId": "Q4791117"
@@ -2018,6 +2511,118 @@
             "FAM1",
             "BAB1",
             "ZUL1"
+          ]
+        },
+        "key_facts": {
+          "items": [
+            {
+              "title": "Guru Padmasambhava",
+              "body": "135 ft statue",
+              "status": "verified"
+            },
+            {
+              "title": "Siddhesvara Dham",
+              "body": "About 5 km away",
+              "status": "verified"
+            },
+            {
+              "title": "Nearest station",
+              "body": "New Jalpaiguri, about 96 km",
+              "status": "verified"
+            },
+            {
+              "title": "Nearest airport",
+              "body": "Bagdogra, about 102 km",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "NAM1",
+            "NAM2"
+          ]
+        },
+        "food": {
+          "items": [
+            {
+              "body": "Momos, thukpa and gundruk."
+            },
+            {
+              "body": "Bamboo-shoot and millet dishes, and yak-butter tea."
+            },
+            {
+              "body": "Dalle Khorsani, Sikkim's fiery local chilli."
+            }
+          ],
+          "facts": [
+            "ST_FOOD",
+            "N_SK3"
+          ]
+        },
+        "safety_health": {
+          "items": [
+            {
+              "title": "Monsoon",
+              "body": "Monsoon rains bring landslides that can cut off towns — leave buffer days.",
+              "status": "seasonal"
+            }
+          ],
+          "facts": [
+            "ST_MONSOON"
+          ]
+        },
+        "best_time": {
+          "text": "October brings the Namchi Mahotsav, with art and cultural events at Namchi Central Park. Avoid the monsoon if you can, when landslides can cut roads.",
+          "facts": [
+            "S4N3",
+            "ST_MONSOON"
+          ]
+        },
+        "local_transport": {
+          "text": "Sikkim Nationalised Transport buses connect Namchi with other towns in the state and with Siliguri.",
+          "facts": [
+            "S4N2"
+          ]
+        },
+        "who_its_for": {
+          "items": [
+            {
+              "title": "Pilgrims",
+              "body": "The 135 ft Guru Padmasambhava statue and Siddhesvara Dham."
+            },
+            {
+              "title": "Geology buffs",
+              "body": "Mamley Stromatolite Park, a National Geological Monument."
+            },
+            {
+              "title": "Tea lovers",
+              "body": "Temi Tea Garden nearby."
+            }
+          ],
+          "facts": [
+            "NAM1",
+            "S4N4",
+            "TEM1"
+          ]
+        },
+        "faqs": {
+          "items": [
+            {
+              "title": "How far is Namchi from Gangtok?",
+              "body": "About 78 km."
+            },
+            {
+              "title": "How do I get there by bus?",
+              "body": "Sikkim Nationalised Transport runs buses from other towns and from Siliguri."
+            },
+            {
+              "title": "Nearest airport and station?",
+              "body": "Bagdogra, about 102 km, and New Jalpaiguri, about 96 km."
+            }
+          ],
+          "facts": [
+            "S4N1",
+            "S4N2",
+            "NAM2"
           ]
         }
       },
@@ -2109,6 +2714,115 @@
             "N_SK1",
             "ST_PERMIT",
             "ST_MONSOON"
+          ]
+        },
+        "how_to_reach": {
+          "text": "Ravangla is about 61 km from Gangtok and 120 km from Siliguri, by road.",
+          "facts": [
+            "RAV1"
+          ]
+        },
+        "key_facts": {
+          "items": [
+            {
+              "title": "From Gangtok",
+              "body": "About 61 km",
+              "status": "verified"
+            },
+            {
+              "title": "Buddha Park",
+              "body": "130 ft copper Buddha, consecrated 2013",
+              "status": "verified"
+            },
+            {
+              "title": "Temi Tea Garden",
+              "body": "Organic tea, set up 1969",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "RAV1",
+            "BUD1",
+            "TEM1"
+          ]
+        },
+        "food": {
+          "items": [
+            {
+              "body": "Momos, thukpa and gundruk."
+            },
+            {
+              "body": "Bamboo-shoot and millet dishes, and yak-butter tea."
+            },
+            {
+              "body": "Dalle Khorsani, Sikkim's fiery local chilli."
+            }
+          ],
+          "facts": [
+            "ST_FOOD",
+            "N_SK3"
+          ]
+        },
+        "safety_health": {
+          "items": [
+            {
+              "title": "Monsoon",
+              "body": "Monsoon rains bring landslides that can cut off towns — leave buffer days.",
+              "status": "seasonal"
+            }
+          ],
+          "facts": [
+            "ST_MONSOON"
+          ]
+        },
+        "best_time": {
+          "text": "April and May bring orchids and rhododendrons into bloom; winter can bring snow to the upper town. Avoid the monsoon's landslide season if you can.",
+          "facts": [
+            "S4R2",
+            "ST_MONSOON"
+          ]
+        },
+        "who_its_for": {
+          "items": [
+            {
+              "title": "Mountain watchers",
+              "body": "Kanchenjunga, Pandim, Siniolchu and Kabru on the skyline."
+            },
+            {
+              "title": "Birders and trekkers",
+              "body": "The trek to Maenam Wildlife Sanctuary, and a chance of the rare satyr tragopan."
+            },
+            {
+              "title": "Monastery visitors",
+              "body": "Buddha Park and Ralang Monastery, 6 km away."
+            }
+          ],
+          "facts": [
+            "S4R1",
+            "S4R3",
+            "BUD1",
+            "S4R4"
+          ]
+        },
+        "faqs": {
+          "items": [
+            {
+              "title": "How high is Ravangla?",
+              "body": "About 8,000 ft."
+            },
+            {
+              "title": "When do the flowers bloom?",
+              "body": "April–May, with orchids and rhododendrons."
+            },
+            {
+              "title": "How far is it from Gangtok?",
+              "body": "About 61 km."
+            }
+          ],
+          "facts": [
+            "S4R1",
+            "S4R2",
+            "RAV1"
           ]
         }
       },
@@ -2456,6 +3170,121 @@
             "ST_PERMIT",
             "ST_MONSOON"
           ]
+        },
+        "key_facts": {
+          "items": [
+            {
+              "title": "Founded",
+              "body": "1642, as Sikkim's first capital",
+              "status": "verified"
+            },
+            {
+              "title": "Dubdi Monastery",
+              "body": "Sikkim's first, 1701, at 2,100 m",
+              "status": "verified"
+            },
+            {
+              "title": "Tashiding",
+              "body": "19 km south-east",
+              "status": "verified"
+            },
+            {
+              "title": "Trekking",
+              "body": "Base for Kanchenjunga treks",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "YUK1",
+            "DUB1",
+            "TAS1"
+          ]
+        },
+        "food": {
+          "items": [
+            {
+              "body": "Momos, thukpa and gundruk."
+            },
+            {
+              "body": "Bamboo-shoot and millet dishes, and yak-butter tea."
+            },
+            {
+              "body": "Dalle Khorsani, Sikkim's fiery local chilli."
+            }
+          ],
+          "facts": [
+            "ST_FOOD",
+            "N_SK3"
+          ]
+        },
+        "safety_health": {
+          "items": [
+            {
+              "title": "Altitude",
+              "body": "The Goecha La trek is demanding — acclimatise properly.",
+              "status": "verified"
+            },
+            {
+              "title": "Monsoon",
+              "body": "Monsoon rains bring landslides that can cut off towns — leave buffer days.",
+              "status": "seasonal"
+            }
+          ],
+          "facts": [
+            "GOE1",
+            "ST_MONSOON"
+          ]
+        },
+        "who_its_for": {
+          "items": [
+            {
+              "title": "Trekkers",
+              "body": "The starting point for Kanchenjunga treks, including Goecha La."
+            },
+            {
+              "title": "History lovers",
+              "body": "Norbugang Chorten, where the first Chogyal was crowned."
+            }
+          ],
+          "facts": [
+            "YUK1",
+            "GOE1"
+          ]
+        },
+        "best_time": {
+          "text": "March to June and September to November are the pleasant months; December and February are the coldest. Trekking to Dzongri and Goecha La is best in those dry windows — avoid the monsoon, when landslides can cut roads.",
+          "facts": [
+            "S4Y2",
+            "ST_MONSOON"
+          ]
+        },
+        "how_to_reach": {
+          "text": "Yuksom is about 40 km north of Gyalshing, and the road network connects it with Geyzing and Gangtok.",
+          "facts": [
+            "S4Y1",
+            "S4Y4"
+          ]
+        },
+        "faqs": {
+          "items": [
+            {
+              "title": "How long is the Goecha La trek?",
+              "body": "The Dzongri–Goechala trek from Yuksom takes about 8–9 days."
+            },
+            {
+              "title": "When should I go?",
+              "body": "March–June and September–November are pleasant; December and February are the coldest."
+            },
+            {
+              "title": "What is Yuksom known for?",
+              "body": "It was Sikkim's first capital, founded in 1642, and is the base for Kanchenjunga treks."
+            }
+          ],
+          "facts": [
+            "S4Y3",
+            "S4Y2",
+            "YUK1"
+          ]
         }
       },
       "wikidataId": "Q839046",
@@ -2796,6 +3625,88 @@
             "N_NS1",
             "N_NSY1"
           ]
+        },
+        "how_to_reach": {
+          "text": "Lachen is about 129 km from Gangtok by road, via Chungthang, where the Lachen and Lachung rivers meet.",
+          "facts": [
+            "LCH1",
+            "CHU1"
+          ]
+        },
+        "key_facts": {
+          "items": [
+            {
+              "title": "Altitude",
+              "body": "About 9,600 ft",
+              "status": "verified"
+            },
+            {
+              "title": "From Gangtok",
+              "body": "About 129 km",
+              "status": "verified"
+            },
+            {
+              "title": "Base for",
+              "body": "Gurudongmar Lake",
+              "status": "verified"
+            },
+            {
+              "title": "Thangu valley",
+              "body": "30 km north, summer wildflowers",
+              "status": "seasonal"
+            }
+          ],
+          "facts": [
+            "LCH1",
+            "LCH2"
+          ]
+        },
+        "practical_info": {
+          "items": [
+            {
+              "title": "Permits",
+              "body": "Many areas of Sikkim are restricted and need permits; check before you set out.",
+              "status": "verified"
+            },
+            {
+              "title": "Local council",
+              "body": "The village is run by its traditional Dzumsa council — respect local rules.",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "ST_PERMIT",
+            "LCH1"
+          ]
+        },
+        "food": {
+          "items": [
+            {
+              "body": "Momos, thukpa and gundruk."
+            },
+            {
+              "body": "Bamboo-shoot and millet dishes, and yak-butter tea."
+            },
+            {
+              "body": "Dalle Khorsani, Sikkim's fiery local chilli."
+            }
+          ],
+          "facts": [
+            "ST_FOOD",
+            "N_SK3"
+          ]
+        },
+        "safety_health": {
+          "items": [
+            {
+              "title": "Monsoon",
+              "body": "Monsoon rains bring landslides that can cut off towns — leave buffer days.",
+              "status": "seasonal"
+            }
+          ],
+          "facts": [
+            "ST_MONSOON"
+          ]
         }
       },
       "wikidataId": "Q3215806",
@@ -2858,6 +3769,84 @@
           "facts": [
             "N_NS1",
             "N_NSY1"
+          ]
+        },
+        "how_to_reach": {
+          "text": "Chungthang is about 95 km from Gangtok by road.",
+          "facts": [
+            "CHU1"
+          ]
+        },
+        "key_facts": {
+          "items": [
+            {
+              "title": "From Gangtok",
+              "body": "About 95 km",
+              "status": "verified"
+            },
+            {
+              "title": "Rivers",
+              "body": "Lachen and Lachung meet to form the Teesta",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "CHU1"
+          ]
+        },
+        "practical_info": {
+          "items": [
+            {
+              "title": "Permits",
+              "body": "Many areas of Sikkim are restricted and need permits; check before you set out.",
+              "status": "verified"
+            },
+            {
+              "title": "Plastic",
+              "body": "Sikkim has banned plastic water bottles — carry a refillable one.",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "ST_PERMIT",
+            "N_SK2"
+          ]
+        },
+        "safety_health": {
+          "items": [
+            {
+              "title": "Monsoon",
+              "body": "Monsoon rains bring landslides that can cut off towns — leave buffer days.",
+              "status": "seasonal"
+            }
+          ],
+          "facts": [
+            "ST_MONSOON"
+          ]
+        },
+        "things_to_do": {
+          "items": [
+            {
+              "body": "See the sacred rock said to bear Guru Padmasambhava's hand and footprints."
+            },
+            {
+              "body": "Watch the Lachen and Lachung rivers meet to form the Teesta."
+            }
+          ],
+          "facts": [
+            "S4C1",
+            "CHU1"
+          ]
+        },
+        "who_its_for": {
+          "items": [
+            {
+              "title": "North Sikkim travellers",
+              "body": "A good halt before Lachen, Lachung and Yumthang."
+            }
+          ],
+          "facts": [
+            "S4C2"
           ]
         }
       },

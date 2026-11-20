@@ -303,6 +303,76 @@
       "url": "https://www.rajasthandriver.com/tourist-attractions/chittorgarh-fort",
       "title": "Chittorgarh Fort — Rajasthan Driver",
       "authority": "travel_platform"
+    },
+    "RT_AJM_F": {
+      "url": "https://www.tourism.rajasthan.gov.in/ajmer.html",
+      "title": "Ajmer — Rajasthan Tourism (Govt of Rajasthan)",
+      "authority": "government"
+    },
+    "RT_CHI": {
+      "url": "https://www.tourism.rajasthan.gov.in/chittorgarh.html",
+      "title": "Chittorgarh — Rajasthan Tourism (Govt of Rajasthan)",
+      "authority": "government"
+    },
+    "W_112": {
+      "url": "https://en.wikipedia.org/wiki/112_(emergency_telephone_number)",
+      "title": "112 (emergency telephone number) — Wikipedia",
+      "authority": "reference"
+    },
+    "II_CHI": {
+      "url": "https://www.incredibleindia.gov.in/en/rajasthan/chittorgarh",
+      "title": "Chittorgarh — Incredible India (Ministry of Tourism)",
+      "authority": "government"
+    },
+    "RT_ABU_F": {
+      "url": "https://www.tourism.rajasthan.gov.in/mount-abu.html",
+      "title": "Mount Abu — Rajasthan Tourism (Govt of Rajasthan)",
+      "authority": "government"
+    },
+    "II_JOD": {
+      "url": "https://www.incredibleindia.gov.in/en/rajasthan/jodhpur",
+      "title": "Jodhpur — Incredible India (Ministry of Tourism)",
+      "authority": "government"
+    },
+    "RT_JOD": {
+      "url": "https://www.tourism.rajasthan.gov.in/jodhpur.html",
+      "title": "Jodhpur — Rajasthan Tourism (Govt of Rajasthan)",
+      "authority": "government"
+    },
+    "II_AJM": {
+      "url": "https://www.incredibleindia.gov.in/en/rajasthan/ajmer",
+      "title": "Ajmer — Incredible India (Ministry of Tourism)",
+      "authority": "government"
+    },
+    "RT_RAN": {
+      "url": "https://www.tourism.rajasthan.gov.in/ranthambore.html",
+      "title": "Ranthambore — Rajasthan Tourism (Govt of Rajasthan)",
+      "authority": "government"
+    },
+    "RT_JAI": {
+      "url": "https://www.tourism.rajasthan.gov.in/jaisalmer.html",
+      "title": "Jaisalmer — Rajasthan Tourism (Govt of Rajasthan)",
+      "authority": "government"
+    },
+    "RT_BIK": {
+      "url": "https://www.tourism.rajasthan.gov.in/bikaner.html",
+      "title": "Bikaner — Rajasthan Tourism (Govt of Rajasthan)",
+      "authority": "government"
+    },
+    "II_BIK": {
+      "url": "https://www.incredibleindia.gov.in/en/rajasthan/bikaner",
+      "title": "Bikaner — Incredible India (Ministry of Tourism)",
+      "authority": "government"
+    },
+    "RT_PUS_F": {
+      "url": "https://www.tourism.rajasthan.gov.in/pushkar.html",
+      "title": "Pushkar — Rajasthan Tourism (Govt of Rajasthan)",
+      "authority": "government"
+    },
+    "RT_UDA": {
+      "url": "https://www.tourism.rajasthan.gov.in/udaipur.html",
+      "title": "Udaipur — Rajasthan Tourism (Govt of Rajasthan)",
+      "authority": "government"
     }
   },
   "facts": {
@@ -2475,6 +2545,538 @@
           "quote": "Indians have to purchase entry tickets that cost ₹40 while foreigners have to pay ₹600 as an entry fee."
         }
       ]
+    },
+    "R1C3": {
+      "place": "rajasthan/chittorgarh",
+      "topic": "R1C3",
+      "claim": "Vijay Stambh, built by Maharana Kumbha 1440–1448; a light and sound show after sunset.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "RT_CHI",
+          "quote": "Vijay Stambh (the Tower of Victory) was built by Maharana Kumbha between 1440 AD and 1448 AD"
+        },
+        {
+          "source": "RT_CHI",
+          "quote": "Timing: After Sunset"
+        }
+      ]
+    },
+    "R1C2": {
+      "place": "rajasthan/chittorgarh",
+      "topic": "R1C2",
+      "claim": "Food: dal baati churma, laal maas; eat at Sadar Bazaar, Rana Sangha Market and Fort Road Market.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_CHI",
+          "quote": "At the heart of every Rajasthani meal lies the iconic Dal Baati Churma"
+        },
+        {
+          "source": "II_CHI",
+          "quote": "Laal Maas emerges as a must-try delicacy"
+        },
+        {
+          "source": "II_CHI",
+          "quote": "including the markets of Sadar Bazaar, Rana Sangha Market, and Fort Road Market"
+        }
+      ]
+    },
+    "R1S1": {
+      "place": "rajasthan",
+      "topic": "R1S1",
+      "claim": "112 is India's single emergency number.",
+      "claimType": "contact",
+      "evidence": [
+        {
+          "source": "W_112",
+          "quote": "112 is now the pan-country single emergency number for all emergencies."
+        }
+      ]
+    },
+    "R1C1": {
+      "place": "rajasthan/chittorgarh",
+      "topic": "R1C1",
+      "claim": "Udaipur's Dabok airport is about 90 km; regular buses from all major Rajasthan cities.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "RT_CHI",
+          "quote": "Nearest Airport Maharana Pratap Airport, Dabok at approx 90 km."
+        },
+        {
+          "source": "RT_CHI",
+          "quote": "Regular buses are available to Chittorgarh from all major cities in Rajasthan."
+        }
+      ]
+    },
+    "R1S2": {
+      "place": "rajasthan",
+      "topic": "R1S2",
+      "claim": "March–May is best avoided: temperatures can pass 40°C.",
+      "claimType": "schedule",
+      "evidence": [
+        {
+          "source": "RT_AJM_F",
+          "quote": "The summer months, from March to May, are best to be avoided, as the temperature can easily cross 40° C"
+        }
+      ]
+    },
+    "R1M1": {
+      "place": "rajasthan/mount-abu",
+      "topic": "R1M1",
+      "claim": "Mount Abu, Rajasthan's only hill station, is at 1,722 m; Udaipur airport is 176 km; Abu Road station is 28 km; state and private buses.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "RT_ABU_F",
+          "quote": "Mount Abu, the state’s only hill station stands at a height of 1722 metres above sea level"
+        },
+        {
+          "source": "RT_ABU_F",
+          "quote": "located at a distance of 176 kilometres from Mount Abu"
+        },
+        {
+          "source": "RT_ABU_F",
+          "quote": "The railway station at Mount Abu is located at a distance of 28 kilometres from the city."
+        },
+        {
+          "source": "RT_ABU_F",
+          "quote": "People can either drive themselves or take one of the buses offered by the state transport service."
+        }
+      ]
+    },
+    "R1M3": {
+      "place": "rajasthan/mount-abu",
+      "topic": "R1M3",
+      "claim": "Dilwara temples 2.5 km; Achalgarh 26 km; the monsoon can slow sightseeing.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "RT_ABU_F",
+          "quote": "the Dilwara Jain temples are located at a distance of about 2.5 kilometres from Mount Abu"
+        },
+        {
+          "source": "RT_ABU_F",
+          "quote": "the Achalgarh Fort is located about 26 kilometres north of the city"
+        },
+        {
+          "source": "RT_ABU_F",
+          "quote": "it might be a good idea to avoid the monsoon season"
+        }
+      ]
+    },
+    "R1M2": {
+      "place": "rajasthan/mount-abu",
+      "topic": "R1M2",
+      "claim": "Summer festival from Buddha Purnima; winter festival in December with crafts and food.",
+      "claimType": "schedule",
+      "evidence": [
+        {
+          "source": "RT_ABU_F",
+          "quote": "Starting on the day of Buddha Poornima, the summer festival celebrates the vibrancy of Rajasthani culture"
+        },
+        {
+          "source": "RT_ABU_F",
+          "quote": "The annual Winter Festival held at Mount Abu in December"
+        },
+        {
+          "source": "RT_ABU_F",
+          "quote": "stunning handicrafts and delicious food"
+        }
+      ]
+    },
+    "R1J3": {
+      "place": "rajasthan/jodhpur",
+      "topic": "R1J3",
+      "claim": "Marwar Festival in Ashwin (September–October).",
+      "claimType": "schedule",
+      "evidence": [
+        {
+          "source": "RT_JOD",
+          "quote": "The two-day festival is held every year in the month of Ashwin (between September and October)"
+        }
+      ]
+    },
+    "R1J1": {
+      "place": "rajasthan/jodhpur",
+      "topic": "R1J1",
+      "claim": "Jodhpur airport is about 5 km from the centre with flights to Delhi and Mumbai; Ghanta Ghar is the start of the old-city heritage walk.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "RT_JOD",
+          "quote": "Jodhpur is connected to Delhi and Mumbai and the airport is about 5 kilometres from the city centre."
+        },
+        {
+          "source": "RT_JOD",
+          "quote": "The Tower serves as the Start/ end point of heritage walk through the blue city."
+        }
+      ]
+    },
+    "R1J2": {
+      "place": "rajasthan/jodhpur",
+      "topic": "R1J2",
+      "claim": "Sardar Market and the Clock Tower bazaar sell textiles, jewellery, spices and local delicacies; part of Umaid Bhawan is a luxury hotel.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_JOD",
+          "quote": "From the bustling lanes of Sardar Market to the colourful stalls of Clock Tower Market"
+        },
+        {
+          "source": "II_JOD",
+          "quote": "aromatic spices and local delicacies"
+        },
+        {
+          "source": "II_JOD",
+          "quote": "houses a museum, luxury hotel, and the residence of the royal family of Jodhpur"
+        }
+      ]
+    },
+    "R1A2": {
+      "place": "rajasthan/ajmer",
+      "topic": "R1A2",
+      "claim": "Ajmer Sharif Dargah of Khwaja Moinuddin Chishti is revered by Muslims and Hindus; also Ana Sagar, the golden Jain temple, Mayo College and Taragarh fort.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "RT_AJM_F",
+          "quote": "The final resting place of the Sufi Saint, Khwaja Moinuddin Hasan Chisti, is visited by Muslims from all over the world; in fact, the Dargah is revered equally by both Hindus and Muslims."
+        },
+        {
+          "source": "RT_AJM_F",
+          "quote": "The city is surrounded by the expansive lake of Ana Sagar"
+        },
+        {
+          "source": "RT_AJM_F",
+          "quote": "is home to an amazing golden Jain Temple"
+        },
+        {
+          "source": "RT_AJM_F",
+          "quote": "The Chauhan dynasty was responsible for the construction of the first hill fort of India, Taragarh"
+        }
+      ]
+    },
+    "R1A1": {
+      "place": "rajasthan/ajmer",
+      "topic": "R1A1",
+      "claim": "Ajmer is 130 km from Jaipur and 14 km from Pushkar; Kishangarh airport is about 30 km; government buses run from Jaipur all day; Ajmer is on the Delhi–Jaipur–Ahmedabad–Mumbai line.",
+      "claimType": "distance",
+      "evidence": [
+        {
+          "source": "RT_AJM_F",
+          "quote": "located 130 km southwest of Jaipur and just 14 km from the pilgrimage town of Pushkar"
+        },
+        {
+          "source": "RT_AJM_F",
+          "quote": "The nearest airport is Kishangarh Airport, which is about 30 kilometres away"
+        },
+        {
+          "source": "RT_AJM_F",
+          "quote": "Government run buses run between Jaipur and Ajmer throughout the day."
+        },
+        {
+          "source": "RT_AJM_F",
+          "quote": "Ajmer is located on the Delhi-Jaipur-Marwar-Ahmedabad-Mumbai railway line."
+        }
+      ]
+    },
+    "R1A5": {
+      "place": "rajasthan/ajmer",
+      "topic": "R1A5",
+      "claim": "Taxis at the airport stand; cloakroom at the main bus stand.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "RT_AJM_F",
+          "quote": "One can easily pre-book a cab or hire one from the taxi stands outside the airport."
+        },
+        {
+          "source": "RT_AJM_F",
+          "quote": "One can also use the cloakroom at the main bus stand."
+        }
+      ]
+    },
+    "R1A4": {
+      "place": "rajasthan/ajmer",
+      "topic": "R1A4",
+      "claim": "Best time October–February.",
+      "claimType": "schedule",
+      "evidence": [
+        {
+          "source": "RT_AJM_F",
+          "quote": "The best time visit Ajmer is between October and February."
+        }
+      ]
+    },
+    "R1A3": {
+      "place": "rajasthan/ajmer",
+      "topic": "R1A3",
+      "claim": "Food: kadhi-kachori, sohan halwa, Mughal-style biryani, rabdi lassi.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_AJM",
+          "quote": "One of the most popular street foods is the Kadhi-Kachori"
+        },
+        {
+          "source": "II_AJM",
+          "quote": "Then there is the famous Sohan Halwa"
+        },
+        {
+          "source": "II_AJM",
+          "quote": "The exotic Mughal-influenced Biryani is a mouth-watering delicacy of Ajmer"
+        },
+        {
+          "source": "II_AJM",
+          "quote": "Wash everything down with a chilled glass of Rabdi Lassi"
+        }
+      ]
+    },
+    "R1R1": {
+      "place": "rajasthan/ranthambore",
+      "topic": "R1R1",
+      "claim": "Ranthambore is 14 km from Sawai Madhopur; reach it by local bus, taxi or cab; Sawai Madhopur has stays for every budget; safaris are booked online on the forest department site.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "RT_RAN",
+          "quote": "Located 14 kilometres from Sawai Madhopur"
+        },
+        {
+          "source": "RT_RAN",
+          "quote": "Sawai Madhopur has a range of accommodation to suit every budget"
+        },
+        {
+          "source": "RT_RAN",
+          "quote": "For online reservations, visit http://fmdss.forest.rajasthan.gov.in/"
+        },
+        {
+          "source": "RT_RAN",
+          "quote": "One can take a local bus, taxi or a cab to reach Ranthambore."
+        }
+      ]
+    },
+    "R1S10": {
+      "place": "rajasthan/jaisalmer",
+      "topic": "R1S10",
+      "claim": "Jaisalmer airport has flights from Jaipur, Delhi, Mumbai, Bengaluru and Surat; buses and taxis to Jodhpur, Bikaner and Jaipur.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "RT_JAI",
+          "quote": "Jaisalmer has the civil airport facility and has direct air connectivity from Jaipur, delhi, mumbai, Banglore and surat"
+        },
+        {
+          "source": "RT_JAI",
+          "quote": "Jaisalmer is connected to Jodhpur, Bikaner and Jaipur by bus and taxi."
+        }
+      ]
+    },
+    "R1S11": {
+      "place": "rajasthan/jaisalmer",
+      "topic": "R1S11",
+      "claim": "Desert camping is best October–March; camel safaris are run by local camel owners and camps.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "RT_JAI",
+          "quote": "the ideal time to head out for camping would be between October to March"
+        },
+        {
+          "source": "RT_JAI",
+          "quote": "These safaris are primarily offered by local camel owners and some resort/ camping site operators also provide camel riding"
+        }
+      ]
+    },
+    "R1S12": {
+      "place": "rajasthan/jaisalmer",
+      "topic": "R1S12",
+      "claim": "The fort still houses shops, hotels and havelis lived in for generations.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "RT_JAI",
+          "quote": "It houses shops, hotels and ancient havelis (homes) where generations continue to live."
+        }
+      ]
+    },
+    "R1B1": {
+      "place": "rajasthan/bikaner",
+      "topic": "R1B1",
+      "claim": "Nal airport is 10 km from Bikaner with flights to Delhi and Jaipur; express buses to Jaipur, Jodhpur, Jaisalmer, Delhi and more; trains to Jaipur, Jaisalmer, Jodhpur, Delhi, Mumbai and Kolkata.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "RT_BIK",
+          "quote": "Nearest Airport NAAL 10 KM from Bikaner direct connectivity from Delhi as well as Jaipur."
+        },
+        {
+          "source": "RT_BIK",
+          "quote": "There are frequent express buses to Agra, Ahmedabad, Ajmer, Barmer, Delhi, Jaipur, Jaisalmer, Jhunjhunu, Jodhpur, Kota and Udaipur."
+        },
+        {
+          "source": "RT_BIK",
+          "quote": "Bikaner has railway connections to several destinations in India including Jaipur, Jaisalmer, Churu, Jodhpur, Delhi, Mumbai, Kolkata, Guwahati etc."
+        }
+      ]
+    },
+    "R1B3": {
+      "place": "rajasthan/bikaner",
+      "topic": "R1B3",
+      "claim": "Stays: heritage hotels, luxury resorts, boutique guesthouses, budget lodgings; winter suits camel safaris and desert camping.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_BIK",
+          "quote": "including heritage hotels, luxury resorts, boutique guesthouses, and budget-friendly lodgings"
+        },
+        {
+          "source": "II_BIK",
+          "quote": "this season presents optimal conditions for camel safaris and camping adventures in the nearby Thar Desert"
+        }
+      ]
+    },
+    "R1B2": {
+      "place": "rajasthan/bikaner",
+      "topic": "R1B2",
+      "claim": "Food: Bikaneri bhujia, raj kachori, samosa, kachori, Rajasthani thali; sweets ghewar, kesar kulfi, rasgulla.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_BIK",
+          "quote": "Bikaner is renowned for its delicacies, including Bikaneri Bhujia, Raj Kachori, samosa and kachori."
+        },
+        {
+          "source": "II_BIK",
+          "quote": "For meals, try authentic Rajasthani Thali"
+        },
+        {
+          "source": "II_BIK",
+          "quote": "Sweet dishes include Ghewar, Kesar kulfi and Rasgulla."
+        }
+      ]
+    },
+    "R1B4": {
+      "place": "rajasthan/bikaner",
+      "topic": "R1B4",
+      "claim": "Nearby: National Research Centre on Camel (8 km), Gajner sanctuary (32 km), Kolayat fair in November.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "RT_BIK",
+          "quote": "The National Research Centre on Camel is 8 kilometres from the city."
+        },
+        {
+          "source": "RT_BIK",
+          "quote": "Barely 32 kilometres from Bikaner, on the Jaisalmer road, is a lush green forest"
+        },
+        {
+          "source": "RT_BIK",
+          "quote": "is held during the month of November (Kartik Poornima)"
+        }
+      ]
+    },
+    "R1B5": {
+      "place": "rajasthan/bikaner",
+      "topic": "R1B5",
+      "claim": "Bikaner hosts a Camel Festival.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_BIK",
+          "quote": "Bikaner's vibrant festivals include the Camel Festival"
+        }
+      ]
+    },
+    "R1P3": {
+      "place": "rajasthan/pushkar",
+      "topic": "R1P3",
+      "claim": "Pushkar serves only vegetarian food.",
+      "claimType": "rule",
+      "evidence": [
+        {
+          "source": "RT_PUS_F",
+          "quote": "Being a temple town, Pushkar exclusively offers vegetarian food"
+        }
+      ]
+    },
+    "R1P2": {
+      "place": "rajasthan/pushkar",
+      "topic": "R1P2",
+      "claim": "The Savitri Mata ropeway gives a bird's-eye view of Pushkar.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "RT_PUS_F",
+          "quote": "the Savitri Mata Ropeway gives a bird’s eye view of the entire town of Pushkar"
+        }
+      ]
+    },
+    "R1P1": {
+      "place": "rajasthan/pushkar",
+      "topic": "R1P1",
+      "claim": "The old palace is now RTDC's Hotel Sarovar; camps near the fair grounds; camping best October–February.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "RT_PUS_F",
+          "quote": "It has now been converted into a heritage hotel, called the RTDC Hotel Sarovar"
+        },
+        {
+          "source": "RT_PUS_F",
+          "quote": "Some of the most preferred campsites in Pushkar are located near the Pushkar fair grounds"
+        },
+        {
+          "source": "RT_PUS_F",
+          "quote": "The best time for camping in Pushkar is from October to February"
+        }
+      ]
+    },
+    "R1U2": {
+      "place": "rajasthan/udaipur",
+      "topic": "R1U2",
+      "claim": "The Lake Palace is now a hotel; camping is best October–March.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "RT_UDA",
+          "quote": "LAKE PALACE Now a hotel but was originally called Jagniwas and served as a summer palace."
+        },
+        {
+          "source": "RT_UDA",
+          "quote": "the ideal time to head out for camping would be between October to March"
+        }
+      ]
+    },
+    "R1U1": {
+      "place": "rajasthan/udaipur",
+      "topic": "R1U1",
+      "claim": "Dabok (Maharana Pratap) airport is about 25 km from the centre; a ropeway runs up to Karni Mata temple.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "RT_UDA",
+          "quote": "Dabok Airport, also known as Maharana Pratap Airport is the closest at about 25 km northeast of the city centre."
+        },
+        {
+          "source": "RT_UDA",
+          "quote": "At the Deen Dayal Upadhyay Park, a special ropeway ride takes you to the top of the hill towards the Karni Mata Temple."
+        }
+      ]
+    },
+    "R1U3": {
+      "place": "rajasthan/udaipur",
+      "topic": "R1U3",
+      "claim": "Menar, 48 km away, hosts migratory birds in winter.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "RT_UDA",
+          "quote": "the best time to visit Menar is during the winters when the ponds plays host to a number of migratory birds"
+        }
+      ]
     }
   },
   "places": [
@@ -2624,6 +3226,60 @@
             "UDL1",
             "KM1",
             "UD3"
+          ]
+        },
+        "local_transport": {
+          "text": "Dabok (Maharana Pratap) airport is about 25 km from the centre. In town, the old city around the lakes is walkable; take the ropeway from Deen Dayal Upadhyay Park up to the Karni Mata temple for the view.",
+          "facts": [
+            "R1U1"
+          ]
+        },
+        "where_to_stay": {
+          "text": "Stay by the lakes in the old city. The Lake Palace on Lake Pichola is now a hotel; between October and March, camping outside the city is another option.",
+          "facts": [
+            "R1U2"
+          ]
+        },
+        "practical_info": {
+          "items": [
+            {
+              "title": "Airport",
+              "body": "Dabok, about 25 km from the centre.",
+              "status": "verified"
+            },
+            {
+              "title": "Birding",
+              "body": "Menar, 48 km away, fills with migratory birds in winter.",
+              "status": "seasonal"
+            },
+            {
+              "title": "Emergency",
+              "body": "Dial 112.",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "R1U1",
+            "R1U3",
+            "R1S1"
+          ]
+        },
+        "safety_health": {
+          "items": [
+            {
+              "title": "Heat",
+              "body": "March–May can pass 40°C — carry water, cover up and plan sightseeing for mornings and evenings.",
+              "status": "seasonal"
+            },
+            {
+              "title": "Emergency",
+              "body": "Dial 112 for police, fire or ambulance.",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "R1S2",
+            "R1S1"
           ]
         }
       },
@@ -3461,6 +4117,70 @@
             "JDJ1",
             "JDG1"
           ]
+        },
+        "key_facts": {
+          "items": [
+            {
+              "title": "Known as",
+              "body": "The Blue City",
+              "status": "verified"
+            },
+            {
+              "title": "Airport",
+              "body": "About 5 km from the centre",
+              "status": "verified"
+            },
+            {
+              "title": "Festival",
+              "body": "Marwar Festival, September–October",
+              "status": "seasonal"
+            }
+          ],
+          "facts": [
+            "R1J1",
+            "R1J3"
+          ]
+        },
+        "food": {
+          "items": [
+            {
+              "body": "Spices and local delicacies in Sardar Market and the Clock Tower bazaar."
+            }
+          ],
+          "facts": [
+            "R1J2"
+          ]
+        },
+        "local_transport": {
+          "text": "The airport is about 5 km from the centre, with flights to Delhi and Mumbai. In the old city, walk: the heritage walk through the blue lanes starts and ends at Ghanta Ghar, the clock tower.",
+          "facts": [
+            "R1J1"
+          ]
+        },
+        "where_to_stay": {
+          "text": "Stay in the blue old city for the heritage walks and bazaars, or splurge on Umaid Bhawan, part of which is a luxury hotel.",
+          "facts": [
+            "R1J1",
+            "R1J2"
+          ]
+        },
+        "safety_health": {
+          "items": [
+            {
+              "title": "Heat",
+              "body": "March–May can pass 40°C — carry water, cover up and plan sightseeing for mornings and evenings.",
+              "status": "seasonal"
+            },
+            {
+              "title": "Emergency",
+              "body": "Dial 112 for police, fire or ambulance.",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "R1S2",
+            "R1S1"
+          ]
         }
       },
       "wikidataId": "Q200019",
@@ -3904,6 +4624,56 @@
             "JS5",
             "JSF1",
             "JSB1"
+          ]
+        },
+        "local_transport": {
+          "text": "Jaisalmer has an airport with flights from Jaipur, Delhi, Mumbai, Bengaluru and Surat, and buses and taxis to Jodhpur, Bikaner and Jaipur. Camel safaris into the dunes are run by local camel owners and the camps.",
+          "facts": [
+            "R1S10",
+            "R1S11"
+          ]
+        },
+        "where_to_stay": {
+          "text": "Stay inside the living fort, which still has hotels among its shops and havelis, in the town below, or in a desert camp — camping is best from October to March.",
+          "facts": [
+            "R1S12",
+            "R1S11"
+          ]
+        },
+        "practical_info": {
+          "items": [
+            {
+              "title": "Camping season",
+              "body": "October to March.",
+              "status": "seasonal"
+            },
+            {
+              "title": "Emergency",
+              "body": "Dial 112.",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "R1S11",
+            "R1S1"
+          ]
+        },
+        "safety_health": {
+          "items": [
+            {
+              "title": "Heat",
+              "body": "March–May can pass 40°C — carry water, cover up and plan sightseeing for mornings and evenings.",
+              "status": "seasonal"
+            },
+            {
+              "title": "Emergency",
+              "body": "Dial 112 for police, fire or ambulance.",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "R1S2",
+            "R1S1"
           ]
         }
       },
@@ -4604,6 +5374,61 @@
             "PK5",
             "AJ1"
           ]
+        },
+        "key_facts": {
+          "items": [
+            {
+              "title": "From Ajmer",
+              "body": "14 km",
+              "status": "verified"
+            },
+            {
+              "title": "Food",
+              "body": "Vegetarian only",
+              "status": "verified"
+            },
+            {
+              "title": "Camping season",
+              "body": "October–February",
+              "status": "seasonal"
+            }
+          ],
+          "facts": [
+            "R1A1",
+            "R1P3",
+            "R1P1"
+          ]
+        },
+        "where_to_stay": {
+          "text": "RTDC's Hotel Sarovar, a converted palace, looks over the lake and temples. Desert camps cluster near the fair grounds — best from October to February.",
+          "facts": [
+            "R1P1"
+          ]
+        },
+        "local_transport": {
+          "text": "Pushkar is 14 km from Ajmer, the nearest railhead. The town is small and walkable; take the Savitri Mata ropeway for the view over the lake.",
+          "facts": [
+            "R1A1",
+            "R1P2"
+          ]
+        },
+        "safety_health": {
+          "items": [
+            {
+              "title": "Heat",
+              "body": "March–May can pass 40°C — carry water, cover up and plan sightseeing for mornings and evenings.",
+              "status": "seasonal"
+            },
+            {
+              "title": "Emergency",
+              "body": "Dial 112 for police, fire or ambulance.",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "R1S2",
+            "R1S1"
+          ]
         }
       },
       "wikidataId": "Q749170",
@@ -4975,6 +5800,139 @@
             "RJW1",
             "RJW3"
           ]
+        },
+        "key_facts": {
+          "items": [
+            {
+              "title": "Best time",
+              "body": "October–February",
+              "status": "seasonal"
+            },
+            {
+              "title": "From Jaipur",
+              "body": "130 km",
+              "status": "verified"
+            },
+            {
+              "title": "Pushkar",
+              "body": "14 km",
+              "status": "verified"
+            },
+            {
+              "title": "Nearest airport",
+              "body": "Kishangarh, about 30 km",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "R1A4",
+            "R1A1"
+          ]
+        },
+        "things_to_do": {
+          "items": [
+            {
+              "body": "Visit Ajmer Sharif, the dargah of Khwaja Moinuddin Chishti, revered by Muslims and Hindus alike."
+            },
+            {
+              "body": "Walk by Ana Sagar lake."
+            },
+            {
+              "body": "See the golden Jain temple (Soniji ki Nasiyan)."
+            },
+            {
+              "body": "Climb to Taragarh, built by the Chauhans as one of India's first hill forts."
+            },
+            {
+              "body": "Day trip to Pushkar, 14 km away."
+            }
+          ],
+          "facts": [
+            "R1A2",
+            "R1A1"
+          ]
+        },
+        "food": {
+          "items": [
+            {
+              "body": "Kadhi-kachori, the city's favourite street snack."
+            },
+            {
+              "body": "Sohan halwa, Ajmer's famous sweet."
+            },
+            {
+              "body": "Mughal-style biryani, and rabdi lassi to wash it down."
+            }
+          ],
+          "facts": [
+            "R1A3"
+          ]
+        },
+        "local_transport": {
+          "text": "Government buses run between Jaipur and Ajmer all day, and Ajmer is on the Delhi–Jaipur–Ahmedabad–Mumbai railway. Kishangarh airport is about 30 km away — pre-book a cab or use the taxi stand. The main bus stand has a cloakroom, handy on a day trip.",
+          "facts": [
+            "R1A1",
+            "R1A5"
+          ]
+        },
+        "who_its_for": {
+          "items": [
+            {
+              "title": "Pilgrims",
+              "body": "Ajmer Sharif Dargah, and Pushkar's Brahma temple nearby."
+            },
+            {
+              "title": "History lovers",
+              "body": "Taragarh fort and the golden Jain temple."
+            },
+            {
+              "title": "Food lovers",
+              "body": "Kadhi-kachori, sohan halwa and biryani."
+            }
+          ],
+          "facts": [
+            "R1A2",
+            "R1A3"
+          ]
+        },
+        "safety_health": {
+          "items": [
+            {
+              "title": "Heat",
+              "body": "March–May can pass 40°C — carry water, cover up and plan sightseeing for mornings and evenings.",
+              "status": "seasonal"
+            },
+            {
+              "title": "Emergency",
+              "body": "Dial 112 for police, fire or ambulance.",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "R1S2",
+            "R1S1"
+          ]
+        },
+        "faqs": {
+          "items": [
+            {
+              "title": "How far is Pushkar from Ajmer?",
+              "body": "14 km."
+            },
+            {
+              "title": "When should I visit Ajmer?",
+              "body": "October to February; avoid March–May, when it can pass 40°C."
+            },
+            {
+              "title": "What is the nearest airport?",
+              "body": "Kishangarh, about 30 km away."
+            }
+          ],
+          "facts": [
+            "R1A1",
+            "R1A4",
+            "R1S2"
+          ]
         }
       },
       "wikidataId": "Q200049",
@@ -5185,6 +6143,59 @@
           ],
           "facts": [
             "RB2"
+          ]
+        },
+        "key_facts": {
+          "items": [
+            {
+              "title": "Base",
+              "body": "Sawai Madhopur, 14 km",
+              "status": "verified"
+            },
+            {
+              "title": "Safari booking",
+              "body": "Online on the Rajasthan forest department site",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "R1R1"
+          ]
+        },
+        "local_transport": {
+          "text": "Ranthambore is 14 km from Sawai Madhopur; local buses, taxis and cabs make the run. Safaris are booked online through the Rajasthan forest department's site.",
+          "facts": [
+            "R1R1"
+          ]
+        },
+        "where_to_stay": {
+          "text": "Stay in Sawai Madhopur, which has hotels for every budget, and give it a few days for repeat safaris.",
+          "facts": [
+            "R1R1"
+          ]
+        },
+        "safety_health": {
+          "items": [
+            {
+              "title": "Book officially",
+              "body": "Book safaris only on the official forest department site.",
+              "status": "verified"
+            },
+            {
+              "title": "Heat",
+              "body": "March–May can pass 40°C — carry water, cover up and plan sightseeing for mornings and evenings.",
+              "status": "seasonal"
+            },
+            {
+              "title": "Emergency",
+              "body": "Dial 112 for police, fire or ambulance.",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "R1R1",
+            "R1S2",
+            "R1S1"
           ]
         }
       },
@@ -5416,6 +6427,69 @@
           "facts": [
             "MAD1",
             "MAN1"
+          ]
+        },
+        "key_facts": {
+          "items": [
+            {
+              "title": "Altitude",
+              "body": "1,722 m — Rajasthan's only hill station",
+              "status": "verified"
+            },
+            {
+              "title": "Nearest station",
+              "body": "Abu Road, 28 km",
+              "status": "verified"
+            },
+            {
+              "title": "Nearest airport",
+              "body": "Udaipur, 176 km",
+              "status": "verified"
+            },
+            {
+              "title": "Festivals",
+              "body": "Summer (Buddha Purnima) and Winter (December)",
+              "status": "seasonal"
+            }
+          ],
+          "facts": [
+            "R1M1",
+            "R1M2"
+          ]
+        },
+        "food": {
+          "items": [
+            {
+              "body": "Rajasthani food and handicraft stalls at the December Winter Festival."
+            }
+          ],
+          "facts": [
+            "R1M2"
+          ]
+        },
+        "local_transport": {
+          "text": "Abu Road railway station, on the Delhi–Mumbai line, is 28 km below; Udaipur airport is 176 km. Drive up or take a state-transport or private bus. Dilwara's temples are 2.5 km from town, Achalgarh 26 km.",
+          "facts": [
+            "R1M1",
+            "R1M3"
+          ]
+        },
+        "safety_health": {
+          "items": [
+            {
+              "title": "Monsoon",
+              "body": "Rain in the monsoon can get in the way of sightseeing.",
+              "status": "seasonal"
+            },
+            {
+              "title": "Emergency",
+              "body": "Dial 112 for police, fire or ambulance.",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "R1M3",
+            "R1S1"
           ]
         }
       }
@@ -5685,6 +6759,97 @@
           "facts": [
             "RJW1",
             "RJW3"
+          ]
+        },
+        "key_facts": {
+          "items": [
+            {
+              "title": "Known for",
+              "body": "Chittorgarh Fort and the Vijay Stambh",
+              "status": "verified"
+            },
+            {
+              "title": "Nearest airport",
+              "body": "Udaipur (Dabok), about 90 km",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "R1C3",
+            "R1C1"
+          ]
+        },
+        "things_to_do": {
+          "items": [
+            {
+              "body": "Climb the Vijay Stambh, the Tower of Victory Maharana Kumbha built in 1440–1448."
+            },
+            {
+              "body": "Stay for the fort's light and sound show after sunset."
+            },
+            {
+              "body": "Shop and eat in Sadar Bazaar and Fort Road Market."
+            }
+          ],
+          "facts": [
+            "R1C3",
+            "R1C2"
+          ]
+        },
+        "food": {
+          "items": [
+            {
+              "body": "Dal baati churma, the classic Rajasthani trio."
+            },
+            {
+              "body": "Laal maas, mutton in a fiery red-chilli gravy."
+            },
+            {
+              "body": "Street food in Sadar Bazaar, Rana Sangha Market and Fort Road Market."
+            }
+          ],
+          "facts": [
+            "R1C2"
+          ]
+        },
+        "local_transport": {
+          "text": "Regular buses run to Chittorgarh from every major city in Rajasthan. Udaipur's Dabok airport is about 90 km away.",
+          "facts": [
+            "R1C1"
+          ]
+        },
+        "safety_health": {
+          "items": [
+            {
+              "title": "Heat",
+              "body": "March–May can pass 40°C — carry water, cover up and plan sightseeing for mornings and evenings.",
+              "status": "seasonal"
+            },
+            {
+              "title": "Emergency",
+              "body": "Dial 112 for police, fire or ambulance.",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "R1S2",
+            "R1S1"
+          ]
+        },
+        "faqs": {
+          "items": [
+            {
+              "title": "What is the nearest airport?",
+              "body": "Udaipur's Dabok airport, about 90 km away."
+            },
+            {
+              "title": "Is there a light and sound show?",
+              "body": "Yes, at the fort after sunset."
+            }
+          ],
+          "facts": [
+            "R1C1",
+            "R1C3"
           ]
         }
       },
@@ -6040,6 +7205,119 @@
           "facts": [
             "BK4",
             "BKK1"
+          ]
+        },
+        "key_facts": {
+          "items": [
+            {
+              "title": "Known for",
+              "body": "Junagarh Fort, camels and bhujia",
+              "status": "verified"
+            },
+            {
+              "title": "Nearest airport",
+              "body": "Nal, 10 km",
+              "status": "verified"
+            },
+            {
+              "title": "Festivals",
+              "body": "Camel Festival; Kolayat fair in November",
+              "status": "seasonal"
+            }
+          ],
+          "facts": [
+            "R1B2",
+            "R1B1",
+            "R1B5",
+            "R1B4"
+          ]
+        },
+        "things_to_do": {
+          "items": [
+            {
+              "body": "Visit the National Research Centre on Camel, 8 km from town."
+            },
+            {
+              "body": "Look for nilgai and blackbuck at Gajner, 32 km out on the Jaisalmer road."
+            },
+            {
+              "body": "Go on a camel safari or camp in the Thar in winter."
+            },
+            {
+              "body": "Time a trip for the Camel Festival or the Kolayat fair in November."
+            }
+          ],
+          "facts": [
+            "R1B4",
+            "R1B3",
+            "R1B5"
+          ]
+        },
+        "food": {
+          "items": [
+            {
+              "body": "Bikaneri bhujia, raj kachori, samosa and kachori."
+            },
+            {
+              "body": "A Rajasthani thali, from palace restaurants to budget places."
+            },
+            {
+              "body": "Sweets: ghewar, kesar kulfi and rasgulla."
+            }
+          ],
+          "facts": [
+            "R1B2"
+          ]
+        },
+        "where_to_stay": {
+          "text": "Bikaner has heritage hotels, luxury resorts, boutique guesthouses and budget lodgings. In winter, desert camps in the Thar are the other option.",
+          "facts": [
+            "R1B3"
+          ]
+        },
+        "local_transport": {
+          "text": "Nal airport is 10 km away with flights to Delhi and Jaipur. Express buses leave the bus stand north of the centre for Jaipur, Jodhpur, Jaisalmer, Delhi, Udaipur and more, and trains run to Jaipur, Jaisalmer, Jodhpur, Delhi, Mumbai and Kolkata.",
+          "facts": [
+            "R1B1"
+          ]
+        },
+        "safety_health": {
+          "items": [
+            {
+              "title": "Heat",
+              "body": "March–May can pass 40°C — carry water, cover up and plan sightseeing for mornings and evenings.",
+              "status": "seasonal"
+            },
+            {
+              "title": "Emergency",
+              "body": "Dial 112 for police, fire or ambulance.",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "R1S2",
+            "R1S1"
+          ]
+        },
+        "faqs": {
+          "items": [
+            {
+              "title": "What is Bikaner famous for?",
+              "body": "Its fort and palaces, camels and Bikaneri bhujia."
+            },
+            {
+              "title": "Is there an airport?",
+              "body": "Yes — Nal, 10 km from town, with flights to Delhi and Jaipur."
+            },
+            {
+              "title": "When is the Kolayat fair?",
+              "body": "In November, at Kartik Purnima."
+            }
+          ],
+          "facts": [
+            "R1B2",
+            "R1B1",
+            "R1B4"
           ]
         }
       },

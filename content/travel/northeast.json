@@ -19,11 +19,6 @@
       "title": "Tsomgo Lake — Incredible India (Ministry of Tourism, Government of India)",
       "authority": "government"
     },
-    "II_PEL": {
-      "url": "https://www.incredibleindia.gov.in/en/sikkim/pelling",
-      "title": "Pelling — Incredible India (Ministry of Tourism, Government of India)",
-      "authority": "government"
-    },
     "II_PEM": {
       "url": "https://www.incredibleindia.gov.in/en/sikkim/pelling/pemayangtse-monastery",
       "title": "Pemayangtse Monastery — Incredible India (Ministry of Tourism, Government of India)",
@@ -428,6 +423,96 @@
       "url": "https://en.wikipedia.org/wiki/Temi_Tea_Garden",
       "title": "Temi Tea Garden — Wikipedia",
       "authority": "reference"
+    },
+    "WP_PEL": {
+      "url": "https://en.wikipedia.org/wiki/Pelling",
+      "title": "Pelling — Wikipedia",
+      "authority": "reference"
+    },
+    "WP_LCG": {
+      "url": "https://en.wikipedia.org/wiki/Lachung",
+      "title": "Lachung — Wikipedia",
+      "authority": "reference"
+    },
+    "WP_YUM": {
+      "url": "https://en.wikipedia.org/wiki/Yumthang_Valley",
+      "title": "Yumthang Valley — Wikipedia",
+      "authority": "reference"
+    },
+    "WP_MAN": {
+      "url": "https://en.wikipedia.org/wiki/Mangan_district",
+      "title": "Mangan district — Wikipedia",
+      "authority": "reference"
+    },
+    "II_PEL": {
+      "url": "https://www.incredibleindia.gov.in/en/sikkim/pelling",
+      "title": "Pelling — Incredible India (Ministry of Tourism, Government of India)",
+      "authority": "government"
+    },
+    "II_MGF": {
+      "url": "https://www.incredibleindia.gov.in/en/meghalaya/shillong/a-feast-for-the-senses-awaits-in-shillong",
+      "title": "A feast for the senses in Shillong — Incredible India",
+      "authority": "government"
+    },
+    "II_MGS2": {
+      "url": "https://www.incredibleindia.gov.in/en/meghalaya",
+      "title": "Meghalaya — Incredible India",
+      "authority": "government"
+    },
+    "WP_SHL": {
+      "url": "https://en.wikipedia.org/wiki/Shillong",
+      "title": "Shillong — Wikipedia",
+      "authority": "reference"
+    },
+    "WP_CHE": {
+      "url": "https://en.wikipedia.org/wiki/Cherrapunji",
+      "title": "Cherrapunji — Wikipedia",
+      "authority": "reference"
+    },
+    "II_ARW2": {
+      "url": "https://www.incredibleindia.gov.in/en/meghalaya/cherrapunjee/arwah-cave",
+      "title": "Arwah Cave — Incredible India",
+      "authority": "government"
+    },
+    "WP_MLN": {
+      "url": "https://en.wikipedia.org/wiki/Mawlynnong",
+      "title": "Mawlynnong — Wikipedia",
+      "authority": "reference"
+    },
+    "II_ADS": {
+      "url": "https://www.incredibleindia.gov.in/en/assam/guwahati/11-traditional-dishes-of-assam-you-must-try-in-guwahati",
+      "title": "11 traditional dishes of Assam — Incredible India",
+      "authority": "government"
+    },
+    "II_KAL2": {
+      "url": "https://www.incredibleindia.gov.in/en/assam/guwahati/srimanta-sankardeva-kalakshetra",
+      "title": "Srimanta Sankardeva Kalakshetra — Incredible India",
+      "authority": "government"
+    },
+    "II_SVS": {
+      "url": "https://www.incredibleindia.gov.in/en/assam/sivasagar",
+      "title": "Sivasagar — Incredible India",
+      "authority": "government"
+    },
+    "II_BOM2": {
+      "url": "https://www.incredibleindia.gov.in/en/arunachal-pradesh/bomdila",
+      "title": "Bomdila — Incredible India",
+      "authority": "government"
+    },
+    "II_DIR2": {
+      "url": "https://www.incredibleindia.gov.in/en/arunachal-pradesh/dirang",
+      "title": "Dirang — Incredible India",
+      "authority": "government"
+    },
+    "II_MEC2": {
+      "url": "https://www.incredibleindia.gov.in/en/arunachal-pradesh/mechuka",
+      "title": "Mechuka — Incredible India",
+      "authority": "government"
+    },
+    "II_TAW2": {
+      "url": "https://www.incredibleindia.gov.in/en/arunachal-pradesh/tawang",
+      "title": "Tawang — Incredible India",
+      "authority": "government"
     }
   },
   "facts": {
@@ -2175,6 +2260,806 @@
           "quote": "The tea produced in this garden is also partly marketed under the trade name \"Temi Tea\"."
         }
       ]
+    },
+    "S4P1": {
+      "place": "sikkim/pelling",
+      "topic": "S4P1",
+      "claim": "Pelling is about 135 km from Siliguri, the nearest railhead and airport; regular jeeps run to Jorethang, Kalimpong and Namchi.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WP_PEL",
+          "quote": "about 135 km from Siliguri, the nearest railhead and airport"
+        },
+        {
+          "source": "WP_PEL",
+          "quote": "Regular jeeps connect Pelling to the towns of Jorethang, Kalimpong and Namchi."
+        }
+      ]
+    },
+    "S4P2": {
+      "place": "sikkim/pelling",
+      "topic": "S4P2",
+      "claim": "Pelling is 10 km from Gyalshing, the district headquarters, linked by a regular bus.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WP_PEL",
+          "quote": "The town is located at a distance of 10 km from Gyalshing city, the district headquarters"
+        },
+        {
+          "source": "WP_PEL",
+          "quote": "A regular bus service connects the two towns."
+        }
+      ]
+    },
+    "S4P3": {
+      "place": "sikkim/pelling",
+      "topic": "S4P3",
+      "claim": "In winter Pelling is sometimes covered in snow.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WP_PEL",
+          "quote": "In the months of winter, Pelling is sometimes covered with a blanket of snow."
+        }
+      ]
+    },
+    "S4P4": {
+      "place": "sikkim/pelling",
+      "topic": "S4P4",
+      "claim": "A 137 ft Chenrezig statue with a glass Sky Walk opened near Sanga Choeling in November 2018.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WP_PEL",
+          "quote": "the gigantic 137 ft (42 m) statue of Chenrezig (Avalokitesvara) and a transparent Sky Walk made of glass that leads to the statue. It was opened in November 2018"
+        }
+      ]
+    },
+    "S4P5": {
+      "place": "sikkim/pelling",
+      "topic": "S4P5",
+      "claim": "Kanchenjunga Falls, about 28 km from Pelling, flows through the year; Rimbi Waterfall is en route to Khecheopalri.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WP_PEL",
+          "quote": "Kanchenjunga Falls - Further 18 km from Rimbi River and about 28 km from Pelling. It is one of the most beautiful waterfalls in Sikkim and is normally active throughout the year."
+        },
+        {
+          "source": "WP_PEL",
+          "quote": "Rimbi Waterfall - Situated 5 km from Darap en route to Khecheopalri."
+        }
+      ]
+    },
+    "S4P6": {
+      "place": "sikkim/pelling",
+      "topic": "S4P6",
+      "claim": "Singshore Bridge, about 26 km away, is over 100 m high and 240 m long, Sikkim's highest bridge.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WP_PEL",
+          "quote": "Singshore Bridge is located around 26 km away from Pelling. The bridge has a height of over 100 m and 240 m in length, is the highest bridge in Sikkim"
+        }
+      ]
+    },
+    "S4P7": {
+      "place": "sikkim/pelling",
+      "topic": "S4P7",
+      "claim": "Pelling has a helipad but no regular air service.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WP_PEL",
+          "quote": "Pelling has a helipad ground though there is no regular air service."
+        }
+      ]
+    },
+    "S4L1": {
+      "place": "sikkim/lachung",
+      "topic": "S4L1",
+      "claim": "Lachung is about 125 km from Gangtok and 50 km from Mangan.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WP_LCG",
+          "quote": "It is about 50 km from Mangan, the district headquarters."
+        },
+        {
+          "source": "WP_LCG",
+          "quote": "The town is about 125 kilometres (78 mi) from the capital, Gangtok."
+        }
+      ]
+    },
+    "S4L2": {
+      "place": "sikkim/lachung",
+      "topic": "S4L2",
+      "claim": "Lachung is the base for the Rhododendron Valley Trek from Yumthang to Lachen; skiing takes place at nearby Phuni.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WP_LCG",
+          "quote": "Lachung is also the base camp for the Rhododendron Valley Trek, which starts in Yumthang Valley and ends at Lachen Valley."
+        },
+        {
+          "source": "WP_LCG",
+          "quote": "Skiing is conducted in Phuni nearby."
+        }
+      ]
+    },
+    "S4L3": {
+      "place": "sikkim/lachung",
+      "topic": "S4L3",
+      "claim": "Autumn colours the maples and larches; spring flowers start in late March; winter is dry and snowy.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WP_LCG",
+          "quote": "The valley's climate in autumn presents multicoloured maple and larch leaves. Winter is dry and snowy. Spring begins in late March, when the valley's flowers bloom."
+        }
+      ]
+    },
+    "S4L4": {
+      "place": "sikkim/lachung",
+      "topic": "S4L4",
+      "claim": "Visitors come mainly for Yumthang Valley and Lachung Monastery.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WP_LCG",
+          "quote": "mostly on their way to the Yumthang Valley and the Lachung Monastery"
+        }
+      ]
+    },
+    "S4M1": {
+      "place": "sikkim/yumthang-valley",
+      "topic": "S4M1",
+      "claim": "Yumthang is about 150 km from Gangtok; trips take around two hours from Lachung, the nearest village with accommodation.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WP_YUM",
+          "quote": "at a distance of 150 kilometres (93 mi) from the state capital Gangtok"
+        },
+        {
+          "source": "WP_YUM",
+          "quote": "A trip to the Valley takes around two hours from Lachung"
+        }
+      ]
+    },
+    "S4M2": {
+      "place": "sikkim/yumthang-valley",
+      "topic": "S4M2",
+      "claim": "A direct trip from Gangtok isn't feasible: roads are often foggy and it gets dark around 5:30 pm, so stay overnight at Lachung.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WP_YUM",
+          "quote": "A direct journey to Yumthang is not feasible as roads are commonly foggy and it becomes dark very early around 5:30 pm."
+        }
+      ]
+    },
+    "S4M3": {
+      "place": "sikkim/yumthang-valley",
+      "topic": "S4M3",
+      "claim": "A forest rest house is the only permanent residence in the valley; there is a hot spring, and skiing takes place here.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WP_YUM",
+          "quote": "A forest rest house is the only permanent residence in the valley."
+        },
+        {
+          "source": "WP_YUM",
+          "quote": "There is also a hot spring in the valley."
+        },
+        {
+          "source": "WP_YUM",
+          "quote": "Skiing is conducted in the valley."
+        }
+      ]
+    },
+    "S4NS1": {
+      "place": "sikkim/north-sikkim",
+      "topic": "S4NS1",
+      "claim": "Most of North Sikkim is restricted to travellers, and permits are needed.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WP_MAN",
+          "quote": "Most of North Sikkim is restricted to travellers and permits are needed to visit these areas."
+        }
+      ]
+    },
+    "S4NS2": {
+      "place": "sikkim/north-sikkim",
+      "topic": "S4NS2",
+      "claim": "Roads are often poor because of frequent landslides.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WP_MAN",
+          "quote": "Roads are in a poor condition owing to the frequent landslides."
+        }
+      ]
+    },
+    "S4NS3": {
+      "place": "sikkim/north-sikkim",
+      "topic": "S4NS3",
+      "claim": "Mangan is known as the large-cardamom capital of the world.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WP_MAN",
+          "quote": "Mangan is known as the Large Cardamom Capital of the world."
+        }
+      ]
+    },
+    "S4NS4": {
+      "place": "sikkim/north-sikkim",
+      "topic": "S4NS4",
+      "claim": "Kanchenjunga can be seen clearly from Singhik, and North Sikkim is home to the red panda.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WP_MAN",
+          "quote": "can be seen clearly from the town of Singhik"
+        },
+        {
+          "source": "WP_MAN",
+          "quote": "North Sikkim is home to the red panda"
+        }
+      ]
+    },
+    "M2S1": {
+      "place": "meghalaya",
+      "topic": "M2S1",
+      "claim": "Meghalayan dishes include jadoh, doh neiiong (pork in black-sesame gravy), dohkhlieh (pork salad), tungrymbai (fermented soybean) and pukhlein; momos are popular too.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_MGF",
+          "quote": "Doh neiiong, a delicious Khasi delicacy"
+        },
+        {
+          "source": "II_MGF",
+          "quote": "pork cooked in velvety gravy made of black sesame seeds"
+        },
+        {
+          "source": "II_MGF",
+          "quote": "dohkhlieh, an intriguing salad made up of pork, onions and local spices"
+        },
+        {
+          "source": "II_MGF",
+          "quote": "Tungrymbai, a delicious Meghalayan delicacy prepared from fermented soybeans"
+        }
+      ]
+    },
+    "M2S2": {
+      "place": "meghalaya",
+      "topic": "M2S2",
+      "claim": "Meghalaya has around 100 living root bridges, now on UNESCO's tentative list; famous ones are at Nongriat and Sohra.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_MGS2",
+          "quote": "Meghalaya boasts of around 100 such wonders scattered across different villages."
+        },
+        {
+          "source": "II_MGS2",
+          "quote": "Among the most renowned are those in Nongriat, Sohra ( Cherrapunjee )"
+        }
+      ]
+    },
+    "M2S3": {
+      "place": "meghalaya",
+      "topic": "M2S3",
+      "claim": "Adventure options include rafting or kayaking on the Umngot at Dawki and rock climbing at Laitlum.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_MGS2",
+          "quote": "River rafting or kayaking along Dawki's Umngot River rapids or rock climbing at Laitlum Canyon"
+        }
+      ]
+    },
+    "M2S4": {
+      "place": "meghalaya",
+      "topic": "M2S4",
+      "claim": "Siju Bird Sanctuary has over 200 bird species; Nokrek is known for red pandas, hoolock gibbons and clouded leopards.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_MGS2",
+          "quote": "Siju Bird Sanctuary has over 200 bird species"
+        },
+        {
+          "source": "II_MGS2",
+          "quote": "Visit Nokrek National Park, popularly known for the rare and endangered Red Panda, Hoolock Gibbon, and Clouded Leopard"
+        }
+      ]
+    },
+    "M2H1": {
+      "place": "meghalaya/shillong",
+      "topic": "M2H1",
+      "claim": "Shillong has no rail link; Umroi airport is about 30 km away with flights to Kolkata. Buses and taxis link it with Guwahati and other northeastern cities.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WP_SHL",
+          "quote": "Shillong is well-connected by road, but it neither has rail connections nor a proper air connection."
+        },
+        {
+          "source": "WP_SHL",
+          "quote": "Shillong is served by the Shillong Airport, located about 30 km away in Umroi."
+        },
+        {
+          "source": "WP_SHL",
+          "quote": "Taxi services are also available to destinations like Guwahati, Agartala, Kohima, Dimapur, Aizawl"
+        }
+      ]
+    },
+    "M2H2": {
+      "place": "meghalaya/shillong",
+      "topic": "M2H2",
+      "claim": "The monsoon arrives in June and rain lasts almost to the end of October; winter can drop to 4 °C.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WP_SHL",
+          "quote": "The monsoons arrive in June, and it rains almost until the end of October."
+        },
+        {
+          "source": "WP_SHL",
+          "quote": "In the winter, the temperature drops to as low as 4 °C"
+        }
+      ]
+    },
+    "M2C1": {
+      "place": "meghalaya/cherrapunji",
+      "topic": "M2C1",
+      "claim": "Cherrapunji (Sohra) is about 50 km from Shillong by road; Shillong airport is 80 km and Guwahati, with the nearest railway, 165 km.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_CHE",
+          "quote": "The town is located around 50 kilometers from Shillong"
+        },
+        {
+          "source": "WP_CHE",
+          "quote": "Shillong Airport, 80 km north"
+        },
+        {
+          "source": "WP_CHE",
+          "quote": "Guwahati railway station, 165 km north, is the nearest railway station"
+        }
+      ]
+    },
+    "M2C2": {
+      "place": "meghalaya/cherrapunji",
+      "topic": "M2C2",
+      "claim": "Sohra averages 11,777 mm of rain a year; most monsoon rain falls in the morning.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WP_CHE",
+          "quote": "The city's annual rainfall average stands at 11,777 millimetres"
+        },
+        {
+          "source": "WP_CHE",
+          "quote": "A notable feature of monsoon rain at Sohra is that most of it falls in the morning."
+        }
+      ]
+    },
+    "M2C3": {
+      "place": "meghalaya/cherrapunji",
+      "topic": "M2C3",
+      "claim": "Despite the rain, Sohra has wet, warm summers and dry, mild winters.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WP_CHE",
+          "quote": "Although Sohra has very wet, warm summers, it has dry, mild winters."
+        }
+      ]
+    },
+    "M2C4": {
+      "place": "meghalaya/cherrapunji",
+      "topic": "M2C4",
+      "claim": "In caves, wear sturdy, mud-friendly shoes and carry a torch.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_ARW2",
+          "quote": "sturdy, mud-friendly shoes"
+        },
+        {
+          "source": "II_ARW2",
+          "quote": "Don't forget to carry a torch or headlamp"
+        }
+      ]
+    },
+    "M2K1": {
+      "place": "meghalaya/kongthong",
+      "topic": "M2K1",
+      "claim": "A shared sumo leaves Shillong's Bara Bazar for Kongthong at around 2 pm; the trip takes 3–4 hours. Reserved taxis also go.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_KON",
+          "quote": "you can catch the shared sumo departing for Kongthong at around 2 in the afternoon, promising a scenic voyage spanning 3-4 hours"
+        },
+        {
+          "source": "II_KON",
+          "quote": "reserved taxis stand ready"
+        }
+      ]
+    },
+    "M2K2": {
+      "place": "meghalaya/kongthong",
+      "topic": "M2K2",
+      "claim": "Stay in local homestays; The Traveller's Nest is a base camp of traditional huts run by villagers.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_KON",
+          "quote": "spending a few days in the local homestays is always recommended"
+        },
+        {
+          "source": "II_KON",
+          "quote": "There is a cosy base camp at Kongthong, named, “The Traveller’s Nest” that features warm traditional huts."
+        }
+      ]
+    },
+    "M2K3": {
+      "place": "meghalaya/kongthong",
+      "topic": "M2K3",
+      "claim": "Jingkieng Myor, the highest living root bridge, spans two granite cliffs over the Wah Sohra river; trails run between the Pynursla and Sohra ridges.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_KON",
+          "quote": "Jingkieng Myor, the highest living root bridge that joins two granite cliffs"
+        },
+        {
+          "source": "II_KON",
+          "quote": "explore Kongthong by navigating the terrain between the famed Pynursla and Sohra ridges"
+        }
+      ]
+    },
+    "M2K4": {
+      "place": "meghalaya/kongthong",
+      "topic": "M2K4",
+      "claim": "Guests are expected to treat their hosts with respect; hiring a local guide is recommended to learn about Khasi culture.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_KON",
+          "quote": "there is an unspoken rule that even the guests should consider the hosts as God and be respectful"
+        },
+        {
+          "source": "II_KON",
+          "quote": "hiring local guides is a good option"
+        }
+      ]
+    },
+    "M2K5": {
+      "place": "meghalaya/kongthong",
+      "topic": "M2K5",
+      "claim": "The village has about 700 people and only a small market 5 km away; winter can drop to about 8 °C.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_KON",
+          "quote": "With a mere 700 people calling it home"
+        },
+        {
+          "source": "II_KON",
+          "quote": "There’s just a small market, located 5 km away from the village."
+        },
+        {
+          "source": "II_KON",
+          "quote": "During winter you can have a pleasant drop of temperature up to 8 degrees Celsius."
+        }
+      ]
+    },
+    "M2M1": {
+      "place": "meghalaya/mawlynnong",
+      "topic": "M2M1",
+      "claim": "Mawlynnong has the Nohwet living root bridge, the century-old Church of the Epiphany and bamboo tree houses with views over Bangladesh.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_MLN",
+          "quote": "Mawlynnong is home to one of nature's most extraordinary wonders: the Nohwet Living Root Bridge."
+        },
+        {
+          "source": "II_MLN",
+          "quote": "the Church of the Epiphany, a stunning piece of European architecture that has withstood the test of time for over a century"
+        },
+        {
+          "source": "II_MLN",
+          "quote": "climb up to the bamboo tree houses that overlook the church"
+        }
+      ]
+    },
+    "M2M2": {
+      "place": "meghalaya/mawlynnong",
+      "topic": "M2M2",
+      "claim": "Smoking and plastic bags are banned; every resident joins the cleaning.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_MLN",
+          "quote": "Smoking and the use of plastic bags are strictly prohibited"
+        },
+        {
+          "source": "II_MLN",
+          "quote": "All residents are mandated to participate in cleaning and beautification efforts"
+        }
+      ]
+    },
+    "M2M3": {
+      "place": "meghalaya/mawlynnong",
+      "topic": "M2M3",
+      "claim": "Local food is mostly organic and simply grilled or boiled; try jadoh, tungrymbai and doh neiiong.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_MLN",
+          "quote": "the cuisine here is predominantly organic"
+        },
+        {
+          "source": "II_MLN",
+          "quote": "Jadoh is a rice and meat bowl"
+        },
+        {
+          "source": "II_MLN",
+          "quote": "try Tungrymbai, a fermented soybean chutney"
+        }
+      ]
+    },
+    "M2M4": {
+      "place": "meghalaya/mawlynnong",
+      "topic": "M2M4",
+      "claim": "Summer brings pineapples and lychees.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WP_MLN",
+          "quote": "During summers, one can find pineapples and lychees"
+        }
+      ]
+    },
+    "A2G1": {
+      "place": "assam/guwahati",
+      "topic": "A2G1",
+      "claim": "The ideal time to visit Guwahati is October to March, when it is about 10–20 °C.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_GHY",
+          "quote": "The ideal time to visit is from October to March."
+        },
+        {
+          "source": "II_KAL2",
+          "quote": "cool temperatures ranging from decently cold 10°C to a comfortable 20°C"
+        }
+      ]
+    },
+    "A2G2": {
+      "place": "assam/guwahati",
+      "topic": "A2G2",
+      "claim": "Assamese dishes to try include masor tenga (tangy fish curry), duck curry, and pork with mustard greens or with bamboo shoots and black lentils.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_ADS",
+          "quote": "Masor Tenga (Tangy Fish Curry)"
+        },
+        {
+          "source": "II_ADS",
+          "quote": "Duck Meat Curry: Known locally as 'haa'"
+        },
+        {
+          "source": "II_ADS",
+          "quote": "Lai Xaak Gahori (Pork with Mustard Greens)"
+        },
+        {
+          "source": "II_ADS",
+          "quote": "Pork with Bamboo Shoots and Black Lentils"
+        }
+      ]
+    },
+    "A2G3": {
+      "place": "assam/guwahati",
+      "topic": "A2G3",
+      "claim": "Guwahati's name means 'betel nut market'; Hajo, 32 km away, is sacred to Buddhists, Hindus and Muslims, and Basishtha Temple is 12 km south-east.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_GHY",
+          "quote": "Guwahati (literally “Betel Nut Market”)"
+        },
+        {
+          "source": "II_GHY",
+          "quote": "Hajo, 32 km (20 miles) northwest of Guwahati, is a pilgrimage site for Buddhists, Hindus and Muslims."
+        },
+        {
+          "source": "II_GHY",
+          "quote": "The Basishtha Temple, 12 km (7 miles) southeast of Guwahati"
+        }
+      ]
+    },
+    "A2S1": {
+      "place": "assam/sivasagar",
+      "topic": "A2S1",
+      "claim": "The best time is October to March; October and November bring clear skies.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_SVS",
+          "quote": "during the winter months of October to March"
+        },
+        {
+          "source": "II_SVS",
+          "quote": "October and November are magical when clear skies make those architectural details pop"
+        }
+      ]
+    },
+    "A2S2": {
+      "place": "assam/sivasagar",
+      "topic": "A2S2",
+      "claim": "Try tenga (sour curry), khar, pokori with Assam tea, jolpan, pitha and laru.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_SVS",
+          "quote": "Dip into a tangy Tenga (sour curry) bowl, savour the unique Khar (alkaline preparation), or munch on crispy Pokori while sipping the finest Assam tea."
+        },
+        {
+          "source": "II_SVS",
+          "quote": "Don't leave without tasting Jolpan (a traditional breakfast snack) or the sweet Pitha and Laru (traditional sweets)."
+        }
+      ]
+    },
+    "A2S3": {
+      "place": "assam/sivasagar",
+      "topic": "A2S3",
+      "claim": "Most of Sivasagar can be explored on foot; Panidehing Wildlife Sanctuary, for birds, is 22 km away.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_SVS",
+          "quote": "You can explore most of Sivasagar on foot"
+        },
+        {
+          "source": "II_SVS",
+          "quote": "Panidehing Wildlife Sanctuary, just 22 kilometres from town"
+        }
+      ]
+    },
+    "A2S4": {
+      "place": "assam/sivasagar",
+      "topic": "A2S4",
+      "claim": "Sivasagar was the capital of the Ahom dynasty.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_SVS",
+          "quote": "the erstwhile capital of the mighty Ahom dynasty in Assam"
+        }
+      ]
+    },
+    "R2B1": {
+      "place": "arunachal-pradesh/bomdila",
+      "topic": "R2B1",
+      "claim": "The best time to visit Bomdila is spring (March–April) and autumn (October–November).",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_BOM2",
+          "quote": "The best time to visit Bomdila is during spring (March–April) and autumn (October–November)"
+        }
+      ]
+    },
+    "R2B2": {
+      "place": "arunachal-pradesh/bomdila",
+      "topic": "R2B2",
+      "claim": "Local dishes include churpi, lutker, khapse, arsa and bamboo-shoot curry, as well as momos and thukpa.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_BOM2",
+          "quote": "Popular dishes include Churpi, a fermented cheese dish; Lutker, a side dish made with chilli flakes and cooked dry meat; Khapse, a sweet deep-fried pastry"
+        }
+      ]
+    },
+    "R2B3": {
+      "place": "arunachal-pradesh/bomdila",
+      "topic": "R2B3",
+      "claim": "Bomdila is known for its monasteries, local crafts and apple orchards.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_BOM2",
+          "quote": "Known for its scenic beauty, Buddhist monasteries, local crafts and apple orchards"
+        }
+      ]
+    },
+    "R2D1": {
+      "place": "arunachal-pradesh/dirang",
+      "topic": "R2D1",
+      "claim": "The best time to visit Dirang is March to June or October to November.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_DIR2",
+          "quote": "The best time to visit Dirang is between March and June or October and November."
+        }
+      ]
+    },
+    "R2D2": {
+      "place": "arunachal-pradesh/dirang",
+      "topic": "R2D2",
+      "claim": "Try thukpa, momos, churpi cheese, zan (millet), butter tea and apong rice beer.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_DIR2",
+          "quote": "Don’t miss trying churpi, a traditional fermented cheese, and zan, a staple millet-based dish"
+        },
+        {
+          "source": "II_DIR2",
+          "quote": "Pair your meals with a cup of locally brewed butter tea or the mildly intoxicating apong (rice beer)"
+        }
+      ]
+    },
+    "R2D3": {
+      "place": "arunachal-pradesh/dirang",
+      "topic": "R2D3",
+      "claim": "Dirang has orchards and hot springs.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_DIR2",
+          "quote": "you will discover ancient fortresses, lush orchards and hot springs"
+        }
+      ]
+    },
+    "R2M1": {
+      "place": "arunachal-pradesh/mechuka",
+      "topic": "R2M1",
+      "claim": "Local food in Mechuka includes momos, thukpa, thenthuk, butter tea, millet beer and chhang.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_MEC2",
+          "quote": "such as momos, thukpa, thenthuk, butter tea, and millet beer, sip on some Chhang"
+        }
+      ]
+    },
+    "R2T1": {
+      "place": "arunachal-pradesh/tawang",
+      "topic": "R2T1",
+      "claim": "Tawang Monastery dates to the 17th century; Nuranang Falls drops over 100 m; the Tawang War Memorial is a classic sunset stop.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_TAW2",
+          "quote": "Dating back to the 17th century"
+        },
+        {
+          "source": "II_TAW2",
+          "quote": "as the water cascades down from a height of over 100 meters"
+        },
+        {
+          "source": "II_TAW2",
+          "quote": "As the day draws to a close, head to the Tawang War Memorial"
+        }
+      ]
     }
   },
   "places": [
@@ -3046,6 +3931,123 @@
             "GT1",
             "NS1"
           ]
+        },
+        "key_facts": {
+          "items": [
+            {
+              "title": "Altitude",
+              "body": "2,150 m",
+              "status": "verified"
+            },
+            {
+              "title": "Views",
+              "body": "Close-up Kanchenjunga range",
+              "status": "verified"
+            },
+            {
+              "title": "Pemayangtse",
+              "body": "Monastery since 1705, open 8 am–4 pm",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "PL1",
+            "PLP1"
+          ]
+        },
+        "food": {
+          "items": [
+            {
+              "body": "Sikkimese food blends Tibetan, Nepali and Lepcha cooking."
+            },
+            {
+              "body": "Try dishes with Dalle Khorsani, the fiery local chilli."
+            }
+          ],
+          "facts": [
+            "SK3"
+          ]
+        },
+        "safety_health": {
+          "items": [
+            {
+              "title": "Monsoon",
+              "body": "Monsoon rains bring landslides that can cut off towns — leave buffer days.",
+              "status": "seasonal"
+            }
+          ],
+          "facts": [
+            "SKM_ST_MONSOON"
+          ]
+        },
+        "who_its_for": {
+          "items": [
+            {
+              "title": "Mountain watchers",
+              "body": "Close views of the Kanchenjunga range."
+            },
+            {
+              "title": "Monastery and history lovers",
+              "body": "Pemayangtse, the Rabdentse ruins and Tashiding nearby."
+            },
+            {
+              "title": "Trekkers",
+              "body": "A step from Yuksom, the trekking base."
+            }
+          ],
+          "facts": [
+            "PL1",
+            "PL2",
+            "PLP1"
+          ]
+        },
+        "how_to_reach": {
+          "text": "Fly or take the train to Siliguri — Bagdogra airport and the railhead are about 135 km away — then continue by road. Regular jeeps connect Pelling with Jorethang, Kalimpong and Namchi, and buses run to Gyalshing, the district headquarters, 10 km away. Pelling has a helipad, but no regular air service.",
+          "facts": [
+            "S4P1",
+            "S4P2",
+            "S4P7"
+          ]
+        },
+        "best_time": {
+          "text": "Winter can bring snow to Pelling, and the monsoon raises landslide risk across Sikkim — plan clear-weather days for the Kanchenjunga views, and leave slack in the rains.",
+          "facts": [
+            "S4P3",
+            "SKM_ST_MONSOON"
+          ]
+        },
+        "faqs": {
+          "items": [
+            {
+              "title": "How do I get to Pelling?",
+              "body": "Bagdogra airport and the Siliguri railhead are about 135 km away; jeeps run to Jorethang, Kalimpong and Namchi."
+            },
+            {
+              "title": "What is the Sky Walk?",
+              "body": "A glass walkway leading to a 137 ft Chenrezig statue near Sanga Choeling, opened in November 2018."
+            },
+            {
+              "title": "Which waterfalls are near Pelling?",
+              "body": "Kanchenjunga Falls, about 28 km away and flowing year-round, and Rimbi Waterfall on the road to Khecheopalri."
+            },
+            {
+              "title": "Is Singshore Bridge worth the trip?",
+              "body": "It is Sikkim's highest bridge — over 100 m high and 240 m long — about 26 km from Pelling."
+            }
+          ],
+          "facts": [
+            "S4P1",
+            "S4P4",
+            "S4P5",
+            "S4P6"
+          ]
+        },
+        "local_transport": {
+          "text": "Shared and reserved jeeps are the way around West Sikkim: regular jeeps link Pelling with Jorethang, Kalimpong and Namchi, and a bus runs to Gyalshing, 10 km away.",
+          "facts": [
+            "S4P1",
+            "S4P2"
+          ]
         }
       },
       "wikidataId": "Q7161579"
@@ -3371,6 +4373,140 @@
             "NSY1",
             "NSG1"
           ]
+        },
+        "key_facts": {
+          "items": [
+            {
+              "title": "Gateway",
+              "body": "Mangan",
+              "status": "verified"
+            },
+            {
+              "title": "Gurudongmar Lake",
+              "body": "5,430 m, 190 km from Gangtok",
+              "status": "verified"
+            },
+            {
+              "title": "Lachung",
+              "body": "About 9,600 ft",
+              "status": "verified"
+            },
+            {
+              "title": "Dzongu",
+              "body": "Reserved Lepcha area",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "NS1",
+            "NSG1",
+            "NSL1"
+          ]
+        },
+        "practical_info": {
+          "items": [
+            {
+              "title": "Permits",
+              "body": "The Army controls large border areas; many are restricted and need permits.",
+              "status": "verified"
+            },
+            {
+              "title": "Emergency",
+              "body": "Dial 112 for police, fire or ambulance.",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "SK4",
+            "SK_112"
+          ]
+        },
+        "safety_health": {
+          "items": [
+            {
+              "title": "Monsoon",
+              "body": "Monsoon rains bring landslides that can cut off towns — leave buffer days.",
+              "status": "seasonal"
+            },
+            {
+              "title": "Altitude",
+              "body": "Gurudongmar Lake is at 5,430 m — go up slowly.",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "SKM_ST_MONSOON",
+            "NSG1"
+          ]
+        },
+        "food": {
+          "items": [
+            {
+              "body": "Sikkimese food blends Tibetan, Nepali and Lepcha cooking."
+            },
+            {
+              "body": "Try dishes with Dalle Khorsani, the fiery local chilli."
+            }
+          ],
+          "facts": [
+            "SK3"
+          ]
+        },
+        "things_to_do": {
+          "items": [
+            {
+              "body": "Yumthang Valley and its spring flowers, via Lachung."
+            },
+            {
+              "body": "Gurudongmar Lake at 5,430 m, via Lachen."
+            },
+            {
+              "body": "Kanchenjunga views from Singhik."
+            }
+          ],
+          "facts": [
+            "NSY1",
+            "NSG1",
+            "S4NS4"
+          ]
+        },
+        "who_its_for": {
+          "items": [
+            {
+              "title": "High-altitude travellers",
+              "body": "Gurudongmar Lake and Yumthang."
+            },
+            {
+              "title": "Culture seekers",
+              "body": "Dzongu, the Lepcha reserve."
+            }
+          ],
+          "facts": [
+            "NSG1",
+            "NSY1",
+            "NS1"
+          ]
+        },
+        "faqs": {
+          "items": [
+            {
+              "title": "Do I need a permit?",
+              "body": "Yes. Most of North Sikkim is restricted, and permits are needed."
+            },
+            {
+              "title": "How are the roads?",
+              "body": "Often poor, because of frequent landslides — allow extra time."
+            },
+            {
+              "title": "What is Mangan known for?",
+              "body": "It is called the large-cardamom capital of the world."
+            }
+          ],
+          "facts": [
+            "S4NS1",
+            "S4NS2",
+            "S4NS3"
+          ]
         }
       }
     },
@@ -3428,6 +4564,134 @@
           "facts": [
             "NSL1",
             "NS1"
+          ]
+        },
+        "key_facts": {
+          "items": [
+            {
+              "title": "Altitude",
+              "body": "About 9,600 ft",
+              "status": "verified"
+            },
+            {
+              "title": "Season",
+              "body": "October to May",
+              "status": "seasonal"
+            },
+            {
+              "title": "Gateway to",
+              "body": "Yumthang Valley",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "NSL1"
+          ]
+        },
+        "best_time": {
+          "text": "Visitors come October to May on the way to Yumthang. Yumthang itself is closed December to March by heavy snow, and its flowers bloom from late February.",
+          "facts": [
+            "NSL1",
+            "NSY2",
+            "NSY1"
+          ]
+        },
+        "practical_info": {
+          "items": [
+            {
+              "title": "Permits",
+              "body": "The Army controls large border areas; many are restricted and need permits.",
+              "status": "verified"
+            },
+            {
+              "title": "Emergency",
+              "body": "Dial 112 for police, fire or ambulance.",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "SK4",
+            "SK_112"
+          ]
+        },
+        "food": {
+          "items": [
+            {
+              "body": "Sikkimese food blends Tibetan, Nepali and Lepcha cooking."
+            },
+            {
+              "body": "Try dishes with Dalle Khorsani, the fiery local chilli."
+            }
+          ],
+          "facts": [
+            "SK3"
+          ]
+        },
+        "safety_health": {
+          "items": [
+            {
+              "title": "Monsoon",
+              "body": "Monsoon rains bring landslides that can cut off towns — leave buffer days.",
+              "status": "seasonal"
+            },
+            {
+              "title": "Snow",
+              "body": "Heavy snow closes Yumthang December to March.",
+              "status": "seasonal"
+            }
+          ],
+          "facts": [
+            "SKM_ST_MONSOON",
+            "NSY2"
+          ]
+        },
+        "how_to_reach": {
+          "text": "Lachung is about 125 km from Gangtok by road, and 50 km from Mangan, the district headquarters. You'll need permits for North Sikkim.",
+          "facts": [
+            "S4L1",
+            "SK4"
+          ]
+        },
+        "things_to_do": {
+          "items": [
+            {
+              "body": "Drive up to Yumthang Valley, Sikkim's valley of flowers."
+            },
+            {
+              "body": "Visit Lachung Monastery."
+            },
+            {
+              "body": "Trek the Rhododendron Valley route from Yumthang to Lachen."
+            },
+            {
+              "body": "Ski at nearby Phuni in winter."
+            }
+          ],
+          "facts": [
+            "S4L4",
+            "NSY1",
+            "S4L2"
+          ]
+        },
+        "faqs": {
+          "items": [
+            {
+              "title": "How far is Lachung from Gangtok?",
+              "body": "About 125 km."
+            },
+            {
+              "title": "When is it prettiest?",
+              "body": "Spring flowers start in late March; autumn turns the maples and larches; winter is dry and snowy."
+            },
+            {
+              "title": "Do I need a permit?",
+              "body": "Yes — large border areas are restricted and need permits."
+            }
+          ],
+          "facts": [
+            "S4L1",
+            "S4L3",
+            "SK4"
           ]
         }
       },
@@ -3502,6 +4766,66 @@
             "NSL1",
             "NS1"
           ]
+        },
+        "key_facts": {
+          "items": [
+            {
+              "title": "Altitude",
+              "body": "About 3,564 m",
+              "status": "verified"
+            },
+            {
+              "title": "From Gangtok",
+              "body": "About 150 km",
+              "status": "verified"
+            },
+            {
+              "title": "From Lachung",
+              "body": "About 2 hours",
+              "status": "verified"
+            },
+            {
+              "title": "Closed",
+              "body": "December–March, snow",
+              "status": "seasonal"
+            }
+          ],
+          "facts": [
+            "NSY1",
+            "S4M1",
+            "NSY2"
+          ]
+        },
+        "how_to_reach": {
+          "text": "Travel from Gangtok to Lachung and stay overnight — a direct trip isn't feasible because the roads are often foggy and it gets dark around 5:30 pm. From Lachung, Yumthang is about two hours' drive.",
+          "facts": [
+            "S4M2",
+            "S4M1"
+          ]
+        },
+        "practical_info": {
+          "items": [
+            {
+              "title": "Facilities",
+              "body": "A forest rest house is the only permanent residence — stay at Lachung.",
+              "status": "verified"
+            },
+            {
+              "title": "Hot spring",
+              "body": "There is a hot spring in the valley.",
+              "status": "verified"
+            },
+            {
+              "title": "Permits",
+              "body": "Large border areas are restricted and need permits.",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "S4M3",
+            "S4M1",
+            "SK4"
+          ]
         }
       },
       "wikidataId": "Q8061162",
@@ -3570,6 +4894,47 @@
           "facts": [
             "NSL1",
             "NS1"
+          ]
+        },
+        "key_facts": {
+          "items": [
+            {
+              "title": "Altitude",
+              "body": "5,430 m",
+              "status": "verified"
+            },
+            {
+              "title": "From Gangtok",
+              "body": "190 km",
+              "status": "verified"
+            },
+            {
+              "title": "Route",
+              "body": "NH310C via Lachen and Thangu",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "NSG1",
+            "NSG2"
+          ]
+        },
+        "practical_info": {
+          "items": [
+            {
+              "title": "Permits",
+              "body": "The Army controls large border areas; many are restricted and need permits.",
+              "status": "verified"
+            },
+            {
+              "title": "Emergency",
+              "body": "Dial 112 for police, fire or ambulance.",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "SK4",
+            "SK_112"
           ]
         }
       },
@@ -3668,6 +5033,96 @@
             "SHN1",
             "SHK1"
           ]
+        },
+        "who_its_for": {
+          "items": [
+            {
+              "title": "Trekkers",
+              "body": "Nongriat's double-decker root bridge, about 3,500 steps down from Tyrna."
+            },
+            {
+              "title": "Waterfall chasers",
+              "body": "Nohkalikai, India's tallest plunge waterfall at about 340 m."
+            },
+            {
+              "title": "Village stays",
+              "body": "Mawlynnong, named Asia's cleanest village, and Kongthong, where each newborn gets a melody for a name."
+            }
+          ],
+          "facts": [
+            "CHB1",
+            "CHN1",
+            "SHN1",
+            "SHK1"
+          ]
+        },
+        "faqs": {
+          "items": [
+            {
+              "title": "Where do I fly into?",
+              "body": "Guwahati's airport is the usual gateway; Shillong also has an airport at Umroi."
+            },
+            {
+              "title": "What are living root bridges?",
+              "body": "Bridges grown from rubber fig roots by the Khasi and Jaintia peoples; they are on UNESCO's tentative list."
+            },
+            {
+              "title": "What is the emergency number?",
+              "body": "112, for police, fire and ambulance."
+            }
+          ],
+          "facts": [
+            "MG2",
+            "CHB2",
+            "MG1",
+            "MG_112"
+          ]
+        },
+        "food": {
+          "items": [
+            {
+              "body": "Jadoh, the signature rice dish, sold at stalls across Shillong."
+            },
+            {
+              "body": "Doh neiiong — pork in a black-sesame gravy."
+            },
+            {
+              "body": "Dohkhlieh, a salad of pork, onion and local spices."
+            },
+            {
+              "body": "Tungrymbai, a fermented soybean dish."
+            },
+            {
+              "body": "Momos, with a fiery dried-chilli chutney."
+            }
+          ],
+          "facts": [
+            "M2S1"
+          ]
+        },
+        "things_to_do": {
+          "items": [
+            {
+              "body": "Trek to the living root bridges at Nongriat and around Sohra."
+            },
+            {
+              "body": "Raft or kayak the Umngot at Dawki."
+            },
+            {
+              "body": "Rock-climb at Laitlum."
+            },
+            {
+              "body": "Look for red pandas and hoolock gibbons in Nokrek."
+            },
+            {
+              "body": "Birdwatch at Siju, with over 200 species."
+            }
+          ],
+          "facts": [
+            "M2S2",
+            "M2S3",
+            "M2S4"
+          ]
         }
       },
       "wikidataId": "Q1195",
@@ -3758,6 +5213,65 @@
             "SHE1",
             "SHD1",
             "SHU1"
+          ]
+        },
+        "key_facts": {
+          "items": [
+            {
+              "title": "Capital",
+              "body": "Meghalaya's, and once undivided Assam's",
+              "status": "verified"
+            },
+            {
+              "title": "Shillong Peak",
+              "body": "1,965 m, open 9 am–5 pm",
+              "status": "verified"
+            },
+            {
+              "title": "Umiam Lake",
+              "body": "15 km north",
+              "status": "verified"
+            },
+            {
+              "title": "Hike",
+              "body": "16-km David Scott Trail",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "SH1",
+            "SHP1",
+            "SHU1",
+            "SH2"
+          ]
+        },
+        "local_transport": {
+          "text": "Shillong has no railway; it is a road town. Shared and private taxis run to Guwahati, Agartala, Kohima, Dimapur, Aizawl and other northeastern cities, and state and private buses come and go daily. Umroi airport, about 30 km out, has flights to Kolkata.",
+          "facts": [
+            "M2H1"
+          ]
+        },
+        "safety_health": {
+          "items": [
+            {
+              "title": "Monsoon",
+              "body": "It rains from June almost to the end of October — pack rain gear and allow extra road time.",
+              "status": "seasonal"
+            },
+            {
+              "title": "Cold nights",
+              "body": "Winter temperatures can fall to about 4 °C.",
+              "status": "seasonal"
+            },
+            {
+              "title": "Emergency",
+              "body": "Dial 112 for police, fire or ambulance.",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "M2H2",
+            "MG_112"
           ]
         }
       },
@@ -4355,6 +5869,91 @@
             "MG2",
             "SH2"
           ]
+        },
+        "key_facts": {
+          "items": [
+            {
+              "title": "From Shillong",
+              "body": "60 km",
+              "status": "verified"
+            },
+            {
+              "title": "Known for",
+              "body": "A lifelong melody-name for every newborn",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "SHK1"
+          ]
+        },
+        "how_to_reach": {
+          "text": "A shared sumo leaves Bara Bazar in Shillong for Kongthong at around 2 pm, a scenic 3–4 hour ride; reserved taxis are also available.",
+          "facts": [
+            "M2K1"
+          ]
+        },
+        "where_to_stay": {
+          "text": "Stay with a family in a local homestay, or at The Traveller's Nest, a base camp of traditional huts looked after by the villagers.",
+          "facts": [
+            "M2K2"
+          ]
+        },
+        "things_to_do": {
+          "items": [
+            {
+              "body": "Hear the jingrwai iawbei, the melody-names given to each villager."
+            },
+            {
+              "body": "Walk to Jingkieng Myor, the highest living root bridge, over the Wah Sohra."
+            },
+            {
+              "body": "Trek between the Pynursla and Sohra ridges with a local guide."
+            }
+          ],
+          "facts": [
+            "SHK1",
+            "M2K3",
+            "M2K4"
+          ]
+        },
+        "culture_etiquette": {
+          "items": [
+            {
+              "body": "Respect your hosts — locals say guests should treat their hosts as god."
+            },
+            {
+              "body": "Hire a local guide to understand Khasi culture and stories."
+            }
+          ],
+          "facts": [
+            "M2K4"
+          ]
+        },
+        "faqs": {
+          "items": [
+            {
+              "title": "How do I get to Kongthong?",
+              "body": "Take the shared sumo from Bara Bazar in Shillong at around 2 pm (3–4 hours), or a reserved taxi."
+            },
+            {
+              "title": "Where can I stay?",
+              "body": "Local homestays, or The Traveller's Nest's traditional huts."
+            },
+            {
+              "title": "Are there shops?",
+              "body": "Only a small market, 5 km from the village — bring what you need."
+            },
+            {
+              "title": "How cold does it get?",
+              "body": "Winter can drop to about 8 °C."
+            }
+          ],
+          "facts": [
+            "M2K1",
+            "M2K2",
+            "M2K5"
+          ]
         }
       },
       "parent": "meghalaya/shillong"
@@ -4425,6 +6024,91 @@
             "SH1",
             "MG2",
             "SH2"
+          ]
+        },
+        "key_facts": {
+          "items": [
+            {
+              "title": "From Shillong",
+              "body": "90 km",
+              "status": "verified"
+            },
+            {
+              "title": "Location",
+              "body": "Near the Bangladesh border",
+              "status": "verified"
+            },
+            {
+              "title": "Title",
+              "body": "Named Asia's cleanest village",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "SHN1"
+          ]
+        },
+        "things_to_do": {
+          "items": [
+            {
+              "body": "Cross the Nohwet living root bridge."
+            },
+            {
+              "body": "See the century-old Church of the Epiphany."
+            },
+            {
+              "body": "Climb the bamboo tree houses for views over the plains of Bangladesh."
+            }
+          ],
+          "facts": [
+            "M2M1"
+          ]
+        },
+        "food": {
+          "items": [
+            {
+              "body": "Jadoh, a rice and meat bowl."
+            },
+            {
+              "body": "Tungrymbai, a fermented soybean chutney."
+            },
+            {
+              "body": "Summer pineapples and lychees."
+            }
+          ],
+          "facts": [
+            "M2M3",
+            "M2M4"
+          ]
+        },
+        "practical_info": {
+          "items": [
+            {
+              "title": "Village rules",
+              "body": "Smoking and plastic bags are banned — carry your rubbish out.",
+              "status": "verified"
+            },
+            {
+              "title": "From Shillong",
+              "body": "About 90 km by road",
+              "status": "verified"
+            },
+            {
+              "title": "Emergency",
+              "body": "Dial 112 for police, fire or ambulance.",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "M2M2",
+            "SHN1",
+            "MG_112"
+          ]
+        },
+        "how_to_reach": {
+          "text": "Mawlynnong is about 90 km from Shillong by road, close to the Bangladesh border.",
+          "facts": [
+            "SHN1"
           ]
         }
       },
@@ -4500,6 +6184,65 @@
           "facts": [
             "MG1",
             "MG2"
+          ]
+        },
+        "how_to_reach": {
+          "text": "Sohra is about 50 km from Shillong by road. The nearest airport is Shillong (Umroi), about 80 km away; Guwahati, 165 km away, has the nearest railway station and the main airport.",
+          "facts": [
+            "M2C1"
+          ]
+        },
+        "key_facts": {
+          "items": [
+            {
+              "title": "From Shillong",
+              "body": "About 50 km",
+              "status": "verified"
+            },
+            {
+              "title": "Rainfall",
+              "body": "About 11,777 mm a year",
+              "status": "verified"
+            },
+            {
+              "title": "Winters",
+              "body": "Dry and mild",
+              "status": "seasonal"
+            },
+            {
+              "title": "Nearest station",
+              "body": "Guwahati, 165 km",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "M2C1",
+            "M2C2",
+            "M2C3"
+          ]
+        },
+        "safety_health": {
+          "items": [
+            {
+              "title": "Rain",
+              "body": "Monsoon rain mostly falls in the morning — plan walks for the afternoon.",
+              "status": "seasonal"
+            },
+            {
+              "title": "Caves",
+              "body": "Wear sturdy, mud-friendly shoes and carry a torch.",
+              "status": "verified"
+            },
+            {
+              "title": "Emergency",
+              "body": "Dial 112 for police, fire or ambulance.",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "M2C2",
+            "M2C4",
+            "MG_112"
           ]
         }
       },
@@ -4905,6 +6648,117 @@
             "AS1",
             "AS2"
           ]
+        },
+        "key_facts": {
+          "items": [
+            {
+              "title": "Ancient name",
+              "body": "Pragjyotishpura",
+              "status": "verified"
+            },
+            {
+              "title": "Size",
+              "body": "Assam's largest city",
+              "status": "verified"
+            },
+            {
+              "title": "Airport",
+              "body": "Borjhar, about 28 km",
+              "status": "verified"
+            },
+            {
+              "title": "Kamakhya",
+              "body": "On Nilachal hill, 8 km",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "GH1",
+            "AS2",
+            "GHK1"
+          ]
+        },
+        "things_to_do": {
+          "items": [
+            {
+              "body": "The Kamakhya Temple on Nilachal hill, a great centre of Tantric worship."
+            },
+            {
+              "body": "The 16th-century Umananda Temple on Peacock Island in the Brahmaputra."
+            },
+            {
+              "body": "Sualkuchi, 32 km away, for golden muga and paat silk weaving."
+            }
+          ],
+          "facts": [
+            "GHK1",
+            "GHU1",
+            "GHS1"
+          ]
+        },
+        "faqs": {
+          "items": [
+            {
+              "title": "How far is the airport?",
+              "body": "Lokpriya Gopinath Bordoloi airport is at Borjhar, about 28 km from the city."
+            },
+            {
+              "title": "Is there a big festival?",
+              "body": "The Kamakhya Temple hosts the annual Ambubachi Mela."
+            },
+            {
+              "title": "What is the emergency number?",
+              "body": "112, for police, fire and ambulance."
+            }
+          ],
+          "facts": [
+            "AS2",
+            "GHK2",
+            "AS_112"
+          ]
+        },
+        "best_time": {
+          "text": "October to March is the ideal time, with temperatures of about 10–20 °C. Bohag Bihu in April is the biggest festival of the year.",
+          "facts": [
+            "A2G1"
+          ]
+        },
+        "food": {
+          "items": [
+            {
+              "body": "Masor tenga, a tangy, mildly spiced fish curry."
+            },
+            {
+              "body": "Duck curry ('haa'), often with white gourd."
+            },
+            {
+              "body": "Pork with mustard greens, or with bamboo shoots and black lentils."
+            }
+          ],
+          "facts": [
+            "A2G2"
+          ]
+        },
+        "who_its_for": {
+          "items": [
+            {
+              "title": "Pilgrims",
+              "body": "Kamakhya on Nilachal hill, Umananda on its river island, and Hajo, sacred to three faiths."
+            },
+            {
+              "title": "Wildlife day-trippers",
+              "body": "Pobitora's rhinos, 56 km away."
+            },
+            {
+              "title": "Culture seekers",
+              "body": "Srimanta Sankardeva Kalakshetra's arts of Assam."
+            }
+          ],
+          "facts": [
+            "GHK1",
+            "GHU1",
+            "A2G3"
+          ]
         }
       },
       "wikidataId": "Q199605",
@@ -5137,6 +6991,29 @@
           "facts": [
             "AS1",
             "AS2"
+          ]
+        },
+        "key_facts": {
+          "items": [
+            {
+              "title": "From Guwahati",
+              "body": "32 km",
+              "status": "verified"
+            },
+            {
+              "title": "Known for",
+              "body": "Golden muga and paat silk weaving",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "GHS1"
+          ]
+        },
+        "how_to_reach": {
+          "text": "Sualkuchi is 32 km from Guwahati by road.",
+          "facts": [
+            "GHS1"
           ]
         }
       },
@@ -5486,6 +7363,79 @@
             "KZ1",
             "MJ1",
             "MN1"
+          ]
+        },
+        "key_facts": {
+          "items": [
+            {
+              "title": "Rang Ghar",
+              "body": "1746, called Asia's oldest amphitheatre",
+              "status": "verified"
+            },
+            {
+              "title": "Kareng Ghar",
+              "body": "Seven-storey Ahom palace",
+              "status": "verified"
+            },
+            {
+              "title": "Charaideo moidams",
+              "body": "About 30 km, open 9:30 am–5 pm",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "SVR1",
+            "SV1",
+            "SVC1"
+          ]
+        },
+        "best_time": {
+          "text": "Come between October and March; October and November bring the clearest skies. Bohag Bihu fills spring, Kati Bihu marks October's harvest, and Magh Bihu brings the winter feasts.",
+          "facts": [
+            "A2S1"
+          ]
+        },
+        "food": {
+          "items": [
+            {
+              "body": "Tenga, a sour curry."
+            },
+            {
+              "body": "Khar, an alkaline preparation."
+            },
+            {
+              "body": "Pokori with a cup of Assam tea."
+            },
+            {
+              "body": "Jolpan breakfast, pitha and laru sweets."
+            }
+          ],
+          "facts": [
+            "A2S2"
+          ]
+        },
+        "local_transport": {
+          "text": "Most of Sivasagar's monuments can be explored on foot, at your own pace around the tanks; take a vehicle to Charaideo, about 30 km away, and Panidehing Wildlife Sanctuary, 22 km.",
+          "facts": [
+            "A2S3",
+            "SVC1"
+          ]
+        },
+        "who_its_for": {
+          "items": [
+            {
+              "title": "History lovers",
+              "body": "The old Ahom capital: Rang Ghar, Kareng Ghar and the great tank."
+            },
+            {
+              "title": "Birders",
+              "body": "Panidehing Wildlife Sanctuary, 22 km away."
+            }
+          ],
+          "facts": [
+            "A2S4",
+            "SV1",
+            "A2S3"
           ]
         }
       },
@@ -5946,6 +7896,74 @@
             "TWJ1",
             "TWS1"
           ]
+        },
+        "key_facts": {
+          "items": [
+            {
+              "title": "Altitude",
+              "body": "About 3,000 m",
+              "status": "verified"
+            },
+            {
+              "title": "From Itanagar",
+              "body": "448 km by road",
+              "status": "verified"
+            },
+            {
+              "title": "Monastery",
+              "body": "India's largest, founded 1680–81",
+              "status": "verified"
+            },
+            {
+              "title": "Sela Pass",
+              "body": "4,170 m, 78 km away",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "TW1",
+            "TWM1",
+            "TWS1"
+          ]
+        },
+        "safety_health": {
+          "items": [
+            {
+              "title": "Sela Pass",
+              "body": "Snow can close the pass temporarily; the Sela Tunnel was built as an all-weather route.",
+              "status": "seasonal"
+            },
+            {
+              "title": "Emergency",
+              "body": "Dial 112 for police, fire or ambulance.",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "TWS2",
+            "AR_112"
+          ]
+        },
+        "things_to_do": {
+          "items": [
+            {
+              "body": "Explore Tawang Monastery, India's largest."
+            },
+            {
+              "body": "See Nuranang Falls on the road from Sela."
+            },
+            {
+              "body": "End the day at the Tawang War Memorial."
+            },
+            {
+              "body": "Visit the Jaswant Garh memorial, 25 km from Tawang."
+            }
+          ],
+          "facts": [
+            "R2T1",
+            "TWM1",
+            "TWJ1"
+          ]
         }
       },
       "wikidataId": "Q1006270",
@@ -6280,6 +8298,80 @@
             "ZR1",
             "MC1"
           ]
+        },
+        "key_facts": {
+          "items": [
+            {
+              "title": "Thembang",
+              "body": "9th-century fortified village on UNESCO's candidate list",
+              "status": "verified"
+            },
+            {
+              "title": "Sela Pass",
+              "body": "Links Dirang with Tawang, 4,170 m",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "DR1",
+            "TWS1"
+          ]
+        },
+        "safety_health": {
+          "items": [
+            {
+              "title": "Sela Pass",
+              "body": "Snow can close the pass to Tawang temporarily; the Sela Tunnel is the all-weather route.",
+              "status": "seasonal"
+            },
+            {
+              "title": "Emergency",
+              "body": "Dial 112 for police, fire or ambulance.",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "TWS2",
+            "AR_112"
+          ]
+        },
+        "best_time": {
+          "text": "Come between March and June, or in October and November.",
+          "facts": [
+            "R2D1"
+          ]
+        },
+        "food": {
+          "items": [
+            {
+              "body": "Churpi, a fermented cheese."
+            },
+            {
+              "body": "Zan, a hearty millet dish."
+            },
+            {
+              "body": "Butter tea and apong rice beer."
+            }
+          ],
+          "facts": [
+            "R2D2"
+          ]
+        },
+        "who_its_for": {
+          "items": [
+            {
+              "title": "History lovers",
+              "body": "Thembang's 9th-century fortified village."
+            },
+            {
+              "title": "Slow travellers",
+              "body": "Orchards and hot springs — more than a stop on the way to Tawang."
+            }
+          ],
+          "facts": [
+            "DR1",
+            "R2D3"
+          ]
         }
       },
       "wikidataId": "Q14213565"
@@ -6355,6 +8447,88 @@
             "ZR1",
             "MC1"
           ]
+        },
+        "key_facts": {
+          "items": [
+            {
+              "title": "Monastery",
+              "body": "Bomdila Monastery (GRL), set up 1965",
+              "status": "verified"
+            },
+            {
+              "title": "From Tezpur",
+              "body": "160 km",
+              "status": "verified"
+            },
+            {
+              "title": "From Guwahati",
+              "body": "340 km",
+              "status": "verified"
+            },
+            {
+              "title": "Nearest station",
+              "body": "Rangapara North, about 95 km",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "BM1",
+            "BM2"
+          ]
+        },
+        "faqs": {
+          "items": [
+            {
+              "title": "Do I need a permit?",
+              "body": "Indian visitors need an Inner Line Permit for Arunachal Pradesh; a tourist ILP is valid for 15 days and is available online."
+            },
+            {
+              "title": "What's the nearest airport?",
+              "body": "Tezpur, 160 km away."
+            }
+          ],
+          "facts": [
+            "AR2",
+            "BM2"
+          ]
+        },
+        "best_time": {
+          "text": "Spring (March–April) and autumn (October–November) are best, when the weather is pleasant and the hills are green.",
+          "facts": [
+            "R2B1"
+          ]
+        },
+        "food": {
+          "items": [
+            {
+              "body": "Churpi, a fermented cheese dish."
+            },
+            {
+              "body": "Lutker — chilli flakes with dried meat."
+            },
+            {
+              "body": "Khapse, a sweet fried pastry."
+            }
+          ],
+          "facts": [
+            "R2B2"
+          ]
+        },
+        "who_its_for": {
+          "items": [
+            {
+              "title": "Monastery lovers",
+              "body": "Bomdila Monastery's three gompas."
+            },
+            {
+              "title": "Craft lovers",
+              "body": "Local crafts and apple orchards."
+            }
+          ],
+          "facts": [
+            "BM1",
+            "R2B3"
+          ]
         }
       },
       "wikidataId": "Q859141"
@@ -6425,6 +8599,33 @@
             "BM1",
             "MC1"
           ]
+        },
+        "key_facts": {
+          "items": [
+            {
+              "title": "Altitude",
+              "body": "About 1,500 m",
+              "status": "verified"
+            },
+            {
+              "title": "From Itanagar",
+              "body": "165 km",
+              "status": "verified"
+            },
+            {
+              "title": "People",
+              "body": "Apatani",
+              "status": "verified"
+            },
+            {
+              "title": "UNESCO",
+              "body": "Shortlisted in 2012",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "ZR1"
+          ]
         }
       },
       "wikidataId": "Q663062"
@@ -6493,6 +8694,52 @@
             "DR1",
             "BM1",
             "ZR1"
+          ]
+        },
+        "key_facts": {
+          "items": [
+            {
+              "title": "Altitude",
+              "body": "6,000 ft",
+              "status": "verified"
+            },
+            {
+              "title": "District",
+              "body": "West Siang",
+              "status": "verified"
+            },
+            {
+              "title": "Monastery",
+              "body": "400-year-old Samten Yongcha",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "MC1"
+          ]
+        },
+        "faqs": {
+          "items": [
+            {
+              "title": "Do I need a permit?",
+              "body": "Indian visitors need an Inner Line Permit for Arunachal Pradesh, valid 15 days and available online as an e-ILP."
+            }
+          ],
+          "facts": [
+            "AR2"
+          ]
+        },
+        "food": {
+          "items": [
+            {
+              "body": "Momos, thukpa and thenthuk."
+            },
+            {
+              "body": "Butter tea, millet beer and chhang."
+            }
+          ],
+          "facts": [
+            "R2M1"
           ]
         }
       },
