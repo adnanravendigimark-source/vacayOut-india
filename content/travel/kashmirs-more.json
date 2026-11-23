@@ -448,6 +448,111 @@
       "url": "https://anantnag.nic.in/tourist-place/kokernag/",
       "title": "Kokernag — District Anantnag, Government of Jammu and Kashmir",
       "authority": "government"
+    },
+    "JF_HAZ": {
+      "url": "https://www.incredibleindia.gov.in/en/jammu-and-kashmir/srinagar/hazratbal-mosque",
+      "title": "Hazratbal Mosque, Srinagar — Incredible India",
+      "authority": "government"
+    },
+    "JF_HAZW": {
+      "url": "https://en.wikipedia.org/wiki/Hazratbal_Shrine",
+      "title": "Hazratbal Shrine — Wikipedia",
+      "authority": "reference"
+    },
+    "JF_SHW": {
+      "url": "https://en.wikipedia.org/wiki/Shankaracharya_Temple",
+      "title": "Shankaracharya Temple — Wikipedia",
+      "authority": "reference"
+    },
+    "JF_SPS": {
+      "url": "https://www.incredibleindia.gov.in/en/jammu-and-kashmir/srinagar/sri-pratap-singh-museum",
+      "title": "Sri Pratap Singh Museum, Srinagar — Incredible India",
+      "authority": "government"
+    },
+    "JF_JAMW": {
+      "url": "https://en.wikipedia.org/wiki/Jamia_Masjid,_Srinagar",
+      "title": "Jamia Masjid, Srinagar — Wikipedia",
+      "authority": "reference"
+    },
+    "JF_CHW": {
+      "url": "https://en.wikipedia.org/wiki/Chashme_Shahi",
+      "title": "Chashme Shahi — Wikipedia",
+      "authority": "reference"
+    },
+    "JF_TUW": {
+      "url": "https://en.wikipedia.org/wiki/Indira_Gandhi_Memorial_Tulip_Garden",
+      "title": "Indira Gandhi Memorial Tulip Garden — Wikipedia",
+      "authority": "reference"
+    },
+    "JF_HPW": {
+      "url": "https://en.wikipedia.org/wiki/Hari_Parbat",
+      "title": "Hari Parbat — Wikipedia",
+      "authority": "reference"
+    },
+    "JF_DAC": {
+      "url": "https://www.incredibleindia.gov.in/en/jammu-and-kashmir/srinagar/dachigam-national-park",
+      "title": "Dachigam National Park, Srinagar — Incredible India",
+      "authority": "government"
+    },
+    "JF_RAG": {
+      "url": "https://www.incredibleindia.gov.in/en/jammu-and-kashmir/jammu/raghunath-temple",
+      "title": "Raghunath Temple, Jammu — Incredible India",
+      "authority": "government"
+    },
+    "JF_BAH": {
+      "url": "https://www.incredibleindia.gov.in/en/jammu-and-kashmir/jammu/bahu-fort",
+      "title": "Bahu Fort, Jammu — Incredible India",
+      "authority": "government"
+    },
+    "JF_AMA": {
+      "url": "https://www.incredibleindia.gov.in/en/jammu-and-kashmir/jammu/amar-mahal-palace",
+      "title": "Amar Mahal Palace, Jammu — Incredible India",
+      "authority": "government"
+    },
+    "JF_MUB": {
+      "url": "https://www.incredibleindia.gov.in/en/jammu-and-kashmir/jammu/mubarak-mandi-palace",
+      "title": "Mubarak Mandi Palace, Jammu — Incredible India",
+      "authority": "government"
+    },
+    "JF_PKH": {
+      "url": "https://www.incredibleindia.gov.in/en/jammu-and-kashmir/jammu/peer-kho-cave-temple",
+      "title": "Peer Kho Cave Temple, Jammu — Incredible India",
+      "authority": "government"
+    },
+    "JF_VAI": {
+      "url": "https://www.incredibleindia.gov.in/en/jammu-and-kashmir/jammu/vaishno-devi-temple",
+      "title": "Vaishno Devi Temple — Incredible India",
+      "authority": "government"
+    },
+    "JF_SUD": {
+      "url": "https://www.incredibleindia.gov.in/en/jammu-and-kashmir/patnitop/sudh-mahadev-temple",
+      "title": "Sudh Mahadev Temple, Patnitop — Incredible India",
+      "authority": "government"
+    },
+    "JF_AMRW": {
+      "url": "https://en.wikipedia.org/wiki/Amarnath_Temple",
+      "title": "Amarnath Temple — Wikipedia",
+      "authority": "reference"
+    },
+    "JF_MARW": {
+      "url": "https://en.wikipedia.org/wiki/Martand_Sun_Temple",
+      "title": "Martand Sun Temple — Wikipedia",
+      "authority": "reference"
+    },
+    "JF_AVW": {
+      "url": "https://en.wikipedia.org/wiki/Avantiswami_Temple",
+      "title": "Avantiswami Temple — Wikipedia",
+      "authority": "reference"
+    },
+    "JF_KBW": {
+      "url": "https://en.wikipedia.org/wiki/Kheer_Bhawani",
+      "title": "Kheer Bhawani — Wikipedia",
+      "authority": "reference"
+    },
+    "JF_PAW": {
+      "url": "https://en.wikipedia.org/wiki/Pampore",
+      "title": "Pampore — Wikipedia",
+      "authority": "reference"
     }
   },
   "facts": {
@@ -1938,6 +2043,834 @@
         }
       ],
       "kind": "estimate"
+    },
+    "JH1": {
+      "place": "jammu-and-kashmir/hazratbal-shrine",
+      "topic": "JH1",
+      "claim": "Hazratbal, on the northern bank of Dal Lake, holds the Moi-e-Muqqadas, believed to be a hair of the Prophet, and is regarded by many as Kashmir's holiest Muslim shrine.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "JF_HAZW",
+          "quote": "The shrine is situated on the northern bank of Dal Lake in Srinagar and is regarded by many Muslims as the holiest Islamic religious sites in Kashmir."
+        },
+        {
+          "source": "JF_HAZ",
+          "quote": "It embraces the holy relic known as Moi-e-Muqqadas"
+        }
+      ]
+    },
+    "JH2": {
+      "place": "jammu-and-kashmir/hazratbal-shrine",
+      "topic": "JH2",
+      "claim": "The first building was a 17th-century Mughal palace converted to a prayer hall in 1634; the present white-marble domed shrine was built from 1968 to 1979.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "JF_HAZW",
+          "quote": "The building was initially called Ishrat Jahan and was converted into a prayer hall in 1634 on the orders of Shah Jahan."
+        },
+        {
+          "source": "JF_HAZW",
+          "quote": "Construction of the present day structure began in 1968 and took 11 years to complete, finishing in 1979."
+        },
+        {
+          "source": "JF_HAZ",
+          "quote": "the shrine's majestic white marble architecture and domed structure"
+        }
+      ]
+    },
+    "JH3": {
+      "place": "jammu-and-kashmir/hazratbal-shrine",
+      "topic": "JH3",
+      "claim": "The relic is shown to the public on special occasions.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "JF_HAZ",
+          "quote": "the opportunity to witness holy relics on special occasions"
+        }
+      ]
+    },
+    "JS1": {
+      "place": "jammu-and-kashmir/shankaracharya-temple",
+      "topic": "JS1",
+      "claim": "The Shiva temple stands on the Zabarwan range about 1,000 ft above the valley floor, overlooking Srinagar; a road leads up from Boulevard Road near Gagribal.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "JF_SHW",
+          "quote": "situated on top of the Zabarwan Range in Srinagar"
+        },
+        {
+          "source": "JF_SHW",
+          "quote": "The temple is at a height of 1,000 feet (300 m) above the valley floor and overlooks the city of Srinagar."
+        },
+        {
+          "source": "JF_SHW",
+          "quote": "The temple is accessible via a road that emerges off Boulevard road near Gagribal."
+        }
+      ]
+    },
+    "JS2": {
+      "place": "jammu-and-kashmir/shankaracharya-temple",
+      "topic": "JS2",
+      "claim": "It is considered Kashmir's oldest temple and is an ASI Monument of National Importance; Kashmiri Hindus visit at Herath (Maha Shivaratri).",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "JF_SHW",
+          "quote": "The structure is considered as the oldest temple in Kashmir, historically and traditionally."
+        },
+        {
+          "source": "JF_SHW",
+          "quote": "The temple and adjacent land is a Monument of National Importance"
+        },
+        {
+          "source": "JF_SHW",
+          "quote": "On festivals such as Herath, as Maha Shivaratri is known as in the region, the temple is visited by Kashmiri Hindus."
+        }
+      ]
+    },
+    "JS3": {
+      "place": "jammu-and-kashmir/shankaracharya-temple",
+      "topic": "JS3",
+      "claim": "Kashmiri Hindus believe Adi Shankara visited the temple, which gave it and the hill their name; there is no agreed construction date.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "JF_SHW",
+          "quote": "Kashmiri Hindus strongly believe the temple was visited by Adi Shankara and has ever since been associated with him"
+        },
+        {
+          "source": "JF_SHW",
+          "quote": "There is no consensus with regard to an exact date of construction."
+        }
+      ]
+    },
+    "JP1": {
+      "place": "jammu-and-kashmir/sri-pratap-singh-museum",
+      "topic": "JP1",
+      "claim": "Near Lal Mandi in Srinagar, the museum occupies a former royal summer home; it began in 1898.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "JF_SPS",
+          "quote": "In the heart of Srinagar, near Lal Mandi lies the treasure trove of Kashmir’s cultural and historical heritage called the Sri Pratap Singh Museum."
+        },
+        {
+          "source": "JF_SPS",
+          "quote": "It was built as the summer home for the royals who ruled Kashmir"
+        },
+        {
+          "source": "JF_SPS",
+          "quote": "It was in 1898 that the journey of persevering and celebrating the Kashmiri heritage was started."
+        }
+      ]
+    },
+    "JP2": {
+      "place": "jammu-and-kashmir/sri-pratap-singh-museum",
+      "topic": "JP2",
+      "claim": "It holds more than 80,000 objects — archaeology, musical instruments, manuscripts, metalware, textiles, papier-mâché and natural history — including sculptures from Pandrethan, Awantipura and Parihaspora and Buddhist antiquities from Ladakh.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "JF_SPS",
+          "quote": "the SPS Museum has become a collection of more than 80,000 objects"
+        },
+        {
+          "source": "JF_SPS",
+          "quote": "including archaeology, musical instruments, manuscripts, metalware, textiles, enamelware, decorative arts, naqashi, paper mache items, and natural history collections"
+        },
+        {
+          "source": "JF_SPS",
+          "quote": "You will find sculptures from Pandrenthan, Awantipura, and Parihaspora, standing along with Buddhist antiquities from Ladakh."
+        }
+      ]
+    },
+    "JP3": {
+      "place": "jammu-and-kashmir/sri-pratap-singh-museum",
+      "topic": "JP3",
+      "claim": "The archaeologist John Marshall was appointed to choose and curate the collection.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "JF_SPS",
+          "quote": "The renowned British archaeologist John Marshal was appointed to undertake the project of handpicking and curating each artifact."
+        }
+      ]
+    },
+    "JJ1": {
+      "place": "jammu-and-kashmir/jamia-masjid-srinagar",
+      "topic": "JJ1",
+      "claim": "The Friday mosque at Nowhatta in Srinagar's old city was commissioned by Sultan Sikandar in 1394 and completed in 1402; it is headed by the Mirwaiz of Kashmir.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "JF_JAMW",
+          "quote": "The Jamia Masjid (Kashmiri: بٔڈ مٔشیٖد) is a Friday mosque located at Nowhatta in the Old City of Srinagar"
+        },
+        {
+          "source": "JF_JAMW",
+          "quote": "The mosque was commissioned by Sultan Sikandar in 1394 CE and completed in 1402 CE"
+        },
+        {
+          "source": "JF_JAMW",
+          "quote": "and is headed by the mirwaiz of Kashmir"
+        }
+      ]
+    },
+    "JJ2": {
+      "place": "jammu-and-kashmir/jamia-masjid-srinagar",
+      "topic": "JJ2",
+      "claim": "Its inner courtyard is about 114 by 113 m, with a water tank and fountain at the centre.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "JF_JAMW",
+          "quote": "The inner courtyard measures 114 by 113 metres (375 by 370 ft) having a 10-by-10-metre (33 by 34 ft) water tank with a fountain flowing in the centre."
+        }
+      ]
+    },
+    "JJ3": {
+      "place": "jammu-and-kashmir/jamia-masjid-srinagar",
+      "topic": "JJ3",
+      "claim": "The mosque has been closed for long periods during unrest, including from 2008.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "JF_JAMW",
+          "quote": "Prolonged closure of the mosque came into effect in 2008 when the Amarnath land row erupted."
+        }
+      ]
+    },
+    "JC1": {
+      "place": "jammu-and-kashmir/chashme-shahi",
+      "topic": "JC1",
+      "claim": "Chashme Shahi ('the royal spring') was built in 1632 by Ali Mardan Khan for Shah Jahan's son Dara Shikoh, near Raj Bhawan overlooking Dal Lake; Pari Mahal lies to its east.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "JF_CHW",
+          "quote": "built in 1632 AD around a spring by Ali Mardan Khan, a governor of Mughal emperor Shah Jahan as per the orders of the Emperor, as a gift for his eldest son Prince Dara Shikoh"
+        },
+        {
+          "source": "JF_CHW",
+          "quote": "The garden is located in the Zabarwan Range, near Raj Bhawan (Governor's house) overlooking Dal Lake in Srinagar"
+        },
+        {
+          "source": "JF_CHW",
+          "quote": "In the east of Chashma Shahi the Pari Mahal (Fairy Palace) lies"
+        },
+        {
+          "source": "JF_CHW",
+          "quote": "where Dara Sikoh used to learn astrology"
+        }
+      ]
+    },
+    "JC2": {
+      "place": "jammu-and-kashmir/chashme-shahi",
+      "topic": "JC2",
+      "claim": "The 108 m by 38 m garden is built on three terraces around a spring that falls through an aqueduct, a waterfall and fountains.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "JF_CHW",
+          "quote": "The garden is 108 m long and 38 m wide and is spread over one acre of land."
+        },
+        {
+          "source": "JF_CHW",
+          "quote": "The main focus of the garden is the spring which flows down in terraces and is divided into three sections: an aqueduct, waterfall, and fountains."
+        }
+      ]
+    },
+    "JC3": {
+      "place": "jammu-and-kashmir/chashme-shahi",
+      "topic": "JC3",
+      "claim": "A two-storey Kashmiri hut marks the spring on the first terrace; the water runs down a ramp to a fountain pool and then a five-fountain pool at the entrance.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "JF_CHW",
+          "quote": "A two-storey Kashmiri hut stands at the first terrace which is the origin of the spring."
+        },
+        {
+          "source": "JF_CHW",
+          "quote": "The second terrace serves as a water pool and a large fountain stands at its centre."
+        },
+        {
+          "source": "JF_CHW",
+          "quote": "which is a square five-fountain pool"
+        }
+      ]
+    },
+    "JT1": {
+      "place": "jammu-and-kashmir/tulip-garden",
+      "topic": "JT1",
+      "claim": "Opened in 2007, Asia's largest tulip garden has around 70–75 tulip varieties plus 46 other flower varieties from Holland, with 1.75 million bulbs brought from Keukenhof.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "JF_TUW",
+          "quote": "The tulip garden is home to around 70 - 75 varieties of tulips."
+        },
+        {
+          "source": "JF_TUW",
+          "quote": "Besides tulips, there are 46 varieties of flowers, including hyacinths, daffodils and ranunculus which were also brought from Holland."
+        },
+        {
+          "source": "JF_TUW",
+          "quote": "The garden was opened in 2007"
+        },
+        {
+          "source": "JF_TUW",
+          "quote": "About 1.75 million tulip bulbs, all in multiple colours, were brought from Keukenhof tulip gardens of Amsterdam."
+        }
+      ]
+    },
+    "JT2": {
+      "place": "jammu-and-kashmir/tulip-garden",
+      "topic": "JT2",
+      "claim": "The government's annual spring Tulip Festival drew 365,000 visitors in a month in March–April 2023.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "JF_TUW",
+          "quote": "The Tulip festival is an annual Spring festival to increase tourism by the Government of Jammu and Kashmir."
+        },
+        {
+          "source": "JF_TUW",
+          "quote": "Over a span of one month, between March and April 2023, the garden was visited by 365,000 tourists"
+        }
+      ]
+    },
+    "JR1": {
+      "place": "jammu-and-kashmir/hari-parbat",
+      "topic": "JR1",
+      "claim": "Akbar walled the hill in 1590; the present fort was built in 1808 under the Durrani governor Atta Mohammed Khan and reopened to the public in 2007. It is reached via Kathi Darwaza (Rainawari) or Sangin Darwaza (Hawal).",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "JF_HPW",
+          "quote": "The first fortifications on the site were constructed by the Mughal emperor Akbar in 1590"
+        },
+        {
+          "source": "JF_HPW",
+          "quote": "The present fort was built in 1808 under the reign of the Governor of Kashmir Province of the Durrani Empire, Atta Mohammed Khan."
+        },
+        {
+          "source": "JF_HPW",
+          "quote": "The fort was closed for almost 2 decades and thrown open to the public in 2007."
+        },
+        {
+          "source": "JF_HPW",
+          "quote": "The fort can be reached via two sides of the city, (a) via Rainawari through Kathi Darwaza Gate and (b) via Hawal through the Sangin Darwaza Gate."
+        }
+      ]
+    },
+    "JR2": {
+      "place": "jammu-and-kashmir/hari-parbat",
+      "topic": "JR2",
+      "claim": "The hill holds the Sharika temple of the Kashmiri Pandits, the Makhdoom Sahib shrine, the Akhund Mullah Shah mosque and Gurdwara Chatti Patshahi.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "JF_HPW",
+          "quote": "Parvati is worshipped under the name Sharika, its temple occupying the middle part of the western slope of the hill"
+        },
+        {
+          "source": "JF_HPW",
+          "quote": "The southern side of Hari Parbat features Makhdoom Sahib, the shrine of Hamza Makhdoom, a 16th-century Kashmiri Sufi saint."
+        },
+        {
+          "source": "JF_HPW",
+          "quote": "Built below the fort is Akhund Mullah Shah Mosque"
+        },
+        {
+          "source": "JF_HPW",
+          "quote": "Gurdwara Chatti Patshahi at Kathi Darwaza, Rainawari"
+        }
+      ]
+    },
+    "JD1": {
+      "place": "jammu-and-kashmir/dachigam-national-park",
+      "topic": "JD1",
+      "claim": "Dachigam covers about 140 sq km in the Zabarwan range and holds the last population of the hangul (Kashmir stag), with Asiatic black bear, Himalayan brown bear and leopard.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "JF_DAC",
+          "quote": "The National Reserve is spread over 140 square kilometers in the Zabarwan mountain range"
+        },
+        {
+          "source": "JF_DAC",
+          "quote": "This includes the last population of the hangul, or Kashmir stag"
+        },
+        {
+          "source": "JF_DAC",
+          "quote": "The green and verdant thick cover shelters the Asiatic black bear, Himalayan brown bear, Indian leopard"
+        }
+      ]
+    },
+    "JD2": {
+      "place": "jammu-and-kashmir/dachigam-national-park",
+      "topic": "JD2",
+      "claim": "Birds include the Eurasian eagle-owl, lammergeier, Himalayan monal and western tragopan.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "JF_DAC",
+          "quote": "It has raptors like the Eurasian eagle owl and Lammergeier to colorful species such as the Himalayan monal and western tragopan."
+        }
+      ]
+    },
+    "JD3": {
+      "place": "jammu-and-kashmir/dachigam-national-park",
+      "topic": "JD3",
+      "claim": "Ten villages were moved in 1910 to create the Maharaja's hunting reserve, hence the name.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "JF_DAC",
+          "quote": "It was when ‘ten villages’ were relocated to form a hunting reserve by the then Maharaja of Kashmir in 1910."
+        }
+      ]
+    },
+    "JG1": {
+      "place": "jammu-and-kashmir/raghunath-temple",
+      "topic": "JG1",
+      "claim": "The temple's foundation was laid in 1835 under Maharaja Gulab Singh; it has seven shrines and a gallery of Vishnu's ten avatars.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "JF_RAG",
+          "quote": "The foundation for the temple complex was laid in 1835."
+        },
+        {
+          "source": "JF_RAG",
+          "quote": "comprising seven shrines dedicated to various Hindu deities"
+        },
+        {
+          "source": "JF_RAG",
+          "quote": "a gallery showcasing the ten avatars of Lord Vishnu"
+        }
+      ]
+    },
+    "JG2": {
+      "place": "jammu-and-kashmir/raghunath-temple",
+      "topic": "JG2",
+      "claim": "The main shrine has idols of Rama, Sita and Lakshmana; other shrines honour Shiva, Hanuman and Durga.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "JF_RAG",
+          "quote": "you'll find beautiful idols of Lord Rama, Sita, and Lakshmana"
+        },
+        {
+          "source": "JF_RAG",
+          "quote": "The seven different shrines dedicated to Hindu gods and goddesses like Lord Shiva, Lord Hanuman, and Goddess Durga"
+        }
+      ]
+    },
+    "JG3": {
+      "place": "jammu-and-kashmir/raghunath-temple",
+      "topic": "JG3",
+      "claim": "Old Jammu's markets nearby sell handicrafts and street food.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "JF_RAG",
+          "quote": "take a stroll through the lively markets of old Jammu, where you can experience traditional handicrafts and savour delicious street food"
+        }
+      ]
+    },
+    "JB1": {
+      "place": "jammu-and-kashmir/bahu-fort",
+      "topic": "JB1",
+      "claim": "The fort, at about 325 m on a rocky plateau, has sandstone walls with eight towers; inside is the Bawe Wali Mata (Kali) temple.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "JF_BAH",
+          "quote": "Bahu Fort is situated at an elevation of about 325 metres, constructed on top of a rocky plateau."
+        },
+        {
+          "source": "JF_BAH",
+          "quote": "Eight prominent towers stand out against the sky."
+        },
+        {
+          "source": "JF_BAH",
+          "quote": "the Bawe Wali Mata temple, where the goddess Kali is worshipped"
+        },
+        {
+          "source": "JF_BAH",
+          "quote": "which was designed to allow even elephants to enter"
+        }
+      ]
+    },
+    "JB2": {
+      "place": "jammu-and-kashmir/bahu-fort",
+      "topic": "JB2",
+      "claim": "The Bagh-e-Bahu garden surrounds the fort, with an underground aquarium over 220 m long holding 400 fish species.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "JF_BAH",
+          "quote": "Explore the Bagh-e-Bahu garden"
+        },
+        {
+          "source": "JF_BAH",
+          "quote": "It has been designated as the largest underground aquarium in the country, spanning over 220 meters in length and home to 400 different fish species."
+        },
+        {
+          "source": "JF_BAH",
+          "quote": "The fort underwent multiple renovations under successive rulers, including the Dogra kings."
+        }
+      ]
+    },
+    "JA1": {
+      "place": "jammu-and-kashmir/amar-mahal-palace",
+      "topic": "JA1",
+      "claim": "Amar Mahal, built in the 1890s on the Tawi in French-chateau style, was the Dogra dynasty's last official residence; its prize exhibit is a 120 kg golden throne.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "JF_AMA",
+          "quote": "a stunning example of French chateau architecture and the last official residence of the Dogra dynasty"
+        },
+        {
+          "source": "JF_AMA",
+          "quote": "Built in the 1890s, this red sandstone palace-turned-museum"
+        },
+        {
+          "source": "JF_AMA",
+          "quote": "a magnificent golden throne weighing 120kg with golden lions at its corners"
+        }
+      ]
+    },
+    "JA2": {
+      "place": "jammu-and-kashmir/amar-mahal-palace",
+      "topic": "JA2",
+      "claim": "Open 9 am–5 pm in summer and 10 am–5 pm in winter; closed Mondays. The library holds 25,000 rare books.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "JF_AMA",
+          "quote": "Timings Summers: 09:00 AM - 05:00 PM and Winters: 10:00 AM - 05:00 PM (Closed on Mondays)"
+        },
+        {
+          "source": "JF_AMA",
+          "quote": "the museum's impressive library housing 25,000 rare books"
+        }
+      ]
+    },
+    "JM1": {
+      "place": "jammu-and-kashmir/mubarak-mandi-palace",
+      "topic": "JM1",
+      "claim": "Begun in 1710 under Raja Dhruv Dev, the complex grew under later rulers, including Maharaja Ranbir Singh (1856–1885), who added the Gole Ghar and Sheesh Mahal; the royal residence moved to Hari Niwas in 1925.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "JF_MUB",
+          "quote": "The story of Mubarak Mandi Palace begins in 1710 when Raja Dhruv Dev laid its foundation."
+        },
+        {
+          "source": "JF_MUB",
+          "quote": "These additions, such as the Gole Ghar and the Sheesh Mahal"
+        },
+        {
+          "source": "JF_MUB",
+          "quote": "In 1925, the royal residence shifted to the Hari Niwas Palace"
+        }
+      ]
+    },
+    "JM2": {
+      "place": "jammu-and-kashmir/mubarak-mandi-palace",
+      "topic": "JM2",
+      "claim": "It is grouped around courtyards — the Darbar Hall, Pink Palace, Gol Ghar, Nawa Mahal and Rani Charak Palace among them — and parts now house government offices, courts and a museum.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "JF_MUB",
+          "quote": "The complex is grouped around several courtyards and includes various buildings and palaces like the Darbar Hall Complex, the Pink Palace, Royal Courts buildings, Gol Ghar Complex, Nawa Mahal, Rani Charak Palace"
+        },
+        {
+          "source": "JF_MUB",
+          "quote": "sections of the palace house government offices, courts and a museum"
+        }
+      ]
+    },
+    "JK1": {
+      "place": "jammu-and-kashmir/peer-kho-cave-temple",
+      "topic": "JK1",
+      "claim": "Peer Kho is open throughout the day; passages lead deeper to the Amarnath Cave and Nav Durga shrines.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "JF_PKH",
+          "quote": "Peer kho Cave Temple welcomes visitors throughout the day"
+        },
+        {
+          "source": "JF_PKH",
+          "quote": "visitors encounter passages leading to the Amarnath Cave and the Nav Durga shrine"
+        }
+      ]
+    },
+    "JV1": {
+      "place": "jammu-and-kashmir/vaishno-devi-temple",
+      "topic": "JV1",
+      "claim": "The shrine venerates three forms — Mahakali, Mahalakshmi and Mahasaraswati; it is open 5 am–12 noon and 4–9 pm; Navaratri and Diwali are the main festivals.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "JF_VAI",
+          "quote": "The temple venerates the three icons Mahakali, Mahalakshmi, and Mahasaraswati, all representations of Vaishno Devi."
+        },
+        {
+          "source": "JF_VAI",
+          "quote": "Timings Opening time - 05:00 AM - 12:00 PM and 04:00 PM - 09:00 PM"
+        },
+        {
+          "source": "JF_VAI",
+          "quote": "The Vaishno Devi Temple hosts significant festivals, including Navaratri"
+        }
+      ]
+    },
+    "JU1": {
+      "place": "jammu-and-kashmir/sudh-mahadev-temple",
+      "topic": "JU1",
+      "claim": "The shrine has a black-marble Shiva idol and a trishul and mace linked to Bheema; the Pap Nashni Bowli spring is nearby, and a three-day festival is held in June.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "JF_SUD",
+          "quote": "This revered site houses a black marble idol of Lord Shiva as well as his trident (trishul) and mace (gada), believed to be associated with Bheema from Mahabharata."
+        },
+        {
+          "source": "JF_SUD",
+          "quote": "its sacred Pap Nashni Bowli spring, located nearby"
+        },
+        {
+          "source": "JF_SUD",
+          "quote": "Spanning three days, cultural programs include traditional dances"
+        }
+      ]
+    },
+    "JN1": {
+      "place": "jammu-and-kashmir/amarnath-cave",
+      "topic": "JN1",
+      "claim": "The cave is about 141 km from Srinagar, reached via Sonamarg or Pahalgam; the ice lingam grows from May to August as snowmelt seeps into the cave.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "JF_AMRW",
+          "quote": "141 km (88 mi) from Srinagar, the summer capital of Jammu and Kashmir, accessible via either Sonamarg or Pahalgam"
+        },
+        {
+          "source": "JF_AMRW",
+          "quote": "The lingam waxes during May to August, as snow melts in the Himalayas above the cave"
+        }
+      ]
+    },
+    "JN2": {
+      "place": "jammu-and-kashmir/amarnath-cave",
+      "topic": "JN2",
+      "claim": "Hindus believe this is where Shiva explained the secret of life and eternity to Parvati.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "JF_AMRW",
+          "quote": "Hindus believe this is the place where Shiva explained the secret of life and eternity to Parvati."
+        }
+      ]
+    },
+    "JR3": {
+      "place": "jammu-and-kashmir/martand-sun-temple",
+      "topic": "JR3",
+      "claim": "The temple at Mattan in Anantnag district was dedicated to Surya; it stands on a plateau with a view over the whole Kashmir Valley, and earthquakes added to the damage.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "JF_MARW",
+          "quote": "is a Hindu temple located in Mattan, in the Anantnag district of the Kashmir Valley"
+        },
+        {
+          "source": "JF_MARW",
+          "quote": "was dedicated to Surya, the solar deity in Hinduism"
+        },
+        {
+          "source": "JF_MARW",
+          "quote": "The Martand temple was built on top of a plateau from where one can view the whole of the Kashmir Valley."
+        },
+        {
+          "source": "JF_MARW",
+          "quote": "The ruins and the remnants of the structure suffered further damage from several earthquakes."
+        }
+      ]
+    },
+    "JV2": {
+      "place": "jammu-and-kashmir/avantiswami-temple",
+      "topic": "JV2",
+      "claim": "The ruined complex at Awantipora on the Jhelum, about 16 km from Pulwama, was built by Avantivarman in 853–855 CE; it is ASI-protected, called Pandav Lari locally, and similar in plan to the Martand temple.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "JF_AVW",
+          "quote": "is a ruined Hindu temple complex on the banks of the Jhelum River, approximately 16 km northeast of Pulwama town, in Awantipora"
+        },
+        {
+          "source": "JF_AVW",
+          "quote": "The temple was built by King Avantivarman in the year 853–855 CE."
+        },
+        {
+          "source": "JF_AVW",
+          "quote": "Today, the ruins are protected by the Archaeological Survey of India. Locals call the temple Pandav Lari"
+        },
+        {
+          "source": "JF_AVW",
+          "quote": "The Avantiswami is smaller, but similar in planning to the earlier Martand Sun Temple."
+        }
+      ]
+    },
+    "JW1": {
+      "place": "jammu-and-kashmir/kheer-bhawani-temple",
+      "topic": "JW1",
+      "claim": "The temple at Tulmulla in Ganderbal, 25 km from Srinagar, stands over a heptagonal spring that changes colour; its annual mela is one of the region's largest Hindu gatherings after the Amarnath yatra. The present temple was built under Maharaja Pratap Singh in the 1910s.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "JF_KBW",
+          "quote": "is a Hindu temple situated at a distance of 25 kilometres (16 mi) north-east of Srinagar, Jammu and Kashmir, India, in the village of Tulmulla in Ganderbal"
+        },
+        {
+          "source": "JF_KBW",
+          "quote": "A heptagonal spring at the temple is situated around the goddess."
+        },
+        {
+          "source": "JF_KBW",
+          "quote": "It is one of the largest gatherings of Hindus in the region following the Amarnath pilgrimage."
+        },
+        {
+          "source": "JF_KBW",
+          "quote": "The current form of the spring, temple pond, and temple were built under Maharaja Pratap Singh of Jammu and Kashmir in the 1910s."
+        }
+      ]
+    },
+    "JW2": {
+      "place": "jammu-and-kashmir/kheer-bhawani-temple",
+      "topic": "JW2",
+      "claim": "Most Kashmiri Hindus worship the goddess as their protective deity; kheer is the offering; the spring's colours vary, and black is thought inauspicious.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "JF_KBW",
+          "quote": "The worship of Kheer Bhawani is universal among the Hindu Kashmiris, most of whom worship her as their protective patron deity (Kuladevi)."
+        },
+        {
+          "source": "JF_KBW",
+          "quote": "The term kheer refers to a milk and rice pudding that is offered to propitiate the goddess."
+        },
+        {
+          "source": "JF_KBW",
+          "quote": "A black shade of the spring water is believed to be inauspicious."
+        },
+        {
+          "source": "JF_KBW",
+          "quote": "The holy spring is known to change its colour with various hues of red, pink, orange, green, blue, and white."
+        }
+      ]
+    },
+    "JO1": {
+      "place": "jammu-and-kashmir/pampore",
+      "topic": "JO1",
+      "claim": "Pampore, on the Jhelum's east side on the Jammu–Srinagar highway, about 11 km from Lal Chowk, is the 'Saffron Town of Kashmir'; the area grows 90% of India's saffron, though output has fallen with higher temperatures.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "JF_PAW",
+          "quote": "It is situated on the eastern side of the Jhelum River on the Jammu–Srinagar National Highway."
+        },
+        {
+          "source": "JF_PAW",
+          "quote": "Pampore is about 11 kilometres away from Srinagar city centre Lal Chowk."
+        },
+        {
+          "source": "JF_PAW",
+          "quote": "the broader region around Pampore being responsible for 90% of India's saffron crop, though production as of 2023 has declined due to higher temperatures and erratic rainfall"
+        }
+      ]
+    },
+    "JA3": {
+      "place": "jammu-and-kashmir/amar-mahal-palace",
+      "topic": "JA3",
+      "claim": "The museum shows works by M.F. Husain and G.R. Santosh, royal portraits in the Durbar Hall, and Maharani Tara Devi's private quarters.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "JF_AMA",
+          "quote": "Art enthusiasts can admire works by renowned Indian masters like M.F. Hussain and G.R. Santosh"
+        },
+        {
+          "source": "JF_AMA",
+          "quote": "the royal family portraits in the Durbar Hall"
+        },
+        {
+          "source": "JF_AMA",
+          "quote": "the preserved private quarters of Maharani Tara Devi"
+        }
+      ]
+    },
+    "JD4": {
+      "place": "jammu-and-kashmir/dachigam-national-park",
+      "topic": "JD4",
+      "claim": "Its forests are deodar and pine, with alpine flowers such as Himalayan blue poppies and edelweiss.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "JF_DAC",
+          "quote": "The Dachigam reserve includes beautiful yet common trees like Deodar and Pine, with intervals of vibrant alpine flowers such as Himalayan Blue Poppies and Edelweiss."
+        }
+      ]
+    },
+    "JV3": {
+      "place": "jammu-and-kashmir/avantiswami-temple",
+      "topic": "JV3",
+      "claim": "The town, once called Viswasara, was a capital; the temple is an example of Kashmir's stone-temple architecture of that era.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "JF_AVW",
+          "quote": "Originally known as Viswasara, the ancient town was also a capital city."
+        },
+        {
+          "source": "JF_AVW",
+          "quote": "The Avantiswami Temple is an example of the stone temple architecture of Kashmir during that era."
+        }
+      ]
+    },
+    "JR4": {
+      "place": "jammu-and-kashmir/martand-sun-temple",
+      "topic": "JR4",
+      "claim": "Sikandar Shah Miri ruled 1389–1413.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "JF_MARW",
+          "quote": "Sikandar Shah Miri (1389-1413)"
+        }
+      ]
+    },
+    "JO2": {
+      "place": "jammu-and-kashmir/pampore",
+      "topic": "JO2",
+      "claim": "At the Galander site near Pampore, bones of an extinct elephant were found with stone tools made by archaic humans.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "JF_PAW",
+          "quote": "At the Galander site near Pampore, remains of the large extinct elephant Palaeoloxodon turkmenicus were found associated with stone tools produced by archaic humans"
+        }
+      ]
     }
   },
   "places": [
@@ -1964,49 +2897,39 @@
       ],
       "sections": {
         "overview": {
-          "text": "Hazratbal, Srinagar's white-marble shrine, holds the Moi-e-Muqqadas, believed to be a hair of the Prophet Muhammad.",
+          "text": "Hazratbal stands on the northern bank of Dal Lake and is regarded by many Muslims as the holiest shrine in Kashmir. It holds the Moi-e-Muqqadas, a relic believed to be a hair of the Prophet Muhammad, which is shown to the public on special occasions. The site began in the 17th century as a Mughal pleasure palace, Ishrat Jahan, which was turned into a prayer hall in 1634 on Shah Jahan's orders. The present shrine — white marble under a dome — was built between 1968 and 1979.",
           "facts": [
-            "HAZ1"
+            "JH1",
+            "JH2",
+            "JH3"
           ]
         },
         "highlights": {
           "items": [
             {
-              "body": "Also in Srinagar — Shankaracharya Temple: The Shankaracharya (Jyoteshwar) Temple stands on 1,000 ft Gopadri Hill above Srinagar; tradition links it to Adi Shankaracharya."
+              "body": "The white-marble domed shrine on Dal Lake's northern bank."
             },
             {
-              "body": "Also in Srinagar — Sri Pratap Singh Museum: The Sri Pratap Singh Museum, once a royal summer palace, holds artefacts from Jammu, Kashmir, Baltistan and Gilgit."
+              "body": "The Moi-e-Muqqadas relic, shown on special occasions."
             },
             {
-              "body": "Also in Srinagar — Jamia Masjid, Srinagar: Srinagar's Jamia Masjid covers 13,600 sq m; its roof rests on hundreds of deodar-wood columns."
-            },
-            {
-              "body": "Also in Srinagar — Chashme Shahi: Chashme Shahi, built around a spring in 1632 by Ali Mardan Khan, is the smallest of Srinagar's three Mughal gardens."
+              "body": "The 1634 origin as a Mughal prayer hall."
             }
           ],
           "facts": [
-            "SHA1",
-            "SPS1",
-            "JAM1",
-            "CHS1"
+            "JH1",
+            "JH2",
+            "JH3"
           ]
         },
         "travel_tips": {
           "items": [
             {
-              "body": "Check current advisories first: as of October 2026 the UK government advises against all travel to Jammu and Kashmir."
-            },
-            {
-              "body": "About Srinagar: Srinagar, at about 1,585 m, is the summer capital of Jammu and Kashmir, set around Dal Lake."
-            },
-            {
-              "body": "About Srinagar: The Mughal gardens — Shalimar Bagh, Nishat Bagh and Chashme Shahi — have terraced lawns, fountains and water channels."
+              "body": "Check current advice first: in October 2026 the UK government advised against all travel to Jammu and Kashmir outside Jammu city, citing a terrorist threat to tourists."
             }
           ],
           "facts": [
-            "K_JS4",
-            "K_SX1",
-            "K_SX2"
+            "K_JS4"
           ]
         }
       },
@@ -2036,52 +2959,45 @@
       ],
       "sections": {
         "overview": {
-          "text": "The Shankaracharya (Jyoteshwar) Temple stands on 1,000 ft Gopadri Hill above Srinagar; tradition links it to Adi Shankaracharya.",
+          "text": "The Shankaracharya Temple, also called Jyeshteshwara, is a Shiva temple on top of the Zabarwan range, about 1,000 ft above the valley floor, with a sweeping view over Srinagar and Dal Lake. It is considered the oldest temple in Kashmir, though there is no agreement on when it was built, and it is protected by the Archaeological Survey of India as a Monument of National Importance. Kashmiri Hindus believe the philosopher Adi Shankara visited it, which is how the temple and the hill got their name. A road climbs to it from Boulevard Road near Gagribal, and it fills with Kashmiri Hindus at Herath, the local name for Maha Shivaratri.",
           "facts": [
-            "SHA1"
+            "JS1",
+            "JS2",
+            "JS3"
           ]
         },
         "how_to_reach": {
-          "text": "A road climbs about 5.5 km from Nehru Park.",
+          "text": "A road climbs to the temple from Boulevard Road near Gagribal, about 5.5 km from Nehru Park.",
           "facts": [
+            "JS1",
             "K_SX5"
           ]
         },
         "highlights": {
           "items": [
             {
-              "body": "Also in Srinagar — Hazratbal Shrine: Hazratbal, Srinagar's white-marble shrine, holds the Moi-e-Muqqadas, believed to be a hair of the Prophet Muhammad."
+              "body": "Views over Srinagar and Dal Lake from 1,000 ft above the valley."
             },
             {
-              "body": "Also in Srinagar — Sri Pratap Singh Museum: The Sri Pratap Singh Museum, once a royal summer palace, holds artefacts from Jammu, Kashmir, Baltistan and Gilgit."
+              "body": "Kashmir's oldest temple, an ASI-protected monument."
             },
             {
-              "body": "Also in Srinagar — Jamia Masjid, Srinagar: Srinagar's Jamia Masjid covers 13,600 sq m; its roof rests on hundreds of deodar-wood columns."
-            },
-            {
-              "body": "Also in Srinagar — Chashme Shahi: Chashme Shahi, built around a spring in 1632 by Ali Mardan Khan, is the smallest of Srinagar's three Mughal gardens."
+              "body": "Herath (Maha Shivaratri) celebrations."
             }
           ],
           "facts": [
-            "HAZ1",
-            "SPS1",
-            "JAM1",
-            "CHS1"
+            "JS1",
+            "JS2"
           ]
         },
         "travel_tips": {
           "items": [
             {
-              "body": "About Srinagar: Srinagar, at about 1,585 m, is the summer capital of Jammu and Kashmir, set around Dal Lake."
-            },
-            {
-              "body": "About Srinagar: The Mughal gardens — Shalimar Bagh, Nishat Bagh and Chashme Shahi — have terraced lawns, fountains and water channels."
+              "body": "Check current advice first: in October 2026 the UK government advised against all travel to Jammu and Kashmir outside Jammu city, citing a terrorist threat to tourists."
             }
           ],
           "facts": [
-            "K_JS4",
-            "K_SX1",
-            "K_SX2"
+            "K_JS4"
           ]
         }
       },
@@ -2111,46 +3027,38 @@
       ],
       "sections": {
         "overview": {
-          "text": "The Sri Pratap Singh Museum, once a royal summer palace, holds artefacts from Jammu, Kashmir, Baltistan and Gilgit.",
+          "text": "The Sri Pratap Singh Museum, near Lal Mandi in the heart of Srinagar, is Kashmir's main museum. It occupies what was once a summer home of Kashmir's royal family, and the collection was begun in 1898 under Maharaja Pratap Singh, with the archaeologist John Marshall helping to choose the pieces. It has grown to more than 80,000 objects from Jammu, Kashmir, Ladakh, Baltistan and Gilgit: archaeology, musical instruments, manuscripts, metalware, textiles, enamel, papier-mâché and natural history. Look for the stone sculptures from the ancient sites of Pandrethan, Awantipura and Parihaspora, and the Buddhist antiquities from Ladakh.",
           "facts": [
-            "SPS1"
+            "JP1",
+            "JP2",
+            "SPS1",
+            "JP3"
           ]
         },
         "highlights": {
           "items": [
             {
-              "body": "Also in Srinagar — Hazratbal Shrine: Hazratbal, Srinagar's white-marble shrine, holds the Moi-e-Muqqadas, believed to be a hair of the Prophet Muhammad."
+              "body": "Stone sculptures from Pandrethan, Awantipura and Parihaspora."
             },
             {
-              "body": "Also in Srinagar — Shankaracharya Temple: The Shankaracharya (Jyoteshwar) Temple stands on 1,000 ft Gopadri Hill above Srinagar; tradition links it to Adi Shankaracharya."
+              "body": "Buddhist antiquities from Ladakh."
             },
             {
-              "body": "Also in Srinagar — Jamia Masjid, Srinagar: Srinagar's Jamia Masjid covers 13,600 sq m; its roof rests on hundreds of deodar-wood columns."
-            },
-            {
-              "body": "Also in Srinagar — Chashme Shahi: Chashme Shahi, built around a spring in 1632 by Ali Mardan Khan, is the smallest of Srinagar's three Mughal gardens."
+              "body": "Papier-mâché, textiles and metalware galleries."
             }
           ],
           "facts": [
-            "HAZ1",
-            "SHA1",
-            "JAM1",
-            "CHS1"
+            "JP2"
           ]
         },
         "travel_tips": {
           "items": [
             {
-              "body": "About Srinagar: Srinagar, at about 1,585 m, is the summer capital of Jammu and Kashmir, set around Dal Lake."
-            },
-            {
-              "body": "About Srinagar: The Mughal gardens — Shalimar Bagh, Nishat Bagh and Chashme Shahi — have terraced lawns, fountains and water channels."
+              "body": "Check current advice first: in October 2026 the UK government advised against all travel to Jammu and Kashmir outside Jammu city, citing a terrorist threat to tourists."
             }
           ],
           "facts": [
-            "K_JS4",
-            "K_SX1",
-            "K_SX2"
+            "K_JS4"
           ]
         }
       },
@@ -2179,46 +3087,40 @@
       ],
       "sections": {
         "overview": {
-          "text": "Srinagar's Jamia Masjid covers 13,600 sq m; its roof rests on hundreds of deodar-wood columns.",
+          "text": "The Jamia Masjid is the great Friday mosque of Srinagar, at Nowhatta in the old city. Sultan Sikandar commissioned it in 1394 and it was completed in 1402; it is one of the most important mosques in Kashmir and is headed by the Mirwaiz of Kashmir. The building covers about 13,600 sq m around an inner courtyard of roughly 114 by 113 m, with a water tank and fountain at its centre, and its roof rests on hundreds of deodar-wood columns. The mosque has long been at the centre of Srinagar's religious and political life, and it has been closed for long periods during unrest, so check before you go.",
           "facts": [
-            "JAM1"
+            "JJ1",
+            "JJ2",
+            "JAM1",
+            "JJ3"
           ]
         },
         "highlights": {
           "items": [
             {
-              "body": "Also in Srinagar — Hazratbal Shrine: Hazratbal, Srinagar's white-marble shrine, holds the Moi-e-Muqqadas, believed to be a hair of the Prophet Muhammad."
+              "body": "The deodar-pillared halls."
             },
             {
-              "body": "Also in Srinagar — Shankaracharya Temple: The Shankaracharya (Jyoteshwar) Temple stands on 1,000 ft Gopadri Hill above Srinagar; tradition links it to Adi Shankaracharya."
+              "body": "The great courtyard with its central tank and fountain."
             },
             {
-              "body": "Also in Srinagar — Sri Pratap Singh Museum: The Sri Pratap Singh Museum, once a royal summer palace, holds artefacts from Jammu, Kashmir, Baltistan and Gilgit."
-            },
-            {
-              "body": "Also in Srinagar — Chashme Shahi: Chashme Shahi, built around a spring in 1632 by Ali Mardan Khan, is the smallest of Srinagar's three Mughal gardens."
+              "body": "A Friday mosque at the heart of the old city."
             }
           ],
           "facts": [
-            "HAZ1",
-            "SHA1",
-            "SPS1",
-            "CHS1"
+            "JAM1",
+            "JJ2",
+            "JJ1"
           ]
         },
         "travel_tips": {
           "items": [
             {
-              "body": "About Srinagar: Srinagar, at about 1,585 m, is the summer capital of Jammu and Kashmir, set around Dal Lake."
-            },
-            {
-              "body": "About Srinagar: The Mughal gardens — Shalimar Bagh, Nishat Bagh and Chashme Shahi — have terraced lawns, fountains and water channels."
+              "body": "Check current advice first: in October 2026 the UK government advised against all travel to Jammu and Kashmir outside Jammu city, citing a terrorist threat to tourists."
             }
           ],
           "facts": [
-            "K_JS4",
-            "K_SX1",
-            "K_SX2"
+            "K_JS4"
           ]
         }
       },
@@ -2248,46 +3150,39 @@
       ],
       "sections": {
         "overview": {
-          "text": "Chashme Shahi was built around a spring in 1632 by Ali Mardan Khan. It is the smallest of Srinagar's three Mughal gardens; Shalimar is the largest.",
+          "text": "Chashme Shahi — 'the royal spring' — is the smallest of Srinagar's three Mughal gardens, set in the Zabarwan hills near Raj Bhawan with a view over Dal Lake. Ali Mardan Khan, a governor under Shah Jahan, built it in 1632 around a spring as a gift for the emperor's eldest son, Dara Shikoh. The garden is only about 108 by 38 m, laid out in three terraces: the spring rises at a two-storey Kashmiri hut on the top terrace and flows down a stone water ramp to a pool and fountain, then on to a five-fountain pool at the entrance. Pari Mahal, where Dara Shikoh is said to have studied astrology, lies just to the east.",
           "facts": [
-            "CHS1"
+            "JC1",
+            "JC2",
+            "CHS1",
+            "JC3"
           ]
         },
         "highlights": {
           "items": [
             {
-              "body": "Also in Srinagar — Hazratbal Shrine: Hazratbal, Srinagar's white-marble shrine, holds the Moi-e-Muqqadas, believed to be a hair of the Prophet Muhammad."
+              "body": "The spring and its three terraces of water ramps and fountains."
             },
             {
-              "body": "Also in Srinagar — Shankaracharya Temple: The Shankaracharya (Jyoteshwar) Temple stands on 1,000 ft Gopadri Hill above Srinagar; tradition links it to Adi Shankaracharya."
+              "body": "Views over Dal Lake."
             },
             {
-              "body": "Also in Srinagar — Sri Pratap Singh Museum: The Sri Pratap Singh Museum, once a royal summer palace, holds artefacts from Jammu, Kashmir, Baltistan and Gilgit."
-            },
-            {
-              "body": "Also in Srinagar — Jamia Masjid, Srinagar: Srinagar's Jamia Masjid covers 13,600 sq m; its roof rests on hundreds of deodar-wood columns."
+              "body": "Pari Mahal, just to the east."
             }
           ],
           "facts": [
-            "HAZ1",
-            "SHA1",
-            "SPS1",
-            "JAM1"
+            "JC2",
+            "JC1"
           ]
         },
         "travel_tips": {
           "items": [
             {
-              "body": "About Srinagar: Srinagar, at about 1,585 m, is the summer capital of Jammu and Kashmir, set around Dal Lake."
-            },
-            {
-              "body": "About Srinagar: The Mughal gardens — Shalimar Bagh, Nishat Bagh and Chashme Shahi — have terraced lawns, fountains and water channels."
+              "body": "Check current advice first: in October 2026 the UK government advised against all travel to Jammu and Kashmir outside Jammu city, citing a terrorist threat to tourists."
             }
           ],
           "facts": [
-            "K_JS4",
-            "K_SX1",
-            "K_SX2"
+            "K_JS4"
           ]
         }
       },
@@ -2318,53 +3213,47 @@
       ],
       "sections": {
         "overview": {
-          "text": "The Indira Gandhi Memorial Tulip Garden covers about 30 ha on seven terraces above Dal Lake and is Asia's largest tulip garden.",
+          "text": "The Indira Gandhi Memorial Tulip Garden, formerly Siraj Bagh, is Asia's largest tulip garden: about 30 hectares laid out in seven terraces at the foot of the Zabarwan range, looking over Dal Lake. It opened in 2007 to boost floriculture and tourism, with 1.75 million bulbs brought from Keukenhof in the Netherlands. Today it grows around 70–75 tulip varieties along with 46 other flowers such as hyacinths, daffodils and ranunculus. It is at its best during the government's spring Tulip Festival in March–April; in 2023, 365,000 people visited in a single month, so go early in the day.",
           "facts": [
-            "TUL1"
+            "TUL1",
+            "JT1",
+            "JT2"
           ]
         },
         "best_time": {
-          "text": "March–April, when the tulips bloom and Srinagar holds its Tulip Festival.",
+          "text": "March–April, when the tulips bloom and the Tulip Festival is held; the garden is busiest then.",
           "facts": [
             "TUL1",
-            "K_SX7"
+            "K_SX7",
+            "JT2"
           ]
         },
         "highlights": {
           "items": [
             {
-              "body": "Also in Srinagar — Hazratbal Shrine: Hazratbal, Srinagar's white-marble shrine, holds the Moi-e-Muqqadas, believed to be a hair of the Prophet Muhammad."
+              "body": "Seven terraces of tulips above Dal Lake."
             },
             {
-              "body": "Also in Srinagar — Shankaracharya Temple: The Shankaracharya (Jyoteshwar) Temple stands on 1,000 ft Gopadri Hill above Srinagar; tradition links it to Adi Shankaracharya."
+              "body": "Around 70–75 tulip varieties, plus hyacinths and daffodils."
             },
             {
-              "body": "Also in Srinagar — Sri Pratap Singh Museum: The Sri Pratap Singh Museum, once a royal summer palace, holds artefacts from Jammu, Kashmir, Baltistan and Gilgit."
-            },
-            {
-              "body": "Also in Srinagar — Jamia Masjid, Srinagar: Srinagar's Jamia Masjid covers 13,600 sq m; its roof rests on hundreds of deodar-wood columns."
+              "body": "The spring Tulip Festival."
             }
           ],
           "facts": [
-            "HAZ1",
-            "SHA1",
-            "SPS1",
-            "JAM1"
+            "TUL1",
+            "JT1",
+            "JT2"
           ]
         },
         "travel_tips": {
           "items": [
             {
-              "body": "About Srinagar: Srinagar, at about 1,585 m, is the summer capital of Jammu and Kashmir, set around Dal Lake."
-            },
-            {
-              "body": "About Srinagar: The Mughal gardens — Shalimar Bagh, Nishat Bagh and Chashme Shahi — have terraced lawns, fountains and water channels."
+              "body": "Check current advice first: in October 2026 the UK government advised against all travel to Jammu and Kashmir outside Jammu city, citing a terrorist threat to tourists."
             }
           ],
           "facts": [
-            "K_JS4",
-            "K_SX1",
-            "K_SX2"
+            "K_JS4"
           ]
         }
       },
@@ -2395,46 +3284,41 @@
       ],
       "sections": {
         "overview": {
-          "text": "Hari Parbat hill has a fort of 1808, a Hindu temple, mosques and a gurdwara. Akbar first fortified it in 1590.",
+          "text": "Hari Parbat, also called Koh-i-Maran, is the fortified hill that rises over old Srinagar. Akbar built the first walls in 1590 for a planned new capital, but the fort on top dates from 1808, built under the Durrani governor Atta Mohammed Khan. Closed for almost two decades, it reopened to the public in 2007; you reach it through Kathi Darwaza in Rainawari or Sangin Darwaza in Hawal. The hill is sacred to several faiths: the Sharika temple of the Kashmiri Pandits on its western slope, the Sufi shrine of Makhdoom Sahib on the south side, the Akhund Mullah Shah mosque below the fort, and Gurdwara Chatti Patshahi at Kathi Darwaza.",
           "facts": [
-            "HAR1"
+            "HAR1",
+            "JR1",
+            "JR2"
           ]
         },
         "highlights": {
           "items": [
             {
-              "body": "Also in Srinagar — Hazratbal Shrine: Hazratbal, Srinagar's white-marble shrine, holds the Moi-e-Muqqadas, believed to be a hair of the Prophet Muhammad."
+              "body": "The 1808 Durrani fort and city views."
             },
             {
-              "body": "Also in Srinagar — Shankaracharya Temple: The Shankaracharya (Jyoteshwar) Temple stands on 1,000 ft Gopadri Hill above Srinagar; tradition links it to Adi Shankaracharya."
+              "body": "The Sharika temple on the western slope."
             },
             {
-              "body": "Also in Srinagar — Sri Pratap Singh Museum: The Sri Pratap Singh Museum, once a royal summer palace, holds artefacts from Jammu, Kashmir, Baltistan and Gilgit."
+              "body": "Makhdoom Sahib shrine and the Akhund Mullah Shah mosque."
             },
             {
-              "body": "Also in Srinagar — Jamia Masjid, Srinagar: Srinagar's Jamia Masjid covers 13,600 sq m; its roof rests on hundreds of deodar-wood columns."
+              "body": "Gurdwara Chatti Patshahi at Kathi Darwaza."
             }
           ],
           "facts": [
-            "HAZ1",
-            "SHA1",
-            "SPS1",
-            "JAM1"
+            "JR1",
+            "JR2"
           ]
         },
         "travel_tips": {
           "items": [
             {
-              "body": "About Srinagar: Srinagar, at about 1,585 m, is the summer capital of Jammu and Kashmir, set around Dal Lake."
-            },
-            {
-              "body": "About Srinagar: The Mughal gardens — Shalimar Bagh, Nishat Bagh and Chashme Shahi — have terraced lawns, fountains and water channels."
+              "body": "Check current advice first: in October 2026 the UK government advised against all travel to Jammu and Kashmir outside Jammu city, citing a terrorist threat to tourists."
             }
           ],
           "facts": [
-            "K_JS4",
-            "K_SX1",
-            "K_SX2"
+            "K_JS4"
           ]
         }
       },
@@ -2464,58 +3348,48 @@
       ],
       "sections": {
         "overview": {
-          "text": "Dachigam National Park, 20 km from Srinagar, is a former hunting ground now protected for wildlife; its name means 'ten villages'.",
+          "text": "Dachigam National Park lies about 20 km from Srinagar in the Zabarwan range. Its name means 'ten villages', after the ten villages moved out in 1910 to make a hunting reserve for the Maharaja of Kashmir. Today its roughly 140 sq km of forest and alpine meadow protect the last population of the hangul, the Kashmir stag, along with Asiatic black bears, Himalayan brown bears and leopards. Birdwatchers come for raptors such as the Eurasian eagle-owl and lammergeier and for colourful species like the Himalayan monal and western tragopan. Deodar and pine forests give way higher up to alpine flowers.",
           "facts": [
-            "DAC1"
+            "DAC1",
+            "JD1",
+            "JD2",
+            "JD3",
+            "JD4"
           ]
         },
         "practical_info": {
           "items": [
             {
-              "title": "UK travel advice",
-              "body": "As of October 2026 the UK FCDO advises against all travel to Jammu and Kashmir — including Pahalgam, Gulmarg, Sonamarg, Srinagar and the Jammu–Srinagar highway — except flying to and travelling within Jammu city; it warns of a continuing terrorist threat to civilians including tourists."
-            },
-            {
-              "title": "Airports",
-              "body": "Srinagar's airport is about 12 km from the city at Budgam; Jammu's is about 8 km from the city."
-            },
-            {
-              "title": "Kashmiri food",
-              "body": "Wazwan, served at weddings and festivals such as Eid, is Kashmir's feast; noon chai, a pink salted tea, is the everyday drink."
+              "title": "Distance",
+              "body": "About 20 km from Srinagar.",
+              "status": "verified"
             }
           ],
           "facts": [
-            "K_JS4",
-            "K_JS9",
-            "K_JS16"
+            "DAC1"
           ]
         },
         "things_to_do": {
           "items": [
             {
-              "body": "Elsewhere in Jammu and Kashmir — Martand Sun Temple: The Martand Sun Temple was built in the 8th century by Lalitaditya Muktapida and destroyed by Sikandar Shah Miri."
+              "body": "Look for the hangul, the Kashmir stag, found only here."
             },
             {
-              "body": "Elsewhere in Jammu and Kashmir — Avantipora Temple Ruins: The Avantipora ruins are of two 9th-century temples to Shiva and Vishnu built by King Avantivarman."
+              "body": "Birdwatch for monal, western tragopan and lammergeier."
             },
             {
-              "body": "Elsewhere in Jammu and Kashmir — Kheer Bhawani Temple: Kheer Bhawani in Ganderbal is built over a sacred spring said to change colour; its mela falls on Jyeshtha Ashtami."
-            },
-            {
-              "body": "Elsewhere in Jammu and Kashmir — Pampore: Pampore, about 11 km from Srinagar, is Kashmir's saffron town; Kashmir saffron won a GI tag in 2020."
+              "body": "Walk the deodar and pine forests of the Zabarwan range."
             }
           ],
           "facts": [
-            "MAR1",
-            "AVA1",
-            "KHB1",
-            "PAM1"
+            "JD1",
+            "JD2"
           ]
         },
         "travel_tips": {
           "items": [
             {
-              "body": "Check current advisories first: as of October 2026 the UK government advises against all travel to Jammu and Kashmir."
+              "body": "Check current advice first: in October 2026 the UK government advised against all travel to Jammu and Kashmir outside Jammu city, citing a terrorist threat to tourists."
             }
           ],
           "facts": [
@@ -2548,50 +3422,40 @@
       ],
       "sections": {
         "overview": {
-          "text": "Jammu's Raghunath Temple was begun under Maharaja Gulab Singh in the 19th century and has seven shrines.",
+          "text": "The Raghunath Temple in the heart of old Jammu is the city's best-known temple complex and a landmark of the Dogra dynasty. Maharaja Gulab Singh, the dynasty's founder, planned it as a grand temple to Rama; the foundation was laid in 1835. It has seven shrines with tall spires: the main shrine holds idols of Rama, Sita and Lakshmana, while others honour Shiva, Hanuman and Durga. Inside you'll also find a large Shivalinga and a gallery of the ten avatars of Vishnu. The old Jammu markets around it are good for handicrafts and street food.",
           "facts": [
             "RAG1",
-            "K_JM2"
+            "JG1",
+            "JG2",
+            "JG3"
           ]
         },
         "highlights": {
           "items": [
             {
-              "body": "Also in Jammu — Bahu Fort: Bahu Fort stands on a rocky plateau about 325 m up, with gardens around it; legend credits Raja Bahu Lochan."
+              "body": "Seven spired shrines, with Rama, Sita and Lakshmana in the main one."
             },
             {
-              "body": "Also in Jammu — Amar Mahal Palace: Amar Mahal, a red-sandstone palace, is now a museum with Pahari miniatures, including a 47-piece Nala–Damayanti series."
+              "body": "The gallery of Vishnu's ten avatars."
             },
             {
-              "body": "Also in Jammu — Mubarak Mandi Palace: The Mubarak Mandi palace sits on a cliff in Jammu's old city above the Tawi river."
-            },
-            {
-              "body": "Also in Jammu — Peer Kho Cave Temple: Peer Kho is a cave shrine 20–30 ft deep on the Tawi, linked in legend to Jamvant; records trace it to the 15th century."
+              "body": "Old Jammu's markets nearby."
             }
           ],
           "facts": [
-            "BAH1",
-            "AMA1",
-            "MUB1",
-            "PKH1"
+            "JG1",
+            "JG2",
+            "JG3"
           ]
         },
         "travel_tips": {
           "items": [
             {
-              "body": "Check current advisories first: as of October 2026 the UK government advises against all travel to Jammu and Kashmir."
-            },
-            {
-              "body": "About Jammu: Jammu, the winter capital, spreads either side of the Tawi below the Shivaliks and is called the city of temples."
-            },
-            {
-              "body": "About Jammu: The Raghunath Temple (1853–1860), with seven shikharas, is one of north India's largest temple complexes."
+              "body": "Check current advice first: in October 2026 the UK government advised against all travel to Jammu and Kashmir except flying to and travelling within Jammu city."
             }
           ],
           "facts": [
-            "K_JS4",
-            "K_JM1",
-            "K_JM2"
+            "K_JS4"
           ]
         }
       },
@@ -2621,16 +3485,19 @@
       ],
       "sections": {
         "overview": {
-          "text": "Bahu Fort stands on a rocky plateau about 325 m up, with gardens around it; legend credits Raja Bahu Lochan.",
+          "text": "Bahu Fort crowns a rocky plateau about 325 m up on the edge of Jammu, above the Tawi. Legend says Raja Bahu Lochan, brother of Jammu's founder, laid its first brick, and the fort was rebuilt by later rulers including the Dogra kings. Its sandstone walls carry eight towers, and the gates are wide enough for elephants. At its heart is the Bawe Wali Mata temple, where Kali is worshipped; it is busiest on Tuesdays and Sundays. Around the fort lies the Bagh-e-Bahu garden, with an underground aquarium more than 220 m long that holds some 400 species of fish.",
           "facts": [
-            "BAH1"
+            "BAH1",
+            "JB1",
+            "JB2",
+            "K_JM3"
           ]
         },
         "visit_info": {
           "items": [
             {
               "title": "Busiest days",
-              "body": "The Bave Wali Mata temple inside is busiest on Tuesdays and Sundays.",
+              "body": "The Bawe Wali Mata temple inside is busiest on Tuesdays and Sundays.",
               "status": "verified"
             }
           ],
@@ -2641,38 +3508,28 @@
         "highlights": {
           "items": [
             {
-              "body": "Also in Jammu — Raghunath Temple: Jammu's Raghunath Temple, begun under Maharaja Gulab Singh in the 19th century, has seven shrines."
+              "body": "The Bawe Wali Mata (Kali) temple."
             },
             {
-              "body": "Also in Jammu — Amar Mahal Palace: Amar Mahal, a red-sandstone palace, is now a museum with Pahari miniatures, including a 47-piece Nala–Damayanti series."
+              "body": "Eight towers and the elephant-sized gates."
             },
             {
-              "body": "Also in Jammu — Mubarak Mandi Palace: The Mubarak Mandi palace sits on a cliff in Jammu's old city above the Tawi river."
-            },
-            {
-              "body": "Also in Jammu — Peer Kho Cave Temple: Peer Kho is a cave shrine 20–30 ft deep on the Tawi, linked in legend to Jamvant; records trace it to the 15th century."
+              "body": "Bagh-e-Bahu garden and its underground aquarium."
             }
           ],
           "facts": [
-            "RAG1",
-            "AMA1",
-            "MUB1",
-            "PKH1"
+            "JB1",
+            "JB2"
           ]
         },
         "travel_tips": {
           "items": [
             {
-              "body": "About Jammu: Jammu, the winter capital, spreads either side of the Tawi below the Shivaliks and is called the city of temples."
-            },
-            {
-              "body": "About Jammu: The Raghunath Temple (1853–1860), with seven shikharas, is one of north India's largest temple complexes."
+              "body": "Check current advice first: in October 2026 the UK government advised against all travel to Jammu and Kashmir except flying to and travelling within Jammu city."
             }
           ],
           "facts": [
-            "K_JS4",
-            "K_JM1",
-            "K_JM2"
+            "K_JS4"
           ]
         }
       },
@@ -2702,58 +3559,58 @@
       ],
       "sections": {
         "overview": {
-          "text": "Amar Mahal, a red-sandstone palace, is now a museum with Pahari miniatures, including a 47-piece Nala–Damayanti series.",
+          "text": "Amar Mahal stands on the banks of the Tawi in Jammu: a red-sandstone palace built in the 1890s in the style of a French chateau, and the last official residence of the Dogra kings. It is now a museum. Its showpiece is a golden throne weighing 120 kg, with golden lions at its corners. The galleries hold Pahari miniatures, including a rare 47-piece series on the tale of Nala and Damayanti, works by M.F. Husain and G.R. Santosh, and royal portraits in the Durbar Hall. You can also see Maharani Tara Devi's private rooms and a library of 25,000 rare books.",
           "facts": [
-            "AMA1"
+            "AMA1",
+            "JA1",
+            "JA2",
+            "JA3"
           ]
         },
         "visit_info": {
           "items": [
             {
+              "title": "Hours",
+              "body": "9 am–5 pm in summer, 10 am–5 pm in winter; closed Mondays.",
+              "status": "verified"
+            },
+            {
               "title": "Tickets",
-              "body": "Incredible India lists ₹10 for adults, ₹5 for children and ₹50 for foreign nationals.",
+              "body": "₹10 adults, ₹5 children, ₹50 foreign nationals (Incredible India).",
               "status": "verified"
             }
           ],
           "facts": [
+            "JA2",
             "AMA2"
           ]
         },
         "highlights": {
           "items": [
             {
-              "body": "Also in Jammu — Raghunath Temple: Jammu's Raghunath Temple, begun under Maharaja Gulab Singh in the 19th century, has seven shrines."
+              "body": "The 120 kg golden throne."
             },
             {
-              "body": "Also in Jammu — Bahu Fort: Bahu Fort stands on a rocky plateau about 325 m up, with gardens around it; legend credits Raja Bahu Lochan."
+              "body": "Pahari miniatures, including the Nala–Damayanti series."
             },
             {
-              "body": "Also in Jammu — Mubarak Mandi Palace: The Mubarak Mandi palace sits on a cliff in Jammu's old city above the Tawi river."
-            },
-            {
-              "body": "Also in Jammu — Peer Kho Cave Temple: Peer Kho is a cave shrine 20–30 ft deep on the Tawi, linked in legend to Jamvant; records trace it to the 15th century."
+              "body": "Maharani Tara Devi's rooms and the rare-book library."
             }
           ],
           "facts": [
-            "RAG1",
-            "BAH1",
-            "MUB1",
-            "PKH1"
+            "JA1",
+            "AMA1",
+            "JA2"
           ]
         },
         "travel_tips": {
           "items": [
             {
-              "body": "About Jammu: Jammu, the winter capital, spreads either side of the Tawi below the Shivaliks and is called the city of temples."
-            },
-            {
-              "body": "About Jammu: The Raghunath Temple (1853–1860), with seven shikharas, is one of north India's largest temple complexes."
+              "body": "Check current advice first: in October 2026 the UK government advised against all travel to Jammu and Kashmir except flying to and travelling within Jammu city."
             }
           ],
           "facts": [
-            "K_JS4",
-            "K_JM1",
-            "K_JM2"
+            "K_JS4"
           ]
         }
       },
@@ -2782,46 +3639,39 @@
       ],
       "sections": {
         "overview": {
-          "text": "The Mubarak Mandi palace sits on a cliff in Jammu's old city above the Tawi river.",
+          "text": "The Mubarak Mandi Palace complex sits on a cliff in Jammu's old city, looking across the Tawi to the new city. Raja Dhruv Dev laid its foundation in 1710, and later rulers kept adding to it: Maharaja Ranbir Singh, who reigned from 1856 to 1885, built palaces for himself, his queen and his sons, including the Gole Ghar and the Sheesh Mahal. In 1925 the royal family moved to Hari Niwas, but the complex stayed the seat of government. Its buildings are grouped around courtyards — the Darbar Hall, the Pink Palace, the Gol Ghar, Nawa Mahal and Rani Charak Palace among them — and parts now house offices, courts and a museum.",
           "facts": [
-            "MUB1"
+            "MUB1",
+            "JM1",
+            "JM2"
           ]
         },
         "highlights": {
           "items": [
             {
-              "body": "Also in Jammu — Raghunath Temple: Jammu's Raghunath Temple, begun under Maharaja Gulab Singh in the 19th century, has seven shrines."
+              "body": "The Darbar Hall and Pink Palace."
             },
             {
-              "body": "Also in Jammu — Bahu Fort: Bahu Fort stands on a rocky plateau about 325 m up, with gardens around it; legend credits Raja Bahu Lochan."
+              "body": "Gol Ghar and Sheesh Mahal, added by Maharaja Ranbir Singh."
             },
             {
-              "body": "Also in Jammu — Amar Mahal Palace: Amar Mahal, a red-sandstone palace, is now a museum with Pahari miniatures, including a 47-piece Nala–Damayanti series."
-            },
-            {
-              "body": "Also in Jammu — Peer Kho Cave Temple: Peer Kho is a cave shrine 20–30 ft deep on the Tawi, linked in legend to Jamvant; records trace it to the 15th century."
+              "body": "Views over the Tawi."
             }
           ],
           "facts": [
-            "RAG1",
-            "BAH1",
-            "AMA1",
-            "PKH1"
+            "JM1",
+            "JM2",
+            "MUB1"
           ]
         },
         "travel_tips": {
           "items": [
             {
-              "body": "About Jammu: Jammu, the winter capital, spreads either side of the Tawi below the Shivaliks and is called the city of temples."
-            },
-            {
-              "body": "About Jammu: The Raghunath Temple (1853–1860), with seven shikharas, is one of north India's largest temple complexes."
+              "body": "Check current advice first: in October 2026 the UK government advised against all travel to Jammu and Kashmir except flying to and travelling within Jammu city."
             }
           ],
           "facts": [
-            "K_JS4",
-            "K_JM1",
-            "K_JM2"
+            "K_JS4"
           ]
         }
       },
@@ -2843,46 +3693,34 @@
       "images": [],
       "sections": {
         "overview": {
-          "text": "Peer Kho is a cave shrine 20–30 ft deep on the Tawi, linked in legend to Jamvant; records trace it to the 15th century.",
+          "text": "Peer Kho is a cave shrine on the banks of the Tawi in Jammu, 20–30 ft deep, believed to be where Jamvant, the bear king of the Ramayana, meditated. Records trace it to the 15th century, as a shrine to the saint Siddha Ghareeb Nath. It is open throughout the day, and passages lead deeper to the Amarnath Cave and Nav Durga shrines.",
           "facts": [
-            "PKH1"
+            "PKH1",
+            "JK1"
           ]
         },
         "highlights": {
           "items": [
             {
-              "body": "Also in Jammu — Raghunath Temple: Jammu's Raghunath Temple, begun under Maharaja Gulab Singh in the 19th century, has seven shrines."
+              "body": "The cave shrine of Jamvant."
             },
             {
-              "body": "Also in Jammu — Bahu Fort: Bahu Fort stands on a rocky plateau about 325 m up, with gardens around it; legend credits Raja Bahu Lochan."
-            },
-            {
-              "body": "Also in Jammu — Amar Mahal Palace: Amar Mahal, a red-sandstone palace, is now a museum with Pahari miniatures, including a 47-piece Nala–Damayanti series."
-            },
-            {
-              "body": "Also in Jammu — Mubarak Mandi Palace: The Mubarak Mandi palace sits on a cliff in Jammu's old city above the Tawi river."
+              "body": "Inner passages to the Amarnath Cave and Nav Durga shrines."
             }
           ],
           "facts": [
-            "RAG1",
-            "BAH1",
-            "AMA1",
-            "MUB1"
+            "PKH1",
+            "JK1"
           ]
         },
         "travel_tips": {
           "items": [
             {
-              "body": "About Jammu: Jammu, the winter capital, spreads either side of the Tawi below the Shivaliks and is called the city of temples."
-            },
-            {
-              "body": "About Jammu: The Raghunath Temple (1853–1860), with seven shikharas, is one of north India's largest temple complexes."
+              "body": "Check current advice first: in October 2026 the UK government advised against all travel to Jammu and Kashmir except flying to and travelling within Jammu city."
             }
           ],
           "facts": [
-            "K_JS4",
-            "K_JM1",
-            "K_JM2"
+            "K_JS4"
           ]
         }
       },
@@ -2911,61 +3749,60 @@
       ],
       "sections": {
         "overview": {
-          "text": "The Vaishno Devi cave shrine is at 1,585 m on Trikuta hill, 12 km from Katra and about 61 km from Jammu.",
+          "text": "The Vaishno Devi shrine is a cave temple at 1,585 m on Trikuta hill, 12 km by footpath from Katra and about 61 km from Jammu. The goddess is worshipped in three forms — Mahakali, Mahalakshmi and Mahasaraswati — in the holy cave, and the walk up through the Trikuta hills is part of the pilgrimage. The Shrine Board runs the yatra and every pilgrim must register; Katra, 42 km from Jammu, is the base town. The shrine is busiest during Navaratri and Diwali.",
           "facts": [
-            "VAI1"
+            "VAI1",
+            "JV1",
+            "K_JS14",
+            "K_KT1"
           ]
         },
         "practical_info": {
           "items": [
             {
               "title": "Registration",
-              "body": "The Shrine Board runs the pilgrimage; every pilgrim must register."
+              "body": "The Shrine Board runs the pilgrimage; every pilgrim must register.",
+              "status": "verified"
             },
             {
               "title": "Base",
-              "body": "Katra, 42 km from Jammu, is the base town."
+              "body": "Katra, 42 km from Jammu, is the base town.",
+              "status": "verified"
+            },
+            {
+              "title": "Darshan hours",
+              "body": "5 am–12 noon and 4–9 pm (Incredible India).",
+              "status": "verified"
             }
           ],
           "facts": [
             "K_JS14",
-            "K_KT1"
+            "K_KT1",
+            "JV1"
           ]
         },
         "travel_tips": {
           "items": [
             {
-              "body": "Check current advisories first: as of October 2026 the UK government advises against all travel to Jammu and Kashmir."
-            },
-            {
-              "body": "About Katra: Katra, 42 km from Jammu, is the base town for the Vaishno Devi trek of about 14 km."
+              "body": "Check current advice first: in October 2026 the UK government advised against all travel to Jammu and Kashmir except flying to and travelling within Jammu city."
             }
           ],
           "facts": [
-            "K_JS4",
-            "K_KT1"
+            "K_JS4"
           ]
         },
         "things_to_do": {
           "items": [
             {
-              "body": "Elsewhere in Jammu and Kashmir — Dachigam National Park: Dachigam National Park, 20 km from Srinagar, is a former hunting ground now protected for wildlife; its name means 'ten villages'."
+              "body": "Walk the 12 km path from Katra to the holy cave."
             },
             {
-              "body": "Elsewhere in Jammu and Kashmir — Martand Sun Temple: The Martand Sun Temple was built in the 8th century by Lalitaditya Muktapida and destroyed by Sikandar Shah Miri."
-            },
-            {
-              "body": "Elsewhere in Jammu and Kashmir — Avantipora Temple Ruins: The Avantipora ruins are of two 9th-century temples to Shiva and Vishnu built by King Avantivarman."
-            },
-            {
-              "body": "Elsewhere in Jammu and Kashmir — Kheer Bhawani Temple: Kheer Bhawani in Ganderbal is built over a sacred spring said to change colour; its mela falls on Jyeshtha Ashtami."
+              "body": "Visit during Navaratri for the main festival."
             }
           ],
           "facts": [
-            "DAC1",
-            "MAR1",
-            "AVA1",
-            "KHB1"
+            "VAI1",
+            "JV1"
           ]
         }
       },
@@ -2988,66 +3825,45 @@
       "images": [],
       "sections": {
         "overview": {
-          "text": "Sudh Mahadev near Patnitop is an ancient Shiva shrine at 1,225 m; it is open 7 am–12 noon and 4–7 pm.",
+          "text": "Sudh Mahadev, near Patnitop at 1,225 m, is an ancient Shiva shrine with a black-marble idol of Shiva and a trident and mace said to belong to Bheema. The sacred Pap Nashni Bowli spring is nearby. It is open 7 am–12 noon and 4–7 pm, and a three-day festival with music and food stalls is held in June.",
           "facts": [
-            "SUD1"
+            "SUD1",
+            "JU1"
           ]
         },
         "travel_tips": {
           "items": [
             {
-              "body": "Check current advisories first: as of October 2026 the UK government advises against all travel to Jammu and Kashmir."
-            },
-            {
-              "body": "About Patnitop: Sudh Mahadev near Patnitop is an ancient Shiva shrine at 1,225 m; open 7 am–12 noon and 4–7 pm."
+              "body": "Check current advice first: in October 2026 the UK government advised against all travel to Jammu and Kashmir except flying to and travelling within Jammu city."
             }
           ],
           "facts": [
-            "K_JS4",
-            "SUD1"
+            "K_JS4"
           ]
         },
         "practical_info": {
           "items": [
             {
-              "title": "UK travel advice",
-              "body": "As of October 2026 the UK FCDO advises against all travel to Jammu and Kashmir — including Pahalgam, Gulmarg, Sonamarg, Srinagar and the Jammu–Srinagar highway — except flying to and travelling within Jammu city; it warns of a continuing terrorist threat to civilians including tourists."
-            },
-            {
-              "title": "Airports",
-              "body": "Srinagar's airport is about 12 km from the city at Budgam; Jammu's is about 8 km from the city."
-            },
-            {
-              "title": "Kashmiri food",
-              "body": "Wazwan, served at weddings and festivals such as Eid, is Kashmir's feast; noon chai, a pink salted tea, is the everyday drink."
+              "title": "Hours",
+              "body": "7 am–12 noon and 4–7 pm.",
+              "status": "verified"
             }
           ],
           "facts": [
-            "K_JS4",
-            "K_JS9",
-            "K_JS16"
+            "SUD1"
           ]
         },
         "things_to_do": {
           "items": [
             {
-              "body": "Elsewhere in Jammu and Kashmir — Dachigam National Park: Dachigam National Park, 20 km from Srinagar, is a former hunting ground now protected for wildlife; its name means 'ten villages'."
+              "body": "See the black-marble Shiva idol and Bheema's trident and mace."
             },
             {
-              "body": "Elsewhere in Jammu and Kashmir — Martand Sun Temple: The Martand Sun Temple was built in the 8th century by Lalitaditya Muktapida and destroyed by Sikandar Shah Miri."
-            },
-            {
-              "body": "Elsewhere in Jammu and Kashmir — Avantipora Temple Ruins: The Avantipora ruins are of two 9th-century temples to Shiva and Vishnu built by King Avantivarman."
-            },
-            {
-              "body": "Elsewhere in Jammu and Kashmir — Kheer Bhawani Temple: Kheer Bhawani in Ganderbal is built over a sacred spring said to change colour; its mela falls on Jyeshtha Ashtami."
+              "body": "Visit the Pap Nashni Bowli spring."
             }
           ],
           "facts": [
-            "DAC1",
-            "MAR1",
-            "AVA1",
-            "KHB1"
+            "JU1"
           ]
         }
       },
@@ -3077,20 +3893,26 @@
       ],
       "sections": {
         "overview": {
-          "text": "The Amarnath lingam is a natural ice stalagmite in a 40 m cave at 3,888 m. The pilgrimage season lasts 20–60 days.",
+          "text": "The Amarnath cave, high in the Sind Valley at 3,888 m, holds one of Hinduism's most sacred shrines: a natural ice lingam, a stalagmite formed by dripping water inside a 40 m cave. The lingam grows from May to August as snow melts on the mountain above, and Hindus believe this is where Shiva explained the secret of life and eternity to Parvati. The cave is about 141 km from Srinagar and is reached on foot via Baltal near Sonamarg or via Pahalgam. It opens only for a short summer pilgrimage of 20–60 days, and pilgrims must register in advance.",
           "facts": [
-            "AMR1"
+            "AMR1",
+            "JN1",
+            "AMR2",
+            "K_JS13",
+            "JN2"
           ]
         },
         "practical_info": {
           "items": [
             {
               "title": "Season",
-              "body": "July–August; pilgrims must pre-register months ahead."
+              "body": "July–August; pilgrims must pre-register months ahead.",
+              "status": "seasonal"
             },
             {
               "title": "Routes",
-              "body": "From Baltal (north) or Pahalgam."
+              "body": "From Baltal (north) or Pahalgam.",
+              "status": "verified"
             }
           ],
           "facts": [
@@ -3102,11 +3924,13 @@
           "items": [
             {
               "title": "Advisory",
-              "body": "As of October 2026 the UK government advises against all travel to Jammu and Kashmir."
+              "body": "In October 2026 the UK government advised against all travel to Jammu and Kashmir outside Jammu city.",
+              "status": "verified"
             },
             {
               "title": "Closures",
-              "body": "In April 2026 Chandanwari, on the Pahalgam route, was still closed."
+              "body": "In April 2026 Chandanwari, on the Pahalgam route, was still closed.",
+              "status": "unconfirmed"
             }
           ],
           "facts": [
@@ -3117,37 +3941,25 @@
         "travel_tips": {
           "items": [
             {
-              "body": "About Pahalgam: Pahalgam, at about 2,200 m on the Lidder River, means 'village of shepherds' and is the gateway to the Amarnath cave."
-            },
-            {
-              "body": "About Pahalgam: Trout fishing, rafting and walks along the Lidder, apple and walnut orchards, and Betaab Valley are the draws."
+              "body": "Check current advice first: in October 2026 the UK government advised against all travel to Jammu and Kashmir outside Jammu city, citing a terrorist threat to tourists."
             }
           ],
           "facts": [
-            "K_PH1",
-            "K_PH2"
+            "K_JS4"
           ]
         },
         "things_to_do": {
           "items": [
             {
-              "body": "Elsewhere in Jammu and Kashmir — Dachigam National Park: Dachigam National Park, 20 km from Srinagar, is a former hunting ground now protected for wildlife; its name means 'ten villages'."
+              "body": "Join the summer yatra from Baltal or Pahalgam."
             },
             {
-              "body": "Elsewhere in Jammu and Kashmir — Martand Sun Temple: The Martand Sun Temple was built in the 8th century by Lalitaditya Muktapida and destroyed by Sikandar Shah Miri."
-            },
-            {
-              "body": "Elsewhere in Jammu and Kashmir — Avantipora Temple Ruins: The Avantipora ruins are of two 9th-century temples to Shiva and Vishnu built by King Avantivarman."
-            },
-            {
-              "body": "Elsewhere in Jammu and Kashmir — Kheer Bhawani Temple: Kheer Bhawani in Ganderbal is built over a sacred spring said to change colour; its mela falls on Jyeshtha Ashtami."
+              "body": "See the ice lingam, at its fullest in summer."
             }
           ],
           "facts": [
-            "DAC1",
-            "MAR1",
-            "AVA1",
-            "KHB1"
+            "AMR2",
+            "JN1"
           ]
         }
       },
@@ -3176,58 +3988,47 @@
       ],
       "sections": {
         "overview": {
-          "text": "The Martand Sun Temple was built in the 8th century by Lalitaditya Muktapida and later destroyed by Sikandar Shah Miri.",
+          "text": "The Martand Sun Temple is the grandest ruin in Kashmir. It stands at Mattan, in Anantnag district, on a plateau with a view across the whole Kashmir Valley. Built in the 8th century by King Lalitaditya Muktapida and dedicated to Surya, the sun god — 'Martand' is a Sanskrit name for him — it was destroyed under Sikandar Shah Miri in the late 14th or early 15th century, and earthquakes later added to the damage. Its ruins remain a landmark of Kashmir's early stone-temple architecture; the later and smaller Avantiswami temple at Awantipora follows a similar plan.",
           "facts": [
-            "MAR1"
+            "MAR1",
+            "JR3",
+            "JV2",
+            "JR4"
           ]
         },
         "practical_info": {
           "items": [
             {
-              "title": "UK travel advice",
-              "body": "As of October 2026 the UK FCDO advises against all travel to Jammu and Kashmir — including Pahalgam, Gulmarg, Sonamarg, Srinagar and the Jammu–Srinagar highway — except flying to and travelling within Jammu city; it warns of a continuing terrorist threat to civilians including tourists."
-            },
-            {
-              "title": "Airports",
-              "body": "Srinagar's airport is about 12 km from the city at Budgam; Jammu's is about 8 km from the city."
-            },
-            {
-              "title": "Kashmiri food",
-              "body": "Wazwan, served at weddings and festivals such as Eid, is Kashmir's feast; noon chai, a pink salted tea, is the everyday drink."
+              "title": "Location",
+              "body": "Mattan, Anantnag district.",
+              "status": "verified"
             }
           ],
           "facts": [
-            "K_JS4",
-            "K_JS9",
-            "K_JS16"
+            "JR3"
           ]
         },
         "things_to_do": {
           "items": [
             {
-              "body": "Elsewhere in Jammu and Kashmir — Dachigam National Park: Dachigam National Park, 20 km from Srinagar, is a former hunting ground now protected for wildlife; its name means 'ten villages'."
+              "body": "Walk among the ruins of the 8th-century temple."
             },
             {
-              "body": "Elsewhere in Jammu and Kashmir — Avantipora Temple Ruins: The Avantipora ruins are of two 9th-century temples to Shiva and Vishnu built by King Avantivarman."
+              "body": "Take in the view over the Kashmir Valley from the plateau."
             },
             {
-              "body": "Elsewhere in Jammu and Kashmir — Kheer Bhawani Temple: Kheer Bhawani in Ganderbal is built over a sacred spring said to change colour; its mela falls on Jyeshtha Ashtami."
-            },
-            {
-              "body": "Elsewhere in Jammu and Kashmir — Pampore: Pampore, about 11 km from Srinagar, is Kashmir's saffron town; Kashmir saffron won a GI tag in 2020."
+              "body": "Pair it with the Avantiswami ruins, built on a similar plan."
             }
           ],
           "facts": [
-            "DAC1",
-            "AVA1",
-            "KHB1",
-            "PAM1"
+            "JR3",
+            "JV2"
           ]
         },
         "travel_tips": {
           "items": [
             {
-              "body": "Check current advisories first: as of October 2026 the UK government advises against all travel to Jammu and Kashmir."
+              "body": "Check current advice first: in October 2026 the UK government advised against all travel to Jammu and Kashmir outside Jammu city, citing a terrorist threat to tourists."
             }
           ],
           "facts": [
@@ -3259,58 +4060,47 @@
       ],
       "sections": {
         "overview": {
-          "text": "The Avantipora ruins are of two 9th-century temples to Shiva and Vishnu, built by King Avantivarman.",
+          "text": "The Avantiswami ruins stand at Awantipora on the banks of the Jhelum, about 16 km from Pulwama. King Avantivarman, founder of the Utpala dynasty, built two temples here in 853–855 CE: the Avantiswami, dedicated to Vishnu, and the Avantishwara, dedicated to Shiva. The town, then called Viswasara, was briefly a capital. Locals call the site Pandav Lari, 'the house of the Pandavas'. The Avantiswami is smaller than the Martand Sun Temple but follows a similar plan, and it is an example of Kashmir's stone-temple architecture of that era. The ruins are protected by the Archaeological Survey of India.",
           "facts": [
-            "AVA1"
+            "AVA1",
+            "JV2",
+            "JV3"
           ]
         },
         "practical_info": {
           "items": [
             {
-              "title": "UK travel advice",
-              "body": "As of October 2026 the UK FCDO advises against all travel to Jammu and Kashmir — including Pahalgam, Gulmarg, Sonamarg, Srinagar and the Jammu–Srinagar highway — except flying to and travelling within Jammu city; it warns of a continuing terrorist threat to civilians including tourists."
+              "title": "Location",
+              "body": "Awantipora, about 16 km from Pulwama, on the Jhelum.",
+              "status": "verified"
             },
             {
-              "title": "Airports",
-              "body": "Srinagar's airport is about 12 km from the city at Budgam; Jammu's is about 8 km from the city."
-            },
-            {
-              "title": "Kashmiri food",
-              "body": "Wazwan, served at weddings and festivals such as Eid, is Kashmir's feast; noon chai, a pink salted tea, is the everyday drink."
+              "title": "Protection",
+              "body": "ASI-protected monument.",
+              "status": "verified"
             }
           ],
           "facts": [
-            "K_JS4",
-            "K_JS9",
-            "K_JS16"
+            "JV2"
           ]
         },
         "things_to_do": {
           "items": [
             {
-              "body": "Elsewhere in Jammu and Kashmir — Dachigam National Park: Dachigam National Park, 20 km from Srinagar, is a former hunting ground now protected for wildlife; its name means 'ten villages'."
+              "body": "See the carved stonework of the Vishnu temple."
             },
             {
-              "body": "Elsewhere in Jammu and Kashmir — Martand Sun Temple: The Martand Sun Temple was built in the 8th century by Lalitaditya Muktapida and destroyed by Sikandar Shah Miri."
-            },
-            {
-              "body": "Elsewhere in Jammu and Kashmir — Kheer Bhawani Temple: Kheer Bhawani in Ganderbal is built over a sacred spring said to change colour; its mela falls on Jyeshtha Ashtami."
-            },
-            {
-              "body": "Elsewhere in Jammu and Kashmir — Pampore: Pampore, about 11 km from Srinagar, is Kashmir's saffron town; Kashmir saffron won a GI tag in 2020."
+              "body": "Compare it with the larger Martand Sun Temple."
             }
           ],
           "facts": [
-            "DAC1",
-            "MAR1",
-            "KHB1",
-            "PAM1"
+            "JV2"
           ]
         },
         "travel_tips": {
           "items": [
             {
-              "body": "Check current advisories first: as of October 2026 the UK government advises against all travel to Jammu and Kashmir."
+              "body": "Check current advice first: in October 2026 the UK government advised against all travel to Jammu and Kashmir outside Jammu city, citing a terrorist threat to tourists."
             }
           ],
           "facts": [
@@ -3342,58 +4132,43 @@
       ],
       "sections": {
         "overview": {
-          "text": "Kheer Bhawani in Ganderbal is built over a sacred spring said to change colour. Its mela falls on Jyeshtha Ashtami.",
+          "text": "Kheer Bhawani, also called the Ragnya Devi temple, is at Tulmulla in Ganderbal, 25 km north-east of Srinagar. It is one of the most important shrines for Kashmiri Hindus, most of whom worship the goddess as their protective deity. The temple stands over a heptagonal sacred spring whose water is said to change colour — red, pink, orange, green, blue or white — with black believed to be a bad omen. Kheer, a rice-and-milk pudding, is the traditional offering. The present temple and pond were built under Maharaja Pratap Singh in the 1910s, and the annual mela on Jyeshtha Ashtami is one of the largest Hindu gatherings in Kashmir after the Amarnath yatra.",
           "facts": [
-            "KHB1"
+            "KHB1",
+            "JW1",
+            "JW2"
           ]
         },
         "practical_info": {
           "items": [
             {
-              "title": "UK travel advice",
-              "body": "As of October 2026 the UK FCDO advises against all travel to Jammu and Kashmir — including Pahalgam, Gulmarg, Sonamarg, Srinagar and the Jammu–Srinagar highway — except flying to and travelling within Jammu city; it warns of a continuing terrorist threat to civilians including tourists."
-            },
-            {
-              "title": "Airports",
-              "body": "Srinagar's airport is about 12 km from the city at Budgam; Jammu's is about 8 km from the city."
-            },
-            {
-              "title": "Kashmiri food",
-              "body": "Wazwan, served at weddings and festivals such as Eid, is Kashmir's feast; noon chai, a pink salted tea, is the everyday drink."
+              "title": "Location",
+              "body": "Tulmulla, Ganderbal, 25 km from Srinagar.",
+              "status": "verified"
             }
           ],
           "facts": [
-            "K_JS4",
-            "K_JS9",
-            "K_JS16"
+            "JW1"
           ]
         },
         "things_to_do": {
           "items": [
             {
-              "body": "Elsewhere in Jammu and Kashmir — Dachigam National Park: Dachigam National Park, 20 km from Srinagar, is a former hunting ground now protected for wildlife; its name means 'ten villages'."
+              "body": "See the heptagonal spring at the heart of the temple."
             },
             {
-              "body": "Elsewhere in Jammu and Kashmir — Martand Sun Temple: The Martand Sun Temple was built in the 8th century by Lalitaditya Muktapida and destroyed by Sikandar Shah Miri."
-            },
-            {
-              "body": "Elsewhere in Jammu and Kashmir — Avantipora Temple Ruins: The Avantipora ruins are of two 9th-century temples to Shiva and Vishnu built by King Avantivarman."
-            },
-            {
-              "body": "Elsewhere in Jammu and Kashmir — Pampore: Pampore, about 11 km from Srinagar, is Kashmir's saffron town; Kashmir saffron won a GI tag in 2020."
+              "body": "Visit for the mela on Jyeshtha Ashtami."
             }
           ],
           "facts": [
-            "DAC1",
-            "MAR1",
-            "AVA1",
-            "PAM1"
+            "JW1",
+            "KHB1"
           ]
         },
         "travel_tips": {
           "items": [
             {
-              "body": "Check current advisories first: as of October 2026 the UK government advises against all travel to Jammu and Kashmir."
+              "body": "Check current advice first: in October 2026 the UK government advised against all travel to Jammu and Kashmir outside Jammu city, citing a terrorist threat to tourists."
             }
           ],
           "facts": [
@@ -3426,62 +4201,88 @@
       ],
       "sections": {
         "overview": {
-          "text": "Pampore, about 11 km from Srinagar, is Kashmir's saffron town; Kashmir saffron won a GI tag in 2020.",
+          "text": "Pampore, on the Jammu–Srinagar highway about 11 km from Lal Chowk, is the saffron town of Kashmir. It sits on the eastern side of the Jhelum and was known in ancient times as Padmapura. The fields around it grow about 90% of India's saffron, and Kashmir saffron received a GI tag in 2020, though production has fallen in recent years with higher temperatures and erratic rain. Its history runs deep: at the Galander site nearby, bones of an extinct elephant were found together with stone tools made by archaic humans.",
           "facts": [
-            "PAM1"
+            "PAM1",
+            "JO1",
+            "JO2"
           ]
         },
         "practical_info": {
           "items": [
             {
-              "title": "UK travel advice",
-              "body": "As of October 2026 the UK FCDO advises against all travel to Jammu and Kashmir — including Pahalgam, Gulmarg, Sonamarg, Srinagar and the Jammu–Srinagar highway — except flying to and travelling within Jammu city; it warns of a continuing terrorist threat to civilians including tourists."
-            },
-            {
-              "title": "Airports",
-              "body": "Srinagar's airport is about 12 km from the city at Budgam; Jammu's is about 8 km from the city."
-            },
-            {
-              "title": "Kashmiri food",
-              "body": "Wazwan, served at weddings and festivals such as Eid, is Kashmir's feast; noon chai, a pink salted tea, is the everyday drink."
+              "title": "Location",
+              "body": "On the Jammu–Srinagar highway, about 11 km from Lal Chowk.",
+              "status": "verified"
             }
           ],
           "facts": [
-            "K_JS4",
-            "K_JS9",
-            "K_JS16"
+            "JO1"
           ]
         },
         "things_to_do": {
           "items": [
             {
-              "body": "Elsewhere in Jammu and Kashmir — Dachigam National Park: Dachigam National Park, 20 km from Srinagar, is a former hunting ground now protected for wildlife; its name means 'ten villages'."
-            },
-            {
-              "body": "Elsewhere in Jammu and Kashmir — Martand Sun Temple: The Martand Sun Temple was built in the 8th century by Lalitaditya Muktapida and destroyed by Sikandar Shah Miri."
-            },
-            {
-              "body": "Elsewhere in Jammu and Kashmir — Avantipora Temple Ruins: The Avantipora ruins are of two 9th-century temples to Shiva and Vishnu built by King Avantivarman."
-            },
-            {
-              "body": "Elsewhere in Jammu and Kashmir — Kheer Bhawani Temple: Kheer Bhawani in Ganderbal is built over a sacred spring said to change colour; its mela falls on Jyeshtha Ashtami."
+              "body": "See the saffron fields on the way between Srinagar and the south of the valley."
             }
           ],
           "facts": [
-            "DAC1",
-            "MAR1",
-            "AVA1",
-            "KHB1"
+            "JO1",
+            "PAM1"
           ]
         },
         "travel_tips": {
           "items": [
             {
-              "body": "Check current advisories first: as of October 2026 the UK government advises against all travel to Jammu and Kashmir."
+              "body": "Check current advice first: in October 2026 the UK government advised against all travel to Jammu and Kashmir outside Jammu city, citing a terrorist threat to tourists."
             }
           ],
           "facts": [
             "K_JS4"
+          ]
+        },
+        "key_facts": {
+          "items": [
+            {
+              "title": "Known as",
+              "body": "The saffron town of Kashmir",
+              "status": "verified"
+            },
+            {
+              "title": "From Srinagar",
+              "body": "About 11 km from Lal Chowk",
+              "status": "verified"
+            },
+            {
+              "title": "Saffron",
+              "body": "About 90% of India's crop; Kashmir saffron has a GI tag (2020)",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "JO1",
+            "PAM1"
+          ]
+        },
+        "how_to_reach": {
+          "text": "Pampore is on the Jammu–Srinagar National Highway, on the eastern side of the Jhelum, about 11 km from Lal Chowk in Srinagar.",
+          "facts": [
+            "JO1"
+          ]
+        },
+        "faqs": {
+          "items": [
+            {
+              "title": "Why is Pampore famous?",
+              "body": "For saffron — the area grows about 90% of India's crop."
+            },
+            {
+              "title": "How far is it from Srinagar?",
+              "body": "About 11 km from Lal Chowk, on the Jammu–Srinagar highway."
+            }
+          ],
+          "facts": [
+            "JO1"
           ]
         }
       },
@@ -3973,7 +4774,6 @@
         "K_PH1",
         "K_PH2",
         "PH6",
-        "PAH_CL",
         "PAH_OP",
         "K_JS4",
         "K_JS7",
@@ -3983,7 +4783,7 @@
         "KK1"
       ],
       "plan": {
-        "overview": "Kashmir's older history lies along the road south from Srinagar. Day 1 stops at Pampore, the saffron town (Kashmir saffron has a GI tag), the 9th-century Avantipora temples of King Avantivarman, the 8th-century Martand Sun Temple of Lalitaditya, and Nur Jahan's spring garden at Achabal, ending in Pahalgam. Day 2 explores the open Betaab and Aru valleys before the drive back (about 3 hours). Baisaran, Chandanwari and Tulian Lake are on the District Anantnag closure list until 31 December 2026; Betaab and Aru valleys are open.",
+        "overview": "Kashmir's older history lies along the road south from Srinagar. Day 1 stops at Pampore, the saffron town (Kashmir saffron has a GI tag), the 9th-century Avantipora temples of King Avantivarman, the 8th-century Martand Sun Temple of Lalitaditya, and Nur Jahan's spring garden at Achabal, ending in Pahalgam. Day 2 explores the open Betaab and Aru valleys before the drive back (about 3 hours). Baisaran and Chandanwari were still reported closed in April 2026, so check their status locally; Betaab and Aru valleys are open.",
         "style": "Heritage road trip",
         "start": "Srinagar",
         "end": "Srinagar",
@@ -4032,7 +4832,7 @@
           },
           {
             "q": "Which Pahalgam valleys are open?",
-            "a": "Betaab and Aru reopened in 2025. Baisaran, Chandanwari and Tulian Lake are closed until 31 December 2026."
+            "a": "Betaab and Aru reopened in 2025. Baisaran and Chandanwari were still reported closed in April 2026 — check locally."
           }
         ],
         "days": [
@@ -4921,7 +5721,7 @@
         "sections": [
           {
             "heading": "Advisories",
-            "text": "As of October 2026 the UK FCDO advises against all travel to Jammu and Kashmir; curfews and restrictions can be imposed quickly."
+            "text": "In October 2026 the UK FCDO advised against all travel to Jammu and Kashmir except flying to and travelling within Jammu city; curfews and restrictions can be imposed quickly."
           },
           {
             "heading": "Closures",

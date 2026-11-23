@@ -18,6 +18,11 @@
       "url": "https://traveltriangle.com/uttarakhand-tourism/mussoorie/things-to-do/cable-car-ride/timings",
       "title": "Mussoorie cable car timings — TravelTriangle",
       "authority": "travel_platform"
+    },
+    "W_LAN2": {
+      "url": "https://en.wikipedia.org/wiki/Landour",
+      "title": "Landour — Wikipedia",
+      "authority": "reference"
     }
   },
   "facts": {
@@ -370,6 +375,190 @@
         {
           "source": "TT_GHR",
           "quote": "It takes 5 minutes in a ropeway to reach Gun Hill"
+        }
+      ]
+    },
+    "UKL1": {
+      "place": "uttarakhand/landour",
+      "topic": "UKL1",
+      "claim": "Landour is a small cantonment town next to Mussoorie, about 35 km from Dehradun, and on average about 300 m higher than Mussoorie.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "W_LAN2",
+          "quote": "Landour, a small cantonment town contiguous with Mussoorie, is about 35 km (22 mi) from the city of Dehradun"
+        },
+        {
+          "source": "W_LAN2",
+          "quote": "On average, Landour is about 300 m (984 ft) above Mussoorie"
+        }
+      ]
+    },
+    "UKL2": {
+      "place": "uttarakhand/landour",
+      "topic": "UKL2",
+      "claim": "On a clear day the view of the Garhwal Himalaya stretches up to 200 km, from Bandarpunch and Kedarnath to Chaukhamba and Nanda Devi.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "W_LAN2",
+          "quote": "Landour offers striking views of the Garhwal Himalaya, with a wide vista of up to 200 km (120 mi) visible on a clear day."
+        },
+        {
+          "source": "W_LAN2",
+          "quote": "The visible massifs and peaks include (West to East) Swargarohini, Bandarpunch, Yamunotri, Jaonli, Gangotri, Srikanta, Kedarnath, Satopanth, Chaukhamba (Badrinath) and even Nanda Devi."
+        }
+      ]
+    },
+    "UKL3": {
+      "place": "uttarakhand/landour",
+      "topic": "UKL3",
+      "claim": "From Delhi (290 km) change at Dehradun; buses, taxis and shared taxis run up. Jolly Grant Airport is about a 90-minute drive away.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "W_LAN2",
+          "quote": "If one travels the 290 km (180 mi) to Landour from New Delhi by train or bus, a switch at Dehradun is needed."
+        },
+        {
+          "source": "W_LAN2",
+          "quote": "Buses, taxis, and shared taxis are easily available."
+        },
+        {
+          "source": "W_LAN2",
+          "quote": "There are 40-minute flights from Delhi to Jolly Grant Airport east of Dehradun; to Landour from the airport is a further 90-minute drive."
+        }
+      ]
+    },
+    "UKL4": {
+      "place": "uttarakhand/landour",
+      "topic": "UKL4",
+      "claim": "The monsoon brings near-daily rain from about May to September; December–February is cold, with snow perhaps 3–15 times a winter.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "W_LAN2",
+          "quote": "During the monsoon, Landour receives almost daily rainfall, often heavy."
+        },
+        {
+          "source": "W_LAN2",
+          "quote": "a rainy season that can run from May to September"
+        },
+        {
+          "source": "W_LAN2",
+          "quote": "December to February is particularly cold"
+        },
+        {
+          "source": "W_LAN2",
+          "quote": "It can snow anywhere between 3 and 15 times in the winter, at times heavily."
+        }
+      ]
+    },
+    "UKL5": {
+      "place": "uttarakhand/landour",
+      "topic": "UKL5",
+      "claim": "There are no commercial hotels in the Cantonment and fewer than 10 basic hotels in Landour Bazaar; Mussoorie has over a hundred.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "W_LAN2",
+          "quote": "There are no commercial hotels in Landour Cantonment, and only a handful of rudimentary, quasi-legal guest houses."
+        },
+        {
+          "source": "W_LAN2",
+          "quote": "Landour Bazaar has fewer than 10 basic hotels. Mussoorie proper, however, has over a hundred hotels at various price points."
+        }
+      ]
+    },
+    "UKL6": {
+      "place": "uttarakhand/landour",
+      "topic": "UKL6",
+      "claim": "Landmarks include Lal Tibba, the highest point of Mussoorie-Landour, St. Paul's Church (1840) at Char Dukan and Kellogg Church (1903), home of the Landour Language School.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "W_LAN2",
+          "quote": "atop Lal Tibba hill, at over 7,700 ft. the highest point in all of Mussoorie-Landour"
+        },
+        {
+          "source": "W_LAN2",
+          "quote": "Kellogg Church (built 1903, once American Presbyterian, now non-denominational, and also home to the Landour Language School)"
+        },
+        {
+          "source": "W_LAN2",
+          "quote": "the St. Paul's Church (built 1840, once Anglican, now non-denominational) in Char Dukan"
+        }
+      ]
+    },
+    "UKL7": {
+      "place": "uttarakhand/landour",
+      "topic": "UKL7",
+      "claim": "Over 350 bird species can be seen around Landour through the year; the forests are deodar, oak, pine, fir and rhododendron.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "W_LAN2",
+          "quote": "over 350 species may comfortably be seen at various elevations over the course of the year"
+        },
+        {
+          "source": "W_LAN2",
+          "quote": "carpeted by old-growth forests of deodar cedar, Himalayan oak, chir pine, blue pine, West Himalayan fir, Himalayan maple, rhododendron"
+        }
+      ]
+    },
+    "UKL8": {
+      "place": "uttarakhand/landour",
+      "topic": "UKL8",
+      "claim": "Bakers in Landour still make breads, cookies and cakes from the Landour Community Cookbook.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "W_LAN2",
+          "quote": "A half-dozen bakers in Landour still offer various breads, cookies or biscuits and cakes from 'The Cookbook'."
+        }
+      ]
+    },
+    "UKL9": {
+      "place": "uttarakhand/landour",
+      "topic": "UKL9",
+      "claim": "Author Ruskin Bond lives in Ivy Cottage in Landour.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "W_LAN2",
+          "quote": "its most famous resident being the Anglo-Indian author Ruskin Bond. Bond lives in Ivy Cottage in Landour"
+        }
+      ]
+    },
+    "UKL10": {
+      "place": "uttarakhand/landour",
+      "topic": "UKL10",
+      "claim": "Pari Tibba, Tope Tibba and Pepperpot are local hiking destinations.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "W_LAN2",
+          "quote": "The hill remains a popular hiking spot for the local boarding schools"
+        },
+        {
+          "source": "W_LAN2",
+          "quote": "To the east of Landour are Tope Tibba and the oddly shaped Pepperpot mountain; both are hiking destinations."
+        }
+      ]
+    },
+    "UKL11": {
+      "place": "uttarakhand/landour",
+      "topic": "UKL11",
+      "claim": "April–May is the warmest time, sometimes over 30 °C; Landour runs 2–3 °C cooler than Mussoorie.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "W_LAN2",
+          "quote": "April–May is the warmest period, with the temperatures rising to over 30 °C (86 °F) on hotter days"
+        },
+        {
+          "source": "W_LAN2",
+          "quote": "which can be 2–3 °C (36–37 °F) lower than in Mussoorie"
         }
       ]
     }
@@ -806,6 +995,132 @@
           "facts": [
             "MS11",
             "MS12"
+          ]
+        },
+        "key_facts": {
+          "items": [
+            {
+              "title": "Altitude",
+              "body": "About 300 m above Mussoorie",
+              "status": "verified"
+            },
+            {
+              "title": "From Dehradun",
+              "body": "About 35 km",
+              "status": "verified"
+            },
+            {
+              "title": "From Delhi",
+              "body": "About 290 km, changing at Dehradun",
+              "status": "verified"
+            },
+            {
+              "title": "Highest point",
+              "body": "Lal Tibba, over 7,700 ft",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "UKL1",
+            "UKL3",
+            "UKL6"
+          ]
+        },
+        "best_time": {
+          "text": "The rainy season can run from May to September, with near-daily rain at its height. April–May is the warmest time; December to February is cold, and it can snow 3 to 15 times a winter. Landour is usually 2–3 °C cooler than Mussoorie.",
+          "facts": [
+            "UKL4",
+            "UKL11"
+          ]
+        },
+        "how_to_reach": {
+          "text": "From Delhi, about 290 km away, take a train or bus to Dehradun and change there; buses, taxis and shared taxis run up the hill. Flights from Delhi to Jolly Grant Airport take 40 minutes, then it's about a 90-minute drive.",
+          "facts": [
+            "UKL3",
+            "UKL1"
+          ]
+        },
+        "where_to_stay": {
+          "text": "Landour has very few rooms: no commercial hotels in the Cantonment and fewer than 10 basic hotels in Landour Bazaar. Most visitors stay in Mussoorie, which has over a hundred hotels.",
+          "facts": [
+            "UKL5"
+          ]
+        },
+        "things_to_do": {
+          "items": [
+            {
+              "body": "Walk up to Lal Tibba, the highest point of Mussoorie-Landour, for Himalayan views."
+            },
+            {
+              "body": "Visit St. Paul's Church at Char Dukan and Kellogg Church."
+            },
+            {
+              "body": "Look for some of the 350-plus bird species in the oak and deodar forests."
+            },
+            {
+              "body": "Hike to Pari Tibba, Tope Tibba or Pepperpot."
+            },
+            {
+              "body": "Buy baked goods made from the Landour Community Cookbook."
+            }
+          ],
+          "facts": [
+            "UKL6",
+            "UKL7",
+            "UKL10",
+            "UKL8"
+          ]
+        },
+        "who_its_for": {
+          "items": [
+            {
+              "title": "Walkers",
+              "body": "Quiet forest lanes and views."
+            },
+            {
+              "title": "Birdwatchers",
+              "body": "Over 350 species through the year."
+            },
+            {
+              "title": "Book lovers",
+              "body": "Ruskin Bond's home town."
+            }
+          ],
+          "facts": [
+            "UKL7",
+            "UKL9",
+            "UKL2"
+          ]
+        },
+        "food": {
+          "items": [
+            {
+              "body": "Breads, cookies and cakes from the Landour Community Cookbook, still made by local bakers."
+            }
+          ],
+          "facts": [
+            "UKL8"
+          ]
+        },
+        "faqs": {
+          "items": [
+            {
+              "title": "How far is Landour from Mussoorie?",
+              "body": "It adjoins Mussoorie and sits about 300 m higher."
+            },
+            {
+              "title": "Can I stay in Landour?",
+              "body": "Rooms are few; most visitors stay in Mussoorie."
+            },
+            {
+              "title": "Which peaks can I see?",
+              "body": "On clear days, Bandarpunch, Kedarnath, Chaukhamba and even Nanda Devi."
+            }
+          ],
+          "facts": [
+            "UKL1",
+            "UKL5",
+            "UKL2"
           ]
         }
       }

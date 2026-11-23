@@ -618,6 +618,21 @@
       "url": "https://tehri.nic.in/tourist-place/dhanaulti/",
       "title": "Dhanaulti — District Tehri Garhwal",
       "authority": "government"
+    },
+    "KMVN_NTL_F": {
+      "url": "https://www.kmvn.in/booking/nainital",
+      "title": "KMVN stays, Nainital district — Kumaon Mandal Vikas Nigam (KMVN), Government of Uttarakhand",
+      "authority": "government"
+    },
+    "KMVN_PTH": {
+      "url": "https://www.kmvn.in/booking/pithoragarh",
+      "title": "KMVN stays, Pithoragarh district — Kumaon Mandal Vikas Nigam (KMVN), Government of Uttarakhand",
+      "authority": "government"
+    },
+    "KMVN_ALM": {
+      "url": "https://www.kmvn.in/booking/almora",
+      "title": "KMVN stays, Almora district — Kumaon Mandal Vikas Nigam (KMVN), Government of Uttarakhand",
+      "authority": "government"
     }
   },
   "facts": {
@@ -4651,6 +4666,54 @@
           "quote": "Since Dhanaulti is fairly popular among the locals, cabs and taxis, normal and luxury buses are also available."
         }
       ]
+    },
+    "UKK1": {
+      "place": "uttarakhand/mukteshwar",
+      "topic": "UKK1",
+      "claim": "KMVN runs a Tourist Rest House (TRH) at Mukteshwar.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "KMVN_NTL_F",
+          "quote": "TRH Mukteshwar Mukteshwar, once a British cantonment, is located 52kms from Nainital."
+        }
+      ]
+    },
+    "UKK2": {
+      "place": "uttarakhand/munsiyari",
+      "topic": "UKK2",
+      "claim": "KMVN runs a Tourist Rest House (TRH) at Munsiyari.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "KMVN_PTH",
+          "quote": "TRH Munsyari Munsiyari is situated in Pithoragarh"
+        }
+      ]
+    },
+    "UKK3": {
+      "place": "uttarakhand/almora",
+      "topic": "UKK3",
+      "claim": "KMVN runs Holiday Home Almora, and TRHs at Binsar, Jageshwar and Katarmal nearby.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "KMVN_ALM",
+          "quote": "Holiday Home Almora"
+        },
+        {
+          "source": "KMVN_ALM",
+          "quote": "TRH Binsar (Nanda Devi TRH Binsar)"
+        },
+        {
+          "source": "KMVN_ALM",
+          "quote": "TRH Jageshwar"
+        },
+        {
+          "source": "KMVN_ALM",
+          "quote": "TRH Katarmal"
+        }
+      ]
     }
   },
   "places": [
@@ -6479,6 +6542,33 @@
             "U1S3",
             "U1S1"
           ]
+        },
+        "where_to_stay": {
+          "text": "The state's Kumaon Mandal Vikas Nigam (KMVN) runs a Tourist Rest House at Mukteshwar; book through KMVN.",
+          "facts": [
+            "UKK1"
+          ]
+        },
+        "who_its_for": {
+          "items": [
+            {
+              "title": "Climbers",
+              "body": "Rock climbing and rappelling on the Chauli ki Jali cliffs."
+            },
+            {
+              "title": "View seekers",
+              "body": "A ridge-top village with long Himalayan views."
+            },
+            {
+              "title": "Corbett readers",
+              "body": "Jim Corbett's Muktesar."
+            }
+          ],
+          "facts": [
+            "MK3",
+            "MK1",
+            "MK5"
+          ]
         }
       },
       "parent": "uttarakhand"
@@ -6665,6 +6755,27 @@
             "US10",
             "U1S3",
             "U1S1"
+          ]
+        },
+        "who_its_for": {
+          "items": [
+            {
+              "title": "Golfers",
+              "body": "A 9-hole course at Upat Kalika, one of Asia's highest."
+            },
+            {
+              "title": "Temple visitors",
+              "body": "Jhoola Devi's bells and Binsar Mahadev in deodar forest."
+            },
+            {
+              "title": "Military history buffs",
+              "body": "A cantonment at 1,869 m and home of the Kumaon Regiment."
+            }
+          ],
+          "facts": [
+            "RN2",
+            "RN3",
+            "RN1"
           ]
         }
       },
@@ -6866,6 +6977,12 @@
             "US10",
             "U1S3",
             "U1S1"
+          ]
+        },
+        "where_to_stay": {
+          "text": "The state's Kumaon Mandal Vikas Nigam (KMVN) runs Holiday Home Almora in town, and Tourist Rest Houses at Binsar, Jageshwar and Katarmal nearby.",
+          "facts": [
+            "UKK3"
           ]
         }
       },
@@ -7458,6 +7575,28 @@
             "US10",
             "U1S3",
             "U1S1"
+          ]
+        },
+        "who_its_for": {
+          "items": [
+            {
+              "title": "History lovers",
+              "body": "A 1887 cantonment and the Garhwal Rifles' museum."
+            },
+            {
+              "title": "Walkers",
+              "body": "Tip-in-Top, the Bhim Pakora trek and Bhulla Tal."
+            },
+            {
+              "title": "Snow seekers",
+              "body": "December–March brings snow."
+            }
+          ],
+          "facts": [
+            "LD1",
+            "LD2",
+            "LD3",
+            "LD4"
           ]
         }
       },
@@ -8783,6 +8922,33 @@
             "US10",
             "U1S3",
             "U1S1"
+          ]
+        },
+        "where_to_stay": {
+          "text": "The state's Kumaon Mandal Vikas Nigam (KMVN) runs a Tourist Rest House at Munsiyari (listed as TRH Munsyari); book through KMVN.",
+          "facts": [
+            "UKK2"
+          ]
+        },
+        "who_its_for": {
+          "items": [
+            {
+              "title": "Trekkers",
+              "body": "The starting point for many high Himalayan treks."
+            },
+            {
+              "title": "Mountain lovers",
+              "body": "Views of the Panchachuli peaks."
+            },
+            {
+              "title": "Skiers",
+              "body": "One of Uttarakhand's ski areas."
+            }
+          ],
+          "facts": [
+            "MN1",
+            "MN3",
+            "US21"
           ]
         }
       },

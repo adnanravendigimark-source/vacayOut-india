@@ -1,0 +1,993 @@
+{
+ "cluster": "ld-new-1",
+ "title": "Ladakh — new destinations (2026-11-23)",
+ "researchedAt": "2026-11-23",
+ "selection": "Ladakh destinations from District Leh, Ladakh Tourism and Wikipedia.",
+ "sources": {
+  "LT_HOME": {
+   "url": "https://tourism.ladakh.gov.in/discover-ladakh",
+   "title": "Discover Ladakh — Ladakh Tourism (UT Administration of Ladakh)",
+   "authority": "government"
+  },
+  "LH_HAN": {
+   "url": "https://leh.nic.in/tourist-place/hanle/",
+   "title": "Hanle — District Leh, UT of Ladakh",
+   "authority": "government"
+  },
+  "W_HANV": {
+   "url": "https://en.wikipedia.org/wiki/Hanle_(village)",
+   "title": "Hanle — Wikipedia",
+   "authority": "reference"
+  },
+  "W_IAO": {
+   "url": "https://en.wikipedia.org/wiki/Indian_Astronomical_Observatory",
+   "title": "Indian Astronomical Observatory — Wikipedia",
+   "authority": "reference"
+  },
+  "W_HANM": {
+   "url": "https://en.wikipedia.org/wiki/Hanle_Monastery",
+   "title": "Hanle Monastery — Wikipedia",
+   "authority": "reference"
+  },
+  "W_ZAN": {
+   "url": "https://en.wikipedia.org/wiki/Zanskar",
+   "title": "Zanskar — Wikipedia",
+   "authority": "reference"
+  },
+  "W_PAD": {
+   "url": "https://en.wikipedia.org/wiki/Padum",
+   "title": "Padum — Wikipedia",
+   "authority": "reference"
+  },
+  "W_DRS": {
+   "url": "https://en.wikipedia.org/wiki/Dras",
+   "title": "Dras — Wikipedia",
+   "authority": "reference"
+  },
+  "W_SUR": {
+   "url": "https://en.wikipedia.org/wiki/Suru_Valley",
+   "title": "Suru Valley — Wikipedia",
+   "authority": "reference"
+  },
+  "W_TSK": {
+   "url": "https://en.wikipedia.org/wiki/Tso_Kar",
+   "title": "Tso Kar — Wikipedia",
+   "authority": "reference"
+  }
+ },
+ "facts": {
+  "LHN1": {
+   "place": "ladakh/hanle",
+   "topic": "LHN1",
+   "claim": "Hanle is a remote village about 260 km from Leh at about 4,500 m, known for clear skies and minimal light pollution.",
+   "claimType": "general",
+   "evidence": [
+    {
+     "source": "LH_HAN",
+     "quote": "Hanle is a remote village in Ladakh, 260 km(approx.) away from Leh, situated at an altitude of about 4,500 meters."
+    },
+    {
+     "source": "LH_HAN",
+     "quote": "Known for its clear skies and minimal light pollution, it offers an ideal location for astronomical observations."
+    }
+   ]
+  },
+  "LHN2": {
+   "place": "ladakh/hanle",
+   "topic": "LHN2",
+   "claim": "It is home to the Indian Astronomical Observatory, one of the world's highest; the drive from Leh is about 250 km and ten hours.",
+   "claimType": "general",
+   "evidence": [
+    {
+     "source": "LH_HAN",
+     "quote": "Hanle is home to the Indian Astronomical Observatory, one of the highest observatories in the world."
+    },
+    {
+     "source": "W_IAO",
+     "quote": "Accessing it requires a 250-kilometre-long (160-mile) ten-hour drive from the Leh city."
+    }
+   ]
+  },
+  "LHN3": {
+   "place": "ladakh/hanle",
+   "topic": "LHN3",
+   "claim": "The 17th-century Hanle Monastery of the Drukpa lineage was built under King Sengge Namgyal; it is about 19 km from the frontier with Tibet.",
+   "claimType": "general",
+   "evidence": [
+    {
+     "source": "W_HANM",
+     "quote": "Hanle Monastery is a 17th-century gompa of the Drukpa Lineage of the Kagyu school of Tibetan Buddhism"
+    },
+    {
+     "source": "W_HANM",
+     "quote": "was built under the patronage of the Ladakhi king Sengge Namgyal"
+    },
+    {
+     "source": "W_HANM",
+     "quote": "It is only 19 kilometres (12 mi) from the disputed frontier between India and Chinese-controlled Tibet."
+    }
+   ]
+  },
+  "LHN4": {
+   "place": "ladakh/hanle",
+   "topic": "LHN4",
+   "claim": "The Changthang Wildlife Sanctuary around Hanle shelters kiang (Tibetan wild ass), marmots and rare birds; the night skies draw stargazers and astrophotographers.",
+   "claimType": "general",
+   "evidence": [
+    {
+     "source": "LH_HAN",
+     "quote": "Clear night skies make Hanle a haven for stargazing and astrophotography enthusiasts"
+    },
+    {
+     "source": "LH_HAN",
+     "quote": "Changthang Wildlife Sanctuary, shelters diverse flora and fauna, including the Tibetan Wild Ass (Kiang), marmots, and numerous rare bird species."
+    }
+   ]
+  },
+  "LHN5": {
+   "place": "ladakh/hanle",
+   "topic": "LHN5",
+   "claim": "Ladakh Tourism recommends April–October for clear skies, with new-moon nights best for stargazing.",
+   "claimType": "general",
+   "evidence": [
+    {
+     "source": "LT_HOME",
+     "quote": "April – October (clear skies); new moon nights for best visibility"
+    }
+   ]
+  },
+  "LZN1": {
+   "place": "ladakh/zanskar",
+   "topic": "LZN1",
+   "claim": "Zanskar is a high-altitude semi-desert of about 6,688 sq km at 3,600–4,000 m, between the Great Himalayas and the Zanskar Range; Padum is its headquarters.",
+   "claimType": "general",
+   "evidence": [
+    {
+     "source": "W_ZAN",
+     "quote": "Covering an area of approximately 6,688 km2 (2,582 mi2) at elevations between 3,600 and 4,000 m (11,800 and 13,100 ft), Zanskar is a high-altitude semi-desert lying between the Great Himalayas and the Zanskar Range."
+    },
+    {
+     "source": "W_ZAN",
+     "quote": "with headquarters at Padum"
+    }
+   ]
+  },
+  "LZN2": {
+   "place": "ladakh/zanskar",
+   "topic": "LZN2",
+   "claim": "Karsha, Phugtal and Sani are its important monasteries; Phugtal is a day's trek from Dorzang, the end of the road from Padum.",
+   "claimType": "general",
+   "evidence": [
+    {
+     "source": "W_ZAN",
+     "quote": "The Karsha, Phugtal, and Sani monasteries are important religious centers."
+    },
+    {
+     "source": "W_ZAN",
+     "quote": "It is a day's trek from Dorzang, the end of the road leading from Padum."
+    }
+   ]
+  },
+  "LZN3": {
+   "place": "ladakh/zanskar",
+   "topic": "LZN3",
+   "claim": "NH 301 links Padum to Kargil; in winter the frozen Zanskar river is an alternative route. Leh and Kargil have the nearest airports.",
+   "claimType": "general",
+   "evidence": [
+    {
+     "source": "W_ZAN",
+     "quote": "Roads such as NH 301, which connects Padum to Kargil, have lessened the district's isolation."
+    },
+    {
+     "source": "W_ZAN",
+     "quote": "with a frozen route over the Zanskar River being an alternative during the winter"
+    },
+    {
+     "source": "W_ZAN",
+     "quote": "The nearest airports to Zanskar are Kushok Bakula Rimpochee Airport at Leh and Kargil Airport."
+    }
+   ]
+  },
+  "LZN4": {
+   "place": "ladakh/zanskar",
+   "topic": "LZN4",
+   "claim": "Padum, at about 3,669 m, has several hotels, homestays and restaurants; the Chadar trek passes through it.",
+   "claimType": "general",
+   "evidence": [
+    {
+     "source": "W_PAD",
+     "quote": "It has an average elevation of 3,669 m (12,037 ft)."
+    },
+    {
+     "source": "W_ZAN",
+     "quote": "Padum has several hotels, homestays and restaurants for tourists."
+    },
+    {
+     "source": "W_ZAN",
+     "quote": "Chadar trek passes through Padum."
+    }
+   ]
+  },
+  "LDR1": {
+   "place": "ladakh/drass",
+   "topic": "LDR1",
+   "claim": "Drass, on NH 1 between Zoji La and Kargil, is called the 'Gateway to Ladakh'; it is one of the coldest inhabited places in India, with winter lows around −20 °C from mid-October to mid-May.",
+   "claimType": "general",
+   "evidence": [
+    {
+     "source": "W_DRS",
+     "quote": "It is on the NH 1 between Zoji La pass and Kargil town."
+    },
+    {
+     "source": "W_DRS",
+     "quote": "it is often called \"The Gateway to Ladakh\""
+    },
+    {
+     "source": "W_DRS",
+     "quote": "It is considered one of, if not the coldest inhabited places in India."
+    },
+    {
+     "source": "W_DRS",
+     "quote": "Winters are cold with average lows around −20 °C (−4 °F), and as low as −23 °C at the height of winter, which lasts from mid-October to mid-May."
+    }
+   ]
+  },
+  "LDR2": {
+   "place": "ladakh/drass",
+   "topic": "LDR2",
+   "claim": "Summers run June to early September, with average temperatures near 23 °C.",
+   "claimType": "general",
+   "evidence": [
+    {
+     "source": "W_DRS",
+     "quote": "Summers start in June and go on up till early September, with average temperatures near 23 °C (74 °F) and little precipitation."
+    }
+   ]
+  },
+  "LDR3": {
+   "place": "ladakh/drass",
+   "topic": "LDR3",
+   "claim": "Tololing (4 km) and Tiger Hill (8 km) above Drass were retaken by the Indian Army in July 1999; the Kargil War Memorial is 7 km from Drass.",
+   "claimType": "general",
+   "evidence": [
+    {
+     "source": "W_DRS",
+     "quote": "in particular Tololing, 4 km from Dras, and Tiger Hill, 8 km from Dras"
+    },
+    {
+     "source": "W_DRS",
+     "quote": "The Indian army cleared the Tololing and Tiger Hill peaks by July 1999."
+    },
+    {
+     "source": "W_DRS",
+     "quote": "The Kargil War Memorial is 7 km from Dras."
+    }
+   ]
+  },
+  "LSU1": {
+   "place": "ladakh/suru-valley",
+   "topic": "LSU1",
+   "claim": "The Suru valley is drained by the Suru river, a tributary of the Indus; Sankoo is its main town, and the NH 301 to Padum runs through it to Kargil.",
+   "claimType": "general",
+   "evidence": [
+    {
+     "source": "W_SUR",
+     "quote": "It is drained by the Suru River, a tributary of the Indus River. The valley's most significant town is Sankoo."
+    },
+    {
+     "source": "W_SUR",
+     "quote": "the highway runs further north through Suru Valley to Kargil town"
+    }
+   ]
+  },
+  "LSU2": {
+   "place": "ladakh/suru-valley",
+   "topic": "LSU2",
+   "claim": "The Nun-Kun peaks, over 7,000 m, are visible from several places; around Rangdum the land turns stark, with the 18th-century Rangdum Monastery, and the Pensi La (4,400 m) leads into Zanskar about 25 km beyond.",
+   "claimType": "general",
+   "evidence": [
+    {
+     "source": "W_SUR",
+     "quote": "The spiky white topped mountain peaks of the Nun-Kun massif, topping 7000 m, are visible from several places in the valley."
+    },
+    {
+     "source": "W_SUR",
+     "quote": "support the 18th century Rangdum Monastery belonging to the Gelugpa sect of Tibetan Buddhism"
+    },
+    {
+     "source": "W_SUR",
+     "quote": "About 25 km south of Rangdum Monastery, the 4,400 m (14,436 ft) Pensi La"
+    }
+   ]
+  },
+  "LSU3": {
+   "place": "ladakh/suru-valley",
+   "topic": "LSU3",
+   "claim": "Facilities are few: Ladakh Tourism has basic tourist bungalows in several villages and there is a summer tent camp at Rangdum. Heavy snow and avalanches come in winter.",
+   "claimType": "general",
+   "evidence": [
+    {
+     "source": "W_SUR",
+     "quote": "There are few facilities for visitors but Ladakh UT Tourism does have basic tourist bungalows in several of the villages. and there's a summer tent-camp in Rangdum."
+    },
+    {
+     "source": "W_SUR",
+     "quote": "In winter Suru Valley experiences heavy snowfall and avalanches."
+    }
+   ]
+  },
+  "LSU4": {
+   "place": "ladakh/suru-valley",
+   "topic": "LSU4",
+   "claim": "Ancient Buddhist rock carvings of Maitreya stand near Kartse in the valley.",
+   "claimType": "general",
+   "evidence": [
+    {
+     "source": "W_SUR",
+     "quote": "They commissioned a giant Maitreya rock carving in the vicinity of Kartse"
+    }
+   ]
+  },
+  "LTK1": {
+   "place": "ladakh/tso-kar",
+   "topic": "LTK1",
+   "claim": "Tso Kar is a fluctuating salt lake on the Rupshu plateau, 102 km from Leh, and India's 42nd Ramsar site.",
+   "claimType": "general",
+   "evidence": [
+    {
+     "source": "W_TSK",
+     "quote": "is a fluctuating salt lake known for its size and depth situated in the Rupshu Plateau"
+    },
+    {
+     "source": "W_TSK",
+     "quote": "It is located 102 km from Leh City, the capital of Ladakh."
+    },
+    {
+     "source": "W_TSK",
+     "quote": "It is also recognised as India's 42nd Ramsar site."
+    }
+   ]
+  },
+  "LTK2": {
+   "place": "ladakh/tso-kar",
+   "topic": "LTK2",
+   "claim": "It is one of India's most important breeding areas for the black-necked crane and a stopover on the Central Asian Flyway.",
+   "claimType": "general",
+   "evidence": [
+    {
+     "source": "W_TSK",
+     "quote": "Tso Kar is an important stopover ground for migratory birds along the Central Asian Flyway."
+    },
+    {
+     "source": "W_TSK",
+     "quote": "It is one of the most important breeding areas in India for the black-necked crane"
+    }
+   ]
+  },
+  "LTK3": {
+   "place": "ladakh/tso-kar",
+   "topic": "LTK3",
+   "claim": "The wetland is at more than 4,500 m; a tented camp on the west bank takes tourists.",
+   "claimType": "general",
+   "evidence": [
+    {
+     "source": "W_TSK",
+     "quote": "found at more than 4,500 metres above sea level"
+    },
+    {
+     "source": "W_TSK",
+     "quote": "There is a tented camp on the west bank of the lake which provides accommodation for tourists."
+    }
+   ]
+  },
+  "LTK4": {
+   "place": "ladakh/tso-kar",
+   "topic": "LTK4",
+   "claim": "The name refers to the white salt on its shores; Changpa nomads once exported its salt to Tibet.",
+   "claimType": "general",
+   "evidence": [
+    {
+     "source": "W_TSK",
+     "quote": "The name Tso Kar refers to the white salt efflorescence on the margins of the lake"
+    },
+    {
+     "source": "W_TSK",
+     "quote": "the lake was an important source of salt, which the Changpa nomads used to export to Tibet"
+    }
+   ]
+  }
+ },
+ "places": [
+  {
+   "key": "ladakh/hanle",
+   "kind": "town",
+   "name": "Hanle",
+   "parent": "ladakh",
+   "summary": "Ladakh's dark-sky village at 4,500 m — the Indian Astronomical Observatory, a 17th-century monastery and Changthang wildlife.",
+   "seoTitle": "Hanle, Ladakh: Dark Skies, Observatory and Monastery",
+   "seoDescription": "Hanle, 260 km from Leh at 4,500 m: the Indian Astronomical Observatory, Hanle Monastery, stargazing and Changthang wildlife; best April–October.",
+   "lat": 32.79,
+   "lng": 78.98,
+   "tripTypes": [
+    "nature",
+    "adventure",
+    "mountains"
+   ],
+   "sections": {
+    "overview": {
+     "text": "Hanle is a remote village in the Changthang plateau of eastern Ladakh, about 260 km from Leh at roughly 4,500 m. Its clear, dry air and almost total lack of light pollution make it one of the best places in India to see the night sky, and it is home to the Indian Astronomical Observatory, among the highest in the world. Above the village stands the 17th-century Hanle Monastery of the Drukpa lineage, built under King Sengge Namgyal, only about 19 km from the frontier with Tibet. The surrounding Changthang Wildlife Sanctuary shelters kiang, the Tibetan wild ass, as well as marmots and rare birds.",
+     "facts": [
+      "LHN1",
+      "LHN2",
+      "LHN3",
+      "LHN4"
+     ]
+    },
+    "key_facts": {
+     "items": [
+      {
+       "title": "Altitude",
+       "body": "About 4,500 m",
+       "status": "verified"
+      },
+      {
+       "title": "From Leh",
+       "body": "About 260 km; the drive takes around ten hours",
+       "status": "verified"
+      },
+      {
+       "title": "Known for",
+       "body": "Dark skies and the Indian Astronomical Observatory",
+       "status": "verified"
+      },
+      {
+       "title": "Best time",
+       "body": "April–October; new-moon nights for stars",
+       "status": "seasonal"
+      }
+     ],
+     "facts": [
+      "LHN1",
+      "LHN2",
+      "LHN5"
+     ]
+    },
+    "best_time": {
+     "text": "April to October for clear skies; plan around new-moon nights for the best stargazing.",
+     "facts": [
+      "LHN5"
+     ]
+    },
+    "how_to_reach": {
+     "text": "Hanle is about 260 km from Leh, roughly a ten-hour drive.",
+     "facts": [
+      "LHN1",
+      "LHN2"
+     ]
+    },
+    "things_to_do": {
+     "items": [
+      {
+       "body": "Stargaze and photograph the night sky."
+      },
+      {
+       "body": "See the Indian Astronomical Observatory from outside."
+      },
+      {
+       "body": "Visit the 17th-century Hanle Monastery."
+      },
+      {
+       "body": "Look for kiang and marmots in the Changthang sanctuary."
+      }
+     ],
+     "facts": [
+      "LHN4",
+      "LHN2",
+      "LHN3"
+     ]
+    },
+    "who_its_for": {
+     "items": [
+      {
+       "title": "Stargazers",
+       "body": "Some of India's darkest skies."
+      },
+      {
+       "title": "Wildlife watchers",
+       "body": "Kiang, marmots and rare birds."
+      }
+     ],
+     "facts": [
+      "LHN4"
+     ]
+    },
+    "faqs": {
+     "items": [
+      {
+       "title": "How far is Hanle from Leh?",
+       "body": "About 260 km, around ten hours by road."
+      },
+      {
+       "title": "When is the best time for stargazing?",
+       "body": "April–October, on new-moon nights."
+      }
+     ],
+     "facts": [
+      "LHN1",
+      "LHN2",
+      "LHN5"
+     ]
+    }
+   },
+   "images": [
+    {
+     "commons": "File:Hanle Monastery 05.jpg",
+     "alt": "Hanle Monastery on its rocky hill above the Changthang plain",
+     "caption": "Hanle Monastery",
+     "hero": true
+    }
+   ]
+  },
+  {
+   "key": "ladakh/zanskar",
+   "kind": "region",
+   "name": "Zanskar",
+   "parent": "ladakh",
+   "summary": "Ladakh's most isolated valley — Padum, cliff-side Phugtal and Karsha monasteries, and the winter Chadar route.",
+   "seoTitle": "Zanskar, Ladakh: Padum, Phugtal and Karsha",
+   "seoDescription": "Zanskar: a high Himalayan valley at 3,600–4,000 m with Padum, Karsha and Phugtal monasteries, the NH 301 from Kargil and the winter Chadar route.",
+   "lat": 33.47,
+   "lng": 76.88,
+   "tripTypes": [
+    "mountains",
+    "adventure",
+    "spiritual"
+   ],
+   "sections": {
+    "overview": {
+     "text": "Zanskar is a high-altitude semi-desert of about 6,688 sq km, lying at 3,600–4,000 m between the Great Himalayas and the Zanskar Range. For centuries high passes kept it isolated; the NH 301 road from Kargil has eased that, and in winter the frozen Zanskar river becomes a route of its own — the famous Chadar trek. Padum, at about 3,669 m, is the main town, with hotels, homestays and restaurants. Its people are largely Tibetan Buddhist, and the great monasteries are the reason most visitors come: Karsha near Padum, Sani, and Phugtal, built into a cliff a day's walk from the road head at Dorzang.",
+     "facts": [
+      "LZN1",
+      "LZN3",
+      "LZN4",
+      "LZN2"
+     ]
+    },
+    "key_facts": {
+     "items": [
+      {
+       "title": "Altitude",
+       "body": "3,600–4,000 m; Padum about 3,669 m",
+       "status": "verified"
+      },
+      {
+       "title": "Main town",
+       "body": "Padum",
+       "status": "verified"
+      },
+      {
+       "title": "Road",
+       "body": "NH 301 from Kargil",
+       "status": "verified"
+      },
+      {
+       "title": "Monasteries",
+       "body": "Karsha, Phugtal, Sani",
+       "status": "verified"
+      }
+     ],
+     "facts": [
+      "LZN1",
+      "LZN4",
+      "LZN3",
+      "LZN2"
+     ]
+    },
+    "how_to_reach": {
+     "text": "Drive in on NH 301 from Kargil to Padum. The nearest airports are Leh and Kargil. In winter the frozen Zanskar river — the Chadar route — is the alternative way in.",
+     "facts": [
+      "LZN3"
+     ]
+    },
+    "where_to_stay": {
+     "text": "Padum has several hotels, homestays and restaurants for visitors.",
+     "facts": [
+      "LZN4"
+     ]
+    },
+    "things_to_do": {
+     "items": [
+      {
+       "body": "Visit Karsha monastery near Padum."
+      },
+      {
+       "body": "Trek a day from Dorzang to cliff-side Phugtal monastery."
+      },
+      {
+       "body": "See Sani monastery."
+      },
+      {
+       "body": "Walk the frozen river on the winter Chadar trek."
+      }
+     ],
+     "facts": [
+      "LZN2",
+      "LZN4"
+     ]
+    },
+    "who_its_for": {
+     "items": [
+      {
+       "title": "Trekkers",
+       "body": "Phugtal and the Chadar."
+      },
+      {
+       "title": "Monastery lovers",
+       "body": "Karsha, Phugtal and Sani."
+      }
+     ],
+     "facts": [
+      "LZN2",
+      "LZN4"
+     ]
+    },
+    "faqs": {
+     "items": [
+      {
+       "title": "How do I get to Zanskar?",
+       "body": "By road on NH 301 from Kargil to Padum."
+      },
+      {
+       "title": "Where do I stay?",
+       "body": "Padum has hotels and homestays."
+      }
+     ],
+     "facts": [
+      "LZN3",
+      "LZN4"
+     ]
+    }
+   },
+   "images": [
+    {
+     "commons": "File:Greenery Padum Valley Zanskar Range Jun24 A7CR 00832.jpg",
+     "alt": "Green fields of the Padum valley below snow-capped peaks of the Zanskar range",
+     "caption": "Padum valley, Zanskar",
+     "hero": true
+    }
+   ]
+  },
+  {
+   "key": "ladakh/drass",
+   "kind": "town",
+   "name": "Drass",
+   "parent": "ladakh",
+   "summary": "The 'Gateway to Ladakh' below Zoji La — one of India's coldest towns and the Kargil War memorial.",
+   "seoTitle": "Drass, Ladakh: Gateway Town and Kargil War Memorial",
+   "seoDescription": "Drass on NH 1 between Zoji La and Kargil: one of India's coldest inhabited places, Tololing and Tiger Hill, and the Kargil War Memorial 7 km away.",
+   "lat": 34.43,
+   "lng": 75.76,
+   "tripTypes": [
+    "mountains",
+    "heritage"
+   ],
+   "sections": {
+    "overview": {
+     "text": "Drass sits on NH 1 between the Zoji La pass and Kargil and is known as the 'Gateway to Ladakh'. It is one of the coldest inhabited places in India: winter, from mid-October to mid-May, brings average lows around −20 °C, while summer, from June to early September, averages near 23 °C. The town is closely tied to the 1999 Kargil War. The peaks above it — Tololing, 4 km away, and Tiger Hill, 8 km away — were retaken by the Indian Army in July 1999, and the Kargil War Memorial stands 7 km from town.",
+     "facts": [
+      "LDR1",
+      "LDR2",
+      "LDR3"
+     ]
+    },
+    "key_facts": {
+     "items": [
+      {
+       "title": "Location",
+       "body": "NH 1, between Zoji La and Kargil",
+       "status": "verified"
+      },
+      {
+       "title": "Winter",
+       "body": "Mid-October to mid-May; lows around −20 °C",
+       "status": "seasonal"
+      },
+      {
+       "title": "Summer",
+       "body": "June to early September; around 23 °C",
+       "status": "seasonal"
+      },
+      {
+       "title": "Kargil War Memorial",
+       "body": "7 km away",
+       "status": "verified"
+      }
+     ],
+     "facts": [
+      "LDR1",
+      "LDR2",
+      "LDR3"
+     ]
+    },
+    "best_time": {
+     "text": "June to early September, when it averages near 23 °C. Winter, from mid-October to mid-May, is among the coldest in India.",
+     "facts": [
+      "LDR2",
+      "LDR1"
+     ]
+    },
+    "how_to_reach": {
+     "text": "Drass is on NH 1, the Srinagar–Kargil–Leh highway, between Zoji La and Kargil.",
+     "facts": [
+      "LDR1"
+     ]
+    },
+    "things_to_do": {
+     "items": [
+      {
+       "body": "Visit the Kargil War Memorial, 7 km away."
+      },
+      {
+       "body": "See Tololing and Tiger Hill, scenes of the 1999 war."
+      }
+     ],
+     "facts": [
+      "LDR3"
+     ]
+    },
+    "who_its_for": {
+     "items": [
+      {
+       "title": "History-minded travellers",
+       "body": "The 1999 Kargil War sites."
+      },
+      {
+       "title": "Road-trippers",
+       "body": "The first town after Zoji La."
+      }
+     ],
+     "facts": [
+      "LDR3",
+      "LDR1"
+     ]
+    },
+    "faqs": {
+     "items": [
+      {
+       "title": "How cold does Drass get?",
+       "body": "Winter lows average around −20 °C, as low as −23 °C."
+      },
+      {
+       "title": "How far is the Kargil War Memorial?",
+       "body": "About 7 km from Drass."
+      }
+     ],
+     "facts": [
+      "LDR1",
+      "LDR3"
+     ]
+    }
+   },
+   "images": [
+    {
+     "commons": "File:Dras Ladakh16.jpg",
+     "alt": "Snow-streaked mountains above the Drass valley",
+     "caption": "Drass, Ladakh",
+     "hero": true
+    }
+   ]
+  },
+  {
+   "key": "ladakh/suru-valley",
+   "kind": "region",
+   "name": "Suru Valley",
+   "parent": "ladakh",
+   "summary": "The green valley south of Kargil — Nun-Kun views, Rangdum monastery and the road over Pensi La to Zanskar.",
+   "seoTitle": "Suru Valley, Ladakh: Nun-Kun, Rangdum and Pensi La",
+   "seoDescription": "Suru Valley south of Kargil: Nun-Kun peaks over 7,000 m, the 18th-century Rangdum Monastery, Maitreya rock carvings and the road to Zanskar.",
+   "lat": 34.27,
+   "lng": 75.95,
+   "tripTypes": [
+    "mountains",
+    "nature"
+   ],
+   "sections": {
+    "overview": {
+     "text": "The Suru valley runs south from Kargil along the Suru river, a tributary of the Indus, and carries the NH 301 road towards Padum and Zanskar. Its lower reaches around Sankoo are green with fields and willows; higher up, the white peaks of the Nun-Kun massif, over 7,000 m, come into view. Beyond Parkachik the valley turns stark around Rangdum, home of the 18th-century Rangdum Monastery, and about 25 km further the Pensi La (4,400 m) leads into Zanskar. Near Kartse stands an ancient rock carving of Maitreya. Facilities are basic: Ladakh Tourism bungalows in several villages and a summer tent camp at Rangdum.",
+     "facts": [
+      "LSU1",
+      "LSU2",
+      "LSU4",
+      "LSU3"
+     ]
+    },
+    "key_facts": {
+     "items": [
+      {
+       "title": "Main town",
+       "body": "Sankoo",
+       "status": "verified"
+      },
+      {
+       "title": "Peaks",
+       "body": "Nun-Kun, over 7,000 m",
+       "status": "verified"
+      },
+      {
+       "title": "Pass to Zanskar",
+       "body": "Pensi La, 4,400 m",
+       "status": "verified"
+      },
+      {
+       "title": "Winter",
+       "body": "Heavy snow and avalanches",
+       "status": "seasonal"
+      }
+     ],
+     "facts": [
+      "LSU1",
+      "LSU2",
+      "LSU3"
+     ]
+    },
+    "where_to_stay": {
+     "text": "Ladakh Tourism runs basic tourist bungalows in several villages, and there is a summer tent camp at Rangdum.",
+     "facts": [
+      "LSU3"
+     ]
+    },
+    "how_to_reach": {
+     "text": "The NH 301 runs south from Kargil through the valley towards Padum.",
+     "facts": [
+      "LSU1"
+     ]
+    },
+    "things_to_do": {
+     "items": [
+      {
+       "body": "See the Nun-Kun peaks."
+      },
+      {
+       "body": "Visit Rangdum Monastery."
+      },
+      {
+       "body": "See the Maitreya rock carving near Kartse."
+      },
+      {
+       "body": "Cross the Pensi La into Zanskar."
+      }
+     ],
+     "facts": [
+      "LSU2",
+      "LSU4"
+     ]
+    },
+    "who_its_for": {
+     "items": [
+      {
+       "title": "Road-trippers",
+       "body": "The route from Kargil to Zanskar."
+      },
+      {
+       "title": "Mountain lovers",
+       "body": "Nun-Kun views."
+      }
+     ],
+     "facts": [
+      "LSU1",
+      "LSU2"
+     ]
+    },
+    "faqs": {
+     "items": [
+      {
+       "title": "Where can I stay?",
+       "body": "Basic Ladakh Tourism bungalows and a summer tent camp at Rangdum."
+      },
+      {
+       "title": "How do I get to Zanskar from here?",
+       "body": "Over the Pensi La, about 25 km beyond Rangdum."
+      }
+     ],
+     "facts": [
+      "LSU3",
+      "LSU2"
+     ]
+    }
+   },
+   "images": [
+    {
+     "commons": "File:Fertile Suru valley.jpg",
+     "alt": "The Suru river winding through green fields below snowy peaks",
+     "caption": "Suru Valley",
+     "hero": true
+    }
+   ]
+  },
+  {
+   "key": "ladakh/tso-kar",
+   "kind": "lake",
+   "name": "Tso Kar",
+   "parent": "ladakh",
+   "summary": "A white-rimmed salt lake on the Rupshu plateau — a Ramsar site where black-necked cranes breed.",
+   "seoTitle": "Tso Kar, Ladakh: Salt Lake and Crane Breeding Ground",
+   "seoDescription": "Tso Kar, 102 km from Leh at over 4,500 m: a Ramsar salt lake where black-necked cranes breed, with a tented camp on the west bank.",
+   "lat": 33.3,
+   "lng": 77.98,
+   "tripTypes": [
+    "nature",
+    "wildlife"
+   ],
+   "sections": {
+    "overview": {
+     "text": "Tso Kar is a fluctuating salt lake on the Rupshu plateau, 102 km from Leh and more than 4,500 m up. Its name refers to the white salt crust on its shores, and Changpa nomads once carried its salt to Tibet. Together with the small freshwater Startsapuk Tso it forms a Ramsar wetland — India's 42nd — and it is one of the most important breeding areas in India for the black-necked crane, as well as a stopover for migrating birds on the Central Asian Flyway. A tented camp on the west bank takes visitors.",
+     "facts": [
+      "LTK1",
+      "LTK4",
+      "LTK2",
+      "LTK3"
+     ]
+    },
+    "key_facts": {
+     "items": [
+      {
+       "title": "From Leh",
+       "body": "102 km",
+       "status": "verified"
+      },
+      {
+       "title": "Altitude",
+       "body": "Over 4,500 m",
+       "status": "verified"
+      },
+      {
+       "title": "Status",
+       "body": "Ramsar site",
+       "status": "verified"
+      },
+      {
+       "title": "Birds",
+       "body": "Black-necked crane breeding area",
+       "status": "verified"
+      }
+     ],
+     "facts": [
+      "LTK1",
+      "LTK3",
+      "LTK2"
+     ]
+    },
+    "where_to_stay": {
+     "text": "A tented camp on the west bank of the lake takes visitors.",
+     "facts": [
+      "LTK3"
+     ]
+    },
+    "things_to_do": {
+     "items": [
+      {
+       "body": "Look for breeding black-necked cranes."
+      },
+      {
+       "body": "Walk the salt-crusted shore."
+      }
+     ],
+     "facts": [
+      "LTK2",
+      "LTK4"
+     ]
+    }
+   },
+   "images": [
+    {
+     "commons": "File:India - Ladakh - Trekking - 009 - Salty Tso Kar (3892726140).jpg",
+     "alt": "The blue water and white salt shore of Tso Kar under a cloudy sky",
+     "caption": "Tso Kar",
+     "hero": true
+    }
+   ]
+  }
+ ],
+ "itineraries": [],
+ "guides": []
+}

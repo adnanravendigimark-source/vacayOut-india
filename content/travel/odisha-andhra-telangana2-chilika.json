@@ -1,407 +1,469 @@
 {
- "cluster": "odisha-andhra-telangana2-chilika",
- "title": "Chilika Lake (Batch 7)",
- "researchedAt": "2026-11-18",
- "selection": "Batch 7. Chilika had 4 sections (practical_info and things_to_do state filler). Adds who it's for, best time, etiquette, FAQs and mistakes, with replacement practical_info and things_to_do and a fuller overview as pending suggestions. Fisher-folk counts differ (150,000 in 132 villages vs 200,000 in 130+), so neither is used. No prices.",
- "sources": {
-  "II_CHWS": {
-   "url": "https://www.incredibleindia.gov.in/en/odisha/puri/chilika-wildlife-sanctuary",
-   "title": "Chilika Wildlife Sanctuary — Incredible India",
-   "authority": "government"
-  },
-  "II_SATP": {
-   "url": "https://www.incredibleindia.gov.in/en/odisha/puri/satpada-dolphin-sanctuary",
-   "title": "Satapada Dolphin Sanctuary — Incredible India",
-   "authority": "government"
-  },
-  "II_MANG": {
-   "url": "https://www.incredibleindia.gov.in/en/odisha/bhubaneswar/mangalajodi",
-   "title": "Mangalajodi — Incredible India",
-   "authority": "government"
-  },
-  "W_CHI": {
-   "url": "https://en.wikipedia.org/wiki/Chilika_Lake",
-   "title": "Chilika Lake — Wikipedia",
-   "authority": "reference"
-  },
-  "II_CHI": {
-   "url": "https://www.incredibleindia.gov.in/en/odisha/puri/chilika-wildlife-sanctuary",
-   "title": "Chilika Wildlife Sanctuary — Incredible India (Ministry of Tourism, Government of India)",
-   "authority": "government"
-  },
-  "II_OD": {
-   "url": "https://www.incredibleindia.gov.in/en/odisha",
-   "title": "Odisha — Incredible India (Ministry of Tourism, Government of India)",
-   "authority": "government"
-  }
- },
- "facts": {
-  "BCHI1": {
-   "place": "odisha/chilika-lake",
-   "topic": "Chilika",
-   "claim": "Chilika, a short drive from Puri, is Asia's largest brackish-water lagoon; its sanctuary covers about 1,100 sq km and supports over 150,000 fisher-folk.",
-   "claimType": "general",
-   "evidence": [
-    {
-     "source": "II_CHI",
-     "quote": "As Asia's largest inland salt water lagoon"
+  "cluster": "odisha-andhra-telangana2-chilika",
+  "title": "Chilika Lake (Batch 7)",
+  "researchedAt": "2026-11-18",
+  "selection": "Batch 7. Chilika had 4 sections (practical_info and things_to_do state filler). Adds who it's for, best time, etiquette, FAQs and mistakes, with replacement practical_info and things_to_do and a fuller overview as pending suggestions. Fisher-folk counts differ (150,000 in 132 villages vs 200,000 in 130+), so neither is used. No prices.",
+  "sources": {
+    "II_CHWS": {
+      "url": "https://www.incredibleindia.gov.in/en/odisha/puri/chilika-wildlife-sanctuary",
+      "title": "Chilika Wildlife Sanctuary — Incredible India",
+      "authority": "government"
     },
-    {
-     "source": "II_CHI",
-     "quote": "Spread over an area of approximately 1,100 square kilometers"
+    "II_SATP": {
+      "url": "https://www.incredibleindia.gov.in/en/odisha/puri/satpada-dolphin-sanctuary",
+      "title": "Satapada Dolphin Sanctuary — Incredible India",
+      "authority": "government"
     },
-    {
-     "source": "II_CHI",
-     "quote": "supporting over 150,000 fisher-"
+    "II_MANG": {
+      "url": "https://www.incredibleindia.gov.in/en/odisha/bhubaneswar/mangalajodi",
+      "title": "Mangalajodi — Incredible India",
+      "authority": "government"
+    },
+    "W_CHI": {
+      "url": "https://en.wikipedia.org/wiki/Chilika_Lake",
+      "title": "Chilika Lake — Wikipedia",
+      "authority": "reference"
+    },
+    "II_CHI": {
+      "url": "https://www.incredibleindia.gov.in/en/odisha/puri/chilika-wildlife-sanctuary",
+      "title": "Chilika Wildlife Sanctuary — Incredible India (Ministry of Tourism, Government of India)",
+      "authority": "government"
+    },
+    "II_OD": {
+      "url": "https://www.incredibleindia.gov.in/en/odisha",
+      "title": "Odisha — Incredible India (Ministry of Tourism, Government of India)",
+      "authority": "government"
+    },
+    "OT_SAFE": {
+      "url": "https://odishatourism.gov.in/en/safety-advisories",
+      "title": "Safety advisories — Odisha Tourism (Government of Odisha)",
+      "authority": "government"
+    },
+    "OT_DOS": {
+      "url": "https://odishatourism.gov.in/en/dos-donts",
+      "title": "Do's and don'ts — Odisha Tourism (Government of Odisha)",
+      "authority": "government"
+    },
+    "OT_AROUND": {
+      "url": "https://odishatourism.gov.in/en/getting-around-odisha",
+      "title": "Getting around Odisha — Odisha Tourism (Government of Odisha)",
+      "authority": "government"
+    },
+    "OT_OTDC": {
+      "url": "https://odishatourism.gov.in/en/otdc-panthanivas",
+      "title": "OTDC Panthanivas — Odisha Tourism (Government of Odisha)",
+      "authority": "government"
+    },
+    "OT_BEST": {
+      "url": "https://odishatourism.gov.in/en/best-time-to-visit",
+      "title": "Best time to visit — Odisha Tourism (Government of Odisha)",
+      "authority": "government"
+    },
+    "OT_FAQ": {
+      "url": "https://odishatourism.gov.in/en/faqs",
+      "title": "FAQs — Odisha Tourism (Government of Odisha)",
+      "authority": "government"
+    },
+    "OT_REACH": {
+      "url": "https://odishatourism.gov.in/en/how-to-reach-odisha",
+      "title": "How to reach Odisha — Odisha Tourism (Government of Odisha)",
+      "authority": "government"
+    },
+    "OT_MAN": {
+      "url": "https://odishatourism.gov.in/en/places/mangalajodi",
+      "title": "Mangalajodi — Odisha Tourism (Government of Odisha)",
+      "authority": "government"
     }
-   ]
   },
-  "BCHI2": {
-   "place": "odisha/chilika-lake",
-   "topic": "Wildlife",
-   "claim": "Chilika is a winter home for flamingos and pelicans and a habitat of the endangered Irrawaddy dolphin.",
-   "claimType": "general",
-   "evidence": [
-    {
-     "source": "II_OD",
-     "quote": "This wetland is a sanctuary for migratory birds, including flamingos and pelicans."
+  "facts": {
+    "BCHI1": {
+      "place": "odisha/chilika-lake",
+      "topic": "Chilika",
+      "claim": "Chilika, a short drive from Puri, is Asia's largest brackish-water lagoon; its sanctuary covers about 1,100 sq km and supports over 150,000 fisher-folk.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_CHI",
+          "quote": "As Asia's largest inland salt water lagoon"
+        },
+        {
+          "source": "II_CHI",
+          "quote": "Spread over an area of approximately 1,100 square kilometers"
+        },
+        {
+          "source": "II_CHI",
+          "quote": "supporting over 150,000 fisher-"
+        }
+      ]
     },
-    {
-     "source": "II_OD",
-     "quote": "It also holds cultural significance as a habitat for the endangered Irrawaddy dolphins."
+    "BCHI2": {
+      "place": "odisha/chilika-lake",
+      "topic": "Wildlife",
+      "claim": "Chilika is a winter home for flamingos and pelicans and a habitat of the endangered Irrawaddy dolphin.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_OD",
+          "quote": "This wetland is a sanctuary for migratory birds, including flamingos and pelicans."
+        },
+        {
+          "source": "II_OD",
+          "quote": "It also holds cultural significance as a habitat for the endangered Irrawaddy dolphins."
+        }
+      ]
+    },
+    "BCHI3": {
+      "place": "odisha/chilika-lake",
+      "topic": "Hours",
+      "claim": "The sanctuary is open 6 am to 7 pm.",
+      "claimType": "opening_hours",
+      "evidence": [
+        {
+          "source": "II_CHI",
+          "quote": "Opening time - 06:00 AM"
+        },
+        {
+          "source": "II_CHI",
+          "quote": "Closing time - 07:00 PM"
+        }
+      ]
+    },
+    "CL1": {
+      "place": "odisha/chilika-lake",
+      "topic": "Ramsar",
+      "claim": "Chilika was India's first Ramsar wetland; a 60-km strip of marshy islands and sand flats separates it from the Bay of Bengal.",
+      "claimType": "general",
+      "kind": "verified",
+      "evidence": [
+        {
+          "source": "II_CHWS",
+          "quote": "has rightfully earned its place as India's first Ramsar site of international importance"
+        },
+        {
+          "source": "II_CHWS",
+          "quote": "Separated from the Bay of Bengal by a 60 km stretch of marshy islands and sand-flats"
+        }
+      ]
+    },
+    "CL2": {
+      "place": "odisha/chilika-lake",
+      "topic": "Islands",
+      "claim": "Islands include Honeymoon and Breakfast islands and Kalijai, with its temple to Goddess Kalijai.",
+      "claimType": "general",
+      "kind": "verified",
+      "evidence": [
+        {
+          "source": "II_CHWS",
+          "quote": "including the aptly named Honeymoon Island and Breakfast Island"
+        },
+        {
+          "source": "II_CHWS",
+          "quote": "Visit the Kalijai Temple dedicated to Goddess Kalijai"
+        }
+      ]
+    },
+    "CL3": {
+      "place": "odisha/chilika-lake",
+      "topic": "Birds",
+      "claim": "Over a million migratory waterfowl and shorebirds winter at Chilika, including flamingos, pelicans, herons and storks.",
+      "claimType": "general",
+      "kind": "seasonal",
+      "evidence": [
+        {
+          "source": "W_CHI",
+          "quote": "Over a million migratory waterfowl and shorebirds winter here."
+        },
+        {
+          "source": "II_CHWS",
+          "quote": "Some of the notable bird species found in Chilika include flamingos, pelicans, herons, egrets, storks and kingfishers"
+        }
+      ]
+    },
+    "CL4": {
+      "place": "odisha/chilika-lake",
+      "topic": "Satapada",
+      "claim": "Satapada, 50 km from Puri, is where boats go out to see Irrawaddy dolphins; boatmen cut their motors near them, and canoeing and kayaking are offered.",
+      "claimType": "distance",
+      "kind": "verified",
+      "evidence": [
+        {
+          "source": "II_SATP",
+          "quote": "a natural sanctuary awaits just 50 kilometres from the sacred city of Puri"
+        },
+        {
+          "source": "II_SATP",
+          "quote": "As the motors are hushed and a reverent silence falls over the boats"
+        },
+        {
+          "source": "II_SATP",
+          "quote": "You can embark on a canoeing or kayaking expedition"
+        }
+      ]
+    },
+    "CL5": {
+      "place": "odisha/chilika-lake",
+      "topic": "Mangalajodi",
+      "claim": "Mangalajodi, 75 km from Bhubaneswar, is a community-run birding wetland, best November–February, with guided boat tours and a nature camp.",
+      "claimType": "distance",
+      "kind": "seasonal",
+      "evidence": [
+        {
+          "source": "II_MANG",
+          "quote": "Mangalajodi is just 75 km from Bhubaneswar"
+        },
+        {
+          "source": "II_MANG",
+          "quote": "During the winter months from November to February, the wetlands come alive with the sights and sounds of migratory birds"
+        },
+        {
+          "source": "II_MANG",
+          "quote": "Visitors can embark on guided boat tours"
+        },
+        {
+          "source": "II_MANG",
+          "quote": "The Mangalajodi Nature Camp provides comfortable accommodations"
+        }
+      ]
+    },
+    "CL6": {
+      "place": "odisha/chilika-lake",
+      "topic": "Recovery",
+      "claim": "Chilika was placed on the Montreux Record of threatened wetlands in 1993 and removed in 2002 after it recovered.",
+      "claimType": "general",
+      "kind": "verified",
+      "evidence": [
+        {
+          "source": "W_CHI",
+          "quote": "By 1993, the problems in Chilika were severe that the lake was put under \"The Montreux Record\""
+        },
+        {
+          "source": "W_CHI",
+          "quote": "In 2002, Chilika was taken out of the Montreux Record, in light of the improved conditions of the lake."
+        }
+      ]
+    },
+    "CL7": {
+      "place": "odisha/chilika-lake",
+      "topic": "Boat fares",
+      "claim": "Fares at Satapada vary with time, boat size and capacity.",
+      "claimType": "general",
+      "kind": "verified",
+      "evidence": [
+        {
+          "source": "II_SATP",
+          "quote": "The fare and rates of the boat rides vary according to the time, size, and capacity."
+        }
+      ]
+    },
+    "OZC1": {
+      "place": "odisha/chilika-lake",
+      "topic": "OZC1",
+      "claim": "OTDC runs lake-view Panthanivas at Barkul and Rambha on Chilika, both with boating.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "OT_OTDC",
+          "quote": "Panthanivas Barkul Chilika Lake, Barkul, Khordha Room Types Deluxe | Cottage Lake View | Boating"
+        },
+        {
+          "source": "OT_OTDC",
+          "quote": "Panthanivas Rambha Chilika Lake, Rambha, Ganjam Room Types Deluxe | Cottage Lake View | Restaurant | Boating"
+        }
+      ]
     }
-   ]
   },
-  "BCHI3": {
-   "place": "odisha/chilika-lake",
-   "topic": "Hours",
-   "claim": "The sanctuary is open 6 am to 7 pm.",
-   "claimType": "opening_hours",
-   "evidence": [
+  "places": [
     {
-     "source": "II_CHI",
-     "quote": "Opening time - 06:00 AM"
-    },
-    {
-     "source": "II_CHI",
-     "quote": "Closing time - 07:00 PM"
-    }
-   ]
-  },
-  "CL1": {
-   "place": "odisha/chilika-lake",
-   "topic": "Ramsar",
-   "claim": "Chilika was India's first Ramsar wetland; a 60-km strip of marshy islands and sand flats separates it from the Bay of Bengal.",
-   "claimType": "general",
-   "kind": "verified",
-   "evidence": [
-    {
-     "source": "II_CHWS",
-     "quote": "has rightfully earned its place as India's first Ramsar site of international importance"
-    },
-    {
-     "source": "II_CHWS",
-     "quote": "Separated from the Bay of Bengal by a 60 km stretch of marshy islands and sand-flats"
-    }
-   ]
-  },
-  "CL2": {
-   "place": "odisha/chilika-lake",
-   "topic": "Islands",
-   "claim": "Islands include Honeymoon and Breakfast islands and Kalijai, with its temple to Goddess Kalijai.",
-   "claimType": "general",
-   "kind": "verified",
-   "evidence": [
-    {
-     "source": "II_CHWS",
-     "quote": "including the aptly named Honeymoon Island and Breakfast Island"
-    },
-    {
-     "source": "II_CHWS",
-     "quote": "Visit the Kalijai Temple dedicated to Goddess Kalijai"
-    }
-   ]
-  },
-  "CL3": {
-   "place": "odisha/chilika-lake",
-   "topic": "Birds",
-   "claim": "Over a million migratory waterfowl and shorebirds winter at Chilika, including flamingos, pelicans, herons and storks.",
-   "claimType": "general",
-   "kind": "seasonal",
-   "evidence": [
-    {
-     "source": "W_CHI",
-     "quote": "Over a million migratory waterfowl and shorebirds winter here."
-    },
-    {
-     "source": "II_CHWS",
-     "quote": "Some of the notable bird species found in Chilika include flamingos, pelicans, herons, egrets, storks and kingfishers"
-    }
-   ]
-  },
-  "CL4": {
-   "place": "odisha/chilika-lake",
-   "topic": "Satapada",
-   "claim": "Satapada, 50 km from Puri, is where boats go out to see Irrawaddy dolphins; boatmen cut their motors near them, and canoeing and kayaking are offered.",
-   "claimType": "distance",
-   "kind": "verified",
-   "evidence": [
-    {
-     "source": "II_SATP",
-     "quote": "a natural sanctuary awaits just 50 kilometres from the sacred city of Puri"
-    },
-    {
-     "source": "II_SATP",
-     "quote": "As the motors are hushed and a reverent silence falls over the boats"
-    },
-    {
-     "source": "II_SATP",
-     "quote": "You can embark on a canoeing or kayaking expedition"
-    }
-   ]
-  },
-  "CL5": {
-   "place": "odisha/chilika-lake",
-   "topic": "Mangalajodi",
-   "claim": "Mangalajodi, 75 km from Bhubaneswar, is a community-run birding wetland, best November–February, with guided boat tours and a nature camp.",
-   "claimType": "distance",
-   "kind": "seasonal",
-   "evidence": [
-    {
-     "source": "II_MANG",
-     "quote": "Mangalajodi is just 75 km from Bhubaneswar"
-    },
-    {
-     "source": "II_MANG",
-     "quote": "During the winter months from November to February, the wetlands come alive with the sights and sounds of migratory birds"
-    },
-    {
-     "source": "II_MANG",
-     "quote": "Visitors can embark on guided boat tours"
-    },
-    {
-     "source": "II_MANG",
-     "quote": "The Mangalajodi Nature Camp provides comfortable accommodations"
-    }
-   ]
-  },
-  "CL6": {
-   "place": "odisha/chilika-lake",
-   "topic": "Recovery",
-   "claim": "Chilika was placed on the Montreux Record of threatened wetlands in 1993 and removed in 2002 after it recovered.",
-   "claimType": "general",
-   "kind": "verified",
-   "evidence": [
-    {
-     "source": "W_CHI",
-     "quote": "By 1993, the problems in Chilika were severe that the lake was put under \"The Montreux Record\""
-    },
-    {
-     "source": "W_CHI",
-     "quote": "In 2002, Chilika was taken out of the Montreux Record, in light of the improved conditions of the lake."
-    }
-   ]
-  },
-  "CL7": {
-   "place": "odisha/chilika-lake",
-   "topic": "Boat fares",
-   "claim": "Fares at Satapada vary with time, boat size and capacity.",
-   "claimType": "general",
-   "kind": "verified",
-   "evidence": [
-    {
-     "source": "II_SATP",
-     "quote": "The fare and rates of the boat rides vary according to the time, size, and capacity."
-    }
-   ]
-  }
- },
- "places": [
-  {
-   "key": "odisha/chilika-lake",
-   "kind": "lake",
-   "name": "Chilika Lake",
-   "summary": "Asia's largest brackish-water lagoon, home to Irrawaddy dolphins and winter flamingos.",
-   "seoTitle": "Chilika Lake: Dolphins, Birds & Boat Trips",
-   "seoDescription": "Chilika Lake near Puri: Asia's largest brackish-water lagoon, 1,100 sq km, Irrawaddy dolphins, flamingos and pelicans; sanctuary hours.",
-   "lat": 19.71666667,
-   "lng": 85.31666667,
-   "tripTypes": [
-    "nature",
-    "wildlife",
-    "family"
-   ],
-   "images": [
-    {
-     "commons": "File:Birds_eyeview_of_Chilika_Lake.jpg",
-     "alt": "A bird's-eye view of Chilika Lake",
-     "caption": "Chilika Lake",
-     "hero": true
-    }
-   ],
-   "wikidataId": "Q2047322",
-   "relations": [
-    {
-     "to": "odisha/puri",
-     "type": "nearby"
-    }
-   ],
-   "sections": {
-    "overview": {
-     "text": "Chilika, a short drive from Puri, is Asia's largest brackish-water lagoon and was India's first Ramsar wetland, cut off from the Bay of Bengal by a 60-km strip of marshy islands and sand flats. Placed on the Montreux Record of threatened wetlands in 1993, it recovered and came off the list in 2002. Its sanctuary covers about 1,100 sq km, and in winter more than a million migratory birds — flamingos, pelicans, herons and storks — arrive; the lake is also home to the endangered Irrawaddy dolphin.\n\nThe main bases are Satapada, 50 km from Puri, for dolphin trips, and Mangalajodi, 75 km from Bhubaneswar, a community-run wetland for birdwatching by boat. Boats also visit Kalijai island's temple and Honeymoon and Breakfast islands. The sanctuary is open 6 am to 7 pm; come November to February for the birds.",
-     "facts": [
-      "BCHI1",
-      "CL1",
-      "CL6",
-      "CL3",
-      "BCHI2",
-      "CL4",
-      "CL5",
-      "CL2",
-      "BCHI3"
-     ]
-    },
-    "who_its_for": {
-     "items": [
-      {
-       "title": "Birdwatchers",
-       "body": "Flamingos, pelicans and a million winter migrants."
-      },
-      {
-       "title": "Wildlife lovers",
-       "body": "Irrawaddy dolphins from Satapada."
-      },
-      {
-       "title": "Families",
-       "body": "Kalijai temple and the islands by boat."
+      "key": "odisha/chilika-lake",
+      "kind": "lake",
+      "name": "Chilika Lake",
+      "summary": "Asia's largest brackish-water lagoon, home to Irrawaddy dolphins and winter flamingos.",
+      "seoTitle": "Chilika Lake: Dolphins, Birds & Boat Trips",
+      "seoDescription": "Chilika Lake near Puri: Asia's largest brackish-water lagoon, 1,100 sq km, Irrawaddy dolphins, flamingos and pelicans; sanctuary hours.",
+      "lat": 19.71666667,
+      "lng": 85.31666667,
+      "tripTypes": [
+        "nature",
+        "wildlife",
+        "family"
+      ],
+      "images": [
+        {
+          "commons": "File:Birds_eyeview_of_Chilika_Lake.jpg",
+          "alt": "A bird's-eye view of Chilika Lake",
+          "caption": "Chilika Lake",
+          "hero": true
+        }
+      ],
+      "wikidataId": "Q2047322",
+      "relations": [
+        {
+          "to": "odisha/puri",
+          "type": "nearby"
+        }
+      ],
+      "sections": {
+        "overview": {
+          "text": "Chilika, a short drive from Puri, is Asia's largest brackish-water lagoon and was India's first Ramsar wetland, cut off from the Bay of Bengal by a 60-km strip of marshy islands and sand flats. Placed on the Montreux Record of threatened wetlands in 1993, it recovered and came off the list in 2002. Its sanctuary covers about 1,100 sq km, and in winter more than a million migratory birds — flamingos, pelicans, herons and storks — arrive; the lake is also home to the endangered Irrawaddy dolphin.\n\nThe main bases are Satapada, 50 km from Puri, for dolphin trips, and Mangalajodi, 75 km from Bhubaneswar, a community-run wetland for birdwatching by boat. Boats also visit Kalijai island's temple and Honeymoon and Breakfast islands. The sanctuary is open 6 am to 7 pm; come November to February for the birds.",
+          "facts": [
+            "BCHI1",
+            "CL1",
+            "CL6",
+            "CL3",
+            "BCHI2",
+            "CL4",
+            "CL5",
+            "CL2",
+            "BCHI3"
+          ]
+        },
+        "who_its_for": {
+          "items": [
+            {
+              "title": "Birdwatchers",
+              "body": "Flamingos, pelicans and a million winter migrants."
+            },
+            {
+              "title": "Wildlife lovers",
+              "body": "Irrawaddy dolphins from Satapada."
+            },
+            {
+              "title": "Families",
+              "body": "Kalijai temple and the islands by boat."
+            }
+          ],
+          "facts": [
+            "CL3",
+            "CL5",
+            "CL4",
+            "BCHI2",
+            "CL2"
+          ]
+        },
+        "best_time": {
+          "text": "November to February, when migratory birds fill the wetlands at Mangalajodi and across the lake. The sanctuary is open 6 am to 7 pm.",
+          "facts": [
+            "CL5",
+            "CL3",
+            "BCHI3"
+          ]
+        },
+        "practical_info": {
+          "items": [
+            {
+              "title": "Bases",
+              "body": "Satapada is 50 km from Puri; Mangalajodi 75 km from Bhubaneswar.",
+              "status": "verified"
+            },
+            {
+              "title": "Hours",
+              "body": "The sanctuary is open 6 am to 7 pm.",
+              "status": "verified"
+            },
+            {
+              "title": "Boats",
+              "body": "Satapada boat fares depend on time, boat size and capacity; agree before you set off.",
+              "status": "verified"
+            },
+            {
+              "title": "Season",
+              "body": "November–February for birds.",
+              "status": "seasonal"
+            }
+          ],
+          "facts": [
+            "CL4",
+            "CL5",
+            "BCHI3",
+            "CL7"
+          ]
+        },
+        "things_to_do": {
+          "items": [
+            {
+              "body": "Take a boat from Satapada to look for Irrawaddy dolphins."
+            },
+            {
+              "body": "Go birding by boat at Mangalajodi with local guides."
+            },
+            {
+              "body": "Visit the Kalijai temple on its island."
+            },
+            {
+              "body": "Kayak or canoe from Satapada."
+            }
+          ],
+          "facts": [
+            "CL4",
+            "CL5",
+            "CL2"
+          ]
+        },
+        "culture_etiquette": {
+          "items": [
+            {
+              "body": "Mangalajodi is run by a community ecotourism trust; follow your guide's lead on the water."
+            },
+            {
+              "body": "Boatmen cut motors near the dolphins — don't ask them to chase."
+            }
+          ],
+          "facts": [
+            "CL5",
+            "CL4"
+          ]
+        },
+        "faqs": {
+          "items": [
+            {
+              "title": "Where can I see dolphins?",
+              "body": "From Satapada, 50 km from Puri."
+            },
+            {
+              "title": "When is the best time for birds?",
+              "body": "November to February."
+            },
+            {
+              "title": "Where is the best birdwatching?",
+              "body": "Mangalajodi, 75 km from Bhubaneswar."
+            },
+            {
+              "title": "What are the sanctuary hours?",
+              "body": "6 am to 7 pm."
+            }
+          ],
+          "facts": [
+            "CL4",
+            "CL5",
+            "BCHI3"
+          ]
+        },
+        "common_mistakes": {
+          "items": [
+            {
+              "body": "Coming outside November–February for the birds."
+            },
+            {
+              "body": "Expecting guaranteed dolphin sightings."
+            },
+            {
+              "body": "Not agreeing the boat fare first."
+            }
+          ],
+          "facts": [
+            "CL5",
+            "CL4",
+            "CL7"
+          ]
+        },
+        "where_to_stay": {
+          "text": "OTDC runs lake-view Panthanivas at Barkul and Rambha on the lake's shore, both with boating.",
+          "facts": [
+            "OZC1"
+          ]
+        }
       }
-     ],
-     "facts": [
-      "CL3",
-      "CL5",
-      "CL4",
-      "BCHI2",
-      "CL2"
-     ]
-    },
-    "best_time": {
-     "text": "November to February, when migratory birds fill the wetlands at Mangalajodi and across the lake. The sanctuary is open 6 am to 7 pm.",
-     "facts": [
-      "CL5",
-      "CL3",
-      "BCHI3"
-     ]
-    },
-    "practical_info": {
-     "items": [
-      {
-       "title": "Bases",
-       "body": "Satapada is 50 km from Puri; Mangalajodi 75 km from Bhubaneswar.",
-       "status": "verified"
-      },
-      {
-       "title": "Hours",
-       "body": "The sanctuary is open 6 am to 7 pm.",
-       "status": "verified"
-      },
-      {
-       "title": "Boats",
-       "body": "Satapada boat fares depend on time, boat size and capacity; agree before you set off.",
-       "status": "verified"
-      },
-      {
-       "title": "Season",
-       "body": "November–February for birds.",
-       "status": "seasonal"
-      }
-     ],
-     "facts": [
-      "CL4",
-      "CL5",
-      "BCHI3",
-      "CL7"
-     ]
-    },
-    "things_to_do": {
-     "items": [
-      {
-       "body": "Take a boat from Satapada to look for Irrawaddy dolphins."
-      },
-      {
-       "body": "Go birding by boat at Mangalajodi with local guides."
-      },
-      {
-       "body": "Visit the Kalijai temple on its island."
-      },
-      {
-       "body": "Kayak or canoe from Satapada."
-      }
-     ],
-     "facts": [
-      "CL4",
-      "CL5",
-      "CL2"
-     ]
-    },
-    "culture_etiquette": {
-     "items": [
-      {
-       "body": "Mangalajodi is run by a community ecotourism trust; follow your guide's lead on the water."
-      },
-      {
-       "body": "Boatmen cut motors near the dolphins — don't ask them to chase."
-      }
-     ],
-     "facts": [
-      "CL5",
-      "CL4"
-     ]
-    },
-    "faqs": {
-     "items": [
-      {
-       "title": "Where can I see dolphins?",
-       "body": "From Satapada, 50 km from Puri."
-      },
-      {
-       "title": "When is the best time for birds?",
-       "body": "November to February."
-      },
-      {
-       "title": "Where is the best birdwatching?",
-       "body": "Mangalajodi, 75 km from Bhubaneswar."
-      },
-      {
-       "title": "What are the sanctuary hours?",
-       "body": "6 am to 7 pm."
-      }
-     ],
-     "facts": [
-      "CL4",
-      "CL5",
-      "BCHI3"
-     ]
-    },
-    "common_mistakes": {
-     "items": [
-      {
-       "body": "Coming outside November–February for the birds."
-      },
-      {
-       "body": "Expecting guaranteed dolphin sightings."
-      },
-      {
-       "body": "Not agreeing the boat fare first."
-      }
-     ],
-     "facts": [
-      "CL5",
-      "CL4",
-      "CL7"
-     ]
     }
-   }
-  }
- ],
- "itineraries": []
+  ],
+  "itineraries": []
 }

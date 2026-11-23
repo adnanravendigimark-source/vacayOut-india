@@ -88,6 +88,11 @@
       "url": "https://www.holidify.com/places/rishikesh/the-beatles-ashram-sightseeing-123918.html",
       "title": "The Beatles Ashram — Holidify",
       "authority": "travel_platform"
+    },
+    "W_NAR2": {
+      "url": "https://en.wikipedia.org/wiki/Narendranagar",
+      "title": "Narendranagar — Wikipedia",
+      "authority": "reference"
     }
   },
   "facts": {
@@ -763,6 +768,50 @@
           "quote": "At a distance of 27.5 km from Rishikesh"
         }
       ]
+    },
+    "UKN1": {
+      "place": "uttarakhand/narendranagar",
+      "topic": "UKN1",
+      "claim": "Narendranagar, at about 1,020 m in Tehri Garhwal district, was founded in 1919 when Maharaja Narendra Shah moved his capital here from Tehri.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "W_NAR2",
+          "quote": "It has an average elevation of 1,020 metres (3,349 feet)."
+        },
+        {
+          "source": "W_NAR2",
+          "quote": "The present town of Narendranagar came into existence in 1919, when Maharaja Narendra Shah of Tehri Garhwal moved his capital from Tehri"
+        }
+      ]
+    },
+    "UKN2": {
+      "place": "uttarakhand/narendranagar",
+      "topic": "UKN2",
+      "claim": "On a clear day there are views over Rishikesh, Haridwar and the Ganga flowing to the plains.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "W_NAR2",
+          "quote": "On a clear day, one can get an aerial view of Rishikesh, Haridwar and the Ganga flowing from the mountains to the plains of Haridwar."
+        }
+      ]
+    },
+    "UKN3": {
+      "place": "uttarakhand/narendranagar",
+      "topic": "UKN3",
+      "claim": "The Narendranagar Palace now houses the Ananda in the Himalayas destination spa; World War I cannons flank its gate.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "W_NAR2",
+          "quote": "'The Narendranagar Palace', is now home to 'Ananda - In the Himalayas', a destination spa"
+        },
+        {
+          "source": "W_NAR2",
+          "quote": "two magnificent World War I cannons flank the royal gateway"
+        }
+      ]
     }
   },
   "places": [
@@ -1376,6 +1425,59 @@
           "text": "Narendranagar is a 20 km drive uphill from Rishikesh. Take a taxi, or a bus heading towards Tehri.",
           "facts": [
             "RK21"
+          ]
+        },
+        "key_facts": {
+          "items": [
+            {
+              "title": "Altitude",
+              "body": "About 1,020 m",
+              "status": "verified"
+            },
+            {
+              "title": "Founded",
+              "body": "1919, as the Tehri Garhwal capital",
+              "status": "verified"
+            },
+            {
+              "title": "District",
+              "body": "Tehri Garhwal",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "UKN1"
+          ]
+        },
+        "things_to_do": {
+          "items": [
+            {
+              "body": "Look out over Rishikesh, Haridwar and the Ganga on a clear day."
+            },
+            {
+              "body": "See the old palace, now the Ananda spa, with its WWI cannons at the gate."
+            }
+          ],
+          "facts": [
+            "UKN2",
+            "UKN3"
+          ]
+        },
+        "faqs": {
+          "items": [
+            {
+              "title": "What is Narendranagar known for?",
+              "body": "The 1919 palace of the Tehri maharajas, now the Ananda spa, and views over Rishikesh and the Ganga."
+            },
+            {
+              "title": "How high is it?",
+              "body": "About 1,020 m."
+            }
+          ],
+          "facts": [
+            "UKN3",
+            "UKN2",
+            "UKN1"
           ]
         }
       }

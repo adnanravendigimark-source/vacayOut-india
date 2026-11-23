@@ -223,6 +223,36 @@
       "url": "https://www.incredibleindia.gov.in/en/puducherry/puducherry/french-war-memorial",
       "title": "French War Memorial — Incredible India (Ministry of Tourism, Government of India)",
       "authority": "government"
+    },
+    "STR_HOW": {
+      "url": "https://www.sundarbantigerreserve.org/?tab=How_reach",
+      "title": "How to reach and permits — Sundarban Tiger Reserve (Government of West Bengal)",
+      "authority": "government"
+    },
+    "STR_HOME": {
+      "url": "https://www.sundarbantigerreserve.org/",
+      "title": "Sundarban Tiger Reserve (Government of West Bengal)",
+      "authority": "government"
+    },
+    "D_SUN": {
+      "url": "https://s24pgs.gov.in/tourist-place/sundarban/",
+      "title": "Sundarban — South 24 Parganas district administration, Government of West Bengal",
+      "authority": "government"
+    },
+    "II_KAL": {
+      "url": "https://www.incredibleindia.gov.in/en/west-bengal/kalimpong",
+      "title": "Kalimpong — Incredible India",
+      "authority": "government"
+    },
+    "W_SAN": {
+      "url": "https://en.wikipedia.org/wiki/Santiniketan",
+      "title": "Santiniketan — Wikipedia",
+      "authority": "reference"
+    },
+    "D_BOL": {
+      "url": "https://birbhum.gov.in/tourist-place/bolpur/",
+      "title": "Bolpur — Birbhum district administration, Government of West Bengal",
+      "authority": "government"
     }
   },
   "facts": {
@@ -1319,6 +1349,246 @@
         {
           "source": "II_FWM",
           "quote": "A bronze plaque lists the names of those who gave their lives during World War I"
+        }
+      ]
+    },
+    "WBF1": {
+      "place": "west-bengal/sundarbans-national-park",
+      "topic": "WBF1",
+      "claim": "Visitors need permission from the Field Director's office at Canning or at Sonakhali, Bagna, Sajnekhali or Jhingakhali, paying entry fees for the boat and visitors; foreigners need no special permit but must carry their visa and documents.",
+      "claimType": "rule",
+      "evidence": [
+        {
+          "source": "STR_HOW",
+          "quote": "Visitors require permission to visit Sundarban Tiger Reserve, which can be obatined from the office of the Field Director, Sundarban Tiger Reserve, Canning 24 Parganas (S), Sonakhali, Bagna, Sajnekhali, Jhingakhali, on payment of entry fee for boat and for visitors."
+        },
+        {
+          "source": "STR_HOW",
+          "quote": "Foreigners compulsorily require their Visa and necessary documents"
+        },
+        {
+          "source": "STR_HOW",
+          "quote": "No special permits are required for foreigners."
+        }
+      ]
+    },
+    "WBF2": {
+      "place": "west-bengal/sundarbans-national-park",
+      "topic": "WBF2",
+      "claim": "Tourists may enter only in registered tourist boats, with a compulsory eco-guide for the whole cruise; inside the reserve, boats and launches are the only transport.",
+      "claimType": "rule",
+      "evidence": [
+        {
+          "source": "STR_HOW",
+          "quote": "Any tourist can enter into STR only with the registered tourist boats"
+        },
+        {
+          "source": "STR_HOW",
+          "quote": "Visitors compulsorily require hiring eco-guides, who would escort them during the entire cruise inside the Tiger Reserve."
+        },
+        {
+          "source": "STR_HOW",
+          "quote": "Within Sundarban, the only way to get around is by boat or launch."
+        }
+      ]
+    },
+    "WBF3": {
+      "place": "west-bengal/sundarbans-national-park",
+      "topic": "WBF3",
+      "claim": "Canning is the nearest station, with EMU trains from Sealdah every hour; buses to Sonakhali and Godkhali leave from Esplanade.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "STR_HOW",
+          "quote": "The nearest railhead to Sundarban Tiger Reserve is Canning Railway Station."
+        },
+        {
+          "source": "STR_HOW",
+          "quote": "Trains (EMU) to reach Canning, are available from Sealdah at an interval of every one hour."
+        },
+        {
+          "source": "STR_HOW",
+          "quote": "Buses to reach Sonakhali and Godkhali are available from Esplanade, Kolkata."
+        }
+      ]
+    },
+    "WBF4": {
+      "place": "west-bengal/sundarbans-national-park",
+      "topic": "WBF4",
+      "claim": "Boats board at Godkhali and Dhamakhali; Godkhali jetty has private parking, and WBTDC runs guided tours from Kolkata.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "STR_HOW",
+          "quote": "boat boarding point at Godkhali and Dhamakhali"
+        },
+        {
+          "source": "STR_HOW",
+          "quote": "there is a private parking space at Godkhali Jetty Ghat"
+        },
+        {
+          "source": "STR_HOW",
+          "quote": "West Bengal Tourism Development Corporation organizes guided tours from Kolkata."
+        }
+      ]
+    },
+    "WBF5": {
+      "place": "west-bengal/sundarbans-national-park",
+      "topic": "WBF5",
+      "claim": "The Sundarbans, home of the Royal Bengal tiger, is India's largest mangrove forest at almost 4,000 sq km and a World Heritage Site.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "STR_HOME",
+          "quote": "Sundarban is the largest mangrove in our country with almost 4000 sq Km area coverage."
+        },
+        {
+          "source": "D_SUN",
+          "quote": "The home of Royal Bengal Tigers."
+        },
+        {
+          "source": "D_SUN",
+          "quote": "A ‘World heritage site’"
+        }
+      ]
+    },
+    "WBF6": {
+      "place": "west-bengal/kalimpong",
+      "topic": "WBF6",
+      "claim": "Kalimpong sits at about 1,250 m.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_KAL",
+          "quote": "Perched at an altitude of 1,250 meters"
+        }
+      ]
+    },
+    "WBF7": {
+      "place": "west-bengal/kalimpong",
+      "topic": "WBF7",
+      "claim": "Bagdogra airport is about 75 km away — about 3 hours by taxi or shared vehicle; New Jalpaiguri station is about 72 km, 2–3 hours from Siliguri.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_KAL",
+          "quote": "The nearest major airport to Kalimpong is Bagdogra Airport, which is located approximately 75 km away."
+        },
+        {
+          "source": "II_KAL",
+          "quote": "From Bagdogra, you can hire a taxi or take a shared vehicle to Kalimpong, which is about a 3-hour trip."
+        },
+        {
+          "source": "II_KAL",
+          "quote": "The nearest major railway station to Kalimpong is New Jalpaiguri (NJP), located around 72 km away."
+        },
+        {
+          "source": "II_KAL",
+          "quote": "You can hire a taxi or take a shared vehicle from Siliguri, which will take around 2-3 hours"
+        }
+      ]
+    },
+    "WBF8": {
+      "place": "west-bengal/kalimpong",
+      "topic": "WBF8",
+      "claim": "Teesta rafting starts at Teesta Bazaar, 45 km away; March–June and September–November are best.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_KAL",
+          "quote": "The river-rafting center is located at Teesta Bazaar, 45 kilometers from Kalimpong"
+        },
+        {
+          "source": "II_KAL",
+          "quote": "The best time for river rafting on the Teesta is from March to June and September to November"
+        }
+      ]
+    },
+    "WBF10": {
+      "place": "west-bengal/santiniketan",
+      "topic": "WBF10",
+      "claim": "Santiniketan, part of Bolpur about 152 km north of Kolkata, was inscribed as a UNESCO World Heritage Site in 2023.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "W_SAN",
+          "quote": "approximately 152 km north of Kolkata"
+        },
+        {
+          "source": "W_SAN",
+          "quote": "It was inscribed on the UNESCO World Heritage List by the World Heritage Committee in 2023."
+        }
+      ]
+    },
+    "WBF11": {
+      "place": "west-bengal/santiniketan",
+      "topic": "WBF11",
+      "claim": "Bolpur Shantiniketan station has trains from Sealdah and Howrah; WBTC runs AC Volvo buses from Kolkata.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "W_SAN",
+          "quote": "Bolpur Shantiniketan railway station is well connected with Sealdah Railway Station, Howrah Station"
+        },
+        {
+          "source": "W_SAN",
+          "quote": "There is direct AC Volvo bus service of WBTC from Kolkata to Bolpur Shantiniketan"
+        }
+      ]
+    },
+    "WBF12": {
+      "place": "west-bengal/santiniketan",
+      "topic": "WBF12",
+      "claim": "Kazi Nazrul Islam Airport at Durgapur is about 70 km from Bolpur.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "D_BOL",
+          "quote": "Kazi Nazrul Islam Airport is the nearest airport, located at Durgapur and about 70 km from Bolpur."
+        }
+      ]
+    },
+    "WBF13": {
+      "place": "west-bengal/santiniketan",
+      "topic": "WBF13",
+      "claim": "The Poush Mela runs three days from 7 Poush; Holi is celebrated as Basanta Utsav to welcome spring.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "W_SAN",
+          "quote": "The largest and most notable fair is the Poush Mela held at Santiniketan for three days from 7 Poush."
+        },
+        {
+          "source": "W_SAN",
+          "quote": "it is called Basanta Utsav and welcomes the arrival of spring"
+        }
+      ]
+    },
+    "WBF14": {
+      "place": "west-bengal/santiniketan",
+      "topic": "WBF14",
+      "claim": "The Sonajhuri haat runs every day except Wednesday; Ballabhpur Deer Park is 3 km away.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "W_SAN",
+          "quote": "Except Wednesday, one can visit the haat (or market) at Sonajhuri"
+        },
+        {
+          "source": "W_SAN",
+          "quote": "Ballabhpur Wildlife Sanctuary is located 3 km from Shantiniketan and is popular as Deer Park."
+        }
+      ]
+    },
+    "WBF15": {
+      "place": "west-bengal/santiniketan",
+      "topic": "WBF15",
+      "claim": "The Uttarayan complex has five houses built by Tagore, beside the Rabindra Bhavana museum.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "W_SAN",
+          "quote": "features a collection of five houses built by Rabindranath – Udayan, Shyamali, Konark, Udichi and Punascha"
         }
       ]
     }
@@ -3270,6 +3540,90 @@
             "WB2",
             "WB3"
           ]
+        },
+        "key_facts": {
+          "items": [
+            {
+              "title": "Altitude",
+              "body": "About 1,250 m",
+              "status": "verified"
+            },
+            {
+              "title": "Nearest airport",
+              "body": "Bagdogra, about 75 km",
+              "status": "verified"
+            },
+            {
+              "title": "Nearest station",
+              "body": "New Jalpaiguri, about 72 km",
+              "status": "verified"
+            },
+            {
+              "title": "Rafting",
+              "body": "Teesta Bazaar, 45 km",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "WBF6",
+            "WBF7",
+            "WBF8"
+          ]
+        },
+        "how_to_reach": {
+          "text": "Fly to Bagdogra, about 75 km away, then take a taxi or shared vehicle — about 3 hours. New Jalpaiguri station is about 72 km away; from Siliguri the drive takes 2–3 hours.",
+          "facts": [
+            "WBF7"
+          ]
+        },
+        "local_transport": {
+          "text": "Taxis and shared vehicles run from Bagdogra and Siliguri.",
+          "facts": [
+            "WBF7"
+          ]
+        },
+        "best_time": {
+          "text": "For Teesta rafting, March to June and September to November, when the water levels are right and the weather pleasant.",
+          "facts": [
+            "WBF8"
+          ]
+        },
+        "who_its_for": {
+          "items": [
+            {
+              "title": "Adventure seekers",
+              "body": "Rafting on the Teesta."
+            },
+            {
+              "title": "Slow travellers",
+              "body": "A relaxed hill town at 1,250 m."
+            }
+          ],
+          "facts": [
+            "WBF8",
+            "WBF6"
+          ]
+        },
+        "faqs": {
+          "items": [
+            {
+              "title": "How far is Kalimpong from Bagdogra?",
+              "body": "About 75 km, roughly 3 hours."
+            },
+            {
+              "title": "Where do I go rafting?",
+              "body": "Teesta Bazaar, 45 km away."
+            },
+            {
+              "title": "How high is Kalimpong?",
+              "body": "About 1,250 m."
+            }
+          ],
+          "facts": [
+            "WBF7",
+            "WBF8",
+            "WBF6"
+          ]
         }
       },
       "wikidataId": "Q500877"
@@ -3425,6 +3779,107 @@
             "KLM1",
             "SAN1"
           ]
+        },
+        "key_facts": {
+          "items": [
+            {
+              "title": "Area",
+              "body": "Almost 4,000 sq km of mangrove",
+              "status": "verified"
+            },
+            {
+              "title": "Known for",
+              "body": "The Royal Bengal tiger",
+              "status": "verified"
+            },
+            {
+              "title": "Status",
+              "body": "World Heritage Site",
+              "status": "verified"
+            },
+            {
+              "title": "Railhead",
+              "body": "Canning",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "WBF5",
+            "WBF3"
+          ]
+        },
+        "how_to_reach": {
+          "text": "Take an hourly EMU train from Sealdah to Canning, or a bus from Esplanade to Sonakhali or Godkhali. Boats board at Godkhali and Dhamakhali, and WBTDC runs guided tours from Kolkata. Kolkata's airport is the nearest.",
+          "facts": [
+            "WBF3",
+            "WBF4"
+          ]
+        },
+        "local_transport": {
+          "text": "Inside the Sundarbans, the only way to get around is by boat or launch — and only in registered tourist boats.",
+          "facts": [
+            "WBF2"
+          ]
+        },
+        "safety_health": {
+          "items": [
+            {
+              "title": "Registered boats only",
+              "body": "Enter the reserve only in registered tourist boats.",
+              "status": "verified"
+            },
+            {
+              "title": "Eco-guide",
+              "body": "An eco-guide must accompany you for the whole cruise.",
+              "status": "verified"
+            },
+            {
+              "title": "Permits",
+              "body": "Get permission and pay boat and visitor entry fees at Canning, Sonakhali, Bagna, Sajnekhali or Jhingakhali.",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "WBF2",
+            "WBF1"
+          ]
+        },
+        "who_its_for": {
+          "items": [
+            {
+              "title": "Wildlife lovers",
+              "body": "Tiger country in the mangroves."
+            },
+            {
+              "title": "Slow travellers",
+              "body": "Days on the water by boat."
+            }
+          ],
+          "facts": [
+            "WBF5",
+            "WBF2"
+          ]
+        },
+        "faqs": {
+          "items": [
+            {
+              "title": "Do I need a permit?",
+              "body": "Yes — permission and entry fees from the reserve offices at Canning, Sonakhali, Bagna, Sajnekhali or Jhingakhali."
+            },
+            {
+              "title": "Do foreigners need a special permit?",
+              "body": "No, but carry your visa and documents."
+            },
+            {
+              "title": "How do I get there?",
+              "body": "Train from Sealdah to Canning, or bus from Esplanade to Sonakhali or Godkhali, then a registered boat."
+            }
+          ],
+          "facts": [
+            "WBF1",
+            "WBF3",
+            "WBF2"
+          ]
         }
       },
       "wikidataId": "Q532440"
@@ -3493,6 +3948,96 @@
             "KOL1",
             "KLM1",
             "SUN1"
+          ]
+        },
+        "key_facts": {
+          "items": [
+            {
+              "title": "From Kolkata",
+              "body": "About 152 km",
+              "status": "verified"
+            },
+            {
+              "title": "UNESCO",
+              "body": "World Heritage Site since 2023",
+              "status": "verified"
+            },
+            {
+              "title": "Poush Mela",
+              "body": "Three days from 7 Poush",
+              "status": "seasonal"
+            },
+            {
+              "title": "Station",
+              "body": "Bolpur Shantiniketan",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "WBF10",
+            "WBF13",
+            "WBF11"
+          ]
+        },
+        "how_to_reach": {
+          "text": "Trains run from Sealdah and Howrah to Bolpur Shantiniketan, and WBTC runs AC Volvo buses from Kolkata. The nearest airport is Kazi Nazrul Islam Airport at Durgapur, about 70 km away.",
+          "facts": [
+            "WBF11",
+            "WBF12"
+          ]
+        },
+        "best_time": {
+          "text": "Come for the Poush Mela (three days from 7 Poush) or for Basanta Utsav, Santiniketan's spring Holi.",
+          "facts": [
+            "WBF13"
+          ]
+        },
+        "local_transport": {
+          "text": "Ballabhpur Deer Park is 3 km away; the Sonajhuri haat is close to Santiniketan.",
+          "facts": [
+            "WBF14"
+          ]
+        },
+        "who_its_for": {
+          "items": [
+            {
+              "title": "Literature lovers",
+              "body": "Tagore's Uttarayan houses and museum."
+            },
+            {
+              "title": "Craft shoppers",
+              "body": "The Sonajhuri haat."
+            },
+            {
+              "title": "Festival-goers",
+              "body": "Poush Mela and Basanta Utsav."
+            }
+          ],
+          "facts": [
+            "WBF15",
+            "WBF14",
+            "WBF13"
+          ]
+        },
+        "faqs": {
+          "items": [
+            {
+              "title": "Is the Sonajhuri haat open every day?",
+              "body": "Every day except Wednesday."
+            },
+            {
+              "title": "When is Poush Mela?",
+              "body": "Three days from 7 Poush."
+            },
+            {
+              "title": "How do I get there from Kolkata?",
+              "body": "Train to Bolpur Shantiniketan or a WBTC Volvo bus."
+            }
+          ],
+          "facts": [
+            "WBF14",
+            "WBF13",
+            "WBF11"
           ]
         }
       },

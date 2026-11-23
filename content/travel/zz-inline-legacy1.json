@@ -1,0 +1,864 @@
+{
+ "cluster": "legacy-inline-1",
+ "title": "Legacy activity pages shown inside their parents (2026-11-23)",
+ "researchedAt": "2026-11-23",
+ "selection": "Ten thin legacy activity pages rebuilt as sourced sections inside their parent destination pages.",
+ "sources": {
+  "W_GG": {
+   "url": "https://en.wikipedia.org/wiki/Gulmarg_Gondola",
+   "title": "Gulmarg Gondola — Wikipedia",
+   "authority": "reference"
+  },
+  "W_SHK": {
+   "url": "https://en.wikipedia.org/wiki/Shikara",
+   "title": "Shikara — Wikipedia",
+   "authority": "reference"
+  },
+  "W_DAL": {
+   "url": "https://en.wikipedia.org/wiki/Dal_Lake",
+   "title": "Dal Lake — Wikipedia",
+   "authority": "reference"
+  },
+  "W_BET": {
+   "url": "https://en.wikipedia.org/wiki/Betaab_Valley",
+   "title": "Betaab Valley — Wikipedia",
+   "authority": "reference"
+  },
+  "W_ARU": {
+   "url": "https://en.wikipedia.org/wiki/Aru_Valley",
+   "title": "Aru Valley — Wikipedia",
+   "authority": "reference"
+  },
+  "W_SON": {
+   "url": "https://en.wikipedia.org/wiki/Sonamarg",
+   "title": "Sonamarg — Wikipedia",
+   "authority": "reference"
+  },
+  "W_KTV": {
+   "url": "https://en.wikipedia.org/wiki/Kettuvallam",
+   "title": "Kettuvallam — Wikipedia",
+   "authority": "reference"
+  },
+  "W_ALP": {
+   "url": "https://en.wikipedia.org/wiki/Alappuzha",
+   "title": "Alappuzha — Wikipedia",
+   "authority": "reference"
+  },
+  "W_MUN": {
+   "url": "https://en.wikipedia.org/wiki/Munnar",
+   "title": "Munnar — Wikipedia",
+   "authority": "reference"
+  },
+  "W_HKP": {
+   "url": "https://en.wikipedia.org/wiki/Har_Ki_Pauri",
+   "title": "Har Ki Pauri — Wikipedia",
+   "authority": "reference"
+  },
+  "CTR_SAF": {
+   "url": "https://corbettgov.org/junglesafari",
+   "title": "Jungle Safari — Corbett Tiger Reserve (Uttarakhand Forest Department)",
+   "authority": "government"
+  },
+  "CTR_PRICE": {
+   "url": "https://corbettgov.org/pricing",
+   "title": "Pricing — Corbett Tiger Reserve (Uttarakhand Forest Department)",
+   "authority": "government"
+  },
+  "II_NTADV": {
+   "url": "https://www.incredibleindia.gov.in/en/uttarakhand/nainital/10-adventure-experiences-in-nainital",
+   "title": "10 adventure experiences in Nainital — Incredible India",
+   "authority": "government"
+  },
+  "W_NL": {
+   "url": "https://en.wikipedia.org/wiki/Naini_Lake",
+   "title": "Naini Lake — Wikipedia",
+   "authority": "reference"
+  },
+  "W_RSK": {
+   "url": "https://en.wikipedia.org/wiki/Rishikesh",
+   "title": "Rishikesh — Wikipedia",
+   "authority": "reference"
+  }
+ },
+ "facts": {
+  "LGG1": {
+   "place": "jammu-and-kashmir/gulmarg-gondola-apharwat-ride",
+   "topic": "LGG1",
+   "claim": "The two-stage Gulmarg Gondola is among the longest and highest cable cars in the world, carrying about 600 people an hour.",
+   "claimType": "general",
+   "evidence": [
+    {
+     "source": "W_GG",
+     "quote": "is the second longest and second highest cable car in the world"
+    },
+    {
+     "source": "W_GG",
+     "quote": "The two-stage gondola lift ferries about 600 people per hour to and from Kongdoori Mountain"
+    }
+   ]
+  },
+  "LGG2": {
+   "place": "jammu-and-kashmir/gulmarg-gondola-apharwat-ride",
+   "topic": "LGG2",
+   "claim": "Stage one runs from Gulmarg (2,650 m) to Kongdoori; stage two climbs to 3,980 m on a shoulder of Apharwat. Cabins take six people; the stages take about 9 and 12 minutes.",
+   "claimType": "general",
+   "evidence": [
+    {
+     "source": "W_GG",
+     "quote": "The first stage transfers from the Gulmarg resort at 2,650 m (8,694 ft) to Kongdoori Station in the bowl-shaped Kongdori valley."
+    },
+    {
+     "source": "W_GG",
+     "quote": "takes skiers to a height of 3,980 m (13,058 ft) on Kongdoori Mountain"
+    },
+    {
+     "source": "W_GG",
+     "quote": "A gondola can carry six people at a time and takes approximately 9 minutes to reach the first stage and 12 minutes for second stage."
+    }
+   ]
+  },
+  "LGG3": {
+   "place": "jammu-and-kashmir/gulmarg-gondola-apharwat-ride",
+   "topic": "LGG3",
+   "claim": "It runs about 10 am to 5 pm, depending heavily on the weather at both stages.",
+   "claimType": "general",
+   "evidence": [
+    {
+     "source": "W_GG",
+     "quote": "The timing of the gondola is from 10:00 to 17:00 IST(It's highly dependent upon the weather at both stages)."
+    }
+   ]
+  },
+  "LSK1": {
+   "place": "jammu-and-kashmir/shikara-ride-dal-lake-srinagar",
+   "topic": "LSK1",
+   "claim": "The shikara is Kashmir's wooden boat on Dal Lake; a typical one seats six, paddled from the back, and most now carry tourists.",
+   "claimType": "general",
+   "evidence": [
+    {
+     "source": "W_SHK",
+     "quote": "is a type of wooden boat found on Dal Lake and other water bodies of Srinagar"
+    },
+    {
+     "source": "W_SHK",
+     "quote": "A usual shikara seats six people, with the driver paddling at the rear."
+    },
+    {
+     "source": "W_SHK",
+     "quote": "most are covered with tarpaulins and are used by tourists"
+    }
+   ]
+  },
+  "LSK2": {
+   "place": "jammu-and-kashmir/shikara-ride-dal-lake-srinagar",
+   "topic": "LSK2",
+   "claim": "Shikaras work as water taxis and can be hired from the ghats along the lake's boulevard roads; Nishat and Shalimar gardens and Hazratbal are reachable by shikara.",
+   "claimType": "general",
+   "evidence": [
+    {
+     "source": "W_DAL",
+     "quote": "Shikaras act as water taxis to navigate within the Dal and can be hired from these ghats."
+    },
+    {
+     "source": "W_SHK",
+     "quote": "Nishat and Shalimar gardens as well as the Hazratbal shrine are directly accessible by shikara."
+    }
+   ]
+  },
+  "LSK3": {
+   "place": "jammu-and-kashmir/shikara-ride-dal-lake-srinagar",
+   "topic": "LSK3",
+   "claim": "The lake's floating gardens bloom with lotus in July and August.",
+   "claimType": "general",
+   "evidence": [
+    {
+     "source": "W_DAL",
+     "quote": "The floating gardens, known as \"Raad\" in Kashmiri, blossom with lotus flowers during July and August."
+    }
+   ]
+  },
+  "LBA1": {
+   "place": "jammu-and-kashmir/betaab-valley-aru-pahalgam-trek",
+   "topic": "LBA1",
+   "claim": "Betaab Valley, 15 km from Pahalgam on the way to Chandanwadi, is a meadow valley named after the 1983 film shot there, and a campsite and trekking base.",
+   "claimType": "general",
+   "evidence": [
+    {
+     "source": "W_BET",
+     "quote": "is situated at a distance of 15 km (9.3 mi) from Pahalgam"
+    },
+    {
+     "source": "W_BET",
+     "quote": "falls between Pahalgam and Chandanwadi"
+    },
+    {
+     "source": "W_BET",
+     "quote": "The valley was named after the 1983 film Betaab."
+    },
+    {
+     "source": "W_BET",
+     "quote": "It is also a favourite campsite of travellers as it also serves as a base camp for trekking"
+    }
+   ]
+  },
+  "LBA2": {
+   "place": "jammu-and-kashmir/betaab-valley-aru-pahalgam-trek",
+   "topic": "LBA2",
+   "claim": "Aru, about 12 km from Pahalgam, is a meadow village and base camp for treks to the Kolahoi Glacier and the Tarsar–Marsar lakes, with trout fishing and horse riding.",
+   "claimType": "general",
+   "evidence": [
+    {
+     "source": "W_ARU",
+     "quote": "It is located around 12 km from Pahalgam"
+    },
+    {
+     "source": "W_ARU",
+     "quote": "The village is a base camp for trekkers to the Kolahoi Glacier, the Tarsar–Marsar lakes and the Katrinag valley."
+    },
+    {
+     "source": "W_ARU",
+     "quote": "Other tourist activities include fishing of trout in the Lidder river, trekking, hiking, horse riding, sightseeing and photography."
+    }
+   ]
+  },
+  "LTJ1": {
+   "place": "jammu-and-kashmir/thajiwas-glacier-sonamarg-trek",
+   "topic": "LTJ1",
+   "claim": "Ponies can be hired in summer for the trip up to Thajiwas Glacier from Sonamarg, at about 2,730 m.",
+   "claimType": "general",
+   "evidence": [
+    {
+     "source": "W_SON",
+     "quote": "Ponies can be hired for a trip up to Thajiwas glacier, in the summer."
+    },
+    {
+     "source": "W_SON",
+     "quote": "at an altitude of 2,730 metres (8,960 ft)"
+    }
+   ]
+  },
+  "LTJ2": {
+   "place": "jammu-and-kashmir/thajiwas-glacier-sonamarg-trek",
+   "topic": "LTJ2",
+   "claim": "Parts of Thajiwas Glacier collapsed in May and June 2024, killing a tourist and a labourer.",
+   "claimType": "general",
+   "evidence": [
+    {
+     "source": "W_SON",
+     "quote": "On 25 May 2024, a section of a glacier near Thajiwas Glacier collapsed, leading to two tourists falling into a snow cavity created by the break, killing one."
+    },
+    {
+     "source": "W_SON",
+     "quote": "On 2 June 2024, a section of Thajiwas Glacier collapsed, trapping three tourists who were rescued, and killing one laborer."
+    }
+   ]
+  },
+  "LHB1": {
+   "place": "kerala/alleppey-backwater-houseboat-cruise",
+   "topic": "LHB1",
+   "claim": "Kerala's houseboats, kettuvallams, are wooden-hulled boats with thatched roofs, once cargo boats, now used for tourism.",
+   "claimType": "general",
+   "evidence": [
+    {
+     "source": "W_KTV",
+     "quote": "Kettuvallam is a houseboat widely used in the Indian state of Kerala. These have thatched roof covers over wooden hulls."
+    },
+    {
+     "source": "W_KTV",
+     "quote": "Basically the kettuvallam was designed to transport cargo"
+    }
+   ]
+  },
+  "LHB2": {
+   "place": "kerala/alleppey-backwater-houseboat-cruise",
+   "topic": "LHB2",
+   "claim": "A kettuvallam is about 30.5 m long; the hull planks are tied with coir; it is motorised, and punted with bamboo poles in shallow water. Many have up to three bedrooms, a living area and a kitchen.",
+   "claimType": "general",
+   "evidence": [
+    {
+     "source": "W_KTV",
+     "quote": "A kettuvallam is about 30.5 meters in length"
+    },
+    {
+     "source": "W_KTV",
+     "quote": "The hull is a series of wooden planks, long cut and carved, tied together using coir"
+    },
+    {
+     "source": "W_KTV",
+     "quote": "Long bamboo poles or 'punts' are used to propel in shallow areas."
+    },
+    {
+     "source": "W_KTV",
+     "quote": "Most of the latest designs have incorporated three bedrooms with toilets, a living space and kitchen."
+    }
+   ]
+  },
+  "LHB3": {
+   "place": "kerala/alleppey-backwater-houseboat-cruise",
+   "topic": "LHB3",
+   "claim": "Houseboats on the backwaters are a main reason for tourism in Alappuzha; public SWTD boats are a cheaper option.",
+   "claimType": "general",
+   "evidence": [
+    {
+     "source": "W_ALP",
+     "quote": "This is mainly due to the presence of houseboats that provide the tourists with a view of the scenic backwaters of the town."
+    },
+    {
+     "source": "W_ALP",
+     "quote": "Availing an SWTD boat is a cheaper alternative to houseboats for visiting tourists."
+    }
+   ]
+  },
+  "LMT1": {
+   "place": "kerala/munnar-tea-plantation-trek",
+   "topic": "LMT1",
+   "claim": "Munnar, at about 1,600 m in the Western Ghats, is an old plantation settlement dominated by tea.",
+   "claimType": "general",
+   "evidence": [
+    {
+     "source": "W_MUN",
+     "quote": "Munnar is situated at around 1,600 metres (5,200 ft) above mean sea level, in the Western Ghats mountain range."
+    },
+    {
+     "source": "W_MUN",
+     "quote": "This ancient plantation settlement, dominated by its tea industry, is also a growing modern hill station."
+    }
+   ]
+  },
+  "LMT2": {
+   "place": "kerala/munnar-tea-plantation-trek",
+   "topic": "LMT2",
+   "claim": "Europeans planted tea through the 1880s; by 1894 there were 26 estates, run from 1897 by the Kannan Devan Hills Corporation.",
+   "claimType": "general",
+   "evidence": [
+    {
+     "source": "W_MUN",
+     "quote": "Soon many other Europeans began establishing tea plantations in the area throughout the 1880s."
+    },
+    {
+     "source": "W_MUN",
+     "quote": "By 1894, 26 estates were established in the hills"
+    },
+    {
+     "source": "W_MUN",
+     "quote": "In 1897, a separate company, Kannan Devan Hills Corporation (KDHC) was registered to operate the tea estates"
+    }
+   ]
+  },
+  "LMT3": {
+   "place": "kerala/munnar-tea-plantation-trek",
+   "topic": "LMT3",
+   "claim": "Eravikulam National Park and Anamudi Shola National Park lie to the north of Munnar.",
+   "claimType": "general",
+   "evidence": [
+    {
+     "source": "W_MUN",
+     "quote": "the Eravikulam National Park and Anamudi Shola National Park to the north"
+    }
+   ]
+  },
+  "LHK1": {
+   "place": "uttarakhand/har-ki-pauri-ganga-aarti-haridwar",
+   "topic": "LHK1",
+   "claim": "Har Ki Pauri is the sacred ghat in Haridwar where the Ganges is believed to leave the mountains for the plains; its name means 'the feet of Vishnu'.",
+   "claimType": "general",
+   "evidence": [
+    {
+     "source": "W_HKP",
+     "quote": "Har Ki Pauri is a sacred ghat on the banks of the Ganges River in the Hindu holy city of Haridwar"
+    },
+    {
+     "source": "W_HKP",
+     "quote": "It is believed to be the place where the Ganges leaves the mountains and enters the plains."
+    },
+    {
+     "source": "W_HKP",
+     "quote": "The name Har Ki Pauri translates to \"the feet of Vishnu\" (Hari)."
+    }
+   ]
+  },
+  "LHK2": {
+   "place": "uttarakhand/har-ki-pauri-ganga-aarti-haridwar",
+   "topic": "LHK2",
+   "claim": "Every evening at sunset priests perform the Ganga Aarti with large fire bowls and bells, and people float leaf-and-flower diyas on the river; the timing shifts on special days such as eclipses.",
+   "claimType": "general",
+   "evidence": [
+    {
+     "source": "W_HKP",
+     "quote": "Each evening at sunset, the priests of Har ki Pauri perform the – Ganga Aarti – over an old tradition."
+    },
+    {
+     "source": "W_HKP",
+     "quote": "At that time the priests hold large Fire Bowls in their hands, rungs bells at the temples situated at the ghat"
+    },
+    {
+     "source": "W_HKP",
+     "quote": "People flick Diya (made of leaves and flowers) into the river Ganges as a symbol of hopes and wishes."
+    },
+    {
+     "source": "W_HKP",
+     "quote": "on some special cases, like on the occurrence of eclipses, the time of the Ganga Aarti is be altered accordingly"
+    }
+   ]
+  },
+  "LHK3": {
+   "place": "uttarakhand/har-ki-pauri-ganga-aarti-haridwar",
+   "topic": "LHK3",
+   "claim": "The aarti is held at Brahmakund, the most sacred part of the ghat; the clock tower dates from 1938.",
+   "claimType": "general",
+   "evidence": [
+    {
+     "source": "W_HKP",
+     "quote": "An area within Har Ki Pauri, where the evening Ganga Aarti takes places and which is considered most sacred is known as Brahmakund"
+    },
+    {
+     "source": "W_HKP",
+     "quote": "It's landmark clock tower was erected in 1938."
+    }
+   ]
+  },
+  "LJS1": {
+   "place": "uttarakhand/jim-corbett-jeep-tiger-safari",
+   "topic": "LJS1",
+   "claim": "Safaris use the reserve's own vehicles (no private cars); permits for each zone are booked online on the official site, and a safari lasts about 4 hours.",
+   "claimType": "general",
+   "evidence": [
+    {
+     "source": "CTR_SAF",
+     "quote": "Private vehicles are not allowed for tourism purposes; we provide specially designed vehicles for your safety."
+    },
+    {
+     "source": "CTR_SAF",
+     "quote": "Permits for different zones are available online through our official website."
+    },
+    {
+     "source": "CTR_SAF",
+     "quote": "Both safari types span roughly 4 hours"
+    }
+   ]
+  },
+  "LJS2": {
+   "place": "uttarakhand/jim-corbett-jeep-tiger-safari",
+   "topic": "LJS2",
+   "claim": "Jhirna and Dhela run all year; Bijrani and Garjia 15 Oct–30 June; Durgadevi 15 Nov–15 June. Dhikala has no day safari permits.",
+   "claimType": "general",
+   "evidence": [
+    {
+     "source": "CTR_PRICE",
+     "quote": "Jhirna Dhela Throughout year"
+    },
+    {
+     "source": "CTR_PRICE",
+     "quote": "Garjia Garjiya 15 Oct - 30 June"
+    },
+    {
+     "source": "CTR_PRICE",
+     "quote": "Durgadevi Durgadevi 15 Nov - 15 June"
+    },
+    {
+     "source": "CTR_PRICE",
+     "quote": "Dhikala does not offer day safari permits."
+    }
+   ]
+  },
+  "LJS3": {
+   "place": "uttarakhand/jim-corbett-jeep-tiger-safari",
+   "topic": "LJS3",
+   "claim": "Besides tigers, look for leopards, elephants, sambar and bears.",
+   "claimType": "general",
+   "evidence": [
+    {
+     "source": "II_NTADV",
+     "quote": "the park's other coveted inhabitants include leopards, elephants, sambar deer, and bears"
+    }
+   ]
+  },
+  "LNL1": {
+   "place": "uttarakhand/naini-lake-boating-nainital",
+   "topic": "LNL1",
+   "claim": "Naini Lake is the natural freshwater lake at the heart of Nainital, tectonic in origin.",
+   "claimType": "general",
+   "evidence": [
+    {
+     "source": "W_NL",
+     "quote": "Naini Tal, also known as Naini Lake, is a natural freshwater body, situated amidst the town of Nainital in Kumaon, Uttarakhand, India."
+    },
+    {
+     "source": "W_NL",
+     "quote": "It is tectonic in origin"
+    }
+   ]
+  },
+  "LNL2": {
+   "place": "uttarakhand/naini-lake-boating-nainital",
+   "topic": "LNL2",
+   "claim": "The Nainital Yacht Club offers yachting on the lake; it is known for boating, birding and views, and the Kingfisher Yachting regatta is held in the third week of June.",
+   "claimType": "general",
+   "evidence": [
+    {
+     "source": "W_NL",
+     "quote": "The Nainital Yacht Club, housed in the Boat House Club, offers yachting facilities at the lake"
+    },
+    {
+     "source": "W_NL",
+     "quote": "It is also known for its boating, birding, and scenic views."
+    },
+    {
+     "source": "W_NL",
+     "quote": "The Annual Kingfisher Yachting Competition (Regatta) is held here in the third week of June."
+    }
+   ]
+  },
+  "LRR1": {
+   "place": "uttarakhand/river-rafting-rishikesh",
+   "topic": "LRR1",
+   "claim": "Rishikesh offers rafting on the Ganges from Grade I to IV, as well as India's highest bungee jump (83 m).",
+   "claimType": "general",
+   "evidence": [
+    {
+     "source": "W_RSK",
+     "quote": "Rishikesh offers many rafting options along the Ganges from Grades I-IV."
+    },
+    {
+     "source": "W_RSK",
+     "quote": "Rishikesh has India's highest bungee jumping at 83 m (272 ft) over a rocky cliff."
+    }
+   ]
+  },
+  "LRR2": {
+   "place": "uttarakhand/river-rafting-rishikesh",
+   "topic": "LRR2",
+   "claim": "Rafting camps on the Ganga between Shivpuri and Rishikesh have faced National Green Tribunal scrutiny over unregulated operation.",
+   "claimType": "general",
+   "evidence": [
+    {
+     "source": "W_RSK",
+     "quote": "The National Green Tribunal has sought explanations from the Government of India and the Government of Uttarakhand on the \"unregulated\" operation of rafting camps on the banks of Ganga between Shivpuri and Rishikesh in Uttarakhand."
+    }
+   ]
+  }
+ },
+ "places": [
+  {
+   "key": "jammu-and-kashmir/gulmarg-gondola-apharwat-ride",
+   "kind": "activity",
+   "name": "Gulmarg Gondola Ride to Apharwat Peak",
+   "parent": "jammu-and-kashmir/gulmarg",
+   "summary": "The two-stage cable car from Gulmarg to Kongdoori and the shoulder of Apharwat.",
+   "lat": 34.0484,
+   "lng": 74.3805,
+   "tripTypes": [
+    "adventure",
+    "mountains"
+   ],
+   "sections": {
+    "overview": {
+     "text": "The Gulmarg Gondola is one of the longest and highest cable cars in the world. Its first stage rises from Gulmarg, at 2,650 m, to Kongdoori Station in a bowl-shaped valley; the second climbs to 3,980 m on Kongdoori Mountain, a shoulder of Apharwat Peak. Each cabin holds six people, and the stages take about 9 and 12 minutes.",
+     "facts": [
+      "LGG1",
+      "LGG2"
+     ]
+    },
+    "visit_info": {
+     "items": [
+      {
+       "title": "Hours",
+       "body": "About 10 am to 5 pm, depending on the weather at both stages.",
+       "status": "unconfirmed"
+      },
+      {
+       "title": "Cabins",
+       "body": "Six people each.",
+       "status": "verified"
+      }
+     ],
+     "facts": [
+      "LGG3",
+      "LGG2"
+     ]
+    }
+   },
+   "displayMode": "parent_section",
+   "category": "adventure",
+   "seoTitle": "Gulmarg Gondola Ride to Apharwat Peak",
+   "seoDescription": "The two-stage cable car from Gulmarg to Kongdoori and the shoulder of Apharwat."
+  },
+  {
+   "key": "jammu-and-kashmir/shikara-ride-dal-lake-srinagar",
+   "kind": "activity",
+   "name": "Shikara Ride & Floating Market on Dal Lake",
+   "parent": "jammu-and-kashmir/srinagar",
+   "summary": "A shikara ride on Dal Lake, hired from the ghats along the boulevard.",
+   "lat": 34.0837,
+   "lng": 74.8211,
+   "tripTypes": [
+    "romantic",
+    "nature"
+   ],
+   "sections": {
+    "overview": {
+     "text": "The shikara, Kashmir's wooden boat, is the classic way onto Dal Lake. A typical shikara seats six, with the boatman paddling at the rear, and most now carry visitors under a canopy. They work as water taxis and can be hired from the ghats along the lake's boulevard roads; Nishat and Shalimar gardens and the Hazratbal shrine are all reachable by shikara. In July and August the lake's floating gardens bloom with lotus.",
+     "facts": [
+      "LSK1",
+      "LSK2",
+      "LSK3"
+     ]
+    }
+   },
+   "displayMode": "parent_section",
+   "category": "culture",
+   "seoTitle": "Shikara Ride & Floating Market on Dal Lake",
+   "seoDescription": "A shikara ride on Dal Lake, hired from the ghats along the boulevard."
+  },
+  {
+   "key": "jammu-and-kashmir/betaab-valley-aru-pahalgam-trek",
+   "kind": "activity",
+   "name": "Betaab Valley & Aru Valley Alpine Meadows Walk",
+   "parent": "jammu-and-kashmir/pahalgam",
+   "summary": "Two meadow valleys near Pahalgam: Betaab and Aru.",
+   "lat": 34.0161,
+   "lng": 75.315,
+   "tripTypes": [
+    "nature",
+    "mountains"
+   ],
+   "sections": {
+    "overview": {
+     "text": "Two meadow valleys sit close to Pahalgam. Betaab Valley, 15 km away on the road to Chandanwadi, takes its name from the 1983 film shot there and is a favourite campsite and trekking base. Aru, about 12 km from Pahalgam, is a meadow village and the base camp for treks to the Kolahoi Glacier and the Tarsar–Marsar lakes, with trout fishing in the Lidder and horse riding.",
+     "facts": [
+      "LBA1",
+      "LBA2"
+     ]
+    }
+   },
+   "displayMode": "parent_section",
+   "category": "nature",
+   "seoTitle": "Betaab Valley & Aru Valley Alpine Meadows Walk",
+   "seoDescription": "Two meadow valleys near Pahalgam: Betaab and Aru. Sourced overview and tips."
+  },
+  {
+   "key": "jammu-and-kashmir/thajiwas-glacier-sonamarg-trek",
+   "kind": "activity",
+   "name": "Thajiwas Glacier Trek & Snow Sledging in Sonamarg",
+   "parent": "jammu-and-kashmir/sonamarg",
+   "summary": "The summer pony ride or walk from Sonamarg up to Thajiwas Glacier.",
+   "lat": 34.3056,
+   "lng": 75.2952,
+   "tripTypes": [
+    "adventure",
+    "nature",
+    "mountains"
+   ],
+   "sections": {
+    "overview": {
+     "text": "Thajiwas Glacier is the classic outing from Sonamarg, which sits at about 2,730 m in the Kashmir Valley. In summer, ponies can be hired for the trip up to the glacier. The ice is unstable: sections of the glacier collapsed in May and June 2024, killing a tourist and a labourer, so keep off overhanging snow and follow local advice.",
+     "facts": [
+      "LTJ1",
+      "LTJ2"
+     ]
+    },
+    "safety_health": {
+     "items": [
+      {
+       "title": "Glacier collapses",
+       "body": "Sections collapsed in May and June 2024; keep off overhanging snow.",
+       "status": "verified"
+      }
+     ],
+     "facts": [
+      "LTJ2"
+     ]
+    }
+   },
+   "displayMode": "parent_section",
+   "category": "adventure",
+   "seoTitle": "Thajiwas Glacier Trek & Snow Sledging in Sonamarg",
+   "seoDescription": "The summer pony ride or walk from Sonamarg up to Thajiwas Glacier."
+  },
+  {
+   "key": "kerala/alleppey-backwater-houseboat-cruise",
+   "kind": "activity",
+   "name": "Alleppey Houseboat Backwater Cruise",
+   "parent": "kerala/alappuzha",
+   "summary": "A kettuvallam houseboat cruise on the Alappuzha backwaters.",
+   "lat": 9.4981,
+   "lng": 76.3388,
+   "tripTypes": [
+    "nature",
+    "romantic"
+   ],
+   "sections": {
+    "overview": {
+     "text": "Houseboats are the main reason most visitors come to Alappuzha. Called kettuvallams, they began as cargo boats: wooden hulls about 30.5 m long, their planks tied with coir under thatched roofs. Today they are motorised and punted with bamboo poles in the shallows, and many have up to three bedrooms with a living area and kitchen. The state's SWTD ferries are a cheaper way onto the backwaters.",
+     "facts": [
+      "LHB1",
+      "LHB2",
+      "LHB3"
+     ]
+    }
+   },
+   "displayMode": "parent_section",
+   "category": "nature",
+   "seoTitle": "Alleppey Houseboat Backwater Cruise",
+   "seoDescription": "A kettuvallam houseboat cruise on the Alappuzha backwaters."
+  },
+  {
+   "key": "kerala/munnar-tea-plantation-trek",
+   "kind": "activity",
+   "name": "Munnar Tea Plantation & Anamudi Ridge Trek",
+   "parent": "kerala/munnar",
+   "summary": "Walking Munnar's tea estates, north towards Eravikulam and Anamudi Shola.",
+   "lat": 10.0889,
+   "lng": 77.0595,
+   "tripTypes": [
+    "nature",
+    "mountains"
+   ],
+   "sections": {
+    "overview": {
+     "text": "Munnar sits at about 1,600 m in the Western Ghats and is, above all, a tea town. Europeans planted the hills through the 1880s; by 1894 there were 26 estates, run from 1897 by the Kannan Devan Hills Corporation. Walks through the estates lead north towards Eravikulam National Park and Anamudi Shola National Park.",
+     "facts": [
+      "LMT1",
+      "LMT2",
+      "LMT3"
+     ]
+    }
+   },
+   "displayMode": "parent_section",
+   "category": "nature",
+   "seoTitle": "Munnar Tea Plantation & Anamudi Ridge Trek",
+   "seoDescription": "Walking Munnar's tea estates, north towards Eravikulam and Anamudi Shola."
+  },
+  {
+   "key": "uttarakhand/har-ki-pauri-ganga-aarti-haridwar",
+   "kind": "attraction",
+   "name": "Har Ki Pauri Evening Ganga Aarti",
+   "parent": "uttarakhand/haridwar",
+   "summary": "Haridwar's sunset Ganga Aarti at Har Ki Pauri.",
+   "lat": 29.9575,
+   "lng": 78.1722,
+   "tripTypes": [
+    "spiritual"
+   ],
+   "sections": {
+    "overview": {
+     "text": "Har Ki Pauri, 'the feet of Vishnu', is Haridwar's most sacred ghat, where the Ganges is believed to leave the mountains for the plains. Every evening at sunset, priests at Brahmakund perform the Ganga Aarti with large fire bowls and temple bells, and crowds on both banks float leaf-and-flower diyas downstream. The timing shifts on special days such as eclipses.",
+     "facts": [
+      "LHK1",
+      "LHK2",
+      "LHK3"
+     ]
+    }
+   },
+   "displayMode": "parent_section",
+   "seoTitle": "Har Ki Pauri Evening Ganga Aarti",
+   "seoDescription": "Haridwar's sunset Ganga Aarti at Har Ki Pauri. Sourced overview and tips."
+  },
+  {
+   "key": "uttarakhand/jim-corbett-jeep-tiger-safari",
+   "kind": "activity",
+   "name": "Jim Corbett Open-Jeep Tiger Safari",
+   "parent": "uttarakhand/jim-corbett",
+   "summary": "Booking a jeep safari in Corbett's zones, from the official reserve site.",
+   "lat": 29.53,
+   "lng": 78.7747,
+   "tripTypes": [
+    "nature",
+    "wildlife"
+   ],
+   "sections": {
+    "overview": {
+     "text": "Jeep safaris are the way into Corbett Tiger Reserve. They run in the reserve's own vehicles — private cars are not allowed — and last about four hours. Book the permit for your zone online on the official corbettgov.org site and arrive early for the gate. Besides tigers, look for leopards, elephants, sambar and bears.",
+     "facts": [
+      "LJS1",
+      "LJS3"
+     ]
+    },
+    "visit_info": {
+     "items": [
+      {
+       "title": "All year",
+       "body": "Jhirna and Dhela zones.",
+       "status": "seasonal"
+      },
+      {
+       "title": "15 Oct–30 June",
+       "body": "Bijrani and Garjia.",
+       "status": "seasonal"
+      },
+      {
+       "title": "15 Nov–15 June",
+       "body": "Durgadevi.",
+       "status": "seasonal"
+      },
+      {
+       "title": "Dhikala",
+       "body": "No day safari permits.",
+       "status": "verified"
+      }
+     ],
+     "facts": [
+      "LJS2"
+     ]
+    }
+   },
+   "displayMode": "parent_section",
+   "category": "nature",
+   "seoTitle": "Jim Corbett Open-Jeep Tiger Safari",
+   "seoDescription": "Booking a jeep safari in Corbett's zones, from the official reserve site."
+  },
+  {
+   "key": "uttarakhand/naini-lake-boating-nainital",
+   "kind": "lake",
+   "name": "Boating on Emerald Naini Lake",
+   "parent": "uttarakhand/nainital",
+   "summary": "Boating and yachting on Naini Lake, the heart of Nainital.",
+   "lat": 29.3919,
+   "lng": 79.4542,
+   "tripTypes": [
+    "nature",
+    "family"
+   ],
+   "sections": {
+    "overview": {
+     "text": "Naini Lake, a natural freshwater lake of tectonic origin, fills the centre of Nainital. It is known for boating, birding and views, and the Nainital Yacht Club at the Boat House Club offers yachting. The annual Kingfisher Yachting regatta is held in the third week of June.",
+     "facts": [
+      "LNL1",
+      "LNL2"
+     ]
+    }
+   },
+   "displayMode": "parent_section",
+   "seoTitle": "Boating on Emerald Naini Lake",
+   "seoDescription": "Boating and yachting on Naini Lake, the heart of Nainital."
+  },
+  {
+   "key": "uttarakhand/river-rafting-rishikesh",
+   "kind": "activity",
+   "name": "White-Water River Rafting in Rishikesh",
+   "parent": "uttarakhand/rishikesh",
+   "summary": "White-water rafting on the Ganga, Grades I–IV, between Shivpuri and Rishikesh.",
+   "lat": 30.135,
+   "lng": 78.388,
+   "tripTypes": [
+    "adventure",
+    "nature"
+   ],
+   "sections": {
+    "overview": {
+     "text": "Rishikesh is India's best-known rafting centre, with runs on the Ganga from Grade I to Grade IV; the town also has India's highest bungee jump, at 83 m. Many rafting camps sit on the river between Shivpuri and Rishikesh, and their unregulated growth has drawn scrutiny from the National Green Tribunal, so choose an established operator.",
+     "facts": [
+      "LRR1",
+      "LRR2"
+     ]
+    }
+   },
+   "displayMode": "parent_section",
+   "category": "adventure",
+   "seoTitle": "White-Water River Rafting in Rishikesh",
+   "seoDescription": "White-water rafting on the Ganga, Grades I–IV, between Shivpuri and Rishikesh."
+  }
+ ],
+ "itineraries": [],
+ "guides": []
+}

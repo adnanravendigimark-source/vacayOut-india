@@ -1,978 +1,1025 @@
 {
- "cluster": "west-bengal2-darjeeling",
- "title": "Darjeeling (Batch 3)",
- "researchedAt": "2026-11-18",
- "selection": "Batch 3. Darjeeling had 7 sections. Adds who it's for, local transport, shopping, safety and health, common mistakes and FAQs, a refreshed overview (pending review), and adds travel, meals, prep and FAQs to darjeeling-3-days (moved here from darjeeling.json). Facts prefixed B are copied from darjeeling.json.",
- "sources": {
-  "II_DJ": {
-   "url": "https://www.incredibleindia.gov.in/en/west-bengal/darjeeling",
-   "title": "Darjeeling — Incredible India",
-   "authority": "government"
-  },
-  "W_DJ": {
-   "url": "https://en.wikipedia.org/wiki/Darjeeling",
-   "title": "Darjeeling — Wikipedia",
-   "authority": "reference"
-  },
-  "II_OBS": {
-   "url": "https://www.incredibleindia.gov.in/en/west-bengal/darjeeling/observatory-hill",
-   "title": "Observatory Hill — Incredible India (Ministry of Tourism)",
-   "authority": "government"
-  },
-  "II_FOOD": {
-   "url": "https://www.incredibleindia.gov.in/en/west-bengal/darjeeling/exploring-the-culinary-delights-darjeeling",
-   "title": "Culinary delights of Darjeeling — Incredible India (Ministry of Tourism)",
-   "authority": "government"
-  },
-  "W_DHR": {
-   "url": "https://en.wikipedia.org/wiki/Darjeeling_Himalayan_Railway",
-   "title": "Darjeeling Himalayan Railway — Wikipedia",
-   "authority": "reference"
-  },
-  "W_BAT": {
-   "url": "https://en.wikipedia.org/wiki/Batasia_Loop",
-   "title": "Batasia Loop — Wikipedia",
-   "authority": "reference"
-  },
-  "II_TH": {
-   "url": "https://www.incredibleindia.gov.in/en/west-bengal/darjeeling/tiger-hill",
-   "title": "Tiger Hill — Incredible India (Ministry of Tourism)",
-   "authority": "government"
-  },
-  "W_SDK": {
-   "url": "https://en.wikipedia.org/wiki/Sandakphu",
-   "title": "Sandakphu — Wikipedia",
-   "authority": "reference"
-  },
-  "II_ZOO": {
-   "url": "https://www.incredibleindia.gov.in/en/west-bengal/darjeeling/padmaja-naidu-himalayan-zoological-park",
-   "title": "Padmaja Naidu Himalayan Zoological Park — Incredible India (Ministry of Tourism)",
-   "authority": "government"
-  },
-  "W_HMI": {
-   "url": "https://en.wikipedia.org/wiki/Himalayan_Mountaineering_Institute",
-   "title": "Himalayan Mountaineering Institute — Wikipedia",
-   "authority": "reference"
-  },
-  "II_QEH": {
-   "url": "https://www.incredibleindia.gov.in/en/west-bengal/darjeeling/darjeeling-the-queen-of-eastern-himalayas",
-   "title": "Darjeeling: the Queen of the Eastern Himalayas — Incredible India (Ministry of Tourism)",
-   "authority": "government"
-  },
-  "II_HV": {
-   "url": "https://www.incredibleindia.gov.in/en/west-bengal/darjeeling/happy-valley-tea-estate",
-   "title": "Happy Valley Tea Estate — Incredible India (Ministry of Tourism)",
-   "authority": "government"
-  },
-  "II_TIB": {
-   "url": "https://www.incredibleindia.gov.in/en/west-bengal/darjeeling/tibetan-refugee-self-help-centre",
-   "title": "Tibetan Refugee Self Help Centre — Incredible India (Ministry of Tourism)",
-   "authority": "government"
-  }
- },
- "facts": {
-  "BDJ3": {
-   "place": "west-bengal/darjeeling",
-   "topic": "Getting there",
-   "claim": "Bagdogra airport is about 90 km away; by road, Darjeeling is 77 km from Siliguri on NH 110. The toy train starts at New Jalpaiguri.",
-   "claimType": "distance",
-   "evidence": [
-    {
-     "source": "W_DJ",
-     "quote": "The nearest airport is Bagdogra Airport , located 90 km (56 mi) from Darjeeling."
+  "cluster": "west-bengal2-darjeeling",
+  "title": "Darjeeling (Batch 3)",
+  "researchedAt": "2026-11-18",
+  "selection": "Batch 3. Darjeeling had 7 sections. Adds who it's for, local transport, shopping, safety and health, common mistakes and FAQs, a refreshed overview (pending review), and adds travel, meals, prep and FAQs to darjeeling-3-days (moved here from darjeeling.json). Facts prefixed B are copied from darjeeling.json.",
+  "sources": {
+    "II_DJ": {
+      "url": "https://www.incredibleindia.gov.in/en/west-bengal/darjeeling",
+      "title": "Darjeeling — Incredible India",
+      "authority": "government"
     },
-    {
-     "source": "W_DJ",
-     "quote": "Darjeeling can be reached by motorized vehicles on National Highway 110, from Siliguri, 77 km (48 mi) away."
-    }
-   ]
-  },
-  "BDJ4": {
-   "place": "west-bengal/darjeeling",
-   "topic": "Monsoon disruption",
-   "claim": "About 80% of Darjeeling's rain falls from June to September, when landslides often disrupt road and rail links.",
-   "claimType": "general",
-   "evidence": [
-    {
-     "source": "W_DJ",
-     "quote": "Eighty percent of the annual rainfall takes place between the months of June and September"
+    "W_DJ": {
+      "url": "https://en.wikipedia.org/wiki/Darjeeling",
+      "title": "Darjeeling — Wikipedia",
+      "authority": "reference"
     },
-    {
-     "source": "W_DJ",
-     "quote": "However, road and railway communications often get disrupted in the monsoons because of landslides."
-    }
-   ],
-   "kind": "seasonal"
-  },
-  "BDJ5": {
-   "place": "west-bengal/darjeeling",
-   "topic": "Clearest views",
-   "claim": "October to November offers the clearest mountain views; April to June is also pleasant.",
-   "claimType": "general",
-   "evidence": [
-    {
-     "source": "II_OBS",
-     "quote": "October to November offers the clearest views"
+    "II_OBS": {
+      "url": "https://www.incredibleindia.gov.in/en/west-bengal/darjeeling/observatory-hill",
+      "title": "Observatory Hill — Incredible India (Ministry of Tourism)",
+      "authority": "government"
     },
-    {
-     "source": "II_OBS",
-     "quote": "The best time to visit Observatory Hill is from April to June, when the weather is pleasant and clear for panoramic views of the mountains and Darjeeling."
-    }
-   ],
-   "kind": "seasonal"
-  },
-  "BDJ6": {
-   "place": "west-bengal/darjeeling",
-   "topic": "Food",
-   "claim": "Try momos, thukpa, sha phaley, sel roti and butter tea — Darjeeling's food blends Nepali, Sikkimese, Tibetan and Bengali traditions.",
-   "claimType": "general",
-   "evidence": [
-    {
-     "source": "II_FOOD",
-     "quote": "the culinary cultures that rule Darjeeling are varied, ranging from Nepali and Sikkimese to Tibetan and of course, Bengali."
+    "II_FOOD": {
+      "url": "https://www.incredibleindia.gov.in/en/west-bengal/darjeeling/exploring-the-culinary-delights-darjeeling",
+      "title": "Culinary delights of Darjeeling — Incredible India (Ministry of Tourism)",
+      "authority": "government"
     },
-    {
-     "source": "II_DJ",
-     "quote": "Savour the sweet delights of Sel Roti, deep-fried rice doughnuts served with butter or chutney"
+    "W_DHR": {
+      "url": "https://en.wikipedia.org/wiki/Darjeeling_Himalayan_Railway",
+      "title": "Darjeeling Himalayan Railway — Wikipedia",
+      "authority": "reference"
     },
-    {
-     "source": "II_DJ",
-     "quote": "And don't miss the hearty Thukpa, a hot noodle soup brimming with meat, vegetables, and spices"
-    }
-   ]
-  },
-  "BDJ9": {
-   "place": "west-bengal/darjeeling",
-   "topic": "Festivals",
-   "claim": "The Darjeeling Carnival runs for 10 days in November, Losar (Tibetan New Year) falls in February–March, and Buddha Jayanti in May.",
-   "claimType": "schedule",
-   "evidence": [
-    {
-     "source": "II_DJ",
-     "quote": "the 10-day Darjeeling Carnival in November"
+    "W_BAT": {
+      "url": "https://en.wikipedia.org/wiki/Batasia_Loop",
+      "title": "Batasia Loop — Wikipedia",
+      "authority": "reference"
     },
-    {
-     "source": "II_DJ",
-     "quote": "In February and March, the vibrant Tibetan New Year, Losha"
+    "II_TH": {
+      "url": "https://www.incredibleindia.gov.in/en/west-bengal/darjeeling/tiger-hill",
+      "title": "Tiger Hill — Incredible India (Ministry of Tourism)",
+      "authority": "government"
     },
-    {
-     "source": "II_DJ",
-     "quote": "Finally, in May, Buddha Jayanti finds Buddhist temples adorned in celebration"
-    }
-   ],
-   "kind": "seasonal"
-  },
-  "BDH2": {
-   "place": "west-bengal/darjeeling-himalayan-railway",
-   "topic": "88 km, built 1879–1881",
-   "claim": "Built between 1879 and 1881, the 2-ft-gauge line runs about 88 km from New Jalpaiguri to Darjeeling, climbing from about 100 m to 2,200 m with six zig-zags and three loops.",
-   "claimType": "general",
-   "evidence": [
-    {
-     "source": "W_DHR",
-     "quote": "Built between 1879 and 1881, it is about 88 km (55 mi) long."
+    "W_SDK": {
+      "url": "https://en.wikipedia.org/wiki/Sandakphu",
+      "title": "Sandakphu — Wikipedia",
+      "authority": "reference"
     },
-    {
-     "source": "W_DHR",
-     "quote": "It climbs from about 100 m (330 ft) above sea level at New Jalpaiguri to about 2,200 m (7,200 ft) at Darjeeling, using six zig zags and three loops (originally five) to gain altitude."
-    }
-   ]
-  },
-  "BDH3": {
-   "place": "west-bengal/darjeeling-himalayan-railway",
-   "topic": "Ghum and Batasia Loop",
-   "claim": "Ghum station sits at 2,260 m; at Batasia Loop (1919), 5 km from Darjeeling, the track spirals around a hill beside the Gorkha War Memorial.",
-   "claimType": "general",
-   "evidence": [
-    {
-     "source": "W_DHR",
-     "quote": "Ghum station is situated at an altitude of 2,260 metres (7,410 ft) ."
+    "II_ZOO": {
+      "url": "https://www.incredibleindia.gov.in/en/west-bengal/darjeeling/padmaja-naidu-himalayan-zoological-park",
+      "title": "Padmaja Naidu Himalayan Zoological Park — Incredible India (Ministry of Tourism)",
+      "authority": "government"
     },
-    {
-     "source": "W_BAT",
-     "quote": "At this point, the track spirals around over itself from the bottom of a small hill and over the hilltop. It was commissioned in 1919."
+    "W_HMI": {
+      "url": "https://en.wikipedia.org/wiki/Himalayan_Mountaineering_Institute",
+      "title": "Himalayan Mountaineering Institute — Wikipedia",
+      "authority": "reference"
     },
-    {
-     "source": "W_BAT",
-     "quote": "It is 5 km (3 mi) from Darjeeling, below Ghum ."
-    }
-   ]
-  },
-  "BTH4": {
-   "place": "west-bengal/tiger-hill",
-   "topic": "Everest and Kanchenjunga",
-   "claim": "Everest and Kanchenjunga, both visible from Tiger Hill, are 172 km apart; the hilltop gives a 360-degree panorama.",
-   "claimType": "general",
-   "evidence": [
-    {
-     "source": "II_TH",
-     "quote": "The distance between them—172 kilometres (107 miles)—adds to Everest’s mystique."
+    "II_QEH": {
+      "url": "https://www.incredibleindia.gov.in/en/west-bengal/darjeeling/darjeeling-the-queen-of-eastern-himalayas",
+      "title": "Darjeeling: the Queen of the Eastern Himalayas — Incredible India (Ministry of Tourism)",
+      "authority": "government"
     },
-    {
-     "source": "II_TH",
-     "quote": "Tiger Hill provides a 360-degree panorama that stretches from the snow-capped Himalayas to the lush green valleys below."
-    }
-   ]
-  },
-  "BSD2": {
-   "place": "west-bengal/sandakphu",
-   "topic": "The trek",
-   "claim": "Treks start at Manebhanjan, about 28 km (roughly an hour by road) from Darjeeling, and pass through Singalila National Park in stages via Chitre and Meghma.",
-   "claimType": "distance",
-   "evidence": [
-    {
-     "source": "W_SDK",
-     "quote": "Treks begin at Manebhanjan which is 28 km (17 mi) (approx. 1 hour by road) from Darjeeling ."
+    "II_HV": {
+      "url": "https://www.incredibleindia.gov.in/en/west-bengal/darjeeling/happy-valley-tea-estate",
+      "title": "Happy Valley Tea Estate — Incredible India (Ministry of Tourism)",
+      "authority": "government"
     },
-    {
-     "source": "W_SDK",
-     "quote": "The Sandakphu trekking routes inside the Singalila National Park have four legs or stages."
+    "II_TIB": {
+      "url": "https://www.incredibleindia.gov.in/en/west-bengal/darjeeling/tibetan-refugee-self-help-centre",
+      "title": "Tibetan Refugee Self Help Centre — Incredible India (Ministry of Tourism)",
+      "authority": "government"
     },
-    {
-     "source": "W_SDK",
-     "quote": "Manebhanjan to Meghma – height 2,600 m (8,500 ft) : This is a 4-hour trek through the lower forest. The route goes via Chitre."
+    "II_DAR": {
+      "url": "https://www.incredibleindia.gov.in/en/west-bengal/darjeeling",
+      "title": "Darjeeling — Incredible India",
+      "authority": "government"
     }
-   ]
   },
-  "BTH1": {
-   "place": "west-bengal/tiger-hill",
-   "topic": "Sunrise over Kanchenjunga and Everest",
-   "claim": "Tiger Hill (2,590 m) is famous for sunrise views of Kanchenjunga, the world's third-highest peak, with Everest visible beyond.",
-   "claimType": "general",
-   "evidence": [
-    {
-     "source": "II_TH",
-     "quote": "at an elevation of 8,482 feet (2,590 meters) offers an unparalleled view of the world’s highest peaks, including Mount Everest and Mount Kanchenjunga."
+  "facts": {
+    "BDJ3": {
+      "place": "west-bengal/darjeeling",
+      "topic": "Getting there",
+      "claim": "Bagdogra airport is about 90 km away; by road, Darjeeling is 77 km from Siliguri on NH 110. The toy train starts at New Jalpaiguri.",
+      "claimType": "distance",
+      "evidence": [
+        {
+          "source": "W_DJ",
+          "quote": "The nearest airport is Bagdogra Airport , located 90 km (56 mi) from Darjeeling."
+        },
+        {
+          "source": "W_DJ",
+          "quote": "Darjeeling can be reached by motorized vehicles on National Highway 110, from Siliguri, 77 km (48 mi) away."
+        }
+      ]
     },
-    {
-     "source": "II_TH",
-     "quote": "Kanchenjunga, the world’s third-highest peak, dominates the scene."
-    }
-   ]
-  },
-  "BTH2": {
-   "place": "west-bengal/tiger-hill",
-   "topic": "Arrive very early",
-   "claim": "In peak season crowds and traffic jams are common; Incredible India suggests arriving around 3:30 am.",
-   "claimType": "general",
-   "evidence": [
-    {
-     "source": "II_TH",
-     "quote": "in peak season, there is always a throng of people making their way up – and traffic jams are not uncommon. Arrive early, around 3:30 am, to secure a spot."
-    }
-   ],
-   "kind": "seasonal"
-  },
-  "BTH3": {
-   "place": "west-bengal/tiger-hill",
-   "topic": "On the way back",
-   "claim": "Stop at Batasia Loop, Ghum Monastery and the Senchal Wildlife Sanctuary on the way down.",
-   "claimType": "general",
-   "evidence": [
-    {
-     "source": "II_TH",
-     "quote": "On the way back from Tiger Hill, you can stop by Batasia Loop, Ghum Monastery and the Senchal Wildlife Sanctuary."
-    }
-   ]
-  },
-  "BZO2": {
-   "place": "west-bengal/padmaja-naidu-himalayan-zoological-park",
-   "topic": "Opening hours",
-   "claim": "Incredible India lists 8:30 am–4:30 pm in summer and 8:30 am–4 pm in winter.",
-   "claimType": "opening_hours",
-   "evidence": [
-    {
-     "source": "II_ZOO",
-     "quote": "Opening time - 08:30 AM to 04:30 PM (Summers)"
-    },
-    {
-     "source": "II_ZOO",
-     "quote": "08:30 AM to 04:00 PM (Winters)"
-    }
-   ],
-   "kind": "seasonal"
-  },
-  "BDJ10": {
-   "place": "west-bengal/darjeeling",
-   "topic": "Himalayan Mountaineering Institute",
-   "claim": "The Himalayan Mountaineering Institute, founded in 1954 after the first ascent of Everest, has a museum of expedition gear and photographs, with Tenzing Norgay's memorial outside.",
-   "claimType": "general",
-   "evidence": [
-    {
-     "source": "W_HMI",
-     "quote": "was established in Darjeeling , India on 4 November 1954"
-    },
-    {
-     "source": "II_QEH",
-     "quote": "The institute has exhibits of equipment, photographs and stories about Edmund Hillary, Tenzing Norgay and various other mountaineers."
-    },
-    {
-     "source": "II_QEH",
-     "quote": "Just outside the museum is the statue of Tenzing Norgay where his remains are also kept."
-    }
-   ]
-  },
-  "BHV3": {
-   "place": "west-bengal/happy-valley-tea-estate",
-   "topic": "Opening hours",
-   "claim": "Incredible India lists opening hours of 8 am to 4:30 pm.",
-   "claimType": "opening_hours",
-   "evidence": [
-    {
-     "source": "II_HV",
-     "quote": "Opening time - 08:00 AM"
-    },
-    {
-     "source": "II_HV",
-     "quote": "Closing time - 04:30 PM"
-    }
-   ]
-  },
-  "BHV2": {
-   "place": "west-bengal/happy-valley-tea-estate",
-   "topic": "Factory and tasting",
-   "claim": "Visitors can see leaves withered, rolled, oxidised and dried in the factory, then taste first- and second-flush teas.",
-   "claimType": "general",
-   "evidence": [
-    {
-     "source": "II_HV",
-     "quote": "Observe how the tea leaves are dried, oxidised, rolled, and withered"
-    },
-    {
-     "source": "II_HV",
-     "quote": "from delicate first-flush brews to strong second-flush brews"
-    }
-   ]
-  },
-  "BDJ11": {
-   "place": "west-bengal/darjeeling",
-   "topic": "Tibetan Refugee Self Help Centre",
-   "claim": "The Tibetan Refugee Self Help Centre, founded in 1959, has workshops where you can watch carpets and thangkas being made.",
-   "claimType": "general",
-   "evidence": [
-    {
-     "source": "II_TIB",
-     "quote": "Founded in 1959, this centre honours the courage of the Tibetan people who fled to India during political unrest."
-    },
-    {
-     "source": "II_TIB",
-     "quote": "Watch as skilled craftsmen and women create beautiful handcrafted items such as carpets, thangka paintings, and traditional Tibetan handicrafts."
-    }
-   ]
-  },
-  "BDJ12": {
-   "place": "west-bengal/darjeeling",
-   "topic": "Monasteries and Peace Pagoda",
-   "claim": "Monasteries include Yiga Choling (built 1850) at Ghum; the white Japanese Peace Pagoda was built by Nipponzan Myohoji.",
-   "claimType": "general",
-   "evidence": [
-    {
-     "source": "II_QEH",
-     "quote": "Yiga Choling gompa, one of the oldest monasteries in this region built in 1850"
-    },
-    {
-     "source": "II_QEH",
-     "quote": "Built by the Japanese Buddhist Nipponzan Myohoji organization, the large white pagoda has numerous carvings of Buddha and his preaching."
-    }
-   ]
-  },
-  "BOB1": {
-   "place": "west-bengal/observatory-hill",
-   "topic": "Mahakal Temple and views",
-   "claim": "Observatory Hill, above Chowrasta, has the Mahakal Temple and views of Kanchenjunga on clear days.",
-   "claimType": "general",
-   "evidence": [
-    {
-     "source": "II_OBS",
-     "quote": "Perched atop Observatory Hill, the Mahakal Temple stands as a beacon of spiritual devotion."
-    },
-    {
-     "source": "II_OBS",
-     "quote": "Rising above Chowrasta square or the Mall as it is popularly known in Darjeeling, Observatory Hill is an elevated vantage point that offers breathtaking views of snow-clad peaks"
-    }
-   ]
-  },
-  "BDJ13": {
-   "place": "west-bengal/darjeeling",
-   "topic": "The Mall and Chowrasta",
-   "claim": "The Mall and Chowrasta are the town's social heart — best in the evening.",
-   "claimType": "general",
-   "evidence": [
-    {
-     "source": "II_QEH",
-     "quote": "An ideal time to explore the famous mall road of Darjeeling is in the evening."
-    }
-   ],
-   "kind": "seasonal"
-  },
-  "DJN1": {
-   "place": "west-bengal/darjeeling",
-   "topic": "Crafts",
-   "claim": "Tibetan handicrafts on sale include thangka paintings, engraved copper plates, singing bowls, prayer wheels and Bhutia blankets; the Gorkha khukuri knife is a classic souvenir.",
-   "claimType": "general",
-   "kind": "verified",
-   "evidence": [
-    {
-     "source": "II_DJ",
-     "quote": "From exquisite Thangka paintings to intricately engraved copper plates"
-    },
-    {
-     "source": "II_DJ",
-     "quote": "the Khukuri makes for a meaningful and authentic souvenir"
-    }
-   ]
-  },
-  "DJN2": {
-   "place": "west-bengal/darjeeling",
-   "topic": "Markets",
-   "claim": "Shop at Hong Kong Market, Batasia Loop Market, Teesta Market, Chowk Bazar and along the Mall.",
-   "claimType": "general",
-   "kind": "verified",
-   "evidence": [
-    {
-     "source": "II_DJ",
-     "quote": "Whether you hunt for bargains at Hong Kong Market or Batasia Loop Market"
-    },
-    {
-     "source": "II_DJ",
-     "quote": "Don't miss the iconic Mall Road, where the town comes alive."
-    }
-   ]
-  },
-  "DJN3": {
-   "place": "west-bengal/darjeeling",
-   "topic": "Tea tours",
-   "claim": "Tea estates offer guided tours of tea-making with tastings.",
-   "claimType": "general",
-   "kind": "verified",
-   "evidence": [
-    {
-     "source": "II_DJ",
-     "quote": "Embark on a guided tour of a tea estate to witness first-hand the fascinating journey of tea production."
-    }
-   ]
-  },
-  "DJN4": {
-   "place": "west-bengal/darjeeling",
-   "topic": "Festivals",
-   "claim": "The Teesta Tea and Tourism Festival runs in November–December and the Darjeeling Orange Festival in December.",
-   "claimType": "schedule",
-   "kind": "seasonal",
-   "evidence": [
-    {
-     "source": "II_DJ",
-     "quote": "In November and December, the Teesta Tea and Tourism Festival"
-    },
-    {
-     "source": "II_DJ",
-     "quote": "the unique Darjeeling Orange Festival takes centrestage"
-    }
-   ]
-  },
-  "DJN5": {
-   "place": "west-bengal/darjeeling",
-   "topic": "Netaji Museum",
-   "claim": "The Netaji Subhas Chandra Bose Museum is in the house where he spent seven months under house arrest.",
-   "claimType": "general",
-   "kind": "verified",
-   "evidence": [
-    {
-     "source": "II_DJ",
-     "quote": "this house was once the abode of Netaji, who spent seven months under house arrest here"
-    }
-   ]
-  },
-  "DJN6": {
-   "place": "west-bengal/darjeeling",
-   "topic": "Mark Twain",
-   "claim": "Mark Twain rode the toy train in 1895.",
-   "claimType": "general",
-   "kind": "verified",
-   "evidence": [
-    {
-     "source": "II_DJ",
-     "quote": "Mark Twain, the renowned American writer, rode this Toy Train in 1895."
-    }
-   ]
-  },
-  "DJN7": {
-   "place": "west-bengal/darjeeling",
-   "topic": "Local brews",
-   "claim": "Chang and thomba, fermented-grain brews, are served in bamboo mugs.",
-   "claimType": "general",
-   "kind": "verified",
-   "evidence": [
-    {
-     "source": "II_DJ",
-     "quote": "Sample Chang and Thomba, local brews made from fermented grains, served in bamboo glasses"
-    }
-   ]
-  },
-  "DJN8": {
-   "place": "west-bengal/darjeeling",
-   "topic": "Local transport",
-   "claim": "Darjeeling has no public bus system; motorised travel is by six- or eight-seat shared taxis with no fixed routes or timetables.",
-   "claimType": "general",
-   "kind": "verified",
-   "evidence": [
-    {
-     "source": "W_DJ",
-     "quote": "As of 2018, Darjeeling had no public transport system of buses."
-    },
-    {
-     "source": "W_DJ",
-     "quote": "motorized travel was limited to six- or eight-seater paratransit taxis that have no set routes or timetables."
-    }
-   ]
-  },
-  "DJN9": {
-   "place": "west-bengal/darjeeling",
-   "topic": "Peak seasons",
-   "claim": "The peak tourist seasons are September–November and April–May.",
-   "claimType": "general",
-   "kind": "seasonal",
-   "evidence": [
-    {
-     "source": "W_DJ",
-     "quote": "Darjeeling has two peak tourism seasons, September to November and April to May."
-    }
-   ]
-  },
-  "DJN10": {
-   "place": "west-bengal/darjeeling",
-   "topic": "Chowrasta",
-   "claim": "Chowrasta is the town's main gathering and shopping square.",
-   "claimType": "general",
-   "kind": "verified",
-   "evidence": [
-    {
-     "source": "W_DJ",
-     "quote": "The Chowrasta is a popular shopping and gathering area"
-    }
-   ]
-  },
-  "DJN11": {
-   "place": "west-bengal/darjeeling",
-   "topic": "Toy train speed",
-   "claim": "The toy train moves at about 20–25 km/h.",
-   "claimType": "general",
-   "kind": "verified",
-   "evidence": [
-    {
-     "source": "W_DJ",
-     "quote": "it moves at speeds of between 20 kilometres (12 mi) and 25 kilometres (16 mi) per hour."
-    }
-   ]
-  },
-  "DJN12": {
-   "place": "west-bengal/darjeeling",
-   "topic": "Landslides",
-   "claim": "Landslides are a serious concern in the hills, mostly triggered by heavy rain.",
-   "claimType": "general",
-   "kind": "verified",
-   "evidence": [
-    {
-     "source": "W_DJ",
-     "quote": "landslides were a serious concern in the area."
-    },
-    {
-     "source": "W_DJ",
-     "quote": "Most are triggered by excessive rainfall"
-    }
-   ]
-  },
-  "DJN13": {
-   "place": "west-bengal/darjeeling",
-   "topic": "Elevation",
-   "claim": "Darjeeling town is at about 2,045 m.",
-   "claimType": "general",
-   "kind": "verified",
-   "evidence": [
-    {
-     "source": "W_DJ",
-     "quote": "It is located at an average elevation of 2,045 m (6,709 ft)"
-    }
-   ]
-  }
- },
- "places": [
-  {
-   "key": "west-bengal/darjeeling",
-   "kind": "town",
-   "name": "Darjeeling",
-   "parent": "west-bengal",
-   "summary": "The Queen of the Hills: Kanchenjunga sunrises from Tiger Hill, the UNESCO toy train, tea estates, monasteries and momos.",
-   "seoTitle": "Darjeeling Travel Guide: Toy Train, Tiger Hill & Tea",
-   "seoDescription": "Plan a Darjeeling trip: the UNESCO toy train, sunrise at Tiger Hill, Happy Valley tea estate, the zoo and HMI, monasteries, food and the best time to visit.",
-   "lat": 27.0375,
-   "lng": 88.2631,
-   "tripTypes": [
-    "mountains",
-    "heritage",
-    "food"
-   ],
-   "images": [
-    {
-     "commons": "File:Mount Kangchenjunga seen from Tiger Hill.jpg",
-     "alt": "Kanchenjunga at sunrise seen from Tiger Hill",
-     "hero": true
-    }
-   ],
-   "sections": {
-    "overview": {
-     "text": "Darjeeling sits at about 2,045 m on a ridge in northern West Bengal, facing Kanchenjunga. The British built it as a hill station and the summer capital of the Bengal Presidency, and Tibetan refugees later added monasteries, crafts and food to its mix of Gorkha, Lepcha and Bhutia cultures.\n\nThe Darjeeling Himalayan Railway, a UNESCO-listed toy train that Mark Twain rode in 1895, still climbs about 88 km from New Jalpaiguri at 20–25 km/h, spiralling round Batasia Loop below Ghum. Sunrise over Kanchenjunga from Tiger Hill, tea tastings on the estates, the zoo's red pandas and snow leopards, and the house where Netaji was held fill the days. Come in October–November for the clearest views, or April–May; avoid the June–September rains, when landslides cut roads.",
-     "facts": [
-      "DJN13",
-      "BDJ5",
-      "BDH2",
-      "DJN6",
-      "DJN11",
-      "BDH3",
-      "DJN3",
-      "DJN5",
-      "BDJ4",
-      "DJN9"
-     ]
-    },
-    "who_its_for": {
-     "items": [
-      {
-       "title": "Rail fans",
-       "body": "The UNESCO toy train, Ghum station and Batasia Loop."
-      },
-      {
-       "title": "Tea lovers",
-       "body": "Guided estate tours and tastings."
-      },
-      {
-       "title": "Trekkers",
-       "body": "Sandakphu treks start at Manebhanjan, about 28 km away."
-      },
-      {
-       "title": "Festival-goers",
-       "body": "The Darjeeling Carnival in November, the Teesta Tea and Tourism Festival in November–December and Losar in February–March."
-      }
-     ],
-     "facts": [
-      "BDH2",
-      "BDH3",
-      "DJN3",
-      "BSD2",
-      "BDJ9",
-      "DJN4"
-     ]
-    },
-    "local_transport": {
-     "text": "There is no public bus system. Motorised travel is by shared six- or eight-seat taxis with no fixed routes or timetables; they gather in the central bazaar. In town, walking is often quicker: Chowrasta and the Mall are the centre. Hire a taxi for the Tiger Hill sunrise trip and for Ghum and Batasia Loop, or ride the toy train there.",
-     "facts": [
-      "DJN8",
-      "DJN10",
-      "BDH3"
-     ]
-    },
-    "shopping": {
-     "items": [
-      {
-       "body": "Darjeeling tea, straight from the estates.",
-       "status": "verified"
-      },
-      {
-       "body": "Tibetan thangkas, singing bowls, prayer wheels and copper work.",
-       "status": "verified"
-      },
-      {
-       "body": "A khukuri, the Gorkha knife.",
-       "status": "verified"
-      },
-      {
-       "body": "Bargains at Hong Kong Market, Batasia Loop Market and Chowk Bazar; browsing on the Mall.",
-       "status": "verified"
-      }
-     ],
-     "facts": [
-      "DJN3",
-      "DJN1",
-      "DJN2"
-     ]
-    },
-    "safety_health": {
-     "items": [
-      {
-       "title": "Landslides",
-       "body": "Landslides are a serious concern, mostly after heavy rain. About 80% of rain falls in June–September, when roads and the railway are often disrupted. Build slack into your plans.",
-       "status": "seasonal"
-      },
-      {
-       "title": "Cold mornings",
-       "body": "At 2,045 m, pre-dawn Tiger Hill trips are cold. Bring warm layers.",
-       "status": "verified"
-      }
-     ],
-     "facts": [
-      "DJN12",
-      "BDJ4",
-      "DJN13"
-     ]
-    },
-    "common_mistakes": {
-     "items": [
-      {
-       "body": "Booking the June–September monsoon for mountain views. October–November is clearest."
-      },
-      {
-       "body": "Expecting buses. Shared taxis and walking are how people get around."
-      },
-      {
-       "body": "Riding the toy train all the way up on a tight schedule. At 20–25 km/h it is slow; the Ghum and Batasia Loop joy ride is shorter."
-      },
-      {
-       "body": "Skipping a tea-estate tour."
-      }
-     ],
-     "facts": [
-      "BDJ5",
-      "BDJ4",
-      "DJN8",
-      "DJN11",
-      "BDH3",
-      "DJN3"
-     ]
-    },
-    "faqs": {
-     "items": [
-      {
-       "title": "What is the best time to visit Darjeeling?",
-       "body": "October–November for clear mountain views; April–May is the other peak season."
-      },
-      {
-       "title": "How do I get to Darjeeling?",
-       "body": "Fly to Bagdogra (about 90 km) or take a train to New Jalpaiguri, then go by road (77 km from Siliguri) or the toy train."
-      },
-      {
-       "title": "Can I see Everest from Tiger Hill?",
-       "body": "Yes, on clear mornings, along with Kanchenjunga."
-      },
-      {
-       "title": "What should I try to eat and drink?",
-       "body": "Momos, thukpa, sel roti, butter tea and chang served in bamboo."
-      }
-     ],
-     "facts": [
-      "BDJ5",
-      "DJN9",
-      "BDJ3",
-      "BTH4",
-      "BDJ6",
-      "DJN7"
-     ]
-    }
-   }
-  }
- ],
- "itineraries": [
-  {
-   "place": "west-bengal/darjeeling",
-   "slug": "darjeeling-3-days",
-   "title": "Darjeeling in 3 days",
-   "summary": "Sunrise at Tiger Hill, the toy train to Batasia Loop, tea at Happy Valley, red pandas and Everest stories at the zoo and HMI, and evenings on the Mall.",
-   "durationDays": 3,
-   "tripTypes": [
-    "mountains",
-    "heritage",
-    "food"
-   ],
-   "seoTitle": "3-Day Darjeeling Itinerary: Tiger Hill & Toy Train",
-   "seoDescription": "A realistic 3-day Darjeeling plan: Tiger Hill sunrise, the toy train and Batasia Loop, Happy Valley Tea Estate, the zoo and HMI, monasteries and the Mall.",
-   "plan": {
-    "overview": "Darjeeling is 77 km from Siliguri and about 90 km from Bagdogra airport, so allow most of a day to arrive. This plan starts the morning after. Day 1 begins very early for Tiger Hill — rest in the afternoon.",
-    "days": [
-     {
-      "title": "Tiger Hill and Ghum",
-      "stops": [
-       {
-        "time": "3:30 am",
-        "name": "Tiger Hill sunrise",
-        "placeSlug": "tiger-hill",
-        "duration": "2–3 hours",
-        "note": "Arrive early in peak season; bring warm layers."
-       },
-       {
-        "time": "Morning",
-        "name": "Ghum Monastery and Batasia Loop",
-        "placeSlug": "darjeeling-himalayan-railway",
-        "duration": "1.5 hours"
-       },
-       {
-        "time": "Afternoon",
-        "name": "Rest",
-        "duration": "3 hours"
-       },
-       {
-        "time": "Evening",
-        "name": "Chowrasta and the Mall",
-        "placeSlug": "darjeeling",
-        "duration": "2 hours"
-       }
+    "BDJ4": {
+      "place": "west-bengal/darjeeling",
+      "topic": "Monsoon disruption",
+      "claim": "About 80% of Darjeeling's rain falls from June to September, when landslides often disrupt road and rail links.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "W_DJ",
+          "quote": "Eighty percent of the annual rainfall takes place between the months of June and September"
+        },
+        {
+          "source": "W_DJ",
+          "quote": "However, road and railway communications often get disrupted in the monsoons because of landslides."
+        }
       ],
-      "overnight": "Darjeeling",
-      "meals": "Butter tea at dawn; momos and thukpa for lunch.",
-      "travel": "Hired taxi before dawn to Tiger Hill, then Ghum and Batasia Loop.",
-      "distance": "Batasia Loop about 5 km from Darjeeling"
-     },
-     {
-      "title": "Tea, zoo and mountaineers",
-      "stops": [
-       {
-        "time": "Morning",
-        "name": "Padmaja Naidu Himalayan Zoological Park and HMI",
-        "placeSlug": "padmaja-naidu-himalayan-zoological-park",
-        "duration": "3 hours",
-        "note": "Opens 8:30 am."
-       },
-       {
-        "time": "Lunch",
-        "name": "Momos and thukpa in town",
-        "duration": "1 hour"
-       },
-       {
-        "time": "Afternoon",
-        "name": "Happy Valley Tea Estate",
-        "placeSlug": "happy-valley-tea-estate",
-        "duration": "2 hours",
-        "note": "Listed as closing at 4:30 pm."
-       },
-       {
-        "time": "Late afternoon",
-        "name": "Tibetan Refugee Self Help Centre",
-        "placeSlug": "darjeeling",
-        "duration": "1 hour"
-       }
-      ],
-      "overnight": "Darjeeling",
-      "meals": "Tea tasting at the estate; sel roti as a snack."
-     },
-     {
-      "title": "Toy train and hilltops",
-      "stops": [
-       {
-        "time": "Morning",
-        "name": "Toy train ride",
-        "placeSlug": "darjeeling-himalayan-railway",
-        "duration": "2–3 hours",
-        "note": "Check schedules and book ahead."
-       },
-       {
-        "time": "Afternoon",
-        "name": "Japanese Peace Pagoda",
-        "placeSlug": "darjeeling",
-        "duration": "1 hour"
-       },
-       {
-        "time": "Late afternoon",
-        "name": "Observatory Hill and the Mahakal Temple",
-        "placeSlug": "observatory-hill",
-        "duration": "1 hour"
-       },
-       {
-        "time": "Evening",
-        "name": "Tea at a Mall café",
-        "duration": "1 hour"
-       }
-      ],
-      "overnight": "Darjeeling",
-      "meals": "Chang in a bamboo mug, or tea at a Mall Road stall."
-     }
-    ],
-    "budget": {
-     "assumptions": "Fees for the zoo, HMI, the toy train and tea tastings couldn't be confirmed from an official page during research — check before you go. Transport, hotels and meals are not estimated.",
-     "lines": [
-      {
-       "label": "Zoo and HMI, toy train, tea tasting",
-       "amount": "Check current fees",
-       "basis": "Not estimated"
-      }
-     ]
+      "kind": "seasonal"
     },
-    "booking": [
-     {
-      "item": "Toy train",
-      "detail": "Seats are limited — book ahead in peak season."
-     },
-     {
-      "item": "Tiger Hill transport",
-      "detail": "Arrange a shared or private jeep the evening before."
-     }
-    ],
-    "alternatives": [
-     "Add three to five days to trek to Sandakphu from Manebhanjan.",
-     "In the monsoon (June–September), allow extra time — landslides can disrupt road and rail."
-    ],
-    "tips": [
-     "Layer up: mornings are cold all year.",
-     "October to November gives the clearest mountain views."
-    ],
-    "style": "Hill station: views, rail and tea",
-    "start": "Bagdogra airport (about 90 km) or New Jalpaiguri",
-    "end": "Darjeeling",
-    "season": "October–November for the clearest views; April–May is also good. Avoid June–September rains.",
-    "difficulty": "Easy, with early starts",
-    "transport": "Shared or hired taxis, toy train and walking",
-    "prep": [
-     {
-      "title": "Getting there",
-      "body": "Bagdogra airport is about 90 km away; Darjeeling is 77 km from Siliguri by road, and the toy train runs about 88 km from New Jalpaiguri."
-     },
-     {
-      "title": "Getting around",
-      "body": "There are no public buses; use shared or hired taxis, or walk in town."
-     },
-     {
-      "title": "Weather",
-      "body": "Pre-dawn trips are cold at 2,045 m. In the monsoon, landslides often disrupt roads and the railway."
-     }
-    ],
-    "faqs": [
-     {
-      "q": "How early is the Tiger Hill sunrise trip?",
-      "a": "Leave around 3:30 am in season to reach the viewpoint before dawn."
-     },
-     {
-      "q": "Do I need to ride the whole toy-train line?",
-      "a": "No. The full line from New Jalpaiguri is slow (20–25 km/h); a ride to Ghum and Batasia Loop gives the highlights."
-     },
-     {
-      "q": "Can I see Everest?",
-      "a": "On clear mornings, Everest and Kanchenjunga are both visible from Tiger Hill."
-     }
-    ]
-   },
-   "facts": [
-    "BDJ3",
-    "BTH1",
-    "BTH2",
-    "BTH3",
-    "BDH3",
-    "BZO2",
-    "BDJ10",
-    "BHV3",
-    "BHV2",
-    "BDJ11",
-    "BDJ12",
-    "BOB1",
-    "BDJ13",
-    "BDJ6",
-    "BSD2",
-    "BDJ4",
-    "BDJ5",
-    "DJN13",
-    "DJN8",
-    "DJN11",
-    "BDH2",
-    "DJN3",
-    "DJN7",
-    "BTH4"
-   ],
-   "sources": []
-  }
- ]
+    "BDJ5": {
+      "place": "west-bengal/darjeeling",
+      "topic": "Clearest views",
+      "claim": "October to November offers the clearest mountain views; April to June is also pleasant.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_OBS",
+          "quote": "October to November offers the clearest views"
+        },
+        {
+          "source": "II_OBS",
+          "quote": "The best time to visit Observatory Hill is from April to June, when the weather is pleasant and clear for panoramic views of the mountains and Darjeeling."
+        }
+      ],
+      "kind": "seasonal"
+    },
+    "BDJ6": {
+      "place": "west-bengal/darjeeling",
+      "topic": "Food",
+      "claim": "Try momos, thukpa, sha phaley, sel roti and butter tea — Darjeeling's food blends Nepali, Sikkimese, Tibetan and Bengali traditions.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_FOOD",
+          "quote": "the culinary cultures that rule Darjeeling are varied, ranging from Nepali and Sikkimese to Tibetan and of course, Bengali."
+        },
+        {
+          "source": "II_DJ",
+          "quote": "Savour the sweet delights of Sel Roti, deep-fried rice doughnuts served with butter or chutney"
+        },
+        {
+          "source": "II_DJ",
+          "quote": "And don't miss the hearty Thukpa, a hot noodle soup brimming with meat, vegetables, and spices"
+        }
+      ]
+    },
+    "BDJ9": {
+      "place": "west-bengal/darjeeling",
+      "topic": "Festivals",
+      "claim": "The Darjeeling Carnival runs for 10 days in November, Losar (Tibetan New Year) falls in February–March, and Buddha Jayanti in May.",
+      "claimType": "schedule",
+      "evidence": [
+        {
+          "source": "II_DJ",
+          "quote": "the 10-day Darjeeling Carnival in November"
+        },
+        {
+          "source": "II_DJ",
+          "quote": "In February and March, the vibrant Tibetan New Year, Losha"
+        },
+        {
+          "source": "II_DJ",
+          "quote": "Finally, in May, Buddha Jayanti finds Buddhist temples adorned in celebration"
+        }
+      ],
+      "kind": "seasonal"
+    },
+    "BDH2": {
+      "place": "west-bengal/darjeeling-himalayan-railway",
+      "topic": "88 km, built 1879–1881",
+      "claim": "Built between 1879 and 1881, the 2-ft-gauge line runs about 88 km from New Jalpaiguri to Darjeeling, climbing from about 100 m to 2,200 m with six zig-zags and three loops.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "W_DHR",
+          "quote": "Built between 1879 and 1881, it is about 88 km (55 mi) long."
+        },
+        {
+          "source": "W_DHR",
+          "quote": "It climbs from about 100 m (330 ft) above sea level at New Jalpaiguri to about 2,200 m (7,200 ft) at Darjeeling, using six zig zags and three loops (originally five) to gain altitude."
+        }
+      ]
+    },
+    "BDH3": {
+      "place": "west-bengal/darjeeling-himalayan-railway",
+      "topic": "Ghum and Batasia Loop",
+      "claim": "Ghum station sits at 2,260 m; at Batasia Loop (1919), 5 km from Darjeeling, the track spirals around a hill beside the Gorkha War Memorial.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "W_DHR",
+          "quote": "Ghum station is situated at an altitude of 2,260 metres (7,410 ft) ."
+        },
+        {
+          "source": "W_BAT",
+          "quote": "At this point, the track spirals around over itself from the bottom of a small hill and over the hilltop. It was commissioned in 1919."
+        },
+        {
+          "source": "W_BAT",
+          "quote": "It is 5 km (3 mi) from Darjeeling, below Ghum ."
+        }
+      ]
+    },
+    "BTH4": {
+      "place": "west-bengal/tiger-hill",
+      "topic": "Everest and Kanchenjunga",
+      "claim": "Everest and Kanchenjunga, both visible from Tiger Hill, are 172 km apart; the hilltop gives a 360-degree panorama.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_TH",
+          "quote": "The distance between them—172 kilometres (107 miles)—adds to Everest’s mystique."
+        },
+        {
+          "source": "II_TH",
+          "quote": "Tiger Hill provides a 360-degree panorama that stretches from the snow-capped Himalayas to the lush green valleys below."
+        }
+      ]
+    },
+    "BSD2": {
+      "place": "west-bengal/sandakphu",
+      "topic": "The trek",
+      "claim": "Treks start at Manebhanjan, about 28 km (roughly an hour by road) from Darjeeling, and pass through Singalila National Park in stages via Chitre and Meghma.",
+      "claimType": "distance",
+      "evidence": [
+        {
+          "source": "W_SDK",
+          "quote": "Treks begin at Manebhanjan which is 28 km (17 mi) (approx. 1 hour by road) from Darjeeling ."
+        },
+        {
+          "source": "W_SDK",
+          "quote": "The Sandakphu trekking routes inside the Singalila National Park have four legs or stages."
+        },
+        {
+          "source": "W_SDK",
+          "quote": "Manebhanjan to Meghma – height 2,600 m (8,500 ft) : This is a 4-hour trek through the lower forest. The route goes via Chitre."
+        }
+      ]
+    },
+    "BTH1": {
+      "place": "west-bengal/tiger-hill",
+      "topic": "Sunrise over Kanchenjunga and Everest",
+      "claim": "Tiger Hill (2,590 m) is famous for sunrise views of Kanchenjunga, the world's third-highest peak, with Everest visible beyond.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_TH",
+          "quote": "at an elevation of 8,482 feet (2,590 meters) offers an unparalleled view of the world’s highest peaks, including Mount Everest and Mount Kanchenjunga."
+        },
+        {
+          "source": "II_TH",
+          "quote": "Kanchenjunga, the world’s third-highest peak, dominates the scene."
+        }
+      ]
+    },
+    "BTH2": {
+      "place": "west-bengal/tiger-hill",
+      "topic": "Arrive very early",
+      "claim": "In peak season crowds and traffic jams are common; Incredible India suggests arriving around 3:30 am.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_TH",
+          "quote": "in peak season, there is always a throng of people making their way up – and traffic jams are not uncommon. Arrive early, around 3:30 am, to secure a spot."
+        }
+      ],
+      "kind": "seasonal"
+    },
+    "BTH3": {
+      "place": "west-bengal/tiger-hill",
+      "topic": "On the way back",
+      "claim": "Stop at Batasia Loop, Ghum Monastery and the Senchal Wildlife Sanctuary on the way down.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_TH",
+          "quote": "On the way back from Tiger Hill, you can stop by Batasia Loop, Ghum Monastery and the Senchal Wildlife Sanctuary."
+        }
+      ]
+    },
+    "BZO2": {
+      "place": "west-bengal/padmaja-naidu-himalayan-zoological-park",
+      "topic": "Opening hours",
+      "claim": "Incredible India lists 8:30 am–4:30 pm in summer and 8:30 am–4 pm in winter.",
+      "claimType": "opening_hours",
+      "evidence": [
+        {
+          "source": "II_ZOO",
+          "quote": "Opening time - 08:30 AM to 04:30 PM (Summers)"
+        },
+        {
+          "source": "II_ZOO",
+          "quote": "08:30 AM to 04:00 PM (Winters)"
+        }
+      ],
+      "kind": "seasonal"
+    },
+    "BDJ10": {
+      "place": "west-bengal/darjeeling",
+      "topic": "Himalayan Mountaineering Institute",
+      "claim": "The Himalayan Mountaineering Institute, founded in 1954 after the first ascent of Everest, has a museum of expedition gear and photographs, with Tenzing Norgay's memorial outside.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "W_HMI",
+          "quote": "was established in Darjeeling , India on 4 November 1954"
+        },
+        {
+          "source": "II_QEH",
+          "quote": "The institute has exhibits of equipment, photographs and stories about Edmund Hillary, Tenzing Norgay and various other mountaineers."
+        },
+        {
+          "source": "II_QEH",
+          "quote": "Just outside the museum is the statue of Tenzing Norgay where his remains are also kept."
+        }
+      ]
+    },
+    "BHV3": {
+      "place": "west-bengal/happy-valley-tea-estate",
+      "topic": "Opening hours",
+      "claim": "Incredible India lists opening hours of 8 am to 4:30 pm.",
+      "claimType": "opening_hours",
+      "evidence": [
+        {
+          "source": "II_HV",
+          "quote": "Opening time - 08:00 AM"
+        },
+        {
+          "source": "II_HV",
+          "quote": "Closing time - 04:30 PM"
+        }
+      ]
+    },
+    "BHV2": {
+      "place": "west-bengal/happy-valley-tea-estate",
+      "topic": "Factory and tasting",
+      "claim": "Visitors can see leaves withered, rolled, oxidised and dried in the factory, then taste first- and second-flush teas.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_HV",
+          "quote": "Observe how the tea leaves are dried, oxidised, rolled, and withered"
+        },
+        {
+          "source": "II_HV",
+          "quote": "from delicate first-flush brews to strong second-flush brews"
+        }
+      ]
+    },
+    "BDJ11": {
+      "place": "west-bengal/darjeeling",
+      "topic": "Tibetan Refugee Self Help Centre",
+      "claim": "The Tibetan Refugee Self Help Centre, founded in 1959, has workshops where you can watch carpets and thangkas being made.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_TIB",
+          "quote": "Founded in 1959, this centre honours the courage of the Tibetan people who fled to India during political unrest."
+        },
+        {
+          "source": "II_TIB",
+          "quote": "Watch as skilled craftsmen and women create beautiful handcrafted items such as carpets, thangka paintings, and traditional Tibetan handicrafts."
+        }
+      ]
+    },
+    "BDJ12": {
+      "place": "west-bengal/darjeeling",
+      "topic": "Monasteries and Peace Pagoda",
+      "claim": "Monasteries include Yiga Choling (built 1850) at Ghum; the white Japanese Peace Pagoda was built by Nipponzan Myohoji.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_QEH",
+          "quote": "Yiga Choling gompa, one of the oldest monasteries in this region built in 1850"
+        },
+        {
+          "source": "II_QEH",
+          "quote": "Built by the Japanese Buddhist Nipponzan Myohoji organization, the large white pagoda has numerous carvings of Buddha and his preaching."
+        }
+      ]
+    },
+    "BOB1": {
+      "place": "west-bengal/observatory-hill",
+      "topic": "Mahakal Temple and views",
+      "claim": "Observatory Hill, above Chowrasta, has the Mahakal Temple and views of Kanchenjunga on clear days.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_OBS",
+          "quote": "Perched atop Observatory Hill, the Mahakal Temple stands as a beacon of spiritual devotion."
+        },
+        {
+          "source": "II_OBS",
+          "quote": "Rising above Chowrasta square or the Mall as it is popularly known in Darjeeling, Observatory Hill is an elevated vantage point that offers breathtaking views of snow-clad peaks"
+        }
+      ]
+    },
+    "BDJ13": {
+      "place": "west-bengal/darjeeling",
+      "topic": "The Mall and Chowrasta",
+      "claim": "The Mall and Chowrasta are the town's social heart — best in the evening.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_QEH",
+          "quote": "An ideal time to explore the famous mall road of Darjeeling is in the evening."
+        }
+      ],
+      "kind": "seasonal"
+    },
+    "DJN1": {
+      "place": "west-bengal/darjeeling",
+      "topic": "Crafts",
+      "claim": "Tibetan handicrafts on sale include thangka paintings, engraved copper plates, singing bowls, prayer wheels and Bhutia blankets; the Gorkha khukuri knife is a classic souvenir.",
+      "claimType": "general",
+      "kind": "verified",
+      "evidence": [
+        {
+          "source": "II_DJ",
+          "quote": "From exquisite Thangka paintings to intricately engraved copper plates"
+        },
+        {
+          "source": "II_DJ",
+          "quote": "the Khukuri makes for a meaningful and authentic souvenir"
+        }
+      ]
+    },
+    "DJN2": {
+      "place": "west-bengal/darjeeling",
+      "topic": "Markets",
+      "claim": "Shop at Hong Kong Market, Batasia Loop Market, Teesta Market, Chowk Bazar and along the Mall.",
+      "claimType": "general",
+      "kind": "verified",
+      "evidence": [
+        {
+          "source": "II_DJ",
+          "quote": "Whether you hunt for bargains at Hong Kong Market or Batasia Loop Market"
+        },
+        {
+          "source": "II_DJ",
+          "quote": "Don't miss the iconic Mall Road, where the town comes alive."
+        }
+      ]
+    },
+    "DJN3": {
+      "place": "west-bengal/darjeeling",
+      "topic": "Tea tours",
+      "claim": "Tea estates offer guided tours of tea-making with tastings.",
+      "claimType": "general",
+      "kind": "verified",
+      "evidence": [
+        {
+          "source": "II_DJ",
+          "quote": "Embark on a guided tour of a tea estate to witness first-hand the fascinating journey of tea production."
+        }
+      ]
+    },
+    "DJN4": {
+      "place": "west-bengal/darjeeling",
+      "topic": "Festivals",
+      "claim": "The Teesta Tea and Tourism Festival runs in November–December and the Darjeeling Orange Festival in December.",
+      "claimType": "schedule",
+      "kind": "seasonal",
+      "evidence": [
+        {
+          "source": "II_DJ",
+          "quote": "In November and December, the Teesta Tea and Tourism Festival"
+        },
+        {
+          "source": "II_DJ",
+          "quote": "the unique Darjeeling Orange Festival takes centrestage"
+        }
+      ]
+    },
+    "DJN5": {
+      "place": "west-bengal/darjeeling",
+      "topic": "Netaji Museum",
+      "claim": "The Netaji Subhas Chandra Bose Museum is in the house where he spent seven months under house arrest.",
+      "claimType": "general",
+      "kind": "verified",
+      "evidence": [
+        {
+          "source": "II_DJ",
+          "quote": "this house was once the abode of Netaji, who spent seven months under house arrest here"
+        }
+      ]
+    },
+    "DJN6": {
+      "place": "west-bengal/darjeeling",
+      "topic": "Mark Twain",
+      "claim": "Mark Twain rode the toy train in 1895.",
+      "claimType": "general",
+      "kind": "verified",
+      "evidence": [
+        {
+          "source": "II_DJ",
+          "quote": "Mark Twain, the renowned American writer, rode this Toy Train in 1895."
+        }
+      ]
+    },
+    "DJN7": {
+      "place": "west-bengal/darjeeling",
+      "topic": "Local brews",
+      "claim": "Chang and thomba, fermented-grain brews, are served in bamboo mugs.",
+      "claimType": "general",
+      "kind": "verified",
+      "evidence": [
+        {
+          "source": "II_DJ",
+          "quote": "Sample Chang and Thomba, local brews made from fermented grains, served in bamboo glasses"
+        }
+      ]
+    },
+    "DJN8": {
+      "place": "west-bengal/darjeeling",
+      "topic": "Local transport",
+      "claim": "Darjeeling has no public bus system; motorised travel is by six- or eight-seat shared taxis with no fixed routes or timetables.",
+      "claimType": "general",
+      "kind": "verified",
+      "evidence": [
+        {
+          "source": "W_DJ",
+          "quote": "As of 2018, Darjeeling had no public transport system of buses."
+        },
+        {
+          "source": "W_DJ",
+          "quote": "motorized travel was limited to six- or eight-seater paratransit taxis that have no set routes or timetables."
+        }
+      ]
+    },
+    "DJN9": {
+      "place": "west-bengal/darjeeling",
+      "topic": "Peak seasons",
+      "claim": "The peak tourist seasons are September–November and April–May.",
+      "claimType": "general",
+      "kind": "seasonal",
+      "evidence": [
+        {
+          "source": "W_DJ",
+          "quote": "Darjeeling has two peak tourism seasons, September to November and April to May."
+        }
+      ]
+    },
+    "DJN10": {
+      "place": "west-bengal/darjeeling",
+      "topic": "Chowrasta",
+      "claim": "Chowrasta is the town's main gathering and shopping square.",
+      "claimType": "general",
+      "kind": "verified",
+      "evidence": [
+        {
+          "source": "W_DJ",
+          "quote": "The Chowrasta is a popular shopping and gathering area"
+        }
+      ]
+    },
+    "DJN11": {
+      "place": "west-bengal/darjeeling",
+      "topic": "Toy train speed",
+      "claim": "The toy train moves at about 20–25 km/h.",
+      "claimType": "general",
+      "kind": "verified",
+      "evidence": [
+        {
+          "source": "W_DJ",
+          "quote": "it moves at speeds of between 20 kilometres (12 mi) and 25 kilometres (16 mi) per hour."
+        }
+      ]
+    },
+    "DJN12": {
+      "place": "west-bengal/darjeeling",
+      "topic": "Landslides",
+      "claim": "Landslides are a serious concern in the hills, mostly triggered by heavy rain.",
+      "claimType": "general",
+      "kind": "verified",
+      "evidence": [
+        {
+          "source": "W_DJ",
+          "quote": "landslides were a serious concern in the area."
+        },
+        {
+          "source": "W_DJ",
+          "quote": "Most are triggered by excessive rainfall"
+        }
+      ]
+    },
+    "DJN13": {
+      "place": "west-bengal/darjeeling",
+      "topic": "Elevation",
+      "claim": "Darjeeling town is at about 2,045 m.",
+      "claimType": "general",
+      "kind": "verified",
+      "evidence": [
+        {
+          "source": "W_DJ",
+          "quote": "It is located at an average elevation of 2,045 m (6,709 ft)"
+        }
+      ]
+    },
+    "WBF17": {
+      "place": "west-bengal/darjeeling",
+      "topic": "WBF17",
+      "claim": "Tiger Hill, 13 km from Darjeeling, is at 2,590 m; the Darjeeling Carnival is in November and the Orange Festival in December.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_DAR",
+          "quote": "Perched at an elevation of 2590 meters, just 13 kilometres from Darjeeling, lies the breath-taking Tiger Hill ."
+        },
+        {
+          "source": "II_DAR",
+          "quote": "the 10-day Darjeeling Carnival in November"
+        },
+        {
+          "source": "II_DAR",
+          "quote": "the unique Darjeeling Orange Festival takes centrestage"
+        }
+      ]
+    }
+  },
+  "places": [
+    {
+      "key": "west-bengal/darjeeling",
+      "kind": "town",
+      "name": "Darjeeling",
+      "parent": "west-bengal",
+      "summary": "The Queen of the Hills: Kanchenjunga sunrises from Tiger Hill, the UNESCO toy train, tea estates, monasteries and momos.",
+      "seoTitle": "Darjeeling Travel Guide: Toy Train, Tiger Hill & Tea",
+      "seoDescription": "Plan a Darjeeling trip: the UNESCO toy train, sunrise at Tiger Hill, Happy Valley tea estate, the zoo and HMI, monasteries, food and the best time to visit.",
+      "lat": 27.0375,
+      "lng": 88.2631,
+      "tripTypes": [
+        "mountains",
+        "heritage",
+        "food"
+      ],
+      "images": [
+        {
+          "commons": "File:Mount Kangchenjunga seen from Tiger Hill.jpg",
+          "alt": "Kanchenjunga at sunrise seen from Tiger Hill",
+          "hero": true
+        }
+      ],
+      "sections": {
+        "overview": {
+          "text": "Darjeeling sits at about 2,045 m on a ridge in northern West Bengal, facing Kanchenjunga. The British built it as a hill station and the summer capital of the Bengal Presidency, and Tibetan refugees later added monasteries, crafts and food to its mix of Gorkha, Lepcha and Bhutia cultures.\n\nThe Darjeeling Himalayan Railway, a UNESCO-listed toy train that Mark Twain rode in 1895, still climbs about 88 km from New Jalpaiguri at 20–25 km/h, spiralling round Batasia Loop below Ghum. Sunrise over Kanchenjunga from Tiger Hill, tea tastings on the estates, the zoo's red pandas and snow leopards, and the house where Netaji was held fill the days. Come in October–November for the clearest views, or April–May; avoid the June–September rains, when landslides cut roads.",
+          "facts": [
+            "DJN13",
+            "BDJ5",
+            "BDH2",
+            "DJN6",
+            "DJN11",
+            "BDH3",
+            "DJN3",
+            "DJN5",
+            "BDJ4",
+            "DJN9"
+          ]
+        },
+        "who_its_for": {
+          "items": [
+            {
+              "title": "Rail fans",
+              "body": "The UNESCO toy train, Ghum station and Batasia Loop."
+            },
+            {
+              "title": "Tea lovers",
+              "body": "Guided estate tours and tastings."
+            },
+            {
+              "title": "Trekkers",
+              "body": "Sandakphu treks start at Manebhanjan, about 28 km away."
+            },
+            {
+              "title": "Festival-goers",
+              "body": "The Darjeeling Carnival in November, the Teesta Tea and Tourism Festival in November–December and Losar in February–March."
+            }
+          ],
+          "facts": [
+            "BDH2",
+            "BDH3",
+            "DJN3",
+            "BSD2",
+            "BDJ9",
+            "DJN4"
+          ]
+        },
+        "local_transport": {
+          "text": "There is no public bus system. Motorised travel is by shared six- or eight-seat taxis with no fixed routes or timetables; they gather in the central bazaar. In town, walking is often quicker: Chowrasta and the Mall are the centre. Hire a taxi for the Tiger Hill sunrise trip and for Ghum and Batasia Loop, or ride the toy train there.",
+          "facts": [
+            "DJN8",
+            "DJN10",
+            "BDH3"
+          ]
+        },
+        "shopping": {
+          "items": [
+            {
+              "body": "Darjeeling tea, straight from the estates.",
+              "status": "verified"
+            },
+            {
+              "body": "Tibetan thangkas, singing bowls, prayer wheels and copper work.",
+              "status": "verified"
+            },
+            {
+              "body": "A khukuri, the Gorkha knife.",
+              "status": "verified"
+            },
+            {
+              "body": "Bargains at Hong Kong Market, Batasia Loop Market and Chowk Bazar; browsing on the Mall.",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "DJN3",
+            "DJN1",
+            "DJN2"
+          ]
+        },
+        "safety_health": {
+          "items": [
+            {
+              "title": "Landslides",
+              "body": "Landslides are a serious concern, mostly after heavy rain. About 80% of rain falls in June–September, when roads and the railway are often disrupted. Build slack into your plans.",
+              "status": "seasonal"
+            },
+            {
+              "title": "Cold mornings",
+              "body": "At 2,045 m, pre-dawn Tiger Hill trips are cold. Bring warm layers.",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "DJN12",
+            "BDJ4",
+            "DJN13"
+          ]
+        },
+        "common_mistakes": {
+          "items": [
+            {
+              "body": "Booking the June–September monsoon for mountain views. October–November is clearest."
+            },
+            {
+              "body": "Expecting buses. Shared taxis and walking are how people get around."
+            },
+            {
+              "body": "Riding the toy train all the way up on a tight schedule. At 20–25 km/h it is slow; the Ghum and Batasia Loop joy ride is shorter."
+            },
+            {
+              "body": "Skipping a tea-estate tour."
+            }
+          ],
+          "facts": [
+            "BDJ5",
+            "BDJ4",
+            "DJN8",
+            "DJN11",
+            "BDH3",
+            "DJN3"
+          ]
+        },
+        "faqs": {
+          "items": [
+            {
+              "title": "What is the best time to visit Darjeeling?",
+              "body": "October–November for clear mountain views; April–May is the other peak season."
+            },
+            {
+              "title": "How do I get to Darjeeling?",
+              "body": "Fly to Bagdogra (about 90 km) or take a train to New Jalpaiguri, then go by road (77 km from Siliguri) or the toy train."
+            },
+            {
+              "title": "Can I see Everest from Tiger Hill?",
+              "body": "Yes, on clear mornings, along with Kanchenjunga."
+            },
+            {
+              "title": "What should I try to eat and drink?",
+              "body": "Momos, thukpa, sel roti, butter tea and chang served in bamboo."
+            }
+          ],
+          "facts": [
+            "BDJ5",
+            "DJN9",
+            "BDJ3",
+            "BTH4",
+            "BDJ6",
+            "DJN7"
+          ]
+        },
+        "key_facts": {
+          "items": [
+            {
+              "title": "Tiger Hill",
+              "body": "2,590 m, 13 km away",
+              "status": "verified"
+            },
+            {
+              "title": "Darjeeling Carnival",
+              "body": "10 days in November",
+              "status": "seasonal"
+            },
+            {
+              "title": "Orange Festival",
+              "body": "December",
+              "status": "seasonal"
+            }
+          ],
+          "facts": [
+            "WBF17"
+          ]
+        }
+      }
+    }
+  ],
+  "itineraries": [
+    {
+      "place": "west-bengal/darjeeling",
+      "slug": "darjeeling-3-days",
+      "title": "Darjeeling in 3 days",
+      "summary": "Sunrise at Tiger Hill, the toy train to Batasia Loop, tea at Happy Valley, red pandas and Everest stories at the zoo and HMI, and evenings on the Mall.",
+      "durationDays": 3,
+      "tripTypes": [
+        "mountains",
+        "heritage",
+        "food"
+      ],
+      "seoTitle": "3-Day Darjeeling Itinerary: Tiger Hill & Toy Train",
+      "seoDescription": "A realistic 3-day Darjeeling plan: Tiger Hill sunrise, the toy train and Batasia Loop, Happy Valley Tea Estate, the zoo and HMI, monasteries and the Mall.",
+      "plan": {
+        "overview": "Darjeeling is 77 km from Siliguri and about 90 km from Bagdogra airport, so allow most of a day to arrive. This plan starts the morning after. Day 1 begins very early for Tiger Hill — rest in the afternoon.",
+        "days": [
+          {
+            "title": "Tiger Hill and Ghum",
+            "stops": [
+              {
+                "time": "3:30 am",
+                "name": "Tiger Hill sunrise",
+                "placeSlug": "tiger-hill",
+                "duration": "2–3 hours",
+                "note": "Arrive early in peak season; bring warm layers."
+              },
+              {
+                "time": "Morning",
+                "name": "Ghum Monastery and Batasia Loop",
+                "placeSlug": "darjeeling-himalayan-railway",
+                "duration": "1.5 hours"
+              },
+              {
+                "time": "Afternoon",
+                "name": "Rest",
+                "duration": "3 hours"
+              },
+              {
+                "time": "Evening",
+                "name": "Chowrasta and the Mall",
+                "placeSlug": "darjeeling",
+                "duration": "2 hours"
+              }
+            ],
+            "overnight": "Darjeeling",
+            "meals": "Butter tea at dawn; momos and thukpa for lunch.",
+            "travel": "Hired taxi before dawn to Tiger Hill, then Ghum and Batasia Loop.",
+            "distance": "Batasia Loop about 5 km from Darjeeling"
+          },
+          {
+            "title": "Tea, zoo and mountaineers",
+            "stops": [
+              {
+                "time": "Morning",
+                "name": "Padmaja Naidu Himalayan Zoological Park and HMI",
+                "placeSlug": "padmaja-naidu-himalayan-zoological-park",
+                "duration": "3 hours",
+                "note": "Opens 8:30 am."
+              },
+              {
+                "time": "Lunch",
+                "name": "Momos and thukpa in town",
+                "duration": "1 hour"
+              },
+              {
+                "time": "Afternoon",
+                "name": "Happy Valley Tea Estate",
+                "placeSlug": "happy-valley-tea-estate",
+                "duration": "2 hours",
+                "note": "Listed as closing at 4:30 pm."
+              },
+              {
+                "time": "Late afternoon",
+                "name": "Tibetan Refugee Self Help Centre",
+                "placeSlug": "darjeeling",
+                "duration": "1 hour"
+              }
+            ],
+            "overnight": "Darjeeling",
+            "meals": "Tea tasting at the estate; sel roti as a snack."
+          },
+          {
+            "title": "Toy train and hilltops",
+            "stops": [
+              {
+                "time": "Morning",
+                "name": "Toy train ride",
+                "placeSlug": "darjeeling-himalayan-railway",
+                "duration": "2–3 hours",
+                "note": "Check schedules and book ahead."
+              },
+              {
+                "time": "Afternoon",
+                "name": "Japanese Peace Pagoda",
+                "placeSlug": "darjeeling",
+                "duration": "1 hour"
+              },
+              {
+                "time": "Late afternoon",
+                "name": "Observatory Hill and the Mahakal Temple",
+                "placeSlug": "observatory-hill",
+                "duration": "1 hour"
+              },
+              {
+                "time": "Evening",
+                "name": "Tea at a Mall café",
+                "duration": "1 hour"
+              }
+            ],
+            "overnight": "Darjeeling",
+            "meals": "Chang in a bamboo mug, or tea at a Mall Road stall."
+          }
+        ],
+        "budget": {
+          "assumptions": "Fees for the zoo, HMI, the toy train and tea tastings couldn't be confirmed from an official page during research — check before you go. Transport, hotels and meals are not estimated.",
+          "lines": [
+            {
+              "label": "Zoo and HMI, toy train, tea tasting",
+              "amount": "Check current fees",
+              "basis": "Not estimated"
+            }
+          ]
+        },
+        "booking": [
+          {
+            "item": "Toy train",
+            "detail": "Seats are limited — book ahead in peak season."
+          },
+          {
+            "item": "Tiger Hill transport",
+            "detail": "Arrange a shared or private jeep the evening before."
+          }
+        ],
+        "alternatives": [
+          "Add three to five days to trek to Sandakphu from Manebhanjan.",
+          "In the monsoon (June–September), allow extra time — landslides can disrupt road and rail."
+        ],
+        "tips": [
+          "Layer up: mornings are cold all year.",
+          "October to November gives the clearest mountain views."
+        ],
+        "style": "Hill station: views, rail and tea",
+        "start": "Bagdogra airport (about 90 km) or New Jalpaiguri",
+        "end": "Darjeeling",
+        "season": "October–November for the clearest views; April–May is also good. Avoid June–September rains.",
+        "difficulty": "Easy, with early starts",
+        "transport": "Shared or hired taxis, toy train and walking",
+        "prep": [
+          {
+            "title": "Getting there",
+            "body": "Bagdogra airport is about 90 km away; Darjeeling is 77 km from Siliguri by road, and the toy train runs about 88 km from New Jalpaiguri."
+          },
+          {
+            "title": "Getting around",
+            "body": "There are no public buses; use shared or hired taxis, or walk in town."
+          },
+          {
+            "title": "Weather",
+            "body": "Pre-dawn trips are cold at 2,045 m. In the monsoon, landslides often disrupt roads and the railway."
+          }
+        ],
+        "faqs": [
+          {
+            "q": "How early is the Tiger Hill sunrise trip?",
+            "a": "Leave around 3:30 am in season to reach the viewpoint before dawn."
+          },
+          {
+            "q": "Do I need to ride the whole toy-train line?",
+            "a": "No. The full line from New Jalpaiguri is slow (20–25 km/h); a ride to Ghum and Batasia Loop gives the highlights."
+          },
+          {
+            "q": "Can I see Everest?",
+            "a": "On clear mornings, Everest and Kanchenjunga are both visible from Tiger Hill."
+          }
+        ]
+      },
+      "facts": [
+        "BDJ3",
+        "BTH1",
+        "BTH2",
+        "BTH3",
+        "BDH3",
+        "BZO2",
+        "BDJ10",
+        "BHV3",
+        "BHV2",
+        "BDJ11",
+        "BDJ12",
+        "BOB1",
+        "BDJ13",
+        "BDJ6",
+        "BSD2",
+        "BDJ4",
+        "BDJ5",
+        "DJN13",
+        "DJN8",
+        "DJN11",
+        "BDH2",
+        "DJN3",
+        "DJN7",
+        "BTH4"
+      ],
+      "sources": []
+    }
+  ]
 }

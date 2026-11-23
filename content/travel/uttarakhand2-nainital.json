@@ -8,6 +8,11 @@
       "url": "https://uttarakhandtourism.gov.in/destination/nainital",
       "title": "Nainital — Uttarakhand Tourism Development Board",
       "authority": "government"
+    },
+    "W_PAN2": {
+      "url": "https://en.wikipedia.org/wiki/Pangot",
+      "title": "Pangot — Wikipedia",
+      "authority": "reference"
     }
   },
   "facts": {
@@ -394,6 +399,54 @@
         {
           "source": "UT_NAI",
           "quote": "Hot-air ballooning camps are setup in and around Nainital, mainly at Sukhatal."
+        }
+      ]
+    },
+    "UKP1": {
+      "place": "uttarakhand/pangot",
+      "topic": "UKP1",
+      "claim": "Pangot, 13 km from Nainital at 6,510 ft, is a noted birdwatching site; the Pangot & Kilbury Bird Sanctuary lies within 10 km.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "W_PAN2",
+          "quote": "Pangot is a village in the Kosiyakutoli tehsil of Nainital district in Uttarakhand, India at a height of 6,510 feet."
+        },
+        {
+          "source": "W_PAN2",
+          "quote": "it is a noted Birdwatching site in the Himalayas, as the Pangot & Kilbury Bird Sanctuary part of the Naina Devi Himalayan Bird Conservation Reserve is within 10 km"
+        }
+      ]
+    },
+    "UKP2": {
+      "place": "uttarakhand/pangot",
+      "topic": "UKP2",
+      "claim": "Around 580 bird species have been recorded around the village, including the Himalayan griffon and cheer pheasant.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "W_PAN2",
+          "quote": "around 580 bird species have been recorded in the area around the village"
+        },
+        {
+          "source": "W_PAN2",
+          "quote": "including, Himalayan griffon (Himalayan vulture) and Cheer pheasant"
+        }
+      ]
+    },
+    "UKP3": {
+      "place": "uttarakhand/pangot",
+      "topic": "UKP3",
+      "claim": "Summer (March–July) runs about 25 °C by day and 12 °C at night; winter (December–January) about 18 °C and 8 °C.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "W_PAN2",
+          "quote": "During summer (March–July), temperatures can range from 25 °C in the afternoon to 12 °C at night."
+        },
+        {
+          "source": "W_PAN2",
+          "quote": "In the winter (December–January), temperatures range from 18 °C in the afternoon to 8 °C at night."
         }
       ]
     }
@@ -998,6 +1051,81 @@
             }
           ],
           "facts": []
+        },
+        "key_facts": {
+          "items": [
+            {
+              "title": "Altitude",
+              "body": "6,510 ft",
+              "status": "verified"
+            },
+            {
+              "title": "From Nainital",
+              "body": "13 km",
+              "status": "verified"
+            },
+            {
+              "title": "Birds recorded",
+              "body": "Around 580 species",
+              "status": "verified"
+            },
+            {
+              "title": "Sanctuary",
+              "body": "Pangot & Kilbury, within 10 km",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "UKP1",
+            "UKP2"
+          ]
+        },
+        "best_time": {
+          "text": "Summer (March–July) is mild, about 25 °C in the afternoon and 12 °C at night. Winter (December–January) is about 18 °C by day and 8 °C at night.",
+          "facts": [
+            "UKP3"
+          ]
+        },
+        "things_to_do": {
+          "items": [
+            {
+              "body": "Go birdwatching — around 580 species are recorded here."
+            },
+            {
+              "body": "Visit the Pangot & Kilbury Bird Sanctuary, within 10 km."
+            }
+          ],
+          "facts": [
+            "UKP2",
+            "UKP1"
+          ]
+        },
+        "who_its_for": {
+          "items": [
+            {
+              "title": "Birdwatchers",
+              "body": "Cheer pheasant and Himalayan griffon among some 580 species."
+            }
+          ],
+          "facts": [
+            "UKP2"
+          ]
+        },
+        "faqs": {
+          "items": [
+            {
+              "title": "How far is Pangot from Nainital?",
+              "body": "13 km."
+            },
+            {
+              "title": "Why do people go to Pangot?",
+              "body": "Birdwatching — around 580 species recorded."
+            }
+          ],
+          "facts": [
+            "UKP1",
+            "UKP2"
+          ]
         }
       }
     },

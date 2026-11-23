@@ -168,6 +168,21 @@
       "url": "https://travelcoffee.in/places-to-visit/hemis-monastery",
       "title": "Hemis Monastery — Travel Coffee",
       "authority": "travel_platform"
+    },
+    "W_TRT2": {
+      "url": "https://en.wikipedia.org/wiki/Turtuk",
+      "title": "Turtuk — Wikipedia",
+      "authority": "reference"
+    },
+    "LH_NUB2": {
+      "url": "https://leh.nic.in/tourist-place/nubra-valley/",
+      "title": "Nubra Valley — District Leh, UT of Ladakh",
+      "authority": "government"
+    },
+    "W_KGL2": {
+      "url": "https://en.wikipedia.org/wiki/Kargil",
+      "title": "Kargil — Wikipedia",
+      "authority": "reference"
     }
   },
   "facts": {
@@ -900,6 +915,126 @@
           "quote": "Entry to the monastery complex and museum costs ₹50 per person."
         }
       ]
+    },
+    "LTT1": {
+      "place": "ladakh/turtuk",
+      "topic": "LTT1",
+      "claim": "Turtuk opened to tourists in 2010; it has a few gompas above the Shyok, an old royal house, and a few homestays and guest houses. It is the last major village open to tourists before the Line of Control.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "W_TRT2",
+          "quote": "Turtuk was opened to tourists in 2010."
+        },
+        {
+          "source": "W_TRT2",
+          "quote": "There are a few gompas located on the plateau above the Shyok River and there is an old royal house to see in the village."
+        },
+        {
+          "source": "W_TRT2",
+          "quote": "one can find a few homestays and guest houses in the village"
+        },
+        {
+          "source": "W_TRT2",
+          "quote": "It is the last major village where tourist activity is allowed before the Line of Control."
+        }
+      ]
+    },
+    "LTT2": {
+      "place": "ladakh/turtuk",
+      "topic": "LTT2",
+      "claim": "Turtuk's five villages are the only Balti-populated region in India; the village is known for apricots and buckwheat, and its lanes have no motor roads.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "W_TRT2",
+          "quote": "These villages form the only region in India populated by Balti people."
+        },
+        {
+          "source": "W_TRT2",
+          "quote": "Turtuk is known for its fruit, especially apricots."
+        },
+        {
+          "source": "LH_NUB2",
+          "quote": "The village famous for its buckwheat, is the last outpost of India."
+        },
+        {
+          "source": "LH_NUB2",
+          "quote": "with no motor roads in the heart of the village"
+        }
+      ]
+    },
+    "LKG1": {
+      "place": "ladakh/kargil",
+      "topic": "LKG1",
+      "claim": "Kargil, Ladakh's second-largest town and joint capital, is 204 km east of Srinagar and 234 km west of Leh, on the Suru river.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "W_KGL2",
+          "quote": "It is the joint capital of Ladakh"
+        },
+        {
+          "source": "W_KGL2",
+          "quote": "It is the second-largest urban centre in Ladakh after Leh."
+        },
+        {
+          "source": "W_KGL2",
+          "quote": "Kargil is located 204 kilometres (127 mi) east of Srinagar in Jammu and Kashmir, and 234 kilometres (145 mi) to the west of Leh."
+        }
+      ]
+    },
+    "LKG2": {
+      "place": "ladakh/kargil",
+      "topic": "LKG2",
+      "claim": "The nearest major airports are Leh and Srinagar; Jammu Tawi, about 440 km away, is the nearest major railhead. Kargil airport has seasonal air force flights carrying civilians in winter.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "W_KGL2",
+          "quote": "The nearest major airports are the Leh Airport with regular domestic flights and the Srinagar International Airport."
+        },
+        {
+          "source": "W_KGL2",
+          "quote": "The nearest major railhead is the Jammu Tawi railway station located about 440 km (270 mi) from the town."
+        },
+        {
+          "source": "W_KGL2",
+          "quote": "The air force operates seasonal flights that carry cargo and transport civilians during the winter."
+        }
+      ]
+    },
+    "LNB1": {
+      "place": "ladakh/nubra-valley",
+      "topic": "LNB1",
+      "claim": "Nubra, about 120 km north of Leh over Khardung La, is called the orchard of Ladakh; Diskit is its main town, with a 108 ft Maitreya Buddha. Highlights include Panamik hot spring, Bactrian camel safaris at Hunder, rafting and trekking.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "LH_NUB2",
+          "quote": "Situated about 120km north from Leh town, NubraValley is known as the orchard of Ladakh"
+        },
+        {
+          "source": "LH_NUB2",
+          "quote": "Diskit town is the largest and the main town of the region however the main attraction is the 108ft tall Statue of Maitreya Buddha."
+        },
+        {
+          "source": "LH_NUB2",
+          "quote": "Panamik hot spring, double humped camel safari, river rafting, trekking and sunbath in the dunes of Hunder."
+        }
+      ]
+    },
+    "LNB2": {
+      "place": "ladakh/nubra-valley",
+      "topic": "LNB2",
+      "claim": "The Siachen base camp has been opened to domestic tourists.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "LH_NUB2",
+          "quote": "has been thrown open for domestic tourists recently but only until the base camp"
+        }
+      ]
     }
   },
   "places": [
@@ -1236,6 +1371,32 @@
             "LA1",
             "LH3",
             "NBK1"
+          ]
+        },
+        "things_to_do": {
+          "items": [
+            {
+              "body": "Climb the nine-storey Leh Palace, built in the 1630s."
+            },
+            {
+              "body": "Walk the 500 steps to the Shanti Stupa (5 am–9 pm)."
+            },
+            {
+              "body": "See Thiksey, the twelve-storey monastery 19 km east."
+            },
+            {
+              "body": "Visit Stok Palace and its museum of thangkas."
+            },
+            {
+              "body": "Try the optical illusion at Magnetic Hill, 30 km out."
+            }
+          ],
+          "facts": [
+            "LHP1",
+            "LHS1",
+            "LHT1",
+            "LHK1",
+            "LHM1"
           ]
         }
       },
@@ -1999,6 +2160,36 @@
             "NB2",
             "NB1"
           ]
+        },
+        "who_its_for": {
+          "items": [
+            {
+              "title": "Adventure seekers",
+              "body": "Rafting, trekking and camel safaris at Hunder."
+            },
+            {
+              "title": "Road-trippers",
+              "body": "The drive over Khardung La."
+            },
+            {
+              "title": "Families",
+              "body": "Camel rides on the Hunder dunes."
+            },
+            {
+              "title": "Siachen visitors",
+              "body": "The Siachen base camp is open to domestic tourists."
+            }
+          ],
+          "facts": [
+            "LNB1",
+            "LNB2"
+          ]
+        },
+        "local_transport": {
+          "text": "Nubra is reached by road from Leh over Khardung La, about 120 km. Within the valley, Diskit is the main town and base.",
+          "facts": [
+            "LNB1"
+          ]
         }
       },
       "parent": "ladakh/leh"
@@ -2333,6 +2524,75 @@
             "NB2",
             "LA_112"
           ]
+        },
+        "things_to_do": {
+          "items": [
+            {
+              "body": "Walk the village lanes, which have no motor roads."
+            },
+            {
+              "body": "Visit the gompas on the plateau above the Shyok."
+            },
+            {
+              "body": "See the old royal house."
+            },
+            {
+              "body": "Meet Balti families and hear stories of 1971."
+            }
+          ],
+          "facts": [
+            "LTT1",
+            "LTT2"
+          ]
+        },
+        "where_to_stay": {
+          "text": "Turtuk has a few homestays and guest houses.",
+          "facts": [
+            "LTT1"
+          ]
+        },
+        "food": {
+          "items": [
+            {
+              "body": "Apricots, Turtuk's best-known fruit."
+            },
+            {
+              "body": "Buckwheat, the village's other famous crop."
+            }
+          ],
+          "facts": [
+            "LTT2"
+          ]
+        },
+        "who_its_for": {
+          "items": [
+            {
+              "title": "Culture seekers",
+              "body": "India's only Balti villages."
+            },
+            {
+              "title": "Slow travellers",
+              "body": "Car-free lanes and orchards."
+            }
+          ],
+          "facts": [
+            "LTT2"
+          ]
+        },
+        "faqs": {
+          "items": [
+            {
+              "title": "When did Turtuk open to tourists?",
+              "body": "In 2010."
+            },
+            {
+              "title": "Can I stay overnight?",
+              "body": "Yes — there are a few homestays and guest houses."
+            }
+          ],
+          "facts": [
+            "LTT1"
+          ]
         }
       },
       "wikidataId": "Q24905777",
@@ -2618,6 +2878,40 @@
           "facts": [
             "LA4",
             "LA_112"
+          ]
+        },
+        "local_transport": {
+          "text": "Kargil sits on the NH 1 between Srinagar (204 km) and Leh (234 km). The nearest major airports are Leh and Srinagar; in winter the air force runs seasonal flights from Kargil airport that also carry civilians.",
+          "facts": [
+            "LKG1",
+            "LKG2"
+          ]
+        },
+        "who_its_for": {
+          "items": [
+            {
+              "title": "Road-trippers",
+              "body": "The halfway town between Srinagar and Leh."
+            }
+          ],
+          "facts": [
+            "LKG1"
+          ]
+        },
+        "faqs": {
+          "items": [
+            {
+              "title": "How far is Kargil from Leh?",
+              "body": "About 234 km; Srinagar is about 204 km."
+            },
+            {
+              "title": "What is the nearest railhead?",
+              "body": "Jammu Tawi, about 440 km away."
+            }
+          ],
+          "facts": [
+            "LKG1",
+            "LKG2"
           ]
         }
       },

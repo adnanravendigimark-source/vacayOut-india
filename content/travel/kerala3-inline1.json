@@ -1,0 +1,265 @@
+{
+ "cluster": "kl-inline-1",
+ "title": "Kerala — inline places (2026-11-20)",
+ "researchedAt": "2026-11-20",
+ "selection": "Two Kerala places shown inside their parent pages, from Kerala Tourism and Wikipedia.",
+ "sources": {
+  "W_CFN": {
+   "url": "https://en.wikipedia.org/wiki/Chinese_fishing_nets",
+   "title": "Chinese fishing nets — Wikipedia",
+   "authority": "reference"
+  },
+  "W_FKO": {
+   "url": "https://en.wikipedia.org/wiki/Fort_Kochi",
+   "title": "Fort Kochi — Wikipedia",
+   "authority": "reference"
+  },
+  "KT_BR": {
+   "url": "https://www.keralatourism.org/adventure-tourism/bamboo-rafting",
+   "title": "Bamboo Rafting — Kerala Tourism (Government of Kerala)",
+   "authority": "government"
+  },
+  "KT_BRP": {
+   "url": "https://www.keralatourism.org/kerala-article/bamboo-rafting-periyar-tiger-reserve/429/",
+   "title": "Bamboo Rafting in Periyar Tiger Reserve — Kerala Tourism (Government of Kerala)",
+   "authority": "government"
+  }
+ },
+ "facts": {
+  "KCN1": {
+   "place": "kerala/fort-kochi-chinese-nets-kathakali",
+   "topic": "KCN1",
+   "claim": "In India the Chinese fishing nets are found mainly in Kochi and Kollam, where they are a tourist attraction; each is worked by a team of up to six fishermen.",
+   "claimType": "general",
+   "evidence": [
+    {
+     "source": "W_CFN",
+     "quote": "in India they are mostly found in the Indian cities of Kochi and Kollam, where they have become a tourist attraction"
+    },
+    {
+     "source": "W_CFN",
+     "quote": "Each installation is operated by a team of up to six fishermen."
+    }
+   ]
+  },
+  "KCN2": {
+   "place": "kerala/fort-kochi-chinese-nets-kathakali",
+   "topic": "KCN2",
+   "claim": "Fort Kochi's waterfront nets are believed to have been introduced by Chinese traders in the early 14th century.",
+   "claimType": "general",
+   "evidence": [
+    {
+     "source": "W_FKO",
+     "quote": "a series of precolonial Chinese fishing nets on the waterfront, believed to have been introduced by Chinese traders in the early 14th century"
+    }
+   ]
+  },
+  "KCN3": {
+   "place": "kerala/fort-kochi-chinese-nets-kathakali",
+   "topic": "KCN3",
+   "claim": "The nets are so finely balanced that a man walking along the main beam lowers the net; it is raised again after a few minutes by pulling ropes.",
+   "claimType": "general",
+   "evidence": [
+    {
+     "source": "W_CFN",
+     "quote": "The system is sufficiently balanced that the weight of a man walking along the main beam is sufficient to cause the net to descend into the sea."
+    },
+    {
+     "source": "W_CFN",
+     "quote": "The net is left for a short time, possibly just a few minutes, before it is raised by pulling on ropes."
+    }
+   ]
+  },
+  "KCN4": {
+   "place": "kerala/fort-kochi-chinese-nets-kathakali",
+   "topic": "KCN4",
+   "claim": "You can buy fish from the catch and have it cooked by street cooks nearby.",
+   "claimType": "general",
+   "evidence": [
+    {
+     "source": "W_CFN",
+     "quote": "catches can be purchased individually and taken only a short distance to street cooks who'll cook them"
+    }
+   ]
+  },
+  "KBR1": {
+   "place": "kerala/periyar-bamboo-rafting-wildlife",
+   "topic": "KBR1",
+   "claim": "Bamboo rafting is part of the Periyar Tiger Reserve's eco-tourism programme; a forest trek leads to the starting point.",
+   "claimType": "general",
+   "evidence": [
+    {
+     "source": "KT_BRP",
+     "quote": "This bamboo rafting is part of the 'nature walk' of eco-tourism project by the Periyar Tiger Reserve."
+    },
+    {
+     "source": "KT_BRP",
+     "quote": "A trek through the dense forest will take you to the starting point."
+    }
+   ]
+  },
+  "KBR2": {
+   "place": "kerala/periyar-bamboo-rafting-wildlife",
+   "topic": "KBR2",
+   "claim": "Guides, many from local tribal communities, point out elephants, gaur, sambar, otters, water birds and raptors along the way.",
+   "claimType": "general",
+   "evidence": [
+    {
+     "source": "KT_BR",
+     "quote": "elephants, gaurs, sambar, otters, water birds, and raptors"
+    },
+    {
+     "source": "KT_BRP",
+     "quote": "Most of these guides belong to the tribal communities"
+    }
+   ]
+  },
+  "KBR3": {
+   "place": "kerala/periyar-bamboo-rafting-wildlife",
+   "topic": "KBR3",
+   "claim": "October to March, after the monsoon, is the best season; slots are fixed, guides are mandatory and groups are small, so book ahead.",
+   "claimType": "general",
+   "evidence": [
+    {
+     "source": "KT_BR",
+     "quote": "Usually, the good season is from October to March when the monsoon is over."
+    },
+    {
+     "source": "KT_BR",
+     "quote": "there are fixed time slots (morning / full day / half day) with mandatory guides and limited group sizes, therefore, it is better to make a reservation in advance"
+    }
+   ]
+  },
+  "KBR4": {
+   "place": "kerala/periyar-bamboo-rafting-wildlife",
+   "topic": "KBR4",
+   "claim": "Kottayam station is about 114 km from Thekkady; Madurai airport is about 136 km and Kochi airport about 190 km.",
+   "claimType": "general",
+   "evidence": [
+    {
+     "source": "KT_BRP",
+     "quote": "Nearest Railway station: Kottayam, about 114 km from Thekkady."
+    },
+    {
+     "source": "KT_BRP",
+     "quote": "Nearest Airport: Madurai in Tamil Nadu, about 136 km; Nedumbassery airport in Kochi, about 190 km."
+    }
+   ]
+  },
+  "KBR5": {
+   "place": "kerala/periyar-bamboo-rafting-wildlife",
+   "topic": "KBR5",
+   "claim": "A 2013 Kerala Tourism article describes a full-day trip, about 8 am to 5 pm, with teams of ten led by an armed forest guard and four guides.",
+   "claimType": "general",
+   "evidence": [
+    {
+     "source": "KT_BRP",
+     "quote": "The trip usually commences by 8 in the morning and will conclude by 5 in the evening."
+    },
+    {
+     "source": "KT_BRP",
+     "quote": "Each team comprising ten tourists will be accompanied by an armed forest guard and four guides."
+    }
+   ]
+  }
+ },
+ "places": [
+  {
+   "key": "kerala/fort-kochi-chinese-nets-kathakali",
+   "kind": "attraction",
+   "name": "Fort Kochi Chinese Fishing Nets & Kathakali",
+   "parent": "kerala/kochi",
+   "summary": "Fort Kochi's waterfront Chinese fishing nets, worked by teams of fishermen.",
+   "seoTitle": "Chinese Fishing Nets, Fort Kochi",
+   "seoDescription": "The Chinese fishing nets on Fort Kochi's waterfront: how they work, their 14th-century origins, and buying the catch to have it cooked nearby.",
+   "lat": 9.9658,
+   "lng": 76.2425,
+   "tripTypes": [
+    "heritage"
+   ],
+   "sections": {
+    "overview": {
+     "text": "The Chinese fishing nets on Fort Kochi's waterfront are believed to have been introduced by Chinese traders in the early 14th century. In India they are found mainly in Kochi and Kollam, and they draw visitors for their size and rhythm. Each net is worked by a team of up to six fishermen: the frame is so finely balanced that a man walking along the main beam lowers it into the water, and after a few minutes it is hauled up again with ropes.",
+     "facts": [
+      "KCN2",
+      "KCN1",
+      "KCN3"
+     ]
+    },
+    "things_to_do": {
+     "items": [
+      {
+       "body": "Watch a team lower and raise a net."
+      },
+      {
+       "body": "Buy fish from the catch and have it cooked by a street cook nearby."
+      }
+     ],
+     "facts": [
+      "KCN3",
+      "KCN4"
+     ]
+    }
+   },
+   "displayMode": "parent_section"
+  },
+  {
+   "key": "kerala/periyar-bamboo-rafting-wildlife",
+   "kind": "activity",
+   "name": "Periyar Bamboo Rafting & Wildlife Trek",
+   "parent": "kerala/thekkady",
+   "summary": "A forest trek and bamboo raft on Periyar lake, run by the tiger reserve's eco-tourism programme.",
+   "seoTitle": "Periyar Bamboo Rafting, Thekkady",
+   "seoDescription": "Bamboo rafting in Periyar Tiger Reserve: a guided forest trek and raft on the lake, best October–March; book ahead, guides are mandatory.",
+   "lat": 9.6031,
+   "lng": 77.1615,
+   "tripTypes": [
+    "adventure",
+    "wildlife",
+    "nature"
+   ],
+   "sections": {
+    "overview": {
+     "text": "Bamboo rafting is part of Periyar Tiger Reserve's eco-tourism programme at Thekkady. A guided trek through the forest leads to the lake, where you continue on a quiet bamboo raft. The guides, many from local tribal communities, point out elephants, gaur, sambar, otters, water birds and raptors along the banks.",
+     "facts": [
+      "KBR1",
+      "KBR2"
+     ]
+    },
+    "best_time": {
+     "text": "October to March, after the monsoon, when trails are firmer and views over the water clearer. Slots are fixed, guides are mandatory and groups are small, so book ahead.",
+     "facts": [
+      "KBR3"
+     ]
+    },
+    "how_to_reach": {
+     "text": "Kottayam is the nearest railway station, about 114 km from Thekkady. Madurai airport is about 136 km away and Kochi airport about 190 km.",
+     "facts": [
+      "KBR4"
+     ]
+    },
+    "practical_info": {
+     "items": [
+      {
+       "title": "Trip length",
+       "body": "A 2013 Kerala Tourism article describes a full day, about 8 am to 5 pm.",
+       "status": "unconfirmed"
+      },
+      {
+       "title": "Group",
+       "body": "Teams of ten with an armed forest guard and four guides (2013 description).",
+       "status": "unconfirmed"
+      }
+     ],
+     "facts": [
+      "KBR5"
+     ]
+    }
+   },
+   "displayMode": "parent_section",
+   "category": "adventure"
+  }
+ ],
+ "itineraries": [],
+ "guides": []
+}

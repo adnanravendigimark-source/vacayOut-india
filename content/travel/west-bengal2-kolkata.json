@@ -1,667 +1,792 @@
 {
- "cluster": "west-bengal2-kolkata",
- "title": "Kolkata (Batch 2)",
- "researchedAt": "2026-11-18",
- "selection": "Batch 2. Kolkata had only overview, things to do and highlights. Adds how to reach, local transport, best time, food, who it's for, common mistakes and FAQs, a fuller overview (pending review) and rewrites the draft kolkata-3-days itinerary (moved here from state-gaps.json). West Bengal Tourism's site failed TLS, so sources are Incredible India and Wikipedia. Not covered: entry fees and opening hours, tram service (status unclear in 2026).",
- "sources": {
-  "II_KOL": {
-   "url": "https://www.incredibleindia.gov.in/en/west-bengal/kolkata",
-   "title": "Kolkata — Incredible India",
-   "authority": "government"
-  },
-  "W_KOL": {
-   "url": "https://en.wikipedia.org/wiki/Kolkata",
-   "title": "Kolkata — Wikipedia",
-   "authority": "reference"
-  }
- },
- "facts": {
-  "KB1": {
-   "place": "west-bengal/kolkata",
-   "topic": "Location",
-   "claim": "Kolkata lies on the east bank of the Hooghly, about 80 km west of the Bangladesh border.",
-   "claimType": "distance",
-   "kind": "verified",
-   "evidence": [
-    {
-     "source": "W_KOL",
-     "quote": "It lies on the eastern bank of the Hooghly River, 80 km (50 mi) west of the border with Bangladesh."
-    }
-   ]
-  },
-  "KB2": {
-   "place": "west-bengal/kolkata",
-   "topic": "Airport",
-   "claim": "Netaji Subhas Chandra Bose International Airport at Dum Dum is about 16 km north-east of the centre.",
-   "claimType": "distance",
-   "kind": "verified",
-   "evidence": [
-    {
-     "source": "W_KOL",
-     "quote": "Netaji Subhas Chandra Bose International Airport, located in Dum Dum, about 16 km (9.9 mi) north-east of the city centre"
-    }
-   ]
-  },
-  "KB3": {
-   "place": "west-bengal/kolkata",
-   "topic": "Railway stations",
-   "claim": "Long-distance trains use Howrah, Sealdah, Kolkata, Shalimar and Santragachi stations; Howrah is India's largest and busiest railway complex.",
-   "claimType": "general",
-   "kind": "verified",
-   "evidence": [
-    {
-     "source": "W_KOL",
-     "quote": "Kolkata has five long-distance inter-city railway stations, located at Howrah (the largest and busiest railway complex in India"
+  "cluster": "west-bengal2-kolkata",
+  "title": "Kolkata (Batch 2)",
+  "researchedAt": "2026-11-18",
+  "selection": "Batch 2. Kolkata had only overview, things to do and highlights. Adds how to reach, local transport, best time, food, who it's for, common mistakes and FAQs, a fuller overview (pending review) and rewrites the draft kolkata-3-days itinerary (moved here from state-gaps.json). West Bengal Tourism's site failed TLS, so sources are Incredible India and Wikipedia. Not covered: entry fees and opening hours, tram service (status unclear in 2026).",
+  "sources": {
+    "II_KOL": {
+      "url": "https://www.incredibleindia.gov.in/en/west-bengal/kolkata",
+      "title": "Kolkata — Incredible India",
+      "authority": "government"
     },
-    {
-     "source": "W_KOL",
-     "quote": "Sealdah (2nd busiest in India"
+    "W_KOL": {
+      "url": "https://en.wikipedia.org/wiki/Kolkata",
+      "title": "Kolkata — Wikipedia",
+      "authority": "reference"
     },
-    {
-     "source": "W_KOL",
-     "quote": "Kolkata, Shalimar and Santragachi Junction, which connect Kolkata by rail"
-    }
-   ]
-  },
-  "KB4": {
-   "place": "west-bengal/kolkata",
-   "topic": "Metro",
-   "claim": "The Kolkata Metro, running since 1984, is India's oldest underground system.",
-   "claimType": "general",
-   "kind": "verified",
-   "evidence": [
-    {
-     "source": "W_KOL",
-     "quote": "The Kolkata Metro, in operation since 1984, is the oldest underground mass transit system in India."
-    }
-   ]
-  },
-  "KB5": {
-   "place": "west-bengal/kolkata",
-   "topic": "Ferries",
-   "claim": "Ferries cross the Hooghly between Kolkata and Howrah.",
-   "claimType": "general",
-   "kind": "verified",
-   "evidence": [
-    {
-     "source": "W_KOL",
-     "quote": "Ferry services connect Kolkata with its twin city of Howrah, located across the Hooghly River."
-    }
-   ]
-  },
-  "KB6": {
-   "place": "west-bengal/kolkata",
-   "topic": "Taxis and rickshaws",
-   "claim": "Yellow metered taxis and auto rickshaws are common; cycle and hand-pulled rickshaws serve short trips in parts of the city.",
-   "claimType": "general",
-   "kind": "verified",
-   "evidence": [
-    {
-     "source": "W_KOL",
-     "quote": "Hired public conveyances include auto rickshaws, which often ply specific routes, and yellow metered taxis."
+    "EVISA": {
+      "url": "https://indianvisaonline.gov.in/evisa/tvoa.html",
+      "title": "Indian e-Visa — official information (Government of India)",
+      "authority": "government"
     },
-    {
-     "source": "W_KOL",
-     "quote": "In parts of the city, cycle rickshaws and hand-pulled rickshaws are used by the public for short trips."
-    }
-   ]
-  },
-  "KB7": {
-   "place": "west-bengal/kolkata",
-   "topic": "Summer",
-   "claim": "Summers (March–June) are hot and humid, with temperatures in the low 30s °C.",
-   "claimType": "general",
-   "kind": "seasonal",
-   "evidence": [
-    {
-     "source": "W_KOL",
-     "quote": "Summers (March–June) are hot and humid, with temperatures in the low 30s Celsius"
-    }
-   ]
-  },
-  "KB8": {
-   "place": "west-bengal/kolkata",
-   "topic": "Winter",
-   "claim": "Winter lows dip to about 9–11 °C in December and January.",
-   "claimType": "general",
-   "kind": "seasonal",
-   "evidence": [
-    {
-     "source": "W_KOL",
-     "quote": "with seasonal lows dipping to 9–11 °C (48–52 °F) in December and January"
-    }
-   ]
-  },
-  "KB9": {
-   "place": "west-bengal/kolkata",
-   "topic": "Monsoon",
-   "claim": "The monsoon brings most of the year's rain between June and September.",
-   "claimType": "general",
-   "kind": "seasonal",
-   "evidence": [
-    {
-     "source": "W_KOL",
-     "quote": "lash Kolkata between June and September, supplying it with most of its annual rainfall"
-    }
-   ]
-  },
-  "KB10": {
-   "place": "west-bengal/kolkata",
-   "topic": "Durga Puja",
-   "claim": "Durga Puja, in September–October, is Kolkata's biggest festival.",
-   "claimType": "schedule",
-   "kind": "seasonal",
-   "evidence": [
-    {
-     "source": "W_KOL",
-     "quote": "Durga Puja, held in September–October, is Kolkata's most important and largest festival"
-    }
-   ]
-  },
-  "KB11": {
-   "place": "west-bengal/kolkata",
-   "topic": "Other festivals",
-   "claim": "Other festivals include Poila Boishak (Bengali New Year), Kali Puja, Diwali, Christmas and Eid.",
-   "claimType": "general",
-   "kind": "verified",
-   "evidence": [
-    {
-     "source": "W_KOL",
-     "quote": "Poila Boishak, as well as the harvest festival of Poush Parbon are among the city's other festivals"
-    }
-   ]
-  },
-  "KB12": {
-   "place": "west-bengal/kolkata",
-   "topic": "Food",
-   "claim": "Classic Kolkata food: machher jhol (fish curry) with rice, ilish, and sweets such as roshogolla, sandesh and mishti dohi.",
-   "claimType": "general",
-   "kind": "verified",
-   "evidence": [
-    {
-     "source": "W_KOL",
-     "quote": "Key elements of Kolkata's cuisine include rice and a fish curry known as machher jhol"
+    "UPI": {
+      "url": "https://www.aap.com.au/aapreleases/cision20240723ae67416/",
+      "title": "NPCI: 'UPI One World' wallet available to inbound international travellers (press release, 24 July 2024)",
+      "authority": "media"
     },
-    {
-     "source": "W_KOL",
-     "quote": "which can be accompanied by desserts such as roshogolla, sandesh, and a sweet yoghurt known as mishti dohi."
+    "W_112": {
+      "url": "https://en.wikipedia.org/wiki/112_(emergency_telephone_number)",
+      "title": "112 (emergency telephone number) — Wikipedia",
+      "authority": "reference"
     }
-   ]
   },
-  "KB13": {
-   "place": "west-bengal/kolkata",
-   "topic": "Street food",
-   "claim": "Street favourites include beguni, kati rolls, phuchka and Indian Chinese food from Chinatown.",
-   "claimType": "general",
-   "kind": "verified",
-   "evidence": [
-    {
-     "source": "W_KOL",
-     "quote": "phuchka (a deep-fried crêpe with tamarind sauce) and Indian Chinese cuisine from Chinatown are popular."
-    }
-   ]
-  },
-  "KB14": {
-   "place": "west-bengal/kolkata",
-   "topic": "Park Street",
-   "claim": "Park Street is the city's food and nightlife hub.",
-   "claimType": "general",
-   "kind": "verified",
-   "evidence": [
-    {
-     "source": "II_KOL",
-     "quote": "No visit to Kolkata is complete without a stroll down Park Street"
-    }
-   ]
-  },
-  "KB15": {
-   "place": "west-bengal/kolkata",
-   "topic": "Kumartuli",
-   "claim": "Kumartuli is the potters' quarter where clay idols are made for festivals.",
-   "claimType": "general",
-   "kind": "verified",
-   "evidence": [
-    {
-     "source": "II_KOL",
-     "quote": "be sure to visit Kumartuli, the city's renowned potters' quarter, where artisans create exquisite clay idols for festivals and celebrations."
-    }
-   ]
-  },
-  "KB16": {
-   "place": "west-bengal/kolkata",
-   "topic": "Jorasanko",
-   "claim": "Tagore's ancestral home, Jorasanko Thakur Bari, is now a museum to his life and work.",
-   "claimType": "general",
-   "kind": "verified",
-   "evidence": [
-    {
-     "source": "II_KOL",
-     "quote": "Travellers can visit Tagore's ancestral home, Jorasanko Thakur Bari, which has been transformed into a museum dedicated to his life and works."
-    }
-   ]
-  },
-  "KB17": {
-   "place": "west-bengal/college-street",
-   "topic": "Coffee House",
-   "claim": "The Indian Coffee House on College Street has long been a meeting place for writers, artists and students.",
-   "claimType": "general",
-   "kind": "verified",
-   "evidence": [
-    {
-     "source": "II_KOL",
-     "quote": "on College Street is a historic institution where intellectuals, artists, and students have gathered for lively discussions"
-    }
-   ]
-  },
-  "KB18": {
-   "place": "west-bengal/kolkata",
-   "topic": "Maidan",
-   "claim": "The Maidan, the 'lungs of Kolkata', is a vast open ground in the heart of the city; the Victoria Memorial stands at its southern end.",
-   "claimType": "general",
-   "kind": "verified",
-   "evidence": [
-    {
-     "source": "W_KOL",
-     "quote": "The Maidan is a large open field in the heart of the city that has been called the"
+  "facts": {
+    "KB1": {
+      "place": "west-bengal/kolkata",
+      "topic": "Location",
+      "claim": "Kolkata lies on the east bank of the Hooghly, about 80 km west of the Bangladesh border.",
+      "claimType": "distance",
+      "kind": "verified",
+      "evidence": [
+        {
+          "source": "W_KOL",
+          "quote": "It lies on the eastern bank of the Hooghly River, 80 km (50 mi) west of the border with Bangladesh."
+        }
+      ]
     },
-    {
-     "source": "W_KOL",
-     "quote": "Victoria Memorial and Kolkata Race Course are located at the southern end of the Maidan."
+    "KB2": {
+      "place": "west-bengal/kolkata",
+      "topic": "Airport",
+      "claim": "Netaji Subhas Chandra Bose International Airport at Dum Dum is about 16 km north-east of the centre.",
+      "claimType": "distance",
+      "kind": "verified",
+      "evidence": [
+        {
+          "source": "W_KOL",
+          "quote": "Netaji Subhas Chandra Bose International Airport, located in Dum Dum, about 16 km (9.9 mi) north-east of the city centre"
+        }
+      ]
+    },
+    "KB3": {
+      "place": "west-bengal/kolkata",
+      "topic": "Railway stations",
+      "claim": "Long-distance trains use Howrah, Sealdah, Kolkata, Shalimar and Santragachi stations; Howrah is India's largest and busiest railway complex.",
+      "claimType": "general",
+      "kind": "verified",
+      "evidence": [
+        {
+          "source": "W_KOL",
+          "quote": "Kolkata has five long-distance inter-city railway stations, located at Howrah (the largest and busiest railway complex in India"
+        },
+        {
+          "source": "W_KOL",
+          "quote": "Sealdah (2nd busiest in India"
+        },
+        {
+          "source": "W_KOL",
+          "quote": "Kolkata, Shalimar and Santragachi Junction, which connect Kolkata by rail"
+        }
+      ]
+    },
+    "KB4": {
+      "place": "west-bengal/kolkata",
+      "topic": "Metro",
+      "claim": "The Kolkata Metro, running since 1984, is India's oldest underground system.",
+      "claimType": "general",
+      "kind": "verified",
+      "evidence": [
+        {
+          "source": "W_KOL",
+          "quote": "The Kolkata Metro, in operation since 1984, is the oldest underground mass transit system in India."
+        }
+      ]
+    },
+    "KB5": {
+      "place": "west-bengal/kolkata",
+      "topic": "Ferries",
+      "claim": "Ferries cross the Hooghly between Kolkata and Howrah.",
+      "claimType": "general",
+      "kind": "verified",
+      "evidence": [
+        {
+          "source": "W_KOL",
+          "quote": "Ferry services connect Kolkata with its twin city of Howrah, located across the Hooghly River."
+        }
+      ]
+    },
+    "KB6": {
+      "place": "west-bengal/kolkata",
+      "topic": "Taxis and rickshaws",
+      "claim": "Yellow metered taxis and auto rickshaws are common; cycle and hand-pulled rickshaws serve short trips in parts of the city.",
+      "claimType": "general",
+      "kind": "verified",
+      "evidence": [
+        {
+          "source": "W_KOL",
+          "quote": "Hired public conveyances include auto rickshaws, which often ply specific routes, and yellow metered taxis."
+        },
+        {
+          "source": "W_KOL",
+          "quote": "In parts of the city, cycle rickshaws and hand-pulled rickshaws are used by the public for short trips."
+        }
+      ]
+    },
+    "KB7": {
+      "place": "west-bengal/kolkata",
+      "topic": "Summer",
+      "claim": "Summers (March–June) are hot and humid, with temperatures in the low 30s °C.",
+      "claimType": "general",
+      "kind": "seasonal",
+      "evidence": [
+        {
+          "source": "W_KOL",
+          "quote": "Summers (March–June) are hot and humid, with temperatures in the low 30s Celsius"
+        }
+      ]
+    },
+    "KB8": {
+      "place": "west-bengal/kolkata",
+      "topic": "Winter",
+      "claim": "Winter lows dip to about 9–11 °C in December and January.",
+      "claimType": "general",
+      "kind": "seasonal",
+      "evidence": [
+        {
+          "source": "W_KOL",
+          "quote": "with seasonal lows dipping to 9–11 °C (48–52 °F) in December and January"
+        }
+      ]
+    },
+    "KB9": {
+      "place": "west-bengal/kolkata",
+      "topic": "Monsoon",
+      "claim": "The monsoon brings most of the year's rain between June and September.",
+      "claimType": "general",
+      "kind": "seasonal",
+      "evidence": [
+        {
+          "source": "W_KOL",
+          "quote": "lash Kolkata between June and September, supplying it with most of its annual rainfall"
+        }
+      ]
+    },
+    "KB10": {
+      "place": "west-bengal/kolkata",
+      "topic": "Durga Puja",
+      "claim": "Durga Puja, in September–October, is Kolkata's biggest festival.",
+      "claimType": "schedule",
+      "kind": "seasonal",
+      "evidence": [
+        {
+          "source": "W_KOL",
+          "quote": "Durga Puja, held in September–October, is Kolkata's most important and largest festival"
+        }
+      ]
+    },
+    "KB11": {
+      "place": "west-bengal/kolkata",
+      "topic": "Other festivals",
+      "claim": "Other festivals include Poila Boishak (Bengali New Year), Kali Puja, Diwali, Christmas and Eid.",
+      "claimType": "general",
+      "kind": "verified",
+      "evidence": [
+        {
+          "source": "W_KOL",
+          "quote": "Poila Boishak, as well as the harvest festival of Poush Parbon are among the city's other festivals"
+        }
+      ]
+    },
+    "KB12": {
+      "place": "west-bengal/kolkata",
+      "topic": "Food",
+      "claim": "Classic Kolkata food: machher jhol (fish curry) with rice, ilish, and sweets such as roshogolla, sandesh and mishti dohi.",
+      "claimType": "general",
+      "kind": "verified",
+      "evidence": [
+        {
+          "source": "W_KOL",
+          "quote": "Key elements of Kolkata's cuisine include rice and a fish curry known as machher jhol"
+        },
+        {
+          "source": "W_KOL",
+          "quote": "which can be accompanied by desserts such as roshogolla, sandesh, and a sweet yoghurt known as mishti dohi."
+        }
+      ]
+    },
+    "KB13": {
+      "place": "west-bengal/kolkata",
+      "topic": "Street food",
+      "claim": "Street favourites include beguni, kati rolls, phuchka and Indian Chinese food from Chinatown.",
+      "claimType": "general",
+      "kind": "verified",
+      "evidence": [
+        {
+          "source": "W_KOL",
+          "quote": "phuchka (a deep-fried crêpe with tamarind sauce) and Indian Chinese cuisine from Chinatown are popular."
+        }
+      ]
+    },
+    "KB14": {
+      "place": "west-bengal/kolkata",
+      "topic": "Park Street",
+      "claim": "Park Street is the city's food and nightlife hub.",
+      "claimType": "general",
+      "kind": "verified",
+      "evidence": [
+        {
+          "source": "II_KOL",
+          "quote": "No visit to Kolkata is complete without a stroll down Park Street"
+        }
+      ]
+    },
+    "KB15": {
+      "place": "west-bengal/kolkata",
+      "topic": "Kumartuli",
+      "claim": "Kumartuli is the potters' quarter where clay idols are made for festivals.",
+      "claimType": "general",
+      "kind": "verified",
+      "evidence": [
+        {
+          "source": "II_KOL",
+          "quote": "be sure to visit Kumartuli, the city's renowned potters' quarter, where artisans create exquisite clay idols for festivals and celebrations."
+        }
+      ]
+    },
+    "KB16": {
+      "place": "west-bengal/kolkata",
+      "topic": "Jorasanko",
+      "claim": "Tagore's ancestral home, Jorasanko Thakur Bari, is now a museum to his life and work.",
+      "claimType": "general",
+      "kind": "verified",
+      "evidence": [
+        {
+          "source": "II_KOL",
+          "quote": "Travellers can visit Tagore's ancestral home, Jorasanko Thakur Bari, which has been transformed into a museum dedicated to his life and works."
+        }
+      ]
+    },
+    "KB17": {
+      "place": "west-bengal/college-street",
+      "topic": "Coffee House",
+      "claim": "The Indian Coffee House on College Street has long been a meeting place for writers, artists and students.",
+      "claimType": "general",
+      "kind": "verified",
+      "evidence": [
+        {
+          "source": "II_KOL",
+          "quote": "on College Street is a historic institution where intellectuals, artists, and students have gathered for lively discussions"
+        }
+      ]
+    },
+    "KB18": {
+      "place": "west-bengal/kolkata",
+      "topic": "Maidan",
+      "claim": "The Maidan, the 'lungs of Kolkata', is a vast open ground in the heart of the city; the Victoria Memorial stands at its southern end.",
+      "claimType": "general",
+      "kind": "verified",
+      "evidence": [
+        {
+          "source": "W_KOL",
+          "quote": "The Maidan is a large open field in the heart of the city that has been called the"
+        },
+        {
+          "source": "W_KOL",
+          "quote": "Victoria Memorial and Kolkata Race Course are located at the southern end of the Maidan."
+        }
+      ]
+    },
+    "KB19": {
+      "place": "west-bengal/kolkata",
+      "topic": "Heritage",
+      "claim": "Kolkata's heritage includes India's only Chinatown and old Jewish, Armenian, Greek and Anglo-Indian communities.",
+      "claimType": "general",
+      "kind": "verified",
+      "evidence": [
+        {
+          "source": "W_KOL",
+          "quote": "The city's heritage includes India's only Chinatown"
+        }
+      ]
+    },
+    "KB20": {
+      "place": "west-bengal/kolkata",
+      "topic": "River",
+      "claim": "A boat ride on the Hooghly shows the city's waterfront.",
+      "claimType": "general",
+      "kind": "verified",
+      "evidence": [
+        {
+          "source": "II_KOL",
+          "quote": "take a leisurely boat ride along the tranquil waters of the Hooghly River"
+        }
+      ]
+    },
+    "KB21": {
+      "place": "west-bengal/kolkata",
+      "topic": "Cultural capital",
+      "claim": "Incredible India calls Kolkata the cultural capital of India; Rabindra Sangeet, Tagore's music, is central to its culture.",
+      "claimType": "general",
+      "kind": "verified",
+      "evidence": [
+        {
+          "source": "II_KOL",
+          "quote": "Kolkata, the cultural capital of India, is steeped in history and tradition."
+        }
+      ]
+    },
+    "WBF16": {
+      "place": "west-bengal/kolkata",
+      "topic": "WBF16",
+      "claim": "Kolkata's highlights include Howrah Bridge, New Market, the Indian Museum, boat rides on the Hooghly and the potters of Kumartuli.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_KOL",
+          "quote": "From the iconic Howrah Bridge to the vibrant bustle of New Market"
+        },
+        {
+          "source": "II_KOL",
+          "quote": "Venture into the vast grounds of the Indian Museum"
+        },
+        {
+          "source": "II_KOL",
+          "quote": "take a leisurely boat ride along the tranquil waters of the Hooghly River"
+        },
+        {
+          "source": "II_KOL",
+          "quote": "be sure to visit Kumartuli, the city's renowned potters' quarter"
+        }
+      ]
+    },
+    "WBKLXV": {
+      "place": "west-bengal/kolkata",
+      "topic": "WBKLXV",
+      "claim": "e-Tourist visa applications should be made at least 4 days before arrival, with a passport valid for at least six months.",
+      "claimType": "rule",
+      "evidence": [
+        {
+          "source": "EVISA",
+          "quote": "For e-Tourist and e-Business visa, Applicants of the eligible countries/territories may apply online minimum 4 days in advance of the date of arrival."
+        },
+        {
+          "source": "EVISA",
+          "quote": "Applicant's passport should have at least six months validity at the time of making application for grant of e-Visa."
+        }
+      ]
+    },
+    "WBKLXU": {
+      "place": "west-bengal/kolkata",
+      "topic": "WBKLXU",
+      "claim": "International visitors can pay by QR code using NPCI's UPI One World wallet after a passport-and-visa KYC check.",
+      "claimType": "rule",
+      "evidence": [
+        {
+          "source": "UPI",
+          "quote": "The UPI One World wallet can be availed through authorized PPI issuers at airports, hotels, designated money exchange locations and other touchpoints, following a full KYC process based on a passport and valid visa."
+        }
+      ]
+    },
+    "WBKLXE": {
+      "place": "west-bengal/kolkata",
+      "topic": "WBKLXE",
+      "claim": "112 is India's single emergency number for police, fire and ambulance.",
+      "claimType": "contact",
+      "evidence": [
+        {
+          "source": "W_112",
+          "quote": "112 is now the pan-country single emergency number for all emergencies."
+        }
+      ]
     }
-   ]
   },
-  "KB19": {
-   "place": "west-bengal/kolkata",
-   "topic": "Heritage",
-   "claim": "Kolkata's heritage includes India's only Chinatown and old Jewish, Armenian, Greek and Anglo-Indian communities.",
-   "claimType": "general",
-   "kind": "verified",
-   "evidence": [
+  "places": [
     {
-     "source": "W_KOL",
-     "quote": "The city's heritage includes India's only Chinatown"
-    }
-   ]
-  },
-  "KB20": {
-   "place": "west-bengal/kolkata",
-   "topic": "River",
-   "claim": "A boat ride on the Hooghly shows the city's waterfront.",
-   "claimType": "general",
-   "kind": "verified",
-   "evidence": [
-    {
-     "source": "II_KOL",
-     "quote": "take a leisurely boat ride along the tranquil waters of the Hooghly River"
-    }
-   ]
-  },
-  "KB21": {
-   "place": "west-bengal/kolkata",
-   "topic": "Cultural capital",
-   "claim": "Incredible India calls Kolkata the cultural capital of India; Rabindra Sangeet, Tagore's music, is central to its culture.",
-   "claimType": "general",
-   "kind": "verified",
-   "evidence": [
-    {
-     "source": "II_KOL",
-     "quote": "Kolkata, the cultural capital of India, is steeped in history and tradition."
-    }
-   ]
-  }
- },
- "places": [
-  {
-   "key": "west-bengal/kolkata",
-   "kind": "city",
-   "name": "Kolkata",
-   "parent": "west-bengal",
-   "summary": "Bengal's cultural capital: the Victoria Memorial, Howrah Bridge, Kali temples, College Street and Durga Puja.",
-   "seoTitle": "Kolkata Travel Guide: Sights, Food & Durga Puja",
-   "seoDescription": "Plan Kolkata: Victoria Memorial, Howrah Bridge, Dakshineswar and Kalighat, Belur Math, the Indian Museum, College Street and Durga Puja.",
-   "lat": 22.5675,
-   "lng": 88.37,
-   "tripTypes": [
-    "heritage",
-    "food",
-    "spiritual"
-   ],
-   "images": [
-    {
-     "commons": "File:Kolkata maidan.jpg",
-     "alt": "The Maidan in central Kolkata",
-     "hero": true
-    }
-   ],
-   "sections": {
-    "overview": {
-     "text": "Kolkata, the former Calcutta, lies on the east bank of the Hooghly and calls itself the cultural capital of India. It was the capital of British India, and its centre still shows it: the white-marble Victoria Memorial at the end of the Maidan, the vast green 'lungs of Kolkata', and the steel Howrah Bridge over the river.\n\nThe city is also deeply Bengali. Tagore's family home at Jorasanko is a museum, the bookstalls and Coffee House of College Street are still busy, and in Kumartuli potters shape the clay idols for Durga Puja, the city's great festival every September–October. Kali is worshipped at Kalighat and Dakshineswar, and Belur Math across the river is the home of the Ramakrishna movement. Food is a reason to come in itself, from machher jhol and roshogolla to phuchka, kati rolls and Chinatown's Indian Chinese. Come in winter for the mildest weather.",
-     "facts": [
-      "KB1",
-      "KB21",
-      "KB18",
-      "KB16",
-      "KB17",
-      "KB15",
-      "KB10",
-      "KB12",
-      "KB13",
-      "KB19",
-      "KB8"
-     ]
-    },
-    "how_to_reach": {
-     "text": "By air: Netaji Subhas Chandra Bose International Airport at Dum Dum is about 16 km north-east of the centre and has domestic and international flights.\n\nBy train: long-distance trains arrive at Howrah, India's largest railway complex, or Sealdah, with Kolkata, Shalimar and Santragachi stations for some routes. Check which station your train uses: Howrah is across the river from the city centre.",
-     "facts": [
-      "KB2",
-      "KB3"
-     ]
-    },
-    "local_transport": {
-     "text": "The Kolkata Metro, running since 1984, is the quickest way to beat traffic along the north–south spine. Yellow metered taxis, app cabs and auto rickshaws cover the rest, and ferries cross the Hooghly between Kolkata and Howrah, which is a pleasant way to reach the riverside temples and see the waterfront. Cycle and hand-pulled rickshaws still work short trips in some older neighbourhoods.",
-     "facts": [
-      "KB4",
-      "KB6",
-      "KB5",
-      "KB20"
-     ]
-    },
-    "best_time": {
-     "text": "Winter (roughly November–February) is the most comfortable time, with lows of about 9–11 °C in December and January. Summer (March–June) is hot and humid, and the monsoon brings heavy rain from June to September. Come in September–October for Durga Puja, the city's biggest festival, but book early and expect crowds. Poila Boishak (the Bengali New Year), Kali Puja, Diwali, Christmas and Eid are also celebrated.",
-     "facts": [
-      "KB8",
-      "KB7",
-      "KB9",
-      "KB10",
-      "KB11"
-     ]
-    },
-    "food": {
-     "items": [
-      {
-       "body": "Machher jhol (fish curry) with rice, and ilish when it's in season.",
-       "status": "verified"
-      },
-      {
-       "body": "Roshogolla, sandesh and mishti dohi from a sweet shop.",
-       "status": "verified"
-      },
-      {
-       "body": "Phuchka, beguni and kati rolls from street stalls.",
-       "status": "verified"
-      },
-      {
-       "body": "Indian Chinese food in Chinatown.",
-       "status": "verified"
-      },
-      {
-       "body": "An evening of restaurants and bars on Park Street.",
-       "status": "verified"
-      }
-     ],
-     "facts": [
-      "KB12",
-      "KB13",
-      "KB14"
-     ]
-    },
-    "who_its_for": {
-     "items": [
-      {
-       "title": "Culture lovers",
-       "body": "Jorasanko Thakur Bari, the Indian Museum, the Victoria Memorial and College Street's Coffee House."
-      },
-      {
-       "title": "Food lovers",
-       "body": "Bengali fish, sweets, street food and Park Street's restaurants."
-      },
-      {
-       "title": "Pilgrims",
-       "body": "Kalighat, Dakshineswar and Belur Math."
-      },
-      {
-       "title": "Festival-goers",
-       "body": "Durga Puja in September–October, and Kumartuli's idol-makers in the weeks before."
-      }
-     ],
-     "facts": [
-      "KB16",
-      "KB17",
-      "KB12",
-      "KB14",
-      "KB10",
-      "KB15"
-     ]
-    },
-    "common_mistakes": {
-     "items": [
-      {
-       "body": "Assuming every train uses Howrah. Many arrive at Sealdah, on the other side of the river."
-      },
-      {
-       "body": "Taking a taxi everywhere at rush hour. The metro is often much faster."
-      },
-      {
-       "body": "Arriving for Durga Puja without a hotel booking."
-      },
-      {
-       "body": "Leaving without trying the sweets. Roshogolla, sandesh and mishti dohi are a big part of the city's food culture."
-      }
-     ],
-     "facts": [
-      "KB3",
-      "KB4",
-      "KB10",
-      "KB12"
-     ]
-    },
-    "faqs": {
-     "items": [
-      {
-       "title": "How far is the airport from the city centre?",
-       "body": "About 16 km; the airport is at Dum Dum, north-east of the centre."
-      },
-      {
-       "title": "When is Durga Puja?",
-       "body": "In September–October; the exact dates follow the Hindu calendar."
-      },
-      {
-       "title": "What is the best way to get around?",
-       "body": "The metro for longer hops, with taxis, autos and Hooghly ferries for the rest."
-      },
-      {
-       "title": "When is the weather best?",
-       "body": "Winter, when December–January lows are about 9–11 °C. Summers are hot and humid, and June–September is the monsoon."
-      }
-     ],
-     "facts": [
-      "KB2",
-      "KB10",
-      "KB4",
-      "KB5",
-      "KB8",
-      "KB7",
-      "KB9"
-     ]
-    }
-   }
-  }
- ],
- "itineraries": [
-  {
-   "place": "west-bengal/kolkata",
-   "slug": "kolkata-3-days",
-   "title": "Kolkata in 3 days",
-   "durationDays": 3,
-   "tripTypes": [
-    "heritage",
-    "food",
-    "spiritual"
-   ],
-   "summary": "The Victoria Memorial and Maidan, the Hooghly's temples by ferry, Howrah Bridge at dusk, Kalighat, College Street and Bengali food.",
-   "seoTitle": "Kolkata 3-Day Itinerary: Sights, Temples, Books & Food",
-   "seoDescription": "Three days in Kolkata: Victoria Memorial and the Indian Museum, Dakshineswar and Belur Math, Howrah Bridge, Kalighat, College Street, Kumartuli and street food.",
-   "facts": [
-    "KB2",
-    "KB4",
-    "KB5",
-    "KB18",
-    "KB17",
-    "KB15",
-    "KB16",
-    "KB12",
-    "KB13",
-    "KB14",
-    "KB8",
-    "KB10",
-    "KB7",
-    "KB9"
-   ],
-   "plan": {
-    "overview": "A first visit that mixes the colonial centre, the riverside temples and old north Kolkata, with a Bengali meal every day. Use the metro and ferries to dodge traffic.",
-    "style": "City break: heritage, temples and food",
-    "start": "Kolkata (airport about 16 km from the centre)",
-    "end": "Kolkata",
-    "season": "Winter is most comfortable; September–October for Durga Puja. Summer is hot and humid, and June–September is the monsoon.",
-    "difficulty": "Easy; lots of walking in heat and crowds",
-    "transport": "Metro, taxis, autos and Hooghly ferries",
-    "days": [
-     {
-      "title": "The Maidan, Victoria Memorial and Park Street",
-      "stops": [
-       {
-        "time": "Morning",
-        "name": "Victoria Memorial",
-        "placeSlug": "victoria-memorial",
-        "duration": "2.5 hours",
-        "note": "At the southern end of the Maidan."
-       },
-       {
-        "time": "Afternoon",
-        "name": "Indian Museum",
-        "placeSlug": "indian-museum",
-        "duration": "2.5 hours"
-       },
-       {
-        "time": "Evening",
-        "name": "Park Street",
-        "duration": "2–3 hours",
-        "note": "Dinner and the city's nightlife hub."
-       }
+      "key": "west-bengal/kolkata",
+      "kind": "city",
+      "name": "Kolkata",
+      "parent": "west-bengal",
+      "summary": "Bengal's cultural capital: the Victoria Memorial, Howrah Bridge, Kali temples, College Street and Durga Puja.",
+      "seoTitle": "Kolkata Travel Guide: Sights, Food & Durga Puja",
+      "seoDescription": "Plan Kolkata: Victoria Memorial, Howrah Bridge, Dakshineswar and Kalighat, Belur Math, the Indian Museum, College Street and Durga Puja.",
+      "lat": 22.5675,
+      "lng": 88.37,
+      "tripTypes": [
+        "heritage",
+        "food",
+        "spiritual"
       ],
-      "travel": "Taxi or metro between the Maidan and the museum area.",
-      "meals": "Bengali lunch near the museum; dinner on Park Street.",
-      "overnight": "Kolkata"
-     },
-     {
-      "title": "The Hooghly: Dakshineswar, Belur Math and Howrah Bridge",
-      "stops": [
-       {
-        "time": "Morning",
-        "name": "Dakshineswar Kali Temple",
-        "placeSlug": "dakshineswar-kali-temple",
-        "duration": "2 hours"
-       },
-       {
-        "time": "Midday",
-        "name": "Belur Math",
-        "placeSlug": "belur-math",
-        "duration": "2 hours",
-        "note": "Across the river from Dakshineswar."
-       },
-       {
-        "time": "Evening",
-        "name": "Howrah Bridge and a river crossing",
-        "placeSlug": "howrah-bridge",
-        "duration": "1.5 hours",
-        "note": "Cross the Hooghly by ferry between Howrah and Kolkata."
-       }
+      "images": [
+        {
+          "commons": "File:Kolkata maidan.jpg",
+          "alt": "The Maidan in central Kolkata",
+          "hero": true
+        }
       ],
-      "travel": "Taxi north to Dakshineswar; cross the river to Belur; return by ferry or road to Howrah.",
-      "meals": "Simple lunch near Belur; phuchka and kati rolls in the evening.",
-      "overnight": "Kolkata"
-     },
-     {
-      "title": "Kalighat, College Street and old north Kolkata",
-      "stops": [
-       {
-        "time": "Early morning",
-        "name": "Kalighat Kali Temple",
-        "placeSlug": "kalighat-kali-temple",
-        "duration": "1.5 hours",
-        "note": "Go early to beat the queues."
-       },
-       {
-        "time": "Late morning",
-        "name": "College Street and the Indian Coffee House",
-        "placeSlug": "college-street",
-        "duration": "2.5 hours"
-       },
-       {
-        "time": "Afternoon",
-        "name": "Jorasanko Thakur Bari (Tagore's house)",
-        "duration": "1.5 hours"
-       },
-       {
-        "time": "Late afternoon",
-        "name": "Kumartuli potters' quarter",
-        "duration": "1 hour",
-        "note": "Busiest in the weeks before Durga Puja."
-       }
+      "sections": {
+        "overview": {
+          "text": "Kolkata, the former Calcutta, lies on the east bank of the Hooghly and calls itself the cultural capital of India. It was the capital of British India, and its centre still shows it: the white-marble Victoria Memorial at the end of the Maidan, the vast green 'lungs of Kolkata', and the steel Howrah Bridge over the river.\n\nThe city is also deeply Bengali. Tagore's family home at Jorasanko is a museum, the bookstalls and Coffee House of College Street are still busy, and in Kumartuli potters shape the clay idols for Durga Puja, the city's great festival every September–October. Kali is worshipped at Kalighat and Dakshineswar, and Belur Math across the river is the home of the Ramakrishna movement. Food is a reason to come in itself, from machher jhol and roshogolla to phuchka, kati rolls and Chinatown's Indian Chinese. Come in winter for the mildest weather.",
+          "facts": [
+            "KB1",
+            "KB21",
+            "KB18",
+            "KB16",
+            "KB17",
+            "KB15",
+            "KB10",
+            "KB12",
+            "KB13",
+            "KB19",
+            "KB8"
+          ]
+        },
+        "how_to_reach": {
+          "text": "By air: Netaji Subhas Chandra Bose International Airport at Dum Dum is about 16 km north-east of the centre and has domestic and international flights.\n\nBy train: long-distance trains arrive at Howrah, India's largest railway complex, or Sealdah, with Kolkata, Shalimar and Santragachi stations for some routes. Check which station your train uses: Howrah is across the river from the city centre.",
+          "facts": [
+            "KB2",
+            "KB3"
+          ]
+        },
+        "local_transport": {
+          "text": "The Kolkata Metro, running since 1984, is the quickest way to beat traffic along the north–south spine. Yellow metered taxis, app cabs and auto rickshaws cover the rest, and ferries cross the Hooghly between Kolkata and Howrah, which is a pleasant way to reach the riverside temples and see the waterfront. Cycle and hand-pulled rickshaws still work short trips in some older neighbourhoods.",
+          "facts": [
+            "KB4",
+            "KB6",
+            "KB5",
+            "KB20"
+          ]
+        },
+        "best_time": {
+          "text": "Winter (roughly November–February) is the most comfortable time, with lows of about 9–11 °C in December and January. Summer (March–June) is hot and humid, and the monsoon brings heavy rain from June to September. Come in September–October for Durga Puja, the city's biggest festival, but book early and expect crowds. Poila Boishak (the Bengali New Year), Kali Puja, Diwali, Christmas and Eid are also celebrated.",
+          "facts": [
+            "KB8",
+            "KB7",
+            "KB9",
+            "KB10",
+            "KB11"
+          ]
+        },
+        "food": {
+          "items": [
+            {
+              "body": "Machher jhol (fish curry) with rice, and ilish when it's in season.",
+              "status": "verified"
+            },
+            {
+              "body": "Roshogolla, sandesh and mishti dohi from a sweet shop.",
+              "status": "verified"
+            },
+            {
+              "body": "Phuchka, beguni and kati rolls from street stalls.",
+              "status": "verified"
+            },
+            {
+              "body": "Indian Chinese food in Chinatown.",
+              "status": "verified"
+            },
+            {
+              "body": "An evening of restaurants and bars on Park Street.",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "KB12",
+            "KB13",
+            "KB14"
+          ]
+        },
+        "who_its_for": {
+          "items": [
+            {
+              "title": "Culture lovers",
+              "body": "Jorasanko Thakur Bari, the Indian Museum, the Victoria Memorial and College Street's Coffee House."
+            },
+            {
+              "title": "Food lovers",
+              "body": "Bengali fish, sweets, street food and Park Street's restaurants."
+            },
+            {
+              "title": "Pilgrims",
+              "body": "Kalighat, Dakshineswar and Belur Math."
+            },
+            {
+              "title": "Festival-goers",
+              "body": "Durga Puja in September–October, and Kumartuli's idol-makers in the weeks before."
+            }
+          ],
+          "facts": [
+            "KB16",
+            "KB17",
+            "KB12",
+            "KB14",
+            "KB10",
+            "KB15"
+          ]
+        },
+        "common_mistakes": {
+          "items": [
+            {
+              "body": "Assuming every train uses Howrah. Many arrive at Sealdah, on the other side of the river."
+            },
+            {
+              "body": "Taking a taxi everywhere at rush hour. The metro is often much faster."
+            },
+            {
+              "body": "Arriving for Durga Puja without a hotel booking."
+            },
+            {
+              "body": "Leaving without trying the sweets. Roshogolla, sandesh and mishti dohi are a big part of the city's food culture."
+            }
+          ],
+          "facts": [
+            "KB3",
+            "KB4",
+            "KB10",
+            "KB12"
+          ]
+        },
+        "faqs": {
+          "items": [
+            {
+              "title": "How far is the airport from the city centre?",
+              "body": "About 16 km; the airport is at Dum Dum, north-east of the centre."
+            },
+            {
+              "title": "When is Durga Puja?",
+              "body": "In September–October; the exact dates follow the Hindu calendar."
+            },
+            {
+              "title": "What is the best way to get around?",
+              "body": "The metro for longer hops, with taxis, autos and Hooghly ferries for the rest."
+            },
+            {
+              "title": "When is the weather best?",
+              "body": "Winter, when December–January lows are about 9–11 °C. Summers are hot and humid, and June–September is the monsoon."
+            }
+          ],
+          "facts": [
+            "KB2",
+            "KB10",
+            "KB4",
+            "KB5",
+            "KB8",
+            "KB7",
+            "KB9"
+          ]
+        },
+        "key_facts": {
+          "items": [
+            {
+              "title": "Icons",
+              "body": "Howrah Bridge, Indian Museum",
+              "status": "verified"
+            },
+            {
+              "title": "River",
+              "body": "The Hooghly — take a boat ride",
+              "status": "verified"
+            },
+            {
+              "title": "Craft",
+              "body": "Kumartuli's clay idols",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "WBF16"
+          ]
+        },
+        "practical_info": {
+          "items": [
+            {
+              "title": "Visas",
+              "body": "Apply for an e-Tourist visa at least 4 days before arrival; your passport needs at least six months' validity.",
+              "status": "verified"
+            },
+            {
+              "title": "Payments",
+              "body": "Visitors can pay by QR code with NPCI's UPI One World wallet after a passport-and-visa KYC check. Carry some cash for small purchases.",
+              "status": "verified"
+            },
+            {
+              "title": "Emergency",
+              "body": "Dial 112 for police, fire or ambulance.",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "WBKLXV",
+            "WBKLXU",
+            "WBKLXE"
+          ]
+        }
+      }
+    }
+  ],
+  "itineraries": [
+    {
+      "place": "west-bengal/kolkata",
+      "slug": "kolkata-3-days",
+      "title": "Kolkata in 3 days",
+      "durationDays": 3,
+      "tripTypes": [
+        "heritage",
+        "food",
+        "spiritual"
       ],
-      "travel": "Metro south to Kalighat, then north to College Street; taxi or auto for Jorasanko and Kumartuli.",
-      "meals": "Coffee and snacks at the Coffee House; finish with roshogolla, sandesh and mishti dohi.",
-      "overnight": "Departure"
-     }
-    ],
-    "budget": {
-     "assumptions": "VacayOut has no verified current prices for Kolkata hotels, transport or entry fees. Budget for your own choices and check fees at each site.",
-     "lines": []
-    },
-    "booking": [
-     {
-      "item": "Durga Puja dates",
-      "detail": "Book hotels well ahead if your trip falls in September–October."
-     },
-     {
-      "item": "Temples",
-      "detail": "Dress modestly and follow the rules posted at each temple."
-     }
-    ],
-    "alternatives": [
-     "Food-focused: swap the Indian Museum for a Chinatown lunch and a sweet-shop crawl.",
-     "With an extra day: the Sundarbans or Santiniketan."
-    ],
-    "tips": [
-     "Use the metro to beat traffic.",
-     "Check whether your train arrives at Howrah or Sealdah."
-    ],
-    "prep": [
-     {
-      "title": "Weather",
-      "body": "Winter lows are about 9–11 °C in December–January; summers are hot and humid; June–September is the monsoon. Carry an umbrella in the rains."
-     },
-     {
-      "title": "Arriving",
-      "body": "The airport is at Dum Dum, about 16 km north-east of the centre."
-     }
-    ],
-    "faqs": [
-     {
-      "q": "Is 3 days enough for Kolkata?",
-      "a": "It covers the main sights, the riverside temples and old north Kolkata at an easy pace."
-     },
-     {
-      "q": "When is Durga Puja?",
-      "a": "In September–October; dates follow the Hindu calendar."
-     },
-     {
-      "q": "How do I cross the Hooghly?",
-      "a": "By Howrah Bridge or by ferry between Kolkata and Howrah."
-     }
-    ]
-   },
-   "sources": []
-  }
- ]
+      "summary": "The Victoria Memorial and Maidan, the Hooghly's temples by ferry, Howrah Bridge at dusk, Kalighat, College Street and Bengali food.",
+      "seoTitle": "Kolkata 3-Day Itinerary: Sights, Temples, Books & Food",
+      "seoDescription": "Three days in Kolkata: Victoria Memorial and the Indian Museum, Dakshineswar and Belur Math, Howrah Bridge, Kalighat, College Street, Kumartuli and street food.",
+      "facts": [
+        "KB2",
+        "KB4",
+        "KB5",
+        "KB18",
+        "KB17",
+        "KB15",
+        "KB16",
+        "KB12",
+        "KB13",
+        "KB14",
+        "KB8",
+        "KB10",
+        "KB7",
+        "KB9"
+      ],
+      "plan": {
+        "overview": "A first visit that mixes the colonial centre, the riverside temples and old north Kolkata, with a Bengali meal every day. Use the metro and ferries to dodge traffic.",
+        "style": "City break: heritage, temples and food",
+        "start": "Kolkata (airport about 16 km from the centre)",
+        "end": "Kolkata",
+        "season": "Winter is most comfortable; September–October for Durga Puja. Summer is hot and humid, and June–September is the monsoon.",
+        "difficulty": "Easy; lots of walking in heat and crowds",
+        "transport": "Metro, taxis, autos and Hooghly ferries",
+        "days": [
+          {
+            "title": "The Maidan, Victoria Memorial and Park Street",
+            "stops": [
+              {
+                "time": "Morning",
+                "name": "Victoria Memorial",
+                "placeSlug": "victoria-memorial",
+                "duration": "2.5 hours",
+                "note": "At the southern end of the Maidan."
+              },
+              {
+                "time": "Afternoon",
+                "name": "Indian Museum",
+                "placeSlug": "indian-museum",
+                "duration": "2.5 hours"
+              },
+              {
+                "time": "Evening",
+                "name": "Park Street",
+                "duration": "2–3 hours",
+                "note": "Dinner and the city's nightlife hub."
+              }
+            ],
+            "travel": "Taxi or metro between the Maidan and the museum area.",
+            "meals": "Bengali lunch near the museum; dinner on Park Street.",
+            "overnight": "Kolkata"
+          },
+          {
+            "title": "The Hooghly: Dakshineswar, Belur Math and Howrah Bridge",
+            "stops": [
+              {
+                "time": "Morning",
+                "name": "Dakshineswar Kali Temple",
+                "placeSlug": "dakshineswar-kali-temple",
+                "duration": "2 hours"
+              },
+              {
+                "time": "Midday",
+                "name": "Belur Math",
+                "placeSlug": "belur-math",
+                "duration": "2 hours",
+                "note": "Across the river from Dakshineswar."
+              },
+              {
+                "time": "Evening",
+                "name": "Howrah Bridge and a river crossing",
+                "placeSlug": "howrah-bridge",
+                "duration": "1.5 hours",
+                "note": "Cross the Hooghly by ferry between Howrah and Kolkata."
+              }
+            ],
+            "travel": "Taxi north to Dakshineswar; cross the river to Belur; return by ferry or road to Howrah.",
+            "meals": "Simple lunch near Belur; phuchka and kati rolls in the evening.",
+            "overnight": "Kolkata"
+          },
+          {
+            "title": "Kalighat, College Street and old north Kolkata",
+            "stops": [
+              {
+                "time": "Early morning",
+                "name": "Kalighat Kali Temple",
+                "placeSlug": "kalighat-kali-temple",
+                "duration": "1.5 hours",
+                "note": "Go early to beat the queues."
+              },
+              {
+                "time": "Late morning",
+                "name": "College Street and the Indian Coffee House",
+                "placeSlug": "college-street",
+                "duration": "2.5 hours"
+              },
+              {
+                "time": "Afternoon",
+                "name": "Jorasanko Thakur Bari (Tagore's house)",
+                "duration": "1.5 hours"
+              },
+              {
+                "time": "Late afternoon",
+                "name": "Kumartuli potters' quarter",
+                "duration": "1 hour",
+                "note": "Busiest in the weeks before Durga Puja."
+              }
+            ],
+            "travel": "Metro south to Kalighat, then north to College Street; taxi or auto for Jorasanko and Kumartuli.",
+            "meals": "Coffee and snacks at the Coffee House; finish with roshogolla, sandesh and mishti dohi.",
+            "overnight": "Departure"
+          }
+        ],
+        "budget": {
+          "assumptions": "VacayOut has no verified current prices for Kolkata hotels, transport or entry fees. Budget for your own choices and check fees at each site.",
+          "lines": []
+        },
+        "booking": [
+          {
+            "item": "Durga Puja dates",
+            "detail": "Book hotels well ahead if your trip falls in September–October."
+          },
+          {
+            "item": "Temples",
+            "detail": "Dress modestly and follow the rules posted at each temple."
+          }
+        ],
+        "alternatives": [
+          "Food-focused: swap the Indian Museum for a Chinatown lunch and a sweet-shop crawl.",
+          "With an extra day: the Sundarbans or Santiniketan."
+        ],
+        "tips": [
+          "Use the metro to beat traffic.",
+          "Check whether your train arrives at Howrah or Sealdah."
+        ],
+        "prep": [
+          {
+            "title": "Weather",
+            "body": "Winter lows are about 9–11 °C in December–January; summers are hot and humid; June–September is the monsoon. Carry an umbrella in the rains."
+          },
+          {
+            "title": "Arriving",
+            "body": "The airport is at Dum Dum, about 16 km north-east of the centre."
+          }
+        ],
+        "faqs": [
+          {
+            "q": "Is 3 days enough for Kolkata?",
+            "a": "It covers the main sights, the riverside temples and old north Kolkata at an easy pace."
+          },
+          {
+            "q": "When is Durga Puja?",
+            "a": "In September–October; dates follow the Hindu calendar."
+          },
+          {
+            "q": "How do I cross the Hooghly?",
+            "a": "By Howrah Bridge or by ferry between Kolkata and Howrah."
+          }
+        ]
+      },
+      "sources": []
+    }
+  ]
 }
