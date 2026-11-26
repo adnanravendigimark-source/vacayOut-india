@@ -11,7 +11,7 @@
     },
     "II_RPR": {
       "url": "https://www.incredibleindia.gov.in/en/chhattisgarh/raipur",
-      "title": "Raipur — Incredible India (Ministry of Tourism, Government of India)",
+      "title": "Raipur — Incredible India",
       "authority": "government"
     },
     "II_JAG": {
@@ -167,6 +167,16 @@
     "SG2_II_CH": {
       "url": "https://www.incredibleindia.gov.in/en/chandigarh",
       "title": "Chandigarh — Incredible India (Ministry of Tourism, Government of India)",
+      "authority": "government"
+    },
+    "II_RPF": {
+      "url": "https://www.incredibleindia.gov.in/en/chhattisgarh/raipur/exploring-the-culinary-delights-of-raipur",
+      "title": "Exploring the culinary delights of Raipur — Incredible India",
+      "authority": "government"
+    },
+    "CG_BAS2": {
+      "url": "https://tourism.cgstate.gov.in/destinations/Bastar",
+      "title": "Bastar — Chhattisgarh Tourism Board (Government of Chhattisgarh)",
       "authority": "government"
     }
   },
@@ -1007,6 +1017,106 @@
           "quote": "Shaheed Bhagat Singh International Airport (IXC)"
         }
       ]
+    },
+    "GRP1": {
+      "place": "chhattisgarh/raipur",
+      "topic": "GRP1",
+      "claim": "The best time to visit Raipur is winter, November to February.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_RPR",
+          "quote": "The best time to visit Raipur is during the winter, from November to February"
+        }
+      ]
+    },
+    "GRP2": {
+      "place": "chhattisgarh/raipur",
+      "topic": "GRP2",
+      "claim": "Raipur's markets (Telibandha Talab, MG Marg, Netaji Chowk, Sadar Bazaar) serve street food and Chhattisgarhi dishes: muthia, farra, aamat, bara, bafauri and the sweet khurmi.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_RPR",
+          "quote": "Wander through bustling markets like Telibandha Talab, MG Marg, Netaji Chowk, or Sadar Bazaar"
+        },
+        {
+          "source": "II_RPR",
+          "quote": "Savour Muthia, steamed dumplings bursting with flavour, or Farra, rice flour dumplings filled with savoury chana dal."
+        },
+        {
+          "source": "II_RPR",
+          "quote": "Aamat, a unique dish similar to Sambar"
+        },
+        {
+          "source": "II_RPR",
+          "quote": "Finish your exploration with Khurmi"
+        }
+      ]
+    },
+    "GRP3": {
+      "place": "chhattisgarh/raipur",
+      "topic": "GRP3",
+      "claim": "Chila, a rice and urad dal pancake eaten with green chutney, and dubki kadi, a curd curry with gram-flour pakodas, are local staples.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_RPF",
+          "quote": "Chila, reminiscent of a flat chapati, is crafted from a mixture of rice batter and Urad Daal."
+        },
+        {
+          "source": "II_RPF",
+          "quote": "Chila reaches its culinary zenith when paired with the vibrant flavors of green chutney"
+        },
+        {
+          "source": "II_RPF",
+          "quote": "This pulse-centric dish primarily features curd in its preparation."
+        }
+      ]
+    },
+    "GJG1": {
+      "place": "chhattisgarh/jagdalpur",
+      "topic": "GJG1",
+      "claim": "Jagdalpur, headquarters of Bastar, is 305 km from Raipur; Bastar is called the state's cultural capital, and about 70 percent of its people belong to tribal communities.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "CG_BAS2",
+          "quote": "The headquarters of Bastar district and Bastar division is Jagdalpur."
+        },
+        {
+          "source": "CG_BAS2",
+          "quote": "The district headquarters Jagdalpur is located at a distance of 305 kilometers from the capital city Raipur."
+        },
+        {
+          "source": "CG_BAS2",
+          "quote": "it is called as the cultural capital of the state"
+        },
+        {
+          "source": "CG_BAS2",
+          "quote": "There are 70 percent tribal communities in the population of Bastar"
+        }
+      ]
+    },
+    "GJG2": {
+      "place": "chhattisgarh/jagdalpur",
+      "topic": "GJG2",
+      "claim": "Jagdalpur is a cultural and handicraft centre, with tribal artefacts in the Anthropological Museum at Dharampura and the Dancing Cactus Art Center.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "CG_BAS2",
+          "quote": "Jagdalpur is a major cultural and handicraft center."
+        },
+        {
+          "source": "CG_BAS2",
+          "quote": "have been displayed in the Anthropological Museum at Dharampura"
+        },
+        {
+          "source": "CG_BAS2",
+          "quote": "Dancing Cactus Art Center"
+        }
+      ]
     }
   },
   "places": [
@@ -1176,6 +1286,35 @@
             "KNG1",
             "KOT1"
           ]
+        },
+        "best_time": {
+          "text": "Winter, from November to February, when the weather is cool and pleasant for sightseeing.",
+          "facts": [
+            "GRP1"
+          ]
+        },
+        "food": {
+          "items": [
+            {
+              "body": "Street food in Telibandha Talab, MG Marg, Netaji Chowk and Sadar Bazaar."
+            },
+            {
+              "body": "Muthia and farra, steamed rice dumplings."
+            },
+            {
+              "body": "Aamat, bara and bafauri."
+            },
+            {
+              "body": "Chila with green chutney for breakfast; dubki kadi at lunch."
+            },
+            {
+              "body": "Khurmi, a local sweet."
+            }
+          ],
+          "facts": [
+            "GRP2",
+            "GRP3"
+          ]
         }
       },
       "wikidataId": "Q372773"
@@ -1262,6 +1401,41 @@
             "CG1",
             "CG2",
             "CG_AIR"
+          ]
+        },
+        "key_facts": {
+          "items": [
+            {
+              "title": "Role",
+              "body": "Headquarters of Bastar district and division",
+              "status": "verified"
+            },
+            {
+              "title": "From Raipur",
+              "body": "305 km",
+              "status": "verified"
+            },
+            {
+              "title": "Known as",
+              "body": "Cultural capital of Chhattisgarh (Bastar)",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "GJG1"
+          ]
+        },
+        "shopping": {
+          "items": [
+            {
+              "body": "Bastar handicrafts in Jagdalpur, a major handicraft centre."
+            },
+            {
+              "body": "The Dancing Cactus Art Center."
+            }
+          ],
+          "facts": [
+            "GJG2"
           ]
         }
       },

@@ -1,6 +1,7 @@
 "use client";
 
-import { useState, useRef, useEffect, useCallback, useMemo } from "react";
+import { useState, useRef, useEffect, useCallback, useMemo, useSyncExternalStore } from "react";
+import { createPortal } from "react-dom";
 import { useRouter } from "next/navigation";
 import { routes } from "@/lib/routes";
 import { Icon } from "@/components/icons/icon";
@@ -59,6 +60,8 @@ function getContextualRefines(): string[] {
   return ["Make it cheaper", "Add another day", "Where should we stay?", "How do we get there?"];
 }
 
+const noopSubscribe = () => () => {};
+
 export function AiPlannerModal({
   isOpen,
   onClose,
@@ -78,6 +81,7 @@ export function AiPlannerModal({
   const endRef = useRef<HTMLDivElement>(null);
   const inputRef = useRef<HTMLInputElement>(null);
   const hasInitialized = useRef(false);
+  const mounted = useSyncExternalStore(noopSubscribe, () => true, () => false);
 
   const chats = useChats();
   const router = useRouter();
@@ -195,13 +199,15 @@ export function AiPlannerModal({
   // Dynamic dialog title based on prompt
   const displayTitle = useMemo(() => {
     if (!lastUserMessage || lastUserMessage === "Discover custom journey") return "Discover custom journey";
-    if (lastUserMessage.length > 36) return `${lastUserMessage.slice(0, 34)}…`;
+    if (lastUserMessage.length > 60) return `${lastUserMessage.slice(0, 58)}…`;
     return lastUserMessage;
   }, [lastUserMessage]);
 
-  if (!isOpen) return null;
+  if (!isOpen || !mounted) return null;
 
-  return (
+  // Portal to <body>: a transformed/filtered ancestor (e.g. an animated hero) would otherwise
+  // become the containing block for `fixed` and trap the dialog under later page content.
+  return createPortal(
     <div
       role="dialog"
       aria-modal="true"
@@ -226,7 +232,7 @@ export function AiPlannerModal({
 
             <div className="min-w-0">
               <div className="flex items-center gap-2">
-                <h2 id="modal-plan-title" className="font-serif text-sm sm:text-base font-bold text-ink truncate capitalize">
+                <h2 id="modal-plan-title" className="font-serif text-sm sm:text-base font-bold text-ink truncate">
                   {displayTitle}
                 </h2>
                 <span className="shrink-0 rounded-full bg-coral/10 border border-coral/20 px-2 py-0.5 text-[0.6875rem] font-bold text-coral">
@@ -450,6 +456,7 @@ export function AiPlannerModal({
           <FreeMessagesHint />
         </div>
       </div>
-    </div>
+    </div>,
+    document.body,
   );
 }

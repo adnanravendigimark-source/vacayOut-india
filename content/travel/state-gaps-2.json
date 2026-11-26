@@ -106,7 +106,7 @@
     },
     "II_BSP": {
       "url": "https://www.incredibleindia.gov.in/en/chhattisgarh/bilaspur",
-      "title": "Bilaspur — Incredible India (Ministry of Tourism, Government of India)",
+      "title": "Bilaspur — Incredible India",
       "authority": "government"
     },
     "II_MMT": {
@@ -730,6 +730,30 @@
         {
           "source": "II_DHN",
           "quote": "Located approximately 20 kilometres from Rangat mainland, adjacent to the Andaman Trunk Road"
+        }
+      ]
+    },
+    "GBS1": {
+      "place": "chhattisgarh/bilaspur",
+      "topic": "GBS1",
+      "claim": "Try the Bilaspur thali; bara with ghugni for breakfast; bafauri, a steamed lentil dumpling; and sweets such as balushahi, khurma, akhrot barfi and petha.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_BSP",
+          "quote": "savour local specialties like the famous Bilaspur Thali"
+        },
+        {
+          "source": "II_BSP",
+          "quote": "The traditional breakfast dishes in Bilaspur, Bara and Ghugni"
+        },
+        {
+          "source": "II_BSP",
+          "quote": "Bafauri is a steamed lentil dumpling"
+        },
+        {
+          "source": "II_BSP",
+          "quote": "including Balushahi, Khurma, Akhrot Barfi and Petha"
         }
       ]
     }
@@ -2198,6 +2222,25 @@
             "BSP1",
             "DAN1",
             "MMT1"
+          ]
+        },
+        "food": {
+          "items": [
+            {
+              "body": "The Bilaspur thali."
+            },
+            {
+              "body": "Bara with ghugni for breakfast."
+            },
+            {
+              "body": "Bafauri, steamed lentil dumplings with chilli, ginger and garlic."
+            },
+            {
+              "body": "Sweets: balushahi, khurma, akhrot barfi, petha."
+            }
+          ],
+          "facts": [
+            "GBS1"
           ]
         }
       },
