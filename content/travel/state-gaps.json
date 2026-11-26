@@ -253,6 +253,41 @@
       "url": "https://birbhum.gov.in/tourist-place/bolpur/",
       "title": "Bolpur — Birbhum district administration, Government of West Bengal",
       "authority": "government"
+    },
+    "MH_PUN": {
+      "url": "https://maharashtratourism.gov.in/districts/pune/",
+      "title": "Pune district — Maharashtra Tourism (Government of Maharashtra)",
+      "authority": "government"
+    },
+    "MH_NSK": {
+      "url": "https://maharashtratourism.gov.in/districts/nashik/",
+      "title": "Nashik district — Maharashtra Tourism (Government of Maharashtra)",
+      "authority": "government"
+    },
+    "MH_KOL": {
+      "url": "https://maharashtratourism.gov.in/districts/kolhapur/",
+      "title": "Kolhapur district — Maharashtra Tourism (Government of Maharashtra)",
+      "authority": "government"
+    },
+    "MH_CSN": {
+      "url": "https://maharashtratourism.gov.in/districts/chhattrapati-sambhaji-nagar/",
+      "title": "Chhatrapati Sambhajinagar district — Maharashtra Tourism (Government of Maharashtra)",
+      "authority": "government"
+    },
+    "PB_PAT": {
+      "url": "https://punjabtourism.punjab.gov.in/en/our-destination/patiala/",
+      "title": "Patiala — Punjab Tourism (Government of Punjab)",
+      "authority": "government"
+    },
+    "PB_KAP": {
+      "url": "https://punjabtourism.punjab.gov.in/en/our-destination/kapurthala/",
+      "title": "Kapurthala — Punjab Tourism (Government of Punjab)",
+      "authority": "government"
+    },
+    "PB_FGS": {
+      "url": "https://punjabtourism.punjab.gov.in/en/our-destination/fatehgarh-sahib-fort-of-victory/",
+      "title": "Fatehgarh Sahib — Punjab Tourism (Government of Punjab)",
+      "authority": "government"
     }
   },
   "facts": {
@@ -1591,6 +1626,394 @@
           "quote": "features a collection of five houses built by Rabindranath – Udayan, Shyamali, Konark, Udichi and Punascha"
         }
       ]
+    },
+    "MPU1": {
+      "place": "maharashtra/pune",
+      "topic": "MPU1",
+      "claim": "Pune, the 'Oxford of the East', is on the Deccan plateau; Mumbai is about 150 km by the Mumbai–Pune Expressway (2–3 hours), and the Deccan Queen and Shatabdi take about three and a half hours by train.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "MH_PUN",
+          "quote": "Known as the “Oxford of the East,” Pune is renowned for its educational institutions, IT hubs, and vibrant lifestyle."
+        },
+        {
+          "source": "MH_PUN",
+          "quote": "Those driving from Mumbai need to take Mumbai-Pune Expressway route, which takes barely 2 to 3 hours to cover a distance of about 150 km."
+        },
+        {
+          "source": "MH_PUN",
+          "quote": "Some of the prominent trains operating to/from Mumbai are Deccan Queen and Shatabdi Express, which take around three-and-a-half hours approximately to reach Pune."
+        }
+      ]
+    },
+    "MPU2": {
+      "place": "maharashtra/pune",
+      "topic": "MPU2",
+      "claim": "July to February is best (the Sawai Gandharva music festival is in December); March to June is hot.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "MH_PUN",
+          "quote": "Monsoon & Winter July to February Cool and pleasurably calm Ideal for sightseeing"
+        },
+        {
+          "source": "MH_PUN",
+          "quote": "Sawai Gandharva Sangeeth Mahotsav (December)"
+        },
+        {
+          "source": "MH_PUN",
+          "quote": "Summer March to June Hot and torrid Not ideal for travel"
+        }
+      ]
+    },
+    "MNS1": {
+      "place": "maharashtra/nashik",
+      "topic": "MNS1",
+      "claim": "Nashik, on the Godavari, is one of four Kumbh Mela cities; Ram is said to have lived at Panchavati during his exile.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "MH_NSK",
+          "quote": "Nestled along the sacred Godavari River, it is famous as one of the four cities that host the grand Kumbh Mela, a Hindu festival occurring every twelve years."
+        },
+        {
+          "source": "MH_NSK",
+          "quote": "it is said that during his exile, Lord Rama resided in Panchvati."
+        }
+      ]
+    },
+    "MNS2": {
+      "place": "maharashtra/nashik",
+      "topic": "MNS2",
+      "claim": "Ojhar airport is 24 km from the centre; Nashik Road station, 11 km out, links Mumbai and cities across India; NH 3 and NH 50 serve the city. Summers (April–June) average around 41 °C.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "MH_NSK",
+          "quote": "Nashik’s nearest airport is Ojhar Nashik International Airport, about 24 kilometers from the city center"
+        },
+        {
+          "source": "MH_NSK",
+          "quote": "Nashik Road Railway Station is a key hub, located 11 kilometers from the city center."
+        },
+        {
+          "source": "MH_NSK",
+          "quote": "with the Mumbai-Agra National Highway (NH-3) passing through it, and NH-50 linking it to Pune."
+        },
+        {
+          "source": "MH_NSK",
+          "quote": "Summer April – June Hot and dry with temperatures averaging around 41°C."
+        }
+      ]
+    },
+    "MKL1": {
+      "place": "maharashtra/kolhapur",
+      "topic": "MKL1",
+      "claim": "Best October to March.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "MH_KOL",
+          "quote": "The ideal time to visit Kolhapur is between October and March"
+        }
+      ]
+    },
+    "MKL2": {
+      "place": "maharashtra/kolhapur",
+      "topic": "MKL2",
+      "claim": "Kolhapur airport is 5 km from the centre (Belgaum 125 km, Pune 250 km); Kolhapur terminal has direct trains to Mumbai, Delhi, Nagpur, Hyderabad and Bangalore, and MSRTC buses run in every direction.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "MH_KOL",
+          "quote": "Kolhapur Airport is 5km from center of the city."
+        },
+        {
+          "source": "MH_KOL",
+          "quote": "Belgaum Airport (Karnataka): 125 km from Kolhapur."
+        },
+        {
+          "source": "MH_KOL",
+          "quote": "Kolhapur terminal station connects directly to cities like Mumbai, Delhi, Nagpur, Solapur, Hyderabad, Bangalore, and Tirupati."
+        },
+        {
+          "source": "MH_KOL",
+          "quote": "Extensive MSRTC bus services link Kolhapur with Mumbai, Pune (north)"
+        }
+      ]
+    },
+    "MCS1": {
+      "place": "maharashtra/chhatrapati-sambhaji-nagar",
+      "topic": "MCS1",
+      "claim": "Chhatrapati Sambhajinagar (formerly Aurangabad) is the base for Ajanta and Ellora; its Chikkalthana airport has flights to Mumbai, Delhi, Hyderabad and Pune, and the station is on the South Central Railway.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "MH_CSN",
+          "quote": "Chhatrapati Sambhajinagar District, formerly known as Aurangabad District"
+        },
+        {
+          "source": "MH_CSN",
+          "quote": "With landmarks like the Ajanta and Ellora Caves—both UNESCO World Heritage Sites"
+        },
+        {
+          "source": "MH_CSN",
+          "quote": "Chh. Sambhajinagar Airport, also known as Chikkalthana Airport, is the primary airport serving the city. It is well-connected to major cities like Mumbai, Delhi, Hyderabad, and Pune."
+        },
+        {
+          "source": "MH_CSN",
+          "quote": "Chh. Sambhajinagar Railway Station is a major railway station on the South Central Railway network."
+        }
+      ]
+    },
+    "MCS2": {
+      "place": "maharashtra/chhatrapati-sambhaji-nagar",
+      "topic": "MCS2",
+      "claim": "Trains run to Mumbai, Pune, Delhi, Hyderabad and Nagpur.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "MH_CSN",
+          "quote": "It is well-connected to cities like Mumbai, Pune, Delhi, Hyderabad, and Nagpur."
+        }
+      ]
+    },
+    "PPA1": {
+      "place": "punjab/patiala",
+      "topic": "PPA1",
+      "claim": "Best October to March; the nearest airport is Mohali, Patiala railway station serves the city, and ISBT Patiala links it to Punjab and neighbouring states via the Chandigarh–Patiala highway.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "PB_PAT",
+          "quote": "Best Time to Visit: October to March"
+        },
+        {
+          "source": "PB_PAT",
+          "quote": "By Air: The nearest airport is Mohali International Airport."
+        },
+        {
+          "source": "PB_PAT",
+          "quote": "By Train: Patiala Railway Station serves the city directly."
+        },
+        {
+          "source": "PB_PAT",
+          "quote": "The district is well connected via the Chandigarh-Patiala highway, which also provides access to Bahadurgarh Fort."
+        }
+      ]
+    },
+    "PPA2": {
+      "place": "punjab/patiala",
+      "topic": "PPA2",
+      "claim": "Patiala's food traditions include the pickles, chutneys and murabbas of the Hakims in Sadar Bazar, Charan Juice at Old Subzi Mandi, Harbans Ice Cream, reoris and gajaks from Arjan Sweets and Sadhu Ram's kachori.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "PB_PAT",
+          "quote": "Pickles, chutneys, and murabbas from the Hakims of Patiala in Sadar Bazar are among the city's most distinctive food traditions"
+        },
+        {
+          "source": "PB_PAT",
+          "quote": "alongside the fruit juices and creamy shakes of Charan Juice at the Old Subzi Mandi"
+        },
+        {
+          "source": "PB_PAT",
+          "quote": "Famous food points in the city include ice creams from Harbans Ice Cream, seasonal crunchy reoris and gajaks from Arjan Sweets"
+        },
+        {
+          "source": "PB_PAT",
+          "quote": "the kachori of Sadhu Ram Kachori Wala"
+        }
+      ]
+    },
+    "PPA3": {
+      "place": "punjab/patiala",
+      "topic": "PPA3",
+      "claim": "Punjab Tourism lists Neemrana's Baradari Palace, Hotel Pushap Palace and The Heritage Villa, plus farm stays at The Getaway Farmhouse, Laal Kothi and El Cortijo.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "PB_PAT",
+          "quote": "Hotels in the Area: Neemrana's Baradari Palace, Hotel Pushap Palace, The Heritage Villa"
+        },
+        {
+          "source": "PB_PAT",
+          "quote": "Farm Stays: The Getaway Farmhouse, Laal Kothi, El Cortijo The Farmhouse"
+        }
+      ]
+    },
+    "PKA1": {
+      "place": "punjab/kapurthala",
+      "topic": "PKA1",
+      "claim": "Best October to March. Amritsar airport is about 75 km away; Kapurthala station links to Jalandhar, Amritsar, Firozpur and Delhi; by road it is about 20 km from Jalandhar, 75 km from Amritsar and 165 km from Chandigarh.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "PB_KAP",
+          "quote": "Best Time to Visit: October to March"
+        },
+        {
+          "source": "PB_KAP",
+          "quote": "Sri Guru Ram Dass Jee International Airport, Amritsar, is the nearest international airport, located approximately 75 km from Kapurthala."
+        },
+        {
+          "source": "PB_KAP",
+          "quote": "Kapurthala Railway Station connects the district with Jalandhar, Amritsar, Firozpur, Delhi, and other major cities of North India."
+        },
+        {
+          "source": "PB_KAP",
+          "quote": "The district is approximately 20 km from Jalandhar, 75 km from Amritsar, 165 km from Chandigarh, and around 40 km from Sultanpur Lodhi."
+        }
+      ]
+    },
+    "PKA4": {
+      "place": "punjab/kapurthala",
+      "topic": "PKA4",
+      "claim": "Regular PRTC, PUNBUS and private buses run throughout the region.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "PB_KAP",
+          "quote": "Regular PRTC, PUNBUS, and private bus services operate throughout the region."
+        }
+      ]
+    },
+    "PKA2": {
+      "place": "punjab/kapurthala",
+      "topic": "PKA2",
+      "claim": "Auto-rickshaws, cycle-rickshaws, taxis and local buses run within the city.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "PB_KAP",
+          "quote": "Local Transport: Auto-rickshaws, cycle-rickshaws, taxis, and local buses are available for travel within the city and to nearby attractions."
+        }
+      ]
+    },
+    "PKA3": {
+      "place": "punjab/kapurthala",
+      "topic": "PKA3",
+      "claim": "Kapurthala's food is Doaba Punjabi — makki di roti and sarson da saag, dal makhani, kulcha, chole, lassi — and langar at the Sultanpur Lodhi gurdwaras.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "PB_KAP",
+          "quote": "The cuisine of Kapurthala reflects the rich culinary traditions of the Doaba region of Punjab."
+        },
+        {
+          "source": "PB_KAP",
+          "quote": "Traditional dishes such as Makki di Roti and Sarson da Saag, Dal Makhani, Amritsari Kulcha, Chole, Paneer preparations, Lassi, and seasonal Punjabi sweets are widely enjoyed across the district."
+        },
+        {
+          "source": "PB_KAP",
+          "quote": "The langar served at the historic gurdwaras of Sultanpur Lodhi remains an important culinary and spiritual experience for visitors."
+        }
+      ]
+    },
+    "PFG1": {
+      "place": "punjab/fatehgarh-sahib",
+      "topic": "PFG1",
+      "claim": "Best October to March, and the last week of December for the Shaheedi Jor Mela.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "PB_FGS",
+          "quote": "Best Time to Visit: October to March; last week of December for the Shaheedi Jor"
+        }
+      ]
+    },
+    "PFG2": {
+      "place": "punjab/fatehgarh-sahib",
+      "topic": "PFG2",
+      "claim": "Mohali airport is about 50 km away; Sirhind Junction, on the Delhi–Amritsar line, is the main station; Fatehgarh Sahib is 250 km from New Delhi and NH 1 passes through Sirhind.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "PB_FGS",
+          "quote": "The nearest airport is Mohali International Airport, approximately 50 km from Fatehgarh Sahib."
+        },
+        {
+          "source": "PB_FGS",
+          "quote": "The district has Sirhind Junction Railway Station on the Delhi-Amritsar section."
+        },
+        {
+          "source": "PB_FGS",
+          "quote": "Fatehgarh Sahib is 250 km from New Delhi."
+        },
+        {
+          "source": "PB_FGS",
+          "quote": "The National Highway No. 1, the Sher Shah Suri Marg, passes through the district at Sirhind and Mandi Gobindgarh."
+        }
+      ]
+    },
+    "PFG6": {
+      "place": "punjab/fatehgarh-sahib",
+      "topic": "PFG6",
+      "claim": "Many express and superfast trains halt at Sirhind Junction, and Fatehgarh Sahib has its own station on the Sirhind–Nangal line.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "PB_FGS",
+          "quote": "Many express and superfast trains halt at Sirhind Junction."
+        },
+        {
+          "source": "PB_FGS",
+          "quote": "On the Sirhind-Nangal railway line, there is a railway station at Fatehgarh Sahib itself."
+        }
+      ]
+    },
+    "PFG3": {
+      "place": "punjab/fatehgarh-sahib",
+      "topic": "PFG3",
+      "claim": "Auto-rickshaws and local vehicles run within Sirhind and between the district's towns.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "PB_FGS",
+          "quote": "Local Transport: Auto-rickshaws and local vehicles operate within Sirhind city and between the district's towns."
+        }
+      ]
+    },
+    "PFG4": {
+      "place": "punjab/fatehgarh-sahib",
+      "topic": "PFG4",
+      "claim": "Food here is Malwa Punjabi, served at dhabas such as Raja Dhaba and Virsa Dhaba, the Floating Restaurant on the Sirhind Canal, and langar at Gurdwara Sri Fatehgarh Sahib and Gurdwara Sri Jyoti Saroop Sahib.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "PB_FGS",
+          "quote": "Fatehgarh Sahib's food reflects the Punjabi Malwa kitchen cooked in desi ghee"
+        },
+        {
+          "source": "PB_FGS",
+          "quote": "Local dhabas including Raja Dhaba and Virsa Dhaba along the major routes through the district"
+        },
+        {
+          "source": "PB_FGS",
+          "quote": "The Floating Restaurant on the Sirhind Canal on the GT Road offers a distinctive dining experience over water."
+        },
+        {
+          "source": "PB_FGS",
+          "quote": "Langar at the Gurdwaras of the district, particularly at Gurdwara Sri Fatehgarh Sahib and Gurdwara Sri Jyoti Saroop Sahib"
+        }
+      ]
+    },
+    "PFG5": {
+      "place": "punjab/fatehgarh-sahib",
+      "topic": "PFG5",
+      "claim": "Punjab Tourism lists Noor Mahal Resorts, Taj Hotel, the Floating Restaurant (8 suites), Gobindgarh Club and Red Rose Hotel, plus Escort Farms, Hansali Organic Farm and Mayfair Farms.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "PB_FGS",
+          "quote": "Hotels in the Area: Noor Mahal Resorts, Taj Hotel, Floating Restaurant (8 suites), Gobindgarh Club, Red Rose Hotel"
+        },
+        {
+          "source": "PB_FGS",
+          "quote": "Farm Stays: Escort Farms, Hansali Organic Farm, Mayfair Farms"
+        }
+      ]
     }
   },
   "places": [
@@ -1688,6 +2111,35 @@
             "MH1",
             "MH_FOOD",
             "MH_AIR"
+          ]
+        },
+        "key_facts": {
+          "items": [
+            {
+              "title": "Formerly",
+              "body": "Aurangabad",
+              "status": "verified"
+            },
+            {
+              "title": "Nearby",
+              "body": "Ajanta and Ellora (UNESCO)",
+              "status": "verified"
+            },
+            {
+              "title": "Airport",
+              "body": "Chikkalthana — Mumbai, Delhi, Hyderabad, Pune",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "MCS1"
+          ]
+        },
+        "how_to_reach": {
+          "text": "Chikkalthana airport has flights to Mumbai, Delhi, Hyderabad and Pune. The railway station is on the South Central Railway, with trains to Mumbai, Pune, Delhi, Hyderabad and Nagpur.",
+          "facts": [
+            "MCS1",
+            "MCS2"
           ]
         }
       },
@@ -2137,6 +2589,40 @@
             "MH1",
             "MH_FOOD",
             "MH_AIR"
+          ]
+        },
+        "key_facts": {
+          "items": [
+            {
+              "title": "Known as",
+              "body": "Oxford of the East",
+              "status": "verified"
+            },
+            {
+              "title": "From Mumbai",
+              "body": "About 150 km; 2–3 hours by expressway",
+              "status": "verified"
+            },
+            {
+              "title": "Best time",
+              "body": "July–February",
+              "status": "seasonal"
+            },
+            {
+              "title": "Festival",
+              "body": "Sawai Gandharva music festival, December",
+              "status": "seasonal"
+            }
+          ],
+          "facts": [
+            "MPU1",
+            "MPU2"
+          ]
+        },
+        "how_to_reach": {
+          "text": "From Mumbai, the Mumbai–Pune Expressway covers about 150 km in 2–3 hours, and the Deccan Queen and Shatabdi Express take around three and a half hours. Pune Junction has trains from across India.",
+          "facts": [
+            "MPU1"
           ]
         }
       },
@@ -2618,6 +3104,40 @@
             "MH_FOOD",
             "MH_AIR"
           ]
+        },
+        "key_facts": {
+          "items": [
+            {
+              "title": "River",
+              "body": "Godavari",
+              "status": "verified"
+            },
+            {
+              "title": "Kumbh Mela",
+              "body": "One of four host cities",
+              "status": "verified"
+            },
+            {
+              "title": "Airport",
+              "body": "Ojhar, 24 km",
+              "status": "verified"
+            },
+            {
+              "title": "Railway",
+              "body": "Nashik Road, 11 km",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "MNS1",
+            "MNS2"
+          ]
+        },
+        "how_to_reach": {
+          "text": "Ojhar airport is about 24 km from the city centre. Nashik Road station, 11 km out, connects to Mumbai and across India. NH 3 (Mumbai–Agra) passes through Nashik and NH 50 links it to Pune.",
+          "facts": [
+            "MNS2"
+          ]
         }
       },
       "wikidataId": "Q200235"
@@ -2795,6 +3315,41 @@
             "MH1",
             "MH_FOOD",
             "MH_AIR"
+          ]
+        },
+        "key_facts": {
+          "items": [
+            {
+              "title": "Best time",
+              "body": "October–March",
+              "status": "seasonal"
+            },
+            {
+              "title": "Airport",
+              "body": "5 km from the centre",
+              "status": "verified"
+            },
+            {
+              "title": "Railway",
+              "body": "Kolhapur terminal; Miraj Junction 50 km",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "MKL1",
+            "MKL2"
+          ]
+        },
+        "best_time": {
+          "text": "October to March, when the weather is pleasant for sightseeing.",
+          "facts": [
+            "MKL1"
+          ]
+        },
+        "how_to_reach": {
+          "text": "Kolhapur airport is 5 km from the city centre; Belgaum airport is 125 km away. Kolhapur terminal has direct trains to Mumbai, Delhi, Nagpur, Solapur, Hyderabad, Bangalore and Tirupati, and MSRTC buses link it to Mumbai, Pune, Sangli, Belgaum and the Konkan.",
+          "facts": [
+            "MKL2"
           ]
         }
       },
@@ -4144,6 +4699,43 @@
             "PB3",
             "PB2"
           ]
+        },
+        "best_time": {
+          "text": "October to March.",
+          "facts": [
+            "PPA1"
+          ]
+        },
+        "how_to_reach": {
+          "text": "The nearest airport is Mohali International Airport. Patiala railway station serves the city directly, and the Interstate Bus Terminal (ISBT) connects Patiala with the rest of Punjab and neighbouring states. The Chandigarh–Patiala highway also leads to Bahadurgarh Fort.",
+          "facts": [
+            "PPA1"
+          ]
+        },
+        "food": {
+          "items": [
+            {
+              "body": "Pickles, chutneys and murabbas from the Hakims of Sadar Bazar."
+            },
+            {
+              "body": "Juices and shakes at Charan Juice, Old Subzi Mandi."
+            },
+            {
+              "body": "Harbans Ice Cream, and seasonal reoris and gajaks from Arjan Sweets."
+            },
+            {
+              "body": "Kachori at Sadhu Ram Kachori Wala."
+            }
+          ],
+          "facts": [
+            "PPA2"
+          ]
+        },
+        "where_to_stay": {
+          "text": "Punjab Tourism lists Neemrana's Baradari Palace, Hotel Pushap Palace and The Heritage Villa, and farm stays at The Getaway Farmhouse, Laal Kothi and El Cortijo.",
+          "facts": [
+            "PPA3"
+          ]
         }
       },
       "wikidataId": "Q208162",
@@ -4410,6 +5002,41 @@
             "FGS1",
             "PB2"
           ]
+        },
+        "best_time": {
+          "text": "October to March.",
+          "facts": [
+            "PKA1"
+          ]
+        },
+        "how_to_reach": {
+          "text": "The nearest airport is Sri Guru Ram Dass Jee International Airport at Amritsar, about 75 km away. Kapurthala railway station connects with Jalandhar, Amritsar, Firozpur and Delhi. By road the town is about 20 km from Jalandhar, 75 km from Amritsar, 165 km from Chandigarh and 40 km from Sultanpur Lodhi, with PRTC, PUNBUS and private buses.",
+          "facts": [
+            "PKA1",
+            "PKA4"
+          ]
+        },
+        "local_transport": {
+          "text": "Auto-rickshaws, cycle-rickshaws, taxis and local buses cover the city and nearby sights.",
+          "facts": [
+            "PKA2"
+          ]
+        },
+        "food": {
+          "items": [
+            {
+              "body": "Makki di roti with sarson da saag, dal makhani, Amritsari kulcha and chole."
+            },
+            {
+              "body": "Lassi and seasonal Punjabi sweets."
+            },
+            {
+              "body": "Langar at the historic gurdwaras of Sultanpur Lodhi."
+            }
+          ],
+          "facts": [
+            "PKA3"
+          ]
         }
       },
       "wikidataId": "Q781354"
@@ -4479,6 +5106,50 @@
             "PAT1",
             "KPT1",
             "PB2"
+          ]
+        },
+        "best_time": {
+          "text": "October to March. Come in the last week of December for the Shaheedi Jor Mela.",
+          "facts": [
+            "PFG1"
+          ]
+        },
+        "how_to_reach": {
+          "text": "Mohali International Airport is about 50 km away. Sirhind Junction, on the Delhi–Amritsar line, is the main railway station, and many express trains stop there; Fatehgarh Sahib also has its own station on the Sirhind–Nangal line. By road it is 250 km from New Delhi, and NH 1 (the Sher Shah Suri Marg) passes through Sirhind.",
+          "facts": [
+            "PFG2",
+            "PFG6"
+          ]
+        },
+        "local_transport": {
+          "text": "Auto-rickshaws and local vehicles run within Sirhind and between the district's towns.",
+          "facts": [
+            "PFG3"
+          ]
+        },
+        "food": {
+          "items": [
+            {
+              "body": "Malwa Punjabi cooking in desi ghee, built on wheat and dairy."
+            },
+            {
+              "body": "Roadside dhabas such as Raja Dhaba and Virsa Dhaba."
+            },
+            {
+              "body": "The Floating Restaurant over the Sirhind Canal on the GT Road."
+            },
+            {
+              "body": "Langar at Gurdwara Sri Fatehgarh Sahib and Gurdwara Sri Jyoti Saroop Sahib."
+            }
+          ],
+          "facts": [
+            "PFG4"
+          ]
+        },
+        "where_to_stay": {
+          "text": "Punjab Tourism lists Noor Mahal Resorts, Taj Hotel, the Floating Restaurant (8 suites), Gobindgarh Club and Red Rose Hotel, and farm stays at Escort Farms, Hansali Organic Farm and Mayfair Farms.",
+          "facts": [
+            "PFG5"
           ]
         }
       },

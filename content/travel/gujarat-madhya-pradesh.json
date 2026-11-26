@@ -193,6 +193,86 @@
       "url": "https://en.wikipedia.org/wiki/112_(emergency_telephone_number)",
       "title": "112 (emergency telephone number) — Wikipedia",
       "authority": "reference"
+    },
+    "W_AHD": {
+      "url": "https://en.wikipedia.org/wiki/Ahmedabad",
+      "title": "Ahmedabad — Wikipedia",
+      "authority": "reference"
+    },
+    "GT_HW": {
+      "url": "https://www.gujarattourism.com/central-zone/ahmedabad/heritage-walk.html",
+      "title": "Heritage Walk, Ahmedabad — Gujarat Tourism (Government of Gujarat)",
+      "authority": "government"
+    },
+    "GT_MC": {
+      "url": "https://www.gujarattourism.com/central-zone/ahmedabad/manek-chowk-night-market--ahmedabad.html",
+      "title": "Manek Chowk night market — Gujarat Tourism (Government of Gujarat)",
+      "authority": "government"
+    },
+    "GT_KL": {
+      "url": "https://www.gujarattourism.com/central-zone/ahmedabad/kankaria-lake.html",
+      "title": "Kankaria Lake — Gujarat Tourism (Government of Gujarat)",
+      "authority": "government"
+    },
+    "GT_LOT2": {
+      "url": "https://www.gujarattourism.com/central-zone/ahmedabad/lothal.html",
+      "title": "Lothal — Gujarat Tourism (Government of Gujarat)",
+      "authority": "government"
+    },
+    "W_DWK": {
+      "url": "https://en.wikipedia.org/wiki/Dwarka",
+      "title": "Dwarka — Wikipedia",
+      "authority": "reference"
+    },
+    "GT_DWT": {
+      "url": "https://www.gujarattourism.com/saurashtra/devbhoomi-dwarka/dwarkadhish-temple.html",
+      "title": "Dwarkadhish Temple — Gujarat Tourism (Government of Gujarat)",
+      "authority": "government"
+    },
+    "W_PTN": {
+      "url": "https://en.wikipedia.org/wiki/Patan,_Gujarat",
+      "title": "Patan, Gujarat — Wikipedia",
+      "authority": "reference"
+    },
+    "GT_RKV": {
+      "url": "https://www.gujarattourism.com/north-zone/patan/rani-ki-vav.html",
+      "title": "Rani ki Vav — Gujarat Tourism (Government of Gujarat)",
+      "authority": "government"
+    },
+    "W_PROH": {
+      "url": "https://en.wikipedia.org/wiki/Prohibition_in_Gujarat",
+      "title": "Prohibition in India — Wikipedia",
+      "authority": "reference"
+    },
+    "MT_BPL": {
+      "url": "https://www.mptourism.com/destination-bhopal.php",
+      "title": "The city of lakes - Bhopal — Madhya Pradesh Tourism",
+      "authority": "government"
+    },
+    "MT_UJN": {
+      "url": "https://www.mptourism.com/destination-ujjain.php",
+      "title": "Ancient City Ujjain — Madhya Pradesh Tourism",
+      "authority": "government"
+    },
+    "MT_KHJ": {
+      "url": "https://www.mptourism.com/destination-khajuraho.php",
+      "title": "Graceful Khajuraho — Madhya Pradesh Tourism",
+      "authority": "government"
+    },
+    "MT_GWL": {
+      "url": "https://www.mptourism.com/destination-gwalior.php",
+      "title": "Melodic Gwalior — Madhya Pradesh Tourism",
+      "authority": "government"
+    },
+    "MT_ORC": {
+      "url": "https://www.mptourism.com/destination-orchha.php",
+      "title": "Majestic Orchha — Madhya Pradesh Tourism",
+      "authority": "government"
+    },
+    "MT_PCH": {
+      "url": "https://www.mptourism.com/destination-panchmarhi.php",
+      "title": "Serene Pachmarhi — Madhya Pradesh Tourism",
+      "authority": "government"
     }
   },
   "facts": {
@@ -1315,6 +1395,546 @@
           "quote": "The UPI One World wallet can be availed through authorized PPI issuers at airports, hotels, designated money exchange locations and other touchpoints, following a full KYC process based on a passport and valid visa."
         }
       ]
+    },
+    "GAH1": {
+      "place": "gujarat/ahmedabad",
+      "topic": "GAH1",
+      "claim": "Ahmedabad's international airport has direct flights to the USA, UK, Singapore and Dubai as well as domestic flights; Kalupur (Ahmedabad Junction) is Gujarat's busiest station, and the main bus stops are at Gitamandir near Kalupur and at Paldi.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "GT_HW",
+          "quote": "Sardar Vallabhbhai Patel airport at Ahmedabad is an international airport with direct flights to USA, UK, Singapore, Dubai and other international hubs."
+        },
+        {
+          "source": "W_AHD",
+          "quote": "Ahmedabad Junction railway station, locally known as Kalupur railway station, is Ahmedabad's primary and Gujarat's busiest railway hub."
+        },
+        {
+          "source": "GT_HW",
+          "quote": "Prominent bus stops are located at Gitamandir near Kalupur Railway Station and Paldi."
+        }
+      ]
+    },
+    "GAH2": {
+      "place": "gujarat/ahmedabad",
+      "topic": "GAH2",
+      "claim": "The city has a metro (opened 2019, two lines), the Janmarg BRTS and AMTS city buses on 149 routes.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "W_AHD",
+          "quote": "Public transit includes the Ahmedabad Metro, a rapid transit system inaugurated in March 2019 with 40 km (25 mi) of track on two lines (East-West and North-South)"
+        },
+        {
+          "source": "W_AHD",
+          "quote": "Other public transit options include the Ahmedabad BRTS, also known as Janmarg (people's way)"
+        },
+        {
+          "source": "W_AHD",
+          "quote": "Bus transportation is also provided by Ahmedabad Municipal Transport Service (AMTS) with 700 buses over 149 routes."
+        }
+      ]
+    },
+    "GAH3": {
+      "place": "gujarat/ahmedabad",
+      "topic": "GAH3",
+      "claim": "November to February averages 30 °C by day and 13 °C at night; March to June is hot, averaging 43 °C; the monsoon runs mid-June to mid-September.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "W_AHD",
+          "quote": "From November to February, the average maximum temperature is 30 °C (86 °F), and the average minimum is 13 °C (55 °F)."
+        },
+        {
+          "source": "W_AHD",
+          "quote": "The weather is hot from March to June; the average summer maximum is 43 °C (109 °F)"
+        },
+        {
+          "source": "W_AHD",
+          "quote": "The southwest monsoon brings a humid climate from mid-June to mid-September."
+        }
+      ]
+    },
+    "GAH4": {
+      "place": "gujarat/ahmedabad",
+      "topic": "GAH4",
+      "claim": "The Gujarati thali, first served commercially in Ahmedabad in 1900, is its signature meal, with dhokla, thepla and dhebra; most outlets are vegetarian, though Bhatiyar Gali, Kalupur and Jamalpur have Mughlai restaurants.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "W_AHD",
+          "quote": "One of the most popular dishes in Ahmedabad is the Gujarati thali, which was first served commercially by Chandvilas Hotel in 1900."
+        },
+        {
+          "source": "W_AHD",
+          "quote": "Dhoklas, theplas, and dhebras are other popularly consumed dishes in Ahmedabad."
+        },
+        {
+          "source": "W_AHD",
+          "quote": "Most of the food outlets serve only vegetarian food"
+        },
+        {
+          "source": "W_AHD",
+          "quote": "Ahmedabad has a number of restaurants serving typical Mughlai non-vegetarian food in older areas like Bhatiyar Gali, Kalupur and Jamalpur."
+        }
+      ]
+    },
+    "GAH5": {
+      "place": "gujarat/ahmedabad",
+      "topic": "GAH5",
+      "claim": "Manek Chowk in the old city is a vegetable market in the morning, a bullion market at noon and a street-food market at night, from dusk to midnight.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "GT_MC",
+          "quote": "The market is a vegetable hub in the morning, a bullion market at noon and a street food hotspot at night."
+        },
+        {
+          "source": "GT_MC",
+          "quote": "Every day, stalls start propping up in the old city Manek Chowk with chairs and tables arranged for nocturnal foodies."
+        },
+        {
+          "source": "GT_MC",
+          "quote": "Visiting Hours Dusk–midnight."
+        }
+      ]
+    },
+    "GAH6": {
+      "place": "gujarat/ahmedabad",
+      "topic": "GAH6",
+      "claim": "Alcohol is banned in Ahmedabad, as Gujarat is a dry state.",
+      "claimType": "rule",
+      "evidence": [
+        {
+          "source": "W_AHD",
+          "quote": "Drinking alcohol is legally banned in Ahmedabad, as Gujarat is a 'dry' state."
+        }
+      ]
+    },
+    "GAH7": {
+      "place": "gujarat/ahmedabad",
+      "topic": "GAH7",
+      "claim": "The municipal Heritage Walk through the old city's pols starts daily at 7.45am at the Kalupur Swaminarayan Temple and ends at the Jama Masjid at 10.30am.",
+      "claimType": "schedule",
+      "evidence": [
+        {
+          "source": "GT_HW",
+          "quote": "A special feature of Ahmedabad is the plan of the old city comprising numerous pols, self-contained neighborhoods"
+        },
+        {
+          "source": "GT_HW",
+          "quote": "Ahmedabad Municipal Corporation has arranged this HERITAGE WALK OF AHMEDABAD."
+        },
+        {
+          "source": "GT_HW",
+          "quote": "Route: From Kalupur Swaminarayan Temple at 07:45 a.m. daily and terminates at Jumma Masjid at 10.30 a.m."
+        }
+      ]
+    },
+    "GAH8": {
+      "place": "gujarat/ahmedabad",
+      "topic": "GAH8",
+      "claim": "Gujarat Tourism lists French Haveli, The House of Mangaldas Girdhardas and Holiday Inn Express in Ahmedabad.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "GT_HW",
+          "quote": "Where To Stay French Haveli Holiday Inn Express"
+        },
+        {
+          "source": "GT_LOT2",
+          "quote": "Where to Stay The House of Mangaldas Girdhardas Holiday Inn Express"
+        }
+      ]
+    },
+    "GAH9": {
+      "place": "gujarat/ahmedabad",
+      "topic": "GAH9",
+      "claim": "Kankaria Lake, completed in 1451, has a mini-train, a tethered balloon and the Kamla Nehru Zoo; it is open 9am–11pm.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "GT_KL",
+          "quote": "Built in 1451 as Hauz e Qutub"
+        },
+        {
+          "source": "GT_KL",
+          "quote": "Attractions include a tethered hot-air balloon"
+        },
+        {
+          "source": "GT_KL",
+          "quote": "a mini-train and the Kamla Nehru Zoo"
+        },
+        {
+          "source": "GT_KL",
+          "quote": "Visiting Hours 9am–11pm"
+        }
+      ]
+    },
+    "GDW1": {
+      "place": "gujarat/dwarka",
+      "topic": "GDW1",
+      "claim": "Dwarka station has daily trains to Ahmedabad, Rajkot, Jamnagar, Vadodara, Surat and other Gujarat cities; the nearest airports are Porbandar (95 km) and Jamnagar (145 km). By road it is 217 km from Rajkot and 378 km from Ahmedabad.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "W_DWK",
+          "quote": "A daily trains connects the city to major cities in Gujarat such as Ahmedabad, Bhavnagar, Jamnagar, Junagadh, Rajkot, Surat, Vadodara and Veraval."
+        },
+        {
+          "source": "GT_DWT",
+          "quote": "Porbandar (95 km) and Jamnagar (145 km) are the closest airports to Dwarka."
+        },
+        {
+          "source": "W_DWK",
+          "quote": "217 kilometres (135 mi) away from Rajkot, 235 km from Somnath and 378 kilometres (235 mi) from Ahmedabad."
+        }
+      ]
+    },
+    "GDW2": {
+      "place": "gujarat/dwarka",
+      "topic": "GDW2",
+      "claim": "Gujarat Tourism lists the state-run Toran Tourist Bungalow and Mercure Dwarka.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "GT_DWT",
+          "quote": "Where To Stay Toran Tourist Bungalow, Dwarka"
+        },
+        {
+          "source": "GT_DWT",
+          "quote": "Mercure Dwarka"
+        }
+      ]
+    },
+    "GDW3": {
+      "place": "gujarat/dwarka",
+      "topic": "GDW3",
+      "claim": "The temple's 43 m spire carries a flag of 52 yards of cloth; the Sudama Setu footbridge (7am–1pm, 4–7.30pm) crosses the Gomti creek to the beach.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "GT_DWT",
+          "quote": "The impressive 43 m high spire is topped with a flag made from 52 yards of cloth"
+        },
+        {
+          "source": "GT_DWT",
+          "quote": "A bridge called Sudama Setu (7am–1pm, 4–7.30pm) at the base of the temple takes one across the Gomti creek towards the beach."
+        }
+      ]
+    },
+    "GDW4": {
+      "place": "gujarat/dwarka",
+      "topic": "GDW4",
+      "claim": "Dwarka is one of the four Char Dham, with Badrinath, Puri and Rameswaram.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "GT_DWT",
+          "quote": "Dwarka on the western tip of the Kathiawar Peninsula is clubbed with the holiest sites in India – the Char Dhams that include Badrinath, Puri and Rameshwaram."
+        }
+      ]
+    },
+    "GPT1": {
+      "place": "gujarat/patan",
+      "topic": "GPT1",
+      "claim": "Patan was the capital of the Chavda and Chaulukya dynasties; Sahastralinga tank and Rani ki Vav are national monuments, and the Panchasara Parshvanath Temple is an important Jain temple.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "W_PTN",
+          "quote": "Patan was the capital of Gujarat's Chavda and Chaulukya dynasties in medieval times."
+        },
+        {
+          "source": "W_PTN",
+          "quote": "Two architectural monuments have gained the status of national monuments. One of them is Sahastralinga tank and other one is Rani ki Vav stepwell."
+        },
+        {
+          "source": "W_PTN",
+          "quote": "The Panchasara Parshvanath Temple is an important Jain temple located in Patan."
+        }
+      ]
+    },
+    "GPT2": {
+      "place": "gujarat/patan",
+      "topic": "GPT2",
+      "claim": "Patola, among the finest hand-woven saris, is Patan's speciality; one takes 4 to 6 months to make and is coloured with vegetable dyes.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "W_PTN",
+          "quote": "Patola is one of the finest hand-woven sarees produced today. This is a specialty of Patan."
+        },
+        {
+          "source": "W_PTN",
+          "quote": "A patola sari takes 4 to 6 months to make"
+        },
+        {
+          "source": "W_PTN",
+          "quote": "The saris are colored with vegetable colors."
+        }
+      ]
+    },
+    "GPT3": {
+      "place": "gujarat/patan",
+      "topic": "GPT3",
+      "claim": "Patan is 108 km from Ahmedabad station, with rail links to Mehsana and Ahmedabad and NH 68 to Mehsana and Ahmedabad; municipal buses and auto-rickshaws run locally.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "W_PTN",
+          "quote": "Patan is 108 km from Ahmedabad Railway Station."
+        },
+        {
+          "source": "W_PTN",
+          "quote": "It is also connected by rail to Mehsana, Ahmedabad and Okha by BG Line."
+        },
+        {
+          "source": "W_PTN",
+          "quote": "National Highway 68 connects it with Mehsana, Himmatnagar and Ahmedabad."
+        },
+        {
+          "source": "W_PTN",
+          "quote": "The city bus service is run by the municipality, connecting nearby villages. Autorickshaws are available."
+        }
+      ]
+    },
+    "GPT4": {
+      "place": "gujarat/patan",
+      "topic": "GPT4",
+      "claim": "Rani ki Vav has more than 800 sculptures, mostly of Vishnu's avatars, and has been a UNESCO site since 2014; a 3D projection-mapping show lights it after sunset.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "GT_RKV",
+          "quote": "Steps lead down through multiple levels with lines of carved pillars and more than 800 sculptures, mostly on Vishnu-avatar themes"
+        },
+        {
+          "source": "GT_RKV",
+          "quote": "The stepwell has been listed as one of UNESCO's World Heritage Sites since 2014."
+        },
+        {
+          "source": "GT_RKV",
+          "quote": "3D Projection Mapping Show and Heritage Lighting, turning this historic stepwell into a living, breathing narrative after sunset."
+        }
+      ]
+    },
+    "GST1": {
+      "place": "gujarat",
+      "topic": "GST1",
+      "claim": "Gujarat bans the manufacture, storage, sale and consumption of alcohol; visitors from abroad and from other states can apply online for a permit and buy from licensed shops on showing it.",
+      "claimType": "rule",
+      "evidence": [
+        {
+          "source": "W_PROH",
+          "quote": "Gujarat has a sumptuary law in force that proscribes the manufacture, storage, sale and consumption of alcoholic beverages."
+        },
+        {
+          "source": "W_PROH",
+          "quote": "Foreigners and visitors from other parts of India can apply online for a permit."
+        },
+        {
+          "source": "W_PROH",
+          "quote": "There are 35 stores across the state including nine in Ahmedabad that sell liquor on production of a physical copy of the permit."
+        }
+      ]
+    },
+    "MBP1": {
+      "place": "madhya-pradesh/bhopal",
+      "topic": "MBP1",
+      "claim": "Bhopal, the 'City of Lakes', was ruled by Begums from 1819 to 1926; its Upper Lake (Bada Talab) was built by Raja Bhoj in the 11th century, and the Taj-ul-Masajid is one of India's largest mosques.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "MT_BPL",
+          "quote": "Between 1819 and 1926, it was ruled by the generation of Begums for over 100 years"
+        },
+        {
+          "source": "MT_BPL",
+          "quote": "Raja Bhoj constructed the Upper Lake, known as \"Bada Talab,\" in the 11th century."
+        },
+        {
+          "source": "MT_BPL",
+          "quote": "The Taj-Ul-Masajid is one of the largest mosques in India."
+        },
+        {
+          "source": "MT_BPL",
+          "quote": "The Rashtriya Manav Sangrahalay documents the lives of over 450 of India's Adivasi Tribes"
+        }
+      ]
+    },
+    "MBP2": {
+      "place": "madhya-pradesh/bhopal",
+      "topic": "MBP2",
+      "claim": "Best August to February, when lakes and streams are full.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "MT_BPL",
+          "quote": "the best time to visit Bhopal is between August to February."
+        },
+        {
+          "source": "MT_BPL",
+          "quote": "During this time, the streams and lakes of Bhopal are brimming with fresh water"
+        }
+      ]
+    },
+    "MBP3": {
+      "place": "madhya-pradesh/bhopal",
+      "topic": "MBP3",
+      "claim": "Raja Bhoj Airport is 15 km from the centre; Bhopal Junction and Rani Kamlapati are the main stations, on a main Delhi–Mumbai line.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "MT_BPL",
+          "quote": "Raja Bhoj Airport in Bhopal is situated at a distance of 15 km from the city centre."
+        },
+        {
+          "source": "MT_BPL",
+          "quote": "Bhopal Junction (Station Code: BPL), located near Hamidia Road is the main railway station of Bhopal."
+        },
+        {
+          "source": "MT_BPL",
+          "quote": "The newly inaugurated Rani Kamlapati Railway station is also one of the major stations of the city."
+        },
+        {
+          "source": "MT_BPL",
+          "quote": "Bhopal is on one of the two main Delhi to Mumbai railway lines"
+        }
+      ]
+    },
+    "MBP4": {
+      "place": "madhya-pradesh/bhopal",
+      "topic": "MBP4",
+      "claim": "MP Tourism runs the Kerwa Resort near Kerwa Dam.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "MT_BPL",
+          "quote": "Kerwa Resort is a comfortable accommodation in Bhopal situated close to Kerwa Dam"
+        }
+      ]
+    },
+    "MUJ1": {
+      "place": "madhya-pradesh/ujjain",
+      "topic": "MUJ1",
+      "claim": "Ujjain can be visited all year; festivals such as Mahashivratri, Savan Mondays, Nag Panchami, the Kartik Mela and the 12-yearly Kumbh draw the biggest crowds.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "MT_UJN",
+          "quote": "the best time to visit Ujjain is during festivals like Mahashivratri, Mondays of Savan month, Nag Panchami and especially during Kartik Mela (yearly) and Kumbh Mela (once in 12 years)."
+        }
+      ]
+    },
+    "MUJ2": {
+      "place": "madhya-pradesh/ujjain",
+      "topic": "MUJ2",
+      "claim": "Indore airport is 55 km away; Ujjain station is in the town centre, and the main bus stand at Dewas Gate is 600 m from it.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "MT_UJN",
+          "quote": "The closest airport is Devi Ahilya Bai International Airport, Indore at a distance of 55 km"
+        },
+        {
+          "source": "MT_UJN",
+          "quote": "The Ujjain railway station is located in the heart of the town."
+        },
+        {
+          "source": "MT_UJN",
+          "quote": "The main bus stand at Dewas Gate is located 600 meters from the railway station"
+        }
+      ]
+    },
+    "MUJ3": {
+      "place": "madhya-pradesh/ujjain",
+      "topic": "MUJ3",
+      "claim": "MP Tourism runs Samrat Vikramaditya, a heritage hotel near Mahakaleshwar.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "MT_UJN",
+          "quote": "Samrat Vikramaditya - A Royal Heritage Hotel Stay in Ujjain Near Mahakaleshwar"
+        }
+      ]
+    },
+    "MKJ1": {
+      "place": "madhya-pradesh/khajuraho",
+      "topic": "MKJ1",
+      "claim": "Khajuraho's airport is 2 km from the temples with flights to Delhi, Mumbai, Bhopal and Varanasi; local cabs run to hotels and temples. MP Tourism runs Jhankar.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "MT_KHJ",
+          "quote": "Khajuraho has its own domestic airport at a distance of two km from the temple sites."
+        },
+        {
+          "source": "MT_KHJ",
+          "quote": "It has flights connected to Delhi, Mumbai, Bhopal, Varanasi etc."
+        },
+        {
+          "source": "MT_KHJ",
+          "quote": "You can hire local cabs to reach the nearest hotel or the temple."
+        },
+        {
+          "source": "MT_KHJ",
+          "quote": "MPT Jhankar, Khajuraho"
+        }
+      ]
+    },
+    "MGW1": {
+      "place": "madhya-pradesh/gwalior",
+      "topic": "MGW1",
+      "claim": "Best October to March; avoid summer heat. MP Tourism runs the Tansen Residency.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "MT_GWL",
+          "quote": "The best time to visit the city without any hassle and heat wave is in between October to March."
+        },
+        {
+          "source": "MT_GWL",
+          "quote": "MPT Tansen Residency, Gwalior"
+        }
+      ]
+    },
+    "MOR1": {
+      "place": "madhya-pradesh/orchha",
+      "topic": "MOR1",
+      "claim": "MP Tourism calls the monsoon the best time for Orchha's temples and palaces, with winter also popular; avoid peak summer. It runs the Sheesh Mahal hotel.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "MT_ORC",
+          "quote": "Monsoon is the best time to visit Orchha and explore its architectural grandeur."
+        },
+        {
+          "source": "MT_ORC",
+          "quote": "People also like to visit the city during winters but it is advisable to avoid a trip to Orchha during peak summers"
+        },
+        {
+          "source": "MT_ORC",
+          "quote": "MPT Sheesh Mahal, Orchha"
+        }
+      ]
+    },
+    "MPH1": {
+      "place": "madhya-pradesh/pachmarhi",
+      "topic": "MPH1",
+      "claim": "MP Tourism runs the Karnikar Bungalow and the Champak Bungalow, a British-era bungalow by Pachmarhi Lake.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "MT_PCH",
+          "quote": "MPT Karnikar Bungalow, Pachmarhi"
+        },
+        {
+          "source": "MT_PCH",
+          "quote": "A quintessential British Bungalow, situated by the Pachmarhi Lake, MPT Champak Bungalow"
+        }
+      ]
     }
   },
   "places": [
@@ -1423,6 +2043,31 @@
             "GJ_UPI",
             "GJ_112"
           ]
+        },
+        "faqs": {
+          "items": [
+            {
+              "title": "Is Gujarat a dry state?",
+              "body": "Yes. The manufacture, sale and consumption of alcohol are banned."
+            },
+            {
+              "title": "Can visitors get a liquor permit?",
+              "body": "Yes — visitors from abroad and from other states can apply online, then buy from licensed shops on showing a printed permit."
+            },
+            {
+              "title": "Which airport is the main gateway?",
+              "body": "Ahmedabad, with direct flights to the USA, UK, Singapore and Dubai."
+            },
+            {
+              "title": "When is the weather best?",
+              "body": "November to February; in Ahmedabad days average about 30 °C."
+            }
+          ],
+          "facts": [
+            "GST1",
+            "GAH1",
+            "GAH3"
+          ]
         }
       },
       "wikidataId": "Q1061",
@@ -1500,6 +2145,128 @@
             "GJ1",
             "GJ3",
             "GJ2"
+          ]
+        },
+        "key_facts": {
+          "items": [
+            {
+              "title": "Airport",
+              "body": "International: direct flights to the USA, UK, Singapore, Dubai",
+              "status": "verified"
+            },
+            {
+              "title": "Main station",
+              "body": "Kalupur (Ahmedabad Junction)",
+              "status": "verified"
+            },
+            {
+              "title": "Getting around",
+              "body": "Metro, BRTS and AMTS buses",
+              "status": "verified"
+            },
+            {
+              "title": "Best time",
+              "body": "November–February: highs around 30 °C",
+              "status": "seasonal"
+            },
+            {
+              "title": "Alcohol",
+              "body": "Banned — Gujarat is a dry state",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "GAH1",
+            "GAH2",
+            "GAH3",
+            "GAH6"
+          ]
+        },
+        "best_time": {
+          "text": "November to February, when days average 30 °C and nights 13 °C. March to June is very hot, averaging 43 °C, and the humid monsoon runs from mid-June to mid-September.",
+          "facts": [
+            "GAH3"
+          ]
+        },
+        "how_to_reach": {
+          "text": "Sardar Vallabhbhai Patel International Airport has direct flights to the USA, UK, Singapore and Dubai and many domestic routes. Kalupur (Ahmedabad Junction) is Gujarat's busiest railway station. State and private buses stop at Gitamandir, near Kalupur station, and at Paldi.",
+          "facts": [
+            "GAH1"
+          ]
+        },
+        "local_transport": {
+          "text": "The Ahmedabad Metro runs on two lines, East–West and North–South. The Janmarg BRTS and AMTS buses cover the rest of the city.",
+          "facts": [
+            "GAH2"
+          ]
+        },
+        "food": {
+          "items": [
+            {
+              "body": "The Gujarati thali — roti, dal, rice and vegetables — first served commercially here in 1900."
+            },
+            {
+              "body": "Dhokla, thepla and dhebra."
+            },
+            {
+              "body": "Night street food at Manek Chowk."
+            },
+            {
+              "body": "Mughlai food in Bhatiyar Gali, Kalupur and Jamalpur."
+            }
+          ],
+          "facts": [
+            "GAH4",
+            "GAH5"
+          ]
+        },
+        "where_to_stay": {
+          "text": "Gujarat Tourism lists heritage stays at French Haveli and The House of Mangaldas Girdhardas, and Holiday Inn Express.",
+          "facts": [
+            "GAH8"
+          ]
+        },
+        "who_its_for": {
+          "items": [
+            {
+              "title": "Heritage walkers",
+              "body": "The 7.45am Heritage Walk through the pols."
+            },
+            {
+              "title": "Food lovers",
+              "body": "Thalis and Manek Chowk at night."
+            },
+            {
+              "title": "Families",
+              "body": "Kankaria Lake's zoo and mini-train."
+            }
+          ],
+          "facts": [
+            "GAH7",
+            "GAH4",
+            "GAH5",
+            "GAH9"
+          ]
+        },
+        "faqs": {
+          "items": [
+            {
+              "title": "Can I drink alcohol in Ahmedabad?",
+              "body": "No — Gujarat is a dry state."
+            },
+            {
+              "title": "When does the Heritage Walk start?",
+              "body": "Daily at 7.45am from the Kalupur Swaminarayan Temple, ending at the Jama Masjid at 10.30am."
+            },
+            {
+              "title": "When is Manek Chowk's food market on?",
+              "body": "From dusk to midnight."
+            }
+          ],
+          "facts": [
+            "GAH6",
+            "GAH7",
+            "GAH5"
           ]
         }
       },
@@ -1824,6 +2591,99 @@
             "GJ1",
             "GJ3",
             "GJ2"
+          ]
+        },
+        "key_facts": {
+          "items": [
+            {
+              "title": "Known for",
+              "body": "Rani ki Vav (UNESCO) and Patola saris",
+              "status": "verified"
+            },
+            {
+              "title": "From Ahmedabad",
+              "body": "108 km",
+              "status": "verified"
+            },
+            {
+              "title": "History",
+              "body": "Capital of the Chavda and Chaulukya dynasties",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "GPT4",
+            "GPT2",
+            "GPT3",
+            "GPT1"
+          ]
+        },
+        "local_transport": {
+          "text": "Municipal city buses and auto-rickshaws get you around.",
+          "facts": [
+            "GPT3"
+          ]
+        },
+        "things_to_do": {
+          "items": [
+            {
+              "body": "See Rani ki Vav and its 800-plus sculptures."
+            },
+            {
+              "body": "Stay for the 3D projection show at Rani ki Vav after sunset."
+            },
+            {
+              "body": "Visit the Sahastralinga tank."
+            },
+            {
+              "body": "See the Panchasara Parshvanath Jain temple."
+            }
+          ],
+          "facts": [
+            "GPT4",
+            "GPT1"
+          ]
+        },
+        "shopping": {
+          "items": [
+            {
+              "body": "Patola saris, hand-woven over 4 to 6 months with vegetable dyes."
+            }
+          ],
+          "facts": [
+            "GPT2"
+          ]
+        },
+        "who_its_for": {
+          "items": [
+            {
+              "title": "Heritage lovers",
+              "body": "Rani ki Vav and Sahastralinga."
+            },
+            {
+              "title": "Textile lovers",
+              "body": "Patan's Patola weaving."
+            }
+          ],
+          "facts": [
+            "GPT1",
+            "GPT2"
+          ]
+        },
+        "faqs": {
+          "items": [
+            {
+              "title": "How far is Patan from Ahmedabad?",
+              "body": "108 km from Ahmedabad railway station."
+            },
+            {
+              "title": "What is Patola?",
+              "body": "A hand-woven sari, Patan's speciality, taking 4 to 6 months to make."
+            }
+          ],
+          "facts": [
+            "GPT3",
+            "GPT2"
           ]
         }
       },
@@ -2301,6 +3161,47 @@
             "DHO1",
             "PAT1"
           ]
+        },
+        "key_facts": {
+          "items": [
+            {
+              "title": "Pilgrimage",
+              "body": "One of the four Char Dham",
+              "status": "verified"
+            },
+            {
+              "title": "Nearest airports",
+              "body": "Porbandar 95 km, Jamnagar 145 km",
+              "status": "verified"
+            },
+            {
+              "title": "By road",
+              "body": "217 km from Rajkot, 378 km from Ahmedabad",
+              "status": "verified"
+            },
+            {
+              "title": "Temple spire",
+              "body": "43 m, with a 52-yard flag",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "GDW4",
+            "GDW1",
+            "GDW3"
+          ]
+        },
+        "how_to_reach": {
+          "text": "Dwarka station has daily trains to Ahmedabad, Rajkot, Jamnagar, Junagadh, Vadodara, Surat, Bhavnagar and Veraval. The nearest airports are Porbandar (95 km) and Jamnagar (145 km). By road, Dwarka is 217 km from Rajkot, 235 km from Somnath and 378 km from Ahmedabad.",
+          "facts": [
+            "GDW1"
+          ]
+        },
+        "where_to_stay": {
+          "text": "Gujarat Tourism lists the state-run Toran Tourist Bungalow and Mercure Dwarka.",
+          "facts": [
+            "GDW2"
+          ]
         }
       },
       "wikidataId": "Q817247"
@@ -2674,6 +3575,33 @@
             "BHO1",
             "BHI1"
           ]
+        },
+        "local_transport": {
+          "text": "Local cabs run between the airport, hotels and the temples.",
+          "facts": [
+            "MKJ1"
+          ]
+        },
+        "where_to_stay": {
+          "text": "MP Tourism runs the Jhankar in Khajuraho.",
+          "facts": [
+            "MKJ1"
+          ]
+        },
+        "faqs": {
+          "items": [
+            {
+              "title": "How far is the airport from the temples?",
+              "body": "About 2 km."
+            },
+            {
+              "title": "Which cities fly to Khajuraho?",
+              "body": "Delhi, Mumbai, Bhopal and Varanasi, among others."
+            }
+          ],
+          "facts": [
+            "MKJ1"
+          ]
         }
       },
       "wikidataId": "Q178948",
@@ -2862,6 +3790,18 @@
             "BHO1",
             "BHI1"
           ]
+        },
+        "best_time": {
+          "text": "The monsoon, when clouds and mist set off the temples and palaces; winter is also popular. Avoid peak summer.",
+          "facts": [
+            "MOR1"
+          ]
+        },
+        "where_to_stay": {
+          "text": "MP Tourism runs the heritage Sheesh Mahal.",
+          "facts": [
+            "MOR1"
+          ]
         }
       },
       "wikidataId": "Q201631",
@@ -3034,6 +3974,18 @@
             "MP1",
             "MP2"
           ]
+        },
+        "best_time": {
+          "text": "October to March. Summer is best avoided for the heat.",
+          "facts": [
+            "MGW1"
+          ]
+        },
+        "where_to_stay": {
+          "text": "MP Tourism runs the Tansen Residency.",
+          "facts": [
+            "MGW1"
+          ]
         }
       },
       "wikidataId": "Q158467"
@@ -3197,6 +4149,84 @@
             "ORC1",
             "GWL1",
             "BHI1"
+          ]
+        },
+        "key_facts": {
+          "items": [
+            {
+              "title": "Known as",
+              "body": "City of Lakes",
+              "status": "verified"
+            },
+            {
+              "title": "Upper Lake",
+              "body": "Built by Raja Bhoj, 11th century",
+              "status": "verified"
+            },
+            {
+              "title": "Best time",
+              "body": "August–February",
+              "status": "seasonal"
+            },
+            {
+              "title": "Airport",
+              "body": "Raja Bhoj, 15 km",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "MBP1",
+            "MBP2",
+            "MBP3"
+          ]
+        },
+        "best_time": {
+          "text": "August to February, when the lakes and streams are full and the city is green.",
+          "facts": [
+            "MBP2"
+          ]
+        },
+        "how_to_reach": {
+          "text": "Raja Bhoj Airport is 15 km from the city centre. Bhopal Junction, near Hamidia Road, and Rani Kamlapati are the main stations; Bhopal is on a main Delhi–Mumbai line.",
+          "facts": [
+            "MBP3"
+          ]
+        },
+        "where_to_stay": {
+          "text": "MP Tourism runs the Kerwa Resort near Kerwa Dam.",
+          "facts": [
+            "MBP4"
+          ]
+        },
+        "who_its_for": {
+          "items": [
+            {
+              "title": "Culture lovers",
+              "body": "The tribal museum and the Begums' monuments."
+            },
+            {
+              "title": "Lake lovers",
+              "body": "The Upper and Lower Lakes."
+            }
+          ],
+          "facts": [
+            "MBP1"
+          ]
+        },
+        "faqs": {
+          "items": [
+            {
+              "title": "Why is Bhopal called the City of Lakes?",
+              "body": "For its natural and man-made lakes, led by the 11th-century Upper Lake."
+            },
+            {
+              "title": "When should I visit?",
+              "body": "August to February."
+            }
+          ],
+          "facts": [
+            "MBP1",
+            "MBP2"
           ]
         }
       },
@@ -3460,6 +4490,24 @@
             "ORC1",
             "GWL1",
             "BHO1"
+          ]
+        },
+        "best_time": {
+          "text": "Any time of year; the big festivals are Mahashivratri, the Mondays of Savan, Nag Panchami, the yearly Kartik Mela and the Kumbh every 12 years.",
+          "facts": [
+            "MUJ1"
+          ]
+        },
+        "how_to_reach": {
+          "text": "The nearest airport is Indore, 55 km away. Ujjain station is in the town centre, and the main bus stand at Dewas Gate is 600 m from it.",
+          "facts": [
+            "MUJ2"
+          ]
+        },
+        "where_to_stay": {
+          "text": "MP Tourism runs Samrat Vikramaditya, a heritage hotel near Mahakaleshwar.",
+          "facts": [
+            "MUJ3"
           ]
         }
       },
@@ -3906,6 +4954,12 @@
           "facts": [
             "MP1",
             "MP2"
+          ]
+        },
+        "where_to_stay": {
+          "text": "MP Tourism runs several bungalows here, including the Karnikar Bungalow and the Champak Bungalow, a British-era house by Pachmarhi Lake.",
+          "facts": [
+            "MPH1"
           ]
         }
       },

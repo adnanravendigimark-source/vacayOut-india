@@ -1,0 +1,3877 @@
+{
+  "cluster": "gj-new-1",
+  "title": "Gujarat: new places (2026-11-26)",
+  "researchedAt": "2026-11-26",
+  "selection": "Gujarat pass: city bases (Vadodara, Junagadh, Bhuj, Porbandar, Palitana, Saputara) and major sights from Gujarat Tourism leaf pages and Wikipedia; Bet Dwarka, Shivrajpur and Mandvi inline (no licensed photo).",
+  "sources": {
+    "W_VAD": {
+      "url": "https://en.wikipedia.org/wiki/Vadodara",
+      "title": "Vadodara — Wikipedia",
+      "authority": "reference"
+    },
+    "GT_LVP": {
+      "url": "https://www.gujarattourism.com/central-zone/vadodara/laxmi-vilas-palace.html",
+      "title": "Laxmi Vilas Palace — Gujarat Tourism (Government of Gujarat)",
+      "authority": "government"
+    },
+    "W_JUN": {
+      "url": "https://en.wikipedia.org/wiki/Junagadh",
+      "title": "Junagadh — Wikipedia",
+      "authority": "reference"
+    },
+    "GT_JUNH": {
+      "url": "https://www.gujarattourism.com/saurashtra/junagadh.html",
+      "title": "Junagadh — Gujarat Tourism (Government of Gujarat)",
+      "authority": "government"
+    },
+    "GT_UPK": {
+      "url": "https://www.gujarattourism.com/saurashtra/junagadh/uparkot-fort.html",
+      "title": "Uparkot Fort — Gujarat Tourism (Government of Gujarat)",
+      "authority": "government"
+    },
+    "GT_GIR": {
+      "url": "https://www.gujarattourism.com/saurashtra/junagadh/girnar-hill.html",
+      "title": "Girnar Hill — Gujarat Tourism (Government of Gujarat)",
+      "authority": "government"
+    },
+    "W_BHJ": {
+      "url": "https://en.wikipedia.org/wiki/Bhuj",
+      "title": "Bhuj — Wikipedia",
+      "authority": "reference"
+    },
+    "GT_AIN": {
+      "url": "https://www.gujarattourism.com/kutch-zone/kutch/aina-mahal.html",
+      "title": "Aina Mahal — Gujarat Tourism (Government of Gujarat)",
+      "authority": "government"
+    },
+    "GT_SBP": {
+      "url": "https://www.gujarattourism.com/kutch-zone/kutch/sharad-bagh-palace.html",
+      "title": "Sharad Bagh Palace — Gujarat Tourism (Government of Gujarat)",
+      "authority": "government"
+    },
+    "GT_SAP": {
+      "url": "https://www.gujarattourism.com/south-zone/dang/saputara.html",
+      "title": "Saputara Hill Station — Gujarat Tourism (Government of Gujarat)",
+      "authority": "government"
+    },
+    "W_SAP": {
+      "url": "https://en.wikipedia.org/wiki/Saputara",
+      "title": "Saputara — Wikipedia",
+      "authority": "reference"
+    },
+    "W_PAL": {
+      "url": "https://en.wikipedia.org/wiki/Palitana",
+      "title": "Palitana — Wikipedia",
+      "authority": "reference"
+    },
+    "GT_PAL": {
+      "url": "https://www.gujarattourism.com/saurashtra/bhavnagar/palitana-and-shatrunjaya-hill.html",
+      "title": "Palitana and Shatrunjaya Hill — Gujarat Tourism (Government of Gujarat)",
+      "authority": "government"
+    },
+    "W_POR": {
+      "url": "https://en.wikipedia.org/wiki/Porbandar",
+      "title": "Porbandar — Wikipedia",
+      "authority": "reference"
+    },
+    "GT_PORH": {
+      "url": "https://www.gujarattourism.com/saurashtra/porbandar.html",
+      "title": "Porbandar — Gujarat Tourism (Government of Gujarat)",
+      "authority": "government"
+    },
+    "GT_KM": {
+      "url": "https://www.gujarattourism.com/saurashtra/porbandar/kirti-mandir.html",
+      "title": "Kirti Mandir — Gujarat Tourism (Government of Gujarat)",
+      "authority": "government"
+    },
+    "GT_ADL": {
+      "url": "https://www.gujarattourism.com/central-zone/gandhinagar/adalaj-ni-vav.html",
+      "title": "Adalaj ni Vav — Gujarat Tourism (Government of Gujarat)",
+      "authority": "government"
+    },
+    "GT_LOT": {
+      "url": "https://www.gujarattourism.com/central-zone/ahmedabad/lothal.html",
+      "title": "Lothal — Gujarat Tourism (Government of Gujarat)",
+      "authority": "government"
+    },
+    "GT_NAL": {
+      "url": "https://www.gujarattourism.com/central-zone/ahmedabad/nalsarovar-bird-sanctuary.html",
+      "title": "Nalsarovar Bird Sanctuary — Gujarat Tourism (Government of Gujarat)",
+      "authority": "government"
+    },
+    "GT_KDG": {
+      "url": "https://www.gujarattourism.com/kutch-zone/kutch/kalo-dungar.html",
+      "title": "Kalo Dungar — Gujarat Tourism (Government of Gujarat)",
+      "authority": "government"
+    },
+    "GT_LKP": {
+      "url": "https://www.gujarattourism.com/kutch-zone/kutch/lakhpat-fort-and-gurudwara.html",
+      "title": "Lakhpat Fort and Gurudwara — Gujarat Tourism (Government of Gujarat)",
+      "authority": "government"
+    },
+    "GT_LRK": {
+      "url": "https://www.gujarattourism.com/saurashtra/surendranagar/wild-ass-sanctuary-in-little-rann-of-kutch.html",
+      "title": "Wild Ass Sanctuary, Little Rann of Kutch — Gujarat Tourism (Government of Gujarat)",
+      "authority": "government"
+    },
+    "GT_VEL": {
+      "url": "https://www.gujarattourism.com/saurashtra/bhavnagar/velavadar-blackbuck-national-park.html",
+      "title": "Velavadar Blackbuck National Park — Gujarat Tourism (Government of Gujarat)",
+      "authority": "government"
+    },
+    "GT_POLO": {
+      "url": "https://www.gujarattourism.com/north-zone/sabarkantha/polo-forest.html",
+      "title": "Polo Forest — Gujarat Tourism (Government of Gujarat)",
+      "authority": "government"
+    },
+    "W_MOD": {
+      "url": "https://en.wikipedia.org/wiki/Modhera_Sun_Temple",
+      "title": "Sun Temple, Modhera — Wikipedia",
+      "authority": "reference"
+    },
+    "W_MODV": {
+      "url": "https://en.wikipedia.org/wiki/Modhera",
+      "title": "Modhera — Wikipedia",
+      "authority": "reference"
+    },
+    "GT_BET": {
+      "url": "https://www.gujarattourism.com/saurashtra/devbhoomi-dwarka/bet-dwarka.html",
+      "title": "Bet Dwarka — Gujarat Tourism (Government of Gujarat)",
+      "authority": "government"
+    },
+    "GT_SHV": {
+      "url": "https://www.gujarattourism.com/saurashtra/devbhoomi-dwarka/shivrajpur-beach.html",
+      "title": "Shivrajpur Beach — Gujarat Tourism (Government of Gujarat)",
+      "authority": "government"
+    },
+    "GT_MAN": {
+      "url": "https://www.gujarattourism.com/kutch-zone/kutch/mandvi-beach.html",
+      "title": "Mandvi Beach — Gujarat Tourism (Government of Gujarat)",
+      "authority": "government"
+    }
+  },
+  "facts": {
+    "GVD1": {
+      "place": "gujarat/vadodara",
+      "topic": "GVD1",
+      "claim": "Vadodara (Baroda) lies on the Vishwamitri River; it is called the 'Cultural City' and 'City of Art', and is known for the Gaekwads' Laxmi Vilas Palace and the Maharaja Sayajirao University.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "W_VAD",
+          "quote": "is a city on the banks of the Vishwamitri River in the Indian state of Gujarat."
+        },
+        {
+          "source": "W_VAD",
+          "quote": "Vadodara is also locally referred to as the Sanskrutik Nagari (transl. 'Cultural City') and Kala Nagari (transl. 'City of Art') of India."
+        },
+        {
+          "source": "W_VAD",
+          "quote": "The city is prominent for landmarks such as the Laxmi Vilas Palace, which served as the residence of the Maratha royal Gaekwad dynasty that ruled over Baroda State."
+        },
+        {
+          "source": "W_VAD",
+          "quote": "It is also the home of the Maharaja Sayajirao University of Baroda."
+        }
+      ]
+    },
+    "GVD2": {
+      "place": "gujarat/vadodara",
+      "topic": "GVD2",
+      "claim": "Vadodara is on the main Mumbai–Delhi and Mumbai–Ahmedabad rail and road routes; its airport, north-east of the city, has flights to Mumbai, New Delhi, Hyderabad, Bangalore, Pune and Goa, and its station is a major Western Railway junction.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "W_VAD",
+          "quote": "The city is on the major rail and road arteries joining Mumbai with Delhi and Mumbai with Ahmedabad."
+        },
+        {
+          "source": "W_VAD",
+          "quote": "Vadodara Airport (IATA: BDQ) is located north-east of the city."
+        },
+        {
+          "source": "W_VAD",
+          "quote": "Vadodara has flight connections with Mumbai, New Delhi, Hyderabad, Bangalore, Pune and Goa."
+        },
+        {
+          "source": "W_VAD",
+          "quote": "Vadodara Railway Station now belongs to the Western Railway zone of Indian Railways and is a major junction on the Western Railway Main Line."
+        }
+      ]
+    },
+    "GVD3": {
+      "place": "gujarat/vadodara",
+      "topic": "GVD3",
+      "claim": "November to February is dry, with average highs around 30 °C and lows around 15 °C; March to July is hot (average highs 39 °C); the monsoon runs mid-June to mid-September.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "W_VAD",
+          "quote": "From November to February, the average maximum temperature is 30 °C or 86 °F, the average minimum is 15 °C or 59 °F, and the climate is extremely dry."
+        },
+        {
+          "source": "W_VAD",
+          "quote": "The weather is hot during March to July, when the average maximum is 39 °C or 102.2 °F"
+        },
+        {
+          "source": "W_VAD",
+          "quote": "The southwest monsoon brings a humid climate from mid-June to mid-September."
+        }
+      ]
+    },
+    "GVD4": {
+      "place": "gujarat/vadodara",
+      "topic": "GVD4",
+      "claim": "Its museums include the Baroda Museum and Picture Gallery in Sayaji Baug and the Maharaja Fatehsinh Museum.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "W_VAD",
+          "quote": "Vadodara is home to notable museums like: Sayaji Baug, Baroda Museum and Picture Gallery Maharaja Fatehsinh Museum"
+        }
+      ]
+    },
+    "GVD5": {
+      "place": "gujarat/vadodara",
+      "topic": "GVD5",
+      "claim": "Gujarat Tourism lists The Gateway Hotel and the MadhavBagh and Arudh Mahal homestays in Vadodara.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "GT_LVP",
+          "quote": "Where To Stay The Gateway Hotel- VADODARA MadhavBagh Homestay, Vadodara Arudh Mahal Homestay, Vadodara"
+        }
+      ]
+    },
+    "GVD6": {
+      "place": "gujarat/vadodara",
+      "topic": "GVD6",
+      "claim": "The bus station, designed around the banyan (vad) tree, is near the railway station.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "W_VAD",
+          "quote": "Vadodara bus station is also beautifully designed as a symbol of Banyan (Vad) trees and located near by Railway Station."
+        }
+      ]
+    },
+    "GLV1": {
+      "place": "gujarat/laxmi-vilas-palace",
+      "topic": "GLV1",
+      "claim": "Laxmi Vilas Palace, still the home of Vadodara's royal family, was built in Indo-Saracenic style in 1890 by Maharaja Sayajirao Gaekwad III; Major Charles Mant is credited as its main architect.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "GT_LVP",
+          "quote": "Still the residence of Vadodara’s royal family, Lukshmi Vilas was built in full-throttle 19th-century Indo-Saracenic flourish"
+        },
+        {
+          "source": "GT_LVP",
+          "quote": "The palace was built by Maharaja Sayajirao Gaekwad III in 1890, who ruled the Baroda State."
+        },
+        {
+          "source": "GT_LVP",
+          "quote": "Major Charles Mant was credited to be the main architect of the palace."
+        }
+      ]
+    },
+    "GLV2": {
+      "place": "gujarat/laxmi-vilas-palace",
+      "topic": "GLV2",
+      "claim": "Its interiors have mosaics, chandeliers and artworks, a collection of weaponry and art, and paintings by Raja Ravi Varma, commissioned by the Maharaja.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "GT_LVP",
+          "quote": "its elaborate interiors boast well-maintained mosaics, chandeliers and artworks, as well as a highly impressive collection of weaponry and art."
+        },
+        {
+          "source": "GT_LVP",
+          "quote": "Paintings by the famous artist, Raja Ravi Verma who was specially commissioned by the then Maharaja of Baroda, adorn the palace."
+        }
+      ]
+    },
+    "GLV3": {
+      "place": "gujarat/laxmi-vilas-palace",
+      "topic": "GLV3",
+      "claim": "The park-like grounds include a golf course, the Navlakhi stepwell, Moti Baug Palace and the Maharaja Fatesingh Museum building.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "GT_LVP",
+          "quote": "It’s set in expansive park-like grounds, which include a golf course."
+        },
+        {
+          "source": "GT_LVP",
+          "quote": "The Navlakhi stepwell in the premises is a window to the ancient water resource system"
+        },
+        {
+          "source": "GT_LVP",
+          "quote": "Other buildings within the complex include the LVP Banquets & Conventions, Moti Baug Palace and the Maharaja Fatesingh Museum building."
+        }
+      ]
+    },
+    "GLV4": {
+      "place": "gujarat/laxmi-vilas-palace",
+      "topic": "GLV4",
+      "claim": "Gujarat Tourism gives visiting hours of 10am–5pm, Tuesday to Sunday.",
+      "claimType": "opening_hours",
+      "evidence": [
+        {
+          "source": "GT_LVP",
+          "quote": "Visiting Hours 10am–5pm Tuesady–Sunday"
+        }
+      ]
+    },
+    "GJN1": {
+      "place": "gujarat/junagadh",
+      "topic": "GJN1",
+      "claim": "Junagadh, the 'Old Fort', lies at the foot of the Girnar hills, 355 km southwest of Ahmedabad.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "W_JUN",
+          "quote": "Located at the foot of the Girnar hills, 355 kilometres (221 mi) southwest of Ahmedabad and Gandhinagar (the state capital), it is the seventh largest city in the state."
+        },
+        {
+          "source": "W_JUN",
+          "quote": "The name Junagadh is derived from the Sanskrit words jīrṇa (old) and garh (fort), meaning \"old fort\"."
+        }
+      ]
+    },
+    "GJN2": {
+      "place": "gujarat/junagadh",
+      "topic": "GJN2",
+      "claim": "Junagadh is on NH 8D between Rajkot and Veraval and has Junagadh Junction station on the Rajkot–Somnath line; Rajkot airport, about 100 km away, is the nearest with regular flights.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "W_JUN",
+          "quote": "Junagadh lies on National Highway 8D (NH 8D), which connects the city with regional centres such as Rajkot and Veraval."
+        },
+        {
+          "source": "W_JUN",
+          "quote": "The city is served by Junagadh Junction railway station, which is part of the Western Railway zone of Indian Railways on the Rajkot–Somnath line."
+        },
+        {
+          "source": "W_JUN",
+          "quote": "The nearest major airport with regular scheduled services is Rajkot Airport, located approximately 100 km from Junagadh."
+        }
+      ]
+    },
+    "GJN3": {
+      "place": "gujarat/junagadh",
+      "topic": "GJN3",
+      "claim": "Rickshaws are the usual way around town; the Girnar ropeway runs from Bhavnath Taleti up Mount Girnar.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "W_JUN",
+          "quote": "Within the city, rickshaws and auto-rickshaws are common modes of urban transportation."
+        },
+        {
+          "source": "W_JUN",
+          "quote": "the Girnar ropeway provides aerial access between Bhavnath Taleti and parts of Mount Girnar, serving both tourists and pilgrims."
+        }
+      ]
+    },
+    "GJN4": {
+      "place": "gujarat/junagadh",
+      "topic": "GJN4",
+      "claim": "Winter temperatures range from 10 to 25 °C and the monsoon runs June to September; Gujarat Tourism recommends November to February.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "W_JUN",
+          "quote": "In the winter, they range from 10 to 25 °C (50 to 77 °F)."
+        },
+        {
+          "source": "W_JUN",
+          "quote": "From June to September the city is affected by the Southwest monsoon."
+        },
+        {
+          "source": "GT_UPK",
+          "quote": "The best time to visit is between November and February."
+        }
+      ]
+    },
+    "GJN5": {
+      "place": "gujarat/junagadh",
+      "topic": "GJN5",
+      "claim": "Gujarat Tourism's Junagadh highlights include Girnar, Damodar Kund, Adi Kadi Vav, the Buddhist caves, Mahabat Khan Maqbara, the Ashoka edicts and Uparkot Fort; it lists Hotel Grand Daksh in Junagadh.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "GT_JUNH",
+          "quote": "Things To Do Girnar-Hills Jungle-Safari Adi Kadi Vav Buddhist Caves Damodar Kund"
+        },
+        {
+          "source": "GT_JUNH",
+          "quote": "Mahabat Khan Maqbara Ashok Edicts Uparkot Fort"
+        },
+        {
+          "source": "GT_UPK",
+          "quote": "Where To Stay Hotel Grand Daksh, Junagadh"
+        }
+      ]
+    },
+    "GUP1": {
+      "place": "gujarat/uparkot-fort",
+      "topic": "GUP1",
+      "claim": "Uparkot is believed to date from 319 BC under Chandragupta Maurya; its ramparts reach 20 m and it has been besieged 16 times.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "GT_UPK",
+          "quote": "This ancient fort is believed to have been built in 319 BC by the Mauryan emperor Chandragupta, though it has been extended many times."
+        },
+        {
+          "source": "GT_UPK",
+          "quote": "In places, the ramparts reach 20m high."
+        },
+        {
+          "source": "GT_UPK",
+          "quote": "It’s been besieged 16 times, and legend has it that the fort once withstood a 12-year siege."
+        }
+      ]
+    },
+    "GUP2": {
+      "place": "gujarat/uparkot-fort",
+      "topic": "GUP2",
+      "claim": "Inside are a former mosque, millennia-old Buddhist caves and two rock-cut stepwells, with views to Girnar.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "GT_UPK",
+          "quote": "The views over the city and east to Girnar Hill are superb, and within its walls, there is a magnificent former mosque, a set of millennia-old Buddhist caves and two fine step-wells."
+        }
+      ]
+    },
+    "GUP3": {
+      "place": "gujarat/uparkot-fort",
+      "topic": "GUP3",
+      "claim": "Adi Kadi Vav, 41 m deep, was cut in the 15th century; Navghan Kuvo, 52 m deep and almost 1,000 years old, has a staircase spiralling around the shaft.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "GT_UPK",
+          "quote": "The circular, 41m-deep Adi Kadi Vav was cut in the 15th century and named after two slave girls who used to fetch water from it."
+        },
+        {
+          "source": "GT_UPK",
+          "quote": "Navghan Kuvo, 52m deep and designed to help withstand sieges, is almost 1000 years old and its magnificent staircase spirals around the well shaft."
+        }
+      ]
+    },
+    "GUP4": {
+      "place": "gujarat/uparkot-fort",
+      "topic": "GUP4",
+      "claim": "Gujarat Tourism gives the hours as dawn to dusk and the best time as November to February.",
+      "claimType": "opening_hours",
+      "evidence": [
+        {
+          "source": "GT_UPK",
+          "quote": "Visiting Hours Dawn–dusk Location Junagadh"
+        },
+        {
+          "source": "GT_UPK",
+          "quote": "The best time to visit is between November and February."
+        }
+      ]
+    },
+    "GGR1": {
+      "place": "gujarat/girnar",
+      "topic": "GGR1",
+      "claim": "Girnar, also called Revatak Parvata, is covered with Jain and Hindu temples; pilgrims climb about 10,000 stone steps, best started at dawn, and the uppermost temples take a full day.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "GT_GIR",
+          "quote": "This sacred mountain also known as Revatak Parvata, rising dramatically from the plains, is covered with Jain and Hindu temples."
+        },
+        {
+          "source": "GT_GIR",
+          "quote": "Pilgrims from far and wide come to tackle the long climb up 10,000 stone steps to the summit, which is best begun at dawn."
+        },
+        {
+          "source": "GT_GIR",
+          "quote": "Be prepared to spend a full day if you want to reach the uppermost temples."
+        }
+      ]
+    },
+    "GGR2": {
+      "place": "gujarat/girnar",
+      "topic": "GGR2",
+      "claim": "The largest and oldest Jain temple is the 12th-century Neminath temple, dedicated to the 22nd Tirthankar; many temples close from about 11am to 3pm, but Neminath is open all day.",
+      "claimType": "opening_hours",
+      "evidence": [
+        {
+          "source": "GT_GIR",
+          "quote": "The largest and oldest is the 12th-century Temple of Neminath, dedicated to the 22nd Tirthankar"
+        },
+        {
+          "source": "GT_GIR",
+          "quote": "Many temples are locked from around 11 am to 3 pm, but this one is open all day."
+        }
+      ]
+    },
+    "GGR3": {
+      "place": "gujarat/girnar",
+      "topic": "GGR3",
+      "claim": "Higher up are Hindu shrines: Amba Mata on the first peak, Gorakhnath on Gujarat's highest peak (1,117 m), and Dattatraya.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "GT_GIR",
+          "quote": "The first peak is topped by the Temple of Amba Mata"
+        },
+        {
+          "source": "GT_GIR",
+          "quote": "The Temple of Gorakhnath is perched on Gujarat’s highest peak at 1117m."
+        },
+        {
+          "source": "GT_GIR",
+          "quote": "The steep peak Dattatraya is topped by a shrine to a three-faced incarnation of Vishnu."
+        }
+      ]
+    },
+    "GGR4": {
+      "place": "gujarat/girnar",
+      "topic": "GGR4",
+      "claim": "The best time is November to February; the five-day Bhavnath Mela falls in Magha (January–February) and the Girnar Parikrama in November.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "GT_GIR",
+          "quote": "The best time to visit is between November and February."
+        },
+        {
+          "source": "GT_GIR",
+          "quote": "The Bhavnath Mela over five days in the month of Magha (January–February) brings folk music and dancing"
+        },
+        {
+          "source": "GT_GIR",
+          "quote": "The Girnar Parikrama festival is held in November."
+        }
+      ]
+    },
+    "GGR5": {
+      "place": "gujarat/girnar",
+      "topic": "GGR5",
+      "claim": "A ropeway runs from Bhavnath Taleti up the mountain.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "W_JUN",
+          "quote": "the Girnar ropeway provides aerial access between Bhavnath Taleti and parts of Mount Girnar, serving both tourists and pilgrims."
+        }
+      ]
+    },
+    "GBH1": {
+      "place": "gujarat/bhuj",
+      "topic": "GBH1",
+      "claim": "Bhuj was made capital of Kutch by Rao Khengarji I in 1549 and stayed capital of the princely state until 1947.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "W_BHJ",
+          "quote": "made the capital of Kutch (Kachchh) by Rao Khengarji I in 1549."
+        },
+        {
+          "source": "W_BHJ",
+          "quote": "It was the capital of Kutch State, which was a princely state before it was merged into the Indian Union in 1947."
+        }
+      ]
+    },
+    "GBH2": {
+      "place": "gujarat/bhuj",
+      "topic": "GBH2",
+      "claim": "Bhuj has a domestic airport 4 km from the city with daily flights to Mumbai, trains to major Indian cities, and state buses from the ST stand to the rest of Gujarat; city buses and auto-rickshaws get you around.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "W_BHJ",
+          "quote": "Bhuj is connected to Ahmedabad, Vadodara, Surat Mumbai, Delhi"
+        },
+        {
+          "source": "W_BHJ",
+          "quote": "The city has a domestic airport, from which daily flights connect to Mumbai with flights operated by Air India."
+        },
+        {
+          "source": "GT_AIN",
+          "quote": "The Bhuj airport lies 4 km from the city"
+        },
+        {
+          "source": "W_BHJ",
+          "quote": "State Transport buses are available from the ST stand in the middle of the town to various places in Gujarat."
+        }
+      ]
+    },
+    "GBH3": {
+      "place": "gujarat/bhuj",
+      "topic": "GBH3",
+      "claim": "Its sights include Hamirsar Lake, the Kutch Museum, Prag Mahal, Aina Mahal, Sharad Baug Palace and Bhujia Fort with the Smritivan earthquake memorial on Bhujia Hill.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "W_BHJ",
+          "quote": "Hamirsar Lake Kutch Museum Prag Mahal Aina Mahal Sharad Baug Palace"
+        },
+        {
+          "source": "W_BHJ",
+          "quote": "Bhujia Fort and Smritivan on Bhujia Hill"
+        }
+      ]
+    },
+    "GBH4": {
+      "place": "gujarat/bhuj",
+      "topic": "GBH4",
+      "claim": "Bhuj is a centre for Kutch crafts — bandhni, embroidery, Rogan art and leatherwork — sold by village artists at Bhuj Haat.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "W_BHJ",
+          "quote": "Bhuj is a famous destination within India for observing the historic craftsmanship of the Kutch region, including the textile crafts of bandhni (tie-dye), embroidery, Rogan art and leatherwork."
+        },
+        {
+          "source": "W_BHJ",
+          "quote": "Artists of nearby villages bring their artwork for sale in 'Bhuj Haat'"
+        }
+      ]
+    },
+    "GBH5": {
+      "place": "gujarat/bhuj",
+      "topic": "GBH5",
+      "claim": "Much of the old city wall fell or was demolished after the 2001 earthquake.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "W_BHJ",
+          "quote": "Much of the fort wall has either fallen down or been demolished, due to the damage sustained in the 2001 earthquake and the city's redevelopment."
+        }
+      ]
+    },
+    "GBH6": {
+      "place": "gujarat/bhuj",
+      "topic": "GBH6",
+      "claim": "Gujarat Tourism lists The Bhuj House as a place to stay.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "GT_SBP",
+          "quote": "Where To Stay The Bhuj House"
+        }
+      ]
+    },
+    "GBH2B": {
+      "place": "gujarat/bhuj",
+      "topic": "GBH2B",
+      "claim": "Bhuj has a domestic airport 4 km from the city with daily flights to Mumbai, trains to major Indian cities, and state buses from the ST stand to the rest of Gujarat; city buses and auto-rickshaws get you around.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "W_BHJ",
+          "quote": "The city may be navigated by the city bus and auto rickshaw."
+        }
+      ]
+    },
+    "GAM1": {
+      "place": "gujarat/aina-mahal",
+      "topic": "GAM1",
+      "claim": "Aina Mahal in Bhuj, built in 1752, lost its top storey in an earthquake; the lower floor is open, with a 15.2 m scroll of a Kutch state procession. It is one of three palaces in the walled old town.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "GT_AIN",
+          "quote": "This Bhuj based beautiful palace, built in 1752, lost its top storey in an earthquake, but the lower floor is open for travellers, with a fantastic 15.2 m scroll showing a Kutch state procession."
+        },
+        {
+          "source": "GT_AIN",
+          "quote": "The palace is one of the three that lie in the walled complex of the old part of town."
+        }
+      ]
+    },
+    "GAM2": {
+      "place": "gujarat/aina-mahal",
+      "topic": "GAM2",
+      "claim": "It was built for Maharao Lakhpatji by Ram Singh Malam, a Dwarka sailor who had learnt European crafts; the mirrored interior has Delft-style tiles and a Venetian-glass candelabra.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "GT_AIN",
+          "quote": "The palace was built for Maharao Lakhpatji by Ram Singh Malam, a sailor from Dwarka who had learnt European arts and crafts on his travels."
+        },
+        {
+          "source": "GT_AIN",
+          "quote": "with blue-and-white Delphi-style tiling, a candelabra with Venetian-glass shades"
+        }
+      ]
+    },
+    "GAM3": {
+      "place": "gujarat/aina-mahal",
+      "topic": "GAM3",
+      "claim": "In the Fuvara Mahal, fountains played around the ruler; the museum shows Kutch jewellery, weaponry and art.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "GT_AIN",
+          "quote": "In the Fuvara Mahal room, fountains played around the ruler while he sat watching dancers or composing poems."
+        },
+        {
+          "source": "GT_AIN",
+          "quote": "The museum is a royal showcase of Kutch jewellery, weaponry and art."
+        }
+      ]
+    },
+    "GAM4": {
+      "place": "gujarat/aina-mahal",
+      "topic": "GAM4",
+      "claim": "Gujarat Tourism lists hours of 9–11.45am and 3–5.45pm, Friday to Wednesday.",
+      "claimType": "opening_hours",
+      "evidence": [
+        {
+          "source": "GT_AIN",
+          "quote": "Visiting Hours 9–11.45am & 3–5.45pm Fri–Wed"
+        }
+      ]
+    },
+    "GSP1": {
+      "place": "gujarat/saputara",
+      "topic": "GSP1",
+      "claim": "Saputara, at about 1,000 m in the Sahyadri range of the Dang district, is Gujarat's only hill station; its name means 'abode of serpents'.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "GT_SAP",
+          "quote": "Nestled in the Sahyadri range, at an altitude of about 1000 m, this Dangi enclave derives its name from the Snake God revered by the tribals and translates as ‘the abode of serpents’, Saputara."
+        },
+        {
+          "source": "GT_SAP",
+          "quote": "In spite of being the only hill station of Gujarat, it is minimally commercialized, still unspoiled."
+        }
+      ]
+    },
+    "GSP2": {
+      "place": "gujarat/saputara",
+      "topic": "GSP2",
+      "claim": "Sights include Saputara Lake, Sunset, Sunrise and Echo Points, the tribal museum and Hathgadh Fort; Vansda National Park is about 69 km away.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "W_SAP",
+          "quote": "Places to visit in and around Saputara are Saputara Lake, Sunset Point, Sunrise Point, Echo Point, The SaputaraTribal Museum and Hathgadh Fort."
+        },
+        {
+          "source": "W_SAP",
+          "quote": "Vansda National Park is located around 69 kms from Saputara."
+        }
+      ]
+    },
+    "GSP3": {
+      "place": "gujarat/saputara",
+      "topic": "GSP3",
+      "claim": "Winter runs October to February, when lows can drop to 8 °C; the monsoon turns the hills green.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "W_SAP",
+          "quote": "The winter season begins in October and goes on till February."
+        },
+        {
+          "source": "W_SAP",
+          "quote": "Though the winter temperature in Saputara can drop as low as 8 °C, overall, the weather remains quite enjoyable."
+        },
+        {
+          "source": "GT_SAP",
+          "quote": "In rains, breathe in the rolling hills of Saputara, echoing green hues, lush with flowers"
+        }
+      ]
+    },
+    "GSP4": {
+      "place": "gujarat/saputara",
+      "topic": "GSP4",
+      "claim": "Saputara is on NH 953, linking Songadh in Gujarat with Pimpalgaon Baswant in Maharashtra.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "W_SAP",
+          "quote": "Saputara lies on National Highway 953 which connects to Songadh in Gujarat and Pimpalgaon Baswant in Maharashtra."
+        }
+      ]
+    },
+    "GSP5": {
+      "place": "gujarat/saputara",
+      "topic": "GSP5",
+      "claim": "Gujarat Tourism suggests a dawn walk up Gandhi Shikhar, sunset over the lake from Governor's Hill and learning about Dangi tribal culture; it lists Toran Hill Resort.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "GT_SAP",
+          "quote": "In winter, at the spill of dawn, trek up to the Gandhi Shikhar"
+        },
+        {
+          "source": "GT_SAP",
+          "quote": "In summer, walk carefree on the expanse of the Governor’s hill and see the sun dip into the Saputara lake"
+        },
+        {
+          "source": "GT_SAP",
+          "quote": "Learn about the rich tribal culture of this region."
+        },
+        {
+          "source": "GT_SAP",
+          "quote": "Where to Stay Toran Hill Resort"
+        }
+      ]
+    },
+    "GPL1": {
+      "place": "gujarat/palitana",
+      "topic": "GPL1",
+      "claim": "Palitana, about 50 km southwest of Bhavnagar, is known for the Shatrunjaya hill temples — over 900 marble temples among the holiest in Jainism; in 2014 it was declared vegetarian, banning the sale of meat, fish and eggs.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "W_PAL",
+          "quote": "renowned for the Shatrunjaya hill temples, a sprawling complex of over 900 marble temples considered among the holiest in Jainism."
+        },
+        {
+          "source": "W_PAL",
+          "quote": "In 2014, Palitana became the first city in the world to be officially declared vegetarian, prohibiting the sale of meat, fish, and eggs, in alignment with its strong Jain ethical values."
+        },
+        {
+          "source": "W_PAL",
+          "quote": "Located approximately 50 kilometres southwest of Bhavnagar"
+        }
+      ]
+    },
+    "GPL2": {
+      "place": "gujarat/palitana",
+      "topic": "GPL2",
+      "claim": "About 3,800 stone steps lead from the foot of the hill to the top; the temples were built over 900 years from the 11th century, and the main one is dedicated to Rishabhanatha (Adinath), the first Tirthankara.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "W_PAL",
+          "quote": "From the foot of the hill to the top there are about 3,800 stone steps to facilitate climbing."
+        },
+        {
+          "source": "W_PAL",
+          "quote": "The temples were built by generations of Jains over a period of 900 years, from the 11th century onwards."
+        },
+        {
+          "source": "W_PAL",
+          "quote": "The main temple on top of the hill, is dedicated to the first Tirthankara Rishabhanatha (Rishabhadeva)."
+        }
+      ]
+    },
+    "GPL3": {
+      "place": "gujarat/palitana",
+      "topic": "GPL3",
+      "claim": "The temples are grouped in tunks (enclosures); the Chaumukhji Tunk's four-faced shrine was built in 1618, and pilgrims coming down eat curd from sellers at the foot.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "GT_PAL",
+          "quote": "The temples are grouped into tunks (enclosures), each with a central temple flanked by minor ones."
+        },
+        {
+          "source": "GT_PAL",
+          "quote": "the Chaumukhji Tunk, containing the Chaumukh (Four-Faced Shrine), built in 1618 by a Jain merchant."
+        },
+        {
+          "source": "GT_PAL",
+          "quote": "People who walk down grab a bowl of curd from scores of sellers to restore their energy."
+        },
+        {
+          "source": "GT_PAL",
+          "quote": "It is said that Adinath (also known as Rishabha), the founder of Jainism, meditated beneath the rayan tree at the summit."
+        }
+      ]
+    },
+    "GPL4": {
+      "place": "gujarat/palitana",
+      "topic": "GPL4",
+      "claim": "Crowds swell into the thousands at Kartik Purnima, which ends Chaturmas; book accommodation in advance then.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "GT_PAL",
+          "quote": "crowds swell into the thousands around Kartik Purnima, which marks the end of Chaturmas"
+        },
+        {
+          "source": "GT_PAL",
+          "quote": "During the Kartik Purnima festival, accommodation around town floods with pilgrims and is best booked in advance."
+        }
+      ]
+    },
+    "GPL5": {
+      "place": "gujarat/palitana",
+      "topic": "GPL5",
+      "claim": "Bhavnagar airport is 51 km away; Palitana station connects to Sihor and Bhavnagar, and buses run hourly to Bhavnagar and regularly to Ahmedabad and Diu.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "W_PAL",
+          "quote": "By air The nearest airport at Bhavnagar lies at a distance of 51 kilometres from Palitana"
+        },
+        {
+          "source": "W_PAL",
+          "quote": "Palitana has a small railway station, Palitana railway station, that is connected to Sihor and Bhavanagar."
+        },
+        {
+          "source": "W_PAL",
+          "quote": "There are hourly buses for Bhavnagar from Palitana."
+        },
+        {
+          "source": "W_PAL",
+          "quote": "Regular buses are also available for Ahmedabad, Talaja, Una, and Diu."
+        }
+      ]
+    },
+    "GPL6": {
+      "place": "gujarat/palitana",
+      "topic": "GPL6",
+      "claim": "On a clear day the summit looks out to the Gulf of Cambay.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "GT_PAL",
+          "quote": "where on a clear day you can see the Gulf of Cambay"
+        }
+      ]
+    },
+    "GPL3B": {
+      "place": "gujarat/palitana",
+      "topic": "GPL3B",
+      "claim": "The temples are grouped in tunks (enclosures); the Chaumukhji Tunk's four-faced shrine was built in 1618, and pilgrims coming down eat curd from sellers at the foot.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "GT_PAL",
+          "quote": "is the Adinath Temple, on the highest point on the far (south) side."
+        }
+      ]
+    },
+    "GPB1": {
+      "place": "gujarat/porbandar",
+      "topic": "GPB1",
+      "claim": "Porbandar, an ancient port city and former princely capital, is the birthplace of Mahatma Gandhi and of Sudama.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "W_POR",
+          "quote": "It is the birthplace of Mahatma Gandhi and Sudama."
+        },
+        {
+          "source": "W_POR",
+          "quote": "It was the former capital of the Porbandar princely state."
+        },
+        {
+          "source": "W_POR",
+          "quote": "Porbandar is an ancient port city."
+        }
+      ]
+    },
+    "GPB2": {
+      "place": "gujarat/porbandar",
+      "topic": "GPB2",
+      "claim": "Its sights include Kirti Mandir in the main bazaar, the Tara Mandir planetarium, the Sudama temple and the Porbandar Bird Sanctuary, where teals, flamingos, ibis and curlews can be seen.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "W_POR",
+          "quote": "Kirti Mandir, It is located at the Main bazaar, Manek Chowk."
+        },
+        {
+          "source": "W_POR",
+          "quote": "Tara Mandir (one of the oldest planetariums of India) Shree Sudama ji Mandir: One of the few temples built in India in his name"
+        },
+        {
+          "source": "W_POR",
+          "quote": "Porbandar Bird Sanctuary (birds like teals, fowls, flamingos, ibis, curlews can be seen)"
+        }
+      ]
+    },
+    "GPB3": {
+      "place": "gujarat/porbandar",
+      "topic": "GPB3",
+      "claim": "NH 27 links Porbandar to Rajkot and Ahmedabad and the coastal highway to Dwarka, Jamnagar, Veraval and Bhavnagar; it has a railway station and a domestic airport.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "W_POR",
+          "quote": "The city is connected through National Highway 27, connecting to Rajkot and Ahmedabad."
+        },
+        {
+          "source": "W_POR",
+          "quote": "National Highway 8E Ext (also known as State Highway 6) connects to Jamnagar, Dwarka in the north and Veraval, Bhavnagar in the south."
+        },
+        {
+          "source": "W_POR",
+          "quote": "Porbandar railway station connects Porbandar with major cities of state and the country."
+        },
+        {
+          "source": "GT_KM",
+          "quote": "Porbandar has a domestic airport which has reasonable connectivity to cities in India."
+        }
+      ]
+    },
+    "GPB4": {
+      "place": "gujarat/porbandar",
+      "topic": "GPB4",
+      "claim": "Porbandar has a cool season from October to March, a hot season from April to early June, and the monsoon from mid-June to September.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "W_POR",
+          "quote": "Porbandar has a hot semi-arid climate (Köppen BSh) with three distinct seasons: the “cool” from October to March, the “hot” in April, May and early June, and the monsoonal “wet” from mid-June to September."
+        }
+      ]
+    },
+    "GPB5": {
+      "place": "gujarat/porbandar",
+      "topic": "GPB5",
+      "claim": "Gujarat Tourism's Porbandar picks include Madhavpur Beach, the bird sanctuary and the Sudama Mandir.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "GT_PORH",
+          "quote": "Things To Do Madhavpur Beach Porbandar Bird Sanctuary Sudama Mandir"
+        }
+      ]
+    },
+    "GKM1": {
+      "place": "gujarat/kirti-mandir",
+      "topic": "GKM1",
+      "claim": "Kirti Mandir in Porbandar is a memorial to Mahatma and Kasturba Gandhi; the house where Gandhi was born on 2 October 1869 stands right next to it, at the far end of the courtyard.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "GT_KM",
+          "quote": "Kirti Mandir is a memorial shrine in Porbandar, Gujarat, India, established in remembrance of Mohandas Karamchand Gandhi and Kasturba Gandhi."
+        },
+        {
+          "source": "GT_KM",
+          "quote": "The Gandhi family's ancestral home, where Mahatma Gandhi was born on October 2, 1869, lies right next to the Kirti Mandir."
+        },
+        {
+          "source": "GT_KM",
+          "quote": "The house where he was born and resided for a time is located at the far end of the courtyard."
+        }
+      ]
+    },
+    "GKM2": {
+      "place": "gujarat/kirti-mandir",
+      "topic": "GKM2",
+      "claim": "A photo exhibition on Gandhi's life lines the courtyard; the house was once three storeys, altered since his grandfather built it.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "GT_KM",
+          "quote": "A spacious courtyard is flanked by a photo exhibit depicting Gandhi's life journey."
+        },
+        {
+          "source": "GT_KM",
+          "quote": "This was once a three-story structure that had been altered since Mahatma Gandhi's grandfather built it."
+        }
+      ]
+    },
+    "GKM3": {
+      "place": "gujarat/kirti-mandir",
+      "topic": "GKM3",
+      "claim": "The memorial was funded by industrialist Nanjibhai Kalidas Mehta and unveiled by Sardar Vallabhbhai Patel on 27 May 1950.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "GT_KM",
+          "quote": "The national museum was commissioned by Nanjibhai Kalidas Mehta, a well-known industrialist who gave funds to acquire Gandhi's ancestral home"
+        },
+        {
+          "source": "GT_KM",
+          "quote": "unveiled by Sardar Vallabhbhai Patel on May 27, 1950."
+        }
+      ]
+    },
+    "GKM4": {
+      "place": "gujarat/kirti-mandir",
+      "topic": "GKM4",
+      "claim": "It is open 7.30am to 7pm every day.",
+      "claimType": "opening_hours",
+      "evidence": [
+        {
+          "source": "GT_KM",
+          "quote": "Visiting Hours 7.30am–7pm"
+        },
+        {
+          "source": "W_POR",
+          "quote": "Timings 7:30 AM to 7:00 PM Everyday."
+        }
+      ]
+    },
+    "GAD1": {
+      "place": "gujarat/adalaj-stepwell",
+      "topic": "GAD1",
+      "claim": "Adalaj is a 15th-century, five-storey stepwell whose carved pillars are mostly intact; it represents the Indo-Islamic fusion architecture of the period.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "GT_ADL",
+          "quote": "The flamboyant 15th-century stepwell, has lost only little of its grandeur over the last few centuries."
+        },
+        {
+          "source": "GT_ADL",
+          "quote": "the intricate carvings on the pillars that support the five storeys are mostly intact"
+        },
+        {
+          "source": "GT_ADL",
+          "quote": "The step-well represents the Indo-Islamic fusion architecture that percolated through the many stepwells of the period."
+        }
+      ]
+    },
+    "GAD2": {
+      "place": "gujarat/adalaj-stepwell",
+      "topic": "GAD2",
+      "claim": "Openings let light and air into the octagonal well, but direct sun touches the steps only at noon; it is said to be six degrees cooler inside. There are three entrances.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "GT_ADL",
+          "quote": "The opening in the ceilings above the landing allows light and air to enter the octagonal well, but direct sunlight never touches the steps except at noon."
+        },
+        {
+          "source": "GT_ADL",
+          "quote": "It is said that the temperature inside the well is six degrees cooler than outside."
+        },
+        {
+          "source": "GT_ADL",
+          "quote": "The stepwell has three entrances."
+        }
+      ]
+    },
+    "GAD3": {
+      "place": "gujarat/adalaj-stepwell",
+      "topic": "GAD3",
+      "claim": "Carvings show mythological and village scenes, including the Ami khumbor (pot of the water of life) and the Kalp vriksha (tree of life) cut from a single slab.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "GT_ADL",
+          "quote": "The walls are covered in ornamental carvings with mythological and village scenes."
+        },
+        {
+          "source": "GT_ADL",
+          "quote": "Some of them include Ami khumbor (a pot that contains the water of life) and the Kalp vriksha (a tree of life) carved out of a single slab of stone."
+        }
+      ]
+    },
+    "GAD4": {
+      "place": "gujarat/adalaj-stepwell",
+      "topic": "GAD4",
+      "claim": "The stepwell is 19 km north of Ahmedabad and open 8am–6pm.",
+      "claimType": "opening_hours",
+      "evidence": [
+        {
+          "source": "GT_ADL",
+          "quote": "The stepwell lies 19km north of Ahmedabad."
+        },
+        {
+          "source": "GT_ADL",
+          "quote": "Visiting Hours 8am–6pm"
+        }
+      ]
+    },
+    "GLT1": {
+      "place": "gujarat/lothal",
+      "topic": "GLT1",
+      "claim": "Lothal, about 80 km southwest of Ahmedabad, was one of the most important Indus Valley cities 4,500 years ago; excavations revealed the world's oldest known artificial dock, linked to an old course of the Sabarmati.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "GT_LOT",
+          "quote": "About 80km southwest of Ahmedabad, the city that stood at this archaeological site 4500 years ago was one of the most important of the Indus Valley civilisation"
+        },
+        {
+          "source": "GT_LOT",
+          "quote": "Excavations have revealed the world’s oldest known artificial dock, which was connected to an old course of the Sabarmati River."
+        }
+      ]
+    },
+    "GLT2": {
+      "place": "gujarat/lothal",
+      "topic": "GLT2",
+      "claim": "Remains include the acropolis, lower town, bead factory, warehouses and drainage; the ASI excavated the site from 1955 to 1960, and it has been nominated for UNESCO listing.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "GT_LOT",
+          "quote": "Other features include the acropolis, the lower town, the bead factory, the warehouses, and the drainage system."
+        },
+        {
+          "source": "GT_LOT",
+          "quote": "The excavation started from 13 February 1955 to 19 May 1960 by the Archaeological Survey of India (ASI) to unearth the ancient city."
+        },
+        {
+          "source": "GT_LOT",
+          "quote": "The site has been nominated to be enlisted as a UNESCO World Heritage Site."
+        },
+        {
+          "source": "GT_LOT",
+          "quote": "An entire township with market and dock has been unearthed here."
+        }
+      ]
+    },
+    "GLT3": {
+      "place": "gujarat/lothal",
+      "topic": "GLT3",
+      "claim": "An archaeological museum by the site (10am–5pm, closed Friday) shows jewellery, pottery, seals and everyday objects.",
+      "claimType": "opening_hours",
+      "evidence": [
+        {
+          "source": "GT_LOT",
+          "quote": "An Archaeological Museum (10am–5pm, Friday closed) near the site houses a number of artefacts like jewellery, pottery, seals, religious symbols, and objects of daily use here."
+        }
+      ]
+    },
+    "GLT4": {
+      "place": "gujarat/lothal",
+      "topic": "GLT4",
+      "claim": "Trains run from Ahmedabad's Gandhigram station to Lothal-Bhurkhi, 6 km from the site, with buses onward; or take a cab from Ahmedabad.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "GT_LOT",
+          "quote": "Five daily trains run from Ahmedabad’s Gandhigram station to Lothal-Bhurkhi station, 6km from the site."
+        },
+        {
+          "source": "GT_LOT",
+          "quote": "From the station you can hop on one of the buses to the site."
+        },
+        {
+          "source": "GT_LOT",
+          "quote": "Alternatively take a return a cab from Ahmedabad."
+        }
+      ]
+    },
+    "GNS1": {
+      "place": "gujarat/nal-sarovar",
+      "topic": "GNS1",
+      "claim": "Nal Sarovar Bird Sanctuary, about an hour's drive from Ahmedabad, covers 120.82 sq km and has more than 250 bird species, including pelicans, flamingos, egrets, herons and cranes.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "GT_NAL",
+          "quote": "Nalsarovar Bird Sanctuary is a stunning natural haven located just an hour's drive away from Ahmedabad."
+        },
+        {
+          "source": "GT_NAL",
+          "quote": "Spread over an area of 120.82 sq km"
+        },
+        {
+          "source": "GT_NAL",
+          "quote": "It is home to more than 250 species of birds including pelicans, flamingos, egrets, herons, cranes, and many more."
+        }
+      ]
+    },
+    "GNS2": {
+      "place": "gujarat/nal-sarovar",
+      "topic": "GNS2",
+      "claim": "It was declared a bird sanctuary in 1969 and a Ramsar wetland in 2012.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "GT_NAL",
+          "quote": "In 1969, the Gujarat government declared Nalsarovar a bird sanctuary to primarily protect its bird population."
+        },
+        {
+          "source": "GT_NAL",
+          "quote": "The Ramsar Convention designation of Nalsarovar Bird Sanctuary in 2012 recognized its ecological importance as a wetland habitat for birds and other wildlife."
+        }
+      ]
+    },
+    "GNS3": {
+      "place": "gujarat/nal-sarovar",
+      "topic": "GNS3",
+      "claim": "The best time is November to February, when migratory birds arrive in large numbers; some resident species can be seen all year. Hours are 6am–6pm.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "GT_NAL",
+          "quote": "The best time to visit Nalsarovar Bird Sanctuary is during the winter months from November to February."
+        },
+        {
+          "source": "GT_NAL",
+          "quote": "During this time, the migratory birds flock to the sanctuary in large numbers"
+        },
+        {
+          "source": "GT_NAL",
+          "quote": "The sanctuary also has a few resident bird species which can be spotted throughout the year."
+        },
+        {
+          "source": "GT_NAL",
+          "quote": "Visiting Hours 6am–6pm."
+        }
+      ]
+    },
+    "GNS4": {
+      "place": "gujarat/nal-sarovar",
+      "topic": "GNS4",
+      "claim": "Viramgam is the nearest railway station.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "GT_NAL",
+          "quote": "Viramgam is the closest railway station with frequent trains within the state."
+        }
+      ]
+    },
+    "GKD1": {
+      "place": "gujarat/kalo-dungar",
+      "topic": "GKD1",
+      "claim": "Kalo Dungar (Black Hill), north of Khavda and 90 km north of Bhuj, is Kutch's highest point at 462 m, with views over the Great Rann; you need your own transport.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "GT_KDG",
+          "quote": "North of the village of Khavda, Kalo Dungar (Black Hill) marks Kutch’s highest point (462 m), with remarkable views of the Great Rann salt flat (or inland sea if you’re visiting during the monsoon)."
+        },
+        {
+          "source": "GT_KDG",
+          "quote": "Kalo Dungar lies 90 km north of Bhuj."
+        },
+        {
+          "source": "GT_KDG",
+          "quote": "You’ll need your own transport to visit."
+        }
+      ]
+    },
+    "GKD2": {
+      "place": "gujarat/kalo-dungar",
+      "topic": "GKD2",
+      "claim": "A 400-year-old Dattatreya temple stands on the hill; for four centuries its priests have fed cooked rice to jackals in the late evening.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "GT_KDG",
+          "quote": "The hill is also famous for a 400-year old temple dedicated to Lord Dattatreya."
+        },
+        {
+          "source": "GT_KDG",
+          "quote": "For the last four centuries, the priests at the temple prepare cooked rice for jackals who come in the late evenings for a meal."
+        },
+        {
+          "source": "GT_KDG",
+          "quote": "He offered them his body to eat"
+        },
+        {
+          "source": "GT_KDG",
+          "quote": "sprawling blanched landscape that changes hues as the day progresses"
+        }
+      ]
+    },
+    "GKD3": {
+      "place": "gujarat/kalo-dungar",
+      "topic": "GKD3",
+      "claim": "A 15-minute drive from the base leads to the India Bridge; the area is under army jurisdiction and photography is not allowed. The border is about 40 km north.",
+      "claimType": "rule",
+      "evidence": [
+        {
+          "source": "GT_KDG",
+          "quote": "A 15-min drive from the base of the hill lands you on the India bridge that connects the far north of Kutch to the mainland."
+        },
+        {
+          "source": "GT_KDG",
+          "quote": "The area comes under the jurisdiction of the army and photography is not allowed."
+        },
+        {
+          "source": "GT_KDG",
+          "quote": "The Indo-Pak border lies about 40 km north from here."
+        }
+      ]
+    },
+    "GLK1": {
+      "place": "gujarat/lakhpat-fort",
+      "topic": "GLK1",
+      "claim": "Lakhpat, 33 km north of Narayan Sarovar at the mouth of the Kori creek, was an important coastal trade town in the 18th century; its walled fort is the main sight.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "GT_LKP",
+          "quote": "Only 33 km north of Narayan Sarovar lies the town of Lakhpat, with a walled fort as its main highlight."
+        },
+        {
+          "source": "GT_LKP",
+          "quote": "The town was an important coastal trade node in the 18th century."
+        },
+        {
+          "source": "GT_LKP",
+          "quote": "At the mouth of the Kori creek, the large fort walls still offer testimony to a short but glorious past."
+        }
+      ]
+    },
+    "GLK2": {
+      "place": "gujarat/lakhpat-fort",
+      "topic": "GLK2",
+      "claim": "You can climb the rampart, the only remaining part of the fort, to look over the sea; it is especially fine at sunset.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "GT_LKP",
+          "quote": "One can climb the fort rampart, the only remaining structure of the fort, and look over at the placid sea."
+        },
+        {
+          "source": "GT_LKP",
+          "quote": "This spot is particularly stunning at sunset."
+        }
+      ]
+    },
+    "GLK3": {
+      "place": "gujarat/lakhpat-fort",
+      "topic": "GLK3",
+      "claim": "Inside the walls is a 16th-century gurdwara; Guru Nanak is believed to have stopped here twice, and relics include wooden footwear, a palanquin and manuscripts.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "GT_LKP",
+          "quote": "Within the fort walls, also lies a 16th century gurdwara."
+        },
+        {
+          "source": "GT_LKP",
+          "quote": "It is believed that Guru Nanak stopped here twice during his second (1506–1513) and fourth (1519–1521) missionary journey called Udasis."
+        },
+        {
+          "source": "GT_LKP",
+          "quote": "relics like wooden footwear, palkhi (palanquin), manuscripts"
+        },
+        {
+          "source": "GT_LKP",
+          "quote": "The soft hymns play constantly in the background"
+        }
+      ]
+    },
+    "GLK4": {
+      "place": "gujarat/lakhpat-fort",
+      "topic": "GLK4",
+      "claim": "Lakhpat is 135 km northwest of Bhuj; the fort is open sunrise to sunset.",
+      "claimType": "opening_hours",
+      "evidence": [
+        {
+          "source": "GT_LKP",
+          "quote": "Lakhpat lies 135 km northwest to Bhuj."
+        },
+        {
+          "source": "GT_LKP",
+          "quote": "Visiting Hours Sunrise to Sunset"
+        }
+      ]
+    },
+    "GLK3B": {
+      "place": "gujarat/lakhpat-fort",
+      "topic": "GLK3B",
+      "claim": "Inside the walls is a 16th-century gurdwara; Guru Nanak is believed to have stopped here twice, and relics include wooden footwear, a palanquin and manuscripts.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "GT_LKP",
+          "quote": "It fell to ruins through the century, as trade depleted, and the people in the town migrated to fairer pastures."
+        }
+      ]
+    },
+    "GLR1": {
+      "place": "gujarat/little-rann-of-kutch",
+      "topic": "GLR1",
+      "claim": "The Wild Ass Sanctuary in the Little Rann of Kutch covers 4,953 sq km of salt desert and holds the last remaining population of the Indian wild ass.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "GT_LRK",
+          "quote": "Wild Ass Sanctuary, also known as the Little Rann of Kutch, is a wildlife reserve located in the Indian state of Gujarat."
+        },
+        {
+          "source": "GT_LRK",
+          "quote": "Spread over 4,953 square kilometers"
+        },
+        {
+          "source": "GT_LRK",
+          "quote": "The sanctuary is home to the last remaining population of Indian Wild Ass"
+        },
+        {
+          "source": "GT_LRK",
+          "quote": "The sanctuary is situated in the Little Rann of Kutch, a vast expanse of salt desert"
+        }
+      ]
+    },
+    "GLR2": {
+      "place": "gujarat/little-rann-of-kutch",
+      "topic": "GLR2",
+      "claim": "Birds include greater flamingos, Eurasian wigeon, common teal and demoiselle cranes; jeep safaris explore the sanctuary.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "GT_LRK",
+          "quote": "Bird enthusiasts can witness various species of birds such as Greater Flamingos, Eurasian Wigeon, Common Teal, and Demoiselle Crane, among others."
+        },
+        {
+          "source": "GT_LRK",
+          "quote": "Visitors can also opt for jeep safaris to explore the sanctuary and spot wildlife."
+        }
+      ]
+    },
+    "GLR3": {
+      "place": "gujarat/little-rann-of-kutch",
+      "topic": "GLR3",
+      "claim": "It is open dawn to dusk from 16 October to 15 June; November to February is best, when migratory birds arrive.",
+      "claimType": "schedule",
+      "evidence": [
+        {
+          "source": "GT_LRK",
+          "quote": "Visiting Hours Dawn–dusk, 16th Octover to 15th June Every Year"
+        },
+        {
+          "source": "GT_LRK",
+          "quote": "The best time to visit Wild Ass Sanctuary is during winters, between November and February, when migratory birds flock to the sanctuary."
+        }
+      ]
+    },
+    "GLR4": {
+      "place": "gujarat/little-rann-of-kutch",
+      "topic": "GLR4",
+      "claim": "It is about 103 km from Ahmedabad and 175 km from Rajkot; the nearest station is Patadi, about 25 km away, and Gujarat Tourism lists Little Rann Resort.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "GT_LRK",
+          "quote": "Ahmedabad (103 Km) and Rajkot (175 Km)"
+        },
+        {
+          "source": "GT_LRK",
+          "quote": "The nearest Railway station is Patadi railway station, which is around (25 km) from Wild Ass Sanctuary"
+        },
+        {
+          "source": "GT_LRK",
+          "quote": "Where To Stay Little Rann Resort"
+        }
+      ]
+    },
+    "GLR1B": {
+      "place": "gujarat/little-rann-of-kutch",
+      "topic": "GLR1B",
+      "claim": "The Wild Ass Sanctuary in the Little Rann of Kutch covers 4,953 sq km of salt desert and holds the last remaining population of the Indian wild ass.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "GT_LRK",
+          "quote": "The barren landscape of the salt desert is dotted with shrubs and thorny bushes"
+        },
+        {
+          "source": "GT_LRK",
+          "quote": "making it a prime bird watching site."
+        }
+      ]
+    },
+    "GVL1": {
+      "place": "gujarat/velavadar-blackbuck-national-park",
+      "topic": "GVL1",
+      "claim": "Velavadar is a 34 sq km grassland park about an hour north of Bhavnagar, famous for blackbuck, whose horns reach 65 cm; about 1,800 live there with nilgai and around 2,000 wintering harriers.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "GT_VEL",
+          "quote": "This beautiful, 34-sq-km park that is an hour’s drive north of Bhavnagar"
+        },
+        {
+          "source": "GT_VEL",
+          "quote": "grassland stretching between two seasonal rivers"
+        },
+        {
+          "source": "GT_VEL",
+          "quote": "They move around in gendered groups – the males together, and the females and fawns in their own groups."
+        },
+        {
+          "source": "GT_VEL",
+          "quote": "is famous for its blackbucks – beautiful, fast antelope that sport elegant spiraling horns as long as 65cm in mature males."
+        }
+      ]
+    },
+    "GVL2": {
+      "place": "gujarat/velavadar-blackbuck-national-park",
+      "topic": "GVL2",
+      "claim": "Over 120 bird species occur; wolves are sometimes seen, best early in the morning. Hiring a guide is mandatory.",
+      "claimType": "rule",
+      "evidence": [
+        {
+          "source": "GT_VEL",
+          "quote": "There are over 120 species of birds that can be found in the park and around."
+        },
+        {
+          "source": "GT_VEL",
+          "quote": "The best time to visit the sanctuary is early in the morning when chances of seeing the wolves are a lot more."
+        },
+        {
+          "source": "GT_VEL",
+          "quote": "It is good that hiring a guide is mandatory"
+        }
+      ]
+    },
+    "GVL3": {
+      "place": "gujarat/velavadar-blackbuck-national-park",
+      "topic": "GVL3",
+      "claim": "The park was set up in July 1976 with 18 sq km and enlarged by 16 sq km in 1980.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "GT_VEL",
+          "quote": "The sanctuary was established in July 1976, as an initial protected area of about 18 sq km."
+        },
+        {
+          "source": "GT_VEL",
+          "quote": "In 1980, another 16 sq km were added to increase the total area to 34 sq km."
+        }
+      ]
+    },
+    "GVL4": {
+      "place": "gujarat/velavadar-blackbuck-national-park",
+      "topic": "GVL4",
+      "claim": "Hours are 7am–1pm and 3–6pm from 16 October to 15 June; the park is 47 km from Bhavnagar, and Gujarat Tourism lists Blackbuck Safari Lodge.",
+      "claimType": "schedule",
+      "evidence": [
+        {
+          "source": "GT_VEL",
+          "quote": "Visiting Hours 7am–1pm, 3–6pm 16 Oct–15 Jun"
+        },
+        {
+          "source": "GT_VEL",
+          "quote": "Velavadar Blackbuck National Park is located 47km from Bhavnagar."
+        },
+        {
+          "source": "GT_VEL",
+          "quote": "Where To Stay Nilambag Palace Blackbuck Safari Lodge"
+        }
+      ]
+    },
+    "GVL1B": {
+      "place": "gujarat/velavadar-blackbuck-national-park",
+      "topic": "GVL1B",
+      "claim": "Velavadar is a 34 sq km grassland park about an hour north of Bhavnagar, famous for blackbuck, whose horns reach 65 cm; about 1,800 live there with nilgai and around 2,000 wintering harriers.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "GT_VEL",
+          "quote": "Some 1800 inhabit the park, alongside blue bulls (India’s largest antelope) and birds such as wintering harriers from Siberia (about 2000 of them most years)."
+        }
+      ]
+    },
+    "GPF1": {
+      "place": "gujarat/polo-forest",
+      "topic": "GPF1",
+      "claim": "Polo was an ancient city on the Harnav river, believed founded in the 10th century by the Parihar kings of Idar and taken in the 15th century by the Rathod Rajputs of Marwar; its name, from pol ('gate'), marks it as a gateway between Gujarat and Rajasthan.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "GT_POLO",
+          "quote": "The ancient Polo city was built around the river Harnav, an ancient water body spoken of in the Puranas."
+        },
+        {
+          "source": "GT_POLO",
+          "quote": "It is believed to have been established in the 10th century by the Parihar kings of Idar, and was then conquered in the 15th century by the Rathod Rajputs of Marwar."
+        },
+        {
+          "source": "GT_POLO",
+          "quote": "signifying its status as a gateway between Gujarat and Rajasthan."
+        }
+      ]
+    },
+    "GPF2": {
+      "place": "gujarat/polo-forest",
+      "topic": "GPF2",
+      "claim": "Its 400 sq km of dry deciduous forest is lushest from September to December; it has more than 450 medicinal plants, about 275 bird, 30 mammal and 32 reptile species.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "GT_POLO",
+          "quote": "The 400 square km area of dry mixed deciduous forest is most lush between September and December after the monsoon rains when the rivers are full"
+        },
+        {
+          "source": "GT_POLO",
+          "quote": "There are more than 450 species of medicinal plants, around 275 of birds, 30 of mammals, and 32 of reptiles."
+        }
+      ]
+    },
+    "GPF3": {
+      "place": "gujarat/polo-forest",
+      "topic": "GPF3",
+      "claim": "Ancient temples, some still in worship, stand in the forest among Adivasi settlements; fruiting fig trees draw grey hornbills and brown-headed barbets.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "GT_POLO",
+          "quote": "Ancient temples, some still performing their pujas deep within this dense jungle"
+        },
+        {
+          "source": "GT_POLO",
+          "quote": "Adivasi settlements, their lives rooted in their connection to the forest"
+        },
+        {
+          "source": "GT_POLO",
+          "quote": "The fig trees, when loaded with fruits, are good places to look out for the endangered Grey Hornbill and Brown-headed Barbet who come to nibble."
+        }
+      ]
+    },
+    "GPF4": {
+      "place": "gujarat/polo-forest",
+      "topic": "GPF4",
+      "claim": "Vijaynagar, the nearest town, is 160 km from Ahmedabad and 120 km from Udaipur; public transport exists but is not always reliable. Open sunrise to sunset.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "GT_POLO",
+          "quote": "Vijaynagar, the nearest town is 120 km from Udaipur and 160 km from Ahmedabad, and is accessible by the National Highway 8."
+        },
+        {
+          "source": "GT_POLO",
+          "quote": "Public transport is available, but ask around beforehand, because it is not always reliable."
+        },
+        {
+          "source": "GT_POLO",
+          "quote": "Visiting Hours Sunrise to Sunset"
+        }
+      ]
+    },
+    "GMD1": {
+      "place": "gujarat/modhera-sun-temple",
+      "topic": "GMD1",
+      "claim": "The Sun Temple at Modhera, in Mehsana district on the Pushpavati river, was built in the 11th century under the Chaulukya kings Bhima I and Karna I; it is no longer in worship and is protected by the ASI.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "W_MOD",
+          "quote": "The Sun Temple of Modhera is a Hindu temple dedicated to the solar deity Surya, located in the village of Modhera in Mehsana district, Gujarat, India."
+        },
+        {
+          "source": "W_MOD",
+          "quote": "The temple is situated on the bank of the river Pushpavati, and was constructed in the 11th century during the reign of Bhima I and Karna I of the Chaulukya dynasty."
+        },
+        {
+          "source": "W_MOD",
+          "quote": "The temple is no longer used for worship and is a protected monument maintained by the Archaeological Survey of India."
+        }
+      ]
+    },
+    "GMD2": {
+      "place": "gujarat/modhera-sun-temple",
+      "topic": "GMD2",
+      "claim": "The complex has a shrine hall, an assembly hall and a stepped reservoir (kund) lined with small shrines; the halls have intricately carved exteriors and pillars.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "W_MOD",
+          "quote": "The temple complex has three components: Gūḍhamanḍapa, the shrine hall; Sabhamanḍapa, the assembly hall and Kunḍa, the reservoir."
+        },
+        {
+          "source": "W_MOD",
+          "quote": "The halls are noted for the intricately carved exteriors and decorated pillars."
+        },
+        {
+          "source": "W_MOD",
+          "quote": "The tiered steps of the reservoir lead to the bottom and numerous small shrines."
+        }
+      ]
+    },
+    "GMD3": {
+      "place": "gujarat/modhera-sun-temple",
+      "topic": "GMD3",
+      "claim": "It was added to UNESCO's tentative list in December 2022.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "W_MOD",
+          "quote": "It was added to the tentative list of the UNESCO World Heritage Committee in December 2022."
+        }
+      ]
+    },
+    "GMD4": {
+      "place": "gujarat/modhera-sun-temple",
+      "topic": "GMD4",
+      "claim": "Each year since 1992 the Tourism Corporation of Gujarat has held a three-day classical dance festival, Uttarardha Mahotsav, at the temple in the third week of January.",
+      "claimType": "schedule",
+      "evidence": [
+        {
+          "source": "W_MOD",
+          "quote": "Since 1992, the Tourism Corporation of Gujarat organises an annual three-day dance festival known as Uttarardha Mahotsav at the temple complex during the third week of January, following the festival of Uttarayan."
+        }
+      ]
+    },
+    "GMD5": {
+      "place": "gujarat/modhera-sun-temple",
+      "topic": "GMD5",
+      "claim": "Modhera is India's first 'solar village'.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "W_MODV",
+          "quote": "Modhera is the first \"solar village\" of India."
+        }
+      ]
+    },
+    "GBD1": {
+      "place": "gujarat/bet-dwarka",
+      "topic": "GBD1",
+      "claim": "Bet Dwarka is a small island off Dwarka, reached via Okha, with a temple said to mark Krishna's residence; its founding is credited to Vallabhacharya.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "GT_BET",
+          "quote": "A small island off the coast of Dwarka and accessed via Okha is home to the namesake temple, and supposedly the residence of Lord Krishna when he arrived here."
+        },
+        {
+          "source": "GT_BET",
+          "quote": "The establishment of the temple is credited to Guru Vallabhacharya."
+        }
+      ]
+    },
+    "GBD2": {
+      "place": "gujarat/bet-dwarka",
+      "topic": "GBD2",
+      "claim": "Since February 2024 the Sudarshan Setu cable bridge links Okha and Bet Dwarka.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "GT_BET",
+          "quote": "In February 2024, the grand inauguration of Sudarshan Setu marked a historic moment as it became the nation's longest cable bridge, seamlessly spanning the distance between Okha and Bet Dwarka."
+        }
+      ]
+    },
+    "GBD3": {
+      "place": "gujarat/bet-dwarka",
+      "topic": "GBD3",
+      "claim": "The temple is open 7.30am–12pm and 4.30–6pm; November to February and Janmashtami are the best times.",
+      "claimType": "opening_hours",
+      "evidence": [
+        {
+          "source": "GT_BET",
+          "quote": "Visiting Hours 7.30am–12pm, 4.30–6pm"
+        },
+        {
+          "source": "GT_BET",
+          "quote": "The best time to visit is between November and February, and during Janmashtami which is celebrated with great fervour."
+        }
+      ]
+    },
+    "GSV1": {
+      "place": "gujarat/shivrajpur-beach",
+      "topic": "GSV1",
+      "claim": "Shivrajpur, a Blue Flag beach 12 km from Dwarka on the Dwarka–Okha highway, offers snorkelling, scuba diving, island tours and sea bathing.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "GT_SHV",
+          "quote": "Shivrajpur Beach, which just received Blue Flag beach accreditation, is situated 12 kilometers from Dwarka (Gujarat) along the Dwarka-Okha Highway"
+        },
+        {
+          "source": "GT_SHV",
+          "quote": "is the ideal place to spend the weekend with family and children."
+        },
+        {
+          "source": "GT_SHV",
+          "quote": "Immerse yourself in a variety of adventure activities with friends and family like snorkeling, scuba diving, island tours, sea bathing"
+        }
+      ]
+    },
+    "GSV2": {
+      "place": "gujarat/shivrajpur-beach",
+      "topic": "GSV2",
+      "claim": "Gujarat Tourism lists hours of 8am–7pm and an entry fee of ₹30 per adult.",
+      "claimType": "price",
+      "evidence": [
+        {
+          "source": "GT_SHV",
+          "quote": "Visiting hours: 8 AM to 7 PM Entrance fee: INR 30 (per adult)"
+        }
+      ]
+    },
+    "GMV1": {
+      "place": "gujarat/mandvi",
+      "topic": "GMV1",
+      "claim": "Mandvi, 58 km southwest of Bhuj where the Rukmavati meets the Gulf of Kutch, was founded as a port by the Maharao of Kutch; Kharva shipbuilding families lived inside its walls.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "GT_MAN",
+          "quote": "58 kilometres to the southwest of Bhuj is Mandvi."
+        },
+        {
+          "source": "GT_MAN",
+          "quote": "At the estuary where the river Rukmavati meets the Gulf of Kutch, the Maharao of the princely state of Kutch founded this port town."
+        },
+        {
+          "source": "GT_MAN",
+          "quote": "To house the Kharva families, who were known for their expertise in crafting wooden ships, the settlement was constructed inside of a fortified stronghold."
+        }
+      ]
+    },
+    "GMV2": {
+      "place": "gujarat/mandvi",
+      "topic": "GMV2",
+      "claim": "Its golden-brown beach is liveliest at sunset, with food stalls and horse rides; November to February is best.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "GT_MAN",
+          "quote": "The Mandvi beach is a stretch of golden-brown sand located at the southernmost point of Gujarat's Kutch district."
+        },
+        {
+          "source": "GT_MAN",
+          "quote": "Evenings are especially wonderful because of the sunset and all the activity from snack vendors to balloon vendors."
+        },
+        {
+          "source": "GT_MAN",
+          "quote": "you may go horseback riding and eat at some of the most mouthwatering food stands that are located along the beach."
+        },
+        {
+          "source": "GT_MAN",
+          "quote": "The best time to visit is between November and February."
+        }
+      ]
+    }
+  },
+  "places": [
+    {
+      "key": "gujarat/vadodara",
+      "kind": "city",
+      "name": "Vadodara",
+      "parent": "gujarat",
+      "summary": "Gujarat's cultural capital — the Gaekwads' Laxmi Vilas Palace, Sayaji Baug's museums and a big university town.",
+      "seoTitle": "Vadodara (Baroda): Laxmi Vilas Palace, Museums, Getting There",
+      "seoDescription": "Vadodara, Gujarat's 'Cultural City': Laxmi Vilas Palace, the Baroda Museum in Sayaji Baug, how to get there by air, rail and road, and when to go.",
+      "lat": 22.31,
+      "lng": 73.18,
+      "tripTypes": [
+        "heritage",
+        "weekend",
+        "family"
+      ],
+      "sections": {
+        "overview": {
+          "text": "Vadodara, long known as Baroda, sits on the Vishwamitri River and was the capital of the Maratha Gaekwads, who ruled Baroda State. Locals call it Sanskrutik Nagari and Kala Nagari — the 'Cultural City' and 'City of Art' — and it wears the title well: the Gaekwads' vast Laxmi Vilas Palace still stands in its park, Sayaji Baug holds the Baroda Museum and Picture Gallery, and there is the Maharaja Fatehsinh Museum. It is also home to the Maharaja Sayajirao University of Baroda. On the main Mumbai–Delhi and Mumbai–Ahmedabad routes, with its own airport and a major railway junction, it is an easy stop between Mumbai and Ahmedabad.",
+          "facts": [
+            "GVD1",
+            "GVD4",
+            "GVD2"
+          ]
+        },
+        "key_facts": {
+          "items": [
+            {
+              "title": "Also called",
+              "body": "Baroda; the 'Cultural City'",
+              "status": "verified"
+            },
+            {
+              "title": "Known for",
+              "body": "Laxmi Vilas Palace, museums, the MS University",
+              "status": "verified"
+            },
+            {
+              "title": "Getting in",
+              "body": "Airport, major rail junction, Mumbai–Delhi routes",
+              "status": "verified"
+            },
+            {
+              "title": "Best time",
+              "body": "November–February: dry, highs around 30 °C",
+              "status": "seasonal"
+            }
+          ],
+          "facts": [
+            "GVD1",
+            "GVD2",
+            "GVD3"
+          ]
+        },
+        "best_time": {
+          "text": "November to February is dry and pleasant, with average highs around 30 °C and lows around 15 °C. March to July is hot, with average highs near 39 °C, and the humid monsoon runs from mid-June to mid-September.",
+          "facts": [
+            "GVD3"
+          ]
+        },
+        "how_to_reach": {
+          "text": "Vadodara Airport, north-east of the city, has flights to Mumbai, New Delhi, Hyderabad, Bangalore, Pune and Goa. The railway station is a major junction on the Western Railway main line, and the city sits on the main Mumbai–Delhi and Mumbai–Ahmedabad rail and road routes. The bus station is near the railway station.",
+          "facts": [
+            "GVD2",
+            "GVD6"
+          ]
+        },
+        "where_to_stay": {
+          "text": "Gujarat Tourism lists The Gateway Hotel and two homestays, MadhavBagh and Arudh Mahal.",
+          "facts": [
+            "GVD5"
+          ]
+        },
+        "things_to_do": {
+          "items": [
+            {
+              "body": "Tour Laxmi Vilas Palace, still the royal family's home."
+            },
+            {
+              "body": "See the Baroda Museum and Picture Gallery in Sayaji Baug."
+            },
+            {
+              "body": "Visit the Maharaja Fatehsinh Museum."
+            }
+          ],
+          "facts": [
+            "GVD1",
+            "GVD4"
+          ]
+        },
+        "who_its_for": {
+          "items": [
+            {
+              "title": "Heritage lovers",
+              "body": "Gaekwad palaces and museums."
+            },
+            {
+              "title": "Travellers between Mumbai and Ahmedabad",
+              "body": "An easy stop on the main routes."
+            }
+          ],
+          "facts": [
+            "GVD1",
+            "GVD2"
+          ]
+        },
+        "faqs": {
+          "items": [
+            {
+              "title": "Is Vadodara the same as Baroda?",
+              "body": "Yes — Baroda is the older name."
+            },
+            {
+              "title": "When is the best time to visit?",
+              "body": "November to February, when it is dry with highs around 30 °C."
+            }
+          ],
+          "facts": [
+            "GVD1",
+            "GVD3"
+          ]
+        }
+      },
+      "images": [
+        {
+          "commons": "File:Kirti Mandir-1.jpg",
+          "alt": "Kirti Mandir, the domed cenotaph of the Gaekwads in Vadodara",
+          "caption": "Kirti Mandir, Vadodara",
+          "hero": true
+        }
+      ]
+    },
+    {
+      "key": "gujarat/laxmi-vilas-palace",
+      "kind": "attraction",
+      "name": "Laxmi Vilas Palace",
+      "parent": "gujarat/vadodara",
+      "summary": "The Gaekwads' 1890 Indo-Saracenic palace in Vadodara — Ravi Varma paintings, armoury, and a stepwell in the grounds.",
+      "seoTitle": "Laxmi Vilas Palace, Vadodara: History, Art and Visiting Hours",
+      "seoDescription": "Laxmi Vilas Palace in Vadodara: built in 1890 for Sayajirao Gaekwad III, with Raja Ravi Varma paintings, armour and the Navlakhi stepwell. Open Tue–Sun.",
+      "lat": 22.29,
+      "lng": 73.19,
+      "tripTypes": [
+        "heritage",
+        "family"
+      ],
+      "sections": {
+        "overview": {
+          "text": "Laxmi Vilas Palace is Vadodara's great royal showpiece and is still the residence of the city's royal family. Maharaja Sayajirao Gaekwad III, ruler of Baroda State, built it in 1890 in the exuberant Indo-Saracenic style of the late 19th century, with Major Charles Mant credited as its main architect. Inside are well-kept mosaics, chandeliers and artworks, an impressive collection of weapons and art, and paintings by Raja Ravi Varma, whom the Maharaja specially commissioned. The palace stands in park-like grounds that take in a golf course, the old Navlakhi stepwell, Moti Baug Palace and the building that houses the Maharaja Fatesingh Museum. Gujarat Tourism lists it as open from 10am to 5pm, Tuesday to Sunday.",
+          "facts": [
+            "GLV1",
+            "GLV2",
+            "GLV3",
+            "GLV4"
+          ]
+        },
+        "visit_info": {
+          "items": [
+            {
+              "title": "Hours",
+              "body": "10am–5pm, Tuesday to Sunday (Gujarat Tourism)",
+              "status": "verified"
+            },
+            {
+              "title": "In the grounds",
+              "body": "The Navlakhi stepwell and the Maharaja Fatesingh Museum building",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "GLV4",
+            "GLV3"
+          ]
+        },
+        "things_to_do": {
+          "items": [
+            {
+              "body": "See Raja Ravi Varma's paintings."
+            },
+            {
+              "body": "Look at the armoury and art collection."
+            },
+            {
+              "body": "Find the Navlakhi stepwell in the grounds."
+            }
+          ],
+          "facts": [
+            "GLV2",
+            "GLV3"
+          ]
+        }
+      },
+      "images": [
+        {
+          "commons": "File:Lakshmi Vilas Palace, Vadodara.jpg",
+          "alt": "The long Indo-Saracenic facade and clock tower of Laxmi Vilas Palace",
+          "caption": "Laxmi Vilas Palace, Vadodara",
+          "hero": true
+        }
+      ]
+    },
+    {
+      "key": "gujarat/junagadh",
+      "kind": "city",
+      "name": "Junagadh",
+      "parent": "gujarat",
+      "summary": "The old fort city under Girnar — Uparkot's rock-cut stepwells, Ashoka's edicts and the ornate Mahabat Maqbara.",
+      "seoTitle": "Junagadh, Gujarat: Uparkot, Girnar and the Old City",
+      "seoDescription": "Junagadh at the foot of Girnar: Uparkot Fort, Adi Kadi Vav, the Ashoka edicts and Mahabat Maqbara; trains, roads, the Girnar ropeway and when to go.",
+      "lat": 21.52,
+      "lng": 70.46,
+      "tripTypes": [
+        "heritage",
+        "spiritual",
+        "weekend"
+      ],
+      "sections": {
+        "overview": {
+          "text": "Junagadh — the name means 'old fort' — lies at the foot of the Girnar hills, 355 km southwest of Ahmedabad. It is one of Gujarat's richest small cities for history: Uparkot, the ancient fort on its plateau, holds rock-cut stepwells and Buddhist caves; Ashoka's edicts survive nearby; and the ornate Mahabat Khan Maqbara is among the city's showpieces. Above the city, Girnar's thousands of steps lead to Jain and Hindu temples, now also reached by ropeway from Bhavnath Taleti. Junagadh is on the railway between Rajkot and Somnath, and Gujarat Tourism recommends visiting between November and February.",
+          "facts": [
+            "GJN1",
+            "GJN5",
+            "GJN3",
+            "GJN2",
+            "GJN4"
+          ]
+        },
+        "key_facts": {
+          "items": [
+            {
+              "title": "Name",
+              "body": "'Old fort'",
+              "status": "verified"
+            },
+            {
+              "title": "From Ahmedabad",
+              "body": "355 km",
+              "status": "verified"
+            },
+            {
+              "title": "Nearest airport",
+              "body": "Rajkot, about 100 km",
+              "status": "verified"
+            },
+            {
+              "title": "Best time",
+              "body": "November–February",
+              "status": "seasonal"
+            }
+          ],
+          "facts": [
+            "GJN1",
+            "GJN2",
+            "GJN4"
+          ]
+        },
+        "best_time": {
+          "text": "November to February, as Gujarat Tourism recommends; winter temperatures range from 10 to 25 °C. The monsoon runs June to September.",
+          "facts": [
+            "GJN4"
+          ]
+        },
+        "how_to_reach": {
+          "text": "Junagadh Junction station is on the Rajkot–Somnath line, with trains to Rajkot, Ahmedabad and Veraval. By road it is on NH 8D between Rajkot and Veraval. Rajkot airport, about 100 km away, is the nearest with regular flights.",
+          "facts": [
+            "GJN2"
+          ]
+        },
+        "local_transport": {
+          "text": "Auto-rickshaws are the usual way around town. The Girnar ropeway runs from Bhavnath Taleti up the mountain.",
+          "facts": [
+            "GJN3"
+          ]
+        },
+        "where_to_stay": {
+          "text": "Gujarat Tourism lists Hotel Grand Daksh in Junagadh.",
+          "facts": [
+            "GJN5"
+          ]
+        },
+        "things_to_do": {
+          "items": [
+            {
+              "body": "Explore Uparkot Fort and its stepwells."
+            },
+            {
+              "body": "Climb or take the ropeway up Girnar."
+            },
+            {
+              "body": "See the Ashoka edicts and the Buddhist caves."
+            },
+            {
+              "body": "Visit Mahabat Khan Maqbara and Damodar Kund."
+            }
+          ],
+          "facts": [
+            "GJN5",
+            "GJN3"
+          ]
+        },
+        "who_its_for": {
+          "items": [
+            {
+              "title": "History lovers",
+              "body": "Mauryan to nawabi monuments in one city."
+            },
+            {
+              "title": "Pilgrims",
+              "body": "The Girnar temples above town."
+            }
+          ],
+          "facts": [
+            "GJN5"
+          ]
+        },
+        "faqs": {
+          "items": [
+            {
+              "title": "What does Junagadh mean?",
+              "body": "'Old fort'."
+            },
+            {
+              "title": "How do I get up Girnar?",
+              "body": "Climb the steps or take the ropeway from Bhavnath Taleti."
+            }
+          ],
+          "facts": [
+            "GJN1",
+            "GJN3"
+          ]
+        }
+      },
+      "images": [
+        {
+          "commons": "File:Junagadh, Bahauddin Makbara (9721075214).jpg",
+          "alt": "The ornate domes and spiral-staired minarets of Bahauddin Maqbara in Junagadh",
+          "caption": "Bahauddin Maqbara, Junagadh",
+          "hero": true
+        }
+      ]
+    },
+    {
+      "key": "gujarat/uparkot-fort",
+      "kind": "attraction",
+      "name": "Uparkot Fort",
+      "parent": "gujarat/junagadh",
+      "summary": "Junagadh's ancient hilltop fort — besieged 16 times, with rock-cut stepwells, Buddhist caves and Girnar views.",
+      "seoTitle": "Uparkot Fort, Junagadh: Stepwells, Caves and History",
+      "seoDescription": "Uparkot Fort in Junagadh, believed to date from 319 BC: 20 m ramparts, Adi Kadi Vav, Navghan Kuvo, Buddhist caves and views of Girnar. Open dawn–dusk.",
+      "lat": 21.52,
+      "lng": 70.47,
+      "tripTypes": [
+        "heritage"
+      ],
+      "sections": {
+        "overview": {
+          "text": "Uparkot is the ancient fort on the plateau at the heart of Junagadh. Tradition dates it to 319 BC under the Mauryan emperor Chandragupta, and it has been extended many times since; in places its ramparts rise 20 m. It has been besieged 16 times, and legend says it once held out for twelve years. Inside the walls are a former mosque, a set of Buddhist caves more than a thousand years old and two remarkable rock-cut wells: the circular Adi Kadi Vav, 41 m deep and cut in the 15th century, and Navghan Kuvo, 52 m deep and nearly 1,000 years old, whose staircase spirals down around the shaft. From the ramparts the view runs east to Girnar.",
+          "facts": [
+            "GUP1",
+            "GUP2",
+            "GUP3"
+          ]
+        },
+        "visit_info": {
+          "items": [
+            {
+              "title": "Hours",
+              "body": "Dawn to dusk",
+              "status": "verified"
+            },
+            {
+              "title": "Best time",
+              "body": "November to February",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "GUP4"
+          ]
+        },
+        "things_to_do": {
+          "items": [
+            {
+              "body": "Walk down into Navghan Kuvo and Adi Kadi Vav."
+            },
+            {
+              "body": "See the Buddhist caves inside the walls."
+            },
+            {
+              "body": "Look east from the ramparts to Girnar."
+            }
+          ],
+          "facts": [
+            "GUP3",
+            "GUP2"
+          ]
+        }
+      },
+      "images": [
+        {
+          "commons": "File:Navghan Kuvo - Junagadh - Gujarat - 001.jpg",
+          "alt": "Looking down into the rock-cut shaft and stairway of Navghan Kuvo",
+          "caption": "Navghan Kuvo, Uparkot",
+          "hero": true
+        }
+      ]
+    },
+    {
+      "key": "gujarat/girnar",
+      "kind": "attraction",
+      "name": "Girnar",
+      "parent": "gujarat/junagadh",
+      "summary": "Gujarat's holy mountain above Junagadh — about 10,000 steps past Jain temples to Hindu shrines on its peaks.",
+      "seoTitle": "Girnar, Junagadh: Steps, Temples and Ropeway",
+      "seoDescription": "Girnar above Junagadh: about 10,000 steps to the Neminath Jain temples and Gujarat's highest peak (1,117 m), the ropeway, festivals and the best season.",
+      "lat": 21.53,
+      "lng": 70.53,
+      "tripTypes": [
+        "spiritual",
+        "adventure"
+      ],
+      "sections": {
+        "overview": {
+          "text": "Girnar, also called Revatak Parvata, rises sharply from the plains above Junagadh and is covered with Jain and Hindu temples. Pilgrims climb about 10,000 stone steps, ideally setting out at dawn, and reaching the highest temples takes a full day. About two-thirds of the way up is a cluster of Jain temples; the largest and oldest is the 12th-century temple of Neminath, the 22nd Tirthankar, which stays open all day while many others close from about 11am to 3pm. Beyond are Hindu shrines: Amba Mata on the first peak, Gorakhnath on Gujarat's highest summit at 1,117 m, and Dattatraya. A ropeway from Bhavnath Taleti now saves much of the climb.",
+          "facts": [
+            "GGR1",
+            "GGR2",
+            "GGR3",
+            "GGR5"
+          ]
+        },
+        "visit_info": {
+          "items": [
+            {
+              "title": "Timing",
+              "body": "Start at dawn; allow a full day for the upper temples",
+              "status": "verified"
+            },
+            {
+              "title": "Temple hours",
+              "body": "Many close about 11am–3pm; Neminath is open all day",
+              "status": "verified"
+            },
+            {
+              "title": "Best time",
+              "body": "November to February",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "GGR1",
+            "GGR2",
+            "GGR4"
+          ]
+        },
+        "things_to_do": {
+          "items": [
+            {
+              "body": "Climb the steps at dawn."
+            },
+            {
+              "body": "Visit the Neminath Jain temple."
+            },
+            {
+              "body": "Reach Gorakhnath, Gujarat's highest peak."
+            },
+            {
+              "body": "Join the Bhavnath Mela (Magha) or the Girnar Parikrama (November)."
+            }
+          ],
+          "facts": [
+            "GGR1",
+            "GGR2",
+            "GGR3",
+            "GGR4"
+          ]
+        }
+      },
+      "images": [
+        {
+          "commons": "File:Dattatreya Temple of Girnar.JPG",
+          "alt": "Girnar's rocky peaks with the Dattatreya shrine on the summit",
+          "caption": "Girnar peaks",
+          "hero": true
+        }
+      ]
+    },
+    {
+      "key": "gujarat/bhuj",
+      "kind": "city",
+      "name": "Bhuj",
+      "parent": "gujarat",
+      "summary": "Kutch's old royal capital — Aina Mahal and Prag Mahal, Hamirsar Lake, and the craft villages of Kutch on its doorstep.",
+      "seoTitle": "Bhuj, Kutch: Palaces, Crafts and Getting There",
+      "seoDescription": "Bhuj, capital of Kutch since 1549: Aina Mahal, Prag Mahal, Hamirsar Lake, Smritivan and Kutch crafts; flights, trains, buses and getting around.",
+      "lat": 23.25,
+      "lng": 69.67,
+      "tripTypes": [
+        "heritage",
+        "food"
+      ],
+      "sections": {
+        "overview": {
+          "text": "Bhuj has been the capital of Kutch since Rao Khengarji I made it so in 1549, and it remained the seat of the princely state until 1947. Its sights include the royal palaces — the mirrored Aina Mahal and Prag Mahal — along with Hamirsar Lake, the Kutch Museum and Sharad Baug Palace. Much of the old city wall fell or was cleared after the 2001 earthquake, which is remembered at the Smritivan memorial on Bhujia Hill. Bhuj is also the market town for Kutch's crafts: bandhni tie-dye, embroidery, Rogan painting and leatherwork, which village artists bring to sell at Bhuj Haat. From Bhuj, Kalo Dungar is 90 km north and Lakhpat 135 km northwest.",
+          "facts": [
+            "GBH1",
+            "GBH3",
+            "GBH5",
+            "GBH4",
+            "GKD1",
+            "GLK4"
+          ]
+        },
+        "key_facts": {
+          "items": [
+            {
+              "title": "Capital of Kutch",
+              "body": "Since 1549",
+              "status": "verified"
+            },
+            {
+              "title": "Airport",
+              "body": "4 km from the city; daily flights to Mumbai",
+              "status": "verified"
+            },
+            {
+              "title": "Known for",
+              "body": "Palaces and Kutch crafts",
+              "status": "verified"
+            },
+            {
+              "title": "Memorial",
+              "body": "Smritivan, for the 2001 earthquake",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "GBH1",
+            "GBH2",
+            "GBH4",
+            "GBH3",
+            "GBH2B"
+          ]
+        },
+        "how_to_reach": {
+          "text": "Bhuj airport, 4 km from the city, has daily flights to Mumbai. Trains link Bhuj with Ahmedabad, Mumbai, Delhi and other cities, and state buses run from the ST stand in the town centre across Gujarat.",
+          "facts": [
+            "GBH2",
+            "GBH2B"
+          ]
+        },
+        "local_transport": {
+          "text": "City buses and auto-rickshaws get you around town.",
+          "facts": [
+            "GBH2",
+            "GBH2B"
+          ]
+        },
+        "where_to_stay": {
+          "text": "Gujarat Tourism lists The Bhuj House.",
+          "facts": [
+            "GBH6"
+          ]
+        },
+        "things_to_do": {
+          "items": [
+            {
+              "body": "See Aina Mahal and Prag Mahal."
+            },
+            {
+              "body": "Walk around Hamirsar Lake."
+            },
+            {
+              "body": "Visit the Kutch Museum."
+            },
+            {
+              "body": "Climb Bhujia Hill to the Smritivan memorial."
+            }
+          ],
+          "facts": [
+            "GBH3"
+          ]
+        },
+        "shopping": {
+          "items": [
+            {
+              "body": "Bandhni tie-dye and Kutch embroidery."
+            },
+            {
+              "body": "Rogan painting and leatherwork."
+            },
+            {
+              "body": "Bhuj Haat, where village artists sell their work."
+            }
+          ],
+          "facts": [
+            "GBH4"
+          ]
+        },
+        "who_its_for": {
+          "items": [
+            {
+              "title": "Craft lovers",
+              "body": "Kutch textiles and Rogan art."
+            },
+            {
+              "title": "Kutch explorers",
+              "body": "Kalo Dungar and Lakhpat are reached from here."
+            }
+          ],
+          "facts": [
+            "GBH4",
+            "GKD1",
+            "GLK4"
+          ]
+        },
+        "faqs": {
+          "items": [
+            {
+              "title": "Does Bhuj have an airport?",
+              "body": "Yes, 4 km from the city, with daily flights to Mumbai."
+            },
+            {
+              "title": "What crafts is Bhuj known for?",
+              "body": "Bandhni, embroidery, Rogan art and leatherwork."
+            }
+          ],
+          "facts": [
+            "GBH2",
+            "GBH4",
+            "GBH2B"
+          ]
+        }
+      },
+      "images": [
+        {
+          "commons": "File:Prag Mahal Bhuj.jpg",
+          "alt": "The red sandstone Gothic facade and tower of Prag Mahal in Bhuj",
+          "caption": "Prag Mahal, Bhuj",
+          "hero": true
+        }
+      ]
+    },
+    {
+      "key": "gujarat/aina-mahal",
+      "kind": "museum",
+      "name": "Aina Mahal",
+      "parent": "gujarat/bhuj",
+      "summary": "Bhuj's 18th-century Hall of Mirrors — a royal palace-museum built by a sailor who had learnt European crafts.",
+      "seoTitle": "Aina Mahal, Bhuj: Hall of Mirrors and Visiting Hours",
+      "seoDescription": "Aina Mahal in Bhuj, built in 1752 for Maharao Lakhpatji: mirrored halls, Delft-style tiles, a 15.2 m procession scroll and Kutch jewellery. Closed Thursdays.",
+      "lat": 23.25,
+      "lng": 69.67,
+      "tripTypes": [
+        "heritage"
+      ],
+      "sections": {
+        "overview": {
+          "text": "Aina Mahal, the 'Hall of Mirrors', is one of three palaces in the walled royal quarter of old Bhuj. It was built in 1752 for Maharao Lakhpatji by Ram Singh Malam, a sailor from Dwarka who had picked up European arts and crafts on his travels, and its mirrored rooms show a fascination with all things European: blue-and-white Delft-style tiles, a candelabra with Venetian-glass shades. In the Fuvara Mahal, fountains played around the ruler as he watched dancers or wrote poetry. An earthquake took the top storey, but the lower floor is open as a museum of Kutch jewellery, weaponry and art, with a 15.2 m painted scroll of a Kutch state procession.",
+          "facts": [
+            "GAM1",
+            "GAM2",
+            "GAM3"
+          ]
+        },
+        "visit_info": {
+          "items": [
+            {
+              "title": "Hours",
+              "body": "9–11.45am and 3–5.45pm",
+              "status": "verified"
+            },
+            {
+              "title": "Days",
+              "body": "Friday to Wednesday; closed Thursday",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "GAM4"
+          ]
+        },
+        "things_to_do": {
+          "items": [
+            {
+              "body": "See the 15.2 m procession scroll."
+            },
+            {
+              "body": "Walk through the mirrored Fuvara Mahal."
+            },
+            {
+              "body": "Look at the Kutch jewellery and weapons."
+            }
+          ],
+          "facts": [
+            "GAM1",
+            "GAM3"
+          ]
+        }
+      },
+      "images": [
+        {
+          "commons": "File:Aina Mahal2.jpg",
+          "alt": "A mirrored and tiled room inside Aina Mahal, Bhuj",
+          "caption": "Inside Aina Mahal",
+          "hero": true
+        }
+      ]
+    },
+    {
+      "key": "gujarat/saputara",
+      "kind": "town",
+      "name": "Saputara",
+      "parent": "gujarat",
+      "summary": "Gujarat's only hill station, at about 1,000 m in the Sahyadris — a lake, viewpoints and Dangi tribal culture.",
+      "seoTitle": "Saputara: Gujarat's Hill Station — Lake, Viewpoints, When to Go",
+      "seoDescription": "Saputara, Gujarat's only hill station at about 1,000 m in the Dangs: Saputara Lake, Sunset and Echo Points, the tribal museum, NH 953 and the best season.",
+      "lat": 20.58,
+      "lng": 73.75,
+      "tripTypes": [
+        "mountains",
+        "nature",
+        "weekend",
+        "family"
+      ],
+      "sections": {
+        "overview": {
+          "text": "Saputara is Gujarat's only hill station, set at about 1,000 m in the Sahyadri range in the Dang district. Its name, 'abode of serpents', comes from the snake god revered by the Dangi tribal people, and it remains lightly commercialised. Life centres on Saputara Lake, with Sunset, Sunrise and Echo Points around the plateau, a tribal museum and Hathgadh Fort; Vansda National Park is about 69 km away. Winter, from October to February, is mild — lows can dip to 8 °C — and in the monsoon the hills turn a deep green.",
+          "facts": [
+            "GSP1",
+            "GSP2",
+            "GSP3"
+          ]
+        },
+        "key_facts": {
+          "items": [
+            {
+              "title": "Altitude",
+              "body": "About 1,000 m",
+              "status": "verified"
+            },
+            {
+              "title": "Road",
+              "body": "NH 953, Songadh–Pimpalgaon Baswant",
+              "status": "verified"
+            },
+            {
+              "title": "Winter",
+              "body": "October–February; lows can reach 8 °C",
+              "status": "seasonal"
+            },
+            {
+              "title": "Nearby",
+              "body": "Vansda National Park, about 69 km",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "GSP1",
+            "GSP4",
+            "GSP3",
+            "GSP2"
+          ]
+        },
+        "best_time": {
+          "text": "October to February is mild and pleasant, with lows that can reach 8 °C. The monsoon turns the hills green and lush.",
+          "facts": [
+            "GSP3"
+          ]
+        },
+        "how_to_reach": {
+          "text": "Saputara is on NH 953, which links Songadh in Gujarat with Pimpalgaon Baswant in Maharashtra.",
+          "facts": [
+            "GSP4"
+          ]
+        },
+        "where_to_stay": {
+          "text": "Gujarat Tourism lists Toran Hill Resort.",
+          "facts": [
+            "GSP5"
+          ]
+        },
+        "things_to_do": {
+          "items": [
+            {
+              "body": "Watch the sunset over Saputara Lake from Governor's Hill."
+            },
+            {
+              "body": "Walk up Gandhi Shikhar at dawn."
+            },
+            {
+              "body": "Visit the tribal museum."
+            },
+            {
+              "body": "See Sunrise, Sunset and Echo Points."
+            }
+          ],
+          "facts": [
+            "GSP5",
+            "GSP2"
+          ]
+        },
+        "who_its_for": {
+          "items": [
+            {
+              "title": "Families",
+              "body": "A gentle hill break."
+            },
+            {
+              "title": "Culture seekers",
+              "body": "Dangi tribal life."
+            }
+          ],
+          "facts": [
+            "GSP1",
+            "GSP5"
+          ]
+        },
+        "faqs": {
+          "items": [
+            {
+              "title": "Is Saputara Gujarat's only hill station?",
+              "body": "Yes."
+            },
+            {
+              "title": "When is it coolest?",
+              "body": "October to February, when lows can reach 8 °C."
+            }
+          ],
+          "facts": [
+            "GSP1",
+            "GSP3"
+          ]
+        }
+      },
+      "images": [
+        {
+          "commons": "File:SAPUTARA LAKE - panoramio.jpg",
+          "alt": "Saputara Lake ringed by trees and low hills",
+          "caption": "Saputara Lake",
+          "hero": true
+        }
+      ]
+    },
+    {
+      "key": "gujarat/palitana",
+      "kind": "town",
+      "name": "Palitana",
+      "parent": "gujarat",
+      "summary": "Jainism's holiest hill — about 3,800 steps up Shatrunjaya to more than 900 marble temples.",
+      "seoTitle": "Palitana and Shatrunjaya Hill: Jain Temples, Climb, Getting There",
+      "seoDescription": "Palitana near Bhavnagar: about 3,800 steps up Shatrunjaya to over 900 Jain temples, Kartik Purnima crowds, and how to reach by air, rail and bus.",
+      "lat": 21.52,
+      "lng": 71.83,
+      "tripTypes": [
+        "spiritual",
+        "heritage"
+      ],
+      "sections": {
+        "overview": {
+          "text": "Palitana, about 50 km southwest of Bhavnagar, grew up around Shatrunjaya hill, crowned by more than 900 marble temples that are among the holiest in Jainism. Generations of Jains built them over 900 years from the 11th century, grouping them in walled tunks around central shrines; the greatest is the Adinath temple, dedicated to Rishabhanatha, the first Tirthankara, who is said to have meditated on the summit. About 3,800 stone steps lead up from the town, and on a clear day the top looks out to the Gulf of Cambay. Walking down, pilgrims stop for bowls of curd. In 2014 Palitana became the first city declared vegetarian, banning the sale of meat, fish and eggs.",
+          "facts": [
+            "GPL1",
+            "GPL2",
+            "GPL3",
+            "GPL6",
+            "GPL3B"
+          ]
+        },
+        "key_facts": {
+          "items": [
+            {
+              "title": "From Bhavnagar",
+              "body": "About 50 km",
+              "status": "verified"
+            },
+            {
+              "title": "Temples",
+              "body": "Over 900",
+              "status": "verified"
+            },
+            {
+              "title": "Steps",
+              "body": "About 3,800",
+              "status": "verified"
+            },
+            {
+              "title": "Rule",
+              "body": "Vegetarian city — no meat, fish or eggs sold",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "GPL1",
+            "GPL2"
+          ]
+        },
+        "best_time": {
+          "text": "Kartik Purnima, at the end of Chaturmas, brings crowds in the thousands — book accommodation in advance if you go then.",
+          "facts": [
+            "GPL4"
+          ]
+        },
+        "how_to_reach": {
+          "text": "Bhavnagar airport is 51 km away. Palitana's small station connects to Sihor and Bhavnagar; most trains stop at Sihor. Buses run hourly to Bhavnagar and regularly to Ahmedabad, Talaja, Una and Diu.",
+          "facts": [
+            "GPL5"
+          ]
+        },
+        "things_to_do": {
+          "items": [
+            {
+              "body": "Climb the steps up Shatrunjaya."
+            },
+            {
+              "body": "See the Adinath temple on the summit."
+            },
+            {
+              "body": "Visit the four-faced shrine in the Chaumukhji Tunk."
+            },
+            {
+              "body": "Eat curd at the foot after the descent."
+            }
+          ],
+          "facts": [
+            "GPL2",
+            "GPL3",
+            "GPL3B"
+          ]
+        },
+        "who_its_for": {
+          "items": [
+            {
+              "title": "Jain pilgrims",
+              "body": "One of the faith's holiest sites."
+            },
+            {
+              "title": "Architecture lovers",
+              "body": "Over 900 carved marble temples."
+            }
+          ],
+          "facts": [
+            "GPL1"
+          ]
+        },
+        "faqs": {
+          "items": [
+            {
+              "title": "How many steps are there?",
+              "body": "About 3,800."
+            },
+            {
+              "title": "Can I eat meat in Palitana?",
+              "body": "No — the sale of meat, fish and eggs is banned."
+            }
+          ],
+          "facts": [
+            "GPL2",
+            "GPL1"
+          ]
+        }
+      },
+      "images": [
+        {
+          "commons": "File:Palitana temples 11.jpg",
+          "alt": "White Jain temple spires on Shatrunjaya hill above Palitana",
+          "caption": "Shatrunjaya temples, Palitana",
+          "hero": true
+        }
+      ]
+    },
+    {
+      "key": "gujarat/porbandar",
+      "kind": "city",
+      "name": "Porbandar",
+      "parent": "gujarat",
+      "summary": "Gandhi's birthplace on the Saurashtra coast — Kirti Mandir, the Sudama temple and a bird sanctuary in town.",
+      "seoTitle": "Porbandar: Gandhi's Birthplace, Kirti Mandir and Getting There",
+      "seoDescription": "Porbandar, birthplace of Mahatma Gandhi: Kirti Mandir, the Sudama temple, Tara Mandir and the bird sanctuary; roads, trains, flights and the cool season.",
+      "lat": 21.64,
+      "lng": 69.6,
+      "tripTypes": [
+        "heritage",
+        "spiritual",
+        "beaches"
+      ],
+      "sections": {
+        "overview": {
+          "text": "Porbandar is an ancient port on the Saurashtra coast and the former capital of a princely state, but it is best known as the birthplace of Mahatma Gandhi — and of Sudama. Gandhi's ancestral home and the Kirti Mandir memorial stand in the main bazaar, and the town also has one of the few temples in India dedicated to Sudama and the Tara Mandir, one of the country's oldest planetariums. The Porbandar Bird Sanctuary, in town, draws teals, flamingos, ibis and curlews, and Gujarat Tourism also points visitors to Madhavpur Beach. Porbandar sits on the coastal highway between Dwarka and Veraval, with a railway station and a domestic airport.",
+          "facts": [
+            "GPB1",
+            "GPB2",
+            "GKM1",
+            "GPB5",
+            "GPB3"
+          ]
+        },
+        "key_facts": {
+          "items": [
+            {
+              "title": "Known for",
+              "body": "Mahatma Gandhi's birthplace",
+              "status": "verified"
+            },
+            {
+              "title": "Getting in",
+              "body": "Domestic airport, railway station, NH 27",
+              "status": "verified"
+            },
+            {
+              "title": "Coast road",
+              "body": "Dwarka to the north, Veraval to the south",
+              "status": "verified"
+            },
+            {
+              "title": "Cool season",
+              "body": "October–March",
+              "status": "seasonal"
+            }
+          ],
+          "facts": [
+            "GPB1",
+            "GPB3",
+            "GPB4"
+          ]
+        },
+        "best_time": {
+          "text": "The cool season, October to March. April to early June is hot, and the monsoon runs from mid-June to September.",
+          "facts": [
+            "GPB4"
+          ]
+        },
+        "how_to_reach": {
+          "text": "Porbandar has a domestic airport and a railway station connected with the rest of the state and country. NH 27 links it to Rajkot and Ahmedabad, and the coastal highway runs north to Dwarka and Jamnagar and south to Veraval and Bhavnagar.",
+          "facts": [
+            "GPB3"
+          ]
+        },
+        "things_to_do": {
+          "items": [
+            {
+              "body": "Visit Kirti Mandir and Gandhi's birthplace."
+            },
+            {
+              "body": "See the Sudama temple."
+            },
+            {
+              "body": "Watch birds at the Porbandar Bird Sanctuary."
+            },
+            {
+              "body": "Visit Madhavpur Beach."
+            }
+          ],
+          "facts": [
+            "GPB2",
+            "GPB5"
+          ]
+        },
+        "who_its_for": {
+          "items": [
+            {
+              "title": "Gandhi pilgrims",
+              "body": "His birthplace and memorial."
+            },
+            {
+              "title": "Birdwatchers",
+              "body": "Flamingos and ibis in town."
+            }
+          ],
+          "facts": [
+            "GPB1",
+            "GPB2"
+          ]
+        },
+        "faqs": {
+          "items": [
+            {
+              "title": "Was Gandhi born in Porbandar?",
+              "body": "Yes — his ancestral home stands beside Kirti Mandir."
+            },
+            {
+              "title": "Does Porbandar have an airport?",
+              "body": "Yes, a domestic airport."
+            }
+          ],
+          "facts": [
+            "GPB1",
+            "GKM1",
+            "GPB3"
+          ]
+        }
+      },
+      "images": [
+        {
+          "commons": "File:Porbandar during Dwaraka DWARASPDB 2015 (146).jpg",
+          "alt": "A carved temple in Porbandar under a clear sky",
+          "caption": "Porbandar",
+          "hero": true
+        }
+      ]
+    },
+    {
+      "key": "gujarat/kirti-mandir",
+      "kind": "attraction",
+      "name": "Kirti Mandir",
+      "parent": "gujarat/porbandar",
+      "summary": "The memorial beside the house where Mahatma Gandhi was born in Porbandar in 1869.",
+      "seoTitle": "Kirti Mandir, Porbandar: Gandhi's Birthplace and Timings",
+      "seoDescription": "Kirti Mandir in Porbandar: the memorial to Mahatma and Kasturba Gandhi beside the house where Gandhi was born in 1869, with a photo exhibition. Open 7.30am–7pm.",
+      "lat": 21.64,
+      "lng": 69.6,
+      "tripTypes": [
+        "heritage"
+      ],
+      "sections": {
+        "overview": {
+          "text": "Kirti Mandir is Porbandar's memorial to Mohandas Karamchand Gandhi and Kasturba Gandhi, and it stands right beside the Gandhi family's ancestral home, where the Mahatma was born on 2 October 1869. A spacious courtyard is lined with a photo exhibition tracing Gandhi's life, and the house where he was born and lived for a time is at its far end; once three storeys, it has been altered since his grandfather built it. The memorial was funded by the industrialist Nanjibhai Kalidas Mehta, who also paid to acquire the house, and it was unveiled by Sardar Vallabhbhai Patel on 27 May 1950. It sits in Porbandar's main bazaar at Manek Chowk and is open every day.",
+          "facts": [
+            "GKM1",
+            "GKM2",
+            "GKM3",
+            "GPB2"
+          ]
+        },
+        "visit_info": {
+          "items": [
+            {
+              "title": "Hours",
+              "body": "7.30am–7pm, every day",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "GKM4"
+          ]
+        },
+        "things_to_do": {
+          "items": [
+            {
+              "body": "See the room where Gandhi was born."
+            },
+            {
+              "body": "Walk the courtyard photo exhibition on his life."
+            }
+          ],
+          "facts": [
+            "GKM1",
+            "GKM2"
+          ]
+        }
+      },
+      "images": [
+        {
+          "commons": "File:Kirti Mandir Porbandar.jpg",
+          "alt": "The pale facade of Kirti Mandir in Porbandar with its central tower",
+          "caption": "Kirti Mandir, Porbandar",
+          "hero": true
+        }
+      ]
+    },
+    {
+      "key": "gujarat/adalaj-stepwell",
+      "kind": "attraction",
+      "name": "Adalaj Stepwell",
+      "parent": "gujarat/ahmedabad",
+      "summary": "A five-storey 15th-century stepwell 19 km from Ahmedabad, carved in Indo-Islamic style.",
+      "seoTitle": "Adalaj Stepwell (Adalaj ni Vav): Carvings, Hours, Getting There",
+      "seoDescription": "Adalaj ni Vav, 19 km north of Ahmedabad: a five-storey 15th-century stepwell with Indo-Islamic carving, three entrances and an octagonal well. Open 8am–6pm.",
+      "lat": 23.17,
+      "lng": 72.58,
+      "tripTypes": [
+        "heritage",
+        "weekend"
+      ],
+      "sections": {
+        "overview": {
+          "text": "Adalaj ni Vav, 19 km north of Ahmedabad, is a 15th-century stepwell that has kept much of its grandeur. Five storeys deep, it is supported by pillars whose intricate carving is still mostly intact, and it shows the Indo-Islamic blend of styles found in many stepwells of the period. Three entrances lead down to landings whose ceiling openings let light and air into the octagonal well, though direct sun reaches the steps only around noon, and the air inside is said to be about six degrees cooler than outside. The walls are covered with mythological and village scenes, including the Ami khumbor, a pot holding the water of life, and the Kalp vriksha, a tree of life, each cut from a single slab of stone.",
+          "facts": [
+            "GAD4",
+            "GAD1",
+            "GAD2",
+            "GAD3"
+          ]
+        },
+        "visit_info": {
+          "items": [
+            {
+              "title": "Hours",
+              "body": "8am–6pm",
+              "status": "verified"
+            },
+            {
+              "title": "Location",
+              "body": "19 km north of Ahmedabad",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "GAD4"
+          ]
+        },
+        "things_to_do": {
+          "items": [
+            {
+              "body": "Walk down all five storeys."
+            },
+            {
+              "body": "Find the Kalp vriksha and Ami khumbor carvings."
+            },
+            {
+              "body": "Visit near noon to see sunlight reach the steps."
+            }
+          ],
+          "facts": [
+            "GAD1",
+            "GAD3",
+            "GAD2"
+          ]
+        }
+      },
+      "images": [
+        {
+          "commons": "File:Adalaj stepwell 5.jpg",
+          "alt": "Carved stone galleries framing the descending levels of Adalaj stepwell",
+          "caption": "Adalaj stepwell",
+          "hero": true
+        }
+      ]
+    },
+    {
+      "key": "gujarat/lothal",
+      "kind": "attraction",
+      "name": "Lothal",
+      "parent": "gujarat/ahmedabad",
+      "summary": "A 4,500-year-old Indus Valley port 80 km from Ahmedabad, with the world's oldest known artificial dock.",
+      "seoTitle": "Lothal: Indus Valley Dockyard, Museum Hours, How to Reach",
+      "seoDescription": "Lothal, 80 km southwest of Ahmedabad: the 4,500-year-old Harappan port with the world's oldest known dock, a bead factory and an ASI museum (closed Friday).",
+      "lat": 22.52,
+      "lng": 72.25,
+      "tripTypes": [
+        "heritage",
+        "family"
+      ],
+      "sections": {
+        "overview": {
+          "text": "Lothal, about 80 km southwest of Ahmedabad, was one of the most important cities of the Indus Valley civilisation some 4,500 years ago. Its excavations, carried out by the Archaeological Survey of India between 1955 and 1960, revealed the world's oldest known artificial dock, once linked to an old course of the Sabarmati River, along with the acropolis, the lower town, a bead factory, warehouses and a drainage system. Together they show a planned trading town with its own market and harbour. Finds — jewellery, pottery, seals, religious symbols and everyday objects — are displayed in the archaeological museum beside the site. Lothal has been nominated for UNESCO World Heritage listing.",
+          "facts": [
+            "GLT1",
+            "GLT2",
+            "GLT3"
+          ]
+        },
+        "visit_info": {
+          "items": [
+            {
+              "title": "Museum",
+              "body": "10am–5pm; closed Friday",
+              "status": "verified"
+            },
+            {
+              "title": "By train",
+              "body": "Gandhigram (Ahmedabad) to Lothal-Bhurkhi, 6 km from the site, then a bus",
+              "status": "verified"
+            },
+            {
+              "title": "By road",
+              "body": "A return cab from Ahmedabad",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "GLT3",
+            "GLT4"
+          ]
+        },
+        "things_to_do": {
+          "items": [
+            {
+              "body": "See the ancient dock."
+            },
+            {
+              "body": "Walk through the acropolis and lower town."
+            },
+            {
+              "body": "Visit the archaeological museum."
+            }
+          ],
+          "facts": [
+            "GLT1",
+            "GLT2",
+            "GLT3"
+          ]
+        }
+      },
+      "images": [
+        {
+          "commons": "File:Lothal Indus Valley Harappan civilization ~2000 BCE Gujarat India.jpg",
+          "alt": "The brick-lined basin of the ancient dock at Lothal",
+          "caption": "The dock at Lothal",
+          "hero": true
+        }
+      ]
+    },
+    {
+      "key": "gujarat/nal-sarovar",
+      "kind": "nature",
+      "name": "Nal Sarovar Bird Sanctuary",
+      "parent": "gujarat/ahmedabad",
+      "summary": "A Ramsar wetland an hour from Ahmedabad, with more than 250 bird species and winter flamingos.",
+      "seoTitle": "Nal Sarovar Bird Sanctuary: Birds, Best Time, Hours",
+      "seoDescription": "Nal Sarovar, an hour from Ahmedabad: a 120 sq km Ramsar wetland with over 250 bird species, at its best November–February. Open 6am–6pm.",
+      "lat": 22.8,
+      "lng": 72.04,
+      "tripTypes": [
+        "nature",
+        "wildlife",
+        "weekend"
+      ],
+      "sections": {
+        "overview": {
+          "text": "Nal Sarovar Bird Sanctuary is a large wetland about an hour's drive from Ahmedabad, spread over 120.82 sq km. More than 250 bird species have been recorded here, among them pelicans, flamingos, egrets, herons and cranes. The Gujarat government declared it a bird sanctuary in 1969, and in 2012 it was designated a Ramsar site, recognising its importance as a wetland for birds and other wildlife. Winter is the season to come: from November to February migratory birds arrive in large numbers, though some resident species can be seen all year. The sanctuary opens from 6am to 6pm, and Viramgam is the nearest railway station, making it an easy day out from the city.",
+          "facts": [
+            "GNS1",
+            "GNS2",
+            "GNS3",
+            "GNS4"
+          ]
+        },
+        "best_time": {
+          "text": "November to February, when migratory birds arrive in large numbers.",
+          "facts": [
+            "GNS3"
+          ]
+        },
+        "visit_info": {
+          "items": [
+            {
+              "title": "Hours",
+              "body": "6am–6pm",
+              "status": "verified"
+            },
+            {
+              "title": "Nearest station",
+              "body": "Viramgam",
+              "status": "verified"
+            },
+            {
+              "title": "From Ahmedabad",
+              "body": "About an hour by road",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "GNS3",
+            "GNS4",
+            "GNS1"
+          ]
+        }
+      },
+      "images": [
+        {
+          "commons": "File:Nal Sarovar-8972.jpg",
+          "alt": "Small boats on the shallow waters of Nal Sarovar at dawn",
+          "caption": "Nal Sarovar",
+          "hero": true
+        }
+      ]
+    },
+    {
+      "key": "gujarat/kalo-dungar",
+      "kind": "viewpoint",
+      "name": "Kalo Dungar",
+      "parent": "gujarat/rann-of-kutch",
+      "summary": "Kutch's highest point, 462 m above the Great Rann, with a 400-year-old Dattatreya temple where jackals are fed.",
+      "seoTitle": "Kalo Dungar (Black Hill), Kutch: Rann Views and Temple",
+      "seoDescription": "Kalo Dungar, 90 km north of Bhuj: Kutch's highest point at 462 m with views over the Great Rann, a 400-year-old Dattatreya temple and the India Bridge.",
+      "lat": 23.94,
+      "lng": 69.8,
+      "tripTypes": [
+        "nature",
+        "spiritual"
+      ],
+      "sections": {
+        "overview": {
+          "text": "Kalo Dungar, the 'Black Hill', rises north of the village of Khavda, about 90 km north of Bhuj. At 462 m it is the highest point in Kutch, and from its edge the white salt flat of the Great Rann stretches to the horizon, changing colour through the day — or, in the monsoon, an inland sea. The hill is also known for a 400-year-old temple to Lord Dattatreya. Legend says he fed his own body to starving jackals here, and for four centuries the temple's priests have set out cooked rice for the jackals that come each evening. A 15-minute drive from the base is the India Bridge to the far north of Kutch, in an army-controlled area where photography is not allowed.",
+          "facts": [
+            "GKD1",
+            "GKD2",
+            "GKD3"
+          ]
+        },
+        "visit_info": {
+          "items": [
+            {
+              "title": "Getting there",
+              "body": "Own transport; 90 km north of Bhuj",
+              "status": "verified"
+            },
+            {
+              "title": "Photography",
+              "body": "Not allowed in the army-controlled area by the India Bridge",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "GKD1",
+            "GKD3"
+          ]
+        },
+        "things_to_do": {
+          "items": [
+            {
+              "body": "Look out over the Great Rann from the summit."
+            },
+            {
+              "body": "Visit the Dattatreya temple."
+            },
+            {
+              "body": "Stay for the evening feeding of the jackals."
+            }
+          ],
+          "facts": [
+            "GKD1",
+            "GKD2"
+          ]
+        }
+      },
+      "images": [
+        {
+          "commons": "File:Black hill of kachchh.jpg",
+          "alt": "The view from Kalo Dungar across scrub to the pale flat of the Rann",
+          "caption": "View from Kalo Dungar",
+          "hero": true
+        }
+      ]
+    },
+    {
+      "key": "gujarat/lakhpat-fort",
+      "kind": "attraction",
+      "name": "Lakhpat Fort and Gurudwara",
+      "parent": "gujarat/bhuj",
+      "summary": "A walled 18th-century trading town on the Kori creek, with sunset ramparts and a gurdwara linked to Guru Nanak.",
+      "seoTitle": "Lakhpat Fort and Gurudwara, Kutch: History and Visiting",
+      "seoDescription": "Lakhpat, 135 km northwest of Bhuj on the Kori creek: an 18th-century trading fort with sea views from the rampart and a 16th-century gurdwara. Open sunrise–sunset.",
+      "lat": 23.83,
+      "lng": 68.78,
+      "tripTypes": [
+        "heritage",
+        "spiritual"
+      ],
+      "sections": {
+        "overview": {
+          "text": "Lakhpat sits at the mouth of the Kori creek in far western Kutch, 33 km north of Narayan Sarovar and 135 km northwest of Bhuj. In the 18th century it was an important coastal trading town, and its great walled fort remains as evidence of that brief prosperity; as trade dried up, the town fell into ruin and its people moved away. You can climb the rampart — the only part of the fort still standing — and look out over the still water, best of all at sunset. Within the walls is a 16th-century gurdwara where Guru Nanak is believed to have stopped twice on his journeys; it keeps relics including wooden footwear, a palanquin and manuscripts, and hymns play softly through the day.",
+          "facts": [
+            "GLK1",
+            "GLK4",
+            "GLK2",
+            "GLK3",
+            "GLK3B"
+          ]
+        },
+        "visit_info": {
+          "items": [
+            {
+              "title": "Hours",
+              "body": "Sunrise to sunset",
+              "status": "verified"
+            },
+            {
+              "title": "From Bhuj",
+              "body": "135 km northwest",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "GLK4"
+          ]
+        },
+        "things_to_do": {
+          "items": [
+            {
+              "body": "Walk the rampart at sunset."
+            },
+            {
+              "body": "Visit the gurdwara and its relics."
+            }
+          ],
+          "facts": [
+            "GLK2",
+            "GLK3",
+            "GLK3B"
+          ]
+        }
+      },
+      "images": [
+        {
+          "commons": "File:Lakhpat fort gate 2014-01-27 13-02.jpg",
+          "alt": "The gate between two round bastions of Lakhpat fort",
+          "caption": "Lakhpat fort gate",
+          "hero": true
+        }
+      ]
+    },
+    {
+      "key": "gujarat/little-rann-of-kutch",
+      "kind": "nature",
+      "name": "Little Rann of Kutch (Wild Ass Sanctuary)",
+      "parent": "gujarat",
+      "summary": "A 4,953 sq km salt desert, last home of the Indian wild ass and a winter magnet for flamingos and cranes.",
+      "seoTitle": "Little Rann of Kutch: Wild Ass Sanctuary, Season and Safaris",
+      "seoDescription": "Little Rann of Kutch Wild Ass Sanctuary: 4,953 sq km of salt desert, the last Indian wild ass herds, flamingos and cranes, jeep safaris; open 16 Oct–15 Jun.",
+      "lat": 23.45,
+      "lng": 71.4,
+      "tripTypes": [
+        "wildlife",
+        "nature",
+        "adventure"
+      ],
+      "sections": {
+        "overview": {
+          "text": "The Little Rann of Kutch is a vast salt desert, protected as the Wild Ass Sanctuary across 4,953 sq km. It is the last refuge of the Indian wild ass, which roams the flat pan dotted with shrubs and thorny bushes. In winter the Rann also fills with birds: greater flamingos, Eurasian wigeon, common teal and demoiselle cranes are among the species that arrive, making it a prime birdwatching site. Visitors can explore by jeep safari. The sanctuary is open from dawn to dusk between 16 October and 15 June, and November to February is the best season. It is about 103 km from Ahmedabad, and the nearest railway station, Patadi, is about 25 km away.",
+          "facts": [
+            "GLR1",
+            "GLR2",
+            "GLR3",
+            "GLR4",
+            "GLR1B"
+          ]
+        },
+        "best_time": {
+          "text": "November to February, when migratory birds flock in. The sanctuary is open from 16 October to 15 June.",
+          "facts": [
+            "GLR3"
+          ]
+        },
+        "visit_info": {
+          "items": [
+            {
+              "title": "Season",
+              "body": "16 October to 15 June, dawn to dusk",
+              "status": "verified"
+            },
+            {
+              "title": "Safaris",
+              "body": "Jeep safaris",
+              "status": "verified"
+            },
+            {
+              "title": "Getting there",
+              "body": "About 103 km from Ahmedabad; Patadi station about 25 km",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "GLR3",
+            "GLR2",
+            "GLR4"
+          ]
+        },
+        "where_to_stay": {
+          "text": "Gujarat Tourism lists Little Rann Resort.",
+          "facts": [
+            "GLR4"
+          ]
+        }
+      },
+      "images": [
+        {
+          "commons": "File:Indian Wild Ass (Equus hemionus khur) - 1.jpg",
+          "alt": "A group of Indian wild asses on the flat ground of the Little Rann",
+          "caption": "Indian wild ass, Little Rann of Kutch",
+          "hero": true
+        }
+      ]
+    },
+    {
+      "key": "gujarat/velavadar-blackbuck-national-park",
+      "kind": "nature",
+      "name": "Velavadar Blackbuck National Park",
+      "parent": "gujarat",
+      "summary": "A small golden grassland near Bhavnagar packed with blackbuck, nilgai, harriers and the odd wolf.",
+      "seoTitle": "Velavadar Blackbuck National Park: Wildlife, Hours, Season",
+      "seoDescription": "Velavadar Blackbuck National Park, 47 km from Bhavnagar: about 1,800 blackbuck, nilgai, wintering harriers and wolves; guides mandatory; open 16 Oct–15 Jun.",
+      "lat": 22.05,
+      "lng": 72.03,
+      "tripTypes": [
+        "wildlife",
+        "nature"
+      ],
+      "sections": {
+        "overview": {
+          "text": "Velavadar Blackbuck National Park covers 34 sq km of pale golden grassland between two seasonal rivers, about an hour's drive north of Bhavnagar. It is famous for its blackbuck — fast, elegant antelope whose spiralling horns can reach 65 cm in mature males — and Gujarat Tourism counts some 1,800 of them, moving in separate herds of males and of females with fawns. Nilgai share the grassland, and in winter around 2,000 harriers arrive from Siberia among more than 120 bird species. With luck you may see a wolf, most likely early in the morning. The park was created in 1976 and enlarged in 1980; hiring a guide is mandatory.",
+          "facts": [
+            "GVL1",
+            "GVL2",
+            "GVL3",
+            "GVL1B"
+          ]
+        },
+        "visit_info": {
+          "items": [
+            {
+              "title": "Hours",
+              "body": "7am–1pm and 3–6pm",
+              "status": "verified"
+            },
+            {
+              "title": "Season",
+              "body": "16 October to 15 June",
+              "status": "verified"
+            },
+            {
+              "title": "Guide",
+              "body": "Mandatory",
+              "status": "verified"
+            },
+            {
+              "title": "From Bhavnagar",
+              "body": "47 km",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "GVL4",
+            "GVL2"
+          ]
+        },
+        "where_to_stay": {
+          "text": "Gujarat Tourism lists Blackbuck Safari Lodge.",
+          "facts": [
+            "GVL4"
+          ]
+        },
+        "things_to_do": {
+          "items": [
+            {
+              "body": "Watch blackbuck herds on the grassland."
+            },
+            {
+              "body": "Go out early for a chance of wolves."
+            },
+            {
+              "body": "Look for wintering harriers."
+            }
+          ],
+          "facts": [
+            "GVL1",
+            "GVL2",
+            "GVL1B"
+          ]
+        }
+      },
+      "images": [
+        {
+          "commons": "File:Antilope cervicapra from velavadar.JPG",
+          "alt": "A male blackbuck with spiralling horns standing in golden grass at Velavadar",
+          "caption": "Blackbuck, Velavadar",
+          "hero": true
+        }
+      ]
+    },
+    {
+      "key": "gujarat/polo-forest",
+      "kind": "nature",
+      "name": "Polo Forest",
+      "parent": "gujarat",
+      "summary": "Ruined temples of an ancient gateway city inside 400 sq km of deciduous forest on the old way between Gujarat and Rajasthan.",
+      "seoTitle": "Polo Forest, Gujarat: Ruined Temples, Birds, Best Season",
+      "seoDescription": "Polo Forest near Vijaynagar: 400 sq km of deciduous forest with ruined temples of the ancient Polo city, 275 bird species, lushest September–December.",
+      "lat": 23.98,
+      "lng": 73.27,
+      "tripTypes": [
+        "nature",
+        "heritage",
+        "weekend"
+      ],
+      "sections": {
+        "overview": {
+          "text": "Polo Forest covers about 400 sq km of dry mixed deciduous forest near Vijaynagar, and hides the ruins of an ancient city. Polo was built along the Harnav river, a stream mentioned in the Puranas; it is believed to have been founded in the 10th century by the Parihar kings of Idar and conquered in the 15th by the Rathod Rajputs of Marwar, and its name comes from pol, 'gate', for its place on the way between Gujarat and Rajasthan. Old temples, some still in worship, stand among the trees and Adivasi villages. The forest has more than 450 medicinal plants and about 275 bird species, and is greenest from September to December after the rains.",
+          "facts": [
+            "GPF1",
+            "GPF3",
+            "GPF2",
+            "GPF4"
+          ]
+        },
+        "best_time": {
+          "text": "September to December, after the monsoon, when the forest is lushest and the rivers are full.",
+          "facts": [
+            "GPF2"
+          ]
+        },
+        "visit_info": {
+          "items": [
+            {
+              "title": "Hours",
+              "body": "Sunrise to sunset",
+              "status": "verified"
+            },
+            {
+              "title": "Nearest town",
+              "body": "Vijaynagar: 160 km from Ahmedabad, 120 km from Udaipur",
+              "status": "verified"
+            },
+            {
+              "title": "Transport",
+              "body": "Public transport is not always reliable — check first",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "GPF4"
+          ]
+        },
+        "things_to_do": {
+          "items": [
+            {
+              "body": "Find the ruined temples of the old Polo city."
+            },
+            {
+              "body": "Birdwatch at fruiting fig trees for hornbills and barbets."
+            }
+          ],
+          "facts": [
+            "GPF1",
+            "GPF3"
+          ]
+        }
+      },
+      "images": [
+        {
+          "commons": "File:POLO FOREST.JPG",
+          "alt": "A pool below rock cliffs and trees in Polo Forest",
+          "caption": "Polo Forest",
+          "hero": true
+        }
+      ]
+    },
+    {
+      "key": "gujarat/modhera-sun-temple",
+      "kind": "temple",
+      "name": "Modhera Sun Temple",
+      "parent": "gujarat",
+      "summary": "An 11th-century Chaulukya sun temple with a great stepped tank, carved halls and a January dance festival.",
+      "seoTitle": "Modhera Sun Temple: Architecture, Stepped Tank and Dance Festival",
+      "seoDescription": "Modhera Sun Temple in Mehsana district: an 11th-century Chaulukya temple to Surya with carved halls, a stepped kund and the Uttarardha dance festival each January.",
+      "lat": 23.58,
+      "lng": 72.13,
+      "tripTypes": [
+        "heritage",
+        "spiritual"
+      ],
+      "sections": {
+        "overview": {
+          "text": "The Sun Temple at Modhera, a village in Mehsana district on the bank of the Pushpavati river, was built in the 11th century under the Chaulukya kings Bhima I and Karna I and dedicated to Surya, the sun god. It is no longer used for worship and is protected by the Archaeological Survey of India. The complex has three parts: the Gudhamandapa, or shrine hall; the Sabhamandapa, or assembly hall; and the Kund, a great reservoir whose tiered steps lead down past many small shrines. The halls are celebrated for their intricately carved exteriors and pillars. The temple joined UNESCO's tentative list in December 2022, and Modhera itself is India's first solar village.",
+          "facts": [
+            "GMD1",
+            "GMD2",
+            "GMD3",
+            "GMD5"
+          ]
+        },
+        "visit_info": {
+          "items": [
+            {
+              "title": "Status",
+              "body": "ASI-protected monument; no longer in worship",
+              "status": "verified"
+            },
+            {
+              "title": "Festival",
+              "body": "Uttarardha Mahotsav, three days in the third week of January",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "GMD1",
+            "GMD4"
+          ]
+        },
+        "things_to_do": {
+          "items": [
+            {
+              "body": "Walk down the tiered steps of the kund."
+            },
+            {
+              "body": "Study the carved pillars of the assembly hall."
+            },
+            {
+              "body": "Attend the Uttarardha Mahotsav in January."
+            }
+          ],
+          "facts": [
+            "GMD2",
+            "GMD4"
+          ]
+        }
+      },
+      "images": [
+        {
+          "commons": "File:Sun Temple, Modhera - Guda Mandap 02.jpg",
+          "alt": "The carved shrine hall of the Modhera Sun Temple on its high plinth",
+          "caption": "Modhera Sun Temple",
+          "hero": true
+        }
+      ]
+    },
+    {
+      "key": "gujarat/bet-dwarka",
+      "kind": "attraction",
+      "name": "Bet Dwarka",
+      "parent": "gujarat/dwarka",
+      "summary": "The island temple off Okha said to be Krishna's home, now reached by the Sudarshan Setu bridge.",
+      "seoTitle": "Bet Dwarka: Island Temple, Sudarshan Setu and Timings",
+      "seoDescription": "Bet Dwarka, the island temple off Okha linked to Krishna, reached since 2024 by the Sudarshan Setu bridge; open 7.30am–12pm and 4.30–6pm.",
+      "lat": 22.45,
+      "lng": 69.1,
+      "tripTypes": [
+        "spiritual"
+      ],
+      "sections": {
+        "overview": {
+          "text": "Bet Dwarka is a small island off the coast near Okha, home to a temple said to mark the residence of Lord Krishna; its founding is credited to Vallabhacharya. Since February 2024 the Sudarshan Setu cable bridge has linked Okha with the island. The temple is open 7.30am–12pm and 4.30–6pm, and Janmashtami is celebrated with great fervour.",
+          "facts": [
+            "GBD1",
+            "GBD2",
+            "GBD3"
+          ]
+        },
+        "visit_info": {
+          "items": [
+            {
+              "title": "Hours",
+              "body": "7.30am–12pm and 4.30–6pm",
+              "status": "verified"
+            },
+            {
+              "title": "Getting there",
+              "body": "Sudarshan Setu bridge from Okha",
+              "status": "verified"
+            },
+            {
+              "title": "Best time",
+              "body": "November–February, or Janmashtami",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "GBD3",
+            "GBD2"
+          ]
+        }
+      },
+      "displayMode": "parent_section"
+    },
+    {
+      "key": "gujarat/shivrajpur-beach",
+      "kind": "nature",
+      "name": "Shivrajpur Beach",
+      "parent": "gujarat/dwarka",
+      "summary": "A Blue Flag beach 12 km from Dwarka with snorkelling and scuba diving.",
+      "seoTitle": "Shivrajpur Beach, Dwarka: Blue Flag Beach, Fee and Hours",
+      "seoDescription": "Shivrajpur Beach, 12 km from Dwarka on the Okha highway: a Blue Flag beach with snorkelling, scuba diving and island tours; ₹30 entry, open 8am–7pm.",
+      "lat": 22.33,
+      "lng": 68.95,
+      "tripTypes": [
+        "beaches",
+        "adventure",
+        "family"
+      ],
+      "sections": {
+        "overview": {
+          "text": "Shivrajpur Beach, 12 km from Dwarka on the Dwarka–Okha highway, holds Blue Flag certification. It is a family beach with snorkelling, scuba diving, island tours and sea bathing, and Gujarat Tourism lists it as open 8am–7pm with a ₹30 entry fee per adult.",
+          "facts": [
+            "GSV1",
+            "GSV2"
+          ]
+        },
+        "visit_info": {
+          "items": [
+            {
+              "title": "Hours",
+              "body": "8am–7pm",
+              "status": "verified"
+            },
+            {
+              "title": "Entry",
+              "body": "₹30 per adult (Gujarat Tourism)",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "GSV2"
+          ]
+        }
+      },
+      "displayMode": "parent_section"
+    },
+    {
+      "key": "gujarat/mandvi",
+      "kind": "town",
+      "name": "Mandvi",
+      "parent": "gujarat/bhuj",
+      "summary": "Kutch's old shipbuilding port, 58 km from Bhuj, with a golden beach busy at sunset.",
+      "seoTitle": "Mandvi, Kutch: Old Port Town and Beach",
+      "seoDescription": "Mandvi, 58 km southwest of Bhuj: the Kutch port town of wooden-ship builders, with a golden-brown beach, sunset food stalls and horse rides; best November–February.",
+      "lat": 22.83,
+      "lng": 69.35,
+      "tripTypes": [
+        "beaches",
+        "heritage"
+      ],
+      "sections": {
+        "overview": {
+          "text": "Mandvi lies 58 km southwest of Bhuj, where the Rukmavati river meets the Gulf of Kutch. The Maharao of Kutch founded it as a port, and the Kharva families, famed for building wooden ships, lived inside its fortified walls. Its golden-brown beach comes alive at sunset with snack stalls and horse rides; November to February is the best time to visit.",
+          "facts": [
+            "GMV1",
+            "GMV2"
+          ]
+        },
+        "things_to_do": {
+          "items": [
+            {
+              "body": "Watch the sunset from the beach."
+            },
+            {
+              "body": "Eat at the beach food stalls."
+            },
+            {
+              "body": "Take a horse ride on the sand."
+            }
+          ],
+          "facts": [
+            "GMV2"
+          ]
+        }
+      },
+      "displayMode": "parent_section"
+    }
+  ],
+  "itineraries": [],
+  "guides": []
+}

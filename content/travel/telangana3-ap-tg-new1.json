@@ -1,0 +1,3900 @@
+{
+  "cluster": "at-new-1",
+  "title": "Andhra Pradesh & Telangana: new destinations (pass 1)",
+  "researchedAt": "2026-11-26",
+  "selection": "Andhra Pradesh and Telangana destinations missing from the site, each with a licensed photo: towns (Vikarabad, Bhadrachalam, Medak, Rajahmundry, Kurnool, Puttaparthi, Maredumilli), temples, forts, palaces, caves and waterfalls. Sourced from Telangana Tourism, Incredible India and Wikipedia.",
+  "sources": {
+    "TG_VKB": {
+      "url": "https://tourism.telangana.gov.in/destinations/vikarabad",
+      "title": "Vikarabad — Telangana Tourism (Government of Telangana)",
+      "authority": "government"
+    },
+    "TG_BHD": {
+      "url": "https://tourism.telangana.gov.in/destinations/bhadradri-kothagudem-districtbhadradri-kothagudem-district",
+      "title": "Bhadradri Kothagudem district — Telangana Tourism (Government of Telangana)",
+      "authority": "government"
+    },
+    "TG_YAD": {
+      "url": "https://tourism.telangana.gov.in/destinations/yadadri-bhuvanagiri",
+      "title": "Yadadri Bhuvanagiri district — Telangana Tourism (Government of Telangana)",
+      "authority": "government"
+    },
+    "TG_NLG": {
+      "url": "https://tourism.telangana.gov.in/destinations/nalgonda",
+      "title": "Nalgonda — Telangana Tourism (Government of Telangana)",
+      "authority": "government"
+    },
+    "W_NSD": {
+      "url": "https://en.wikipedia.org/wiki/Nagarjuna_Sagar_Dam",
+      "title": "Nagarjuna Sagar Dam — Wikipedia",
+      "authority": "reference"
+    },
+    "TG_MDK": {
+      "url": "https://tourism.telangana.gov.in/destinations/medak",
+      "title": "Medak — Telangana Tourism (Government of Telangana)",
+      "authority": "government"
+    },
+    "TG_FAL": {
+      "url": "https://tourism.telangana.gov.in/attractions/falaknuma-palace",
+      "title": "Falaknuma Palace — Telangana Tourism (Government of Telangana)",
+      "authority": "government"
+    },
+    "TG_CHO": {
+      "url": "https://tourism.telangana.gov.in/attractions/chowmahalla-palace",
+      "title": "Chowmahalla Palace — Telangana Tourism (Government of Telangana)",
+      "authority": "government"
+    },
+    "W_CHO": {
+      "url": "https://en.wikipedia.org/wiki/Chowmahalla_Palace",
+      "title": "Chowmahalla Palace — Wikipedia",
+      "authority": "reference"
+    },
+    "TG_QST": {
+      "url": "https://tourism.telangana.gov.in/attractions/qutub-shahi-tombs",
+      "title": "Qutub Shahi Tombs — Telangana Tourism (Government of Telangana)",
+      "authority": "government"
+    },
+    "TG_YAD2": {
+      "url": "https://tourism.telangana.gov.in/destinations/yadadri-bhuvanagiri",
+      "title": "Yadadri Bhuvanagiri district — Telangana Tourism (Government of Telangana)",
+      "authority": "government"
+    },
+    "II_RJY": {
+      "url": "https://www.incredibleindia.gov.in/en/andhra-pradesh/rajahmundry",
+      "title": "Rajahmundry — Incredible India",
+      "authority": "government"
+    },
+    "II_KNL": {
+      "url": "https://www.incredibleindia.gov.in/en/andhra-pradesh/kurnool",
+      "title": "Kurnool — Incredible India",
+      "authority": "government"
+    },
+    "II_ORV": {
+      "url": "https://www.incredibleindia.gov.in/en/andhra-pradesh/kurnool/oravakallu-rock-garden",
+      "title": "Orvakallu Rock Garden — Incredible India",
+      "authority": "government"
+    },
+    "II_KNL2": {
+      "url": "https://www.incredibleindia.gov.in/en/andhra-pradesh/kurnool",
+      "title": "Kurnool — Incredible India",
+      "authority": "government"
+    },
+    "II_PUT": {
+      "url": "https://www.incredibleindia.gov.in/en/andhra-pradesh/anantapur/puttaparthi",
+      "title": "Puttaparthi — Incredible India",
+      "authority": "government"
+    },
+    "II_MAR": {
+      "url": "https://www.incredibleindia.gov.in/en/andhra-pradesh/rajahmundry/maredumilli",
+      "title": "Maredumilli — Incredible India",
+      "authority": "government"
+    },
+    "II_LEP": {
+      "url": "https://www.incredibleindia.gov.in/en/andhra-pradesh/anantapur/lepakshi-temple",
+      "title": "Lepakshi Temple — Incredible India",
+      "authority": "government"
+    },
+    "II_SRI": {
+      "url": "https://www.incredibleindia.gov.in/en/andhra-pradesh/kurnool/srisailam-temple",
+      "title": "Srisailam Temple — Incredible India",
+      "authority": "government"
+    },
+    "W_SRI": {
+      "url": "https://en.wikipedia.org/wiki/Srisailam",
+      "title": "Srisailam — Wikipedia",
+      "authority": "reference"
+    },
+    "II_GTY": {
+      "url": "https://www.incredibleindia.gov.in/en/andhra-pradesh/anantapur/gooty-fort",
+      "title": "Gooty Fort — Incredible India",
+      "authority": "government"
+    },
+    "II_CHG": {
+      "url": "https://www.incredibleindia.gov.in/en/andhra-pradesh/tirupati/chandragiri-fort",
+      "title": "Chandragiri Fort — Incredible India",
+      "authority": "government"
+    },
+    "II_TAL": {
+      "url": "https://www.incredibleindia.gov.in/en/andhra-pradesh/tirupati/talakona-waterfall",
+      "title": "Talakona Waterfall — Incredible India",
+      "authority": "government"
+    },
+    "II_KAI": {
+      "url": "https://www.incredibleindia.gov.in/en/andhra-pradesh/visakhapatnam/kailasagiri",
+      "title": "Kailasagiri — Incredible India",
+      "authority": "government"
+    },
+    "II_KAN": {
+      "url": "https://www.incredibleindia.gov.in/en/andhra-pradesh/chittoor/kanipakam-vinayaka-temple",
+      "title": "Kanipakam Vinayaka Temple — Incredible India",
+      "authority": "government"
+    },
+    "W_GAN": {
+      "url": "https://en.wikipedia.org/wiki/Gandikota",
+      "title": "Gandikota — Wikipedia",
+      "authority": "reference"
+    },
+    "W_BEL": {
+      "url": "https://en.wikipedia.org/wiki/Belum_Caves",
+      "title": "Belum Caves — Wikipedia",
+      "authority": "reference"
+    },
+    "II_KNL3": {
+      "url": "https://www.incredibleindia.gov.in/en/andhra-pradesh/kurnool",
+      "title": "Kurnool — Incredible India",
+      "authority": "government"
+    },
+    "II_KON": {
+      "url": "https://www.incredibleindia.gov.in/en/andhra-pradesh/guntur/kondapalli-fort",
+      "title": "Kondapalli Fort — Incredible India",
+      "authority": "government"
+    }
+  },
+  "facts": {
+    "TVK1": {
+      "place": "telangana/vikarabad",
+      "topic": "TVK1",
+      "claim": "Vikarabad is about 70 km from Hyderabad in the Anantagiri Hills, whose highlight is the Anantha Padmanabha Swamy temple to Vishnu.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "TG_VKB",
+          "quote": "xplore Vikarabad Vikarabad is a charming, scenic town located about 70 kilometers from Hyderabad, nestled in the picturesque hills of the Anantagiri Hills in the state of Telangana."
+        },
+        {
+          "source": "TG_VKB",
+          "quote": "This temple on Ananthagiri hills is dedicated to worship Lord Vishnu. According to Hindu Mythology, Skanda Purana, it is believed that this Sri Anantha Padmanabha Swamy temple was constructed by the rishi Markandeya in the dwapara yuga on Ananthagiri hills."
+        }
+      ]
+    },
+    "TVK2": {
+      "place": "telangana/vikarabad",
+      "topic": "TVK2",
+      "claim": "Activities include moderate treks in the Anantagiri Hills, including to the Bhoolokeshwar Temple, kayaking at Kotpally Reservoir (about 60 km from Hyderabad), camping and birdwatching.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "TG_VKB",
+          "quote": "Trekking in Anantagiri Hills Difficulty Level : Moderate"
+        },
+        {
+          "source": "TG_VKB",
+          "quote": "You can also trek to the Bhoolokeshwar Temple , perched atop the hills, while enjoying the tranquility and fresh air of the forest."
+        },
+        {
+          "source": "TG_VKB",
+          "quote": "Situated about 60 kilometers from Hyderabad, Kotpally Reservoir is a serene spot, perfect for those looking to enjoy a day out surrounded by nature while engaging in some adventure."
+        },
+        {
+          "source": "TG_VKB",
+          "quote": "The area is a haven for birdwatching, where you can spot a variety of species, including migratory birds during the right season."
+        }
+      ]
+    },
+    "TVK3": {
+      "place": "telangana/vikarabad",
+      "topic": "TVK3",
+      "claim": "Local food is Telangana-style: spicy vegetarian curries, Hyderabadi-style biryani and snacks such as mirchi bajji.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "TG_VKB",
+          "quote": "Spicy vegetarian curries and rice-based dishes like Biryani (in the Hyderabadi style) are common. If you're in the mood for street food, look for local snacks like Mirchi Bajji (fried green chilies) and Chili Chicken ."
+        },
+        {
+          "source": "TG_VKB",
+          "quote": "look for local snacks like Mirchi Bajji (fried green chilies)"
+        }
+      ]
+    },
+    "TVK4": {
+      "place": "telangana/vikarabad",
+      "topic": "TVK4",
+      "claim": "The Skanda Purana says the sage Markandeya built the temple; the forests suit eco-tourism, with camping, bonfires and migratory birds in season, and the town makes a weekend or day trip from Hyderabad.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "TG_VKB",
+          "quote": "it is believed that this Sri Anantha Padmanabha Swamy temple was constructed by the rishi Markandeya"
+        },
+        {
+          "source": "TG_VKB",
+          "quote": "make it a great spot for eco-tourism"
+        },
+        {
+          "source": "TG_VKB",
+          "quote": "where you can set up tents, enjoy a bonfire under the stars"
+        },
+        {
+          "source": "TG_VKB",
+          "quote": "makes it perfect for a peaceful weekend or a day trip from Hyderabad"
+        }
+      ]
+    },
+    "TBH1": {
+      "place": "telangana/bhadrachalam",
+      "topic": "TBH1",
+      "claim": "Bhadrachalam is a pilgrimage town on the Godavari, home to the Sri Seetha Ramachandra Swamy Devasthanam, a temple to Rama that draws devotees in lakhs.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "TG_BHD",
+          "quote": "The temple town of Bhadrachalam is situated on the banks of Godavari River. The town shares its historical significance with Ramayana Era."
+        },
+        {
+          "source": "TG_BHD",
+          "quote": "Sri Seetha Ramachandra Swamy Devasthanam A sacred place that attracts lakhs of devotees from all over the world, it is the abode of Lord Rama (The seventh incarnation of Sri Mahavishnu)."
+        }
+      ]
+    },
+    "TBH2": {
+      "place": "telangana/bhadrachalam",
+      "topic": "TBH2",
+      "claim": "Tradition places Rama, Sita and Lakshmana's forest exile here, and Parnashala, linked to the golden deer and Sita's abduction, is nearby.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "TG_BHD",
+          "quote": "This coherent hill place existed in “Dandakaranya” of Ramayana period where Rama with his consort Sita and brother Laxmana had spent their vanavasa and Parnashaala (the place connected to the famous Golden Deer and the place from where Sita was abducted by Ravana.) is also in the vicinity of this temple site."
+        },
+        {
+          "source": "TG_BHD",
+          "quote": "is also in the vicinity of this temple site."
+        }
+      ]
+    },
+    "TBH3": {
+      "place": "telangana/bhadrachalam",
+      "topic": "TBH3",
+      "claim": "Kinnerasani Wildlife Sanctuary, 12 km from Palvancha, covers 635.4 sq km with leopards, spotted deer and gaur.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "TG_BHD",
+          "quote": "Kinnerasani Wildlife Sanctuary The Kinnerasani Wildlife Sanctuary is located at a distance of 12 kilometers away from Palvancha town. The wildlife sanctuary covers an area of 635.4 square kilometers and is home to a rich wildlife, including leopards, spotted deer and gaurs, besides different bird species."
+        },
+        {
+          "source": "TG_BHD",
+          "quote": "The wildlife sanctuary covers an area of 635.4 square kilometers and is home to a rich wildlife, including leopards, spotted deer and gaurs, besides different bird species."
+        }
+      ]
+    },
+    "TBH4": {
+      "place": "telangana/bhadrachalam",
+      "topic": "TBH4",
+      "claim": "The district borders Andhra Pradesh and Chhattisgarh; the name Bhadrachalam comes from Bhadragiri, the hill of Bhadra, encircled by the Godavari.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "TG_BHD",
+          "quote": "the states of AP and Chhattisgarh"
+        },
+        {
+          "source": "TG_BHD",
+          "quote": "the name derived from Bhadragiri"
+        },
+        {
+          "source": "TG_BHD",
+          "quote": "The hillock is encircled by holy river Godavari"
+        }
+      ]
+    },
+    "TYG1": {
+      "place": "telangana/yadagirigutta",
+      "topic": "TYG1",
+      "claim": "Yadagirigutta, visited by thousands of pilgrims daily, is the hill shrine of Lakshmi Narasimha, worshipped here in five forms as a Pancharama Narasimha Kshetra.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "TG_YAD",
+          "quote": "The place is visited by thousands of pilgrims every day. According to the Hindu scriptures or Puranas of the Third Age, there was a sage named Yadarshi, who was the son of the great sage Sri Rishyasringa Maharshi and Santa Devi."
+        },
+        {
+          "source": "TG_YAD",
+          "quote": "The Swami himself manifested himself in five different forms as Sri Jwala Narasimha, Sri Gandabherunda, Sri Yogananda, Sri Ugra and Sri Lakshminarasimha after Swami and is therefore worshiped as the Pancharama Narasimha Kshetra."
+        }
+      ]
+    },
+    "TYG2": {
+      "place": "telangana/yadagirigutta",
+      "topic": "TYG2",
+      "claim": "Legend says Narasimha appeared to the sage Yadarshi, son of Rishyasringa, who meditated in a cave here.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "TG_YAD",
+          "quote": "According to the Hindu scriptures or Puranas of the Third Age, there was a sage named Yadarshi, who was the son of the great sage Sri Rishyasringa Maharshi and Santa Devi."
+        },
+        {
+          "source": "TG_YAD",
+          "quote": "Sri Narasimha Swami appeared before him, pleased with his devotion. The Swami himself manifested himself in five different forms as Sri Jwala Narasimha, Sri Gandabherunda, Sri Yogananda, Sri Ugra and Sri Lakshminarasimha after Swami and is therefore worshiped as the Pancharama Narasimha Kshetra."
+        }
+      ]
+    },
+    "TYG3": {
+      "place": "telangana/yadagirigutta",
+      "topic": "TYG3",
+      "claim": "Near Yadagirigutta is Surendrapuri, a temple-art complex with scenes from the epics and replicas of major temples; it takes about two hours.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "TG_YAD",
+          "quote": "Surendrapuri The Surendrapuri Hanumadeswarar Temple located near Yadagirigutta is a must visit place. Kunda Satyanarayana Kaladhamaya is a Hindu temple art exhibition temple."
+        },
+        {
+          "source": "TG_YAD",
+          "quote": "It takes around two hours to explore the place."
+        }
+      ]
+    },
+    "TYG4": {
+      "place": "telangana/yadagirigutta",
+      "topic": "TYG4",
+      "claim": "Narasimha is said to have appeared in five forms, Jwala, Gandabherunda, Yogananda, Ugra and Lakshminarasimha; the place enjoys a pleasant climate in all seasons; Surendrapuri has scenes from the Mahabharata and Bhagavatam and a huge Shiva statue.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "TG_YAD",
+          "quote": "manifested himself in five different forms as Sri Jwala Narasimha, Sri Gandabherunda, Sri Yogananda, Sri Ugra and Sri Lakshminarasimha"
+        },
+        {
+          "source": "TG_YAD",
+          "quote": "enjoys a harmonious climate in all seasons"
+        },
+        {
+          "source": "TG_YAD",
+          "quote": "The scenes in the epics of Mahabharata and Bhagavatam are impressive. The temple has a huge statue of Lord Shiva."
+        },
+        {
+          "source": "TG_YAD",
+          "quote": "The temple has a huge statue of Lord Shiva. Here are the prototypes of major temples around the country."
+        }
+      ]
+    },
+    "TBF1": {
+      "place": "telangana/bhongir-fort",
+      "topic": "TBF1",
+      "claim": "Bhongir (Bhuvanagiri) Fort stands on a monolithic rock about 47 km from Hyderabad; tradition credits its founding to the Western Chalukya king Tribhuvanamalla Vikramaditya VI, after whom it was called Tribhuvanagiri.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "TG_YAD",
+          "quote": "Bhuvanagiri Fort Bhuvanagiri Fort is an ancient monument built on a monolithic rock fortress, about 47 km from the city of Hyderabad. The hill is 610 meters high and is the tallest mountain in Telangana."
+        },
+        {
+          "source": "TG_YAD",
+          "quote": "It is believed that the western Chalukya ruler Tribuvanamalla Vikramadithya – VI got the fort at this place constructed which was named after him as Tribhuvanagiri."
+        }
+      ]
+    },
+    "TBF2": {
+      "place": "telangana/bhongir-fort",
+      "topic": "TBF2",
+      "claim": "The fort is associated with Rudramadevi and Prataparudra; its gateway resembles Golconda's Fateh Darwaza, and inside are granaries, military quarters and a Shiva temple.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "TG_YAD",
+          "quote": "The fort is associated with the rule of the Kakatiya queen Rudramadevi and her Grandson Prataparudhra. Yadagirigutta Yadagirigutta is a unique and pleasant place that enjoys a harmonious climate in all seasons."
+        },
+        {
+          "source": "TG_YAD",
+          "quote": "The entrance resembles that of Fateh Darwaza, the first gate of Balahisar in Golconda Fort. Tall walls and spacious rooms are visible in the architecture of Islamic culture."
+        },
+        {
+          "source": "TG_YAD",
+          "quote": "The inner courtyards of the fort include horseshoes, granaries and military houses. There is a Shiva temple on the hill of Bhuvanagiri, a statue of the black Nandi, Someshwara, Bammadevara temple and a monastery under the hill."
+        },
+        {
+          "source": "TG_YAD",
+          "quote": "There is a Shiva temple on the hill of Bhuvanagiri, a statue of the black Nandi, Someshwara, Bammadevara temple and a monastery under the hill."
+        }
+      ]
+    },
+    "TBF3": {
+      "place": "telangana/bhongir-fort",
+      "topic": "TBF3",
+      "claim": "From the south the rock looks like a tortoise and from the west like a sleeping elephant; the fort was long ruled by the Qutb Shahis, and a black Nandi statue stands on the hill.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "TG_YAD",
+          "quote": "from the south it looks like a tortoise and a sleeping elephant from the west"
+        },
+        {
+          "source": "TG_YAD",
+          "quote": "Bhuvanagiri Fort was a long time ruled by Qutub Shahi. Historians claim that the coins of the Vishnu Kundi period were found here."
+        },
+        {
+          "source": "TG_YAD",
+          "quote": "a statue of the black Nandi"
+        }
+      ]
+    },
+    "TNS1": {
+      "place": "telangana/nagarjuna-sagar",
+      "topic": "TNS1",
+      "claim": "Nagarjuna Sagar Dam, 124 m high, holds back the Krishna in Nalgonda district and irrigates the lands that earn the region the name 'Rice Bowl of India'.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "TG_NLG",
+          "quote": "Nagarjuna Sagar Dam Telangana owes its famous title ‘Rice Bowl of India’ to Nagarjuna Sagar Dam, which plays a lead role in making the lands of the state fertile."
+        },
+        {
+          "source": "TG_NLG",
+          "quote": "The 124-meter-high dam"
+        },
+        {
+          "source": "TG_NLG",
+          "quote": "storing massive amount of the waters of Krishna River"
+        }
+      ]
+    },
+    "TNS2": {
+      "place": "telangana/nagarjuna-sagar",
+      "topic": "TNS2",
+      "claim": "Nandikonda, beside the dam, was part of the Ikshvaku kingdom; Buddhist pillared halls and monasteries were unearthed there and the relics are shown in the museum.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "TG_NLG",
+          "quote": "Nandikonda Nandikonda is a small village located along the banks of Krishna River in Nalgonda district. It is located close to the magnificent Nagarjuna Sagar dam."
+        },
+        {
+          "source": "TG_NLG",
+          "quote": "Nandikonda was part of the Ikshvaku Dynasty and the village shot into prominence after scores of ancient Buddhist structures like pillared halls and monasteries were unearthed."
+        },
+        {
+          "source": "TG_NLG",
+          "quote": "The relics that were unearthed during a series of excavations are today displayed at the Museum here. Rachakonda Fort Telangana region is the home of the incredible Rachakonda Fort."
+        }
+      ]
+    },
+    "TNS4": {
+      "place": "telangana/nagarjuna-sagar",
+      "topic": "TNS4",
+      "claim": "Built between 1955 and 1967, the dam is 1.6 km long with 26 flood gates and straddles the Telangana–Andhra Pradesh border; Nehru inaugurated construction on 10 December 1955, and the project is jointly operated by both states.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "W_NSD",
+          "quote": "Constructed between 1955 and 1967, the dam created a water reservoir with gross storage capacity of 11.472 billion cubic metres (405.1×10^9 cu ft), its effective capacity is 6.92 cubic km or 244.41 Tmcft."
+        },
+        {
+          "source": "W_NSD",
+          "quote": "1.6 kilometres (5,200 ft) long with 26 flood gates"
+        },
+        {
+          "source": "W_NSD",
+          "quote": "The project's construction was officially inaugurated by Prime Minister Jawaharlal Nehru on 10 December 1955 and proceeded for the next twelve years."
+        },
+        {
+          "source": "W_NSD",
+          "quote": "It is jointly operated by Andhra Pradesh and Telangana. Nagarjuna Sagar Dam was the first in a series of major infrastructure projects termed as \"modern temples\" initiated for achieving the Green Revolution in India."
+        }
+      ]
+    },
+    "TNS3": {
+      "place": "telangana/nagarjuna-sagar",
+      "topic": "TNS3",
+      "claim": "Scores of ancient Buddhist structures, such as pillared halls and monasteries, were unearthed at Nandikonda.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "TG_NLG",
+          "quote": "Nandikonda was part of the Ikshvaku Dynasty and the village shot into prominence after scores of ancient Buddhist structures like pillared halls and monasteries were unearthed."
+        }
+      ]
+    },
+    "TMD1": {
+      "place": "telangana/medak",
+      "topic": "TMD1",
+      "claim": "Medak, once called Methukudurgam, passed from the Kakatiyas and Bahmanis to the Golconda kings, the Mughals and the Nizams.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "TG_MDK",
+          "quote": "Medak was originally known as Methukudurgam which subsequently changed into Methuku due to the growth of fine and coarse rice in this area."
+        },
+        {
+          "source": "TG_MDK",
+          "quote": "Medak district was part of the Kakatiya Kingdom as well as Bahmani Kingdom and later the Golconda Nawabs. Finally, with the fall of the Qutub shahi dynasty, it was annexed to the Mughal Empire."
+        },
+        {
+          "source": "TG_MDK",
+          "quote": "due to the growth of fine and coarse rice in this area"
+        },
+        {
+          "source": "TG_MDK",
+          "quote": "Several coins of the Satavahana rulers"
+        }
+      ]
+    },
+    "TMD2": {
+      "place": "telangana/medak",
+      "topic": "TMD2",
+      "claim": "Medak's hill fort, begun by the Kakatiyas and developed by the Qutb Shahis, rises about 90 m above the plains in tiers of walls and keeps a 10-foot Dutch brass gun.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "TG_MDK",
+          "quote": "Hill Fort (Built by Rajas of Warangal) The fort at Medak was originally constructed by the Kakatiya rulers and later developed by the Qutb Shahi rulers. The fort which stands about 90 meters above the surrounding plains is one of the important hill forts in the Deccan region."
+        },
+        {
+          "source": "TG_MDK",
+          "quote": "The fort which stands about 90 meters above the surrounding plains is one of the important hill forts in the Deccan region."
+        },
+        {
+          "source": "TG_MDK",
+          "quote": "Inside the fort, a Dutch-made 10 feet long brass gun was placed. Old Mosque Komtoor village is located at a distance of 10 km from Medak Town."
+        }
+      ]
+    },
+    "TMD3": {
+      "place": "telangana/medak",
+      "topic": "TMD3",
+      "claim": "Other sights include the Qutb Shahi mosque at Komtoor (10 km), the Kuchadri Venkateswara temple, Medak Cathedral, Pocharam Wildlife Sanctuary and Edupayala temple.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "TG_MDK",
+          "quote": "Old Mosque Komtoor village is located at a distance of 10 km from Medak Town. There is a Qutb Shahi Mosque here which has been constructed on the outskirts of the village."
+        },
+        {
+          "source": "TG_MDK",
+          "quote": "Medak Cathedral Church"
+        },
+        {
+          "source": "TG_MDK",
+          "quote": "Pocharam Wildlife Sanctuary"
+        },
+        {
+          "source": "TG_MDK",
+          "quote": "Edupayala Temple"
+        }
+      ]
+    },
+    "TMD1B": {
+      "place": "telangana/medak",
+      "topic": "TMD1B",
+      "claim": "Medak, once called Methukudurgam, passed from the Kakatiyas and Bahmanis to the Golconda kings, the Mughals and the Nizams.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "TG_MDK",
+          "quote": "the district has been influenced by Hinduism, Christianity, Islam and even Buddhism"
+        }
+      ]
+    },
+    "TFP1": {
+      "place": "telangana/falaknuma-palace",
+      "topic": "TFP1",
+      "claim": "Falaknuma Palace stands on a hillock about 5 km from Charminar; built for the Paigah family and later the Nizam's, its name means 'like the sky' or 'mirror of the sky'.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "TG_FAL",
+          "quote": "merely 5 kilometres from Hyderabad's iconic Charminar"
+        },
+        {
+          "source": "TG_FAL",
+          "quote": "It was once the pride of the Paigah family and later cherished by the Nizam of Hyderabad. The palace name \"Falaknuma\" means \"like the sky\" or \"mirror of the sky\" in Urdu - a true embodiment of its celestial title."
+        },
+        {
+          "source": "TG_FAL",
+          "quote": "The palace name \"Falaknuma\" means \"like the sky\" or \"mirror of the sky\" in Urdu - a true embodiment of its celestial title."
+        }
+      ]
+    },
+    "TFP2": {
+      "place": "telangana/falaknuma-palace",
+      "topic": "TFP2",
+      "claim": "Designed by the English architect William Ward Marret in Italian marble, it is shaped like a scorpion and holds a 2-ton manually operated organ in the ballroom.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "TG_FAL",
+          "quote": "The English architect William Ward Marret conceived the palace, a marvel sculpted entirely from Italian marble. It is adorned with captivating stained-glass windows that bestow a magical aura upon its majestic exterior."
+        },
+        {
+          "source": "TG_FAL",
+          "quote": "The palace resembles the shape of a scorpion, with two wing-like structures extending from the north."
+        },
+        {
+          "source": "TG_FAL",
+          "quote": "The palace also houses hidden treasures, such as a unique, manually operated organ that weighs 2 tons and graces the Ballroom."
+        }
+      ]
+    },
+    "TFP3": {
+      "place": "telangana/falaknuma-palace",
+      "topic": "TFP3",
+      "claim": "Private to the Nizam's family for nearly a century, it was restored over nearly a decade from 2000 by about 1,000 artisans and is now a heritage hotel.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "TG_FAL",
+          "quote": "For nearly a century, Falaknuma Palace remained a private sanctuary of the Nizam family, shielded from the public eye until the dawn of the millennium."
+        },
+        {
+          "source": "TG_FAL",
+          "quote": "With the dedication of nearly 1,000 skilled artisans labouring tirelessly for nearly a decade, the palace was lovingly restored to its former magnificence."
+        },
+        {
+          "source": "TG_FAL",
+          "quote": "Today, Falaknuma Palace is a magnificent heritage hotel covering an impressive 93,970 square meters."
+        }
+      ]
+    },
+    "TFP4": {
+      "place": "telangana/falaknuma-palace",
+      "topic": "TFP4",
+      "claim": "Inside are frescoed and gilded ceilings in the State Reception Room, stained-glass windows, a library of English, Urdu and Persian books, Venetian chandeliers and a billiards room.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "TG_FAL",
+          "quote": "It is adorned with captivating stained-glass windows"
+        },
+        {
+          "source": "TG_FAL",
+          "quote": "where frescoes and gilded reliefs grace the ceiling"
+        },
+        {
+          "source": "TG_FAL",
+          "quote": "a vast collection of books in English, Urdu, and Persian"
+        },
+        {
+          "source": "TG_FAL",
+          "quote": "including famed Venetian chandeliers and the magnificent billiards room"
+        }
+      ]
+    },
+    "TCM1": {
+      "place": "telangana/chowmahalla-palace",
+      "topic": "TCM1",
+      "claim": "Chowmahalla Palace near Charminar was the seat of the Asaf Jahi dynasty and the Nizams' official residence; it is now a museum still owned by the family.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "TG_CHO",
+          "quote": "Chowmahalla Palace, a splendid architectural masterpiece that was once the seat of the Nizams of Hyderabad"
+        },
+        {
+          "source": "W_CHO",
+          "quote": "It was the seat of power of the Asaf Jahi dynasty (1720–1948) and was the official residence of the Nizams during their reign."
+        },
+        {
+          "source": "W_CHO",
+          "quote": "The palace has been converted into a museum and the ownership still lies with the family. The palace was constructed at the location of an earlier palace of the Qutb Shahi dynasty and Asaf Jahi dynasty close to the Charminar."
+        }
+      ]
+    },
+    "TCM2": {
+      "place": "telangana/chowmahalla-palace",
+      "topic": "TCM2",
+      "claim": "Its name means 'four palaces'; the southern courtyard has four neoclassical palaces around a pond, and the Khilwat Mubarak durbar hall has a marble platform for the royal seat and 19 Belgian-crystal chandeliers.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "W_CHO",
+          "quote": "The word chār or chahār, and its variation chow, means \"four\" and the word mahal means \"palace\" in Urdu, Hindi and Persian."
+        },
+        {
+          "source": "W_CHO",
+          "quote": "== Southern courtyard == This is the oldest part of the palace, consisting of four palaces: Afzal Mahal, Mahtab Mahal, Tahniyat Mahal and Aftab Mahal, built symmetrically opposite each other in Neoclassical style."
+        },
+        {
+          "source": "W_CHO",
+          "quote": "The grand pillared Durbar Hall has a pure marble platform on which the Takht-e-Nishan or the royal seat was laid."
+        },
+        {
+          "source": "W_CHO",
+          "quote": "The 19 chandeliers of Belgian crystal were recently reinstalled to recreate the lost splendour of this regal hall."
+        }
+      ]
+    },
+    "TCM3": {
+      "place": "telangana/chowmahalla-palace",
+      "topic": "TCM3",
+      "claim": "The family opened the restored palace to the public in January 2005; it shows the Nizams' vintage cars, including a Rolls-Royce, and once covered 45 acres, of which 12 remain.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "W_CHO",
+          "quote": "The former Nizam (Barkat Ali Khan Mukarram Jah) and his family decided to restore the Chowmahalla Palace and open it to the public in January 2005."
+        },
+        {
+          "source": "W_CHO",
+          "quote": "The palace also has a collection of vintage cars, including the Rolls-Royce, which the Nizam kings used."
+        },
+        {
+          "source": "W_CHO",
+          "quote": "The palace originally covered 45 acres (180,000 m2), but only 12 acres (49,000 m2) remain today."
+        }
+      ]
+    },
+    "TCM4": {
+      "place": "telangana/chowmahalla-palace",
+      "topic": "TCM4",
+      "claim": "Construction began in the late 18th century; the southern palaces have Ionic and Corinthian columns, while the northern courtyard has Mughal domes and Persian stucco work.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "W_CHO",
+          "quote": "Construction began in the late 18th century and over the decades a synthesis of many architectural styles and influences emerged."
+        },
+        {
+          "source": "W_CHO",
+          "quote": "The columns in the Aftab Mahal and Mehtab Mahal are of Ionic order whereas the Afzal Mahal and Tehniyat Mahal have Corinthian columns. == Northern courtyard == This part has Bara Imam, a long corridor of rooms on the east side facing the central fountain and pool that once housed the administrative wing; and Shishe-Alat, meaning mirror image."
+        },
+        {
+          "source": "W_CHO",
+          "quote": "It has Mughal domes and arches and many Persian elements such as the ornate stucco works that adorn the Khilwat Mubarak."
+        }
+      ]
+    },
+    "TQT1": {
+      "place": "telangana/qutb-shahi-tombs",
+      "topic": "TQT1",
+      "claim": "The Qutb Shahi Tombs, 1 km north of Golconda Fort's Banjara Darwaza, are where the kings of Golconda are buried together, in the Ibrahim Bagh gardens.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "TG_QST",
+          "quote": "They are located one kilometer north of Golconda Fort’s called Banjara Darwaza. They are imposing marvels of architectural excellence that stand as the reminders of the glory of Golconda kings who are buried at the same spot."
+        },
+        {
+          "source": "TG_QST",
+          "quote": "They resemble Persian, Pathan and Hindu architectural styles that makes use of grey granite, with stucco ornamentation and is a one-of-its-kind place in the world where the whole dynasty is buried at a single spot."
+        },
+        {
+          "source": "TG_QST",
+          "quote": "surrounded by landscape gardens called Ibrahim Bagh"
+        }
+      ]
+    },
+    "TQT2": {
+      "place": "telangana/qutb-shahi-tombs",
+      "topic": "TQT2",
+      "claim": "The domed tombs of grey granite with stucco rise from square bases, 9 to 15 m above the terrace, the largest 42.5 m high; their domes were once covered in blue and green tiles.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "TG_QST",
+          "quote": "that makes use of grey granite, with stucco ornamentation"
+        },
+        {
+          "source": "TG_QST",
+          "quote": "Each tomb is of quadrangular shape and rises around 9 to 15 meters above the terrace. The smaller tombs constitute single stories while the larger tombs are seen as two storied."
+        },
+        {
+          "source": "TG_QST",
+          "quote": "magnificent tomb with a height of 42.5 m covered by large dome"
+        },
+        {
+          "source": "TG_QST",
+          "quote": "The domes actually constituted of blue and green tiles, whereas only few pieces exist now. The Qutub Shahi Tombs are surrounded by enchanting minarets and there is magnificent tomb with a height of 42.5 m covered by large dome."
+        }
+      ]
+    },
+    "TQT3": {
+      "place": "telangana/qutb-shahi-tombs",
+      "topic": "TQT3",
+      "claim": "Neglected after the dynasty fell, they were restored under Salar Jung III and are usually visited together with Golconda Fort.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "TG_QST",
+          "quote": "The tombs were neglected after their reign until Salar Jung III took up their restoration works during the early 19th century."
+        },
+        {
+          "source": "TG_QST",
+          "quote": "It is a popular destination in the tourist circuit of Hyderabad and visitors coming to Golconda fort donot miss the tombs, which are marketed as a clubbed destination."
+        }
+      ]
+    },
+    "TQT4": {
+      "place": "telangana/qutb-shahi-tombs",
+      "topic": "TQT4",
+      "claim": "Built by the Qutb Shahis, they are among Hyderabad's oldest monuments, in Persian, Pathan and Hindu styles; smaller tombs are single-storeyed and larger ones two-storeyed.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "TG_QST",
+          "quote": "these tombs are considered to be among the oldest historical monuments of Hyderabad"
+        },
+        {
+          "source": "TG_QST",
+          "quote": "They resemble Persian, Pathan and Hindu architectural styles"
+        },
+        {
+          "source": "TG_QST",
+          "quote": "The smaller tombs constitute single stories while the larger tombs are seen as two storied. The domes actually constituted of blue and green tiles, whereas only few pieces exist now."
+        }
+      ]
+    },
+    "TKJ1": {
+      "place": "telangana/kolanupaka-jain-temple",
+      "topic": "TKJ1",
+      "claim": "Kolanupaka Jain temple, about 77 km from Hyderabad on the Warangal highway, houses idols of Rishabha, Neminath and Mahavira and is said to be over 2,000 years old.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "TG_YAD2",
+          "quote": "The temple houses three idols: one each of Lord Rishabha, Lord Neminath, and Lord Mahaveer. The temple is about 77 km from Hyderabad on the Hyderabad-Warangal Highway."
+        },
+        {
+          "source": "TG_YAD2",
+          "quote": "The temple is about 77 km from Hyderabad on the Hyderabad-Warangal Highway. The Kolanupaka Temple is said to be more than two thousand years old."
+        },
+        {
+          "source": "TG_YAD2",
+          "quote": "The Kolanupaka Temple is said to be more than two thousand years old. In its present form, it is more than eight hundred years old."
+        }
+      ]
+    },
+    "TKJ2": {
+      "place": "telangana/kolanupaka-jain-temple",
+      "topic": "TKJ2",
+      "claim": "Its 130 cm statue of Mahavira is said to be of a single piece of jade; Kulpakji is an important pilgrimage centre for Svetambara Jains of South India.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "TG_YAD2",
+          "quote": "The statue of Lord Mahaveer is 130 centimetres (51 in) tall and is said to be made of a single piece of jade. Idols of Lord Simandar Swami and Mata Padmavati are installed on either side of the main temple."
+        },
+        {
+          "source": "TG_YAD2",
+          "quote": "Kulpakji is an important pilgrimage center for Svetambara Jains of South India. Sri Matsyagiri Lakshmi Narasimha Swamy Temple Devotees consider this temple to be the hill on which Vishnu is worshiped in the form of a fish."
+        }
+      ]
+    },
+    "TKJ3": {
+      "place": "telangana/kolanupaka-jain-temple",
+      "topic": "TKJ3",
+      "claim": "In its present form the temple is over 800 years old; Kolanupaka was an early centre of Jainism, the Adinath idol is known locally as Manikya Deva, and idols of other Tirthankaras, Simandar Swami and Padmavati flank the main shrine.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "TG_YAD2",
+          "quote": "In its present form, it is more than eight hundred years old. It is believed that Jainism was prevalent in Telangana before the 4th century, and Kolanupaka was one of the prominent centres of Jainism from early times."
+        },
+        {
+          "source": "TG_YAD2",
+          "quote": "Kolanupaka was one of the prominent centres of Jainism from early times"
+        },
+        {
+          "source": "TG_YAD2",
+          "quote": "known locally as Manikya Deva"
+        },
+        {
+          "source": "TG_YAD2",
+          "quote": "There are eight idols of the other Tirthankars on both the sides of the main temple. The statue of Lord Mahaveer is 130 centimetres (51 in) tall and is said to be made of a single piece of jade."
+        }
+      ]
+    },
+    "TKJ3B": {
+      "place": "telangana/kolanupaka-jain-temple",
+      "topic": "TKJ3B",
+      "claim": "In its present form the temple is over 800 years old; Kolanupaka was an early centre of Jainism, the Adinath idol is known locally as Manikya Deva, and idols of other Tirthankaras, Simandar Swami and Padmavati flank the main shrine.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "TG_YAD2",
+          "quote": "Idols of Lord Simandar Swami and Mata Padmavati are installed on either side of the main temple. Kulpakji is an important pilgrimage center for Svetambara Jains of South India."
+        }
+      ]
+    },
+    "ARJ1": {
+      "place": "andhra-pradesh/rajahmundry",
+      "topic": "ARJ1",
+      "claim": "Rajahmundry (Rajamahendravaram), on the Godavari, is one of Andhra Pradesh's oldest cities, often called the region's cultural capital and the birthplace of the Telugu language.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_RJY",
+          "quote": "Rajahmundry is one of Andhra Pradesh’s oldest and most culturally vibrant cities. Often regarded as the cultural capital of the region, the city blends literary heritage, riverine landscapes, spiritual landmarks, and a relaxed pace of life."
+        },
+        {
+          "source": "II_RJY",
+          "quote": "Often regarded as the cultural capital of the region, the city blends literary heritage, riverine landscapes, spiritual landmarks, and a relaxed pace of life."
+        },
+        {
+          "source": "II_RJY",
+          "quote": "Known as the birthplace of the Telugu language"
+        }
+      ]
+    },
+    "ARJ2": {
+      "place": "andhra-pradesh/rajahmundry",
+      "topic": "ARJ2",
+      "claim": "Sights include the Godavari rail bridge, the ghats, ISKCON Rajahmundry, the Markandeya temple, Dowleswaram Barrage and boat cruises through the Papi Hills.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_RJY",
+          "quote": "One of the city’s most striking landmarks is the Godavari Rail Bridge , an engineering marvel that stretches across the river and offers stunning views, especially at sunrise and sunset."
+        },
+        {
+          "source": "II_RJY",
+          "quote": "A short drive from the city leads to Dowleswaram Barrage , where the Godavari branches into canals that nourish the fertile delta."
+        },
+        {
+          "source": "II_RJY",
+          "quote": "Nature lovers can explore Papi Hills , a picturesque stretch of forested hills best experienced via a boat cruise on the Godavari."
+        },
+        {
+          "source": "II_RJY",
+          "quote": "The Markandeya Temple , dedicated to Sage Markandeya"
+        }
+      ]
+    },
+    "ARJ3": {
+      "place": "andhra-pradesh/rajahmundry",
+      "topic": "ARJ3",
+      "claim": "October to February is the peak season.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_RJY",
+          "quote": "Best time to visit October to February is the peak season when the weather is pleasantly cool and ideal for sightseeing, outdoor adventures, and cultural exploration."
+        }
+      ]
+    },
+    "ARJ4": {
+      "place": "andhra-pradesh/rajahmundry",
+      "topic": "ARJ4",
+      "claim": "Rajahmundry airport, about 17 km from the centre, has flights to Hyderabad, Chennai and Bangalore; the station is 5 km out with frequent trains; NH216 and buses link Hyderabad, Vijayawada and Visakhapatnam.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_RJY",
+          "quote": "How to Reach By Air: Rajahmundry Airport is the nearest, located about 17 km from Rajahmundry city center. It connects Hyderabad, Chennai, and Bangalore."
+        },
+        {
+          "source": "II_RJY",
+          "quote": "It connects Hyderabad, Chennai, and Bangalore. Taxis and cabs are accessible from the airport to the city center."
+        },
+        {
+          "source": "II_RJY",
+          "quote": "By Rail: Rajahmundry Railway Station 5 km from the city center. Trains from Hyderabad, Vijayawada, Chennai, and Bengaluru run frequently and conveniently."
+        },
+        {
+          "source": "II_RJY",
+          "quote": "By Road: The city is well linked via NH216 and state highways. Buses travel often from Hyderabad, Vijayawada, Visakhapatnam , and other cities."
+        }
+      ]
+    },
+    "ARJ5": {
+      "place": "andhra-pradesh/rajahmundry",
+      "topic": "ARJ5",
+      "claim": "Temples around the city include Draksharamam, Bikkavolu and the Kumararama Bheemeshwara Swamy temple at Samalkot, one of the five Pancharama Kshetras.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_RJY",
+          "quote": "surrounded by revered temples such as Draksharamam, Bikkavolu, Kumararama Bheemeshwara Swamy Temple"
+        },
+        {
+          "source": "II_RJY",
+          "quote": "Kumararama Bheemeshwara Swamy Temple, Samalkot - One of the five Pancharama Kshetras"
+        }
+      ]
+    },
+    "AKN1": {
+      "place": "andhra-pradesh/kurnool",
+      "topic": "AKN1",
+      "claim": "Kurnool, the 'Gateway of Rayalaseema', is overlooked by the Vijayanagara-built Konda Reddy Fort, whose watch tower still stands.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_KNL",
+          "quote": "Often hailed as the \"Gateway of Rayalaseema\""
+        },
+        {
+          "source": "II_KNL",
+          "quote": "The Konda Reddy Fort , a stoic sentinel built by the Vijayanagar Empire"
+        },
+        {
+          "source": "II_KNL",
+          "quote": "still holds a majestic watch tower"
+        }
+      ]
+    },
+    "AKN2": {
+      "place": "andhra-pradesh/kurnool",
+      "topic": "AKN2",
+      "claim": "Nearby are Rollapadu Wildlife Sanctuary (614 sq km, for the Great Indian Bustard), the Belum Caves, Yaganti and Ahobilam temples, Mahanandi, the Ketavaram rock paintings and Orvakal Rock Garden, 20 km away.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_KNL",
+          "quote": "Spread across 614 square kilometers, this sanctuary is a haven for the endangered Great Indian Bustard and Lesser Florican, among other species."
+        },
+        {
+          "source": "II_KNL",
+          "quote": "City with a rich spiritual heritage Kurnool’s spiritual heritage is best witnessed at Yaganti, home to the unique Sri Yagantiswamy Temple dedicated to Lord Shiva."
+        },
+        {
+          "source": "II_KNL",
+          "quote": "Kurnool is also home to the historic Ahobilam Temple, a revered site dedicated to Lord Narasimha."
+        },
+        {
+          "source": "II_KNL",
+          "quote": "Located 20 kilometers from Kurnool, this garden is not only a visual feast but also a geological wonder, offering scenic trails and picnic spots."
+        }
+      ]
+    },
+    "AKN3": {
+      "place": "andhra-pradesh/kurnool",
+      "topic": "AKN3",
+      "claim": "Kurnool's cooking is known for its spice, using plenty of local chillies.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_KNL",
+          "quote": "Culinary journey and local festivities Kurnool’s culinary offerings are robust and rooted in the local agricultural bounty, particularly renowned for its spicy cuisine that makes liberal use of the local chillies."
+        }
+      ]
+    },
+    "AKN4": {
+      "place": "andhra-pradesh/kurnool",
+      "topic": "AKN4",
+      "claim": "The nearest major airport is Hyderabad's Rajiv Gandhi International; Kurnool City is the railway station.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_KNL",
+          "quote": "Nearest Airport : Rajiv Gandhi International Airport (HYD), Hyderabad"
+        },
+        {
+          "source": "II_KNL",
+          "quote": "Kurnool City Railway Station (KRNT)"
+        }
+      ]
+    },
+    "AKN5": {
+      "place": "andhra-pradesh/kurnool",
+      "topic": "AKN5",
+      "claim": "The fort's ramparts carry Persian and Arabic inscriptions and a tunnel once ran under the Tungabhadra; Belum is the subcontinent's second-largest cave system; Yaganti has a single stone image of Shiva and Parvati and Ahobilam worships all nine forms of Narasimha.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_KNL",
+          "quote": "its weathered ramparts a canvas etched with ancient Persian and Arabic inscriptions"
+        },
+        {
+          "source": "II_KNL",
+          "quote": "once housed a tunnel that passed from under the Tungabhadra river"
+        },
+        {
+          "source": "II_KNL",
+          "quote": "the second largest cave system in the Indian subcontinent"
+        },
+        {
+          "source": "II_KNL",
+          "quote": "the temple houses the single stone idol of Shiva and Parvathi fused together"
+        }
+      ]
+    },
+    "AKN5B": {
+      "place": "andhra-pradesh/kurnool",
+      "topic": "AKN5B",
+      "claim": "The fort's ramparts carry Persian and Arabic inscriptions and a tunnel once ran under the Tungabhadra; Belum is the subcontinent's second-largest cave system; Yaganti has a single stone image of Shiva and Parvati and Ahobilam worships all nine forms of Narasimha.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_KNL",
+          "quote": "its worship of all nine forms of Lord Narasimha"
+        }
+      ]
+    },
+    "AOR1": {
+      "place": "andhra-pradesh/orvakal-rock-garden",
+      "topic": "AOR1",
+      "claim": "Orvakal Rock Garden, 20 km from Kurnool, is a park of strange igneous rock formations and pools, with walking trails, picnic spots, camping, rock climbing and photography.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_KNL2",
+          "quote": "Located 20 kilometers from Kurnool, this garden is not only a visual feast but also a geological wonder, offering scenic trails and picnic spots."
+        },
+        {
+          "source": "II_ORV",
+          "quote": "Camping areas allow you the perfect chance to spend a night outside beneath the stars and lose yourself in the peace and quiet of the environment."
+        },
+        {
+          "source": "II_ORV",
+          "quote": "Hanging out at the rock garden Are you an outdoor enthusiast? Challenge yourself with exhilarating rock climbing experiences or embark on invigorating hikes through the park's picturesque terrain."
+        }
+      ]
+    },
+    "AOR2": {
+      "place": "andhra-pradesh/orvakal-rock-garden",
+      "topic": "AOR2",
+      "claim": "Legend says Shiva threw stones from the hills to create the formations; it is open 9 am to 6 pm.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_ORV",
+          "quote": "It is believed that Lord Shiva threw stones from the surrounding hills to create these formations to defend the area from demons. Whether based on myth or reality, the enigma surrounding these rocks gives the location a captivating charm that entices visitors to discover its mysteries and lose themselves in its ethereal atmosphere."
+        },
+        {
+          "source": "II_ORV",
+          "quote": "Opening time - 09:00 AM Closing time - 06:00 PM"
+        }
+      ]
+    },
+    "AOR3": {
+      "place": "andhra-pradesh/orvakal-rock-garden",
+      "topic": "AOR3",
+      "claim": "Igneous rock formations among water bodies, walkways carved through the rock, rock-cut sculptures and cave temples, with birds and butterflies.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_KNL2",
+          "quote": "features igneous rock formations interspersed with tranquil water bodies"
+        },
+        {
+          "source": "II_ORV",
+          "quote": "The complex network of walkways carved out of the rock"
+        },
+        {
+          "source": "II_ORV",
+          "quote": "exquisite rock-cut sculptures depicting scenes from Hindu mythology"
+        },
+        {
+          "source": "II_ORV",
+          "quote": "vibrant butterflies"
+        }
+      ]
+    },
+    "APT1": {
+      "place": "andhra-pradesh/puttaparthi",
+      "topic": "APT1",
+      "claim": "Puttaparthi, in Anantapur district, is believed to be the birthplace of Sathya Sai Baba; his Prasanthi Nilayam ashram, the 'abode of peace', is the heart of the town.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_PUT",
+          "quote": "it is believed to be the place where he was born"
+        },
+        {
+          "source": "II_PUT",
+          "quote": "The Prasanthi Nilayam Ashram, also known as the 'abode of peace,' serves as the spiritual heart of Puttaparthi. The ashram beautifully combines spirituality and nature, and the daily rituals and gatherings are not just ceremonies but a profound expression of devotion that will deeply resonate with your soul."
+        }
+      ]
+    },
+    "APT2": {
+      "place": "andhra-pradesh/puttaparthi",
+      "topic": "APT2",
+      "claim": "Visitors see the Chaitanya Jyoti Museum, the Sri Sathya Sai Space Theatre (planetarium), the Samadhi shrine and the Satyabhama temple; the Chitravathi River flows past.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_PUT",
+          "quote": "The Chaitanya Jyoti Museum offers a glimpse into Baba’s miraculous life, while the Sri Sathya Sai Space Theatre (Planetarium) bridges science and spirituality, showcasing the universe through a spiritual lens."
+        },
+        {
+          "source": "II_PUT",
+          "quote": "the Sri Sathya Sai Space Theatre (Planetarium) bridges science and spirituality"
+        },
+        {
+          "source": "II_PUT",
+          "quote": "Spend some moments at the Samadhi shrine, which is the final resting place of Sri Sathya Sai Baba and unravel his teachings."
+        },
+        {
+          "source": "II_PUT",
+          "quote": "The gentle flow of the Chitravathi River adds to the sanctity of the town, bearing witness to its spiritual tales."
+        }
+      ]
+    },
+    "APT3": {
+      "place": "andhra-pradesh/puttaparthi",
+      "topic": "APT3",
+      "claim": "Best November to February; Penukonda fort, Lepakshi and Jayamangali Blackbuck Reserve are a short drive away.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_PUT",
+          "quote": "The best time to visit Puttaparthi is between November and February"
+        },
+        {
+          "source": "II_PUT",
+          "quote": "The ancient fort of Penukonda, the sculptural grandeur of Lepakshi, and the natural beauty of the Jayamangali Blackbuck Reserve are just a short drive away, providing a range of diverse experiences for you."
+        }
+      ]
+    },
+    "APT4": {
+      "place": "andhra-pradesh/puttaparthi",
+      "topic": "APT4",
+      "claim": "The nearest airport is Bengaluru's Kempegowda International; Anantapur is the nearest railway station listed.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_PUT",
+          "quote": "Nearest Airport : Kempegowda International Airport (BLR)"
+        },
+        {
+          "source": "II_PUT",
+          "quote": "Anantapur Railway Station (ATP)"
+        }
+      ]
+    },
+    "APT5": {
+      "place": "andhra-pradesh/puttaparthi",
+      "topic": "APT5",
+      "claim": "Once called Gollapalli, 'village of cowherds', the name Puttaparthi means 'the township that sprang from anthills'; visitors enter through a gopuram archway.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_PUT",
+          "quote": "Once known as Gollapalli, or the \"village of cowherds\""
+        },
+        {
+          "source": "II_PUT",
+          "quote": "meaning \"the township that sprang from anthills\""
+        },
+        {
+          "source": "II_PUT",
+          "quote": "When you enter Puttaparthi through the Gopuram archway"
+        }
+      ]
+    },
+    "AMD1": {
+      "place": "andhra-pradesh/maredumilli",
+      "topic": "AMD1",
+      "claim": "Maredumilli, about 85 km from Rajahmundry, is a forest village developed for eco-tourism, known for the Jalatharangini, Amruthadhara and Rampa waterfalls.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_MAR",
+          "quote": "Rajahmundry, one of the best places to visit near Maredumilli, is about 85 kilometres from the village. Why is Maredumilli Recommended? Maredumilli in Andhra Pradesh offers a complete tourism experience due to its wide range of offerings."
+        },
+        {
+          "source": "II_MAR",
+          "quote": "that is being developed a spot for eco-tourism by the Forest Department"
+        },
+        {
+          "source": "II_MAR",
+          "quote": "The Jalatharangini, Amruthadhara, and Rampa waterfalls are the most popular attractions of Maredumilli tourism. The Polluru waterfall is another famous tourist attraction, just 65 kilometres from the village."
+        }
+      ]
+    },
+    "AMD2": {
+      "place": "andhra-pradesh/maredumilli",
+      "topic": "AMD2",
+      "claim": "Activities include camping, boating, birdwatching and trekking; the Manyam viewpoint, Bhupathupalem Reservoir (21 km) and Gudisa hill station (40 km) are nearby.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_MAR",
+          "quote": "Apart from checking out well-known places, the popular things to do in Maredumilli include camping, boating, bird watching , etc."
+        },
+        {
+          "source": "II_MAR",
+          "quote": "the Bhupathupalem Reservoir is one of the best places to visit in Maredumilli, just 21 kilometres from the bus stan"
+        },
+        {
+          "source": "II_MAR",
+          "quote": "The famous Gudisa hill station is just 40 kilometres from the eco-tourism project and is often part of the Maredumilli Gudisa sightseeing route."
+        }
+      ]
+    },
+    "AMD3": {
+      "place": "andhra-pradesh/maredumilli",
+      "topic": "AMD3",
+      "claim": "Try bamboo chicken and bamboo biryani, tribal dishes cooked in bamboo stems.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_MAR",
+          "quote": "The two regional food items you must try are bamboo chicken and bamboo biryani ."
+        }
+      ]
+    },
+    "AMD4": {
+      "place": "andhra-pradesh/maredumilli",
+      "topic": "AMD4",
+      "claim": "Best November to February; Rajahmundry has the nearest airport and railway station, and Maredumilli is on the Bhadrachalam–Rajahmundry highway.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_MAR",
+          "quote": "When to Visit? The best time to visit Maredumilli is the winter season, between November to February . Some also refer to the month of June as the Maredumilli best time to visit, apart from winter."
+        },
+        {
+          "source": "II_MAR",
+          "quote": "The Rajahmundry Airport (RJA) is the nearest airport to Maredumilli and features limited domestic flight services from and to other major cities in India."
+        },
+        {
+          "source": "II_MAR",
+          "quote": "By Rail: Rajahmundry Railway Station (RJY) is also the closest railhead to Maredumilli. It features good connectivity with other major cities in India, like Mumbai, Chennai, Vizag, Hyderabad, Vijayawada, Kolkata, etc."
+        },
+        {
+          "source": "II_MAR",
+          "quote": "By Road: Maredumilli is located on the famous Bhadrachalam - Rajahmundry Highway , which gives it an extensive road network."
+        }
+      ]
+    },
+    "AMD5": {
+      "place": "andhra-pradesh/maredumilli",
+      "topic": "AMD5",
+      "claim": "Semi-evergreen forests and undulating plains; Polluru waterfall is 65 km away and the Manyam viewpoint looks over the hills.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_MAR",
+          "quote": "semi-evergreen forests and undulating plains"
+        },
+        {
+          "source": "II_MAR",
+          "quote": "The Polluru waterfall is another famous tourist attraction, just 65 kilometres from the village. Besides this, the Bhupathupalem Reservoir is one of the best places to visit in Maredumilli, just 21 kilometres from the bus stand."
+        },
+        {
+          "source": "II_MAR",
+          "quote": "The Manyam Viewpoint , sometimes called the Maredumilli view point"
+        }
+      ]
+    },
+    "ALP1": {
+      "place": "andhra-pradesh/lepakshi-temple",
+      "topic": "ALP1",
+      "claim": "The Lepakshi (Sri Veerabhadra) Temple is a 16th-century Vijayanagara temple, a centrally protected monument famed for its carvings, frescoes and hanging pillar.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_LEP",
+          "quote": "Dedicated to Lord Veerabhadra, a fierce form of Lord Shiva, this 16th-century marvel flourished under the reign of the Vijayanagara kings. Step within and be mesmerised by the intricate carvings and vibrant frescoes that adorn nearly every surface."
+        },
+        {
+          "source": "II_LEP",
+          "quote": "a centrally protected monument of national importance"
+        },
+        {
+          "source": "II_LEP",
+          "quote": "The famed hanging pillar, defying logic for centuries, is a testament to the architectural genius of its creators."
+        }
+      ]
+    },
+    "ALP2": {
+      "place": "andhra-pradesh/lepakshi-temple",
+      "topic": "ALP2",
+      "claim": "The Natya Mandapa ceiling murals show scenes from the epics and Puranas, including a huge mural of Veerabhadra; the Kalyana Mandapa was left unfinished.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_LEP",
+          "quote": "Prepare to be dazzled by the Natya Mandapa (dance pavilion), the most ornate structure within the temple complex. Its ceilings are adorned with breathtaking murals depicting scenes from the Mahabharata, Ramayana, and Puranas."
+        },
+        {
+          "source": "II_LEP",
+          "quote": "The central masterpiece is a colossal mural of Lord Veerabhadra, possibly the largest in Asia."
+        },
+        {
+          "source": "II_LEP",
+          "quote": "A veil of mystery surrounds the unfinished Kalyana Mandapa, believed to be the celestial wedding venue of Shiva and Parvati."
+        }
+      ]
+    },
+    "ALP3": {
+      "place": "andhra-pradesh/lepakshi-temple",
+      "topic": "ALP3",
+      "claim": "Nearby, a monolithic Nandi 15 feet high and 27 feet long faces the temple's Nagalinga; the temple is open 6 am to 6 pm and the Lepakshi Utsavam is usually around March.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_LEP",
+          "quote": "Standing tall at 15 feet and stretching an impressive 27 feet in length, its perfectly proportioned body is a testament to the exceptional skills of the sculptors."
+        },
+        {
+          "source": "II_LEP",
+          "quote": "the Nandi faces the Nagalingeshwara sculpture housed within the temple"
+        },
+        {
+          "source": "II_LEP",
+          "quote": "Opening time - 06:00 AM Closing time - 06:00 PM"
+        },
+        {
+          "source": "II_LEP",
+          "quote": "the annual Lepakshi Utsavam (usually held around March)"
+        }
+      ]
+    },
+    "ALP4": {
+      "place": "andhra-pradesh/lepakshi-temple",
+      "topic": "ALP4",
+      "claim": "Inside are a footprint said to be Sita's and a seven-hooded serpent sheltering a Shiva linga.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_LEP",
+          "quote": "Then, keep an eye out for a giant footprint engraved in the stone, believed to belong to Sita, consort of Lord Rama."
+        },
+        {
+          "source": "II_LEP",
+          "quote": "Explore the Nagalinga, a powerful Shiva linga sheltered by a seven—hooded snake."
+        }
+      ]
+    },
+    "ALP5": {
+      "place": "andhra-pradesh/lepakshi-temple",
+      "topic": "ALP5",
+      "claim": "Near the Karnataka border, it is counted among the most spectacular Vijayanagara temples; it stands on Kumarasailam, a hill like a tortoise, and holds the only surviving frescoes of its era, with murals from the Mahabharata, Ramayana and Puranas.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_LEP",
+          "quote": "a testament to the temple's proximity to the Karnataka border"
+        },
+        {
+          "source": "II_LEP",
+          "quote": "one of the most spectacular Vijayanagara temples"
+        },
+        {
+          "source": "II_LEP",
+          "quote": "Located atop Kumarasailam, a low—lying hill resembling a tortoise"
+        },
+        {
+          "source": "II_LEP",
+          "quote": "the temple houses the only surviving fresco paintings from this era"
+        }
+      ]
+    },
+    "ALP5B": {
+      "place": "andhra-pradesh/lepakshi-temple",
+      "topic": "ALP5B",
+      "claim": "Near the Karnataka border, it is counted among the most spectacular Vijayanagara temples; it stands on Kumarasailam, a hill like a tortoise, and holds the only surviving frescoes of its era, with murals from the Mahabharata, Ramayana and Puranas.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_LEP",
+          "quote": "murals depicting scenes from the Mahabharata, Ramayana, and Puranas"
+        }
+      ]
+    },
+    "ASR1": {
+      "place": "andhra-pradesh/srisailam",
+      "topic": "ASR1",
+      "claim": "Srisailam, in the Nallamala Hills above the Krishna, is home to the Mallikarjuna temple, one of the 12 Jyotirlingas; the town is both a Jyotirlinga and a Shakti peetha.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_SRI",
+          "quote": "Nestled amidst the picturesque Nallamala Hills of Andhra Pradesh"
+        },
+        {
+          "source": "II_SRI",
+          "quote": "According to Hindu mythology, the temple is one of the 12 Jyotirlingas, divine manifestations of Lord Shiva spread across India."
+        },
+        {
+          "source": "W_SRI",
+          "quote": "The town is classified as both a Jyotirlinga and a Shakta pitha. As of 2001 census of India, Srisailam had a population of 23,257."
+        }
+      ]
+    },
+    "ASR2": {
+      "place": "andhra-pradesh/srisailam",
+      "topic": "ASR2",
+      "claim": "Darshan hours are 6 am to 3.30 pm and 6 pm to 10 pm; Maha Shivaratri is the great festival.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_SRI",
+          "quote": "Opening time - 06:00 AM to 03:30 PM and 06:00 PM to 10:00 PM"
+        },
+        {
+          "source": "II_SRI",
+          "quote": "The annual festival of Maha Shivaratri, celebrated with fervour and grandeur, is a vibrant showcase of traditional music, dance, and rituals, uniting devotees in a spirit of joy and camaraderie."
+        }
+      ]
+    },
+    "ASR3": {
+      "place": "andhra-pradesh/srisailam",
+      "topic": "ASR3",
+      "claim": "Srisailam is 231 km from Hyderabad and 264 km from Vijayawada; the nearest railway station is Markapur Road (about 83 km); roads through the Nallamala forest are closed to traffic from 9 pm to 6 am.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "W_SRI",
+          "quote": "231 kilometres (144 mi) from Hyderabad and 264 kilometres (164 mi) from Vijayawada"
+        },
+        {
+          "source": "W_SRI",
+          "quote": "Rail The nearest railway station is at Markapur Road Railway Station, about 83.1 kilometres from Srisailam. Markapur Road railway station in the South Central Railway zone of the Indian Railways."
+        },
+        {
+          "source": "W_SRI",
+          "quote": "The travel by road is not allowed to Srisailam between 9:00 p.m. to 6:00 a.m. as roads are through Nallamala forests. Rail The nearest railway station is at Markapur Road Railway Station, about 83.1 kilometres from Srisailam."
+        }
+      ]
+    },
+    "ASR4": {
+      "place": "andhra-pradesh/srisailam",
+      "topic": "ASR4",
+      "claim": "Other sights include the Srisailam Dam on the Krishna, Sakshi Ganapati temple, the Akka Mahadevi caves, Pathalaganga and the Chenchu Lakshmi Tribal Museum.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "W_SRI",
+          "quote": "Srisailam Dam which was built over Krishna River is one of the major dams in South India. Nagarjunsagar-Srisailam Tiger Reserve, India's largest tiger reserve is extend over 3500 km2."
+        },
+        {
+          "source": "W_SRI",
+          "quote": "Akka Mahadevi Caves, Pathalaganga, Shikareshwara Temple are few other attractions in this place. Siddi Ramappa Kolanu waterfalls located at Srisailam Half Kilo Meter Distance from Main Temple."
+        },
+        {
+          "source": "II_SRI",
+          "quote": "Chenchu Lakshmi Tribal Museum"
+        }
+      ]
+    },
+    "ASR5": {
+      "place": "andhra-pradesh/srisailam",
+      "topic": "ASR5",
+      "claim": "Millions of pilgrims come each year; legend links it to Shiva's Tandava against Tarakasura and to Markandeya; the temple is Dravidian in style and overlooks the Krishna.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_SRI",
+          "quote": "Every year, millions of pilgrims undertake the arduous journey to Srisailam Temple"
+        },
+        {
+          "source": "II_SRI",
+          "quote": "to quell the arrogance of the demon king Tarakasura"
+        },
+        {
+          "source": "II_SRI",
+          "quote": "The temple is also associated with the epic tale of Markandeya"
+        },
+        {
+          "source": "W_SRI",
+          "quote": "built in a Dravidian style"
+        }
+      ]
+    },
+    "ASR5B": {
+      "place": "andhra-pradesh/srisailam",
+      "topic": "ASR5B",
+      "claim": "Millions of pilgrims come each year; legend links it to Shiva's Tandava against Tarakasura and to Markandeya; the temple is Dravidian in style and overlooks the Krishna.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_SRI",
+          "quote": "overlooking the pristine waters of the Krishna River"
+        }
+      ]
+    },
+    "AGF1": {
+      "place": "andhra-pradesh/gooty-fort",
+      "topic": "AGF1",
+      "claim": "Gooty Fort, a centrally protected monument, is a shell-shaped complex of 15 small forts on hills more than 680 m high; an inscription of Bukkaraya calls it the 'King of Forts'.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_GTY",
+          "quote": "it is a fort complex with 15 small forts inside"
+        },
+        {
+          "source": "II_GTY",
+          "quote": "The fort is also enlisted as one of the centrally protected monuments of national importance. But don't be fooled by the ruins you see before you."
+        },
+        {
+          "source": "II_GTY",
+          "quote": "an inscription of Bukkaraya mentions this place as ‘King of Forts’"
+        },
+        {
+          "source": "II_GTY",
+          "quote": "the steep rocky hills that reach a height of more than 680 metres"
+        }
+      ]
+    },
+    "AGF2": {
+      "place": "andhra-pradesh/gooty-fort",
+      "topic": "AGF2",
+      "claim": "Built up by the Vijayanagara kings and changed by the Marathas, British and Nizams, it has a clifftop pavilion where Morari Rao is said to have played chess, temples, a dargah and 108 wells.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_GTY",
+          "quote": "The fort's current structure is an intriguing blend of architectural styles, starting with the improvised form built by the Vijayanagara kings and later modified by the Marathas, the British, and the Nizams."
+        },
+        {
+          "source": "II_GTY",
+          "quote": "It is said that the Maratha general, Morari Rao, used to play chess here. At the summit of the hill, you'll find a cluster of ancient wells and temples within the fort."
+        },
+        {
+          "source": "II_GTY",
+          "quote": "a remarkable collection of 108 wells"
+        }
+      ]
+    },
+    "AGF3": {
+      "place": "andhra-pradesh/gooty-fort",
+      "topic": "AGF3",
+      "claim": "A paved path climbs from the base; open 9 am to 6 pm, best November to February.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_GTY",
+          "quote": "follow the well-laid paved path that winds its way from the base of the hillock to the summit"
+        },
+        {
+          "source": "II_GTY",
+          "quote": "Opening time - 09:00 AM Closing time - 06:00 PM"
+        },
+        {
+          "source": "II_GTY",
+          "quote": "The best time to visit Gooty Fort is from November to February."
+        }
+      ]
+    },
+    "AGF4": {
+      "place": "andhra-pradesh/gooty-fort",
+      "topic": "AGF4",
+      "claim": "Also called Ravadurg; inside are a granary, gunpowder magazine and rock-cut reservoirs, with temples and a dargah at the summit and spectacular sunsets.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_GTY",
+          "quote": "Often referred to as Ravadurg"
+        },
+        {
+          "source": "II_GTY",
+          "quote": "remnants of a granary and gunpowder magazine, ingeniously carved reservoirs"
+        },
+        {
+          "source": "II_GTY",
+          "quote": "there's even a Dargah within the fort's walls"
+        },
+        {
+          "source": "II_GTY",
+          "quote": "The sunset from this vantage point is nothing short of spectacular"
+        }
+      ]
+    },
+    "ACG1": {
+      "place": "andhra-pradesh/chandragiri-fort",
+      "topic": "ACG1",
+      "claim": "Chandragiri Fort, near Tirupati, covers 25 acres; founded in the 11th century by Yadava rulers, it was fortified by the Vijayanagara Empire in the 15th century.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_CHG",
+          "quote": "It covers an area of 25 acres and is known for its remarkable architecture, historical significance, and stunning surroundings."
+        },
+        {
+          "source": "II_CHG",
+          "quote": "Originally established in the 11th century by the Yadava Naidu rulers of the Yaduvada Nadudu state, it was later fortified by the Vijayanagara Empire in the 15th century. Chandragiri Fort is a symbol of both architectural brilliance and strategic acumen exhibited by its creators."
+        }
+      ]
+    },
+    "ACG2": {
+      "place": "andhra-pradesh/chandragiri-fort",
+      "topic": "ACG2",
+      "claim": "The lower fort's three-storeyed Raja Mahal is now a museum of weapons, sculptures and coins, beside the two-storeyed Rani Mahal; Krishnadevaraya stayed here on pilgrimages to Tirumala.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_CHG",
+          "quote": "Raja Mahal stands tall with its three-storeyed grandeur, now home to a mesmerising museum housing an extraordinary collection of weaponry, sculptures, coins, and historical documents."
+        },
+        {
+          "source": "II_CHG",
+          "quote": "Nearby, Rani Mahal beckons with its charming two-storeyed layout and a touch of pink from its restoration."
+        },
+        {
+          "source": "II_CHG",
+          "quote": "Sri Krishnadevaraya would reside here during his pilgrimages to Tirumala. Additionally, within its major royal rooms is a museum displaying various artifacts dating back to 15th and 16th century stone figures and carvings, offering visitors a fascinating glimpse into Chandragiri's surroundings."
+        }
+      ]
+    },
+    "ACG3": {
+      "place": "andhra-pradesh/chandragiri-fort",
+      "topic": "ACG3",
+      "claim": "Open 10 am to 5 pm; the climb to the upper fort is demanding.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_CHG",
+          "quote": "Opening time - 10:00 AM Closing time - 05:00 PM"
+        },
+        {
+          "source": "II_CHG",
+          "quote": "Although the climb is demanding, the lure of historical ruins and breathtaking scenery promises an adventure of unparalleled wonder."
+        }
+      ]
+    },
+    "ACG4": {
+      "place": "andhra-pradesh/chandragiri-fort",
+      "topic": "ACG4",
+      "claim": "Chandragiri means 'hill of the moon'; Kapilendra Dev took it in 1460; the lower fort is crescent-shaped and the upper fort has ramparts and watchtowers.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_CHG",
+          "quote": "The name Chandragiri, meaning 'hill of the moon,'"
+        },
+        {
+          "source": "II_CHG",
+          "quote": "Odra Gajapati Kapilendra Dev conquered it in 1460, adding another layer of significance to this fortified stronghold."
+        },
+        {
+          "source": "II_CHG",
+          "quote": "the Lower Fort's unique crescent shape"
+        },
+        {
+          "source": "II_CHG",
+          "quote": "awe-inspiring ramparts, watchtowers"
+        }
+      ]
+    },
+    "ATK1": {
+      "place": "andhra-pradesh/talakona-waterfall",
+      "topic": "ATK1",
+      "claim": "Talakona Waterfall plunges about 270 feet into an emerald pool in the Eastern Ghats, part of the Seshachalam Biosphere Reserve.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_TAL",
+          "quote": "its sparkling waters plunging from an incredible height of 270 feet"
+        },
+        {
+          "source": "II_TAL",
+          "quote": "At the base of the waterfall, weary travellers will find a serene pool of emerald-green water, calling them to cool off and recuperate in the cool embrace of nature."
+        },
+        {
+          "source": "II_TAL",
+          "quote": "Talakona is a portion of the Seshachalam Biosphere Reserve, a bigger conservation region that includes a number of national parks and wildlife sanctuaries."
+        }
+      ]
+    },
+    "ATK2": {
+      "place": "andhra-pradesh/talakona-waterfall",
+      "topic": "ATK2",
+      "claim": "The forests offer trekking, rock climbing, rappelling and birdwatching, with rare species such as the Indian giant squirrel and slender loris; open sunrise to sunset.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_TAL",
+          "quote": "Timings Opening time - Sunrise Closing time - Sunset You may enjoy Experience Discovering the culinary delights of Tirupati Bountiful thrills Trekking, rock climbing, rappelling, and birdwatching are just a few of the many outdoor activities that Talakona has to offer adventure lovers."
+        },
+        {
+          "source": "II_TAL",
+          "quote": "uncommon and threatened species like the Indian Giant Squirrel and the Slender Loris"
+        },
+        {
+          "source": "II_TAL",
+          "quote": "Opening time - Sunrise Closing time - Sunset"
+        }
+      ]
+    },
+    "ATK3": {
+      "place": "andhra-pradesh/talakona-waterfall",
+      "topic": "ATK3",
+      "claim": "Mountain streams join to form the fall; legend credits its water with healing powers and says Yakshas guard it; trails lead to hidden caves and viewpoints.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_TAL",
+          "quote": "A number of mountain streams come together to make the waterfall itself"
+        },
+        {
+          "source": "II_TAL",
+          "quote": "Talakona's waters have healing and spiritual energy"
+        },
+        {
+          "source": "II_TAL",
+          "quote": "The mystical creatures known as Yakshas are also thought to defend the waterfall"
+        },
+        {
+          "source": "II_TAL",
+          "quote": "offering visitors access to hidden caverns, panoramic vistas, and remote waterfalls"
+        }
+      ]
+    },
+    "AKG1": {
+      "place": "andhra-pradesh/kailasagiri",
+      "topic": "AKG1",
+      "claim": "Kailasagiri is a hilltop park in Visakhapatnam with sea views, named after Shiva; it was named 'Best Tourist Spot' by the Andhra Pradesh government in 2003.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_KAI",
+          "quote": "Kailasagiri is a place that has earned the title of \"Best Tourist Spot\" by the Government of Andhra Pradesh in 2003. And it's easy to see why! The lush greenery, the cool breeze, and the panoramic views of the ocean make it a paradise for nature lovers and adventure seekers alike."
+        },
+        {
+          "source": "II_KAI",
+          "quote": "The hill is named after Lord Shiva, and there are several temples and shrines dedicated to him throughout the park."
+        }
+      ]
+    },
+    "AKG2": {
+      "place": "andhra-pradesh/kailasagiri",
+      "topic": "AKG2",
+      "claim": "Its landmarks are a 40-foot Shiva-Parvati statue and a 20-foot Shanku Chakra Namam; a ropeway, roads and stairways reach the top, and there are a toy train, the Titanic viewpoint and a floral festival.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_KAI",
+          "quote": "The towering Shiva-Parvati statue, standing at an impressive 40 feet tall, depicts the divine couple in a loving embrace."
+        },
+        {
+          "source": "II_KAI",
+          "quote": "The Shanku Chakra Namam statue, a 20-foot-tall representation of Lord Vishnu's sacred conch shell and discus, exudes a sense of spiritual serenity."
+        },
+        {
+          "source": "II_KAI",
+          "quote": "One unique feature is the ropeway that runs from the base of the hill to Kailasagiri. Kailasagiri offers an unforgettable experience through its ropeway ride."
+        },
+        {
+          "source": "II_KAI",
+          "quote": "The Toy Train, winding its way through the scenic landscape, is a hit with children and adults alike."
+        }
+      ]
+    },
+    "AKG3": {
+      "place": "andhra-pradesh/kailasagiri",
+      "topic": "AKG3",
+      "claim": "Park hours are 10 am to 8 pm; the ropeway runs 11 am to 1 pm and 2 pm to 8 pm.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_KAI",
+          "quote": "Ropeway Timings: 11:00 AM to 01:00 PM and 02:00 PM to 08:00 PM Park Timings: 10:00 AM to 08:00 PM"
+        }
+      ]
+    },
+    "AKG4": {
+      "place": "andhra-pradesh/kailasagiri",
+      "topic": "AKG4",
+      "claim": "VUDA created the park, reached by road, walkway, ropeway and two stairways; it has panoramic ocean views, the Titanic viewpoint, amusement rides and an annual floral festival.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_KAI",
+          "quote": "Development Authority (VUDA) created this wonderful park"
+        },
+        {
+          "source": "II_KAI",
+          "quote": "There are two pedestrian stairways. One unique feature is the ropeway that runs from the base of the hill to Kailasagiri."
+        },
+        {
+          "source": "II_KAI",
+          "quote": "the panoramic views of the ocean"
+        },
+        {
+          "source": "II_KAI",
+          "quote": "The Kailasagiri Floral Festival, held annually"
+        }
+      ]
+    },
+    "AKG4B": {
+      "place": "andhra-pradesh/kailasagiri",
+      "topic": "AKG4B",
+      "claim": "VUDA created the park, reached by road, walkway, ropeway and two stairways; it has panoramic ocean views, the Titanic viewpoint, amusement rides and an annual floral festival.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_KAI",
+          "quote": "The Titanic Viewpoint, modelled after the iconic ship"
+        }
+      ]
+    },
+    "AKP1": {
+      "place": "andhra-pradesh/kanipakam-temple",
+      "topic": "AKP1",
+      "claim": "Kanipakam's Sri Varasidhi Vinayaka Swamy temple in Chittoor district is famous for a self-manifested Ganesha idol that sits in a water-filled well and is believed to grow.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_KAN",
+          "quote": "Sri Varasidhi Vinayaka Swamy Temple, popularly known as Kanipakam Vinayaka Temple, is one of the most revered Ganesha temples in South India. Located in Kanipakam village of Chittoor district in Andhra Pradesh, the temple is famous for its self-manifested (Swayambhu) idol of Lord Ganesha, which is believed by devotees to grow in size over time."
+        },
+        {
+          "source": "II_KAN",
+          "quote": "Even today, the idol remains in the water-filled well, symbolizing the divine presence of Lord Vinayaka."
+        },
+        {
+          "source": "II_KAN",
+          "quote": "which is believed by devotees to grow in size over time"
+        }
+      ]
+    },
+    "AKP2": {
+      "place": "andhra-pradesh/kanipakam-temple",
+      "topic": "AKP2",
+      "claim": "Built in the early 11th century by Kulottunga Chola I and expanded in 1336 under Vijayanagara patronage, it holds 21-day Brahmotsavams from Vinayaka Chavithi.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_KAN",
+          "quote": "Temple History The temple was originally constructed in the early 11th century CE by the Chola Emperor Kulottunga Chola-I. It was later expanded in 1336 CE under the patronage of the Vijayanagara emperors, adding to its architectural and spiritual significance."
+        },
+        {
+          "source": "II_KAN",
+          "quote": "It was later expanded in 1336 CE under the patronage of the Vijayanagara emperors, adding to its architectural and spiritual significance."
+        },
+        {
+          "source": "II_KAN",
+          "quote": "celebrated for 21 days starting from Vinayaka Chavithi"
+        }
+      ]
+    },
+    "AKP3": {
+      "place": "andhra-pradesh/kanipakam-temple",
+      "topic": "AKP3",
+      "claim": "Chittoor railway station and bus stand are about 11–12 km away; Tirupati airport is about 85–90 km.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_KAN",
+          "quote": "You may enjoy Experience Rekindle Your Faith with the South Indian Temple Trail How to Reach By Rail: Chittoor Railway Station — approximately 11–12 km from the temple, with taxis, autos, and buses available for the short onward journey."
+        },
+        {
+          "source": "II_KAN",
+          "quote": "By Air: Tirupati Airport — around 85–90 km from the temple and the closest air gateway."
+        },
+        {
+          "source": "II_KAN",
+          "quote": "By Road: Chittoor Bus Stand — roughly 11 km away, with frequent APSRTC bus services and local transport options."
+        }
+      ]
+    },
+    "AKP4": {
+      "place": "andhra-pradesh/kanipakam-temple",
+      "topic": "AKP4",
+      "claim": "Legend says three brothers, mute, deaf and blind, were healed when they struck the idol digging a well; its base was never found, only the knees and abdomen show, and a silver armour made 50 years ago no longer fits.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_KAN",
+          "quote": "three brothers—one mute, one deaf, and one blind—were digging a well"
+        },
+        {
+          "source": "II_KAN",
+          "quote": "Despite attempts, the base of the idol could never be found. Even today, the idol remains in the water-filled well, symbolizing the divine presence of Lord Vinayaka."
+        },
+        {
+          "source": "II_KAN",
+          "quote": "At present, only the knees and abdomen of the deity are visible above the water. Temple History The temple was originally constructed in the early 11th century CE by the Chola Emperor Kulottunga Chola-I."
+        },
+        {
+          "source": "II_KAN",
+          "quote": "a silver armour made for the deity about 50 years ago no longer fits the idol today"
+        }
+      ]
+    },
+    "AGK1": {
+      "place": "andhra-pradesh/gandikota",
+      "topic": "AGK1",
+      "claim": "Gandikota is a village and fort on the right bank of the Penna, 15 km from Jammalamadugu in Kadapa district; its name comes from the gorge the river cuts through the Erramala hills.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "W_GAN",
+          "quote": "andikota is a village and historical fort on the right bank of the Penna river, 15 km from Jammalamadugu in Kadapa district, Andhra Pradesh, India. The fort was the centre of power for various dynasties, such as the Kalyani Chalukyas, Pemmasani Nayakas, and the Golconda Sultanate."
+        },
+        {
+          "source": "W_GAN",
+          "quote": "The fort of Gandikota acquired its name due to the 'gorge'"
+        }
+      ]
+    },
+    "AGK2": {
+      "place": "andhra-pradesh/gandikota",
+      "topic": "AGK2",
+      "claim": "The fort, an ASI-protected monument, was held by the Kalyani Chalukyas, the Pemmasani Nayakas and the Golconda Sultanate.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "W_GAN",
+          "quote": "The fort was the centre of power for various dynasties, such as the Kalyani Chalukyas, Pemmasani Nayakas, and the Golconda Sultanate. Initially, a sand fort was constructed by Kaka Raja, a vassal of the Kalyani Chalukya rulers."
+        },
+        {
+          "source": "W_GAN",
+          "quote": "The fort is a centrally protected monument of Archaeological Survey of India (ASI). == Etymology == The fort of Gandikota acquired its name due to the 'gorge', formed between the Erramala range of hills, also known as Gandikota hills and the river Penna (Pennar) that flows at its foot, reducing its width to a mere 100 m (look for the river image in the montage/main image)."
+        }
+      ]
+    },
+    "AGK3": {
+      "place": "andhra-pradesh/gandikota",
+      "topic": "AGK3",
+      "claim": "Inside are the ruined Madhava and Ranganatha temples, the Jamia Masjid, a vaulted granary, a pigeon tower and an old cannon; there are camping areas outside the fort and a downhill trek through the canyon to the river.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "W_GAN",
+          "quote": "== Major structures == In the fort are two ancient temples, dedicated to Madhava and Ranganatha. They are in ruins and the fort area is full of the debris of ages and many ancient structures in varying stages of decay."
+        },
+        {
+          "source": "W_GAN",
+          "quote": "The Jamia Masjid has two adjacent minarets. A heritage festival is held every year in the fort area."
+        },
+        {
+          "source": "W_GAN",
+          "quote": "There are multiple camping areas outside the Fort and on the banks of the Penna (Pennar) river."
+        },
+        {
+          "source": "W_GAN",
+          "quote": "There is a good downhill trek through the canyon"
+        }
+      ]
+    },
+    "AGK4": {
+      "place": "andhra-pradesh/gandikota",
+      "topic": "AGK4",
+      "claim": "The nearest railway stations are Muddanuru (26 km) and Jammalamadugu; buses run from Jammalamadugu old bus stand.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "W_GAN",
+          "quote": "== Access and transportation == The nearest railway stations are Muddanuru which is 26 km (railway code: MOO) and Jammalamadugu (JMDG) in Kadapa District. There are number of trains from Gooty Junction."
+        },
+        {
+          "source": "W_GAN",
+          "quote": "There are buses available from Jammalamadugu Old Bus Stand (Gandhi Statue Junction) to Gandikota. Inside the fort there is no means of transportation except to walk by foot."
+        }
+      ]
+    },
+    "AGK5": {
+      "place": "andhra-pradesh/gandikota",
+      "topic": "AGK5",
+      "claim": "The gorge narrows the river to about 100 m; a sand fort was made here in 1123, the site grew under the Pemmasani Nayakas and Muslim rulers added Islamic buildings; inside are a vaulted granary, a pigeon tower and an old cannon.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "W_GAN",
+          "quote": "reducing its width to a mere 100 m"
+        },
+        {
+          "source": "W_GAN",
+          "quote": "made Sand fort in 1123"
+        },
+        {
+          "source": "W_GAN",
+          "quote": "various additions reflecting Islamic architectural styles were made during the period of Muslim rule"
+        },
+        {
+          "source": "W_GAN",
+          "quote": "The large granary, with a vaulted roof"
+        }
+      ]
+    },
+    "AGK5B": {
+      "place": "andhra-pradesh/gandikota",
+      "topic": "AGK5B",
+      "claim": "The gorge narrows the river to about 100 m; a sand fort was made here in 1123, the site grew under the Pemmasani Nayakas and Muslim rulers added Islamic buildings; inside are a vaulted granary, a pigeon tower and an old cannon.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "W_GAN",
+          "quote": "There is an old cannon lying in the fort. There is the 'Rayalacheruvu' with its perennial springs irrigating some lime and plantain gardens."
+        }
+      ]
+    },
+    "ABC1": {
+      "place": "andhra-pradesh/belum-caves",
+      "topic": "ABC1",
+      "claim": "The Belum Caves, a limestone system in Nandyal district, extend 3.23 km and are the second-largest cave network in India.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "W_BEL",
+          "quote": "elum Caves are a limestone cave system located in Nandyal district of Andhra Pradesh, India. Extending over 3.23 km (2.01 mi), it is the second-largest cave network in the country."
+        },
+        {
+          "source": "W_BEL",
+          "quote": "Extending over 3.23 km (2.01 mi), it is the second-largest cave network in the country. Archaeological evidence indicates human activity in the caves as early as 4500 BCE, and the site was later used by Buddhist and Jain ascetics."
+        }
+      ]
+    },
+    "ABC2": {
+      "place": "andhra-pradesh/belum-caves",
+      "topic": "ABC2",
+      "claim": "Evidence of human activity goes back to 4500 BCE, and Buddhist and Jain ascetics later used the caves; they were documented in 1884, protected in 1988 and opened to tourists in 2002.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "W_BEL",
+          "quote": "Archaeological evidence indicates human activity in the caves as early as 4500 BCE, and the site was later used by Buddhist and Jain ascetics. The caves were formed by persistent hyrdological erosion during wetter climatic conditions that existed during the Pre-Pliocene period."
+        },
+        {
+          "source": "W_BEL",
+          "quote": "the caves were first documented in 1884 by British geologist Robert Bruce Foote"
+        },
+        {
+          "source": "W_BEL",
+          "quote": "It was declared as a protected site in 1988 and opened for tourism in 2002. The Geological Survey of India designated them as a Geo-heritage Site in 2025."
+        }
+      ]
+    },
+    "ABC3": {
+      "place": "andhra-pradesh/belum-caves",
+      "topic": "ABC3",
+      "claim": "Inside are stalactites, stalagmites and chambers; the deepest point, Pataalaganga, has a perennial underground stream.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_KNL3",
+          "quote": "showcasing stalactite and stalagmite formations"
+        },
+        {
+          "source": "II_KNL3",
+          "quote": "The deepest point of the caves, known as Pataalaganga"
+        },
+        {
+          "source": "II_KNL3",
+          "quote": "where an underground stream flows perennially"
+        }
+      ]
+    },
+    "ABC4": {
+      "place": "andhra-pradesh/belum-caves",
+      "topic": "ABC4",
+      "claim": "Formed by water erosion, the caves hold sediment from the Chitravathi River and were mapped by a German team in the early 1980s; they lie near Belum village.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "W_BEL",
+          "quote": "The caves were formed by persistent hyrdological erosion"
+        },
+        {
+          "source": "W_BEL",
+          "quote": "sediment deposited by the historical Chitravathi River that once flowed through the cave"
+        },
+        {
+          "source": "W_BEL",
+          "quote": "were systematically mapped in the early 1980s by a German speleological team"
+        },
+        {
+          "source": "W_BEL",
+          "quote": "Belum Caves are located near Belum village"
+        }
+      ]
+    },
+    "AKF1": {
+      "place": "andhra-pradesh/kondapalli-fort",
+      "topic": "AKF1",
+      "claim": "Kondapalli Fort, west of Kondapalli in NTR district, dates from the 14th century and passed from the Reddy kingdom to the Qutb Shahis, the Mughals and the British, who used it as a military training base.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_KON",
+          "quote": "The Kondapalli Fort, also known as Kondapalli Kota or Qila, is a captivating fortress located to the west of Kondapalli in the Ibrahimpatnam mandal of NTR district in Andhra Pradesh. Dating back to the 14th century, this remarkable structure was originally built as a leisure place and business centre, but later transformed into a military training base for the British rulers."
+        },
+        {
+          "source": "II_KON",
+          "quote": "Dating back to the 14th century, this remarkable structure was originally built as a leisure place and business centre, but later transformed into a military training base for the British rulers."
+        },
+        {
+          "source": "II_KON",
+          "quote": "Throughout its storied history, the fort has witnessed the ebb and flow of different empires, passing from the hands of the Reddy Kingdom to the Qutb Shahi rulers, the Mughals, and ultimately the British."
+        }
+      ]
+    },
+    "AKF2": {
+      "place": "andhra-pradesh/kondapalli-fort",
+      "topic": "AKF2",
+      "claim": "Its entrance, the Dargah Darwaja, is cut from a single granite boulder; inside are the Tanisha Mahal and Golconda Darwaza; open 10.30 am to 5 pm.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_KON",
+          "quote": "Begin your journey at the Dargah Darwaja. It is the entrance gate carved from a single, colossal granite boulder. As you step inside, feel the weight of centuries settle upon you as you start exploring."
+        },
+        {
+          "source": "II_KON",
+          "quote": "Have a glimpse of the remnants of the royal court, the Tanisha Mahal. Do visit the Golconda Darwaza and the serene Dargah of Gareeb Saheb, which are places of interest within its vicinity."
+        },
+        {
+          "source": "II_KON",
+          "quote": "Opening time - 10:30 AM Closing time - 05:00 PM"
+        }
+      ]
+    },
+    "AKF3": {
+      "place": "andhra-pradesh/kondapalli-fort",
+      "topic": "AKF3",
+      "claim": "Kondapalli village below is famous for wooden toys handcrafted from local ponuku wood.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_KON",
+          "quote": "The Kondapalli village, nestled at the foot of the fort, is famous for its wooden toys. These vibrantly coloured toys are 100% handcrafted from the local \"ponuku\" wood and are a must-have if you visit here."
+        },
+        {
+          "source": "II_KON",
+          "quote": "These vibrantly coloured toys are 100% handcrafted from the local \"ponuku\" wood and are a must-have if you visit here."
+        }
+      ]
+    },
+    "AKF4": {
+      "place": "andhra-pradesh/kondapalli-fort",
+      "topic": "AKF4",
+      "claim": "First a leisure place and business centre; winding paths climb to stone-and-mortar walls; the Golconda Darwaza and the dargah of Gareeb Saheb are nearby, with views over the Krishna.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_KON",
+          "quote": "originally built as a leisure place and business centre"
+        },
+        {
+          "source": "II_KON",
+          "quote": "The walls of this fort were constructed of stone and mortar"
+        },
+        {
+          "source": "II_KON",
+          "quote": "Do visit the Golconda Darwaza and the serene Dargah of Gareeb Saheb"
+        },
+        {
+          "source": "II_KON",
+          "quote": "Perched atop a hill right beside the Krishna River"
+        }
+      ]
+    }
+  },
+  "places": [
+    {
+      "key": "telangana/vikarabad",
+      "kind": "town",
+      "name": "Vikarabad and Ananthagiri Hills",
+      "parent": "telangana",
+      "summary": "Forested hills 70 km from Hyderabad for treks, kayaking, camping and the Ananthagiri temple.",
+      "seoTitle": "Vikarabad & Ananthagiri Hills: Treks, Kotpally Kayaking, Camping",
+      "seoDescription": "Vikarabad and the Ananthagiri Hills, about 70 km from Hyderabad: forest treks, the Anantha Padmanabha Swamy temple, kayaking at Kotpally and camping.",
+      "lat": 17.31,
+      "lng": 77.86,
+      "tripTypes": [
+        "nature",
+        "adventure",
+        "weekend"
+      ],
+      "sections": {
+        "overview": {
+          "text": "Vikarabad is a small town about 70 km from Hyderabad, set in the forested Anantagiri Hills and popular as a weekend escape from the city. The hills are cool, green and good for trekking, picnics and photography. On them stands the Sri Anantha Padmanabha Swamy temple, dedicated to Vishnu, which the Skanda Purana says was built by the sage Markandeya. The forests around the town are rich in birds and plant life, and Telangana Tourism promotes the area for eco-tourism: moderate treks to the hill temples, kayaking and boating at Kotpally Reservoir, camping with bonfires near the hills, and easy nature walks for birdwatching, including migratory birds in season. It is a relaxed, rural place that suits a day trip or a quiet weekend.",
+          "facts": [
+            "TVK1",
+            "TVK2",
+            "TVK4"
+          ]
+        },
+        "key_facts": {
+          "items": [
+            {
+              "title": "From Hyderabad",
+              "body": "About 70 km",
+              "status": "verified"
+            },
+            {
+              "title": "Hills",
+              "body": "Anantagiri (Ananthagiri) Hills",
+              "status": "verified"
+            },
+            {
+              "title": "Good for",
+              "body": "Trekking, kayaking, camping, birdwatching",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "TVK1",
+            "TVK2"
+          ]
+        },
+        "things_to_do": {
+          "items": [
+            {
+              "body": "Trek the Anantagiri Hills to the Anantha Padmanabha Swamy temple (moderate)."
+            },
+            {
+              "body": "Walk up to the Bhoolokeshwar Temple on the hilltop."
+            },
+            {
+              "body": "Kayak or take a boat out on Kotpally Reservoir."
+            },
+            {
+              "body": "Camp near the hills, or take an easy nature walk for birdwatching."
+            }
+          ],
+          "facts": [
+            "TVK1",
+            "TVK2"
+          ]
+        },
+        "food": {
+          "items": [
+            {
+              "body": "Spicy Telangana vegetarian curries and rice dishes."
+            },
+            {
+              "body": "Hyderabadi-style biryani."
+            },
+            {
+              "body": "Street snacks such as mirchi bajji."
+            }
+          ],
+          "facts": [
+            "TVK3"
+          ]
+        }
+      },
+      "images": [
+        {
+          "commons": "File:Ananthagiri Hills.JPG",
+          "alt": "Forested slopes of the Ananthagiri Hills near Vikarabad under a cloudy sky",
+          "caption": "Ananthagiri Hills, Vikarabad",
+          "hero": true
+        }
+      ]
+    },
+    {
+      "key": "telangana/bhadrachalam",
+      "kind": "town",
+      "name": "Bhadrachalam",
+      "parent": "telangana",
+      "summary": "Temple town on the Godavari, home to the Sri Seetha Ramachandra Swamy temple and linked to the Ramayana.",
+      "seoTitle": "Bhadrachalam: Sita Ramachandra Swamy Temple, Parnashala, Kinnerasani",
+      "seoDescription": "Bhadrachalam on the Godavari: the Sri Seetha Ramachandra Swamy temple, Parnashala of the Ramayana, and Kinnerasani Wildlife Sanctuary nearby.",
+      "lat": 17.67,
+      "lng": 80.89,
+      "tripTypes": [
+        "spiritual",
+        "nature"
+      ],
+      "sections": {
+        "overview": {
+          "text": "Bhadrachalam is a temple town on the banks of the Godavari in Bhadradri Kothagudem district, which borders Andhra Pradesh and Chhattisgarh. Its Sri Seetha Ramachandra Swamy Devasthanam, dedicated to Rama, draws devotees in lakhs. The name comes from Bhadragiri, the hill of Bhadra, around which the river flows. Tradition holds that this was part of Dandakaranya, the forest where Rama, Sita and Lakshmana spent their exile, and Parnashala, the place associated with the golden deer and Sita's abduction by Ravana, is close to the temple. Nature lovers can add Kinnerasani Wildlife Sanctuary, 12 km from Palvancha, a 635.4 sq km stretch of the Dandakaranya forests with leopards, spotted deer, gaur and many birds.",
+          "facts": [
+            "TBH1",
+            "TBH2",
+            "TBH3",
+            "TBH4"
+          ]
+        },
+        "key_facts": {
+          "items": [
+            {
+              "title": "River",
+              "body": "Godavari",
+              "status": "verified"
+            },
+            {
+              "title": "Main temple",
+              "body": "Sri Seetha Ramachandra Swamy Devasthanam",
+              "status": "verified"
+            },
+            {
+              "title": "Nearby",
+              "body": "Parnashala; Kinnerasani Wildlife Sanctuary",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "TBH1",
+            "TBH2",
+            "TBH3"
+          ]
+        },
+        "things_to_do": {
+          "items": [
+            {
+              "body": "Darshan at the Sri Seetha Ramachandra Swamy temple."
+            },
+            {
+              "body": "Visit Parnashala, linked to the Ramayana's golden deer episode."
+            },
+            {
+              "body": "Spot leopards, deer and gaur at Kinnerasani Wildlife Sanctuary near Palvancha."
+            }
+          ],
+          "facts": [
+            "TBH1",
+            "TBH2",
+            "TBH3"
+          ]
+        }
+      },
+      "images": [
+        {
+          "commons": "File:Sri sita rama temple bhadrachalam full view.jpg",
+          "alt": "The gopuram and temple complex of the Sri Sita Ramachandra Swamy temple at Bhadrachalam",
+          "caption": "Sri Sita Ramachandra Swamy temple, Bhadrachalam",
+          "hero": true
+        }
+      ]
+    },
+    {
+      "key": "telangana/yadagirigutta",
+      "kind": "temple",
+      "name": "Yadagirigutta (Yadadri) Lakshmi Narasimha Temple",
+      "parent": "telangana",
+      "summary": "Hilltop Lakshmi Narasimha shrine visited by thousands of pilgrims every day.",
+      "seoTitle": "Yadagirigutta (Yadadri) Temple: Lakshmi Narasimha Shrine, Telangana",
+      "seoDescription": "Yadagirigutta (Yadadri), Telangana: the hilltop Lakshmi Narasimha temple, its legend of the sage Yadarshi, and Surendrapuri nearby.",
+      "lat": 17.59,
+      "lng": 78.94,
+      "tripTypes": [
+        "spiritual"
+      ],
+      "sections": {
+        "overview": {
+          "text": "Yadagirigutta, also called Yadadri, is a hilltop Narasimha temple that thousands of pilgrims visit every day. According to the Puranas, the sage Yadarshi, son of Rishyasringa, meditated in a cave here, and Narasimha, pleased with his devotion, appeared before him. The god is said to have manifested in five forms, as Jwala Narasimha, Gandabherunda, Yogananda, Ugra and Lakshminarasimha, which is why the shrine is honoured as a Pancharama Narasimha Kshetra. Telangana Tourism notes that the place enjoys a pleasant climate in every season. Close by is Surendrapuri, a temple-art complex with scenes from the Mahabharata and Bhagavatam, a huge Shiva statue and replicas of major Indian temples; allow about two hours there.",
+          "facts": [
+            "TYG1",
+            "TYG2",
+            "TYG3",
+            "TYG4"
+          ]
+        },
+        "visit_info": {
+          "items": [
+            {
+              "title": "Deity",
+              "body": "Lakshmi Narasimha, in five forms",
+              "status": "verified"
+            },
+            {
+              "title": "Nearby",
+              "body": "Surendrapuri temple-art complex (about two hours)",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "TYG1",
+            "TYG3"
+          ]
+        }
+      },
+      "images": [
+        {
+          "commons": "File:Sri Lakshminarasimha Swamy Temple Yadagirigutta Yadadri Telangana 01.jpg",
+          "alt": "The carved stone gopuram of the Lakshmi Narasimha temple at Yadagirigutta",
+          "caption": "Lakshmi Narasimha temple, Yadagirigutta",
+          "hero": true
+        }
+      ]
+    },
+    {
+      "key": "telangana/bhongir-fort",
+      "kind": "attraction",
+      "name": "Bhongir Fort",
+      "parent": "telangana",
+      "summary": "An oval monolithic rock crowned by a fort, 47 km from Hyderabad.",
+      "seoTitle": "Bhongir Fort (Bhuvanagiri): Rock Fort near Hyderabad",
+      "seoDescription": "Bhongir (Bhuvanagiri) Fort, about 47 km from Hyderabad: a fort on a single monolithic rock linked to the Chalukyas and Kakatiya queen Rudramadevi.",
+      "lat": 17.51,
+      "lng": 78.89,
+      "tripTypes": [
+        "heritage",
+        "adventure",
+        "weekend"
+      ],
+      "sections": {
+        "overview": {
+          "text": "Bhongir Fort, also called Bhuvanagiri, crowns an isolated oval monolith about 47 km from Hyderabad on the road to Warangal. Tradition holds that the Western Chalukya king Tribhuvanamalla Vikramaditya VI built it, and the fort was named Tribhuvanagiri after him; the name later became Bhuvanagiri and then Bhongir. From the south the rock is said to look like a tortoise and from the west like a sleeping elephant. The fort is linked to the Kakatiya queen Rudramadevi and her grandson Prataparudra, and was later held for a long time by the Qutb Shahis. Its entrance recalls the Fateh Darwaza of Golconda, and inside are granaries, military quarters and courtyards. A Shiva temple with a black Nandi stands on the hill. The climb up the rock is a popular short outing from Hyderabad.",
+          "facts": [
+            "TBF1",
+            "TBF2",
+            "TBF3"
+          ]
+        },
+        "visit_info": {
+          "items": [
+            {
+              "title": "From Hyderabad",
+              "body": "About 47 km",
+              "status": "verified"
+            },
+            {
+              "title": "Inside",
+              "body": "Granaries, military quarters, a Shiva temple",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "TBF1",
+            "TBF2"
+          ]
+        }
+      },
+      "images": [
+        {
+          "commons": "File:Bhongir Fort view from Arch 01.jpg",
+          "alt": "The great rock of Bhongir Fort seen from an arch at its foot",
+          "caption": "Bhongir Fort",
+          "hero": true
+        }
+      ]
+    },
+    {
+      "key": "telangana/nagarjuna-sagar",
+      "kind": "attraction",
+      "name": "Nagarjuna Sagar Dam",
+      "parent": "telangana",
+      "summary": "The great masonry dam on the Krishna, with Buddhist relics from Nandikonda in its museum.",
+      "seoTitle": "Nagarjuna Sagar Dam: Krishna River Dam and Nandikonda Buddhist Relics",
+      "seoDescription": "Nagarjuna Sagar on the Krishna in Nalgonda: the 124 m masonry dam behind Telangana's rice harvest, and the Buddhist relics of Nandikonda.",
+      "lat": 16.57,
+      "lng": 79.31,
+      "tripTypes": [
+        "nature",
+        "heritage",
+        "weekend"
+      ],
+      "sections": {
+        "overview": {
+          "text": "Nagarjuna Sagar Dam spans the Krishna River in Nalgonda district. Built between 1955 and 1967, after Jawaharlal Nehru inaugurated the work on 10 December 1955, the masonry dam straddles the border with Andhra Pradesh and is run jointly by the two states. Rising 124 metres and 1.6 km long, with 26 flood gates, it stores a vast reservoir whose waters irrigate the surrounding farmland, and Telangana Tourism credits it with the region's title of 'Rice Bowl of India'. Next to it lies Nandikonda, a small village on the river that was part of the Ikshvaku kingdom. Excavations here uncovered many ancient Buddhist structures, including pillared halls and monasteries, and the relics found in a series of digs are displayed in the museum at Nagarjuna Sagar.",
+          "facts": [
+            "TNS1",
+            "TNS2",
+            "TNS3",
+            "TNS4"
+          ]
+        },
+        "visit_info": {
+          "items": [
+            {
+              "title": "River",
+              "body": "Krishna",
+              "status": "verified"
+            },
+            {
+              "title": "Height",
+              "body": "124 m",
+              "status": "verified"
+            },
+            {
+              "title": "Also see",
+              "body": "Buddhist relics in the museum at Nandikonda",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "TNS1",
+            "TNS2"
+          ]
+        }
+      },
+      "images": [
+        {
+          "commons": "File:Nagarjuna Sagar dam with all Crest gates closed.jpg",
+          "alt": "The long masonry wall of Nagarjuna Sagar Dam across the Krishna River",
+          "caption": "Nagarjuna Sagar Dam",
+          "hero": true
+        }
+      ]
+    },
+    {
+      "key": "telangana/medak",
+      "kind": "town",
+      "name": "Medak",
+      "parent": "telangana",
+      "summary": "A Deccan town with a tiered hill fort, a Qutb Shahi mosque and the great Medak Cathedral.",
+      "seoTitle": "Medak: Hill Fort, Medak Cathedral, Pocharam Sanctuary",
+      "seoDescription": "Medak in Telangana: a Kakatiya and Qutb Shahi hill fort, the landmark Medak Cathedral, Pocharam Wildlife Sanctuary and the Edupayala temple.",
+      "lat": 18.03,
+      "lng": 78.26,
+      "tripTypes": [
+        "heritage",
+        "spiritual",
+        "nature"
+      ],
+      "sections": {
+        "overview": {
+          "text": "Medak is a district town in northern Telangana, originally known as Methukudurgam, a name linked to the fine rice grown in the area. It was part of the Kakatiya and Bahmani kingdoms, then of the Golconda Sultanate, the Mughal Empire and finally the Nizam's dominions, and coins of the Satavahana kings have been found at nearby Kondapur. Hindu, Christian, Muslim and Buddhist influences all show in its buildings. The town's hill fort, begun by the Kakatiyas and developed by the Qutb Shahis, stands about 90 metres above the plains with tiers of walls and bastions, and still holds a 10-foot Dutch-made brass gun. Medak Cathedral is one of its best-known sights. Nearby are a Qutb Shahi mosque at Komtoor, the Kuchadri Venkateswara temple, Pocharam Wildlife Sanctuary and the Edupayala temple.",
+          "facts": [
+            "TMD1",
+            "TMD2",
+            "TMD3",
+            "TMD1B"
+          ]
+        },
+        "key_facts": {
+          "items": [
+            {
+              "title": "Old name",
+              "body": "Methukudurgam",
+              "status": "verified"
+            },
+            {
+              "title": "Fort",
+              "body": "Hill fort about 90 m above the plains",
+              "status": "verified"
+            },
+            {
+              "title": "Nearby",
+              "body": "Medak Cathedral, Pocharam Wildlife Sanctuary, Edupayala",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "TMD1",
+            "TMD2",
+            "TMD3",
+            "TMD1B"
+          ]
+        },
+        "things_to_do": {
+          "items": [
+            {
+              "body": "Climb the tiered hill fort and find the Dutch brass gun."
+            },
+            {
+              "body": "Visit Medak Cathedral."
+            },
+            {
+              "body": "See the Qutb Shahi mosque at Komtoor, 10 km away."
+            },
+            {
+              "body": "Go to Pocharam Wildlife Sanctuary or the Edupayala temple."
+            }
+          ],
+          "facts": [
+            "TMD2",
+            "TMD3"
+          ]
+        }
+      },
+      "images": [
+        {
+          "commons": "File:Medak Cathedral (1).jpg",
+          "alt": "The Gothic stone façade and tower of Medak Cathedral",
+          "caption": "Medak Cathedral",
+          "hero": true
+        }
+      ]
+    },
+    {
+      "key": "telangana/falaknuma-palace",
+      "kind": "attraction",
+      "name": "Falaknuma Palace",
+      "parent": "telangana/hyderabad",
+      "summary": "The Nizam's Italian-marble palace on a hill above the Old City, now a heritage hotel.",
+      "seoTitle": "Falaknuma Palace, Hyderabad: The Nizam's Hilltop Palace",
+      "seoDescription": "Falaknuma Palace, 5 km from Charminar: the Paigah and Nizam palace in Italian marble by William Ward Marret, restored and now a heritage hotel.",
+      "lat": 17.33,
+      "lng": 78.47,
+      "tripTypes": [
+        "heritage",
+        "romantic"
+      ],
+      "sections": {
+        "overview": {
+          "text": "Falaknuma Palace sits on a hillock about 5 km from Charminar, looking out over Hyderabad's Old City. Its name means 'like the sky' or 'mirror of the sky' in Urdu. Built for the Paigah nobles and later a favourite of the Nizam of Hyderabad, it was designed by the English architect William Ward Marret and finished in Italian marble, with stained-glass windows and a plan said to resemble a scorpion, with two wings extending to the north. Inside are frescoed and gilded ceilings in the State Reception Room, a library of English, Urdu and Persian books, Venetian chandeliers, a billiards room and a 2-ton manually operated organ in the ballroom. The palace stayed private to the Nizam's family for nearly a century; from 2000 about 1,000 artisans worked for nearly a decade to restore it, and today it is a heritage hotel.",
+          "facts": [
+            "TFP1",
+            "TFP2",
+            "TFP3",
+            "TFP4"
+          ]
+        },
+        "visit_info": {
+          "items": [
+            {
+              "title": "Location",
+              "body": "Hillock about 5 km from Charminar",
+              "status": "verified"
+            },
+            {
+              "title": "Today",
+              "body": "Heritage hotel",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "TFP1",
+            "TFP3"
+          ]
+        }
+      },
+      "images": [
+        {
+          "commons": "File:Falaknuma Palace - Entrance - 1.jpg",
+          "alt": "The white façade of Falaknuma Palace behind its front lawn",
+          "caption": "Falaknuma Palace, Hyderabad",
+          "hero": true
+        }
+      ]
+    },
+    {
+      "key": "telangana/chowmahalla-palace",
+      "kind": "attraction",
+      "name": "Chowmahalla Palace",
+      "parent": "telangana/hyderabad",
+      "summary": "The Nizams' palace of four courts beside Charminar, now a museum.",
+      "seoTitle": "Chowmahalla Palace, Hyderabad: Seat of the Nizams",
+      "seoDescription": "Chowmahalla Palace near Charminar: the Asaf Jahi seat of power, with four neoclassical palaces, the Khilwat durbar hall and the Nizams' vintage cars.",
+      "lat": 17.358,
+      "lng": 78.472,
+      "tripTypes": [
+        "heritage",
+        "family"
+      ],
+      "sections": {
+        "overview": {
+          "text": "Chowmahalla Palace, close to Charminar in Hyderabad's Old City, was the seat of the Asaf Jahi dynasty, which ruled from 1720 to 1948, and the official residence of the Nizams. Its name means 'four palaces'. Work on the present palace began in the 18th century, and the oldest part, the southern courtyard, has four neoclassical palaces facing one another across a garden and pond, with Ionic and Corinthian columns. The northern courtyard shows Mughal domes and Persian stucco work. Its heart is the Khilwat Mubarak, the pillared durbar hall with a marble platform for the royal seat and 19 Belgian-crystal chandeliers. The palace once covered 45 acres; 12 remain. The Nizam's family restored it and opened it as a museum in January 2005, with displays on the Nizams' lives and a collection of vintage cars including a Rolls-Royce.",
+          "facts": [
+            "TCM1",
+            "TCM2",
+            "TCM3",
+            "TCM4"
+          ]
+        },
+        "visit_info": {
+          "items": [
+            {
+              "title": "Location",
+              "body": "Old City, close to Charminar",
+              "status": "verified"
+            },
+            {
+              "title": "Today",
+              "body": "Museum, owned by the Nizam's family",
+              "status": "verified"
+            },
+            {
+              "title": "Don't miss",
+              "body": "Khilwat Mubarak durbar hall; vintage cars",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "TCM1",
+            "TCM2",
+            "TCM3"
+          ]
+        }
+      },
+      "images": [
+        {
+          "commons": "File:Chowmahalla Palace 01.jpg",
+          "alt": "A palace of Chowmahalla across its long reflecting pool and garden",
+          "caption": "Chowmahalla Palace, Hyderabad",
+          "hero": true
+        }
+      ]
+    },
+    {
+      "key": "telangana/qutb-shahi-tombs",
+      "kind": "attraction",
+      "name": "Qutb Shahi Tombs",
+      "parent": "telangana/hyderabad",
+      "summary": "The domed tombs of the Golconda kings, a kilometre from Golconda Fort.",
+      "seoTitle": "Qutb Shahi Tombs, Hyderabad: Royal Tombs near Golconda",
+      "seoDescription": "The Qutb Shahi Tombs near Golconda Fort, Hyderabad: granite domed tombs of the Golconda kings in the Ibrahim Bagh gardens.",
+      "lat": 17.395,
+      "lng": 78.396,
+      "tripTypes": [
+        "heritage"
+      ],
+      "sections": {
+        "overview": {
+          "text": "The Qutb Shahi Tombs lie about a kilometre north of Golconda Fort's Banjara Darwaza and hold the kings of the Golconda Sultanate, buried together in a single royal necropolis amid the landscaped Ibrahim Bagh gardens. Built by the Qutb Shahis themselves, they are among Hyderabad's oldest monuments and blend Persian, Pathan and Hindu styles in grey granite with stucco ornament. Each tomb is a domed building on a square base, ringed by pointed arches, and rises 9 to 15 metres above its terrace; smaller ones are single-storeyed, the larger ones two-storeyed, and the greatest reaches 42.5 metres. The domes were once covered in blue and green tiles, of which only a few pieces remain. Neglected after the dynasty fell, the tombs were restored under Salar Jung III, and today they are usually seen together with Golconda Fort.",
+          "facts": [
+            "TQT1",
+            "TQT2",
+            "TQT3",
+            "TQT4"
+          ]
+        },
+        "visit_info": {
+          "items": [
+            {
+              "title": "Location",
+              "body": "1 km north of Golconda Fort's Banjara Darwaza",
+              "status": "verified"
+            },
+            {
+              "title": "Combine with",
+              "body": "Golconda Fort",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "TQT1",
+            "TQT3"
+          ]
+        }
+      },
+      "images": [
+        {
+          "commons": "File:A tomb in Qutb Shahi complex 5.jpg",
+          "alt": "A domed granite tomb in the Qutb Shahi tombs complex, Hyderabad",
+          "caption": "Qutb Shahi Tombs, Hyderabad",
+          "hero": true
+        }
+      ]
+    },
+    {
+      "key": "telangana/kolanupaka-jain-temple",
+      "kind": "temple",
+      "name": "Kolanupaka Jain Temple (Kulpakji)",
+      "parent": "telangana",
+      "summary": "An ancient Svetambara Jain shrine on the Hyderabad–Warangal road.",
+      "seoTitle": "Kolanupaka Jain Temple (Kulpakji), Telangana",
+      "seoDescription": "Kolanupaka (Kulpakji) Jain temple, 77 km from Hyderabad: idols of Rishabha, Neminath and a jade Mahavira; a key Svetambara Jain pilgrimage.",
+      "lat": 17.69,
+      "lng": 79.05,
+      "tripTypes": [
+        "spiritual",
+        "heritage"
+      ],
+      "sections": {
+        "overview": {
+          "text": "The Kolanupaka Jain temple, known to pilgrims as Kulpakji, stands in the village of Kolanupaka about 77 km from Hyderabad on the Hyderabad–Warangal highway. It is said to be more than two thousand years old, and in its present form more than eight hundred, and Kolanupaka was a prominent centre of Jainism in Telangana from early times. The main shrine houses three idols: Rishabha, the first Tirthankara, popularly called Adinath and known here as Manikya Deva; Neminath; and Mahavira, whose 130 cm statue is said to be carved from a single piece of jade. Eight idols of other Tirthankaras flank the main temple, with Simandar Swami and Mata Padmavati on either side. Kulpakji remains an important pilgrimage for the Svetambara Jains of South India.",
+          "facts": [
+            "TKJ1",
+            "TKJ2",
+            "TKJ3",
+            "TKJ3B"
+          ]
+        },
+        "visit_info": {
+          "items": [
+            {
+              "title": "From Hyderabad",
+              "body": "About 77 km on the Hyderabad–Warangal highway",
+              "status": "verified"
+            },
+            {
+              "title": "Main idols",
+              "body": "Rishabha (Adinath), Neminath, Mahavira",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "TKJ1"
+          ]
+        }
+      },
+      "images": [
+        {
+          "commons": "File:Kolanupaka Jain Temple in February 2026.jpg",
+          "alt": "The carved sandstone shrines of the Kolanupaka Jain temple",
+          "caption": "Kolanupaka Jain Temple",
+          "hero": true
+        }
+      ]
+    },
+    {
+      "key": "andhra-pradesh/rajahmundry",
+      "kind": "city",
+      "name": "Rajahmundry (Rajamahendravaram)",
+      "parent": "andhra-pradesh",
+      "summary": "Andhra's river city on the Godavari: ghats, bridges, temples and Papi Hills cruises.",
+      "seoTitle": "Rajahmundry: Godavari Ghats, Papi Hills Cruise, Getting There",
+      "seoDescription": "Rajahmundry on the Godavari: the rail bridges, ghats, Dowleswaram Barrage, Papi Hills boat cruises and nearby Pancharama temples; best October–February.",
+      "lat": 17.0,
+      "lng": 81.8,
+      "tripTypes": [
+        "heritage",
+        "nature",
+        "spiritual"
+      ],
+      "sections": {
+        "overview": {
+          "text": "Rajahmundry, officially Rajamahendravaram, stretches along the eastern bank of the Godavari and is one of Andhra Pradesh's oldest cities. Often called the cultural capital of the region and the birthplace of the Telugu language, it combines literary heritage with river life: morning rituals on the ghats, quiet boat rides and sunsets over the water. Its best-known landmark is the Godavari rail bridge, with views at sunrise and sunset. In the city are the ISKCON temple and the riverside Markandeya temple, and a short drive away is the Dowleswaram Barrage, where the Godavari divides into canals that water the delta. The most memorable trip is a boat cruise through the narrow, forested gorges of the Papi Hills. Temples around the city include Draksharamam, Bikkavolu and Kumararama at Samalkot.",
+          "facts": [
+            "ARJ1",
+            "ARJ2",
+            "ARJ5"
+          ]
+        },
+        "key_facts": {
+          "items": [
+            {
+              "title": "River",
+              "body": "Godavari",
+              "status": "verified"
+            },
+            {
+              "title": "Known as",
+              "body": "Cultural capital; birthplace of Telugu",
+              "status": "verified"
+            },
+            {
+              "title": "Best time",
+              "body": "October–February",
+              "status": "seasonal"
+            },
+            {
+              "title": "Airport",
+              "body": "About 17 km from the centre",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "ARJ1",
+            "ARJ3",
+            "ARJ4"
+          ]
+        },
+        "best_time": {
+          "text": "October to February is the peak season, when the weather is cool for sightseeing, river cruises and festivals.",
+          "facts": [
+            "ARJ3"
+          ]
+        },
+        "how_to_reach": {
+          "text": "Rajahmundry Airport, about 17 km from the city centre, has flights to Hyderabad, Chennai and Bangalore. The railway station is 5 km from the centre, with frequent trains from Hyderabad, Vijayawada, Chennai and Bengaluru. By road the city is on NH216, with regular buses from Hyderabad, Vijayawada and Visakhapatnam.",
+          "facts": [
+            "ARJ4"
+          ]
+        },
+        "things_to_do": {
+          "items": [
+            {
+              "body": "Watch sunrise or sunset over the Godavari rail bridge."
+            },
+            {
+              "body": "Take a boat cruise through the Papi Hills gorges."
+            },
+            {
+              "body": "Visit Dowleswaram Barrage, where the Godavari splits into delta canals."
+            },
+            {
+              "body": "See the ISKCON and Markandeya temples, and the Pancharama temple at Samalkot."
+            }
+          ],
+          "facts": [
+            "ARJ2",
+            "ARJ5"
+          ]
+        }
+      },
+      "images": [
+        {
+          "commons": "File:Rajahmundry bridges.jpg",
+          "alt": "Rail and road bridges crossing the wide Godavari River at Rajahmundry",
+          "caption": "Bridges over the Godavari, Rajahmundry",
+          "hero": true
+        }
+      ]
+    },
+    {
+      "key": "andhra-pradesh/kurnool",
+      "kind": "city",
+      "name": "Kurnool",
+      "parent": "andhra-pradesh",
+      "summary": "The 'Gateway of Rayalaseema': a Vijayanagara fort, and a base for Belum Caves, Yaganti and Ahobilam.",
+      "seoTitle": "Kurnool: Konda Reddy Fort, Belum Caves, Yaganti, Ahobilam",
+      "seoDescription": "Kurnool, gateway of Rayalaseema: the Konda Reddy Fort, and a base for Belum Caves, Orvakal Rock Garden, Yaganti, Ahobilam and Rollapadu sanctuary.",
+      "lat": 15.83,
+      "lng": 78.04,
+      "tripTypes": [
+        "heritage",
+        "spiritual",
+        "nature"
+      ],
+      "sections": {
+        "overview": {
+          "text": "Kurnool is often called the 'Gateway of Rayalaseema'. In the city stands the Konda Reddy Fort, built under the Vijayanagara Empire, whose weathered ramparts carry ancient Persian and Arabic inscriptions and whose watch tower still looks over the city; a tunnel once ran from it under the river. Kurnool is mainly a base for the region's sights. Rollapadu Wildlife Sanctuary, 614 sq km of grassland, protects the endangered Great Indian Bustard and Lesser Florican. The Belum Caves are the subcontinent's second-largest cave system. Yaganti's temple has a single stone image of Shiva and Parvati, and Ahobilam worships all nine forms of Narasimha. Mahanandi, the Ketavaram rock paintings and the Orvakal Rock Garden, 20 km away, complete the circuit, and the local food is famously spicy.",
+          "facts": [
+            "AKN1",
+            "AKN2",
+            "AKN3",
+            "AKN5",
+            "AKN5B"
+          ]
+        },
+        "key_facts": {
+          "items": [
+            {
+              "title": "Known as",
+              "body": "Gateway of Rayalaseema",
+              "status": "verified"
+            },
+            {
+              "title": "In the city",
+              "body": "Konda Reddy Fort",
+              "status": "verified"
+            },
+            {
+              "title": "Nearest major airport",
+              "body": "Hyderabad (HYD)",
+              "status": "verified"
+            },
+            {
+              "title": "Railway",
+              "body": "Kurnool City station",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "AKN1",
+            "AKN4"
+          ]
+        },
+        "how_to_reach": {
+          "text": "The nearest major airport is Rajiv Gandhi International Airport, Hyderabad. Kurnool City railway station serves the city.",
+          "facts": [
+            "AKN4"
+          ]
+        },
+        "things_to_do": {
+          "items": [
+            {
+              "body": "See the Konda Reddy Fort and its watch tower."
+            },
+            {
+              "body": "Day-trip to the Belum Caves."
+            },
+            {
+              "body": "Walk the rock formations of Orvakal Rock Garden, 20 km away."
+            },
+            {
+              "body": "Visit the Yaganti and Ahobilam temples, or Mahanandi."
+            },
+            {
+              "body": "Look for Great Indian Bustards at Rollapadu Wildlife Sanctuary."
+            }
+          ],
+          "facts": [
+            "AKN1",
+            "AKN2"
+          ]
+        },
+        "food": {
+          "items": [
+            {
+              "body": "Spicy Rayalaseema cooking made with local chillies."
+            }
+          ],
+          "facts": [
+            "AKN3"
+          ]
+        }
+      },
+      "images": [
+        {
+          "commons": "File:23 - Telugu Talli Statue with Kondareddy Buruju as background.JPG",
+          "alt": "The round stone tower of Konda Reddy Fort behind the Telugu Talli statue in Kurnool",
+          "caption": "Konda Reddy Fort, Kurnool",
+          "hero": true
+        }
+      ]
+    },
+    {
+      "key": "andhra-pradesh/orvakal-rock-garden",
+      "kind": "nature",
+      "name": "Orvakal Rock Garden",
+      "parent": "andhra-pradesh/kurnool",
+      "summary": "Weathered rock formations and pools 20 km from Kurnool.",
+      "seoTitle": "Orvakal (Oravakallu) Rock Garden near Kurnool",
+      "seoDescription": "Orvakal Rock Garden, 20 km from Kurnool: strange igneous rock formations and pools for walks, rock climbing, camping and photography.",
+      "lat": 15.68,
+      "lng": 78.2,
+      "tripTypes": [
+        "nature",
+        "adventure",
+        "family"
+      ],
+      "sections": {
+        "overview": {
+          "text": "Orvakal (Oravakallu) Rock Garden lies about 20 km from Kurnool in the rough country of southern Andhra Pradesh. It is a landscape of strange, weathered rock formations and boulders scattered among pools and greenery, with walkways cut through the rock that lead visitors past rock-cut sculptures and ancient cave temples. A local legend says Shiva threw stones from the surrounding hills to create the formations and keep demons away. The park is a favourite for photography and picnics, and it also suits more active visitors: there are trails for walking and hiking, rock-climbing spots and designated camping areas where you can spend a night under the stars. Birds and butterflies add to the scene. It makes an easy half-day trip from Kurnool, and it is open from 9 am to 6 pm.",
+          "facts": [
+            "AOR1",
+            "AOR2",
+            "AOR3"
+          ]
+        },
+        "visit_info": {
+          "items": [
+            {
+              "title": "From Kurnool",
+              "body": "About 20 km",
+              "status": "verified"
+            },
+            {
+              "title": "Timings",
+              "body": "9 am – 6 pm",
+              "status": "verified"
+            },
+            {
+              "title": "Activities",
+              "body": "Walks, rock climbing, camping, photography",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "AOR1",
+            "AOR2"
+          ]
+        }
+      },
+      "images": [
+        {
+          "commons": "File:Orvakal - Rock Garden.jpg",
+          "alt": "A balanced, weathered rock arch at Orvakal Rock Garden",
+          "caption": "Orvakal Rock Garden",
+          "hero": true
+        }
+      ]
+    },
+    {
+      "key": "andhra-pradesh/puttaparthi",
+      "kind": "town",
+      "name": "Puttaparthi",
+      "parent": "andhra-pradesh",
+      "summary": "Sathya Sai Baba's town, built around the Prasanthi Nilayam ashram.",
+      "seoTitle": "Puttaparthi: Prasanthi Nilayam Ashram, Museums, Best Time",
+      "seoDescription": "Puttaparthi, Andhra Pradesh: Sathya Sai Baba's Prasanthi Nilayam ashram, the Chaitanya Jyoti Museum and planetarium; best November–February.",
+      "lat": 14.17,
+      "lng": 77.81,
+      "tripTypes": [
+        "spiritual"
+      ],
+      "sections": {
+        "overview": {
+          "text": "Puttaparthi is a small town in the plains of Anantapur district, believed to be the birthplace of the spiritual leader Sathya Sai Baba. Once called Gollapalli, the 'village of cowherds', it took its present name, meaning 'the township that sprang from anthills', from a local legend. The town grew around Prasanthi Nilayam, the 'abode of peace', Baba's ashram, which remains its spiritual heart with daily rituals and gatherings. Visitors enter through a gopuram archway and can see the Chaitanya Jyoti Museum on Baba's life, the Sri Sathya Sai Space Theatre planetarium, the Samadhi shrine where he rests, and the nearby Satyabhama temple, with the Chitravathi River flowing past. Penukonda fort, the temple of Lepakshi and the Jayamangali Blackbuck Reserve are all a short drive away.",
+          "facts": [
+            "APT1",
+            "APT2",
+            "APT3",
+            "APT5"
+          ]
+        },
+        "key_facts": {
+          "items": [
+            {
+              "title": "Known for",
+              "body": "Prasanthi Nilayam ashram",
+              "status": "verified"
+            },
+            {
+              "title": "Best time",
+              "body": "November–February",
+              "status": "seasonal"
+            },
+            {
+              "title": "Nearest airport",
+              "body": "Bengaluru (BLR)",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "APT1",
+            "APT3",
+            "APT4"
+          ]
+        },
+        "best_time": {
+          "text": "November to February.",
+          "facts": [
+            "APT3"
+          ]
+        },
+        "how_to_reach": {
+          "text": "The nearest airport is Kempegowda International Airport, Bengaluru. Incredible India lists Anantapur as the nearest railway station.",
+          "facts": [
+            "APT4"
+          ]
+        },
+        "things_to_do": {
+          "items": [
+            {
+              "body": "Attend the daily gatherings at Prasanthi Nilayam ashram."
+            },
+            {
+              "body": "See the Chaitanya Jyoti Museum and the Sai Space Theatre planetarium."
+            },
+            {
+              "body": "Visit the Samadhi shrine and the Satyabhama temple."
+            },
+            {
+              "body": "Drive out to Lepakshi, Penukonda fort or the Jayamangali Blackbuck Reserve."
+            }
+          ],
+          "facts": [
+            "APT1",
+            "APT2",
+            "APT3"
+          ]
+        }
+      },
+      "images": [
+        {
+          "commons": "File:Exit of Prashanti Nilayam.jpg",
+          "alt": "The decorated gateway of Prasanthi Nilayam ashram in Puttaparthi",
+          "caption": "Prasanthi Nilayam, Puttaparthi",
+          "hero": true
+        }
+      ]
+    },
+    {
+      "key": "andhra-pradesh/maredumilli",
+      "kind": "town",
+      "name": "Maredumilli",
+      "parent": "andhra-pradesh",
+      "summary": "Forest village of waterfalls, treks and bamboo chicken in the Eastern Ghats.",
+      "seoTitle": "Maredumilli: Waterfalls, Eco-Tourism, Bamboo Chicken",
+      "seoDescription": "Maredumilli, 85 km from Rajahmundry: Jalatharangini and Amruthadhara waterfalls, forest treks, camping and tribal bamboo chicken; best November–February.",
+      "lat": 17.6,
+      "lng": 81.71,
+      "tripTypes": [
+        "nature",
+        "adventure",
+        "food"
+      ],
+      "sections": {
+        "overview": {
+          "text": "Maredumilli is a forest village in the East Godavari hills, about 85 km from Rajahmundry, that the Forest Department has developed for eco-tourism. Its semi-evergreen forests and rolling country are rich in wildlife, and the area is best known for its waterfalls: Jalatharangini, Amruthadhara and Rampa are the most popular, with Polluru waterfall about 65 km away. Visitors come to camp, go boating and birdwatching, and follow the many forest trails. The Manyam viewpoint looks over the hills, Bhupathupalem Reservoir is about 21 km from the village, and the Gudisa hill station is about 40 km away and often added to the same route. Food is part of the draw: bamboo chicken and bamboo biryani are traditional tribal dishes cooked inside bamboo stems.",
+          "facts": [
+            "AMD1",
+            "AMD2",
+            "AMD3",
+            "AMD5"
+          ]
+        },
+        "key_facts": {
+          "items": [
+            {
+              "title": "From Rajahmundry",
+              "body": "About 85 km",
+              "status": "verified"
+            },
+            {
+              "title": "Waterfalls",
+              "body": "Jalatharangini, Amruthadhara, Rampa",
+              "status": "verified"
+            },
+            {
+              "title": "Best time",
+              "body": "November–February",
+              "status": "seasonal"
+            }
+          ],
+          "facts": [
+            "AMD1",
+            "AMD4"
+          ]
+        },
+        "best_time": {
+          "text": "Winter, from November to February.",
+          "facts": [
+            "AMD4"
+          ]
+        },
+        "how_to_reach": {
+          "text": "Rajahmundry has the nearest airport, with limited domestic flights, and the closest railway station. Maredumilli is on the Bhadrachalam–Rajahmundry highway, so cabs, buses and rental cars run from Rajahmundry, Bhadrachalam, Kakinada and Visakhapatnam.",
+          "facts": [
+            "AMD4"
+          ]
+        },
+        "things_to_do": {
+          "items": [
+            {
+              "body": "Visit the Jalatharangini, Amruthadhara and Rampa waterfalls."
+            },
+            {
+              "body": "Trek forest trails, camp, go boating or birdwatch."
+            },
+            {
+              "body": "Stop at the Manyam viewpoint and Bhupathupalem Reservoir."
+            },
+            {
+              "body": "Add Gudisa hill station, about 40 km away."
+            }
+          ],
+          "facts": [
+            "AMD1",
+            "AMD2"
+          ]
+        },
+        "food": {
+          "items": [
+            {
+              "body": "Bamboo chicken and bamboo biryani, cooked in bamboo stems."
+            }
+          ],
+          "facts": [
+            "AMD3"
+          ]
+        }
+      },
+      "images": [
+        {
+          "commons": "File:MAREDUMILLI - waterfalls.jpg",
+          "alt": "Water spilling over boulders in a forest stream at Maredumilli",
+          "caption": "Waterfall, Maredumilli",
+          "hero": true
+        }
+      ]
+    },
+    {
+      "key": "andhra-pradesh/lepakshi-temple",
+      "kind": "temple",
+      "name": "Lepakshi Temple",
+      "parent": "andhra-pradesh",
+      "summary": "A 16th-century Vijayanagara temple of frescoes, a hanging pillar and a giant Nandi.",
+      "seoTitle": "Lepakshi Temple: Hanging Pillar, Frescoes, Giant Nandi",
+      "seoDescription": "Lepakshi's Veerabhadra Temple, Andhra Pradesh: 16th-century Vijayanagara frescoes, the hanging pillar, Sita's footprint and the great monolithic Nandi.",
+      "lat": 13.8,
+      "lng": 77.61,
+      "tripTypes": [
+        "heritage",
+        "spiritual"
+      ],
+      "sections": {
+        "overview": {
+          "text": "The Veerabhadra Temple at Lepakshi, close to the Karnataka border, is one of the most spectacular Vijayanagara temples and a centrally protected monument. Built in the 16th century and dedicated to Veerabhadra, a fierce form of Shiva, it stands on Kumarasailam, a low hill said to resemble a tortoise. Nearly every surface is carved or painted. The ceilings of the Natya Mandapa, the dance pavilion, carry murals from the Mahabharata, Ramayana and Puranas, centred on a huge painting of Veerabhadra, and these are among the only surviving frescoes of the period. The famous hanging pillar seems to float above the floor, a footprint in the stone is believed to be Sita's, and a seven-hooded serpent shelters a Shiva linga. The Kalyana Mandapa was left unfinished. A short walk away, a monolithic Nandi 15 feet high and 27 feet long faces the temple.",
+          "facts": [
+            "ALP1",
+            "ALP2",
+            "ALP3",
+            "ALP4",
+            "ALP5",
+            "ALP5B"
+          ]
+        },
+        "visit_info": {
+          "items": [
+            {
+              "title": "Timings",
+              "body": "6 am – 6 pm",
+              "status": "verified"
+            },
+            {
+              "title": "Festival",
+              "body": "Lepakshi Utsavam, usually around March",
+              "status": "verified"
+            },
+            {
+              "title": "Don't miss",
+              "body": "Hanging pillar; Natya Mandapa murals; the monolithic Nandi",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "ALP1",
+            "ALP2",
+            "ALP3"
+          ]
+        }
+      },
+      "images": [
+        {
+          "commons": "File:AP Lepakshi Veerabhadra Temple.jpg",
+          "alt": "The carved stone gateway tower of the Veerabhadra temple at Lepakshi",
+          "caption": "Veerabhadra Temple, Lepakshi",
+          "hero": true
+        }
+      ]
+    },
+    {
+      "key": "andhra-pradesh/srisailam",
+      "kind": "temple",
+      "name": "Srisailam Mallikarjuna Temple",
+      "parent": "andhra-pradesh",
+      "summary": "Jyotirlinga temple town in the Nallamala forest above the Krishna.",
+      "seoTitle": "Srisailam: Mallikarjuna Jyotirlinga Temple, Timings, Getting There",
+      "seoDescription": "Srisailam in the Nallamala Hills: the Mallikarjuna Jyotirlinga temple, darshan timings, Akka Mahadevi caves, and the 9 pm–6 am forest road closure.",
+      "lat": 16.07,
+      "lng": 78.87,
+      "tripTypes": [
+        "spiritual",
+        "nature"
+      ],
+      "sections": {
+        "overview": {
+          "text": "Srisailam is a temple town in the Nallamala Hills of Andhra Pradesh, high above the Krishna River. Its Mallikarjuna temple, dedicated to Shiva as Mallikarjuna Swamy, is one of the 12 Jyotirlingas, and the town is also a Shakti peetha, and millions of pilgrims come each year. Legend links it to Shiva's cosmic dance to humble the demon Tarakasura and to the devotee Markandeya. The complex of carved shrines, mandapas and gopurams in the Dravidian style draws pilgrims all year, above all at Maha Shivaratri. Around the town are the Srisailam Dam on the Krishna, the Sakshi Ganapati temple, the Akka Mahadevi caves, Pathalaganga on the river and the Chenchu Lakshmi Tribal Museum. Srisailam is 231 km from Hyderabad, and the forest roads are closed at night.",
+          "facts": [
+            "ASR1",
+            "ASR2",
+            "ASR4",
+            "ASR3",
+            "ASR5",
+            "ASR5B"
+          ]
+        },
+        "visit_info": {
+          "items": [
+            {
+              "title": "Temple hours",
+              "body": "6 am – 3.30 pm and 6 pm – 10 pm",
+              "status": "verified"
+            },
+            {
+              "title": "Festival",
+              "body": "Maha Shivaratri",
+              "status": "verified"
+            },
+            {
+              "title": "Getting there",
+              "body": "231 km from Hyderabad; nearest station Markapur Road, about 83 km",
+              "status": "verified"
+            },
+            {
+              "title": "Note",
+              "body": "Forest roads closed to traffic 9 pm – 6 am",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "ASR2",
+            "ASR3"
+          ]
+        }
+      },
+      "images": [
+        {
+          "commons": "File:APSS303 Srisailam town zoom view from welcome center2.jpg",
+          "alt": "Srisailam town and its temple towers seen from a hill in the Nallamala forest",
+          "caption": "Srisailam town and temple",
+          "hero": true
+        }
+      ]
+    },
+    {
+      "key": "andhra-pradesh/gooty-fort",
+      "kind": "attraction",
+      "name": "Gooty Fort",
+      "parent": "andhra-pradesh",
+      "summary": "The 'King of Forts': 15 small forts on a rocky hill in Anantapur district.",
+      "seoTitle": "Gooty Fort: The 'King of Forts' in Anantapur",
+      "seoDescription": "Gooty Fort, Anantapur district: a shell-shaped hill fortress of 15 small forts, 108 wells and Morari Rao's chess pavilion; open 9–6, best November–February.",
+      "lat": 15.12,
+      "lng": 77.63,
+      "tripTypes": [
+        "heritage",
+        "adventure"
+      ],
+      "sections": {
+        "overview": {
+          "text": "Gooty Fort, or Ravadurg, crowns a group of steep rocky hills more than 680 metres high above the town of Gooty in Anantapur district. It is a centrally protected monument and an unusual design: a shell-shaped complex of 15 small forts, each with its own gateway, joined by an outer wall with bastions. An inscription of the Vijayanagara king Bukkaraya calls it the 'King of Forts'. Its present form was laid out by the Vijayanagara kings and later altered by the Marathas, the British and the Nizams. A paved path winds from the base to the summit, past a granary, a gunpowder magazine, rock-cut reservoirs and a remarkable 108 wells. At the top are temples, a dargah and a small clifftop pavilion where the Maratha general Morari Rao is said to have played chess, with wide views and fine sunsets.",
+          "facts": [
+            "AGF1",
+            "AGF2",
+            "AGF3",
+            "AGF4"
+          ]
+        },
+        "visit_info": {
+          "items": [
+            {
+              "title": "Timings",
+              "body": "9 am – 6 pm",
+              "status": "verified"
+            },
+            {
+              "title": "Best time",
+              "body": "November–February",
+              "status": "verified"
+            },
+            {
+              "title": "Access",
+              "body": "Paved path from the base to the summit",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "AGF3"
+          ]
+        }
+      },
+      "images": [
+        {
+          "commons": "File:Gooty fort and mosque.jpg",
+          "alt": "The walls of Gooty Fort along a rocky ridge, with a white mosque below",
+          "caption": "Gooty Fort",
+          "hero": true
+        }
+      ]
+    },
+    {
+      "key": "andhra-pradesh/chandragiri-fort",
+      "kind": "attraction",
+      "name": "Chandragiri Fort",
+      "parent": "andhra-pradesh/tirupati",
+      "summary": "A Vijayanagara hill fort near Tirupati with the Raja Mahal museum.",
+      "seoTitle": "Chandragiri Fort near Tirupati: Raja Mahal Museum",
+      "seoDescription": "Chandragiri Fort near Tirupati: a 25-acre Vijayanagara hill fort with the three-storeyed Raja Mahal museum and Rani Mahal; open 10 am–5 pm.",
+      "lat": 13.585,
+      "lng": 79.31,
+      "tripTypes": [
+        "heritage",
+        "family"
+      ],
+      "sections": {
+        "overview": {
+          "text": "Chandragiri Fort stands on a rocky hill outside Tirupati, its 25 acres looking over green plains and rolling hills. Its name means 'hill of the moon', after a feature of its design. It was founded in the 11th century by Yadava rulers and strengthened by the Vijayanagara Empire in the 15th; the Gajapati king Kapilendra Dev took it in 1460, and the emperor Krishnadevaraya stayed here on his pilgrimages to Tirumala. The fort is divided into lower and upper parts. In the crescent-shaped lower fort stand the three-storeyed Raja Mahal, now a museum of weapons, sculptures, coins and documents, and the two-storeyed Rani Mahal, along with ruined temples and mandapas. The upper fort, reached by a demanding climb, has ramparts, watchtowers and wide views.",
+          "facts": [
+            "ACG1",
+            "ACG2",
+            "ACG3",
+            "ACG4"
+          ]
+        },
+        "visit_info": {
+          "items": [
+            {
+              "title": "Timings",
+              "body": "10 am – 5 pm",
+              "status": "verified"
+            },
+            {
+              "title": "Museum",
+              "body": "Raja Mahal: weapons, sculptures, coins",
+              "status": "verified"
+            },
+            {
+              "title": "Note",
+              "body": "Demanding climb to the upper fort",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "ACG2",
+            "ACG3"
+          ]
+        }
+      },
+      "images": [
+        {
+          "commons": "File:Chandragiri fort (lower fort) - archeological museum.jpg",
+          "alt": "The Raja Mahal at Chandragiri Fort, now an archaeological museum",
+          "caption": "Raja Mahal, Chandragiri Fort",
+          "hero": true
+        }
+      ]
+    },
+    {
+      "key": "andhra-pradesh/talakona-waterfall",
+      "kind": "nature",
+      "name": "Talakona Waterfall",
+      "parent": "andhra-pradesh/tirupati",
+      "summary": "A 270-foot waterfall in the forests of the Seshachalam hills near Tirupati.",
+      "seoTitle": "Talakona Waterfall near Tirupati: Treks and Forest",
+      "seoDescription": "Talakona Waterfall near Tirupati: a 270-foot fall into an emerald pool in the Seshachalam Biosphere Reserve, with treks and rare wildlife; open sunrise–sunset.",
+      "lat": 13.81,
+      "lng": 79.21,
+      "tripTypes": [
+        "nature",
+        "adventure"
+      ],
+      "sections": {
+        "overview": {
+          "text": "Talakona Waterfall lies in the forested Seshachalam hills of the Eastern Ghats in Tirupati district, a short drive from the temple town. Several mountain streams join to form the fall, which plunges about 270 feet through mist into a natural pool of emerald-green water at its base, where visitors cool off or sit quietly by the water. Local legend says the water has healing powers and that mythical Yakshas guard the falls. Talakona is part of the Seshachalam Biosphere Reserve, and its forests shelter rare and threatened species such as the Indian giant squirrel and the slender loris. Hiking routes lead to hidden caves, viewpoints and smaller waterfalls, and the area is popular for trekking, rock climbing, rappelling and birdwatching. The site is open from sunrise to sunset.",
+          "facts": [
+            "ATK1",
+            "ATK2",
+            "ATK3"
+          ]
+        },
+        "visit_info": {
+          "items": [
+            {
+              "title": "Height",
+              "body": "About 270 feet",
+              "status": "verified"
+            },
+            {
+              "title": "Timings",
+              "body": "Sunrise to sunset",
+              "status": "verified"
+            },
+            {
+              "title": "Activities",
+              "body": "Trekking, rock climbing, rappelling, birdwatching",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "ATK1",
+            "ATK2"
+          ]
+        }
+      },
+      "images": [
+        {
+          "commons": "File:Talakona Fall.jpg",
+          "alt": "Talakona waterfall cascading down a rock face into the forest",
+          "caption": "Talakona Waterfall",
+          "hero": true
+        }
+      ]
+    },
+    {
+      "key": "andhra-pradesh/kailasagiri",
+      "kind": "attraction",
+      "name": "Kailasagiri",
+      "parent": "andhra-pradesh/visakhapatnam",
+      "summary": "Visakhapatnam's hilltop park, with a ropeway, sea views and a giant Shiva-Parvati statue.",
+      "seoTitle": "Kailasagiri, Visakhapatnam: Ropeway, Shiva-Parvati Statue, Timings",
+      "seoDescription": "Kailasagiri hill park in Visakhapatnam: ropeway, sea views, the 40-foot Shiva-Parvati statue and toy train; park open 10 am–8 pm.",
+      "lat": 17.75,
+      "lng": 83.34,
+      "tripTypes": [
+        "family",
+        "nature"
+      ],
+      "sections": {
+        "overview": {
+          "text": "Kailasagiri is a hilltop park above Visakhapatnam, with wide views over the city and the sea. Created by the Visakhapatnam Urban Development Authority and named after Shiva, it was declared the 'Best Tourist Spot' by the Andhra Pradesh government in 2003. The hill is known for two landmark statues: a 40-foot figure of Shiva and Parvati, and a 20-foot Shanku Chakra Namam, the conch, discus and mark of Vishnu. Visitors can drive up, take one of two stairways, or ride the ropeway from the foot of the hill, which gives fine views on the way. At the top are gardens, a toy train, the ship-shaped Titanic viewpoint, play areas and amusement rides, and an annual floral festival fills the gardens with colour, making it one of the city's favourite family outings.",
+          "facts": [
+            "AKG1",
+            "AKG2",
+            "AKG4",
+            "AKG4B"
+          ]
+        },
+        "visit_info": {
+          "items": [
+            {
+              "title": "Park hours",
+              "body": "10 am – 8 pm",
+              "status": "verified"
+            },
+            {
+              "title": "Ropeway",
+              "body": "11 am – 1 pm and 2 pm – 8 pm",
+              "status": "verified"
+            },
+            {
+              "title": "Don't miss",
+              "body": "Shiva-Parvati statue; Titanic viewpoint; toy train",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "AKG2",
+            "AKG3"
+          ]
+        }
+      },
+      "images": [
+        {
+          "commons": "File:Kailasagiri (3 July 2025) 2.jpg",
+          "alt": "The white Shiva and Parvati statue above terraced gardens at Kailasagiri",
+          "caption": "Shiva-Parvati statue, Kailasagiri",
+          "hero": true
+        }
+      ]
+    },
+    {
+      "key": "andhra-pradesh/kanipakam-temple",
+      "kind": "temple",
+      "name": "Kanipakam Vinayaka Temple",
+      "parent": "andhra-pradesh",
+      "summary": "Ganesha temple near Chittoor where the self-manifested idol sits in a well.",
+      "seoTitle": "Kanipakam Vinayaka Temple: History, Brahmotsavam, Getting There",
+      "seoDescription": "Kanipakam Vinayaka Temple, Chittoor: a Chola-built shrine whose self-manifested Ganesha sits in a water-filled well; 21-day Brahmotsavam from Vinayaka Chavithi.",
+      "lat": 13.28,
+      "lng": 79.04,
+      "tripTypes": [
+        "spiritual"
+      ],
+      "sections": {
+        "overview": {
+          "text": "The Sri Varasidhi Vinayaka Swamy temple at Kanipakam, in Chittoor district, is one of the most revered Ganesha temples in South India. Its idol is believed to be self-manifested. Legend tells of three brothers, one mute, one deaf and one blind, who struck a hard object while digging a well and were healed; the villagers found an image of Ganesha seated in the water, and its base has never been found. The idol still sits in the water-filled well, with only the knees and belly visible, and devotees believe it grows: a silver armour made about 50 years ago no longer fits. The temple was built in the early 11th century by Kulottunga Chola I and enlarged in 1336 under the Vijayanagara emperors. Its 21-day Brahmotsavams, beginning on Vinayaka Chavithi, are the best time to see it.",
+          "facts": [
+            "AKP1",
+            "AKP2",
+            "AKP4"
+          ]
+        },
+        "visit_info": {
+          "items": [
+            {
+              "title": "Festival",
+              "body": "Brahmotsavams, 21 days from Vinayaka Chavithi",
+              "status": "verified"
+            },
+            {
+              "title": "Getting there",
+              "body": "Chittoor station and bus stand about 11–12 km; Tirupati airport about 85–90 km",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "AKP2",
+            "AKP3"
+          ]
+        }
+      },
+      "images": [
+        {
+          "commons": "File:Galipgopuram of Kanipakam temple (May 2019) 10.jpg",
+          "alt": "The lit gopuram of the Kanipakam Vinayaka temple against an evening sky",
+          "caption": "Kanipakam Vinayaka Temple",
+          "hero": true
+        }
+      ]
+    },
+    {
+      "key": "andhra-pradesh/gandikota",
+      "kind": "attraction",
+      "name": "Gandikota Fort and Gorge",
+      "parent": "andhra-pradesh",
+      "summary": "A ruined hill fort above the red gorge of the Penna River in Kadapa district.",
+      "seoTitle": "Gandikota: Penna River Gorge, Fort, Camping, Getting There",
+      "seoDescription": "Gandikota, Kadapa district: an ASI-protected fort above the Penna River gorge, with temples, a mosque, canyon treks and riverside camping.",
+      "lat": 14.81,
+      "lng": 78.29,
+      "tripTypes": [
+        "heritage",
+        "adventure",
+        "nature"
+      ],
+      "sections": {
+        "overview": {
+          "text": "Gandikota is a village and ruined fort on the right bank of the Penna River, 15 km from Jammalamadugu in Kadapa district. Its name comes from the gorge (gandi) that the river has cut between the Erramala hills, narrowing it to about 100 metres between cliffs of quartzite. A sand fort was first made here in 1123; the site grew into a major stronghold under the Pemmasani Nayakas and later passed to the Golconda Sultanate, which added Islamic buildings. Today it is an ASI-protected monument. Inside the walls are the ruined Madhava and Ranganatha temples, the Jamia Masjid with two minarets, a large vaulted granary, a pigeon tower and an old cannon. Visitors camp outside the fort and on the riverbank, and a downhill trek leads through the canyon to the water.",
+          "facts": [
+            "AGK1",
+            "AGK2",
+            "AGK3",
+            "AGK5",
+            "AGK5B"
+          ]
+        },
+        "visit_info": {
+          "items": [
+            {
+              "title": "Location",
+              "body": "15 km from Jammalamadugu, Kadapa district",
+              "status": "verified"
+            },
+            {
+              "title": "Getting there",
+              "body": "Muddanuru station 26 km; buses from Jammalamadugu",
+              "status": "verified"
+            },
+            {
+              "title": "Activities",
+              "body": "Fort walk, canyon trek, riverside camping",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "AGK1",
+            "AGK3",
+            "AGK4"
+          ]
+        }
+      },
+      "images": [
+        {
+          "commons": "File:Gandikota Gorge (10882).jpg",
+          "alt": "The Penna River winding through the red rock gorge at Gandikota",
+          "caption": "Gandikota gorge",
+          "hero": true
+        }
+      ]
+    },
+    {
+      "key": "andhra-pradesh/belum-caves",
+      "kind": "nature",
+      "name": "Belum Caves",
+      "parent": "andhra-pradesh",
+      "summary": "India's second-largest cave network, with stalactites and an underground stream.",
+      "seoTitle": "Belum Caves, Andhra Pradesh: India's Second-Largest Cave System",
+      "seoDescription": "Belum Caves in Nandyal district: a 3.23 km limestone cave system with stalactites, stalagmites and the Pataalaganga stream; used by monks, open since 2002.",
+      "lat": 15.1,
+      "lng": 78.11,
+      "tripTypes": [
+        "nature",
+        "adventure",
+        "family"
+      ],
+      "sections": {
+        "overview": {
+          "text": "The Belum Caves, near Belum village in Nandyal district, form a limestone cave system that extends for 3.23 km, the second-largest cave network in India. They were formed by water erosion and are full of karst features: stalactites, stalagmites and other formations, with spacious chambers between narrow passages, and sediments left by the Chitravathi River that once flowed through them. People used the caves as early as 4500 BCE, and Buddhist and Jain ascetics later meditated in their halls. Though long known to local people, they were first documented by the geologist Robert Bruce Foote in 1884 and mapped by a German team in the early 1980s. Protected since 1988, the caves opened to visitors in 2002. Pathways lead down to the deepest point, Pataalaganga, where an underground stream flows all year.",
+          "facts": [
+            "ABC1",
+            "ABC2",
+            "ABC3",
+            "ABC4"
+          ]
+        },
+        "visit_info": {
+          "items": [
+            {
+              "title": "Length",
+              "body": "3.23 km",
+              "status": "verified"
+            },
+            {
+              "title": "Opened to visitors",
+              "body": "2002",
+              "status": "verified"
+            },
+            {
+              "title": "Don't miss",
+              "body": "Pataalaganga, the underground stream at the deepest point",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "ABC1",
+            "ABC2",
+            "ABC3"
+          ]
+        }
+      },
+      "images": [
+        {
+          "commons": "File:Belum caves 12.jpg",
+          "alt": "A lit chamber and passage inside the Belum Caves",
+          "caption": "Belum Caves",
+          "hero": true
+        }
+      ]
+    },
+    {
+      "key": "andhra-pradesh/kondapalli-fort",
+      "kind": "attraction",
+      "name": "Kondapalli Fort",
+      "parent": "andhra-pradesh",
+      "summary": "A 14th-century hill fort by the Krishna, above the village of Kondapalli toys.",
+      "seoTitle": "Kondapalli Fort near Vijayawada: History, Timings, Toys",
+      "seoDescription": "Kondapalli Fort by the Krishna, NTR district: a 14th-century hill fort with a monolithic granite gate and Tanisha Mahal; village famous for wooden toys.",
+      "lat": 16.62,
+      "lng": 80.53,
+      "tripTypes": [
+        "heritage"
+      ],
+      "sections": {
+        "overview": {
+          "text": "Kondapalli Fort, also called Kondapalli Kota, stands on a hill beside the Krishna River west of Kondapalli village in NTR district. Dating from the 14th century, it was first a place of leisure and trade, and it passed from the Reddy kingdom to the Qutb Shahis, the Mughals and finally the British, who turned it into a military training base. Winding paths through greenery lead up to stone-and-mortar walls that still stand tall. The entrance, the Dargah Darwaja, is carved from a single colossal granite boulder; inside are the remains of the royal court, the Tanisha Mahal, the Golconda Darwaza and the dargah of Gareeb Saheb, with fine views over the river. At the foot of the hill, Kondapalli village is famous for brightly painted wooden toys, handcrafted from the local ponuku wood.",
+          "facts": [
+            "AKF1",
+            "AKF2",
+            "AKF3",
+            "AKF4"
+          ]
+        },
+        "visit_info": {
+          "items": [
+            {
+              "title": "Timings",
+              "body": "10.30 am – 5 pm",
+              "status": "verified"
+            },
+            {
+              "title": "Don't miss",
+              "body": "Dargah Darwaja; Tanisha Mahal; Kondapalli toys in the village",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "AKF2",
+            "AKF3"
+          ]
+        }
+      },
+      "images": [
+        {
+          "commons": "File:Kondapalli fort2.jpg",
+          "alt": "Ruined stone halls of Kondapalli Fort among trees",
+          "caption": "Kondapalli Fort",
+          "hero": true
+        }
+      ]
+    }
+  ],
+  "itineraries": [],
+  "guides": []
+}
