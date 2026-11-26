@@ -11,7 +11,7 @@
     },
     "II_GGN": {
       "url": "https://www.incredibleindia.gov.in/en/haryana/gurugram",
-      "title": "Gurugram — Incredible India (Ministry of Tourism, Government of India)",
+      "title": "Gurugram — Incredible India",
       "authority": "government"
     },
     "II_BAO": {
@@ -177,6 +177,16 @@
     "WV_BSP": {
       "url": "https://en.wikivoyage.org/wiki/Bilaspur_(Chhattisgarh)",
       "title": "Bilaspur (Chhattisgarh) — Wikivoyage",
+      "authority": "reference"
+    },
+    "WV_GGN": {
+      "url": "https://en.wikivoyage.org/wiki/Gurgaon",
+      "title": "Gurugram — Wikivoyage",
+      "authority": "reference"
+    },
+    "W_GGN": {
+      "url": "https://en.wikipedia.org/wiki/Gurgaon",
+      "title": "Gurgaon — Wikipedia",
       "authority": "reference"
     }
   },
@@ -929,6 +939,110 @@
           "quote": "Courtyard by Marriott , Citymall 36"
         }
       ]
+    },
+    "HDG1": {
+      "place": "haryana/gurugram",
+      "topic": "HDG1",
+      "claim": "Winter (early November to mid-February) is cold and foggy, with winter-night fog lasting up to 7 hours; March and April are pleasant; summer runs May to July above 40 °C; the monsoon lasts mid-July to mid-September.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WV_GGN",
+          "quote": "Winter runs from early November till mid-February; usually January is the coldest month."
+        },
+        {
+          "source": "WV_GGN",
+          "quote": "Fog on winter nights can last up to 7 hours."
+        },
+        {
+          "source": "WV_GGN",
+          "quote": "In March and April the temperature is pleasant."
+        },
+        {
+          "source": "WV_GGN",
+          "quote": "The summer starts in May and goes till July, with temperatures exceeding 40 °C at times."
+        }
+      ]
+    },
+    "HDG2": {
+      "place": "haryana/gurugram",
+      "topic": "HDG2",
+      "claim": "The monsoon breaks the heat in mid-July and lasts until mid-September; Gurugram's record high is 49.0 °C.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WV_GGN",
+          "quote": "The heat is broken by the monsoon in mid-July, which pours rain until mid-September."
+        },
+        {
+          "source": "W_GGN",
+          "quote": "The highest ever temperature recorded is 49.0 °C"
+        }
+      ]
+    },
+    "HDG3": {
+      "place": "haryana/gurugram",
+      "topic": "HDG3",
+      "claim": "Delhi Metro's Yellow Line has five stations in Gurugram (including Millennium City Centre, IFFCO Chowk and MG Road); the 11.7 km Rapid Metro loop has eleven stations and meets the Yellow Line at Sikanderpur.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "W_GGN",
+          "quote": "The five stations served by Delhi Metro Rail Corporation, located on the Yellow Line, are Millennium City Centre, IFFCO Chowk, MG Road, Sikanderpur and Guru Droncharya."
+        },
+        {
+          "source": "W_GGN",
+          "quote": "The Gurugram Metro's Rapid Metro line has eleven stations in Gurgaon, with an interchange with Yellow Line of Delhi Metro at Sikanderpur metro station."
+        },
+        {
+          "source": "W_GGN",
+          "quote": "currently covers a distance of 11.7 kilometres"
+        }
+      ]
+    },
+    "HDG4": {
+      "place": "haryana/gurugram",
+      "topic": "HDG4",
+      "claim": "Police helpline 112, women's helpline 1091; hospitals with emergency departments include Medanta (Sector 32), Artemis (Sector 51) and the Civil Hospital (Civil Lines).",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WV_GGN",
+          "quote": "Police helpline no: 112 Women helpline no: 1091"
+        },
+        {
+          "source": "WV_GGN",
+          "quote": "Medanta Sector 32"
+        },
+        {
+          "source": "WV_GGN",
+          "quote": "Artemis Sector 51"
+        },
+        {
+          "source": "WV_GGN",
+          "quote": "Civil Civil Lines"
+        }
+      ]
+    },
+    "HDG5": {
+      "place": "haryana/gurugram",
+      "topic": "HDG5",
+      "claim": "Cyber Hub has dining from street food stalls to gourmet restaurants; Sultanpur National Park has over 250 bird species; Gurugram suits history buffs, business travellers and leisure seekers.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_GGN",
+          "quote": "Cyber Hub, a food and entertainment destination that offers a tantalizing array of dining options, from street food stalls to gourmet restaurants"
+        },
+        {
+          "source": "II_GGN",
+          "quote": "a bird sanctuary that is home to over 250 species of birds"
+        },
+        {
+          "source": "II_GGN",
+          "quote": "Whether you're a history buff, a business traveller, or a leisure seeker"
+        }
+      ]
     }
   },
   "places": [
@@ -1029,6 +1143,131 @@
           "text": "Haryana Tourism runs the Barbet motel on the Delhi–Alwar highway and the Bird Sanctuary Tourist Resort.",
           "facts": [
             "GGU2"
+          ]
+        },
+        "key_facts": {
+          "items": [
+            {
+              "title": "Winter",
+              "body": "Early November to mid-February; cold, foggy nights",
+              "status": "seasonal"
+            },
+            {
+              "title": "Pleasant months",
+              "body": "March and April",
+              "status": "seasonal"
+            },
+            {
+              "title": "Summer",
+              "body": "May to July, often above 40 °C",
+              "status": "seasonal"
+            },
+            {
+              "title": "Monsoon",
+              "body": "Mid-July to mid-September",
+              "status": "seasonal"
+            },
+            {
+              "title": "Metro",
+              "body": "Delhi Metro Yellow Line + Rapid Metro",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "HDG1",
+            "HDG2",
+            "HDG3"
+          ]
+        },
+        "best_time": {
+          "text": "March–April is pleasant. Winter (November to mid-February) is cold, with fog that can last up to 7 hours at night. May to July often tops 40 °C, and the monsoon runs from mid-July to mid-September.",
+          "facts": [
+            "HDG1",
+            "HDG2"
+          ]
+        },
+        "local_transport": {
+          "text": "Delhi Metro's Yellow Line has five stations in Gurugram, including Millennium City Centre, IFFCO Chowk and MG Road. The 11.7 km Rapid Metro loop has eleven stations and meets the Yellow Line at Sikanderpur.",
+          "facts": [
+            "HDG3"
+          ]
+        },
+        "food": {
+          "items": [
+            {
+              "body": "Cyber Hub: street-food stalls to gourmet restaurants in one place."
+            }
+          ],
+          "facts": [
+            "HDG5"
+          ]
+        },
+        "safety_health": {
+          "items": [
+            {
+              "title": "Helplines",
+              "body": "112 for police and emergencies; 1091 is the women's helpline.",
+              "status": "verified"
+            },
+            {
+              "title": "Hospitals",
+              "body": "Medanta (Sector 32), Artemis (Sector 51) and the Civil Hospital (Civil Lines).",
+              "status": "verified"
+            },
+            {
+              "title": "Winter fog",
+              "body": "Night fog can last up to 7 hours — allow extra time on the roads.",
+              "status": "seasonal"
+            },
+            {
+              "title": "Heat",
+              "body": "May–July often tops 40 °C.",
+              "status": "seasonal"
+            }
+          ],
+          "facts": [
+            "HDG4",
+            "HDG1"
+          ]
+        },
+        "who_its_for": {
+          "items": [
+            {
+              "title": "Business travellers",
+              "body": "Cyber City and its business district."
+            },
+            {
+              "title": "Birdwatchers",
+              "body": "Sultanpur National Park, with over 250 species."
+            },
+            {
+              "title": "Food lovers",
+              "body": "Cyber Hub's restaurants and street food."
+            }
+          ],
+          "facts": [
+            "HDG5"
+          ]
+        },
+        "faqs": {
+          "items": [
+            {
+              "title": "Is there a metro in Gurugram?",
+              "body": "Yes — the Delhi Metro Yellow Line and the Rapid Metro loop, which meet at Sikanderpur."
+            },
+            {
+              "title": "When is the weather best?",
+              "body": "March and April are pleasant; winter nights can be very foggy."
+            },
+            {
+              "title": "What is the women's helpline number?",
+              "body": "1091; dial 112 for police."
+            }
+          ],
+          "facts": [
+            "HDG3",
+            "HDG1",
+            "HDG4"
           ]
         }
       },

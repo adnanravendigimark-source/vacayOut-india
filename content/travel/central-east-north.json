@@ -96,12 +96,12 @@
     },
     "II_KUR": {
       "url": "https://www.incredibleindia.gov.in/en/haryana/kurukshetra",
-      "title": "Kurukshetra — Incredible India (Ministry of Tourism, Government of India)",
+      "title": "Kurukshetra — Incredible India",
       "authority": "government"
     },
     "II_PNP": {
       "url": "https://www.incredibleindia.gov.in/en/haryana/panipat",
-      "title": "Panipat — Incredible India (Ministry of Tourism, Government of India)",
+      "title": "Panipat — Incredible India",
       "authority": "government"
     },
     "II_GGN": {
@@ -258,6 +258,21 @@
       "url": "https://en.wikivoyage.org/wiki/Chhattisgarh",
       "title": "Chhattisgarh — Wikivoyage",
       "authority": "reference"
+    },
+    "WV_KUR": {
+      "url": "https://en.wikivoyage.org/wiki/Kurukshetra",
+      "title": "Kurukshetra — Wikivoyage",
+      "authority": "reference"
+    },
+    "W_KUR": {
+      "url": "https://en.wikipedia.org/wiki/Kurukshetra",
+      "title": "Kurukshetra — Wikipedia",
+      "authority": "reference"
+    },
+    "HR_PNP2": {
+      "url": "https://haryanatourism.gov.in/destinations/panipat/",
+      "title": "Panipat — Haryana Tourism (Government of Haryana)",
+      "authority": "government"
     }
   },
   "facts": {
@@ -1871,6 +1886,226 @@
         {
           "source": "WV_CG",
           "quote": "travel with a guide if exploring tribal villages or deep forest areas"
+        }
+      ]
+    },
+    "HDK1": {
+      "place": "haryana/kurukshetra",
+      "topic": "HDK1",
+      "claim": "Shared auto-rickshaws are the only way to get around the city.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WV_KUR",
+          "quote": "Auto-rickshaws (three-wheelers, shared) are the only available option to move around the city."
+        }
+      ]
+    },
+    "HDK2": {
+      "place": "haryana/kurukshetra",
+      "topic": "HDK2",
+      "claim": "Try chaat around Brahma Sarovar and in Thanesar, chole bhature on Railway Road, and poori with petha and chole in the old city near Ambedkar Chowk.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WV_KUR",
+          "quote": "Chats around Bramha Sarovar and main city (Thanesar)"
+        },
+        {
+          "source": "WV_KUR",
+          "quote": "Chole Bhature on Railway Road"
+        },
+        {
+          "source": "WV_KUR",
+          "quote": "Poori with petha and chole in old city (near ambedkar chowk)"
+        }
+      ]
+    },
+    "HDK3": {
+      "place": "haryana/kurukshetra",
+      "topic": "HDK3",
+      "claim": "Haryanvi staples include wheat or bajra roti with singri ki sabzi and cholia, kadhi pakora, sarson ka saag, and sweets such as meethe chawal, churma, ghewar and kheer.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_KUR",
+          "quote": "Pair your rotis with traditional dishes like Singri ki sabzi and Cholia."
+        },
+        {
+          "source": "II_KUR",
+          "quote": "Do not miss Kadhi Pakora"
+        },
+        {
+          "source": "II_KUR",
+          "quote": "Sweets like Meethe Chawal (Sweet Rice), Churma, and Ghewar add a delightful end to any meal"
+        },
+        {
+          "source": "II_KUR",
+          "quote": "no Haryanvi feast is complete without a bowl of Kheer"
+        }
+      ]
+    },
+    "HDK4": {
+      "place": "haryana/kurukshetra",
+      "topic": "HDK4",
+      "claim": "Since 2017 Kurukshetra has been a holy city where selling, possessing and eating meat is banned within municipal limits.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "W_KUR",
+          "quote": "In 2017, the government declared Kurukshetra a holy city and the sale, possession, and consumption of meat are banned within the limits of the Municipal Corporation due to its religious significance."
+        }
+      ]
+    },
+    "HDK5": {
+      "place": "haryana/kurukshetra",
+      "topic": "HDK5",
+      "claim": "The International Gita Mahotsav is held every year on Shukla Ekadashi of Margashirsha; lakhs bathe at Brahma Sarovar on Somavati Amavasya and solar eclipses.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "W_KUR",
+          "quote": "The International Gita Mahotsav, held every year in Kururukshetra on the Shukla Ekadashi"
+        },
+        {
+          "source": "W_KUR",
+          "quote": "the 11th day of the waxing moon of the Margashirsha (Agrahayan) month of the Hindu calendar"
+        },
+        {
+          "source": "W_KUR",
+          "quote": "Every year lakhs (hundreds of thousands) of people come to take a holy bath at Brahma Sarovar on the occasion of"
+        }
+      ]
+    },
+    "HDK6": {
+      "place": "haryana/kurukshetra",
+      "topic": "HDK6",
+      "claim": "Summer can reach 47 °C and winter 1 °C; April to June often tops 40 °C.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "W_KUR",
+          "quote": "the temperature in summer reaches as high as 47 °C"
+        },
+        {
+          "source": "W_KUR",
+          "quote": "as low 1 °C"
+        },
+        {
+          "source": "II_KUR",
+          "quote": "Avoid visiting in the summer (April to June) as temperatures can soar above 40°C"
+        }
+      ]
+    },
+    "HDK7": {
+      "place": "haryana/kurukshetra",
+      "topic": "HDK7",
+      "claim": "Kurukshetra suits pilgrims, history enthusiasts and wanderers.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_KUR",
+          "quote": "Whether one visits as a pilgrim, a history enthusiast, or a wanderer"
+        }
+      ]
+    },
+    "HDKE": {
+      "place": "haryana/kurukshetra",
+      "topic": "HDKE",
+      "claim": "112 is India's single emergency number for police, fire and ambulance.",
+      "claimType": "contact",
+      "evidence": [
+        {
+          "source": "W_112",
+          "quote": "112 is now the pan-country single emergency number for all emergencies."
+        }
+      ]
+    },
+    "HDP1": {
+      "place": "haryana/panipat",
+      "topic": "HDP1",
+      "claim": "Panipat, on the Grand Trunk Road about 90 km north of Delhi, is known as the 'City of Weavers' and the 'Textile City of India' for its carpets, rugs and durries; it saw three decisive battles in 1526, 1556 and 1761.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_PNP",
+          "quote": "On the historic Grand Trunk Road, about 90 km north of Delhi"
+        },
+        {
+          "source": "II_PNP",
+          "quote": "Known as the “City of Weavers”"
+        },
+        {
+          "source": "II_PNP",
+          "quote": "Panipat is celebrated as the “Textile City of India.”"
+        },
+        {
+          "source": "II_PNP",
+          "quote": "the city produces world-class carpets, rugs, and durries"
+        }
+      ]
+    },
+    "HDP2": {
+      "place": "haryana/panipat",
+      "topic": "HDP2",
+      "claim": "Winter lows reach 4.4 °C and summer highs 42.4 °C.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "HR_PNP2",
+          "quote": "Winter : 4.4° C | Summer: 42.4° C"
+        }
+      ]
+    },
+    "HDP3": {
+      "place": "haryana/panipat",
+      "topic": "HDP3",
+      "claim": "Start with ghee-laden stuffed paranthas and lassi; dhabas serve dal makhani, paneer butter masala and tandoori dishes; sweet shops sell gajar ka halwa, pinni and jalebis; street food includes chaat, golgappas and samosas.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_PNP",
+          "quote": "Start your day with stuffed paranthas dripping with ghee , paired with a glass of creamy lassi"
+        },
+        {
+          "source": "II_PNP",
+          "quote": "savor dal makhani , paneer butter masala , and tandoori delights at local dhabas"
+        },
+        {
+          "source": "II_PNP",
+          "quote": "Sweet lovers can indulge in gajar ka halwa , pinni , and piping hot jalebis from traditional sweet shops."
+        },
+        {
+          "source": "II_PNP",
+          "quote": "think spicy chaat, golgappas, and samosas"
+        }
+      ]
+    },
+    "HDP4": {
+      "place": "haryana/panipat",
+      "topic": "HDP4",
+      "claim": "Panipat suits history buffs, culture enthusiasts and shoppers; summers can be harsh.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_PNP",
+          "quote": "Whether you’re a history buff, a culture enthusiast, or a shopaholic"
+        },
+        {
+          "source": "II_PNP",
+          "quote": "Summers can be harsh"
+        }
+      ]
+    },
+    "HDPE": {
+      "place": "haryana/panipat",
+      "topic": "HDPE",
+      "claim": "112 is India's single emergency number for police, fire and ambulance.",
+      "claimType": "contact",
+      "evidence": [
+        {
+          "source": "W_112",
+          "quote": "112 is now the pan-country single emergency number for all emergencies."
         }
       ]
     }
@@ -3907,6 +4142,109 @@
           "facts": [
             "GKU3"
           ]
+        },
+        "local_transport": {
+          "text": "Shared auto-rickshaws are the only way to get around town.",
+          "facts": [
+            "HDK1"
+          ]
+        },
+        "food": {
+          "items": [
+            {
+              "body": "Chaat around Brahma Sarovar and in Thanesar."
+            },
+            {
+              "body": "Chole bhature on Railway Road; poori with petha and chole near Ambedkar Chowk."
+            },
+            {
+              "body": "Haryanvi staples: bajra roti, singri ki sabzi, kadhi pakora, sarson ka saag."
+            },
+            {
+              "body": "Sweets: churma, ghewar, meethe chawal and kheer."
+            },
+            {
+              "body": "Meat is banned within municipal limits."
+            }
+          ],
+          "facts": [
+            "HDK2",
+            "HDK3",
+            "HDK4"
+          ]
+        },
+        "safety_health": {
+          "items": [
+            {
+              "title": "Heat",
+              "body": "April to June often tops 40 °C, and summer can reach 47 °C.",
+              "status": "seasonal"
+            },
+            {
+              "title": "Cold",
+              "body": "Winter nights can drop to 1 °C.",
+              "status": "seasonal"
+            },
+            {
+              "title": "Crowds",
+              "body": "Lakhs bathe at Brahma Sarovar on Somavati Amavasya and during solar eclipses.",
+              "status": "seasonal"
+            },
+            {
+              "title": "Emergency",
+              "body": "Dial 112 for police, fire or ambulance.",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "HDK6",
+            "HDK5",
+            "HDKE"
+          ]
+        },
+        "who_its_for": {
+          "items": [
+            {
+              "title": "Pilgrims",
+              "body": "Brahma Sarovar, Jyotisar and the Bhadrakali Shakti Peeth."
+            },
+            {
+              "title": "History enthusiasts",
+              "body": "The Mahabharata battlefield and Sheikh Chilli's Tomb."
+            },
+            {
+              "title": "Families",
+              "body": "The Panorama and Science Centre and the Kalpana Chawla Planetarium."
+            }
+          ],
+          "facts": [
+            "HDK7"
+          ]
+        },
+        "faqs": {
+          "items": [
+            {
+              "title": "How do I get around Kurukshetra?",
+              "body": "By shared auto-rickshaw."
+            },
+            {
+              "title": "Can I eat meat in Kurukshetra?",
+              "body": "No — it is banned within municipal limits."
+            },
+            {
+              "title": "When is the Gita Mahotsav?",
+              "body": "Every year on Shukla Ekadashi of Margashirsha (usually November–December)."
+            },
+            {
+              "title": "When are the biggest crowds at Brahma Sarovar?",
+              "body": "On Somavati Amavasya and during solar eclipses."
+            }
+          ],
+          "facts": [
+            "HDK1",
+            "HDK4",
+            "HDK5"
+          ]
         }
       },
       "wikidataId": "Q593256"
@@ -4003,6 +4341,122 @@
           "text": "Haryana Tourism runs the Blue Jay motel on the Delhi–Ambala highway and Skylark in Panipat.",
           "facts": [
             "GPN2"
+          ]
+        },
+        "key_facts": {
+          "items": [
+            {
+              "title": "Location",
+              "body": "On the GT Road (NH-44), about 90 km north of Delhi",
+              "status": "verified"
+            },
+            {
+              "title": "Known as",
+              "body": "City of Weavers; Textile City of India",
+              "status": "verified"
+            },
+            {
+              "title": "Battles",
+              "body": "1526, 1556 and 1761",
+              "status": "verified"
+            },
+            {
+              "title": "Winter low",
+              "body": "4.4 °C",
+              "status": "seasonal"
+            },
+            {
+              "title": "Summer high",
+              "body": "42.4 °C",
+              "status": "seasonal"
+            }
+          ],
+          "facts": [
+            "HDP1",
+            "HDP2"
+          ]
+        },
+        "food": {
+          "items": [
+            {
+              "body": "Breakfast: stuffed paranthas with ghee and a glass of lassi."
+            },
+            {
+              "body": "Dhabas: dal makhani, paneer butter masala, tandoori dishes."
+            },
+            {
+              "body": "Sweets: gajar ka halwa, pinni and hot jalebis."
+            },
+            {
+              "body": "Street food: chaat, golgappas, samosas."
+            }
+          ],
+          "facts": [
+            "HDP3"
+          ]
+        },
+        "safety_health": {
+          "items": [
+            {
+              "title": "Heat",
+              "body": "Summers can be harsh, up to 42.4 °C.",
+              "status": "seasonal"
+            },
+            {
+              "title": "Cold",
+              "body": "Winter lows reach 4.4 °C.",
+              "status": "seasonal"
+            },
+            {
+              "title": "Emergency",
+              "body": "Dial 112 for police, fire or ambulance.",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "HDP4",
+            "HDP2",
+            "HDPE"
+          ]
+        },
+        "who_its_for": {
+          "items": [
+            {
+              "title": "History buffs",
+              "body": "Three battlefields, Kabuli Bagh and Ibrahim Lodi's grave."
+            },
+            {
+              "title": "Shoppers",
+              "body": "Carpets, rugs, durries and shawls from the Textile City."
+            },
+            {
+              "title": "Culture lovers",
+              "body": "Fairs with folk dance and wrestling."
+            }
+          ],
+          "facts": [
+            "HDP4",
+            "HDP1"
+          ]
+        },
+        "faqs": {
+          "items": [
+            {
+              "title": "Why is Panipat called the Textile City?",
+              "body": "For its handloom industry — carpets, rugs and durries."
+            },
+            {
+              "title": "How far is Panipat from Delhi?",
+              "body": "About 90 km north, on the GT Road."
+            },
+            {
+              "title": "What should I eat?",
+              "body": "Stuffed paranthas with lassi, dhaba dal makhani, and gajar ka halwa."
+            }
+          ],
+          "facts": [
+            "HDP1",
+            "HDP3"
           ]
         }
       },
