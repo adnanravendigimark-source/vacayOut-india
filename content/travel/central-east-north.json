@@ -193,6 +193,16 @@
       "url": "https://www.incredibleindia.gov.in/en/jharkhand/deoghar",
       "title": "Deoghar — Incredible India",
       "authority": "government"
+    },
+    "HR_KUR": {
+      "url": "https://haryanatourism.gov.in/destinations/kurukshetra/",
+      "title": "Kurukshetra — Haryana Tourism (Government of Haryana)",
+      "authority": "government"
+    },
+    "HR_PAN": {
+      "url": "https://haryanatourism.gov.in/destinations/panipat/",
+      "title": "Panipat — Haryana Tourism (Government of Haryana)",
+      "authority": "government"
     }
   },
   "facts": {
@@ -1274,6 +1284,102 @@
         {
           "source": "II_DEG",
           "quote": "Deoghar Junction Railway Station (DGHR)"
+        }
+      ]
+    },
+    "GKU1": {
+      "place": "haryana/kurukshetra",
+      "topic": "GKU1",
+      "claim": "Chandigarh has the nearest airport; Kurukshetra is a railway junction with Shatabdi, Kalka Mail and Himalayan Queen services; Haryana Roadways buses link Delhi and Chandigarh; the town is reached from NH 1 via Pipli.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "HR_KUR",
+          "quote": "Nearest airport is situated at Chandigarh."
+        },
+        {
+          "source": "HR_KUR",
+          "quote": "Some of the trains that pass through this station are Shatabadi Express, Amritsar Express, Jhelum Express, Kalka Mail and Himalayan Queen."
+        },
+        {
+          "source": "HR_KUR",
+          "quote": "Haryana Roadways and other State Corporation buses connect Kurukshetra with Delhi, Chandigarh"
+        },
+        {
+          "source": "HR_KUR",
+          "quote": "Kurukshetra is located on the linking road from National Highway No. 1 through Pipli"
+        }
+      ]
+    },
+    "GKU2": {
+      "place": "haryana/kurukshetra",
+      "topic": "GKU2",
+      "claim": "Haryana Tourism runs Neelkanthi Krishna Dham Yatri Niwas and Parakeet in Kurukshetra and Anjan Yatrika at Pehowa.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "HR_KUR",
+          "quote": "Neelkanthi Krishna Dham Yatri Niwas (154 kms.from Delhi)Kurukshetra"
+        },
+        {
+          "source": "HR_KUR",
+          "quote": "Parakeet (152 kms.from Delhi)Kurukshetra"
+        },
+        {
+          "source": "HR_KUR",
+          "quote": "Anjan Yatrika (110 kms. from Chandigarh) Pehowa"
+        }
+      ]
+    },
+    "GKU3": {
+      "place": "haryana/kurukshetra",
+      "topic": "GKU3",
+      "claim": "Winters run 7–22 °C, summers 35–42 °C, and the monsoon lasts June to September.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "HR_KUR",
+          "quote": "Monsoon: June till September | Winter: 7° to 22°C | Summer: 35° to 42°C"
+        }
+      ]
+    },
+    "GPN1": {
+      "place": "haryana/panipat",
+      "topic": "GPN1",
+      "claim": "Panipat is 90 km north of Delhi on NH 1; Delhi's IGI airport is 99 km away; Panipat Junction has Shatabdi and Jhelum Express services; best October to March.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "HR_PAN",
+          "quote": "Panipat is 90 kms. North of Delhi located on the National Highway No. 1"
+        },
+        {
+          "source": "HR_PAN",
+          "quote": "Indira Gandhi International airport is at a and distance of 99 kms"
+        },
+        {
+          "source": "HR_PAN",
+          "quote": "Unchahar Express, Mussoorie Express, Jhelum Express, Shatabadi are some of the trains that stop at this junction."
+        },
+        {
+          "source": "HR_PAN",
+          "quote": "Best season to visit: Oct-Mar."
+        }
+      ]
+    },
+    "GPN2": {
+      "place": "haryana/panipat",
+      "topic": "GPN2",
+      "claim": "Haryana Tourism runs the Blue Jay motel (70 km from Delhi on the Delhi–Ambala highway) and Skylark in Panipat.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "HR_PAN",
+          "quote": "Blue Jay (70 kms.from Delhi on Delhi-Ambala highway) Panipat"
+        },
+        {
+          "source": "HR_PAN",
+          "quote": "Skylark (92 kms.from Delhi) Panipat"
         }
       ]
     }
@@ -2948,6 +3054,40 @@
             "PNP1",
             "SUL1"
           ]
+        },
+        "how_to_reach": {
+          "text": "The nearest airport is Chandigarh. Kurukshetra is a railway junction served by the Shatabdi, Amritsar Express, Jhelum Express, Kalka Mail and Himalayan Queen. Haryana Roadways and other state buses connect it with Delhi and Chandigarh; by road, turn off NH 1 at Pipli.",
+          "facts": [
+            "GKU1"
+          ]
+        },
+        "where_to_stay": {
+          "text": "Haryana Tourism runs the Neelkanthi Krishna Dham Yatri Niwas and the Parakeet motel in Kurukshetra, and Anjan Yatrika at nearby Pehowa.",
+          "facts": [
+            "GKU2"
+          ]
+        },
+        "key_facts": {
+          "items": [
+            {
+              "title": "Winter",
+              "body": "7–22 °C",
+              "status": "verified"
+            },
+            {
+              "title": "Summer",
+              "body": "35–42 °C",
+              "status": "verified"
+            },
+            {
+              "title": "Monsoon",
+              "body": "June–September",
+              "status": "seasonal"
+            }
+          ],
+          "facts": [
+            "GKU3"
+          ]
         }
       },
       "wikidataId": "Q593256"
@@ -3026,6 +3166,24 @@
             "HR1",
             "HR2",
             "KUR2"
+          ]
+        },
+        "how_to_reach": {
+          "text": "Panipat is 90 km north of Delhi on NH 1. Delhi's IGI airport is 99 km away. Panipat Junction is served by trains such as the Shatabdi, Jhelum Express, Mussoorie Express and Unchahar Express.",
+          "facts": [
+            "GPN1"
+          ]
+        },
+        "best_time": {
+          "text": "October to March.",
+          "facts": [
+            "GPN1"
+          ]
+        },
+        "where_to_stay": {
+          "text": "Haryana Tourism runs the Blue Jay motel on the Delhi–Ambala highway and Skylark in Panipat.",
+          "facts": [
+            "GPN2"
           ]
         }
       },

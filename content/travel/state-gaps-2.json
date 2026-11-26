@@ -153,6 +153,11 @@
       "url": "https://www.incredibleindia.gov.in/en/andaman-and-nicobar-islands/rangat/dhani-nallah-mangrove-nature-walkway",
       "title": "Dhani Nallah Mangrove Nature Walkway — Incredible India (Ministry of Tourism, Government of India)",
       "authority": "government"
+    },
+    "HR_GUR": {
+      "url": "https://haryanatourism.gov.in/destinations/gurgaon/",
+      "title": "Gurugram — Haryana Tourism (Government of Haryana)",
+      "authority": "government"
     }
   },
   "facts": {
@@ -756,6 +761,46 @@
           "quote": "including Balushahi, Khurma, Akhrot Barfi and Petha"
         }
       ]
+    },
+    "GGU1": {
+      "place": "haryana/gurugram",
+      "topic": "GGU1",
+      "claim": "Delhi's IGI airport is about 15 km from Gurugram; Gurugram station links Rewari and Delhi Cantt with trains such as the Ajmer Shatabdi; an eight-lane expressway joins Delhi to NH 8.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "HR_GUR",
+          "quote": "The nearest airport is Indira Gandhi International Airport (IGI) at New Delhi, which is about 15 km from Gurugram."
+        },
+        {
+          "source": "HR_GUR",
+          "quote": "the Gurugram Railway Station connects Rewari in the South and Delhi Cantt in the North"
+        },
+        {
+          "source": "HR_GUR",
+          "quote": "Ajmer Shatabadi"
+        },
+        {
+          "source": "HR_GUR",
+          "quote": "An eight-lane expressway between New Delhi and Gurugram connects the National Highway No. 8"
+        }
+      ]
+    },
+    "GGU2": {
+      "place": "haryana/gurugram",
+      "topic": "GGU2",
+      "claim": "Haryana Tourism runs Barbet (56 km from Delhi on the Delhi–Alwar highway) and the Bird Sanctuary Tourist Resort.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "HR_GUR",
+          "quote": "Barbet (56 kms. from Delhi on Delhi-Alwar highway)Gurgaon"
+        },
+        {
+          "source": "HR_GUR",
+          "quote": "Bird Sanctuary Tourist Resort (46 kms. from Delhi)Gurgaon"
+        }
+      ]
     }
   },
   "places": [
@@ -844,6 +889,18 @@
             "HR1",
             "HR2",
             "GGN2"
+          ]
+        },
+        "how_to_reach": {
+          "text": "Delhi's Indira Gandhi International Airport is about 15 km away. Gurugram railway station links Rewari and Delhi Cantonment, with trains such as the Ajmer Shatabdi. An eight-lane expressway joins New Delhi to NH 8.",
+          "facts": [
+            "GGU1"
+          ]
+        },
+        "where_to_stay": {
+          "text": "Haryana Tourism runs the Barbet motel on the Delhi–Alwar highway and the Bird Sanctuary Tourist Resort.",
+          "facts": [
+            "GGU2"
           ]
         }
       },
