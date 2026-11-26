@@ -51,7 +51,7 @@
     },
     "II_RAN": {
       "url": "https://www.incredibleindia.gov.in/en/jharkhand/ranchi",
-      "title": "Ranchi — Incredible India (Ministry of Tourism, Government of India)",
+      "title": "Ranchi — Incredible India",
       "authority": "government"
     },
     "II_DEO": {
@@ -177,6 +177,21 @@
     "CG_BAS2": {
       "url": "https://tourism.cgstate.gov.in/destinations/Bastar",
       "title": "Bastar — Chhattisgarh Tourism Board (Government of Chhattisgarh)",
+      "authority": "government"
+    },
+    "II_JSR": {
+      "url": "https://www.incredibleindia.gov.in/en/jharkhand/jamshedpur",
+      "title": "Jamshedpur — Incredible India",
+      "authority": "government"
+    },
+    "II_JSF": {
+      "url": "https://www.incredibleindia.gov.in/en/jharkhand/jamshedpur/discovering-local-food-delicacies-in-jamshedpur",
+      "title": "Discovering local food delicacies in Jamshedpur — Incredible India",
+      "authority": "government"
+    },
+    "II_DEG": {
+      "url": "https://www.incredibleindia.gov.in/en/jharkhand/deoghar",
+      "title": "Deoghar — Incredible India",
       "authority": "government"
     }
   },
@@ -1117,6 +1132,150 @@
           "quote": "Dancing Cactus Art Center"
         }
       ]
+    },
+    "GRN1": {
+      "place": "jharkhand/ranchi",
+      "topic": "GRN1",
+      "claim": "The ideal time to visit Ranchi is October to March, when the weather is cool.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_RAN",
+          "quote": "The ideal time to visit Ranchi is from October to March"
+        }
+      ]
+    },
+    "GRN2": {
+      "place": "jharkhand/ranchi",
+      "topic": "GRN2",
+      "claim": "Local dishes include chilka roti, dhuska, tilkut, anarsa and mitha khaja; the food streets around Albert Ekka Chowk come alive at night.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_RAN",
+          "quote": "dishes like the traditional Chilka Roti, Dhuska, Tilkut, Anarsa, and Mitha Khaja"
+        },
+        {
+          "source": "II_RAN",
+          "quote": "The bustling food streets of Ranchi, especially around Albert Ekka Chowk, come alive at night"
+        }
+      ]
+    },
+    "GRN3": {
+      "place": "jharkhand/ranchi",
+      "topic": "GRN3",
+      "claim": "Birsa Munda Airport and Ranchi Junction serve the city.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_RAN",
+          "quote": "Birsa Munda Airport (IXR), Ranchi"
+        },
+        {
+          "source": "II_RAN",
+          "quote": "Ranchi Junction Railway Station (RNC)"
+        }
+      ]
+    },
+    "GJS1": {
+      "place": "jharkhand/jamshedpur",
+      "topic": "GJS1",
+      "claim": "Best October to February, with temperatures of about 10–28 °C.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_JSR",
+          "quote": "The best time to visit Jamshedpur is during the winter months from October to February"
+        },
+        {
+          "source": "II_JSR",
+          "quote": "with temperatures ranging from 10°C to 28°C"
+        }
+      ]
+    },
+    "GJS2": {
+      "place": "jharkhand/jamshedpur",
+      "topic": "GJS2",
+      "claim": "Birsa Munda Airport in Ranchi, about 150 km away, is the nearest commercial airport (Sonari airport takes private and charter flights); Tatanagar Junction links Kolkata, Mumbai, Delhi and Chennai; NH 33 serves the city by road.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_JSR",
+          "quote": "the Birsa Munda Airport in Ranchi, approximately 150 kilometers away, serves as the nearest commercial airport"
+        },
+        {
+          "source": "II_JSR",
+          "quote": "The nearest airport is Sonari Airport in Jamshedpur, catering to private and charter flights."
+        },
+        {
+          "source": "II_JSR",
+          "quote": "Tatanagar Junction is a major and busy railway station connecting Jamshedpur to key cities like Kolkata, Mumbai, Delhi, and Chennai"
+        },
+        {
+          "source": "II_JSR",
+          "quote": "Road travelers can access Jamshedpur via National Highway 33"
+        }
+      ]
+    },
+    "GJS3": {
+      "place": "jharkhand/jamshedpur",
+      "topic": "GJS3",
+      "claim": "Sakchi, Bistupur and Jubilee Park markets are known for street food such as litti chokha and gugni; Bangla Ranna serves Bengali fish curry.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_JSF",
+          "quote": "Sakchi, Bistupur, and Jubilee Park Markets are celebrated destinations for those seeking authentic regional cuisine"
+        },
+        {
+          "source": "II_JSF",
+          "quote": "be sure to try the iconic Litti Chokha"
+        },
+        {
+          "source": "II_JSF",
+          "quote": "Gugni, a delightful street food made from white peas"
+        },
+        {
+          "source": "II_JSR",
+          "quote": "For authentic Bengali cuisine, one should not miss the Bangla Ranna"
+        }
+      ]
+    },
+    "GDG1": {
+      "place": "jharkhand/deoghar",
+      "topic": "GDG1",
+      "claim": "Deoghar, about 240 km from Ranchi, is home to Baba Baidyanath Dham, one of the 12 Jyotirlingas, and is also a Shakti peetha; the 72-foot main temple is the largest of a complex of 22.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_DEG",
+          "quote": "This holy city, roughly 240 km from Ranchi"
+        },
+        {
+          "source": "II_DEG",
+          "quote": "one of the twelve revered Jyotirlingas"
+        },
+        {
+          "source": "II_DEG",
+          "quote": "The city is also a prominent Shaktipeeth"
+        },
+        {
+          "source": "II_DEG",
+          "quote": "At 72 feet tall, it's the largest among a complex of 22 temples"
+        }
+      ]
+    },
+    "GDG2": {
+      "place": "jharkhand/deoghar",
+      "topic": "GDG2",
+      "claim": "Deoghar Junction is the railway station.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_DEG",
+          "quote": "Deoghar Junction Railway Station (DGHR)"
+        }
+      ]
     }
   },
   "places": [
@@ -1936,6 +2095,34 @@
             "BET1",
             "HAZ1"
           ]
+        },
+        "best_time": {
+          "text": "October to March, when the autumn and winter weather is pleasantly cool.",
+          "facts": [
+            "GRN1"
+          ]
+        },
+        "food": {
+          "items": [
+            {
+              "body": "Chilka roti and dhuska, Jharkhand favourites."
+            },
+            {
+              "body": "Tilkut, anarsa and mitha khaja for something sweet."
+            },
+            {
+              "body": "Night street food around Albert Ekka Chowk."
+            }
+          ],
+          "facts": [
+            "GRN2"
+          ]
+        },
+        "how_to_reach": {
+          "text": "Birsa Munda Airport (IXR) serves Ranchi, and Ranchi Junction is the main railway station.",
+          "facts": [
+            "GRN3"
+          ]
         }
       },
       "wikidataId": "Q174461",
@@ -2104,6 +2291,41 @@
             "DAS1",
             "BET1",
             "HAZ1"
+          ]
+        },
+        "key_facts": {
+          "items": [
+            {
+              "title": "From Ranchi",
+              "body": "About 240 km",
+              "status": "verified"
+            },
+            {
+              "title": "Main temple",
+              "body": "Baba Baidyanath Dham (Jyotirlinga), 72 ft",
+              "status": "verified"
+            },
+            {
+              "title": "Temple complex",
+              "body": "22 temples",
+              "status": "verified"
+            },
+            {
+              "title": "Railway",
+              "body": "Deoghar Junction",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "GDG1",
+            "GDG2"
+          ]
+        },
+        "how_to_reach": {
+          "text": "Deoghar Junction is the town's railway station. By road, Deoghar is about 240 km from Ranchi.",
+          "facts": [
+            "GDG2",
+            "GDG1"
           ]
         }
       },
@@ -2435,6 +2657,37 @@
             "DAS1",
             "DEO1",
             "BET1"
+          ]
+        },
+        "best_time": {
+          "text": "October to February, when temperatures range from about 10 °C to 28 °C.",
+          "facts": [
+            "GJS1"
+          ]
+        },
+        "how_to_reach": {
+          "text": "The nearest commercial airport is Birsa Munda Airport in Ranchi, about 150 km away; Sonari airport in Jamshedpur handles private and charter flights. Tatanagar Junction has express and superfast trains to Kolkata, Mumbai, Delhi and Chennai, and NH 33 links the city by road.",
+          "facts": [
+            "GJS2"
+          ]
+        },
+        "food": {
+          "items": [
+            {
+              "body": "Litti chokha, wheat and gram-flour balls with spiced mashed vegetables."
+            },
+            {
+              "body": "Gugni, made from white peas."
+            },
+            {
+              "body": "Street food in Sakchi, Bistupur and Jubilee Park markets."
+            },
+            {
+              "body": "Bengali fish curry and rice at Bangla Ranna."
+            }
+          ],
+          "facts": [
+            "GJS3"
           ]
         }
       },
