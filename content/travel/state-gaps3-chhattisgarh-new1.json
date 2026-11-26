@@ -88,6 +88,36 @@
       "url": "https://en.wikipedia.org/wiki/Malhar,_Chhattisgarh",
       "title": "Malhar, Chhattisgarh — Wikipedia",
       "authority": "reference"
+    },
+    "W_MNP3": {
+      "url": "https://en.wikipedia.org/wiki/Mainpat",
+      "title": "Mainpat — Wikipedia",
+      "authority": "reference"
+    },
+    "EVISA": {
+      "url": "https://indianvisaonline.gov.in/evisa/tvoa.html",
+      "title": "Indian e-Visa — official information (Government of India)",
+      "authority": "government"
+    },
+    "UPI": {
+      "url": "https://www.aap.com.au/aapreleases/cision20240723ae67416/",
+      "title": "NPCI: 'UPI One World' wallet available to inbound international travellers (press release, 24 July 2024)",
+      "authority": "media"
+    },
+    "W_112": {
+      "url": "https://en.wikipedia.org/wiki/112_(emergency_telephone_number)",
+      "title": "112 (emergency telephone number) — Wikipedia",
+      "authority": "reference"
+    },
+    "W_RKM3": {
+      "url": "https://en.wikipedia.org/wiki/Rajim_Kumbh_Mela",
+      "title": "Rajim Kumbh Mela — Wikipedia",
+      "authority": "reference"
+    },
+    "WV_MNP": {
+      "url": "https://en.wikivoyage.org/wiki/Mainpat",
+      "title": "Mainpat — Wikivoyage",
+      "authority": "reference"
     }
   },
   "facts": {
@@ -742,6 +772,278 @@
           "quote": "holding a shankha (conch), chakra (discus), and gada (mace)"
         }
       ]
+    },
+    "CMN1": {
+      "place": "chhattisgarh/mainpat",
+      "topic": "CMN1",
+      "claim": "Mainpat is about 55 km by road from Ambikapur and 360 km from Raipur; Ambikapur has the nearest bus terminal (where tourist vehicles can be booked), railway station and airport.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "W_MNP3",
+          "quote": "It lies about 55 kilometres (34 mi) by road from the divisional headquarter of Ambikapur."
+        },
+        {
+          "source": "W_MNP3",
+          "quote": "360 km northeast of state capital Raipur"
+        },
+        {
+          "source": "W_MNP3",
+          "quote": "Nearest bus stand is Ambikapur Bus Terminal from where tourist vehicles can be booked"
+        },
+        {
+          "source": "W_MNP3",
+          "quote": "Nearest Railway station is Ambikapur Railway station"
+        }
+      ]
+    },
+    "CMN2": {
+      "place": "chhattisgarh/mainpat",
+      "topic": "CMN2",
+      "claim": "The nearest airport is at Ambikapur.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "W_MNP3",
+          "quote": "Nearest Airport is Ambikapur Airport"
+        }
+      ]
+    },
+    "CMN3": {
+      "place": "chhattisgarh/mainpat",
+      "topic": "CMN3",
+      "claim": "Mainpat has developed roads and rest houses for travellers, and offers trekking, zorbing and rappelling.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "W_MNP3",
+          "quote": "Recently, the village has developed infrastructure like roads and rest houses for travelers."
+        },
+        {
+          "source": "W_MNP3",
+          "quote": "Here one can easily find a lot of adventure sports like trekking, zorbing ball, rappelling, etc."
+        }
+      ]
+    },
+    "CMN4": {
+      "place": "chhattisgarh/mainpat",
+      "topic": "CMN4",
+      "claim": "Called the 'Shimla of Chhattisgarh', Mainpat is home to Tibetan exiles who worship at a Buddhist temple.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "W_MNP3",
+          "quote": "Shimla/Swiss of Chhattisgarh"
+        },
+        {
+          "source": "W_MNP3",
+          "quote": "It is also home to a number of Tibetan religious exiles who worship at a temple dedicated to Buddha"
+        }
+      ]
+    },
+    "CMNV": {
+      "place": "chhattisgarh/mainpat",
+      "topic": "CMNV",
+      "claim": "e-Tourist visa applications should be made at least 4 days before arrival, with a passport valid for at least six months.",
+      "claimType": "rule",
+      "evidence": [
+        {
+          "source": "EVISA",
+          "quote": "For e-Tourist and e-Business visa, Applicants of the eligible countries/territories may apply online minimum 4 days in advance of the date of arrival."
+        },
+        {
+          "source": "EVISA",
+          "quote": "Applicant's passport should have at least six months validity at the time of making application for grant of e-Visa."
+        }
+      ]
+    },
+    "CMNU": {
+      "place": "chhattisgarh/mainpat",
+      "topic": "CMNU",
+      "claim": "International visitors can pay by QR code using NPCI's UPI One World wallet after a passport-and-visa KYC check.",
+      "claimType": "rule",
+      "evidence": [
+        {
+          "source": "UPI",
+          "quote": "The UPI One World wallet can be availed through authorized PPI issuers at airports, hotels, designated money exchange locations and other touchpoints, following a full KYC process based on a passport and valid visa."
+        }
+      ]
+    },
+    "CMNE": {
+      "place": "chhattisgarh/mainpat",
+      "topic": "CMNE",
+      "claim": "112 is India's single emergency number for police, fire and ambulance.",
+      "claimType": "contact",
+      "evidence": [
+        {
+          "source": "W_112",
+          "quote": "112 is now the pan-country single emergency number for all emergencies."
+        }
+      ]
+    },
+    "CRK1": {
+      "place": "chhattisgarh/rajim",
+      "topic": "CRK1",
+      "claim": "Raipur's Swami Vivekananda Airport is 43.6 km from Rajim, with taxis from the airport; regular buses run from Raipur (46 km); Raipur station is a major railway junction.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "W_RKM3",
+          "quote": "Swami Vivekananda Airport at Raipur is the nearest airport to Rajim, 43.6 km away."
+        },
+        {
+          "source": "W_RKM3",
+          "quote": "Taxi services are available to reach Rajim from Raipur airport."
+        },
+        {
+          "source": "W_RKM3",
+          "quote": "Regular bus services are available from Raipur (46 km)."
+        },
+        {
+          "source": "W_RKM3",
+          "quote": "Raipur railway station is a major junction of south east central railway zone."
+        }
+      ]
+    },
+    "CRK2": {
+      "place": "chhattisgarh/rajim",
+      "topic": "CRK2",
+      "claim": "The Rajim Kumbh Mela is held every February–March for about 15 days; in 2020 it ran 9–21 February, and the 2017 Maha Kumbh drew about a million pilgrims.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "W_RKM3",
+          "quote": "The Rajim Kumbh Mela is celebrated every year during February–March for about 15 days."
+        },
+        {
+          "source": "W_RKM3",
+          "quote": "In the year 2020, the Kumbh was organized from February 9 to 21."
+        },
+        {
+          "source": "W_RKM3",
+          "quote": "The Rajim Maha Kumbh was attended by about a million pilgrims mostly sadhus and mahants."
+        }
+      ]
+    },
+    "CRK3": {
+      "place": "chhattisgarh/rajim",
+      "topic": "CRK3",
+      "claim": "Local Chhattisgarhi and Indian food is available; during the festival, liquor and non-veg food are banned near the Kumbh site.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "W_RKM3",
+          "quote": "Local Chhattisgarhi food and Indian cuisine is available in the area."
+        },
+        {
+          "source": "W_RKM3",
+          "quote": "There is a ban on liquor and non-veg food in the town during the festival."
+        },
+        {
+          "source": "W_RKM3",
+          "quote": "Although the restriction is only in the vicinity of the kumbh festival."
+        }
+      ]
+    },
+    "CRK4": {
+      "place": "chhattisgarh/rajim",
+      "topic": "CRK4",
+      "claim": "Bathing in the river with soap and washing clothes or utensils in it are considered unholy during the Kumbh; devotees bathe at the Triveni Sangam.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "W_RKM3",
+          "quote": "such as having bath in river using soap, washing clothes, utensils in river water, throwing trash and excretion"
+        },
+        {
+          "source": "W_RKM3",
+          "quote": "Devotees also take a holy bath in the Triveni Sangam, the confluence of the three rivers."
+        }
+      ]
+    },
+    "CRK5": {
+      "place": "chhattisgarh/rajim",
+      "topic": "CRK5",
+      "claim": "Rajim is called the Prayagraj of Chhattisgarh for its many temples.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "W_RKM3",
+          "quote": "Rajim is also known as the Prayagraj of Chhattisgarh for an abundance of temples in the area."
+        }
+      ]
+    },
+    "CRKV": {
+      "place": "chhattisgarh/rajim",
+      "topic": "CRKV",
+      "claim": "e-Tourist visa applications should be made at least 4 days before arrival, with a passport valid for at least six months.",
+      "claimType": "rule",
+      "evidence": [
+        {
+          "source": "EVISA",
+          "quote": "For e-Tourist and e-Business visa, Applicants of the eligible countries/territories may apply online minimum 4 days in advance of the date of arrival."
+        },
+        {
+          "source": "EVISA",
+          "quote": "Applicant's passport should have at least six months validity at the time of making application for grant of e-Visa."
+        }
+      ]
+    },
+    "CRKU": {
+      "place": "chhattisgarh/rajim",
+      "topic": "CRKU",
+      "claim": "International visitors can pay by QR code using NPCI's UPI One World wallet after a passport-and-visa KYC check.",
+      "claimType": "rule",
+      "evidence": [
+        {
+          "source": "UPI",
+          "quote": "The UPI One World wallet can be availed through authorized PPI issuers at airports, hotels, designated money exchange locations and other touchpoints, following a full KYC process based on a passport and valid visa."
+        }
+      ]
+    },
+    "CRKE": {
+      "place": "chhattisgarh/rajim",
+      "topic": "CRKE",
+      "claim": "112 is India's single emergency number for police, fire and ambulance.",
+      "claimType": "contact",
+      "evidence": [
+        {
+          "source": "W_112",
+          "quote": "112 is now the pan-country single emergency number for all emergencies."
+        }
+      ]
+    },
+    "CWM1": {
+      "place": "chhattisgarh/mainpat",
+      "topic": "CWM1",
+      "claim": "The Mainpat Carnival is held every January or February at Jaljala (the 'bouncing land'); fog sometimes spoils the Mehta Point sunset.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WV_MNP",
+          "quote": "Every year in January or February, the Mainpat Carnival is celebrated at this place"
+        },
+        {
+          "source": "WV_MNP",
+          "quote": "The sunset at Mehta Point is famous, but sometimes the fog reduces the fun."
+        }
+      ]
+    },
+    "CWM2": {
+      "place": "chhattisgarh/mainpat",
+      "topic": "CWM2",
+      "claim": "The drive from Ambikapur takes about an hour; avoid driving after dusk.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WV_MNP",
+          "quote": "The journey takes about one hour."
+        },
+        {
+          "source": "WV_MNP",
+          "quote": "Avoid driving after dusk."
+        }
+      ]
     }
   },
   "places": [
@@ -986,6 +1288,117 @@
             "CRJ2",
             "CRJ3"
           ]
+        },
+        "how_to_reach": {
+          "text": "Raipur's Swami Vivekananda Airport is 43.6 km away, with taxis from the airport. Regular buses run from Raipur (46 km), whose railway station is a major junction.",
+          "facts": [
+            "CRK1"
+          ]
+        },
+        "best_time": {
+          "text": "February–March, for the Rajim Kumbh Mela, which runs for about 15 days (9–21 February in 2020).",
+          "facts": [
+            "CRK2"
+          ]
+        },
+        "food": {
+          "items": [
+            {
+              "body": "Local Chhattisgarhi food and Indian cuisine."
+            },
+            {
+              "body": "During the Kumbh, liquor and non-veg food are banned near the festival site."
+            }
+          ],
+          "facts": [
+            "CRK3"
+          ]
+        },
+        "safety_health": {
+          "items": [
+            {
+              "title": "Crowds",
+              "body": "The 2017 Maha Kumbh drew about a million pilgrims; expect heavy crowds in February–March.",
+              "status": "seasonal"
+            },
+            {
+              "title": "Emergency",
+              "body": "Dial 112 for police, fire or ambulance.",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "CRK2",
+            "CRKE"
+          ]
+        },
+        "practical_info": {
+          "items": [
+            {
+              "title": "Festival rules",
+              "body": "No liquor or non-veg food near the Kumbh site. Don't bathe with soap or wash clothes and utensils in the river.",
+              "status": "seasonal"
+            },
+            {
+              "title": "Visas",
+              "body": "Apply for an e-Tourist visa at least 4 days before arrival; your passport needs at least six months' validity.",
+              "status": "verified"
+            },
+            {
+              "title": "Payments",
+              "body": "Visitors can pay by QR code with NPCI's UPI One World wallet after a passport-and-visa KYC check. Carry some cash for small purchases.",
+              "status": "verified"
+            },
+            {
+              "title": "Emergency",
+              "body": "Dial 112 for police, fire or ambulance.",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "CRK3",
+            "CRK4",
+            "CRKV",
+            "CRKU",
+            "CRKE"
+          ]
+        },
+        "who_its_for": {
+          "items": [
+            {
+              "title": "Pilgrims",
+              "body": "The 'Prayagraj of Chhattisgarh', with the Rajiv Lochan and Kuleshwar Mahadev temples."
+            },
+            {
+              "title": "Festival-goers",
+              "body": "The Rajim Kumbh Mela every February–March."
+            }
+          ],
+          "facts": [
+            "CRK5",
+            "CRK2"
+          ]
+        },
+        "faqs": {
+          "items": [
+            {
+              "title": "When is the Rajim Kumbh Mela?",
+              "body": "Every February–March, for about 15 days."
+            },
+            {
+              "title": "How far is Rajim from Raipur?",
+              "body": "46 km by road; Raipur airport is 43.6 km away."
+            },
+            {
+              "title": "Is alcohol allowed during the Kumbh?",
+              "body": "No — liquor and non-veg food are banned near the festival site."
+            }
+          ],
+          "facts": [
+            "CRK2",
+            "CRK1",
+            "CRK3"
+          ]
         }
       },
       "images": [
@@ -1065,6 +1478,121 @@
           "facts": [
             "CMP2",
             "CMP3"
+          ]
+        },
+        "how_to_reach": {
+          "text": "Ambikapur, about 55 km away by road, has the nearest airport, railway station and bus terminal. Raipur is 360 km away.",
+          "facts": [
+            "CMN1",
+            "CMN2"
+          ]
+        },
+        "local_transport": {
+          "text": "Book a tourist vehicle at Ambikapur Bus Terminal.",
+          "facts": [
+            "CMN1"
+          ]
+        },
+        "where_to_stay": {
+          "text": "Mainpat has rest houses for travellers; Ambikapur, 55 km away, is the nearest town.",
+          "facts": [
+            "CMN3",
+            "CMN1"
+          ]
+        },
+        "who_its_for": {
+          "items": [
+            {
+              "title": "Adventure seekers",
+              "body": "Trekking, zorbing and rappelling."
+            },
+            {
+              "title": "Culture seekers",
+              "body": "The Tibetan settlement and its Buddhist temple."
+            },
+            {
+              "title": "Hill lovers",
+              "body": "The 'Shimla of Chhattisgarh'."
+            }
+          ],
+          "facts": [
+            "CMN3",
+            "CMN4"
+          ]
+        },
+        "practical_info": {
+          "items": [
+            {
+              "title": "Visas",
+              "body": "Apply for an e-Tourist visa at least 4 days before arrival; your passport needs at least six months' validity.",
+              "status": "verified"
+            },
+            {
+              "title": "Payments",
+              "body": "Visitors can pay by QR code with NPCI's UPI One World wallet after a passport-and-visa KYC check. Carry some cash for small purchases.",
+              "status": "verified"
+            },
+            {
+              "title": "Emergency",
+              "body": "Dial 112 for police, fire or ambulance.",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "CMNV",
+            "CMNU",
+            "CMNE"
+          ]
+        },
+        "faqs": {
+          "items": [
+            {
+              "title": "How do I reach Mainpat?",
+              "body": "Via Ambikapur, about 55 km away, which has an airport, a railway station and a bus terminal."
+            },
+            {
+              "title": "Can I stay in Mainpat?",
+              "body": "Yes — the village has rest houses for travellers."
+            },
+            {
+              "title": "What adventure activities are there?",
+              "body": "Trekking, zorbing and rappelling."
+            }
+          ],
+          "facts": [
+            "CMN1",
+            "CMN2",
+            "CMN3"
+          ]
+        },
+        "best_time": {
+          "text": "January or February, for the Mainpat Carnival at Jaljala. Fog can hide the famous sunset at Mehta Point.",
+          "facts": [
+            "CWM1"
+          ]
+        },
+        "safety_health": {
+          "items": [
+            {
+              "title": "Roads",
+              "body": "Avoid driving after dusk; the drive up from Ambikapur takes about an hour.",
+              "status": "verified"
+            },
+            {
+              "title": "Fog",
+              "body": "Fog sometimes hides the views at Mehta Point.",
+              "status": "seasonal"
+            },
+            {
+              "title": "Emergency",
+              "body": "Dial 112 for police, fire or ambulance.",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "CWM2",
+            "CWM1",
+            "CMNE"
           ]
         }
       },

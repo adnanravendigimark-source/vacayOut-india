@@ -203,6 +203,61 @@
       "url": "https://haryanatourism.gov.in/destinations/panipat/",
       "title": "Panipat — Haryana Tourism (Government of Haryana)",
       "authority": "government"
+    },
+    "CG_RPR3": {
+      "url": "https://tourism.cgstate.gov.in/destinations/Raipur",
+      "title": "Raipur — Chhattisgarh Tourism Board (Government of Chhattisgarh)",
+      "authority": "government"
+    },
+    "W_RPR3": {
+      "url": "https://en.wikipedia.org/wiki/Raipur",
+      "title": "Raipur — Wikipedia",
+      "authority": "reference"
+    },
+    "II_RPR3": {
+      "url": "https://www.incredibleindia.gov.in/en/chhattisgarh/raipur",
+      "title": "Raipur — Incredible India",
+      "authority": "government"
+    },
+    "W_JGD3": {
+      "url": "https://en.wikipedia.org/wiki/Jagdalpur",
+      "title": "Jagdalpur — Wikipedia",
+      "authority": "reference"
+    },
+    "W_KTS3": {
+      "url": "https://en.wikipedia.org/wiki/Kotumsar_Cave",
+      "title": "Kotumsar Cave — Wikipedia",
+      "authority": "reference"
+    },
+    "II_JGD3": {
+      "url": "https://www.incredibleindia.gov.in/en/chhattisgarh/jagdalpur",
+      "title": "Jagdalpur — Incredible India",
+      "authority": "government"
+    },
+    "W_DGH3": {
+      "url": "https://en.wikipedia.org/wiki/Dongargarh",
+      "title": "Dongargarh — Wikipedia",
+      "authority": "reference"
+    },
+    "II_DGH3": {
+      "url": "https://www.incredibleindia.gov.in/en/chhattisgarh/rajnandgaon/dongargarh",
+      "title": "Dongargarh — Incredible India",
+      "authority": "government"
+    },
+    "WV_RPR": {
+      "url": "https://en.wikivoyage.org/wiki/Raipur",
+      "title": "Raipur — Wikivoyage",
+      "authority": "reference"
+    },
+    "WV_JGD": {
+      "url": "https://en.wikivoyage.org/wiki/Jagdalpur",
+      "title": "Jagdalpur — Wikivoyage",
+      "authority": "reference"
+    },
+    "WV_CG": {
+      "url": "https://en.wikivoyage.org/wiki/Chhattisgarh",
+      "title": "Chhattisgarh — Wikivoyage",
+      "authority": "reference"
     }
   },
   "facts": {
@@ -1382,6 +1437,442 @@
           "quote": "Skylark (92 kms.from Delhi) Panipat"
         }
       ]
+    },
+    "CRP1": {
+      "place": "chhattisgarh/raipur",
+      "topic": "CRP1",
+      "claim": "Raipur is Chhattisgarh's capital and largest city, formally established in 1861; it was part of Madhya Pradesh until the state was formed on 1 November 2000.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "CG_RPR3",
+          "quote": "Raipur is the capital city of the Indian state of Chhattisgarh."
+        },
+        {
+          "source": "CG_RPR3",
+          "quote": "Raipur city was formally established in the year 1861."
+        },
+        {
+          "source": "CG_RPR3",
+          "quote": "the largest city of the state"
+        },
+        {
+          "source": "CG_RPR3",
+          "quote": "It was a part of Madhya Pradesh before the state of Chhattisgarh was formed on 1 November 2000."
+        }
+      ]
+    },
+    "CRP2": {
+      "place": "chhattisgarh/raipur",
+      "topic": "CRP2",
+      "claim": "Swami Vivekanand Airport at Mana is 15 km from the city; Raipur station is on the Mumbai–Kolkata line; May temperatures reach 45.3 °C and December nights fall to 10.4 °C.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "CG_RPR3",
+          "quote": "Swami Vivekanand Airport Mana is located at a distance of 15 kms from Raipur City."
+        },
+        {
+          "source": "CG_RPR3",
+          "quote": "Raipur Railway Station is one of the main station on Mumbai-Kolkata Train Route."
+        },
+        {
+          "source": "II_RPR3",
+          "quote": "May 22.9- 45.3 °C"
+        },
+        {
+          "source": "II_RPR3",
+          "quote": "December 10.4 - 31.2 °C"
+        }
+      ]
+    },
+    "CRP3": {
+      "place": "chhattisgarh/raipur",
+      "topic": "CRP3",
+      "claim": "157 city buses run in Raipur, alongside the Raipur–Naya Raipur BRTS; the main bus station is the ISBT at Ravanbhantha, and the 12.7 km Atal Path expressway links Raipur to Naya Raipur.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "W_RPR3",
+          "quote": "In the bus transport system of Raipur City there is a total number of 157 buses plying within the city."
+        },
+        {
+          "source": "W_RPR3",
+          "quote": "The only bus rapid transit system is the Raipur and Naya Raipur BRTS."
+        },
+        {
+          "source": "W_RPR3",
+          "quote": "Inter State Bus Terminal at Ravanbhantha is the main bus station of the city."
+        },
+        {
+          "source": "W_RPR3",
+          "quote": "access-controlled expressway connecting Raipur to Naya Raipur"
+        }
+      ]
+    },
+    "CRP4": {
+      "place": "chhattisgarh/raipur",
+      "topic": "CRP4",
+      "claim": "Raipur suits history enthusiasts, nature lovers (Nandanvan Zoo and Safari has over 700 animals) and those seeking spiritual solace.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_RPR3",
+          "quote": "making it a fascinating destination for history enthusiasts"
+        },
+        {
+          "source": "II_RPR3",
+          "quote": "it also offers a surprising oasis for nature lovers"
+        },
+        {
+          "source": "II_RPR3",
+          "quote": "Nandanvan Zoo and Safari is a must-visit, home to over 700 animals"
+        },
+        {
+          "source": "II_RPR3",
+          "quote": "If you seek spiritual solace, Raipur is a haven."
+        }
+      ]
+    },
+    "CJG1": {
+      "place": "chhattisgarh/jagdalpur",
+      "topic": "CJG1",
+      "claim": "Jagdalpur has hot summers from March to May (May averages a 38.1 °C maximum), very heavy monsoon rain from June to September, and warm, dry winters.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "W_JGD3",
+          "quote": "Summers last from March to May and are hot, with the average maximum for May reaching 38.1 °C"
+        },
+        {
+          "source": "W_JGD3",
+          "quote": "The weather cools off somewhat for the monsoon season from June to September, which features very heavy rainfall."
+        },
+        {
+          "source": "W_JGD3",
+          "quote": "Winters are warm and dry."
+        }
+      ]
+    },
+    "CJG2": {
+      "place": "chhattisgarh/jagdalpur",
+      "topic": "CJG2",
+      "claim": "Kotumsar Cave floods in the monsoon (mid-June to mid-October) and is closed to tourists then; visitors walk narrow tunnels by torchlight along a concrete path.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "W_KTS3",
+          "quote": "The cave is subject to frequent flooding during the monsoon season, which generally begins in the middle of June and continues until the middle of October."
+        },
+        {
+          "source": "W_KTS3",
+          "quote": "The site is closed to tourists during this period."
+        },
+        {
+          "source": "II_JGD3",
+          "quote": "As you navigate the narrow tunnels by torchlight"
+        },
+        {
+          "source": "W_KTS3",
+          "quote": "a concrete path has been made extending to the end of the cave"
+        }
+      ]
+    },
+    "CJG3": {
+      "place": "chhattisgarh/jagdalpur",
+      "topic": "CJG3",
+      "claim": "Jagdalpur suits nature enthusiasts and anyone curious about India's indigenous cultures; Bastar Dussehra lasts 75 days.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_JGD3",
+          "quote": "Jagdalpur's forested environs are a huge attraction if you are a nature enthusiast."
+        },
+        {
+          "source": "II_JGD3",
+          "quote": "offers a fascinating window into India's indigenous cultures"
+        },
+        {
+          "source": "II_JGD3",
+          "quote": "Lasting for 75 days, it's one of the longest festivals"
+        }
+      ]
+    },
+    "CJG4": {
+      "place": "chhattisgarh/jagdalpur",
+      "topic": "CJG4",
+      "claim": "Maa Danteshwari Airport has daily flights to Raipur and Hyderabad.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "W_JGD3",
+          "quote": "Maa Danteshwari Airport has started daily flight services between Jagdalpur, Raipur, Hyderabad"
+        },
+        {
+          "source": "W_JGD3",
+          "quote": "IndiGo operates flights to Raipur and Hyderabad."
+        }
+      ]
+    },
+    "CJGE": {
+      "place": "chhattisgarh/jagdalpur",
+      "topic": "CJGE",
+      "claim": "112 is India's single emergency number for police, fire and ambulance.",
+      "claimType": "contact",
+      "evidence": [
+        {
+          "source": "W_112",
+          "quote": "112 is now the pan-country single emergency number for all emergencies."
+        }
+      ]
+    },
+    "CDG1": {
+      "place": "chhattisgarh/dongargarh",
+      "topic": "CDG1",
+      "claim": "Dongargarh is about 35 km west of Rajnandgaon and 67 km west of Durg; Raipur airport is 110 km away; Dongargarh station is on the Howrah–Nagpur–Mumbai line.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "W_DGH3",
+          "quote": "the city lies about 35 kilometres (22 mi) west from Rajnandgaon, 67 kilometres (42 mi) west from Durg"
+        },
+        {
+          "source": "W_DGH3",
+          "quote": "The nearest airport Swami Vivekanand Airport is at Raipur, 110 kilometres (68 mi) away while the nearest railhead is Dongargarh Railway Station."
+        },
+        {
+          "source": "W_DGH3",
+          "quote": "is a atation on the Howrah–Nagpur–Mumbai line."
+        }
+      ]
+    },
+    "CDG2": {
+      "place": "chhattisgarh/dongargarh",
+      "topic": "CDG2",
+      "claim": "Buses and taxis run to Dongargarh from Rajnandgaon.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "W_DGH3",
+          "quote": "Dongargarh has good road communication and buses and taxis are available from Rajnandgaon."
+        }
+      ]
+    },
+    "CDG3": {
+      "place": "chhattisgarh/dongargarh",
+      "topic": "CDG3",
+      "claim": "The Bamleshwari Devi Temple stands on a 1,600 ft hilltop; devotees flock there during Navratri; its ropeway is the only passenger ropeway in Chhattisgarh.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "W_DGH3",
+          "quote": "The Maa Bamleshwari Devi Temple, situated on a 1,600 feet (490 m) high hilltop, is a popular landmark."
+        },
+        {
+          "source": "W_DGH3",
+          "quote": "Devotees flock these temples during Navratri."
+        },
+        {
+          "source": "W_DGH3",
+          "quote": "The ropeway is an added attraction and is the only passenger ropeway in Chhattisgarh."
+        }
+      ]
+    },
+    "CDG4": {
+      "place": "chhattisgarh/dongargarh",
+      "topic": "CDG4",
+      "claim": "In 2016 the ropeway broke and fell, killing several people.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "W_DGH3",
+          "quote": "A severe accident occurred in 2016 when the ropeway broke and fell down killing several people."
+        }
+      ]
+    },
+    "CDG5": {
+      "place": "chhattisgarh/dongargarh",
+      "topic": "CDG5",
+      "claim": "A large crowd gathers each April for the Way of the Cross; nearby Hazara Falls is best in the monsoon.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "W_DGH3",
+          "quote": "Every year a huge crowd of devotees Christians and other Religions gather here during the month of April for the way of the cross"
+        },
+        {
+          "source": "II_DGH3",
+          "quote": "For a refreshing escape, head to Hazara Falls, where the cascading waters create a perfect spot for a peaceful afternoon, especially during the monsoon season."
+        }
+      ]
+    },
+    "CDG6": {
+      "place": "chhattisgarh/dongargarh",
+      "topic": "CDG6",
+      "claim": "Dongargarh suits history buffs, spiritual seekers and nature lovers, and anyone wanting a slower pace.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_DGH3",
+          "quote": "whether you're a history buff, a spiritual seeker, or a nature lover"
+        },
+        {
+          "source": "II_DGH3",
+          "quote": "Dongargarh's gentle pace and natural beauty offer you the perfect setting to pause, breathe, and reconnect with yourself."
+        }
+      ]
+    },
+    "CDGE": {
+      "place": "chhattisgarh/dongargarh",
+      "topic": "CDGE",
+      "claim": "112 is India's single emergency number for police, fire and ambulance.",
+      "claimType": "contact",
+      "evidence": [
+        {
+          "source": "W_112",
+          "quote": "112 is now the pan-country single emergency number for all emergencies."
+        }
+      ]
+    },
+    "CWR1": {
+      "place": "chhattisgarh/raipur",
+      "topic": "CWR1",
+      "claim": "Cheap hotels cluster near Raipur Junction and on Station Chowk road; Courtyard by Marriott, Hyatt and Sayaji are among the city's upscale hotels.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WV_RPR",
+          "quote": "There are many cheap hotels near the main station and on \"Station Chowk\" road"
+        },
+        {
+          "source": "WV_RPR",
+          "quote": "Courtyard by Marriott Hyatt Raipur"
+        },
+        {
+          "source": "WV_RPR",
+          "quote": "Hotel Sayaji, Hotel Babylon International, Hotel Sarovar Portico and Hotel Vennington Court are among the best 4 star hotels."
+        }
+      ]
+    },
+    "CWR2": {
+      "place": "chhattisgarh/raipur",
+      "topic": "CWR2",
+      "claim": "Airport taxis are best booked in advance — the counter and drivers outside charge high rates; Uber, Ola and Rapido operate in the city.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WV_RPR",
+          "quote": "For travelling from the airport to the city centre, it is better to book a taxi in advance."
+        },
+        {
+          "source": "WV_RPR",
+          "quote": "The taxi drivers outside the airport charge the same high rates as the counter if not booked in advance."
+        },
+        {
+          "source": "WV_RPR",
+          "quote": "Services like Uber, Ola and Rapido are available in the city."
+        }
+      ]
+    },
+    "CWR3": {
+      "place": "chhattisgarh/raipur",
+      "topic": "CWR3",
+      "claim": "Chhattisgarh has been declared Naxal-free; check current local advice before remote areas, and plan intercity travel in daylight.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WV_CG",
+          "quote": "Chhattisgarh has been declared naxal-free and most tourist‑friendly zones, national parks, and major towns are well‑patrolled and safe, but it’s wise to check current local advice before venturing into remote areas."
+        },
+        {
+          "source": "WV_CG",
+          "quote": "plan intercity travel during daylight hours whenever you can"
+        }
+      ]
+    },
+    "CWRE": {
+      "place": "chhattisgarh/raipur",
+      "topic": "CWRE",
+      "claim": "112 is India's single emergency number for police, fire and ambulance.",
+      "claimType": "contact",
+      "evidence": [
+        {
+          "source": "W_112",
+          "quote": "112 is now the pan-country single emergency number for all emergencies."
+        }
+      ]
+    },
+    "CWJ1": {
+      "place": "chhattisgarh/jagdalpur",
+      "topic": "CWJ1",
+      "claim": "Buses, rickshaws and private vehicles are available locally.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WV_JGD",
+          "quote": "Buses, rickshaws and private vehicles are available locally."
+        }
+      ]
+    },
+    "CWJ2": {
+      "place": "chhattisgarh/jagdalpur",
+      "topic": "CWJ2",
+      "claim": "At Chitrakote Falls, 38 km west, the Chhattisgarh Tourism Board runs log huts on stilts a couple of hundred metres from the falls.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WV_JGD",
+          "quote": "Accommodation available, a couple of hundred metres away from the falls."
+        },
+        {
+          "source": "WV_JGD",
+          "quote": "Chhattisgarh Tourism Board (CTB) offers Log Huts (on stilts)"
+        },
+        {
+          "source": "WV_JGD",
+          "quote": "about 38 km to the west of Jagdalpur"
+        }
+      ]
+    },
+    "CWJ3": {
+      "place": "chhattisgarh/jagdalpur",
+      "topic": "CWJ3",
+      "claim": "Bastar drinks include mandiya page (boiled rice powder with mandiya seed), mahua, and sulphi and chhindras — sweet tree saps best drunk the same day.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WV_JGD",
+          "quote": "simply means a kind of drink made from the boiling of rice powder and a special seed rurally called"
+        },
+        {
+          "source": "WV_JGD",
+          "quote": "Mahua - the traditional Bastar drink."
+        },
+        {
+          "source": "WV_JGD",
+          "quote": "sulphi and chhindras are also available which are sweet natural liquid extracts of sulphi tree and chhind tree"
+        },
+        {
+          "source": "WV_JGD",
+          "quote": "you should drink it the same day"
+        }
+      ]
+    },
+    "CWJ4": {
+      "place": "chhattisgarh/jagdalpur",
+      "topic": "CWJ4",
+      "claim": "Chhattisgarh has been declared Naxal-free and tourist zones, national parks and major towns are well patrolled; check local advice before remote areas and take a guide into tribal villages or deep forest.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WV_CG",
+          "quote": "Chhattisgarh has been declared naxal-free and most tourist‑friendly zones, national parks, and major towns are well‑patrolled and safe, but it’s wise to check current local advice before venturing into remote areas."
+        },
+        {
+          "source": "WV_CG",
+          "quote": "travel with a guide if exploring tribal villages or deep forest areas"
+        }
+      ]
     }
   },
   "places": [
@@ -1580,6 +2071,121 @@
             "GRP2",
             "GRP3"
           ]
+        },
+        "key_facts": {
+          "items": [
+            {
+              "title": "Role",
+              "body": "Capital and largest city of Chhattisgarh",
+              "status": "verified"
+            },
+            {
+              "title": "Established",
+              "body": "1861 (as a city)",
+              "status": "verified"
+            },
+            {
+              "title": "Airport",
+              "body": "Swami Vivekanand Airport, Mana — 15 km",
+              "status": "verified"
+            },
+            {
+              "title": "Hottest",
+              "body": "May, up to 45.3 °C",
+              "status": "seasonal"
+            },
+            {
+              "title": "Coolest",
+              "body": "December, lows around 10.4 °C",
+              "status": "seasonal"
+            }
+          ],
+          "facts": [
+            "CRP1",
+            "CRP2"
+          ]
+        },
+        "local_transport": {
+          "text": "Raipur has 157 city buses and the Raipur–Naya Raipur BRTS. Long-distance buses use the ISBT at Ravanbhantha, and the 12.7 km Atal Path expressway runs to Naya Raipur.",
+          "facts": [
+            "CRP3"
+          ]
+        },
+        "who_its_for": {
+          "items": [
+            {
+              "title": "History lovers",
+              "body": "Old-city temples, the Mahant Ghasidas Memorial Museum and colonial buildings."
+            },
+            {
+              "title": "Nature lovers",
+              "body": "Nandanvan Zoo and Safari, with over 700 animals."
+            },
+            {
+              "title": "Pilgrims",
+              "body": "Dudhadhari, Mahamaya and other temples."
+            }
+          ],
+          "facts": [
+            "CRP4"
+          ]
+        },
+        "faqs": {
+          "items": [
+            {
+              "title": "How far is the airport from Raipur?",
+              "body": "Swami Vivekanand Airport at Mana is 15 km from the city."
+            },
+            {
+              "title": "How do I get around Raipur?",
+              "body": "By city bus (157 buses) or the Raipur–Naya Raipur BRTS."
+            },
+            {
+              "title": "When is the best time to visit Raipur?",
+              "body": "Winter, November to February."
+            }
+          ],
+          "facts": [
+            "CRP2",
+            "CRP3",
+            "GRP1"
+          ]
+        },
+        "where_to_stay": {
+          "text": "Budget hotels cluster near Raipur Junction and along Station Chowk road. At the top end are Courtyard by Marriott, Hyatt, Sayaji and Sarovar Portico.",
+          "facts": [
+            "CWR1"
+          ]
+        },
+        "safety_health": {
+          "items": [
+            {
+              "title": "Airport taxis",
+              "body": "Book ahead or use Uber, Ola or Rapido; the counter and drivers outside charge high rates.",
+              "status": "verified"
+            },
+            {
+              "title": "Heat",
+              "body": "May temperatures reach 45.3 °C.",
+              "status": "seasonal"
+            },
+            {
+              "title": "Travel advice",
+              "body": "Chhattisgarh has been declared Naxal-free; still check local advice before remote trips, and plan intercity travel in daylight.",
+              "status": "verified"
+            },
+            {
+              "title": "Emergency",
+              "body": "Dial 112 for police, fire or ambulance.",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "CWR2",
+            "CRP2",
+            "CWR3",
+            "CWRE"
+          ]
         }
       },
       "wikidataId": "Q372773"
@@ -1701,6 +2307,107 @@
           ],
           "facts": [
             "GJG2"
+          ]
+        },
+        "best_time": {
+          "text": "Winter, when it is warm and dry. March–May is hot (May averages a 38.1 °C maximum). June–September brings very heavy rain, and Kotumsar Cave is closed from mid-June to mid-October.",
+          "facts": [
+            "CJG1",
+            "CJG2"
+          ]
+        },
+        "safety_health": {
+          "items": [
+            {
+              "title": "Remote areas",
+              "body": "Chhattisgarh has been declared Naxal-free and tourist areas and national parks are well patrolled, but check local advice before heading somewhere remote, and take a guide into tribal villages or deep forest.",
+              "status": "verified"
+            },
+            {
+              "title": "Kotumsar Cave",
+              "body": "Closed in the monsoon floods (mid-June to mid-October). Inside, the tunnels are narrow and lit by torch; stay on the concrete path.",
+              "status": "seasonal"
+            },
+            {
+              "title": "Heat",
+              "body": "March to May is hot; carry water.",
+              "status": "seasonal"
+            },
+            {
+              "title": "Emergency",
+              "body": "Dial 112 for police, fire or ambulance.",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "CWJ4",
+            "CJG2",
+            "CJG1",
+            "CJGE"
+          ]
+        },
+        "who_its_for": {
+          "items": [
+            {
+              "title": "Nature lovers",
+              "body": "Kanger Valley, Chitrakote Falls and the Indravati."
+            },
+            {
+              "title": "Culture seekers",
+              "body": "Tribal Bastar: the Anthropological Museum, Mawai Bazaar and the 75-day Bastar Dussehra."
+            }
+          ],
+          "facts": [
+            "CJG3"
+          ]
+        },
+        "faqs": {
+          "items": [
+            {
+              "title": "Is Kotumsar Cave open in the monsoon?",
+              "body": "No — it floods and is closed from mid-June to mid-October."
+            },
+            {
+              "title": "Can I fly to Jagdalpur?",
+              "body": "Yes — Maa Danteshwari Airport has daily flights to Raipur and Hyderabad."
+            },
+            {
+              "title": "How far is Jagdalpur from Raipur?",
+              "body": "305 km."
+            }
+          ],
+          "facts": [
+            "CJG2",
+            "CJG4",
+            "GJG1"
+          ]
+        },
+        "local_transport": {
+          "text": "Buses, rickshaws and private vehicles are available locally. Hire a vehicle with a driver for the waterfalls and Kanger Valley.",
+          "facts": [
+            "CWJ1"
+          ]
+        },
+        "where_to_stay": {
+          "text": "Near Chitrakote Falls, 38 km west, the Chhattisgarh Tourism Board runs log huts on stilts a couple of hundred metres from the falls.",
+          "facts": [
+            "CWJ2"
+          ]
+        },
+        "food": {
+          "items": [
+            {
+              "body": "Mandiya page, a drink of boiled rice powder and mandiya seed."
+            },
+            {
+              "body": "Mahua, the traditional Bastar drink."
+            },
+            {
+              "body": "Sulphi and chhindras, sweet tree saps — drink them the same day, before they sour."
+            }
+          ],
+          "facts": [
+            "CWJ3"
           ]
         }
       },
@@ -2025,6 +2732,118 @@
             "JAG1",
             "CHT1",
             "KNG1"
+          ]
+        },
+        "key_facts": {
+          "items": [
+            {
+              "title": "Main shrine",
+              "body": "Bamleshwari Devi Temple, on a 1,600 ft hilltop",
+              "status": "verified"
+            },
+            {
+              "title": "From Rajnandgaon",
+              "body": "About 35 km",
+              "status": "verified"
+            },
+            {
+              "title": "Nearest airport",
+              "body": "Raipur — 110 km",
+              "status": "verified"
+            },
+            {
+              "title": "Railway",
+              "body": "Dongargarh station, Howrah–Nagpur–Mumbai line",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "CDG3",
+            "CDG1"
+          ]
+        },
+        "how_to_reach": {
+          "text": "Dongargarh has its own station on the Howrah–Nagpur–Mumbai line. The nearest airport is Raipur, 110 km away. By road it is about 35 km from Rajnandgaon and 67 km from Durg.",
+          "facts": [
+            "CDG1"
+          ]
+        },
+        "local_transport": {
+          "text": "Buses and taxis run from Rajnandgaon. The hilltop temple has a ropeway, the only passenger ropeway in Chhattisgarh.",
+          "facts": [
+            "CDG2",
+            "CDG3"
+          ]
+        },
+        "best_time": {
+          "text": "Navratri brings the biggest crowds to the Bamleshwari temples. Each April a large crowd gathers for the Way of the Cross, and nearby Hazara Falls is at its best in the monsoon.",
+          "facts": [
+            "CDG3",
+            "CDG5"
+          ]
+        },
+        "safety_health": {
+          "items": [
+            {
+              "title": "Ropeway",
+              "body": "In 2016 the ropeway broke and fell, killing several people.",
+              "status": "verified"
+            },
+            {
+              "title": "Crowds",
+              "body": "Devotees flock to the temples during Navratri.",
+              "status": "seasonal"
+            },
+            {
+              "title": "Emergency",
+              "body": "Dial 112 for police, fire or ambulance.",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "CDG4",
+            "CDG3",
+            "CDGE"
+          ]
+        },
+        "who_its_for": {
+          "items": [
+            {
+              "title": "Pilgrims",
+              "body": "Bamleshwari Devi, Chandragiri's Jain temple and the Pragyagiri Buddha."
+            },
+            {
+              "title": "Slow travellers",
+              "body": "A quiet town to pause in."
+            },
+            {
+              "title": "Nature lovers",
+              "body": "Hazara Falls and Khaara Reserve Forest nearby."
+            }
+          ],
+          "facts": [
+            "CDG6",
+            "CDG5"
+          ]
+        },
+        "faqs": {
+          "items": [
+            {
+              "title": "How far is Dongargarh from Raipur airport?",
+              "body": "110 km."
+            },
+            {
+              "title": "Is there a ropeway to the Bamleshwari temple?",
+              "body": "Yes — the only passenger ropeway in Chhattisgarh."
+            },
+            {
+              "title": "When is Dongargarh busiest?",
+              "body": "During Navratri."
+            }
+          ],
+          "facts": [
+            "CDG1",
+            "CDG3"
           ]
         }
       },

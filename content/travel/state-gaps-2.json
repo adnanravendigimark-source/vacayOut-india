@@ -158,6 +158,26 @@
       "url": "https://haryanatourism.gov.in/destinations/gurgaon/",
       "title": "Gurugram — Haryana Tourism (Government of Haryana)",
       "authority": "government"
+    },
+    "CG_BSP3": {
+      "url": "https://tourism.cgstate.gov.in/destinations/Bilaspur",
+      "title": "Bilaspur — Chhattisgarh Tourism Board (Government of Chhattisgarh)",
+      "authority": "government"
+    },
+    "W_BSP3": {
+      "url": "https://en.wikipedia.org/wiki/Bilaspur,_Chhattisgarh",
+      "title": "Bilaspur, Chhattisgarh — Wikipedia",
+      "authority": "reference"
+    },
+    "II_BSP3": {
+      "url": "https://www.incredibleindia.gov.in/en/chhattisgarh/bilaspur",
+      "title": "Bilaspur — Incredible India",
+      "authority": "government"
+    },
+    "WV_BSP": {
+      "url": "https://en.wikivoyage.org/wiki/Bilaspur_(Chhattisgarh)",
+      "title": "Bilaspur (Chhattisgarh) — Wikivoyage",
+      "authority": "reference"
     }
   },
   "facts": {
@@ -799,6 +819,114 @@
         {
           "source": "HR_GUR",
           "quote": "Bird Sanctuary Tourist Resort (46 kms. from Delhi)Gurgaon"
+        }
+      ]
+    },
+    "CBS1": {
+      "place": "chhattisgarh/bilaspur",
+      "topic": "CBS1",
+      "claim": "Bilaspur is called the state's Nyayadhani (law capital) for the Chhattisgarh High Court, and is headquarters of the South East Central Railway; May temperatures reach 45.9 °C and December lows 7.4 °C.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "CG_BSP3",
+          "quote": "has privileged it with the title Nyayadhani (Law Capital) of the State."
+        },
+        {
+          "source": "CG_BSP3",
+          "quote": "headquarters for South East Central Railway Zone (SECR)"
+        },
+        {
+          "source": "II_BSP3",
+          "quote": "May 21.5 - 45.9 °C"
+        },
+        {
+          "source": "II_BSP3",
+          "quote": "December 7.4 - 32.4 °C"
+        }
+      ]
+    },
+    "CBS2": {
+      "place": "chhattisgarh/bilaspur",
+      "topic": "CBS2",
+      "claim": "Bilasa Devi Kevat (Bilaspur) Airport is 13 km south of the city, with direct flights to Jabalpur, Hyderabad, Delhi, Kolkata, Prayagraj and Jagdalpur; Raipur's airport is about 130 km away.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "W_BSP3",
+          "quote": "The nearest airport is Bilasa Devi Kevat Airport, also known as Bilaspur Airport, located 13 km (8.1 mi) south of the city."
+        },
+        {
+          "source": "W_BSP3",
+          "quote": "there are direct flights from the airport to Jabalpur, Hyderabad, Delhi, Kolkata, Prayagraj, Jagdalpur"
+        },
+        {
+          "source": "II_BSP3",
+          "quote": "The nearest airport to Bilaspur is Swami Vivekananda Airport in Raipur, located about 130 kilometres away."
+        }
+      ]
+    },
+    "CBS3": {
+      "place": "chhattisgarh/bilaspur",
+      "topic": "CBS3",
+      "claim": "Bilaspur Junction is Chhattisgarh's busiest junction, with a Vande Bharat to Nagpur; the main bus stand has daily services to Raipur, Ambikapur, Jagdalpur, Korba and beyond; NH 130 runs to Raipur and Ambikapur.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "W_BSP3",
+          "quote": "It is the busiest junction of Chhattisgarh"
+        },
+        {
+          "source": "W_BSP3",
+          "quote": "Vande Bharat Express from Bilaspur to Nagpur provide high speed connectivity."
+        },
+        {
+          "source": "W_BSP3",
+          "quote": "Daily bus services are operated by government and private operators to cities like Jashpur, Ambikapur, Raipur, Jagdalpur, Korba"
+        },
+        {
+          "source": "W_BSP3",
+          "quote": "National Highway 130 (NH-130) connecting Bilaspur with Ambikapur and Raipur directly"
+        }
+      ]
+    },
+    "CBS4": {
+      "place": "chhattisgarh/bilaspur",
+      "topic": "CBS4",
+      "claim": "Achanakmar (557 sq km) draws wildlife and nature lovers; the Mahamaya Devi Temple at Ratanpur is a Shakti Peeth; the city's attractions suit tourists of all ages.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_BSP3",
+          "quote": "Sprawling over an impressive 557 square kilometres, it attracts wildlife enthusiasts and nature lovers alike."
+        },
+        {
+          "source": "II_BSP3",
+          "quote": "This temple, recognized as a Shakti Peeth"
+        },
+        {
+          "source": "II_BSP3",
+          "quote": "promising fun-filled days for tourists of all ages"
+        }
+      ]
+    },
+    "CWB1": {
+      "place": "chhattisgarh/bilaspur",
+      "topic": "CWB1",
+      "claim": "Bilaspur hotels include Aananda Imperial, East Park, Hotel Intercity, Jeet International and a 98-room Courtyard by Marriott at Citymall 36.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WV_BSP",
+          "quote": "Good hotels include Aananda Imperial, East Park, Hotel Intercity and Jeet International."
+        },
+        {
+          "source": "WV_BSP",
+          "quote": "The 4-star hotel has 98 rooms on three floors."
+        },
+        {
+          "source": "WV_BSP",
+          "quote": "Courtyard by Marriott , Citymall 36"
         }
       ]
     }
@@ -2298,6 +2426,86 @@
           ],
           "facts": [
             "GBS1"
+          ]
+        },
+        "key_facts": {
+          "items": [
+            {
+              "title": "Known as",
+              "body": "Nyayadhani — seat of the Chhattisgarh High Court",
+              "status": "verified"
+            },
+            {
+              "title": "Railways",
+              "body": "Headquarters of the South East Central Railway",
+              "status": "verified"
+            },
+            {
+              "title": "Hottest",
+              "body": "May, up to 45.9 °C",
+              "status": "seasonal"
+            },
+            {
+              "title": "Coolest",
+              "body": "December, lows around 7.4 °C",
+              "status": "seasonal"
+            }
+          ],
+          "facts": [
+            "CBS1"
+          ]
+        },
+        "how_to_reach": {
+          "text": "Bilaspur Airport (Bilasa Devi Kevat), 13 km south of the city, has direct flights to Delhi, Kolkata, Hyderabad, Jabalpur, Prayagraj and Jagdalpur; Raipur's airport is about 130 km away. Bilaspur Junction is the state's busiest, with a Vande Bharat to Nagpur. Daily buses run to Raipur, Ambikapur, Jagdalpur and Korba, and NH 130 links Raipur and Ambikapur.",
+          "facts": [
+            "CBS2",
+            "CBS3"
+          ]
+        },
+        "who_its_for": {
+          "items": [
+            {
+              "title": "Wildlife lovers",
+              "body": "Achanakmar Tiger Reserve, 557 sq km."
+            },
+            {
+              "title": "Pilgrims",
+              "body": "The Mahamaya Devi Shakti Peeth at Ratanpur."
+            },
+            {
+              "title": "Families",
+              "body": "Kanan Pendari Zoo, Urja Park and Wonder World."
+            }
+          ],
+          "facts": [
+            "CBS4"
+          ]
+        },
+        "faqs": {
+          "items": [
+            {
+              "title": "Does Bilaspur have an airport?",
+              "body": "Yes — Bilasa Devi Kevat Airport, 13 km south of the city."
+            },
+            {
+              "title": "Is Bilaspur well connected by train?",
+              "body": "Bilaspur Junction is the busiest junction in Chhattisgarh."
+            },
+            {
+              "title": "How big is Achanakmar Tiger Reserve?",
+              "body": "About 557 sq km."
+            }
+          ],
+          "facts": [
+            "CBS2",
+            "CBS3",
+            "CBS4"
+          ]
+        },
+        "where_to_stay": {
+          "text": "Hotels include Aananda Imperial, East Park, Hotel Intercity and Jeet International. The 98-room Courtyard by Marriott at Citymall 36 suits business travellers.",
+          "facts": [
+            "CWB1"
           ]
         }
       },
