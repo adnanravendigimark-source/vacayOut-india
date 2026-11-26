@@ -243,6 +243,36 @@
       "url": "https://odishatourism.gov.in/en/destinations/kendrapada",
       "title": "Kendrapada — Odisha Tourism (Government of Odisha)",
       "authority": "government"
+    },
+    "II_TPG": {
+      "url": "https://www.incredibleindia.gov.in/en/andhra-pradesh/tirupati",
+      "title": "Tirupati — Incredible India",
+      "authority": "government"
+    },
+    "II_TPR": {
+      "url": "https://www.incredibleindia.gov.in/en/andhra-pradesh/tirupati/read-this-before-you-plan-your-trip-to-tirupati",
+      "title": "Read this before you plan your trip to Tirupati — Incredible India",
+      "authority": "government"
+    },
+    "II_VZG": {
+      "url": "https://www.incredibleindia.gov.in/en/andhra-pradesh/visakhapatnam",
+      "title": "Visakhapatnam — Incredible India",
+      "authority": "government"
+    },
+    "II_AMV": {
+      "url": "https://www.incredibleindia.gov.in/en/andhra-pradesh/amaravati",
+      "title": "Amaravati — Incredible India",
+      "authority": "government"
+    },
+    "TG_WGL": {
+      "url": "https://tourism.telangana.gov.in/destinations/warangal",
+      "title": "Warangal — Telangana Tourism (Government of Telangana)",
+      "authority": "government"
+    },
+    "TG_WST": {
+      "url": "https://tourism.telangana.gov.in/page/where-stay",
+      "title": "Where to Stay — Telangana Tourism (Government of Telangana)",
+      "authority": "government"
     }
   },
   "facts": {
@@ -1447,6 +1477,286 @@
         {
           "source": "OT_SAFE",
           "quote": "Do not feed animals or attempt close interaction."
+        }
+      ]
+    },
+    "GTP1": {
+      "place": "andhra-pradesh/tirupati",
+      "topic": "GTP1",
+      "claim": "The Venkateswara temple stands on the seventh of the Tirumala hills, 18 km from Tirupati; about 60,000 pilgrims visit daily, so book darshan at least a month ahead.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_TPG",
+          "quote": "And the famous Tirupati Balaji Temple stands on the seventh peak."
+        },
+        {
+          "source": "II_TPR",
+          "quote": "it is located on the Tirumala hilltop, 18 kilometres from Tirupati"
+        },
+        {
+          "source": "II_TPR",
+          "quote": "Book your trip to Tirupati temple darshan at least a month in advance as about 60,000 pilgrims visit it every day"
+        }
+      ]
+    },
+    "GTP2": {
+      "place": "andhra-pradesh/tirupati",
+      "topic": "GTP2",
+      "claim": "Try a spicy Andhra thali, curd drinks such as mango lassi and badam milk, and the Tirupati laddu, a GI-tagged prasadam only TTD may make or sell; free meals are served to pilgrims daily.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_TPG",
+          "quote": "savouring a spicy Andhra thali"
+        },
+        {
+          "source": "II_TPG",
+          "quote": "Enjoy lip-smacking Mango Lassi, Badam Milk, and Masala paal"
+        },
+        {
+          "source": "II_TPG",
+          "quote": "ensuring that only Tirumala Tirupati Devasthanams can make or sell it"
+        },
+        {
+          "source": "II_TPR",
+          "quote": "Free meals are given daily to the pilgrims."
+        }
+      ]
+    },
+    "GTP3": {
+      "place": "andhra-pradesh/tirupati",
+      "topic": "GTP3",
+      "claim": "Tirupati railway station serves the city; Bengaluru is 267 km away; Srikalahasti is about an hour's drive.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_TPG",
+          "quote": "Tirupati Railway Station (TPTY)"
+        },
+        {
+          "source": "II_TPR",
+          "quote": "Distance from Bangalore: 267 kilometres"
+        },
+        {
+          "source": "II_TPR",
+          "quote": "Sri Kalahasti Temple is an hour’s drive from Tirupati"
+        }
+      ]
+    },
+    "GVZ1": {
+      "place": "andhra-pradesh/visakhapatnam",
+      "topic": "GVZ1",
+      "claim": "Vizag's food: seafood (prawns, fish, crab), pesarattu, gongura pachadi, chapala pulusu and the local sweet pootharekulu.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_VZG",
+          "quote": "You can savour mouth-watering preparations of prawns, fish and crab in local restaurants."
+        },
+        {
+          "source": "II_VZG",
+          "quote": "traditional Andhra dishes like Pesarattu (green gram dosa), Gongura Pachadi (sorrel leaves chutney), and Chapala Pulusu (fish curry) are must-tries"
+        },
+        {
+          "source": "II_VZG",
+          "quote": "Pootharekulu, a popular sweet delicacy from Visakhapatnam"
+        }
+      ]
+    },
+    "GVZ2": {
+      "place": "andhra-pradesh/visakhapatnam",
+      "topic": "GVZ2",
+      "claim": "The airport is close to the city centre with flights to most major cities; the city is on major rail routes and APSRTC buses link it across the state.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_VZG",
+          "quote": "Visakhapatnam airport is located very close to the city centre and is well connected to most of the major cities of the country."
+        },
+        {
+          "source": "II_VZG",
+          "quote": "By railways too Visakhapatnam is well connected to major rail routes of the country."
+        },
+        {
+          "source": "II_VZG",
+          "quote": "Public buses run by state transport corporation (APSRTC)"
+        }
+      ]
+    },
+    "GVZ3": {
+      "place": "andhra-pradesh/visakhapatnam",
+      "topic": "GVZ3",
+      "claim": "Called the 'City of Destiny', it is the only Indian city with two major ports; Bavikonda Buddhist complex is 15 km northeast.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_VZG",
+          "quote": "why Vizag truly lives up to its title as the \"City of Destiny.\""
+        },
+        {
+          "source": "II_VZG",
+          "quote": "The only city of India with 2 major ports."
+        },
+        {
+          "source": "II_VZG",
+          "quote": "located on a hill about 15 km (9.3 mi) northeast of Visakhapatnam city"
+        }
+      ]
+    },
+    "GAM1": {
+      "place": "andhra-pradesh/amaravati",
+      "topic": "GAM1",
+      "claim": "Try Andhra-style biryani, pesarattu, gongura pachadi, pulihora, and sweets such as bobbatlu, ariselu and pootharekulu, with buttermilk or filter coffee.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_AMV",
+          "quote": "Some local specialities to try include Andhra-style biryani"
+        },
+        {
+          "source": "II_AMV",
+          "quote": "Pesarattu (a savoury lentil crepe), Gongura Pachadi (a tangy chutney made with sorrel leaves), and Pulihora (tamarind rice)"
+        },
+        {
+          "source": "II_AMV",
+          "quote": "Bobbatlu (sweet stuffed flatbread), Ariselu (deep-fried sweet rice cakes), and Pootharekulu"
+        },
+        {
+          "source": "II_AMV",
+          "quote": "buttermilk or a cup of traditional filter coffee"
+        }
+      ]
+    },
+    "GAM2": {
+      "place": "andhra-pradesh/amaravati",
+      "topic": "GAM2",
+      "claim": "Buy Kondapalli wooden toys and Kalamkari textiles; the Guntur Mirchi Yard, called Asia's largest chilli market, is about 40 km away.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_AMV",
+          "quote": "traditional handcrafted wooden Kondapalli toys"
+        },
+        {
+          "source": "II_AMV",
+          "quote": "shop for Kalamkari textiles"
+        },
+        {
+          "source": "II_AMV",
+          "quote": "The largest chilli market in Asia, called “Guntur Mirchi Yard”, is about 40 kilometres from Amaravati."
+        }
+      ]
+    },
+    "GAM3": {
+      "place": "andhra-pradesh/amaravati",
+      "topic": "GAM3",
+      "claim": "Vijayawada airport and Vijayawada railway station are the nearest; Kondapalli Fort is about 20 km away.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_AMV",
+          "quote": "Vijayawada International Airport (VGA)"
+        },
+        {
+          "source": "II_AMV",
+          "quote": "Vijayawada Railway Station (BZA)"
+        },
+        {
+          "source": "II_AMV",
+          "quote": "The Kondapalli Fort is around 20 kilometres from Amaravati"
+        }
+      ]
+    },
+    "GAM4": {
+      "place": "andhra-pradesh/amaravati",
+      "topic": "GAM4",
+      "claim": "Amaravati, on the Krishna, was a Satavahana capital from the 3rd century BC; its name means 'the place for immortals'.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "II_AMV",
+          "quote": "when it served as the capital of the Satavahana dynasty"
+        },
+        {
+          "source": "II_AMV",
+          "quote": "The name “Amaravati” translates to “the place for immortals”."
+        },
+        {
+          "source": "II_AMV",
+          "quote": "The city is located on the banks of the Krishna River"
+        }
+      ]
+    },
+    "GWG1": {
+      "place": "telangana/warangal",
+      "topic": "GWG1",
+      "claim": "Warangal is 150 km from Hyderabad and Telangana's second-largest city; it was the Kakatiya capital between the 12th and 14th centuries.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "TG_WGL",
+          "quote": "It is 150 km away from the state capital Hyderabad."
+        },
+        {
+          "source": "TG_WGL",
+          "quote": "It is also the second largest city in the state of Telangana."
+        },
+        {
+          "source": "TG_WGL",
+          "quote": "The city was the capital of the great Kakatiya rulers who reigned between 12th and 14th centuries."
+        }
+      ]
+    },
+    "GWG2": {
+      "place": "telangana/warangal",
+      "topic": "GWG2",
+      "claim": "Local crafts include Kakatiya Kalamkari textiles, Telangana handlooms and bronze sculptures; try spicy Telangana food such as biryani, haleem and lamb korma.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "TG_WGL",
+          "quote": "such as Kakatiya Kalamkari textiles, Telangana Handlooms , and bronze sculptures"
+        },
+        {
+          "source": "TG_WGL",
+          "quote": "with a mix of spicy Telangana food , such as Biryani , Haleem , and Lamb Korma"
+        }
+      ]
+    },
+    "GWG3": {
+      "place": "telangana/warangal",
+      "topic": "GWG3",
+      "claim": "Ramappa Temple, a UNESCO World Heritage Site since 2021, is about 70 km from Warangal; Pakhal Lake is about 50 km and Eturnagaram Wildlife Sanctuary about 100 km.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "TG_WGL",
+          "quote": "was inscribed as a UNESCO World Heritage site in 2021"
+        },
+        {
+          "source": "TG_WGL",
+          "quote": "Situated about 50 kilometers from Warangal, Pakhal Lake"
+        },
+        {
+          "source": "TG_WGL",
+          "quote": "Located about 100 kilometers from Warangal, the Eturnagaram Wildlife Sanctuary"
+        }
+      ]
+    },
+    "GHY1": {
+      "place": "telangana/hyderabad",
+      "topic": "GHY1",
+      "claim": "Telangana Tourism lists Taj Falaknuma Palace, ITC Kohenur and Park Hyatt among Hyderabad's luxury hotels, and Falaknuma Palace and Golkonda Resort as heritage stays.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "TG_WST",
+          "quote": "In Hyderabad, travelers can experience world-class hospitality at Taj Falaknuma Palace, ITC Kohenur, and Park Hyatt."
+        },
+        {
+          "source": "TG_WST",
+          "quote": "staying at heritage hotels like Falaknuma Palace and Golkonda Resort"
         }
       ]
     }
@@ -2715,6 +3025,59 @@
             "BOR1",
             "ARK1"
           ]
+        },
+        "key_facts": {
+          "items": [
+            {
+              "title": "Main temple",
+              "body": "Sri Venkateswara, on the seventh Tirumala hill",
+              "status": "verified"
+            },
+            {
+              "title": "Tirumala",
+              "body": "18 km from Tirupati",
+              "status": "verified"
+            },
+            {
+              "title": "Pilgrims",
+              "body": "About 60,000 a day",
+              "status": "verified"
+            },
+            {
+              "title": "Book darshan",
+              "body": "At least a month ahead",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "GTP1"
+          ]
+        },
+        "food": {
+          "items": [
+            {
+              "body": "The Tirupati laddu, a GI-tagged temple prasadam made only by TTD."
+            },
+            {
+              "body": "A spicy Andhra thali with sambar, rasam, curry, pickles and kurma."
+            },
+            {
+              "body": "Curd-based drinks: mango lassi, badam milk, masala paal."
+            },
+            {
+              "body": "Free meals for pilgrims at the temple every day."
+            }
+          ],
+          "facts": [
+            "GTP2"
+          ]
+        },
+        "how_to_reach": {
+          "text": "Tirupati railway station serves the city, and Tirumala is 18 km up the hill. Bengaluru is about 267 km away by road, and Srikalahasti is roughly an hour's drive.",
+          "facts": [
+            "GTP3",
+            "GTP1"
+          ]
         }
       },
       "wikidataId": "Q1436816",
@@ -2965,6 +3328,50 @@
             "SKH1",
             "BOR1",
             "ARK1"
+          ]
+        },
+        "key_facts": {
+          "items": [
+            {
+              "title": "Known as",
+              "body": "City of Destiny",
+              "status": "verified"
+            },
+            {
+              "title": "Ports",
+              "body": "The only Indian city with two major ports",
+              "status": "verified"
+            },
+            {
+              "title": "Buddhist site",
+              "body": "Bavikonda, 15 km northeast",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "GVZ3"
+          ]
+        },
+        "food": {
+          "items": [
+            {
+              "body": "Fresh seafood: prawns, fish and crab."
+            },
+            {
+              "body": "Pesarattu, gongura pachadi and chapala pulusu (fish curry)."
+            },
+            {
+              "body": "Pootharekulu, Vizag's paper-thin rice-starch and jaggery sweet."
+            }
+          ],
+          "facts": [
+            "GVZ1"
+          ]
+        },
+        "how_to_reach": {
+          "text": "Visakhapatnam airport is close to the city centre and has flights to most major Indian cities, with cabs at the airport. The city is on major rail routes, and APSRTC buses link it to the rest of Andhra Pradesh.",
+          "facts": [
+            "GVZ2"
           ]
         }
       },
@@ -3238,6 +3645,75 @@
             "AP1",
             "AP2",
             "AP3"
+          ]
+        },
+        "key_facts": {
+          "items": [
+            {
+              "title": "Meaning",
+              "body": "The place for immortals",
+              "status": "verified"
+            },
+            {
+              "title": "River",
+              "body": "Krishna",
+              "status": "verified"
+            },
+            {
+              "title": "Nearest airport",
+              "body": "Vijayawada (VGA)",
+              "status": "verified"
+            },
+            {
+              "title": "Nearby",
+              "body": "Kondapalli Fort, about 20 km",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "GAM4",
+            "GAM3"
+          ]
+        },
+        "food": {
+          "items": [
+            {
+              "body": "Andhra-style biryani and pulihora (tamarind rice)."
+            },
+            {
+              "body": "Pesarattu and gongura pachadi."
+            },
+            {
+              "body": "Sweets: bobbatlu, ariselu, pootharekulu."
+            },
+            {
+              "body": "Buttermilk or filter coffee."
+            }
+          ],
+          "facts": [
+            "GAM1"
+          ]
+        },
+        "shopping": {
+          "items": [
+            {
+              "body": "Handcrafted wooden Kondapalli toys."
+            },
+            {
+              "body": "Kalamkari hand-painted and block-printed textiles."
+            },
+            {
+              "body": "Guntur Mirchi Yard chilli market, about 40 km away."
+            }
+          ],
+          "facts": [
+            "GAM2"
+          ]
+        },
+        "how_to_reach": {
+          "text": "The nearest airport is Vijayawada International Airport and the nearest railway station is Vijayawada. Kondapalli Fort is about 20 km from Amaravati.",
+          "facts": [
+            "GAM3"
           ]
         }
       },
@@ -3513,6 +3989,12 @@
             "TG1",
             "TG2",
             "TG3"
+          ]
+        },
+        "where_to_stay": {
+          "text": "Telangana Tourism lists Taj Falaknuma Palace, ITC Kohenur and Park Hyatt among the city's luxury hotels, and Falaknuma Palace and Golkonda Resort as heritage stays.",
+          "facts": [
+            "GHY1"
           ]
         }
       },
@@ -3800,6 +4282,62 @@
             "HYD1",
             "RAM1",
             "LAK1"
+          ]
+        },
+        "key_facts": {
+          "items": [
+            {
+              "title": "From Hyderabad",
+              "body": "150 km",
+              "status": "verified"
+            },
+            {
+              "title": "Known for",
+              "body": "Kakatiya capital, 12th–14th centuries",
+              "status": "verified"
+            },
+            {
+              "title": "Nearby UNESCO site",
+              "body": "Ramappa Temple (2021)",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "GWG1",
+            "GWG3"
+          ]
+        },
+        "food": {
+          "items": [
+            {
+              "body": "Spicy Telangana cooking: biryani, haleem and lamb korma."
+            }
+          ],
+          "facts": [
+            "GWG2"
+          ]
+        },
+        "shopping": {
+          "items": [
+            {
+              "body": "Kakatiya Kalamkari textiles."
+            },
+            {
+              "body": "Telangana handlooms."
+            },
+            {
+              "body": "Bronze sculptures."
+            }
+          ],
+          "facts": [
+            "GWG2"
+          ]
+        },
+        "how_to_reach": {
+          "text": "Warangal is 150 km from Hyderabad by road. From the city, Ramappa Temple is about 70 km, Pakhal Lake about 50 km and Eturnagaram Wildlife Sanctuary about 100 km.",
+          "facts": [
+            "GWG1",
+            "GWG3"
           ]
         }
       },

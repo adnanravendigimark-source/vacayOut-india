@@ -288,6 +288,16 @@
       "url": "https://punjabtourism.punjab.gov.in/en/our-destination/fatehgarh-sahib-fort-of-victory/",
       "title": "Fatehgarh Sahib — Punjab Tourism (Government of Punjab)",
       "authority": "government"
+    },
+    "BH_PAT2": {
+      "url": "https://tourism.bihar.gov.in/en/destinations/patna",
+      "title": "Patna — Bihar Tourism (Government of Bihar)",
+      "authority": "government"
+    },
+    "BH_BSP2": {
+      "url": "https://tourism.bihar.gov.in/en/destinations/patna/buddha-smriti-park",
+      "title": "Buddha Smriti Park — Bihar Tourism (Government of Bihar)",
+      "authority": "government"
     }
   },
   "facts": {
@@ -2012,6 +2022,66 @@
         {
           "source": "PB_FGS",
           "quote": "Farm Stays: Escort Farms, Hansali Organic Farm, Mayfair Farms"
+        }
+      ]
+    },
+    "GPA1": {
+      "place": "bihar/patna",
+      "topic": "GPA1",
+      "claim": "Patna, Bihar's capital and largest town, is on the south bank of the Ganga; as Pataliputra it was the capital of Magadha for about a thousand years, and its history goes back more than 2,500 years.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "BH_PAT2",
+          "quote": "The capital city of Bihar located at the southern bank of the river Ganga, Patna is the largest town of the state."
+        },
+        {
+          "source": "BH_PAT2",
+          "quote": "The history of this city stretches beyond 2500 years back."
+        },
+        {
+          "source": "BH_PAT2",
+          "quote": "The ancient name of this city was Pataliputra which remained as the capital of Magadha under multiple dynasties for about thousand years."
+        }
+      ]
+    },
+    "GPA2": {
+      "place": "bihar/patna",
+      "topic": "GPA2",
+      "claim": "Bihar Museum is open 9 am–6 pm (₹100); Gol Ghar and Gandhi Ghat are free; Badi Patan Devi is open 5 am–10 pm.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "BH_PAT2",
+          "quote": "Bihar Museum How to Reach? City buses, auto-rickshaws, taxis from major locations. Timings 9 AM to 6 PM Entry Fees 100 Rs Per Person"
+        },
+        {
+          "source": "BH_PAT2",
+          "quote": "Gol Ghar How to Reach? Auto-rickshaws, city buses, taxis from central Patna. Timings 9 AM to 6 PM Entry Fees Free"
+        },
+        {
+          "source": "BH_PAT2",
+          "quote": "Gandhi Ghat How to Reach? Auto-rickshaws, cycle rickshaws, city buses from central Patna. Timings 6 AM to 6 PM Entry Fees Free"
+        },
+        {
+          "source": "BH_PAT2",
+          "quote": "Badi Patan Devi How to Reach Auto-rickshaws, cycle rickshaws, and taxis from central Patna. Timings 5 AM to 10 PM"
+        }
+      ]
+    },
+    "GPA3": {
+      "place": "bihar/patna",
+      "topic": "GPA3",
+      "claim": "Bihar Tourism lists Amit Hotel (New Bypass Road), The Great Rajasthan (Rajendra Nagar) and Hotel Bhavya Residency.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "BH_BSP2",
+          "quote": "Amit Hotel New Bypass Road, Anishabad"
+        },
+        {
+          "source": "BH_BSP2",
+          "quote": "The Great Rajasthan, Rajendra Nagar Hotel Bhavya Residency, Patna"
         }
       ]
     }
@@ -5312,6 +5382,40 @@
             "BR1",
             "BR2",
             "BR3"
+          ]
+        },
+        "key_facts": {
+          "items": [
+            {
+              "title": "River",
+              "body": "Ganga (south bank)",
+              "status": "verified"
+            },
+            {
+              "title": "Ancient name",
+              "body": "Pataliputra, capital of Magadha",
+              "status": "verified"
+            },
+            {
+              "title": "History",
+              "body": "More than 2,500 years",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "GPA1"
+          ]
+        },
+        "local_transport": {
+          "text": "Auto-rickshaws, cycle-rickshaws, city buses and taxis reach the main sights from central Patna.",
+          "facts": [
+            "GPA2"
+          ]
+        },
+        "where_to_stay": {
+          "text": "Bihar Tourism suggests Amit Hotel on New Bypass Road, The Great Rajasthan in Rajendra Nagar and Hotel Bhavya Residency.",
+          "facts": [
+            "GPA3"
           ]
         }
       },

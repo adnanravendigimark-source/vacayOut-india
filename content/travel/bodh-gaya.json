@@ -103,6 +103,26 @@
       "url": "https://en.wikipedia.org/wiki/112_(emergency_telephone_number)",
       "title": "112 (emergency telephone number) — Wikipedia",
       "authority": "reference"
+    },
+    "BH_NAL2": {
+      "url": "https://tourism.bihar.gov.in/en/destinations/nalanda",
+      "title": "Nalanda — Bihar Tourism (Government of Bihar)",
+      "authority": "government"
+    },
+    "BH_GRD2": {
+      "url": "https://tourism.bihar.gov.in/en/destinations/nalanda/gridhakut-hill",
+      "title": "Gridhakut Hill — Bihar Tourism (Government of Bihar)",
+      "authority": "government"
+    },
+    "BH_GAY3": {
+      "url": "https://tourism.bihar.gov.in/en/destinations/gaya",
+      "title": "Gaya Ji — Bihar Tourism (Government of Bihar)",
+      "authority": "government"
+    },
+    "BH_GBS3": {
+      "url": "https://tourism.bihar.gov.in/en/destinations/gaya/80-feet-buddha-or-great-buddha",
+      "title": "80 Feet Buddha — Bihar Tourism (Government of Bihar)",
+      "authority": "government"
     }
   },
   "facts": {
@@ -568,6 +588,106 @@
           "quote": "Built completely with marble, the Stupa comprises four golden statues of Lord Buddha with each representing his life periods of birth, enlightenment, preaching and death."
         }
       ]
+    },
+    "GRJ1": {
+      "place": "bihar/rajgir",
+      "topic": "GRJ1",
+      "claim": "Vishwa Shanti Stupa: ropeway, autos or taxis; 9 am–6 pm; ₹10. Gridhakuta: ropeway or trek; 6 am–7 pm; free. Pandu Pokhar: 9 am–6 pm; ₹30. Ghora Katora, Cyclopean Wall and Brahmakund are free.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "BH_NAL2",
+          "quote": "Vishwa Shanti Stupa How to Reach? Ropeway ride, auto-rickshaws, and taxis from Rajgir. Timings 9 AM to 6 PM Entry Fees 10 Rs Per Person"
+        },
+        {
+          "source": "BH_NAL2",
+          "quote": "Pandu Pokhar How to Reach? Auto-rickshaws and taxis from Rajgir. Timings 9 AM to 6 PM Entry Fees 30 Rs Per Person"
+        },
+        {
+          "source": "BH_NAL2",
+          "quote": "Ghora Katora How to Reach? Auto-rickshaws and cycle-rickshaws from Rajgir, some walking required. Timings 9 AM to 6 PM Entry Fees Free"
+        },
+        {
+          "source": "BH_NAL2",
+          "quote": "Cyclopean Wall How to Reach? Auto-rickshaws and taxis from Rajgir town. Timings 6 AM to 6 PM Entry Fees Free"
+        }
+      ]
+    },
+    "GRJ2": {
+      "place": "bihar/rajgir",
+      "topic": "GRJ2",
+      "claim": "Bihar Tourism lists Hotel The Rajgir Residency, Indo Hokke Hotel and Hotel Nalanda Regency in Rajgir.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "BH_GRD2",
+          "quote": "Hotel The Rajgir Residency Rajgir Indo Hokke Hotels Pvt. Ltd. Rajgir Hotel Nalanda Regency Rajgir"
+        }
+      ]
+    },
+    "GRJ3": {
+      "place": "bihar/rajgir",
+      "topic": "GRJ3",
+      "claim": "Best September to April.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "BH_GRD2",
+          "quote": "Best Time to Visit : September to April."
+        }
+      ]
+    },
+    "GBG1": {
+      "place": "bihar/bodh-gaya",
+      "topic": "GBG1",
+      "claim": "Around Bodh Gaya: Royal Bhutan Monastery (5 am–8 pm), the Tibetan Temple near the Mahabodhi (6 am–7 pm), Sujata Stupa (9 am–6 pm), Maya Sarovar (9 am–6 pm, ₹30) and Muchalinda Sarovar beside the Mahabodhi.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "BH_GAY3",
+          "quote": "Royal Bhutan Monasteries How to Reach Nearest railway station: Gaya Ji Junction (6 km), Local transport: Auto-rickshaws and taxis Timings 5 AM – 8 PM"
+        },
+        {
+          "source": "BH_GAY3",
+          "quote": "Tibetan Temple How to Reach? Located within walking distance from Mahabodhi Temple, accessible by rickshaw. Timings 6:00 AM - 7:00 PM"
+        },
+        {
+          "source": "BH_GAY3",
+          "quote": "Sujata Stupa How to Reach? Auto-rickshaws and cycle-rickshaws within Bodh Gaya. Timings 9 AM to 6 PM"
+        },
+        {
+          "source": "BH_GAY3",
+          "quote": "Maya Sarovar How to Reach? Auto-rickshaws and cycle-rickshaws within Bodh Gaya. Timings 9 AM to 6 PM Entry Fees 30 Rs Per Person"
+        }
+      ]
+    },
+    "GBG2": {
+      "place": "bihar/bodh-gaya",
+      "topic": "GBG2",
+      "claim": "Muchalinda Sarovar is next to the Mahabodhi Temple, open 6 am–6 pm; the 80-foot Buddha is about 2 km from the Mahabodhi.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "BH_GAY3",
+          "quote": "Muchalinda Sarovar How to Reach? Near Mahabodhi Temple, easily accessible by foot or cycle rickshaw. Timings 6 AM to 6 PM"
+        },
+        {
+          "source": "BH_GAY3",
+          "quote": "The 80 Feet Buddha is around 2 km away"
+        }
+      ]
+    },
+    "GBG3": {
+      "place": "bihar/bodh-gaya",
+      "topic": "GBG3",
+      "claim": "Bihar Tourism lists Hotel Bodh Gaya Gautam (Do Muhan Road), Hotel Sujata (near the Thai Temple) and Hotel Urubela International (near the Spanish Temple).",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "BH_GBS3",
+          "quote": "Hotel Bodh Gaya Gautam Do Muhan Road Hotel Sujata Near Thai Temple Bodhgaya Hotel Urubela International Spanish Temple, Bodhgaya"
+        }
+      ]
     }
   },
   "places": [
@@ -688,6 +808,35 @@
           ],
           "facts": [
             "MB4"
+          ]
+        },
+        "things_to_do": {
+          "items": [
+            {
+              "body": "Visit the Royal Bhutan Monastery (5 am – 8 pm)."
+            },
+            {
+              "body": "See the Tibetan Temple, a short walk from the Mahabodhi (6 am – 7 pm)."
+            },
+            {
+              "body": "Walk to Muchalinda Sarovar beside the Mahabodhi Temple."
+            },
+            {
+              "body": "Go to Sujata Stupa (9 am – 6 pm) and Maya Sarovar (₹30)."
+            },
+            {
+              "body": "See the 80-foot Great Buddha statue, 2 km away."
+            }
+          ],
+          "facts": [
+            "GBG1",
+            "GBG2"
+          ]
+        },
+        "where_to_stay": {
+          "text": "Bihar Tourism lists Hotel Bodh Gaya Gautam on Do Muhan Road, Hotel Sujata near the Thai Temple and Hotel Urubela International near the Spanish Temple.",
+          "facts": [
+            "GBG3"
           ]
         }
       },
@@ -826,6 +975,69 @@
           ],
           "facts": [
             "NL3"
+          ]
+        },
+        "key_facts": {
+          "items": [
+            {
+              "title": "Peace Pagoda",
+              "body": "Vishwa Shanti Stupa, by ropeway; ₹10",
+              "status": "verified"
+            },
+            {
+              "title": "Best time",
+              "body": "September–April",
+              "status": "seasonal"
+            }
+          ],
+          "facts": [
+            "GRJ1",
+            "GRJ3"
+          ]
+        },
+        "best_time": {
+          "text": "September to April.",
+          "facts": [
+            "GRJ3"
+          ]
+        },
+        "local_transport": {
+          "text": "Auto-rickshaws, cycle-rickshaws and taxis run from Rajgir town to the sights; the ropeway climbs to the Vishwa Shanti Stupa and Gridhakuta.",
+          "facts": [
+            "GRJ1"
+          ]
+        },
+        "where_to_stay": {
+          "text": "Bihar Tourism lists Hotel The Rajgir Residency, Indo Hokke Hotel and Hotel Nalanda Regency in Rajgir.",
+          "facts": [
+            "GRJ2"
+          ]
+        },
+        "visit_info": {
+          "items": [
+            {
+              "title": "Vishwa Shanti Stupa",
+              "body": "9 am – 6 pm; ₹10; ropeway, auto or taxi",
+              "status": "verified"
+            },
+            {
+              "title": "Gridhakuta (Vulture Peak)",
+              "body": "6 am – 7 pm; free; ropeway or trek",
+              "status": "verified"
+            },
+            {
+              "title": "Pandu Pokhar",
+              "body": "9 am – 6 pm; ₹30",
+              "status": "verified"
+            },
+            {
+              "title": "Ghora Katora",
+              "body": "9 am – 6 pm; free; some walking",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "GRJ1"
           ]
         }
       },
