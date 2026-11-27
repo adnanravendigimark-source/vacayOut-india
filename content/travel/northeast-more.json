@@ -313,6 +313,21 @@
       "url": "https://www.incredibleindia.gov.in/en/nagaland",
       "title": "Nagaland — Incredible India",
       "authority": "government"
+    },
+    "WV_KOH": {
+      "url": "https://en.wikivoyage.org/wiki/Kohima",
+      "title": "Kohima — Wikivoyage",
+      "authority": "reference"
+    },
+    "WV_NL": {
+      "url": "https://en.wikivoyage.org/wiki/Nagaland",
+      "title": "Nagaland — Wikivoyage",
+      "authority": "reference"
+    },
+    "WV_DMP": {
+      "url": "https://en.wikivoyage.org/wiki/Dimapur",
+      "title": "Dimapur — Wikivoyage",
+      "authority": "reference"
     }
   },
   "facts": {
@@ -2331,6 +2346,290 @@
         }
       ],
       "topic": "NGT4"
+    },
+    "NDK1": {
+      "place": "nagaland/kohima",
+      "topic": "NDK1",
+      "claim": "Walking is the best way to see Kohima; local taxis cover the town centre, and shared 'line taxis' run fixed routes, for example from BOC junction to Kisama and Kigwema.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WV_KOH",
+          "quote": "Walking is the best way to feel the pulse of the capital."
+        },
+        {
+          "source": "WV_KOH",
+          "quote": "Local taxis are widely available"
+        },
+        {
+          "source": "WV_KOH",
+          "quote": "shared taxis to specific destinations (locally called line taxis) are available at certain places"
+        },
+        {
+          "source": "WV_KOH",
+          "quote": "there are shared taxis heading from BOC junction to Kisama and Kigwema"
+        }
+      ]
+    },
+    "NDK2": {
+      "place": "nagaland/kohima",
+      "topic": "NDK2",
+      "claim": "Protests and blockades can start without warning and disrupt the highways to Dimapur and Manipur — monitor local news and avoid demonstrations; Kohima's streets are steep, narrow and congested; winter mornings and afternoons are very cold.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WV_KOH",
+          "quote": "Protests and blockades can begin without warning and disrupt highways linking Kohima with Dimapur, Manipur and neighboring districts."
+        },
+        {
+          "source": "WV_KOH",
+          "quote": "Monitor local news, avoid demonstrations and large political gatherings"
+        },
+        {
+          "source": "WV_KOH",
+          "quote": "Kohima’s streets are steep, narrow and often congested"
+        },
+        {
+          "source": "WV_KOH",
+          "quote": "The air is very cold in the morning and after 2pm."
+        }
+      ]
+    },
+    "NDKS": {
+      "place": "nagaland/kohima",
+      "topic": "NDKS",
+      "claim": "Nagaland's roads are narrow, winding and slow, and monsoon rain can bring slippery slopes and small landslides — start early, avoid late-night drives and use registered taxis; political violence is not a concern for visitors as of 2026; carry ID copies; drink bottled or boiled water.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WV_NL",
+          "quote": "Roads can be narrow, winding and slow , and monsoon rain can make slopes slippery or trigger small landslides."
+        },
+        {
+          "source": "WV_NL",
+          "quote": "Starting early, avoiding late‑night drives and choosing registered taxis helps keep travel smooth."
+        },
+        {
+          "source": "WV_NL",
+          "quote": "Nagaland’s past includes insurgency, but political violence is not a concern for visitors as of 2026."
+        },
+        {
+          "source": "WV_NL",
+          "quote": "Always carry ID copies and keep your documents accessible."
+        }
+      ]
+    },
+    "NDKE": {
+      "place": "nagaland/kohima",
+      "topic": "NDKE",
+      "claim": "112 is India's single emergency number for police, fire and ambulance.",
+      "claimType": "contact",
+      "evidence": [
+        {
+          "source": "W_112",
+          "quote": "112 is now the pan-country single emergency number for all emergencies."
+        }
+      ]
+    },
+    "NDD1": {
+      "place": "nagaland/dimapur",
+      "topic": "NDD1",
+      "claim": "Shared taxis to Kohima leave from in front of Dimapur railway station.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WV_NL",
+          "quote": "connect to a share taxi in front of the Dimapur railway station"
+        }
+      ]
+    },
+    "NDDS": {
+      "place": "nagaland/dimapur",
+      "topic": "NDDS",
+      "claim": "Nagaland's roads are narrow, winding and slow, and monsoon rain can bring slippery slopes and small landslides — start early, avoid late-night drives and use registered taxis; political violence is not a concern for visitors as of 2026; carry ID copies; drink bottled or boiled water.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WV_NL",
+          "quote": "Roads can be narrow, winding and slow , and monsoon rain can make slopes slippery or trigger small landslides."
+        },
+        {
+          "source": "WV_NL",
+          "quote": "Starting early, avoiding late‑night drives and choosing registered taxis helps keep travel smooth."
+        },
+        {
+          "source": "WV_NL",
+          "quote": "Nagaland’s past includes insurgency, but political violence is not a concern for visitors as of 2026."
+        },
+        {
+          "source": "WV_NL",
+          "quote": "Always carry ID copies and keep your documents accessible."
+        }
+      ]
+    },
+    "NDDT": {
+      "place": "nagaland/dimapur",
+      "topic": "NDDT",
+      "claim": "Public transport is safe but basic; shared jeeps and official taxis are the most reliable options.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WV_NL",
+          "quote": "Public transport is safe but basic, so shared jeeps and official taxis are the most reliable options."
+        }
+      ]
+    },
+    "NDDE": {
+      "place": "nagaland/dimapur",
+      "topic": "NDDE",
+      "claim": "112 is India's single emergency number for police, fire and ambulance.",
+      "claimType": "contact",
+      "evidence": [
+        {
+          "source": "W_112",
+          "quote": "112 is now the pan-country single emergency number for all emergencies."
+        }
+      ]
+    },
+    "NDMS": {
+      "place": "nagaland/mokokchung",
+      "topic": "NDMS",
+      "claim": "Nagaland's roads are narrow, winding and slow, and monsoon rain can bring slippery slopes and small landslides — start early, avoid late-night drives and use registered taxis; political violence is not a concern for visitors as of 2026; carry ID copies; drink bottled or boiled water.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WV_NL",
+          "quote": "Roads can be narrow, winding and slow , and monsoon rain can make slopes slippery or trigger small landslides."
+        },
+        {
+          "source": "WV_NL",
+          "quote": "Starting early, avoiding late‑night drives and choosing registered taxis helps keep travel smooth."
+        },
+        {
+          "source": "WV_NL",
+          "quote": "Nagaland’s past includes insurgency, but political violence is not a concern for visitors as of 2026."
+        },
+        {
+          "source": "WV_NL",
+          "quote": "Always carry ID copies and keep your documents accessible."
+        }
+      ]
+    },
+    "NDMT": {
+      "place": "nagaland/mokokchung",
+      "topic": "NDMT",
+      "claim": "Public transport is safe but basic; shared jeeps and official taxis are the most reliable options.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WV_NL",
+          "quote": "Public transport is safe but basic, so shared jeeps and official taxis are the most reliable options."
+        }
+      ]
+    },
+    "NDME": {
+      "place": "nagaland/mokokchung",
+      "topic": "NDME",
+      "claim": "112 is India's single emergency number for police, fire and ambulance.",
+      "claimType": "contact",
+      "evidence": [
+        {
+          "source": "W_112",
+          "quote": "112 is now the pan-country single emergency number for all emergencies."
+        }
+      ]
+    },
+    "NDN1": {
+      "place": "nagaland/khonoma",
+      "topic": "NDN1",
+      "claim": "A typical Naga meal is a meat dish, boiled vegetables, rice and a chutney (tathu); common dishes include fermented bamboo shoot with fish or pork, and axone (fermented soya bean) with smoked pork; food is often fiery with bhut jolokia.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WV_NL",
+          "quote": "A typical Naga table consists of a meat dish, a boiled vegetable dish or two, rice and a chutney ( tathu )."
+        },
+        {
+          "source": "WV_NL",
+          "quote": "\"fermented bamboo shoot\" (made from the tender shoot of the bamboo tree) with fish and pork"
+        },
+        {
+          "source": "WV_NL",
+          "quote": "axone (soya bean boiled, fermented and either smoked or sun dried) with smoked pork and beef"
+        },
+        {
+          "source": "WV_NL",
+          "quote": "the strongest being bhut jolokia"
+        }
+      ]
+    },
+    "NDN2": {
+      "place": "nagaland/khonoma",
+      "topic": "NDN2",
+      "claim": "Hill weather changes quickly — carry a warm layer and a torch; trails can be steep and muddy, so wear good shoes and stay on marked paths; for remote villages, seek out an official.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WV_NL",
+          "quote": "Weather can change quickly in the hills, so a warm layer and a torch help"
+        },
+        {
+          "source": "WV_NL",
+          "quote": "Trails can be steep and muddy, so good shoes and staying on marked paths are essential."
+        },
+        {
+          "source": "WV_NL",
+          "quote": "If you wish to visit remote villages seek out an official."
+        }
+      ]
+    },
+    "NDNS": {
+      "place": "nagaland/khonoma",
+      "topic": "NDNS",
+      "claim": "Nagaland's roads are narrow, winding and slow, and monsoon rain can bring slippery slopes and small landslides — start early, avoid late-night drives and use registered taxis; political violence is not a concern for visitors as of 2026; carry ID copies; drink bottled or boiled water.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WV_NL",
+          "quote": "Roads can be narrow, winding and slow , and monsoon rain can make slopes slippery or trigger small landslides."
+        },
+        {
+          "source": "WV_NL",
+          "quote": "Starting early, avoiding late‑night drives and choosing registered taxis helps keep travel smooth."
+        },
+        {
+          "source": "WV_NL",
+          "quote": "Nagaland’s past includes insurgency, but political violence is not a concern for visitors as of 2026."
+        },
+        {
+          "source": "WV_NL",
+          "quote": "Always carry ID copies and keep your documents accessible."
+        }
+      ]
+    },
+    "NDNT": {
+      "place": "nagaland/khonoma",
+      "topic": "NDNT",
+      "claim": "Public transport is safe but basic; shared jeeps and official taxis are the most reliable options.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WV_NL",
+          "quote": "Public transport is safe but basic, so shared jeeps and official taxis are the most reliable options."
+        }
+      ]
+    },
+    "NDNE": {
+      "place": "nagaland/khonoma",
+      "topic": "NDNE",
+      "claim": "112 is India's single emergency number for police, fire and ambulance.",
+      "claimType": "contact",
+      "evidence": [
+        {
+          "source": "W_112",
+          "quote": "112 is now the pan-country single emergency number for all emergencies."
+        }
+      ]
     }
   },
   "places": [
@@ -2768,6 +3067,41 @@
             "KH2",
             "KH4"
           ]
+        },
+        "local_transport": {
+          "text": "Walk the town centre, or take a local taxi. Shared 'line taxis' run fixed routes, for example from BOC junction to Kisama (for the Hornbill Festival) and Kigwema.",
+          "facts": [
+            "NDK1"
+          ]
+        },
+        "safety_health": {
+          "items": [
+            {
+              "title": "Blockades",
+              "body": "Protests and blockades can close the highways to Dimapur and Manipur without warning — follow local news and avoid demonstrations.",
+              "status": "verified"
+            },
+            {
+              "title": "Streets",
+              "body": "Steep, narrow and congested; avoid night drives.",
+              "status": "verified"
+            },
+            {
+              "title": "Cold",
+              "body": "Winter mornings and late afternoons are very cold — pack warm layers.",
+              "status": "seasonal"
+            },
+            {
+              "title": "Emergency",
+              "body": "Dial 112 for police, fire or ambulance.",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "NDK2",
+            "NDKS",
+            "NDKE"
+          ]
         }
       },
       "wikidataId": "Q234056",
@@ -3151,6 +3485,64 @@
             "N5H1",
             "KHO3"
           ]
+        },
+        "how_to_reach": {
+          "text": "Khonoma is about 20 km west of Kohima by road; hire a taxi or shared jeep in Kohima.",
+          "facts": [
+            "NGT2",
+            "NDNT"
+          ]
+        },
+        "local_transport": {
+          "text": "Walk the village and its terraces. Shared jeeps and official taxis are the most reliable way to and from Kohima.",
+          "facts": [
+            "NDNT"
+          ]
+        },
+        "food": {
+          "items": [
+            {
+              "body": "Naga meals: a meat dish, boiled greens, rice and tathu chutney."
+            },
+            {
+              "body": "Fermented bamboo shoot with pork or fish; axone with smoked pork."
+            },
+            {
+              "body": "Bhut jolokia makes dishes fiery — ask for it mild."
+            }
+          ],
+          "facts": [
+            "NDN1"
+          ]
+        },
+        "safety_health": {
+          "items": [
+            {
+              "title": "Trails",
+              "body": "Steep and muddy at times — wear good shoes, stay on marked paths and carry a torch and a warm layer.",
+              "status": "verified"
+            },
+            {
+              "title": "Roads",
+              "body": "Narrow, winding hill roads; monsoon rain can cause small landslides. Start early and avoid late-night drives.",
+              "status": "seasonal"
+            },
+            {
+              "title": "Security",
+              "body": "Political violence is not a concern for visitors as of 2026; carry ID copies.",
+              "status": "verified"
+            },
+            {
+              "title": "Emergency",
+              "body": "Dial 112 for police, fire or ambulance.",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "NDN2",
+            "NDNS",
+            "NDNE"
+          ]
         }
       },
       "wikidataId": "Q17347092",
@@ -3449,6 +3841,36 @@
             "DIM3",
             "N2D3",
             "DIM2"
+          ]
+        },
+        "local_transport": {
+          "text": "Shared jeeps and official taxis are the most reliable way around. Shared taxis to Kohima leave from in front of the railway station.",
+          "facts": [
+            "NDDT",
+            "NDD1"
+          ]
+        },
+        "safety_health": {
+          "items": [
+            {
+              "title": "Roads",
+              "body": "Narrow, winding hill roads; monsoon rain can cause small landslides. Start early and avoid late-night drives.",
+              "status": "seasonal"
+            },
+            {
+              "title": "Security",
+              "body": "Political violence is not a concern for visitors as of 2026; carry ID copies.",
+              "status": "verified"
+            },
+            {
+              "title": "Emergency",
+              "body": "Dial 112 for police, fire or ambulance.",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "NDDS",
+            "NDDE"
           ]
         }
       },
@@ -3751,6 +4173,35 @@
             "MOK1",
             "MOK2",
             "MOK3"
+          ]
+        },
+        "local_transport": {
+          "text": "Public transport is safe but basic; shared jeeps and official taxis are the most reliable options.",
+          "facts": [
+            "NDMT"
+          ]
+        },
+        "safety_health": {
+          "items": [
+            {
+              "title": "Roads",
+              "body": "Narrow, winding hill roads; monsoon rain can cause small landslides. Start early and avoid late-night drives.",
+              "status": "seasonal"
+            },
+            {
+              "title": "Security",
+              "body": "Political violence is not a concern for visitors as of 2026; carry ID copies.",
+              "status": "verified"
+            },
+            {
+              "title": "Emergency",
+              "body": "Dial 112 for police, fire or ambulance.",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "NDMS",
+            "NDME"
           ]
         }
       },

@@ -183,6 +183,26 @@
       "url": "https://en.wikipedia.org/wiki/Vikarabad",
       "title": "Vikarabad — Wikipedia",
       "authority": "reference"
+    },
+    "WV_KNR": {
+      "url": "https://en.wikivoyage.org/wiki/Kurnool",
+      "title": "Kurnool — Wikivoyage",
+      "authority": "reference"
+    },
+    "WV_AP": {
+      "url": "https://en.wikivoyage.org/wiki/Andhra_Pradesh",
+      "title": "Andhra Pradesh — Wikivoyage",
+      "authority": "reference"
+    },
+    "WV_PTP": {
+      "url": "https://en.wikivoyage.org/wiki/Puttaparthi",
+      "title": "Puttaparthi — Wikivoyage",
+      "authority": "reference"
+    },
+    "WV_RJY": {
+      "url": "https://en.wikivoyage.org/wiki/Rajahmundry",
+      "title": "Rajahmundry — Wikivoyage",
+      "authority": "reference"
     }
   },
   "facts": {
@@ -2657,6 +2677,446 @@
           "quote": "112 is now the pan-country single emergency number for all emergencies."
         }
       ]
+    },
+    "ADK1": {
+      "place": "andhra-pradesh/kurnool",
+      "topic": "ADK1",
+      "claim": "Hotels include Hotel DVR near Children's Park, Hotel Maurya Inn, Hotel Rajvihar and Hotel Woodlands.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WV_KNR",
+          "quote": "Hotel DVR, Near Children park"
+        },
+        {
+          "source": "WV_KNR",
+          "quote": "Hotel Maurya Inn"
+        },
+        {
+          "source": "WV_KNR",
+          "quote": "Hotel Rajvihar"
+        },
+        {
+          "source": "WV_KNR",
+          "quote": "Hotel Woodlands"
+        }
+      ]
+    },
+    "ADK2": {
+      "place": "andhra-pradesh/kurnool",
+      "topic": "ADK2",
+      "claim": "Kurnool was the capital of Andhra Pradesh from 1953 to 1956 and is 210 km from Hyderabad (about 5 hours by bus).",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WV_KNR",
+          "quote": "capital of Andhra Pradesh State from 1953 to 1956"
+        },
+        {
+          "source": "WV_KNR",
+          "quote": "Kurnool is 210 km from Hyderabad"
+        },
+        {
+          "source": "WV_KNR",
+          "quote": "it takes 5 hours from Hyderabad"
+        }
+      ]
+    },
+    "ADKS": {
+      "place": "andhra-pradesh/kurnool",
+      "topic": "ADKS",
+      "claim": "Across Andhra Pradesh the best time to visit is November to February, when it is relatively cooler; April to June is hottest — in extreme summer avoid travelling in the afternoon, and keep 112 handy.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WV_AP",
+          "quote": "The best time to visit is November to February when it's relatively cooler."
+        },
+        {
+          "source": "WV_AP",
+          "quote": "The hottest months are April to June."
+        },
+        {
+          "source": "WV_AP",
+          "quote": "In extreme summers avoid travelling in afternoons."
+        },
+        {
+          "source": "WV_AP",
+          "quote": "always keep the emergency number ☏ 112 with you"
+        }
+      ]
+    },
+    "ADKV": {
+      "place": "andhra-pradesh/kurnool",
+      "topic": "ADKV",
+      "claim": "e-Tourist visa applications should be made at least 4 days before arrival, with a passport valid for at least six months.",
+      "claimType": "rule",
+      "evidence": [
+        {
+          "source": "EVISA",
+          "quote": "For e-Tourist and e-Business visa, Applicants of the eligible countries/territories may apply online minimum 4 days in advance of the date of arrival."
+        },
+        {
+          "source": "EVISA",
+          "quote": "Applicant's passport should have at least six months validity at the time of making application for grant of e-Visa."
+        }
+      ]
+    },
+    "ADKU": {
+      "place": "andhra-pradesh/kurnool",
+      "topic": "ADKU",
+      "claim": "International visitors can pay by QR code using NPCI's UPI One World wallet after a passport-and-visa KYC check.",
+      "claimType": "rule",
+      "evidence": [
+        {
+          "source": "UPI",
+          "quote": "The UPI One World wallet can be availed through authorized PPI issuers at airports, hotels, designated money exchange locations and other touchpoints, following a full KYC process based on a passport and valid visa."
+        }
+      ]
+    },
+    "ADKE": {
+      "place": "andhra-pradesh/kurnool",
+      "topic": "ADKE",
+      "claim": "112 is India's single emergency number for police, fire and ambulance.",
+      "claimType": "contact",
+      "evidence": [
+        {
+          "source": "W_112",
+          "quote": "112 is now the pan-country single emergency number for all emergencies."
+        }
+      ]
+    },
+    "ADDS": {
+      "place": "andhra-pradesh/maredumilli",
+      "topic": "ADDS",
+      "claim": "Across Andhra Pradesh the best time to visit is November to February, when it is relatively cooler; April to June is hottest — in extreme summer avoid travelling in the afternoon, and keep 112 handy.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WV_AP",
+          "quote": "The best time to visit is November to February when it's relatively cooler."
+        },
+        {
+          "source": "WV_AP",
+          "quote": "The hottest months are April to June."
+        },
+        {
+          "source": "WV_AP",
+          "quote": "In extreme summers avoid travelling in afternoons."
+        },
+        {
+          "source": "WV_AP",
+          "quote": "always keep the emergency number ☏ 112 with you"
+        }
+      ]
+    },
+    "ADDV": {
+      "place": "andhra-pradesh/maredumilli",
+      "topic": "ADDV",
+      "claim": "e-Tourist visa applications should be made at least 4 days before arrival, with a passport valid for at least six months.",
+      "claimType": "rule",
+      "evidence": [
+        {
+          "source": "EVISA",
+          "quote": "For e-Tourist and e-Business visa, Applicants of the eligible countries/territories may apply online minimum 4 days in advance of the date of arrival."
+        },
+        {
+          "source": "EVISA",
+          "quote": "Applicant's passport should have at least six months validity at the time of making application for grant of e-Visa."
+        }
+      ]
+    },
+    "ADDU": {
+      "place": "andhra-pradesh/maredumilli",
+      "topic": "ADDU",
+      "claim": "International visitors can pay by QR code using NPCI's UPI One World wallet after a passport-and-visa KYC check.",
+      "claimType": "rule",
+      "evidence": [
+        {
+          "source": "UPI",
+          "quote": "The UPI One World wallet can be availed through authorized PPI issuers at airports, hotels, designated money exchange locations and other touchpoints, following a full KYC process based on a passport and valid visa."
+        }
+      ]
+    },
+    "ADDE": {
+      "place": "andhra-pradesh/maredumilli",
+      "topic": "ADDE",
+      "claim": "112 is India's single emergency number for police, fire and ambulance.",
+      "claimType": "contact",
+      "evidence": [
+        {
+          "source": "W_112",
+          "quote": "112 is now the pan-country single emergency number for all emergencies."
+        }
+      ]
+    },
+    "ADP1": {
+      "place": "andhra-pradesh/puttaparthi",
+      "topic": "ADP1",
+      "claim": "Most visitors stay inside the ashram; there are also luxury and budget hotels.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WV_PTP",
+          "quote": "Mainly you can get accommodation within the Aashram with a spiritual environment."
+        },
+        {
+          "source": "WV_PTP",
+          "quote": "There are also many luxurious as well as budget hotels."
+        }
+      ]
+    },
+    "ADP2": {
+      "place": "andhra-pradesh/puttaparthi",
+      "topic": "ADP2",
+      "claim": "Food is vegetarian only, served in the ashram's South, North and Western (foreign) canteens.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WV_PTP",
+          "quote": "All kinds of food (only veg)"
+        },
+        {
+          "source": "WV_PTP",
+          "quote": "Mainly South Canteen, North Canteen & Western Canteen (foreign Canteen)."
+        }
+      ]
+    },
+    "ADP3": {
+      "place": "andhra-pradesh/puttaparthi",
+      "topic": "ADP3",
+      "claim": "Puttaparthi has a small railway station; its airport no longer has scheduled flights; Bengaluru is 3 hours by road.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WV_PTP",
+          "quote": "It has a tiny but beautiful railway station."
+        },
+        {
+          "source": "WV_PTP",
+          "quote": "The airport no longer serves scheduled commercial flights."
+        },
+        {
+          "source": "WV_PTP",
+          "quote": "Bangalore is 3 hours away by road."
+        }
+      ]
+    },
+    "ADPS": {
+      "place": "andhra-pradesh/puttaparthi",
+      "topic": "ADPS",
+      "claim": "Across Andhra Pradesh the best time to visit is November to February, when it is relatively cooler; April to June is hottest — in extreme summer avoid travelling in the afternoon, and keep 112 handy.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WV_AP",
+          "quote": "The best time to visit is November to February when it's relatively cooler."
+        },
+        {
+          "source": "WV_AP",
+          "quote": "The hottest months are April to June."
+        },
+        {
+          "source": "WV_AP",
+          "quote": "In extreme summers avoid travelling in afternoons."
+        },
+        {
+          "source": "WV_AP",
+          "quote": "always keep the emergency number ☏ 112 with you"
+        }
+      ]
+    },
+    "ADPV": {
+      "place": "andhra-pradesh/puttaparthi",
+      "topic": "ADPV",
+      "claim": "e-Tourist visa applications should be made at least 4 days before arrival, with a passport valid for at least six months.",
+      "claimType": "rule",
+      "evidence": [
+        {
+          "source": "EVISA",
+          "quote": "For e-Tourist and e-Business visa, Applicants of the eligible countries/territories may apply online minimum 4 days in advance of the date of arrival."
+        },
+        {
+          "source": "EVISA",
+          "quote": "Applicant's passport should have at least six months validity at the time of making application for grant of e-Visa."
+        }
+      ]
+    },
+    "ADPU": {
+      "place": "andhra-pradesh/puttaparthi",
+      "topic": "ADPU",
+      "claim": "International visitors can pay by QR code using NPCI's UPI One World wallet after a passport-and-visa KYC check.",
+      "claimType": "rule",
+      "evidence": [
+        {
+          "source": "UPI",
+          "quote": "The UPI One World wallet can be availed through authorized PPI issuers at airports, hotels, designated money exchange locations and other touchpoints, following a full KYC process based on a passport and valid visa."
+        }
+      ]
+    },
+    "ADPE": {
+      "place": "andhra-pradesh/puttaparthi",
+      "topic": "ADPE",
+      "claim": "112 is India's single emergency number for police, fire and ambulance.",
+      "claimType": "contact",
+      "evidence": [
+        {
+          "source": "W_112",
+          "quote": "112 is now the pan-country single emergency number for all emergencies."
+        }
+      ]
+    },
+    "ADR1": {
+      "place": "andhra-pradesh/rajahmundry",
+      "topic": "ADR1",
+      "claim": "The main APSRTC bus complex is on Morampudi High Road, with other stands at Innispet (Kotipalli), Aryapuram (Gokavaram) and near Kambalcheruvu (Kakinada).",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WV_RJY",
+          "quote": "The main APSRTC bus complex is located on the Morampudi High Road."
+        },
+        {
+          "source": "WV_RJY",
+          "quote": "The Kotipalli bus stand is in Innispet."
+        },
+        {
+          "source": "WV_RJY",
+          "quote": "Gokavaram bus stand is in Aryapuram."
+        },
+        {
+          "source": "WV_RJY",
+          "quote": "The Kakinada bus stand is near Kambalcheruvu."
+        }
+      ]
+    },
+    "ADR2": {
+      "place": "andhra-pradesh/rajahmundry",
+      "topic": "ADR2",
+      "claim": "Hotels include the 3-star Anand Regency and Hotel Shelton Rajamahendri (APSRTC Complex Road), and River Bay, a resort on the Godavari with boat rides.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WV_RJY",
+          "quote": "3-star hotel within the city."
+        },
+        {
+          "source": "WV_RJY",
+          "quote": "Hotel Shelton Rajamahendri , APSRTC Complex Rd"
+        },
+        {
+          "source": "WV_RJY",
+          "quote": "Resort on the banks of the Godavari River."
+        }
+      ]
+    },
+    "ADR3": {
+      "place": "andhra-pradesh/rajahmundry",
+      "topic": "ADR3",
+      "claim": "Try milk kova and putharekulu at Gangaraju Kova, rose milk at the Rose Milk Center on Main Road, and non-vegetarian South Indian breakfasts at Amma Homemade Tiffins before Jampet Bridge.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WV_RJY",
+          "quote": "Milk kova and putharekulu."
+        },
+        {
+          "source": "WV_RJY",
+          "quote": "Famous for its rose milk and kova."
+        },
+        {
+          "source": "WV_RJY",
+          "quote": "Non-vegetarian South Indian breakfast."
+        }
+      ]
+    },
+    "ADR4": {
+      "place": "andhra-pradesh/rajahmundry",
+      "topic": "ADR4",
+      "claim": "April–June is the hottest season, at 34–48 °C (51 °C was recorded in May 2007); December and January are pleasant at 27–30 °C; monsoon rain and Bay of Bengal cyclones bring heavy rain.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WV_RJY",
+          "quote": "The hottest season is from April to June, with temperatures ranging from 34 -48 °C"
+        },
+        {
+          "source": "WV_RJY",
+          "quote": "with maximum of 51 °C recorded in May 2007"
+        },
+        {
+          "source": "WV_RJY",
+          "quote": "The coolest months are December and January, when it is pleasant at 27 –30 °C."
+        },
+        {
+          "source": "WV_RJY",
+          "quote": "There is a lot of rain due to the monsoon and cyclonic storms in the Bay of Bengal."
+        }
+      ]
+    },
+    "ADRS": {
+      "place": "andhra-pradesh/rajahmundry",
+      "topic": "ADRS",
+      "claim": "Across Andhra Pradesh the best time to visit is November to February, when it is relatively cooler; April to June is hottest — in extreme summer avoid travelling in the afternoon, and keep 112 handy.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WV_AP",
+          "quote": "The best time to visit is November to February when it's relatively cooler."
+        },
+        {
+          "source": "WV_AP",
+          "quote": "The hottest months are April to June."
+        },
+        {
+          "source": "WV_AP",
+          "quote": "In extreme summers avoid travelling in afternoons."
+        },
+        {
+          "source": "WV_AP",
+          "quote": "always keep the emergency number ☏ 112 with you"
+        }
+      ]
+    },
+    "ADRV": {
+      "place": "andhra-pradesh/rajahmundry",
+      "topic": "ADRV",
+      "claim": "e-Tourist visa applications should be made at least 4 days before arrival, with a passport valid for at least six months.",
+      "claimType": "rule",
+      "evidence": [
+        {
+          "source": "EVISA",
+          "quote": "For e-Tourist and e-Business visa, Applicants of the eligible countries/territories may apply online minimum 4 days in advance of the date of arrival."
+        },
+        {
+          "source": "EVISA",
+          "quote": "Applicant's passport should have at least six months validity at the time of making application for grant of e-Visa."
+        }
+      ]
+    },
+    "ADRU": {
+      "place": "andhra-pradesh/rajahmundry",
+      "topic": "ADRU",
+      "claim": "International visitors can pay by QR code using NPCI's UPI One World wallet after a passport-and-visa KYC check.",
+      "claimType": "rule",
+      "evidence": [
+        {
+          "source": "UPI",
+          "quote": "The UPI One World wallet can be availed through authorized PPI issuers at airports, hotels, designated money exchange locations and other touchpoints, following a full KYC process based on a passport and valid visa."
+        }
+      ]
+    },
+    "ADRE": {
+      "place": "andhra-pradesh/rajahmundry",
+      "topic": "ADRE",
+      "claim": "112 is India's single emergency number for police, fire and ambulance.",
+      "claimType": "contact",
+      "evidence": [
+        {
+          "source": "W_112",
+          "quote": "112 is now the pan-country single emergency number for all emergencies."
+        }
+      ]
     }
   },
   "places": [
@@ -3678,6 +4138,123 @@
             "ARJ2",
             "ARJ5"
           ]
+        },
+        "local_transport": {
+          "text": "The main APSRTC bus complex is on Morampudi High Road, with other stands at Innispet (Kotipalli), Aryapuram (Gokavaram) and near Kambalcheruvu (Kakinada).",
+          "facts": [
+            "ADR1"
+          ]
+        },
+        "where_to_stay": {
+          "text": "Anand Regency and Hotel Shelton Rajamahendri are 3-star options in town. River Bay is a resort on the Godavari with boat rides.",
+          "facts": [
+            "ADR2"
+          ]
+        },
+        "food": {
+          "items": [
+            {
+              "body": "Milk kova and putharekulu at Gangaraju Kova."
+            },
+            {
+              "body": "Rose milk at the Rose Milk Center on Main Road."
+            },
+            {
+              "body": "Non-veg South Indian breakfasts at Amma Homemade Tiffins near Jampet Bridge."
+            }
+          ],
+          "facts": [
+            "ADR3"
+          ]
+        },
+        "who_its_for": {
+          "items": [
+            {
+              "title": "Culture seekers",
+              "body": "One of the state's oldest cities, called its cultural capital."
+            },
+            {
+              "title": "River lovers",
+              "body": "The Godavari ghats, the rail bridge and boat cruises."
+            },
+            {
+              "title": "Temple trail",
+              "body": "Draksharamam, Bikkavolu and Samalkot."
+            }
+          ],
+          "facts": [
+            "ARJ1",
+            "ARJ2",
+            "ARJ5"
+          ]
+        },
+        "safety_health": {
+          "items": [
+            {
+              "title": "Extreme heat",
+              "body": "April–June runs 34–48 °C; 51 °C was recorded in May 2007.",
+              "status": "seasonal"
+            },
+            {
+              "title": "Cyclones",
+              "body": "Monsoon and Bay of Bengal cyclones bring heavy rain.",
+              "status": "seasonal"
+            },
+            {
+              "title": "Emergency",
+              "body": "Carry a mobile phone and dial 112 in an emergency.",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "ADR4",
+            "ADRS"
+          ]
+        },
+        "practical_info": {
+          "items": [
+            {
+              "title": "Visas",
+              "body": "Apply for an e-Tourist visa at least 4 days before arrival; your passport needs at least six months' validity.",
+              "status": "verified"
+            },
+            {
+              "title": "Payments",
+              "body": "Visitors can pay by QR code with NPCI's UPI One World wallet after a passport-and-visa KYC check. Carry some cash for small purchases.",
+              "status": "verified"
+            },
+            {
+              "title": "Emergency",
+              "body": "Dial 112 for police, fire or ambulance.",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "ADRV",
+            "ADRU",
+            "ADRE"
+          ]
+        },
+        "faqs": {
+          "items": [
+            {
+              "title": "When is it coolest?",
+              "body": "December and January, at 27–30 °C."
+            },
+            {
+              "title": "What sweets should I try?",
+              "body": "Kova and putharekulu."
+            },
+            {
+              "title": "Where do buses leave from?",
+              "body": "The main APSRTC complex on Morampudi High Road."
+            }
+          ],
+          "facts": [
+            "ADR4",
+            "ADR3",
+            "ADR1"
+          ]
         }
       },
       "images": [
@@ -3780,6 +4357,101 @@
           ],
           "facts": [
             "AKN3"
+          ]
+        },
+        "best_time": {
+          "text": "November to February, when Andhra Pradesh is relatively cool. April to June is the hottest.",
+          "facts": [
+            "ADKS"
+          ]
+        },
+        "where_to_stay": {
+          "text": "Hotels include Hotel DVR near Children's Park, Hotel Maurya Inn, Hotel Rajvihar and Hotel Woodlands.",
+          "facts": [
+            "ADK1"
+          ]
+        },
+        "who_its_for": {
+          "items": [
+            {
+              "title": "History lovers",
+              "body": "The Konda Reddy Fort, and the state capital from 1953 to 1956."
+            },
+            {
+              "title": "Cave and temple explorers",
+              "body": "Belum Caves, Yaganti and Ahobilam."
+            },
+            {
+              "title": "Birders",
+              "body": "Rollapadu, home of the Great Indian Bustard."
+            }
+          ],
+          "facts": [
+            "AKN1",
+            "ADK2",
+            "AKN2"
+          ]
+        },
+        "safety_health": {
+          "items": [
+            {
+              "title": "Heat",
+              "body": "April–June is hottest; in extreme summer avoid travelling in the afternoon.",
+              "status": "seasonal"
+            },
+            {
+              "title": "Emergency",
+              "body": "Carry a mobile phone and dial 112 in an emergency.",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "ADKS"
+          ]
+        },
+        "practical_info": {
+          "items": [
+            {
+              "title": "Visas",
+              "body": "Apply for an e-Tourist visa at least 4 days before arrival; your passport needs at least six months' validity.",
+              "status": "verified"
+            },
+            {
+              "title": "Payments",
+              "body": "Visitors can pay by QR code with NPCI's UPI One World wallet after a passport-and-visa KYC check. Carry some cash for small purchases.",
+              "status": "verified"
+            },
+            {
+              "title": "Emergency",
+              "body": "Dial 112 for police, fire or ambulance.",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "ADKV",
+            "ADKU",
+            "ADKE"
+          ]
+        },
+        "faqs": {
+          "items": [
+            {
+              "title": "How far is Kurnool from Hyderabad?",
+              "body": "210 km, about 5 hours by bus."
+            },
+            {
+              "title": "Where can I stay?",
+              "body": "Hotel DVR, Maurya Inn, Rajvihar or Woodlands."
+            },
+            {
+              "title": "What's worth a day trip?",
+              "body": "Belum Caves, Yaganti and Ahobilam."
+            }
+          ],
+          "facts": [
+            "ADK2",
+            "ADK1",
+            "AKN2"
           ]
         }
       },
@@ -3928,6 +4600,100 @@
             "APT2",
             "APT3"
           ]
+        },
+        "where_to_stay": {
+          "text": "Most visitors stay inside the ashram; there are also luxury and budget hotels in town.",
+          "facts": [
+            "ADP1"
+          ]
+        },
+        "food": {
+          "items": [
+            {
+              "body": "Vegetarian only — the ashram's South, North and Western canteens."
+            }
+          ],
+          "facts": [
+            "ADP2"
+          ]
+        },
+        "who_its_for": {
+          "items": [
+            {
+              "title": "Devotees",
+              "body": "Prasanthi Nilayam and the Samadhi shrine."
+            },
+            {
+              "title": "Families",
+              "body": "The Chaitanya Jyoti Museum and the Space Theatre planetarium."
+            }
+          ],
+          "facts": [
+            "APT1",
+            "APT2"
+          ]
+        },
+        "safety_health": {
+          "items": [
+            {
+              "title": "Heat",
+              "body": "April–June is hottest; in extreme summer avoid travelling in the afternoon.",
+              "status": "seasonal"
+            },
+            {
+              "title": "Emergency",
+              "body": "Carry a mobile phone and dial 112 in an emergency.",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "ADPS"
+          ]
+        },
+        "practical_info": {
+          "items": [
+            {
+              "title": "Visas",
+              "body": "Apply for an e-Tourist visa at least 4 days before arrival; your passport needs at least six months' validity.",
+              "status": "verified"
+            },
+            {
+              "title": "Payments",
+              "body": "Visitors can pay by QR code with NPCI's UPI One World wallet after a passport-and-visa KYC check. Carry some cash for small purchases.",
+              "status": "verified"
+            },
+            {
+              "title": "Emergency",
+              "body": "Dial 112 for police, fire or ambulance.",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "ADPV",
+            "ADPU",
+            "ADPE"
+          ]
+        },
+        "faqs": {
+          "items": [
+            {
+              "title": "Can I stay at the ashram?",
+              "body": "Yes — most visitors do; hotels are also available."
+            },
+            {
+              "title": "Is non-vegetarian food available?",
+              "body": "The ashram canteens are vegetarian only."
+            },
+            {
+              "title": "How far is Bengaluru?",
+              "body": "About 3 hours by road; the local airport has no scheduled flights."
+            }
+          ],
+          "facts": [
+            "ADP1",
+            "ADP2",
+            "ADP3"
+          ]
         }
       },
       "images": [
@@ -4026,6 +4792,90 @@
             }
           ],
           "facts": [
+            "AMD3"
+          ]
+        },
+        "who_its_for": {
+          "items": [
+            {
+              "title": "Nature lovers",
+              "body": "Waterfalls and semi-evergreen forest."
+            },
+            {
+              "title": "Campers and trekkers",
+              "body": "Camping, boating, birdwatching and trekking."
+            },
+            {
+              "title": "Food explorers",
+              "body": "Bamboo chicken and bamboo biryani."
+            }
+          ],
+          "facts": [
+            "AMD1",
+            "AMD2",
+            "AMD3"
+          ]
+        },
+        "safety_health": {
+          "items": [
+            {
+              "title": "Heat",
+              "body": "April–June is hottest; in extreme summer avoid travelling in the afternoon.",
+              "status": "seasonal"
+            },
+            {
+              "title": "Emergency",
+              "body": "Carry a mobile phone and dial 112 in an emergency.",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "ADDS"
+          ]
+        },
+        "practical_info": {
+          "items": [
+            {
+              "title": "Visas",
+              "body": "Apply for an e-Tourist visa at least 4 days before arrival; your passport needs at least six months' validity.",
+              "status": "verified"
+            },
+            {
+              "title": "Payments",
+              "body": "Visitors can pay by QR code with NPCI's UPI One World wallet after a passport-and-visa KYC check. Carry some cash for small purchases.",
+              "status": "verified"
+            },
+            {
+              "title": "Emergency",
+              "body": "Dial 112 for police, fire or ambulance.",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "ADDV",
+            "ADDU",
+            "ADDE"
+          ]
+        },
+        "faqs": {
+          "items": [
+            {
+              "title": "How far is Maredumilli from Rajahmundry?",
+              "body": "About 85 km; Rajahmundry has the nearest airport and station."
+            },
+            {
+              "title": "What can I do there?",
+              "body": "Camping, boating, birdwatching and trekking."
+            },
+            {
+              "title": "What should I eat?",
+              "body": "Bamboo chicken and bamboo biryani."
+            }
+          ],
+          "facts": [
+            "AMD1",
+            "AMD4",
+            "AMD2",
             "AMD3"
           ]
         }

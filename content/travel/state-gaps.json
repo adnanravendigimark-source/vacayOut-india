@@ -298,6 +298,31 @@
       "url": "https://tourism.bihar.gov.in/en/destinations/patna/buddha-smriti-park",
       "title": "Buddha Smriti Park — Bihar Tourism (Government of Bihar)",
       "authority": "government"
+    },
+    "WV_PAT": {
+      "url": "https://en.wikivoyage.org/wiki/Patna",
+      "title": "Patna — Wikivoyage",
+      "authority": "reference"
+    },
+    "BH_PGG": {
+      "url": "https://tourism.bihar.gov.in/en/destinations/patna/gol-ghar",
+      "title": "Gol Ghar — Bihar Tourism (Government of Bihar)",
+      "authority": "government"
+    },
+    "BH_PHS": {
+      "url": "https://tourism.bihar.gov.in/en/destinations/patna/takht-shri-harmandir-sahib",
+      "title": "Takht Sri Harmandir Sahib — Bihar Tourism (Government of Bihar)",
+      "authority": "government"
+    },
+    "WV_BH": {
+      "url": "https://en.wikivoyage.org/wiki/Bihar",
+      "title": "Bihar — Wikivoyage",
+      "authority": "reference"
+    },
+    "W_112": {
+      "url": "https://en.wikipedia.org/wiki/112_(emergency_telephone_number)",
+      "title": "112 (emergency telephone number) — Wikipedia",
+      "authority": "reference"
     }
   },
   "facts": {
@@ -2082,6 +2107,114 @@
         {
           "source": "BH_BSP2",
           "quote": "The Great Rajasthan, Rajendra Nagar Hotel Bhavya Residency, Patna"
+        }
+      ]
+    },
+    "BDP1": {
+      "place": "bihar/patna",
+      "topic": "BDP1",
+      "claim": "Bihar Tourism gives September to April as the best time to visit Patna's sights.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "BH_PGG",
+          "quote": "Best Time To Visit : September to April."
+        }
+      ]
+    },
+    "BDP2": {
+      "place": "bihar/patna",
+      "topic": "BDP2",
+      "claim": "Jay Prakash Narayan Airport has daily flights to Delhi, Mumbai and Kolkata and links to Bengaluru, Hyderabad, Chennai and others; Patna Junction (PNBE) has Rajdhani and Vande Bharat services.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WV_PAT",
+          "quote": "with daily flights to and from Delhi, Mumbai and Kolkata"
+        },
+        {
+          "source": "WV_PAT",
+          "quote": "Directly connected to Delhi , Lucknow , Kolkata , Mumbai , Bengaluru , Hyderabad , Chennai"
+        },
+        {
+          "source": "WV_PAT",
+          "quote": "It is served by multiple Rajdhani Express trains from New Delhi , as well as Vande Bharat trains"
+        }
+      ]
+    },
+    "BDP3": {
+      "place": "bihar/patna",
+      "topic": "BDP3",
+      "claim": "Try litti chokha, sattu, makhana, tilkut and pua-pittha; anarsa, a rice-flour sweet with khoya filling; and Patna chaat, with a tamarind flavour unlike Delhi's.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WV_PAT",
+          "quote": "try food typical to the region such as pua-pittha, tilkut, chiwra, makhana, the famed sattu or the farmer's staple, litti chokha"
+        },
+        {
+          "source": "WV_PAT",
+          "quote": "Anarsa is one of the finest sweet delicacies of Bihar."
+        },
+        {
+          "source": "WV_PAT",
+          "quote": "the special thing about 'Patna Chaat' is its authentic tamarind flavor"
+        }
+      ]
+    },
+    "BDP4": {
+      "place": "bihar/patna",
+      "topic": "BDP4",
+      "claim": "Takht Sri Harmandir Sahib, birthplace of Guru Gobind Singh, is one of the five Takhts of Sikhism; Gol Ghar's 145 steps give views over the Ganga and the city.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "BH_PHS",
+          "quote": "this gurudwara marks the birthplace of Guru Gobind Singh Ji, the tenth Sikh Guru"
+        },
+        {
+          "source": "BH_PHS",
+          "quote": "One of the five Takhts (holy seats) of Sikhism"
+        },
+        {
+          "source": "BH_PGG",
+          "quote": "which has 145 steps, to enjoy breathtaking views of the Ganga River and Patna city"
+        }
+      ]
+    },
+    "BDPS": {
+      "place": "bihar/patna",
+      "topic": "BDPS",
+      "claim": "Crowded areas in Patna, Gaya and Bodh Gaya can be hectic — keep valuables secure; use clearly marked taxis or autos and avoid unfamiliar routes late at night; summers are hot and humid, and monsoon rain can flood rural roads.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WV_BH",
+          "quote": "Crowded areas —especially in Patna, Gaya and Bodh Gaya—can feel hectic, so keeping your phone and valuables secure is sensible."
+        },
+        {
+          "source": "WV_BH",
+          "quote": "Choosing clearly marked taxis or auto‑rickshaws and avoiding unfamiliar routes late at night is a good habit."
+        },
+        {
+          "source": "WV_BH",
+          "quote": "Summers are hot and humid, so carrying water, taking shade breaks and avoiding long walks during peak heat hours keeps you comfortable."
+        },
+        {
+          "source": "WV_BH",
+          "quote": "The monsoon brings heavy rain, and some roads—especially in rural districts—may flood or become muddy."
+        }
+      ]
+    },
+    "BDPE": {
+      "place": "bihar/patna",
+      "topic": "BDPE",
+      "claim": "112 is India's single emergency number for police, fire and ambulance.",
+      "claimType": "contact",
+      "evidence": [
+        {
+          "source": "W_112",
+          "quote": "112 is now the pan-country single emergency number for all emergencies."
         }
       ]
     }
@@ -5416,6 +5549,107 @@
           "text": "Bihar Tourism suggests Amit Hotel on New Bypass Road, The Great Rajasthan in Rajendra Nagar and Hotel Bhavya Residency.",
           "facts": [
             "GPA3"
+          ]
+        },
+        "best_time": {
+          "text": "September to April, the season Bihar Tourism recommends. Summers are hot and humid, and the monsoon is wet.",
+          "facts": [
+            "BDP1",
+            "BDPS"
+          ]
+        },
+        "how_to_reach": {
+          "text": "Jay Prakash Narayan Airport has daily flights to Delhi, Mumbai and Kolkata and links to Bengaluru, Hyderabad, Chennai and more. Patna Junction (PNBE) has Rajdhani and Vande Bharat trains.",
+          "facts": [
+            "BDP2"
+          ]
+        },
+        "food": {
+          "items": [
+            {
+              "body": "Litti chokha, sattu and makhana."
+            },
+            {
+              "body": "Anarsa — a rice-flour shell with khoya filling."
+            },
+            {
+              "body": "Patna chaat, tangy with tamarind."
+            },
+            {
+              "body": "Pua-pittha and tilkut."
+            }
+          ],
+          "facts": [
+            "BDP3"
+          ]
+        },
+        "who_its_for": {
+          "items": [
+            {
+              "title": "Sikh pilgrims",
+              "body": "Takht Sri Harmandir Sahib, birthplace of Guru Gobind Singh."
+            },
+            {
+              "title": "History lovers",
+              "body": "Ancient Pataliputra and Gol Ghar's views over the Ganga."
+            },
+            {
+              "title": "Food lovers",
+              "body": "Litti chokha, anarsa and Patna chaat."
+            }
+          ],
+          "facts": [
+            "BDP4",
+            "BDP3"
+          ]
+        },
+        "safety_health": {
+          "items": [
+            {
+              "title": "Crowds",
+              "body": "Keep your phone and valuables secure in busy areas.",
+              "status": "verified"
+            },
+            {
+              "title": "Night travel",
+              "body": "Use clearly marked taxis or autos; avoid unfamiliar routes late at night.",
+              "status": "verified"
+            },
+            {
+              "title": "Heat and rain",
+              "body": "Summers are hot and humid; monsoon rain can flood rural roads.",
+              "status": "seasonal"
+            },
+            {
+              "title": "Emergency",
+              "body": "Dial 112 for police, fire or ambulance.",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "BDPS",
+            "BDPE"
+          ]
+        },
+        "faqs": {
+          "items": [
+            {
+              "title": "When should I visit Patna?",
+              "body": "September to April."
+            },
+            {
+              "title": "What should I eat?",
+              "body": "Litti chokha, anarsa and tangy Patna chaat."
+            },
+            {
+              "title": "How many steps does Gol Ghar have?",
+              "body": "145, with views over the Ganga."
+            }
+          ],
+          "facts": [
+            "BDP1",
+            "BDP3",
+            "BDP4"
           ]
         }
       },

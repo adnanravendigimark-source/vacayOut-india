@@ -283,6 +283,26 @@
       "url": "https://en.wikivoyage.org/wiki/Telangana",
       "title": "Telangana — Wikivoyage",
       "authority": "reference"
+    },
+    "WV_TIR": {
+      "url": "https://en.wikivoyage.org/wiki/Tirupati",
+      "title": "Tirupati — Wikivoyage",
+      "authority": "reference"
+    },
+    "WV_AP": {
+      "url": "https://en.wikivoyage.org/wiki/Andhra_Pradesh",
+      "title": "Andhra Pradesh — Wikivoyage",
+      "authority": "reference"
+    },
+    "WV_VIZ": {
+      "url": "https://en.wikivoyage.org/wiki/Visakhapatnam",
+      "title": "Visakhapatnam — Wikivoyage",
+      "authority": "reference"
+    },
+    "WV_ARK": {
+      "url": "https://en.wikivoyage.org/wiki/Araku_Valley",
+      "title": "Araku Valley — Wikivoyage",
+      "authority": "reference"
     }
   },
   "facts": {
@@ -1861,6 +1881,342 @@
           "quote": "112 is now the pan-country single emergency number for all emergencies."
         }
       ]
+    },
+    "ADT1": {
+      "place": "andhra-pradesh/tirupati",
+      "topic": "ADT1",
+      "claim": "Pilgrims can walk up to the temple from Alipiri (local buses run there): 3,550 steps taking an average person 3–4 hours, with shelter and drinking water along the way; the last 100–200 steps are steep; luggage deposited at Alipiri is carried up free.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WV_TIR",
+          "quote": "Take a local bus to Alipiri ."
+        },
+        {
+          "source": "WV_TIR",
+          "quote": "It consists of 3550 steps. An average person takes 3-4 hours to reach the top. The last 100 to 200 steps are steep."
+        },
+        {
+          "source": "WV_TIR",
+          "quote": "you can deposit your luggage at Alipiri and take a token, so that the temple authorities will bring the luggage to the top of hills by the time you reach there at free of cost"
+        },
+        {
+          "source": "WV_TIR",
+          "quote": "along the steps way to hills shelter is provided to protect from sun light. further drinking water supply is provided throughout the way"
+        }
+      ]
+    },
+    "ADT2": {
+      "place": "andhra-pradesh/tirupati",
+      "topic": "ADT2",
+      "claim": "TTD runs paid non-AC lodging such as Srinivasam (near the bus station) and Sri Venkateswara Dharmasala (opposite the railway station), AC rooms at Sri Padmavathi Guest House on Chittoor Road, and free dharmasalas such as Sri Govindaraja; many private hotels also cater to pilgrims.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WV_TIR",
+          "quote": "Private accommodation is available in Tirupati city with numerous hotels catering to the pilgrims."
+        },
+        {
+          "source": "WV_TIR",
+          "quote": "Sri Venkateswara Dharmasala (opp. Tirupati Railway Station)"
+        },
+        {
+          "source": "WV_TIR",
+          "quote": "Srinivasam (near bus station)"
+        },
+        {
+          "source": "WV_TIR",
+          "quote": "Sri Padmavathi Guest House (on Chittor Road) offer air-conditioned accommodation."
+        }
+      ]
+    },
+    "ADT3": {
+      "place": "andhra-pradesh/tirupati",
+      "topic": "ADT3",
+      "claim": "Free meals are served at the Tarigonda Vengamamba Annaprasadam complex; Talakona, Andhra Pradesh's highest waterfall (82 m), is in Sri Venkateswara National Park; trains also stop at Renigunta, 10 km away, with frequent buses to Tirupati.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WV_TIR",
+          "quote": "One can avail free meals at the Tarigonda Vengamamba Annaprasadam complex"
+        },
+        {
+          "source": "WV_TIR",
+          "quote": "The highest waterfall in Andhra Pradesh, with a 270-feet (82-m) fall."
+        },
+        {
+          "source": "WV_TIR",
+          "quote": "Trains can also be boarded at nearby cities - Renigunta (10 km from Tirupati) and Gudur (100 km)."
+        }
+      ]
+    },
+    "ADT4": {
+      "place": "andhra-pradesh/tirupati",
+      "topic": "ADT4",
+      "claim": "Free TTD dharmasalas include Sri Govindaraja Dharmasala.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WV_TIR",
+          "quote": "Free : Sri Govindaraja Dharmasala"
+        }
+      ]
+    },
+    "ADTS": {
+      "place": "andhra-pradesh/tirupati",
+      "topic": "ADTS",
+      "claim": "Across Andhra Pradesh the best time to visit is November to February, when it is relatively cooler; April to June is hottest — in extreme summer avoid travelling in the afternoon, and keep 112 handy.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WV_AP",
+          "quote": "The best time to visit is November to February when it's relatively cooler."
+        },
+        {
+          "source": "WV_AP",
+          "quote": "The hottest months are April to June."
+        },
+        {
+          "source": "WV_AP",
+          "quote": "In extreme summers avoid travelling in afternoons."
+        },
+        {
+          "source": "WV_AP",
+          "quote": "always keep the emergency number ☏ 112 with you"
+        }
+      ]
+    },
+    "ADV1": {
+      "place": "andhra-pradesh/visakhapatnam",
+      "topic": "ADV1",
+      "claim": "Visakhapatnam has no commuter rail; buses, taxis and auto-rickshaws serve the city; the new airport at Bhogapuram is 50 km from the centre and lacks public transport, so taxis are best.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WV_VIZ",
+          "quote": "Visakhapatnam has no commuter rail service. However, apart from the bus service, taxis or autorickshaws can also be hired."
+        },
+        {
+          "source": "WV_VIZ",
+          "quote": "Bhogapuram ( 50 km (31 mi) from central Vizag )"
+        },
+        {
+          "source": "WV_VIZ",
+          "quote": "the faraway airport lacks public transport, so taxis are your best bet to get into the city centre"
+        }
+      ]
+    },
+    "ADV2": {
+      "place": "andhra-pradesh/visakhapatnam",
+      "topic": "ADV2",
+      "claim": "Vizag has high-end hotels and affordable lodges — the Daspalla, The Grand Central and Green Park are well known; Beach View Guest House on RK Beach Road has beach-facing rooms.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WV_VIZ",
+          "quote": "Vizag has both high end hotels and affordable lodges. The Daspalla, The Grand Central Hotel and Green Park are well-known."
+        },
+        {
+          "source": "WV_VIZ",
+          "quote": "All rooms face the beach."
+        }
+      ]
+    },
+    "ADV3": {
+      "place": "andhra-pradesh/visakhapatnam",
+      "topic": "ADV3",
+      "claim": "Called the 'Goa of the East', Vizag has beaches and laterite hillocks; a Vizag lunch is rice with country chicken stew, dry fish curry and crab stew; Siripuram has many restaurants.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WV_VIZ",
+          "quote": "is sometimes called the Goa of the East"
+        },
+        {
+          "source": "WV_VIZ",
+          "quote": "it has beautiful virgin beaches, laterite hillocks"
+        },
+        {
+          "source": "WV_VIZ",
+          "quote": "Vizag lunch consists of steamed rice with country chicken stew, dry fish curry"
+        },
+        {
+          "source": "WV_VIZ",
+          "quote": "Many of the eating joints meant or frequented by tourists are in the Siripuram area."
+        }
+      ]
+    },
+    "ADVS": {
+      "place": "andhra-pradesh/visakhapatnam",
+      "topic": "ADVS",
+      "claim": "Across Andhra Pradesh the best time to visit is November to February, when it is relatively cooler; April to June is hottest — in extreme summer avoid travelling in the afternoon, and keep 112 handy.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WV_AP",
+          "quote": "The best time to visit is November to February when it's relatively cooler."
+        },
+        {
+          "source": "WV_AP",
+          "quote": "The hottest months are April to June."
+        },
+        {
+          "source": "WV_AP",
+          "quote": "In extreme summers avoid travelling in afternoons."
+        },
+        {
+          "source": "WV_AP",
+          "quote": "always keep the emergency number ☏ 112 with you"
+        }
+      ]
+    },
+    "ADA1": {
+      "place": "andhra-pradesh/araku-valley",
+      "topic": "ADA1",
+      "claim": "Often called the 'Ooty of Andhra', Araku lies in the Eastern Ghats, with hills, streams and morning fog, and is home to several tribes; it is not a day trip, and lodges are few, so book APTDC rooms early.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WV_ARK",
+          "quote": "Often called the \" Ooty of Andhra\", Araku in the Eastern Ghats is blessed with enchanting beauty of the hills and greenery"
+        },
+        {
+          "source": "WV_ARK",
+          "quote": "The valley is inhabited by different tribes."
+        },
+        {
+          "source": "WV_ARK",
+          "quote": "Araku Valley is definitely not a day trip"
+        },
+        {
+          "source": "WV_ARK",
+          "quote": "Book your APTDC rooms early."
+        }
+      ]
+    },
+    "ADA2": {
+      "place": "andhra-pradesh/araku-valley",
+      "topic": "ADA2",
+      "claim": "November to February are the best months; book lodges early, as Araku has few.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WV_ARK",
+          "quote": "November to February are the best months to visit and making an early reservation in the lodges is advisable as Araku Valley has few lodges and hotels."
+        }
+      ]
+    },
+    "ADA3": {
+      "place": "andhra-pradesh/araku-valley",
+      "topic": "ADA3",
+      "claim": "An early-morning passenger train from Vizag (6:50am) runs through more than 40 tunnels to Araku — arrive an hour early for a seat; APSRTC runs daily tour and regular buses.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WV_ARK",
+          "quote": "A slow, passenger train leaves the Vizag station early in the morning (at 6:50AM)"
+        },
+        {
+          "source": "WV_ARK",
+          "quote": "The train runs through small mountains and over 40 tunnels"
+        },
+        {
+          "source": "WV_ARK",
+          "quote": "Arrive at least an hour before its departure to get a seat."
+        },
+        {
+          "source": "WV_ARK",
+          "quote": "There are buses that operate from APSRTC that have a daily tour as well as normal operations."
+        }
+      ]
+    },
+    "ADA4": {
+      "place": "andhra-pradesh/araku-valley",
+      "topic": "ADA4",
+      "claim": "Public buses are limited; cabs can be hired at the APTDC lodge for a day trip through the valley to Borra Caves.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WV_ARK",
+          "quote": "Getting around Araku Valley is limited by limited public bus service."
+        },
+        {
+          "source": "WV_ARK",
+          "quote": "At APTDC lodge, cabs can be hired for a day trip through the valley to Borra caves"
+        }
+      ]
+    },
+    "ADA5": {
+      "place": "andhra-pradesh/araku-valley",
+      "topic": "ADA5",
+      "claim": "Stays include Haritha Valley Resort, Dhimsa Resorts and Ananthagiri Resorts; bamboo chicken, cooked inside bamboo over fire, is the traditional tribal dish.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WV_ARK",
+          "quote": "Haritha Valley Resort"
+        },
+        {
+          "source": "WV_ARK",
+          "quote": "Dhimsa Resorts"
+        },
+        {
+          "source": "WV_ARK",
+          "quote": "Ananthagiri Resorts"
+        },
+        {
+          "source": "WV_ARK",
+          "quote": "Bamboo Chicken is a traditional tribal dish in Araku Valley, where chicken is cooked inside bamboo over fire."
+        }
+      ]
+    },
+    "ADAS": {
+      "place": "andhra-pradesh/araku-valley",
+      "topic": "ADAS",
+      "claim": "Across Andhra Pradesh the best time to visit is November to February, when it is relatively cooler; April to June is hottest — in extreme summer avoid travelling in the afternoon, and keep 112 handy.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WV_AP",
+          "quote": "The best time to visit is November to February when it's relatively cooler."
+        },
+        {
+          "source": "WV_AP",
+          "quote": "The hottest months are April to June."
+        },
+        {
+          "source": "WV_AP",
+          "quote": "In extreme summers avoid travelling in afternoons."
+        },
+        {
+          "source": "WV_AP",
+          "quote": "always keep the emergency number ☏ 112 with you"
+        }
+      ]
+    },
+    "ADMS": {
+      "place": "andhra-pradesh/amaravati",
+      "topic": "ADMS",
+      "claim": "Across Andhra Pradesh the best time to visit is November to February, when it is relatively cooler; April to June is hottest — in extreme summer avoid travelling in the afternoon, and keep 112 handy.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WV_AP",
+          "quote": "The best time to visit is November to February when it's relatively cooler."
+        },
+        {
+          "source": "WV_AP",
+          "quote": "The hottest months are April to June."
+        },
+        {
+          "source": "WV_AP",
+          "quote": "In extreme summers avoid travelling in afternoons."
+        },
+        {
+          "source": "WV_AP",
+          "quote": "always keep the emergency number ☏ 112 with you"
+        }
+      ]
     }
   },
   "places": [
@@ -3180,6 +3536,91 @@
             "GTP3",
             "GTP1"
           ]
+        },
+        "best_time": {
+          "text": "November to February, when Andhra Pradesh is relatively cool. April to June is the hottest, so climb the steps early in the day.",
+          "facts": [
+            "ADTS"
+          ]
+        },
+        "local_transport": {
+          "text": "Local buses run to Alipiri, the start of the 3,550-step footpath to the temple (3–4 hours). Leave your luggage at Alipiri and it is carried up free. Renigunta, 10 km away, has frequent buses to Tirupati.",
+          "facts": [
+            "ADT1",
+            "ADT3"
+          ]
+        },
+        "where_to_stay": {
+          "text": "TTD runs paid non-AC lodging such as Srinivasam (near the bus station) and Sri Venkateswara Dharmasala (opposite the railway station), AC rooms at Sri Padmavathi Guest House on Chittoor Road, and free dharmasalas such as Sri Govindaraja. Many private hotels also cater to pilgrims.",
+          "facts": [
+            "ADT2",
+            "ADT4"
+          ]
+        },
+        "safety_health": {
+          "items": [
+            {
+              "title": "The climb",
+              "body": "3,550 steps, 3–4 hours; the last 100–200 are steep. Shelter and drinking water are provided.",
+              "status": "verified"
+            },
+            {
+              "title": "Heat",
+              "body": "April–June is hottest; in extreme summer avoid travelling in the afternoon.",
+              "status": "seasonal"
+            },
+            {
+              "title": "Emergency",
+              "body": "Carry a mobile phone and dial 112 in an emergency.",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "ADT1",
+            "ADTS"
+          ]
+        },
+        "who_its_for": {
+          "items": [
+            {
+              "title": "Pilgrims",
+              "body": "Sri Venkateswara at Tirumala, with free meals at the Annaprasadam complex."
+            },
+            {
+              "title": "Walkers",
+              "body": "The 3,550-step climb from Alipiri."
+            },
+            {
+              "title": "Nature lovers",
+              "body": "Talakona, the state's highest waterfall."
+            }
+          ],
+          "facts": [
+            "ADT3",
+            "ADT1"
+          ]
+        },
+        "faqs": {
+          "items": [
+            {
+              "title": "Can I walk up to Tirumala?",
+              "body": "Yes — 3,550 steps from Alipiri, about 3–4 hours; luggage left at Alipiri is carried up free."
+            },
+            {
+              "title": "Are meals free?",
+              "body": "Yes, at the Tarigonda Vengamamba Annaprasadam complex."
+            },
+            {
+              "title": "Where can I stay cheaply?",
+              "body": "TTD's paid and free dharmasalas, such as Srinivasam or Sri Govindaraja."
+            }
+          ],
+          "facts": [
+            "ADT1",
+            "ADT3",
+            "ADT2",
+            "ADT4"
+          ]
         }
       },
       "wikidataId": "Q1436816",
@@ -3475,6 +3916,86 @@
           "facts": [
             "GVZ2"
           ]
+        },
+        "best_time": {
+          "text": "November to February, when Andhra Pradesh is relatively cool. April to June is the hottest.",
+          "facts": [
+            "ADVS"
+          ]
+        },
+        "local_transport": {
+          "text": "There is no commuter rail; use city buses, taxis or autos. The airport at Bhogapuram is 50 km from the centre with no public transport, so take a taxi.",
+          "facts": [
+            "ADV1"
+          ]
+        },
+        "where_to_stay": {
+          "text": "There are high-end hotels and budget lodges. The Daspalla, The Grand Central and Green Park are well known, and Beach View Guest House on RK Beach Road has rooms facing the sea.",
+          "facts": [
+            "ADV2"
+          ]
+        },
+        "safety_health": {
+          "items": [
+            {
+              "title": "Airport transfers",
+              "body": "The airport is 50 km out with no public transport; use a taxi.",
+              "status": "verified"
+            },
+            {
+              "title": "Heat",
+              "body": "April–June is hottest; in extreme summer avoid travelling in the afternoon.",
+              "status": "seasonal"
+            },
+            {
+              "title": "Emergency",
+              "body": "Carry a mobile phone and dial 112 in an emergency.",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "ADV1",
+            "ADVS"
+          ]
+        },
+        "who_its_for": {
+          "items": [
+            {
+              "title": "Beach lovers",
+              "body": "The 'Goa of the East', with beaches and laterite hills."
+            },
+            {
+              "title": "Seafood lovers",
+              "body": "Dry fish curry, crab stew and country chicken stew."
+            },
+            {
+              "title": "Gateway travellers",
+              "body": "The base for Araku and the Eastern Ghats."
+            }
+          ],
+          "facts": [
+            "ADV3"
+          ]
+        },
+        "faqs": {
+          "items": [
+            {
+              "title": "How far is the airport?",
+              "body": "About 50 km, at Bhogapuram; take a taxi."
+            },
+            {
+              "title": "Is there a metro or local train?",
+              "body": "No commuter rail — use buses, taxis or autos."
+            },
+            {
+              "title": "Where are the restaurants?",
+              "body": "Around Siripuram."
+            }
+          ],
+          "facts": [
+            "ADV1",
+            "ADV3"
+          ]
         }
       },
       "wikidataId": "Q200016",
@@ -3659,6 +4180,137 @@
             "AP2",
             "AP3"
           ]
+        },
+        "key_facts": {
+          "items": [
+            {
+              "title": "Known as",
+              "body": "The 'Ooty of Andhra'",
+              "status": "verified"
+            },
+            {
+              "title": "Region",
+              "body": "Eastern Ghats, home to several tribes",
+              "status": "verified"
+            },
+            {
+              "title": "Best months",
+              "body": "November to February",
+              "status": "seasonal"
+            },
+            {
+              "title": "Getting there",
+              "body": "Morning train from Vizag through 40+ tunnels",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "ADA1",
+            "ADA2",
+            "ADA3"
+          ]
+        },
+        "best_time": {
+          "text": "November to February. Book lodges early, because Araku has few, and walk the town early while the morning fog lingers.",
+          "facts": [
+            "ADA2",
+            "ADA1"
+          ]
+        },
+        "how_to_reach": {
+          "text": "A slow passenger train leaves Vizag at 6:50am and runs through more than 40 tunnels; arrive an hour early for a seat. APSRTC also runs daily tour buses and regular services.",
+          "facts": [
+            "ADA3"
+          ]
+        },
+        "local_transport": {
+          "text": "Public buses are limited. Hire a cab at the APTDC lodge for a day trip through the valley to Borra Caves.",
+          "facts": [
+            "ADA4"
+          ]
+        },
+        "where_to_stay": {
+          "text": "APTDC's lodges (book early), plus Haritha Valley Resort, Dhimsa Resorts and Ananthagiri Resorts. Araku isn't a day trip.",
+          "facts": [
+            "ADA1",
+            "ADA5"
+          ]
+        },
+        "food": {
+          "items": [
+            {
+              "body": "Bamboo chicken — chicken cooked inside bamboo over a fire, a tribal speciality."
+            }
+          ],
+          "facts": [
+            "ADA5"
+          ]
+        },
+        "who_its_for": {
+          "items": [
+            {
+              "title": "Train lovers",
+              "body": "The Vizag–Araku line through 40+ tunnels."
+            },
+            {
+              "title": "Hill-station fans",
+              "body": "The 'Ooty of Andhra', with misty mornings."
+            },
+            {
+              "title": "Food explorers",
+              "body": "Tribal bamboo chicken."
+            }
+          ],
+          "facts": [
+            "ADA3",
+            "ADA1",
+            "ADA5"
+          ]
+        },
+        "safety_health": {
+          "items": [
+            {
+              "title": "Book ahead",
+              "body": "Lodges are few; reserve before you go.",
+              "status": "verified"
+            },
+            {
+              "title": "Getting around",
+              "body": "Buses are limited — arrange a cab at the APTDC lodge.",
+              "status": "verified"
+            },
+            {
+              "title": "Emergency",
+              "body": "Carry a mobile phone and dial 112 in an emergency.",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "ADA2",
+            "ADA4",
+            "ADAS"
+          ]
+        },
+        "faqs": {
+          "items": [
+            {
+              "title": "Can I do Araku as a day trip?",
+              "body": "Not really — stay at least a night."
+            },
+            {
+              "title": "How do I get there?",
+              "body": "The 6:50am passenger train from Vizag through 40+ tunnels, or APSRTC buses."
+            },
+            {
+              "title": "When is the best time?",
+              "body": "November to February."
+            }
+          ],
+          "facts": [
+            "ADA1",
+            "ADA3",
+            "ADA2"
+          ]
         }
       },
       "wikidataId": "Q3536505",
@@ -3816,6 +4468,71 @@
           "text": "The nearest airport is Vijayawada International Airport and the nearest railway station is Vijayawada. Kondapalli Fort is about 20 km from Amaravati.",
           "facts": [
             "GAM3"
+          ]
+        },
+        "best_time": {
+          "text": "November to February, when Andhra Pradesh is relatively cool. April to June is the hottest.",
+          "facts": [
+            "ADMS"
+          ]
+        },
+        "who_its_for": {
+          "items": [
+            {
+              "title": "Buddhist-heritage travellers",
+              "body": "The Mahachaitya stupa, from the Mauryan era."
+            },
+            {
+              "title": "History lovers",
+              "body": "A Satavahana capital from the 3rd century BC."
+            },
+            {
+              "title": "Shoppers",
+              "body": "Kondapalli toys, Kalamkari and Guntur's chilli yard."
+            }
+          ],
+          "facts": [
+            "AMR1",
+            "GAM4",
+            "GAM2"
+          ]
+        },
+        "safety_health": {
+          "items": [
+            {
+              "title": "Heat",
+              "body": "April–June is hottest; in extreme summer avoid travelling in the afternoon.",
+              "status": "seasonal"
+            },
+            {
+              "title": "Emergency",
+              "body": "Carry a mobile phone and dial 112 in an emergency.",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "ADMS"
+          ]
+        },
+        "faqs": {
+          "items": [
+            {
+              "title": "What are the site's hours?",
+              "body": "The stupa site is open 8 am–6 pm."
+            },
+            {
+              "title": "How do I get there?",
+              "body": "Via Vijayawada airport or Vijayawada station."
+            },
+            {
+              "title": "What is nearby?",
+              "body": "Kondapalli Fort (about 20 km) and Guntur's chilli yard (about 40 km)."
+            }
+          ],
+          "facts": [
+            "AMR1",
+            "GAM3",
+            "AMR2"
           ]
         }
       },
