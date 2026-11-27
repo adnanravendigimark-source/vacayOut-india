@@ -273,6 +273,16 @@
       "url": "https://tourism.telangana.gov.in/page/where-stay",
       "title": "Where to Stay — Telangana Tourism (Government of Telangana)",
       "authority": "government"
+    },
+    "WV_WGL": {
+      "url": "https://en.wikivoyage.org/wiki/Warangal",
+      "title": "Warangal — Wikivoyage",
+      "authority": "reference"
+    },
+    "WV_TG": {
+      "url": "https://en.wikivoyage.org/wiki/Telangana",
+      "title": "Telangana — Wikivoyage",
+      "authority": "reference"
     }
   },
   "facts": {
@@ -1757,6 +1767,98 @@
         {
           "source": "TG_WST",
           "quote": "staying at heritage hotels like Falaknuma Palace and Golkonda Resort"
+        }
+      ]
+    },
+    "TDW1": {
+      "place": "telangana/warangal",
+      "topic": "TDW1",
+      "claim": "Auto-rickshaws run along the main road between Warangal and Kazipet stations (about 20 km), with no metered tariff — share or negotiate; city buses also run; Warangal, Hanamkonda and Kazipet form a tri-city.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WV_WGL",
+          "quote": "Autos ply on the main road between Warangal railway station and Kazipet railway station which is about 20 km away."
+        },
+        {
+          "source": "WV_WGL",
+          "quote": "There is no standardised metered tariff and one has to either share a single auto with others or negotiate a charge for single occupancy."
+        },
+        {
+          "source": "WV_WGL",
+          "quote": "You can also travel using city bus."
+        },
+        {
+          "source": "WV_WGL",
+          "quote": "These 3 cities are well connected and together they are called Tri-City."
+        }
+      ]
+    },
+    "TDW2": {
+      "place": "telangana/warangal",
+      "topic": "TDW2",
+      "claim": "Most sights are within 10–20 km; Ramappa, about 70 km away, needs a separate day.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WV_WGL",
+          "quote": "the places listed except Ramappa are within the 10-20 km circle"
+        },
+        {
+          "source": "WV_WGL",
+          "quote": "one day you can spend for Ramappa which is about 70 km from the Warangal city"
+        }
+      ]
+    },
+    "TDW3": {
+      "place": "telangana/warangal",
+      "topic": "TDW3",
+      "claim": "Hotels include the 3-star Hotel Landmark Residency on the Warangal–Kazipet road, City Grand Hotel at Rangampet and the state-run Punnami Hotel at Kazipet.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WV_WGL",
+          "quote": "A 3 star hotel in Warangal, one of the few upscale hotels around"
+        },
+        {
+          "source": "WV_WGL",
+          "quote": "City Grand Hotel , S.V.P Road, Rangampet"
+        },
+        {
+          "source": "WV_WGL",
+          "quote": "Punnami Hotel ( AP Tourism Hotel ), Kazipet"
+        }
+      ]
+    },
+    "TDWH": {
+      "place": "telangana/warangal",
+      "topic": "TDWH",
+      "claim": "Telangana summers (March–June) exceed 40 °C — drink plenty of water and avoid going out in the afternoon; mild winters are the best time to explore the state.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WV_TG",
+          "quote": "Drink plenty of water"
+        },
+        {
+          "source": "WV_TG",
+          "quote": "avoid going out in the afternoon when the temperature exceeds 40°C in summer (March-June)"
+        },
+        {
+          "source": "WV_TG",
+          "quote": "Winters are mild, making it the best time to explore the state’s natural beauty"
+        }
+      ]
+    },
+    "TDWE": {
+      "place": "telangana/warangal",
+      "topic": "TDWE",
+      "claim": "112 is India's single emergency number for police, fire and ambulance.",
+      "claimType": "contact",
+      "evidence": [
+        {
+          "source": "W_112",
+          "quote": "112 is now the pan-country single emergency number for all emergencies."
         }
       ]
     }
@@ -4338,6 +4440,78 @@
           "facts": [
             "GWG1",
             "GWG3"
+          ]
+        },
+        "local_transport": {
+          "text": "Autos run along the main road between Warangal and Kazipet stations (about 20 km). They have no meters, so share one or agree a price. City buses also link the tri-city of Warangal, Hanamkonda and Kazipet.",
+          "facts": [
+            "TDW1"
+          ]
+        },
+        "where_to_stay": {
+          "text": "Hotel Landmark Residency, a 3-star on the Warangal–Kazipet road, is one of the few upscale options. City Grand Hotel is at Rangampet, and the state-run Punnami Hotel is at Kazipet.",
+          "facts": [
+            "TDW3"
+          ]
+        },
+        "who_its_for": {
+          "items": [
+            {
+              "title": "Heritage lovers",
+              "body": "Kakatiya temples and the fort, mostly within 10–20 km."
+            },
+            {
+              "title": "Day-trippers",
+              "body": "Ramappa, about 70 km away, makes a full second day."
+            }
+          ],
+          "facts": [
+            "TDW2"
+          ]
+        },
+        "safety_health": {
+          "items": [
+            {
+              "title": "Heat",
+              "body": "March–June afternoons exceed 40 °C; drink plenty of water and stay in during the afternoon.",
+              "status": "seasonal"
+            },
+            {
+              "title": "Autos",
+              "body": "No meters — agree the fare first.",
+              "status": "verified"
+            },
+            {
+              "title": "Emergency",
+              "body": "Dial 112 for police, fire or ambulance.",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "TDWH",
+            "TDW1",
+            "TDWE"
+          ]
+        },
+        "faqs": {
+          "items": [
+            {
+              "title": "How do I get between Warangal and Kazipet?",
+              "body": "By shared or hired auto along the main road (about 20 km), or by city bus."
+            },
+            {
+              "title": "How long should I spend?",
+              "body": "Two days: one for the town's sights, one for Ramappa, about 70 km away."
+            },
+            {
+              "title": "Where can I stay?",
+              "body": "Hotel Landmark Residency, City Grand Hotel, or the state-run Punnami Hotel at Kazipet."
+            }
+          ],
+          "facts": [
+            "TDW1",
+            "TDW2",
+            "TDW3"
           ]
         }
       },

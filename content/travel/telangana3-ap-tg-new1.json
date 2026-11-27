@@ -148,6 +148,41 @@
       "url": "https://www.incredibleindia.gov.in/en/andhra-pradesh/guntur/kondapalli-fort",
       "title": "Kondapalli Fort — Incredible India",
       "authority": "government"
+    },
+    "WV_BDC": {
+      "url": "https://en.wikivoyage.org/wiki/Bhadrachalam",
+      "title": "Bhadrachalam — Wikivoyage",
+      "authority": "reference"
+    },
+    "WV_TG": {
+      "url": "https://en.wikivoyage.org/wiki/Telangana",
+      "title": "Telangana — Wikivoyage",
+      "authority": "reference"
+    },
+    "EVISA": {
+      "url": "https://indianvisaonline.gov.in/evisa/tvoa.html",
+      "title": "Indian e-Visa — official information (Government of India)",
+      "authority": "government"
+    },
+    "UPI": {
+      "url": "https://www.aap.com.au/aapreleases/cision20240723ae67416/",
+      "title": "NPCI: 'UPI One World' wallet available to inbound international travellers (press release, 24 July 2024)",
+      "authority": "media"
+    },
+    "W_112": {
+      "url": "https://en.wikipedia.org/wiki/112_(emergency_telephone_number)",
+      "title": "112 (emergency telephone number) — Wikipedia",
+      "authority": "reference"
+    },
+    "W_MDK": {
+      "url": "https://en.wikipedia.org/wiki/Medak",
+      "title": "Medak — Wikipedia",
+      "authority": "reference"
+    },
+    "W_VKB": {
+      "url": "https://en.wikipedia.org/wiki/Vikarabad",
+      "title": "Vikarabad — Wikipedia",
+      "authority": "reference"
     }
   },
   "facts": {
@@ -2254,6 +2289,374 @@
           "quote": "Perched atop a hill right beside the Krishna River"
         }
       ]
+    },
+    "TDB1": {
+      "place": "telangana/bhadrachalam",
+      "topic": "TDB1",
+      "claim": "The nearest airports are Hyderabad and Vijayawada; the nearest station, Bhadrachalam Road (Kothagudem, BDCR), is 40 km away with buses to town in about 50 minutes; the town is about 315 km from Hyderabad by road (about 7 hours), and tourism-department buses run from Hyderabad.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WV_BDC",
+          "quote": "The nearest airports are located in Hyderabad and Vijayawada"
+        },
+        {
+          "source": "WV_BDC",
+          "quote": "The nearest railway station is Bhadrachalam Road (station code: BDCR), 40 km from the town."
+        },
+        {
+          "source": "WV_BDC",
+          "quote": "It takes approximately 50 minutes to travel from Kothagudem Railway Station to Bhadrachalam by bus"
+        },
+        {
+          "source": "WV_BDC",
+          "quote": "It will be a 7 hours journey from Hyderabad to Bhadrachalam."
+        }
+      ]
+    },
+    "TDB2": {
+      "place": "telangana/bhadrachalam",
+      "topic": "TDB2",
+      "claim": "Sri Rama Navami (March–April) brings a huge influx of pilgrims for the Kalyanotsavam; at Vaikunta Ekadasi (Mukkoti, December–January) the deity gives darshan through the Vaikuntha dwaram.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WV_BDC",
+          "quote": "during Sri Rama Navami(March-April) there is a huge influx of pilgrims"
+        },
+        {
+          "source": "WV_BDC",
+          "quote": "Sree Seetaramachandra swamy will give darshan through the Vaikuntha dwaram on the eve of Mukkoti(December–January)"
+        }
+      ]
+    },
+    "TDB3": {
+      "place": "telangana/bhadrachalam",
+      "topic": "TDB3",
+      "claim": "Unmetered auto-rickshaws are everywhere — bargain; don't pre-book an auto for the temple, as darshan times vary (Mondays, Tuesdays and weekends are busy).",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WV_BDC",
+          "quote": "They don’t carry meters, so fares are to be bargained based on distance"
+        },
+        {
+          "source": "WV_BDC",
+          "quote": "Never book an auto rickshaw in advance for trips to the temple as the Darshan (to see the deity) time may vary depending on demand and day of the week (Mondays, Tuesdays and weekends are busy)."
+        }
+      ]
+    },
+    "TDB4": {
+      "place": "telangana/bhadrachalam",
+      "topic": "TDB4",
+      "claim": "Temple prasadam — laddu, chakrapongali, pulihora — is sold at the entrance; Veeranna Hotel near Amba Satram serves idli with ginger chutney; a mess at Tata Gudi Centre serves Telugu vegetarian meals.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WV_BDC",
+          "quote": "especially Laddu, Chakrapongali, Pulihora and Patikabellam (misri) are sold at nominal price right in the temple complex"
+        },
+        {
+          "source": "WV_BDC",
+          "quote": "For breakfast go to Veeranna Hotel near Amba satram to have delicious idly with spicy Ginger chutney."
+        },
+        {
+          "source": "WV_BDC",
+          "quote": "For lunch there is mess at Tata gudi centre to have delicious Telugu vegetarian food."
+        }
+      ]
+    },
+    "TDB5": {
+      "place": "telangana/bhadrachalam",
+      "topic": "TDB5",
+      "claim": "The temple administration's Sita Nilayam near the main temple offers good-value AC rooms; the state-run Punnami Bhadrachalam has dormitories; Sudarshan Residency is opposite the temple, walkable to the Godavari.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WV_BDC",
+          "quote": "Devastanam (temple administration) accommodation offers good value: Sita Nilayam"
+        },
+        {
+          "source": "WV_BDC",
+          "quote": "State run Punnami Bhadrachalam has dormitories"
+        },
+        {
+          "source": "WV_BDC",
+          "quote": "it is just opposite to the temple and walkable to both temple and river Godavari"
+        }
+      ]
+    },
+    "TDB6": {
+      "place": "telangana/bhadrachalam",
+      "topic": "TDB6",
+      "claim": "The Sri Rama temple was built by Kancharla Gopanna (Bhakta Ramadas) in 1630.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WV_BDC",
+          "quote": "The main attraction is the temple of Sri Ram built by Kancharla Gopanna, popularly known as Bhakta Ramadas, in 1630 AD."
+        }
+      ]
+    },
+    "TDBH": {
+      "place": "telangana/bhadrachalam",
+      "topic": "TDBH",
+      "claim": "Telangana summers (March–June) exceed 40 °C — drink plenty of water and avoid going out in the afternoon; mild winters are the best time to explore the state.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WV_TG",
+          "quote": "Drink plenty of water"
+        },
+        {
+          "source": "WV_TG",
+          "quote": "avoid going out in the afternoon when the temperature exceeds 40°C in summer (March-June)"
+        },
+        {
+          "source": "WV_TG",
+          "quote": "Winters are mild, making it the best time to explore the state’s natural beauty"
+        }
+      ]
+    },
+    "TDBV": {
+      "place": "telangana/bhadrachalam",
+      "topic": "TDBV",
+      "claim": "e-Tourist visa applications should be made at least 4 days before arrival, with a passport valid for at least six months.",
+      "claimType": "rule",
+      "evidence": [
+        {
+          "source": "EVISA",
+          "quote": "For e-Tourist and e-Business visa, Applicants of the eligible countries/territories may apply online minimum 4 days in advance of the date of arrival."
+        },
+        {
+          "source": "EVISA",
+          "quote": "Applicant's passport should have at least six months validity at the time of making application for grant of e-Visa."
+        }
+      ]
+    },
+    "TDBU": {
+      "place": "telangana/bhadrachalam",
+      "topic": "TDBU",
+      "claim": "International visitors can pay by QR code using NPCI's UPI One World wallet after a passport-and-visa KYC check.",
+      "claimType": "rule",
+      "evidence": [
+        {
+          "source": "UPI",
+          "quote": "The UPI One World wallet can be availed through authorized PPI issuers at airports, hotels, designated money exchange locations and other touchpoints, following a full KYC process based on a passport and valid visa."
+        }
+      ]
+    },
+    "TDBE": {
+      "place": "telangana/bhadrachalam",
+      "topic": "TDBE",
+      "claim": "112 is India's single emergency number for police, fire and ambulance.",
+      "claimType": "contact",
+      "evidence": [
+        {
+          "source": "W_112",
+          "quote": "112 is now the pan-country single emergency number for all emergencies."
+        }
+      ]
+    },
+    "TDM1": {
+      "place": "telangana/medak",
+      "topic": "TDM1",
+      "claim": "Medak's hill fort, built by the Kakatiyas and developed by the Qutb Shahis, stands about 90 m above the plains; Medak Cathedral is the seat of the Diocese of Medak, Asia's largest single diocese; Pocharam Wildlife Sanctuary is nearby.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "TG_MDK",
+          "quote": "The fort at Medak was originally constructed by the Kakatiya rulers and later developed by the Qutb Shahi rulers."
+        },
+        {
+          "source": "TG_MDK",
+          "quote": "The fort which stands about 90 meters above the surrounding plains is one of the important hill forts in the Deccan region."
+        },
+        {
+          "source": "W_MDK",
+          "quote": "Medak Cathedral sees over the Diocese of Medak, the single largest diocese in Asia."
+        },
+        {
+          "source": "W_MDK",
+          "quote": "Pocharam Wildlife Sanctuary is a forest and wildlife sanctuary named for the nearby Pocharam Lake."
+        }
+      ]
+    },
+    "TDMH": {
+      "place": "telangana/medak",
+      "topic": "TDMH",
+      "claim": "Telangana summers (March–June) exceed 40 °C — drink plenty of water and avoid going out in the afternoon; mild winters are the best time to explore the state.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WV_TG",
+          "quote": "Drink plenty of water"
+        },
+        {
+          "source": "WV_TG",
+          "quote": "avoid going out in the afternoon when the temperature exceeds 40°C in summer (March-June)"
+        },
+        {
+          "source": "WV_TG",
+          "quote": "Winters are mild, making it the best time to explore the state’s natural beauty"
+        }
+      ]
+    },
+    "TDMV": {
+      "place": "telangana/medak",
+      "topic": "TDMV",
+      "claim": "e-Tourist visa applications should be made at least 4 days before arrival, with a passport valid for at least six months.",
+      "claimType": "rule",
+      "evidence": [
+        {
+          "source": "EVISA",
+          "quote": "For e-Tourist and e-Business visa, Applicants of the eligible countries/territories may apply online minimum 4 days in advance of the date of arrival."
+        },
+        {
+          "source": "EVISA",
+          "quote": "Applicant's passport should have at least six months validity at the time of making application for grant of e-Visa."
+        }
+      ]
+    },
+    "TDMU": {
+      "place": "telangana/medak",
+      "topic": "TDMU",
+      "claim": "International visitors can pay by QR code using NPCI's UPI One World wallet after a passport-and-visa KYC check.",
+      "claimType": "rule",
+      "evidence": [
+        {
+          "source": "UPI",
+          "quote": "The UPI One World wallet can be availed through authorized PPI issuers at airports, hotels, designated money exchange locations and other touchpoints, following a full KYC process based on a passport and valid visa."
+        }
+      ]
+    },
+    "TDME": {
+      "place": "telangana/medak",
+      "topic": "TDME",
+      "claim": "112 is India's single emergency number for police, fire and ambulance.",
+      "claimType": "contact",
+      "evidence": [
+        {
+          "source": "W_112",
+          "quote": "112 is now the pan-country single emergency number for all emergencies."
+        }
+      ]
+    },
+    "TDV1": {
+      "place": "telangana/vikarabad",
+      "topic": "TDV1",
+      "claim": "Vikarabad is about 70 km from Hyderabad, in the Anantagiri Hills; Vikarabad Junction station is on the Vikarabad–Parli section of the Secunderabad division.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "TG_VKB",
+          "quote": "Vikarabad is a charming, scenic town located about 70 kilometers from Hyderabad, nestled in the picturesque hills of the Anantagiri Hills"
+        },
+        {
+          "source": "W_VKB",
+          "quote": "Vikarabad Junction railway station is located on the Vikarabad–Parli section of Secunderabad railway division of South Central Railway zone."
+        }
+      ]
+    },
+    "TDV2": {
+      "place": "telangana/vikarabad",
+      "topic": "TDV2",
+      "claim": "Vikarabad suits nature lovers, adventure seekers and those wanting a peaceful getaway: moderate treks in the Anantagiri Hills, kayaking at Kotpally Reservoir, camping, nature walks and birdwatching.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "TG_VKB",
+          "quote": "It's an ideal destination for nature lovers, adventure enthusiasts, and those seeking a peaceful getaway from the bustling city life."
+        },
+        {
+          "source": "TG_VKB",
+          "quote": "Trekking in Anantagiri Hills Difficulty Level : Moderate"
+        },
+        {
+          "source": "TG_VKB",
+          "quote": "Kayaking at Kotpally Reservoir"
+        },
+        {
+          "source": "TG_VKB",
+          "quote": "There are also organized eco-tourism camps that allow you to stay overnight"
+        }
+      ]
+    },
+    "TDV4": {
+      "place": "telangana/vikarabad",
+      "topic": "TDV4",
+      "claim": "Migratory birds can be seen in season; Vikarabad is a weekend or day trip from Hyderabad.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "TG_VKB",
+          "quote": "including migratory birds during the right season"
+        },
+        {
+          "source": "TG_VKB",
+          "quote": "makes it perfect for a peaceful weekend or a day trip from Hyderabad"
+        }
+      ]
+    },
+    "TDVH": {
+      "place": "telangana/vikarabad",
+      "topic": "TDVH",
+      "claim": "Telangana summers (March–June) exceed 40 °C — drink plenty of water and avoid going out in the afternoon; mild winters are the best time to explore the state.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WV_TG",
+          "quote": "Drink plenty of water"
+        },
+        {
+          "source": "WV_TG",
+          "quote": "avoid going out in the afternoon when the temperature exceeds 40°C in summer (March-June)"
+        },
+        {
+          "source": "WV_TG",
+          "quote": "Winters are mild, making it the best time to explore the state’s natural beauty"
+        }
+      ]
+    },
+    "TDVV": {
+      "place": "telangana/vikarabad",
+      "topic": "TDVV",
+      "claim": "e-Tourist visa applications should be made at least 4 days before arrival, with a passport valid for at least six months.",
+      "claimType": "rule",
+      "evidence": [
+        {
+          "source": "EVISA",
+          "quote": "For e-Tourist and e-Business visa, Applicants of the eligible countries/territories may apply online minimum 4 days in advance of the date of arrival."
+        },
+        {
+          "source": "EVISA",
+          "quote": "Applicant's passport should have at least six months validity at the time of making application for grant of e-Visa."
+        }
+      ]
+    },
+    "TDVU": {
+      "place": "telangana/vikarabad",
+      "topic": "TDVU",
+      "claim": "International visitors can pay by QR code using NPCI's UPI One World wallet after a passport-and-visa KYC check.",
+      "claimType": "rule",
+      "evidence": [
+        {
+          "source": "UPI",
+          "quote": "The UPI One World wallet can be availed through authorized PPI issuers at airports, hotels, designated money exchange locations and other touchpoints, following a full KYC process based on a passport and valid visa."
+        }
+      ]
+    },
+    "TDVE": {
+      "place": "telangana/vikarabad",
+      "topic": "TDVE",
+      "claim": "112 is India's single emergency number for police, fire and ambulance.",
+      "claimType": "contact",
+      "evidence": [
+        {
+          "source": "W_112",
+          "quote": "112 is now the pan-country single emergency number for all emergencies."
+        }
+      ]
     }
   },
   "places": [
@@ -2339,6 +2742,107 @@
           "facts": [
             "TVK3"
           ]
+        },
+        "how_to_reach": {
+          "text": "Vikarabad is about 70 km from Hyderabad by road. Vikarabad Junction station is on the Vikarabad–Parli line of the Secunderabad division.",
+          "facts": [
+            "TDV1"
+          ]
+        },
+        "best_time": {
+          "text": "Winter, when Telangana is mild and the best time to explore it; migratory birds visit in season. March–June afternoons exceed 40 °C.",
+          "facts": [
+            "TDVH",
+            "TDV4"
+          ]
+        },
+        "where_to_stay": {
+          "text": "Organised eco-tourism camps near Anantagiri let you stay overnight; many visitors come as a day or weekend trip from Hyderabad.",
+          "facts": [
+            "TDV2",
+            "TDV4"
+          ]
+        },
+        "who_its_for": {
+          "items": [
+            {
+              "title": "Trekkers",
+              "body": "Moderate trails in the Anantagiri Hills."
+            },
+            {
+              "title": "Paddlers",
+              "body": "Kayaking at Kotpally Reservoir."
+            },
+            {
+              "title": "Campers and birdwatchers",
+              "body": "Eco-tourism camps and forest walks."
+            }
+          ],
+          "facts": [
+            "TDV2"
+          ]
+        },
+        "safety_health": {
+          "items": [
+            {
+              "title": "Heat",
+              "body": "March–June afternoons exceed 40 °C; drink plenty of water and stay in during the afternoon.",
+              "status": "seasonal"
+            },
+            {
+              "title": "Emergency",
+              "body": "Dial 112 for police, fire or ambulance.",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "TDVH",
+            "TDVE"
+          ]
+        },
+        "practical_info": {
+          "items": [
+            {
+              "title": "Visas",
+              "body": "Apply for an e-Tourist visa at least 4 days before arrival; your passport needs at least six months' validity.",
+              "status": "verified"
+            },
+            {
+              "title": "Payments",
+              "body": "Visitors can pay by QR code with NPCI's UPI One World wallet after a passport-and-visa KYC check. Carry some cash for small purchases.",
+              "status": "verified"
+            },
+            {
+              "title": "Emergency",
+              "body": "Dial 112 for police, fire or ambulance.",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "TDVV",
+            "TDVU",
+            "TDVE"
+          ]
+        },
+        "faqs": {
+          "items": [
+            {
+              "title": "How far is Vikarabad from Hyderabad?",
+              "body": "About 70 km."
+            },
+            {
+              "title": "Can I camp there?",
+              "body": "Yes — organised eco-tourism camps near Anantagiri allow overnight stays."
+            },
+            {
+              "title": "Is there kayaking?",
+              "body": "Yes, at Kotpally Reservoir."
+            }
+          ],
+          "facts": [
+            "TDV1",
+            "TDV2"
+          ]
         }
       },
       "images": [
@@ -2414,6 +2918,134 @@
             "TBH1",
             "TBH2",
             "TBH3"
+          ]
+        },
+        "how_to_reach": {
+          "text": "Fly to Hyderabad or Vijayawada. The nearest station, Bhadrachalam Road at Kothagudem (BDCR), is 40 km away, with buses to town in about 50 minutes. By road it's about 315 km (about 7 hours) from Hyderabad, and tourism-department buses run the route.",
+          "facts": [
+            "TDB1"
+          ]
+        },
+        "best_time": {
+          "text": "Winter is mild and the best time to explore Telangana. Sri Rama Navami (March–April) brings the biggest crowds for the Kalyanotsavam, and Vaikunta Ekadasi (Mukkoti, December–January) is the other big festival.",
+          "facts": [
+            "TDBH",
+            "TDB2"
+          ]
+        },
+        "local_transport": {
+          "text": "Unmetered auto-rickshaws are everywhere, so bargain. Don't pre-book one for the temple: darshan times vary, and autos are easy to find afterwards.",
+          "facts": [
+            "TDB3"
+          ]
+        },
+        "food": {
+          "items": [
+            {
+              "body": "Temple prasadam — laddu, chakrapongali, pulihora — sold at the entrance."
+            },
+            {
+              "body": "Idli with ginger chutney at Veeranna Hotel near Amba Satram."
+            },
+            {
+              "body": "Telugu vegetarian meals at the mess at Tata Gudi Centre."
+            }
+          ],
+          "facts": [
+            "TDB4"
+          ]
+        },
+        "where_to_stay": {
+          "text": "The temple administration's Sita Nilayam, near the main temple, is good value. The state-run Punnami Bhadrachalam has dormitories, and Sudarshan Residency is opposite the temple, a short walk from the Godavari.",
+          "facts": [
+            "TDB5"
+          ]
+        },
+        "who_its_for": {
+          "items": [
+            {
+              "title": "Pilgrims",
+              "body": "The Sri Rama temple built by Bhakta Ramadas in 1630."
+            },
+            {
+              "title": "Festival-goers",
+              "body": "Sri Rama Navami and Vaikunta Ekadasi."
+            }
+          ],
+          "facts": [
+            "TDB6",
+            "TDB2"
+          ]
+        },
+        "safety_health": {
+          "items": [
+            {
+              "title": "Festival crowds",
+              "body": "Sri Rama Navami (March–April) brings a huge influx of pilgrims; Mondays, Tuesdays and weekends are busy.",
+              "status": "seasonal"
+            },
+            {
+              "title": "Heat",
+              "body": "March–June afternoons exceed 40 °C; drink plenty of water and stay in during the afternoon.",
+              "status": "seasonal"
+            },
+            {
+              "title": "Emergency",
+              "body": "Dial 112 for police, fire or ambulance.",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "TDB2",
+            "TDB3",
+            "TDBH",
+            "TDBE"
+          ]
+        },
+        "practical_info": {
+          "items": [
+            {
+              "title": "Visas",
+              "body": "Apply for an e-Tourist visa at least 4 days before arrival; your passport needs at least six months' validity.",
+              "status": "verified"
+            },
+            {
+              "title": "Payments",
+              "body": "Visitors can pay by QR code with NPCI's UPI One World wallet after a passport-and-visa KYC check. Carry some cash for small purchases.",
+              "status": "verified"
+            },
+            {
+              "title": "Emergency",
+              "body": "Dial 112 for police, fire or ambulance.",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "TDBV",
+            "TDBU",
+            "TDBE"
+          ]
+        },
+        "faqs": {
+          "items": [
+            {
+              "title": "What is the nearest railway station?",
+              "body": "Bhadrachalam Road (Kothagudem), 40 km away; buses take about 50 minutes."
+            },
+            {
+              "title": "When is Bhadrachalam most crowded?",
+              "body": "During Sri Rama Navami (March–April), and on Mondays, Tuesdays and weekends."
+            },
+            {
+              "title": "Where can I stay near the temple?",
+              "body": "Sita Nilayam (temple administration), Punnami Bhadrachalam or Sudarshan Residency."
+            }
+          ],
+          "facts": [
+            "TDB1",
+            "TDB2",
+            "TDB3",
+            "TDB5"
           ]
         }
       },
@@ -2655,6 +3287,89 @@
           "facts": [
             "TMD2",
             "TMD3"
+          ]
+        },
+        "best_time": {
+          "text": "Winter. Telangana's winters are mild, the best time to explore the state, while March–June afternoons exceed 40 °C.",
+          "facts": [
+            "TDMH"
+          ]
+        },
+        "who_its_for": {
+          "items": [
+            {
+              "title": "History lovers",
+              "body": "The Kakatiya hill fort, about 90 m above the plains."
+            },
+            {
+              "title": "Church architecture fans",
+              "body": "Medak Cathedral, seat of Asia's largest single diocese."
+            },
+            {
+              "title": "Nature lovers",
+              "body": "Pocharam Wildlife Sanctuary and its lake."
+            }
+          ],
+          "facts": [
+            "TDM1"
+          ]
+        },
+        "safety_health": {
+          "items": [
+            {
+              "title": "Heat",
+              "body": "March–June afternoons exceed 40 °C; drink plenty of water and stay in during the afternoon.",
+              "status": "seasonal"
+            },
+            {
+              "title": "Emergency",
+              "body": "Dial 112 for police, fire or ambulance.",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "TDMH",
+            "TDME"
+          ]
+        },
+        "practical_info": {
+          "items": [
+            {
+              "title": "Visas",
+              "body": "Apply for an e-Tourist visa at least 4 days before arrival; your passport needs at least six months' validity.",
+              "status": "verified"
+            },
+            {
+              "title": "Payments",
+              "body": "Visitors can pay by QR code with NPCI's UPI One World wallet after a passport-and-visa KYC check. Carry some cash for small purchases.",
+              "status": "verified"
+            },
+            {
+              "title": "Emergency",
+              "body": "Dial 112 for police, fire or ambulance.",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "TDMV",
+            "TDMU",
+            "TDME"
+          ]
+        },
+        "faqs": {
+          "items": [
+            {
+              "title": "What is Medak known for?",
+              "body": "Its Kakatiya hill fort and Medak Cathedral, seat of Asia's largest single diocese."
+            },
+            {
+              "title": "When should I visit?",
+              "body": "In winter; March–June afternoons exceed 40 °C."
+            }
+          ],
+          "facts": [
+            "TDM1",
+            "TDMH"
           ]
         }
       },
