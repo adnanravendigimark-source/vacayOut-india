@@ -88,6 +88,21 @@
       "url": "https://haryanatourism.gov.in/destinations/mahendragarh/",
       "title": "Mahendragarh — Haryana Tourism (Government of Haryana)",
       "authority": "government"
+    },
+    "EVISA": {
+      "url": "https://indianvisaonline.gov.in/evisa/tvoa.html",
+      "title": "Indian e-Visa — official information (Government of India)",
+      "authority": "government"
+    },
+    "UPI": {
+      "url": "https://www.aap.com.au/aapreleases/cision20240723ae67416/",
+      "title": "NPCI: 'UPI One World' wallet available to inbound international travellers (press release, 24 July 2024)",
+      "authority": "media"
+    },
+    "W_112": {
+      "url": "https://en.wikipedia.org/wiki/112_(emergency_telephone_number)",
+      "title": "112 (emergency telephone number) — Wikipedia",
+      "authority": "reference"
     }
   },
   "facts": {
@@ -726,6 +741,126 @@
           "quote": "Best season to visit: All seasons to visit."
         }
       ]
+    },
+    "HPKV": {
+      "place": "haryana/karnal",
+      "topic": "HPKV",
+      "claim": "e-Tourist visa applications should be made at least 4 days before arrival, with a passport valid for at least six months.",
+      "claimType": "rule",
+      "evidence": [
+        {
+          "source": "EVISA",
+          "quote": "For e-Tourist and e-Business visa, Applicants of the eligible countries/territories may apply online minimum 4 days in advance of the date of arrival."
+        },
+        {
+          "source": "EVISA",
+          "quote": "Applicant's passport should have at least six months validity at the time of making application for grant of e-Visa."
+        }
+      ]
+    },
+    "HPKU": {
+      "place": "haryana/karnal",
+      "topic": "HPKU",
+      "claim": "International visitors can pay by QR code using NPCI's UPI One World wallet after a passport-and-visa KYC check.",
+      "claimType": "rule",
+      "evidence": [
+        {
+          "source": "UPI",
+          "quote": "The UPI One World wallet can be availed through authorized PPI issuers at airports, hotels, designated money exchange locations and other touchpoints, following a full KYC process based on a passport and valid visa."
+        }
+      ]
+    },
+    "HPKE": {
+      "place": "haryana/karnal",
+      "topic": "HPKE",
+      "claim": "112 is India's single emergency number for police, fire and ambulance.",
+      "claimType": "contact",
+      "evidence": [
+        {
+          "source": "W_112",
+          "quote": "112 is now the pan-country single emergency number for all emergencies."
+        }
+      ]
+    },
+    "HPMV": {
+      "place": "haryana/morni-hills",
+      "topic": "HPMV",
+      "claim": "e-Tourist visa applications should be made at least 4 days before arrival, with a passport valid for at least six months.",
+      "claimType": "rule",
+      "evidence": [
+        {
+          "source": "EVISA",
+          "quote": "For e-Tourist and e-Business visa, Applicants of the eligible countries/territories may apply online minimum 4 days in advance of the date of arrival."
+        },
+        {
+          "source": "EVISA",
+          "quote": "Applicant's passport should have at least six months validity at the time of making application for grant of e-Visa."
+        }
+      ]
+    },
+    "HPMU": {
+      "place": "haryana/morni-hills",
+      "topic": "HPMU",
+      "claim": "International visitors can pay by QR code using NPCI's UPI One World wallet after a passport-and-visa KYC check.",
+      "claimType": "rule",
+      "evidence": [
+        {
+          "source": "UPI",
+          "quote": "The UPI One World wallet can be availed through authorized PPI issuers at airports, hotels, designated money exchange locations and other touchpoints, following a full KYC process based on a passport and valid visa."
+        }
+      ]
+    },
+    "HPME": {
+      "place": "haryana/morni-hills",
+      "topic": "HPME",
+      "claim": "112 is India's single emergency number for police, fire and ambulance.",
+      "claimType": "contact",
+      "evidence": [
+        {
+          "source": "W_112",
+          "quote": "112 is now the pan-country single emergency number for all emergencies."
+        }
+      ]
+    },
+    "HPNV": {
+      "place": "haryana/narnaul",
+      "topic": "HPNV",
+      "claim": "e-Tourist visa applications should be made at least 4 days before arrival, with a passport valid for at least six months.",
+      "claimType": "rule",
+      "evidence": [
+        {
+          "source": "EVISA",
+          "quote": "For e-Tourist and e-Business visa, Applicants of the eligible countries/territories may apply online minimum 4 days in advance of the date of arrival."
+        },
+        {
+          "source": "EVISA",
+          "quote": "Applicant's passport should have at least six months validity at the time of making application for grant of e-Visa."
+        }
+      ]
+    },
+    "HPNU": {
+      "place": "haryana/narnaul",
+      "topic": "HPNU",
+      "claim": "International visitors can pay by QR code using NPCI's UPI One World wallet after a passport-and-visa KYC check.",
+      "claimType": "rule",
+      "evidence": [
+        {
+          "source": "UPI",
+          "quote": "The UPI One World wallet can be availed through authorized PPI issuers at airports, hotels, designated money exchange locations and other touchpoints, following a full KYC process based on a passport and valid visa."
+        }
+      ]
+    },
+    "HPNE": {
+      "place": "haryana/narnaul",
+      "topic": "HPNE",
+      "claim": "112 is India's single emergency number for police, fire and ambulance.",
+      "claimType": "contact",
+      "evidence": [
+        {
+          "source": "W_112",
+          "quote": "112 is now the pan-country single emergency number for all emergencies."
+        }
+      ]
     }
   },
   "places": [
@@ -863,6 +998,30 @@
             "HMH1",
             "HDM2",
             "HMH4"
+          ]
+        },
+        "practical_info": {
+          "items": [
+            {
+              "title": "Visas",
+              "body": "Apply for an e-Tourist visa at least 4 days before arrival; your passport needs at least six months' validity.",
+              "status": "verified"
+            },
+            {
+              "title": "Payments",
+              "body": "Visitors can pay by QR code with NPCI's UPI One World wallet after a passport-and-visa KYC check. Carry some cash for small purchases.",
+              "status": "verified"
+            },
+            {
+              "title": "Emergency",
+              "body": "Dial 112 for police, fire or ambulance.",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "HPMV",
+            "HPMU",
+            "HPME"
           ]
         }
       },
@@ -1060,6 +1219,30 @@
             "HKR3",
             "HKR1"
           ]
+        },
+        "practical_info": {
+          "items": [
+            {
+              "title": "Visas",
+              "body": "Apply for an e-Tourist visa at least 4 days before arrival; your passport needs at least six months' validity.",
+              "status": "verified"
+            },
+            {
+              "title": "Payments",
+              "body": "Visitors can pay by QR code with NPCI's UPI One World wallet after a passport-and-visa KYC check. Carry some cash for small purchases.",
+              "status": "verified"
+            },
+            {
+              "title": "Emergency",
+              "body": "Dial 112 for police, fire or ambulance.",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "HPKV",
+            "HPKU",
+            "HPKE"
+          ]
         }
       },
       "images": [
@@ -1170,6 +1353,30 @@
           "facts": [
             "HDR1",
             "HNR2"
+          ]
+        },
+        "practical_info": {
+          "items": [
+            {
+              "title": "Visas",
+              "body": "Apply for an e-Tourist visa at least 4 days before arrival; your passport needs at least six months' validity.",
+              "status": "verified"
+            },
+            {
+              "title": "Payments",
+              "body": "Visitors can pay by QR code with NPCI's UPI One World wallet after a passport-and-visa KYC check. Carry some cash for small purchases.",
+              "status": "verified"
+            },
+            {
+              "title": "Emergency",
+              "body": "Dial 112 for police, fire or ambulance.",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "HPNV",
+            "HPNU",
+            "HPNE"
           ]
         }
       },

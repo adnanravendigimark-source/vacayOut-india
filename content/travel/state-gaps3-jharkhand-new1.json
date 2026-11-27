@@ -58,6 +58,31 @@
       "url": "https://en.wikipedia.org/wiki/Jagannath_Temple,_Ranchi",
       "title": "Jagannath Temple, Ranchi — Wikipedia",
       "authority": "reference"
+    },
+    "W_NTH": {
+      "url": "https://en.wikipedia.org/wiki/Netarhat",
+      "title": "Netarhat — Wikipedia",
+      "authority": "reference"
+    },
+    "WV_JH": {
+      "url": "https://en.wikivoyage.org/wiki/Jharkhand",
+      "title": "Jharkhand — Wikivoyage",
+      "authority": "reference"
+    },
+    "EVISA": {
+      "url": "https://indianvisaonline.gov.in/evisa/tvoa.html",
+      "title": "Indian e-Visa — official information (Government of India)",
+      "authority": "government"
+    },
+    "UPI": {
+      "url": "https://www.aap.com.au/aapreleases/cision20240723ae67416/",
+      "title": "NPCI: 'UPI One World' wallet available to inbound international travellers (press release, 24 July 2024)",
+      "authority": "media"
+    },
+    "W_112": {
+      "url": "https://en.wikipedia.org/wiki/112_(emergency_telephone_number)",
+      "title": "112 (emergency telephone number) — Wikipedia",
+      "authority": "reference"
     }
   },
   "facts": {
@@ -728,6 +753,78 @@
           "quote": "attracting thousands of tribal and non-tribal devotees from Ranchi and neighbouring areas"
         }
       ]
+    },
+    "JDN1": {
+      "place": "jharkhand/netarhat",
+      "topic": "JDN1",
+      "claim": "Netarhat is 156 km west of Ranchi, 118 km from Daltonganj and 82 km from the district headquarters, Latehar.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "W_NTH",
+          "quote": "It is located 156 kilometres (97 mi) west of Ranchi, the state capital."
+        },
+        {
+          "source": "W_NTH",
+          "quote": "It is 118 kilometres (73 mi) from Daltonganj."
+        },
+        {
+          "source": "W_NTH",
+          "quote": "It is located 82 kilometres (51 mi) from district headquarter Latehar"
+        }
+      ]
+    },
+    "JDN2": {
+      "place": "jharkhand/netarhat",
+      "topic": "JDN2",
+      "claim": "Jharkhand has been very safe overall after decades of left-wing extremism.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WV_JH",
+          "quote": "the state has been very safe overall after decades of left-wing extremism"
+        }
+      ]
+    },
+    "JDNV": {
+      "place": "jharkhand/netarhat",
+      "topic": "JDNV",
+      "claim": "e-Tourist visa applications should be made at least 4 days before arrival, with a passport valid for at least six months.",
+      "claimType": "rule",
+      "evidence": [
+        {
+          "source": "EVISA",
+          "quote": "For e-Tourist and e-Business visa, Applicants of the eligible countries/territories may apply online minimum 4 days in advance of the date of arrival."
+        },
+        {
+          "source": "EVISA",
+          "quote": "Applicant's passport should have at least six months validity at the time of making application for grant of e-Visa."
+        }
+      ]
+    },
+    "JDNU": {
+      "place": "jharkhand/netarhat",
+      "topic": "JDNU",
+      "claim": "International visitors can pay by QR code using NPCI's UPI One World wallet after a passport-and-visa KYC check.",
+      "claimType": "rule",
+      "evidence": [
+        {
+          "source": "UPI",
+          "quote": "The UPI One World wallet can be availed through authorized PPI issuers at airports, hotels, designated money exchange locations and other touchpoints, following a full KYC process based on a passport and valid visa."
+        }
+      ]
+    },
+    "JDNE": {
+      "place": "jharkhand/netarhat",
+      "topic": "JDNE",
+      "claim": "112 is India's single emergency number for police, fire and ambulance.",
+      "claimType": "contact",
+      "evidence": [
+        {
+          "source": "W_112",
+          "quote": "112 is now the pan-country single emergency number for all emergencies."
+        }
+      ]
     }
   },
   "places": [
@@ -795,6 +892,102 @@
             }
           ],
           "facts": [
+            "JNT3",
+            "JNT4"
+          ]
+        },
+        "how_to_reach": {
+          "text": "Netarhat is reached by road: 156 km west of Ranchi, 118 km from Daltonganj and 82 km from the district town, Latehar.",
+          "facts": [
+            "JDN1"
+          ]
+        },
+        "safety_health": {
+          "items": [
+            {
+              "title": "General",
+              "body": "Jharkhand has been very safe overall after decades of left-wing extremism.",
+              "status": "verified"
+            },
+            {
+              "title": "Remote plateau",
+              "body": "Netarhat is 82 km from the district town; carry what you need.",
+              "status": "verified"
+            },
+            {
+              "title": "Emergency",
+              "body": "Dial 112 for police, fire or ambulance.",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "JDN2",
+            "JDN1",
+            "JDNE"
+          ]
+        },
+        "who_its_for": {
+          "items": [
+            {
+              "title": "Sunrise and sunset seekers",
+              "body": "Sunrise Point and Magnolia Point."
+            },
+            {
+              "title": "Waterfall lovers",
+              "body": "Upper and Lower Ghaghri, and Lodh Falls, Jharkhand's highest."
+            },
+            {
+              "title": "Wildlife fans",
+              "body": "Mahuadanr Wolf Sanctuary and Betla National Park nearby."
+            }
+          ],
+          "facts": [
+            "JNT3",
+            "JNT5",
+            "JNT4"
+          ]
+        },
+        "practical_info": {
+          "items": [
+            {
+              "title": "Visas",
+              "body": "Apply for an e-Tourist visa at least 4 days before arrival; your passport needs at least six months' validity.",
+              "status": "verified"
+            },
+            {
+              "title": "Payments",
+              "body": "Visitors can pay by QR code with NPCI's UPI One World wallet after a passport-and-visa KYC check. Carry some cash for small purchases.",
+              "status": "verified"
+            },
+            {
+              "title": "Emergency",
+              "body": "Dial 112 for police, fire or ambulance.",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "JDNV",
+            "JDNU",
+            "JDNE"
+          ]
+        },
+        "faqs": {
+          "items": [
+            {
+              "title": "How far is Netarhat from Ranchi?",
+              "body": "About 156 km west, by road."
+            },
+            {
+              "title": "Where can I watch the sunset?",
+              "body": "Magnolia Point, 10 km away; Sunrise Point is in Netarhat."
+            },
+            {
+              "title": "Is there wildlife nearby?",
+              "body": "Yes — Mahuadanr Wolf Sanctuary and Betla National Park."
+            }
+          ],
+          "facts": [
+            "JDN1",
             "JNT3",
             "JNT4"
           ]

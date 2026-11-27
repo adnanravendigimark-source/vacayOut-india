@@ -273,6 +273,36 @@
       "url": "https://haryanatourism.gov.in/destinations/panipat/",
       "title": "Panipat — Haryana Tourism (Government of Haryana)",
       "authority": "government"
+    },
+    "WV_RAN": {
+      "url": "https://en.wikivoyage.org/wiki/Ranchi",
+      "title": "Ranchi — Wikivoyage",
+      "authority": "reference"
+    },
+    "WV_JH": {
+      "url": "https://en.wikivoyage.org/wiki/Jharkhand",
+      "title": "Jharkhand — Wikivoyage",
+      "authority": "reference"
+    },
+    "WV_JAM": {
+      "url": "https://en.wikivoyage.org/wiki/Jamshedpur",
+      "title": "Jamshedpur — Wikivoyage",
+      "authority": "reference"
+    },
+    "WV_DGR": {
+      "url": "https://en.wikivoyage.org/wiki/Deoghar",
+      "title": "Deoghar — Wikivoyage",
+      "authority": "reference"
+    },
+    "W_SHM": {
+      "url": "https://en.wikipedia.org/wiki/Shravani_Mela",
+      "title": "Shravani Mela — Wikipedia",
+      "authority": "reference"
+    },
+    "W_DGR": {
+      "url": "https://en.wikipedia.org/wiki/Deoghar",
+      "title": "Deoghar — Wikipedia",
+      "authority": "reference"
     }
   },
   "facts": {
@@ -2108,6 +2138,358 @@
           "quote": "112 is now the pan-country single emergency number for all emergencies."
         }
       ]
+    },
+    "JDR1": {
+      "place": "jharkhand/ranchi",
+      "topic": "JDR1",
+      "claim": "Ranchi sits at 650 m on the Chota Nagpur Plateau; summer days reach 40 °C with cool evenings (16 °C), winter ranges from 25 °C down to 0 °C, and annual rainfall is 1,530 mm.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WV_RAN",
+          "quote": "Ranchi is on the Chota Nagpur Plateau, at a height of 650 m"
+        },
+        {
+          "source": "WV_RAN",
+          "quote": "Summer afternoons are hot but evenings and nights are cool and enjoyable (maximum 40°C, min 16°C)."
+        },
+        {
+          "source": "WV_RAN",
+          "quote": "It is cool/cold in winter (maximum 25°C and minimum 0°C)."
+        },
+        {
+          "source": "WV_RAN",
+          "quote": "Annual rainfall is 1530 mm."
+        }
+      ]
+    },
+    "JDR2": {
+      "place": "jharkhand/ranchi",
+      "topic": "JDR2",
+      "claim": "Hired cars, auto-rickshaws and cycle-rickshaws are available; shared autos run fixed routes, and city buses ply designated routes.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WV_RAN",
+          "quote": "Hired cars, autorickshaws and cycle rickshaws are available for local transport."
+        },
+        {
+          "source": "WV_RAN",
+          "quote": "The share autos operate along fixed routes and take in as many passengers as physically possible."
+        },
+        {
+          "source": "WV_RAN",
+          "quote": "City buses also ply on designated routes for most of hours."
+        }
+      ]
+    },
+    "JDR3": {
+      "place": "jharkhand/ranchi",
+      "topic": "JDR3",
+      "claim": "Hotels cluster on Main Road and Station Road, for example Hotel Capitol Hill (Main Road), Hotel Capital Residency (Station Road) and Green Acres (Airport Road).",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WV_RAN",
+          "quote": "Hotel Capitol Hill , Main Road"
+        },
+        {
+          "source": "WV_RAN",
+          "quote": "Hotel Capital Residency , Station Road"
+        },
+        {
+          "source": "WV_RAN",
+          "quote": "Green Acres ( Hotel ), Airport Road"
+        }
+      ]
+    },
+    "JDR4": {
+      "place": "jharkhand/ranchi",
+      "topic": "JDR4",
+      "claim": "Before travelling out of town at night, ask locals such as hotel staff about the area; avoid unfamiliar localities late at night; Jharkhand has been very safe overall after decades of left-wing extremism.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WV_RAN",
+          "quote": "should check with local people, say the hotel management, about the law and order situation in a particular area"
+        },
+        {
+          "source": "WV_RAN",
+          "quote": "it is not advisable to venture out late in the evening/ night even in unknown localities of the city unless one is fully aware of that area"
+        },
+        {
+          "source": "WV_JH",
+          "quote": "the state has been very safe overall after decades of left-wing extremism"
+        }
+      ]
+    },
+    "JDR5": {
+      "place": "jharkhand/ranchi",
+      "topic": "JDR5",
+      "claim": "Birsa Munda Airport is 7 km from the centre, with daily flights from Bengaluru, Delhi, Hyderabad, Kolkata, Mumbai and others; Hatia station serves as terminus for many trains.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WV_RAN",
+          "quote": "7 km from the city centre and 1 km from Hatia SER"
+        },
+        {
+          "source": "WV_RAN",
+          "quote": "It has daily flights from Bangalore, Bhubaneswar, Delhi, Hyderabad, Indore, Jharsuguda, Kolkata, Mumbai, Patna, and Raipur."
+        },
+        {
+          "source": "WV_RAN",
+          "quote": "Hatia is a station next to Ranchi and serves as terminus for many of the trains."
+        }
+      ]
+    },
+    "JDR6": {
+      "place": "jharkhand/ranchi",
+      "topic": "JDR6",
+      "claim": "Forests around Ranchi are home to bears, sambar, chital, nilgai and hares.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WV_RAN",
+          "quote": "Extensive forests around Ranchi are home to bears, sambar, chital, nilgai and hares."
+        }
+      ]
+    },
+    "JDRE": {
+      "place": "jharkhand/ranchi",
+      "topic": "JDRE",
+      "claim": "112 is India's single emergency number for police, fire and ambulance.",
+      "claimType": "contact",
+      "evidence": [
+        {
+          "source": "W_112",
+          "quote": "112 is now the pan-country single emergency number for all emergencies."
+        }
+      ]
+    },
+    "JDJ1": {
+      "place": "jharkhand/jamshedpur",
+      "topic": "JDJ1",
+      "claim": "Jamshedpur, named after Jamsetji Tata and called 'The Steel City', is home to Tata Steel and Tata Motors; Tata Steel runs much of its infrastructure and public services; English is understood in visitor areas.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WV_JAM",
+          "quote": "Jamshedpur is named after the industrialist Jamsetji Tata and is home to such industrial giants as Tata Steel and Tata Motors."
+        },
+        {
+          "source": "WV_JAM",
+          "quote": "Tata Steel is responsible for the infrastructure as well as the public services offered in most parts of the city."
+        },
+        {
+          "source": "WV_JAM",
+          "quote": "English is understood in the main areas of visitor interest."
+        }
+      ]
+    },
+    "JDJ2": {
+      "place": "jharkhand/jamshedpur",
+      "topic": "JDJ2",
+      "claim": "Hired cars, minibuses and auto-rickshaws are available across town; autos wait 24/7 at the station, but there is no prepaid booth, so bargain hard.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WV_JAM",
+          "quote": "Hired cars, minibuses and auto rickshaws are available in all parts of the town."
+        },
+        {
+          "source": "WV_JAM",
+          "quote": "Auto Rickshaws are available 24/7 at Jamshedpur railway station."
+        },
+        {
+          "source": "WV_JAM",
+          "quote": "However, there is no pre paid booth. Be prepared to bargain hard."
+        }
+      ]
+    },
+    "JDJ3": {
+      "place": "jharkhand/jamshedpur",
+      "topic": "JDJ3",
+      "claim": "Hotels include Ramada by Wyndham in Bistupur, the Sonnet Hotel at South Park Bistupur, and Ganga Regency in Sakchi.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WV_JAM",
+          "quote": "Ramada by Wyndham , Holding No 3, Bistupur"
+        },
+        {
+          "source": "WV_JAM",
+          "quote": "At the Sonnet Hotel, South Park Bistupur."
+        },
+        {
+          "source": "WV_JAM",
+          "quote": "Ganga Regency , 171, New Baradwari, Sakchi"
+        }
+      ]
+    },
+    "JDJ4": {
+      "place": "jharkhand/jamshedpur",
+      "topic": "JDJ4",
+      "claim": "Jamshedpur is a cosmopolitan city with people from all over India; Jharkhand has been very safe overall after decades of left-wing extremism.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WV_JAM",
+          "quote": "Jamshedpur is a cosmopolitan city with people from all over the country."
+        },
+        {
+          "source": "WV_JH",
+          "quote": "the state has been very safe overall after decades of left-wing extremism"
+        }
+      ]
+    },
+    "JDJE": {
+      "place": "jharkhand/jamshedpur",
+      "topic": "JDJE",
+      "claim": "112 is India's single emergency number for police, fire and ambulance.",
+      "claimType": "contact",
+      "evidence": [
+        {
+          "source": "W_112",
+          "quote": "112 is now the pan-country single emergency number for all emergencies."
+        }
+      ]
+    },
+    "JDD1": {
+      "place": "jharkhand/deoghar",
+      "topic": "JDD1",
+      "claim": "The Shravani Mela runs for the month of Shravan (July–August) and is one of India's largest religious gatherings, drawing millions of Kanwariyas who carry Ganges water about 105 km on foot from Sultanganj.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "W_SHM",
+          "quote": "Shravani Mela is a month-long Hindu festival observed in the month of Shravan (July–August)"
+        },
+        {
+          "source": "W_SHM",
+          "quote": "This festival is one of the largest religious gatherings in India, attracting millions of devotees"
+        },
+        {
+          "source": "W_SHM",
+          "quote": "carrying it on foot over a distance of approximately 105 km to the Baba Baidyanath temple in Deoghar"
+        }
+      ]
+    },
+    "JDD2": {
+      "place": "jharkhand/deoghar",
+      "topic": "JDD2",
+      "claim": "Unmetered taxis, hired cars, auto-rickshaws, tongas and cycle-rickshaws are available.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WV_DGR",
+          "quote": "Unmetered taxis or hired cars, auto rickshaws, tongas and cycle rickshaws are available."
+        }
+      ]
+    },
+    "JDD3": {
+      "place": "jharkhand/deoghar",
+      "topic": "JDD3",
+      "claim": "Deoghar specialities include peda, rabri, bel ka morabba (September–March), tilkut (December–February), langra mangoes and sattu-potato parathas at Luchhu Shah's in the temple lane.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WV_DGR",
+          "quote": "Peda - a type of milk-based sweet-meat is the Deoghar speciality."
+        },
+        {
+          "source": "WV_DGR",
+          "quote": "Rabri - made of condensed milk, available throughout the year."
+        },
+        {
+          "source": "WV_DGR",
+          "quote": "Tilkut - made of til and sugar mixed and crushed together, mostly available from the month of December to February."
+        },
+        {
+          "source": "WV_DGR",
+          "quote": "famous location 'Parathas of Luchhu Shah' in the mandir lane"
+        }
+      ]
+    },
+    "JDD4": {
+      "place": "jharkhand/deoghar",
+      "topic": "JDD4",
+      "claim": "Bel ka morabba is available September to March; langra mangoes are another speciality.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WV_DGR",
+          "quote": "Bel ka Morabba Another speciality of Deoghar available form September to March."
+        },
+        {
+          "source": "WV_DGR",
+          "quote": "Langra Aam - Deoghar's another speciality is its langra aam."
+        }
+      ]
+    },
+    "JDD5": {
+      "place": "jharkhand/deoghar",
+      "topic": "JDD5",
+      "claim": "Stays include Jharkhand Tourism's Nataraj Vihar, Saraswati Ashram near the temple on Mansarowar Road, and Sewa Dham, a trust-run ashram opposite Nandan Pahar.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WV_DGR",
+          "quote": "Nataraj Vihar (Jharkhand Tourism)"
+        },
+        {
+          "source": "WV_DGR",
+          "quote": "Saraswati Ashram , Mansarowar Road, near Mandir"
+        },
+        {
+          "source": "WV_DGR",
+          "quote": "Ashram-type accommodation, run by a trust, with non-AC rooms"
+        }
+      ]
+    },
+    "JDD6": {
+      "place": "jharkhand/deoghar",
+      "topic": "JDD6",
+      "claim": "Deoghar Airport is about 12 km from the city, with IndiGo flights to Ranchi, Patna, Bengaluru, Mumbai, Kolkata and Delhi; Jasidih Junction is the nearest major station.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "W_DGR",
+          "quote": "which is approximately 12 km (7.4 mi) from the city centre"
+        },
+        {
+          "source": "W_DGR",
+          "quote": "IndiGo operates its flight services only for Ranchi, Patna, Bengaluru, Mumbai, Kolkata and Delhi."
+        },
+        {
+          "source": "W_DGR",
+          "quote": "Jasidih Junction is the nearest train station serving Deoghar."
+        }
+      ]
+    },
+    "JDDE": {
+      "place": "jharkhand/deoghar",
+      "topic": "JDDE",
+      "claim": "112 is India's single emergency number for police, fire and ambulance.",
+      "claimType": "contact",
+      "evidence": [
+        {
+          "source": "W_112",
+          "quote": "112 is now the pan-country single emergency number for all emergencies."
+        }
+      ]
+    },
+    "JDD7": {
+      "place": "jharkhand/deoghar",
+      "topic": "JDD7",
+      "claim": "Jharkhand has been very safe overall after decades of left-wing extremism.",
+      "claimType": "general",
+      "evidence": [
+        {
+          "source": "WV_JH",
+          "quote": "the state has been very safe overall after decades of left-wing extremism"
+        }
+      ]
     }
   },
   "places": [
@@ -3283,6 +3665,128 @@
           "facts": [
             "GRN3"
           ]
+        },
+        "key_facts": {
+          "items": [
+            {
+              "title": "Altitude",
+              "body": "650 m, on the Chota Nagpur Plateau",
+              "status": "verified"
+            },
+            {
+              "title": "Summer",
+              "body": "Hot days up to 40 °C, cool nights around 16 °C",
+              "status": "seasonal"
+            },
+            {
+              "title": "Winter",
+              "body": "25 °C by day, down to 0 °C at night",
+              "status": "seasonal"
+            },
+            {
+              "title": "Rainfall",
+              "body": "About 1,530 mm a year",
+              "status": "verified"
+            },
+            {
+              "title": "Airport",
+              "body": "Birsa Munda, 7 km from the centre",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "JDR1",
+            "JDR5"
+          ]
+        },
+        "local_transport": {
+          "text": "Shared autos run fixed routes and city buses ply designated routes; auto-rickshaws, cycle-rickshaws and hired cars are easy to find. Hatia station, next to Ranchi, is the terminus for many trains.",
+          "facts": [
+            "JDR2",
+            "JDR5"
+          ]
+        },
+        "where_to_stay": {
+          "text": "Most hotels are on Main Road and Station Road — for example Hotel Capitol Hill (Main Road) and Hotel Capital Residency (Station Road) — with Green Acres on Airport Road.",
+          "facts": [
+            "JDR3"
+          ]
+        },
+        "safety_health": {
+          "items": [
+            {
+              "title": "Night travel",
+              "body": "Ask your hotel about the area before driving out of town at night, and avoid unfamiliar localities late.",
+              "status": "verified"
+            },
+            {
+              "title": "General",
+              "body": "Jharkhand has been very safe overall after decades of left-wing extremism.",
+              "status": "verified"
+            },
+            {
+              "title": "Cold nights",
+              "body": "Winter nights can drop to 0 °C.",
+              "status": "seasonal"
+            },
+            {
+              "title": "Emergency",
+              "body": "Dial 112 for police, fire or ambulance.",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "JDR4",
+            "JDR1",
+            "JDRE"
+          ]
+        },
+        "who_its_for": {
+          "items": [
+            {
+              "title": "Waterfall chasers",
+              "body": "Hundru plunges over 300 feet."
+            },
+            {
+              "title": "Food lovers",
+              "body": "Dhuska, chilka roti and the night food streets around Albert Ekka Chowk."
+            },
+            {
+              "title": "Nature lovers",
+              "body": "Forests with sambar, chital and nilgai."
+            }
+          ],
+          "facts": [
+            "RAN2",
+            "GRN2",
+            "JDR6"
+          ]
+        },
+        "faqs": {
+          "items": [
+            {
+              "title": "How far is the airport?",
+              "body": "Birsa Munda Airport is 7 km from the centre."
+            },
+            {
+              "title": "How do I get around Ranchi?",
+              "body": "Shared autos on fixed routes, city buses, autos and hired cars."
+            },
+            {
+              "title": "Is Ranchi cold in winter?",
+              "body": "Yes — nights can drop to 0 °C."
+            },
+            {
+              "title": "When is the best time to visit?",
+              "body": "October to March."
+            }
+          ],
+          "facts": [
+            "JDR5",
+            "JDR2",
+            "JDR1",
+            "GRN1"
+          ]
         }
       },
       "wikidataId": "Q174461",
@@ -3486,6 +3990,115 @@
           "facts": [
             "GDG2",
             "GDG1"
+          ]
+        },
+        "best_time": {
+          "text": "For the Shravani Mela, come in Shravan (July–August), when millions of pilgrims arrive. For quieter darshan and seasonal sweets, come between September and March: bel ka morabba runs September–March and tilkut December–February.",
+          "facts": [
+            "JDD1",
+            "JDD4",
+            "JDD3"
+          ]
+        },
+        "local_transport": {
+          "text": "Unmetered taxis, hired cars, auto-rickshaws, tongas and cycle-rickshaws are all available; fix the fare first.",
+          "facts": [
+            "JDD2"
+          ]
+        },
+        "food": {
+          "items": [
+            {
+              "body": "Peda, Deoghar's signature milk sweet, and rabri all year."
+            },
+            {
+              "body": "Sattu-and-potato parathas at Luchhu Shah's in the temple lane."
+            },
+            {
+              "body": "Seasonal: bel ka morabba (September–March), tilkut (December–February), langra mangoes."
+            }
+          ],
+          "facts": [
+            "JDD3",
+            "JDD4"
+          ]
+        },
+        "where_to_stay": {
+          "text": "Jharkhand Tourism runs Nataraj Vihar. Near the temple, Saraswati Ashram on Mansarowar Road is a budget option, and Sewa Dham, a trust-run ashram opposite Nandan Pahar, has simple non-AC rooms.",
+          "facts": [
+            "JDD5"
+          ]
+        },
+        "safety_health": {
+          "items": [
+            {
+              "title": "Shravani Mela crowds",
+              "body": "Millions of pilgrims arrive in July–August; book early and expect queues.",
+              "status": "seasonal"
+            },
+            {
+              "title": "Fares",
+              "body": "Taxis are unmetered — agree the price first.",
+              "status": "verified"
+            },
+            {
+              "title": "General",
+              "body": "Jharkhand has been very safe overall after decades of left-wing extremism.",
+              "status": "verified"
+            },
+            {
+              "title": "Emergency",
+              "body": "Dial 112 for police, fire or ambulance.",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "JDD1",
+            "JDD2",
+            "JDD7",
+            "JDDE"
+          ]
+        },
+        "who_its_for": {
+          "items": [
+            {
+              "title": "Pilgrims",
+              "body": "Baba Baidyanath Dham, a Jyotirlinga and Shakti peetha."
+            },
+            {
+              "title": "Kanwariyas",
+              "body": "The 105 km walk from Sultanganj during Shravan."
+            },
+            {
+              "title": "Sweet lovers",
+              "body": "Peda, rabri and tilkut."
+            }
+          ],
+          "facts": [
+            "GDG1",
+            "JDD1",
+            "JDD3"
+          ]
+        },
+        "faqs": {
+          "items": [
+            {
+              "title": "When is the Shravani Mela?",
+              "body": "Through the month of Shravan, July–August."
+            },
+            {
+              "title": "Does Deoghar have an airport?",
+              "body": "Yes — about 12 km from the city, with flights to Delhi, Kolkata, Mumbai, Bengaluru, Patna and Ranchi."
+            },
+            {
+              "title": "What should I eat?",
+              "body": "Peda, rabri and Luchhu Shah's parathas."
+            }
+          ],
+          "facts": [
+            "JDD1",
+            "JDD6",
+            "JDD3"
           ]
         }
       },
@@ -3848,6 +4461,112 @@
           ],
           "facts": [
             "GJS3"
+          ]
+        },
+        "key_facts": {
+          "items": [
+            {
+              "title": "Named after",
+              "body": "Jamsetji Tata",
+              "status": "verified"
+            },
+            {
+              "title": "Known as",
+              "body": "The Steel City — home of Tata Steel and Tata Motors",
+              "status": "verified"
+            },
+            {
+              "title": "Civic services",
+              "body": "Largely run by Tata Steel",
+              "status": "verified"
+            },
+            {
+              "title": "Language",
+              "body": "English understood in visitor areas",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "JDJ1"
+          ]
+        },
+        "local_transport": {
+          "text": "Hired cars, minibuses and auto-rickshaws run across town. Autos wait 24/7 at the station, but there is no prepaid booth, so agree the fare first.",
+          "facts": [
+            "JDJ2"
+          ]
+        },
+        "where_to_stay": {
+          "text": "Bistupur has Ramada by Wyndham and the Sonnet Hotel (South Park); Ganga Regency is in Sakchi.",
+          "facts": [
+            "JDJ3"
+          ]
+        },
+        "safety_health": {
+          "items": [
+            {
+              "title": "Autos",
+              "body": "No prepaid booth at the station — agree the fare before you ride.",
+              "status": "verified"
+            },
+            {
+              "title": "General",
+              "body": "Jharkhand has been very safe overall after decades of left-wing extremism.",
+              "status": "verified"
+            },
+            {
+              "title": "Emergency",
+              "body": "Dial 112 for police, fire or ambulance.",
+              "status": "verified"
+            }
+          ],
+          "facts": [
+            "JDJ2",
+            "JDJ4",
+            "JDJE"
+          ]
+        },
+        "who_its_for": {
+          "items": [
+            {
+              "title": "Industrial-heritage fans",
+              "body": "India's Steel City, founded by Jamsetji Tata in 1907."
+            },
+            {
+              "title": "Street-food lovers",
+              "body": "Litti chokha and gugni in Sakchi, Bistupur and Jubilee Park."
+            },
+            {
+              "title": "Families",
+              "body": "A planned, cosmopolitan city with English widely understood."
+            }
+          ],
+          "facts": [
+            "JAM1",
+            "GJS3",
+            "JDJ4",
+            "JDJ1"
+          ]
+        },
+        "faqs": {
+          "items": [
+            {
+              "title": "Who runs Jamshedpur's services?",
+              "body": "Tata Steel provides much of the city's infrastructure and public services."
+            },
+            {
+              "title": "Are there prepaid autos at the station?",
+              "body": "No — bargain before you ride."
+            },
+            {
+              "title": "When should I visit?",
+              "body": "October to February, at about 10–28 °C."
+            }
+          ],
+          "facts": [
+            "JDJ1",
+            "JDJ2",
+            "GJS1"
           ]
         }
       },
